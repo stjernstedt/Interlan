@@ -1,0 +1,84 @@
+  0.000: overhalla.kommune.no INFO Begin testing zone overhalla.kommune.no with version 1.6.1.
+  0.403: overhalla.kommune.no INFO Begin testing delegation for overhalla.kommune.no.
+  8.333: overhalla.kommune.no INFO Name servers listed at parent: ns1.nextra.no,ns2.nextra.no
+  9.437: overhalla.kommune.no INFO Name servers listed at child: ns1.nextra.no,ns2.nextra.no
+  9.438: overhalla.kommune.no NOTICE No IPv6 name servers found.
+  9.602: overhalla.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.726: overhalla.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.854: overhalla.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.995: overhalla.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.776: overhalla.kommune.no INFO It is possible to build a referral packet for overhalla.kommune.no that works without EDNS0.
+ 11.260: overhalla.kommune.no INFO Previously used name servers for overhalla.kommune.no: 
+ 11.260: overhalla.kommune.no INFO Done testing delegation for overhalla.kommune.no.
+ 11.269: overhalla.kommune.no INFO Begin testing name server ns1.nextra.no.
+ 11.269: overhalla.kommune.no INFO Begin testing host ns1.nextra.no.
+ 11.459: overhalla.kommune.no INFO Begin testing address 148.122.208.98.
+ 24.231: overhalla.kommune.no INFO Done testing address 148.122.208.98.
+ 24.231: overhalla.kommune.no INFO Done testing host ns1.nextra.no.
+ 24.497: overhalla.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) answers queries over UDP.
+ 24.541: overhalla.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) answers queries over TCP.
+ 24.593: overhalla.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) is not recursive.
+ 24.697: overhalla.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) authoritative for overhalla.kommune.no.
+ 24.742: overhalla.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) closed for zone transfer of overhalla.kommune.no.
+ 24.773: overhalla.kommune.no NOTICE No answer received from 148.122.208.98 when querying for hostname.bind/CH/TXT.
+ 24.797: overhalla.kommune.no INFO Legacy name server ID for ns1.nextra.no (148.122.208.98): version.bind = Nominum ANS 2.8.1.2
+ 24.821: overhalla.kommune.no INFO Legacy name server ID for ns1.nextra.no (148.122.208.98): id.server = 275236d1-c090-4e72-8b4f-6bb3656fbdc2
+ 24.849: overhalla.kommune.no INFO Legacy name server ID for ns1.nextra.no (148.122.208.98): version.server = Nominum ANS 2.8.1.2
+ 24.849: overhalla.kommune.no INFO Done testing name server ns1.nextra.no.
+ 24.849: overhalla.kommune.no INFO Begin testing name server ns2.nextra.no.
+ 24.849: overhalla.kommune.no INFO Begin testing host ns2.nextra.no.
+ 24.981: overhalla.kommune.no INFO Begin testing address 148.122.161.2.
+ 25.661: overhalla.kommune.no INFO Done testing address 148.122.161.2.
+ 25.661: overhalla.kommune.no INFO Done testing host ns2.nextra.no.
+ 25.821: overhalla.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) answers queries over UDP.
+ 25.858: overhalla.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) answers queries over TCP.
+ 25.887: overhalla.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) is not recursive.
+ 25.980: overhalla.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) authoritative for overhalla.kommune.no.
+ 26.031: overhalla.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) closed for zone transfer of overhalla.kommune.no.
+ 26.068: overhalla.kommune.no NOTICE No answer received from 148.122.161.2 when querying for hostname.bind/CH/TXT.
+ 26.089: overhalla.kommune.no INFO Legacy name server ID for ns2.nextra.no (148.122.161.2): version.bind = Nominum ANS 2.8.1.2
+ 26.102: overhalla.kommune.no INFO Legacy name server ID for ns2.nextra.no (148.122.161.2): id.server = b15665a4-93cf-4b41-b1b3-3effb406c70f
+ 26.115: overhalla.kommune.no INFO Legacy name server ID for ns2.nextra.no (148.122.161.2): version.server = Nominum ANS 2.8.1.2
+ 26.115: overhalla.kommune.no INFO Done testing name server ns2.nextra.no.
+ 26.115: overhalla.kommune.no INFO Begin testing zone consistency for overhalla.kommune.no.
+ 26.677: overhalla.kommune.no INFO SOA at address 148.122.208.98 has serial 2013020601.
+ 26.690: overhalla.kommune.no INFO SOA at address 148.122.161.2 has serial 2013020601.
+ 26.691: overhalla.kommune.no INFO All SOA records have consistent serial numbers.
+ 26.691: overhalla.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 26.974: overhalla.kommune.no NOTICE The listed nameservers for overhalla.kommune.no all report the same set of nameservers.
+ 26.974: overhalla.kommune.no INFO Done testing zone consistency for overhalla.kommune.no.
+ 26.974: overhalla.kommune.no INFO Begin testing SOA parameters for overhalla.kommune.no.
+ 26.989: overhalla.kommune.no INFO Found SOA record for overhalla.kommune.no.
+ 26.989: overhalla.kommune.no INFO Begin testing host ns1.nextra.no.
+ 27.113: overhalla.kommune.no INFO Begin testing address 148.122.208.98.
+ 27.242: overhalla.kommune.no INFO Done testing address 148.122.208.98.
+ 27.242: overhalla.kommune.no INFO Done testing host ns1.nextra.no.
+ 27.242: overhalla.kommune.no INFO SOA MNAME for overhalla.kommune.no valid (ns1.nextra.no).
+ 27.243: overhalla.kommune.no INFO SOA MNAME for overhalla.kommune.no (ns1.nextra.no) listed as NS.
+ 27.501: overhalla.kommune.no INFO SOA MNAME for overhalla.kommune.no (ns1.nextra.no) is authoritative.
+ 27.502: overhalla.kommune.no INFO Begin testing email address hostmaster@telenor.net.
+ 29.027: overhalla.kommune.no INFO Mail exchangers for hostmaster@telenor.net found mx.nsc.no.
+ 29.027: overhalla.kommune.no INFO Begin testing host mx.nsc.no.
+ 29.297: overhalla.kommune.no INFO Begin testing address 193.213.112.62.
+ 30.173: overhalla.kommune.no INFO Done testing address 193.213.112.62.
+ 30.173: overhalla.kommune.no INFO Done testing host mx.nsc.no.
+ 30.281: overhalla.kommune.no INFO Done testing email address hostmaster@telenor.net.
+ 30.281: overhalla.kommune.no INFO Successful attempt to deliver email for SOA RNAME of overhalla.kommune.no (hostmaster.telenor.net) using hostmaster@telenor.net.
+ 30.281: overhalla.kommune.no INFO SOA TTL for overhalla.kommune.no OK (3600) - recommended >= 3600.
+ 30.281: overhalla.kommune.no NOTICE SOA refresh for overhalla.kommune.no too small (3600) - recommended >= 14400.
+ 30.281: overhalla.kommune.no NOTICE SOA retry for overhalla.kommune.no too small (600) - recommended >= 3600.
+ 30.281: overhalla.kommune.no INFO SOA expire for overhalla.kommune.no OK (604800) - recommended >= 604800.
+ 30.281: overhalla.kommune.no INFO SOA minimum for overhalla.kommune.no OK (3600) - recommended between 300 and 86400.
+ 30.282: overhalla.kommune.no INFO Done testing SOA parameters for overhalla.kommune.no.
+ 30.282: overhalla.kommune.no INFO Begin testing connectivity for overhalla.kommune.no.
+ 31.278: overhalla.kommune.no NOTICE Zone announced by fewer than two IPv4 ASN.
+ 31.278: overhalla.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 31.278: overhalla.kommune.no INFO Done testing connectivity for overhalla.kommune.no.
+ 31.278: overhalla.kommune.no INFO Begin testing DNSSEC for overhalla.kommune.no.
+ 31.361: overhalla.kommune.no INFO Did not find DS record for overhalla.kommune.no at parent.
+ 31.421: overhalla.kommune.no INFO Servers for overhalla.kommune.no have consistent extra processing status.
+ 31.451: overhalla.kommune.no INFO Authenticated denial records not found for overhalla.kommune.no.
+ 31.469: overhalla.kommune.no INFO Did not find DNSKEY record for overhalla.kommune.no at child.
+ 31.469: overhalla.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 31.469: overhalla.kommune.no INFO Done testing DNSSEC for overhalla.kommune.no.
+ 31.469: overhalla.kommune.no INFO Test completed for zone overhalla.kommune.no.

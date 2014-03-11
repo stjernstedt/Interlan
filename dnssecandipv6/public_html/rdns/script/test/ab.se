@@ -1,0 +1,81 @@
+  0.000: ab.se INFO Begin testing zone ab.se with version 1.5.0.
+  0.001: ab.se INFO Begin testing delegation for ab.se.
+ 10.528: ab.se INFO Name servers listed at parent: ns.grasberg.com,ns2.grasberg.com
+ 13.139: ab.se INFO Name servers listed at child: ns.grasberg.com,ns2.grasberg.com
+ 13.139: ab.se NOTICE No IPv6 name servers found.
+ 14.715: ab.se INFO It is possible to build a referral packet for ab.se that works without EDNS0.
+ 14.715: ab.se INFO Done testing delegation for ab.se.
+ 14.715: ab.se INFO Begin testing name server ns.grasberg.com.
+ 14.716: ab.se INFO Begin testing host ns.grasberg.com.
+ 15.204: ab.se INFO Begin testing address 195.198.236.20.
+ 27.632: ab.se INFO Done testing address 195.198.236.20.
+ 27.632: ab.se INFO Done testing host ns.grasberg.com.
+ 28.214: ab.se INFO Name server ns.grasberg.com (195.198.236.20) answers queries over UDP.
+ 28.248: ab.se INFO Name server ns.grasberg.com (195.198.236.20) answers queries over TCP.
+ 28.330: ab.se WARNING Name server ns.grasberg.com (195.198.236.20) is recursive.
+ 28.437: ab.se INFO Name server ns.grasberg.com (195.198.236.20) authoritative for ab.se.
+ 28.487: ab.se NOTICE Name server ns.grasberg.com (195.198.236.20) open for zone transfer of ab.se.
+ 28.562: ab.se INFO Legacy name server ID for ns.grasberg.com (195.198.236.20): hostname.bind = ns
+ 28.575: ab.se INFO Legacy name server ID for ns.grasberg.com (195.198.236.20): version.bind = 9.8.1-P1
+ 28.622: ab.se NOTICE No answer received from 195.198.236.20 when querying for version.server/CH/TXT.
+ 28.622: ab.se INFO Done testing name server ns.grasberg.com.
+ 28.623: ab.se INFO Begin testing name server ns2.grasberg.com.
+ 28.623: ab.se INFO Begin testing host ns2.grasberg.com.
+ 29.016: ab.se INFO Begin testing address 195.198.236.21.
+ 30.267: ab.se INFO Done testing address 195.198.236.21.
+ 30.271: ab.se INFO Done testing host ns2.grasberg.com.
+ 30.739: ab.se INFO Name server ns2.grasberg.com (195.198.236.21) answers queries over UDP.
+ 30.793: ab.se INFO Name server ns2.grasberg.com (195.198.236.21) answers queries over TCP.
+ 31.034: ab.se WARNING Name server ns2.grasberg.com (195.198.236.21) is recursive.
+ 31.198: ab.se INFO Name server ns2.grasberg.com (195.198.236.21) authoritative for ab.se.
+ 31.345: ab.se NOTICE Name server ns2.grasberg.com (195.198.236.21) open for zone transfer of ab.se.
+ 31.377: ab.se INFO Legacy name server ID for ns2.grasberg.com (195.198.236.21): hostname.bind = ns2
+ 31.389: ab.se INFO Legacy name server ID for ns2.grasberg.com (195.198.236.21): version.bind = 9.7.0-P1
+ 31.447: ab.se NOTICE No answer received from 195.198.236.21 when querying for version.server/CH/TXT.
+ 31.447: ab.se INFO Done testing name server ns2.grasberg.com.
+ 31.448: ab.se INFO Begin testing zone consistency for ab.se.
+ 33.181: ab.se INFO SOA at address 195.198.236.21 has serial 2013052303.
+ 33.227: ab.se INFO SOA at address 195.198.236.20 has serial 2013052303.
+ 33.227: ab.se INFO All SOA records have consistent serial numbers.
+ 33.227: ab.se INFO All other fields in the SOA record are consistent among all name servers.
+ 34.163: ab.se NOTICE The listed nameservers for ab.se all report the same set of nameservers.
+ 34.163: ab.se INFO Done testing zone consistency for ab.se.
+ 34.164: ab.se INFO Begin testing SOA parameters for ab.se.
+ 34.195: ab.se INFO Found SOA record for ab.se.
+ 34.195: ab.se INFO Begin testing host ab.se.
+ 34.678: ab.se INFO Begin testing address 195.198.236.53.
+ 35.127: ab.se WARNING Could not find reverse address for 195.198.236.53 (53.236.198.195.in-addr.arpa.).
+ 35.138: ab.se INFO Done testing address 195.198.236.53.
+ 35.138: ab.se INFO Done testing host ab.se.
+ 35.138: ab.se INFO SOA MNAME for ab.se valid (ab.se).
+ 35.139: ab.se NOTICE SOA MNAME for ab.se (ab.se) not listed as NS.
+ 41.585: ab.se INFO SOA MNAME for ab.se (ab.se) is authoritative.
+ 41.585: ab.se INFO Begin testing email address hostmaster@ab.se.
+ 41.885: ab.se INFO Mail exchangers for hostmaster@ab.se found cleaner2.ab.se.
+ 41.885: ab.se INFO All mail servers for hostmaster@ab.se are in zone ab.se.
+ 41.885: ab.se INFO Begin testing host cleaner2.ab.se.
+ 42.534: ab.se INFO Begin testing address 195.198.236.89.
+ 43.459: ab.se INFO Done testing address 195.198.236.89.
+ 43.459: ab.se INFO Done testing host cleaner2.ab.se.
+ 43.759: ab.se INFO Done testing email address hostmaster@ab.se.
+ 43.760: ab.se INFO Successful attempt to deliver email for SOA RNAME of ab.se (hostmaster.ab.se) using hostmaster@ab.se.
+ 43.760: ab.se INFO SOA TTL for ab.se OK (3600) - recommended >= 3600.
+ 43.760: ab.se NOTICE SOA refresh for ab.se too small (3600) - recommended >= 14400.
+ 43.760: ab.se NOTICE SOA refresh for ab.se lower than retry (3600 vs 3600).
+ 43.760: ab.se INFO SOA retry for ab.se OK (3600) - recommended >= 3600.
+ 43.761: ab.se NOTICE SOA expire for ab.se too small (3600) - recommended >= 604800.
+ 43.761: ab.se NOTICE SOA expire for ab.se lower than refresh.
+ 43.761: ab.se INFO SOA minimum for ab.se OK (3600) - recommended between 300 and 86400.
+ 43.761: ab.se INFO Done testing SOA parameters for ab.se.
+ 43.761: ab.se INFO Begin testing connectivity for ab.se.
+ 45.092: ab.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 45.092: ab.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 45.092: ab.se INFO Done testing connectivity for ab.se.
+ 45.093: ab.se INFO Begin testing DNSSEC for ab.se.
+ 45.115: ab.se INFO Did not find DS record for ab.se at parent.
+ 45.183: ab.se INFO Servers for ab.se have consistent extra processing status.
+ 45.235: ab.se INFO Authenticated denial records not found for ab.se.
+ 45.272: ab.se INFO Did not find DNSKEY record for ab.se at child.
+ 45.272: ab.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 45.272: ab.se INFO Done testing DNSSEC for ab.se.
+ 45.273: ab.se INFO Test completed for zone ab.se.

@@ -1,0 +1,84 @@
+  0.000: savonlinna.fi INFO Begin testing zone savonlinna.fi with version 1.6.1.
+  0.836: savonlinna.fi INFO Begin testing delegation for savonlinna.fi.
+ 10.961: savonlinna.fi INFO Name servers listed at parent: ns1.blcnet.fi,ns2.blcnet.fi
+ 12.622: savonlinna.fi INFO Name servers listed at child: ns1.blcnet.fi,ns2.blcnet.fi
+ 12.622: savonlinna.fi NOTICE No IPv6 name servers found.
+ 12.695: savonlinna.fi INFO Parent glue for savonlinna.fi found: ns1.blcnet.fi (46.163.192.131)
+ 12.760: savonlinna.fi INFO Parent glue for savonlinna.fi found: ns2.blcnet.fi (46.163.192.141)
+ 12.815: savonlinna.fi INFO Checking glue for ns1.blcnet.fi (46.163.192.131).
+ 12.815: savonlinna.fi INFO Checking glue for ns2.blcnet.fi (46.163.192.141).
+ 12.847: savonlinna.fi INFO Parent glue for savonlinna.fi found: ns1.blcnet.fi (46.163.192.131)
+ 12.847: savonlinna.fi INFO Parent glue for savonlinna.fi found: ns2.blcnet.fi (46.163.192.141)
+ 13.731: savonlinna.fi INFO It is possible to build a referral packet for savonlinna.fi that works without EDNS0.
+ 14.368: savonlinna.fi INFO Previously used name servers for savonlinna.fi: 
+ 14.368: savonlinna.fi INFO Done testing delegation for savonlinna.fi.
+ 14.368: savonlinna.fi INFO Begin testing name server ns1.blcnet.fi.
+ 14.368: savonlinna.fi INFO Begin testing host ns1.blcnet.fi.
+ 14.680: savonlinna.fi INFO Begin testing address 46.163.192.131.
+ 21.127: savonlinna.fi INFO Done testing address 46.163.192.131.
+ 21.127: savonlinna.fi INFO Done testing host ns1.blcnet.fi.
+ 21.304: savonlinna.fi INFO Name server ns1.blcnet.fi (46.163.192.131) answers queries over UDP.
+ 21.353: savonlinna.fi INFO Name server ns1.blcnet.fi (46.163.192.131) answers queries over TCP.
+ 21.391: savonlinna.fi INFO Name server ns1.blcnet.fi (46.163.192.131) is not recursive.
+ 21.480: savonlinna.fi INFO Name server ns1.blcnet.fi (46.163.192.131) authoritative for savonlinna.fi.
+ 21.534: savonlinna.fi INFO Name server ns1.blcnet.fi (46.163.192.131) closed for zone transfer of savonlinna.fi.
+ 21.560: savonlinna.fi INFO Legacy name server ID for ns1.blcnet.fi (46.163.192.131): hostname.bind = ns1.blcnet.fi
+ 21.584: savonlinna.fi INFO Legacy name server ID for ns1.blcnet.fi (46.163.192.131): version.bind = REFUSED
+ 21.624: savonlinna.fi NOTICE No answer received from 46.163.192.131 when querying for version.server/CH/TXT.
+ 21.624: savonlinna.fi INFO Done testing name server ns1.blcnet.fi.
+ 21.624: savonlinna.fi INFO Begin testing name server ns2.blcnet.fi.
+ 21.624: savonlinna.fi INFO Begin testing host ns2.blcnet.fi.
+ 21.712: savonlinna.fi INFO Begin testing address 46.163.192.141.
+ 22.195: savonlinna.fi INFO Done testing address 46.163.192.141.
+ 22.195: savonlinna.fi INFO Done testing host ns2.blcnet.fi.
+ 22.409: savonlinna.fi INFO Name server ns2.blcnet.fi (46.163.192.141) answers queries over UDP.
+ 22.445: savonlinna.fi INFO Name server ns2.blcnet.fi (46.163.192.141) answers queries over TCP.
+ 22.463: savonlinna.fi INFO Name server ns2.blcnet.fi (46.163.192.141) is not recursive.
+ 22.541: savonlinna.fi INFO Name server ns2.blcnet.fi (46.163.192.141) authoritative for savonlinna.fi.
+ 22.599: savonlinna.fi INFO Name server ns2.blcnet.fi (46.163.192.141) closed for zone transfer of savonlinna.fi.
+ 22.620: savonlinna.fi INFO Legacy name server ID for ns2.blcnet.fi (46.163.192.141): hostname.bind = ns2.blcnet.fi
+ 22.640: savonlinna.fi INFO Legacy name server ID for ns2.blcnet.fi (46.163.192.141): version.bind = REFUSED
+ 22.689: savonlinna.fi NOTICE No answer received from 46.163.192.141 when querying for version.server/CH/TXT.
+ 22.689: savonlinna.fi INFO Done testing name server ns2.blcnet.fi.
+ 22.690: savonlinna.fi INFO Begin testing zone consistency for savonlinna.fi.
+ 23.312: savonlinna.fi INFO SOA at address 46.163.192.131 has serial 2010121301.
+ 23.351: savonlinna.fi INFO SOA at address 46.163.192.141 has serial 2010121301.
+ 23.352: savonlinna.fi INFO All SOA records have consistent serial numbers.
+ 23.352: savonlinna.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 23.712: savonlinna.fi NOTICE The listed nameservers for savonlinna.fi all report the same set of nameservers.
+ 23.713: savonlinna.fi INFO Done testing zone consistency for savonlinna.fi.
+ 23.713: savonlinna.fi INFO Begin testing SOA parameters for savonlinna.fi.
+ 23.732: savonlinna.fi INFO Found SOA record for savonlinna.fi.
+ 23.732: savonlinna.fi INFO Begin testing host ns1.blcnet.fi.
+ 23.928: savonlinna.fi INFO Begin testing address 46.163.192.131.
+ 24.116: savonlinna.fi INFO Done testing address 46.163.192.131.
+ 24.116: savonlinna.fi INFO Done testing host ns1.blcnet.fi.
+ 24.116: savonlinna.fi INFO SOA MNAME for savonlinna.fi valid (ns1.blcnet.fi).
+ 24.116: savonlinna.fi INFO SOA MNAME for savonlinna.fi (ns1.blcnet.fi) listed as NS.
+ 24.365: savonlinna.fi INFO SOA MNAME for savonlinna.fi (ns1.blcnet.fi) is authoritative.
+ 24.365: savonlinna.fi INFO Begin testing email address hostmaster@blcnet.fi.
+ 24.564: savonlinna.fi INFO Mail exchangers for hostmaster@blcnet.fi found mail.blcnet.fi.
+ 24.564: savonlinna.fi INFO Begin testing host mail.blcnet.fi.
+ 24.968: savonlinna.fi INFO Begin testing address 46.163.245.199.
+ 25.644: savonlinna.fi INFO Done testing address 46.163.245.199.
+ 25.644: savonlinna.fi INFO Done testing host mail.blcnet.fi.
+ 25.762: savonlinna.fi INFO Done testing email address hostmaster@blcnet.fi.
+ 25.762: savonlinna.fi INFO Successful attempt to deliver email for SOA RNAME of savonlinna.fi (hostmaster.blcnet.fi) using hostmaster@blcnet.fi.
+ 25.763: savonlinna.fi INFO SOA TTL for savonlinna.fi OK (38400) - recommended >= 3600.
+ 25.763: savonlinna.fi INFO SOA refresh for savonlinna.fi OK (21600) - recommended >= 14400.
+ 25.763: savonlinna.fi INFO SOA retry for savonlinna.fi OK (3600) - recommended >= 3600.
+ 25.763: savonlinna.fi INFO SOA expire for savonlinna.fi OK (691200) - recommended >= 604800.
+ 25.763: savonlinna.fi INFO SOA minimum for savonlinna.fi OK (86400) - recommended between 300 and 86400.
+ 25.763: savonlinna.fi INFO Done testing SOA parameters for savonlinna.fi.
+ 25.763: savonlinna.fi INFO Begin testing connectivity for savonlinna.fi.
+ 27.037: savonlinna.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 27.037: savonlinna.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 27.037: savonlinna.fi INFO Done testing connectivity for savonlinna.fi.
+ 27.037: savonlinna.fi INFO Begin testing DNSSEC for savonlinna.fi.
+ 27.159: savonlinna.fi INFO Did not find DS record for savonlinna.fi at parent.
+ 27.276: savonlinna.fi INFO Servers for savonlinna.fi have consistent extra processing status.
+ 27.312: savonlinna.fi INFO Authenticated denial records not found for savonlinna.fi.
+ 27.332: savonlinna.fi INFO Did not find DNSKEY record for savonlinna.fi at child.
+ 27.332: savonlinna.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 27.332: savonlinna.fi INFO Done testing DNSSEC for savonlinna.fi.
+ 27.332: savonlinna.fi INFO Test completed for zone savonlinna.fi.

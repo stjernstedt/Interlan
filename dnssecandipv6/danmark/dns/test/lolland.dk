@@ -1,0 +1,88 @@
+  0.000: lolland.dk INFO Begin testing zone lolland.dk with version 1.6.1.
+  0.507: lolland.dk INFO Begin testing delegation for lolland.dk.
+  5.517: lolland.dk INFO Name servers listed at parent: ns-auth03.kmd.dk,ns-auth04.kmd.dk
+  7.157: lolland.dk INFO Name servers listed at child: ns-auth03.kmd.dk,ns-auth04.kmd.dk
+  7.157: lolland.dk NOTICE No IPv6 name servers found.
+  7.351: lolland.dk INFO Parent glue for lolland.dk found: ns-auth03.kmd.dk (131.165.64.5)
+  7.534: lolland.dk INFO Parent glue for lolland.dk found: ns-auth04.kmd.dk (131.165.4.5)
+  7.575: lolland.dk INFO Checking glue for ns-auth03.kmd.dk (131.165.64.5).
+  7.576: lolland.dk INFO Checking glue for ns-auth04.kmd.dk (131.165.4.5).
+  7.576: lolland.dk INFO Parent glue for lolland.dk found: ns-auth03.kmd.dk (131.165.64.5)
+  7.576: lolland.dk INFO Parent glue for lolland.dk found: ns-auth04.kmd.dk (131.165.4.5)
+  8.649: lolland.dk INFO It is possible to build a referral packet for lolland.dk that works without EDNS0.
+  9.343: lolland.dk INFO Previously used name servers for lolland.dk: 
+  9.343: lolland.dk INFO Done testing delegation for lolland.dk.
+  9.344: lolland.dk INFO Begin testing name server ns-auth03.kmd.dk.
+  9.344: lolland.dk INFO Begin testing host ns-auth03.kmd.dk.
+  9.805: lolland.dk INFO Begin testing address 131.165.64.5.
+ 17.922: lolland.dk INFO Done testing address 131.165.64.5.
+ 17.922: lolland.dk INFO Done testing host ns-auth03.kmd.dk.
+ 18.156: lolland.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) answers queries over UDP.
+ 18.262: lolland.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) answers queries over TCP.
+ 18.319: lolland.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) is not recursive.
+ 18.536: lolland.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) authoritative for lolland.dk.
+ 18.690: lolland.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) closed for zone transfer of lolland.dk.
+ 18.759: lolland.dk INFO Legacy name server ID for ns-auth03.kmd.dk (131.165.64.5): hostname.bind = ns-auth03.kmd.dk
+ 18.819: lolland.dk INFO Legacy name server ID for ns-auth03.kmd.dk (131.165.64.5): version.bind = 1.0
+ 18.922: lolland.dk NOTICE No answer received from 131.165.64.5 when querying for version.server/CH/TXT.
+ 18.930: lolland.dk INFO Done testing name server ns-auth03.kmd.dk.
+ 18.930: lolland.dk INFO Begin testing name server ns-auth04.kmd.dk.
+ 18.930: lolland.dk INFO Begin testing host ns-auth04.kmd.dk.
+ 19.091: lolland.dk INFO Begin testing address 131.165.4.5.
+ 19.601: lolland.dk INFO Done testing address 131.165.4.5.
+ 19.601: lolland.dk INFO Done testing host ns-auth04.kmd.dk.
+ 19.957: lolland.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) answers queries over UDP.
+ 20.086: lolland.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) answers queries over TCP.
+ 20.161: lolland.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) is not recursive.
+ 20.381: lolland.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) authoritative for lolland.dk.
+ 20.553: lolland.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) closed for zone transfer of lolland.dk.
+ 20.635: lolland.dk INFO Legacy name server ID for ns-auth04.kmd.dk (131.165.4.5): hostname.bind = ns-auth04.kmd.dk
+ 20.691: lolland.dk INFO Legacy name server ID for ns-auth04.kmd.dk (131.165.4.5): version.bind = 1.0
+ 20.797: lolland.dk NOTICE No answer received from 131.165.4.5 when querying for version.server/CH/TXT.
+ 20.797: lolland.dk INFO Done testing name server ns-auth04.kmd.dk.
+ 20.798: lolland.dk INFO Begin testing zone consistency for lolland.dk.
+ 21.759: lolland.dk INFO SOA at address 131.165.4.5 has serial 183.
+ 21.848: lolland.dk INFO SOA at address 131.165.64.5 has serial 183.
+ 21.848: lolland.dk INFO All SOA records have consistent serial numbers.
+ 21.848: lolland.dk INFO All other fields in the SOA record are consistent among all name servers.
+ 22.469: lolland.dk NOTICE The listed nameservers for lolland.dk all report the same set of nameservers.
+ 22.469: lolland.dk INFO Done testing zone consistency for lolland.dk.
+ 22.469: lolland.dk INFO Begin testing SOA parameters for lolland.dk.
+ 22.556: lolland.dk INFO Found SOA record for lolland.dk.
+ 22.556: lolland.dk INFO Begin testing host ns-auth03.kmd.dk.
+ 22.807: lolland.dk INFO Begin testing address 131.165.64.5.
+ 23.174: lolland.dk INFO Done testing address 131.165.64.5.
+ 23.175: lolland.dk INFO Done testing host ns-auth03.kmd.dk.
+ 23.175: lolland.dk INFO SOA MNAME for lolland.dk valid (ns-auth03.kmd.dk).
+ 23.175: lolland.dk INFO SOA MNAME for lolland.dk (ns-auth03.kmd.dk) listed as NS.
+ 23.492: lolland.dk INFO SOA MNAME for lolland.dk (ns-auth03.kmd.dk) is authoritative.
+ 23.492: lolland.dk INFO Begin testing email address dnsadmin@kmd.dk.
+ 23.740: lolland.dk INFO Mail exchangers for dnsadmin@kmd.dk found edge1.kmd.dk,edge2.kmd.dk.
+ 23.740: lolland.dk INFO Begin testing host edge1.kmd.dk.
+ 24.355: lolland.dk INFO Begin testing address 131.165.63.88.
+ 25.337: lolland.dk INFO Done testing address 131.165.63.88.
+ 25.338: lolland.dk INFO Done testing host edge1.kmd.dk.
+ 25.573: lolland.dk INFO Begin testing host edge2.kmd.dk.
+ 26.087: lolland.dk INFO Begin testing address 131.165.63.89.
+ 26.881: lolland.dk INFO Done testing address 131.165.63.89.
+ 26.882: lolland.dk INFO Done testing host edge2.kmd.dk.
+ 27.121: lolland.dk INFO Done testing email address dnsadmin@kmd.dk.
+ 27.122: lolland.dk INFO Successful attempt to deliver email for SOA RNAME of lolland.dk (dnsadmin.kmd.dk) using dnsadmin@kmd.dk.
+ 27.122: lolland.dk INFO SOA TTL for lolland.dk OK (3600) - recommended >= 3600.
+ 27.122: lolland.dk NOTICE SOA refresh for lolland.dk too small (10800) - recommended >= 14400.
+ 27.122: lolland.dk INFO SOA retry for lolland.dk OK (3600) - recommended >= 3600.
+ 27.122: lolland.dk INFO SOA expire for lolland.dk OK (604800) - recommended >= 604800.
+ 27.122: lolland.dk INFO SOA minimum for lolland.dk OK (43200) - recommended between 300 and 86400.
+ 27.122: lolland.dk INFO Done testing SOA parameters for lolland.dk.
+ 27.122: lolland.dk INFO Begin testing connectivity for lolland.dk.
+ 28.244: lolland.dk NOTICE Zone announced by fewer than two IPv4 ASN.
+ 28.245: lolland.dk NOTICE Zone announced by fewer than two IPv6 ASN.
+ 28.245: lolland.dk INFO Done testing connectivity for lolland.dk.
+ 28.245: lolland.dk INFO Begin testing DNSSEC for lolland.dk.
+ 28.394: lolland.dk INFO Did not find DS record for lolland.dk at parent.
+ 28.603: lolland.dk INFO Servers for lolland.dk have consistent extra processing status.
+ 28.706: lolland.dk INFO Authenticated denial records not found for lolland.dk.
+ 28.774: lolland.dk INFO Did not find DNSKEY record for lolland.dk at child.
+ 28.774: lolland.dk INFO No DNSKEY(s) found at child, other tests skipped.
+ 28.775: lolland.dk INFO Done testing DNSSEC for lolland.dk.
+ 28.775: lolland.dk INFO Test completed for zone lolland.dk.

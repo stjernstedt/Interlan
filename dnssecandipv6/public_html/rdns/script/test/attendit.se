@@ -1,0 +1,79 @@
+  0.000: attendit.se INFO Begin testing zone attendit.se with version 1.5.0.
+  0.001: attendit.se INFO Begin testing delegation for attendit.se.
+ 14.260: attendit.se INFO Name servers listed at parent: ns.attendit-network.se,ns2.attendit-network.se
+ 45.924: attendit.se INFO Name servers listed at child: ns.attendit-network.se,ns2.attendit-network.se
+ 45.924: attendit.se NOTICE No IPv6 name servers found.
+ 45.932: attendit.se INFO Parent glue for attendit.se found: ns.attendit-network.se (83.140.103.2)
+ 45.964: attendit.se INFO Parent glue for attendit.se found: ns2.attendit-network.se (194.23.215.15)
+ 45.973: attendit.se INFO Checking glue for ns.attendit-network.se (83.140.103.2).
+ 45.973: attendit.se INFO Checking glue for ns2.attendit-network.se (194.23.215.15).
+ 45.974: attendit.se INFO Parent glue for attendit.se found: ns.attendit-network.se (83.140.103.2)
+ 45.975: attendit.se INFO Parent glue for attendit.se found: ns2.attendit-network.se (194.23.215.15)
+ 58.717: attendit.se INFO It is possible to build a referral packet for attendit.se that works without EDNS0.
+ 58.717: attendit.se INFO Done testing delegation for attendit.se.
+ 58.718: attendit.se INFO Begin testing name server ns.attendit-network.se.
+ 58.718: attendit.se INFO Begin testing host ns.attendit-network.se.
+ 58.956: attendit.se INFO Begin testing address 83.140.103.2.
+ 81.020: attendit.se INFO Done testing address 83.140.103.2.
+ 81.025: attendit.se INFO Done testing host ns.attendit-network.se.
+ 81.576: attendit.se INFO Name server ns.attendit-network.se (83.140.103.2) answers queries over UDP.
+ 81.592: attendit.se INFO Name server ns.attendit-network.se (83.140.103.2) answers queries over TCP.
+ 81.939: attendit.se WARNING Name server ns.attendit-network.se (83.140.103.2) is recursive.
+ 82.040: attendit.se INFO Name server ns.attendit-network.se (83.140.103.2) authoritative for attendit.se.
+ 82.064: attendit.se INFO Name server ns.attendit-network.se (83.140.103.2) closed for zone transfer of attendit.se.
+ 82.078: attendit.se INFO Legacy name server ID for ns.attendit-network.se (83.140.103.2): hostname.bind = stolin01.attendit.se
+ 82.084: attendit.se INFO Legacy name server ID for ns.attendit-network.se (83.140.103.2): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 82.094: attendit.se NOTICE No answer received from 83.140.103.2 when querying for version.server/CH/TXT.
+ 82.095: attendit.se INFO Done testing name server ns.attendit-network.se.
+ 82.095: attendit.se INFO Begin testing name server ns2.attendit-network.se.
+ 82.095: attendit.se INFO Begin testing host ns2.attendit-network.se.
+ 82.539: attendit.se INFO Begin testing address 194.23.215.15.
+ 85.100: attendit.se WARNING Could not find reverse address for 194.23.215.15 (15.215.23.194.in-addr.arpa.).
+ 85.101: attendit.se INFO Done testing address 194.23.215.15.
+ 85.101: attendit.se INFO Done testing host ns2.attendit-network.se.
+ 97.358: attendit.se ERROR Name server ns2.attendit-network.se (194.23.215.15) does not answer queries over UDP.
+ 97.360: attendit.se ERROR Name server ns2.attendit-network.se (194.23.215.15) does not answer queries over TCP.
+ 97.360: attendit.se INFO Done testing name server ns2.attendit-network.se.
+ 97.361: attendit.se INFO Begin testing zone consistency for attendit.se.
+110.809: attendit.se INFO SOA at address 83.140.103.2 has serial 2013071901.
+110.810: attendit.se INFO All SOA records have consistent serial numbers.
+110.810: attendit.se INFO All other fields in the SOA record are consistent among all name servers.
+123.622: attendit.se NOTICE The listed nameservers for attendit.se all report the same set of nameservers.
+123.622: attendit.se INFO Done testing zone consistency for attendit.se.
+123.622: attendit.se INFO Begin testing SOA parameters for attendit.se.
+123.640: attendit.se INFO Found SOA record for attendit.se.
+123.641: attendit.se INFO Begin testing host ns.attendit-network.se.
+130.047: attendit.se INFO Begin testing address 83.140.103.2.
+130.337: attendit.se INFO Done testing address 83.140.103.2.
+130.337: attendit.se INFO Done testing host ns.attendit-network.se.
+130.337: attendit.se INFO SOA MNAME for attendit.se valid (ns.attendit-network.se).
+130.337: attendit.se INFO SOA MNAME for attendit.se (ns.attendit-network.se) listed as NS.
+136.813: attendit.se INFO SOA MNAME for attendit.se (ns.attendit-network.se) is authoritative.
+136.814: attendit.se INFO Begin testing email address registry@attendit.se.
+137.119: attendit.se INFO Mail exchangers for registry@attendit.se found smtpgw01.attendit.se.
+137.119: attendit.se INFO All mail servers for registry@attendit.se are in zone attendit.se.
+137.123: attendit.se INFO Begin testing host smtpgw01.attendit.se.
+143.647: attendit.se INFO Begin testing address 83.140.103.37.
+157.395: attendit.se INFO Done testing address 83.140.103.37.
+157.395: attendit.se INFO Done testing host smtpgw01.attendit.se.
+163.917: attendit.se INFO Done testing email address registry@attendit.se.
+163.917: attendit.se INFO Successful attempt to deliver email for SOA RNAME of attendit.se (registry.attendit.se) using registry@attendit.se.
+163.917: attendit.se NOTICE SOA TTL for attendit.se too small (360) - recommended >= 3600.
+163.917: attendit.se INFO SOA refresh for attendit.se OK (14400) - recommended >= 14400.
+163.917: attendit.se INFO SOA retry for attendit.se OK (3600) - recommended >= 3600.
+163.917: attendit.se INFO SOA expire for attendit.se OK (604800) - recommended >= 604800.
+163.917: attendit.se INFO SOA minimum for attendit.se OK (360) - recommended between 300 and 86400.
+163.917: attendit.se INFO Done testing SOA parameters for attendit.se.
+163.918: attendit.se INFO Begin testing connectivity for attendit.se.
+165.790: attendit.se INFO Zone announced by more than one ASN.
+165.790: attendit.se NOTICE Zone announced by fewer than two IPv6 ASN.
+165.790: attendit.se INFO Done testing connectivity for attendit.se.
+165.790: attendit.se INFO Begin testing DNSSEC for attendit.se.
+165.816: attendit.se INFO Did not find DS record for attendit.se at parent.
+170.839: attendit.se NOTICE DNS lookup error (connection failed).
+170.839: attendit.se INFO Servers for attendit.se have consistent extra processing status.
+170.852: attendit.se INFO Authenticated denial records not found for attendit.se.
+170.901: attendit.se INFO Did not find DNSKEY record for attendit.se at child.
+170.901: attendit.se INFO No DNSKEY(s) found at child, other tests skipped.
+170.901: attendit.se INFO Done testing DNSSEC for attendit.se.
+170.902: attendit.se INFO Test completed for zone attendit.se.

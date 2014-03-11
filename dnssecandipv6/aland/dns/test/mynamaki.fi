@@ -1,0 +1,88 @@
+  0.000: mynamaki.fi INFO Begin testing zone mynamaki.fi with version 1.5.0.
+  1.611: mynamaki.fi INFO Begin testing delegation for mynamaki.fi.
+ 34.689: mynamaki.fi INFO Name servers listed at parent: ns1.taajama.fi,ns4.taajama.fi
+ 44.412: mynamaki.fi INFO Name servers listed at child: ns1.taajama.fi,ns4.taajama.fi
+ 44.412: mynamaki.fi NOTICE No IPv6 name servers found.
+ 44.844: mynamaki.fi INFO Parent glue for mynamaki.fi found: ns1.taajama.fi (83.102.40.26)
+ 45.462: mynamaki.fi INFO Parent glue for mynamaki.fi found: ns4.taajama.fi (83.102.40.27)
+ 45.826: mynamaki.fi INFO Checking glue for ns1.taajama.fi (83.102.40.26).
+ 45.826: mynamaki.fi INFO Checking glue for ns4.taajama.fi (83.102.40.27).
+ 45.827: mynamaki.fi INFO Parent glue for mynamaki.fi found: ns1.taajama.fi (83.102.40.26)
+ 46.090: mynamaki.fi INFO Parent glue for mynamaki.fi found: ns4.taajama.fi (83.102.40.27)
+ 50.763: mynamaki.fi INFO It is possible to build a referral packet for mynamaki.fi that works without EDNS0.
+ 54.505: mynamaki.fi INFO Previously used name servers for mynamaki.fi: 
+ 54.505: mynamaki.fi INFO Done testing delegation for mynamaki.fi.
+ 54.506: mynamaki.fi INFO Begin testing name server ns1.taajama.fi.
+ 54.506: mynamaki.fi INFO Begin testing host ns1.taajama.fi.
+ 56.420: mynamaki.fi INFO Begin testing address 83.102.40.26.
+ 78.513: mynamaki.fi INFO Done testing address 83.102.40.26.
+ 78.513: mynamaki.fi INFO Done testing host ns1.taajama.fi.
+ 80.121: mynamaki.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over UDP.
+ 80.365: mynamaki.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over TCP.
+ 80.556: mynamaki.fi INFO Name server ns1.taajama.fi (83.102.40.26) is not recursive.
+ 81.124: mynamaki.fi INFO Name server ns1.taajama.fi (83.102.40.26) authoritative for mynamaki.fi.
+ 81.250: mynamaki.fi INFO Name server ns1.taajama.fi (83.102.40.26) closed for zone transfer of mynamaki.fi.
+ 81.362: mynamaki.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): hostname.bind = kotkarausku
+ 81.554: mynamaki.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): version.bind = Not disclosed
+ 81.845: mynamaki.fi NOTICE No answer received from 83.102.40.26 when querying for version.server/CH/TXT.
+ 81.846: mynamaki.fi INFO Done testing name server ns1.taajama.fi.
+ 81.846: mynamaki.fi INFO Begin testing name server ns4.taajama.fi.
+ 81.846: mynamaki.fi INFO Begin testing host ns4.taajama.fi.
+ 84.247: mynamaki.fi INFO Begin testing address 83.102.40.27.
+ 87.103: mynamaki.fi INFO Done testing address 83.102.40.27.
+ 87.103: mynamaki.fi INFO Done testing host ns4.taajama.fi.
+ 88.285: mynamaki.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over UDP.
+ 88.497: mynamaki.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over TCP.
+ 88.612: mynamaki.fi INFO Name server ns4.taajama.fi (83.102.40.27) is not recursive.
+ 88.956: mynamaki.fi INFO Name server ns4.taajama.fi (83.102.40.27) authoritative for mynamaki.fi.
+ 89.079: mynamaki.fi INFO Name server ns4.taajama.fi (83.102.40.27) closed for zone transfer of mynamaki.fi.
+ 89.188: mynamaki.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): hostname.bind = perhosrausku
+ 89.284: mynamaki.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): version.bind = Not disclosed
+ 89.564: mynamaki.fi NOTICE No answer received from 83.102.40.27 when querying for version.server/CH/TXT.
+ 89.564: mynamaki.fi INFO Done testing name server ns4.taajama.fi.
+ 89.564: mynamaki.fi INFO Begin testing zone consistency for mynamaki.fi.
+ 97.433: mynamaki.fi INFO SOA at address 83.102.40.26 has serial 2013012101.
+ 97.781: mynamaki.fi INFO SOA at address 83.102.40.27 has serial 2013012101.
+ 97.781: mynamaki.fi INFO All SOA records have consistent serial numbers.
+ 97.781: mynamaki.fi INFO All other fields in the SOA record are consistent among all name servers.
+102.293: mynamaki.fi NOTICE The listed nameservers for mynamaki.fi all report the same set of nameservers.
+102.293: mynamaki.fi INFO Done testing zone consistency for mynamaki.fi.
+102.293: mynamaki.fi INFO Begin testing SOA parameters for mynamaki.fi.
+102.605: mynamaki.fi INFO Found SOA record for mynamaki.fi.
+102.605: mynamaki.fi INFO Begin testing host ns1.taajama.fi.
+104.628: mynamaki.fi INFO Begin testing address 83.102.40.26.
+106.428: mynamaki.fi INFO Done testing address 83.102.40.26.
+106.428: mynamaki.fi INFO Done testing host ns1.taajama.fi.
+106.428: mynamaki.fi INFO SOA MNAME for mynamaki.fi valid (ns1.taajama.fi).
+106.428: mynamaki.fi INFO SOA MNAME for mynamaki.fi (ns1.taajama.fi) listed as NS.
+108.293: mynamaki.fi INFO SOA MNAME for mynamaki.fi (ns1.taajama.fi) is authoritative.
+108.293: mynamaki.fi INFO Begin testing email address hostmaster@taajama.com.
+109.878: mynamaki.fi INFO Mail exchangers for hostmaster@taajama.com found spp.taajama.fi,mx2.taajama.com.
+109.878: mynamaki.fi INFO Begin testing host spp.taajama.fi.
+114.020: mynamaki.fi INFO Begin testing address 217.78.212.151.
+118.136: mynamaki.fi INFO Done testing address 217.78.212.151.
+118.136: mynamaki.fi INFO Done testing host spp.taajama.fi.
+120.008: mynamaki.fi INFO Begin testing host mx2.taajama.com.
+123.336: mynamaki.fi INFO Begin testing address 83.102.41.75.
+127.126: mynamaki.fi INFO Done testing address 83.102.41.75.
+127.126: mynamaki.fi INFO Done testing host mx2.taajama.com.
+128.780: mynamaki.fi INFO Done testing email address hostmaster@taajama.com.
+128.780: mynamaki.fi INFO Successful attempt to deliver email for SOA RNAME of mynamaki.fi (hostmaster.taajama.com) using hostmaster@taajama.com.
+128.780: mynamaki.fi INFO SOA TTL for mynamaki.fi OK (28800) - recommended >= 3600.
+128.780: mynamaki.fi INFO SOA refresh for mynamaki.fi OK (28800) - recommended >= 14400.
+128.780: mynamaki.fi INFO SOA retry for mynamaki.fi OK (7200) - recommended >= 3600.
+128.780: mynamaki.fi INFO SOA expire for mynamaki.fi OK (1814400) - recommended >= 604800.
+128.780: mynamaki.fi INFO SOA minimum for mynamaki.fi OK (86400) - recommended between 300 and 86400.
+128.780: mynamaki.fi INFO Done testing SOA parameters for mynamaki.fi.
+128.781: mynamaki.fi INFO Begin testing connectivity for mynamaki.fi.
+133.282: mynamaki.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+133.282: mynamaki.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+133.282: mynamaki.fi INFO Done testing connectivity for mynamaki.fi.
+133.282: mynamaki.fi INFO Begin testing DNSSEC for mynamaki.fi.
+133.909: mynamaki.fi INFO Did not find DS record for mynamaki.fi at parent.
+134.456: mynamaki.fi INFO Servers for mynamaki.fi have consistent extra processing status.
+134.692: mynamaki.fi INFO Authenticated denial records not found for mynamaki.fi.
+134.895: mynamaki.fi INFO Did not find DNSKEY record for mynamaki.fi at child.
+134.895: mynamaki.fi INFO No DNSKEY(s) found at child, other tests skipped.
+134.985: mynamaki.fi INFO Done testing DNSSEC for mynamaki.fi.
+134.986: mynamaki.fi INFO Test completed for zone mynamaki.fi.

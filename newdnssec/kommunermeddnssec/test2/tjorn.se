@@ -1,0 +1,88 @@
+  0.000: tjorn.se INFO Begin testing zone tjorn.se with version 1.2.
+  0.000: tjorn.se INFO Begin testing delegation for tjorn.se.
+ 13.455: tjorn.se INFO Name servers listed at parent: dns.tjorn.se,dns6.telia.com
+ 15.039: tjorn.se INFO Name servers listed at child: dns.tjorn.se,dns6.telia.com
+ 15.039: tjorn.se NOTICE No IPv6 name servers found.
+ 15.057: tjorn.se INFO Parent glue for tjorn.se found: dns.tjorn.se (62.20.58.28)
+ 15.207: tjorn.se INFO Checking glue for dns.tjorn.se (62.20.58.28).
+ 15.226: tjorn.se INFO Child glue for tjorn.se found: dns.tjorn.se (62.20.58.28)
+ 15.226: tjorn.se INFO Parent glue for tjorn.se found: dns.tjorn.se (62.20.58.28)
+ 15.227: tjorn.se INFO Done testing delegation for tjorn.se.
+ 15.227: tjorn.se INFO Begin testing name server dns.tjorn.se.
+ 15.228: tjorn.se INFO Begin testing host dns.tjorn.se.
+ 15.228: tjorn.se INFO Begin testing address 62.20.58.28.
+ 19.179: tjorn.se INFO Done testing address 62.20.58.28.
+ 19.179: tjorn.se INFO Done testing host dns.tjorn.se.
+ 19.199: tjorn.se INFO Name server dns.tjorn.se (62.20.58.28) answers queries over UDP.
+ 19.244: tjorn.se INFO Name server dns.tjorn.se (62.20.58.28) answers queries over TCP.
+ 19.284: tjorn.se WARNING Name server dns.tjorn.se (62.20.58.28) is recursive.
+ 19.303: tjorn.se INFO Name server dns.tjorn.se (62.20.58.28) authoritative for tjorn.se.
+ 19.506: tjorn.se INFO Name server dns.tjorn.se (62.20.58.28) closed for zone transfer of tjorn.se.
+ 19.524: tjorn.se NOTICE No answer received from 62.20.58.28 when querying for hostname.bind/CH/TXT.
+ 37.527: tjorn.se INFO Done testing name server dns.tjorn.se.
+ 37.527: tjorn.se INFO Begin testing name server dns6.telia.com.
+ 37.527: tjorn.se INFO Begin testing host dns6.telia.com.
+ 37.528: tjorn.se INFO Begin testing address 81.228.10.68.
+ 38.281: tjorn.se INFO Done testing address 81.228.10.68.
+ 38.281: tjorn.se INFO Done testing host dns6.telia.com.
+ 38.298: tjorn.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over UDP.
+ 38.327: tjorn.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over TCP.
+ 38.343: tjorn.se INFO Name server dns6.telia.com (81.228.10.68) is not recursive.
+ 38.359: tjorn.se INFO Name server dns6.telia.com (81.228.10.68) authoritative for tjorn.se.
+ 38.409: tjorn.se INFO Name server dns6.telia.com (81.228.10.68) closed for zone transfer of tjorn.se.
+ 38.428: tjorn.se INFO Legacy name server ID for dns6.telia.com (81.228.10.68): hostname.bind = dnshosting1-sn4.m-sp.skanova.net
+ 38.445: tjorn.se INFO Legacy name server ID for dns6.telia.com (81.228.10.68): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 38.478: tjorn.se NOTICE No answer received from 81.228.10.68 when querying for version.server/CH/TXT.
+ 38.478: tjorn.se INFO Done testing name server dns6.telia.com.
+ 38.478: tjorn.se INFO Begin testing zone consistency for tjorn.se.
+ 38.500: tjorn.se INFO SOA at address 81.228.10.68 has serial 2010060901.
+ 38.520: tjorn.se INFO SOA at address 62.20.58.28 has serial 2010060901.
+ 38.520: tjorn.se INFO All SOA records have consistent serial numbers.
+ 38.520: tjorn.se INFO All SOA records are consistent among all name servers.
+ 38.520: tjorn.se INFO Done testing zone consistency for tjorn.se.
+ 38.520: tjorn.se INFO Begin testing SOA parameters for tjorn.se.
+ 38.540: tjorn.se INFO Found SOA record for tjorn.se.
+ 38.540: tjorn.se INFO Begin testing host dns.tjorn.se.
+ 38.540: tjorn.se INFO Begin testing address 62.20.58.28.
+ 38.542: tjorn.se INFO Done testing address 62.20.58.28.
+ 38.542: tjorn.se INFO Done testing host dns.tjorn.se.
+ 38.542: tjorn.se INFO SOA MNAME for tjorn.se valid (dns.tjorn.se).
+ 38.542: tjorn.se INFO SOA MNAME for tjorn.se (dns.tjorn.se) listed as NS.
+ 38.560: tjorn.se INFO SOA MNAME for tjorn.se (dns.tjorn.se) is authoritative.
+ 38.560: tjorn.se INFO Begin testing email address hostmaster@tjorn.se.
+ 38.781: tjorn.se INFO Mail exchangers for hostmaster@tjorn.se found mail.tjorn.se.
+ 38.781: tjorn.se INFO All mail servers for hostmaster@tjorn.se are in zone tjorn.se.
+ 38.781: tjorn.se INFO Begin testing host mail.tjorn.se.
+ 39.228: tjorn.se INFO Begin testing address 62.20.58.10.
+ 39.484: tjorn.se INFO Done testing address 62.20.58.10.
+ 39.484: tjorn.se INFO Done testing host mail.tjorn.se.
+ 39.485: tjorn.se INFO Begin testing mail server mail.tjorn.se (62.20.58.10) with hostmaster@tjorn.se.
+ 39.612: tjorn.se INFO SMTP banner: mail.tjorn.se ESMTP Exim Mon, 13 Dec 2010 21:40:20 +0100
+ 52.966: tjorn.se INFO SMTP testing of mail.tjorn.se (62.20.58.10) with hostmaster@tjorn.se succeeded without errors.
+ 52.966: tjorn.se INFO Done testing mail server mail.tjorn.se (62.20.58.10) with hostmaster@tjorn.se.
+ 52.966: tjorn.se INFO Delivery over IPv4 to hostmaster@tjorn.se ok.
+ 52.966: tjorn.se INFO Delivery over IPv6 to hostmaster@tjorn.se could not be done.
+ 52.966: tjorn.se INFO Done testing email address hostmaster@tjorn.se.
+ 52.966: tjorn.se INFO Successful attempt to deliver email for SOA RNAME of tjorn.se (hostmaster.tjorn.se) using hostmaster@tjorn.se.
+ 52.966: tjorn.se INFO SOA TTL for tjorn.se OK (3600) - recommended >= 3600.
+ 52.966: tjorn.se INFO SOA refresh for tjorn.se OK (21600) - recommended >= 14400.
+ 52.966: tjorn.se INFO SOA retry for tjorn.se OK (14400) - recommended >= 3600.
+ 52.967: tjorn.se INFO SOA expire for tjorn.se OK (604800) - recommended >= 604800.
+ 52.967: tjorn.se INFO SOA minimum for tjorn.se OK (7200) - recommended between 300 and 86400.
+ 52.967: tjorn.se INFO Done testing SOA parameters for tjorn.se.
+ 52.967: tjorn.se INFO Begin testing connectivity for tjorn.se.
+ 53.500: tjorn.se INFO Name server 62.20.58.28 announced by: 3301
+ 54.125: tjorn.se INFO Name server 81.228.10.68 announced by: 3301
+ 54.125: tjorn.se INFO Zone announced by IPv4 ASN: 3301
+ 54.125: tjorn.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 54.125: tjorn.se INFO Zone announced by IPv6 ASN: 
+ 54.125: tjorn.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 54.126: tjorn.se INFO Done testing connectivity for tjorn.se.
+ 54.126: tjorn.se INFO Begin testing DNSSEC for tjorn.se.
+ 54.173: tjorn.se INFO Did not find DS record for tjorn.se at parent.
+ 59.187: tjorn.se NOTICE DNS lookup error (timeout).
+ 59.220: tjorn.se INFO Servers for tjorn.se have consistent extra processing status.
+ 59.220: tjorn.se INFO Did not find DNSKEY record for tjorn.se at child.
+ 59.220: tjorn.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 59.220: tjorn.se INFO Done testing DNSSEC for tjorn.se.
+ 59.220: tjorn.se INFO Test completed for zone tjorn.se.

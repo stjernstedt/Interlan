@@ -1,0 +1,109 @@
+  0.000: lillaedet.se INFO Begin testing zone lillaedet.se with version 1.2.
+  0.000: lillaedet.se INFO Begin testing delegation for lillaedet.se.
+ 10.475: lillaedet.se INFO Name servers listed at parent: ns1.nameisp.com,ns2.nameisp.com
+ 19.896: lillaedet.se INFO Name servers listed at child: ns1.nameisp.info,ns2.nameisp.info
+ 19.896: lillaedet.se ERROR Superfluous name server listed at parent: ns1.nameisp.com
+ 19.896: lillaedet.se ERROR Superfluous name server listed at parent: ns2.nameisp.com
+ 19.896: lillaedet.se ERROR Total parent/child glue mismatch.
+ 19.896: lillaedet.se NOTICE Additional name server listed at child: ns1.nameisp.info
+ 19.896: lillaedet.se NOTICE Additional name server listed at child: ns2.nameisp.info
+ 19.896: lillaedet.se NOTICE No IPv6 name servers found.
+ 20.075: lillaedet.se INFO Done testing delegation for lillaedet.se.
+ 20.075: lillaedet.se INFO Begin testing name server ns1.nameisp.info.
+ 20.075: lillaedet.se INFO Begin testing host ns1.nameisp.info.
+ 20.076: lillaedet.se INFO Begin testing address 213.115.221.10.
+ 25.103: lillaedet.se INFO Done testing address 213.115.221.10.
+ 25.103: lillaedet.se INFO Done testing host ns1.nameisp.info.
+ 25.120: lillaedet.se INFO Name server ns1.nameisp.info (213.115.221.10) answers queries over UDP.
+ 25.151: lillaedet.se INFO Name server ns1.nameisp.info (213.115.221.10) answers queries over TCP.
+ 25.169: lillaedet.se INFO Name server ns1.nameisp.info (213.115.221.10) is not recursive.
+ 25.184: lillaedet.se INFO Name server ns1.nameisp.info (213.115.221.10) authoritative for lillaedet.se.
+ 25.222: lillaedet.se INFO Name server ns1.nameisp.info (213.115.221.10) closed for zone transfer of lillaedet.se.
+ 25.256: lillaedet.se INFO Legacy name server ID for ns1.nameisp.info (213.115.221.10): version.bind = Served by POWERDNS 2.9.19 $Id: packethandler.cc 518 2005-10-16 15:36:51Z ahu $
+ 25.285: lillaedet.se INFO Done testing name server ns1.nameisp.info.
+ 25.285: lillaedet.se INFO Begin testing name server ns2.nameisp.info.
+ 25.285: lillaedet.se INFO Begin testing host ns2.nameisp.info.
+ 25.285: lillaedet.se INFO Begin testing address 213.115.151.140.
+ 26.108: lillaedet.se INFO Done testing address 213.115.151.140.
+ 26.109: lillaedet.se INFO Done testing host ns2.nameisp.info.
+ 26.126: lillaedet.se INFO Name server ns2.nameisp.info (213.115.151.140) answers queries over UDP.
+ 26.154: lillaedet.se INFO Name server ns2.nameisp.info (213.115.151.140) answers queries over TCP.
+ 26.175: lillaedet.se INFO Name server ns2.nameisp.info (213.115.151.140) is not recursive.
+ 26.190: lillaedet.se INFO Name server ns2.nameisp.info (213.115.151.140) authoritative for lillaedet.se.
+ 26.228: lillaedet.se INFO Name server ns2.nameisp.info (213.115.151.140) closed for zone transfer of lillaedet.se.
+ 26.258: lillaedet.se INFO Legacy name server ID for ns2.nameisp.info (213.115.151.140): version.bind = Served by POWERDNS 2.9.20 $Id: packethandler.cc 539 2005-11-11 11:17:47Z ahu $
+ 26.287: lillaedet.se INFO Done testing name server ns2.nameisp.info.
+ 26.288: lillaedet.se INFO Begin testing zone consistency for lillaedet.se.
+ 27.598: lillaedet.se INFO SOA at address 213.115.221.10 has serial 1627.
+ 27.613: lillaedet.se INFO SOA at address 213.115.151.140 has serial 1627.
+ 27.613: lillaedet.se INFO All SOA records have consistent serial numbers.
+ 27.614: lillaedet.se INFO All SOA records are consistent among all name servers.
+ 27.614: lillaedet.se INFO Done testing zone consistency for lillaedet.se.
+ 27.614: lillaedet.se INFO Begin testing SOA parameters for lillaedet.se.
+ 27.629: lillaedet.se INFO Found SOA record for lillaedet.se.
+ 27.629: lillaedet.se INFO Begin testing host ns1.nameisp.info.
+ 27.629: lillaedet.se INFO Begin testing address 213.115.221.10.
+ 27.631: lillaedet.se INFO Done testing address 213.115.221.10.
+ 27.631: lillaedet.se INFO Done testing host ns1.nameisp.info.
+ 27.631: lillaedet.se INFO SOA MNAME for lillaedet.se valid (ns1.nameisp.info).
+ 27.631: lillaedet.se INFO SOA MNAME for lillaedet.se (ns1.nameisp.info) listed as NS.
+ 27.647: lillaedet.se INFO SOA MNAME for lillaedet.se (ns1.nameisp.info) is authoritative.
+ 27.647: lillaedet.se INFO Begin testing email address registry@nameisp.com.
+ 28.068: lillaedet.se INFO Mail exchangers for registry@nameisp.com found ASPMX.L.GOOGLE.COM,ALT2.ASPMX.L.GOOGLE.COM,ALT1.ASPMX.L.GOOGLE.COM,ASPMX5.GOOGLEMAIL.COM,ASPMX4.GOOGLEMAIL.COM,ASPMX3.GOOGLEMAIL.COM,ASPMX2.GOOGLEMAIL.COM.
+ 28.068: lillaedet.se INFO Begin testing host ASPMX.L.GOOGLE.COM.
+ 28.940: lillaedet.se INFO Begin testing address 74.125.43.27.
+ 33.892: lillaedet.se INFO Done testing address 74.125.43.27.
+ 33.892: lillaedet.se INFO Done testing host ASPMX.L.GOOGLE.COM.
+ 33.892: lillaedet.se INFO Begin testing mail server ASPMX.L.GOOGLE.COM (74.125.43.27) with registry@nameisp.com.
+ 33.973: lillaedet.se INFO SMTP banner: mx.google.com ESMTP c10si1165850bkc.37
+ 34.200: lillaedet.se INFO SMTP testing of ASPMX.L.GOOGLE.COM (74.125.43.27) with registry@nameisp.com succeeded without errors.
+ 34.200: lillaedet.se INFO Done testing mail server ASPMX.L.GOOGLE.COM (74.125.43.27) with registry@nameisp.com.
+ 34.201: lillaedet.se INFO Begin testing host ALT2.ASPMX.L.GOOGLE.COM.
+ 35.094: lillaedet.se INFO Begin testing address 74.125.157.27.
+ 36.268: lillaedet.se INFO Done testing address 74.125.157.27.
+ 36.268: lillaedet.se INFO Done testing host ALT2.ASPMX.L.GOOGLE.COM.
+ 36.268: lillaedet.se INFO Begin testing host ALT1.ASPMX.L.GOOGLE.COM.
+ 37.143: lillaedet.se INFO Begin testing address 74.125.155.27.
+ 38.328: lillaedet.se INFO Done testing address 74.125.155.27.
+ 38.328: lillaedet.se INFO Done testing host ALT1.ASPMX.L.GOOGLE.COM.
+ 38.328: lillaedet.se INFO Begin testing host ASPMX5.GOOGLEMAIL.COM.
+ 39.005: lillaedet.se INFO Begin testing address 74.125.157.27.
+ 39.007: lillaedet.se INFO Done testing address 74.125.157.27.
+ 39.007: lillaedet.se INFO Done testing host ASPMX5.GOOGLEMAIL.COM.
+ 39.007: lillaedet.se INFO Begin testing host ASPMX4.GOOGLEMAIL.COM.
+ 39.918: lillaedet.se INFO Begin testing address 209.85.229.27.
+ 41.174: lillaedet.se INFO Done testing address 209.85.229.27.
+ 41.174: lillaedet.se INFO Done testing host ASPMX4.GOOGLEMAIL.COM.
+ 41.174: lillaedet.se INFO Begin testing host ASPMX3.GOOGLEMAIL.COM.
+ 46.000: lillaedet.se INFO Begin testing address 72.14.213.27.
+ 47.221: lillaedet.se INFO Done testing address 72.14.213.27.
+ 47.221: lillaedet.se INFO Done testing host ASPMX3.GOOGLEMAIL.COM.
+ 47.221: lillaedet.se INFO Begin testing host ASPMX2.GOOGLEMAIL.COM.
+ 48.098: lillaedet.se INFO Begin testing address 74.125.43.27.
+ 48.100: lillaedet.se INFO Done testing address 74.125.43.27.
+ 48.100: lillaedet.se INFO Done testing host ASPMX2.GOOGLEMAIL.COM.
+ 48.100: lillaedet.se INFO Delivery over IPv4 to registry@nameisp.com ok.
+ 48.100: lillaedet.se INFO Delivery over IPv6 to registry@nameisp.com could not be done.
+ 48.100: lillaedet.se INFO Done testing email address registry@nameisp.com.
+ 48.100: lillaedet.se INFO Successful attempt to deliver email for SOA RNAME of lillaedet.se (registry.nameisp.com) using registry@nameisp.com.
+ 48.100: lillaedet.se INFO SOA TTL for lillaedet.se OK (86400) - recommended >= 3600.
+ 48.100: lillaedet.se NOTICE SOA refresh for lillaedet.se too small (10800) - recommended >= 14400.
+ 48.101: lillaedet.se INFO SOA retry for lillaedet.se OK (3600) - recommended >= 3600.
+ 48.101: lillaedet.se INFO SOA expire for lillaedet.se OK (604800) - recommended >= 604800.
+ 48.101: lillaedet.se INFO SOA minimum for lillaedet.se OK (3600) - recommended between 300 and 86400.
+ 48.101: lillaedet.se INFO Done testing SOA parameters for lillaedet.se.
+ 48.101: lillaedet.se INFO Begin testing connectivity for lillaedet.se.
+ 48.619: lillaedet.se INFO Name server 213.115.221.10 announced by: 2119
+ 49.371: lillaedet.se INFO Name server 213.115.151.140 announced by: 2119
+ 49.371: lillaedet.se INFO Zone announced by IPv4 ASN: 2119
+ 49.371: lillaedet.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 49.371: lillaedet.se INFO Zone announced by IPv6 ASN: 
+ 49.371: lillaedet.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 49.371: lillaedet.se INFO Done testing connectivity for lillaedet.se.
+ 49.372: lillaedet.se INFO Begin testing DNSSEC for lillaedet.se.
+ 49.419: lillaedet.se INFO Did not find DS record for lillaedet.se at parent.
+ 49.478: lillaedet.se INFO Servers for lillaedet.se have consistent extra processing status.
+ 49.479: lillaedet.se INFO Did not find DNSKEY record for lillaedet.se at child.
+ 49.479: lillaedet.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 49.479: lillaedet.se INFO Done testing DNSSEC for lillaedet.se.
+ 49.479: lillaedet.se INFO Test completed for zone lillaedet.se.

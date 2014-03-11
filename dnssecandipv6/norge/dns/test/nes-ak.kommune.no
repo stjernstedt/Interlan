@@ -1,0 +1,107 @@
+  0.000: nes-ak.kommune.no INFO Begin testing zone nes-ak.kommune.no with version 1.6.1.
+  0.659: nes-ak.kommune.no INFO Begin testing delegation for nes-ak.kommune.no.
+  8.739: nes-ak.kommune.no INFO Name servers listed at parent: dns.dgi.no,dns02.tdc.no
+ 10.074: nes-ak.kommune.no INFO Name servers listed at child: dns.dgi.no,dns02.tdc.no
+ 10.075: nes-ak.kommune.no NOTICE Too few IPv6 name servers (1).
+ 10.207: nes-ak.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.359: nes-ak.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.517: nes-ak.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.664: nes-ak.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.150: nes-ak.kommune.no INFO It is possible to build a referral packet for nes-ak.kommune.no that works without EDNS0.
+ 11.406: nes-ak.kommune.no INFO Previously used name servers for nes-ak.kommune.no: 
+ 11.406: nes-ak.kommune.no INFO Done testing delegation for nes-ak.kommune.no.
+ 11.407: nes-ak.kommune.no INFO Begin testing name server dns.dgi.no.
+ 11.407: nes-ak.kommune.no INFO Begin testing host dns.dgi.no.
+ 11.710: nes-ak.kommune.no INFO Begin testing address 194.60.75.5.
+ 22.025: nes-ak.kommune.no INFO Done testing address 194.60.75.5.
+ 22.026: nes-ak.kommune.no INFO Done testing host dns.dgi.no.
+ 22.134: nes-ak.kommune.no INFO Name server dns.dgi.no (194.60.75.5) answers queries over UDP.
+ 22.162: nes-ak.kommune.no INFO Name server dns.dgi.no (194.60.75.5) answers queries over TCP.
+ 22.209: nes-ak.kommune.no INFO Name server dns.dgi.no (194.60.75.5) is not recursive.
+ 22.298: nes-ak.kommune.no INFO Name server dns.dgi.no (194.60.75.5) authoritative for nes-ak.kommune.no.
+ 22.537: nes-ak.kommune.no INFO Name server dns.dgi.no (194.60.75.5) closed for zone transfer of nes-ak.kommune.no.
+ 22.550: nes-ak.kommune.no NOTICE No answer received from 194.60.75.5 when querying for hostname.bind/CH/TXT.
+ 34.631: nes-ak.kommune.no INFO Done testing name server dns.dgi.no.
+ 34.631: nes-ak.kommune.no INFO Begin testing name server dns02.tdc.no.
+ 34.631: nes-ak.kommune.no INFO Begin testing host dns02.tdc.no.
+ 34.631: nes-ak.kommune.no INFO Begin testing address 213.236.144.150.
+ 34.879: nes-ak.kommune.no INFO Done testing address 213.236.144.150.
+ 34.879: nes-ak.kommune.no INFO Begin testing address 2a02:228:0:101:213:236:144:150.
+ 35.364: nes-ak.kommune.no INFO Done testing address 2a02:228:0:101:213:236:144:150.
+ 35.364: nes-ak.kommune.no INFO Done testing host dns02.tdc.no.
+ 35.380: nes-ak.kommune.no INFO Name server dns02.tdc.no (213.236.144.150) answers queries over UDP.
+ 35.429: nes-ak.kommune.no INFO Name server dns02.tdc.no (213.236.144.150) answers queries over TCP.
+ 35.444: nes-ak.kommune.no INFO Name server dns02.tdc.no (213.236.144.150) is not recursive.
+ 35.516: nes-ak.kommune.no INFO Name server dns02.tdc.no (213.236.144.150) authoritative for nes-ak.kommune.no.
+ 35.681: nes-ak.kommune.no INFO Name server dns02.tdc.no (213.236.144.150) closed for zone transfer of nes-ak.kommune.no.
+ 35.696: nes-ak.kommune.no INFO Legacy name server ID for dns02.tdc.no (213.236.144.150): hostname.bind = dns02
+ 35.736: nes-ak.kommune.no NOTICE No answer received from 213.236.144.150 when querying for version.server/CH/TXT.
+ 35.761: nes-ak.kommune.no INFO Name server dns02.tdc.no (2a02:228:0:101:213:236:144:150) answers queries over UDP.
+ 35.800: nes-ak.kommune.no INFO Name server dns02.tdc.no (2a02:228:0:101:213:236:144:150) answers queries over TCP.
+ 35.822: nes-ak.kommune.no INFO Name server dns02.tdc.no (2a02:228:0:101:213:236:144:150) is not recursive.
+ 35.910: nes-ak.kommune.no INFO Name server dns02.tdc.no (2a02:228:0:101:213:236:144:150) authoritative for nes-ak.kommune.no.
+ 36.088: nes-ak.kommune.no INFO Name server dns02.tdc.no (2a02:228:0:101:213:236:144:150) closed for zone transfer of nes-ak.kommune.no.
+ 36.110: nes-ak.kommune.no INFO Legacy name server ID for dns02.tdc.no (2a02:228:0:101:213:236:144:150): hostname.bind = dns02
+ 36.165: nes-ak.kommune.no NOTICE No answer received from 2a02:228:0:101:213:236:144:150 when querying for version.server/CH/TXT.
+ 36.166: nes-ak.kommune.no INFO Done testing name server dns02.tdc.no.
+ 36.166: nes-ak.kommune.no INFO Begin testing zone consistency for nes-ak.kommune.no.
+ 36.386: nes-ak.kommune.no INFO SOA at address 194.60.75.5 has serial 2010092232.
+ 36.404: nes-ak.kommune.no INFO SOA at address 213.236.144.150 has serial 2010092232.
+ 36.427: nes-ak.kommune.no INFO SOA at address 2a02:228:0:101:213:236:144:150 has serial 2010092232.
+ 36.427: nes-ak.kommune.no INFO All SOA records have consistent serial numbers.
+ 36.427: nes-ak.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 36.583: nes-ak.kommune.no NOTICE The listed nameservers for nes-ak.kommune.no all report the same set of nameservers.
+ 36.583: nes-ak.kommune.no INFO Done testing zone consistency for nes-ak.kommune.no.
+ 36.584: nes-ak.kommune.no INFO Begin testing SOA parameters for nes-ak.kommune.no.
+ 36.602: nes-ak.kommune.no INFO Found SOA record for nes-ak.kommune.no.
+ 36.602: nes-ak.kommune.no INFO Begin testing host dns.dgi.no.
+ 36.704: nes-ak.kommune.no INFO Begin testing address 194.60.75.5.
+ 36.898: nes-ak.kommune.no INFO Done testing address 194.60.75.5.
+ 36.898: nes-ak.kommune.no INFO Done testing host dns.dgi.no.
+ 36.898: nes-ak.kommune.no INFO SOA MNAME for nes-ak.kommune.no valid (dns.dgi.no).
+ 36.899: nes-ak.kommune.no INFO SOA MNAME for nes-ak.kommune.no (dns.dgi.no) listed as NS.
+ 36.987: nes-ak.kommune.no INFO SOA MNAME for nes-ak.kommune.no (dns.dgi.no) is authoritative.
+ 36.987: nes-ak.kommune.no INFO Begin testing email address hostmaster@dgi.no.
+ 37.089: nes-ak.kommune.no INFO Mail exchangers for hostmaster@dgi.no found smtp-in.sto-hy.se.stejtech.net,smtp-in.sto-ste.se.stejtech.net.
+ 37.089: nes-ak.kommune.no INFO Begin testing host smtp-in.sto-hy.se.stejtech.net.
+ 37.371: nes-ak.kommune.no INFO Begin testing address 91.236.209.10.
+ 38.810: nes-ak.kommune.no INFO Done testing address 91.236.209.10.
+ 38.810: nes-ak.kommune.no INFO Begin testing address 79.136.102.100.
+ 39.781: nes-ak.kommune.no INFO Done testing address 79.136.102.100.
+ 39.781: nes-ak.kommune.no INFO Begin testing address 91.236.208.10.
+ 40.720: nes-ak.kommune.no INFO Done testing address 91.236.208.10.
+ 40.721: nes-ak.kommune.no INFO Begin testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 41.754: nes-ak.kommune.no INFO Done testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 41.754: nes-ak.kommune.no INFO Begin testing address 2001:67c:27e0:2110:0:0:0:1b01.
+ 42.344: nes-ak.kommune.no INFO Done testing address 2001:67c:27e0:2110:0:0:0:1b01.
+ 42.344: nes-ak.kommune.no INFO Begin testing address 2001:9b0:1:703:0:0:0:1b01.
+ 43.229: nes-ak.kommune.no INFO Done testing address 2001:9b0:1:703:0:0:0:1b01.
+ 43.230: nes-ak.kommune.no INFO Done testing host smtp-in.sto-hy.se.stejtech.net.
+ 43.230: nes-ak.kommune.no INFO Begin testing host smtp-in.sto-ste.se.stejtech.net.
+ 43.528: nes-ak.kommune.no INFO Begin testing address 79.136.102.90.
+ 44.183: nes-ak.kommune.no INFO Done testing address 79.136.102.90.
+ 44.183: nes-ak.kommune.no INFO Begin testing address 83.140.31.145.
+ 44.935: nes-ak.kommune.no INFO Done testing address 83.140.31.145.
+ 44.936: nes-ak.kommune.no INFO Begin testing address 2001:9b0:1:703:0:0:0:b002.
+ 45.647: nes-ak.kommune.no INFO Done testing address 2001:9b0:1:703:0:0:0:b002.
+ 45.647: nes-ak.kommune.no INFO Done testing host smtp-in.sto-ste.se.stejtech.net.
+ 45.648: nes-ak.kommune.no INFO Done testing email address hostmaster@dgi.no.
+ 45.648: nes-ak.kommune.no INFO Successful attempt to deliver email for SOA RNAME of nes-ak.kommune.no (hostmaster.dgi.no) using hostmaster@dgi.no.
+ 45.648: nes-ak.kommune.no INFO SOA TTL for nes-ak.kommune.no OK (43200) - recommended >= 3600.
+ 45.648: nes-ak.kommune.no NOTICE SOA refresh for nes-ak.kommune.no too small (900) - recommended >= 14400.
+ 45.648: nes-ak.kommune.no NOTICE SOA retry for nes-ak.kommune.no too small (600) - recommended >= 3600.
+ 45.648: nes-ak.kommune.no NOTICE SOA expire for nes-ak.kommune.no too small (86400) - recommended >= 604800.
+ 45.648: nes-ak.kommune.no INFO SOA minimum for nes-ak.kommune.no OK (43200) - recommended between 300 and 86400.
+ 45.648: nes-ak.kommune.no INFO Done testing SOA parameters for nes-ak.kommune.no.
+ 45.648: nes-ak.kommune.no INFO Begin testing connectivity for nes-ak.kommune.no.
+ 46.392: nes-ak.kommune.no INFO Zone announced by more than one ASN.
+ 46.902: nes-ak.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 46.902: nes-ak.kommune.no INFO Done testing connectivity for nes-ak.kommune.no.
+ 46.902: nes-ak.kommune.no INFO Begin testing DNSSEC for nes-ak.kommune.no.
+ 47.004: nes-ak.kommune.no INFO Did not find DS record for nes-ak.kommune.no at parent.
+ 47.087: nes-ak.kommune.no INFO Servers for nes-ak.kommune.no have consistent extra processing status.
+ 47.113: nes-ak.kommune.no INFO Authenticated denial records not found for nes-ak.kommune.no.
+ 47.130: nes-ak.kommune.no INFO Did not find DNSKEY record for nes-ak.kommune.no at child.
+ 47.130: nes-ak.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 47.130: nes-ak.kommune.no INFO Done testing DNSSEC for nes-ak.kommune.no.
+ 47.131: nes-ak.kommune.no INFO Test completed for zone nes-ak.kommune.no.

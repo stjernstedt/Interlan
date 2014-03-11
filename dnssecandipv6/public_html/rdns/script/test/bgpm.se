@@ -1,0 +1,124 @@
+  0.000: bgpm.se INFO Begin testing zone bgpm.se with version 1.5.0.
+  0.001: bgpm.se INFO Begin testing delegation for bgpm.se.
+ 11.978: bgpm.se INFO Name servers listed at parent: a.ns.robtex.com,b.ns.robtex.com
+ 14.873: bgpm.se INFO Name servers listed at child: nsa.q.robtex.com,nsb.q.robtex.com
+ 14.874: bgpm.se ERROR Superfluous name server listed at parent: a.ns.robtex.com
+ 14.874: bgpm.se ERROR Superfluous name server listed at parent: b.ns.robtex.com
+ 14.874: bgpm.se ERROR Total parent/child glue mismatch.
+ 14.874: bgpm.se NOTICE Additional name server listed at child: nsa.q.robtex.com
+ 14.874: bgpm.se NOTICE Additional name server listed at child: nsb.q.robtex.com
+ 14.921: bgpm.se NOTICE No IPv6 name servers found.
+ 16.951: bgpm.se INFO It is possible to build a referral packet for bgpm.se that works without EDNS0.
+ 16.951: bgpm.se INFO Done testing delegation for bgpm.se.
+ 16.952: bgpm.se INFO Begin testing name server nsa.q.robtex.com.
+ 16.952: bgpm.se INFO Begin testing host nsa.q.robtex.com.
+ 17.623: bgpm.se INFO Begin testing address 193.183.0.53.
+ 26.125: bgpm.se INFO Done testing address 193.183.0.53.
+ 26.125: bgpm.se INFO Done testing host nsa.q.robtex.com.
+ 26.655: bgpm.se INFO Name server nsa.q.robtex.com (193.183.0.53) answers queries over UDP.
+ 26.672: bgpm.se INFO Name server nsa.q.robtex.com (193.183.0.53) answers queries over TCP.
+ 26.680: bgpm.se INFO Name server nsa.q.robtex.com (193.183.0.53) is not recursive.
+ 26.722: bgpm.se INFO Name server nsa.q.robtex.com (193.183.0.53) authoritative for bgpm.se.
+ 26.759: bgpm.se NOTICE Name server nsa.q.robtex.com (193.183.0.53) open for zone transfer of bgpm.se.
+ 26.825: bgpm.se INFO Legacy name server ID for nsa.q.robtex.com (193.183.0.53): hostname.bind = kalkon-evert
+ 26.870: bgpm.se INFO Legacy name server ID for nsa.q.robtex.com (193.183.0.53): version.bind = 9.8.1-P1
+ 26.921: bgpm.se NOTICE No answer received from 193.183.0.53 when querying for version.server/CH/TXT.
+ 26.921: bgpm.se INFO Done testing name server nsa.q.robtex.com.
+ 26.922: bgpm.se INFO Begin testing name server nsb.q.robtex.com.
+ 26.922: bgpm.se INFO Begin testing host nsb.q.robtex.com.
+ 27.562: bgpm.se INFO Begin testing address 193.183.1.53.
+ 28.818: bgpm.se INFO Done testing address 193.183.1.53.
+ 28.818: bgpm.se INFO Done testing host nsb.q.robtex.com.
+ 29.431: bgpm.se INFO Name server nsb.q.robtex.com (193.183.1.53) answers queries over UDP.
+ 29.512: bgpm.se INFO Name server nsb.q.robtex.com (193.183.1.53) answers queries over TCP.
+ 29.549: bgpm.se INFO Name server nsb.q.robtex.com (193.183.1.53) is not recursive.
+ 29.687: bgpm.se INFO Name server nsb.q.robtex.com (193.183.1.53) authoritative for bgpm.se.
+ 29.776: bgpm.se NOTICE Name server nsb.q.robtex.com (193.183.1.53) open for zone transfer of bgpm.se.
+ 29.808: bgpm.se INFO Legacy name server ID for nsb.q.robtex.com (193.183.1.53): hostname.bind = robtex
+ 29.840: bgpm.se INFO Legacy name server ID for nsb.q.robtex.com (193.183.1.53): version.bind = 9.6.1-P2
+ 29.903: bgpm.se NOTICE No answer received from 193.183.1.53 when querying for version.server/CH/TXT.
+ 29.904: bgpm.se INFO Done testing name server nsb.q.robtex.com.
+ 29.904: bgpm.se INFO Begin testing name server a.ns.robtex.com.
+ 29.904: bgpm.se INFO Begin testing host a.ns.robtex.com.
+ 30.846: bgpm.se INFO Begin testing address 193.183.0.53.
+ 31.402: bgpm.se INFO Done testing address 193.183.0.53.
+ 31.402: bgpm.se INFO Done testing host a.ns.robtex.com.
+ 31.934: bgpm.se INFO Name server a.ns.robtex.com (193.183.0.53) answers queries over UDP.
+ 31.958: bgpm.se INFO Name server a.ns.robtex.com (193.183.0.53) answers queries over TCP.
+ 31.982: bgpm.se INFO Name server a.ns.robtex.com (193.183.0.53) is not recursive.
+ 32.091: bgpm.se INFO Name server a.ns.robtex.com (193.183.0.53) authoritative for bgpm.se.
+ 32.144: bgpm.se NOTICE Name server a.ns.robtex.com (193.183.0.53) open for zone transfer of bgpm.se.
+ 32.166: bgpm.se INFO Legacy name server ID for a.ns.robtex.com (193.183.0.53): hostname.bind = kalkon-evert
+ 32.171: bgpm.se INFO Legacy name server ID for a.ns.robtex.com (193.183.0.53): version.bind = 9.8.1-P1
+ 32.200: bgpm.se NOTICE No answer received from 193.183.0.53 when querying for version.server/CH/TXT.
+ 32.200: bgpm.se INFO Done testing name server a.ns.robtex.com.
+ 32.200: bgpm.se INFO Begin testing name server b.ns.robtex.com.
+ 32.201: bgpm.se INFO Begin testing host b.ns.robtex.com.
+ 33.496: bgpm.se INFO Begin testing address 193.183.1.53.
+ 33.942: bgpm.se INFO Done testing address 193.183.1.53.
+ 33.942: bgpm.se INFO Done testing host b.ns.robtex.com.
+ 34.484: bgpm.se INFO Name server b.ns.robtex.com (193.183.1.53) answers queries over UDP.
+ 34.544: bgpm.se INFO Name server b.ns.robtex.com (193.183.1.53) answers queries over TCP.
+ 34.574: bgpm.se INFO Name server b.ns.robtex.com (193.183.1.53) is not recursive.
+ 34.737: bgpm.se INFO Name server b.ns.robtex.com (193.183.1.53) authoritative for bgpm.se.
+ 34.822: bgpm.se NOTICE Name server b.ns.robtex.com (193.183.1.53) open for zone transfer of bgpm.se.
+ 34.852: bgpm.se INFO Legacy name server ID for b.ns.robtex.com (193.183.1.53): hostname.bind = robtex
+ 34.883: bgpm.se INFO Legacy name server ID for b.ns.robtex.com (193.183.1.53): version.bind = 9.6.1-P2
+ 34.963: bgpm.se NOTICE No answer received from 193.183.1.53 when querying for version.server/CH/TXT.
+ 34.963: bgpm.se INFO Done testing name server b.ns.robtex.com.
+ 34.964: bgpm.se INFO Begin testing zone consistency for bgpm.se.
+ 37.370: bgpm.se INFO SOA at address 193.183.0.53 has serial 2008112001.
+ 37.402: bgpm.se INFO SOA at address 193.183.1.53 has serial 2008112001.
+ 37.402: bgpm.se INFO All SOA records have consistent serial numbers.
+ 37.402: bgpm.se INFO All other fields in the SOA record are consistent among all name servers.
+ 38.506: bgpm.se NOTICE The listed nameservers for bgpm.se all report the same set of nameservers.
+ 38.506: bgpm.se INFO Done testing zone consistency for bgpm.se.
+ 38.506: bgpm.se INFO Begin testing SOA parameters for bgpm.se.
+ 38.555: bgpm.se INFO Found SOA record for bgpm.se.
+ 38.556: bgpm.se INFO Begin testing host a.ns.robtex.com.
+ 39.125: bgpm.se INFO Begin testing address 193.183.0.53.
+ 39.807: bgpm.se INFO Done testing address 193.183.0.53.
+ 39.807: bgpm.se INFO Done testing host a.ns.robtex.com.
+ 39.807: bgpm.se INFO SOA MNAME for bgpm.se valid (a.ns.robtex.com).
+ 39.808: bgpm.se NOTICE SOA MNAME for bgpm.se (a.ns.robtex.com) not listed as NS.
+ 40.471: bgpm.se INFO SOA MNAME for bgpm.se (a.ns.robtex.com) is authoritative.
+ 40.472: bgpm.se INFO Begin testing email address robban@robtex.com.
+ 41.060: bgpm.se INFO Mail exchangers for robban@robtex.com found aspmx.l.google.com,alt1.aspmx.l.google.com,alt2.aspmx.l.google.com.
+ 41.061: bgpm.se INFO Begin testing host aspmx.l.google.com.
+ 42.014: bgpm.se INFO Begin testing address 74.125.143.26.
+ 49.149: bgpm.se INFO Done testing address 74.125.143.26.
+ 49.149: bgpm.se INFO Begin testing address 2a00:1450:4010:c04:0:0:0:1b.
+ 51.105: bgpm.se INFO Done testing address 2a00:1450:4010:c04:0:0:0:1b.
+ 51.105: bgpm.se INFO Done testing host aspmx.l.google.com.
+ 51.105: bgpm.se INFO Begin testing host alt1.aspmx.l.google.com.
+ 51.938: bgpm.se INFO Begin testing address 173.194.64.26.
+ 53.151: bgpm.se INFO Done testing address 173.194.64.26.
+ 53.152: bgpm.se INFO Begin testing address 2607:f8b0:4003:c02:0:0:0:1a.
+ 54.550: bgpm.se INFO Done testing address 2607:f8b0:4003:c02:0:0:0:1a.
+ 54.550: bgpm.se INFO Done testing host alt1.aspmx.l.google.com.
+ 54.550: bgpm.se INFO Begin testing host alt2.aspmx.l.google.com.
+ 55.501: bgpm.se INFO Begin testing address 74.125.140.26.
+ 57.331: bgpm.se INFO Done testing address 74.125.140.26.
+ 57.331: bgpm.se INFO Begin testing address 2607:f8b0:4002:c04:0:0:0:1b.
+ 58.709: bgpm.se INFO Done testing address 2607:f8b0:4002:c04:0:0:0:1b.
+ 58.709: bgpm.se INFO Done testing host alt2.aspmx.l.google.com.
+ 58.710: bgpm.se INFO Done testing email address robban@robtex.com.
+ 58.710: bgpm.se INFO Successful attempt to deliver email for SOA RNAME of bgpm.se (robban.robtex.com) using robban@robtex.com.
+ 58.710: bgpm.se NOTICE SOA TTL for bgpm.se too small (60) - recommended >= 3600.
+ 58.710: bgpm.se INFO SOA refresh for bgpm.se OK (21600) - recommended >= 14400.
+ 58.710: bgpm.se INFO SOA retry for bgpm.se OK (3600) - recommended >= 3600.
+ 58.710: bgpm.se INFO SOA expire for bgpm.se OK (604800) - recommended >= 604800.
+ 58.711: bgpm.se INFO SOA minimum for bgpm.se OK (600) - recommended between 300 and 86400.
+ 58.711: bgpm.se INFO Done testing SOA parameters for bgpm.se.
+ 58.711: bgpm.se INFO Begin testing connectivity for bgpm.se.
+ 59.995: bgpm.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 59.996: bgpm.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 59.996: bgpm.se INFO Done testing connectivity for bgpm.se.
+ 59.996: bgpm.se INFO Begin testing DNSSEC for bgpm.se.
+ 60.074: bgpm.se INFO Did not find DS record for bgpm.se at parent.
+ 60.156: bgpm.se INFO Servers for bgpm.se have consistent extra processing status.
+ 60.220: bgpm.se INFO Authenticated denial records not found for bgpm.se.
+ 60.256: bgpm.se INFO Did not find DNSKEY record for bgpm.se at child.
+ 60.256: bgpm.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 60.256: bgpm.se INFO Done testing DNSSEC for bgpm.se.
+ 60.257: bgpm.se INFO Test completed for zone bgpm.se.

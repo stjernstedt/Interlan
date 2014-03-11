@@ -1,0 +1,94 @@
+  0.000: karlskoga.se INFO Begin testing zone karlskoga.se with version 1.2.
+  0.000: karlskoga.se INFO Begin testing delegation for karlskoga.se.
+  8.989: karlskoga.se INFO Name servers listed at parent: ns.karlskoga.se,ns.sub.karlskoga.se
+ 10.186: karlskoga.se INFO Name servers listed at child: ns.karlskoga.se,ns.sub.karlskoga.se
+ 10.186: karlskoga.se NOTICE No IPv6 name servers found.
+ 10.205: karlskoga.se INFO Parent glue for karlskoga.se found: ns.karlskoga.se (195.22.74.2)
+ 10.282: karlskoga.se INFO Parent glue for karlskoga.se found: ns.sub.karlskoga.se (195.22.74.33)
+ 10.321: karlskoga.se INFO Checking glue for ns.karlskoga.se (195.22.74.2).
+ 10.333: karlskoga.se INFO Child glue for karlskoga.se found: ns.karlskoga.se (195.22.74.2)
+ 10.333: karlskoga.se INFO Checking glue for ns.sub.karlskoga.se (195.22.74.33).
+ 10.344: karlskoga.se INFO Child glue for karlskoga.se found: ns.sub.karlskoga.se (195.22.74.33)
+ 10.345: karlskoga.se INFO Parent glue for karlskoga.se found: ns.karlskoga.se (195.22.74.2)
+ 10.345: karlskoga.se INFO Parent glue for karlskoga.se found: ns.sub.karlskoga.se (195.22.74.33)
+ 10.346: karlskoga.se INFO Done testing delegation for karlskoga.se.
+ 10.346: karlskoga.se INFO Begin testing name server ns.karlskoga.se.
+ 10.346: karlskoga.se INFO Begin testing host ns.karlskoga.se.
+ 10.347: karlskoga.se INFO Begin testing address 195.22.74.2.
+ 18.852: karlskoga.se INFO Done testing address 195.22.74.2.
+ 18.852: karlskoga.se INFO Done testing host ns.karlskoga.se.
+ 18.864: karlskoga.se INFO Name server ns.karlskoga.se (195.22.74.2) answers queries over UDP.
+ 18.884: karlskoga.se INFO Name server ns.karlskoga.se (195.22.74.2) answers queries over TCP.
+ 18.902: karlskoga.se INFO Name server ns.karlskoga.se (195.22.74.2) is not recursive.
+ 18.913: karlskoga.se INFO Name server ns.karlskoga.se (195.22.74.2) authoritative for karlskoga.se.
+ 19.040: karlskoga.se NOTICE Name server ns.karlskoga.se (195.22.74.2) open for zone transfer of karlskoga.se.
+ 19.051: karlskoga.se NOTICE No answer received from 195.22.74.2 when querying for hostname.bind/CH/TXT.
+ 19.062: karlskoga.se NOTICE No answer received from 195.22.74.2 when querying for version.bind/CH/TXT.
+ 19.072: karlskoga.se NOTICE No answer received from 195.22.74.2 when querying for id.server/CH/TXT.
+ 19.082: karlskoga.se NOTICE No answer received from 195.22.74.2 when querying for version.server/CH/TXT.
+ 19.082: karlskoga.se INFO Done testing name server ns.karlskoga.se.
+ 19.082: karlskoga.se INFO Begin testing name server ns.sub.karlskoga.se.
+ 19.082: karlskoga.se INFO Begin testing host ns.sub.karlskoga.se.
+ 19.083: karlskoga.se INFO Begin testing address 195.22.74.33.
+ 19.552: karlskoga.se INFO Done testing address 195.22.74.33.
+ 19.553: karlskoga.se INFO Done testing host ns.sub.karlskoga.se.
+ 19.565: karlskoga.se INFO Name server ns.sub.karlskoga.se (195.22.74.33) answers queries over UDP.
+ 19.585: karlskoga.se INFO Name server ns.sub.karlskoga.se (195.22.74.33) answers queries over TCP.
+ 19.602: karlskoga.se INFO Name server ns.sub.karlskoga.se (195.22.74.33) is not recursive.
+ 19.614: karlskoga.se INFO Name server ns.sub.karlskoga.se (195.22.74.33) authoritative for karlskoga.se.
+ 19.739: karlskoga.se INFO Name server ns.sub.karlskoga.se (195.22.74.33) closed for zone transfer of karlskoga.se.
+ 19.750: karlskoga.se NOTICE No answer received from 195.22.74.33 when querying for hostname.bind/CH/TXT.
+ 19.761: karlskoga.se NOTICE No answer received from 195.22.74.33 when querying for version.bind/CH/TXT.
+ 19.773: karlskoga.se NOTICE No answer received from 195.22.74.33 when querying for id.server/CH/TXT.
+ 19.786: karlskoga.se NOTICE No answer received from 195.22.74.33 when querying for version.server/CH/TXT.
+ 19.786: karlskoga.se INFO Done testing name server ns.sub.karlskoga.se.
+ 19.786: karlskoga.se INFO Begin testing zone consistency for karlskoga.se.
+ 19.802: karlskoga.se INFO SOA at address 195.22.74.33 has serial 2010111803.
+ 19.814: karlskoga.se INFO SOA at address 195.22.74.2 has serial 2010111803.
+ 19.814: karlskoga.se INFO All SOA records have consistent serial numbers.
+ 19.814: karlskoga.se INFO All SOA records are consistent among all name servers.
+ 19.814: karlskoga.se INFO Done testing zone consistency for karlskoga.se.
+ 19.814: karlskoga.se INFO Begin testing SOA parameters for karlskoga.se.
+ 19.826: karlskoga.se INFO Found SOA record for karlskoga.se.
+ 19.826: karlskoga.se INFO Begin testing host ns.karlskoga.se.
+ 19.827: karlskoga.se INFO Begin testing address 195.22.74.2.
+ 19.828: karlskoga.se INFO Done testing address 195.22.74.2.
+ 19.828: karlskoga.se INFO Done testing host ns.karlskoga.se.
+ 19.828: karlskoga.se INFO SOA MNAME for karlskoga.se valid (ns.karlskoga.se).
+ 19.829: karlskoga.se INFO SOA MNAME for karlskoga.se (ns.karlskoga.se) listed as NS.
+ 19.841: karlskoga.se INFO SOA MNAME for karlskoga.se (ns.karlskoga.se) is authoritative.
+ 19.841: karlskoga.se INFO Begin testing email address hostmaster@ns.karlskoga.se.
+ 20.087: karlskoga.se INFO Mail exchangers for hostmaster@ns.karlskoga.se found ns.karlskoga.se.
+ 20.087: karlskoga.se INFO All mail servers for hostmaster@ns.karlskoga.se are in zone karlskoga.se.
+ 20.087: karlskoga.se INFO Begin testing host ns.karlskoga.se.
+ 20.088: karlskoga.se INFO Begin testing address 195.22.74.2.
+ 20.089: karlskoga.se INFO Done testing address 195.22.74.2.
+ 20.089: karlskoga.se INFO Done testing host ns.karlskoga.se.
+ 20.089: karlskoga.se INFO Begin testing mail server ns.karlskoga.se (195.22.74.2) with hostmaster@ns.karlskoga.se.
+ 40.088: karlskoga.se WARNING Failed to connect to ns.karlskoga.se (195.22.74.2).
+ 40.088: karlskoga.se INFO Done testing mail server ns.karlskoga.se (195.22.74.2) with hostmaster@ns.karlskoga.se.
+ 40.088: karlskoga.se WARNING Delivery over IPv4 to hostmaster@ns.karlskoga.se could not be done.
+ 40.088: karlskoga.se INFO Delivery over IPv6 to hostmaster@ns.karlskoga.se could not be done.
+ 40.088: karlskoga.se INFO Done testing email address hostmaster@ns.karlskoga.se.
+ 40.089: karlskoga.se WARNING Failed to deliver email for SOA RNAME of karlskoga.se (hostmaster.ns.karlskoga.se) using hostmaster@ns.karlskoga.se.
+ 40.089: karlskoga.se INFO SOA TTL for karlskoga.se OK (3600) - recommended >= 3600.
+ 40.089: karlskoga.se INFO SOA refresh for karlskoga.se OK (14400) - recommended >= 14400.
+ 40.089: karlskoga.se INFO SOA retry for karlskoga.se OK (3600) - recommended >= 3600.
+ 40.089: karlskoga.se INFO SOA expire for karlskoga.se OK (604800) - recommended >= 604800.
+ 40.089: karlskoga.se INFO SOA minimum for karlskoga.se OK (3600) - recommended between 300 and 86400.
+ 40.089: karlskoga.se INFO Done testing SOA parameters for karlskoga.se.
+ 40.089: karlskoga.se INFO Begin testing connectivity for karlskoga.se.
+ 40.868: karlskoga.se INFO Name server 195.22.74.33 announced by: 3292
+ 41.483: karlskoga.se INFO Name server 195.22.74.2 announced by: 3292
+ 41.483: karlskoga.se INFO Zone announced by IPv4 ASN: 3292
+ 41.483: karlskoga.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 41.483: karlskoga.se INFO Zone announced by IPv6 ASN: 
+ 41.483: karlskoga.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 41.483: karlskoga.se INFO Done testing connectivity for karlskoga.se.
+ 41.483: karlskoga.se INFO Begin testing DNSSEC for karlskoga.se.
+ 41.559: karlskoga.se INFO Did not find DS record for karlskoga.se at parent.
+ 41.597: karlskoga.se INFO Servers for karlskoga.se have consistent extra processing status.
+ 41.597: karlskoga.se INFO Did not find DNSKEY record for karlskoga.se at child.
+ 41.597: karlskoga.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 41.597: karlskoga.se INFO Done testing DNSSEC for karlskoga.se.
+ 41.597: karlskoga.se INFO Test completed for zone karlskoga.se.

@@ -1,0 +1,92 @@
+  0.000: varbergenergi.se INFO Begin testing zone varbergenergi.se with version 1.0.1.
+  0.001: varbergenergi.se INFO Begin testing delegation for varbergenergi.se.
+  1.062: varbergenergi.se INFO Name servers listed at parent: ns01.varberg.net,ns02.varberg.net
+  1.218: varbergenergi.se INFO Name servers listed at child: ns01.varberg.net,ns02.varberg.net
+  1.219: varbergenergi.se NOTICE No IPv6 name servers found.
+  1.296: varbergenergi.se INFO Done testing delegation for varbergenergi.se.
+  1.296: varbergenergi.se INFO Begin testing name server ns01.varberg.net.
+  1.297: varbergenergi.se INFO Begin testing host ns01.varberg.net.
+  1.298: varbergenergi.se INFO Begin testing address 217.73.100.11.
+  3.447: varbergenergi.se INFO Done testing address 217.73.100.11.
+  3.447: varbergenergi.se INFO Done testing host ns01.varberg.net.
+  3.476: varbergenergi.se INFO Name server ns01.varberg.net (217.73.100.11) is not recursive.
+  3.508: varbergenergi.se INFO Name server ns01.varberg.net (217.73.100.11) authoritative for varbergenergi.se.
+  3.567: varbergenergi.se INFO Name server ns01.varberg.net (217.73.100.11) answers queries over UDP.
+  3.630: varbergenergi.se INFO Name server ns01.varberg.net (217.73.100.11) answers queries over TCP.
+  3.694: varbergenergi.se INFO Name server ns01.varberg.net (217.73.100.11) closed for zone transfer of varbergenergi.se.
+  3.727: varbergenergi.se INFO Legacy name server ID for ns01.varberg.net (217.73.100.11): hostname.bind = ns01
+  3.754: varbergenergi.se INFO Legacy name server ID for ns01.varberg.net (217.73.100.11): version.bind = 9.5.1-P3
+  3.804: varbergenergi.se NOTICE No answer received from 217.73.100.11 when querying for version.server/CH/TXT.
+  3.805: varbergenergi.se INFO Done testing name server ns01.varberg.net.
+  3.805: varbergenergi.se INFO Begin testing name server ns02.varberg.net.
+  3.806: varbergenergi.se INFO Begin testing host ns02.varberg.net.
+  3.807: varbergenergi.se INFO Begin testing address 217.73.100.12.
+  3.837: varbergenergi.se INFO Done testing address 217.73.100.12.
+  3.838: varbergenergi.se INFO Done testing host ns02.varberg.net.
+  3.866: varbergenergi.se INFO Name server ns02.varberg.net (217.73.100.12) is not recursive.
+  3.894: varbergenergi.se INFO Name server ns02.varberg.net (217.73.100.12) authoritative for varbergenergi.se.
+  3.923: varbergenergi.se INFO Name server ns02.varberg.net (217.73.100.12) answers queries over UDP.
+  3.969: varbergenergi.se INFO Name server ns02.varberg.net (217.73.100.12) answers queries over TCP.
+  4.028: varbergenergi.se INFO Name server ns02.varberg.net (217.73.100.12) closed for zone transfer of varbergenergi.se.
+  4.055: varbergenergi.se INFO Legacy name server ID for ns02.varberg.net (217.73.100.12): hostname.bind = ns02
+  4.081: varbergenergi.se INFO Legacy name server ID for ns02.varberg.net (217.73.100.12): version.bind = 9.3.4-P1.2
+  4.130: varbergenergi.se NOTICE No answer received from 217.73.100.12 when querying for version.server/CH/TXT.
+  4.130: varbergenergi.se INFO Done testing name server ns02.varberg.net.
+  4.131: varbergenergi.se INFO Begin testing zone consistency for varbergenergi.se.
+  4.170: varbergenergi.se INFO SOA at address 217.73.100.11 has serial 2010022301.
+  4.196: varbergenergi.se INFO SOA at address 217.73.100.12 has serial 2010022301.
+  4.197: varbergenergi.se INFO All SOA records have consistent serial numbers.
+  4.197: varbergenergi.se INFO All SOA records are consistent among all name servers.
+  4.197: varbergenergi.se INFO Done testing zone consistency for varbergenergi.se.
+  4.197: varbergenergi.se INFO Begin testing SOA parameters for varbergenergi.se.
+  4.224: varbergenergi.se INFO Found SOA record for varbergenergi.se.
+  4.225: varbergenergi.se INFO Begin testing host ns01.varberg.net.
+  4.226: varbergenergi.se INFO Begin testing address 217.73.100.11.
+  4.228: varbergenergi.se INFO Done testing address 217.73.100.11.
+  4.229: varbergenergi.se INFO Done testing host ns01.varberg.net.
+  4.229: varbergenergi.se INFO SOA MNAME for varbergenergi.se valid (ns01.varberg.net).
+  4.229: varbergenergi.se INFO SOA MNAME for varbergenergi.se (ns01.varberg.net) listed as NS.
+  4.258: varbergenergi.se INFO SOA MNAME for varbergenergi.se (ns01.varberg.net) is authoritative.
+  4.258: varbergenergi.se INFO Begin testing email address registry@varbergenergi.se.
+  4.290: varbergenergi.se INFO Mail exchangers for registry@varbergenergi.se found dkcphmx60.softcom.dk,dkcphmx62.softcom.dk,deframx20.softcom.dk.
+  4.290: varbergenergi.se INFO Begin testing host dkcphmx60.softcom.dk.
+  4.432: varbergenergi.se INFO Begin testing address 194.192.15.190.
+  5.325: varbergenergi.se INFO Done testing address 194.192.15.190.
+  5.325: varbergenergi.se INFO Done testing host dkcphmx60.softcom.dk.
+  5.326: varbergenergi.se INFO Begin testing mail server dkcphmx60.softcom.dk (194.192.15.190) with registry@varbergenergi.se.
+  5.433: varbergenergi.se INFO SMTP banner: dkcphmx60.softcom.dk ESMTP ready;
+  5.523: varbergenergi.se INFO SMTP testing of dkcphmx60.softcom.dk (194.192.15.190) with registry@varbergenergi.se succeeded without errors.
+  5.523: varbergenergi.se INFO Done testing mail server dkcphmx60.softcom.dk (194.192.15.190) with registry@varbergenergi.se.
+  5.524: varbergenergi.se INFO Begin testing host dkcphmx62.softcom.dk.
+  5.587: varbergenergi.se INFO Begin testing address 213.150.52.217.
+  6.031: varbergenergi.se INFO Done testing address 213.150.52.217.
+  6.031: varbergenergi.se INFO Done testing host dkcphmx62.softcom.dk.
+  6.032: varbergenergi.se INFO Begin testing host deframx20.softcom.dk.
+  6.093: varbergenergi.se INFO Begin testing address 80.237.207.26.
+  6.387: varbergenergi.se INFO Done testing address 80.237.207.26.
+  6.387: varbergenergi.se INFO Done testing host deframx20.softcom.dk.
+  6.388: varbergenergi.se INFO Delivery over IPv4 to registry@varbergenergi.se ok.
+  6.388: varbergenergi.se INFO Delivery over IPv6 to registry@varbergenergi.se could not be done.
+  6.388: varbergenergi.se INFO Done testing email address registry@varbergenergi.se.
+  6.388: varbergenergi.se INFO Successful attempt to deliver email for SOA RNAME of varbergenergi.se (registry.varbergenergi.se) using registry@varbergenergi.se.
+  6.388: varbergenergi.se INFO SOA TTL for varbergenergi.se OK (432000) - recommended >= 3600.
+  6.389: varbergenergi.se NOTICE SOA refresh for varbergenergi.se too small (10800) - recommended >= 14400.
+  6.389: varbergenergi.se NOTICE SOA retry for varbergenergi.se too small (1800) - recommended >= 3600.
+  6.389: varbergenergi.se NOTICE SOA expire for varbergenergi.se too small (360000) - recommended >= 604800.
+  6.389: varbergenergi.se INFO SOA minimum for varbergenergi.se OK (86400) - recommended between 300 and 86400.
+  6.389: varbergenergi.se INFO Done testing SOA parameters for varbergenergi.se.
+  6.390: varbergenergi.se INFO Begin testing connectivity for varbergenergi.se.
+  6.799: varbergenergi.se INFO Name server 217.73.100.11 announced by: 1257
+  6.928: varbergenergi.se INFO Name server 217.73.100.12 announced by: 1257
+  6.928: varbergenergi.se INFO Zone announced by ASN: 1257
+  6.929: varbergenergi.se NOTICE Zone announced by only one ASN (1).
+  6.929: varbergenergi.se INFO Zone announced by IPv6 ASN: 
+  6.929: varbergenergi.se NOTICE Zone announced by only one IPv6 ASN (0).
+  6.929: varbergenergi.se INFO Done testing connectivity for varbergenergi.se.
+  6.930: varbergenergi.se INFO Begin testing DNSSEC for varbergenergi.se.
+  6.952: varbergenergi.se INFO Did not find DS record for varbergenergi.se at parent.
+  7.050: varbergenergi.se INFO Servers for varbergenergi.se have consistent extra processing status.
+  7.050: varbergenergi.se INFO Did not find DNSKEY record for varbergenergi.se at child.
+  7.050: varbergenergi.se INFO No DNSKEY(s) found at child, other tests skipped.
+  7.050: varbergenergi.se INFO Done testing DNSSEC for varbergenergi.se.
+  7.050: varbergenergi.se INFO Test completed for zone varbergenergi.se.

@@ -1,0 +1,81 @@
+  0.000: juankoski.fi INFO Begin testing zone juankoski.fi with version 1.6.1.
+  0.408: juankoski.fi INFO Begin testing delegation for juankoski.fi.
+  8.440: juankoski.fi INFO Name servers listed at parent: name.mpmol.fi,net-watch.mpmol.fi
+ 10.168: juankoski.fi INFO Name servers listed at child: name.mpmol.fi,net-watch.mpmol.fi
+ 10.168: juankoski.fi NOTICE No IPv6 name servers found.
+ 10.288: juankoski.fi INFO Parent glue for juankoski.fi found: name.mpmol.fi (212.146.26.51)
+ 10.392: juankoski.fi INFO Parent glue for juankoski.fi found: net-watch.mpmol.fi (212.146.26.50)
+ 10.436: juankoski.fi INFO Checking glue for name.mpmol.fi (212.146.26.51).
+ 10.436: juankoski.fi INFO Checking glue for net-watch.mpmol.fi (212.146.26.50).
+ 10.436: juankoski.fi INFO Parent glue for juankoski.fi found: name.mpmol.fi (212.146.26.51)
+ 10.437: juankoski.fi INFO Parent glue for juankoski.fi found: net-watch.mpmol.fi (212.146.26.50)
+ 11.321: juankoski.fi INFO It is possible to build a referral packet for juankoski.fi that works without EDNS0.
+ 13.084: juankoski.fi INFO Previously used name servers for juankoski.fi: 
+ 13.084: juankoski.fi INFO Done testing delegation for juankoski.fi.
+ 13.085: juankoski.fi INFO Begin testing name server name.mpmol.fi.
+ 13.085: juankoski.fi INFO Begin testing host name.mpmol.fi.
+ 13.791: juankoski.fi INFO Begin testing address 212.146.26.51.
+ 26.756: juankoski.fi WARNING Reverse for 212.146.26.51 points to an unknown host name (www.espoonsahkoexpertit.fi).
+ 26.756: juankoski.fi INFO Done testing address 212.146.26.51.
+ 26.756: juankoski.fi INFO Done testing host name.mpmol.fi.
+ 26.979: juankoski.fi INFO Name server name.mpmol.fi (212.146.26.51) answers queries over UDP.
+ 27.030: juankoski.fi INFO Name server name.mpmol.fi (212.146.26.51) answers queries over TCP.
+ 27.168: juankoski.fi INFO Name server name.mpmol.fi (212.146.26.51) is not recursive.
+ 27.256: juankoski.fi INFO Name server name.mpmol.fi (212.146.26.51) authoritative for juankoski.fi.
+ 27.469: juankoski.fi INFO Name server name.mpmol.fi (212.146.26.51) closed for zone transfer of juankoski.fi.
+ 27.493: juankoski.fi NOTICE No answer received from 212.146.26.51 when querying for hostname.bind/CH/TXT.
+ 39.556: juankoski.fi INFO Done testing name server name.mpmol.fi.
+ 39.556: juankoski.fi INFO Begin testing name server net-watch.mpmol.fi.
+ 39.556: juankoski.fi INFO Begin testing host net-watch.mpmol.fi.
+ 39.694: juankoski.fi INFO Begin testing address 212.146.26.50.
+ 40.246: juankoski.fi INFO Done testing address 212.146.26.50.
+ 40.246: juankoski.fi INFO Done testing host net-watch.mpmol.fi.
+ 40.392: juankoski.fi INFO Name server net-watch.mpmol.fi (212.146.26.50) answers queries over UDP.
+ 40.431: juankoski.fi INFO Name server net-watch.mpmol.fi (212.146.26.50) answers queries over TCP.
+ 40.484: juankoski.fi INFO Name server net-watch.mpmol.fi (212.146.26.50) is not recursive.
+ 40.568: juankoski.fi INFO Name server net-watch.mpmol.fi (212.146.26.50) authoritative for juankoski.fi.
+ 40.780: juankoski.fi INFO Name server net-watch.mpmol.fi (212.146.26.50) closed for zone transfer of juankoski.fi.
+ 40.802: juankoski.fi NOTICE No answer received from 212.146.26.50 when querying for hostname.bind/CH/TXT.
+ 52.870: juankoski.fi INFO Done testing name server net-watch.mpmol.fi.
+ 52.870: juankoski.fi INFO Begin testing zone consistency for juankoski.fi.
+ 53.322: juankoski.fi INFO SOA at address 212.146.26.51 has serial 52.
+ 53.342: juankoski.fi INFO SOA at address 212.146.26.50 has serial 52.
+ 53.342: juankoski.fi INFO All SOA records have consistent serial numbers.
+ 53.342: juankoski.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 53.613: juankoski.fi NOTICE The listed nameservers for juankoski.fi all report the same set of nameservers.
+ 53.613: juankoski.fi INFO Done testing zone consistency for juankoski.fi.
+ 53.613: juankoski.fi INFO Begin testing SOA parameters for juankoski.fi.
+ 53.634: juankoski.fi INFO Found SOA record for juankoski.fi.
+ 53.634: juankoski.fi INFO Begin testing host net-watch.mpmol.fi.
+ 53.718: juankoski.fi INFO Begin testing address 212.146.26.50.
+ 53.800: juankoski.fi INFO Done testing address 212.146.26.50.
+ 53.800: juankoski.fi INFO Done testing host net-watch.mpmol.fi.
+ 53.800: juankoski.fi INFO SOA MNAME for juankoski.fi valid (net-watch.mpmol.fi).
+ 53.800: juankoski.fi INFO SOA MNAME for juankoski.fi (net-watch.mpmol.fi) listed as NS.
+ 54.017: juankoski.fi INFO SOA MNAME for juankoski.fi (net-watch.mpmol.fi) is authoritative.
+ 54.017: juankoski.fi INFO Begin testing email address hostmaster@mpmol.fi.
+ 54.132: juankoski.fi INFO Mail exchangers for hostmaster@mpmol.fi found posti.datranet.fi.
+ 54.133: juankoski.fi INFO Begin testing host posti.datranet.fi.
+ 54.340: juankoski.fi INFO Begin testing address 212.146.26.61.
+ 54.684: juankoski.fi INFO Done testing address 212.146.26.61.
+ 54.684: juankoski.fi INFO Done testing host posti.datranet.fi.
+ 54.769: juankoski.fi INFO Done testing email address hostmaster@mpmol.fi.
+ 54.770: juankoski.fi INFO Successful attempt to deliver email for SOA RNAME of juankoski.fi (hostmaster.mpmol.fi) using hostmaster@mpmol.fi.
+ 54.770: juankoski.fi INFO SOA TTL for juankoski.fi OK (3600) - recommended >= 3600.
+ 54.770: juankoski.fi NOTICE SOA refresh for juankoski.fi too small (3700) - recommended >= 14400.
+ 54.770: juankoski.fi NOTICE SOA retry for juankoski.fi too small (600) - recommended >= 3600.
+ 54.770: juankoski.fi INFO SOA expire for juankoski.fi OK (1296000) - recommended >= 604800.
+ 54.770: juankoski.fi INFO SOA minimum for juankoski.fi OK (3600) - recommended between 300 and 86400.
+ 54.770: juankoski.fi INFO Done testing SOA parameters for juankoski.fi.
+ 54.770: juankoski.fi INFO Begin testing connectivity for juankoski.fi.
+ 55.776: juankoski.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 55.776: juankoski.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 55.776: juankoski.fi INFO Done testing connectivity for juankoski.fi.
+ 55.776: juankoski.fi INFO Begin testing DNSSEC for juankoski.fi.
+ 56.072: juankoski.fi INFO Did not find DS record for juankoski.fi at parent.
+ 56.154: juankoski.fi INFO Servers for juankoski.fi have consistent extra processing status.
+ 56.192: juankoski.fi INFO Authenticated denial records not found for juankoski.fi.
+ 56.212: juankoski.fi INFO Did not find DNSKEY record for juankoski.fi at child.
+ 56.212: juankoski.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 56.213: juankoski.fi INFO Done testing DNSSEC for juankoski.fi.
+ 56.213: juankoski.fi INFO Test completed for zone juankoski.fi.

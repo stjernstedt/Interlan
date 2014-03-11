@@ -1,0 +1,80 @@
+  0.000: norddal.kommune.no INFO Begin testing zone norddal.kommune.no with version 1.6.1.
+  0.481: norddal.kommune.no INFO Begin testing delegation for norddal.kommune.no.
+  7.512: norddal.kommune.no INFO Name servers listed at parent: ns1.acos.no,ns2.acos.no
+  8.550: norddal.kommune.no INFO Name servers listed at child: ns1.acos.no,ns2.acos.no
+  8.550: norddal.kommune.no NOTICE No IPv6 name servers found.
+  8.738: norddal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  8.905: norddal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.078: norddal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.222: norddal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.965: norddal.kommune.no INFO It is possible to build a referral packet for norddal.kommune.no that works without EDNS0.
+ 10.455: norddal.kommune.no INFO Previously used name servers for norddal.kommune.no: 
+ 10.455: norddal.kommune.no INFO Done testing delegation for norddal.kommune.no.
+ 10.456: norddal.kommune.no INFO Begin testing name server ns1.acos.no.
+ 10.456: norddal.kommune.no INFO Begin testing host ns1.acos.no.
+ 10.681: norddal.kommune.no INFO Begin testing address 82.134.18.193.
+ 16.972: norddal.kommune.no INFO Done testing address 82.134.18.193.
+ 16.972: norddal.kommune.no INFO Done testing host ns1.acos.no.
+ 17.114: norddal.kommune.no INFO Name server ns1.acos.no (82.134.18.193) answers queries over UDP.
+ 17.167: norddal.kommune.no INFO Name server ns1.acos.no (82.134.18.193) answers queries over TCP.
+ 17.204: norddal.kommune.no INFO Name server ns1.acos.no (82.134.18.193) is not recursive.
+ 17.322: norddal.kommune.no INFO Name server ns1.acos.no (82.134.18.193) authoritative for norddal.kommune.no.
+ 17.389: norddal.kommune.no INFO Name server ns1.acos.no (82.134.18.193) closed for zone transfer of norddal.kommune.no.
+ 17.437: norddal.kommune.no INFO Legacy name server ID for ns1.acos.no (82.134.18.193): hostname.bind = sentinel
+ 17.461: norddal.kommune.no INFO Legacy name server ID for ns1.acos.no (82.134.18.193): version.bind = 9.3.4-P1.1
+ 17.511: norddal.kommune.no NOTICE No answer received from 82.134.18.193 when querying for version.server/CH/TXT.
+ 17.511: norddal.kommune.no INFO Done testing name server ns1.acos.no.
+ 17.512: norddal.kommune.no INFO Begin testing name server ns2.acos.no.
+ 17.512: norddal.kommune.no INFO Begin testing host ns2.acos.no.
+ 17.638: norddal.kommune.no INFO Begin testing address 85.200.17.39.
+ 18.350: norddal.kommune.no INFO Done testing address 85.200.17.39.
+ 18.351: norddal.kommune.no INFO Done testing host ns2.acos.no.
+ 18.560: norddal.kommune.no INFO Name server ns2.acos.no (85.200.17.39) answers queries over UDP.
+ 18.627: norddal.kommune.no INFO Name server ns2.acos.no (85.200.17.39) answers queries over TCP.
+ 18.662: norddal.kommune.no INFO Name server ns2.acos.no (85.200.17.39) is not recursive.
+ 18.812: norddal.kommune.no INFO Name server ns2.acos.no (85.200.17.39) authoritative for norddal.kommune.no.
+ 19.128: norddal.kommune.no INFO Name server ns2.acos.no (85.200.17.39) closed for zone transfer of norddal.kommune.no.
+ 19.161: norddal.kommune.no NOTICE No answer received from 85.200.17.39 when querying for hostname.bind/CH/TXT.
+ 31.299: norddal.kommune.no INFO Done testing name server ns2.acos.no.
+ 31.300: norddal.kommune.no INFO Begin testing zone consistency for norddal.kommune.no.
+ 31.896: norddal.kommune.no INFO SOA at address 85.200.17.39 has serial 2009062503.
+ 31.922: norddal.kommune.no INFO SOA at address 82.134.18.193 has serial 2009062503.
+ 31.922: norddal.kommune.no INFO All SOA records have consistent serial numbers.
+ 31.922: norddal.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 32.323: norddal.kommune.no NOTICE The listed nameservers for norddal.kommune.no all report the same set of nameservers.
+ 32.330: norddal.kommune.no INFO Done testing zone consistency for norddal.kommune.no.
+ 32.330: norddal.kommune.no INFO Begin testing SOA parameters for norddal.kommune.no.
+ 32.371: norddal.kommune.no INFO Found SOA record for norddal.kommune.no.
+ 32.372: norddal.kommune.no INFO Begin testing host ns1.acos.no.
+ 32.571: norddal.kommune.no INFO Begin testing address 82.134.18.193.
+ 32.702: norddal.kommune.no INFO Done testing address 82.134.18.193.
+ 32.702: norddal.kommune.no INFO Done testing host ns1.acos.no.
+ 32.702: norddal.kommune.no INFO SOA MNAME for norddal.kommune.no valid (ns1.acos.no).
+ 32.703: norddal.kommune.no INFO SOA MNAME for norddal.kommune.no (ns1.acos.no) listed as NS.
+ 32.941: norddal.kommune.no INFO SOA MNAME for norddal.kommune.no (ns1.acos.no) is authoritative.
+ 32.941: norddal.kommune.no INFO Begin testing email address hostmaster@acos.no.
+ 33.073: norddal.kommune.no INFO Mail exchangers for hostmaster@acos.no found tux.acos.no.
+ 33.073: norddal.kommune.no INFO Begin testing host tux.acos.no.
+ 33.282: norddal.kommune.no INFO Begin testing address 82.134.18.193.
+ 33.392: norddal.kommune.no INFO Done testing address 82.134.18.193.
+ 33.392: norddal.kommune.no INFO Done testing host tux.acos.no.
+ 33.600: norddal.kommune.no INFO Done testing email address hostmaster@acos.no.
+ 33.600: norddal.kommune.no INFO Successful attempt to deliver email for SOA RNAME of norddal.kommune.no (hostmaster.acos.no) using hostmaster@acos.no.
+ 33.600: norddal.kommune.no INFO SOA TTL for norddal.kommune.no OK (172800) - recommended >= 3600.
+ 33.600: norddal.kommune.no INFO SOA refresh for norddal.kommune.no OK (86400) - recommended >= 14400.
+ 33.600: norddal.kommune.no INFO SOA retry for norddal.kommune.no OK (7200) - recommended >= 3600.
+ 33.600: norddal.kommune.no INFO SOA expire for norddal.kommune.no OK (3600000) - recommended >= 604800.
+ 33.601: norddal.kommune.no NOTICE SOA minimum for norddal.kommune.no too large (172800) - recommended <= 86400.
+ 33.601: norddal.kommune.no INFO Done testing SOA parameters for norddal.kommune.no.
+ 33.601: norddal.kommune.no INFO Begin testing connectivity for norddal.kommune.no.
+ 34.777: norddal.kommune.no NOTICE Zone announced by fewer than two IPv4 ASN.
+ 34.778: norddal.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 34.778: norddal.kommune.no INFO Done testing connectivity for norddal.kommune.no.
+ 34.778: norddal.kommune.no INFO Begin testing DNSSEC for norddal.kommune.no.
+ 34.891: norddal.kommune.no INFO Did not find DS record for norddal.kommune.no at parent.
+ 35.016: norddal.kommune.no INFO Servers for norddal.kommune.no have consistent extra processing status.
+ 35.084: norddal.kommune.no INFO Authenticated denial records not found for norddal.kommune.no.
+ 35.118: norddal.kommune.no INFO Did not find DNSKEY record for norddal.kommune.no at child.
+ 35.119: norddal.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 35.119: norddal.kommune.no INFO Done testing DNSSEC for norddal.kommune.no.
+ 35.119: norddal.kommune.no INFO Test completed for zone norddal.kommune.no.

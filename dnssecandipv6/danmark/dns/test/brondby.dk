@@ -1,0 +1,80 @@
+  0.000: brondby.dk INFO Begin testing zone brondby.dk with version 1.6.1.
+  0.424: brondby.dk INFO Begin testing delegation for brondby.dk.
+  7.267: brondby.dk INFO Name servers listed at parent: ns01.tdcwebmore.dk,ns02.tdcwebmore.dk
+  8.844: brondby.dk INFO Name servers listed at child: ns01.tdcwebmore.dk,ns02.tdcwebmore.dk
+  8.845: brondby.dk NOTICE No IPv6 name servers found.
+  8.963: brondby.dk INFO Parent glue for brondby.dk found: ns01.tdcwebmore.dk (62.243.74.199)
+  9.128: brondby.dk INFO Parent glue for brondby.dk found: ns02.tdcwebmore.dk (92.43.121.7)
+  9.239: brondby.dk INFO Checking glue for ns01.tdcwebmore.dk (62.243.74.199).
+  9.240: brondby.dk INFO Checking glue for ns02.tdcwebmore.dk (92.43.121.7).
+  9.240: brondby.dk INFO Parent glue for brondby.dk found: ns01.tdcwebmore.dk (62.243.74.199)
+  9.240: brondby.dk INFO Parent glue for brondby.dk found: ns02.tdcwebmore.dk (92.43.121.7)
+ 10.055: brondby.dk INFO It is possible to build a referral packet for brondby.dk that works without EDNS0.
+ 10.599: brondby.dk INFO Previously used name servers for brondby.dk: 
+ 10.604: brondby.dk INFO Done testing delegation for brondby.dk.
+ 10.605: brondby.dk INFO Begin testing name server ns01.tdcwebmore.dk.
+ 10.605: brondby.dk INFO Begin testing host ns01.tdcwebmore.dk.
+ 10.919: brondby.dk INFO Begin testing address 62.243.74.199.
+ 20.223: brondby.dk INFO Done testing address 62.243.74.199.
+ 20.223: brondby.dk INFO Done testing host ns01.tdcwebmore.dk.
+ 20.389: brondby.dk INFO Name server ns01.tdcwebmore.dk (62.243.74.199) answers queries over UDP.
+ 20.430: brondby.dk INFO Name server ns01.tdcwebmore.dk (62.243.74.199) answers queries over TCP.
+ 20.457: brondby.dk INFO Name server ns01.tdcwebmore.dk (62.243.74.199) is not recursive.
+ 20.567: brondby.dk INFO Name server ns01.tdcwebmore.dk (62.243.74.199) authoritative for brondby.dk.
+ 20.628: brondby.dk INFO Name server ns01.tdcwebmore.dk (62.243.74.199) closed for zone transfer of brondby.dk.
+ 20.703: brondby.dk INFO Legacy name server ID for ns01.tdcwebmore.dk (62.243.74.199): version.bind = PowerDNS Authoritative Server 3.3 (jenkins@autotest.powerdns.com built 20130708130708 mockbuild@repo.monshouwer.eu)
+ 20.767: brondby.dk INFO Done testing name server ns01.tdcwebmore.dk.
+ 20.767: brondby.dk INFO Begin testing name server ns02.tdcwebmore.dk.
+ 20.767: brondby.dk INFO Begin testing host ns02.tdcwebmore.dk.
+ 20.965: brondby.dk INFO Begin testing address 92.43.121.7.
+ 21.655: brondby.dk INFO Done testing address 92.43.121.7.
+ 21.655: brondby.dk INFO Done testing host ns02.tdcwebmore.dk.
+ 21.825: brondby.dk INFO Name server ns02.tdcwebmore.dk (92.43.121.7) answers queries over UDP.
+ 21.863: brondby.dk INFO Name server ns02.tdcwebmore.dk (92.43.121.7) answers queries over TCP.
+ 21.883: brondby.dk INFO Name server ns02.tdcwebmore.dk (92.43.121.7) is not recursive.
+ 21.963: brondby.dk INFO Name server ns02.tdcwebmore.dk (92.43.121.7) authoritative for brondby.dk.
+ 22.004: brondby.dk INFO Name server ns02.tdcwebmore.dk (92.43.121.7) closed for zone transfer of brondby.dk.
+ 22.073: brondby.dk INFO Legacy name server ID for ns02.tdcwebmore.dk (92.43.121.7): version.bind = PowerDNS Authoritative Server 3.3.1 (jenkins@autotest.powerdns.com built 20140120195432 mockbuild@repo.monshouwer.eu)
+ 22.161: brondby.dk INFO Done testing name server ns02.tdcwebmore.dk.
+ 22.161: brondby.dk INFO Begin testing zone consistency for brondby.dk.
+ 23.023: brondby.dk INFO SOA at address 92.43.121.7 has serial 2014012400.
+ 23.063: brondby.dk INFO SOA at address 62.243.74.199 has serial 2014012400.
+ 23.063: brondby.dk INFO All SOA records have consistent serial numbers.
+ 23.063: brondby.dk INFO All other fields in the SOA record are consistent among all name servers.
+ 23.591: brondby.dk NOTICE The listed nameservers for brondby.dk all report the same set of nameservers.
+ 23.591: brondby.dk INFO Done testing zone consistency for brondby.dk.
+ 23.591: brondby.dk INFO Begin testing SOA parameters for brondby.dk.
+ 23.637: brondby.dk INFO Found SOA record for brondby.dk.
+ 23.637: brondby.dk INFO Begin testing host ns01.tdcwebmore.dk.
+ 23.936: brondby.dk INFO Begin testing address 62.243.74.199.
+ 24.074: brondby.dk INFO Done testing address 62.243.74.199.
+ 24.074: brondby.dk INFO Done testing host ns01.tdcwebmore.dk.
+ 24.074: brondby.dk INFO SOA MNAME for brondby.dk valid (ns01.tdcwebmore.dk).
+ 24.078: brondby.dk INFO SOA MNAME for brondby.dk (ns01.tdcwebmore.dk) listed as NS.
+ 24.293: brondby.dk INFO SOA MNAME for brondby.dk (ns01.tdcwebmore.dk) is authoritative.
+ 24.293: brondby.dk INFO Begin testing email address hostmaster@tele.dk.
+ 24.462: brondby.dk INFO Mail exchangers for hostmaster@tele.dk found mailgrinder.inet.tele.dk.
+ 24.463: brondby.dk INFO Begin testing host mailgrinder.inet.tele.dk.
+ 25.034: brondby.dk INFO Begin testing address 195.41.53.78.
+ 25.838: brondby.dk INFO Done testing address 195.41.53.78.
+ 25.843: brondby.dk INFO Done testing host mailgrinder.inet.tele.dk.
+ 26.067: brondby.dk INFO Done testing email address hostmaster@tele.dk.
+ 26.067: brondby.dk INFO Successful attempt to deliver email for SOA RNAME of brondby.dk (hostmaster.tele.dk) using hostmaster@tele.dk.
+ 26.067: brondby.dk INFO SOA TTL for brondby.dk OK (21600) - recommended >= 3600.
+ 26.067: brondby.dk INFO SOA refresh for brondby.dk OK (14400) - recommended >= 14400.
+ 26.067: brondby.dk INFO SOA retry for brondby.dk OK (7200) - recommended >= 3600.
+ 26.067: brondby.dk INFO SOA expire for brondby.dk OK (604800) - recommended >= 604800.
+ 26.067: brondby.dk INFO SOA minimum for brondby.dk OK (900) - recommended between 300 and 86400.
+ 26.067: brondby.dk INFO Done testing SOA parameters for brondby.dk.
+ 26.068: brondby.dk INFO Begin testing connectivity for brondby.dk.
+ 27.064: brondby.dk INFO Zone announced by more than one ASN.
+ 27.064: brondby.dk NOTICE Zone announced by fewer than two IPv6 ASN.
+ 27.064: brondby.dk INFO Done testing connectivity for brondby.dk.
+ 27.064: brondby.dk INFO Begin testing DNSSEC for brondby.dk.
+ 27.118: brondby.dk INFO Did not find DS record for brondby.dk at parent.
+ 27.206: brondby.dk INFO Servers for brondby.dk have consistent extra processing status.
+ 27.245: brondby.dk INFO Authenticated denial records not found for brondby.dk.
+ 27.273: brondby.dk INFO Did not find DNSKEY record for brondby.dk at child.
+ 27.273: brondby.dk INFO No DNSKEY(s) found at child, other tests skipped.
+ 27.273: brondby.dk INFO Done testing DNSSEC for brondby.dk.
+ 27.273: brondby.dk INFO Test completed for zone brondby.dk.

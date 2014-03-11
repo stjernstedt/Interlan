@@ -1,0 +1,82 @@
+  0.000: laukaa.fi INFO Begin testing zone laukaa.fi with version 1.6.1.
+  0.378: laukaa.fi INFO Begin testing delegation for laukaa.fi.
+  8.987: laukaa.fi INFO Name servers listed at parent: ns-fi.elisa.net,ns-se.elisa.net
+ 10.997: laukaa.fi INFO Name servers listed at child: ns-fi.elisa.net,ns-se.elisa.net
+ 10.997: laukaa.fi NOTICE No IPv6 name servers found.
+ 12.032: laukaa.fi INFO It is possible to build a referral packet for laukaa.fi that works without EDNS0.
+ 12.830: laukaa.fi INFO Previously used name servers for laukaa.fi: 
+ 12.831: laukaa.fi INFO Done testing delegation for laukaa.fi.
+ 12.831: laukaa.fi INFO Begin testing name server ns-fi.elisa.net.
+ 12.831: laukaa.fi INFO Begin testing host ns-fi.elisa.net.
+ 13.426: laukaa.fi INFO Begin testing address 193.229.0.49.
+ 25.930: laukaa.fi INFO Done testing address 193.229.0.49.
+ 25.930: laukaa.fi INFO Done testing host ns-fi.elisa.net.
+ 26.140: laukaa.fi INFO Name server ns-fi.elisa.net (193.229.0.49) answers queries over UDP.
+ 26.185: laukaa.fi INFO Name server ns-fi.elisa.net (193.229.0.49) answers queries over TCP.
+ 26.205: laukaa.fi INFO Name server ns-fi.elisa.net (193.229.0.49) is not recursive.
+ 26.298: laukaa.fi INFO Name server ns-fi.elisa.net (193.229.0.49) authoritative for laukaa.fi.
+ 26.342: laukaa.fi INFO Name server ns-fi.elisa.net (193.229.0.49) closed for zone transfer of laukaa.fi.
+ 26.370: laukaa.fi INFO Legacy name server ID for ns-fi.elisa.net (193.229.0.49): hostname.bind = ldom-dns64
+ 26.400: laukaa.fi INFO Legacy name server ID for ns-fi.elisa.net (193.229.0.49): version.bind = unknown
+ 26.450: laukaa.fi NOTICE No answer received from 193.229.0.49 when querying for version.server/CH/TXT.
+ 26.450: laukaa.fi INFO Done testing name server ns-fi.elisa.net.
+ 26.450: laukaa.fi INFO Begin testing name server ns-se.elisa.net.
+ 26.450: laukaa.fi INFO Begin testing host ns-se.elisa.net.
+ 26.902: laukaa.fi INFO Begin testing address 62.248.254.2.
+ 27.878: laukaa.fi INFO Done testing address 62.248.254.2.
+ 27.878: laukaa.fi INFO Done testing host ns-se.elisa.net.
+ 28.093: laukaa.fi INFO Name server ns-se.elisa.net (62.248.254.2) answers queries over UDP.
+ 28.140: laukaa.fi INFO Name server ns-se.elisa.net (62.248.254.2) answers queries over TCP.
+ 28.166: laukaa.fi INFO Name server ns-se.elisa.net (62.248.254.2) is not recursive.
+ 28.249: laukaa.fi INFO Name server ns-se.elisa.net (62.248.254.2) authoritative for laukaa.fi.
+ 28.305: laukaa.fi INFO Name server ns-se.elisa.net (62.248.254.2) closed for zone transfer of laukaa.fi.
+ 28.330: laukaa.fi INFO Legacy name server ID for ns-se.elisa.net (62.248.254.2): hostname.bind = phys-dns8
+ 28.346: laukaa.fi INFO Legacy name server ID for ns-se.elisa.net (62.248.254.2): version.bind = unknown
+ 28.382: laukaa.fi NOTICE No answer received from 62.248.254.2 when querying for version.server/CH/TXT.
+ 28.382: laukaa.fi INFO Done testing name server ns-se.elisa.net.
+ 28.382: laukaa.fi INFO Begin testing zone consistency for laukaa.fi.
+ 29.420: laukaa.fi INFO SOA at address 62.248.254.2 has serial 2013060400.
+ 29.438: laukaa.fi INFO SOA at address 193.229.0.49 has serial 2013060400.
+ 29.438: laukaa.fi INFO All SOA records have consistent serial numbers.
+ 29.438: laukaa.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 29.874: laukaa.fi NOTICE The listed nameservers for laukaa.fi all report the same set of nameservers.
+ 29.874: laukaa.fi INFO Done testing zone consistency for laukaa.fi.
+ 29.875: laukaa.fi INFO Begin testing SOA parameters for laukaa.fi.
+ 29.902: laukaa.fi INFO Found SOA record for laukaa.fi.
+ 29.902: laukaa.fi INFO Begin testing host ns-fi.elisa.net.
+ 30.106: laukaa.fi INFO Begin testing address 193.229.0.49.
+ 30.474: laukaa.fi INFO Done testing address 193.229.0.49.
+ 30.474: laukaa.fi INFO Done testing host ns-fi.elisa.net.
+ 30.474: laukaa.fi INFO SOA MNAME for laukaa.fi valid (ns-fi.elisa.net).
+ 30.474: laukaa.fi INFO SOA MNAME for laukaa.fi (ns-fi.elisa.net) listed as NS.
+ 30.742: laukaa.fi INFO SOA MNAME for laukaa.fi (ns-fi.elisa.net) is authoritative.
+ 30.742: laukaa.fi INFO Begin testing email address hostmaster@elisa.fi.
+ 30.858: laukaa.fi INFO Mail exchangers for hostmaster@elisa.fi found mx2.elisa.fi,mx1.elisa.fi.
+ 30.858: laukaa.fi INFO Begin testing host mx2.elisa.fi.
+ 31.122: laukaa.fi INFO Begin testing address 193.64.173.43.
+ 32.406: laukaa.fi INFO Done testing address 193.64.173.43.
+ 32.406: laukaa.fi INFO Done testing host mx2.elisa.fi.
+ 32.516: laukaa.fi INFO Begin testing host mx1.elisa.fi.
+ 32.762: laukaa.fi INFO Begin testing address 193.64.173.42.
+ 33.386: laukaa.fi INFO Done testing address 193.64.173.42.
+ 33.386: laukaa.fi INFO Done testing host mx1.elisa.fi.
+ 33.494: laukaa.fi INFO Done testing email address hostmaster@elisa.fi.
+ 33.494: laukaa.fi INFO Successful attempt to deliver email for SOA RNAME of laukaa.fi (hostmaster.elisa.fi) using hostmaster@elisa.fi.
+ 33.494: laukaa.fi INFO SOA TTL for laukaa.fi OK (3600) - recommended >= 3600.
+ 33.494: laukaa.fi NOTICE SOA refresh for laukaa.fi too small (3600) - recommended >= 14400.
+ 33.494: laukaa.fi NOTICE SOA retry for laukaa.fi too small (900) - recommended >= 3600.
+ 33.494: laukaa.fi INFO SOA expire for laukaa.fi OK (604800) - recommended >= 604800.
+ 33.495: laukaa.fi INFO SOA minimum for laukaa.fi OK (3600) - recommended between 300 and 86400.
+ 33.495: laukaa.fi INFO Done testing SOA parameters for laukaa.fi.
+ 33.495: laukaa.fi INFO Begin testing connectivity for laukaa.fi.
+ 34.390: laukaa.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 34.390: laukaa.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 34.390: laukaa.fi INFO Done testing connectivity for laukaa.fi.
+ 34.390: laukaa.fi INFO Begin testing DNSSEC for laukaa.fi.
+ 34.731: laukaa.fi INFO Did not find DS record for laukaa.fi at parent.
+ 34.802: laukaa.fi INFO Servers for laukaa.fi have consistent extra processing status.
+ 34.854: laukaa.fi INFO Authenticated denial records not found for laukaa.fi.
+ 34.874: laukaa.fi INFO Did not find DNSKEY record for laukaa.fi at child.
+ 34.874: laukaa.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 34.874: laukaa.fi INFO Done testing DNSSEC for laukaa.fi.
+ 34.875: laukaa.fi INFO Test completed for zone laukaa.fi.

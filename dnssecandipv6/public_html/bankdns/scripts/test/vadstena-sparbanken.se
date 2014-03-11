@@ -1,0 +1,93 @@
+  0.000: vadstena-sparbanken.se INFO Begin testing zone vadstena-sparbanken.se with version 1.5.0.
+  0.001: vadstena-sparbanken.se INFO Begin testing delegation for vadstena-sparbanken.se.
+  6.340: vadstena-sparbanken.se INFO Name servers listed at parent: dns1.telia.com,ns1.foreningssparbanken.se,ns2.foreningssparbanken.se
+  9.193: vadstena-sparbanken.se INFO Name servers listed at child: dns1.telia.com,ns1.foreningssparbanken.se,ns2.foreningssparbanken.se
+  9.194: vadstena-sparbanken.se NOTICE No IPv6 name servers found.
+  9.235: vadstena-sparbanken.se INFO Parent glue for vadstena-sparbanken.se found: ns1.foreningssparbanken.se (164.10.45.24)
+  9.374: vadstena-sparbanken.se INFO Parent glue for vadstena-sparbanken.se found: ns2.foreningssparbanken.se (164.10.45.25)
+  9.386: vadstena-sparbanken.se INFO Checking glue for ns1.foreningssparbanken.se (164.10.45.24).
+  9.387: vadstena-sparbanken.se INFO Checking glue for ns2.foreningssparbanken.se (164.10.45.25).
+  9.388: vadstena-sparbanken.se INFO Parent glue for vadstena-sparbanken.se found: ns1.foreningssparbanken.se (164.10.45.24)
+  9.389: vadstena-sparbanken.se INFO Parent glue for vadstena-sparbanken.se found: ns2.foreningssparbanken.se (164.10.45.25)
+ 10.451: vadstena-sparbanken.se INFO It is possible to build a referral packet for vadstena-sparbanken.se that works without EDNS0.
+ 10.451: vadstena-sparbanken.se INFO Done testing delegation for vadstena-sparbanken.se.
+ 10.453: vadstena-sparbanken.se INFO Begin testing name server dns1.telia.com.
+ 10.453: vadstena-sparbanken.se INFO Begin testing host dns1.telia.com.
+ 10.872: vadstena-sparbanken.se INFO Begin testing address 81.228.11.67.
+ 21.948: vadstena-sparbanken.se INFO Done testing address 81.228.11.67.
+ 21.948: vadstena-sparbanken.se INFO Done testing host dns1.telia.com.
+ 22.542: vadstena-sparbanken.se INFO Name server dns1.telia.com (81.228.11.67) answers queries over UDP.
+ 22.554: vadstena-sparbanken.se INFO Name server dns1.telia.com (81.228.11.67) answers queries over TCP.
+ 22.561: vadstena-sparbanken.se INFO Name server dns1.telia.com (81.228.11.67) is not recursive.
+ 22.593: vadstena-sparbanken.se INFO Name server dns1.telia.com (81.228.11.67) authoritative for vadstena-sparbanken.se.
+ 22.605: vadstena-sparbanken.se INFO Name server dns1.telia.com (81.228.11.67) closed for zone transfer of vadstena-sparbanken.se.
+ 22.613: vadstena-sparbanken.se INFO Legacy name server ID for dns1.telia.com (81.228.11.67): hostname.bind = infradnshosting1-sn1.fre.skanova.net
+ 22.620: vadstena-sparbanken.se INFO Legacy name server ID for dns1.telia.com (81.228.11.67): version.bind = 9.9.3-P2
+ 22.634: vadstena-sparbanken.se NOTICE No answer received from 81.228.11.67 when querying for version.server/CH/TXT.
+ 22.635: vadstena-sparbanken.se INFO Done testing name server dns1.telia.com.
+ 22.635: vadstena-sparbanken.se INFO Begin testing name server ns1.foreningssparbanken.se.
+ 22.636: vadstena-sparbanken.se INFO Begin testing host ns1.foreningssparbanken.se.
+ 22.930: vadstena-sparbanken.se INFO Begin testing address 164.10.45.24.
+ 29.454: vadstena-sparbanken.se INFO Done testing address 164.10.45.24.
+ 29.454: vadstena-sparbanken.se INFO Done testing host ns1.foreningssparbanken.se.
+ 29.707: vadstena-sparbanken.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) answers queries over UDP.
+ 29.726: vadstena-sparbanken.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) answers queries over TCP.
+ 29.738: vadstena-sparbanken.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) is not recursive.
+ 29.787: vadstena-sparbanken.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) authoritative for vadstena-sparbanken.se.
+ 29.807: vadstena-sparbanken.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) closed for zone transfer of vadstena-sparbanken.se.
+ 53.849: vadstena-sparbanken.se INFO Done testing name server ns1.foreningssparbanken.se.
+ 53.849: vadstena-sparbanken.se INFO Begin testing name server ns2.foreningssparbanken.se.
+ 53.850: vadstena-sparbanken.se INFO Begin testing host ns2.foreningssparbanken.se.
+ 54.101: vadstena-sparbanken.se INFO Begin testing address 164.10.45.25.
+ 55.409: vadstena-sparbanken.se INFO Done testing address 164.10.45.25.
+ 55.409: vadstena-sparbanken.se INFO Done testing host ns2.foreningssparbanken.se.
+ 55.660: vadstena-sparbanken.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) answers queries over UDP.
+ 55.677: vadstena-sparbanken.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) answers queries over TCP.
+ 55.687: vadstena-sparbanken.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) is not recursive.
+ 55.727: vadstena-sparbanken.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) authoritative for vadstena-sparbanken.se.
+ 55.744: vadstena-sparbanken.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) closed for zone transfer of vadstena-sparbanken.se.
+ 79.798: vadstena-sparbanken.se INFO Done testing name server ns2.foreningssparbanken.se.
+ 79.799: vadstena-sparbanken.se INFO Begin testing zone consistency for vadstena-sparbanken.se.
+ 81.759: vadstena-sparbanken.se INFO SOA at address 164.10.45.24 has serial 2013021901.
+ 81.771: vadstena-sparbanken.se INFO SOA at address 164.10.45.25 has serial 2013021901.
+ 81.783: vadstena-sparbanken.se INFO SOA at address 81.228.11.67 has serial 2013021901.
+ 81.783: vadstena-sparbanken.se INFO All SOA records have consistent serial numbers.
+ 81.783: vadstena-sparbanken.se INFO All other fields in the SOA record are consistent among all name servers.
+ 82.835: vadstena-sparbanken.se NOTICE The listed nameservers for vadstena-sparbanken.se all report the same set of nameservers.
+ 82.835: vadstena-sparbanken.se INFO Done testing zone consistency for vadstena-sparbanken.se.
+ 82.836: vadstena-sparbanken.se INFO Begin testing SOA parameters for vadstena-sparbanken.se.
+ 82.859: vadstena-sparbanken.se INFO Found SOA record for vadstena-sparbanken.se.
+ 82.859: vadstena-sparbanken.se INFO Begin testing host ns1.foreningssparbanken.se.
+ 83.115: vadstena-sparbanken.se INFO Begin testing address 164.10.45.24.
+ 83.616: vadstena-sparbanken.se INFO Done testing address 164.10.45.24.
+ 83.616: vadstena-sparbanken.se INFO Done testing host ns1.foreningssparbanken.se.
+ 83.616: vadstena-sparbanken.se INFO SOA MNAME for vadstena-sparbanken.se valid (ns1.foreningssparbanken.se).
+ 83.617: vadstena-sparbanken.se INFO SOA MNAME for vadstena-sparbanken.se (ns1.foreningssparbanken.se) listed as NS.
+ 83.893: vadstena-sparbanken.se INFO SOA MNAME for vadstena-sparbanken.se (ns1.foreningssparbanken.se) is authoritative.
+ 83.893: vadstena-sparbanken.se INFO Begin testing email address unixdrift@foreningssparbanken.se.
+ 84.404: vadstena-sparbanken.se INFO Mail exchangers for unixdrift@foreningssparbanken.se found foreningssparbanken.se.
+ 84.405: vadstena-sparbanken.se INFO Begin testing host foreningssparbanken.se.
+ 84.646: vadstena-sparbanken.se INFO Begin testing address 164.10.45.63.
+ 85.364: vadstena-sparbanken.se WARNING Could not find reverse address for 164.10.45.63 (63.45.10.164.in-addr.arpa.).
+ 85.364: vadstena-sparbanken.se INFO Done testing address 164.10.45.63.
+ 85.364: vadstena-sparbanken.se INFO Done testing host foreningssparbanken.se.
+ 85.596: vadstena-sparbanken.se INFO Done testing email address unixdrift@foreningssparbanken.se.
+ 85.596: vadstena-sparbanken.se INFO Successful attempt to deliver email for SOA RNAME of vadstena-sparbanken.se (unixdrift.foreningssparbanken.se) using unixdrift@foreningssparbanken.se.
+ 85.597: vadstena-sparbanken.se INFO SOA TTL for vadstena-sparbanken.se OK (3600) - recommended >= 3600.
+ 85.597: vadstena-sparbanken.se INFO SOA refresh for vadstena-sparbanken.se OK (21600) - recommended >= 14400.
+ 85.597: vadstena-sparbanken.se INFO SOA retry for vadstena-sparbanken.se OK (3600) - recommended >= 3600.
+ 85.597: vadstena-sparbanken.se INFO SOA expire for vadstena-sparbanken.se OK (691200) - recommended >= 604800.
+ 85.597: vadstena-sparbanken.se INFO SOA minimum for vadstena-sparbanken.se OK (86400) - recommended between 300 and 86400.
+ 85.598: vadstena-sparbanken.se INFO Done testing SOA parameters for vadstena-sparbanken.se.
+ 85.598: vadstena-sparbanken.se INFO Begin testing connectivity for vadstena-sparbanken.se.
+ 87.748: vadstena-sparbanken.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 87.748: vadstena-sparbanken.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 87.748: vadstena-sparbanken.se INFO Done testing connectivity for vadstena-sparbanken.se.
+ 87.748: vadstena-sparbanken.se INFO Begin testing DNSSEC for vadstena-sparbanken.se.
+ 87.770: vadstena-sparbanken.se INFO Did not find DS record for vadstena-sparbanken.se at parent.
+ 87.805: vadstena-sparbanken.se INFO Servers for vadstena-sparbanken.se have consistent extra processing status.
+ 87.817: vadstena-sparbanken.se INFO Authenticated denial records not found for vadstena-sparbanken.se.
+ 87.825: vadstena-sparbanken.se INFO Did not find DNSKEY record for vadstena-sparbanken.se at child.
+ 87.825: vadstena-sparbanken.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 87.825: vadstena-sparbanken.se INFO Done testing DNSSEC for vadstena-sparbanken.se.
+ 87.826: vadstena-sparbanken.se INFO Test completed for zone vadstena-sparbanken.se.

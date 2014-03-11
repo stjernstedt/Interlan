@@ -1,0 +1,86 @@
+  0.000: ha.kommune.no INFO Begin testing zone ha.kommune.no with version 1.6.1.
+  0.455: ha.kommune.no INFO Begin testing delegation for ha.kommune.no.
+  8.275: ha.kommune.no INFO Name servers listed at parent: ns01.online4u.no,ns02.online4u.no
+  9.401: ha.kommune.no INFO Name servers listed at child: ns01.online4u.no,ns02.online4u.no
+  9.401: ha.kommune.no NOTICE No IPv6 name servers found.
+  9.637: ha.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.843: ha.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.969: ha.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.147: ha.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.873: ha.kommune.no INFO It is possible to build a referral packet for ha.kommune.no that works without EDNS0.
+ 11.323: ha.kommune.no INFO Previously used name servers for ha.kommune.no: 
+ 11.323: ha.kommune.no INFO Done testing delegation for ha.kommune.no.
+ 11.323: ha.kommune.no INFO Begin testing name server ns01.online4u.no.
+ 11.324: ha.kommune.no INFO Begin testing host ns01.online4u.no.
+ 11.647: ha.kommune.no INFO Begin testing address 194.63.250.211.
+ 24.727: ha.kommune.no INFO Done testing address 194.63.250.211.
+ 24.727: ha.kommune.no INFO Done testing host ns01.online4u.no.
+ 24.899: ha.kommune.no INFO Name server ns01.online4u.no (194.63.250.211) answers queries over UDP.
+ 24.925: ha.kommune.no INFO Name server ns01.online4u.no (194.63.250.211) answers queries over TCP.
+ 24.963: ha.kommune.no INFO Name server ns01.online4u.no (194.63.250.211) is not recursive.
+ 25.039: ha.kommune.no INFO Name server ns01.online4u.no (194.63.250.211) authoritative for ha.kommune.no.
+ 25.278: ha.kommune.no INFO Name server ns01.online4u.no (194.63.250.211) closed for zone transfer of ha.kommune.no.
+ 25.299: ha.kommune.no NOTICE No answer received from 194.63.250.211 when querying for hostname.bind/CH/TXT.
+ 37.363: ha.kommune.no INFO Done testing name server ns01.online4u.no.
+ 37.363: ha.kommune.no INFO Begin testing name server ns02.online4u.no.
+ 37.363: ha.kommune.no INFO Begin testing host ns02.online4u.no.
+ 37.711: ha.kommune.no INFO Begin testing address 64.28.8.35.
+ 46.991: ha.kommune.no INFO Done testing address 64.28.8.35.
+ 46.991: ha.kommune.no INFO Done testing host ns02.online4u.no.
+ 47.267: ha.kommune.no INFO Name server ns02.online4u.no (64.28.8.35) answers queries over UDP.
+ 47.311: ha.kommune.no INFO Name server ns02.online4u.no (64.28.8.35) answers queries over TCP.
+ 47.326: ha.kommune.no INFO Name server ns02.online4u.no (64.28.8.35) is not recursive.
+ 47.429: ha.kommune.no INFO Name server ns02.online4u.no (64.28.8.35) authoritative for ha.kommune.no.
+ 47.583: ha.kommune.no INFO Name server ns02.online4u.no (64.28.8.35) closed for zone transfer of ha.kommune.no.
+ 47.607: ha.kommune.no NOTICE No answer received from 64.28.8.35 when querying for hostname.bind/CH/TXT.
+ 59.680: ha.kommune.no INFO Done testing name server ns02.online4u.no.
+ 59.680: ha.kommune.no INFO Begin testing zone consistency for ha.kommune.no.
+ 60.179: ha.kommune.no INFO SOA at address 194.63.250.211 has serial 2012091901.
+ 60.197: ha.kommune.no INFO SOA at address 64.28.8.35 has serial 2012091901.
+ 60.197: ha.kommune.no INFO All SOA records have consistent serial numbers.
+ 60.197: ha.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 60.400: ha.kommune.no NOTICE The listed nameservers for ha.kommune.no all report the same set of nameservers.
+ 60.401: ha.kommune.no INFO Done testing zone consistency for ha.kommune.no.
+ 60.401: ha.kommune.no INFO Begin testing SOA parameters for ha.kommune.no.
+ 60.425: ha.kommune.no INFO Found SOA record for ha.kommune.no.
+ 60.425: ha.kommune.no INFO Begin testing host ns01.online4u.no.
+ 60.535: ha.kommune.no INFO Begin testing address 194.63.250.211.
+ 60.729: ha.kommune.no INFO Done testing address 194.63.250.211.
+ 60.729: ha.kommune.no INFO Done testing host ns01.online4u.no.
+ 60.729: ha.kommune.no INFO SOA MNAME for ha.kommune.no valid (ns01.online4u.no).
+ 60.729: ha.kommune.no INFO SOA MNAME for ha.kommune.no (ns01.online4u.no) listed as NS.
+ 60.824: ha.kommune.no INFO SOA MNAME for ha.kommune.no (ns01.online4u.no) is authoritative.
+ 60.825: ha.kommune.no INFO Begin testing email address domains@altibox.no.
+ 61.353: ha.kommune.no INFO Mail exchangers for domains@altibox.no found mail.messaging.microsoft.com.
+ 61.353: ha.kommune.no INFO Begin testing host mail.messaging.microsoft.com.
+ 63.694: ha.kommune.no INFO Begin testing address 65.55.88.22.
+ 64.943: ha.kommune.no INFO Done testing address 65.55.88.22.
+ 64.943: ha.kommune.no INFO Begin testing address 207.46.163.30.
+ 65.953: ha.kommune.no INFO Done testing address 207.46.163.30.
+ 65.954: ha.kommune.no INFO Begin testing address 216.32.180.22.
+ 69.121: ha.kommune.no INFO Done testing address 216.32.180.22.
+ 69.121: ha.kommune.no INFO Begin testing address 213.199.180.150.
+ 70.376: ha.kommune.no INFO Done testing address 213.199.180.150.
+ 70.377: ha.kommune.no INFO Begin testing address 216.32.181.178.
+ 71.262: ha.kommune.no INFO Done testing address 216.32.181.178.
+ 71.262: ha.kommune.no INFO Done testing host mail.messaging.microsoft.com.
+ 72.296: ha.kommune.no INFO Done testing email address domains@altibox.no.
+ 72.296: ha.kommune.no INFO Successful attempt to deliver email for SOA RNAME of ha.kommune.no (domains.altibox.no) using domains@altibox.no.
+ 72.296: ha.kommune.no INFO SOA TTL for ha.kommune.no OK (3600) - recommended >= 3600.
+ 72.296: ha.kommune.no NOTICE SOA refresh for ha.kommune.no too small (900) - recommended >= 14400.
+ 72.296: ha.kommune.no NOTICE SOA retry for ha.kommune.no too small (600) - recommended >= 3600.
+ 72.296: ha.kommune.no INFO SOA expire for ha.kommune.no OK (604800) - recommended >= 604800.
+ 72.296: ha.kommune.no INFO SOA minimum for ha.kommune.no OK (3600) - recommended between 300 and 86400.
+ 72.296: ha.kommune.no INFO Done testing SOA parameters for ha.kommune.no.
+ 72.297: ha.kommune.no INFO Begin testing connectivity for ha.kommune.no.
+ 73.056: ha.kommune.no INFO Zone announced by more than one ASN.
+ 73.057: ha.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 73.057: ha.kommune.no INFO Done testing connectivity for ha.kommune.no.
+ 73.057: ha.kommune.no INFO Begin testing DNSSEC for ha.kommune.no.
+ 73.159: ha.kommune.no INFO Did not find DS record for ha.kommune.no at parent.
+ 73.218: ha.kommune.no INFO Servers for ha.kommune.no have consistent extra processing status.
+ 73.242: ha.kommune.no INFO Authenticated denial records not found for ha.kommune.no.
+ 73.259: ha.kommune.no INFO Did not find DNSKEY record for ha.kommune.no at child.
+ 73.259: ha.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 73.259: ha.kommune.no INFO Done testing DNSSEC for ha.kommune.no.
+ 73.260: ha.kommune.no INFO Test completed for zone ha.kommune.no.

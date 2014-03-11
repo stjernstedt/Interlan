@@ -1,0 +1,83 @@
+  0.000: ouka.fi INFO Begin testing zone ouka.fi with version 1.6.1.
+  0.430: ouka.fi INFO Begin testing delegation for ouka.fi.
+  8.456: ouka.fi INFO Name servers listed at parent: dns1.ouka.fi,dns2.ouka.fi
+ 10.373: ouka.fi INFO Name servers listed at child: dns1.ouka.fi,dns2.ouka.fi
+ 10.373: ouka.fi NOTICE No IPv6 name servers found.
+ 10.439: ouka.fi INFO Parent glue for ouka.fi found: dns1.ouka.fi (213.216.208.66)
+ 10.661: ouka.fi INFO Parent glue for ouka.fi found: dns2.ouka.fi (213.216.209.2)
+ 10.730: ouka.fi INFO Checking glue for dns1.ouka.fi (213.216.208.66).
+ 10.812: ouka.fi INFO Child glue for ouka.fi found: dns1.ouka.fi (213.216.208.66)
+ 10.812: ouka.fi INFO Checking glue for dns2.ouka.fi (213.216.209.2).
+ 10.864: ouka.fi INFO Child glue for ouka.fi found: dns2.ouka.fi (213.216.209.2)
+ 10.865: ouka.fi INFO Parent glue for ouka.fi found: dns1.ouka.fi (213.216.208.66)
+ 10.865: ouka.fi INFO Parent glue for ouka.fi found: dns2.ouka.fi (213.216.209.2)
+ 11.770: ouka.fi INFO It is possible to build a referral packet for ouka.fi that works without EDNS0.
+ 12.980: ouka.fi INFO Previously used name servers for ouka.fi: 
+ 12.980: ouka.fi INFO Done testing delegation for ouka.fi.
+ 12.981: ouka.fi INFO Begin testing name server dns1.ouka.fi.
+ 12.981: ouka.fi INFO Begin testing host dns1.ouka.fi.
+ 13.672: ouka.fi INFO Begin testing address 213.216.208.66.
+ 19.188: ouka.fi INFO Done testing address 213.216.208.66.
+ 19.188: ouka.fi INFO Done testing host dns1.ouka.fi.
+ 19.355: ouka.fi INFO Name server dns1.ouka.fi (213.216.208.66) answers queries over UDP.
+ 19.412: ouka.fi INFO Name server dns1.ouka.fi (213.216.208.66) answers queries over TCP.
+ 19.627: ouka.fi INFO Name server dns1.ouka.fi (213.216.208.66) is not recursive.
+ 19.724: ouka.fi INFO Name server dns1.ouka.fi (213.216.208.66) authoritative for ouka.fi.
+ 19.936: ouka.fi INFO Name server dns1.ouka.fi (213.216.208.66) closed for zone transfer of ouka.fi.
+ 19.957: ouka.fi NOTICE No answer received from 213.216.208.66 when querying for hostname.bind/CH/TXT.
+ 32.024: ouka.fi INFO Done testing name server dns1.ouka.fi.
+ 32.024: ouka.fi INFO Begin testing name server dns2.ouka.fi.
+ 32.024: ouka.fi INFO Begin testing host dns2.ouka.fi.
+ 32.224: ouka.fi INFO Begin testing address 213.216.209.2.
+ 32.806: ouka.fi INFO Done testing address 213.216.209.2.
+ 32.807: ouka.fi INFO Done testing host dns2.ouka.fi.
+ 33.017: ouka.fi INFO Name server dns2.ouka.fi (213.216.209.2) answers queries over UDP.
+ 33.084: ouka.fi INFO Name server dns2.ouka.fi (213.216.209.2) answers queries over TCP.
+ 33.183: ouka.fi INFO Name server dns2.ouka.fi (213.216.209.2) is not recursive.
+ 33.292: ouka.fi INFO Name server dns2.ouka.fi (213.216.209.2) authoritative for ouka.fi.
+ 33.503: ouka.fi INFO Name server dns2.ouka.fi (213.216.209.2) closed for zone transfer of ouka.fi.
+ 33.525: ouka.fi NOTICE No answer received from 213.216.209.2 when querying for hostname.bind/CH/TXT.
+ 45.592: ouka.fi INFO Done testing name server dns2.ouka.fi.
+ 45.592: ouka.fi INFO Begin testing zone consistency for ouka.fi.
+ 46.022: ouka.fi INFO SOA at address 213.216.208.66 has serial 2005072132.
+ 46.045: ouka.fi INFO SOA at address 213.216.209.2 has serial 2005072132.
+ 46.045: ouka.fi INFO All SOA records have consistent serial numbers.
+ 46.046: ouka.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 46.272: ouka.fi NOTICE The listed nameservers for ouka.fi all report the same set of nameservers.
+ 46.273: ouka.fi INFO Done testing zone consistency for ouka.fi.
+ 46.273: ouka.fi INFO Begin testing SOA parameters for ouka.fi.
+ 46.296: ouka.fi INFO Found SOA record for ouka.fi.
+ 46.296: ouka.fi INFO Begin testing host dns1.ouka.fi.
+ 46.411: ouka.fi INFO Begin testing address 213.216.208.66.
+ 46.499: ouka.fi INFO Done testing address 213.216.208.66.
+ 46.499: ouka.fi INFO Done testing host dns1.ouka.fi.
+ 46.499: ouka.fi INFO SOA MNAME for ouka.fi valid (dns1.ouka.fi).
+ 46.499: ouka.fi INFO SOA MNAME for ouka.fi (dns1.ouka.fi) listed as NS.
+ 46.622: ouka.fi INFO SOA MNAME for ouka.fi (dns1.ouka.fi) is authoritative.
+ 46.623: ouka.fi INFO Begin testing email address root@ouka.fi.
+ 46.748: ouka.fi INFO Mail exchangers for root@ouka.fi found mail.ouka.fi.
+ 46.749: ouka.fi INFO All mail servers for root@ouka.fi are in zone ouka.fi.
+ 46.749: ouka.fi INFO Begin testing host mail.ouka.fi.
+ 46.948: ouka.fi INFO Begin testing address 213.216.208.78.
+ 47.410: ouka.fi INFO Done testing address 213.216.208.78.
+ 47.411: ouka.fi INFO Done testing host mail.ouka.fi.
+ 47.520: ouka.fi INFO Done testing email address root@ouka.fi.
+ 47.520: ouka.fi INFO Successful attempt to deliver email for SOA RNAME of ouka.fi (root.ouka.fi) using root@ouka.fi.
+ 47.520: ouka.fi INFO SOA TTL for ouka.fi OK (86400) - recommended >= 3600.
+ 47.520: ouka.fi NOTICE SOA refresh for ouka.fi too small (3600) - recommended >= 14400.
+ 47.521: ouka.fi NOTICE SOA retry for ouka.fi too small (1200) - recommended >= 3600.
+ 47.521: ouka.fi NOTICE SOA expire for ouka.fi too small (86400) - recommended >= 604800.
+ 47.521: ouka.fi INFO SOA minimum for ouka.fi OK (57600) - recommended between 300 and 86400.
+ 47.521: ouka.fi INFO Done testing SOA parameters for ouka.fi.
+ 47.521: ouka.fi INFO Begin testing connectivity for ouka.fi.
+ 48.548: ouka.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 48.551: ouka.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 48.551: ouka.fi INFO Done testing connectivity for ouka.fi.
+ 48.551: ouka.fi INFO Begin testing DNSSEC for ouka.fi.
+ 48.596: ouka.fi INFO Did not find DS record for ouka.fi at parent.
+ 48.678: ouka.fi INFO Servers for ouka.fi have consistent extra processing status.
+ 48.720: ouka.fi INFO Authenticated denial records not found for ouka.fi.
+ 48.742: ouka.fi INFO Did not find DNSKEY record for ouka.fi at child.
+ 48.742: ouka.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 48.742: ouka.fi INFO Done testing DNSSEC for ouka.fi.
+ 48.743: ouka.fi INFO Test completed for zone ouka.fi.

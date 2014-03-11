@@ -1,0 +1,96 @@
+  0.000: wk.se INFO Begin testing zone wk.se with version 1.0.1.
+  0.000: wk.se INFO Begin testing delegation for wk.se.
+  0.690: wk.se INFO Name servers listed at parent: ns1.wk.se,ns2.wk.se
+  0.796: wk.se INFO Name servers listed at child: ns1.wk.se,ns2.wk.se
+  0.796: wk.se NOTICE No IPv6 name servers found.
+  0.806: wk.se INFO Parent glue for wk.se found: ns1.wk.se (193.0.253.7)
+  0.864: wk.se INFO Parent glue for wk.se found: ns2.wk.se (195.67.116.240)
+  0.873: wk.se INFO Checking glue for ns1.wk.se (193.0.253.7).
+  0.889: wk.se INFO Child glue for wk.se found: ns1.wk.se (193.0.253.7)
+  0.889: wk.se INFO Checking glue for ns2.wk.se (195.67.116.240).
+  0.903: wk.se INFO Child glue for wk.se found: ns2.wk.se (195.67.116.240)
+  0.903: wk.se INFO Done testing delegation for wk.se.
+  0.904: wk.se INFO Begin testing name server ns1.wk.se.
+  0.904: wk.se INFO Begin testing host ns1.wk.se.
+  0.905: wk.se INFO Begin testing address 193.0.253.7.
+  3.887: wk.se INFO Done testing address 193.0.253.7.
+  3.887: wk.se INFO Done testing host ns1.wk.se.
+  3.905: wk.se INFO Name server ns1.wk.se (193.0.253.7) is not recursive.
+  3.924: wk.se INFO Name server ns1.wk.se (193.0.253.7) authoritative for wk.se.
+  3.944: wk.se INFO Name server ns1.wk.se (193.0.253.7) answers queries over UDP.
+  3.991: wk.se INFO Name server ns1.wk.se (193.0.253.7) answers queries over TCP.
+  4.059: wk.se INFO Name server ns1.wk.se (193.0.253.7) closed for zone transfer of wk.se.
+  4.077: wk.se NOTICE No answer received from 193.0.253.7 when querying for hostname.bind/CH/TXT.
+  4.095: wk.se NOTICE No answer received from 193.0.253.7 when querying for version.bind/CH/TXT.
+  4.112: wk.se NOTICE No answer received from 193.0.253.7 when querying for id.server/CH/TXT.
+  4.129: wk.se NOTICE No answer received from 193.0.253.7 when querying for version.server/CH/TXT.
+  4.129: wk.se INFO Done testing name server ns1.wk.se.
+  4.129: wk.se INFO Begin testing name server ns2.wk.se.
+  4.129: wk.se INFO Begin testing host ns2.wk.se.
+  4.129: wk.se INFO Begin testing address 195.67.116.240.
+  5.276: wk.se INFO Done testing address 195.67.116.240.
+  5.276: wk.se INFO Done testing host ns2.wk.se.
+  5.291: wk.se INFO Name server ns2.wk.se (195.67.116.240) is not recursive.
+  5.307: wk.se INFO Name server ns2.wk.se (195.67.116.240) authoritative for wk.se.
+  5.323: wk.se INFO Name server ns2.wk.se (195.67.116.240) answers queries over UDP.
+  5.361: wk.se INFO Name server ns2.wk.se (195.67.116.240) answers queries over TCP.
+  5.395: wk.se INFO Name server ns2.wk.se (195.67.116.240) closed for zone transfer of wk.se.
+  5.408: wk.se NOTICE No answer received from 195.67.116.240 when querying for hostname.bind/CH/TXT.
+  5.420: wk.se NOTICE No answer received from 195.67.116.240 when querying for version.bind/CH/TXT.
+  5.433: wk.se NOTICE No answer received from 195.67.116.240 when querying for id.server/CH/TXT.
+  5.448: wk.se NOTICE No answer received from 195.67.116.240 when querying for version.server/CH/TXT.
+  5.448: wk.se INFO Done testing name server ns2.wk.se.
+  5.448: wk.se INFO Begin testing zone consistency for wk.se.
+  5.468: wk.se INFO SOA at address 195.67.116.240 has serial 2010090710.
+  5.487: wk.se INFO SOA at address 193.0.253.7 has serial 2010090710.
+  5.487: wk.se INFO All SOA records have consistent serial numbers.
+  5.487: wk.se INFO All SOA records are consistent among all name servers.
+  5.487: wk.se INFO Done testing zone consistency for wk.se.
+  5.487: wk.se INFO Begin testing SOA parameters for wk.se.
+  5.503: wk.se INFO Found SOA record for wk.se.
+  5.504: wk.se INFO Begin testing host ns.wk.se.
+  5.537: wk.se ERROR No address found for ns.wk.se.
+  5.537: wk.se INFO Done testing host ns.wk.se.
+  5.537: wk.se ERROR Error while checking SOA MNAME for wk.se (ns.wk.se).
+  5.538: wk.se NOTICE SOA MNAME for wk.se (ns.wk.se) not listed as NS.
+  5.538: wk.se INFO Begin testing email address dns@wkscripted.se.
+  5.576: wk.se INFO Mail exchangers for dns@wkscripted.se found smtp2.wk.se,smtp3.wk.se.
+  5.576: wk.se INFO All mail servers for dns@wkscripted.se are in zone wk.se.
+  5.576: wk.se INFO Begin testing host smtp2.wk.se.
+  5.609: wk.se INFO Begin testing address 193.0.253.19.
+  5.631: wk.se INFO Done testing address 193.0.253.19.
+  5.631: wk.se INFO Done testing host smtp2.wk.se.
+  5.632: wk.se INFO Begin testing mail server smtp2.wk.se (193.0.253.19) with dns@wkscripted.se.
+  5.711: wk.se INFO SMTP banner: smtp2.wk.se ESMTP
+  5.774: wk.se INFO SMTP testing of smtp2.wk.se (193.0.253.19) with dns@wkscripted.se succeeded without errors.
+  5.774: wk.se INFO Done testing mail server smtp2.wk.se (193.0.253.19) with dns@wkscripted.se.
+  5.774: wk.se INFO Begin testing host smtp3.wk.se.
+  5.811: wk.se INFO Begin testing address 195.67.116.240.
+  5.812: wk.se INFO Done testing address 195.67.116.240.
+  5.812: wk.se INFO Done testing host smtp3.wk.se.
+  5.812: wk.se INFO Delivery over IPv4 to dns@wkscripted.se ok.
+  5.813: wk.se INFO Delivery over IPv6 to dns@wkscripted.se could not be done.
+  5.813: wk.se INFO Done testing email address dns@wkscripted.se.
+  5.813: wk.se INFO Successful attempt to deliver email for SOA RNAME of wk.se (dns.wkscripted.se) using dns@wkscripted.se.
+  5.813: wk.se NOTICE SOA TTL for wk.se too small (0) - recommended >= 3600.
+  5.813: wk.se NOTICE SOA refresh for wk.se too small (0) - recommended >= 14400.
+  5.813: wk.se NOTICE SOA refresh for wk.se lower than retry (0 vs 0).
+  5.813: wk.se NOTICE SOA retry for wk.se too small (0) - recommended >= 3600.
+  5.813: wk.se NOTICE SOA expire for wk.se too small (0) - recommended >= 604800.
+  5.813: wk.se NOTICE SOA minimum for wk.se too small (0) - recommended >= 300.
+  5.813: wk.se INFO Done testing SOA parameters for wk.se.
+  5.813: wk.se INFO Begin testing connectivity for wk.se.
+  6.054: wk.se INFO Name server 195.67.116.240 announced by: 3301
+  6.184: wk.se INFO Name server 193.0.253.7 announced by: 41980
+  6.185: wk.se INFO Zone announced by ASN: 41980,3301
+  6.185: wk.se INFO Zone announced by more than one ASN (2).
+  6.185: wk.se INFO Zone announced by IPv6 ASN: 
+  6.185: wk.se NOTICE Zone announced by only one IPv6 ASN (0).
+  6.185: wk.se INFO Done testing connectivity for wk.se.
+  6.185: wk.se INFO Begin testing DNSSEC for wk.se.
+  6.200: wk.se INFO Did not find DS record for wk.se at parent.
+  6.284: wk.se INFO Servers for wk.se have consistent extra processing status.
+  6.285: wk.se INFO Did not find DNSKEY record for wk.se at child.
+  6.285: wk.se INFO No DNSKEY(s) found at child, other tests skipped.
+  6.285: wk.se INFO Done testing DNSSEC for wk.se.
+  6.285: wk.se INFO Test completed for zone wk.se.

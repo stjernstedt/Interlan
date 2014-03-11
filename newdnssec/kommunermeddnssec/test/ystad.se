@@ -1,0 +1,148 @@
+  0.000: ystad.se INFO Begin testing zone ystad.se with version 1.6.1.
+  0.873: ystad.se INFO Begin testing delegation for ystad.se.
+ 19.748: ystad.se INFO Name servers listed at parent: dns5.telia.com,ns1.ystad.se
+ 23.550: ystad.se INFO Name servers listed at child: dns5.telia.com,ns1.ystad.se
+ 23.840: ystad.se INFO Parent glue for ystad.se found: ns1.ystad.se (193.17.72.146)
+ 23.933: ystad.se INFO Checking glue for ns1.ystad.se (193.17.72.146).
+ 24.036: ystad.se INFO Child glue for ystad.se found: ns1.ystad.se (193.17.72.146)
+ 24.037: ystad.se INFO Parent glue for ystad.se found: ns1.ystad.se (193.17.72.146)
+ 25.385: ystad.se INFO It is possible to build a referral packet for ystad.se that works without EDNS0.
+ 25.386: ystad.se INFO Previously used name servers for ystad.se: 
+ 25.386: ystad.se INFO Done testing delegation for ystad.se.
+ 25.386: ystad.se INFO Begin testing name server dns5.telia.com.
+ 25.386: ystad.se INFO Begin testing host dns5.telia.com.
+ 25.387: ystad.se INFO Begin testing address 81.228.11.68.
+ 38.275: ystad.se INFO Done testing address 81.228.11.68.
+ 38.275: ystad.se INFO Begin testing address 2001:2040:c001:101:0:0:0:4.
+ 41.504: ystad.se INFO Done testing address 2001:2040:c001:101:0:0:0:4.
+ 41.504: ystad.se INFO Done testing host dns5.telia.com.
+ 41.589: ystad.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over UDP.
+ 41.661: ystad.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over TCP.
+ 41.726: ystad.se INFO Name server dns5.telia.com (81.228.11.68) is not recursive.
+ 41.910: ystad.se INFO Name server dns5.telia.com (81.228.11.68) authoritative for ystad.se.
+ 41.956: ystad.se INFO Name server dns5.telia.com (81.228.11.68) closed for zone transfer of ystad.se.
+ 42.037: ystad.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 42.224: ystad.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) answers queries over UDP.
+ 42.320: ystad.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) answers queries over TCP.
+ 42.397: ystad.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) is not recursive.
+ 42.650: ystad.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) authoritative for ystad.se.
+ 42.774: ystad.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) closed for zone transfer of ystad.se.
+ 42.875: ystad.se INFO Legacy name server ID for dns5.telia.com (2001:2040:c001:101:0:0:0:4): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 43.026: ystad.se INFO Done testing name server dns5.telia.com.
+ 43.026: ystad.se INFO Begin testing name server ns1.ystad.se.
+ 43.026: ystad.se INFO Begin testing host ns1.ystad.se.
+ 43.026: ystad.se INFO Begin testing address 193.17.72.146.
+ 44.268: ystad.se INFO Done testing address 193.17.72.146.
+ 44.268: ystad.se INFO Begin testing address 2001:2040:c:1:0:0:0:2.
+ 45.025: ystad.se INFO Done testing address 2001:2040:c:1:0:0:0:2.
+ 45.025: ystad.se INFO Done testing host ns1.ystad.se.
+ 45.112: ystad.se INFO Name server ns1.ystad.se (193.17.72.146) answers queries over UDP.
+ 45.179: ystad.se INFO Name server ns1.ystad.se (193.17.72.146) answers queries over TCP.
+ 45.233: ystad.se INFO Name server ns1.ystad.se (193.17.72.146) is not recursive.
+ 45.456: ystad.se INFO Name server ns1.ystad.se (193.17.72.146) authoritative for ystad.se.
+ 45.503: ystad.se INFO Name server ns1.ystad.se (193.17.72.146) closed for zone transfer of ystad.se.
+ 45.684: ystad.se NOTICE No answer received from 193.17.72.146 when querying for version.server/CH/TXT.
+ 45.782: ystad.se INFO Name server ns1.ystad.se (2001:2040:c:1:0:0:0:2) answers queries over UDP.
+ 45.896: ystad.se INFO Name server ns1.ystad.se (2001:2040:c:1:0:0:0:2) answers queries over TCP.
+ 45.931: ystad.se INFO Name server ns1.ystad.se (2001:2040:c:1:0:0:0:2) is not recursive.
+ 46.260: ystad.se INFO Name server ns1.ystad.se (2001:2040:c:1:0:0:0:2) authoritative for ystad.se.
+ 46.386: ystad.se INFO Name server ns1.ystad.se (2001:2040:c:1:0:0:0:2) closed for zone transfer of ystad.se.
+ 46.688: ystad.se NOTICE No answer received from 2001:2040:c:1:0:0:0:2 when querying for version.server/CH/TXT.
+ 46.688: ystad.se INFO Done testing name server ns1.ystad.se.
+ 46.688: ystad.se INFO Begin testing zone consistency for ystad.se.
+ 46.883: ystad.se INFO SOA at address 193.17.72.146 has serial 2012093980.
+ 46.958: ystad.se INFO SOA at address 81.228.11.68 has serial 2012093977.
+ 47.315: ystad.se INFO SOA at address 2001:2040:c:1:0:0:0:2 has serial 2012093980.
+ 47.368: ystad.se INFO SOA at address 2001:2040:c001:101:0:0:0:4 has serial 2012093977.
+ 47.368: ystad.se WARNING 2 different serials found.
+ 47.368: ystad.se INFO All other fields in the SOA record are consistent among all name servers.
+ 47.712: ystad.se NOTICE The listed nameservers for ystad.se all report the same set of nameservers.
+ 47.712: ystad.se INFO Done testing zone consistency for ystad.se.
+ 47.712: ystad.se INFO Begin testing SOA parameters for ystad.se.
+ 47.765: ystad.se INFO Found SOA record for ystad.se.
+ 47.765: ystad.se INFO Begin testing host ns1.ystad.se.
+ 47.766: ystad.se INFO Begin testing address 193.17.72.146.
+ 47.767: ystad.se INFO Done testing address 193.17.72.146.
+ 47.767: ystad.se INFO Begin testing address 2001:2040:c:1:0:0:0:2.
+ 47.833: ystad.se INFO Done testing address 2001:2040:c:1:0:0:0:2.
+ 47.833: ystad.se INFO Done testing host ns1.ystad.se.
+ 47.833: ystad.se INFO SOA MNAME for ystad.se valid (ns1.ystad.se).
+ 47.833: ystad.se INFO SOA MNAME for ystad.se (ns1.ystad.se) listed as NS.
+ 47.902: ystad.se INFO SOA MNAME for ystad.se (ns1.ystad.se) is authoritative.
+ 48.002: ystad.se INFO SOA MNAME for ystad.se (ns1.ystad.se) is authoritative.
+ 48.002: ystad.se INFO Begin testing email address it-avd@ystad.se.
+ 48.440: ystad.se INFO Mail exchangers for it-avd@ystad.se found mail.messaging.microsoft.com.
+ 48.440: ystad.se INFO Begin testing host mail.messaging.microsoft.com.
+ 54.992: ystad.se INFO Begin testing address 216.32.181.178.
+ 73.884: ystad.se INFO Done testing address 216.32.181.178.
+ 73.884: ystad.se INFO Begin testing address 216.32.180.22.
+ 74.871: ystad.se INFO Done testing address 216.32.180.22.
+ 74.875: ystad.se INFO Begin testing address 213.199.180.150.
+ 76.246: ystad.se INFO Done testing address 213.199.180.150.
+ 76.247: ystad.se INFO Begin testing address 65.55.88.22.
+ 77.028: ystad.se INFO Done testing address 65.55.88.22.
+ 77.028: ystad.se INFO Begin testing address 207.46.163.30.
+ 77.896: ystad.se INFO Done testing address 207.46.163.30.
+ 77.896: ystad.se INFO Done testing host mail.messaging.microsoft.com.
+ 79.545: ystad.se INFO Done testing email address it-avd@ystad.se.
+ 79.545: ystad.se INFO Successful attempt to deliver email for SOA RNAME of ystad.se (it-avd.ystad.se) using it-avd@ystad.se.
+ 79.545: ystad.se INFO SOA TTL for ystad.se OK (3600) - recommended >= 3600.
+ 79.546: ystad.se NOTICE SOA refresh for ystad.se too small (7200) - recommended >= 14400.
+ 79.546: ystad.se NOTICE SOA retry for ystad.se too small (720) - recommended >= 3600.
+ 79.546: ystad.se INFO SOA expire for ystad.se OK (604800) - recommended >= 604800.
+ 79.546: ystad.se INFO SOA minimum for ystad.se OK (900) - recommended between 300 and 86400.
+ 79.546: ystad.se INFO Done testing SOA parameters for ystad.se.
+ 79.546: ystad.se INFO Begin testing connectivity for ystad.se.
+ 80.626: ystad.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 81.452: ystad.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 81.453: ystad.se INFO Done testing connectivity for ystad.se.
+ 81.453: ystad.se INFO Begin testing DNSSEC for ystad.se.
+ 81.497: ystad.se INFO Found DS record for ystad.se at parent.
+ 81.537: ystad.se INFO Nameserver 193.17.72.146 does DNSSEC extra processing.
+ 81.551: ystad.se INFO Nameserver 81.228.11.68 does DNSSEC extra processing.
+ 81.623: ystad.se INFO Nameserver 2001:2040:c:1:0:0:0:2 does DNSSEC extra processing.
+ 81.694: ystad.se INFO Nameserver 2001:2040:c001:101:0:0:0:4 does DNSSEC extra processing.
+ 81.694: ystad.se INFO Servers for ystad.se have consistent extra processing status.
+ 81.743: ystad.se INFO Authenticated denial records found for ystad.se, of type NSEC.
+ 81.762: ystad.se INFO Found DNSKEY record for ystad.se at child.
+ 81.762: ystad.se INFO Consistent security for ystad.se.
+ 81.763: ystad.se INFO Checking DNSSEC at child (ystad.se).
+ 81.763: ystad.se INFO ystad.se's key with tag 46671 uses algorithm number 5 (RSA/SHA-1).
+ 81.763: ystad.se INFO Algorithm number 5 is OK.
+ 81.763: ystad.se INFO ystad.se's key with tag 58732 uses algorithm number 5 (RSA/SHA-1).
+ 81.763: ystad.se INFO Algorithm number 5 is OK.
+ 81.764: ystad.se INFO DNSKEY ystad.se (tag 58732) is marked as a secure entry point (SEP).
+ 81.764: ystad.se INFO ystad.se's key with tag 20188 uses algorithm number 5 (RSA/SHA-1).
+ 81.764: ystad.se INFO Algorithm number 5 is OK.
+ 81.764: ystad.se INFO DNSKEY ystad.se (tag 20188) is marked as a secure entry point (SEP).
+ 81.764: ystad.se INFO DNSSEC signature expires at: Wed Mar 12 14:14:55 2014
+ 81.764: ystad.se INFO Duration for RRSIG(ystad.se/IN/DNSKEY/20188) is OK (346794 seconds).
+ 81.767: ystad.se INFO DNSSEC signature RRSIG(ystad.se/IN/DNSKEY/20188) matches records.
+ 81.767: ystad.se INFO DNSSEC signature valid: RRSIG(ystad.se/IN/DNSKEY/20188)
+ 81.767: ystad.se INFO DNSSEC signature expires at: Wed Mar 12 14:14:55 2014
+ 81.767: ystad.se INFO Duration for RRSIG(ystad.se/IN/DNSKEY/58732) is OK (346794 seconds).
+ 81.769: ystad.se INFO DNSSEC signature RRSIG(ystad.se/IN/DNSKEY/58732) matches records.
+ 81.769: ystad.se INFO DNSSEC signature valid: RRSIG(ystad.se/IN/DNSKEY/58732)
+ 81.769: ystad.se INFO DNSSEC signature expires at: Wed Mar 12 14:14:55 2014
+ 81.769: ystad.se INFO Duration for RRSIG(ystad.se/IN/DNSKEY/46671) is OK (346794 seconds).
+ 81.770: ystad.se INFO DNSSEC signature RRSIG(ystad.se/IN/DNSKEY/46671) matches records.
+ 81.770: ystad.se INFO DNSSEC signature valid: RRSIG(ystad.se/IN/DNSKEY/46671)
+ 81.770: ystad.se INFO Enough valid signatures found for ystad.se.
+ 81.809: ystad.se INFO DNSSEC signature expires at: Wed Mar 12 23:05:13 2014
+ 81.809: ystad.se INFO Duration for RRSIG(ystad.se/IN/SOA/46671) is OK (349200 seconds).
+ 81.810: ystad.se INFO DNSSEC signature RRSIG(ystad.se/IN/SOA/46671) matches records.
+ 81.810: ystad.se INFO DNSSEC signature valid: RRSIG(ystad.se/IN/SOA/46671)
+ 81.810: ystad.se INFO Enough valid signatures over SOA RRset found for ystad.se.
+ 81.810: ystad.se INFO DNSSEC child checks for ystad.se complete.
+ 81.810: ystad.se INFO Checking DNSSEC at parent of ystad.se.
+ 81.811: ystad.se INFO ystad.se's key with tag 20188 uses algorithm number 5 (RSA/SHA-1).
+ 81.811: ystad.se INFO Algorithm number 5 is OK.
+ 81.811: ystad.se INFO Parent DS(ystad.se/5/1/20188) refers to valid key at child: DNSKEY(ystad.se/5/20188)
+ 81.811: ystad.se INFO Parent DS(ystad.se) refers to secure entry point (SEP) at child: DS(ystad.se/5/1/20188)
+ 81.819: ystad.se INFO ystad.se's key with tag 20188 uses algorithm number 5 (RSA/SHA-1).
+ 81.819: ystad.se INFO Algorithm number 5 is OK.
+ 81.820: ystad.se INFO Parent DS(ystad.se/5/2/20188) refers to valid key at child: DNSKEY(ystad.se/5/20188)
+ 81.820: ystad.se INFO Parent DS(ystad.se) refers to secure entry point (SEP) at child: DS(ystad.se/5/2/20188)
+ 81.820: ystad.se INFO DNSSEC parent checks for ystad.se complete.
+ 81.820: ystad.se INFO Done testing DNSSEC for ystad.se.
+ 81.821: ystad.se INFO Test completed for zone ystad.se.

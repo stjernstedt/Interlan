@@ -1,0 +1,90 @@
+  0.000: hjo.se INFO Begin testing zone hjo.se with version 1.2.
+  0.000: hjo.se INFO Begin testing delegation for hjo.se.
+  5.069: hjo.se INFO Name servers listed at parent: ns.invid.se,ns3.invid.se
+  6.233: hjo.se INFO Name servers listed at child: ns.invid.se,ns3.invid.se
+  6.234: hjo.se NOTICE No IPv6 name servers found.
+  6.252: hjo.se INFO Parent glue for hjo.se found: ns.invid.se (213.204.179.72)
+  6.308: hjo.se INFO Parent glue for hjo.se found: ns3.invid.se (80.244.206.84)
+  6.326: hjo.se INFO Checking glue for ns.invid.se (213.204.179.72).
+  6.326: hjo.se INFO Checking glue for ns3.invid.se (80.244.206.84).
+  6.326: hjo.se INFO Parent glue for hjo.se found: ns.invid.se (213.204.179.72)
+  6.327: hjo.se INFO Parent glue for hjo.se found: ns3.invid.se (80.244.206.84)
+  6.327: hjo.se INFO Done testing delegation for hjo.se.
+  6.327: hjo.se INFO Begin testing name server ns.invid.se.
+  6.328: hjo.se INFO Begin testing host ns.invid.se.
+  6.328: hjo.se INFO Begin testing address 213.204.179.72.
+ 19.715: hjo.se INFO Done testing address 213.204.179.72.
+ 19.715: hjo.se INFO Done testing host ns.invid.se.
+ 19.731: hjo.se INFO Name server ns.invid.se (213.204.179.72) answers queries over UDP.
+ 19.756: hjo.se INFO Name server ns.invid.se (213.204.179.72) answers queries over TCP.
+ 19.769: hjo.se INFO Name server ns.invid.se (213.204.179.72) is not recursive.
+ 19.783: hjo.se INFO Name server ns.invid.se (213.204.179.72) authoritative for hjo.se.
+ 20.003: hjo.se INFO Name server ns.invid.se (213.204.179.72) closed for zone transfer of hjo.se.
+ 20.017: hjo.se NOTICE No answer received from 213.204.179.72 when querying for hostname.bind/CH/TXT.
+ 38.019: hjo.se INFO Done testing name server ns.invid.se.
+ 38.019: hjo.se INFO Begin testing name server ns3.invid.se.
+ 38.019: hjo.se INFO Begin testing host ns3.invid.se.
+ 38.019: hjo.se INFO Begin testing address 80.244.206.84.
+ 38.451: hjo.se INFO Done testing address 80.244.206.84.
+ 38.451: hjo.se INFO Done testing host ns3.invid.se.
+ 38.467: hjo.se INFO Name server ns3.invid.se (80.244.206.84) answers queries over UDP.
+ 38.495: hjo.se INFO Name server ns3.invid.se (80.244.206.84) answers queries over TCP.
+ 38.712: hjo.se INFO Name server ns3.invid.se (80.244.206.84) is not recursive.
+ 38.729: hjo.se INFO Name server ns3.invid.se (80.244.206.84) authoritative for hjo.se.
+ 38.926: hjo.se INFO Name server ns3.invid.se (80.244.206.84) closed for zone transfer of hjo.se.
+ 38.942: hjo.se NOTICE No answer received from 80.244.206.84 when querying for hostname.bind/CH/TXT.
+ 56.942: hjo.se INFO Done testing name server ns3.invid.se.
+ 56.943: hjo.se INFO Begin testing zone consistency for hjo.se.
+ 56.963: hjo.se INFO SOA at address 80.244.206.84 has serial 2009022609.
+ 56.976: hjo.se INFO SOA at address 213.204.179.72 has serial 2009022609.
+ 56.977: hjo.se INFO All SOA records have consistent serial numbers.
+ 56.977: hjo.se INFO All SOA records are consistent among all name servers.
+ 56.977: hjo.se INFO Done testing zone consistency for hjo.se.
+ 56.977: hjo.se INFO Begin testing SOA parameters for hjo.se.
+ 56.992: hjo.se INFO Found SOA record for hjo.se.
+ 56.992: hjo.se INFO Begin testing host ns3.invid.se.
+ 56.992: hjo.se INFO Begin testing address 80.244.206.84.
+ 56.993: hjo.se INFO Done testing address 80.244.206.84.
+ 56.993: hjo.se INFO Done testing host ns3.invid.se.
+ 56.993: hjo.se INFO SOA MNAME for hjo.se valid (ns3.invid.se).
+ 56.993: hjo.se INFO SOA MNAME for hjo.se (ns3.invid.se) listed as NS.
+ 57.010: hjo.se INFO SOA MNAME for hjo.se (ns3.invid.se) is authoritative.
+ 57.011: hjo.se INFO Begin testing email address joheks@invid.se.
+ 57.239: hjo.se INFO Mail exchangers for joheks@invid.se found mail2.jkp.invid.se,mailgate94.md2.vas.invid.se.
+ 57.240: hjo.se INFO Begin testing host mail2.jkp.invid.se.
+ 57.695: hjo.se INFO Begin testing address 80.244.206.94.
+ 57.903: hjo.se INFO Done testing address 80.244.206.94.
+ 57.903: hjo.se INFO Done testing host mail2.jkp.invid.se.
+ 57.904: hjo.se INFO Begin testing mail server mail2.jkp.invid.se (80.244.206.94) with joheks@invid.se.
+ 58.072: hjo.se INFO SMTP banner: M2.invid.se ESMTP MDaemon 11.0.3; Mon, 13 Dec 2010 19:42:51 +0100
+ 58.128: hjo.se INFO SMTP testing of mail2.jkp.invid.se (80.244.206.94) with joheks@invid.se succeeded without errors.
+ 58.128: hjo.se INFO Done testing mail server mail2.jkp.invid.se (80.244.206.94) with joheks@invid.se.
+ 58.129: hjo.se INFO Begin testing host mailgate94.md2.vas.invid.se.
+ 58.564: hjo.se INFO Begin testing address 213.204.179.94.
+ 59.345: hjo.se INFO Done testing address 213.204.179.94.
+ 59.345: hjo.se INFO Done testing host mailgate94.md2.vas.invid.se.
+ 59.345: hjo.se INFO Delivery over IPv4 to joheks@invid.se ok.
+ 59.345: hjo.se INFO Delivery over IPv6 to joheks@invid.se could not be done.
+ 59.345: hjo.se INFO Done testing email address joheks@invid.se.
+ 59.345: hjo.se INFO Successful attempt to deliver email for SOA RNAME of hjo.se (joheks.invid.se) using joheks@invid.se.
+ 59.346: hjo.se INFO SOA TTL for hjo.se OK (3600) - recommended >= 3600.
+ 59.346: hjo.se NOTICE SOA refresh for hjo.se too small (1200) - recommended >= 14400.
+ 59.346: hjo.se NOTICE SOA retry for hjo.se too small (600) - recommended >= 3600.
+ 59.346: hjo.se NOTICE SOA expire for hjo.se too small (172800) - recommended >= 604800.
+ 59.346: hjo.se INFO SOA minimum for hjo.se OK (3600) - recommended between 300 and 86400.
+ 59.346: hjo.se INFO Done testing SOA parameters for hjo.se.
+ 59.346: hjo.se INFO Begin testing connectivity for hjo.se.
+ 59.861: hjo.se INFO Name server 80.244.206.84 announced by: 34946
+ 60.464: hjo.se INFO Name server 213.204.179.72 announced by: 8434
+ 60.464: hjo.se INFO Zone announced by IPv4 ASN: 8434,34946
+ 60.464: hjo.se INFO Zone announced by more than one ASN (2).
+ 60.465: hjo.se INFO Zone announced by IPv6 ASN: 
+ 60.465: hjo.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 60.465: hjo.se INFO Done testing connectivity for hjo.se.
+ 60.465: hjo.se INFO Begin testing DNSSEC for hjo.se.
+ 60.548: hjo.se INFO Did not find DS record for hjo.se at parent.
+ 60.602: hjo.se INFO Servers for hjo.se have consistent extra processing status.
+ 60.602: hjo.se INFO Did not find DNSKEY record for hjo.se at child.
+ 60.602: hjo.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 60.602: hjo.se INFO Done testing DNSSEC for hjo.se.
+ 60.602: hjo.se INFO Test completed for zone hjo.se.

@@ -1,0 +1,139 @@
+  0.000: hol.kommune.no INFO Begin testing zone hol.kommune.no with version 1.6.1.
+  0.594: hol.kommune.no INFO Begin testing delegation for hol.kommune.no.
+  9.313: hol.kommune.no INFO Name servers listed at parent: dns1.as2116.net,dns2.as2116.net
+ 10.584: hol.kommune.no INFO Name servers listed at child: dns1.eunet.no,dns2.eunet.no
+ 10.584: hol.kommune.no ERROR Superfluous name server listed at parent: dns1.as2116.net
+ 10.584: hol.kommune.no ERROR Superfluous name server listed at parent: dns2.as2116.net
+ 10.584: hol.kommune.no ERROR Total parent/child glue mismatch.
+ 10.584: hol.kommune.no NOTICE Additional name server listed at child: dns1.eunet.no
+ 10.585: hol.kommune.no NOTICE Additional name server listed at child: dns2.eunet.no
+ 10.585: hol.kommune.no NOTICE Too few IPv6 name servers (1).
+ 10.710: hol.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.910: hol.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.068: hol.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.191: hol.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.720: hol.kommune.no INFO It is possible to build a referral packet for hol.kommune.no that works without EDNS0.
+ 13.164: hol.kommune.no INFO Previously used name servers for hol.kommune.no: 
+ 13.164: hol.kommune.no INFO Done testing delegation for hol.kommune.no.
+ 13.165: hol.kommune.no INFO Begin testing name server dns1.eunet.no.
+ 13.165: hol.kommune.no INFO Begin testing host dns1.eunet.no.
+ 13.165: hol.kommune.no INFO Begin testing address 193.75.75.1.
+ 24.550: hol.kommune.no INFO Done testing address 193.75.75.1.
+ 24.550: hol.kommune.no INFO Begin testing address 2001:8c0:2001:0:0:0:3:53.
+ 24.824: hol.kommune.no INFO Done testing address 2001:8c0:2001:0:0:0:3:53.
+ 24.824: hol.kommune.no INFO Done testing host dns1.eunet.no.
+ 24.839: hol.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) answers queries over UDP.
+ 24.871: hol.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) answers queries over TCP.
+ 24.887: hol.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) is not recursive.
+ 24.992: hol.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) authoritative for hol.kommune.no.
+ 25.033: hol.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) closed for zone transfer of hol.kommune.no.
+ 25.046: hol.kommune.no INFO Legacy name server ID for dns1.eunet.no (193.75.75.1): hostname.bind = alpha-a.server.as2116.net
+ 25.072: hol.kommune.no INFO Legacy name server ID for dns1.eunet.no (193.75.75.1): version.bind = Shirely you must be joking
+ 25.116: hol.kommune.no NOTICE No answer received from 193.75.75.1 when querying for version.server/CH/TXT.
+ 25.155: hol.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) answers queries over UDP.
+ 25.201: hol.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) answers queries over TCP.
+ 25.236: hol.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) is not recursive.
+ 25.327: hol.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) authoritative for hol.kommune.no.
+ 25.379: hol.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) closed for zone transfer of hol.kommune.no.
+ 25.399: hol.kommune.no INFO Legacy name server ID for dns1.eunet.no (2001:8c0:2001:0:0:0:3:53): hostname.bind = alpha-a.server.as2116.net
+ 25.428: hol.kommune.no INFO Legacy name server ID for dns1.eunet.no (2001:8c0:2001:0:0:0:3:53): version.bind = Shirely you must be joking
+ 25.466: hol.kommune.no NOTICE No answer received from 2001:8c0:2001:0:0:0:3:53 when querying for version.server/CH/TXT.
+ 25.467: hol.kommune.no INFO Done testing name server dns1.eunet.no.
+ 25.467: hol.kommune.no INFO Begin testing name server dns2.eunet.no.
+ 25.467: hol.kommune.no INFO Begin testing host dns2.eunet.no.
+ 25.639: hol.kommune.no INFO Begin testing address 148.122.208.226.
+ 30.627: hol.kommune.no INFO Done testing address 148.122.208.226.
+ 30.627: hol.kommune.no INFO Done testing host dns2.eunet.no.
+ 30.761: hol.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) answers queries over UDP.
+ 30.789: hol.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) answers queries over TCP.
+ 30.807: hol.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) is not recursive.
+ 30.881: hol.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) authoritative for hol.kommune.no.
+ 30.916: hol.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) closed for zone transfer of hol.kommune.no.
+ 30.932: hol.kommune.no INFO Legacy name server ID for dns2.eunet.no (148.122.208.226): hostname.bind = ny-ns2-eunet.oke.nextra.no
+ 30.945: hol.kommune.no INFO Legacy name server ID for dns2.eunet.no (148.122.208.226): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 30.988: hol.kommune.no NOTICE No answer received from 148.122.208.226 when querying for version.server/CH/TXT.
+ 30.988: hol.kommune.no INFO Done testing name server dns2.eunet.no.
+ 30.988: hol.kommune.no INFO Begin testing name server dns1.as2116.net.
+ 30.988: hol.kommune.no INFO Begin testing host dns1.as2116.net.
+ 30.989: hol.kommune.no INFO Begin testing address 193.75.75.1.
+ 30.990: hol.kommune.no INFO Done testing address 193.75.75.1.
+ 30.990: hol.kommune.no INFO Begin testing address 2001:8c0:2001:0:0:0:3:53.
+ 31.007: hol.kommune.no INFO Done testing address 2001:8c0:2001:0:0:0:3:53.
+ 31.008: hol.kommune.no INFO Done testing host dns1.as2116.net.
+ 31.021: hol.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) answers queries over UDP.
+ 31.048: hol.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) answers queries over TCP.
+ 31.080: hol.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) is not recursive.
+ 31.137: hol.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) authoritative for hol.kommune.no.
+ 31.173: hol.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) closed for zone transfer of hol.kommune.no.
+ 31.188: hol.kommune.no INFO Legacy name server ID for dns1.as2116.net (193.75.75.1): hostname.bind = alpha-a.server.as2116.net
+ 31.201: hol.kommune.no INFO Legacy name server ID for dns1.as2116.net (193.75.75.1): version.bind = Shirely you must be joking
+ 31.228: hol.kommune.no NOTICE No answer received from 193.75.75.1 when querying for version.server/CH/TXT.
+ 31.275: hol.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) answers queries over UDP.
+ 31.315: hol.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) answers queries over TCP.
+ 31.356: hol.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) is not recursive.
+ 31.471: hol.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) authoritative for hol.kommune.no.
+ 31.532: hol.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) closed for zone transfer of hol.kommune.no.
+ 31.552: hol.kommune.no INFO Legacy name server ID for dns1.as2116.net (2001:8c0:2001:0:0:0:3:53): hostname.bind = alpha-a.server.as2116.net
+ 31.570: hol.kommune.no INFO Legacy name server ID for dns1.as2116.net (2001:8c0:2001:0:0:0:3:53): version.bind = Shirely you must be joking
+ 31.628: hol.kommune.no NOTICE No answer received from 2001:8c0:2001:0:0:0:3:53 when querying for version.server/CH/TXT.
+ 31.629: hol.kommune.no INFO Done testing name server dns1.as2116.net.
+ 31.629: hol.kommune.no INFO Begin testing name server dns2.as2116.net.
+ 31.629: hol.kommune.no INFO Begin testing host dns2.as2116.net.
+ 31.896: hol.kommune.no INFO Begin testing address 148.122.208.226.
+ 32.248: hol.kommune.no INFO Done testing address 148.122.208.226.
+ 32.248: hol.kommune.no INFO Done testing host dns2.as2116.net.
+ 32.489: hol.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) answers queries over UDP.
+ 32.525: hol.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) answers queries over TCP.
+ 32.580: hol.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) is not recursive.
+ 32.669: hol.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) authoritative for hol.kommune.no.
+ 32.704: hol.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) closed for zone transfer of hol.kommune.no.
+ 32.720: hol.kommune.no INFO Legacy name server ID for dns2.as2116.net (148.122.208.226): hostname.bind = ny-ns2-eunet.oke.nextra.no
+ 32.740: hol.kommune.no INFO Legacy name server ID for dns2.as2116.net (148.122.208.226): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 32.767: hol.kommune.no NOTICE No answer received from 148.122.208.226 when querying for version.server/CH/TXT.
+ 32.767: hol.kommune.no INFO Done testing name server dns2.as2116.net.
+ 32.767: hol.kommune.no INFO Begin testing zone consistency for hol.kommune.no.
+ 33.197: hol.kommune.no INFO SOA at address 2001:8c0:2001:0:0:0:3:53 has serial 2014021101.
+ 33.216: hol.kommune.no INFO SOA at address 193.75.75.1 has serial 2014021101.
+ 33.231: hol.kommune.no INFO SOA at address 148.122.208.226 has serial 2014021101.
+ 33.231: hol.kommune.no INFO All SOA records have consistent serial numbers.
+ 33.231: hol.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 33.492: hol.kommune.no NOTICE The listed nameservers for hol.kommune.no all report the same set of nameservers.
+ 33.492: hol.kommune.no INFO Done testing zone consistency for hol.kommune.no.
+ 33.492: hol.kommune.no INFO Begin testing SOA parameters for hol.kommune.no.
+ 33.506: hol.kommune.no INFO Found SOA record for hol.kommune.no.
+ 33.506: hol.kommune.no INFO Begin testing host dns1.eunet.no.
+ 33.506: hol.kommune.no INFO Begin testing address 193.75.75.1.
+ 33.507: hol.kommune.no INFO Done testing address 193.75.75.1.
+ 33.508: hol.kommune.no INFO Begin testing address 2001:8c0:2001:0:0:0:3:53.
+ 33.509: hol.kommune.no INFO Done testing address 2001:8c0:2001:0:0:0:3:53.
+ 33.509: hol.kommune.no INFO Done testing host dns1.eunet.no.
+ 33.509: hol.kommune.no INFO SOA MNAME for hol.kommune.no valid (dns1.eunet.no).
+ 33.509: hol.kommune.no INFO SOA MNAME for hol.kommune.no (dns1.eunet.no) listed as NS.
+ 33.523: hol.kommune.no INFO SOA MNAME for hol.kommune.no (dns1.eunet.no) is authoritative.
+ 33.568: hol.kommune.no INFO SOA MNAME for hol.kommune.no (dns1.eunet.no) is authoritative.
+ 33.568: hol.kommune.no INFO Begin testing email address hostmaster@ventelo.no.
+ 33.712: hol.kommune.no INFO Mail exchangers for hostmaster@ventelo.no found mailvask.infostorm.no.
+ 33.712: hol.kommune.no INFO Begin testing host mailvask.infostorm.no.
+ 36.972: hol.kommune.no INFO Begin testing address 217.18.206.27.
+ 37.408: hol.kommune.no INFO Done testing address 217.18.206.27.
+ 37.408: hol.kommune.no INFO Done testing host mailvask.infostorm.no.
+ 37.518: hol.kommune.no INFO Done testing email address hostmaster@ventelo.no.
+ 37.518: hol.kommune.no INFO Successful attempt to deliver email for SOA RNAME of hol.kommune.no (hostmaster.ventelo.no) using hostmaster@ventelo.no.
+ 37.518: hol.kommune.no INFO SOA TTL for hol.kommune.no OK (7200) - recommended >= 3600.
+ 37.518: hol.kommune.no INFO SOA refresh for hol.kommune.no OK (28800) - recommended >= 14400.
+ 37.518: hol.kommune.no INFO SOA retry for hol.kommune.no OK (3600) - recommended >= 3600.
+ 37.518: hol.kommune.no INFO SOA expire for hol.kommune.no OK (2592000) - recommended >= 604800.
+ 37.518: hol.kommune.no INFO SOA minimum for hol.kommune.no OK (600) - recommended between 300 and 86400.
+ 37.519: hol.kommune.no INFO Done testing SOA parameters for hol.kommune.no.
+ 37.519: hol.kommune.no INFO Begin testing connectivity for hol.kommune.no.
+ 38.510: hol.kommune.no INFO Zone announced by more than one ASN.
+ 39.170: hol.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 39.170: hol.kommune.no INFO Done testing connectivity for hol.kommune.no.
+ 39.170: hol.kommune.no INFO Begin testing DNSSEC for hol.kommune.no.
+ 39.277: hol.kommune.no INFO Did not find DS record for hol.kommune.no at parent.
+ 39.358: hol.kommune.no INFO Servers for hol.kommune.no have consistent extra processing status.
+ 39.382: hol.kommune.no INFO Authenticated denial records not found for hol.kommune.no.
+ 39.396: hol.kommune.no INFO Did not find DNSKEY record for hol.kommune.no at child.
+ 39.396: hol.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 39.396: hol.kommune.no INFO Done testing DNSSEC for hol.kommune.no.
+ 39.397: hol.kommune.no INFO Test completed for zone hol.kommune.no.

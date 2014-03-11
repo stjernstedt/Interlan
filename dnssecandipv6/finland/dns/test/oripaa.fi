@@ -1,0 +1,82 @@
+  0.000: oripaa.fi INFO Begin testing zone oripaa.fi with version 1.6.1.
+  0.422: oripaa.fi INFO Begin testing delegation for oripaa.fi.
+  9.170: oripaa.fi INFO Name servers listed at parent: ns-fi.elisa.net,ns-se.elisa.net
+ 11.620: oripaa.fi INFO Name servers listed at child: ns-fi.elisa.net,ns-se.elisa.net
+ 11.621: oripaa.fi NOTICE No IPv6 name servers found.
+ 14.854: oripaa.fi INFO It is possible to build a referral packet for oripaa.fi that works without EDNS0.
+ 15.922: oripaa.fi INFO Previously used name servers for oripaa.fi: 
+ 15.922: oripaa.fi INFO Done testing delegation for oripaa.fi.
+ 15.923: oripaa.fi INFO Begin testing name server ns-fi.elisa.net.
+ 15.923: oripaa.fi INFO Begin testing host ns-fi.elisa.net.
+ 16.261: oripaa.fi INFO Begin testing address 193.229.0.49.
+ 27.045: oripaa.fi INFO Done testing address 193.229.0.49.
+ 27.045: oripaa.fi INFO Done testing host ns-fi.elisa.net.
+ 27.600: oripaa.fi INFO Name server ns-fi.elisa.net (193.229.0.49) answers queries over UDP.
+ 27.643: oripaa.fi INFO Name server ns-fi.elisa.net (193.229.0.49) answers queries over TCP.
+ 27.683: oripaa.fi INFO Name server ns-fi.elisa.net (193.229.0.49) is not recursive.
+ 27.797: oripaa.fi INFO Name server ns-fi.elisa.net (193.229.0.49) authoritative for oripaa.fi.
+ 27.846: oripaa.fi INFO Name server ns-fi.elisa.net (193.229.0.49) closed for zone transfer of oripaa.fi.
+ 27.866: oripaa.fi INFO Legacy name server ID for ns-fi.elisa.net (193.229.0.49): hostname.bind = ldom-dns64
+ 27.890: oripaa.fi INFO Legacy name server ID for ns-fi.elisa.net (193.229.0.49): version.bind = unknown
+ 27.923: oripaa.fi NOTICE No answer received from 193.229.0.49 when querying for version.server/CH/TXT.
+ 27.924: oripaa.fi INFO Done testing name server ns-fi.elisa.net.
+ 27.924: oripaa.fi INFO Begin testing name server ns-se.elisa.net.
+ 27.924: oripaa.fi INFO Begin testing host ns-se.elisa.net.
+ 28.235: oripaa.fi INFO Begin testing address 62.248.254.2.
+ 28.854: oripaa.fi INFO Done testing address 62.248.254.2.
+ 28.854: oripaa.fi INFO Done testing host ns-se.elisa.net.
+ 29.169: oripaa.fi INFO Name server ns-se.elisa.net (62.248.254.2) answers queries over UDP.
+ 29.216: oripaa.fi INFO Name server ns-se.elisa.net (62.248.254.2) answers queries over TCP.
+ 29.260: oripaa.fi INFO Name server ns-se.elisa.net (62.248.254.2) is not recursive.
+ 29.386: oripaa.fi INFO Name server ns-se.elisa.net (62.248.254.2) authoritative for oripaa.fi.
+ 29.432: oripaa.fi INFO Name server ns-se.elisa.net (62.248.254.2) closed for zone transfer of oripaa.fi.
+ 29.479: oripaa.fi INFO Legacy name server ID for ns-se.elisa.net (62.248.254.2): hostname.bind = phys-dns8
+ 29.510: oripaa.fi INFO Legacy name server ID for ns-se.elisa.net (62.248.254.2): version.bind = unknown
+ 29.558: oripaa.fi NOTICE No answer received from 62.248.254.2 when querying for version.server/CH/TXT.
+ 29.558: oripaa.fi INFO Done testing name server ns-se.elisa.net.
+ 29.558: oripaa.fi INFO Begin testing zone consistency for oripaa.fi.
+ 30.843: oripaa.fi INFO SOA at address 62.248.254.2 has serial 2013120900.
+ 30.858: oripaa.fi INFO SOA at address 193.229.0.49 has serial 2013120900.
+ 30.858: oripaa.fi INFO All SOA records have consistent serial numbers.
+ 30.858: oripaa.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 31.650: oripaa.fi NOTICE The listed nameservers for oripaa.fi all report the same set of nameservers.
+ 31.650: oripaa.fi INFO Done testing zone consistency for oripaa.fi.
+ 31.650: oripaa.fi INFO Begin testing SOA parameters for oripaa.fi.
+ 31.670: oripaa.fi INFO Found SOA record for oripaa.fi.
+ 31.670: oripaa.fi INFO Begin testing host ns-fi.elisa.net.
+ 31.890: oripaa.fi INFO Begin testing address 193.229.0.49.
+ 32.068: oripaa.fi INFO Done testing address 193.229.0.49.
+ 32.068: oripaa.fi INFO Done testing host ns-fi.elisa.net.
+ 32.068: oripaa.fi INFO SOA MNAME for oripaa.fi valid (ns-fi.elisa.net).
+ 32.069: oripaa.fi INFO SOA MNAME for oripaa.fi (ns-fi.elisa.net) listed as NS.
+ 32.306: oripaa.fi INFO SOA MNAME for oripaa.fi (ns-fi.elisa.net) is authoritative.
+ 32.306: oripaa.fi INFO Begin testing email address hostmaster@elisa.fi.
+ 32.534: oripaa.fi INFO Mail exchangers for hostmaster@elisa.fi found mx2.elisa.fi,mx1.elisa.fi.
+ 32.534: oripaa.fi INFO Begin testing host mx2.elisa.fi.
+ 32.862: oripaa.fi INFO Begin testing address 193.64.173.43.
+ 33.787: oripaa.fi INFO Done testing address 193.64.173.43.
+ 33.787: oripaa.fi INFO Done testing host mx2.elisa.fi.
+ 33.869: oripaa.fi INFO Begin testing host mx1.elisa.fi.
+ 34.026: oripaa.fi INFO Begin testing address 193.64.173.42.
+ 34.537: oripaa.fi INFO Done testing address 193.64.173.42.
+ 34.537: oripaa.fi INFO Done testing host mx1.elisa.fi.
+ 34.614: oripaa.fi INFO Done testing email address hostmaster@elisa.fi.
+ 34.614: oripaa.fi INFO Successful attempt to deliver email for SOA RNAME of oripaa.fi (hostmaster.elisa.fi) using hostmaster@elisa.fi.
+ 34.614: oripaa.fi INFO SOA TTL for oripaa.fi OK (3600) - recommended >= 3600.
+ 34.614: oripaa.fi NOTICE SOA refresh for oripaa.fi too small (3600) - recommended >= 14400.
+ 34.614: oripaa.fi NOTICE SOA retry for oripaa.fi too small (900) - recommended >= 3600.
+ 34.615: oripaa.fi INFO SOA expire for oripaa.fi OK (604800) - recommended >= 604800.
+ 34.615: oripaa.fi INFO SOA minimum for oripaa.fi OK (3600) - recommended between 300 and 86400.
+ 34.615: oripaa.fi INFO Done testing SOA parameters for oripaa.fi.
+ 34.615: oripaa.fi INFO Begin testing connectivity for oripaa.fi.
+ 35.407: oripaa.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 35.407: oripaa.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 35.407: oripaa.fi INFO Done testing connectivity for oripaa.fi.
+ 35.407: oripaa.fi INFO Begin testing DNSSEC for oripaa.fi.
+ 35.434: oripaa.fi INFO Did not find DS record for oripaa.fi at parent.
+ 35.494: oripaa.fi INFO Servers for oripaa.fi have consistent extra processing status.
+ 35.529: oripaa.fi INFO Authenticated denial records not found for oripaa.fi.
+ 35.546: oripaa.fi INFO Did not find DNSKEY record for oripaa.fi at child.
+ 35.546: oripaa.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 35.546: oripaa.fi INFO Done testing DNSSEC for oripaa.fi.
+ 35.547: oripaa.fi INFO Test completed for zone oripaa.fi.

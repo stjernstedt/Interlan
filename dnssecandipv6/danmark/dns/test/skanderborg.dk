@@ -1,0 +1,84 @@
+  0.000: skanderborg.dk INFO Begin testing zone skanderborg.dk with version 1.6.1.
+  0.402: skanderborg.dk INFO Begin testing delegation for skanderborg.dk.
+  5.985: skanderborg.dk INFO Name servers listed at parent: ns.scannet2.dk,ns2.scannet2.dk
+  7.436: skanderborg.dk INFO Name servers listed at child: ns.scannet2.dk,ns2.scannet2.dk
+  7.436: skanderborg.dk NOTICE No IPv6 name servers found.
+  7.473: skanderborg.dk INFO Parent glue for skanderborg.dk found: ns.scannet2.dk (195.69.128.141)
+  7.615: skanderborg.dk INFO Parent glue for skanderborg.dk found: ns2.scannet2.dk (195.69.129.2)
+  7.652: skanderborg.dk INFO Checking glue for ns.scannet2.dk (195.69.128.141).
+  7.653: skanderborg.dk INFO Checking glue for ns2.scannet2.dk (195.69.129.2).
+  7.653: skanderborg.dk INFO Parent glue for skanderborg.dk found: ns.scannet2.dk (195.69.128.141)
+  7.653: skanderborg.dk INFO Parent glue for skanderborg.dk found: ns2.scannet2.dk (195.69.129.2)
+  8.497: skanderborg.dk INFO It is possible to build a referral packet for skanderborg.dk that works without EDNS0.
+  9.223: skanderborg.dk INFO Previously used name servers for skanderborg.dk: 
+  9.224: skanderborg.dk INFO Done testing delegation for skanderborg.dk.
+  9.224: skanderborg.dk INFO Begin testing name server ns.scannet2.dk.
+  9.224: skanderborg.dk INFO Begin testing host ns.scannet2.dk.
+  9.516: skanderborg.dk INFO Begin testing address 195.69.128.141.
+ 14.644: skanderborg.dk INFO Done testing address 195.69.128.141.
+ 14.644: skanderborg.dk INFO Done testing host ns.scannet2.dk.
+ 14.976: skanderborg.dk INFO Name server ns.scannet2.dk (195.69.128.141) answers queries over UDP.
+ 15.054: skanderborg.dk INFO Name server ns.scannet2.dk (195.69.128.141) answers queries over TCP.
+ 15.104: skanderborg.dk INFO Name server ns.scannet2.dk (195.69.128.141) is not recursive.
+ 15.274: skanderborg.dk INFO Name server ns.scannet2.dk (195.69.128.141) authoritative for skanderborg.dk.
+ 15.360: skanderborg.dk INFO Name server ns.scannet2.dk (195.69.128.141) closed for zone transfer of skanderborg.dk.
+ 15.424: skanderborg.dk NOTICE No answer received from 195.69.128.141 when querying for version.bind/CH/TXT.
+ 15.520: skanderborg.dk INFO Done testing name server ns.scannet2.dk.
+ 15.520: skanderborg.dk INFO Begin testing name server ns2.scannet2.dk.
+ 15.520: skanderborg.dk INFO Begin testing host ns2.scannet2.dk.
+ 15.674: skanderborg.dk INFO Begin testing address 195.69.129.2.
+ 16.165: skanderborg.dk INFO Done testing address 195.69.129.2.
+ 16.165: skanderborg.dk INFO Done testing host ns2.scannet2.dk.
+ 16.355: skanderborg.dk INFO Name server ns2.scannet2.dk (195.69.129.2) answers queries over UDP.
+ 16.420: skanderborg.dk INFO Name server ns2.scannet2.dk (195.69.129.2) answers queries over TCP.
+ 16.444: skanderborg.dk INFO Name server ns2.scannet2.dk (195.69.129.2) is not recursive.
+ 16.564: skanderborg.dk INFO Name server ns2.scannet2.dk (195.69.129.2) authoritative for skanderborg.dk.
+ 16.632: skanderborg.dk INFO Name server ns2.scannet2.dk (195.69.129.2) closed for zone transfer of skanderborg.dk.
+ 16.675: skanderborg.dk NOTICE No answer received from 195.69.129.2 when querying for version.bind/CH/TXT.
+ 16.734: skanderborg.dk INFO Done testing name server ns2.scannet2.dk.
+ 16.734: skanderborg.dk INFO Begin testing zone consistency for skanderborg.dk.
+ 17.656: skanderborg.dk INFO SOA at address 195.69.129.2 has serial 2008022500.
+ 17.686: skanderborg.dk INFO SOA at address 195.69.128.141 has serial 2008022500.
+ 17.687: skanderborg.dk INFO All SOA records have consistent serial numbers.
+ 17.687: skanderborg.dk INFO All other fields in the SOA record are consistent among all name servers.
+ 18.090: skanderborg.dk NOTICE The listed nameservers for skanderborg.dk all report the same set of nameservers.
+ 18.090: skanderborg.dk INFO Done testing zone consistency for skanderborg.dk.
+ 18.090: skanderborg.dk INFO Begin testing SOA parameters for skanderborg.dk.
+ 18.109: skanderborg.dk INFO Found SOA record for skanderborg.dk.
+ 18.109: skanderborg.dk INFO Begin testing host ns.scannet2.dk.
+ 18.225: skanderborg.dk INFO Begin testing address 195.69.128.141.
+ 18.328: skanderborg.dk INFO Done testing address 195.69.128.141.
+ 18.328: skanderborg.dk INFO Done testing host ns.scannet2.dk.
+ 18.328: skanderborg.dk INFO SOA MNAME for skanderborg.dk valid (ns.scannet2.dk).
+ 18.328: skanderborg.dk INFO SOA MNAME for skanderborg.dk (ns.scannet2.dk) listed as NS.
+ 18.460: skanderborg.dk INFO SOA MNAME for skanderborg.dk (ns.scannet2.dk) is authoritative.
+ 18.460: skanderborg.dk INFO Begin testing email address hostmaster@scannet2.dk.
+ 18.574: skanderborg.dk INFO Mail exchangers for hostmaster@scannet2.dk found front-lvs.scannet.dk,mx77.front02.scannet.dk.
+ 18.575: skanderborg.dk INFO Begin testing host front-lvs.scannet.dk.
+ 18.798: skanderborg.dk INFO Begin testing address 195.69.129.85.
+ 19.660: skanderborg.dk INFO Done testing address 195.69.129.85.
+ 19.660: skanderborg.dk INFO Done testing host front-lvs.scannet.dk.
+ 19.912: skanderborg.dk INFO Begin testing host mx77.front02.scannet.dk.
+ 20.290: skanderborg.dk INFO Begin testing address 195.69.129.79.
+ 21.164: skanderborg.dk INFO Done testing address 195.69.129.79.
+ 21.164: skanderborg.dk INFO Done testing host mx77.front02.scannet.dk.
+ 21.340: skanderborg.dk INFO Done testing email address hostmaster@scannet2.dk.
+ 21.340: skanderborg.dk INFO Successful attempt to deliver email for SOA RNAME of skanderborg.dk (hostmaster.scannet2.dk) using hostmaster@scannet2.dk.
+ 21.340: skanderborg.dk INFO SOA TTL for skanderborg.dk OK (14400) - recommended >= 3600.
+ 21.340: skanderborg.dk INFO SOA refresh for skanderborg.dk OK (28800) - recommended >= 14400.
+ 21.340: skanderborg.dk INFO SOA retry for skanderborg.dk OK (7200) - recommended >= 3600.
+ 21.340: skanderborg.dk INFO SOA expire for skanderborg.dk OK (604800) - recommended >= 604800.
+ 21.340: skanderborg.dk INFO SOA minimum for skanderborg.dk OK (3600) - recommended between 300 and 86400.
+ 21.340: skanderborg.dk INFO Done testing SOA parameters for skanderborg.dk.
+ 21.340: skanderborg.dk INFO Begin testing connectivity for skanderborg.dk.
+ 22.526: skanderborg.dk NOTICE Zone announced by fewer than two IPv4 ASN.
+ 22.526: skanderborg.dk NOTICE Zone announced by fewer than two IPv6 ASN.
+ 22.526: skanderborg.dk INFO Done testing connectivity for skanderborg.dk.
+ 22.526: skanderborg.dk INFO Begin testing DNSSEC for skanderborg.dk.
+ 22.602: skanderborg.dk INFO Did not find DS record for skanderborg.dk at parent.
+ 22.732: skanderborg.dk INFO Servers for skanderborg.dk have consistent extra processing status.
+ 22.788: skanderborg.dk INFO Authenticated denial records not found for skanderborg.dk.
+ 22.807: skanderborg.dk INFO Did not find DNSKEY record for skanderborg.dk at child.
+ 22.807: skanderborg.dk INFO No DNSKEY(s) found at child, other tests skipped.
+ 22.807: skanderborg.dk INFO Done testing DNSSEC for skanderborg.dk.
+ 22.808: skanderborg.dk INFO Test completed for zone skanderborg.dk.

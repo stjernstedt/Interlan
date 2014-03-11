@@ -1,0 +1,108 @@
+  0.000: managenordic.se INFO Begin testing zone managenordic.se with version 1.2.
+  0.001: managenordic.se INFO Begin testing delegation for managenordic.se.
+  5.397: managenordic.se INFO Name servers listed at parent: ns1.hyp.net,ns2.hyp.net,ns3.hyp.net
+  8.095: managenordic.se INFO Name servers listed at child: ns1.hyp.net,ns2.hyp.net,ns3.hyp.net
+  8.095: managenordic.se NOTICE No IPv6 name servers found.
+  8.223: managenordic.se INFO Done testing delegation for managenordic.se.
+  8.224: managenordic.se INFO Begin testing name server ns1.hyp.net.
+  8.224: managenordic.se INFO Begin testing host ns1.hyp.net.
+  8.225: managenordic.se INFO Begin testing address 194.63.248.53.
+ 12.160: managenordic.se INFO Done testing address 194.63.248.53.
+ 12.160: managenordic.se INFO Done testing host ns1.hyp.net.
+ 12.178: managenordic.se INFO Name server ns1.hyp.net (194.63.248.53) answers queries over UDP.
+ 12.205: managenordic.se INFO Name server ns1.hyp.net (194.63.248.53) answers queries over TCP.
+ 12.220: managenordic.se INFO Name server ns1.hyp.net (194.63.248.53) is not recursive.
+ 12.236: managenordic.se INFO Name server ns1.hyp.net (194.63.248.53) authoritative for managenordic.se.
+ 12.272: managenordic.se INFO Name server ns1.hyp.net (194.63.248.53) closed for zone transfer of managenordic.se.
+ 12.289: managenordic.se INFO Legacy name server ID for ns1.hyp.net (194.63.248.53): hostname.bind = ns1
+ 12.304: managenordic.se INFO Legacy name server ID for ns1.hyp.net (194.63.248.53): version.bind = 9.3.4-P1.2
+ 12.331: managenordic.se NOTICE No answer received from 194.63.248.53 when querying for version.server/CH/TXT.
+ 12.331: managenordic.se INFO Done testing name server ns1.hyp.net.
+ 12.332: managenordic.se INFO Begin testing name server ns2.hyp.net.
+ 12.332: managenordic.se INFO Begin testing host ns2.hyp.net.
+ 12.333: managenordic.se INFO Begin testing address 67.17.159.182.
+ 16.784: managenordic.se INFO Done testing address 67.17.159.182.
+ 16.784: managenordic.se INFO Done testing host ns2.hyp.net.
+ 16.811: managenordic.se INFO Name server ns2.hyp.net (67.17.159.182) answers queries over UDP.
+ 16.855: managenordic.se INFO Name server ns2.hyp.net (67.17.159.182) answers queries over TCP.
+ 16.878: managenordic.se INFO Name server ns2.hyp.net (67.17.159.182) is not recursive.
+ 16.903: managenordic.se INFO Name server ns2.hyp.net (67.17.159.182) authoritative for managenordic.se.
+ 16.964: managenordic.se INFO Name server ns2.hyp.net (67.17.159.182) closed for zone transfer of managenordic.se.
+ 16.987: managenordic.se INFO Legacy name server ID for ns2.hyp.net (67.17.159.182): hostname.bind = hancock
+ 17.010: managenordic.se INFO Legacy name server ID for ns2.hyp.net (67.17.159.182): version.bind = 9.5.2-P1
+ 17.056: managenordic.se NOTICE No answer received from 67.17.159.182 when querying for version.server/CH/TXT.
+ 17.057: managenordic.se INFO Done testing name server ns2.hyp.net.
+ 17.057: managenordic.se INFO Begin testing name server ns3.hyp.net.
+ 17.057: managenordic.se INFO Begin testing host ns3.hyp.net.
+ 17.058: managenordic.se INFO Begin testing address 69.72.241.155.
+ 17.950: managenordic.se INFO Done testing address 69.72.241.155.
+ 17.951: managenordic.se INFO Done testing host ns3.hyp.net.
+ 18.059: managenordic.se INFO Name server ns3.hyp.net (69.72.241.155) answers queries over UDP.
+ 18.267: managenordic.se INFO Name server ns3.hyp.net (69.72.241.155) answers queries over TCP.
+ 18.377: managenordic.se INFO Name server ns3.hyp.net (69.72.241.155) is not recursive.
+ 18.489: managenordic.se INFO Name server ns3.hyp.net (69.72.241.155) authoritative for managenordic.se.
+ 18.807: managenordic.se INFO Name server ns3.hyp.net (69.72.241.155) closed for zone transfer of managenordic.se.
+ 18.915: managenordic.se INFO Legacy name server ID for ns3.hyp.net (69.72.241.155): hostname.bind = dn.domeneshop.no
+ 19.025: managenordic.se INFO Legacy name server ID for ns3.hyp.net (69.72.241.155): version.bind = 9.5.2-P1
+ 19.236: managenordic.se NOTICE No answer received from 69.72.241.155 when querying for version.server/CH/TXT.
+ 19.236: managenordic.se INFO Done testing name server ns3.hyp.net.
+ 19.236: managenordic.se INFO Begin testing zone consistency for managenordic.se.
+ 19.350: managenordic.se INFO SOA at address 69.72.241.155 has serial 1287744625.
+ 19.366: managenordic.se INFO SOA at address 194.63.248.53 has serial 1287744625.
+ 19.389: managenordic.se INFO SOA at address 67.17.159.182 has serial 1287744625.
+ 19.389: managenordic.se INFO All SOA records have consistent serial numbers.
+ 19.389: managenordic.se INFO All SOA records are consistent among all name servers.
+ 19.389: managenordic.se INFO Done testing zone consistency for managenordic.se.
+ 19.390: managenordic.se INFO Begin testing SOA parameters for managenordic.se.
+ 19.414: managenordic.se INFO Found SOA record for managenordic.se.
+ 19.414: managenordic.se INFO Begin testing host ns1.hyp.net.
+ 19.414: managenordic.se INFO Begin testing address 194.63.248.53.
+ 19.415: managenordic.se INFO Done testing address 194.63.248.53.
+ 19.415: managenordic.se INFO Done testing host ns1.hyp.net.
+ 19.415: managenordic.se INFO SOA MNAME for managenordic.se valid (ns1.hyp.net).
+ 19.416: managenordic.se INFO SOA MNAME for managenordic.se (ns1.hyp.net) listed as NS.
+ 19.430: managenordic.se INFO SOA MNAME for managenordic.se (ns1.hyp.net) is authoritative.
+ 19.430: managenordic.se INFO Begin testing email address hostmaster@domeneshop.no.
+ 19.669: managenordic.se INFO Mail exchangers for hostmaster@domeneshop.no found mx03.domeneshop.no,mx04.domeneshop.no,mx05.domeneshop.no.
+ 19.669: managenordic.se INFO Begin testing host mx03.domeneshop.no.
+ 20.140: managenordic.se INFO Begin testing address 194.63.248.17.
+ 20.477: managenordic.se INFO Done testing address 194.63.248.17.
+ 20.478: managenordic.se INFO Done testing host mx03.domeneshop.no.
+ 20.479: managenordic.se INFO Begin testing mail server mx03.domeneshop.no (194.63.248.17) with hostmaster@domeneshop.no.
+ 30.663: managenordic.se INFO SMTP banner: mx03.domeneshop.no ESMTP Sendmail 8.14.4/8.14.4; Tue, 9 Nov 2010 11:24:47 +0100
+ 30.763: managenordic.se INFO SMTP testing of mx03.domeneshop.no (194.63.248.17) with hostmaster@domeneshop.no succeeded without errors.
+ 30.763: managenordic.se INFO Done testing mail server mx03.domeneshop.no (194.63.248.17) with hostmaster@domeneshop.no.
+ 30.763: managenordic.se INFO Begin testing host mx04.domeneshop.no.
+ 31.293: managenordic.se INFO Begin testing address 194.63.248.29.
+ 31.849: managenordic.se INFO Done testing address 194.63.248.29.
+ 31.849: managenordic.se INFO Done testing host mx04.domeneshop.no.
+ 31.850: managenordic.se INFO Begin testing host mx05.domeneshop.no.
+ 32.400: managenordic.se INFO Begin testing address 194.63.248.55.
+ 32.736: managenordic.se INFO Done testing address 194.63.248.55.
+ 32.736: managenordic.se INFO Done testing host mx05.domeneshop.no.
+ 32.737: managenordic.se INFO Delivery over IPv4 to hostmaster@domeneshop.no ok.
+ 32.737: managenordic.se INFO Delivery over IPv6 to hostmaster@domeneshop.no could not be done.
+ 32.737: managenordic.se INFO Done testing email address hostmaster@domeneshop.no.
+ 32.737: managenordic.se INFO Successful attempt to deliver email for SOA RNAME of managenordic.se (hostmaster.domeneshop.no) using hostmaster@domeneshop.no.
+ 32.738: managenordic.se INFO SOA TTL for managenordic.se OK (3600) - recommended >= 3600.
+ 32.738: managenordic.se INFO SOA refresh for managenordic.se OK (14400) - recommended >= 14400.
+ 32.738: managenordic.se NOTICE SOA retry for managenordic.se too small (1800) - recommended >= 3600.
+ 32.738: managenordic.se INFO SOA expire for managenordic.se OK (1209600) - recommended >= 604800.
+ 32.738: managenordic.se INFO SOA minimum for managenordic.se OK (3600) - recommended between 300 and 86400.
+ 32.738: managenordic.se INFO Done testing SOA parameters for managenordic.se.
+ 32.739: managenordic.se INFO Begin testing connectivity for managenordic.se.
+ 33.320: managenordic.se INFO Name server 67.17.159.182 announced by: 3549
+ 33.964: managenordic.se INFO Name server 69.72.241.155 announced by: 25653
+ 34.550: managenordic.se INFO Name server 194.63.248.53 announced by: 12996
+ 34.550: managenordic.se INFO Zone announced by IPv4 ASN: 25653,12996,3549
+ 34.550: managenordic.se INFO Zone announced by more than one ASN (3).
+ 34.551: managenordic.se INFO Zone announced by IPv6 ASN: 
+ 34.551: managenordic.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 34.551: managenordic.se INFO Done testing connectivity for managenordic.se.
+ 34.551: managenordic.se INFO Begin testing DNSSEC for managenordic.se.
+ 34.586: managenordic.se INFO Did not find DS record for managenordic.se at parent.
+ 34.890: managenordic.se INFO Servers for managenordic.se have consistent extra processing status.
+ 34.891: managenordic.se INFO Did not find DNSKEY record for managenordic.se at child.
+ 34.891: managenordic.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 34.891: managenordic.se INFO Done testing DNSSEC for managenordic.se.
+ 34.891: managenordic.se INFO Test completed for zone managenordic.se.

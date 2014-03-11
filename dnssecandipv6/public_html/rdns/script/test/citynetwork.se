@@ -1,0 +1,121 @@
+  0.000: citynetwork.se INFO Begin testing zone citynetwork.se with version 1.5.0.
+  0.001: citynetwork.se INFO Begin testing delegation for citynetwork.se.
+  9.999: citynetwork.se INFO Name servers listed at parent: ns1.citynetwork.se,ns2.citynetwork.se
+ 12.739: citynetwork.se INFO Name servers listed at child: ns1.citynetwork.se,ns2.citynetwork.se
+ 12.798: citynetwork.se INFO Parent glue for citynetwork.se found: ns1.citynetwork.se (91.123.193.2)
+ 12.851: citynetwork.se INFO Parent glue for citynetwork.se found: ns1.citynetwork.se (2a00:16d8:0:4:0:0:0:2)
+ 12.864: citynetwork.se INFO Parent glue for citynetwork.se found: ns2.citynetwork.se (91.123.193.3)
+ 12.892: citynetwork.se INFO Parent glue for citynetwork.se found: ns2.citynetwork.se (2a00:16d8:0:4:0:0:0:3)
+ 12.892: citynetwork.se INFO Checking glue for ns1.citynetwork.se (91.123.193.2).
+ 12.927: citynetwork.se INFO Child glue for citynetwork.se found: ns1.citynetwork.se (91.123.193.2)
+ 12.927: citynetwork.se INFO Checking glue for ns1.citynetwork.se (2a00:16d8:0:4:0:0:0:2).
+ 12.964: citynetwork.se INFO Child glue for citynetwork.se found: ns1.citynetwork.se (2a00:16d8:0:4:0:0:0:2)
+ 12.964: citynetwork.se INFO Checking glue for ns2.citynetwork.se (91.123.193.3).
+ 13.009: citynetwork.se INFO Child glue for citynetwork.se found: ns2.citynetwork.se (91.123.193.3)
+ 13.010: citynetwork.se INFO Checking glue for ns2.citynetwork.se (2a00:16d8:0:4:0:0:0:3).
+ 13.077: citynetwork.se INFO Child glue for citynetwork.se found: ns2.citynetwork.se (2a00:16d8:0:4:0:0:0:3)
+ 13.077: citynetwork.se INFO Parent glue for citynetwork.se found: ns1.citynetwork.se (91.123.193.2)
+ 13.078: citynetwork.se INFO Parent glue for citynetwork.se found: ns1.citynetwork.se (2a00:16d8:0:4:0:0:0:2)
+ 13.078: citynetwork.se INFO Parent glue for citynetwork.se found: ns2.citynetwork.se (91.123.193.3)
+ 13.078: citynetwork.se INFO Parent glue for citynetwork.se found: ns2.citynetwork.se (2a00:16d8:0:4:0:0:0:3)
+ 13.323: citynetwork.se INFO It is possible to build a referral packet for citynetwork.se that works without EDNS0.
+ 13.323: citynetwork.se INFO Done testing delegation for citynetwork.se.
+ 13.323: citynetwork.se INFO Begin testing name server ns1.citynetwork.se.
+ 13.323: citynetwork.se INFO Begin testing host ns1.citynetwork.se.
+ 13.324: citynetwork.se INFO Begin testing address 91.123.193.2.
+ 24.794: citynetwork.se INFO Done testing address 91.123.193.2.
+ 24.795: citynetwork.se INFO Begin testing address 2a00:16d8:0:4:0:0:0:2.
+ 28.605: citynetwork.se WARNING Could not find reverse address for 2a00:16d8:0:4:0:0:0:2 (2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.4.0.0.0.0.0.0.0.8.d.6.1.0.0.a.2.ip6.arpa.).
+ 28.605: citynetwork.se INFO Done testing address 2a00:16d8:0:4:0:0:0:2.
+ 28.605: citynetwork.se INFO Done testing host ns1.citynetwork.se.
+ 28.635: citynetwork.se INFO Name server ns1.citynetwork.se (91.123.193.2) answers queries over UDP.
+ 28.722: citynetwork.se INFO Name server ns1.citynetwork.se (91.123.193.2) answers queries over TCP.
+ 28.760: citynetwork.se INFO Name server ns1.citynetwork.se (91.123.193.2) is not recursive.
+ 29.056: citynetwork.se INFO Name server ns1.citynetwork.se (91.123.193.2) authoritative for citynetwork.se.
+ 29.117: citynetwork.se INFO Name server ns1.citynetwork.se (91.123.193.2) closed for zone transfer of citynetwork.se.
+ 29.139: citynetwork.se INFO Legacy name server ID for ns1.citynetwork.se (91.123.193.2): hostname.bind = cnns1
+ 29.190: citynetwork.se INFO Legacy name server ID for ns1.citynetwork.se (91.123.193.2): version.bind = 9.4-ESV-R4-P1
+ 29.269: citynetwork.se NOTICE No answer received from 91.123.193.2 when querying for version.server/CH/TXT.
+ 29.297: citynetwork.se INFO Name server ns1.citynetwork.se (2a00:16d8:0:4:0:0:0:2) answers queries over UDP.
+ 29.355: citynetwork.se INFO Name server ns1.citynetwork.se (2a00:16d8:0:4:0:0:0:2) answers queries over TCP.
+ 29.391: citynetwork.se INFO Name server ns1.citynetwork.se (2a00:16d8:0:4:0:0:0:2) is not recursive.
+ 29.641: citynetwork.se INFO Name server ns1.citynetwork.se (2a00:16d8:0:4:0:0:0:2) authoritative for citynetwork.se.
+ 29.743: citynetwork.se INFO Name server ns1.citynetwork.se (2a00:16d8:0:4:0:0:0:2) closed for zone transfer of citynetwork.se.
+ 29.768: citynetwork.se INFO Legacy name server ID for ns1.citynetwork.se (2a00:16d8:0:4:0:0:0:2): hostname.bind = cnns1
+ 29.793: citynetwork.se INFO Legacy name server ID for ns1.citynetwork.se (2a00:16d8:0:4:0:0:0:2): version.bind = 9.4-ESV-R4-P1
+ 29.843: citynetwork.se NOTICE No answer received from 2a00:16d8:0:4:0:0:0:2 when querying for version.server/CH/TXT.
+ 29.843: citynetwork.se INFO Done testing name server ns1.citynetwork.se.
+ 29.843: citynetwork.se INFO Begin testing name server ns2.citynetwork.se.
+ 29.844: citynetwork.se INFO Begin testing host ns2.citynetwork.se.
+ 29.844: citynetwork.se INFO Begin testing address 91.123.193.3.
+ 30.442: citynetwork.se INFO Done testing address 91.123.193.3.
+ 30.442: citynetwork.se INFO Begin testing address 2a00:16d8:0:4:0:0:0:3.
+ 31.440: citynetwork.se WARNING Could not find reverse address for 2a00:16d8:0:4:0:0:0:3 (3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.4.0.0.0.0.0.0.0.8.d.6.1.0.0.a.2.ip6.arpa.).
+ 31.440: citynetwork.se INFO Done testing address 2a00:16d8:0:4:0:0:0:3.
+ 31.440: citynetwork.se INFO Done testing host ns2.citynetwork.se.
+ 31.469: citynetwork.se INFO Name server ns2.citynetwork.se (91.123.193.3) answers queries over UDP.
+ 31.511: citynetwork.se INFO Name server ns2.citynetwork.se (91.123.193.3) answers queries over TCP.
+ 31.533: citynetwork.se INFO Name server ns2.citynetwork.se (91.123.193.3) is not recursive.
+ 31.622: citynetwork.se INFO Name server ns2.citynetwork.se (91.123.193.3) authoritative for citynetwork.se.
+ 31.669: citynetwork.se INFO Name server ns2.citynetwork.se (91.123.193.3) closed for zone transfer of citynetwork.se.
+ 31.689: citynetwork.se INFO Legacy name server ID for ns2.citynetwork.se (91.123.193.3): hostname.bind = cnns2
+ 31.709: citynetwork.se INFO Legacy name server ID for ns2.citynetwork.se (91.123.193.3): version.bind = 9.4-ESV-R4-P1
+ 31.759: citynetwork.se NOTICE No answer received from 91.123.193.3 when querying for version.server/CH/TXT.
+ 31.793: citynetwork.se INFO Name server ns2.citynetwork.se (2a00:16d8:0:4:0:0:0:3) answers queries over UDP.
+ 31.908: citynetwork.se INFO Name server ns2.citynetwork.se (2a00:16d8:0:4:0:0:0:3) answers queries over TCP.
+ 31.977: citynetwork.se INFO Name server ns2.citynetwork.se (2a00:16d8:0:4:0:0:0:3) is not recursive.
+ 32.090: citynetwork.se INFO Name server ns2.citynetwork.se (2a00:16d8:0:4:0:0:0:3) authoritative for citynetwork.se.
+ 32.167: citynetwork.se INFO Name server ns2.citynetwork.se (2a00:16d8:0:4:0:0:0:3) closed for zone transfer of citynetwork.se.
+ 32.219: citynetwork.se INFO Legacy name server ID for ns2.citynetwork.se (2a00:16d8:0:4:0:0:0:3): hostname.bind = cnns2
+ 32.246: citynetwork.se INFO Legacy name server ID for ns2.citynetwork.se (2a00:16d8:0:4:0:0:0:3): version.bind = 9.4-ESV-R4-P1
+ 32.382: citynetwork.se NOTICE No answer received from 2a00:16d8:0:4:0:0:0:3 when querying for version.server/CH/TXT.
+ 32.382: citynetwork.se INFO Done testing name server ns2.citynetwork.se.
+ 32.382: citynetwork.se INFO Begin testing zone consistency for citynetwork.se.
+ 32.444: citynetwork.se INFO SOA at address 91.123.193.2 has serial 2013072401.
+ 32.470: citynetwork.se INFO SOA at address 2a00:16d8:0:4:0:0:0:2 has serial 2013072401.
+ 36.498: citynetwork.se INFO SOA at address 91.123.193.3 has serial 2013072401.
+ 36.576: citynetwork.se INFO SOA at address 2a00:16d8:0:4:0:0:0:3 has serial 2013072401.
+ 36.576: citynetwork.se INFO All SOA records have consistent serial numbers.
+ 36.576: citynetwork.se INFO All other fields in the SOA record are consistent among all name servers.
+ 36.854: citynetwork.se NOTICE The listed nameservers for citynetwork.se all report the same set of nameservers.
+ 36.855: citynetwork.se INFO Done testing zone consistency for citynetwork.se.
+ 36.855: citynetwork.se INFO Begin testing SOA parameters for citynetwork.se.
+ 36.906: citynetwork.se INFO Found SOA record for citynetwork.se.
+ 36.906: citynetwork.se INFO Begin testing host ns1.citynetwork.se.
+ 36.907: citynetwork.se INFO Begin testing address 91.123.193.2.
+ 36.968: citynetwork.se INFO Done testing address 91.123.193.2.
+ 36.969: citynetwork.se INFO Begin testing address 2a00:16d8:0:4:0:0:0:2.
+ 36.970: citynetwork.se WARNING Could not find reverse address for 2a00:16d8:0:4:0:0:0:2 (2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.4.0.0.0.0.0.0.0.8.d.6.1.0.0.a.2.ip6.arpa.).
+ 36.970: citynetwork.se INFO Done testing address 2a00:16d8:0:4:0:0:0:2.
+ 36.970: citynetwork.se INFO Done testing host ns1.citynetwork.se.
+ 36.970: citynetwork.se INFO SOA MNAME for citynetwork.se valid (ns1.citynetwork.se).
+ 36.971: citynetwork.se INFO SOA MNAME for citynetwork.se (ns1.citynetwork.se) listed as NS.
+ 37.024: citynetwork.se INFO SOA MNAME for citynetwork.se (ns1.citynetwork.se) is authoritative.
+ 37.107: citynetwork.se INFO SOA MNAME for citynetwork.se (ns1.citynetwork.se) is authoritative.
+ 37.123: citynetwork.se INFO Begin testing email address info@citynetwork.se.
+ 37.537: citynetwork.se INFO Mail exchangers for info@citynetwork.se found mail.citynetwork.se.
+ 37.537: citynetwork.se INFO All mail servers for info@citynetwork.se are in zone citynetwork.se.
+ 37.537: citynetwork.se INFO Begin testing host mail.citynetwork.se.
+ 42.401: citynetwork.se INFO Begin testing address 91.123.193.200.
+ 43.371: citynetwork.se INFO Done testing address 91.123.193.200.
+ 43.371: citynetwork.se INFO Done testing host mail.citynetwork.se.
+ 43.716: citynetwork.se INFO Done testing email address info@citynetwork.se.
+ 43.716: citynetwork.se INFO Successful attempt to deliver email for SOA RNAME of citynetwork.se (info.citynetwork.se) using info@citynetwork.se.
+ 43.716: citynetwork.se NOTICE SOA TTL for citynetwork.se too small (300) - recommended >= 3600.
+ 43.716: citynetwork.se INFO SOA refresh for citynetwork.se OK (43200) - recommended >= 14400.
+ 43.716: citynetwork.se INFO SOA retry for citynetwork.se OK (3600) - recommended >= 3600.
+ 43.716: citynetwork.se INFO SOA expire for citynetwork.se OK (777600) - recommended >= 604800.
+ 43.716: citynetwork.se INFO SOA minimum for citynetwork.se OK (300) - recommended between 300 and 86400.
+ 43.716: citynetwork.se INFO Done testing SOA parameters for citynetwork.se.
+ 43.717: citynetwork.se INFO Begin testing connectivity for citynetwork.se.
+ 45.267: citynetwork.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 46.874: citynetwork.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 46.874: citynetwork.se INFO Done testing connectivity for citynetwork.se.
+ 46.875: citynetwork.se INFO Begin testing DNSSEC for citynetwork.se.
+ 46.981: citynetwork.se INFO Did not find DS record for citynetwork.se at parent.
+ 47.250: citynetwork.se INFO Servers for citynetwork.se have consistent extra processing status.
+ 47.293: citynetwork.se INFO Authenticated denial records not found for citynetwork.se.
+ 47.330: citynetwork.se INFO Did not find DNSKEY record for citynetwork.se at child.
+ 47.330: citynetwork.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 47.330: citynetwork.se INFO Done testing DNSSEC for citynetwork.se.
+ 47.331: citynetwork.se INFO Test completed for zone citynetwork.se.

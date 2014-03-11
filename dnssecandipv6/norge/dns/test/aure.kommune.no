@@ -1,0 +1,88 @@
+  0.000: aure.kommune.no INFO Begin testing zone aure.kommune.no with version 1.6.1.
+  0.196: aure.kommune.no INFO Begin testing delegation for aure.kommune.no.
+  8.119: aure.kommune.no INFO Name servers listed at parent: ns.fastname.no,ns2.fastname.no
+  9.226: aure.kommune.no INFO Name servers listed at child: ns.fastname.no,ns2.fastname.no
+  9.226: aure.kommune.no NOTICE No IPv6 name servers found.
+  9.409: aure.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.593: aure.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.757: aure.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.882: aure.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.605: aure.kommune.no INFO It is possible to build a referral packet for aure.kommune.no that works without EDNS0.
+ 11.155: aure.kommune.no INFO Previously used name servers for aure.kommune.no: 
+ 11.155: aure.kommune.no INFO Done testing delegation for aure.kommune.no.
+ 11.156: aure.kommune.no INFO Begin testing name server ns.fastname.no.
+ 11.156: aure.kommune.no INFO Begin testing host ns.fastname.no.
+ 11.435: aure.kommune.no INFO Begin testing address 85.19.150.98.
+ 29.953: aure.kommune.no INFO Done testing address 85.19.150.98.
+ 29.954: aure.kommune.no INFO Done testing host ns.fastname.no.
+ 30.093: aure.kommune.no INFO Name server ns.fastname.no (85.19.150.98) answers queries over UDP.
+ 30.136: aure.kommune.no INFO Name server ns.fastname.no (85.19.150.98) answers queries over TCP.
+ 30.170: aure.kommune.no INFO Name server ns.fastname.no (85.19.150.98) is not recursive.
+ 30.232: aure.kommune.no INFO Name server ns.fastname.no (85.19.150.98) authoritative for aure.kommune.no.
+ 30.279: aure.kommune.no INFO Name server ns.fastname.no (85.19.150.98) closed for zone transfer of aure.kommune.no.
+ 30.338: aure.kommune.no INFO Legacy name server ID for ns.fastname.no (85.19.150.98): version.bind = Served by PowerDNS - http://www.powerdns.com
+ 30.409: aure.kommune.no INFO Done testing name server ns.fastname.no.
+ 30.409: aure.kommune.no INFO Begin testing name server ns2.fastname.no.
+ 30.409: aure.kommune.no INFO Begin testing host ns2.fastname.no.
+ 30.495: aure.kommune.no INFO Begin testing address 85.252.49.116.
+ 30.970: aure.kommune.no INFO Done testing address 85.252.49.116.
+ 30.970: aure.kommune.no INFO Done testing host ns2.fastname.no.
+ 31.245: aure.kommune.no INFO Name server ns2.fastname.no (85.252.49.116) answers queries over UDP.
+ 31.275: aure.kommune.no INFO Name server ns2.fastname.no (85.252.49.116) answers queries over TCP.
+ 31.313: aure.kommune.no INFO Name server ns2.fastname.no (85.252.49.116) is not recursive.
+ 31.389: aure.kommune.no INFO Name server ns2.fastname.no (85.252.49.116) authoritative for aure.kommune.no.
+ 31.438: aure.kommune.no INFO Name server ns2.fastname.no (85.252.49.116) closed for zone transfer of aure.kommune.no.
+ 31.474: aure.kommune.no INFO Legacy name server ID for ns2.fastname.no (85.252.49.116): version.bind = Served by PowerDNS - http://www.powerdns.com
+ 31.521: aure.kommune.no INFO Done testing name server ns2.fastname.no.
+ 31.522: aure.kommune.no INFO Begin testing zone consistency for aure.kommune.no.
+ 31.900: aure.kommune.no INFO SOA at address 85.19.150.98 has serial 2013062701.
+ 31.917: aure.kommune.no INFO SOA at address 85.252.49.116 has serial 2013062701.
+ 31.917: aure.kommune.no INFO All SOA records have consistent serial numbers.
+ 31.917: aure.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 32.172: aure.kommune.no NOTICE The listed nameservers for aure.kommune.no all report the same set of nameservers.
+ 32.173: aure.kommune.no INFO Done testing zone consistency for aure.kommune.no.
+ 32.173: aure.kommune.no INFO Begin testing SOA parameters for aure.kommune.no.
+ 32.193: aure.kommune.no INFO Found SOA record for aure.kommune.no.
+ 32.194: aure.kommune.no INFO Begin testing host ns.fastname.no.
+ 32.287: aure.kommune.no INFO Begin testing address 85.19.150.98.
+ 32.377: aure.kommune.no INFO Done testing address 85.19.150.98.
+ 32.377: aure.kommune.no INFO Done testing host ns.fastname.no.
+ 32.377: aure.kommune.no INFO SOA MNAME for aure.kommune.no valid (ns.fastname.no).
+ 32.377: aure.kommune.no INFO SOA MNAME for aure.kommune.no (ns.fastname.no) listed as NS.
+ 32.491: aure.kommune.no INFO SOA MNAME for aure.kommune.no (ns.fastname.no) is authoritative.
+ 32.491: aure.kommune.no INFO Begin testing email address hostmaster@fastname.no.
+ 32.592: aure.kommune.no INFO Mail exchangers for hostmaster@fastname.no found mailscan01.fastname.no,mailscan02.fastname.no,mailscan03.fastname.no.
+ 32.593: aure.kommune.no INFO Begin testing host mailscan01.fastname.no.
+ 32.758: aure.kommune.no INFO Begin testing address 85.19.150.228.
+ 33.112: aure.kommune.no INFO Done testing address 85.19.150.228.
+ 33.112: aure.kommune.no INFO Done testing host mailscan01.fastname.no.
+ 33.201: aure.kommune.no INFO Begin testing host mailscan02.fastname.no.
+ 33.421: aure.kommune.no INFO Begin testing address 85.19.150.230.
+ 33.913: aure.kommune.no INFO Done testing address 85.19.150.230.
+ 33.914: aure.kommune.no INFO Begin testing address 85.19.150.244.
+ 34.376: aure.kommune.no INFO Done testing address 85.19.150.244.
+ 34.376: aure.kommune.no INFO Done testing host mailscan02.fastname.no.
+ 34.490: aure.kommune.no INFO Begin testing host mailscan03.fastname.no.
+ 34.754: aure.kommune.no INFO Begin testing address 85.19.150.232.
+ 35.202: aure.kommune.no INFO Done testing address 85.19.150.232.
+ 35.202: aure.kommune.no INFO Done testing host mailscan03.fastname.no.
+ 35.285: aure.kommune.no INFO Done testing email address hostmaster@fastname.no.
+ 35.286: aure.kommune.no INFO Successful attempt to deliver email for SOA RNAME of aure.kommune.no (hostmaster.fastname.no) using hostmaster@fastname.no.
+ 35.286: aure.kommune.no INFO SOA TTL for aure.kommune.no OK (10800) - recommended >= 3600.
+ 35.286: aure.kommune.no NOTICE SOA refresh for aure.kommune.no too small (10800) - recommended >= 14400.
+ 35.286: aure.kommune.no INFO SOA retry for aure.kommune.no OK (3600) - recommended >= 3600.
+ 35.286: aure.kommune.no INFO SOA expire for aure.kommune.no OK (604800) - recommended >= 604800.
+ 35.286: aure.kommune.no INFO SOA minimum for aure.kommune.no OK (3600) - recommended between 300 and 86400.
+ 35.286: aure.kommune.no INFO Done testing SOA parameters for aure.kommune.no.
+ 35.287: aure.kommune.no INFO Begin testing connectivity for aure.kommune.no.
+ 36.270: aure.kommune.no INFO Zone announced by more than one ASN.
+ 36.270: aure.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 36.270: aure.kommune.no INFO Done testing connectivity for aure.kommune.no.
+ 36.270: aure.kommune.no INFO Begin testing DNSSEC for aure.kommune.no.
+ 36.377: aure.kommune.no INFO Did not find DS record for aure.kommune.no at parent.
+ 36.433: aure.kommune.no INFO Servers for aure.kommune.no have consistent extra processing status.
+ 36.457: aure.kommune.no INFO Authenticated denial records not found for aure.kommune.no.
+ 36.472: aure.kommune.no INFO Did not find DNSKEY record for aure.kommune.no at child.
+ 36.472: aure.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 36.472: aure.kommune.no INFO Done testing DNSSEC for aure.kommune.no.
+ 36.472: aure.kommune.no INFO Test completed for zone aure.kommune.no.

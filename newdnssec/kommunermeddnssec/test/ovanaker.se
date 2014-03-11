@@ -1,0 +1,185 @@
+  0.000: ovanaker.se INFO Begin testing zone ovanaker.se with version 1.6.1.
+  3.192: ovanaker.se INFO Begin testing delegation for ovanaker.se.
+ 17.225: ovanaker.se INFO Name servers listed at parent: ns.interlan.se,ns3.interlan.se
+ 20.263: ovanaker.se INFO Name servers listed at child: ns.interlan.se,ns3.interlan.se
+ 20.343: ovanaker.se INFO Parent glue for ovanaker.se found: ns.interlan.se (192.71.21.37)
+ 20.562: ovanaker.se INFO Parent glue for ovanaker.se found: ns.interlan.se (2001:67c:2448:9:0:0:0:2)
+ 20.698: ovanaker.se INFO Parent glue for ovanaker.se found: ns3.interlan.se (176.58.97.90)
+ 20.698: ovanaker.se INFO Parent glue for ovanaker.se found: ns3.interlan.se (109.74.6.166)
+ 20.843: ovanaker.se INFO Parent glue for ovanaker.se found: ns3.interlan.se (2a01:7e00:0:0:0:0:17:f000)
+ 20.843: ovanaker.se INFO Parent glue for ovanaker.se found: ns3.interlan.se (2a02:750:7:0:0:0:0:166)
+ 20.843: ovanaker.se INFO Checking glue for ns.interlan.se (192.71.21.37).
+ 20.939: ovanaker.se INFO Checking glue for ns.interlan.se (2001:67c:2448:9:0:0:0:2).
+ 20.939: ovanaker.se INFO Checking glue for ns3.interlan.se (176.58.97.90).
+ 20.940: ovanaker.se INFO Checking glue for ns3.interlan.se (109.74.6.166).
+ 20.940: ovanaker.se INFO Checking glue for ns3.interlan.se (2a01:7e00:0:0:0:0:17:f000).
+ 20.940: ovanaker.se INFO Checking glue for ns3.interlan.se (2a02:750:7:0:0:0:0:166).
+ 20.940: ovanaker.se INFO Parent glue for ovanaker.se found: ns.interlan.se (192.71.21.37)
+ 20.940: ovanaker.se INFO Parent glue for ovanaker.se found: ns.interlan.se (2001:67c:2448:9:0:0:0:2)
+ 20.941: ovanaker.se INFO Parent glue for ovanaker.se found: ns3.interlan.se (176.58.97.90)
+ 20.941: ovanaker.se INFO Parent glue for ovanaker.se found: ns3.interlan.se (109.74.6.166)
+ 21.007: ovanaker.se INFO Parent glue for ovanaker.se found: ns3.interlan.se (2a01:7e00:0:0:0:0:17:f000)
+ 21.007: ovanaker.se INFO Parent glue for ovanaker.se found: ns3.interlan.se (2a02:750:7:0:0:0:0:166)
+ 21.406: ovanaker.se INFO It is possible to build a referral packet for ovanaker.se that works without EDNS0.
+ 21.407: ovanaker.se INFO Previously used name servers for ovanaker.se: 
+ 21.515: ovanaker.se INFO Done testing delegation for ovanaker.se.
+ 21.516: ovanaker.se INFO Begin testing name server ns.interlan.se.
+ 21.516: ovanaker.se INFO Begin testing host ns.interlan.se.
+ 21.517: ovanaker.se INFO Begin testing address 192.71.21.37.
+ 48.495: ovanaker.se INFO Done testing address 192.71.21.37.
+ 48.495: ovanaker.se INFO Begin testing address 2001:67c:2448:9:0:0:0:2.
+ 49.192: ovanaker.se INFO Done testing address 2001:67c:2448:9:0:0:0:2.
+ 49.192: ovanaker.se INFO Done testing host ns.interlan.se.
+ 49.242: ovanaker.se INFO Name server ns.interlan.se (192.71.21.37) answers queries over UDP.
+ 49.269: ovanaker.se INFO Name server ns.interlan.se (192.71.21.37) answers queries over TCP.
+ 49.297: ovanaker.se INFO Name server ns.interlan.se (192.71.21.37) is not recursive.
+ 49.431: ovanaker.se INFO Name server ns.interlan.se (192.71.21.37) authoritative for ovanaker.se.
+ 49.456: ovanaker.se INFO Name server ns.interlan.se (192.71.21.37) closed for zone transfer of ovanaker.se.
+ 49.491: ovanaker.se INFO Legacy name server ID for ns.interlan.se (192.71.21.37): hostname.bind = ns.interlan.se
+ 49.523: ovanaker.se INFO Legacy name server ID for ns.interlan.se (192.71.21.37): version.bind = 3.141592653
+ 49.665: ovanaker.se NOTICE No answer received from 192.71.21.37 when querying for version.server/CH/TXT.
+ 49.712: ovanaker.se INFO Name server ns.interlan.se (2001:67c:2448:9:0:0:0:2) answers queries over UDP.
+ 49.784: ovanaker.se INFO Name server ns.interlan.se (2001:67c:2448:9:0:0:0:2) answers queries over TCP.
+ 49.840: ovanaker.se INFO Name server ns.interlan.se (2001:67c:2448:9:0:0:0:2) is not recursive.
+ 50.017: ovanaker.se INFO Name server ns.interlan.se (2001:67c:2448:9:0:0:0:2) authoritative for ovanaker.se.
+ 50.143: ovanaker.se INFO Name server ns.interlan.se (2001:67c:2448:9:0:0:0:2) closed for zone transfer of ovanaker.se.
+ 50.172: ovanaker.se INFO Legacy name server ID for ns.interlan.se (2001:67c:2448:9:0:0:0:2): hostname.bind = ns.interlan.se
+ 50.387: ovanaker.se INFO Legacy name server ID for ns.interlan.se (2001:67c:2448:9:0:0:0:2): version.bind = 3.141592653
+ 50.731: ovanaker.se NOTICE No answer received from 2001:67c:2448:9:0:0:0:2 when querying for version.server/CH/TXT.
+ 50.731: ovanaker.se INFO Done testing name server ns.interlan.se.
+ 50.731: ovanaker.se INFO Begin testing name server ns3.interlan.se.
+ 50.737: ovanaker.se INFO Begin testing host ns3.interlan.se.
+ 50.737: ovanaker.se INFO Begin testing address 176.58.97.90.
+ 52.339: ovanaker.se INFO Done testing address 176.58.97.90.
+ 52.339: ovanaker.se INFO Begin testing address 109.74.6.166.
+ 54.251: ovanaker.se INFO Done testing address 109.74.6.166.
+ 54.265: ovanaker.se INFO Begin testing address 2a01:7e00:0:0:0:0:17:f000.
+ 55.561: ovanaker.se INFO Done testing address 2a01:7e00:0:0:0:0:17:f000.
+ 55.561: ovanaker.se INFO Begin testing address 2a02:750:7:0:0:0:0:166.
+ 56.404: ovanaker.se INFO Done testing address 2a02:750:7:0:0:0:0:166.
+ 56.404: ovanaker.se INFO Done testing host ns3.interlan.se.
+ 56.452: ovanaker.se INFO Name server ns3.interlan.se (176.58.97.90) answers queries over UDP.
+ 56.560: ovanaker.se INFO Name server ns3.interlan.se (176.58.97.90) answers queries over TCP.
+ 56.608: ovanaker.se INFO Name server ns3.interlan.se (176.58.97.90) is not recursive.
+ 56.808: ovanaker.se INFO Name server ns3.interlan.se (176.58.97.90) authoritative for ovanaker.se.
+ 56.943: ovanaker.se INFO Name server ns3.interlan.se (176.58.97.90) closed for zone transfer of ovanaker.se.
+ 56.996: ovanaker.se INFO Legacy name server ID for ns3.interlan.se (176.58.97.90): hostname.bind = li443-7
+ 57.043: ovanaker.se INFO Legacy name server ID for ns3.interlan.se (176.58.97.90): version.bind = 9.9.4-P2
+ 57.162: ovanaker.se NOTICE No answer received from 176.58.97.90 when querying for version.server/CH/TXT.
+ 57.200: ovanaker.se INFO Name server ns3.interlan.se (109.74.6.166) answers queries over UDP.
+ 57.231: ovanaker.se INFO Name server ns3.interlan.se (109.74.6.166) answers queries over TCP.
+ 57.272: ovanaker.se INFO Name server ns3.interlan.se (109.74.6.166) is not recursive.
+ 57.442: ovanaker.se INFO Name server ns3.interlan.se (109.74.6.166) authoritative for ovanaker.se.
+ 58.245: ovanaker.se INFO Name server ns3.interlan.se (109.74.6.166) closed for zone transfer of ovanaker.se.
+ 58.284: ovanaker.se INFO Legacy name server ID for ns3.interlan.se (109.74.6.166): hostname.bind = ns3
+ 58.322: ovanaker.se INFO Legacy name server ID for ns3.interlan.se (109.74.6.166): version.bind = 9.9.4-P2
+ 58.398: ovanaker.se NOTICE No answer received from 109.74.6.166 when querying for version.server/CH/TXT.
+ 58.544: ovanaker.se INFO Name server ns3.interlan.se (2a01:7e00:0:0:0:0:17:f000) answers queries over UDP.
+ 58.688: ovanaker.se INFO Name server ns3.interlan.se (2a01:7e00:0:0:0:0:17:f000) answers queries over TCP.
+ 58.796: ovanaker.se INFO Name server ns3.interlan.se (2a01:7e00:0:0:0:0:17:f000) is not recursive.
+ 59.152: ovanaker.se INFO Name server ns3.interlan.se (2a01:7e00:0:0:0:0:17:f000) authoritative for ovanaker.se.
+ 59.312: ovanaker.se INFO Name server ns3.interlan.se (2a01:7e00:0:0:0:0:17:f000) closed for zone transfer of ovanaker.se.
+ 59.408: ovanaker.se INFO Legacy name server ID for ns3.interlan.se (2a01:7e00:0:0:0:0:17:f000): hostname.bind = li443-7
+ 59.496: ovanaker.se INFO Legacy name server ID for ns3.interlan.se (2a01:7e00:0:0:0:0:17:f000): version.bind = 9.9.4-P2
+ 59.684: ovanaker.se NOTICE No answer received from 2a01:7e00:0:0:0:0:17:f000 when querying for version.server/CH/TXT.
+ 59.715: ovanaker.se INFO Name server ns3.interlan.se (2a02:750:7:0:0:0:0:166) answers queries over UDP.
+ 59.784: ovanaker.se INFO Name server ns3.interlan.se (2a02:750:7:0:0:0:0:166) answers queries over TCP.
+ 59.832: ovanaker.se INFO Name server ns3.interlan.se (2a02:750:7:0:0:0:0:166) is not recursive.
+ 59.979: ovanaker.se INFO Name server ns3.interlan.se (2a02:750:7:0:0:0:0:166) authoritative for ovanaker.se.
+ 60.040: ovanaker.se INFO Name server ns3.interlan.se (2a02:750:7:0:0:0:0:166) closed for zone transfer of ovanaker.se.
+ 60.084: ovanaker.se INFO Legacy name server ID for ns3.interlan.se (2a02:750:7:0:0:0:0:166): hostname.bind = ns3
+ 60.111: ovanaker.se INFO Legacy name server ID for ns3.interlan.se (2a02:750:7:0:0:0:0:166): version.bind = 9.9.4-P2
+ 60.152: ovanaker.se NOTICE No answer received from 2a02:750:7:0:0:0:0:166 when querying for version.server/CH/TXT.
+ 60.152: ovanaker.se INFO Done testing name server ns3.interlan.se.
+ 60.152: ovanaker.se INFO Begin testing zone consistency for ovanaker.se.
+ 60.300: ovanaker.se INFO SOA at address 2a01:7e00:0:0:0:0:17:f000 has serial 2014030701.
+ 60.349: ovanaker.se INFO SOA at address 176.58.97.90 has serial 2014030701.
+ 60.384: ovanaker.se INFO SOA at address 192.71.21.37 has serial 2014030701.
+ 60.427: ovanaker.se INFO SOA at address 2a02:750:7:0:0:0:0:166 has serial 2014030701.
+ 60.448: ovanaker.se INFO SOA at address 2001:67c:2448:9:0:0:0:2 has serial 2014030701.
+ 60.620: ovanaker.se INFO SOA at address 109.74.6.166 has serial 2014030701.
+ 60.620: ovanaker.se INFO All SOA records have consistent serial numbers.
+ 60.620: ovanaker.se INFO All other fields in the SOA record are consistent among all name servers.
+ 61.356: ovanaker.se NOTICE The listed nameservers for ovanaker.se all report the same set of nameservers.
+ 61.356: ovanaker.se INFO Done testing zone consistency for ovanaker.se.
+ 61.357: ovanaker.se INFO Begin testing SOA parameters for ovanaker.se.
+ 61.398: ovanaker.se INFO Found SOA record for ovanaker.se.
+ 61.399: ovanaker.se INFO Begin testing host ns.interlan.se.
+ 61.410: ovanaker.se INFO Begin testing address 192.71.21.37.
+ 61.411: ovanaker.se INFO Done testing address 192.71.21.37.
+ 61.411: ovanaker.se INFO Begin testing address 2001:67c:2448:9:0:0:0:2.
+ 61.425: ovanaker.se INFO Done testing address 2001:67c:2448:9:0:0:0:2.
+ 61.425: ovanaker.se INFO Done testing host ns.interlan.se.
+ 61.425: ovanaker.se INFO SOA MNAME for ovanaker.se valid (ns.interlan.se).
+ 61.425: ovanaker.se INFO SOA MNAME for ovanaker.se (ns.interlan.se) listed as NS.
+ 61.460: ovanaker.se INFO SOA MNAME for ovanaker.se (ns.interlan.se) is authoritative.
+ 61.508: ovanaker.se INFO SOA MNAME for ovanaker.se (ns.interlan.se) is authoritative.
+ 61.508: ovanaker.se INFO Begin testing email address hostmaster@ovanaker.se.
+ 61.740: ovanaker.se INFO Mail exchangers for hostmaster@ovanaker.se found smtp1.interlan.se.
+ 61.740: ovanaker.se INFO Begin testing host smtp1.interlan.se.
+ 62.339: ovanaker.se INFO Begin testing address 192.71.21.43.
+ 66.103: ovanaker.se INFO Done testing address 192.71.21.43.
+ 66.104: ovanaker.se INFO Begin testing address 195.191.213.125.
+ 70.126: ovanaker.se INFO Done testing address 195.191.213.125.
+ 70.127: ovanaker.se INFO Begin testing address 2a03:c300:6:120:0:0:0:125.
+ 72.616: ovanaker.se INFO Done testing address 2a03:c300:6:120:0:0:0:125.
+ 72.616: ovanaker.se INFO Begin testing address 2001:67c:2448:9:0:0:0:225.
+ 73.141: ovanaker.se INFO Done testing address 2001:67c:2448:9:0:0:0:225.
+ 73.141: ovanaker.se INFO Done testing host smtp1.interlan.se.
+ 73.141: ovanaker.se INFO Done testing email address hostmaster@ovanaker.se.
+ 73.141: ovanaker.se INFO Successful attempt to deliver email for SOA RNAME of ovanaker.se (hostmaster.ovanaker.se) using hostmaster@ovanaker.se.
+ 73.141: ovanaker.se INFO SOA TTL for ovanaker.se OK (7200) - recommended >= 3600.
+ 73.141: ovanaker.se NOTICE SOA refresh for ovanaker.se too small (900) - recommended >= 14400.
+ 73.141: ovanaker.se NOTICE SOA retry for ovanaker.se too small (600) - recommended >= 3600.
+ 73.141: ovanaker.se INFO SOA expire for ovanaker.se OK (2592000) - recommended >= 604800.
+ 73.141: ovanaker.se INFO SOA minimum for ovanaker.se OK (7200) - recommended between 300 and 86400.
+ 73.142: ovanaker.se INFO Done testing SOA parameters for ovanaker.se.
+ 73.142: ovanaker.se INFO Begin testing connectivity for ovanaker.se.
+ 75.698: ovanaker.se INFO Zone announced by more than one ASN.
+ 77.856: ovanaker.se INFO Zone announced by more than one IPv6 ASN.
+ 77.856: ovanaker.se INFO Done testing connectivity for ovanaker.se.
+ 77.857: ovanaker.se INFO Begin testing DNSSEC for ovanaker.se.
+ 77.998: ovanaker.se INFO Found DS record for ovanaker.se at parent.
+ 78.041: ovanaker.se INFO Nameserver 192.71.21.37 does DNSSEC extra processing.
+ 78.161: ovanaker.se INFO Nameserver 176.58.97.90 does DNSSEC extra processing.
+ 78.185: ovanaker.se INFO Nameserver 109.74.6.166 does DNSSEC extra processing.
+ 78.319: ovanaker.se INFO Nameserver 2a01:7e00:0:0:0:0:17:f000 does DNSSEC extra processing.
+ 78.369: ovanaker.se INFO Nameserver 2a02:750:7:0:0:0:0:166 does DNSSEC extra processing.
+ 78.418: ovanaker.se INFO Nameserver 2001:67c:2448:9:0:0:0:2 does DNSSEC extra processing.
+ 78.418: ovanaker.se INFO Servers for ovanaker.se have consistent extra processing status.
+ 78.461: ovanaker.se INFO Authenticated denial records found for ovanaker.se, of type NSEC.
+ 78.482: ovanaker.se INFO Found DNSKEY record for ovanaker.se at child.
+ 78.482: ovanaker.se INFO Consistent security for ovanaker.se.
+ 78.482: ovanaker.se INFO Checking DNSSEC at child (ovanaker.se).
+ 78.482: ovanaker.se INFO ovanaker.se's key with tag 19059 uses algorithm number 5 (RSA/SHA-1).
+ 78.482: ovanaker.se INFO Algorithm number 5 is OK.
+ 78.482: ovanaker.se INFO DNSKEY ovanaker.se (tag 19059) is marked as a secure entry point (SEP).
+ 78.483: ovanaker.se INFO ovanaker.se's key with tag 62151 uses algorithm number 5 (RSA/SHA-1).
+ 78.483: ovanaker.se INFO Algorithm number 5 is OK.
+ 78.483: ovanaker.se INFO DNSSEC signature expires at: Wed Apr 16 14:30:11 2014
+ 78.483: ovanaker.se INFO Duration for RRSIG(ovanaker.se/IN/DNSKEY/19059) is OK (3456000 seconds).
+ 78.513: ovanaker.se INFO DNSSEC signature RRSIG(ovanaker.se/IN/DNSKEY/19059) matches records.
+ 78.513: ovanaker.se INFO DNSSEC signature valid: RRSIG(ovanaker.se/IN/DNSKEY/19059)
+ 78.513: ovanaker.se INFO DNSSEC signature expires at: Wed Apr 16 14:30:11 2014
+ 78.513: ovanaker.se INFO Duration for RRSIG(ovanaker.se/IN/DNSKEY/62151) is OK (3456000 seconds).
+ 78.514: ovanaker.se INFO DNSSEC signature RRSIG(ovanaker.se/IN/DNSKEY/62151) matches records.
+ 78.514: ovanaker.se INFO DNSSEC signature valid: RRSIG(ovanaker.se/IN/DNSKEY/62151)
+ 78.514: ovanaker.se INFO Enough valid signatures found for ovanaker.se.
+ 78.563: ovanaker.se INFO DNSSEC signature expires at: Wed Apr 16 14:30:11 2014
+ 78.564: ovanaker.se INFO Duration for RRSIG(ovanaker.se/IN/SOA/62151) is OK (3456000 seconds).
+ 78.564: ovanaker.se INFO DNSSEC signature RRSIG(ovanaker.se/IN/SOA/62151) matches records.
+ 78.564: ovanaker.se INFO DNSSEC signature valid: RRSIG(ovanaker.se/IN/SOA/62151)
+ 78.564: ovanaker.se INFO Enough valid signatures over SOA RRset found for ovanaker.se.
+ 78.564: ovanaker.se INFO DNSSEC child checks for ovanaker.se complete.
+ 78.565: ovanaker.se INFO Checking DNSSEC at parent of ovanaker.se.
+ 78.565: ovanaker.se INFO ovanaker.se's key with tag 19059 uses algorithm number 5 (RSA/SHA-1).
+ 78.565: ovanaker.se INFO Algorithm number 5 is OK.
+ 78.565: ovanaker.se INFO Parent DS(ovanaker.se/5/2/19059) refers to valid key at child: DNSKEY(ovanaker.se/5/19059)
+ 78.565: ovanaker.se INFO Parent DS(ovanaker.se) refers to secure entry point (SEP) at child: DS(ovanaker.se/5/2/19059)
+ 78.565: ovanaker.se INFO ovanaker.se's key with tag 19059 uses algorithm number 5 (RSA/SHA-1).
+ 78.565: ovanaker.se INFO Algorithm number 5 is OK.
+ 78.566: ovanaker.se INFO Parent DS(ovanaker.se/5/1/19059) refers to valid key at child: DNSKEY(ovanaker.se/5/19059)
+ 78.566: ovanaker.se INFO Parent DS(ovanaker.se) refers to secure entry point (SEP) at child: DS(ovanaker.se/5/1/19059)
+ 78.566: ovanaker.se INFO DNSSEC parent checks for ovanaker.se complete.
+ 78.566: ovanaker.se INFO Done testing DNSSEC for ovanaker.se.
+ 78.566: ovanaker.se INFO Test completed for zone ovanaker.se.

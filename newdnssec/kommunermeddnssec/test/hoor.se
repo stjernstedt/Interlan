@@ -1,0 +1,80 @@
+  0.000: hoor.se INFO Begin testing zone hoor.se with version 1.6.1.
+  9.515: hoor.se INFO Begin testing delegation for hoor.se.
+ 40.028: hoor.se INFO Name servers listed at parent: nssec1.skno.se,nssec2.skno.se
+ 44.257: hoor.se INFO Name servers listed at child: nssec1.skno.se,nssec2.skno.se
+ 44.258: hoor.se NOTICE No IPv6 name servers found.
+ 44.301: hoor.se INFO Parent glue for hoor.se found: nssec1.skno.se (192.121.255.64)
+ 44.524: hoor.se INFO Parent glue for hoor.se found: nssec2.skno.se (192.121.255.65)
+ 44.828: hoor.se INFO Checking glue for nssec1.skno.se (192.121.255.64).
+ 44.828: hoor.se INFO Checking glue for nssec2.skno.se (192.121.255.65).
+ 44.829: hoor.se INFO Parent glue for hoor.se found: nssec1.skno.se (192.121.255.64)
+ 44.829: hoor.se INFO Parent glue for hoor.se found: nssec2.skno.se (192.121.255.65)
+ 53.146: hoor.se INFO It is possible to build a referral packet for hoor.se that works without EDNS0.
+ 54.175: hoor.se INFO Previously used name servers for hoor.se: 
+ 54.175: hoor.se INFO Done testing delegation for hoor.se.
+ 54.176: hoor.se INFO Begin testing name server nssec1.skno.se.
+ 54.176: hoor.se INFO Begin testing host nssec1.skno.se.
+ 54.630: hoor.se INFO Begin testing address 192.121.255.64.
+ 97.651: hoor.se INFO Done testing address 192.121.255.64.
+ 97.651: hoor.se INFO Done testing host nssec1.skno.se.
+ 98.195: hoor.se INFO Name server nssec1.skno.se (192.121.255.64) answers queries over UDP.
+ 98.423: hoor.se INFO Name server nssec1.skno.se (192.121.255.64) answers queries over TCP.
+ 98.535: hoor.se INFO Name server nssec1.skno.se (192.121.255.64) is not recursive.
+ 98.672: hoor.se INFO Name server nssec1.skno.se (192.121.255.64) authoritative for hoor.se.
+ 98.724: hoor.se INFO Name server nssec1.skno.se (192.121.255.64) closed for zone transfer of hoor.se.
+ 99.420: hoor.se NOTICE No answer received from 192.121.255.64 when querying for version.server/CH/TXT.
+ 99.420: hoor.se INFO Done testing name server nssec1.skno.se.
+ 99.420: hoor.se INFO Begin testing name server nssec2.skno.se.
+ 99.420: hoor.se INFO Begin testing host nssec2.skno.se.
+ 99.838: hoor.se INFO Begin testing address 192.121.255.65.
+104.259: hoor.se INFO Done testing address 192.121.255.65.
+104.259: hoor.se INFO Done testing host nssec2.skno.se.
+104.595: hoor.se INFO Name server nssec2.skno.se (192.121.255.65) answers queries over UDP.
+104.773: hoor.se INFO Name server nssec2.skno.se (192.121.255.65) answers queries over TCP.
+105.059: hoor.se INFO Name server nssec2.skno.se (192.121.255.65) is not recursive.
+105.261: hoor.se INFO Name server nssec2.skno.se (192.121.255.65) authoritative for hoor.se.
+105.315: hoor.se INFO Name server nssec2.skno.se (192.121.255.65) closed for zone transfer of hoor.se.
+105.436: hoor.se NOTICE No answer received from 192.121.255.65 when querying for version.server/CH/TXT.
+105.437: hoor.se INFO Done testing name server nssec2.skno.se.
+105.437: hoor.se INFO Begin testing zone consistency for hoor.se.
+107.492: hoor.se INFO SOA at address 192.121.255.64 has serial 26.
+107.515: hoor.se INFO SOA at address 192.121.255.65 has serial 26.
+107.515: hoor.se INFO All SOA records have consistent serial numbers.
+107.515: hoor.se INFO All other fields in the SOA record are consistent among all name servers.
+108.425: hoor.se NOTICE The listed nameservers for hoor.se all report the same set of nameservers.
+108.426: hoor.se INFO Done testing zone consistency for hoor.se.
+108.426: hoor.se INFO Begin testing SOA parameters for hoor.se.
+108.467: hoor.se INFO Found SOA record for hoor.se.
+108.467: hoor.se INFO Begin testing host nssec1.skno.se.
+109.005: hoor.se INFO Begin testing address 192.121.255.64.
+109.271: hoor.se INFO Done testing address 192.121.255.64.
+109.271: hoor.se INFO Done testing host nssec1.skno.se.
+109.282: hoor.se INFO SOA MNAME for hoor.se valid (nssec1.skno.se).
+109.282: hoor.se INFO SOA MNAME for hoor.se (nssec1.skno.se) listed as NS.
+109.493: hoor.se INFO SOA MNAME for hoor.se (nssec1.skno.se) is authoritative.
+109.494: hoor.se INFO Begin testing email address dns@unikom.se.
+109.787: hoor.se INFO Mail exchangers for dns@unikom.se found sknomailgw.hassleholm.se.
+109.788: hoor.se INFO Begin testing host sknomailgw.hassleholm.se.
+111.359: hoor.se INFO Begin testing address 192.121.255.20.
+112.358: hoor.se INFO Done testing address 192.121.255.20.
+112.358: hoor.se INFO Done testing host sknomailgw.hassleholm.se.
+112.681: hoor.se INFO Done testing email address dns@unikom.se.
+112.681: hoor.se INFO Successful attempt to deliver email for SOA RNAME of hoor.se (dns.unikom.se) using dns@unikom.se.
+112.682: hoor.se INFO SOA TTL for hoor.se OK (28800) - recommended >= 3600.
+112.682: hoor.se NOTICE SOA refresh for hoor.se too small (10800) - recommended >= 14400.
+112.682: hoor.se INFO SOA retry for hoor.se OK (3600) - recommended >= 3600.
+112.682: hoor.se INFO SOA expire for hoor.se OK (2419200) - recommended >= 604800.
+112.682: hoor.se INFO SOA minimum for hoor.se OK (900) - recommended between 300 and 86400.
+112.682: hoor.se INFO Done testing SOA parameters for hoor.se.
+112.682: hoor.se INFO Begin testing connectivity for hoor.se.
+114.535: hoor.se NOTICE Zone announced by fewer than two IPv4 ASN.
+114.535: hoor.se NOTICE Zone announced by fewer than two IPv6 ASN.
+114.535: hoor.se INFO Done testing connectivity for hoor.se.
+114.535: hoor.se INFO Begin testing DNSSEC for hoor.se.
+114.616: hoor.se INFO Did not find DS record for hoor.se at parent.
+114.863: hoor.se INFO Servers for hoor.se have consistent extra processing status.
+114.920: hoor.se INFO Authenticated denial records not found for hoor.se.
+114.951: hoor.se INFO Did not find DNSKEY record for hoor.se at child.
+114.951: hoor.se INFO No DNSKEY(s) found at child, other tests skipped.
+114.951: hoor.se INFO Done testing DNSSEC for hoor.se.
+114.952: hoor.se INFO Test completed for zone hoor.se.

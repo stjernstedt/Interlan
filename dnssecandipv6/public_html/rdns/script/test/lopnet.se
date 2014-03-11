@@ -1,0 +1,180 @@
+  0.000: lopnet.se INFO Begin testing zone lopnet.se with version 1.5.0.
+  0.001: lopnet.se INFO Begin testing delegation for lopnet.se.
+ 18.069: lopnet.se INFO Name servers listed at parent: ns.i8t.net,ns1.i8t.com,ns1.lopdns.se,ns2.i8t.com,ns2.lopdns.se
+ 25.400: lopnet.se INFO Name servers listed at child: anycast.lopdns.se,ns.i8t.net,ns1.i8t.com,ns1.lopdns.se,ns2.i8t.com,ns2.lopdns.se
+ 25.400: lopnet.se NOTICE Additional name server listed at child: anycast.lopdns.se
+ 25.400: lopnet.se NOTICE Too few IPv6 name servers (1).
+ 25.461: lopnet.se INFO Parent glue for lopnet.se found: ns1.lopdns.se (209.112.254.30)
+ 25.703: lopnet.se INFO Parent glue for lopnet.se found: ns2.lopdns.se (198.23.138.147)
+ 25.821: lopnet.se INFO Checking glue for ns1.lopdns.se (209.112.254.30).
+ 25.821: lopnet.se INFO Checking glue for ns2.lopdns.se (198.23.138.147).
+ 25.823: lopnet.se INFO Parent glue for lopnet.se found: ns1.lopdns.se (209.112.254.30)
+ 25.824: lopnet.se INFO Parent glue for lopnet.se found: ns2.lopdns.se (198.23.138.147)
+ 30.659: lopnet.se INFO It is possible to build a referral packet for lopnet.se that works without EDNS0.
+ 30.659: lopnet.se INFO Done testing delegation for lopnet.se.
+ 30.660: lopnet.se INFO Begin testing name server anycast.lopdns.se.
+ 30.660: lopnet.se INFO Begin testing host anycast.lopdns.se.
+ 31.102: lopnet.se INFO Begin testing address 74.86.171.244.
+ 41.617: lopnet.se INFO Done testing address 74.86.171.244.
+ 41.618: lopnet.se INFO Begin testing address 174.36.180.176.
+ 43.469: lopnet.se INFO Done testing address 174.36.180.176.
+ 43.470: lopnet.se INFO Done testing host anycast.lopdns.se.
+ 44.078: lopnet.se INFO Name server anycast.lopdns.se (74.86.171.244) answers queries over UDP.
+ 44.565: lopnet.se INFO Name server anycast.lopdns.se (74.86.171.244) answers queries over TCP.
+ 44.729: lopnet.se INFO Name server anycast.lopdns.se (74.86.171.244) is not recursive.
+ 45.542: lopnet.se INFO Name server anycast.lopdns.se (74.86.171.244) authoritative for lopnet.se.
+ 46.197: lopnet.se INFO Name server anycast.lopdns.se (74.86.171.244) closed for zone transfer of lopnet.se.
+ 46.523: lopnet.se INFO Legacy name server ID for anycast.lopdns.se (74.86.171.244): version.bind = DNS
+ 47.057: lopnet.se INFO Name server anycast.lopdns.se (174.36.180.176) answers queries over UDP.
+ 47.642: lopnet.se INFO Name server anycast.lopdns.se (174.36.180.176) answers queries over TCP.
+ 47.841: lopnet.se INFO Name server anycast.lopdns.se (174.36.180.176) is not recursive.
+ 48.840: lopnet.se INFO Name server anycast.lopdns.se (174.36.180.176) authoritative for lopnet.se.
+ 49.601: lopnet.se INFO Name server anycast.lopdns.se (174.36.180.176) closed for zone transfer of lopnet.se.
+ 50.001: lopnet.se INFO Legacy name server ID for anycast.lopdns.se (174.36.180.176): version.bind = DNS
+ 50.383: lopnet.se INFO Done testing name server anycast.lopdns.se.
+ 50.383: lopnet.se INFO Begin testing name server ns.i8t.net.
+ 50.384: lopnet.se INFO Begin testing host ns.i8t.net.
+ 50.765: lopnet.se INFO Begin testing address 173.234.50.38.
+503.795: lopnet.se INFO Done testing address 173.234.50.38.
+503.795: lopnet.se INFO Done testing host ns.i8t.net.
+504.370: lopnet.se INFO Name server ns.i8t.net (173.234.50.38) answers queries over UDP.
+504.950: lopnet.se INFO Name server ns.i8t.net (173.234.50.38) answers queries over TCP.
+505.147: lopnet.se INFO Name server ns.i8t.net (173.234.50.38) is not recursive.
+506.119: lopnet.se INFO Name server ns.i8t.net (173.234.50.38) authoritative for lopnet.se.
+506.716: lopnet.se INFO Name server ns.i8t.net (173.234.50.38) closed for zone transfer of lopnet.se.
+506.908: lopnet.se NOTICE No answer received from 173.234.50.38 when querying for hostname.bind/CH/TXT.
+507.103: lopnet.se NOTICE No answer received from 173.234.50.38 when querying for version.bind/CH/TXT.
+507.296: lopnet.se NOTICE No answer received from 173.234.50.38 when querying for id.server/CH/TXT.
+507.490: lopnet.se NOTICE No answer received from 173.234.50.38 when querying for version.server/CH/TXT.
+507.491: lopnet.se INFO Done testing name server ns.i8t.net.
+507.491: lopnet.se INFO Begin testing name server ns1.i8t.com.
+507.491: lopnet.se INFO Begin testing host ns1.i8t.com.
+507.492: lopnet.se INFO Begin testing address 94.247.173.99.
+518.346: lopnet.se INFO Done testing address 94.247.173.99.
+518.346: lopnet.se INFO Begin testing address 2a02:750:0:501:0:0:0:99.
+520.095: lopnet.se INFO Done testing address 2a02:750:0:501:0:0:0:99.
+520.095: lopnet.se INFO Done testing host ns1.i8t.com.
+520.118: lopnet.se INFO Name server ns1.i8t.com (94.247.173.99) answers queries over UDP.
+520.166: lopnet.se INFO Name server ns1.i8t.com (94.247.173.99) answers queries over TCP.
+520.183: lopnet.se INFO Name server ns1.i8t.com (94.247.173.99) is not recursive.
+520.272: lopnet.se INFO Name server ns1.i8t.com (94.247.173.99) authoritative for lopnet.se.
+520.416: lopnet.se INFO Name server ns1.i8t.com (94.247.173.99) closed for zone transfer of lopnet.se.
+520.433: lopnet.se NOTICE No answer received from 94.247.173.99 when querying for hostname.bind/CH/TXT.
+520.448: lopnet.se NOTICE No answer received from 94.247.173.99 when querying for version.bind/CH/TXT.
+520.464: lopnet.se NOTICE No answer received from 94.247.173.99 when querying for id.server/CH/TXT.
+520.480: lopnet.se NOTICE No answer received from 94.247.173.99 when querying for version.server/CH/TXT.
+520.502: lopnet.se INFO Name server ns1.i8t.com (2a02:750:0:501:0:0:0:99) answers queries over UDP.
+520.550: lopnet.se INFO Name server ns1.i8t.com (2a02:750:0:501:0:0:0:99) answers queries over TCP.
+520.571: lopnet.se INFO Name server ns1.i8t.com (2a02:750:0:501:0:0:0:99) is not recursive.
+520.666: lopnet.se INFO Name server ns1.i8t.com (2a02:750:0:501:0:0:0:99) authoritative for lopnet.se.
+520.807: lopnet.se INFO Name server ns1.i8t.com (2a02:750:0:501:0:0:0:99) closed for zone transfer of lopnet.se.
+520.825: lopnet.se NOTICE No answer received from 2a02:750:0:501:0:0:0:99 when querying for hostname.bind/CH/TXT.
+520.842: lopnet.se NOTICE No answer received from 2a02:750:0:501:0:0:0:99 when querying for version.bind/CH/TXT.
+520.860: lopnet.se NOTICE No answer received from 2a02:750:0:501:0:0:0:99 when querying for id.server/CH/TXT.
+520.878: lopnet.se NOTICE No answer received from 2a02:750:0:501:0:0:0:99 when querying for version.server/CH/TXT.
+520.878: lopnet.se INFO Done testing name server ns1.i8t.com.
+520.878: lopnet.se INFO Begin testing name server ns1.lopdns.se.
+520.878: lopnet.se INFO Begin testing host ns1.lopdns.se.
+521.113: lopnet.se INFO Begin testing address 94.102.60.233.
+523.274: lopnet.se INFO Done testing address 94.102.60.233.
+523.275: lopnet.se INFO Done testing host ns1.lopdns.se.
+523.704: lopnet.se NOTICE No answer received from 94.102.60.233 when querying for lopnet.se/IN/SOA.
+523.705: lopnet.se INFO Name server ns1.lopdns.se (94.102.60.233) answers queries over UDP.
+523.765: lopnet.se NOTICE No answer received from 94.102.60.233 when querying for lopnet.se/IN/SOA.
+523.765: lopnet.se INFO Name server ns1.lopdns.se (94.102.60.233) answers queries over TCP.
+523.798: lopnet.se INFO Name server ns1.lopdns.se (94.102.60.233) is not recursive.
+523.829: lopnet.se NOTICE No answer received from 94.102.60.233 when querying for lopnet.se/SOA/IN.
+523.862: lopnet.se NOTICE No answer received from 94.102.60.233 when querying for lopnet.se/IN/SOA.
+523.863: lopnet.se WARNING Nameserver at 94.102.60.233 is not authoritative over UDP.
+523.863: lopnet.se ERROR Name server ns1.lopdns.se (94.102.60.233) not authoritative for lopnet.se.
+523.863: lopnet.se INFO Done testing name server ns1.lopdns.se.
+523.863: lopnet.se INFO Begin testing name server ns2.i8t.com.
+523.863: lopnet.se INFO Begin testing host ns2.i8t.com.
+524.354: lopnet.se INFO Begin testing address 213.115.196.147.
+526.130: lopnet.se INFO Done testing address 213.115.196.147.
+526.133: lopnet.se INFO Done testing host ns2.i8t.com.
+526.597: lopnet.se INFO Name server ns2.i8t.com (213.115.196.147) answers queries over UDP.
+526.712: lopnet.se INFO Name server ns2.i8t.com (213.115.196.147) answers queries over TCP.
+526.751: lopnet.se INFO Name server ns2.i8t.com (213.115.196.147) is not recursive.
+526.953: lopnet.se INFO Name server ns2.i8t.com (213.115.196.147) authoritative for lopnet.se.
+527.160: lopnet.se INFO Name server ns2.i8t.com (213.115.196.147) closed for zone transfer of lopnet.se.
+527.199: lopnet.se NOTICE No answer received from 213.115.196.147 when querying for hostname.bind/CH/TXT.
+527.236: lopnet.se NOTICE No answer received from 213.115.196.147 when querying for version.bind/CH/TXT.
+527.274: lopnet.se NOTICE No answer received from 213.115.196.147 when querying for id.server/CH/TXT.
+527.312: lopnet.se NOTICE No answer received from 213.115.196.147 when querying for version.server/CH/TXT.
+527.312: lopnet.se INFO Done testing name server ns2.i8t.com.
+527.312: lopnet.se INFO Begin testing name server ns2.lopdns.se.
+527.313: lopnet.se INFO Begin testing host ns2.lopdns.se.
+527.700: lopnet.se INFO Begin testing address 198.23.138.147.
+529.963: lopnet.se INFO Done testing address 198.23.138.147.
+529.963: lopnet.se INFO Done testing host ns2.lopdns.se.
+530.502: lopnet.se INFO Name server ns2.lopdns.se (198.23.138.147) answers queries over UDP.
+530.865: lopnet.se INFO Name server ns2.lopdns.se (198.23.138.147) answers queries over TCP.
+531.042: lopnet.se INFO Name server ns2.lopdns.se (198.23.138.147) is not recursive.
+531.684: lopnet.se INFO Name server ns2.lopdns.se (198.23.138.147) authoritative for lopnet.se.
+532.315: lopnet.se INFO Name server ns2.lopdns.se (198.23.138.147) closed for zone transfer of lopnet.se.
+532.442: lopnet.se NOTICE No answer received from 198.23.138.147 when querying for hostname.bind/CH/TXT.
+532.569: lopnet.se INFO Legacy name server ID for ns2.lopdns.se (198.23.138.147): version.bind = 1.2.8.31
+532.695: lopnet.se NOTICE No answer received from 198.23.138.147 when querying for id.server/CH/TXT.
+532.837: lopnet.se NOTICE No answer received from 198.23.138.147 when querying for version.server/CH/TXT.
+532.838: lopnet.se INFO Done testing name server ns2.lopdns.se.
+532.838: lopnet.se INFO Begin testing zone consistency for lopnet.se.
+536.301: lopnet.se INFO SOA at address 198.23.138.147 has serial 2013012805.
+536.345: lopnet.se INFO SOA at address 213.115.196.147 has serial 2013012805.
+536.377: lopnet.se NOTICE No answer received from 94.102.60.233 when querying for lopnet.se/IN/SOA.
+536.541: lopnet.se INFO SOA at address 74.86.171.244 has serial 2013012805.
+536.563: lopnet.se INFO SOA at address 2a02:750:0:501:0:0:0:99 has serial 2013012805.
+536.584: lopnet.se INFO SOA at address 94.247.173.99 has serial 2013012805.
+536.784: lopnet.se INFO SOA at address 173.234.50.38 has serial 2013012805.
+536.983: lopnet.se INFO SOA at address 174.36.180.176 has serial 2013012805.
+536.983: lopnet.se INFO All SOA records have consistent serial numbers.
+536.983: lopnet.se INFO All other fields in the SOA record are consistent among all name servers.
+538.324: lopnet.se NOTICE No answer received from 94.102.60.233 when querying for lopnet.se/IN/NS.
+539.173: lopnet.se WARNING The listed nameservers for lopnet.se does not all report the same set of nameservers.
+539.173: lopnet.se INFO Done testing zone consistency for lopnet.se.
+539.173: lopnet.se INFO Begin testing SOA parameters for lopnet.se.
+539.309: lopnet.se INFO Found SOA record for lopnet.se.
+539.310: lopnet.se INFO Begin testing host ns1.i8t.com.
+539.310: lopnet.se INFO Begin testing address 94.247.173.99.
+539.312: lopnet.se INFO Done testing address 94.247.173.99.
+539.312: lopnet.se INFO Begin testing address 2a02:750:0:501:0:0:0:99.
+539.315: lopnet.se INFO Done testing address 2a02:750:0:501:0:0:0:99.
+539.315: lopnet.se INFO Done testing host ns1.i8t.com.
+539.315: lopnet.se INFO SOA MNAME for lopnet.se valid (ns1.i8t.com).
+539.315: lopnet.se INFO SOA MNAME for lopnet.se (ns1.i8t.com) listed as NS.
+539.339: lopnet.se INFO SOA MNAME for lopnet.se (ns1.i8t.com) is authoritative.
+539.361: lopnet.se INFO SOA MNAME for lopnet.se (ns1.i8t.com) is authoritative.
+539.361: lopnet.se INFO Begin testing email address registry@i8t.com.
+539.795: lopnet.se INFO Mail exchangers for registry@i8t.com found i8t.com,wolf.i8t.com.
+539.795: lopnet.se INFO Begin testing host i8t.com.
+540.911: lopnet.se INFO Begin testing address 94.247.173.144.
+541.733: lopnet.se INFO Done testing address 94.247.173.144.
+541.733: lopnet.se INFO Begin testing address 2a02:750:0:501:0:0:0:144.
+542.458: lopnet.se INFO Done testing address 2a02:750:0:501:0:0:0:144.
+542.458: lopnet.se INFO Done testing host i8t.com.
+542.459: lopnet.se INFO Begin testing host wolf.i8t.com.
+543.447: lopnet.se INFO Begin testing address 213.115.196.148.
+544.738: lopnet.se INFO Done testing address 213.115.196.148.
+544.738: lopnet.se INFO Done testing host wolf.i8t.com.
+545.154: lopnet.se INFO Done testing email address registry@i8t.com.
+545.155: lopnet.se INFO Successful attempt to deliver email for SOA RNAME of lopnet.se (registry.i8t.com) using registry@i8t.com.
+545.155: lopnet.se INFO SOA TTL for lopnet.se OK (3600) - recommended >= 3600.
+545.155: lopnet.se NOTICE SOA refresh for lopnet.se too small (300) - recommended >= 14400.
+545.156: lopnet.se NOTICE SOA refresh for lopnet.se lower than retry (300 vs 300).
+545.156: lopnet.se NOTICE SOA retry for lopnet.se too small (300) - recommended >= 3600.
+545.156: lopnet.se INFO SOA expire for lopnet.se OK (2419200) - recommended >= 604800.
+545.156: lopnet.se INFO SOA minimum for lopnet.se OK (600) - recommended between 300 and 86400.
+545.156: lopnet.se INFO Done testing SOA parameters for lopnet.se.
+545.156: lopnet.se INFO Begin testing connectivity for lopnet.se.
+549.448: lopnet.se INFO Zone announced by more than one ASN.
+550.130: lopnet.se NOTICE Zone announced by fewer than two IPv6 ASN.
+550.130: lopnet.se INFO Done testing connectivity for lopnet.se.
+550.131: lopnet.se INFO Begin testing DNSSEC for lopnet.se.
+550.161: lopnet.se INFO Did not find DS record for lopnet.se at parent.
+551.270: lopnet.se NOTICE No answer received from 94.102.60.233 when querying for lopnet.se/IN/DNSKEY.
+552.463: lopnet.se INFO Servers for lopnet.se have consistent extra processing status.
+552.835: lopnet.se INFO Authenticated denial records not found for lopnet.se.
+552.961: lopnet.se INFO Did not find DNSKEY record for lopnet.se at child.
+552.962: lopnet.se INFO No DNSKEY(s) found at child, other tests skipped.
+552.964: lopnet.se INFO Done testing DNSSEC for lopnet.se.
+552.966: lopnet.se INFO Test completed for zone lopnet.se.

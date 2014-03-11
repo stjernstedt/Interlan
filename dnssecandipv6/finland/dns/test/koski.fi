@@ -1,0 +1,82 @@
+  0.000: koski.fi INFO Begin testing zone koski.fi with version 1.6.1.
+  0.400: koski.fi INFO Begin testing delegation for koski.fi.
+  8.093: koski.fi INFO Name servers listed at parent: ns1.aumanet.fi,ns2.aumanet.fi
+  9.834: koski.fi INFO Name servers listed at child: ns1.aumanet.fi,ns2.aumanet.fi
+  9.834: koski.fi NOTICE No IPv6 name servers found.
+  9.898: koski.fi INFO Parent glue for koski.fi found: ns1.aumanet.fi (46.23.168.67)
+ 10.142: koski.fi INFO Parent glue for koski.fi found: ns2.aumanet.fi (46.23.168.76)
+ 10.208: koski.fi INFO Checking glue for ns1.aumanet.fi (46.23.168.67).
+ 10.208: koski.fi INFO Checking glue for ns2.aumanet.fi (46.23.168.76).
+ 10.209: koski.fi INFO Parent glue for koski.fi found: ns1.aumanet.fi (46.23.168.67)
+ 10.209: koski.fi INFO Parent glue for koski.fi found: ns2.aumanet.fi (46.23.168.76)
+ 11.062: koski.fi INFO It is possible to build a referral packet for koski.fi that works without EDNS0.
+ 11.642: koski.fi INFO Previously used name servers for koski.fi: 
+ 11.642: koski.fi INFO Done testing delegation for koski.fi.
+ 11.643: koski.fi INFO Begin testing name server ns1.aumanet.fi.
+ 11.643: koski.fi INFO Begin testing host ns1.aumanet.fi.
+ 11.964: koski.fi INFO Begin testing address 46.23.168.67.
+ 22.221: koski.fi INFO Done testing address 46.23.168.67.
+ 22.221: koski.fi INFO Done testing host ns1.aumanet.fi.
+ 22.446: koski.fi INFO Name server ns1.aumanet.fi (46.23.168.67) answers queries over UDP.
+ 22.495: koski.fi INFO Name server ns1.aumanet.fi (46.23.168.67) answers queries over TCP.
+ 22.517: koski.fi INFO Name server ns1.aumanet.fi (46.23.168.67) is not recursive.
+ 22.580: koski.fi INFO Name server ns1.aumanet.fi (46.23.168.67) authoritative for koski.fi.
+ 22.623: koski.fi INFO Name server ns1.aumanet.fi (46.23.168.67) closed for zone transfer of koski.fi.
+ 22.646: koski.fi INFO Legacy name server ID for ns1.aumanet.fi (46.23.168.67): hostname.bind = ns1
+ 22.701: koski.fi NOTICE No answer received from 46.23.168.67 when querying for version.server/CH/TXT.
+ 22.701: koski.fi INFO Done testing name server ns1.aumanet.fi.
+ 22.701: koski.fi INFO Begin testing name server ns2.aumanet.fi.
+ 22.705: koski.fi INFO Begin testing host ns2.aumanet.fi.
+ 22.954: koski.fi INFO Begin testing address 46.23.168.76.
+ 23.958: koski.fi INFO Done testing address 46.23.168.76.
+ 23.958: koski.fi INFO Done testing host ns2.aumanet.fi.
+ 24.205: koski.fi INFO Name server ns2.aumanet.fi (46.23.168.76) answers queries over UDP.
+ 24.241: koski.fi INFO Name server ns2.aumanet.fi (46.23.168.76) answers queries over TCP.
+ 24.260: koski.fi INFO Name server ns2.aumanet.fi (46.23.168.76) is not recursive.
+ 24.354: koski.fi INFO Name server ns2.aumanet.fi (46.23.168.76) authoritative for koski.fi.
+ 24.404: koski.fi INFO Name server ns2.aumanet.fi (46.23.168.76) closed for zone transfer of koski.fi.
+ 24.426: koski.fi INFO Legacy name server ID for ns2.aumanet.fi (46.23.168.76): hostname.bind = ns2
+ 24.513: koski.fi NOTICE No answer received from 46.23.168.76 when querying for version.server/CH/TXT.
+ 24.514: koski.fi INFO Done testing name server ns2.aumanet.fi.
+ 24.514: koski.fi INFO Begin testing zone consistency for koski.fi.
+ 25.230: koski.fi INFO SOA at address 46.23.168.76 has serial 2012093001.
+ 25.265: koski.fi INFO SOA at address 46.23.168.67 has serial 2012093001.
+ 25.265: koski.fi INFO All SOA records have consistent serial numbers.
+ 25.265: koski.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 25.746: koski.fi NOTICE The listed nameservers for koski.fi all report the same set of nameservers.
+ 25.747: koski.fi INFO Done testing zone consistency for koski.fi.
+ 25.747: koski.fi INFO Begin testing SOA parameters for koski.fi.
+ 25.790: koski.fi INFO Found SOA record for koski.fi.
+ 25.790: koski.fi INFO Begin testing host ns1.aumanet.fi.
+ 25.954: koski.fi INFO Begin testing address 46.23.168.67.
+ 26.170: koski.fi INFO Done testing address 46.23.168.67.
+ 26.170: koski.fi INFO Done testing host ns1.aumanet.fi.
+ 26.170: koski.fi INFO SOA MNAME for koski.fi valid (ns1.aumanet.fi).
+ 26.171: koski.fi INFO SOA MNAME for koski.fi (ns1.aumanet.fi) listed as NS.
+ 26.370: koski.fi INFO SOA MNAME for koski.fi (ns1.aumanet.fi) is authoritative.
+ 26.370: koski.fi INFO Begin testing email address hostmaster@aumanet.fi.
+ 26.557: koski.fi INFO Mail exchangers for hostmaster@aumanet.fi found mail.aumanet.fi.
+ 26.557: koski.fi INFO Begin testing host mail.aumanet.fi.
+ 26.958: koski.fi INFO Begin testing address 46.23.168.69.
+ 27.879: koski.fi INFO Done testing address 46.23.168.69.
+ 27.879: koski.fi INFO Done testing host mail.aumanet.fi.
+ 28.237: koski.fi INFO Done testing email address hostmaster@aumanet.fi.
+ 28.237: koski.fi INFO Successful attempt to deliver email for SOA RNAME of koski.fi (hostmaster.aumanet.fi) using hostmaster@aumanet.fi.
+ 28.237: koski.fi INFO SOA TTL for koski.fi OK (86400) - recommended >= 3600.
+ 28.237: koski.fi INFO SOA refresh for koski.fi OK (28800) - recommended >= 14400.
+ 28.238: koski.fi INFO SOA retry for koski.fi OK (7200) - recommended >= 3600.
+ 28.238: koski.fi INFO SOA expire for koski.fi OK (604800) - recommended >= 604800.
+ 28.238: koski.fi INFO SOA minimum for koski.fi OK (86400) - recommended between 300 and 86400.
+ 28.238: koski.fi INFO Done testing SOA parameters for koski.fi.
+ 28.238: koski.fi INFO Begin testing connectivity for koski.fi.
+ 29.559: koski.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 29.560: koski.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 29.560: koski.fi INFO Done testing connectivity for koski.fi.
+ 29.560: koski.fi INFO Begin testing DNSSEC for koski.fi.
+ 29.635: koski.fi INFO Did not find DS record for koski.fi at parent.
+ 29.734: koski.fi INFO Servers for koski.fi have consistent extra processing status.
+ 29.795: koski.fi INFO Authenticated denial records not found for koski.fi.
+ 29.834: koski.fi INFO Did not find DNSKEY record for koski.fi at child.
+ 29.834: koski.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 29.834: koski.fi INFO Done testing DNSSEC for koski.fi.
+ 29.834: koski.fi INFO Test completed for zone koski.fi.

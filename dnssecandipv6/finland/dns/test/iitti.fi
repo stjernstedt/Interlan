@@ -1,0 +1,107 @@
+  0.000: iitti.fi INFO Begin testing zone iitti.fi with version 1.6.1.
+  0.420: iitti.fi INFO Begin testing delegation for iitti.fi.
+ 12.872: iitti.fi INFO Name servers listed at parent: ns1.mawaron.com,ns2.mawaron.com,ns4.mawaron.com
+ 15.492: iitti.fi INFO Name servers listed at child: ns1.mawaron.com,ns2.mawaron.com,ns4.mawaron.com
+ 15.492: iitti.fi NOTICE No IPv6 name servers found.
+ 17.273: iitti.fi INFO It is possible to build a referral packet for iitti.fi that works without EDNS0.
+ 17.999: iitti.fi INFO Previously used name servers for iitti.fi: 
+ 17.999: iitti.fi INFO Done testing delegation for iitti.fi.
+ 18.000: iitti.fi INFO Begin testing name server ns1.mawaron.com.
+ 18.000: iitti.fi INFO Begin testing host ns1.mawaron.com.
+ 18.123: iitti.fi INFO Begin testing address 83.143.223.246.
+ 27.954: iitti.fi WARNING Reverse for 83.143.223.246 points to an unknown host name (83-143-223-246.mawaron.com).
+ 27.954: iitti.fi INFO Done testing address 83.143.223.246.
+ 27.954: iitti.fi INFO Done testing host ns1.mawaron.com.
+ 28.356: iitti.fi INFO Name server ns1.mawaron.com (83.143.223.246) answers queries over UDP.
+ 30.366: iitti.fi NOTICE DNS lookup error (connection failed).
+ 30.367: iitti.fi ERROR Name server ns1.mawaron.com (83.143.223.246) does not answer queries over TCP.
+ 30.537: iitti.fi WARNING Name server ns1.mawaron.com (83.143.223.246) is recursive.
+ 32.662: iitti.fi NOTICE DNS lookup error (connection failed).
+ 32.663: iitti.fi INFO Name server ns1.mawaron.com (83.143.223.246) authoritative for iitti.fi.
+ 32.663: iitti.fi INFO Name server ns1.mawaron.com (83.143.223.246) not checked for zone transfer of iitti.fi.
+ 32.663: iitti.fi INFO Name server ns1.mawaron.com (83.143.223.246) not checked for legacy name server ID.
+ 32.663: iitti.fi INFO Done testing name server ns1.mawaron.com.
+ 32.663: iitti.fi INFO Begin testing name server ns2.mawaron.com.
+ 32.663: iitti.fi INFO Begin testing host ns2.mawaron.com.
+ 32.891: iitti.fi INFO Begin testing address 83.143.223.245.
+ 34.219: iitti.fi WARNING Reverse for 83.143.223.245 points to an unknown host name (83-143-223-245.mawaron.com).
+ 34.219: iitti.fi INFO Done testing address 83.143.223.245.
+ 34.219: iitti.fi INFO Done testing host ns2.mawaron.com.
+ 34.668: iitti.fi INFO Name server ns2.mawaron.com (83.143.223.245) answers queries over UDP.
+ 36.748: iitti.fi NOTICE DNS lookup error (connection failed).
+ 36.748: iitti.fi ERROR Name server ns2.mawaron.com (83.143.223.245) does not answer queries over TCP.
+ 36.798: iitti.fi INFO Name server ns2.mawaron.com (83.143.223.245) is not recursive.
+ 38.903: iitti.fi NOTICE DNS lookup error (connection failed).
+ 38.903: iitti.fi INFO Name server ns2.mawaron.com (83.143.223.245) authoritative for iitti.fi.
+ 38.903: iitti.fi INFO Name server ns2.mawaron.com (83.143.223.245) not checked for zone transfer of iitti.fi.
+ 38.903: iitti.fi INFO Name server ns2.mawaron.com (83.143.223.245) not checked for legacy name server ID.
+ 38.903: iitti.fi INFO Done testing name server ns2.mawaron.com.
+ 38.904: iitti.fi INFO Begin testing name server ns4.mawaron.com.
+ 38.904: iitti.fi INFO Begin testing host ns4.mawaron.com.
+ 39.134: iitti.fi INFO Begin testing address 83.143.223.244.
+ 40.423: iitti.fi WARNING Reverse for 83.143.223.244 points to an unknown host name (83-143-223-244.mawaron.com).
+ 40.423: iitti.fi INFO Done testing address 83.143.223.244.
+ 40.423: iitti.fi INFO Done testing host ns4.mawaron.com.
+ 40.586: iitti.fi INFO Name server ns4.mawaron.com (83.143.223.244) answers queries over UDP.
+ 42.614: iitti.fi NOTICE DNS lookup error (connection failed).
+ 42.614: iitti.fi ERROR Name server ns4.mawaron.com (83.143.223.244) does not answer queries over TCP.
+ 42.643: iitti.fi INFO Name server ns4.mawaron.com (83.143.223.244) is not recursive.
+ 44.699: iitti.fi NOTICE DNS lookup error (connection failed).
+ 44.700: iitti.fi INFO Name server ns4.mawaron.com (83.143.223.244) authoritative for iitti.fi.
+ 44.700: iitti.fi INFO Name server ns4.mawaron.com (83.143.223.244) not checked for zone transfer of iitti.fi.
+ 44.700: iitti.fi INFO Name server ns4.mawaron.com (83.143.223.244) not checked for legacy name server ID.
+ 44.700: iitti.fi INFO Done testing name server ns4.mawaron.com.
+ 44.700: iitti.fi INFO Begin testing zone consistency for iitti.fi.
+ 46.066: iitti.fi INFO SOA at address 83.143.223.244 has serial 1200228536.
+ 46.096: iitti.fi INFO SOA at address 83.143.223.246 has serial 1200228536.
+ 46.115: iitti.fi INFO SOA at address 83.143.223.245 has serial 1200228536.
+ 46.115: iitti.fi INFO All SOA records have consistent serial numbers.
+ 46.115: iitti.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 46.740: iitti.fi NOTICE The listed nameservers for iitti.fi all report the same set of nameservers.
+ 46.741: iitti.fi INFO Done testing zone consistency for iitti.fi.
+ 46.741: iitti.fi INFO Begin testing SOA parameters for iitti.fi.
+ 46.770: iitti.fi INFO Found SOA record for iitti.fi.
+ 46.771: iitti.fi INFO Begin testing host ns1.mawaron.com.
+ 46.881: iitti.fi INFO Begin testing address 83.143.223.246.
+ 46.882: iitti.fi WARNING Reverse for 83.143.223.246 points to an unknown host name (83-143-223-246.mawaron.com).
+ 46.882: iitti.fi INFO Done testing address 83.143.223.246.
+ 46.882: iitti.fi INFO Done testing host ns1.mawaron.com.
+ 46.882: iitti.fi INFO SOA MNAME for iitti.fi valid (ns1.mawaron.com).
+ 46.882: iitti.fi INFO SOA MNAME for iitti.fi (ns1.mawaron.com) listed as NS.
+ 47.111: iitti.fi INFO SOA MNAME for iitti.fi (ns1.mawaron.com) is authoritative.
+ 47.111: iitti.fi INFO Begin testing email address dns-info@mawaron.com.
+ 47.211: iitti.fi INFO Mail exchangers for dns-info@mawaron.com found mail2.mawaron.com,mail3.mawaron.com.
+ 47.211: iitti.fi INFO Begin testing host mail2.mawaron.com.
+ 47.542: iitti.fi INFO Begin testing address 83.143.223.248.
+ 48.303: iitti.fi WARNING Reverse for 83.143.223.248 points to an unknown host name (83-143-223-248.mawaron.com).
+ 48.303: iitti.fi INFO Done testing address 83.143.223.248.
+ 48.303: iitti.fi INFO Done testing host mail2.mawaron.com.
+ 48.587: iitti.fi INFO Begin testing host mail3.mawaron.com.
+ 48.975: iitti.fi INFO Begin testing address 83.143.223.247.
+ 49.801: iitti.fi WARNING Reverse for 83.143.223.247 points to an unknown host name (83-143-223-247.mawaron.com).
+ 49.801: iitti.fi INFO Done testing address 83.143.223.247.
+ 49.801: iitti.fi INFO Done testing host mail3.mawaron.com.
+ 49.907: iitti.fi INFO Done testing email address dns-info@mawaron.com.
+ 49.907: iitti.fi INFO Successful attempt to deliver email for SOA RNAME of iitti.fi (dns-info.mawaron.com) using dns-info@mawaron.com.
+ 49.907: iitti.fi INFO SOA TTL for iitti.fi OK (38400) - recommended >= 3600.
+ 49.907: iitti.fi NOTICE SOA refresh for iitti.fi too small (10800) - recommended >= 14400.
+ 49.907: iitti.fi INFO SOA retry for iitti.fi OK (3600) - recommended >= 3600.
+ 49.908: iitti.fi INFO SOA expire for iitti.fi OK (604800) - recommended >= 604800.
+ 49.908: iitti.fi INFO SOA minimum for iitti.fi OK (38400) - recommended between 300 and 86400.
+ 49.908: iitti.fi INFO Done testing SOA parameters for iitti.fi.
+ 49.908: iitti.fi INFO Begin testing connectivity for iitti.fi.
+ 51.298: iitti.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 51.298: iitti.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 51.298: iitti.fi INFO Done testing connectivity for iitti.fi.
+ 51.298: iitti.fi INFO Begin testing DNSSEC for iitti.fi.
+ 51.394: iitti.fi INFO Did not find DS record for iitti.fi at parent.
+ 53.406: iitti.fi NOTICE DNS lookup error (connection failed).
+ 55.419: iitti.fi NOTICE DNS lookup error (connection failed).
+ 57.435: iitti.fi NOTICE DNS lookup error (connection failed).
+ 57.435: iitti.fi INFO Servers for iitti.fi have consistent extra processing status.
+ 63.472: iitti.fi NOTICE DNS lookup error (connection failed).
+ 63.472: iitti.fi INFO Authenticated denial records not found for iitti.fi.
+ 63.491: iitti.fi INFO Did not find DNSKEY record for iitti.fi at child.
+ 63.491: iitti.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 63.491: iitti.fi INFO Done testing DNSSEC for iitti.fi.
+ 63.492: iitti.fi INFO Test completed for zone iitti.fi.

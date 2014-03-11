@@ -1,0 +1,124 @@
+  0.000: struer.dk INFO Begin testing zone struer.dk with version 1.6.1.
+  0.375: struer.dk INFO Begin testing delegation for struer.dk.
+  6.496: struer.dk INFO Name servers listed at parent: ns.struerkommune.dk,ns2.kmd.dk
+ 23.413: struer.dk INFO Name servers listed at child: 192.168.50.1,671dc1.intern.struerkommune.dk,ad1.intern.sturerkommune.dk,ns-auth03.kmd.dk,ns-auth04.kmd.dk,ns.struerkommune.dk,win-lvam6wremaa
+ 23.413: struer.dk ERROR Superfluous name server listed at parent: ns2.kmd.dk
+ 23.413: struer.dk ERROR Too few name servers (1).
+ 23.413: struer.dk NOTICE Additional name server listed at child: 192.168.50.1
+ 23.413: struer.dk NOTICE Additional name server listed at child: 671dc1.intern.struerkommune.dk
+ 23.414: struer.dk NOTICE Additional name server listed at child: ad1.intern.sturerkommune.dk
+ 23.414: struer.dk NOTICE Additional name server listed at child: ns-auth03.kmd.dk
+ 23.414: struer.dk NOTICE Additional name server listed at child: ns-auth04.kmd.dk
+ 23.414: struer.dk NOTICE Additional name server listed at child: win-lvam6wremaa
+ 23.414: struer.dk NOTICE No IPv6 name servers found.
+ 23.481: struer.dk INFO Parent glue for struer.dk found: ns.struerkommune.dk (131.165.209.44)
+ 23.607: struer.dk INFO Checking glue for ns.struerkommune.dk (131.165.209.44).
+ 23.615: struer.dk INFO Parent glue for struer.dk found: ns.struerkommune.dk (131.165.209.44)
+ 26.513: struer.dk INFO It is possible to build a referral packet for struer.dk that works without EDNS0.
+ 27.082: struer.dk INFO Previously used name servers for struer.dk: 
+ 27.083: struer.dk INFO Done testing delegation for struer.dk.
+ 27.091: struer.dk INFO Begin testing name server 192.168.50.1.
+ 27.091: struer.dk INFO Begin testing host 192.168.50.1.
+ 27.091: struer.dk ERROR Host name 192.168.50.1. is illegal (syntax error at Top all-numeric)
+ 27.091: struer.dk INFO Done testing host 192.168.50.1.
+ 27.091: struer.dk ERROR Host name or address error for 192.168.50.1.
+ 27.091: struer.dk INFO Done testing name server 192.168.50.1.
+ 27.091: struer.dk INFO Begin testing name server 671dc1.intern.struerkommune.dk.
+ 27.092: struer.dk INFO Begin testing host 671dc1.intern.struerkommune.dk.
+ 27.092: struer.dk ERROR No address found for 671dc1.intern.struerkommune.dk.
+ 27.092: struer.dk INFO Done testing host 671dc1.intern.struerkommune.dk.
+ 27.092: struer.dk ERROR Host name or address error for 671dc1.intern.struerkommune.dk.
+ 27.092: struer.dk INFO Done testing name server 671dc1.intern.struerkommune.dk.
+ 27.093: struer.dk INFO Begin testing name server ad1.intern.sturerkommune.dk.
+ 27.093: struer.dk INFO Begin testing host ad1.intern.sturerkommune.dk.
+ 27.093: struer.dk ERROR No address found for ad1.intern.sturerkommune.dk.
+ 27.093: struer.dk INFO Done testing host ad1.intern.sturerkommune.dk.
+ 27.093: struer.dk ERROR Host name or address error for ad1.intern.sturerkommune.dk.
+ 27.094: struer.dk INFO Done testing name server ad1.intern.sturerkommune.dk.
+ 27.094: struer.dk INFO Begin testing name server ns-auth03.kmd.dk.
+ 27.094: struer.dk INFO Begin testing host ns-auth03.kmd.dk.
+ 27.322: struer.dk INFO Begin testing address 131.165.64.5.
+ 27.980: struer.dk INFO Done testing address 131.165.64.5.
+ 27.981: struer.dk INFO Done testing host ns-auth03.kmd.dk.
+ 28.219: struer.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) answers queries over UDP.
+ 28.326: struer.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) answers queries over TCP.
+ 28.397: struer.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) is not recursive.
+ 28.654: struer.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) authoritative for struer.dk.
+ 28.811: struer.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) closed for zone transfer of struer.dk.
+ 28.881: struer.dk INFO Legacy name server ID for ns-auth03.kmd.dk (131.165.64.5): hostname.bind = ns-auth03.kmd.dk
+ 28.938: struer.dk INFO Legacy name server ID for ns-auth03.kmd.dk (131.165.64.5): version.bind = 1.0
+ 29.050: struer.dk NOTICE No answer received from 131.165.64.5 when querying for version.server/CH/TXT.
+ 29.050: struer.dk INFO Done testing name server ns-auth03.kmd.dk.
+ 29.050: struer.dk INFO Begin testing name server ns-auth04.kmd.dk.
+ 29.050: struer.dk INFO Begin testing host ns-auth04.kmd.dk.
+ 29.224: struer.dk INFO Begin testing address 131.165.4.5.
+ 29.708: struer.dk INFO Done testing address 131.165.4.5.
+ 29.708: struer.dk INFO Done testing host ns-auth04.kmd.dk.
+ 29.915: struer.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) answers queries over UDP.
+ 30.038: struer.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) answers queries over TCP.
+ 30.091: struer.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) is not recursive.
+ 30.322: struer.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) authoritative for struer.dk.
+ 30.473: struer.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) closed for zone transfer of struer.dk.
+ 30.526: struer.dk INFO Legacy name server ID for ns-auth04.kmd.dk (131.165.4.5): hostname.bind = ns-auth04.kmd.dk
+ 30.588: struer.dk INFO Legacy name server ID for ns-auth04.kmd.dk (131.165.4.5): version.bind = 1.0
+ 30.692: struer.dk NOTICE No answer received from 131.165.4.5 when querying for version.server/CH/TXT.
+ 30.692: struer.dk INFO Done testing name server ns-auth04.kmd.dk.
+ 30.692: struer.dk INFO Begin testing name server ns.struerkommune.dk.
+ 30.692: struer.dk INFO Begin testing host ns.struerkommune.dk.
+ 30.848: struer.dk INFO Begin testing address 131.165.209.44.
+ 31.176: struer.dk WARNING Could not find reverse address for 131.165.209.44 (44.209.165.131.in-addr.arpa.).
+ 31.176: struer.dk INFO Done testing address 131.165.209.44.
+ 31.176: struer.dk INFO Done testing host ns.struerkommune.dk.
+ 31.715: struer.dk INFO Name server ns.struerkommune.dk (131.165.209.44) answers queries over UDP.
+ 31.844: struer.dk INFO Name server ns.struerkommune.dk (131.165.209.44) answers queries over TCP.
+ 31.937: struer.dk WARNING Name server ns.struerkommune.dk (131.165.209.44) is recursive.
+ 32.178: struer.dk INFO Name server ns.struerkommune.dk (131.165.209.44) authoritative for struer.dk.
+ 32.548: struer.dk INFO Name server ns.struerkommune.dk (131.165.209.44) closed for zone transfer of struer.dk.
+ 32.606: struer.dk NOTICE No answer received from 131.165.209.44 when querying for hostname.bind/CH/TXT.
+ 44.781: struer.dk INFO Done testing name server ns.struerkommune.dk.
+ 44.781: struer.dk INFO Begin testing name server win-lvam6wremaa.
+ 44.781: struer.dk INFO Begin testing host win-lvam6wremaa.
+ 44.782: struer.dk ERROR No address found for win-lvam6wremaa.
+ 44.782: struer.dk INFO Done testing host win-lvam6wremaa.
+ 44.782: struer.dk ERROR Host name or address error for win-lvam6wremaa.
+ 44.782: struer.dk INFO Done testing name server win-lvam6wremaa.
+ 44.782: struer.dk INFO Begin testing name server ns2.kmd.dk.
+ 44.782: struer.dk INFO Begin testing host ns2.kmd.dk.
+ 44.783: struer.dk ERROR No address found for ns2.kmd.dk.
+ 44.783: struer.dk INFO Done testing host ns2.kmd.dk.
+ 44.783: struer.dk ERROR Host name or address error for ns2.kmd.dk.
+ 44.783: struer.dk INFO Done testing name server ns2.kmd.dk.
+ 44.787: struer.dk INFO Begin testing zone consistency for struer.dk.
+ 45.415: struer.dk INFO SOA at address 131.165.209.44 has serial 153.
+ 45.470: struer.dk INFO SOA at address 131.165.4.5 has serial 153.
+ 45.529: struer.dk INFO SOA at address 131.165.64.5 has serial 153.
+ 45.529: struer.dk INFO All SOA records have consistent serial numbers.
+ 45.529: struer.dk INFO All other fields in the SOA record are consistent among all name servers.
+ 45.746: struer.dk NOTICE The listed nameservers for struer.dk all report the same set of nameservers.
+ 45.746: struer.dk INFO Done testing zone consistency for struer.dk.
+ 45.746: struer.dk INFO Begin testing SOA parameters for struer.dk.
+ 45.810: struer.dk INFO Found SOA record for struer.dk.
+ 45.810: struer.dk INFO Begin testing host win-lvam6wremaa.
+ 45.810: struer.dk ERROR No address found for win-lvam6wremaa.
+ 45.811: struer.dk INFO Done testing host win-lvam6wremaa.
+ 45.811: struer.dk WARNING Error while checking SOA MNAME for struer.dk (win-lvam6wremaa).
+ 45.811: struer.dk INFO SOA MNAME for struer.dk (win-lvam6wremaa) listed as NS.
+ 45.811: struer.dk ERROR Invalid SOA RNAME syntax for struer.dk: hostmaster
+ 45.812: struer.dk INFO SOA TTL for struer.dk OK (3600) - recommended >= 3600.
+ 45.812: struer.dk NOTICE SOA refresh for struer.dk too small (900) - recommended >= 14400.
+ 45.812: struer.dk NOTICE SOA retry for struer.dk too small (600) - recommended >= 3600.
+ 45.812: struer.dk NOTICE SOA expire for struer.dk too small (86400) - recommended >= 604800.
+ 45.812: struer.dk INFO SOA minimum for struer.dk OK (3600) - recommended between 300 and 86400.
+ 45.812: struer.dk INFO Done testing SOA parameters for struer.dk.
+ 45.812: struer.dk INFO Begin testing connectivity for struer.dk.
+ 47.077: struer.dk NOTICE Zone announced by fewer than two IPv4 ASN.
+ 47.077: struer.dk NOTICE Zone announced by fewer than two IPv6 ASN.
+ 47.078: struer.dk INFO Done testing connectivity for struer.dk.
+ 47.078: struer.dk INFO Begin testing DNSSEC for struer.dk.
+ 47.112: struer.dk INFO Did not find DS record for struer.dk at parent.
+ 47.441: struer.dk INFO Servers for struer.dk have consistent extra processing status.
+ 47.556: struer.dk INFO Authenticated denial records not found for struer.dk.
+ 47.616: struer.dk INFO Did not find DNSKEY record for struer.dk at child.
+ 47.621: struer.dk INFO No DNSKEY(s) found at child, other tests skipped.
+ 47.621: struer.dk INFO Done testing DNSSEC for struer.dk.
+ 47.622: struer.dk INFO Test completed for zone struer.dk.

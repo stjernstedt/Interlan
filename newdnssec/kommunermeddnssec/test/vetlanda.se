@@ -1,0 +1,136 @@
+  0.000: vetlanda.se INFO Begin testing zone vetlanda.se with version 1.6.1.
+  1.058: vetlanda.se INFO Begin testing delegation for vetlanda.se.
+ 15.613: vetlanda.se INFO Name servers listed at parent: dns01.hoglandet.se,dns02.hoglandet.se
+ 18.699: vetlanda.se INFO Name servers listed at child: dns01.hoglandet.se,dns02.hoglandet.se
+ 18.699: vetlanda.se NOTICE No IPv6 name servers found.
+ 19.234: vetlanda.se INFO Parent glue for vetlanda.se found: dns01.hoglandet.se (178.22.200.34)
+ 19.488: vetlanda.se INFO Parent glue for vetlanda.se found: dns02.hoglandet.se (178.22.200.66)
+ 19.576: vetlanda.se INFO Checking glue for dns01.hoglandet.se (178.22.200.34).
+ 19.577: vetlanda.se INFO Checking glue for dns02.hoglandet.se (178.22.200.66).
+ 19.577: vetlanda.se INFO Parent glue for vetlanda.se found: dns01.hoglandet.se (178.22.200.34)
+ 19.577: vetlanda.se INFO Parent glue for vetlanda.se found: dns02.hoglandet.se (178.22.200.66)
+ 23.101: vetlanda.se INFO It is possible to build a referral packet for vetlanda.se that works without EDNS0.
+ 24.241: vetlanda.se INFO Previously used name servers for vetlanda.se: 
+ 24.241: vetlanda.se INFO Done testing delegation for vetlanda.se.
+ 24.241: vetlanda.se INFO Begin testing name server dns01.hoglandet.se.
+ 24.241: vetlanda.se INFO Begin testing host dns01.hoglandet.se.
+ 24.992: vetlanda.se INFO Begin testing address 178.22.200.34.
+ 47.532: vetlanda.se INFO Done testing address 178.22.200.34.
+ 47.532: vetlanda.se INFO Done testing host dns01.hoglandet.se.
+ 47.975: vetlanda.se INFO Name server dns01.hoglandet.se (178.22.200.34) answers queries over UDP.
+ 48.069: vetlanda.se INFO Name server dns01.hoglandet.se (178.22.200.34) answers queries over TCP.
+ 48.317: vetlanda.se INFO Name server dns01.hoglandet.se (178.22.200.34) is not recursive.
+ 48.670: vetlanda.se INFO Name server dns01.hoglandet.se (178.22.200.34) authoritative for vetlanda.se.
+ 48.792: vetlanda.se INFO Name server dns01.hoglandet.se (178.22.200.34) closed for zone transfer of vetlanda.se.
+ 48.813: vetlanda.se NOTICE No answer received from 178.22.200.34 when querying for hostname.bind/CH/TXT.
+ 60.884: vetlanda.se INFO Done testing name server dns01.hoglandet.se.
+ 60.884: vetlanda.se INFO Begin testing name server dns02.hoglandet.se.
+ 60.884: vetlanda.se INFO Begin testing host dns02.hoglandet.se.
+ 61.244: vetlanda.se INFO Begin testing address 178.22.200.66.
+ 62.513: vetlanda.se INFO Done testing address 178.22.200.66.
+ 62.513: vetlanda.se INFO Done testing host dns02.hoglandet.se.
+ 62.906: vetlanda.se INFO Name server dns02.hoglandet.se (178.22.200.66) answers queries over UDP.
+ 62.980: vetlanda.se INFO Name server dns02.hoglandet.se (178.22.200.66) answers queries over TCP.
+ 63.029: vetlanda.se INFO Name server dns02.hoglandet.se (178.22.200.66) is not recursive.
+ 63.243: vetlanda.se INFO Name server dns02.hoglandet.se (178.22.200.66) authoritative for vetlanda.se.
+ 63.531: vetlanda.se INFO Name server dns02.hoglandet.se (178.22.200.66) closed for zone transfer of vetlanda.se.
+ 64.300: vetlanda.se NOTICE No answer received from 178.22.200.66 when querying for hostname.bind/CH/TXT.
+ 76.364: vetlanda.se INFO Done testing name server dns02.hoglandet.se.
+ 76.364: vetlanda.se INFO Begin testing zone consistency for vetlanda.se.
+ 76.848: vetlanda.se INFO SOA at address 178.22.200.34 has serial 2014030506.
+ 76.869: vetlanda.se INFO SOA at address 178.22.200.66 has serial 2014030506.
+ 76.869: vetlanda.se INFO All SOA records have consistent serial numbers.
+ 76.869: vetlanda.se INFO All other fields in the SOA record are consistent among all name servers.
+ 77.113: vetlanda.se NOTICE The listed nameservers for vetlanda.se all report the same set of nameservers.
+ 77.113: vetlanda.se INFO Done testing zone consistency for vetlanda.se.
+ 77.113: vetlanda.se INFO Begin testing SOA parameters for vetlanda.se.
+ 77.144: vetlanda.se INFO Found SOA record for vetlanda.se.
+ 77.144: vetlanda.se INFO Begin testing host dns01.hoglandet.se.
+ 77.252: vetlanda.se INFO Begin testing address 178.22.200.34.
+ 77.336: vetlanda.se INFO Done testing address 178.22.200.34.
+ 77.337: vetlanda.se INFO Done testing host dns01.hoglandet.se.
+ 77.337: vetlanda.se INFO SOA MNAME for vetlanda.se valid (dns01.hoglandet.se).
+ 77.337: vetlanda.se INFO SOA MNAME for vetlanda.se (dns01.hoglandet.se) listed as NS.
+ 77.499: vetlanda.se INFO SOA MNAME for vetlanda.se (dns01.hoglandet.se) is authoritative.
+ 77.499: vetlanda.se INFO Begin testing email address dnsadmin@hoglandet.se.
+ 77.648: vetlanda.se INFO Mail exchangers for dnsadmin@hoglandet.se found hoglandet-se.mail.protection.outlook.com,hoglandet-se.mail.protection.outlook.com.
+ 77.648: vetlanda.se INFO Begin testing host hoglandet-se.mail.protection.outlook.com.
+ 80.700: vetlanda.se INFO Begin testing address 213.199.154.87.
+ 83.232: vetlanda.se INFO Done testing address 213.199.154.87.
+ 83.232: vetlanda.se INFO Begin testing address 213.199.154.23.
+ 85.708: vetlanda.se INFO Done testing address 213.199.154.23.
+ 85.708: vetlanda.se INFO Done testing host hoglandet-se.mail.protection.outlook.com.
+ 86.784: vetlanda.se INFO Begin testing host hoglandet-se.mail.protection.outlook.com.
+ 87.804: vetlanda.se INFO Begin testing address 213.199.154.87.
+ 88.892: vetlanda.se INFO Done testing address 213.199.154.87.
+ 88.892: vetlanda.se INFO Begin testing address 213.199.154.23.
+ 89.768: vetlanda.se INFO Done testing address 213.199.154.23.
+ 89.768: vetlanda.se INFO Done testing host hoglandet-se.mail.protection.outlook.com.
+ 90.773: vetlanda.se INFO Done testing email address dnsadmin@hoglandet.se.
+ 90.773: vetlanda.se INFO Successful attempt to deliver email for SOA RNAME of vetlanda.se (dnsadmin.hoglandet.se) using dnsadmin@hoglandet.se.
+ 90.774: vetlanda.se INFO SOA TTL for vetlanda.se OK (3600) - recommended >= 3600.
+ 90.774: vetlanda.se INFO SOA refresh for vetlanda.se OK (21600) - recommended >= 14400.
+ 90.774: vetlanda.se INFO SOA retry for vetlanda.se OK (3600) - recommended >= 3600.
+ 90.774: vetlanda.se INFO SOA expire for vetlanda.se OK (1209600) - recommended >= 604800.
+ 90.774: vetlanda.se INFO SOA minimum for vetlanda.se OK (3600) - recommended between 300 and 86400.
+ 90.774: vetlanda.se INFO Done testing SOA parameters for vetlanda.se.
+ 90.774: vetlanda.se INFO Begin testing connectivity for vetlanda.se.
+ 91.665: vetlanda.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 91.665: vetlanda.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 91.665: vetlanda.se INFO Done testing connectivity for vetlanda.se.
+ 91.666: vetlanda.se INFO Begin testing DNSSEC for vetlanda.se.
+ 91.743: vetlanda.se INFO Found DS record for vetlanda.se at parent.
+ 91.796: vetlanda.se INFO Nameserver 178.22.200.66 does DNSSEC extra processing.
+ 91.837: vetlanda.se INFO Nameserver 178.22.200.34 does DNSSEC extra processing.
+ 91.837: vetlanda.se INFO Servers for vetlanda.se have consistent extra processing status.
+ 91.877: vetlanda.se INFO Authenticated denial records found for vetlanda.se, of type NSEC3.
+ 91.896: vetlanda.se INFO NSEC3PARAM record found for vetlanda.se.
+ 91.896: vetlanda.se INFO NSEC3 for vetlanda.se is set to use 50 iterations, which is less than 100 and thus OK.
+ 91.896: vetlanda.se INFO Found DNSKEY record for vetlanda.se at child.
+ 91.896: vetlanda.se INFO Consistent security for vetlanda.se.
+ 91.896: vetlanda.se INFO Checking DNSSEC at child (vetlanda.se).
+ 91.896: vetlanda.se INFO vetlanda.se's key with tag 43986 uses algorithm number 8 (RSA/SHA-256).
+ 91.897: vetlanda.se INFO Algorithm number 8 is OK.
+ 91.897: vetlanda.se INFO vetlanda.se's key with tag 15982 uses algorithm number 8 (RSA/SHA-256).
+ 91.897: vetlanda.se INFO Algorithm number 8 is OK.
+ 91.897: vetlanda.se INFO DNSKEY vetlanda.se (tag 15982) is marked as a secure entry point (SEP).
+ 91.897: vetlanda.se INFO vetlanda.se's key with tag 12491 uses algorithm number 8 (RSA/SHA-256).
+ 91.897: vetlanda.se INFO Algorithm number 8 is OK.
+ 91.897: vetlanda.se INFO DNSKEY vetlanda.se (tag 12491) is marked as a secure entry point (SEP).
+ 91.897: vetlanda.se INFO vetlanda.se's key with tag 57105 uses algorithm number 8 (RSA/SHA-256).
+ 91.897: vetlanda.se INFO Algorithm number 8 is OK.
+ 91.898: vetlanda.se INFO DNSSEC signature expires at: Sat Mar 15 12:50:39 2014
+ 91.898: vetlanda.se INFO Duration for RRSIG(vetlanda.se/IN/DNSKEY/15982) is OK (608400 seconds).
+ 91.903: vetlanda.se INFO DNSSEC signature RRSIG(vetlanda.se/IN/DNSKEY/15982) matches records.
+ 91.903: vetlanda.se INFO DNSSEC signature valid: RRSIG(vetlanda.se/IN/DNSKEY/15982)
+ 91.903: vetlanda.se INFO DNSSEC signature expires at: Sat Mar 15 12:50:39 2014
+ 91.903: vetlanda.se INFO Duration for RRSIG(vetlanda.se/IN/DNSKEY/43986) is OK (608400 seconds).
+ 91.904: vetlanda.se INFO DNSSEC signature RRSIG(vetlanda.se/IN/DNSKEY/43986) matches records.
+ 91.904: vetlanda.se INFO DNSSEC signature valid: RRSIG(vetlanda.se/IN/DNSKEY/43986)
+ 91.904: vetlanda.se INFO Enough valid signatures found for vetlanda.se.
+ 91.945: vetlanda.se INFO DNSSEC signature expires at: Tue Mar 18 12:50:39 2014
+ 91.945: vetlanda.se INFO Duration for RRSIG(vetlanda.se/IN/SOA/43986) is OK (867600 seconds).
+ 91.946: vetlanda.se INFO DNSSEC signature RRSIG(vetlanda.se/IN/SOA/43986) matches records.
+ 91.946: vetlanda.se INFO DNSSEC signature valid: RRSIG(vetlanda.se/IN/SOA/43986)
+ 91.946: vetlanda.se INFO Enough valid signatures over SOA RRset found for vetlanda.se.
+ 91.947: vetlanda.se INFO DNSSEC child checks for vetlanda.se complete.
+ 91.947: vetlanda.se INFO Checking DNSSEC at parent of vetlanda.se.
+ 91.947: vetlanda.se INFO vetlanda.se's key with tag 12491 uses algorithm number 8 (RSA/SHA-256).
+ 91.963: vetlanda.se INFO Algorithm number 8 is OK.
+ 91.963: vetlanda.se INFO Parent DS(vetlanda.se/8/1/12491) refers to invalid key at child: DNSKEY(vetlanda.se/8/12491)
+ 91.964: vetlanda.se INFO Parent DS(vetlanda.se) refers to secure entry point (SEP) at child: DS(vetlanda.se/8/1/12491)
+ 91.964: vetlanda.se INFO vetlanda.se's key with tag 12491 uses algorithm number 8 (RSA/SHA-256).
+ 91.964: vetlanda.se INFO Algorithm number 8 is OK.
+ 91.964: vetlanda.se INFO Parent DS(vetlanda.se/8/2/12491) refers to invalid key at child: DNSKEY(vetlanda.se/8/12491)
+ 91.964: vetlanda.se INFO Parent DS(vetlanda.se) refers to secure entry point (SEP) at child: DS(vetlanda.se/8/2/12491)
+ 91.964: vetlanda.se INFO vetlanda.se's key with tag 15982 uses algorithm number 8 (RSA/SHA-256).
+ 91.964: vetlanda.se INFO Algorithm number 8 is OK.
+ 91.965: vetlanda.se INFO Parent DS(vetlanda.se/8/1/15982) refers to valid key at child: DNSKEY(vetlanda.se/8/15982)
+ 91.965: vetlanda.se INFO Parent DS(vetlanda.se) refers to secure entry point (SEP) at child: DS(vetlanda.se/8/1/15982)
+ 91.965: vetlanda.se INFO vetlanda.se's key with tag 15982 uses algorithm number 8 (RSA/SHA-256).
+ 91.965: vetlanda.se INFO Algorithm number 8 is OK.
+ 91.965: vetlanda.se INFO Parent DS(vetlanda.se/8/2/15982) refers to valid key at child: DNSKEY(vetlanda.se/8/15982)
+ 91.965: vetlanda.se INFO Parent DS(vetlanda.se) refers to secure entry point (SEP) at child: DS(vetlanda.se/8/2/15982)
+ 91.965: vetlanda.se INFO DNSSEC parent checks for vetlanda.se complete.
+ 91.966: vetlanda.se INFO Done testing DNSSEC for vetlanda.se.
+ 91.966: vetlanda.se INFO Test completed for zone vetlanda.se.

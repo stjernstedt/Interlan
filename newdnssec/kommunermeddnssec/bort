@@ -1,0 +1,8 @@
+for d in `seq 10 31` ; do
+for i in `ls history/201210$d` ; do
+	echo 201210$d/$i
+	cat history/201210$d/$i | grep -v "WARNING No IPv6 name servers found." >/tmp/$$
+	mv /tmp/$$ history/201210$d/$i
+done
+done
+	

@@ -1,0 +1,111 @@
+  0.000: wwwgbg.se INFO Begin testing zone wwwgbg.se with version 1.3.0.
+  0.003: wwwgbg.se INFO Begin testing delegation for wwwgbg.se.
+  4.889: wwwgbg.se INFO Name servers listed at parent: kirk.wwwgbg.se,ns2.wwwgbg.se,ns3.wwwgbg.se
+ 24.598: wwwgbg.se INFO Name servers listed at child: kirk.wwwgbg.se,ns2.wwwgbg.se,ns3.wwwgbg.se
+ 24.598: wwwgbg.se NOTICE No IPv6 name servers found.
+ 24.637: wwwgbg.se INFO Parent glue for wwwgbg.se found: kirk.wwwgbg.se (81.93.130.6)
+ 24.720: wwwgbg.se INFO Parent glue for wwwgbg.se found: ns2.wwwgbg.se (81.93.131.6)
+ 24.786: wwwgbg.se INFO Parent glue for wwwgbg.se found: ns3.wwwgbg.se (194.218.238.246)
+ 24.829: wwwgbg.se INFO Checking glue for kirk.wwwgbg.se (81.93.130.6).
+ 24.850: wwwgbg.se INFO Child glue for wwwgbg.se found: kirk.wwwgbg.se (81.93.130.6)
+ 24.850: wwwgbg.se INFO Checking glue for ns2.wwwgbg.se (81.93.131.6).
+ 24.872: wwwgbg.se INFO Child glue for wwwgbg.se found: ns2.wwwgbg.se (81.93.131.6)
+ 24.872: wwwgbg.se INFO Checking glue for ns3.wwwgbg.se (194.218.238.246).
+ 24.893: wwwgbg.se INFO Child glue for wwwgbg.se found: ns3.wwwgbg.se (194.218.238.246)
+ 24.893: wwwgbg.se INFO Parent glue for wwwgbg.se found: kirk.wwwgbg.se (81.93.130.6)
+ 24.893: wwwgbg.se INFO Parent glue for wwwgbg.se found: ns2.wwwgbg.se (81.93.131.6)
+ 24.894: wwwgbg.se INFO Parent glue for wwwgbg.se found: ns3.wwwgbg.se (194.218.238.246)
+ 24.959: wwwgbg.se INFO Done testing delegation for wwwgbg.se.
+ 24.959: wwwgbg.se INFO Begin testing name server kirk.wwwgbg.se.
+ 24.960: wwwgbg.se INFO Begin testing host kirk.wwwgbg.se.
+ 25.181: wwwgbg.se INFO Begin testing address 81.93.130.6.
+ 29.533: wwwgbg.se INFO Done testing address 81.93.130.6.
+ 29.533: wwwgbg.se INFO Done testing host kirk.wwwgbg.se.
+ 29.782: wwwgbg.se INFO Name server kirk.wwwgbg.se (81.93.130.6) answers queries over UDP.
+ 29.838: wwwgbg.se INFO Name server kirk.wwwgbg.se (81.93.130.6) answers queries over TCP.
+ 29.861: wwwgbg.se INFO Name server kirk.wwwgbg.se (81.93.130.6) is not recursive.
+ 29.882: wwwgbg.se INFO Name server kirk.wwwgbg.se (81.93.130.6) authoritative for wwwgbg.se.
+ 29.959: wwwgbg.se INFO Name server kirk.wwwgbg.se (81.93.130.6) closed for zone transfer of wwwgbg.se.
+ 30.003: wwwgbg.se INFO Legacy name server ID for kirk.wwwgbg.se (81.93.130.6): version.bind = Served by POWERDNS 2.9.21 $Id: packethandler.cc 1036 2007-04-19 20:43:14Z ahu $
+ 30.044: wwwgbg.se INFO Done testing name server kirk.wwwgbg.se.
+ 30.044: wwwgbg.se INFO Begin testing name server ns2.wwwgbg.se.
+ 30.044: wwwgbg.se INFO Begin testing host ns2.wwwgbg.se.
+ 30.272: wwwgbg.se INFO Begin testing address 81.93.131.6.
+ 31.206: wwwgbg.se INFO Done testing address 81.93.131.6.
+ 31.206: wwwgbg.se INFO Done testing host ns2.wwwgbg.se.
+ 37.463: wwwgbg.se INFO Name server ns2.wwwgbg.se (81.93.131.6) answers queries over UDP.
+ 37.515: wwwgbg.se INFO Name server ns2.wwwgbg.se (81.93.131.6) answers queries over TCP.
+ 37.537: wwwgbg.se INFO Name server ns2.wwwgbg.se (81.93.131.6) is not recursive.
+ 37.556: wwwgbg.se INFO Name server ns2.wwwgbg.se (81.93.131.6) authoritative for wwwgbg.se.
+ 37.621: wwwgbg.se INFO Name server ns2.wwwgbg.se (81.93.131.6) closed for zone transfer of wwwgbg.se.
+ 37.658: wwwgbg.se INFO Legacy name server ID for ns2.wwwgbg.se (81.93.131.6): version.bind = Served by POWERDNS 2.9.21 $Id: packethandler.cc 1036 2007-04-19 20:43:14Z ahu $
+ 37.695: wwwgbg.se INFO Done testing name server ns2.wwwgbg.se.
+ 37.695: wwwgbg.se INFO Begin testing name server ns3.wwwgbg.se.
+ 37.695: wwwgbg.se INFO Begin testing host ns3.wwwgbg.se.
+ 37.933: wwwgbg.se INFO Begin testing address 194.218.238.246.
+ 52.178: wwwgbg.se WARNING Reverse for 194.218.238.246 points to an unknown host name (ip246.visionutv.se).
+ 52.178: wwwgbg.se INFO Done testing address 194.218.238.246.
+ 52.178: wwwgbg.se INFO Done testing host ns3.wwwgbg.se.
+ 58.438: wwwgbg.se ERROR Name server ns3.wwwgbg.se (194.218.238.246) does not answer queries over UDP.
+ 58.440: wwwgbg.se ERROR Name server ns3.wwwgbg.se (194.218.238.246) does not answer queries over TCP.
+ 58.440: wwwgbg.se INFO Done testing name server ns3.wwwgbg.se.
+ 58.440: wwwgbg.se INFO Begin testing zone consistency for wwwgbg.se.
+ 77.995: wwwgbg.se INFO SOA at address 81.93.130.6 has serial 2010117565.
+ 78.016: wwwgbg.se INFO SOA at address 81.93.131.6 has serial 2010117565.
+ 78.016: wwwgbg.se INFO All SOA records have consistent serial numbers.
+ 78.016: wwwgbg.se INFO All other fields in the SOA record are consistent among all name servers.
+ 78.016: wwwgbg.se INFO Done testing zone consistency for wwwgbg.se.
+ 78.016: wwwgbg.se INFO Begin testing SOA parameters for wwwgbg.se.
+ 78.037: wwwgbg.se INFO Found SOA record for wwwgbg.se.
+ 78.038: wwwgbg.se INFO Begin testing host kirk.wwwgbg.se.
+ 78.259: wwwgbg.se INFO Begin testing address 81.93.130.6.
+ 78.494: wwwgbg.se INFO Done testing address 81.93.130.6.
+ 78.494: wwwgbg.se INFO Done testing host kirk.wwwgbg.se.
+ 78.494: wwwgbg.se INFO SOA MNAME for wwwgbg.se valid (kirk.wwwgbg.se).
+ 78.495: wwwgbg.se INFO SOA MNAME for wwwgbg.se (kirk.wwwgbg.se) listed as NS.
+ 84.760: wwwgbg.se INFO SOA MNAME for wwwgbg.se (kirk.wwwgbg.se) is authoritative.
+ 84.761: wwwgbg.se INFO Begin testing email address hostmaster@wwwgbg.se.
+ 85.022: wwwgbg.se INFO Mail exchangers for hostmaster@wwwgbg.se found spamfix101.infracom.se,spamfix103.infracom.se,spamfix102.infracom.se.
+ 85.022: wwwgbg.se INFO Begin testing host spamfix101.infracom.se.
+ 85.516: wwwgbg.se INFO Begin testing address 83.218.64.158.
+ 86.357: wwwgbg.se INFO Done testing address 83.218.64.158.
+ 86.358: wwwgbg.se INFO Done testing host spamfix101.infracom.se.
+ 86.611: wwwgbg.se INFO Begin testing mail server spamfix101.infracom.se (83.218.64.158) with hostmaster@wwwgbg.se.
+ 86.749: wwwgbg.se INFO SMTP banner: spamfix101.infracom.se ESMTP
+ 86.816: wwwgbg.se INFO SMTP testing of spamfix101.infracom.se (83.218.64.158) with hostmaster@wwwgbg.se succeeded without errors.
+ 86.816: wwwgbg.se INFO Done testing mail server spamfix101.infracom.se (83.218.64.158) with hostmaster@wwwgbg.se.
+ 86.816: wwwgbg.se INFO Begin testing host spamfix103.infracom.se.
+ 87.338: wwwgbg.se INFO Begin testing address 83.218.79.5.
+ 88.222: wwwgbg.se INFO Done testing address 83.218.79.5.
+ 88.226: wwwgbg.se INFO Done testing host spamfix103.infracom.se.
+ 88.511: wwwgbg.se INFO Begin testing host spamfix102.infracom.se.
+ 88.984: wwwgbg.se INFO Begin testing address 83.218.64.159.
+ 89.990: wwwgbg.se INFO Done testing address 83.218.64.159.
+ 89.990: wwwgbg.se INFO Done testing host spamfix102.infracom.se.
+ 90.214: wwwgbg.se INFO Delivery over IPv4 to hostmaster@wwwgbg.se ok.
+ 90.214: wwwgbg.se NOTICE Delivery over IPv6 to hostmaster@wwwgbg.se could not be done.
+ 90.214: wwwgbg.se INFO Done testing email address hostmaster@wwwgbg.se.
+ 90.214: wwwgbg.se INFO Successful attempt to deliver email for SOA RNAME of wwwgbg.se (hostmaster.wwwgbg.se) using hostmaster@wwwgbg.se.
+ 90.214: wwwgbg.se INFO SOA TTL for wwwgbg.se OK (14400) - recommended >= 3600.
+ 90.215: wwwgbg.se NOTICE SOA refresh for wwwgbg.se too small (10800) - recommended >= 14400.
+ 90.215: wwwgbg.se INFO SOA retry for wwwgbg.se OK (3600) - recommended >= 3600.
+ 90.215: wwwgbg.se INFO SOA expire for wwwgbg.se OK (1209600) - recommended >= 604800.
+ 90.215: wwwgbg.se INFO SOA minimum for wwwgbg.se OK (14400) - recommended between 300 and 86400.
+ 90.215: wwwgbg.se INFO Done testing SOA parameters for wwwgbg.se.
+ 90.215: wwwgbg.se INFO Begin testing connectivity for wwwgbg.se.
+ 90.821: wwwgbg.se INFO Name server 81.93.130.6 announced by: 29468
+ 91.423: wwwgbg.se INFO Name server 194.218.238.246 announced by: 3301
+ 92.221: wwwgbg.se INFO Name server 81.93.131.6 announced by: 29468
+ 92.221: wwwgbg.se INFO Zone announced by IPv4 ASN: 3301,29468
+ 92.221: wwwgbg.se INFO Zone announced by more than one ASN (2).
+ 92.221: wwwgbg.se INFO Zone announced by IPv6 ASN: 
+ 92.221: wwwgbg.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 92.221: wwwgbg.se INFO Done testing connectivity for wwwgbg.se.
+ 92.222: wwwgbg.se INFO Begin testing DNSSEC for wwwgbg.se.
+ 92.304: wwwgbg.se INFO Did not find DS record for wwwgbg.se at parent.
+ 97.370: wwwgbg.se NOTICE DNS lookup error (connection failed).
+ 97.423: wwwgbg.se INFO Servers for wwwgbg.se have consistent extra processing status.
+ 97.424: wwwgbg.se INFO Did not find DNSKEY record for wwwgbg.se at child.
+ 97.424: wwwgbg.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 97.424: wwwgbg.se INFO Done testing DNSSEC for wwwgbg.se.
+ 97.424: wwwgbg.se INFO Test completed for zone wwwgbg.se.

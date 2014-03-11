@@ -1,0 +1,118 @@
+  0.000: jakobstad.fi INFO Begin testing zone jakobstad.fi with version 1.5.0.
+  0.331: jakobstad.fi INFO Begin testing delegation for jakobstad.fi.
+ 11.125: jakobstad.fi INFO Name servers listed at parent: ns1.multi.fi,ns2.multi.fi,ns3.multi.fi,ns4.multi.fi
+ 16.235: jakobstad.fi INFO Name servers listed at child: ns1.multi.fi,ns2.multi.fi,ns3.multi.fi,ns4.multi.fi
+ 16.235: jakobstad.fi NOTICE No IPv6 name servers found.
+ 16.280: jakobstad.fi INFO Parent glue for jakobstad.fi found: ns1.multi.fi (62.80.128.20)
+ 16.429: jakobstad.fi INFO Parent glue for jakobstad.fi found: ns2.multi.fi (62.80.128.29)
+ 16.631: jakobstad.fi INFO Parent glue for jakobstad.fi found: ns3.multi.fi (62.80.128.30)
+ 16.709: jakobstad.fi INFO Parent glue for jakobstad.fi found: ns4.multi.fi (62.80.136.42)
+ 16.784: jakobstad.fi INFO Checking glue for ns1.multi.fi (62.80.128.20).
+ 16.784: jakobstad.fi INFO Checking glue for ns2.multi.fi (62.80.128.29).
+ 16.784: jakobstad.fi INFO Checking glue for ns3.multi.fi (62.80.128.30).
+ 16.784: jakobstad.fi INFO Checking glue for ns4.multi.fi (62.80.136.42).
+ 16.785: jakobstad.fi INFO Parent glue for jakobstad.fi found: ns1.multi.fi (62.80.128.20)
+ 16.785: jakobstad.fi INFO Parent glue for jakobstad.fi found: ns2.multi.fi (62.80.128.29)
+ 16.785: jakobstad.fi INFO Parent glue for jakobstad.fi found: ns3.multi.fi (62.80.128.30)
+ 16.786: jakobstad.fi INFO Parent glue for jakobstad.fi found: ns4.multi.fi (62.80.136.42)
+ 21.264: jakobstad.fi INFO It is possible to build a referral packet for jakobstad.fi that works without EDNS0.
+ 24.869: jakobstad.fi INFO Previously used name servers for jakobstad.fi: 
+ 24.869: jakobstad.fi INFO Done testing delegation for jakobstad.fi.
+ 24.870: jakobstad.fi INFO Begin testing name server ns1.multi.fi.
+ 24.870: jakobstad.fi INFO Begin testing host ns1.multi.fi.
+ 25.732: jakobstad.fi INFO Begin testing address 62.80.128.20.
+ 35.179: jakobstad.fi INFO Done testing address 62.80.128.20.
+ 35.180: jakobstad.fi INFO Done testing host ns1.multi.fi.
+ 35.659: jakobstad.fi INFO Name server ns1.multi.fi (62.80.128.20) answers queries over UDP.
+ 35.725: jakobstad.fi INFO Name server ns1.multi.fi (62.80.128.20) answers queries over TCP.
+ 35.777: jakobstad.fi INFO Name server ns1.multi.fi (62.80.128.20) is not recursive.
+ 36.060: jakobstad.fi INFO Name server ns1.multi.fi (62.80.128.20) authoritative for jakobstad.fi.
+ 36.150: jakobstad.fi INFO Name server ns1.multi.fi (62.80.128.20) closed for zone transfer of jakobstad.fi.
+ 36.194: jakobstad.fi INFO Legacy name server ID for ns1.multi.fi (62.80.128.20): hostname.bind = ns1.multi.fi
+ 36.390: jakobstad.fi NOTICE No answer received from 62.80.128.20 when querying for version.server/CH/TXT.
+ 36.390: jakobstad.fi INFO Done testing name server ns1.multi.fi.
+ 36.390: jakobstad.fi INFO Begin testing name server ns2.multi.fi.
+ 36.390: jakobstad.fi INFO Begin testing host ns2.multi.fi.
+ 36.972: jakobstad.fi INFO Begin testing address 62.80.128.29.
+ 38.511: jakobstad.fi INFO Done testing address 62.80.128.29.
+ 38.512: jakobstad.fi INFO Done testing host ns2.multi.fi.
+ 39.324: jakobstad.fi INFO Name server ns2.multi.fi (62.80.128.29) answers queries over UDP.
+ 41.104: jakobstad.fi INFO Name server ns2.multi.fi (62.80.128.29) answers queries over TCP.
+ 41.139: jakobstad.fi INFO Name server ns2.multi.fi (62.80.128.29) is not recursive.
+ 41.485: jakobstad.fi INFO Name server ns2.multi.fi (62.80.128.29) authoritative for jakobstad.fi.
+ 41.607: jakobstad.fi INFO Name server ns2.multi.fi (62.80.128.29) closed for zone transfer of jakobstad.fi.
+ 41.708: jakobstad.fi INFO Legacy name server ID for ns2.multi.fi (62.80.128.29): hostname.bind = ns2.multi.fi
+ 42.011: jakobstad.fi NOTICE No answer received from 62.80.128.29 when querying for version.server/CH/TXT.
+ 42.011: jakobstad.fi INFO Done testing name server ns2.multi.fi.
+ 42.012: jakobstad.fi INFO Begin testing name server ns3.multi.fi.
+ 42.012: jakobstad.fi INFO Begin testing host ns3.multi.fi.
+ 42.772: jakobstad.fi INFO Begin testing address 62.80.128.30.
+ 45.279: jakobstad.fi INFO Done testing address 62.80.128.30.
+ 45.280: jakobstad.fi INFO Done testing host ns3.multi.fi.
+ 46.145: jakobstad.fi INFO Name server ns3.multi.fi (62.80.128.30) answers queries over UDP.
+ 46.317: jakobstad.fi INFO Name server ns3.multi.fi (62.80.128.30) answers queries over TCP.
+ 46.459: jakobstad.fi INFO Name server ns3.multi.fi (62.80.128.30) is not recursive.
+ 46.815: jakobstad.fi INFO Name server ns3.multi.fi (62.80.128.30) authoritative for jakobstad.fi.
+ 46.943: jakobstad.fi INFO Name server ns3.multi.fi (62.80.128.30) closed for zone transfer of jakobstad.fi.
+ 47.002: jakobstad.fi INFO Legacy name server ID for ns3.multi.fi (62.80.128.30): hostname.bind = agda.multi.fi
+ 47.224: jakobstad.fi NOTICE No answer received from 62.80.128.30 when querying for version.server/CH/TXT.
+ 47.224: jakobstad.fi INFO Done testing name server ns3.multi.fi.
+ 47.224: jakobstad.fi INFO Begin testing name server ns4.multi.fi.
+ 47.224: jakobstad.fi INFO Begin testing host ns4.multi.fi.
+ 47.924: jakobstad.fi INFO Begin testing address 62.80.136.42.
+ 49.557: jakobstad.fi INFO Done testing address 62.80.136.42.
+ 49.557: jakobstad.fi INFO Done testing host ns4.multi.fi.
+ 50.384: jakobstad.fi INFO Name server ns4.multi.fi (62.80.136.42) answers queries over UDP.
+ 50.533: jakobstad.fi INFO Name server ns4.multi.fi (62.80.136.42) answers queries over TCP.
+ 50.663: jakobstad.fi INFO Name server ns4.multi.fi (62.80.136.42) is not recursive.
+ 50.997: jakobstad.fi INFO Name server ns4.multi.fi (62.80.136.42) authoritative for jakobstad.fi.
+ 51.169: jakobstad.fi INFO Name server ns4.multi.fi (62.80.136.42) closed for zone transfer of jakobstad.fi.
+ 51.240: jakobstad.fi INFO Legacy name server ID for ns4.multi.fi (62.80.136.42): hostname.bind = ns4.multi.fi
+ 51.466: jakobstad.fi NOTICE No answer received from 62.80.136.42 when querying for version.server/CH/TXT.
+ 51.467: jakobstad.fi INFO Done testing name server ns4.multi.fi.
+ 51.472: jakobstad.fi INFO Begin testing zone consistency for jakobstad.fi.
+ 58.057: jakobstad.fi INFO SOA at address 62.80.128.29 has serial 2013061201.
+ 58.145: jakobstad.fi INFO SOA at address 62.80.128.20 has serial 2013061201.
+ 58.229: jakobstad.fi INFO SOA at address 62.80.128.30 has serial 2013061201.
+ 58.288: jakobstad.fi INFO SOA at address 62.80.136.42 has serial 2013061201.
+ 58.288: jakobstad.fi INFO All SOA records have consistent serial numbers.
+ 58.288: jakobstad.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 61.485: jakobstad.fi NOTICE The listed nameservers for jakobstad.fi all report the same set of nameservers.
+ 61.486: jakobstad.fi INFO Done testing zone consistency for jakobstad.fi.
+ 61.486: jakobstad.fi INFO Begin testing SOA parameters for jakobstad.fi.
+ 61.537: jakobstad.fi INFO Found SOA record for jakobstad.fi.
+ 61.537: jakobstad.fi INFO Begin testing host ns1.multi.fi.
+ 62.164: jakobstad.fi INFO Begin testing address 62.80.128.20.
+ 62.805: jakobstad.fi INFO Done testing address 62.80.128.20.
+ 62.805: jakobstad.fi INFO Done testing host ns1.multi.fi.
+ 62.805: jakobstad.fi INFO SOA MNAME for jakobstad.fi valid (ns1.multi.fi).
+ 62.806: jakobstad.fi INFO SOA MNAME for jakobstad.fi (ns1.multi.fi) listed as NS.
+ 63.437: jakobstad.fi INFO SOA MNAME for jakobstad.fi (ns1.multi.fi) is authoritative.
+ 63.437: jakobstad.fi INFO Begin testing email address hostmaster@multi.fi.
+ 64.101: jakobstad.fi INFO Mail exchangers for hostmaster@multi.fi found mx.multi.fi.
+ 64.101: jakobstad.fi INFO Begin testing host mx.multi.fi.
+ 65.035: jakobstad.fi INFO Begin testing address 62.80.136.22.
+ 66.951: jakobstad.fi INFO Done testing address 62.80.136.22.
+ 66.952: jakobstad.fi INFO Begin testing address 62.80.136.30.
+ 68.651: jakobstad.fi INFO Done testing address 62.80.136.30.
+ 68.652: jakobstad.fi INFO Done testing host mx.multi.fi.
+ 68.979: jakobstad.fi INFO Done testing email address hostmaster@multi.fi.
+ 68.980: jakobstad.fi INFO Successful attempt to deliver email for SOA RNAME of jakobstad.fi (hostmaster.multi.fi) using hostmaster@multi.fi.
+ 68.980: jakobstad.fi INFO SOA TTL for jakobstad.fi OK (28800) - recommended >= 3600.
+ 68.980: jakobstad.fi INFO SOA refresh for jakobstad.fi OK (28800) - recommended >= 14400.
+ 68.980: jakobstad.fi INFO SOA retry for jakobstad.fi OK (7200) - recommended >= 3600.
+ 68.980: jakobstad.fi INFO SOA expire for jakobstad.fi OK (604800) - recommended >= 604800.
+ 68.980: jakobstad.fi INFO SOA minimum for jakobstad.fi OK (86400) - recommended between 300 and 86400.
+ 68.980: jakobstad.fi INFO Done testing SOA parameters for jakobstad.fi.
+ 68.980: jakobstad.fi INFO Begin testing connectivity for jakobstad.fi.
+ 71.808: jakobstad.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 71.808: jakobstad.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 71.808: jakobstad.fi INFO Done testing connectivity for jakobstad.fi.
+ 71.808: jakobstad.fi INFO Begin testing DNSSEC for jakobstad.fi.
+ 71.911: jakobstad.fi INFO Did not find DS record for jakobstad.fi at parent.
+ 72.212: jakobstad.fi INFO Servers for jakobstad.fi have consistent extra processing status.
+ 72.280: jakobstad.fi INFO Authenticated denial records not found for jakobstad.fi.
+ 72.312: jakobstad.fi INFO Did not find DNSKEY record for jakobstad.fi at child.
+ 72.312: jakobstad.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 72.312: jakobstad.fi INFO Done testing DNSSEC for jakobstad.fi.
+ 72.312: jakobstad.fi INFO Test completed for zone jakobstad.fi.

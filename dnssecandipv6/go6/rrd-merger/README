@@ -1,0 +1,50 @@
+RRD Merger is a perl script that merges 2 RRDs into a new one.
+
+It takes care of pushing out all old rows in favor of the new ones. It also 
+does a basic data checking to make sure that it is manipulating consistent 
+round robin bases.
+
+Being written in Perl it needs the following libraries to be installed:
+
+   XML::Twig
+   Getopt::Long
+   Term::ReadKey
+
+You can get them all on CPAN. Also the script has been tested on Perl 5.8 
+and Linux (FC1). I expect it NOT to work on Windows boxes (I could test it, 
+but I am too lazy. Beside, you all know Linux is far much better at this 
+kinda stuff ;) )
+
+Please be aware that I currently build the whole XML table in memory. This
+in turn it means that it is slow and wants plenty of memory! A tipical RRD
+with just Average and Max data which is dumped on 500Kb XML files, results in 
+about 15Mb memory usage by Perl and it takes just over 40 seconds to complete 
+on a AMD Duron 700 (talk about recycling with Linux! :) )
+
+     Usage: rrdmerger.pl  --oldrrd=<file.rrd> --newrrd=<file.rrd>
+                          [--mergedrrd=<file.rrd>] [--tmppath=<directory>]
+                          [--rrdtool=</path/rrdtool>]
+     Options:
+       --oldrrd=file.rrd      : old RRD file to merge with new one
+       --newrrd=file.rrd      : new RRD file to merge with old one
+       --mergedrrd=file.rrd   : resulting file. If not specified will take the
+                                name of the new file with added a timestamp
+       --tmppath=directory    : directory where to store temporary files.
+                                Default --> /tmp
+       --rrdtool=file         : path and file name of rrdtool binary.
+                                Default --> rrdtool
+
+Take good care of the --rrdtool option. It should point to your copy of
+rrdtool unless you have it in your PATH, then it will work out of the box. You
+can also change the default pemanently within the script. Look for the 
+following line at the top of the script:
+
+   my %optctl = (	rrdtool    => 'rrdtool',
+
+Any question please feel free to contact me!
+
+This script is Copyrighted under the GNU Public License Version 2.
+
+RRD Merger v0.2 (1 may 2005)
+Copyright (c) 2005 by Ivan Pintori <ivan@pintori.it>
+

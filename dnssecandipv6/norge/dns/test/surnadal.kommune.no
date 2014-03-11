@@ -1,0 +1,84 @@
+  0.000: surnadal.kommune.no INFO Begin testing zone surnadal.kommune.no with version 1.6.1.
+  0.409: surnadal.kommune.no INFO Begin testing delegation for surnadal.kommune.no.
+  8.581: surnadal.kommune.no INFO Name servers listed at parent: ns1.nextra.no,ns2.nextra.no
+ 10.190: surnadal.kommune.no INFO Name servers listed at child: ns1.nextra.no,ns2.nextra.no
+ 10.190: surnadal.kommune.no NOTICE No IPv6 name servers found.
+ 10.351: surnadal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.504: surnadal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.667: surnadal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.871: surnadal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.620: surnadal.kommune.no INFO It is possible to build a referral packet for surnadal.kommune.no that works without EDNS0.
+ 12.519: surnadal.kommune.no INFO Previously used name servers for surnadal.kommune.no: 
+ 12.519: surnadal.kommune.no INFO Done testing delegation for surnadal.kommune.no.
+ 12.519: surnadal.kommune.no INFO Begin testing name server ns1.nextra.no.
+ 12.519: surnadal.kommune.no INFO Begin testing host ns1.nextra.no.
+ 12.728: surnadal.kommune.no INFO Begin testing address 148.122.208.98.
+ 32.525: surnadal.kommune.no INFO Done testing address 148.122.208.98.
+ 32.560: surnadal.kommune.no INFO Done testing host ns1.nextra.no.
+ 32.682: surnadal.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) answers queries over UDP.
+ 32.708: surnadal.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) answers queries over TCP.
+ 32.730: surnadal.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) is not recursive.
+ 32.790: surnadal.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) authoritative for surnadal.kommune.no.
+ 32.834: surnadal.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) closed for zone transfer of surnadal.kommune.no.
+ 32.847: surnadal.kommune.no NOTICE No answer received from 148.122.208.98 when querying for hostname.bind/CH/TXT.
+ 32.868: surnadal.kommune.no INFO Legacy name server ID for ns1.nextra.no (148.122.208.98): version.bind = Nominum ANS 2.8.1.2
+ 32.886: surnadal.kommune.no INFO Legacy name server ID for ns1.nextra.no (148.122.208.98): id.server = 275236d1-c090-4e72-8b4f-6bb3656fbdc2
+ 32.901: surnadal.kommune.no INFO Legacy name server ID for ns1.nextra.no (148.122.208.98): version.server = Nominum ANS 2.8.1.2
+ 32.901: surnadal.kommune.no INFO Done testing name server ns1.nextra.no.
+ 32.901: surnadal.kommune.no INFO Begin testing name server ns2.nextra.no.
+ 32.901: surnadal.kommune.no INFO Begin testing host ns2.nextra.no.
+ 33.022: surnadal.kommune.no INFO Begin testing address 148.122.161.2.
+ 33.800: surnadal.kommune.no INFO Done testing address 148.122.161.2.
+ 33.800: surnadal.kommune.no INFO Done testing host ns2.nextra.no.
+ 33.991: surnadal.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) answers queries over UDP.
+ 34.045: surnadal.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) answers queries over TCP.
+ 34.066: surnadal.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) is not recursive.
+ 34.138: surnadal.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) authoritative for surnadal.kommune.no.
+ 34.174: surnadal.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) closed for zone transfer of surnadal.kommune.no.
+ 34.188: surnadal.kommune.no NOTICE No answer received from 148.122.161.2 when querying for hostname.bind/CH/TXT.
+ 34.202: surnadal.kommune.no INFO Legacy name server ID for ns2.nextra.no (148.122.161.2): version.bind = Nominum ANS 2.8.1.2
+ 34.487: surnadal.kommune.no INFO Legacy name server ID for ns2.nextra.no (148.122.161.2): id.server = b15665a4-93cf-4b41-b1b3-3effb406c70f
+ 34.501: surnadal.kommune.no INFO Legacy name server ID for ns2.nextra.no (148.122.161.2): version.server = Nominum ANS 2.8.1.2
+ 34.505: surnadal.kommune.no INFO Done testing name server ns2.nextra.no.
+ 34.505: surnadal.kommune.no INFO Begin testing zone consistency for surnadal.kommune.no.
+ 34.915: surnadal.kommune.no INFO SOA at address 148.122.208.98 has serial 2014012300.
+ 34.930: surnadal.kommune.no INFO SOA at address 148.122.161.2 has serial 2014012300.
+ 34.930: surnadal.kommune.no INFO All SOA records have consistent serial numbers.
+ 34.931: surnadal.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 35.261: surnadal.kommune.no NOTICE The listed nameservers for surnadal.kommune.no all report the same set of nameservers.
+ 35.261: surnadal.kommune.no INFO Done testing zone consistency for surnadal.kommune.no.
+ 35.265: surnadal.kommune.no INFO Begin testing SOA parameters for surnadal.kommune.no.
+ 35.286: surnadal.kommune.no INFO Found SOA record for surnadal.kommune.no.
+ 35.287: surnadal.kommune.no INFO Begin testing host ns1.nextra.no.
+ 35.406: surnadal.kommune.no INFO Begin testing address 148.122.208.98.
+ 35.488: surnadal.kommune.no INFO Done testing address 148.122.208.98.
+ 35.488: surnadal.kommune.no INFO Done testing host ns1.nextra.no.
+ 35.488: surnadal.kommune.no INFO SOA MNAME for surnadal.kommune.no valid (ns1.nextra.no).
+ 35.489: surnadal.kommune.no INFO SOA MNAME for surnadal.kommune.no (ns1.nextra.no) listed as NS.
+ 35.608: surnadal.kommune.no INFO SOA MNAME for surnadal.kommune.no (ns1.nextra.no) is authoritative.
+ 35.608: surnadal.kommune.no INFO Begin testing email address hostmaster@telenor.net.
+ 36.957: surnadal.kommune.no INFO Mail exchangers for hostmaster@telenor.net found mx.nsc.no.
+ 36.957: surnadal.kommune.no INFO Begin testing host mx.nsc.no.
+ 37.188: surnadal.kommune.no INFO Begin testing address 193.213.112.62.
+ 37.854: surnadal.kommune.no INFO Done testing address 193.213.112.62.
+ 37.854: surnadal.kommune.no INFO Done testing host mx.nsc.no.
+ 37.979: surnadal.kommune.no INFO Done testing email address hostmaster@telenor.net.
+ 37.979: surnadal.kommune.no INFO Successful attempt to deliver email for SOA RNAME of surnadal.kommune.no (hostmaster.telenor.net) using hostmaster@telenor.net.
+ 37.979: surnadal.kommune.no INFO SOA TTL for surnadal.kommune.no OK (3600) - recommended >= 3600.
+ 37.979: surnadal.kommune.no INFO SOA refresh for surnadal.kommune.no OK (28800) - recommended >= 14400.
+ 37.979: surnadal.kommune.no INFO SOA retry for surnadal.kommune.no OK (7200) - recommended >= 3600.
+ 37.979: surnadal.kommune.no INFO SOA expire for surnadal.kommune.no OK (604800) - recommended >= 604800.
+ 37.979: surnadal.kommune.no INFO SOA minimum for surnadal.kommune.no OK (86400) - recommended between 300 and 86400.
+ 37.979: surnadal.kommune.no INFO Done testing SOA parameters for surnadal.kommune.no.
+ 37.980: surnadal.kommune.no INFO Begin testing connectivity for surnadal.kommune.no.
+ 38.951: surnadal.kommune.no NOTICE Zone announced by fewer than two IPv4 ASN.
+ 38.952: surnadal.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 38.952: surnadal.kommune.no INFO Done testing connectivity for surnadal.kommune.no.
+ 38.952: surnadal.kommune.no INFO Begin testing DNSSEC for surnadal.kommune.no.
+ 39.055: surnadal.kommune.no INFO Did not find DS record for surnadal.kommune.no at parent.
+ 39.106: surnadal.kommune.no INFO Servers for surnadal.kommune.no have consistent extra processing status.
+ 39.134: surnadal.kommune.no INFO Authenticated denial records not found for surnadal.kommune.no.
+ 39.149: surnadal.kommune.no INFO Did not find DNSKEY record for surnadal.kommune.no at child.
+ 39.149: surnadal.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 39.149: surnadal.kommune.no INFO Done testing DNSSEC for surnadal.kommune.no.
+ 39.150: surnadal.kommune.no INFO Test completed for zone surnadal.kommune.no.

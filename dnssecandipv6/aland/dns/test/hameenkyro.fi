@@ -1,0 +1,158 @@
+  0.000: hameenkyro.fi INFO Begin testing zone hameenkyro.fi with version 1.5.0.
+  0.489: hameenkyro.fi INFO Begin testing delegation for hameenkyro.fi.
+ 18.142: hameenkyro.fi INFO Name servers listed at parent: ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 30.802: hameenkyro.fi INFO Name servers listed at child: ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 30.904: hameenkyro.fi INFO Parent glue for hameenkyro.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+ 31.069: hameenkyro.fi INFO Parent glue for hameenkyro.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+ 31.204: hameenkyro.fi INFO Parent glue for hameenkyro.fi found: ns1-swe.global.sonera.se (80.64.9.124)
+ 31.456: hameenkyro.fi INFO Parent glue for hameenkyro.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+ 31.620: hameenkyro.fi INFO Parent glue for hameenkyro.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+ 31.974: hameenkyro.fi INFO Checking glue for ns1-fin.global.sonera.fi (193.210.18.31).
+ 31.975: hameenkyro.fi INFO Checking glue for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53).
+ 31.975: hameenkyro.fi INFO Checking glue for ns1-swe.global.sonera.se (80.64.9.124).
+ 31.975: hameenkyro.fi INFO Checking glue for ns2-fin.global.sonera.fi (195.156.148.158).
+ 31.975: hameenkyro.fi INFO Checking glue for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53).
+ 31.975: hameenkyro.fi INFO Parent glue for hameenkyro.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+ 31.976: hameenkyro.fi INFO Parent glue for hameenkyro.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+ 31.976: hameenkyro.fi INFO Parent glue for hameenkyro.fi found: ns1-swe.global.sonera.se (80.64.9.124)
+ 31.976: hameenkyro.fi INFO Parent glue for hameenkyro.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+ 31.976: hameenkyro.fi INFO Parent glue for hameenkyro.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+ 33.922: hameenkyro.fi INFO It is possible to build a referral packet for hameenkyro.fi that works without EDNS0.
+ 34.687: hameenkyro.fi INFO Previously used name servers for hameenkyro.fi: 
+ 34.687: hameenkyro.fi INFO Done testing delegation for hameenkyro.fi.
+ 34.688: hameenkyro.fi INFO Begin testing name server ns1-fin.global.sonera.fi.
+ 34.688: hameenkyro.fi INFO Begin testing host ns1-fin.global.sonera.fi.
+ 34.689: hameenkyro.fi INFO Begin testing address 193.210.18.31.
+ 49.870: hameenkyro.fi INFO Done testing address 193.210.18.31.
+ 49.871: hameenkyro.fi INFO Begin testing address 2001:2060:ffdd:a01:0:0:0:53.
+ 54.313: hameenkyro.fi INFO Done testing address 2001:2060:ffdd:a01:0:0:0:53.
+ 54.313: hameenkyro.fi INFO Done testing host ns1-fin.global.sonera.fi.
+ 54.417: hameenkyro.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over UDP.
+ 54.593: hameenkyro.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over TCP.
+ 54.788: hameenkyro.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) is not recursive.
+ 55.170: hameenkyro.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) authoritative for hameenkyro.fi.
+ 55.270: hameenkyro.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) closed for zone transfer of hameenkyro.fi.
+ 55.348: hameenkyro.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): hostname.bind = mgda2
+ 55.451: hameenkyro.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): version.bind = TeliaSonera Finland DNS MGDA
+ 55.531: hameenkyro.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): id.server = mgda2
+ 55.626: hameenkyro.fi NOTICE No answer received from 193.210.18.31 when querying for version.server/CH/TXT.
+ 55.755: hameenkyro.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) answers queries over UDP.
+ 55.932: hameenkyro.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) answers queries over TCP.
+ 56.000: hameenkyro.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) is not recursive.
+ 56.537: hameenkyro.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) authoritative for hameenkyro.fi.
+ 56.785: hameenkyro.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) closed for zone transfer of hameenkyro.fi.
+ 56.847: hameenkyro.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): hostname.bind = mgda1
+ 56.971: hameenkyro.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+ 57.035: hameenkyro.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): id.server = mgda1
+ 57.173: hameenkyro.fi NOTICE No answer received from 2001:2060:ffdd:a01:0:0:0:53 when querying for version.server/CH/TXT.
+ 57.173: hameenkyro.fi INFO Done testing name server ns1-fin.global.sonera.fi.
+ 57.173: hameenkyro.fi INFO Begin testing name server ns1-swe.global.sonera.se.
+ 57.173: hameenkyro.fi INFO Begin testing host ns1-swe.global.sonera.se.
+ 57.173: hameenkyro.fi INFO Begin testing address 80.64.9.124.
+ 59.096: hameenkyro.fi INFO Done testing address 80.64.9.124.
+ 59.096: hameenkyro.fi INFO Begin testing address 2001:6e8:400:ffff:1:0:0:53.
+ 59.928: hameenkyro.fi INFO Done testing address 2001:6e8:400:ffff:1:0:0:53.
+ 59.928: hameenkyro.fi INFO Done testing host ns1-swe.global.sonera.se.
+ 59.994: hameenkyro.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over UDP.
+ 60.048: hameenkyro.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over TCP.
+ 60.186: hameenkyro.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) is not recursive.
+ 60.816: hameenkyro.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) authoritative for hameenkyro.fi.
+ 60.915: hameenkyro.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) closed for zone transfer of hameenkyro.fi.
+ 60.947: hameenkyro.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): hostname.bind = mgda3
+ 60.980: hameenkyro.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): version.bind = TeliaSonera Finland DNS MGDA
+ 61.024: hameenkyro.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): id.server = mgda3
+ 61.086: hameenkyro.fi NOTICE No answer received from 80.64.9.124 when querying for version.server/CH/TXT.
+ 61.203: hameenkyro.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over UDP.
+ 61.301: hameenkyro.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over TCP.
+ 61.345: hameenkyro.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) is not recursive.
+ 61.638: hameenkyro.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) authoritative for hameenkyro.fi.
+ 63.718: hameenkyro.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) closed for zone transfer of hameenkyro.fi.
+ 63.801: hameenkyro.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): hostname.bind = mgda3
+ 63.865: hameenkyro.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+ 63.927: hameenkyro.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): id.server = mgda3
+ 63.986: hameenkyro.fi NOTICE No answer received from 2001:6e8:400:ffff:1:0:0:53 when querying for version.server/CH/TXT.
+ 63.987: hameenkyro.fi INFO Done testing name server ns1-swe.global.sonera.se.
+ 63.987: hameenkyro.fi INFO Begin testing name server ns2-fin.global.sonera.fi.
+ 63.987: hameenkyro.fi INFO Begin testing host ns2-fin.global.sonera.fi.
+ 63.987: hameenkyro.fi INFO Begin testing address 195.156.148.158.
+ 64.577: hameenkyro.fi INFO Done testing address 195.156.148.158.
+ 64.577: hameenkyro.fi INFO Begin testing address 2001:2060:ffdd:a02:0:0:0:53.
+ 65.207: hameenkyro.fi INFO Done testing address 2001:2060:ffdd:a02:0:0:0:53.
+ 65.207: hameenkyro.fi INFO Done testing host ns2-fin.global.sonera.fi.
+ 65.241: hameenkyro.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over UDP.
+ 65.339: hameenkyro.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over TCP.
+ 65.390: hameenkyro.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) is not recursive.
+ 65.577: hameenkyro.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) authoritative for hameenkyro.fi.
+ 65.624: hameenkyro.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) closed for zone transfer of hameenkyro.fi.
+ 65.679: hameenkyro.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): hostname.bind = mgda2
+ 65.698: hameenkyro.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): version.bind = TeliaSonera Finland DNS MGDA
+ 65.726: hameenkyro.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): id.server = mgda2
+ 65.740: hameenkyro.fi NOTICE No answer received from 195.156.148.158 when querying for version.server/CH/TXT.
+ 71.786: hameenkyro.fi ERROR Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) does not answer queries over UDP.
+ 71.788: hameenkyro.fi ERROR Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) does not answer queries over TCP.
+ 71.788: hameenkyro.fi INFO Done testing name server ns2-fin.global.sonera.fi.
+ 71.788: hameenkyro.fi INFO Begin testing name server ns2-usa.global.sonera.net.
+ 71.788: hameenkyro.fi INFO Begin testing host ns2-usa.global.sonera.net.
+ 72.097: hameenkyro.fi INFO Begin testing address 46.38.190.56.
+ 74.416: hameenkyro.fi INFO Done testing address 46.38.190.56.
+ 74.416: hameenkyro.fi INFO Done testing host ns2-usa.global.sonera.net.
+ 74.849: hameenkyro.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over UDP.
+ 74.978: hameenkyro.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over TCP.
+ 75.086: hameenkyro.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) is not recursive.
+ 75.318: hameenkyro.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) authoritative for hameenkyro.fi.
+ 75.445: hameenkyro.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) closed for zone transfer of hameenkyro.fi.
+ 75.490: hameenkyro.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): hostname.bind = mgda5
+ 75.537: hameenkyro.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): version.bind = TeliaSonera Finland DNS MGDA
+ 75.591: hameenkyro.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): id.server = mgda5
+ 75.639: hameenkyro.fi NOTICE No answer received from 46.38.190.56 when querying for version.server/CH/TXT.
+ 75.640: hameenkyro.fi INFO Done testing name server ns2-usa.global.sonera.net.
+ 75.640: hameenkyro.fi INFO Begin testing zone consistency for hameenkyro.fi.
+ 78.164: hameenkyro.fi INFO SOA at address 2001:2060:ffdd:a01:0:0:0:53 has serial 2012112014.
+ 78.342: hameenkyro.fi INFO SOA at address 193.210.18.31 has serial 2012112014.
+ 78.626: hameenkyro.fi INFO SOA at address 80.64.9.124 has serial 2012112014.
+ 79.066: hameenkyro.fi INFO SOA at address 195.156.148.158 has serial 2012112014.
+ 79.524: hameenkyro.fi INFO SOA at address 2001:6e8:400:ffff:1:0:0:53 has serial 2012112014.
+ 79.756: hameenkyro.fi INFO SOA at address 46.38.190.56 has serial 2012112014.
+ 79.757: hameenkyro.fi INFO All SOA records have consistent serial numbers.
+ 79.757: hameenkyro.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 82.363: hameenkyro.fi NOTICE The listed nameservers for hameenkyro.fi all report the same set of nameservers.
+ 82.363: hameenkyro.fi INFO Done testing zone consistency for hameenkyro.fi.
+ 82.363: hameenkyro.fi INFO Begin testing SOA parameters for hameenkyro.fi.
+ 82.457: hameenkyro.fi INFO Found SOA record for hameenkyro.fi.
+ 82.458: hameenkyro.fi INFO Begin testing host namesurfer.inet.fi.
+ 84.491: hameenkyro.fi INFO Begin testing address 131.177.73.253.
+101.094: hameenkyro.fi INFO Done testing address 131.177.73.253.
+101.094: hameenkyro.fi INFO Done testing host namesurfer.inet.fi.
+101.106: hameenkyro.fi INFO SOA MNAME for hameenkyro.fi valid (namesurfer.inet.fi).
+101.106: hameenkyro.fi NOTICE SOA MNAME for hameenkyro.fi (namesurfer.inet.fi) not listed as NS.
+107.741: hameenkyro.fi INFO SOA MNAME for hameenkyro.fi (namesurfer.inet.fi) is authoritative.
+107.741: hameenkyro.fi INFO Begin testing email address hostmaster@sonera.com.
+108.731: hameenkyro.fi INFO Mail exchangers for hostmaster@sonera.com found smtp.dave.sonera.fi,mail.cm.sonera.com.
+108.733: hameenkyro.fi INFO Begin testing host smtp.dave.sonera.fi.
+110.071: hameenkyro.fi INFO Begin testing address 131.177.120.25.
+112.343: hameenkyro.fi INFO Done testing address 131.177.120.25.
+112.343: hameenkyro.fi INFO Done testing host smtp.dave.sonera.fi.
+113.103: hameenkyro.fi INFO Begin testing host mail.cm.sonera.com.
+114.982: hameenkyro.fi INFO Begin testing address 193.208.151.61.
+116.995: hameenkyro.fi INFO Done testing address 193.208.151.61.
+116.995: hameenkyro.fi INFO Done testing host mail.cm.sonera.com.
+117.911: hameenkyro.fi INFO Done testing email address hostmaster@sonera.com.
+117.911: hameenkyro.fi INFO Successful attempt to deliver email for SOA RNAME of hameenkyro.fi (hostmaster.sonera.com) using hostmaster@sonera.com.
+117.911: hameenkyro.fi INFO SOA TTL for hameenkyro.fi OK (3600) - recommended >= 3600.
+117.911: hameenkyro.fi INFO SOA refresh for hameenkyro.fi OK (28800) - recommended >= 14400.
+117.918: hameenkyro.fi INFO SOA retry for hameenkyro.fi OK (7200) - recommended >= 3600.
+117.918: hameenkyro.fi INFO SOA expire for hameenkyro.fi OK (604800) - recommended >= 604800.
+117.918: hameenkyro.fi INFO SOA minimum for hameenkyro.fi OK (17280) - recommended between 300 and 86400.
+117.918: hameenkyro.fi INFO Done testing SOA parameters for hameenkyro.fi.
+117.918: hameenkyro.fi INFO Begin testing connectivity for hameenkyro.fi.
+122.459: hameenkyro.fi INFO Zone announced by more than one ASN.
+125.087: hameenkyro.fi INFO Zone announced by more than one IPv6 ASN.
+125.087: hameenkyro.fi INFO Done testing connectivity for hameenkyro.fi.
+125.087: hameenkyro.fi INFO Begin testing DNSSEC for hameenkyro.fi.
+125.340: hameenkyro.fi INFO Did not find DS record for hameenkyro.fi at parent.
+126.067: hameenkyro.fi INFO Servers for hameenkyro.fi have consistent extra processing status.
+126.171: hameenkyro.fi INFO Authenticated denial records not found for hameenkyro.fi.
+126.215: hameenkyro.fi INFO Did not find DNSKEY record for hameenkyro.fi at child.
+126.215: hameenkyro.fi INFO No DNSKEY(s) found at child, other tests skipped.
+126.215: hameenkyro.fi INFO Done testing DNSSEC for hameenkyro.fi.
+126.215: hameenkyro.fi INFO Test completed for zone hameenkyro.fi.

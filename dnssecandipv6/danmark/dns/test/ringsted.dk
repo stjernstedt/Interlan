@@ -1,0 +1,88 @@
+  0.000: ringsted.dk INFO Begin testing zone ringsted.dk with version 1.6.1.
+  0.425: ringsted.dk INFO Begin testing delegation for ringsted.dk.
+  5.909: ringsted.dk INFO Name servers listed at parent: ns-auth03.kmd.dk,ns-auth04.kmd.dk
+  7.514: ringsted.dk INFO Name servers listed at child: ns-auth03.kmd.dk,ns-auth04.kmd.dk
+  7.515: ringsted.dk NOTICE No IPv6 name servers found.
+  7.571: ringsted.dk INFO Parent glue for ringsted.dk found: ns-auth03.kmd.dk (131.165.64.5)
+  7.783: ringsted.dk INFO Parent glue for ringsted.dk found: ns-auth04.kmd.dk (131.165.4.5)
+  7.840: ringsted.dk INFO Checking glue for ns-auth03.kmd.dk (131.165.64.5).
+  7.841: ringsted.dk INFO Checking glue for ns-auth04.kmd.dk (131.165.4.5).
+  7.841: ringsted.dk INFO Parent glue for ringsted.dk found: ns-auth03.kmd.dk (131.165.64.5)
+  7.841: ringsted.dk INFO Parent glue for ringsted.dk found: ns-auth04.kmd.dk (131.165.4.5)
+  8.841: ringsted.dk INFO It is possible to build a referral packet for ringsted.dk that works without EDNS0.
+  9.652: ringsted.dk INFO Previously used name servers for ringsted.dk: 
+  9.652: ringsted.dk INFO Done testing delegation for ringsted.dk.
+  9.652: ringsted.dk INFO Begin testing name server ns-auth03.kmd.dk.
+  9.653: ringsted.dk INFO Begin testing host ns-auth03.kmd.dk.
+  9.967: ringsted.dk INFO Begin testing address 131.165.64.5.
+ 16.672: ringsted.dk INFO Done testing address 131.165.64.5.
+ 16.672: ringsted.dk INFO Done testing host ns-auth03.kmd.dk.
+ 16.962: ringsted.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) answers queries over UDP.
+ 17.108: ringsted.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) answers queries over TCP.
+ 17.159: ringsted.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) is not recursive.
+ 17.377: ringsted.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) authoritative for ringsted.dk.
+ 17.535: ringsted.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) closed for zone transfer of ringsted.dk.
+ 17.613: ringsted.dk INFO Legacy name server ID for ns-auth03.kmd.dk (131.165.64.5): hostname.bind = ns-auth03.kmd.dk
+ 17.688: ringsted.dk INFO Legacy name server ID for ns-auth03.kmd.dk (131.165.64.5): version.bind = 1.0
+ 17.797: ringsted.dk NOTICE No answer received from 131.165.64.5 when querying for version.server/CH/TXT.
+ 17.797: ringsted.dk INFO Done testing name server ns-auth03.kmd.dk.
+ 17.797: ringsted.dk INFO Begin testing name server ns-auth04.kmd.dk.
+ 17.797: ringsted.dk INFO Begin testing host ns-auth04.kmd.dk.
+ 17.956: ringsted.dk INFO Begin testing address 131.165.4.5.
+ 18.833: ringsted.dk INFO Done testing address 131.165.4.5.
+ 18.833: ringsted.dk INFO Done testing host ns-auth04.kmd.dk.
+ 19.083: ringsted.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) answers queries over UDP.
+ 19.198: ringsted.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) answers queries over TCP.
+ 19.261: ringsted.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) is not recursive.
+ 19.493: ringsted.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) authoritative for ringsted.dk.
+ 19.643: ringsted.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) closed for zone transfer of ringsted.dk.
+ 19.698: ringsted.dk INFO Legacy name server ID for ns-auth04.kmd.dk (131.165.4.5): hostname.bind = ns-auth04.kmd.dk
+ 19.757: ringsted.dk INFO Legacy name server ID for ns-auth04.kmd.dk (131.165.4.5): version.bind = 1.0
+ 19.882: ringsted.dk NOTICE No answer received from 131.165.4.5 when querying for version.server/CH/TXT.
+ 19.882: ringsted.dk INFO Done testing name server ns-auth04.kmd.dk.
+ 19.883: ringsted.dk INFO Begin testing zone consistency for ringsted.dk.
+ 20.578: ringsted.dk INFO SOA at address 131.165.4.5 has serial 328.
+ 20.645: ringsted.dk INFO SOA at address 131.165.64.5 has serial 328.
+ 20.647: ringsted.dk INFO All SOA records have consistent serial numbers.
+ 20.647: ringsted.dk INFO All other fields in the SOA record are consistent among all name servers.
+ 21.128: ringsted.dk NOTICE The listed nameservers for ringsted.dk all report the same set of nameservers.
+ 21.128: ringsted.dk INFO Done testing zone consistency for ringsted.dk.
+ 21.128: ringsted.dk INFO Begin testing SOA parameters for ringsted.dk.
+ 21.184: ringsted.dk INFO Found SOA record for ringsted.dk.
+ 21.184: ringsted.dk INFO Begin testing host ns-auth03.kmd.dk.
+ 21.368: ringsted.dk INFO Begin testing address 131.165.64.5.
+ 21.612: ringsted.dk INFO Done testing address 131.165.64.5.
+ 21.612: ringsted.dk INFO Done testing host ns-auth03.kmd.dk.
+ 21.612: ringsted.dk INFO SOA MNAME for ringsted.dk valid (ns-auth03.kmd.dk).
+ 21.612: ringsted.dk INFO SOA MNAME for ringsted.dk (ns-auth03.kmd.dk) listed as NS.
+ 21.838: ringsted.dk INFO SOA MNAME for ringsted.dk (ns-auth03.kmd.dk) is authoritative.
+ 21.838: ringsted.dk INFO Begin testing email address dnsadmin@kmd.dk.
+ 22.126: ringsted.dk INFO Mail exchangers for dnsadmin@kmd.dk found edge1.kmd.dk,edge2.kmd.dk.
+ 22.126: ringsted.dk INFO Begin testing host edge1.kmd.dk.
+ 22.491: ringsted.dk INFO Begin testing address 131.165.63.88.
+ 23.084: ringsted.dk INFO Done testing address 131.165.63.88.
+ 23.084: ringsted.dk INFO Done testing host edge1.kmd.dk.
+ 23.255: ringsted.dk INFO Begin testing host edge2.kmd.dk.
+ 23.544: ringsted.dk INFO Begin testing address 131.165.63.89.
+ 24.344: ringsted.dk INFO Done testing address 131.165.63.89.
+ 24.344: ringsted.dk INFO Done testing host edge2.kmd.dk.
+ 24.456: ringsted.dk INFO Done testing email address dnsadmin@kmd.dk.
+ 24.456: ringsted.dk INFO Successful attempt to deliver email for SOA RNAME of ringsted.dk (dnsadmin.kmd.dk) using dnsadmin@kmd.dk.
+ 24.456: ringsted.dk INFO SOA TTL for ringsted.dk OK (3600) - recommended >= 3600.
+ 24.456: ringsted.dk NOTICE SOA refresh for ringsted.dk too small (10800) - recommended >= 14400.
+ 24.457: ringsted.dk INFO SOA retry for ringsted.dk OK (3600) - recommended >= 3600.
+ 24.457: ringsted.dk INFO SOA expire for ringsted.dk OK (604800) - recommended >= 604800.
+ 24.457: ringsted.dk INFO SOA minimum for ringsted.dk OK (43200) - recommended between 300 and 86400.
+ 24.457: ringsted.dk INFO Done testing SOA parameters for ringsted.dk.
+ 24.457: ringsted.dk INFO Begin testing connectivity for ringsted.dk.
+ 25.417: ringsted.dk NOTICE Zone announced by fewer than two IPv4 ASN.
+ 25.418: ringsted.dk NOTICE Zone announced by fewer than two IPv6 ASN.
+ 25.418: ringsted.dk INFO Done testing connectivity for ringsted.dk.
+ 25.423: ringsted.dk INFO Begin testing DNSSEC for ringsted.dk.
+ 25.464: ringsted.dk INFO Did not find DS record for ringsted.dk at parent.
+ 25.690: ringsted.dk INFO Servers for ringsted.dk have consistent extra processing status.
+ 25.797: ringsted.dk INFO Authenticated denial records not found for ringsted.dk.
+ 25.849: ringsted.dk INFO Did not find DNSKEY record for ringsted.dk at child.
+ 25.849: ringsted.dk INFO No DNSKEY(s) found at child, other tests skipped.
+ 25.850: ringsted.dk INFO Done testing DNSSEC for ringsted.dk.
+ 25.850: ringsted.dk INFO Test completed for zone ringsted.dk.

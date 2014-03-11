@@ -1,0 +1,103 @@
+  0.000: fagersta.se INFO Begin testing zone fagersta.se with version 1.2.
+  0.000: fagersta.se INFO Begin testing delegation for fagersta.se.
+  6.340: fagersta.se INFO Name servers listed at parent: dns.fagersta.se,dns2.telia.com,kista.dns.swip.net
+  8.394: fagersta.se INFO Name servers listed at child: dns.fagersta.se,dns2.telia.com,kista.dns.swip.net
+  8.394: fagersta.se NOTICE No IPv6 name servers found.
+  8.403: fagersta.se INFO Parent glue for fagersta.se found: dns.fagersta.se (194.17.220.70)
+  8.515: fagersta.se INFO Checking glue for dns.fagersta.se (194.17.220.70).
+  8.533: fagersta.se INFO Child glue for fagersta.se found: dns.fagersta.se (194.17.220.70)
+  8.533: fagersta.se INFO Parent glue for fagersta.se found: dns.fagersta.se (194.17.220.70)
+  8.534: fagersta.se INFO Done testing delegation for fagersta.se.
+  8.535: fagersta.se INFO Begin testing name server dns.fagersta.se.
+  8.535: fagersta.se INFO Begin testing host dns.fagersta.se.
+  8.535: fagersta.se INFO Begin testing address 194.17.220.70.
+ 11.309: fagersta.se INFO Done testing address 194.17.220.70.
+ 11.309: fagersta.se INFO Done testing host dns.fagersta.se.
+ 11.322: fagersta.se INFO Name server dns.fagersta.se (194.17.220.70) answers queries over UDP.
+ 11.345: fagersta.se INFO Name server dns.fagersta.se (194.17.220.70) answers queries over TCP.
+ 11.747: fagersta.se INFO Name server dns.fagersta.se (194.17.220.70) is not recursive.
+ 11.760: fagersta.se INFO Name server dns.fagersta.se (194.17.220.70) authoritative for fagersta.se.
+ 11.955: fagersta.se INFO Name server dns.fagersta.se (194.17.220.70) closed for zone transfer of fagersta.se.
+ 11.967: fagersta.se NOTICE No answer received from 194.17.220.70 when querying for hostname.bind/CH/TXT.
+ 29.967: fagersta.se INFO Done testing name server dns.fagersta.se.
+ 29.967: fagersta.se INFO Begin testing name server dns2.telia.com.
+ 29.967: fagersta.se INFO Begin testing host dns2.telia.com.
+ 29.968: fagersta.se INFO Begin testing address 81.228.10.67.
+ 31.040: fagersta.se INFO Done testing address 81.228.10.67.
+ 31.040: fagersta.se INFO Done testing host dns2.telia.com.
+ 31.058: fagersta.se INFO Name server dns2.telia.com (81.228.10.67) answers queries over UDP.
+ 31.089: fagersta.se INFO Name server dns2.telia.com (81.228.10.67) answers queries over TCP.
+ 31.109: fagersta.se INFO Name server dns2.telia.com (81.228.10.67) is not recursive.
+ 31.125: fagersta.se INFO Name server dns2.telia.com (81.228.10.67) authoritative for fagersta.se.
+ 31.170: fagersta.se INFO Name server dns2.telia.com (81.228.10.67) closed for zone transfer of fagersta.se.
+ 31.188: fagersta.se INFO Legacy name server ID for dns2.telia.com (81.228.10.67): hostname.bind = dnshosting3-sn4.m-sp.skanova.net
+ 31.205: fagersta.se INFO Legacy name server ID for dns2.telia.com (81.228.10.67): version.bind = 9.3.2-P1
+ 31.268: fagersta.se NOTICE No answer received from 81.228.10.67 when querying for version.server/CH/TXT.
+ 31.269: fagersta.se INFO Done testing name server dns2.telia.com.
+ 31.269: fagersta.se INFO Begin testing name server kista.dns.swip.net.
+ 31.269: fagersta.se INFO Begin testing host kista.dns.swip.net.
+ 31.269: fagersta.se INFO Begin testing address 192.71.220.9.
+ 35.848: fagersta.se INFO Done testing address 192.71.220.9.
+ 35.848: fagersta.se INFO Done testing host kista.dns.swip.net.
+ 35.857: fagersta.se INFO Name server kista.dns.swip.net (192.71.220.9) answers queries over UDP.
+ 35.870: fagersta.se INFO Name server kista.dns.swip.net (192.71.220.9) answers queries over TCP.
+ 35.879: fagersta.se INFO Name server kista.dns.swip.net (192.71.220.9) is not recursive.
+ 35.887: fagersta.se INFO Name server kista.dns.swip.net (192.71.220.9) authoritative for fagersta.se.
+ 35.902: fagersta.se INFO Name server kista.dns.swip.net (192.71.220.9) closed for zone transfer of fagersta.se.
+ 35.909: fagersta.se INFO Legacy name server ID for kista.dns.swip.net (192.71.220.9): hostname.bind = nico
+ 35.918: fagersta.se INFO Legacy name server ID for kista.dns.swip.net (192.71.220.9): version.bind = PONG 0.2alpha
+ 35.932: fagersta.se NOTICE No answer received from 192.71.220.9 when querying for version.server/CH/TXT.
+ 35.932: fagersta.se INFO Done testing name server kista.dns.swip.net.
+ 35.932: fagersta.se INFO Begin testing zone consistency for fagersta.se.
+ 35.954: fagersta.se INFO SOA at address 81.228.10.67 has serial 2010081996.
+ 35.963: fagersta.se INFO SOA at address 192.71.220.9 has serial 2010081996.
+ 35.975: fagersta.se INFO SOA at address 194.17.220.70 has serial 2010081996.
+ 35.975: fagersta.se INFO All SOA records have consistent serial numbers.
+ 35.975: fagersta.se INFO All SOA records are consistent among all name servers.
+ 35.975: fagersta.se INFO Done testing zone consistency for fagersta.se.
+ 35.975: fagersta.se INFO Begin testing SOA parameters for fagersta.se.
+ 35.994: fagersta.se INFO Found SOA record for fagersta.se.
+ 35.994: fagersta.se INFO Begin testing host dns.fagersta.se.
+ 35.995: fagersta.se INFO Begin testing address 194.17.220.70.
+ 35.997: fagersta.se INFO Done testing address 194.17.220.70.
+ 35.997: fagersta.se INFO Done testing host dns.fagersta.se.
+ 35.997: fagersta.se INFO SOA MNAME for fagersta.se valid (dns.fagersta.se).
+ 35.998: fagersta.se INFO SOA MNAME for fagersta.se (dns.fagersta.se) listed as NS.
+ 36.010: fagersta.se INFO SOA MNAME for fagersta.se (dns.fagersta.se) is authoritative.
+ 36.011: fagersta.se INFO Begin testing email address administrator@fagersta.se.
+ 36.249: fagersta.se INFO Mail exchangers for administrator@fagersta.se found spam-gw.fagersta.se.
+ 36.249: fagersta.se INFO All mail servers for administrator@fagersta.se are in zone fagersta.se.
+ 36.250: fagersta.se INFO Begin testing host spam-gw.fagersta.se.
+ 36.742: fagersta.se INFO Begin testing address 194.17.220.71.
+ 37.279: fagersta.se INFO Done testing address 194.17.220.71.
+ 37.279: fagersta.se INFO Done testing host spam-gw.fagersta.se.
+ 37.280: fagersta.se INFO Begin testing mail server spam-gw.fagersta.se (194.17.220.71) with administrator@fagersta.se.
+ 37.308: fagersta.se INFO SMTP banner: spam-gw SPAM-GW ready
+ 37.347: fagersta.se INFO SMTP testing of spam-gw.fagersta.se (194.17.220.71) with administrator@fagersta.se succeeded without errors.
+ 37.347: fagersta.se INFO Done testing mail server spam-gw.fagersta.se (194.17.220.71) with administrator@fagersta.se.
+ 37.347: fagersta.se INFO Delivery over IPv4 to administrator@fagersta.se ok.
+ 37.347: fagersta.se INFO Delivery over IPv6 to administrator@fagersta.se could not be done.
+ 37.347: fagersta.se INFO Done testing email address administrator@fagersta.se.
+ 37.347: fagersta.se INFO Successful attempt to deliver email for SOA RNAME of fagersta.se (administrator.fagersta.se) using administrator@fagersta.se.
+ 37.348: fagersta.se INFO SOA TTL for fagersta.se OK (3600) - recommended >= 3600.
+ 37.348: fagersta.se NOTICE SOA refresh for fagersta.se too small (3600) - recommended >= 14400.
+ 37.348: fagersta.se NOTICE SOA retry for fagersta.se too small (600) - recommended >= 3600.
+ 37.348: fagersta.se NOTICE SOA expire for fagersta.se too small (86400) - recommended >= 604800.
+ 37.348: fagersta.se INFO SOA minimum for fagersta.se OK (3600) - recommended between 300 and 86400.
+ 37.348: fagersta.se INFO Done testing SOA parameters for fagersta.se.
+ 37.348: fagersta.se INFO Begin testing connectivity for fagersta.se.
+ 38.023: fagersta.se INFO Name server 81.228.10.67 announced by: 3301
+ 38.684: fagersta.se INFO Name server 192.71.220.9 announced by: 1257
+ 39.214: fagersta.se INFO Name server 194.17.220.70 announced by: 3301
+ 39.214: fagersta.se INFO Zone announced by IPv4 ASN: 3301,1257
+ 39.214: fagersta.se INFO Zone announced by more than one ASN (2).
+ 39.215: fagersta.se INFO Zone announced by IPv6 ASN: 
+ 39.215: fagersta.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 39.215: fagersta.se INFO Done testing connectivity for fagersta.se.
+ 39.215: fagersta.se INFO Begin testing DNSSEC for fagersta.se.
+ 39.262: fagersta.se INFO Did not find DS record for fagersta.se at parent.
+ 39.328: fagersta.se INFO Servers for fagersta.se have consistent extra processing status.
+ 39.329: fagersta.se INFO Did not find DNSKEY record for fagersta.se at child.
+ 39.329: fagersta.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 39.329: fagersta.se INFO Done testing DNSSEC for fagersta.se.
+ 39.329: fagersta.se INFO Test completed for zone fagersta.se.

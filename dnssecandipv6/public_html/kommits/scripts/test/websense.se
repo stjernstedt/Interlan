@@ -1,0 +1,132 @@
+  0.000: websense.se INFO Begin testing zone websense.se with version 1.2.
+  0.000: websense.se INFO Begin testing delegation for websense.se.
+  6.077: websense.se INFO Name servers listed at parent: ns.websense.com,ns1.websense.com,ns2.websense.com,ns3.as13448.org
+ 10.850: websense.se INFO Name servers listed at child: ns.websense.com,ns1.websense.com,ns2.websense.com,ns3.as13448.org
+ 10.850: websense.se NOTICE No IPv6 name servers found.
+ 11.015: websense.se INFO Done testing delegation for websense.se.
+ 11.015: websense.se INFO Begin testing name server ns.websense.com.
+ 11.016: websense.se INFO Begin testing host ns.websense.com.
+ 11.017: websense.se INFO Begin testing address 204.15.69.53.
+ 15.188: websense.se INFO Done testing address 204.15.69.53.
+ 15.188: websense.se INFO Done testing host ns.websense.com.
+ 15.238: websense.se INFO Name server ns.websense.com (204.15.69.53) answers queries over UDP.
+ 15.340: websense.se INFO Name server ns.websense.com (204.15.69.53) answers queries over TCP.
+ 15.397: websense.se INFO Name server ns.websense.com (204.15.69.53) is not recursive.
+ 15.448: websense.se INFO Name server ns.websense.com (204.15.69.53) authoritative for websense.se.
+ 15.585: websense.se INFO Name server ns.websense.com (204.15.69.53) closed for zone transfer of websense.se.
+ 15.637: websense.se NOTICE No answer received from 204.15.69.53 when querying for hostname.bind/CH/TXT.
+ 15.691: websense.se INFO Legacy name server ID for ns.websense.com (204.15.69.53): version.bind = Bind 4
+ 15.743: websense.se NOTICE No answer received from 204.15.69.53 when querying for id.server/CH/TXT.
+ 15.795: websense.se NOTICE No answer received from 204.15.69.53 when querying for version.server/CH/TXT.
+ 15.795: websense.se INFO Done testing name server ns.websense.com.
+ 15.796: websense.se INFO Begin testing name server ns1.websense.com.
+ 15.796: websense.se INFO Begin testing host ns1.websense.com.
+ 15.797: websense.se INFO Begin testing address 204.15.67.53.
+ 16.343: websense.se INFO Done testing address 204.15.67.53.
+ 16.343: websense.se INFO Done testing host ns1.websense.com.
+ 16.535: websense.se INFO Name server ns1.websense.com (204.15.67.53) answers queries over UDP.
+ 16.917: websense.se INFO Name server ns1.websense.com (204.15.67.53) answers queries over TCP.
+ 17.112: websense.se INFO Name server ns1.websense.com (204.15.67.53) is not recursive.
+ 17.309: websense.se INFO Name server ns1.websense.com (204.15.67.53) authoritative for websense.se.
+ 17.874: websense.se INFO Name server ns1.websense.com (204.15.67.53) closed for zone transfer of websense.se.
+ 18.064: websense.se INFO Legacy name server ID for ns1.websense.com (204.15.67.53): hostname.bind = sl3dns2
+ 18.256: websense.se INFO Legacy name server ID for ns1.websense.com (204.15.67.53): version.bind = Bind 4
+ 18.641: websense.se NOTICE No answer received from 204.15.67.53 when querying for version.server/CH/TXT.
+ 18.641: websense.se INFO Done testing name server ns1.websense.com.
+ 18.641: websense.se INFO Begin testing name server ns2.websense.com.
+ 18.642: websense.se INFO Begin testing host ns2.websense.com.
+ 18.642: websense.se INFO Begin testing address 204.15.66.53.
+ 19.059: websense.se INFO Done testing address 204.15.66.53.
+ 19.059: websense.se INFO Done testing host ns2.websense.com.
+ 19.255: websense.se INFO Name server ns2.websense.com (204.15.66.53) answers queries over UDP.
+ 19.638: websense.se INFO Name server ns2.websense.com (204.15.66.53) answers queries over TCP.
+ 19.838: websense.se INFO Name server ns2.websense.com (204.15.66.53) is not recursive.
+ 20.032: websense.se INFO Name server ns2.websense.com (204.15.66.53) authoritative for websense.se.
+ 20.589: websense.se INFO Name server ns2.websense.com (204.15.66.53) closed for zone transfer of websense.se.
+ 20.795: websense.se INFO Legacy name server ID for ns2.websense.com (204.15.66.53): hostname.bind = skldns1
+ 20.984: websense.se INFO Legacy name server ID for ns2.websense.com (204.15.66.53): version.bind = Bind 4
+ 21.366: websense.se NOTICE No answer received from 204.15.66.53 when querying for version.server/CH/TXT.
+ 21.366: websense.se INFO Done testing name server ns2.websense.com.
+ 21.366: websense.se INFO Begin testing name server ns3.as13448.org.
+ 21.367: websense.se INFO Begin testing host ns3.as13448.org.
+ 21.367: websense.se INFO Begin testing address 192.132.210.53.
+ 21.788: websense.se INFO Done testing address 192.132.210.53.
+ 21.789: websense.se INFO Done testing host ns3.as13448.org.
+ 21.985: websense.se INFO Name server ns3.as13448.org (192.132.210.53) answers queries over UDP.
+ 22.371: websense.se INFO Name server ns3.as13448.org (192.132.210.53) answers queries over TCP.
+ 22.575: websense.se INFO Name server ns3.as13448.org (192.132.210.53) is not recursive.
+ 22.774: websense.se INFO Name server ns3.as13448.org (192.132.210.53) authoritative for websense.se.
+ 23.359: websense.se INFO Name server ns3.as13448.org (192.132.210.53) closed for zone transfer of websense.se.
+ 23.553: websense.se INFO Legacy name server ID for ns3.as13448.org (192.132.210.53): hostname.bind = sl3dns2
+ 23.743: websense.se INFO Legacy name server ID for ns3.as13448.org (192.132.210.53): version.bind = Bind 4
+ 24.138: websense.se NOTICE No answer received from 192.132.210.53 when querying for version.server/CH/TXT.
+ 24.139: websense.se INFO Done testing name server ns3.as13448.org.
+ 24.139: websense.se INFO Begin testing zone consistency for websense.se.
+ 24.340: websense.se INFO SOA at address 204.15.66.53 has serial 2009080609.
+ 24.394: websense.se INFO SOA at address 204.15.69.53 has serial 2009080609.
+ 24.593: websense.se INFO SOA at address 192.132.210.53 has serial 2009080609.
+ 24.788: websense.se INFO SOA at address 204.15.67.53 has serial 2009080609.
+ 24.789: websense.se INFO All SOA records have consistent serial numbers.
+ 24.789: websense.se INFO All SOA records are consistent among all name servers.
+ 24.789: websense.se INFO Done testing zone consistency for websense.se.
+ 24.790: websense.se INFO Begin testing SOA parameters for websense.se.
+ 24.985: websense.se INFO Found SOA record for websense.se.
+ 24.986: websense.se INFO Begin testing host ns.websense.com.
+ 24.986: websense.se INFO Begin testing address 204.15.69.53.
+ 24.988: websense.se INFO Done testing address 204.15.69.53.
+ 24.988: websense.se INFO Done testing host ns.websense.com.
+ 24.988: websense.se INFO SOA MNAME for websense.se valid (ns.websense.com).
+ 24.989: websense.se INFO SOA MNAME for websense.se (ns.websense.com) listed as NS.
+ 25.047: websense.se INFO SOA MNAME for websense.se (ns.websense.com) is authoritative.
+ 25.048: websense.se INFO Begin testing email address hostmaster@websense.com.
+ 25.568: websense.se INFO Mail exchangers for hostmaster@websense.com found cust3025-4.in.mailcontrol.com,cust3025-1.in.mailcontrol.com,cust3025-2.in.mailcontrol.com,cust3025-3.in.mailcontrol.com.
+ 25.569: websense.se INFO Begin testing host cust3025-4.in.mailcontrol.com.
+ 26.426: websense.se INFO Begin testing address 85.115.58.190.
+ 31.719: websense.se INFO Done testing address 85.115.58.190.
+ 31.719: websense.se INFO Done testing host cust3025-4.in.mailcontrol.com.
+ 31.720: websense.se INFO Begin testing mail server cust3025-4.in.mailcontrol.com (85.115.58.190) with hostmaster@websense.com.
+ 32.196: websense.se WARNING Failed to connect to cust3025-4.in.mailcontrol.com (85.115.58.190).
+ 32.196: websense.se INFO Done testing mail server cust3025-4.in.mailcontrol.com (85.115.58.190) with hostmaster@websense.com.
+ 32.197: websense.se INFO Begin testing host cust3025-1.in.mailcontrol.com.
+ 33.149: websense.se INFO Begin testing address 85.115.52.190.
+ 34.483: websense.se INFO Done testing address 85.115.52.190.
+ 34.484: websense.se INFO Done testing host cust3025-1.in.mailcontrol.com.
+ 34.484: websense.se INFO Begin testing mail server cust3025-1.in.mailcontrol.com (85.115.52.190) with hostmaster@websense.com.
+ 35.939: websense.se INFO SMTP banner: cluster-a.mailcontrol.com ESMTP MailControl
+ 36.113: websense.se INFO SMTP testing of cust3025-1.in.mailcontrol.com (85.115.52.190) with hostmaster@websense.com succeeded without errors.
+ 36.114: websense.se INFO Done testing mail server cust3025-1.in.mailcontrol.com (85.115.52.190) with hostmaster@websense.com.
+ 36.114: websense.se INFO Begin testing host cust3025-2.in.mailcontrol.com.
+ 37.219: websense.se INFO Begin testing address 85.115.56.190.
+ 38.534: websense.se INFO Done testing address 85.115.56.190.
+ 38.534: websense.se INFO Done testing host cust3025-2.in.mailcontrol.com.
+ 38.535: websense.se INFO Begin testing host cust3025-3.in.mailcontrol.com.
+ 39.571: websense.se INFO Begin testing address 85.115.60.190.
+ 41.150: websense.se INFO Done testing address 85.115.60.190.
+ 41.150: websense.se INFO Done testing host cust3025-3.in.mailcontrol.com.
+ 41.150: websense.se INFO Delivery over IPv4 to hostmaster@websense.com ok.
+ 41.151: websense.se INFO Delivery over IPv6 to hostmaster@websense.com could not be done.
+ 41.151: websense.se INFO Done testing email address hostmaster@websense.com.
+ 41.151: websense.se INFO Successful attempt to deliver email for SOA RNAME of websense.se (hostmaster.websense.com) using hostmaster@websense.com.
+ 41.151: websense.se INFO SOA TTL for websense.se OK (3600) - recommended >= 3600.
+ 41.151: websense.se INFO SOA refresh for websense.se OK (28800) - recommended >= 14400.
+ 41.151: websense.se INFO SOA retry for websense.se OK (7200) - recommended >= 3600.
+ 41.151: websense.se INFO SOA expire for websense.se OK (604800) - recommended >= 604800.
+ 41.151: websense.se NOTICE SOA minimum for websense.se too small (30) - recommended >= 300.
+ 41.151: websense.se INFO Done testing SOA parameters for websense.se.
+ 41.151: websense.se INFO Begin testing connectivity for websense.se.
+ 41.632: websense.se INFO Name server 204.15.67.53 announced by: 13448
+ 42.203: websense.se INFO Name server 204.15.66.53 announced by: 13448
+ 42.702: websense.se INFO Name server 204.15.69.53 announced by: 13448
+ 43.228: websense.se INFO Name server 192.132.210.53 announced by: 13448
+ 43.228: websense.se INFO Zone announced by IPv4 ASN: 13448
+ 43.228: websense.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 43.229: websense.se INFO Zone announced by IPv6 ASN: 
+ 43.229: websense.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 43.229: websense.se INFO Done testing connectivity for websense.se.
+ 43.229: websense.se INFO Begin testing DNSSEC for websense.se.
+ 43.245: websense.se INFO Did not find DS record for websense.se at parent.
+ 44.482: websense.se INFO Servers for websense.se have consistent extra processing status.
+ 44.482: websense.se INFO Did not find DNSKEY record for websense.se at child.
+ 44.483: websense.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 44.483: websense.se INFO Done testing DNSSEC for websense.se.
+ 44.483: websense.se INFO Test completed for zone websense.se.

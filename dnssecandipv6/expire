@@ -1,0 +1,9 @@
+for i in `cat domain` ; do
+	#expire=`dig +short soa $i|awk '{print $6}'`
+	expire=`dig +multiline soa $i|grep expire| awk '{ print $1}'`
+	if [ "expire" ] ; then
+		if [ "$expire" -lt "86401" ] ; then
+			echo $i,$expire
+		fi
+	fi
+done

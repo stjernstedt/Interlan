@@ -1,0 +1,162 @@
+  0.000: valkeakoski.fi INFO Begin testing zone valkeakoski.fi with version 1.6.1.
+  0.413: valkeakoski.fi INFO Begin testing delegation for valkeakoski.fi.
+ 10.710: valkeakoski.fi INFO Name servers listed at parent: ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 16.534: valkeakoski.fi INFO Name servers listed at child: ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 16.671: valkeakoski.fi INFO Parent glue for valkeakoski.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+ 16.764: valkeakoski.fi INFO Parent glue for valkeakoski.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+ 17.096: valkeakoski.fi INFO Parent glue for valkeakoski.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+ 17.252: valkeakoski.fi INFO Parent glue for valkeakoski.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+ 17.358: valkeakoski.fi INFO Checking glue for ns1-fin.global.sonera.fi (193.210.18.31).
+ 17.358: valkeakoski.fi INFO Checking glue for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53).
+ 17.358: valkeakoski.fi INFO Checking glue for ns2-fin.global.sonera.fi (195.156.148.158).
+ 17.359: valkeakoski.fi INFO Checking glue for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53).
+ 17.393: valkeakoski.fi INFO Parent glue for valkeakoski.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+ 17.393: valkeakoski.fi INFO Parent glue for valkeakoski.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+ 17.393: valkeakoski.fi INFO Parent glue for valkeakoski.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+ 17.394: valkeakoski.fi INFO Parent glue for valkeakoski.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+ 18.690: valkeakoski.fi INFO It is possible to build a referral packet for valkeakoski.fi that works without EDNS0.
+ 19.044: valkeakoski.fi INFO Previously used name servers for valkeakoski.fi: 
+ 19.044: valkeakoski.fi INFO Done testing delegation for valkeakoski.fi.
+ 19.070: valkeakoski.fi INFO Begin testing name server ns1-fin.global.sonera.fi.
+ 19.070: valkeakoski.fi INFO Begin testing host ns1-fin.global.sonera.fi.
+ 19.071: valkeakoski.fi INFO Begin testing address 193.210.18.31.
+ 23.208: valkeakoski.fi INFO Done testing address 193.210.18.31.
+ 23.208: valkeakoski.fi INFO Begin testing address 2001:2060:ffdd:a01:0:0:0:53.
+ 25.422: valkeakoski.fi INFO Done testing address 2001:2060:ffdd:a01:0:0:0:53.
+ 25.422: valkeakoski.fi INFO Done testing host ns1-fin.global.sonera.fi.
+ 25.499: valkeakoski.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over UDP.
+ 25.612: valkeakoski.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over TCP.
+ 25.628: valkeakoski.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) is not recursive.
+ 25.860: valkeakoski.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) authoritative for valkeakoski.fi.
+ 25.927: valkeakoski.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) closed for zone transfer of valkeakoski.fi.
+ 25.976: valkeakoski.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): hostname.bind = mgda1
+ 26.021: valkeakoski.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): version.bind = TeliaSonera Finland DNS MGDA
+ 26.055: valkeakoski.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): id.server = mgda1
+ 26.089: valkeakoski.fi NOTICE No answer received from 193.210.18.31 when querying for version.server/CH/TXT.
+ 26.189: valkeakoski.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) answers queries over UDP.
+ 26.297: valkeakoski.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) answers queries over TCP.
+ 26.372: valkeakoski.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) is not recursive.
+ 26.642: valkeakoski.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) authoritative for valkeakoski.fi.
+ 26.804: valkeakoski.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) closed for zone transfer of valkeakoski.fi.
+ 30.864: valkeakoski.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+ 30.904: valkeakoski.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): id.server = mgda1
+ 30.960: valkeakoski.fi NOTICE No answer received from 2001:2060:ffdd:a01:0:0:0:53 when querying for version.server/CH/TXT.
+ 30.960: valkeakoski.fi INFO Done testing name server ns1-fin.global.sonera.fi.
+ 30.960: valkeakoski.fi INFO Begin testing name server ns1-swe.global.sonera.se.
+ 30.960: valkeakoski.fi INFO Begin testing host ns1-swe.global.sonera.se.
+ 30.972: valkeakoski.fi INFO Begin testing address 80.64.9.124.
+ 32.323: valkeakoski.fi INFO Done testing address 80.64.9.124.
+ 32.323: valkeakoski.fi INFO Begin testing address 2001:6e8:400:ffff:1:0:0:53.
+ 32.823: valkeakoski.fi INFO Done testing address 2001:6e8:400:ffff:1:0:0:53.
+ 32.823: valkeakoski.fi INFO Done testing host ns1-swe.global.sonera.se.
+ 32.850: valkeakoski.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over UDP.
+ 32.898: valkeakoski.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over TCP.
+ 32.927: valkeakoski.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) is not recursive.
+ 33.007: valkeakoski.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) authoritative for valkeakoski.fi.
+ 33.044: valkeakoski.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) closed for zone transfer of valkeakoski.fi.
+ 33.057: valkeakoski.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): hostname.bind = mgda3
+ 33.090: valkeakoski.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): version.bind = TeliaSonera Finland DNS MGDA
+ 33.111: valkeakoski.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): id.server = mgda3
+ 33.124: valkeakoski.fi NOTICE No answer received from 80.64.9.124 when querying for version.server/CH/TXT.
+ 33.150: valkeakoski.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over UDP.
+ 33.211: valkeakoski.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over TCP.
+ 33.228: valkeakoski.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) is not recursive.
+ 33.371: valkeakoski.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) authoritative for valkeakoski.fi.
+ 33.414: valkeakoski.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) closed for zone transfer of valkeakoski.fi.
+ 33.430: valkeakoski.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): hostname.bind = mgda3
+ 33.456: valkeakoski.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+ 33.472: valkeakoski.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): id.server = mgda3
+ 33.488: valkeakoski.fi NOTICE No answer received from 2001:6e8:400:ffff:1:0:0:53 when querying for version.server/CH/TXT.
+ 33.488: valkeakoski.fi INFO Done testing name server ns1-swe.global.sonera.se.
+ 33.488: valkeakoski.fi INFO Begin testing name server ns2-fin.global.sonera.fi.
+ 33.488: valkeakoski.fi INFO Begin testing host ns2-fin.global.sonera.fi.
+ 33.489: valkeakoski.fi INFO Begin testing address 195.156.148.158.
+ 33.764: valkeakoski.fi INFO Done testing address 195.156.148.158.
+ 33.764: valkeakoski.fi INFO Begin testing address 2001:2060:ffdd:a02:0:0:0:53.
+ 34.173: valkeakoski.fi INFO Done testing address 2001:2060:ffdd:a02:0:0:0:53.
+ 34.173: valkeakoski.fi INFO Done testing host ns2-fin.global.sonera.fi.
+ 34.252: valkeakoski.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over UDP.
+ 34.281: valkeakoski.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over TCP.
+ 34.302: valkeakoski.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) is not recursive.
+ 34.392: valkeakoski.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) authoritative for valkeakoski.fi.
+ 34.445: valkeakoski.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) closed for zone transfer of valkeakoski.fi.
+ 34.462: valkeakoski.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): hostname.bind = mgda1
+ 34.494: valkeakoski.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): version.bind = TeliaSonera Finland DNS MGDA
+ 34.527: valkeakoski.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): id.server = mgda1
+ 34.546: valkeakoski.fi NOTICE No answer received from 195.156.148.158 when querying for version.server/CH/TXT.
+ 34.599: valkeakoski.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) answers queries over UDP.
+ 34.692: valkeakoski.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) answers queries over TCP.
+ 34.739: valkeakoski.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) is not recursive.
+ 35.004: valkeakoski.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) authoritative for valkeakoski.fi.
+ 35.123: valkeakoski.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) closed for zone transfer of valkeakoski.fi.
+ 35.176: valkeakoski.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): hostname.bind = mgda1
+ 35.220: valkeakoski.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+ 35.292: valkeakoski.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): id.server = mgda1
+ 35.333: valkeakoski.fi NOTICE No answer received from 2001:2060:ffdd:a02:0:0:0:53 when querying for version.server/CH/TXT.
+ 35.333: valkeakoski.fi INFO Done testing name server ns2-fin.global.sonera.fi.
+ 35.334: valkeakoski.fi INFO Begin testing name server ns2-usa.global.sonera.net.
+ 35.334: valkeakoski.fi INFO Begin testing host ns2-usa.global.sonera.net.
+ 35.620: valkeakoski.fi INFO Begin testing address 46.38.190.56.
+ 37.646: valkeakoski.fi INFO Done testing address 46.38.190.56.
+ 37.646: valkeakoski.fi INFO Done testing host ns2-usa.global.sonera.net.
+ 37.867: valkeakoski.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over UDP.
+ 37.977: valkeakoski.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over TCP.
+ 38.038: valkeakoski.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) is not recursive.
+ 38.284: valkeakoski.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) authoritative for valkeakoski.fi.
+ 38.432: valkeakoski.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) closed for zone transfer of valkeakoski.fi.
+ 38.492: valkeakoski.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): hostname.bind = mgda5
+ 38.544: valkeakoski.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): version.bind = TeliaSonera Finland DNS MGDA
+ 38.595: valkeakoski.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): id.server = mgda5
+ 38.652: valkeakoski.fi NOTICE No answer received from 46.38.190.56 when querying for version.server/CH/TXT.
+ 38.652: valkeakoski.fi INFO Done testing name server ns2-usa.global.sonera.net.
+ 38.652: valkeakoski.fi INFO Begin testing zone consistency for valkeakoski.fi.
+ 39.364: valkeakoski.fi INFO SOA at address 2001:2060:ffdd:a01:0:0:0:53 has serial 2013111513.
+ 39.392: valkeakoski.fi INFO SOA at address 193.210.18.31 has serial 2013111513.
+ 39.418: valkeakoski.fi INFO SOA at address 80.64.9.124 has serial 2013111513.
+ 39.446: valkeakoski.fi INFO SOA at address 195.156.148.158 has serial 2013111513.
+ 39.470: valkeakoski.fi INFO SOA at address 2001:6e8:400:ffff:1:0:0:53 has serial 2013111513.
+ 39.542: valkeakoski.fi INFO SOA at address 46.38.190.56 has serial 2013111513.
+ 39.611: valkeakoski.fi INFO SOA at address 2001:2060:ffdd:a02:0:0:0:53 has serial 2013111513.
+ 39.612: valkeakoski.fi INFO All SOA records have consistent serial numbers.
+ 39.612: valkeakoski.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 40.184: valkeakoski.fi NOTICE The listed nameservers for valkeakoski.fi all report the same set of nameservers.
+ 40.184: valkeakoski.fi INFO Done testing zone consistency for valkeakoski.fi.
+ 40.184: valkeakoski.fi INFO Begin testing SOA parameters for valkeakoski.fi.
+ 40.203: valkeakoski.fi INFO Found SOA record for valkeakoski.fi.
+ 40.203: valkeakoski.fi INFO Begin testing host namesurfer.inet.fi.
+ 40.467: valkeakoski.fi INFO Begin testing address 131.177.73.253.
+ 43.965: valkeakoski.fi INFO Done testing address 131.177.73.253.
+ 43.965: valkeakoski.fi INFO Done testing host namesurfer.inet.fi.
+ 43.965: valkeakoski.fi INFO SOA MNAME for valkeakoski.fi valid (namesurfer.inet.fi).
+ 43.965: valkeakoski.fi NOTICE SOA MNAME for valkeakoski.fi (namesurfer.inet.fi) not listed as NS.
+ 48.124: valkeakoski.fi INFO SOA MNAME for valkeakoski.fi (namesurfer.inet.fi) is authoritative.
+ 48.124: valkeakoski.fi INFO Begin testing email address hostmaster@sonera.com.
+ 48.230: valkeakoski.fi INFO Mail exchangers for hostmaster@sonera.com found smtp.dave.sonera.fi,mail.cm.sonera.com.
+ 48.230: valkeakoski.fi INFO Begin testing host smtp.dave.sonera.fi.
+ 48.466: valkeakoski.fi INFO Begin testing address 131.177.120.25.
+ 48.976: valkeakoski.fi INFO Done testing address 131.177.120.25.
+ 48.976: valkeakoski.fi INFO Done testing host smtp.dave.sonera.fi.
+ 49.203: valkeakoski.fi INFO Begin testing host mail.cm.sonera.com.
+ 49.546: valkeakoski.fi INFO Begin testing address 193.208.151.61.
+ 50.176: valkeakoski.fi INFO Done testing address 193.208.151.61.
+ 50.176: valkeakoski.fi INFO Done testing host mail.cm.sonera.com.
+ 50.294: valkeakoski.fi INFO Done testing email address hostmaster@sonera.com.
+ 50.294: valkeakoski.fi INFO Successful attempt to deliver email for SOA RNAME of valkeakoski.fi (hostmaster.sonera.com) using hostmaster@sonera.com.
+ 50.294: valkeakoski.fi INFO SOA TTL for valkeakoski.fi OK (3600) - recommended >= 3600.
+ 50.294: valkeakoski.fi INFO SOA refresh for valkeakoski.fi OK (28800) - recommended >= 14400.
+ 50.295: valkeakoski.fi INFO SOA retry for valkeakoski.fi OK (7200) - recommended >= 3600.
+ 50.295: valkeakoski.fi INFO SOA expire for valkeakoski.fi OK (604800) - recommended >= 604800.
+ 50.295: valkeakoski.fi INFO SOA minimum for valkeakoski.fi OK (86400) - recommended between 300 and 86400.
+ 50.295: valkeakoski.fi INFO Done testing SOA parameters for valkeakoski.fi.
+ 50.295: valkeakoski.fi INFO Begin testing connectivity for valkeakoski.fi.
+ 52.416: valkeakoski.fi INFO Zone announced by more than one ASN.
+ 54.033: valkeakoski.fi INFO Zone announced by more than one IPv6 ASN.
+ 54.033: valkeakoski.fi INFO Done testing connectivity for valkeakoski.fi.
+ 54.033: valkeakoski.fi INFO Begin testing DNSSEC for valkeakoski.fi.
+ 54.107: valkeakoski.fi INFO Did not find DS record for valkeakoski.fi at parent.
+ 54.494: valkeakoski.fi INFO Servers for valkeakoski.fi have consistent extra processing status.
+ 54.521: valkeakoski.fi INFO Authenticated denial records not found for valkeakoski.fi.
+ 54.541: valkeakoski.fi INFO Did not find DNSKEY record for valkeakoski.fi at child.
+ 54.541: valkeakoski.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 54.541: valkeakoski.fi INFO Done testing DNSSEC for valkeakoski.fi.
+ 54.542: valkeakoski.fi INFO Test completed for zone valkeakoski.fi.

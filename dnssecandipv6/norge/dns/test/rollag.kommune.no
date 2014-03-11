@@ -1,0 +1,85 @@
+  0.000: rollag.kommune.no INFO Begin testing zone rollag.kommune.no with version 1.6.1.
+  0.447: rollag.kommune.no INFO Begin testing delegation for rollag.kommune.no.
+  8.524: rollag.kommune.no INFO Name servers listed at parent: ns1.itum.com,ns2.itum.com
+ 10.349: rollag.kommune.no INFO Name servers listed at child: ns1.itum.com,ns2.itum.com
+ 10.350: rollag.kommune.no NOTICE No IPv6 name servers found.
+ 10.510: rollag.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.675: rollag.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.812: rollag.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.933: rollag.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.853: rollag.kommune.no INFO It is possible to build a referral packet for rollag.kommune.no that works without EDNS0.
+ 12.466: rollag.kommune.no INFO Previously used name servers for rollag.kommune.no: 
+ 12.466: rollag.kommune.no INFO Done testing delegation for rollag.kommune.no.
+ 12.467: rollag.kommune.no INFO Begin testing name server ns1.itum.com.
+ 12.467: rollag.kommune.no INFO Begin testing host ns1.itum.com.
+ 12.906: rollag.kommune.no INFO Begin testing address 93.187.83.200.
+ 21.834: rollag.kommune.no WARNING Could not find reverse address for 93.187.83.200 (200.83.187.93.in-addr.arpa.).
+ 21.834: rollag.kommune.no INFO Done testing address 93.187.83.200.
+ 21.834: rollag.kommune.no INFO Done testing host ns1.itum.com.
+ 22.015: rollag.kommune.no INFO Name server ns1.itum.com (93.187.83.200) answers queries over UDP.
+ 22.052: rollag.kommune.no INFO Name server ns1.itum.com (93.187.83.200) answers queries over TCP.
+ 22.112: rollag.kommune.no INFO Name server ns1.itum.com (93.187.83.200) is not recursive.
+ 22.171: rollag.kommune.no INFO Name server ns1.itum.com (93.187.83.200) authoritative for rollag.kommune.no.
+ 22.384: rollag.kommune.no INFO Name server ns1.itum.com (93.187.83.200) closed for zone transfer of rollag.kommune.no.
+ 22.398: rollag.kommune.no NOTICE No answer received from 93.187.83.200 when querying for hostname.bind/CH/TXT.
+ 34.478: rollag.kommune.no INFO Done testing name server ns1.itum.com.
+ 34.478: rollag.kommune.no INFO Begin testing name server ns2.itum.com.
+ 34.478: rollag.kommune.no INFO Begin testing host ns2.itum.com.
+ 34.703: rollag.kommune.no INFO Begin testing address 85.19.217.194.
+ 35.625: rollag.kommune.no INFO Done testing address 85.19.217.194.
+ 35.625: rollag.kommune.no INFO Done testing host ns2.itum.com.
+ 35.740: rollag.kommune.no INFO Name server ns2.itum.com (85.19.217.194) answers queries over UDP.
+ 35.773: rollag.kommune.no INFO Name server ns2.itum.com (85.19.217.194) answers queries over TCP.
+ 35.820: rollag.kommune.no INFO Name server ns2.itum.com (85.19.217.194) is not recursive.
+ 35.894: rollag.kommune.no INFO Name server ns2.itum.com (85.19.217.194) authoritative for rollag.kommune.no.
+ 36.053: rollag.kommune.no INFO Name server ns2.itum.com (85.19.217.194) closed for zone transfer of rollag.kommune.no.
+ 36.072: rollag.kommune.no NOTICE No answer received from 85.19.217.194 when querying for hostname.bind/CH/TXT.
+ 48.136: rollag.kommune.no INFO Done testing name server ns2.itum.com.
+ 48.136: rollag.kommune.no INFO Begin testing zone consistency for rollag.kommune.no.
+ 48.972: rollag.kommune.no INFO SOA at address 93.187.83.200 has serial 2013091101.
+ 48.989: rollag.kommune.no INFO SOA at address 85.19.217.194 has serial 2013091101.
+ 48.989: rollag.kommune.no INFO All SOA records have consistent serial numbers.
+ 48.989: rollag.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 49.237: rollag.kommune.no NOTICE The listed nameservers for rollag.kommune.no all report the same set of nameservers.
+ 49.237: rollag.kommune.no INFO Done testing zone consistency for rollag.kommune.no.
+ 49.238: rollag.kommune.no INFO Begin testing SOA parameters for rollag.kommune.no.
+ 49.256: rollag.kommune.no INFO Found SOA record for rollag.kommune.no.
+ 49.256: rollag.kommune.no INFO Begin testing host ns1.itum.com.
+ 49.371: rollag.kommune.no INFO Begin testing address 93.187.83.200.
+ 49.372: rollag.kommune.no WARNING Could not find reverse address for 93.187.83.200 (200.83.187.93.in-addr.arpa.).
+ 49.372: rollag.kommune.no INFO Done testing address 93.187.83.200.
+ 49.372: rollag.kommune.no INFO Done testing host ns1.itum.com.
+ 49.372: rollag.kommune.no INFO SOA MNAME for rollag.kommune.no valid (ns1.itum.com).
+ 49.372: rollag.kommune.no INFO SOA MNAME for rollag.kommune.no (ns1.itum.com) listed as NS.
+ 49.504: rollag.kommune.no INFO SOA MNAME for rollag.kommune.no (ns1.itum.com) is authoritative.
+ 49.504: rollag.kommune.no INFO Begin testing email address hostmaster@itum.com.
+ 49.912: rollag.kommune.no INFO Mail exchangers for hostmaster@itum.com found mail.itum.com,mailgw.itum.com.
+ 49.912: rollag.kommune.no INFO Begin testing host mail.itum.com.
+ 50.289: rollag.kommune.no INFO Begin testing address 93.187.82.67.
+ 50.811: rollag.kommune.no INFO Done testing address 93.187.82.67.
+ 50.811: rollag.kommune.no INFO Done testing host mail.itum.com.
+ 51.072: rollag.kommune.no INFO Begin testing host mailgw.itum.com.
+ 51.455: rollag.kommune.no INFO Begin testing address 93.187.82.77.
+ 52.048: rollag.kommune.no INFO Done testing address 93.187.82.77.
+ 52.048: rollag.kommune.no INFO Done testing host mailgw.itum.com.
+ 52.157: rollag.kommune.no INFO Done testing email address hostmaster@itum.com.
+ 52.157: rollag.kommune.no INFO Successful attempt to deliver email for SOA RNAME of rollag.kommune.no (hostmaster.itum.com) using hostmaster@itum.com.
+ 52.158: rollag.kommune.no INFO SOA TTL for rollag.kommune.no OK (10800) - recommended >= 3600.
+ 52.158: rollag.kommune.no NOTICE SOA refresh for rollag.kommune.no too small (7200) - recommended >= 14400.
+ 52.158: rollag.kommune.no NOTICE SOA refresh for rollag.kommune.no lower than retry (7200 vs 7200).
+ 52.158: rollag.kommune.no INFO SOA retry for rollag.kommune.no OK (7200) - recommended >= 3600.
+ 52.158: rollag.kommune.no INFO SOA expire for rollag.kommune.no OK (2419200) - recommended >= 604800.
+ 52.158: rollag.kommune.no INFO SOA minimum for rollag.kommune.no OK (10800) - recommended between 300 and 86400.
+ 52.158: rollag.kommune.no INFO Done testing SOA parameters for rollag.kommune.no.
+ 52.158: rollag.kommune.no INFO Begin testing connectivity for rollag.kommune.no.
+ 53.187: rollag.kommune.no INFO Zone announced by more than one ASN.
+ 53.187: rollag.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 53.188: rollag.kommune.no INFO Done testing connectivity for rollag.kommune.no.
+ 53.188: rollag.kommune.no INFO Begin testing DNSSEC for rollag.kommune.no.
+ 53.263: rollag.kommune.no INFO Did not find DS record for rollag.kommune.no at parent.
+ 53.319: rollag.kommune.no INFO Servers for rollag.kommune.no have consistent extra processing status.
+ 53.346: rollag.kommune.no INFO Authenticated denial records not found for rollag.kommune.no.
+ 53.361: rollag.kommune.no INFO Did not find DNSKEY record for rollag.kommune.no at child.
+ 53.361: rollag.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 53.361: rollag.kommune.no INFO Done testing DNSSEC for rollag.kommune.no.
+ 53.362: rollag.kommune.no INFO Test completed for zone rollag.kommune.no.

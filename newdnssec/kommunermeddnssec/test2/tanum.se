@@ -1,0 +1,110 @@
+  0.000: tanum.se INFO Begin testing zone tanum.se with version 1.2.
+  0.000: tanum.se INFO Begin testing delegation for tanum.se.
+  9.454: tanum.se INFO Name servers listed at parent: dns1.tanum.se,dns5.telia.com,ns.stromstad.se
+ 11.173: tanum.se INFO Name servers listed at child: dns1.tanum.se,dns5.telia.com,ns.stromstad.se
+ 11.174: tanum.se NOTICE No IPv6 name servers found.
+ 11.183: tanum.se INFO Parent glue for tanum.se found: dns1.tanum.se (194.68.124.12)
+ 11.273: tanum.se INFO Parent glue for tanum.se found: ns.stromstad.se (194.71.159.2)
+ 11.291: tanum.se INFO Checking glue for dns1.tanum.se (194.68.124.12).
+ 11.310: tanum.se INFO Child glue for tanum.se found: dns1.tanum.se (194.68.124.12)
+ 11.310: tanum.se INFO Checking glue for ns.stromstad.se (194.71.159.2).
+ 11.310: tanum.se INFO Parent glue for tanum.se found: dns1.tanum.se (194.68.124.12)
+ 11.311: tanum.se INFO Parent glue for tanum.se found: ns.stromstad.se (194.71.159.2)
+ 11.311: tanum.se INFO Done testing delegation for tanum.se.
+ 11.312: tanum.se INFO Begin testing name server dns1.tanum.se.
+ 11.312: tanum.se INFO Begin testing host dns1.tanum.se.
+ 11.312: tanum.se INFO Begin testing address 194.68.124.12.
+ 16.151: tanum.se INFO Done testing address 194.68.124.12.
+ 16.151: tanum.se INFO Done testing host dns1.tanum.se.
+ 16.170: tanum.se INFO Name server dns1.tanum.se (194.68.124.12) answers queries over UDP.
+ 16.202: tanum.se INFO Name server dns1.tanum.se (194.68.124.12) answers queries over TCP.
+ 16.395: tanum.se INFO Name server dns1.tanum.se (194.68.124.12) is not recursive.
+ 16.414: tanum.se INFO Name server dns1.tanum.se (194.68.124.12) authoritative for tanum.se.
+ 16.661: tanum.se INFO Name server dns1.tanum.se (194.68.124.12) closed for zone transfer of tanum.se.
+ 16.678: tanum.se NOTICE No answer received from 194.68.124.12 when querying for hostname.bind/CH/TXT.
+ 34.679: tanum.se INFO Done testing name server dns1.tanum.se.
+ 34.679: tanum.se INFO Begin testing name server dns5.telia.com.
+ 34.680: tanum.se INFO Begin testing host dns5.telia.com.
+ 34.680: tanum.se INFO Begin testing address 81.228.11.68.
+ 35.603: tanum.se INFO Done testing address 81.228.11.68.
+ 35.603: tanum.se INFO Done testing host dns5.telia.com.
+ 35.612: tanum.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over UDP.
+ 35.623: tanum.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over TCP.
+ 35.630: tanum.se INFO Name server dns5.telia.com (81.228.11.68) is not recursive.
+ 35.638: tanum.se INFO Name server dns5.telia.com (81.228.11.68) authoritative for tanum.se.
+ 35.651: tanum.se INFO Name server dns5.telia.com (81.228.11.68) closed for zone transfer of tanum.se.
+ 35.661: tanum.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): hostname.bind = dnshosting1-sn1.fre.skanova.net
+ 35.668: tanum.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 35.681: tanum.se NOTICE No answer received from 81.228.11.68 when querying for version.server/CH/TXT.
+ 35.682: tanum.se INFO Done testing name server dns5.telia.com.
+ 35.682: tanum.se INFO Begin testing name server ns.stromstad.se.
+ 35.682: tanum.se INFO Begin testing host ns.stromstad.se.
+ 35.682: tanum.se INFO Begin testing address 194.71.159.2.
+ 36.924: tanum.se INFO Done testing address 194.71.159.2.
+ 36.924: tanum.se INFO Done testing host ns.stromstad.se.
+ 36.943: tanum.se INFO Name server ns.stromstad.se (194.71.159.2) answers queries over UDP.
+ 36.976: tanum.se INFO Name server ns.stromstad.se (194.71.159.2) answers queries over TCP.
+ 36.995: tanum.se INFO Name server ns.stromstad.se (194.71.159.2) is not recursive.
+ 37.014: tanum.se INFO Name server ns.stromstad.se (194.71.159.2) authoritative for tanum.se.
+ 37.158: tanum.se INFO Name server ns.stromstad.se (194.71.159.2) closed for zone transfer of tanum.se.
+ 37.175: tanum.se NOTICE No answer received from 194.71.159.2 when querying for hostname.bind/CH/TXT.
+ 37.192: tanum.se NOTICE No answer received from 194.71.159.2 when querying for version.bind/CH/TXT.
+ 37.208: tanum.se NOTICE No answer received from 194.71.159.2 when querying for id.server/CH/TXT.
+ 37.225: tanum.se NOTICE No answer received from 194.71.159.2 when querying for version.server/CH/TXT.
+ 37.225: tanum.se INFO Done testing name server ns.stromstad.se.
+ 37.226: tanum.se INFO Begin testing zone consistency for tanum.se.
+ 37.249: tanum.se INFO SOA at address 194.71.159.2 has serial 2060335.
+ 37.256: tanum.se INFO SOA at address 81.228.11.68 has serial 2060335.
+ 37.274: tanum.se INFO SOA at address 194.68.124.12 has serial 2060335.
+ 37.274: tanum.se INFO All SOA records have consistent serial numbers.
+ 37.274: tanum.se INFO All SOA records are consistent among all name servers.
+ 37.274: tanum.se INFO Done testing zone consistency for tanum.se.
+ 37.274: tanum.se INFO Begin testing SOA parameters for tanum.se.
+ 37.293: tanum.se INFO Found SOA record for tanum.se.
+ 37.293: tanum.se INFO Begin testing host dns1.tanum.se.
+ 37.293: tanum.se INFO Begin testing address 194.68.124.12.
+ 37.295: tanum.se INFO Done testing address 194.68.124.12.
+ 37.295: tanum.se INFO Done testing host dns1.tanum.se.
+ 37.295: tanum.se INFO SOA MNAME for tanum.se valid (dns1.tanum.se).
+ 37.295: tanum.se INFO SOA MNAME for tanum.se (dns1.tanum.se) listed as NS.
+ 37.315: tanum.se INFO SOA MNAME for tanum.se (dns1.tanum.se) is authoritative.
+ 37.315: tanum.se INFO Begin testing email address hostmaster@tanum.se.
+ 37.587: tanum.se INFO Mail exchangers for hostmaster@tanum.se found smtp-in.sto-hy.se.stejtech.net,smtp-in.sto-ste.se.stejtech.net.
+ 37.587: tanum.se INFO Begin testing host smtp-in.sto-hy.se.stejtech.net.
+ 38.341: tanum.se INFO Begin testing address 83.140.31.145.
+ 40.357: tanum.se INFO Done testing address 83.140.31.145.
+ 40.357: tanum.se INFO Done testing host smtp-in.sto-hy.se.stejtech.net.
+ 40.358: tanum.se INFO Begin testing mail server smtp-in.sto-hy.se.stejtech.net (83.140.31.145) with hostmaster@tanum.se.
+ 40.384: tanum.se INFO SMTP banner: smtp6.stejtech.net ESMTP Stej PowerFilter
+ 40.781: tanum.se INFO SMTP testing of smtp-in.sto-hy.se.stejtech.net (83.140.31.145) with hostmaster@tanum.se succeeded without errors.
+ 40.782: tanum.se INFO Done testing mail server smtp-in.sto-hy.se.stejtech.net (83.140.31.145) with hostmaster@tanum.se.
+ 40.783: tanum.se INFO Begin testing host smtp-in.sto-ste.se.stejtech.net.
+ 41.309: tanum.se INFO Begin testing address 80.248.224.70.
+ 42.511: tanum.se INFO Done testing address 80.248.224.70.
+ 42.512: tanum.se INFO Done testing host smtp-in.sto-ste.se.stejtech.net.
+ 42.512: tanum.se INFO Delivery over IPv4 to hostmaster@tanum.se ok.
+ 42.512: tanum.se INFO Delivery over IPv6 to hostmaster@tanum.se could not be done.
+ 42.512: tanum.se INFO Done testing email address hostmaster@tanum.se.
+ 42.512: tanum.se INFO Successful attempt to deliver email for SOA RNAME of tanum.se (hostmaster.tanum.se) using hostmaster@tanum.se.
+ 42.512: tanum.se INFO SOA TTL for tanum.se OK (7200) - recommended >= 3600.
+ 42.512: tanum.se INFO SOA refresh for tanum.se OK (43200) - recommended >= 14400.
+ 42.513: tanum.se INFO SOA retry for tanum.se OK (7200) - recommended >= 3600.
+ 42.513: tanum.se INFO SOA expire for tanum.se OK (1209600) - recommended >= 604800.
+ 42.513: tanum.se INFO SOA minimum for tanum.se OK (7200) - recommended between 300 and 86400.
+ 42.513: tanum.se INFO Done testing SOA parameters for tanum.se.
+ 42.513: tanum.se INFO Begin testing connectivity for tanum.se.
+ 43.121: tanum.se INFO Name server 194.71.159.2 announced by: 3301
+ 43.803: tanum.se INFO Name server 194.68.124.12 announced by: 3301
+ 44.315: tanum.se INFO Name server 81.228.11.68 announced by: 3301
+ 44.315: tanum.se INFO Zone announced by IPv4 ASN: 3301
+ 44.315: tanum.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 44.315: tanum.se INFO Zone announced by IPv6 ASN: 
+ 44.315: tanum.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 44.315: tanum.se INFO Done testing connectivity for tanum.se.
+ 44.315: tanum.se INFO Begin testing DNSSEC for tanum.se.
+ 44.362: tanum.se INFO Did not find DS record for tanum.se at parent.
+ 44.438: tanum.se INFO Servers for tanum.se have consistent extra processing status.
+ 44.438: tanum.se INFO Did not find DNSKEY record for tanum.se at child.
+ 44.438: tanum.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 44.438: tanum.se INFO Done testing DNSSEC for tanum.se.
+ 44.438: tanum.se INFO Test completed for zone tanum.se.

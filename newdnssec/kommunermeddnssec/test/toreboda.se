@@ -1,0 +1,98 @@
+  0.000: toreboda.se INFO Begin testing zone toreboda.se with version 1.6.1.
+  0.667: toreboda.se INFO Begin testing delegation for toreboda.se.
+ 13.611: toreboda.se INFO Name servers listed at parent: ns.mariestad.se,ns1.mariestad.se,ns1.mteab.net
+ 17.755: toreboda.se INFO Name servers listed at child: ns.mariestad.se,ns1.mariestad.se,ns1.mteab.net
+ 17.755: toreboda.se NOTICE No IPv6 name servers found.
+ 17.853: toreboda.se INFO Parent glue for toreboda.se found: ns.mariestad.se (80.254.244.194)
+ 18.065: toreboda.se INFO Parent glue for toreboda.se found: ns1.mariestad.se (80.254.244.217)
+ 18.275: toreboda.se INFO Checking glue for ns.mariestad.se (80.254.244.194).
+ 18.275: toreboda.se INFO Checking glue for ns1.mariestad.se (80.254.244.217).
+ 18.275: toreboda.se INFO Parent glue for toreboda.se found: ns.mariestad.se (80.254.244.194)
+ 18.276: toreboda.se INFO Parent glue for toreboda.se found: ns1.mariestad.se (80.254.244.217)
+ 20.392: toreboda.se INFO It is possible to build a referral packet for toreboda.se that works without EDNS0.
+ 22.051: toreboda.se INFO Previously used name servers for toreboda.se: 
+ 22.051: toreboda.se INFO Done testing delegation for toreboda.se.
+ 22.052: toreboda.se INFO Begin testing name server ns.mariestad.se.
+ 22.052: toreboda.se INFO Begin testing host ns.mariestad.se.
+ 22.552: toreboda.se INFO Begin testing address 80.254.244.194.
+ 29.211: toreboda.se INFO Done testing address 80.254.244.194.
+ 29.211: toreboda.se INFO Done testing host ns.mariestad.se.
+ 30.214: toreboda.se INFO Name server ns.mariestad.se (80.254.244.194) answers queries over UDP.
+ 30.347: toreboda.se INFO Name server ns.mariestad.se (80.254.244.194) answers queries over TCP.
+ 30.399: toreboda.se INFO Name server ns.mariestad.se (80.254.244.194) is not recursive.
+ 30.546: toreboda.se INFO Name server ns.mariestad.se (80.254.244.194) authoritative for toreboda.se.
+ 30.803: toreboda.se INFO Name server ns.mariestad.se (80.254.244.194) closed for zone transfer of toreboda.se.
+ 46.887: toreboda.se INFO Done testing name server ns.mariestad.se.
+ 46.887: toreboda.se INFO Begin testing name server ns1.mariestad.se.
+ 46.887: toreboda.se INFO Begin testing host ns1.mariestad.se.
+ 47.129: toreboda.se INFO Begin testing address 80.254.244.217.
+ 49.195: toreboda.se INFO Done testing address 80.254.244.217.
+ 49.195: toreboda.se INFO Done testing host ns1.mariestad.se.
+ 49.495: toreboda.se INFO Name server ns1.mariestad.se (80.254.244.217) answers queries over UDP.
+ 49.699: toreboda.se INFO Name server ns1.mariestad.se (80.254.244.217) answers queries over TCP.
+ 49.751: toreboda.se INFO Name server ns1.mariestad.se (80.254.244.217) is not recursive.
+ 49.900: toreboda.se INFO Name server ns1.mariestad.se (80.254.244.217) authoritative for toreboda.se.
+ 50.169: toreboda.se INFO Name server ns1.mariestad.se (80.254.244.217) closed for zone transfer of toreboda.se.
+ 66.275: toreboda.se INFO Done testing name server ns1.mariestad.se.
+ 66.275: toreboda.se INFO Begin testing name server ns1.mteab.net.
+ 66.275: toreboda.se INFO Begin testing host ns1.mteab.net.
+ 66.447: toreboda.se INFO Begin testing address 80.254.240.18.
+ 67.230: toreboda.se INFO Done testing address 80.254.240.18.
+ 67.230: toreboda.se INFO Done testing host ns1.mteab.net.
+ 67.391: toreboda.se INFO Name server ns1.mteab.net (80.254.240.18) answers queries over UDP.
+ 69.404: toreboda.se NOTICE DNS lookup error (connection failed).
+ 69.405: toreboda.se ERROR Name server ns1.mteab.net (80.254.240.18) does not answer queries over TCP.
+ 69.453: toreboda.se WARNING Name server ns1.mteab.net (80.254.240.18) is recursive.
+ 71.531: toreboda.se NOTICE DNS lookup error (connection failed).
+ 71.531: toreboda.se INFO Name server ns1.mteab.net (80.254.240.18) authoritative for toreboda.se.
+ 71.531: toreboda.se INFO Name server ns1.mteab.net (80.254.240.18) not checked for zone transfer of toreboda.se.
+ 71.531: toreboda.se INFO Name server ns1.mteab.net (80.254.240.18) not checked for legacy name server ID.
+ 71.531: toreboda.se INFO Done testing name server ns1.mteab.net.
+ 71.531: toreboda.se INFO Begin testing zone consistency for toreboda.se.
+ 72.369: toreboda.se INFO SOA at address 80.254.244.194 has serial 2014022102.
+ 72.392: toreboda.se INFO SOA at address 80.254.244.217 has serial 2014022102.
+ 72.412: toreboda.se INFO SOA at address 80.254.240.18 has serial 2014022102.
+ 72.412: toreboda.se INFO All SOA records have consistent serial numbers.
+ 72.412: toreboda.se INFO All other fields in the SOA record are consistent among all name servers.
+ 73.448: toreboda.se NOTICE The listed nameservers for toreboda.se all report the same set of nameservers.
+ 73.448: toreboda.se INFO Done testing zone consistency for toreboda.se.
+ 73.448: toreboda.se INFO Begin testing SOA parameters for toreboda.se.
+ 73.479: toreboda.se INFO Found SOA record for toreboda.se.
+ 73.479: toreboda.se INFO Begin testing host ns.mariestad.se.
+ 73.619: toreboda.se INFO Begin testing address 80.254.244.194.
+ 73.707: toreboda.se INFO Done testing address 80.254.244.194.
+ 73.707: toreboda.se INFO Done testing host ns.mariestad.se.
+ 73.707: toreboda.se INFO SOA MNAME for toreboda.se valid (ns.mariestad.se).
+ 73.707: toreboda.se INFO SOA MNAME for toreboda.se (ns.mariestad.se) listed as NS.
+ 73.840: toreboda.se INFO SOA MNAME for toreboda.se (ns.mariestad.se) is authoritative.
+ 73.840: toreboda.se INFO Begin testing email address hostmaster@mariestad.se.
+ 74.001: toreboda.se INFO Mail exchangers for hostmaster@mariestad.se found mail.mariestad.se,mail2.mariestad.se.
+ 74.001: toreboda.se INFO Begin testing host mail.mariestad.se.
+ 74.233: toreboda.se INFO Begin testing address 80.254.244.195.
+ 74.583: toreboda.se INFO Done testing address 80.254.244.195.
+ 74.584: toreboda.se INFO Done testing host mail.mariestad.se.
+ 74.705: toreboda.se INFO Begin testing host mail2.mariestad.se.
+ 74.981: toreboda.se INFO Begin testing address 80.254.244.216.
+ 75.419: toreboda.se INFO Done testing address 80.254.244.216.
+ 75.419: toreboda.se INFO Done testing host mail2.mariestad.se.
+ 75.511: toreboda.se INFO Done testing email address hostmaster@mariestad.se.
+ 75.511: toreboda.se INFO Successful attempt to deliver email for SOA RNAME of toreboda.se (hostmaster.mariestad.se) using hostmaster@mariestad.se.
+ 75.512: toreboda.se INFO SOA TTL for toreboda.se OK (10800) - recommended >= 3600.
+ 75.512: toreboda.se INFO SOA refresh for toreboda.se OK (14400) - recommended >= 14400.
+ 75.512: toreboda.se INFO SOA retry for toreboda.se OK (3600) - recommended >= 3600.
+ 75.512: toreboda.se INFO SOA expire for toreboda.se OK (777600) - recommended >= 604800.
+ 75.512: toreboda.se INFO SOA minimum for toreboda.se OK (3600) - recommended between 300 and 86400.
+ 75.512: toreboda.se INFO Done testing SOA parameters for toreboda.se.
+ 75.512: toreboda.se INFO Begin testing connectivity for toreboda.se.
+ 77.221: toreboda.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 77.221: toreboda.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 77.221: toreboda.se INFO Done testing connectivity for toreboda.se.
+ 77.221: toreboda.se INFO Begin testing DNSSEC for toreboda.se.
+ 77.240: toreboda.se INFO Did not find DS record for toreboda.se at parent.
+ 79.287: toreboda.se NOTICE DNS lookup error (connection failed).
+ 79.324: toreboda.se INFO Servers for toreboda.se have consistent extra processing status.
+ 81.495: toreboda.se INFO Authenticated denial records not found for toreboda.se.
+ 81.514: toreboda.se INFO Did not find DNSKEY record for toreboda.se at child.
+ 81.514: toreboda.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 81.514: toreboda.se INFO Done testing DNSSEC for toreboda.se.
+ 81.515: toreboda.se INFO Test completed for zone toreboda.se.

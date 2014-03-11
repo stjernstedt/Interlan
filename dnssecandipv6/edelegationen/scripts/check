@@ -1,0 +1,4 @@
+#!/bin/sh
+cd /home/dnssecandipv6/public_html/edelegationen/scripts
+./checkipv6 > ../edelegationen.txt
+./checkdns > ../edelegationendns.txt

@@ -1,0 +1,88 @@
+  0.000: odense.dk INFO Begin testing zone odense.dk with version 1.6.1.
+  0.397: odense.dk INFO Begin testing delegation for odense.dk.
+  5.940: odense.dk INFO Name servers listed at parent: ns-auth03.kmd.dk,ns-auth04.kmd.dk
+  7.529: odense.dk INFO Name servers listed at child: ns-auth03.kmd.dk,ns-auth04.kmd.dk
+  7.529: odense.dk NOTICE No IPv6 name servers found.
+  7.669: odense.dk INFO Parent glue for odense.dk found: ns-auth03.kmd.dk (131.165.64.5)
+  7.758: odense.dk INFO Parent glue for odense.dk found: ns-auth04.kmd.dk (131.165.4.5)
+  7.834: odense.dk INFO Checking glue for ns-auth03.kmd.dk (131.165.64.5).
+  7.834: odense.dk INFO Checking glue for ns-auth04.kmd.dk (131.165.4.5).
+  7.834: odense.dk INFO Parent glue for odense.dk found: ns-auth03.kmd.dk (131.165.64.5)
+  7.834: odense.dk INFO Parent glue for odense.dk found: ns-auth04.kmd.dk (131.165.4.5)
+  8.917: odense.dk INFO It is possible to build a referral packet for odense.dk that works without EDNS0.
+  9.639: odense.dk INFO Previously used name servers for odense.dk: 
+  9.640: odense.dk INFO Done testing delegation for odense.dk.
+  9.640: odense.dk INFO Begin testing name server ns-auth03.kmd.dk.
+  9.640: odense.dk INFO Begin testing host ns-auth03.kmd.dk.
+  9.960: odense.dk INFO Begin testing address 131.165.64.5.
+ 16.284: odense.dk INFO Done testing address 131.165.64.5.
+ 16.284: odense.dk INFO Done testing host ns-auth03.kmd.dk.
+ 16.494: odense.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) answers queries over UDP.
+ 16.648: odense.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) answers queries over TCP.
+ 16.701: odense.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) is not recursive.
+ 16.941: odense.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) authoritative for odense.dk.
+ 17.092: odense.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) closed for zone transfer of odense.dk.
+ 17.150: odense.dk INFO Legacy name server ID for ns-auth03.kmd.dk (131.165.64.5): hostname.bind = ns-auth03.kmd.dk
+ 17.212: odense.dk INFO Legacy name server ID for ns-auth03.kmd.dk (131.165.64.5): version.bind = 1.0
+ 17.324: odense.dk NOTICE No answer received from 131.165.64.5 when querying for version.server/CH/TXT.
+ 17.325: odense.dk INFO Done testing name server ns-auth03.kmd.dk.
+ 17.325: odense.dk INFO Begin testing name server ns-auth04.kmd.dk.
+ 17.325: odense.dk INFO Begin testing host ns-auth04.kmd.dk.
+ 17.593: odense.dk INFO Begin testing address 131.165.4.5.
+ 18.112: odense.dk INFO Done testing address 131.165.4.5.
+ 18.112: odense.dk INFO Done testing host ns-auth04.kmd.dk.
+ 18.315: odense.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) answers queries over UDP.
+ 18.425: odense.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) answers queries over TCP.
+ 18.480: odense.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) is not recursive.
+ 18.691: odense.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) authoritative for odense.dk.
+ 18.852: odense.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) closed for zone transfer of odense.dk.
+ 18.916: odense.dk INFO Legacy name server ID for ns-auth04.kmd.dk (131.165.4.5): hostname.bind = ns-auth04.kmd.dk
+ 18.968: odense.dk INFO Legacy name server ID for ns-auth04.kmd.dk (131.165.4.5): version.bind = 1.0
+ 19.074: odense.dk NOTICE No answer received from 131.165.4.5 when querying for version.server/CH/TXT.
+ 19.074: odense.dk INFO Done testing name server ns-auth04.kmd.dk.
+ 19.075: odense.dk INFO Begin testing zone consistency for odense.dk.
+ 19.889: odense.dk INFO SOA at address 131.165.4.5 has serial 501.
+ 19.942: odense.dk INFO SOA at address 131.165.64.5 has serial 501.
+ 19.942: odense.dk INFO All SOA records have consistent serial numbers.
+ 19.942: odense.dk INFO All other fields in the SOA record are consistent among all name servers.
+ 20.397: odense.dk NOTICE The listed nameservers for odense.dk all report the same set of nameservers.
+ 20.397: odense.dk INFO Done testing zone consistency for odense.dk.
+ 20.397: odense.dk INFO Begin testing SOA parameters for odense.dk.
+ 20.455: odense.dk INFO Found SOA record for odense.dk.
+ 20.456: odense.dk INFO Begin testing host ns-auth03.kmd.dk.
+ 20.606: odense.dk INFO Begin testing address 131.165.64.5.
+ 20.791: odense.dk INFO Done testing address 131.165.64.5.
+ 20.791: odense.dk INFO Done testing host ns-auth03.kmd.dk.
+ 20.791: odense.dk INFO SOA MNAME for odense.dk valid (ns-auth03.kmd.dk).
+ 20.795: odense.dk INFO SOA MNAME for odense.dk (ns-auth03.kmd.dk) listed as NS.
+ 21.101: odense.dk INFO SOA MNAME for odense.dk (ns-auth03.kmd.dk) is authoritative.
+ 21.102: odense.dk INFO Begin testing email address dnsadmin@kmd.dk.
+ 21.306: odense.dk INFO Mail exchangers for dnsadmin@kmd.dk found edge1.kmd.dk,edge2.kmd.dk.
+ 21.307: odense.dk INFO Begin testing host edge1.kmd.dk.
+ 21.558: odense.dk INFO Begin testing address 131.165.63.88.
+ 22.066: odense.dk INFO Done testing address 131.165.63.88.
+ 22.066: odense.dk INFO Done testing host edge1.kmd.dk.
+ 22.252: odense.dk INFO Begin testing host edge2.kmd.dk.
+ 22.764: odense.dk INFO Begin testing address 131.165.63.89.
+ 23.444: odense.dk INFO Done testing address 131.165.63.89.
+ 23.444: odense.dk INFO Done testing host edge2.kmd.dk.
+ 23.599: odense.dk INFO Done testing email address dnsadmin@kmd.dk.
+ 23.599: odense.dk INFO Successful attempt to deliver email for SOA RNAME of odense.dk (dnsadmin.kmd.dk) using dnsadmin@kmd.dk.
+ 23.600: odense.dk INFO SOA TTL for odense.dk OK (3600) - recommended >= 3600.
+ 23.600: odense.dk NOTICE SOA refresh for odense.dk too small (10800) - recommended >= 14400.
+ 23.600: odense.dk INFO SOA retry for odense.dk OK (3600) - recommended >= 3600.
+ 23.600: odense.dk INFO SOA expire for odense.dk OK (604800) - recommended >= 604800.
+ 23.600: odense.dk INFO SOA minimum for odense.dk OK (43200) - recommended between 300 and 86400.
+ 23.600: odense.dk INFO Done testing SOA parameters for odense.dk.
+ 23.600: odense.dk INFO Begin testing connectivity for odense.dk.
+ 24.619: odense.dk NOTICE Zone announced by fewer than two IPv4 ASN.
+ 24.619: odense.dk NOTICE Zone announced by fewer than two IPv6 ASN.
+ 24.619: odense.dk INFO Done testing connectivity for odense.dk.
+ 24.619: odense.dk INFO Begin testing DNSSEC for odense.dk.
+ 24.699: odense.dk INFO Did not find DS record for odense.dk at parent.
+ 24.924: odense.dk INFO Servers for odense.dk have consistent extra processing status.
+ 25.028: odense.dk INFO Authenticated denial records not found for odense.dk.
+ 25.084: odense.dk INFO Did not find DNSKEY record for odense.dk at child.
+ 25.084: odense.dk INFO No DNSKEY(s) found at child, other tests skipped.
+ 25.084: odense.dk INFO Done testing DNSSEC for odense.dk.
+ 25.085: odense.dk INFO Test completed for zone odense.dk.

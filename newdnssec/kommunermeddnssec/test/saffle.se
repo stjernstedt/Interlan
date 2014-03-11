@@ -1,0 +1,189 @@
+  0.000: saffle.se INFO Begin testing zone saffle.se with version 1.6.1.
+  0.683: saffle.se INFO Begin testing delegation for saffle.se.
+ 12.876: saffle.se INFO Name servers listed at parent: a.dns.tdc.se,b.dns.tdc.se,ns.saffle.se
+ 17.063: saffle.se INFO Name servers listed at child: a.dns.tdc.se,b.dns.tdc.se,ns.saffle.se
+ 17.186: saffle.se INFO Parent glue for saffle.se found: a.dns.tdc.se (213.50.29.190)
+ 17.360: saffle.se INFO Parent glue for saffle.se found: b.dns.tdc.se (213.50.29.195)
+ 17.699: saffle.se INFO Parent glue for saffle.se found: ns.saffle.se (195.84.66.2)
+ 17.808: saffle.se INFO Checking glue for a.dns.tdc.se (213.50.29.190).
+ 17.809: saffle.se INFO Checking glue for b.dns.tdc.se (213.50.29.195).
+ 17.861: saffle.se INFO Checking glue for ns.saffle.se (195.84.66.2).
+ 17.911: saffle.se INFO Child glue for saffle.se found: ns.saffle.se (195.84.66.2)
+ 17.969: saffle.se INFO Parent glue for saffle.se found: a.dns.tdc.se (213.50.29.190)
+ 17.969: saffle.se INFO Parent glue for saffle.se found: b.dns.tdc.se (213.50.29.195)
+ 17.970: saffle.se INFO Parent glue for saffle.se found: ns.saffle.se (195.84.66.2)
+ 19.043: saffle.se INFO It is possible to build a referral packet for saffle.se that works without EDNS0.
+ 19.537: saffle.se INFO Previously used name servers for saffle.se: 
+ 19.538: saffle.se INFO Done testing delegation for saffle.se.
+ 19.538: saffle.se INFO Begin testing name server a.dns.tdc.se.
+ 19.538: saffle.se INFO Begin testing host a.dns.tdc.se.
+ 19.539: saffle.se INFO Begin testing address 213.50.29.190.
+ 42.446: saffle.se INFO Done testing address 213.50.29.190.
+ 42.446: saffle.se INFO Begin testing address 2001:6f0:0:1:0:0:2:2.
+ 42.832: saffle.se INFO Done testing address 2001:6f0:0:1:0:0:2:2.
+ 42.832: saffle.se INFO Done testing host a.dns.tdc.se.
+ 42.867: saffle.se INFO Name server a.dns.tdc.se (213.50.29.190) answers queries over UDP.
+ 42.911: saffle.se INFO Name server a.dns.tdc.se (213.50.29.190) answers queries over TCP.
+ 42.966: saffle.se INFO Name server a.dns.tdc.se (213.50.29.190) is not recursive.
+ 43.011: saffle.se INFO Name server a.dns.tdc.se (213.50.29.190) authoritative for saffle.se.
+ 43.041: saffle.se INFO Name server a.dns.tdc.se (213.50.29.190) closed for zone transfer of saffle.se.
+ 43.048: saffle.se INFO Legacy name server ID for a.dns.tdc.se (213.50.29.190): hostname.bind = a
+ 43.069: saffle.se INFO Legacy name server ID for a.dns.tdc.se (213.50.29.190): version.bind = tssk, well what can i say?
+ 43.084: saffle.se NOTICE No answer received from 213.50.29.190 when querying for version.server/CH/TXT.
+ 43.106: saffle.se INFO Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) answers queries over UDP.
+ 43.146: saffle.se INFO Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) answers queries over TCP.
+ 43.177: saffle.se INFO Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) is not recursive.
+ 43.308: saffle.se INFO Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) authoritative for saffle.se.
+ 43.369: saffle.se INFO Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) closed for zone transfer of saffle.se.
+ 43.388: saffle.se INFO Legacy name server ID for a.dns.tdc.se (2001:6f0:0:1:0:0:2:2): hostname.bind = a
+ 43.403: saffle.se INFO Legacy name server ID for a.dns.tdc.se (2001:6f0:0:1:0:0:2:2): version.bind = tssk, well what can i say?
+ 43.452: saffle.se NOTICE No answer received from 2001:6f0:0:1:0:0:2:2 when querying for version.server/CH/TXT.
+ 43.452: saffle.se INFO Done testing name server a.dns.tdc.se.
+ 43.453: saffle.se INFO Begin testing name server b.dns.tdc.se.
+ 43.458: saffle.se INFO Begin testing host b.dns.tdc.se.
+ 43.459: saffle.se INFO Begin testing address 213.50.29.195.
+ 43.778: saffle.se INFO Done testing address 213.50.29.195.
+ 43.778: saffle.se INFO Begin testing address 2001:6f0:0:1:0:0:1:2.
+ 44.529: saffle.se INFO Done testing address 2001:6f0:0:1:0:0:1:2.
+ 44.529: saffle.se INFO Done testing host b.dns.tdc.se.
+ 44.538: saffle.se INFO Name server b.dns.tdc.se (213.50.29.195) answers queries over UDP.
+ 44.561: saffle.se INFO Name server b.dns.tdc.se (213.50.29.195) answers queries over TCP.
+ 44.571: saffle.se INFO Name server b.dns.tdc.se (213.50.29.195) is not recursive.
+ 44.647: saffle.se INFO Name server b.dns.tdc.se (213.50.29.195) authoritative for saffle.se.
+ 44.678: saffle.se INFO Name server b.dns.tdc.se (213.50.29.195) closed for zone transfer of saffle.se.
+ 44.689: saffle.se INFO Legacy name server ID for b.dns.tdc.se (213.50.29.195): hostname.bind = b
+ 44.705: saffle.se INFO Legacy name server ID for b.dns.tdc.se (213.50.29.195): version.bind = tssk, well what can i say?
+ 44.737: saffle.se NOTICE No answer received from 213.50.29.195 when querying for version.server/CH/TXT.
+ 44.784: saffle.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) answers queries over UDP.
+ 44.824: saffle.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) answers queries over TCP.
+ 44.867: saffle.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) is not recursive.
+ 45.365: saffle.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) authoritative for saffle.se.
+ 45.401: saffle.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) closed for zone transfer of saffle.se.
+ 45.413: saffle.se INFO Legacy name server ID for b.dns.tdc.se (2001:6f0:0:1:0:0:1:2): hostname.bind = b
+ 45.434: saffle.se INFO Legacy name server ID for b.dns.tdc.se (2001:6f0:0:1:0:0:1:2): version.bind = tssk, well what can i say?
+ 45.541: saffle.se NOTICE No answer received from 2001:6f0:0:1:0:0:1:2 when querying for version.server/CH/TXT.
+ 45.542: saffle.se INFO Done testing name server b.dns.tdc.se.
+ 45.542: saffle.se INFO Begin testing name server ns.saffle.se.
+ 45.542: saffle.se INFO Begin testing host ns.saffle.se.
+ 45.713: saffle.se INFO Begin testing address 195.84.66.2.
+ 46.910: saffle.se INFO Done testing address 195.84.66.2.
+ 46.910: saffle.se INFO Done testing host ns.saffle.se.
+ 47.107: saffle.se INFO Name server ns.saffle.se (195.84.66.2) answers queries over UDP.
+ 47.144: saffle.se INFO Name server ns.saffle.se (195.84.66.2) answers queries over TCP.
+ 47.169: saffle.se INFO Name server ns.saffle.se (195.84.66.2) is not recursive.
+ 47.267: saffle.se INFO Name server ns.saffle.se (195.84.66.2) authoritative for saffle.se.
+ 47.306: saffle.se INFO Name server ns.saffle.se (195.84.66.2) closed for zone transfer of saffle.se.
+ 47.440: saffle.se NOTICE No answer received from 195.84.66.2 when querying for version.server/CH/TXT.
+ 47.440: saffle.se INFO Done testing name server ns.saffle.se.
+ 47.440: saffle.se INFO Begin testing zone consistency for saffle.se.
+ 48.316: saffle.se INFO SOA at address 2001:6f0:0:1:0:0:1:2 has serial 4024.
+ 48.369: saffle.se INFO SOA at address 2001:6f0:0:1:0:0:2:2 has serial 4024.
+ 48.383: saffle.se INFO SOA at address 213.50.29.195 has serial 4024.
+ 48.441: saffle.se INFO SOA at address 195.84.66.2 has serial 4024.
+ 48.479: saffle.se INFO SOA at address 213.50.29.190 has serial 4024.
+ 48.479: saffle.se INFO All SOA records have consistent serial numbers.
+ 48.479: saffle.se INFO All other fields in the SOA record are consistent among all name servers.
+ 48.840: saffle.se NOTICE The listed nameservers for saffle.se all report the same set of nameservers.
+ 48.840: saffle.se INFO Done testing zone consistency for saffle.se.
+ 48.841: saffle.se INFO Begin testing SOA parameters for saffle.se.
+ 48.877: saffle.se INFO Found SOA record for saffle.se.
+ 48.878: saffle.se INFO Begin testing host ns.saffle.se.
+ 49.132: saffle.se INFO Begin testing address 195.84.66.2.
+ 49.484: saffle.se INFO Done testing address 195.84.66.2.
+ 49.484: saffle.se INFO Done testing host ns.saffle.se.
+ 49.484: saffle.se INFO SOA MNAME for saffle.se valid (ns.saffle.se).
+ 49.497: saffle.se INFO SOA MNAME for saffle.se (ns.saffle.se) listed as NS.
+ 49.741: saffle.se INFO SOA MNAME for saffle.se (ns.saffle.se) is authoritative.
+ 49.741: saffle.se INFO Begin testing email address dns@saffle.se.
+ 49.927: saffle.se INFO Mail exchangers for dns@saffle.se found smtp-in.sto-hy.se.stejtech.net,smtp-in.sto-ste.se.stejtech.net,a.dns.tdc.se.
+ 49.928: saffle.se INFO Begin testing host smtp-in.sto-hy.se.stejtech.net.
+ 51.199: saffle.se INFO Begin testing address 91.236.209.10.
+ 53.313: saffle.se INFO Done testing address 91.236.209.10.
+ 53.314: saffle.se INFO Begin testing address 79.136.102.100.
+ 55.201: saffle.se INFO Done testing address 79.136.102.100.
+ 55.201: saffle.se INFO Begin testing address 91.236.208.10.
+ 56.309: saffle.se INFO Done testing address 91.236.208.10.
+ 56.310: saffle.se INFO Begin testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 57.687: saffle.se INFO Done testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 57.687: saffle.se INFO Begin testing address 2001:67c:27e0:2110:0:0:0:1b01.
+ 58.658: saffle.se INFO Done testing address 2001:67c:27e0:2110:0:0:0:1b01.
+ 58.658: saffle.se INFO Begin testing address 2001:9b0:1:703:0:0:0:1b01.
+ 60.667: saffle.se INFO Done testing address 2001:9b0:1:703:0:0:0:1b01.
+ 60.667: saffle.se INFO Done testing host smtp-in.sto-hy.se.stejtech.net.
+ 60.667: saffle.se INFO Begin testing host smtp-in.sto-ste.se.stejtech.net.
+ 61.766: saffle.se INFO Begin testing address 79.136.102.90.
+ 62.811: saffle.se INFO Done testing address 79.136.102.90.
+ 62.811: saffle.se INFO Begin testing address 83.140.31.145.
+ 64.029: saffle.se INFO Done testing address 83.140.31.145.
+ 64.030: saffle.se INFO Begin testing address 2001:9b0:1:703:0:0:0:b002.
+ 64.988: saffle.se INFO Done testing address 2001:9b0:1:703:0:0:0:b002.
+ 64.988: saffle.se INFO Done testing host smtp-in.sto-ste.se.stejtech.net.
+ 65.001: saffle.se INFO Begin testing host a.dns.tdc.se.
+ 65.001: saffle.se INFO Begin testing address 213.50.29.190.
+ 65.002: saffle.se INFO Done testing address 213.50.29.190.
+ 65.002: saffle.se INFO Begin testing address 2001:6f0:0:1:0:0:2:2.
+ 65.004: saffle.se INFO Done testing address 2001:6f0:0:1:0:0:2:2.
+ 65.004: saffle.se INFO Done testing host a.dns.tdc.se.
+ 65.004: saffle.se INFO Done testing email address dns@saffle.se.
+ 65.004: saffle.se INFO Successful attempt to deliver email for SOA RNAME of saffle.se (dns.saffle.se) using dns@saffle.se.
+ 65.004: saffle.se INFO SOA TTL for saffle.se OK (28800) - recommended >= 3600.
+ 65.004: saffle.se NOTICE SOA refresh for saffle.se too small (3600) - recommended >= 14400.
+ 65.004: saffle.se NOTICE SOA retry for saffle.se too small (300) - recommended >= 3600.
+ 65.004: saffle.se INFO SOA expire for saffle.se OK (2419200) - recommended >= 604800.
+ 65.004: saffle.se INFO SOA minimum for saffle.se OK (900) - recommended between 300 and 86400.
+ 65.004: saffle.se INFO Done testing SOA parameters for saffle.se.
+ 65.004: saffle.se INFO Begin testing connectivity for saffle.se.
+ 66.721: saffle.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 67.755: saffle.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 67.755: saffle.se INFO Done testing connectivity for saffle.se.
+ 67.755: saffle.se INFO Begin testing DNSSEC for saffle.se.
+ 67.794: saffle.se INFO Found DS record for saffle.se at parent.
+ 67.808: saffle.se INFO Nameserver 213.50.29.195 does DNSSEC extra processing.
+ 67.853: saffle.se INFO Nameserver 195.84.66.2 does DNSSEC extra processing.
+ 67.871: saffle.se INFO Nameserver 213.50.29.190 does DNSSEC extra processing.
+ 67.909: saffle.se INFO Nameserver 2001:6f0:0:1:0:0:1:2 does DNSSEC extra processing.
+ 67.935: saffle.se INFO Nameserver 2001:6f0:0:1:0:0:2:2 does DNSSEC extra processing.
+ 67.935: saffle.se INFO Servers for saffle.se have consistent extra processing status.
+ 67.954: saffle.se INFO Authenticated denial records found for saffle.se, of type NSEC.
+ 67.969: saffle.se INFO Found DNSKEY record for saffle.se at child.
+ 67.969: saffle.se INFO Consistent security for saffle.se.
+ 67.970: saffle.se INFO Checking DNSSEC at child (saffle.se).
+ 67.970: saffle.se INFO saffle.se's key with tag 16531 uses algorithm number 5 (RSA/SHA-1).
+ 67.970: saffle.se INFO Algorithm number 5 is OK.
+ 67.970: saffle.se INFO DNSKEY saffle.se (tag 16531) is marked as a secure entry point (SEP).
+ 67.970: saffle.se INFO saffle.se's key with tag 50715 uses algorithm number 5 (RSA/SHA-1).
+ 67.970: saffle.se INFO Algorithm number 5 is OK.
+ 67.970: saffle.se INFO saffle.se's key with tag 12016 uses algorithm number 5 (RSA/SHA-1).
+ 67.970: saffle.se INFO Algorithm number 5 is OK.
+ 67.970: saffle.se INFO DNSKEY saffle.se (tag 12016) is marked as a secure entry point (SEP).
+ 67.977: saffle.se INFO DNSSEC signature expires at: Tue Mar 18 19:40:54 2014
+ 67.977: saffle.se INFO Duration for RRSIG(saffle.se/IN/DNSKEY/12016) is OK (864867 seconds).
+ 67.979: saffle.se INFO DNSSEC signature RRSIG(saffle.se/IN/DNSKEY/12016) matches records.
+ 67.979: saffle.se INFO DNSSEC signature valid: RRSIG(saffle.se/IN/DNSKEY/12016)
+ 67.979: saffle.se INFO DNSSEC signature expires at: Tue Mar 18 19:40:54 2014
+ 67.979: saffle.se INFO Duration for RRSIG(saffle.se/IN/DNSKEY/16531) is OK (864867 seconds).
+ 67.980: saffle.se INFO DNSSEC signature RRSIG(saffle.se/IN/DNSKEY/16531) matches records.
+ 67.980: saffle.se INFO DNSSEC signature valid: RRSIG(saffle.se/IN/DNSKEY/16531)
+ 67.981: saffle.se INFO DNSSEC signature expires at: Tue Mar 18 19:40:54 2014
+ 67.981: saffle.se INFO Duration for RRSIG(saffle.se/IN/DNSKEY/50715) is OK (864867 seconds).
+ 68.000: saffle.se INFO DNSSEC signature RRSIG(saffle.se/IN/DNSKEY/50715) matches records.
+ 68.000: saffle.se INFO DNSSEC signature valid: RRSIG(saffle.se/IN/DNSKEY/50715)
+ 68.000: saffle.se INFO Enough valid signatures found for saffle.se.
+ 68.028: saffle.se INFO DNSSEC signature expires at: Tue Mar 18 20:26:27 2014
+ 68.041: saffle.se INFO Duration for RRSIG(saffle.se/IN/SOA/50715) is OK (867600 seconds).
+ 68.042: saffle.se INFO DNSSEC signature RRSIG(saffle.se/IN/SOA/50715) matches records.
+ 68.042: saffle.se INFO DNSSEC signature valid: RRSIG(saffle.se/IN/SOA/50715)
+ 68.042: saffle.se INFO Enough valid signatures over SOA RRset found for saffle.se.
+ 68.042: saffle.se INFO DNSSEC child checks for saffle.se complete.
+ 68.042: saffle.se INFO Checking DNSSEC at parent of saffle.se.
+ 68.042: saffle.se INFO saffle.se's key with tag 12016 uses algorithm number 5 (RSA/SHA-1).
+ 68.042: saffle.se INFO Algorithm number 5 is OK.
+ 68.043: saffle.se INFO Parent DS(saffle.se/5/1/12016) refers to valid key at child: DNSKEY(saffle.se/5/12016)
+ 68.043: saffle.se INFO Parent DS(saffle.se) refers to secure entry point (SEP) at child: DS(saffle.se/5/1/12016)
+ 68.043: saffle.se INFO saffle.se's key with tag 12016 uses algorithm number 5 (RSA/SHA-1).
+ 68.043: saffle.se INFO Algorithm number 5 is OK.
+ 68.043: saffle.se INFO Parent DS(saffle.se/5/2/12016) refers to valid key at child: DNSKEY(saffle.se/5/12016)
+ 68.043: saffle.se INFO Parent DS(saffle.se) refers to secure entry point (SEP) at child: DS(saffle.se/5/2/12016)
+ 68.043: saffle.se INFO DNSSEC parent checks for saffle.se complete.
+ 68.044: saffle.se INFO Done testing DNSSEC for saffle.se.
+ 68.057: saffle.se INFO Test completed for zone saffle.se.

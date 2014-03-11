@@ -1,0 +1,80 @@
+  0.000: vaksdal.kommune.no INFO Begin testing zone vaksdal.kommune.no with version 1.6.1.
+  0.497: vaksdal.kommune.no INFO Begin testing delegation for vaksdal.kommune.no.
+  9.444: vaksdal.kommune.no INFO Name servers listed at parent: ns1.acos.no,ns2.acos.no
+ 11.073: vaksdal.kommune.no INFO Name servers listed at child: ns1.acos.no,ns2.acos.no
+ 11.090: vaksdal.kommune.no NOTICE No IPv6 name servers found.
+ 11.233: vaksdal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.356: vaksdal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.496: vaksdal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.640: vaksdal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 12.262: vaksdal.kommune.no INFO It is possible to build a referral packet for vaksdal.kommune.no that works without EDNS0.
+ 12.651: vaksdal.kommune.no INFO Previously used name servers for vaksdal.kommune.no: 
+ 12.651: vaksdal.kommune.no INFO Done testing delegation for vaksdal.kommune.no.
+ 12.674: vaksdal.kommune.no INFO Begin testing name server ns1.acos.no.
+ 12.674: vaksdal.kommune.no INFO Begin testing host ns1.acos.no.
+ 13.028: vaksdal.kommune.no INFO Begin testing address 82.134.18.193.
+ 22.113: vaksdal.kommune.no INFO Done testing address 82.134.18.193.
+ 22.114: vaksdal.kommune.no INFO Done testing host ns1.acos.no.
+ 22.246: vaksdal.kommune.no INFO Name server ns1.acos.no (82.134.18.193) answers queries over UDP.
+ 22.309: vaksdal.kommune.no INFO Name server ns1.acos.no (82.134.18.193) answers queries over TCP.
+ 22.337: vaksdal.kommune.no INFO Name server ns1.acos.no (82.134.18.193) is not recursive.
+ 22.464: vaksdal.kommune.no INFO Name server ns1.acos.no (82.134.18.193) authoritative for vaksdal.kommune.no.
+ 22.544: vaksdal.kommune.no INFO Name server ns1.acos.no (82.134.18.193) closed for zone transfer of vaksdal.kommune.no.
+ 22.599: vaksdal.kommune.no INFO Legacy name server ID for ns1.acos.no (82.134.18.193): hostname.bind = sentinel
+ 22.657: vaksdal.kommune.no INFO Legacy name server ID for ns1.acos.no (82.134.18.193): version.bind = 9.3.4-P1.1
+ 22.711: vaksdal.kommune.no NOTICE No answer received from 82.134.18.193 when querying for version.server/CH/TXT.
+ 22.711: vaksdal.kommune.no INFO Done testing name server ns1.acos.no.
+ 22.711: vaksdal.kommune.no INFO Begin testing name server ns2.acos.no.
+ 22.711: vaksdal.kommune.no INFO Begin testing host ns2.acos.no.
+ 22.828: vaksdal.kommune.no INFO Begin testing address 85.200.17.39.
+ 23.901: vaksdal.kommune.no INFO Done testing address 85.200.17.39.
+ 23.901: vaksdal.kommune.no INFO Done testing host ns2.acos.no.
+ 24.062: vaksdal.kommune.no INFO Name server ns2.acos.no (85.200.17.39) answers queries over UDP.
+ 24.134: vaksdal.kommune.no INFO Name server ns2.acos.no (85.200.17.39) answers queries over TCP.
+ 24.174: vaksdal.kommune.no INFO Name server ns2.acos.no (85.200.17.39) is not recursive.
+ 24.333: vaksdal.kommune.no INFO Name server ns2.acos.no (85.200.17.39) authoritative for vaksdal.kommune.no.
+ 24.636: vaksdal.kommune.no INFO Name server ns2.acos.no (85.200.17.39) closed for zone transfer of vaksdal.kommune.no.
+ 24.678: vaksdal.kommune.no NOTICE No answer received from 85.200.17.39 when querying for hostname.bind/CH/TXT.
+ 36.850: vaksdal.kommune.no INFO Done testing name server ns2.acos.no.
+ 36.850: vaksdal.kommune.no INFO Begin testing zone consistency for vaksdal.kommune.no.
+ 37.638: vaksdal.kommune.no INFO SOA at address 85.200.17.39 has serial 2012071804.
+ 37.674: vaksdal.kommune.no INFO SOA at address 82.134.18.193 has serial 2012071804.
+ 37.674: vaksdal.kommune.no INFO All SOA records have consistent serial numbers.
+ 37.674: vaksdal.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 38.115: vaksdal.kommune.no NOTICE The listed nameservers for vaksdal.kommune.no all report the same set of nameservers.
+ 38.115: vaksdal.kommune.no INFO Done testing zone consistency for vaksdal.kommune.no.
+ 38.125: vaksdal.kommune.no INFO Begin testing SOA parameters for vaksdal.kommune.no.
+ 38.160: vaksdal.kommune.no INFO Found SOA record for vaksdal.kommune.no.
+ 38.160: vaksdal.kommune.no INFO Begin testing host ns1.acos.no.
+ 38.278: vaksdal.kommune.no INFO Begin testing address 82.134.18.193.
+ 38.568: vaksdal.kommune.no INFO Done testing address 82.134.18.193.
+ 38.568: vaksdal.kommune.no INFO Done testing host ns1.acos.no.
+ 38.569: vaksdal.kommune.no INFO SOA MNAME for vaksdal.kommune.no valid (ns1.acos.no).
+ 38.569: vaksdal.kommune.no INFO SOA MNAME for vaksdal.kommune.no (ns1.acos.no) listed as NS.
+ 38.720: vaksdal.kommune.no INFO SOA MNAME for vaksdal.kommune.no (ns1.acos.no) is authoritative.
+ 38.720: vaksdal.kommune.no INFO Begin testing email address hostmaster@acos.no.
+ 38.877: vaksdal.kommune.no INFO Mail exchangers for hostmaster@acos.no found tux.acos.no.
+ 38.878: vaksdal.kommune.no INFO Begin testing host tux.acos.no.
+ 39.098: vaksdal.kommune.no INFO Begin testing address 82.134.18.193.
+ 39.208: vaksdal.kommune.no INFO Done testing address 82.134.18.193.
+ 39.208: vaksdal.kommune.no INFO Done testing host tux.acos.no.
+ 39.450: vaksdal.kommune.no INFO Done testing email address hostmaster@acos.no.
+ 39.450: vaksdal.kommune.no INFO Successful attempt to deliver email for SOA RNAME of vaksdal.kommune.no (hostmaster.acos.no) using hostmaster@acos.no.
+ 39.450: vaksdal.kommune.no INFO SOA TTL for vaksdal.kommune.no OK (172800) - recommended >= 3600.
+ 39.450: vaksdal.kommune.no INFO SOA refresh for vaksdal.kommune.no OK (86400) - recommended >= 14400.
+ 39.450: vaksdal.kommune.no INFO SOA retry for vaksdal.kommune.no OK (7200) - recommended >= 3600.
+ 39.450: vaksdal.kommune.no INFO SOA expire for vaksdal.kommune.no OK (3600000) - recommended >= 604800.
+ 39.451: vaksdal.kommune.no NOTICE SOA minimum for vaksdal.kommune.no too large (172800) - recommended <= 86400.
+ 39.451: vaksdal.kommune.no INFO Done testing SOA parameters for vaksdal.kommune.no.
+ 39.451: vaksdal.kommune.no INFO Begin testing connectivity for vaksdal.kommune.no.
+ 40.310: vaksdal.kommune.no NOTICE Zone announced by fewer than two IPv4 ASN.
+ 40.311: vaksdal.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 40.319: vaksdal.kommune.no INFO Done testing connectivity for vaksdal.kommune.no.
+ 40.319: vaksdal.kommune.no INFO Begin testing DNSSEC for vaksdal.kommune.no.
+ 40.401: vaksdal.kommune.no INFO Did not find DS record for vaksdal.kommune.no at parent.
+ 40.518: vaksdal.kommune.no INFO Servers for vaksdal.kommune.no have consistent extra processing status.
+ 40.589: vaksdal.kommune.no INFO Authenticated denial records not found for vaksdal.kommune.no.
+ 40.624: vaksdal.kommune.no INFO Did not find DNSKEY record for vaksdal.kommune.no at child.
+ 40.624: vaksdal.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 40.624: vaksdal.kommune.no INFO Done testing DNSSEC for vaksdal.kommune.no.
+ 40.624: vaksdal.kommune.no INFO Test completed for zone vaksdal.kommune.no.

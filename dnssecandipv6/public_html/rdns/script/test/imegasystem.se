@@ -1,0 +1,78 @@
+  0.000: imegasystem.se INFO Begin testing zone imegasystem.se with version 1.5.0.
+  0.001: imegasystem.se INFO Begin testing delegation for imegasystem.se.
+ 13.363: imegasystem.se INFO Name servers listed at parent: dns.gellivare.se,dns2.gellivare.se
+ 16.059: imegasystem.se INFO Name servers listed at child: dns.gellivare.se,dns2.gellivare.se
+ 16.060: imegasystem.se NOTICE No IPv6 name servers found.
+ 17.886: imegasystem.se INFO It is possible to build a referral packet for imegasystem.se that works without EDNS0.
+ 17.886: imegasystem.se INFO Done testing delegation for imegasystem.se.
+ 17.914: imegasystem.se INFO Begin testing name server dns.gellivare.se.
+ 17.915: imegasystem.se INFO Begin testing host dns.gellivare.se.
+ 18.433: imegasystem.se INFO Begin testing address 194.117.184.237.
+ 48.070: imegasystem.se INFO Done testing address 194.117.184.237.
+ 48.070: imegasystem.se INFO Done testing host dns.gellivare.se.
+ 48.442: imegasystem.se INFO Name server dns.gellivare.se (194.117.184.237) answers queries over UDP.
+ 48.518: imegasystem.se INFO Name server dns.gellivare.se (194.117.184.237) answers queries over TCP.
+ 48.547: imegasystem.se INFO Name server dns.gellivare.se (194.117.184.237) is not recursive.
+ 48.684: imegasystem.se INFO Name server dns.gellivare.se (194.117.184.237) authoritative for imegasystem.se.
+ 48.760: imegasystem.se NOTICE Name server dns.gellivare.se (194.117.184.237) open for zone transfer of imegasystem.se.
+ 48.812: imegasystem.se INFO Legacy name server ID for dns.gellivare.se (194.117.184.237): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 48.880: imegasystem.se INFO Done testing name server dns.gellivare.se.
+ 48.880: imegasystem.se INFO Begin testing name server dns2.gellivare.se.
+ 48.881: imegasystem.se INFO Begin testing host dns2.gellivare.se.
+ 49.153: imegasystem.se INFO Begin testing address 194.117.184.236.
+ 50.277: imegasystem.se INFO Done testing address 194.117.184.236.
+ 50.277: imegasystem.se INFO Done testing host dns2.gellivare.se.
+ 50.732: imegasystem.se INFO Name server dns2.gellivare.se (194.117.184.236) answers queries over UDP.
+ 50.779: imegasystem.se INFO Name server dns2.gellivare.se (194.117.184.236) answers queries over TCP.
+ 50.811: imegasystem.se INFO Name server dns2.gellivare.se (194.117.184.236) is not recursive.
+ 50.916: imegasystem.se INFO Name server dns2.gellivare.se (194.117.184.236) authoritative for imegasystem.se.
+ 51.022: imegasystem.se NOTICE Name server dns2.gellivare.se (194.117.184.236) open for zone transfer of imegasystem.se.
+ 51.071: imegasystem.se INFO Legacy name server ID for dns2.gellivare.se (194.117.184.236): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 51.132: imegasystem.se INFO Done testing name server dns2.gellivare.se.
+ 51.132: imegasystem.se INFO Begin testing zone consistency for imegasystem.se.
+ 52.327: imegasystem.se INFO SOA at address 194.117.184.236 has serial 2013031300.
+ 52.352: imegasystem.se INFO SOA at address 194.117.184.237 has serial 2013031300.
+ 52.352: imegasystem.se INFO All SOA records have consistent serial numbers.
+ 52.352: imegasystem.se INFO All other fields in the SOA record are consistent among all name servers.
+ 53.000: imegasystem.se NOTICE The listed nameservers for imegasystem.se all report the same set of nameservers.
+ 53.000: imegasystem.se INFO Done testing zone consistency for imegasystem.se.
+ 53.001: imegasystem.se INFO Begin testing SOA parameters for imegasystem.se.
+ 53.026: imegasystem.se INFO Found SOA record for imegasystem.se.
+ 53.026: imegasystem.se INFO Begin testing host ns.imegasystem.se.
+ 53.697: imegasystem.se INFO Begin testing address 195.196.139.16.
+ 55.341: imegasystem.se INFO Done testing address 195.196.139.16.
+ 55.341: imegasystem.se INFO Done testing host ns.imegasystem.se.
+ 55.341: imegasystem.se INFO SOA MNAME for imegasystem.se valid (ns.imegasystem.se).
+ 55.342: imegasystem.se NOTICE SOA MNAME for imegasystem.se (ns.imegasystem.se) not listed as NS.
+ 55.627: imegasystem.se INFO SOA MNAME for imegasystem.se (ns.imegasystem.se) is authoritative.
+ 55.627: imegasystem.se INFO Begin testing email address hostmaster@imegasystem.se.
+ 55.931: imegasystem.se INFO Mail exchangers for hostmaster@imegasystem.se found mail.imegasystem.se,mail4.imegasystem.se.
+ 55.937: imegasystem.se INFO All mail servers for hostmaster@imegasystem.se are in zone imegasystem.se.
+ 55.939: imegasystem.se INFO Begin testing host mail.imegasystem.se.
+ 56.632: imegasystem.se INFO Begin testing address 194.117.184.196.
+ 67.856: imegasystem.se INFO Done testing address 194.117.184.196.
+ 67.856: imegasystem.se INFO Done testing host mail.imegasystem.se.
+ 68.457: imegasystem.se INFO Begin testing host mail4.imegasystem.se.
+ 69.645: imegasystem.se INFO Begin testing address 195.196.139.22.
+ 71.125: imegasystem.se INFO Done testing address 195.196.139.22.
+ 71.126: imegasystem.se INFO Done testing host mail4.imegasystem.se.
+ 71.838: imegasystem.se INFO Done testing email address hostmaster@imegasystem.se.
+ 71.838: imegasystem.se INFO Successful attempt to deliver email for SOA RNAME of imegasystem.se (hostmaster.imegasystem.se) using hostmaster@imegasystem.se.
+ 71.839: imegasystem.se INFO SOA TTL for imegasystem.se OK (86400) - recommended >= 3600.
+ 71.839: imegasystem.se NOTICE SOA refresh for imegasystem.se too small (10800) - recommended >= 14400.
+ 71.839: imegasystem.se NOTICE SOA retry for imegasystem.se too small (900) - recommended >= 3600.
+ 71.839: imegasystem.se INFO SOA expire for imegasystem.se OK (604800) - recommended >= 604800.
+ 71.839: imegasystem.se INFO SOA minimum for imegasystem.se OK (86400) - recommended between 300 and 86400.
+ 71.839: imegasystem.se INFO Done testing SOA parameters for imegasystem.se.
+ 71.839: imegasystem.se INFO Begin testing connectivity for imegasystem.se.
+ 73.833: imegasystem.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 73.833: imegasystem.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 73.833: imegasystem.se INFO Done testing connectivity for imegasystem.se.
+ 73.833: imegasystem.se INFO Begin testing DNSSEC for imegasystem.se.
+ 73.934: imegasystem.se INFO Did not find DS record for imegasystem.se at parent.
+ 74.166: imegasystem.se INFO Servers for imegasystem.se have consistent extra processing status.
+ 74.267: imegasystem.se INFO Authenticated denial records not found for imegasystem.se.
+ 74.321: imegasystem.se INFO Did not find DNSKEY record for imegasystem.se at child.
+ 74.321: imegasystem.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 74.321: imegasystem.se INFO Done testing DNSSEC for imegasystem.se.
+ 74.322: imegasystem.se INFO Test completed for zone imegasystem.se.

@@ -1,0 +1,93 @@
+  0.000: pyhajoki.fi INFO Begin testing zone pyhajoki.fi with version 1.6.1.
+  0.412: pyhajoki.fi INFO Begin testing delegation for pyhajoki.fi.
+  9.227: pyhajoki.fi INFO Name servers listed at parent: ns1.kotinet.com,ns2.kotinet.com,ns3.kotinet.com
+ 12.057: pyhajoki.fi INFO Name servers listed at child: ns1.kotinet.com,ns2.kotinet.com,ns3.kotinet.com
+ 12.057: pyhajoki.fi NOTICE No IPv6 name servers found.
+ 13.910: pyhajoki.fi INFO It is possible to build a referral packet for pyhajoki.fi that works without EDNS0.
+ 14.848: pyhajoki.fi INFO Previously used name servers for pyhajoki.fi: 
+ 14.848: pyhajoki.fi INFO Done testing delegation for pyhajoki.fi.
+ 14.849: pyhajoki.fi INFO Begin testing name server ns1.kotinet.com.
+ 14.849: pyhajoki.fi INFO Begin testing host ns1.kotinet.com.
+ 15.148: pyhajoki.fi INFO Begin testing address 212.50.211.242.
+ 27.678: pyhajoki.fi INFO Done testing address 212.50.211.242.
+ 27.678: pyhajoki.fi INFO Done testing host ns1.kotinet.com.
+ 27.977: pyhajoki.fi INFO Name server ns1.kotinet.com (212.50.211.242) answers queries over UDP.
+ 28.029: pyhajoki.fi INFO Name server ns1.kotinet.com (212.50.211.242) answers queries over TCP.
+ 28.077: pyhajoki.fi INFO Name server ns1.kotinet.com (212.50.211.242) is not recursive.
+ 28.233: pyhajoki.fi INFO Name server ns1.kotinet.com (212.50.211.242) authoritative for pyhajoki.fi.
+ 28.299: pyhajoki.fi INFO Name server ns1.kotinet.com (212.50.211.242) closed for zone transfer of pyhajoki.fi.
+ 28.328: pyhajoki.fi INFO Legacy name server ID for ns1.kotinet.com (212.50.211.242): hostname.bind = ns1.kotinet.com
+ 28.350: pyhajoki.fi INFO Legacy name server ID for ns1.kotinet.com (212.50.211.242): version.bind = enkerro
+ 28.420: pyhajoki.fi NOTICE No answer received from 212.50.211.242 when querying for version.server/CH/TXT.
+ 28.421: pyhajoki.fi INFO Done testing name server ns1.kotinet.com.
+ 28.421: pyhajoki.fi INFO Begin testing name server ns2.kotinet.com.
+ 28.421: pyhajoki.fi INFO Begin testing host ns2.kotinet.com.
+ 28.640: pyhajoki.fi INFO Begin testing address 212.50.192.226.
+ 29.516: pyhajoki.fi INFO Done testing address 212.50.192.226.
+ 29.516: pyhajoki.fi INFO Done testing host ns2.kotinet.com.
+ 29.933: pyhajoki.fi INFO Name server ns2.kotinet.com (212.50.192.226) answers queries over UDP.
+ 29.991: pyhajoki.fi INFO Name server ns2.kotinet.com (212.50.192.226) answers queries over TCP.
+ 30.039: pyhajoki.fi INFO Name server ns2.kotinet.com (212.50.192.226) is not recursive.
+ 30.161: pyhajoki.fi INFO Name server ns2.kotinet.com (212.50.192.226) authoritative for pyhajoki.fi.
+ 30.231: pyhajoki.fi INFO Name server ns2.kotinet.com (212.50.192.226) closed for zone transfer of pyhajoki.fi.
+ 30.281: pyhajoki.fi INFO Legacy name server ID for ns2.kotinet.com (212.50.192.226): hostname.bind = ns2
+ 30.303: pyhajoki.fi INFO Legacy name server ID for ns2.kotinet.com (212.50.192.226): version.bind = enkerro
+ 30.373: pyhajoki.fi NOTICE No answer received from 212.50.192.226 when querying for version.server/CH/TXT.
+ 30.373: pyhajoki.fi INFO Done testing name server ns2.kotinet.com.
+ 30.373: pyhajoki.fi INFO Begin testing name server ns3.kotinet.com.
+ 30.374: pyhajoki.fi INFO Begin testing host ns3.kotinet.com.
+ 30.583: pyhajoki.fi INFO Begin testing address 82.141.108.26.
+ 31.424: pyhajoki.fi INFO Done testing address 82.141.108.26.
+ 31.424: pyhajoki.fi INFO Done testing host ns3.kotinet.com.
+ 31.709: pyhajoki.fi INFO Name server ns3.kotinet.com (82.141.108.26) answers queries over UDP.
+ 31.757: pyhajoki.fi INFO Name server ns3.kotinet.com (82.141.108.26) answers queries over TCP.
+ 31.780: pyhajoki.fi INFO Name server ns3.kotinet.com (82.141.108.26) is not recursive.
+ 31.897: pyhajoki.fi INFO Name server ns3.kotinet.com (82.141.108.26) authoritative for pyhajoki.fi.
+ 31.964: pyhajoki.fi INFO Name server ns3.kotinet.com (82.141.108.26) closed for zone transfer of pyhajoki.fi.
+ 31.989: pyhajoki.fi INFO Legacy name server ID for ns3.kotinet.com (82.141.108.26): hostname.bind = ns3.kotinet.com
+ 32.013: pyhajoki.fi INFO Legacy name server ID for ns3.kotinet.com (82.141.108.26): version.bind = enkerro
+ 32.068: pyhajoki.fi NOTICE No answer received from 82.141.108.26 when querying for version.server/CH/TXT.
+ 32.068: pyhajoki.fi INFO Done testing name server ns3.kotinet.com.
+ 32.068: pyhajoki.fi INFO Begin testing zone consistency for pyhajoki.fi.
+ 33.365: pyhajoki.fi INFO SOA at address 212.50.192.226 has serial 2013020516.
+ 33.389: pyhajoki.fi INFO SOA at address 82.141.108.26 has serial 2013020516.
+ 33.412: pyhajoki.fi INFO SOA at address 212.50.211.242 has serial 2013020516.
+ 33.412: pyhajoki.fi INFO All SOA records have consistent serial numbers.
+ 33.422: pyhajoki.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 34.161: pyhajoki.fi NOTICE The listed nameservers for pyhajoki.fi all report the same set of nameservers.
+ 34.162: pyhajoki.fi INFO Done testing zone consistency for pyhajoki.fi.
+ 34.162: pyhajoki.fi INFO Begin testing SOA parameters for pyhajoki.fi.
+ 34.187: pyhajoki.fi INFO Found SOA record for pyhajoki.fi.
+ 34.187: pyhajoki.fi INFO Begin testing host ns1.kotinet.com.
+ 34.335: pyhajoki.fi INFO Begin testing address 212.50.211.242.
+ 34.495: pyhajoki.fi INFO Done testing address 212.50.211.242.
+ 34.495: pyhajoki.fi INFO Done testing host ns1.kotinet.com.
+ 34.495: pyhajoki.fi INFO SOA MNAME for pyhajoki.fi valid (ns1.kotinet.com).
+ 34.495: pyhajoki.fi INFO SOA MNAME for pyhajoki.fi (ns1.kotinet.com) listed as NS.
+ 34.655: pyhajoki.fi INFO SOA MNAME for pyhajoki.fi (ns1.kotinet.com) is authoritative.
+ 34.659: pyhajoki.fi INFO Begin testing email address hostmaster@mail.kotinet.com.
+ 35.216: pyhajoki.fi INFO Mail exchangers for hostmaster@mail.kotinet.com found mail.kotinet.com.
+ 35.216: pyhajoki.fi INFO Begin testing host mail.kotinet.com.
+ 35.452: pyhajoki.fi INFO Begin testing address 212.50.215.81.
+ 36.424: pyhajoki.fi INFO Done testing address 212.50.215.81.
+ 36.424: pyhajoki.fi INFO Done testing host mail.kotinet.com.
+ 36.598: pyhajoki.fi INFO Done testing email address hostmaster@mail.kotinet.com.
+ 36.598: pyhajoki.fi INFO Successful attempt to deliver email for SOA RNAME of pyhajoki.fi (hostmaster.mail.kotinet.com) using hostmaster@mail.kotinet.com.
+ 36.598: pyhajoki.fi INFO SOA TTL for pyhajoki.fi OK (86400) - recommended >= 3600.
+ 36.598: pyhajoki.fi INFO SOA refresh for pyhajoki.fi OK (28800) - recommended >= 14400.
+ 36.598: pyhajoki.fi INFO SOA retry for pyhajoki.fi OK (7200) - recommended >= 3600.
+ 36.598: pyhajoki.fi INFO SOA expire for pyhajoki.fi OK (604800) - recommended >= 604800.
+ 36.598: pyhajoki.fi INFO SOA minimum for pyhajoki.fi OK (300) - recommended between 300 and 86400.
+ 36.598: pyhajoki.fi INFO Done testing SOA parameters for pyhajoki.fi.
+ 36.599: pyhajoki.fi INFO Begin testing connectivity for pyhajoki.fi.
+ 38.149: pyhajoki.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 38.149: pyhajoki.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 38.149: pyhajoki.fi INFO Done testing connectivity for pyhajoki.fi.
+ 38.149: pyhajoki.fi INFO Begin testing DNSSEC for pyhajoki.fi.
+ 38.204: pyhajoki.fi INFO Did not find DS record for pyhajoki.fi at parent.
+ 38.342: pyhajoki.fi INFO Servers for pyhajoki.fi have consistent extra processing status.
+ 38.391: pyhajoki.fi INFO Authenticated denial records not found for pyhajoki.fi.
+ 38.415: pyhajoki.fi INFO Did not find DNSKEY record for pyhajoki.fi at child.
+ 38.415: pyhajoki.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 38.415: pyhajoki.fi INFO Done testing DNSSEC for pyhajoki.fi.
+ 38.416: pyhajoki.fi INFO Test completed for zone pyhajoki.fi.

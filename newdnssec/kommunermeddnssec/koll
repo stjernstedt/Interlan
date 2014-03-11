@@ -1,0 +1,5 @@
+for i in `cat domain` ; do 
+	if [ "`dig +short ds $i`" != "" ] ; then
+		echo $i
+	fi
+done

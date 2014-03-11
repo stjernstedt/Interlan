@@ -1,0 +1,131 @@
+  0.000: svalov.se INFO Begin testing zone svalov.se with version 1.6.1.
+  1.382: svalov.se INFO Begin testing delegation for svalov.se.
+ 14.424: svalov.se INFO Name servers listed at parent: ns1.svalov.se,ns2.svalov.se
+ 17.459: svalov.se INFO Name servers listed at child: ns1.svalov.se,ns2.svalov.se
+ 17.460: svalov.se NOTICE No IPv6 name servers found.
+ 17.546: svalov.se INFO Parent glue for svalov.se found: ns1.svalov.se (83.209.64.116)
+ 17.751: svalov.se INFO Parent glue for svalov.se found: ns2.svalov.se (83.209.64.115)
+ 17.858: svalov.se INFO Checking glue for ns1.svalov.se (83.209.64.116).
+ 17.973: svalov.se INFO Child glue for svalov.se found: ns1.svalov.se (83.209.64.116)
+ 17.973: svalov.se INFO Checking glue for ns2.svalov.se (83.209.64.115).
+ 18.025: svalov.se INFO Child glue for svalov.se found: ns2.svalov.se (83.209.64.115)
+ 18.025: svalov.se INFO Parent glue for svalov.se found: ns1.svalov.se (83.209.64.116)
+ 18.026: svalov.se INFO Parent glue for svalov.se found: ns2.svalov.se (83.209.64.115)
+ 19.240: svalov.se INFO It is possible to build a referral packet for svalov.se that works without EDNS0.
+ 23.583: svalov.se INFO Previously used name servers for svalov.se: 
+ 23.583: svalov.se INFO Done testing delegation for svalov.se.
+ 23.583: svalov.se INFO Begin testing name server ns1.svalov.se.
+ 23.583: svalov.se INFO Begin testing host ns1.svalov.se.
+ 24.005: svalov.se INFO Begin testing address 83.209.64.116.
+ 50.062: svalov.se INFO Done testing address 83.209.64.116.
+ 50.063: svalov.se INFO Done testing host ns1.svalov.se.
+ 50.518: svalov.se INFO Name server ns1.svalov.se (83.209.64.116) answers queries over UDP.
+ 50.579: svalov.se INFO Name server ns1.svalov.se (83.209.64.116) answers queries over TCP.
+ 50.635: svalov.se INFO Name server ns1.svalov.se (83.209.64.116) is not recursive.
+ 50.825: svalov.se INFO Name server ns1.svalov.se (83.209.64.116) authoritative for svalov.se.
+ 50.892: svalov.se INFO Name server ns1.svalov.se (83.209.64.116) closed for zone transfer of svalov.se.
+ 50.953: svalov.se INFO Legacy name server ID for ns1.svalov.se (83.209.64.116): hostname.bind = vm-dns1
+ 51.025: svalov.se INFO Legacy name server ID for ns1.svalov.se (83.209.64.116): version.bind = 9.5.0-P2
+ 51.107: svalov.se NOTICE No answer received from 83.209.64.116 when querying for version.server/CH/TXT.
+ 51.110: svalov.se INFO Done testing name server ns1.svalov.se.
+ 51.110: svalov.se INFO Begin testing name server ns2.svalov.se.
+ 51.110: svalov.se INFO Begin testing host ns2.svalov.se.
+ 51.438: svalov.se INFO Begin testing address 83.209.64.115.
+ 52.576: svalov.se INFO Done testing address 83.209.64.115.
+ 52.576: svalov.se INFO Done testing host ns2.svalov.se.
+ 52.806: svalov.se INFO Name server ns2.svalov.se (83.209.64.115) answers queries over UDP.
+ 52.855: svalov.se INFO Name server ns2.svalov.se (83.209.64.115) answers queries over TCP.
+ 52.871: svalov.se INFO Name server ns2.svalov.se (83.209.64.115) is not recursive.
+ 52.998: svalov.se INFO Name server ns2.svalov.se (83.209.64.115) authoritative for svalov.se.
+ 53.061: svalov.se INFO Name server ns2.svalov.se (83.209.64.115) closed for zone transfer of svalov.se.
+ 53.089: svalov.se INFO Legacy name server ID for ns2.svalov.se (83.209.64.115): hostname.bind = vm-dns2
+ 53.135: svalov.se INFO Legacy name server ID for ns2.svalov.se (83.209.64.115): version.bind = 9.5.0-P2
+ 53.200: svalov.se NOTICE No answer received from 83.209.64.115 when querying for version.server/CH/TXT.
+ 53.201: svalov.se INFO Done testing name server ns2.svalov.se.
+ 53.201: svalov.se INFO Begin testing zone consistency for svalov.se.
+ 54.374: svalov.se INFO SOA at address 83.209.64.115 has serial 2014022000.
+ 54.428: svalov.se INFO SOA at address 83.209.64.116 has serial 2014022000.
+ 54.428: svalov.se INFO All SOA records have consistent serial numbers.
+ 54.428: svalov.se INFO All other fields in the SOA record are consistent among all name servers.
+ 54.978: svalov.se NOTICE The listed nameservers for svalov.se all report the same set of nameservers.
+ 54.978: svalov.se INFO Done testing zone consistency for svalov.se.
+ 55.004: svalov.se INFO Begin testing SOA parameters for svalov.se.
+ 55.043: svalov.se INFO Found SOA record for svalov.se.
+ 55.047: svalov.se INFO Begin testing host ns1.svalov.se.
+ 55.329: svalov.se INFO Begin testing address 83.209.64.116.
+ 55.542: svalov.se INFO Done testing address 83.209.64.116.
+ 55.543: svalov.se INFO Done testing host ns1.svalov.se.
+ 55.543: svalov.se INFO SOA MNAME for svalov.se valid (ns1.svalov.se).
+ 55.543: svalov.se INFO SOA MNAME for svalov.se (ns1.svalov.se) listed as NS.
+ 55.771: svalov.se INFO SOA MNAME for svalov.se (ns1.svalov.se) is authoritative.
+ 55.772: svalov.se INFO Begin testing email address it@svalov.se.
+ 56.145: svalov.se INFO Mail exchangers for it@svalov.se found cluster4.eu.messagelabs.com,cluster4a.eu.messagelabs.com.
+ 56.145: svalov.se INFO Begin testing host cluster4.eu.messagelabs.com.
+ 57.075: svalov.se INFO Begin testing address 85.158.137.68.
+ 59.869: svalov.se INFO Done testing address 85.158.137.68.
+ 59.870: svalov.se INFO Begin testing address 85.158.139.211.
+ 61.075: svalov.se INFO Done testing address 85.158.139.211.
+ 61.075: svalov.se INFO Begin testing address 85.158.143.35.
+ 62.787: svalov.se INFO Done testing address 85.158.143.35.
+ 62.790: svalov.se INFO Begin testing address 193.109.254.147.
+ 64.541: svalov.se INFO Done testing address 193.109.254.147.
+ 64.541: svalov.se INFO Done testing host cluster4.eu.messagelabs.com.
+ 64.933: svalov.se INFO Begin testing host cluster4a.eu.messagelabs.com.
+ 65.814: svalov.se INFO Begin testing address 85.158.139.103.
+ 67.627: svalov.se INFO Done testing address 85.158.139.103.
+ 67.627: svalov.se INFO Begin testing address 216.82.251.230.
+ 73.627: svalov.se INFO Done testing address 216.82.251.230.
+ 73.627: svalov.se INFO Done testing host cluster4a.eu.messagelabs.com.
+ 73.926: svalov.se INFO Done testing email address it@svalov.se.
+ 73.927: svalov.se INFO Successful attempt to deliver email for SOA RNAME of svalov.se (it.svalov.se) using it@svalov.se.
+ 73.927: svalov.se INFO SOA TTL for svalov.se OK (3600) - recommended >= 3600.
+ 73.927: svalov.se INFO SOA refresh for svalov.se OK (14400) - recommended >= 14400.
+ 73.927: svalov.se INFO SOA retry for svalov.se OK (3600) - recommended >= 3600.
+ 73.927: svalov.se INFO SOA expire for svalov.se OK (604800) - recommended >= 604800.
+ 73.927: svalov.se INFO SOA minimum for svalov.se OK (86400) - recommended between 300 and 86400.
+ 73.927: svalov.se INFO Done testing SOA parameters for svalov.se.
+ 73.927: svalov.se INFO Begin testing connectivity for svalov.se.
+ 74.980: svalov.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 74.980: svalov.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 74.981: svalov.se INFO Done testing connectivity for svalov.se.
+ 74.981: svalov.se INFO Begin testing DNSSEC for svalov.se.
+ 75.022: svalov.se INFO Found DS record for svalov.se at parent.
+ 75.073: svalov.se INFO Nameserver 83.209.64.115 does DNSSEC extra processing.
+ 75.129: svalov.se INFO Nameserver 83.209.64.116 does DNSSEC extra processing.
+ 75.138: svalov.se INFO Servers for svalov.se have consistent extra processing status.
+ 75.169: svalov.se INFO Authenticated denial records found for svalov.se, of type NSEC.
+ 75.188: svalov.se INFO Found DNSKEY record for svalov.se at child.
+ 75.189: svalov.se INFO Consistent security for svalov.se.
+ 75.189: svalov.se INFO Checking DNSSEC at child (svalov.se).
+ 75.189: svalov.se INFO svalov.se's key with tag 49288 uses algorithm number 5 (RSA/SHA-1).
+ 75.189: svalov.se INFO Algorithm number 5 is OK.
+ 75.189: svalov.se INFO DNSKEY svalov.se (tag 49288) is marked as a secure entry point (SEP).
+ 75.189: svalov.se INFO svalov.se's key with tag 52488 uses algorithm number 5 (RSA/SHA-1).
+ 75.189: svalov.se INFO Algorithm number 5 is OK.
+ 75.190: svalov.se INFO DNSSEC signature expires at: Mon Jun 30 21:00:00 2014
+ 75.190: svalov.se INFO Duration for RRSIG(svalov.se/IN/DNSKEY/49288) is OK (11262897 seconds).
+ 75.191: svalov.se INFO DNSSEC signature RRSIG(svalov.se/IN/DNSKEY/49288) matches records.
+ 75.191: svalov.se INFO DNSSEC signature valid: RRSIG(svalov.se/IN/DNSKEY/49288)
+ 75.192: svalov.se INFO DNSSEC signature expires at: Mon Jun 30 21:00:00 2014
+ 75.192: svalov.se INFO Duration for RRSIG(svalov.se/IN/DNSKEY/52488) is OK (11262897 seconds).
+ 75.192: svalov.se INFO DNSSEC signature RRSIG(svalov.se/IN/DNSKEY/52488) matches records.
+ 75.192: svalov.se INFO DNSSEC signature valid: RRSIG(svalov.se/IN/DNSKEY/52488)
+ 75.192: svalov.se INFO Enough valid signatures found for svalov.se.
+ 75.232: svalov.se INFO DNSSEC signature expires at: Mon Jun 30 21:00:00 2014
+ 75.232: svalov.se INFO Duration for RRSIG(svalov.se/IN/SOA/52488) is OK (11262897 seconds).
+ 75.233: svalov.se INFO DNSSEC signature RRSIG(svalov.se/IN/SOA/52488) matches records.
+ 75.233: svalov.se INFO DNSSEC signature valid: RRSIG(svalov.se/IN/SOA/52488)
+ 75.234: svalov.se INFO Enough valid signatures over SOA RRset found for svalov.se.
+ 75.234: svalov.se INFO DNSSEC child checks for svalov.se complete.
+ 75.234: svalov.se INFO Checking DNSSEC at parent of svalov.se.
+ 75.246: svalov.se INFO svalov.se's key with tag 49288 uses algorithm number 5 (RSA/SHA-1).
+ 75.246: svalov.se INFO Algorithm number 5 is OK.
+ 75.247: svalov.se INFO Parent DS(svalov.se/5/2/49288) refers to valid key at child: DNSKEY(svalov.se/5/49288)
+ 75.247: svalov.se INFO Parent DS(svalov.se) refers to secure entry point (SEP) at child: DS(svalov.se/5/2/49288)
+ 75.247: svalov.se INFO svalov.se's key with tag 49288 uses algorithm number 5 (RSA/SHA-1).
+ 75.247: svalov.se INFO Algorithm number 5 is OK.
+ 75.247: svalov.se INFO Parent DS(svalov.se/5/1/49288) refers to valid key at child: DNSKEY(svalov.se/5/49288)
+ 75.247: svalov.se INFO Parent DS(svalov.se) refers to secure entry point (SEP) at child: DS(svalov.se/5/1/49288)
+ 75.247: svalov.se INFO DNSSEC parent checks for svalov.se complete.
+ 75.248: svalov.se INFO Done testing DNSSEC for svalov.se.
+ 75.248: svalov.se INFO Test completed for zone svalov.se.

@@ -1,0 +1,93 @@
+  0.000: vaxjo.se INFO Begin testing zone vaxjo.se with version 1.2.
+  0.000: vaxjo.se INFO Begin testing delegation for vaxjo.se.
+  5.273: vaxjo.se INFO Name servers listed at parent: ns.vaxjo.se,ns2.vaxjo.se
+  6.467: vaxjo.se INFO Name servers listed at child: ns.vaxjo.se,ns2.vaxjo.se
+  6.467: vaxjo.se NOTICE No IPv6 name servers found.
+  6.484: vaxjo.se INFO Parent glue for vaxjo.se found: ns.vaxjo.se (195.84.40.4)
+  6.541: vaxjo.se INFO Parent glue for vaxjo.se found: ns2.vaxjo.se (217.74.80.26)
+  6.559: vaxjo.se INFO Checking glue for ns.vaxjo.se (195.84.40.4).
+  6.571: vaxjo.se INFO Child glue for vaxjo.se found: ns.vaxjo.se (195.84.40.4)
+  6.572: vaxjo.se INFO Checking glue for ns2.vaxjo.se (217.74.80.26).
+  6.584: vaxjo.se INFO Child glue for vaxjo.se found: ns2.vaxjo.se (217.74.80.26)
+  6.585: vaxjo.se INFO Parent glue for vaxjo.se found: ns.vaxjo.se (195.84.40.4)
+  6.585: vaxjo.se INFO Parent glue for vaxjo.se found: ns2.vaxjo.se (217.74.80.26)
+  6.585: vaxjo.se INFO Done testing delegation for vaxjo.se.
+  6.586: vaxjo.se INFO Begin testing name server ns.vaxjo.se.
+  6.586: vaxjo.se INFO Begin testing host ns.vaxjo.se.
+  6.586: vaxjo.se INFO Begin testing address 195.84.40.4.
+ 15.099: vaxjo.se INFO Done testing address 195.84.40.4.
+ 15.099: vaxjo.se INFO Done testing host ns.vaxjo.se.
+ 15.113: vaxjo.se INFO Name server ns.vaxjo.se (195.84.40.4) answers queries over UDP.
+ 15.137: vaxjo.se INFO Name server ns.vaxjo.se (195.84.40.4) answers queries over TCP.
+ 15.179: vaxjo.se WARNING Name server ns.vaxjo.se (195.84.40.4) is recursive.
+ 15.192: vaxjo.se INFO Name server ns.vaxjo.se (195.84.40.4) authoritative for vaxjo.se.
+ 15.407: vaxjo.se INFO Name server ns.vaxjo.se (195.84.40.4) closed for zone transfer of vaxjo.se.
+ 15.420: vaxjo.se NOTICE No answer received from 195.84.40.4 when querying for hostname.bind/CH/TXT.
+ 33.421: vaxjo.se INFO Done testing name server ns.vaxjo.se.
+ 33.421: vaxjo.se INFO Begin testing name server ns2.vaxjo.se.
+ 33.421: vaxjo.se INFO Begin testing host ns2.vaxjo.se.
+ 33.422: vaxjo.se INFO Begin testing address 217.74.80.26.
+ 35.963: vaxjo.se INFO Done testing address 217.74.80.26.
+ 35.963: vaxjo.se INFO Done testing host ns2.vaxjo.se.
+ 35.983: vaxjo.se INFO Name server ns2.vaxjo.se (217.74.80.26) answers queries over UDP.
+ 36.019: vaxjo.se INFO Name server ns2.vaxjo.se (217.74.80.26) answers queries over TCP.
+ 36.272: vaxjo.se INFO Name server ns2.vaxjo.se (217.74.80.26) is not recursive.
+ 36.293: vaxjo.se INFO Name server ns2.vaxjo.se (217.74.80.26) authoritative for vaxjo.se.
+ 36.471: vaxjo.se INFO Name server ns2.vaxjo.se (217.74.80.26) closed for zone transfer of vaxjo.se.
+ 36.490: vaxjo.se NOTICE No answer received from 217.74.80.26 when querying for hostname.bind/CH/TXT.
+ 54.493: vaxjo.se INFO Done testing name server ns2.vaxjo.se.
+ 54.493: vaxjo.se INFO Begin testing zone consistency for vaxjo.se.
+ 54.510: vaxjo.se INFO SOA at address 195.84.40.4 has serial 245.
+ 54.529: vaxjo.se INFO SOA at address 217.74.80.26 has serial 245.
+ 54.530: vaxjo.se INFO All SOA records have consistent serial numbers.
+ 54.530: vaxjo.se INFO All SOA records are consistent among all name servers.
+ 54.530: vaxjo.se INFO Done testing zone consistency for vaxjo.se.
+ 54.530: vaxjo.se INFO Begin testing SOA parameters for vaxjo.se.
+ 54.543: vaxjo.se INFO Found SOA record for vaxjo.se.
+ 54.543: vaxjo.se INFO Begin testing host ns.vaxjo.se.
+ 54.544: vaxjo.se INFO Begin testing address 195.84.40.4.
+ 54.545: vaxjo.se INFO Done testing address 195.84.40.4.
+ 54.545: vaxjo.se INFO Done testing host ns.vaxjo.se.
+ 54.545: vaxjo.se INFO SOA MNAME for vaxjo.se valid (ns.vaxjo.se).
+ 54.546: vaxjo.se INFO SOA MNAME for vaxjo.se (ns.vaxjo.se) listed as NS.
+ 54.559: vaxjo.se INFO SOA MNAME for vaxjo.se (ns.vaxjo.se) is authoritative.
+ 54.559: vaxjo.se INFO Begin testing email address domains@vaxjo.se.
+ 54.827: vaxjo.se INFO Mail exchangers for domains@vaxjo.se found mail.vaxjo.se,mail1.vaxjo.se.
+ 54.827: vaxjo.se INFO All mail servers for domains@vaxjo.se are in zone vaxjo.se.
+ 54.827: vaxjo.se INFO Begin testing host mail.vaxjo.se.
+ 55.308: vaxjo.se INFO Begin testing address 195.84.40.34.
+ 55.810: vaxjo.se INFO Done testing address 195.84.40.34.
+ 55.810: vaxjo.se INFO Done testing host mail.vaxjo.se.
+ 55.810: vaxjo.se INFO Begin testing mail server mail.vaxjo.se (195.84.40.34) with domains@vaxjo.se.
+ 55.842: vaxjo.se INFO SMTP banner: mail.vaxjo.se ESMTP MailMarshal (v6.7.2.8378) Ready
+ 55.883: vaxjo.se INFO SMTP testing of mail.vaxjo.se (195.84.40.34) with domains@vaxjo.se succeeded without errors.
+ 55.883: vaxjo.se INFO Done testing mail server mail.vaxjo.se (195.84.40.34) with domains@vaxjo.se.
+ 55.884: vaxjo.se INFO Begin testing host mail1.vaxjo.se.
+ 56.361: vaxjo.se INFO Begin testing address 195.84.40.33.
+ 56.614: vaxjo.se INFO Done testing address 195.84.40.33.
+ 56.614: vaxjo.se INFO Done testing host mail1.vaxjo.se.
+ 56.614: vaxjo.se INFO Delivery over IPv4 to domains@vaxjo.se ok.
+ 56.614: vaxjo.se INFO Delivery over IPv6 to domains@vaxjo.se could not be done.
+ 56.615: vaxjo.se INFO Done testing email address domains@vaxjo.se.
+ 56.615: vaxjo.se INFO Successful attempt to deliver email for SOA RNAME of vaxjo.se (domains.vaxjo.se) using domains@vaxjo.se.
+ 56.615: vaxjo.se INFO SOA TTL for vaxjo.se OK (3600) - recommended >= 3600.
+ 56.615: vaxjo.se NOTICE SOA refresh for vaxjo.se too small (1800) - recommended >= 14400.
+ 56.615: vaxjo.se NOTICE SOA retry for vaxjo.se too small (900) - recommended >= 3600.
+ 56.615: vaxjo.se INFO SOA expire for vaxjo.se OK (1814400) - recommended >= 604800.
+ 56.615: vaxjo.se INFO SOA minimum for vaxjo.se OK (10800) - recommended between 300 and 86400.
+ 56.615: vaxjo.se INFO Done testing SOA parameters for vaxjo.se.
+ 56.615: vaxjo.se INFO Begin testing connectivity for vaxjo.se.
+ 57.137: vaxjo.se INFO Name server 195.84.40.4 announced by: 3292
+ 57.649: vaxjo.se INFO Name server 217.74.80.26 announced by: 12552
+ 57.649: vaxjo.se INFO Zone announced by IPv4 ASN: 3292,12552
+ 57.649: vaxjo.se INFO Zone announced by more than one ASN (2).
+ 57.649: vaxjo.se INFO Zone announced by IPv6 ASN: 
+ 57.649: vaxjo.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 57.650: vaxjo.se INFO Done testing connectivity for vaxjo.se.
+ 57.650: vaxjo.se INFO Begin testing DNSSEC for vaxjo.se.
+ 57.725: vaxjo.se INFO Did not find DS record for vaxjo.se at parent.
+ 57.786: vaxjo.se INFO Servers for vaxjo.se have consistent extra processing status.
+ 57.786: vaxjo.se INFO Did not find DNSKEY record for vaxjo.se at child.
+ 57.786: vaxjo.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 57.786: vaxjo.se INFO Done testing DNSSEC for vaxjo.se.
+ 57.786: vaxjo.se INFO Test completed for zone vaxjo.se.

@@ -1,0 +1,8 @@
+rrdtool graph ipv6.png -w 800  --start end-365days --width 365 --end now --lower-limit 0 --vertical-label "Quad A www's" \
+ DEF:bank=bank.rrd:bank:LAST LINE1:bank#D0D000:"Banks" \
+ DEF:county=county.rrd:county:LAST LINE2:county#8888FF:"County Council" \
+ DEF:authorities=authorities.rrd:authorities:LAST LINE3:authorities#000F0F:"Authorities" \
+ DEF:registry=registry.rrd:registry:LAST LINE4:registry#00FFFF:"Registrars"  \
+ DEF:urban=urban.rrd:urban:LAST  LINE5:urban#00FF00:"Urban networks" \
+ DEF:municipalities=municipalities.rrd:municipalities:LAST LINE6:municipalities#FFFF00:"Municipalities" \
+ DEF:consults=consults.rrd:consults:LAST LINE7:consults#FF0000:"Consults,registrars etc"

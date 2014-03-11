@@ -1,0 +1,84 @@
+  0.000: eckero.ax INFO Begin testing zone eckero.ax with version 1.6.1.
+  0.326: eckero.ax INFO Begin testing delegation for eckero.ax.
+  3.559: eckero.ax INFO Name servers listed at parent: ns1.justit.ax,ns2.justit.ax
+  4.239: eckero.ax INFO Name servers listed at child: ns1.justit.ax,ns2.justit.ax
+  4.239: eckero.ax NOTICE No IPv6 name servers found.
+  4.296: eckero.ax INFO Parent glue for eckero.ax found: ns1.justit.ax (194.110.185.99)
+  4.385: eckero.ax INFO Parent glue for eckero.ax found: ns2.justit.ax (194.100.49.11)
+  4.423: eckero.ax INFO Checking glue for ns1.justit.ax (194.110.185.99).
+  4.423: eckero.ax INFO Checking glue for ns2.justit.ax (194.100.49.11).
+  4.423: eckero.ax INFO Parent glue for eckero.ax found: ns1.justit.ax (194.110.185.99)
+  4.423: eckero.ax INFO Parent glue for eckero.ax found: ns2.justit.ax (194.100.49.11)
+  4.785: eckero.ax INFO It is possible to build a referral packet for eckero.ax that works without EDNS0.
+  4.953: eckero.ax INFO Previously used name servers for eckero.ax: 
+  4.953: eckero.ax INFO Done testing delegation for eckero.ax.
+  4.978: eckero.ax INFO Begin testing name server ns1.justit.ax.
+  4.978: eckero.ax INFO Begin testing host ns1.justit.ax.
+  4.978: eckero.ax INFO Begin testing address 194.110.185.99.
+  9.977: eckero.ax INFO Done testing address 194.110.185.99.
+  9.978: eckero.ax INFO Done testing host ns1.justit.ax.
+  9.990: eckero.ax INFO Name server ns1.justit.ax (194.110.185.99) answers queries over UDP.
+ 10.006: eckero.ax INFO Name server ns1.justit.ax (194.110.185.99) answers queries over TCP.
+ 10.017: eckero.ax INFO Name server ns1.justit.ax (194.110.185.99) is not recursive.
+ 10.063: eckero.ax INFO Name server ns1.justit.ax (194.110.185.99) authoritative for eckero.ax.
+ 10.086: eckero.ax INFO Name server ns1.justit.ax (194.110.185.99) closed for zone transfer of eckero.ax.
+ 10.095: eckero.ax INFO Legacy name server ID for ns1.justit.ax (194.110.185.99): hostname.bind = ns1
+ 10.106: eckero.ax INFO Legacy name server ID for ns1.justit.ax (194.110.185.99): version.bind = 9.5.0-P2
+ 10.126: eckero.ax NOTICE No answer received from 194.110.185.99 when querying for version.server/CH/TXT.
+ 10.126: eckero.ax INFO Done testing name server ns1.justit.ax.
+ 10.126: eckero.ax INFO Begin testing name server ns2.justit.ax.
+ 10.126: eckero.ax INFO Begin testing host ns2.justit.ax.
+ 10.127: eckero.ax INFO Begin testing address 194.100.49.11.
+ 11.260: eckero.ax INFO Done testing address 194.100.49.11.
+ 11.260: eckero.ax INFO Done testing host ns2.justit.ax.
+ 11.284: eckero.ax INFO Name server ns2.justit.ax (194.100.49.11) answers queries over UDP.
+ 11.325: eckero.ax INFO Name server ns2.justit.ax (194.100.49.11) answers queries over TCP.
+ 11.342: eckero.ax INFO Name server ns2.justit.ax (194.100.49.11) is not recursive.
+ 11.407: eckero.ax INFO Name server ns2.justit.ax (194.100.49.11) authoritative for eckero.ax.
+ 11.447: eckero.ax INFO Name server ns2.justit.ax (194.100.49.11) closed for zone transfer of eckero.ax.
+ 11.466: eckero.ax INFO Legacy name server ID for ns2.justit.ax (194.100.49.11): hostname.bind = ns2.justit.ax
+ 11.482: eckero.ax INFO Legacy name server ID for ns2.justit.ax (194.100.49.11): version.bind = 9.3.4-P1
+ 11.514: eckero.ax NOTICE No answer received from 194.100.49.11 when querying for version.server/CH/TXT.
+ 11.514: eckero.ax INFO Done testing name server ns2.justit.ax.
+ 11.515: eckero.ax INFO Begin testing zone consistency for eckero.ax.
+ 11.535: eckero.ax INFO SOA at address 194.100.49.11 has serial 2013041600.
+ 11.545: eckero.ax INFO SOA at address 194.110.185.99 has serial 2013041600.
+ 11.545: eckero.ax INFO All SOA records have consistent serial numbers.
+ 11.545: eckero.ax INFO All other fields in the SOA record are consistent among all name servers.
+ 11.747: eckero.ax NOTICE The listed nameservers for eckero.ax all report the same set of nameservers.
+ 11.747: eckero.ax INFO Done testing zone consistency for eckero.ax.
+ 11.747: eckero.ax INFO Begin testing SOA parameters for eckero.ax.
+ 11.825: eckero.ax INFO Found SOA record for eckero.ax.
+ 11.825: eckero.ax INFO Begin testing host ns1.justit.ax.
+ 11.826: eckero.ax INFO Begin testing address 194.110.185.99.
+ 11.827: eckero.ax INFO Done testing address 194.110.185.99.
+ 11.827: eckero.ax INFO Done testing host ns1.justit.ax.
+ 11.827: eckero.ax INFO SOA MNAME for eckero.ax valid (ns1.justit.ax).
+ 11.827: eckero.ax INFO SOA MNAME for eckero.ax (ns1.justit.ax) listed as NS.
+ 11.838: eckero.ax INFO SOA MNAME for eckero.ax (ns1.justit.ax) is authoritative.
+ 11.838: eckero.ax INFO Begin testing email address hostmaster@justit.ax.
+ 11.912: eckero.ax INFO Mail exchangers for hostmaster@justit.ax found mail2.justit.ax.
+ 11.912: eckero.ax INFO Begin testing host mail2.justit.ax.
+ 12.062: eckero.ax INFO Begin testing address 194.112.11.12.
+ 12.490: eckero.ax INFO Done testing address 194.112.11.12.
+ 12.490: eckero.ax INFO Done testing host mail2.justit.ax.
+ 12.578: eckero.ax INFO Done testing email address hostmaster@justit.ax.
+ 12.578: eckero.ax INFO Successful attempt to deliver email for SOA RNAME of eckero.ax (hostmaster.justit.ax) using hostmaster@justit.ax.
+ 12.578: eckero.ax INFO SOA TTL for eckero.ax OK (14400) - recommended >= 3600.
+ 12.578: eckero.ax NOTICE SOA refresh for eckero.ax too small (10800) - recommended >= 14400.
+ 12.579: eckero.ax INFO SOA retry for eckero.ax OK (3600) - recommended >= 3600.
+ 12.579: eckero.ax INFO SOA expire for eckero.ax OK (604800) - recommended >= 604800.
+ 12.579: eckero.ax INFO SOA minimum for eckero.ax OK (86400) - recommended between 300 and 86400.
+ 12.579: eckero.ax INFO Done testing SOA parameters for eckero.ax.
+ 12.579: eckero.ax INFO Begin testing connectivity for eckero.ax.
+ 13.638: eckero.ax INFO Zone announced by more than one ASN.
+ 13.638: eckero.ax NOTICE Zone announced by fewer than two IPv6 ASN.
+ 13.638: eckero.ax INFO Done testing connectivity for eckero.ax.
+ 13.638: eckero.ax INFO Begin testing DNSSEC for eckero.ax.
+ 13.682: eckero.ax INFO Did not find DS record for eckero.ax at parent.
+ 13.744: eckero.ax INFO Servers for eckero.ax have consistent extra processing status.
+ 13.788: eckero.ax INFO Authenticated denial records not found for eckero.ax.
+ 13.804: eckero.ax INFO Did not find DNSKEY record for eckero.ax at child.
+ 13.804: eckero.ax INFO No DNSKEY(s) found at child, other tests skipped.
+ 13.804: eckero.ax INFO Done testing DNSSEC for eckero.ax.
+ 13.805: eckero.ax INFO Test completed for zone eckero.ax.

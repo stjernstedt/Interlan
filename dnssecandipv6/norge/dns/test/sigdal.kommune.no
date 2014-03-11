@@ -1,0 +1,118 @@
+  0.000: sigdal.kommune.no INFO Begin testing zone sigdal.kommune.no with version 1.6.1.
+  0.471: sigdal.kommune.no INFO Begin testing delegation for sigdal.kommune.no.
+  9.890: sigdal.kommune.no INFO Name servers listed at parent: dns1.eunet.no,ns1.itum.com
+ 11.888: sigdal.kommune.no INFO Name servers listed at child: ns1.itum.com,ns2.itum.com
+ 11.888: sigdal.kommune.no ERROR Superfluous name server listed at parent: dns1.eunet.no
+ 11.888: sigdal.kommune.no ERROR Too few name servers (1).
+ 11.888: sigdal.kommune.no NOTICE Additional name server listed at child: ns2.itum.com
+ 11.888: sigdal.kommune.no NOTICE No IPv6 name servers found.
+ 12.029: sigdal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 12.180: sigdal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 12.320: sigdal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 12.459: sigdal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 13.421: sigdal.kommune.no INFO It is possible to build a referral packet for sigdal.kommune.no that works without EDNS0.
+ 14.447: sigdal.kommune.no INFO Previously used name servers for sigdal.kommune.no: 
+ 14.447: sigdal.kommune.no INFO Done testing delegation for sigdal.kommune.no.
+ 14.448: sigdal.kommune.no INFO Begin testing name server ns1.itum.com.
+ 14.448: sigdal.kommune.no INFO Begin testing host ns1.itum.com.
+ 14.761: sigdal.kommune.no INFO Begin testing address 93.187.83.200.
+ 20.031: sigdal.kommune.no WARNING Could not find reverse address for 93.187.83.200 (200.83.187.93.in-addr.arpa.).
+ 20.031: sigdal.kommune.no INFO Done testing address 93.187.83.200.
+ 20.031: sigdal.kommune.no INFO Done testing host ns1.itum.com.
+ 20.717: sigdal.kommune.no INFO Name server ns1.itum.com (93.187.83.200) answers queries over UDP.
+ 20.924: sigdal.kommune.no INFO Name server ns1.itum.com (93.187.83.200) answers queries over TCP.
+ 20.995: sigdal.kommune.no INFO Name server ns1.itum.com (93.187.83.200) is not recursive.
+ 21.424: sigdal.kommune.no INFO Name server ns1.itum.com (93.187.83.200) authoritative for sigdal.kommune.no.
+ 21.807: sigdal.kommune.no INFO Name server ns1.itum.com (93.187.83.200) closed for zone transfer of sigdal.kommune.no.
+ 21.831: sigdal.kommune.no NOTICE No answer received from 93.187.83.200 when querying for hostname.bind/CH/TXT.
+ 32.071: sigdal.kommune.no INFO Done testing name server ns1.itum.com.
+ 32.071: sigdal.kommune.no INFO Begin testing name server ns2.itum.com.
+ 32.071: sigdal.kommune.no INFO Begin testing host ns2.itum.com.
+ 32.375: sigdal.kommune.no INFO Begin testing address 85.19.217.194.
+ 33.567: sigdal.kommune.no INFO Done testing address 85.19.217.194.
+ 33.567: sigdal.kommune.no INFO Done testing host ns2.itum.com.
+ 33.806: sigdal.kommune.no INFO Name server ns2.itum.com (85.19.217.194) answers queries over UDP.
+ 33.851: sigdal.kommune.no INFO Name server ns2.itum.com (85.19.217.194) answers queries over TCP.
+ 33.899: sigdal.kommune.no INFO Name server ns2.itum.com (85.19.217.194) is not recursive.
+ 34.000: sigdal.kommune.no INFO Name server ns2.itum.com (85.19.217.194) authoritative for sigdal.kommune.no.
+ 34.177: sigdal.kommune.no INFO Name server ns2.itum.com (85.19.217.194) closed for zone transfer of sigdal.kommune.no.
+ 34.195: sigdal.kommune.no NOTICE No answer received from 85.19.217.194 when querying for hostname.bind/CH/TXT.
+ 46.281: sigdal.kommune.no INFO Done testing name server ns2.itum.com.
+ 46.281: sigdal.kommune.no INFO Begin testing name server dns1.eunet.no.
+ 46.281: sigdal.kommune.no INFO Begin testing host dns1.eunet.no.
+ 46.282: sigdal.kommune.no INFO Begin testing address 193.75.75.1.
+ 46.872: sigdal.kommune.no INFO Done testing address 193.75.75.1.
+ 46.872: sigdal.kommune.no INFO Begin testing address 2001:8c0:2001:0:0:0:3:53.
+ 47.282: sigdal.kommune.no INFO Done testing address 2001:8c0:2001:0:0:0:3:53.
+ 47.282: sigdal.kommune.no INFO Done testing host dns1.eunet.no.
+ 47.295: sigdal.kommune.no NOTICE No answer received from 193.75.75.1 when querying for sigdal.kommune.no/IN/SOA.
+ 47.295: sigdal.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) answers queries over UDP.
+ 47.319: sigdal.kommune.no NOTICE No answer received from 193.75.75.1 when querying for sigdal.kommune.no/IN/SOA.
+ 47.319: sigdal.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) answers queries over TCP.
+ 47.333: sigdal.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) is not recursive.
+ 47.346: sigdal.kommune.no NOTICE No answer received from 193.75.75.1 when querying for sigdal.kommune.no/SOA/IN.
+ 47.363: sigdal.kommune.no NOTICE No answer received from 193.75.75.1 when querying for sigdal.kommune.no/IN/SOA.
+ 47.363: sigdal.kommune.no WARNING Nameserver at 193.75.75.1 is not authoritative over UDP.
+ 47.363: sigdal.kommune.no ERROR Name server dns1.eunet.no (193.75.75.1) not authoritative for sigdal.kommune.no.
+ 47.382: sigdal.kommune.no NOTICE No answer received from 2001:8c0:2001:0:0:0:3:53 when querying for sigdal.kommune.no/IN/SOA.
+ 47.382: sigdal.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) answers queries over UDP.
+ 47.416: sigdal.kommune.no NOTICE No answer received from 2001:8c0:2001:0:0:0:3:53 when querying for sigdal.kommune.no/IN/SOA.
+ 47.416: sigdal.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) answers queries over TCP.
+ 47.437: sigdal.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) is not recursive.
+ 47.455: sigdal.kommune.no NOTICE No answer received from 2001:8c0:2001:0:0:0:3:53 when querying for sigdal.kommune.no/SOA/IN.
+ 47.478: sigdal.kommune.no NOTICE No answer received from 2001:8c0:2001:0:0:0:3:53 when querying for sigdal.kommune.no/IN/SOA.
+ 47.479: sigdal.kommune.no WARNING Nameserver at 2001:8c0:2001:0:0:0:3:53 is not authoritative over UDP.
+ 47.479: sigdal.kommune.no ERROR Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) not authoritative for sigdal.kommune.no.
+ 47.479: sigdal.kommune.no INFO Done testing name server dns1.eunet.no.
+ 47.479: sigdal.kommune.no INFO Begin testing zone consistency for sigdal.kommune.no.
+ 48.103: sigdal.kommune.no INFO SOA at address 93.187.83.200 has serial 2013100405.
+ 48.120: sigdal.kommune.no NOTICE No answer received from 2001:8c0:2001:0:0:0:3:53 when querying for sigdal.kommune.no/IN/SOA.
+ 48.133: sigdal.kommune.no NOTICE No answer received from 193.75.75.1 when querying for sigdal.kommune.no/IN/SOA.
+ 48.149: sigdal.kommune.no INFO SOA at address 85.19.217.194 has serial 2013100405.
+ 48.150: sigdal.kommune.no INFO All SOA records have consistent serial numbers.
+ 48.150: sigdal.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 48.163: sigdal.kommune.no NOTICE No answer received from 193.75.75.1 when querying for sigdal.kommune.no/IN/NS.
+ 48.183: sigdal.kommune.no NOTICE No answer received from 2001:8c0:2001:0:0:0:3:53 when querying for sigdal.kommune.no/IN/NS.
+ 48.309: sigdal.kommune.no NOTICE The listed nameservers for sigdal.kommune.no does not all report the same set of nameservers.
+ 48.309: sigdal.kommune.no INFO Done testing zone consistency for sigdal.kommune.no.
+ 48.309: sigdal.kommune.no INFO Begin testing SOA parameters for sigdal.kommune.no.
+ 48.328: sigdal.kommune.no INFO Found SOA record for sigdal.kommune.no.
+ 48.328: sigdal.kommune.no INFO Begin testing host ns1.itum.com.
+ 48.452: sigdal.kommune.no INFO Begin testing address 93.187.83.200.
+ 48.454: sigdal.kommune.no WARNING Could not find reverse address for 93.187.83.200 (200.83.187.93.in-addr.arpa.).
+ 48.454: sigdal.kommune.no INFO Done testing address 93.187.83.200.
+ 48.454: sigdal.kommune.no INFO Done testing host ns1.itum.com.
+ 48.454: sigdal.kommune.no INFO SOA MNAME for sigdal.kommune.no valid (ns1.itum.com).
+ 48.454: sigdal.kommune.no INFO SOA MNAME for sigdal.kommune.no (ns1.itum.com) listed as NS.
+ 48.669: sigdal.kommune.no INFO SOA MNAME for sigdal.kommune.no (ns1.itum.com) is authoritative.
+ 48.669: sigdal.kommune.no INFO Begin testing email address hostmaster@itum.com.
+ 48.776: sigdal.kommune.no INFO Mail exchangers for hostmaster@itum.com found mailgw.itum.com,mail.itum.com.
+ 48.776: sigdal.kommune.no INFO Begin testing host mailgw.itum.com.
+ 49.446: sigdal.kommune.no INFO Begin testing address 93.187.82.77.
+ 49.987: sigdal.kommune.no INFO Done testing address 93.187.82.77.
+ 49.987: sigdal.kommune.no INFO Done testing host mailgw.itum.com.
+ 50.181: sigdal.kommune.no INFO Begin testing host mail.itum.com.
+ 50.512: sigdal.kommune.no INFO Begin testing address 93.187.82.67.
+ 51.080: sigdal.kommune.no INFO Done testing address 93.187.82.67.
+ 51.083: sigdal.kommune.no INFO Done testing host mail.itum.com.
+ 51.319: sigdal.kommune.no INFO Done testing email address hostmaster@itum.com.
+ 51.319: sigdal.kommune.no INFO Successful attempt to deliver email for SOA RNAME of sigdal.kommune.no (hostmaster.itum.com) using hostmaster@itum.com.
+ 51.319: sigdal.kommune.no INFO SOA TTL for sigdal.kommune.no OK (10800) - recommended >= 3600.
+ 51.319: sigdal.kommune.no NOTICE SOA refresh for sigdal.kommune.no too small (7200) - recommended >= 14400.
+ 51.320: sigdal.kommune.no NOTICE SOA refresh for sigdal.kommune.no lower than retry (7200 vs 7200).
+ 51.320: sigdal.kommune.no INFO SOA retry for sigdal.kommune.no OK (7200) - recommended >= 3600.
+ 51.320: sigdal.kommune.no INFO SOA expire for sigdal.kommune.no OK (2419200) - recommended >= 604800.
+ 51.320: sigdal.kommune.no INFO SOA minimum for sigdal.kommune.no OK (10800) - recommended between 300 and 86400.
+ 51.320: sigdal.kommune.no INFO Done testing SOA parameters for sigdal.kommune.no.
+ 51.320: sigdal.kommune.no INFO Begin testing connectivity for sigdal.kommune.no.
+ 52.428: sigdal.kommune.no INFO Zone announced by more than one ASN.
+ 52.429: sigdal.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 52.429: sigdal.kommune.no INFO Done testing connectivity for sigdal.kommune.no.
+ 52.429: sigdal.kommune.no INFO Begin testing DNSSEC for sigdal.kommune.no.
+ 52.536: sigdal.kommune.no INFO Did not find DS record for sigdal.kommune.no at parent.
+ 52.611: sigdal.kommune.no INFO Servers for sigdal.kommune.no have consistent extra processing status.
+ 52.651: sigdal.kommune.no INFO Authenticated denial records not found for sigdal.kommune.no.
+ 52.671: sigdal.kommune.no INFO Did not find DNSKEY record for sigdal.kommune.no at child.
+ 52.671: sigdal.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 52.671: sigdal.kommune.no INFO Done testing DNSSEC for sigdal.kommune.no.
+ 52.671: sigdal.kommune.no INFO Test completed for zone sigdal.kommune.no.

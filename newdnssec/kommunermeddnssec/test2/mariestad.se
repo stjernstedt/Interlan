@@ -1,0 +1,103 @@
+  0.000: mariestad.se INFO Begin testing zone mariestad.se with version 1.2.
+  0.000: mariestad.se INFO Begin testing delegation for mariestad.se.
+  9.596: mariestad.se INFO Name servers listed at parent: ns.mariestad.se,ns1.mteab.net
+ 23.019: mariestad.se INFO Name servers listed at child: ns.mariestad.se,ns1.mteab.net
+ 23.019: mariestad.se NOTICE No IPv6 name servers found.
+ 23.058: mariestad.se INFO Parent glue for mariestad.se found: ns.mariestad.se (80.254.244.194)
+ 23.157: mariestad.se INFO Checking glue for ns.mariestad.se (80.254.244.194).
+ 23.177: mariestad.se INFO Child glue for mariestad.se found: ns.mariestad.se (80.254.244.194)
+ 23.177: mariestad.se INFO Parent glue for mariestad.se found: ns.mariestad.se (80.254.244.194)
+ 23.178: mariestad.se INFO Done testing delegation for mariestad.se.
+ 23.178: mariestad.se INFO Begin testing name server ns.mariestad.se.
+ 23.179: mariestad.se INFO Begin testing host ns.mariestad.se.
+ 23.179: mariestad.se INFO Begin testing address 80.254.244.194.
+ 27.537: mariestad.se INFO Done testing address 80.254.244.194.
+ 27.538: mariestad.se INFO Begin testing address 80.254.244.215.
+ 28.262: mariestad.se INFO Done testing address 80.254.244.215.
+ 28.263: mariestad.se INFO Done testing host ns.mariestad.se.
+ 28.285: mariestad.se INFO Name server ns.mariestad.se (80.254.244.194) answers queries over UDP.
+ 28.322: mariestad.se INFO Name server ns.mariestad.se (80.254.244.194) answers queries over TCP.
+ 28.367: mariestad.se WARNING Name server ns.mariestad.se (80.254.244.194) is recursive.
+ 28.387: mariestad.se INFO Name server ns.mariestad.se (80.254.244.194) authoritative for mariestad.se.
+ 28.536: mariestad.se NOTICE Name server ns.mariestad.se (80.254.244.194) open for zone transfer of mariestad.se.
+ 28.555: mariestad.se NOTICE No answer received from 80.254.244.194 when querying for hostname.bind/CH/TXT.
+ 28.573: mariestad.se NOTICE No answer received from 80.254.244.194 when querying for version.bind/CH/TXT.
+ 28.591: mariestad.se NOTICE No answer received from 80.254.244.194 when querying for id.server/CH/TXT.
+ 28.610: mariestad.se NOTICE No answer received from 80.254.244.194 when querying for version.server/CH/TXT.
+ 34.612: mariestad.se ERROR Name server ns.mariestad.se (80.254.244.215) does not answer queries over UDP.
+ 34.614: mariestad.se ERROR Name server ns.mariestad.se (80.254.244.215) does not answer queries over TCP.
+ 34.614: mariestad.se INFO Done testing name server ns.mariestad.se.
+ 34.614: mariestad.se INFO Begin testing name server ns1.mteab.net.
+ 34.614: mariestad.se INFO Begin testing host ns1.mteab.net.
+ 34.614: mariestad.se INFO Begin testing address 80.254.240.18.
+ 35.404: mariestad.se INFO Done testing address 80.254.240.18.
+ 35.404: mariestad.se INFO Done testing host ns1.mteab.net.
+ 35.424: mariestad.se INFO Name server ns1.mteab.net (80.254.240.18) answers queries over UDP.
+ 40.424: mariestad.se NOTICE DNS lookup error (connection failed).
+ 40.424: mariestad.se ERROR Name server ns1.mteab.net (80.254.240.18) does not answer queries over TCP.
+ 40.472: mariestad.se WARNING Name server ns1.mteab.net (80.254.240.18) is recursive.
+ 40.494: mariestad.se INFO Name server ns1.mteab.net (80.254.240.18) authoritative for mariestad.se.
+ 40.494: mariestad.se INFO Name server ns1.mteab.net (80.254.240.18) not checked for zone transfer of mariestad.se.
+ 40.494: mariestad.se INFO Name server ns1.mteab.net (80.254.240.18) not checked for legacy name server ID.
+ 40.494: mariestad.se INFO Done testing name server ns1.mteab.net.
+ 40.495: mariestad.se INFO Begin testing zone consistency for mariestad.se.
+ 40.520: mariestad.se INFO SOA at address 80.254.244.194 has serial 2010120607.
+ 40.541: mariestad.se INFO SOA at address 80.254.240.18 has serial 2010120607.
+ 40.541: mariestad.se INFO All SOA records have consistent serial numbers.
+ 40.541: mariestad.se INFO All SOA records are consistent among all name servers.
+ 40.541: mariestad.se INFO Done testing zone consistency for mariestad.se.
+ 40.541: mariestad.se INFO Begin testing SOA parameters for mariestad.se.
+ 40.560: mariestad.se INFO Found SOA record for mariestad.se.
+ 40.560: mariestad.se INFO Begin testing host ns.mariestad.se.
+ 40.560: mariestad.se INFO Begin testing address 80.254.244.194.
+ 40.562: mariestad.se INFO Done testing address 80.254.244.194.
+ 40.562: mariestad.se INFO Begin testing address 80.254.244.215.
+ 40.563: mariestad.se INFO Done testing address 80.254.244.215.
+ 40.563: mariestad.se INFO Done testing host ns.mariestad.se.
+ 40.563: mariestad.se INFO SOA MNAME for mariestad.se valid (ns.mariestad.se).
+ 40.564: mariestad.se INFO SOA MNAME for mariestad.se (ns.mariestad.se) listed as NS.
+ 40.585: mariestad.se INFO SOA MNAME for mariestad.se (ns.mariestad.se) is authoritative.
+ 40.586: mariestad.se INFO SOA MNAME for mariestad.se (ns.mariestad.se) is authoritative.
+ 40.587: mariestad.se INFO Begin testing email address hostmaster@ns.mariestad.se.
+ 40.822: mariestad.se INFO Mail exchangers for hostmaster@ns.mariestad.se found ns.mariestad.se.
+ 40.822: mariestad.se INFO All mail servers for hostmaster@ns.mariestad.se are in zone mariestad.se.
+ 40.822: mariestad.se INFO Begin testing host ns.mariestad.se.
+ 40.823: mariestad.se INFO Begin testing address 80.254.244.194.
+ 40.824: mariestad.se INFO Done testing address 80.254.244.194.
+ 40.824: mariestad.se INFO Begin testing address 80.254.244.215.
+ 40.826: mariestad.se INFO Done testing address 80.254.244.215.
+ 40.826: mariestad.se INFO Done testing host ns.mariestad.se.
+ 40.826: mariestad.se INFO Begin testing mail server ns.mariestad.se (80.254.244.194) with hostmaster@ns.mariestad.se.
+ 60.824: mariestad.se WARNING Failed to connect to ns.mariestad.se (80.254.244.194).
+ 60.824: mariestad.se INFO Done testing mail server ns.mariestad.se (80.254.244.194) with hostmaster@ns.mariestad.se.
+ 60.824: mariestad.se INFO Begin testing mail server ns.mariestad.se (80.254.244.215) with hostmaster@ns.mariestad.se.
+ 80.824: mariestad.se WARNING Failed to connect to ns.mariestad.se (80.254.244.215).
+ 80.824: mariestad.se INFO Done testing mail server ns.mariestad.se (80.254.244.215) with hostmaster@ns.mariestad.se.
+ 80.824: mariestad.se WARNING Delivery over IPv4 to hostmaster@ns.mariestad.se could not be done.
+ 80.824: mariestad.se INFO Delivery over IPv6 to hostmaster@ns.mariestad.se could not be done.
+ 80.824: mariestad.se INFO Done testing email address hostmaster@ns.mariestad.se.
+ 80.825: mariestad.se WARNING Failed to deliver email for SOA RNAME of mariestad.se (hostmaster.ns.mariestad.se) using hostmaster@ns.mariestad.se.
+ 80.825: mariestad.se NOTICE SOA TTL for mariestad.se too small (300) - recommended >= 3600.
+ 80.825: mariestad.se NOTICE SOA refresh for mariestad.se too small (10800) - recommended >= 14400.
+ 80.825: mariestad.se INFO SOA retry for mariestad.se OK (3600) - recommended >= 3600.
+ 80.825: mariestad.se INFO SOA expire for mariestad.se OK (604800) - recommended >= 604800.
+ 80.825: mariestad.se INFO SOA minimum for mariestad.se OK (300) - recommended between 300 and 86400.
+ 80.825: mariestad.se INFO Done testing SOA parameters for mariestad.se.
+ 80.825: mariestad.se INFO Begin testing connectivity for mariestad.se.
+ 81.341: mariestad.se INFO Name server 80.254.244.194 announced by: 3301
+ 82.103: mariestad.se INFO Name server 80.254.244.215 announced by: 3301
+ 82.858: mariestad.se INFO Name server 80.254.240.18 announced by: 3301
+ 82.858: mariestad.se INFO Zone announced by IPv4 ASN: 3301
+ 82.858: mariestad.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 82.858: mariestad.se INFO Zone announced by IPv6 ASN: 
+ 82.858: mariestad.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 82.858: mariestad.se INFO Done testing connectivity for mariestad.se.
+ 82.858: mariestad.se INFO Begin testing DNSSEC for mariestad.se.
+ 82.875: mariestad.se INFO Did not find DS record for mariestad.se at parent.
+ 87.908: mariestad.se NOTICE DNS lookup error (connection failed).
+ 92.908: mariestad.se NOTICE DNS lookup error (connection failed).
+ 92.908: mariestad.se INFO Servers for mariestad.se have consistent extra processing status.
+ 92.908: mariestad.se INFO Did not find DNSKEY record for mariestad.se at child.
+ 92.908: mariestad.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 92.908: mariestad.se INFO Done testing DNSSEC for mariestad.se.
+ 92.909: mariestad.se INFO Test completed for zone mariestad.se.

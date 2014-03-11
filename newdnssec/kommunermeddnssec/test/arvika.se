@@ -1,0 +1,119 @@
+  0.000: arvika.se INFO Begin testing zone arvika.se with version 1.6.1.
+  0.546: arvika.se INFO Begin testing delegation for arvika.se.
+ 16.990: arvika.se INFO Name servers listed at parent: dns5.telia.com,ns1.arvika.se
+ 21.063: arvika.se INFO Name servers listed at child: dns5.telia.com,ns1.arvika.se,ns2.arvika.se
+ 21.063: arvika.se NOTICE Additional name server listed at child: ns2.arvika.se
+ 21.064: arvika.se NOTICE Too few IPv6 name servers (1).
+ 21.567: arvika.se INFO Parent glue for arvika.se found: ns1.arvika.se (193.33.246.2)
+ 21.719: arvika.se INFO Checking glue for ns1.arvika.se (193.33.246.2).
+ 21.783: arvika.se INFO Child glue for arvika.se found: ns1.arvika.se (193.33.246.2)
+ 21.784: arvika.se INFO Parent glue for arvika.se found: ns1.arvika.se (193.33.246.2)
+ 24.592: arvika.se INFO It is possible to build a referral packet for arvika.se that works without EDNS0.
+ 25.151: arvika.se INFO Previously used name servers for arvika.se: 
+ 25.151: arvika.se INFO Done testing delegation for arvika.se.
+ 25.151: arvika.se INFO Begin testing name server dns5.telia.com.
+ 25.152: arvika.se INFO Begin testing host dns5.telia.com.
+ 25.152: arvika.se INFO Begin testing address 81.228.11.68.
+ 44.342: arvika.se INFO Done testing address 81.228.11.68.
+ 44.342: arvika.se INFO Begin testing address 2001:2040:c001:101:0:0:0:4.
+ 51.196: arvika.se INFO Done testing address 2001:2040:c001:101:0:0:0:4.
+ 51.196: arvika.se INFO Done testing host dns5.telia.com.
+ 51.291: arvika.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over UDP.
+ 51.362: arvika.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over TCP.
+ 51.503: arvika.se INFO Name server dns5.telia.com (81.228.11.68) is not recursive.
+ 51.695: arvika.se INFO Name server dns5.telia.com (81.228.11.68) authoritative for arvika.se.
+ 51.753: arvika.se INFO Name server dns5.telia.com (81.228.11.68) closed for zone transfer of arvika.se.
+ 51.887: arvika.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 52.136: arvika.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) answers queries over UDP.
+ 52.240: arvika.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) answers queries over TCP.
+ 52.326: arvika.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) is not recursive.
+ 52.723: arvika.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) authoritative for arvika.se.
+ 52.906: arvika.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) closed for zone transfer of arvika.se.
+ 53.206: arvika.se INFO Legacy name server ID for dns5.telia.com (2001:2040:c001:101:0:0:0:4): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 53.730: arvika.se INFO Done testing name server dns5.telia.com.
+ 53.730: arvika.se INFO Begin testing name server ns1.arvika.se.
+ 53.731: arvika.se INFO Begin testing host ns1.arvika.se.
+ 54.227: arvika.se INFO Begin testing address 193.33.246.2.
+ 56.941: arvika.se INFO Done testing address 193.33.246.2.
+ 56.941: arvika.se INFO Done testing host ns1.arvika.se.
+ 57.703: arvika.se INFO Name server ns1.arvika.se (193.33.246.2) answers queries over UDP.
+ 57.756: arvika.se INFO Name server ns1.arvika.se (193.33.246.2) answers queries over TCP.
+ 58.076: arvika.se WARNING Name server ns1.arvika.se (193.33.246.2) is recursive.
+ 60.812: arvika.se INFO Name server ns1.arvika.se (193.33.246.2) authoritative for arvika.se.
+ 61.284: arvika.se NOTICE Name server ns1.arvika.se (193.33.246.2) open for zone transfer of arvika.se.
+ 61.348: arvika.se NOTICE No answer received from 193.33.246.2 when querying for hostname.bind/CH/TXT.
+ 73.826: arvika.se INFO Done testing name server ns1.arvika.se.
+ 73.827: arvika.se INFO Begin testing name server ns2.arvika.se.
+ 73.827: arvika.se INFO Begin testing host ns2.arvika.se.
+ 74.090: arvika.se INFO Begin testing address 193.33.246.3.
+ 74.747: arvika.se INFO Done testing address 193.33.246.3.
+ 74.747: arvika.se INFO Done testing host ns2.arvika.se.
+ 74.981: arvika.se INFO Name server ns2.arvika.se (193.33.246.3) answers queries over UDP.
+ 75.101: arvika.se INFO Name server ns2.arvika.se (193.33.246.3) answers queries over TCP.
+ 75.699: arvika.se WARNING Name server ns2.arvika.se (193.33.246.3) is recursive.
+ 75.909: arvika.se INFO Name server ns2.arvika.se (193.33.246.3) authoritative for arvika.se.
+ 76.250: arvika.se NOTICE Name server ns2.arvika.se (193.33.246.3) open for zone transfer of arvika.se.
+ 76.274: arvika.se NOTICE No answer received from 193.33.246.3 when querying for hostname.bind/CH/TXT.
+ 88.578: arvika.se INFO Done testing name server ns2.arvika.se.
+ 88.579: arvika.se INFO Begin testing zone consistency for arvika.se.
+ 91.219: arvika.se INFO SOA at address 81.228.11.68 has serial 2007062201.
+ 91.251: arvika.se INFO SOA at address 193.33.246.3 has serial 2007062201.
+ 91.341: arvika.se INFO SOA at address 2001:2040:c001:101:0:0:0:4 has serial 2007062201.
+ 91.499: arvika.se INFO SOA at address 193.33.246.2 has serial 2007062201.
+ 91.499: arvika.se INFO All SOA records have consistent serial numbers.
+ 91.499: arvika.se INFO All other fields in the SOA record are consistent among all name servers.
+ 92.393: arvika.se NOTICE The listed nameservers for arvika.se all report the same set of nameservers.
+ 92.393: arvika.se INFO Done testing zone consistency for arvika.se.
+ 92.393: arvika.se INFO Begin testing SOA parameters for arvika.se.
+ 92.509: arvika.se INFO Found SOA record for arvika.se.
+ 92.509: arvika.se INFO Begin testing host ns1.arvika.se.
+ 92.775: arvika.se INFO Begin testing address 193.33.246.2.
+ 92.930: arvika.se INFO Done testing address 193.33.246.2.
+ 92.934: arvika.se INFO Done testing host ns1.arvika.se.
+ 92.934: arvika.se INFO SOA MNAME for arvika.se valid (ns1.arvika.se).
+ 92.934: arvika.se INFO SOA MNAME for arvika.se (ns1.arvika.se) listed as NS.
+ 93.873: arvika.se INFO SOA MNAME for arvika.se (ns1.arvika.se) is authoritative.
+ 93.873: arvika.se INFO Begin testing email address hostmaster@arvika.se.
+ 94.191: arvika.se INFO Mail exchangers for hostmaster@arvika.se found smtp-in.sto-hy.se.stejtech.net,smtp-in.sto-ste.se.stejtech.net.
+ 94.191: arvika.se INFO Begin testing host smtp-in.sto-hy.se.stejtech.net.
+ 95.504: arvika.se INFO Begin testing address 91.236.209.10.
+ 97.355: arvika.se INFO Done testing address 91.236.209.10.
+ 97.355: arvika.se INFO Begin testing address 79.136.102.100.
+ 98.699: arvika.se INFO Done testing address 79.136.102.100.
+ 98.699: arvika.se INFO Begin testing address 91.236.208.10.
+ 99.577: arvika.se INFO Done testing address 91.236.208.10.
+ 99.577: arvika.se INFO Begin testing address 2001:67c:27e0:2210:0:0:0:1b01.
+100.478: arvika.se INFO Done testing address 2001:67c:27e0:2210:0:0:0:1b01.
+100.478: arvika.se INFO Begin testing address 2001:67c:27e0:2110:0:0:0:1b01.
+101.638: arvika.se INFO Done testing address 2001:67c:27e0:2110:0:0:0:1b01.
+101.638: arvika.se INFO Begin testing address 2001:9b0:1:703:0:0:0:1b01.
+102.830: arvika.se INFO Done testing address 2001:9b0:1:703:0:0:0:1b01.
+102.830: arvika.se INFO Done testing host smtp-in.sto-hy.se.stejtech.net.
+102.855: arvika.se INFO Begin testing host smtp-in.sto-ste.se.stejtech.net.
+103.383: arvika.se INFO Begin testing address 79.136.102.90.
+104.793: arvika.se INFO Done testing address 79.136.102.90.
+104.794: arvika.se INFO Begin testing address 83.140.31.145.
+106.127: arvika.se INFO Done testing address 83.140.31.145.
+106.128: arvika.se INFO Begin testing address 2001:9b0:1:703:0:0:0:b002.
+107.565: arvika.se INFO Done testing address 2001:9b0:1:703:0:0:0:b002.
+107.565: arvika.se INFO Done testing host smtp-in.sto-ste.se.stejtech.net.
+107.566: arvika.se INFO Done testing email address hostmaster@arvika.se.
+107.566: arvika.se INFO Successful attempt to deliver email for SOA RNAME of arvika.se (hostmaster.arvika.se) using hostmaster@arvika.se.
+107.571: arvika.se INFO SOA TTL for arvika.se OK (3600) - recommended >= 3600.
+107.571: arvika.se INFO SOA refresh for arvika.se OK (14400) - recommended >= 14400.
+107.571: arvika.se INFO SOA retry for arvika.se OK (3600) - recommended >= 3600.
+107.571: arvika.se INFO SOA expire for arvika.se OK (604800) - recommended >= 604800.
+107.571: arvika.se INFO SOA minimum for arvika.se OK (3600) - recommended between 300 and 86400.
+107.572: arvika.se INFO Done testing SOA parameters for arvika.se.
+107.572: arvika.se INFO Begin testing connectivity for arvika.se.
+109.664: arvika.se NOTICE Zone announced by fewer than two IPv4 ASN.
+110.182: arvika.se NOTICE Zone announced by fewer than two IPv6 ASN.
+110.183: arvika.se INFO Done testing connectivity for arvika.se.
+110.183: arvika.se INFO Begin testing DNSSEC for arvika.se.
+110.249: arvika.se INFO Did not find DS record for arvika.se at parent.
+110.429: arvika.se INFO Servers for arvika.se have consistent extra processing status.
+110.468: arvika.se INFO Authenticated denial records not found for arvika.se.
+110.491: arvika.se INFO Did not find DNSKEY record for arvika.se at child.
+110.491: arvika.se INFO No DNSKEY(s) found at child, other tests skipped.
+110.491: arvika.se INFO Done testing DNSSEC for arvika.se.
+110.492: arvika.se INFO Test completed for zone arvika.se.

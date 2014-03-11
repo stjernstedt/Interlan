@@ -1,0 +1,92 @@
+  0.000: ltk.dk INFO Begin testing zone ltk.dk with version 1.6.1.
+  0.388: ltk.dk INFO Begin testing delegation for ltk.dk.
+  5.250: ltk.dk INFO Name servers listed at parent: ns1.tdchweb.dk,ns2.tdchweb.dk
+  7.052: ltk.dk INFO Name servers listed at child: ns1.tdchweb.dk,ns2.tdchweb.dk
+  7.052: ltk.dk NOTICE No IPv6 name servers found.
+  7.135: ltk.dk INFO Parent glue for ltk.dk found: ns1.tdchweb.dk (193.88.99.205)
+  7.254: ltk.dk INFO Parent glue for ltk.dk found: ns2.tdchweb.dk (193.88.99.143)
+  7.348: ltk.dk INFO Checking glue for ns1.tdchweb.dk (193.88.99.205).
+  7.348: ltk.dk INFO Checking glue for ns2.tdchweb.dk (193.88.99.143).
+  7.349: ltk.dk INFO Parent glue for ltk.dk found: ns1.tdchweb.dk (193.88.99.205)
+  7.399: ltk.dk INFO Parent glue for ltk.dk found: ns2.tdchweb.dk (193.88.99.143)
+  8.249: ltk.dk INFO It is possible to build a referral packet for ltk.dk that works without EDNS0.
+  8.931: ltk.dk INFO Previously used name servers for ltk.dk: 
+  8.931: ltk.dk INFO Done testing delegation for ltk.dk.
+  8.932: ltk.dk INFO Begin testing name server ns1.tdchweb.dk.
+  8.932: ltk.dk INFO Begin testing host ns1.tdchweb.dk.
+  9.426: ltk.dk INFO Begin testing address 193.88.99.205.
+ 20.993: ltk.dk INFO Done testing address 193.88.99.205.
+ 20.993: ltk.dk INFO Done testing host ns1.tdchweb.dk.
+ 21.296: ltk.dk INFO Name server ns1.tdchweb.dk (193.88.99.205) answers queries over UDP.
+ 21.343: ltk.dk INFO Name server ns1.tdchweb.dk (193.88.99.205) answers queries over TCP.
+ 21.422: ltk.dk INFO Name server ns1.tdchweb.dk (193.88.99.205) is not recursive.
+ 21.588: ltk.dk INFO Name server ns1.tdchweb.dk (193.88.99.205) authoritative for ltk.dk.
+ 21.655: ltk.dk INFO Name server ns1.tdchweb.dk (193.88.99.205) closed for zone transfer of ltk.dk.
+ 21.677: ltk.dk NOTICE No answer received from 193.88.99.205 when querying for hostname.bind/CH/TXT.
+ 21.738: ltk.dk INFO Legacy name server ID for ns1.tdchweb.dk (193.88.99.205): version.bind = 9.2.4
+ 21.783: ltk.dk NOTICE No answer received from 193.88.99.205 when querying for id.server/CH/TXT.
+ 21.811: ltk.dk NOTICE No answer received from 193.88.99.205 when querying for version.server/CH/TXT.
+ 21.811: ltk.dk INFO Done testing name server ns1.tdchweb.dk.
+ 21.811: ltk.dk INFO Begin testing name server ns2.tdchweb.dk.
+ 21.811: ltk.dk INFO Begin testing host ns2.tdchweb.dk.
+ 22.111: ltk.dk INFO Begin testing address 193.88.99.143.
+ 22.871: ltk.dk INFO Done testing address 193.88.99.143.
+ 22.871: ltk.dk INFO Done testing host ns2.tdchweb.dk.
+ 23.124: ltk.dk INFO Name server ns2.tdchweb.dk (193.88.99.143) answers queries over UDP.
+ 23.166: ltk.dk INFO Name server ns2.tdchweb.dk (193.88.99.143) answers queries over TCP.
+ 23.275: ltk.dk INFO Name server ns2.tdchweb.dk (193.88.99.143) is not recursive.
+ 23.408: ltk.dk INFO Name server ns2.tdchweb.dk (193.88.99.143) authoritative for ltk.dk.
+ 23.483: ltk.dk INFO Name server ns2.tdchweb.dk (193.88.99.143) closed for zone transfer of ltk.dk.
+ 23.512: ltk.dk NOTICE No answer received from 193.88.99.143 when querying for hostname.bind/CH/TXT.
+ 23.543: ltk.dk INFO Legacy name server ID for ns2.tdchweb.dk (193.88.99.143): version.bind = 9.2.4
+ 23.587: ltk.dk NOTICE No answer received from 193.88.99.143 when querying for id.server/CH/TXT.
+ 23.631: ltk.dk NOTICE No answer received from 193.88.99.143 when querying for version.server/CH/TXT.
+ 23.631: ltk.dk INFO Done testing name server ns2.tdchweb.dk.
+ 23.631: ltk.dk INFO Begin testing zone consistency for ltk.dk.
+ 24.774: ltk.dk INFO SOA at address 193.88.99.143 has serial 1264505280.
+ 24.797: ltk.dk INFO SOA at address 193.88.99.205 has serial 1264505280.
+ 24.797: ltk.dk INFO All SOA records have consistent serial numbers.
+ 24.797: ltk.dk INFO All other fields in the SOA record are consistent among all name servers.
+ 25.466: ltk.dk NOTICE The listed nameservers for ltk.dk all report the same set of nameservers.
+ 25.466: ltk.dk INFO Done testing zone consistency for ltk.dk.
+ 25.473: ltk.dk INFO Begin testing SOA parameters for ltk.dk.
+ 25.504: ltk.dk INFO Found SOA record for ltk.dk.
+ 25.504: ltk.dk INFO Begin testing host ns1.tdchweb.dk.
+ 25.766: ltk.dk INFO Begin testing address 193.88.99.205.
+ 25.910: ltk.dk INFO Done testing address 193.88.99.205.
+ 25.910: ltk.dk INFO Done testing host ns1.tdchweb.dk.
+ 25.910: ltk.dk INFO SOA MNAME for ltk.dk valid (ns1.tdchweb.dk).
+ 25.910: ltk.dk INFO SOA MNAME for ltk.dk (ns1.tdchweb.dk) listed as NS.
+ 26.124: ltk.dk INFO SOA MNAME for ltk.dk (ns1.tdchweb.dk) is authoritative.
+ 26.124: ltk.dk INFO Begin testing email address rbo@ltk.dk.
+ 26.390: ltk.dk INFO Mail exchangers for rbo@ltk.dk found ltk-mail1.semaphor.dk,ltk-mail2.semaphor.dk.
+ 26.390: ltk.dk INFO Begin testing host ltk-mail1.semaphor.dk.
+ 26.675: ltk.dk INFO Begin testing address 195.190.25.56.
+ 27.281: ltk.dk INFO Done testing address 195.190.25.56.
+ 27.281: ltk.dk INFO Done testing host ltk-mail1.semaphor.dk.
+ 27.450: ltk.dk INFO Begin testing host ltk-mail2.semaphor.dk.
+ 27.873: ltk.dk INFO Begin testing address 83.92.241.9.
+ 30.039: ltk.dk INFO Done testing address 83.92.241.9.
+ 30.039: ltk.dk INFO Begin testing address 195.190.25.57.
+ 30.534: ltk.dk INFO Done testing address 195.190.25.57.
+ 30.534: ltk.dk INFO Done testing host ltk-mail2.semaphor.dk.
+ 30.751: ltk.dk INFO Done testing email address rbo@ltk.dk.
+ 30.751: ltk.dk INFO Successful attempt to deliver email for SOA RNAME of ltk.dk (rbo.ltk.dk) using rbo@ltk.dk.
+ 30.751: ltk.dk INFO SOA TTL for ltk.dk OK (3600) - recommended >= 3600.
+ 30.752: ltk.dk INFO SOA refresh for ltk.dk OK (14400) - recommended >= 14400.
+ 30.752: ltk.dk INFO SOA retry for ltk.dk OK (7200) - recommended >= 3600.
+ 30.752: ltk.dk INFO SOA expire for ltk.dk OK (2419200) - recommended >= 604800.
+ 30.752: ltk.dk INFO SOA minimum for ltk.dk OK (3600) - recommended between 300 and 86400.
+ 30.752: ltk.dk INFO Done testing SOA parameters for ltk.dk.
+ 30.752: ltk.dk INFO Begin testing connectivity for ltk.dk.
+ 31.729: ltk.dk NOTICE Zone announced by fewer than two IPv4 ASN.
+ 31.729: ltk.dk NOTICE Zone announced by fewer than two IPv6 ASN.
+ 31.729: ltk.dk INFO Done testing connectivity for ltk.dk.
+ 31.729: ltk.dk INFO Begin testing DNSSEC for ltk.dk.
+ 31.786: ltk.dk INFO Did not find DS record for ltk.dk at parent.
+ 31.882: ltk.dk INFO Servers for ltk.dk have consistent extra processing status.
+ 31.928: ltk.dk INFO Authenticated denial records not found for ltk.dk.
+ 31.952: ltk.dk INFO Did not find DNSKEY record for ltk.dk at child.
+ 31.952: ltk.dk INFO No DNSKEY(s) found at child, other tests skipped.
+ 31.952: ltk.dk INFO Done testing DNSSEC for ltk.dk.
+ 31.953: ltk.dk INFO Test completed for zone ltk.dk.

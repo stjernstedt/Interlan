@@ -1,0 +1,102 @@
+  0.000: saltvik.ax INFO Begin testing zone saltvik.ax with version 1.6.1.
+  0.845: saltvik.ax INFO Begin testing delegation for saltvik.ax.
+  4.995: saltvik.ax INFO Name servers listed at parent: ns.alcom.aland.fi,ns2.alcom.aland.fi,ns3.alcom.aland.fi
+  7.566: saltvik.ax INFO Name servers listed at child: ns.alcom.aland.fi,ns2.alcom.aland.fi,ns3.alcom.aland.fi
+  7.566: saltvik.ax NOTICE No IPv6 name servers found.
+  7.630: saltvik.ax INFO Parent glue for saltvik.ax found: ns.alcom.aland.fi (194.112.0.1)
+  7.729: saltvik.ax INFO Parent glue for saltvik.ax found: ns2.alcom.aland.fi (194.112.0.5)
+  7.842: saltvik.ax INFO Parent glue for saltvik.ax found: ns3.alcom.aland.fi (82.199.186.130)
+  7.916: saltvik.ax INFO Checking glue for ns.alcom.aland.fi (194.112.0.1).
+  7.916: saltvik.ax INFO Checking glue for ns2.alcom.aland.fi (194.112.0.5).
+  7.916: saltvik.ax INFO Checking glue for ns3.alcom.aland.fi (82.199.186.130).
+  7.917: saltvik.ax INFO Parent glue for saltvik.ax found: ns.alcom.aland.fi (194.112.0.1)
+  7.941: saltvik.ax INFO Parent glue for saltvik.ax found: ns2.alcom.aland.fi (194.112.0.5)
+  7.941: saltvik.ax INFO Parent glue for saltvik.ax found: ns3.alcom.aland.fi (82.199.186.130)
+  9.310: saltvik.ax INFO It is possible to build a referral packet for saltvik.ax that works without EDNS0.
+ 10.358: saltvik.ax INFO Previously used name servers for saltvik.ax: 
+ 10.358: saltvik.ax INFO Done testing delegation for saltvik.ax.
+ 10.358: saltvik.ax INFO Begin testing name server ns.alcom.aland.fi.
+ 10.358: saltvik.ax INFO Begin testing host ns.alcom.aland.fi.
+ 10.734: saltvik.ax INFO Begin testing address 194.112.0.1.
+ 20.109: saltvik.ax INFO Done testing address 194.112.0.1.
+ 20.109: saltvik.ax INFO Done testing host ns.alcom.aland.fi.
+ 20.286: saltvik.ax INFO Name server ns.alcom.aland.fi (194.112.0.1) answers queries over UDP.
+ 20.332: saltvik.ax INFO Name server ns.alcom.aland.fi (194.112.0.1) answers queries over TCP.
+ 20.369: saltvik.ax INFO Name server ns.alcom.aland.fi (194.112.0.1) is not recursive.
+ 20.454: saltvik.ax INFO Name server ns.alcom.aland.fi (194.112.0.1) authoritative for saltvik.ax.
+ 20.476: saltvik.ax INFO Name server ns.alcom.aland.fi (194.112.0.1) closed for zone transfer of saltvik.ax.
+ 20.492: saltvik.ax INFO Legacy name server ID for ns.alcom.aland.fi (194.112.0.1): hostname.bind = aragon
+ 20.517: saltvik.ax INFO Legacy name server ID for ns.alcom.aland.fi (194.112.0.1): version.bind = N/A
+ 20.549: saltvik.ax NOTICE No answer received from 194.112.0.1 when querying for version.server/CH/TXT.
+ 20.550: saltvik.ax INFO Done testing name server ns.alcom.aland.fi.
+ 20.550: saltvik.ax INFO Begin testing name server ns2.alcom.aland.fi.
+ 20.550: saltvik.ax INFO Begin testing host ns2.alcom.aland.fi.
+ 20.714: saltvik.ax INFO Begin testing address 194.112.0.5.
+ 26.345: saltvik.ax INFO Done testing address 194.112.0.5.
+ 26.345: saltvik.ax INFO Done testing host ns2.alcom.aland.fi.
+ 26.711: saltvik.ax INFO Name server ns2.alcom.aland.fi (194.112.0.5) answers queries over UDP.
+ 26.736: saltvik.ax INFO Name server ns2.alcom.aland.fi (194.112.0.5) answers queries over TCP.
+ 26.760: saltvik.ax INFO Name server ns2.alcom.aland.fi (194.112.0.5) is not recursive.
+ 26.855: saltvik.ax INFO Name server ns2.alcom.aland.fi (194.112.0.5) authoritative for saltvik.ax.
+ 26.913: saltvik.ax INFO Name server ns2.alcom.aland.fi (194.112.0.5) closed for zone transfer of saltvik.ax.
+ 26.957: saltvik.ax INFO Legacy name server ID for ns2.alcom.aland.fi (194.112.0.5): hostname.bind = gandalf
+ 26.988: saltvik.ax INFO Legacy name server ID for ns2.alcom.aland.fi (194.112.0.5): version.bind = N/A
+ 27.048: saltvik.ax NOTICE No answer received from 194.112.0.5 when querying for version.server/CH/TXT.
+ 27.048: saltvik.ax INFO Done testing name server ns2.alcom.aland.fi.
+ 27.048: saltvik.ax INFO Begin testing name server ns3.alcom.aland.fi.
+ 27.048: saltvik.ax INFO Begin testing host ns3.alcom.aland.fi.
+ 27.226: saltvik.ax INFO Begin testing address 82.199.186.130.
+ 28.728: saltvik.ax INFO Done testing address 82.199.186.130.
+ 28.728: saltvik.ax INFO Done testing host ns3.alcom.aland.fi.
+ 28.999: saltvik.ax INFO Name server ns3.alcom.aland.fi (82.199.186.130) answers queries over UDP.
+ 29.062: saltvik.ax INFO Name server ns3.alcom.aland.fi (82.199.186.130) answers queries over TCP.
+ 29.084: saltvik.ax INFO Name server ns3.alcom.aland.fi (82.199.186.130) is not recursive.
+ 29.203: saltvik.ax INFO Name server ns3.alcom.aland.fi (82.199.186.130) authoritative for saltvik.ax.
+ 29.249: saltvik.ax INFO Name server ns3.alcom.aland.fi (82.199.186.130) closed for zone transfer of saltvik.ax.
+ 29.294: saltvik.ax INFO Legacy name server ID for ns3.alcom.aland.fi (82.199.186.130): hostname.bind = frodo
+ 29.326: saltvik.ax INFO Legacy name server ID for ns3.alcom.aland.fi (82.199.186.130): version.bind = N/A
+ 29.413: saltvik.ax NOTICE No answer received from 82.199.186.130 when querying for version.server/CH/TXT.
+ 29.425: saltvik.ax INFO Done testing name server ns3.alcom.aland.fi.
+ 29.425: saltvik.ax INFO Begin testing zone consistency for saltvik.ax.
+ 31.009: saltvik.ax INFO SOA at address 82.199.186.130 has serial 2013081801.
+ 31.059: saltvik.ax INFO SOA at address 194.112.0.5 has serial 2013081801.
+ 31.134: saltvik.ax INFO SOA at address 194.112.0.1 has serial 2013081801.
+ 31.135: saltvik.ax INFO All SOA records have consistent serial numbers.
+ 31.135: saltvik.ax INFO All other fields in the SOA record are consistent among all name servers.
+ 31.943: saltvik.ax NOTICE The listed nameservers for saltvik.ax all report the same set of nameservers.
+ 31.943: saltvik.ax INFO Done testing zone consistency for saltvik.ax.
+ 31.943: saltvik.ax INFO Begin testing SOA parameters for saltvik.ax.
+ 31.978: saltvik.ax INFO Found SOA record for saltvik.ax.
+ 31.978: saltvik.ax INFO Begin testing host ns.alcom.aland.fi.
+ 32.265: saltvik.ax INFO Begin testing address 194.112.0.1.
+ 34.070: saltvik.ax INFO Done testing address 194.112.0.1.
+ 34.070: saltvik.ax INFO Done testing host ns.alcom.aland.fi.
+ 34.070: saltvik.ax INFO SOA MNAME for saltvik.ax valid (ns.alcom.aland.fi).
+ 34.070: saltvik.ax INFO SOA MNAME for saltvik.ax (ns.alcom.aland.fi) listed as NS.
+ 34.271: saltvik.ax INFO SOA MNAME for saltvik.ax (ns.alcom.aland.fi) is authoritative.
+ 34.271: saltvik.ax INFO Begin testing email address hostmaster@alcom.aland.fi.
+ 34.571: saltvik.ax INFO Mail exchangers for hostmaster@alcom.aland.fi found mail.aland.net.
+ 34.571: saltvik.ax INFO Begin testing host mail.aland.net.
+ 36.754: saltvik.ax INFO Begin testing address 194.112.1.114.
+ 37.282: saltvik.ax INFO Done testing address 194.112.1.114.
+ 37.282: saltvik.ax INFO Done testing host mail.aland.net.
+ 37.466: saltvik.ax INFO Done testing email address hostmaster@alcom.aland.fi.
+ 37.466: saltvik.ax INFO Successful attempt to deliver email for SOA RNAME of saltvik.ax (hostmaster.alcom.aland.fi) using hostmaster@alcom.aland.fi.
+ 37.466: saltvik.ax INFO SOA TTL for saltvik.ax OK (86400) - recommended >= 3600.
+ 37.466: saltvik.ax INFO SOA refresh for saltvik.ax OK (86400) - recommended >= 14400.
+ 37.466: saltvik.ax INFO SOA retry for saltvik.ax OK (7200) - recommended >= 3600.
+ 37.466: saltvik.ax INFO SOA expire for saltvik.ax OK (2419200) - recommended >= 604800.
+ 37.466: saltvik.ax NOTICE SOA minimum for saltvik.ax too large (172800) - recommended <= 86400.
+ 37.466: saltvik.ax INFO Done testing SOA parameters for saltvik.ax.
+ 37.466: saltvik.ax INFO Begin testing connectivity for saltvik.ax.
+ 39.029: saltvik.ax NOTICE Zone announced by fewer than two IPv4 ASN.
+ 39.029: saltvik.ax NOTICE Zone announced by fewer than two IPv6 ASN.
+ 39.029: saltvik.ax INFO Done testing connectivity for saltvik.ax.
+ 39.029: saltvik.ax INFO Begin testing DNSSEC for saltvik.ax.
+ 39.046: saltvik.ax INFO Did not find DS record for saltvik.ax at parent.
+ 39.108: saltvik.ax INFO Servers for saltvik.ax have consistent extra processing status.
+ 39.125: saltvik.ax INFO Authenticated denial records not found for saltvik.ax.
+ 39.413: saltvik.ax INFO Did not find DNSKEY record for saltvik.ax at child.
+ 39.414: saltvik.ax INFO No DNSKEY(s) found at child, other tests skipped.
+ 39.414: saltvik.ax INFO Done testing DNSSEC for saltvik.ax.
+ 39.414: saltvik.ax INFO Test completed for zone saltvik.ax.

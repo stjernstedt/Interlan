@@ -1,0 +1,89 @@
+  0.000: narpes.fi INFO Begin testing zone narpes.fi with version 1.6.1.
+  0.465: narpes.fi INFO Begin testing delegation for narpes.fi.
+  8.143: narpes.fi INFO Name servers listed at parent: ns.narpes.fi,ns2.narpes.fi
+  9.875: narpes.fi INFO Name servers listed at child: ns.narpes.fi,ns2.narpes.fi
+  9.876: narpes.fi NOTICE No IPv6 name servers found.
+  9.928: narpes.fi INFO Parent glue for narpes.fi found: ns.narpes.fi (81.209.36.2)
+ 10.078: narpes.fi INFO Parent glue for narpes.fi found: ns2.narpes.fi (81.209.36.3)
+ 10.145: narpes.fi INFO Checking glue for ns.narpes.fi (81.209.36.2).
+ 10.191: narpes.fi INFO Child glue for narpes.fi found: ns.narpes.fi (81.209.36.2)
+ 10.191: narpes.fi INFO Checking glue for ns2.narpes.fi (81.209.36.3).
+ 10.235: narpes.fi INFO Child glue for narpes.fi found: ns2.narpes.fi (81.209.36.3)
+ 10.236: narpes.fi INFO Parent glue for narpes.fi found: ns.narpes.fi (81.209.36.2)
+ 10.236: narpes.fi INFO Parent glue for narpes.fi found: ns2.narpes.fi (81.209.36.3)
+ 10.972: narpes.fi INFO It is possible to build a referral packet for narpes.fi that works without EDNS0.
+ 11.681: narpes.fi INFO Previously used name servers for narpes.fi: 
+ 11.681: narpes.fi INFO Done testing delegation for narpes.fi.
+ 11.681: narpes.fi INFO Begin testing name server ns.narpes.fi.
+ 11.681: narpes.fi INFO Begin testing host ns.narpes.fi.
+ 12.034: narpes.fi INFO Begin testing address 81.209.36.2.
+ 22.959: narpes.fi INFO Done testing address 81.209.36.2.
+ 22.959: narpes.fi INFO Done testing host ns.narpes.fi.
+ 23.201: narpes.fi INFO Name server ns.narpes.fi (81.209.36.2) answers queries over UDP.
+ 23.265: narpes.fi INFO Name server ns.narpes.fi (81.209.36.2) answers queries over TCP.
+ 23.304: narpes.fi INFO Name server ns.narpes.fi (81.209.36.2) is not recursive.
+ 23.445: narpes.fi INFO Name server ns.narpes.fi (81.209.36.2) authoritative for narpes.fi.
+ 23.505: narpes.fi INFO Name server ns.narpes.fi (81.209.36.2) closed for zone transfer of narpes.fi.
+ 23.540: narpes.fi INFO Legacy name server ID for ns.narpes.fi (81.209.36.2): hostname.bind = www.narpes.fi
+ 23.563: narpes.fi INFO Legacy name server ID for ns.narpes.fi (81.209.36.2): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 23.626: narpes.fi NOTICE No answer received from 81.209.36.2 when querying for version.server/CH/TXT.
+ 23.626: narpes.fi INFO Done testing name server ns.narpes.fi.
+ 23.627: narpes.fi INFO Begin testing name server ns2.narpes.fi.
+ 23.627: narpes.fi INFO Begin testing host ns2.narpes.fi.
+ 23.799: narpes.fi INFO Begin testing address 81.209.36.3.
+ 24.242: narpes.fi WARNING Could not find reverse address for 81.209.36.3 (3.36.209.81.in-addr.arpa.).
+ 24.242: narpes.fi INFO Done testing address 81.209.36.3.
+ 24.242: narpes.fi INFO Done testing host ns2.narpes.fi.
+ 24.467: narpes.fi INFO Name server ns2.narpes.fi (81.209.36.3) answers queries over UDP.
+ 24.519: narpes.fi INFO Name server ns2.narpes.fi (81.209.36.3) answers queries over TCP.
+ 24.555: narpes.fi INFO Name server ns2.narpes.fi (81.209.36.3) is not recursive.
+ 24.680: narpes.fi INFO Name server ns2.narpes.fi (81.209.36.3) authoritative for narpes.fi.
+ 24.756: narpes.fi NOTICE Name server ns2.narpes.fi (81.209.36.3) open for zone transfer of narpes.fi.
+ 24.783: narpes.fi INFO Legacy name server ID for ns2.narpes.fi (81.209.36.3): hostname.bind = nagios
+ 24.810: narpes.fi INFO Legacy name server ID for ns2.narpes.fi (81.209.36.3): version.bind = 9.7.0-P1
+ 24.870: narpes.fi NOTICE No answer received from 81.209.36.3 when querying for version.server/CH/TXT.
+ 24.871: narpes.fi INFO Done testing name server ns2.narpes.fi.
+ 24.871: narpes.fi INFO Begin testing zone consistency for narpes.fi.
+ 25.760: narpes.fi INFO SOA at address 81.209.36.3 has serial 2012071701.
+ 25.794: narpes.fi INFO SOA at address 81.209.36.2 has serial 2012071701.
+ 25.794: narpes.fi INFO All SOA records have consistent serial numbers.
+ 25.794: narpes.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 26.336: narpes.fi NOTICE The listed nameservers for narpes.fi all report the same set of nameservers.
+ 26.337: narpes.fi INFO Done testing zone consistency for narpes.fi.
+ 26.337: narpes.fi INFO Begin testing SOA parameters for narpes.fi.
+ 26.377: narpes.fi INFO Found SOA record for narpes.fi.
+ 26.377: narpes.fi INFO Begin testing host ns.narpes.fi.
+ 26.662: narpes.fi INFO Begin testing address 81.209.36.2.
+ 26.836: narpes.fi INFO Done testing address 81.209.36.2.
+ 26.836: narpes.fi INFO Done testing host ns.narpes.fi.
+ 26.836: narpes.fi INFO SOA MNAME for narpes.fi valid (ns.narpes.fi).
+ 26.837: narpes.fi INFO SOA MNAME for narpes.fi (ns.narpes.fi) listed as NS.
+ 27.110: narpes.fi INFO SOA MNAME for narpes.fi (ns.narpes.fi) is authoritative.
+ 27.110: narpes.fi INFO Begin testing email address admin@narpes.fi.
+ 27.336: narpes.fi INFO Mail exchangers for admin@narpes.fi found zimbra.narpes.fi.
+ 27.336: narpes.fi INFO All mail servers for admin@narpes.fi are in zone narpes.fi.
+ 27.336: narpes.fi INFO Begin testing host zimbra.narpes.fi.
+ 27.856: narpes.fi INFO Begin testing address 81.209.36.8.
+ 28.474: narpes.fi INFO Done testing address 81.209.36.8.
+ 28.474: narpes.fi INFO Done testing host zimbra.narpes.fi.
+ 28.629: narpes.fi INFO Done testing email address admin@narpes.fi.
+ 28.630: narpes.fi INFO Successful attempt to deliver email for SOA RNAME of narpes.fi (admin.narpes.fi) using admin@narpes.fi.
+ 28.630: narpes.fi INFO SOA TTL for narpes.fi OK (86400) - recommended >= 3600.
+ 28.630: narpes.fi NOTICE SOA refresh for narpes.fi too small (3600) - recommended >= 14400.
+ 28.630: narpes.fi NOTICE SOA refresh for narpes.fi lower than retry (3600 vs 3600).
+ 28.630: narpes.fi INFO SOA retry for narpes.fi OK (3600) - recommended >= 3600.
+ 28.630: narpes.fi INFO SOA expire for narpes.fi OK (604800) - recommended >= 604800.
+ 28.630: narpes.fi INFO SOA minimum for narpes.fi OK (86400) - recommended between 300 and 86400.
+ 28.645: narpes.fi INFO Done testing SOA parameters for narpes.fi.
+ 28.645: narpes.fi INFO Begin testing connectivity for narpes.fi.
+ 29.835: narpes.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 29.835: narpes.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 29.835: narpes.fi INFO Done testing connectivity for narpes.fi.
+ 29.835: narpes.fi INFO Begin testing DNSSEC for narpes.fi.
+ 29.880: narpes.fi INFO Did not find DS record for narpes.fi at parent.
+ 29.976: narpes.fi INFO Servers for narpes.fi have consistent extra processing status.
+ 30.039: narpes.fi INFO Authenticated denial records not found for narpes.fi.
+ 30.083: narpes.fi INFO Did not find DNSKEY record for narpes.fi at child.
+ 30.083: narpes.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 30.083: narpes.fi INFO Done testing DNSSEC for narpes.fi.
+ 30.083: narpes.fi INFO Test completed for zone narpes.fi.

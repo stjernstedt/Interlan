@@ -1,0 +1,126 @@
+  0.000: kinnula.fi INFO Begin testing zone kinnula.fi with version 1.5.0.
+  0.967: kinnula.fi INFO Begin testing delegation for kinnula.fi.
+ 14.356: kinnula.fi INFO Name servers listed at parent: ns.kase.fi,ns2.kase.fi
+ 18.293: kinnula.fi INFO Name servers listed at child: ns.kase.fi,ns2.kase.fi
+ 18.542: kinnula.fi INFO Parent glue for kinnula.fi found: ns.kase.fi (89.190.2.2)
+ 18.868: kinnula.fi INFO Parent glue for kinnula.fi found: ns.kase.fi (2a03:7c00:feed:beef:0:0:0:babe)
+ 19.055: kinnula.fi INFO Parent glue for kinnula.fi found: ns2.kase.fi (89.190.3.2)
+ 19.373: kinnula.fi INFO Parent glue for kinnula.fi found: ns2.kase.fi (2a03:7c00:feed:cafe:0:0:0:babe)
+ 19.443: kinnula.fi INFO Checking glue for ns.kase.fi (89.190.2.2).
+ 19.443: kinnula.fi INFO Checking glue for ns.kase.fi (2a03:7c00:feed:beef:0:0:0:babe).
+ 19.443: kinnula.fi INFO Checking glue for ns2.kase.fi (89.190.3.2).
+ 19.443: kinnula.fi INFO Checking glue for ns2.kase.fi (2a03:7c00:feed:cafe:0:0:0:babe).
+ 19.444: kinnula.fi INFO Parent glue for kinnula.fi found: ns.kase.fi (89.190.2.2)
+ 19.444: kinnula.fi INFO Parent glue for kinnula.fi found: ns.kase.fi (2a03:7c00:feed:beef:0:0:0:babe)
+ 19.444: kinnula.fi INFO Parent glue for kinnula.fi found: ns2.kase.fi (89.190.3.2)
+ 19.445: kinnula.fi INFO Parent glue for kinnula.fi found: ns2.kase.fi (2a03:7c00:feed:cafe:0:0:0:babe)
+ 20.536: kinnula.fi INFO It is possible to build a referral packet for kinnula.fi that works without EDNS0.
+ 20.584: kinnula.fi INFO Previously used name servers for kinnula.fi: 
+ 20.584: kinnula.fi INFO Done testing delegation for kinnula.fi.
+ 20.584: kinnula.fi INFO Begin testing name server ns.kase.fi.
+ 20.584: kinnula.fi INFO Begin testing host ns.kase.fi.
+ 20.585: kinnula.fi INFO Begin testing address 89.190.2.2.
+ 39.703: kinnula.fi INFO Done testing address 89.190.2.2.
+ 39.703: kinnula.fi INFO Begin testing address 2a03:7c00:feed:beef:0:0:0:babe.
+ 41.094: kinnula.fi INFO Done testing address 2a03:7c00:feed:beef:0:0:0:babe.
+ 41.094: kinnula.fi INFO Done testing host ns.kase.fi.
+ 41.265: kinnula.fi INFO Name server ns.kase.fi (89.190.2.2) answers queries over UDP.
+ 41.561: kinnula.fi INFO Name server ns.kase.fi (89.190.2.2) answers queries over TCP.
+ 41.771: kinnula.fi INFO Name server ns.kase.fi (89.190.2.2) is not recursive.
+ 42.284: kinnula.fi INFO Name server ns.kase.fi (89.190.2.2) authoritative for kinnula.fi.
+ 42.385: kinnula.fi INFO Name server ns.kase.fi (89.190.2.2) closed for zone transfer of kinnula.fi.
+ 42.447: kinnula.fi NOTICE No answer received from 89.190.2.2 when querying for hostname.bind/CH/TXT.
+ 42.484: kinnula.fi NOTICE No answer received from 89.190.2.2 when querying for version.bind/CH/TXT.
+ 42.574: kinnula.fi NOTICE No answer received from 89.190.2.2 when querying for id.server/CH/TXT.
+ 42.638: kinnula.fi NOTICE No answer received from 89.190.2.2 when querying for version.server/CH/TXT.
+ 42.690: kinnula.fi INFO Name server ns.kase.fi (2a03:7c00:feed:beef:0:0:0:babe) answers queries over UDP.
+ 42.855: kinnula.fi INFO Name server ns.kase.fi (2a03:7c00:feed:beef:0:0:0:babe) answers queries over TCP.
+ 42.980: kinnula.fi INFO Name server ns.kase.fi (2a03:7c00:feed:beef:0:0:0:babe) is not recursive.
+ 43.538: kinnula.fi INFO Name server ns.kase.fi (2a03:7c00:feed:beef:0:0:0:babe) authoritative for kinnula.fi.
+ 43.725: kinnula.fi INFO Name server ns.kase.fi (2a03:7c00:feed:beef:0:0:0:babe) closed for zone transfer of kinnula.fi.
+ 43.883: kinnula.fi NOTICE No answer received from 2a03:7c00:feed:beef:0:0:0:babe when querying for hostname.bind/CH/TXT.
+ 44.023: kinnula.fi NOTICE No answer received from 2a03:7c00:feed:beef:0:0:0:babe when querying for version.bind/CH/TXT.
+ 44.118: kinnula.fi NOTICE No answer received from 2a03:7c00:feed:beef:0:0:0:babe when querying for id.server/CH/TXT.
+ 44.224: kinnula.fi NOTICE No answer received from 2a03:7c00:feed:beef:0:0:0:babe when querying for version.server/CH/TXT.
+ 44.224: kinnula.fi INFO Done testing name server ns.kase.fi.
+ 44.224: kinnula.fi INFO Begin testing name server ns2.kase.fi.
+ 44.224: kinnula.fi INFO Begin testing host ns2.kase.fi.
+ 44.224: kinnula.fi INFO Begin testing address 89.190.3.2.
+ 45.631: kinnula.fi INFO Done testing address 89.190.3.2.
+ 45.631: kinnula.fi INFO Begin testing address 2a03:7c00:feed:cafe:0:0:0:babe.
+ 46.848: kinnula.fi INFO Done testing address 2a03:7c00:feed:cafe:0:0:0:babe.
+ 46.849: kinnula.fi INFO Done testing host ns2.kase.fi.
+ 46.962: kinnula.fi INFO Name server ns2.kase.fi (89.190.3.2) answers queries over UDP.
+ 47.260: kinnula.fi INFO Name server ns2.kase.fi (89.190.3.2) answers queries over TCP.
+ 47.379: kinnula.fi INFO Name server ns2.kase.fi (89.190.3.2) is not recursive.
+ 47.952: kinnula.fi INFO Name server ns2.kase.fi (89.190.3.2) authoritative for kinnula.fi.
+ 48.081: kinnula.fi INFO Name server ns2.kase.fi (89.190.3.2) closed for zone transfer of kinnula.fi.
+ 48.190: kinnula.fi NOTICE No answer received from 89.190.3.2 when querying for hostname.bind/CH/TXT.
+ 48.287: kinnula.fi NOTICE No answer received from 89.190.3.2 when querying for version.bind/CH/TXT.
+ 48.408: kinnula.fi NOTICE No answer received from 89.190.3.2 when querying for id.server/CH/TXT.
+ 48.508: kinnula.fi NOTICE No answer received from 89.190.3.2 when querying for version.server/CH/TXT.
+ 48.626: kinnula.fi INFO Name server ns2.kase.fi (2a03:7c00:feed:cafe:0:0:0:babe) answers queries over UDP.
+ 48.921: kinnula.fi INFO Name server ns2.kase.fi (2a03:7c00:feed:cafe:0:0:0:babe) answers queries over TCP.
+ 49.122: kinnula.fi INFO Name server ns2.kase.fi (2a03:7c00:feed:cafe:0:0:0:babe) is not recursive.
+ 49.686: kinnula.fi INFO Name server ns2.kase.fi (2a03:7c00:feed:cafe:0:0:0:babe) authoritative for kinnula.fi.
+ 49.847: kinnula.fi INFO Name server ns2.kase.fi (2a03:7c00:feed:cafe:0:0:0:babe) closed for zone transfer of kinnula.fi.
+ 49.959: kinnula.fi NOTICE No answer received from 2a03:7c00:feed:cafe:0:0:0:babe when querying for hostname.bind/CH/TXT.
+ 50.065: kinnula.fi NOTICE No answer received from 2a03:7c00:feed:cafe:0:0:0:babe when querying for version.bind/CH/TXT.
+ 50.199: kinnula.fi NOTICE No answer received from 2a03:7c00:feed:cafe:0:0:0:babe when querying for id.server/CH/TXT.
+ 50.308: kinnula.fi NOTICE No answer received from 2a03:7c00:feed:cafe:0:0:0:babe when querying for version.server/CH/TXT.
+ 50.309: kinnula.fi INFO Done testing name server ns2.kase.fi.
+ 50.309: kinnula.fi INFO Begin testing zone consistency for kinnula.fi.
+ 50.586: kinnula.fi INFO SOA at address 89.190.3.2 has serial 2012012301.
+ 50.879: kinnula.fi INFO SOA at address 2a03:7c00:feed:cafe:0:0:0:babe has serial 2012012301.
+ 51.055: kinnula.fi INFO SOA at address 2a03:7c00:feed:beef:0:0:0:babe has serial 2012012301.
+ 51.178: kinnula.fi INFO SOA at address 89.190.2.2 has serial 2012012301.
+ 51.178: kinnula.fi INFO All SOA records have consistent serial numbers.
+ 51.178: kinnula.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 51.934: kinnula.fi NOTICE The listed nameservers for kinnula.fi all report the same set of nameservers.
+ 51.934: kinnula.fi INFO Done testing zone consistency for kinnula.fi.
+ 51.934: kinnula.fi INFO Begin testing SOA parameters for kinnula.fi.
+ 52.102: kinnula.fi INFO Found SOA record for kinnula.fi.
+ 52.102: kinnula.fi INFO Begin testing host ns.kase.fi.
+ 52.102: kinnula.fi INFO Begin testing address 89.190.2.2.
+ 52.263: kinnula.fi INFO Done testing address 89.190.2.2.
+ 52.264: kinnula.fi INFO Begin testing address 2a03:7c00:feed:beef:0:0:0:babe.
+ 52.265: kinnula.fi INFO Done testing address 2a03:7c00:feed:beef:0:0:0:babe.
+ 52.265: kinnula.fi INFO Done testing host ns.kase.fi.
+ 52.265: kinnula.fi INFO SOA MNAME for kinnula.fi valid (ns.kase.fi).
+ 52.265: kinnula.fi INFO SOA MNAME for kinnula.fi (ns.kase.fi) listed as NS.
+ 52.478: kinnula.fi INFO SOA MNAME for kinnula.fi (ns.kase.fi) is authoritative.
+ 52.626: kinnula.fi INFO SOA MNAME for kinnula.fi (ns.kase.fi) is authoritative.
+ 52.626: kinnula.fi INFO Begin testing email address hostmaster@kase.fi.
+ 53.851: kinnula.fi INFO Mail exchangers for hostmaster@kase.fi found filsu.kase.fi,mail.kase.fi.
+ 53.895: kinnula.fi INFO Begin testing host filsu.kase.fi.
+ 55.746: kinnula.fi INFO Begin testing address 89.190.3.9.
+ 56.919: kinnula.fi INFO Done testing address 89.190.3.9.
+ 57.023: kinnula.fi INFO Begin testing address 2a03:7c00:feed:cafe:0:0:0:25.
+ 58.030: kinnula.fi INFO Done testing address 2a03:7c00:feed:cafe:0:0:0:25.
+ 58.030: kinnula.fi INFO Done testing host filsu.kase.fi.
+ 58.031: kinnula.fi INFO Begin testing host mail.kase.fi.
+ 60.217: kinnula.fi INFO Begin testing address 89.190.2.10.
+ 61.377: kinnula.fi INFO Done testing address 89.190.2.10.
+ 61.377: kinnula.fi INFO Begin testing address 2a03:7c00:feed:beef:0:0:0:25.
+ 62.463: kinnula.fi INFO Done testing address 2a03:7c00:feed:beef:0:0:0:25.
+ 62.464: kinnula.fi INFO Done testing host mail.kase.fi.
+ 62.464: kinnula.fi INFO Done testing email address hostmaster@kase.fi.
+ 62.464: kinnula.fi INFO Successful attempt to deliver email for SOA RNAME of kinnula.fi (hostmaster.kase.fi) using hostmaster@kase.fi.
+ 62.464: kinnula.fi INFO SOA TTL for kinnula.fi OK (259200) - recommended >= 3600.
+ 62.464: kinnula.fi NOTICE SOA refresh for kinnula.fi too small (3600) - recommended >= 14400.
+ 62.464: kinnula.fi NOTICE SOA retry for kinnula.fi too small (1200) - recommended >= 3600.
+ 62.464: kinnula.fi INFO SOA expire for kinnula.fi OK (3600000) - recommended >= 604800.
+ 62.464: kinnula.fi INFO SOA minimum for kinnula.fi OK (86400) - recommended between 300 and 86400.
+ 62.464: kinnula.fi INFO Done testing SOA parameters for kinnula.fi.
+ 62.464: kinnula.fi INFO Begin testing connectivity for kinnula.fi.
+ 64.563: kinnula.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 66.537: kinnula.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 66.538: kinnula.fi INFO Done testing connectivity for kinnula.fi.
+ 66.538: kinnula.fi INFO Begin testing DNSSEC for kinnula.fi.
+ 66.709: kinnula.fi INFO Did not find DS record for kinnula.fi at parent.
+ 67.004: kinnula.fi INFO Servers for kinnula.fi have consistent extra processing status.
+ 67.100: kinnula.fi INFO Authenticated denial records not found for kinnula.fi.
+ 67.172: kinnula.fi INFO Did not find DNSKEY record for kinnula.fi at child.
+ 67.172: kinnula.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 67.172: kinnula.fi INFO Done testing DNSSEC for kinnula.fi.
+ 67.172: kinnula.fi INFO Test completed for zone kinnula.fi.

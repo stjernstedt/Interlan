@@ -1,0 +1,126 @@
+  0.000: veteli.fi INFO Begin testing zone veteli.fi with version 1.6.1.
+  0.292: veteli.fi INFO Begin testing delegation for veteli.fi.
+  5.895: veteli.fi INFO Name servers listed at parent: ns.kase.fi,ns2.kase.fi
+  7.361: veteli.fi INFO Name servers listed at child: ns.kase.fi,ns2.kase.fi
+  7.389: veteli.fi INFO Parent glue for veteli.fi found: ns.kase.fi (89.190.2.2)
+  7.538: veteli.fi INFO Parent glue for veteli.fi found: ns.kase.fi (2a03:7c00:feed:beef:0:0:0:babe)
+  7.583: veteli.fi INFO Parent glue for veteli.fi found: ns2.kase.fi (89.190.3.2)
+  7.765: veteli.fi INFO Parent glue for veteli.fi found: ns2.kase.fi (2a03:7c00:feed:cafe:0:0:0:babe)
+  7.765: veteli.fi INFO Checking glue for ns.kase.fi (89.190.2.2).
+  7.766: veteli.fi INFO Checking glue for ns.kase.fi (2a03:7c00:feed:beef:0:0:0:babe).
+  7.766: veteli.fi INFO Checking glue for ns2.kase.fi (89.190.3.2).
+  7.766: veteli.fi INFO Checking glue for ns2.kase.fi (2a03:7c00:feed:cafe:0:0:0:babe).
+  7.766: veteli.fi INFO Parent glue for veteli.fi found: ns.kase.fi (89.190.2.2)
+  7.767: veteli.fi INFO Parent glue for veteli.fi found: ns.kase.fi (2a03:7c00:feed:beef:0:0:0:babe)
+  7.795: veteli.fi INFO Parent glue for veteli.fi found: ns2.kase.fi (89.190.3.2)
+  7.796: veteli.fi INFO Parent glue for veteli.fi found: ns2.kase.fi (2a03:7c00:feed:cafe:0:0:0:babe)
+  8.055: veteli.fi INFO It is possible to build a referral packet for veteli.fi that works without EDNS0.
+  8.056: veteli.fi INFO Previously used name servers for veteli.fi: 
+  8.056: veteli.fi INFO Done testing delegation for veteli.fi.
+  8.056: veteli.fi INFO Begin testing name server ns.kase.fi.
+  8.056: veteli.fi INFO Begin testing host ns.kase.fi.
+  8.057: veteli.fi INFO Begin testing address 89.190.2.2.
+ 11.282: veteli.fi INFO Done testing address 89.190.2.2.
+ 11.282: veteli.fi INFO Begin testing address 2a03:7c00:feed:beef:0:0:0:babe.
+ 11.982: veteli.fi INFO Done testing address 2a03:7c00:feed:beef:0:0:0:babe.
+ 11.982: veteli.fi INFO Done testing host ns.kase.fi.
+ 12.042: veteli.fi INFO Name server ns.kase.fi (89.190.2.2) answers queries over UDP.
+ 12.094: veteli.fi INFO Name server ns.kase.fi (89.190.2.2) answers queries over TCP.
+ 12.158: veteli.fi INFO Name server ns.kase.fi (89.190.2.2) is not recursive.
+ 12.284: veteli.fi INFO Name server ns.kase.fi (89.190.2.2) authoritative for veteli.fi.
+ 12.358: veteli.fi INFO Name server ns.kase.fi (89.190.2.2) closed for zone transfer of veteli.fi.
+ 12.394: veteli.fi NOTICE No answer received from 89.190.2.2 when querying for hostname.bind/CH/TXT.
+ 12.419: veteli.fi NOTICE No answer received from 89.190.2.2 when querying for version.bind/CH/TXT.
+ 12.445: veteli.fi NOTICE No answer received from 89.190.2.2 when querying for id.server/CH/TXT.
+ 12.471: veteli.fi NOTICE No answer received from 89.190.2.2 when querying for version.server/CH/TXT.
+ 12.501: veteli.fi INFO Name server ns.kase.fi (2a03:7c00:feed:beef:0:0:0:babe) answers queries over UDP.
+ 12.584: veteli.fi INFO Name server ns.kase.fi (2a03:7c00:feed:beef:0:0:0:babe) answers queries over TCP.
+ 12.611: veteli.fi INFO Name server ns.kase.fi (2a03:7c00:feed:beef:0:0:0:babe) is not recursive.
+ 12.781: veteli.fi INFO Name server ns.kase.fi (2a03:7c00:feed:beef:0:0:0:babe) authoritative for veteli.fi.
+ 12.860: veteli.fi INFO Name server ns.kase.fi (2a03:7c00:feed:beef:0:0:0:babe) closed for zone transfer of veteli.fi.
+ 12.892: veteli.fi NOTICE No answer received from 2a03:7c00:feed:beef:0:0:0:babe when querying for hostname.bind/CH/TXT.
+ 12.924: veteli.fi NOTICE No answer received from 2a03:7c00:feed:beef:0:0:0:babe when querying for version.bind/CH/TXT.
+ 12.966: veteli.fi NOTICE No answer received from 2a03:7c00:feed:beef:0:0:0:babe when querying for id.server/CH/TXT.
+ 12.996: veteli.fi NOTICE No answer received from 2a03:7c00:feed:beef:0:0:0:babe when querying for version.server/CH/TXT.
+ 12.996: veteli.fi INFO Done testing name server ns.kase.fi.
+ 12.996: veteli.fi INFO Begin testing name server ns2.kase.fi.
+ 12.996: veteli.fi INFO Begin testing host ns2.kase.fi.
+ 12.997: veteli.fi INFO Begin testing address 89.190.3.2.
+ 13.234: veteli.fi INFO Done testing address 89.190.3.2.
+ 13.234: veteli.fi INFO Begin testing address 2a03:7c00:feed:cafe:0:0:0:babe.
+ 13.750: veteli.fi INFO Done testing address 2a03:7c00:feed:cafe:0:0:0:babe.
+ 13.750: veteli.fi INFO Done testing host ns2.kase.fi.
+ 13.781: veteli.fi INFO Name server ns2.kase.fi (89.190.3.2) answers queries over UDP.
+ 13.838: veteli.fi INFO Name server ns2.kase.fi (89.190.3.2) answers queries over TCP.
+ 13.887: veteli.fi INFO Name server ns2.kase.fi (89.190.3.2) is not recursive.
+ 14.032: veteli.fi INFO Name server ns2.kase.fi (89.190.3.2) authoritative for veteli.fi.
+ 14.105: veteli.fi INFO Name server ns2.kase.fi (89.190.3.2) closed for zone transfer of veteli.fi.
+ 14.136: veteli.fi NOTICE No answer received from 89.190.3.2 when querying for hostname.bind/CH/TXT.
+ 14.164: veteli.fi NOTICE No answer received from 89.190.3.2 when querying for version.bind/CH/TXT.
+ 14.190: veteli.fi NOTICE No answer received from 89.190.3.2 when querying for id.server/CH/TXT.
+ 14.217: veteli.fi NOTICE No answer received from 89.190.3.2 when querying for version.server/CH/TXT.
+ 14.270: veteli.fi INFO Name server ns2.kase.fi (2a03:7c00:feed:cafe:0:0:0:babe) answers queries over UDP.
+ 14.340: veteli.fi INFO Name server ns2.kase.fi (2a03:7c00:feed:cafe:0:0:0:babe) answers queries over TCP.
+ 14.370: veteli.fi INFO Name server ns2.kase.fi (2a03:7c00:feed:cafe:0:0:0:babe) is not recursive.
+ 14.539: veteli.fi INFO Name server ns2.kase.fi (2a03:7c00:feed:cafe:0:0:0:babe) authoritative for veteli.fi.
+ 14.646: veteli.fi INFO Name server ns2.kase.fi (2a03:7c00:feed:cafe:0:0:0:babe) closed for zone transfer of veteli.fi.
+ 14.680: veteli.fi NOTICE No answer received from 2a03:7c00:feed:cafe:0:0:0:babe when querying for hostname.bind/CH/TXT.
+ 14.718: veteli.fi NOTICE No answer received from 2a03:7c00:feed:cafe:0:0:0:babe when querying for version.bind/CH/TXT.
+ 14.755: veteli.fi NOTICE No answer received from 2a03:7c00:feed:cafe:0:0:0:babe when querying for id.server/CH/TXT.
+ 14.785: veteli.fi NOTICE No answer received from 2a03:7c00:feed:cafe:0:0:0:babe when querying for version.server/CH/TXT.
+ 14.785: veteli.fi INFO Done testing name server ns2.kase.fi.
+ 14.786: veteli.fi INFO Begin testing zone consistency for veteli.fi.
+ 14.940: veteli.fi INFO SOA at address 89.190.3.2 has serial 2013103103.
+ 15.014: veteli.fi INFO SOA at address 2a03:7c00:feed:cafe:0:0:0:babe has serial 2013103103.
+ 15.184: veteli.fi INFO SOA at address 2a03:7c00:feed:beef:0:0:0:babe has serial 2013103103.
+ 15.279: veteli.fi INFO SOA at address 89.190.2.2 has serial 2013103103.
+ 15.282: veteli.fi INFO All SOA records have consistent serial numbers.
+ 15.282: veteli.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 15.654: veteli.fi NOTICE The listed nameservers for veteli.fi all report the same set of nameservers.
+ 15.654: veteli.fi INFO Done testing zone consistency for veteli.fi.
+ 15.654: veteli.fi INFO Begin testing SOA parameters for veteli.fi.
+ 15.723: veteli.fi INFO Found SOA record for veteli.fi.
+ 15.736: veteli.fi INFO Begin testing host ns.kase.fi.
+ 15.736: veteli.fi INFO Begin testing address 89.190.2.2.
+ 15.737: veteli.fi INFO Done testing address 89.190.2.2.
+ 15.737: veteli.fi INFO Begin testing address 2a03:7c00:feed:beef:0:0:0:babe.
+ 15.738: veteli.fi INFO Done testing address 2a03:7c00:feed:beef:0:0:0:babe.
+ 15.739: veteli.fi INFO Done testing host ns.kase.fi.
+ 15.739: veteli.fi INFO SOA MNAME for veteli.fi valid (ns.kase.fi).
+ 15.739: veteli.fi INFO SOA MNAME for veteli.fi (ns.kase.fi) listed as NS.
+ 15.875: veteli.fi INFO SOA MNAME for veteli.fi (ns.kase.fi) is authoritative.
+ 15.934: veteli.fi INFO SOA MNAME for veteli.fi (ns.kase.fi) is authoritative.
+ 15.934: veteli.fi INFO Begin testing email address hostmaster@kase.fi.
+ 16.530: veteli.fi INFO Mail exchangers for hostmaster@kase.fi found filsu.kase.fi,mail.kase.fi.
+ 16.530: veteli.fi INFO Begin testing host filsu.kase.fi.
+ 17.599: veteli.fi INFO Begin testing address 89.190.3.9.
+ 18.406: veteli.fi INFO Done testing address 89.190.3.9.
+ 18.406: veteli.fi INFO Begin testing address 2a03:7c00:feed:cafe:0:0:0:25.
+ 19.247: veteli.fi INFO Done testing address 2a03:7c00:feed:cafe:0:0:0:25.
+ 19.247: veteli.fi INFO Done testing host filsu.kase.fi.
+ 19.247: veteli.fi INFO Begin testing host mail.kase.fi.
+ 20.223: veteli.fi INFO Begin testing address 89.190.2.10.
+ 20.695: veteli.fi INFO Done testing address 89.190.2.10.
+ 20.755: veteli.fi INFO Begin testing address 2a03:7c00:feed:beef:0:0:0:10.
+ 21.518: veteli.fi INFO Done testing address 2a03:7c00:feed:beef:0:0:0:10.
+ 21.518: veteli.fi INFO Done testing host mail.kase.fi.
+ 21.518: veteli.fi INFO Done testing email address hostmaster@kase.fi.
+ 21.519: veteli.fi INFO Successful attempt to deliver email for SOA RNAME of veteli.fi (hostmaster.kase.fi) using hostmaster@kase.fi.
+ 21.519: veteli.fi INFO SOA TTL for veteli.fi OK (259200) - recommended >= 3600.
+ 21.519: veteli.fi NOTICE SOA refresh for veteli.fi too small (3600) - recommended >= 14400.
+ 21.519: veteli.fi NOTICE SOA retry for veteli.fi too small (1200) - recommended >= 3600.
+ 21.519: veteli.fi INFO SOA expire for veteli.fi OK (2419200) - recommended >= 604800.
+ 21.519: veteli.fi INFO SOA minimum for veteli.fi OK (86400) - recommended between 300 and 86400.
+ 21.519: veteli.fi INFO Done testing SOA parameters for veteli.fi.
+ 21.519: veteli.fi INFO Begin testing connectivity for veteli.fi.
+ 22.833: veteli.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 24.158: veteli.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 24.158: veteli.fi INFO Done testing connectivity for veteli.fi.
+ 24.158: veteli.fi INFO Begin testing DNSSEC for veteli.fi.
+ 24.175: veteli.fi INFO Did not find DS record for veteli.fi at parent.
+ 24.416: veteli.fi INFO Servers for veteli.fi have consistent extra processing status.
+ 24.468: veteli.fi INFO Authenticated denial records not found for veteli.fi.
+ 24.495: veteli.fi INFO Did not find DNSKEY record for veteli.fi at child.
+ 24.495: veteli.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 24.495: veteli.fi INFO Done testing DNSSEC for veteli.fi.
+ 24.500: veteli.fi INFO Test completed for zone veteli.fi.

@@ -1,0 +1,97 @@
+  0.000: rusko.fi INFO Begin testing zone rusko.fi with version 1.5.0.
+  1.507: rusko.fi INFO Begin testing delegation for rusko.fi.
+ 42.117: rusko.fi INFO Name servers listed at parent: ns1.mediatraffic.fi,ns2.mediatraffic.fi,ns3.mediatraffic.fi
+ 59.885: rusko.fi INFO Name servers listed at child: ns1.mediatraffic.fi,ns2.mediatraffic.fi,ns3.mediatraffic.fi
+ 59.885: rusko.fi NOTICE No IPv6 name servers found.
+ 60.601: rusko.fi INFO Parent glue for rusko.fi found: ns1.mediatraffic.fi (93.191.121.48)
+ 61.549: rusko.fi INFO Parent glue for rusko.fi found: ns2.mediatraffic.fi (93.191.121.39)
+ 62.585: rusko.fi INFO Parent glue for rusko.fi found: ns3.mediatraffic.fi (93.191.120.132)
+ 63.073: rusko.fi INFO Checking glue for ns1.mediatraffic.fi (93.191.121.48).
+ 63.073: rusko.fi INFO Checking glue for ns2.mediatraffic.fi (93.191.121.39).
+ 63.073: rusko.fi INFO Checking glue for ns3.mediatraffic.fi (93.191.120.132).
+ 63.074: rusko.fi INFO Parent glue for rusko.fi found: ns1.mediatraffic.fi (93.191.121.48)
+ 63.074: rusko.fi INFO Parent glue for rusko.fi found: ns2.mediatraffic.fi (93.191.121.39)
+ 63.074: rusko.fi INFO Parent glue for rusko.fi found: ns3.mediatraffic.fi (93.191.120.132)
+ 72.682: rusko.fi INFO It is possible to build a referral packet for rusko.fi that works without EDNS0.
+ 79.995: rusko.fi INFO Previously used name servers for rusko.fi: 
+ 79.995: rusko.fi INFO Done testing delegation for rusko.fi.
+ 80.211: rusko.fi INFO Begin testing name server ns1.mediatraffic.fi.
+ 80.212: rusko.fi INFO Begin testing host ns1.mediatraffic.fi.
+ 82.816: rusko.fi INFO Begin testing address 93.191.121.48.
+140.084: rusko.fi INFO Done testing address 93.191.121.48.
+140.084: rusko.fi INFO Done testing host ns1.mediatraffic.fi.
+143.545: rusko.fi INFO Name server ns1.mediatraffic.fi (93.191.121.48) answers queries over UDP.
+144.161: rusko.fi INFO Name server ns1.mediatraffic.fi (93.191.121.48) answers queries over TCP.
+144.732: rusko.fi INFO Name server ns1.mediatraffic.fi (93.191.121.48) is not recursive.
+146.398: rusko.fi INFO Name server ns1.mediatraffic.fi (93.191.121.48) authoritative for rusko.fi.
+146.913: rusko.fi INFO Name server ns1.mediatraffic.fi (93.191.121.48) closed for zone transfer of rusko.fi.
+147.312: rusko.fi INFO Legacy name server ID for ns1.mediatraffic.fi (93.191.121.48): hostname.bind = scanmail
+147.718: rusko.fi INFO Legacy name server ID for ns1.mediatraffic.fi (93.191.121.48): version.bind = 9.6-ESV-R3
+148.432: rusko.fi NOTICE No answer received from 93.191.121.48 when querying for version.server/CH/TXT.
+148.432: rusko.fi INFO Done testing name server ns1.mediatraffic.fi.
+148.432: rusko.fi INFO Begin testing name server ns2.mediatraffic.fi.
+148.432: rusko.fi INFO Begin testing host ns2.mediatraffic.fi.
+151.256: rusko.fi INFO Begin testing address 93.191.121.39.
+162.724: rusko.fi INFO Done testing address 93.191.121.39.
+162.724: rusko.fi INFO Done testing host ns2.mediatraffic.fi.
+165.915: rusko.fi INFO Name server ns2.mediatraffic.fi (93.191.121.39) answers queries over UDP.
+166.250: rusko.fi INFO Name server ns2.mediatraffic.fi (93.191.121.39) answers queries over TCP.
+166.728: rusko.fi INFO Name server ns2.mediatraffic.fi (93.191.121.39) is not recursive.
+167.780: rusko.fi INFO Name server ns2.mediatraffic.fi (93.191.121.39) authoritative for rusko.fi.
+168.121: rusko.fi INFO Name server ns2.mediatraffic.fi (93.191.121.39) closed for zone transfer of rusko.fi.
+168.852: rusko.fi INFO Legacy name server ID for ns2.mediatraffic.fi (93.191.121.39): version.bind = Served by PowerDNS - http://www.powerdns.com
+169.412: rusko.fi INFO Done testing name server ns2.mediatraffic.fi.
+169.412: rusko.fi INFO Begin testing name server ns3.mediatraffic.fi.
+169.412: rusko.fi INFO Begin testing host ns3.mediatraffic.fi.
+172.620: rusko.fi INFO Begin testing address 93.191.120.132.
+184.296: rusko.fi INFO Done testing address 93.191.120.132.
+184.296: rusko.fi INFO Done testing host ns3.mediatraffic.fi.
+187.529: rusko.fi INFO Name server ns3.mediatraffic.fi (93.191.120.132) answers queries over UDP.
+187.921: rusko.fi INFO Name server ns3.mediatraffic.fi (93.191.120.132) answers queries over TCP.
+188.365: rusko.fi INFO Name server ns3.mediatraffic.fi (93.191.120.132) is not recursive.
+189.588: rusko.fi INFO Name server ns3.mediatraffic.fi (93.191.120.132) authoritative for rusko.fi.
+189.962: rusko.fi INFO Name server ns3.mediatraffic.fi (93.191.120.132) closed for zone transfer of rusko.fi.
+190.760: rusko.fi INFO Legacy name server ID for ns3.mediatraffic.fi (93.191.120.132): version.bind = Served by PowerDNS - http://www.powerdns.com
+191.417: rusko.fi INFO Done testing name server ns3.mediatraffic.fi.
+191.418: rusko.fi INFO Begin testing zone consistency for rusko.fi.
+209.073: rusko.fi INFO SOA at address 93.191.121.48 has serial 2013061702.
+209.616: rusko.fi INFO SOA at address 93.191.120.132 has serial 2013061702.
+210.054: rusko.fi INFO SOA at address 93.191.121.39 has serial 2013061702.
+210.054: rusko.fi INFO All SOA records have consistent serial numbers.
+210.054: rusko.fi INFO All other fields in the SOA record are consistent among all name servers.
+219.545: rusko.fi NOTICE The listed nameservers for rusko.fi all report the same set of nameservers.
+219.545: rusko.fi INFO Done testing zone consistency for rusko.fi.
+219.545: rusko.fi INFO Begin testing SOA parameters for rusko.fi.
+220.118: rusko.fi INFO Found SOA record for rusko.fi.
+220.119: rusko.fi INFO Begin testing host ns.rusko.fi.
+226.260: rusko.fi ERROR No address found for ns.rusko.fi.
+226.260: rusko.fi INFO Done testing host ns.rusko.fi.
+226.260: rusko.fi WARNING Error while checking SOA MNAME for rusko.fi (ns.rusko.fi).
+226.261: rusko.fi NOTICE SOA MNAME for rusko.fi (ns.rusko.fi) not listed as NS.
+226.261: rusko.fi INFO Begin testing email address hostmaster@rusko.fi.
+230.348: rusko.fi INFO Mail exchangers for hostmaster@rusko.fi found rus-bsf.rusko.fi.
+230.348: rusko.fi INFO All mail servers for hostmaster@rusko.fi are in zone rusko.fi.
+230.349: rusko.fi INFO Begin testing host rus-bsf.rusko.fi.
+237.652: rusko.fi INFO Begin testing address 62.183.149.225.
+256.408: rusko.fi INFO Done testing address 62.183.149.225.
+256.408: rusko.fi INFO Done testing host rus-bsf.rusko.fi.
+259.536: rusko.fi INFO Done testing email address hostmaster@rusko.fi.
+259.536: rusko.fi INFO Successful attempt to deliver email for SOA RNAME of rusko.fi (hostmaster.rusko.fi) using hostmaster@rusko.fi.
+259.536: rusko.fi INFO SOA TTL for rusko.fi OK (3600) - recommended >= 3600.
+259.536: rusko.fi INFO SOA refresh for rusko.fi OK (28800) - recommended >= 14400.
+259.536: rusko.fi INFO SOA retry for rusko.fi OK (7200) - recommended >= 3600.
+259.536: rusko.fi INFO SOA expire for rusko.fi OK (2419200) - recommended >= 604800.
+259.536: rusko.fi INFO SOA minimum for rusko.fi OK (3600) - recommended between 300 and 86400.
+259.537: rusko.fi INFO Done testing SOA parameters for rusko.fi.
+259.537: rusko.fi INFO Begin testing connectivity for rusko.fi.
+271.311: rusko.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+271.312: rusko.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+271.312: rusko.fi INFO Done testing connectivity for rusko.fi.
+271.312: rusko.fi INFO Begin testing DNSSEC for rusko.fi.
+271.911: rusko.fi INFO Did not find DS record for rusko.fi at parent.
+273.466: rusko.fi INFO Servers for rusko.fi have consistent extra processing status.
+273.911: rusko.fi INFO Authenticated denial records not found for rusko.fi.
+274.432: rusko.fi INFO Did not find DNSKEY record for rusko.fi at child.
+274.432: rusko.fi INFO No DNSKEY(s) found at child, other tests skipped.
+274.432: rusko.fi INFO Done testing DNSSEC for rusko.fi.
+274.433: rusko.fi INFO Test completed for zone rusko.fi.

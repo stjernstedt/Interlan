@@ -1,0 +1,96 @@
+  0.000: atvidaberg.se INFO Begin testing zone atvidaberg.se with version 1.2.
+  0.001: atvidaberg.se INFO Begin testing delegation for atvidaberg.se.
+  5.147: atvidaberg.se INFO Name servers listed at parent: ns1.vokby.se,ns2.vokby.se
+  6.294: atvidaberg.se INFO Name servers listed at child: ns1.vokby.se,ns2.vokby.se
+  6.295: atvidaberg.se NOTICE No IPv6 name servers found.
+  6.340: atvidaberg.se INFO Parent glue for atvidaberg.se found: ns1.vokby.se (88.206.128.2)
+  6.393: atvidaberg.se INFO Parent glue for atvidaberg.se found: ns2.vokby.se (88.206.129.2)
+  6.411: atvidaberg.se INFO Checking glue for ns1.vokby.se (88.206.128.2).
+  6.411: atvidaberg.se INFO Checking glue for ns2.vokby.se (88.206.129.2).
+  6.412: atvidaberg.se INFO Parent glue for atvidaberg.se found: ns1.vokby.se (88.206.128.2)
+  6.412: atvidaberg.se INFO Parent glue for atvidaberg.se found: ns2.vokby.se (88.206.129.2)
+  6.413: atvidaberg.se INFO Done testing delegation for atvidaberg.se.
+  6.413: atvidaberg.se INFO Begin testing name server ns1.vokby.se.
+  6.413: atvidaberg.se INFO Begin testing host ns1.vokby.se.
+  6.413: atvidaberg.se INFO Begin testing address 88.206.128.2.
+ 15.965: atvidaberg.se INFO Done testing address 88.206.128.2.
+ 15.965: atvidaberg.se INFO Done testing host ns1.vokby.se.
+ 15.977: atvidaberg.se INFO Name server ns1.vokby.se (88.206.128.2) answers queries over UDP.
+ 16.000: atvidaberg.se INFO Name server ns1.vokby.se (88.206.128.2) answers queries over TCP.
+ 16.011: atvidaberg.se INFO Name server ns1.vokby.se (88.206.128.2) is not recursive.
+ 16.023: atvidaberg.se INFO Name server ns1.vokby.se (88.206.128.2) authoritative for atvidaberg.se.
+ 16.050: atvidaberg.se INFO Name server ns1.vokby.se (88.206.128.2) closed for zone transfer of atvidaberg.se.
+ 16.061: atvidaberg.se NOTICE No answer received from 88.206.128.2 when querying for hostname.bind/CH/TXT.
+ 16.073: atvidaberg.se NOTICE No answer received from 88.206.128.2 when querying for version.bind/CH/TXT.
+ 16.084: atvidaberg.se NOTICE No answer received from 88.206.128.2 when querying for id.server/CH/TXT.
+ 16.094: atvidaberg.se NOTICE No answer received from 88.206.128.2 when querying for version.server/CH/TXT.
+ 16.094: atvidaberg.se INFO Done testing name server ns1.vokby.se.
+ 16.095: atvidaberg.se INFO Begin testing name server ns2.vokby.se.
+ 16.095: atvidaberg.se INFO Begin testing host ns2.vokby.se.
+ 16.095: atvidaberg.se INFO Begin testing address 88.206.129.2.
+ 16.414: atvidaberg.se INFO Done testing address 88.206.129.2.
+ 16.414: atvidaberg.se INFO Done testing host ns2.vokby.se.
+ 16.426: atvidaberg.se INFO Name server ns2.vokby.se (88.206.129.2) answers queries over UDP.
+ 16.446: atvidaberg.se INFO Name server ns2.vokby.se (88.206.129.2) answers queries over TCP.
+ 16.458: atvidaberg.se INFO Name server ns2.vokby.se (88.206.129.2) is not recursive.
+ 16.469: atvidaberg.se INFO Name server ns2.vokby.se (88.206.129.2) authoritative for atvidaberg.se.
+ 16.496: atvidaberg.se INFO Name server ns2.vokby.se (88.206.129.2) closed for zone transfer of atvidaberg.se.
+ 16.508: atvidaberg.se NOTICE No answer received from 88.206.129.2 when querying for hostname.bind/CH/TXT.
+ 16.518: atvidaberg.se NOTICE No answer received from 88.206.129.2 when querying for version.bind/CH/TXT.
+ 16.529: atvidaberg.se NOTICE No answer received from 88.206.129.2 when querying for id.server/CH/TXT.
+ 16.543: atvidaberg.se NOTICE No answer received from 88.206.129.2 when querying for version.server/CH/TXT.
+ 16.543: atvidaberg.se INFO Done testing name server ns2.vokby.se.
+ 16.543: atvidaberg.se INFO Begin testing zone consistency for atvidaberg.se.
+ 16.558: atvidaberg.se INFO SOA at address 88.206.128.2 has serial 2008040909.
+ 16.569: atvidaberg.se INFO SOA at address 88.206.129.2 has serial 2008040909.
+ 16.569: atvidaberg.se INFO All SOA records have consistent serial numbers.
+ 16.569: atvidaberg.se INFO All SOA records are consistent among all name servers.
+ 16.569: atvidaberg.se INFO Done testing zone consistency for atvidaberg.se.
+ 16.569: atvidaberg.se INFO Begin testing SOA parameters for atvidaberg.se.
+ 16.581: atvidaberg.se INFO Found SOA record for atvidaberg.se.
+ 16.581: atvidaberg.se INFO Begin testing host ns1.vokby.se.
+ 16.582: atvidaberg.se INFO Begin testing address 88.206.128.2.
+ 16.583: atvidaberg.se INFO Done testing address 88.206.128.2.
+ 16.583: atvidaberg.se INFO Done testing host ns1.vokby.se.
+ 16.583: atvidaberg.se INFO SOA MNAME for atvidaberg.se valid (ns1.vokby.se).
+ 16.583: atvidaberg.se INFO SOA MNAME for atvidaberg.se (ns1.vokby.se) listed as NS.
+ 16.596: atvidaberg.se INFO SOA MNAME for atvidaberg.se (ns1.vokby.se) is authoritative.
+ 16.596: atvidaberg.se INFO Begin testing email address registry@itsam.se.
+ 16.842: atvidaberg.se INFO Mail exchangers for registry@itsam.se found mgwin01.itsam.se,mgwin02.itsam.se.
+ 16.842: atvidaberg.se INFO Begin testing host mgwin01.itsam.se.
+ 17.327: atvidaberg.se INFO Begin testing address 88.206.128.179.
+ 17.535: atvidaberg.se INFO Done testing address 88.206.128.179.
+ 17.535: atvidaberg.se INFO Done testing host mgwin01.itsam.se.
+ 17.536: atvidaberg.se INFO Begin testing mail server mgwin01.itsam.se (88.206.128.179) with registry@itsam.se.
+ 17.621: atvidaberg.se INFO SMTP banner: mgwin01.itsam.se NO UCE ESMTP
+ 17.691: atvidaberg.se INFO SMTP testing of mgwin01.itsam.se (88.206.128.179) with registry@itsam.se succeeded without errors.
+ 17.691: atvidaberg.se INFO Done testing mail server mgwin01.itsam.se (88.206.128.179) with registry@itsam.se.
+ 17.692: atvidaberg.se INFO Begin testing host mgwin02.itsam.se.
+ 18.176: atvidaberg.se INFO Begin testing address 88.206.128.180.
+ 18.719: atvidaberg.se INFO Done testing address 88.206.128.180.
+ 18.719: atvidaberg.se INFO Done testing host mgwin02.itsam.se.
+ 18.719: atvidaberg.se INFO Delivery over IPv4 to registry@itsam.se ok.
+ 18.719: atvidaberg.se INFO Delivery over IPv6 to registry@itsam.se could not be done.
+ 18.719: atvidaberg.se INFO Done testing email address registry@itsam.se.
+ 18.719: atvidaberg.se INFO Successful attempt to deliver email for SOA RNAME of atvidaberg.se (registry.itsam.se) using registry@itsam.se.
+ 18.719: atvidaberg.se INFO SOA TTL for atvidaberg.se OK (3600) - recommended >= 3600.
+ 18.720: atvidaberg.se NOTICE SOA refresh for atvidaberg.se too small (10800) - recommended >= 14400.
+ 18.720: atvidaberg.se INFO SOA retry for atvidaberg.se OK (3600) - recommended >= 3600.
+ 18.720: atvidaberg.se INFO SOA expire for atvidaberg.se OK (604800) - recommended >= 604800.
+ 18.720: atvidaberg.se INFO SOA minimum for atvidaberg.se OK (3600) - recommended between 300 and 86400.
+ 18.720: atvidaberg.se INFO Done testing SOA parameters for atvidaberg.se.
+ 18.720: atvidaberg.se INFO Begin testing connectivity for atvidaberg.se.
+ 19.227: atvidaberg.se INFO Name server 88.206.129.2 announced by: 28854
+ 19.904: atvidaberg.se INFO Name server 88.206.128.2 announced by: 28854
+ 19.905: atvidaberg.se INFO Zone announced by IPv4 ASN: 28854
+ 19.905: atvidaberg.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 19.905: atvidaberg.se INFO Zone announced by IPv6 ASN: 
+ 19.905: atvidaberg.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 19.905: atvidaberg.se INFO Done testing connectivity for atvidaberg.se.
+ 19.905: atvidaberg.se INFO Begin testing DNSSEC for atvidaberg.se.
+ 19.953: atvidaberg.se INFO Did not find DS record for atvidaberg.se at parent.
+ 19.999: atvidaberg.se INFO Servers for atvidaberg.se have consistent extra processing status.
+ 19.999: atvidaberg.se INFO Did not find DNSKEY record for atvidaberg.se at child.
+ 19.999: atvidaberg.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 19.999: atvidaberg.se INFO Done testing DNSSEC for atvidaberg.se.
+ 19.999: atvidaberg.se INFO Test completed for zone atvidaberg.se.

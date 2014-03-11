@@ -1,0 +1,121 @@
+  0.000: lemi.fi INFO Begin testing zone lemi.fi with version 1.6.1.
+  0.402: lemi.fi INFO Begin testing delegation for lemi.fi.
+  9.004: lemi.fi INFO Name servers listed at parent: ns4.sci.fi,ns5.sci.fi,ns6.sci.fi
+ 11.655: lemi.fi INFO Name servers listed at child: ns4.sci.fi,ns5.sci.fi,ns6.sci.fi
+ 11.655: lemi.fi NOTICE No IPv6 name servers found.
+ 11.840: lemi.fi INFO Parent glue for lemi.fi found: ns5.sci.fi (213.192.189.2)
+ 11.948: lemi.fi INFO Parent glue for lemi.fi found: ns6.sci.fi (195.74.0.59)
+ 12.061: lemi.fi INFO Checking glue for ns5.sci.fi (213.192.189.2).
+ 12.061: lemi.fi INFO Checking glue for ns6.sci.fi (195.74.0.59).
+ 12.062: lemi.fi INFO Parent glue for lemi.fi found: ns5.sci.fi (213.192.189.2)
+ 12.098: lemi.fi INFO Parent glue for lemi.fi found: ns6.sci.fi (195.74.0.59)
+ 13.486: lemi.fi INFO It is possible to build a referral packet for lemi.fi that works without EDNS0.
+ 14.371: lemi.fi INFO Previously used name servers for lemi.fi: 
+ 14.371: lemi.fi INFO Done testing delegation for lemi.fi.
+ 14.372: lemi.fi INFO Begin testing name server ns4.sci.fi.
+ 14.372: lemi.fi INFO Begin testing host ns4.sci.fi.
+ 14.699: lemi.fi INFO Begin testing address 195.74.0.50.
+ 22.960: lemi.fi INFO Done testing address 195.74.0.50.
+ 22.969: lemi.fi INFO Done testing host ns4.sci.fi.
+ 23.197: lemi.fi INFO Name server ns4.sci.fi (195.74.0.50) answers queries over UDP.
+ 23.234: lemi.fi INFO Name server ns4.sci.fi (195.74.0.50) answers queries over TCP.
+ 23.265: lemi.fi INFO Name server ns4.sci.fi (195.74.0.50) is not recursive.
+ 23.335: lemi.fi INFO Name server ns4.sci.fi (195.74.0.50) authoritative for lemi.fi.
+ 23.375: lemi.fi INFO Name server ns4.sci.fi (195.74.0.50) closed for zone transfer of lemi.fi.
+ 23.411: lemi.fi INFO Legacy name server ID for ns4.sci.fi (195.74.0.50): hostname.bind = r2d2.saunalahti.fi
+ 23.430: lemi.fi INFO Legacy name server ID for ns4.sci.fi (195.74.0.50): version.bind = WE ARE THE BORG. RESISTANCE IS FUTILE.
+ 23.480: lemi.fi NOTICE No answer received from 195.74.0.50 when querying for version.server/CH/TXT.
+ 23.480: lemi.fi INFO Done testing name server ns4.sci.fi.
+ 23.483: lemi.fi INFO Begin testing name server ns5.sci.fi.
+ 23.483: lemi.fi INFO Begin testing host ns5.sci.fi.
+ 23.713: lemi.fi INFO Begin testing address 213.192.189.2.
+ 24.300: lemi.fi INFO Done testing address 213.192.189.2.
+ 24.300: lemi.fi INFO Done testing host ns5.sci.fi.
+ 24.478: lemi.fi INFO Name server ns5.sci.fi (213.192.189.2) answers queries over UDP.
+ 24.509: lemi.fi INFO Name server ns5.sci.fi (213.192.189.2) answers queries over TCP.
+ 24.547: lemi.fi INFO Name server ns5.sci.fi (213.192.189.2) is not recursive.
+ 24.658: lemi.fi INFO Name server ns5.sci.fi (213.192.189.2) authoritative for lemi.fi.
+ 24.692: lemi.fi INFO Name server ns5.sci.fi (213.192.189.2) closed for zone transfer of lemi.fi.
+ 24.714: lemi.fi INFO Legacy name server ID for ns5.sci.fi (213.192.189.2): hostname.bind = ns5-temp.saunalahti.fi
+ 24.730: lemi.fi INFO Legacy name server ID for ns5.sci.fi (213.192.189.2): version.bind = WE ARE THE BORG. RESISTANCE IS FUTILE.
+ 24.775: lemi.fi NOTICE No answer received from 213.192.189.2 when querying for version.server/CH/TXT.
+ 24.775: lemi.fi INFO Done testing name server ns5.sci.fi.
+ 24.776: lemi.fi INFO Begin testing name server ns6.sci.fi.
+ 24.776: lemi.fi INFO Begin testing host ns6.sci.fi.
+ 25.035: lemi.fi INFO Begin testing address 195.74.0.59.
+ 25.575: lemi.fi INFO Done testing address 195.74.0.59.
+ 25.575: lemi.fi INFO Done testing host ns6.sci.fi.
+ 25.930: lemi.fi INFO Name server ns6.sci.fi (195.74.0.59) answers queries over UDP.
+ 25.980: lemi.fi INFO Name server ns6.sci.fi (195.74.0.59) answers queries over TCP.
+ 26.024: lemi.fi INFO Name server ns6.sci.fi (195.74.0.59) is not recursive.
+ 26.154: lemi.fi INFO Name server ns6.sci.fi (195.74.0.59) authoritative for lemi.fi.
+ 26.223: lemi.fi INFO Name server ns6.sci.fi (195.74.0.59) closed for zone transfer of lemi.fi.
+ 26.237: lemi.fi INFO Legacy name server ID for ns6.sci.fi (195.74.0.59): hostname.bind = jabba.saunalahti.fi
+ 26.269: lemi.fi INFO Legacy name server ID for ns6.sci.fi (195.74.0.59): version.bind = WE ARE THE BORG. RESISTANCE IS FUTILE.
+ 26.309: lemi.fi NOTICE No answer received from 195.74.0.59 when querying for version.server/CH/TXT.
+ 26.309: lemi.fi INFO Done testing name server ns6.sci.fi.
+ 26.309: lemi.fi INFO Begin testing zone consistency for lemi.fi.
+ 27.283: lemi.fi INFO SOA at address 195.74.0.50 has serial 1345455474.
+ 27.331: lemi.fi INFO SOA at address 195.74.0.59 has serial 1345455474.
+ 27.348: lemi.fi INFO SOA at address 213.192.189.2 has serial 1345455474.
+ 27.348: lemi.fi INFO All SOA records have consistent serial numbers.
+ 27.348: lemi.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 27.948: lemi.fi NOTICE The listed nameservers for lemi.fi all report the same set of nameservers.
+ 27.948: lemi.fi INFO Done testing zone consistency for lemi.fi.
+ 27.948: lemi.fi INFO Begin testing SOA parameters for lemi.fi.
+ 27.975: lemi.fi INFO Found SOA record for lemi.fi.
+ 27.981: lemi.fi INFO Begin testing host ns4.sci.fi.
+ 28.105: lemi.fi INFO Begin testing address 195.74.0.50.
+ 28.239: lemi.fi INFO Done testing address 195.74.0.50.
+ 28.239: lemi.fi INFO Done testing host ns4.sci.fi.
+ 28.239: lemi.fi INFO SOA MNAME for lemi.fi valid (ns4.sci.fi).
+ 28.239: lemi.fi INFO SOA MNAME for lemi.fi (ns4.sci.fi) listed as NS.
+ 28.461: lemi.fi INFO SOA MNAME for lemi.fi (ns4.sci.fi) is authoritative.
+ 28.462: lemi.fi INFO Begin testing email address hostmaster@sci.fi.
+ 28.699: lemi.fi INFO Mail exchangers for hostmaster@sci.fi found fe-stp.mail.saunalahti.fi,fe-pa.mail.saunalahti.fi,mq01.mail.saunalahti.fi.
+ 28.699: lemi.fi INFO Begin testing host fe-stp.mail.saunalahti.fi.
+ 29.039: lemi.fi INFO Begin testing address 62.142.5.25.
+ 29.713: lemi.fi INFO Done testing address 62.142.5.25.
+ 29.714: lemi.fi INFO Begin testing address 62.142.5.26.
+ 30.576: lemi.fi INFO Done testing address 62.142.5.26.
+ 30.577: lemi.fi INFO Begin testing address 62.142.5.27.
+ 31.151: lemi.fi INFO Done testing address 62.142.5.27.
+ 31.151: lemi.fi INFO Begin testing address 62.142.5.28.
+ 31.981: lemi.fi INFO Done testing address 62.142.5.28.
+ 31.981: lemi.fi INFO Begin testing address 62.142.5.93.
+ 32.811: lemi.fi INFO Done testing address 62.142.5.93.
+ 32.811: lemi.fi INFO Done testing host fe-stp.mail.saunalahti.fi.
+ 32.948: lemi.fi INFO Begin testing host fe-pa.mail.saunalahti.fi.
+ 33.383: lemi.fi INFO Begin testing address 62.142.117.203.
+ 34.087: lemi.fi INFO Done testing address 62.142.117.203.
+ 34.087: lemi.fi INFO Begin testing address 62.142.117.204.
+ 34.727: lemi.fi INFO Done testing address 62.142.117.204.
+ 34.727: lemi.fi INFO Begin testing address 62.142.117.205.
+ 35.315: lemi.fi INFO Done testing address 62.142.117.205.
+ 35.315: lemi.fi INFO Begin testing address 62.142.117.206.
+ 35.859: lemi.fi INFO Done testing address 62.142.117.206.
+ 35.859: lemi.fi INFO Done testing host fe-pa.mail.saunalahti.fi.
+ 36.071: lemi.fi INFO Begin testing host mq01.mail.saunalahti.fi.
+ 36.339: lemi.fi INFO Begin testing address 195.197.172.98.
+ 36.815: lemi.fi INFO Done testing address 195.197.172.98.
+ 36.815: lemi.fi INFO Done testing host mq01.mail.saunalahti.fi.
+ 36.911: lemi.fi INFO Done testing email address hostmaster@sci.fi.
+ 36.911: lemi.fi INFO Successful attempt to deliver email for SOA RNAME of lemi.fi (hostmaster.sci.fi) using hostmaster@sci.fi.
+ 36.911: lemi.fi INFO SOA TTL for lemi.fi OK (14400) - recommended >= 3600.
+ 36.911: lemi.fi INFO SOA refresh for lemi.fi OK (28800) - recommended >= 14400.
+ 36.911: lemi.fi INFO SOA retry for lemi.fi OK (3600) - recommended >= 3600.
+ 36.911: lemi.fi INFO SOA expire for lemi.fi OK (604800) - recommended >= 604800.
+ 36.912: lemi.fi INFO SOA minimum for lemi.fi OK (3600) - recommended between 300 and 86400.
+ 36.912: lemi.fi INFO Done testing SOA parameters for lemi.fi.
+ 36.912: lemi.fi INFO Begin testing connectivity for lemi.fi.
+ 38.275: lemi.fi INFO Zone announced by more than one ASN.
+ 38.275: lemi.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 38.275: lemi.fi INFO Done testing connectivity for lemi.fi.
+ 38.275: lemi.fi INFO Begin testing DNSSEC for lemi.fi.
+ 38.358: lemi.fi INFO Did not find DS record for lemi.fi at parent.
+ 38.431: lemi.fi INFO Servers for lemi.fi have consistent extra processing status.
+ 38.457: lemi.fi INFO Authenticated denial records not found for lemi.fi.
+ 38.470: lemi.fi INFO Did not find DNSKEY record for lemi.fi at child.
+ 38.470: lemi.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 38.470: lemi.fi INFO Done testing DNSSEC for lemi.fi.
+ 38.471: lemi.fi INFO Test completed for zone lemi.fi.

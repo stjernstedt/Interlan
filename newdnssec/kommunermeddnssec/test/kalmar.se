@@ -1,0 +1,244 @@
+  0.000: kalmar.se INFO Begin testing zone kalmar.se with version 1.6.1.
+  2.657: kalmar.se INFO Begin testing delegation for kalmar.se.
+ 24.644: kalmar.se INFO Name servers listed at parent: dns6.telia.com,ns.kalmar.se,ns1.ipv6dns.se,ns2.ipv6dns.se,ns2.kalmar.se
+ 34.974: kalmar.se INFO Name servers listed at child: dns6.telia.com,ns.kalmar.se,ns1.ipv6dns.se,ns2.ipv6dns.se,ns2.kalmar.se
+ 40.788: kalmar.se INFO Parent glue for kalmar.se found: ns.kalmar.se (193.45.96.3)
+ 41.306: kalmar.se INFO Parent glue for kalmar.se found: ns1.ipv6dns.se (192.71.21.35)
+ 42.842: kalmar.se INFO Parent glue for kalmar.se found: ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53)
+ 43.032: kalmar.se INFO Parent glue for kalmar.se found: ns2.ipv6dns.se (109.74.7.166)
+ 43.032: kalmar.se INFO Parent glue for kalmar.se found: ns2.ipv6dns.se (176.58.97.7)
+ 43.123: kalmar.se INFO Parent glue for kalmar.se found: ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165)
+ 43.123: kalmar.se INFO Parent glue for kalmar.se found: ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001)
+ 43.189: kalmar.se INFO Parent glue for kalmar.se found: ns2.kalmar.se (193.45.96.4)
+ 43.284: kalmar.se INFO Checking glue for ns.kalmar.se (193.45.96.3).
+ 43.341: kalmar.se INFO Child glue for kalmar.se found: ns.kalmar.se (193.45.96.3)
+ 43.381: kalmar.se INFO Checking glue for ns1.ipv6dns.se (192.71.21.35).
+ 43.381: kalmar.se INFO Checking glue for ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53).
+ 43.381: kalmar.se INFO Checking glue for ns2.ipv6dns.se (109.74.7.166).
+ 43.381: kalmar.se INFO Checking glue for ns2.ipv6dns.se (176.58.97.7).
+ 43.381: kalmar.se INFO Checking glue for ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165).
+ 43.381: kalmar.se INFO Checking glue for ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001).
+ 43.381: kalmar.se INFO Checking glue for ns2.kalmar.se (193.45.96.4).
+ 43.498: kalmar.se INFO Child glue for kalmar.se found: ns2.kalmar.se (193.45.96.4)
+ 43.498: kalmar.se INFO Parent glue for kalmar.se found: ns.kalmar.se (193.45.96.3)
+ 43.499: kalmar.se INFO Parent glue for kalmar.se found: ns1.ipv6dns.se (192.71.21.35)
+ 43.499: kalmar.se INFO Parent glue for kalmar.se found: ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53)
+ 43.499: kalmar.se INFO Parent glue for kalmar.se found: ns2.ipv6dns.se (109.74.7.166)
+ 43.499: kalmar.se INFO Parent glue for kalmar.se found: ns2.ipv6dns.se (176.58.97.7)
+ 43.499: kalmar.se INFO Parent glue for kalmar.se found: ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165)
+ 43.499: kalmar.se INFO Parent glue for kalmar.se found: ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001)
+ 43.500: kalmar.se INFO Parent glue for kalmar.se found: ns2.kalmar.se (193.45.96.4)
+ 50.144: kalmar.se INFO It is possible to build a referral packet for kalmar.se that works without EDNS0.
+ 52.641: kalmar.se INFO Previously used name servers for kalmar.se: 
+ 52.641: kalmar.se INFO Done testing delegation for kalmar.se.
+ 52.643: kalmar.se INFO Begin testing name server dns6.telia.com.
+ 52.643: kalmar.se INFO Begin testing host dns6.telia.com.
+ 52.643: kalmar.se INFO Begin testing address 81.228.10.68.
+ 69.679: kalmar.se INFO Done testing address 81.228.10.68.
+ 69.680: kalmar.se INFO Begin testing address 2001:2040:c001:401:0:0:0:4.
+ 71.548: kalmar.se INFO Done testing address 2001:2040:c001:401:0:0:0:4.
+ 71.549: kalmar.se INFO Done testing host dns6.telia.com.
+ 71.608: kalmar.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over UDP.
+ 71.673: kalmar.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over TCP.
+ 71.705: kalmar.se INFO Name server dns6.telia.com (81.228.10.68) is not recursive.
+ 71.826: kalmar.se INFO Name server dns6.telia.com (81.228.10.68) authoritative for kalmar.se.
+ 71.873: kalmar.se INFO Name server dns6.telia.com (81.228.10.68) closed for zone transfer of kalmar.se.
+ 71.925: kalmar.se INFO Legacy name server ID for dns6.telia.com (81.228.10.68): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 72.913: kalmar.se INFO Name server dns6.telia.com (2001:2040:c001:401:0:0:0:4) answers queries over UDP.
+ 73.019: kalmar.se INFO Name server dns6.telia.com (2001:2040:c001:401:0:0:0:4) answers queries over TCP.
+ 73.065: kalmar.se INFO Name server dns6.telia.com (2001:2040:c001:401:0:0:0:4) is not recursive.
+ 73.507: kalmar.se INFO Name server dns6.telia.com (2001:2040:c001:401:0:0:0:4) authoritative for kalmar.se.
+ 73.712: kalmar.se INFO Name server dns6.telia.com (2001:2040:c001:401:0:0:0:4) closed for zone transfer of kalmar.se.
+ 73.879: kalmar.se INFO Legacy name server ID for dns6.telia.com (2001:2040:c001:401:0:0:0:4): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 74.045: kalmar.se INFO Done testing name server dns6.telia.com.
+ 74.045: kalmar.se INFO Begin testing name server ns.kalmar.se.
+ 74.046: kalmar.se INFO Begin testing host ns.kalmar.se.
+ 74.533: kalmar.se INFO Begin testing address 193.45.96.3.
+ 75.981: kalmar.se INFO Done testing address 193.45.96.3.
+ 75.993: kalmar.se INFO Done testing host ns.kalmar.se.
+ 76.499: kalmar.se INFO Name server ns.kalmar.se (193.45.96.3) answers queries over UDP.
+ 76.543: kalmar.se INFO Name server ns.kalmar.se (193.45.96.3) answers queries over TCP.
+ 76.840: kalmar.se INFO Name server ns.kalmar.se (193.45.96.3) is not recursive.
+ 77.058: kalmar.se INFO Name server ns.kalmar.se (193.45.96.3) authoritative for kalmar.se.
+ 77.107: kalmar.se INFO Name server ns.kalmar.se (193.45.96.3) closed for zone transfer of kalmar.se.
+ 77.146: kalmar.se INFO Legacy name server ID for ns.kalmar.se (193.45.96.3): hostname.bind = p944-f-a1
+ 77.271: kalmar.se NOTICE No answer received from 193.45.96.3 when querying for version.server/CH/TXT.
+ 77.271: kalmar.se INFO Done testing name server ns.kalmar.se.
+ 77.271: kalmar.se INFO Begin testing name server ns1.ipv6dns.se.
+ 77.271: kalmar.se INFO Begin testing host ns1.ipv6dns.se.
+ 77.272: kalmar.se INFO Begin testing address 192.71.21.35.
+ 88.184: kalmar.se INFO Done testing address 192.71.21.35.
+ 88.184: kalmar.se INFO Begin testing address 2001:67c:2448:10:0:0:0:53.
+ 88.496: kalmar.se INFO Done testing address 2001:67c:2448:10:0:0:0:53.
+ 88.496: kalmar.se INFO Done testing host ns1.ipv6dns.se.
+ 88.513: kalmar.se INFO Name server ns1.ipv6dns.se (192.71.21.35) answers queries over UDP.
+ 88.530: kalmar.se INFO Name server ns1.ipv6dns.se (192.71.21.35) answers queries over TCP.
+ 88.617: kalmar.se INFO Name server ns1.ipv6dns.se (192.71.21.35) is not recursive.
+ 88.663: kalmar.se INFO Name server ns1.ipv6dns.se (192.71.21.35) authoritative for kalmar.se.
+ 88.669: kalmar.se INFO Name server ns1.ipv6dns.se (192.71.21.35) closed for zone transfer of kalmar.se.
+ 88.694: kalmar.se INFO Legacy name server ID for ns1.ipv6dns.se (192.71.21.35): hostname.bind = ns1
+ 88.717: kalmar.se INFO Legacy name server ID for ns1.ipv6dns.se (192.71.21.35): version.bind = 9.9.4rc2
+ 88.740: kalmar.se NOTICE No answer received from 192.71.21.35 when querying for version.server/CH/TXT.
+ 88.885: kalmar.se INFO Name server ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53) answers queries over UDP.
+ 88.914: kalmar.se INFO Name server ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53) answers queries over TCP.
+ 88.937: kalmar.se INFO Name server ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53) is not recursive.
+ 88.970: kalmar.se INFO Name server ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53) authoritative for kalmar.se.
+ 88.980: kalmar.se INFO Name server ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53) closed for zone transfer of kalmar.se.
+ 88.993: kalmar.se INFO Legacy name server ID for ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53): hostname.bind = ns1
+ 88.999: kalmar.se INFO Legacy name server ID for ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53): version.bind = 9.9.4rc2
+ 93.267: kalmar.se INFO Done testing name server ns1.ipv6dns.se.
+ 93.267: kalmar.se INFO Begin testing name server ns2.ipv6dns.se.
+ 93.267: kalmar.se INFO Begin testing host ns2.ipv6dns.se.
+ 93.268: kalmar.se INFO Begin testing address 176.58.97.7.
+ 94.698: kalmar.se INFO Done testing address 176.58.97.7.
+ 94.698: kalmar.se INFO Begin testing address 109.74.7.166.
+ 95.441: kalmar.se INFO Done testing address 109.74.7.166.
+ 95.441: kalmar.se INFO Begin testing address 2a01:7e00:0:0:0:0:17:f001.
+ 96.212: kalmar.se INFO Done testing address 2a01:7e00:0:0:0:0:17:f001.
+ 96.213: kalmar.se INFO Begin testing address 2a02:750:7:0:0:0:0:165.
+ 97.174: kalmar.se INFO Done testing address 2a02:750:7:0:0:0:0:165.
+ 97.174: kalmar.se INFO Done testing host ns2.ipv6dns.se.
+ 97.272: kalmar.se INFO Name server ns2.ipv6dns.se (176.58.97.7) answers queries over UDP.
+ 97.374: kalmar.se INFO Name server ns2.ipv6dns.se (176.58.97.7) answers queries over TCP.
+ 97.653: kalmar.se INFO Name server ns2.ipv6dns.se (176.58.97.7) is not recursive.
+ 98.518: kalmar.se INFO Name server ns2.ipv6dns.se (176.58.97.7) authoritative for kalmar.se.
+ 99.297: kalmar.se INFO Name server ns2.ipv6dns.se (176.58.97.7) closed for zone transfer of kalmar.se.
+ 99.346: kalmar.se INFO Legacy name server ID for ns2.ipv6dns.se (176.58.97.7): hostname.bind = li443-7
+ 99.723: kalmar.se INFO Legacy name server ID for ns2.ipv6dns.se (176.58.97.7): version.bind = 9.9.4-P2
+ 99.845: kalmar.se NOTICE No answer received from 176.58.97.7 when querying for version.server/CH/TXT.
+ 99.930: kalmar.se INFO Name server ns2.ipv6dns.se (109.74.7.166) answers queries over UDP.
+ 99.965: kalmar.se INFO Name server ns2.ipv6dns.se (109.74.7.166) answers queries over TCP.
+ 99.981: kalmar.se INFO Name server ns2.ipv6dns.se (109.74.7.166) is not recursive.
+100.054: kalmar.se INFO Name server ns2.ipv6dns.se (109.74.7.166) authoritative for kalmar.se.
+100.141: kalmar.se INFO Name server ns2.ipv6dns.se (109.74.7.166) closed for zone transfer of kalmar.se.
+100.173: kalmar.se INFO Legacy name server ID for ns2.ipv6dns.se (109.74.7.166): hostname.bind = ns3
+100.181: kalmar.se INFO Legacy name server ID for ns2.ipv6dns.se (109.74.7.166): version.bind = 9.9.4-P2
+100.307: kalmar.se NOTICE No answer received from 109.74.7.166 when querying for version.server/CH/TXT.
+100.381: kalmar.se INFO Name server ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001) answers queries over UDP.
+100.489: kalmar.se INFO Name server ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001) answers queries over TCP.
+100.550: kalmar.se INFO Name server ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001) is not recursive.
+100.822: kalmar.se INFO Name server ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001) authoritative for kalmar.se.
+101.005: kalmar.se INFO Name server ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001) closed for zone transfer of kalmar.se.
+101.104: kalmar.se INFO Legacy name server ID for ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001): hostname.bind = li443-7
+101.164: kalmar.se INFO Legacy name server ID for ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001): version.bind = 9.9.4-P2
+101.312: kalmar.se NOTICE No answer received from 2a01:7e00:0:0:0:0:17:f001 when querying for version.server/CH/TXT.
+101.340: kalmar.se INFO Name server ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165) answers queries over UDP.
+101.391: kalmar.se INFO Name server ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165) answers queries over TCP.
+101.446: kalmar.se INFO Name server ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165) is not recursive.
+101.530: kalmar.se INFO Name server ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165) authoritative for kalmar.se.
+101.623: kalmar.se INFO Name server ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165) closed for zone transfer of kalmar.se.
+101.669: kalmar.se INFO Legacy name server ID for ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165): hostname.bind = ns3
+101.680: kalmar.se INFO Legacy name server ID for ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165): version.bind = 9.9.4-P2
+101.710: kalmar.se NOTICE No answer received from 2a02:750:7:0:0:0:0:165 when querying for version.server/CH/TXT.
+101.710: kalmar.se INFO Done testing name server ns2.ipv6dns.se.
+101.711: kalmar.se INFO Begin testing name server ns2.kalmar.se.
+101.711: kalmar.se INFO Begin testing host ns2.kalmar.se.
+101.854: kalmar.se INFO Begin testing address 193.45.96.4.
+102.638: kalmar.se INFO Done testing address 193.45.96.4.
+102.639: kalmar.se INFO Done testing host ns2.kalmar.se.
+102.926: kalmar.se INFO Name server ns2.kalmar.se (193.45.96.4) answers queries over UDP.
+102.977: kalmar.se INFO Name server ns2.kalmar.se (193.45.96.4) answers queries over TCP.
+103.005: kalmar.se INFO Name server ns2.kalmar.se (193.45.96.4) is not recursive.
+103.130: kalmar.se INFO Name server ns2.kalmar.se (193.45.96.4) authoritative for kalmar.se.
+103.181: kalmar.se INFO Name server ns2.kalmar.se (193.45.96.4) closed for zone transfer of kalmar.se.
+103.213: kalmar.se INFO Legacy name server ID for ns2.kalmar.se (193.45.96.4): hostname.bind = p945-v-a2
+103.309: kalmar.se NOTICE No answer received from 193.45.96.4 when querying for version.server/CH/TXT.
+103.309: kalmar.se INFO Done testing name server ns2.kalmar.se.
+103.310: kalmar.se INFO Begin testing zone consistency for kalmar.se.
+104.463: kalmar.se INFO SOA at address 193.45.96.4 has serial 2014030801.
+104.590: kalmar.se INFO SOA at address 176.58.97.7 has serial 2014030801.
+104.640: kalmar.se INFO SOA at address 2001:2040:c001:401:0:0:0:4 has serial 2014030801.
+104.644: kalmar.se INFO SOA at address 2001:67c:2448:10:0:0:0:53 has serial 2014030801.
+104.647: kalmar.se INFO SOA at address 192.71.21.35 has serial 2014030801.
+104.654: kalmar.se INFO SOA at address 109.74.7.166 has serial 2014030801.
+104.751: kalmar.se INFO SOA at address 193.45.96.3 has serial 2014030801.
+104.846: kalmar.se INFO SOA at address 2a01:7e00:0:0:0:0:17:f001 has serial 2014030801.
+104.861: kalmar.se INFO SOA at address 2a02:750:7:0:0:0:0:165 has serial 2014030801.
+105.093: kalmar.se INFO SOA at address 81.228.10.68 has serial 2014030801.
+105.094: kalmar.se INFO All SOA records have consistent serial numbers.
+105.094: kalmar.se INFO All other fields in the SOA record are consistent among all name servers.
+106.890: kalmar.se NOTICE The listed nameservers for kalmar.se all report the same set of nameservers.
+106.890: kalmar.se INFO Done testing zone consistency for kalmar.se.
+106.891: kalmar.se INFO Begin testing SOA parameters for kalmar.se.
+106.979: kalmar.se INFO Found SOA record for kalmar.se.
+106.980: kalmar.se INFO Begin testing host ns.kalmar.se.
+107.420: kalmar.se INFO Begin testing address 193.45.96.3.
+108.783: kalmar.se INFO Done testing address 193.45.96.3.
+108.783: kalmar.se INFO Done testing host ns.kalmar.se.
+108.783: kalmar.se INFO SOA MNAME for kalmar.se valid (ns.kalmar.se).
+108.783: kalmar.se INFO SOA MNAME for kalmar.se (ns.kalmar.se) listed as NS.
+109.006: kalmar.se INFO SOA MNAME for kalmar.se (ns.kalmar.se) is authoritative.
+109.006: kalmar.se INFO Begin testing email address hostmaster@kalmar.se.
+109.568: kalmar.se INFO Mail exchangers for hostmaster@kalmar.se found mx-02.kalmar.se,mx-01.kalmar.se.
+109.568: kalmar.se INFO All mail servers for hostmaster@kalmar.se are in zone kalmar.se.
+109.568: kalmar.se INFO Begin testing host mx-02.kalmar.se.
+110.378: kalmar.se INFO Begin testing address 193.45.96.17.
+111.673: kalmar.se INFO Done testing address 193.45.96.17.
+111.674: kalmar.se INFO Done testing host mx-02.kalmar.se.
+112.238: kalmar.se INFO Begin testing host mx-01.kalmar.se.
+114.474: kalmar.se INFO Begin testing address 193.45.96.17.
+114.843: kalmar.se INFO Done testing address 193.45.96.17.
+114.844: kalmar.se INFO Done testing host mx-01.kalmar.se.
+115.521: kalmar.se INFO Done testing email address hostmaster@kalmar.se.
+115.522: kalmar.se INFO Successful attempt to deliver email for SOA RNAME of kalmar.se (hostmaster.kalmar.se) using hostmaster@kalmar.se.
+115.522: kalmar.se NOTICE SOA TTL for kalmar.se too small (600) - recommended >= 3600.
+115.522: kalmar.se NOTICE SOA refresh for kalmar.se too small (3600) - recommended >= 14400.
+115.522: kalmar.se NOTICE SOA retry for kalmar.se too small (300) - recommended >= 3600.
+115.522: kalmar.se INFO SOA expire for kalmar.se OK (3600000) - recommended >= 604800.
+115.522: kalmar.se INFO SOA minimum for kalmar.se OK (3600) - recommended between 300 and 86400.
+115.522: kalmar.se INFO Done testing SOA parameters for kalmar.se.
+115.522: kalmar.se INFO Begin testing connectivity for kalmar.se.
+120.499: kalmar.se INFO Zone announced by more than one ASN.
+122.672: kalmar.se INFO Zone announced by more than one IPv6 ASN.
+122.672: kalmar.se INFO Done testing connectivity for kalmar.se.
+122.685: kalmar.se INFO Begin testing DNSSEC for kalmar.se.
+122.765: kalmar.se INFO Found DS record for kalmar.se at parent.
+122.804: kalmar.se INFO Nameserver 193.45.96.4 does DNSSEC extra processing.
+122.935: kalmar.se INFO Nameserver 176.58.97.7 does DNSSEC extra processing.
+122.963: kalmar.se INFO Nameserver 109.74.7.166 does DNSSEC extra processing.
+122.970: kalmar.se INFO Nameserver 192.71.21.35 does DNSSEC extra processing.
+123.008: kalmar.se INFO Nameserver 193.45.96.3 does DNSSEC extra processing.
+123.043: kalmar.se INFO Nameserver 81.228.10.68 does DNSSEC extra processing.
+123.150: kalmar.se INFO Nameserver 2a01:7e00:0:0:0:0:17:f001 does DNSSEC extra processing.
+123.224: kalmar.se INFO Nameserver 2001:2040:c001:401:0:0:0:4 does DNSSEC extra processing.
+123.245: kalmar.se INFO Nameserver 2a02:750:7:0:0:0:0:165 does DNSSEC extra processing.
+123.252: kalmar.se INFO Nameserver 2001:67c:2448:10:0:0:0:53 does DNSSEC extra processing.
+123.252: kalmar.se INFO Servers for kalmar.se have consistent extra processing status.
+123.289: kalmar.se INFO Authenticated denial records found for kalmar.se, of type NSEC3.
+123.309: kalmar.se INFO NSEC3PARAM record found for kalmar.se.
+123.309: kalmar.se INFO NSEC3 for kalmar.se is set to use 5 iterations, which is less than 100 and thus OK.
+123.309: kalmar.se INFO Found DNSKEY record for kalmar.se at child.
+123.309: kalmar.se INFO Consistent security for kalmar.se.
+123.310: kalmar.se INFO Checking DNSSEC at child (kalmar.se).
+123.310: kalmar.se INFO kalmar.se's key with tag 25028 uses algorithm number 8 (RSA/SHA-256).
+123.310: kalmar.se INFO Algorithm number 8 is OK.
+123.310: kalmar.se INFO kalmar.se's key with tag 18993 uses algorithm number 8 (RSA/SHA-256).
+123.310: kalmar.se INFO Algorithm number 8 is OK.
+123.310: kalmar.se INFO DNSKEY kalmar.se (tag 18993) is marked as a secure entry point (SEP).
+123.310: kalmar.se INFO DNSSEC signature expires at: Sun Jul 13 09:50:01 2014
+123.311: kalmar.se INFO Duration for RRSIG(kalmar.se/IN/DNSKEY/18993) is OK (10886400 seconds).
+123.313: kalmar.se INFO DNSSEC signature RRSIG(kalmar.se/IN/DNSKEY/18993) matches records.
+123.313: kalmar.se INFO DNSSEC signature valid: RRSIG(kalmar.se/IN/DNSKEY/18993)
+123.313: kalmar.se INFO DNSSEC signature expires at: Sun Jul 13 09:50:01 2014
+123.313: kalmar.se INFO Duration for RRSIG(kalmar.se/IN/DNSKEY/25028) is OK (10886400 seconds).
+123.314: kalmar.se INFO DNSSEC signature RRSIG(kalmar.se/IN/DNSKEY/25028) matches records.
+123.314: kalmar.se INFO DNSSEC signature valid: RRSIG(kalmar.se/IN/DNSKEY/25028)
+123.314: kalmar.se INFO Enough valid signatures found for kalmar.se.
+123.351: kalmar.se INFO DNSSEC signature expires at: Sun Jul 13 09:50:01 2014
+123.351: kalmar.se INFO Duration for RRSIG(kalmar.se/IN/SOA/25028) is OK (10886400 seconds).
+123.352: kalmar.se INFO DNSSEC signature RRSIG(kalmar.se/IN/SOA/25028) matches records.
+123.352: kalmar.se INFO DNSSEC signature valid: RRSIG(kalmar.se/IN/SOA/25028)
+123.352: kalmar.se INFO Enough valid signatures over SOA RRset found for kalmar.se.
+123.352: kalmar.se INFO DNSSEC child checks for kalmar.se complete.
+123.352: kalmar.se INFO Checking DNSSEC at parent of kalmar.se.
+123.352: kalmar.se INFO kalmar.se's key with tag 18993 uses algorithm number 8 (RSA/SHA-256).
+123.352: kalmar.se INFO Algorithm number 8 is OK.
+123.352: kalmar.se INFO Parent DS(kalmar.se/8/1/18993) refers to valid key at child: DNSKEY(kalmar.se/8/18993)
+123.353: kalmar.se INFO Parent DS(kalmar.se) refers to secure entry point (SEP) at child: DS(kalmar.se/8/1/18993)
+123.353: kalmar.se INFO kalmar.se's key with tag 18993 uses algorithm number 8 (RSA/SHA-256).
+123.353: kalmar.se INFO Algorithm number 8 is OK.
+123.353: kalmar.se INFO Parent DS(kalmar.se/8/2/18993) refers to valid key at child: DNSKEY(kalmar.se/8/18993)
+123.353: kalmar.se INFO Parent DS(kalmar.se) refers to secure entry point (SEP) at child: DS(kalmar.se/8/2/18993)
+123.353: kalmar.se INFO DNSSEC parent checks for kalmar.se complete.
+123.354: kalmar.se INFO Done testing DNSSEC for kalmar.se.
+123.354: kalmar.se INFO Test completed for zone kalmar.se.

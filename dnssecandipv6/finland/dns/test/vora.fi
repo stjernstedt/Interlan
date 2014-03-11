@@ -1,0 +1,83 @@
+  0.000: vora.fi INFO Begin testing zone vora.fi with version 1.6.1.
+  0.299: vora.fi INFO Begin testing delegation for vora.fi.
+  6.289: vora.fi INFO Name servers listed at parent: ns1.creamarketing.com,ns2.creamarketing.com
+  7.765: vora.fi INFO Name servers listed at child: ns1.creamarketing.com,ns2.creamarketing.com
+  7.765: vora.fi NOTICE No IPv6 name servers found.
+  8.601: vora.fi INFO It is possible to build a referral packet for vora.fi that works without EDNS0.
+  9.175: vora.fi INFO Previously used name servers for vora.fi: 
+  9.175: vora.fi INFO Done testing delegation for vora.fi.
+  9.176: vora.fi INFO Begin testing name server ns1.creamarketing.com.
+  9.176: vora.fi INFO Begin testing host ns1.creamarketing.com.
+  9.490: vora.fi INFO Begin testing address 81.209.23.185.
+ 14.212: vora.fi INFO Done testing address 81.209.23.185.
+ 14.212: vora.fi INFO Done testing host ns1.creamarketing.com.
+ 14.663: vora.fi INFO Name server ns1.creamarketing.com (81.209.23.185) answers queries over UDP.
+ 14.720: vora.fi INFO Name server ns1.creamarketing.com (81.209.23.185) answers queries over TCP.
+ 14.739: vora.fi INFO Name server ns1.creamarketing.com (81.209.23.185) is not recursive.
+ 14.937: vora.fi INFO Name server ns1.creamarketing.com (81.209.23.185) authoritative for vora.fi.
+ 15.014: vora.fi INFO Name server ns1.creamarketing.com (81.209.23.185) closed for zone transfer of vora.fi.
+ 15.094: vora.fi INFO Legacy name server ID for ns1.creamarketing.com (81.209.23.185): hostname.bind = ns1.creamarketing.com
+ 15.186: vora.fi INFO Legacy name server ID for ns1.creamarketing.com (81.209.23.185): version.bind = 9.8.4-rpz2+rl005.12-P1
+ 15.295: vora.fi NOTICE No answer received from 81.209.23.185 when querying for version.server/CH/TXT.
+ 15.296: vora.fi INFO Done testing name server ns1.creamarketing.com.
+ 15.296: vora.fi INFO Begin testing name server ns2.creamarketing.com.
+ 15.296: vora.fi INFO Begin testing host ns2.creamarketing.com.
+ 15.643: vora.fi INFO Begin testing address 81.209.23.188.
+ 18.133: vora.fi INFO Done testing address 81.209.23.188.
+ 18.134: vora.fi INFO Done testing host ns2.creamarketing.com.
+ 18.508: vora.fi INFO Name server ns2.creamarketing.com (81.209.23.188) answers queries over UDP.
+ 18.556: vora.fi INFO Name server ns2.creamarketing.com (81.209.23.188) answers queries over TCP.
+ 18.582: vora.fi INFO Name server ns2.creamarketing.com (81.209.23.188) is not recursive.
+ 18.713: vora.fi INFO Name server ns2.creamarketing.com (81.209.23.188) authoritative for vora.fi.
+ 18.807: vora.fi INFO Name server ns2.creamarketing.com (81.209.23.188) closed for zone transfer of vora.fi.
+ 18.828: vora.fi INFO Legacy name server ID for ns2.creamarketing.com (81.209.23.188): hostname.bind = ns2.creamarketing.com
+ 18.877: vora.fi INFO Legacy name server ID for ns2.creamarketing.com (81.209.23.188): version.bind = 9.8.4-rpz2+rl005.12-P1
+ 18.965: vora.fi NOTICE No answer received from 81.209.23.188 when querying for version.server/CH/TXT.
+ 18.965: vora.fi INFO Done testing name server ns2.creamarketing.com.
+ 18.966: vora.fi INFO Begin testing zone consistency for vora.fi.
+ 20.862: vora.fi INFO SOA at address 81.209.23.185 has serial 2014020405.
+ 20.931: vora.fi INFO SOA at address 81.209.23.188 has serial 2014020405.
+ 20.931: vora.fi INFO All SOA records have consistent serial numbers.
+ 20.931: vora.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 21.851: vora.fi NOTICE The listed nameservers for vora.fi all report the same set of nameservers.
+ 21.874: vora.fi INFO Done testing zone consistency for vora.fi.
+ 21.874: vora.fi INFO Begin testing SOA parameters for vora.fi.
+ 21.940: vora.fi INFO Found SOA record for vora.fi.
+ 21.940: vora.fi INFO Begin testing host ns1.creamarketing.com.
+ 22.100: vora.fi INFO Begin testing address 81.209.23.185.
+ 22.281: vora.fi INFO Done testing address 81.209.23.185.
+ 22.282: vora.fi INFO Done testing host ns1.creamarketing.com.
+ 22.282: vora.fi INFO SOA MNAME for vora.fi valid (ns1.creamarketing.com).
+ 22.282: vora.fi INFO SOA MNAME for vora.fi (ns1.creamarketing.com) listed as NS.
+ 22.589: vora.fi INFO SOA MNAME for vora.fi (ns1.creamarketing.com) is authoritative.
+ 22.589: vora.fi INFO Begin testing email address hostmaster@creamarketing.com.
+ 22.929: vora.fi INFO Mail exchangers for hostmaster@creamarketing.com found mail.creamarketing.com,mail2.creamarketing.com.
+ 22.930: vora.fi INFO Begin testing host mail.creamarketing.com.
+ 23.871: vora.fi INFO Begin testing address 81.209.23.184.
+ 25.068: vora.fi INFO Done testing address 81.209.23.184.
+ 25.068: vora.fi INFO Done testing host mail.creamarketing.com.
+ 25.303: vora.fi INFO Begin testing host mail2.creamarketing.com.
+ 25.904: vora.fi INFO Begin testing address 81.209.33.101.
+ 26.383: vora.fi WARNING Could not find reverse address for 81.209.33.101 (101.33.209.81.in-addr.arpa.).
+ 26.383: vora.fi INFO Done testing address 81.209.33.101.
+ 26.383: vora.fi INFO Done testing host mail2.creamarketing.com.
+ 26.536: vora.fi INFO Done testing email address hostmaster@creamarketing.com.
+ 26.536: vora.fi INFO Successful attempt to deliver email for SOA RNAME of vora.fi (hostmaster.creamarketing.com) using hostmaster@creamarketing.com.
+ 26.536: vora.fi NOTICE SOA TTL for vora.fi too small (1200) - recommended >= 3600.
+ 26.536: vora.fi INFO SOA refresh for vora.fi OK (28800) - recommended >= 14400.
+ 26.537: vora.fi INFO SOA retry for vora.fi OK (7200) - recommended >= 3600.
+ 26.537: vora.fi INFO SOA expire for vora.fi OK (604800) - recommended >= 604800.
+ 26.537: vora.fi INFO SOA minimum for vora.fi OK (1200) - recommended between 300 and 86400.
+ 26.537: vora.fi INFO Done testing SOA parameters for vora.fi.
+ 26.537: vora.fi INFO Begin testing connectivity for vora.fi.
+ 27.393: vora.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 27.394: vora.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 27.394: vora.fi INFO Done testing connectivity for vora.fi.
+ 27.394: vora.fi INFO Begin testing DNSSEC for vora.fi.
+ 27.504: vora.fi INFO Did not find DS record for vora.fi at parent.
+ 27.584: vora.fi INFO Servers for vora.fi have consistent extra processing status.
+ 27.620: vora.fi INFO Authenticated denial records not found for vora.fi.
+ 27.640: vora.fi INFO Did not find DNSKEY record for vora.fi at child.
+ 27.640: vora.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 27.640: vora.fi INFO Done testing DNSSEC for vora.fi.
+ 27.640: vora.fi INFO Test completed for zone vora.fi.

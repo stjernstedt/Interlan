@@ -1,0 +1,125 @@
+  0.000: lopnet.se INFO Begin testing zone lopnet.se with version 1.0.1.
+  0.001: lopnet.se INFO Begin testing delegation for lopnet.se.
+  1.109: lopnet.se INFO Name servers listed at parent: ns.i8t.net,ns1.i8t.com,ns2.i8t.com
+  2.660: lopnet.se INFO Name servers listed at child: ns.i8t.net,ns1.i8t.com,ns2.i8t.com
+  2.660: lopnet.se WARNING Too few IPv6 name servers (1).
+  2.768: lopnet.se INFO Done testing delegation for lopnet.se.
+  2.768: lopnet.se INFO Begin testing name server ns.i8t.net.
+  2.768: lopnet.se INFO Begin testing host ns.i8t.net.
+  2.769: lopnet.se INFO Begin testing address 64.120.5.245.
+  4.280: lopnet.se INFO Done testing address 64.120.5.245.
+  4.280: lopnet.se INFO Done testing host ns.i8t.net.
+  4.449: lopnet.se INFO Name server ns.i8t.net (64.120.5.245) is not recursive.
+  4.618: lopnet.se INFO Name server ns.i8t.net (64.120.5.245) authoritative for lopnet.se.
+  4.788: lopnet.se INFO Name server ns.i8t.net (64.120.5.245) answers queries over UDP.
+  5.286: lopnet.se INFO Name server ns.i8t.net (64.120.5.245) answers queries over TCP.
+  5.887: lopnet.se INFO Name server ns.i8t.net (64.120.5.245) closed for zone transfer of lopnet.se.
+  6.055: lopnet.se NOTICE No answer received from 64.120.5.245 when querying for hostname.bind/CH/TXT.
+  6.223: lopnet.se NOTICE No answer received from 64.120.5.245 when querying for version.bind/CH/TXT.
+  6.390: lopnet.se NOTICE No answer received from 64.120.5.245 when querying for id.server/CH/TXT.
+  6.559: lopnet.se NOTICE No answer received from 64.120.5.245 when querying for version.server/CH/TXT.
+  6.559: lopnet.se INFO Done testing name server ns.i8t.net.
+  6.559: lopnet.se INFO Begin testing name server ns1.i8t.com.
+  6.559: lopnet.se INFO Begin testing host ns1.i8t.com.
+  6.560: lopnet.se INFO Begin testing address 94.247.173.99.
+  6.739: lopnet.se WARNING Could not find reverse address for 94.247.173.99 (99.173.247.94.in-addr.arpa.).
+  6.739: lopnet.se INFO Done testing address 94.247.173.99.
+  6.740: lopnet.se INFO Begin testing address 2a02:750:0:501:0:0:0:99.
+ 10.384: lopnet.se WARNING Could not find reverse address for 2a02:750:0:501:0:0:0:99 (9.9.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1.0.5.0.0.0.0.0.0.5.7.0.2.0.a.2.ip6.arpa.).
+ 10.384: lopnet.se INFO Done testing address 2a02:750:0:501:0:0:0:99.
+ 10.384: lopnet.se INFO Done testing host ns1.i8t.com.
+ 10.411: lopnet.se INFO Name server ns1.i8t.com (94.247.173.99) is not recursive.
+ 10.439: lopnet.se INFO Name server ns1.i8t.com (94.247.173.99) authoritative for lopnet.se.
+ 10.466: lopnet.se INFO Name server ns1.i8t.com (94.247.173.99) answers queries over UDP.
+ 13.520: lopnet.se INFO Name server ns1.i8t.com (94.247.173.99) answers queries over TCP.
+ 13.711: lopnet.se INFO Name server ns1.i8t.com (94.247.173.99) closed for zone transfer of lopnet.se.
+ 13.731: lopnet.se NOTICE No answer received from 94.247.173.99 when querying for hostname.bind/CH/TXT.
+ 13.751: lopnet.se NOTICE No answer received from 94.247.173.99 when querying for version.bind/CH/TXT.
+ 13.771: lopnet.se NOTICE No answer received from 94.247.173.99 when querying for id.server/CH/TXT.
+ 13.792: lopnet.se NOTICE No answer received from 94.247.173.99 when querying for version.server/CH/TXT.
+ 13.792: lopnet.se INFO IPv6 disabled - will not test name server at 2a02:750:0:501:0:0:0:99
+ 13.792: lopnet.se INFO Done testing name server ns1.i8t.com.
+ 13.792: lopnet.se INFO Begin testing name server ns2.i8t.com.
+ 13.792: lopnet.se INFO Begin testing host ns2.i8t.com.
+ 13.793: lopnet.se INFO Begin testing address 213.115.196.147.
+ 13.970: lopnet.se WARNING Could not find reverse address for 213.115.196.147 (147.196.115.213.in-addr.arpa.).
+ 13.970: lopnet.se INFO Done testing address 213.115.196.147.
+ 13.970: lopnet.se INFO Done testing host ns2.i8t.com.
+ 14.000: lopnet.se INFO Name server ns2.i8t.com (213.115.196.147) is not recursive.
+ 14.030: lopnet.se INFO Name server ns2.i8t.com (213.115.196.147) authoritative for lopnet.se.
+ 14.058: lopnet.se INFO Name server ns2.i8t.com (213.115.196.147) answers queries over UDP.
+ 14.135: lopnet.se INFO Name server ns2.i8t.com (213.115.196.147) answers queries over TCP.
+ 14.372: lopnet.se INFO Name server ns2.i8t.com (213.115.196.147) closed for zone transfer of lopnet.se.
+ 14.398: lopnet.se NOTICE No answer received from 213.115.196.147 when querying for hostname.bind/CH/TXT.
+ 14.424: lopnet.se NOTICE No answer received from 213.115.196.147 when querying for version.bind/CH/TXT.
+ 14.450: lopnet.se NOTICE No answer received from 213.115.196.147 when querying for id.server/CH/TXT.
+ 14.475: lopnet.se NOTICE No answer received from 213.115.196.147 when querying for version.server/CH/TXT.
+ 14.475: lopnet.se INFO Done testing name server ns2.i8t.com.
+ 14.476: lopnet.se INFO Begin testing zone consistency for lopnet.se.
+ 14.508: lopnet.se INFO SOA at address 213.115.196.147 has serial 2010061202.
+ 14.531: lopnet.se INFO SOA at address 94.247.173.99 has serial 2010061202.
+ 14.700: lopnet.se INFO SOA at address 64.120.5.245 has serial 2010061202.
+ 14.700: lopnet.se INFO All SOA records have consistent serial numbers.
+ 14.700: lopnet.se INFO All SOA records are consistent among all name servers.
+ 14.700: lopnet.se INFO Done testing zone consistency for lopnet.se.
+ 14.700: lopnet.se INFO Begin testing SOA parameters for lopnet.se.
+ 14.728: lopnet.se INFO Found SOA record for lopnet.se.
+ 14.729: lopnet.se INFO Begin testing host ns1.i8t.com.
+ 14.729: lopnet.se INFO Begin testing address 94.247.173.99.
+ 14.730: lopnet.se WARNING Could not find reverse address for 94.247.173.99 (99.173.247.94.in-addr.arpa.).
+ 14.730: lopnet.se INFO Done testing address 94.247.173.99.
+ 14.730: lopnet.se INFO Begin testing address 2a02:750:0:501:0:0:0:99.
+ 14.732: lopnet.se WARNING Could not find reverse address for 2a02:750:0:501:0:0:0:99 (9.9.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1.0.5.0.0.0.0.0.0.5.7.0.2.0.a.2.ip6.arpa.).
+ 14.732: lopnet.se INFO Done testing address 2a02:750:0:501:0:0:0:99.
+ 14.732: lopnet.se INFO Done testing host ns1.i8t.com.
+ 14.732: lopnet.se INFO SOA MNAME for lopnet.se valid (ns1.i8t.com).
+ 14.732: lopnet.se INFO SOA MNAME for lopnet.se (ns1.i8t.com) listed as NS.
+ 14.756: lopnet.se INFO SOA MNAME for lopnet.se (ns1.i8t.com) is authoritative.
+ 14.756: lopnet.se INFO IPv6 disabled - will not query SOA MNAME at 2a02:750:0:501:0:0:0:99
+ 14.756: lopnet.se INFO Begin testing email address registry@i8t.com.
+ 14.930: lopnet.se INFO Mail exchangers for registry@i8t.com found i8t.com,wolf.i8t.com.
+ 14.930: lopnet.se INFO Begin testing host i8t.com.
+ 15.269: lopnet.se INFO Begin testing address 94.247.173.144.
+ 15.447: lopnet.se WARNING Could not find reverse address for 94.247.173.144 (144.173.247.94.in-addr.arpa.).
+ 15.447: lopnet.se INFO Done testing address 94.247.173.144.
+ 15.448: lopnet.se INFO Begin testing address 2a02:750:0:501:0:0:0:144.
+ 15.499: lopnet.se WARNING Could not find reverse address for 2a02:750:0:501:0:0:0:144 (4.4.1.0.0.0.0.0.0.0.0.0.0.0.0.0.1.0.5.0.0.0.0.0.0.5.7.0.2.0.a.2.ip6.arpa.).
+ 15.499: lopnet.se INFO Done testing address 2a02:750:0:501:0:0:0:144.
+ 15.499: lopnet.se INFO Done testing host i8t.com.
+ 15.499: lopnet.se INFO Begin testing mail server i8t.com (94.247.173.144) with registry@i8t.com.
+ 18.767: lopnet.se INFO SMTP banner: i8t.com ESMTP welcomes you to this server!
+ 18.843: lopnet.se INFO SMTP testing of i8t.com (94.247.173.144) with registry@i8t.com succeeded without errors.
+ 18.843: lopnet.se INFO Done testing mail server i8t.com (94.247.173.144) with registry@i8t.com.
+ 18.843: lopnet.se INFO Begin testing host wolf.i8t.com.
+ 19.179: lopnet.se INFO Begin testing address 213.115.196.148.
+ 19.358: lopnet.se WARNING Could not find reverse address for 213.115.196.148 (148.196.115.213.in-addr.arpa.).
+ 19.358: lopnet.se INFO Done testing address 213.115.196.148.
+ 19.359: lopnet.se INFO Done testing host wolf.i8t.com.
+ 19.359: lopnet.se INFO Delivery over IPv4 to registry@i8t.com ok.
+ 19.359: lopnet.se INFO Delivery over IPv6 to registry@i8t.com could not be done.
+ 19.359: lopnet.se INFO Done testing email address registry@i8t.com.
+ 19.359: lopnet.se INFO Successful attempt to deliver email for SOA RNAME of lopnet.se (registry.i8t.com) using registry@i8t.com.
+ 19.359: lopnet.se INFO SOA TTL for lopnet.se OK (3600) - recommended >= 3600.
+ 19.359: lopnet.se NOTICE SOA refresh for lopnet.se too small (300) - recommended >= 14400.
+ 19.360: lopnet.se NOTICE SOA refresh for lopnet.se lower than retry (300 vs 300).
+ 19.360: lopnet.se NOTICE SOA retry for lopnet.se too small (300) - recommended >= 3600.
+ 19.360: lopnet.se INFO SOA expire for lopnet.se OK (2419200) - recommended >= 604800.
+ 19.360: lopnet.se INFO SOA minimum for lopnet.se OK (600) - recommended between 300 and 86400.
+ 19.360: lopnet.se INFO Done testing SOA parameters for lopnet.se.
+ 19.360: lopnet.se INFO Begin testing connectivity for lopnet.se.
+ 19.723: lopnet.se INFO Name server 213.115.196.147 announced by: 2119
+ 19.860: lopnet.se INFO Name server 94.247.173.99 announced by: 43948
+ 19.984: lopnet.se INFO Name server 64.120.5.245 announced by: 15003
+ 19.984: lopnet.se INFO Zone announced by ASN: 15003,2119,43948
+ 19.984: lopnet.se INFO Zone announced by more than one ASN (3).
+ 20.117: lopnet.se INFO Name server 2a02:0750:0000:0501:0000:0000:0000:0099 announced over IPv6 by: 43948
+ 20.117: lopnet.se INFO Zone announced by IPv6 ASN: 43948
+ 20.117: lopnet.se NOTICE Zone announced by only one IPv6 ASN (1).
+ 20.117: lopnet.se INFO Done testing connectivity for lopnet.se.
+ 20.117: lopnet.se INFO Begin testing DNSSEC for lopnet.se.
+ 20.166: lopnet.se INFO Did not find DS record for lopnet.se at parent.
+ 20.801: lopnet.se INFO Servers for lopnet.se have consistent extra processing status.
+ 20.802: lopnet.se INFO Did not find DNSKEY record for lopnet.se at child.
+ 20.802: lopnet.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 20.802: lopnet.se INFO Done testing DNSSEC for lopnet.se.
+ 20.802: lopnet.se INFO Test completed for zone lopnet.se.

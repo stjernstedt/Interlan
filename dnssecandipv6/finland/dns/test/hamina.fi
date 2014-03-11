@@ -1,0 +1,80 @@
+  0.000: hamina.fi INFO Begin testing zone hamina.fi with version 1.6.1.
+  0.411: hamina.fi INFO Begin testing delegation for hamina.fi.
+  9.174: hamina.fi INFO Name servers listed at parent: pri-ns.kymp.net,sec-ns.kymp.net
+ 11.434: hamina.fi INFO Name servers listed at child: pri-ns.kymp.net,sec-ns.kymp.net
+ 11.434: hamina.fi NOTICE No IPv6 name servers found.
+ 12.616: hamina.fi INFO It is possible to build a referral packet for hamina.fi that works without EDNS0.
+ 13.530: hamina.fi INFO Previously used name servers for hamina.fi: 
+ 13.530: hamina.fi INFO Done testing delegation for hamina.fi.
+ 13.531: hamina.fi INFO Begin testing name server pri-ns.kymp.net.
+ 13.531: hamina.fi INFO Begin testing host pri-ns.kymp.net.
+ 13.824: hamina.fi INFO Begin testing address 80.248.96.130.
+ 26.818: hamina.fi INFO Done testing address 80.248.96.130.
+ 26.818: hamina.fi INFO Done testing host pri-ns.kymp.net.
+ 27.245: hamina.fi INFO Name server pri-ns.kymp.net (80.248.96.130) answers queries over UDP.
+ 27.338: hamina.fi INFO Name server pri-ns.kymp.net (80.248.96.130) answers queries over TCP.
+ 27.384: hamina.fi INFO Name server pri-ns.kymp.net (80.248.96.130) is not recursive.
+ 27.620: hamina.fi INFO Name server pri-ns.kymp.net (80.248.96.130) authoritative for hamina.fi.
+ 27.665: hamina.fi INFO Name server pri-ns.kymp.net (80.248.96.130) closed for zone transfer of hamina.fi.
+ 27.692: hamina.fi NOTICE No answer received from 80.248.96.130 when querying for hostname.bind/CH/TXT.
+ 27.759: hamina.fi NOTICE No answer received from 80.248.96.130 when querying for version.bind/CH/TXT.
+ 27.789: hamina.fi NOTICE No answer received from 80.248.96.130 when querying for id.server/CH/TXT.
+ 27.829: hamina.fi NOTICE No answer received from 80.248.96.130 when querying for version.server/CH/TXT.
+ 27.830: hamina.fi INFO Done testing name server pri-ns.kymp.net.
+ 27.830: hamina.fi INFO Begin testing name server sec-ns.kymp.net.
+ 27.830: hamina.fi INFO Begin testing host sec-ns.kymp.net.
+ 28.078: hamina.fi INFO Begin testing address 80.248.97.30.
+ 28.866: hamina.fi INFO Done testing address 80.248.97.30.
+ 28.866: hamina.fi INFO Done testing host sec-ns.kymp.net.
+ 29.247: hamina.fi INFO Name server sec-ns.kymp.net (80.248.97.30) answers queries over UDP.
+ 29.281: hamina.fi INFO Name server sec-ns.kymp.net (80.248.97.30) answers queries over TCP.
+ 29.306: hamina.fi INFO Name server sec-ns.kymp.net (80.248.97.30) is not recursive.
+ 29.425: hamina.fi INFO Name server sec-ns.kymp.net (80.248.97.30) authoritative for hamina.fi.
+ 29.489: hamina.fi INFO Name server sec-ns.kymp.net (80.248.97.30) closed for zone transfer of hamina.fi.
+ 29.540: hamina.fi NOTICE No answer received from 80.248.97.30 when querying for hostname.bind/CH/TXT.
+ 29.574: hamina.fi NOTICE No answer received from 80.248.97.30 when querying for version.bind/CH/TXT.
+ 29.606: hamina.fi NOTICE No answer received from 80.248.97.30 when querying for id.server/CH/TXT.
+ 29.623: hamina.fi NOTICE No answer received from 80.248.97.30 when querying for version.server/CH/TXT.
+ 29.624: hamina.fi INFO Done testing name server sec-ns.kymp.net.
+ 29.624: hamina.fi INFO Begin testing zone consistency for hamina.fi.
+ 30.889: hamina.fi INFO SOA at address 80.248.96.130 has serial 2013112501.
+ 30.927: hamina.fi INFO SOA at address 80.248.97.30 has serial 2013112501.
+ 30.927: hamina.fi INFO All SOA records have consistent serial numbers.
+ 30.927: hamina.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 31.711: hamina.fi NOTICE The listed nameservers for hamina.fi all report the same set of nameservers.
+ 31.711: hamina.fi INFO Done testing zone consistency for hamina.fi.
+ 31.711: hamina.fi INFO Begin testing SOA parameters for hamina.fi.
+ 31.729: hamina.fi INFO Found SOA record for hamina.fi.
+ 31.729: hamina.fi INFO Begin testing host pri-ns.kymp.net.
+ 32.058: hamina.fi INFO Begin testing address 80.248.96.130.
+ 32.454: hamina.fi INFO Done testing address 80.248.96.130.
+ 32.454: hamina.fi INFO Done testing host pri-ns.kymp.net.
+ 32.454: hamina.fi INFO SOA MNAME for hamina.fi valid (pri-ns.kymp.net).
+ 32.455: hamina.fi INFO SOA MNAME for hamina.fi (pri-ns.kymp.net) listed as NS.
+ 32.635: hamina.fi INFO SOA MNAME for hamina.fi (pri-ns.kymp.net) is authoritative.
+ 32.636: hamina.fi INFO Begin testing email address hostmaster@kymp.net.
+ 32.927: hamina.fi INFO Mail exchangers for hostmaster@kymp.net found iport.kymp.net.
+ 32.928: hamina.fi INFO Begin testing host iport.kymp.net.
+ 33.518: hamina.fi INFO Begin testing address 80.248.96.180.
+ 34.218: hamina.fi INFO Done testing address 80.248.96.180.
+ 34.218: hamina.fi INFO Done testing host iport.kymp.net.
+ 34.633: hamina.fi INFO Done testing email address hostmaster@kymp.net.
+ 34.633: hamina.fi INFO Successful attempt to deliver email for SOA RNAME of hamina.fi (hostmaster.kymp.net) using hostmaster@kymp.net.
+ 34.633: hamina.fi NOTICE SOA TTL for hamina.fi too small (1800) - recommended >= 3600.
+ 34.633: hamina.fi INFO SOA refresh for hamina.fi OK (28800) - recommended >= 14400.
+ 34.633: hamina.fi INFO SOA retry for hamina.fi OK (7200) - recommended >= 3600.
+ 34.633: hamina.fi INFO SOA expire for hamina.fi OK (1209600) - recommended >= 604800.
+ 34.633: hamina.fi INFO SOA minimum for hamina.fi OK (86400) - recommended between 300 and 86400.
+ 34.633: hamina.fi INFO Done testing SOA parameters for hamina.fi.
+ 34.634: hamina.fi INFO Begin testing connectivity for hamina.fi.
+ 35.630: hamina.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 35.631: hamina.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 35.631: hamina.fi INFO Done testing connectivity for hamina.fi.
+ 35.631: hamina.fi INFO Begin testing DNSSEC for hamina.fi.
+ 35.735: hamina.fi INFO Did not find DS record for hamina.fi at parent.
+ 35.795: hamina.fi INFO Servers for hamina.fi have consistent extra processing status.
+ 35.826: hamina.fi INFO Authenticated denial records not found for hamina.fi.
+ 35.843: hamina.fi INFO Did not find DNSKEY record for hamina.fi at child.
+ 35.843: hamina.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 35.843: hamina.fi INFO Done testing DNSSEC for hamina.fi.
+ 35.844: hamina.fi INFO Test completed for zone hamina.fi.

@@ -1,0 +1,102 @@
+  0.000: solutions.se INFO Begin testing zone solutions.se with version 1.5.0.
+  0.002: solutions.se INFO Begin testing delegation for solutions.se.
+ 13.941: solutions.se INFO Name servers listed at parent: ns1.loopia.se,ns2.loopia.se
+ 16.193: solutions.se INFO Name servers listed at child: ns1.loopia.se,ns2.loopia.se
+ 16.194: solutions.se NOTICE No IPv6 name servers found.
+ 16.201: solutions.se INFO Parent glue for solutions.se found: ns1.loopia.se (93.188.0.20)
+ 16.387: solutions.se INFO Parent glue for solutions.se found: ns2.loopia.se (93.188.0.21)
+ 16.419: solutions.se INFO Checking glue for ns1.loopia.se (93.188.0.20).
+ 16.419: solutions.se INFO Checking glue for ns2.loopia.se (93.188.0.21).
+ 16.420: solutions.se INFO Parent glue for solutions.se found: ns1.loopia.se (93.188.0.20)
+ 16.420: solutions.se INFO Parent glue for solutions.se found: ns2.loopia.se (93.188.0.21)
+ 17.670: solutions.se INFO It is possible to build a referral packet for solutions.se that works without EDNS0.
+ 17.670: solutions.se INFO Done testing delegation for solutions.se.
+ 17.671: solutions.se INFO Begin testing name server ns1.loopia.se.
+ 17.671: solutions.se INFO Begin testing host ns1.loopia.se.
+ 18.381: solutions.se INFO Begin testing address 93.188.0.20.
+ 25.933: solutions.se INFO Done testing address 93.188.0.20.
+ 25.933: solutions.se INFO Done testing host ns1.loopia.se.
+ 26.495: solutions.se INFO Name server ns1.loopia.se (93.188.0.20) answers queries over UDP.
+ 26.560: solutions.se INFO Name server ns1.loopia.se (93.188.0.20) answers queries over TCP.
+ 26.624: solutions.se INFO Name server ns1.loopia.se (93.188.0.20) is not recursive.
+ 26.776: solutions.se INFO Name server ns1.loopia.se (93.188.0.20) authoritative for solutions.se.
+ 26.998: solutions.se INFO Name server ns1.loopia.se (93.188.0.20) closed for zone transfer of solutions.se.
+ 27.045: solutions.se INFO Legacy name server ID for ns1.loopia.se (93.188.0.20): version.bind = Served by POWERDNS 3.1 $Id: packethandler.cc 2579 2012-04-26 11:28:04Z peter $
+ 27.128: solutions.se INFO Done testing name server ns1.loopia.se.
+ 27.129: solutions.se INFO Begin testing name server ns2.loopia.se.
+ 27.129: solutions.se INFO Begin testing host ns2.loopia.se.
+ 27.617: solutions.se INFO Begin testing address 93.188.0.21.
+ 28.988: solutions.se INFO Done testing address 93.188.0.21.
+ 28.988: solutions.se INFO Done testing host ns2.loopia.se.
+ 29.493: solutions.se INFO Name server ns2.loopia.se (93.188.0.21) answers queries over UDP.
+ 29.509: solutions.se INFO Name server ns2.loopia.se (93.188.0.21) answers queries over TCP.
+ 29.543: solutions.se INFO Name server ns2.loopia.se (93.188.0.21) is not recursive.
+ 29.669: solutions.se INFO Name server ns2.loopia.se (93.188.0.21) authoritative for solutions.se.
+ 29.945: solutions.se INFO Name server ns2.loopia.se (93.188.0.21) closed for zone transfer of solutions.se.
+ 30.001: solutions.se INFO Legacy name server ID for ns2.loopia.se (93.188.0.21): version.bind = Served by POWERDNS 3.1 $Id: packethandler.cc 2579 2012-04-26 11:28:04Z peter $
+ 30.083: solutions.se INFO Done testing name server ns2.loopia.se.
+ 30.084: solutions.se INFO Begin testing zone consistency for solutions.se.
+ 31.755: solutions.se INFO SOA at address 93.188.0.21 has serial 1374710400.
+ 31.793: solutions.se INFO SOA at address 93.188.0.20 has serial 1374710400.
+ 31.793: solutions.se INFO All SOA records have consistent serial numbers.
+ 31.793: solutions.se INFO All other fields in the SOA record are consistent among all name servers.
+ 32.768: solutions.se NOTICE The listed nameservers for solutions.se all report the same set of nameservers.
+ 32.776: solutions.se INFO Done testing zone consistency for solutions.se.
+ 32.776: solutions.se INFO Begin testing SOA parameters for solutions.se.
+ 32.825: solutions.se INFO Found SOA record for solutions.se.
+ 32.825: solutions.se INFO Begin testing host ns1.loopia.se.
+ 33.239: solutions.se INFO Begin testing address 93.188.0.20.
+ 33.652: solutions.se INFO Done testing address 93.188.0.20.
+ 33.652: solutions.se INFO Done testing host ns1.loopia.se.
+ 33.657: solutions.se INFO SOA MNAME for solutions.se valid (ns1.loopia.se).
+ 33.658: solutions.se INFO SOA MNAME for solutions.se (ns1.loopia.se) listed as NS.
+ 34.032: solutions.se INFO SOA MNAME for solutions.se (ns1.loopia.se) is authoritative.
+ 34.032: solutions.se INFO Begin testing email address registry@loopia.se.
+ 34.389: solutions.se INFO Mail exchangers for registry@loopia.se found mail.loopia.se.
+ 34.389: solutions.se INFO Begin testing host mail.loopia.se.
+ 35.043: solutions.se INFO Begin testing address 194.9.95.44.
+ 36.196: solutions.se INFO Done testing address 194.9.95.44.
+ 36.197: solutions.se INFO Done testing host mail.loopia.se.
+ 36.503: solutions.se INFO Done testing email address registry@loopia.se.
+ 36.503: solutions.se INFO Successful attempt to deliver email for SOA RNAME of solutions.se (registry.loopia.se) using registry@loopia.se.
+ 36.503: solutions.se INFO SOA TTL for solutions.se OK (3600) - recommended >= 3600.
+ 36.503: solutions.se NOTICE SOA refresh for solutions.se too small (10800) - recommended >= 14400.
+ 36.503: solutions.se INFO SOA retry for solutions.se OK (3600) - recommended >= 3600.
+ 36.503: solutions.se INFO SOA expire for solutions.se OK (604800) - recommended >= 604800.
+ 36.513: solutions.se INFO SOA minimum for solutions.se OK (86400) - recommended between 300 and 86400.
+ 36.513: solutions.se INFO Done testing SOA parameters for solutions.se.
+ 36.513: solutions.se INFO Begin testing connectivity for solutions.se.
+ 38.055: solutions.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 38.061: solutions.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 38.061: solutions.se INFO Done testing connectivity for solutions.se.
+ 38.061: solutions.se INFO Begin testing DNSSEC for solutions.se.
+ 38.102: solutions.se INFO Did not find DS record for solutions.se at parent.
+ 38.151: solutions.se INFO Nameserver 93.188.0.21 does DNSSEC extra processing.
+ 38.176: solutions.se INFO Nameserver 93.188.0.20 does DNSSEC extra processing.
+ 38.180: solutions.se INFO Servers for solutions.se have consistent extra processing status.
+ 38.436: solutions.se INFO Authenticated denial records found for solutions.se, of type NSEC3.
+ 38.446: solutions.se INFO NSEC3PARAM record found for solutions.se.
+ 38.446: solutions.se INFO NSEC3 for solutions.se is set to use 1 iterations, which is OK.
+ 38.447: solutions.se INFO Found DNSKEY record for solutions.se at child.
+ 38.447: solutions.se WARNING Broken chain of trust for solutions.se - DNSKEY found at child, but no DS was found at parent.
+ 38.447: solutions.se INFO Checking DNSSEC at child (solutions.se).
+ 38.448: solutions.se INFO solutions.se's key with tag 12412 uses algorithm number 8 (RSA/SHA-256).
+ 38.448: solutions.se INFO Algorithm number 8 is OK.
+ 38.452: solutions.se INFO DNSKEY solutions.se (tag 12412) is marked as a secure entry point (SEP).
+ 38.452: solutions.se INFO solutions.se's key with tag 7374 uses algorithm number 8 (RSA/SHA-256).
+ 38.453: solutions.se INFO Algorithm number 8 is OK.
+ 38.453: solutions.se INFO solutions.se's key with tag 29298 uses algorithm number 8 (RSA/SHA-256).
+ 38.453: solutions.se INFO Algorithm number 8 is OK.
+ 38.454: solutions.se INFO DNSSEC signature expires at: Thu Aug  8 00:00:00 2013
+ 38.454: solutions.se INFO Duration for RRSIG(solutions.se/IN/DNSKEY/12412) is OK (1209600 seconds).
+ 38.461: solutions.se INFO DNSSEC signature RRSIG(solutions.se/IN/DNSKEY/12412) matches records.
+ 38.461: solutions.se INFO DNSSEC signature valid: RRSIG(solutions.se/IN/DNSKEY/12412)
+ 38.462: solutions.se INFO Enough valid signatures found for solutions.se.
+ 38.481: solutions.se INFO DNSSEC signature expires at: Thu Aug  8 00:00:00 2013
+ 38.481: solutions.se INFO Duration for RRSIG(solutions.se/IN/SOA/7374) is OK (1209600 seconds).
+ 38.482: solutions.se INFO DNSSEC signature RRSIG(solutions.se/IN/SOA/7374) matches records.
+ 38.482: solutions.se INFO DNSSEC signature valid: RRSIG(solutions.se/IN/SOA/7374)
+ 38.482: solutions.se INFO Enough valid signatures over SOA RRset found for solutions.se.
+ 38.483: solutions.se INFO DNSSEC child checks for solutions.se complete.
+ 38.483: solutions.se INFO Done testing DNSSEC for solutions.se.
+ 38.484: solutions.se INFO Test completed for zone solutions.se.

@@ -1,0 +1,89 @@
+  0.000: markaryd.se INFO Begin testing zone markaryd.se with version 1.2.
+  0.000: markaryd.se INFO Begin testing delegation for markaryd.se.
+ 13.707: markaryd.se INFO Name servers listed at parent: dns6.telia.com,ns.markaryd.se
+ 15.286: markaryd.se INFO Name servers listed at child: dns6.telia.com,ns.markaryd.se
+ 15.286: markaryd.se NOTICE No IPv6 name servers found.
+ 15.368: markaryd.se INFO Parent glue for markaryd.se found: ns.markaryd.se (212.181.16.130)
+ 15.406: markaryd.se INFO Checking glue for ns.markaryd.se (212.181.16.130).
+ 15.427: markaryd.se INFO Child glue for markaryd.se found: ns.markaryd.se (212.181.16.130)
+ 15.428: markaryd.se INFO Parent glue for markaryd.se found: ns.markaryd.se (212.181.16.130)
+ 15.428: markaryd.se INFO Done testing delegation for markaryd.se.
+ 15.428: markaryd.se INFO Begin testing name server dns6.telia.com.
+ 15.429: markaryd.se INFO Begin testing host dns6.telia.com.
+ 15.429: markaryd.se INFO Begin testing address 81.228.10.68.
+ 24.307: markaryd.se INFO Done testing address 81.228.10.68.
+ 24.307: markaryd.se INFO Done testing host dns6.telia.com.
+ 24.324: markaryd.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over UDP.
+ 24.356: markaryd.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over TCP.
+ 24.374: markaryd.se INFO Name server dns6.telia.com (81.228.10.68) is not recursive.
+ 24.391: markaryd.se INFO Name server dns6.telia.com (81.228.10.68) authoritative for markaryd.se.
+ 24.436: markaryd.se INFO Name server dns6.telia.com (81.228.10.68) closed for zone transfer of markaryd.se.
+ 24.454: markaryd.se INFO Legacy name server ID for dns6.telia.com (81.228.10.68): hostname.bind = dnshosting1-sn4.m-sp.skanova.net
+ 24.472: markaryd.se INFO Legacy name server ID for dns6.telia.com (81.228.10.68): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 24.504: markaryd.se NOTICE No answer received from 81.228.10.68 when querying for version.server/CH/TXT.
+ 24.504: markaryd.se INFO Done testing name server dns6.telia.com.
+ 24.504: markaryd.se INFO Begin testing name server ns.markaryd.se.
+ 24.505: markaryd.se INFO Begin testing host ns.markaryd.se.
+ 24.505: markaryd.se INFO Begin testing address 212.181.16.130.
+ 29.833: markaryd.se INFO Done testing address 212.181.16.130.
+ 29.833: markaryd.se INFO Done testing host ns.markaryd.se.
+ 29.855: markaryd.se INFO Name server ns.markaryd.se (212.181.16.130) answers queries over UDP.
+ 29.894: markaryd.se INFO Name server ns.markaryd.se (212.181.16.130) answers queries over TCP.
+ 30.092: markaryd.se WARNING Name server ns.markaryd.se (212.181.16.130) is recursive.
+ 30.114: markaryd.se INFO Name server ns.markaryd.se (212.181.16.130) authoritative for markaryd.se.
+ 30.169: markaryd.se INFO Name server ns.markaryd.se (212.181.16.130) closed for zone transfer of markaryd.se.
+ 30.190: markaryd.se INFO Legacy name server ID for ns.markaryd.se (212.181.16.130): hostname.bind = webaccess
+ 30.211: markaryd.se INFO Legacy name server ID for ns.markaryd.se (212.181.16.130): version.bind = 9.3.2
+ 30.253: markaryd.se NOTICE No answer received from 212.181.16.130 when querying for version.server/CH/TXT.
+ 30.253: markaryd.se INFO Done testing name server ns.markaryd.se.
+ 30.253: markaryd.se INFO Begin testing zone consistency for markaryd.se.
+ 30.278: markaryd.se INFO SOA at address 212.181.16.130 has serial 2010121001.
+ 30.296: markaryd.se INFO SOA at address 81.228.10.68 has serial 2010121001.
+ 30.296: markaryd.se INFO All SOA records have consistent serial numbers.
+ 30.296: markaryd.se INFO All SOA records are consistent among all name servers.
+ 30.296: markaryd.se INFO Done testing zone consistency for markaryd.se.
+ 30.296: markaryd.se INFO Begin testing SOA parameters for markaryd.se.
+ 30.318: markaryd.se INFO Found SOA record for markaryd.se.
+ 30.318: markaryd.se INFO Begin testing host ns.markaryd.se.
+ 30.318: markaryd.se INFO Begin testing address 212.181.16.130.
+ 30.320: markaryd.se INFO Done testing address 212.181.16.130.
+ 30.320: markaryd.se INFO Done testing host ns.markaryd.se.
+ 30.320: markaryd.se INFO SOA MNAME for markaryd.se valid (ns.markaryd.se).
+ 30.320: markaryd.se INFO SOA MNAME for markaryd.se (ns.markaryd.se) listed as NS.
+ 30.344: markaryd.se INFO SOA MNAME for markaryd.se (ns.markaryd.se) is authoritative.
+ 30.344: markaryd.se INFO Begin testing email address hostmaster@markaryd.se.
+ 30.596: markaryd.se INFO Mail exchangers for hostmaster@markaryd.se found mx.markaryd.se.
+ 30.596: markaryd.se INFO All mail servers for hostmaster@markaryd.se are in zone markaryd.se.
+ 30.596: markaryd.se INFO Begin testing host mx.markaryd.se.
+ 35.126: markaryd.se INFO Begin testing address 212.181.16.140.
+ 35.993: markaryd.se INFO Done testing address 212.181.16.140.
+ 35.993: markaryd.se INFO Done testing host mx.markaryd.se.
+ 35.993: markaryd.se INFO Begin testing mail server mx.markaryd.se (212.181.16.140) with hostmaster@markaryd.se.
+ 36.085: markaryd.se INFO SMTP banner: halon.markaryd.se ESMTP Halon Mail Gateway (H/OS)
+ 36.176: markaryd.se WARNING Host did not accept hostmaster@markaryd.se as SMTP recipient.
+ 36.212: markaryd.se INFO Done testing mail server mx.markaryd.se (212.181.16.140) with hostmaster@markaryd.se.
+ 36.213: markaryd.se WARNING Delivery over IPv4 to hostmaster@markaryd.se could not be done.
+ 36.213: markaryd.se INFO Delivery over IPv6 to hostmaster@markaryd.se could not be done.
+ 36.213: markaryd.se INFO Done testing email address hostmaster@markaryd.se.
+ 36.213: markaryd.se WARNING Failed to deliver email for SOA RNAME of markaryd.se (hostmaster.markaryd.se) using hostmaster@markaryd.se.
+ 36.213: markaryd.se INFO SOA TTL for markaryd.se OK (38400) - recommended >= 3600.
+ 36.213: markaryd.se NOTICE SOA refresh for markaryd.se too small (10800) - recommended >= 14400.
+ 36.213: markaryd.se INFO SOA retry for markaryd.se OK (3600) - recommended >= 3600.
+ 36.213: markaryd.se INFO SOA expire for markaryd.se OK (604800) - recommended >= 604800.
+ 36.213: markaryd.se INFO SOA minimum for markaryd.se OK (38400) - recommended between 300 and 86400.
+ 36.213: markaryd.se INFO Done testing SOA parameters for markaryd.se.
+ 36.214: markaryd.se INFO Begin testing connectivity for markaryd.se.
+ 36.887: markaryd.se INFO Name server 212.181.16.130 announced by: 3301
+ 37.553: markaryd.se INFO Name server 81.228.10.68 announced by: 3301
+ 37.553: markaryd.se INFO Zone announced by IPv4 ASN: 3301
+ 37.553: markaryd.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 37.554: markaryd.se INFO Zone announced by IPv6 ASN: 
+ 37.554: markaryd.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 37.554: markaryd.se INFO Done testing connectivity for markaryd.se.
+ 37.554: markaryd.se INFO Begin testing DNSSEC for markaryd.se.
+ 37.629: markaryd.se INFO Did not find DS record for markaryd.se at parent.
+ 37.699: markaryd.se INFO Servers for markaryd.se have consistent extra processing status.
+ 37.699: markaryd.se INFO Did not find DNSKEY record for markaryd.se at child.
+ 37.699: markaryd.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 37.699: markaryd.se INFO Done testing DNSSEC for markaryd.se.
+ 37.699: markaryd.se INFO Test completed for zone markaryd.se.

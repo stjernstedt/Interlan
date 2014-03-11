@@ -1,0 +1,126 @@
+  0.000: klippan.se INFO Begin testing zone klippan.se with version 1.6.1.
+  1.129: klippan.se INFO Begin testing delegation for klippan.se.
+ 25.563: klippan.se INFO Name servers listed at parent: dns01.klippan.se,dns5.telia.com,dns6.telia.com
+ 31.533: klippan.se INFO Name servers listed at child: dns01.klippan.se,dns5.telia.com,dns6.telia.com
+ 31.590: klippan.se INFO Parent glue for klippan.se found: dns01.klippan.se (194.68.33.240)
+ 32.264: klippan.se INFO Checking glue for dns01.klippan.se (194.68.33.240).
+ 32.368: klippan.se INFO Child glue for klippan.se found: dns01.klippan.se (194.68.33.240)
+ 32.369: klippan.se INFO Parent glue for klippan.se found: dns01.klippan.se (194.68.33.240)
+ 35.058: klippan.se INFO It is possible to build a referral packet for klippan.se that works without EDNS0.
+ 35.596: klippan.se INFO Previously used name servers for klippan.se: 
+ 35.597: klippan.se INFO Done testing delegation for klippan.se.
+ 35.597: klippan.se INFO Begin testing name server dns01.klippan.se.
+ 35.597: klippan.se INFO Begin testing host dns01.klippan.se.
+ 35.992: klippan.se INFO Begin testing address 194.68.33.240.
+ 61.703: klippan.se INFO Done testing address 194.68.33.240.
+ 61.703: klippan.se INFO Done testing host dns01.klippan.se.
+ 62.001: klippan.se INFO Name server dns01.klippan.se (194.68.33.240) answers queries over UDP.
+ 62.510: klippan.se INFO Name server dns01.klippan.se (194.68.33.240) answers queries over TCP.
+ 62.578: klippan.se INFO Name server dns01.klippan.se (194.68.33.240) is not recursive.
+ 62.794: klippan.se INFO Name server dns01.klippan.se (194.68.33.240) authoritative for klippan.se.
+ 63.144: klippan.se INFO Name server dns01.klippan.se (194.68.33.240) closed for zone transfer of klippan.se.
+ 63.188: klippan.se NOTICE No answer received from 194.68.33.240 when querying for hostname.bind/CH/TXT.
+ 75.312: klippan.se INFO Done testing name server dns01.klippan.se.
+ 75.312: klippan.se INFO Begin testing name server dns5.telia.com.
+ 75.312: klippan.se INFO Begin testing host dns5.telia.com.
+ 75.313: klippan.se INFO Begin testing address 81.228.11.68.
+ 76.895: klippan.se INFO Done testing address 81.228.11.68.
+ 76.896: klippan.se INFO Begin testing address 2001:2040:c001:101:0:0:0:4.
+ 79.734: klippan.se INFO Done testing address 2001:2040:c001:101:0:0:0:4.
+ 79.734: klippan.se INFO Done testing host dns5.telia.com.
+ 79.798: klippan.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over UDP.
+ 79.823: klippan.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over TCP.
+ 79.958: klippan.se INFO Name server dns5.telia.com (81.228.11.68) is not recursive.
+ 80.055: klippan.se INFO Name server dns5.telia.com (81.228.11.68) authoritative for klippan.se.
+ 80.142: klippan.se INFO Name server dns5.telia.com (81.228.11.68) closed for zone transfer of klippan.se.
+ 80.242: klippan.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 80.631: klippan.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) answers queries over UDP.
+ 80.740: klippan.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) answers queries over TCP.
+ 80.793: klippan.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) is not recursive.
+ 81.056: klippan.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) authoritative for klippan.se.
+ 81.173: klippan.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) closed for zone transfer of klippan.se.
+ 81.320: klippan.se INFO Legacy name server ID for dns5.telia.com (2001:2040:c001:101:0:0:0:4): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 81.468: klippan.se INFO Done testing name server dns5.telia.com.
+ 81.468: klippan.se INFO Begin testing name server dns6.telia.com.
+ 81.468: klippan.se INFO Begin testing host dns6.telia.com.
+ 81.469: klippan.se INFO Begin testing address 81.228.10.68.
+ 83.074: klippan.se INFO Done testing address 81.228.10.68.
+ 83.074: klippan.se INFO Begin testing address 2001:2040:c001:401:0:0:0:4.
+ 83.783: klippan.se INFO Done testing address 2001:2040:c001:401:0:0:0:4.
+ 83.783: klippan.se INFO Done testing host dns6.telia.com.
+ 83.800: klippan.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over UDP.
+ 83.840: klippan.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over TCP.
+ 83.857: klippan.se INFO Name server dns6.telia.com (81.228.10.68) is not recursive.
+ 83.946: klippan.se INFO Name server dns6.telia.com (81.228.10.68) authoritative for klippan.se.
+ 84.003: klippan.se INFO Name server dns6.telia.com (81.228.10.68) closed for zone transfer of klippan.se.
+ 84.040: klippan.se INFO Legacy name server ID for dns6.telia.com (81.228.10.68): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 84.240: klippan.se INFO Name server dns6.telia.com (2001:2040:c001:401:0:0:0:4) answers queries over UDP.
+ 84.312: klippan.se INFO Name server dns6.telia.com (2001:2040:c001:401:0:0:0:4) answers queries over TCP.
+ 84.366: klippan.se INFO Name server dns6.telia.com (2001:2040:c001:401:0:0:0:4) is not recursive.
+ 84.623: klippan.se INFO Name server dns6.telia.com (2001:2040:c001:401:0:0:0:4) authoritative for klippan.se.
+ 84.732: klippan.se INFO Name server dns6.telia.com (2001:2040:c001:401:0:0:0:4) closed for zone transfer of klippan.se.
+ 84.852: klippan.se INFO Legacy name server ID for dns6.telia.com (2001:2040:c001:401:0:0:0:4): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 84.967: klippan.se INFO Done testing name server dns6.telia.com.
+ 84.967: klippan.se INFO Begin testing zone consistency for klippan.se.
+ 85.448: klippan.se INFO SOA at address 81.228.11.68 has serial 2003071640.
+ 85.484: klippan.se INFO SOA at address 2001:2040:c001:401:0:0:0:4 has serial 2003071640.
+ 85.524: klippan.se INFO SOA at address 2001:2040:c001:101:0:0:0:4 has serial 2003071640.
+ 85.544: klippan.se INFO SOA at address 81.228.10.68 has serial 2003071640.
+ 85.608: klippan.se INFO SOA at address 194.68.33.240 has serial 2003071640.
+ 85.608: klippan.se INFO All SOA records have consistent serial numbers.
+ 85.608: klippan.se INFO All other fields in the SOA record are consistent among all name servers.
+ 86.240: klippan.se NOTICE The listed nameservers for klippan.se all report the same set of nameservers.
+ 86.240: klippan.se INFO Done testing zone consistency for klippan.se.
+ 86.240: klippan.se INFO Begin testing SOA parameters for klippan.se.
+ 86.258: klippan.se INFO Found SOA record for klippan.se.
+ 86.259: klippan.se INFO Begin testing host dns01.klippan.se.
+ 86.444: klippan.se INFO Begin testing address 194.68.33.240.
+ 87.684: klippan.se INFO Done testing address 194.68.33.240.
+ 87.684: klippan.se INFO Done testing host dns01.klippan.se.
+ 87.684: klippan.se INFO SOA MNAME for klippan.se valid (dns01.klippan.se).
+ 87.684: klippan.se INFO SOA MNAME for klippan.se (dns01.klippan.se) listed as NS.
+ 88.009: klippan.se INFO SOA MNAME for klippan.se (dns01.klippan.se) is authoritative.
+ 88.009: klippan.se INFO Begin testing email address it@klippan.se.
+ 88.510: klippan.se INFO Mail exchangers for it@klippan.se found smtp-in.sto-hy.se.stejtech.net,smtp-in.sto-ste.se.stejtech.net.
+ 88.524: klippan.se INFO Begin testing host smtp-in.sto-hy.se.stejtech.net.
+ 89.531: klippan.se INFO Begin testing address 91.236.209.10.
+ 91.274: klippan.se INFO Done testing address 91.236.209.10.
+ 91.274: klippan.se INFO Begin testing address 79.136.102.100.
+ 93.718: klippan.se INFO Done testing address 79.136.102.100.
+ 93.718: klippan.se INFO Begin testing address 91.236.208.10.
+ 95.281: klippan.se INFO Done testing address 91.236.208.10.
+ 95.281: klippan.se INFO Begin testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 98.469: klippan.se INFO Done testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 98.469: klippan.se INFO Begin testing address 2001:67c:27e0:2110:0:0:0:1b01.
+100.009: klippan.se INFO Done testing address 2001:67c:27e0:2110:0:0:0:1b01.
+100.009: klippan.se INFO Begin testing address 2001:9b0:1:703:0:0:0:1b01.
+101.958: klippan.se INFO Done testing address 2001:9b0:1:703:0:0:0:1b01.
+101.958: klippan.se INFO Done testing host smtp-in.sto-hy.se.stejtech.net.
+101.958: klippan.se INFO Begin testing host smtp-in.sto-ste.se.stejtech.net.
+102.679: klippan.se INFO Begin testing address 79.136.102.90.
+105.335: klippan.se INFO Done testing address 79.136.102.90.
+105.335: klippan.se INFO Begin testing address 83.140.31.145.
+107.902: klippan.se INFO Done testing address 83.140.31.145.
+107.902: klippan.se INFO Begin testing address 2001:9b0:1:703:0:0:0:b002.
+109.191: klippan.se INFO Done testing address 2001:9b0:1:703:0:0:0:b002.
+109.191: klippan.se INFO Done testing host smtp-in.sto-ste.se.stejtech.net.
+109.192: klippan.se INFO Done testing email address it@klippan.se.
+109.192: klippan.se INFO Successful attempt to deliver email for SOA RNAME of klippan.se (it.klippan.se) using it@klippan.se.
+109.192: klippan.se INFO SOA TTL for klippan.se OK (86400) - recommended >= 3600.
+109.192: klippan.se NOTICE SOA refresh for klippan.se too small (10800) - recommended >= 14400.
+109.192: klippan.se INFO SOA retry for klippan.se OK (3600) - recommended >= 3600.
+109.192: klippan.se INFO SOA expire for klippan.se OK (604800) - recommended >= 604800.
+109.192: klippan.se INFO SOA minimum for klippan.se OK (86400) - recommended between 300 and 86400.
+109.192: klippan.se INFO Done testing SOA parameters for klippan.se.
+109.192: klippan.se INFO Begin testing connectivity for klippan.se.
+112.102: klippan.se NOTICE Zone announced by fewer than two IPv4 ASN.
+113.902: klippan.se NOTICE Zone announced by fewer than two IPv6 ASN.
+113.902: klippan.se INFO Done testing connectivity for klippan.se.
+113.903: klippan.se INFO Begin testing DNSSEC for klippan.se.
+114.008: klippan.se INFO Did not find DS record for klippan.se at parent.
+115.228: klippan.se INFO Servers for klippan.se have consistent extra processing status.
+115.280: klippan.se INFO Authenticated denial records not found for klippan.se.
+115.341: klippan.se INFO Did not find DNSKEY record for klippan.se at child.
+115.341: klippan.se INFO No DNSKEY(s) found at child, other tests skipped.
+115.341: klippan.se INFO Done testing DNSSEC for klippan.se.
+115.342: klippan.se INFO Test completed for zone klippan.se.

@@ -1,0 +1,96 @@
+  0.000: nora.se INFO Begin testing zone nora.se with version 1.2.
+  0.000: nora.se INFO Begin testing delegation for nora.se.
+  5.158: nora.se INFO Name servers listed at parent: ns1.compose.se,ns2.compose.se
+  6.319: nora.se INFO Name servers listed at child: ns1.compose.se,ns2.compose.se
+  6.319: nora.se NOTICE No IPv6 name servers found.
+  6.337: nora.se INFO Parent glue for nora.se found: ns1.compose.se (82.115.131.25)
+  6.428: nora.se INFO Parent glue for nora.se found: ns2.compose.se (193.188.248.9)
+  6.466: nora.se INFO Checking glue for ns1.compose.se (82.115.131.25).
+  6.466: nora.se INFO Checking glue for ns2.compose.se (193.188.248.9).
+  6.467: nora.se INFO Parent glue for nora.se found: ns1.compose.se (82.115.131.25)
+  6.467: nora.se INFO Parent glue for nora.se found: ns2.compose.se (193.188.248.9)
+  6.468: nora.se INFO Done testing delegation for nora.se.
+  6.468: nora.se INFO Begin testing name server ns1.compose.se.
+  6.468: nora.se INFO Begin testing host ns1.compose.se.
+  6.469: nora.se INFO Begin testing address 82.115.131.25.
+ 16.118: nora.se INFO Done testing address 82.115.131.25.
+ 16.118: nora.se INFO Done testing host ns1.compose.se.
+ 16.130: nora.se INFO Name server ns1.compose.se (82.115.131.25) answers queries over UDP.
+ 16.149: nora.se INFO Name server ns1.compose.se (82.115.131.25) answers queries over TCP.
+ 16.160: nora.se INFO Name server ns1.compose.se (82.115.131.25) is not recursive.
+ 16.172: nora.se INFO Name server ns1.compose.se (82.115.131.25) authoritative for nora.se.
+ 16.402: nora.se INFO Name server ns1.compose.se (82.115.131.25) closed for zone transfer of nora.se.
+ 16.413: nora.se NOTICE No answer received from 82.115.131.25 when querying for hostname.bind/CH/TXT.
+ 34.414: nora.se INFO Done testing name server ns1.compose.se.
+ 34.414: nora.se INFO Begin testing name server ns2.compose.se.
+ 34.414: nora.se INFO Begin testing host ns2.compose.se.
+ 34.415: nora.se INFO Begin testing address 193.188.248.9.
+ 34.738: nora.se INFO Done testing address 193.188.248.9.
+ 34.738: nora.se INFO Done testing host ns2.compose.se.
+ 34.751: nora.se INFO Name server ns2.compose.se (193.188.248.9) answers queries over UDP.
+ 34.774: nora.se INFO Name server ns2.compose.se (193.188.248.9) answers queries over TCP.
+ 34.786: nora.se INFO Name server ns2.compose.se (193.188.248.9) is not recursive.
+ 34.799: nora.se INFO Name server ns2.compose.se (193.188.248.9) authoritative for nora.se.
+ 34.828: nora.se INFO Name server ns2.compose.se (193.188.248.9) closed for zone transfer of nora.se.
+ 34.840: nora.se NOTICE No answer received from 193.188.248.9 when querying for hostname.bind/CH/TXT.
+ 52.842: nora.se INFO Done testing name server ns2.compose.se.
+ 52.842: nora.se INFO Begin testing zone consistency for nora.se.
+ 52.857: nora.se INFO SOA at address 82.115.131.25 has serial 2010102502.
+ 52.870: nora.se INFO SOA at address 193.188.248.9 has serial 2010102502.
+ 52.870: nora.se INFO All SOA records have consistent serial numbers.
+ 52.870: nora.se INFO All SOA records are consistent among all name servers.
+ 52.870: nora.se INFO Done testing zone consistency for nora.se.
+ 52.870: nora.se INFO Begin testing SOA parameters for nora.se.
+ 52.881: nora.se INFO Found SOA record for nora.se.
+ 52.881: nora.se INFO Begin testing host ns2.compose.se.
+ 52.882: nora.se INFO Begin testing address 193.188.248.9.
+ 52.883: nora.se INFO Done testing address 193.188.248.9.
+ 52.883: nora.se INFO Done testing host ns2.compose.se.
+ 52.883: nora.se INFO SOA MNAME for nora.se valid (ns2.compose.se).
+ 52.883: nora.se INFO SOA MNAME for nora.se (ns2.compose.se) listed as NS.
+ 52.897: nora.se INFO SOA MNAME for nora.se (ns2.compose.se) is authoritative.
+ 52.897: nora.se INFO Begin testing email address hostmaster@compose.se.
+ 53.160: nora.se INFO Mail exchangers for hostmaster@compose.se found cluster4.eu.messagelabs.com,cluster4a.eu.messagelabs.com.
+ 53.160: nora.se INFO Begin testing host cluster4.eu.messagelabs.com.
+ 54.185: nora.se INFO Begin testing address 85.158.138.51.
+ 57.027: nora.se INFO Done testing address 85.158.138.51.
+ 57.028: nora.se INFO Begin testing address 85.158.139.83.
+ 58.153: nora.se INFO Done testing address 85.158.139.83.
+ 58.153: nora.se INFO Begin testing address 85.158.143.35.
+ 59.376: nora.se INFO Done testing address 85.158.143.35.
+ 59.376: nora.se INFO Begin testing address 193.109.254.147.
+ 61.010: nora.se INFO Done testing address 193.109.254.147.
+ 61.010: nora.se INFO Done testing host cluster4.eu.messagelabs.com.
+ 61.010: nora.se INFO Begin testing mail server cluster4.eu.messagelabs.com (85.158.138.51) with hostmaster@compose.se.
+ 61.159: nora.se INFO SMTP banner: server-8.tower-174.messagelabs.com ESMTP
+ 61.382: nora.se INFO SMTP testing of cluster4.eu.messagelabs.com (85.158.138.51) with hostmaster@compose.se succeeded without errors.
+ 61.382: nora.se INFO Done testing mail server cluster4.eu.messagelabs.com (85.158.138.51) with hostmaster@compose.se.
+ 61.383: nora.se INFO Begin testing host cluster4a.eu.messagelabs.com.
+ 62.317: nora.se INFO Begin testing address 195.245.231.196.
+ 63.636: nora.se INFO Done testing address 195.245.231.196.
+ 63.637: nora.se INFO Done testing host cluster4a.eu.messagelabs.com.
+ 63.637: nora.se INFO Delivery over IPv4 to hostmaster@compose.se ok.
+ 63.637: nora.se INFO Delivery over IPv6 to hostmaster@compose.se could not be done.
+ 63.637: nora.se INFO Done testing email address hostmaster@compose.se.
+ 63.637: nora.se INFO Successful attempt to deliver email for SOA RNAME of nora.se (hostmaster.compose.se) using hostmaster@compose.se.
+ 63.637: nora.se INFO SOA TTL for nora.se OK (172800) - recommended >= 3600.
+ 63.637: nora.se INFO SOA refresh for nora.se OK (28800) - recommended >= 14400.
+ 63.638: nora.se INFO SOA retry for nora.se OK (7200) - recommended >= 3600.
+ 63.638: nora.se INFO SOA expire for nora.se OK (1209600) - recommended >= 604800.
+ 63.638: nora.se NOTICE SOA minimum for nora.se too large (172800) - recommended <= 86400.
+ 63.638: nora.se INFO Done testing SOA parameters for nora.se.
+ 63.638: nora.se INFO Begin testing connectivity for nora.se.
+ 68.313: nora.se INFO Name server 82.115.131.25 announced by: 30795
+ 69.077: nora.se INFO Name server 193.188.248.9 announced by: 3301
+ 69.077: nora.se INFO Zone announced by IPv4 ASN: 3301,30795
+ 69.077: nora.se INFO Zone announced by more than one ASN (2).
+ 69.078: nora.se INFO Zone announced by IPv6 ASN: 
+ 69.078: nora.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 69.078: nora.se INFO Done testing connectivity for nora.se.
+ 69.078: nora.se INFO Begin testing DNSSEC for nora.se.
+ 69.153: nora.se INFO Did not find DS record for nora.se at parent.
+ 69.195: nora.se INFO Servers for nora.se have consistent extra processing status.
+ 69.195: nora.se INFO Did not find DNSKEY record for nora.se at child.
+ 69.195: nora.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 69.195: nora.se INFO Done testing DNSSEC for nora.se.
+ 69.195: nora.se INFO Test completed for zone nora.se.

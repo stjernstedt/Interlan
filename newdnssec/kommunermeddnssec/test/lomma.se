@@ -1,0 +1,98 @@
+  0.000: lomma.se INFO Begin testing zone lomma.se with version 1.6.1.
+  0.544: lomma.se INFO Begin testing delegation for lomma.se.
+ 22.505: lomma.se INFO Name servers listed at parent: ns1.ascio.net,ns2.ascio.net,ns3.ascio.net
+ 28.385: lomma.se INFO Name servers listed at child: ns1.ascio.net,ns2.ascio.net,ns3.ascio.net
+ 28.386: lomma.se NOTICE No IPv6 name servers found.
+ 31.251: lomma.se INFO It is possible to build a referral packet for lomma.se that works without EDNS0.
+ 33.416: lomma.se INFO Previously used name servers for lomma.se: 
+ 33.416: lomma.se INFO Done testing delegation for lomma.se.
+ 33.418: lomma.se INFO Begin testing name server ns1.ascio.net.
+ 33.418: lomma.se INFO Begin testing host ns1.ascio.net.
+ 34.100: lomma.se INFO Begin testing address 62.128.146.41.
+ 47.742: lomma.se INFO Done testing address 62.128.146.41.
+ 47.743: lomma.se INFO Done testing host ns1.ascio.net.
+ 48.640: lomma.se INFO Name server ns1.ascio.net (62.128.146.41) answers queries over UDP.
+ 48.808: lomma.se INFO Name server ns1.ascio.net (62.128.146.41) answers queries over TCP.
+ 48.965: lomma.se INFO Name server ns1.ascio.net (62.128.146.41) is not recursive.
+ 49.378: lomma.se INFO Name server ns1.ascio.net (62.128.146.41) authoritative for lomma.se.
+ 49.677: lomma.se INFO Name server ns1.ascio.net (62.128.146.41) closed for zone transfer of lomma.se.
+ 49.786: lomma.se INFO Legacy name server ID for ns1.ascio.net (62.128.146.41): hostname.bind = nn-ns3
+ 51.029: lomma.se NOTICE No answer received from 62.128.146.41 when querying for version.server/CH/TXT.
+ 51.030: lomma.se INFO Done testing name server ns1.ascio.net.
+ 51.030: lomma.se INFO Begin testing name server ns2.ascio.net.
+ 51.031: lomma.se INFO Begin testing host ns2.ascio.net.
+ 53.055: lomma.se INFO Begin testing address 80.237.153.102.
+ 59.041: lomma.se INFO Done testing address 80.237.153.102.
+ 59.041: lomma.se INFO Done testing host ns2.ascio.net.
+ 59.711: lomma.se INFO Name server ns2.ascio.net (80.237.153.102) answers queries over UDP.
+ 59.846: lomma.se INFO Name server ns2.ascio.net (80.237.153.102) answers queries over TCP.
+ 59.957: lomma.se INFO Name server ns2.ascio.net (80.237.153.102) is not recursive.
+ 60.407: lomma.se INFO Name server ns2.ascio.net (80.237.153.102) authoritative for lomma.se.
+ 60.532: lomma.se INFO Name server ns2.ascio.net (80.237.153.102) closed for zone transfer of lomma.se.
+ 60.686: lomma.se INFO Legacy name server ID for ns2.ascio.net (80.237.153.102): hostname.bind = cgn1srv5.ascio.net
+ 60.781: lomma.se NOTICE No answer received from 80.237.153.102 when querying for version.bind/CH/TXT.
+ 60.822: lomma.se NOTICE No answer received from 80.237.153.102 when querying for id.server/CH/TXT.
+ 60.926: lomma.se NOTICE No answer received from 80.237.153.102 when querying for version.server/CH/TXT.
+ 60.926: lomma.se INFO Done testing name server ns2.ascio.net.
+ 60.930: lomma.se INFO Begin testing name server ns3.ascio.net.
+ 60.930: lomma.se INFO Begin testing host ns3.ascio.net.
+ 61.638: lomma.se INFO Begin testing address 64.34.211.132.
+ 76.638: lomma.se INFO Done testing address 64.34.211.132.
+ 76.638: lomma.se INFO Done testing host ns3.ascio.net.
+ 77.202: lomma.se INFO Name server ns3.ascio.net (64.34.211.132) answers queries over UDP.
+ 77.492: lomma.se INFO Name server ns3.ascio.net (64.34.211.132) answers queries over TCP.
+ 77.702: lomma.se INFO Name server ns3.ascio.net (64.34.211.132) is not recursive.
+ 78.347: lomma.se INFO Name server ns3.ascio.net (64.34.211.132) authoritative for lomma.se.
+ 78.763: lomma.se INFO Name server ns3.ascio.net (64.34.211.132) closed for zone transfer of lomma.se.
+ 78.925: lomma.se INFO Legacy name server ID for ns3.ascio.net (64.34.211.132): hostname.bind = sat1srv1.ascio.net
+ 79.080: lomma.se NOTICE No answer received from 64.34.211.132 when querying for version.bind/CH/TXT.
+ 79.249: lomma.se NOTICE No answer received from 64.34.211.132 when querying for id.server/CH/TXT.
+ 79.436: lomma.se NOTICE No answer received from 64.34.211.132 when querying for version.server/CH/TXT.
+ 79.436: lomma.se INFO Done testing name server ns3.ascio.net.
+ 79.437: lomma.se INFO Begin testing zone consistency for lomma.se.
+ 82.841: lomma.se INFO SOA at address 62.128.146.41 has serial 2014022701.
+ 83.302: lomma.se INFO SOA at address 80.237.153.102 has serial 2014022701.
+ 83.826: lomma.se INFO SOA at address 64.34.211.132 has serial 2014022701.
+ 83.826: lomma.se INFO All SOA records have consistent serial numbers.
+ 83.826: lomma.se INFO All other fields in the SOA record are consistent among all name servers.
+ 85.667: lomma.se NOTICE The listed nameservers for lomma.se all report the same set of nameservers.
+ 85.668: lomma.se INFO Done testing zone consistency for lomma.se.
+ 85.680: lomma.se INFO Begin testing SOA parameters for lomma.se.
+ 85.744: lomma.se INFO Found SOA record for lomma.se.
+ 85.744: lomma.se INFO Begin testing host ns1.ascio.net.
+ 86.210: lomma.se INFO Begin testing address 62.128.146.41.
+ 86.532: lomma.se INFO Done testing address 62.128.146.41.
+ 86.533: lomma.se INFO Done testing host ns1.ascio.net.
+ 86.533: lomma.se INFO SOA MNAME for lomma.se valid (ns1.ascio.net).
+ 86.533: lomma.se INFO SOA MNAME for lomma.se (ns1.ascio.net) listed as NS.
+ 86.993: lomma.se INFO SOA MNAME for lomma.se (ns1.ascio.net) is authoritative.
+ 86.993: lomma.se INFO Begin testing email address hostmaster@ascio.net.
+ 87.254: lomma.se INFO Mail exchangers for hostmaster@ascio.net found mx1.netbenefit.co.uk,mx2.netbenefit.co.uk.
+ 87.254: lomma.se INFO Begin testing host mx1.netbenefit.co.uk.
+ 87.958: lomma.se INFO Begin testing address 62.128.158.224.
+ 89.273: lomma.se INFO Done testing address 62.128.158.224.
+ 89.273: lomma.se INFO Done testing host mx1.netbenefit.co.uk.
+ 89.471: lomma.se INFO Begin testing host mx2.netbenefit.co.uk.
+ 90.003: lomma.se INFO Begin testing address 212.53.64.42.
+ 91.078: lomma.se INFO Done testing address 212.53.64.42.
+ 91.079: lomma.se INFO Done testing host mx2.netbenefit.co.uk.
+ 91.457: lomma.se INFO Done testing email address hostmaster@ascio.net.
+ 91.457: lomma.se INFO Successful attempt to deliver email for SOA RNAME of lomma.se (hostmaster.ascio.net) using hostmaster@ascio.net.
+ 91.457: lomma.se NOTICE SOA TTL for lomma.se too small (900) - recommended >= 3600.
+ 91.457: lomma.se NOTICE SOA refresh for lomma.se too small (10000) - recommended >= 14400.
+ 91.457: lomma.se NOTICE SOA retry for lomma.se too small (1800) - recommended >= 3600.
+ 91.458: lomma.se INFO SOA expire for lomma.se OK (604800) - recommended >= 604800.
+ 91.458: lomma.se INFO SOA minimum for lomma.se OK (900) - recommended between 300 and 86400.
+ 91.458: lomma.se INFO Done testing SOA parameters for lomma.se.
+ 91.458: lomma.se INFO Begin testing connectivity for lomma.se.
+ 93.442: lomma.se INFO Zone announced by more than one ASN.
+ 93.443: lomma.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 93.443: lomma.se INFO Done testing connectivity for lomma.se.
+ 93.443: lomma.se INFO Begin testing DNSSEC for lomma.se.
+ 93.483: lomma.se INFO Did not find DS record for lomma.se at parent.
+ 94.007: lomma.se INFO Servers for lomma.se have consistent extra processing status.
+ 94.090: lomma.se INFO Authenticated denial records not found for lomma.se.
+ 94.143: lomma.se INFO Did not find DNSKEY record for lomma.se at child.
+ 94.143: lomma.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 94.143: lomma.se INFO Done testing DNSSEC for lomma.se.
+ 94.144: lomma.se INFO Test completed for zone lomma.se.

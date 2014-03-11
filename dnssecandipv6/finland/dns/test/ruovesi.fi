@@ -1,0 +1,84 @@
+  0.000: ruovesi.fi INFO Begin testing zone ruovesi.fi with version 1.6.1.
+  0.421: ruovesi.fi INFO Begin testing delegation for ruovesi.fi.
+  9.488: ruovesi.fi INFO Name servers listed at parent: ns10.phpoint.net,ns11.phpoint.net
+ 11.400: ruovesi.fi INFO Name servers listed at child: ns10.phpoint.net,ns11.phpoint.net
+ 11.400: ruovesi.fi NOTICE No IPv6 name servers found.
+ 12.668: ruovesi.fi INFO It is possible to build a referral packet for ruovesi.fi that works without EDNS0.
+ 13.432: ruovesi.fi INFO Previously used name servers for ruovesi.fi: 
+ 13.432: ruovesi.fi INFO Done testing delegation for ruovesi.fi.
+ 13.432: ruovesi.fi INFO Begin testing name server ns10.phpoint.net.
+ 13.432: ruovesi.fi INFO Begin testing host ns10.phpoint.net.
+ 14.032: ruovesi.fi INFO Begin testing address 62.106.0.41.
+ 25.572: ruovesi.fi INFO Done testing address 62.106.0.41.
+ 25.572: ruovesi.fi INFO Done testing host ns10.phpoint.net.
+ 26.180: ruovesi.fi INFO Name server ns10.phpoint.net (62.106.0.41) answers queries over UDP.
+ 26.244: ruovesi.fi INFO Name server ns10.phpoint.net (62.106.0.41) answers queries over TCP.
+ 26.275: ruovesi.fi INFO Name server ns10.phpoint.net (62.106.0.41) is not recursive.
+ 26.462: ruovesi.fi INFO Name server ns10.phpoint.net (62.106.0.41) authoritative for ruovesi.fi.
+ 26.546: ruovesi.fi INFO Name server ns10.phpoint.net (62.106.0.41) closed for zone transfer of ruovesi.fi.
+ 26.594: ruovesi.fi INFO Legacy name server ID for ns10.phpoint.net (62.106.0.41): hostname.bind = host-62-106-0-41.phpoint.net
+ 26.656: ruovesi.fi INFO Legacy name server ID for ns10.phpoint.net (62.106.0.41): version.bind = -
+ 26.748: ruovesi.fi NOTICE No answer received from 62.106.0.41 when querying for version.server/CH/TXT.
+ 26.748: ruovesi.fi INFO Done testing name server ns10.phpoint.net.
+ 26.748: ruovesi.fi INFO Begin testing name server ns11.phpoint.net.
+ 26.748: ruovesi.fi INFO Begin testing host ns11.phpoint.net.
+ 27.103: ruovesi.fi INFO Begin testing address 62.106.0.42.
+ 28.264: ruovesi.fi INFO Done testing address 62.106.0.42.
+ 28.264: ruovesi.fi INFO Done testing host ns11.phpoint.net.
+ 28.701: ruovesi.fi INFO Name server ns11.phpoint.net (62.106.0.42) answers queries over UDP.
+ 28.773: ruovesi.fi INFO Name server ns11.phpoint.net (62.106.0.42) answers queries over TCP.
+ 28.808: ruovesi.fi INFO Name server ns11.phpoint.net (62.106.0.42) is not recursive.
+ 28.907: ruovesi.fi INFO Name server ns11.phpoint.net (62.106.0.42) authoritative for ruovesi.fi.
+ 28.987: ruovesi.fi INFO Name server ns11.phpoint.net (62.106.0.42) closed for zone transfer of ruovesi.fi.
+ 29.016: ruovesi.fi INFO Legacy name server ID for ns11.phpoint.net (62.106.0.42): hostname.bind = host-62-106-0-42.phpoint.net
+ 29.068: ruovesi.fi INFO Legacy name server ID for ns11.phpoint.net (62.106.0.42): version.bind = -
+ 29.124: ruovesi.fi NOTICE No answer received from 62.106.0.42 when querying for version.server/CH/TXT.
+ 29.124: ruovesi.fi INFO Done testing name server ns11.phpoint.net.
+ 29.124: ruovesi.fi INFO Begin testing zone consistency for ruovesi.fi.
+ 30.733: ruovesi.fi INFO SOA at address 62.106.0.42 has serial 2013102415.
+ 30.755: ruovesi.fi INFO SOA at address 62.106.0.41 has serial 2013102415.
+ 30.755: ruovesi.fi INFO All SOA records have consistent serial numbers.
+ 30.755: ruovesi.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 31.455: ruovesi.fi NOTICE The listed nameservers for ruovesi.fi all report the same set of nameservers.
+ 31.469: ruovesi.fi INFO Done testing zone consistency for ruovesi.fi.
+ 31.469: ruovesi.fi INFO Begin testing SOA parameters for ruovesi.fi.
+ 31.497: ruovesi.fi INFO Found SOA record for ruovesi.fi.
+ 31.497: ruovesi.fi INFO Begin testing host ns3.phpoint.net.
+ 32.192: ruovesi.fi INFO Begin testing address 62.106.0.11.
+ 33.908: ruovesi.fi INFO Done testing address 62.106.0.11.
+ 33.908: ruovesi.fi INFO Done testing host ns3.phpoint.net.
+ 33.908: ruovesi.fi INFO SOA MNAME for ruovesi.fi valid (ns3.phpoint.net).
+ 33.908: ruovesi.fi NOTICE SOA MNAME for ruovesi.fi (ns3.phpoint.net) not listed as NS.
+ 34.092: ruovesi.fi NOTICE No answer received from 62.106.0.11 when querying for ruovesi.fi/IN/SOA.
+ 34.092: ruovesi.fi WARNING Nameserver at 62.106.0.11 is not authoritative over UDP.
+ 34.092: ruovesi.fi WARNING SOA MNAME for ruovesi.fi (ns3.phpoint.net) is not authoritative.
+ 34.092: ruovesi.fi INFO Begin testing email address toni.leino@ruovesi.fi.
+ 34.232: ruovesi.fi INFO Mail exchangers for toni.leino@ruovesi.fi found ip1.phpoint.net,ip2.phpoint.net.
+ 34.232: ruovesi.fi INFO Begin testing host ip1.phpoint.net.
+ 34.664: ruovesi.fi INFO Begin testing address 62.106.0.26.
+ 35.644: ruovesi.fi INFO Done testing address 62.106.0.26.
+ 35.644: ruovesi.fi INFO Done testing host ip1.phpoint.net.
+ 35.764: ruovesi.fi INFO Begin testing host ip2.phpoint.net.
+ 36.200: ruovesi.fi INFO Begin testing address 62.106.0.27.
+ 36.944: ruovesi.fi INFO Done testing address 62.106.0.27.
+ 36.944: ruovesi.fi INFO Done testing host ip2.phpoint.net.
+ 37.080: ruovesi.fi INFO Done testing email address toni.leino@ruovesi.fi.
+ 37.080: ruovesi.fi INFO Successful attempt to deliver email for SOA RNAME of ruovesi.fi (toni\.leino.ruovesi.fi) using toni.leino@ruovesi.fi.
+ 37.081: ruovesi.fi INFO SOA TTL for ruovesi.fi OK (86400) - recommended >= 3600.
+ 37.081: ruovesi.fi NOTICE SOA refresh for ruovesi.fi too small (10800) - recommended >= 14400.
+ 37.081: ruovesi.fi INFO SOA retry for ruovesi.fi OK (3600) - recommended >= 3600.
+ 37.081: ruovesi.fi INFO SOA expire for ruovesi.fi OK (604800) - recommended >= 604800.
+ 37.081: ruovesi.fi INFO SOA minimum for ruovesi.fi OK (10800) - recommended between 300 and 86400.
+ 37.081: ruovesi.fi INFO Done testing SOA parameters for ruovesi.fi.
+ 37.081: ruovesi.fi INFO Begin testing connectivity for ruovesi.fi.
+ 38.096: ruovesi.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 38.097: ruovesi.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 38.097: ruovesi.fi INFO Done testing connectivity for ruovesi.fi.
+ 38.097: ruovesi.fi INFO Begin testing DNSSEC for ruovesi.fi.
+ 38.133: ruovesi.fi INFO Did not find DS record for ruovesi.fi at parent.
+ 38.220: ruovesi.fi INFO Servers for ruovesi.fi have consistent extra processing status.
+ 38.258: ruovesi.fi INFO Authenticated denial records not found for ruovesi.fi.
+ 38.280: ruovesi.fi INFO Did not find DNSKEY record for ruovesi.fi at child.
+ 38.280: ruovesi.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 38.280: ruovesi.fi INFO Done testing DNSSEC for ruovesi.fi.
+ 38.280: ruovesi.fi INFO Test completed for zone ruovesi.fi.

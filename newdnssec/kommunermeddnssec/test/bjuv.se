@@ -1,0 +1,77 @@
+  0.000: bjuv.se INFO Begin testing zone bjuv.se with version 1.6.1.
+  0.572: bjuv.se INFO Begin testing delegation for bjuv.se.
+ 16.220: bjuv.se INFO Name servers listed at parent: dns3.telia.com,dns4.telia.com
+ 19.512: bjuv.se INFO Name servers listed at child: dns3.telia.com,dns4.telia.com
+ 19.513: bjuv.se NOTICE No IPv6 name servers found.
+ 23.922: bjuv.se INFO It is possible to build a referral packet for bjuv.se that works without EDNS0.
+ 25.848: bjuv.se INFO Previously used name servers for bjuv.se: 
+ 25.848: bjuv.se INFO Done testing delegation for bjuv.se.
+ 25.848: bjuv.se INFO Begin testing name server dns3.telia.com.
+ 25.849: bjuv.se INFO Begin testing host dns3.telia.com.
+ 28.200: bjuv.se INFO Begin testing address 81.228.11.184.
+ 45.928: bjuv.se INFO Done testing address 81.228.11.184.
+ 45.929: bjuv.se INFO Done testing host dns3.telia.com.
+ 47.282: bjuv.se INFO Name server dns3.telia.com (81.228.11.184) answers queries over UDP.
+ 47.379: bjuv.se INFO Name server dns3.telia.com (81.228.11.184) answers queries over TCP.
+ 47.432: bjuv.se INFO Name server dns3.telia.com (81.228.11.184) is not recursive.
+ 47.652: bjuv.se INFO Name server dns3.telia.com (81.228.11.184) authoritative for bjuv.se.
+ 47.712: bjuv.se INFO Name server dns3.telia.com (81.228.11.184) closed for zone transfer of bjuv.se.
+ 47.810: bjuv.se INFO Legacy name server ID for dns3.telia.com (81.228.11.184): version.bind = Served by POWERDNS 3.1 $Id: packethandler.cc 2579 2012-04-26 11:28:04Z peter $
+ 47.955: bjuv.se INFO Done testing name server dns3.telia.com.
+ 47.955: bjuv.se INFO Begin testing name server dns4.telia.com.
+ 47.955: bjuv.se INFO Begin testing host dns4.telia.com.
+ 49.030: bjuv.se INFO Begin testing address 81.228.9.98.
+ 52.622: bjuv.se INFO Done testing address 81.228.9.98.
+ 52.622: bjuv.se INFO Done testing host dns4.telia.com.
+ 53.020: bjuv.se INFO Name server dns4.telia.com (81.228.9.98) answers queries over UDP.
+ 53.374: bjuv.se INFO Name server dns4.telia.com (81.228.9.98) answers queries over TCP.
+ 53.442: bjuv.se INFO Name server dns4.telia.com (81.228.9.98) is not recursive.
+ 53.714: bjuv.se INFO Name server dns4.telia.com (81.228.9.98) authoritative for bjuv.se.
+ 53.860: bjuv.se INFO Name server dns4.telia.com (81.228.9.98) closed for zone transfer of bjuv.se.
+ 53.952: bjuv.se INFO Legacy name server ID for dns4.telia.com (81.228.9.98): version.bind = Served by POWERDNS 3.1 $Id: packethandler.cc 2579 2012-04-26 11:28:04Z peter $
+ 54.064: bjuv.se INFO Done testing name server dns4.telia.com.
+ 54.064: bjuv.se INFO Begin testing zone consistency for bjuv.se.
+ 58.216: bjuv.se INFO SOA at address 81.228.9.98 has serial 1385124114.
+ 58.315: bjuv.se INFO SOA at address 81.228.11.184 has serial 1385124114.
+ 58.315: bjuv.se INFO All SOA records have consistent serial numbers.
+ 58.315: bjuv.se INFO All other fields in the SOA record are consistent among all name servers.
+ 62.972: bjuv.se NOTICE The listed nameservers for bjuv.se all report the same set of nameservers.
+ 62.973: bjuv.se INFO Done testing zone consistency for bjuv.se.
+ 62.973: bjuv.se INFO Begin testing SOA parameters for bjuv.se.
+ 63.009: bjuv.se INFO Found SOA record for bjuv.se.
+ 63.010: bjuv.se INFO Begin testing host dns9.telia.com.
+ 63.958: bjuv.se INFO Begin testing address 81.228.11.184.
+ 64.308: bjuv.se INFO Done testing address 81.228.11.184.
+ 64.312: bjuv.se INFO Begin testing address 2001:2040:c001:104:0:0:0:5.
+ 66.561: bjuv.se INFO Done testing address 2001:2040:c001:104:0:0:0:5.
+ 66.561: bjuv.se INFO Done testing host dns9.telia.com.
+ 66.561: bjuv.se INFO SOA MNAME for bjuv.se valid (dns9.telia.com).
+ 66.561: bjuv.se NOTICE SOA MNAME for bjuv.se (dns9.telia.com) not listed as NS.
+ 66.617: bjuv.se INFO SOA MNAME for bjuv.se (dns9.telia.com) is authoritative.
+ 66.664: bjuv.se INFO SOA MNAME for bjuv.se (dns9.telia.com) is authoritative.
+ 66.664: bjuv.se INFO Begin testing email address backbone@telia.net.
+ 67.041: bjuv.se INFO Mail exchangers for backbone@telia.net found mail.telia.net.
+ 67.041: bjuv.se INFO Begin testing host mail.telia.net.
+ 68.220: bjuv.se INFO Begin testing address 194.237.170.102.
+ 69.412: bjuv.se INFO Done testing address 194.237.170.102.
+ 69.412: bjuv.se INFO Done testing host mail.telia.net.
+ 69.784: bjuv.se INFO Done testing email address backbone@telia.net.
+ 69.784: bjuv.se INFO Successful attempt to deliver email for SOA RNAME of bjuv.se (backbone.telia.net) using backbone@telia.net.
+ 69.785: bjuv.se INFO SOA TTL for bjuv.se OK (3600) - recommended >= 3600.
+ 69.785: bjuv.se INFO SOA refresh for bjuv.se OK (21600) - recommended >= 14400.
+ 69.785: bjuv.se INFO SOA retry for bjuv.se OK (7200) - recommended >= 3600.
+ 69.785: bjuv.se INFO SOA expire for bjuv.se OK (604800) - recommended >= 604800.
+ 69.785: bjuv.se INFO SOA minimum for bjuv.se OK (3600) - recommended between 300 and 86400.
+ 69.785: bjuv.se INFO Done testing SOA parameters for bjuv.se.
+ 69.785: bjuv.se INFO Begin testing connectivity for bjuv.se.
+ 70.966: bjuv.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 70.967: bjuv.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 70.967: bjuv.se INFO Done testing connectivity for bjuv.se.
+ 70.967: bjuv.se INFO Begin testing DNSSEC for bjuv.se.
+ 71.085: bjuv.se INFO Did not find DS record for bjuv.se at parent.
+ 71.154: bjuv.se INFO Servers for bjuv.se have consistent extra processing status.
+ 71.204: bjuv.se INFO Authenticated denial records not found for bjuv.se.
+ 71.234: bjuv.se INFO Did not find DNSKEY record for bjuv.se at child.
+ 71.234: bjuv.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 71.234: bjuv.se INFO Done testing DNSSEC for bjuv.se.
+ 71.235: bjuv.se INFO Test completed for zone bjuv.se.

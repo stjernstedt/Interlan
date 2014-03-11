@@ -1,0 +1,91 @@
+  0.000: rost.kommune.no INFO Begin testing zone rost.kommune.no with version 1.6.1.
+  0.331: rost.kommune.no INFO Begin testing delegation for rost.kommune.no.
+  8.191: rost.kommune.no INFO Name servers listed at parent: dns1.itet.no,dns2.itet.no
+  9.388: rost.kommune.no INFO Name servers listed at child: dns1.itet.no,dns2.itet.no
+  9.388: rost.kommune.no NOTICE No IPv6 name servers found.
+  9.529: rost.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.686: rost.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.813: rost.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.957: rost.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.644: rost.kommune.no INFO It is possible to build a referral packet for rost.kommune.no that works without EDNS0.
+ 11.139: rost.kommune.no INFO Previously used name servers for rost.kommune.no: 
+ 11.139: rost.kommune.no INFO Done testing delegation for rost.kommune.no.
+ 11.139: rost.kommune.no INFO Begin testing name server dns1.itet.no.
+ 11.139: rost.kommune.no INFO Begin testing host dns1.itet.no.
+ 11.442: rost.kommune.no INFO Begin testing address 193.169.42.23.
+ 29.573: rost.kommune.no INFO Done testing address 193.169.42.23.
+ 29.574: rost.kommune.no INFO Done testing host dns1.itet.no.
+ 29.779: rost.kommune.no INFO Name server dns1.itet.no (193.169.42.23) answers queries over UDP.
+ 29.841: rost.kommune.no INFO Name server dns1.itet.no (193.169.42.23) answers queries over TCP.
+ 29.893: rost.kommune.no WARNING Name server dns1.itet.no (193.169.42.23) is recursive.
+ 30.047: rost.kommune.no INFO Name server dns1.itet.no (193.169.42.23) authoritative for rost.kommune.no.
+ 30.229: rost.kommune.no INFO Name server dns1.itet.no (193.169.42.23) closed for zone transfer of rost.kommune.no.
+ 30.265: rost.kommune.no INFO Legacy name server ID for dns1.itet.no (193.169.42.23): hostname.bind = dns1.itet.no
+ 30.299: rost.kommune.no INFO Legacy name server ID for dns1.itet.no (193.169.42.23): version.bind = 9.7.2-P3
+ 30.366: rost.kommune.no NOTICE No answer received from 193.169.42.23 when querying for version.server/CH/TXT.
+ 30.367: rost.kommune.no INFO Done testing name server dns1.itet.no.
+ 30.367: rost.kommune.no INFO Begin testing name server dns2.itet.no.
+ 30.367: rost.kommune.no INFO Begin testing host dns2.itet.no.
+ 30.601: rost.kommune.no INFO Begin testing address 80.89.33.210.
+ 31.515: rost.kommune.no INFO Done testing address 80.89.33.210.
+ 31.515: rost.kommune.no INFO Done testing host dns2.itet.no.
+ 31.683: rost.kommune.no INFO Name server dns2.itet.no (80.89.33.210) answers queries over UDP.
+ 31.742: rost.kommune.no INFO Name server dns2.itet.no (80.89.33.210) answers queries over TCP.
+ 31.775: rost.kommune.no INFO Name server dns2.itet.no (80.89.33.210) is not recursive.
+ 31.890: rost.kommune.no INFO Name server dns2.itet.no (80.89.33.210) authoritative for rost.kommune.no.
+ 32.094: rost.kommune.no INFO Name server dns2.itet.no (80.89.33.210) closed for zone transfer of rost.kommune.no.
+ 32.122: rost.kommune.no NOTICE No answer received from 80.89.33.210 when querying for hostname.bind/CH/TXT.
+ 32.150: rost.kommune.no NOTICE No answer received from 80.89.33.210 when querying for version.bind/CH/TXT.
+ 32.178: rost.kommune.no NOTICE No answer received from 80.89.33.210 when querying for id.server/CH/TXT.
+ 32.214: rost.kommune.no NOTICE No answer received from 80.89.33.210 when querying for version.server/CH/TXT.
+ 32.214: rost.kommune.no INFO Done testing name server dns2.itet.no.
+ 32.215: rost.kommune.no INFO Begin testing zone consistency for rost.kommune.no.
+ 32.891: rost.kommune.no INFO SOA at address 80.89.33.210 has serial 2012022900.
+ 32.922: rost.kommune.no INFO SOA at address 193.169.42.23 has serial 2012022900.
+ 32.922: rost.kommune.no INFO All SOA records have consistent serial numbers.
+ 32.922: rost.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 33.242: rost.kommune.no NOTICE The listed nameservers for rost.kommune.no all report the same set of nameservers.
+ 33.242: rost.kommune.no INFO Done testing zone consistency for rost.kommune.no.
+ 33.242: rost.kommune.no INFO Begin testing SOA parameters for rost.kommune.no.
+ 33.272: rost.kommune.no INFO Found SOA record for rost.kommune.no.
+ 33.272: rost.kommune.no INFO Begin testing host dns1.itet.no.
+ 33.451: rost.kommune.no INFO Begin testing address 193.169.42.23.
+ 33.613: rost.kommune.no INFO Done testing address 193.169.42.23.
+ 33.613: rost.kommune.no INFO Done testing host dns1.itet.no.
+ 33.613: rost.kommune.no INFO SOA MNAME for rost.kommune.no valid (dns1.itet.no).
+ 33.614: rost.kommune.no INFO SOA MNAME for rost.kommune.no (dns1.itet.no) listed as NS.
+ 33.779: rost.kommune.no INFO SOA MNAME for rost.kommune.no (dns1.itet.no) is authoritative.
+ 33.779: rost.kommune.no INFO Begin testing email address hostmaster@itet.no.
+ 33.993: rost.kommune.no INFO Mail exchangers for hostmaster@itet.no found gw1.security.comendo.com,gw2.security.comendo.com,gw3.security.comendo.com.
+ 33.994: rost.kommune.no INFO Begin testing host gw1.security.comendo.com.
+ 34.689: rost.kommune.no INFO Begin testing address 89.104.217.10.
+ 35.343: rost.kommune.no INFO Done testing address 89.104.217.10.
+ 35.343: rost.kommune.no INFO Done testing host gw1.security.comendo.com.
+ 35.775: rost.kommune.no INFO Begin testing host gw2.security.comendo.com.
+ 36.137: rost.kommune.no INFO Begin testing address 89.104.217.10.
+ 36.441: rost.kommune.no INFO Done testing address 89.104.217.10.
+ 36.441: rost.kommune.no INFO Done testing host gw2.security.comendo.com.
+ 36.623: rost.kommune.no INFO Begin testing host gw3.security.comendo.com.
+ 37.048: rost.kommune.no INFO Begin testing address 89.104.216.11.
+ 37.637: rost.kommune.no INFO Done testing address 89.104.216.11.
+ 37.637: rost.kommune.no INFO Done testing host gw3.security.comendo.com.
+ 37.782: rost.kommune.no INFO Done testing email address hostmaster@itet.no.
+ 37.783: rost.kommune.no INFO Successful attempt to deliver email for SOA RNAME of rost.kommune.no (hostmaster.itet.no) using hostmaster@itet.no.
+ 37.783: rost.kommune.no NOTICE SOA TTL for rost.kommune.no too small (300) - recommended >= 3600.
+ 37.783: rost.kommune.no INFO SOA refresh for rost.kommune.no OK (28800) - recommended >= 14400.
+ 37.783: rost.kommune.no INFO SOA retry for rost.kommune.no OK (7200) - recommended >= 3600.
+ 37.783: rost.kommune.no INFO SOA expire for rost.kommune.no OK (3600000) - recommended >= 604800.
+ 37.783: rost.kommune.no NOTICE SOA minimum for rost.kommune.no too large (172800) - recommended <= 86400.
+ 37.783: rost.kommune.no INFO Done testing SOA parameters for rost.kommune.no.
+ 37.783: rost.kommune.no INFO Begin testing connectivity for rost.kommune.no.
+ 38.728: rost.kommune.no NOTICE Zone announced by fewer than two IPv4 ASN.
+ 38.728: rost.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 38.728: rost.kommune.no INFO Done testing connectivity for rost.kommune.no.
+ 38.729: rost.kommune.no INFO Begin testing DNSSEC for rost.kommune.no.
+ 38.811: rost.kommune.no INFO Did not find DS record for rost.kommune.no at parent.
+ 38.927: rost.kommune.no INFO Servers for rost.kommune.no have consistent extra processing status.
+ 38.991: rost.kommune.no INFO Authenticated denial records not found for rost.kommune.no.
+ 39.021: rost.kommune.no INFO Did not find DNSKEY record for rost.kommune.no at child.
+ 39.021: rost.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 39.021: rost.kommune.no INFO Done testing DNSSEC for rost.kommune.no.
+ 39.022: rost.kommune.no INFO Test completed for zone rost.kommune.no.

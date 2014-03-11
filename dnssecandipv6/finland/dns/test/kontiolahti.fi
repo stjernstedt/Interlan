@@ -1,0 +1,87 @@
+  0.000: kontiolahti.fi INFO Begin testing zone kontiolahti.fi with version 1.6.1.
+  0.396: kontiolahti.fi INFO Begin testing delegation for kontiolahti.fi.
+  8.974: kontiolahti.fi INFO Name servers listed at parent: ns.jns.fi,ns2.jns.fi
+ 10.679: kontiolahti.fi INFO Name servers listed at child: ns.jns.fi,ns2.jns.fi
+ 10.715: kontiolahti.fi NOTICE No IPv6 name servers found.
+ 10.765: kontiolahti.fi INFO Parent glue for kontiolahti.fi found: ns.jns.fi (193.65.112.97)
+ 11.022: kontiolahti.fi INFO Checking glue for ns.jns.fi (193.65.112.97).
+ 11.022: kontiolahti.fi INFO Parent glue for kontiolahti.fi found: ns.jns.fi (193.65.112.97)
+ 11.990: kontiolahti.fi INFO It is possible to build a referral packet for kontiolahti.fi that works without EDNS0.
+ 12.642: kontiolahti.fi INFO Previously used name servers for kontiolahti.fi: 
+ 12.642: kontiolahti.fi INFO Done testing delegation for kontiolahti.fi.
+ 12.642: kontiolahti.fi INFO Begin testing name server ns.jns.fi.
+ 12.642: kontiolahti.fi INFO Begin testing host ns.jns.fi.
+ 13.264: kontiolahti.fi INFO Begin testing address 193.65.112.97.
+ 25.972: kontiolahti.fi INFO Done testing address 193.65.112.97.
+ 25.972: kontiolahti.fi INFO Done testing host ns.jns.fi.
+ 26.221: kontiolahti.fi INFO Name server ns.jns.fi (193.65.112.97) answers queries over UDP.
+ 26.273: kontiolahti.fi INFO Name server ns.jns.fi (193.65.112.97) answers queries over TCP.
+ 26.298: kontiolahti.fi INFO Name server ns.jns.fi (193.65.112.97) is not recursive.
+ 26.417: kontiolahti.fi INFO Name server ns.jns.fi (193.65.112.97) authoritative for kontiolahti.fi.
+ 26.495: kontiolahti.fi INFO Name server ns.jns.fi (193.65.112.97) closed for zone transfer of kontiolahti.fi.
+ 26.536: kontiolahti.fi NOTICE No answer received from 193.65.112.97 when querying for hostname.bind/CH/TXT.
+ 26.564: kontiolahti.fi NOTICE No answer received from 193.65.112.97 when querying for version.bind/CH/TXT.
+ 26.591: kontiolahti.fi NOTICE No answer received from 193.65.112.97 when querying for id.server/CH/TXT.
+ 26.628: kontiolahti.fi NOTICE No answer received from 193.65.112.97 when querying for version.server/CH/TXT.
+ 26.628: kontiolahti.fi INFO Done testing name server ns.jns.fi.
+ 26.628: kontiolahti.fi INFO Begin testing name server ns2.jns.fi.
+ 26.628: kontiolahti.fi INFO Begin testing host ns2.jns.fi.
+ 26.856: kontiolahti.fi INFO Begin testing address 193.65.112.98.
+ 27.745: kontiolahti.fi INFO Done testing address 193.65.112.98.
+ 27.745: kontiolahti.fi INFO Done testing host ns2.jns.fi.
+ 28.157: kontiolahti.fi INFO Name server ns2.jns.fi (193.65.112.98) answers queries over UDP.
+ 28.248: kontiolahti.fi INFO Name server ns2.jns.fi (193.65.112.98) answers queries over TCP.
+ 28.279: kontiolahti.fi INFO Name server ns2.jns.fi (193.65.112.98) is not recursive.
+ 28.459: kontiolahti.fi INFO Name server ns2.jns.fi (193.65.112.98) authoritative for kontiolahti.fi.
+ 28.552: kontiolahti.fi INFO Name server ns2.jns.fi (193.65.112.98) closed for zone transfer of kontiolahti.fi.
+ 28.588: kontiolahti.fi NOTICE No answer received from 193.65.112.98 when querying for hostname.bind/CH/TXT.
+ 28.612: kontiolahti.fi NOTICE No answer received from 193.65.112.98 when querying for version.bind/CH/TXT.
+ 28.648: kontiolahti.fi NOTICE No answer received from 193.65.112.98 when querying for id.server/CH/TXT.
+ 28.688: kontiolahti.fi NOTICE No answer received from 193.65.112.98 when querying for version.server/CH/TXT.
+ 28.688: kontiolahti.fi INFO Done testing name server ns2.jns.fi.
+ 28.688: kontiolahti.fi INFO Begin testing zone consistency for kontiolahti.fi.
+ 29.730: kontiolahti.fi INFO SOA at address 193.65.112.98 has serial 2013071000.
+ 29.809: kontiolahti.fi INFO SOA at address 193.65.112.97 has serial 2013071000.
+ 29.809: kontiolahti.fi INFO All SOA records have consistent serial numbers.
+ 29.809: kontiolahti.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 30.467: kontiolahti.fi NOTICE The listed nameservers for kontiolahti.fi all report the same set of nameservers.
+ 30.467: kontiolahti.fi INFO Done testing zone consistency for kontiolahti.fi.
+ 30.473: kontiolahti.fi INFO Begin testing SOA parameters for kontiolahti.fi.
+ 30.632: kontiolahti.fi INFO Found SOA record for kontiolahti.fi.
+ 30.633: kontiolahti.fi INFO Begin testing host ns.jns.fi.
+ 30.945: kontiolahti.fi INFO Begin testing address 193.65.112.97.
+ 31.245: kontiolahti.fi INFO Done testing address 193.65.112.97.
+ 31.245: kontiolahti.fi INFO Done testing host ns.jns.fi.
+ 31.245: kontiolahti.fi INFO SOA MNAME for kontiolahti.fi valid (ns.jns.fi).
+ 31.268: kontiolahti.fi INFO SOA MNAME for kontiolahti.fi (ns.jns.fi) listed as NS.
+ 31.552: kontiolahti.fi INFO SOA MNAME for kontiolahti.fi (ns.jns.fi) is authoritative.
+ 31.552: kontiolahti.fi INFO Begin testing email address hostmaster@jns.fi.
+ 31.812: kontiolahti.fi INFO Mail exchangers for hostmaster@jns.fi found mail4.pohjoiskarjala.net,mail3.pohjoiskarjala.net.
+ 31.831: kontiolahti.fi INFO Begin testing host mail4.pohjoiskarjala.net.
+ 32.640: kontiolahti.fi INFO Begin testing address 62.148.100.54.
+ 33.416: kontiolahti.fi INFO Done testing address 62.148.100.54.
+ 33.416: kontiolahti.fi INFO Done testing host mail4.pohjoiskarjala.net.
+ 33.676: kontiolahti.fi INFO Begin testing host mail3.pohjoiskarjala.net.
+ 34.222: kontiolahti.fi INFO Begin testing address 62.148.100.52.
+ 34.763: kontiolahti.fi INFO Done testing address 62.148.100.52.
+ 34.764: kontiolahti.fi INFO Done testing host mail3.pohjoiskarjala.net.
+ 35.016: kontiolahti.fi INFO Done testing email address hostmaster@jns.fi.
+ 35.016: kontiolahti.fi INFO Successful attempt to deliver email for SOA RNAME of kontiolahti.fi (hostmaster.jns.fi) using hostmaster@jns.fi.
+ 35.016: kontiolahti.fi INFO SOA TTL for kontiolahti.fi OK (86400) - recommended >= 3600.
+ 35.016: kontiolahti.fi INFO SOA refresh for kontiolahti.fi OK (28800) - recommended >= 14400.
+ 35.022: kontiolahti.fi INFO SOA retry for kontiolahti.fi OK (7200) - recommended >= 3600.
+ 35.023: kontiolahti.fi INFO SOA expire for kontiolahti.fi OK (604800) - recommended >= 604800.
+ 35.023: kontiolahti.fi INFO SOA minimum for kontiolahti.fi OK (86400) - recommended between 300 and 86400.
+ 35.023: kontiolahti.fi INFO Done testing SOA parameters for kontiolahti.fi.
+ 35.023: kontiolahti.fi INFO Begin testing connectivity for kontiolahti.fi.
+ 36.074: kontiolahti.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 36.074: kontiolahti.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 36.074: kontiolahti.fi INFO Done testing connectivity for kontiolahti.fi.
+ 36.075: kontiolahti.fi INFO Begin testing DNSSEC for kontiolahti.fi.
+ 36.111: kontiolahti.fi INFO Did not find DS record for kontiolahti.fi at parent.
+ 36.235: kontiolahti.fi INFO Servers for kontiolahti.fi have consistent extra processing status.
+ 36.296: kontiolahti.fi INFO Authenticated denial records not found for kontiolahti.fi.
+ 36.322: kontiolahti.fi INFO Did not find DNSKEY record for kontiolahti.fi at child.
+ 36.322: kontiolahti.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 36.322: kontiolahti.fi INFO Done testing DNSSEC for kontiolahti.fi.
+ 36.323: kontiolahti.fi INFO Test completed for zone kontiolahti.fi.

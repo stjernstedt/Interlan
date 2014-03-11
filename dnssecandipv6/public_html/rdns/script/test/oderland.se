@@ -1,0 +1,96 @@
+  0.000: oderland.se INFO Begin testing zone oderland.se with version 1.5.0.
+  0.001: oderland.se INFO Begin testing delegation for oderland.se.
+ 14.203: oderland.se INFO Name servers listed at parent: dns1.oderland.com,dns2.oderland.com,dns3.oderland.com
+ 18.696: oderland.se INFO Name servers listed at child: dns1.oderland.com,dns2.oderland.com,dns3.oderland.com
+ 18.697: oderland.se NOTICE No IPv6 name servers found.
+ 21.457: oderland.se INFO It is possible to build a referral packet for oderland.se that works without EDNS0.
+ 21.457: oderland.se INFO Done testing delegation for oderland.se.
+ 21.458: oderland.se INFO Begin testing name server dns1.oderland.com.
+ 21.458: oderland.se INFO Begin testing host dns1.oderland.com.
+ 22.075: oderland.se INFO Begin testing address 91.201.61.4.
+ 32.145: oderland.se INFO Done testing address 91.201.61.4.
+ 32.146: oderland.se INFO Done testing host dns1.oderland.com.
+ 32.701: oderland.se INFO Name server dns1.oderland.com (91.201.61.4) answers queries over UDP.
+ 32.767: oderland.se INFO Name server dns1.oderland.com (91.201.61.4) answers queries over TCP.
+ 32.821: oderland.se INFO Name server dns1.oderland.com (91.201.61.4) is not recursive.
+ 33.057: oderland.se INFO Name server dns1.oderland.com (91.201.61.4) authoritative for oderland.se.
+ 33.125: oderland.se INFO Name server dns1.oderland.com (91.201.61.4) closed for zone transfer of oderland.se.
+ 33.163: oderland.se INFO Legacy name server ID for dns1.oderland.com (91.201.61.4): hostname.bind = dns1.oderland.com
+ 33.181: oderland.se INFO Legacy name server ID for dns1.oderland.com (91.201.61.4): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 33.225: oderland.se NOTICE No answer received from 91.201.61.4 when querying for version.server/CH/TXT.
+ 33.225: oderland.se INFO Done testing name server dns1.oderland.com.
+ 33.225: oderland.se INFO Begin testing name server dns2.oderland.com.
+ 33.225: oderland.se INFO Begin testing host dns2.oderland.com.
+ 33.775: oderland.se INFO Begin testing address 91.201.63.191.
+ 35.054: oderland.se INFO Done testing address 91.201.63.191.
+ 35.055: oderland.se INFO Done testing host dns2.oderland.com.
+ 35.472: oderland.se INFO Name server dns2.oderland.com (91.201.63.191) answers queries over UDP.
+ 35.509: oderland.se INFO Name server dns2.oderland.com (91.201.63.191) answers queries over TCP.
+ 35.556: oderland.se INFO Name server dns2.oderland.com (91.201.63.191) is not recursive.
+ 35.712: oderland.se INFO Name server dns2.oderland.com (91.201.63.191) authoritative for oderland.se.
+ 35.759: oderland.se INFO Name server dns2.oderland.com (91.201.63.191) closed for zone transfer of oderland.se.
+ 35.784: oderland.se INFO Legacy name server ID for dns2.oderland.com (91.201.63.191): hostname.bind = dns2.oderland.com
+ 35.803: oderland.se INFO Legacy name server ID for dns2.oderland.com (91.201.63.191): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 35.844: oderland.se NOTICE No answer received from 91.201.63.191 when querying for version.server/CH/TXT.
+ 35.845: oderland.se INFO Done testing name server dns2.oderland.com.
+ 35.845: oderland.se INFO Begin testing name server dns3.oderland.com.
+ 35.845: oderland.se INFO Begin testing host dns3.oderland.com.
+ 36.358: oderland.se INFO Begin testing address 109.123.105.78.
+ 39.166: oderland.se INFO Done testing address 109.123.105.78.
+ 39.166: oderland.se INFO Done testing host dns3.oderland.com.
+ 39.786: oderland.se INFO Name server dns3.oderland.com (109.123.105.78) answers queries over UDP.
+ 39.888: oderland.se INFO Name server dns3.oderland.com (109.123.105.78) answers queries over TCP.
+ 39.937: oderland.se INFO Name server dns3.oderland.com (109.123.105.78) is not recursive.
+ 40.135: oderland.se INFO Name server dns3.oderland.com (109.123.105.78) authoritative for oderland.se.
+ 40.263: oderland.se INFO Name server dns3.oderland.com (109.123.105.78) closed for zone transfer of oderland.se.
+ 40.311: oderland.se INFO Legacy name server ID for dns3.oderland.com (109.123.105.78): hostname.bind = dns3.oderland.com
+ 40.356: oderland.se INFO Legacy name server ID for dns3.oderland.com (109.123.105.78): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 40.451: oderland.se NOTICE No answer received from 109.123.105.78 when querying for version.server/CH/TXT.
+ 40.451: oderland.se INFO Done testing name server dns3.oderland.com.
+ 40.451: oderland.se INFO Begin testing zone consistency for oderland.se.
+ 44.090: oderland.se INFO SOA at address 109.123.105.78 has serial 2013061101.
+ 44.113: oderland.se INFO SOA at address 91.201.61.4 has serial 2013061101.
+ 44.138: oderland.se INFO SOA at address 91.201.63.191 has serial 2013061101.
+ 44.139: oderland.se INFO All SOA records have consistent serial numbers.
+ 44.139: oderland.se INFO All other fields in the SOA record are consistent among all name servers.
+ 45.746: oderland.se NOTICE The listed nameservers for oderland.se all report the same set of nameservers.
+ 45.746: oderland.se INFO Done testing zone consistency for oderland.se.
+ 45.746: oderland.se INFO Begin testing SOA parameters for oderland.se.
+ 45.841: oderland.se INFO Found SOA record for oderland.se.
+ 45.841: oderland.se INFO Begin testing host dns1.oderland.com.
+ 46.689: oderland.se INFO Begin testing address 91.201.61.4.
+ 47.309: oderland.se INFO Done testing address 91.201.61.4.
+ 47.309: oderland.se INFO Done testing host dns1.oderland.com.
+ 47.309: oderland.se INFO SOA MNAME for oderland.se valid (dns1.oderland.com).
+ 47.311: oderland.se INFO SOA MNAME for oderland.se (dns1.oderland.com) listed as NS.
+ 48.078: oderland.se INFO SOA MNAME for oderland.se (dns1.oderland.com) is authoritative.
+ 48.078: oderland.se INFO Begin testing email address registry@oderland.se.
+ 48.462: oderland.se INFO Mail exchangers for registry@oderland.se found vsp01.oderland.com,vsp02.oderland.com.
+ 48.463: oderland.se INFO Begin testing host vsp01.oderland.com.
+ 49.504: oderland.se INFO Begin testing address 91.201.63.252.
+ 52.157: oderland.se INFO Done testing address 91.201.63.252.
+ 52.157: oderland.se INFO Done testing host vsp01.oderland.com.
+ 52.533: oderland.se INFO Begin testing host vsp02.oderland.com.
+ 53.647: oderland.se INFO Begin testing address 91.201.63.250.
+ 55.123: oderland.se INFO Done testing address 91.201.63.250.
+ 55.123: oderland.se INFO Done testing host vsp02.oderland.com.
+ 55.814: oderland.se INFO Done testing email address registry@oderland.se.
+ 55.814: oderland.se INFO Successful attempt to deliver email for SOA RNAME of oderland.se (registry.oderland.se) using registry@oderland.se.
+ 55.815: oderland.se INFO SOA TTL for oderland.se OK (86400) - recommended >= 3600.
+ 55.815: oderland.se INFO SOA refresh for oderland.se OK (86400) - recommended >= 14400.
+ 55.815: oderland.se INFO SOA retry for oderland.se OK (7200) - recommended >= 3600.
+ 55.815: oderland.se INFO SOA expire for oderland.se OK (3600000) - recommended >= 604800.
+ 55.815: oderland.se INFO SOA minimum for oderland.se OK (86400) - recommended between 300 and 86400.
+ 55.816: oderland.se INFO Done testing SOA parameters for oderland.se.
+ 55.816: oderland.se INFO Begin testing connectivity for oderland.se.
+ 58.247: oderland.se INFO Zone announced by more than one ASN.
+ 58.251: oderland.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 58.251: oderland.se INFO Done testing connectivity for oderland.se.
+ 58.251: oderland.se INFO Begin testing DNSSEC for oderland.se.
+ 58.308: oderland.se INFO Did not find DS record for oderland.se at parent.
+ 58.502: oderland.se INFO Servers for oderland.se have consistent extra processing status.
+ 58.537: oderland.se INFO Authenticated denial records not found for oderland.se.
+ 58.569: oderland.se INFO Did not find DNSKEY record for oderland.se at child.
+ 58.569: oderland.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 58.569: oderland.se INFO Done testing DNSSEC for oderland.se.
+ 58.570: oderland.se INFO Test completed for zone oderland.se.

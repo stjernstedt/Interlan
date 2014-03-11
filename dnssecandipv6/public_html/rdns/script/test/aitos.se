@@ -1,0 +1,101 @@
+  0.000: aitos.se INFO Begin testing zone aitos.se with version 1.5.0.
+  0.001: aitos.se INFO Begin testing delegation for aitos.se.
+ 20.264: aitos.se INFO Name servers listed at parent: ns.svip.net,ns3.svip.net
+ 72.873: aitos.se INFO Name servers listed at child: ns.svip.net,ns2.svip.net,ns3.svip.net,ns4.svip.net
+ 72.873: aitos.se NOTICE Additional name server listed at child: ns2.svip.net
+ 72.873: aitos.se NOTICE Additional name server listed at child: ns4.svip.net
+ 72.873: aitos.se NOTICE No IPv6 name servers found.
+ 94.200: aitos.se INFO It is possible to build a referral packet for aitos.se that works without EDNS0.
+ 94.200: aitos.se INFO Done testing delegation for aitos.se.
+ 94.201: aitos.se INFO Begin testing name server ns.svip.net.
+ 94.201: aitos.se INFO Begin testing host ns.svip.net.
+100.691: aitos.se INFO Begin testing address 93.158.117.139.
+118.230: aitos.se INFO Done testing address 93.158.117.139.
+118.230: aitos.se INFO Done testing host ns.svip.net.
+124.479: aitos.se INFO Name server ns.svip.net (93.158.117.139) answers queries over UDP.
+124.508: aitos.se INFO Name server ns.svip.net (93.158.117.139) answers queries over TCP.
+124.524: aitos.se INFO Name server ns.svip.net (93.158.117.139) is not recursive.
+124.592: aitos.se INFO Name server ns.svip.net (93.158.117.139) authoritative for aitos.se.
+124.628: aitos.se INFO Name server ns.svip.net (93.158.117.139) closed for zone transfer of aitos.se.
+124.664: aitos.se INFO Legacy name server ID for ns.svip.net (93.158.117.139): hostname.bind = stw3
+124.708: aitos.se INFO Legacy name server ID for ns.svip.net (93.158.117.139): version.bind = 9.5.1-P3
+124.795: aitos.se NOTICE No answer received from 93.158.117.139 when querying for version.server/CH/TXT.
+124.796: aitos.se INFO Done testing name server ns.svip.net.
+124.796: aitos.se INFO Begin testing name server ns2.svip.net.
+124.796: aitos.se INFO Begin testing host ns2.svip.net.
+131.290: aitos.se INFO Begin testing address 109.75.176.114.
+138.988: aitos.se INFO Done testing address 109.75.176.114.
+138.988: aitos.se INFO Done testing host ns2.svip.net.
+145.501: aitos.se INFO Name server ns2.svip.net (109.75.176.114) answers queries over UDP.
+145.646: aitos.se INFO Name server ns2.svip.net (109.75.176.114) answers queries over TCP.
+145.750: aitos.se INFO Name server ns2.svip.net (109.75.176.114) is not recursive.
+146.108: aitos.se INFO Name server ns2.svip.net (109.75.176.114) authoritative for aitos.se.
+146.267: aitos.se NOTICE Name server ns2.svip.net (109.75.176.114) open for zone transfer of aitos.se.
+146.316: aitos.se INFO Legacy name server ID for ns2.svip.net (109.75.176.114): hostname.bind = ns2.svip.net
+146.404: aitos.se INFO Legacy name server ID for ns2.svip.net (109.75.176.114): version.bind = 9.7.3
+146.562: aitos.se NOTICE No answer received from 109.75.176.114 when querying for version.server/CH/TXT.
+146.562: aitos.se INFO Done testing name server ns2.svip.net.
+146.562: aitos.se INFO Begin testing name server ns3.svip.net.
+146.562: aitos.se INFO Begin testing host ns3.svip.net.
+153.168: aitos.se INFO Begin testing address 93.158.117.141.
+161.497: aitos.se INFO Done testing address 93.158.117.141.
+161.497: aitos.se INFO Done testing host ns3.svip.net.
+167.889: aitos.se INFO Name server ns3.svip.net (93.158.117.141) answers queries over UDP.
+167.964: aitos.se INFO Name server ns3.svip.net (93.158.117.141) answers queries over TCP.
+168.067: aitos.se INFO Name server ns3.svip.net (93.158.117.141) is not recursive.
+168.259: aitos.se INFO Name server ns3.svip.net (93.158.117.141) authoritative for aitos.se.
+168.294: aitos.se INFO Name server ns3.svip.net (93.158.117.141) closed for zone transfer of aitos.se.
+168.328: aitos.se INFO Legacy name server ID for ns3.svip.net (93.158.117.141): hostname.bind = stw4
+168.415: aitos.se INFO Legacy name server ID for ns3.svip.net (93.158.117.141): version.bind = 9.6-ESV-R1
+168.520: aitos.se NOTICE No answer received from 93.158.117.141 when querying for version.server/CH/TXT.
+168.520: aitos.se INFO Done testing name server ns3.svip.net.
+168.520: aitos.se INFO Begin testing name server ns4.svip.net.
+168.520: aitos.se INFO Begin testing host ns4.svip.net.
+168.520: aitos.se ERROR No address found for ns4.svip.net.
+168.520: aitos.se INFO Done testing host ns4.svip.net.
+168.521: aitos.se ERROR Host name or address error for ns4.svip.net.
+168.521: aitos.se INFO Done testing name server ns4.svip.net.
+168.521: aitos.se INFO Begin testing zone consistency for aitos.se.
+201.363: aitos.se INFO SOA at address 109.75.176.114 has serial 2010041354.
+201.370: aitos.se INFO SOA at address 93.158.117.139 has serial 2010041354.
+201.391: aitos.se INFO SOA at address 93.158.117.141 has serial 2010041354.
+201.392: aitos.se INFO All SOA records have consistent serial numbers.
+201.392: aitos.se INFO All other fields in the SOA record are consistent among all name servers.
+214.532: aitos.se NOTICE The listed nameservers for aitos.se all report the same set of nameservers.
+214.533: aitos.se INFO Done testing zone consistency for aitos.se.
+214.533: aitos.se INFO Begin testing SOA parameters for aitos.se.
+214.569: aitos.se INFO Found SOA record for aitos.se.
+214.569: aitos.se INFO Begin testing host ns.svip.net.
+220.955: aitos.se INFO Begin testing address 93.158.117.139.
+227.584: aitos.se INFO Done testing address 93.158.117.139.
+227.585: aitos.se INFO Done testing host ns.svip.net.
+227.585: aitos.se INFO SOA MNAME for aitos.se valid (ns.svip.net).
+227.585: aitos.se INFO SOA MNAME for aitos.se (ns.svip.net) listed as NS.
+234.224: aitos.se INFO SOA MNAME for aitos.se (ns.svip.net) is authoritative.
+234.225: aitos.se INFO Begin testing email address hostmaster@svip.net.
+240.973: aitos.se INFO Mail exchangers for hostmaster@svip.net found stmail1.svip.net.
+240.973: aitos.se INFO Begin testing host stmail1.svip.net.
+254.224: aitos.se INFO Begin testing address 93.158.117.140.
+261.887: aitos.se INFO Done testing address 93.158.117.140.
+261.887: aitos.se INFO Done testing host stmail1.svip.net.
+268.291: aitos.se INFO Done testing email address hostmaster@svip.net.
+268.291: aitos.se INFO Successful attempt to deliver email for SOA RNAME of aitos.se (hostmaster.svip.net) using hostmaster@svip.net.
+268.291: aitos.se INFO SOA TTL for aitos.se OK (3600) - recommended >= 3600.
+268.291: aitos.se NOTICE SOA refresh for aitos.se too small (3600) - recommended >= 14400.
+268.291: aitos.se NOTICE SOA refresh for aitos.se lower than retry (3600 vs 3600).
+268.291: aitos.se INFO SOA retry for aitos.se OK (3600) - recommended >= 3600.
+268.292: aitos.se NOTICE SOA expire for aitos.se too small (360000) - recommended >= 604800.
+268.292: aitos.se INFO SOA minimum for aitos.se OK (600) - recommended between 300 and 86400.
+268.292: aitos.se INFO Done testing SOA parameters for aitos.se.
+268.292: aitos.se INFO Begin testing connectivity for aitos.se.
+270.571: aitos.se INFO Zone announced by more than one ASN.
+270.575: aitos.se NOTICE Zone announced by fewer than two IPv6 ASN.
+270.575: aitos.se INFO Done testing connectivity for aitos.se.
+270.576: aitos.se INFO Begin testing DNSSEC for aitos.se.
+270.687: aitos.se INFO Did not find DS record for aitos.se at parent.
+270.799: aitos.se INFO Servers for aitos.se have consistent extra processing status.
+270.870: aitos.se INFO Authenticated denial records not found for aitos.se.
+270.917: aitos.se INFO Did not find DNSKEY record for aitos.se at child.
+270.917: aitos.se INFO No DNSKEY(s) found at child, other tests skipped.
+270.918: aitos.se INFO Done testing DNSSEC for aitos.se.
+270.919: aitos.se INFO Test completed for zone aitos.se.

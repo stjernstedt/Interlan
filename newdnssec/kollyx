@@ -1,0 +1,3 @@
+for i in `ls ` ; do
+	echo $i , `cat $i/*|grep ERROR|wc -l` , `cat $i/*|grep WARN|wc -l`
+done

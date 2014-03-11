@@ -1,0 +1,105 @@
+  0.000: malax.fi INFO Begin testing zone malax.fi with version 1.6.1.
+  0.400: malax.fi INFO Begin testing delegation for malax.fi.
+  8.485: malax.fi INFO Name servers listed at parent: ns.bob.fi,ns2.bob.fi,ns3.bob.fi
+ 11.217: malax.fi INFO Name servers listed at child: ns.bob.fi,ns2.bob.fi,ns3.bob.fi
+ 11.218: malax.fi NOTICE No IPv6 name servers found.
+ 11.288: malax.fi INFO Parent glue for malax.fi found: ns.bob.fi (81.209.35.4)
+ 11.452: malax.fi INFO Parent glue for malax.fi found: ns2.bob.fi (81.209.35.6)
+ 11.594: malax.fi INFO Parent glue for malax.fi found: ns3.bob.fi (81.209.35.19)
+ 11.645: malax.fi INFO Checking glue for ns.bob.fi (81.209.35.4).
+ 11.645: malax.fi INFO Checking glue for ns2.bob.fi (81.209.35.6).
+ 11.645: malax.fi INFO Checking glue for ns3.bob.fi (81.209.35.19).
+ 11.646: malax.fi INFO Parent glue for malax.fi found: ns.bob.fi (81.209.35.4)
+ 11.646: malax.fi INFO Parent glue for malax.fi found: ns2.bob.fi (81.209.35.6)
+ 11.646: malax.fi INFO Parent glue for malax.fi found: ns3.bob.fi (81.209.35.19)
+ 13.133: malax.fi INFO It is possible to build a referral packet for malax.fi that works without EDNS0.
+ 14.143: malax.fi INFO Previously used name servers for malax.fi: 
+ 14.143: malax.fi INFO Done testing delegation for malax.fi.
+ 14.143: malax.fi INFO Begin testing name server ns.bob.fi.
+ 14.143: malax.fi INFO Begin testing host ns.bob.fi.
+ 14.426: malax.fi INFO Begin testing address 81.209.35.4.
+ 25.175: malax.fi INFO Done testing address 81.209.35.4.
+ 25.175: malax.fi INFO Done testing host ns.bob.fi.
+ 25.530: malax.fi INFO Name server ns.bob.fi (81.209.35.4) answers queries over UDP.
+ 25.607: malax.fi INFO Name server ns.bob.fi (81.209.35.4) answers queries over TCP.
+ 25.656: malax.fi INFO Name server ns.bob.fi (81.209.35.4) is not recursive.
+ 25.807: malax.fi INFO Name server ns.bob.fi (81.209.35.4) authoritative for malax.fi.
+ 25.860: malax.fi INFO Name server ns.bob.fi (81.209.35.4) closed for zone transfer of malax.fi.
+ 25.900: malax.fi NOTICE No answer received from 81.209.35.4 when querying for hostname.bind/CH/TXT.
+ 25.948: malax.fi NOTICE No answer received from 81.209.35.4 when querying for version.bind/CH/TXT.
+ 25.987: malax.fi NOTICE No answer received from 81.209.35.4 when querying for id.server/CH/TXT.
+ 26.007: malax.fi NOTICE No answer received from 81.209.35.4 when querying for version.server/CH/TXT.
+ 26.007: malax.fi INFO Done testing name server ns.bob.fi.
+ 26.007: malax.fi INFO Begin testing name server ns2.bob.fi.
+ 26.007: malax.fi INFO Begin testing host ns2.bob.fi.
+ 26.397: malax.fi INFO Begin testing address 81.209.35.6.
+ 28.311: malax.fi INFO Done testing address 81.209.35.6.
+ 28.311: malax.fi INFO Done testing host ns2.bob.fi.
+ 28.760: malax.fi INFO Name server ns2.bob.fi (81.209.35.6) answers queries over UDP.
+ 28.819: malax.fi INFO Name server ns2.bob.fi (81.209.35.6) answers queries over TCP.
+ 28.879: malax.fi INFO Name server ns2.bob.fi (81.209.35.6) is not recursive.
+ 29.029: malax.fi INFO Name server ns2.bob.fi (81.209.35.6) authoritative for malax.fi.
+ 29.087: malax.fi INFO Name server ns2.bob.fi (81.209.35.6) closed for zone transfer of malax.fi.
+ 29.110: malax.fi NOTICE No answer received from 81.209.35.6 when querying for hostname.bind/CH/TXT.
+ 29.158: malax.fi NOTICE No answer received from 81.209.35.6 when querying for version.bind/CH/TXT.
+ 29.210: malax.fi NOTICE No answer received from 81.209.35.6 when querying for id.server/CH/TXT.
+ 29.247: malax.fi NOTICE No answer received from 81.209.35.6 when querying for version.server/CH/TXT.
+ 29.247: malax.fi INFO Done testing name server ns2.bob.fi.
+ 29.247: malax.fi INFO Begin testing name server ns3.bob.fi.
+ 29.247: malax.fi INFO Begin testing host ns3.bob.fi.
+ 29.539: malax.fi INFO Begin testing address 81.209.35.19.
+ 30.355: malax.fi INFO Done testing address 81.209.35.19.
+ 30.356: malax.fi INFO Done testing host ns3.bob.fi.
+ 30.622: malax.fi INFO Name server ns3.bob.fi (81.209.35.19) answers queries over UDP.
+ 30.661: malax.fi INFO Name server ns3.bob.fi (81.209.35.19) answers queries over TCP.
+ 30.728: malax.fi INFO Name server ns3.bob.fi (81.209.35.19) is not recursive.
+ 30.852: malax.fi INFO Name server ns3.bob.fi (81.209.35.19) authoritative for malax.fi.
+ 30.917: malax.fi INFO Name server ns3.bob.fi (81.209.35.19) closed for zone transfer of malax.fi.
+ 30.964: malax.fi NOTICE No answer received from 81.209.35.19 when querying for hostname.bind/CH/TXT.
+ 30.987: malax.fi NOTICE No answer received from 81.209.35.19 when querying for version.bind/CH/TXT.
+ 31.006: malax.fi NOTICE No answer received from 81.209.35.19 when querying for id.server/CH/TXT.
+ 31.042: malax.fi NOTICE No answer received from 81.209.35.19 when querying for version.server/CH/TXT.
+ 31.043: malax.fi INFO Done testing name server ns3.bob.fi.
+ 31.043: malax.fi INFO Begin testing zone consistency for malax.fi.
+ 32.590: malax.fi INFO SOA at address 81.209.35.19 has serial 2014010702.
+ 32.620: malax.fi INFO SOA at address 81.209.35.6 has serial 2014010702.
+ 32.648: malax.fi INFO SOA at address 81.209.35.4 has serial 2014010702.
+ 32.648: malax.fi INFO All SOA records have consistent serial numbers.
+ 32.648: malax.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 33.399: malax.fi NOTICE The listed nameservers for malax.fi all report the same set of nameservers.
+ 33.399: malax.fi INFO Done testing zone consistency for malax.fi.
+ 33.399: malax.fi INFO Begin testing SOA parameters for malax.fi.
+ 33.439: malax.fi INFO Found SOA record for malax.fi.
+ 33.439: malax.fi INFO Begin testing host ns.bob.fi.
+ 33.627: malax.fi INFO Begin testing address 81.209.35.4.
+ 33.628: malax.fi INFO Done testing address 81.209.35.4.
+ 33.628: malax.fi INFO Done testing host ns.bob.fi.
+ 33.628: malax.fi INFO SOA MNAME for malax.fi valid (ns.bob.fi).
+ 33.628: malax.fi INFO SOA MNAME for malax.fi (ns.bob.fi) listed as NS.
+ 33.820: malax.fi INFO SOA MNAME for malax.fi (ns.bob.fi) is authoritative.
+ 33.820: malax.fi INFO Begin testing email address named@mail.bob.fi.
+ 33.984: malax.fi INFO Mail exchangers for named@mail.bob.fi found mxtreme2.bob.fi.
+ 33.984: malax.fi INFO Begin testing host mxtreme2.bob.fi.
+ 34.227: malax.fi INFO Begin testing address 81.209.35.121.
+ 34.586: malax.fi INFO Done testing address 81.209.35.121.
+ 34.586: malax.fi INFO Done testing host mxtreme2.bob.fi.
+ 34.729: malax.fi INFO Done testing email address named@mail.bob.fi.
+ 34.729: malax.fi INFO Successful attempt to deliver email for SOA RNAME of malax.fi (named.mail.bob.fi) using named@mail.bob.fi.
+ 34.729: malax.fi NOTICE SOA TTL for malax.fi too small (60) - recommended >= 3600.
+ 34.729: malax.fi INFO SOA refresh for malax.fi OK (28800) - recommended >= 14400.
+ 34.730: malax.fi INFO SOA retry for malax.fi OK (7200) - recommended >= 3600.
+ 34.730: malax.fi INFO SOA expire for malax.fi OK (2419200) - recommended >= 604800.
+ 34.730: malax.fi INFO SOA minimum for malax.fi OK (86400) - recommended between 300 and 86400.
+ 34.730: malax.fi INFO Done testing SOA parameters for malax.fi.
+ 34.730: malax.fi INFO Begin testing connectivity for malax.fi.
+ 36.100: malax.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 36.100: malax.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 36.100: malax.fi INFO Done testing connectivity for malax.fi.
+ 36.101: malax.fi INFO Begin testing DNSSEC for malax.fi.
+ 36.148: malax.fi INFO Did not find DS record for malax.fi at parent.
+ 36.280: malax.fi INFO Servers for malax.fi have consistent extra processing status.
+ 36.319: malax.fi INFO Authenticated denial records not found for malax.fi.
+ 36.339: malax.fi INFO Did not find DNSKEY record for malax.fi at child.
+ 36.339: malax.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 36.339: malax.fi INFO Done testing DNSSEC for malax.fi.
+ 36.340: malax.fi INFO Test completed for zone malax.fi.

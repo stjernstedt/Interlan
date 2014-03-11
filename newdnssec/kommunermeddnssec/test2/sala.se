@@ -1,0 +1,85 @@
+  0.000: sala.se INFO Begin testing zone sala.se with version 1.2.
+  0.000: sala.se INFO Begin testing delegation for sala.se.
+  5.167: sala.se INFO Name servers listed at parent: iis.sala.se
+  6.339: sala.se INFO Name servers listed at child: iis.sala.se,sala.se
+  6.340: sala.se ERROR Too few name servers (1).
+  6.340: sala.se NOTICE Additional name server listed at child: sala.se
+  6.340: sala.se ERROR Too few IPv4 name servers (1).
+  6.340: sala.se NOTICE No IPv6 name servers found.
+  6.358: sala.se INFO Parent glue for sala.se found: iis.sala.se (193.180.253.100)
+  6.377: sala.se INFO Checking glue for iis.sala.se (193.180.253.100).
+  6.387: sala.se INFO Child glue for sala.se found: iis.sala.se (193.180.253.100)
+  6.388: sala.se INFO Parent glue for sala.se found: iis.sala.se (193.180.253.100)
+  6.388: sala.se INFO Done testing delegation for sala.se.
+  6.389: sala.se INFO Begin testing name server iis.sala.se.
+  6.389: sala.se INFO Begin testing host iis.sala.se.
+  6.389: sala.se INFO Begin testing address 193.180.253.100.
+ 14.627: sala.se INFO Done testing address 193.180.253.100.
+ 14.627: sala.se INFO Done testing host iis.sala.se.
+ 14.637: sala.se INFO Name server iis.sala.se (193.180.253.100) answers queries over UDP.
+ 14.653: sala.se INFO Name server iis.sala.se (193.180.253.100) answers queries over TCP.
+ 14.907: sala.se INFO Name server iis.sala.se (193.180.253.100) is not recursive.
+ 14.918: sala.se INFO Name server iis.sala.se (193.180.253.100) authoritative for sala.se.
+ 15.139: sala.se INFO Name server iis.sala.se (193.180.253.100) closed for zone transfer of sala.se.
+ 15.148: sala.se NOTICE No answer received from 193.180.253.100 when querying for hostname.bind/CH/TXT.
+ 33.171: sala.se INFO Done testing name server iis.sala.se.
+ 33.172: sala.se INFO Begin testing name server sala.se.
+ 33.172: sala.se INFO Begin testing host sala.se.
+ 33.172: sala.se INFO Begin testing address 193.180.253.100.
+ 33.174: sala.se INFO Done testing address 193.180.253.100.
+ 33.174: sala.se INFO Done testing host sala.se.
+ 33.185: sala.se INFO Name server sala.se (193.180.253.100) answers queries over UDP.
+ 33.201: sala.se INFO Name server sala.se (193.180.253.100) answers queries over TCP.
+ 33.405: sala.se INFO Name server sala.se (193.180.253.100) is not recursive.
+ 33.415: sala.se INFO Name server sala.se (193.180.253.100) authoritative for sala.se.
+ 33.639: sala.se INFO Name server sala.se (193.180.253.100) closed for zone transfer of sala.se.
+ 39.643: sala.se INFO Done testing name server sala.se.
+ 39.643: sala.se INFO Begin testing zone consistency for sala.se.
+ 39.656: sala.se INFO SOA at address 193.180.253.100 has serial 2000101305.
+ 39.656: sala.se INFO All SOA records have consistent serial numbers.
+ 39.656: sala.se INFO All SOA records are consistent among all name servers.
+ 39.656: sala.se INFO Done testing zone consistency for sala.se.
+ 39.657: sala.se INFO Begin testing SOA parameters for sala.se.
+ 39.667: sala.se INFO Found SOA record for sala.se.
+ 39.667: sala.se INFO Begin testing host iis.sala.se.
+ 39.667: sala.se INFO Begin testing address 193.180.253.100.
+ 39.669: sala.se INFO Done testing address 193.180.253.100.
+ 39.669: sala.se INFO Done testing host iis.sala.se.
+ 39.669: sala.se INFO SOA MNAME for sala.se valid (iis.sala.se).
+ 39.669: sala.se INFO SOA MNAME for sala.se (iis.sala.se) listed as NS.
+ 39.679: sala.se INFO SOA MNAME for sala.se (iis.sala.se) is authoritative.
+ 39.679: sala.se INFO Begin testing email address webmaster@sala.se.
+ 39.923: sala.se INFO Mail exchangers for webmaster@sala.se found edge.sala.se.
+ 39.923: sala.se INFO All mail servers for webmaster@sala.se are in zone sala.se.
+ 39.923: sala.se INFO Begin testing host edge.sala.se.
+ 40.375: sala.se INFO Begin testing address 193.180.253.97.
+ 40.669: sala.se INFO Done testing address 193.180.253.97.
+ 40.669: sala.se INFO Done testing host edge.sala.se.
+ 40.669: sala.se INFO Begin testing mail server edge.sala.se (193.180.253.97) with webmaster@sala.se.
+ 40.689: sala.se INFO SMTP banner: Welcome to Sala municipal government mail gateway. Be nice!
+ 45.866: sala.se INFO SMTP testing of edge.sala.se (193.180.253.97) with webmaster@sala.se succeeded without errors.
+ 45.866: sala.se INFO Done testing mail server edge.sala.se (193.180.253.97) with webmaster@sala.se.
+ 45.866: sala.se INFO Delivery over IPv4 to webmaster@sala.se ok.
+ 45.866: sala.se INFO Delivery over IPv6 to webmaster@sala.se could not be done.
+ 45.866: sala.se INFO Done testing email address webmaster@sala.se.
+ 45.866: sala.se INFO Successful attempt to deliver email for SOA RNAME of sala.se (webmaster.sala.se) using webmaster@sala.se.
+ 45.866: sala.se INFO SOA TTL for sala.se OK (3600) - recommended >= 3600.
+ 45.866: sala.se INFO SOA refresh for sala.se OK (14400) - recommended >= 14400.
+ 45.866: sala.se INFO SOA retry for sala.se OK (3600) - recommended >= 3600.
+ 45.866: sala.se INFO SOA expire for sala.se OK (604800) - recommended >= 604800.
+ 45.867: sala.se INFO SOA minimum for sala.se OK (86400) - recommended between 300 and 86400.
+ 45.867: sala.se INFO Done testing SOA parameters for sala.se.
+ 45.867: sala.se INFO Begin testing connectivity for sala.se.
+ 46.465: sala.se INFO Name server 193.180.253.100 announced by: 13189
+ 46.465: sala.se INFO Zone announced by IPv4 ASN: 13189
+ 46.465: sala.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 46.465: sala.se INFO Zone announced by IPv6 ASN: 
+ 46.465: sala.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 46.465: sala.se INFO Done testing connectivity for sala.se.
+ 46.466: sala.se INFO Begin testing DNSSEC for sala.se.
+ 46.576: sala.se INFO Did not find DS record for sala.se at parent.
+ 46.593: sala.se INFO Servers for sala.se have consistent extra processing status.
+ 46.593: sala.se INFO Did not find DNSKEY record for sala.se at child.
+ 46.593: sala.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 46.593: sala.se INFO Done testing DNSSEC for sala.se.
+ 46.593: sala.se INFO Test completed for zone sala.se.

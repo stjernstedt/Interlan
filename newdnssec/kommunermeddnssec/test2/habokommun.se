@@ -1,0 +1,88 @@
+  0.000: habokommun.se INFO Begin testing zone habokommun.se with version 1.2.
+  0.000: habokommun.se INFO Begin testing delegation for habokommun.se.
+  9.643: habokommun.se INFO Name servers listed at parent: ns.habo.net,pegasus.habo.net
+ 11.075: habokommun.se INFO Name servers listed at child: ns.habo.net,pegasus.habo.net
+ 11.075: habokommun.se NOTICE No IPv6 name servers found.
+ 11.205: habokommun.se INFO Done testing delegation for habokommun.se.
+ 11.205: habokommun.se INFO Begin testing name server ns.habo.net.
+ 11.205: habokommun.se INFO Begin testing host ns.habo.net.
+ 11.205: habokommun.se INFO Begin testing address 80.244.198.5.
+ 16.240: habokommun.se INFO Done testing address 80.244.198.5.
+ 16.240: habokommun.se INFO Done testing host ns.habo.net.
+ 16.257: habokommun.se INFO Name server ns.habo.net (80.244.198.5) answers queries over UDP.
+ 16.285: habokommun.se INFO Name server ns.habo.net (80.244.198.5) answers queries over TCP.
+ 16.495: habokommun.se WARNING Name server ns.habo.net (80.244.198.5) is recursive.
+ 16.511: habokommun.se INFO Name server ns.habo.net (80.244.198.5) authoritative for habokommun.se.
+ 16.549: habokommun.se INFO Name server ns.habo.net (80.244.198.5) closed for zone transfer of habokommun.se.
+ 16.567: habokommun.se INFO Legacy name server ID for ns.habo.net (80.244.198.5): hostname.bind = ns
+ 16.582: habokommun.se INFO Legacy name server ID for ns.habo.net (80.244.198.5): version.bind = 9.6.1-P2
+ 16.611: habokommun.se NOTICE No answer received from 80.244.198.5 when querying for version.server/CH/TXT.
+ 16.611: habokommun.se INFO Done testing name server ns.habo.net.
+ 16.611: habokommun.se INFO Begin testing name server pegasus.habo.net.
+ 16.611: habokommun.se INFO Begin testing host pegasus.habo.net.
+ 16.612: habokommun.se INFO Begin testing address 80.244.198.7.
+ 16.851: habokommun.se INFO Done testing address 80.244.198.7.
+ 16.852: habokommun.se INFO Done testing host pegasus.habo.net.
+ 16.867: habokommun.se INFO Name server pegasus.habo.net (80.244.198.7) answers queries over UDP.
+ 16.895: habokommun.se INFO Name server pegasus.habo.net (80.244.198.7) answers queries over TCP.
+ 17.206: habokommun.se INFO Name server pegasus.habo.net (80.244.198.7) is not recursive.
+ 17.222: habokommun.se INFO Name server pegasus.habo.net (80.244.198.7) authoritative for habokommun.se.
+ 17.410: habokommun.se INFO Name server pegasus.habo.net (80.244.198.7) closed for zone transfer of habokommun.se.
+ 17.427: habokommun.se NOTICE No answer received from 80.244.198.7 when querying for hostname.bind/CH/TXT.
+ 35.427: habokommun.se INFO Done testing name server pegasus.habo.net.
+ 35.427: habokommun.se INFO Begin testing zone consistency for habokommun.se.
+ 35.446: habokommun.se INFO SOA at address 80.244.198.7 has serial 2010042214.
+ 35.462: habokommun.se INFO SOA at address 80.244.198.5 has serial 2010042214.
+ 35.462: habokommun.se INFO All SOA records have consistent serial numbers.
+ 35.462: habokommun.se INFO All SOA records are consistent among all name servers.
+ 35.462: habokommun.se INFO Done testing zone consistency for habokommun.se.
+ 35.462: habokommun.se INFO Begin testing SOA parameters for habokommun.se.
+ 35.477: habokommun.se INFO Found SOA record for habokommun.se.
+ 35.477: habokommun.se INFO Begin testing host ns.habo.net.
+ 35.478: habokommun.se INFO Begin testing address 80.244.198.5.
+ 35.479: habokommun.se INFO Done testing address 80.244.198.5.
+ 35.479: habokommun.se INFO Done testing host ns.habo.net.
+ 35.479: habokommun.se INFO SOA MNAME for habokommun.se valid (ns.habo.net).
+ 35.479: habokommun.se INFO SOA MNAME for habokommun.se (ns.habo.net) listed as NS.
+ 35.495: habokommun.se INFO SOA MNAME for habokommun.se (ns.habo.net) is authoritative.
+ 35.496: habokommun.se INFO Begin testing email address registry@habo.net.
+ 36.005: habokommun.se INFO Mail exchangers for registry@habo.net found mail.habo.net,pegasus.habo.net.
+ 36.005: habokommun.se INFO Begin testing host mail.habo.net.
+ 36.492: habokommun.se INFO Begin testing address 80.244.198.7.
+ 36.494: habokommun.se INFO Done testing address 80.244.198.7.
+ 36.494: habokommun.se INFO Done testing host mail.habo.net.
+ 36.494: habokommun.se INFO Begin testing mail server mail.habo.net (80.244.198.7) with registry@habo.net.
+ 36.538: habokommun.se INFO SMTP banner: habo.net ESMTP MDaemon 11.0.3; Mon, 13 Dec 2010 19:34:11 +0100
+ 56.551: habokommun.se NOTICE The mail server timed out in SMTP dialog.
+ 65.329: habokommun.se INFO SMTP testing of mail.habo.net (80.244.198.7) with registry@habo.net succeeded without errors.
+ 65.329: habokommun.se INFO Done testing mail server mail.habo.net (80.244.198.7) with registry@habo.net.
+ 65.329: habokommun.se INFO Begin testing host pegasus.habo.net.
+ 65.329: habokommun.se INFO Begin testing address 80.244.198.7.
+ 65.331: habokommun.se INFO Done testing address 80.244.198.7.
+ 65.331: habokommun.se INFO Done testing host pegasus.habo.net.
+ 65.331: habokommun.se INFO Delivery over IPv4 to registry@habo.net ok.
+ 65.331: habokommun.se INFO Delivery over IPv6 to registry@habo.net could not be done.
+ 65.331: habokommun.se INFO Done testing email address registry@habo.net.
+ 65.331: habokommun.se INFO Successful attempt to deliver email for SOA RNAME of habokommun.se (registry.habo.net) using registry@habo.net.
+ 65.332: habokommun.se INFO SOA TTL for habokommun.se OK (86400) - recommended >= 3600.
+ 65.332: habokommun.se NOTICE SOA refresh for habokommun.se too small (3600) - recommended >= 14400.
+ 65.332: habokommun.se NOTICE SOA refresh for habokommun.se lower than retry (3600 vs 3600).
+ 65.332: habokommun.se INFO SOA retry for habokommun.se OK (3600) - recommended >= 3600.
+ 65.332: habokommun.se INFO SOA expire for habokommun.se OK (604800) - recommended >= 604800.
+ 65.332: habokommun.se INFO SOA minimum for habokommun.se OK (86400) - recommended between 300 and 86400.
+ 65.332: habokommun.se INFO Done testing SOA parameters for habokommun.se.
+ 65.332: habokommun.se INFO Begin testing connectivity for habokommun.se.
+ 65.940: habokommun.se INFO Name server 80.244.198.7 announced by: 34946
+ 66.511: habokommun.se INFO Name server 80.244.198.5 announced by: 34946
+ 66.512: habokommun.se INFO Zone announced by IPv4 ASN: 34946
+ 66.512: habokommun.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 66.512: habokommun.se INFO Zone announced by IPv6 ASN: 
+ 66.512: habokommun.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 66.512: habokommun.se INFO Done testing connectivity for habokommun.se.
+ 66.512: habokommun.se INFO Begin testing DNSSEC for habokommun.se.
+ 66.546: habokommun.se INFO Did not find DS record for habokommun.se at parent.
+ 66.600: habokommun.se INFO Servers for habokommun.se have consistent extra processing status.
+ 66.600: habokommun.se INFO Did not find DNSKEY record for habokommun.se at child.
+ 66.600: habokommun.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 66.600: habokommun.se INFO Done testing DNSSEC for habokommun.se.
+ 66.600: habokommun.se INFO Test completed for zone habokommun.se.

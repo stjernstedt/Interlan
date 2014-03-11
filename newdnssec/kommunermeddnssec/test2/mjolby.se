@@ -1,0 +1,60 @@
+  0.000: mjolby.se INFO Begin testing zone mjolby.se with version 1.2.
+  0.000: mjolby.se INFO Begin testing delegation for mjolby.se.
+  5.076: mjolby.se INFO Name servers listed at parent: ns.mjolby.se
+  9.734: mjolby.se INFO Name servers listed at child: ns.mjolby.se
+  9.734: mjolby.se ERROR Too few name servers (1).
+  9.734: mjolby.se ERROR Too few IPv4 name servers (1).
+  9.734: mjolby.se NOTICE No IPv6 name servers found.
+  9.774: mjolby.se INFO Parent glue for mjolby.se found: ns.mjolby.se (195.198.72.130)
+  9.785: mjolby.se INFO Checking glue for ns.mjolby.se (195.198.72.130).
+  9.796: mjolby.se INFO Child glue for mjolby.se found: ns.mjolby.se (195.198.72.130)
+  9.796: mjolby.se INFO Parent glue for mjolby.se found: ns.mjolby.se (195.198.72.130)
+  9.797: mjolby.se INFO Done testing delegation for mjolby.se.
+  9.797: mjolby.se INFO Begin testing name server ns.mjolby.se.
+  9.797: mjolby.se INFO Begin testing host ns.mjolby.se.
+  9.798: mjolby.se INFO Begin testing address 195.198.72.130.
+ 19.670: mjolby.se WARNING Reverse for 195.198.72.130 points to an unknown host name (195-198-72-130.customer.telia.com).
+ 19.670: mjolby.se INFO Done testing address 195.198.72.130.
+ 19.670: mjolby.se INFO Done testing host ns.mjolby.se.
+ 19.681: mjolby.se INFO Name server ns.mjolby.se (195.198.72.130) answers queries over UDP.
+ 19.691: mjolby.se NOTICE DNS lookup error (connection failed).
+ 19.691: mjolby.se ERROR Name server ns.mjolby.se (195.198.72.130) does not answer queries over TCP.
+ 19.879: mjolby.se INFO Name server ns.mjolby.se (195.198.72.130) is not recursive.
+ 19.890: mjolby.se INFO Name server ns.mjolby.se (195.198.72.130) authoritative for mjolby.se.
+ 19.890: mjolby.se INFO Name server ns.mjolby.se (195.198.72.130) not checked for zone transfer of mjolby.se.
+ 19.890: mjolby.se INFO Name server ns.mjolby.se (195.198.72.130) not checked for legacy name server ID.
+ 19.890: mjolby.se INFO Done testing name server ns.mjolby.se.
+ 19.890: mjolby.se INFO Begin testing zone consistency for mjolby.se.
+ 19.903: mjolby.se INFO SOA at address 195.198.72.130 has serial 87.
+ 19.903: mjolby.se INFO All SOA records have consistent serial numbers.
+ 19.903: mjolby.se INFO All SOA records are consistent among all name servers.
+ 19.903: mjolby.se INFO Done testing zone consistency for mjolby.se.
+ 19.903: mjolby.se INFO Begin testing SOA parameters for mjolby.se.
+ 19.914: mjolby.se INFO Found SOA record for mjolby.se.
+ 19.914: mjolby.se INFO Begin testing host adm-dns2.
+ 24.281: mjolby.se ERROR No address found for adm-dns2.
+ 24.282: mjolby.se INFO Done testing host adm-dns2.
+ 24.282: mjolby.se ERROR Error while checking SOA MNAME for mjolby.se (adm-dns2).
+ 24.282: mjolby.se NOTICE SOA MNAME for mjolby.se (adm-dns2) not listed as NS.
+ 24.282: mjolby.se ERROR Invalid SOA RNAME syntax for mjolby.se: hostmaster
+ 24.282: mjolby.se INFO SOA TTL for mjolby.se OK (3600) - recommended >= 3600.
+ 24.283: mjolby.se NOTICE SOA refresh for mjolby.se too small (900) - recommended >= 14400.
+ 24.283: mjolby.se NOTICE SOA retry for mjolby.se too small (600) - recommended >= 3600.
+ 24.283: mjolby.se NOTICE SOA expire for mjolby.se too small (86400) - recommended >= 604800.
+ 24.283: mjolby.se INFO SOA minimum for mjolby.se OK (3600) - recommended between 300 and 86400.
+ 24.283: mjolby.se INFO Done testing SOA parameters for mjolby.se.
+ 24.283: mjolby.se INFO Begin testing connectivity for mjolby.se.
+ 24.795: mjolby.se INFO Name server 195.198.72.130 announced by: 3301
+ 24.795: mjolby.se INFO Zone announced by IPv4 ASN: 3301
+ 24.795: mjolby.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 24.795: mjolby.se INFO Zone announced by IPv6 ASN: 
+ 24.795: mjolby.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 24.795: mjolby.se INFO Done testing connectivity for mjolby.se.
+ 24.795: mjolby.se INFO Begin testing DNSSEC for mjolby.se.
+ 24.842: mjolby.se INFO Did not find DS record for mjolby.se at parent.
+ 24.852: mjolby.se NOTICE DNS lookup error (connection failed).
+ 24.852: mjolby.se INFO Servers for mjolby.se have consistent extra processing status.
+ 24.853: mjolby.se INFO Did not find DNSKEY record for mjolby.se at child.
+ 24.853: mjolby.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 24.853: mjolby.se INFO Done testing DNSSEC for mjolby.se.
+ 24.853: mjolby.se INFO Test completed for zone mjolby.se.

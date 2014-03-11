@@ -1,0 +1,96 @@
+  0.000: odeshog.se INFO Begin testing zone odeshog.se with version 1.2.
+  0.000: odeshog.se INFO Begin testing delegation for odeshog.se.
+  5.211: odeshog.se INFO Name servers listed at parent: ns1.vokby.se,ns2.vokby.se
+  6.382: odeshog.se INFO Name servers listed at child: ns1.vokby.se,ns2.vokby.se
+  6.382: odeshog.se NOTICE No IPv6 name servers found.
+  6.391: odeshog.se INFO Parent glue for odeshog.se found: ns1.vokby.se (88.206.128.2)
+  6.418: odeshog.se INFO Parent glue for odeshog.se found: ns2.vokby.se (88.206.129.2)
+  6.457: odeshog.se INFO Checking glue for ns1.vokby.se (88.206.128.2).
+  6.457: odeshog.se INFO Checking glue for ns2.vokby.se (88.206.129.2).
+  6.458: odeshog.se INFO Parent glue for odeshog.se found: ns1.vokby.se (88.206.128.2)
+  6.458: odeshog.se INFO Parent glue for odeshog.se found: ns2.vokby.se (88.206.129.2)
+  6.458: odeshog.se INFO Done testing delegation for odeshog.se.
+  6.459: odeshog.se INFO Begin testing name server ns1.vokby.se.
+  6.459: odeshog.se INFO Begin testing host ns1.vokby.se.
+  6.459: odeshog.se INFO Begin testing address 88.206.128.2.
+ 10.911: odeshog.se INFO Done testing address 88.206.128.2.
+ 10.911: odeshog.se INFO Done testing host ns1.vokby.se.
+ 10.924: odeshog.se INFO Name server ns1.vokby.se (88.206.128.2) answers queries over UDP.
+ 10.946: odeshog.se INFO Name server ns1.vokby.se (88.206.128.2) answers queries over TCP.
+ 10.958: odeshog.se INFO Name server ns1.vokby.se (88.206.128.2) is not recursive.
+ 10.971: odeshog.se INFO Name server ns1.vokby.se (88.206.128.2) authoritative for odeshog.se.
+ 11.001: odeshog.se INFO Name server ns1.vokby.se (88.206.128.2) closed for zone transfer of odeshog.se.
+ 11.017: odeshog.se NOTICE No answer received from 88.206.128.2 when querying for hostname.bind/CH/TXT.
+ 11.029: odeshog.se NOTICE No answer received from 88.206.128.2 when querying for version.bind/CH/TXT.
+ 11.040: odeshog.se NOTICE No answer received from 88.206.128.2 when querying for id.server/CH/TXT.
+ 11.052: odeshog.se NOTICE No answer received from 88.206.128.2 when querying for version.server/CH/TXT.
+ 11.052: odeshog.se INFO Done testing name server ns1.vokby.se.
+ 11.052: odeshog.se INFO Begin testing name server ns2.vokby.se.
+ 11.053: odeshog.se INFO Begin testing host ns2.vokby.se.
+ 11.053: odeshog.se INFO Begin testing address 88.206.129.2.
+ 11.290: odeshog.se INFO Done testing address 88.206.129.2.
+ 11.290: odeshog.se INFO Done testing host ns2.vokby.se.
+ 11.303: odeshog.se INFO Name server ns2.vokby.se (88.206.129.2) answers queries over UDP.
+ 11.322: odeshog.se INFO Name server ns2.vokby.se (88.206.129.2) answers queries over TCP.
+ 11.333: odeshog.se INFO Name server ns2.vokby.se (88.206.129.2) is not recursive.
+ 11.345: odeshog.se INFO Name server ns2.vokby.se (88.206.129.2) authoritative for odeshog.se.
+ 11.371: odeshog.se INFO Name server ns2.vokby.se (88.206.129.2) closed for zone transfer of odeshog.se.
+ 11.383: odeshog.se NOTICE No answer received from 88.206.129.2 when querying for hostname.bind/CH/TXT.
+ 11.394: odeshog.se NOTICE No answer received from 88.206.129.2 when querying for version.bind/CH/TXT.
+ 11.406: odeshog.se NOTICE No answer received from 88.206.129.2 when querying for id.server/CH/TXT.
+ 11.416: odeshog.se NOTICE No answer received from 88.206.129.2 when querying for version.server/CH/TXT.
+ 11.417: odeshog.se INFO Done testing name server ns2.vokby.se.
+ 11.417: odeshog.se INFO Begin testing zone consistency for odeshog.se.
+ 11.431: odeshog.se INFO SOA at address 88.206.128.2 has serial 2010061402.
+ 11.443: odeshog.se INFO SOA at address 88.206.129.2 has serial 2010061402.
+ 11.443: odeshog.se INFO All SOA records have consistent serial numbers.
+ 11.443: odeshog.se INFO All SOA records are consistent among all name servers.
+ 11.443: odeshog.se INFO Done testing zone consistency for odeshog.se.
+ 11.443: odeshog.se INFO Begin testing SOA parameters for odeshog.se.
+ 11.454: odeshog.se INFO Found SOA record for odeshog.se.
+ 11.454: odeshog.se INFO Begin testing host ns1.vokby.se.
+ 11.455: odeshog.se INFO Begin testing address 88.206.128.2.
+ 11.456: odeshog.se INFO Done testing address 88.206.128.2.
+ 11.457: odeshog.se INFO Done testing host ns1.vokby.se.
+ 11.457: odeshog.se INFO SOA MNAME for odeshog.se valid (ns1.vokby.se).
+ 11.457: odeshog.se INFO SOA MNAME for odeshog.se (ns1.vokby.se) listed as NS.
+ 11.469: odeshog.se INFO SOA MNAME for odeshog.se (ns1.vokby.se) is authoritative.
+ 11.469: odeshog.se INFO Begin testing email address noc@vokby.se.
+ 11.717: odeshog.se INFO Mail exchangers for noc@vokby.se found mgwin01.itsam.se,mgwin02.itsam.se.
+ 11.717: odeshog.se INFO Begin testing host mgwin01.itsam.se.
+ 12.203: odeshog.se INFO Begin testing address 88.206.128.179.
+ 12.703: odeshog.se INFO Done testing address 88.206.128.179.
+ 12.703: odeshog.se INFO Done testing host mgwin01.itsam.se.
+ 12.703: odeshog.se INFO Begin testing mail server mgwin01.itsam.se (88.206.128.179) with noc@vokby.se.
+ 12.763: odeshog.se INFO SMTP banner: mgwin01.itsam.se NO UCE ESMTP
+ 12.867: odeshog.se INFO SMTP testing of mgwin01.itsam.se (88.206.128.179) with noc@vokby.se succeeded without errors.
+ 12.867: odeshog.se INFO Done testing mail server mgwin01.itsam.se (88.206.128.179) with noc@vokby.se.
+ 12.867: odeshog.se INFO Begin testing host mgwin02.itsam.se.
+ 13.339: odeshog.se INFO Begin testing address 88.206.128.180.
+ 13.591: odeshog.se INFO Done testing address 88.206.128.180.
+ 13.591: odeshog.se INFO Done testing host mgwin02.itsam.se.
+ 13.591: odeshog.se INFO Delivery over IPv4 to noc@vokby.se ok.
+ 13.591: odeshog.se INFO Delivery over IPv6 to noc@vokby.se could not be done.
+ 13.591: odeshog.se INFO Done testing email address noc@vokby.se.
+ 13.591: odeshog.se INFO Successful attempt to deliver email for SOA RNAME of odeshog.se (noc.vokby.se) using noc@vokby.se.
+ 13.591: odeshog.se INFO SOA TTL for odeshog.se OK (3600) - recommended >= 3600.
+ 13.592: odeshog.se NOTICE SOA refresh for odeshog.se too small (10800) - recommended >= 14400.
+ 13.592: odeshog.se INFO SOA retry for odeshog.se OK (3600) - recommended >= 3600.
+ 13.592: odeshog.se INFO SOA expire for odeshog.se OK (604800) - recommended >= 604800.
+ 13.592: odeshog.se INFO SOA minimum for odeshog.se OK (3600) - recommended between 300 and 86400.
+ 13.592: odeshog.se INFO Done testing SOA parameters for odeshog.se.
+ 13.592: odeshog.se INFO Begin testing connectivity for odeshog.se.
+ 14.235: odeshog.se INFO Name server 88.206.129.2 announced by: 28854
+ 14.750: odeshog.se INFO Name server 88.206.128.2 announced by: 28854
+ 14.750: odeshog.se INFO Zone announced by IPv4 ASN: 28854
+ 14.750: odeshog.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 14.750: odeshog.se INFO Zone announced by IPv6 ASN: 
+ 14.750: odeshog.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 14.750: odeshog.se INFO Done testing connectivity for odeshog.se.
+ 14.751: odeshog.se INFO Begin testing DNSSEC for odeshog.se.
+ 14.841: odeshog.se INFO Did not find DS record for odeshog.se at parent.
+ 14.882: odeshog.se INFO Servers for odeshog.se have consistent extra processing status.
+ 14.882: odeshog.se INFO Did not find DNSKEY record for odeshog.se at child.
+ 14.882: odeshog.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 14.882: odeshog.se INFO Done testing DNSSEC for odeshog.se.
+ 14.882: odeshog.se INFO Test completed for zone odeshog.se.

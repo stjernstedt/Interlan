@@ -1,0 +1,80 @@
+  0.000: glostrup.dk INFO Begin testing zone glostrup.dk with version 1.6.1.
+  0.418: glostrup.dk INFO Begin testing delegation for glostrup.dk.
+  5.677: glostrup.dk INFO Name servers listed at parent: ns01.tdcwebmore.dk,ns02.tdcwebmore.dk
+  7.274: glostrup.dk INFO Name servers listed at child: ns01.tdcwebmore.dk,ns02.tdcwebmore.dk
+  7.274: glostrup.dk NOTICE No IPv6 name servers found.
+  7.324: glostrup.dk INFO Parent glue for glostrup.dk found: ns01.tdcwebmore.dk (62.243.74.199)
+  7.476: glostrup.dk INFO Parent glue for glostrup.dk found: ns02.tdcwebmore.dk (92.43.121.7)
+  7.551: glostrup.dk INFO Checking glue for ns01.tdcwebmore.dk (62.243.74.199).
+  7.551: glostrup.dk INFO Checking glue for ns02.tdcwebmore.dk (92.43.121.7).
+  7.552: glostrup.dk INFO Parent glue for glostrup.dk found: ns01.tdcwebmore.dk (62.243.74.199)
+  7.552: glostrup.dk INFO Parent glue for glostrup.dk found: ns02.tdcwebmore.dk (92.43.121.7)
+  8.580: glostrup.dk INFO It is possible to build a referral packet for glostrup.dk that works without EDNS0.
+  9.304: glostrup.dk INFO Previously used name servers for glostrup.dk: 
+  9.304: glostrup.dk INFO Done testing delegation for glostrup.dk.
+  9.305: glostrup.dk INFO Begin testing name server ns01.tdcwebmore.dk.
+  9.305: glostrup.dk INFO Begin testing host ns01.tdcwebmore.dk.
+  9.515: glostrup.dk INFO Begin testing address 62.243.74.199.
+ 29.940: glostrup.dk INFO Done testing address 62.243.74.199.
+ 29.940: glostrup.dk INFO Done testing host ns01.tdcwebmore.dk.
+ 30.071: glostrup.dk INFO Name server ns01.tdcwebmore.dk (62.243.74.199) answers queries over UDP.
+ 30.115: glostrup.dk INFO Name server ns01.tdcwebmore.dk (62.243.74.199) answers queries over TCP.
+ 30.140: glostrup.dk INFO Name server ns01.tdcwebmore.dk (62.243.74.199) is not recursive.
+ 30.235: glostrup.dk INFO Name server ns01.tdcwebmore.dk (62.243.74.199) authoritative for glostrup.dk.
+ 30.303: glostrup.dk INFO Name server ns01.tdcwebmore.dk (62.243.74.199) closed for zone transfer of glostrup.dk.
+ 30.362: glostrup.dk INFO Legacy name server ID for ns01.tdcwebmore.dk (62.243.74.199): version.bind = PowerDNS Authoritative Server 3.3 (jenkins@autotest.powerdns.com built 20130708130708 mockbuild@repo.monshouwer.eu)
+ 30.410: glostrup.dk INFO Done testing name server ns01.tdcwebmore.dk.
+ 30.411: glostrup.dk INFO Begin testing name server ns02.tdcwebmore.dk.
+ 30.411: glostrup.dk INFO Begin testing host ns02.tdcwebmore.dk.
+ 30.540: glostrup.dk INFO Begin testing address 92.43.121.7.
+ 31.288: glostrup.dk INFO Done testing address 92.43.121.7.
+ 31.288: glostrup.dk INFO Done testing host ns02.tdcwebmore.dk.
+ 31.528: glostrup.dk INFO Name server ns02.tdcwebmore.dk (92.43.121.7) answers queries over UDP.
+ 31.564: glostrup.dk INFO Name server ns02.tdcwebmore.dk (92.43.121.7) answers queries over TCP.
+ 31.584: glostrup.dk INFO Name server ns02.tdcwebmore.dk (92.43.121.7) is not recursive.
+ 31.653: glostrup.dk INFO Name server ns02.tdcwebmore.dk (92.43.121.7) authoritative for glostrup.dk.
+ 31.695: glostrup.dk INFO Name server ns02.tdcwebmore.dk (92.43.121.7) closed for zone transfer of glostrup.dk.
+ 31.740: glostrup.dk INFO Legacy name server ID for ns02.tdcwebmore.dk (92.43.121.7): version.bind = PowerDNS Authoritative Server 3.3.1 (jenkins@autotest.powerdns.com built 20140120195432 mockbuild@repo.monshouwer.eu)
+ 31.779: glostrup.dk INFO Done testing name server ns02.tdcwebmore.dk.
+ 31.780: glostrup.dk INFO Begin testing zone consistency for glostrup.dk.
+ 32.308: glostrup.dk INFO SOA at address 92.43.121.7 has serial 2013062800.
+ 32.331: glostrup.dk INFO SOA at address 62.243.74.199 has serial 2013062800.
+ 32.331: glostrup.dk INFO All SOA records have consistent serial numbers.
+ 32.331: glostrup.dk INFO All other fields in the SOA record are consistent among all name servers.
+ 32.733: glostrup.dk NOTICE The listed nameservers for glostrup.dk all report the same set of nameservers.
+ 32.733: glostrup.dk INFO Done testing zone consistency for glostrup.dk.
+ 32.733: glostrup.dk INFO Begin testing SOA parameters for glostrup.dk.
+ 32.752: glostrup.dk INFO Found SOA record for glostrup.dk.
+ 32.752: glostrup.dk INFO Begin testing host ns01.tdcwebmore.dk.
+ 32.972: glostrup.dk INFO Begin testing address 62.243.74.199.
+ 33.184: glostrup.dk INFO Done testing address 62.243.74.199.
+ 33.184: glostrup.dk INFO Done testing host ns01.tdcwebmore.dk.
+ 33.184: glostrup.dk INFO SOA MNAME for glostrup.dk valid (ns01.tdcwebmore.dk).
+ 33.184: glostrup.dk INFO SOA MNAME for glostrup.dk (ns01.tdcwebmore.dk) listed as NS.
+ 33.329: glostrup.dk INFO SOA MNAME for glostrup.dk (ns01.tdcwebmore.dk) is authoritative.
+ 33.329: glostrup.dk INFO Begin testing email address hostmaster@tele.dk.
+ 33.581: glostrup.dk INFO Mail exchangers for hostmaster@tele.dk found mailgrinder.inet.tele.dk.
+ 33.582: glostrup.dk INFO Begin testing host mailgrinder.inet.tele.dk.
+ 33.981: glostrup.dk INFO Begin testing address 195.41.53.78.
+ 34.429: glostrup.dk INFO Done testing address 195.41.53.78.
+ 34.429: glostrup.dk INFO Done testing host mailgrinder.inet.tele.dk.
+ 34.754: glostrup.dk INFO Done testing email address hostmaster@tele.dk.
+ 34.754: glostrup.dk INFO Successful attempt to deliver email for SOA RNAME of glostrup.dk (hostmaster.tele.dk) using hostmaster@tele.dk.
+ 34.754: glostrup.dk NOTICE SOA TTL for glostrup.dk too small (216) - recommended >= 3600.
+ 34.754: glostrup.dk INFO SOA refresh for glostrup.dk OK (14400) - recommended >= 14400.
+ 34.754: glostrup.dk INFO SOA retry for glostrup.dk OK (7200) - recommended >= 3600.
+ 34.754: glostrup.dk INFO SOA expire for glostrup.dk OK (604800) - recommended >= 604800.
+ 34.754: glostrup.dk INFO SOA minimum for glostrup.dk OK (900) - recommended between 300 and 86400.
+ 34.754: glostrup.dk INFO Done testing SOA parameters for glostrup.dk.
+ 34.755: glostrup.dk INFO Begin testing connectivity for glostrup.dk.
+ 35.623: glostrup.dk INFO Zone announced by more than one ASN.
+ 35.623: glostrup.dk NOTICE Zone announced by fewer than two IPv6 ASN.
+ 35.624: glostrup.dk INFO Done testing connectivity for glostrup.dk.
+ 35.624: glostrup.dk INFO Begin testing DNSSEC for glostrup.dk.
+ 35.701: glostrup.dk INFO Did not find DS record for glostrup.dk at parent.
+ 35.778: glostrup.dk INFO Servers for glostrup.dk have consistent extra processing status.
+ 35.820: glostrup.dk INFO Authenticated denial records not found for glostrup.dk.
+ 35.837: glostrup.dk INFO Did not find DNSKEY record for glostrup.dk at child.
+ 35.837: glostrup.dk INFO No DNSKEY(s) found at child, other tests skipped.
+ 35.837: glostrup.dk INFO Done testing DNSSEC for glostrup.dk.
+ 35.838: glostrup.dk INFO Test completed for zone glostrup.dk.

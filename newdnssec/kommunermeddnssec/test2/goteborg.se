@@ -1,0 +1,113 @@
+  0.000: goteborg.se INFO Begin testing zone goteborg.se with version 1.2.
+  0.000: goteborg.se INFO Begin testing delegation for goteborg.se.
+  5.649: goteborg.se INFO Name servers listed at parent: dns2.utfors.se,ns.goteborg.se,ns2.goteborg.se
+  7.308: goteborg.se INFO Name servers listed at child: dns2.utfors.se,ns.goteborg.se,ns2.goteborg.se
+  7.309: goteborg.se NOTICE No IPv6 name servers found.
+  7.373: goteborg.se INFO Parent glue for goteborg.se found: ns.goteborg.se (62.88.141.3)
+  7.422: goteborg.se INFO Parent glue for goteborg.se found: ns2.goteborg.se (62.88.141.4)
+  7.464: goteborg.se INFO Checking glue for ns.goteborg.se (62.88.141.3).
+  7.481: goteborg.se INFO Child glue for goteborg.se found: ns.goteborg.se (62.88.141.3)
+  7.481: goteborg.se INFO Checking glue for ns2.goteborg.se (62.88.141.4).
+  7.497: goteborg.se INFO Child glue for goteborg.se found: ns2.goteborg.se (62.88.141.4)
+  7.498: goteborg.se INFO Parent glue for goteborg.se found: ns.goteborg.se (62.88.141.3)
+  7.498: goteborg.se INFO Parent glue for goteborg.se found: ns2.goteborg.se (62.88.141.4)
+  7.499: goteborg.se INFO Done testing delegation for goteborg.se.
+  7.499: goteborg.se INFO Begin testing name server dns2.utfors.se.
+  7.499: goteborg.se INFO Begin testing host dns2.utfors.se.
+  7.500: goteborg.se INFO Begin testing address 213.150.128.30.
+ 11.374: goteborg.se INFO Done testing address 213.150.128.30.
+ 11.374: goteborg.se INFO Done testing host dns2.utfors.se.
+ 11.383: goteborg.se INFO Name server dns2.utfors.se (213.150.128.30) answers queries over UDP.
+ 11.395: goteborg.se INFO Name server dns2.utfors.se (213.150.128.30) answers queries over TCP.
+ 11.401: goteborg.se INFO Name server dns2.utfors.se (213.150.128.30) is not recursive.
+ 11.409: goteborg.se INFO Name server dns2.utfors.se (213.150.128.30) authoritative for goteborg.se.
+ 11.422: goteborg.se INFO Name server dns2.utfors.se (213.150.128.30) closed for zone transfer of goteborg.se.
+ 11.432: goteborg.se INFO Legacy name server ID for dns2.utfors.se (213.150.128.30): hostname.bind = ns2.telenor.se
+ 11.438: goteborg.se INFO Legacy name server ID for dns2.utfors.se (213.150.128.30): version.bind = Telenor DNS
+ 11.450: goteborg.se NOTICE No answer received from 213.150.128.30 when querying for version.server/CH/TXT.
+ 11.450: goteborg.se INFO Done testing name server dns2.utfors.se.
+ 11.451: goteborg.se INFO Begin testing name server ns.goteborg.se.
+ 11.451: goteborg.se INFO Begin testing host ns.goteborg.se.
+ 11.451: goteborg.se INFO Begin testing address 62.88.141.3.
+ 11.691: goteborg.se INFO Done testing address 62.88.141.3.
+ 11.691: goteborg.se INFO Done testing host ns.goteborg.se.
+ 11.708: goteborg.se INFO Name server ns.goteborg.se (62.88.141.3) answers queries over UDP.
+ 11.740: goteborg.se INFO Name server ns.goteborg.se (62.88.141.3) answers queries over TCP.
+ 11.756: goteborg.se INFO Name server ns.goteborg.se (62.88.141.3) is not recursive.
+ 11.772: goteborg.se INFO Name server ns.goteborg.se (62.88.141.3) authoritative for goteborg.se.
+ 11.811: goteborg.se INFO Name server ns.goteborg.se (62.88.141.3) closed for zone transfer of goteborg.se.
+ 11.827: goteborg.se INFO Legacy name server ID for ns.goteborg.se (62.88.141.3): hostname.bind = ns.goteborg.se
+ 11.842: goteborg.se INFO Legacy name server ID for ns.goteborg.se (62.88.141.3): version.bind = City of Goteborg DNS
+ 11.872: goteborg.se NOTICE No answer received from 62.88.141.3 when querying for version.server/CH/TXT.
+ 11.872: goteborg.se INFO Done testing name server ns.goteborg.se.
+ 11.872: goteborg.se INFO Begin testing name server ns2.goteborg.se.
+ 11.872: goteborg.se INFO Begin testing host ns2.goteborg.se.
+ 11.873: goteborg.se INFO Begin testing address 62.88.141.4.
+ 16.080: goteborg.se INFO Done testing address 62.88.141.4.
+ 16.080: goteborg.se INFO Done testing host ns2.goteborg.se.
+ 16.098: goteborg.se INFO Name server ns2.goteborg.se (62.88.141.4) answers queries over UDP.
+ 16.129: goteborg.se INFO Name server ns2.goteborg.se (62.88.141.4) answers queries over TCP.
+ 16.145: goteborg.se INFO Name server ns2.goteborg.se (62.88.141.4) is not recursive.
+ 16.162: goteborg.se INFO Name server ns2.goteborg.se (62.88.141.4) authoritative for goteborg.se.
+ 16.204: goteborg.se INFO Name server ns2.goteborg.se (62.88.141.4) closed for zone transfer of goteborg.se.
+ 16.220: goteborg.se INFO Legacy name server ID for ns2.goteborg.se (62.88.141.4): hostname.bind = ns2.goteborg.se
+ 16.237: goteborg.se INFO Legacy name server ID for ns2.goteborg.se (62.88.141.4): version.bind = City of Goteborg DNS
+ 16.270: goteborg.se NOTICE No answer received from 62.88.141.4 when querying for version.server/CH/TXT.
+ 16.270: goteborg.se INFO Done testing name server ns2.goteborg.se.
+ 16.270: goteborg.se INFO Begin testing zone consistency for goteborg.se.
+ 16.291: goteborg.se INFO SOA at address 62.88.141.4 has serial 285382917.
+ 16.307: goteborg.se INFO SOA at address 62.88.141.3 has serial 285382917.
+ 16.315: goteborg.se INFO SOA at address 213.150.128.30 has serial 285382917.
+ 16.315: goteborg.se INFO All SOA records have consistent serial numbers.
+ 16.315: goteborg.se INFO All SOA records are consistent among all name servers.
+ 16.315: goteborg.se INFO Done testing zone consistency for goteborg.se.
+ 16.315: goteborg.se INFO Begin testing SOA parameters for goteborg.se.
+ 16.332: goteborg.se INFO Found SOA record for goteborg.se.
+ 16.332: goteborg.se INFO Begin testing host ns.goteborg.se.
+ 16.332: goteborg.se INFO Begin testing address 62.88.141.3.
+ 16.334: goteborg.se INFO Done testing address 62.88.141.3.
+ 16.334: goteborg.se INFO Done testing host ns.goteborg.se.
+ 16.334: goteborg.se INFO SOA MNAME for goteborg.se valid (ns.goteborg.se).
+ 16.334: goteborg.se INFO SOA MNAME for goteborg.se (ns.goteborg.se) listed as NS.
+ 16.351: goteborg.se INFO SOA MNAME for goteborg.se (ns.goteborg.se) is authoritative.
+ 16.351: goteborg.se INFO Begin testing email address hostmaster@goteborg.se.
+ 16.582: goteborg.se INFO Mail exchangers for hostmaster@goteborg.se found mx20.goteborg.se,mx10.goteborg.se.
+ 16.582: goteborg.se INFO All mail servers for hostmaster@goteborg.se are in zone goteborg.se.
+ 16.582: goteborg.se INFO Begin testing host mx20.goteborg.se.
+ 17.012: goteborg.se INFO Begin testing address 62.88.135.4.
+ 17.220: goteborg.se INFO Done testing address 62.88.135.4.
+ 17.220: goteborg.se INFO Done testing host mx20.goteborg.se.
+ 17.220: goteborg.se INFO Begin testing mail server mx20.goteborg.se (62.88.135.4) with hostmaster@goteborg.se.
+ 17.440: goteborg.se INFO SMTP banner: *********************************************
+ 17.796: goteborg.se INFO SMTP testing of mx20.goteborg.se (62.88.135.4) with hostmaster@goteborg.se succeeded without errors.
+ 17.796: goteborg.se INFO Done testing mail server mx20.goteborg.se (62.88.135.4) with hostmaster@goteborg.se.
+ 17.796: goteborg.se INFO Begin testing host mx10.goteborg.se.
+ 18.254: goteborg.se INFO Begin testing address 62.88.135.3.
+ 18.507: goteborg.se INFO Done testing address 62.88.135.3.
+ 18.507: goteborg.se INFO Done testing host mx10.goteborg.se.
+ 18.508: goteborg.se INFO Delivery over IPv4 to hostmaster@goteborg.se ok.
+ 18.508: goteborg.se INFO Delivery over IPv6 to hostmaster@goteborg.se could not be done.
+ 18.508: goteborg.se INFO Done testing email address hostmaster@goteborg.se.
+ 18.508: goteborg.se INFO Successful attempt to deliver email for SOA RNAME of goteborg.se (hostmaster.goteborg.se) using hostmaster@goteborg.se.
+ 18.508: goteborg.se INFO SOA TTL for goteborg.se OK (3600) - recommended >= 3600.
+ 18.508: goteborg.se NOTICE SOA refresh for goteborg.se too small (3600) - recommended >= 14400.
+ 18.508: goteborg.se NOTICE SOA retry for goteborg.se too small (600) - recommended >= 3600.
+ 18.508: goteborg.se INFO SOA expire for goteborg.se OK (1209600) - recommended >= 604800.
+ 18.508: goteborg.se INFO SOA minimum for goteborg.se OK (3600) - recommended between 300 and 86400.
+ 18.508: goteborg.se INFO Done testing SOA parameters for goteborg.se.
+ 18.509: goteborg.se INFO Begin testing connectivity for goteborg.se.
+ 19.114: goteborg.se INFO Name server 62.88.141.3 announced by: 25387
+ 19.733: goteborg.se INFO Name server 62.88.141.4 announced by: 25387
+ 20.296: goteborg.se INFO Name server 213.150.128.30 announced by: 2119
+ 20.296: goteborg.se INFO Zone announced by IPv4 ASN: 25387,2119
+ 20.297: goteborg.se INFO Zone announced by more than one ASN (2).
+ 20.297: goteborg.se INFO Zone announced by IPv6 ASN: 
+ 20.297: goteborg.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 20.297: goteborg.se INFO Done testing connectivity for goteborg.se.
+ 20.297: goteborg.se INFO Begin testing DNSSEC for goteborg.se.
+ 20.342: goteborg.se INFO Did not find DS record for goteborg.se at parent.
+ 20.410: goteborg.se INFO Servers for goteborg.se have consistent extra processing status.
+ 20.411: goteborg.se INFO Did not find DNSKEY record for goteborg.se at child.
+ 20.411: goteborg.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 20.411: goteborg.se INFO Done testing DNSSEC for goteborg.se.
+ 20.411: goteborg.se INFO Test completed for zone goteborg.se.

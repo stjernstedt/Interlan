@@ -1,0 +1,29 @@
+#!/bin/sh
+cd /home/newdnssec/kommunermeddnssec
+date=`date +"%Y%m%d"`
+mkdir history/$date
+cp -v test/* history/$date
+antal=0
+for i in `cat kommun` ; do
+	echo $i
+	timeout 240 nice dnscheck  --policyfile /etc/dnscheck/policy.cron.yaml $i  >test/$i &
+	 antal=$((antal+1))
+	if [ $antal -eq 30 ]; then
+		wait
+		echo 
+		echo $antal klara
+		echo 
+                antal=0
+	fi
+	
+done
+cp -v test/* history/$date
+
+echo sover 180 sek
+sleep 180
+for i in `cat kommun` ; do
+        echo $i
+        echo $i | perl expire >> test/$i
+done
+
+

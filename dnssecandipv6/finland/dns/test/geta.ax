@@ -1,0 +1,102 @@
+  0.000: geta.ax INFO Begin testing zone geta.ax with version 1.6.1.
+  0.332: geta.ax INFO Begin testing delegation for geta.ax.
+  3.091: geta.ax INFO Name servers listed at parent: ns.alcom.aland.fi,ns2.alcom.aland.fi,ns3.alcom.aland.fi
+  5.475: geta.ax INFO Name servers listed at child: ns.alcom.aland.fi,ns2.alcom.aland.fi,ns3.alcom.aland.fi
+  5.497: geta.ax NOTICE No IPv6 name servers found.
+  5.560: geta.ax INFO Parent glue for geta.ax found: ns.alcom.aland.fi (194.112.0.1)
+  5.713: geta.ax INFO Parent glue for geta.ax found: ns2.alcom.aland.fi (194.112.0.5)
+  5.821: geta.ax INFO Parent glue for geta.ax found: ns3.alcom.aland.fi (82.199.186.130)
+  5.870: geta.ax INFO Checking glue for ns.alcom.aland.fi (194.112.0.1).
+  5.870: geta.ax INFO Checking glue for ns2.alcom.aland.fi (194.112.0.5).
+  5.870: geta.ax INFO Checking glue for ns3.alcom.aland.fi (82.199.186.130).
+  5.871: geta.ax INFO Parent glue for geta.ax found: ns.alcom.aland.fi (194.112.0.1)
+  5.871: geta.ax INFO Parent glue for geta.ax found: ns2.alcom.aland.fi (194.112.0.5)
+  5.871: geta.ax INFO Parent glue for geta.ax found: ns3.alcom.aland.fi (82.199.186.130)
+  7.260: geta.ax INFO It is possible to build a referral packet for geta.ax that works without EDNS0.
+  8.369: geta.ax INFO Previously used name servers for geta.ax: 
+  8.369: geta.ax INFO Done testing delegation for geta.ax.
+  8.382: geta.ax INFO Begin testing name server ns.alcom.aland.fi.
+  8.382: geta.ax INFO Begin testing host ns.alcom.aland.fi.
+  8.735: geta.ax INFO Begin testing address 194.112.0.1.
+ 18.698: geta.ax INFO Done testing address 194.112.0.1.
+ 18.698: geta.ax INFO Done testing host ns.alcom.aland.fi.
+ 18.923: geta.ax INFO Name server ns.alcom.aland.fi (194.112.0.1) answers queries over UDP.
+ 18.968: geta.ax INFO Name server ns.alcom.aland.fi (194.112.0.1) answers queries over TCP.
+ 19.014: geta.ax INFO Name server ns.alcom.aland.fi (194.112.0.1) is not recursive.
+ 19.099: geta.ax INFO Name server ns.alcom.aland.fi (194.112.0.1) authoritative for geta.ax.
+ 19.138: geta.ax INFO Name server ns.alcom.aland.fi (194.112.0.1) closed for zone transfer of geta.ax.
+ 19.160: geta.ax INFO Legacy name server ID for ns.alcom.aland.fi (194.112.0.1): hostname.bind = aragon
+ 19.184: geta.ax INFO Legacy name server ID for ns.alcom.aland.fi (194.112.0.1): version.bind = N/A
+ 19.238: geta.ax NOTICE No answer received from 194.112.0.1 when querying for version.server/CH/TXT.
+ 19.238: geta.ax INFO Done testing name server ns.alcom.aland.fi.
+ 19.238: geta.ax INFO Begin testing name server ns2.alcom.aland.fi.
+ 19.238: geta.ax INFO Begin testing host ns2.alcom.aland.fi.
+ 19.398: geta.ax INFO Begin testing address 194.112.0.5.
+ 21.446: geta.ax INFO Done testing address 194.112.0.5.
+ 21.446: geta.ax INFO Done testing host ns2.alcom.aland.fi.
+ 21.667: geta.ax INFO Name server ns2.alcom.aland.fi (194.112.0.5) answers queries over UDP.
+ 21.691: geta.ax INFO Name server ns2.alcom.aland.fi (194.112.0.5) answers queries over TCP.
+ 21.726: geta.ax INFO Name server ns2.alcom.aland.fi (194.112.0.5) is not recursive.
+ 21.785: geta.ax INFO Name server ns2.alcom.aland.fi (194.112.0.5) authoritative for geta.ax.
+ 21.810: geta.ax INFO Name server ns2.alcom.aland.fi (194.112.0.5) closed for zone transfer of geta.ax.
+ 21.821: geta.ax INFO Legacy name server ID for ns2.alcom.aland.fi (194.112.0.5): hostname.bind = gandalf
+ 21.831: geta.ax INFO Legacy name server ID for ns2.alcom.aland.fi (194.112.0.5): version.bind = N/A
+ 21.847: geta.ax NOTICE No answer received from 194.112.0.5 when querying for version.server/CH/TXT.
+ 21.848: geta.ax INFO Done testing name server ns2.alcom.aland.fi.
+ 21.848: geta.ax INFO Begin testing name server ns3.alcom.aland.fi.
+ 21.848: geta.ax INFO Begin testing host ns3.alcom.aland.fi.
+ 21.988: geta.ax INFO Begin testing address 82.199.186.130.
+ 23.862: geta.ax INFO Done testing address 82.199.186.130.
+ 23.862: geta.ax INFO Done testing host ns3.alcom.aland.fi.
+ 24.115: geta.ax INFO Name server ns3.alcom.aland.fi (82.199.186.130) answers queries over UDP.
+ 24.180: geta.ax INFO Name server ns3.alcom.aland.fi (82.199.186.130) answers queries over TCP.
+ 24.242: geta.ax INFO Name server ns3.alcom.aland.fi (82.199.186.130) is not recursive.
+ 24.400: geta.ax INFO Name server ns3.alcom.aland.fi (82.199.186.130) authoritative for geta.ax.
+ 24.447: geta.ax INFO Name server ns3.alcom.aland.fi (82.199.186.130) closed for zone transfer of geta.ax.
+ 24.458: geta.ax INFO Legacy name server ID for ns3.alcom.aland.fi (82.199.186.130): hostname.bind = frodo
+ 24.474: geta.ax INFO Legacy name server ID for ns3.alcom.aland.fi (82.199.186.130): version.bind = N/A
+ 24.546: geta.ax NOTICE No answer received from 82.199.186.130 when querying for version.server/CH/TXT.
+ 24.546: geta.ax INFO Done testing name server ns3.alcom.aland.fi.
+ 24.546: geta.ax INFO Begin testing zone consistency for geta.ax.
+ 26.058: geta.ax INFO SOA at address 82.199.186.130 has serial 2012012609.
+ 26.095: geta.ax INFO SOA at address 194.112.0.5 has serial 2012012609.
+ 26.121: geta.ax INFO SOA at address 194.112.0.1 has serial 2012012609.
+ 26.121: geta.ax INFO All SOA records have consistent serial numbers.
+ 26.121: geta.ax INFO All other fields in the SOA record are consistent among all name servers.
+ 26.838: geta.ax NOTICE The listed nameservers for geta.ax all report the same set of nameservers.
+ 26.839: geta.ax INFO Done testing zone consistency for geta.ax.
+ 26.839: geta.ax INFO Begin testing SOA parameters for geta.ax.
+ 26.856: geta.ax INFO Found SOA record for geta.ax.
+ 26.856: geta.ax INFO Begin testing host ns.alcom.aland.fi.
+ 26.954: geta.ax INFO Begin testing address 194.112.0.1.
+ 28.734: geta.ax INFO Done testing address 194.112.0.1.
+ 28.734: geta.ax INFO Done testing host ns.alcom.aland.fi.
+ 28.734: geta.ax INFO SOA MNAME for geta.ax valid (ns.alcom.aland.fi).
+ 28.734: geta.ax INFO SOA MNAME for geta.ax (ns.alcom.aland.fi) listed as NS.
+ 28.883: geta.ax INFO SOA MNAME for geta.ax (ns.alcom.aland.fi) is authoritative.
+ 28.883: geta.ax INFO Begin testing email address hostmaster@alcom.aland.fi.
+ 29.177: geta.ax INFO Mail exchangers for hostmaster@alcom.aland.fi found mail.aland.net.
+ 29.177: geta.ax INFO Begin testing host mail.aland.net.
+ 29.710: geta.ax INFO Begin testing address 194.112.1.114.
+ 30.270: geta.ax INFO Done testing address 194.112.1.114.
+ 30.270: geta.ax INFO Done testing host mail.aland.net.
+ 30.462: geta.ax INFO Done testing email address hostmaster@alcom.aland.fi.
+ 30.462: geta.ax INFO Successful attempt to deliver email for SOA RNAME of geta.ax (hostmaster.alcom.aland.fi) using hostmaster@alcom.aland.fi.
+ 30.462: geta.ax INFO SOA TTL for geta.ax OK (86400) - recommended >= 3600.
+ 30.462: geta.ax INFO SOA refresh for geta.ax OK (86400) - recommended >= 14400.
+ 30.462: geta.ax INFO SOA retry for geta.ax OK (7200) - recommended >= 3600.
+ 30.463: geta.ax INFO SOA expire for geta.ax OK (2419200) - recommended >= 604800.
+ 30.463: geta.ax NOTICE SOA minimum for geta.ax too large (172800) - recommended <= 86400.
+ 30.463: geta.ax INFO Done testing SOA parameters for geta.ax.
+ 30.463: geta.ax INFO Begin testing connectivity for geta.ax.
+ 32.012: geta.ax NOTICE Zone announced by fewer than two IPv4 ASN.
+ 32.012: geta.ax NOTICE Zone announced by fewer than two IPv6 ASN.
+ 32.012: geta.ax INFO Done testing connectivity for geta.ax.
+ 32.012: geta.ax INFO Begin testing DNSSEC for geta.ax.
+ 32.054: geta.ax INFO Did not find DS record for geta.ax at parent.
+ 32.098: geta.ax INFO Servers for geta.ax have consistent extra processing status.
+ 32.108: geta.ax INFO Authenticated denial records not found for geta.ax.
+ 32.126: geta.ax INFO Did not find DNSKEY record for geta.ax at child.
+ 32.126: geta.ax INFO No DNSKEY(s) found at child, other tests skipped.
+ 32.126: geta.ax INFO Done testing DNSSEC for geta.ax.
+ 32.127: geta.ax INFO Test completed for zone geta.ax.

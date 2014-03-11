@@ -1,0 +1,78 @@
+  0.000: neware.se INFO Begin testing zone neware.se with version 1.5.0.
+  0.001: neware.se INFO Begin testing delegation for neware.se.
+ 17.992: neware.se INFO Name servers listed at parent: ns1.neware.se,ns3.neware.se
+ 50.269: neware.se INFO Name servers listed at child: ns1.neware.se,ns3.neware.se
+ 50.269: neware.se NOTICE No IPv6 name servers found.
+ 50.299: neware.se INFO Parent glue for neware.se found: ns1.neware.se (62.209.184.5)
+ 50.390: neware.se INFO Parent glue for neware.se found: ns3.neware.se (72.167.251.1)
+ 50.429: neware.se INFO Checking glue for ns1.neware.se (62.209.184.5).
+ 56.457: neware.se INFO Child glue for neware.se found: ns1.neware.se (62.209.184.5)
+ 56.457: neware.se INFO Checking glue for ns3.neware.se (72.167.251.1).
+ 62.481: neware.se INFO Child glue for neware.se found: ns3.neware.se (72.167.251.1)
+ 62.482: neware.se INFO Parent glue for neware.se found: ns1.neware.se (62.209.184.5)
+ 62.535: neware.se INFO Parent glue for neware.se found: ns3.neware.se (72.167.251.1)
+ 87.753: neware.se INFO It is possible to build a referral packet for neware.se that works without EDNS0.
+ 87.753: neware.se INFO Done testing delegation for neware.se.
+ 87.798: neware.se INFO Begin testing name server ns1.neware.se.
+ 87.806: neware.se INFO Begin testing host ns1.neware.se.
+ 94.395: neware.se INFO Begin testing address 62.209.184.5.
+106.574: neware.se INFO Done testing address 62.209.184.5.
+106.575: neware.se INFO Done testing host ns1.neware.se.
+112.927: neware.se INFO Name server ns1.neware.se (62.209.184.5) answers queries over UDP.
+112.939: neware.se INFO Name server ns1.neware.se (62.209.184.5) answers queries over TCP.
+112.950: neware.se INFO Name server ns1.neware.se (62.209.184.5) is not recursive.
+112.990: neware.se INFO Name server ns1.neware.se (62.209.184.5) authoritative for neware.se.
+113.172: neware.se INFO Name server ns1.neware.se (62.209.184.5) closed for zone transfer of neware.se.
+113.190: neware.se NOTICE No answer received from 62.209.184.5 when querying for hostname.bind/CH/TXT.
+131.218: neware.se INFO Done testing name server ns1.neware.se.
+131.218: neware.se INFO Begin testing name server ns3.neware.se.
+131.219: neware.se INFO Begin testing host ns3.neware.se.
+131.448: neware.se INFO Begin testing address 72.167.251.1.
+142.938: neware.se INFO Done testing address 72.167.251.1.
+142.938: neware.se INFO Done testing host ns3.neware.se.
+149.622: neware.se ERROR Name server ns3.neware.se (72.167.251.1) does not answer queries over UDP.
+149.623: neware.se ERROR Name server ns3.neware.se (72.167.251.1) does not answer queries over TCP.
+149.623: neware.se INFO Done testing name server ns3.neware.se.
+149.623: neware.se INFO Begin testing zone consistency for neware.se.
+169.829: neware.se INFO SOA at address 62.209.184.5 has serial 68.
+169.830: neware.se INFO All SOA records have consistent serial numbers.
+169.830: neware.se INFO All other fields in the SOA record are consistent among all name servers.
+182.601: neware.se NOTICE The listed nameservers for neware.se all report the same set of nameservers.
+182.601: neware.se INFO Done testing zone consistency for neware.se.
+182.601: neware.se INFO Begin testing SOA parameters for neware.se.
+188.631: neware.se INFO Found SOA record for neware.se.
+188.632: neware.se INFO Begin testing host ns1.neware.se.
+195.013: neware.se INFO Begin testing address 62.209.184.5.
+201.293: neware.se INFO Done testing address 62.209.184.5.
+201.294: neware.se INFO Done testing host ns1.neware.se.
+201.294: neware.se INFO SOA MNAME for neware.se valid (ns1.neware.se).
+201.294: neware.se INFO SOA MNAME for neware.se (ns1.neware.se) listed as NS.
+201.673: neware.se INFO SOA MNAME for neware.se (ns1.neware.se) is authoritative.
+201.673: neware.se INFO Begin testing email address admin@neware.se.
+207.938: neware.se INFO Mail exchangers for admin@neware.se found smail.neware.se.
+207.938: neware.se INFO All mail servers for admin@neware.se are in zone neware.se.
+207.938: neware.se INFO Begin testing host smail.neware.se.
+220.616: neware.se INFO Begin testing address 195.7.83.67.
+222.746: neware.se INFO Done testing address 195.7.83.67.
+222.746: neware.se INFO Done testing host smail.neware.se.
+229.219: neware.se INFO Done testing email address admin@neware.se.
+229.219: neware.se INFO Successful attempt to deliver email for SOA RNAME of neware.se (admin.neware.se) using admin@neware.se.
+229.219: neware.se INFO SOA TTL for neware.se OK (3600) - recommended >= 3600.
+229.219: neware.se NOTICE SOA refresh for neware.se too small (900) - recommended >= 14400.
+229.219: neware.se NOTICE SOA retry for neware.se too small (600) - recommended >= 3600.
+229.219: neware.se NOTICE SOA expire for neware.se too small (86400) - recommended >= 604800.
+229.220: neware.se INFO SOA minimum for neware.se OK (3600) - recommended between 300 and 86400.
+229.220: neware.se INFO Done testing SOA parameters for neware.se.
+229.220: neware.se INFO Begin testing connectivity for neware.se.
+230.771: neware.se INFO Zone announced by more than one ASN.
+230.771: neware.se NOTICE Zone announced by fewer than two IPv6 ASN.
+230.774: neware.se INFO Done testing connectivity for neware.se.
+230.774: neware.se INFO Begin testing DNSSEC for neware.se.
+230.820: neware.se INFO Did not find DS record for neware.se at parent.
+235.834: neware.se NOTICE DNS lookup error (connection failed).
+235.847: neware.se INFO Servers for neware.se have consistent extra processing status.
+240.872: neware.se INFO Authenticated denial records not found for neware.se.
+246.893: neware.se INFO Did not find DNSKEY record for neware.se at child.
+246.893: neware.se INFO No DNSKEY(s) found at child, other tests skipped.
+246.893: neware.se INFO Done testing DNSSEC for neware.se.
+246.894: neware.se INFO Test completed for zone neware.se.

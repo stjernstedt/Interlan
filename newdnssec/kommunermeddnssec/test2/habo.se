@@ -1,0 +1,107 @@
+  0.000: habo.se INFO Begin testing zone habo.se with version 1.2.
+  0.000: habo.se INFO Begin testing delegation for habo.se.
+  6.411: habo.se INFO Name servers listed at parent: ns1.udac.se,solix.udac.se
+ 11.527: habo.se INFO Name servers listed at child: ns1.udac.se,solix.udac.se
+ 11.527: habo.se NOTICE No IPv6 name servers found.
+ 11.545: habo.se INFO Parent glue for habo.se found: ns1.udac.se (193.44.79.8)
+ 11.601: habo.se INFO Checking glue for ns1.udac.se (193.44.79.8).
+ 11.602: habo.se INFO Parent glue for habo.se found: ns1.udac.se (193.44.79.8)
+ 11.602: habo.se INFO Done testing delegation for habo.se.
+ 11.603: habo.se INFO Begin testing name server ns1.udac.se.
+ 11.603: habo.se INFO Begin testing host ns1.udac.se.
+ 11.603: habo.se INFO Begin testing address 193.44.79.8.
+ 16.621: habo.se INFO Done testing address 193.44.79.8.
+ 16.621: habo.se INFO Done testing host ns1.udac.se.
+ 16.631: habo.se INFO Name server ns1.udac.se (193.44.79.8) answers queries over UDP.
+ 16.646: habo.se INFO Name server ns1.udac.se (193.44.79.8) answers queries over TCP.
+ 16.656: habo.se INFO Name server ns1.udac.se (193.44.79.8) is not recursive.
+ 16.665: habo.se INFO Name server ns1.udac.se (193.44.79.8) authoritative for habo.se.
+ 16.682: habo.se INFO Name server ns1.udac.se (193.44.79.8) closed for zone transfer of habo.se.
+ 16.689: habo.se NOTICE No answer received from 193.44.79.8 when querying for hostname.bind/CH/TXT.
+ 16.700: habo.se INFO Legacy name server ID for ns1.udac.se (193.44.79.8): version.bind = 9.2.4
+ 16.707: habo.se NOTICE No answer received from 193.44.79.8 when querying for id.server/CH/TXT.
+ 16.714: habo.se NOTICE No answer received from 193.44.79.8 when querying for version.server/CH/TXT.
+ 16.715: habo.se INFO Done testing name server ns1.udac.se.
+ 16.715: habo.se INFO Begin testing name server solix.udac.se.
+ 16.715: habo.se INFO Begin testing host solix.udac.se.
+ 16.715: habo.se INFO Begin testing address 193.44.76.10.
+ 17.679: habo.se INFO Done testing address 193.44.76.10.
+ 17.679: habo.se INFO Done testing host solix.udac.se.
+ 17.692: habo.se INFO Name server solix.udac.se (193.44.76.10) answers queries over UDP.
+ 17.717: habo.se INFO Name server solix.udac.se (193.44.76.10) answers queries over TCP.
+ 17.726: habo.se INFO Name server solix.udac.se (193.44.76.10) is not recursive.
+ 17.735: habo.se INFO Name server solix.udac.se (193.44.76.10) authoritative for habo.se.
+ 17.752: habo.se INFO Name server solix.udac.se (193.44.76.10) closed for zone transfer of habo.se.
+ 17.759: habo.se NOTICE No answer received from 193.44.76.10 when querying for hostname.bind/CH/TXT.
+ 17.767: habo.se INFO Legacy name server ID for solix.udac.se (193.44.76.10): version.bind = 9.2.4
+ 17.775: habo.se NOTICE No answer received from 193.44.76.10 when querying for id.server/CH/TXT.
+ 17.782: habo.se NOTICE No answer received from 193.44.76.10 when querying for version.server/CH/TXT.
+ 17.782: habo.se INFO Done testing name server solix.udac.se.
+ 17.783: habo.se INFO Begin testing zone consistency for habo.se.
+ 17.795: habo.se INFO SOA at address 193.44.79.8 has serial 2010102801.
+ 17.805: habo.se INFO SOA at address 193.44.76.10 has serial 2010102801.
+ 17.805: habo.se INFO All SOA records have consistent serial numbers.
+ 17.805: habo.se INFO All SOA records are consistent among all name servers.
+ 17.805: habo.se INFO Done testing zone consistency for habo.se.
+ 17.805: habo.se INFO Begin testing SOA parameters for habo.se.
+ 17.816: habo.se INFO Found SOA record for habo.se.
+ 17.816: habo.se INFO Begin testing host ns.udac.net.
+ 18.572: habo.se INFO Begin testing address 193.44.79.67.
+ 19.125: habo.se INFO Done testing address 193.44.79.67.
+ 19.125: habo.se INFO Done testing host ns.udac.net.
+ 19.126: habo.se INFO SOA MNAME for habo.se valid (ns.udac.net).
+ 19.126: habo.se NOTICE SOA MNAME for habo.se (ns.udac.net) not listed as NS.
+ 25.128: habo.se INFO SOA MNAME for habo.se (ns.udac.net) is authoritative.
+ 25.129: habo.se INFO Begin testing email address domain@udac.se.
+ 29.377: habo.se INFO Mail exchangers for domain@udac.se found cluster5.eu.messagelabs.com,cluster5a.eu.messagelabs.com.
+ 29.377: habo.se INFO Begin testing host cluster5.eu.messagelabs.com.
+ 30.157: habo.se INFO Begin testing address 85.158.136.83.
+ 37.169: habo.se INFO Done testing address 85.158.136.83.
+ 37.169: habo.se INFO Begin testing address 193.109.254.3.
+ 38.281: habo.se INFO Done testing address 193.109.254.3.
+ 38.282: habo.se INFO Begin testing address 195.245.230.51.
+ 39.787: habo.se INFO Done testing address 195.245.230.51.
+ 39.788: habo.se INFO Begin testing address 195.245.230.83.
+ 40.981: habo.se INFO Done testing address 195.245.230.83.
+ 40.981: habo.se INFO Begin testing address 85.158.136.51.
+ 42.332: habo.se INFO Done testing address 85.158.136.51.
+ 42.332: habo.se INFO Begin testing address 85.158.136.67.
+ 43.403: habo.se INFO Done testing address 85.158.136.67.
+ 43.403: habo.se INFO Done testing host cluster5.eu.messagelabs.com.
+ 43.404: habo.se INFO Begin testing mail server cluster5.eu.messagelabs.com (85.158.136.83) with domain@udac.se.
+ 43.529: habo.se INFO SMTP banner: server-5.tower-36.messagelabs.com ESMTP
+ 43.700: habo.se INFO SMTP testing of cluster5.eu.messagelabs.com (85.158.136.83) with domain@udac.se succeeded without errors.
+ 43.700: habo.se INFO Done testing mail server cluster5.eu.messagelabs.com (85.158.136.83) with domain@udac.se.
+ 43.700: habo.se INFO Begin testing host cluster5a.eu.messagelabs.com.
+ 44.780: habo.se INFO Begin testing address 85.158.141.190.
+ 46.145: habo.se INFO Done testing address 85.158.141.190.
+ 46.145: habo.se INFO Begin testing address 195.245.231.196.
+ 47.372: habo.se INFO Done testing address 195.245.231.196.
+ 47.372: habo.se INFO Begin testing address 85.158.137.231.
+ 48.838: habo.se INFO Done testing address 85.158.137.231.
+ 48.838: habo.se INFO Done testing host cluster5a.eu.messagelabs.com.
+ 48.839: habo.se INFO Delivery over IPv4 to domain@udac.se ok.
+ 48.839: habo.se INFO Delivery over IPv6 to domain@udac.se could not be done.
+ 48.839: habo.se INFO Done testing email address domain@udac.se.
+ 48.839: habo.se INFO Successful attempt to deliver email for SOA RNAME of habo.se (domain.udac.se) using domain@udac.se.
+ 48.839: habo.se INFO SOA TTL for habo.se OK (3600) - recommended >= 3600.
+ 48.839: habo.se INFO SOA refresh for habo.se OK (14400) - recommended >= 14400.
+ 48.839: habo.se NOTICE SOA retry for habo.se too small (600) - recommended >= 3600.
+ 48.839: habo.se INFO SOA expire for habo.se OK (2419200) - recommended >= 604800.
+ 48.839: habo.se INFO SOA minimum for habo.se OK (3600) - recommended between 300 and 86400.
+ 48.840: habo.se INFO Done testing SOA parameters for habo.se.
+ 48.840: habo.se INFO Begin testing connectivity for habo.se.
+ 49.468: habo.se INFO Name server 193.44.79.8 announced by: 25473
+ 49.997: habo.se INFO Name server 193.44.76.10 announced by: 25473
+ 49.997: habo.se INFO Zone announced by IPv4 ASN: 25473
+ 49.997: habo.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 49.997: habo.se INFO Zone announced by IPv6 ASN: 
+ 49.997: habo.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 49.997: habo.se INFO Done testing connectivity for habo.se.
+ 49.998: habo.se INFO Begin testing DNSSEC for habo.se.
+ 50.126: habo.se INFO Did not find DS record for habo.se at parent.
+ 50.152: habo.se INFO Servers for habo.se have consistent extra processing status.
+ 50.152: habo.se INFO Did not find DNSKEY record for habo.se at child.
+ 50.152: habo.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 50.152: habo.se INFO Done testing DNSSEC for habo.se.
+ 50.152: habo.se INFO Test completed for zone habo.se.

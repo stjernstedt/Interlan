@@ -1,0 +1,154 @@
+  0.000: torsas.se INFO Begin testing zone torsas.se with version 1.6.1.
+  0.646: torsas.se INFO Begin testing delegation for torsas.se.
+ 14.018: torsas.se INFO Name servers listed at parent: dns.torsas.se,dns5.telia.com
+ 16.966: torsas.se INFO Name servers listed at child: dns.torsas.se,dns5.telia.com
+ 16.967: torsas.se NOTICE Too few IPv6 name servers (1).
+ 17.050: torsas.se INFO Parent glue for torsas.se found: dns.torsas.se (62.20.107.197)
+ 17.298: torsas.se INFO Checking glue for dns.torsas.se (62.20.107.197).
+ 17.385: torsas.se INFO Child glue for torsas.se found: dns.torsas.se (62.20.107.197)
+ 17.415: torsas.se INFO Parent glue for torsas.se found: dns.torsas.se (62.20.107.197)
+ 18.602: torsas.se INFO It is possible to build a referral packet for torsas.se that works without EDNS0.
+ 19.010: torsas.se INFO Previously used name servers for torsas.se: 
+ 19.010: torsas.se INFO Done testing delegation for torsas.se.
+ 19.011: torsas.se INFO Begin testing name server dns.torsas.se.
+ 19.011: torsas.se INFO Begin testing host dns.torsas.se.
+ 19.549: torsas.se INFO Begin testing address 62.20.107.197.
+ 38.382: torsas.se INFO Done testing address 62.20.107.197.
+ 38.382: torsas.se INFO Done testing host dns.torsas.se.
+ 38.818: torsas.se INFO Name server dns.torsas.se (62.20.107.197) answers queries over UDP.
+ 38.869: torsas.se INFO Name server dns.torsas.se (62.20.107.197) answers queries over TCP.
+ 38.942: torsas.se INFO Name server dns.torsas.se (62.20.107.197) is not recursive.
+ 39.057: torsas.se INFO Name server dns.torsas.se (62.20.107.197) authoritative for torsas.se.
+ 39.168: torsas.se INFO Name server dns.torsas.se (62.20.107.197) closed for zone transfer of torsas.se.
+ 39.195: torsas.se NOTICE No answer received from 62.20.107.197 when querying for hostname.bind/CH/TXT.
+ 51.274: torsas.se INFO Done testing name server dns.torsas.se.
+ 51.274: torsas.se INFO Begin testing name server dns5.telia.com.
+ 51.274: torsas.se INFO Begin testing host dns5.telia.com.
+ 51.275: torsas.se INFO Begin testing address 81.228.11.68.
+ 52.394: torsas.se INFO Done testing address 81.228.11.68.
+ 52.395: torsas.se INFO Begin testing address 2001:2040:c001:101:0:0:0:4.
+ 53.836: torsas.se INFO Done testing address 2001:2040:c001:101:0:0:0:4.
+ 53.836: torsas.se INFO Done testing host dns5.telia.com.
+ 53.865: torsas.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over UDP.
+ 53.894: torsas.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over TCP.
+ 53.908: torsas.se INFO Name server dns5.telia.com (81.228.11.68) is not recursive.
+ 54.007: torsas.se INFO Name server dns5.telia.com (81.228.11.68) authoritative for torsas.se.
+ 54.045: torsas.se INFO Name server dns5.telia.com (81.228.11.68) closed for zone transfer of torsas.se.
+ 54.080: torsas.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 54.246: torsas.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) answers queries over UDP.
+ 54.330: torsas.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) answers queries over TCP.
+ 54.366: torsas.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) is not recursive.
+ 54.579: torsas.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) authoritative for torsas.se.
+ 54.693: torsas.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) closed for zone transfer of torsas.se.
+ 54.773: torsas.se INFO Legacy name server ID for dns5.telia.com (2001:2040:c001:101:0:0:0:4): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 54.854: torsas.se INFO Done testing name server dns5.telia.com.
+ 54.854: torsas.se INFO Begin testing zone consistency for torsas.se.
+ 55.195: torsas.se INFO SOA at address 62.20.107.197 has serial 1240.
+ 55.202: torsas.se INFO SOA at address 81.228.11.68 has serial 1240.
+ 55.236: torsas.se INFO SOA at address 2001:2040:c001:101:0:0:0:4 has serial 1240.
+ 55.237: torsas.se INFO All SOA records have consistent serial numbers.
+ 55.237: torsas.se INFO All other fields in the SOA record are consistent among all name servers.
+ 55.477: torsas.se NOTICE The listed nameservers for torsas.se all report the same set of nameservers.
+ 55.477: torsas.se INFO Done testing zone consistency for torsas.se.
+ 55.484: torsas.se INFO Begin testing SOA parameters for torsas.se.
+ 55.515: torsas.se INFO Found SOA record for torsas.se.
+ 55.515: torsas.se INFO Begin testing host dns.torsas.se.
+ 55.609: torsas.se INFO Begin testing address 62.20.107.197.
+ 55.893: torsas.se INFO Done testing address 62.20.107.197.
+ 55.893: torsas.se INFO Done testing host dns.torsas.se.
+ 55.893: torsas.se INFO SOA MNAME for torsas.se valid (dns.torsas.se).
+ 55.894: torsas.se INFO SOA MNAME for torsas.se (dns.torsas.se) listed as NS.
+ 56.077: torsas.se INFO SOA MNAME for torsas.se (dns.torsas.se) is authoritative.
+ 56.077: torsas.se INFO Begin testing email address root@torsas.se.
+ 56.206: torsas.se INFO Mail exchangers for root@torsas.se found smtp-in.sto-hy.se.stejtech.net,smtp-in.sto-ste.se.stejtech.net.
+ 56.206: torsas.se INFO Begin testing host smtp-in.sto-hy.se.stejtech.net.
+ 57.304: torsas.se INFO Begin testing address 91.236.209.10.
+ 58.865: torsas.se INFO Done testing address 91.236.209.10.
+ 58.865: torsas.se INFO Begin testing address 79.136.102.100.
+ 61.463: torsas.se INFO Done testing address 79.136.102.100.
+ 61.463: torsas.se INFO Begin testing address 91.236.208.10.
+ 62.364: torsas.se INFO Done testing address 91.236.208.10.
+ 62.364: torsas.se INFO Begin testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 63.388: torsas.se INFO Done testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 63.388: torsas.se INFO Begin testing address 2001:67c:27e0:2110:0:0:0:1b01.
+ 64.717: torsas.se INFO Done testing address 2001:67c:27e0:2110:0:0:0:1b01.
+ 64.717: torsas.se INFO Begin testing address 2001:9b0:1:703:0:0:0:1b01.
+ 66.130: torsas.se INFO Done testing address 2001:9b0:1:703:0:0:0:1b01.
+ 66.130: torsas.se INFO Done testing host smtp-in.sto-hy.se.stejtech.net.
+ 66.130: torsas.se INFO Begin testing host smtp-in.sto-ste.se.stejtech.net.
+ 66.836: torsas.se INFO Begin testing address 79.136.102.90.
+ 67.769: torsas.se INFO Done testing address 79.136.102.90.
+ 67.769: torsas.se INFO Begin testing address 83.140.31.145.
+ 68.730: torsas.se INFO Done testing address 83.140.31.145.
+ 68.751: torsas.se INFO Begin testing address 2001:9b0:1:703:0:0:0:b002.
+ 70.056: torsas.se INFO Done testing address 2001:9b0:1:703:0:0:0:b002.
+ 70.056: torsas.se INFO Done testing host smtp-in.sto-ste.se.stejtech.net.
+ 70.056: torsas.se INFO Done testing email address root@torsas.se.
+ 70.056: torsas.se INFO Successful attempt to deliver email for SOA RNAME of torsas.se (root.torsas.se) using root@torsas.se.
+ 70.056: torsas.se INFO SOA TTL for torsas.se OK (7200) - recommended >= 3600.
+ 70.056: torsas.se NOTICE SOA refresh for torsas.se too small (3600) - recommended >= 14400.
+ 70.057: torsas.se NOTICE SOA retry for torsas.se too small (600) - recommended >= 3600.
+ 70.057: torsas.se INFO SOA expire for torsas.se OK (604800) - recommended >= 604800.
+ 70.057: torsas.se INFO SOA minimum for torsas.se OK (3600) - recommended between 300 and 86400.
+ 70.057: torsas.se INFO Done testing SOA parameters for torsas.se.
+ 70.057: torsas.se INFO Begin testing connectivity for torsas.se.
+ 71.120: torsas.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 71.544: torsas.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 71.544: torsas.se INFO Done testing connectivity for torsas.se.
+ 71.545: torsas.se INFO Begin testing DNSSEC for torsas.se.
+ 71.582: torsas.se INFO Found DS record for torsas.se at parent.
+ 71.633: torsas.se INFO Nameserver 62.20.107.197 does DNSSEC extra processing.
+ 71.652: torsas.se INFO Nameserver 81.228.11.68 does DNSSEC extra processing.
+ 71.724: torsas.se INFO Nameserver 2001:2040:c001:101:0:0:0:4 does DNSSEC extra processing.
+ 71.724: torsas.se INFO Servers for torsas.se have consistent extra processing status.
+ 71.771: torsas.se INFO Authenticated denial records found for torsas.se, of type NSEC3.
+ 71.806: torsas.se INFO NSEC3PARAM record found for torsas.se.
+ 71.807: torsas.se INFO NSEC3 for torsas.se is set to use 50 iterations, which is less than 100 and thus OK.
+ 71.807: torsas.se INFO Found DNSKEY record for torsas.se at child.
+ 71.807: torsas.se INFO Consistent security for torsas.se.
+ 71.807: torsas.se INFO Checking DNSSEC at child (torsas.se).
+ 71.807: torsas.se INFO torsas.se's key with tag 42071 uses algorithm number 8 (RSA/SHA-256).
+ 71.807: torsas.se INFO Algorithm number 8 is OK.
+ 71.807: torsas.se INFO DNSKEY torsas.se (tag 42071) is marked as a secure entry point (SEP).
+ 71.808: torsas.se INFO torsas.se's key with tag 30476 uses algorithm number 8 (RSA/SHA-256).
+ 71.808: torsas.se INFO Algorithm number 8 is OK.
+ 71.808: torsas.se INFO DNSKEY torsas.se (tag 30476) is marked as a secure entry point (SEP).
+ 71.808: torsas.se INFO torsas.se's key with tag 49495 uses algorithm number 8 (RSA/SHA-256).
+ 71.808: torsas.se INFO Algorithm number 8 is OK.
+ 71.808: torsas.se INFO torsas.se's key with tag 20565 uses algorithm number 8 (RSA/SHA-256).
+ 71.808: torsas.se INFO Algorithm number 8 is OK.
+ 71.809: torsas.se INFO DNSSEC signature expires at: Mon Apr  7 17:00:00 2014
+ 71.809: torsas.se INFO Duration for RRSIG(torsas.se/IN/DNSKEY/42071) is OK (2595600 seconds).
+ 71.812: torsas.se INFO DNSSEC signature RRSIG(torsas.se/IN/DNSKEY/42071) matches records.
+ 71.812: torsas.se INFO DNSSEC signature valid: RRSIG(torsas.se/IN/DNSKEY/42071)
+ 71.812: torsas.se INFO DNSSEC signature expires at: Mon Apr  7 17:00:00 2014
+ 71.812: torsas.se INFO Duration for RRSIG(torsas.se/IN/DNSKEY/49495) is OK (2595600 seconds).
+ 71.817: torsas.se INFO DNSSEC signature RRSIG(torsas.se/IN/DNSKEY/49495) matches records.
+ 71.818: torsas.se INFO DNSSEC signature valid: RRSIG(torsas.se/IN/DNSKEY/49495)
+ 71.818: torsas.se INFO Enough valid signatures found for torsas.se.
+ 71.868: torsas.se INFO DNSSEC signature expires at: Mon Apr  7 17:00:00 2014
+ 71.868: torsas.se INFO Duration for RRSIG(torsas.se/IN/SOA/49495) is OK (2595600 seconds).
+ 71.869: torsas.se INFO DNSSEC signature RRSIG(torsas.se/IN/SOA/49495) matches records.
+ 71.872: torsas.se INFO DNSSEC signature valid: RRSIG(torsas.se/IN/SOA/49495)
+ 71.872: torsas.se INFO Enough valid signatures over SOA RRset found for torsas.se.
+ 71.872: torsas.se INFO DNSSEC child checks for torsas.se complete.
+ 71.872: torsas.se INFO Checking DNSSEC at parent of torsas.se.
+ 71.872: torsas.se INFO torsas.se's key with tag 42071 uses algorithm number 8 (RSA/SHA-256).
+ 71.872: torsas.se INFO Algorithm number 8 is OK.
+ 71.873: torsas.se INFO Parent DS(torsas.se/8/2/42071) refers to valid key at child: DNSKEY(torsas.se/8/42071)
+ 71.876: torsas.se INFO Parent DS(torsas.se) refers to secure entry point (SEP) at child: DS(torsas.se/8/2/42071)
+ 71.876: torsas.se INFO torsas.se's key with tag 30476 uses algorithm number 8 (RSA/SHA-256).
+ 71.876: torsas.se INFO Algorithm number 8 is OK.
+ 71.877: torsas.se INFO Parent DS(torsas.se/8/1/30476) refers to invalid key at child: DNSKEY(torsas.se/8/30476)
+ 71.877: torsas.se INFO Parent DS(torsas.se) refers to secure entry point (SEP) at child: DS(torsas.se/8/1/30476)
+ 71.877: torsas.se INFO torsas.se's key with tag 30476 uses algorithm number 8 (RSA/SHA-256).
+ 71.877: torsas.se INFO Algorithm number 8 is OK.
+ 71.877: torsas.se INFO Parent DS(torsas.se/8/2/30476) refers to invalid key at child: DNSKEY(torsas.se/8/30476)
+ 71.877: torsas.se INFO Parent DS(torsas.se) refers to secure entry point (SEP) at child: DS(torsas.se/8/2/30476)
+ 71.877: torsas.se INFO torsas.se's key with tag 42071 uses algorithm number 8 (RSA/SHA-256).
+ 71.877: torsas.se INFO Algorithm number 8 is OK.
+ 71.878: torsas.se INFO Parent DS(torsas.se/8/1/42071) refers to valid key at child: DNSKEY(torsas.se/8/42071)
+ 71.878: torsas.se INFO Parent DS(torsas.se) refers to secure entry point (SEP) at child: DS(torsas.se/8/1/42071)
+ 71.878: torsas.se INFO DNSSEC parent checks for torsas.se complete.
+ 71.878: torsas.se INFO Done testing DNSSEC for torsas.se.
+ 71.878: torsas.se INFO Test completed for zone torsas.se.

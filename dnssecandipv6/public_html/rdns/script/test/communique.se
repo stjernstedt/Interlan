@@ -1,0 +1,91 @@
+  0.000: communique.se INFO Begin testing zone communique.se with version 1.5.0.
+  0.002: communique.se INFO Begin testing delegation for communique.se.
+  9.907: communique.se INFO Name servers listed at parent: ns.communique.se,ns2.communique.se
+ 12.106: communique.se INFO Name servers listed at child: ns.communique.se,ns2.communique.se
+ 12.106: communique.se NOTICE No IPv6 name servers found.
+ 12.136: communique.se INFO Parent glue for communique.se found: ns.communique.se (194.117.171.2)
+ 12.178: communique.se INFO Parent glue for communique.se found: ns2.communique.se (213.88.239.2)
+ 12.191: communique.se INFO Checking glue for ns.communique.se (194.117.171.2).
+ 12.213: communique.se INFO Child glue for communique.se found: ns.communique.se (194.117.171.2)
+ 12.213: communique.se INFO Checking glue for ns2.communique.se (213.88.239.2).
+ 12.231: communique.se INFO Child glue for communique.se found: ns2.communique.se (213.88.239.2)
+ 12.232: communique.se INFO Parent glue for communique.se found: ns.communique.se (194.117.171.2)
+ 12.232: communique.se INFO Parent glue for communique.se found: ns2.communique.se (213.88.239.2)
+ 13.238: communique.se INFO It is possible to build a referral packet for communique.se that works without EDNS0.
+ 13.238: communique.se INFO Done testing delegation for communique.se.
+ 13.239: communique.se INFO Begin testing name server ns.communique.se.
+ 13.239: communique.se INFO Begin testing host ns.communique.se.
+ 13.520: communique.se INFO Begin testing address 194.117.171.2.
+ 26.303: communique.se INFO Done testing address 194.117.171.2.
+ 26.303: communique.se INFO Done testing host ns.communique.se.
+ 26.865: communique.se INFO Name server ns.communique.se (194.117.171.2) answers queries over UDP.
+ 26.945: communique.se INFO Name server ns.communique.se (194.117.171.2) answers queries over TCP.
+ 27.001: communique.se INFO Name server ns.communique.se (194.117.171.2) is not recursive.
+ 27.117: communique.se INFO Name server ns.communique.se (194.117.171.2) authoritative for communique.se.
+ 27.164: communique.se INFO Name server ns.communique.se (194.117.171.2) closed for zone transfer of communique.se.
+ 27.182: communique.se INFO Legacy name server ID for ns.communique.se (194.117.171.2): hostname.bind = ns.communique.se
+ 27.218: communique.se INFO Legacy name server ID for ns.communique.se (194.117.171.2): version.bind = 9.8.5-P1
+ 27.305: communique.se NOTICE No answer received from 194.117.171.2 when querying for version.server/CH/TXT.
+ 27.305: communique.se INFO Done testing name server ns.communique.se.
+ 27.305: communique.se INFO Begin testing name server ns2.communique.se.
+ 27.305: communique.se INFO Begin testing host ns2.communique.se.
+ 27.794: communique.se INFO Begin testing address 213.88.239.2.
+ 28.837: communique.se INFO Done testing address 213.88.239.2.
+ 28.837: communique.se INFO Done testing host ns2.communique.se.
+ 29.219: communique.se INFO Name server ns2.communique.se (213.88.239.2) answers queries over UDP.
+ 29.254: communique.se INFO Name server ns2.communique.se (213.88.239.2) answers queries over TCP.
+ 29.269: communique.se INFO Name server ns2.communique.se (213.88.239.2) is not recursive.
+ 29.452: communique.se INFO Name server ns2.communique.se (213.88.239.2) authoritative for communique.se.
+ 29.506: communique.se INFO Name server ns2.communique.se (213.88.239.2) closed for zone transfer of communique.se.
+ 29.521: communique.se INFO Legacy name server ID for ns2.communique.se (213.88.239.2): hostname.bind = smtp.communique.se
+ 29.537: communique.se INFO Legacy name server ID for ns2.communique.se (213.88.239.2): version.bind = 9.8.5-P1
+ 29.573: communique.se NOTICE No answer received from 213.88.239.2 when querying for version.server/CH/TXT.
+ 29.574: communique.se INFO Done testing name server ns2.communique.se.
+ 29.574: communique.se INFO Begin testing zone consistency for communique.se.
+ 30.888: communique.se INFO SOA at address 213.88.239.2 has serial 2013042516.
+ 30.907: communique.se INFO SOA at address 194.117.171.2 has serial 2013042516.
+ 30.907: communique.se INFO All SOA records have consistent serial numbers.
+ 30.907: communique.se INFO All other fields in the SOA record are consistent among all name servers.
+ 31.842: communique.se NOTICE The listed nameservers for communique.se all report the same set of nameservers.
+ 31.842: communique.se INFO Done testing zone consistency for communique.se.
+ 31.842: communique.se INFO Begin testing SOA parameters for communique.se.
+ 31.860: communique.se INFO Found SOA record for communique.se.
+ 31.873: communique.se INFO Begin testing host ns.communique.se.
+ 32.315: communique.se INFO Begin testing address 194.117.171.2.
+ 32.656: communique.se INFO Done testing address 194.117.171.2.
+ 32.657: communique.se INFO Done testing host ns.communique.se.
+ 32.657: communique.se INFO SOA MNAME for communique.se valid (ns.communique.se).
+ 32.657: communique.se INFO SOA MNAME for communique.se (ns.communique.se) listed as NS.
+ 33.054: communique.se INFO SOA MNAME for communique.se (ns.communique.se) is authoritative.
+ 33.054: communique.se INFO Begin testing email address info@communique.se.
+ 33.410: communique.se INFO Mail exchangers for info@communique.se found smtpgw04.communique.se,smtpgw02.communique.se.
+ 33.411: communique.se INFO All mail servers for info@communique.se are in zone communique.se.
+ 33.411: communique.se INFO Begin testing host smtpgw04.communique.se.
+ 34.211: communique.se INFO Begin testing address 213.88.239.4.
+ 35.388: communique.se INFO Done testing address 213.88.239.4.
+ 35.389: communique.se INFO Done testing host smtpgw04.communique.se.
+ 35.761: communique.se INFO Begin testing host smtpgw02.communique.se.
+ 36.516: communique.se INFO Begin testing address 194.117.171.3.
+ 37.444: communique.se INFO Done testing address 194.117.171.3.
+ 37.444: communique.se INFO Done testing host smtpgw02.communique.se.
+ 37.829: communique.se INFO Done testing email address info@communique.se.
+ 37.829: communique.se INFO Successful attempt to deliver email for SOA RNAME of communique.se (info.communique.se) using info@communique.se.
+ 37.829: communique.se INFO SOA TTL for communique.se OK (3600) - recommended >= 3600.
+ 37.829: communique.se NOTICE SOA refresh for communique.se too small (3600) - recommended >= 14400.
+ 37.829: communique.se NOTICE SOA refresh for communique.se lower than retry (3600 vs 3600).
+ 37.829: communique.se INFO SOA retry for communique.se OK (3600) - recommended >= 3600.
+ 37.829: communique.se INFO SOA expire for communique.se OK (2419200) - recommended >= 604800.
+ 37.829: communique.se INFO SOA minimum for communique.se OK (3600) - recommended between 300 and 86400.
+ 37.852: communique.se INFO Done testing SOA parameters for communique.se.
+ 37.853: communique.se INFO Begin testing connectivity for communique.se.
+ 39.390: communique.se INFO Zone announced by more than one ASN.
+ 39.391: communique.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 39.391: communique.se INFO Done testing connectivity for communique.se.
+ 39.391: communique.se INFO Begin testing DNSSEC for communique.se.
+ 39.422: communique.se INFO Did not find DS record for communique.se at parent.
+ 39.488: communique.se INFO Servers for communique.se have consistent extra processing status.
+ 39.521: communique.se INFO Authenticated denial records not found for communique.se.
+ 39.539: communique.se INFO Did not find DNSKEY record for communique.se at child.
+ 39.539: communique.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 39.539: communique.se INFO Done testing DNSSEC for communique.se.
+ 39.540: communique.se INFO Test completed for zone communique.se.

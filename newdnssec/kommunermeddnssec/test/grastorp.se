@@ -1,0 +1,130 @@
+  0.000: grastorp.se INFO Begin testing zone grastorp.se with version 1.6.1.
+  0.593: grastorp.se INFO Begin testing delegation for grastorp.se.
+ 17.726: grastorp.se INFO Name servers listed at parent: ns1.udac.se,solix.udac.se
+ 23.622: grastorp.se INFO Name servers listed at child: ns1.udac.se,ns2.nx.net,ns3.udac.net
+ 23.622: grastorp.se ERROR Superfluous name server listed at parent: solix.udac.se
+ 23.622: grastorp.se ERROR Too few name servers (1).
+ 23.622: grastorp.se NOTICE Additional name server listed at child: ns2.nx.net
+ 23.622: grastorp.se NOTICE Additional name server listed at child: ns3.udac.net
+ 23.622: grastorp.se NOTICE No IPv6 name servers found.
+ 23.750: grastorp.se INFO Parent glue for grastorp.se found: ns1.udac.se (193.44.79.8)
+ 24.094: grastorp.se INFO Checking glue for ns1.udac.se (193.44.79.8).
+ 24.094: grastorp.se INFO Parent glue for grastorp.se found: ns1.udac.se (193.44.79.8)
+ 26.764: grastorp.se INFO It is possible to build a referral packet for grastorp.se that works without EDNS0.
+ 30.533: grastorp.se INFO Previously used name servers for grastorp.se: 
+ 30.534: grastorp.se INFO Done testing delegation for grastorp.se.
+ 30.534: grastorp.se INFO Begin testing name server ns1.udac.se.
+ 30.534: grastorp.se INFO Begin testing host ns1.udac.se.
+ 31.602: grastorp.se INFO Begin testing address 193.44.79.8.
+ 64.309: grastorp.se INFO Done testing address 193.44.79.8.
+ 64.310: grastorp.se INFO Done testing host ns1.udac.se.
+ 64.880: grastorp.se INFO Name server ns1.udac.se (193.44.79.8) answers queries over UDP.
+ 64.894: grastorp.se INFO Name server ns1.udac.se (193.44.79.8) answers queries over TCP.
+ 64.903: grastorp.se INFO Name server ns1.udac.se (193.44.79.8) is not recursive.
+ 64.976: grastorp.se INFO Name server ns1.udac.se (193.44.79.8) authoritative for grastorp.se.
+ 65.001: grastorp.se INFO Name server ns1.udac.se (193.44.79.8) closed for zone transfer of grastorp.se.
+ 65.035: grastorp.se INFO Legacy name server ID for ns1.udac.se (193.44.79.8): hostname.bind = ns1
+ 65.056: grastorp.se INFO Legacy name server ID for ns1.udac.se (193.44.79.8): version.bind = none
+ 65.096: grastorp.se NOTICE No answer received from 193.44.79.8 when querying for version.server/CH/TXT.
+ 65.097: grastorp.se INFO Done testing name server ns1.udac.se.
+ 65.101: grastorp.se INFO Begin testing name server ns2.nx.net.
+ 65.101: grastorp.se INFO Begin testing host ns2.nx.net.
+ 65.904: grastorp.se INFO Begin testing address 82.196.191.242.
+ 68.933: grastorp.se INFO Done testing address 82.196.191.242.
+ 68.934: grastorp.se INFO Done testing host ns2.nx.net.
+ 69.582: grastorp.se INFO Name server ns2.nx.net (82.196.191.242) answers queries over UDP.
+ 69.618: grastorp.se INFO Name server ns2.nx.net (82.196.191.242) answers queries over TCP.
+ 69.690: grastorp.se INFO Name server ns2.nx.net (82.196.191.242) is not recursive.
+ 69.816: grastorp.se INFO Name server ns2.nx.net (82.196.191.242) authoritative for grastorp.se.
+ 69.849: grastorp.se INFO Name server ns2.nx.net (82.196.191.242) closed for zone transfer of grastorp.se.
+ 69.864: grastorp.se INFO Legacy name server ID for ns2.nx.net (82.196.191.242): hostname.bind = ns2
+ 69.997: grastorp.se INFO Legacy name server ID for ns2.nx.net (82.196.191.242): version.bind = none
+ 70.066: grastorp.se NOTICE No answer received from 82.196.191.242 when querying for version.server/CH/TXT.
+ 70.066: grastorp.se INFO Done testing name server ns2.nx.net.
+ 70.066: grastorp.se INFO Begin testing name server ns3.udac.net.
+ 70.066: grastorp.se INFO Begin testing host ns3.udac.net.
+ 70.486: grastorp.se INFO Begin testing address 193.44.76.10.
+ 73.328: grastorp.se INFO Done testing address 193.44.76.10.
+ 73.328: grastorp.se INFO Done testing host ns3.udac.net.
+ 74.195: grastorp.se INFO Name server ns3.udac.net (193.44.76.10) answers queries over UDP.
+ 74.226: grastorp.se INFO Name server ns3.udac.net (193.44.76.10) answers queries over TCP.
+ 74.288: grastorp.se INFO Name server ns3.udac.net (193.44.76.10) is not recursive.
+ 74.509: grastorp.se INFO Name server ns3.udac.net (193.44.76.10) authoritative for grastorp.se.
+ 74.661: grastorp.se INFO Name server ns3.udac.net (193.44.76.10) closed for zone transfer of grastorp.se.
+ 74.680: grastorp.se INFO Legacy name server ID for ns3.udac.net (193.44.76.10): hostname.bind = ns3
+ 74.696: grastorp.se INFO Legacy name server ID for ns3.udac.net (193.44.76.10): version.bind = none
+ 74.782: grastorp.se NOTICE No answer received from 193.44.76.10 when querying for version.server/CH/TXT.
+ 74.782: grastorp.se INFO Done testing name server ns3.udac.net.
+ 74.783: grastorp.se INFO Begin testing name server solix.udac.se.
+ 74.783: grastorp.se INFO Begin testing host solix.udac.se.
+ 75.302: grastorp.se INFO Begin testing address 193.44.76.10.
+ 77.149: grastorp.se INFO Done testing address 193.44.76.10.
+ 77.150: grastorp.se INFO Done testing host solix.udac.se.
+ 77.594: grastorp.se INFO Name server solix.udac.se (193.44.76.10) answers queries over UDP.
+ 77.689: grastorp.se INFO Name server solix.udac.se (193.44.76.10) answers queries over TCP.
+ 77.785: grastorp.se INFO Name server solix.udac.se (193.44.76.10) is not recursive.
+ 77.999: grastorp.se INFO Name server solix.udac.se (193.44.76.10) authoritative for grastorp.se.
+ 78.061: grastorp.se INFO Name server solix.udac.se (193.44.76.10) closed for zone transfer of grastorp.se.
+ 78.115: grastorp.se INFO Legacy name server ID for solix.udac.se (193.44.76.10): hostname.bind = ns3
+ 78.163: grastorp.se INFO Legacy name server ID for solix.udac.se (193.44.76.10): version.bind = none
+ 78.253: grastorp.se NOTICE No answer received from 193.44.76.10 when querying for version.server/CH/TXT.
+ 78.253: grastorp.se INFO Done testing name server solix.udac.se.
+ 78.254: grastorp.se INFO Begin testing zone consistency for grastorp.se.
+ 80.786: grastorp.se INFO SOA at address 82.196.191.242 has serial 383487743.
+ 80.819: grastorp.se INFO SOA at address 193.44.79.8 has serial 383487743.
+ 80.851: grastorp.se INFO SOA at address 193.44.76.10 has serial 383487743.
+ 80.851: grastorp.se INFO All SOA records have consistent serial numbers.
+ 80.851: grastorp.se INFO All other fields in the SOA record are consistent among all name servers.
+ 81.304: grastorp.se NOTICE The listed nameservers for grastorp.se all report the same set of nameservers.
+ 81.304: grastorp.se INFO Done testing zone consistency for grastorp.se.
+ 81.304: grastorp.se INFO Begin testing SOA parameters for grastorp.se.
+ 81.321: grastorp.se INFO Found SOA record for grastorp.se.
+ 81.342: grastorp.se INFO Begin testing host ns1.udac.se.
+ 81.534: grastorp.se INFO Begin testing address 193.44.79.8.
+ 83.362: grastorp.se INFO Done testing address 193.44.79.8.
+ 83.363: grastorp.se INFO Done testing host ns1.udac.se.
+ 83.363: grastorp.se INFO SOA MNAME for grastorp.se valid (ns1.udac.se).
+ 83.363: grastorp.se INFO SOA MNAME for grastorp.se (ns1.udac.se) listed as NS.
+ 83.651: grastorp.se INFO SOA MNAME for grastorp.se (ns1.udac.se) is authoritative.
+ 83.651: grastorp.se INFO Begin testing email address domain@udac.se.
+ 84.087: grastorp.se INFO Mail exchangers for domain@udac.se found cluster5.eu.messagelabs.com,cluster5a.eu.messagelabs.com.
+ 84.087: grastorp.se INFO Begin testing host cluster5.eu.messagelabs.com.
+ 85.421: grastorp.se INFO Begin testing address 193.109.255.99.
+ 89.729: grastorp.se INFO Done testing address 193.109.255.99.
+ 89.730: grastorp.se INFO Begin testing address 195.245.230.51.
+ 94.052: grastorp.se INFO Done testing address 195.245.230.51.
+ 94.073: grastorp.se INFO Begin testing address 85.158.136.83.
+ 97.688: grastorp.se INFO Done testing address 85.158.136.83.
+ 97.689: grastorp.se INFO Begin testing address 85.158.138.179.
+100.889: grastorp.se INFO Done testing address 85.158.138.179.
+100.890: grastorp.se INFO Begin testing address 85.158.139.163.
+103.154: grastorp.se INFO Done testing address 85.158.139.163.
+103.154: grastorp.se INFO Begin testing address 193.109.254.3.
+105.095: grastorp.se INFO Done testing address 193.109.254.3.
+105.095: grastorp.se INFO Done testing host cluster5.eu.messagelabs.com.
+105.830: grastorp.se INFO Begin testing host cluster5a.eu.messagelabs.com.
+107.679: grastorp.se INFO Begin testing address 85.158.139.103.
+110.581: grastorp.se INFO Done testing address 85.158.139.103.
+110.584: grastorp.se INFO Begin testing address 216.82.251.230.
+118.725: grastorp.se INFO Done testing address 216.82.251.230.
+118.726: grastorp.se INFO Done testing host cluster5a.eu.messagelabs.com.
+119.159: grastorp.se INFO Done testing email address domain@udac.se.
+119.159: grastorp.se INFO Successful attempt to deliver email for SOA RNAME of grastorp.se (domain.udac.se) using domain@udac.se.
+119.159: grastorp.se INFO SOA TTL for grastorp.se OK (3600) - recommended >= 3600.
+119.159: grastorp.se INFO SOA refresh for grastorp.se OK (14400) - recommended >= 14400.
+119.159: grastorp.se NOTICE SOA retry for grastorp.se too small (900) - recommended >= 3600.
+119.159: grastorp.se INFO SOA expire for grastorp.se OK (2419200) - recommended >= 604800.
+119.159: grastorp.se INFO SOA minimum for grastorp.se OK (3600) - recommended between 300 and 86400.
+119.159: grastorp.se INFO Done testing SOA parameters for grastorp.se.
+119.159: grastorp.se INFO Begin testing connectivity for grastorp.se.
+120.897: grastorp.se INFO Zone announced by more than one ASN.
+120.897: grastorp.se NOTICE Zone announced by fewer than two IPv6 ASN.
+120.897: grastorp.se INFO Done testing connectivity for grastorp.se.
+120.898: grastorp.se INFO Begin testing DNSSEC for grastorp.se.
+120.950: grastorp.se INFO Did not find DS record for grastorp.se at parent.
+120.997: grastorp.se INFO Servers for grastorp.se have consistent extra processing status.
+121.013: grastorp.se INFO Authenticated denial records not found for grastorp.se.
+121.023: grastorp.se INFO Did not find DNSKEY record for grastorp.se at child.
+121.023: grastorp.se INFO No DNSKEY(s) found at child, other tests skipped.
+121.023: grastorp.se INFO Done testing DNSSEC for grastorp.se.
+121.024: grastorp.se INFO Test completed for zone grastorp.se.

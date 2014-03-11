@@ -1,0 +1,90 @@
+  0.000: sysma.fi INFO Begin testing zone sysma.fi with version 1.6.1.
+  0.460: sysma.fi INFO Begin testing delegation for sysma.fi.
+  8.440: sysma.fi INFO Name servers listed at parent: ns1.hostingpalvelu.fi,ns2.hostingpalvelu.fi
+ 11.423: sysma.fi INFO Name servers listed at child: ns1.hostingpalvelu.fi,ns2.hostingpalvelu.fi
+ 11.459: sysma.fi NOTICE No IPv6 name servers found.
+ 11.574: sysma.fi INFO Parent glue for sysma.fi found: ns1.hostingpalvelu.fi (31.217.192.68)
+ 11.827: sysma.fi INFO Parent glue for sysma.fi found: ns2.hostingpalvelu.fi (185.17.151.137)
+ 12.048: sysma.fi INFO Checking glue for ns1.hostingpalvelu.fi (31.217.192.68).
+ 12.048: sysma.fi INFO Checking glue for ns2.hostingpalvelu.fi (185.17.151.137).
+ 12.049: sysma.fi INFO Parent glue for sysma.fi found: ns1.hostingpalvelu.fi (31.217.192.68)
+ 12.049: sysma.fi INFO Parent glue for sysma.fi found: ns2.hostingpalvelu.fi (185.17.151.137)
+ 13.157: sysma.fi INFO It is possible to build a referral packet for sysma.fi that works without EDNS0.
+ 13.848: sysma.fi INFO Previously used name servers for sysma.fi: 
+ 13.848: sysma.fi INFO Done testing delegation for sysma.fi.
+ 13.849: sysma.fi INFO Begin testing name server ns1.hostingpalvelu.fi.
+ 13.849: sysma.fi INFO Begin testing host ns1.hostingpalvelu.fi.
+ 14.202: sysma.fi INFO Begin testing address 31.217.192.68.
+ 21.552: sysma.fi INFO Done testing address 31.217.192.68.
+ 21.552: sysma.fi INFO Done testing host ns1.hostingpalvelu.fi.
+ 21.643: sysma.fi INFO Name server ns1.hostingpalvelu.fi (31.217.192.68) answers queries over UDP.
+ 21.673: sysma.fi INFO Name server ns1.hostingpalvelu.fi (31.217.192.68) answers queries over TCP.
+ 21.689: sysma.fi INFO Name server ns1.hostingpalvelu.fi (31.217.192.68) is not recursive.
+ 21.754: sysma.fi INFO Name server ns1.hostingpalvelu.fi (31.217.192.68) authoritative for sysma.fi.
+ 21.788: sysma.fi INFO Name server ns1.hostingpalvelu.fi (31.217.192.68) closed for zone transfer of sysma.fi.
+ 21.807: sysma.fi INFO Legacy name server ID for ns1.hostingpalvelu.fi (31.217.192.68): hostname.bind = ns1.hostingpalvelu.fi
+ 21.860: sysma.fi NOTICE No answer received from 31.217.192.68 when querying for version.server/CH/TXT.
+ 21.860: sysma.fi INFO Done testing name server ns1.hostingpalvelu.fi.
+ 21.860: sysma.fi INFO Begin testing name server ns2.hostingpalvelu.fi.
+ 21.860: sysma.fi INFO Begin testing host ns2.hostingpalvelu.fi.
+ 22.145: sysma.fi INFO Begin testing address 185.17.151.137.
+ 24.002: sysma.fi INFO Done testing address 185.17.151.137.
+ 24.002: sysma.fi INFO Done testing host ns2.hostingpalvelu.fi.
+ 24.283: sysma.fi INFO Name server ns2.hostingpalvelu.fi (185.17.151.137) answers queries over UDP.
+ 24.405: sysma.fi INFO Name server ns2.hostingpalvelu.fi (185.17.151.137) answers queries over TCP.
+ 24.465: sysma.fi INFO Name server ns2.hostingpalvelu.fi (185.17.151.137) is not recursive.
+ 24.741: sysma.fi INFO Name server ns2.hostingpalvelu.fi (185.17.151.137) authoritative for sysma.fi.
+ 24.954: sysma.fi INFO Name server ns2.hostingpalvelu.fi (185.17.151.137) closed for zone transfer of sysma.fi.
+ 25.014: sysma.fi INFO Legacy name server ID for ns2.hostingpalvelu.fi (185.17.151.137): hostname.bind = ns2.hostingpalvelu.fi
+ 25.200: sysma.fi NOTICE No answer received from 185.17.151.137 when querying for version.server/CH/TXT.
+ 25.200: sysma.fi INFO Done testing name server ns2.hostingpalvelu.fi.
+ 25.200: sysma.fi INFO Begin testing zone consistency for sysma.fi.
+ 26.002: sysma.fi INFO SOA at address 31.217.192.68 has serial 2014011405.
+ 26.087: sysma.fi INFO SOA at address 185.17.151.137 has serial 2014011405.
+ 26.087: sysma.fi INFO All SOA records have consistent serial numbers.
+ 26.087: sysma.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 26.733: sysma.fi NOTICE The listed nameservers for sysma.fi all report the same set of nameservers.
+ 26.733: sysma.fi INFO Done testing zone consistency for sysma.fi.
+ 26.733: sysma.fi INFO Begin testing SOA parameters for sysma.fi.
+ 26.801: sysma.fi INFO Found SOA record for sysma.fi.
+ 26.801: sysma.fi INFO Begin testing host ns1.hostingpalvelu.fi.
+ 27.175: sysma.fi INFO Begin testing address 31.217.192.68.
+ 27.457: sysma.fi INFO Done testing address 31.217.192.68.
+ 27.457: sysma.fi INFO Done testing host ns1.hostingpalvelu.fi.
+ 27.457: sysma.fi INFO SOA MNAME for sysma.fi valid (ns1.hostingpalvelu.fi).
+ 27.457: sysma.fi INFO SOA MNAME for sysma.fi (ns1.hostingpalvelu.fi) listed as NS.
+ 27.704: sysma.fi INFO SOA MNAME for sysma.fi (ns1.hostingpalvelu.fi) is authoritative.
+ 27.704: sysma.fi INFO Begin testing email address info@hostingpalvelu.fi.
+ 27.940: sysma.fi INFO Mail exchangers for info@hostingpalvelu.fi found securemail1.hostingservice.fi,securemail2.hostingservice.fi.
+ 27.940: sysma.fi INFO Begin testing host securemail1.hostingservice.fi.
+ 28.479: sysma.fi INFO Begin testing address 31.217.192.174.
+ 29.416: sysma.fi INFO Done testing address 31.217.192.174.
+ 29.416: sysma.fi INFO Begin testing address 31.217.192.66.
+ 30.668: sysma.fi INFO Done testing address 31.217.192.66.
+ 30.674: sysma.fi INFO Done testing host securemail1.hostingservice.fi.
+ 30.978: sysma.fi INFO Begin testing host securemail2.hostingservice.fi.
+ 31.643: sysma.fi INFO Begin testing address 31.217.192.176.
+ 36.868: sysma.fi INFO Done testing address 31.217.192.176.
+ 36.868: sysma.fi INFO Begin testing address 31.217.192.175.
+ 37.659: sysma.fi INFO Done testing address 31.217.192.175.
+ 37.659: sysma.fi INFO Done testing host securemail2.hostingservice.fi.
+ 37.939: sysma.fi INFO Done testing email address info@hostingpalvelu.fi.
+ 37.939: sysma.fi INFO Successful attempt to deliver email for SOA RNAME of sysma.fi (info.hostingpalvelu.fi) using info@hostingpalvelu.fi.
+ 37.939: sysma.fi INFO SOA TTL for sysma.fi OK (86400) - recommended >= 3600.
+ 37.939: sysma.fi INFO SOA refresh for sysma.fi OK (86400) - recommended >= 14400.
+ 37.939: sysma.fi INFO SOA retry for sysma.fi OK (7200) - recommended >= 3600.
+ 37.939: sysma.fi INFO SOA expire for sysma.fi OK (3600000) - recommended >= 604800.
+ 37.939: sysma.fi INFO SOA minimum for sysma.fi OK (86400) - recommended between 300 and 86400.
+ 37.955: sysma.fi INFO Done testing SOA parameters for sysma.fi.
+ 37.956: sysma.fi INFO Begin testing connectivity for sysma.fi.
+ 39.050: sysma.fi INFO Zone announced by more than one ASN.
+ 39.050: sysma.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 39.050: sysma.fi INFO Done testing connectivity for sysma.fi.
+ 39.050: sysma.fi INFO Begin testing DNSSEC for sysma.fi.
+ 39.296: sysma.fi INFO Did not find DS record for sysma.fi at parent.
+ 39.440: sysma.fi INFO Servers for sysma.fi have consistent extra processing status.
+ 39.554: sysma.fi INFO Authenticated denial records not found for sysma.fi.
+ 39.624: sysma.fi INFO Did not find DNSKEY record for sysma.fi at child.
+ 39.624: sysma.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 39.624: sysma.fi INFO Done testing DNSSEC for sysma.fi.
+ 39.624: sysma.fi INFO Test completed for zone sysma.fi.

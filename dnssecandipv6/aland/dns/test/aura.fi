@@ -1,0 +1,165 @@
+  0.000: aura.fi INFO Begin testing zone aura.fi with version 1.5.0.
+  0.408: aura.fi INFO Begin testing delegation for aura.fi.
+ 14.486: aura.fi INFO Name servers listed at parent: ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 19.221: aura.fi INFO Name servers listed at child: ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 19.266: aura.fi INFO Parent glue for aura.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+ 19.343: aura.fi INFO Parent glue for aura.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+ 19.502: aura.fi INFO Parent glue for aura.fi found: ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53)
+ 19.566: aura.fi INFO Parent glue for aura.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+ 19.583: aura.fi INFO Parent glue for aura.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+ 19.688: aura.fi INFO Checking glue for ns1-fin.global.sonera.fi (193.210.18.31).
+ 19.688: aura.fi INFO Checking glue for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53).
+ 19.688: aura.fi INFO Checking glue for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53).
+ 19.688: aura.fi INFO Checking glue for ns2-fin.global.sonera.fi (195.156.148.158).
+ 19.688: aura.fi INFO Checking glue for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53).
+ 19.689: aura.fi INFO Parent glue for aura.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+ 19.689: aura.fi INFO Parent glue for aura.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+ 19.706: aura.fi INFO Parent glue for aura.fi found: ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53)
+ 19.706: aura.fi INFO Parent glue for aura.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+ 19.706: aura.fi INFO Parent glue for aura.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+ 20.490: aura.fi INFO It is possible to build a referral packet for aura.fi that works without EDNS0.
+ 21.156: aura.fi INFO Previously used name servers for aura.fi: 
+ 21.156: aura.fi INFO Done testing delegation for aura.fi.
+ 21.157: aura.fi INFO Begin testing name server ns1-fin.global.sonera.fi.
+ 21.157: aura.fi INFO Begin testing host ns1-fin.global.sonera.fi.
+ 21.157: aura.fi INFO Begin testing address 193.210.18.31.
+ 31.586: aura.fi INFO Done testing address 193.210.18.31.
+ 31.586: aura.fi INFO Begin testing address 2001:2060:ffdd:a01:0:0:0:53.
+ 35.373: aura.fi INFO Done testing address 2001:2060:ffdd:a01:0:0:0:53.
+ 35.373: aura.fi INFO Done testing host ns1-fin.global.sonera.fi.
+ 35.402: aura.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over UDP.
+ 35.536: aura.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over TCP.
+ 35.613: aura.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) is not recursive.
+ 35.839: aura.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) authoritative for aura.fi.
+ 35.928: aura.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) closed for zone transfer of aura.fi.
+ 35.966: aura.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): hostname.bind = mgda1
+ 35.987: aura.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): version.bind = TeliaSonera Finland DNS MGDA
+ 36.037: aura.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): id.server = mgda1
+ 36.083: aura.fi NOTICE No answer received from 193.210.18.31 when querying for version.server/CH/TXT.
+ 36.244: aura.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) answers queries over UDP.
+ 36.413: aura.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) answers queries over TCP.
+ 36.516: aura.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) is not recursive.
+ 36.895: aura.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) authoritative for aura.fi.
+ 37.035: aura.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) closed for zone transfer of aura.fi.
+ 37.087: aura.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): hostname.bind = mgda1
+ 37.207: aura.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+ 37.248: aura.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): id.server = mgda2
+ 37.286: aura.fi NOTICE No answer received from 2001:2060:ffdd:a01:0:0:0:53 when querying for version.server/CH/TXT.
+ 37.286: aura.fi INFO Done testing name server ns1-fin.global.sonera.fi.
+ 37.286: aura.fi INFO Begin testing name server ns1-swe.global.sonera.se.
+ 37.286: aura.fi INFO Begin testing host ns1-swe.global.sonera.se.
+ 37.287: aura.fi INFO Begin testing address 80.64.9.124.
+ 39.264: aura.fi INFO Done testing address 80.64.9.124.
+ 39.264: aura.fi INFO Begin testing address 2001:6e8:400:ffff:1:0:0:53.
+ 40.296: aura.fi INFO Done testing address 2001:6e8:400:ffff:1:0:0:53.
+ 40.296: aura.fi INFO Done testing host ns1-swe.global.sonera.se.
+ 40.458: aura.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over UDP.
+ 40.555: aura.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over TCP.
+ 40.728: aura.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) is not recursive.
+ 41.131: aura.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) authoritative for aura.fi.
+ 41.316: aura.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) closed for zone transfer of aura.fi.
+ 41.388: aura.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): hostname.bind = mgda3
+ 41.472: aura.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): version.bind = TeliaSonera Finland DNS MGDA
+ 41.504: aura.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): id.server = mgda3
+ 41.546: aura.fi NOTICE No answer received from 80.64.9.124 when querying for version.server/CH/TXT.
+ 41.701: aura.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over UDP.
+ 41.823: aura.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over TCP.
+ 41.968: aura.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) is not recursive.
+ 42.413: aura.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) authoritative for aura.fi.
+ 42.561: aura.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) closed for zone transfer of aura.fi.
+ 42.596: aura.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): hostname.bind = mgda3
+ 42.656: aura.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+ 42.704: aura.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): id.server = mgda3
+ 42.834: aura.fi NOTICE No answer received from 2001:6e8:400:ffff:1:0:0:53 when querying for version.server/CH/TXT.
+ 42.834: aura.fi INFO Done testing name server ns1-swe.global.sonera.se.
+ 42.835: aura.fi INFO Begin testing name server ns2-fin.global.sonera.fi.
+ 42.835: aura.fi INFO Begin testing host ns2-fin.global.sonera.fi.
+ 42.835: aura.fi INFO Begin testing address 195.156.148.158.
+ 43.630: aura.fi INFO Done testing address 195.156.148.158.
+ 43.631: aura.fi INFO Begin testing address 2001:2060:ffdd:a02:0:0:0:53.
+ 44.952: aura.fi INFO Done testing address 2001:2060:ffdd:a02:0:0:0:53.
+ 44.952: aura.fi INFO Done testing host ns2-fin.global.sonera.fi.
+ 45.067: aura.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over UDP.
+ 45.456: aura.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over TCP.
+ 45.594: aura.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) is not recursive.
+ 45.975: aura.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) authoritative for aura.fi.
+ 46.160: aura.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) closed for zone transfer of aura.fi.
+ 46.264: aura.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): hostname.bind = mgda2
+ 46.312: aura.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): version.bind = TeliaSonera Finland DNS MGDA
+ 46.436: aura.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): id.server = mgda1
+ 46.521: aura.fi NOTICE No answer received from 195.156.148.158 when querying for version.server/CH/TXT.
+ 46.663: aura.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) answers queries over UDP.
+ 46.995: aura.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) answers queries over TCP.
+ 47.081: aura.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) is not recursive.
+ 47.719: aura.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) authoritative for aura.fi.
+ 47.837: aura.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) closed for zone transfer of aura.fi.
+ 47.980: aura.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): hostname.bind = mgda2
+ 48.100: aura.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+ 48.172: aura.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): id.server = mgda2
+ 48.216: aura.fi NOTICE No answer received from 2001:2060:ffdd:a02:0:0:0:53 when querying for version.server/CH/TXT.
+ 48.216: aura.fi INFO Done testing name server ns2-fin.global.sonera.fi.
+ 48.216: aura.fi INFO Begin testing name server ns2-usa.global.sonera.net.
+ 48.216: aura.fi INFO Begin testing host ns2-usa.global.sonera.net.
+ 48.723: aura.fi INFO Begin testing address 46.38.190.56.
+ 51.019: aura.fi INFO Done testing address 46.38.190.56.
+ 51.019: aura.fi INFO Done testing host ns2-usa.global.sonera.net.
+ 51.599: aura.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over UDP.
+ 51.751: aura.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over TCP.
+ 51.890: aura.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) is not recursive.
+ 52.150: aura.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) authoritative for aura.fi.
+ 52.284: aura.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) closed for zone transfer of aura.fi.
+ 52.336: aura.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): hostname.bind = mgda5
+ 52.400: aura.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): version.bind = TeliaSonera Finland DNS MGDA
+ 52.453: aura.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): id.server = mgda5
+ 52.600: aura.fi NOTICE No answer received from 46.38.190.56 when querying for version.server/CH/TXT.
+ 52.600: aura.fi INFO Done testing name server ns2-usa.global.sonera.net.
+ 52.600: aura.fi INFO Begin testing zone consistency for aura.fi.
+ 59.964: aura.fi INFO SOA at address 193.210.18.31 has serial 2012102615.
+ 59.989: aura.fi INFO SOA at address 80.64.9.124 has serial 2012102615.
+ 60.009: aura.fi INFO SOA at address 195.156.148.158 has serial 2012102615.
+ 60.073: aura.fi INFO SOA at address 2001:6e8:400:ffff:1:0:0:53 has serial 2012102615.
+ 60.150: aura.fi INFO SOA at address 46.38.190.56 has serial 2012102615.
+ 60.212: aura.fi INFO SOA at address 2001:2060:ffdd:a02:0:0:0:53 has serial 2012102615.
+ 60.212: aura.fi INFO All SOA records have consistent serial numbers.
+ 60.212: aura.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 60.789: aura.fi NOTICE The listed nameservers for aura.fi all report the same set of nameservers.
+ 60.789: aura.fi INFO Done testing zone consistency for aura.fi.
+ 60.789: aura.fi INFO Begin testing SOA parameters for aura.fi.
+ 60.806: aura.fi INFO Found SOA record for aura.fi.
+ 60.807: aura.fi INFO Begin testing host namesurfer.inet.fi.
+ 61.428: aura.fi INFO Begin testing address 131.177.73.253.
+ 68.340: aura.fi INFO Done testing address 131.177.73.253.
+ 68.340: aura.fi INFO Done testing host namesurfer.inet.fi.
+ 68.341: aura.fi INFO SOA MNAME for aura.fi valid (namesurfer.inet.fi).
+ 68.341: aura.fi NOTICE SOA MNAME for aura.fi (namesurfer.inet.fi) not listed as NS.
+ 74.668: aura.fi INFO SOA MNAME for aura.fi (namesurfer.inet.fi) is authoritative.
+ 74.668: aura.fi INFO Begin testing email address hostmaster@sonera.com.
+ 74.937: aura.fi INFO Mail exchangers for hostmaster@sonera.com found smtp.dave.sonera.fi,mail.cm.sonera.com.
+ 74.937: aura.fi INFO Begin testing host smtp.dave.sonera.fi.
+ 75.592: aura.fi INFO Begin testing address 131.177.120.25.
+ 76.224: aura.fi INFO Done testing address 131.177.120.25.
+ 76.224: aura.fi INFO Done testing host smtp.dave.sonera.fi.
+ 76.500: aura.fi INFO Begin testing host mail.cm.sonera.com.
+ 78.728: aura.fi INFO Begin testing address 193.208.151.61.
+ 80.908: aura.fi INFO Done testing address 193.208.151.61.
+ 80.908: aura.fi INFO Done testing host mail.cm.sonera.com.
+ 81.684: aura.fi INFO Done testing email address hostmaster@sonera.com.
+ 81.684: aura.fi INFO Successful attempt to deliver email for SOA RNAME of aura.fi (hostmaster.sonera.com) using hostmaster@sonera.com.
+ 81.684: aura.fi NOTICE SOA TTL for aura.fi too small (1200) - recommended >= 3600.
+ 81.684: aura.fi NOTICE SOA refresh for aura.fi too small (1800) - recommended >= 14400.
+ 81.684: aura.fi NOTICE SOA retry for aura.fi too small (900) - recommended >= 3600.
+ 81.684: aura.fi INFO SOA expire for aura.fi OK (604800) - recommended >= 604800.
+ 81.685: aura.fi INFO SOA minimum for aura.fi OK (1200) - recommended between 300 and 86400.
+ 81.685: aura.fi INFO Done testing SOA parameters for aura.fi.
+ 81.685: aura.fi INFO Begin testing connectivity for aura.fi.
+ 86.322: aura.fi INFO Zone announced by more than one ASN.
+ 89.614: aura.fi INFO Zone announced by more than one IPv6 ASN.
+ 89.614: aura.fi INFO Done testing connectivity for aura.fi.
+ 89.614: aura.fi INFO Begin testing DNSSEC for aura.fi.
+ 89.895: aura.fi INFO Did not find DS record for aura.fi at parent.
+ 91.048: aura.fi INFO Servers for aura.fi have consistent extra processing status.
+ 91.144: aura.fi INFO Authenticated denial records not found for aura.fi.
+ 91.217: aura.fi INFO Did not find DNSKEY record for aura.fi at child.
+ 91.217: aura.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 91.217: aura.fi INFO Done testing DNSSEC for aura.fi.
+ 91.218: aura.fi INFO Test completed for zone aura.fi.

@@ -1,0 +1,105 @@
+  0.000: ballou.se INFO Begin testing zone ballou.se with version 1.5.0.
+  0.001: ballou.se INFO Begin testing delegation for ballou.se.
+ 10.051: ballou.se INFO Name servers listed at parent: ns1.ballou.se,ns2.ballou.se,ns3.ballou.se
+ 13.551: ballou.se INFO Name servers listed at child: ns1.ballou.se,ns2.ballou.se,ns3.ballou.se
+ 13.569: ballou.se NOTICE No IPv6 name servers found.
+ 13.631: ballou.se INFO Parent glue for ballou.se found: ns1.ballou.se (91.189.40.4)
+ 13.671: ballou.se INFO Parent glue for ballou.se found: ns2.ballou.se (91.189.41.4)
+ 13.694: ballou.se INFO Parent glue for ballou.se found: ns3.ballou.se (91.123.203.9)
+ 13.819: ballou.se INFO Checking glue for ns1.ballou.se (91.189.40.4).
+ 13.880: ballou.se INFO Child glue for ballou.se found: ns1.ballou.se (91.189.40.4)
+ 13.880: ballou.se INFO Checking glue for ns2.ballou.se (91.189.41.4).
+ 13.917: ballou.se INFO Child glue for ballou.se found: ns2.ballou.se (91.189.41.4)
+ 13.917: ballou.se INFO Checking glue for ns3.ballou.se (91.123.203.9).
+ 13.981: ballou.se INFO Child glue for ballou.se found: ns3.ballou.se (91.123.203.9)
+ 13.981: ballou.se INFO Parent glue for ballou.se found: ns1.ballou.se (91.189.40.4)
+ 14.017: ballou.se INFO Parent glue for ballou.se found: ns2.ballou.se (91.189.41.4)
+ 14.018: ballou.se INFO Parent glue for ballou.se found: ns3.ballou.se (91.123.203.9)
+ 15.345: ballou.se INFO It is possible to build a referral packet for ballou.se that works without EDNS0.
+ 15.346: ballou.se INFO Done testing delegation for ballou.se.
+ 15.346: ballou.se INFO Begin testing name server ns1.ballou.se.
+ 15.346: ballou.se INFO Begin testing host ns1.ballou.se.
+ 15.733: ballou.se INFO Begin testing address 91.189.40.4.
+ 30.820: ballou.se INFO Done testing address 91.189.40.4.
+ 30.820: ballou.se INFO Done testing host ns1.ballou.se.
+ 31.222: ballou.se INFO Name server ns1.ballou.se (91.189.40.4) answers queries over UDP.
+ 31.269: ballou.se INFO Name server ns1.ballou.se (91.189.40.4) answers queries over TCP.
+ 31.293: ballou.se INFO Name server ns1.ballou.se (91.189.40.4) is not recursive.
+ 31.414: ballou.se INFO Name server ns1.ballou.se (91.189.40.4) authoritative for ballou.se.
+ 31.493: ballou.se INFO Name server ns1.ballou.se (91.189.40.4) closed for zone transfer of ballou.se.
+ 31.528: ballou.se INFO Legacy name server ID for ns1.ballou.se (91.189.40.4): hostname.bind = ns1-ballou
+ 31.574: ballou.se INFO Legacy name server ID for ns1.ballou.se (91.189.40.4): version.bind = N/A
+ 31.608: ballou.se NOTICE No answer received from 91.189.40.4 when querying for version.server/CH/TXT.
+ 31.608: ballou.se INFO Done testing name server ns1.ballou.se.
+ 31.608: ballou.se INFO Begin testing name server ns2.ballou.se.
+ 31.608: ballou.se INFO Begin testing host ns2.ballou.se.
+ 31.876: ballou.se INFO Begin testing address 91.189.41.4.
+ 32.915: ballou.se INFO Done testing address 91.189.41.4.
+ 32.916: ballou.se INFO Done testing host ns2.ballou.se.
+ 33.262: ballou.se INFO Name server ns2.ballou.se (91.189.41.4) answers queries over UDP.
+ 33.299: ballou.se INFO Name server ns2.ballou.se (91.189.41.4) answers queries over TCP.
+ 33.316: ballou.se INFO Name server ns2.ballou.se (91.189.41.4) is not recursive.
+ 33.401: ballou.se INFO Name server ns2.ballou.se (91.189.41.4) authoritative for ballou.se.
+ 33.452: ballou.se INFO Name server ns2.ballou.se (91.189.41.4) closed for zone transfer of ballou.se.
+ 33.469: ballou.se INFO Legacy name server ID for ns2.ballou.se (91.189.41.4): hostname.bind = ns2-ballou
+ 33.488: ballou.se INFO Legacy name server ID for ns2.ballou.se (91.189.41.4): version.bind = N/A
+ 33.521: ballou.se NOTICE No answer received from 91.189.41.4 when querying for version.server/CH/TXT.
+ 33.521: ballou.se INFO Done testing name server ns2.ballou.se.
+ 33.521: ballou.se INFO Begin testing name server ns3.ballou.se.
+ 33.521: ballou.se INFO Begin testing host ns3.ballou.se.
+ 33.822: ballou.se INFO Begin testing address 91.123.203.9.
+ 35.209: ballou.se INFO Done testing address 91.123.203.9.
+ 35.209: ballou.se INFO Done testing host ns3.ballou.se.
+ 35.580: ballou.se INFO Name server ns3.ballou.se (91.123.203.9) answers queries over UDP.
+ 35.613: ballou.se INFO Name server ns3.ballou.se (91.123.203.9) answers queries over TCP.
+ 35.640: ballou.se INFO Name server ns3.ballou.se (91.123.203.9) is not recursive.
+ 35.735: ballou.se INFO Name server ns3.ballou.se (91.123.203.9) authoritative for ballou.se.
+ 35.798: ballou.se INFO Name server ns3.ballou.se (91.123.203.9) closed for zone transfer of ballou.se.
+ 35.824: ballou.se INFO Legacy name server ID for ns3.ballou.se (91.123.203.9): hostname.bind = ns3.ballou.se
+ 35.863: ballou.se INFO Legacy name server ID for ns3.ballou.se (91.123.203.9): version.bind = N/A
+ 35.929: ballou.se NOTICE No answer received from 91.123.203.9 when querying for version.server/CH/TXT.
+ 35.930: ballou.se INFO Done testing name server ns3.ballou.se.
+ 35.930: ballou.se INFO Begin testing zone consistency for ballou.se.
+ 38.112: ballou.se INFO SOA at address 91.123.203.9 has serial 2013070904.
+ 38.141: ballou.se INFO SOA at address 91.189.40.4 has serial 2013070904.
+ 38.203: ballou.se INFO SOA at address 91.189.41.4 has serial 2013070904.
+ 38.203: ballou.se INFO All SOA records have consistent serial numbers.
+ 38.204: ballou.se INFO All other fields in the SOA record are consistent among all name servers.
+ 39.364: ballou.se NOTICE The listed nameservers for ballou.se all report the same set of nameservers.
+ 39.364: ballou.se INFO Done testing zone consistency for ballou.se.
+ 39.364: ballou.se INFO Begin testing SOA parameters for ballou.se.
+ 39.382: ballou.se INFO Found SOA record for ballou.se.
+ 39.382: ballou.se INFO Begin testing host ns1.ballou.se.
+ 39.807: ballou.se INFO Begin testing address 91.189.40.4.
+ 40.168: ballou.se INFO Done testing address 91.189.40.4.
+ 40.168: ballou.se INFO Done testing host ns1.ballou.se.
+ 40.168: ballou.se INFO SOA MNAME for ballou.se valid (ns1.ballou.se).
+ 40.168: ballou.se INFO SOA MNAME for ballou.se (ns1.ballou.se) listed as NS.
+ 40.561: ballou.se INFO SOA MNAME for ballou.se (ns1.ballou.se) is authoritative.
+ 40.562: ballou.se INFO Begin testing email address administrator@ballou.se.
+ 41.049: ballou.se INFO Mail exchangers for administrator@ballou.se found mail.ballou.se.
+ 41.049: ballou.se INFO All mail servers for administrator@ballou.se are in zone ballou.se.
+ 41.050: ballou.se INFO Begin testing host mail.ballou.se.
+ 41.776: ballou.se INFO Begin testing address 91.189.40.201.
+ 42.876: ballou.se INFO Done testing address 91.189.40.201.
+ 42.876: ballou.se INFO Done testing host mail.ballou.se.
+ 43.163: ballou.se INFO Done testing email address administrator@ballou.se.
+ 43.163: ballou.se INFO Successful attempt to deliver email for SOA RNAME of ballou.se (administrator.ballou.se) using administrator@ballou.se.
+ 43.163: ballou.se NOTICE SOA TTL for ballou.se too small (30) - recommended >= 3600.
+ 43.163: ballou.se NOTICE SOA refresh for ballou.se too small (1800) - recommended >= 14400.
+ 43.163: ballou.se NOTICE SOA retry for ballou.se too small (900) - recommended >= 3600.
+ 43.163: ballou.se INFO SOA expire for ballou.se OK (604800) - recommended >= 604800.
+ 43.164: ballou.se NOTICE SOA minimum for ballou.se too small (30) - recommended >= 300.
+ 43.164: ballou.se INFO Done testing SOA parameters for ballou.se.
+ 43.164: ballou.se INFO Begin testing connectivity for ballou.se.
+ 45.100: ballou.se INFO Zone announced by more than one ASN.
+ 45.101: ballou.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 45.101: ballou.se INFO Done testing connectivity for ballou.se.
+ 45.101: ballou.se INFO Begin testing DNSSEC for ballou.se.
+ 45.185: ballou.se INFO Did not find DS record for ballou.se at parent.
+ 45.354: ballou.se INFO Servers for ballou.se have consistent extra processing status.
+ 45.388: ballou.se INFO Authenticated denial records not found for ballou.se.
+ 45.406: ballou.se INFO Did not find DNSKEY record for ballou.se at child.
+ 45.406: ballou.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 45.406: ballou.se INFO Done testing DNSSEC for ballou.se.
+ 45.407: ballou.se INFO Test completed for zone ballou.se.

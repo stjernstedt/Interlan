@@ -1,0 +1,93 @@
+  0.000: tokke.kommune.no INFO Begin testing zone tokke.kommune.no with version 1.6.1.
+  0.323: tokke.kommune.no INFO Begin testing delegation for tokke.kommune.no.
+  7.618: tokke.kommune.no INFO Name servers listed at parent: ns.dataservice.no,ns1.dataservice.no
+  8.932: tokke.kommune.no INFO Name servers listed at child: ns.dataservice.no,ns1.dataservice.no
+  8.933: tokke.kommune.no NOTICE No IPv6 name servers found.
+  9.090: tokke.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.248: tokke.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.417: tokke.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.548: tokke.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.304: tokke.kommune.no INFO It is possible to build a referral packet for tokke.kommune.no that works without EDNS0.
+ 10.734: tokke.kommune.no INFO Previously used name servers for tokke.kommune.no: 
+ 10.734: tokke.kommune.no INFO Done testing delegation for tokke.kommune.no.
+ 10.734: tokke.kommune.no INFO Begin testing name server ns.dataservice.no.
+ 10.734: tokke.kommune.no INFO Begin testing host ns.dataservice.no.
+ 10.981: tokke.kommune.no INFO Begin testing address 178.21.128.157.
+ 21.424: tokke.kommune.no WARNING Could not find reverse address for 178.21.128.157 (157.128.21.178.in-addr.arpa.).
+ 21.424: tokke.kommune.no INFO Done testing address 178.21.128.157.
+ 21.424: tokke.kommune.no INFO Done testing host ns.dataservice.no.
+ 21.633: tokke.kommune.no INFO Name server ns.dataservice.no (178.21.128.157) answers queries over UDP.
+ 21.694: tokke.kommune.no INFO Name server ns.dataservice.no (178.21.128.157) answers queries over TCP.
+ 25.731: tokke.kommune.no INFO Name server ns.dataservice.no (178.21.128.157) is not recursive.
+ 25.885: tokke.kommune.no INFO Name server ns.dataservice.no (178.21.128.157) authoritative for tokke.kommune.no.
+ 25.961: tokke.kommune.no INFO Name server ns.dataservice.no (178.21.128.157) closed for zone transfer of tokke.kommune.no.
+ 25.985: tokke.kommune.no NOTICE DNS lookup error (FORMERR).
+ 26.024: tokke.kommune.no NOTICE DNS lookup error (FORMERR).
+ 26.049: tokke.kommune.no NOTICE DNS lookup error (FORMERR).
+ 26.074: tokke.kommune.no NOTICE DNS lookup error (FORMERR).
+ 26.074: tokke.kommune.no INFO Done testing name server ns.dataservice.no.
+ 26.074: tokke.kommune.no INFO Begin testing name server ns1.dataservice.no.
+ 26.074: tokke.kommune.no INFO Begin testing host ns1.dataservice.no.
+ 26.220: tokke.kommune.no INFO Begin testing address 109.109.80.76.
+ 27.451: tokke.kommune.no INFO Done testing address 109.109.80.76.
+ 27.463: tokke.kommune.no INFO Done testing host ns1.dataservice.no.
+ 27.627: tokke.kommune.no INFO Name server ns1.dataservice.no (109.109.80.76) answers queries over UDP.
+ 27.688: tokke.kommune.no INFO Name server ns1.dataservice.no (109.109.80.76) answers queries over TCP.
+ 31.710: tokke.kommune.no INFO Name server ns1.dataservice.no (109.109.80.76) is not recursive.
+ 31.798: tokke.kommune.no INFO Name server ns1.dataservice.no (109.109.80.76) authoritative for tokke.kommune.no.
+ 31.851: tokke.kommune.no INFO Name server ns1.dataservice.no (109.109.80.76) closed for zone transfer of tokke.kommune.no.
+ 31.868: tokke.kommune.no NOTICE DNS lookup error (FORMERR).
+ 31.884: tokke.kommune.no NOTICE DNS lookup error (FORMERR).
+ 31.901: tokke.kommune.no NOTICE DNS lookup error (FORMERR).
+ 31.919: tokke.kommune.no NOTICE DNS lookup error (FORMERR).
+ 31.923: tokke.kommune.no INFO Done testing name server ns1.dataservice.no.
+ 31.924: tokke.kommune.no INFO Begin testing zone consistency for tokke.kommune.no.
+ 32.529: tokke.kommune.no INFO SOA at address 178.21.128.157 has serial 1393829701.
+ 32.561: tokke.kommune.no INFO SOA at address 109.109.80.76 has serial 1393829701.
+ 32.561: tokke.kommune.no INFO All SOA records have consistent serial numbers.
+ 32.561: tokke.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 32.969: tokke.kommune.no NOTICE The listed nameservers for tokke.kommune.no all report the same set of nameservers.
+ 32.969: tokke.kommune.no INFO Done testing zone consistency for tokke.kommune.no.
+ 32.969: tokke.kommune.no INFO Begin testing SOA parameters for tokke.kommune.no.
+ 32.996: tokke.kommune.no INFO Found SOA record for tokke.kommune.no.
+ 32.996: tokke.kommune.no INFO Begin testing host ns1.dataservice.no.
+ 33.102: tokke.kommune.no INFO Begin testing address 109.109.80.76.
+ 33.221: tokke.kommune.no INFO Done testing address 109.109.80.76.
+ 33.221: tokke.kommune.no INFO Done testing host ns1.dataservice.no.
+ 33.221: tokke.kommune.no INFO SOA MNAME for tokke.kommune.no valid (ns1.dataservice.no).
+ 33.221: tokke.kommune.no INFO SOA MNAME for tokke.kommune.no (ns1.dataservice.no) listed as NS.
+ 33.389: tokke.kommune.no INFO SOA MNAME for tokke.kommune.no (ns1.dataservice.no) is authoritative.
+ 33.389: tokke.kommune.no INFO Begin testing email address postmottak@tokke.kommune.no.
+ 33.521: tokke.kommune.no INFO Mail exchangers for postmottak@tokke.kommune.no found gw1.security.comendo.com,gw2.security.comendo.com,gw3.security.comendo.com.
+ 33.521: tokke.kommune.no INFO Begin testing host gw1.security.comendo.com.
+ 34.479: tokke.kommune.no INFO Begin testing address 89.104.217.10.
+ 35.283: tokke.kommune.no INFO Done testing address 89.104.217.10.
+ 35.283: tokke.kommune.no INFO Done testing host gw1.security.comendo.com.
+ 35.385: tokke.kommune.no INFO Begin testing host gw2.security.comendo.com.
+ 35.724: tokke.kommune.no INFO Begin testing address 89.104.217.10.
+ 35.852: tokke.kommune.no INFO Done testing address 89.104.217.10.
+ 35.852: tokke.kommune.no INFO Done testing host gw2.security.comendo.com.
+ 36.105: tokke.kommune.no INFO Begin testing host gw3.security.comendo.com.
+ 36.768: tokke.kommune.no INFO Begin testing address 89.104.216.11.
+ 37.699: tokke.kommune.no INFO Done testing address 89.104.216.11.
+ 37.699: tokke.kommune.no INFO Done testing host gw3.security.comendo.com.
+ 38.041: tokke.kommune.no INFO Done testing email address postmottak@tokke.kommune.no.
+ 38.042: tokke.kommune.no INFO Successful attempt to deliver email for SOA RNAME of tokke.kommune.no (postmottak.tokke.kommune.no) using postmottak@tokke.kommune.no.
+ 38.042: tokke.kommune.no INFO SOA TTL for tokke.kommune.no OK (3600) - recommended >= 3600.
+ 38.042: tokke.kommune.no INFO SOA refresh for tokke.kommune.no OK (16384) - recommended >= 14400.
+ 38.042: tokke.kommune.no NOTICE SOA retry for tokke.kommune.no too small (2048) - recommended >= 3600.
+ 38.042: tokke.kommune.no INFO SOA expire for tokke.kommune.no OK (1048576) - recommended >= 604800.
+ 38.042: tokke.kommune.no INFO SOA minimum for tokke.kommune.no OK (2560) - recommended between 300 and 86400.
+ 38.042: tokke.kommune.no INFO Done testing SOA parameters for tokke.kommune.no.
+ 38.042: tokke.kommune.no INFO Begin testing connectivity for tokke.kommune.no.
+ 39.750: tokke.kommune.no INFO Zone announced by more than one ASN.
+ 39.751: tokke.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 39.751: tokke.kommune.no INFO Done testing connectivity for tokke.kommune.no.
+ 39.751: tokke.kommune.no INFO Begin testing DNSSEC for tokke.kommune.no.
+ 39.831: tokke.kommune.no INFO Did not find DS record for tokke.kommune.no at parent.
+ 39.914: tokke.kommune.no INFO Servers for tokke.kommune.no have consistent extra processing status.
+ 39.963: tokke.kommune.no INFO Authenticated denial records not found for tokke.kommune.no.
+ 39.991: tokke.kommune.no INFO Did not find DNSKEY record for tokke.kommune.no at child.
+ 39.991: tokke.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 39.991: tokke.kommune.no INFO Done testing DNSSEC for tokke.kommune.no.
+ 39.991: tokke.kommune.no INFO Test completed for zone tokke.kommune.no.

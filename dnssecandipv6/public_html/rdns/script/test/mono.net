@@ -1,0 +1,86 @@
+  0.000: mono.net INFO Begin testing zone mono.net with version 1.5.0.
+  0.001: mono.net INFO Begin testing delegation for mono.net.
+ 23.572: mono.net INFO Name servers listed at parent: ns1.mono.net,ns2.mono.net
+ 26.430: mono.net INFO Name servers listed at child: ns1.mono.net,ns2.mono.net
+ 26.430: mono.net NOTICE No IPv6 name servers found.
+ 26.753: mono.net INFO Parent glue for mono.net found: ns1.mono.net (77.66.16.15)
+ 26.883: mono.net INFO Parent glue for mono.net found: ns2.mono.net (77.66.17.89)
+ 26.990: mono.net INFO Checking glue for ns1.mono.net (77.66.16.15).
+ 27.009: mono.net INFO Child glue for mono.net found: ns1.mono.net (77.66.16.15)
+ 27.009: mono.net INFO Checking glue for ns2.mono.net (77.66.17.89).
+ 27.026: mono.net INFO Child glue for mono.net found: ns2.mono.net (77.66.17.89)
+ 27.027: mono.net INFO Parent glue for mono.net found: ns1.mono.net (77.66.16.15)
+ 27.027: mono.net INFO Parent glue for mono.net found: ns2.mono.net (77.66.17.89)
+ 28.574: mono.net INFO It is possible to build a referral packet for mono.net that works without EDNS0.
+ 28.574: mono.net INFO Done testing delegation for mono.net.
+ 28.575: mono.net INFO Begin testing name server ns1.mono.net.
+ 28.575: mono.net INFO Begin testing host ns1.mono.net.
+ 29.086: mono.net INFO Begin testing address 77.66.16.15.
+ 36.821: mono.net WARNING Could not find reverse address for 77.66.16.15 (15.16.66.77.in-addr.arpa.).
+ 36.821: mono.net INFO Done testing address 77.66.16.15.
+ 36.821: mono.net INFO Done testing host ns1.mono.net.
+ 37.305: mono.net INFO Name server ns1.mono.net (77.66.16.15) answers queries over UDP.
+ 37.349: mono.net INFO Name server ns1.mono.net (77.66.16.15) answers queries over TCP.
+ 37.370: mono.net INFO Name server ns1.mono.net (77.66.16.15) is not recursive.
+ 37.448: mono.net INFO Name server ns1.mono.net (77.66.16.15) authoritative for mono.net.
+ 37.502: mono.net INFO Name server ns1.mono.net (77.66.16.15) closed for zone transfer of mono.net.
+ 37.542: mono.net INFO Legacy name server ID for ns1.mono.net (77.66.16.15): version.bind = Served by PowerDNS - http://www.powerdns.com
+ 37.582: mono.net INFO Done testing name server ns1.mono.net.
+ 37.582: mono.net INFO Begin testing name server ns2.mono.net.
+ 37.582: mono.net INFO Begin testing host ns2.mono.net.
+ 37.877: mono.net INFO Begin testing address 77.66.17.89.
+ 38.408: mono.net WARNING Could not find reverse address for 77.66.17.89 (89.17.66.77.in-addr.arpa.).
+ 38.408: mono.net INFO Done testing address 77.66.17.89.
+ 38.409: mono.net INFO Done testing host ns2.mono.net.
+ 39.001: mono.net INFO Name server ns2.mono.net (77.66.17.89) answers queries over UDP.
+ 39.038: mono.net INFO Name server ns2.mono.net (77.66.17.89) answers queries over TCP.
+ 39.058: mono.net INFO Name server ns2.mono.net (77.66.17.89) is not recursive.
+ 39.142: mono.net INFO Name server ns2.mono.net (77.66.17.89) authoritative for mono.net.
+ 39.190: mono.net INFO Name server ns2.mono.net (77.66.17.89) closed for zone transfer of mono.net.
+ 39.225: mono.net INFO Legacy name server ID for ns2.mono.net (77.66.17.89): version.bind = Served by PowerDNS - http://www.powerdns.com
+ 39.260: mono.net INFO Done testing name server ns2.mono.net.
+ 39.261: mono.net INFO Begin testing zone consistency for mono.net.
+ 41.159: mono.net INFO SOA at address 77.66.17.89 has serial 0.
+ 41.185: mono.net INFO SOA at address 77.66.16.15 has serial 0.
+ 41.185: mono.net INFO All SOA records have consistent serial numbers.
+ 41.185: mono.net INFO All other fields in the SOA record are consistent among all name servers.
+ 42.640: mono.net NOTICE The listed nameservers for mono.net all report the same set of nameservers.
+ 42.640: mono.net INFO Done testing zone consistency for mono.net.
+ 42.640: mono.net INFO Begin testing SOA parameters for mono.net.
+ 42.676: mono.net INFO Found SOA record for mono.net.
+ 42.676: mono.net INFO Begin testing host ns1.mono.net.
+ 43.101: mono.net INFO Begin testing address 77.66.16.15.
+ 43.103: mono.net WARNING Could not find reverse address for 77.66.16.15 (15.16.66.77.in-addr.arpa.).
+ 43.103: mono.net INFO Done testing address 77.66.16.15.
+ 43.103: mono.net INFO Done testing host ns1.mono.net.
+ 43.103: mono.net INFO SOA MNAME for mono.net valid (ns1.mono.net).
+ 43.104: mono.net INFO SOA MNAME for mono.net (ns1.mono.net) listed as NS.
+ 43.436: mono.net INFO SOA MNAME for mono.net (ns1.mono.net) is authoritative.
+ 43.436: mono.net INFO Begin testing email address domains@mono.net.
+ 43.849: mono.net INFO Mail exchangers for domains@mono.net found mx.mono.net.
+ 43.849: mono.net INFO All mail servers for domains@mono.net are in zone mono.net.
+ 43.850: mono.net INFO Begin testing host mx.mono.net.
+ 45.658: mono.net ERROR Host name mx.mono.net refers to a CNAME.
+ 45.658: mono.net INFO Done testing host mx.mono.net.
+ 45.658: mono.net NOTICE Invalid host name for mail exchanger mx.mono.net.
+ 45.658: mono.net INFO Done testing email address domains@mono.net.
+ 45.658: mono.net INFO Successful attempt to deliver email for SOA RNAME of mono.net (domains.mono.net) using domains@mono.net.
+ 45.658: mono.net INFO SOA TTL for mono.net OK (43200) - recommended >= 3600.
+ 45.659: mono.net NOTICE SOA refresh for mono.net too small (10800) - recommended >= 14400.
+ 45.659: mono.net INFO SOA retry for mono.net OK (3600) - recommended >= 3600.
+ 45.659: mono.net INFO SOA expire for mono.net OK (604800) - recommended >= 604800.
+ 45.659: mono.net INFO SOA minimum for mono.net OK (3600) - recommended between 300 and 86400.
+ 45.659: mono.net WARNING The serial number in the SOA record for zone mono.net should not be zero.
+ 45.659: mono.net INFO Done testing SOA parameters for mono.net.
+ 45.660: mono.net INFO Begin testing connectivity for mono.net.
+ 47.266: mono.net NOTICE Zone announced by fewer than two IPv4 ASN.
+ 47.266: mono.net NOTICE Zone announced by fewer than two IPv6 ASN.
+ 47.267: mono.net INFO Done testing connectivity for mono.net.
+ 47.267: mono.net INFO Begin testing DNSSEC for mono.net.
+ 47.610: mono.net INFO Did not find DS record for mono.net at parent.
+ 47.686: mono.net INFO Servers for mono.net have consistent extra processing status.
+ 47.728: mono.net INFO Authenticated denial records not found for mono.net.
+ 47.753: mono.net INFO Did not find DNSKEY record for mono.net at child.
+ 47.753: mono.net INFO No DNSKEY(s) found at child, other tests skipped.
+ 47.754: mono.net INFO Done testing DNSSEC for mono.net.
+ 47.754: mono.net INFO Test completed for zone mono.net.

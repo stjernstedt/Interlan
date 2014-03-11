@@ -1,0 +1,82 @@
+  0.000: punkalaidun.fi INFO Begin testing zone punkalaidun.fi with version 1.6.1.
+  0.405: punkalaidun.fi INFO Begin testing delegation for punkalaidun.fi.
+  8.584: punkalaidun.fi INFO Name servers listed at parent: ns1.kopteri.net,ns3.kopteri.net
+ 10.571: punkalaidun.fi INFO Name servers listed at child: ns1.kopteri.net,ns3.kopteri.net
+ 10.571: punkalaidun.fi NOTICE No IPv6 name servers found.
+ 12.353: punkalaidun.fi INFO It is possible to build a referral packet for punkalaidun.fi that works without EDNS0.
+ 13.410: punkalaidun.fi INFO Previously used name servers for punkalaidun.fi: 
+ 13.410: punkalaidun.fi INFO Done testing delegation for punkalaidun.fi.
+ 13.410: punkalaidun.fi INFO Begin testing name server ns1.kopteri.net.
+ 13.410: punkalaidun.fi INFO Begin testing host ns1.kopteri.net.
+ 13.857: punkalaidun.fi INFO Begin testing address 80.95.128.10.
+ 24.318: punkalaidun.fi INFO Done testing address 80.95.128.10.
+ 24.318: punkalaidun.fi INFO Done testing host ns1.kopteri.net.
+ 24.851: punkalaidun.fi INFO Name server ns1.kopteri.net (80.95.128.10) answers queries over UDP.
+ 24.940: punkalaidun.fi INFO Name server ns1.kopteri.net (80.95.128.10) answers queries over TCP.
+ 24.965: punkalaidun.fi INFO Name server ns1.kopteri.net (80.95.128.10) is not recursive.
+ 25.063: punkalaidun.fi INFO Name server ns1.kopteri.net (80.95.128.10) authoritative for punkalaidun.fi.
+ 25.109: punkalaidun.fi INFO Name server ns1.kopteri.net (80.95.128.10) closed for zone transfer of punkalaidun.fi.
+ 25.139: punkalaidun.fi INFO Legacy name server ID for ns1.kopteri.net (80.95.128.10): hostname.bind = www
+ 25.205: punkalaidun.fi INFO Legacy name server ID for ns1.kopteri.net (80.95.128.10): version.bind = 9.8.1-P1
+ 25.251: punkalaidun.fi NOTICE No answer received from 80.95.128.10 when querying for version.server/CH/TXT.
+ 25.251: punkalaidun.fi INFO Done testing name server ns1.kopteri.net.
+ 25.251: punkalaidun.fi INFO Begin testing name server ns3.kopteri.net.
+ 25.251: punkalaidun.fi INFO Begin testing host ns3.kopteri.net.
+ 25.439: punkalaidun.fi INFO Begin testing address 80.95.128.11.
+ 26.073: punkalaidun.fi INFO Done testing address 80.95.128.11.
+ 26.073: punkalaidun.fi INFO Done testing host ns3.kopteri.net.
+ 26.606: punkalaidun.fi INFO Name server ns3.kopteri.net (80.95.128.11) answers queries over UDP.
+ 26.689: punkalaidun.fi INFO Name server ns3.kopteri.net (80.95.128.11) answers queries over TCP.
+ 26.733: punkalaidun.fi INFO Name server ns3.kopteri.net (80.95.128.11) is not recursive.
+ 26.906: punkalaidun.fi INFO Name server ns3.kopteri.net (80.95.128.11) authoritative for punkalaidun.fi.
+ 26.963: punkalaidun.fi INFO Name server ns3.kopteri.net (80.95.128.11) closed for zone transfer of punkalaidun.fi.
+ 26.980: punkalaidun.fi INFO Legacy name server ID for ns3.kopteri.net (80.95.128.11): hostname.bind = proxy
+ 27.009: punkalaidun.fi INFO Legacy name server ID for ns3.kopteri.net (80.95.128.11): version.bind = 9.7.0-P1
+ 27.049: punkalaidun.fi NOTICE No answer received from 80.95.128.11 when querying for version.server/CH/TXT.
+ 27.049: punkalaidun.fi INFO Done testing name server ns3.kopteri.net.
+ 27.049: punkalaidun.fi INFO Begin testing zone consistency for punkalaidun.fi.
+ 28.253: punkalaidun.fi INFO SOA at address 80.95.128.10 has serial 2013091201.
+ 28.278: punkalaidun.fi INFO SOA at address 80.95.128.11 has serial 2013091201.
+ 28.278: punkalaidun.fi INFO All SOA records have consistent serial numbers.
+ 28.278: punkalaidun.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 29.320: punkalaidun.fi NOTICE The listed nameservers for punkalaidun.fi all report the same set of nameservers.
+ 29.320: punkalaidun.fi INFO Done testing zone consistency for punkalaidun.fi.
+ 29.320: punkalaidun.fi INFO Begin testing SOA parameters for punkalaidun.fi.
+ 29.362: punkalaidun.fi INFO Found SOA record for punkalaidun.fi.
+ 29.362: punkalaidun.fi INFO Begin testing host ns1.kopteri.net.
+ 29.560: punkalaidun.fi INFO Begin testing address 80.95.128.10.
+ 29.909: punkalaidun.fi INFO Done testing address 80.95.128.10.
+ 29.909: punkalaidun.fi INFO Done testing host ns1.kopteri.net.
+ 29.909: punkalaidun.fi INFO SOA MNAME for punkalaidun.fi valid (ns1.kopteri.net).
+ 29.909: punkalaidun.fi INFO SOA MNAME for punkalaidun.fi (ns1.kopteri.net) listed as NS.
+ 30.129: punkalaidun.fi INFO SOA MNAME for punkalaidun.fi (ns1.kopteri.net) is authoritative.
+ 30.129: punkalaidun.fi INFO Begin testing email address dnsadmin@kopteri.net.
+ 30.349: punkalaidun.fi INFO Mail exchangers for dnsadmin@kopteri.net found mx.kopteri.net,mailqueue.kopteri.net.
+ 30.349: punkalaidun.fi INFO Begin testing host mx.kopteri.net.
+ 30.861: punkalaidun.fi INFO Begin testing address 80.95.135.71.
+ 31.882: punkalaidun.fi INFO Done testing address 80.95.135.71.
+ 31.882: punkalaidun.fi INFO Done testing host mx.kopteri.net.
+ 32.017: punkalaidun.fi INFO Begin testing host mailqueue.kopteri.net.
+ 32.779: punkalaidun.fi INFO Begin testing address 80.95.135.74.
+ 33.565: punkalaidun.fi INFO Done testing address 80.95.135.74.
+ 33.565: punkalaidun.fi INFO Done testing host mailqueue.kopteri.net.
+ 33.815: punkalaidun.fi INFO Done testing email address dnsadmin@kopteri.net.
+ 33.816: punkalaidun.fi INFO Successful attempt to deliver email for SOA RNAME of punkalaidun.fi (dnsadmin.kopteri.net) using dnsadmin@kopteri.net.
+ 33.816: punkalaidun.fi NOTICE SOA TTL for punkalaidun.fi too small (1200) - recommended >= 3600.
+ 33.816: punkalaidun.fi NOTICE SOA refresh for punkalaidun.fi too small (1800) - recommended >= 14400.
+ 33.816: punkalaidun.fi NOTICE SOA retry for punkalaidun.fi too small (900) - recommended >= 3600.
+ 33.816: punkalaidun.fi INFO SOA expire for punkalaidun.fi OK (604800) - recommended >= 604800.
+ 33.816: punkalaidun.fi INFO SOA minimum for punkalaidun.fi OK (1200) - recommended between 300 and 86400.
+ 33.816: punkalaidun.fi INFO Done testing SOA parameters for punkalaidun.fi.
+ 33.816: punkalaidun.fi INFO Begin testing connectivity for punkalaidun.fi.
+ 34.760: punkalaidun.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 34.761: punkalaidun.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 34.761: punkalaidun.fi INFO Done testing connectivity for punkalaidun.fi.
+ 34.761: punkalaidun.fi INFO Begin testing DNSSEC for punkalaidun.fi.
+ 34.836: punkalaidun.fi INFO Did not find DS record for punkalaidun.fi at parent.
+ 34.912: punkalaidun.fi INFO Servers for punkalaidun.fi have consistent extra processing status.
+ 34.946: punkalaidun.fi INFO Authenticated denial records not found for punkalaidun.fi.
+ 34.969: punkalaidun.fi INFO Did not find DNSKEY record for punkalaidun.fi at child.
+ 34.969: punkalaidun.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 34.969: punkalaidun.fi INFO Done testing DNSSEC for punkalaidun.fi.
+ 34.970: punkalaidun.fi INFO Test completed for zone punkalaidun.fi.

@@ -1,0 +1,135 @@
+  0.000: nykvarn.se INFO Begin testing zone nykvarn.se with version 1.6.1.
+  2.034: nykvarn.se INFO Begin testing delegation for nykvarn.se.
+ 22.031: nykvarn.se INFO Name servers listed at parent: dns2.utfors.se,ns.nykvarn.se
+ 25.522: nykvarn.se INFO Name servers listed at child: dns2.utfors.se,ns.nykvarn.se
+ 25.557: nykvarn.se NOTICE No IPv6 name servers found.
+ 26.243: nykvarn.se INFO Parent glue for nykvarn.se found: ns.nykvarn.se (62.119.149.163)
+ 26.305: nykvarn.se INFO Checking glue for ns.nykvarn.se (62.119.149.163).
+ 26.375: nykvarn.se INFO Child glue for nykvarn.se found: ns.nykvarn.se (62.119.149.163)
+ 26.376: nykvarn.se INFO Parent glue for nykvarn.se found: ns.nykvarn.se (62.119.149.163)
+ 27.450: nykvarn.se INFO It is possible to build a referral packet for nykvarn.se that works without EDNS0.
+ 28.731: nykvarn.se INFO Previously used name servers for nykvarn.se: 
+ 28.732: nykvarn.se INFO Done testing delegation for nykvarn.se.
+ 28.732: nykvarn.se INFO Begin testing name server dns2.utfors.se.
+ 28.732: nykvarn.se INFO Begin testing host dns2.utfors.se.
+ 29.210: nykvarn.se INFO Begin testing address 213.150.128.30.
+ 52.694: nykvarn.se INFO Done testing address 213.150.128.30.
+ 52.706: nykvarn.se INFO Done testing host dns2.utfors.se.
+ 52.919: nykvarn.se INFO Name server dns2.utfors.se (213.150.128.30) answers queries over UDP.
+ 52.961: nykvarn.se INFO Name server dns2.utfors.se (213.150.128.30) answers queries over TCP.
+ 53.010: nykvarn.se INFO Name server dns2.utfors.se (213.150.128.30) is not recursive.
+ 53.118: nykvarn.se INFO Name server dns2.utfors.se (213.150.128.30) authoritative for nykvarn.se.
+ 53.150: nykvarn.se INFO Name server dns2.utfors.se (213.150.128.30) closed for zone transfer of nykvarn.se.
+ 53.169: nykvarn.se INFO Legacy name server ID for dns2.utfors.se (213.150.128.30): hostname.bind = dns2.telenor.se
+ 53.191: nykvarn.se INFO Legacy name server ID for dns2.utfors.se (213.150.128.30): version.bind = Telenor DNS
+ 53.234: nykvarn.se NOTICE No answer received from 213.150.128.30 when querying for version.server/CH/TXT.
+ 53.234: nykvarn.se INFO Done testing name server dns2.utfors.se.
+ 53.235: nykvarn.se INFO Begin testing name server ns.nykvarn.se.
+ 53.235: nykvarn.se INFO Begin testing host ns.nykvarn.se.
+ 53.439: nykvarn.se INFO Begin testing address 62.119.149.163.
+ 55.503: nykvarn.se INFO Done testing address 62.119.149.163.
+ 55.503: nykvarn.se INFO Done testing host ns.nykvarn.se.
+ 55.883: nykvarn.se INFO Name server ns.nykvarn.se (62.119.149.163) answers queries over UDP.
+ 55.967: nykvarn.se INFO Name server ns.nykvarn.se (62.119.149.163) answers queries over TCP.
+ 56.010: nykvarn.se INFO Name server ns.nykvarn.se (62.119.149.163) is not recursive.
+ 56.154: nykvarn.se INFO Name server ns.nykvarn.se (62.119.149.163) authoritative for nykvarn.se.
+ 56.534: nykvarn.se INFO Name server ns.nykvarn.se (62.119.149.163) closed for zone transfer of nykvarn.se.
+ 56.585: nykvarn.se INFO Legacy name server ID for ns.nykvarn.se (62.119.149.163): hostname.bind = KH-Adonis-EXT
+ 56.611: nykvarn.se INFO Legacy name server ID for ns.nykvarn.se (62.119.149.163): version.bind = none
+ 56.654: nykvarn.se NOTICE No answer received from 62.119.149.163 when querying for version.server/CH/TXT.
+ 56.655: nykvarn.se INFO Done testing name server ns.nykvarn.se.
+ 56.655: nykvarn.se INFO Begin testing zone consistency for nykvarn.se.
+ 57.508: nykvarn.se INFO SOA at address 62.119.149.163 has serial 2014030799.
+ 57.633: nykvarn.se INFO SOA at address 213.150.128.30 has serial 2014030799.
+ 57.633: nykvarn.se INFO All SOA records have consistent serial numbers.
+ 57.633: nykvarn.se INFO All other fields in the SOA record are consistent among all name servers.
+ 58.389: nykvarn.se NOTICE The listed nameservers for nykvarn.se all report the same set of nameservers.
+ 58.389: nykvarn.se INFO Done testing zone consistency for nykvarn.se.
+ 58.389: nykvarn.se INFO Begin testing SOA parameters for nykvarn.se.
+ 58.451: nykvarn.se INFO Found SOA record for nykvarn.se.
+ 58.452: nykvarn.se INFO Begin testing host ns.nykvarn.se.
+ 58.772: nykvarn.se INFO Begin testing address 62.119.149.163.
+ 59.010: nykvarn.se INFO Done testing address 62.119.149.163.
+ 59.011: nykvarn.se INFO Done testing host ns.nykvarn.se.
+ 59.011: nykvarn.se INFO SOA MNAME for nykvarn.se valid (ns.nykvarn.se).
+ 59.011: nykvarn.se INFO SOA MNAME for nykvarn.se (ns.nykvarn.se) listed as NS.
+ 59.263: nykvarn.se INFO SOA MNAME for nykvarn.se (ns.nykvarn.se) is authoritative.
+ 59.263: nykvarn.se INFO Begin testing email address admin@nykvarn.se.
+ 59.485: nykvarn.se INFO Mail exchangers for admin@nykvarn.se found smtp-in.sto-hy.se.stejtech.net,smtp-in.sto-ste.se.stejtech.net.
+ 59.486: nykvarn.se INFO Begin testing host smtp-in.sto-hy.se.stejtech.net.
+ 60.640: nykvarn.se INFO Begin testing address 91.236.209.10.
+ 64.803: nykvarn.se INFO Done testing address 91.236.209.10.
+ 64.803: nykvarn.se INFO Begin testing address 79.136.102.100.
+ 75.103: nykvarn.se INFO Done testing address 79.136.102.100.
+ 75.103: nykvarn.se INFO Begin testing address 91.236.208.10.
+ 76.988: nykvarn.se INFO Done testing address 91.236.208.10.
+ 76.988: nykvarn.se INFO Begin testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 78.470: nykvarn.se INFO Done testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 78.470: nykvarn.se INFO Begin testing address 2001:67c:27e0:2110:0:0:0:1b01.
+ 79.398: nykvarn.se INFO Done testing address 2001:67c:27e0:2110:0:0:0:1b01.
+ 79.398: nykvarn.se INFO Begin testing address 2001:9b0:1:703:0:0:0:1b01.
+ 80.879: nykvarn.se INFO Done testing address 2001:9b0:1:703:0:0:0:1b01.
+ 80.879: nykvarn.se INFO Done testing host smtp-in.sto-hy.se.stejtech.net.
+ 80.879: nykvarn.se INFO Begin testing host smtp-in.sto-ste.se.stejtech.net.
+ 81.403: nykvarn.se INFO Begin testing address 79.136.102.90.
+ 82.450: nykvarn.se INFO Done testing address 79.136.102.90.
+ 82.451: nykvarn.se INFO Begin testing address 83.140.31.145.
+ 83.292: nykvarn.se INFO Done testing address 83.140.31.145.
+ 83.292: nykvarn.se INFO Begin testing address 2001:9b0:1:703:0:0:0:b002.
+ 84.637: nykvarn.se INFO Done testing address 2001:9b0:1:703:0:0:0:b002.
+ 84.637: nykvarn.se INFO Done testing host smtp-in.sto-ste.se.stejtech.net.
+ 84.637: nykvarn.se INFO Done testing email address admin@nykvarn.se.
+ 84.637: nykvarn.se INFO Successful attempt to deliver email for SOA RNAME of nykvarn.se (admin.nykvarn.se) using admin@nykvarn.se.
+ 84.637: nykvarn.se INFO SOA TTL for nykvarn.se OK (3600) - recommended >= 3600.
+ 84.637: nykvarn.se INFO SOA refresh for nykvarn.se OK (14400) - recommended >= 14400.
+ 84.638: nykvarn.se INFO SOA retry for nykvarn.se OK (3600) - recommended >= 3600.
+ 84.638: nykvarn.se INFO SOA expire for nykvarn.se OK (1209600) - recommended >= 604800.
+ 84.638: nykvarn.se INFO SOA minimum for nykvarn.se OK (3600) - recommended between 300 and 86400.
+ 84.638: nykvarn.se INFO Done testing SOA parameters for nykvarn.se.
+ 84.639: nykvarn.se INFO Begin testing connectivity for nykvarn.se.
+ 86.477: nykvarn.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 86.477: nykvarn.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 86.477: nykvarn.se INFO Done testing connectivity for nykvarn.se.
+ 86.477: nykvarn.se INFO Begin testing DNSSEC for nykvarn.se.
+ 86.535: nykvarn.se INFO Found DS record for nykvarn.se at parent.
+ 86.559: nykvarn.se INFO Nameserver 62.119.149.163 does DNSSEC extra processing.
+ 86.595: nykvarn.se INFO Nameserver 213.150.128.30 does DNSSEC extra processing.
+ 86.596: nykvarn.se INFO Servers for nykvarn.se have consistent extra processing status.
+ 86.634: nykvarn.se INFO Authenticated denial records found for nykvarn.se, of type NSEC3.
+ 86.647: nykvarn.se INFO NSEC3PARAM record found for nykvarn.se.
+ 86.647: nykvarn.se INFO NSEC3 for nykvarn.se is set to use 10 iterations, which is less than 100 and thus OK.
+ 86.647: nykvarn.se INFO Found DNSKEY record for nykvarn.se at child.
+ 86.647: nykvarn.se INFO Consistent security for nykvarn.se.
+ 86.647: nykvarn.se INFO Checking DNSSEC at child (nykvarn.se).
+ 86.648: nykvarn.se INFO nykvarn.se's key with tag 27040 uses algorithm number 8 (RSA/SHA-256).
+ 86.648: nykvarn.se INFO Algorithm number 8 is OK.
+ 86.648: nykvarn.se INFO nykvarn.se's key with tag 61459 uses algorithm number 8 (RSA/SHA-256).
+ 86.648: nykvarn.se INFO Algorithm number 8 is OK.
+ 86.648: nykvarn.se INFO DNSKEY nykvarn.se (tag 61459) is marked as a secure entry point (SEP).
+ 86.648: nykvarn.se INFO DNSSEC signature expires at: Wed Mar 26 21:27:33 2014
+ 86.648: nykvarn.se INFO Duration for RRSIG(nykvarn.se/IN/DNSKEY/27040) is OK (1730421 seconds).
+ 86.659: nykvarn.se INFO DNSSEC signature RRSIG(nykvarn.se/IN/DNSKEY/27040) matches records.
+ 86.659: nykvarn.se INFO DNSSEC signature valid: RRSIG(nykvarn.se/IN/DNSKEY/27040)
+ 86.659: nykvarn.se INFO DNSSEC signature expires at: Wed Mar 26 21:27:33 2014
+ 86.659: nykvarn.se INFO Duration for RRSIG(nykvarn.se/IN/DNSKEY/61459) is OK (1730421 seconds).
+ 86.660: nykvarn.se INFO DNSSEC signature RRSIG(nykvarn.se/IN/DNSKEY/61459) matches records.
+ 86.660: nykvarn.se INFO DNSSEC signature valid: RRSIG(nykvarn.se/IN/DNSKEY/61459)
+ 86.660: nykvarn.se INFO Enough valid signatures found for nykvarn.se.
+ 86.681: nykvarn.se INFO DNSSEC signature expires at: Fri Mar 28 01:46:04 2014
+ 86.682: nykvarn.se INFO Duration for RRSIG(nykvarn.se/IN/SOA/27040) is OK (1731600 seconds).
+ 86.682: nykvarn.se INFO DNSSEC signature RRSIG(nykvarn.se/IN/SOA/27040) matches records.
+ 86.682: nykvarn.se INFO DNSSEC signature valid: RRSIG(nykvarn.se/IN/SOA/27040)
+ 86.683: nykvarn.se INFO Enough valid signatures over SOA RRset found for nykvarn.se.
+ 86.683: nykvarn.se INFO DNSSEC child checks for nykvarn.se complete.
+ 86.683: nykvarn.se INFO Checking DNSSEC at parent of nykvarn.se.
+ 86.683: nykvarn.se INFO nykvarn.se's key with tag 61459 uses algorithm number 8 (RSA/SHA-256).
+ 86.683: nykvarn.se INFO Algorithm number 8 is OK.
+ 86.684: nykvarn.se INFO Parent DS(nykvarn.se/8/2/61459) refers to valid key at child: DNSKEY(nykvarn.se/8/61459)
+ 86.684: nykvarn.se INFO Parent DS(nykvarn.se) refers to secure entry point (SEP) at child: DS(nykvarn.se/8/2/61459)
+ 86.684: nykvarn.se INFO nykvarn.se's key with tag 61459 uses algorithm number 8 (RSA/SHA-256).
+ 86.684: nykvarn.se INFO Algorithm number 8 is OK.
+ 86.684: nykvarn.se INFO Parent DS(nykvarn.se/8/1/61459) refers to valid key at child: DNSKEY(nykvarn.se/8/61459)
+ 86.684: nykvarn.se INFO Parent DS(nykvarn.se) refers to secure entry point (SEP) at child: DS(nykvarn.se/8/1/61459)
+ 86.684: nykvarn.se INFO DNSSEC parent checks for nykvarn.se complete.
+ 86.684: nykvarn.se INFO Done testing DNSSEC for nykvarn.se.
+ 86.685: nykvarn.se INFO Test completed for zone nykvarn.se.

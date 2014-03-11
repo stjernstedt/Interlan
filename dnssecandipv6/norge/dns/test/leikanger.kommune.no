@@ -1,0 +1,90 @@
+  0.000: leikanger.kommune.no INFO Begin testing zone leikanger.kommune.no with version 1.6.1.
+  0.441: leikanger.kommune.no INFO Begin testing delegation for leikanger.kommune.no.
+  8.582: leikanger.kommune.no INFO Name servers listed at parent: ns1.sfj.no,ns2.sfj.no
+ 10.034: leikanger.kommune.no INFO Name servers listed at child: ns1.sfj.no,ns2.sfj.no
+ 10.035: leikanger.kommune.no NOTICE No IPv6 name servers found.
+ 10.214: leikanger.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.409: leikanger.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.539: leikanger.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.714: leikanger.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.501: leikanger.kommune.no INFO It is possible to build a referral packet for leikanger.kommune.no that works without EDNS0.
+ 11.985: leikanger.kommune.no INFO Previously used name servers for leikanger.kommune.no: 
+ 11.985: leikanger.kommune.no INFO Done testing delegation for leikanger.kommune.no.
+ 11.985: leikanger.kommune.no INFO Begin testing name server ns1.sfj.no.
+ 11.985: leikanger.kommune.no INFO Begin testing host ns1.sfj.no.
+ 12.204: leikanger.kommune.no INFO Begin testing address 93.94.14.2.
+ 19.396: leikanger.kommune.no INFO Done testing address 93.94.14.2.
+ 19.396: leikanger.kommune.no INFO Done testing host ns1.sfj.no.
+ 19.637: leikanger.kommune.no INFO Name server ns1.sfj.no (93.94.14.2) answers queries over UDP.
+ 19.705: leikanger.kommune.no INFO Name server ns1.sfj.no (93.94.14.2) answers queries over TCP.
+ 19.725: leikanger.kommune.no INFO Name server ns1.sfj.no (93.94.14.2) is not recursive.
+ 19.839: leikanger.kommune.no INFO Name server ns1.sfj.no (93.94.14.2) authoritative for leikanger.kommune.no.
+ 19.894: leikanger.kommune.no INFO Name server ns1.sfj.no (93.94.14.2) closed for zone transfer of leikanger.kommune.no.
+ 19.931: leikanger.kommune.no INFO Legacy name server ID for ns1.sfj.no (93.94.14.2): hostname.bind = ns1
+ 19.951: leikanger.kommune.no INFO Legacy name server ID for ns1.sfj.no (93.94.14.2): version.bind = sffk dns server
+ 20.008: leikanger.kommune.no NOTICE No answer received from 93.94.14.2 when querying for version.server/CH/TXT.
+ 20.009: leikanger.kommune.no INFO Done testing name server ns1.sfj.no.
+ 20.009: leikanger.kommune.no INFO Begin testing name server ns2.sfj.no.
+ 20.009: leikanger.kommune.no INFO Begin testing host ns2.sfj.no.
+ 20.196: leikanger.kommune.no INFO Begin testing address 93.94.14.3.
+ 20.825: leikanger.kommune.no INFO Done testing address 93.94.14.3.
+ 20.825: leikanger.kommune.no INFO Done testing host ns2.sfj.no.
+ 21.047: leikanger.kommune.no INFO Name server ns2.sfj.no (93.94.14.3) answers queries over UDP.
+ 21.110: leikanger.kommune.no INFO Name server ns2.sfj.no (93.94.14.3) answers queries over TCP.
+ 21.144: leikanger.kommune.no INFO Name server ns2.sfj.no (93.94.14.3) is not recursive.
+ 21.233: leikanger.kommune.no INFO Name server ns2.sfj.no (93.94.14.3) authoritative for leikanger.kommune.no.
+ 21.295: leikanger.kommune.no INFO Name server ns2.sfj.no (93.94.14.3) closed for zone transfer of leikanger.kommune.no.
+ 21.335: leikanger.kommune.no INFO Legacy name server ID for ns2.sfj.no (93.94.14.3): hostname.bind = ns2
+ 21.363: leikanger.kommune.no INFO Legacy name server ID for ns2.sfj.no (93.94.14.3): version.bind = sffk dns server
+ 21.404: leikanger.kommune.no NOTICE No answer received from 93.94.14.3 when querying for version.server/CH/TXT.
+ 21.404: leikanger.kommune.no INFO Done testing name server ns2.sfj.no.
+ 21.404: leikanger.kommune.no INFO Begin testing zone consistency for leikanger.kommune.no.
+ 21.997: leikanger.kommune.no INFO SOA at address 93.94.14.2 has serial 2012120404.
+ 22.019: leikanger.kommune.no INFO SOA at address 93.94.14.3 has serial 2012120404.
+ 22.019: leikanger.kommune.no INFO All SOA records have consistent serial numbers.
+ 22.019: leikanger.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 22.437: leikanger.kommune.no NOTICE The listed nameservers for leikanger.kommune.no all report the same set of nameservers.
+ 22.437: leikanger.kommune.no INFO Done testing zone consistency for leikanger.kommune.no.
+ 22.437: leikanger.kommune.no INFO Begin testing SOA parameters for leikanger.kommune.no.
+ 22.460: leikanger.kommune.no INFO Found SOA record for leikanger.kommune.no.
+ 22.461: leikanger.kommune.no INFO Begin testing host ns1.sfj.no.
+ 22.706: leikanger.kommune.no INFO Begin testing address 93.94.14.2.
+ 22.867: leikanger.kommune.no INFO Done testing address 93.94.14.2.
+ 22.867: leikanger.kommune.no INFO Done testing host ns1.sfj.no.
+ 22.867: leikanger.kommune.no INFO SOA MNAME for leikanger.kommune.no valid (ns1.sfj.no).
+ 22.867: leikanger.kommune.no INFO SOA MNAME for leikanger.kommune.no (ns1.sfj.no) listed as NS.
+ 23.036: leikanger.kommune.no INFO SOA MNAME for leikanger.kommune.no (ns1.sfj.no) is authoritative.
+ 23.042: leikanger.kommune.no INFO Begin testing email address dnsadmin@sfj.no.
+ 23.149: leikanger.kommune.no INFO Mail exchangers for dnsadmin@sfj.no found mail.messaging.microsoft.com.
+ 23.149: leikanger.kommune.no INFO Begin testing host mail.messaging.microsoft.com.
+ 25.627: leikanger.kommune.no INFO Begin testing address 216.32.180.22.
+ 34.111: leikanger.kommune.no INFO Done testing address 216.32.180.22.
+ 34.112: leikanger.kommune.no INFO Begin testing address 216.32.181.178.
+ 35.072: leikanger.kommune.no INFO Done testing address 216.32.181.178.
+ 35.072: leikanger.kommune.no INFO Begin testing address 65.55.88.22.
+ 35.850: leikanger.kommune.no INFO Done testing address 65.55.88.22.
+ 35.850: leikanger.kommune.no INFO Begin testing address 207.46.163.30.
+ 36.962: leikanger.kommune.no INFO Done testing address 207.46.163.30.
+ 36.962: leikanger.kommune.no INFO Begin testing address 213.199.180.150.
+ 38.179: leikanger.kommune.no INFO Done testing address 213.199.180.150.
+ 38.180: leikanger.kommune.no INFO Done testing host mail.messaging.microsoft.com.
+ 39.119: leikanger.kommune.no INFO Done testing email address dnsadmin@sfj.no.
+ 39.119: leikanger.kommune.no INFO Successful attempt to deliver email for SOA RNAME of leikanger.kommune.no (dnsadmin.sfj.no) using dnsadmin@sfj.no.
+ 39.119: leikanger.kommune.no NOTICE SOA TTL for leikanger.kommune.no too small (600) - recommended >= 3600.
+ 39.119: leikanger.kommune.no NOTICE SOA refresh for leikanger.kommune.no too small (10800) - recommended >= 14400.
+ 39.119: leikanger.kommune.no INFO SOA retry for leikanger.kommune.no OK (3600) - recommended >= 3600.
+ 39.119: leikanger.kommune.no INFO SOA expire for leikanger.kommune.no OK (604800) - recommended >= 604800.
+ 39.119: leikanger.kommune.no INFO SOA minimum for leikanger.kommune.no OK (1200) - recommended between 300 and 86400.
+ 39.120: leikanger.kommune.no INFO Done testing SOA parameters for leikanger.kommune.no.
+ 39.120: leikanger.kommune.no INFO Begin testing connectivity for leikanger.kommune.no.
+ 40.043: leikanger.kommune.no NOTICE Zone announced by fewer than two IPv4 ASN.
+ 40.043: leikanger.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 40.043: leikanger.kommune.no INFO Done testing connectivity for leikanger.kommune.no.
+ 40.044: leikanger.kommune.no INFO Begin testing DNSSEC for leikanger.kommune.no.
+ 40.145: leikanger.kommune.no INFO Did not find DS record for leikanger.kommune.no at parent.
+ 40.225: leikanger.kommune.no INFO Servers for leikanger.kommune.no have consistent extra processing status.
+ 40.262: leikanger.kommune.no INFO Authenticated denial records not found for leikanger.kommune.no.
+ 40.286: leikanger.kommune.no INFO Did not find DNSKEY record for leikanger.kommune.no at child.
+ 40.287: leikanger.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 40.287: leikanger.kommune.no INFO Done testing DNSSEC for leikanger.kommune.no.
+ 40.287: leikanger.kommune.no INFO Test completed for zone leikanger.kommune.no.

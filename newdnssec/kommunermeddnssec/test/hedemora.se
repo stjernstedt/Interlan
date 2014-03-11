@@ -1,0 +1,100 @@
+  0.000: hedemora.se INFO Begin testing zone hedemora.se with version 1.6.1.
+  2.087: hedemora.se INFO Begin testing delegation for hedemora.se.
+ 36.541: hedemora.se INFO Name servers listed at parent: csddnsv01.hedemora.se,ns1.cepus.net
+ 39.681: hedemora.se INFO Name servers listed at child: csddnsv01.hedemora.se,ns1.cepus.net
+ 39.681: hedemora.se NOTICE No IPv6 name servers found.
+ 39.760: hedemora.se INFO Parent glue for hedemora.se found: csddnsv01.hedemora.se (212.112.38.42)
+ 40.521: hedemora.se INFO Checking glue for csddnsv01.hedemora.se (212.112.38.42).
+ 40.550: hedemora.se INFO Child glue for hedemora.se found: csddnsv01.hedemora.se (212.112.38.42)
+ 40.551: hedemora.se INFO Parent glue for hedemora.se found: csddnsv01.hedemora.se (212.112.38.42)
+ 41.826: hedemora.se INFO It is possible to build a referral packet for hedemora.se that works without EDNS0.
+ 43.775: hedemora.se INFO Previously used name servers for hedemora.se: 
+ 43.775: hedemora.se INFO Done testing delegation for hedemora.se.
+ 43.799: hedemora.se INFO Begin testing name server csddnsv01.hedemora.se.
+ 43.800: hedemora.se INFO Begin testing host csddnsv01.hedemora.se.
+ 44.124: hedemora.se INFO Begin testing address 212.112.38.42.
+101.147: hedemora.se WARNING Reverse for 212.112.38.42 points to an unknown host name (212-112-38-42.hedemora.se).
+101.147: hedemora.se INFO Done testing address 212.112.38.42.
+101.147: hedemora.se INFO Done testing host csddnsv01.hedemora.se.
+102.658: hedemora.se INFO Name server csddnsv01.hedemora.se (212.112.38.42) answers queries over UDP.
+102.773: hedemora.se INFO Name server csddnsv01.hedemora.se (212.112.38.42) answers queries over TCP.
+102.844: hedemora.se INFO Name server csddnsv01.hedemora.se (212.112.38.42) is not recursive.
+102.968: hedemora.se INFO Name server csddnsv01.hedemora.se (212.112.38.42) authoritative for hedemora.se.
+103.207: hedemora.se INFO Name server csddnsv01.hedemora.se (212.112.38.42) closed for zone transfer of hedemora.se.
+103.244: hedemora.se NOTICE No answer received from 212.112.38.42 when querying for hostname.bind/CH/TXT.
+115.501: hedemora.se INFO Done testing name server csddnsv01.hedemora.se.
+115.501: hedemora.se INFO Begin testing name server ns1.cepus.net.
+115.501: hedemora.se INFO Begin testing host ns1.cepus.net.
+116.014: hedemora.se INFO Begin testing address 195.67.100.210.
+117.619: hedemora.se INFO Done testing address 195.67.100.210.
+117.620: hedemora.se INFO Done testing host ns1.cepus.net.
+118.046: hedemora.se INFO Name server ns1.cepus.net (195.67.100.210) answers queries over UDP.
+118.139: hedemora.se INFO Name server ns1.cepus.net (195.67.100.210) answers queries over TCP.
+118.222: hedemora.se INFO Name server ns1.cepus.net (195.67.100.210) is not recursive.
+118.610: hedemora.se INFO Name server ns1.cepus.net (195.67.100.210) authoritative for hedemora.se.
+118.860: hedemora.se INFO Name server ns1.cepus.net (195.67.100.210) closed for zone transfer of hedemora.se.
+118.898: hedemora.se NOTICE No answer received from 195.67.100.210 when querying for hostname.bind/CH/TXT.
+131.051: hedemora.se INFO Done testing name server ns1.cepus.net.
+131.051: hedemora.se INFO Begin testing zone consistency for hedemora.se.
+134.239: hedemora.se INFO SOA at address 212.112.38.42 has serial 3537785792.
+134.275: hedemora.se INFO SOA at address 195.67.100.210 has serial 3537785792.
+134.275: hedemora.se INFO All SOA records have consistent serial numbers.
+134.275: hedemora.se INFO All other fields in the SOA record are consistent among all name servers.
+135.200: hedemora.se NOTICE The listed nameservers for hedemora.se all report the same set of nameservers.
+135.201: hedemora.se INFO Done testing zone consistency for hedemora.se.
+135.201: hedemora.se INFO Begin testing SOA parameters for hedemora.se.
+135.213: hedemora.se INFO Found SOA record for hedemora.se.
+135.214: hedemora.se INFO Begin testing host csddnsv01.hedemora.se.
+135.372: hedemora.se INFO Begin testing address 212.112.38.42.
+135.373: hedemora.se WARNING Reverse for 212.112.38.42 points to an unknown host name (212-112-38-42.hedemora.se).
+135.373: hedemora.se INFO Done testing address 212.112.38.42.
+135.373: hedemora.se INFO Done testing host csddnsv01.hedemora.se.
+135.373: hedemora.se INFO SOA MNAME for hedemora.se valid (csddnsv01.hedemora.se).
+135.373: hedemora.se INFO SOA MNAME for hedemora.se (csddnsv01.hedemora.se) listed as NS.
+136.573: hedemora.se INFO SOA MNAME for hedemora.se (csddnsv01.hedemora.se) is authoritative.
+136.573: hedemora.se INFO Begin testing email address it@hedemora.se.
+137.101: hedemora.se INFO Mail exchangers for it@hedemora.se found smtp-in.sto-hy.se.stejtech.net,smtp-in.sto-ste.se.stejtech.net.
+137.101: hedemora.se INFO Begin testing host smtp-in.sto-hy.se.stejtech.net.
+140.499: hedemora.se INFO Begin testing address 91.236.209.10.
+144.099: hedemora.se INFO Done testing address 91.236.209.10.
+144.100: hedemora.se INFO Begin testing address 79.136.102.100.
+146.528: hedemora.se INFO Done testing address 79.136.102.100.
+146.528: hedemora.se INFO Begin testing address 91.236.208.10.
+148.039: hedemora.se INFO Done testing address 91.236.208.10.
+148.039: hedemora.se INFO Begin testing address 2001:67c:27e0:2210:0:0:0:1b01.
+149.092: hedemora.se INFO Done testing address 2001:67c:27e0:2210:0:0:0:1b01.
+149.092: hedemora.se INFO Begin testing address 2001:67c:27e0:2110:0:0:0:1b01.
+150.066: hedemora.se INFO Done testing address 2001:67c:27e0:2110:0:0:0:1b01.
+150.066: hedemora.se INFO Begin testing address 2001:9b0:1:703:0:0:0:1b01.
+151.469: hedemora.se INFO Done testing address 2001:9b0:1:703:0:0:0:1b01.
+151.469: hedemora.se INFO Done testing host smtp-in.sto-hy.se.stejtech.net.
+151.470: hedemora.se INFO Begin testing host smtp-in.sto-ste.se.stejtech.net.
+151.961: hedemora.se INFO Begin testing address 79.136.102.90.
+152.574: hedemora.se INFO Done testing address 79.136.102.90.
+152.574: hedemora.se INFO Begin testing address 83.140.31.145.
+153.184: hedemora.se INFO Done testing address 83.140.31.145.
+153.184: hedemora.se INFO Begin testing address 2001:9b0:1:703:0:0:0:b002.
+154.453: hedemora.se INFO Done testing address 2001:9b0:1:703:0:0:0:b002.
+154.454: hedemora.se INFO Done testing host smtp-in.sto-ste.se.stejtech.net.
+154.454: hedemora.se INFO Done testing email address it@hedemora.se.
+154.454: hedemora.se INFO Successful attempt to deliver email for SOA RNAME of hedemora.se (it.hedemora.se) using it@hedemora.se.
+154.454: hedemora.se INFO SOA TTL for hedemora.se OK (86400) - recommended >= 3600.
+154.454: hedemora.se NOTICE SOA refresh for hedemora.se too small (3600) - recommended >= 14400.
+154.454: hedemora.se NOTICE SOA refresh for hedemora.se lower than retry (3600 vs 3600).
+154.454: hedemora.se INFO SOA retry for hedemora.se OK (3600) - recommended >= 3600.
+154.454: hedemora.se NOTICE SOA expire for hedemora.se too small (86400) - recommended >= 604800.
+154.455: hedemora.se INFO SOA minimum for hedemora.se OK (86400) - recommended between 300 and 86400.
+154.455: hedemora.se INFO Done testing SOA parameters for hedemora.se.
+154.455: hedemora.se INFO Begin testing connectivity for hedemora.se.
+155.254: hedemora.se INFO Zone announced by more than one ASN.
+155.254: hedemora.se NOTICE Zone announced by fewer than two IPv6 ASN.
+155.254: hedemora.se INFO Done testing connectivity for hedemora.se.
+155.255: hedemora.se INFO Begin testing DNSSEC for hedemora.se.
+155.303: hedemora.se INFO Did not find DS record for hedemora.se at parent.
+155.356: hedemora.se ERROR EDNS not supported by 195.67.100.210.
+155.356: hedemora.se INFO Servers for hedemora.se have consistent extra processing status.
+155.382: hedemora.se INFO Authenticated denial records not found for hedemora.se.
+155.396: hedemora.se INFO Did not find DNSKEY record for hedemora.se at child.
+155.397: hedemora.se INFO No DNSKEY(s) found at child, other tests skipped.
+155.397: hedemora.se INFO Done testing DNSSEC for hedemora.se.
+155.397: hedemora.se INFO Test completed for zone hedemora.se.

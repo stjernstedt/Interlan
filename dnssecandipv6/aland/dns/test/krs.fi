@@ -1,0 +1,110 @@
+  0.000: krs.fi INFO Begin testing zone krs.fi with version 1.5.0.
+  0.542: krs.fi INFO Begin testing delegation for krs.fi.
+ 18.165: krs.fi INFO Name servers listed at parent: edu.krs.fi,ns2.kdsoft.fi,ns3.kdsoft.fi
+ 25.213: krs.fi INFO Name servers listed at child: edu.krs.fi,ns2.kdsoft.fi,ns3.kdsoft.fi
+ 25.213: krs.fi NOTICE No IPv6 name servers found.
+ 25.433: krs.fi INFO Parent glue for krs.fi found: edu.krs.fi (194.251.132.24)
+ 25.798: krs.fi INFO Parent glue for krs.fi found: ns2.kdsoft.fi (194.100.228.237)
+ 26.223: krs.fi INFO Parent glue for krs.fi found: ns3.kdsoft.fi (194.100.228.238)
+ 26.352: krs.fi INFO Checking glue for edu.krs.fi (194.251.132.24).
+ 26.529: krs.fi INFO Child glue for krs.fi found: edu.krs.fi (194.251.132.24)
+ 26.529: krs.fi INFO Checking glue for ns2.kdsoft.fi (194.100.228.237).
+ 26.529: krs.fi INFO Checking glue for ns3.kdsoft.fi (194.100.228.238).
+ 26.530: krs.fi INFO Parent glue for krs.fi found: edu.krs.fi (194.251.132.24)
+ 26.530: krs.fi INFO Parent glue for krs.fi found: ns2.kdsoft.fi (194.100.228.237)
+ 26.530: krs.fi INFO Parent glue for krs.fi found: ns3.kdsoft.fi (194.100.228.238)
+ 30.223: krs.fi INFO It is possible to build a referral packet for krs.fi that works without EDNS0.
+ 32.986: krs.fi INFO Previously used name servers for krs.fi: 
+ 32.986: krs.fi INFO Done testing delegation for krs.fi.
+ 32.987: krs.fi INFO Begin testing name server edu.krs.fi.
+ 32.987: krs.fi INFO Begin testing host edu.krs.fi.
+ 33.952: krs.fi INFO Begin testing address 194.251.132.24.
+ 51.016: krs.fi INFO Done testing address 194.251.132.24.
+ 51.017: krs.fi INFO Done testing host edu.krs.fi.
+ 51.761: krs.fi INFO Name server edu.krs.fi (194.251.132.24) answers queries over UDP.
+ 51.871: krs.fi INFO Name server edu.krs.fi (194.251.132.24) answers queries over TCP.
+ 52.212: krs.fi WARNING Name server edu.krs.fi (194.251.132.24) is recursive.
+ 52.618: krs.fi INFO Name server edu.krs.fi (194.251.132.24) authoritative for krs.fi.
+ 52.719: krs.fi NOTICE Name server edu.krs.fi (194.251.132.24) open for zone transfer of krs.fi.
+ 52.817: krs.fi INFO Legacy name server ID for edu.krs.fi (194.251.132.24): hostname.bind = bart
+ 52.900: krs.fi INFO Legacy name server ID for edu.krs.fi (194.251.132.24): version.bind = 8.4.4-NOESW
+ 52.992: krs.fi NOTICE No answer received from 194.251.132.24 when querying for id.server/CH/TXT.
+ 53.068: krs.fi NOTICE No answer received from 194.251.132.24 when querying for version.server/CH/TXT.
+ 53.068: krs.fi INFO Done testing name server edu.krs.fi.
+ 53.068: krs.fi INFO Begin testing name server ns2.kdsoft.fi.
+ 53.068: krs.fi INFO Begin testing host ns2.kdsoft.fi.
+ 53.580: krs.fi INFO Begin testing address 194.100.228.237.
+ 58.152: krs.fi INFO Done testing address 194.100.228.237.
+ 58.152: krs.fi INFO Done testing host ns2.kdsoft.fi.
+ 59.129: krs.fi INFO Name server ns2.kdsoft.fi (194.100.228.237) answers queries over UDP.
+ 59.313: krs.fi INFO Name server ns2.kdsoft.fi (194.100.228.237) answers queries over TCP.
+ 59.450: krs.fi INFO Name server ns2.kdsoft.fi (194.100.228.237) is not recursive.
+ 59.904: krs.fi INFO Name server ns2.kdsoft.fi (194.100.228.237) authoritative for krs.fi.
+ 60.088: krs.fi NOTICE Name server ns2.kdsoft.fi (194.100.228.237) open for zone transfer of krs.fi.
+ 60.184: krs.fi INFO Legacy name server ID for ns2.kdsoft.fi (194.100.228.237): hostname.bind = ns2.kdsoft.fi
+ 60.294: krs.fi INFO Legacy name server ID for ns2.kdsoft.fi (194.100.228.237): version.bind = 9.6-ESV-R3
+ 60.588: krs.fi NOTICE No answer received from 194.100.228.237 when querying for version.server/CH/TXT.
+ 60.588: krs.fi INFO Done testing name server ns2.kdsoft.fi.
+ 60.588: krs.fi INFO Begin testing name server ns3.kdsoft.fi.
+ 60.589: krs.fi INFO Begin testing host ns3.kdsoft.fi.
+ 61.484: krs.fi INFO Begin testing address 194.100.228.238.
+ 64.120: krs.fi INFO Done testing address 194.100.228.238.
+ 64.120: krs.fi INFO Done testing host ns3.kdsoft.fi.
+ 65.016: krs.fi INFO Name server ns3.kdsoft.fi (194.100.228.238) answers queries over UDP.
+ 65.188: krs.fi INFO Name server ns3.kdsoft.fi (194.100.228.238) answers queries over TCP.
+ 65.349: krs.fi INFO Name server ns3.kdsoft.fi (194.100.228.238) is not recursive.
+ 65.726: krs.fi INFO Name server ns3.kdsoft.fi (194.100.228.238) authoritative for krs.fi.
+ 65.914: krs.fi NOTICE Name server ns3.kdsoft.fi (194.100.228.238) open for zone transfer of krs.fi.
+ 65.991: krs.fi NOTICE No answer received from 194.100.228.238 when querying for hostname.bind/CH/TXT.
+ 66.122: krs.fi INFO Legacy name server ID for ns3.kdsoft.fi (194.100.228.238): version.bind = 9.2.1
+ 66.219: krs.fi NOTICE No answer received from 194.100.228.238 when querying for id.server/CH/TXT.
+ 66.323: krs.fi NOTICE No answer received from 194.100.228.238 when querying for version.server/CH/TXT.
+ 66.330: krs.fi INFO Done testing name server ns3.kdsoft.fi.
+ 66.331: krs.fi INFO Begin testing zone consistency for krs.fi.
+ 70.421: krs.fi INFO SOA at address 194.100.228.238 has serial 2009121601.
+ 70.485: krs.fi INFO SOA at address 194.100.228.237 has serial 2009121601.
+ 70.700: krs.fi INFO SOA at address 194.251.132.24 has serial 2009121601.
+ 70.700: krs.fi INFO All SOA records have consistent serial numbers.
+ 70.700: krs.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 75.975: krs.fi NOTICE The listed nameservers for krs.fi all report the same set of nameservers.
+ 75.976: krs.fi INFO Done testing zone consistency for krs.fi.
+ 75.976: krs.fi INFO Begin testing SOA parameters for krs.fi.
+ 76.166: krs.fi INFO Found SOA record for krs.fi.
+ 76.166: krs.fi INFO Begin testing host edu.krs.fi.
+ 77.856: krs.fi INFO Begin testing address 194.251.132.24.
+ 79.316: krs.fi INFO Done testing address 194.251.132.24.
+ 79.316: krs.fi INFO Done testing host edu.krs.fi.
+ 79.316: krs.fi INFO SOA MNAME for krs.fi valid (edu.krs.fi).
+ 79.316: krs.fi INFO SOA MNAME for krs.fi (edu.krs.fi) listed as NS.
+ 80.912: krs.fi INFO SOA MNAME for krs.fi (edu.krs.fi) is authoritative.
+ 80.912: krs.fi INFO Begin testing email address markus@edu.krs.fi.
+ 82.362: krs.fi INFO Mail exchangers for markus@edu.krs.fi found mail.krs.fi,spamserver.kdnet.com.
+ 82.362: krs.fi INFO Begin testing host mail.krs.fi.
+ 85.456: krs.fi INFO Begin testing address 194.251.132.23.
+ 88.260: krs.fi INFO Done testing address 194.251.132.23.
+ 88.260: krs.fi INFO Done testing host mail.krs.fi.
+ 89.404: krs.fi INFO Begin testing host spamserver.kdnet.com.
+ 91.954: krs.fi INFO Begin testing address 194.100.228.228.
+ 95.808: krs.fi WARNING Reverse for 194.100.228.228 points to an unknown host name (so228.kdnet.com).
+ 95.808: krs.fi INFO Done testing address 194.100.228.228.
+ 95.808: krs.fi INFO Done testing host spamserver.kdnet.com.
+ 96.924: krs.fi INFO Done testing email address markus@edu.krs.fi.
+ 96.924: krs.fi INFO Successful attempt to deliver email for SOA RNAME of krs.fi (markus.edu.krs.fi) using markus@edu.krs.fi.
+ 96.924: krs.fi INFO SOA TTL for krs.fi OK (14400) - recommended >= 3600.
+ 96.924: krs.fi NOTICE SOA refresh for krs.fi too small (7200) - recommended >= 14400.
+ 96.924: krs.fi INFO SOA retry for krs.fi OK (3600) - recommended >= 3600.
+ 96.924: krs.fi INFO SOA expire for krs.fi OK (3600000) - recommended >= 604800.
+ 96.925: krs.fi INFO SOA minimum for krs.fi OK (14400) - recommended between 300 and 86400.
+ 96.925: krs.fi INFO Done testing SOA parameters for krs.fi.
+ 96.925: krs.fi INFO Begin testing connectivity for krs.fi.
+101.601: krs.fi INFO Zone announced by more than one ASN.
+101.602: krs.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+101.602: krs.fi INFO Done testing connectivity for krs.fi.
+101.602: krs.fi INFO Begin testing DNSSEC for krs.fi.
+101.949: krs.fi INFO Did not find DS record for krs.fi at parent.
+102.480: krs.fi INFO Servers for krs.fi have consistent extra processing status.
+102.580: krs.fi INFO Authenticated denial records not found for krs.fi.
+102.708: krs.fi INFO Did not find DNSKEY record for krs.fi at child.
+102.708: krs.fi INFO No DNSKEY(s) found at child, other tests skipped.
+102.708: krs.fi INFO Done testing DNSSEC for krs.fi.
+102.709: krs.fi INFO Test completed for zone krs.fi.

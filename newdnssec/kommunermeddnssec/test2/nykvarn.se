@@ -1,0 +1,93 @@
+  0.000: nykvarn.se INFO Begin testing zone nykvarn.se with version 1.2.
+  0.000: nykvarn.se INFO Begin testing delegation for nykvarn.se.
+  5.631: nykvarn.se INFO Name servers listed at parent: dns2.utfors.se,ns.nykvarn.se
+  6.851: nykvarn.se INFO Name servers listed at child: dns2.utfors.se,ns.nykvarn.se
+  6.852: nykvarn.se NOTICE No IPv6 name servers found.
+  6.922: nykvarn.se INFO Parent glue for nykvarn.se found: ns.nykvarn.se (62.119.149.163)
+  6.960: nykvarn.se INFO Checking glue for ns.nykvarn.se (62.119.149.163).
+  6.970: nykvarn.se INFO Child glue for nykvarn.se found: ns.nykvarn.se (62.119.149.163)
+  6.971: nykvarn.se INFO Parent glue for nykvarn.se found: ns.nykvarn.se (62.119.149.163)
+  6.971: nykvarn.se INFO Done testing delegation for nykvarn.se.
+  6.971: nykvarn.se INFO Begin testing name server dns2.utfors.se.
+  6.972: nykvarn.se INFO Begin testing host dns2.utfors.se.
+  6.972: nykvarn.se INFO Begin testing address 213.150.128.30.
+ 10.918: nykvarn.se INFO Done testing address 213.150.128.30.
+ 10.919: nykvarn.se INFO Done testing host dns2.utfors.se.
+ 10.927: nykvarn.se INFO Name server dns2.utfors.se (213.150.128.30) answers queries over UDP.
+ 10.939: nykvarn.se INFO Name server dns2.utfors.se (213.150.128.30) answers queries over TCP.
+ 10.947: nykvarn.se INFO Name server dns2.utfors.se (213.150.128.30) is not recursive.
+ 10.955: nykvarn.se INFO Name server dns2.utfors.se (213.150.128.30) authoritative for nykvarn.se.
+ 10.968: nykvarn.se INFO Name server dns2.utfors.se (213.150.128.30) closed for zone transfer of nykvarn.se.
+ 10.977: nykvarn.se INFO Legacy name server ID for dns2.utfors.se (213.150.128.30): hostname.bind = ns2.telenor.se
+ 10.984: nykvarn.se INFO Legacy name server ID for dns2.utfors.se (213.150.128.30): version.bind = Telenor DNS
+ 10.997: nykvarn.se NOTICE No answer received from 213.150.128.30 when querying for version.server/CH/TXT.
+ 10.997: nykvarn.se INFO Done testing name server dns2.utfors.se.
+ 10.997: nykvarn.se INFO Begin testing name server ns.nykvarn.se.
+ 10.997: nykvarn.se INFO Begin testing host ns.nykvarn.se.
+ 10.997: nykvarn.se INFO Begin testing address 62.119.149.163.
+ 12.273: nykvarn.se INFO Done testing address 62.119.149.163.
+ 12.273: nykvarn.se INFO Done testing host ns.nykvarn.se.
+ 12.286: nykvarn.se INFO Name server ns.nykvarn.se (62.119.149.163) answers queries over UDP.
+ 12.317: nykvarn.se INFO Name server ns.nykvarn.se (62.119.149.163) answers queries over TCP.
+ 12.525: nykvarn.se WARNING Name server ns.nykvarn.se (62.119.149.163) is recursive.
+ 12.535: nykvarn.se INFO Name server ns.nykvarn.se (62.119.149.163) authoritative for nykvarn.se.
+ 12.669: nykvarn.se NOTICE Name server ns.nykvarn.se (62.119.149.163) open for zone transfer of nykvarn.se.
+ 12.678: nykvarn.se NOTICE No answer received from 62.119.149.163 when querying for hostname.bind/CH/TXT.
+ 12.688: nykvarn.se NOTICE No answer received from 62.119.149.163 when querying for version.bind/CH/TXT.
+ 12.720: nykvarn.se NOTICE No answer received from 62.119.149.163 when querying for id.server/CH/TXT.
+ 12.755: nykvarn.se NOTICE No answer received from 62.119.149.163 when querying for version.server/CH/TXT.
+ 12.755: nykvarn.se INFO Done testing name server ns.nykvarn.se.
+ 12.755: nykvarn.se INFO Begin testing zone consistency for nykvarn.se.
+ 12.790: nykvarn.se INFO SOA at address 62.119.149.163 has serial 2010041600.
+ 12.798: nykvarn.se INFO SOA at address 213.150.128.30 has serial 2010041600.
+ 12.798: nykvarn.se INFO All SOA records have consistent serial numbers.
+ 12.798: nykvarn.se INFO All SOA records are consistent among all name servers.
+ 12.798: nykvarn.se INFO Done testing zone consistency for nykvarn.se.
+ 12.798: nykvarn.se INFO Begin testing SOA parameters for nykvarn.se.
+ 12.825: nykvarn.se INFO Found SOA record for nykvarn.se.
+ 12.825: nykvarn.se INFO Begin testing host ns.nykvarn.se.
+ 12.825: nykvarn.se INFO Begin testing address 62.119.149.163.
+ 12.827: nykvarn.se INFO Done testing address 62.119.149.163.
+ 12.827: nykvarn.se INFO Done testing host ns.nykvarn.se.
+ 12.827: nykvarn.se INFO SOA MNAME for nykvarn.se valid (ns.nykvarn.se).
+ 12.827: nykvarn.se INFO SOA MNAME for nykvarn.se (ns.nykvarn.se) listed as NS.
+ 12.859: nykvarn.se INFO SOA MNAME for nykvarn.se (ns.nykvarn.se) is authoritative.
+ 12.859: nykvarn.se INFO Begin testing email address admin@nykvarn.se.
+ 13.088: nykvarn.se INFO Mail exchangers for admin@nykvarn.se found smtp-in.sto-hy.se.stejtech.net,smtp-in.sto-ste.se.stejtech.net.
+ 13.089: nykvarn.se INFO Begin testing host smtp-in.sto-hy.se.stejtech.net.
+ 13.757: nykvarn.se INFO Begin testing address 83.140.31.145.
+ 15.819: nykvarn.se INFO Done testing address 83.140.31.145.
+ 15.819: nykvarn.se INFO Done testing host smtp-in.sto-hy.se.stejtech.net.
+ 15.819: nykvarn.se INFO Begin testing mail server smtp-in.sto-hy.se.stejtech.net (83.140.31.145) with admin@nykvarn.se.
+ 15.833: nykvarn.se INFO SMTP banner: smtp5.stejtech.net ESMTP Stej PowerFilter
+ 16.001: nykvarn.se INFO SMTP testing of smtp-in.sto-hy.se.stejtech.net (83.140.31.145) with admin@nykvarn.se succeeded without errors.
+ 16.001: nykvarn.se INFO Done testing mail server smtp-in.sto-hy.se.stejtech.net (83.140.31.145) with admin@nykvarn.se.
+ 16.001: nykvarn.se INFO Begin testing host smtp-in.sto-ste.se.stejtech.net.
+ 16.596: nykvarn.se INFO Begin testing address 80.248.224.70.
+ 17.947: nykvarn.se INFO Done testing address 80.248.224.70.
+ 17.948: nykvarn.se INFO Done testing host smtp-in.sto-ste.se.stejtech.net.
+ 17.948: nykvarn.se INFO Delivery over IPv4 to admin@nykvarn.se ok.
+ 17.948: nykvarn.se INFO Delivery over IPv6 to admin@nykvarn.se could not be done.
+ 17.948: nykvarn.se INFO Done testing email address admin@nykvarn.se.
+ 17.948: nykvarn.se INFO Successful attempt to deliver email for SOA RNAME of nykvarn.se (admin.nykvarn.se) using admin@nykvarn.se.
+ 17.948: nykvarn.se INFO SOA TTL for nykvarn.se OK (3600) - recommended >= 3600.
+ 17.948: nykvarn.se INFO SOA refresh for nykvarn.se OK (14400) - recommended >= 14400.
+ 17.949: nykvarn.se INFO SOA retry for nykvarn.se OK (3600) - recommended >= 3600.
+ 17.949: nykvarn.se INFO SOA expire for nykvarn.se OK (604800) - recommended >= 604800.
+ 17.949: nykvarn.se INFO SOA minimum for nykvarn.se OK (3600) - recommended between 300 and 86400.
+ 17.949: nykvarn.se INFO Done testing SOA parameters for nykvarn.se.
+ 17.949: nykvarn.se INFO Begin testing connectivity for nykvarn.se.
+ 18.472: nykvarn.se INFO Name server 62.119.149.163 announced by: 8434
+ 18.995: nykvarn.se INFO Name server 213.150.128.30 announced by: 2119
+ 18.995: nykvarn.se INFO Zone announced by IPv4 ASN: 8434,2119
+ 18.995: nykvarn.se INFO Zone announced by more than one ASN (2).
+ 18.996: nykvarn.se INFO Zone announced by IPv6 ASN: 
+ 18.996: nykvarn.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 18.996: nykvarn.se INFO Done testing connectivity for nykvarn.se.
+ 18.996: nykvarn.se INFO Begin testing DNSSEC for nykvarn.se.
+ 19.010: nykvarn.se INFO Did not find DS record for nykvarn.se at parent.
+ 19.055: nykvarn.se INFO Servers for nykvarn.se have consistent extra processing status.
+ 19.055: nykvarn.se INFO Did not find DNSKEY record for nykvarn.se at child.
+ 19.055: nykvarn.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 19.055: nykvarn.se INFO Done testing DNSSEC for nykvarn.se.
+ 19.055: nykvarn.se INFO Test completed for zone nykvarn.se.

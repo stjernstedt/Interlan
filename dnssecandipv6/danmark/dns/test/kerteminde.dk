@@ -1,0 +1,88 @@
+  0.000: kerteminde.dk INFO Begin testing zone kerteminde.dk with version 1.6.1.
+  0.499: kerteminde.dk INFO Begin testing delegation for kerteminde.dk.
+  5.717: kerteminde.dk INFO Name servers listed at parent: ns-auth03.kmd.dk,ns-auth04.kmd.dk
+  7.540: kerteminde.dk INFO Name servers listed at child: ns-auth03.kmd.dk,ns-auth04.kmd.dk
+  7.540: kerteminde.dk NOTICE No IPv6 name servers found.
+  7.677: kerteminde.dk INFO Parent glue for kerteminde.dk found: ns-auth03.kmd.dk (131.165.64.5)
+  7.863: kerteminde.dk INFO Parent glue for kerteminde.dk found: ns-auth04.kmd.dk (131.165.4.5)
+  7.944: kerteminde.dk INFO Checking glue for ns-auth03.kmd.dk (131.165.64.5).
+  7.956: kerteminde.dk INFO Checking glue for ns-auth04.kmd.dk (131.165.4.5).
+  7.957: kerteminde.dk INFO Parent glue for kerteminde.dk found: ns-auth03.kmd.dk (131.165.64.5)
+  7.957: kerteminde.dk INFO Parent glue for kerteminde.dk found: ns-auth04.kmd.dk (131.165.4.5)
+  9.056: kerteminde.dk INFO It is possible to build a referral packet for kerteminde.dk that works without EDNS0.
+  9.971: kerteminde.dk INFO Previously used name servers for kerteminde.dk: 
+  9.971: kerteminde.dk INFO Done testing delegation for kerteminde.dk.
+  9.972: kerteminde.dk INFO Begin testing name server ns-auth03.kmd.dk.
+  9.972: kerteminde.dk INFO Begin testing host ns-auth03.kmd.dk.
+ 10.316: kerteminde.dk INFO Begin testing address 131.165.64.5.
+ 17.125: kerteminde.dk INFO Done testing address 131.165.64.5.
+ 17.125: kerteminde.dk INFO Done testing host ns-auth03.kmd.dk.
+ 17.469: kerteminde.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) answers queries over UDP.
+ 17.573: kerteminde.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) answers queries over TCP.
+ 17.628: kerteminde.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) is not recursive.
+ 17.846: kerteminde.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) authoritative for kerteminde.dk.
+ 18.001: kerteminde.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) closed for zone transfer of kerteminde.dk.
+ 18.057: kerteminde.dk INFO Legacy name server ID for ns-auth03.kmd.dk (131.165.64.5): hostname.bind = ns-auth03.kmd.dk
+ 18.113: kerteminde.dk INFO Legacy name server ID for ns-auth03.kmd.dk (131.165.64.5): version.bind = 1.0
+ 18.219: kerteminde.dk NOTICE No answer received from 131.165.64.5 when querying for version.server/CH/TXT.
+ 18.220: kerteminde.dk INFO Done testing name server ns-auth03.kmd.dk.
+ 18.220: kerteminde.dk INFO Begin testing name server ns-auth04.kmd.dk.
+ 18.220: kerteminde.dk INFO Begin testing host ns-auth04.kmd.dk.
+ 18.345: kerteminde.dk INFO Begin testing address 131.165.4.5.
+ 19.027: kerteminde.dk INFO Done testing address 131.165.4.5.
+ 19.027: kerteminde.dk INFO Done testing host ns-auth04.kmd.dk.
+ 19.215: kerteminde.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) answers queries over UDP.
+ 19.330: kerteminde.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) answers queries over TCP.
+ 19.416: kerteminde.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) is not recursive.
+ 19.641: kerteminde.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) authoritative for kerteminde.dk.
+ 19.793: kerteminde.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) closed for zone transfer of kerteminde.dk.
+ 19.849: kerteminde.dk INFO Legacy name server ID for ns-auth04.kmd.dk (131.165.4.5): hostname.bind = ns-auth04.kmd.dk
+ 19.904: kerteminde.dk INFO Legacy name server ID for ns-auth04.kmd.dk (131.165.4.5): version.bind = 1.0
+ 20.013: kerteminde.dk NOTICE No answer received from 131.165.4.5 when querying for version.server/CH/TXT.
+ 20.013: kerteminde.dk INFO Done testing name server ns-auth04.kmd.dk.
+ 20.013: kerteminde.dk INFO Begin testing zone consistency for kerteminde.dk.
+ 21.014: kerteminde.dk INFO SOA at address 131.165.4.5 has serial 55.
+ 21.087: kerteminde.dk INFO SOA at address 131.165.64.5 has serial 55.
+ 21.087: kerteminde.dk INFO All SOA records have consistent serial numbers.
+ 21.087: kerteminde.dk INFO All other fields in the SOA record are consistent among all name servers.
+ 21.745: kerteminde.dk NOTICE The listed nameservers for kerteminde.dk all report the same set of nameservers.
+ 21.745: kerteminde.dk INFO Done testing zone consistency for kerteminde.dk.
+ 21.745: kerteminde.dk INFO Begin testing SOA parameters for kerteminde.dk.
+ 21.805: kerteminde.dk INFO Found SOA record for kerteminde.dk.
+ 21.806: kerteminde.dk INFO Begin testing host ns-auth03.kmd.dk.
+ 22.056: kerteminde.dk INFO Begin testing address 131.165.64.5.
+ 22.283: kerteminde.dk INFO Done testing address 131.165.64.5.
+ 22.283: kerteminde.dk INFO Done testing host ns-auth03.kmd.dk.
+ 22.283: kerteminde.dk INFO SOA MNAME for kerteminde.dk valid (ns-auth03.kmd.dk).
+ 22.284: kerteminde.dk INFO SOA MNAME for kerteminde.dk (ns-auth03.kmd.dk) listed as NS.
+ 22.701: kerteminde.dk INFO SOA MNAME for kerteminde.dk (ns-auth03.kmd.dk) is authoritative.
+ 22.701: kerteminde.dk INFO Begin testing email address dnsadmin@kmd.dk.
+ 22.992: kerteminde.dk INFO Mail exchangers for dnsadmin@kmd.dk found edge1.kmd.dk,edge2.kmd.dk.
+ 22.993: kerteminde.dk INFO Begin testing host edge1.kmd.dk.
+ 23.420: kerteminde.dk INFO Begin testing address 131.165.63.88.
+ 24.355: kerteminde.dk INFO Done testing address 131.165.63.88.
+ 24.355: kerteminde.dk INFO Done testing host edge1.kmd.dk.
+ 24.626: kerteminde.dk INFO Begin testing host edge2.kmd.dk.
+ 25.160: kerteminde.dk INFO Begin testing address 131.165.63.89.
+ 25.777: kerteminde.dk INFO Done testing address 131.165.63.89.
+ 25.777: kerteminde.dk INFO Done testing host edge2.kmd.dk.
+ 26.026: kerteminde.dk INFO Done testing email address dnsadmin@kmd.dk.
+ 26.026: kerteminde.dk INFO Successful attempt to deliver email for SOA RNAME of kerteminde.dk (dnsadmin.kmd.dk) using dnsadmin@kmd.dk.
+ 26.026: kerteminde.dk INFO SOA TTL for kerteminde.dk OK (3600) - recommended >= 3600.
+ 26.026: kerteminde.dk NOTICE SOA refresh for kerteminde.dk too small (10800) - recommended >= 14400.
+ 26.026: kerteminde.dk INFO SOA retry for kerteminde.dk OK (3600) - recommended >= 3600.
+ 26.026: kerteminde.dk INFO SOA expire for kerteminde.dk OK (604800) - recommended >= 604800.
+ 26.026: kerteminde.dk INFO SOA minimum for kerteminde.dk OK (43200) - recommended between 300 and 86400.
+ 26.026: kerteminde.dk INFO Done testing SOA parameters for kerteminde.dk.
+ 26.026: kerteminde.dk INFO Begin testing connectivity for kerteminde.dk.
+ 27.169: kerteminde.dk NOTICE Zone announced by fewer than two IPv4 ASN.
+ 27.169: kerteminde.dk NOTICE Zone announced by fewer than two IPv6 ASN.
+ 27.169: kerteminde.dk INFO Done testing connectivity for kerteminde.dk.
+ 27.169: kerteminde.dk INFO Begin testing DNSSEC for kerteminde.dk.
+ 27.247: kerteminde.dk INFO Did not find DS record for kerteminde.dk at parent.
+ 27.488: kerteminde.dk INFO Servers for kerteminde.dk have consistent extra processing status.
+ 27.593: kerteminde.dk INFO Authenticated denial records not found for kerteminde.dk.
+ 27.646: kerteminde.dk INFO Did not find DNSKEY record for kerteminde.dk at child.
+ 27.646: kerteminde.dk INFO No DNSKEY(s) found at child, other tests skipped.
+ 27.646: kerteminde.dk INFO Done testing DNSSEC for kerteminde.dk.
+ 27.646: kerteminde.dk INFO Test completed for zone kerteminde.dk.

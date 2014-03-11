@@ -1,0 +1,90 @@
+  0.000: varkaus.fi INFO Begin testing zone varkaus.fi with version 1.6.1.
+  0.471: varkaus.fi INFO Begin testing delegation for varkaus.fi.
+  8.467: varkaus.fi INFO Name servers listed at parent: ns.kuopio.fi,ns2.kuopio.fi
+  9.289: varkaus.fi INFO Name servers listed at child: ns.kuopio.fi,ns2.kuopio.fi
+  9.289: varkaus.fi NOTICE No IPv6 name servers found.
+  9.342: varkaus.fi INFO Parent glue for varkaus.fi found: ns.kuopio.fi (194.157.127.83)
+ 11.433: varkaus.fi INFO Parent glue for varkaus.fi found: ns2.kuopio.fi (194.157.127.84)
+ 11.537: varkaus.fi INFO Checking glue for ns.kuopio.fi (194.157.127.83).
+ 11.567: varkaus.fi INFO Checking glue for ns2.kuopio.fi (194.157.127.84).
+ 11.567: varkaus.fi INFO Parent glue for varkaus.fi found: ns.kuopio.fi (194.157.127.83)
+ 11.568: varkaus.fi INFO Parent glue for varkaus.fi found: ns2.kuopio.fi (194.157.127.84)
+ 12.565: varkaus.fi INFO It is possible to build a referral packet for varkaus.fi that works without EDNS0.
+ 13.303: varkaus.fi INFO Previously used name servers for varkaus.fi: 
+ 13.303: varkaus.fi INFO Done testing delegation for varkaus.fi.
+ 13.309: varkaus.fi INFO Begin testing name server ns.kuopio.fi.
+ 13.309: varkaus.fi INFO Begin testing host ns.kuopio.fi.
+ 13.832: varkaus.fi INFO Begin testing address 194.157.127.83.
+ 20.957: varkaus.fi INFO Done testing address 194.157.127.83.
+ 20.957: varkaus.fi INFO Done testing host ns.kuopio.fi.
+ 21.141: varkaus.fi INFO Name server ns.kuopio.fi (194.157.127.83) answers queries over UDP.
+ 21.191: varkaus.fi INFO Name server ns.kuopio.fi (194.157.127.83) answers queries over TCP.
+ 21.283: varkaus.fi INFO Name server ns.kuopio.fi (194.157.127.83) is not recursive.
+ 21.429: varkaus.fi INFO Name server ns.kuopio.fi (194.157.127.83) authoritative for varkaus.fi.
+ 21.499: varkaus.fi INFO Name server ns.kuopio.fi (194.157.127.83) closed for zone transfer of varkaus.fi.
+ 21.531: varkaus.fi NOTICE No answer received from 194.157.127.83 when querying for hostname.bind/CH/TXT.
+ 21.559: varkaus.fi INFO Legacy name server ID for ns.kuopio.fi (194.157.127.83): version.bind = Meta IP DNS - BIND V8.2.7-REL (Build 36)
+ 21.610: varkaus.fi NOTICE No answer received from 194.157.127.83 when querying for id.server/CH/TXT.
+ 21.648: varkaus.fi NOTICE No answer received from 194.157.127.83 when querying for version.server/CH/TXT.
+ 21.648: varkaus.fi INFO Done testing name server ns.kuopio.fi.
+ 21.648: varkaus.fi INFO Begin testing name server ns2.kuopio.fi.
+ 21.648: varkaus.fi INFO Begin testing host ns2.kuopio.fi.
+ 21.936: varkaus.fi INFO Begin testing address 194.157.127.84.
+ 22.652: varkaus.fi INFO Done testing address 194.157.127.84.
+ 22.652: varkaus.fi INFO Done testing host ns2.kuopio.fi.
+ 22.837: varkaus.fi INFO Name server ns2.kuopio.fi (194.157.127.84) answers queries over UDP.
+ 22.886: varkaus.fi INFO Name server ns2.kuopio.fi (194.157.127.84) answers queries over TCP.
+ 22.931: varkaus.fi INFO Name server ns2.kuopio.fi (194.157.127.84) is not recursive.
+ 23.061: varkaus.fi INFO Name server ns2.kuopio.fi (194.157.127.84) authoritative for varkaus.fi.
+ 23.131: varkaus.fi INFO Name server ns2.kuopio.fi (194.157.127.84) closed for zone transfer of varkaus.fi.
+ 23.172: varkaus.fi NOTICE No answer received from 194.157.127.84 when querying for hostname.bind/CH/TXT.
+ 23.200: varkaus.fi INFO Legacy name server ID for ns2.kuopio.fi (194.157.127.84): version.bind = Meta IP DNS - BIND V8.2.7-REL (Build 36)
+ 23.281: varkaus.fi NOTICE No answer received from 194.157.127.84 when querying for id.server/CH/TXT.
+ 23.326: varkaus.fi NOTICE No answer received from 194.157.127.84 when querying for version.server/CH/TXT.
+ 23.326: varkaus.fi INFO Done testing name server ns2.kuopio.fi.
+ 23.326: varkaus.fi INFO Begin testing zone consistency for varkaus.fi.
+ 24.422: varkaus.fi INFO SOA at address 194.157.127.83 has serial 48.
+ 24.484: varkaus.fi INFO SOA at address 194.157.127.84 has serial 48.
+ 24.484: varkaus.fi INFO All SOA records have consistent serial numbers.
+ 24.484: varkaus.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 25.137: varkaus.fi NOTICE The listed nameservers for varkaus.fi all report the same set of nameservers.
+ 25.137: varkaus.fi INFO Done testing zone consistency for varkaus.fi.
+ 25.137: varkaus.fi INFO Begin testing SOA parameters for varkaus.fi.
+ 25.211: varkaus.fi INFO Found SOA record for varkaus.fi.
+ 25.212: varkaus.fi INFO Begin testing host ns.kuopio.fi.
+ 25.503: varkaus.fi INFO Begin testing address 194.157.127.83.
+ 26.217: varkaus.fi INFO Done testing address 194.157.127.83.
+ 26.217: varkaus.fi INFO Done testing host ns.kuopio.fi.
+ 26.217: varkaus.fi INFO SOA MNAME for varkaus.fi valid (ns.kuopio.fi).
+ 26.218: varkaus.fi INFO SOA MNAME for varkaus.fi (ns.kuopio.fi) listed as NS.
+ 26.525: varkaus.fi INFO SOA MNAME for varkaus.fi (ns.kuopio.fi) is authoritative.
+ 26.525: varkaus.fi INFO Begin testing email address noc@istekki.fi.
+ 26.845: varkaus.fi INFO Mail exchangers for noc@istekki.fi found mxgw.istekkipalvelut.fi.
+ 26.875: varkaus.fi INFO Begin testing host mxgw.istekkipalvelut.fi.
+ 27.492: varkaus.fi INFO Begin testing address 194.157.127.75.
+ 28.324: varkaus.fi INFO Done testing address 194.157.127.75.
+ 28.324: varkaus.fi INFO Begin testing address 194.157.127.76.
+ 29.160: varkaus.fi INFO Done testing address 194.157.127.76.
+ 29.160: varkaus.fi INFO Done testing host mxgw.istekkipalvelut.fi.
+ 29.469: varkaus.fi INFO Done testing email address noc@istekki.fi.
+ 29.469: varkaus.fi INFO Successful attempt to deliver email for SOA RNAME of varkaus.fi (noc.istekki.fi) using noc@istekki.fi.
+ 29.469: varkaus.fi INFO SOA TTL for varkaus.fi OK (86400) - recommended >= 3600.
+ 29.469: varkaus.fi NOTICE SOA refresh for varkaus.fi too small (10800) - recommended >= 14400.
+ 29.469: varkaus.fi NOTICE SOA retry for varkaus.fi too small (1800) - recommended >= 3600.
+ 29.469: varkaus.fi INFO SOA expire for varkaus.fi OK (604800) - recommended >= 604800.
+ 29.470: varkaus.fi INFO SOA minimum for varkaus.fi OK (1800) - recommended between 300 and 86400.
+ 29.470: varkaus.fi INFO Done testing SOA parameters for varkaus.fi.
+ 29.470: varkaus.fi INFO Begin testing connectivity for varkaus.fi.
+ 30.698: varkaus.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 30.698: varkaus.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 30.699: varkaus.fi INFO Done testing connectivity for varkaus.fi.
+ 30.699: varkaus.fi INFO Begin testing DNSSEC for varkaus.fi.
+ 30.746: varkaus.fi INFO Did not find DS record for varkaus.fi at parent.
+ 30.804: varkaus.fi ERROR EDNS not supported by 194.157.127.83.
+ 30.852: varkaus.fi ERROR EDNS not supported by 194.157.127.84.
+ 30.852: varkaus.fi INFO Servers for varkaus.fi have consistent extra processing status.
+ 30.945: varkaus.fi INFO Authenticated denial records not found for varkaus.fi.
+ 30.972: varkaus.fi INFO Did not find DNSKEY record for varkaus.fi at child.
+ 30.972: varkaus.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 30.972: varkaus.fi INFO Done testing DNSSEC for varkaus.fi.
+ 30.972: varkaus.fi INFO Test completed for zone varkaus.fi.

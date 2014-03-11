@@ -1,0 +1,87 @@
+  0.000: smedjebacken.se INFO Begin testing zone smedjebacken.se with version 1.2.
+  0.000: smedjebacken.se INFO Begin testing delegation for smedjebacken.se.
+ 13.458: smedjebacken.se INFO Name servers listed at parent: ns1.cepus.net,ns4.cepus.net
+ 15.239: smedjebacken.se INFO Name servers listed at child: ns1.cepus.net,ns4.cepus.net
+ 15.239: smedjebacken.se NOTICE No IPv6 name servers found.
+ 15.446: smedjebacken.se INFO Done testing delegation for smedjebacken.se.
+ 15.447: smedjebacken.se INFO Begin testing name server ns1.cepus.net.
+ 15.447: smedjebacken.se INFO Begin testing host ns1.cepus.net.
+ 15.447: smedjebacken.se INFO Begin testing address 195.67.100.210.
+ 23.763: smedjebacken.se INFO Done testing address 195.67.100.210.
+ 23.763: smedjebacken.se INFO Done testing host ns1.cepus.net.
+ 23.778: smedjebacken.se INFO Name server ns1.cepus.net (195.67.100.210) answers queries over UDP.
+ 23.801: smedjebacken.se INFO Name server ns1.cepus.net (195.67.100.210) answers queries over TCP.
+ 23.813: smedjebacken.se INFO Name server ns1.cepus.net (195.67.100.210) is not recursive.
+ 23.826: smedjebacken.se INFO Name server ns1.cepus.net (195.67.100.210) authoritative for smedjebacken.se.
+ 24.008: smedjebacken.se INFO Name server ns1.cepus.net (195.67.100.210) closed for zone transfer of smedjebacken.se.
+ 24.020: smedjebacken.se NOTICE No answer received from 195.67.100.210 when querying for hostname.bind/CH/TXT.
+ 42.024: smedjebacken.se INFO Done testing name server ns1.cepus.net.
+ 42.024: smedjebacken.se INFO Begin testing name server ns4.cepus.net.
+ 42.025: smedjebacken.se INFO Begin testing host ns4.cepus.net.
+ 42.025: smedjebacken.se INFO Begin testing address 195.67.130.9.
+ 42.269: smedjebacken.se INFO Done testing address 195.67.130.9.
+ 42.269: smedjebacken.se INFO Done testing host ns4.cepus.net.
+ 42.282: smedjebacken.se INFO Name server ns4.cepus.net (195.67.130.9) answers queries over UDP.
+ 42.306: smedjebacken.se INFO Name server ns4.cepus.net (195.67.130.9) answers queries over TCP.
+ 42.319: smedjebacken.se INFO Name server ns4.cepus.net (195.67.130.9) is not recursive.
+ 42.332: smedjebacken.se INFO Name server ns4.cepus.net (195.67.130.9) authoritative for smedjebacken.se.
+ 42.520: smedjebacken.se INFO Name server ns4.cepus.net (195.67.130.9) closed for zone transfer of smedjebacken.se.
+ 42.532: smedjebacken.se NOTICE No answer received from 195.67.130.9 when querying for hostname.bind/CH/TXT.
+ 58.542: smedjebacken.se NOTICE No answer received from 195.67.130.9 when querying for version.server/CH/TXT.
+ 58.542: smedjebacken.se INFO Done testing name server ns4.cepus.net.
+ 58.542: smedjebacken.se INFO Begin testing zone consistency for smedjebacken.se.
+ 58.559: smedjebacken.se INFO SOA at address 195.67.130.9 has serial 153.
+ 58.572: smedjebacken.se INFO SOA at address 195.67.100.210 has serial 153.
+ 58.573: smedjebacken.se INFO All SOA records have consistent serial numbers.
+ 58.573: smedjebacken.se INFO All SOA records are consistent among all name servers.
+ 58.573: smedjebacken.se INFO Done testing zone consistency for smedjebacken.se.
+ 58.573: smedjebacken.se INFO Begin testing SOA parameters for smedjebacken.se.
+ 58.586: smedjebacken.se INFO Found SOA record for smedjebacken.se.
+ 58.586: smedjebacken.se INFO Begin testing host ns1.cepus.net.
+ 58.587: smedjebacken.se INFO Begin testing address 195.67.100.210.
+ 58.588: smedjebacken.se INFO Done testing address 195.67.100.210.
+ 58.588: smedjebacken.se INFO Done testing host ns1.cepus.net.
+ 58.588: smedjebacken.se INFO SOA MNAME for smedjebacken.se valid (ns1.cepus.net).
+ 58.588: smedjebacken.se INFO SOA MNAME for smedjebacken.se (ns1.cepus.net) listed as NS.
+ 58.602: smedjebacken.se INFO SOA MNAME for smedjebacken.se (ns1.cepus.net) is authoritative.
+ 58.602: smedjebacken.se INFO Begin testing email address registry@cepus.se.
+ 58.827: smedjebacken.se INFO Mail exchangers for registry@cepus.se found mailhotel3.cepus.net,mail.cepus.se.
+ 58.827: smedjebacken.se INFO Begin testing host mailhotel3.cepus.net.
+ 63.520: smedjebacken.se INFO Begin testing address 195.67.100.56.
+ 63.898: smedjebacken.se INFO Done testing address 195.67.100.56.
+ 63.898: smedjebacken.se INFO Done testing host mailhotel3.cepus.net.
+ 63.899: smedjebacken.se INFO Begin testing mail server mailhotel3.cepus.net (195.67.100.56) with registry@cepus.se.
+ 63.928: smedjebacken.se INFO SMTP banner: mailhotel3.cepus.net
+ 65.963: smedjebacken.se INFO SMTP testing of mailhotel3.cepus.net (195.67.100.56) with registry@cepus.se succeeded without errors.
+ 65.963: smedjebacken.se INFO Done testing mail server mailhotel3.cepus.net (195.67.100.56) with registry@cepus.se.
+ 65.964: smedjebacken.se INFO Begin testing host mail.cepus.se.
+ 66.394: smedjebacken.se INFO Begin testing address 195.67.100.37.
+ 67.434: smedjebacken.se INFO Done testing address 195.67.100.37.
+ 67.434: smedjebacken.se INFO Done testing host mail.cepus.se.
+ 67.434: smedjebacken.se INFO Delivery over IPv4 to registry@cepus.se ok.
+ 67.434: smedjebacken.se INFO Delivery over IPv6 to registry@cepus.se could not be done.
+ 67.434: smedjebacken.se INFO Done testing email address registry@cepus.se.
+ 67.434: smedjebacken.se INFO Successful attempt to deliver email for SOA RNAME of smedjebacken.se (registry.cepus.se) using registry@cepus.se.
+ 67.434: smedjebacken.se INFO SOA TTL for smedjebacken.se OK (3600) - recommended >= 3600.
+ 67.435: smedjebacken.se INFO SOA refresh for smedjebacken.se OK (14400) - recommended >= 14400.
+ 67.435: smedjebacken.se INFO SOA retry for smedjebacken.se OK (3600) - recommended >= 3600.
+ 67.435: smedjebacken.se INFO SOA expire for smedjebacken.se OK (604800) - recommended >= 604800.
+ 67.435: smedjebacken.se INFO SOA minimum for smedjebacken.se OK (3600) - recommended between 300 and 86400.
+ 67.435: smedjebacken.se INFO Done testing SOA parameters for smedjebacken.se.
+ 67.435: smedjebacken.se INFO Begin testing connectivity for smedjebacken.se.
+ 68.118: smedjebacken.se INFO Name server 195.67.100.210 announced by: 3301
+ 68.655: smedjebacken.se INFO Name server 195.67.130.9 announced by: 3301
+ 68.655: smedjebacken.se INFO Zone announced by IPv4 ASN: 3301
+ 68.655: smedjebacken.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 68.656: smedjebacken.se INFO Zone announced by IPv6 ASN: 
+ 68.656: smedjebacken.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 68.656: smedjebacken.se INFO Done testing connectivity for smedjebacken.se.
+ 68.656: smedjebacken.se INFO Begin testing DNSSEC for smedjebacken.se.
+ 68.768: smedjebacken.se INFO Did not find DS record for smedjebacken.se at parent.
+ 68.791: smedjebacken.se ERROR EDNS not supported by 195.67.100.210.
+ 73.800: smedjebacken.se NOTICE DNS lookup error (timeout).
+ 73.800: smedjebacken.se INFO Servers for smedjebacken.se have consistent extra processing status.
+ 73.800: smedjebacken.se INFO Did not find DNSKEY record for smedjebacken.se at child.
+ 73.801: smedjebacken.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 73.801: smedjebacken.se INFO Done testing DNSSEC for smedjebacken.se.
+ 73.801: smedjebacken.se INFO Test completed for zone smedjebacken.se.

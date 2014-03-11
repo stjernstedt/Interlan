@@ -1,0 +1,118 @@
+  0.000: osteraker.se INFO Begin testing zone osteraker.se with version 1.6.1.
+  0.580: osteraker.se INFO Begin testing delegation for osteraker.se.
+ 10.243: osteraker.se INFO Name servers listed at parent: ns1.teknikbyran.com,ns2.teknikbyran.com
+ 12.764: osteraker.se INFO Name servers listed at child: ns1.teknikbyran.com,ns2.teknikbyran.com
+ 12.765: osteraker.se NOTICE No IPv6 name servers found.
+ 14.133: osteraker.se INFO It is possible to build a referral packet for osteraker.se that works without EDNS0.
+ 15.045: osteraker.se INFO Previously used name servers for osteraker.se: 
+ 15.046: osteraker.se INFO Done testing delegation for osteraker.se.
+ 15.046: osteraker.se INFO Begin testing name server ns1.teknikbyran.com.
+ 15.046: osteraker.se INFO Begin testing host ns1.teknikbyran.com.
+ 15.604: osteraker.se INFO Begin testing address 194.48.213.14.
+ 24.160: osteraker.se INFO Done testing address 194.48.213.14.
+ 24.160: osteraker.se INFO Done testing host ns1.teknikbyran.com.
+ 24.576: osteraker.se INFO Name server ns1.teknikbyran.com (194.48.213.14) answers queries over UDP.
+ 24.598: osteraker.se INFO Name server ns1.teknikbyran.com (194.48.213.14) answers queries over TCP.
+ 24.639: osteraker.se INFO Name server ns1.teknikbyran.com (194.48.213.14) is not recursive.
+ 24.752: osteraker.se INFO Name server ns1.teknikbyran.com (194.48.213.14) authoritative for osteraker.se.
+ 24.871: osteraker.se INFO Name server ns1.teknikbyran.com (194.48.213.14) closed for zone transfer of osteraker.se.
+ 25.063: osteraker.se INFO Legacy name server ID for ns1.teknikbyran.com (194.48.213.14): hostname.bind = ns1
+ 25.101: osteraker.se INFO Legacy name server ID for ns1.teknikbyran.com (194.48.213.14): version.bind = 9.9.2-P1
+ 25.147: osteraker.se NOTICE No answer received from 194.48.213.14 when querying for version.server/CH/TXT.
+ 25.148: osteraker.se INFO Done testing name server ns1.teknikbyran.com.
+ 25.148: osteraker.se INFO Begin testing name server ns2.teknikbyran.com.
+ 25.148: osteraker.se INFO Begin testing host ns2.teknikbyran.com.
+ 25.643: osteraker.se INFO Begin testing address 91.190.139.4.
+ 28.840: osteraker.se INFO Done testing address 91.190.139.4.
+ 28.840: osteraker.se INFO Done testing host ns2.teknikbyran.com.
+ 29.168: osteraker.se INFO Name server ns2.teknikbyran.com (91.190.139.4) answers queries over UDP.
+ 29.225: osteraker.se INFO Name server ns2.teknikbyran.com (91.190.139.4) answers queries over TCP.
+ 29.252: osteraker.se INFO Name server ns2.teknikbyran.com (91.190.139.4) is not recursive.
+ 29.356: osteraker.se INFO Name server ns2.teknikbyran.com (91.190.139.4) authoritative for osteraker.se.
+ 29.391: osteraker.se INFO Name server ns2.teknikbyran.com (91.190.139.4) closed for zone transfer of osteraker.se.
+ 29.404: osteraker.se INFO Legacy name server ID for ns2.teknikbyran.com (91.190.139.4): hostname.bind = ns2
+ 29.432: osteraker.se INFO Legacy name server ID for ns2.teknikbyran.com (91.190.139.4): version.bind = 9.9.2-P1
+ 29.479: osteraker.se NOTICE No answer received from 91.190.139.4 when querying for version.server/CH/TXT.
+ 29.480: osteraker.se INFO Done testing name server ns2.teknikbyran.com.
+ 29.480: osteraker.se INFO Begin testing zone consistency for osteraker.se.
+ 30.592: osteraker.se INFO SOA at address 194.48.213.14 has serial 2014030801.
+ 30.650: osteraker.se INFO SOA at address 91.190.139.4 has serial 2014030801.
+ 30.650: osteraker.se INFO All SOA records have consistent serial numbers.
+ 30.650: osteraker.se INFO All other fields in the SOA record are consistent among all name servers.
+ 31.449: osteraker.se NOTICE The listed nameservers for osteraker.se all report the same set of nameservers.
+ 31.449: osteraker.se INFO Done testing zone consistency for osteraker.se.
+ 31.449: osteraker.se INFO Begin testing SOA parameters for osteraker.se.
+ 31.528: osteraker.se INFO Found SOA record for osteraker.se.
+ 31.528: osteraker.se INFO Begin testing host ns1.teknikbyran.com.
+ 31.924: osteraker.se INFO Begin testing address 194.48.213.14.
+ 32.254: osteraker.se INFO Done testing address 194.48.213.14.
+ 32.254: osteraker.se INFO Done testing host ns1.teknikbyran.com.
+ 32.254: osteraker.se INFO SOA MNAME for osteraker.se valid (ns1.teknikbyran.com).
+ 32.254: osteraker.se INFO SOA MNAME for osteraker.se (ns1.teknikbyran.com) listed as NS.
+ 32.521: osteraker.se INFO SOA MNAME for osteraker.se (ns1.teknikbyran.com) is authoritative.
+ 32.521: osteraker.se INFO Begin testing email address support@osteraker.se.
+ 32.696: osteraker.se INFO Mail exchangers for support@osteraker.se found mailgate1.osteraker.se,mailgate2.osteraker.se.
+ 32.696: osteraker.se INFO All mail servers for support@osteraker.se are in zone osteraker.se.
+ 32.696: osteraker.se INFO Begin testing host mailgate1.osteraker.se.
+ 33.232: osteraker.se INFO Begin testing address 91.198.92.156.
+ 34.063: osteraker.se INFO Done testing address 91.198.92.156.
+ 34.064: osteraker.se INFO Done testing host mailgate1.osteraker.se.
+ 34.251: osteraker.se INFO Begin testing host mailgate2.osteraker.se.
+ 34.728: osteraker.se INFO Begin testing address 91.198.92.181.
+ 35.458: osteraker.se INFO Done testing address 91.198.92.181.
+ 35.458: osteraker.se INFO Done testing host mailgate2.osteraker.se.
+ 35.685: osteraker.se INFO Done testing email address support@osteraker.se.
+ 35.690: osteraker.se INFO Successful attempt to deliver email for SOA RNAME of osteraker.se (support.osteraker.se) using support@osteraker.se.
+ 35.690: osteraker.se NOTICE SOA TTL for osteraker.se too small (600) - recommended >= 3600.
+ 35.690: osteraker.se INFO SOA refresh for osteraker.se OK (14400) - recommended >= 14400.
+ 35.690: osteraker.se INFO SOA retry for osteraker.se OK (3600) - recommended >= 3600.
+ 35.690: osteraker.se NOTICE SOA expire for osteraker.se too small (600) - recommended >= 604800.
+ 35.690: osteraker.se NOTICE SOA expire for osteraker.se lower than refresh.
+ 35.690: osteraker.se INFO SOA minimum for osteraker.se OK (500) - recommended between 300 and 86400.
+ 35.690: osteraker.se INFO Done testing SOA parameters for osteraker.se.
+ 35.707: osteraker.se INFO Begin testing connectivity for osteraker.se.
+ 37.047: osteraker.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 37.047: osteraker.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 37.067: osteraker.se INFO Done testing connectivity for osteraker.se.
+ 37.067: osteraker.se INFO Begin testing DNSSEC for osteraker.se.
+ 37.138: osteraker.se INFO Found DS record for osteraker.se at parent.
+ 37.163: osteraker.se INFO Nameserver 194.48.213.14 does DNSSEC extra processing.
+ 37.224: osteraker.se INFO Nameserver 91.190.139.4 does DNSSEC extra processing.
+ 37.224: osteraker.se INFO Servers for osteraker.se have consistent extra processing status.
+ 37.251: osteraker.se INFO Authenticated denial records found for osteraker.se, of type NSEC.
+ 37.281: osteraker.se INFO Found DNSKEY record for osteraker.se at child.
+ 37.281: osteraker.se INFO Consistent security for osteraker.se.
+ 37.281: osteraker.se INFO Checking DNSSEC at child (osteraker.se).
+ 37.281: osteraker.se INFO osteraker.se's key with tag 27363 uses algorithm number 5 (RSA/SHA-1).
+ 37.282: osteraker.se INFO Algorithm number 5 is OK.
+ 37.282: osteraker.se INFO DNSKEY osteraker.se (tag 27363) is marked as a secure entry point (SEP).
+ 37.282: osteraker.se INFO osteraker.se's key with tag 13923 uses algorithm number 5 (RSA/SHA-1).
+ 37.282: osteraker.se INFO Algorithm number 5 is OK.
+ 37.282: osteraker.se INFO DNSSEC signature expires at: Fri Mar 14 02:40:01 2014
+ 37.282: osteraker.se INFO Duration for RRSIG(osteraker.se/IN/DNSKEY/13923) is OK (518400 seconds).
+ 37.316: osteraker.se INFO DNSSEC signature RRSIG(osteraker.se/IN/DNSKEY/13923) matches records.
+ 37.317: osteraker.se INFO DNSSEC signature valid: RRSIG(osteraker.se/IN/DNSKEY/13923)
+ 37.317: osteraker.se INFO DNSSEC signature expires at: Fri Mar 14 02:40:01 2014
+ 37.317: osteraker.se INFO Duration for RRSIG(osteraker.se/IN/DNSKEY/27363) is OK (518400 seconds).
+ 37.318: osteraker.se INFO DNSSEC signature RRSIG(osteraker.se/IN/DNSKEY/27363) matches records.
+ 37.318: osteraker.se INFO DNSSEC signature valid: RRSIG(osteraker.se/IN/DNSKEY/27363)
+ 37.318: osteraker.se INFO Enough valid signatures found for osteraker.se.
+ 37.361: osteraker.se INFO DNSSEC signature expires at: Fri Mar 14 02:40:01 2014
+ 37.361: osteraker.se INFO Duration for RRSIG(osteraker.se/IN/SOA/13923) is OK (518400 seconds).
+ 37.362: osteraker.se INFO DNSSEC signature RRSIG(osteraker.se/IN/SOA/13923) matches records.
+ 37.362: osteraker.se INFO DNSSEC signature valid: RRSIG(osteraker.se/IN/SOA/13923)
+ 37.362: osteraker.se INFO Enough valid signatures over SOA RRset found for osteraker.se.
+ 37.362: osteraker.se INFO DNSSEC child checks for osteraker.se complete.
+ 37.362: osteraker.se INFO Checking DNSSEC at parent of osteraker.se.
+ 37.362: osteraker.se INFO osteraker.se's key with tag 27363 uses algorithm number 5 (RSA/SHA-1).
+ 37.362: osteraker.se INFO Algorithm number 5 is OK.
+ 37.363: osteraker.se INFO Parent DS(osteraker.se/5/2/27363) refers to valid key at child: DNSKEY(osteraker.se/5/27363)
+ 37.363: osteraker.se INFO Parent DS(osteraker.se) refers to secure entry point (SEP) at child: DS(osteraker.se/5/2/27363)
+ 37.379: osteraker.se INFO osteraker.se's key with tag 27363 uses algorithm number 5 (RSA/SHA-1).
+ 37.379: osteraker.se INFO Algorithm number 5 is OK.
+ 37.380: osteraker.se INFO Parent DS(osteraker.se/5/1/27363) refers to valid key at child: DNSKEY(osteraker.se/5/27363)
+ 37.380: osteraker.se INFO Parent DS(osteraker.se) refers to secure entry point (SEP) at child: DS(osteraker.se/5/1/27363)
+ 37.380: osteraker.se INFO DNSSEC parent checks for osteraker.se complete.
+ 37.380: osteraker.se INFO Done testing DNSSEC for osteraker.se.
+ 37.380: osteraker.se INFO Test completed for zone osteraker.se.
+99.999 osteraker.se WARNING SOA expire to low 600 seconds,0 days 0 hours, 

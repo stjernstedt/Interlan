@@ -1,0 +1,100 @@
+  0.000: kauhajoki.fi INFO Begin testing zone kauhajoki.fi with version 1.5.0.
+  1.123: kauhajoki.fi INFO Begin testing delegation for kauhajoki.fi.
+ 13.893: kauhajoki.fi INFO Name servers listed at parent: ns1.neviso.fi,ns2.neviso.fi,ns3.neviso.fi
+ 18.269: kauhajoki.fi INFO Name servers listed at child: ns1.neviso.fi,ns2.neviso.fi,ns3.neviso.fi
+ 18.269: kauhajoki.fi NOTICE No IPv6 name servers found.
+ 18.531: kauhajoki.fi INFO Parent glue for kauhajoki.fi found: ns1.neviso.fi (81.209.43.194)
+ 18.940: kauhajoki.fi INFO Parent glue for kauhajoki.fi found: ns2.neviso.fi (81.209.43.195)
+ 19.293: kauhajoki.fi INFO Parent glue for kauhajoki.fi found: ns3.neviso.fi (46.105.16.214)
+ 19.465: kauhajoki.fi INFO Checking glue for ns1.neviso.fi (81.209.43.194).
+ 19.465: kauhajoki.fi INFO Checking glue for ns2.neviso.fi (81.209.43.195).
+ 19.465: kauhajoki.fi INFO Checking glue for ns3.neviso.fi (46.105.16.214).
+ 19.579: kauhajoki.fi INFO Parent glue for kauhajoki.fi found: ns1.neviso.fi (81.209.43.194)
+ 19.579: kauhajoki.fi INFO Parent glue for kauhajoki.fi found: ns2.neviso.fi (81.209.43.195)
+ 19.580: kauhajoki.fi INFO Parent glue for kauhajoki.fi found: ns3.neviso.fi (46.105.16.214)
+ 23.235: kauhajoki.fi INFO It is possible to build a referral packet for kauhajoki.fi that works without EDNS0.
+ 25.588: kauhajoki.fi INFO Previously used name servers for kauhajoki.fi: 
+ 25.588: kauhajoki.fi INFO Done testing delegation for kauhajoki.fi.
+ 25.588: kauhajoki.fi INFO Begin testing name server ns1.neviso.fi.
+ 25.588: kauhajoki.fi INFO Begin testing host ns1.neviso.fi.
+ 26.799: kauhajoki.fi INFO Begin testing address 81.209.43.194.
+ 51.186: kauhajoki.fi INFO Done testing address 81.209.43.194.
+ 51.186: kauhajoki.fi INFO Done testing host ns1.neviso.fi.
+ 52.233: kauhajoki.fi INFO Name server ns1.neviso.fi (81.209.43.194) answers queries over UDP.
+ 52.368: kauhajoki.fi INFO Name server ns1.neviso.fi (81.209.43.194) answers queries over TCP.
+ 52.476: kauhajoki.fi INFO Name server ns1.neviso.fi (81.209.43.194) is not recursive.
+ 52.829: kauhajoki.fi INFO Name server ns1.neviso.fi (81.209.43.194) authoritative for kauhajoki.fi.
+ 52.931: kauhajoki.fi INFO Name server ns1.neviso.fi (81.209.43.194) closed for zone transfer of kauhajoki.fi.
+ 53.127: kauhajoki.fi NOTICE No answer received from 81.209.43.194 when querying for version.bind/CH/TXT.
+ 53.340: kauhajoki.fi INFO Done testing name server ns1.neviso.fi.
+ 53.340: kauhajoki.fi INFO Begin testing name server ns2.neviso.fi.
+ 53.340: kauhajoki.fi INFO Begin testing host ns2.neviso.fi.
+ 54.151: kauhajoki.fi INFO Begin testing address 81.209.43.195.
+ 56.136: kauhajoki.fi INFO Done testing address 81.209.43.195.
+ 56.136: kauhajoki.fi INFO Done testing host ns2.neviso.fi.
+ 56.989: kauhajoki.fi INFO Name server ns2.neviso.fi (81.209.43.195) answers queries over UDP.
+ 57.116: kauhajoki.fi INFO Name server ns2.neviso.fi (81.209.43.195) answers queries over TCP.
+ 57.193: kauhajoki.fi INFO Name server ns2.neviso.fi (81.209.43.195) is not recursive.
+ 57.470: kauhajoki.fi INFO Name server ns2.neviso.fi (81.209.43.195) authoritative for kauhajoki.fi.
+ 57.579: kauhajoki.fi INFO Name server ns2.neviso.fi (81.209.43.195) closed for zone transfer of kauhajoki.fi.
+ 57.735: kauhajoki.fi NOTICE No answer received from 81.209.43.195 when querying for version.bind/CH/TXT.
+ 57.959: kauhajoki.fi INFO Done testing name server ns2.neviso.fi.
+ 57.960: kauhajoki.fi INFO Begin testing name server ns3.neviso.fi.
+ 57.960: kauhajoki.fi INFO Begin testing host ns3.neviso.fi.
+ 58.808: kauhajoki.fi INFO Begin testing address 46.105.16.214.
+ 67.875: kauhajoki.fi INFO Done testing address 46.105.16.214.
+ 67.902: kauhajoki.fi INFO Done testing host ns3.neviso.fi.
+ 68.249: kauhajoki.fi INFO Name server ns3.neviso.fi (46.105.16.214) answers queries over UDP.
+ 68.324: kauhajoki.fi INFO Name server ns3.neviso.fi (46.105.16.214) answers queries over TCP.
+ 68.475: kauhajoki.fi INFO Name server ns3.neviso.fi (46.105.16.214) is not recursive.
+ 68.830: kauhajoki.fi INFO Name server ns3.neviso.fi (46.105.16.214) authoritative for kauhajoki.fi.
+ 69.002: kauhajoki.fi INFO Name server ns3.neviso.fi (46.105.16.214) closed for zone transfer of kauhajoki.fi.
+ 69.133: kauhajoki.fi NOTICE No answer received from 46.105.16.214 when querying for version.bind/CH/TXT.
+ 69.239: kauhajoki.fi INFO Done testing name server ns3.neviso.fi.
+ 69.263: kauhajoki.fi INFO Begin testing zone consistency for kauhajoki.fi.
+ 71.641: kauhajoki.fi INFO SOA at address 81.209.43.195 has serial 2013050202.
+ 71.702: kauhajoki.fi INFO SOA at address 81.209.43.194 has serial 2013050202.
+ 71.756: kauhajoki.fi INFO SOA at address 46.105.16.214 has serial 2013050202.
+ 71.756: kauhajoki.fi INFO All SOA records have consistent serial numbers.
+ 71.756: kauhajoki.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 72.899: kauhajoki.fi NOTICE The listed nameservers for kauhajoki.fi all report the same set of nameservers.
+ 72.899: kauhajoki.fi INFO Done testing zone consistency for kauhajoki.fi.
+ 72.899: kauhajoki.fi INFO Begin testing SOA parameters for kauhajoki.fi.
+ 72.917: kauhajoki.fi INFO Found SOA record for kauhajoki.fi.
+ 72.917: kauhajoki.fi INFO Begin testing host ns1.neviso.fi.
+ 74.149: kauhajoki.fi INFO Begin testing address 81.209.43.194.
+ 75.399: kauhajoki.fi INFO Done testing address 81.209.43.194.
+ 75.399: kauhajoki.fi INFO Done testing host ns1.neviso.fi.
+ 75.400: kauhajoki.fi INFO SOA MNAME for kauhajoki.fi valid (ns1.neviso.fi).
+ 75.400: kauhajoki.fi INFO SOA MNAME for kauhajoki.fi (ns1.neviso.fi) listed as NS.
+ 76.639: kauhajoki.fi INFO SOA MNAME for kauhajoki.fi (ns1.neviso.fi) is authoritative.
+ 76.639: kauhajoki.fi INFO Begin testing email address hostmaster@neviso.fi.
+ 77.677: kauhajoki.fi INFO Mail exchangers for hostmaster@neviso.fi found rps1.neviso.fi,rps2.neviso.fi.
+ 77.677: kauhajoki.fi INFO Begin testing host rps1.neviso.fi.
+ 79.808: kauhajoki.fi INFO Begin testing address 81.209.43.197.
+ 81.728: kauhajoki.fi INFO Done testing address 81.209.43.197.
+ 81.729: kauhajoki.fi INFO Done testing host rps1.neviso.fi.
+ 82.632: kauhajoki.fi INFO Begin testing host rps2.neviso.fi.
+ 84.332: kauhajoki.fi INFO Begin testing address 81.209.43.220.
+ 86.084: kauhajoki.fi INFO Done testing address 81.209.43.220.
+ 86.084: kauhajoki.fi INFO Done testing host rps2.neviso.fi.
+ 87.097: kauhajoki.fi INFO Done testing email address hostmaster@neviso.fi.
+ 87.097: kauhajoki.fi INFO Successful attempt to deliver email for SOA RNAME of kauhajoki.fi (hostmaster.neviso.fi) using hostmaster@neviso.fi.
+ 87.097: kauhajoki.fi INFO SOA TTL for kauhajoki.fi OK (10800) - recommended >= 3600.
+ 87.097: kauhajoki.fi NOTICE SOA refresh for kauhajoki.fi too small (10800) - recommended >= 14400.
+ 87.098: kauhajoki.fi INFO SOA retry for kauhajoki.fi OK (3600) - recommended >= 3600.
+ 87.098: kauhajoki.fi INFO SOA expire for kauhajoki.fi OK (604800) - recommended >= 604800.
+ 87.098: kauhajoki.fi INFO SOA minimum for kauhajoki.fi OK (3600) - recommended between 300 and 86400.
+ 87.098: kauhajoki.fi INFO Done testing SOA parameters for kauhajoki.fi.
+ 87.098: kauhajoki.fi INFO Begin testing connectivity for kauhajoki.fi.
+ 91.613: kauhajoki.fi INFO Zone announced by more than one ASN.
+ 91.614: kauhajoki.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 91.614: kauhajoki.fi INFO Done testing connectivity for kauhajoki.fi.
+ 91.614: kauhajoki.fi INFO Begin testing DNSSEC for kauhajoki.fi.
+ 91.869: kauhajoki.fi INFO Did not find DS record for kauhajoki.fi at parent.
+ 92.304: kauhajoki.fi INFO Servers for kauhajoki.fi have consistent extra processing status.
+ 92.436: kauhajoki.fi INFO Authenticated denial records not found for kauhajoki.fi.
+ 92.529: kauhajoki.fi INFO Did not find DNSKEY record for kauhajoki.fi at child.
+ 92.530: kauhajoki.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 92.530: kauhajoki.fi INFO Done testing DNSSEC for kauhajoki.fi.
+ 92.530: kauhajoki.fi INFO Test completed for zone kauhajoki.fi.

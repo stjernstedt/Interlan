@@ -1,0 +1,163 @@
+  0.000: leppavirta.fi INFO Begin testing zone leppavirta.fi with version 1.5.0.
+  0.390: leppavirta.fi INFO Begin testing delegation for leppavirta.fi.
+ 32.250: leppavirta.fi INFO Name servers listed at parent: ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 41.625: leppavirta.fi INFO Name servers listed at child: ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 41.754: leppavirta.fi INFO Parent glue for leppavirta.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+ 41.946: leppavirta.fi INFO Parent glue for leppavirta.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+ 42.340: leppavirta.fi INFO Parent glue for leppavirta.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+ 42.514: leppavirta.fi INFO Parent glue for leppavirta.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+ 42.998: leppavirta.fi INFO Checking glue for ns1-fin.global.sonera.fi (193.210.18.31).
+ 42.998: leppavirta.fi INFO Checking glue for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53).
+ 42.998: leppavirta.fi INFO Checking glue for ns2-fin.global.sonera.fi (195.156.148.158).
+ 42.999: leppavirta.fi INFO Checking glue for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53).
+ 42.999: leppavirta.fi INFO Parent glue for leppavirta.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+ 43.075: leppavirta.fi INFO Parent glue for leppavirta.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+ 43.075: leppavirta.fi INFO Parent glue for leppavirta.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+ 43.075: leppavirta.fi INFO Parent glue for leppavirta.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+ 45.795: leppavirta.fi INFO It is possible to build a referral packet for leppavirta.fi that works without EDNS0.
+ 46.566: leppavirta.fi INFO Previously used name servers for leppavirta.fi: 
+ 46.566: leppavirta.fi INFO Done testing delegation for leppavirta.fi.
+ 46.566: leppavirta.fi INFO Begin testing name server ns1-fin.global.sonera.fi.
+ 46.567: leppavirta.fi INFO Begin testing host ns1-fin.global.sonera.fi.
+ 46.567: leppavirta.fi INFO Begin testing address 193.210.18.31.
+ 75.441: leppavirta.fi INFO Done testing address 193.210.18.31.
+ 75.441: leppavirta.fi INFO Begin testing address 2001:2060:ffdd:a01:0:0:0:53.
+ 81.719: leppavirta.fi INFO Done testing address 2001:2060:ffdd:a01:0:0:0:53.
+ 81.719: leppavirta.fi INFO Done testing host ns1-fin.global.sonera.fi.
+ 82.146: leppavirta.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over UDP.
+ 82.455: leppavirta.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over TCP.
+ 82.920: leppavirta.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) is not recursive.
+ 84.322: leppavirta.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) authoritative for leppavirta.fi.
+ 84.448: leppavirta.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) closed for zone transfer of leppavirta.fi.
+ 84.700: leppavirta.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): hostname.bind = mgda2
+ 84.860: leppavirta.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): version.bind = TeliaSonera Finland DNS MGDA
+ 85.068: leppavirta.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): id.server = mgda1
+ 85.312: leppavirta.fi NOTICE No answer received from 193.210.18.31 when querying for version.server/CH/TXT.
+ 85.523: leppavirta.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) answers queries over UDP.
+ 86.176: leppavirta.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) answers queries over TCP.
+ 86.376: leppavirta.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) is not recursive.
+ 87.912: leppavirta.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) authoritative for leppavirta.fi.
+ 88.160: leppavirta.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) closed for zone transfer of leppavirta.fi.
+ 88.312: leppavirta.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): hostname.bind = mgda2
+ 88.512: leppavirta.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+ 88.841: leppavirta.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): id.server = mgda2
+ 89.058: leppavirta.fi NOTICE No answer received from 2001:2060:ffdd:a01:0:0:0:53 when querying for version.server/CH/TXT.
+ 89.058: leppavirta.fi INFO Done testing name server ns1-fin.global.sonera.fi.
+ 89.058: leppavirta.fi INFO Begin testing name server ns1-swe.global.sonera.se.
+ 89.059: leppavirta.fi INFO Begin testing host ns1-swe.global.sonera.se.
+ 89.059: leppavirta.fi INFO Begin testing address 80.64.9.124.
+ 93.655: leppavirta.fi INFO Done testing address 80.64.9.124.
+ 93.655: leppavirta.fi INFO Begin testing address 2001:6e8:400:ffff:1:0:0:53.
+ 95.352: leppavirta.fi INFO Done testing address 2001:6e8:400:ffff:1:0:0:53.
+ 95.352: leppavirta.fi INFO Done testing host ns1-swe.global.sonera.se.
+ 95.570: leppavirta.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over UDP.
+ 96.103: leppavirta.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over TCP.
+ 96.253: leppavirta.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) is not recursive.
+ 97.401: leppavirta.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) authoritative for leppavirta.fi.
+ 97.790: leppavirta.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) closed for zone transfer of leppavirta.fi.
+ 98.185: leppavirta.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): hostname.bind = mgda3
+ 98.348: leppavirta.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): version.bind = TeliaSonera Finland DNS MGDA
+ 98.671: leppavirta.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): id.server = mgda3
+ 98.844: leppavirta.fi NOTICE No answer received from 80.64.9.124 when querying for version.server/CH/TXT.
+ 99.095: leppavirta.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over UDP.
+ 99.619: leppavirta.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over TCP.
+100.033: leppavirta.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) is not recursive.
+102.427: leppavirta.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) authoritative for leppavirta.fi.
+102.952: leppavirta.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) closed for zone transfer of leppavirta.fi.
+103.252: leppavirta.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): hostname.bind = mgda3
+103.528: leppavirta.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+103.731: leppavirta.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): id.server = mgda3
+104.028: leppavirta.fi NOTICE No answer received from 2001:6e8:400:ffff:1:0:0:53 when querying for version.server/CH/TXT.
+104.028: leppavirta.fi INFO Done testing name server ns1-swe.global.sonera.se.
+104.028: leppavirta.fi INFO Begin testing name server ns2-fin.global.sonera.fi.
+104.028: leppavirta.fi INFO Begin testing host ns2-fin.global.sonera.fi.
+104.029: leppavirta.fi INFO Begin testing address 195.156.148.158.
+106.375: leppavirta.fi INFO Done testing address 195.156.148.158.
+106.675: leppavirta.fi INFO Begin testing address 2001:2060:ffdd:a02:0:0:0:53.
+108.601: leppavirta.fi INFO Done testing address 2001:2060:ffdd:a02:0:0:0:53.
+108.601: leppavirta.fi INFO Done testing host ns2-fin.global.sonera.fi.
+108.881: leppavirta.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over UDP.
+109.437: leppavirta.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over TCP.
+109.652: leppavirta.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) is not recursive.
+110.618: leppavirta.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) authoritative for leppavirta.fi.
+110.978: leppavirta.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) closed for zone transfer of leppavirta.fi.
+111.093: leppavirta.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): hostname.bind = mgda1
+111.295: leppavirta.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): version.bind = TeliaSonera Finland DNS MGDA
+111.496: leppavirta.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): id.server = mgda1
+111.676: leppavirta.fi NOTICE No answer received from 195.156.148.158 when querying for version.server/CH/TXT.
+112.035: leppavirta.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) answers queries over UDP.
+112.635: leppavirta.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) answers queries over TCP.
+113.016: leppavirta.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) is not recursive.
+114.058: leppavirta.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) authoritative for leppavirta.fi.
+114.395: leppavirta.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) closed for zone transfer of leppavirta.fi.
+114.533: leppavirta.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): hostname.bind = mgda1
+114.660: leppavirta.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+114.880: leppavirta.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): id.server = mgda1
+114.989: leppavirta.fi NOTICE No answer received from 2001:2060:ffdd:a02:0:0:0:53 when querying for version.server/CH/TXT.
+114.989: leppavirta.fi INFO Done testing name server ns2-fin.global.sonera.fi.
+114.990: leppavirta.fi INFO Begin testing name server ns2-usa.global.sonera.net.
+114.990: leppavirta.fi INFO Begin testing host ns2-usa.global.sonera.net.
+116.206: leppavirta.fi INFO Begin testing address 46.38.190.56.
+121.133: leppavirta.fi INFO Done testing address 46.38.190.56.
+121.133: leppavirta.fi INFO Done testing host ns2-usa.global.sonera.net.
+123.023: leppavirta.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over UDP.
+123.458: leppavirta.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over TCP.
+123.976: leppavirta.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) is not recursive.
+125.235: leppavirta.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) authoritative for leppavirta.fi.
+125.747: leppavirta.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) closed for zone transfer of leppavirta.fi.
+126.080: leppavirta.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): hostname.bind = mgda5
+126.404: leppavirta.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): version.bind = TeliaSonera Finland DNS MGDA
+126.616: leppavirta.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): id.server = mgda5
+126.860: leppavirta.fi NOTICE No answer received from 46.38.190.56 when querying for version.server/CH/TXT.
+126.860: leppavirta.fi INFO Done testing name server ns2-usa.global.sonera.net.
+126.860: leppavirta.fi INFO Begin testing zone consistency for leppavirta.fi.
+132.711: leppavirta.fi INFO SOA at address 2001:2060:ffdd:a01:0:0:0:53 has serial 2013060708.
+133.207: leppavirta.fi INFO SOA at address 193.210.18.31 has serial 2013060708.
+133.811: leppavirta.fi INFO SOA at address 80.64.9.124 has serial 2013060708.
+134.644: leppavirta.fi INFO SOA at address 195.156.148.158 has serial 2013060708.
+135.249: leppavirta.fi INFO SOA at address 2001:6e8:400:ffff:1:0:0:53 has serial 2013060708.
+135.563: leppavirta.fi INFO SOA at address 46.38.190.56 has serial 2013060708.
+136.322: leppavirta.fi INFO SOA at address 2001:2060:ffdd:a02:0:0:0:53 has serial 2013060708.
+136.322: leppavirta.fi INFO All SOA records have consistent serial numbers.
+136.322: leppavirta.fi INFO All other fields in the SOA record are consistent among all name servers.
+142.078: leppavirta.fi NOTICE The listed nameservers for leppavirta.fi all report the same set of nameservers.
+142.079: leppavirta.fi INFO Done testing zone consistency for leppavirta.fi.
+142.079: leppavirta.fi INFO Begin testing SOA parameters for leppavirta.fi.
+142.579: leppavirta.fi INFO Found SOA record for leppavirta.fi.
+142.579: leppavirta.fi INFO Begin testing host namesurfer.inet.fi.
+147.036: leppavirta.fi INFO Begin testing address 131.177.73.253.
+186.232: leppavirta.fi INFO Done testing address 131.177.73.253.
+186.232: leppavirta.fi INFO Done testing host namesurfer.inet.fi.
+186.232: leppavirta.fi INFO SOA MNAME for leppavirta.fi valid (namesurfer.inet.fi).
+186.232: leppavirta.fi NOTICE SOA MNAME for leppavirta.fi (namesurfer.inet.fi) not listed as NS.
+193.488: leppavirta.fi INFO SOA MNAME for leppavirta.fi (namesurfer.inet.fi) is authoritative.
+193.488: leppavirta.fi INFO Begin testing email address hostmaster@sonera.com.
+195.816: leppavirta.fi INFO Mail exchangers for hostmaster@sonera.com found smtp.dave.sonera.fi,mail.cm.sonera.com.
+195.816: leppavirta.fi INFO Begin testing host smtp.dave.sonera.fi.
+199.996: leppavirta.fi INFO Begin testing address 131.177.120.25.
+204.119: leppavirta.fi INFO Done testing address 131.177.120.25.
+204.119: leppavirta.fi INFO Done testing host smtp.dave.sonera.fi.
+205.872: leppavirta.fi INFO Begin testing host mail.cm.sonera.com.
+209.812: leppavirta.fi INFO Begin testing address 193.208.151.61.
+214.924: leppavirta.fi INFO Done testing address 193.208.151.61.
+214.924: leppavirta.fi INFO Done testing host mail.cm.sonera.com.
+216.771: leppavirta.fi INFO Done testing email address hostmaster@sonera.com.
+216.772: leppavirta.fi INFO Successful attempt to deliver email for SOA RNAME of leppavirta.fi (hostmaster.sonera.com) using hostmaster@sonera.com.
+216.772: leppavirta.fi INFO SOA TTL for leppavirta.fi OK (86400) - recommended >= 3600.
+216.772: leppavirta.fi INFO SOA refresh for leppavirta.fi OK (28800) - recommended >= 14400.
+216.772: leppavirta.fi INFO SOA retry for leppavirta.fi OK (7200) - recommended >= 3600.
+216.772: leppavirta.fi INFO SOA expire for leppavirta.fi OK (604800) - recommended >= 604800.
+216.772: leppavirta.fi INFO SOA minimum for leppavirta.fi OK (900) - recommended between 300 and 86400.
+216.772: leppavirta.fi INFO Done testing SOA parameters for leppavirta.fi.
+216.772: leppavirta.fi INFO Begin testing connectivity for leppavirta.fi.
+226.855: leppavirta.fi INFO Zone announced by more than one ASN.
+233.507: leppavirta.fi INFO Zone announced by more than one IPv6 ASN.
+233.680: leppavirta.fi INFO Done testing connectivity for leppavirta.fi.
+233.681: leppavirta.fi INFO Begin testing DNSSEC for leppavirta.fi.
+234.005: leppavirta.fi INFO Did not find DS record for leppavirta.fi at parent.
+235.688: leppavirta.fi INFO Servers for leppavirta.fi have consistent extra processing status.
+235.871: leppavirta.fi INFO Authenticated denial records not found for leppavirta.fi.
+236.072: leppavirta.fi INFO Did not find DNSKEY record for leppavirta.fi at child.
+236.072: leppavirta.fi INFO No DNSKEY(s) found at child, other tests skipped.
+236.072: leppavirta.fi INFO Done testing DNSSEC for leppavirta.fi.
+236.073: leppavirta.fi INFO Test completed for zone leppavirta.fi.

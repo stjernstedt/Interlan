@@ -1,0 +1,88 @@
+  0.000: orimattila.fi INFO Begin testing zone orimattila.fi with version 1.6.1.
+  0.360: orimattila.fi INFO Begin testing delegation for orimattila.fi.
+  8.554: orimattila.fi INFO Name servers listed at parent: ns1.taajama.fi,ns4.taajama.fi
+ 10.390: orimattila.fi INFO Name servers listed at child: ns1.taajama.fi,ns4.taajama.fi
+ 10.390: orimattila.fi NOTICE No IPv6 name servers found.
+ 10.488: orimattila.fi INFO Parent glue for orimattila.fi found: ns1.taajama.fi (83.102.40.26)
+ 10.752: orimattila.fi INFO Parent glue for orimattila.fi found: ns4.taajama.fi (83.102.40.27)
+ 10.801: orimattila.fi INFO Checking glue for ns1.taajama.fi (83.102.40.26).
+ 10.801: orimattila.fi INFO Checking glue for ns4.taajama.fi (83.102.40.27).
+ 10.801: orimattila.fi INFO Parent glue for orimattila.fi found: ns1.taajama.fi (83.102.40.26)
+ 10.801: orimattila.fi INFO Parent glue for orimattila.fi found: ns4.taajama.fi (83.102.40.27)
+ 12.367: orimattila.fi INFO It is possible to build a referral packet for orimattila.fi that works without EDNS0.
+ 13.301: orimattila.fi INFO Previously used name servers for orimattila.fi: 
+ 13.301: orimattila.fi INFO Done testing delegation for orimattila.fi.
+ 13.301: orimattila.fi INFO Begin testing name server ns1.taajama.fi.
+ 13.301: orimattila.fi INFO Begin testing host ns1.taajama.fi.
+ 13.668: orimattila.fi INFO Begin testing address 83.102.40.26.
+ 22.160: orimattila.fi INFO Done testing address 83.102.40.26.
+ 22.160: orimattila.fi INFO Done testing host ns1.taajama.fi.
+ 22.426: orimattila.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over UDP.
+ 22.460: orimattila.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over TCP.
+ 22.498: orimattila.fi INFO Name server ns1.taajama.fi (83.102.40.26) is not recursive.
+ 22.612: orimattila.fi INFO Name server ns1.taajama.fi (83.102.40.26) authoritative for orimattila.fi.
+ 22.649: orimattila.fi INFO Name server ns1.taajama.fi (83.102.40.26) closed for zone transfer of orimattila.fi.
+ 22.686: orimattila.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): hostname.bind = kotkarausku
+ 22.712: orimattila.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): version.bind = Not disclosed
+ 22.772: orimattila.fi NOTICE No answer received from 83.102.40.26 when querying for version.server/CH/TXT.
+ 22.772: orimattila.fi INFO Done testing name server ns1.taajama.fi.
+ 22.772: orimattila.fi INFO Begin testing name server ns4.taajama.fi.
+ 22.772: orimattila.fi INFO Begin testing host ns4.taajama.fi.
+ 22.915: orimattila.fi INFO Begin testing address 83.102.40.27.
+ 23.647: orimattila.fi INFO Done testing address 83.102.40.27.
+ 23.647: orimattila.fi INFO Done testing host ns4.taajama.fi.
+ 23.902: orimattila.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over UDP.
+ 23.948: orimattila.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over TCP.
+ 23.979: orimattila.fi INFO Name server ns4.taajama.fi (83.102.40.27) is not recursive.
+ 24.070: orimattila.fi INFO Name server ns4.taajama.fi (83.102.40.27) authoritative for orimattila.fi.
+ 24.120: orimattila.fi INFO Name server ns4.taajama.fi (83.102.40.27) closed for zone transfer of orimattila.fi.
+ 24.156: orimattila.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): hostname.bind = perhosrausku
+ 24.170: orimattila.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): version.bind = Not disclosed
+ 24.284: orimattila.fi NOTICE No answer received from 83.102.40.27 when querying for version.server/CH/TXT.
+ 24.284: orimattila.fi INFO Done testing name server ns4.taajama.fi.
+ 24.284: orimattila.fi INFO Begin testing zone consistency for orimattila.fi.
+ 25.533: orimattila.fi INFO SOA at address 83.102.40.26 has serial 2014011601.
+ 25.569: orimattila.fi INFO SOA at address 83.102.40.27 has serial 2014011601.
+ 25.569: orimattila.fi INFO All SOA records have consistent serial numbers.
+ 25.569: orimattila.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 26.127: orimattila.fi NOTICE The listed nameservers for orimattila.fi all report the same set of nameservers.
+ 26.127: orimattila.fi INFO Done testing zone consistency for orimattila.fi.
+ 26.127: orimattila.fi INFO Begin testing SOA parameters for orimattila.fi.
+ 26.163: orimattila.fi INFO Found SOA record for orimattila.fi.
+ 26.163: orimattila.fi INFO Begin testing host ns1.taajama.fi.
+ 26.990: orimattila.fi INFO Begin testing address 83.102.40.26.
+ 27.264: orimattila.fi INFO Done testing address 83.102.40.26.
+ 27.264: orimattila.fi INFO Done testing host ns1.taajama.fi.
+ 27.264: orimattila.fi INFO SOA MNAME for orimattila.fi valid (ns1.taajama.fi).
+ 27.265: orimattila.fi INFO SOA MNAME for orimattila.fi (ns1.taajama.fi) listed as NS.
+ 27.558: orimattila.fi INFO SOA MNAME for orimattila.fi (ns1.taajama.fi) is authoritative.
+ 27.558: orimattila.fi INFO Begin testing email address hostmaster@taajama.com.
+ 28.086: orimattila.fi INFO Mail exchangers for hostmaster@taajama.com found spp.taajama.fi,mx2.taajama.com.
+ 28.086: orimattila.fi INFO Begin testing host spp.taajama.fi.
+ 28.602: orimattila.fi INFO Begin testing address 217.78.212.151.
+ 29.212: orimattila.fi INFO Done testing address 217.78.212.151.
+ 29.212: orimattila.fi INFO Done testing host spp.taajama.fi.
+ 29.415: orimattila.fi INFO Begin testing host mx2.taajama.com.
+ 30.112: orimattila.fi INFO Begin testing address 83.102.41.75.
+ 30.995: orimattila.fi INFO Done testing address 83.102.41.75.
+ 30.995: orimattila.fi INFO Done testing host mx2.taajama.com.
+ 31.287: orimattila.fi INFO Done testing email address hostmaster@taajama.com.
+ 31.287: orimattila.fi INFO Successful attempt to deliver email for SOA RNAME of orimattila.fi (hostmaster.taajama.com) using hostmaster@taajama.com.
+ 31.287: orimattila.fi INFO SOA TTL for orimattila.fi OK (3600) - recommended >= 3600.
+ 31.287: orimattila.fi INFO SOA refresh for orimattila.fi OK (28800) - recommended >= 14400.
+ 31.315: orimattila.fi INFO SOA retry for orimattila.fi OK (7200) - recommended >= 3600.
+ 31.315: orimattila.fi INFO SOA expire for orimattila.fi OK (1814400) - recommended >= 604800.
+ 31.316: orimattila.fi INFO SOA minimum for orimattila.fi OK (86400) - recommended between 300 and 86400.
+ 31.316: orimattila.fi INFO Done testing SOA parameters for orimattila.fi.
+ 31.316: orimattila.fi INFO Begin testing connectivity for orimattila.fi.
+ 32.506: orimattila.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 32.506: orimattila.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 32.507: orimattila.fi INFO Done testing connectivity for orimattila.fi.
+ 32.507: orimattila.fi INFO Begin testing DNSSEC for orimattila.fi.
+ 32.540: orimattila.fi INFO Did not find DS record for orimattila.fi at parent.
+ 32.600: orimattila.fi INFO Servers for orimattila.fi have consistent extra processing status.
+ 32.636: orimattila.fi INFO Authenticated denial records not found for orimattila.fi.
+ 32.668: orimattila.fi INFO Did not find DNSKEY record for orimattila.fi at child.
+ 32.668: orimattila.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 32.668: orimattila.fi INFO Done testing DNSSEC for orimattila.fi.
+ 32.669: orimattila.fi INFO Test completed for zone orimattila.fi.

@@ -1,0 +1,176 @@
+  0.000: ltv.se INFO Begin testing zone ltv.se with version 1.6.1.
+  0.495: ltv.se INFO Begin testing delegation for ltv.se.
+  9.719: ltv.se INFO Name servers listed at parent: a.dns.songnetworks.se,dns.ltv.se
+ 13.346: ltv.se INFO Name servers listed at child: a.dns.tdc.se,b.dns.tdc.se,c.dns.tdc.se,dns.ltv.se
+ 13.357: ltv.se ERROR Superfluous name server listed at parent: a.dns.songnetworks.se
+ 13.361: ltv.se ERROR Too few name servers (1).
+ 13.361: ltv.se NOTICE Additional name server listed at child: a.dns.tdc.se
+ 13.365: ltv.se NOTICE Additional name server listed at child: b.dns.tdc.se
+ 13.365: ltv.se NOTICE Additional name server listed at child: c.dns.tdc.se
+ 13.430: ltv.se INFO Parent glue for ltv.se found: a.dns.songnetworks.se (213.50.29.190)
+ 13.559: ltv.se INFO Parent glue for ltv.se found: dns.ltv.se (193.180.9.12)
+ 13.653: ltv.se INFO Checking glue for a.dns.songnetworks.se (213.50.29.190).
+ 13.653: ltv.se INFO Checking glue for dns.ltv.se (193.180.9.12).
+ 13.679: ltv.se INFO Child glue for ltv.se found: dns.ltv.se (193.180.9.12)
+ 13.680: ltv.se INFO Parent glue for ltv.se found: a.dns.songnetworks.se (213.50.29.190)
+ 13.714: ltv.se INFO Parent glue for ltv.se found: dns.ltv.se (193.180.9.12)
+ 15.119: ltv.se INFO It is possible to build a referral packet for ltv.se that works without EDNS0.
+ 16.234: ltv.se INFO Previously used name servers for ltv.se: 
+ 16.234: ltv.se INFO Done testing delegation for ltv.se.
+ 16.234: ltv.se INFO Begin testing name server a.dns.tdc.se.
+ 16.259: ltv.se INFO Begin testing host a.dns.tdc.se.
+ 16.259: ltv.se INFO Begin testing address 213.50.29.190.
+ 28.634: ltv.se INFO Done testing address 213.50.29.190.
+ 28.635: ltv.se INFO Begin testing address 2001:6f0:0:1:0:0:2:2.
+ 29.174: ltv.se INFO Done testing address 2001:6f0:0:1:0:0:2:2.
+ 29.201: ltv.se INFO Done testing host a.dns.tdc.se.
+ 29.262: ltv.se INFO Name server a.dns.tdc.se (213.50.29.190) answers queries over UDP.
+ 29.342: ltv.se INFO Name server a.dns.tdc.se (213.50.29.190) answers queries over TCP.
+ 29.356: ltv.se INFO Name server a.dns.tdc.se (213.50.29.190) is not recursive.
+ 29.496: ltv.se INFO Name server a.dns.tdc.se (213.50.29.190) authoritative for ltv.se.
+ 29.604: ltv.se INFO Name server a.dns.tdc.se (213.50.29.190) closed for zone transfer of ltv.se.
+ 29.612: ltv.se INFO Legacy name server ID for a.dns.tdc.se (213.50.29.190): hostname.bind = a
+ 29.666: ltv.se INFO Legacy name server ID for a.dns.tdc.se (213.50.29.190): version.bind = tssk, well what can i say?
+ 29.751: ltv.se NOTICE No answer received from 213.50.29.190 when querying for version.server/CH/TXT.
+ 29.801: ltv.se INFO Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) answers queries over UDP.
+ 29.853: ltv.se INFO Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) answers queries over TCP.
+ 29.889: ltv.se INFO Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) is not recursive.
+ 30.050: ltv.se INFO Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) authoritative for ltv.se.
+ 30.080: ltv.se INFO Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) closed for zone transfer of ltv.se.
+ 30.091: ltv.se INFO Legacy name server ID for a.dns.tdc.se (2001:6f0:0:1:0:0:2:2): hostname.bind = a
+ 30.113: ltv.se INFO Legacy name server ID for a.dns.tdc.se (2001:6f0:0:1:0:0:2:2): version.bind = tssk, well what can i say?
+ 30.166: ltv.se NOTICE No answer received from 2001:6f0:0:1:0:0:2:2 when querying for version.server/CH/TXT.
+ 30.167: ltv.se INFO Done testing name server a.dns.tdc.se.
+ 30.167: ltv.se INFO Begin testing name server b.dns.tdc.se.
+ 30.167: ltv.se INFO Begin testing host b.dns.tdc.se.
+ 30.167: ltv.se INFO Begin testing address 213.50.29.195.
+ 30.552: ltv.se INFO Done testing address 213.50.29.195.
+ 30.553: ltv.se INFO Begin testing address 2001:6f0:0:1:0:0:1:2.
+ 31.014: ltv.se INFO Done testing address 2001:6f0:0:1:0:0:1:2.
+ 31.029: ltv.se INFO Done testing host b.dns.tdc.se.
+ 31.062: ltv.se INFO Name server b.dns.tdc.se (213.50.29.195) answers queries over UDP.
+ 31.084: ltv.se INFO Name server b.dns.tdc.se (213.50.29.195) answers queries over TCP.
+ 31.106: ltv.se INFO Name server b.dns.tdc.se (213.50.29.195) is not recursive.
+ 31.269: ltv.se INFO Name server b.dns.tdc.se (213.50.29.195) authoritative for ltv.se.
+ 31.299: ltv.se INFO Name server b.dns.tdc.se (213.50.29.195) closed for zone transfer of ltv.se.
+ 31.318: ltv.se INFO Legacy name server ID for b.dns.tdc.se (213.50.29.195): hostname.bind = b
+ 31.333: ltv.se INFO Legacy name server ID for b.dns.tdc.se (213.50.29.195): version.bind = tssk, well what can i say?
+ 31.389: ltv.se NOTICE No answer received from 213.50.29.195 when querying for version.server/CH/TXT.
+ 31.458: ltv.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) answers queries over UDP.
+ 31.555: ltv.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) answers queries over TCP.
+ 31.589: ltv.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) is not recursive.
+ 31.712: ltv.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) authoritative for ltv.se.
+ 31.755: ltv.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) closed for zone transfer of ltv.se.
+ 31.766: ltv.se INFO Legacy name server ID for b.dns.tdc.se (2001:6f0:0:1:0:0:1:2): hostname.bind = b
+ 31.777: ltv.se INFO Legacy name server ID for b.dns.tdc.se (2001:6f0:0:1:0:0:1:2): version.bind = tssk, well what can i say?
+ 31.813: ltv.se NOTICE No answer received from 2001:6f0:0:1:0:0:1:2 when querying for version.server/CH/TXT.
+ 31.813: ltv.se INFO Done testing name server b.dns.tdc.se.
+ 31.813: ltv.se INFO Begin testing name server c.dns.tdc.se.
+ 31.814: ltv.se INFO Begin testing host c.dns.tdc.se.
+ 31.814: ltv.se INFO Begin testing address 130.242.124.20.
+ 44.590: ltv.se INFO Done testing address 130.242.124.20.
+ 44.590: ltv.se INFO Begin testing address 2001:6b0:7:124:0:0:0:20.
+ 45.846: ltv.se INFO Done testing address 2001:6b0:7:124:0:0:0:20.
+ 45.846: ltv.se INFO Done testing host c.dns.tdc.se.
+ 45.914: ltv.se INFO Name server c.dns.tdc.se (130.242.124.20) answers queries over UDP.
+ 46.036: ltv.se INFO Name server c.dns.tdc.se (130.242.124.20) answers queries over TCP.
+ 46.061: ltv.se INFO Name server c.dns.tdc.se (130.242.124.20) is not recursive.
+ 46.259: ltv.se INFO Name server c.dns.tdc.se (130.242.124.20) authoritative for ltv.se.
+ 46.293: ltv.se INFO Name server c.dns.tdc.se (130.242.124.20) closed for zone transfer of ltv.se.
+ 46.300: ltv.se INFO Legacy name server ID for c.dns.tdc.se (130.242.124.20): hostname.bind = c
+ 46.329: ltv.se INFO Legacy name server ID for c.dns.tdc.se (130.242.124.20): version.bind = tssk, well what can i say?
+ 46.383: ltv.se NOTICE No answer received from 130.242.124.20 when querying for version.server/CH/TXT.
+ 46.461: ltv.se INFO Name server c.dns.tdc.se (2001:6b0:7:124:0:0:0:20) answers queries over UDP.
+ 46.551: ltv.se INFO Name server c.dns.tdc.se (2001:6b0:7:124:0:0:0:20) answers queries over TCP.
+ 46.613: ltv.se INFO Name server c.dns.tdc.se (2001:6b0:7:124:0:0:0:20) is not recursive.
+ 46.836: ltv.se INFO Name server c.dns.tdc.se (2001:6b0:7:124:0:0:0:20) authoritative for ltv.se.
+ 46.945: ltv.se INFO Name server c.dns.tdc.se (2001:6b0:7:124:0:0:0:20) closed for zone transfer of ltv.se.
+ 46.963: ltv.se INFO Legacy name server ID for c.dns.tdc.se (2001:6b0:7:124:0:0:0:20): hostname.bind = c
+ 47.024: ltv.se INFO Legacy name server ID for c.dns.tdc.se (2001:6b0:7:124:0:0:0:20): version.bind = tssk, well what can i say?
+ 47.091: ltv.se NOTICE No answer received from 2001:6b0:7:124:0:0:0:20 when querying for version.server/CH/TXT.
+ 47.097: ltv.se INFO Done testing name server c.dns.tdc.se.
+ 47.101: ltv.se INFO Begin testing name server dns.ltv.se.
+ 47.105: ltv.se INFO Begin testing host dns.ltv.se.
+ 47.297: ltv.se INFO Begin testing address 193.180.9.12.
+ 48.770: ltv.se WARNING Reverse for 193.180.9.12 points to an unknown host name (sltvibdns.ltvastmanland.se).
+ 48.770: ltv.se INFO Done testing address 193.180.9.12.
+ 48.770: ltv.se INFO Done testing host dns.ltv.se.
+ 48.962: ltv.se INFO Name server dns.ltv.se (193.180.9.12) answers queries over UDP.
+ 49.000: ltv.se INFO Name server dns.ltv.se (193.180.9.12) answers queries over TCP.
+ 49.031: ltv.se INFO Name server dns.ltv.se (193.180.9.12) is not recursive.
+ 49.104: ltv.se INFO Name server dns.ltv.se (193.180.9.12) authoritative for ltv.se.
+ 49.133: ltv.se INFO Name server dns.ltv.se (193.180.9.12) closed for zone transfer of ltv.se.
+ 49.187: ltv.se NOTICE No answer received from 193.180.9.12 when querying for version.server/CH/TXT.
+ 49.187: ltv.se INFO Done testing name server dns.ltv.se.
+ 49.187: ltv.se INFO Begin testing name server a.dns.songnetworks.se.
+ 49.188: ltv.se INFO Begin testing host a.dns.songnetworks.se.
+ 49.355: ltv.se INFO Begin testing address 213.50.29.190.
+ 49.362: ltv.se INFO Done testing address 213.50.29.190.
+ 49.373: ltv.se INFO Done testing host a.dns.songnetworks.se.
+ 49.577: ltv.se INFO Name server a.dns.songnetworks.se (213.50.29.190) answers queries over UDP.
+ 49.640: ltv.se INFO Name server a.dns.songnetworks.se (213.50.29.190) answers queries over TCP.
+ 49.708: ltv.se INFO Name server a.dns.songnetworks.se (213.50.29.190) is not recursive.
+ 49.801: ltv.se INFO Name server a.dns.songnetworks.se (213.50.29.190) authoritative for ltv.se.
+ 49.845: ltv.se INFO Name server a.dns.songnetworks.se (213.50.29.190) closed for zone transfer of ltv.se.
+ 49.862: ltv.se INFO Legacy name server ID for a.dns.songnetworks.se (213.50.29.190): hostname.bind = a
+ 49.898: ltv.se INFO Legacy name server ID for a.dns.songnetworks.se (213.50.29.190): version.bind = tssk, well what can i say?
+ 49.947: ltv.se NOTICE No answer received from 213.50.29.190 when querying for version.server/CH/TXT.
+ 49.947: ltv.se INFO Done testing name server a.dns.songnetworks.se.
+ 49.947: ltv.se INFO Begin testing zone consistency for ltv.se.
+ 50.375: ltv.se INFO SOA at address 2001:6b0:7:124:0:0:0:20 has serial 2013050722.
+ 50.400: ltv.se INFO SOA at address 2001:6f0:0:1:0:0:1:2 has serial 2013050722.
+ 50.457: ltv.se INFO SOA at address 193.180.9.12 has serial 2013050722.
+ 50.472: ltv.se INFO SOA at address 2001:6f0:0:1:0:0:2:2 has serial 2013050722.
+ 50.497: ltv.se INFO SOA at address 130.242.124.20 has serial 2013050722.
+ 50.510: ltv.se INFO SOA at address 213.50.29.195 has serial 2013050722.
+ 50.552: ltv.se INFO SOA at address 213.50.29.190 has serial 2013050722.
+ 50.566: ltv.se INFO All SOA records have consistent serial numbers.
+ 50.569: ltv.se INFO All other fields in the SOA record are consistent among all name servers.
+ 51.025: ltv.se NOTICE The listed nameservers for ltv.se all report the same set of nameservers.
+ 51.025: ltv.se INFO Done testing zone consistency for ltv.se.
+ 51.025: ltv.se INFO Begin testing SOA parameters for ltv.se.
+ 51.037: ltv.se INFO Found SOA record for ltv.se.
+ 51.037: ltv.se INFO Begin testing host dns.ltv.se.
+ 51.153: ltv.se INFO Begin testing address 193.180.9.12.
+ 51.328: ltv.se WARNING Reverse for 193.180.9.12 points to an unknown host name (sltvibdns.ltvastmanland.se).
+ 51.328: ltv.se INFO Done testing address 193.180.9.12.
+ 51.328: ltv.se INFO Done testing host dns.ltv.se.
+ 51.328: ltv.se INFO SOA MNAME for ltv.se valid (dns.ltv.se).
+ 51.328: ltv.se INFO SOA MNAME for ltv.se (dns.ltv.se) listed as NS.
+ 51.505: ltv.se INFO SOA MNAME for ltv.se (dns.ltv.se) is authoritative.
+ 51.513: ltv.se INFO Begin testing email address postmaster@ltv.se.
+ 51.685: ltv.se INFO Mail exchangers for postmaster@ltv.se found ltv-se.mail.protection.outlook.com,mail.ltv.se,relay.wineasy.se.
+ 51.686: ltv.se INFO Begin testing host ltv-se.mail.protection.outlook.com.
+ 54.861: ltv.se INFO Begin testing address 213.199.154.87.
+ 57.205: ltv.se INFO Done testing address 213.199.154.87.
+ 57.206: ltv.se INFO Begin testing address 213.199.154.23.
+ 59.462: ltv.se INFO Done testing address 213.199.154.23.
+ 59.473: ltv.se INFO Done testing host ltv-se.mail.protection.outlook.com.
+ 60.863: ltv.se INFO Begin testing host mail.ltv.se.
+ 61.047: ltv.se INFO Begin testing address 193.180.9.7.
+ 61.962: ltv.se INFO Done testing address 193.180.9.7.
+ 61.962: ltv.se INFO Done testing host mail.ltv.se.
+ 62.076: ltv.se INFO Begin testing host relay.wineasy.se.
+ 62.296: ltv.se INFO Begin testing address 195.42.198.23.
+ 67.158: ltv.se INFO Done testing address 195.42.198.23.
+ 67.159: ltv.se INFO Done testing host relay.wineasy.se.
+ 67.255: ltv.se INFO Done testing email address postmaster@ltv.se.
+ 67.255: ltv.se INFO Successful attempt to deliver email for SOA RNAME of ltv.se (postmaster.ltv.se) using postmaster@ltv.se.
+ 67.255: ltv.se INFO SOA TTL for ltv.se OK (86400) - recommended >= 3600.
+ 67.256: ltv.se NOTICE SOA refresh for ltv.se too small (10800) - recommended >= 14400.
+ 67.256: ltv.se INFO SOA retry for ltv.se OK (3600) - recommended >= 3600.
+ 67.256: ltv.se INFO SOA expire for ltv.se OK (2419200) - recommended >= 259200.
+ 67.256: ltv.se INFO SOA minimum for ltv.se OK (900) - recommended between 300 and 86400.
+ 67.256: ltv.se INFO Done testing SOA parameters for ltv.se.
+ 67.256: ltv.se INFO Begin testing connectivity for ltv.se.
+ 69.817: ltv.se INFO Zone announced by more than one ASN.
+ 71.279: ltv.se INFO Zone announced by more than one IPv6 ASN.
+ 71.279: ltv.se INFO Done testing connectivity for ltv.se.
+ 71.280: ltv.se INFO Begin testing DNSSEC for ltv.se.
+ 71.326: ltv.se INFO Did not find DS record for ltv.se at parent.
+ 71.439: ltv.se INFO Servers for ltv.se have consistent extra processing status.
+ 71.459: ltv.se INFO Authenticated denial records not found for ltv.se.
+ 71.471: ltv.se INFO Did not find DNSKEY record for ltv.se at child.
+ 71.471: ltv.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 71.472: ltv.se INFO Done testing DNSSEC for ltv.se.
+ 71.480: ltv.se INFO Test completed for zone ltv.se.

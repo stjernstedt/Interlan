@@ -1,0 +1,99 @@
+  0.000: ljusdal.se INFO Begin testing zone ljusdal.se with version 1.2.
+  0.000: ljusdal.se INFO Begin testing delegation for ljusdal.se.
+  9.885: ljusdal.se INFO Name servers listed at parent: ns.ljusdal.se,ns2.gavlenet.com
+ 11.276: ljusdal.se INFO Name servers listed at child: ns.ljusdal.se,ns2.gavlenet.com
+ 11.276: ljusdal.se WARNING Too few IPv6 name servers (1).
+ 11.294: ljusdal.se INFO Parent glue for ljusdal.se found: ns.ljusdal.se (80.65.194.10)
+ 11.390: ljusdal.se INFO Checking glue for ns.ljusdal.se (80.65.194.10).
+ 11.395: ljusdal.se INFO Child glue for ljusdal.se found: ns.ljusdal.se (80.65.194.10)
+ 11.395: ljusdal.se INFO Parent glue for ljusdal.se found: ns.ljusdal.se (80.65.194.10)
+ 11.396: ljusdal.se INFO Done testing delegation for ljusdal.se.
+ 11.396: ljusdal.se INFO Begin testing name server ns.ljusdal.se.
+ 11.396: ljusdal.se INFO Begin testing host ns.ljusdal.se.
+ 11.397: ljusdal.se INFO Begin testing address 80.65.194.10.
+ 15.895: ljusdal.se INFO Done testing address 80.65.194.10.
+ 15.895: ljusdal.se INFO Done testing host ns.ljusdal.se.
+ 15.902: ljusdal.se INFO Name server ns.ljusdal.se (80.65.194.10) answers queries over UDP.
+ 15.911: ljusdal.se INFO Name server ns.ljusdal.se (80.65.194.10) answers queries over TCP.
+ 16.114: ljusdal.se INFO Name server ns.ljusdal.se (80.65.194.10) is not recursive.
+ 16.121: ljusdal.se INFO Name server ns.ljusdal.se (80.65.194.10) authoritative for ljusdal.se.
+ 16.291: ljusdal.se INFO Name server ns.ljusdal.se (80.65.194.10) closed for zone transfer of ljusdal.se.
+ 16.297: ljusdal.se NOTICE No answer received from 80.65.194.10 when querying for hostname.bind/CH/TXT.
+ 34.299: ljusdal.se INFO Done testing name server ns.ljusdal.se.
+ 34.299: ljusdal.se INFO Begin testing name server ns2.gavlenet.com.
+ 34.299: ljusdal.se INFO Begin testing host ns2.gavlenet.com.
+ 34.299: ljusdal.se INFO Begin testing address 213.141.64.3.
+ 35.748: ljusdal.se INFO Done testing address 213.141.64.3.
+ 35.748: ljusdal.se INFO Begin testing address 2001:b48:0:0:0:0:0:3.
+ 36.512: ljusdal.se INFO Done testing address 2001:b48:0:0:0:0:0:3.
+ 36.512: ljusdal.se INFO Done testing host ns2.gavlenet.com.
+ 36.517: ljusdal.se INFO Name server ns2.gavlenet.com (213.141.64.3) answers queries over UDP.
+ 36.523: ljusdal.se INFO Name server ns2.gavlenet.com (213.141.64.3) answers queries over TCP.
+ 36.637: ljusdal.se WARNING Name server ns2.gavlenet.com (213.141.64.3) is recursive.
+ 36.642: ljusdal.se INFO Name server ns2.gavlenet.com (213.141.64.3) authoritative for ljusdal.se.
+ 36.647: ljusdal.se INFO Name server ns2.gavlenet.com (213.141.64.3) closed for zone transfer of ljusdal.se.
+ 36.653: ljusdal.se INFO Legacy name server ID for ns2.gavlenet.com (213.141.64.3): hostname.bind = pippin.gavlenet.com
+ 36.656: ljusdal.se INFO Legacy name server ID for ns2.gavlenet.com (213.141.64.3): version.bind = Unknown
+ 36.661: ljusdal.se NOTICE No answer received from 213.141.64.3 when querying for version.server/CH/TXT.
+ 36.667: ljusdal.se INFO Name server ns2.gavlenet.com (2001:b48:0:0:0:0:0:3) answers queries over UDP.
+ 36.673: ljusdal.se INFO Name server ns2.gavlenet.com (2001:b48:0:0:0:0:0:3) answers queries over TCP.
+ 36.787: ljusdal.se WARNING Name server ns2.gavlenet.com (2001:b48:0:0:0:0:0:3) is recursive.
+ 36.792: ljusdal.se INFO Name server ns2.gavlenet.com (2001:b48:0:0:0:0:0:3) authoritative for ljusdal.se.
+ 36.796: ljusdal.se INFO Name server ns2.gavlenet.com (2001:b48:0:0:0:0:0:3) closed for zone transfer of ljusdal.se.
+ 36.800: ljusdal.se INFO Legacy name server ID for ns2.gavlenet.com (2001:b48:0:0:0:0:0:3): hostname.bind = pippin.gavlenet.com
+ 36.804: ljusdal.se INFO Legacy name server ID for ns2.gavlenet.com (2001:b48:0:0:0:0:0:3): version.bind = Unknown
+ 36.810: ljusdal.se NOTICE No answer received from 2001:b48:0:0:0:0:0:3 when querying for version.server/CH/TXT.
+ 36.810: ljusdal.se INFO Done testing name server ns2.gavlenet.com.
+ 36.811: ljusdal.se INFO Begin testing zone consistency for ljusdal.se.
+ 36.819: ljusdal.se INFO SOA at address 213.141.64.3 has serial 2010050314.
+ 36.825: ljusdal.se INFO SOA at address 80.65.194.10 has serial 2010050314.
+ 36.830: ljusdal.se INFO SOA at address 2001:b48:0:0:0:0:0:3 has serial 2010050314.
+ 36.830: ljusdal.se INFO All SOA records have consistent serial numbers.
+ 36.830: ljusdal.se INFO All SOA records are consistent among all name servers.
+ 36.830: ljusdal.se INFO Done testing zone consistency for ljusdal.se.
+ 36.830: ljusdal.se INFO Begin testing SOA parameters for ljusdal.se.
+ 36.835: ljusdal.se INFO Found SOA record for ljusdal.se.
+ 36.835: ljusdal.se INFO Begin testing host dns.
+ 41.199: ljusdal.se ERROR No address found for dns.
+ 41.199: ljusdal.se INFO Done testing host dns.
+ 41.199: ljusdal.se ERROR Error while checking SOA MNAME for ljusdal.se (dns).
+ 41.200: ljusdal.se NOTICE SOA MNAME for ljusdal.se (dns) not listed as NS.
+ 41.200: ljusdal.se INFO Begin testing email address lago@ljusdal.se.
+ 41.442: ljusdal.se INFO Mail exchangers for lago@ljusdal.se found sbg1.ljusdal.se.
+ 41.442: ljusdal.se INFO All mail servers for lago@ljusdal.se are in zone ljusdal.se.
+ 41.442: ljusdal.se INFO Begin testing host sbg1.ljusdal.se.
+ 41.922: ljusdal.se INFO Begin testing address 80.65.194.13.
+ 42.236: ljusdal.se WARNING Could not find reverse address for 80.65.194.13 (13.194.65.80.in-addr.arpa.).
+ 42.236: ljusdal.se INFO Done testing address 80.65.194.13.
+ 42.236: ljusdal.se INFO Done testing host sbg1.ljusdal.se.
+ 42.237: ljusdal.se INFO Begin testing mail server sbg1.ljusdal.se (80.65.194.13) with lago@ljusdal.se.
+ 42.505: ljusdal.se INFO SMTP banner: sbg1.ljusdal.se ESMTP Symantec Brightmail Gateway
+ 42.519: ljusdal.se INFO SMTP testing of sbg1.ljusdal.se (80.65.194.13) with lago@ljusdal.se succeeded without errors.
+ 42.519: ljusdal.se INFO Done testing mail server sbg1.ljusdal.se (80.65.194.13) with lago@ljusdal.se.
+ 42.519: ljusdal.se INFO Delivery over IPv4 to lago@ljusdal.se ok.
+ 42.519: ljusdal.se INFO Delivery over IPv6 to lago@ljusdal.se could not be done.
+ 42.519: ljusdal.se INFO Done testing email address lago@ljusdal.se.
+ 42.519: ljusdal.se INFO Successful attempt to deliver email for SOA RNAME of ljusdal.se (lago.ljusdal.se) using lago@ljusdal.se.
+ 42.519: ljusdal.se INFO SOA TTL for ljusdal.se OK (3600) - recommended >= 3600.
+ 42.519: ljusdal.se NOTICE SOA refresh for ljusdal.se too small (1500) - recommended >= 14400.
+ 42.519: ljusdal.se NOTICE SOA refresh for ljusdal.se lower than retry (1500 vs 2400).
+ 42.520: ljusdal.se NOTICE SOA retry for ljusdal.se too small (2400) - recommended >= 3600.
+ 42.520: ljusdal.se INFO SOA expire for ljusdal.se OK (1555200) - recommended >= 604800.
+ 42.520: ljusdal.se INFO SOA minimum for ljusdal.se OK (3600) - recommended between 300 and 86400.
+ 42.520: ljusdal.se INFO Done testing SOA parameters for ljusdal.se.
+ 42.520: ljusdal.se INFO Begin testing connectivity for ljusdal.se.
+ 43.004: ljusdal.se INFO Name server 213.141.64.3 announced by: 16117
+ 43.683: ljusdal.se INFO Name server 80.65.194.10 announced by: 25417
+ 43.683: ljusdal.se INFO Zone announced by IPv4 ASN: 25417,16117
+ 43.683: ljusdal.se INFO Zone announced by more than one ASN (2).
+ 44.164: ljusdal.se INFO Name server 2001:0b48:0000:0000:0000:0000:0000:0003 announced over IPv6 by: 16117
+ 44.164: ljusdal.se INFO Zone announced by IPv6 ASN: 16117
+ 44.165: ljusdal.se NOTICE Zone announced by less than two IPv6 ASN (1).
+ 44.165: ljusdal.se INFO Done testing connectivity for ljusdal.se.
+ 44.165: ljusdal.se INFO Begin testing DNSSEC for ljusdal.se.
+ 44.201: ljusdal.se INFO Did not find DS record for ljusdal.se at parent.
+ 44.222: ljusdal.se INFO Servers for ljusdal.se have consistent extra processing status.
+ 44.222: ljusdal.se INFO Did not find DNSKEY record for ljusdal.se at child.
+ 44.222: ljusdal.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 44.222: ljusdal.se INFO Done testing DNSSEC for ljusdal.se.
+ 44.222: ljusdal.se INFO Test completed for zone ljusdal.se.

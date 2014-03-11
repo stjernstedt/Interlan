@@ -1,0 +1,225 @@
+  0.000: hagfors.se INFO Begin testing zone hagfors.se with version 1.6.1.
+  0.703: hagfors.se INFO Begin testing delegation for hagfors.se.
+ 29.564: hagfors.se INFO Name servers listed at parent: dns5.telia.com,ns.hagfors.se
+ 36.633: hagfors.se INFO Name servers listed at child: dns5.telia.com,ns.hagfors.se,ns1.ipv6dns.se,ns2.ipv6dns.se
+ 36.633: hagfors.se NOTICE Additional name server listed at child: ns1.ipv6dns.se
+ 36.634: hagfors.se NOTICE Additional name server listed at child: ns2.ipv6dns.se
+ 36.946: hagfors.se INFO Parent glue for hagfors.se found: ns.hagfors.se (194.23.40.172)
+ 37.031: hagfors.se INFO Checking glue for ns.hagfors.se (194.23.40.172).
+ 37.104: hagfors.se INFO Child glue for hagfors.se found: ns.hagfors.se (194.23.40.172)
+ 37.104: hagfors.se INFO Parent glue for hagfors.se found: ns.hagfors.se (194.23.40.172)
+ 41.142: hagfors.se INFO It is possible to build a referral packet for hagfors.se that works without EDNS0.
+ 41.199: hagfors.se INFO Previously used name servers for hagfors.se: 
+ 41.202: hagfors.se INFO Done testing delegation for hagfors.se.
+ 41.202: hagfors.se INFO Begin testing name server dns5.telia.com.
+ 41.202: hagfors.se INFO Begin testing host dns5.telia.com.
+ 41.215: hagfors.se INFO Begin testing address 81.228.11.68.
+ 57.160: hagfors.se INFO Done testing address 81.228.11.68.
+ 57.164: hagfors.se INFO Begin testing address 2001:2040:c001:101:0:0:0:4.
+ 58.916: hagfors.se INFO Done testing address 2001:2040:c001:101:0:0:0:4.
+ 58.916: hagfors.se INFO Done testing host dns5.telia.com.
+ 58.940: hagfors.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over UDP.
+ 59.088: hagfors.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over TCP.
+ 59.132: hagfors.se INFO Name server dns5.telia.com (81.228.11.68) is not recursive.
+ 59.376: hagfors.se INFO Name server dns5.telia.com (81.228.11.68) authoritative for hagfors.se.
+ 59.459: hagfors.se INFO Name server dns5.telia.com (81.228.11.68) closed for zone transfer of hagfors.se.
+ 59.556: hagfors.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 59.690: hagfors.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) answers queries over UDP.
+ 59.807: hagfors.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) answers queries over TCP.
+ 59.857: hagfors.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) is not recursive.
+ 60.087: hagfors.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) authoritative for hagfors.se.
+ 60.287: hagfors.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) closed for zone transfer of hagfors.se.
+ 60.362: hagfors.se INFO Legacy name server ID for dns5.telia.com (2001:2040:c001:101:0:0:0:4): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 60.464: hagfors.se INFO Done testing name server dns5.telia.com.
+ 60.464: hagfors.se INFO Begin testing name server ns.hagfors.se.
+ 60.464: hagfors.se INFO Begin testing host ns.hagfors.se.
+ 60.465: hagfors.se INFO Begin testing address 194.23.40.172.
+ 66.331: hagfors.se INFO Done testing address 194.23.40.172.
+ 66.331: hagfors.se INFO Begin testing address 2001:2040:23:0:0:0:0:10.
+ 68.908: hagfors.se WARNING Could not find reverse address for 2001:2040:23:0:0:0:0:10 (0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.3.2.0.0.0.4.0.2.1.0.0.2.ip6.arpa.).
+ 68.908: hagfors.se INFO Done testing address 2001:2040:23:0:0:0:0:10.
+ 68.908: hagfors.se INFO Done testing host ns.hagfors.se.
+ 68.933: hagfors.se INFO Name server ns.hagfors.se (194.23.40.172) answers queries over UDP.
+ 69.028: hagfors.se INFO Name server ns.hagfors.se (194.23.40.172) answers queries over TCP.
+ 69.051: hagfors.se INFO Name server ns.hagfors.se (194.23.40.172) is not recursive.
+ 69.421: hagfors.se INFO Name server ns.hagfors.se (194.23.40.172) authoritative for hagfors.se.
+ 69.511: hagfors.se INFO Name server ns.hagfors.se (194.23.40.172) closed for zone transfer of hagfors.se.
+ 69.694: hagfors.se INFO Legacy name server ID for ns.hagfors.se (194.23.40.172): hostname.bind = BindDNS
+ 69.774: hagfors.se INFO Legacy name server ID for ns.hagfors.se (194.23.40.172): version.bind = 9.7.0-P1
+ 69.959: hagfors.se NOTICE No answer received from 194.23.40.172 when querying for version.server/CH/TXT.
+ 70.106: hagfors.se INFO Name server ns.hagfors.se (2001:2040:23:0:0:0:0:10) answers queries over UDP.
+ 70.277: hagfors.se INFO Name server ns.hagfors.se (2001:2040:23:0:0:0:0:10) answers queries over TCP.
+ 70.862: hagfors.se INFO Name server ns.hagfors.se (2001:2040:23:0:0:0:0:10) is not recursive.
+ 72.161: hagfors.se INFO Name server ns.hagfors.se (2001:2040:23:0:0:0:0:10) authoritative for hagfors.se.
+ 72.770: hagfors.se INFO Name server ns.hagfors.se (2001:2040:23:0:0:0:0:10) closed for zone transfer of hagfors.se.
+ 72.896: hagfors.se INFO Legacy name server ID for ns.hagfors.se (2001:2040:23:0:0:0:0:10): hostname.bind = BindDNS
+ 72.944: hagfors.se INFO Legacy name server ID for ns.hagfors.se (2001:2040:23:0:0:0:0:10): version.bind = 9.7.0-P1
+ 73.297: hagfors.se NOTICE No answer received from 2001:2040:23:0:0:0:0:10 when querying for version.server/CH/TXT.
+ 73.297: hagfors.se INFO Done testing name server ns.hagfors.se.
+ 73.298: hagfors.se INFO Begin testing name server ns1.ipv6dns.se.
+ 73.298: hagfors.se INFO Begin testing host ns1.ipv6dns.se.
+ 73.298: hagfors.se INFO Begin testing address 192.71.21.35.
+ 98.829: hagfors.se INFO Done testing address 192.71.21.35.
+ 98.829: hagfors.se INFO Begin testing address 2001:67c:2448:10:0:0:0:53.
+ 99.849: hagfors.se INFO Done testing address 2001:67c:2448:10:0:0:0:53.
+ 99.849: hagfors.se INFO Done testing host ns1.ipv6dns.se.
+ 99.889: hagfors.se INFO Name server ns1.ipv6dns.se (192.71.21.35) answers queries over UDP.
+100.025: hagfors.se INFO Name server ns1.ipv6dns.se (192.71.21.35) answers queries over TCP.
+100.057: hagfors.se INFO Name server ns1.ipv6dns.se (192.71.21.35) is not recursive.
+100.154: hagfors.se INFO Name server ns1.ipv6dns.se (192.71.21.35) authoritative for hagfors.se.
+100.189: hagfors.se INFO Name server ns1.ipv6dns.se (192.71.21.35) closed for zone transfer of hagfors.se.
+100.244: hagfors.se INFO Legacy name server ID for ns1.ipv6dns.se (192.71.21.35): hostname.bind = ns1
+100.276: hagfors.se INFO Legacy name server ID for ns1.ipv6dns.se (192.71.21.35): version.bind = 9.9.4rc2
+100.351: hagfors.se NOTICE No answer received from 192.71.21.35 when querying for version.server/CH/TXT.
+100.373: hagfors.se INFO Name server ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53) answers queries over UDP.
+100.388: hagfors.se INFO Name server ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53) answers queries over TCP.
+100.395: hagfors.se INFO Name server ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53) is not recursive.
+100.456: hagfors.se INFO Name server ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53) authoritative for hagfors.se.
+100.514: hagfors.se INFO Name server ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53) closed for zone transfer of hagfors.se.
+100.568: hagfors.se INFO Legacy name server ID for ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53): hostname.bind = ns1
+100.638: hagfors.se INFO Legacy name server ID for ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53): version.bind = 9.9.4rc2
+100.671: hagfors.se NOTICE No answer received from 2001:67c:2448:10:0:0:0:53 when querying for version.server/CH/TXT.
+100.672: hagfors.se INFO Done testing name server ns1.ipv6dns.se.
+100.672: hagfors.se INFO Begin testing name server ns2.ipv6dns.se.
+100.672: hagfors.se INFO Begin testing host ns2.ipv6dns.se.
+100.672: hagfors.se INFO Begin testing address 176.58.97.7.
+108.531: hagfors.se INFO Done testing address 176.58.97.7.
+108.531: hagfors.se INFO Begin testing address 109.74.7.166.
+109.897: hagfors.se INFO Done testing address 109.74.7.166.
+109.897: hagfors.se INFO Begin testing address 2a02:750:7:0:0:0:0:165.
+110.472: hagfors.se INFO Done testing address 2a02:750:7:0:0:0:0:165.
+110.472: hagfors.se INFO Begin testing address 2a01:7e00:0:0:0:0:17:f001.
+111.396: hagfors.se INFO Done testing address 2a01:7e00:0:0:0:0:17:f001.
+111.396: hagfors.se INFO Done testing host ns2.ipv6dns.se.
+111.542: hagfors.se INFO Name server ns2.ipv6dns.se (176.58.97.7) answers queries over UDP.
+111.673: hagfors.se INFO Name server ns2.ipv6dns.se (176.58.97.7) answers queries over TCP.
+111.999: hagfors.se INFO Name server ns2.ipv6dns.se (176.58.97.7) is not recursive.
+112.224: hagfors.se INFO Name server ns2.ipv6dns.se (176.58.97.7) authoritative for hagfors.se.
+112.363: hagfors.se INFO Name server ns2.ipv6dns.se (176.58.97.7) closed for zone transfer of hagfors.se.
+112.508: hagfors.se INFO Legacy name server ID for ns2.ipv6dns.se (176.58.97.7): hostname.bind = li443-7
+112.599: hagfors.se INFO Legacy name server ID for ns2.ipv6dns.se (176.58.97.7): version.bind = 9.9.4-P2
+112.707: hagfors.se NOTICE No answer received from 176.58.97.7 when querying for version.server/CH/TXT.
+112.741: hagfors.se INFO Name server ns2.ipv6dns.se (109.74.7.166) answers queries over UDP.
+112.828: hagfors.se INFO Name server ns2.ipv6dns.se (109.74.7.166) answers queries over TCP.
+113.923: hagfors.se INFO Name server ns2.ipv6dns.se (109.74.7.166) is not recursive.
+114.016: hagfors.se INFO Name server ns2.ipv6dns.se (109.74.7.166) authoritative for hagfors.se.
+114.049: hagfors.se INFO Name server ns2.ipv6dns.se (109.74.7.166) closed for zone transfer of hagfors.se.
+114.083: hagfors.se INFO Legacy name server ID for ns2.ipv6dns.se (109.74.7.166): hostname.bind = ns3
+114.121: hagfors.se INFO Legacy name server ID for ns2.ipv6dns.se (109.74.7.166): version.bind = 9.9.4-P2
+114.164: hagfors.se NOTICE No answer received from 109.74.7.166 when querying for version.server/CH/TXT.
+114.188: hagfors.se INFO Name server ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165) answers queries over UDP.
+114.255: hagfors.se INFO Name server ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165) answers queries over TCP.
+114.297: hagfors.se INFO Name server ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165) is not recursive.
+114.491: hagfors.se INFO Name server ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165) authoritative for hagfors.se.
+114.549: hagfors.se INFO Name server ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165) closed for zone transfer of hagfors.se.
+114.586: hagfors.se INFO Legacy name server ID for ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165): hostname.bind = ns3
+114.635: hagfors.se INFO Legacy name server ID for ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165): version.bind = 9.9.4-P2
+114.722: hagfors.se NOTICE No answer received from 2a02:750:7:0:0:0:0:165 when querying for version.server/CH/TXT.
+114.783: hagfors.se INFO Name server ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001) answers queries over UDP.
+114.893: hagfors.se INFO Name server ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001) answers queries over TCP.
+114.999: hagfors.se INFO Name server ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001) is not recursive.
+115.337: hagfors.se INFO Name server ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001) authoritative for hagfors.se.
+115.603: hagfors.se INFO Name server ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001) closed for zone transfer of hagfors.se.
+115.748: hagfors.se INFO Legacy name server ID for ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001): hostname.bind = li443-7
+115.912: hagfors.se INFO Legacy name server ID for ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001): version.bind = 9.9.4-P2
+116.027: hagfors.se NOTICE No answer received from 2a01:7e00:0:0:0:0:17:f001 when querying for version.server/CH/TXT.
+116.027: hagfors.se INFO Done testing name server ns2.ipv6dns.se.
+116.027: hagfors.se INFO Begin testing zone consistency for hagfors.se.
+116.278: hagfors.se INFO SOA at address 176.58.97.7 has serial 2014030901.
+116.397: hagfors.se INFO SOA at address 2001:2040:23:0:0:0:0:10 has serial 2014030901.
+116.472: hagfors.se INFO SOA at address 2001:2040:c001:101:0:0:0:4 has serial 2014030901.
+117.835: hagfors.se INFO SOA at address 2001:67c:2448:10:0:0:0:53 has serial 2014030901.
+117.860: hagfors.se INFO SOA at address 192.71.21.35 has serial 2014030901.
+117.884: hagfors.se INFO SOA at address 109.74.7.166 has serial 2014030901.
+118.045: hagfors.se INFO SOA at address 2a01:7e00:0:0:0:0:17:f001 has serial 2014030901.
+118.134: hagfors.se INFO SOA at address 81.228.11.68 has serial 2014030901.
+118.212: hagfors.se INFO SOA at address 194.23.40.172 has serial 2014030901.
+118.228: hagfors.se INFO SOA at address 2a02:750:7:0:0:0:0:165 has serial 2014030901.
+118.228: hagfors.se INFO All SOA records have consistent serial numbers.
+118.228: hagfors.se INFO All other fields in the SOA record are consistent among all name servers.
+118.882: hagfors.se NOTICE The listed nameservers for hagfors.se all report the same set of nameservers.
+118.882: hagfors.se INFO Done testing zone consistency for hagfors.se.
+118.882: hagfors.se INFO Begin testing SOA parameters for hagfors.se.
+119.109: hagfors.se INFO Found SOA record for hagfors.se.
+119.110: hagfors.se INFO Begin testing host ns.hagfors.se.
+119.111: hagfors.se INFO Begin testing address 194.23.40.172.
+119.128: hagfors.se INFO Done testing address 194.23.40.172.
+119.128: hagfors.se INFO Begin testing address 2001:2040:23:0:0:0:0:10.
+119.130: hagfors.se WARNING Could not find reverse address for 2001:2040:23:0:0:0:0:10 (0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.3.2.0.0.0.4.0.2.1.0.0.2.ip6.arpa.).
+119.130: hagfors.se INFO Done testing address 2001:2040:23:0:0:0:0:10.
+119.130: hagfors.se INFO Done testing host ns.hagfors.se.
+119.130: hagfors.se INFO SOA MNAME for hagfors.se valid (ns.hagfors.se).
+119.130: hagfors.se INFO SOA MNAME for hagfors.se (ns.hagfors.se) listed as NS.
+119.341: hagfors.se INFO SOA MNAME for hagfors.se (ns.hagfors.se) is authoritative.
+119.406: hagfors.se INFO SOA MNAME for hagfors.se (ns.hagfors.se) is authoritative.
+119.406: hagfors.se INFO Begin testing email address itsupport@hagfors.se.
+120.266: hagfors.se INFO Mail exchangers for itsupport@hagfors.se found zimbra.hagfors.se.
+120.266: hagfors.se INFO All mail servers for itsupport@hagfors.se are in zone hagfors.se.
+120.266: hagfors.se INFO Begin testing host zimbra.hagfors.se.
+121.690: hagfors.se INFO Begin testing address 194.23.40.168.
+124.411: hagfors.se INFO Done testing address 194.23.40.168.
+124.411: hagfors.se INFO Begin testing address 2001:2040:23:0:0:0:0:50.
+125.263: hagfors.se WARNING Could not find reverse address for 2001:2040:23:0:0:0:0:50 (0.5.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.3.2.0.0.0.4.0.2.1.0.0.2.ip6.arpa.).
+125.264: hagfors.se INFO Done testing address 2001:2040:23:0:0:0:0:50.
+125.264: hagfors.se INFO Done testing host zimbra.hagfors.se.
+125.264: hagfors.se INFO Done testing email address itsupport@hagfors.se.
+125.264: hagfors.se INFO Successful attempt to deliver email for SOA RNAME of hagfors.se (itsupport.hagfors.se) using itsupport@hagfors.se.
+125.264: hagfors.se INFO SOA TTL for hagfors.se OK (3600) - recommended >= 3600.
+125.264: hagfors.se INFO SOA refresh for hagfors.se OK (14400) - recommended >= 14400.
+125.264: hagfors.se INFO SOA retry for hagfors.se OK (3600) - recommended >= 3600.
+125.264: hagfors.se INFO SOA expire for hagfors.se OK (2419200) - recommended >= 604800.
+125.265: hagfors.se INFO SOA minimum for hagfors.se OK (86400) - recommended between 300 and 86400.
+125.265: hagfors.se INFO Done testing SOA parameters for hagfors.se.
+125.265: hagfors.se INFO Begin testing connectivity for hagfors.se.
+129.640: hagfors.se INFO Zone announced by more than one ASN.
+134.210: hagfors.se INFO Zone announced by more than one IPv6 ASN.
+134.210: hagfors.se INFO Done testing connectivity for hagfors.se.
+134.210: hagfors.se INFO Begin testing DNSSEC for hagfors.se.
+134.260: hagfors.se INFO Found DS record for hagfors.se at parent.
+134.441: hagfors.se INFO Nameserver 176.58.97.7 does DNSSEC extra processing.
+134.502: hagfors.se INFO Nameserver 109.74.7.166 does DNSSEC extra processing.
+134.545: hagfors.se INFO Nameserver 192.71.21.35 does DNSSEC extra processing.
+134.692: hagfors.se INFO Nameserver 81.228.11.68 does DNSSEC extra processing.
+134.759: hagfors.se INFO Nameserver 194.23.40.172 does DNSSEC extra processing.
+134.893: hagfors.se INFO Nameserver 2a01:7e00:0:0:0:0:17:f001 does DNSSEC extra processing.
+135.295: hagfors.se INFO Nameserver 2a02:750:7:0:0:0:0:165 does DNSSEC extra processing.
+135.581: hagfors.se INFO Nameserver 2001:2040:23:0:0:0:0:10 does DNSSEC extra processing.
+135.937: hagfors.se INFO Nameserver 2001:2040:c001:101:0:0:0:4 does DNSSEC extra processing.
+135.989: hagfors.se INFO Nameserver 2001:67c:2448:10:0:0:0:53 does DNSSEC extra processing.
+135.989: hagfors.se INFO Servers for hagfors.se have consistent extra processing status.
+136.229: hagfors.se INFO Authenticated denial records found for hagfors.se, of type NSEC.
+136.422: hagfors.se INFO Found DNSKEY record for hagfors.se at child.
+136.422: hagfors.se INFO Consistent security for hagfors.se.
+136.422: hagfors.se INFO Checking DNSSEC at child (hagfors.se).
+136.423: hagfors.se INFO hagfors.se's key with tag 51796 uses algorithm number 5 (RSA/SHA-1).
+136.423: hagfors.se INFO Algorithm number 5 is OK.
+136.423: hagfors.se INFO DNSKEY hagfors.se (tag 51796) is marked as a secure entry point (SEP).
+136.435: hagfors.se INFO hagfors.se's key with tag 25317 uses algorithm number 5 (RSA/SHA-1).
+136.435: hagfors.se INFO Algorithm number 5 is OK.
+136.435: hagfors.se INFO DNSSEC signature expires at: Mon Apr  7 23:30:01 2014
+136.436: hagfors.se INFO Duration for RRSIG(hagfors.se/IN/DNSKEY/25317) is OK (2592000 seconds).
+136.437: hagfors.se INFO DNSSEC signature RRSIG(hagfors.se/IN/DNSKEY/25317) matches records.
+136.437: hagfors.se INFO DNSSEC signature valid: RRSIG(hagfors.se/IN/DNSKEY/25317)
+136.438: hagfors.se INFO DNSSEC signature expires at: Mon Apr  7 23:30:01 2014
+136.438: hagfors.se INFO Duration for RRSIG(hagfors.se/IN/DNSKEY/51796) is OK (2592000 seconds).
+136.476: hagfors.se INFO DNSSEC signature RRSIG(hagfors.se/IN/DNSKEY/51796) matches records.
+136.476: hagfors.se INFO DNSSEC signature valid: RRSIG(hagfors.se/IN/DNSKEY/51796)
+136.476: hagfors.se INFO Enough valid signatures found for hagfors.se.
+136.716: hagfors.se INFO DNSSEC signature expires at: Mon Apr  7 23:30:01 2014
+136.717: hagfors.se INFO Duration for RRSIG(hagfors.se/IN/SOA/25317) is OK (2592000 seconds).
+136.717: hagfors.se INFO DNSSEC signature RRSIG(hagfors.se/IN/SOA/25317) matches records.
+136.717: hagfors.se INFO DNSSEC signature valid: RRSIG(hagfors.se/IN/SOA/25317)
+136.717: hagfors.se INFO Enough valid signatures over SOA RRset found for hagfors.se.
+136.717: hagfors.se INFO DNSSEC child checks for hagfors.se complete.
+136.718: hagfors.se INFO Checking DNSSEC at parent of hagfors.se.
+136.718: hagfors.se INFO hagfors.se's key with tag 51796 uses algorithm number 5 (RSA/SHA-1).
+136.718: hagfors.se INFO Algorithm number 5 is OK.
+136.718: hagfors.se INFO Parent DS(hagfors.se/5/1/51796) refers to valid key at child: DNSKEY(hagfors.se/5/51796)
+136.718: hagfors.se INFO Parent DS(hagfors.se) refers to secure entry point (SEP) at child: DS(hagfors.se/5/1/51796)
+136.718: hagfors.se INFO hagfors.se's key with tag 51796 uses algorithm number 5 (RSA/SHA-1).
+136.718: hagfors.se INFO Algorithm number 5 is OK.
+136.719: hagfors.se INFO Parent DS(hagfors.se/5/2/51796) refers to valid key at child: DNSKEY(hagfors.se/5/51796)
+136.966: hagfors.se INFO Parent DS(hagfors.se) refers to secure entry point (SEP) at child: DS(hagfors.se/5/2/51796)
+136.966: hagfors.se INFO DNSSEC parent checks for hagfors.se complete.
+136.966: hagfors.se INFO Done testing DNSSEC for hagfors.se.
+136.987: hagfors.se INFO Test completed for zone hagfors.se.

@@ -1,0 +1,92 @@
+  0.000: fargelanda.se INFO Begin testing zone fargelanda.se with version 1.2.
+  0.000: fargelanda.se INFO Begin testing delegation for fargelanda.se.
+  7.759: fargelanda.se INFO Name servers listed at parent: burn.lindesign.se,strongbow.fargelanda.se
+  9.303: fargelanda.se INFO Name servers listed at child: burn.lindesign.se,strongbow.fargelanda.se
+  9.304: fargelanda.se NOTICE No IPv6 name servers found.
+  9.392: fargelanda.se INFO Parent glue for fargelanda.se found: strongbow.fargelanda.se (194.17.154.67)
+  9.434: fargelanda.se INFO Checking glue for strongbow.fargelanda.se (194.17.154.67).
+  9.453: fargelanda.se INFO Child glue for fargelanda.se found: strongbow.fargelanda.se (194.17.154.67)
+  9.454: fargelanda.se INFO Parent glue for fargelanda.se found: strongbow.fargelanda.se (194.17.154.67)
+  9.455: fargelanda.se INFO Done testing delegation for fargelanda.se.
+  9.455: fargelanda.se INFO Begin testing name server burn.lindesign.se.
+  9.455: fargelanda.se INFO Begin testing host burn.lindesign.se.
+  9.456: fargelanda.se INFO Begin testing address 209.9.227.218.
+ 18.427: fargelanda.se INFO Done testing address 209.9.227.218.
+ 18.427: fargelanda.se INFO Done testing host burn.lindesign.se.
+ 18.548: fargelanda.se INFO Name server burn.lindesign.se (209.9.227.218) answers queries over UDP.
+ 18.786: fargelanda.se INFO Name server burn.lindesign.se (209.9.227.218) answers queries over TCP.
+ 18.904: fargelanda.se INFO Name server burn.lindesign.se (209.9.227.218) is not recursive.
+ 19.025: fargelanda.se INFO Name server burn.lindesign.se (209.9.227.218) authoritative for fargelanda.se.
+ 19.391: fargelanda.se NOTICE Name server burn.lindesign.se (209.9.227.218) open for zone transfer of fargelanda.se.
+ 19.509: fargelanda.se INFO Legacy name server ID for burn.lindesign.se (209.9.227.218): hostname.bind = debian.4.x86_64
+ 19.627: fargelanda.se INFO Legacy name server ID for burn.lindesign.se (209.9.227.218): version.bind = 9.5.1-P3
+ 19.860: fargelanda.se NOTICE No answer received from 209.9.227.218 when querying for version.server/CH/TXT.
+ 19.860: fargelanda.se INFO Done testing name server burn.lindesign.se.
+ 19.860: fargelanda.se INFO Begin testing name server strongbow.fargelanda.se.
+ 19.861: fargelanda.se INFO Begin testing host strongbow.fargelanda.se.
+ 19.861: fargelanda.se INFO Begin testing address 194.17.154.67.
+ 24.701: fargelanda.se INFO Done testing address 194.17.154.67.
+ 24.701: fargelanda.se INFO Done testing host strongbow.fargelanda.se.
+ 24.722: fargelanda.se INFO Name server strongbow.fargelanda.se (194.17.154.67) answers queries over UDP.
+ 24.757: fargelanda.se INFO Name server strongbow.fargelanda.se (194.17.154.67) answers queries over TCP.
+ 24.777: fargelanda.se INFO Name server strongbow.fargelanda.se (194.17.154.67) is not recursive.
+ 24.796: fargelanda.se INFO Name server strongbow.fargelanda.se (194.17.154.67) authoritative for fargelanda.se.
+ 24.851: fargelanda.se NOTICE Name server strongbow.fargelanda.se (194.17.154.67) open for zone transfer of fargelanda.se.
+ 24.870: fargelanda.se INFO Legacy name server ID for strongbow.fargelanda.se (194.17.154.67): hostname.bind = strongbow
+ 24.889: fargelanda.se INFO Legacy name server ID for strongbow.fargelanda.se (194.17.154.67): version.bind = 9.3.4-P1.2
+ 24.927: fargelanda.se NOTICE No answer received from 194.17.154.67 when querying for version.server/CH/TXT.
+ 24.928: fargelanda.se INFO Done testing name server strongbow.fargelanda.se.
+ 24.928: fargelanda.se INFO Begin testing zone consistency for fargelanda.se.
+ 24.951: fargelanda.se INFO SOA at address 194.17.154.67 has serial 2010050704.
+ 25.070: fargelanda.se INFO SOA at address 209.9.227.218 has serial 2010050704.
+ 25.070: fargelanda.se INFO All SOA records have consistent serial numbers.
+ 25.070: fargelanda.se INFO All SOA records are consistent among all name servers.
+ 25.070: fargelanda.se INFO Done testing zone consistency for fargelanda.se.
+ 25.070: fargelanda.se INFO Begin testing SOA parameters for fargelanda.se.
+ 25.101: fargelanda.se INFO Found SOA record for fargelanda.se.
+ 25.101: fargelanda.se INFO Begin testing host strongbow.fargelanda.se.
+ 25.101: fargelanda.se INFO Begin testing address 194.17.154.67.
+ 25.103: fargelanda.se INFO Done testing address 194.17.154.67.
+ 25.103: fargelanda.se INFO Done testing host strongbow.fargelanda.se.
+ 25.103: fargelanda.se INFO SOA MNAME for fargelanda.se valid (strongbow.fargelanda.se).
+ 25.103: fargelanda.se INFO SOA MNAME for fargelanda.se (strongbow.fargelanda.se) listed as NS.
+ 25.123: fargelanda.se INFO SOA MNAME for fargelanda.se (strongbow.fargelanda.se) is authoritative.
+ 25.123: fargelanda.se INFO Begin testing email address registry@fargelanda.se.
+ 25.390: fargelanda.se INFO Mail exchangers for registry@fargelanda.se found mx.bengtsfors.se,mx.amal.se.
+ 25.391: fargelanda.se INFO Begin testing host mx.bengtsfors.se.
+ 26.055: fargelanda.se INFO Begin testing address 194.17.153.17.
+ 26.575: fargelanda.se INFO Done testing address 194.17.153.17.
+ 26.575: fargelanda.se INFO Done testing host mx.bengtsfors.se.
+ 26.576: fargelanda.se INFO Begin testing mail server mx.bengtsfors.se (194.17.153.17) with registry@fargelanda.se.
+ 26.846: fargelanda.se INFO SMTP banner: mx.bengtsfors.se ESMTP
+ 27.367: fargelanda.se INFO SMTP testing of mx.bengtsfors.se (194.17.153.17) with registry@fargelanda.se succeeded without errors.
+ 27.367: fargelanda.se INFO Done testing mail server mx.bengtsfors.se (194.17.153.17) with registry@fargelanda.se.
+ 27.367: fargelanda.se INFO Begin testing host mx.amal.se.
+ 28.336: fargelanda.se INFO Begin testing address 194.17.150.14.
+ 29.549: fargelanda.se INFO Done testing address 194.17.150.14.
+ 29.549: fargelanda.se INFO Done testing host mx.amal.se.
+ 29.550: fargelanda.se INFO Delivery over IPv4 to registry@fargelanda.se ok.
+ 29.550: fargelanda.se INFO Delivery over IPv6 to registry@fargelanda.se could not be done.
+ 29.550: fargelanda.se INFO Done testing email address registry@fargelanda.se.
+ 29.550: fargelanda.se INFO Successful attempt to deliver email for SOA RNAME of fargelanda.se (registry.fargelanda.se) using registry@fargelanda.se.
+ 29.550: fargelanda.se INFO SOA TTL for fargelanda.se OK (86400) - recommended >= 3600.
+ 29.550: fargelanda.se INFO SOA refresh for fargelanda.se OK (28800) - recommended >= 14400.
+ 29.551: fargelanda.se INFO SOA retry for fargelanda.se OK (7200) - recommended >= 3600.
+ 29.551: fargelanda.se INFO SOA expire for fargelanda.se OK (604800) - recommended >= 604800.
+ 29.551: fargelanda.se INFO SOA minimum for fargelanda.se OK (86400) - recommended between 300 and 86400.
+ 29.551: fargelanda.se INFO Done testing SOA parameters for fargelanda.se.
+ 29.551: fargelanda.se INFO Begin testing connectivity for fargelanda.se.
+ 34.063: fargelanda.se INFO Name server 194.17.154.67 announced by: 3301
+ 34.665: fargelanda.se INFO Name server 209.9.227.218 announced by: 29944,3491
+ 34.665: fargelanda.se INFO Zone announced by IPv4 ASN: 29944,3301,3491
+ 34.665: fargelanda.se INFO Zone announced by more than one ASN (3).
+ 34.665: fargelanda.se INFO Zone announced by IPv6 ASN: 
+ 34.666: fargelanda.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 34.666: fargelanda.se INFO Done testing connectivity for fargelanda.se.
+ 34.666: fargelanda.se INFO Begin testing DNSSEC for fargelanda.se.
+ 34.789: fargelanda.se INFO Did not find DS record for fargelanda.se at parent.
+ 35.051: fargelanda.se INFO Servers for fargelanda.se have consistent extra processing status.
+ 35.052: fargelanda.se INFO Did not find DNSKEY record for fargelanda.se at child.
+ 35.052: fargelanda.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 35.052: fargelanda.se INFO Done testing DNSSEC for fargelanda.se.
+ 35.052: fargelanda.se INFO Test completed for zone fargelanda.se.

@@ -1,0 +1,96 @@
+  0.000: tidaholm.se INFO Begin testing zone tidaholm.se with version 1.2.
+  0.000: tidaholm.se INFO Begin testing delegation for tidaholm.se.
+  5.463: tidaholm.se INFO Name servers listed at parent: dns5.telia.com,ns.tidaholm.se
+  6.893: tidaholm.se INFO Name servers listed at child: dns5.telia.com,ns.tidaholm.se
+  6.894: tidaholm.se NOTICE No IPv6 name servers found.
+  7.011: tidaholm.se INFO Parent glue for tidaholm.se found: ns.tidaholm.se (194.237.188.194)
+  7.029: tidaholm.se INFO Checking glue for ns.tidaholm.se (194.237.188.194).
+  7.060: tidaholm.se INFO Child glue for tidaholm.se found: ns.tidaholm.se (194.237.188.194)
+  7.061: tidaholm.se INFO Parent glue for tidaholm.se found: ns.tidaholm.se (194.237.188.194)
+  7.062: tidaholm.se INFO Done testing delegation for tidaholm.se.
+  7.062: tidaholm.se INFO Begin testing name server dns5.telia.com.
+  7.062: tidaholm.se INFO Begin testing host dns5.telia.com.
+  7.062: tidaholm.se INFO Begin testing address 81.228.11.68.
+ 20.207: tidaholm.se INFO Done testing address 81.228.11.68.
+ 20.207: tidaholm.se INFO Done testing host dns5.telia.com.
+ 20.215: tidaholm.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over UDP.
+ 20.227: tidaholm.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over TCP.
+ 20.234: tidaholm.se INFO Name server dns5.telia.com (81.228.11.68) is not recursive.
+ 20.242: tidaholm.se INFO Name server dns5.telia.com (81.228.11.68) authoritative for tidaholm.se.
+ 20.256: tidaholm.se INFO Name server dns5.telia.com (81.228.11.68) closed for zone transfer of tidaholm.se.
+ 20.266: tidaholm.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): hostname.bind = dnshosting1-sn1.fre.skanova.net
+ 20.272: tidaholm.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 20.286: tidaholm.se NOTICE No answer received from 81.228.11.68 when querying for version.server/CH/TXT.
+ 20.286: tidaholm.se INFO Done testing name server dns5.telia.com.
+ 20.286: tidaholm.se INFO Begin testing name server ns.tidaholm.se.
+ 20.286: tidaholm.se INFO Begin testing host ns.tidaholm.se.
+ 20.287: tidaholm.se INFO Begin testing address 194.237.188.194.
+ 26.181: tidaholm.se WARNING Reverse for 194.237.188.194 points to an unknown host name (194-237-188-194.customer.telia.com).
+ 26.181: tidaholm.se INFO Done testing address 194.237.188.194.
+ 26.181: tidaholm.se INFO Done testing host ns.tidaholm.se.
+ 26.199: tidaholm.se INFO Name server ns.tidaholm.se (194.237.188.194) answers queries over UDP.
+ 26.231: tidaholm.se INFO Name server ns.tidaholm.se (194.237.188.194) answers queries over TCP.
+ 26.248: tidaholm.se INFO Name server ns.tidaholm.se (194.237.188.194) is not recursive.
+ 26.266: tidaholm.se INFO Name server ns.tidaholm.se (194.237.188.194) authoritative for tidaholm.se.
+ 26.313: tidaholm.se INFO Name server ns.tidaholm.se (194.237.188.194) closed for zone transfer of tidaholm.se.
+ 26.342: tidaholm.se NOTICE No answer received from 194.237.188.194 when querying for hostname.bind/CH/TXT.
+ 26.370: tidaholm.se NOTICE No answer received from 194.237.188.194 when querying for version.bind/CH/TXT.
+ 26.397: tidaholm.se NOTICE No answer received from 194.237.188.194 when querying for id.server/CH/TXT.
+ 26.424: tidaholm.se NOTICE No answer received from 194.237.188.194 when querying for version.server/CH/TXT.
+ 26.424: tidaholm.se INFO Done testing name server ns.tidaholm.se.
+ 26.424: tidaholm.se INFO Begin testing zone consistency for tidaholm.se.
+ 26.435: tidaholm.se INFO SOA at address 81.228.11.68 has serial 63.
+ 26.453: tidaholm.se INFO SOA at address 194.237.188.194 has serial 63.
+ 26.453: tidaholm.se INFO All SOA records have consistent serial numbers.
+ 26.453: tidaholm.se INFO All SOA records are consistent among all name servers.
+ 26.453: tidaholm.se INFO Done testing zone consistency for tidaholm.se.
+ 26.453: tidaholm.se INFO Begin testing SOA parameters for tidaholm.se.
+ 26.474: tidaholm.se INFO Found SOA record for tidaholm.se.
+ 26.474: tidaholm.se INFO Begin testing host ns.tidaholm.se.
+ 26.474: tidaholm.se INFO Begin testing address 194.237.188.194.
+ 26.476: tidaholm.se WARNING Reverse for 194.237.188.194 points to an unknown host name (194-237-188-194.customer.telia.com).
+ 26.476: tidaholm.se INFO Done testing address 194.237.188.194.
+ 26.476: tidaholm.se INFO Done testing host ns.tidaholm.se.
+ 26.476: tidaholm.se INFO SOA MNAME for tidaholm.se valid (ns.tidaholm.se).
+ 26.476: tidaholm.se INFO SOA MNAME for tidaholm.se (ns.tidaholm.se) listed as NS.
+ 26.495: tidaholm.se INFO SOA MNAME for tidaholm.se (ns.tidaholm.se) is authoritative.
+ 26.495: tidaholm.se INFO Begin testing email address hostmaster@tidaholm.se.
+ 26.707: tidaholm.se INFO Mail exchangers for hostmaster@tidaholm.se found smtp-in.sto-hy.se.stejtech.net,smtp-in.sto-ste.se.stejtech.net.
+ 26.708: tidaholm.se INFO Begin testing host smtp-in.sto-hy.se.stejtech.net.
+ 27.326: tidaholm.se INFO Begin testing address 83.140.31.145.
+ 29.369: tidaholm.se INFO Done testing address 83.140.31.145.
+ 29.369: tidaholm.se INFO Done testing host smtp-in.sto-hy.se.stejtech.net.
+ 29.369: tidaholm.se INFO Begin testing mail server smtp-in.sto-hy.se.stejtech.net (83.140.31.145) with hostmaster@tidaholm.se.
+ 29.386: tidaholm.se INFO SMTP banner: smtp2.stejtech.net ESMTP Stej PowerFilter
+ 29.776: tidaholm.se INFO SMTP testing of smtp-in.sto-hy.se.stejtech.net (83.140.31.145) with hostmaster@tidaholm.se succeeded without errors.
+ 29.776: tidaholm.se INFO Done testing mail server smtp-in.sto-hy.se.stejtech.net (83.140.31.145) with hostmaster@tidaholm.se.
+ 29.776: tidaholm.se INFO Begin testing host smtp-in.sto-ste.se.stejtech.net.
+ 30.437: tidaholm.se INFO Begin testing address 80.248.224.70.
+ 31.565: tidaholm.se INFO Done testing address 80.248.224.70.
+ 31.565: tidaholm.se INFO Done testing host smtp-in.sto-ste.se.stejtech.net.
+ 31.565: tidaholm.se INFO Delivery over IPv4 to hostmaster@tidaholm.se ok.
+ 31.565: tidaholm.se INFO Delivery over IPv6 to hostmaster@tidaholm.se could not be done.
+ 31.565: tidaholm.se INFO Done testing email address hostmaster@tidaholm.se.
+ 31.565: tidaholm.se INFO Successful attempt to deliver email for SOA RNAME of tidaholm.se (hostmaster.tidaholm.se) using hostmaster@tidaholm.se.
+ 31.566: tidaholm.se INFO SOA TTL for tidaholm.se OK (3600) - recommended >= 3600.
+ 31.566: tidaholm.se INFO SOA refresh for tidaholm.se OK (14400) - recommended >= 14400.
+ 31.566: tidaholm.se INFO SOA retry for tidaholm.se OK (3600) - recommended >= 3600.
+ 31.566: tidaholm.se INFO SOA expire for tidaholm.se OK (604800) - recommended >= 604800.
+ 31.566: tidaholm.se INFO SOA minimum for tidaholm.se OK (3600) - recommended between 300 and 86400.
+ 31.566: tidaholm.se INFO Done testing SOA parameters for tidaholm.se.
+ 31.566: tidaholm.se INFO Begin testing connectivity for tidaholm.se.
+ 32.090: tidaholm.se INFO Name server 194.237.188.194 announced by: 3301
+ 32.627: tidaholm.se INFO Name server 81.228.11.68 announced by: 3301
+ 32.627: tidaholm.se INFO Zone announced by IPv4 ASN: 3301
+ 32.627: tidaholm.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 32.627: tidaholm.se INFO Zone announced by IPv6 ASN: 
+ 32.627: tidaholm.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 32.627: tidaholm.se INFO Done testing connectivity for tidaholm.se.
+ 32.627: tidaholm.se INFO Begin testing DNSSEC for tidaholm.se.
+ 32.643: tidaholm.se INFO Did not find DS record for tidaholm.se at parent.
+ 32.675: tidaholm.se NOTICE No answer received from 194.237.188.194 when querying for tidaholm.se/IN/DNSKEY.
+ 32.686: tidaholm.se INFO Servers for tidaholm.se have consistent extra processing status.
+ 32.687: tidaholm.se INFO Did not find DNSKEY record for tidaholm.se at child.
+ 32.687: tidaholm.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 32.687: tidaholm.se INFO Done testing DNSSEC for tidaholm.se.
+ 32.687: tidaholm.se INFO Test completed for zone tidaholm.se.

@@ -1,0 +1,101 @@
+  0.000: monsteras.se INFO Begin testing zone monsteras.se with version 1.2.
+  0.000: monsteras.se INFO Begin testing delegation for monsteras.se.
+  5.195: monsteras.se INFO Name servers listed at parent: ns01.monsteras.se,ns02.monsteras.se
+  6.494: monsteras.se INFO Name servers listed at child: ns01.monsteras.se,ns02.monsteras.se
+  6.494: monsteras.se NOTICE No IPv6 name servers found.
+  6.513: monsteras.se INFO Parent glue for monsteras.se found: ns01.monsteras.se (195.198.17.61)
+  6.700: monsteras.se INFO Parent glue for monsteras.se found: ns02.monsteras.se (195.198.17.62)
+  6.721: monsteras.se INFO Checking glue for ns01.monsteras.se (195.198.17.61).
+  6.741: monsteras.se INFO Child glue for monsteras.se found: ns01.monsteras.se (195.198.17.61)
+  6.741: monsteras.se INFO Checking glue for ns02.monsteras.se (195.198.17.62).
+  6.758: monsteras.se INFO Child glue for monsteras.se found: ns02.monsteras.se (195.198.17.62)
+  6.759: monsteras.se INFO Parent glue for monsteras.se found: ns01.monsteras.se (195.198.17.61)
+  6.759: monsteras.se INFO Parent glue for monsteras.se found: ns02.monsteras.se (195.198.17.62)
+  6.760: monsteras.se INFO Done testing delegation for monsteras.se.
+  6.760: monsteras.se INFO Begin testing name server ns01.monsteras.se.
+  6.760: monsteras.se INFO Begin testing host ns01.monsteras.se.
+  6.760: monsteras.se INFO Begin testing address 195.198.17.61.
+ 14.707: monsteras.se INFO Done testing address 195.198.17.61.
+ 14.707: monsteras.se INFO Done testing host ns01.monsteras.se.
+ 14.725: monsteras.se INFO Name server ns01.monsteras.se (195.198.17.61) answers queries over UDP.
+ 14.756: monsteras.se INFO Name server ns01.monsteras.se (195.198.17.61) answers queries over TCP.
+ 14.794: monsteras.se WARNING Name server ns01.monsteras.se (195.198.17.61) is recursive.
+ 14.811: monsteras.se INFO Name server ns01.monsteras.se (195.198.17.61) authoritative for monsteras.se.
+ 14.853: monsteras.se INFO Name server ns01.monsteras.se (195.198.17.61) closed for zone transfer of monsteras.se.
+ 14.872: monsteras.se INFO Legacy name server ID for ns01.monsteras.se (195.198.17.61): hostname.bind = ns01.monsteras.se
+ 14.889: monsteras.se INFO Legacy name server ID for ns01.monsteras.se (195.198.17.61): version.bind = .
+ 14.921: monsteras.se NOTICE No answer received from 195.198.17.61 when querying for version.server/CH/TXT.
+ 14.921: monsteras.se INFO Done testing name server ns01.monsteras.se.
+ 14.921: monsteras.se INFO Begin testing name server ns02.monsteras.se.
+ 14.921: monsteras.se INFO Begin testing host ns02.monsteras.se.
+ 14.922: monsteras.se INFO Begin testing address 195.198.17.62.
+ 15.486: monsteras.se INFO Done testing address 195.198.17.62.
+ 15.486: monsteras.se INFO Done testing host ns02.monsteras.se.
+ 15.505: monsteras.se INFO Name server ns02.monsteras.se (195.198.17.62) answers queries over UDP.
+ 15.536: monsteras.se INFO Name server ns02.monsteras.se (195.198.17.62) answers queries over TCP.
+ 15.556: monsteras.se INFO Name server ns02.monsteras.se (195.198.17.62) is not recursive.
+ 15.574: monsteras.se INFO Name server ns02.monsteras.se (195.198.17.62) authoritative for monsteras.se.
+ 15.617: monsteras.se INFO Name server ns02.monsteras.se (195.198.17.62) closed for zone transfer of monsteras.se.
+ 15.634: monsteras.se INFO Legacy name server ID for ns02.monsteras.se (195.198.17.62): hostname.bind = ns02.monsteras.se
+ 15.651: monsteras.se INFO Legacy name server ID for ns02.monsteras.se (195.198.17.62): version.bind = .
+ 15.683: monsteras.se NOTICE No answer received from 195.198.17.62 when querying for version.server/CH/TXT.
+ 15.684: monsteras.se INFO Done testing name server ns02.monsteras.se.
+ 15.684: monsteras.se INFO Begin testing zone consistency for monsteras.se.
+ 15.704: monsteras.se INFO SOA at address 195.198.17.61 has serial 2008101734.
+ 15.722: monsteras.se INFO SOA at address 195.198.17.62 has serial 2008101734.
+ 15.722: monsteras.se INFO All SOA records have consistent serial numbers.
+ 15.722: monsteras.se INFO All SOA records are consistent among all name servers.
+ 15.722: monsteras.se INFO Done testing zone consistency for monsteras.se.
+ 15.723: monsteras.se INFO Begin testing SOA parameters for monsteras.se.
+ 15.740: monsteras.se INFO Found SOA record for monsteras.se.
+ 15.740: monsteras.se INFO Begin testing host ns01.monsteras.se.
+ 15.740: monsteras.se INFO Begin testing address 195.198.17.61.
+ 15.742: monsteras.se INFO Done testing address 195.198.17.61.
+ 15.742: monsteras.se INFO Done testing host ns01.monsteras.se.
+ 15.742: monsteras.se INFO SOA MNAME for monsteras.se valid (ns01.monsteras.se).
+ 15.742: monsteras.se INFO SOA MNAME for monsteras.se (ns01.monsteras.se) listed as NS.
+ 15.760: monsteras.se INFO SOA MNAME for monsteras.se (ns01.monsteras.se) is authoritative.
+ 15.760: monsteras.se INFO Begin testing email address drift@monsteras.se.
+ 15.979: monsteras.se INFO Mail exchangers for drift@monsteras.se found smtp1.monsteras.se,smtp2.monsteras.se,smtp3.monsteras.se.
+ 15.979: monsteras.se INFO All mail servers for drift@monsteras.se are in zone monsteras.se.
+ 15.979: monsteras.se INFO Begin testing host smtp1.monsteras.se.
+ 16.435: monsteras.se INFO Begin testing address 195.198.16.13.
+ 16.709: monsteras.se INFO Done testing address 195.198.16.13.
+ 16.709: monsteras.se INFO Done testing host smtp1.monsteras.se.
+ 16.709: monsteras.se INFO Begin testing mail server smtp1.monsteras.se (195.198.16.13) with drift@monsteras.se.
+ 16.857: monsteras.se INFO SMTP banner: smtp1.monsteras.se ESMTP Postfix
+ 17.052: monsteras.se INFO SMTP testing of smtp1.monsteras.se (195.198.16.13) with drift@monsteras.se succeeded without errors.
+ 17.052: monsteras.se INFO Done testing mail server smtp1.monsteras.se (195.198.16.13) with drift@monsteras.se.
+ 17.052: monsteras.se INFO Begin testing host smtp2.monsteras.se.
+ 17.487: monsteras.se INFO Begin testing address 195.198.16.12.
+ 17.780: monsteras.se INFO Done testing address 195.198.16.12.
+ 17.780: monsteras.se INFO Done testing host smtp2.monsteras.se.
+ 17.781: monsteras.se INFO Begin testing host smtp3.monsteras.se.
+ 18.239: monsteras.se INFO Begin testing address 195.198.16.14.
+ 18.506: monsteras.se INFO Done testing address 195.198.16.14.
+ 18.506: monsteras.se INFO Done testing host smtp3.monsteras.se.
+ 18.507: monsteras.se INFO Delivery over IPv4 to drift@monsteras.se ok.
+ 18.507: monsteras.se INFO Delivery over IPv6 to drift@monsteras.se could not be done.
+ 18.507: monsteras.se INFO Done testing email address drift@monsteras.se.
+ 18.507: monsteras.se INFO Successful attempt to deliver email for SOA RNAME of monsteras.se (drift.monsteras.se) using drift@monsteras.se.
+ 18.507: monsteras.se INFO SOA TTL for monsteras.se OK (3600) - recommended >= 3600.
+ 18.507: monsteras.se INFO SOA refresh for monsteras.se OK (28800) - recommended >= 14400.
+ 18.508: monsteras.se INFO SOA retry for monsteras.se OK (7200) - recommended >= 3600.
+ 18.508: monsteras.se INFO SOA expire for monsteras.se OK (1209600) - recommended >= 604800.
+ 18.508: monsteras.se INFO SOA minimum for monsteras.se OK (86400) - recommended between 300 and 86400.
+ 18.508: monsteras.se INFO Done testing SOA parameters for monsteras.se.
+ 18.508: monsteras.se INFO Begin testing connectivity for monsteras.se.
+ 19.049: monsteras.se INFO Name server 195.198.17.62 announced by: 3301
+ 19.695: monsteras.se INFO Name server 195.198.17.61 announced by: 3301
+ 19.695: monsteras.se INFO Zone announced by IPv4 ASN: 3301
+ 19.695: monsteras.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 19.695: monsteras.se INFO Zone announced by IPv6 ASN: 
+ 19.695: monsteras.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 19.695: monsteras.se INFO Done testing connectivity for monsteras.se.
+ 19.695: monsteras.se INFO Begin testing DNSSEC for monsteras.se.
+ 19.743: monsteras.se INFO Did not find DS record for monsteras.se at parent.
+ 19.804: monsteras.se INFO Servers for monsteras.se have consistent extra processing status.
+ 19.804: monsteras.se INFO Did not find DNSKEY record for monsteras.se at child.
+ 19.804: monsteras.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 19.804: monsteras.se INFO Done testing DNSSEC for monsteras.se.
+ 19.804: monsteras.se INFO Test completed for zone monsteras.se.

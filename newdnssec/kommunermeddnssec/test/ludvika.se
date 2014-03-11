@@ -1,0 +1,87 @@
+  0.000: ludvika.se INFO Begin testing zone ludvika.se with version 1.6.1.
+  0.597: ludvika.se INFO Begin testing delegation for ludvika.se.
+ 24.574: ludvika.se INFO Name servers listed at parent: ns.ludvika.se,ns2.ludvika.se
+ 31.400: ludvika.se INFO Name servers listed at child: ns.ludvika.se,ns2.ludvika.se
+ 31.401: ludvika.se NOTICE No IPv6 name servers found.
+ 31.511: ludvika.se INFO Parent glue for ludvika.se found: ns.ludvika.se (194.18.168.182)
+ 31.651: ludvika.se INFO Parent glue for ludvika.se found: ns2.ludvika.se (194.18.168.183)
+ 31.747: ludvika.se INFO Checking glue for ns.ludvika.se (194.18.168.182).
+ 31.812: ludvika.se INFO Child glue for ludvika.se found: ns.ludvika.se (194.18.168.182)
+ 31.812: ludvika.se INFO Checking glue for ns2.ludvika.se (194.18.168.183).
+ 31.864: ludvika.se INFO Child glue for ludvika.se found: ns2.ludvika.se (194.18.168.183)
+ 31.865: ludvika.se INFO Parent glue for ludvika.se found: ns.ludvika.se (194.18.168.182)
+ 31.865: ludvika.se INFO Parent glue for ludvika.se found: ns2.ludvika.se (194.18.168.183)
+ 32.789: ludvika.se INFO It is possible to build a referral packet for ludvika.se that works without EDNS0.
+ 34.622: ludvika.se INFO Previously used name servers for ludvika.se: 
+ 34.623: ludvika.se INFO Done testing delegation for ludvika.se.
+ 34.623: ludvika.se INFO Begin testing name server ns.ludvika.se.
+ 34.623: ludvika.se INFO Begin testing host ns.ludvika.se.
+ 35.037: ludvika.se INFO Begin testing address 194.18.168.182.
+ 51.192: ludvika.se INFO Done testing address 194.18.168.182.
+ 51.192: ludvika.se INFO Done testing host ns.ludvika.se.
+ 51.656: ludvika.se INFO Name server ns.ludvika.se (194.18.168.182) answers queries over UDP.
+ 51.738: ludvika.se INFO Name server ns.ludvika.se (194.18.168.182) answers queries over TCP.
+ 51.827: ludvika.se INFO Name server ns.ludvika.se (194.18.168.182) is not recursive.
+ 51.991: ludvika.se INFO Name server ns.ludvika.se (194.18.168.182) authoritative for ludvika.se.
+ 52.070: ludvika.se INFO Name server ns.ludvika.se (194.18.168.182) closed for zone transfer of ludvika.se.
+ 52.361: ludvika.se NOTICE No answer received from 194.18.168.182 when querying for version.server/CH/TXT.
+ 52.362: ludvika.se INFO Done testing name server ns.ludvika.se.
+ 52.362: ludvika.se INFO Begin testing name server ns2.ludvika.se.
+ 52.362: ludvika.se INFO Begin testing host ns2.ludvika.se.
+ 55.877: ludvika.se INFO Begin testing address 194.18.168.183.
+ 58.416: ludvika.se INFO Done testing address 194.18.168.183.
+ 58.483: ludvika.se INFO Done testing host ns2.ludvika.se.
+ 59.156: ludvika.se INFO Name server ns2.ludvika.se (194.18.168.183) answers queries over UDP.
+ 59.204: ludvika.se INFO Name server ns2.ludvika.se (194.18.168.183) answers queries over TCP.
+ 59.251: ludvika.se INFO Name server ns2.ludvika.se (194.18.168.183) is not recursive.
+ 61.050: ludvika.se INFO Name server ns2.ludvika.se (194.18.168.183) authoritative for ludvika.se.
+ 61.088: ludvika.se INFO Name server ns2.ludvika.se (194.18.168.183) closed for zone transfer of ludvika.se.
+ 61.471: ludvika.se NOTICE No answer received from 194.18.168.183 when querying for version.server/CH/TXT.
+ 61.471: ludvika.se INFO Done testing name server ns2.ludvika.se.
+ 61.471: ludvika.se INFO Begin testing zone consistency for ludvika.se.
+ 63.400: ludvika.se INFO SOA at address 194.18.168.183 has serial 2013040543.
+ 63.440: ludvika.se INFO SOA at address 194.18.168.182 has serial 2013040543.
+ 63.440: ludvika.se INFO All SOA records have consistent serial numbers.
+ 63.440: ludvika.se INFO All other fields in the SOA record are consistent among all name servers.
+ 64.413: ludvika.se NOTICE The listed nameservers for ludvika.se all report the same set of nameservers.
+ 64.413: ludvika.se INFO Done testing zone consistency for ludvika.se.
+ 64.413: ludvika.se INFO Begin testing SOA parameters for ludvika.se.
+ 64.479: ludvika.se INFO Found SOA record for ludvika.se.
+ 64.497: ludvika.se INFO Begin testing host ns.ludvika.se.
+ 65.095: ludvika.se INFO Begin testing address 194.18.168.182.
+ 65.481: ludvika.se INFO Done testing address 194.18.168.182.
+ 65.481: ludvika.se INFO Done testing host ns.ludvika.se.
+ 65.481: ludvika.se INFO SOA MNAME for ludvika.se valid (ns.ludvika.se).
+ 65.482: ludvika.se INFO SOA MNAME for ludvika.se (ns.ludvika.se) listed as NS.
+ 66.040: ludvika.se INFO SOA MNAME for ludvika.se (ns.ludvika.se) is authoritative.
+ 66.041: ludvika.se INFO Begin testing email address dns@ludvika.se.
+ 66.532: ludvika.se INFO Mail exchangers for dns@ludvika.se found postman.ludvika.se,lkresas04.ludvika.se.
+ 66.532: ludvika.se INFO All mail servers for dns@ludvika.se are in zone ludvika.se.
+ 66.533: ludvika.se INFO Begin testing host postman.ludvika.se.
+ 67.663: ludvika.se INFO Begin testing address 194.18.168.162.
+ 70.676: ludvika.se INFO Done testing address 194.18.168.162.
+ 70.676: ludvika.se INFO Done testing host postman.ludvika.se.
+ 71.274: ludvika.se INFO Begin testing host lkresas04.ludvika.se.
+ 72.188: ludvika.se INFO Begin testing address 194.18.168.166.
+ 73.982: ludvika.se INFO Done testing address 194.18.168.166.
+ 73.982: ludvika.se INFO Done testing host lkresas04.ludvika.se.
+ 74.402: ludvika.se INFO Done testing email address dns@ludvika.se.
+ 74.402: ludvika.se INFO Successful attempt to deliver email for SOA RNAME of ludvika.se (dns.ludvika.se) using dns@ludvika.se.
+ 74.402: ludvika.se INFO SOA TTL for ludvika.se OK (3600) - recommended >= 3600.
+ 74.402: ludvika.se NOTICE SOA refresh for ludvika.se too small (10800) - recommended >= 14400.
+ 74.402: ludvika.se INFO SOA retry for ludvika.se OK (3600) - recommended >= 3600.
+ 74.414: ludvika.se INFO SOA expire for ludvika.se OK (2419200) - recommended >= 604800.
+ 74.414: ludvika.se INFO SOA minimum for ludvika.se OK (900) - recommended between 300 and 86400.
+ 74.414: ludvika.se INFO Done testing SOA parameters for ludvika.se.
+ 74.414: ludvika.se INFO Begin testing connectivity for ludvika.se.
+ 75.889: ludvika.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 75.914: ludvika.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 75.914: ludvika.se INFO Done testing connectivity for ludvika.se.
+ 75.914: ludvika.se INFO Begin testing DNSSEC for ludvika.se.
+ 75.993: ludvika.se INFO Did not find DS record for ludvika.se at parent.
+ 76.129: ludvika.se INFO Servers for ludvika.se have consistent extra processing status.
+ 76.165: ludvika.se INFO Authenticated denial records not found for ludvika.se.
+ 76.207: ludvika.se INFO Did not find DNSKEY record for ludvika.se at child.
+ 76.207: ludvika.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 76.215: ludvika.se INFO Done testing DNSSEC for ludvika.se.
+ 76.220: ludvika.se INFO Test completed for zone ludvika.se.

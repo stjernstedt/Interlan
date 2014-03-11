@@ -1,0 +1,93 @@
+  0.000: haapavesi.fi INFO Begin testing zone haapavesi.fi with version 1.6.1.
+  0.422: haapavesi.fi INFO Begin testing delegation for haapavesi.fi.
+  8.759: haapavesi.fi INFO Name servers listed at parent: ns1.kotinet.com,ns2.kotinet.com,ns3.kotinet.com
+ 11.992: haapavesi.fi INFO Name servers listed at child: ns1.kotinet.com,ns2.kotinet.com,ns3.kotinet.com
+ 11.992: haapavesi.fi NOTICE No IPv6 name servers found.
+ 13.782: haapavesi.fi INFO It is possible to build a referral packet for haapavesi.fi that works without EDNS0.
+ 14.707: haapavesi.fi INFO Previously used name servers for haapavesi.fi: 
+ 14.707: haapavesi.fi INFO Done testing delegation for haapavesi.fi.
+ 14.708: haapavesi.fi INFO Begin testing name server ns1.kotinet.com.
+ 14.708: haapavesi.fi INFO Begin testing host ns1.kotinet.com.
+ 15.217: haapavesi.fi INFO Begin testing address 212.50.211.242.
+ 32.913: haapavesi.fi INFO Done testing address 212.50.211.242.
+ 32.913: haapavesi.fi INFO Done testing host ns1.kotinet.com.
+ 33.184: haapavesi.fi INFO Name server ns1.kotinet.com (212.50.211.242) answers queries over UDP.
+ 33.278: haapavesi.fi INFO Name server ns1.kotinet.com (212.50.211.242) answers queries over TCP.
+ 33.318: haapavesi.fi INFO Name server ns1.kotinet.com (212.50.211.242) is not recursive.
+ 33.428: haapavesi.fi INFO Name server ns1.kotinet.com (212.50.211.242) authoritative for haapavesi.fi.
+ 33.488: haapavesi.fi INFO Name server ns1.kotinet.com (212.50.211.242) closed for zone transfer of haapavesi.fi.
+ 33.513: haapavesi.fi INFO Legacy name server ID for ns1.kotinet.com (212.50.211.242): hostname.bind = ns1.kotinet.com
+ 33.546: haapavesi.fi INFO Legacy name server ID for ns1.kotinet.com (212.50.211.242): version.bind = enkerro
+ 33.603: haapavesi.fi NOTICE No answer received from 212.50.211.242 when querying for version.server/CH/TXT.
+ 33.607: haapavesi.fi INFO Done testing name server ns1.kotinet.com.
+ 33.607: haapavesi.fi INFO Begin testing name server ns2.kotinet.com.
+ 33.607: haapavesi.fi INFO Begin testing host ns2.kotinet.com.
+ 33.759: haapavesi.fi INFO Begin testing address 212.50.192.226.
+ 34.295: haapavesi.fi INFO Done testing address 212.50.192.226.
+ 34.295: haapavesi.fi INFO Done testing host ns2.kotinet.com.
+ 34.546: haapavesi.fi INFO Name server ns2.kotinet.com (212.50.192.226) answers queries over UDP.
+ 34.595: haapavesi.fi INFO Name server ns2.kotinet.com (212.50.192.226) answers queries over TCP.
+ 34.620: haapavesi.fi INFO Name server ns2.kotinet.com (212.50.192.226) is not recursive.
+ 34.755: haapavesi.fi INFO Name server ns2.kotinet.com (212.50.192.226) authoritative for haapavesi.fi.
+ 34.821: haapavesi.fi INFO Name server ns2.kotinet.com (212.50.192.226) closed for zone transfer of haapavesi.fi.
+ 34.846: haapavesi.fi INFO Legacy name server ID for ns2.kotinet.com (212.50.192.226): hostname.bind = ns2
+ 34.875: haapavesi.fi INFO Legacy name server ID for ns2.kotinet.com (212.50.192.226): version.bind = enkerro
+ 34.934: haapavesi.fi NOTICE No answer received from 212.50.192.226 when querying for version.server/CH/TXT.
+ 34.934: haapavesi.fi INFO Done testing name server ns2.kotinet.com.
+ 34.934: haapavesi.fi INFO Begin testing name server ns3.kotinet.com.
+ 34.940: haapavesi.fi INFO Begin testing host ns3.kotinet.com.
+ 35.371: haapavesi.fi INFO Begin testing address 82.141.108.26.
+ 36.057: haapavesi.fi INFO Done testing address 82.141.108.26.
+ 36.057: haapavesi.fi INFO Done testing host ns3.kotinet.com.
+ 36.305: haapavesi.fi INFO Name server ns3.kotinet.com (82.141.108.26) answers queries over UDP.
+ 36.363: haapavesi.fi INFO Name server ns3.kotinet.com (82.141.108.26) answers queries over TCP.
+ 36.391: haapavesi.fi INFO Name server ns3.kotinet.com (82.141.108.26) is not recursive.
+ 36.506: haapavesi.fi INFO Name server ns3.kotinet.com (82.141.108.26) authoritative for haapavesi.fi.
+ 36.582: haapavesi.fi INFO Name server ns3.kotinet.com (82.141.108.26) closed for zone transfer of haapavesi.fi.
+ 36.607: haapavesi.fi INFO Legacy name server ID for ns3.kotinet.com (82.141.108.26): hostname.bind = ns3.kotinet.com
+ 36.631: haapavesi.fi INFO Legacy name server ID for ns3.kotinet.com (82.141.108.26): version.bind = enkerro
+ 36.676: haapavesi.fi NOTICE No answer received from 82.141.108.26 when querying for version.server/CH/TXT.
+ 36.676: haapavesi.fi INFO Done testing name server ns3.kotinet.com.
+ 36.677: haapavesi.fi INFO Begin testing zone consistency for haapavesi.fi.
+ 38.231: haapavesi.fi INFO SOA at address 212.50.192.226 has serial 2013100714.
+ 38.256: haapavesi.fi INFO SOA at address 82.141.108.26 has serial 2013100714.
+ 38.280: haapavesi.fi INFO SOA at address 212.50.211.242 has serial 2013100714.
+ 38.280: haapavesi.fi INFO All SOA records have consistent serial numbers.
+ 38.280: haapavesi.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 39.201: haapavesi.fi NOTICE The listed nameservers for haapavesi.fi all report the same set of nameservers.
+ 39.202: haapavesi.fi INFO Done testing zone consistency for haapavesi.fi.
+ 39.202: haapavesi.fi INFO Begin testing SOA parameters for haapavesi.fi.
+ 39.237: haapavesi.fi INFO Found SOA record for haapavesi.fi.
+ 39.237: haapavesi.fi INFO Begin testing host ns1.kotinet.com.
+ 39.642: haapavesi.fi INFO Begin testing address 212.50.211.242.
+ 40.071: haapavesi.fi INFO Done testing address 212.50.211.242.
+ 40.071: haapavesi.fi INFO Done testing host ns1.kotinet.com.
+ 40.071: haapavesi.fi INFO SOA MNAME for haapavesi.fi valid (ns1.kotinet.com).
+ 40.072: haapavesi.fi INFO SOA MNAME for haapavesi.fi (ns1.kotinet.com) listed as NS.
+ 40.374: haapavesi.fi INFO SOA MNAME for haapavesi.fi (ns1.kotinet.com) is authoritative.
+ 40.374: haapavesi.fi INFO Begin testing email address hostmaster@mail.kotinet.com.
+ 40.745: haapavesi.fi INFO Mail exchangers for hostmaster@mail.kotinet.com found mail.kotinet.com.
+ 40.745: haapavesi.fi INFO Begin testing host mail.kotinet.com.
+ 40.844: haapavesi.fi INFO Begin testing address 212.50.215.81.
+ 41.594: haapavesi.fi INFO Done testing address 212.50.215.81.
+ 41.594: haapavesi.fi INFO Done testing host mail.kotinet.com.
+ 41.865: haapavesi.fi INFO Done testing email address hostmaster@mail.kotinet.com.
+ 41.865: haapavesi.fi INFO Successful attempt to deliver email for SOA RNAME of haapavesi.fi (hostmaster.mail.kotinet.com) using hostmaster@mail.kotinet.com.
+ 41.865: haapavesi.fi INFO SOA TTL for haapavesi.fi OK (86400) - recommended >= 3600.
+ 41.865: haapavesi.fi INFO SOA refresh for haapavesi.fi OK (28800) - recommended >= 14400.
+ 41.866: haapavesi.fi INFO SOA retry for haapavesi.fi OK (7200) - recommended >= 3600.
+ 41.866: haapavesi.fi INFO SOA expire for haapavesi.fi OK (604800) - recommended >= 604800.
+ 41.867: haapavesi.fi INFO SOA minimum for haapavesi.fi OK (86400) - recommended between 300 and 86400.
+ 41.867: haapavesi.fi INFO Done testing SOA parameters for haapavesi.fi.
+ 41.867: haapavesi.fi INFO Begin testing connectivity for haapavesi.fi.
+ 43.395: haapavesi.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 43.396: haapavesi.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 43.396: haapavesi.fi INFO Done testing connectivity for haapavesi.fi.
+ 43.396: haapavesi.fi INFO Begin testing DNSSEC for haapavesi.fi.
+ 43.445: haapavesi.fi INFO Did not find DS record for haapavesi.fi at parent.
+ 43.578: haapavesi.fi INFO Servers for haapavesi.fi have consistent extra processing status.
+ 43.623: haapavesi.fi INFO Authenticated denial records not found for haapavesi.fi.
+ 43.647: haapavesi.fi INFO Did not find DNSKEY record for haapavesi.fi at child.
+ 43.647: haapavesi.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 43.648: haapavesi.fi INFO Done testing DNSSEC for haapavesi.fi.
+ 43.648: haapavesi.fi INFO Test completed for zone haapavesi.fi.

@@ -1,0 +1,185 @@
+  0.000: mikkeli.fi INFO Begin testing zone mikkeli.fi with version 1.5.0.
+  1.470: mikkeli.fi INFO Begin testing delegation for mikkeli.fi.
+ 49.584: mikkeli.fi INFO Name servers listed at parent: ns.mikkeli.fi,ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 71.468: mikkeli.fi INFO Name servers listed at child: ns.mikkeli.fi,ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 71.953: mikkeli.fi INFO Parent glue for mikkeli.fi found: ns.mikkeli.fi (194.111.49.3)
+ 72.541: mikkeli.fi INFO Parent glue for mikkeli.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+ 73.054: mikkeli.fi INFO Parent glue for mikkeli.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+ 73.346: mikkeli.fi INFO Parent glue for mikkeli.fi found: ns1-swe.global.sonera.se (80.64.9.124)
+ 73.773: mikkeli.fi INFO Parent glue for mikkeli.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+ 74.024: mikkeli.fi INFO Parent glue for mikkeli.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+ 74.547: mikkeli.fi INFO Checking glue for ns.mikkeli.fi (194.111.49.3).
+ 74.698: mikkeli.fi INFO Child glue for mikkeli.fi found: ns.mikkeli.fi (194.111.49.3)
+ 74.698: mikkeli.fi INFO Checking glue for ns1-fin.global.sonera.fi (193.210.18.31).
+ 74.698: mikkeli.fi INFO Checking glue for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53).
+ 74.903: mikkeli.fi INFO Checking glue for ns1-swe.global.sonera.se (80.64.9.124).
+ 74.903: mikkeli.fi INFO Checking glue for ns2-fin.global.sonera.fi (195.156.148.158).
+ 74.903: mikkeli.fi INFO Checking glue for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53).
+ 74.904: mikkeli.fi INFO Parent glue for mikkeli.fi found: ns.mikkeli.fi (194.111.49.3)
+ 74.904: mikkeli.fi INFO Parent glue for mikkeli.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+ 74.904: mikkeli.fi INFO Parent glue for mikkeli.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+ 74.905: mikkeli.fi INFO Parent glue for mikkeli.fi found: ns1-swe.global.sonera.se (80.64.9.124)
+ 74.905: mikkeli.fi INFO Parent glue for mikkeli.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+ 74.905: mikkeli.fi INFO Parent glue for mikkeli.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+ 80.817: mikkeli.fi INFO It is possible to build a referral packet for mikkeli.fi that works without EDNS0.
+ 83.639: mikkeli.fi INFO Previously used name servers for mikkeli.fi: 
+ 83.639: mikkeli.fi INFO Done testing delegation for mikkeli.fi.
+ 83.641: mikkeli.fi INFO Begin testing name server ns.mikkeli.fi.
+ 83.641: mikkeli.fi INFO Begin testing host ns.mikkeli.fi.
+ 85.183: mikkeli.fi INFO Begin testing address 194.111.49.3.
+123.139: mikkeli.fi INFO Done testing address 194.111.49.3.
+123.140: mikkeli.fi INFO Done testing host ns.mikkeli.fi.
+125.823: mikkeli.fi INFO Name server ns.mikkeli.fi (194.111.49.3) answers queries over UDP.
+130.846: mikkeli.fi NOTICE DNS lookup error (connection failed).
+130.846: mikkeli.fi ERROR Name server ns.mikkeli.fi (194.111.49.3) does not answer queries over TCP.
+130.951: mikkeli.fi INFO Name server ns.mikkeli.fi (194.111.49.3) is not recursive.
+136.578: mikkeli.fi NOTICE DNS lookup error (connection failed).
+136.578: mikkeli.fi INFO Name server ns.mikkeli.fi (194.111.49.3) authoritative for mikkeli.fi.
+136.578: mikkeli.fi INFO Name server ns.mikkeli.fi (194.111.49.3) not checked for zone transfer of mikkeli.fi.
+136.579: mikkeli.fi INFO Name server ns.mikkeli.fi (194.111.49.3) not checked for legacy name server ID.
+136.579: mikkeli.fi INFO Done testing name server ns.mikkeli.fi.
+136.579: mikkeli.fi INFO Begin testing name server ns1-fin.global.sonera.fi.
+136.579: mikkeli.fi INFO Begin testing host ns1-fin.global.sonera.fi.
+136.579: mikkeli.fi INFO Begin testing address 193.210.18.31.
+138.598: mikkeli.fi INFO Done testing address 193.210.18.31.
+138.598: mikkeli.fi INFO Begin testing address 2001:2060:ffdd:a01:0:0:0:53.
+147.356: mikkeli.fi INFO Done testing address 2001:2060:ffdd:a01:0:0:0:53.
+147.514: mikkeli.fi INFO Done testing host ns1-fin.global.sonera.fi.
+147.746: mikkeli.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over UDP.
+148.638: mikkeli.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over TCP.
+148.867: mikkeli.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) is not recursive.
+150.158: mikkeli.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) authoritative for mikkeli.fi.
+150.525: mikkeli.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) closed for zone transfer of mikkeli.fi.
+150.947: mikkeli.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): hostname.bind = mgda1
+151.131: mikkeli.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): version.bind = TeliaSonera Finland DNS MGDA
+151.331: mikkeli.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): id.server = mgda2
+151.509: mikkeli.fi NOTICE No answer received from 193.210.18.31 when querying for version.server/CH/TXT.
+152.114: mikkeli.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) answers queries over UDP.
+152.437: mikkeli.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) answers queries over TCP.
+153.524: mikkeli.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) is not recursive.
+155.239: mikkeli.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) authoritative for mikkeli.fi.
+155.542: mikkeli.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) closed for zone transfer of mikkeli.fi.
+155.987: mikkeli.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): hostname.bind = mgda1
+156.387: mikkeli.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+156.717: mikkeli.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): id.server = mgda1
+156.945: mikkeli.fi NOTICE No answer received from 2001:2060:ffdd:a01:0:0:0:53 when querying for version.server/CH/TXT.
+156.945: mikkeli.fi INFO Done testing name server ns1-fin.global.sonera.fi.
+156.945: mikkeli.fi INFO Begin testing name server ns1-swe.global.sonera.se.
+156.945: mikkeli.fi INFO Begin testing host ns1-swe.global.sonera.se.
+156.946: mikkeli.fi INFO Begin testing address 80.64.9.124.
+162.699: mikkeli.fi INFO Done testing address 80.64.9.124.
+162.699: mikkeli.fi INFO Begin testing address 2001:6e8:400:ffff:1:0:0:53.
+164.451: mikkeli.fi INFO Done testing address 2001:6e8:400:ffff:1:0:0:53.
+164.566: mikkeli.fi INFO Done testing host ns1-swe.global.sonera.se.
+165.363: mikkeli.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over UDP.
+166.293: mikkeli.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over TCP.
+166.611: mikkeli.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) is not recursive.
+167.910: mikkeli.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) authoritative for mikkeli.fi.
+168.014: mikkeli.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) closed for zone transfer of mikkeli.fi.
+168.223: mikkeli.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): hostname.bind = mgda3
+168.402: mikkeli.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): version.bind = TeliaSonera Finland DNS MGDA
+168.503: mikkeli.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): id.server = mgda3
+168.650: mikkeli.fi NOTICE No answer received from 80.64.9.124 when querying for version.server/CH/TXT.
+169.140: mikkeli.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over UDP.
+169.536: mikkeli.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over TCP.
+169.959: mikkeli.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) is not recursive.
+171.815: mikkeli.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) authoritative for mikkeli.fi.
+172.110: mikkeli.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) closed for zone transfer of mikkeli.fi.
+172.383: mikkeli.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): hostname.bind = mgda3
+172.647: mikkeli.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+173.013: mikkeli.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): id.server = mgda3
+173.273: mikkeli.fi NOTICE No answer received from 2001:6e8:400:ffff:1:0:0:53 when querying for version.server/CH/TXT.
+173.274: mikkeli.fi INFO Done testing name server ns1-swe.global.sonera.se.
+173.274: mikkeli.fi INFO Begin testing name server ns2-fin.global.sonera.fi.
+173.390: mikkeli.fi INFO Begin testing host ns2-fin.global.sonera.fi.
+173.391: mikkeli.fi INFO Begin testing address 195.156.148.158.
+175.845: mikkeli.fi INFO Done testing address 195.156.148.158.
+175.845: mikkeli.fi INFO Begin testing address 2001:2060:ffdd:a02:0:0:0:53.
+178.510: mikkeli.fi INFO Done testing address 2001:2060:ffdd:a02:0:0:0:53.
+178.510: mikkeli.fi INFO Done testing host ns2-fin.global.sonera.fi.
+179.362: mikkeli.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over UDP.
+179.917: mikkeli.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over TCP.
+180.187: mikkeli.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) is not recursive.
+181.979: mikkeli.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) authoritative for mikkeli.fi.
+182.269: mikkeli.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) closed for zone transfer of mikkeli.fi.
+182.555: mikkeli.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): hostname.bind = mgda2
+182.819: mikkeli.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): version.bind = TeliaSonera Finland DNS MGDA
+183.087: mikkeli.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): id.server = mgda2
+183.390: mikkeli.fi NOTICE No answer received from 195.156.148.158 when querying for version.server/CH/TXT.
+184.143: mikkeli.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) answers queries over UDP.
+184.945: mikkeli.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) answers queries over TCP.
+185.241: mikkeli.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) is not recursive.
+192.432: mikkeli.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) authoritative for mikkeli.fi.
+192.874: mikkeli.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) closed for zone transfer of mikkeli.fi.
+193.155: mikkeli.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): hostname.bind = mgda2
+193.607: mikkeli.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+193.846: mikkeli.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): id.server = mgda1
+194.100: mikkeli.fi NOTICE No answer received from 2001:2060:ffdd:a02:0:0:0:53 when querying for version.server/CH/TXT.
+194.100: mikkeli.fi INFO Done testing name server ns2-fin.global.sonera.fi.
+194.101: mikkeli.fi INFO Begin testing name server ns2-usa.global.sonera.net.
+194.101: mikkeli.fi INFO Begin testing host ns2-usa.global.sonera.net.
+195.866: mikkeli.fi INFO Begin testing address 46.38.190.56.
+203.289: mikkeli.fi INFO Done testing address 46.38.190.56.
+203.289: mikkeli.fi INFO Done testing host ns2-usa.global.sonera.net.
+206.086: mikkeli.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over UDP.
+206.938: mikkeli.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over TCP.
+207.193: mikkeli.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) is not recursive.
+209.730: mikkeli.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) authoritative for mikkeli.fi.
+209.894: mikkeli.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) closed for zone transfer of mikkeli.fi.
+210.087: mikkeli.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): hostname.bind = mgda5
+210.476: mikkeli.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): version.bind = TeliaSonera Finland DNS MGDA
+210.827: mikkeli.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): id.server = mgda5
+211.050: mikkeli.fi NOTICE No answer received from 46.38.190.56 when querying for version.server/CH/TXT.
+211.051: mikkeli.fi INFO Done testing name server ns2-usa.global.sonera.net.
+211.051: mikkeli.fi INFO Begin testing zone consistency for mikkeli.fi.
+220.181: mikkeli.fi INFO SOA at address 2001:2060:ffdd:a01:0:0:0:53 has serial 199704420.
+220.414: mikkeli.fi INFO SOA at address 193.210.18.31 has serial 199704420.
+221.049: mikkeli.fi INFO SOA at address 80.64.9.124 has serial 199704420.
+221.814: mikkeli.fi INFO SOA at address 195.156.148.158 has serial 199704420.
+222.407: mikkeli.fi INFO SOA at address 2001:6e8:400:ffff:1:0:0:53 has serial 199704420.
+222.643: mikkeli.fi INFO SOA at address 194.111.49.3 has serial 199704420.
+222.937: mikkeli.fi INFO SOA at address 46.38.190.56 has serial 199704420.
+223.478: mikkeli.fi INFO SOA at address 2001:2060:ffdd:a02:0:0:0:53 has serial 199704420.
+223.789: mikkeli.fi INFO All SOA records have consistent serial numbers.
+223.789: mikkeli.fi INFO All other fields in the SOA record are consistent among all name servers.
+231.497: mikkeli.fi NOTICE The listed nameservers for mikkeli.fi all report the same set of nameservers.
+231.498: mikkeli.fi INFO Done testing zone consistency for mikkeli.fi.
+231.498: mikkeli.fi INFO Begin testing SOA parameters for mikkeli.fi.
+232.230: mikkeli.fi INFO Found SOA record for mikkeli.fi.
+232.231: mikkeli.fi INFO Begin testing host ns.mikkeli.fi.
+234.006: mikkeli.fi INFO Begin testing address 194.111.49.3.
+236.111: mikkeli.fi INFO Done testing address 194.111.49.3.
+236.111: mikkeli.fi INFO Done testing host ns.mikkeli.fi.
+236.111: mikkeli.fi INFO SOA MNAME for mikkeli.fi valid (ns.mikkeli.fi).
+236.111: mikkeli.fi INFO SOA MNAME for mikkeli.fi (ns.mikkeli.fi) listed as NS.
+239.279: mikkeli.fi INFO SOA MNAME for mikkeli.fi (ns.mikkeli.fi) is authoritative.
+239.280: mikkeli.fi INFO Begin testing email address postmaster@mikkeli.fi.
+241.918: mikkeli.fi INFO Mail exchangers for postmaster@mikkeli.fi found mikkeli-fi.mail.eo.outlook.com.
+241.918: mikkeli.fi INFO Begin testing host mikkeli-fi.mail.eo.outlook.com.
+258.027: mikkeli.fi INFO Begin testing address 213.199.154.190.
+269.291: mikkeli.fi INFO Done testing address 213.199.154.190.
+269.291: mikkeli.fi INFO Begin testing address 213.199.154.254.
+273.859: mikkeli.fi INFO Done testing address 213.199.154.254.
+273.859: mikkeli.fi INFO Done testing host mikkeli-fi.mail.eo.outlook.com.
+277.313: mikkeli.fi INFO Done testing email address postmaster@mikkeli.fi.
+277.313: mikkeli.fi INFO Successful attempt to deliver email for SOA RNAME of mikkeli.fi (postmaster.mikkeli.fi) using postmaster@mikkeli.fi.
+277.313: mikkeli.fi INFO SOA TTL for mikkeli.fi OK (86400) - recommended >= 3600.
+277.313: mikkeli.fi NOTICE SOA refresh for mikkeli.fi too small (120) - recommended >= 14400.
+277.313: mikkeli.fi NOTICE SOA refresh for mikkeli.fi lower than retry (120 vs 7200).
+277.313: mikkeli.fi INFO SOA retry for mikkeli.fi OK (7200) - recommended >= 3600.
+277.314: mikkeli.fi INFO SOA expire for mikkeli.fi OK (604800) - recommended >= 604800.
+277.314: mikkeli.fi INFO SOA minimum for mikkeli.fi OK (86400) - recommended between 300 and 86400.
+277.314: mikkeli.fi INFO Done testing SOA parameters for mikkeli.fi.
+277.314: mikkeli.fi INFO Begin testing connectivity for mikkeli.fi.
+289.988: mikkeli.fi INFO Zone announced by more than one ASN.
+297.117: mikkeli.fi INFO Zone announced by more than one IPv6 ASN.
+297.117: mikkeli.fi INFO Done testing connectivity for mikkeli.fi.
+297.117: mikkeli.fi INFO Begin testing DNSSEC for mikkeli.fi.
+297.852: mikkeli.fi INFO Did not find DS record for mikkeli.fi at parent.
+303.746: mikkeli.fi NOTICE DNS lookup error (connection failed).
+304.992: mikkeli.fi INFO Servers for mikkeli.fi have consistent extra processing status.
+305.391: mikkeli.fi INFO Authenticated denial records not found for mikkeli.fi.
+305.659: mikkeli.fi INFO Did not find DNSKEY record for mikkeli.fi at child.
+305.659: mikkeli.fi INFO No DNSKEY(s) found at child, other tests skipped.
+305.659: mikkeli.fi INFO Done testing DNSSEC for mikkeli.fi.
+305.660: mikkeli.fi INFO Test completed for zone mikkeli.fi.

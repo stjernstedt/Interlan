@@ -1,0 +1,175 @@
+  0.000: norsjo.se INFO Begin testing zone norsjo.se with version 1.0.1.
+  0.001: norsjo.se INFO Begin testing delegation for norsjo.se.
+  0.814: norsjo.se INFO Name servers listed at parent: dns.umea.se,ns.norsjo.se
+  0.986: norsjo.se INFO Name servers listed at child: dns.umea.se,ns.norsjo.se
+  0.987: norsjo.se NOTICE No IPv6 name servers found.
+  1.003: norsjo.se INFO Parent glue for norsjo.se found: dns.umea.se (194.165.224.165)
+  1.069: norsjo.se INFO Parent glue for norsjo.se found: ns.norsjo.se (80.88.98.139)
+  1.085: norsjo.se INFO Checking glue for dns.umea.se (194.165.224.165).
+  1.086: norsjo.se INFO Checking glue for ns.norsjo.se (80.88.98.139).
+  1.105: norsjo.se INFO Child glue for norsjo.se found: ns.norsjo.se (80.88.98.139)
+  1.105: norsjo.se INFO Done testing delegation for norsjo.se.
+  1.106: norsjo.se INFO Begin testing name server dns.umea.se.
+  1.106: norsjo.se INFO Begin testing host dns.umea.se.
+  1.107: norsjo.se INFO Begin testing address 194.165.224.165.
+  3.839: norsjo.se INFO Done testing address 194.165.224.165.
+  3.839: norsjo.se INFO Done testing host dns.umea.se.
+  3.867: norsjo.se INFO Name server dns.umea.se (194.165.224.165) is not recursive.
+  3.897: norsjo.se INFO Name server dns.umea.se (194.165.224.165) authoritative for norsjo.se.
+  3.930: norsjo.se INFO Name server dns.umea.se (194.165.224.165) answers queries over UDP.
+  3.980: norsjo.se INFO Name server dns.umea.se (194.165.224.165) answers queries over TCP.
+  4.044: norsjo.se INFO Name server dns.umea.se (194.165.224.165) closed for zone transfer of norsjo.se.
+  4.083: norsjo.se INFO Legacy name server ID for dns.umea.se (194.165.224.165): hostname.bind = dns2mgmt.norrnod.se
+ 10.142: norsjo.se NOTICE No answer received from 194.165.224.165 when querying for version.server/CH/TXT.
+ 10.143: norsjo.se INFO Done testing name server dns.umea.se.
+ 10.143: norsjo.se INFO Begin testing name server ns.norsjo.se.
+ 10.143: norsjo.se INFO Begin testing host ns.norsjo.se.
+ 10.144: norsjo.se INFO Begin testing address 80.88.98.139.
+ 22.575: norsjo.se WARNING Reverse for 80.88.98.139 points to an unknown host name (kommun-gw-dmz-norsjo.ac-net.net).
+ 22.575: norsjo.se INFO Done testing address 80.88.98.139.
+ 22.576: norsjo.se INFO Done testing host ns.norsjo.se.
+ 22.794: norsjo.se INFO Name server ns.norsjo.se (80.88.98.139) is not recursive.
+ 22.820: norsjo.se INFO Name server ns.norsjo.se (80.88.98.139) authoritative for norsjo.se.
+ 22.843: norsjo.se INFO Name server ns.norsjo.se (80.88.98.139) answers queries over UDP.
+ 22.877: norsjo.se INFO Name server ns.norsjo.se (80.88.98.139) answers queries over TCP.
+ 23.090: norsjo.se INFO Name server ns.norsjo.se (80.88.98.139) closed for zone transfer of norsjo.se.
+ 23.113: norsjo.se NOTICE No answer received from 80.88.98.139 when querying for hostname.bind/CH/TXT.
+ 41.128: norsjo.se INFO Done testing name server ns.norsjo.se.
+ 41.129: norsjo.se INFO Begin testing zone consistency for norsjo.se.
+ 41.156: norsjo.se INFO SOA at address 80.88.98.139 has serial 2008030536.
+ 41.184: norsjo.se INFO SOA at address 194.165.224.165 has serial 2008030536.
+ 41.184: norsjo.se INFO All SOA records have consistent serial numbers.
+ 41.184: norsjo.se INFO All SOA records are consistent among all name servers.
+ 41.184: norsjo.se INFO Done testing zone consistency for norsjo.se.
+ 41.185: norsjo.se INFO Begin testing SOA parameters for norsjo.se.
+ 41.205: norsjo.se INFO Found SOA record for norsjo.se.
+ 41.205: norsjo.se INFO Begin testing host ns.norsjo.se.
+ 41.206: norsjo.se INFO Begin testing address 80.88.98.139.
+ 41.209: norsjo.se WARNING Reverse for 80.88.98.139 points to an unknown host name (kommun-gw-dmz-norsjo.ac-net.net).
+ 41.209: norsjo.se INFO Done testing address 80.88.98.139.
+ 41.209: norsjo.se INFO Done testing host ns.norsjo.se.
+ 41.209: norsjo.se INFO SOA MNAME for norsjo.se valid (ns.norsjo.se).
+ 41.210: norsjo.se INFO SOA MNAME for norsjo.se (ns.norsjo.se) listed as NS.
+ 41.230: norsjo.se INFO SOA MNAME for norsjo.se (ns.norsjo.se) is authoritative.
+ 41.231: norsjo.se INFO Begin testing email address hostmaster@norsjo.se.
+ 41.262: norsjo.se INFO Mail exchangers for hostmaster@norsjo.se found mx02.mep.pandasecurity.com,mx01.mep.pandasecurity.com.
+ 41.262: norsjo.se INFO Begin testing host mx02.mep.pandasecurity.com.
+ 42.031: norsjo.se INFO Begin testing address 188.94.13.138.
+ 42.587: norsjo.se INFO Done testing address 188.94.13.138.
+ 42.588: norsjo.se INFO Begin testing address 87.236.241.207.
+ 43.911: norsjo.se INFO Done testing address 87.236.241.207.
+ 43.912: norsjo.se INFO Begin testing address 87.236.241.208.
+ 44.133: norsjo.se INFO Done testing address 87.236.241.208.
+ 44.134: norsjo.se INFO Begin testing address 87.236.241.209.
+ 44.359: norsjo.se INFO Done testing address 87.236.241.209.
+ 44.360: norsjo.se INFO Begin testing address 87.236.241.210.
+ 44.591: norsjo.se INFO Done testing address 87.236.241.210.
+ 44.591: norsjo.se INFO Begin testing address 188.94.13.130.
+ 44.812: norsjo.se INFO Done testing address 188.94.13.130.
+ 44.812: norsjo.se INFO Begin testing address 188.94.13.131.
+ 45.038: norsjo.se INFO Done testing address 188.94.13.131.
+ 45.038: norsjo.se INFO Begin testing address 188.94.13.136.
+ 45.260: norsjo.se INFO Done testing address 188.94.13.136.
+ 45.260: norsjo.se INFO Done testing host mx02.mep.pandasecurity.com.
+ 45.261: norsjo.se INFO Begin testing mail server mx02.mep.pandasecurity.com (188.94.13.138) with hostmaster@norsjo.se.
+ 46.297: norsjo.se INFO SMTP banner: Wellcome to ESMTP Panda Cloud Email Protection
+ 46.448: norsjo.se WARNING Host did not accept hostmaster@norsjo.se as SMTP recipient.
+ 46.578: norsjo.se INFO Done testing mail server mx02.mep.pandasecurity.com (188.94.13.138) with hostmaster@norsjo.se.
+ 46.579: norsjo.se INFO Begin testing mail server mx02.mep.pandasecurity.com (87.236.241.207) with hostmaster@norsjo.se.
+ 49.319: norsjo.se INFO SMTP banner: Wellcome to ESMTP Panda Cloud Email Protection
+ 49.487: norsjo.se WARNING Host did not accept hostmaster@norsjo.se as SMTP recipient.
+ 49.624: norsjo.se INFO Done testing mail server mx02.mep.pandasecurity.com (87.236.241.207) with hostmaster@norsjo.se.
+ 49.625: norsjo.se INFO Begin testing mail server mx02.mep.pandasecurity.com (87.236.241.208) with hostmaster@norsjo.se.
+ 50.116: norsjo.se INFO SMTP banner: Wellcome to ESMTP Panda Cloud Email Protection
+ 50.274: norsjo.se WARNING Host did not accept hostmaster@norsjo.se as SMTP recipient.
+ 50.405: norsjo.se INFO Done testing mail server mx02.mep.pandasecurity.com (87.236.241.208) with hostmaster@norsjo.se.
+ 50.405: norsjo.se INFO Begin testing mail server mx02.mep.pandasecurity.com (87.236.241.209) with hostmaster@norsjo.se.
+ 50.780: norsjo.se INFO SMTP banner: Wellcome to ESMTP Panda Cloud Email Protection
+ 50.936: norsjo.se WARNING Host did not accept hostmaster@norsjo.se as SMTP recipient.
+ 51.061: norsjo.se INFO Done testing mail server mx02.mep.pandasecurity.com (87.236.241.209) with hostmaster@norsjo.se.
+ 51.063: norsjo.se INFO Begin testing mail server mx02.mep.pandasecurity.com (87.236.241.210) with hostmaster@norsjo.se.
+ 51.517: norsjo.se INFO SMTP banner: Wellcome to ESMTP Panda Cloud Email Protection
+ 51.671: norsjo.se WARNING Host did not accept hostmaster@norsjo.se as SMTP recipient.
+ 51.797: norsjo.se INFO Done testing mail server mx02.mep.pandasecurity.com (87.236.241.210) with hostmaster@norsjo.se.
+ 51.798: norsjo.se INFO Begin testing mail server mx02.mep.pandasecurity.com (188.94.13.130) with hostmaster@norsjo.se.
+ 52.378: norsjo.se INFO SMTP banner: Wellcome to ESMTP Panda Cloud Email Protection
+ 52.531: norsjo.se WARNING Host did not accept hostmaster@norsjo.se as SMTP recipient.
+ 52.664: norsjo.se INFO Done testing mail server mx02.mep.pandasecurity.com (188.94.13.130) with hostmaster@norsjo.se.
+ 52.664: norsjo.se INFO Begin testing mail server mx02.mep.pandasecurity.com (188.94.13.131) with hostmaster@norsjo.se.
+ 53.191: norsjo.se INFO SMTP banner: Wellcome to ESMTP Panda Cloud Email Protection
+ 53.349: norsjo.se WARNING Host did not accept hostmaster@norsjo.se as SMTP recipient.
+ 53.479: norsjo.se INFO Done testing mail server mx02.mep.pandasecurity.com (188.94.13.131) with hostmaster@norsjo.se.
+ 53.481: norsjo.se INFO Begin testing mail server mx02.mep.pandasecurity.com (188.94.13.136) with hostmaster@norsjo.se.
+ 53.996: norsjo.se INFO SMTP banner: Wellcome to ESMTP Panda Cloud Email Protection
+ 54.147: norsjo.se WARNING Host did not accept hostmaster@norsjo.se as SMTP recipient.
+ 54.275: norsjo.se INFO Done testing mail server mx02.mep.pandasecurity.com (188.94.13.136) with hostmaster@norsjo.se.
+ 54.275: norsjo.se INFO Begin testing host mx01.mep.pandasecurity.com.
+ 54.427: norsjo.se INFO Begin testing address 188.94.13.132.
+ 54.649: norsjo.se INFO Done testing address 188.94.13.132.
+ 54.649: norsjo.se INFO Begin testing address 188.94.13.133.
+ 54.875: norsjo.se INFO Done testing address 188.94.13.133.
+ 54.875: norsjo.se INFO Begin testing address 188.94.13.134.
+ 55.096: norsjo.se INFO Done testing address 188.94.13.134.
+ 55.097: norsjo.se INFO Begin testing address 188.94.13.135.
+ 55.318: norsjo.se INFO Done testing address 188.94.13.135.
+ 55.318: norsjo.se INFO Begin testing address 87.236.241.204.
+ 55.545: norsjo.se INFO Done testing address 87.236.241.204.
+ 55.546: norsjo.se INFO Begin testing address 87.236.241.205.
+ 55.768: norsjo.se INFO Done testing address 87.236.241.205.
+ 55.769: norsjo.se INFO Begin testing address 87.236.241.206.
+ 55.992: norsjo.se INFO Done testing address 87.236.241.206.
+ 55.992: norsjo.se INFO Done testing host mx01.mep.pandasecurity.com.
+ 55.993: norsjo.se INFO Begin testing mail server mx01.mep.pandasecurity.com (188.94.13.132) with hostmaster@norsjo.se.
+ 56.506: norsjo.se INFO SMTP banner: Wellcome to ESMTP Panda Cloud Email Protection
+ 56.661: norsjo.se WARNING Host did not accept hostmaster@norsjo.se as SMTP recipient.
+ 56.785: norsjo.se INFO Done testing mail server mx01.mep.pandasecurity.com (188.94.13.132) with hostmaster@norsjo.se.
+ 56.785: norsjo.se INFO Begin testing mail server mx01.mep.pandasecurity.com (188.94.13.133) with hostmaster@norsjo.se.
+ 57.243: norsjo.se INFO SMTP banner: Wellcome to ESMTP Panda Cloud Email Protection
+ 57.392: norsjo.se WARNING Host did not accept hostmaster@norsjo.se as SMTP recipient.
+ 57.515: norsjo.se INFO Done testing mail server mx01.mep.pandasecurity.com (188.94.13.133) with hostmaster@norsjo.se.
+ 57.516: norsjo.se INFO Begin testing mail server mx01.mep.pandasecurity.com (188.94.13.134) with hostmaster@norsjo.se.
+ 58.053: norsjo.se INFO SMTP banner: Wellcome to ESMTP Panda Cloud Email Protection
+ 58.205: norsjo.se WARNING Host did not accept hostmaster@norsjo.se as SMTP recipient.
+ 58.336: norsjo.se INFO Done testing mail server mx01.mep.pandasecurity.com (188.94.13.134) with hostmaster@norsjo.se.
+ 58.337: norsjo.se INFO Begin testing mail server mx01.mep.pandasecurity.com (188.94.13.135) with hostmaster@norsjo.se.
+ 58.902: norsjo.se INFO SMTP banner: Wellcome to ESMTP Panda Cloud Email Protection
+ 59.057: norsjo.se WARNING Host did not accept hostmaster@norsjo.se as SMTP recipient.
+ 59.183: norsjo.se INFO Done testing mail server mx01.mep.pandasecurity.com (188.94.13.135) with hostmaster@norsjo.se.
+ 59.184: norsjo.se INFO Begin testing mail server mx01.mep.pandasecurity.com (87.236.241.204) with hostmaster@norsjo.se.
+ 61.580: norsjo.se INFO SMTP banner: Wellcome to ESMTP Panda Cloud Email Protection
+ 61.736: norsjo.se WARNING Host did not accept hostmaster@norsjo.se as SMTP recipient.
+ 61.886: norsjo.se INFO Done testing mail server mx01.mep.pandasecurity.com (87.236.241.204) with hostmaster@norsjo.se.
+ 61.886: norsjo.se INFO Begin testing mail server mx01.mep.pandasecurity.com (87.236.241.205) with hostmaster@norsjo.se.
+ 62.404: norsjo.se INFO SMTP banner: Wellcome to ESMTP Panda Cloud Email Protection
+ 62.579: norsjo.se WARNING Host did not accept hostmaster@norsjo.se as SMTP recipient.
+ 62.740: norsjo.se INFO Done testing mail server mx01.mep.pandasecurity.com (87.236.241.205) with hostmaster@norsjo.se.
+ 62.740: norsjo.se INFO Begin testing mail server mx01.mep.pandasecurity.com (87.236.241.206) with hostmaster@norsjo.se.
+ 63.275: norsjo.se INFO SMTP banner: Wellcome to ESMTP Panda Cloud Email Protection
+ 63.457: norsjo.se WARNING Host did not accept hostmaster@norsjo.se as SMTP recipient.
+ 63.624: norsjo.se INFO Done testing mail server mx01.mep.pandasecurity.com (87.236.241.206) with hostmaster@norsjo.se.
+ 63.625: norsjo.se WARNING Delivery over IPv4 to hostmaster@norsjo.se could not be done.
+ 63.625: norsjo.se INFO Delivery over IPv6 to hostmaster@norsjo.se could not be done.
+ 63.625: norsjo.se INFO Done testing email address hostmaster@norsjo.se.
+ 63.625: norsjo.se WARNING Failed to deliver email for SOA RNAME of norsjo.se (hostmaster.norsjo.se) using hostmaster@norsjo.se.
+ 63.627: norsjo.se INFO SOA TTL for norsjo.se OK (86400) - recommended >= 3600.
+ 63.628: norsjo.se NOTICE SOA refresh for norsjo.se too small (3600) - recommended >= 14400.
+ 63.628: norsjo.se NOTICE SOA refresh for norsjo.se lower than retry (3600 vs 3600).
+ 63.628: norsjo.se INFO SOA retry for norsjo.se OK (3600) - recommended >= 3600.
+ 63.628: norsjo.se INFO SOA expire for norsjo.se OK (604800) - recommended >= 604800.
+ 63.628: norsjo.se INFO SOA minimum for norsjo.se OK (86400) - recommended between 300 and 86400.
+ 63.629: norsjo.se INFO Done testing SOA parameters for norsjo.se.
+ 63.629: norsjo.se INFO Begin testing connectivity for norsjo.se.
+ 63.870: norsjo.se INFO Name server 80.88.98.139 announced by: 25176
+ 64.027: norsjo.se INFO Name server 194.165.224.165 announced by: 12501
+ 64.027: norsjo.se INFO Zone announced by ASN: 12501,25176
+ 64.028: norsjo.se INFO Zone announced by more than one ASN (2).
+ 64.028: norsjo.se INFO Zone announced by IPv6 ASN: 
+ 64.028: norsjo.se NOTICE Zone announced by only one IPv6 ASN (0).
+ 64.029: norsjo.se INFO Done testing connectivity for norsjo.se.
+ 64.029: norsjo.se INFO Begin testing DNSSEC for norsjo.se.
+ 64.076: norsjo.se INFO Did not find DS record for norsjo.se at parent.
+ 64.155: norsjo.se INFO Servers for norsjo.se have consistent extra processing status.
+ 64.156: norsjo.se INFO Did not find DNSKEY record for norsjo.se at child.
+ 64.156: norsjo.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 64.156: norsjo.se INFO Done testing DNSSEC for norsjo.se.
+ 64.156: norsjo.se INFO Test completed for zone norsjo.se.

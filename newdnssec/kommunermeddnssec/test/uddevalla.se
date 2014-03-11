@@ -1,0 +1,84 @@
+  0.000: uddevalla.se INFO Begin testing zone uddevalla.se with version 1.6.1.
+  0.642: uddevalla.se INFO Begin testing delegation for uddevalla.se.
+ 13.687: uddevalla.se INFO Name servers listed at parent: dumle.ostrabo.uddevalla.se,idefix.uddevalla.se
+ 16.472: uddevalla.se INFO Name servers listed at child: dumle.ostrabo.uddevalla.se,idefix.uddevalla.se
+ 16.472: uddevalla.se NOTICE No IPv6 name servers found.
+ 16.739: uddevalla.se INFO Parent glue for uddevalla.se found: idefix.uddevalla.se (195.198.127.20)
+ 16.812: uddevalla.se INFO Checking glue for idefix.uddevalla.se (195.198.127.20).
+ 16.884: uddevalla.se INFO Child glue for uddevalla.se found: idefix.uddevalla.se (195.198.127.20)
+ 16.885: uddevalla.se INFO Parent glue for uddevalla.se found: idefix.uddevalla.se (195.198.127.20)
+ 16.885: uddevalla.se ERROR Nameserver dumle.ostrabo.uddevalla.se is listed for zone uddevalla.se without address information.
+ 18.325: uddevalla.se INFO It is possible to build a referral packet for uddevalla.se that works without EDNS0.
+ 19.244: uddevalla.se INFO Previously used name servers for uddevalla.se: 
+ 19.244: uddevalla.se INFO Done testing delegation for uddevalla.se.
+ 19.245: uddevalla.se INFO Begin testing name server dumle.ostrabo.uddevalla.se.
+ 19.245: uddevalla.se INFO Begin testing host dumle.ostrabo.uddevalla.se.
+ 19.819: uddevalla.se INFO Begin testing address 193.45.139.20.
+ 32.638: uddevalla.se WARNING Could not find reverse address for 193.45.139.20 (20.139.45.193.in-addr.arpa.).
+ 32.638: uddevalla.se INFO Done testing address 193.45.139.20.
+ 32.638: uddevalla.se INFO Done testing host dumle.ostrabo.uddevalla.se.
+ 33.229: uddevalla.se INFO Name server dumle.ostrabo.uddevalla.se (193.45.139.20) answers queries over UDP.
+ 33.361: uddevalla.se INFO Name server dumle.ostrabo.uddevalla.se (193.45.139.20) answers queries over TCP.
+ 33.465: uddevalla.se WARNING Name server dumle.ostrabo.uddevalla.se (193.45.139.20) is recursive.
+ 33.706: uddevalla.se INFO Name server dumle.ostrabo.uddevalla.se (193.45.139.20) authoritative for uddevalla.se.
+ 33.922: uddevalla.se NOTICE Name server dumle.ostrabo.uddevalla.se (193.45.139.20) open for zone transfer of uddevalla.se.
+ 34.055: uddevalla.se INFO Legacy name server ID for dumle.ostrabo.uddevalla.se (193.45.139.20): hostname.bind = dumle
+ 34.128: uddevalla.se INFO Legacy name server ID for dumle.ostrabo.uddevalla.se (193.45.139.20): version.bind = 9.5.0-P2
+ 34.367: uddevalla.se NOTICE No answer received from 193.45.139.20 when querying for version.server/CH/TXT.
+ 34.368: uddevalla.se INFO Done testing name server dumle.ostrabo.uddevalla.se.
+ 34.368: uddevalla.se INFO Begin testing name server idefix.uddevalla.se.
+ 34.368: uddevalla.se INFO Begin testing host idefix.uddevalla.se.
+ 34.972: uddevalla.se INFO Begin testing address 195.198.127.20.
+ 37.736: uddevalla.se INFO Done testing address 195.198.127.20.
+ 37.736: uddevalla.se INFO Done testing host idefix.uddevalla.se.
+ 38.011: uddevalla.se INFO Name server idefix.uddevalla.se (195.198.127.20) answers queries over UDP.
+ 38.139: uddevalla.se INFO Name server idefix.uddevalla.se (195.198.127.20) answers queries over TCP.
+ 38.198: uddevalla.se WARNING Name server idefix.uddevalla.se (195.198.127.20) is recursive.
+ 38.356: uddevalla.se INFO Name server idefix.uddevalla.se (195.198.127.20) authoritative for uddevalla.se.
+ 39.117: uddevalla.se NOTICE Name server idefix.uddevalla.se (195.198.127.20) open for zone transfer of uddevalla.se.
+ 39.153: uddevalla.se INFO Legacy name server ID for idefix.uddevalla.se (195.198.127.20): hostname.bind = idefix
+ 39.175: uddevalla.se INFO Legacy name server ID for idefix.uddevalla.se (195.198.127.20): version.bind = 9.5.0-P2
+ 39.223: uddevalla.se NOTICE No answer received from 195.198.127.20 when querying for version.server/CH/TXT.
+ 39.223: uddevalla.se INFO Done testing name server idefix.uddevalla.se.
+ 39.223: uddevalla.se INFO Begin testing zone consistency for uddevalla.se.
+ 40.150: uddevalla.se INFO SOA at address 193.45.139.20 has serial 2014030500.
+ 40.190: uddevalla.se INFO SOA at address 195.198.127.20 has serial 2014030500.
+ 40.190: uddevalla.se INFO All SOA records have consistent serial numbers.
+ 40.190: uddevalla.se INFO All other fields in the SOA record are consistent among all name servers.
+ 40.792: uddevalla.se NOTICE The listed nameservers for uddevalla.se all report the same set of nameservers.
+ 40.792: uddevalla.se INFO Done testing zone consistency for uddevalla.se.
+ 40.792: uddevalla.se INFO Begin testing SOA parameters for uddevalla.se.
+ 40.836: uddevalla.se INFO Found SOA record for uddevalla.se.
+ 40.836: uddevalla.se INFO Begin testing host idefix.uddevalla.se.
+ 41.035: uddevalla.se INFO Begin testing address 195.198.127.20.
+ 41.418: uddevalla.se INFO Done testing address 195.198.127.20.
+ 41.418: uddevalla.se INFO Done testing host idefix.uddevalla.se.
+ 41.418: uddevalla.se INFO SOA MNAME for uddevalla.se valid (idefix.uddevalla.se).
+ 41.419: uddevalla.se INFO SOA MNAME for uddevalla.se (idefix.uddevalla.se) listed as NS.
+ 41.591: uddevalla.se INFO SOA MNAME for uddevalla.se (idefix.uddevalla.se) is authoritative.
+ 41.594: uddevalla.se INFO Begin testing email address hostmaster@uddevalla.se.
+ 41.776: uddevalla.se INFO Mail exchangers for hostmaster@uddevalla.se found uddevalla-se.mail.protection.outlook.com.
+ 41.776: uddevalla.se INFO Begin testing host uddevalla-se.mail.protection.outlook.com.
+ 44.949: uddevalla.se INFO Begin testing address 213.199.154.23.
+ 48.088: uddevalla.se INFO Done testing address 213.199.154.23.
+ 48.094: uddevalla.se INFO Done testing host uddevalla-se.mail.protection.outlook.com.
+ 49.657: uddevalla.se INFO Done testing email address hostmaster@uddevalla.se.
+ 49.657: uddevalla.se INFO Successful attempt to deliver email for SOA RNAME of uddevalla.se (hostmaster.uddevalla.se) using hostmaster@uddevalla.se.
+ 49.657: uddevalla.se INFO SOA TTL for uddevalla.se OK (38400) - recommended >= 3600.
+ 49.657: uddevalla.se NOTICE SOA refresh for uddevalla.se too small (10800) - recommended >= 14400.
+ 49.657: uddevalla.se INFO SOA retry for uddevalla.se OK (3600) - recommended >= 3600.
+ 49.657: uddevalla.se INFO SOA expire for uddevalla.se OK (604800) - recommended >= 604800.
+ 49.657: uddevalla.se INFO SOA minimum for uddevalla.se OK (38400) - recommended between 300 and 86400.
+ 49.657: uddevalla.se INFO Done testing SOA parameters for uddevalla.se.
+ 49.743: uddevalla.se INFO Begin testing connectivity for uddevalla.se.
+ 50.973: uddevalla.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 50.973: uddevalla.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 50.973: uddevalla.se INFO Done testing connectivity for uddevalla.se.
+ 50.974: uddevalla.se INFO Begin testing DNSSEC for uddevalla.se.
+ 51.180: uddevalla.se INFO Did not find DS record for uddevalla.se at parent.
+ 51.273: uddevalla.se INFO Servers for uddevalla.se have consistent extra processing status.
+ 51.316: uddevalla.se INFO Authenticated denial records not found for uddevalla.se.
+ 51.345: uddevalla.se INFO Did not find DNSKEY record for uddevalla.se at child.
+ 51.345: uddevalla.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 51.345: uddevalla.se INFO Done testing DNSSEC for uddevalla.se.
+ 51.371: uddevalla.se INFO Test completed for zone uddevalla.se.

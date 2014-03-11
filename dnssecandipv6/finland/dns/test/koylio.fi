@@ -1,0 +1,88 @@
+  0.000: koylio.fi INFO Begin testing zone koylio.fi with version 1.6.1.
+  0.415: koylio.fi INFO Begin testing delegation for koylio.fi.
+  8.377: koylio.fi INFO Name servers listed at parent: ns1.taajama.fi,ns4.taajama.fi
+ 10.032: koylio.fi INFO Name servers listed at child: ns1.taajama.fi,ns4.taajama.fi
+ 10.033: koylio.fi NOTICE No IPv6 name servers found.
+ 10.077: koylio.fi INFO Parent glue for koylio.fi found: ns1.taajama.fi (83.102.40.26)
+ 10.235: koylio.fi INFO Parent glue for koylio.fi found: ns4.taajama.fi (83.102.40.27)
+ 10.308: koylio.fi INFO Checking glue for ns1.taajama.fi (83.102.40.26).
+ 10.308: koylio.fi INFO Checking glue for ns4.taajama.fi (83.102.40.27).
+ 10.308: koylio.fi INFO Parent glue for koylio.fi found: ns1.taajama.fi (83.102.40.26)
+ 10.309: koylio.fi INFO Parent glue for koylio.fi found: ns4.taajama.fi (83.102.40.27)
+ 11.141: koylio.fi INFO It is possible to build a referral packet for koylio.fi that works without EDNS0.
+ 11.765: koylio.fi INFO Previously used name servers for koylio.fi: 
+ 11.765: koylio.fi INFO Done testing delegation for koylio.fi.
+ 11.766: koylio.fi INFO Begin testing name server ns1.taajama.fi.
+ 11.766: koylio.fi INFO Begin testing host ns1.taajama.fi.
+ 12.094: koylio.fi INFO Begin testing address 83.102.40.26.
+ 22.951: koylio.fi INFO Done testing address 83.102.40.26.
+ 22.951: koylio.fi INFO Done testing host ns1.taajama.fi.
+ 23.189: koylio.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over UDP.
+ 23.217: koylio.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over TCP.
+ 23.232: koylio.fi INFO Name server ns1.taajama.fi (83.102.40.26) is not recursive.
+ 23.309: koylio.fi INFO Name server ns1.taajama.fi (83.102.40.26) authoritative for koylio.fi.
+ 23.347: koylio.fi INFO Name server ns1.taajama.fi (83.102.40.26) closed for zone transfer of koylio.fi.
+ 23.405: koylio.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): hostname.bind = kotkarausku
+ 23.432: koylio.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): version.bind = Not disclosed
+ 23.485: koylio.fi NOTICE No answer received from 83.102.40.26 when querying for version.server/CH/TXT.
+ 23.485: koylio.fi INFO Done testing name server ns1.taajama.fi.
+ 23.486: koylio.fi INFO Begin testing name server ns4.taajama.fi.
+ 23.486: koylio.fi INFO Begin testing host ns4.taajama.fi.
+ 23.612: koylio.fi INFO Begin testing address 83.102.40.27.
+ 24.172: koylio.fi INFO Done testing address 83.102.40.27.
+ 24.172: koylio.fi INFO Done testing host ns4.taajama.fi.
+ 24.347: koylio.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over UDP.
+ 24.390: koylio.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over TCP.
+ 24.414: koylio.fi INFO Name server ns4.taajama.fi (83.102.40.27) is not recursive.
+ 24.498: koylio.fi INFO Name server ns4.taajama.fi (83.102.40.27) authoritative for koylio.fi.
+ 24.553: koylio.fi INFO Name server ns4.taajama.fi (83.102.40.27) closed for zone transfer of koylio.fi.
+ 24.572: koylio.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): hostname.bind = perhosrausku
+ 24.599: koylio.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): version.bind = Not disclosed
+ 24.659: koylio.fi NOTICE No answer received from 83.102.40.27 when querying for version.server/CH/TXT.
+ 24.659: koylio.fi INFO Done testing name server ns4.taajama.fi.
+ 24.663: koylio.fi INFO Begin testing zone consistency for koylio.fi.
+ 25.493: koylio.fi INFO SOA at address 83.102.40.26 has serial 2014011001.
+ 25.508: koylio.fi INFO SOA at address 83.102.40.27 has serial 2014011001.
+ 25.527: koylio.fi INFO All SOA records have consistent serial numbers.
+ 25.528: koylio.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 25.967: koylio.fi NOTICE The listed nameservers for koylio.fi all report the same set of nameservers.
+ 25.967: koylio.fi INFO Done testing zone consistency for koylio.fi.
+ 25.967: koylio.fi INFO Begin testing SOA parameters for koylio.fi.
+ 25.990: koylio.fi INFO Found SOA record for koylio.fi.
+ 26.003: koylio.fi INFO Begin testing host ns1.taajama.fi.
+ 26.214: koylio.fi INFO Begin testing address 83.102.40.26.
+ 26.379: koylio.fi INFO Done testing address 83.102.40.26.
+ 26.379: koylio.fi INFO Done testing host ns1.taajama.fi.
+ 26.379: koylio.fi INFO SOA MNAME for koylio.fi valid (ns1.taajama.fi).
+ 26.379: koylio.fi INFO SOA MNAME for koylio.fi (ns1.taajama.fi) listed as NS.
+ 26.676: koylio.fi INFO SOA MNAME for koylio.fi (ns1.taajama.fi) is authoritative.
+ 26.677: koylio.fi INFO Begin testing email address hostmaster@taajama.com.
+ 27.041: koylio.fi INFO Mail exchangers for hostmaster@taajama.com found spp.taajama.fi,mx2.taajama.com.
+ 27.042: koylio.fi INFO Begin testing host spp.taajama.fi.
+ 27.548: koylio.fi INFO Begin testing address 217.78.212.151.
+ 28.350: koylio.fi INFO Done testing address 217.78.212.151.
+ 28.350: koylio.fi INFO Done testing host spp.taajama.fi.
+ 28.616: koylio.fi INFO Begin testing host mx2.taajama.com.
+ 29.160: koylio.fi INFO Begin testing address 83.102.41.75.
+ 29.732: koylio.fi INFO Done testing address 83.102.41.75.
+ 29.732: koylio.fi INFO Done testing host mx2.taajama.com.
+ 29.974: koylio.fi INFO Done testing email address hostmaster@taajama.com.
+ 29.974: koylio.fi INFO Successful attempt to deliver email for SOA RNAME of koylio.fi (hostmaster.taajama.com) using hostmaster@taajama.com.
+ 29.974: koylio.fi INFO SOA TTL for koylio.fi OK (28800) - recommended >= 3600.
+ 29.974: koylio.fi INFO SOA refresh for koylio.fi OK (28800) - recommended >= 14400.
+ 29.974: koylio.fi INFO SOA retry for koylio.fi OK (7200) - recommended >= 3600.
+ 29.987: koylio.fi INFO SOA expire for koylio.fi OK (1814400) - recommended >= 604800.
+ 29.987: koylio.fi INFO SOA minimum for koylio.fi OK (86400) - recommended between 300 and 86400.
+ 29.987: koylio.fi INFO Done testing SOA parameters for koylio.fi.
+ 29.987: koylio.fi INFO Begin testing connectivity for koylio.fi.
+ 31.244: koylio.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 31.244: koylio.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 31.250: koylio.fi INFO Done testing connectivity for koylio.fi.
+ 31.250: koylio.fi INFO Begin testing DNSSEC for koylio.fi.
+ 31.309: koylio.fi INFO Did not find DS record for koylio.fi at parent.
+ 31.431: koylio.fi INFO Servers for koylio.fi have consistent extra processing status.
+ 31.457: koylio.fi INFO Authenticated denial records not found for koylio.fi.
+ 31.495: koylio.fi INFO Did not find DNSKEY record for koylio.fi at child.
+ 31.495: koylio.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 31.496: koylio.fi INFO Done testing DNSSEC for koylio.fi.
+ 31.496: koylio.fi INFO Test completed for zone koylio.fi.

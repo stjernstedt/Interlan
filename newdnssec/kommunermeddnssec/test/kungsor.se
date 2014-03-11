@@ -1,0 +1,84 @@
+  0.000: kungsor.se INFO Begin testing zone kungsor.se with version 1.6.1.
+  4.960: kungsor.se INFO Begin testing delegation for kungsor.se.
+ 24.774: kungsor.se INFO Name servers listed at parent: alex.koping.se,ns1.koping.se
+ 33.043: kungsor.se INFO Name servers listed at child: alex.koping.se,ns1.koping.se
+ 33.043: kungsor.se NOTICE No IPv6 name servers found.
+ 33.076: kungsor.se INFO Parent glue for kungsor.se found: alex.koping.se (81.16.160.66)
+ 33.179: kungsor.se INFO Parent glue for kungsor.se found: ns1.koping.se (81.16.160.85)
+ 33.227: kungsor.se INFO Checking glue for alex.koping.se (81.16.160.66).
+ 33.228: kungsor.se INFO Checking glue for ns1.koping.se (81.16.160.85).
+ 33.228: kungsor.se INFO Parent glue for kungsor.se found: alex.koping.se (81.16.160.66)
+ 33.228: kungsor.se INFO Parent glue for kungsor.se found: ns1.koping.se (81.16.160.85)
+ 34.329: kungsor.se INFO It is possible to build a referral packet for kungsor.se that works without EDNS0.
+ 35.817: kungsor.se INFO Previously used name servers for kungsor.se: 
+ 35.818: kungsor.se INFO Done testing delegation for kungsor.se.
+ 35.831: kungsor.se INFO Begin testing name server alex.koping.se.
+ 35.831: kungsor.se INFO Begin testing host alex.koping.se.
+ 36.387: kungsor.se INFO Begin testing address 81.16.160.66.
+ 60.503: kungsor.se INFO Done testing address 81.16.160.66.
+ 60.503: kungsor.se INFO Done testing host alex.koping.se.
+ 61.167: kungsor.se INFO Name server alex.koping.se (81.16.160.66) answers queries over UDP.
+ 61.268: kungsor.se INFO Name server alex.koping.se (81.16.160.66) answers queries over TCP.
+ 61.322: kungsor.se INFO Name server alex.koping.se (81.16.160.66) is not recursive.
+ 61.507: kungsor.se INFO Name server alex.koping.se (81.16.160.66) authoritative for kungsor.se.
+ 61.568: kungsor.se INFO Name server alex.koping.se (81.16.160.66) closed for zone transfer of kungsor.se.
+ 62.038: kungsor.se NOTICE No answer received from 81.16.160.66 when querying for version.server/CH/TXT.
+ 62.038: kungsor.se INFO Done testing name server alex.koping.se.
+ 62.038: kungsor.se INFO Begin testing name server ns1.koping.se.
+ 62.038: kungsor.se INFO Begin testing host ns1.koping.se.
+ 62.449: kungsor.se INFO Begin testing address 81.16.160.85.
+ 64.354: kungsor.se INFO Done testing address 81.16.160.85.
+ 64.355: kungsor.se INFO Done testing host ns1.koping.se.
+ 64.623: kungsor.se INFO Name server ns1.koping.se (81.16.160.85) answers queries over UDP.
+ 64.701: kungsor.se INFO Name server ns1.koping.se (81.16.160.85) answers queries over TCP.
+ 64.755: kungsor.se INFO Name server ns1.koping.se (81.16.160.85) is not recursive.
+ 64.849: kungsor.se INFO Name server ns1.koping.se (81.16.160.85) authoritative for kungsor.se.
+ 64.895: kungsor.se INFO Name server ns1.koping.se (81.16.160.85) closed for zone transfer of kungsor.se.
+ 65.049: kungsor.se NOTICE No answer received from 81.16.160.85 when querying for version.server/CH/TXT.
+ 65.049: kungsor.se INFO Done testing name server ns1.koping.se.
+ 65.049: kungsor.se INFO Begin testing zone consistency for kungsor.se.
+ 66.463: kungsor.se INFO SOA at address 81.16.160.85 has serial 2011032533.
+ 66.511: kungsor.se INFO SOA at address 81.16.160.66 has serial 2011032533.
+ 66.511: kungsor.se INFO All SOA records have consistent serial numbers.
+ 66.511: kungsor.se INFO All other fields in the SOA record are consistent among all name servers.
+ 67.164: kungsor.se NOTICE The listed nameservers for kungsor.se all report the same set of nameservers.
+ 67.164: kungsor.se INFO Done testing zone consistency for kungsor.se.
+ 67.164: kungsor.se INFO Begin testing SOA parameters for kungsor.se.
+ 67.195: kungsor.se INFO Found SOA record for kungsor.se.
+ 67.195: kungsor.se INFO Begin testing host alex.koping.se.
+ 67.527: kungsor.se INFO Begin testing address 81.16.160.66.
+ 67.954: kungsor.se INFO Done testing address 81.16.160.66.
+ 67.954: kungsor.se INFO Done testing host alex.koping.se.
+ 67.954: kungsor.se INFO SOA MNAME for kungsor.se valid (alex.koping.se).
+ 67.954: kungsor.se INFO SOA MNAME for kungsor.se (alex.koping.se) listed as NS.
+ 68.387: kungsor.se INFO SOA MNAME for kungsor.se (alex.koping.se) is authoritative.
+ 68.387: kungsor.se INFO Begin testing email address hostmaster@koping.net.
+ 68.836: kungsor.se INFO Mail exchangers for hostmaster@koping.net found mailin.koping.net,mailin2.koping.net.
+ 68.837: kungsor.se INFO Begin testing host mailin.koping.net.
+ 70.814: kungsor.se INFO Begin testing address 217.175.121.21.
+ 71.543: kungsor.se INFO Done testing address 217.175.121.21.
+ 71.543: kungsor.se INFO Done testing host mailin.koping.net.
+ 71.786: kungsor.se INFO Begin testing host mailin2.koping.net.
+ 72.657: kungsor.se INFO Begin testing address 217.175.121.25.
+ 73.450: kungsor.se INFO Done testing address 217.175.121.25.
+ 73.450: kungsor.se INFO Done testing host mailin2.koping.net.
+ 73.821: kungsor.se INFO Done testing email address hostmaster@koping.net.
+ 73.821: kungsor.se INFO Successful attempt to deliver email for SOA RNAME of kungsor.se (hostmaster.koping.net) using hostmaster@koping.net.
+ 73.821: kungsor.se INFO SOA TTL for kungsor.se OK (28800) - recommended >= 3600.
+ 73.822: kungsor.se NOTICE SOA refresh for kungsor.se too small (10800) - recommended >= 14400.
+ 73.822: kungsor.se INFO SOA retry for kungsor.se OK (3600) - recommended >= 3600.
+ 73.822: kungsor.se INFO SOA expire for kungsor.se OK (2419200) - recommended >= 604800.
+ 73.842: kungsor.se INFO SOA minimum for kungsor.se OK (900) - recommended between 300 and 86400.
+ 73.842: kungsor.se INFO Done testing SOA parameters for kungsor.se.
+ 73.842: kungsor.se INFO Begin testing connectivity for kungsor.se.
+ 75.375: kungsor.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 75.375: kungsor.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 75.375: kungsor.se INFO Done testing connectivity for kungsor.se.
+ 75.375: kungsor.se INFO Begin testing DNSSEC for kungsor.se.
+ 75.446: kungsor.se INFO Did not find DS record for kungsor.se at parent.
+ 75.535: kungsor.se INFO Servers for kungsor.se have consistent extra processing status.
+ 75.654: kungsor.se INFO Authenticated denial records not found for kungsor.se.
+ 75.695: kungsor.se INFO Did not find DNSKEY record for kungsor.se at child.
+ 75.695: kungsor.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 75.695: kungsor.se INFO Done testing DNSSEC for kungsor.se.
+ 75.696: kungsor.se INFO Test completed for zone kungsor.se.

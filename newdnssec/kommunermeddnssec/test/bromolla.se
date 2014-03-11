@@ -1,0 +1,90 @@
+  0.000: bromolla.se INFO Begin testing zone bromolla.se with version 1.6.1.
+  0.678: bromolla.se INFO Begin testing delegation for bromolla.se.
+ 15.873: bromolla.se INFO Name servers listed at parent: ns.bromolla.se,ns.solvesborg.se
+ 19.987: bromolla.se INFO Name servers listed at child: ns.bromolla.se,ns.solvesborg.se
+ 19.987: bromolla.se NOTICE No IPv6 name servers found.
+ 20.079: bromolla.se INFO Parent glue for bromolla.se found: ns.bromolla.se (91.220.227.10)
+ 20.239: bromolla.se INFO Parent glue for bromolla.se found: ns.solvesborg.se (212.214.132.3)
+ 20.350: bromolla.se INFO Checking glue for ns.bromolla.se (91.220.227.10).
+ 20.391: bromolla.se INFO Child glue for bromolla.se found: ns.bromolla.se (91.220.227.10)
+ 20.391: bromolla.se INFO Checking glue for ns.solvesborg.se (212.214.132.3).
+ 20.391: bromolla.se INFO Parent glue for bromolla.se found: ns.bromolla.se (91.220.227.10)
+ 20.442: bromolla.se INFO Parent glue for bromolla.se found: ns.solvesborg.se (212.214.132.3)
+ 21.680: bromolla.se INFO It is possible to build a referral packet for bromolla.se that works without EDNS0.
+ 26.287: bromolla.se INFO Previously used name servers for bromolla.se: 
+ 26.287: bromolla.se INFO Done testing delegation for bromolla.se.
+ 26.287: bromolla.se INFO Begin testing name server ns.bromolla.se.
+ 26.287: bromolla.se INFO Begin testing host ns.bromolla.se.
+ 27.182: bromolla.se INFO Begin testing address 91.220.227.10.
+ 35.486: bromolla.se INFO Done testing address 91.220.227.10.
+ 35.487: bromolla.se INFO Done testing host ns.bromolla.se.
+ 35.809: bromolla.se INFO Name server ns.bromolla.se (91.220.227.10) answers queries over UDP.
+ 35.891: bromolla.se INFO Name server ns.bromolla.se (91.220.227.10) answers queries over TCP.
+ 36.080: bromolla.se WARNING Name server ns.bromolla.se (91.220.227.10) is recursive.
+ 36.235: bromolla.se INFO Name server ns.bromolla.se (91.220.227.10) authoritative for bromolla.se.
+ 36.301: bromolla.se NOTICE Name server ns.bromolla.se (91.220.227.10) open for zone transfer of bromolla.se.
+ 36.405: bromolla.se INFO Legacy name server ID for ns.bromolla.se (91.220.227.10): hostname.bind = me11
+ 36.466: bromolla.se INFO Legacy name server ID for ns.bromolla.se (91.220.227.10): version.bind = N/A
+ 36.578: bromolla.se NOTICE No answer received from 91.220.227.10 when querying for version.server/CH/TXT.
+ 36.579: bromolla.se INFO Done testing name server ns.bromolla.se.
+ 36.579: bromolla.se INFO Begin testing name server ns.solvesborg.se.
+ 36.579: bromolla.se INFO Begin testing host ns.solvesborg.se.
+ 37.011: bromolla.se INFO Begin testing address 212.214.132.3.
+ 39.583: bromolla.se INFO Done testing address 212.214.132.3.
+ 39.583: bromolla.se INFO Done testing host ns.solvesborg.se.
+ 39.991: bromolla.se INFO Name server ns.solvesborg.se (212.214.132.3) answers queries over UDP.
+ 40.151: bromolla.se INFO Name server ns.solvesborg.se (212.214.132.3) answers queries over TCP.
+ 42.073: bromolla.se WARNING Name server ns.solvesborg.se (212.214.132.3) is recursive.
+ 42.791: bromolla.se INFO Name server ns.solvesborg.se (212.214.132.3) authoritative for bromolla.se.
+ 43.160: bromolla.se NOTICE Name server ns.solvesborg.se (212.214.132.3) open for zone transfer of bromolla.se.
+ 43.233: bromolla.se INFO Legacy name server ID for ns.solvesborg.se (212.214.132.3): hostname.bind = ke010
+ 45.035: bromolla.se INFO Legacy name server ID for ns.solvesborg.se (212.214.132.3): version.bind = N/A
+ 45.240: bromolla.se NOTICE No answer received from 212.214.132.3 when querying for version.server/CH/TXT.
+ 45.240: bromolla.se INFO Done testing name server ns.solvesborg.se.
+ 45.240: bromolla.se INFO Begin testing zone consistency for bromolla.se.
+ 47.135: bromolla.se INFO SOA at address 91.220.227.10 has serial 2014013003.
+ 47.205: bromolla.se INFO SOA at address 212.214.132.3 has serial 2014013003.
+ 47.205: bromolla.se INFO All SOA records have consistent serial numbers.
+ 47.205: bromolla.se INFO All other fields in the SOA record are consistent among all name servers.
+ 48.800: bromolla.se NOTICE The listed nameservers for bromolla.se all report the same set of nameservers.
+ 48.800: bromolla.se INFO Done testing zone consistency for bromolla.se.
+ 48.800: bromolla.se INFO Begin testing SOA parameters for bromolla.se.
+ 48.903: bromolla.se INFO Found SOA record for bromolla.se.
+ 48.903: bromolla.se INFO Begin testing host ns.bromolla.se.
+ 49.574: bromolla.se INFO Begin testing address 91.220.227.10.
+ 50.558: bromolla.se INFO Done testing address 91.220.227.10.
+ 50.559: bromolla.se INFO Done testing host ns.bromolla.se.
+ 50.559: bromolla.se INFO SOA MNAME for bromolla.se valid (ns.bromolla.se).
+ 50.559: bromolla.se INFO SOA MNAME for bromolla.se (ns.bromolla.se) listed as NS.
+ 50.883: bromolla.se INFO SOA MNAME for bromolla.se (ns.bromolla.se) is authoritative.
+ 50.883: bromolla.se INFO Begin testing email address hostmaster@bromolla.se.
+ 51.440: bromolla.se INFO Mail exchangers for hostmaster@bromolla.se found mail2.bromolla.se,mail3.bromolla.se.
+ 51.440: bromolla.se INFO All mail servers for hostmaster@bromolla.se are in zone bromolla.se.
+ 51.440: bromolla.se INFO Begin testing host mail2.bromolla.se.
+ 52.477: bromolla.se INFO Begin testing address 79.171.250.11.
+ 55.394: bromolla.se INFO Done testing address 79.171.250.11.
+ 55.395: bromolla.se INFO Done testing host mail2.bromolla.se.
+ 55.995: bromolla.se INFO Begin testing host mail3.bromolla.se.
+ 56.691: bromolla.se INFO Begin testing address 91.220.227.10.
+ 57.767: bromolla.se INFO Done testing address 91.220.227.10.
+ 57.767: bromolla.se INFO Done testing host mail3.bromolla.se.
+ 58.878: bromolla.se INFO Done testing email address hostmaster@bromolla.se.
+ 58.878: bromolla.se INFO Successful attempt to deliver email for SOA RNAME of bromolla.se (hostmaster.bromolla.se) using hostmaster@bromolla.se.
+ 58.879: bromolla.se NOTICE SOA TTL for bromolla.se too small (900) - recommended >= 3600.
+ 58.879: bromolla.se NOTICE SOA refresh for bromolla.se too small (10800) - recommended >= 14400.
+ 58.879: bromolla.se INFO SOA retry for bromolla.se OK (3600) - recommended >= 3600.
+ 58.879: bromolla.se INFO SOA expire for bromolla.se OK (1209600) - recommended >= 604800.
+ 58.879: bromolla.se INFO SOA minimum for bromolla.se OK (900) - recommended between 300 and 86400.
+ 58.879: bromolla.se INFO Done testing SOA parameters for bromolla.se.
+ 58.879: bromolla.se INFO Begin testing connectivity for bromolla.se.
+ 60.886: bromolla.se INFO Zone announced by more than one ASN.
+ 60.887: bromolla.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 60.887: bromolla.se INFO Done testing connectivity for bromolla.se.
+ 60.887: bromolla.se INFO Begin testing DNSSEC for bromolla.se.
+ 60.965: bromolla.se INFO Did not find DS record for bromolla.se at parent.
+ 61.095: bromolla.se INFO Servers for bromolla.se have consistent extra processing status.
+ 61.168: bromolla.se INFO Authenticated denial records not found for bromolla.se.
+ 61.211: bromolla.se INFO Did not find DNSKEY record for bromolla.se at child.
+ 61.211: bromolla.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 61.211: bromolla.se INFO Done testing DNSSEC for bromolla.se.
+ 61.211: bromolla.se INFO Test completed for zone bromolla.se.

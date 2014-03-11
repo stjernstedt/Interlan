@@ -1,0 +1,94 @@
+  0.000: alavieska.fi INFO Begin testing zone alavieska.fi with version 1.6.1.
+  0.315: alavieska.fi INFO Begin testing delegation for alavieska.fi.
+ 10.421: alavieska.fi INFO Name servers listed at parent: ns1.kotinet.com,ns2.kotinet.com,ns3.kotinet.com
+ 13.204: alavieska.fi INFO Name servers listed at child: ns1.kotinet.com,ns2.kotinet.com,ns3.kotinet.com
+ 13.205: alavieska.fi NOTICE No IPv6 name servers found.
+ 15.042: alavieska.fi INFO It is possible to build a referral packet for alavieska.fi that works without EDNS0.
+ 15.808: alavieska.fi INFO Previously used name servers for alavieska.fi: 
+ 15.808: alavieska.fi INFO Done testing delegation for alavieska.fi.
+ 15.809: alavieska.fi INFO Begin testing name server ns1.kotinet.com.
+ 15.809: alavieska.fi INFO Begin testing host ns1.kotinet.com.
+ 16.044: alavieska.fi INFO Begin testing address 212.50.211.242.
+ 20.710: alavieska.fi INFO Done testing address 212.50.211.242.
+ 20.710: alavieska.fi INFO Done testing host ns1.kotinet.com.
+ 21.107: alavieska.fi INFO Name server ns1.kotinet.com (212.50.211.242) answers queries over UDP.
+ 21.185: alavieska.fi INFO Name server ns1.kotinet.com (212.50.211.242) answers queries over TCP.
+ 21.227: alavieska.fi INFO Name server ns1.kotinet.com (212.50.211.242) is not recursive.
+ 21.426: alavieska.fi INFO Name server ns1.kotinet.com (212.50.211.242) authoritative for alavieska.fi.
+ 21.491: alavieska.fi INFO Name server ns1.kotinet.com (212.50.211.242) closed for zone transfer of alavieska.fi.
+ 21.546: alavieska.fi INFO Legacy name server ID for ns1.kotinet.com (212.50.211.242): hostname.bind = ns1.kotinet.com
+ 21.589: alavieska.fi INFO Legacy name server ID for ns1.kotinet.com (212.50.211.242): version.bind = enkerro
+ 21.657: alavieska.fi NOTICE No answer received from 212.50.211.242 when querying for version.server/CH/TXT.
+ 21.657: alavieska.fi INFO Done testing name server ns1.kotinet.com.
+ 21.657: alavieska.fi INFO Begin testing name server ns2.kotinet.com.
+ 21.657: alavieska.fi INFO Begin testing host ns2.kotinet.com.
+ 21.954: alavieska.fi INFO Begin testing address 212.50.192.226.
+ 22.905: alavieska.fi INFO Done testing address 212.50.192.226.
+ 22.905: alavieska.fi INFO Done testing host ns2.kotinet.com.
+ 23.287: alavieska.fi INFO Name server ns2.kotinet.com (212.50.192.226) answers queries over UDP.
+ 23.358: alavieska.fi INFO Name server ns2.kotinet.com (212.50.192.226) answers queries over TCP.
+ 23.380: alavieska.fi INFO Name server ns2.kotinet.com (212.50.192.226) is not recursive.
+ 23.545: alavieska.fi INFO Name server ns2.kotinet.com (212.50.192.226) authoritative for alavieska.fi.
+ 23.624: alavieska.fi INFO Name server ns2.kotinet.com (212.50.192.226) closed for zone transfer of alavieska.fi.
+ 23.669: alavieska.fi INFO Legacy name server ID for ns2.kotinet.com (212.50.192.226): hostname.bind = ns2
+ 23.712: alavieska.fi INFO Legacy name server ID for ns2.kotinet.com (212.50.192.226): version.bind = enkerro
+ 23.778: alavieska.fi NOTICE No answer received from 212.50.192.226 when querying for version.server/CH/TXT.
+ 23.778: alavieska.fi INFO Done testing name server ns2.kotinet.com.
+ 23.778: alavieska.fi INFO Begin testing name server ns3.kotinet.com.
+ 23.778: alavieska.fi INFO Begin testing host ns3.kotinet.com.
+ 24.020: alavieska.fi INFO Begin testing address 82.141.108.26.
+ 24.955: alavieska.fi INFO Done testing address 82.141.108.26.
+ 24.955: alavieska.fi INFO Done testing host ns3.kotinet.com.
+ 25.269: alavieska.fi INFO Name server ns3.kotinet.com (82.141.108.26) answers queries over UDP.
+ 25.342: alavieska.fi INFO Name server ns3.kotinet.com (82.141.108.26) answers queries over TCP.
+ 25.382: alavieska.fi INFO Name server ns3.kotinet.com (82.141.108.26) is not recursive.
+ 25.538: alavieska.fi INFO Name server ns3.kotinet.com (82.141.108.26) authoritative for alavieska.fi.
+ 25.605: alavieska.fi INFO Name server ns3.kotinet.com (82.141.108.26) closed for zone transfer of alavieska.fi.
+ 25.646: alavieska.fi INFO Legacy name server ID for ns3.kotinet.com (82.141.108.26): hostname.bind = ns3.kotinet.com
+ 25.690: alavieska.fi INFO Legacy name server ID for ns3.kotinet.com (82.141.108.26): version.bind = enkerro
+ 25.737: alavieska.fi NOTICE No answer received from 82.141.108.26 when querying for version.server/CH/TXT.
+ 25.737: alavieska.fi INFO Done testing name server ns3.kotinet.com.
+ 25.737: alavieska.fi INFO Begin testing zone consistency for alavieska.fi.
+ 27.499: alavieska.fi INFO SOA at address 212.50.192.226 has serial 2012022709.
+ 27.534: alavieska.fi INFO SOA at address 82.141.108.26 has serial 2012022709.
+ 27.577: alavieska.fi INFO SOA at address 212.50.211.242 has serial 2012022709.
+ 27.577: alavieska.fi INFO All SOA records have consistent serial numbers.
+ 27.577: alavieska.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 28.423: alavieska.fi NOTICE The listed nameservers for alavieska.fi all report the same set of nameservers.
+ 28.423: alavieska.fi INFO Done testing zone consistency for alavieska.fi.
+ 28.424: alavieska.fi INFO Begin testing SOA parameters for alavieska.fi.
+ 28.471: alavieska.fi INFO Found SOA record for alavieska.fi.
+ 28.472: alavieska.fi INFO Begin testing host ns1.kotinet.com.
+ 28.716: alavieska.fi INFO Begin testing address 212.50.211.242.
+ 29.034: alavieska.fi INFO Done testing address 212.50.211.242.
+ 29.034: alavieska.fi INFO Done testing host ns1.kotinet.com.
+ 29.034: alavieska.fi INFO SOA MNAME for alavieska.fi valid (ns1.kotinet.com).
+ 29.034: alavieska.fi INFO SOA MNAME for alavieska.fi (ns1.kotinet.com) listed as NS.
+ 29.353: alavieska.fi INFO SOA MNAME for alavieska.fi (ns1.kotinet.com) is authoritative.
+ 29.353: alavieska.fi INFO Begin testing email address hostmaster@mail.kotinet.com.
+ 29.836: alavieska.fi INFO Mail exchangers for hostmaster@mail.kotinet.com found mail.kotinet.com.
+ 29.836: alavieska.fi INFO Begin testing host mail.kotinet.com.
+ 30.033: alavieska.fi INFO Begin testing address 212.50.215.81.
+ 31.014: alavieska.fi INFO Done testing address 212.50.215.81.
+ 31.014: alavieska.fi INFO Done testing host mail.kotinet.com.
+ 31.275: alavieska.fi INFO Done testing email address hostmaster@mail.kotinet.com.
+ 31.275: alavieska.fi INFO Successful attempt to deliver email for SOA RNAME of alavieska.fi (hostmaster.mail.kotinet.com) using hostmaster@mail.kotinet.com.
+ 31.276: alavieska.fi INFO SOA TTL for alavieska.fi OK (86400) - recommended >= 3600.
+ 31.276: alavieska.fi NOTICE SOA refresh for alavieska.fi too small (3600) - recommended >= 14400.
+ 31.276: alavieska.fi NOTICE SOA refresh for alavieska.fi lower than retry (3600 vs 3600).
+ 31.276: alavieska.fi INFO SOA retry for alavieska.fi OK (3600) - recommended >= 3600.
+ 31.276: alavieska.fi INFO SOA expire for alavieska.fi OK (604800) - recommended >= 604800.
+ 31.276: alavieska.fi INFO SOA minimum for alavieska.fi OK (86400) - recommended between 300 and 86400.
+ 31.276: alavieska.fi INFO Done testing SOA parameters for alavieska.fi.
+ 31.276: alavieska.fi INFO Begin testing connectivity for alavieska.fi.
+ 32.551: alavieska.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 32.551: alavieska.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 32.551: alavieska.fi INFO Done testing connectivity for alavieska.fi.
+ 32.551: alavieska.fi INFO Begin testing DNSSEC for alavieska.fi.
+ 32.644: alavieska.fi INFO Did not find DS record for alavieska.fi at parent.
+ 32.782: alavieska.fi INFO Servers for alavieska.fi have consistent extra processing status.
+ 32.828: alavieska.fi INFO Authenticated denial records not found for alavieska.fi.
+ 32.870: alavieska.fi INFO Did not find DNSKEY record for alavieska.fi at child.
+ 32.870: alavieska.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 32.870: alavieska.fi INFO Done testing DNSSEC for alavieska.fi.
+ 32.871: alavieska.fi INFO Test completed for zone alavieska.fi.

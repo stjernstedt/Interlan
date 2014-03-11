@@ -1,0 +1,94 @@
+  0.000: storfors.se INFO Begin testing zone storfors.se with version 1.2.
+  0.000: storfors.se INFO Begin testing delegation for storfors.se.
+  9.781: storfors.se INFO Name servers listed at parent: dns5.telia.com,ns.kristinehamn.se
+ 11.461: storfors.se INFO Name servers listed at child: dns5.telia.com,ns.kristinehamn.se
+ 11.462: storfors.se NOTICE No IPv6 name servers found.
+ 11.623: storfors.se INFO Parent glue for storfors.se found: ns.kristinehamn.se (194.22.238.2)
+ 11.663: storfors.se INFO Checking glue for ns.kristinehamn.se (194.22.238.2).
+ 11.664: storfors.se INFO Parent glue for storfors.se found: ns.kristinehamn.se (194.22.238.2)
+ 11.664: storfors.se INFO Done testing delegation for storfors.se.
+ 11.665: storfors.se INFO Begin testing name server dns5.telia.com.
+ 11.665: storfors.se INFO Begin testing host dns5.telia.com.
+ 11.665: storfors.se INFO Begin testing address 81.228.11.68.
+ 16.092: storfors.se INFO Done testing address 81.228.11.68.
+ 16.092: storfors.se INFO Done testing host dns5.telia.com.
+ 16.100: storfors.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over UDP.
+ 16.111: storfors.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over TCP.
+ 16.126: storfors.se INFO Name server dns5.telia.com (81.228.11.68) is not recursive.
+ 16.133: storfors.se INFO Name server dns5.telia.com (81.228.11.68) authoritative for storfors.se.
+ 16.149: storfors.se INFO Name server dns5.telia.com (81.228.11.68) closed for zone transfer of storfors.se.
+ 16.159: storfors.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): hostname.bind = dnshosting1-sn1.fre.skanova.net
+ 16.165: storfors.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 16.178: storfors.se NOTICE No answer received from 81.228.11.68 when querying for version.server/CH/TXT.
+ 16.178: storfors.se INFO Done testing name server dns5.telia.com.
+ 16.179: storfors.se INFO Begin testing name server ns.kristinehamn.se.
+ 16.179: storfors.se INFO Begin testing host ns.kristinehamn.se.
+ 16.179: storfors.se INFO Begin testing address 194.22.238.2.
+ 20.432: storfors.se INFO Done testing address 194.22.238.2.
+ 20.432: storfors.se INFO Done testing host ns.kristinehamn.se.
+ 20.446: storfors.se INFO Name server ns.kristinehamn.se (194.22.238.2) answers queries over UDP.
+ 20.470: storfors.se INFO Name server ns.kristinehamn.se (194.22.238.2) answers queries over TCP.
+ 20.486: storfors.se INFO Name server ns.kristinehamn.se (194.22.238.2) is not recursive.
+ 20.500: storfors.se INFO Name server ns.kristinehamn.se (194.22.238.2) authoritative for storfors.se.
+ 20.531: storfors.se INFO Name server ns.kristinehamn.se (194.22.238.2) closed for zone transfer of storfors.se.
+ 20.543: storfors.se INFO Legacy name server ID for ns.kristinehamn.se (194.22.238.2): hostname.bind = extns01.kristinehamn.se
+ 20.581: storfors.se NOTICE No answer received from 194.22.238.2 when querying for version.server/CH/TXT.
+ 20.581: storfors.se INFO Done testing name server ns.kristinehamn.se.
+ 20.581: storfors.se INFO Begin testing zone consistency for storfors.se.
+ 20.591: storfors.se INFO SOA at address 81.228.11.68 has serial 2010042007.
+ 20.605: storfors.se INFO SOA at address 194.22.238.2 has serial 2010042007.
+ 20.605: storfors.se INFO All SOA records have consistent serial numbers.
+ 20.605: storfors.se INFO All SOA records are consistent among all name servers.
+ 20.605: storfors.se INFO Done testing zone consistency for storfors.se.
+ 20.605: storfors.se INFO Begin testing SOA parameters for storfors.se.
+ 20.612: storfors.se INFO Found SOA record for storfors.se.
+ 20.612: storfors.se INFO Begin testing host extns01.kristinehamn.se.
+ 21.058: storfors.se ERROR No address found for extns01.kristinehamn.se.
+ 21.058: storfors.se INFO Done testing host extns01.kristinehamn.se.
+ 21.058: storfors.se ERROR Error while checking SOA MNAME for storfors.se (extns01.kristinehamn.se).
+ 21.059: storfors.se NOTICE SOA MNAME for storfors.se (extns01.kristinehamn.se) not listed as NS.
+ 21.059: storfors.se INFO Begin testing email address support@kristinehamn.se.
+ 21.331: storfors.se INFO Mail exchangers for support@kristinehamn.se found cluster4.eu.messagelabs.com,cluster4a.eu.messagelabs.com.
+ 21.331: storfors.se INFO Begin testing host cluster4.eu.messagelabs.com.
+ 22.371: storfors.se INFO Begin testing address 85.158.143.35.
+ 25.704: storfors.se INFO Done testing address 85.158.143.35.
+ 25.705: storfors.se INFO Begin testing address 193.109.254.147.
+ 31.590: storfors.se INFO Done testing address 193.109.254.147.
+ 31.590: storfors.se INFO Begin testing address 85.158.138.51.
+ 32.954: storfors.se INFO Done testing address 85.158.138.51.
+ 32.955: storfors.se INFO Begin testing address 85.158.139.83.
+ 34.341: storfors.se INFO Done testing address 85.158.139.83.
+ 34.342: storfors.se INFO Done testing host cluster4.eu.messagelabs.com.
+ 34.342: storfors.se INFO Begin testing mail server cluster4.eu.messagelabs.com (85.158.143.35) with support@kristinehamn.se.
+ 34.654: storfors.se INFO SMTP banner: server-10.tower-21.messagelabs.com ESMTP
+ 34.859: storfors.se INFO SMTP testing of cluster4.eu.messagelabs.com (85.158.143.35) with support@kristinehamn.se succeeded without errors.
+ 34.859: storfors.se INFO Done testing mail server cluster4.eu.messagelabs.com (85.158.143.35) with support@kristinehamn.se.
+ 34.860: storfors.se INFO Begin testing host cluster4a.eu.messagelabs.com.
+ 35.610: storfors.se INFO Begin testing address 195.245.231.196.
+ 36.976: storfors.se INFO Done testing address 195.245.231.196.
+ 36.976: storfors.se INFO Done testing host cluster4a.eu.messagelabs.com.
+ 36.977: storfors.se INFO Delivery over IPv4 to support@kristinehamn.se ok.
+ 36.977: storfors.se INFO Delivery over IPv6 to support@kristinehamn.se could not be done.
+ 36.977: storfors.se INFO Done testing email address support@kristinehamn.se.
+ 36.977: storfors.se INFO Successful attempt to deliver email for SOA RNAME of storfors.se (support.kristinehamn.se) using support@kristinehamn.se.
+ 36.977: storfors.se INFO SOA TTL for storfors.se OK (3600) - recommended >= 3600.
+ 36.977: storfors.se NOTICE SOA refresh for storfors.se too small (10800) - recommended >= 14400.
+ 36.977: storfors.se INFO SOA retry for storfors.se OK (3600) - recommended >= 3600.
+ 36.977: storfors.se INFO SOA expire for storfors.se OK (604800) - recommended >= 604800.
+ 36.978: storfors.se INFO SOA minimum for storfors.se OK (3600) - recommended between 300 and 86400.
+ 36.978: storfors.se INFO Done testing SOA parameters for storfors.se.
+ 36.978: storfors.se INFO Begin testing connectivity for storfors.se.
+ 37.604: storfors.se INFO Name server 81.228.11.68 announced by: 3301
+ 38.279: storfors.se INFO Name server 194.22.238.2 announced by: 3301
+ 38.279: storfors.se INFO Zone announced by IPv4 ASN: 3301
+ 38.279: storfors.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 38.279: storfors.se INFO Zone announced by IPv6 ASN: 
+ 38.279: storfors.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 38.279: storfors.se INFO Done testing connectivity for storfors.se.
+ 38.279: storfors.se INFO Begin testing DNSSEC for storfors.se.
+ 38.296: storfors.se INFO Did not find DS record for storfors.se at parent.
+ 38.330: storfors.se INFO Servers for storfors.se have consistent extra processing status.
+ 38.331: storfors.se INFO Did not find DNSKEY record for storfors.se at child.
+ 38.331: storfors.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 38.331: storfors.se INFO Done testing DNSSEC for storfors.se.
+ 38.331: storfors.se INFO Test completed for zone storfors.se.

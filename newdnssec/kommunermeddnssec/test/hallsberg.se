@@ -1,0 +1,132 @@
+  0.000: hallsberg.se INFO Begin testing zone hallsberg.se with version 1.6.1.
+  0.791: hallsberg.se INFO Begin testing delegation for hallsberg.se.
+ 31.132: hallsberg.se INFO Name servers listed at parent: dns1.hallsberg.se,dns6.telia.com
+ 41.258: hallsberg.se INFO Name servers listed at child: dns1.hallsberg.se,dns2.hallsberg.se,dns6.telia.com,kista.dns.swip.net
+ 41.259: hallsberg.se NOTICE Additional name server listed at child: dns2.hallsberg.se
+ 41.259: hallsberg.se NOTICE Additional name server listed at child: kista.dns.swip.net
+ 41.372: hallsberg.se INFO Parent glue for hallsberg.se found: dns1.hallsberg.se (193.44.212.4)
+ 41.512: hallsberg.se INFO Checking glue for dns1.hallsberg.se (193.44.212.4).
+ 41.665: hallsberg.se INFO Child glue for hallsberg.se found: dns1.hallsberg.se (193.44.212.4)
+ 41.665: hallsberg.se INFO Parent glue for hallsberg.se found: dns1.hallsberg.se (193.44.212.4)
+ 48.733: hallsberg.se INFO It is possible to build a referral packet for hallsberg.se that works without EDNS0.
+ 49.216: hallsberg.se INFO Previously used name servers for hallsberg.se: 
+ 49.216: hallsberg.se INFO Done testing delegation for hallsberg.se.
+ 49.216: hallsberg.se INFO Begin testing name server dns1.hallsberg.se.
+ 49.216: hallsberg.se INFO Begin testing host dns1.hallsberg.se.
+ 50.010: hallsberg.se INFO Begin testing address 193.44.212.4.
+ 68.277: hallsberg.se INFO Done testing address 193.44.212.4.
+ 68.278: hallsberg.se INFO Done testing host dns1.hallsberg.se.
+ 69.705: hallsberg.se INFO Name server dns1.hallsberg.se (193.44.212.4) answers queries over UDP.
+ 69.758: hallsberg.se INFO Name server dns1.hallsberg.se (193.44.212.4) answers queries over TCP.
+ 69.885: hallsberg.se INFO Name server dns1.hallsberg.se (193.44.212.4) is not recursive.
+ 70.109: hallsberg.se INFO Name server dns1.hallsberg.se (193.44.212.4) authoritative for hallsberg.se.
+ 70.209: hallsberg.se NOTICE Name server dns1.hallsberg.se (193.44.212.4) open for zone transfer of hallsberg.se.
+ 70.596: hallsberg.se NOTICE No answer received from 193.44.212.4 when querying for hostname.bind/CH/TXT.
+ 70.919: hallsberg.se NOTICE No answer received from 193.44.212.4 when querying for version.bind/CH/TXT.
+ 70.956: hallsberg.se NOTICE No answer received from 193.44.212.4 when querying for id.server/CH/TXT.
+ 70.974: hallsberg.se NOTICE No answer received from 193.44.212.4 when querying for version.server/CH/TXT.
+ 70.974: hallsberg.se INFO Done testing name server dns1.hallsberg.se.
+ 70.974: hallsberg.se INFO Begin testing name server dns2.hallsberg.se.
+ 70.975: hallsberg.se INFO Begin testing host dns2.hallsberg.se.
+ 70.975: hallsberg.se ERROR No address found for dns2.hallsberg.se.
+ 71.005: hallsberg.se INFO Done testing host dns2.hallsberg.se.
+ 71.005: hallsberg.se ERROR Host name or address error for dns2.hallsberg.se.
+ 71.005: hallsberg.se INFO Done testing name server dns2.hallsberg.se.
+ 71.005: hallsberg.se INFO Begin testing name server dns6.telia.com.
+ 71.005: hallsberg.se INFO Begin testing host dns6.telia.com.
+ 71.006: hallsberg.se INFO Begin testing address 81.228.10.68.
+ 74.217: hallsberg.se INFO Done testing address 81.228.10.68.
+ 74.218: hallsberg.se INFO Begin testing address 2001:2040:c001:401:0:0:0:4.
+ 79.601: hallsberg.se INFO Done testing address 2001:2040:c001:401:0:0:0:4.
+ 79.601: hallsberg.se INFO Done testing host dns6.telia.com.
+ 79.808: hallsberg.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over UDP.
+ 79.846: hallsberg.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over TCP.
+ 79.897: hallsberg.se INFO Name server dns6.telia.com (81.228.10.68) is not recursive.
+ 80.903: hallsberg.se INFO Name server dns6.telia.com (81.228.10.68) authoritative for hallsberg.se.
+ 81.051: hallsberg.se INFO Name server dns6.telia.com (81.228.10.68) closed for zone transfer of hallsberg.se.
+ 81.266: hallsberg.se INFO Legacy name server ID for dns6.telia.com (81.228.10.68): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 81.593: hallsberg.se INFO Name server dns6.telia.com (2001:2040:c001:401:0:0:0:4) answers queries over UDP.
+ 81.724: hallsberg.se INFO Name server dns6.telia.com (2001:2040:c001:401:0:0:0:4) answers queries over TCP.
+ 81.860: hallsberg.se INFO Name server dns6.telia.com (2001:2040:c001:401:0:0:0:4) is not recursive.
+ 82.160: hallsberg.se INFO Name server dns6.telia.com (2001:2040:c001:401:0:0:0:4) authoritative for hallsberg.se.
+ 82.288: hallsberg.se INFO Name server dns6.telia.com (2001:2040:c001:401:0:0:0:4) closed for zone transfer of hallsberg.se.
+ 82.544: hallsberg.se INFO Legacy name server ID for dns6.telia.com (2001:2040:c001:401:0:0:0:4): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 82.824: hallsberg.se INFO Done testing name server dns6.telia.com.
+ 82.824: hallsberg.se INFO Begin testing name server kista.dns.swip.net.
+ 82.824: hallsberg.se INFO Begin testing host kista.dns.swip.net.
+ 82.825: hallsberg.se INFO Begin testing address 192.71.220.9.
+ 96.252: hallsberg.se INFO Done testing address 192.71.220.9.
+ 96.253: hallsberg.se INFO Begin testing address 2a00:801:103:a:0:0:0:f00d.
+ 98.593: hallsberg.se INFO Done testing address 2a00:801:103:a:0:0:0:f00d.
+ 98.594: hallsberg.se INFO Done testing host kista.dns.swip.net.
+ 99.556: hallsberg.se NOTICE No answer received from 192.71.220.9 when querying for hallsberg.se/IN/SOA.
+ 99.556: hallsberg.se INFO Name server kista.dns.swip.net (192.71.220.9) answers queries over UDP.
+ 99.607: hallsberg.se NOTICE No answer received from 192.71.220.9 when querying for hallsberg.se/IN/SOA.
+ 99.623: hallsberg.se INFO Name server kista.dns.swip.net (192.71.220.9) answers queries over TCP.
+ 99.658: hallsberg.se INFO Name server kista.dns.swip.net (192.71.220.9) is not recursive.
+ 99.723: hallsberg.se NOTICE No answer received from 192.71.220.9 when querying for hallsberg.se/SOA/IN.
+100.121: hallsberg.se NOTICE No answer received from 192.71.220.9 when querying for hallsberg.se/IN/SOA.
+100.121: hallsberg.se WARNING Nameserver at 192.71.220.9 is not authoritative over UDP.
+100.121: hallsberg.se ERROR Name server kista.dns.swip.net (192.71.220.9) not authoritative for hallsberg.se.
+100.173: hallsberg.se NOTICE No answer received from 2a00:801:103:a:0:0:0:f00d when querying for hallsberg.se/IN/SOA.
+100.173: hallsberg.se INFO Name server kista.dns.swip.net (2a00:801:103:a:0:0:0:f00d) answers queries over UDP.
+100.218: hallsberg.se NOTICE No answer received from 2a00:801:103:a:0:0:0:f00d when querying for hallsberg.se/IN/SOA.
+100.218: hallsberg.se INFO Name server kista.dns.swip.net (2a00:801:103:a:0:0:0:f00d) answers queries over TCP.
+100.274: hallsberg.se INFO Name server kista.dns.swip.net (2a00:801:103:a:0:0:0:f00d) is not recursive.
+100.308: hallsberg.se NOTICE No answer received from 2a00:801:103:a:0:0:0:f00d when querying for hallsberg.se/SOA/IN.
+100.448: hallsberg.se NOTICE No answer received from 2a00:801:103:a:0:0:0:f00d when querying for hallsberg.se/IN/SOA.
+100.448: hallsberg.se WARNING Nameserver at 2a00:801:103:a:0:0:0:f00d is not authoritative over UDP.
+100.448: hallsberg.se ERROR Name server kista.dns.swip.net (2a00:801:103:a:0:0:0:f00d) not authoritative for hallsberg.se.
+100.448: hallsberg.se INFO Done testing name server kista.dns.swip.net.
+100.448: hallsberg.se INFO Begin testing zone consistency for hallsberg.se.
+101.704: hallsberg.se NOTICE No answer received from 192.71.220.9 when querying for hallsberg.se/IN/SOA.
+101.766: hallsberg.se INFO SOA at address 2001:2040:c001:401:0:0:0:4 has serial 2013112141.
+102.117: hallsberg.se INFO SOA at address 193.44.212.4 has serial 2013112141.
+102.156: hallsberg.se NOTICE No answer received from 2a00:801:103:a:0:0:0:f00d when querying for hallsberg.se/IN/SOA.
+102.181: hallsberg.se INFO SOA at address 81.228.10.68 has serial 2013112141.
+102.181: hallsberg.se INFO All SOA records have consistent serial numbers.
+102.181: hallsberg.se INFO All other fields in the SOA record are consistent among all name servers.
+102.529: hallsberg.se NOTICE The listed nameservers for hallsberg.se all report the same set of nameservers.
+102.529: hallsberg.se INFO Done testing zone consistency for hallsberg.se.
+102.529: hallsberg.se INFO Begin testing SOA parameters for hallsberg.se.
+102.596: hallsberg.se INFO Found SOA record for hallsberg.se.
+102.607: hallsberg.se INFO Begin testing host dns1.hallsberg.se.
+102.864: hallsberg.se INFO Begin testing address 193.44.212.4.
+103.814: hallsberg.se INFO Done testing address 193.44.212.4.
+103.814: hallsberg.se INFO Done testing host dns1.hallsberg.se.
+103.814: hallsberg.se INFO SOA MNAME for hallsberg.se valid (dns1.hallsberg.se).
+103.814: hallsberg.se INFO SOA MNAME for hallsberg.se (dns1.hallsberg.se) listed as NS.
+104.655: hallsberg.se INFO SOA MNAME for hallsberg.se (dns1.hallsberg.se) is authoritative.
+104.656: hallsberg.se INFO Begin testing email address webmaster@hallsberg.se.
+104.989: hallsberg.se INFO Mail exchangers for webmaster@hallsberg.se found mg-hbg17.hallsberg.se,mailscan.askersund.se.
+104.989: hallsberg.se INFO Begin testing host mg-hbg17.hallsberg.se.
+105.900: hallsberg.se INFO Begin testing address 193.44.212.13.
+108.996: hallsberg.se INFO Done testing address 193.44.212.13.
+108.996: hallsberg.se INFO Done testing host mg-hbg17.hallsberg.se.
+109.300: hallsberg.se INFO Begin testing host mailscan.askersund.se.
+112.487: hallsberg.se INFO Begin testing address 193.44.212.159.
+113.442: hallsberg.se INFO Done testing address 193.44.212.159.
+113.442: hallsberg.se INFO Done testing host mailscan.askersund.se.
+113.819: hallsberg.se INFO Done testing email address webmaster@hallsberg.se.
+113.819: hallsberg.se INFO Successful attempt to deliver email for SOA RNAME of hallsberg.se (webmaster.hallsberg.se) using webmaster@hallsberg.se.
+113.820: hallsberg.se INFO SOA TTL for hallsberg.se OK (43200) - recommended >= 3600.
+113.820: hallsberg.se NOTICE SOA refresh for hallsberg.se too small (900) - recommended >= 14400.
+113.820: hallsberg.se NOTICE SOA refresh for hallsberg.se lower than retry (900 vs 900).
+113.820: hallsberg.se NOTICE SOA retry for hallsberg.se too small (900) - recommended >= 3600.
+113.820: hallsberg.se INFO SOA expire for hallsberg.se OK (604800) - recommended >= 604800.
+113.820: hallsberg.se INFO SOA minimum for hallsberg.se OK (43200) - recommended between 300 and 86400.
+113.820: hallsberg.se INFO Done testing SOA parameters for hallsberg.se.
+113.820: hallsberg.se INFO Begin testing connectivity for hallsberg.se.
+117.373: hallsberg.se INFO Zone announced by more than one ASN.
+119.526: hallsberg.se INFO Zone announced by more than one IPv6 ASN.
+119.526: hallsberg.se INFO Done testing connectivity for hallsberg.se.
+119.527: hallsberg.se INFO Begin testing DNSSEC for hallsberg.se.
+122.108: hallsberg.se INFO Did not find DS record for hallsberg.se at parent.
+122.143: hallsberg.se NOTICE No answer received from 192.71.220.9 when querying for hallsberg.se/IN/DNSKEY.
+122.909: hallsberg.se NOTICE No answer received from 2a00:801:103:a:0:0:0:f00d when querying for hallsberg.se/IN/DNSKEY.
+122.920: hallsberg.se INFO Servers for hallsberg.se have consistent extra processing status.
+123.052: hallsberg.se INFO Authenticated denial records not found for hallsberg.se.
+123.087: hallsberg.se INFO Did not find DNSKEY record for hallsberg.se at child.
+123.087: hallsberg.se INFO No DNSKEY(s) found at child, other tests skipped.
+123.088: hallsberg.se INFO Done testing DNSSEC for hallsberg.se.
+123.088: hallsberg.se INFO Test completed for zone hallsberg.se.

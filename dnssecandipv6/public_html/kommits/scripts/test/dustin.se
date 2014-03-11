@@ -1,0 +1,95 @@
+  0.000: dustin.se INFO Begin testing zone dustin.se with version 1.2.
+  0.000: dustin.se INFO Begin testing delegation for dustin.se.
+  4.955: dustin.se INFO Name servers listed at parent: ns1.dustin.se,ns2.dustin.se
+  6.078: dustin.se INFO Name servers listed at child: ns1.dustin.se,ns2.dustin.se
+  6.079: dustin.se NOTICE No IPv6 name servers found.
+  6.121: dustin.se INFO Parent glue for dustin.se found: ns1.dustin.se (194.132.19.98)
+  6.137: dustin.se INFO Parent glue for dustin.se found: ns2.dustin.se (194.132.19.99)
+  6.174: dustin.se INFO Checking glue for ns1.dustin.se (194.132.19.98).
+  6.183: dustin.se INFO Child glue for dustin.se found: ns1.dustin.se (194.132.19.98)
+  6.183: dustin.se INFO Checking glue for ns2.dustin.se (194.132.19.99).
+  6.190: dustin.se INFO Child glue for dustin.se found: ns2.dustin.se (194.132.19.99)
+  6.191: dustin.se INFO Parent glue for dustin.se found: ns1.dustin.se (194.132.19.98)
+  6.192: dustin.se INFO Parent glue for dustin.se found: ns2.dustin.se (194.132.19.99)
+  6.192: dustin.se INFO Done testing delegation for dustin.se.
+  6.193: dustin.se INFO Begin testing name server ns1.dustin.se.
+  6.193: dustin.se INFO Begin testing host ns1.dustin.se.
+  6.194: dustin.se INFO Begin testing address 194.132.19.98.
+ 10.481: dustin.se INFO Done testing address 194.132.19.98.
+ 10.482: dustin.se INFO Done testing host ns1.dustin.se.
+ 10.490: dustin.se INFO Name server ns1.dustin.se (194.132.19.98) answers queries over UDP.
+ 10.502: dustin.se INFO Name server ns1.dustin.se (194.132.19.98) answers queries over TCP.
+ 10.512: dustin.se INFO Name server ns1.dustin.se (194.132.19.98) is not recursive.
+ 10.520: dustin.se INFO Name server ns1.dustin.se (194.132.19.98) authoritative for dustin.se.
+ 10.734: dustin.se INFO Name server ns1.dustin.se (194.132.19.98) closed for zone transfer of dustin.se.
+ 10.742: dustin.se NOTICE No answer received from 194.132.19.98 when querying for hostname.bind/CH/TXT.
+ 28.758: dustin.se INFO Done testing name server ns1.dustin.se.
+ 28.758: dustin.se INFO Begin testing name server ns2.dustin.se.
+ 28.758: dustin.se INFO Begin testing host ns2.dustin.se.
+ 28.759: dustin.se INFO Begin testing address 194.132.19.99.
+ 29.181: dustin.se INFO Done testing address 194.132.19.99.
+ 29.181: dustin.se INFO Done testing host ns2.dustin.se.
+ 29.189: dustin.se INFO Name server ns2.dustin.se (194.132.19.99) answers queries over UDP.
+ 29.200: dustin.se INFO Name server ns2.dustin.se (194.132.19.99) answers queries over TCP.
+ 29.209: dustin.se INFO Name server ns2.dustin.se (194.132.19.99) is not recursive.
+ 29.215: dustin.se INFO Name server ns2.dustin.se (194.132.19.99) authoritative for dustin.se.
+ 29.430: dustin.se INFO Name server ns2.dustin.se (194.132.19.99) closed for zone transfer of dustin.se.
+ 29.437: dustin.se NOTICE No answer received from 194.132.19.99 when querying for hostname.bind/CH/TXT.
+ 47.454: dustin.se INFO Done testing name server ns2.dustin.se.
+ 47.454: dustin.se INFO Begin testing zone consistency for dustin.se.
+ 47.465: dustin.se INFO SOA at address 194.132.19.98 has serial 2010110401.
+ 47.472: dustin.se INFO SOA at address 194.132.19.99 has serial 2010110401.
+ 47.473: dustin.se INFO All SOA records have consistent serial numbers.
+ 47.473: dustin.se INFO All SOA records are consistent among all name servers.
+ 47.473: dustin.se INFO Done testing zone consistency for dustin.se.
+ 47.473: dustin.se INFO Begin testing SOA parameters for dustin.se.
+ 47.480: dustin.se INFO Found SOA record for dustin.se.
+ 47.481: dustin.se INFO Begin testing host ns1.dustin.se.
+ 47.481: dustin.se INFO Begin testing address 194.132.19.98.
+ 47.483: dustin.se INFO Done testing address 194.132.19.98.
+ 47.483: dustin.se INFO Done testing host ns1.dustin.se.
+ 47.483: dustin.se INFO SOA MNAME for dustin.se valid (ns1.dustin.se).
+ 47.484: dustin.se INFO SOA MNAME for dustin.se (ns1.dustin.se) listed as NS.
+ 47.493: dustin.se INFO SOA MNAME for dustin.se (ns1.dustin.se) is authoritative.
+ 47.493: dustin.se INFO Begin testing email address hostmaster@dustin.se.
+ 47.714: dustin.se INFO Mail exchangers for hostmaster@dustin.se found smtp1.dustin.se,smtp2.dustin.se.
+ 47.714: dustin.se INFO All mail servers for hostmaster@dustin.se are in zone dustin.se.
+ 47.714: dustin.se INFO Begin testing host smtp1.dustin.se.
+ 48.162: dustin.se INFO Begin testing address 194.132.19.73.
+ 48.897: dustin.se WARNING Reverse for 194.132.19.73 points to an unknown host name (smtp1.dustin.dk).
+ 48.897: dustin.se INFO Done testing address 194.132.19.73.
+ 48.897: dustin.se INFO Done testing host smtp1.dustin.se.
+ 48.898: dustin.se INFO Begin testing mail server smtp1.dustin.se (194.132.19.73) with hostmaster@dustin.se.
+ 49.284: dustin.se INFO SMTP banner: smtp1.dustin.se ESMTP
+ 49.327: dustin.se INFO SMTP testing of smtp1.dustin.se (194.132.19.73) with hostmaster@dustin.se succeeded without errors.
+ 49.327: dustin.se INFO Done testing mail server smtp1.dustin.se (194.132.19.73) with hostmaster@dustin.se.
+ 49.328: dustin.se INFO Begin testing host smtp2.dustin.se.
+ 49.755: dustin.se INFO Begin testing address 194.132.19.74.
+ 50.474: dustin.se WARNING Reverse for 194.132.19.74 points to an unknown host name (smtp2.dustin.dk).
+ 50.475: dustin.se INFO Done testing address 194.132.19.74.
+ 50.475: dustin.se INFO Done testing host smtp2.dustin.se.
+ 50.475: dustin.se INFO Delivery over IPv4 to hostmaster@dustin.se ok.
+ 50.476: dustin.se INFO Delivery over IPv6 to hostmaster@dustin.se could not be done.
+ 50.476: dustin.se INFO Done testing email address hostmaster@dustin.se.
+ 50.476: dustin.se INFO Successful attempt to deliver email for SOA RNAME of dustin.se (hostmaster.dustin.se) using hostmaster@dustin.se.
+ 50.476: dustin.se INFO SOA TTL for dustin.se OK (3600) - recommended >= 3600.
+ 50.477: dustin.se INFO SOA refresh for dustin.se OK (14400) - recommended >= 14400.
+ 50.477: dustin.se INFO SOA retry for dustin.se OK (3600) - recommended >= 3600.
+ 50.477: dustin.se INFO SOA expire for dustin.se OK (604800) - recommended >= 604800.
+ 50.477: dustin.se INFO SOA minimum for dustin.se OK (3600) - recommended between 300 and 86400.
+ 50.477: dustin.se INFO Done testing SOA parameters for dustin.se.
+ 50.478: dustin.se INFO Begin testing connectivity for dustin.se.
+ 51.125: dustin.se INFO Name server 194.132.19.98 announced by: 3292
+ 51.771: dustin.se INFO Name server 194.132.19.99 announced by: 3292
+ 51.772: dustin.se INFO Zone announced by IPv4 ASN: 3292
+ 51.772: dustin.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 51.772: dustin.se INFO Zone announced by IPv6 ASN: 
+ 51.772: dustin.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 51.772: dustin.se INFO Done testing connectivity for dustin.se.
+ 51.773: dustin.se INFO Begin testing DNSSEC for dustin.se.
+ 51.786: dustin.se INFO Did not find DS record for dustin.se at parent.
+ 51.809: dustin.se INFO Servers for dustin.se have consistent extra processing status.
+ 51.809: dustin.se INFO Did not find DNSKEY record for dustin.se at child.
+ 51.810: dustin.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 51.810: dustin.se INFO Done testing DNSSEC for dustin.se.
+ 51.810: dustin.se INFO Test completed for zone dustin.se.

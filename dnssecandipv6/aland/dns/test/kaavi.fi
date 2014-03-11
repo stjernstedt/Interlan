@@ -1,0 +1,78 @@
+  0.000: kaavi.fi INFO Begin testing zone kaavi.fi with version 1.5.0.
+  0.502: kaavi.fi INFO Begin testing delegation for kaavi.fi.
+ 16.240: kaavi.fi INFO Name servers listed at parent: name.mpmol.fi,net-watch.mpmol.fi
+ 20.664: kaavi.fi INFO Name servers listed at child: name.mpmol.fi,net-watch.mpmol.fi
+ 20.664: kaavi.fi NOTICE No IPv6 name servers found.
+ 20.846: kaavi.fi INFO Parent glue for kaavi.fi found: name.mpmol.fi (212.146.26.51)
+ 21.119: kaavi.fi INFO Parent glue for kaavi.fi found: net-watch.mpmol.fi (212.146.26.50)
+ 21.283: kaavi.fi INFO Checking glue for name.mpmol.fi (212.146.26.51).
+ 21.380: kaavi.fi INFO Checking glue for net-watch.mpmol.fi (212.146.26.50).
+ 21.380: kaavi.fi INFO Parent glue for kaavi.fi found: name.mpmol.fi (212.146.26.51)
+ 21.381: kaavi.fi INFO Parent glue for kaavi.fi found: net-watch.mpmol.fi (212.146.26.50)
+ 24.515: kaavi.fi INFO It is possible to build a referral packet for kaavi.fi that works without EDNS0.
+ 26.159: kaavi.fi INFO Previously used name servers for kaavi.fi: 
+ 26.159: kaavi.fi INFO Done testing delegation for kaavi.fi.
+ 26.160: kaavi.fi INFO Begin testing name server name.mpmol.fi.
+ 26.160: kaavi.fi INFO Begin testing host name.mpmol.fi.
+ 27.079: kaavi.fi INFO Begin testing address 212.146.26.51.
+ 80.652: kaavi.fi INFO Done testing address 212.146.26.51.
+ 80.666: kaavi.fi INFO Done testing host name.mpmol.fi.
+ 81.491: kaavi.fi INFO Name server name.mpmol.fi (212.146.26.51) answers queries over UDP.
+ 81.591: kaavi.fi INFO Name server name.mpmol.fi (212.146.26.51) answers queries over TCP.
+ 81.699: kaavi.fi INFO Name server name.mpmol.fi (212.146.26.51) is not recursive.
+ 82.039: kaavi.fi INFO Name server name.mpmol.fi (212.146.26.51) authoritative for kaavi.fi.
+ 82.301: kaavi.fi INFO Name server name.mpmol.fi (212.146.26.51) closed for zone transfer of kaavi.fi.
+106.458: kaavi.fi INFO Done testing name server name.mpmol.fi.
+106.458: kaavi.fi INFO Begin testing name server net-watch.mpmol.fi.
+106.459: kaavi.fi INFO Begin testing host net-watch.mpmol.fi.
+107.051: kaavi.fi INFO Begin testing address 212.146.26.50.
+109.071: kaavi.fi INFO Done testing address 212.146.26.50.
+109.071: kaavi.fi INFO Done testing host net-watch.mpmol.fi.
+110.231: kaavi.fi INFO Name server net-watch.mpmol.fi (212.146.26.50) answers queries over UDP.
+110.409: kaavi.fi INFO Name server net-watch.mpmol.fi (212.146.26.50) answers queries over TCP.
+110.564: kaavi.fi INFO Name server net-watch.mpmol.fi (212.146.26.50) is not recursive.
+111.015: kaavi.fi INFO Name server net-watch.mpmol.fi (212.146.26.50) authoritative for kaavi.fi.
+111.358: kaavi.fi INFO Name server net-watch.mpmol.fi (212.146.26.50) closed for zone transfer of kaavi.fi.
+135.503: kaavi.fi INFO Done testing name server net-watch.mpmol.fi.
+135.503: kaavi.fi INFO Begin testing zone consistency for kaavi.fi.
+139.161: kaavi.fi INFO SOA at address 212.146.26.51 has serial 54.
+139.299: kaavi.fi INFO SOA at address 212.146.26.50 has serial 54.
+139.299: kaavi.fi INFO All SOA records have consistent serial numbers.
+139.299: kaavi.fi INFO All other fields in the SOA record are consistent among all name servers.
+141.308: kaavi.fi NOTICE The listed nameservers for kaavi.fi all report the same set of nameservers.
+141.308: kaavi.fi INFO Done testing zone consistency for kaavi.fi.
+141.308: kaavi.fi INFO Begin testing SOA parameters for kaavi.fi.
+141.451: kaavi.fi INFO Found SOA record for kaavi.fi.
+141.451: kaavi.fi INFO Begin testing host net-watch.mpmol.fi.
+142.275: kaavi.fi INFO Begin testing address 212.146.26.50.
+143.123: kaavi.fi INFO Done testing address 212.146.26.50.
+143.123: kaavi.fi INFO Done testing host net-watch.mpmol.fi.
+143.123: kaavi.fi INFO SOA MNAME for kaavi.fi valid (net-watch.mpmol.fi).
+143.123: kaavi.fi INFO SOA MNAME for kaavi.fi (net-watch.mpmol.fi) listed as NS.
+144.087: kaavi.fi INFO SOA MNAME for kaavi.fi (net-watch.mpmol.fi) is authoritative.
+144.087: kaavi.fi INFO Begin testing email address hostmaster@mpmol.fi.
+145.009: kaavi.fi INFO Mail exchangers for hostmaster@mpmol.fi found posti.datranet.fi.
+145.009: kaavi.fi INFO Begin testing host posti.datranet.fi.
+146.546: kaavi.fi INFO Begin testing address 212.146.26.61.
+148.251: kaavi.fi INFO Done testing address 212.146.26.61.
+148.251: kaavi.fi INFO Done testing host posti.datranet.fi.
+149.111: kaavi.fi INFO Done testing email address hostmaster@mpmol.fi.
+149.111: kaavi.fi INFO Successful attempt to deliver email for SOA RNAME of kaavi.fi (hostmaster.mpmol.fi) using hostmaster@mpmol.fi.
+149.112: kaavi.fi INFO SOA TTL for kaavi.fi OK (3600) - recommended >= 3600.
+149.112: kaavi.fi NOTICE SOA refresh for kaavi.fi too small (3700) - recommended >= 14400.
+149.112: kaavi.fi NOTICE SOA retry for kaavi.fi too small (600) - recommended >= 3600.
+149.112: kaavi.fi INFO SOA expire for kaavi.fi OK (1296000) - recommended >= 604800.
+149.112: kaavi.fi INFO SOA minimum for kaavi.fi OK (3600) - recommended between 300 and 86400.
+149.112: kaavi.fi INFO Done testing SOA parameters for kaavi.fi.
+149.112: kaavi.fi INFO Begin testing connectivity for kaavi.fi.
+151.392: kaavi.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+151.392: kaavi.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+151.392: kaavi.fi INFO Done testing connectivity for kaavi.fi.
+151.393: kaavi.fi INFO Begin testing DNSSEC for kaavi.fi.
+151.689: kaavi.fi INFO Did not find DS record for kaavi.fi at parent.
+151.921: kaavi.fi INFO Servers for kaavi.fi have consistent extra processing status.
+152.041: kaavi.fi INFO Authenticated denial records not found for kaavi.fi.
+152.135: kaavi.fi INFO Did not find DNSKEY record for kaavi.fi at child.
+152.135: kaavi.fi INFO No DNSKEY(s) found at child, other tests skipped.
+152.135: kaavi.fi INFO Done testing DNSSEC for kaavi.fi.
+152.135: kaavi.fi INFO Test completed for zone kaavi.fi.

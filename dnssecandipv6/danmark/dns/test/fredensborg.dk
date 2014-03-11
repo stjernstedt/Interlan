@@ -1,0 +1,87 @@
+  0.000: fredensborg.dk INFO Begin testing zone fredensborg.dk with version 1.6.1.
+  0.429: fredensborg.dk INFO Begin testing delegation for fredensborg.dk.
+ 13.867: fredensborg.dk INFO Name servers listed at parent: ns1.webhotel.net,ns2.webhotel.net,ns3.webhotel.net
+ 43.813: fredensborg.dk INFO Name servers listed at child: ns1.webhotel.net,ns2.webhotel.net,ns3.webhotel.net
+ 43.814: fredensborg.dk NOTICE No IPv6 name servers found.
+ 84.945: fredensborg.dk INFO It is possible to build a referral packet for fredensborg.dk that works without EDNS0.
+ 98.224: fredensborg.dk INFO Previously used name servers for fredensborg.dk: 
+ 98.224: fredensborg.dk INFO Done testing delegation for fredensborg.dk.
+ 98.224: fredensborg.dk INFO Begin testing name server ns1.webhotel.net.
+ 98.224: fredensborg.dk INFO Begin testing host ns1.webhotel.net.
+102.779: fredensborg.dk INFO Begin testing address 217.145.49.1.
+114.571: fredensborg.dk INFO Done testing address 217.145.49.1.
+114.571: fredensborg.dk INFO Done testing host ns1.webhotel.net.
+118.781: fredensborg.dk INFO Name server ns1.webhotel.net (217.145.49.1) answers queries over UDP.
+118.828: fredensborg.dk INFO Name server ns1.webhotel.net (217.145.49.1) answers queries over TCP.
+118.848: fredensborg.dk INFO Name server ns1.webhotel.net (217.145.49.1) is not recursive.
+118.989: fredensborg.dk INFO Name server ns1.webhotel.net (217.145.49.1) authoritative for fredensborg.dk.
+119.045: fredensborg.dk INFO Name server ns1.webhotel.net (217.145.49.1) closed for zone transfer of fredensborg.dk.
+119.066: fredensborg.dk INFO Legacy name server ID for ns1.webhotel.net (217.145.49.1): hostname.bind = ns1.webhotel.net
+119.104: fredensborg.dk INFO Legacy name server ID for ns1.webhotel.net (217.145.49.1): version.bind = You are kidding, right?
+119.137: fredensborg.dk NOTICE No answer received from 217.145.49.1 when querying for version.server/CH/TXT.
+119.137: fredensborg.dk INFO Done testing name server ns1.webhotel.net.
+119.137: fredensborg.dk INFO Begin testing name server ns2.webhotel.net.
+119.138: fredensborg.dk INFO Begin testing host ns2.webhotel.net.
+123.403: fredensborg.dk INFO Begin testing address 217.145.48.2.
+128.369: fredensborg.dk INFO Done testing address 217.145.48.2.
+128.370: fredensborg.dk INFO Done testing host ns2.webhotel.net.
+132.695: fredensborg.dk INFO Name server ns2.webhotel.net (217.145.48.2) answers queries over UDP.
+132.729: fredensborg.dk INFO Name server ns2.webhotel.net (217.145.48.2) answers queries over TCP.
+132.747: fredensborg.dk INFO Name server ns2.webhotel.net (217.145.48.2) is not recursive.
+132.821: fredensborg.dk INFO Name server ns2.webhotel.net (217.145.48.2) authoritative for fredensborg.dk.
+132.872: fredensborg.dk INFO Name server ns2.webhotel.net (217.145.48.2) closed for zone transfer of fredensborg.dk.
+132.889: fredensborg.dk INFO Legacy name server ID for ns2.webhotel.net (217.145.48.2): hostname.bind = ns2.webhotel.net
+132.908: fredensborg.dk INFO Legacy name server ID for ns2.webhotel.net (217.145.48.2): version.bind = You are kidding, right?
+132.943: fredensborg.dk NOTICE No answer received from 217.145.48.2 when querying for version.server/CH/TXT.
+132.943: fredensborg.dk INFO Done testing name server ns2.webhotel.net.
+132.944: fredensborg.dk INFO Begin testing name server ns3.webhotel.net.
+132.944: fredensborg.dk INFO Begin testing host ns3.webhotel.net.
+141.263: fredensborg.dk INFO Begin testing address 87.238.249.33.
+146.066: fredensborg.dk INFO Done testing address 87.238.249.33.
+146.066: fredensborg.dk INFO Done testing host ns3.webhotel.net.
+154.496: fredensborg.dk ERROR Name server ns3.webhotel.net (87.238.249.33) does not answer queries over UDP.
+154.497: fredensborg.dk ERROR Name server ns3.webhotel.net (87.238.249.33) does not answer queries over TCP.
+154.497: fredensborg.dk INFO Done testing name server ns3.webhotel.net.
+154.497: fredensborg.dk INFO Begin testing zone consistency for fredensborg.dk.
+181.384: fredensborg.dk INFO SOA at address 217.145.48.2 has serial 1389363206.
+181.452: fredensborg.dk INFO SOA at address 217.145.49.1 has serial 1389363206.
+181.452: fredensborg.dk INFO All SOA records have consistent serial numbers.
+181.452: fredensborg.dk INFO All other fields in the SOA record are consistent among all name servers.
+199.023: fredensborg.dk NOTICE The listed nameservers for fredensborg.dk all report the same set of nameservers.
+199.023: fredensborg.dk INFO Done testing zone consistency for fredensborg.dk.
+199.023: fredensborg.dk INFO Begin testing SOA parameters for fredensborg.dk.
+203.065: fredensborg.dk INFO Found SOA record for fredensborg.dk.
+203.065: fredensborg.dk INFO Begin testing host ns1.webhotel.net.
+207.227: fredensborg.dk INFO Begin testing address 217.145.49.1.
+211.499: fredensborg.dk INFO Done testing address 217.145.49.1.
+211.499: fredensborg.dk INFO Done testing host ns1.webhotel.net.
+211.499: fredensborg.dk INFO SOA MNAME for fredensborg.dk valid (ns1.webhotel.net).
+211.500: fredensborg.dk INFO SOA MNAME for fredensborg.dk (ns1.webhotel.net) listed as NS.
+215.828: fredensborg.dk INFO SOA MNAME for fredensborg.dk (ns1.webhotel.net) is authoritative.
+215.829: fredensborg.dk INFO Begin testing email address admin@webhotel.net.
+220.138: fredensborg.dk INFO Mail exchangers for admin@webhotel.net found mail.webhotel.net.
+220.138: fredensborg.dk INFO Begin testing host mail.webhotel.net.
+228.775: fredensborg.dk INFO Begin testing address 217.145.49.10.
+233.414: fredensborg.dk INFO Done testing address 217.145.49.10.
+233.414: fredensborg.dk INFO Done testing host mail.webhotel.net.
+237.675: fredensborg.dk INFO Done testing email address admin@webhotel.net.
+237.675: fredensborg.dk INFO Successful attempt to deliver email for SOA RNAME of fredensborg.dk (admin.webhotel.net) using admin@webhotel.net.
+237.676: fredensborg.dk INFO SOA TTL for fredensborg.dk OK (86400) - recommended >= 3600.
+237.676: fredensborg.dk INFO SOA refresh for fredensborg.dk OK (21600) - recommended >= 14400.
+237.676: fredensborg.dk INFO SOA retry for fredensborg.dk OK (3600) - recommended >= 3600.
+237.676: fredensborg.dk INFO SOA expire for fredensborg.dk OK (604800) - recommended >= 604800.
+237.676: fredensborg.dk INFO SOA minimum for fredensborg.dk OK (86400) - recommended between 300 and 86400.
+237.676: fredensborg.dk INFO Done testing SOA parameters for fredensborg.dk.
+237.676: fredensborg.dk INFO Begin testing connectivity for fredensborg.dk.
+238.876: fredensborg.dk INFO Zone announced by more than one ASN.
+238.876: fredensborg.dk NOTICE Zone announced by fewer than two IPv6 ASN.
+238.876: fredensborg.dk INFO Done testing connectivity for fredensborg.dk.
+238.876: fredensborg.dk INFO Begin testing DNSSEC for fredensborg.dk.
+238.925: fredensborg.dk INFO Did not find DS record for fredensborg.dk at parent.
+240.937: fredensborg.dk NOTICE DNS lookup error (connection failed).
+241.005: fredensborg.dk INFO Servers for fredensborg.dk have consistent extra processing status.
+243.046: fredensborg.dk INFO Authenticated denial records not found for fredensborg.dk.
+247.087: fredensborg.dk INFO Did not find DNSKEY record for fredensborg.dk at child.
+247.087: fredensborg.dk INFO No DNSKEY(s) found at child, other tests skipped.
+247.087: fredensborg.dk INFO Done testing DNSSEC for fredensborg.dk.
+247.087: fredensborg.dk INFO Test completed for zone fredensborg.dk.

@@ -1,0 +1,78 @@
+  0.000: ftech.se INFO Begin testing zone ftech.se with version 1.5.0.
+  0.004: ftech.se INFO Begin testing delegation for ftech.se.
+ 13.232: ftech.se INFO Name servers listed at parent: k2.fagerlind.com,snowdown.fagerlind.com
+ 15.757: ftech.se INFO Name servers listed at child: k2.fagerlind.com,snowdown.fagerlind.com
+ 15.757: ftech.se NOTICE No IPv6 name servers found.
+ 17.740: ftech.se INFO It is possible to build a referral packet for ftech.se that works without EDNS0.
+ 17.740: ftech.se INFO Done testing delegation for ftech.se.
+ 17.741: ftech.se INFO Begin testing name server k2.fagerlind.com.
+ 17.742: ftech.se INFO Begin testing host k2.fagerlind.com.
+ 18.315: ftech.se INFO Begin testing address 91.239.216.66.
+ 28.858: ftech.se INFO Done testing address 91.239.216.66.
+ 28.859: ftech.se INFO Done testing host k2.fagerlind.com.
+ 29.580: ftech.se INFO Name server k2.fagerlind.com (91.239.216.66) answers queries over UDP.
+ 29.612: ftech.se INFO Name server k2.fagerlind.com (91.239.216.66) answers queries over TCP.
+ 29.808: ftech.se INFO Name server k2.fagerlind.com (91.239.216.66) is not recursive.
+ 30.023: ftech.se INFO Name server k2.fagerlind.com (91.239.216.66) authoritative for ftech.se.
+ 30.232: ftech.se INFO Name server k2.fagerlind.com (91.239.216.66) closed for zone transfer of ftech.se.
+ 30.255: ftech.se NOTICE No answer received from 91.239.216.66 when querying for hostname.bind/CH/TXT.
+ 48.280: ftech.se INFO Done testing name server k2.fagerlind.com.
+ 48.280: ftech.se INFO Begin testing name server snowdown.fagerlind.com.
+ 48.280: ftech.se INFO Begin testing host snowdown.fagerlind.com.
+ 48.596: ftech.se INFO Begin testing address 195.198.214.72.
+ 51.216: ftech.se INFO Done testing address 195.198.214.72.
+ 51.216: ftech.se INFO Done testing host snowdown.fagerlind.com.
+ 51.484: ftech.se INFO Name server snowdown.fagerlind.com (195.198.214.72) answers queries over UDP.
+ 51.538: ftech.se INFO Name server snowdown.fagerlind.com (195.198.214.72) answers queries over TCP.
+ 51.797: ftech.se INFO Name server snowdown.fagerlind.com (195.198.214.72) is not recursive.
+ 51.951: ftech.se INFO Name server snowdown.fagerlind.com (195.198.214.72) authoritative for ftech.se.
+ 52.189: ftech.se INFO Name server snowdown.fagerlind.com (195.198.214.72) closed for zone transfer of ftech.se.
+ 52.228: ftech.se NOTICE No answer received from 195.198.214.72 when querying for hostname.bind/CH/TXT.
+ 70.259: ftech.se INFO Done testing name server snowdown.fagerlind.com.
+ 70.260: ftech.se INFO Begin testing zone consistency for ftech.se.
+ 73.066: ftech.se INFO SOA at address 195.198.214.72 has serial 275.
+ 73.164: ftech.se INFO SOA at address 91.239.216.66 has serial 275.
+ 73.164: ftech.se INFO All SOA records have consistent serial numbers.
+ 73.165: ftech.se INFO All other fields in the SOA record are consistent among all name servers.
+ 74.561: ftech.se NOTICE The listed nameservers for ftech.se all report the same set of nameservers.
+ 74.561: ftech.se INFO Done testing zone consistency for ftech.se.
+ 74.561: ftech.se INFO Begin testing SOA parameters for ftech.se.
+ 74.690: ftech.se INFO Found SOA record for ftech.se.
+ 74.691: ftech.se INFO Begin testing host snowdown.fagerlind.com.
+ 75.349: ftech.se INFO Begin testing address 195.198.214.72.
+ 76.232: ftech.se INFO Done testing address 195.198.214.72.
+ 76.232: ftech.se INFO Done testing host snowdown.fagerlind.com.
+ 76.232: ftech.se INFO SOA MNAME for ftech.se valid (snowdown.fagerlind.com).
+ 76.233: ftech.se INFO SOA MNAME for ftech.se (snowdown.fagerlind.com) listed as NS.
+ 76.835: ftech.se INFO SOA MNAME for ftech.se (snowdown.fagerlind.com) is authoritative.
+ 76.835: ftech.se INFO Begin testing email address registry@fagerlind.com.
+ 77.884: ftech.se INFO Mail exchangers for registry@fagerlind.com found mailsrv08.ftech.se,mailsrv05.ftech.se.
+ 77.885: ftech.se INFO All mail servers for registry@fagerlind.com are in zone ftech.se.
+ 77.885: ftech.se INFO Begin testing host mailsrv08.ftech.se.
+ 79.052: ftech.se INFO Begin testing address 91.239.216.75.
+ 80.384: ftech.se INFO Done testing address 91.239.216.75.
+ 80.384: ftech.se INFO Done testing host mailsrv08.ftech.se.
+ 80.852: ftech.se INFO Begin testing host mailsrv05.ftech.se.
+ 81.915: ftech.se INFO Begin testing address 195.198.214.66.
+ 83.764: ftech.se INFO Done testing address 195.198.214.66.
+ 83.764: ftech.se INFO Done testing host mailsrv05.ftech.se.
+ 84.252: ftech.se INFO Done testing email address registry@fagerlind.com.
+ 84.252: ftech.se INFO Successful attempt to deliver email for SOA RNAME of ftech.se (registry.fagerlind.com) using registry@fagerlind.com.
+ 84.253: ftech.se NOTICE SOA TTL for ftech.se too small (60) - recommended >= 3600.
+ 84.253: ftech.se NOTICE SOA refresh for ftech.se too small (3600) - recommended >= 14400.
+ 84.253: ftech.se NOTICE SOA retry for ftech.se too small (600) - recommended >= 3600.
+ 84.253: ftech.se NOTICE SOA expire for ftech.se too small (86400) - recommended >= 604800.
+ 84.253: ftech.se INFO SOA minimum for ftech.se OK (3600) - recommended between 300 and 86400.
+ 84.253: ftech.se INFO Done testing SOA parameters for ftech.se.
+ 84.254: ftech.se INFO Begin testing connectivity for ftech.se.
+ 86.717: ftech.se INFO Zone announced by more than one ASN.
+ 86.717: ftech.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 86.717: ftech.se INFO Done testing connectivity for ftech.se.
+ 86.717: ftech.se INFO Begin testing DNSSEC for ftech.se.
+ 86.810: ftech.se INFO Did not find DS record for ftech.se at parent.
+ 86.949: ftech.se INFO Servers for ftech.se have consistent extra processing status.
+ 87.046: ftech.se INFO Authenticated denial records not found for ftech.se.
+ 87.080: ftech.se INFO Did not find DNSKEY record for ftech.se at child.
+ 87.080: ftech.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 87.080: ftech.se INFO Done testing DNSSEC for ftech.se.
+ 87.080: ftech.se INFO Test completed for zone ftech.se.

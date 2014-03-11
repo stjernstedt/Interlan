@@ -1,0 +1,91 @@
+  0.016: luroy.kommune.no INFO Begin testing zone luroy.kommune.no with version 1.6.1.
+  0.400: luroy.kommune.no INFO Begin testing delegation for luroy.kommune.no.
+  7.518: luroy.kommune.no INFO Name servers listed at parent: dns1.itet.no,dns2.itet.no
+  8.602: luroy.kommune.no INFO Name servers listed at child: dns1.itet.no,dns2.itet.no
+  8.602: luroy.kommune.no NOTICE No IPv6 name servers found.
+  8.760: luroy.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  8.894: luroy.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.022: luroy.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.164: luroy.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.834: luroy.kommune.no INFO It is possible to build a referral packet for luroy.kommune.no that works without EDNS0.
+ 10.169: luroy.kommune.no INFO Previously used name servers for luroy.kommune.no: 
+ 10.169: luroy.kommune.no INFO Done testing delegation for luroy.kommune.no.
+ 10.169: luroy.kommune.no INFO Begin testing name server dns1.itet.no.
+ 10.169: luroy.kommune.no INFO Begin testing host dns1.itet.no.
+ 10.417: luroy.kommune.no INFO Begin testing address 193.169.42.23.
+ 15.101: luroy.kommune.no INFO Done testing address 193.169.42.23.
+ 15.101: luroy.kommune.no INFO Done testing host dns1.itet.no.
+ 15.329: luroy.kommune.no INFO Name server dns1.itet.no (193.169.42.23) answers queries over UDP.
+ 15.389: luroy.kommune.no INFO Name server dns1.itet.no (193.169.42.23) answers queries over TCP.
+ 15.423: luroy.kommune.no WARNING Name server dns1.itet.no (193.169.42.23) is recursive.
+ 15.558: luroy.kommune.no INFO Name server dns1.itet.no (193.169.42.23) authoritative for luroy.kommune.no.
+ 15.732: luroy.kommune.no INFO Name server dns1.itet.no (193.169.42.23) closed for zone transfer of luroy.kommune.no.
+ 15.771: luroy.kommune.no INFO Legacy name server ID for dns1.itet.no (193.169.42.23): hostname.bind = dns1.itet.no
+ 15.804: luroy.kommune.no INFO Legacy name server ID for dns1.itet.no (193.169.42.23): version.bind = 9.7.2-P3
+ 15.862: luroy.kommune.no NOTICE No answer received from 193.169.42.23 when querying for version.server/CH/TXT.
+ 15.862: luroy.kommune.no INFO Done testing name server dns1.itet.no.
+ 15.862: luroy.kommune.no INFO Begin testing name server dns2.itet.no.
+ 15.862: luroy.kommune.no INFO Begin testing host dns2.itet.no.
+ 16.004: luroy.kommune.no INFO Begin testing address 80.89.33.210.
+ 16.837: luroy.kommune.no INFO Done testing address 80.89.33.210.
+ 16.837: luroy.kommune.no INFO Done testing host dns2.itet.no.
+ 17.113: luroy.kommune.no INFO Name server dns2.itet.no (80.89.33.210) answers queries over UDP.
+ 17.168: luroy.kommune.no INFO Name server dns2.itet.no (80.89.33.210) answers queries over TCP.
+ 17.204: luroy.kommune.no INFO Name server dns2.itet.no (80.89.33.210) is not recursive.
+ 17.328: luroy.kommune.no INFO Name server dns2.itet.no (80.89.33.210) authoritative for luroy.kommune.no.
+ 17.515: luroy.kommune.no INFO Name server dns2.itet.no (80.89.33.210) closed for zone transfer of luroy.kommune.no.
+ 17.559: luroy.kommune.no NOTICE No answer received from 80.89.33.210 when querying for hostname.bind/CH/TXT.
+ 17.601: luroy.kommune.no NOTICE No answer received from 80.89.33.210 when querying for version.bind/CH/TXT.
+ 17.633: luroy.kommune.no NOTICE No answer received from 80.89.33.210 when querying for id.server/CH/TXT.
+ 17.661: luroy.kommune.no NOTICE No answer received from 80.89.33.210 when querying for version.server/CH/TXT.
+ 17.661: luroy.kommune.no INFO Done testing name server dns2.itet.no.
+ 17.661: luroy.kommune.no INFO Begin testing zone consistency for luroy.kommune.no.
+ 18.294: luroy.kommune.no INFO SOA at address 80.89.33.210 has serial 2012091730.
+ 18.353: luroy.kommune.no INFO SOA at address 193.169.42.23 has serial 2012091730.
+ 18.353: luroy.kommune.no INFO All SOA records have consistent serial numbers.
+ 18.353: luroy.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 18.774: luroy.kommune.no NOTICE The listed nameservers for luroy.kommune.no all report the same set of nameservers.
+ 18.774: luroy.kommune.no INFO Done testing zone consistency for luroy.kommune.no.
+ 18.774: luroy.kommune.no INFO Begin testing SOA parameters for luroy.kommune.no.
+ 18.813: luroy.kommune.no INFO Found SOA record for luroy.kommune.no.
+ 18.813: luroy.kommune.no INFO Begin testing host dns1.itet.no.
+ 18.966: luroy.kommune.no INFO Begin testing address 193.169.42.23.
+ 19.145: luroy.kommune.no INFO Done testing address 193.169.42.23.
+ 19.145: luroy.kommune.no INFO Done testing host dns1.itet.no.
+ 19.145: luroy.kommune.no INFO SOA MNAME for luroy.kommune.no valid (dns1.itet.no).
+ 19.145: luroy.kommune.no INFO SOA MNAME for luroy.kommune.no (dns1.itet.no) listed as NS.
+ 19.351: luroy.kommune.no INFO SOA MNAME for luroy.kommune.no (dns1.itet.no) is authoritative.
+ 19.352: luroy.kommune.no INFO Begin testing email address hostmaster@itet.no.
+ 19.526: luroy.kommune.no INFO Mail exchangers for hostmaster@itet.no found gw1.security.comendo.com,gw2.security.comendo.com,gw3.security.comendo.com.
+ 19.526: luroy.kommune.no INFO Begin testing host gw1.security.comendo.com.
+ 20.485: luroy.kommune.no INFO Begin testing address 89.104.217.10.
+ 21.442: luroy.kommune.no INFO Done testing address 89.104.217.10.
+ 21.442: luroy.kommune.no INFO Done testing host gw1.security.comendo.com.
+ 21.768: luroy.kommune.no INFO Begin testing host gw2.security.comendo.com.
+ 22.408: luroy.kommune.no INFO Begin testing address 89.104.217.10.
+ 22.813: luroy.kommune.no INFO Done testing address 89.104.217.10.
+ 22.813: luroy.kommune.no INFO Done testing host gw2.security.comendo.com.
+ 23.097: luroy.kommune.no INFO Begin testing host gw3.security.comendo.com.
+ 23.712: luroy.kommune.no INFO Begin testing address 89.104.216.11.
+ 24.557: luroy.kommune.no INFO Done testing address 89.104.216.11.
+ 24.557: luroy.kommune.no INFO Done testing host gw3.security.comendo.com.
+ 24.916: luroy.kommune.no INFO Done testing email address hostmaster@itet.no.
+ 24.916: luroy.kommune.no INFO Successful attempt to deliver email for SOA RNAME of luroy.kommune.no (hostmaster.itet.no) using hostmaster@itet.no.
+ 24.916: luroy.kommune.no NOTICE SOA TTL for luroy.kommune.no too small (300) - recommended >= 3600.
+ 24.916: luroy.kommune.no INFO SOA refresh for luroy.kommune.no OK (28800) - recommended >= 14400.
+ 24.916: luroy.kommune.no INFO SOA retry for luroy.kommune.no OK (7200) - recommended >= 3600.
+ 24.917: luroy.kommune.no INFO SOA expire for luroy.kommune.no OK (3600000) - recommended >= 604800.
+ 24.917: luroy.kommune.no NOTICE SOA minimum for luroy.kommune.no too large (172800) - recommended <= 86400.
+ 24.917: luroy.kommune.no INFO Done testing SOA parameters for luroy.kommune.no.
+ 24.917: luroy.kommune.no INFO Begin testing connectivity for luroy.kommune.no.
+ 26.300: luroy.kommune.no NOTICE Zone announced by fewer than two IPv4 ASN.
+ 26.301: luroy.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 26.301: luroy.kommune.no INFO Done testing connectivity for luroy.kommune.no.
+ 26.301: luroy.kommune.no INFO Begin testing DNSSEC for luroy.kommune.no.
+ 26.413: luroy.kommune.no INFO Did not find DS record for luroy.kommune.no at parent.
+ 26.534: luroy.kommune.no INFO Servers for luroy.kommune.no have consistent extra processing status.
+ 26.609: luroy.kommune.no INFO Authenticated denial records not found for luroy.kommune.no.
+ 26.639: luroy.kommune.no INFO Did not find DNSKEY record for luroy.kommune.no at child.
+ 26.639: luroy.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 26.639: luroy.kommune.no INFO Done testing DNSSEC for luroy.kommune.no.
+ 26.656: luroy.kommune.no INFO Test completed for zone luroy.kommune.no.

@@ -1,0 +1,94 @@
+  0.000: kumla.se INFO Begin testing zone kumla.se with version 1.2.
+  0.000: kumla.se INFO Begin testing delegation for kumla.se.
+  5.604: kumla.se INFO Name servers listed at parent: dns2.utfors.se,ns.kumla.se
+  6.690: kumla.se INFO Name servers listed at child: dns2.utfors.se,ns.kumla.se
+  6.690: kumla.se NOTICE No IPv6 name servers found.
+  6.778: kumla.se INFO Parent glue for kumla.se found: ns.kumla.se (194.103.202.4)
+  6.796: kumla.se INFO Checking glue for ns.kumla.se (194.103.202.4).
+  6.808: kumla.se INFO Child glue for kumla.se found: ns.kumla.se (194.103.202.4)
+  6.808: kumla.se INFO Parent glue for kumla.se found: ns.kumla.se (194.103.202.4)
+  6.809: kumla.se INFO Done testing delegation for kumla.se.
+  6.809: kumla.se INFO Begin testing name server dns2.utfors.se.
+  6.809: kumla.se INFO Begin testing host dns2.utfors.se.
+  6.810: kumla.se INFO Begin testing address 213.150.128.30.
+ 17.355: kumla.se INFO Done testing address 213.150.128.30.
+ 17.355: kumla.se INFO Done testing host dns2.utfors.se.
+ 17.364: kumla.se INFO Name server dns2.utfors.se (213.150.128.30) answers queries over UDP.
+ 17.376: kumla.se INFO Name server dns2.utfors.se (213.150.128.30) answers queries over TCP.
+ 17.383: kumla.se INFO Name server dns2.utfors.se (213.150.128.30) is not recursive.
+ 17.390: kumla.se INFO Name server dns2.utfors.se (213.150.128.30) authoritative for kumla.se.
+ 17.403: kumla.se INFO Name server dns2.utfors.se (213.150.128.30) closed for zone transfer of kumla.se.
+ 17.413: kumla.se INFO Legacy name server ID for dns2.utfors.se (213.150.128.30): hostname.bind = ns2.telenor.se
+ 17.420: kumla.se INFO Legacy name server ID for dns2.utfors.se (213.150.128.30): version.bind = Telenor DNS
+ 17.432: kumla.se NOTICE No answer received from 213.150.128.30 when querying for version.server/CH/TXT.
+ 17.432: kumla.se INFO Done testing name server dns2.utfors.se.
+ 17.432: kumla.se INFO Begin testing name server ns.kumla.se.
+ 17.432: kumla.se INFO Begin testing host ns.kumla.se.
+ 17.433: kumla.se INFO Begin testing address 194.103.202.4.
+ 19.654: kumla.se INFO Done testing address 194.103.202.4.
+ 19.654: kumla.se INFO Done testing host ns.kumla.se.
+ 19.667: kumla.se INFO Name server ns.kumla.se (194.103.202.4) answers queries over UDP.
+ 19.687: kumla.se INFO Name server ns.kumla.se (194.103.202.4) answers queries over TCP.
+ 20.196: kumla.se INFO Name server ns.kumla.se (194.103.202.4) is not recursive.
+ 20.209: kumla.se INFO Name server ns.kumla.se (194.103.202.4) authoritative for kumla.se.
+ 20.388: kumla.se INFO Name server ns.kumla.se (194.103.202.4) closed for zone transfer of kumla.se.
+ 20.399: kumla.se NOTICE No answer received from 194.103.202.4 when querying for hostname.bind/CH/TXT.
+ 38.399: kumla.se INFO Done testing name server ns.kumla.se.
+ 38.400: kumla.se INFO Begin testing zone consistency for kumla.se.
+ 38.416: kumla.se INFO SOA at address 194.103.202.4 has serial 150.
+ 38.430: kumla.se INFO SOA at address 213.150.128.30 has serial 150.
+ 38.430: kumla.se INFO All SOA records have consistent serial numbers.
+ 38.430: kumla.se INFO All SOA records are consistent among all name servers.
+ 38.430: kumla.se INFO Done testing zone consistency for kumla.se.
+ 38.430: kumla.se INFO Begin testing SOA parameters for kumla.se.
+ 38.442: kumla.se INFO Found SOA record for kumla.se.
+ 38.442: kumla.se INFO Begin testing host ns.kumla.se.
+ 38.442: kumla.se INFO Begin testing address 194.103.202.4.
+ 38.444: kumla.se INFO Done testing address 194.103.202.4.
+ 38.444: kumla.se INFO Done testing host ns.kumla.se.
+ 38.444: kumla.se INFO SOA MNAME for kumla.se valid (ns.kumla.se).
+ 38.444: kumla.se INFO SOA MNAME for kumla.se (ns.kumla.se) listed as NS.
+ 38.456: kumla.se INFO SOA MNAME for kumla.se (ns.kumla.se) is authoritative.
+ 38.457: kumla.se INFO Begin testing email address it-enheten@kumla.se.
+ 38.682: kumla.se INFO Mail exchangers for it-enheten@kumla.se found dkcphmx76.softcom.dk,dkcphmx78.softcom.dk,deframx30.softcom.dk.
+ 38.682: kumla.se INFO Begin testing host dkcphmx76.softcom.dk.
+ 39.287: kumla.se INFO Begin testing address 194.192.15.205.
+ 47.457: kumla.se INFO Done testing address 194.192.15.205.
+ 47.457: kumla.se INFO Done testing host dkcphmx76.softcom.dk.
+ 47.458: kumla.se INFO Begin testing mail server dkcphmx76.softcom.dk (194.192.15.205) with it-enheten@kumla.se.
+ 47.570: kumla.se INFO SMTP banner: dkcphmx76.softcom.dk ESMTP ready;
+ 47.659: kumla.se INFO SMTP testing of dkcphmx76.softcom.dk (194.192.15.205) with it-enheten@kumla.se succeeded without errors.
+ 47.659: kumla.se INFO Done testing mail server dkcphmx76.softcom.dk (194.192.15.205) with it-enheten@kumla.se.
+ 47.659: kumla.se INFO Begin testing host dkcphmx78.softcom.dk.
+ 48.269: kumla.se INFO Begin testing address 213.150.52.220.
+ 48.756: kumla.se INFO Done testing address 213.150.52.220.
+ 48.756: kumla.se INFO Done testing host dkcphmx78.softcom.dk.
+ 48.757: kumla.se INFO Begin testing host deframx30.softcom.dk.
+ 49.246: kumla.se INFO Begin testing address 87.230.103.106.
+ 51.006: kumla.se INFO Done testing address 87.230.103.106.
+ 51.006: kumla.se INFO Done testing host deframx30.softcom.dk.
+ 51.007: kumla.se INFO Delivery over IPv4 to it-enheten@kumla.se ok.
+ 51.007: kumla.se INFO Delivery over IPv6 to it-enheten@kumla.se could not be done.
+ 51.007: kumla.se INFO Done testing email address it-enheten@kumla.se.
+ 51.007: kumla.se INFO Successful attempt to deliver email for SOA RNAME of kumla.se (it-enheten.kumla.se) using it-enheten@kumla.se.
+ 51.007: kumla.se INFO SOA TTL for kumla.se OK (3600) - recommended >= 3600.
+ 51.007: kumla.se NOTICE SOA refresh for kumla.se too small (10800) - recommended >= 14400.
+ 51.008: kumla.se INFO SOA retry for kumla.se OK (3600) - recommended >= 3600.
+ 51.008: kumla.se INFO SOA expire for kumla.se OK (1814400) - recommended >= 604800.
+ 51.008: kumla.se INFO SOA minimum for kumla.se OK (3600) - recommended between 300 and 86400.
+ 51.008: kumla.se INFO Done testing SOA parameters for kumla.se.
+ 51.008: kumla.se INFO Begin testing connectivity for kumla.se.
+ 51.680: kumla.se INFO Name server 194.103.202.4 announced by: 8434
+ 52.282: kumla.se INFO Name server 213.150.128.30 announced by: 2119
+ 52.283: kumla.se INFO Zone announced by IPv4 ASN: 8434,2119
+ 52.283: kumla.se INFO Zone announced by more than one ASN (2).
+ 52.283: kumla.se INFO Zone announced by IPv6 ASN: 
+ 52.283: kumla.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 52.284: kumla.se INFO Done testing connectivity for kumla.se.
+ 52.284: kumla.se INFO Begin testing DNSSEC for kumla.se.
+ 52.360: kumla.se INFO Did not find DS record for kumla.se at parent.
+ 52.391: kumla.se INFO Servers for kumla.se have consistent extra processing status.
+ 52.391: kumla.se INFO Did not find DNSKEY record for kumla.se at child.
+ 52.391: kumla.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 52.392: kumla.se INFO Done testing DNSSEC for kumla.se.
+ 52.392: kumla.se INFO Test completed for zone kumla.se.

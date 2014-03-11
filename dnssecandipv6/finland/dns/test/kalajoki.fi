@@ -1,0 +1,93 @@
+  0.000: kalajoki.fi INFO Begin testing zone kalajoki.fi with version 1.6.1.
+  0.409: kalajoki.fi INFO Begin testing delegation for kalajoki.fi.
+  9.455: kalajoki.fi INFO Name servers listed at parent: ns1.kotinet.com,ns2.kotinet.com,ns3.kotinet.com
+ 12.686: kalajoki.fi INFO Name servers listed at child: ns1.kotinet.com,ns2.kotinet.com,ns3.kotinet.com
+ 12.687: kalajoki.fi NOTICE No IPv6 name servers found.
+ 15.303: kalajoki.fi INFO It is possible to build a referral packet for kalajoki.fi that works without EDNS0.
+ 16.602: kalajoki.fi INFO Previously used name servers for kalajoki.fi: 
+ 16.602: kalajoki.fi INFO Done testing delegation for kalajoki.fi.
+ 16.602: kalajoki.fi INFO Begin testing name server ns1.kotinet.com.
+ 16.602: kalajoki.fi INFO Begin testing host ns1.kotinet.com.
+ 17.160: kalajoki.fi INFO Begin testing address 212.50.211.242.
+ 22.303: kalajoki.fi INFO Done testing address 212.50.211.242.
+ 22.303: kalajoki.fi INFO Done testing host ns1.kotinet.com.
+ 22.577: kalajoki.fi INFO Name server ns1.kotinet.com (212.50.211.242) answers queries over UDP.
+ 22.637: kalajoki.fi INFO Name server ns1.kotinet.com (212.50.211.242) answers queries over TCP.
+ 22.661: kalajoki.fi INFO Name server ns1.kotinet.com (212.50.211.242) is not recursive.
+ 22.771: kalajoki.fi INFO Name server ns1.kotinet.com (212.50.211.242) authoritative for kalajoki.fi.
+ 22.831: kalajoki.fi INFO Name server ns1.kotinet.com (212.50.211.242) closed for zone transfer of kalajoki.fi.
+ 22.870: kalajoki.fi INFO Legacy name server ID for ns1.kotinet.com (212.50.211.242): hostname.bind = ns1.kotinet.com
+ 22.894: kalajoki.fi INFO Legacy name server ID for ns1.kotinet.com (212.50.211.242): version.bind = enkerro
+ 22.956: kalajoki.fi NOTICE No answer received from 212.50.211.242 when querying for version.server/CH/TXT.
+ 22.956: kalajoki.fi INFO Done testing name server ns1.kotinet.com.
+ 22.956: kalajoki.fi INFO Begin testing name server ns2.kotinet.com.
+ 22.956: kalajoki.fi INFO Begin testing host ns2.kotinet.com.
+ 23.505: kalajoki.fi INFO Begin testing address 212.50.192.226.
+ 24.310: kalajoki.fi INFO Done testing address 212.50.192.226.
+ 24.310: kalajoki.fi INFO Done testing host ns2.kotinet.com.
+ 24.531: kalajoki.fi INFO Name server ns2.kotinet.com (212.50.192.226) answers queries over UDP.
+ 24.575: kalajoki.fi INFO Name server ns2.kotinet.com (212.50.192.226) answers queries over TCP.
+ 24.612: kalajoki.fi INFO Name server ns2.kotinet.com (212.50.192.226) is not recursive.
+ 24.783: kalajoki.fi INFO Name server ns2.kotinet.com (212.50.192.226) authoritative for kalajoki.fi.
+ 24.848: kalajoki.fi INFO Name server ns2.kotinet.com (212.50.192.226) closed for zone transfer of kalajoki.fi.
+ 24.887: kalajoki.fi INFO Legacy name server ID for ns2.kotinet.com (212.50.192.226): hostname.bind = ns2
+ 24.909: kalajoki.fi INFO Legacy name server ID for ns2.kotinet.com (212.50.192.226): version.bind = enkerro
+ 24.963: kalajoki.fi NOTICE No answer received from 212.50.192.226 when querying for version.server/CH/TXT.
+ 24.964: kalajoki.fi INFO Done testing name server ns2.kotinet.com.
+ 24.964: kalajoki.fi INFO Begin testing name server ns3.kotinet.com.
+ 24.964: kalajoki.fi INFO Begin testing host ns3.kotinet.com.
+ 25.322: kalajoki.fi INFO Begin testing address 82.141.108.26.
+ 26.130: kalajoki.fi INFO Done testing address 82.141.108.26.
+ 26.130: kalajoki.fi INFO Done testing host ns3.kotinet.com.
+ 26.541: kalajoki.fi INFO Name server ns3.kotinet.com (82.141.108.26) answers queries over UDP.
+ 26.607: kalajoki.fi INFO Name server ns3.kotinet.com (82.141.108.26) answers queries over TCP.
+ 26.633: kalajoki.fi INFO Name server ns3.kotinet.com (82.141.108.26) is not recursive.
+ 26.748: kalajoki.fi INFO Name server ns3.kotinet.com (82.141.108.26) authoritative for kalajoki.fi.
+ 26.812: kalajoki.fi INFO Name server ns3.kotinet.com (82.141.108.26) closed for zone transfer of kalajoki.fi.
+ 26.861: kalajoki.fi INFO Legacy name server ID for ns3.kotinet.com (82.141.108.26): hostname.bind = ns3.kotinet.com
+ 26.897: kalajoki.fi INFO Legacy name server ID for ns3.kotinet.com (82.141.108.26): version.bind = enkerro
+ 26.983: kalajoki.fi NOTICE No answer received from 82.141.108.26 when querying for version.server/CH/TXT.
+ 27.001: kalajoki.fi INFO Done testing name server ns3.kotinet.com.
+ 27.001: kalajoki.fi INFO Begin testing zone consistency for kalajoki.fi.
+ 28.935: kalajoki.fi INFO SOA at address 212.50.192.226 has serial 2014021015.
+ 28.966: kalajoki.fi INFO SOA at address 82.141.108.26 has serial 2014021015.
+ 29.007: kalajoki.fi INFO SOA at address 212.50.211.242 has serial 2014021015.
+ 29.007: kalajoki.fi INFO All SOA records have consistent serial numbers.
+ 29.007: kalajoki.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 30.059: kalajoki.fi NOTICE The listed nameservers for kalajoki.fi all report the same set of nameservers.
+ 30.059: kalajoki.fi INFO Done testing zone consistency for kalajoki.fi.
+ 30.059: kalajoki.fi INFO Begin testing SOA parameters for kalajoki.fi.
+ 30.093: kalajoki.fi INFO Found SOA record for kalajoki.fi.
+ 30.093: kalajoki.fi INFO Begin testing host ns1.kotinet.com.
+ 30.358: kalajoki.fi INFO Begin testing address 212.50.211.242.
+ 30.610: kalajoki.fi INFO Done testing address 212.50.211.242.
+ 30.610: kalajoki.fi INFO Done testing host ns1.kotinet.com.
+ 30.610: kalajoki.fi INFO SOA MNAME for kalajoki.fi valid (ns1.kotinet.com).
+ 30.610: kalajoki.fi INFO SOA MNAME for kalajoki.fi (ns1.kotinet.com) listed as NS.
+ 30.956: kalajoki.fi INFO SOA MNAME for kalajoki.fi (ns1.kotinet.com) is authoritative.
+ 30.956: kalajoki.fi INFO Begin testing email address hostmaster@mail.kotinet.com.
+ 31.535: kalajoki.fi INFO Mail exchangers for hostmaster@mail.kotinet.com found mail.kotinet.com.
+ 31.555: kalajoki.fi INFO Begin testing host mail.kotinet.com.
+ 31.858: kalajoki.fi INFO Begin testing address 212.50.215.81.
+ 32.921: kalajoki.fi INFO Done testing address 212.50.215.81.
+ 32.929: kalajoki.fi INFO Done testing host mail.kotinet.com.
+ 33.250: kalajoki.fi INFO Done testing email address hostmaster@mail.kotinet.com.
+ 33.250: kalajoki.fi INFO Successful attempt to deliver email for SOA RNAME of kalajoki.fi (hostmaster.mail.kotinet.com) using hostmaster@mail.kotinet.com.
+ 33.250: kalajoki.fi INFO SOA TTL for kalajoki.fi OK (86400) - recommended >= 3600.
+ 33.250: kalajoki.fi INFO SOA refresh for kalajoki.fi OK (28800) - recommended >= 14400.
+ 33.250: kalajoki.fi INFO SOA retry for kalajoki.fi OK (7200) - recommended >= 3600.
+ 33.250: kalajoki.fi INFO SOA expire for kalajoki.fi OK (604800) - recommended >= 604800.
+ 33.250: kalajoki.fi INFO SOA minimum for kalajoki.fi OK (86400) - recommended between 300 and 86400.
+ 33.250: kalajoki.fi INFO Done testing SOA parameters for kalajoki.fi.
+ 33.250: kalajoki.fi INFO Begin testing connectivity for kalajoki.fi.
+ 34.940: kalajoki.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 34.940: kalajoki.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 34.940: kalajoki.fi INFO Done testing connectivity for kalajoki.fi.
+ 34.941: kalajoki.fi INFO Begin testing DNSSEC for kalajoki.fi.
+ 35.016: kalajoki.fi INFO Did not find DS record for kalajoki.fi at parent.
+ 35.172: kalajoki.fi INFO Servers for kalajoki.fi have consistent extra processing status.
+ 35.226: kalajoki.fi INFO Authenticated denial records not found for kalajoki.fi.
+ 35.249: kalajoki.fi INFO Did not find DNSKEY record for kalajoki.fi at child.
+ 35.249: kalajoki.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 35.249: kalajoki.fi INFO Done testing DNSSEC for kalajoki.fi.
+ 35.250: kalajoki.fi INFO Test completed for zone kalajoki.fi.

@@ -1,0 +1,137 @@
+  0.000: norrtalje.se INFO Begin testing zone norrtalje.se with version 1.6.1.
+  0.500: norrtalje.se INFO Begin testing delegation for norrtalje.se.
+ 15.445: norrtalje.se INFO Name servers listed at parent: ns01.norrtalje.se,ns02.norrtalje.se
+ 17.633: norrtalje.se INFO Name servers listed at child: ns01.norrtalje.se,ns02.norrtalje.se
+ 17.633: norrtalje.se NOTICE No IPv6 name servers found.
+ 17.704: norrtalje.se INFO Parent glue for norrtalje.se found: ns01.norrtalje.se (62.20.76.235)
+ 17.851: norrtalje.se INFO Parent glue for norrtalje.se found: ns02.norrtalje.se (62.20.76.236)
+ 17.949: norrtalje.se INFO Checking glue for ns01.norrtalje.se (62.20.76.235).
+ 18.029: norrtalje.se INFO Child glue for norrtalje.se found: ns01.norrtalje.se (62.20.76.235)
+ 18.029: norrtalje.se INFO Checking glue for ns02.norrtalje.se (62.20.76.236).
+ 18.133: norrtalje.se INFO Child glue for norrtalje.se found: ns02.norrtalje.se (62.20.76.236)
+ 18.133: norrtalje.se INFO Parent glue for norrtalje.se found: ns01.norrtalje.se (62.20.76.235)
+ 18.133: norrtalje.se INFO Parent glue for norrtalje.se found: ns02.norrtalje.se (62.20.76.236)
+ 19.512: norrtalje.se INFO It is possible to build a referral packet for norrtalje.se that works without EDNS0.
+ 20.680: norrtalje.se INFO Previously used name servers for norrtalje.se: 
+ 20.680: norrtalje.se INFO Done testing delegation for norrtalje.se.
+ 20.681: norrtalje.se INFO Begin testing name server ns01.norrtalje.se.
+ 20.681: norrtalje.se INFO Begin testing host ns01.norrtalje.se.
+ 21.501: norrtalje.se INFO Begin testing address 62.20.76.235.
+ 44.085: norrtalje.se INFO Done testing address 62.20.76.235.
+ 44.089: norrtalje.se INFO Done testing host ns01.norrtalje.se.
+ 44.416: norrtalje.se INFO Name server ns01.norrtalje.se (62.20.76.235) answers queries over UDP.
+ 44.465: norrtalje.se INFO Name server ns01.norrtalje.se (62.20.76.235) answers queries over TCP.
+ 44.524: norrtalje.se INFO Name server ns01.norrtalje.se (62.20.76.235) is not recursive.
+ 44.680: norrtalje.se INFO Name server ns01.norrtalje.se (62.20.76.235) authoritative for norrtalje.se.
+ 44.709: norrtalje.se INFO Name server ns01.norrtalje.se (62.20.76.235) closed for zone transfer of norrtalje.se.
+ 44.745: norrtalje.se INFO Legacy name server ID for ns01.norrtalje.se (62.20.76.235): hostname.bind = ns01
+ 44.778: norrtalje.se INFO Legacy name server ID for ns01.norrtalje.se (62.20.76.235): version.bind = none
+ 44.859: norrtalje.se NOTICE No answer received from 62.20.76.235 when querying for version.server/CH/TXT.
+ 44.859: norrtalje.se INFO Done testing name server ns01.norrtalje.se.
+ 44.859: norrtalje.se INFO Begin testing name server ns02.norrtalje.se.
+ 44.878: norrtalje.se INFO Begin testing host ns02.norrtalje.se.
+ 45.234: norrtalje.se INFO Begin testing address 62.20.76.236.
+ 47.340: norrtalje.se INFO Done testing address 62.20.76.236.
+ 47.340: norrtalje.se INFO Done testing host ns02.norrtalje.se.
+ 47.904: norrtalje.se INFO Name server ns02.norrtalje.se (62.20.76.236) answers queries over UDP.
+ 48.205: norrtalje.se INFO Name server ns02.norrtalje.se (62.20.76.236) answers queries over TCP.
+ 48.244: norrtalje.se INFO Name server ns02.norrtalje.se (62.20.76.236) is not recursive.
+ 48.436: norrtalje.se INFO Name server ns02.norrtalje.se (62.20.76.236) authoritative for norrtalje.se.
+ 48.464: norrtalje.se INFO Name server ns02.norrtalje.se (62.20.76.236) closed for zone transfer of norrtalje.se.
+ 48.490: norrtalje.se INFO Legacy name server ID for ns02.norrtalje.se (62.20.76.236): hostname.bind = ns02
+ 48.519: norrtalje.se INFO Legacy name server ID for ns02.norrtalje.se (62.20.76.236): version.bind = none
+ 48.577: norrtalje.se NOTICE No answer received from 62.20.76.236 when querying for version.server/CH/TXT.
+ 48.577: norrtalje.se INFO Done testing name server ns02.norrtalje.se.
+ 48.577: norrtalje.se INFO Begin testing zone consistency for norrtalje.se.
+ 49.633: norrtalje.se INFO SOA at address 62.20.76.235 has serial 2014030700.
+ 49.676: norrtalje.se INFO SOA at address 62.20.76.236 has serial 2014030700.
+ 49.676: norrtalje.se INFO All SOA records have consistent serial numbers.
+ 49.676: norrtalje.se INFO All other fields in the SOA record are consistent among all name servers.
+ 50.209: norrtalje.se NOTICE The listed nameservers for norrtalje.se all report the same set of nameservers.
+ 50.209: norrtalje.se INFO Done testing zone consistency for norrtalje.se.
+ 50.209: norrtalje.se INFO Begin testing SOA parameters for norrtalje.se.
+ 50.241: norrtalje.se INFO Found SOA record for norrtalje.se.
+ 50.241: norrtalje.se INFO Begin testing host ns01.norrtalje.se.
+ 50.448: norrtalje.se INFO Begin testing address 62.20.76.235.
+ 50.682: norrtalje.se INFO Done testing address 62.20.76.235.
+ 50.682: norrtalje.se INFO Done testing host ns01.norrtalje.se.
+ 50.682: norrtalje.se INFO SOA MNAME for norrtalje.se valid (ns01.norrtalje.se).
+ 50.683: norrtalje.se INFO SOA MNAME for norrtalje.se (ns01.norrtalje.se) listed as NS.
+ 51.025: norrtalje.se INFO SOA MNAME for norrtalje.se (ns01.norrtalje.se) is authoritative.
+ 51.025: norrtalje.se INFO Begin testing email address abuse@norrtalje.se.
+ 51.347: norrtalje.se INFO Mail exchangers for abuse@norrtalje.se found smtp-in.sto-hy.se.stejtech.net,smtp-in.sto-ste.se.stejtech.net.
+ 51.347: norrtalje.se INFO Begin testing host smtp-in.sto-hy.se.stejtech.net.
+ 52.920: norrtalje.se INFO Begin testing address 91.236.209.10.
+ 55.750: norrtalje.se INFO Done testing address 91.236.209.10.
+ 55.750: norrtalje.se INFO Begin testing address 79.136.102.100.
+ 57.671: norrtalje.se INFO Done testing address 79.136.102.100.
+ 57.672: norrtalje.se INFO Begin testing address 91.236.208.10.
+ 59.463: norrtalje.se INFO Done testing address 91.236.208.10.
+ 59.463: norrtalje.se INFO Begin testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 62.163: norrtalje.se INFO Done testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 62.164: norrtalje.se INFO Begin testing address 2001:67c:27e0:2110:0:0:0:1b01.
+ 66.054: norrtalje.se INFO Done testing address 2001:67c:27e0:2110:0:0:0:1b01.
+ 66.054: norrtalje.se INFO Begin testing address 2001:9b0:1:703:0:0:0:1b01.
+ 70.396: norrtalje.se INFO Done testing address 2001:9b0:1:703:0:0:0:1b01.
+ 70.396: norrtalje.se INFO Done testing host smtp-in.sto-hy.se.stejtech.net.
+ 70.397: norrtalje.se INFO Begin testing host smtp-in.sto-ste.se.stejtech.net.
+ 72.259: norrtalje.se INFO Begin testing address 79.136.102.90.
+ 73.967: norrtalje.se INFO Done testing address 79.136.102.90.
+ 73.968: norrtalje.se INFO Begin testing address 83.140.31.145.
+ 75.108: norrtalje.se INFO Done testing address 83.140.31.145.
+ 75.108: norrtalje.se INFO Begin testing address 2001:9b0:1:703:0:0:0:b002.
+ 76.926: norrtalje.se INFO Done testing address 2001:9b0:1:703:0:0:0:b002.
+ 76.926: norrtalje.se INFO Done testing host smtp-in.sto-ste.se.stejtech.net.
+ 76.927: norrtalje.se INFO Done testing email address abuse@norrtalje.se.
+ 76.927: norrtalje.se INFO Successful attempt to deliver email for SOA RNAME of norrtalje.se (abuse.norrtalje.se) using abuse@norrtalje.se.
+ 76.927: norrtalje.se INFO SOA TTL for norrtalje.se OK (3600) - recommended >= 3600.
+ 76.927: norrtalje.se INFO SOA refresh for norrtalje.se OK (14400) - recommended >= 14400.
+ 76.927: norrtalje.se INFO SOA retry for norrtalje.se OK (3600) - recommended >= 3600.
+ 76.927: norrtalje.se INFO SOA expire for norrtalje.se OK (1209600) - recommended >= 604800.
+ 76.927: norrtalje.se INFO SOA minimum for norrtalje.se OK (3600) - recommended between 300 and 86400.
+ 76.927: norrtalje.se INFO Done testing SOA parameters for norrtalje.se.
+ 76.949: norrtalje.se INFO Begin testing connectivity for norrtalje.se.
+ 78.022: norrtalje.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 78.022: norrtalje.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 78.041: norrtalje.se INFO Done testing connectivity for norrtalje.se.
+ 78.041: norrtalje.se INFO Begin testing DNSSEC for norrtalje.se.
+ 78.092: norrtalje.se INFO Found DS record for norrtalje.se at parent.
+ 78.157: norrtalje.se INFO Nameserver 62.20.76.235 does DNSSEC extra processing.
+ 78.205: norrtalje.se INFO Nameserver 62.20.76.236 does DNSSEC extra processing.
+ 78.205: norrtalje.se INFO Servers for norrtalje.se have consistent extra processing status.
+ 78.224: norrtalje.se INFO Authenticated denial records found for norrtalje.se, of type NSEC.
+ 78.236: norrtalje.se INFO Found DNSKEY record for norrtalje.se at child.
+ 78.236: norrtalje.se INFO Consistent security for norrtalje.se.
+ 78.236: norrtalje.se INFO Checking DNSSEC at child (norrtalje.se).
+ 78.236: norrtalje.se INFO norrtalje.se's key with tag 26631 uses algorithm number 8 (RSA/SHA-256).
+ 78.236: norrtalje.se INFO Algorithm number 8 is OK.
+ 78.237: norrtalje.se INFO norrtalje.se's key with tag 39587 uses algorithm number 8 (RSA/SHA-256).
+ 78.237: norrtalje.se INFO Algorithm number 8 is OK.
+ 78.237: norrtalje.se INFO DNSKEY norrtalje.se (tag 39587) is marked as a secure entry point (SEP).
+ 78.237: norrtalje.se INFO DNSSEC signature expires at: Tue Mar 25 01:00:08 2014
+ 78.237: norrtalje.se INFO Duration for RRSIG(norrtalje.se/IN/DNSKEY/26631) is OK (1731600 seconds).
+ 78.239: norrtalje.se INFO DNSSEC signature RRSIG(norrtalje.se/IN/DNSKEY/26631) matches records.
+ 78.239: norrtalje.se INFO DNSSEC signature valid: RRSIG(norrtalje.se/IN/DNSKEY/26631)
+ 78.239: norrtalje.se INFO DNSSEC signature expires at: Tue Mar 25 01:00:08 2014
+ 78.251: norrtalje.se INFO Duration for RRSIG(norrtalje.se/IN/DNSKEY/39587) is OK (1731600 seconds).
+ 78.253: norrtalje.se INFO DNSSEC signature RRSIG(norrtalje.se/IN/DNSKEY/39587) matches records.
+ 78.253: norrtalje.se INFO DNSSEC signature valid: RRSIG(norrtalje.se/IN/DNSKEY/39587)
+ 78.253: norrtalje.se INFO Enough valid signatures found for norrtalje.se.
+ 78.278: norrtalje.se INFO DNSSEC signature expires at: Thu Mar 27 10:02:02 2014
+ 78.279: norrtalje.se INFO Duration for RRSIG(norrtalje.se/IN/SOA/26631) is OK (1731600 seconds).
+ 78.280: norrtalje.se INFO DNSSEC signature RRSIG(norrtalje.se/IN/SOA/26631) matches records.
+ 78.280: norrtalje.se INFO DNSSEC signature valid: RRSIG(norrtalje.se/IN/SOA/26631)
+ 78.281: norrtalje.se INFO Enough valid signatures over SOA RRset found for norrtalje.se.
+ 78.281: norrtalje.se INFO DNSSEC child checks for norrtalje.se complete.
+ 78.281: norrtalje.se INFO Checking DNSSEC at parent of norrtalje.se.
+ 78.281: norrtalje.se INFO norrtalje.se's key with tag 39587 uses algorithm number 8 (RSA/SHA-256).
+ 78.281: norrtalje.se INFO Algorithm number 8 is OK.
+ 78.281: norrtalje.se INFO Parent DS(norrtalje.se/8/1/39587) refers to valid key at child: DNSKEY(norrtalje.se/8/39587)
+ 78.281: norrtalje.se INFO Parent DS(norrtalje.se) refers to secure entry point (SEP) at child: DS(norrtalje.se/8/1/39587)
+ 78.282: norrtalje.se INFO norrtalje.se's key with tag 39587 uses algorithm number 8 (RSA/SHA-256).
+ 78.282: norrtalje.se INFO Algorithm number 8 is OK.
+ 78.282: norrtalje.se INFO Parent DS(norrtalje.se/8/2/39587) refers to valid key at child: DNSKEY(norrtalje.se/8/39587)
+ 78.282: norrtalje.se INFO Parent DS(norrtalje.se) refers to secure entry point (SEP) at child: DS(norrtalje.se/8/2/39587)
+ 78.282: norrtalje.se INFO DNSSEC parent checks for norrtalje.se complete.
+ 78.282: norrtalje.se INFO Done testing DNSSEC for norrtalje.se.
+ 78.283: norrtalje.se INFO Test completed for zone norrtalje.se.

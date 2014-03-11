@@ -1,0 +1,82 @@
+  0.000: volda.kommune.no INFO Begin testing zone volda.kommune.no with version 1.6.1.
+  0.271: volda.kommune.no INFO Begin testing delegation for volda.kommune.no.
+  7.195: volda.kommune.no INFO Name servers listed at parent: ns.mimer.no,ns2.mimer.no
+  8.223: volda.kommune.no INFO Name servers listed at child: ns.mimer.no,ns2.mimer.no
+  8.224: volda.kommune.no NOTICE No IPv6 name servers found.
+  8.379: volda.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  8.560: volda.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  8.686: volda.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  8.819: volda.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.309: volda.kommune.no INFO It is possible to build a referral packet for volda.kommune.no that works without EDNS0.
+  9.605: volda.kommune.no INFO Previously used name servers for volda.kommune.no: 
+  9.606: volda.kommune.no INFO Done testing delegation for volda.kommune.no.
+  9.615: volda.kommune.no INFO Begin testing name server ns.mimer.no.
+  9.616: volda.kommune.no INFO Begin testing host ns.mimer.no.
+  9.755: volda.kommune.no INFO Begin testing address 213.184.200.1.
+ 19.579: volda.kommune.no INFO Done testing address 213.184.200.1.
+ 19.579: volda.kommune.no INFO Done testing host ns.mimer.no.
+ 19.824: volda.kommune.no INFO Name server ns.mimer.no (213.184.200.1) answers queries over UDP.
+ 19.877: volda.kommune.no INFO Name server ns.mimer.no (213.184.200.1) answers queries over TCP.
+ 20.047: volda.kommune.no INFO Name server ns.mimer.no (213.184.200.1) is not recursive.
+ 20.179: volda.kommune.no INFO Name server ns.mimer.no (213.184.200.1) authoritative for volda.kommune.no.
+ 20.249: volda.kommune.no INFO Name server ns.mimer.no (213.184.200.1) closed for zone transfer of volda.kommune.no.
+ 20.285: volda.kommune.no INFO Legacy name server ID for ns.mimer.no (213.184.200.1): hostname.bind = odin
+ 20.313: volda.kommune.no INFO Legacy name server ID for ns.mimer.no (213.184.200.1): version.bind = 9.7.3
+ 20.367: volda.kommune.no NOTICE No answer received from 213.184.200.1 when querying for version.server/CH/TXT.
+ 20.367: volda.kommune.no INFO Done testing name server ns.mimer.no.
+ 20.367: volda.kommune.no INFO Begin testing name server ns2.mimer.no.
+ 20.367: volda.kommune.no INFO Begin testing host ns2.mimer.no.
+ 20.463: volda.kommune.no INFO Begin testing address 213.184.200.2.
+ 21.685: volda.kommune.no INFO Done testing address 213.184.200.2.
+ 21.685: volda.kommune.no INFO Done testing host ns2.mimer.no.
+ 21.952: volda.kommune.no INFO Name server ns2.mimer.no (213.184.200.2) answers queries over UDP.
+ 22.001: volda.kommune.no INFO Name server ns2.mimer.no (213.184.200.2) answers queries over TCP.
+ 22.025: volda.kommune.no INFO Name server ns2.mimer.no (213.184.200.2) is not recursive.
+ 22.131: volda.kommune.no INFO Name server ns2.mimer.no (213.184.200.2) authoritative for volda.kommune.no.
+ 22.203: volda.kommune.no INFO Name server ns2.mimer.no (213.184.200.2) closed for zone transfer of volda.kommune.no.
+ 22.227: volda.kommune.no INFO Legacy name server ID for ns2.mimer.no (213.184.200.2): hostname.bind = fjordgyn
+ 22.253: volda.kommune.no INFO Legacy name server ID for ns2.mimer.no (213.184.200.2): version.bind = 9.7.3
+ 22.301: volda.kommune.no NOTICE No answer received from 213.184.200.2 when querying for version.server/CH/TXT.
+ 22.302: volda.kommune.no INFO Done testing name server ns2.mimer.no.
+ 22.302: volda.kommune.no INFO Begin testing zone consistency for volda.kommune.no.
+ 23.036: volda.kommune.no INFO SOA at address 213.184.200.1 has serial 20000229.
+ 23.062: volda.kommune.no INFO SOA at address 213.184.200.2 has serial 20000229.
+ 23.062: volda.kommune.no INFO All SOA records have consistent serial numbers.
+ 23.062: volda.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 23.299: volda.kommune.no NOTICE The listed nameservers for volda.kommune.no all report the same set of nameservers.
+ 23.300: volda.kommune.no INFO Done testing zone consistency for volda.kommune.no.
+ 23.300: volda.kommune.no INFO Begin testing SOA parameters for volda.kommune.no.
+ 23.328: volda.kommune.no INFO Found SOA record for volda.kommune.no.
+ 23.328: volda.kommune.no INFO Begin testing host ns.mimer.no.
+ 23.455: volda.kommune.no INFO Begin testing address 213.184.200.1.
+ 23.815: volda.kommune.no INFO Done testing address 213.184.200.1.
+ 23.815: volda.kommune.no INFO Done testing host ns.mimer.no.
+ 23.815: volda.kommune.no INFO SOA MNAME for volda.kommune.no valid (ns.mimer.no).
+ 23.816: volda.kommune.no INFO SOA MNAME for volda.kommune.no (ns.mimer.no) listed as NS.
+ 23.956: volda.kommune.no INFO SOA MNAME for volda.kommune.no (ns.mimer.no) is authoritative.
+ 23.956: volda.kommune.no INFO Begin testing email address hostmaster@mimer.no.
+ 24.065: volda.kommune.no INFO Mail exchangers for hostmaster@mimer.no found pop.mimer.no.
+ 24.065: volda.kommune.no INFO Begin testing host pop.mimer.no.
+ 24.467: volda.kommune.no INFO Begin testing address 213.184.202.5.
+ 25.259: volda.kommune.no INFO Done testing address 213.184.202.5.
+ 25.259: volda.kommune.no INFO Done testing host pop.mimer.no.
+ 25.375: volda.kommune.no INFO Done testing email address hostmaster@mimer.no.
+ 25.375: volda.kommune.no INFO Successful attempt to deliver email for SOA RNAME of volda.kommune.no (hostmaster.mimer.no) using hostmaster@mimer.no.
+ 25.375: volda.kommune.no INFO SOA TTL for volda.kommune.no OK (86400) - recommended >= 3600.
+ 25.375: volda.kommune.no INFO SOA refresh for volda.kommune.no OK (86400) - recommended >= 14400.
+ 25.375: volda.kommune.no INFO SOA retry for volda.kommune.no OK (3600) - recommended >= 3600.
+ 25.375: volda.kommune.no INFO SOA expire for volda.kommune.no OK (604800) - recommended >= 604800.
+ 25.375: volda.kommune.no INFO SOA minimum for volda.kommune.no OK (86400) - recommended between 300 and 86400.
+ 25.375: volda.kommune.no INFO Done testing SOA parameters for volda.kommune.no.
+ 25.376: volda.kommune.no INFO Begin testing connectivity for volda.kommune.no.
+ 26.645: volda.kommune.no NOTICE Zone announced by fewer than two IPv4 ASN.
+ 26.645: volda.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 26.645: volda.kommune.no INFO Done testing connectivity for volda.kommune.no.
+ 26.645: volda.kommune.no INFO Begin testing DNSSEC for volda.kommune.no.
+ 26.727: volda.kommune.no INFO Did not find DS record for volda.kommune.no at parent.
+ 26.835: volda.kommune.no INFO Servers for volda.kommune.no have consistent extra processing status.
+ 26.887: volda.kommune.no INFO Authenticated denial records not found for volda.kommune.no.
+ 26.914: volda.kommune.no INFO Did not find DNSKEY record for volda.kommune.no at child.
+ 26.914: volda.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 26.914: volda.kommune.no INFO Done testing DNSSEC for volda.kommune.no.
+ 26.915: volda.kommune.no INFO Test completed for zone volda.kommune.no.

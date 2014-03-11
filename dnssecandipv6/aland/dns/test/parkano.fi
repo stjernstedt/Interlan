@@ -1,0 +1,88 @@
+  0.021: parkano.fi INFO Begin testing zone parkano.fi with version 1.5.0.
+  0.888: parkano.fi INFO Begin testing delegation for parkano.fi.
+ 44.634: parkano.fi INFO Name servers listed at parent: ns.parkano.fi,ns4.netorek.fi
+ 52.812: parkano.fi INFO Name servers listed at child: ns.parkano.fi,ns4.netorek.fi
+ 52.924: parkano.fi NOTICE No IPv6 name servers found.
+ 53.065: parkano.fi INFO Parent glue for parkano.fi found: ns.parkano.fi (62.106.59.147)
+ 53.607: parkano.fi INFO Parent glue for parkano.fi found: ns4.netorek.fi (62.197.168.5)
+ 54.054: parkano.fi INFO Checking glue for ns.parkano.fi (62.106.59.147).
+ 54.154: parkano.fi INFO Child glue for parkano.fi found: ns.parkano.fi (62.106.59.147)
+ 54.154: parkano.fi INFO Checking glue for ns4.netorek.fi (62.197.168.5).
+ 54.155: parkano.fi INFO Parent glue for parkano.fi found: ns.parkano.fi (62.106.59.147)
+ 54.155: parkano.fi INFO Parent glue for parkano.fi found: ns4.netorek.fi (62.197.168.5)
+ 57.731: parkano.fi INFO It is possible to build a referral packet for parkano.fi that works without EDNS0.
+ 60.305: parkano.fi INFO Previously used name servers for parkano.fi: 
+ 60.305: parkano.fi INFO Done testing delegation for parkano.fi.
+ 60.305: parkano.fi INFO Begin testing name server ns.parkano.fi.
+ 60.306: parkano.fi INFO Begin testing host ns.parkano.fi.
+ 62.113: parkano.fi INFO Begin testing address 62.106.59.147.
+ 90.309: parkano.fi INFO Done testing address 62.106.59.147.
+ 90.309: parkano.fi INFO Done testing host ns.parkano.fi.
+ 92.777: parkano.fi INFO Name server ns.parkano.fi (62.106.59.147) answers queries over UDP.
+ 93.059: parkano.fi INFO Name server ns.parkano.fi (62.106.59.147) answers queries over TCP.
+ 93.617: parkano.fi INFO Name server ns.parkano.fi (62.106.59.147) is not recursive.
+ 94.399: parkano.fi INFO Name server ns.parkano.fi (62.106.59.147) authoritative for parkano.fi.
+ 94.780: parkano.fi INFO Name server ns.parkano.fi (62.106.59.147) closed for zone transfer of parkano.fi.
+ 94.945: parkano.fi NOTICE No answer received from 62.106.59.147 when querying for hostname.bind/CH/TXT.
+113.188: parkano.fi INFO Done testing name server ns.parkano.fi.
+113.189: parkano.fi INFO Begin testing name server ns4.netorek.fi.
+113.189: parkano.fi INFO Begin testing host ns4.netorek.fi.
+114.961: parkano.fi INFO Begin testing address 62.197.168.5.
+118.058: parkano.fi INFO Done testing address 62.197.168.5.
+118.059: parkano.fi INFO Done testing host ns4.netorek.fi.
+120.885: parkano.fi INFO Name server ns4.netorek.fi (62.197.168.5) answers queries over UDP.
+121.242: parkano.fi INFO Name server ns4.netorek.fi (62.197.168.5) answers queries over TCP.
+121.633: parkano.fi INFO Name server ns4.netorek.fi (62.197.168.5) is not recursive.
+122.889: parkano.fi INFO Name server ns4.netorek.fi (62.197.168.5) authoritative for parkano.fi.
+123.292: parkano.fi INFO Name server ns4.netorek.fi (62.197.168.5) closed for zone transfer of parkano.fi.
+123.725: parkano.fi INFO Legacy name server ID for ns4.netorek.fi (62.197.168.5): hostname.bind = ns4.netorek.fi
+124.444: parkano.fi NOTICE No answer received from 62.197.168.5 when querying for version.server/CH/TXT.
+124.444: parkano.fi INFO Done testing name server ns4.netorek.fi.
+124.445: parkano.fi INFO Begin testing zone consistency for parkano.fi.
+135.985: parkano.fi INFO SOA at address 62.106.59.147 has serial 2003081416.
+136.368: parkano.fi INFO SOA at address 62.197.168.5 has serial 2003081416.
+136.368: parkano.fi INFO All SOA records have consistent serial numbers.
+136.368: parkano.fi INFO All other fields in the SOA record are consistent among all name servers.
+140.522: parkano.fi NOTICE The listed nameservers for parkano.fi all report the same set of nameservers.
+140.522: parkano.fi INFO Done testing zone consistency for parkano.fi.
+140.522: parkano.fi INFO Begin testing SOA parameters for parkano.fi.
+140.841: parkano.fi INFO Found SOA record for parkano.fi.
+140.841: parkano.fi INFO Begin testing host ns.parkano.fi.
+142.369: parkano.fi INFO Begin testing address 62.106.59.147.
+144.025: parkano.fi INFO Done testing address 62.106.59.147.
+144.025: parkano.fi INFO Done testing host ns.parkano.fi.
+144.025: parkano.fi INFO SOA MNAME for parkano.fi valid (ns.parkano.fi).
+144.025: parkano.fi INFO SOA MNAME for parkano.fi (ns.parkano.fi) listed as NS.
+146.137: parkano.fi INFO SOA MNAME for parkano.fi (ns.parkano.fi) is authoritative.
+146.137: parkano.fi INFO Begin testing email address administrator@parkano.fi.
+147.906: parkano.fi INFO Mail exchangers for administrator@parkano.fi found mail.ippnet.fi,saapuva.ippnet.fi.
+147.906: parkano.fi INFO Begin testing host mail.ippnet.fi.
+152.005: parkano.fi INFO Begin testing address 62.197.168.3.
+158.473: parkano.fi INFO Done testing address 62.197.168.3.
+158.473: parkano.fi INFO Done testing host mail.ippnet.fi.
+160.569: parkano.fi INFO Begin testing host saapuva.ippnet.fi.
+164.709: parkano.fi INFO Begin testing address 62.197.168.7.
+170.347: parkano.fi INFO Done testing address 62.197.168.7.
+170.347: parkano.fi INFO Done testing host saapuva.ippnet.fi.
+171.968: parkano.fi INFO Done testing email address administrator@parkano.fi.
+171.969: parkano.fi INFO Successful attempt to deliver email for SOA RNAME of parkano.fi (administrator.parkano.fi) using administrator@parkano.fi.
+171.969: parkano.fi NOTICE SOA TTL for parkano.fi too small (3540) - recommended >= 3600.
+171.969: parkano.fi NOTICE SOA refresh for parkano.fi too small (3600) - recommended >= 14400.
+171.969: parkano.fi NOTICE SOA refresh for parkano.fi lower than retry (3600 vs 3600).
+171.969: parkano.fi INFO SOA retry for parkano.fi OK (3600) - recommended >= 3600.
+171.969: parkano.fi INFO SOA expire for parkano.fi OK (604800) - recommended >= 604800.
+171.969: parkano.fi INFO SOA minimum for parkano.fi OK (3540) - recommended between 300 and 86400.
+171.969: parkano.fi INFO Done testing SOA parameters for parkano.fi.
+171.969: parkano.fi INFO Begin testing connectivity for parkano.fi.
+176.531: parkano.fi INFO Zone announced by more than one ASN.
+176.531: parkano.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+176.531: parkano.fi INFO Done testing connectivity for parkano.fi.
+176.532: parkano.fi INFO Begin testing DNSSEC for parkano.fi.
+177.066: parkano.fi INFO Did not find DS record for parkano.fi at parent.
+177.388: parkano.fi ERROR EDNS not supported by 62.106.59.147.
+177.772: parkano.fi INFO Servers for parkano.fi have consistent extra processing status.
+183.137: parkano.fi INFO Authenticated denial records not found for parkano.fi.
+183.382: parkano.fi INFO Did not find DNSKEY record for parkano.fi at child.
+183.382: parkano.fi INFO No DNSKEY(s) found at child, other tests skipped.
+183.382: parkano.fi INFO Done testing DNSSEC for parkano.fi.
+183.383: parkano.fi INFO Test completed for zone parkano.fi.

@@ -1,0 +1,84 @@
+  0.000: lappajarvi.fi INFO Begin testing zone lappajarvi.fi with version 1.6.1.
+  0.408: lappajarvi.fi INFO Begin testing delegation for lappajarvi.fi.
+  8.234: lappajarvi.fi INFO Name servers listed at parent: ns1.japo.fi,ns2.japo.fi
+  9.947: lappajarvi.fi INFO Name servers listed at child: ns1.japo.fi,ns2.japo.fi
+  9.947: lappajarvi.fi NOTICE No IPv6 name servers found.
+ 10.061: lappajarvi.fi INFO Parent glue for lappajarvi.fi found: ns1.japo.fi (212.66.193.10)
+ 10.189: lappajarvi.fi INFO Parent glue for lappajarvi.fi found: ns2.japo.fi (212.66.193.9)
+ 10.328: lappajarvi.fi INFO Checking glue for ns1.japo.fi (212.66.193.10).
+ 10.329: lappajarvi.fi INFO Checking glue for ns2.japo.fi (212.66.193.9).
+ 10.329: lappajarvi.fi INFO Parent glue for lappajarvi.fi found: ns1.japo.fi (212.66.193.10)
+ 10.352: lappajarvi.fi INFO Parent glue for lappajarvi.fi found: ns2.japo.fi (212.66.193.9)
+ 11.311: lappajarvi.fi INFO It is possible to build a referral packet for lappajarvi.fi that works without EDNS0.
+ 11.963: lappajarvi.fi INFO Previously used name servers for lappajarvi.fi: 
+ 11.963: lappajarvi.fi INFO Done testing delegation for lappajarvi.fi.
+ 11.963: lappajarvi.fi INFO Begin testing name server ns1.japo.fi.
+ 11.963: lappajarvi.fi INFO Begin testing host ns1.japo.fi.
+ 12.249: lappajarvi.fi INFO Begin testing address 212.66.193.10.
+ 17.929: lappajarvi.fi INFO Done testing address 212.66.193.10.
+ 17.929: lappajarvi.fi INFO Done testing host ns1.japo.fi.
+ 18.111: lappajarvi.fi INFO Name server ns1.japo.fi (212.66.193.10) answers queries over UDP.
+ 18.155: lappajarvi.fi INFO Name server ns1.japo.fi (212.66.193.10) answers queries over TCP.
+ 18.182: lappajarvi.fi INFO Name server ns1.japo.fi (212.66.193.10) is not recursive.
+ 18.286: lappajarvi.fi INFO Name server ns1.japo.fi (212.66.193.10) authoritative for lappajarvi.fi.
+ 18.345: lappajarvi.fi INFO Name server ns1.japo.fi (212.66.193.10) closed for zone transfer of lappajarvi.fi.
+ 18.387: lappajarvi.fi INFO Legacy name server ID for ns1.japo.fi (212.66.193.10): hostname.bind = ns1.japo.fi
+ 18.414: lappajarvi.fi INFO Legacy name server ID for ns1.japo.fi (212.66.193.10): version.bind = None of your business
+ 18.457: lappajarvi.fi NOTICE No answer received from 212.66.193.10 when querying for version.server/CH/TXT.
+ 18.457: lappajarvi.fi INFO Done testing name server ns1.japo.fi.
+ 18.457: lappajarvi.fi INFO Begin testing name server ns2.japo.fi.
+ 18.458: lappajarvi.fi INFO Begin testing host ns2.japo.fi.
+ 18.595: lappajarvi.fi INFO Begin testing address 212.66.193.9.
+ 19.056: lappajarvi.fi INFO Done testing address 212.66.193.9.
+ 19.056: lappajarvi.fi INFO Done testing host ns2.japo.fi.
+ 19.339: lappajarvi.fi INFO Name server ns2.japo.fi (212.66.193.9) answers queries over UDP.
+ 19.381: lappajarvi.fi INFO Name server ns2.japo.fi (212.66.193.9) answers queries over TCP.
+ 19.414: lappajarvi.fi INFO Name server ns2.japo.fi (212.66.193.9) is not recursive.
+ 19.519: lappajarvi.fi INFO Name server ns2.japo.fi (212.66.193.9) authoritative for lappajarvi.fi.
+ 19.582: lappajarvi.fi INFO Name server ns2.japo.fi (212.66.193.9) closed for zone transfer of lappajarvi.fi.
+ 19.611: lappajarvi.fi INFO Legacy name server ID for ns2.japo.fi (212.66.193.9): hostname.bind = ns2.japo.fi
+ 19.633: lappajarvi.fi INFO Legacy name server ID for ns2.japo.fi (212.66.193.9): version.bind = None of your business
+ 19.680: lappajarvi.fi NOTICE No answer received from 212.66.193.9 when querying for version.server/CH/TXT.
+ 19.680: lappajarvi.fi INFO Done testing name server ns2.japo.fi.
+ 19.680: lappajarvi.fi INFO Begin testing zone consistency for lappajarvi.fi.
+ 20.235: lappajarvi.fi INFO SOA at address 212.66.193.10 has serial 2012092001.
+ 20.256: lappajarvi.fi INFO SOA at address 212.66.193.9 has serial 2012092001.
+ 20.257: lappajarvi.fi INFO All SOA records have consistent serial numbers.
+ 20.257: lappajarvi.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 20.572: lappajarvi.fi NOTICE The listed nameservers for lappajarvi.fi all report the same set of nameservers.
+ 20.572: lappajarvi.fi INFO Done testing zone consistency for lappajarvi.fi.
+ 20.572: lappajarvi.fi INFO Begin testing SOA parameters for lappajarvi.fi.
+ 20.605: lappajarvi.fi INFO Found SOA record for lappajarvi.fi.
+ 20.605: lappajarvi.fi INFO Begin testing host ns1.japo.fi.
+ 20.706: lappajarvi.fi INFO Begin testing address 212.66.193.10.
+ 20.803: lappajarvi.fi INFO Done testing address 212.66.193.10.
+ 20.804: lappajarvi.fi INFO Done testing host ns1.japo.fi.
+ 20.804: lappajarvi.fi INFO SOA MNAME for lappajarvi.fi valid (ns1.japo.fi).
+ 20.804: lappajarvi.fi INFO SOA MNAME for lappajarvi.fi (ns1.japo.fi) listed as NS.
+ 20.947: lappajarvi.fi INFO SOA MNAME for lappajarvi.fi (ns1.japo.fi) is authoritative.
+ 20.947: lappajarvi.fi INFO Begin testing email address hostmaster@japo.fi.
+ 21.059: lappajarvi.fi INFO Mail exchangers for hostmaster@japo.fi found mail.japo.fi.
+ 21.059: lappajarvi.fi INFO Begin testing host mail.japo.fi.
+ 21.282: lappajarvi.fi INFO Begin testing address 212.66.193.100.
+ 21.780: lappajarvi.fi INFO Done testing address 212.66.193.100.
+ 21.781: lappajarvi.fi INFO Done testing host mail.japo.fi.
+ 21.966: lappajarvi.fi INFO Done testing email address hostmaster@japo.fi.
+ 21.967: lappajarvi.fi INFO Successful attempt to deliver email for SOA RNAME of lappajarvi.fi (hostmaster.japo.fi) using hostmaster@japo.fi.
+ 21.967: lappajarvi.fi INFO SOA TTL for lappajarvi.fi OK (86400) - recommended >= 3600.
+ 21.967: lappajarvi.fi INFO SOA refresh for lappajarvi.fi OK (28800) - recommended >= 14400.
+ 21.967: lappajarvi.fi INFO SOA retry for lappajarvi.fi OK (7200) - recommended >= 3600.
+ 21.967: lappajarvi.fi INFO SOA expire for lappajarvi.fi OK (604800) - recommended >= 604800.
+ 21.967: lappajarvi.fi INFO SOA minimum for lappajarvi.fi OK (86400) - recommended between 300 and 86400.
+ 21.967: lappajarvi.fi INFO Done testing SOA parameters for lappajarvi.fi.
+ 21.967: lappajarvi.fi INFO Begin testing connectivity for lappajarvi.fi.
+ 23.017: lappajarvi.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 23.017: lappajarvi.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 23.017: lappajarvi.fi INFO Done testing connectivity for lappajarvi.fi.
+ 23.017: lappajarvi.fi INFO Begin testing DNSSEC for lappajarvi.fi.
+ 23.074: lappajarvi.fi INFO Did not find DS record for lappajarvi.fi at parent.
+ 23.169: lappajarvi.fi INFO Servers for lappajarvi.fi have consistent extra processing status.
+ 23.221: lappajarvi.fi INFO Authenticated denial records not found for lappajarvi.fi.
+ 23.245: lappajarvi.fi INFO Did not find DNSKEY record for lappajarvi.fi at child.
+ 23.245: lappajarvi.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 23.257: lappajarvi.fi INFO Done testing DNSSEC for lappajarvi.fi.
+ 23.258: lappajarvi.fi INFO Test completed for zone lappajarvi.fi.

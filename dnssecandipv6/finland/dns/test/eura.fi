@@ -1,0 +1,88 @@
+  0.000: eura.fi INFO Begin testing zone eura.fi with version 1.6.1.
+  0.400: eura.fi INFO Begin testing delegation for eura.fi.
+  8.237: eura.fi INFO Name servers listed at parent: ns1.taajama.fi,ns4.taajama.fi
+  9.817: eura.fi INFO Name servers listed at child: ns1.taajama.fi,ns4.taajama.fi
+  9.817: eura.fi NOTICE No IPv6 name servers found.
+  9.861: eura.fi INFO Parent glue for eura.fi found: ns1.taajama.fi (83.102.40.26)
+ 10.204: eura.fi INFO Parent glue for eura.fi found: ns4.taajama.fi (83.102.40.27)
+ 10.254: eura.fi INFO Checking glue for ns1.taajama.fi (83.102.40.26).
+ 10.254: eura.fi INFO Checking glue for ns4.taajama.fi (83.102.40.27).
+ 10.255: eura.fi INFO Parent glue for eura.fi found: ns1.taajama.fi (83.102.40.26)
+ 10.255: eura.fi INFO Parent glue for eura.fi found: ns4.taajama.fi (83.102.40.27)
+ 11.064: eura.fi INFO It is possible to build a referral packet for eura.fi that works without EDNS0.
+ 11.617: eura.fi INFO Previously used name servers for eura.fi: 
+ 11.617: eura.fi INFO Done testing delegation for eura.fi.
+ 11.617: eura.fi INFO Begin testing name server ns1.taajama.fi.
+ 11.617: eura.fi INFO Begin testing host ns1.taajama.fi.
+ 11.933: eura.fi INFO Begin testing address 83.102.40.26.
+ 17.314: eura.fi INFO Done testing address 83.102.40.26.
+ 17.314: eura.fi INFO Done testing host ns1.taajama.fi.
+ 17.557: eura.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over UDP.
+ 17.585: eura.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over TCP.
+ 17.600: eura.fi INFO Name server ns1.taajama.fi (83.102.40.26) is not recursive.
+ 17.689: eura.fi INFO Name server ns1.taajama.fi (83.102.40.26) authoritative for eura.fi.
+ 17.732: eura.fi INFO Name server ns1.taajama.fi (83.102.40.26) closed for zone transfer of eura.fi.
+ 17.767: eura.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): hostname.bind = saharausku
+ 17.816: eura.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): version.bind = Not disclosed
+ 17.869: eura.fi NOTICE No answer received from 83.102.40.26 when querying for version.server/CH/TXT.
+ 17.869: eura.fi INFO Done testing name server ns1.taajama.fi.
+ 17.869: eura.fi INFO Begin testing name server ns4.taajama.fi.
+ 17.870: eura.fi INFO Begin testing host ns4.taajama.fi.
+ 18.031: eura.fi INFO Begin testing address 83.102.40.27.
+ 18.757: eura.fi INFO Done testing address 83.102.40.27.
+ 18.760: eura.fi INFO Done testing host ns4.taajama.fi.
+ 19.015: eura.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over UDP.
+ 19.061: eura.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over TCP.
+ 19.086: eura.fi INFO Name server ns4.taajama.fi (83.102.40.27) is not recursive.
+ 19.201: eura.fi INFO Name server ns4.taajama.fi (83.102.40.27) authoritative for eura.fi.
+ 19.244: eura.fi INFO Name server ns4.taajama.fi (83.102.40.27) closed for zone transfer of eura.fi.
+ 19.273: eura.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): hostname.bind = perhosrausku
+ 19.306: eura.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): version.bind = Not disclosed
+ 19.343: eura.fi NOTICE No answer received from 83.102.40.27 when querying for version.server/CH/TXT.
+ 19.343: eura.fi INFO Done testing name server ns4.taajama.fi.
+ 19.343: eura.fi INFO Begin testing zone consistency for eura.fi.
+ 20.140: eura.fi INFO SOA at address 83.102.40.26 has serial 2014021001.
+ 20.165: eura.fi INFO SOA at address 83.102.40.27 has serial 2014021001.
+ 20.165: eura.fi INFO All SOA records have consistent serial numbers.
+ 20.172: eura.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 20.630: eura.fi NOTICE The listed nameservers for eura.fi all report the same set of nameservers.
+ 20.630: eura.fi INFO Done testing zone consistency for eura.fi.
+ 20.631: eura.fi INFO Begin testing SOA parameters for eura.fi.
+ 20.686: eura.fi INFO Found SOA record for eura.fi.
+ 20.686: eura.fi INFO Begin testing host ns1.taajama.fi.
+ 21.067: eura.fi INFO Begin testing address 83.102.40.26.
+ 21.392: eura.fi INFO Done testing address 83.102.40.26.
+ 21.393: eura.fi INFO Done testing host ns1.taajama.fi.
+ 21.393: eura.fi INFO SOA MNAME for eura.fi valid (ns1.taajama.fi).
+ 21.393: eura.fi INFO SOA MNAME for eura.fi (ns1.taajama.fi) listed as NS.
+ 21.685: eura.fi INFO SOA MNAME for eura.fi (ns1.taajama.fi) is authoritative.
+ 21.685: eura.fi INFO Begin testing email address hostmaster@taajama.com.
+ 22.246: eura.fi INFO Mail exchangers for hostmaster@taajama.com found spp.taajama.fi,mx2.taajama.com.
+ 22.246: eura.fi INFO Begin testing host spp.taajama.fi.
+ 22.845: eura.fi INFO Begin testing address 217.78.212.151.
+ 23.573: eura.fi INFO Done testing address 217.78.212.151.
+ 23.574: eura.fi INFO Done testing host spp.taajama.fi.
+ 23.791: eura.fi INFO Begin testing host mx2.taajama.com.
+ 24.408: eura.fi INFO Begin testing address 83.102.41.75.
+ 25.180: eura.fi INFO Done testing address 83.102.41.75.
+ 25.180: eura.fi INFO Done testing host mx2.taajama.com.
+ 25.284: eura.fi INFO Done testing email address hostmaster@taajama.com.
+ 25.285: eura.fi INFO Successful attempt to deliver email for SOA RNAME of eura.fi (hostmaster.taajama.com) using hostmaster@taajama.com.
+ 25.285: eura.fi INFO SOA TTL for eura.fi OK (28800) - recommended >= 3600.
+ 25.285: eura.fi INFO SOA refresh for eura.fi OK (28800) - recommended >= 14400.
+ 25.285: eura.fi INFO SOA retry for eura.fi OK (7200) - recommended >= 3600.
+ 25.285: eura.fi INFO SOA expire for eura.fi OK (1814400) - recommended >= 604800.
+ 25.285: eura.fi INFO SOA minimum for eura.fi OK (86400) - recommended between 300 and 86400.
+ 25.285: eura.fi INFO Done testing SOA parameters for eura.fi.
+ 25.285: eura.fi INFO Begin testing connectivity for eura.fi.
+ 26.404: eura.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 26.433: eura.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 26.433: eura.fi INFO Done testing connectivity for eura.fi.
+ 26.433: eura.fi INFO Begin testing DNSSEC for eura.fi.
+ 26.741: eura.fi INFO Did not find DS record for eura.fi at parent.
+ 26.822: eura.fi INFO Servers for eura.fi have consistent extra processing status.
+ 26.849: eura.fi INFO Authenticated denial records not found for eura.fi.
+ 26.875: eura.fi INFO Did not find DNSKEY record for eura.fi at child.
+ 26.875: eura.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 26.875: eura.fi INFO Done testing DNSSEC for eura.fi.
+ 26.875: eura.fi INFO Test completed for zone eura.fi.

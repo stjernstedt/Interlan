@@ -1,0 +1,97 @@
+  0.000: mora.se INFO Begin testing zone mora.se with version 1.6.1.
+  2.253: mora.se INFO Begin testing delegation for mora.se.
+ 23.462: mora.se INFO Name servers listed at parent: nic.mora.se,ns2.daladatorer.net,ns3.daladatorer.net
+ 27.588: mora.se INFO Name servers listed at child: nic.mora.se,ns2.daladatorer.net,ns3.daladatorer.net
+ 27.588: mora.se NOTICE No IPv6 name servers found.
+ 27.678: mora.se INFO Parent glue for mora.se found: nic.mora.se (62.101.38.226)
+ 28.658: mora.se INFO Checking glue for nic.mora.se (62.101.38.226).
+ 28.718: mora.se INFO Child glue for mora.se found: nic.mora.se (62.101.38.226)
+ 28.719: mora.se INFO Parent glue for mora.se found: nic.mora.se (62.101.38.226)
+ 31.215: mora.se INFO It is possible to build a referral packet for mora.se that works without EDNS0.
+ 32.449: mora.se INFO Previously used name servers for mora.se: 
+ 32.457: mora.se INFO Done testing delegation for mora.se.
+ 32.457: mora.se INFO Begin testing name server nic.mora.se.
+ 32.457: mora.se INFO Begin testing host nic.mora.se.
+ 32.830: mora.se INFO Begin testing address 62.101.38.226.
+ 70.033: mora.se INFO Done testing address 62.101.38.226.
+ 70.034: mora.se INFO Done testing host nic.mora.se.
+ 70.694: mora.se INFO Name server nic.mora.se (62.101.38.226) answers queries over UDP.
+ 70.789: mora.se INFO Name server nic.mora.se (62.101.38.226) answers queries over TCP.
+ 70.827: mora.se INFO Name server nic.mora.se (62.101.38.226) is not recursive.
+ 71.186: mora.se INFO Name server nic.mora.se (62.101.38.226) authoritative for mora.se.
+ 71.284: mora.se INFO Name server nic.mora.se (62.101.38.226) closed for zone transfer of mora.se.
+ 71.333: mora.se INFO Legacy name server ID for nic.mora.se (62.101.38.226): hostname.bind = MOASDNS01
+ 71.381: mora.se INFO Legacy name server ID for nic.mora.se (62.101.38.226): version.bind = you must be joking
+ 71.454: mora.se NOTICE No answer received from 62.101.38.226 when querying for version.server/CH/TXT.
+ 71.455: mora.se INFO Done testing name server nic.mora.se.
+ 71.455: mora.se INFO Begin testing name server ns2.daladatorer.net.
+ 71.455: mora.se INFO Begin testing host ns2.daladatorer.net.
+ 71.895: mora.se INFO Begin testing address 62.101.37.61.
+ 74.115: mora.se INFO Done testing address 62.101.37.61.
+ 74.115: mora.se INFO Done testing host ns2.daladatorer.net.
+ 74.482: mora.se INFO Name server ns2.daladatorer.net (62.101.37.61) answers queries over UDP.
+ 74.527: mora.se INFO Name server ns2.daladatorer.net (62.101.37.61) answers queries over TCP.
+ 74.577: mora.se INFO Name server ns2.daladatorer.net (62.101.37.61) is not recursive.
+ 74.761: mora.se INFO Name server ns2.daladatorer.net (62.101.37.61) authoritative for mora.se.
+ 74.914: mora.se INFO Name server ns2.daladatorer.net (62.101.37.61) closed for zone transfer of mora.se.
+ 74.979: mora.se INFO Legacy name server ID for ns2.daladatorer.net (62.101.37.61): hostname.bind = ns2.daladatorer.net
+ 75.044: mora.se INFO Legacy name server ID for ns2.daladatorer.net (62.101.37.61): version.bind = none of your business
+ 75.133: mora.se NOTICE No answer received from 62.101.37.61 when querying for version.server/CH/TXT.
+ 75.133: mora.se INFO Done testing name server ns2.daladatorer.net.
+ 75.134: mora.se INFO Begin testing name server ns3.daladatorer.net.
+ 75.134: mora.se INFO Begin testing host ns3.daladatorer.net.
+ 75.376: mora.se INFO Begin testing address 82.145.135.83.
+ 77.292: mora.se INFO Done testing address 82.145.135.83.
+ 77.292: mora.se INFO Done testing host ns3.daladatorer.net.
+ 77.661: mora.se INFO Name server ns3.daladatorer.net (82.145.135.83) answers queries over UDP.
+ 77.707: mora.se INFO Name server ns3.daladatorer.net (82.145.135.83) answers queries over TCP.
+ 77.732: mora.se INFO Name server ns3.daladatorer.net (82.145.135.83) is not recursive.
+ 77.876: mora.se INFO Name server ns3.daladatorer.net (82.145.135.83) authoritative for mora.se.
+ 78.025: mora.se INFO Name server ns3.daladatorer.net (82.145.135.83) closed for zone transfer of mora.se.
+ 78.057: mora.se INFO Legacy name server ID for ns3.daladatorer.net (82.145.135.83): hostname.bind = ns3.daladatorer.net
+ 78.077: mora.se INFO Legacy name server ID for ns3.daladatorer.net (82.145.135.83): version.bind = none of your business
+ 78.130: mora.se NOTICE No answer received from 82.145.135.83 when querying for version.server/CH/TXT.
+ 78.130: mora.se INFO Done testing name server ns3.daladatorer.net.
+ 78.130: mora.se INFO Begin testing zone consistency for mora.se.
+ 79.894: mora.se INFO SOA at address 82.145.135.83 has serial 2014013101.
+ 79.922: mora.se INFO SOA at address 62.101.38.226 has serial 2014013101.
+ 79.946: mora.se INFO SOA at address 62.101.37.61 has serial 2014013101.
+ 79.946: mora.se INFO All SOA records have consistent serial numbers.
+ 79.946: mora.se INFO All other fields in the SOA record are consistent among all name servers.
+ 80.857: mora.se NOTICE The listed nameservers for mora.se all report the same set of nameservers.
+ 80.858: mora.se INFO Done testing zone consistency for mora.se.
+ 80.858: mora.se INFO Begin testing SOA parameters for mora.se.
+ 80.913: mora.se INFO Found SOA record for mora.se.
+ 80.913: mora.se INFO Begin testing host nic.mora.se.
+ 81.139: mora.se INFO Begin testing address 62.101.38.226.
+ 81.376: mora.se INFO Done testing address 62.101.38.226.
+ 81.376: mora.se INFO Done testing host nic.mora.se.
+ 81.390: mora.se INFO SOA MNAME for mora.se valid (nic.mora.se).
+ 81.390: mora.se INFO SOA MNAME for mora.se (nic.mora.se) listed as NS.
+ 81.622: mora.se INFO SOA MNAME for mora.se (nic.mora.se) is authoritative.
+ 81.622: mora.se INFO Begin testing email address hostmaster@mora.se.
+ 81.901: mora.se INFO Mail exchangers for hostmaster@mora.se found mx2.daladatorer.net.
+ 81.901: mora.se INFO Begin testing host mx2.daladatorer.net.
+ 83.461: mora.se INFO Begin testing address 62.101.37.25.
+ 84.713: mora.se INFO Done testing address 62.101.37.25.
+ 84.713: mora.se INFO Done testing host mx2.daladatorer.net.
+ 85.615: mora.se INFO Done testing email address hostmaster@mora.se.
+ 85.615: mora.se INFO Successful attempt to deliver email for SOA RNAME of mora.se (hostmaster.mora.se) using hostmaster@mora.se.
+ 85.615: mora.se INFO SOA TTL for mora.se OK (3600) - recommended >= 3600.
+ 85.615: mora.se INFO SOA refresh for mora.se OK (28800) - recommended >= 14400.
+ 85.616: mora.se INFO SOA retry for mora.se OK (7200) - recommended >= 3600.
+ 85.616: mora.se INFO SOA expire for mora.se OK (604800) - recommended >= 604800.
+ 85.616: mora.se INFO SOA minimum for mora.se OK (86400) - recommended between 300 and 86400.
+ 85.616: mora.se INFO Done testing SOA parameters for mora.se.
+ 85.616: mora.se INFO Begin testing connectivity for mora.se.
+ 87.782: mora.se INFO Zone announced by more than one ASN.
+ 87.783: mora.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 87.783: mora.se INFO Done testing connectivity for mora.se.
+ 87.783: mora.se INFO Begin testing DNSSEC for mora.se.
+ 87.906: mora.se INFO Did not find DS record for mora.se at parent.
+ 88.052: mora.se INFO Servers for mora.se have consistent extra processing status.
+ 88.109: mora.se INFO Authenticated denial records not found for mora.se.
+ 88.141: mora.se INFO Did not find DNSKEY record for mora.se at child.
+ 88.142: mora.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 88.142: mora.se INFO Done testing DNSSEC for mora.se.
+ 88.142: mora.se INFO Test completed for zone mora.se.

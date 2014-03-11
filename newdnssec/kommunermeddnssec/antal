@@ -1,0 +1,11 @@
+#!/bin/bash
+cd /home/kommunermeddnssec
+antal=0
+for i in `cat kommun` ; do
+	dns=`dig +short ns $i |wc -l`
+	if [ "$dns" = "1" ] ; then
+		echo $i
+		let antal=$antal+1
+	fi
+done
+echo $antal >antal.txt

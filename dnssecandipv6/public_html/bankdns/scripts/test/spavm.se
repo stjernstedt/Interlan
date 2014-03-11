@@ -1,0 +1,78 @@
+  0.000: spavm.se INFO Begin testing zone spavm.se with version 1.5.0.
+  0.002: spavm.se INFO Begin testing delegation for spavm.se.
+  4.693: spavm.se INFO Name servers listed at parent: ns1.foreningssparbanken.se,ns2.foreningssparbanken.se
+  6.747: spavm.se INFO Name servers listed at child: ns1.foreningssparbanken.se,ns2.foreningssparbanken.se
+  6.747: spavm.se NOTICE No IPv6 name servers found.
+  6.756: spavm.se INFO Parent glue for spavm.se found: ns1.foreningssparbanken.se (164.10.45.24)
+  6.773: spavm.se INFO Parent glue for spavm.se found: ns2.foreningssparbanken.se (164.10.45.25)
+  6.792: spavm.se INFO Checking glue for ns1.foreningssparbanken.se (164.10.45.24).
+  6.792: spavm.se INFO Checking glue for ns2.foreningssparbanken.se (164.10.45.25).
+  6.793: spavm.se INFO Parent glue for spavm.se found: ns1.foreningssparbanken.se (164.10.45.24)
+  6.793: spavm.se INFO Parent glue for spavm.se found: ns2.foreningssparbanken.se (164.10.45.25)
+  7.322: spavm.se INFO It is possible to build a referral packet for spavm.se that works without EDNS0.
+  7.322: spavm.se INFO Done testing delegation for spavm.se.
+  7.323: spavm.se INFO Begin testing name server ns1.foreningssparbanken.se.
+  7.323: spavm.se INFO Begin testing host ns1.foreningssparbanken.se.
+  7.558: spavm.se INFO Begin testing address 164.10.45.24.
+ 13.623: spavm.se INFO Done testing address 164.10.45.24.
+ 13.623: spavm.se INFO Done testing host ns1.foreningssparbanken.se.
+ 13.864: spavm.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) answers queries over UDP.
+ 13.882: spavm.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) answers queries over TCP.
+ 13.896: spavm.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) is not recursive.
+ 13.938: spavm.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) authoritative for spavm.se.
+ 13.953: spavm.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) closed for zone transfer of spavm.se.
+ 37.995: spavm.se INFO Done testing name server ns1.foreningssparbanken.se.
+ 37.995: spavm.se INFO Begin testing name server ns2.foreningssparbanken.se.
+ 37.995: spavm.se INFO Begin testing host ns2.foreningssparbanken.se.
+ 38.226: spavm.se INFO Begin testing address 164.10.45.25.
+ 39.412: spavm.se INFO Done testing address 164.10.45.25.
+ 39.412: spavm.se INFO Done testing host ns2.foreningssparbanken.se.
+ 39.664: spavm.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) answers queries over UDP.
+ 39.681: spavm.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) answers queries over TCP.
+ 39.691: spavm.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) is not recursive.
+ 39.729: spavm.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) authoritative for spavm.se.
+ 39.744: spavm.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) closed for zone transfer of spavm.se.
+ 63.785: spavm.se INFO Done testing name server ns2.foreningssparbanken.se.
+ 63.785: spavm.se INFO Begin testing zone consistency for spavm.se.
+ 64.739: spavm.se INFO SOA at address 164.10.45.24 has serial 2010052503.
+ 64.748: spavm.se INFO SOA at address 164.10.45.25 has serial 2010052503.
+ 64.749: spavm.se INFO All SOA records have consistent serial numbers.
+ 64.749: spavm.se INFO All other fields in the SOA record are consistent among all name servers.
+ 65.229: spavm.se NOTICE The listed nameservers for spavm.se all report the same set of nameservers.
+ 65.229: spavm.se INFO Done testing zone consistency for spavm.se.
+ 65.229: spavm.se INFO Begin testing SOA parameters for spavm.se.
+ 65.238: spavm.se INFO Found SOA record for spavm.se.
+ 65.238: spavm.se INFO Begin testing host ns1.foreningssparbanken.se.
+ 65.491: spavm.se INFO Begin testing address 164.10.45.24.
+ 66.592: spavm.se INFO Done testing address 164.10.45.24.
+ 66.592: spavm.se INFO Done testing host ns1.foreningssparbanken.se.
+ 66.592: spavm.se INFO SOA MNAME for spavm.se valid (ns1.foreningssparbanken.se).
+ 66.592: spavm.se INFO SOA MNAME for spavm.se (ns1.foreningssparbanken.se) listed as NS.
+ 66.834: spavm.se INFO SOA MNAME for spavm.se (ns1.foreningssparbanken.se) is authoritative.
+ 66.834: spavm.se INFO Begin testing email address unixdrift@foreningssparbanken.se.
+ 67.297: spavm.se INFO Mail exchangers for unixdrift@foreningssparbanken.se found foreningssparbanken.se.
+ 67.297: spavm.se INFO Begin testing host foreningssparbanken.se.
+ 67.531: spavm.se INFO Begin testing address 164.10.45.63.
+ 67.924: spavm.se WARNING Could not find reverse address for 164.10.45.63 (63.45.10.164.in-addr.arpa.).
+ 67.924: spavm.se INFO Done testing address 164.10.45.63.
+ 67.924: spavm.se INFO Done testing host foreningssparbanken.se.
+ 68.181: spavm.se INFO Done testing email address unixdrift@foreningssparbanken.se.
+ 68.182: spavm.se INFO Successful attempt to deliver email for SOA RNAME of spavm.se (unixdrift.foreningssparbanken.se) using unixdrift@foreningssparbanken.se.
+ 68.182: spavm.se INFO SOA TTL for spavm.se OK (3600) - recommended >= 3600.
+ 68.182: spavm.se NOTICE SOA refresh for spavm.se too small (7200) - recommended >= 14400.
+ 68.182: spavm.se INFO SOA retry for spavm.se OK (3600) - recommended >= 3600.
+ 68.182: spavm.se INFO SOA expire for spavm.se OK (691200) - recommended >= 604800.
+ 68.182: spavm.se INFO SOA minimum for spavm.se OK (3600) - recommended between 300 and 86400.
+ 68.182: spavm.se INFO Done testing SOA parameters for spavm.se.
+ 68.182: spavm.se INFO Begin testing connectivity for spavm.se.
+ 69.210: spavm.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 69.210: spavm.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 69.210: spavm.se INFO Done testing connectivity for spavm.se.
+ 69.211: spavm.se INFO Begin testing DNSSEC for spavm.se.
+ 69.227: spavm.se INFO Did not find DS record for spavm.se at parent.
+ 69.253: spavm.se INFO Servers for spavm.se have consistent extra processing status.
+ 69.266: spavm.se INFO Authenticated denial records not found for spavm.se.
+ 69.273: spavm.se INFO Did not find DNSKEY record for spavm.se at child.
+ 69.273: spavm.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 69.273: spavm.se INFO Done testing DNSSEC for spavm.se.
+ 69.274: spavm.se INFO Test completed for zone spavm.se.

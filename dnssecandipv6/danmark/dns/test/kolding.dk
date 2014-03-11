@@ -1,0 +1,80 @@
+  0.000: kolding.dk INFO Begin testing zone kolding.dk with version 1.6.1.
+  0.517: kolding.dk INFO Begin testing delegation for kolding.dk.
+  5.470: kolding.dk INFO Name servers listed at parent: ns01.tdcwebmore.dk,ns02.tdcwebmore.dk
+  7.311: kolding.dk INFO Name servers listed at child: ns01.tdcwebmore.dk,ns02.tdcwebmore.dk
+  7.311: kolding.dk NOTICE No IPv6 name servers found.
+  7.350: kolding.dk INFO Parent glue for kolding.dk found: ns01.tdcwebmore.dk (62.243.74.199)
+  7.490: kolding.dk INFO Parent glue for kolding.dk found: ns02.tdcwebmore.dk (92.43.121.7)
+  7.528: kolding.dk INFO Checking glue for ns01.tdcwebmore.dk (62.243.74.199).
+  7.528: kolding.dk INFO Checking glue for ns02.tdcwebmore.dk (92.43.121.7).
+  7.528: kolding.dk INFO Parent glue for kolding.dk found: ns01.tdcwebmore.dk (62.243.74.199)
+  7.556: kolding.dk INFO Parent glue for kolding.dk found: ns02.tdcwebmore.dk (92.43.121.7)
+  8.403: kolding.dk INFO It is possible to build a referral packet for kolding.dk that works without EDNS0.
+  8.986: kolding.dk INFO Previously used name servers for kolding.dk: 
+  8.986: kolding.dk INFO Done testing delegation for kolding.dk.
+  8.986: kolding.dk INFO Begin testing name server ns01.tdcwebmore.dk.
+  8.987: kolding.dk INFO Begin testing host ns01.tdcwebmore.dk.
+  9.380: kolding.dk INFO Begin testing address 62.243.74.199.
+ 25.793: kolding.dk INFO Done testing address 62.243.74.199.
+ 25.793: kolding.dk INFO Done testing host ns01.tdcwebmore.dk.
+ 26.045: kolding.dk INFO Name server ns01.tdcwebmore.dk (62.243.74.199) answers queries over UDP.
+ 26.087: kolding.dk INFO Name server ns01.tdcwebmore.dk (62.243.74.199) answers queries over TCP.
+ 26.134: kolding.dk INFO Name server ns01.tdcwebmore.dk (62.243.74.199) is not recursive.
+ 26.255: kolding.dk INFO Name server ns01.tdcwebmore.dk (62.243.74.199) authoritative for kolding.dk.
+ 26.318: kolding.dk INFO Name server ns01.tdcwebmore.dk (62.243.74.199) closed for zone transfer of kolding.dk.
+ 26.363: kolding.dk INFO Legacy name server ID for ns01.tdcwebmore.dk (62.243.74.199): version.bind = PowerDNS Authoritative Server 3.3 (jenkins@autotest.powerdns.com built 20130708130708 mockbuild@repo.monshouwer.eu)
+ 26.449: kolding.dk INFO Done testing name server ns01.tdcwebmore.dk.
+ 26.449: kolding.dk INFO Begin testing name server ns02.tdcwebmore.dk.
+ 26.449: kolding.dk INFO Begin testing host ns02.tdcwebmore.dk.
+ 26.626: kolding.dk INFO Begin testing address 92.43.121.7.
+ 27.288: kolding.dk INFO Done testing address 92.43.121.7.
+ 27.288: kolding.dk INFO Done testing host ns02.tdcwebmore.dk.
+ 27.473: kolding.dk INFO Name server ns02.tdcwebmore.dk (92.43.121.7) answers queries over UDP.
+ 27.517: kolding.dk INFO Name server ns02.tdcwebmore.dk (92.43.121.7) answers queries over TCP.
+ 27.538: kolding.dk INFO Name server ns02.tdcwebmore.dk (92.43.121.7) is not recursive.
+ 27.663: kolding.dk INFO Name server ns02.tdcwebmore.dk (92.43.121.7) authoritative for kolding.dk.
+ 27.715: kolding.dk INFO Name server ns02.tdcwebmore.dk (92.43.121.7) closed for zone transfer of kolding.dk.
+ 27.792: kolding.dk INFO Legacy name server ID for ns02.tdcwebmore.dk (92.43.121.7): version.bind = PowerDNS Authoritative Server 3.3.1 (jenkins@autotest.powerdns.com built 20140120195432 mockbuild@repo.monshouwer.eu)
+ 27.860: kolding.dk INFO Done testing name server ns02.tdcwebmore.dk.
+ 27.860: kolding.dk INFO Begin testing zone consistency for kolding.dk.
+ 28.615: kolding.dk INFO SOA at address 92.43.121.7 has serial 2014030300.
+ 28.647: kolding.dk INFO SOA at address 62.243.74.199 has serial 2014030300.
+ 28.647: kolding.dk INFO All SOA records have consistent serial numbers.
+ 28.647: kolding.dk INFO All other fields in the SOA record are consistent among all name servers.
+ 29.038: kolding.dk NOTICE The listed nameservers for kolding.dk all report the same set of nameservers.
+ 29.038: kolding.dk INFO Done testing zone consistency for kolding.dk.
+ 29.038: kolding.dk INFO Begin testing SOA parameters for kolding.dk.
+ 29.057: kolding.dk INFO Found SOA record for kolding.dk.
+ 29.057: kolding.dk INFO Begin testing host ns01.tdcwebmore.dk.
+ 29.223: kolding.dk INFO Begin testing address 62.243.74.199.
+ 29.348: kolding.dk INFO Done testing address 62.243.74.199.
+ 29.348: kolding.dk INFO Done testing host ns01.tdcwebmore.dk.
+ 29.355: kolding.dk INFO SOA MNAME for kolding.dk valid (ns01.tdcwebmore.dk).
+ 29.356: kolding.dk INFO SOA MNAME for kolding.dk (ns01.tdcwebmore.dk) listed as NS.
+ 29.545: kolding.dk INFO SOA MNAME for kolding.dk (ns01.tdcwebmore.dk) is authoritative.
+ 29.546: kolding.dk INFO Begin testing email address hostmaster@tele.dk.
+ 30.008: kolding.dk INFO Mail exchangers for hostmaster@tele.dk found mailgrinder.inet.tele.dk.
+ 30.008: kolding.dk INFO Begin testing host mailgrinder.inet.tele.dk.
+ 30.457: kolding.dk INFO Begin testing address 195.41.53.78.
+ 30.929: kolding.dk INFO Done testing address 195.41.53.78.
+ 30.929: kolding.dk INFO Done testing host mailgrinder.inet.tele.dk.
+ 31.248: kolding.dk INFO Done testing email address hostmaster@tele.dk.
+ 31.248: kolding.dk INFO Successful attempt to deliver email for SOA RNAME of kolding.dk (hostmaster.tele.dk) using hostmaster@tele.dk.
+ 31.257: kolding.dk INFO SOA TTL for kolding.dk OK (21600) - recommended >= 3600.
+ 31.257: kolding.dk INFO SOA refresh for kolding.dk OK (14400) - recommended >= 14400.
+ 31.257: kolding.dk INFO SOA retry for kolding.dk OK (7200) - recommended >= 3600.
+ 31.257: kolding.dk INFO SOA expire for kolding.dk OK (604800) - recommended >= 604800.
+ 31.257: kolding.dk INFO SOA minimum for kolding.dk OK (900) - recommended between 300 and 86400.
+ 31.257: kolding.dk INFO Done testing SOA parameters for kolding.dk.
+ 31.257: kolding.dk INFO Begin testing connectivity for kolding.dk.
+ 32.501: kolding.dk INFO Zone announced by more than one ASN.
+ 32.501: kolding.dk NOTICE Zone announced by fewer than two IPv6 ASN.
+ 32.501: kolding.dk INFO Done testing connectivity for kolding.dk.
+ 32.502: kolding.dk INFO Begin testing DNSSEC for kolding.dk.
+ 32.580: kolding.dk INFO Did not find DS record for kolding.dk at parent.
+ 32.656: kolding.dk INFO Servers for kolding.dk have consistent extra processing status.
+ 32.694: kolding.dk INFO Authenticated denial records not found for kolding.dk.
+ 32.713: kolding.dk INFO Did not find DNSKEY record for kolding.dk at child.
+ 32.713: kolding.dk INFO No DNSKEY(s) found at child, other tests skipped.
+ 32.713: kolding.dk INFO Done testing DNSSEC for kolding.dk.
+ 32.713: kolding.dk INFO Test completed for zone kolding.dk.

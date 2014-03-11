@@ -1,0 +1,83 @@
+  0.000: proteamity.se INFO Begin testing zone proteamity.se with version 1.0.1.
+  0.001: proteamity.se INFO Begin testing delegation for proteamity.se.
+  0.705: proteamity.se INFO Name servers listed at parent: ns1.proteamnames.se,ns2.proteamnames.se
+  0.844: proteamity.se INFO Name servers listed at child: ns1.proteamnames.se,ns2.proteamnames.se
+  0.845: proteamity.se NOTICE No IPv6 name servers found.
+  0.853: proteamity.se INFO Parent glue for proteamity.se found: ns1.proteamnames.se (217.28.206.135)
+  0.881: proteamity.se INFO Parent glue for proteamity.se found: ns2.proteamnames.se (217.28.206.134)
+  0.889: proteamity.se INFO Checking glue for ns1.proteamnames.se (217.28.206.135).
+  0.889: proteamity.se INFO Checking glue for ns2.proteamnames.se (217.28.206.134).
+  0.889: proteamity.se INFO Done testing delegation for proteamity.se.
+  0.889: proteamity.se INFO Begin testing name server ns1.proteamnames.se.
+  0.890: proteamity.se INFO Begin testing host ns1.proteamnames.se.
+  0.890: proteamity.se INFO Begin testing address 217.28.206.135.
+  3.333: proteamity.se INFO Done testing address 217.28.206.135.
+  3.333: proteamity.se INFO Done testing host ns1.proteamnames.se.
+  3.355: proteamity.se INFO Name server ns1.proteamnames.se (217.28.206.135) is not recursive.
+  3.376: proteamity.se INFO Name server ns1.proteamnames.se (217.28.206.135) authoritative for proteamity.se.
+  3.396: proteamity.se INFO Name server ns1.proteamnames.se (217.28.206.135) answers queries over UDP.
+  3.441: proteamity.se INFO Name server ns1.proteamnames.se (217.28.206.135) answers queries over TCP.
+  3.648: proteamity.se INFO Name server ns1.proteamnames.se (217.28.206.135) closed for zone transfer of proteamity.se.
+  3.669: proteamity.se NOTICE No answer received from 217.28.206.135 when querying for hostname.bind/CH/TXT.
+ 21.671: proteamity.se INFO Done testing name server ns1.proteamnames.se.
+ 21.671: proteamity.se INFO Begin testing name server ns2.proteamnames.se.
+ 21.671: proteamity.se INFO Begin testing host ns2.proteamnames.se.
+ 21.671: proteamity.se INFO Begin testing address 217.28.206.134.
+ 21.695: proteamity.se INFO Done testing address 217.28.206.134.
+ 21.695: proteamity.se INFO Done testing host ns2.proteamnames.se.
+ 21.716: proteamity.se INFO Name server ns2.proteamnames.se (217.28.206.134) is not recursive.
+ 21.738: proteamity.se INFO Name server ns2.proteamnames.se (217.28.206.134) authoritative for proteamity.se.
+ 21.767: proteamity.se INFO Name server ns2.proteamnames.se (217.28.206.134) answers queries over UDP.
+ 21.807: proteamity.se INFO Name server ns2.proteamnames.se (217.28.206.134) answers queries over TCP.
+ 22.023: proteamity.se INFO Name server ns2.proteamnames.se (217.28.206.134) closed for zone transfer of proteamity.se.
+ 46.023: proteamity.se INFO Done testing name server ns2.proteamnames.se.
+ 46.023: proteamity.se INFO Begin testing zone consistency for proteamity.se.
+ 46.047: proteamity.se INFO SOA at address 217.28.206.134 has serial 2007110325.
+ 46.068: proteamity.se INFO SOA at address 217.28.206.135 has serial 2007110325.
+ 46.069: proteamity.se INFO All SOA records have consistent serial numbers.
+ 46.069: proteamity.se INFO All SOA records are consistent among all name servers.
+ 46.069: proteamity.se INFO Done testing zone consistency for proteamity.se.
+ 46.069: proteamity.se INFO Begin testing SOA parameters for proteamity.se.
+ 46.090: proteamity.se INFO Found SOA record for proteamity.se.
+ 46.090: proteamity.se INFO Begin testing host ns1.proteamnames.se.
+ 46.091: proteamity.se INFO Begin testing address 217.28.206.135.
+ 46.092: proteamity.se INFO Done testing address 217.28.206.135.
+ 46.092: proteamity.se INFO Done testing host ns1.proteamnames.se.
+ 46.092: proteamity.se INFO SOA MNAME for proteamity.se valid (ns1.proteamnames.se).
+ 46.092: proteamity.se INFO SOA MNAME for proteamity.se (ns1.proteamnames.se) listed as NS.
+ 46.114: proteamity.se INFO SOA MNAME for proteamity.se (ns1.proteamnames.se) is authoritative.
+ 46.115: proteamity.se INFO Begin testing email address hostmaster@proteamity.se.
+ 46.137: proteamity.se INFO Mail exchangers for hostmaster@proteamity.se found mail.global.frontbridge.com.
+ 46.137: proteamity.se INFO Begin testing host mail.global.frontbridge.com.
+ 46.704: proteamity.se INFO Begin testing address 65.55.88.22.
+ 48.051: proteamity.se INFO Done testing address 65.55.88.22.
+ 48.051: proteamity.se INFO Done testing host mail.global.frontbridge.com.
+ 48.052: proteamity.se INFO Begin testing mail server mail.global.frontbridge.com (65.55.88.22) with hostmaster@proteamity.se.
+ 48.476: proteamity.se INFO SMTP banner: TX2EHSMHS049.bigfish.com Microsoft ESMTP MAIL Service ready at Tue, 7 Sep 2010 14:21:26 +0000
+ 49.042: proteamity.se INFO SMTP testing of mail.global.frontbridge.com (65.55.88.22) with hostmaster@proteamity.se succeeded without errors.
+ 49.042: proteamity.se INFO Done testing mail server mail.global.frontbridge.com (65.55.88.22) with hostmaster@proteamity.se.
+ 49.042: proteamity.se INFO Delivery over IPv4 to hostmaster@proteamity.se ok.
+ 49.042: proteamity.se INFO Delivery over IPv6 to hostmaster@proteamity.se could not be done.
+ 49.042: proteamity.se INFO Done testing email address hostmaster@proteamity.se.
+ 49.042: proteamity.se INFO Successful attempt to deliver email for SOA RNAME of proteamity.se (hostmaster.proteamity.se) using hostmaster@proteamity.se.
+ 49.042: proteamity.se INFO SOA TTL for proteamity.se OK (14400) - recommended >= 3600.
+ 49.042: proteamity.se NOTICE SOA refresh for proteamity.se too small (3600) - recommended >= 14400.
+ 49.042: proteamity.se NOTICE SOA retry for proteamity.se too small (900) - recommended >= 3600.
+ 49.043: proteamity.se INFO SOA expire for proteamity.se OK (604800) - recommended >= 604800.
+ 49.043: proteamity.se INFO SOA minimum for proteamity.se OK (14400) - recommended between 300 and 86400.
+ 49.043: proteamity.se INFO Done testing SOA parameters for proteamity.se.
+ 49.043: proteamity.se INFO Begin testing connectivity for proteamity.se.
+ 49.345: proteamity.se INFO Name server 217.28.206.134 announced by: 34385
+ 49.466: proteamity.se INFO Name server 217.28.206.135 announced by: 34385
+ 49.466: proteamity.se INFO Zone announced by ASN: 34385
+ 49.466: proteamity.se NOTICE Zone announced by only one ASN (1).
+ 49.467: proteamity.se INFO Zone announced by IPv6 ASN: 
+ 49.467: proteamity.se NOTICE Zone announced by only one IPv6 ASN (0).
+ 49.467: proteamity.se INFO Done testing connectivity for proteamity.se.
+ 49.467: proteamity.se INFO Begin testing DNSSEC for proteamity.se.
+ 49.515: proteamity.se INFO Did not find DS record for proteamity.se at parent.
+ 49.595: proteamity.se INFO Servers for proteamity.se have consistent extra processing status.
+ 49.595: proteamity.se INFO Did not find DNSKEY record for proteamity.se at child.
+ 49.595: proteamity.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 49.595: proteamity.se INFO Done testing DNSSEC for proteamity.se.
+ 49.595: proteamity.se INFO Test completed for zone proteamity.se.

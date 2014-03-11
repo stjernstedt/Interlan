@@ -1,0 +1,102 @@
+  0.000: sund.ax INFO Begin testing zone sund.ax with version 1.6.1.
+  0.418: sund.ax INFO Begin testing delegation for sund.ax.
+  3.565: sund.ax INFO Name servers listed at parent: ns.alcom.aland.fi,ns2.alcom.aland.fi,ns3.alcom.aland.fi
+  6.012: sund.ax INFO Name servers listed at child: ns.alcom.aland.fi,ns2.alcom.aland.fi,ns3.alcom.aland.fi
+  6.012: sund.ax NOTICE No IPv6 name servers found.
+  6.085: sund.ax INFO Parent glue for sund.ax found: ns.alcom.aland.fi (194.112.0.1)
+  6.211: sund.ax INFO Parent glue for sund.ax found: ns2.alcom.aland.fi (194.112.0.5)
+  6.288: sund.ax INFO Parent glue for sund.ax found: ns3.alcom.aland.fi (82.199.186.130)
+  6.355: sund.ax INFO Checking glue for ns.alcom.aland.fi (194.112.0.1).
+  6.355: sund.ax INFO Checking glue for ns2.alcom.aland.fi (194.112.0.5).
+  6.355: sund.ax INFO Checking glue for ns3.alcom.aland.fi (82.199.186.130).
+  6.356: sund.ax INFO Parent glue for sund.ax found: ns.alcom.aland.fi (194.112.0.1)
+  6.356: sund.ax INFO Parent glue for sund.ax found: ns2.alcom.aland.fi (194.112.0.5)
+  6.356: sund.ax INFO Parent glue for sund.ax found: ns3.alcom.aland.fi (82.199.186.130)
+  7.723: sund.ax INFO It is possible to build a referral packet for sund.ax that works without EDNS0.
+  8.826: sund.ax INFO Previously used name servers for sund.ax: 
+  8.827: sund.ax INFO Done testing delegation for sund.ax.
+  8.827: sund.ax INFO Begin testing name server ns.alcom.aland.fi.
+  8.827: sund.ax INFO Begin testing host ns.alcom.aland.fi.
+  9.202: sund.ax INFO Begin testing address 194.112.0.1.
+ 23.263: sund.ax INFO Done testing address 194.112.0.1.
+ 23.263: sund.ax INFO Done testing host ns.alcom.aland.fi.
+ 23.592: sund.ax INFO Name server ns.alcom.aland.fi (194.112.0.1) answers queries over UDP.
+ 23.619: sund.ax INFO Name server ns.alcom.aland.fi (194.112.0.1) answers queries over TCP.
+ 23.632: sund.ax INFO Name server ns.alcom.aland.fi (194.112.0.1) is not recursive.
+ 23.668: sund.ax INFO Name server ns.alcom.aland.fi (194.112.0.1) authoritative for sund.ax.
+ 23.690: sund.ax INFO Name server ns.alcom.aland.fi (194.112.0.1) closed for zone transfer of sund.ax.
+ 23.701: sund.ax INFO Legacy name server ID for ns.alcom.aland.fi (194.112.0.1): hostname.bind = aragon
+ 23.711: sund.ax INFO Legacy name server ID for ns.alcom.aland.fi (194.112.0.1): version.bind = N/A
+ 23.727: sund.ax NOTICE No answer received from 194.112.0.1 when querying for version.server/CH/TXT.
+ 23.727: sund.ax INFO Done testing name server ns.alcom.aland.fi.
+ 23.728: sund.ax INFO Begin testing name server ns2.alcom.aland.fi.
+ 23.728: sund.ax INFO Begin testing host ns2.alcom.aland.fi.
+ 23.883: sund.ax INFO Begin testing address 194.112.0.5.
+ 25.803: sund.ax INFO Done testing address 194.112.0.5.
+ 25.803: sund.ax INFO Done testing host ns2.alcom.aland.fi.
+ 25.984: sund.ax INFO Name server ns2.alcom.aland.fi (194.112.0.5) answers queries over UDP.
+ 26.028: sund.ax INFO Name server ns2.alcom.aland.fi (194.112.0.5) answers queries over TCP.
+ 26.051: sund.ax INFO Name server ns2.alcom.aland.fi (194.112.0.5) is not recursive.
+ 26.164: sund.ax INFO Name server ns2.alcom.aland.fi (194.112.0.5) authoritative for sund.ax.
+ 26.205: sund.ax INFO Name server ns2.alcom.aland.fi (194.112.0.5) closed for zone transfer of sund.ax.
+ 26.243: sund.ax INFO Legacy name server ID for ns2.alcom.aland.fi (194.112.0.5): hostname.bind = gandalf
+ 26.277: sund.ax INFO Legacy name server ID for ns2.alcom.aland.fi (194.112.0.5): version.bind = N/A
+ 26.331: sund.ax NOTICE No answer received from 194.112.0.5 when querying for version.server/CH/TXT.
+ 26.331: sund.ax INFO Done testing name server ns2.alcom.aland.fi.
+ 26.331: sund.ax INFO Begin testing name server ns3.alcom.aland.fi.
+ 26.331: sund.ax INFO Begin testing host ns3.alcom.aland.fi.
+ 26.607: sund.ax INFO Begin testing address 82.199.186.130.
+ 28.009: sund.ax INFO Done testing address 82.199.186.130.
+ 28.009: sund.ax INFO Done testing host ns3.alcom.aland.fi.
+ 28.296: sund.ax INFO Name server ns3.alcom.aland.fi (82.199.186.130) answers queries over UDP.
+ 28.359: sund.ax INFO Name server ns3.alcom.aland.fi (82.199.186.130) answers queries over TCP.
+ 28.399: sund.ax INFO Name server ns3.alcom.aland.fi (82.199.186.130) is not recursive.
+ 28.519: sund.ax INFO Name server ns3.alcom.aland.fi (82.199.186.130) authoritative for sund.ax.
+ 28.532: sund.ax INFO Name server ns3.alcom.aland.fi (82.199.186.130) closed for zone transfer of sund.ax.
+ 28.563: sund.ax INFO Legacy name server ID for ns3.alcom.aland.fi (82.199.186.130): hostname.bind = frodo
+ 28.587: sund.ax INFO Legacy name server ID for ns3.alcom.aland.fi (82.199.186.130): version.bind = N/A
+ 28.647: sund.ax NOTICE No answer received from 82.199.186.130 when querying for version.server/CH/TXT.
+ 28.647: sund.ax INFO Done testing name server ns3.alcom.aland.fi.
+ 28.647: sund.ax INFO Begin testing zone consistency for sund.ax.
+ 30.188: sund.ax INFO SOA at address 82.199.186.130 has serial 2012012609.
+ 30.230: sund.ax INFO SOA at address 194.112.0.5 has serial 2012012609.
+ 30.260: sund.ax INFO SOA at address 194.112.0.1 has serial 2012012609.
+ 30.260: sund.ax INFO All SOA records have consistent serial numbers.
+ 30.260: sund.ax INFO All other fields in the SOA record are consistent among all name servers.
+ 31.137: sund.ax NOTICE The listed nameservers for sund.ax all report the same set of nameservers.
+ 31.137: sund.ax INFO Done testing zone consistency for sund.ax.
+ 31.137: sund.ax INFO Begin testing SOA parameters for sund.ax.
+ 31.198: sund.ax INFO Found SOA record for sund.ax.
+ 31.198: sund.ax INFO Begin testing host ns.alcom.aland.fi.
+ 31.559: sund.ax INFO Begin testing address 194.112.0.1.
+ 33.333: sund.ax INFO Done testing address 194.112.0.1.
+ 33.334: sund.ax INFO Done testing host ns.alcom.aland.fi.
+ 33.334: sund.ax INFO SOA MNAME for sund.ax valid (ns.alcom.aland.fi).
+ 33.334: sund.ax INFO SOA MNAME for sund.ax (ns.alcom.aland.fi) listed as NS.
+ 33.552: sund.ax INFO SOA MNAME for sund.ax (ns.alcom.aland.fi) is authoritative.
+ 33.552: sund.ax INFO Begin testing email address hostmaster@alcom.aland.fi.
+ 33.888: sund.ax INFO Mail exchangers for hostmaster@alcom.aland.fi found mail.aland.net.
+ 33.888: sund.ax INFO Begin testing host mail.aland.net.
+ 34.651: sund.ax INFO Begin testing address 194.112.1.114.
+ 35.191: sund.ax INFO Done testing address 194.112.1.114.
+ 35.191: sund.ax INFO Done testing host mail.aland.net.
+ 35.349: sund.ax INFO Done testing email address hostmaster@alcom.aland.fi.
+ 35.349: sund.ax INFO Successful attempt to deliver email for SOA RNAME of sund.ax (hostmaster.alcom.aland.fi) using hostmaster@alcom.aland.fi.
+ 35.349: sund.ax INFO SOA TTL for sund.ax OK (86400) - recommended >= 3600.
+ 35.349: sund.ax INFO SOA refresh for sund.ax OK (86400) - recommended >= 14400.
+ 35.349: sund.ax INFO SOA retry for sund.ax OK (7200) - recommended >= 3600.
+ 35.349: sund.ax INFO SOA expire for sund.ax OK (2419200) - recommended >= 604800.
+ 35.349: sund.ax NOTICE SOA minimum for sund.ax too large (172800) - recommended <= 86400.
+ 35.349: sund.ax INFO Done testing SOA parameters for sund.ax.
+ 35.349: sund.ax INFO Begin testing connectivity for sund.ax.
+ 37.268: sund.ax NOTICE Zone announced by fewer than two IPv4 ASN.
+ 37.268: sund.ax NOTICE Zone announced by fewer than two IPv6 ASN.
+ 37.268: sund.ax INFO Done testing connectivity for sund.ax.
+ 37.268: sund.ax INFO Begin testing DNSSEC for sund.ax.
+ 37.315: sund.ax INFO Did not find DS record for sund.ax at parent.
+ 37.405: sund.ax INFO Servers for sund.ax have consistent extra processing status.
+ 37.440: sund.ax INFO Authenticated denial records not found for sund.ax.
+ 37.467: sund.ax INFO Did not find DNSKEY record for sund.ax at child.
+ 37.467: sund.ax INFO No DNSKEY(s) found at child, other tests skipped.
+ 37.467: sund.ax INFO Done testing DNSSEC for sund.ax.
+ 37.467: sund.ax INFO Test completed for zone sund.ax.

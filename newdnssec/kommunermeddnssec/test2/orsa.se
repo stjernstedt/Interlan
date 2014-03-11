@@ -1,0 +1,88 @@
+  0.000: orsa.se INFO Begin testing zone orsa.se with version 1.2.
+  0.000: orsa.se INFO Begin testing delegation for orsa.se.
+  5.296: orsa.se INFO Name servers listed at parent: nic.mora.se,ns2.gulo.net
+  7.215: orsa.se INFO Name servers listed at child: nic.mora.se,ns2.gulo.net
+  7.215: orsa.se NOTICE No IPv6 name servers found.
+  7.233: orsa.se INFO Parent glue for orsa.se found: nic.mora.se (62.101.38.226)
+  7.321: orsa.se INFO Checking glue for nic.mora.se (62.101.38.226).
+  7.321: orsa.se INFO Parent glue for orsa.se found: nic.mora.se (62.101.38.226)
+  7.322: orsa.se INFO Done testing delegation for orsa.se.
+  7.322: orsa.se INFO Begin testing name server nic.mora.se.
+  7.323: orsa.se INFO Begin testing host nic.mora.se.
+  7.323: orsa.se INFO Begin testing address 62.101.38.226.
+ 16.836: orsa.se INFO Done testing address 62.101.38.226.
+ 16.836: orsa.se INFO Done testing host nic.mora.se.
+ 16.851: orsa.se INFO Name server nic.mora.se (62.101.38.226) answers queries over UDP.
+ 16.867: orsa.se INFO Name server nic.mora.se (62.101.38.226) answers queries over TCP.
+ 16.884: orsa.se INFO Name server nic.mora.se (62.101.38.226) is not recursive.
+ 16.893: orsa.se INFO Name server nic.mora.se (62.101.38.226) authoritative for orsa.se.
+ 16.908: orsa.se INFO Name server nic.mora.se (62.101.38.226) closed for zone transfer of orsa.se.
+ 16.918: orsa.se INFO Legacy name server ID for nic.mora.se (62.101.38.226): hostname.bind = nic.mora.se
+ 16.930: orsa.se INFO Legacy name server ID for nic.mora.se (62.101.38.226): version.bind = you must be joking
+ 16.937: orsa.se NOTICE No answer received from 62.101.38.226 when querying for id.server/CH/TXT.
+ 16.944: orsa.se NOTICE No answer received from 62.101.38.226 when querying for version.server/CH/TXT.
+ 16.944: orsa.se INFO Done testing name server nic.mora.se.
+ 16.944: orsa.se INFO Begin testing name server ns2.gulo.net.
+ 16.945: orsa.se INFO Begin testing host ns2.gulo.net.
+ 16.945: orsa.se INFO Begin testing address 62.101.37.61.
+ 17.858: orsa.se INFO Done testing address 62.101.37.61.
+ 17.859: orsa.se INFO Done testing host ns2.gulo.net.
+ 17.866: orsa.se INFO Name server ns2.gulo.net (62.101.37.61) answers queries over UDP.
+ 17.878: orsa.se INFO Name server ns2.gulo.net (62.101.37.61) answers queries over TCP.
+ 17.891: orsa.se INFO Name server ns2.gulo.net (62.101.37.61) is not recursive.
+ 17.898: orsa.se INFO Name server ns2.gulo.net (62.101.37.61) authoritative for orsa.se.
+ 18.012: orsa.se INFO Name server ns2.gulo.net (62.101.37.61) closed for zone transfer of orsa.se.
+ 18.020: orsa.se INFO Legacy name server ID for ns2.gulo.net (62.101.37.61): hostname.bind = ns2.daladatorer.net
+ 18.026: orsa.se INFO Legacy name server ID for ns2.gulo.net (62.101.37.61): version.bind = none of your business
+ 18.039: orsa.se NOTICE No answer received from 62.101.37.61 when querying for version.server/CH/TXT.
+ 18.039: orsa.se INFO Done testing name server ns2.gulo.net.
+ 18.039: orsa.se INFO Begin testing zone consistency for orsa.se.
+ 18.051: orsa.se INFO SOA at address 62.101.38.226 has serial 2010112402.
+ 18.058: orsa.se INFO SOA at address 62.101.37.61 has serial 2010112402.
+ 18.059: orsa.se INFO All SOA records have consistent serial numbers.
+ 18.059: orsa.se INFO All SOA records are consistent among all name servers.
+ 18.059: orsa.se INFO Done testing zone consistency for orsa.se.
+ 18.059: orsa.se INFO Begin testing SOA parameters for orsa.se.
+ 18.066: orsa.se INFO Found SOA record for orsa.se.
+ 18.066: orsa.se INFO Begin testing host nic.mora.se.
+ 18.067: orsa.se INFO Begin testing address 62.101.38.226.
+ 18.068: orsa.se INFO Done testing address 62.101.38.226.
+ 18.068: orsa.se INFO Done testing host nic.mora.se.
+ 18.068: orsa.se INFO SOA MNAME for orsa.se valid (nic.mora.se).
+ 18.069: orsa.se INFO SOA MNAME for orsa.se (nic.mora.se) listed as NS.
+ 18.078: orsa.se INFO SOA MNAME for orsa.se (nic.mora.se) is authoritative.
+ 18.078: orsa.se INFO Begin testing email address hostmaster@mora.se.
+ 18.348: orsa.se INFO Mail exchangers for hostmaster@mora.se found mx1.daladatorer.net.
+ 18.349: orsa.se INFO Begin testing host mx1.daladatorer.net.
+ 18.974: orsa.se INFO Begin testing address 62.101.37.3.
+ 19.295: orsa.se INFO Done testing address 62.101.37.3.
+ 19.295: orsa.se INFO Done testing host mx1.daladatorer.net.
+ 19.295: orsa.se INFO Begin testing mail server mx1.daladatorer.net (62.101.37.3) with hostmaster@mora.se.
+ 19.309: orsa.se INFO SMTP banner: mx1.daladatorer.net ESMTP Postfix
+ 19.343: orsa.se INFO SMTP testing of mx1.daladatorer.net (62.101.37.3) with hostmaster@mora.se succeeded without errors.
+ 19.343: orsa.se INFO Done testing mail server mx1.daladatorer.net (62.101.37.3) with hostmaster@mora.se.
+ 19.343: orsa.se INFO Delivery over IPv4 to hostmaster@mora.se ok.
+ 19.343: orsa.se INFO Delivery over IPv6 to hostmaster@mora.se could not be done.
+ 19.343: orsa.se INFO Done testing email address hostmaster@mora.se.
+ 19.343: orsa.se INFO Successful attempt to deliver email for SOA RNAME of orsa.se (hostmaster.mora.se) using hostmaster@mora.se.
+ 19.343: orsa.se INFO SOA TTL for orsa.se OK (86400) - recommended >= 3600.
+ 19.343: orsa.se INFO SOA refresh for orsa.se OK (28800) - recommended >= 14400.
+ 19.343: orsa.se INFO SOA retry for orsa.se OK (7200) - recommended >= 3600.
+ 19.344: orsa.se INFO SOA expire for orsa.se OK (604800) - recommended >= 604800.
+ 19.344: orsa.se INFO SOA minimum for orsa.se OK (86400) - recommended between 300 and 86400.
+ 19.344: orsa.se INFO Done testing SOA parameters for orsa.se.
+ 19.344: orsa.se INFO Begin testing connectivity for orsa.se.
+ 19.889: orsa.se INFO Name server 62.101.37.61 announced by: 13189
+ 20.659: orsa.se INFO Name server 62.101.38.226 announced by: 13189
+ 20.659: orsa.se INFO Zone announced by IPv4 ASN: 13189
+ 20.659: orsa.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 20.660: orsa.se INFO Zone announced by IPv6 ASN: 
+ 20.660: orsa.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 20.660: orsa.se INFO Done testing connectivity for orsa.se.
+ 20.660: orsa.se INFO Begin testing DNSSEC for orsa.se.
+ 20.770: orsa.se INFO Did not find DS record for orsa.se at parent.
+ 20.797: orsa.se INFO Servers for orsa.se have consistent extra processing status.
+ 20.797: orsa.se INFO Did not find DNSKEY record for orsa.se at child.
+ 20.797: orsa.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 20.797: orsa.se INFO Done testing DNSSEC for orsa.se.
+ 20.798: orsa.se INFO Test completed for zone orsa.se.

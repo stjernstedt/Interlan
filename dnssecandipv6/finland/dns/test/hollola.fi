@@ -1,0 +1,88 @@
+  0.000: hollola.fi INFO Begin testing zone hollola.fi with version 1.6.1.
+  0.413: hollola.fi INFO Begin testing delegation for hollola.fi.
+  8.711: hollola.fi INFO Name servers listed at parent: ns1.taajama.fi,ns4.taajama.fi
+ 10.411: hollola.fi INFO Name servers listed at child: ns1.taajama.fi,ns4.taajama.fi
+ 10.411: hollola.fi NOTICE No IPv6 name servers found.
+ 10.483: hollola.fi INFO Parent glue for hollola.fi found: ns1.taajama.fi (83.102.40.26)
+ 10.601: hollola.fi INFO Parent glue for hollola.fi found: ns4.taajama.fi (83.102.40.27)
+ 10.669: hollola.fi INFO Checking glue for ns1.taajama.fi (83.102.40.26).
+ 10.669: hollola.fi INFO Checking glue for ns4.taajama.fi (83.102.40.27).
+ 10.669: hollola.fi INFO Parent glue for hollola.fi found: ns1.taajama.fi (83.102.40.26)
+ 10.709: hollola.fi INFO Parent glue for hollola.fi found: ns4.taajama.fi (83.102.40.27)
+ 11.624: hollola.fi INFO It is possible to build a referral packet for hollola.fi that works without EDNS0.
+ 12.289: hollola.fi INFO Previously used name servers for hollola.fi: 
+ 12.289: hollola.fi INFO Done testing delegation for hollola.fi.
+ 12.289: hollola.fi INFO Begin testing name server ns1.taajama.fi.
+ 12.289: hollola.fi INFO Begin testing host ns1.taajama.fi.
+ 12.574: hollola.fi INFO Begin testing address 83.102.40.26.
+ 17.134: hollola.fi INFO Done testing address 83.102.40.26.
+ 17.134: hollola.fi INFO Done testing host ns1.taajama.fi.
+ 17.471: hollola.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over UDP.
+ 17.506: hollola.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over TCP.
+ 17.542: hollola.fi INFO Name server ns1.taajama.fi (83.102.40.26) is not recursive.
+ 17.644: hollola.fi INFO Name server ns1.taajama.fi (83.102.40.26) authoritative for hollola.fi.
+ 17.691: hollola.fi INFO Name server ns1.taajama.fi (83.102.40.26) closed for zone transfer of hollola.fi.
+ 17.716: hollola.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): hostname.bind = saharausku
+ 17.773: hollola.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): version.bind = Not disclosed
+ 17.849: hollola.fi NOTICE No answer received from 83.102.40.26 when querying for version.server/CH/TXT.
+ 17.849: hollola.fi INFO Done testing name server ns1.taajama.fi.
+ 17.849: hollola.fi INFO Begin testing name server ns4.taajama.fi.
+ 17.858: hollola.fi INFO Begin testing host ns4.taajama.fi.
+ 18.041: hollola.fi INFO Begin testing address 83.102.40.27.
+ 18.606: hollola.fi INFO Done testing address 83.102.40.27.
+ 18.610: hollola.fi INFO Done testing host ns4.taajama.fi.
+ 18.733: hollola.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over UDP.
+ 18.774: hollola.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over TCP.
+ 18.795: hollola.fi INFO Name server ns4.taajama.fi (83.102.40.27) is not recursive.
+ 18.899: hollola.fi INFO Name server ns4.taajama.fi (83.102.40.27) authoritative for hollola.fi.
+ 18.948: hollola.fi INFO Name server ns4.taajama.fi (83.102.40.27) closed for zone transfer of hollola.fi.
+ 18.970: hollola.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): hostname.bind = perhosrausku
+ 19.004: hollola.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): version.bind = Not disclosed
+ 19.077: hollola.fi NOTICE No answer received from 83.102.40.27 when querying for version.server/CH/TXT.
+ 19.077: hollola.fi INFO Done testing name server ns4.taajama.fi.
+ 19.077: hollola.fi INFO Begin testing zone consistency for hollola.fi.
+ 20.058: hollola.fi INFO SOA at address 83.102.40.26 has serial 2014010301.
+ 20.085: hollola.fi INFO SOA at address 83.102.40.27 has serial 2014010301.
+ 20.085: hollola.fi INFO All SOA records have consistent serial numbers.
+ 20.085: hollola.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 20.520: hollola.fi NOTICE The listed nameservers for hollola.fi all report the same set of nameservers.
+ 20.521: hollola.fi INFO Done testing zone consistency for hollola.fi.
+ 20.521: hollola.fi INFO Begin testing SOA parameters for hollola.fi.
+ 20.575: hollola.fi INFO Found SOA record for hollola.fi.
+ 20.576: hollola.fi INFO Begin testing host ns1.taajama.fi.
+ 20.821: hollola.fi INFO Begin testing address 83.102.40.26.
+ 21.090: hollola.fi INFO Done testing address 83.102.40.26.
+ 21.090: hollola.fi INFO Done testing host ns1.taajama.fi.
+ 21.090: hollola.fi INFO SOA MNAME for hollola.fi valid (ns1.taajama.fi).
+ 21.090: hollola.fi INFO SOA MNAME for hollola.fi (ns1.taajama.fi) listed as NS.
+ 21.369: hollola.fi INFO SOA MNAME for hollola.fi (ns1.taajama.fi) is authoritative.
+ 21.369: hollola.fi INFO Begin testing email address hostmaster@taajama.com.
+ 21.658: hollola.fi INFO Mail exchangers for hostmaster@taajama.com found spp.taajama.fi,mx2.taajama.com.
+ 21.658: hollola.fi INFO Begin testing host spp.taajama.fi.
+ 22.314: hollola.fi INFO Begin testing address 217.78.212.151.
+ 23.369: hollola.fi INFO Done testing address 217.78.212.151.
+ 23.369: hollola.fi INFO Done testing host spp.taajama.fi.
+ 23.633: hollola.fi INFO Begin testing host mx2.taajama.com.
+ 24.321: hollola.fi INFO Begin testing address 83.102.41.75.
+ 25.203: hollola.fi INFO Done testing address 83.102.41.75.
+ 25.203: hollola.fi INFO Done testing host mx2.taajama.com.
+ 25.634: hollola.fi INFO Done testing email address hostmaster@taajama.com.
+ 25.634: hollola.fi INFO Successful attempt to deliver email for SOA RNAME of hollola.fi (hostmaster.taajama.com) using hostmaster@taajama.com.
+ 25.634: hollola.fi INFO SOA TTL for hollola.fi OK (3600) - recommended >= 3600.
+ 25.635: hollola.fi INFO SOA refresh for hollola.fi OK (28800) - recommended >= 14400.
+ 25.635: hollola.fi INFO SOA retry for hollola.fi OK (7200) - recommended >= 3600.
+ 25.635: hollola.fi INFO SOA expire for hollola.fi OK (1814400) - recommended >= 604800.
+ 25.635: hollola.fi INFO SOA minimum for hollola.fi OK (86400) - recommended between 300 and 86400.
+ 25.635: hollola.fi INFO Done testing SOA parameters for hollola.fi.
+ 25.635: hollola.fi INFO Begin testing connectivity for hollola.fi.
+ 27.051: hollola.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 27.051: hollola.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 27.051: hollola.fi INFO Done testing connectivity for hollola.fi.
+ 27.051: hollola.fi INFO Begin testing DNSSEC for hollola.fi.
+ 27.115: hollola.fi INFO Did not find DS record for hollola.fi at parent.
+ 27.233: hollola.fi INFO Servers for hollola.fi have consistent extra processing status.
+ 27.280: hollola.fi INFO Authenticated denial records not found for hollola.fi.
+ 27.332: hollola.fi INFO Did not find DNSKEY record for hollola.fi at child.
+ 27.332: hollola.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 27.332: hollola.fi INFO Done testing DNSSEC for hollola.fi.
+ 27.333: hollola.fi INFO Test completed for zone hollola.fi.

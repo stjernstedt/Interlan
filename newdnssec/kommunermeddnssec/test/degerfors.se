@@ -1,0 +1,141 @@
+  0.000: degerfors.se INFO Begin testing zone degerfors.se with version 1.6.1.
+  0.663: degerfors.se INFO Begin testing delegation for degerfors.se.
+ 16.490: degerfors.se INFO Name servers listed at parent: a.dns.tdc.se,b.dns.tdc.se,c.dns.tdc.se,ns.degerfors.se
+ 46.411: degerfors.se INFO Name servers listed at child: a.dns.tdc.se,b.dns.tdc.se,c.dns.tdc.se,ns.degerfors.se
+ 46.465: degerfors.se INFO Parent glue for degerfors.se found: a.dns.tdc.se (213.50.29.190)
+ 46.629: degerfors.se INFO Parent glue for degerfors.se found: b.dns.tdc.se (213.50.29.195)
+ 46.902: degerfors.se INFO Parent glue for degerfors.se found: c.dns.tdc.se (130.242.124.20)
+ 48.065: degerfors.se INFO Parent glue for degerfors.se found: ns.degerfors.se (81.216.17.95)
+ 48.361: degerfors.se INFO Checking glue for a.dns.tdc.se (213.50.29.190).
+ 48.361: degerfors.se INFO Checking glue for b.dns.tdc.se (213.50.29.195).
+ 48.361: degerfors.se INFO Checking glue for c.dns.tdc.se (130.242.124.20).
+ 48.361: degerfors.se INFO Checking glue for ns.degerfors.se (81.216.17.95).
+ 48.766: degerfors.se INFO Child glue for degerfors.se found: ns.degerfors.se (81.216.17.95)
+ 48.767: degerfors.se INFO Parent glue for degerfors.se found: a.dns.tdc.se (213.50.29.190)
+ 48.767: degerfors.se INFO Parent glue for degerfors.se found: b.dns.tdc.se (213.50.29.195)
+ 48.767: degerfors.se INFO Parent glue for degerfors.se found: c.dns.tdc.se (130.242.124.20)
+ 48.768: degerfors.se INFO Parent glue for degerfors.se found: ns.degerfors.se (81.216.17.95)
+ 50.694: degerfors.se INFO It is possible to build a referral packet for degerfors.se that works without EDNS0.
+ 59.455: degerfors.se INFO Previously used name servers for degerfors.se: 
+ 59.455: degerfors.se INFO Done testing delegation for degerfors.se.
+ 59.456: degerfors.se INFO Begin testing name server a.dns.tdc.se.
+ 59.456: degerfors.se INFO Begin testing host a.dns.tdc.se.
+ 59.456: degerfors.se INFO Begin testing address 213.50.29.190.
+ 89.501: degerfors.se INFO Done testing address 213.50.29.190.
+ 89.502: degerfors.se INFO Begin testing address 2001:6f0:0:1:0:0:2:2.
+ 99.001: degerfors.se INFO Done testing address 2001:6f0:0:1:0:0:2:2.
+ 99.001: degerfors.se INFO Done testing host a.dns.tdc.se.
+103.019: degerfors.se ERROR Name server a.dns.tdc.se (213.50.29.190) does not answer queries over UDP.
+103.020: degerfors.se ERROR Name server a.dns.tdc.se (213.50.29.190) does not answer queries over TCP.
+107.535: degerfors.se ERROR Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) does not answer queries over UDP.
+107.537: degerfors.se ERROR Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) does not answer queries over TCP.
+107.537: degerfors.se INFO Done testing name server a.dns.tdc.se.
+107.537: degerfors.se INFO Begin testing name server b.dns.tdc.se.
+107.537: degerfors.se INFO Begin testing host b.dns.tdc.se.
+107.538: degerfors.se INFO Begin testing address 213.50.29.195.
+111.909: degerfors.se INFO Done testing address 213.50.29.195.
+111.910: degerfors.se INFO Begin testing address 2001:6f0:0:1:0:0:1:2.
+112.394: degerfors.se INFO Done testing address 2001:6f0:0:1:0:0:1:2.
+112.395: degerfors.se INFO Done testing host b.dns.tdc.se.
+112.406: degerfors.se INFO Name server b.dns.tdc.se (213.50.29.195) answers queries over UDP.
+112.421: degerfors.se INFO Name server b.dns.tdc.se (213.50.29.195) answers queries over TCP.
+112.428: degerfors.se INFO Name server b.dns.tdc.se (213.50.29.195) is not recursive.
+112.465: degerfors.se INFO Name server b.dns.tdc.se (213.50.29.195) authoritative for degerfors.se.
+112.480: degerfors.se INFO Name server b.dns.tdc.se (213.50.29.195) closed for zone transfer of degerfors.se.
+112.490: degerfors.se INFO Legacy name server ID for b.dns.tdc.se (213.50.29.195): hostname.bind = b
+112.497: degerfors.se INFO Legacy name server ID for b.dns.tdc.se (213.50.29.195): version.bind = tssk, well what can i say?
+112.510: degerfors.se NOTICE No answer received from 213.50.29.195 when querying for version.server/CH/TXT.
+112.525: degerfors.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) answers queries over UDP.
+112.552: degerfors.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) answers queries over TCP.
+112.565: degerfors.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) is not recursive.
+112.637: degerfors.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) authoritative for degerfors.se.
+112.670: degerfors.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) closed for zone transfer of degerfors.se.
+112.685: degerfors.se INFO Legacy name server ID for b.dns.tdc.se (2001:6f0:0:1:0:0:1:2): hostname.bind = b
+112.696: degerfors.se INFO Legacy name server ID for b.dns.tdc.se (2001:6f0:0:1:0:0:1:2): version.bind = tssk, well what can i say?
+112.730: degerfors.se NOTICE No answer received from 2001:6f0:0:1:0:0:1:2 when querying for version.server/CH/TXT.
+112.731: degerfors.se INFO Done testing name server b.dns.tdc.se.
+112.731: degerfors.se INFO Begin testing name server c.dns.tdc.se.
+112.731: degerfors.se INFO Begin testing host c.dns.tdc.se.
+112.731: degerfors.se INFO Begin testing address 130.242.124.20.
+117.498: degerfors.se INFO Done testing address 130.242.124.20.
+117.499: degerfors.se INFO Begin testing address 2001:6b0:7:124:0:0:0:20.
+118.266: degerfors.se INFO Done testing address 2001:6b0:7:124:0:0:0:20.
+118.266: degerfors.se INFO Done testing host c.dns.tdc.se.
+118.278: degerfors.se INFO Name server c.dns.tdc.se (130.242.124.20) answers queries over UDP.
+118.298: degerfors.se INFO Name server c.dns.tdc.se (130.242.124.20) answers queries over TCP.
+118.308: degerfors.se INFO Name server c.dns.tdc.se (130.242.124.20) is not recursive.
+118.351: degerfors.se INFO Name server c.dns.tdc.se (130.242.124.20) authoritative for degerfors.se.
+118.366: degerfors.se INFO Name server c.dns.tdc.se (130.242.124.20) closed for zone transfer of degerfors.se.
+118.375: degerfors.se INFO Legacy name server ID for c.dns.tdc.se (130.242.124.20): hostname.bind = c
+118.384: degerfors.se INFO Legacy name server ID for c.dns.tdc.se (130.242.124.20): version.bind = tssk, well what can i say?
+118.399: degerfors.se NOTICE No answer received from 130.242.124.20 when querying for version.server/CH/TXT.
+118.416: degerfors.se INFO Name server c.dns.tdc.se (2001:6b0:7:124:0:0:0:20) answers queries over UDP.
+118.443: degerfors.se INFO Name server c.dns.tdc.se (2001:6b0:7:124:0:0:0:20) answers queries over TCP.
+118.455: degerfors.se INFO Name server c.dns.tdc.se (2001:6b0:7:124:0:0:0:20) is not recursive.
+118.508: degerfors.se INFO Name server c.dns.tdc.se (2001:6b0:7:124:0:0:0:20) authoritative for degerfors.se.
+118.532: degerfors.se INFO Name server c.dns.tdc.se (2001:6b0:7:124:0:0:0:20) closed for zone transfer of degerfors.se.
+118.543: degerfors.se INFO Legacy name server ID for c.dns.tdc.se (2001:6b0:7:124:0:0:0:20): hostname.bind = c
+118.554: degerfors.se INFO Legacy name server ID for c.dns.tdc.se (2001:6b0:7:124:0:0:0:20): version.bind = tssk, well what can i say?
+118.576: degerfors.se NOTICE No answer received from 2001:6b0:7:124:0:0:0:20 when querying for version.server/CH/TXT.
+118.576: degerfors.se INFO Done testing name server c.dns.tdc.se.
+118.576: degerfors.se INFO Begin testing name server ns.degerfors.se.
+118.576: degerfors.se INFO Begin testing host ns.degerfors.se.
+118.690: degerfors.se INFO Begin testing address 81.216.17.95.
+119.296: degerfors.se INFO Done testing address 81.216.17.95.
+119.296: degerfors.se INFO Done testing host ns.degerfors.se.
+119.391: degerfors.se INFO Name server ns.degerfors.se (81.216.17.95) answers queries over UDP.
+119.416: degerfors.se INFO Name server ns.degerfors.se (81.216.17.95) answers queries over TCP.
+119.436: degerfors.se INFO Name server ns.degerfors.se (81.216.17.95) is not recursive.
+119.496: degerfors.se INFO Name server ns.degerfors.se (81.216.17.95) authoritative for degerfors.se.
+119.524: degerfors.se INFO Name server ns.degerfors.se (81.216.17.95) closed for zone transfer of degerfors.se.
+119.537: degerfors.se INFO Legacy name server ID for ns.degerfors.se (81.216.17.95): hostname.bind = ns1
+119.575: degerfors.se NOTICE No answer received from 81.216.17.95 when querying for version.server/CH/TXT.
+119.575: degerfors.se INFO Done testing name server ns.degerfors.se.
+119.576: degerfors.se INFO Begin testing zone consistency for degerfors.se.
+119.757: degerfors.se INFO SOA at address 81.216.17.95 has serial 2012112710.
+119.770: degerfors.se INFO SOA at address 2001:6b0:7:124:0:0:0:20 has serial 2012112710.
+119.784: degerfors.se INFO SOA at address 2001:6f0:0:1:0:0:1:2 has serial 2012112710.
+119.794: degerfors.se INFO SOA at address 130.242.124.20 has serial 2012112710.
+119.803: degerfors.se INFO SOA at address 213.50.29.195 has serial 2012112710.
+119.804: degerfors.se INFO All SOA records have consistent serial numbers.
+119.804: degerfors.se INFO All other fields in the SOA record are consistent among all name servers.
+128.020: degerfors.se NOTICE The listed nameservers for degerfors.se all report the same set of nameservers.
+128.020: degerfors.se INFO Done testing zone consistency for degerfors.se.
+128.020: degerfors.se INFO Begin testing SOA parameters for degerfors.se.
+128.033: degerfors.se INFO Found SOA record for degerfors.se.
+128.033: degerfors.se INFO Begin testing host ns.degerfors.se.
+128.111: degerfors.se INFO Begin testing address 81.216.17.95.
+136.237: degerfors.se INFO Done testing address 81.216.17.95.
+136.237: degerfors.se INFO Done testing host ns.degerfors.se.
+136.237: degerfors.se INFO SOA MNAME for degerfors.se valid (ns.degerfors.se).
+136.237: degerfors.se INFO SOA MNAME for degerfors.se (ns.degerfors.se) listed as NS.
+136.326: degerfors.se INFO SOA MNAME for degerfors.se (ns.degerfors.se) is authoritative.
+136.327: degerfors.se INFO Begin testing email address helpdesk@degerfors.se.
+136.408: degerfors.se INFO Mail exchangers for helpdesk@degerfors.se found bsp.degerfors.se.
+136.408: degerfors.se INFO All mail servers for helpdesk@degerfors.se are in zone degerfors.se.
+136.408: degerfors.se INFO Begin testing host bsp.degerfors.se.
+136.580: degerfors.se INFO Begin testing address 81.216.17.120.
+141.410: degerfors.se INFO Done testing address 81.216.17.120.
+141.411: degerfors.se INFO Done testing host bsp.degerfors.se.
+141.489: degerfors.se INFO Done testing email address helpdesk@degerfors.se.
+141.490: degerfors.se INFO Successful attempt to deliver email for SOA RNAME of degerfors.se (helpdesk.degerfors.se) using helpdesk@degerfors.se.
+141.490: degerfors.se INFO SOA TTL for degerfors.se OK (3600) - recommended >= 3600.
+141.490: degerfors.se NOTICE SOA refresh for degerfors.se too small (10800) - recommended >= 14400.
+141.490: degerfors.se INFO SOA retry for degerfors.se OK (3600) - recommended >= 3600.
+141.490: degerfors.se INFO SOA expire for degerfors.se OK (604800) - recommended >= 604800.
+141.490: degerfors.se INFO SOA minimum for degerfors.se OK (3600) - recommended between 300 and 86400.
+141.490: degerfors.se INFO Done testing SOA parameters for degerfors.se.
+141.490: degerfors.se INFO Begin testing connectivity for degerfors.se.
+143.365: degerfors.se INFO Zone announced by more than one ASN.
+144.842: degerfors.se INFO Zone announced by more than one IPv6 ASN.
+144.842: degerfors.se INFO Done testing connectivity for degerfors.se.
+144.843: degerfors.se INFO Begin testing DNSSEC for degerfors.se.
+144.877: degerfors.se INFO Did not find DS record for degerfors.se at parent.
+146.936: degerfors.se NOTICE DNS lookup error (connection failed).
+148.991: degerfors.se NOTICE DNS lookup error (connection failed(IPv6 socket failure)).
+148.991: degerfors.se INFO Servers for degerfors.se have consistent extra processing status.
+149.013: degerfors.se INFO Authenticated denial records not found for degerfors.se.
+149.026: degerfors.se INFO Did not find DNSKEY record for degerfors.se at child.
+149.026: degerfors.se INFO No DNSKEY(s) found at child, other tests skipped.
+149.026: degerfors.se INFO Done testing DNSSEC for degerfors.se.
+149.027: degerfors.se INFO Test completed for zone degerfors.se.

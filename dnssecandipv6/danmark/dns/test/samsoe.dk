@@ -1,0 +1,88 @@
+  0.000: samsoe.dk INFO Begin testing zone samsoe.dk with version 1.6.1.
+  0.404: samsoe.dk INFO Begin testing delegation for samsoe.dk.
+  6.041: samsoe.dk INFO Name servers listed at parent: ns-auth03.kmd.dk,ns-auth04.kmd.dk
+  7.616: samsoe.dk INFO Name servers listed at child: ns-auth03.kmd.dk,ns-auth04.kmd.dk
+  7.616: samsoe.dk NOTICE No IPv6 name servers found.
+  7.678: samsoe.dk INFO Parent glue for samsoe.dk found: ns-auth03.kmd.dk (131.165.64.5)
+  7.896: samsoe.dk INFO Parent glue for samsoe.dk found: ns-auth04.kmd.dk (131.165.4.5)
+  7.944: samsoe.dk INFO Checking glue for ns-auth03.kmd.dk (131.165.64.5).
+  7.945: samsoe.dk INFO Checking glue for ns-auth04.kmd.dk (131.165.4.5).
+  7.945: samsoe.dk INFO Parent glue for samsoe.dk found: ns-auth03.kmd.dk (131.165.64.5)
+  7.945: samsoe.dk INFO Parent glue for samsoe.dk found: ns-auth04.kmd.dk (131.165.4.5)
+  8.897: samsoe.dk INFO It is possible to build a referral packet for samsoe.dk that works without EDNS0.
+  9.528: samsoe.dk INFO Previously used name servers for samsoe.dk: 
+  9.528: samsoe.dk INFO Done testing delegation for samsoe.dk.
+  9.528: samsoe.dk INFO Begin testing name server ns-auth03.kmd.dk.
+  9.528: samsoe.dk INFO Begin testing host ns-auth03.kmd.dk.
+  9.854: samsoe.dk INFO Begin testing address 131.165.64.5.
+ 17.059: samsoe.dk INFO Done testing address 131.165.64.5.
+ 17.060: samsoe.dk INFO Done testing host ns-auth03.kmd.dk.
+ 17.289: samsoe.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) answers queries over UDP.
+ 17.391: samsoe.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) answers queries over TCP.
+ 17.460: samsoe.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) is not recursive.
+ 17.686: samsoe.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) authoritative for samsoe.dk.
+ 17.835: samsoe.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) closed for zone transfer of samsoe.dk.
+ 17.917: samsoe.dk INFO Legacy name server ID for ns-auth03.kmd.dk (131.165.64.5): hostname.bind = ns-auth03.kmd.dk
+ 17.969: samsoe.dk INFO Legacy name server ID for ns-auth03.kmd.dk (131.165.64.5): version.bind = 1.0
+ 18.076: samsoe.dk NOTICE No answer received from 131.165.64.5 when querying for version.server/CH/TXT.
+ 18.076: samsoe.dk INFO Done testing name server ns-auth03.kmd.dk.
+ 18.076: samsoe.dk INFO Begin testing name server ns-auth04.kmd.dk.
+ 18.076: samsoe.dk INFO Begin testing host ns-auth04.kmd.dk.
+ 18.244: samsoe.dk INFO Begin testing address 131.165.4.5.
+ 18.853: samsoe.dk INFO Done testing address 131.165.4.5.
+ 18.854: samsoe.dk INFO Done testing host ns-auth04.kmd.dk.
+ 19.039: samsoe.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) answers queries over UDP.
+ 19.143: samsoe.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) answers queries over TCP.
+ 19.204: samsoe.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) is not recursive.
+ 19.443: samsoe.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) authoritative for samsoe.dk.
+ 19.611: samsoe.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) closed for zone transfer of samsoe.dk.
+ 19.666: samsoe.dk INFO Legacy name server ID for ns-auth04.kmd.dk (131.165.4.5): hostname.bind = ns-auth04.kmd.dk
+ 19.736: samsoe.dk INFO Legacy name server ID for ns-auth04.kmd.dk (131.165.4.5): version.bind = 1.0
+ 19.843: samsoe.dk NOTICE No answer received from 131.165.4.5 when querying for version.server/CH/TXT.
+ 19.843: samsoe.dk INFO Done testing name server ns-auth04.kmd.dk.
+ 19.852: samsoe.dk INFO Begin testing zone consistency for samsoe.dk.
+ 20.706: samsoe.dk INFO SOA at address 131.165.4.5 has serial 134.
+ 20.759: samsoe.dk INFO SOA at address 131.165.64.5 has serial 134.
+ 20.759: samsoe.dk INFO All SOA records have consistent serial numbers.
+ 20.759: samsoe.dk INFO All other fields in the SOA record are consistent among all name servers.
+ 21.376: samsoe.dk NOTICE The listed nameservers for samsoe.dk all report the same set of nameservers.
+ 21.377: samsoe.dk INFO Done testing zone consistency for samsoe.dk.
+ 21.377: samsoe.dk INFO Begin testing SOA parameters for samsoe.dk.
+ 21.433: samsoe.dk INFO Found SOA record for samsoe.dk.
+ 21.433: samsoe.dk INFO Begin testing host ns-auth03.kmd.dk.
+ 21.584: samsoe.dk INFO Begin testing address 131.165.64.5.
+ 21.749: samsoe.dk INFO Done testing address 131.165.64.5.
+ 21.749: samsoe.dk INFO Done testing host ns-auth03.kmd.dk.
+ 21.749: samsoe.dk INFO SOA MNAME for samsoe.dk valid (ns-auth03.kmd.dk).
+ 21.749: samsoe.dk INFO SOA MNAME for samsoe.dk (ns-auth03.kmd.dk) listed as NS.
+ 21.916: samsoe.dk INFO SOA MNAME for samsoe.dk (ns-auth03.kmd.dk) is authoritative.
+ 21.935: samsoe.dk INFO Begin testing email address dnsadmin@kmd.dk.
+ 22.093: samsoe.dk INFO Mail exchangers for dnsadmin@kmd.dk found edge1.kmd.dk,edge2.kmd.dk.
+ 22.093: samsoe.dk INFO Begin testing host edge1.kmd.dk.
+ 22.412: samsoe.dk INFO Begin testing address 131.165.63.88.
+ 22.955: samsoe.dk INFO Done testing address 131.165.63.88.
+ 22.955: samsoe.dk INFO Done testing host edge1.kmd.dk.
+ 23.146: samsoe.dk INFO Begin testing host edge2.kmd.dk.
+ 23.452: samsoe.dk INFO Begin testing address 131.165.63.89.
+ 24.012: samsoe.dk INFO Done testing address 131.165.63.89.
+ 24.012: samsoe.dk INFO Done testing host edge2.kmd.dk.
+ 24.204: samsoe.dk INFO Done testing email address dnsadmin@kmd.dk.
+ 24.204: samsoe.dk INFO Successful attempt to deliver email for SOA RNAME of samsoe.dk (dnsadmin.kmd.dk) using dnsadmin@kmd.dk.
+ 24.204: samsoe.dk INFO SOA TTL for samsoe.dk OK (3600) - recommended >= 3600.
+ 24.204: samsoe.dk NOTICE SOA refresh for samsoe.dk too small (10800) - recommended >= 14400.
+ 24.204: samsoe.dk INFO SOA retry for samsoe.dk OK (3600) - recommended >= 3600.
+ 24.205: samsoe.dk INFO SOA expire for samsoe.dk OK (604800) - recommended >= 604800.
+ 24.205: samsoe.dk INFO SOA minimum for samsoe.dk OK (43200) - recommended between 300 and 86400.
+ 24.205: samsoe.dk INFO Done testing SOA parameters for samsoe.dk.
+ 24.205: samsoe.dk INFO Begin testing connectivity for samsoe.dk.
+ 25.181: samsoe.dk NOTICE Zone announced by fewer than two IPv4 ASN.
+ 25.182: samsoe.dk NOTICE Zone announced by fewer than two IPv6 ASN.
+ 25.182: samsoe.dk INFO Done testing connectivity for samsoe.dk.
+ 25.182: samsoe.dk INFO Begin testing DNSSEC for samsoe.dk.
+ 25.277: samsoe.dk INFO Did not find DS record for samsoe.dk at parent.
+ 25.485: samsoe.dk INFO Servers for samsoe.dk have consistent extra processing status.
+ 25.591: samsoe.dk INFO Authenticated denial records not found for samsoe.dk.
+ 25.656: samsoe.dk INFO Did not find DNSKEY record for samsoe.dk at child.
+ 25.656: samsoe.dk INFO No DNSKEY(s) found at child, other tests skipped.
+ 25.656: samsoe.dk INFO Done testing DNSSEC for samsoe.dk.
+ 25.657: samsoe.dk INFO Test completed for zone samsoe.dk.

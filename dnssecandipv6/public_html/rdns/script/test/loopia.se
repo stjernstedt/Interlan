@@ -1,0 +1,105 @@
+  0.000: loopia.se INFO Begin testing zone loopia.se with version 1.5.0.
+  0.001: loopia.se INFO Begin testing delegation for loopia.se.
+ 12.850: loopia.se INFO Name servers listed at parent: ns1.loopia.se,ns2.loopia.se
+ 15.749: loopia.se INFO Name servers listed at child: ns1.loopia.se,ns2.loopia.se
+ 15.750: loopia.se NOTICE No IPv6 name servers found.
+ 15.843: loopia.se INFO Parent glue for loopia.se found: ns1.loopia.se (93.188.0.20)
+ 16.086: loopia.se INFO Parent glue for loopia.se found: ns2.loopia.se (93.188.0.21)
+ 16.142: loopia.se INFO Checking glue for ns1.loopia.se (93.188.0.20).
+ 16.169: loopia.se INFO Child glue for loopia.se found: ns1.loopia.se (93.188.0.20)
+ 16.169: loopia.se INFO Checking glue for ns2.loopia.se (93.188.0.21).
+ 16.226: loopia.se INFO Child glue for loopia.se found: ns2.loopia.se (93.188.0.21)
+ 16.226: loopia.se INFO Parent glue for loopia.se found: ns1.loopia.se (93.188.0.20)
+ 16.227: loopia.se INFO Parent glue for loopia.se found: ns2.loopia.se (93.188.0.21)
+ 17.665: loopia.se INFO It is possible to build a referral packet for loopia.se that works without EDNS0.
+ 17.665: loopia.se INFO Done testing delegation for loopia.se.
+ 17.666: loopia.se INFO Begin testing name server ns1.loopia.se.
+ 17.666: loopia.se INFO Begin testing host ns1.loopia.se.
+ 18.069: loopia.se INFO Begin testing address 93.188.0.20.
+ 24.217: loopia.se INFO Done testing address 93.188.0.20.
+ 24.217: loopia.se INFO Done testing host ns1.loopia.se.
+ 24.633: loopia.se INFO Name server ns1.loopia.se (93.188.0.20) answers queries over UDP.
+ 24.654: loopia.se INFO Name server ns1.loopia.se (93.188.0.20) answers queries over TCP.
+ 24.671: loopia.se INFO Name server ns1.loopia.se (93.188.0.20) is not recursive.
+ 24.718: loopia.se INFO Name server ns1.loopia.se (93.188.0.20) authoritative for loopia.se.
+ 24.934: loopia.se INFO Name server ns1.loopia.se (93.188.0.20) closed for zone transfer of loopia.se.
+ 24.957: loopia.se INFO Legacy name server ID for ns1.loopia.se (93.188.0.20): version.bind = Served by POWERDNS 3.1 $Id: packethandler.cc 2579 2012-04-26 11:28:04Z peter $
+ 25.021: loopia.se INFO Done testing name server ns1.loopia.se.
+ 25.021: loopia.se INFO Begin testing name server ns2.loopia.se.
+ 25.022: loopia.se INFO Begin testing host ns2.loopia.se.
+ 25.416: loopia.se INFO Begin testing address 93.188.0.21.
+ 26.000: loopia.se INFO Done testing address 93.188.0.21.
+ 26.000: loopia.se INFO Done testing host ns2.loopia.se.
+ 26.553: loopia.se INFO Name server ns2.loopia.se (93.188.0.21) answers queries over UDP.
+ 26.604: loopia.se INFO Name server ns2.loopia.se (93.188.0.21) answers queries over TCP.
+ 26.619: loopia.se INFO Name server ns2.loopia.se (93.188.0.21) is not recursive.
+ 26.715: loopia.se INFO Name server ns2.loopia.se (93.188.0.21) authoritative for loopia.se.
+ 26.938: loopia.se INFO Name server ns2.loopia.se (93.188.0.21) closed for zone transfer of loopia.se.
+ 26.973: loopia.se INFO Legacy name server ID for ns2.loopia.se (93.188.0.21): version.bind = Served by POWERDNS 3.1 $Id: packethandler.cc 2579 2012-04-26 11:28:04Z peter $
+ 27.007: loopia.se INFO Done testing name server ns2.loopia.se.
+ 27.007: loopia.se INFO Begin testing zone consistency for loopia.se.
+ 28.721: loopia.se INFO SOA at address 93.188.0.21 has serial 1375187579.
+ 28.753: loopia.se INFO SOA at address 93.188.0.20 has serial 1375187579.
+ 28.753: loopia.se INFO All SOA records have consistent serial numbers.
+ 28.754: loopia.se INFO All other fields in the SOA record are consistent among all name servers.
+ 29.516: loopia.se NOTICE The listed nameservers for loopia.se all report the same set of nameservers.
+ 29.521: loopia.se INFO Done testing zone consistency for loopia.se.
+ 29.521: loopia.se INFO Begin testing SOA parameters for loopia.se.
+ 29.553: loopia.se INFO Found SOA record for loopia.se.
+ 29.553: loopia.se INFO Begin testing host ns1.loopia.se.
+ 29.933: loopia.se INFO Begin testing address 93.188.0.20.
+ 30.391: loopia.se INFO Done testing address 93.188.0.20.
+ 30.391: loopia.se INFO Done testing host ns1.loopia.se.
+ 30.392: loopia.se INFO SOA MNAME for loopia.se valid (ns1.loopia.se).
+ 30.392: loopia.se INFO SOA MNAME for loopia.se (ns1.loopia.se) listed as NS.
+ 30.803: loopia.se INFO SOA MNAME for loopia.se (ns1.loopia.se) is authoritative.
+ 30.803: loopia.se INFO Begin testing email address registry@loopia.se.
+ 31.118: loopia.se INFO Mail exchangers for registry@loopia.se found mail.loopia.se.
+ 31.118: loopia.se INFO All mail servers for registry@loopia.se are in zone loopia.se.
+ 31.133: loopia.se INFO Begin testing host mail.loopia.se.
+ 31.893: loopia.se INFO Begin testing address 194.9.95.44.
+ 33.564: loopia.se INFO Done testing address 194.9.95.44.
+ 33.564: loopia.se INFO Done testing host mail.loopia.se.
+ 33.930: loopia.se INFO Done testing email address registry@loopia.se.
+ 33.930: loopia.se INFO Successful attempt to deliver email for SOA RNAME of loopia.se (registry.loopia.se) using registry@loopia.se.
+ 33.930: loopia.se INFO SOA TTL for loopia.se OK (3600) - recommended >= 3600.
+ 33.930: loopia.se NOTICE SOA refresh for loopia.se too small (10800) - recommended >= 14400.
+ 33.930: loopia.se INFO SOA retry for loopia.se OK (3600) - recommended >= 3600.
+ 33.931: loopia.se INFO SOA expire for loopia.se OK (604800) - recommended >= 604800.
+ 33.931: loopia.se INFO SOA minimum for loopia.se OK (86400) - recommended between 300 and 86400.
+ 33.931: loopia.se INFO Done testing SOA parameters for loopia.se.
+ 33.931: loopia.se INFO Begin testing connectivity for loopia.se.
+ 35.265: loopia.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 35.265: loopia.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 35.265: loopia.se INFO Done testing connectivity for loopia.se.
+ 35.265: loopia.se INFO Begin testing DNSSEC for loopia.se.
+ 35.318: loopia.se INFO Did not find DS record for loopia.se at parent.
+ 35.344: loopia.se INFO Nameserver 93.188.0.21 does DNSSEC extra processing.
+ 35.398: loopia.se INFO Nameserver 93.188.0.20 does DNSSEC extra processing.
+ 35.398: loopia.se INFO Servers for loopia.se have consistent extra processing status.
+ 35.437: loopia.se INFO Authenticated denial records found for loopia.se, of type NSEC3.
+ 35.447: loopia.se INFO NSEC3PARAM record found for loopia.se.
+ 35.447: loopia.se INFO NSEC3 for loopia.se is set to use 1 iterations, which is OK.
+ 35.447: loopia.se INFO Found DNSKEY record for loopia.se at child.
+ 35.448: loopia.se WARNING Broken chain of trust for loopia.se - DNSKEY found at child, but no DS was found at parent.
+ 35.448: loopia.se INFO Checking DNSSEC at child (loopia.se).
+ 35.448: loopia.se INFO loopia.se's key with tag 12412 uses algorithm number 8 (RSA/SHA-256).
+ 35.448: loopia.se INFO Algorithm number 8 is OK.
+ 35.448: loopia.se INFO DNSKEY loopia.se (tag 12412) is marked as a secure entry point (SEP).
+ 35.448: loopia.se INFO loopia.se's key with tag 7374 uses algorithm number 8 (RSA/SHA-256).
+ 35.449: loopia.se INFO Algorithm number 8 is OK.
+ 35.449: loopia.se INFO loopia.se's key with tag 29298 uses algorithm number 8 (RSA/SHA-256).
+ 35.449: loopia.se INFO Algorithm number 8 is OK.
+ 35.449: loopia.se INFO DNSSEC signature expires at: Thu Aug  8 00:00:00 2013
+ 35.449: loopia.se INFO Duration for RRSIG(loopia.se/IN/DNSKEY/12412) is OK (1209600 seconds).
+ 35.451: loopia.se INFO DNSSEC signature RRSIG(loopia.se/IN/DNSKEY/12412) matches records.
+ 35.451: loopia.se INFO DNSSEC signature valid: RRSIG(loopia.se/IN/DNSKEY/12412)
+ 35.451: loopia.se INFO Enough valid signatures found for loopia.se.
+ 35.477: loopia.se INFO DNSSEC signature expires at: Thu Aug  8 00:00:00 2013
+ 35.477: loopia.se INFO Duration for RRSIG(loopia.se/IN/SOA/7374) is OK (1209600 seconds).
+ 35.478: loopia.se INFO DNSSEC signature RRSIG(loopia.se/IN/SOA/7374) matches records.
+ 35.478: loopia.se INFO DNSSEC signature valid: RRSIG(loopia.se/IN/SOA/7374)
+ 35.478: loopia.se INFO Enough valid signatures over SOA RRset found for loopia.se.
+ 35.478: loopia.se INFO DNSSEC child checks for loopia.se complete.
+ 35.478: loopia.se INFO Done testing DNSSEC for loopia.se.
+ 35.479: loopia.se INFO Test completed for zone loopia.se.

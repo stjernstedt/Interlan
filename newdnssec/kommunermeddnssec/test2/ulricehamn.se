@@ -1,0 +1,106 @@
+  0.000: ulricehamn.se INFO Begin testing zone ulricehamn.se with version 1.2.
+  0.000: ulricehamn.se INFO Begin testing delegation for ulricehamn.se.
+  9.047: ulricehamn.se INFO Name servers listed at parent: cnr.ueab.se,dns.ulricehamn.se
+ 10.174: ulricehamn.se INFO Name servers listed at child: cnr.ueab.se,dns.ulricehamn.se
+ 10.175: ulricehamn.se NOTICE No IPv6 name servers found.
+ 10.215: ulricehamn.se INFO Parent glue for ulricehamn.se found: cnr.ueab.se (81.200.163.86)
+ 10.265: ulricehamn.se INFO Parent glue for ulricehamn.se found: dns.ulricehamn.se (81.200.163.43)
+ 10.273: ulricehamn.se INFO Checking glue for cnr.ueab.se (81.200.163.86).
+ 10.273: ulricehamn.se INFO Checking glue for dns.ulricehamn.se (81.200.163.43).
+ 10.293: ulricehamn.se INFO Child glue for ulricehamn.se found: dns.ulricehamn.se (81.200.163.43)
+ 10.293: ulricehamn.se INFO Parent glue for ulricehamn.se found: cnr.ueab.se (81.200.163.86)
+ 10.293: ulricehamn.se INFO Parent glue for ulricehamn.se found: dns.ulricehamn.se (81.200.163.43)
+ 10.294: ulricehamn.se INFO Done testing delegation for ulricehamn.se.
+ 10.294: ulricehamn.se INFO Begin testing name server cnr.ueab.se.
+ 10.294: ulricehamn.se INFO Begin testing host cnr.ueab.se.
+ 10.295: ulricehamn.se INFO Begin testing address 81.200.163.86.
+ 14.116: ulricehamn.se INFO Done testing address 81.200.163.86.
+ 14.116: ulricehamn.se INFO Done testing host cnr.ueab.se.
+ 14.136: ulricehamn.se INFO Name server cnr.ueab.se (81.200.163.86) answers queries over UDP.
+ 14.172: ulricehamn.se INFO Name server cnr.ueab.se (81.200.163.86) answers queries over TCP.
+ 14.217: ulricehamn.se WARNING Name server cnr.ueab.se (81.200.163.86) is recursive.
+ 14.236: ulricehamn.se INFO Name server cnr.ueab.se (81.200.163.86) authoritative for ulricehamn.se.
+ 14.497: ulricehamn.se NOTICE Name server cnr.ueab.se (81.200.163.86) open for zone transfer of ulricehamn.se.
+ 14.516: ulricehamn.se NOTICE No answer received from 81.200.163.86 when querying for hostname.bind/CH/TXT.
+ 14.535: ulricehamn.se NOTICE No answer received from 81.200.163.86 when querying for version.bind/CH/TXT.
+ 14.553: ulricehamn.se NOTICE No answer received from 81.200.163.86 when querying for id.server/CH/TXT.
+ 14.572: ulricehamn.se NOTICE No answer received from 81.200.163.86 when querying for version.server/CH/TXT.
+ 14.572: ulricehamn.se INFO Done testing name server cnr.ueab.se.
+ 14.572: ulricehamn.se INFO Begin testing name server dns.ulricehamn.se.
+ 14.572: ulricehamn.se INFO Begin testing host dns.ulricehamn.se.
+ 14.572: ulricehamn.se INFO Begin testing address 81.200.163.43.
+ 14.830: ulricehamn.se INFO Done testing address 81.200.163.43.
+ 14.831: ulricehamn.se INFO Done testing host dns.ulricehamn.se.
+ 14.851: ulricehamn.se INFO Name server dns.ulricehamn.se (81.200.163.43) answers queries over UDP.
+ 14.888: ulricehamn.se INFO Name server dns.ulricehamn.se (81.200.163.43) answers queries over TCP.
+ 15.114: ulricehamn.se WARNING Name server dns.ulricehamn.se (81.200.163.43) is recursive.
+ 15.135: ulricehamn.se INFO Name server dns.ulricehamn.se (81.200.163.43) authoritative for ulricehamn.se.
+ 15.188: ulricehamn.se NOTICE Name server dns.ulricehamn.se (81.200.163.43) open for zone transfer of ulricehamn.se.
+ 15.226: ulricehamn.se NOTICE No answer received from 81.200.163.43 when querying for hostname.bind/CH/TXT.
+ 15.249: ulricehamn.se INFO Legacy name server ID for dns.ulricehamn.se (81.200.163.43): version.bind = 9.2.1
+ 15.268: ulricehamn.se NOTICE No answer received from 81.200.163.43 when querying for id.server/CH/TXT.
+ 15.287: ulricehamn.se NOTICE No answer received from 81.200.163.43 when querying for version.server/CH/TXT.
+ 15.287: ulricehamn.se INFO Done testing name server dns.ulricehamn.se.
+ 15.287: ulricehamn.se INFO Begin testing zone consistency for ulricehamn.se.
+ 15.311: ulricehamn.se INFO SOA at address 81.200.163.43 has serial 1060172165.
+ 15.331: ulricehamn.se INFO SOA at address 81.200.163.86 has serial 1060172165.
+ 15.331: ulricehamn.se INFO All SOA records have consistent serial numbers.
+ 15.331: ulricehamn.se INFO All SOA records are consistent among all name servers.
+ 15.331: ulricehamn.se INFO Done testing zone consistency for ulricehamn.se.
+ 15.332: ulricehamn.se INFO Begin testing SOA parameters for ulricehamn.se.
+ 15.353: ulricehamn.se INFO Found SOA record for ulricehamn.se.
+ 15.353: ulricehamn.se INFO Begin testing host dns.ulricehamn.se.
+ 15.354: ulricehamn.se INFO Begin testing address 81.200.163.43.
+ 15.355: ulricehamn.se INFO Done testing address 81.200.163.43.
+ 15.355: ulricehamn.se INFO Done testing host dns.ulricehamn.se.
+ 15.355: ulricehamn.se INFO SOA MNAME for ulricehamn.se valid (dns.ulricehamn.se).
+ 15.355: ulricehamn.se INFO SOA MNAME for ulricehamn.se (dns.ulricehamn.se) listed as NS.
+ 15.376: ulricehamn.se INFO SOA MNAME for ulricehamn.se (dns.ulricehamn.se) is authoritative.
+ 15.376: ulricehamn.se INFO Begin testing email address itdrift@ulricehamn.se.
+ 15.610: ulricehamn.se INFO Mail exchangers for itdrift@ulricehamn.se found mx.ulricehamn.se,mx1.ulricehamn.se,mail1.ulricehamn.se.
+ 15.610: ulricehamn.se INFO All mail servers for itdrift@ulricehamn.se are in zone ulricehamn.se.
+ 15.610: ulricehamn.se INFO Begin testing host mx.ulricehamn.se.
+ 16.053: ulricehamn.se INFO Begin testing address 212.247.54.80.
+ 20.986: ulricehamn.se INFO Done testing address 212.247.54.80.
+ 20.987: ulricehamn.se INFO Done testing host mx.ulricehamn.se.
+ 20.987: ulricehamn.se INFO Begin testing mail server mx.ulricehamn.se (212.247.54.80) with itdrift@ulricehamn.se.
+ 40.986: ulricehamn.se WARNING Failed to connect to mx.ulricehamn.se (212.247.54.80).
+ 40.986: ulricehamn.se INFO Done testing mail server mx.ulricehamn.se (212.247.54.80) with itdrift@ulricehamn.se.
+ 40.987: ulricehamn.se INFO Begin testing host mx1.ulricehamn.se.
+ 41.455: ulricehamn.se INFO Begin testing address 91.213.179.250.
+ 59.250: ulricehamn.se INFO Done testing address 91.213.179.250.
+ 59.250: ulricehamn.se INFO Done testing host mx1.ulricehamn.se.
+ 59.251: ulricehamn.se INFO Begin testing mail server mx1.ulricehamn.se (91.213.179.250) with itdrift@ulricehamn.se.
+ 59.468: ulricehamn.se INFO SMTP banner: mx.tranemo.se ESMTP
+ 59.868: ulricehamn.se INFO SMTP testing of mx1.ulricehamn.se (91.213.179.250) with itdrift@ulricehamn.se succeeded without errors.
+ 59.868: ulricehamn.se INFO Done testing mail server mx1.ulricehamn.se (91.213.179.250) with itdrift@ulricehamn.se.
+ 59.868: ulricehamn.se INFO Begin testing host mail1.ulricehamn.se.
+ 60.353: ulricehamn.se INFO Begin testing address 81.200.163.38.
+ 60.564: ulricehamn.se INFO Done testing address 81.200.163.38.
+ 60.564: ulricehamn.se INFO Done testing host mail1.ulricehamn.se.
+ 60.565: ulricehamn.se INFO Delivery over IPv4 to itdrift@ulricehamn.se ok.
+ 60.565: ulricehamn.se INFO Delivery over IPv6 to itdrift@ulricehamn.se could not be done.
+ 60.565: ulricehamn.se INFO Done testing email address itdrift@ulricehamn.se.
+ 60.565: ulricehamn.se INFO Successful attempt to deliver email for SOA RNAME of ulricehamn.se (itdrift.ulricehamn.se) using itdrift@ulricehamn.se.
+ 60.565: ulricehamn.se INFO SOA TTL for ulricehamn.se OK (38400) - recommended >= 3600.
+ 60.565: ulricehamn.se NOTICE SOA refresh for ulricehamn.se too small (10800) - recommended >= 14400.
+ 60.565: ulricehamn.se INFO SOA retry for ulricehamn.se OK (3600) - recommended >= 3600.
+ 60.565: ulricehamn.se INFO SOA expire for ulricehamn.se OK (1209600) - recommended >= 604800.
+ 60.565: ulricehamn.se INFO SOA minimum for ulricehamn.se OK (10800) - recommended between 300 and 86400.
+ 60.566: ulricehamn.se INFO Done testing SOA parameters for ulricehamn.se.
+ 60.566: ulricehamn.se INFO Begin testing connectivity for ulricehamn.se.
+ 61.087: ulricehamn.se INFO Name server 81.200.163.43 announced by: 49251
+ 61.759: ulricehamn.se INFO Name server 81.200.163.86 announced by: 49251
+ 61.759: ulricehamn.se INFO Zone announced by IPv4 ASN: 49251
+ 61.759: ulricehamn.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 61.759: ulricehamn.se INFO Zone announced by IPv6 ASN: 
+ 61.759: ulricehamn.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 61.759: ulricehamn.se INFO Done testing connectivity for ulricehamn.se.
+ 61.760: ulricehamn.se INFO Begin testing DNSSEC for ulricehamn.se.
+ 61.873: ulricehamn.se INFO Did not find DS record for ulricehamn.se at parent.
+ 61.944: ulricehamn.se ERROR EDNS not supported by 81.200.163.86.
+ 61.944: ulricehamn.se INFO Servers for ulricehamn.se have consistent extra processing status.
+ 61.944: ulricehamn.se INFO Did not find DNSKEY record for ulricehamn.se at child.
+ 61.944: ulricehamn.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 61.944: ulricehamn.se INFO Done testing DNSSEC for ulricehamn.se.
+ 61.944: ulricehamn.se INFO Test completed for zone ulricehamn.se.

@@ -1,0 +1,117 @@
+  0.000: tierp.se INFO Begin testing zone tierp.se with version 1.2.
+  0.000: tierp.se INFO Begin testing delegation for tierp.se.
+ 10.821: tierp.se INFO Name servers listed at parent: ns1.easydns.com,ns2.easydns.com,remote1.easydns.com,remote2.easydns.com
+ 17.875: tierp.se INFO Name servers listed at child: ns1.easydns.com,ns2.easydns.com,remote1.easydns.com,remote2.easydns.com
+ 17.875: tierp.se NOTICE No IPv6 name servers found.
+ 18.237: tierp.se INFO Done testing delegation for tierp.se.
+ 18.237: tierp.se INFO Begin testing name server ns1.easydns.com.
+ 18.237: tierp.se INFO Begin testing host ns1.easydns.com.
+ 18.237: tierp.se INFO Begin testing address 64.68.192.10.
+ 22.459: tierp.se INFO Done testing address 64.68.192.10.
+ 22.459: tierp.se INFO Done testing host ns1.easydns.com.
+ 22.496: tierp.se INFO Name server ns1.easydns.com (64.68.192.10) answers queries over UDP.
+ 22.567: tierp.se INFO Name server ns1.easydns.com (64.68.192.10) answers queries over TCP.
+ 22.616: tierp.se INFO Name server ns1.easydns.com (64.68.192.10) is not recursive.
+ 22.653: tierp.se INFO Name server ns1.easydns.com (64.68.192.10) authoritative for tierp.se.
+ 22.750: tierp.se INFO Name server ns1.easydns.com (64.68.192.10) closed for zone transfer of tierp.se.
+ 22.789: tierp.se INFO Legacy name server ID for ns1.easydns.com (64.68.192.10): hostname.bind = rain3
+ 22.826: tierp.se INFO Legacy name server ID for ns1.easydns.com (64.68.192.10): version.bind = Um, it's the latest one. ams1
+ 22.905: tierp.se NOTICE No answer received from 64.68.192.10 when querying for version.server/CH/TXT.
+ 22.905: tierp.se INFO Done testing name server ns1.easydns.com.
+ 22.905: tierp.se INFO Begin testing name server ns2.easydns.com.
+ 22.905: tierp.se INFO Begin testing host ns2.easydns.com.
+ 22.906: tierp.se INFO Begin testing address 72.52.2.1.
+ 23.592: tierp.se INFO Done testing address 72.52.2.1.
+ 23.592: tierp.se INFO Done testing host ns2.easydns.com.
+ 23.628: tierp.se INFO Name server ns2.easydns.com (72.52.2.1) answers queries over UDP.
+ 26.689: tierp.se INFO Name server ns2.easydns.com (72.52.2.1) answers queries over TCP.
+ 26.723: tierp.se INFO Name server ns2.easydns.com (72.52.2.1) is not recursive.
+ 26.757: tierp.se INFO Name server ns2.easydns.com (72.52.2.1) authoritative for tierp.se.
+ 29.843: tierp.se INFO Name server ns2.easydns.com (72.52.2.1) closed for zone transfer of tierp.se.
+ 29.875: tierp.se INFO Legacy name server ID for ns2.easydns.com (72.52.2.1): hostname.bind = remote3
+ 29.906: tierp.se INFO Legacy name server ID for ns2.easydns.com (72.52.2.1): version.bind = Um, it's the latest one. -lon
+ 29.968: tierp.se NOTICE No answer received from 72.52.2.1 when querying for version.server/CH/TXT.
+ 29.968: tierp.se INFO Done testing name server ns2.easydns.com.
+ 29.968: tierp.se INFO Begin testing name server remote1.easydns.com.
+ 29.968: tierp.se INFO Begin testing host remote1.easydns.com.
+ 29.969: tierp.se INFO Begin testing address 205.234.220.154.
+ 43.752: tierp.se WARNING Reverse for 205.234.220.154 points to an unknown host name (as16686.ge0-45.aggrB4.ams3.nl.scnet.net).
+ 43.752: tierp.se INFO Done testing address 205.234.220.154.
+ 43.752: tierp.se INFO Done testing host remote1.easydns.com.
+ 43.786: tierp.se INFO Name server remote1.easydns.com (205.234.220.154) answers queries over UDP.
+ 43.835: tierp.se INFO Name server remote1.easydns.com (205.234.220.154) answers queries over TCP.
+ 43.860: tierp.se INFO Name server remote1.easydns.com (205.234.220.154) is not recursive.
+ 43.887: tierp.se INFO Name server remote1.easydns.com (205.234.220.154) authoritative for tierp.se.
+ 43.955: tierp.se INFO Name server remote1.easydns.com (205.234.220.154) closed for zone transfer of tierp.se.
+ 43.982: tierp.se INFO Legacy name server ID for remote1.easydns.com (205.234.220.154): hostname.bind = rain3
+ 44.008: tierp.se INFO Legacy name server ID for remote1.easydns.com (205.234.220.154): version.bind = Um, it's the latest one. ams1
+ 44.065: tierp.se NOTICE No answer received from 205.234.220.154 when querying for version.server/CH/TXT.
+ 44.066: tierp.se INFO Done testing name server remote1.easydns.com.
+ 44.066: tierp.se INFO Begin testing name server remote2.easydns.com.
+ 44.066: tierp.se INFO Begin testing host remote2.easydns.com.
+ 44.066: tierp.se INFO Begin testing address 209.200.187.4.
+ 45.066: tierp.se INFO Done testing address 209.200.187.4.
+ 45.066: tierp.se INFO Done testing host remote2.easydns.com.
+ 45.249: tierp.se INFO Name server remote2.easydns.com (209.200.187.4) answers queries over UDP.
+ 45.588: tierp.se INFO Name server remote2.easydns.com (209.200.187.4) answers queries over TCP.
+ 45.787: tierp.se INFO Name server remote2.easydns.com (209.200.187.4) is not recursive.
+ 45.969: tierp.se INFO Name server remote2.easydns.com (209.200.187.4) authoritative for tierp.se.
+ 46.474: tierp.se INFO Name server remote2.easydns.com (209.200.187.4) closed for zone transfer of tierp.se.
+ 46.657: tierp.se INFO Legacy name server ID for remote2.easydns.com (209.200.187.4): hostname.bind = phx
+ 46.844: tierp.se INFO Legacy name server ID for remote2.easydns.com (209.200.187.4): version.bind = Um, it's the latest one. sj2
+ 47.236: tierp.se NOTICE No answer received from 209.200.187.4 when querying for version.server/CH/TXT.
+ 47.237: tierp.se INFO Done testing name server remote2.easydns.com.
+ 47.237: tierp.se INFO Begin testing zone consistency for tierp.se.
+ 47.282: tierp.se INFO SOA at address 64.68.192.10 has serial 1285588133.
+ 47.465: tierp.se INFO SOA at address 209.200.187.4 has serial 1285588133.
+ 47.492: tierp.se INFO SOA at address 205.234.220.154 has serial 1285588133.
+ 47.524: tierp.se INFO SOA at address 72.52.2.1 has serial 1285588133.
+ 47.524: tierp.se INFO All SOA records have consistent serial numbers.
+ 47.524: tierp.se INFO All SOA records are consistent among all name servers.
+ 47.525: tierp.se INFO Done testing zone consistency for tierp.se.
+ 47.525: tierp.se INFO Begin testing SOA parameters for tierp.se.
+ 47.568: tierp.se INFO Found SOA record for tierp.se.
+ 47.568: tierp.se INFO Begin testing host ns1.easydns.com.
+ 47.569: tierp.se INFO Begin testing address 64.68.192.10.
+ 47.570: tierp.se INFO Done testing address 64.68.192.10.
+ 47.570: tierp.se INFO Done testing host ns1.easydns.com.
+ 47.570: tierp.se INFO SOA MNAME for tierp.se valid (ns1.easydns.com).
+ 47.570: tierp.se INFO SOA MNAME for tierp.se (ns1.easydns.com) listed as NS.
+ 47.613: tierp.se INFO SOA MNAME for tierp.se (ns1.easydns.com) is authoritative.
+ 47.613: tierp.se INFO Begin testing email address admin@easydns.com.
+ 47.885: tierp.se INFO Mail exchangers for admin@easydns.com found mail.easydns.com.
+ 47.886: tierp.se INFO Begin testing host mail.easydns.com.
+ 48.554: tierp.se INFO Begin testing address 205.210.42.42.
+ 49.518: tierp.se INFO Done testing address 205.210.42.42.
+ 49.518: tierp.se INFO Done testing host mail.easydns.com.
+ 49.519: tierp.se INFO Begin testing mail server mail.easydns.com (205.210.42.42) with admin@easydns.com.
+ 51.051: tierp.se INFO SMTP banner: c3po.easydns.com ESMTP spoken here
+ 52.637: tierp.se INFO SMTP testing of mail.easydns.com (205.210.42.42) with admin@easydns.com succeeded without errors.
+ 52.637: tierp.se INFO Done testing mail server mail.easydns.com (205.210.42.42) with admin@easydns.com.
+ 52.637: tierp.se INFO Delivery over IPv4 to admin@easydns.com ok.
+ 52.637: tierp.se INFO Delivery over IPv6 to admin@easydns.com could not be done.
+ 52.638: tierp.se INFO Done testing email address admin@easydns.com.
+ 52.638: tierp.se INFO Successful attempt to deliver email for SOA RNAME of tierp.se (admin.easydns.com) using admin@easydns.com.
+ 52.638: tierp.se INFO SOA TTL for tierp.se OK (10800) - recommended >= 3600.
+ 52.638: tierp.se INFO SOA refresh for tierp.se OK (21600) - recommended >= 14400.
+ 52.638: tierp.se INFO SOA retry for tierp.se OK (7200) - recommended >= 3600.
+ 52.638: tierp.se INFO SOA expire for tierp.se OK (1209600) - recommended >= 604800.
+ 52.638: tierp.se INFO SOA minimum for tierp.se OK (10800) - recommended between 300 and 86400.
+ 52.638: tierp.se INFO Done testing SOA parameters for tierp.se.
+ 52.638: tierp.se INFO Begin testing connectivity for tierp.se.
+ 53.252: tierp.se INFO Name server 64.68.192.10 announced by: 13657,16686
+ 53.789: tierp.se INFO Name server 209.200.187.4 announced by: 32787
+ 54.301: tierp.se INFO Name server 205.234.220.154 announced by: 23352
+ 54.886: tierp.se INFO Name server 72.52.2.1 announced by: 32787
+ 54.887: tierp.se INFO Zone announced by IPv4 ASN: 13657,32787,16686,23352
+ 54.887: tierp.se INFO Zone announced by more than one ASN (4).
+ 54.887: tierp.se INFO Zone announced by IPv6 ASN: 
+ 54.887: tierp.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 54.887: tierp.se INFO Done testing connectivity for tierp.se.
+ 54.887: tierp.se INFO Begin testing DNSSEC for tierp.se.
+ 54.963: tierp.se INFO Did not find DS record for tierp.se at parent.
+ 55.499: tierp.se INFO Servers for tierp.se have consistent extra processing status.
+ 55.500: tierp.se INFO Did not find DNSKEY record for tierp.se at child.
+ 55.500: tierp.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 55.500: tierp.se INFO Done testing DNSSEC for tierp.se.
+ 55.500: tierp.se INFO Test completed for zone tierp.se.

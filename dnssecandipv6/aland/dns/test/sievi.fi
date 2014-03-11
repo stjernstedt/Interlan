@@ -1,0 +1,93 @@
+  0.000: sievi.fi INFO Begin testing zone sievi.fi with version 1.5.0.
+  2.011: sievi.fi INFO Begin testing delegation for sievi.fi.
+ 56.399: sievi.fi INFO Name servers listed at parent: ns1.kotinet.com,ns2.kotinet.com,ns3.kotinet.com
+ 75.973: sievi.fi INFO Name servers listed at child: ns1.kotinet.com,ns2.kotinet.com,ns3.kotinet.com
+ 75.973: sievi.fi NOTICE No IPv6 name servers found.
+ 90.133: sievi.fi INFO It is possible to build a referral packet for sievi.fi that works without EDNS0.
+ 98.552: sievi.fi INFO Previously used name servers for sievi.fi: 
+ 98.553: sievi.fi INFO Done testing delegation for sievi.fi.
+ 98.553: sievi.fi INFO Begin testing name server ns1.kotinet.com.
+ 98.769: sievi.fi INFO Begin testing host ns1.kotinet.com.
+101.683: sievi.fi INFO Begin testing address 212.50.211.242.
+148.942: sievi.fi INFO Done testing address 212.50.211.242.
+148.943: sievi.fi INFO Done testing host ns1.kotinet.com.
+152.364: sievi.fi INFO Name server ns1.kotinet.com (212.50.211.242) answers queries over UDP.
+153.458: sievi.fi INFO Name server ns1.kotinet.com (212.50.211.242) answers queries over TCP.
+153.872: sievi.fi INFO Name server ns1.kotinet.com (212.50.211.242) is not recursive.
+155.425: sievi.fi INFO Name server ns1.kotinet.com (212.50.211.242) authoritative for sievi.fi.
+155.994: sievi.fi INFO Name server ns1.kotinet.com (212.50.211.242) closed for zone transfer of sievi.fi.
+156.393: sievi.fi INFO Legacy name server ID for ns1.kotinet.com (212.50.211.242): hostname.bind = ns1.kotinet.com
+157.096: sievi.fi INFO Legacy name server ID for ns1.kotinet.com (212.50.211.242): version.bind = enkerro
+157.870: sievi.fi NOTICE No answer received from 212.50.211.242 when querying for version.server/CH/TXT.
+157.870: sievi.fi INFO Done testing name server ns1.kotinet.com.
+157.871: sievi.fi INFO Begin testing name server ns2.kotinet.com.
+157.871: sievi.fi INFO Begin testing host ns2.kotinet.com.
+160.791: sievi.fi INFO Begin testing address 212.50.192.226.
+167.214: sievi.fi INFO Done testing address 212.50.192.226.
+167.214: sievi.fi INFO Done testing host ns2.kotinet.com.
+170.624: sievi.fi INFO Name server ns2.kotinet.com (212.50.192.226) answers queries over UDP.
+171.527: sievi.fi INFO Name server ns2.kotinet.com (212.50.192.226) answers queries over TCP.
+171.938: sievi.fi INFO Name server ns2.kotinet.com (212.50.192.226) is not recursive.
+173.490: sievi.fi INFO Name server ns2.kotinet.com (212.50.192.226) authoritative for sievi.fi.
+174.093: sievi.fi INFO Name server ns2.kotinet.com (212.50.192.226) closed for zone transfer of sievi.fi.
+174.463: sievi.fi INFO Legacy name server ID for ns2.kotinet.com (212.50.192.226): hostname.bind = ns2
+174.914: sievi.fi INFO Legacy name server ID for ns2.kotinet.com (212.50.192.226): version.bind = enkerro
+175.658: sievi.fi NOTICE No answer received from 212.50.192.226 when querying for version.server/CH/TXT.
+175.789: sievi.fi INFO Done testing name server ns2.kotinet.com.
+175.790: sievi.fi INFO Begin testing name server ns3.kotinet.com.
+175.790: sievi.fi INFO Begin testing host ns3.kotinet.com.
+178.411: sievi.fi INFO Begin testing address 82.141.108.26.
+183.967: sievi.fi INFO Done testing address 82.141.108.26.
+183.967: sievi.fi INFO Done testing host ns3.kotinet.com.
+187.288: sievi.fi INFO Name server ns3.kotinet.com (82.141.108.26) answers queries over UDP.
+188.044: sievi.fi INFO Name server ns3.kotinet.com (82.141.108.26) answers queries over TCP.
+188.358: sievi.fi INFO Name server ns3.kotinet.com (82.141.108.26) is not recursive.
+189.820: sievi.fi INFO Name server ns3.kotinet.com (82.141.108.26) authoritative for sievi.fi.
+190.381: sievi.fi INFO Name server ns3.kotinet.com (82.141.108.26) closed for zone transfer of sievi.fi.
+190.735: sievi.fi INFO Legacy name server ID for ns3.kotinet.com (82.141.108.26): hostname.bind = ns3.kotinet.com
+191.143: sievi.fi INFO Legacy name server ID for ns3.kotinet.com (82.141.108.26): version.bind = enkerro
+191.814: sievi.fi NOTICE No answer received from 82.141.108.26 when querying for version.server/CH/TXT.
+191.815: sievi.fi INFO Done testing name server ns3.kotinet.com.
+191.815: sievi.fi INFO Begin testing zone consistency for sievi.fi.
+206.452: sievi.fi INFO SOA at address 212.50.192.226 has serial 2013020513.
+206.852: sievi.fi INFO SOA at address 82.141.108.26 has serial 2013020513.
+207.280: sievi.fi INFO SOA at address 212.50.211.242 has serial 2013020513.
+207.280: sievi.fi INFO All SOA records have consistent serial numbers.
+207.280: sievi.fi INFO All other fields in the SOA record are consistent among all name servers.
+215.100: sievi.fi NOTICE The listed nameservers for sievi.fi all report the same set of nameservers.
+215.100: sievi.fi INFO Done testing zone consistency for sievi.fi.
+215.100: sievi.fi INFO Begin testing SOA parameters for sievi.fi.
+215.585: sievi.fi INFO Found SOA record for sievi.fi.
+215.585: sievi.fi INFO Begin testing host ns3.kotinet.com.
+218.987: sievi.fi INFO Begin testing address 82.141.108.26.
+221.198: sievi.fi INFO Done testing address 82.141.108.26.
+221.199: sievi.fi INFO Done testing host ns3.kotinet.com.
+221.199: sievi.fi INFO SOA MNAME for sievi.fi valid (ns3.kotinet.com).
+221.199: sievi.fi INFO SOA MNAME for sievi.fi (ns3.kotinet.com) listed as NS.
+223.791: sievi.fi INFO SOA MNAME for sievi.fi (ns3.kotinet.com) is authoritative.
+223.791: sievi.fi INFO Begin testing email address root@adonis.kotinet.com.
+228.372: sievi.fi INFO Mail exchangers for root@adonis.kotinet.com found adonis.kotinet.com.
+228.372: sievi.fi INFO Begin testing host adonis.kotinet.com.
+230.792: sievi.fi INFO Begin testing address 212.50.211.55.
+236.670: sievi.fi INFO Done testing address 212.50.211.55.
+236.671: sievi.fi INFO Done testing host adonis.kotinet.com.
+238.408: sievi.fi INFO Done testing email address root@adonis.kotinet.com.
+238.408: sievi.fi INFO Successful attempt to deliver email for SOA RNAME of sievi.fi (root.adonis.kotinet.com) using root@adonis.kotinet.com.
+238.408: sievi.fi INFO SOA TTL for sievi.fi OK (86400) - recommended >= 3600.
+238.408: sievi.fi INFO SOA refresh for sievi.fi OK (28800) - recommended >= 14400.
+238.409: sievi.fi INFO SOA retry for sievi.fi OK (7200) - recommended >= 3600.
+238.409: sievi.fi INFO SOA expire for sievi.fi OK (1209600) - recommended >= 604800.
+238.409: sievi.fi INFO SOA minimum for sievi.fi OK (86400) - recommended between 300 and 86400.
+238.409: sievi.fi INFO Done testing SOA parameters for sievi.fi.
+238.409: sievi.fi INFO Begin testing connectivity for sievi.fi.
+248.980: sievi.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+248.980: sievi.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+248.980: sievi.fi INFO Done testing connectivity for sievi.fi.
+248.981: sievi.fi INFO Begin testing DNSSEC for sievi.fi.
+250.040: sievi.fi INFO Did not find DS record for sievi.fi at parent.
+251.583: sievi.fi INFO Servers for sievi.fi have consistent extra processing status.
+252.051: sievi.fi INFO Authenticated denial records not found for sievi.fi.
+252.442: sievi.fi INFO Did not find DNSKEY record for sievi.fi at child.
+252.442: sievi.fi INFO No DNSKEY(s) found at child, other tests skipped.
+252.442: sievi.fi INFO Done testing DNSSEC for sievi.fi.
+252.579: sievi.fi INFO Test completed for zone sievi.fi.

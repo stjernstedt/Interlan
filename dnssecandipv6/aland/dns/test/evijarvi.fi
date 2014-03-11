@@ -1,0 +1,84 @@
+  0.000: evijarvi.fi INFO Begin testing zone evijarvi.fi with version 1.5.0.
+  0.521: evijarvi.fi INFO Begin testing delegation for evijarvi.fi.
+ 12.195: evijarvi.fi INFO Name servers listed at parent: ns1.japo.fi,ns2.japo.fi
+ 14.733: evijarvi.fi INFO Name servers listed at child: ns1.japo.fi,ns2.japo.fi
+ 14.733: evijarvi.fi NOTICE No IPv6 name servers found.
+ 14.776: evijarvi.fi INFO Parent glue for evijarvi.fi found: ns1.japo.fi (212.66.193.10)
+ 14.918: evijarvi.fi INFO Parent glue for evijarvi.fi found: ns2.japo.fi (212.66.193.9)
+ 15.027: evijarvi.fi INFO Checking glue for ns1.japo.fi (212.66.193.10).
+ 15.027: evijarvi.fi INFO Checking glue for ns2.japo.fi (212.66.193.9).
+ 15.028: evijarvi.fi INFO Parent glue for evijarvi.fi found: ns1.japo.fi (212.66.193.10)
+ 15.028: evijarvi.fi INFO Parent glue for evijarvi.fi found: ns2.japo.fi (212.66.193.9)
+ 16.131: evijarvi.fi INFO It is possible to build a referral packet for evijarvi.fi that works without EDNS0.
+ 16.947: evijarvi.fi INFO Previously used name servers for evijarvi.fi: 
+ 16.947: evijarvi.fi INFO Done testing delegation for evijarvi.fi.
+ 16.948: evijarvi.fi INFO Begin testing name server ns1.japo.fi.
+ 16.948: evijarvi.fi INFO Begin testing host ns1.japo.fi.
+ 17.435: evijarvi.fi INFO Begin testing address 212.66.193.10.
+ 32.232: evijarvi.fi INFO Done testing address 212.66.193.10.
+ 32.232: evijarvi.fi INFO Done testing host ns1.japo.fi.
+ 32.960: evijarvi.fi INFO Name server ns1.japo.fi (212.66.193.10) answers queries over UDP.
+ 33.105: evijarvi.fi INFO Name server ns1.japo.fi (212.66.193.10) answers queries over TCP.
+ 33.176: evijarvi.fi INFO Name server ns1.japo.fi (212.66.193.10) is not recursive.
+ 33.473: evijarvi.fi INFO Name server ns1.japo.fi (212.66.193.10) authoritative for evijarvi.fi.
+ 33.570: evijarvi.fi INFO Name server ns1.japo.fi (212.66.193.10) closed for zone transfer of evijarvi.fi.
+ 33.625: evijarvi.fi INFO Legacy name server ID for ns1.japo.fi (212.66.193.10): hostname.bind = aapo
+ 33.695: evijarvi.fi INFO Legacy name server ID for ns1.japo.fi (212.66.193.10): version.bind = None of your business
+ 34.131: evijarvi.fi NOTICE No answer received from 212.66.193.10 when querying for version.server/CH/TXT.
+ 34.131: evijarvi.fi INFO Done testing name server ns1.japo.fi.
+ 34.131: evijarvi.fi INFO Begin testing name server ns2.japo.fi.
+ 34.131: evijarvi.fi INFO Begin testing host ns2.japo.fi.
+ 34.695: evijarvi.fi INFO Begin testing address 212.66.193.9.
+ 36.203: evijarvi.fi INFO Done testing address 212.66.193.9.
+ 36.203: evijarvi.fi INFO Done testing host ns2.japo.fi.
+ 36.853: evijarvi.fi INFO Name server ns2.japo.fi (212.66.193.9) answers queries over UDP.
+ 36.931: evijarvi.fi INFO Name server ns2.japo.fi (212.66.193.9) answers queries over TCP.
+ 36.989: evijarvi.fi INFO Name server ns2.japo.fi (212.66.193.9) is not recursive.
+ 37.204: evijarvi.fi INFO Name server ns2.japo.fi (212.66.193.9) authoritative for evijarvi.fi.
+ 37.267: evijarvi.fi INFO Name server ns2.japo.fi (212.66.193.9) closed for zone transfer of evijarvi.fi.
+ 37.335: evijarvi.fi INFO Legacy name server ID for ns2.japo.fi (212.66.193.9): hostname.bind = ns2.japo.fi
+ 37.410: evijarvi.fi INFO Legacy name server ID for ns2.japo.fi (212.66.193.9): version.bind = None of your business
+ 37.489: evijarvi.fi NOTICE No answer received from 212.66.193.9 when querying for version.server/CH/TXT.
+ 37.489: evijarvi.fi INFO Done testing name server ns2.japo.fi.
+ 37.489: evijarvi.fi INFO Begin testing zone consistency for evijarvi.fi.
+ 39.756: evijarvi.fi INFO SOA at address 212.66.193.10 has serial 2012110901.
+ 39.865: evijarvi.fi INFO SOA at address 212.66.193.9 has serial 2012110901.
+ 39.865: evijarvi.fi INFO All SOA records have consistent serial numbers.
+ 39.865: evijarvi.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 41.496: evijarvi.fi NOTICE The listed nameservers for evijarvi.fi all report the same set of nameservers.
+ 41.496: evijarvi.fi INFO Done testing zone consistency for evijarvi.fi.
+ 41.496: evijarvi.fi INFO Begin testing SOA parameters for evijarvi.fi.
+ 41.632: evijarvi.fi INFO Found SOA record for evijarvi.fi.
+ 41.632: evijarvi.fi INFO Begin testing host ns1.japo.fi.
+ 42.123: evijarvi.fi INFO Begin testing address 212.66.193.10.
+ 42.743: evijarvi.fi INFO Done testing address 212.66.193.10.
+ 42.743: evijarvi.fi INFO Done testing host ns1.japo.fi.
+ 42.743: evijarvi.fi INFO SOA MNAME for evijarvi.fi valid (ns1.japo.fi).
+ 42.760: evijarvi.fi INFO SOA MNAME for evijarvi.fi (ns1.japo.fi) listed as NS.
+ 43.372: evijarvi.fi INFO SOA MNAME for evijarvi.fi (ns1.japo.fi) is authoritative.
+ 43.372: evijarvi.fi INFO Begin testing email address hostmaster@japo.fi.
+ 43.860: evijarvi.fi INFO Mail exchangers for hostmaster@japo.fi found mail.japo.fi.
+ 43.860: evijarvi.fi INFO Begin testing host mail.japo.fi.
+ 45.738: evijarvi.fi INFO Begin testing address 212.66.193.100.
+ 47.311: evijarvi.fi INFO Done testing address 212.66.193.100.
+ 47.311: evijarvi.fi INFO Done testing host mail.japo.fi.
+ 47.956: evijarvi.fi INFO Done testing email address hostmaster@japo.fi.
+ 47.957: evijarvi.fi INFO Successful attempt to deliver email for SOA RNAME of evijarvi.fi (hostmaster.japo.fi) using hostmaster@japo.fi.
+ 47.957: evijarvi.fi INFO SOA TTL for evijarvi.fi OK (86400) - recommended >= 3600.
+ 47.957: evijarvi.fi INFO SOA refresh for evijarvi.fi OK (28800) - recommended >= 14400.
+ 47.957: evijarvi.fi INFO SOA retry for evijarvi.fi OK (7200) - recommended >= 3600.
+ 47.957: evijarvi.fi INFO SOA expire for evijarvi.fi OK (604800) - recommended >= 604800.
+ 47.957: evijarvi.fi INFO SOA minimum for evijarvi.fi OK (86400) - recommended between 300 and 86400.
+ 47.957: evijarvi.fi INFO Done testing SOA parameters for evijarvi.fi.
+ 47.957: evijarvi.fi INFO Begin testing connectivity for evijarvi.fi.
+ 49.428: evijarvi.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 49.429: evijarvi.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 49.429: evijarvi.fi INFO Done testing connectivity for evijarvi.fi.
+ 49.429: evijarvi.fi INFO Begin testing DNSSEC for evijarvi.fi.
+ 49.652: evijarvi.fi INFO Did not find DS record for evijarvi.fi at parent.
+ 49.838: evijarvi.fi INFO Servers for evijarvi.fi have consistent extra processing status.
+ 49.947: evijarvi.fi INFO Authenticated denial records not found for evijarvi.fi.
+ 49.995: evijarvi.fi INFO Did not find DNSKEY record for evijarvi.fi at child.
+ 49.995: evijarvi.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 49.995: evijarvi.fi INFO Done testing DNSSEC for evijarvi.fi.
+ 49.996: evijarvi.fi INFO Test completed for zone evijarvi.fi.

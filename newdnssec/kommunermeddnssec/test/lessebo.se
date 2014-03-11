@@ -1,0 +1,167 @@
+  0.000: lessebo.se INFO Begin testing zone lessebo.se with version 1.6.1.
+  1.802: lessebo.se INFO Begin testing delegation for lessebo.se.
+ 21.300: lessebo.se INFO Name servers listed at parent: a.dns.tdc.se,b.dns.tdc.se,ns.lessebo.se
+ 52.555: lessebo.se INFO Name servers listed at child: a.dns.tdc.se,b.dns.tdc.se,ns.lessebo.se
+ 52.790: lessebo.se INFO Parent glue for lessebo.se found: a.dns.tdc.se (213.50.29.190)
+ 53.358: lessebo.se INFO Parent glue for lessebo.se found: b.dns.tdc.se (213.50.29.195)
+ 53.762: lessebo.se INFO Parent glue for lessebo.se found: ns.lessebo.se (212.214.8.9)
+ 53.814: lessebo.se INFO Checking glue for a.dns.tdc.se (213.50.29.190).
+ 53.815: lessebo.se INFO Checking glue for b.dns.tdc.se (213.50.29.195).
+ 53.815: lessebo.se INFO Checking glue for ns.lessebo.se (212.214.8.9).
+ 54.040: lessebo.se INFO Child glue for lessebo.se found: ns.lessebo.se (212.214.8.9)
+ 54.097: lessebo.se INFO Parent glue for lessebo.se found: a.dns.tdc.se (213.50.29.190)
+ 54.097: lessebo.se INFO Parent glue for lessebo.se found: b.dns.tdc.se (213.50.29.195)
+ 54.098: lessebo.se INFO Parent glue for lessebo.se found: ns.lessebo.se (212.214.8.9)
+ 55.591: lessebo.se INFO It is possible to build a referral packet for lessebo.se that works without EDNS0.
+ 55.939: lessebo.se INFO Previously used name servers for lessebo.se: 
+ 55.940: lessebo.se INFO Done testing delegation for lessebo.se.
+ 55.940: lessebo.se INFO Begin testing name server a.dns.tdc.se.
+ 55.940: lessebo.se INFO Begin testing host a.dns.tdc.se.
+ 55.964: lessebo.se INFO Begin testing address 213.50.29.190.
+ 82.163: lessebo.se INFO Done testing address 213.50.29.190.
+ 82.163: lessebo.se INFO Begin testing address 2001:6f0:0:1:0:0:2:2.
+ 82.815: lessebo.se INFO Done testing address 2001:6f0:0:1:0:0:2:2.
+ 82.815: lessebo.se INFO Done testing host a.dns.tdc.se.
+ 86.849: lessebo.se ERROR Name server a.dns.tdc.se (213.50.29.190) does not answer queries over UDP.
+ 86.850: lessebo.se ERROR Name server a.dns.tdc.se (213.50.29.190) does not answer queries over TCP.
+ 91.035: lessebo.se ERROR Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) does not answer queries over UDP.
+ 91.037: lessebo.se ERROR Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) does not answer queries over TCP.
+ 91.049: lessebo.se INFO Done testing name server a.dns.tdc.se.
+ 91.049: lessebo.se INFO Begin testing name server b.dns.tdc.se.
+ 91.049: lessebo.se INFO Begin testing host b.dns.tdc.se.
+ 91.050: lessebo.se INFO Begin testing address 213.50.29.195.
+ 93.407: lessebo.se INFO Done testing address 213.50.29.195.
+ 93.408: lessebo.se INFO Begin testing address 2001:6f0:0:1:0:0:1:2.
+ 94.292: lessebo.se INFO Done testing address 2001:6f0:0:1:0:0:1:2.
+ 94.293: lessebo.se INFO Done testing host b.dns.tdc.se.
+ 94.322: lessebo.se INFO Name server b.dns.tdc.se (213.50.29.195) answers queries over UDP.
+ 94.479: lessebo.se INFO Name server b.dns.tdc.se (213.50.29.195) answers queries over TCP.
+ 94.501: lessebo.se INFO Name server b.dns.tdc.se (213.50.29.195) is not recursive.
+ 94.598: lessebo.se INFO Name server b.dns.tdc.se (213.50.29.195) authoritative for lessebo.se.
+ 94.657: lessebo.se INFO Name server b.dns.tdc.se (213.50.29.195) closed for zone transfer of lessebo.se.
+ 94.682: lessebo.se INFO Legacy name server ID for b.dns.tdc.se (213.50.29.195): hostname.bind = b
+ 94.720: lessebo.se INFO Legacy name server ID for b.dns.tdc.se (213.50.29.195): version.bind = tssk, well what can i say?
+ 94.777: lessebo.se NOTICE No answer received from 213.50.29.195 when querying for version.server/CH/TXT.
+ 94.961: lessebo.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) answers queries over UDP.
+ 95.231: lessebo.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) answers queries over TCP.
+ 95.252: lessebo.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) is not recursive.
+ 95.492: lessebo.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) authoritative for lessebo.se.
+ 95.538: lessebo.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) closed for zone transfer of lessebo.se.
+ 95.552: lessebo.se INFO Legacy name server ID for b.dns.tdc.se (2001:6f0:0:1:0:0:1:2): hostname.bind = b
+ 95.594: lessebo.se INFO Legacy name server ID for b.dns.tdc.se (2001:6f0:0:1:0:0:1:2): version.bind = tssk, well what can i say?
+ 95.736: lessebo.se NOTICE No answer received from 2001:6f0:0:1:0:0:1:2 when querying for version.server/CH/TXT.
+ 95.736: lessebo.se INFO Done testing name server b.dns.tdc.se.
+ 95.736: lessebo.se INFO Begin testing name server ns.lessebo.se.
+ 95.736: lessebo.se INFO Begin testing host ns.lessebo.se.
+ 96.307: lessebo.se INFO Begin testing address 212.214.8.9.
+102.826: lessebo.se INFO Done testing address 212.214.8.9.
+102.827: lessebo.se INFO Done testing host ns.lessebo.se.
+109.458: lessebo.se INFO Name server ns.lessebo.se (212.214.8.9) answers queries over UDP.
+109.586: lessebo.se INFO Name server ns.lessebo.se (212.214.8.9) answers queries over TCP.
+109.711: lessebo.se INFO Name server ns.lessebo.se (212.214.8.9) is not recursive.
+109.938: lessebo.se INFO Name server ns.lessebo.se (212.214.8.9) authoritative for lessebo.se.
+110.180: lessebo.se INFO Name server ns.lessebo.se (212.214.8.9) closed for zone transfer of lessebo.se.
+110.221: lessebo.se NOTICE No answer received from 212.214.8.9 when querying for hostname.bind/CH/TXT.
+120.358: lessebo.se INFO Done testing name server ns.lessebo.se.
+120.359: lessebo.se INFO Begin testing zone consistency for lessebo.se.
+120.553: lessebo.se INFO SOA at address 2001:6f0:0:1:0:0:1:2 has serial 2011031846.
+120.562: lessebo.se INFO SOA at address 213.50.29.195 has serial 2011031846.
+120.590: lessebo.se INFO SOA at address 212.214.8.9 has serial 2011031846.
+120.591: lessebo.se INFO All SOA records have consistent serial numbers.
+120.591: lessebo.se INFO All other fields in the SOA record are consistent among all name servers.
+128.840: lessebo.se NOTICE The listed nameservers for lessebo.se all report the same set of nameservers.
+128.841: lessebo.se INFO Done testing zone consistency for lessebo.se.
+128.841: lessebo.se INFO Begin testing SOA parameters for lessebo.se.
+128.851: lessebo.se INFO Found SOA record for lessebo.se.
+128.852: lessebo.se INFO Begin testing host ns.lessebo.se.
+136.994: lessebo.se INFO Begin testing address 212.214.8.9.
+137.165: lessebo.se INFO Done testing address 212.214.8.9.
+137.165: lessebo.se INFO Done testing host ns.lessebo.se.
+137.165: lessebo.se INFO SOA MNAME for lessebo.se valid (ns.lessebo.se).
+137.166: lessebo.se INFO SOA MNAME for lessebo.se (ns.lessebo.se) listed as NS.
+145.343: lessebo.se INFO SOA MNAME for lessebo.se (ns.lessebo.se) is authoritative.
+145.343: lessebo.se INFO Begin testing email address hostmaster@lessebo.se.
+145.424: lessebo.se INFO Mail exchangers for hostmaster@lessebo.se found mail.messaging.microsoft.com.
+145.424: lessebo.se INFO Begin testing host mail.messaging.microsoft.com.
+153.513: lessebo.se INFO Begin testing address 216.32.181.178.
+158.905: lessebo.se INFO Done testing address 216.32.181.178.
+158.905: lessebo.se INFO Begin testing address 216.32.180.22.
+159.786: lessebo.se INFO Done testing address 216.32.180.22.
+159.786: lessebo.se INFO Begin testing address 213.199.180.150.
+160.805: lessebo.se INFO Done testing address 213.199.180.150.
+160.806: lessebo.se INFO Begin testing address 65.55.88.22.
+161.616: lessebo.se INFO Done testing address 65.55.88.22.
+161.617: lessebo.se INFO Begin testing address 207.46.163.30.
+162.653: lessebo.se INFO Done testing address 207.46.163.30.
+162.653: lessebo.se INFO Done testing host mail.messaging.microsoft.com.
+164.314: lessebo.se INFO Done testing email address hostmaster@lessebo.se.
+164.314: lessebo.se INFO Successful attempt to deliver email for SOA RNAME of lessebo.se (hostmaster.lessebo.se) using hostmaster@lessebo.se.
+164.314: lessebo.se INFO SOA TTL for lessebo.se OK (3600) - recommended >= 3600.
+164.315: lessebo.se NOTICE SOA refresh for lessebo.se too small (1800) - recommended >= 14400.
+164.315: lessebo.se NOTICE SOA retry for lessebo.se too small (600) - recommended >= 3600.
+164.315: lessebo.se INFO SOA expire for lessebo.se OK (604800) - recommended >= 604800.
+164.315: lessebo.se INFO SOA minimum for lessebo.se OK (1800) - recommended between 300 and 86400.
+164.315: lessebo.se INFO Done testing SOA parameters for lessebo.se.
+164.315: lessebo.se INFO Begin testing connectivity for lessebo.se.
+165.543: lessebo.se NOTICE Zone announced by fewer than two IPv4 ASN.
+166.743: lessebo.se NOTICE Zone announced by fewer than two IPv6 ASN.
+166.743: lessebo.se INFO Done testing connectivity for lessebo.se.
+166.743: lessebo.se INFO Begin testing DNSSEC for lessebo.se.
+166.783: lessebo.se INFO Found DS record for lessebo.se at parent.
+166.799: lessebo.se INFO Nameserver 213.50.29.195 does DNSSEC extra processing.
+166.854: lessebo.se INFO Nameserver 212.214.8.9 does DNSSEC extra processing.
+168.867: lessebo.se NOTICE DNS lookup error (connection failed).
+168.890: lessebo.se INFO Nameserver 2001:6f0:0:1:0:0:1:2 does DNSSEC extra processing.
+170.896: lessebo.se NOTICE DNS lookup error (connection failed(IPv6 socket failure)).
+170.896: lessebo.se INFO Servers for lessebo.se have consistent extra processing status.
+170.911: lessebo.se INFO Authenticated denial records found for lessebo.se, of type NSEC3.
+170.922: lessebo.se INFO NSEC3PARAM record found for lessebo.se.
+170.922: lessebo.se INFO NSEC3 for lessebo.se is set to use 50 iterations, which is less than 100 and thus OK.
+170.922: lessebo.se INFO Found DNSKEY record for lessebo.se at child.
+170.923: lessebo.se INFO Consistent security for lessebo.se.
+170.923: lessebo.se INFO Checking DNSSEC at child (lessebo.se).
+170.924: lessebo.se INFO lessebo.se's key with tag 39330 uses algorithm number 8 (RSA/SHA-256).
+170.924: lessebo.se INFO Algorithm number 8 is OK.
+170.924: lessebo.se INFO lessebo.se's key with tag 19911 uses algorithm number 8 (RSA/SHA-256).
+170.924: lessebo.se INFO Algorithm number 8 is OK.
+170.924: lessebo.se INFO lessebo.se's key with tag 47059 uses algorithm number 8 (RSA/SHA-256).
+170.924: lessebo.se INFO Algorithm number 8 is OK.
+170.924: lessebo.se INFO DNSKEY lessebo.se (tag 47059) is marked as a secure entry point (SEP).
+170.924: lessebo.se INFO lessebo.se's key with tag 35417 uses algorithm number 8 (RSA/SHA-256).
+170.925: lessebo.se INFO Algorithm number 8 is OK.
+170.925: lessebo.se INFO DNSKEY lessebo.se (tag 35417) is marked as a secure entry point (SEP).
+170.925: lessebo.se INFO DNSSEC signature expires at: Sun Mar 16 10:00:36 2014
+170.925: lessebo.se INFO Duration for RRSIG(lessebo.se/IN/DNSKEY/35417) is OK (608400 seconds).
+170.928: lessebo.se INFO DNSSEC signature RRSIG(lessebo.se/IN/DNSKEY/35417) matches records.
+170.928: lessebo.se INFO DNSSEC signature valid: RRSIG(lessebo.se/IN/DNSKEY/35417)
+170.928: lessebo.se INFO DNSSEC signature expires at: Sun Mar 16 10:00:36 2014
+170.929: lessebo.se INFO Duration for RRSIG(lessebo.se/IN/DNSKEY/39330) is OK (608400 seconds).
+170.930: lessebo.se INFO DNSSEC signature RRSIG(lessebo.se/IN/DNSKEY/39330) matches records.
+170.930: lessebo.se INFO DNSSEC signature valid: RRSIG(lessebo.se/IN/DNSKEY/39330)
+170.930: lessebo.se INFO Enough valid signatures found for lessebo.se.
+170.946: lessebo.se INFO DNSSEC signature expires at: Wed Mar 19 10:00:36 2014
+170.946: lessebo.se INFO Duration for RRSIG(lessebo.se/IN/SOA/39330) is OK (867600 seconds).
+170.947: lessebo.se INFO DNSSEC signature RRSIG(lessebo.se/IN/SOA/39330) matches records.
+170.947: lessebo.se INFO DNSSEC signature valid: RRSIG(lessebo.se/IN/SOA/39330)
+170.947: lessebo.se INFO Enough valid signatures over SOA RRset found for lessebo.se.
+170.947: lessebo.se INFO DNSSEC child checks for lessebo.se complete.
+170.947: lessebo.se INFO Checking DNSSEC at parent of lessebo.se.
+170.947: lessebo.se INFO lessebo.se's key with tag 47059 uses algorithm number 8 (RSA/SHA-256).
+170.948: lessebo.se INFO Algorithm number 8 is OK.
+170.948: lessebo.se INFO Parent DS(lessebo.se/8/1/47059) refers to invalid key at child: DNSKEY(lessebo.se/8/47059)
+170.948: lessebo.se INFO Parent DS(lessebo.se) refers to secure entry point (SEP) at child: DS(lessebo.se/8/1/47059)
+170.948: lessebo.se INFO lessebo.se's key with tag 47059 uses algorithm number 8 (RSA/SHA-256).
+170.948: lessebo.se INFO Algorithm number 8 is OK.
+170.948: lessebo.se INFO Parent DS(lessebo.se/8/2/47059) refers to invalid key at child: DNSKEY(lessebo.se/8/47059)
+170.948: lessebo.se INFO Parent DS(lessebo.se) refers to secure entry point (SEP) at child: DS(lessebo.se/8/2/47059)
+170.948: lessebo.se INFO lessebo.se's key with tag 35417 uses algorithm number 8 (RSA/SHA-256).
+170.948: lessebo.se INFO Algorithm number 8 is OK.
+170.949: lessebo.se INFO Parent DS(lessebo.se/8/1/35417) refers to valid key at child: DNSKEY(lessebo.se/8/35417)
+170.949: lessebo.se INFO Parent DS(lessebo.se) refers to secure entry point (SEP) at child: DS(lessebo.se/8/1/35417)
+170.949: lessebo.se INFO lessebo.se's key with tag 35417 uses algorithm number 8 (RSA/SHA-256).
+170.949: lessebo.se INFO Algorithm number 8 is OK.
+170.949: lessebo.se INFO Parent DS(lessebo.se/8/2/35417) refers to valid key at child: DNSKEY(lessebo.se/8/35417)
+170.950: lessebo.se INFO Parent DS(lessebo.se) refers to secure entry point (SEP) at child: DS(lessebo.se/8/2/35417)
+170.950: lessebo.se INFO DNSSEC parent checks for lessebo.se complete.
+170.950: lessebo.se INFO Done testing DNSSEC for lessebo.se.
+170.950: lessebo.se INFO Test completed for zone lessebo.se.

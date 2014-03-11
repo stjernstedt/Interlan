@@ -1,0 +1,87 @@
+  0.000: nybro.se INFO Begin testing zone nybro.se with version 1.2.
+  0.000: nybro.se INFO Begin testing delegation for nybro.se.
+  9.584: nybro.se INFO Name servers listed at parent: dns1.telia.com,nybro.nybro.se
+ 15.055: nybro.se INFO Name servers listed at child: dns1.telia.com,nybro.nybro.se
+ 15.055: nybro.se NOTICE No IPv6 name servers found.
+ 15.212: nybro.se INFO Parent glue for nybro.se found: nybro.nybro.se (194.237.86.180)
+ 15.269: nybro.se INFO Checking glue for nybro.nybro.se (194.237.86.180).
+ 15.286: nybro.se INFO Child glue for nybro.se found: nybro.nybro.se (194.237.86.180)
+ 15.287: nybro.se INFO Parent glue for nybro.se found: nybro.nybro.se (194.237.86.180)
+ 15.287: nybro.se INFO Done testing delegation for nybro.se.
+ 15.288: nybro.se INFO Begin testing name server dns1.telia.com.
+ 15.288: nybro.se INFO Begin testing host dns1.telia.com.
+ 15.288: nybro.se INFO Begin testing address 81.228.11.67.
+ 30.790: nybro.se INFO Done testing address 81.228.11.67.
+ 30.790: nybro.se INFO Done testing host dns1.telia.com.
+ 30.798: nybro.se INFO Name server dns1.telia.com (81.228.11.67) answers queries over UDP.
+ 30.810: nybro.se INFO Name server dns1.telia.com (81.228.11.67) answers queries over TCP.
+ 30.819: nybro.se INFO Name server dns1.telia.com (81.228.11.67) is not recursive.
+ 30.826: nybro.se INFO Name server dns1.telia.com (81.228.11.67) authoritative for nybro.se.
+ 30.841: nybro.se INFO Name server dns1.telia.com (81.228.11.67) closed for zone transfer of nybro.se.
+ 30.850: nybro.se INFO Legacy name server ID for dns1.telia.com (81.228.11.67): hostname.bind = dnshosting3-sn1.fre.skanova.net
+ 30.857: nybro.se INFO Legacy name server ID for dns1.telia.com (81.228.11.67): version.bind = 9.3.2-P1
+ 30.870: nybro.se NOTICE No answer received from 81.228.11.67 when querying for version.server/CH/TXT.
+ 30.870: nybro.se INFO Done testing name server dns1.telia.com.
+ 30.870: nybro.se INFO Begin testing name server nybro.nybro.se.
+ 30.871: nybro.se INFO Begin testing host nybro.nybro.se.
+ 30.871: nybro.se INFO Begin testing address 194.237.86.180.
+ 31.536: nybro.se INFO Done testing address 194.237.86.180.
+ 31.536: nybro.se INFO Done testing host nybro.nybro.se.
+ 31.553: nybro.se INFO Name server nybro.nybro.se (194.237.86.180) answers queries over UDP.
+ 31.585: nybro.se INFO Name server nybro.nybro.se (194.237.86.180) answers queries over TCP.
+ 31.951: nybro.se INFO Name server nybro.nybro.se (194.237.86.180) is not recursive.
+ 31.968: nybro.se INFO Name server nybro.nybro.se (194.237.86.180) authoritative for nybro.se.
+ 32.242: nybro.se NOTICE Name server nybro.nybro.se (194.237.86.180) open for zone transfer of nybro.se.
+ 32.260: nybro.se NOTICE No answer received from 194.237.86.180 when querying for hostname.bind/CH/TXT.
+ 50.319: nybro.se INFO Done testing name server nybro.nybro.se.
+ 50.320: nybro.se INFO Begin testing zone consistency for nybro.se.
+ 50.341: nybro.se INFO SOA at address 194.237.86.180 has serial 230.
+ 50.349: nybro.se INFO SOA at address 81.228.11.67 has serial 230.
+ 50.349: nybro.se INFO All SOA records have consistent serial numbers.
+ 50.349: nybro.se INFO All SOA records are consistent among all name servers.
+ 50.349: nybro.se INFO Done testing zone consistency for nybro.se.
+ 50.349: nybro.se INFO Begin testing SOA parameters for nybro.se.
+ 50.366: nybro.se INFO Found SOA record for nybro.se.
+ 50.366: nybro.se INFO Begin testing host nybro.nybro.se.
+ 50.367: nybro.se INFO Begin testing address 194.237.86.180.
+ 50.368: nybro.se INFO Done testing address 194.237.86.180.
+ 50.369: nybro.se INFO Done testing host nybro.nybro.se.
+ 50.369: nybro.se INFO SOA MNAME for nybro.se valid (nybro.nybro.se).
+ 50.369: nybro.se INFO SOA MNAME for nybro.se (nybro.nybro.se) listed as NS.
+ 50.386: nybro.se INFO SOA MNAME for nybro.se (nybro.nybro.se) is authoritative.
+ 50.387: nybro.se INFO Begin testing email address postmaster@nybro.se.
+ 50.607: nybro.se INFO Mail exchangers for postmaster@nybro.se found mailin.nybro.se.
+ 50.607: nybro.se INFO All mail servers for postmaster@nybro.se are in zone nybro.se.
+ 50.607: nybro.se INFO Begin testing host mailin.nybro.se.
+ 51.073: nybro.se INFO Begin testing address 194.237.86.187.
+ 52.269: nybro.se INFO Done testing address 194.237.86.187.
+ 52.269: nybro.se INFO Done testing host mailin.nybro.se.
+ 52.270: nybro.se INFO Begin testing mail server mailin.nybro.se (194.237.86.187) with postmaster@nybro.se.
+ 52.327: nybro.se INFO SMTP banner: *********************************************************0**002***2*************************20*0 20****0***0*00 
+ 52.385: nybro.se INFO SMTP testing of mailin.nybro.se (194.237.86.187) with postmaster@nybro.se succeeded without errors.
+ 52.385: nybro.se INFO Done testing mail server mailin.nybro.se (194.237.86.187) with postmaster@nybro.se.
+ 52.385: nybro.se INFO Delivery over IPv4 to postmaster@nybro.se ok.
+ 52.385: nybro.se INFO Delivery over IPv6 to postmaster@nybro.se could not be done.
+ 52.385: nybro.se INFO Done testing email address postmaster@nybro.se.
+ 52.385: nybro.se INFO Successful attempt to deliver email for SOA RNAME of nybro.se (postmaster.nybro.se) using postmaster@nybro.se.
+ 52.385: nybro.se INFO SOA TTL for nybro.se OK (3600) - recommended >= 3600.
+ 52.385: nybro.se INFO SOA refresh for nybro.se OK (14400) - recommended >= 14400.
+ 52.385: nybro.se INFO SOA retry for nybro.se OK (3600) - recommended >= 3600.
+ 52.385: nybro.se INFO SOA expire for nybro.se OK (604800) - recommended >= 604800.
+ 52.386: nybro.se INFO SOA minimum for nybro.se OK (3600) - recommended between 300 and 86400.
+ 52.386: nybro.se INFO Done testing SOA parameters for nybro.se.
+ 52.386: nybro.se INFO Begin testing connectivity for nybro.se.
+ 52.999: nybro.se INFO Name server 194.237.86.180 announced by: 3301
+ 53.527: nybro.se INFO Name server 81.228.11.67 announced by: 3301
+ 53.527: nybro.se INFO Zone announced by IPv4 ASN: 3301
+ 53.527: nybro.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 53.527: nybro.se INFO Zone announced by IPv6 ASN: 
+ 53.527: nybro.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 53.527: nybro.se INFO Done testing connectivity for nybro.se.
+ 53.528: nybro.se INFO Begin testing DNSSEC for nybro.se.
+ 53.660: nybro.se INFO Did not find DS record for nybro.se at parent.
+ 53.705: nybro.se INFO Servers for nybro.se have consistent extra processing status.
+ 53.705: nybro.se INFO Did not find DNSKEY record for nybro.se at child.
+ 53.705: nybro.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 53.705: nybro.se INFO Done testing DNSSEC for nybro.se.
+ 53.705: nybro.se INFO Test completed for zone nybro.se.

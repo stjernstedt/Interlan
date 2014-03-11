@@ -1,0 +1,115 @@
+  0.000: hultsfred.se INFO Begin testing zone hultsfred.se with version 1.2.
+  0.000: hultsfred.se INFO Begin testing delegation for hultsfred.se.
+  5.806: hultsfred.se INFO Name servers listed at parent: dns6.telia.com,hkdns1.hultsfred.se,hkdns2.hultsfred.se
+  7.742: hultsfred.se INFO Name servers listed at child: dns6.telia.com,hkdns1.hultsfred.se,hkdns2.hultsfred.se
+  7.743: hultsfred.se NOTICE No IPv6 name servers found.
+  7.947: hultsfred.se INFO Parent glue for hultsfred.se found: hkdns1.hultsfred.se (194.17.160.16)
+  7.995: hultsfred.se INFO Parent glue for hultsfred.se found: hkdns2.hultsfred.se (194.17.160.17)
+  8.035: hultsfred.se INFO Checking glue for hkdns1.hultsfred.se (194.17.160.16).
+  8.056: hultsfred.se INFO Child glue for hultsfred.se found: hkdns1.hultsfred.se (194.17.160.16)
+  8.056: hultsfred.se INFO Checking glue for hkdns2.hultsfred.se (194.17.160.17).
+  8.076: hultsfred.se INFO Child glue for hultsfred.se found: hkdns2.hultsfred.se (194.17.160.17)
+  8.077: hultsfred.se INFO Parent glue for hultsfred.se found: hkdns1.hultsfred.se (194.17.160.16)
+  8.077: hultsfred.se INFO Parent glue for hultsfred.se found: hkdns2.hultsfred.se (194.17.160.17)
+  8.078: hultsfred.se INFO Done testing delegation for hultsfred.se.
+  8.078: hultsfred.se INFO Begin testing name server dns6.telia.com.
+  8.078: hultsfred.se INFO Begin testing host dns6.telia.com.
+  8.079: hultsfred.se INFO Begin testing address 81.228.10.68.
+ 12.373: hultsfred.se INFO Done testing address 81.228.10.68.
+ 12.373: hultsfred.se INFO Done testing host dns6.telia.com.
+ 12.391: hultsfred.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over UDP.
+ 12.424: hultsfred.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over TCP.
+ 12.441: hultsfred.se INFO Name server dns6.telia.com (81.228.10.68) is not recursive.
+ 12.459: hultsfred.se INFO Name server dns6.telia.com (81.228.10.68) authoritative for hultsfred.se.
+ 12.500: hultsfred.se INFO Name server dns6.telia.com (81.228.10.68) closed for zone transfer of hultsfred.se.
+ 12.521: hultsfred.se INFO Legacy name server ID for dns6.telia.com (81.228.10.68): hostname.bind = dnshosting1-sn4.m-sp.skanova.net
+ 12.538: hultsfred.se INFO Legacy name server ID for dns6.telia.com (81.228.10.68): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 12.570: hultsfred.se NOTICE No answer received from 81.228.10.68 when querying for version.server/CH/TXT.
+ 12.571: hultsfred.se INFO Done testing name server dns6.telia.com.
+ 12.571: hultsfred.se INFO Begin testing name server hkdns1.hultsfred.se.
+ 12.571: hultsfred.se INFO Begin testing host hkdns1.hultsfred.se.
+ 12.571: hultsfred.se INFO Begin testing address 194.17.160.16.
+ 12.854: hultsfred.se INFO Done testing address 194.17.160.16.
+ 12.854: hultsfred.se INFO Done testing host hkdns1.hultsfred.se.
+ 12.874: hultsfred.se INFO Name server hkdns1.hultsfred.se (194.17.160.16) answers queries over UDP.
+ 12.910: hultsfred.se INFO Name server hkdns1.hultsfred.se (194.17.160.16) answers queries over TCP.
+ 12.930: hultsfred.se INFO Name server hkdns1.hultsfred.se (194.17.160.16) is not recursive.
+ 12.950: hultsfred.se INFO Name server hkdns1.hultsfred.se (194.17.160.16) authoritative for hultsfred.se.
+ 13.003: hultsfred.se NOTICE Name server hkdns1.hultsfred.se (194.17.160.16) open for zone transfer of hultsfred.se.
+ 13.021: hultsfred.se NOTICE No answer received from 194.17.160.16 when querying for hostname.bind/CH/TXT.
+ 13.040: hultsfred.se INFO Legacy name server ID for hkdns1.hultsfred.se (194.17.160.16): version.bind = not currently available
+ 13.058: hultsfred.se NOTICE No answer received from 194.17.160.16 when querying for id.server/CH/TXT.
+ 13.076: hultsfred.se NOTICE No answer received from 194.17.160.16 when querying for version.server/CH/TXT.
+ 13.077: hultsfred.se INFO Done testing name server hkdns1.hultsfred.se.
+ 13.077: hultsfred.se INFO Begin testing name server hkdns2.hultsfred.se.
+ 13.077: hultsfred.se INFO Begin testing host hkdns2.hultsfred.se.
+ 13.077: hultsfred.se INFO Begin testing address 194.17.160.17.
+ 13.335: hultsfred.se INFO Done testing address 194.17.160.17.
+ 13.335: hultsfred.se INFO Done testing host hkdns2.hultsfred.se.
+ 13.358: hultsfred.se INFO Name server hkdns2.hultsfred.se (194.17.160.17) answers queries over UDP.
+ 13.394: hultsfred.se INFO Name server hkdns2.hultsfred.se (194.17.160.17) answers queries over TCP.
+ 13.414: hultsfred.se INFO Name server hkdns2.hultsfred.se (194.17.160.17) is not recursive.
+ 13.434: hultsfred.se INFO Name server hkdns2.hultsfred.se (194.17.160.17) authoritative for hultsfred.se.
+ 13.487: hultsfred.se NOTICE Name server hkdns2.hultsfred.se (194.17.160.17) open for zone transfer of hultsfred.se.
+ 13.506: hultsfred.se NOTICE No answer received from 194.17.160.17 when querying for hostname.bind/CH/TXT.
+ 13.524: hultsfred.se INFO Legacy name server ID for hkdns2.hultsfred.se (194.17.160.17): version.bind = not currently available
+ 13.542: hultsfred.se NOTICE No answer received from 194.17.160.17 when querying for id.server/CH/TXT.
+ 13.561: hultsfred.se NOTICE No answer received from 194.17.160.17 when querying for version.server/CH/TXT.
+ 13.561: hultsfred.se INFO Done testing name server hkdns2.hultsfred.se.
+ 13.561: hultsfred.se INFO Begin testing zone consistency for hultsfred.se.
+ 13.586: hultsfred.se INFO SOA at address 194.17.160.17 has serial 2010113001.
+ 13.604: hultsfred.se INFO SOA at address 81.228.10.68 has serial 2010113001.
+ 13.624: hultsfred.se INFO SOA at address 194.17.160.16 has serial 2010113001.
+ 13.624: hultsfred.se INFO All SOA records have consistent serial numbers.
+ 13.624: hultsfred.se INFO All SOA records are consistent among all name servers.
+ 13.624: hultsfred.se INFO Done testing zone consistency for hultsfred.se.
+ 13.625: hultsfred.se INFO Begin testing SOA parameters for hultsfred.se.
+ 13.645: hultsfred.se INFO Found SOA record for hultsfred.se.
+ 13.645: hultsfred.se INFO Begin testing host hkdns1.hultsfred.se.
+ 13.645: hultsfred.se INFO Begin testing address 194.17.160.16.
+ 13.647: hultsfred.se INFO Done testing address 194.17.160.16.
+ 13.647: hultsfred.se INFO Done testing host hkdns1.hultsfred.se.
+ 13.647: hultsfred.se INFO SOA MNAME for hultsfred.se valid (hkdns1.hultsfred.se).
+ 13.648: hultsfred.se INFO SOA MNAME for hultsfred.se (hkdns1.hultsfred.se) listed as NS.
+ 13.673: hultsfred.se INFO SOA MNAME for hultsfred.se (hkdns1.hultsfred.se) is authoritative.
+ 13.673: hultsfred.se INFO Begin testing email address postmaster@hultsfred.se.
+ 13.931: hultsfred.se INFO Mail exchangers for postmaster@hultsfred.se found spg1.hultsfred.se,spg2.hultsfred.se.
+ 13.931: hultsfred.se INFO All mail servers for postmaster@hultsfred.se are in zone hultsfred.se.
+ 13.932: hultsfred.se INFO Begin testing host spg1.hultsfred.se.
+ 14.469: hultsfred.se INFO Begin testing address 194.17.160.60.
+ 14.708: hultsfred.se INFO Done testing address 194.17.160.60.
+ 14.708: hultsfred.se INFO Done testing host spg1.hultsfred.se.
+ 14.708: hultsfred.se INFO Begin testing mail server spg1.hultsfred.se (194.17.160.60) with postmaster@hultsfred.se.
+ 14.817: hultsfred.se INFO SMTP banner: spg1.hultsfred.se ESMTP Halon Mail Gateway (H/OS)
+ 15.095: hultsfred.se INFO SMTP testing of spg1.hultsfred.se (194.17.160.60) with postmaster@hultsfred.se succeeded without errors.
+ 15.095: hultsfred.se INFO Done testing mail server spg1.hultsfred.se (194.17.160.60) with postmaster@hultsfred.se.
+ 15.095: hultsfred.se INFO Begin testing host spg2.hultsfred.se.
+ 15.575: hultsfred.se INFO Begin testing address 194.17.160.61.
+ 15.838: hultsfred.se INFO Done testing address 194.17.160.61.
+ 15.838: hultsfred.se INFO Done testing host spg2.hultsfred.se.
+ 15.839: hultsfred.se INFO Delivery over IPv4 to postmaster@hultsfred.se ok.
+ 15.839: hultsfred.se INFO Delivery over IPv6 to postmaster@hultsfred.se could not be done.
+ 15.839: hultsfred.se INFO Done testing email address postmaster@hultsfred.se.
+ 15.839: hultsfred.se INFO Successful attempt to deliver email for SOA RNAME of hultsfred.se (postmaster.hultsfred.se) using postmaster@hultsfred.se.
+ 15.839: hultsfred.se INFO SOA TTL for hultsfred.se OK (10800) - recommended >= 3600.
+ 15.839: hultsfred.se INFO SOA refresh for hultsfred.se OK (14400) - recommended >= 14400.
+ 15.839: hultsfred.se INFO SOA retry for hultsfred.se OK (3600) - recommended >= 3600.
+ 15.839: hultsfred.se INFO SOA expire for hultsfred.se OK (604800) - recommended >= 604800.
+ 15.839: hultsfred.se INFO SOA minimum for hultsfred.se OK (10800) - recommended between 300 and 86400.
+ 15.839: hultsfred.se INFO Done testing SOA parameters for hultsfred.se.
+ 15.840: hultsfred.se INFO Begin testing connectivity for hultsfred.se.
+ 16.331: hultsfred.se INFO Name server 194.17.160.17 announced by: 3301
+ 16.831: hultsfred.se INFO Name server 194.17.160.16 announced by: 3301
+ 17.437: hultsfred.se INFO Name server 81.228.10.68 announced by: 3301
+ 17.437: hultsfred.se INFO Zone announced by IPv4 ASN: 3301
+ 17.437: hultsfred.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 17.437: hultsfred.se INFO Zone announced by IPv6 ASN: 
+ 17.437: hultsfred.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 17.437: hultsfred.se INFO Done testing connectivity for hultsfred.se.
+ 17.437: hultsfred.se INFO Begin testing DNSSEC for hultsfred.se.
+ 17.513: hultsfred.se INFO Did not find DS record for hultsfred.se at parent.
+ 17.615: hultsfred.se INFO Servers for hultsfred.se have consistent extra processing status.
+ 17.615: hultsfred.se INFO Did not find DNSKEY record for hultsfred.se at child.
+ 17.615: hultsfred.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 17.615: hultsfred.se INFO Done testing DNSSEC for hultsfred.se.
+ 17.615: hultsfred.se INFO Test completed for zone hultsfred.se.

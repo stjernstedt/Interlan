@@ -1,0 +1,103 @@
+  0.000: vadstena.se INFO Begin testing zone vadstena.se with version 1.2.
+  0.000: vadstena.se INFO Begin testing delegation for vadstena.se.
+  5.724: vadstena.se INFO Name servers listed at parent: ns1.allhosting.se,ns2.allhosting.se,ns3.allhosting.se
+  7.364: vadstena.se INFO Name servers listed at child: ns1.allhosting.se,ns2.allhosting.se,ns3.allhosting.se
+  7.364: vadstena.se NOTICE No IPv6 name servers found.
+  7.494: vadstena.se INFO Done testing delegation for vadstena.se.
+  7.495: vadstena.se INFO Begin testing name server ns1.allhosting.se.
+  7.495: vadstena.se INFO Begin testing host ns1.allhosting.se.
+  7.495: vadstena.se INFO Begin testing address 213.199.99.9.
+ 11.925: vadstena.se INFO Done testing address 213.199.99.9.
+ 11.925: vadstena.se INFO Done testing host ns1.allhosting.se.
+ 11.940: vadstena.se INFO Name server ns1.allhosting.se (213.199.99.9) answers queries over UDP.
+ 11.975: vadstena.se INFO Name server ns1.allhosting.se (213.199.99.9) answers queries over TCP.
+ 11.989: vadstena.se INFO Name server ns1.allhosting.se (213.199.99.9) is not recursive.
+ 12.003: vadstena.se INFO Name server ns1.allhosting.se (213.199.99.9) authoritative for vadstena.se.
+ 12.043: vadstena.se INFO Name server ns1.allhosting.se (213.199.99.9) closed for zone transfer of vadstena.se.
+ 12.057: vadstena.se NOTICE No answer received from 213.199.99.9 when querying for hostname.bind/CH/TXT.
+ 12.069: vadstena.se NOTICE No answer received from 213.199.99.9 when querying for version.bind/CH/TXT.
+ 12.081: vadstena.se NOTICE No answer received from 213.199.99.9 when querying for id.server/CH/TXT.
+ 12.094: vadstena.se NOTICE No answer received from 213.199.99.9 when querying for version.server/CH/TXT.
+ 12.094: vadstena.se INFO Done testing name server ns1.allhosting.se.
+ 12.094: vadstena.se INFO Begin testing name server ns2.allhosting.se.
+ 12.094: vadstena.se INFO Begin testing host ns2.allhosting.se.
+ 12.095: vadstena.se INFO Begin testing address 195.67.168.10.
+ 13.527: vadstena.se INFO Done testing address 195.67.168.10.
+ 13.528: vadstena.se INFO Done testing host ns2.allhosting.se.
+ 13.538: vadstena.se INFO Name server ns2.allhosting.se (195.67.168.10) answers queries over UDP.
+ 13.560: vadstena.se INFO Name server ns2.allhosting.se (195.67.168.10) answers queries over TCP.
+ 13.572: vadstena.se INFO Name server ns2.allhosting.se (195.67.168.10) is not recursive.
+ 13.581: vadstena.se INFO Name server ns2.allhosting.se (195.67.168.10) authoritative for vadstena.se.
+ 13.619: vadstena.se INFO Name server ns2.allhosting.se (195.67.168.10) closed for zone transfer of vadstena.se.
+ 13.627: vadstena.se NOTICE No answer received from 195.67.168.10 when querying for hostname.bind/CH/TXT.
+ 13.635: vadstena.se NOTICE No answer received from 195.67.168.10 when querying for version.bind/CH/TXT.
+ 13.643: vadstena.se NOTICE No answer received from 195.67.168.10 when querying for id.server/CH/TXT.
+ 13.651: vadstena.se NOTICE No answer received from 195.67.168.10 when querying for version.server/CH/TXT.
+ 13.651: vadstena.se INFO Done testing name server ns2.allhosting.se.
+ 13.651: vadstena.se INFO Begin testing name server ns3.allhosting.se.
+ 13.651: vadstena.se INFO Begin testing host ns3.allhosting.se.
+ 13.651: vadstena.se INFO Begin testing address 213.199.99.203.
+ 14.834: vadstena.se INFO Done testing address 213.199.99.203.
+ 14.834: vadstena.se INFO Done testing host ns3.allhosting.se.
+ 14.849: vadstena.se INFO Name server ns3.allhosting.se (213.199.99.203) answers queries over UDP.
+ 14.884: vadstena.se INFO Name server ns3.allhosting.se (213.199.99.203) answers queries over TCP.
+ 14.896: vadstena.se INFO Name server ns3.allhosting.se (213.199.99.203) is not recursive.
+ 14.911: vadstena.se INFO Name server ns3.allhosting.se (213.199.99.203) authoritative for vadstena.se.
+ 14.942: vadstena.se INFO Name server ns3.allhosting.se (213.199.99.203) closed for zone transfer of vadstena.se.
+ 14.955: vadstena.se NOTICE No answer received from 213.199.99.203 when querying for hostname.bind/CH/TXT.
+ 14.969: vadstena.se NOTICE No answer received from 213.199.99.203 when querying for version.bind/CH/TXT.
+ 14.982: vadstena.se NOTICE No answer received from 213.199.99.203 when querying for id.server/CH/TXT.
+ 14.994: vadstena.se NOTICE No answer received from 213.199.99.203 when querying for version.server/CH/TXT.
+ 14.994: vadstena.se INFO Done testing name server ns3.allhosting.se.
+ 14.994: vadstena.se INFO Begin testing zone consistency for vadstena.se.
+ 15.014: vadstena.se INFO SOA at address 213.199.99.9 has serial 1284373805.
+ 15.028: vadstena.se INFO SOA at address 213.199.99.203 has serial 1284373805.
+ 15.038: vadstena.se INFO SOA at address 195.67.168.10 has serial 1284373805.
+ 15.038: vadstena.se INFO All SOA records have consistent serial numbers.
+ 15.038: vadstena.se INFO All SOA records are consistent among all name servers.
+ 15.038: vadstena.se INFO Done testing zone consistency for vadstena.se.
+ 15.038: vadstena.se INFO Begin testing SOA parameters for vadstena.se.
+ 15.052: vadstena.se INFO Found SOA record for vadstena.se.
+ 15.053: vadstena.se INFO Begin testing host ns1.allhosting.se.
+ 15.053: vadstena.se INFO Begin testing address 213.199.99.9.
+ 15.054: vadstena.se INFO Done testing address 213.199.99.9.
+ 15.054: vadstena.se INFO Done testing host ns1.allhosting.se.
+ 15.054: vadstena.se INFO SOA MNAME for vadstena.se valid (ns1.allhosting.se).
+ 15.055: vadstena.se INFO SOA MNAME for vadstena.se (ns1.allhosting.se) listed as NS.
+ 15.069: vadstena.se INFO SOA MNAME for vadstena.se (ns1.allhosting.se) is authoritative.
+ 15.070: vadstena.se INFO Begin testing email address registry@allhosting.se.
+ 15.292: vadstena.se INFO Mail exchangers for registry@allhosting.se found mail.allhosting.se.
+ 15.292: vadstena.se INFO Begin testing host mail.allhosting.se.
+ 15.780: vadstena.se INFO Begin testing address 213.199.99.60.
+ 16.661: vadstena.se INFO Done testing address 213.199.99.60.
+ 16.661: vadstena.se INFO Done testing host mail.allhosting.se.
+ 16.662: vadstena.se INFO Begin testing mail server mail.allhosting.se (213.199.99.60) with registry@allhosting.se.
+ 17.129: vadstena.se INFO SMTP banner: mail.dataductus.net ESMTP
+ 17.243: vadstena.se INFO SMTP testing of mail.allhosting.se (213.199.99.60) with registry@allhosting.se succeeded without errors.
+ 17.243: vadstena.se INFO Done testing mail server mail.allhosting.se (213.199.99.60) with registry@allhosting.se.
+ 17.243: vadstena.se INFO Delivery over IPv4 to registry@allhosting.se ok.
+ 17.243: vadstena.se INFO Delivery over IPv6 to registry@allhosting.se could not be done.
+ 17.243: vadstena.se INFO Done testing email address registry@allhosting.se.
+ 17.244: vadstena.se INFO Successful attempt to deliver email for SOA RNAME of vadstena.se (registry.allhosting.se) using registry@allhosting.se.
+ 17.244: vadstena.se INFO SOA TTL for vadstena.se OK (3600) - recommended >= 3600.
+ 17.244: vadstena.se NOTICE SOA refresh for vadstena.se too small (10800) - recommended >= 14400.
+ 17.244: vadstena.se INFO SOA retry for vadstena.se OK (3600) - recommended >= 3600.
+ 17.244: vadstena.se INFO SOA expire for vadstena.se OK (604800) - recommended >= 604800.
+ 17.244: vadstena.se INFO SOA minimum for vadstena.se OK (360) - recommended between 300 and 86400.
+ 17.244: vadstena.se INFO Done testing SOA parameters for vadstena.se.
+ 17.244: vadstena.se INFO Begin testing connectivity for vadstena.se.
+ 17.778: vadstena.se INFO Name server 213.199.99.9 announced by: 25176
+ 18.454: vadstena.se INFO Name server 213.199.99.203 announced by: 25176
+ 19.137: vadstena.se INFO Name server 195.67.168.10 announced by: 3301
+ 19.138: vadstena.se INFO Zone announced by IPv4 ASN: 3301,25176
+ 19.138: vadstena.se INFO Zone announced by more than one ASN (2).
+ 19.138: vadstena.se INFO Zone announced by IPv6 ASN: 
+ 19.138: vadstena.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 19.138: vadstena.se INFO Done testing connectivity for vadstena.se.
+ 19.138: vadstena.se INFO Begin testing DNSSEC for vadstena.se.
+ 19.154: vadstena.se INFO Did not find DS record for vadstena.se at parent.
+ 19.244: vadstena.se INFO Servers for vadstena.se have consistent extra processing status.
+ 19.244: vadstena.se INFO Did not find DNSKEY record for vadstena.se at child.
+ 19.244: vadstena.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 19.244: vadstena.se INFO Done testing DNSSEC for vadstena.se.
+ 19.244: vadstena.se INFO Test completed for zone vadstena.se.

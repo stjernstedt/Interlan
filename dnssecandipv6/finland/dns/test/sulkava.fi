@@ -1,0 +1,84 @@
+  0.000: sulkava.fi INFO Begin testing zone sulkava.fi with version 1.6.1.
+  0.422: sulkava.fi INFO Begin testing delegation for sulkava.fi.
+  8.769: sulkava.fi INFO Name servers listed at parent: ns1.blcnet.fi,ns2.blcnet.fi
+ 11.904: sulkava.fi INFO Name servers listed at child: ns1.blcnet.fi,ns2.blcnet.fi
+ 11.904: sulkava.fi NOTICE No IPv6 name servers found.
+ 12.084: sulkava.fi INFO Parent glue for sulkava.fi found: ns1.blcnet.fi (46.163.192.131)
+ 12.316: sulkava.fi INFO Parent glue for sulkava.fi found: ns2.blcnet.fi (46.163.192.141)
+ 12.423: sulkava.fi INFO Checking glue for ns1.blcnet.fi (46.163.192.131).
+ 12.424: sulkava.fi INFO Checking glue for ns2.blcnet.fi (46.163.192.141).
+ 12.424: sulkava.fi INFO Parent glue for sulkava.fi found: ns1.blcnet.fi (46.163.192.131)
+ 12.424: sulkava.fi INFO Parent glue for sulkava.fi found: ns2.blcnet.fi (46.163.192.141)
+ 13.292: sulkava.fi INFO It is possible to build a referral packet for sulkava.fi that works without EDNS0.
+ 13.923: sulkava.fi INFO Previously used name servers for sulkava.fi: 
+ 13.923: sulkava.fi INFO Done testing delegation for sulkava.fi.
+ 13.924: sulkava.fi INFO Begin testing name server ns1.blcnet.fi.
+ 13.924: sulkava.fi INFO Begin testing host ns1.blcnet.fi.
+ 14.249: sulkava.fi INFO Begin testing address 46.163.192.131.
+ 35.643: sulkava.fi INFO Done testing address 46.163.192.131.
+ 35.644: sulkava.fi INFO Done testing host ns1.blcnet.fi.
+ 35.988: sulkava.fi INFO Name server ns1.blcnet.fi (46.163.192.131) answers queries over UDP.
+ 36.035: sulkava.fi INFO Name server ns1.blcnet.fi (46.163.192.131) answers queries over TCP.
+ 36.062: sulkava.fi INFO Name server ns1.blcnet.fi (46.163.192.131) is not recursive.
+ 36.180: sulkava.fi INFO Name server ns1.blcnet.fi (46.163.192.131) authoritative for sulkava.fi.
+ 36.243: sulkava.fi INFO Name server ns1.blcnet.fi (46.163.192.131) closed for zone transfer of sulkava.fi.
+ 36.275: sulkava.fi INFO Legacy name server ID for ns1.blcnet.fi (46.163.192.131): hostname.bind = ns1.blcnet.fi
+ 36.311: sulkava.fi INFO Legacy name server ID for ns1.blcnet.fi (46.163.192.131): version.bind = REFUSED
+ 36.377: sulkava.fi NOTICE No answer received from 46.163.192.131 when querying for version.server/CH/TXT.
+ 36.378: sulkava.fi INFO Done testing name server ns1.blcnet.fi.
+ 36.378: sulkava.fi INFO Begin testing name server ns2.blcnet.fi.
+ 36.378: sulkava.fi INFO Begin testing host ns2.blcnet.fi.
+ 36.690: sulkava.fi INFO Begin testing address 46.163.192.141.
+ 37.703: sulkava.fi INFO Done testing address 46.163.192.141.
+ 37.703: sulkava.fi INFO Done testing host ns2.blcnet.fi.
+ 37.944: sulkava.fi INFO Name server ns2.blcnet.fi (46.163.192.141) answers queries over UDP.
+ 38.005: sulkava.fi INFO Name server ns2.blcnet.fi (46.163.192.141) answers queries over TCP.
+ 38.043: sulkava.fi INFO Name server ns2.blcnet.fi (46.163.192.141) is not recursive.
+ 38.151: sulkava.fi INFO Name server ns2.blcnet.fi (46.163.192.141) authoritative for sulkava.fi.
+ 38.211: sulkava.fi INFO Name server ns2.blcnet.fi (46.163.192.141) closed for zone transfer of sulkava.fi.
+ 38.240: sulkava.fi INFO Legacy name server ID for ns2.blcnet.fi (46.163.192.141): hostname.bind = ns2.blcnet.fi
+ 38.261: sulkava.fi INFO Legacy name server ID for ns2.blcnet.fi (46.163.192.141): version.bind = REFUSED
+ 38.323: sulkava.fi NOTICE No answer received from 46.163.192.141 when querying for version.server/CH/TXT.
+ 38.323: sulkava.fi INFO Done testing name server ns2.blcnet.fi.
+ 38.323: sulkava.fi INFO Begin testing zone consistency for sulkava.fi.
+ 38.897: sulkava.fi INFO SOA at address 46.163.192.131 has serial 2006020901.
+ 38.947: sulkava.fi INFO SOA at address 46.163.192.141 has serial 2006020901.
+ 38.947: sulkava.fi INFO All SOA records have consistent serial numbers.
+ 38.947: sulkava.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 39.304: sulkava.fi NOTICE The listed nameservers for sulkava.fi all report the same set of nameservers.
+ 39.304: sulkava.fi INFO Done testing zone consistency for sulkava.fi.
+ 39.304: sulkava.fi INFO Begin testing SOA parameters for sulkava.fi.
+ 39.323: sulkava.fi INFO Found SOA record for sulkava.fi.
+ 39.323: sulkava.fi INFO Begin testing host ns1.blcnet.fi.
+ 39.441: sulkava.fi INFO Begin testing address 46.163.192.131.
+ 39.591: sulkava.fi INFO Done testing address 46.163.192.131.
+ 39.591: sulkava.fi INFO Done testing host ns1.blcnet.fi.
+ 39.591: sulkava.fi INFO SOA MNAME for sulkava.fi valid (ns1.blcnet.fi).
+ 39.591: sulkava.fi INFO SOA MNAME for sulkava.fi (ns1.blcnet.fi) listed as NS.
+ 39.740: sulkava.fi INFO SOA MNAME for sulkava.fi (ns1.blcnet.fi) is authoritative.
+ 39.740: sulkava.fi INFO Begin testing email address hostmaster@blcnet.fi.
+ 39.928: sulkava.fi INFO Mail exchangers for hostmaster@blcnet.fi found mail.blcnet.fi.
+ 39.928: sulkava.fi INFO Begin testing host mail.blcnet.fi.
+ 40.227: sulkava.fi INFO Begin testing address 46.163.245.199.
+ 40.967: sulkava.fi INFO Done testing address 46.163.245.199.
+ 40.967: sulkava.fi INFO Done testing host mail.blcnet.fi.
+ 41.283: sulkava.fi INFO Done testing email address hostmaster@blcnet.fi.
+ 41.283: sulkava.fi INFO Successful attempt to deliver email for SOA RNAME of sulkava.fi (hostmaster.blcnet.fi) using hostmaster@blcnet.fi.
+ 41.283: sulkava.fi INFO SOA TTL for sulkava.fi OK (38400) - recommended >= 3600.
+ 41.284: sulkava.fi INFO SOA refresh for sulkava.fi OK (21600) - recommended >= 14400.
+ 41.284: sulkava.fi INFO SOA retry for sulkava.fi OK (3600) - recommended >= 3600.
+ 41.284: sulkava.fi INFO SOA expire for sulkava.fi OK (691200) - recommended >= 604800.
+ 41.284: sulkava.fi INFO SOA minimum for sulkava.fi OK (86400) - recommended between 300 and 86400.
+ 41.284: sulkava.fi INFO Done testing SOA parameters for sulkava.fi.
+ 41.284: sulkava.fi INFO Begin testing connectivity for sulkava.fi.
+ 42.304: sulkava.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 42.304: sulkava.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 42.304: sulkava.fi INFO Done testing connectivity for sulkava.fi.
+ 42.305: sulkava.fi INFO Begin testing DNSSEC for sulkava.fi.
+ 42.384: sulkava.fi INFO Did not find DS record for sulkava.fi at parent.
+ 42.459: sulkava.fi INFO Servers for sulkava.fi have consistent extra processing status.
+ 42.503: sulkava.fi INFO Authenticated denial records not found for sulkava.fi.
+ 42.522: sulkava.fi INFO Did not find DNSKEY record for sulkava.fi at child.
+ 42.522: sulkava.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 42.526: sulkava.fi INFO Done testing DNSSEC for sulkava.fi.
+ 42.527: sulkava.fi INFO Test completed for zone sulkava.fi.

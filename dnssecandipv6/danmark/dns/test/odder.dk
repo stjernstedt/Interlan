@@ -1,0 +1,84 @@
+  0.000: odder.dk INFO Begin testing zone odder.dk with version 1.6.1.
+  0.429: odder.dk INFO Begin testing delegation for odder.dk.
+  5.830: odder.dk INFO Name servers listed at parent: ns.scannet2.dk,ns2.scannet2.dk
+  7.465: odder.dk INFO Name servers listed at child: ns.scannet2.dk,ns2.scannet2.dk
+  7.466: odder.dk NOTICE No IPv6 name servers found.
+  7.522: odder.dk INFO Parent glue for odder.dk found: ns.scannet2.dk (195.69.128.141)
+  7.656: odder.dk INFO Parent glue for odder.dk found: ns2.scannet2.dk (195.69.129.2)
+  7.815: odder.dk INFO Checking glue for ns.scannet2.dk (195.69.128.141).
+  7.815: odder.dk INFO Checking glue for ns2.scannet2.dk (195.69.129.2).
+  7.816: odder.dk INFO Parent glue for odder.dk found: ns.scannet2.dk (195.69.128.141)
+  7.816: odder.dk INFO Parent glue for odder.dk found: ns2.scannet2.dk (195.69.129.2)
+  8.671: odder.dk INFO It is possible to build a referral packet for odder.dk that works without EDNS0.
+  9.449: odder.dk INFO Previously used name servers for odder.dk: 
+  9.449: odder.dk INFO Done testing delegation for odder.dk.
+  9.450: odder.dk INFO Begin testing name server ns.scannet2.dk.
+  9.450: odder.dk INFO Begin testing host ns.scannet2.dk.
+  9.773: odder.dk INFO Begin testing address 195.69.128.141.
+ 14.640: odder.dk INFO Done testing address 195.69.128.141.
+ 14.640: odder.dk INFO Done testing host ns.scannet2.dk.
+ 14.918: odder.dk INFO Name server ns.scannet2.dk (195.69.128.141) answers queries over UDP.
+ 14.970: odder.dk INFO Name server ns.scannet2.dk (195.69.128.141) answers queries over TCP.
+ 15.004: odder.dk INFO Name server ns.scannet2.dk (195.69.128.141) is not recursive.
+ 15.181: odder.dk INFO Name server ns.scannet2.dk (195.69.128.141) authoritative for odder.dk.
+ 15.254: odder.dk INFO Name server ns.scannet2.dk (195.69.128.141) closed for zone transfer of odder.dk.
+ 15.328: odder.dk NOTICE No answer received from 195.69.128.141 when querying for version.bind/CH/TXT.
+ 15.401: odder.dk INFO Done testing name server ns.scannet2.dk.
+ 15.401: odder.dk INFO Begin testing name server ns2.scannet2.dk.
+ 15.401: odder.dk INFO Begin testing host ns2.scannet2.dk.
+ 15.585: odder.dk INFO Begin testing address 195.69.129.2.
+ 16.281: odder.dk INFO Done testing address 195.69.129.2.
+ 16.281: odder.dk INFO Done testing host ns2.scannet2.dk.
+ 16.547: odder.dk INFO Name server ns2.scannet2.dk (195.69.129.2) answers queries over UDP.
+ 16.601: odder.dk INFO Name server ns2.scannet2.dk (195.69.129.2) answers queries over TCP.
+ 16.630: odder.dk INFO Name server ns2.scannet2.dk (195.69.129.2) is not recursive.
+ 16.765: odder.dk INFO Name server ns2.scannet2.dk (195.69.129.2) authoritative for odder.dk.
+ 16.834: odder.dk INFO Name server ns2.scannet2.dk (195.69.129.2) closed for zone transfer of odder.dk.
+ 16.872: odder.dk NOTICE No answer received from 195.69.129.2 when querying for version.bind/CH/TXT.
+ 16.919: odder.dk INFO Done testing name server ns2.scannet2.dk.
+ 16.919: odder.dk INFO Begin testing zone consistency for odder.dk.
+ 17.741: odder.dk INFO SOA at address 195.69.129.2 has serial 2002040328.
+ 17.760: odder.dk INFO SOA at address 195.69.128.141 has serial 2002040328.
+ 17.767: odder.dk INFO All SOA records have consistent serial numbers.
+ 17.767: odder.dk INFO All other fields in the SOA record are consistent among all name servers.
+ 18.062: odder.dk NOTICE The listed nameservers for odder.dk all report the same set of nameservers.
+ 18.062: odder.dk INFO Done testing zone consistency for odder.dk.
+ 18.062: odder.dk INFO Begin testing SOA parameters for odder.dk.
+ 18.081: odder.dk INFO Found SOA record for odder.dk.
+ 18.081: odder.dk INFO Begin testing host ns.scannet2.dk.
+ 18.321: odder.dk INFO Begin testing address 195.69.128.141.
+ 18.417: odder.dk INFO Done testing address 195.69.128.141.
+ 18.417: odder.dk INFO Done testing host ns.scannet2.dk.
+ 18.417: odder.dk INFO SOA MNAME for odder.dk valid (ns.scannet2.dk).
+ 18.418: odder.dk INFO SOA MNAME for odder.dk (ns.scannet2.dk) listed as NS.
+ 18.565: odder.dk INFO SOA MNAME for odder.dk (ns.scannet2.dk) is authoritative.
+ 18.565: odder.dk INFO Begin testing email address hostmaster@scannet2.dk.
+ 18.682: odder.dk INFO Mail exchangers for hostmaster@scannet2.dk found front-lvs.scannet.dk,mx77.front02.scannet.dk.
+ 18.682: odder.dk INFO Begin testing host front-lvs.scannet.dk.
+ 19.030: odder.dk INFO Begin testing address 195.69.129.85.
+ 19.644: odder.dk INFO Done testing address 195.69.129.85.
+ 19.644: odder.dk INFO Done testing host front-lvs.scannet.dk.
+ 19.765: odder.dk INFO Begin testing host mx77.front02.scannet.dk.
+ 20.011: odder.dk INFO Begin testing address 195.69.129.79.
+ 20.513: odder.dk INFO Done testing address 195.69.129.79.
+ 20.513: odder.dk INFO Done testing host mx77.front02.scannet.dk.
+ 20.629: odder.dk INFO Done testing email address hostmaster@scannet2.dk.
+ 20.629: odder.dk INFO Successful attempt to deliver email for SOA RNAME of odder.dk (hostmaster.scannet2.dk) using hostmaster@scannet2.dk.
+ 20.629: odder.dk INFO SOA TTL for odder.dk OK (14400) - recommended >= 3600.
+ 20.629: odder.dk INFO SOA refresh for odder.dk OK (28800) - recommended >= 14400.
+ 20.629: odder.dk INFO SOA retry for odder.dk OK (7200) - recommended >= 3600.
+ 20.629: odder.dk INFO SOA expire for odder.dk OK (604800) - recommended >= 604800.
+ 20.630: odder.dk INFO SOA minimum for odder.dk OK (3600) - recommended between 300 and 86400.
+ 20.630: odder.dk INFO Done testing SOA parameters for odder.dk.
+ 20.630: odder.dk INFO Begin testing connectivity for odder.dk.
+ 21.455: odder.dk NOTICE Zone announced by fewer than two IPv4 ASN.
+ 21.455: odder.dk NOTICE Zone announced by fewer than two IPv6 ASN.
+ 21.455: odder.dk INFO Done testing connectivity for odder.dk.
+ 21.455: odder.dk INFO Begin testing DNSSEC for odder.dk.
+ 21.557: odder.dk INFO Did not find DS record for odder.dk at parent.
+ 21.676: odder.dk INFO Servers for odder.dk have consistent extra processing status.
+ 21.744: odder.dk INFO Authenticated denial records not found for odder.dk.
+ 21.767: odder.dk INFO Did not find DNSKEY record for odder.dk at child.
+ 21.768: odder.dk INFO No DNSKEY(s) found at child, other tests skipped.
+ 21.768: odder.dk INFO Done testing DNSSEC for odder.dk.
+ 21.768: odder.dk INFO Test completed for zone odder.dk.

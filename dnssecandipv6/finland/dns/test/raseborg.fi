@@ -1,0 +1,134 @@
+  0.000: raseborg.fi INFO Begin testing zone raseborg.fi with version 1.6.1.
+  0.414: raseborg.fi INFO Begin testing delegation for raseborg.fi.
+  9.959: raseborg.fi INFO Name servers listed at parent: dns1.sydweb.fi,dns3.sydweb.fi,dns4.sydweb.fi,ns.sydweb.fi,ns2.sydweb.fi
+ 12.359: raseborg.fi INFO Name servers listed at child: dns1.sydweb.fi,dns3.sydweb.fi,dns4.sydweb.fi
+ 12.359: raseborg.fi ERROR Superfluous name server listed at parent: ns.sydweb.fi
+ 12.359: raseborg.fi ERROR Superfluous name server listed at parent: ns2.sydweb.fi
+ 12.359: raseborg.fi NOTICE No IPv6 name servers found.
+ 12.443: raseborg.fi INFO Parent glue for raseborg.fi found: dns1.sydweb.fi (91.150.60.171)
+ 12.639: raseborg.fi INFO Parent glue for raseborg.fi found: dns3.sydweb.fi (86.60.245.57)
+ 12.799: raseborg.fi INFO Parent glue for raseborg.fi found: dns4.sydweb.fi (80.69.173.18)
+ 13.304: raseborg.fi INFO Checking glue for dns1.sydweb.fi (91.150.60.171).
+ 13.304: raseborg.fi INFO Checking glue for dns3.sydweb.fi (86.60.245.57).
+ 13.304: raseborg.fi INFO Checking glue for dns4.sydweb.fi (80.69.173.18).
+ 13.305: raseborg.fi INFO Parent glue for raseborg.fi found: dns1.sydweb.fi (91.150.60.171)
+ 13.305: raseborg.fi INFO Parent glue for raseborg.fi found: dns3.sydweb.fi (86.60.245.57)
+ 13.342: raseborg.fi INFO Parent glue for raseborg.fi found: dns4.sydweb.fi (80.69.173.18)
+ 14.617: raseborg.fi INFO It is possible to build a referral packet for raseborg.fi that works without EDNS0.
+ 16.900: raseborg.fi INFO Previously used name servers for raseborg.fi: 
+ 16.900: raseborg.fi INFO Done testing delegation for raseborg.fi.
+ 16.900: raseborg.fi INFO Begin testing name server dns1.sydweb.fi.
+ 16.900: raseborg.fi INFO Begin testing host dns1.sydweb.fi.
+ 17.134: raseborg.fi INFO Begin testing address 91.150.60.171.
+ 25.194: raseborg.fi INFO Done testing address 91.150.60.171.
+ 25.194: raseborg.fi INFO Done testing host dns1.sydweb.fi.
+ 25.602: raseborg.fi INFO Name server dns1.sydweb.fi (91.150.60.171) answers queries over UDP.
+ 25.669: raseborg.fi INFO Name server dns1.sydweb.fi (91.150.60.171) answers queries over TCP.
+ 25.751: raseborg.fi INFO Name server dns1.sydweb.fi (91.150.60.171) is not recursive.
+ 25.989: raseborg.fi INFO Name server dns1.sydweb.fi (91.150.60.171) authoritative for raseborg.fi.
+ 26.076: raseborg.fi INFO Name server dns1.sydweb.fi (91.150.60.171) closed for zone transfer of raseborg.fi.
+ 26.156: raseborg.fi INFO Legacy name server ID for dns1.sydweb.fi (91.150.60.171): hostname.bind = dns1.sydweb.fi
+ 26.203: raseborg.fi INFO Legacy name server ID for dns1.sydweb.fi (91.150.60.171): version.bind = 9.8.2rc1-RedHat-9.8.2-0.23.rc1.el6_5.1
+ 26.278: raseborg.fi NOTICE No answer received from 91.150.60.171 when querying for version.server/CH/TXT.
+ 26.278: raseborg.fi INFO Done testing name server dns1.sydweb.fi.
+ 26.278: raseborg.fi INFO Begin testing name server dns3.sydweb.fi.
+ 26.278: raseborg.fi INFO Begin testing host dns3.sydweb.fi.
+ 26.574: raseborg.fi INFO Begin testing address 86.60.245.57.
+ 27.954: raseborg.fi INFO Done testing address 86.60.245.57.
+ 27.954: raseborg.fi INFO Done testing host dns3.sydweb.fi.
+ 28.275: raseborg.fi INFO Name server dns3.sydweb.fi (86.60.245.57) answers queries over UDP.
+ 28.335: raseborg.fi INFO Name server dns3.sydweb.fi (86.60.245.57) answers queries over TCP.
+ 28.394: raseborg.fi INFO Name server dns3.sydweb.fi (86.60.245.57) is not recursive.
+ 28.549: raseborg.fi INFO Name server dns3.sydweb.fi (86.60.245.57) authoritative for raseborg.fi.
+ 28.648: raseborg.fi INFO Name server dns3.sydweb.fi (86.60.245.57) closed for zone transfer of raseborg.fi.
+ 28.702: raseborg.fi INFO Legacy name server ID for dns3.sydweb.fi (86.60.245.57): hostname.bind = dns3.sydweb.fi
+ 28.754: raseborg.fi INFO Legacy name server ID for dns3.sydweb.fi (86.60.245.57): version.bind = 9.8.2rc1-RedHat-9.8.2-0.17.rc1.el6_4.6
+ 28.821: raseborg.fi NOTICE No answer received from 86.60.245.57 when querying for version.server/CH/TXT.
+ 28.822: raseborg.fi INFO Done testing name server dns3.sydweb.fi.
+ 28.822: raseborg.fi INFO Begin testing name server dns4.sydweb.fi.
+ 28.822: raseborg.fi INFO Begin testing host dns4.sydweb.fi.
+ 29.004: raseborg.fi INFO Begin testing address 80.69.173.18.
+ 30.632: raseborg.fi INFO Done testing address 80.69.173.18.
+ 30.632: raseborg.fi INFO Done testing host dns4.sydweb.fi.
+ 30.942: raseborg.fi INFO Name server dns4.sydweb.fi (80.69.173.18) answers queries over UDP.
+ 30.967: raseborg.fi INFO Name server dns4.sydweb.fi (80.69.173.18) answers queries over TCP.
+ 30.990: raseborg.fi INFO Name server dns4.sydweb.fi (80.69.173.18) is not recursive.
+ 31.081: raseborg.fi INFO Name server dns4.sydweb.fi (80.69.173.18) authoritative for raseborg.fi.
+ 31.147: raseborg.fi INFO Name server dns4.sydweb.fi (80.69.173.18) closed for zone transfer of raseborg.fi.
+ 31.160: raseborg.fi INFO Legacy name server ID for dns4.sydweb.fi (80.69.173.18): hostname.bind = dns4.sydweb.fi
+ 31.188: raseborg.fi INFO Legacy name server ID for dns4.sydweb.fi (80.69.173.18): version.bind = 9.8.2rc1-RedHat-9.8.2-0.17.rc1.el6_4.6
+ 31.247: raseborg.fi NOTICE No answer received from 80.69.173.18 when querying for version.server/CH/TXT.
+ 31.247: raseborg.fi INFO Done testing name server dns4.sydweb.fi.
+ 31.247: raseborg.fi INFO Begin testing name server ns.sydweb.fi.
+ 31.248: raseborg.fi INFO Begin testing host ns.sydweb.fi.
+ 31.500: raseborg.fi INFO Begin testing address 62.197.179.140.
+ 32.754: raseborg.fi INFO Done testing address 62.197.179.140.
+ 32.754: raseborg.fi INFO Done testing host ns.sydweb.fi.
+ 33.018: raseborg.fi INFO Name server ns.sydweb.fi (62.197.179.140) answers queries over UDP.
+ 33.052: raseborg.fi INFO Name server ns.sydweb.fi (62.197.179.140) answers queries over TCP.
+ 33.115: raseborg.fi INFO Name server ns.sydweb.fi (62.197.179.140) is not recursive.
+ 33.199: raseborg.fi INFO Name server ns.sydweb.fi (62.197.179.140) authoritative for raseborg.fi.
+ 33.238: raseborg.fi INFO Name server ns.sydweb.fi (62.197.179.140) closed for zone transfer of raseborg.fi.
+ 33.254: raseborg.fi NOTICE No answer received from 62.197.179.140 when querying for hostname.bind/CH/TXT.
+ 33.310: raseborg.fi NOTICE No answer received from 62.197.179.140 when querying for id.server/CH/TXT.
+ 33.324: raseborg.fi NOTICE No answer received from 62.197.179.140 when querying for version.server/CH/TXT.
+ 33.324: raseborg.fi INFO Done testing name server ns.sydweb.fi.
+ 33.324: raseborg.fi INFO Begin testing name server ns2.sydweb.fi.
+ 33.325: raseborg.fi INFO Begin testing host ns2.sydweb.fi.
+ 33.494: raseborg.fi INFO Begin testing address 62.197.179.141.
+ 33.976: raseborg.fi INFO Done testing address 62.197.179.141.
+ 33.976: raseborg.fi INFO Done testing host ns2.sydweb.fi.
+ 34.159: raseborg.fi INFO Name server ns2.sydweb.fi (62.197.179.141) answers queries over UDP.
+ 34.187: raseborg.fi INFO Name server ns2.sydweb.fi (62.197.179.141) answers queries over TCP.
+ 34.233: raseborg.fi INFO Name server ns2.sydweb.fi (62.197.179.141) is not recursive.
+ 34.339: raseborg.fi INFO Name server ns2.sydweb.fi (62.197.179.141) authoritative for raseborg.fi.
+ 34.375: raseborg.fi INFO Name server ns2.sydweb.fi (62.197.179.141) closed for zone transfer of raseborg.fi.
+ 34.390: raseborg.fi NOTICE No answer received from 62.197.179.141 when querying for hostname.bind/CH/TXT.
+ 34.428: raseborg.fi NOTICE No answer received from 62.197.179.141 when querying for id.server/CH/TXT.
+ 34.450: raseborg.fi NOTICE No answer received from 62.197.179.141 when querying for version.server/CH/TXT.
+ 34.451: raseborg.fi INFO Done testing name server ns2.sydweb.fi.
+ 34.451: raseborg.fi INFO Begin testing zone consistency for raseborg.fi.
+ 35.671: raseborg.fi INFO SOA at address 91.150.60.171 has serial 2014030305.
+ 35.701: raseborg.fi INFO SOA at address 62.197.179.140 has serial 2013112801.
+ 35.720: raseborg.fi INFO SOA at address 62.197.179.141 has serial 2013112801.
+ 35.741: raseborg.fi INFO SOA at address 86.60.245.57 has serial 2014030305.
+ 35.762: raseborg.fi INFO SOA at address 80.69.173.18 has serial 2014030305.
+ 35.762: raseborg.fi WARNING 2 different serials found.
+ 35.762: raseborg.fi ERROR 2 different SOA records found.
+ 36.540: raseborg.fi NOTICE The listed nameservers for raseborg.fi does not all report the same set of nameservers.
+ 36.540: raseborg.fi INFO Done testing zone consistency for raseborg.fi.
+ 36.540: raseborg.fi INFO Begin testing SOA parameters for raseborg.fi.
+ 36.566: raseborg.fi INFO Found SOA record for raseborg.fi.
+ 36.566: raseborg.fi INFO Begin testing host dns1.sydweb.fi.
+ 36.694: raseborg.fi INFO Begin testing address 91.150.60.171.
+ 36.879: raseborg.fi INFO Done testing address 91.150.60.171.
+ 36.879: raseborg.fi INFO Done testing host dns1.sydweb.fi.
+ 36.879: raseborg.fi INFO SOA MNAME for raseborg.fi valid (dns1.sydweb.fi).
+ 36.880: raseborg.fi INFO SOA MNAME for raseborg.fi (dns1.sydweb.fi) listed as NS.
+ 37.091: raseborg.fi INFO SOA MNAME for raseborg.fi (dns1.sydweb.fi) is authoritative.
+ 37.101: raseborg.fi INFO Begin testing email address hostmaster@sydweb.fi.
+ 37.235: raseborg.fi INFO Mail exchangers for hostmaster@sydweb.fi found mail.sydweb.fi.
+ 37.235: raseborg.fi INFO Begin testing host mail.sydweb.fi.
+ 37.477: raseborg.fi INFO Begin testing address 86.60.245.45.
+ 38.134: raseborg.fi INFO Done testing address 86.60.245.45.
+ 38.135: raseborg.fi INFO Done testing host mail.sydweb.fi.
+ 38.252: raseborg.fi INFO Done testing email address hostmaster@sydweb.fi.
+ 38.252: raseborg.fi INFO Successful attempt to deliver email for SOA RNAME of raseborg.fi (hostmaster.sydweb.fi) using hostmaster@sydweb.fi.
+ 38.252: raseborg.fi INFO SOA TTL for raseborg.fi OK (86400) - recommended >= 3600.
+ 38.252: raseborg.fi INFO SOA refresh for raseborg.fi OK (86400) - recommended >= 14400.
+ 38.252: raseborg.fi INFO SOA retry for raseborg.fi OK (7200) - recommended >= 3600.
+ 38.252: raseborg.fi INFO SOA expire for raseborg.fi OK (3600000) - recommended >= 604800.
+ 38.252: raseborg.fi INFO SOA minimum for raseborg.fi OK (86400) - recommended between 300 and 86400.
+ 38.252: raseborg.fi INFO Done testing SOA parameters for raseborg.fi.
+ 38.253: raseborg.fi INFO Begin testing connectivity for raseborg.fi.
+ 39.820: raseborg.fi INFO Zone announced by more than one ASN.
+ 39.820: raseborg.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 39.820: raseborg.fi INFO Done testing connectivity for raseborg.fi.
+ 39.820: raseborg.fi INFO Begin testing DNSSEC for raseborg.fi.
+ 40.132: raseborg.fi INFO Did not find DS record for raseborg.fi at parent.
+ 40.245: raseborg.fi INFO Servers for raseborg.fi have consistent extra processing status.
+ 40.280: raseborg.fi INFO Authenticated denial records not found for raseborg.fi.
+ 40.302: raseborg.fi INFO Did not find DNSKEY record for raseborg.fi at child.
+ 40.302: raseborg.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 40.302: raseborg.fi INFO Done testing DNSSEC for raseborg.fi.
+ 40.303: raseborg.fi INFO Test completed for zone raseborg.fi.

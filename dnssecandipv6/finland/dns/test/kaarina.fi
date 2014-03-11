@@ -1,0 +1,82 @@
+  0.000: kaarina.fi INFO Begin testing zone kaarina.fi with version 1.6.1.
+  0.395: kaarina.fi INFO Begin testing delegation for kaarina.fi.
+  8.867: kaarina.fi INFO Name servers listed at parent: ns-fi.elisa.net,ns-se.elisa.net
+ 10.928: kaarina.fi INFO Name servers listed at child: ns-fi.elisa.net,ns-se.elisa.net
+ 10.928: kaarina.fi NOTICE No IPv6 name servers found.
+ 13.880: kaarina.fi INFO It is possible to build a referral packet for kaarina.fi that works without EDNS0.
+ 14.796: kaarina.fi INFO Previously used name servers for kaarina.fi: 
+ 14.796: kaarina.fi INFO Done testing delegation for kaarina.fi.
+ 14.797: kaarina.fi INFO Begin testing name server ns-fi.elisa.net.
+ 14.797: kaarina.fi INFO Begin testing host ns-fi.elisa.net.
+ 15.139: kaarina.fi INFO Begin testing address 193.229.0.49.
+ 19.706: kaarina.fi INFO Done testing address 193.229.0.49.
+ 19.707: kaarina.fi INFO Done testing host ns-fi.elisa.net.
+ 19.946: kaarina.fi INFO Name server ns-fi.elisa.net (193.229.0.49) answers queries over UDP.
+ 19.985: kaarina.fi INFO Name server ns-fi.elisa.net (193.229.0.49) answers queries over TCP.
+ 20.022: kaarina.fi INFO Name server ns-fi.elisa.net (193.229.0.49) is not recursive.
+ 20.107: kaarina.fi INFO Name server ns-fi.elisa.net (193.229.0.49) authoritative for kaarina.fi.
+ 20.153: kaarina.fi INFO Name server ns-fi.elisa.net (193.229.0.49) closed for zone transfer of kaarina.fi.
+ 20.197: kaarina.fi INFO Legacy name server ID for ns-fi.elisa.net (193.229.0.49): hostname.bind = ldom-dns64
+ 20.212: kaarina.fi INFO Legacy name server ID for ns-fi.elisa.net (193.229.0.49): version.bind = unknown
+ 20.259: kaarina.fi NOTICE No answer received from 193.229.0.49 when querying for version.server/CH/TXT.
+ 20.259: kaarina.fi INFO Done testing name server ns-fi.elisa.net.
+ 20.259: kaarina.fi INFO Begin testing name server ns-se.elisa.net.
+ 20.259: kaarina.fi INFO Begin testing host ns-se.elisa.net.
+ 20.541: kaarina.fi INFO Begin testing address 62.248.254.2.
+ 21.331: kaarina.fi INFO Done testing address 62.248.254.2.
+ 21.332: kaarina.fi INFO Done testing host ns-se.elisa.net.
+ 21.613: kaarina.fi INFO Name server ns-se.elisa.net (62.248.254.2) answers queries over UDP.
+ 21.667: kaarina.fi INFO Name server ns-se.elisa.net (62.248.254.2) answers queries over TCP.
+ 21.684: kaarina.fi INFO Name server ns-se.elisa.net (62.248.254.2) is not recursive.
+ 21.793: kaarina.fi INFO Name server ns-se.elisa.net (62.248.254.2) authoritative for kaarina.fi.
+ 21.839: kaarina.fi INFO Name server ns-se.elisa.net (62.248.254.2) closed for zone transfer of kaarina.fi.
+ 21.859: kaarina.fi INFO Legacy name server ID for ns-se.elisa.net (62.248.254.2): hostname.bind = phys-dns8
+ 21.919: kaarina.fi INFO Legacy name server ID for ns-se.elisa.net (62.248.254.2): version.bind = unknown
+ 21.961: kaarina.fi NOTICE No answer received from 62.248.254.2 when querying for version.server/CH/TXT.
+ 21.961: kaarina.fi INFO Done testing name server ns-se.elisa.net.
+ 21.961: kaarina.fi INFO Begin testing zone consistency for kaarina.fi.
+ 23.471: kaarina.fi INFO SOA at address 62.248.254.2 has serial 2013022000.
+ 23.495: kaarina.fi INFO SOA at address 193.229.0.49 has serial 2013022000.
+ 23.495: kaarina.fi INFO All SOA records have consistent serial numbers.
+ 23.495: kaarina.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 24.247: kaarina.fi NOTICE The listed nameservers for kaarina.fi all report the same set of nameservers.
+ 24.247: kaarina.fi INFO Done testing zone consistency for kaarina.fi.
+ 24.247: kaarina.fi INFO Begin testing SOA parameters for kaarina.fi.
+ 24.276: kaarina.fi INFO Found SOA record for kaarina.fi.
+ 24.276: kaarina.fi INFO Begin testing host ns-fi.elisa.net.
+ 24.503: kaarina.fi INFO Begin testing address 193.229.0.49.
+ 24.870: kaarina.fi INFO Done testing address 193.229.0.49.
+ 24.870: kaarina.fi INFO Done testing host ns-fi.elisa.net.
+ 24.870: kaarina.fi INFO SOA MNAME for kaarina.fi valid (ns-fi.elisa.net).
+ 24.875: kaarina.fi INFO SOA MNAME for kaarina.fi (ns-fi.elisa.net) listed as NS.
+ 25.307: kaarina.fi INFO SOA MNAME for kaarina.fi (ns-fi.elisa.net) is authoritative.
+ 25.307: kaarina.fi INFO Begin testing email address hostmaster@elisa.fi.
+ 25.577: kaarina.fi INFO Mail exchangers for hostmaster@elisa.fi found mx2.elisa.fi,mx1.elisa.fi.
+ 25.577: kaarina.fi INFO Begin testing host mx2.elisa.fi.
+ 26.024: kaarina.fi INFO Begin testing address 193.64.173.43.
+ 27.509: kaarina.fi INFO Done testing address 193.64.173.43.
+ 27.509: kaarina.fi INFO Done testing host mx2.elisa.fi.
+ 27.682: kaarina.fi INFO Begin testing host mx1.elisa.fi.
+ 28.067: kaarina.fi INFO Begin testing address 193.64.173.42.
+ 29.015: kaarina.fi INFO Done testing address 193.64.173.42.
+ 29.015: kaarina.fi INFO Done testing host mx1.elisa.fi.
+ 29.170: kaarina.fi INFO Done testing email address hostmaster@elisa.fi.
+ 29.170: kaarina.fi INFO Successful attempt to deliver email for SOA RNAME of kaarina.fi (hostmaster.elisa.fi) using hostmaster@elisa.fi.
+ 29.170: kaarina.fi INFO SOA TTL for kaarina.fi OK (3600) - recommended >= 3600.
+ 29.170: kaarina.fi NOTICE SOA refresh for kaarina.fi too small (3600) - recommended >= 14400.
+ 29.170: kaarina.fi NOTICE SOA retry for kaarina.fi too small (900) - recommended >= 3600.
+ 29.175: kaarina.fi INFO SOA expire for kaarina.fi OK (604800) - recommended >= 604800.
+ 29.175: kaarina.fi INFO SOA minimum for kaarina.fi OK (3600) - recommended between 300 and 86400.
+ 29.175: kaarina.fi INFO Done testing SOA parameters for kaarina.fi.
+ 29.175: kaarina.fi INFO Begin testing connectivity for kaarina.fi.
+ 30.135: kaarina.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 30.135: kaarina.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 30.135: kaarina.fi INFO Done testing connectivity for kaarina.fi.
+ 30.135: kaarina.fi INFO Begin testing DNSSEC for kaarina.fi.
+ 30.177: kaarina.fi INFO Did not find DS record for kaarina.fi at parent.
+ 30.251: kaarina.fi INFO Servers for kaarina.fi have consistent extra processing status.
+ 30.282: kaarina.fi INFO Authenticated denial records not found for kaarina.fi.
+ 30.301: kaarina.fi INFO Did not find DNSKEY record for kaarina.fi at child.
+ 30.301: kaarina.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 30.301: kaarina.fi INFO Done testing DNSSEC for kaarina.fi.
+ 30.301: kaarina.fi INFO Test completed for zone kaarina.fi.

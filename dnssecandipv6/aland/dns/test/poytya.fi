@@ -1,0 +1,88 @@
+  0.000: poytya.fi INFO Begin testing zone poytya.fi with version 1.5.0.
+  1.468: poytya.fi INFO Begin testing delegation for poytya.fi.
+ 42.425: poytya.fi INFO Name servers listed at parent: ns.jmjping.fi,ns2.jmjping.fi
+ 50.869: poytya.fi INFO Name servers listed at child: ns.jmjping.fi,ns2.jmjping.fi
+ 50.869: poytya.fi NOTICE No IPv6 name servers found.
+ 51.353: poytya.fi INFO Parent glue for poytya.fi found: ns.jmjping.fi (194.111.216.34)
+ 52.341: poytya.fi INFO Parent glue for poytya.fi found: ns2.jmjping.fi (83.148.248.185)
+ 52.828: poytya.fi INFO Checking glue for ns.jmjping.fi (194.111.216.34).
+ 52.828: poytya.fi INFO Checking glue for ns2.jmjping.fi (83.148.248.185).
+ 52.829: poytya.fi INFO Parent glue for poytya.fi found: ns.jmjping.fi (194.111.216.34)
+ 52.829: poytya.fi INFO Parent glue for poytya.fi found: ns2.jmjping.fi (83.148.248.185)
+ 58.878: poytya.fi INFO It is possible to build a referral packet for poytya.fi that works without EDNS0.
+ 63.381: poytya.fi INFO Previously used name servers for poytya.fi: 
+ 63.381: poytya.fi INFO Done testing delegation for poytya.fi.
+ 63.382: poytya.fi INFO Begin testing name server ns.jmjping.fi.
+ 63.382: poytya.fi INFO Begin testing host ns.jmjping.fi.
+ 65.971: poytya.fi INFO Begin testing address 194.111.216.34.
+112.304: poytya.fi INFO Done testing address 194.111.216.34.
+112.304: poytya.fi INFO Done testing host ns.jmjping.fi.
+114.492: poytya.fi INFO Name server ns.jmjping.fi (194.111.216.34) answers queries over UDP.
+114.826: poytya.fi INFO Name server ns.jmjping.fi (194.111.216.34) answers queries over TCP.
+115.098: poytya.fi INFO Name server ns.jmjping.fi (194.111.216.34) is not recursive.
+116.407: poytya.fi INFO Name server ns.jmjping.fi (194.111.216.34) authoritative for poytya.fi.
+116.637: poytya.fi INFO Name server ns.jmjping.fi (194.111.216.34) closed for zone transfer of poytya.fi.
+117.102: poytya.fi INFO Legacy name server ID for ns.jmjping.fi (194.111.216.34): hostname.bind = ns
+117.344: poytya.fi INFO Legacy name server ID for ns.jmjping.fi (194.111.216.34): version.bind = [SECURED]
+117.892: poytya.fi NOTICE No answer received from 194.111.216.34 when querying for version.server/CH/TXT.
+118.115: poytya.fi INFO Done testing name server ns.jmjping.fi.
+118.115: poytya.fi INFO Begin testing name server ns2.jmjping.fi.
+118.115: poytya.fi INFO Begin testing host ns2.jmjping.fi.
+120.020: poytya.fi INFO Begin testing address 83.148.248.185.
+127.968: poytya.fi INFO Done testing address 83.148.248.185.
+127.968: poytya.fi INFO Done testing host ns2.jmjping.fi.
+129.915: poytya.fi INFO Name server ns2.jmjping.fi (83.148.248.185) answers queries over UDP.
+130.294: poytya.fi INFO Name server ns2.jmjping.fi (83.148.248.185) answers queries over TCP.
+130.804: poytya.fi INFO Name server ns2.jmjping.fi (83.148.248.185) is not recursive.
+131.797: poytya.fi INFO Name server ns2.jmjping.fi (83.148.248.185) authoritative for poytya.fi.
+132.144: poytya.fi INFO Name server ns2.jmjping.fi (83.148.248.185) closed for zone transfer of poytya.fi.
+132.352: poytya.fi INFO Legacy name server ID for ns2.jmjping.fi (83.148.248.185): hostname.bind = ns2
+132.588: poytya.fi INFO Legacy name server ID for ns2.jmjping.fi (83.148.248.185): version.bind = [SECURED]
+133.035: poytya.fi NOTICE No answer received from 83.148.248.185 when querying for version.server/CH/TXT.
+133.035: poytya.fi INFO Done testing name server ns2.jmjping.fi.
+133.035: poytya.fi INFO Begin testing zone consistency for poytya.fi.
+140.689: poytya.fi INFO SOA at address 83.148.248.185 has serial 2012102603.
+141.484: poytya.fi INFO SOA at address 194.111.216.34 has serial 2012102603.
+141.484: poytya.fi INFO All SOA records have consistent serial numbers.
+141.484: poytya.fi INFO All other fields in the SOA record are consistent among all name servers.
+148.317: poytya.fi NOTICE The listed nameservers for poytya.fi all report the same set of nameservers.
+148.317: poytya.fi INFO Done testing zone consistency for poytya.fi.
+148.317: poytya.fi INFO Begin testing SOA parameters for poytya.fi.
+148.916: poytya.fi INFO Found SOA record for poytya.fi.
+148.916: poytya.fi INFO Begin testing host ns.jmjping.fi.
+151.380: poytya.fi INFO Begin testing address 194.111.216.34.
+153.900: poytya.fi INFO Done testing address 194.111.216.34.
+153.900: poytya.fi INFO Done testing host ns.jmjping.fi.
+153.900: poytya.fi INFO SOA MNAME for poytya.fi valid (ns.jmjping.fi).
+153.900: poytya.fi INFO SOA MNAME for poytya.fi (ns.jmjping.fi) listed as NS.
+156.744: poytya.fi INFO SOA MNAME for poytya.fi (ns.jmjping.fi) is authoritative.
+156.745: poytya.fi INFO Begin testing email address hostmaster@jmjping.fi.
+159.161: poytya.fi INFO Mail exchangers for hostmaster@jmjping.fi found guard0.jmjping.fi,guard1.jmjping.fi.
+159.162: poytya.fi INFO Begin testing host guard0.jmjping.fi.
+164.096: poytya.fi INFO Begin testing address 83.148.248.184.
+168.723: poytya.fi INFO Done testing address 83.148.248.184.
+168.723: poytya.fi INFO Done testing host guard0.jmjping.fi.
+170.856: poytya.fi INFO Begin testing host guard1.jmjping.fi.
+175.964: poytya.fi INFO Begin testing address 62.73.35.198.
+182.523: poytya.fi INFO Done testing address 62.73.35.198.
+182.523: poytya.fi INFO Done testing host guard1.jmjping.fi.
+184.928: poytya.fi INFO Done testing email address hostmaster@jmjping.fi.
+184.928: poytya.fi INFO Successful attempt to deliver email for SOA RNAME of poytya.fi (hostmaster.jmjping.fi) using hostmaster@jmjping.fi.
+184.928: poytya.fi INFO SOA TTL for poytya.fi OK (38400) - recommended >= 3600.
+184.928: poytya.fi NOTICE SOA refresh for poytya.fi too small (10800) - recommended >= 14400.
+184.928: poytya.fi INFO SOA retry for poytya.fi OK (3600) - recommended >= 3600.
+184.928: poytya.fi INFO SOA expire for poytya.fi OK (604800) - recommended >= 604800.
+184.928: poytya.fi INFO SOA minimum for poytya.fi OK (38400) - recommended between 300 and 86400.
+184.929: poytya.fi INFO Done testing SOA parameters for poytya.fi.
+184.929: poytya.fi INFO Begin testing connectivity for poytya.fi.
+191.097: poytya.fi INFO Zone announced by more than one ASN.
+191.098: poytya.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+191.098: poytya.fi INFO Done testing connectivity for poytya.fi.
+191.098: poytya.fi INFO Begin testing DNSSEC for poytya.fi.
+191.887: poytya.fi INFO Did not find DS record for poytya.fi at parent.
+192.850: poytya.fi INFO Servers for poytya.fi have consistent extra processing status.
+193.200: poytya.fi INFO Authenticated denial records not found for poytya.fi.
+193.548: poytya.fi INFO Did not find DNSKEY record for poytya.fi at child.
+193.548: poytya.fi INFO No DNSKEY(s) found at child, other tests skipped.
+193.548: poytya.fi INFO Done testing DNSSEC for poytya.fi.
+193.549: poytya.fi INFO Test completed for zone poytya.fi.

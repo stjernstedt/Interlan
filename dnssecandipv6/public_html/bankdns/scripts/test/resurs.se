@@ -1,0 +1,79 @@
+  0.000: resurs.se INFO Begin testing zone resurs.se with version 1.5.0.
+  0.001: resurs.se INFO Begin testing delegation for resurs.se.
+  7.035: resurs.se INFO Name servers listed at parent: ns1.ascio.com,ns2.ascio.com
+  9.217: resurs.se INFO Name servers listed at child: ns1.ascio.com,ns2.ascio.com
+  9.217: resurs.se NOTICE No IPv6 name servers found.
+  9.426: resurs.se NOTICE DNS lookup error (SERVFAIL).
+  9.499: resurs.se NOTICE DNS lookup error (SERVFAIL).
+ 10.689: resurs.se INFO It is possible to build a referral packet for resurs.se that works without EDNS0.
+ 10.692: resurs.se INFO Done testing delegation for resurs.se.
+ 10.693: resurs.se INFO Begin testing name server ns1.ascio.com.
+ 10.693: resurs.se INFO Begin testing host ns1.ascio.com.
+ 11.233: resurs.se INFO Begin testing address 91.194.150.220.
+ 22.914: resurs.se INFO Done testing address 91.194.150.220.
+ 22.915: resurs.se INFO Done testing host ns1.ascio.com.
+ 23.481: resurs.se INFO Name server ns1.ascio.com (91.194.150.220) answers queries over UDP.
+ 23.545: resurs.se INFO Name server ns1.ascio.com (91.194.150.220) answers queries over TCP.
+ 23.582: resurs.se INFO Name server ns1.ascio.com (91.194.150.220) is not recursive.
+ 23.713: resurs.se INFO Name server ns1.ascio.com (91.194.150.220) authoritative for resurs.se.
+ 23.804: resurs.se INFO Name server ns1.ascio.com (91.194.150.220) closed for zone transfer of resurs.se.
+ 23.872: resurs.se INFO Legacy name server ID for ns1.ascio.com (91.194.150.220): version.bind = Served by POWERDNS 2.9.7 $Id: packethandler.cc,v 1.12 2003/03/17 13:44:53 ahu Exp $
+ 23.939: resurs.se INFO Done testing name server ns1.ascio.com.
+ 23.939: resurs.se INFO Begin testing name server ns2.ascio.com.
+ 23.940: resurs.se INFO Begin testing host ns2.ascio.com.
+ 24.330: resurs.se INFO Begin testing address 80.237.206.33.
+ 25.810: resurs.se INFO Done testing address 80.237.206.33.
+ 25.810: resurs.se INFO Done testing host ns2.ascio.com.
+ 26.244: resurs.se INFO Name server ns2.ascio.com (80.237.206.33) answers queries over UDP.
+ 26.319: resurs.se INFO Name server ns2.ascio.com (80.237.206.33) answers queries over TCP.
+ 26.363: resurs.se INFO Name server ns2.ascio.com (80.237.206.33) is not recursive.
+ 26.520: resurs.se INFO Name server ns2.ascio.com (80.237.206.33) authoritative for resurs.se.
+ 26.630: resurs.se INFO Name server ns2.ascio.com (80.237.206.33) closed for zone transfer of resurs.se.
+ 26.712: resurs.se NOTICE No answer received from 80.237.206.33 when querying for version.bind/CH/TXT.
+ 26.795: resurs.se INFO Done testing name server ns2.ascio.com.
+ 26.795: resurs.se INFO Begin testing zone consistency for resurs.se.
+ 28.819: resurs.se INFO SOA at address 80.237.206.33 has serial 1372074558.
+ 28.852: resurs.se INFO SOA at address 91.194.150.220 has serial 1372074558.
+ 28.853: resurs.se INFO All SOA records have consistent serial numbers.
+ 28.853: resurs.se INFO All other fields in the SOA record are consistent among all name servers.
+ 30.219: resurs.se NOTICE The listed nameservers for resurs.se all report the same set of nameservers.
+ 30.219: resurs.se INFO Done testing zone consistency for resurs.se.
+ 30.220: resurs.se INFO Begin testing SOA parameters for resurs.se.
+ 30.259: resurs.se INFO Found SOA record for resurs.se.
+ 30.259: resurs.se INFO Begin testing host ns1.ascio.com.
+ 30.648: resurs.se INFO Begin testing address 91.194.150.220.
+ 31.286: resurs.se INFO Done testing address 91.194.150.220.
+ 31.287: resurs.se INFO Done testing host ns1.ascio.com.
+ 31.287: resurs.se INFO SOA MNAME for resurs.se valid (ns1.ascio.com).
+ 31.287: resurs.se INFO SOA MNAME for resurs.se (ns1.ascio.com) listed as NS.
+ 31.717: resurs.se INFO SOA MNAME for resurs.se (ns1.ascio.com) is authoritative.
+ 31.717: resurs.se INFO Begin testing email address hostmaster@cedel.se.
+ 34.256: resurs.se INFO Mail exchangers for hostmaster@cedel.se found relay2.netnames.net,relay1.netnames.net.
+ 34.256: resurs.se INFO Begin testing host relay2.netnames.net.
+ 34.982: resurs.se INFO Begin testing address 212.53.64.44.
+ 35.876: resurs.se INFO Done testing address 212.53.64.44.
+ 35.876: resurs.se INFO Done testing host relay2.netnames.net.
+ 36.134: resurs.se INFO Begin testing host relay1.netnames.net.
+ 36.983: resurs.se INFO Begin testing address 62.128.158.226.
+ 37.997: resurs.se INFO Done testing address 62.128.158.226.
+ 37.997: resurs.se INFO Done testing host relay1.netnames.net.
+ 38.287: resurs.se INFO Done testing email address hostmaster@cedel.se.
+ 38.287: resurs.se INFO Successful attempt to deliver email for SOA RNAME of resurs.se (hostmaster.cedel.se) using hostmaster@cedel.se.
+ 38.287: resurs.se INFO SOA TTL for resurs.se OK (86400) - recommended >= 3600.
+ 38.288: resurs.se NOTICE SOA refresh for resurs.se too small (10800) - recommended >= 14400.
+ 38.288: resurs.se INFO SOA retry for resurs.se OK (3600) - recommended >= 3600.
+ 38.288: resurs.se INFO SOA expire for resurs.se OK (604800) - recommended >= 604800.
+ 38.288: resurs.se INFO SOA minimum for resurs.se OK (40001) - recommended between 300 and 86400.
+ 38.288: resurs.se INFO Done testing SOA parameters for resurs.se.
+ 38.289: resurs.se INFO Begin testing connectivity for resurs.se.
+ 39.687: resurs.se INFO Zone announced by more than one ASN.
+ 39.691: resurs.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 39.691: resurs.se INFO Done testing connectivity for resurs.se.
+ 39.691: resurs.se INFO Begin testing DNSSEC for resurs.se.
+ 39.708: resurs.se INFO Did not find DS record for resurs.se at parent.
+ 39.851: resurs.se INFO Servers for resurs.se have consistent extra processing status.
+ 39.930: resurs.se INFO Authenticated denial records not found for resurs.se.
+ 39.972: resurs.se INFO Did not find DNSKEY record for resurs.se at child.
+ 39.972: resurs.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 39.972: resurs.se INFO Done testing DNSSEC for resurs.se.
+ 39.973: resurs.se INFO Test completed for zone resurs.se.

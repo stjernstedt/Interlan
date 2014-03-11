@@ -1,0 +1,78 @@
+  0.000: sparbankentanum.se INFO Begin testing zone sparbankentanum.se with version 1.5.0.
+  0.001: sparbankentanum.se INFO Begin testing delegation for sparbankentanum.se.
+  4.638: sparbankentanum.se INFO Name servers listed at parent: ns1.foreningssparbanken.se,ns2.foreningssparbanken.se
+  6.447: sparbankentanum.se INFO Name servers listed at child: ns1.foreningssparbanken.se,ns2.foreningssparbanken.se
+  6.447: sparbankentanum.se NOTICE No IPv6 name servers found.
+  6.456: sparbankentanum.se INFO Parent glue for sparbankentanum.se found: ns1.foreningssparbanken.se (164.10.45.24)
+  6.486: sparbankentanum.se INFO Parent glue for sparbankentanum.se found: ns2.foreningssparbanken.se (164.10.45.25)
+  6.494: sparbankentanum.se INFO Checking glue for ns1.foreningssparbanken.se (164.10.45.24).
+  6.494: sparbankentanum.se INFO Checking glue for ns2.foreningssparbanken.se (164.10.45.25).
+  6.495: sparbankentanum.se INFO Parent glue for sparbankentanum.se found: ns1.foreningssparbanken.se (164.10.45.24)
+  6.495: sparbankentanum.se INFO Parent glue for sparbankentanum.se found: ns2.foreningssparbanken.se (164.10.45.25)
+  6.999: sparbankentanum.se INFO It is possible to build a referral packet for sparbankentanum.se that works without EDNS0.
+  6.999: sparbankentanum.se INFO Done testing delegation for sparbankentanum.se.
+  7.000: sparbankentanum.se INFO Begin testing name server ns1.foreningssparbanken.se.
+  7.000: sparbankentanum.se INFO Begin testing host ns1.foreningssparbanken.se.
+  7.218: sparbankentanum.se INFO Begin testing address 164.10.45.24.
+ 14.034: sparbankentanum.se INFO Done testing address 164.10.45.24.
+ 14.034: sparbankentanum.se INFO Done testing host ns1.foreningssparbanken.se.
+ 14.283: sparbankentanum.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) answers queries over UDP.
+ 14.299: sparbankentanum.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) answers queries over TCP.
+ 14.308: sparbankentanum.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) is not recursive.
+ 14.337: sparbankentanum.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) authoritative for sparbankentanum.se.
+ 14.352: sparbankentanum.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) closed for zone transfer of sparbankentanum.se.
+ 38.384: sparbankentanum.se INFO Done testing name server ns1.foreningssparbanken.se.
+ 38.385: sparbankentanum.se INFO Begin testing name server ns2.foreningssparbanken.se.
+ 38.385: sparbankentanum.se INFO Begin testing host ns2.foreningssparbanken.se.
+ 38.619: sparbankentanum.se INFO Begin testing address 164.10.45.25.
+ 39.584: sparbankentanum.se INFO Done testing address 164.10.45.25.
+ 39.584: sparbankentanum.se INFO Done testing host ns2.foreningssparbanken.se.
+ 39.821: sparbankentanum.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) answers queries over UDP.
+ 39.838: sparbankentanum.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) answers queries over TCP.
+ 39.847: sparbankentanum.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) is not recursive.
+ 39.883: sparbankentanum.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) authoritative for sparbankentanum.se.
+ 39.899: sparbankentanum.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) closed for zone transfer of sparbankentanum.se.
+ 63.935: sparbankentanum.se INFO Done testing name server ns2.foreningssparbanken.se.
+ 63.935: sparbankentanum.se INFO Begin testing zone consistency for sparbankentanum.se.
+ 64.910: sparbankentanum.se INFO SOA at address 164.10.45.24 has serial 2013021901.
+ 64.920: sparbankentanum.se INFO SOA at address 164.10.45.25 has serial 2013021901.
+ 64.921: sparbankentanum.se INFO All SOA records have consistent serial numbers.
+ 64.921: sparbankentanum.se INFO All other fields in the SOA record are consistent among all name servers.
+ 65.434: sparbankentanum.se NOTICE The listed nameservers for sparbankentanum.se all report the same set of nameservers.
+ 65.434: sparbankentanum.se INFO Done testing zone consistency for sparbankentanum.se.
+ 65.434: sparbankentanum.se INFO Begin testing SOA parameters for sparbankentanum.se.
+ 65.442: sparbankentanum.se INFO Found SOA record for sparbankentanum.se.
+ 65.443: sparbankentanum.se INFO Begin testing host ns1.foreningssparbanken.se.
+ 65.667: sparbankentanum.se INFO Begin testing address 164.10.45.24.
+ 66.123: sparbankentanum.se INFO Done testing address 164.10.45.24.
+ 66.123: sparbankentanum.se INFO Done testing host ns1.foreningssparbanken.se.
+ 66.123: sparbankentanum.se INFO SOA MNAME for sparbankentanum.se valid (ns1.foreningssparbanken.se).
+ 66.123: sparbankentanum.se INFO SOA MNAME for sparbankentanum.se (ns1.foreningssparbanken.se) listed as NS.
+ 66.366: sparbankentanum.se INFO SOA MNAME for sparbankentanum.se (ns1.foreningssparbanken.se) is authoritative.
+ 66.366: sparbankentanum.se INFO Begin testing email address unixdrift@foreningssparbanken.se.
+ 66.830: sparbankentanum.se INFO Mail exchangers for unixdrift@foreningssparbanken.se found foreningssparbanken.se.
+ 66.873: sparbankentanum.se INFO Begin testing host foreningssparbanken.se.
+ 67.090: sparbankentanum.se INFO Begin testing address 164.10.45.63.
+ 67.561: sparbankentanum.se WARNING Could not find reverse address for 164.10.45.63 (63.45.10.164.in-addr.arpa.).
+ 67.561: sparbankentanum.se INFO Done testing address 164.10.45.63.
+ 67.561: sparbankentanum.se INFO Done testing host foreningssparbanken.se.
+ 67.778: sparbankentanum.se INFO Done testing email address unixdrift@foreningssparbanken.se.
+ 67.778: sparbankentanum.se INFO Successful attempt to deliver email for SOA RNAME of sparbankentanum.se (unixdrift.foreningssparbanken.se) using unixdrift@foreningssparbanken.se.
+ 67.778: sparbankentanum.se INFO SOA TTL for sparbankentanum.se OK (3600) - recommended >= 3600.
+ 67.778: sparbankentanum.se INFO SOA refresh for sparbankentanum.se OK (28800) - recommended >= 14400.
+ 67.779: sparbankentanum.se INFO SOA retry for sparbankentanum.se OK (7200) - recommended >= 3600.
+ 67.779: sparbankentanum.se INFO SOA expire for sparbankentanum.se OK (604800) - recommended >= 604800.
+ 67.779: sparbankentanum.se INFO SOA minimum for sparbankentanum.se OK (86400) - recommended between 300 and 86400.
+ 67.779: sparbankentanum.se INFO Done testing SOA parameters for sparbankentanum.se.
+ 67.779: sparbankentanum.se INFO Begin testing connectivity for sparbankentanum.se.
+ 69.037: sparbankentanum.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 69.038: sparbankentanum.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 69.038: sparbankentanum.se INFO Done testing connectivity for sparbankentanum.se.
+ 69.038: sparbankentanum.se INFO Begin testing DNSSEC for sparbankentanum.se.
+ 69.271: sparbankentanum.se INFO Did not find DS record for sparbankentanum.se at parent.
+ 69.301: sparbankentanum.se INFO Servers for sparbankentanum.se have consistent extra processing status.
+ 69.316: sparbankentanum.se INFO Authenticated denial records not found for sparbankentanum.se.
+ 69.325: sparbankentanum.se INFO Did not find DNSKEY record for sparbankentanum.se at child.
+ 69.325: sparbankentanum.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 69.325: sparbankentanum.se INFO Done testing DNSSEC for sparbankentanum.se.
+ 69.326: sparbankentanum.se INFO Test completed for zone sparbankentanum.se.

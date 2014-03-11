@@ -1,0 +1,101 @@
+  0.000: honkajoki.fi INFO Begin testing zone honkajoki.fi with version 1.5.0.
+  0.520: honkajoki.fi INFO Begin testing delegation for honkajoki.fi.
+ 13.908: honkajoki.fi INFO Name servers listed at parent: ns1.neviso.fi,ns2.neviso.fi,ns3.neviso.fi
+ 19.024: honkajoki.fi INFO Name servers listed at child: ns1.neviso.fi,ns2.neviso.fi,ns3.neviso.fi
+ 19.080: honkajoki.fi NOTICE No IPv6 name servers found.
+ 19.129: honkajoki.fi INFO Parent glue for honkajoki.fi found: ns1.neviso.fi (81.209.43.194)
+ 19.306: honkajoki.fi INFO Parent glue for honkajoki.fi found: ns2.neviso.fi (81.209.43.195)
+ 19.458: honkajoki.fi INFO Parent glue for honkajoki.fi found: ns3.neviso.fi (46.105.16.214)
+ 19.539: honkajoki.fi INFO Checking glue for ns1.neviso.fi (81.209.43.194).
+ 19.540: honkajoki.fi INFO Checking glue for ns2.neviso.fi (81.209.43.195).
+ 19.540: honkajoki.fi INFO Checking glue for ns3.neviso.fi (46.105.16.214).
+ 19.579: honkajoki.fi INFO Parent glue for honkajoki.fi found: ns1.neviso.fi (81.209.43.194)
+ 19.607: honkajoki.fi INFO Parent glue for honkajoki.fi found: ns2.neviso.fi (81.209.43.195)
+ 19.607: honkajoki.fi INFO Parent glue for honkajoki.fi found: ns3.neviso.fi (46.105.16.214)
+ 22.511: honkajoki.fi INFO It is possible to build a referral packet for honkajoki.fi that works without EDNS0.
+ 25.177: honkajoki.fi INFO Previously used name servers for honkajoki.fi: 
+ 25.177: honkajoki.fi INFO Done testing delegation for honkajoki.fi.
+ 25.177: honkajoki.fi INFO Begin testing name server ns1.neviso.fi.
+ 25.177: honkajoki.fi INFO Begin testing host ns1.neviso.fi.
+ 25.981: honkajoki.fi INFO Begin testing address 81.209.43.194.
+ 46.376: honkajoki.fi INFO Done testing address 81.209.43.194.
+ 46.376: honkajoki.fi INFO Done testing host ns1.neviso.fi.
+ 47.281: honkajoki.fi INFO Name server ns1.neviso.fi (81.209.43.194) answers queries over UDP.
+ 47.392: honkajoki.fi INFO Name server ns1.neviso.fi (81.209.43.194) answers queries over TCP.
+ 47.547: honkajoki.fi INFO Name server ns1.neviso.fi (81.209.43.194) is not recursive.
+ 47.910: honkajoki.fi INFO Name server ns1.neviso.fi (81.209.43.194) authoritative for honkajoki.fi.
+ 48.091: honkajoki.fi INFO Name server ns1.neviso.fi (81.209.43.194) closed for zone transfer of honkajoki.fi.
+ 48.196: honkajoki.fi NOTICE No answer received from 81.209.43.194 when querying for version.bind/CH/TXT.
+ 48.443: honkajoki.fi INFO Done testing name server ns1.neviso.fi.
+ 48.443: honkajoki.fi INFO Begin testing name server ns2.neviso.fi.
+ 48.443: honkajoki.fi INFO Begin testing host ns2.neviso.fi.
+ 49.160: honkajoki.fi INFO Begin testing address 81.209.43.195.
+ 50.632: honkajoki.fi INFO Done testing address 81.209.43.195.
+ 50.633: honkajoki.fi INFO Done testing host ns2.neviso.fi.
+ 51.282: honkajoki.fi INFO Name server ns2.neviso.fi (81.209.43.195) answers queries over UDP.
+ 51.397: honkajoki.fi INFO Name server ns2.neviso.fi (81.209.43.195) answers queries over TCP.
+ 51.464: honkajoki.fi INFO Name server ns2.neviso.fi (81.209.43.195) is not recursive.
+ 51.722: honkajoki.fi INFO Name server ns2.neviso.fi (81.209.43.195) authoritative for honkajoki.fi.
+ 51.820: honkajoki.fi INFO Name server ns2.neviso.fi (81.209.43.195) closed for zone transfer of honkajoki.fi.
+ 51.944: honkajoki.fi NOTICE No answer received from 81.209.43.195 when querying for version.bind/CH/TXT.
+ 52.041: honkajoki.fi INFO Done testing name server ns2.neviso.fi.
+ 52.041: honkajoki.fi INFO Begin testing name server ns3.neviso.fi.
+ 52.041: honkajoki.fi INFO Begin testing host ns3.neviso.fi.
+ 52.794: honkajoki.fi INFO Begin testing address 46.105.16.214.
+ 63.916: honkajoki.fi INFO Done testing address 46.105.16.214.
+ 63.916: honkajoki.fi INFO Done testing host ns3.neviso.fi.
+ 64.315: honkajoki.fi INFO Name server ns3.neviso.fi (46.105.16.214) answers queries over UDP.
+ 64.407: honkajoki.fi INFO Name server ns3.neviso.fi (46.105.16.214) answers queries over TCP.
+ 64.452: honkajoki.fi INFO Name server ns3.neviso.fi (46.105.16.214) is not recursive.
+ 64.648: honkajoki.fi INFO Name server ns3.neviso.fi (46.105.16.214) authoritative for honkajoki.fi.
+ 64.764: honkajoki.fi INFO Name server ns3.neviso.fi (46.105.16.214) closed for zone transfer of honkajoki.fi.
+ 64.860: honkajoki.fi NOTICE No answer received from 46.105.16.214 when querying for version.bind/CH/TXT.
+ 64.931: honkajoki.fi INFO Done testing name server ns3.neviso.fi.
+ 64.932: honkajoki.fi INFO Begin testing zone consistency for honkajoki.fi.
+ 67.199: honkajoki.fi INFO SOA at address 81.209.43.195 has serial 2013022700.
+ 67.218: honkajoki.fi INFO SOA at address 81.209.43.194 has serial 2013022700.
+ 67.259: honkajoki.fi INFO SOA at address 46.105.16.214 has serial 2013022700.
+ 67.259: honkajoki.fi INFO All SOA records have consistent serial numbers.
+ 67.259: honkajoki.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 68.298: honkajoki.fi NOTICE The listed nameservers for honkajoki.fi all report the same set of nameservers.
+ 68.298: honkajoki.fi INFO Done testing zone consistency for honkajoki.fi.
+ 68.298: honkajoki.fi INFO Begin testing SOA parameters for honkajoki.fi.
+ 68.332: honkajoki.fi INFO Found SOA record for honkajoki.fi.
+ 68.332: honkajoki.fi INFO Begin testing host ns1.neviso.fi.
+ 68.649: honkajoki.fi INFO Begin testing address 81.209.43.194.
+ 68.923: honkajoki.fi INFO Done testing address 81.209.43.194.
+ 68.923: honkajoki.fi INFO Done testing host ns1.neviso.fi.
+ 68.924: honkajoki.fi INFO SOA MNAME for honkajoki.fi valid (ns1.neviso.fi).
+ 68.924: honkajoki.fi INFO SOA MNAME for honkajoki.fi (ns1.neviso.fi) listed as NS.
+ 69.221: honkajoki.fi INFO SOA MNAME for honkajoki.fi (ns1.neviso.fi) is authoritative.
+ 69.221: honkajoki.fi INFO Begin testing email address hostmaster@neviso.fi.
+ 69.518: honkajoki.fi INFO Mail exchangers for hostmaster@neviso.fi found rps1.neviso.fi,rps2.neviso.fi.
+ 69.519: honkajoki.fi INFO Begin testing host rps1.neviso.fi.
+ 70.067: honkajoki.fi INFO Begin testing address 81.209.43.197.
+ 70.892: honkajoki.fi INFO Done testing address 81.209.43.197.
+ 70.893: honkajoki.fi INFO Done testing host rps1.neviso.fi.
+ 71.169: honkajoki.fi INFO Begin testing host rps2.neviso.fi.
+ 71.831: honkajoki.fi INFO Begin testing address 81.209.43.220.
+ 72.826: honkajoki.fi INFO Done testing address 81.209.43.220.
+ 72.826: honkajoki.fi INFO Done testing host rps2.neviso.fi.
+ 73.134: honkajoki.fi INFO Done testing email address hostmaster@neviso.fi.
+ 73.134: honkajoki.fi INFO Successful attempt to deliver email for SOA RNAME of honkajoki.fi (hostmaster.neviso.fi) using hostmaster@neviso.fi.
+ 73.134: honkajoki.fi INFO SOA TTL for honkajoki.fi OK (10800) - recommended >= 3600.
+ 73.134: honkajoki.fi NOTICE SOA refresh for honkajoki.fi too small (10800) - recommended >= 14400.
+ 73.134: honkajoki.fi INFO SOA retry for honkajoki.fi OK (3600) - recommended >= 3600.
+ 73.134: honkajoki.fi INFO SOA expire for honkajoki.fi OK (604800) - recommended >= 604800.
+ 73.134: honkajoki.fi INFO SOA minimum for honkajoki.fi OK (3600) - recommended between 300 and 86400.
+ 73.134: honkajoki.fi INFO Done testing SOA parameters for honkajoki.fi.
+ 73.134: honkajoki.fi INFO Begin testing connectivity for honkajoki.fi.
+ 75.658: honkajoki.fi INFO Zone announced by more than one ASN.
+ 75.668: honkajoki.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 75.668: honkajoki.fi INFO Done testing connectivity for honkajoki.fi.
+ 75.668: honkajoki.fi INFO Begin testing DNSSEC for honkajoki.fi.
+ 75.696: honkajoki.fi INFO Did not find DS record for honkajoki.fi at parent.
+ 75.728: honkajoki.fi NOTICE DNS lookup error (unknown error or no error).
+ 75.857: honkajoki.fi INFO Servers for honkajoki.fi have consistent extra processing status.
+ 76.104: honkajoki.fi INFO Authenticated denial records not found for honkajoki.fi.
+ 76.217: honkajoki.fi INFO Did not find DNSKEY record for honkajoki.fi at child.
+ 76.217: honkajoki.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 76.217: honkajoki.fi INFO Done testing DNSSEC for honkajoki.fi.
+ 76.217: honkajoki.fi INFO Test completed for zone honkajoki.fi.

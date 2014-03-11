@@ -1,0 +1,86 @@
+  0.000: koping.se INFO Begin testing zone koping.se with version 1.6.1.
+  1.263: koping.se INFO Begin testing delegation for koping.se.
+ 21.296: koping.se INFO Name servers listed at parent: alex.koping.se,ns1.koping.se
+ 27.438: koping.se INFO Name servers listed at child: alex.koping.se,ns1.koping.se
+ 27.438: koping.se NOTICE No IPv6 name servers found.
+ 27.510: koping.se INFO Parent glue for koping.se found: alex.koping.se (81.16.160.66)
+ 27.705: koping.se INFO Parent glue for koping.se found: ns1.koping.se (81.16.160.85)
+ 27.822: koping.se INFO Checking glue for alex.koping.se (81.16.160.66).
+ 27.996: koping.se INFO Child glue for koping.se found: alex.koping.se (81.16.160.66)
+ 27.996: koping.se INFO Checking glue for ns1.koping.se (81.16.160.85).
+ 28.137: koping.se INFO Child glue for koping.se found: ns1.koping.se (81.16.160.85)
+ 28.138: koping.se INFO Parent glue for koping.se found: alex.koping.se (81.16.160.66)
+ 28.138: koping.se INFO Parent glue for koping.se found: ns1.koping.se (81.16.160.85)
+ 29.445: koping.se INFO It is possible to build a referral packet for koping.se that works without EDNS0.
+ 30.789: koping.se INFO Previously used name servers for koping.se: 
+ 30.789: koping.se INFO Done testing delegation for koping.se.
+ 30.862: koping.se INFO Begin testing name server alex.koping.se.
+ 30.863: koping.se INFO Begin testing host alex.koping.se.
+ 31.256: koping.se INFO Begin testing address 81.16.160.66.
+ 44.772: koping.se INFO Done testing address 81.16.160.66.
+ 44.772: koping.se INFO Done testing host alex.koping.se.
+ 45.290: koping.se INFO Name server alex.koping.se (81.16.160.66) answers queries over UDP.
+ 45.412: koping.se INFO Name server alex.koping.se (81.16.160.66) answers queries over TCP.
+ 45.467: koping.se INFO Name server alex.koping.se (81.16.160.66) is not recursive.
+ 46.793: koping.se INFO Name server alex.koping.se (81.16.160.66) authoritative for koping.se.
+ 46.847: koping.se INFO Name server alex.koping.se (81.16.160.66) closed for zone transfer of koping.se.
+ 47.073: koping.se NOTICE No answer received from 81.16.160.66 when querying for version.server/CH/TXT.
+ 47.073: koping.se INFO Done testing name server alex.koping.se.
+ 47.074: koping.se INFO Begin testing name server ns1.koping.se.
+ 47.074: koping.se INFO Begin testing host ns1.koping.se.
+ 47.980: koping.se INFO Begin testing address 81.16.160.85.
+ 52.821: koping.se INFO Done testing address 81.16.160.85.
+ 52.822: koping.se INFO Done testing host ns1.koping.se.
+ 53.524: koping.se INFO Name server ns1.koping.se (81.16.160.85) answers queries over UDP.
+ 53.599: koping.se INFO Name server ns1.koping.se (81.16.160.85) answers queries over TCP.
+ 53.672: koping.se INFO Name server ns1.koping.se (81.16.160.85) is not recursive.
+ 54.016: koping.se INFO Name server ns1.koping.se (81.16.160.85) authoritative for koping.se.
+ 54.047: koping.se INFO Name server ns1.koping.se (81.16.160.85) closed for zone transfer of koping.se.
+ 54.204: koping.se NOTICE No answer received from 81.16.160.85 when querying for version.server/CH/TXT.
+ 54.204: koping.se INFO Done testing name server ns1.koping.se.
+ 54.204: koping.se INFO Begin testing zone consistency for koping.se.
+ 57.794: koping.se INFO SOA at address 81.16.160.85 has serial 2012011658.
+ 57.853: koping.se INFO SOA at address 81.16.160.66 has serial 2012011658.
+ 57.853: koping.se INFO All SOA records have consistent serial numbers.
+ 57.853: koping.se INFO All other fields in the SOA record are consistent among all name servers.
+ 58.953: koping.se NOTICE The listed nameservers for koping.se all report the same set of nameservers.
+ 58.953: koping.se INFO Done testing zone consistency for koping.se.
+ 58.953: koping.se INFO Begin testing SOA parameters for koping.se.
+ 59.607: koping.se INFO Found SOA record for koping.se.
+ 59.607: koping.se INFO Begin testing host alex.koping.se.
+ 59.904: koping.se INFO Begin testing address 81.16.160.66.
+ 61.208: koping.se INFO Done testing address 81.16.160.66.
+ 61.208: koping.se INFO Done testing host alex.koping.se.
+ 61.208: koping.se INFO SOA MNAME for koping.se valid (alex.koping.se).
+ 61.209: koping.se INFO SOA MNAME for koping.se (alex.koping.se) listed as NS.
+ 61.560: koping.se INFO SOA MNAME for koping.se (alex.koping.se) is authoritative.
+ 61.561: koping.se INFO Begin testing email address hostmaster@koping.net.
+ 61.926: koping.se INFO Mail exchangers for hostmaster@koping.net found mailin.koping.net,mailin2.koping.net.
+ 61.926: koping.se INFO Begin testing host mailin.koping.net.
+ 62.623: koping.se INFO Begin testing address 217.175.121.21.
+ 63.930: koping.se INFO Done testing address 217.175.121.21.
+ 63.931: koping.se INFO Done testing host mailin.koping.net.
+ 64.276: koping.se INFO Begin testing host mailin2.koping.net.
+ 65.119: koping.se INFO Begin testing address 217.175.121.25.
+ 66.184: koping.se INFO Done testing address 217.175.121.25.
+ 66.184: koping.se INFO Done testing host mailin2.koping.net.
+ 66.704: koping.se INFO Done testing email address hostmaster@koping.net.
+ 66.704: koping.se INFO Successful attempt to deliver email for SOA RNAME of koping.se (hostmaster.koping.net) using hostmaster@koping.net.
+ 66.704: koping.se INFO SOA TTL for koping.se OK (28800) - recommended >= 3600.
+ 66.704: koping.se NOTICE SOA refresh for koping.se too small (10800) - recommended >= 14400.
+ 66.704: koping.se INFO SOA retry for koping.se OK (3600) - recommended >= 3600.
+ 66.704: koping.se INFO SOA expire for koping.se OK (2419200) - recommended >= 604800.
+ 66.704: koping.se INFO SOA minimum for koping.se OK (900) - recommended between 300 and 86400.
+ 66.704: koping.se INFO Done testing SOA parameters for koping.se.
+ 66.704: koping.se INFO Begin testing connectivity for koping.se.
+ 68.570: koping.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 68.570: koping.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 68.570: koping.se INFO Done testing connectivity for koping.se.
+ 68.571: koping.se INFO Begin testing DNSSEC for koping.se.
+ 68.680: koping.se INFO Did not find DS record for koping.se at parent.
+ 68.772: koping.se INFO Servers for koping.se have consistent extra processing status.
+ 68.800: koping.se INFO Authenticated denial records not found for koping.se.
+ 68.820: koping.se INFO Did not find DNSKEY record for koping.se at child.
+ 68.820: koping.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 68.820: koping.se INFO Done testing DNSSEC for koping.se.
+ 68.821: koping.se INFO Test completed for zone koping.se.

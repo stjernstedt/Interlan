@@ -1,0 +1,85 @@
+  0.000: malvik.kommune.no INFO Begin testing zone malvik.kommune.no with version 1.6.1.
+  0.411: malvik.kommune.no INFO Begin testing delegation for malvik.kommune.no.
+  8.156: malvik.kommune.no INFO Name servers listed at parent: nidaros1.driftsparken.no,pingvin1.driftsparken.no
+  9.328: malvik.kommune.no INFO Name servers listed at child: nidaros1.driftsparken.no,pingvin1.driftsparken.no
+  9.329: malvik.kommune.no NOTICE No IPv6 name servers found.
+  9.501: malvik.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.665: malvik.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.801: malvik.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.928: malvik.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.566: malvik.kommune.no INFO It is possible to build a referral packet for malvik.kommune.no that works without EDNS0.
+ 11.012: malvik.kommune.no INFO Previously used name servers for malvik.kommune.no: 
+ 11.012: malvik.kommune.no INFO Done testing delegation for malvik.kommune.no.
+ 11.012: malvik.kommune.no INFO Begin testing name server nidaros1.driftsparken.no.
+ 11.013: malvik.kommune.no INFO Begin testing host nidaros1.driftsparken.no.
+ 11.361: malvik.kommune.no INFO Begin testing address 31.185.25.214.
+ 25.287: malvik.kommune.no INFO Done testing address 31.185.25.214.
+ 25.288: malvik.kommune.no INFO Done testing host nidaros1.driftsparken.no.
+ 25.571: malvik.kommune.no INFO Name server nidaros1.driftsparken.no (31.185.25.214) answers queries over UDP.
+ 27.607: malvik.kommune.no NOTICE DNS lookup error (connection failed).
+ 27.608: malvik.kommune.no ERROR Name server nidaros1.driftsparken.no (31.185.25.214) does not answer queries over TCP.
+ 27.626: malvik.kommune.no INFO Name server nidaros1.driftsparken.no (31.185.25.214) is not recursive.
+ 29.726: malvik.kommune.no NOTICE DNS lookup error (connection failed).
+ 29.726: malvik.kommune.no INFO Name server nidaros1.driftsparken.no (31.185.25.214) authoritative for malvik.kommune.no.
+ 29.726: malvik.kommune.no INFO Name server nidaros1.driftsparken.no (31.185.25.214) not checked for zone transfer of malvik.kommune.no.
+ 29.726: malvik.kommune.no INFO Name server nidaros1.driftsparken.no (31.185.25.214) not checked for legacy name server ID.
+ 29.727: malvik.kommune.no INFO Done testing name server nidaros1.driftsparken.no.
+ 29.727: malvik.kommune.no INFO Begin testing name server pingvin1.driftsparken.no.
+ 29.727: malvik.kommune.no INFO Begin testing host pingvin1.driftsparken.no.
+ 29.926: malvik.kommune.no INFO Begin testing address 31.185.25.212.
+ 30.519: malvik.kommune.no INFO Done testing address 31.185.25.212.
+ 30.519: malvik.kommune.no INFO Done testing host pingvin1.driftsparken.no.
+ 30.624: malvik.kommune.no INFO Name server pingvin1.driftsparken.no (31.185.25.212) answers queries over UDP.
+ 32.639: malvik.kommune.no NOTICE DNS lookup error (connection failed).
+ 32.640: malvik.kommune.no ERROR Name server pingvin1.driftsparken.no (31.185.25.212) does not answer queries over TCP.
+ 32.656: malvik.kommune.no INFO Name server pingvin1.driftsparken.no (31.185.25.212) is not recursive.
+ 34.700: malvik.kommune.no NOTICE DNS lookup error (connection failed).
+ 34.700: malvik.kommune.no INFO Name server pingvin1.driftsparken.no (31.185.25.212) authoritative for malvik.kommune.no.
+ 34.700: malvik.kommune.no INFO Name server pingvin1.driftsparken.no (31.185.25.212) not checked for zone transfer of malvik.kommune.no.
+ 34.700: malvik.kommune.no INFO Name server pingvin1.driftsparken.no (31.185.25.212) not checked for legacy name server ID.
+ 34.700: malvik.kommune.no INFO Done testing name server pingvin1.driftsparken.no.
+ 34.701: malvik.kommune.no INFO Begin testing zone consistency for malvik.kommune.no.
+ 35.273: malvik.kommune.no INFO SOA at address 31.185.25.214 has serial 2013100904.
+ 35.298: malvik.kommune.no INFO SOA at address 31.185.25.212 has serial 2013100904.
+ 35.298: malvik.kommune.no INFO All SOA records have consistent serial numbers.
+ 35.298: malvik.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 35.609: malvik.kommune.no NOTICE The listed nameservers for malvik.kommune.no all report the same set of nameservers.
+ 35.609: malvik.kommune.no INFO Done testing zone consistency for malvik.kommune.no.
+ 35.609: malvik.kommune.no INFO Begin testing SOA parameters for malvik.kommune.no.
+ 35.625: malvik.kommune.no INFO Found SOA record for malvik.kommune.no.
+ 35.625: malvik.kommune.no INFO Begin testing host nidaros1.driftsparken.no.
+ 35.703: malvik.kommune.no INFO Begin testing address 31.185.25.214.
+ 35.787: malvik.kommune.no INFO Done testing address 31.185.25.214.
+ 35.787: malvik.kommune.no INFO Done testing host nidaros1.driftsparken.no.
+ 35.787: malvik.kommune.no INFO SOA MNAME for malvik.kommune.no valid (nidaros1.driftsparken.no).
+ 35.787: malvik.kommune.no INFO SOA MNAME for malvik.kommune.no (nidaros1.driftsparken.no) listed as NS.
+ 35.895: malvik.kommune.no INFO SOA MNAME for malvik.kommune.no (nidaros1.driftsparken.no) is authoritative.
+ 35.895: malvik.kommune.no INFO Begin testing email address hostmaster@teneodata.no.
+ 36.117: malvik.kommune.no INFO Mail exchangers for hostmaster@teneodata.no found spamass2.driftsparken.no.
+ 36.118: malvik.kommune.no INFO Begin testing host spamass2.driftsparken.no.
+ 36.324: malvik.kommune.no INFO Begin testing address 178.164.2.186.
+ 36.837: malvik.kommune.no INFO Done testing address 178.164.2.186.
+ 36.837: malvik.kommune.no INFO Done testing host spamass2.driftsparken.no.
+ 36.941: malvik.kommune.no INFO Done testing email address hostmaster@teneodata.no.
+ 36.941: malvik.kommune.no INFO Successful attempt to deliver email for SOA RNAME of malvik.kommune.no (hostmaster.teneodata.no) using hostmaster@teneodata.no.
+ 36.941: malvik.kommune.no INFO SOA TTL for malvik.kommune.no OK (86400) - recommended >= 3600.
+ 36.941: malvik.kommune.no INFO SOA refresh for malvik.kommune.no OK (86400) - recommended >= 14400.
+ 36.941: malvik.kommune.no INFO SOA retry for malvik.kommune.no OK (7200) - recommended >= 3600.
+ 36.941: malvik.kommune.no INFO SOA expire for malvik.kommune.no OK (3600000) - recommended >= 604800.
+ 36.941: malvik.kommune.no INFO SOA minimum for malvik.kommune.no OK (86400) - recommended between 300 and 86400.
+ 36.941: malvik.kommune.no INFO Done testing SOA parameters for malvik.kommune.no.
+ 36.941: malvik.kommune.no INFO Begin testing connectivity for malvik.kommune.no.
+ 37.821: malvik.kommune.no NOTICE Zone announced by fewer than two IPv4 ASN.
+ 37.821: malvik.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 37.821: malvik.kommune.no INFO Done testing connectivity for malvik.kommune.no.
+ 37.821: malvik.kommune.no INFO Begin testing DNSSEC for malvik.kommune.no.
+ 37.897: malvik.kommune.no INFO Did not find DS record for malvik.kommune.no at parent.
+ 39.910: malvik.kommune.no NOTICE DNS lookup error (connection failed).
+ 41.923: malvik.kommune.no NOTICE DNS lookup error (connection failed).
+ 41.923: malvik.kommune.no INFO Servers for malvik.kommune.no have consistent extra processing status.
+ 45.945: malvik.kommune.no NOTICE DNS lookup error (connection failed).
+ 45.945: malvik.kommune.no INFO Authenticated denial records not found for malvik.kommune.no.
+ 45.960: malvik.kommune.no INFO Did not find DNSKEY record for malvik.kommune.no at child.
+ 45.960: malvik.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 45.960: malvik.kommune.no INFO Done testing DNSSEC for malvik.kommune.no.
+ 45.961: malvik.kommune.no INFO Test completed for zone malvik.kommune.no.

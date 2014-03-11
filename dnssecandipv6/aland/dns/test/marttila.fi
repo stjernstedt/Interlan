@@ -1,0 +1,82 @@
+  0.000: marttila.fi INFO Begin testing zone marttila.fi with version 1.5.0.
+  1.550: marttila.fi INFO Begin testing delegation for marttila.fi.
+ 34.393: marttila.fi INFO Name servers listed at parent: ns1.aumanet.fi,ns2.aumanet.fi
+ 44.033: marttila.fi INFO Name servers listed at child: ns1.aumanet.fi,ns2.aumanet.fi
+ 44.033: marttila.fi NOTICE No IPv6 name servers found.
+ 44.381: marttila.fi INFO Parent glue for marttila.fi found: ns1.aumanet.fi (46.23.168.67)
+ 45.070: marttila.fi INFO Parent glue for marttila.fi found: ns2.aumanet.fi (46.23.168.76)
+ 45.564: marttila.fi INFO Checking glue for ns1.aumanet.fi (46.23.168.67).
+ 45.564: marttila.fi INFO Checking glue for ns2.aumanet.fi (46.23.168.76).
+ 45.565: marttila.fi INFO Parent glue for marttila.fi found: ns1.aumanet.fi (46.23.168.67)
+ 45.565: marttila.fi INFO Parent glue for marttila.fi found: ns2.aumanet.fi (46.23.168.76)
+ 50.388: marttila.fi INFO It is possible to build a referral packet for marttila.fi that works without EDNS0.
+ 54.024: marttila.fi INFO Previously used name servers for marttila.fi: 
+ 54.024: marttila.fi INFO Done testing delegation for marttila.fi.
+ 54.025: marttila.fi INFO Begin testing name server ns1.aumanet.fi.
+ 54.025: marttila.fi INFO Begin testing host ns1.aumanet.fi.
+ 55.810: marttila.fi INFO Begin testing address 46.23.168.67.
+ 82.134: marttila.fi INFO Done testing address 46.23.168.67.
+ 82.134: marttila.fi INFO Done testing host ns1.aumanet.fi.
+ 83.474: marttila.fi INFO Name server ns1.aumanet.fi (46.23.168.67) answers queries over UDP.
+ 83.718: marttila.fi INFO Name server ns1.aumanet.fi (46.23.168.67) answers queries over TCP.
+ 84.098: marttila.fi INFO Name server ns1.aumanet.fi (46.23.168.67) is not recursive.
+ 84.682: marttila.fi INFO Name server ns1.aumanet.fi (46.23.168.67) authoritative for marttila.fi.
+ 84.895: marttila.fi INFO Name server ns1.aumanet.fi (46.23.168.67) closed for zone transfer of marttila.fi.
+ 85.027: marttila.fi INFO Legacy name server ID for ns1.aumanet.fi (46.23.168.67): hostname.bind = ns1
+ 85.475: marttila.fi NOTICE No answer received from 46.23.168.67 when querying for version.server/CH/TXT.
+ 85.475: marttila.fi INFO Done testing name server ns1.aumanet.fi.
+ 85.475: marttila.fi INFO Begin testing name server ns2.aumanet.fi.
+ 85.475: marttila.fi INFO Begin testing host ns2.aumanet.fi.
+ 86.852: marttila.fi INFO Begin testing address 46.23.168.76.
+ 89.108: marttila.fi INFO Done testing address 46.23.168.76.
+ 89.108: marttila.fi INFO Done testing host ns2.aumanet.fi.
+ 90.629: marttila.fi INFO Name server ns2.aumanet.fi (46.23.168.76) answers queries over UDP.
+ 90.865: marttila.fi INFO Name server ns2.aumanet.fi (46.23.168.76) answers queries over TCP.
+ 91.272: marttila.fi INFO Name server ns2.aumanet.fi (46.23.168.76) is not recursive.
+ 92.301: marttila.fi INFO Name server ns2.aumanet.fi (46.23.168.76) authoritative for marttila.fi.
+ 92.543: marttila.fi INFO Name server ns2.aumanet.fi (46.23.168.76) closed for zone transfer of marttila.fi.
+ 92.813: marttila.fi INFO Legacy name server ID for ns2.aumanet.fi (46.23.168.76): hostname.bind = ns2
+ 93.884: marttila.fi NOTICE No answer received from 46.23.168.76 when querying for version.server/CH/TXT.
+ 93.884: marttila.fi INFO Done testing name server ns2.aumanet.fi.
+ 93.884: marttila.fi INFO Begin testing zone consistency for marttila.fi.
+102.417: marttila.fi INFO SOA at address 46.23.168.76 has serial 2012110601.
+102.713: marttila.fi INFO SOA at address 46.23.168.67 has serial 2012110601.
+102.713: marttila.fi INFO All SOA records have consistent serial numbers.
+102.713: marttila.fi INFO All other fields in the SOA record are consistent among all name servers.
+107.025: marttila.fi NOTICE The listed nameservers for marttila.fi all report the same set of nameservers.
+107.025: marttila.fi INFO Done testing zone consistency for marttila.fi.
+107.025: marttila.fi INFO Begin testing SOA parameters for marttila.fi.
+107.349: marttila.fi INFO Found SOA record for marttila.fi.
+107.349: marttila.fi INFO Begin testing host ns1.aumanet.fi.
+108.996: marttila.fi INFO Begin testing address 46.23.168.67.
+111.040: marttila.fi INFO Done testing address 46.23.168.67.
+111.040: marttila.fi INFO Done testing host ns1.aumanet.fi.
+111.040: marttila.fi INFO SOA MNAME for marttila.fi valid (ns1.aumanet.fi).
+111.040: marttila.fi INFO SOA MNAME for marttila.fi (ns1.aumanet.fi) listed as NS.
+113.416: marttila.fi INFO SOA MNAME for marttila.fi (ns1.aumanet.fi) is authoritative.
+113.416: marttila.fi INFO Begin testing email address hostmaster@aumanet.fi.
+115.510: marttila.fi INFO Mail exchangers for hostmaster@aumanet.fi found mail.aumanet.fi.
+115.510: marttila.fi INFO Begin testing host mail.aumanet.fi.
+119.441: marttila.fi INFO Begin testing address 46.23.168.69.
+123.340: marttila.fi INFO Done testing address 46.23.168.69.
+123.340: marttila.fi INFO Done testing host mail.aumanet.fi.
+125.264: marttila.fi INFO Done testing email address hostmaster@aumanet.fi.
+125.264: marttila.fi INFO Successful attempt to deliver email for SOA RNAME of marttila.fi (hostmaster.aumanet.fi) using hostmaster@aumanet.fi.
+125.264: marttila.fi INFO SOA TTL for marttila.fi OK (86400) - recommended >= 3600.
+125.264: marttila.fi INFO SOA refresh for marttila.fi OK (28800) - recommended >= 14400.
+125.264: marttila.fi INFO SOA retry for marttila.fi OK (7200) - recommended >= 3600.
+125.265: marttila.fi INFO SOA expire for marttila.fi OK (604800) - recommended >= 604800.
+125.265: marttila.fi INFO SOA minimum for marttila.fi OK (86400) - recommended between 300 and 86400.
+125.265: marttila.fi INFO Done testing SOA parameters for marttila.fi.
+125.265: marttila.fi INFO Begin testing connectivity for marttila.fi.
+130.114: marttila.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+130.114: marttila.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+130.114: marttila.fi INFO Done testing connectivity for marttila.fi.
+130.114: marttila.fi INFO Begin testing DNSSEC for marttila.fi.
+130.546: marttila.fi INFO Did not find DS record for marttila.fi at parent.
+131.164: marttila.fi INFO Servers for marttila.fi have consistent extra processing status.
+131.390: marttila.fi INFO Authenticated denial records not found for marttila.fi.
+131.591: marttila.fi INFO Did not find DNSKEY record for marttila.fi at child.
+131.591: marttila.fi INFO No DNSKEY(s) found at child, other tests skipped.
+131.591: marttila.fi INFO Done testing DNSSEC for marttila.fi.
+131.592: marttila.fi INFO Test completed for zone marttila.fi.

@@ -1,0 +1,93 @@
+  0.000: ylivieska.fi INFO Begin testing zone ylivieska.fi with version 1.5.0.
+  2.708: ylivieska.fi INFO Begin testing delegation for ylivieska.fi.
+ 54.164: ylivieska.fi INFO Name servers listed at parent: ns1.kotinet.com,ns2.kotinet.com,ns3.kotinet.com
+ 66.276: ylivieska.fi INFO Name servers listed at child: ns1.kotinet.com,ns2.kotinet.com,ns3.kotinet.com
+ 66.276: ylivieska.fi NOTICE No IPv6 name servers found.
+ 76.418: ylivieska.fi INFO It is possible to build a referral packet for ylivieska.fi that works without EDNS0.
+ 83.318: ylivieska.fi INFO Previously used name servers for ylivieska.fi: 
+ 83.318: ylivieska.fi INFO Done testing delegation for ylivieska.fi.
+ 83.319: ylivieska.fi INFO Begin testing name server ns1.kotinet.com.
+ 83.319: ylivieska.fi INFO Begin testing host ns1.kotinet.com.
+ 85.368: ylivieska.fi INFO Begin testing address 212.50.211.242.
+116.776: ylivieska.fi INFO Done testing address 212.50.211.242.
+116.776: ylivieska.fi INFO Done testing host ns1.kotinet.com.
+118.537: ylivieska.fi INFO Name server ns1.kotinet.com (212.50.211.242) answers queries over UDP.
+118.837: ylivieska.fi INFO Name server ns1.kotinet.com (212.50.211.242) answers queries over TCP.
+119.169: ylivieska.fi INFO Name server ns1.kotinet.com (212.50.211.242) is not recursive.
+119.948: ylivieska.fi INFO Name server ns1.kotinet.com (212.50.211.242) authoritative for ylivieska.fi.
+120.125: ylivieska.fi INFO Name server ns1.kotinet.com (212.50.211.242) closed for zone transfer of ylivieska.fi.
+120.284: ylivieska.fi INFO Legacy name server ID for ns1.kotinet.com (212.50.211.242): hostname.bind = ns1.kotinet.com
+120.465: ylivieska.fi INFO Legacy name server ID for ns1.kotinet.com (212.50.211.242): version.bind = enkerro
+120.820: ylivieska.fi NOTICE No answer received from 212.50.211.242 when querying for version.server/CH/TXT.
+120.820: ylivieska.fi INFO Done testing name server ns1.kotinet.com.
+120.821: ylivieska.fi INFO Begin testing name server ns2.kotinet.com.
+120.821: ylivieska.fi INFO Begin testing host ns2.kotinet.com.
+122.207: ylivieska.fi INFO Begin testing address 212.50.192.226.
+124.840: ylivieska.fi INFO Done testing address 212.50.192.226.
+124.841: ylivieska.fi INFO Done testing host ns2.kotinet.com.
+126.240: ylivieska.fi INFO Name server ns2.kotinet.com (212.50.192.226) answers queries over UDP.
+126.471: ylivieska.fi INFO Name server ns2.kotinet.com (212.50.192.226) answers queries over TCP.
+126.696: ylivieska.fi INFO Name server ns2.kotinet.com (212.50.192.226) is not recursive.
+127.647: ylivieska.fi INFO Name server ns2.kotinet.com (212.50.192.226) authoritative for ylivieska.fi.
+127.792: ylivieska.fi INFO Name server ns2.kotinet.com (212.50.192.226) closed for zone transfer of ylivieska.fi.
+127.914: ylivieska.fi INFO Legacy name server ID for ns2.kotinet.com (212.50.192.226): hostname.bind = ns2
+128.019: ylivieska.fi INFO Legacy name server ID for ns2.kotinet.com (212.50.192.226): version.bind = enkerro
+128.263: ylivieska.fi NOTICE No answer received from 212.50.192.226 when querying for version.server/CH/TXT.
+128.289: ylivieska.fi INFO Done testing name server ns2.kotinet.com.
+128.289: ylivieska.fi INFO Begin testing name server ns3.kotinet.com.
+128.289: ylivieska.fi INFO Begin testing host ns3.kotinet.com.
+129.272: ylivieska.fi INFO Begin testing address 82.141.108.26.
+131.203: ylivieska.fi INFO Done testing address 82.141.108.26.
+131.203: ylivieska.fi INFO Done testing host ns3.kotinet.com.
+132.742: ylivieska.fi INFO Name server ns3.kotinet.com (82.141.108.26) answers queries over UDP.
+133.082: ylivieska.fi INFO Name server ns3.kotinet.com (82.141.108.26) answers queries over TCP.
+133.251: ylivieska.fi INFO Name server ns3.kotinet.com (82.141.108.26) is not recursive.
+133.829: ylivieska.fi INFO Name server ns3.kotinet.com (82.141.108.26) authoritative for ylivieska.fi.
+133.978: ylivieska.fi INFO Name server ns3.kotinet.com (82.141.108.26) closed for zone transfer of ylivieska.fi.
+134.058: ylivieska.fi INFO Legacy name server ID for ns3.kotinet.com (82.141.108.26): hostname.bind = ns3.kotinet.com
+134.161: ylivieska.fi INFO Legacy name server ID for ns3.kotinet.com (82.141.108.26): version.bind = enkerro
+134.380: ylivieska.fi NOTICE No answer received from 82.141.108.26 when querying for version.server/CH/TXT.
+134.380: ylivieska.fi INFO Done testing name server ns3.kotinet.com.
+134.380: ylivieska.fi INFO Begin testing zone consistency for ylivieska.fi.
+141.560: ylivieska.fi INFO SOA at address 212.50.192.226 has serial 2013041715.
+141.665: ylivieska.fi INFO SOA at address 82.141.108.26 has serial 2013041715.
+141.813: ylivieska.fi INFO SOA at address 212.50.211.242 has serial 2013041715.
+141.813: ylivieska.fi INFO All SOA records have consistent serial numbers.
+141.813: ylivieska.fi INFO All other fields in the SOA record are consistent among all name servers.
+145.009: ylivieska.fi NOTICE The listed nameservers for ylivieska.fi all report the same set of nameservers.
+145.010: ylivieska.fi INFO Done testing zone consistency for ylivieska.fi.
+145.010: ylivieska.fi INFO Begin testing SOA parameters for ylivieska.fi.
+145.188: ylivieska.fi INFO Found SOA record for ylivieska.fi.
+145.188: ylivieska.fi INFO Begin testing host ns1.kotinet.com.
+146.176: ylivieska.fi INFO Begin testing address 212.50.211.242.
+147.234: ylivieska.fi INFO Done testing address 212.50.211.242.
+147.234: ylivieska.fi INFO Done testing host ns1.kotinet.com.
+147.235: ylivieska.fi INFO SOA MNAME for ylivieska.fi valid (ns1.kotinet.com).
+147.235: ylivieska.fi INFO SOA MNAME for ylivieska.fi (ns1.kotinet.com) listed as NS.
+148.402: ylivieska.fi INFO SOA MNAME for ylivieska.fi (ns1.kotinet.com) is authoritative.
+148.403: ylivieska.fi INFO Begin testing email address hostmaster@mail.kotinet.com.
+150.721: ylivieska.fi INFO Mail exchangers for hostmaster@mail.kotinet.com found mail.kotinet.com.
+150.722: ylivieska.fi INFO Begin testing host mail.kotinet.com.
+152.209: ylivieska.fi INFO Begin testing address 212.50.215.81.
+155.176: ylivieska.fi INFO Done testing address 212.50.215.81.
+155.176: ylivieska.fi INFO Done testing host mail.kotinet.com.
+156.433: ylivieska.fi INFO Done testing email address hostmaster@mail.kotinet.com.
+156.433: ylivieska.fi INFO Successful attempt to deliver email for SOA RNAME of ylivieska.fi (hostmaster.mail.kotinet.com) using hostmaster@mail.kotinet.com.
+156.433: ylivieska.fi INFO SOA TTL for ylivieska.fi OK (86400) - recommended >= 3600.
+156.433: ylivieska.fi INFO SOA refresh for ylivieska.fi OK (28800) - recommended >= 14400.
+156.433: ylivieska.fi INFO SOA retry for ylivieska.fi OK (7200) - recommended >= 3600.
+156.433: ylivieska.fi INFO SOA expire for ylivieska.fi OK (604800) - recommended >= 604800.
+156.433: ylivieska.fi INFO SOA minimum for ylivieska.fi OK (3600) - recommended between 300 and 86400.
+156.434: ylivieska.fi INFO Done testing SOA parameters for ylivieska.fi.
+156.434: ylivieska.fi INFO Begin testing connectivity for ylivieska.fi.
+161.393: ylivieska.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+161.394: ylivieska.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+161.394: ylivieska.fi INFO Done testing connectivity for ylivieska.fi.
+161.394: ylivieska.fi INFO Begin testing DNSSEC for ylivieska.fi.
+161.888: ylivieska.fi INFO Did not find DS record for ylivieska.fi at parent.
+162.336: ylivieska.fi INFO Servers for ylivieska.fi have consistent extra processing status.
+162.460: ylivieska.fi INFO Authenticated denial records not found for ylivieska.fi.
+162.591: ylivieska.fi INFO Did not find DNSKEY record for ylivieska.fi at child.
+162.591: ylivieska.fi INFO No DNSKEY(s) found at child, other tests skipped.
+162.591: ylivieska.fi INFO Done testing DNSSEC for ylivieska.fi.
+162.607: ylivieska.fi INFO Test completed for zone ylivieska.fi.

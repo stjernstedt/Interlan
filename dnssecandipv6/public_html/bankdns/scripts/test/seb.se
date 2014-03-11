@@ -1,0 +1,131 @@
+  0.000: seb.se INFO Begin testing zone seb.se with version 1.5.0.
+  0.001: seb.se INFO Begin testing delegation for seb.se.
+  5.469: seb.se INFO Name servers listed at parent: ns.domainnetwork.se,ns1.seb.se,ns2.domainnetwork.se,ns2.sebgroup.com,ns3.domainnetwork.com
+ 10.996: seb.se INFO Name servers listed at child: ns1.seb.se,ns2.sebgroup.com
+ 10.996: seb.se ERROR Superfluous name server listed at parent: ns.domainnetwork.se
+ 10.996: seb.se ERROR Superfluous name server listed at parent: ns2.domainnetwork.se
+ 10.997: seb.se ERROR Superfluous name server listed at parent: ns3.domainnetwork.com
+ 10.997: seb.se NOTICE No IPv6 name servers found.
+ 11.012: seb.se INFO Parent glue for seb.se found: ns.domainnetwork.se (203.27.227.61)
+ 11.042: seb.se INFO Parent glue for seb.se found: ns1.seb.se (129.178.50.5)
+ 11.061: seb.se INFO Parent glue for seb.se found: ns2.domainnetwork.se (202.148.152.225)
+ 11.246: seb.se INFO Checking glue for ns.domainnetwork.se (203.27.227.61).
+ 11.246: seb.se INFO Checking glue for ns1.seb.se (129.178.50.5).
+ 11.257: seb.se INFO Child glue for seb.se found: ns1.seb.se (129.178.50.5)
+ 11.257: seb.se INFO Checking glue for ns2.domainnetwork.se (202.148.152.225).
+ 11.258: seb.se INFO Parent glue for seb.se found: ns.domainnetwork.se (203.27.227.61)
+ 11.259: seb.se INFO Parent glue for seb.se found: ns1.seb.se (129.178.50.5)
+ 11.260: seb.se INFO Parent glue for seb.se found: ns2.domainnetwork.se (202.148.152.225)
+ 11.906: seb.se INFO It is possible to build a referral packet for seb.se that works without EDNS0.
+ 11.906: seb.se INFO Done testing delegation for seb.se.
+ 11.907: seb.se INFO Begin testing name server ns1.seb.se.
+ 11.911: seb.se INFO Begin testing host ns1.seb.se.
+ 12.344: seb.se INFO Begin testing address 129.178.50.5.
+ 18.469: seb.se INFO Done testing address 129.178.50.5.
+ 18.469: seb.se INFO Done testing host ns1.seb.se.
+ 18.731: seb.se INFO Name server ns1.seb.se (129.178.50.5) answers queries over UDP.
+ 18.746: seb.se INFO Name server ns1.seb.se (129.178.50.5) answers queries over TCP.
+ 18.755: seb.se INFO Name server ns1.seb.se (129.178.50.5) is not recursive.
+ 18.791: seb.se INFO Name server ns1.seb.se (129.178.50.5) authoritative for seb.se.
+ 18.811: seb.se INFO Name server ns1.seb.se (129.178.50.5) closed for zone transfer of seb.se.
+ 18.821: seb.se INFO Legacy name server ID for ns1.seb.se (129.178.50.5): hostname.bind = iaricb03a
+ 18.830: seb.se INFO Legacy name server ID for ns1.seb.se (129.178.50.5): version.bind = none
+ 18.846: seb.se NOTICE No answer received from 129.178.50.5 when querying for version.server/CH/TXT.
+ 18.847: seb.se INFO Done testing name server ns1.seb.se.
+ 18.847: seb.se INFO Begin testing name server ns2.sebgroup.com.
+ 18.847: seb.se INFO Begin testing host ns2.sebgroup.com.
+ 19.107: seb.se INFO Begin testing address 129.178.50.8.
+ 19.810: seb.se INFO Done testing address 129.178.50.8.
+ 19.810: seb.se INFO Done testing host ns2.sebgroup.com.
+ 20.076: seb.se INFO Name server ns2.sebgroup.com (129.178.50.8) answers queries over UDP.
+ 20.091: seb.se INFO Name server ns2.sebgroup.com (129.178.50.8) answers queries over TCP.
+ 20.100: seb.se INFO Name server ns2.sebgroup.com (129.178.50.8) is not recursive.
+ 20.142: seb.se INFO Name server ns2.sebgroup.com (129.178.50.8) authoritative for seb.se.
+ 20.161: seb.se INFO Name server ns2.sebgroup.com (129.178.50.8) closed for zone transfer of seb.se.
+ 20.175: seb.se INFO Legacy name server ID for ns2.sebgroup.com (129.178.50.8): hostname.bind = iaricb03b
+ 20.188: seb.se INFO Legacy name server ID for ns2.sebgroup.com (129.178.50.8): version.bind = none
+ 20.206: seb.se NOTICE No answer received from 129.178.50.8 when querying for version.server/CH/TXT.
+ 20.206: seb.se INFO Done testing name server ns2.sebgroup.com.
+ 20.206: seb.se INFO Begin testing name server ns.domainnetwork.se.
+ 20.206: seb.se INFO Begin testing host ns.domainnetwork.se.
+ 20.868: seb.se INFO Begin testing address 203.27.227.61.
+ 28.660: seb.se INFO Done testing address 203.27.227.61.
+ 28.663: seb.se INFO Done testing host ns.domainnetwork.se.
+ 29.111: seb.se INFO Name server ns.domainnetwork.se (203.27.227.61) answers queries over UDP.
+ 29.665: seb.se INFO Name server ns.domainnetwork.se (203.27.227.61) answers queries over TCP.
+ 29.853: seb.se INFO Name server ns.domainnetwork.se (203.27.227.61) is not recursive.
+ 30.782: seb.se INFO Name server ns.domainnetwork.se (203.27.227.61) authoritative for seb.se.
+ 31.617: seb.se INFO Name server ns.domainnetwork.se (203.27.227.61) closed for zone transfer of seb.se.
+ 32.366: seb.se INFO Done testing name server ns.domainnetwork.se.
+ 32.366: seb.se INFO Begin testing name server ns2.domainnetwork.se.
+ 32.366: seb.se INFO Begin testing host ns2.domainnetwork.se.
+ 32.996: seb.se INFO Begin testing address 202.148.152.225.
+ 36.970: seb.se INFO Done testing address 202.148.152.225.
+ 36.971: seb.se INFO Done testing host ns2.domainnetwork.se.
+ 37.565: seb.se INFO Name server ns2.domainnetwork.se (202.148.152.225) answers queries over UDP.
+ 38.605: seb.se INFO Name server ns2.domainnetwork.se (202.148.152.225) answers queries over TCP.
+ 38.981: seb.se INFO Name server ns2.domainnetwork.se (202.148.152.225) is not recursive.
+ 40.782: seb.se INFO Name server ns2.domainnetwork.se (202.148.152.225) authoritative for seb.se.
+ 42.262: seb.se INFO Name server ns2.domainnetwork.se (202.148.152.225) closed for zone transfer of seb.se.
+ 43.775: seb.se INFO Done testing name server ns2.domainnetwork.se.
+ 43.775: seb.se INFO Begin testing name server ns3.domainnetwork.com.
+ 43.775: seb.se INFO Begin testing host ns3.domainnetwork.com.
+ 44.781: seb.se INFO Begin testing address 212.81.32.109.
+ 49.291: seb.se INFO Done testing address 212.81.32.109.
+ 49.291: seb.se INFO Done testing host ns3.domainnetwork.com.
+ 49.523: seb.se INFO Name server ns3.domainnetwork.com (212.81.32.109) answers queries over UDP.
+ 49.635: seb.se INFO Name server ns3.domainnetwork.com (212.81.32.109) answers queries over TCP.
+ 49.644: seb.se INFO Name server ns3.domainnetwork.com (212.81.32.109) is not recursive.
+ 49.777: seb.se INFO Name server ns3.domainnetwork.com (212.81.32.109) authoritative for seb.se.
+ 49.992: seb.se INFO Name server ns3.domainnetwork.com (212.81.32.109) closed for zone transfer of seb.se.
+ 50.025: seb.se INFO Done testing name server ns3.domainnetwork.com.
+ 50.025: seb.se INFO Begin testing zone consistency for seb.se.
+ 52.288: seb.se INFO SOA at address 212.81.32.109 has serial 2013072399.
+ 52.298: seb.se INFO SOA at address 129.178.50.5 has serial 2013072399.
+ 52.309: seb.se INFO SOA at address 129.178.50.8 has serial 2013072399.
+ 52.686: seb.se INFO SOA at address 202.148.152.225 has serial 2013072399.
+ 52.873: seb.se INFO SOA at address 203.27.227.61 has serial 2013072399.
+ 52.873: seb.se INFO All SOA records have consistent serial numbers.
+ 52.874: seb.se INFO All other fields in the SOA record are consistent among all name servers.
+ 55.281: seb.se NOTICE The listed nameservers for seb.se all report the same set of nameservers.
+ 55.282: seb.se INFO Done testing zone consistency for seb.se.
+ 55.282: seb.se INFO Begin testing SOA parameters for seb.se.
+ 55.295: seb.se INFO Found SOA record for seb.se.
+ 55.295: seb.se INFO Begin testing host ns1.seb.se.
+ 55.524: seb.se INFO Begin testing address 129.178.50.5.
+ 55.753: seb.se INFO Done testing address 129.178.50.5.
+ 55.754: seb.se INFO Done testing host ns1.seb.se.
+ 55.754: seb.se INFO SOA MNAME for seb.se valid (ns1.seb.se).
+ 55.755: seb.se INFO SOA MNAME for seb.se (ns1.seb.se) listed as NS.
+ 56.003: seb.se INFO SOA MNAME for seb.se (ns1.seb.se) is authoritative.
+ 56.003: seb.se INFO Begin testing email address hostmaster@seb.se.
+ 56.434: seb.se INFO Mail exchangers for hostmaster@seb.se found mailrelay.seb.se,mailrelay2.seb.se.
+ 56.434: seb.se INFO All mail servers for hostmaster@seb.se are in zone seb.se.
+ 56.435: seb.se INFO Begin testing host mailrelay.seb.se.
+ 57.252: seb.se INFO Begin testing address 129.178.182.133.
+ 58.352: seb.se INFO Done testing address 129.178.182.133.
+ 58.352: seb.se INFO Done testing host mailrelay.seb.se.
+ 58.585: seb.se INFO Begin testing host mailrelay2.seb.se.
+ 59.096: seb.se INFO Begin testing address 129.178.182.135.
+ 59.901: seb.se INFO Done testing address 129.178.182.135.
+ 59.997: seb.se INFO Done testing host mailrelay2.seb.se.
+ 60.621: seb.se INFO Done testing email address hostmaster@seb.se.
+ 60.621: seb.se INFO Successful attempt to deliver email for SOA RNAME of seb.se (hostmaster.seb.se) using hostmaster@seb.se.
+ 60.621: seb.se INFO SOA TTL for seb.se OK (10800) - recommended >= 3600.
+ 60.621: seb.se INFO SOA refresh for seb.se OK (25200) - recommended >= 14400.
+ 60.621: seb.se INFO SOA retry for seb.se OK (3600) - recommended >= 3600.
+ 60.622: seb.se INFO SOA expire for seb.se OK (2592000) - recommended >= 604800.
+ 60.622: seb.se INFO SOA minimum for seb.se OK (3600) - recommended between 300 and 86400.
+ 60.622: seb.se INFO Done testing SOA parameters for seb.se.
+ 60.622: seb.se INFO Begin testing connectivity for seb.se.
+ 61.640: seb.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 61.641: seb.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 61.641: seb.se INFO Done testing connectivity for seb.se.
+ 61.641: seb.se INFO Begin testing DNSSEC for seb.se.
+ 61.657: seb.se INFO Did not find DS record for seb.se at parent.
+ 61.688: seb.se INFO Servers for seb.se have consistent extra processing status.
+ 61.702: seb.se INFO Authenticated denial records not found for seb.se.
+ 61.711: seb.se INFO Did not find DNSKEY record for seb.se at child.
+ 61.711: seb.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 61.711: seb.se INFO Done testing DNSSEC for seb.se.
+ 61.712: seb.se INFO Test completed for zone seb.se.

@@ -1,0 +1,87 @@
+  0.000: middelfart.dk INFO Begin testing zone middelfart.dk with version 1.6.1.
+  0.387: middelfart.dk INFO Begin testing delegation for middelfart.dk.
+  6.457: middelfart.dk INFO Name servers listed at parent: ns-auth03.kmd.dk,ns-auth04.kmd.dk
+  7.912: middelfart.dk INFO Name servers listed at child: ns-auth03.kmd.dk,ns-auth04.kmd.dk
+  7.912: middelfart.dk NOTICE No IPv6 name servers found.
+  7.964: middelfart.dk INFO Parent glue for middelfart.dk found: ns-auth03.kmd.dk (131.165.64.5)
+  8.144: middelfart.dk INFO Parent glue for middelfart.dk found: ns-auth04.kmd.dk (131.165.4.5)
+  8.215: middelfart.dk INFO Checking glue for ns-auth03.kmd.dk (131.165.64.5).
+  8.215: middelfart.dk INFO Checking glue for ns-auth04.kmd.dk (131.165.4.5).
+  8.243: middelfart.dk INFO Parent glue for middelfart.dk found: ns-auth03.kmd.dk (131.165.64.5)
+  8.244: middelfart.dk INFO Parent glue for middelfart.dk found: ns-auth04.kmd.dk (131.165.4.5)
+  9.126: middelfart.dk INFO It is possible to build a referral packet for middelfart.dk that works without EDNS0.
+  9.828: middelfart.dk INFO Previously used name servers for middelfart.dk: 
+  9.828: middelfart.dk INFO Done testing delegation for middelfart.dk.
+  9.828: middelfart.dk INFO Begin testing name server ns-auth03.kmd.dk.
+  9.828: middelfart.dk INFO Begin testing host ns-auth03.kmd.dk.
+ 10.185: middelfart.dk INFO Begin testing address 131.165.64.5.
+ 17.368: middelfart.dk INFO Done testing address 131.165.64.5.
+ 17.368: middelfart.dk INFO Done testing host ns-auth03.kmd.dk.
+ 17.657: middelfart.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) answers queries over UDP.
+ 17.760: middelfart.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) answers queries over TCP.
+ 17.816: middelfart.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) is not recursive.
+ 18.053: middelfart.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) authoritative for middelfart.dk.
+ 18.207: middelfart.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) closed for zone transfer of middelfart.dk.
+ 22.295: middelfart.dk INFO Legacy name server ID for ns-auth03.kmd.dk (131.165.64.5): version.bind = 1.0
+ 22.412: middelfart.dk NOTICE No answer received from 131.165.64.5 when querying for version.server/CH/TXT.
+ 22.412: middelfart.dk INFO Done testing name server ns-auth03.kmd.dk.
+ 22.412: middelfart.dk INFO Begin testing name server ns-auth04.kmd.dk.
+ 22.412: middelfart.dk INFO Begin testing host ns-auth04.kmd.dk.
+ 22.640: middelfart.dk INFO Begin testing address 131.165.4.5.
+ 23.276: middelfart.dk INFO Done testing address 131.165.4.5.
+ 23.276: middelfart.dk INFO Done testing host ns-auth04.kmd.dk.
+ 23.500: middelfart.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) answers queries over UDP.
+ 23.609: middelfart.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) answers queries over TCP.
+ 23.663: middelfart.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) is not recursive.
+ 23.878: middelfart.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) authoritative for middelfart.dk.
+ 24.044: middelfart.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) closed for zone transfer of middelfart.dk.
+ 24.108: middelfart.dk INFO Legacy name server ID for ns-auth04.kmd.dk (131.165.4.5): hostname.bind = ns-auth04.kmd.dk
+ 24.167: middelfart.dk INFO Legacy name server ID for ns-auth04.kmd.dk (131.165.4.5): version.bind = 1.0
+ 24.276: middelfart.dk NOTICE No answer received from 131.165.4.5 when querying for version.server/CH/TXT.
+ 24.276: middelfart.dk INFO Done testing name server ns-auth04.kmd.dk.
+ 24.276: middelfart.dk INFO Begin testing zone consistency for middelfart.dk.
+ 24.957: middelfart.dk INFO SOA at address 131.165.4.5 has serial 239.
+ 25.012: middelfart.dk INFO SOA at address 131.165.64.5 has serial 239.
+ 25.013: middelfart.dk INFO All SOA records have consistent serial numbers.
+ 25.013: middelfart.dk INFO All other fields in the SOA record are consistent among all name servers.
+ 25.534: middelfart.dk NOTICE The listed nameservers for middelfart.dk all report the same set of nameservers.
+ 25.534: middelfart.dk INFO Done testing zone consistency for middelfart.dk.
+ 25.534: middelfart.dk INFO Begin testing SOA parameters for middelfart.dk.
+ 25.589: middelfart.dk INFO Found SOA record for middelfart.dk.
+ 25.589: middelfart.dk INFO Begin testing host ns-auth03.kmd.dk.
+ 25.767: middelfart.dk INFO Begin testing address 131.165.64.5.
+ 25.959: middelfart.dk INFO Done testing address 131.165.64.5.
+ 25.960: middelfart.dk INFO Done testing host ns-auth03.kmd.dk.
+ 25.960: middelfart.dk INFO SOA MNAME for middelfart.dk valid (ns-auth03.kmd.dk).
+ 25.960: middelfart.dk INFO SOA MNAME for middelfart.dk (ns-auth03.kmd.dk) listed as NS.
+ 26.172: middelfart.dk INFO SOA MNAME for middelfart.dk (ns-auth03.kmd.dk) is authoritative.
+ 26.172: middelfart.dk INFO Begin testing email address dnsadmin@kmd.dk.
+ 26.332: middelfart.dk INFO Mail exchangers for dnsadmin@kmd.dk found edge1.kmd.dk,edge2.kmd.dk.
+ 26.332: middelfart.dk INFO Begin testing host edge1.kmd.dk.
+ 26.656: middelfart.dk INFO Begin testing address 131.165.63.88.
+ 27.307: middelfart.dk INFO Done testing address 131.165.63.88.
+ 27.308: middelfart.dk INFO Done testing host edge1.kmd.dk.
+ 27.463: middelfart.dk INFO Begin testing host edge2.kmd.dk.
+ 27.725: middelfart.dk INFO Begin testing address 131.165.63.89.
+ 28.354: middelfart.dk INFO Done testing address 131.165.63.89.
+ 28.354: middelfart.dk INFO Done testing host edge2.kmd.dk.
+ 28.595: middelfart.dk INFO Done testing email address dnsadmin@kmd.dk.
+ 28.595: middelfart.dk INFO Successful attempt to deliver email for SOA RNAME of middelfart.dk (dnsadmin.kmd.dk) using dnsadmin@kmd.dk.
+ 28.595: middelfart.dk INFO SOA TTL for middelfart.dk OK (3600) - recommended >= 3600.
+ 28.595: middelfart.dk NOTICE SOA refresh for middelfart.dk too small (10800) - recommended >= 14400.
+ 28.595: middelfart.dk INFO SOA retry for middelfart.dk OK (3600) - recommended >= 3600.
+ 28.595: middelfart.dk INFO SOA expire for middelfart.dk OK (604800) - recommended >= 604800.
+ 28.596: middelfart.dk INFO SOA minimum for middelfart.dk OK (43200) - recommended between 300 and 86400.
+ 28.596: middelfart.dk INFO Done testing SOA parameters for middelfart.dk.
+ 28.596: middelfart.dk INFO Begin testing connectivity for middelfart.dk.
+ 29.765: middelfart.dk NOTICE Zone announced by fewer than two IPv4 ASN.
+ 29.765: middelfart.dk NOTICE Zone announced by fewer than two IPv6 ASN.
+ 29.765: middelfart.dk INFO Done testing connectivity for middelfart.dk.
+ 29.765: middelfart.dk INFO Begin testing DNSSEC for middelfart.dk.
+ 29.786: middelfart.dk INFO Did not find DS record for middelfart.dk at parent.
+ 29.991: middelfart.dk INFO Servers for middelfart.dk have consistent extra processing status.
+ 30.093: middelfart.dk INFO Authenticated denial records not found for middelfart.dk.
+ 30.145: middelfart.dk INFO Did not find DNSKEY record for middelfart.dk at child.
+ 30.145: middelfart.dk INFO No DNSKEY(s) found at child, other tests skipped.
+ 30.145: middelfart.dk INFO Done testing DNSSEC for middelfart.dk.
+ 30.146: middelfart.dk INFO Test completed for zone middelfart.dk.

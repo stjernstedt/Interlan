@@ -1,0 +1,122 @@
+  0.000: sundsvall.se INFO Begin testing zone sundsvall.se with version 1.6.1.
+  0.756: sundsvall.se INFO Begin testing delegation for sundsvall.se.
+ 12.661: sundsvall.se INFO Name servers listed at parent: ns.sundsvall.se,ns2.sundsvall.se
+ 15.535: sundsvall.se INFO Name servers listed at child: ns.sundsvall.se,ns2.sundsvall.se
+ 15.535: sundsvall.se NOTICE No IPv6 name servers found.
+ 15.681: sundsvall.se INFO Parent glue for sundsvall.se found: ns.sundsvall.se (194.71.24.156)
+ 16.036: sundsvall.se INFO Parent glue for sundsvall.se found: ns2.sundsvall.se (194.71.24.157)
+ 16.121: sundsvall.se INFO Checking glue for ns.sundsvall.se (194.71.24.156).
+ 16.231: sundsvall.se INFO Child glue for sundsvall.se found: ns.sundsvall.se (194.71.24.156)
+ 16.231: sundsvall.se INFO Checking glue for ns2.sundsvall.se (194.71.24.157).
+ 16.312: sundsvall.se INFO Child glue for sundsvall.se found: ns2.sundsvall.se (194.71.24.157)
+ 16.316: sundsvall.se INFO Parent glue for sundsvall.se found: ns.sundsvall.se (194.71.24.156)
+ 16.316: sundsvall.se INFO Parent glue for sundsvall.se found: ns2.sundsvall.se (194.71.24.157)
+ 17.502: sundsvall.se INFO It is possible to build a referral packet for sundsvall.se that works without EDNS0.
+ 19.140: sundsvall.se INFO Previously used name servers for sundsvall.se: 
+ 19.140: sundsvall.se INFO Done testing delegation for sundsvall.se.
+ 19.140: sundsvall.se INFO Begin testing name server ns.sundsvall.se.
+ 19.140: sundsvall.se INFO Begin testing host ns.sundsvall.se.
+ 19.440: sundsvall.se INFO Begin testing address 194.71.24.156.
+ 39.745: sundsvall.se INFO Done testing address 194.71.24.156.
+ 39.745: sundsvall.se INFO Done testing host ns.sundsvall.se.
+ 40.269: sundsvall.se INFO Name server ns.sundsvall.se (194.71.24.156) answers queries over UDP.
+ 40.348: sundsvall.se INFO Name server ns.sundsvall.se (194.71.24.156) answers queries over TCP.
+ 40.393: sundsvall.se INFO Name server ns.sundsvall.se (194.71.24.156) is not recursive.
+ 40.600: sundsvall.se INFO Name server ns.sundsvall.se (194.71.24.156) authoritative for sundsvall.se.
+ 40.651: sundsvall.se INFO Name server ns.sundsvall.se (194.71.24.156) closed for zone transfer of sundsvall.se.
+ 40.891: sundsvall.se NOTICE No answer received from 194.71.24.156 when querying for version.server/CH/TXT.
+ 40.891: sundsvall.se INFO Done testing name server ns.sundsvall.se.
+ 40.891: sundsvall.se INFO Begin testing name server ns2.sundsvall.se.
+ 40.891: sundsvall.se INFO Begin testing host ns2.sundsvall.se.
+ 41.294: sundsvall.se INFO Begin testing address 194.71.24.157.
+ 42.264: sundsvall.se INFO Done testing address 194.71.24.157.
+ 42.264: sundsvall.se INFO Done testing host ns2.sundsvall.se.
+ 42.912: sundsvall.se INFO Name server ns2.sundsvall.se (194.71.24.157) answers queries over UDP.
+ 42.959: sundsvall.se INFO Name server ns2.sundsvall.se (194.71.24.157) answers queries over TCP.
+ 43.032: sundsvall.se INFO Name server ns2.sundsvall.se (194.71.24.157) is not recursive.
+ 43.210: sundsvall.se INFO Name server ns2.sundsvall.se (194.71.24.157) authoritative for sundsvall.se.
+ 43.263: sundsvall.se INFO Name server ns2.sundsvall.se (194.71.24.157) closed for zone transfer of sundsvall.se.
+ 43.440: sundsvall.se NOTICE No answer received from 194.71.24.157 when querying for version.server/CH/TXT.
+ 43.440: sundsvall.se INFO Done testing name server ns2.sundsvall.se.
+ 43.441: sundsvall.se INFO Begin testing zone consistency for sundsvall.se.
+ 45.360: sundsvall.se INFO SOA at address 194.71.24.157 has serial 2012078753.
+ 45.424: sundsvall.se INFO SOA at address 194.71.24.156 has serial 2012078753.
+ 45.424: sundsvall.se INFO All SOA records have consistent serial numbers.
+ 45.424: sundsvall.se INFO All other fields in the SOA record are consistent among all name servers.
+ 46.991: sundsvall.se NOTICE The listed nameservers for sundsvall.se all report the same set of nameservers.
+ 46.991: sundsvall.se INFO Done testing zone consistency for sundsvall.se.
+ 46.991: sundsvall.se INFO Begin testing SOA parameters for sundsvall.se.
+ 47.040: sundsvall.se INFO Found SOA record for sundsvall.se.
+ 47.040: sundsvall.se INFO Begin testing host ns.sundsvall.se.
+ 47.388: sundsvall.se INFO Begin testing address 194.71.24.156.
+ 47.785: sundsvall.se INFO Done testing address 194.71.24.156.
+ 47.785: sundsvall.se INFO Done testing host ns.sundsvall.se.
+ 47.785: sundsvall.se INFO SOA MNAME for sundsvall.se valid (ns.sundsvall.se).
+ 47.785: sundsvall.se INFO SOA MNAME for sundsvall.se (ns.sundsvall.se) listed as NS.
+ 48.280: sundsvall.se INFO SOA MNAME for sundsvall.se (ns.sundsvall.se) is authoritative.
+ 48.281: sundsvall.se INFO Begin testing email address hostmaster@sundsvall.se.
+ 48.632: sundsvall.se INFO Mail exchangers for hostmaster@sundsvall.se found mx-1.sundsvall.se,mx-2.sundsvall.se.
+ 48.632: sundsvall.se INFO All mail servers for hostmaster@sundsvall.se are in zone sundsvall.se.
+ 48.633: sundsvall.se INFO Begin testing host mx-1.sundsvall.se.
+ 49.375: sundsvall.se INFO Begin testing address 194.71.24.245.
+ 50.282: sundsvall.se INFO Done testing address 194.71.24.245.
+ 50.283: sundsvall.se INFO Done testing host mx-1.sundsvall.se.
+ 50.565: sundsvall.se INFO Begin testing host mx-2.sundsvall.se.
+ 51.077: sundsvall.se INFO Begin testing address 194.71.24.246.
+ 51.892: sundsvall.se INFO Done testing address 194.71.24.246.
+ 51.892: sundsvall.se INFO Done testing host mx-2.sundsvall.se.
+ 52.180: sundsvall.se INFO Done testing email address hostmaster@sundsvall.se.
+ 52.181: sundsvall.se INFO Successful attempt to deliver email for SOA RNAME of sundsvall.se (hostmaster.sundsvall.se) using hostmaster@sundsvall.se.
+ 52.181: sundsvall.se INFO SOA TTL for sundsvall.se OK (3600) - recommended >= 3600.
+ 52.181: sundsvall.se INFO SOA refresh for sundsvall.se OK (36000) - recommended >= 14400.
+ 52.181: sundsvall.se INFO SOA retry for sundsvall.se OK (3600) - recommended >= 3600.
+ 52.181: sundsvall.se INFO SOA expire for sundsvall.se OK (604800) - recommended >= 604800.
+ 52.181: sundsvall.se INFO SOA minimum for sundsvall.se OK (900) - recommended between 300 and 86400.
+ 52.181: sundsvall.se INFO Done testing SOA parameters for sundsvall.se.
+ 52.181: sundsvall.se INFO Begin testing connectivity for sundsvall.se.
+ 53.551: sundsvall.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 53.551: sundsvall.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 53.564: sundsvall.se INFO Done testing connectivity for sundsvall.se.
+ 53.564: sundsvall.se INFO Begin testing DNSSEC for sundsvall.se.
+ 53.621: sundsvall.se INFO Found DS record for sundsvall.se at parent.
+ 53.695: sundsvall.se INFO Nameserver 194.71.24.157 does DNSSEC extra processing.
+ 53.725: sundsvall.se INFO Nameserver 194.71.24.156 does DNSSEC extra processing.
+ 53.725: sundsvall.se INFO Servers for sundsvall.se have consistent extra processing status.
+ 53.800: sundsvall.se INFO Authenticated denial records found for sundsvall.se, of type NSEC3.
+ 53.845: sundsvall.se INFO NSEC3PARAM record found for sundsvall.se.
+ 53.845: sundsvall.se INFO NSEC3 for sundsvall.se is set to use 10 iterations, which is less than 100 and thus OK.
+ 53.845: sundsvall.se INFO Found DNSKEY record for sundsvall.se at child.
+ 53.845: sundsvall.se INFO Consistent security for sundsvall.se.
+ 53.845: sundsvall.se INFO Checking DNSSEC at child (sundsvall.se).
+ 53.846: sundsvall.se INFO sundsvall.se's key with tag 923 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 53.846: sundsvall.se INFO Algorithm number 7 is OK.
+ 53.846: sundsvall.se INFO sundsvall.se's key with tag 630 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 53.846: sundsvall.se INFO Algorithm number 7 is OK.
+ 53.846: sundsvall.se INFO DNSKEY sundsvall.se (tag 630) is marked as a secure entry point (SEP).
+ 53.846: sundsvall.se INFO DNSSEC signature expires at: Thu Mar 20 07:53:06 2014
+ 53.846: sundsvall.se INFO Duration for RRSIG(sundsvall.se/IN/DNSKEY/630) is OK (1211118 seconds).
+ 53.907: sundsvall.se INFO DNSSEC signature RRSIG(sundsvall.se/IN/DNSKEY/630) matches records.
+ 53.907: sundsvall.se INFO DNSSEC signature valid: RRSIG(sundsvall.se/IN/DNSKEY/630)
+ 53.907: sundsvall.se INFO DNSSEC signature expires at: Thu Mar 20 07:53:06 2014
+ 53.907: sundsvall.se INFO Duration for RRSIG(sundsvall.se/IN/DNSKEY/923) is OK (1211118 seconds).
+ 53.921: sundsvall.se INFO DNSSEC signature RRSIG(sundsvall.se/IN/DNSKEY/923) matches records.
+ 53.921: sundsvall.se INFO DNSSEC signature valid: RRSIG(sundsvall.se/IN/DNSKEY/923)
+ 53.921: sundsvall.se INFO Enough valid signatures found for sundsvall.se.
+ 53.990: sundsvall.se INFO DNSSEC signature expires at: Sat Mar 22 13:30:27 2014
+ 53.990: sundsvall.se INFO Duration for RRSIG(sundsvall.se/IN/SOA/923) is OK (1213200 seconds).
+ 53.990: sundsvall.se INFO DNSSEC signature RRSIG(sundsvall.se/IN/SOA/923) matches records.
+ 53.990: sundsvall.se INFO DNSSEC signature valid: RRSIG(sundsvall.se/IN/SOA/923)
+ 53.991: sundsvall.se INFO Enough valid signatures over SOA RRset found for sundsvall.se.
+ 53.991: sundsvall.se INFO DNSSEC child checks for sundsvall.se complete.
+ 53.991: sundsvall.se INFO Checking DNSSEC at parent of sundsvall.se.
+ 53.991: sundsvall.se INFO sundsvall.se's key with tag 630 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 53.991: sundsvall.se INFO Algorithm number 7 is OK.
+ 53.991: sundsvall.se INFO Parent DS(sundsvall.se/7/1/630) refers to valid key at child: DNSKEY(sundsvall.se/7/630)
+ 53.991: sundsvall.se INFO Parent DS(sundsvall.se) refers to secure entry point (SEP) at child: DS(sundsvall.se/7/1/630)
+ 53.991: sundsvall.se INFO sundsvall.se's key with tag 630 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 53.991: sundsvall.se INFO Algorithm number 7 is OK.
+ 54.025: sundsvall.se INFO Parent DS(sundsvall.se/7/2/630) refers to valid key at child: DNSKEY(sundsvall.se/7/630)
+ 54.026: sundsvall.se INFO Parent DS(sundsvall.se) refers to secure entry point (SEP) at child: DS(sundsvall.se/7/2/630)
+ 54.026: sundsvall.se INFO DNSSEC parent checks for sundsvall.se complete.
+ 54.026: sundsvall.se INFO Done testing DNSSEC for sundsvall.se.
+ 54.026: sundsvall.se INFO Test completed for zone sundsvall.se.

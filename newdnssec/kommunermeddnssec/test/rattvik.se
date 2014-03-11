@@ -1,0 +1,86 @@
+  0.000: rattvik.se INFO Begin testing zone rattvik.se with version 1.6.1.
+  1.588: rattvik.se INFO Begin testing delegation for rattvik.se.
+ 18.451: rattvik.se INFO Name servers listed at parent: dns5.telia.com,ns.rattvik.se
+ 21.198: rattvik.se INFO Name servers listed at child: dns5.telia.com,ns.rattvik.se
+ 21.198: rattvik.se NOTICE Too few IPv6 name servers (1).
+ 21.501: rattvik.se INFO Parent glue for rattvik.se found: ns.rattvik.se (62.20.0.44)
+ 21.613: rattvik.se INFO Checking glue for ns.rattvik.se (62.20.0.44).
+ 21.700: rattvik.se INFO Child glue for rattvik.se found: ns.rattvik.se (62.20.0.44)
+ 21.749: rattvik.se INFO Parent glue for rattvik.se found: ns.rattvik.se (62.20.0.44)
+ 22.796: rattvik.se INFO It is possible to build a referral packet for rattvik.se that works without EDNS0.
+ 23.969: rattvik.se INFO Previously used name servers for rattvik.se: 
+ 23.969: rattvik.se INFO Done testing delegation for rattvik.se.
+ 23.969: rattvik.se INFO Begin testing name server dns5.telia.com.
+ 23.969: rattvik.se INFO Begin testing host dns5.telia.com.
+ 24.026: rattvik.se INFO Begin testing address 81.228.11.68.
+ 36.263: rattvik.se INFO Done testing address 81.228.11.68.
+ 36.263: rattvik.se INFO Begin testing address 2001:2040:c001:101:0:0:0:4.
+ 39.116: rattvik.se INFO Done testing address 2001:2040:c001:101:0:0:0:4.
+ 39.116: rattvik.se INFO Done testing host dns5.telia.com.
+ 39.142: rattvik.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over UDP.
+ 39.166: rattvik.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over TCP.
+ 39.180: rattvik.se INFO Name server dns5.telia.com (81.228.11.68) is not recursive.
+ 39.275: rattvik.se INFO Name server dns5.telia.com (81.228.11.68) authoritative for rattvik.se.
+ 39.319: rattvik.se INFO Name server dns5.telia.com (81.228.11.68) closed for zone transfer of rattvik.se.
+ 39.373: rattvik.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 39.482: rattvik.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) answers queries over UDP.
+ 39.588: rattvik.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) answers queries over TCP.
+ 39.632: rattvik.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) is not recursive.
+ 39.884: rattvik.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) authoritative for rattvik.se.
+ 39.991: rattvik.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) closed for zone transfer of rattvik.se.
+ 40.091: rattvik.se INFO Legacy name server ID for dns5.telia.com (2001:2040:c001:101:0:0:0:4): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 40.223: rattvik.se INFO Done testing name server dns5.telia.com.
+ 40.223: rattvik.se INFO Begin testing name server ns.rattvik.se.
+ 40.223: rattvik.se INFO Begin testing host ns.rattvik.se.
+ 40.666: rattvik.se INFO Begin testing address 62.20.0.44.
+ 43.300: rattvik.se INFO Done testing address 62.20.0.44.
+ 43.301: rattvik.se INFO Done testing host ns.rattvik.se.
+ 43.609: rattvik.se INFO Name server ns.rattvik.se (62.20.0.44) answers queries over UDP.
+ 43.666: rattvik.se INFO Name server ns.rattvik.se (62.20.0.44) answers queries over TCP.
+ 43.710: rattvik.se INFO Name server ns.rattvik.se (62.20.0.44) is not recursive.
+ 43.823: rattvik.se INFO Name server ns.rattvik.se (62.20.0.44) authoritative for rattvik.se.
+ 44.083: rattvik.se NOTICE Name server ns.rattvik.se (62.20.0.44) open for zone transfer of rattvik.se.
+ 44.118: rattvik.se NOTICE No answer received from 62.20.0.44 when querying for hostname.bind/CH/TXT.
+ 56.289: rattvik.se INFO Done testing name server ns.rattvik.se.
+ 56.289: rattvik.se INFO Begin testing zone consistency for rattvik.se.
+ 56.665: rattvik.se INFO SOA at address 62.20.0.44 has serial 2005070997.
+ 56.691: rattvik.se INFO SOA at address 81.228.11.68 has serial 2005070997.
+ 56.905: rattvik.se INFO SOA at address 2001:2040:c001:101:0:0:0:4 has serial 2005070997.
+ 56.905: rattvik.se INFO All SOA records have consistent serial numbers.
+ 56.905: rattvik.se INFO All other fields in the SOA record are consistent among all name servers.
+ 57.528: rattvik.se NOTICE The listed nameservers for rattvik.se all report the same set of nameservers.
+ 57.528: rattvik.se INFO Done testing zone consistency for rattvik.se.
+ 57.548: rattvik.se INFO Begin testing SOA parameters for rattvik.se.
+ 57.577: rattvik.se INFO Found SOA record for rattvik.se.
+ 57.577: rattvik.se INFO Begin testing host csgskola.rattvik.se.
+ 58.245: rattvik.se ERROR No address found for csgskola.rattvik.se.
+ 58.245: rattvik.se INFO Done testing host csgskola.rattvik.se.
+ 58.245: rattvik.se WARNING Error while checking SOA MNAME for rattvik.se (csgskola.rattvik.se).
+ 58.245: rattvik.se NOTICE SOA MNAME for rattvik.se (csgskola.rattvik.se) not listed as NS.
+ 58.245: rattvik.se INFO Begin testing email address hostmaster@ns.rattvik.se.
+ 58.591: rattvik.se INFO Mail exchangers for hostmaster@ns.rattvik.se found ns.rattvik.se.
+ 58.591: rattvik.se INFO All mail servers for hostmaster@ns.rattvik.se are in zone rattvik.se.
+ 58.591: rattvik.se INFO Begin testing host ns.rattvik.se.
+ 58.864: rattvik.se INFO Begin testing address 62.20.0.44.
+ 59.165: rattvik.se INFO Done testing address 62.20.0.44.
+ 59.165: rattvik.se INFO Done testing host ns.rattvik.se.
+ 59.385: rattvik.se INFO Done testing email address hostmaster@ns.rattvik.se.
+ 59.385: rattvik.se INFO Successful attempt to deliver email for SOA RNAME of rattvik.se (hostmaster.ns.rattvik.se) using hostmaster@ns.rattvik.se.
+ 59.385: rattvik.se INFO SOA TTL for rattvik.se OK (86400) - recommended >= 3600.
+ 59.385: rattvik.se NOTICE SOA refresh for rattvik.se too small (10800) - recommended >= 14400.
+ 59.385: rattvik.se INFO SOA retry for rattvik.se OK (3600) - recommended >= 3600.
+ 59.385: rattvik.se INFO SOA expire for rattvik.se OK (604800) - recommended >= 604800.
+ 59.385: rattvik.se INFO SOA minimum for rattvik.se OK (86400) - recommended between 300 and 86400.
+ 59.385: rattvik.se INFO Done testing SOA parameters for rattvik.se.
+ 59.385: rattvik.se INFO Begin testing connectivity for rattvik.se.
+ 60.530: rattvik.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 61.584: rattvik.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 61.584: rattvik.se INFO Done testing connectivity for rattvik.se.
+ 61.584: rattvik.se INFO Begin testing DNSSEC for rattvik.se.
+ 61.629: rattvik.se INFO Did not find DS record for rattvik.se at parent.
+ 61.845: rattvik.se INFO Servers for rattvik.se have consistent extra processing status.
+ 61.885: rattvik.se INFO Authenticated denial records not found for rattvik.se.
+ 61.923: rattvik.se INFO Did not find DNSKEY record for rattvik.se at child.
+ 61.923: rattvik.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 61.923: rattvik.se INFO Done testing DNSSEC for rattvik.se.
+ 61.924: rattvik.se INFO Test completed for zone rattvik.se.

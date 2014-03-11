@@ -1,0 +1,139 @@
+  0.000: lodingen.kommune.no INFO Begin testing zone lodingen.kommune.no with version 1.6.1.
+  0.400: lodingen.kommune.no INFO Begin testing delegation for lodingen.kommune.no.
+  9.392: lodingen.kommune.no INFO Name servers listed at parent: dns1.as2116.net,dns2.as2116.net
+ 10.632: lodingen.kommune.no INFO Name servers listed at child: dns1.eunet.no,dns2.eunet.no
+ 10.632: lodingen.kommune.no ERROR Superfluous name server listed at parent: dns1.as2116.net
+ 10.632: lodingen.kommune.no ERROR Superfluous name server listed at parent: dns2.as2116.net
+ 10.632: lodingen.kommune.no ERROR Total parent/child glue mismatch.
+ 10.632: lodingen.kommune.no NOTICE Additional name server listed at child: dns1.eunet.no
+ 10.632: lodingen.kommune.no NOTICE Additional name server listed at child: dns2.eunet.no
+ 10.633: lodingen.kommune.no NOTICE Too few IPv6 name servers (1).
+ 10.769: lodingen.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.896: lodingen.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.025: lodingen.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.190: lodingen.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.564: lodingen.kommune.no INFO It is possible to build a referral packet for lodingen.kommune.no that works without EDNS0.
+ 13.160: lodingen.kommune.no INFO Previously used name servers for lodingen.kommune.no: 
+ 13.160: lodingen.kommune.no INFO Done testing delegation for lodingen.kommune.no.
+ 13.161: lodingen.kommune.no INFO Begin testing name server dns1.eunet.no.
+ 13.161: lodingen.kommune.no INFO Begin testing host dns1.eunet.no.
+ 13.161: lodingen.kommune.no INFO Begin testing address 193.75.75.1.
+ 20.562: lodingen.kommune.no INFO Done testing address 193.75.75.1.
+ 20.562: lodingen.kommune.no INFO Begin testing address 2001:8c0:2001:0:0:0:3:53.
+ 21.109: lodingen.kommune.no INFO Done testing address 2001:8c0:2001:0:0:0:3:53.
+ 21.109: lodingen.kommune.no INFO Done testing host dns1.eunet.no.
+ 21.167: lodingen.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) answers queries over UDP.
+ 21.203: lodingen.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) answers queries over TCP.
+ 21.228: lodingen.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) is not recursive.
+ 21.295: lodingen.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) authoritative for lodingen.kommune.no.
+ 21.350: lodingen.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) closed for zone transfer of lodingen.kommune.no.
+ 21.382: lodingen.kommune.no INFO Legacy name server ID for dns1.eunet.no (193.75.75.1): hostname.bind = alpha-a.server.as2116.net
+ 21.419: lodingen.kommune.no INFO Legacy name server ID for dns1.eunet.no (193.75.75.1): version.bind = Shirely you must be joking
+ 21.452: lodingen.kommune.no NOTICE No answer received from 193.75.75.1 when querying for version.server/CH/TXT.
+ 21.472: lodingen.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) answers queries over UDP.
+ 21.508: lodingen.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) answers queries over TCP.
+ 21.544: lodingen.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) is not recursive.
+ 21.652: lodingen.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) authoritative for lodingen.kommune.no.
+ 21.711: lodingen.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) closed for zone transfer of lodingen.kommune.no.
+ 21.737: lodingen.kommune.no INFO Legacy name server ID for dns1.eunet.no (2001:8c0:2001:0:0:0:3:53): hostname.bind = alpha-a.server.as2116.net
+ 21.792: lodingen.kommune.no INFO Legacy name server ID for dns1.eunet.no (2001:8c0:2001:0:0:0:3:53): version.bind = Shirely you must be joking
+ 21.833: lodingen.kommune.no NOTICE No answer received from 2001:8c0:2001:0:0:0:3:53 when querying for version.server/CH/TXT.
+ 21.833: lodingen.kommune.no INFO Done testing name server dns1.eunet.no.
+ 21.833: lodingen.kommune.no INFO Begin testing name server dns2.eunet.no.
+ 21.834: lodingen.kommune.no INFO Begin testing host dns2.eunet.no.
+ 22.002: lodingen.kommune.no INFO Begin testing address 148.122.208.226.
+ 28.259: lodingen.kommune.no INFO Done testing address 148.122.208.226.
+ 28.260: lodingen.kommune.no INFO Done testing host dns2.eunet.no.
+ 28.544: lodingen.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) answers queries over UDP.
+ 28.585: lodingen.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) answers queries over TCP.
+ 28.602: lodingen.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) is not recursive.
+ 28.725: lodingen.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) authoritative for lodingen.kommune.no.
+ 28.781: lodingen.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) closed for zone transfer of lodingen.kommune.no.
+ 28.820: lodingen.kommune.no INFO Legacy name server ID for dns2.eunet.no (148.122.208.226): hostname.bind = ny-ns2-eunet.oke.nextra.no
+ 28.858: lodingen.kommune.no INFO Legacy name server ID for dns2.eunet.no (148.122.208.226): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 28.925: lodingen.kommune.no NOTICE No answer received from 148.122.208.226 when querying for version.server/CH/TXT.
+ 28.925: lodingen.kommune.no INFO Done testing name server dns2.eunet.no.
+ 28.925: lodingen.kommune.no INFO Begin testing name server dns1.as2116.net.
+ 28.925: lodingen.kommune.no INFO Begin testing host dns1.as2116.net.
+ 28.926: lodingen.kommune.no INFO Begin testing address 193.75.75.1.
+ 28.955: lodingen.kommune.no INFO Done testing address 193.75.75.1.
+ 28.955: lodingen.kommune.no INFO Begin testing address 2001:8c0:2001:0:0:0:3:53.
+ 28.973: lodingen.kommune.no INFO Done testing address 2001:8c0:2001:0:0:0:3:53.
+ 28.973: lodingen.kommune.no INFO Done testing host dns1.as2116.net.
+ 29.023: lodingen.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) answers queries over UDP.
+ 29.072: lodingen.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) answers queries over TCP.
+ 29.088: lodingen.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) is not recursive.
+ 29.153: lodingen.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) authoritative for lodingen.kommune.no.
+ 29.189: lodingen.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) closed for zone transfer of lodingen.kommune.no.
+ 29.202: lodingen.kommune.no INFO Legacy name server ID for dns1.as2116.net (193.75.75.1): hostname.bind = alpha-a.server.as2116.net
+ 29.227: lodingen.kommune.no INFO Legacy name server ID for dns1.as2116.net (193.75.75.1): version.bind = Shirely you must be joking
+ 29.272: lodingen.kommune.no NOTICE No answer received from 193.75.75.1 when querying for version.server/CH/TXT.
+ 29.292: lodingen.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) answers queries over UDP.
+ 29.339: lodingen.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) answers queries over TCP.
+ 29.359: lodingen.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) is not recursive.
+ 29.439: lodingen.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) authoritative for lodingen.kommune.no.
+ 29.491: lodingen.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) closed for zone transfer of lodingen.kommune.no.
+ 29.508: lodingen.kommune.no INFO Legacy name server ID for dns1.as2116.net (2001:8c0:2001:0:0:0:3:53): hostname.bind = alpha-a.server.as2116.net
+ 29.526: lodingen.kommune.no INFO Legacy name server ID for dns1.as2116.net (2001:8c0:2001:0:0:0:3:53): version.bind = Shirely you must be joking
+ 29.563: lodingen.kommune.no NOTICE No answer received from 2001:8c0:2001:0:0:0:3:53 when querying for version.server/CH/TXT.
+ 29.563: lodingen.kommune.no INFO Done testing name server dns1.as2116.net.
+ 29.563: lodingen.kommune.no INFO Begin testing name server dns2.as2116.net.
+ 29.564: lodingen.kommune.no INFO Begin testing host dns2.as2116.net.
+ 29.688: lodingen.kommune.no INFO Begin testing address 148.122.208.226.
+ 29.911: lodingen.kommune.no INFO Done testing address 148.122.208.226.
+ 29.911: lodingen.kommune.no INFO Done testing host dns2.as2116.net.
+ 30.133: lodingen.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) answers queries over UDP.
+ 30.181: lodingen.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) answers queries over TCP.
+ 30.195: lodingen.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) is not recursive.
+ 30.249: lodingen.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) authoritative for lodingen.kommune.no.
+ 30.283: lodingen.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) closed for zone transfer of lodingen.kommune.no.
+ 30.300: lodingen.kommune.no INFO Legacy name server ID for dns2.as2116.net (148.122.208.226): hostname.bind = ny-ns2-eunet.oke.nextra.no
+ 30.313: lodingen.kommune.no INFO Legacy name server ID for dns2.as2116.net (148.122.208.226): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 30.339: lodingen.kommune.no NOTICE No answer received from 148.122.208.226 when querying for version.server/CH/TXT.
+ 30.339: lodingen.kommune.no INFO Done testing name server dns2.as2116.net.
+ 30.340: lodingen.kommune.no INFO Begin testing zone consistency for lodingen.kommune.no.
+ 30.596: lodingen.kommune.no INFO SOA at address 2001:8c0:2001:0:0:0:3:53 has serial 2010072901.
+ 30.609: lodingen.kommune.no INFO SOA at address 193.75.75.1 has serial 2010072901.
+ 30.631: lodingen.kommune.no INFO SOA at address 148.122.208.226 has serial 2010072901.
+ 30.631: lodingen.kommune.no INFO All SOA records have consistent serial numbers.
+ 30.631: lodingen.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 30.805: lodingen.kommune.no NOTICE The listed nameservers for lodingen.kommune.no all report the same set of nameservers.
+ 30.805: lodingen.kommune.no INFO Done testing zone consistency for lodingen.kommune.no.
+ 30.806: lodingen.kommune.no INFO Begin testing SOA parameters for lodingen.kommune.no.
+ 30.818: lodingen.kommune.no INFO Found SOA record for lodingen.kommune.no.
+ 30.819: lodingen.kommune.no INFO Begin testing host dns1.eunet.no.
+ 30.819: lodingen.kommune.no INFO Begin testing address 193.75.75.1.
+ 30.821: lodingen.kommune.no INFO Done testing address 193.75.75.1.
+ 30.821: lodingen.kommune.no INFO Begin testing address 2001:8c0:2001:0:0:0:3:53.
+ 30.822: lodingen.kommune.no INFO Done testing address 2001:8c0:2001:0:0:0:3:53.
+ 30.822: lodingen.kommune.no INFO Done testing host dns1.eunet.no.
+ 30.828: lodingen.kommune.no INFO SOA MNAME for lodingen.kommune.no valid (dns1.eunet.no).
+ 30.828: lodingen.kommune.no INFO SOA MNAME for lodingen.kommune.no (dns1.eunet.no) listed as NS.
+ 30.846: lodingen.kommune.no INFO SOA MNAME for lodingen.kommune.no (dns1.eunet.no) is authoritative.
+ 30.870: lodingen.kommune.no INFO SOA MNAME for lodingen.kommune.no (dns1.eunet.no) is authoritative.
+ 30.871: lodingen.kommune.no INFO Begin testing email address hostmaster@eunetnorge.no.
+ 31.088: lodingen.kommune.no INFO Mail exchangers for hostmaster@eunetnorge.no found eunetnorge.no.
+ 31.088: lodingen.kommune.no INFO Begin testing host eunetnorge.no.
+ 31.207: lodingen.kommune.no INFO Begin testing address 193.71.71.109.
+ 32.121: lodingen.kommune.no INFO Done testing address 193.71.71.109.
+ 32.121: lodingen.kommune.no INFO Done testing host eunetnorge.no.
+ 32.294: lodingen.kommune.no INFO Done testing email address hostmaster@eunetnorge.no.
+ 32.294: lodingen.kommune.no INFO Successful attempt to deliver email for SOA RNAME of lodingen.kommune.no (hostmaster.eunetnorge.no) using hostmaster@eunetnorge.no.
+ 32.294: lodingen.kommune.no INFO SOA TTL for lodingen.kommune.no OK (7200) - recommended >= 3600.
+ 32.294: lodingen.kommune.no INFO SOA refresh for lodingen.kommune.no OK (28800) - recommended >= 14400.
+ 32.294: lodingen.kommune.no INFO SOA retry for lodingen.kommune.no OK (3600) - recommended >= 3600.
+ 32.294: lodingen.kommune.no INFO SOA expire for lodingen.kommune.no OK (2592000) - recommended >= 604800.
+ 32.294: lodingen.kommune.no INFO SOA minimum for lodingen.kommune.no OK (600) - recommended between 300 and 86400.
+ 32.294: lodingen.kommune.no INFO Done testing SOA parameters for lodingen.kommune.no.
+ 32.294: lodingen.kommune.no INFO Begin testing connectivity for lodingen.kommune.no.
+ 33.356: lodingen.kommune.no INFO Zone announced by more than one ASN.
+ 33.796: lodingen.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 33.796: lodingen.kommune.no INFO Done testing connectivity for lodingen.kommune.no.
+ 33.796: lodingen.kommune.no INFO Begin testing DNSSEC for lodingen.kommune.no.
+ 33.900: lodingen.kommune.no INFO Did not find DS record for lodingen.kommune.no at parent.
+ 33.983: lodingen.kommune.no INFO Servers for lodingen.kommune.no have consistent extra processing status.
+ 34.008: lodingen.kommune.no INFO Authenticated denial records not found for lodingen.kommune.no.
+ 34.028: lodingen.kommune.no INFO Did not find DNSKEY record for lodingen.kommune.no at child.
+ 34.028: lodingen.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 34.028: lodingen.kommune.no INFO Done testing DNSSEC for lodingen.kommune.no.
+ 34.028: lodingen.kommune.no INFO Test completed for zone lodingen.kommune.no.

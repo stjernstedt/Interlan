@@ -1,0 +1,89 @@
+  0.000: lidkoping.se INFO Begin testing zone lidkoping.se with version 1.0.1.
+  0.002: lidkoping.se INFO Begin testing delegation for lidkoping.se.
+  0.770: lidkoping.se INFO Name servers listed at parent: dns1.fastbit.se,dns2.fastbit.se
+  0.921: lidkoping.se INFO Name servers listed at child: dns1.fastbit.se,dns2.fastbit.se
+  0.922: lidkoping.se NOTICE No IPv6 name servers found.
+  0.936: lidkoping.se INFO Parent glue for lidkoping.se found: dns1.fastbit.se (83.223.5.2)
+  0.972: lidkoping.se INFO Parent glue for lidkoping.se found: dns2.fastbit.se (83.223.5.3)
+  0.997: lidkoping.se INFO Checking glue for dns1.fastbit.se (83.223.5.2).
+  0.997: lidkoping.se INFO Checking glue for dns2.fastbit.se (83.223.5.3).
+  0.998: lidkoping.se INFO Done testing delegation for lidkoping.se.
+  0.998: lidkoping.se INFO Begin testing name server dns1.fastbit.se.
+  0.999: lidkoping.se INFO Begin testing host dns1.fastbit.se.
+  1.000: lidkoping.se INFO Begin testing address 83.223.5.2.
+  3.050: lidkoping.se INFO Done testing address 83.223.5.2.
+  3.050: lidkoping.se INFO Done testing host dns1.fastbit.se.
+  3.262: lidkoping.se INFO Name server dns1.fastbit.se (83.223.5.2) is not recursive.
+  3.293: lidkoping.se INFO Name server dns1.fastbit.se (83.223.5.2) authoritative for lidkoping.se.
+  3.317: lidkoping.se INFO Name server dns1.fastbit.se (83.223.5.2) answers queries over UDP.
+  3.366: lidkoping.se INFO Name server dns1.fastbit.se (83.223.5.2) answers queries over TCP.
+  3.537: lidkoping.se INFO Name server dns1.fastbit.se (83.223.5.2) closed for zone transfer of lidkoping.se.
+  3.558: lidkoping.se NOTICE No answer received from 83.223.5.2 when querying for hostname.bind/CH/TXT.
+ 21.581: lidkoping.se INFO Done testing name server dns1.fastbit.se.
+ 21.581: lidkoping.se INFO Begin testing name server dns2.fastbit.se.
+ 21.581: lidkoping.se INFO Begin testing host dns2.fastbit.se.
+ 21.583: lidkoping.se INFO Begin testing address 83.223.5.3.
+ 21.606: lidkoping.se INFO Done testing address 83.223.5.3.
+ 21.606: lidkoping.se INFO Done testing host dns2.fastbit.se.
+ 21.816: lidkoping.se INFO Name server dns2.fastbit.se (83.223.5.3) is not recursive.
+ 21.840: lidkoping.se INFO Name server dns2.fastbit.se (83.223.5.3) authoritative for lidkoping.se.
+ 21.864: lidkoping.se INFO Name server dns2.fastbit.se (83.223.5.3) answers queries over UDP.
+ 21.903: lidkoping.se INFO Name server dns2.fastbit.se (83.223.5.3) answers queries over TCP.
+ 22.165: lidkoping.se INFO Name server dns2.fastbit.se (83.223.5.3) closed for zone transfer of lidkoping.se.
+ 22.185: lidkoping.se NOTICE No answer received from 83.223.5.3 when querying for hostname.bind/CH/TXT.
+ 40.208: lidkoping.se INFO Done testing name server dns2.fastbit.se.
+ 40.209: lidkoping.se INFO Begin testing zone consistency for lidkoping.se.
+ 40.241: lidkoping.se INFO SOA at address 83.223.5.2 has serial 2010032301.
+ 40.266: lidkoping.se INFO SOA at address 83.223.5.3 has serial 2010032301.
+ 40.267: lidkoping.se INFO All SOA records have consistent serial numbers.
+ 40.268: lidkoping.se INFO All SOA records are consistent among all name servers.
+ 40.268: lidkoping.se INFO Done testing zone consistency for lidkoping.se.
+ 40.268: lidkoping.se INFO Begin testing SOA parameters for lidkoping.se.
+ 40.293: lidkoping.se INFO Found SOA record for lidkoping.se.
+ 40.293: lidkoping.se INFO Begin testing host dns1.fastbit.se.
+ 40.294: lidkoping.se INFO Begin testing address 83.223.5.2.
+ 40.298: lidkoping.se INFO Done testing address 83.223.5.2.
+ 40.298: lidkoping.se INFO Done testing host dns1.fastbit.se.
+ 40.298: lidkoping.se INFO SOA MNAME for lidkoping.se valid (dns1.fastbit.se).
+ 40.299: lidkoping.se INFO SOA MNAME for lidkoping.se (dns1.fastbit.se) listed as NS.
+ 40.323: lidkoping.se INFO SOA MNAME for lidkoping.se (dns1.fastbit.se) is authoritative.
+ 40.324: lidkoping.se INFO Begin testing email address gw1@grundskolan.lidkoping.se.
+ 40.352: lidkoping.se INFO Mail exchangers for gw1@grundskolan.lidkoping.se found mailtvatt1.sbl.se,mailtvatt2.sbl.se.
+ 40.353: lidkoping.se INFO Begin testing host mailtvatt1.sbl.se.
+ 40.401: lidkoping.se INFO Begin testing address 83.218.65.130.
+ 40.486: lidkoping.se INFO Done testing address 83.218.65.130.
+ 40.486: lidkoping.se INFO Done testing host mailtvatt1.sbl.se.
+ 40.487: lidkoping.se INFO Begin testing mail server mailtvatt1.sbl.se (83.218.65.130) with gw1@grundskolan.lidkoping.se.
+ 40.592: lidkoping.se INFO SMTP banner: mailtvatt1.sbl.se ESMTP Postfix
+ 40.672: lidkoping.se INFO SMTP testing of mailtvatt1.sbl.se (83.218.65.130) with gw1@grundskolan.lidkoping.se succeeded without errors.
+ 40.673: lidkoping.se INFO Done testing mail server mailtvatt1.sbl.se (83.218.65.130) with gw1@grundskolan.lidkoping.se.
+ 40.673: lidkoping.se INFO Begin testing host mailtvatt2.sbl.se.
+ 40.698: lidkoping.se INFO Begin testing address 83.218.64.244.
+ 40.729: lidkoping.se INFO Done testing address 83.218.64.244.
+ 40.729: lidkoping.se INFO Done testing host mailtvatt2.sbl.se.
+ 40.730: lidkoping.se INFO Delivery over IPv4 to gw1@grundskolan.lidkoping.se ok.
+ 40.731: lidkoping.se INFO Delivery over IPv6 to gw1@grundskolan.lidkoping.se could not be done.
+ 40.731: lidkoping.se INFO Done testing email address gw1@grundskolan.lidkoping.se.
+ 40.731: lidkoping.se INFO Successful attempt to deliver email for SOA RNAME of lidkoping.se (gw1.grundskolan.lidkoping.se) using gw1@grundskolan.lidkoping.se.
+ 40.731: lidkoping.se INFO SOA TTL for lidkoping.se OK (3600) - recommended >= 3600.
+ 40.731: lidkoping.se NOTICE SOA refresh for lidkoping.se too small (3600) - recommended >= 14400.
+ 40.731: lidkoping.se NOTICE SOA refresh for lidkoping.se lower than retry (3600 vs 3600).
+ 40.732: lidkoping.se INFO SOA retry for lidkoping.se OK (3600) - recommended >= 3600.
+ 40.732: lidkoping.se INFO SOA expire for lidkoping.se OK (604800) - recommended >= 604800.
+ 40.732: lidkoping.se INFO SOA minimum for lidkoping.se OK (3600) - recommended between 300 and 86400.
+ 40.732: lidkoping.se INFO Done testing SOA parameters for lidkoping.se.
+ 40.732: lidkoping.se INFO Begin testing connectivity for lidkoping.se.
+ 41.040: lidkoping.se INFO Name server 83.223.5.2 announced by: 42318
+ 41.172: lidkoping.se INFO Name server 83.223.5.3 announced by: 42318
+ 41.172: lidkoping.se INFO Zone announced by ASN: 42318
+ 41.172: lidkoping.se NOTICE Zone announced by only one ASN (1).
+ 41.173: lidkoping.se INFO Zone announced by IPv6 ASN: 
+ 41.173: lidkoping.se NOTICE Zone announced by only one IPv6 ASN (0).
+ 41.173: lidkoping.se INFO Done testing connectivity for lidkoping.se.
+ 41.174: lidkoping.se INFO Begin testing DNSSEC for lidkoping.se.
+ 41.201: lidkoping.se INFO Did not find DS record for lidkoping.se at parent.
+ 41.278: lidkoping.se INFO Servers for lidkoping.se have consistent extra processing status.
+ 41.279: lidkoping.se INFO Did not find DNSKEY record for lidkoping.se at child.
+ 41.279: lidkoping.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 41.279: lidkoping.se INFO Done testing DNSSEC for lidkoping.se.
+ 41.279: lidkoping.se INFO Test completed for zone lidkoping.se.

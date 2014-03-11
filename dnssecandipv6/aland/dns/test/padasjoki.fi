@@ -1,0 +1,88 @@
+  0.000: padasjoki.fi INFO Begin testing zone padasjoki.fi with version 1.5.0.
+  0.910: padasjoki.fi INFO Begin testing delegation for padasjoki.fi.
+ 39.957: padasjoki.fi INFO Name servers listed at parent: ns1.taajama.fi,ns4.taajama.fi
+ 48.781: padasjoki.fi INFO Name servers listed at child: ns1.taajama.fi,ns4.taajama.fi
+ 48.781: padasjoki.fi NOTICE No IPv6 name servers found.
+ 49.270: padasjoki.fi INFO Parent glue for padasjoki.fi found: ns1.taajama.fi (83.102.40.26)
+ 49.721: padasjoki.fi INFO Parent glue for padasjoki.fi found: ns4.taajama.fi (83.102.40.27)
+ 50.047: padasjoki.fi INFO Checking glue for ns1.taajama.fi (83.102.40.26).
+ 50.047: padasjoki.fi INFO Checking glue for ns4.taajama.fi (83.102.40.27).
+ 50.176: padasjoki.fi INFO Parent glue for padasjoki.fi found: ns1.taajama.fi (83.102.40.26)
+ 50.176: padasjoki.fi INFO Parent glue for padasjoki.fi found: ns4.taajama.fi (83.102.40.27)
+ 53.694: padasjoki.fi INFO It is possible to build a referral packet for padasjoki.fi that works without EDNS0.
+ 56.340: padasjoki.fi INFO Previously used name servers for padasjoki.fi: 
+ 56.340: padasjoki.fi INFO Done testing delegation for padasjoki.fi.
+ 56.341: padasjoki.fi INFO Begin testing name server ns1.taajama.fi.
+ 56.341: padasjoki.fi INFO Begin testing host ns1.taajama.fi.
+ 57.702: padasjoki.fi INFO Begin testing address 83.102.40.26.
+ 94.248: padasjoki.fi INFO Done testing address 83.102.40.26.
+ 94.248: padasjoki.fi INFO Done testing host ns1.taajama.fi.
+ 96.561: padasjoki.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over UDP.
+ 96.973: padasjoki.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over TCP.
+ 97.420: padasjoki.fi INFO Name server ns1.taajama.fi (83.102.40.26) is not recursive.
+ 99.020: padasjoki.fi INFO Name server ns1.taajama.fi (83.102.40.26) authoritative for padasjoki.fi.
+ 99.120: padasjoki.fi INFO Name server ns1.taajama.fi (83.102.40.26) closed for zone transfer of padasjoki.fi.
+ 99.592: padasjoki.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): hostname.bind = saharausku
+ 99.860: padasjoki.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): version.bind = Not disclosed
+100.363: padasjoki.fi NOTICE No answer received from 83.102.40.26 when querying for version.server/CH/TXT.
+100.364: padasjoki.fi INFO Done testing name server ns1.taajama.fi.
+100.364: padasjoki.fi INFO Begin testing name server ns4.taajama.fi.
+100.364: padasjoki.fi INFO Begin testing host ns4.taajama.fi.
+102.216: padasjoki.fi INFO Begin testing address 83.102.40.27.
+106.356: padasjoki.fi INFO Done testing address 83.102.40.27.
+106.356: padasjoki.fi INFO Done testing host ns4.taajama.fi.
+108.545: padasjoki.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over UDP.
+108.833: padasjoki.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over TCP.
+109.140: padasjoki.fi INFO Name server ns4.taajama.fi (83.102.40.27) is not recursive.
+110.115: padasjoki.fi INFO Name server ns4.taajama.fi (83.102.40.27) authoritative for padasjoki.fi.
+110.266: padasjoki.fi INFO Name server ns4.taajama.fi (83.102.40.27) closed for zone transfer of padasjoki.fi.
+110.515: padasjoki.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): hostname.bind = lapiorausku
+110.830: padasjoki.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): version.bind = Not disclosed
+111.261: padasjoki.fi NOTICE No answer received from 83.102.40.27 when querying for version.server/CH/TXT.
+111.261: padasjoki.fi INFO Done testing name server ns4.taajama.fi.
+111.261: padasjoki.fi INFO Begin testing zone consistency for padasjoki.fi.
+117.853: padasjoki.fi INFO SOA at address 83.102.40.26 has serial 2012020201.
+118.095: padasjoki.fi INFO SOA at address 83.102.40.27 has serial 2012020201.
+118.095: padasjoki.fi INFO All SOA records have consistent serial numbers.
+118.095: padasjoki.fi INFO All other fields in the SOA record are consistent among all name servers.
+123.613: padasjoki.fi NOTICE The listed nameservers for padasjoki.fi all report the same set of nameservers.
+123.613: padasjoki.fi INFO Done testing zone consistency for padasjoki.fi.
+123.613: padasjoki.fi INFO Begin testing SOA parameters for padasjoki.fi.
+123.988: padasjoki.fi INFO Found SOA record for padasjoki.fi.
+123.988: padasjoki.fi INFO Begin testing host ns1.taajama.fi.
+125.868: padasjoki.fi INFO Begin testing address 83.102.40.26.
+127.669: padasjoki.fi INFO Done testing address 83.102.40.26.
+127.670: padasjoki.fi INFO Done testing host ns1.taajama.fi.
+127.670: padasjoki.fi INFO SOA MNAME for padasjoki.fi valid (ns1.taajama.fi).
+127.670: padasjoki.fi INFO SOA MNAME for padasjoki.fi (ns1.taajama.fi) listed as NS.
+129.764: padasjoki.fi INFO SOA MNAME for padasjoki.fi (ns1.taajama.fi) is authoritative.
+129.764: padasjoki.fi INFO Begin testing email address hostmaster@taajama.com.
+131.357: padasjoki.fi INFO Mail exchangers for hostmaster@taajama.com found spp.taajama.fi,mx2.taajama.com.
+131.358: padasjoki.fi INFO Begin testing host spp.taajama.fi.
+135.336: padasjoki.fi INFO Begin testing address 217.78.212.151.
+138.924: padasjoki.fi INFO Done testing address 217.78.212.151.
+138.924: padasjoki.fi INFO Done testing host spp.taajama.fi.
+140.787: padasjoki.fi INFO Begin testing host mx2.taajama.com.
+143.688: padasjoki.fi INFO Begin testing address 83.102.41.75.
+147.340: padasjoki.fi INFO Done testing address 83.102.41.75.
+147.340: padasjoki.fi INFO Done testing host mx2.taajama.com.
+148.785: padasjoki.fi INFO Done testing email address hostmaster@taajama.com.
+148.785: padasjoki.fi INFO Successful attempt to deliver email for SOA RNAME of padasjoki.fi (hostmaster.taajama.com) using hostmaster@taajama.com.
+148.785: padasjoki.fi INFO SOA TTL for padasjoki.fi OK (3600) - recommended >= 3600.
+148.785: padasjoki.fi INFO SOA refresh for padasjoki.fi OK (28800) - recommended >= 14400.
+148.785: padasjoki.fi INFO SOA retry for padasjoki.fi OK (7200) - recommended >= 3600.
+148.786: padasjoki.fi INFO SOA expire for padasjoki.fi OK (1814400) - recommended >= 604800.
+148.786: padasjoki.fi INFO SOA minimum for padasjoki.fi OK (86400) - recommended between 300 and 86400.
+148.786: padasjoki.fi INFO Done testing SOA parameters for padasjoki.fi.
+148.786: padasjoki.fi INFO Begin testing connectivity for padasjoki.fi.
+155.063: padasjoki.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+155.063: padasjoki.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+155.167: padasjoki.fi INFO Done testing connectivity for padasjoki.fi.
+155.168: padasjoki.fi INFO Begin testing DNSSEC for padasjoki.fi.
+155.606: padasjoki.fi INFO Did not find DS record for padasjoki.fi at parent.
+156.218: padasjoki.fi INFO Servers for padasjoki.fi have consistent extra processing status.
+156.548: padasjoki.fi INFO Authenticated denial records not found for padasjoki.fi.
+156.860: padasjoki.fi INFO Did not find DNSKEY record for padasjoki.fi at child.
+156.861: padasjoki.fi INFO No DNSKEY(s) found at child, other tests skipped.
+156.861: padasjoki.fi INFO Done testing DNSSEC for padasjoki.fi.
+156.862: padasjoki.fi INFO Test completed for zone padasjoki.fi.

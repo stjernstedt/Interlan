@@ -1,0 +1,85 @@
+  0.000: froya.kommune.no INFO Begin testing zone froya.kommune.no with version 1.6.1.
+  0.402: froya.kommune.no INFO Begin testing delegation for froya.kommune.no.
+  8.405: froya.kommune.no INFO Name servers listed at parent: nidaros1.driftsparken.no,pingvin1.driftsparken.no
+  9.637: froya.kommune.no INFO Name servers listed at child: nidaros1.driftsparken.no,pingvin1.driftsparken.no
+  9.638: froya.kommune.no NOTICE No IPv6 name servers found.
+  9.810: froya.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.948: froya.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.098: froya.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.239: froya.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.943: froya.kommune.no INFO It is possible to build a referral packet for froya.kommune.no that works without EDNS0.
+ 11.374: froya.kommune.no INFO Previously used name servers for froya.kommune.no: 
+ 11.375: froya.kommune.no INFO Done testing delegation for froya.kommune.no.
+ 11.375: froya.kommune.no INFO Begin testing name server nidaros1.driftsparken.no.
+ 11.375: froya.kommune.no INFO Begin testing host nidaros1.driftsparken.no.
+ 11.654: froya.kommune.no INFO Begin testing address 31.185.25.214.
+ 17.033: froya.kommune.no INFO Done testing address 31.185.25.214.
+ 17.033: froya.kommune.no INFO Done testing host nidaros1.driftsparken.no.
+ 17.301: froya.kommune.no INFO Name server nidaros1.driftsparken.no (31.185.25.214) answers queries over UDP.
+ 19.332: froya.kommune.no NOTICE DNS lookup error (connection failed).
+ 19.332: froya.kommune.no ERROR Name server nidaros1.driftsparken.no (31.185.25.214) does not answer queries over TCP.
+ 19.362: froya.kommune.no INFO Name server nidaros1.driftsparken.no (31.185.25.214) is not recursive.
+ 21.430: froya.kommune.no NOTICE DNS lookup error (connection failed).
+ 21.430: froya.kommune.no INFO Name server nidaros1.driftsparken.no (31.185.25.214) authoritative for froya.kommune.no.
+ 21.430: froya.kommune.no INFO Name server nidaros1.driftsparken.no (31.185.25.214) not checked for zone transfer of froya.kommune.no.
+ 21.430: froya.kommune.no INFO Name server nidaros1.driftsparken.no (31.185.25.214) not checked for legacy name server ID.
+ 21.430: froya.kommune.no INFO Done testing name server nidaros1.driftsparken.no.
+ 21.431: froya.kommune.no INFO Begin testing name server pingvin1.driftsparken.no.
+ 21.431: froya.kommune.no INFO Begin testing host pingvin1.driftsparken.no.
+ 21.705: froya.kommune.no INFO Begin testing address 31.185.25.212.
+ 22.864: froya.kommune.no INFO Done testing address 31.185.25.212.
+ 22.864: froya.kommune.no INFO Done testing host pingvin1.driftsparken.no.
+ 23.043: froya.kommune.no INFO Name server pingvin1.driftsparken.no (31.185.25.212) answers queries over UDP.
+ 25.074: froya.kommune.no NOTICE DNS lookup error (connection failed).
+ 25.074: froya.kommune.no ERROR Name server pingvin1.driftsparken.no (31.185.25.212) does not answer queries over TCP.
+ 25.089: froya.kommune.no INFO Name server pingvin1.driftsparken.no (31.185.25.212) is not recursive.
+ 27.168: froya.kommune.no NOTICE DNS lookup error (connection failed).
+ 27.168: froya.kommune.no INFO Name server pingvin1.driftsparken.no (31.185.25.212) authoritative for froya.kommune.no.
+ 27.169: froya.kommune.no INFO Name server pingvin1.driftsparken.no (31.185.25.212) not checked for zone transfer of froya.kommune.no.
+ 27.169: froya.kommune.no INFO Name server pingvin1.driftsparken.no (31.185.25.212) not checked for legacy name server ID.
+ 27.169: froya.kommune.no INFO Done testing name server pingvin1.driftsparken.no.
+ 27.169: froya.kommune.no INFO Begin testing zone consistency for froya.kommune.no.
+ 31.987: froya.kommune.no INFO SOA at address 31.185.25.214 has serial 2014012802.
+ 32.003: froya.kommune.no INFO SOA at address 31.185.25.212 has serial 2014012802.
+ 32.003: froya.kommune.no INFO All SOA records have consistent serial numbers.
+ 32.003: froya.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 32.323: froya.kommune.no NOTICE The listed nameservers for froya.kommune.no all report the same set of nameservers.
+ 32.324: froya.kommune.no INFO Done testing zone consistency for froya.kommune.no.
+ 32.324: froya.kommune.no INFO Begin testing SOA parameters for froya.kommune.no.
+ 32.341: froya.kommune.no INFO Found SOA record for froya.kommune.no.
+ 32.341: froya.kommune.no INFO Begin testing host nidaros1.driftsparken.no.
+ 32.454: froya.kommune.no INFO Begin testing address 31.185.25.214.
+ 32.574: froya.kommune.no INFO Done testing address 31.185.25.214.
+ 32.575: froya.kommune.no INFO Done testing host nidaros1.driftsparken.no.
+ 32.575: froya.kommune.no INFO SOA MNAME for froya.kommune.no valid (nidaros1.driftsparken.no).
+ 32.575: froya.kommune.no INFO SOA MNAME for froya.kommune.no (nidaros1.driftsparken.no) listed as NS.
+ 32.687: froya.kommune.no INFO SOA MNAME for froya.kommune.no (nidaros1.driftsparken.no) is authoritative.
+ 32.687: froya.kommune.no INFO Begin testing email address hostmaster@driftsparken.no.
+ 32.770: froya.kommune.no INFO Mail exchangers for hostmaster@driftsparken.no found spamass.driftsparken.no.
+ 32.771: froya.kommune.no INFO Begin testing host spamass.driftsparken.no.
+ 33.007: froya.kommune.no INFO Begin testing address 178.164.2.185.
+ 33.547: froya.kommune.no INFO Done testing address 178.164.2.185.
+ 33.547: froya.kommune.no INFO Done testing host spamass.driftsparken.no.
+ 33.646: froya.kommune.no INFO Done testing email address hostmaster@driftsparken.no.
+ 33.647: froya.kommune.no INFO Successful attempt to deliver email for SOA RNAME of froya.kommune.no (hostmaster.driftsparken.no) using hostmaster@driftsparken.no.
+ 33.647: froya.kommune.no INFO SOA TTL for froya.kommune.no OK (3600) - recommended >= 3600.
+ 33.647: froya.kommune.no INFO SOA refresh for froya.kommune.no OK (86400) - recommended >= 14400.
+ 33.647: froya.kommune.no INFO SOA retry for froya.kommune.no OK (7200) - recommended >= 3600.
+ 33.647: froya.kommune.no INFO SOA expire for froya.kommune.no OK (3600000) - recommended >= 604800.
+ 33.647: froya.kommune.no INFO SOA minimum for froya.kommune.no OK (86400) - recommended between 300 and 86400.
+ 33.647: froya.kommune.no INFO Done testing SOA parameters for froya.kommune.no.
+ 33.648: froya.kommune.no INFO Begin testing connectivity for froya.kommune.no.
+ 34.452: froya.kommune.no NOTICE Zone announced by fewer than two IPv4 ASN.
+ 34.452: froya.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 34.453: froya.kommune.no INFO Done testing connectivity for froya.kommune.no.
+ 34.453: froya.kommune.no INFO Begin testing DNSSEC for froya.kommune.no.
+ 34.531: froya.kommune.no INFO Did not find DS record for froya.kommune.no at parent.
+ 36.547: froya.kommune.no NOTICE DNS lookup error (connection failed).
+ 38.560: froya.kommune.no NOTICE DNS lookup error (connection failed).
+ 38.560: froya.kommune.no INFO Servers for froya.kommune.no have consistent extra processing status.
+ 42.584: froya.kommune.no NOTICE DNS lookup error (connection failed).
+ 42.585: froya.kommune.no INFO Authenticated denial records not found for froya.kommune.no.
+ 42.600: froya.kommune.no INFO Did not find DNSKEY record for froya.kommune.no at child.
+ 42.600: froya.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 42.600: froya.kommune.no INFO Done testing DNSSEC for froya.kommune.no.
+ 42.600: froya.kommune.no INFO Test completed for zone froya.kommune.no.

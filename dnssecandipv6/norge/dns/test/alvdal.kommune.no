@@ -1,0 +1,88 @@
+  0.000: alvdal.kommune.no INFO Begin testing zone alvdal.kommune.no with version 1.6.1.
+  0.405: alvdal.kommune.no INFO Begin testing delegation for alvdal.kommune.no.
+  7.738: alvdal.kommune.no INFO Name servers listed at parent: ns.fastname.no,ns2.fastname.no
+  8.868: alvdal.kommune.no INFO Name servers listed at child: ns.fastname.no,ns2.fastname.no
+  8.868: alvdal.kommune.no NOTICE No IPv6 name servers found.
+  8.992: alvdal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.121: alvdal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.318: alvdal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.458: alvdal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.057: alvdal.kommune.no INFO It is possible to build a referral packet for alvdal.kommune.no that works without EDNS0.
+ 10.584: alvdal.kommune.no INFO Previously used name servers for alvdal.kommune.no: 
+ 10.584: alvdal.kommune.no INFO Done testing delegation for alvdal.kommune.no.
+ 10.585: alvdal.kommune.no INFO Begin testing name server ns.fastname.no.
+ 10.585: alvdal.kommune.no INFO Begin testing host ns.fastname.no.
+ 10.857: alvdal.kommune.no INFO Begin testing address 85.19.150.98.
+ 19.863: alvdal.kommune.no INFO Done testing address 85.19.150.98.
+ 19.863: alvdal.kommune.no INFO Done testing host ns.fastname.no.
+ 20.035: alvdal.kommune.no INFO Name server ns.fastname.no (85.19.150.98) answers queries over UDP.
+ 20.062: alvdal.kommune.no INFO Name server ns.fastname.no (85.19.150.98) answers queries over TCP.
+ 20.096: alvdal.kommune.no INFO Name server ns.fastname.no (85.19.150.98) is not recursive.
+ 20.167: alvdal.kommune.no INFO Name server ns.fastname.no (85.19.150.98) authoritative for alvdal.kommune.no.
+ 20.207: alvdal.kommune.no INFO Name server ns.fastname.no (85.19.150.98) closed for zone transfer of alvdal.kommune.no.
+ 20.241: alvdal.kommune.no INFO Legacy name server ID for ns.fastname.no (85.19.150.98): version.bind = Served by PowerDNS - http://www.powerdns.com
+ 20.322: alvdal.kommune.no INFO Done testing name server ns.fastname.no.
+ 20.322: alvdal.kommune.no INFO Begin testing name server ns2.fastname.no.
+ 20.322: alvdal.kommune.no INFO Begin testing host ns2.fastname.no.
+ 20.491: alvdal.kommune.no INFO Begin testing address 85.252.49.116.
+ 22.755: alvdal.kommune.no INFO Done testing address 85.252.49.116.
+ 22.755: alvdal.kommune.no INFO Done testing host ns2.fastname.no.
+ 23.018: alvdal.kommune.no INFO Name server ns2.fastname.no (85.252.49.116) answers queries over UDP.
+ 23.072: alvdal.kommune.no INFO Name server ns2.fastname.no (85.252.49.116) answers queries over TCP.
+ 23.093: alvdal.kommune.no INFO Name server ns2.fastname.no (85.252.49.116) is not recursive.
+ 23.198: alvdal.kommune.no INFO Name server ns2.fastname.no (85.252.49.116) authoritative for alvdal.kommune.no.
+ 23.251: alvdal.kommune.no INFO Name server ns2.fastname.no (85.252.49.116) closed for zone transfer of alvdal.kommune.no.
+ 23.288: alvdal.kommune.no INFO Legacy name server ID for ns2.fastname.no (85.252.49.116): version.bind = Served by PowerDNS - http://www.powerdns.com
+ 23.424: alvdal.kommune.no INFO Done testing name server ns2.fastname.no.
+ 23.424: alvdal.kommune.no INFO Begin testing zone consistency for alvdal.kommune.no.
+ 24.499: alvdal.kommune.no INFO SOA at address 85.19.150.98 has serial 2012032202.
+ 24.525: alvdal.kommune.no INFO SOA at address 85.252.49.116 has serial 2012032202.
+ 24.525: alvdal.kommune.no INFO All SOA records have consistent serial numbers.
+ 24.525: alvdal.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 25.127: alvdal.kommune.no NOTICE The listed nameservers for alvdal.kommune.no all report the same set of nameservers.
+ 25.127: alvdal.kommune.no INFO Done testing zone consistency for alvdal.kommune.no.
+ 25.127: alvdal.kommune.no INFO Begin testing SOA parameters for alvdal.kommune.no.
+ 25.157: alvdal.kommune.no INFO Found SOA record for alvdal.kommune.no.
+ 25.158: alvdal.kommune.no INFO Begin testing host ns.fastname.no.
+ 25.418: alvdal.kommune.no INFO Begin testing address 85.19.150.98.
+ 25.605: alvdal.kommune.no INFO Done testing address 85.19.150.98.
+ 25.605: alvdal.kommune.no INFO Done testing host ns.fastname.no.
+ 25.605: alvdal.kommune.no INFO SOA MNAME for alvdal.kommune.no valid (ns.fastname.no).
+ 25.606: alvdal.kommune.no INFO SOA MNAME for alvdal.kommune.no (ns.fastname.no) listed as NS.
+ 25.839: alvdal.kommune.no INFO SOA MNAME for alvdal.kommune.no (ns.fastname.no) is authoritative.
+ 25.839: alvdal.kommune.no INFO Begin testing email address hostmaster@fastname.no.
+ 26.038: alvdal.kommune.no INFO Mail exchangers for hostmaster@fastname.no found mailscan03.fastname.no,mailscan02.fastname.no,mailscan01.fastname.no.
+ 26.038: alvdal.kommune.no INFO Begin testing host mailscan03.fastname.no.
+ 26.492: alvdal.kommune.no INFO Begin testing address 85.19.150.232.
+ 27.315: alvdal.kommune.no INFO Done testing address 85.19.150.232.
+ 27.315: alvdal.kommune.no INFO Done testing host mailscan03.fastname.no.
+ 27.573: alvdal.kommune.no INFO Begin testing host mailscan02.fastname.no.
+ 27.961: alvdal.kommune.no INFO Begin testing address 85.19.150.230.
+ 28.871: alvdal.kommune.no INFO Done testing address 85.19.150.230.
+ 28.898: alvdal.kommune.no INFO Begin testing address 85.19.150.244.
+ 29.838: alvdal.kommune.no INFO Done testing address 85.19.150.244.
+ 29.838: alvdal.kommune.no INFO Done testing host mailscan02.fastname.no.
+ 29.995: alvdal.kommune.no INFO Begin testing host mailscan01.fastname.no.
+ 30.295: alvdal.kommune.no INFO Begin testing address 85.19.150.228.
+ 31.004: alvdal.kommune.no INFO Done testing address 85.19.150.228.
+ 31.004: alvdal.kommune.no INFO Done testing host mailscan01.fastname.no.
+ 31.239: alvdal.kommune.no INFO Done testing email address hostmaster@fastname.no.
+ 31.239: alvdal.kommune.no INFO Successful attempt to deliver email for SOA RNAME of alvdal.kommune.no (hostmaster.fastname.no) using hostmaster@fastname.no.
+ 31.239: alvdal.kommune.no INFO SOA TTL for alvdal.kommune.no OK (10800) - recommended >= 3600.
+ 31.239: alvdal.kommune.no NOTICE SOA refresh for alvdal.kommune.no too small (10800) - recommended >= 14400.
+ 31.240: alvdal.kommune.no INFO SOA retry for alvdal.kommune.no OK (3600) - recommended >= 3600.
+ 31.240: alvdal.kommune.no INFO SOA expire for alvdal.kommune.no OK (604800) - recommended >= 604800.
+ 31.240: alvdal.kommune.no INFO SOA minimum for alvdal.kommune.no OK (3600) - recommended between 300 and 86400.
+ 31.240: alvdal.kommune.no INFO Done testing SOA parameters for alvdal.kommune.no.
+ 31.240: alvdal.kommune.no INFO Begin testing connectivity for alvdal.kommune.no.
+ 32.411: alvdal.kommune.no INFO Zone announced by more than one ASN.
+ 32.411: alvdal.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 32.411: alvdal.kommune.no INFO Done testing connectivity for alvdal.kommune.no.
+ 32.411: alvdal.kommune.no INFO Begin testing DNSSEC for alvdal.kommune.no.
+ 32.488: alvdal.kommune.no INFO Did not find DS record for alvdal.kommune.no at parent.
+ 32.545: alvdal.kommune.no INFO Servers for alvdal.kommune.no have consistent extra processing status.
+ 32.580: alvdal.kommune.no INFO Authenticated denial records not found for alvdal.kommune.no.
+ 32.596: alvdal.kommune.no INFO Did not find DNSKEY record for alvdal.kommune.no at child.
+ 32.596: alvdal.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 32.596: alvdal.kommune.no INFO Done testing DNSSEC for alvdal.kommune.no.
+ 32.597: alvdal.kommune.no INFO Test completed for zone alvdal.kommune.no.

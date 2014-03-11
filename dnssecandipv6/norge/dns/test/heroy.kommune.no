@@ -1,0 +1,159 @@
+  0.000: heroy.kommune.no INFO Begin testing zone heroy.kommune.no with version 1.6.1.
+  0.670: heroy.kommune.no INFO Begin testing delegation for heroy.kommune.no.
+  9.538: heroy.kommune.no INFO Name servers listed at parent: dns1.eunet.no,dns2.eunet.no,julie.heroy.kommune.no,rona.heroy.kommune.no
+ 11.192: heroy.kommune.no INFO Name servers listed at child: julie.alesund.kommune.no,rona.heroy.kommune.no
+ 11.192: heroy.kommune.no ERROR Superfluous name server listed at parent: dns1.eunet.no
+ 11.192: heroy.kommune.no ERROR Superfluous name server listed at parent: dns2.eunet.no
+ 11.192: heroy.kommune.no ERROR Superfluous name server listed at parent: julie.heroy.kommune.no
+ 11.192: heroy.kommune.no ERROR Too few name servers (1).
+ 11.192: heroy.kommune.no NOTICE Additional name server listed at child: julie.alesund.kommune.no
+ 11.193: heroy.kommune.no NOTICE No IPv6 name servers found.
+ 11.335: heroy.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.465: heroy.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.604: heroy.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.755: heroy.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.970: heroy.kommune.no INFO Parent glue for heroy.kommune.no found: rona.heroy.kommune.no (195.204.89.248)
+ 12.051: heroy.kommune.no INFO Checking glue for rona.heroy.kommune.no (195.204.89.248).
+ 12.076: heroy.kommune.no INFO Child glue for heroy.kommune.no found: rona.heroy.kommune.no (195.204.89.248)
+ 12.097: heroy.kommune.no INFO Parent glue for heroy.kommune.no found: rona.heroy.kommune.no (195.204.89.248)
+ 12.097: heroy.kommune.no ERROR Nameserver julie.heroy.kommune.no is listed for zone heroy.kommune.no without address information.
+ 12.789: heroy.kommune.no INFO It is possible to build a referral packet for heroy.kommune.no that works without EDNS0.
+ 14.746: heroy.kommune.no INFO Previously used name servers for heroy.kommune.no: 
+ 14.747: heroy.kommune.no INFO Done testing delegation for heroy.kommune.no.
+ 14.751: heroy.kommune.no INFO Begin testing name server julie.alesund.kommune.no.
+ 14.751: heroy.kommune.no INFO Begin testing host julie.alesund.kommune.no.
+ 14.982: heroy.kommune.no INFO Begin testing address 213.184.198.12.
+ 18.872: heroy.kommune.no INFO Done testing address 213.184.198.12.
+ 18.872: heroy.kommune.no INFO Done testing host julie.alesund.kommune.no.
+ 19.071: heroy.kommune.no INFO Name server julie.alesund.kommune.no (213.184.198.12) answers queries over UDP.
+ 19.136: heroy.kommune.no INFO Name server julie.alesund.kommune.no (213.184.198.12) answers queries over TCP.
+ 19.167: heroy.kommune.no INFO Name server julie.alesund.kommune.no (213.184.198.12) is not recursive.
+ 19.317: heroy.kommune.no INFO Name server julie.alesund.kommune.no (213.184.198.12) authoritative for heroy.kommune.no.
+ 19.387: heroy.kommune.no INFO Name server julie.alesund.kommune.no (213.184.198.12) closed for zone transfer of heroy.kommune.no.
+ 19.433: heroy.kommune.no INFO Legacy name server ID for julie.alesund.kommune.no (213.184.198.12): hostname.bind = julie.alesund.kommune.no
+ 19.460: heroy.kommune.no INFO Legacy name server ID for julie.alesund.kommune.no (213.184.198.12): version.bind = surely you must be joking
+ 19.511: heroy.kommune.no NOTICE No answer received from 213.184.198.12 when querying for version.server/CH/TXT.
+ 19.512: heroy.kommune.no INFO Done testing name server julie.alesund.kommune.no.
+ 19.512: heroy.kommune.no INFO Begin testing name server rona.heroy.kommune.no.
+ 19.512: heroy.kommune.no INFO Begin testing host rona.heroy.kommune.no.
+ 19.512: heroy.kommune.no INFO Begin testing address 195.204.89.248.
+ 20.413: heroy.kommune.no WARNING Could not find reverse address for 195.204.89.248 (248.89.204.195.in-addr.arpa.).
+ 20.413: heroy.kommune.no INFO Done testing address 195.204.89.248.
+ 20.414: heroy.kommune.no INFO Done testing host rona.heroy.kommune.no.
+ 20.460: heroy.kommune.no INFO Name server rona.heroy.kommune.no (195.204.89.248) answers queries over UDP.
+ 20.572: heroy.kommune.no INFO Name server rona.heroy.kommune.no (195.204.89.248) answers queries over TCP.
+ 20.603: heroy.kommune.no INFO Name server rona.heroy.kommune.no (195.204.89.248) is not recursive.
+ 20.715: heroy.kommune.no INFO Name server rona.heroy.kommune.no (195.204.89.248) authoritative for heroy.kommune.no.
+ 20.794: heroy.kommune.no NOTICE Name server rona.heroy.kommune.no (195.204.89.248) open for zone transfer of heroy.kommune.no.
+ 20.876: heroy.kommune.no INFO Legacy name server ID for rona.heroy.kommune.no (195.204.89.248): hostname.bind = rona
+ 20.900: heroy.kommune.no INFO Legacy name server ID for rona.heroy.kommune.no (195.204.89.248): version.bind = 9.7.3
+ 20.955: heroy.kommune.no NOTICE No answer received from 195.204.89.248 when querying for version.server/CH/TXT.
+ 20.956: heroy.kommune.no INFO Done testing name server rona.heroy.kommune.no.
+ 20.956: heroy.kommune.no INFO Begin testing name server dns1.eunet.no.
+ 20.956: heroy.kommune.no INFO Begin testing host dns1.eunet.no.
+ 20.956: heroy.kommune.no INFO Begin testing address 193.75.75.1.
+ 22.116: heroy.kommune.no INFO Done testing address 193.75.75.1.
+ 22.116: heroy.kommune.no INFO Begin testing address 2001:8c0:2001:0:0:0:3:53.
+ 22.455: heroy.kommune.no INFO Done testing address 2001:8c0:2001:0:0:0:3:53.
+ 22.455: heroy.kommune.no INFO Done testing host dns1.eunet.no.
+ 22.471: heroy.kommune.no NOTICE No answer received from 193.75.75.1 when querying for heroy.kommune.no/IN/SOA.
+ 22.471: heroy.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) answers queries over UDP.
+ 22.503: heroy.kommune.no NOTICE No answer received from 193.75.75.1 when querying for heroy.kommune.no/IN/SOA.
+ 22.504: heroy.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) answers queries over TCP.
+ 22.517: heroy.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) is not recursive.
+ 22.536: heroy.kommune.no NOTICE No answer received from 193.75.75.1 when querying for heroy.kommune.no/SOA/IN.
+ 22.549: heroy.kommune.no NOTICE No answer received from 193.75.75.1 when querying for heroy.kommune.no/IN/SOA.
+ 22.549: heroy.kommune.no WARNING Nameserver at 193.75.75.1 is not authoritative over UDP.
+ 22.549: heroy.kommune.no ERROR Name server dns1.eunet.no (193.75.75.1) not authoritative for heroy.kommune.no.
+ 22.579: heroy.kommune.no NOTICE No answer received from 2001:8c0:2001:0:0:0:3:53 when querying for heroy.kommune.no/IN/SOA.
+ 22.580: heroy.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) answers queries over UDP.
+ 22.613: heroy.kommune.no NOTICE No answer received from 2001:8c0:2001:0:0:0:3:53 when querying for heroy.kommune.no/IN/SOA.
+ 22.613: heroy.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) answers queries over TCP.
+ 22.646: heroy.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) is not recursive.
+ 22.667: heroy.kommune.no NOTICE No answer received from 2001:8c0:2001:0:0:0:3:53 when querying for heroy.kommune.no/SOA/IN.
+ 22.687: heroy.kommune.no NOTICE No answer received from 2001:8c0:2001:0:0:0:3:53 when querying for heroy.kommune.no/IN/SOA.
+ 22.688: heroy.kommune.no WARNING Nameserver at 2001:8c0:2001:0:0:0:3:53 is not authoritative over UDP.
+ 22.688: heroy.kommune.no ERROR Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) not authoritative for heroy.kommune.no.
+ 22.688: heroy.kommune.no INFO Done testing name server dns1.eunet.no.
+ 22.688: heroy.kommune.no INFO Begin testing name server dns2.eunet.no.
+ 22.688: heroy.kommune.no INFO Begin testing host dns2.eunet.no.
+ 22.808: heroy.kommune.no INFO Begin testing address 148.122.208.226.
+ 29.356: heroy.kommune.no INFO Done testing address 148.122.208.226.
+ 29.356: heroy.kommune.no INFO Done testing host dns2.eunet.no.
+ 29.708: heroy.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) answers queries over UDP.
+ 29.796: heroy.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) answers queries over TCP.
+ 29.887: heroy.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) is not recursive.
+ 30.040: heroy.kommune.no WARNING Nameserver at 148.122.208.226 is not authoritative over UDP.
+ 30.040: heroy.kommune.no ERROR Name server dns2.eunet.no (148.122.208.226) not authoritative for heroy.kommune.no.
+ 30.040: heroy.kommune.no INFO Done testing name server dns2.eunet.no.
+ 30.041: heroy.kommune.no INFO Begin testing name server julie.heroy.kommune.no.
+ 30.041: heroy.kommune.no INFO Begin testing host julie.heroy.kommune.no.
+ 30.041: heroy.kommune.no ERROR No address found for julie.heroy.kommune.no.
+ 30.041: heroy.kommune.no INFO Done testing host julie.heroy.kommune.no.
+ 30.041: heroy.kommune.no ERROR Host name or address error for julie.heroy.kommune.no.
+ 30.041: heroy.kommune.no INFO Done testing name server julie.heroy.kommune.no.
+ 30.041: heroy.kommune.no INFO Begin testing zone consistency for heroy.kommune.no.
+ 30.812: heroy.kommune.no NOTICE No answer received from 2001:8c0:2001:0:0:0:3:53 when querying for heroy.kommune.no/IN/SOA.
+ 30.880: heroy.kommune.no NOTICE No answer received from 193.75.75.1 when querying for heroy.kommune.no/IN/SOA.
+ 30.949: heroy.kommune.no INFO SOA at address 213.184.198.12 has serial 2014021101.
+ 31.023: heroy.kommune.no INFO SOA at address 195.204.89.248 has serial 2014021101.
+ 31.195: heroy.kommune.no INFO All SOA records have consistent serial numbers.
+ 31.195: heroy.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 31.288: heroy.kommune.no NOTICE No answer received from 193.75.75.1 when querying for heroy.kommune.no/IN/NS.
+ 31.341: heroy.kommune.no NOTICE No answer received from 2001:8c0:2001:0:0:0:3:53 when querying for heroy.kommune.no/IN/NS.
+ 31.810: heroy.kommune.no NOTICE The listed nameservers for heroy.kommune.no does not all report the same set of nameservers.
+ 31.810: heroy.kommune.no INFO Done testing zone consistency for heroy.kommune.no.
+ 31.810: heroy.kommune.no INFO Begin testing SOA parameters for heroy.kommune.no.
+ 31.918: heroy.kommune.no INFO Found SOA record for heroy.kommune.no.
+ 31.918: heroy.kommune.no INFO Begin testing host rona.heroy.kommune.no.
+ 31.963: heroy.kommune.no INFO Begin testing address 195.204.89.248.
+ 31.966: heroy.kommune.no WARNING Could not find reverse address for 195.204.89.248 (248.89.204.195.in-addr.arpa.).
+ 31.966: heroy.kommune.no INFO Done testing address 195.204.89.248.
+ 31.966: heroy.kommune.no INFO Done testing host rona.heroy.kommune.no.
+ 31.966: heroy.kommune.no INFO SOA MNAME for heroy.kommune.no valid (rona.heroy.kommune.no).
+ 31.966: heroy.kommune.no INFO SOA MNAME for heroy.kommune.no (rona.heroy.kommune.no) listed as NS.
+ 32.064: heroy.kommune.no INFO SOA MNAME for heroy.kommune.no (rona.heroy.kommune.no) is authoritative.
+ 32.064: heroy.kommune.no INFO Begin testing email address support@heroy.kommune.no.
+ 32.315: heroy.kommune.no INFO Mail exchangers for support@heroy.kommune.no found smtp-in.sto-hy.se.stejtech.net,smtp-in.sto-ste.se.stejtech.net.
+ 32.323: heroy.kommune.no INFO Begin testing host smtp-in.sto-hy.se.stejtech.net.
+ 33.121: heroy.kommune.no INFO Begin testing address 91.236.209.10.
+ 34.530: heroy.kommune.no INFO Done testing address 91.236.209.10.
+ 34.531: heroy.kommune.no INFO Begin testing address 79.136.102.100.
+ 36.412: heroy.kommune.no INFO Done testing address 79.136.102.100.
+ 36.412: heroy.kommune.no INFO Begin testing address 91.236.208.10.
+ 38.598: heroy.kommune.no INFO Done testing address 91.236.208.10.
+ 38.598: heroy.kommune.no INFO Begin testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 40.299: heroy.kommune.no INFO Done testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 40.299: heroy.kommune.no INFO Begin testing address 2001:67c:27e0:2110:0:0:0:1b01.
+ 42.120: heroy.kommune.no INFO Done testing address 2001:67c:27e0:2110:0:0:0:1b01.
+ 42.121: heroy.kommune.no INFO Begin testing address 2001:9b0:1:703:0:0:0:1b01.
+ 44.737: heroy.kommune.no INFO Done testing address 2001:9b0:1:703:0:0:0:1b01.
+ 44.737: heroy.kommune.no INFO Done testing host smtp-in.sto-hy.se.stejtech.net.
+ 44.737: heroy.kommune.no INFO Begin testing host smtp-in.sto-ste.se.stejtech.net.
+ 45.505: heroy.kommune.no INFO Begin testing address 79.136.102.90.
+ 47.036: heroy.kommune.no INFO Done testing address 79.136.102.90.
+ 47.036: heroy.kommune.no INFO Begin testing address 83.140.31.145.
+ 47.851: heroy.kommune.no INFO Done testing address 83.140.31.145.
+ 47.873: heroy.kommune.no INFO Begin testing address 2001:9b0:1:703:0:0:0:b002.
+ 49.160: heroy.kommune.no INFO Done testing address 2001:9b0:1:703:0:0:0:b002.
+ 49.160: heroy.kommune.no INFO Done testing host smtp-in.sto-ste.se.stejtech.net.
+ 49.160: heroy.kommune.no INFO Done testing email address support@heroy.kommune.no.
+ 49.160: heroy.kommune.no INFO Successful attempt to deliver email for SOA RNAME of heroy.kommune.no (support.heroy.kommune.no) using support@heroy.kommune.no.
+ 49.161: heroy.kommune.no INFO SOA TTL for heroy.kommune.no OK (3600) - recommended >= 3600.
+ 49.161: heroy.kommune.no NOTICE SOA refresh for heroy.kommune.no too small (3600) - recommended >= 14400.
+ 49.161: heroy.kommune.no NOTICE SOA retry for heroy.kommune.no too small (600) - recommended >= 3600.
+ 49.161: heroy.kommune.no NOTICE SOA expire for heroy.kommune.no too small (86400) - recommended >= 604800.
+ 49.161: heroy.kommune.no INFO SOA minimum for heroy.kommune.no OK (600) - recommended between 300 and 86400.
+ 49.161: heroy.kommune.no INFO Done testing SOA parameters for heroy.kommune.no.
+ 49.161: heroy.kommune.no INFO Begin testing connectivity for heroy.kommune.no.
+ 50.365: heroy.kommune.no INFO Zone announced by more than one ASN.
+ 50.365: heroy.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 50.365: heroy.kommune.no INFO Done testing connectivity for heroy.kommune.no.
+ 50.365: heroy.kommune.no INFO Begin testing DNSSEC for heroy.kommune.no.
+ 50.461: heroy.kommune.no INFO Did not find DS record for heroy.kommune.no at parent.
+ 50.584: heroy.kommune.no INFO Servers for heroy.kommune.no have consistent extra processing status.
+ 50.652: heroy.kommune.no INFO Authenticated denial records not found for heroy.kommune.no.
+ 50.692: heroy.kommune.no INFO Did not find DNSKEY record for heroy.kommune.no at child.
+ 50.692: heroy.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 50.692: heroy.kommune.no INFO Done testing DNSSEC for heroy.kommune.no.
+ 50.692: heroy.kommune.no INFO Test completed for zone heroy.kommune.no.

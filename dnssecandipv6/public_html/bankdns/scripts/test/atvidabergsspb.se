@@ -1,0 +1,78 @@
+  0.000: atvidabergsspb.se INFO Begin testing zone atvidabergsspb.se with version 1.5.0.
+  0.001: atvidabergsspb.se INFO Begin testing delegation for atvidabergsspb.se.
+  4.795: atvidabergsspb.se INFO Name servers listed at parent: ns1.foreningssparbanken.se,ns2.foreningssparbanken.se
+  6.497: atvidabergsspb.se INFO Name servers listed at child: ns1.foreningssparbanken.se,ns2.foreningssparbanken.se
+  6.503: atvidabergsspb.se NOTICE No IPv6 name servers found.
+  6.533: atvidabergsspb.se INFO Parent glue for atvidabergsspb.se found: ns1.foreningssparbanken.se (164.10.45.24)
+  6.553: atvidabergsspb.se INFO Parent glue for atvidabergsspb.se found: ns2.foreningssparbanken.se (164.10.45.25)
+  6.565: atvidabergsspb.se INFO Checking glue for ns1.foreningssparbanken.se (164.10.45.24).
+  6.565: atvidabergsspb.se INFO Checking glue for ns2.foreningssparbanken.se (164.10.45.25).
+  6.566: atvidabergsspb.se INFO Parent glue for atvidabergsspb.se found: ns1.foreningssparbanken.se (164.10.45.24)
+  6.567: atvidabergsspb.se INFO Parent glue for atvidabergsspb.se found: ns2.foreningssparbanken.se (164.10.45.25)
+  7.078: atvidabergsspb.se INFO It is possible to build a referral packet for atvidabergsspb.se that works without EDNS0.
+  7.078: atvidabergsspb.se INFO Done testing delegation for atvidabergsspb.se.
+  7.078: atvidabergsspb.se INFO Begin testing name server ns1.foreningssparbanken.se.
+  7.079: atvidabergsspb.se INFO Begin testing host ns1.foreningssparbanken.se.
+  7.347: atvidabergsspb.se INFO Begin testing address 164.10.45.24.
+ 13.082: atvidabergsspb.se INFO Done testing address 164.10.45.24.
+ 13.082: atvidabergsspb.se INFO Done testing host ns1.foreningssparbanken.se.
+ 13.333: atvidabergsspb.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) answers queries over UDP.
+ 13.348: atvidabergsspb.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) answers queries over TCP.
+ 13.358: atvidabergsspb.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) is not recursive.
+ 13.394: atvidabergsspb.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) authoritative for atvidabergsspb.se.
+ 13.410: atvidabergsspb.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) closed for zone transfer of atvidabergsspb.se.
+ 37.460: atvidabergsspb.se INFO Done testing name server ns1.foreningssparbanken.se.
+ 37.461: atvidabergsspb.se INFO Begin testing name server ns2.foreningssparbanken.se.
+ 37.461: atvidabergsspb.se INFO Begin testing host ns2.foreningssparbanken.se.
+ 37.711: atvidabergsspb.se INFO Begin testing address 164.10.45.25.
+ 38.862: atvidabergsspb.se INFO Done testing address 164.10.45.25.
+ 38.862: atvidabergsspb.se INFO Done testing host ns2.foreningssparbanken.se.
+ 39.110: atvidabergsspb.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) answers queries over UDP.
+ 39.125: atvidabergsspb.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) answers queries over TCP.
+ 39.134: atvidabergsspb.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) is not recursive.
+ 39.173: atvidabergsspb.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) authoritative for atvidabergsspb.se.
+ 39.190: atvidabergsspb.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) closed for zone transfer of atvidabergsspb.se.
+ 63.231: atvidabergsspb.se INFO Done testing name server ns2.foreningssparbanken.se.
+ 63.231: atvidabergsspb.se INFO Begin testing zone consistency for atvidabergsspb.se.
+ 64.393: atvidabergsspb.se INFO SOA at address 164.10.45.24 has serial 2010060901.
+ 64.402: atvidabergsspb.se INFO SOA at address 164.10.45.25 has serial 2010060901.
+ 64.402: atvidabergsspb.se INFO All SOA records have consistent serial numbers.
+ 64.402: atvidabergsspb.se INFO All other fields in the SOA record are consistent among all name servers.
+ 64.991: atvidabergsspb.se NOTICE The listed nameservers for atvidabergsspb.se all report the same set of nameservers.
+ 64.991: atvidabergsspb.se INFO Done testing zone consistency for atvidabergsspb.se.
+ 64.992: atvidabergsspb.se INFO Begin testing SOA parameters for atvidabergsspb.se.
+ 65.010: atvidabergsspb.se INFO Found SOA record for atvidabergsspb.se.
+ 65.010: atvidabergsspb.se INFO Begin testing host ns1.foreningssparbanken.se.
+ 65.245: atvidabergsspb.se INFO Begin testing address 164.10.45.24.
+ 65.713: atvidabergsspb.se INFO Done testing address 164.10.45.24.
+ 65.713: atvidabergsspb.se INFO Done testing host ns1.foreningssparbanken.se.
+ 65.713: atvidabergsspb.se INFO SOA MNAME for atvidabergsspb.se valid (ns1.foreningssparbanken.se).
+ 65.713: atvidabergsspb.se INFO SOA MNAME for atvidabergsspb.se (ns1.foreningssparbanken.se) listed as NS.
+ 65.956: atvidabergsspb.se INFO SOA MNAME for atvidabergsspb.se (ns1.foreningssparbanken.se) is authoritative.
+ 65.956: atvidabergsspb.se INFO Begin testing email address unixdrift@foreningssparbanken.se.
+ 66.415: atvidabergsspb.se INFO Mail exchangers for unixdrift@foreningssparbanken.se found foreningssparbanken.se.
+ 66.415: atvidabergsspb.se INFO Begin testing host foreningssparbanken.se.
+ 66.663: atvidabergsspb.se INFO Begin testing address 164.10.45.63.
+ 67.381: atvidabergsspb.se WARNING Could not find reverse address for 164.10.45.63 (63.45.10.164.in-addr.arpa.).
+ 67.381: atvidabergsspb.se INFO Done testing address 164.10.45.63.
+ 67.381: atvidabergsspb.se INFO Done testing host foreningssparbanken.se.
+ 67.621: atvidabergsspb.se INFO Done testing email address unixdrift@foreningssparbanken.se.
+ 67.621: atvidabergsspb.se INFO Successful attempt to deliver email for SOA RNAME of atvidabergsspb.se (unixdrift.foreningssparbanken.se) using unixdrift@foreningssparbanken.se.
+ 67.622: atvidabergsspb.se INFO SOA TTL for atvidabergsspb.se OK (3600) - recommended >= 3600.
+ 67.622: atvidabergsspb.se NOTICE SOA refresh for atvidabergsspb.se too small (10002) - recommended >= 14400.
+ 67.622: atvidabergsspb.se NOTICE SOA retry for atvidabergsspb.se too small (601) - recommended >= 3600.
+ 67.622: atvidabergsspb.se INFO SOA expire for atvidabergsspb.se OK (604800) - recommended >= 604800.
+ 67.622: atvidabergsspb.se INFO SOA minimum for atvidabergsspb.se OK (3600) - recommended between 300 and 86400.
+ 67.622: atvidabergsspb.se INFO Done testing SOA parameters for atvidabergsspb.se.
+ 67.623: atvidabergsspb.se INFO Begin testing connectivity for atvidabergsspb.se.
+ 68.931: atvidabergsspb.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 68.931: atvidabergsspb.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 68.931: atvidabergsspb.se INFO Done testing connectivity for atvidabergsspb.se.
+ 68.931: atvidabergsspb.se INFO Begin testing DNSSEC for atvidabergsspb.se.
+ 68.981: atvidabergsspb.se INFO Did not find DS record for atvidabergsspb.se at parent.
+ 69.009: atvidabergsspb.se INFO Servers for atvidabergsspb.se have consistent extra processing status.
+ 69.024: atvidabergsspb.se INFO Authenticated denial records not found for atvidabergsspb.se.
+ 69.034: atvidabergsspb.se INFO Did not find DNSKEY record for atvidabergsspb.se at child.
+ 69.034: atvidabergsspb.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 69.034: atvidabergsspb.se INFO Done testing DNSSEC for atvidabergsspb.se.
+ 69.035: atvidabergsspb.se INFO Test completed for zone atvidabergsspb.se.

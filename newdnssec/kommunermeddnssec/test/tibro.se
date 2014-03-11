@@ -1,0 +1,90 @@
+  0.000: tibro.se INFO Begin testing zone tibro.se with version 1.6.1.
+  0.689: tibro.se INFO Begin testing delegation for tibro.se.
+ 14.720: tibro.se INFO Name servers listed at parent: dns.tibro.se,dns5.telia.com
+ 17.517: tibro.se INFO Name servers listed at child: dns.tibro.se,dns5.telia.com
+ 17.518: tibro.se NOTICE Too few IPv6 name servers (1).
+ 17.594: tibro.se INFO Parent glue for tibro.se found: dns.tibro.se (195.198.115.5)
+ 17.934: tibro.se INFO Checking glue for dns.tibro.se (195.198.115.5).
+ 18.130: tibro.se INFO Child glue for tibro.se found: dns.tibro.se (195.198.115.5)
+ 18.130: tibro.se INFO Parent glue for tibro.se found: dns.tibro.se (195.198.115.5)
+ 19.104: tibro.se INFO It is possible to build a referral packet for tibro.se that works without EDNS0.
+ 19.594: tibro.se INFO Previously used name servers for tibro.se: 
+ 19.594: tibro.se INFO Done testing delegation for tibro.se.
+ 19.594: tibro.se INFO Begin testing name server dns.tibro.se.
+ 19.594: tibro.se INFO Begin testing host dns.tibro.se.
+ 20.020: tibro.se INFO Begin testing address 195.198.115.5.
+ 35.486: tibro.se INFO Done testing address 195.198.115.5.
+ 35.486: tibro.se INFO Done testing host dns.tibro.se.
+ 35.831: tibro.se INFO Name server dns.tibro.se (195.198.115.5) answers queries over UDP.
+ 35.872: tibro.se INFO Name server dns.tibro.se (195.198.115.5) answers queries over TCP.
+ 35.952: tibro.se INFO Name server dns.tibro.se (195.198.115.5) is not recursive.
+ 36.115: tibro.se INFO Name server dns.tibro.se (195.198.115.5) authoritative for tibro.se.
+ 36.255: tibro.se NOTICE Name server dns.tibro.se (195.198.115.5) open for zone transfer of tibro.se.
+ 36.336: tibro.se INFO Legacy name server ID for dns.tibro.se (195.198.115.5): hostname.bind = extdns
+ 36.386: tibro.se INFO Legacy name server ID for dns.tibro.se (195.198.115.5): version.bind = 9.3.2
+ 36.490: tibro.se NOTICE No answer received from 195.198.115.5 when querying for version.server/CH/TXT.
+ 36.490: tibro.se INFO Done testing name server dns.tibro.se.
+ 36.490: tibro.se INFO Begin testing name server dns5.telia.com.
+ 36.490: tibro.se INFO Begin testing host dns5.telia.com.
+ 36.491: tibro.se INFO Begin testing address 81.228.11.68.
+ 38.143: tibro.se INFO Done testing address 81.228.11.68.
+ 38.143: tibro.se INFO Begin testing address 2001:2040:c001:101:0:0:0:4.
+ 39.962: tibro.se INFO Done testing address 2001:2040:c001:101:0:0:0:4.
+ 39.962: tibro.se INFO Done testing host dns5.telia.com.
+ 39.982: tibro.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over UDP.
+ 40.022: tibro.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over TCP.
+ 40.055: tibro.se INFO Name server dns5.telia.com (81.228.11.68) is not recursive.
+ 40.148: tibro.se INFO Name server dns5.telia.com (81.228.11.68) authoritative for tibro.se.
+ 40.194: tibro.se INFO Name server dns5.telia.com (81.228.11.68) closed for zone transfer of tibro.se.
+ 40.244: tibro.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 40.366: tibro.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) answers queries over UDP.
+ 40.441: tibro.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) answers queries over TCP.
+ 40.490: tibro.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) is not recursive.
+ 40.668: tibro.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) authoritative for tibro.se.
+ 40.797: tibro.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) closed for zone transfer of tibro.se.
+ 40.910: tibro.se INFO Legacy name server ID for dns5.telia.com (2001:2040:c001:101:0:0:0:4): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 40.990: tibro.se INFO Done testing name server dns5.telia.com.
+ 40.990: tibro.se INFO Begin testing zone consistency for tibro.se.
+ 41.568: tibro.se INFO SOA at address 81.228.11.68 has serial 2014012001.
+ 41.630: tibro.se INFO SOA at address 2001:2040:c001:101:0:0:0:4 has serial 2014012001.
+ 41.660: tibro.se INFO SOA at address 195.198.115.5 has serial 2014012001.
+ 41.660: tibro.se INFO All SOA records have consistent serial numbers.
+ 41.660: tibro.se INFO All other fields in the SOA record are consistent among all name servers.
+ 41.934: tibro.se NOTICE The listed nameservers for tibro.se all report the same set of nameservers.
+ 41.935: tibro.se INFO Done testing zone consistency for tibro.se.
+ 41.935: tibro.se INFO Begin testing SOA parameters for tibro.se.
+ 41.973: tibro.se INFO Found SOA record for tibro.se.
+ 41.974: tibro.se INFO Begin testing host dns.tibro.se.
+ 42.098: tibro.se INFO Begin testing address 195.198.115.5.
+ 42.260: tibro.se INFO Done testing address 195.198.115.5.
+ 42.260: tibro.se INFO Done testing host dns.tibro.se.
+ 42.260: tibro.se INFO SOA MNAME for tibro.se valid (dns.tibro.se).
+ 42.261: tibro.se INFO SOA MNAME for tibro.se (dns.tibro.se) listed as NS.
+ 42.438: tibro.se INFO SOA MNAME for tibro.se (dns.tibro.se) is authoritative.
+ 42.438: tibro.se INFO Begin testing email address tiklkton@tibro.se.
+ 42.622: tibro.se INFO Mail exchangers for tiklkton@tibro.se found vsp.tibro.se.
+ 42.622: tibro.se INFO All mail servers for tiklkton@tibro.se are in zone tibro.se.
+ 42.622: tibro.se INFO Begin testing host vsp.tibro.se.
+ 42.985: tibro.se INFO Begin testing address 195.198.115.38.
+ 44.512: tibro.se INFO Done testing address 195.198.115.38.
+ 44.512: tibro.se INFO Done testing host vsp.tibro.se.
+ 44.686: tibro.se INFO Done testing email address tiklkton@tibro.se.
+ 44.686: tibro.se INFO Successful attempt to deliver email for SOA RNAME of tibro.se (tiklkton.tibro.se) using tiklkton@tibro.se.
+ 44.686: tibro.se INFO SOA TTL for tibro.se OK (86400) - recommended >= 3600.
+ 44.686: tibro.se NOTICE SOA refresh for tibro.se too small (3600) - recommended >= 14400.
+ 44.686: tibro.se NOTICE SOA retry for tibro.se too small (300) - recommended >= 3600.
+ 44.686: tibro.se INFO SOA expire for tibro.se OK (604800) - recommended >= 604800.
+ 44.686: tibro.se INFO SOA minimum for tibro.se OK (86400) - recommended between 300 and 86400.
+ 44.686: tibro.se INFO Done testing SOA parameters for tibro.se.
+ 44.686: tibro.se INFO Begin testing connectivity for tibro.se.
+ 45.911: tibro.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 46.584: tibro.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 46.584: tibro.se INFO Done testing connectivity for tibro.se.
+ 46.585: tibro.se INFO Begin testing DNSSEC for tibro.se.
+ 46.615: tibro.se INFO Did not find DS record for tibro.se at parent.
+ 46.795: tibro.se INFO Servers for tibro.se have consistent extra processing status.
+ 46.830: tibro.se INFO Authenticated denial records not found for tibro.se.
+ 46.840: tibro.se INFO Did not find DNSKEY record for tibro.se at child.
+ 46.840: tibro.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 46.841: tibro.se INFO Done testing DNSSEC for tibro.se.
+ 46.841: tibro.se INFO Test completed for zone tibro.se.

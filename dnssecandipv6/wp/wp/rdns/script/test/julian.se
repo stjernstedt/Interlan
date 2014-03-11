@@ -1,0 +1,98 @@
+  0.000: julian.se INFO Begin testing zone julian.se with version 1.0.1.
+  0.000: julian.se INFO Begin testing delegation for julian.se.
+  0.685: julian.se INFO Name servers listed at parent: ns1.julian.se,ns2.julian.se
+  0.799: julian.se INFO Name servers listed at child: ns1.julian.se,ns2.julian.se
+  0.800: julian.se NOTICE No IPv6 name servers found.
+  0.817: julian.se INFO Parent glue for julian.se found: ns1.julian.se (212.247.113.223)
+  0.842: julian.se INFO Parent glue for julian.se found: ns2.julian.se (212.247.113.224)
+  0.859: julian.se INFO Checking glue for ns1.julian.se (212.247.113.223).
+  0.879: julian.se INFO Child glue for julian.se found: ns1.julian.se (212.247.113.223)
+  0.879: julian.se INFO Checking glue for ns2.julian.se (212.247.113.224).
+  0.899: julian.se INFO Child glue for julian.se found: ns2.julian.se (212.247.113.224)
+  0.899: julian.se INFO Done testing delegation for julian.se.
+  0.900: julian.se INFO Begin testing name server ns1.julian.se.
+  0.900: julian.se INFO Begin testing host ns1.julian.se.
+  0.900: julian.se INFO Begin testing address 212.247.113.223.
+  4.101: julian.se WARNING Could not find reverse address for 212.247.113.223 (223.113.247.212.in-addr.arpa.).
+  4.101: julian.se INFO Done testing address 212.247.113.223.
+  4.101: julian.se INFO Done testing host ns1.julian.se.
+  4.121: julian.se INFO Name server ns1.julian.se (212.247.113.223) is not recursive.
+  4.143: julian.se INFO Name server ns1.julian.se (212.247.113.223) authoritative for julian.se.
+  4.162: julian.se INFO Name server ns1.julian.se (212.247.113.223) answers queries over UDP.
+  4.198: julian.se INFO Name server ns1.julian.se (212.247.113.223) answers queries over TCP.
+  4.443: julian.se INFO Name server ns1.julian.se (212.247.113.223) closed for zone transfer of julian.se.
+  4.461: julian.se NOTICE No answer received from 212.247.113.223 when querying for hostname.bind/CH/TXT.
+  4.481: julian.se NOTICE No answer received from 212.247.113.223 when querying for version.bind/CH/TXT.
+  4.499: julian.se NOTICE No answer received from 212.247.113.223 when querying for id.server/CH/TXT.
+  4.518: julian.se NOTICE No answer received from 212.247.113.223 when querying for version.server/CH/TXT.
+  4.518: julian.se INFO Done testing name server ns1.julian.se.
+  4.518: julian.se INFO Begin testing name server ns2.julian.se.
+  4.518: julian.se INFO Begin testing host ns2.julian.se.
+  4.518: julian.se INFO Begin testing address 212.247.113.224.
+  4.539: julian.se WARNING Could not find reverse address for 212.247.113.224 (224.113.247.212.in-addr.arpa.).
+  4.540: julian.se INFO Done testing address 212.247.113.224.
+  4.540: julian.se INFO Done testing host ns2.julian.se.
+  4.560: julian.se INFO Name server ns2.julian.se (212.247.113.224) is not recursive.
+  4.580: julian.se INFO Name server ns2.julian.se (212.247.113.224) authoritative for julian.se.
+  4.600: julian.se INFO Name server ns2.julian.se (212.247.113.224) answers queries over UDP.
+  4.639: julian.se INFO Name server ns2.julian.se (212.247.113.224) answers queries over TCP.
+  4.881: julian.se INFO Name server ns2.julian.se (212.247.113.224) closed for zone transfer of julian.se.
+  4.901: julian.se NOTICE No answer received from 212.247.113.224 when querying for hostname.bind/CH/TXT.
+  4.921: julian.se NOTICE No answer received from 212.247.113.224 when querying for version.bind/CH/TXT.
+  4.940: julian.se NOTICE No answer received from 212.247.113.224 when querying for id.server/CH/TXT.
+  4.959: julian.se NOTICE No answer received from 212.247.113.224 when querying for version.server/CH/TXT.
+  4.959: julian.se INFO Done testing name server ns2.julian.se.
+  4.959: julian.se INFO Begin testing zone consistency for julian.se.
+  4.983: julian.se INFO SOA at address 212.247.113.224 has serial 2007042601.
+  5.002: julian.se INFO SOA at address 212.247.113.223 has serial 2007042601.
+  5.003: julian.se INFO All SOA records have consistent serial numbers.
+  5.003: julian.se INFO All SOA records are consistent among all name servers.
+  5.003: julian.se INFO Done testing zone consistency for julian.se.
+  5.003: julian.se INFO Begin testing SOA parameters for julian.se.
+  5.023: julian.se INFO Found SOA record for julian.se.
+  5.023: julian.se INFO Begin testing host ns1.julian.se.
+  5.023: julian.se INFO Begin testing address 212.247.113.223.
+  5.024: julian.se WARNING Could not find reverse address for 212.247.113.223 (223.113.247.212.in-addr.arpa.).
+  5.024: julian.se INFO Done testing address 212.247.113.223.
+  5.024: julian.se INFO Done testing host ns1.julian.se.
+  5.024: julian.se INFO SOA MNAME for julian.se valid (ns1.julian.se).
+  5.025: julian.se INFO SOA MNAME for julian.se (ns1.julian.se) listed as NS.
+  5.046: julian.se INFO SOA MNAME for julian.se (ns1.julian.se) is authoritative.
+  5.046: julian.se INFO Begin testing email address hostmaster@julian.se.
+  5.068: julian.se INFO Mail exchangers for hostmaster@julian.se found mail.julian.se.
+  5.068: julian.se INFO All mail servers for hostmaster@julian.se are in zone julian.se.
+  5.068: julian.se INFO Begin testing host mail.julian.se.
+  5.108: julian.se INFO Begin testing address 193.13.74.204.
+  5.695: julian.se INFO Done testing address 193.13.74.204.
+  5.695: julian.se INFO Done testing host mail.julian.se.
+  5.695: julian.se INFO Begin testing mail server mail.julian.se (193.13.74.204) with hostmaster@julian.se.
+  5.840: julian.se INFO SMTP banner: s13.myaxentus.se 
+  6.042: julian.se WARNING Host did not accept hostmaster@julian.se as SMTP recipient.
+  6.243: julian.se INFO Done testing mail server mail.julian.se (193.13.74.204) with hostmaster@julian.se.
+  6.243: julian.se WARNING Delivery over IPv4 to hostmaster@julian.se could not be done.
+  6.244: julian.se INFO Delivery over IPv6 to hostmaster@julian.se could not be done.
+  6.244: julian.se INFO Done testing email address hostmaster@julian.se.
+  6.244: julian.se WARNING Failed to deliver email for SOA RNAME of julian.se (hostmaster.julian.se) using hostmaster@julian.se.
+  6.244: julian.se INFO SOA TTL for julian.se OK (86400) - recommended >= 3600.
+  6.244: julian.se NOTICE SOA refresh for julian.se too small (3600) - recommended >= 14400.
+  6.244: julian.se NOTICE SOA retry for julian.se too small (600) - recommended >= 3600.
+  6.244: julian.se INFO SOA expire for julian.se OK (1209600) - recommended >= 604800.
+  6.244: julian.se INFO SOA minimum for julian.se OK (86400) - recommended between 300 and 86400.
+  6.244: julian.se INFO Done testing SOA parameters for julian.se.
+  6.244: julian.se INFO Begin testing connectivity for julian.se.
+  6.724: julian.se INFO Name server 212.247.113.224 announced by: 1257
+  6.853: julian.se INFO Name server 212.247.113.223 announced by: 1257
+  6.854: julian.se INFO Zone announced by ASN: 1257
+  6.854: julian.se NOTICE Zone announced by only one ASN (1).
+  6.854: julian.se INFO Zone announced by IPv6 ASN: 
+  6.854: julian.se NOTICE Zone announced by only one IPv6 ASN (0).
+  6.854: julian.se INFO Done testing connectivity for julian.se.
+  6.854: julian.se INFO Begin testing DNSSEC for julian.se.
+  6.901: julian.se INFO Did not find DS record for julian.se at parent.
+  6.938: julian.se NOTICE No answer received from 212.247.113.224 when querying for julian.se/IN/DNSKEY.
+  6.973: julian.se NOTICE No answer received from 212.247.113.223 when querying for julian.se/IN/DNSKEY.
+  6.973: julian.se INFO Servers for julian.se have consistent extra processing status.
+  6.973: julian.se INFO Did not find DNSKEY record for julian.se at child.
+  6.974: julian.se INFO No DNSKEY(s) found at child, other tests skipped.
+  6.974: julian.se INFO Done testing DNSSEC for julian.se.
+  6.974: julian.se INFO Test completed for zone julian.se.

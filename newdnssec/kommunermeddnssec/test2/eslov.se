@@ -1,0 +1,110 @@
+  0.000: eslov.se INFO Begin testing zone eslov.se with version 1.2.
+  0.000: eslov.se INFO Begin testing delegation for eslov.se.
+  5.888: eslov.se INFO Name servers listed at parent: kista.dns.swip.net,malmoe.dns.swip.net,umbrella.eslov.se
+  7.882: eslov.se INFO Name servers listed at child: kista.dns.swip.net,malmoe.dns.swip.net,umbrella.eslov.se
+  7.882: eslov.se NOTICE No IPv6 name servers found.
+  8.033: eslov.se INFO Parent glue for eslov.se found: umbrella.eslov.se (194.68.85.11)
+  8.051: eslov.se INFO Checking glue for umbrella.eslov.se (194.68.85.11).
+  8.061: eslov.se INFO Child glue for eslov.se found: umbrella.eslov.se (194.68.85.11)
+  8.062: eslov.se INFO Parent glue for eslov.se found: umbrella.eslov.se (194.68.85.11)
+  8.062: eslov.se INFO Done testing delegation for eslov.se.
+  8.062: eslov.se INFO Begin testing name server kista.dns.swip.net.
+  8.063: eslov.se INFO Begin testing host kista.dns.swip.net.
+  8.063: eslov.se INFO Begin testing address 192.71.220.9.
+ 19.136: eslov.se INFO Done testing address 192.71.220.9.
+ 19.136: eslov.se INFO Done testing host kista.dns.swip.net.
+ 19.146: eslov.se INFO Name server kista.dns.swip.net (192.71.220.9) answers queries over UDP.
+ 19.161: eslov.se INFO Name server kista.dns.swip.net (192.71.220.9) answers queries over TCP.
+ 19.169: eslov.se INFO Name server kista.dns.swip.net (192.71.220.9) is not recursive.
+ 19.179: eslov.se INFO Name server kista.dns.swip.net (192.71.220.9) authoritative for eslov.se.
+ 19.194: eslov.se INFO Name server kista.dns.swip.net (192.71.220.9) closed for zone transfer of eslov.se.
+ 19.204: eslov.se INFO Legacy name server ID for kista.dns.swip.net (192.71.220.9): hostname.bind = nico
+ 19.211: eslov.se INFO Legacy name server ID for kista.dns.swip.net (192.71.220.9): version.bind = PONG 0.2alpha
+ 19.224: eslov.se NOTICE No answer received from 192.71.220.9 when querying for version.server/CH/TXT.
+ 19.225: eslov.se INFO Done testing name server kista.dns.swip.net.
+ 19.225: eslov.se INFO Begin testing name server malmoe.dns.swip.net.
+ 19.225: eslov.se INFO Begin testing host malmoe.dns.swip.net.
+ 19.225: eslov.se INFO Begin testing address 192.71.180.44.
+ 19.533: eslov.se INFO Done testing address 192.71.180.44.
+ 19.533: eslov.se INFO Done testing host malmoe.dns.swip.net.
+ 19.542: eslov.se INFO Name server malmoe.dns.swip.net (192.71.180.44) answers queries over UDP.
+ 19.557: eslov.se INFO Name server malmoe.dns.swip.net (192.71.180.44) answers queries over TCP.
+ 19.565: eslov.se INFO Name server malmoe.dns.swip.net (192.71.180.44) is not recursive.
+ 19.575: eslov.se INFO Name server malmoe.dns.swip.net (192.71.180.44) authoritative for eslov.se.
+ 19.674: eslov.se INFO Name server malmoe.dns.swip.net (192.71.180.44) closed for zone transfer of eslov.se.
+ 19.682: eslov.se INFO Legacy name server ID for malmoe.dns.swip.net (192.71.180.44): hostname.bind = nicodemus
+ 19.689: eslov.se INFO Legacy name server ID for malmoe.dns.swip.net (192.71.180.44): version.bind = PONG 0.2alpha
+ 19.703: eslov.se NOTICE No answer received from 192.71.180.44 when querying for version.server/CH/TXT.
+ 19.703: eslov.se INFO Done testing name server malmoe.dns.swip.net.
+ 19.703: eslov.se INFO Begin testing name server umbrella.eslov.se.
+ 19.703: eslov.se INFO Begin testing host umbrella.eslov.se.
+ 19.704: eslov.se INFO Begin testing address 194.68.85.11.
+ 20.915: eslov.se INFO Done testing address 194.68.85.11.
+ 20.915: eslov.se INFO Done testing host umbrella.eslov.se.
+ 20.933: eslov.se INFO Name server umbrella.eslov.se (194.68.85.11) answers queries over UDP.
+ 20.971: eslov.se INFO Name server umbrella.eslov.se (194.68.85.11) answers queries over TCP.
+ 21.033: eslov.se WARNING Name server umbrella.eslov.se (194.68.85.11) is recursive.
+ 21.053: eslov.se INFO Name server umbrella.eslov.se (194.68.85.11) authoritative for eslov.se.
+ 21.290: eslov.se INFO Name server umbrella.eslov.se (194.68.85.11) closed for zone transfer of eslov.se.
+ 21.307: eslov.se NOTICE No answer received from 194.68.85.11 when querying for hostname.bind/CH/TXT.
+ 39.319: eslov.se INFO Done testing name server umbrella.eslov.se.
+ 39.319: eslov.se INFO Begin testing zone consistency for eslov.se.
+ 39.335: eslov.se INFO SOA at address 192.71.220.9 has serial 480.
+ 39.344: eslov.se INFO SOA at address 192.71.180.44 has serial 480.
+ 39.361: eslov.se INFO SOA at address 194.68.85.11 has serial 480.
+ 39.362: eslov.se INFO All SOA records have consistent serial numbers.
+ 39.362: eslov.se INFO All SOA records are consistent among all name servers.
+ 39.362: eslov.se INFO Done testing zone consistency for eslov.se.
+ 39.362: eslov.se INFO Begin testing SOA parameters for eslov.se.
+ 39.371: eslov.se INFO Found SOA record for eslov.se.
+ 39.371: eslov.se INFO Begin testing host umbrella.eslov.se.
+ 39.371: eslov.se INFO Begin testing address 194.68.85.11.
+ 39.373: eslov.se INFO Done testing address 194.68.85.11.
+ 39.373: eslov.se INFO Done testing host umbrella.eslov.se.
+ 39.373: eslov.se INFO SOA MNAME for eslov.se valid (umbrella.eslov.se).
+ 39.373: eslov.se INFO SOA MNAME for eslov.se (umbrella.eslov.se) listed as NS.
+ 39.390: eslov.se INFO SOA MNAME for eslov.se (umbrella.eslov.se) is authoritative.
+ 39.390: eslov.se INFO Begin testing email address helpdesk@eslov.se.
+ 39.643: eslov.se INFO Mail exchangers for helpdesk@eslov.se found mx51.emailfiltering.com,mx52.emailfiltering.com,mx53.emailfiltering.com.
+ 39.643: eslov.se INFO Begin testing host mx51.emailfiltering.com.
+ 40.636: eslov.se INFO Begin testing address 194.116.198.76.
+ 42.002: eslov.se INFO Done testing address 194.116.198.76.
+ 42.003: eslov.se INFO Done testing host mx51.emailfiltering.com.
+ 42.003: eslov.se INFO Begin testing mail server mx51.emailfiltering.com (194.116.198.76) with helpdesk@eslov.se.
+ 42.669: eslov.se INFO SMTP banner: gse-mta-04.emailfiltering.com emfmtad 72
+ 42.760: eslov.se INFO SMTP testing of mx51.emailfiltering.com (194.116.198.76) with helpdesk@eslov.se succeeded without errors.
+ 42.760: eslov.se INFO Done testing mail server mx51.emailfiltering.com (194.116.198.76) with helpdesk@eslov.se.
+ 42.760: eslov.se INFO Begin testing host mx52.emailfiltering.com.
+ 43.632: eslov.se INFO Begin testing address 194.116.199.76.
+ 49.241: eslov.se INFO Done testing address 194.116.199.76.
+ 49.242: eslov.se INFO Done testing host mx52.emailfiltering.com.
+ 49.242: eslov.se INFO Begin testing host mx53.emailfiltering.com.
+ 50.266: eslov.se INFO Begin testing address 79.125.114.48.
+ 59.883: eslov.se INFO Done testing address 79.125.114.48.
+ 59.883: eslov.se INFO Done testing host mx53.emailfiltering.com.
+ 59.884: eslov.se INFO Delivery over IPv4 to helpdesk@eslov.se ok.
+ 59.884: eslov.se INFO Delivery over IPv6 to helpdesk@eslov.se could not be done.
+ 59.884: eslov.se INFO Done testing email address helpdesk@eslov.se.
+ 59.884: eslov.se INFO Successful attempt to deliver email for SOA RNAME of eslov.se (helpdesk.eslov.se) using helpdesk@eslov.se.
+ 59.884: eslov.se INFO SOA TTL for eslov.se OK (3600) - recommended >= 3600.
+ 59.884: eslov.se NOTICE SOA refresh for eslov.se too small (3600) - recommended >= 14400.
+ 59.884: eslov.se NOTICE SOA retry for eslov.se too small (120) - recommended >= 3600.
+ 59.884: eslov.se INFO SOA expire for eslov.se OK (604800) - recommended >= 604800.
+ 59.884: eslov.se INFO SOA minimum for eslov.se OK (86400) - recommended between 300 and 86400.
+ 59.884: eslov.se INFO Done testing SOA parameters for eslov.se.
+ 59.885: eslov.se INFO Begin testing connectivity for eslov.se.
+ 60.417: eslov.se INFO Name server 192.71.180.44 announced by: 1257
+ 61.081: eslov.se INFO Name server 192.71.220.9 announced by: 1257
+ 61.714: eslov.se INFO Name server 194.68.85.11 announced by: 1257
+ 61.714: eslov.se INFO Zone announced by IPv4 ASN: 1257
+ 61.714: eslov.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 61.714: eslov.se INFO Zone announced by IPv6 ASN: 
+ 61.714: eslov.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 61.714: eslov.se INFO Done testing connectivity for eslov.se.
+ 61.715: eslov.se INFO Begin testing DNSSEC for eslov.se.
+ 61.731: eslov.se INFO Did not find DS record for eslov.se at parent.
+ 61.792: eslov.se INFO Servers for eslov.se have consistent extra processing status.
+ 61.792: eslov.se INFO Did not find DNSKEY record for eslov.se at child.
+ 61.792: eslov.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 61.792: eslov.se INFO Done testing DNSSEC for eslov.se.
+ 61.793: eslov.se INFO Test completed for zone eslov.se.

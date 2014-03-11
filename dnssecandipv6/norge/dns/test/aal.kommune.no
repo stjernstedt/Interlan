@@ -1,0 +1,139 @@
+  0.000: aal.kommune.no INFO Begin testing zone aal.kommune.no with version 1.6.1.
+  0.423: aal.kommune.no INFO Begin testing delegation for aal.kommune.no.
+  9.044: aal.kommune.no INFO Name servers listed at parent: dns1.as2116.net,dns2.as2116.net
+ 10.148: aal.kommune.no INFO Name servers listed at child: dns1.eunet.no,dns2.eunet.no
+ 10.148: aal.kommune.no ERROR Superfluous name server listed at parent: dns1.as2116.net
+ 10.148: aal.kommune.no ERROR Superfluous name server listed at parent: dns2.as2116.net
+ 10.148: aal.kommune.no ERROR Total parent/child glue mismatch.
+ 10.148: aal.kommune.no NOTICE Additional name server listed at child: dns1.eunet.no
+ 10.148: aal.kommune.no NOTICE Additional name server listed at child: dns2.eunet.no
+ 10.149: aal.kommune.no NOTICE Too few IPv6 name servers (1).
+ 10.307: aal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.438: aal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.635: aal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.783: aal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.241: aal.kommune.no INFO It is possible to build a referral packet for aal.kommune.no that works without EDNS0.
+ 12.623: aal.kommune.no INFO Previously used name servers for aal.kommune.no: 
+ 12.623: aal.kommune.no INFO Done testing delegation for aal.kommune.no.
+ 12.636: aal.kommune.no INFO Begin testing name server dns1.eunet.no.
+ 12.636: aal.kommune.no INFO Begin testing host dns1.eunet.no.
+ 12.636: aal.kommune.no INFO Begin testing address 193.75.75.1.
+ 16.124: aal.kommune.no INFO Done testing address 193.75.75.1.
+ 16.124: aal.kommune.no INFO Begin testing address 2001:8c0:2001:0:0:0:3:53.
+ 16.478: aal.kommune.no INFO Done testing address 2001:8c0:2001:0:0:0:3:53.
+ 16.479: aal.kommune.no INFO Done testing host dns1.eunet.no.
+ 16.510: aal.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) answers queries over UDP.
+ 16.540: aal.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) answers queries over TCP.
+ 16.564: aal.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) is not recursive.
+ 16.627: aal.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) authoritative for aal.kommune.no.
+ 16.666: aal.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) closed for zone transfer of aal.kommune.no.
+ 16.696: aal.kommune.no INFO Legacy name server ID for dns1.eunet.no (193.75.75.1): hostname.bind = alpha-a.server.as2116.net
+ 16.709: aal.kommune.no INFO Legacy name server ID for dns1.eunet.no (193.75.75.1): version.bind = Shirely you must be joking
+ 16.737: aal.kommune.no NOTICE No answer received from 193.75.75.1 when querying for version.server/CH/TXT.
+ 16.771: aal.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) answers queries over UDP.
+ 16.812: aal.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) answers queries over TCP.
+ 16.836: aal.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) is not recursive.
+ 16.944: aal.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) authoritative for aal.kommune.no.
+ 16.993: aal.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) closed for zone transfer of aal.kommune.no.
+ 17.024: aal.kommune.no INFO Legacy name server ID for dns1.eunet.no (2001:8c0:2001:0:0:0:3:53): hostname.bind = alpha-a.server.as2116.net
+ 17.041: aal.kommune.no INFO Legacy name server ID for dns1.eunet.no (2001:8c0:2001:0:0:0:3:53): version.bind = Shirely you must be joking
+ 17.096: aal.kommune.no NOTICE No answer received from 2001:8c0:2001:0:0:0:3:53 when querying for version.server/CH/TXT.
+ 17.096: aal.kommune.no INFO Done testing name server dns1.eunet.no.
+ 17.096: aal.kommune.no INFO Begin testing name server dns2.eunet.no.
+ 17.096: aal.kommune.no INFO Begin testing host dns2.eunet.no.
+ 17.312: aal.kommune.no INFO Begin testing address 148.122.208.226.
+ 25.511: aal.kommune.no INFO Done testing address 148.122.208.226.
+ 25.523: aal.kommune.no INFO Done testing host dns2.eunet.no.
+ 25.780: aal.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) answers queries over UDP.
+ 25.851: aal.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) answers queries over TCP.
+ 25.895: aal.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) is not recursive.
+ 26.040: aal.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) authoritative for aal.kommune.no.
+ 26.089: aal.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) closed for zone transfer of aal.kommune.no.
+ 26.104: aal.kommune.no INFO Legacy name server ID for dns2.eunet.no (148.122.208.226): hostname.bind = ny-ns2-eunet.oke.nextra.no
+ 26.152: aal.kommune.no INFO Legacy name server ID for dns2.eunet.no (148.122.208.226): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 26.221: aal.kommune.no NOTICE No answer received from 148.122.208.226 when querying for version.server/CH/TXT.
+ 26.221: aal.kommune.no INFO Done testing name server dns2.eunet.no.
+ 26.221: aal.kommune.no INFO Begin testing name server dns1.as2116.net.
+ 26.221: aal.kommune.no INFO Begin testing host dns1.as2116.net.
+ 26.222: aal.kommune.no INFO Begin testing address 193.75.75.1.
+ 26.223: aal.kommune.no INFO Done testing address 193.75.75.1.
+ 26.223: aal.kommune.no INFO Begin testing address 2001:8c0:2001:0:0:0:3:53.
+ 26.248: aal.kommune.no INFO Done testing address 2001:8c0:2001:0:0:0:3:53.
+ 26.249: aal.kommune.no INFO Done testing host dns1.as2116.net.
+ 26.264: aal.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) answers queries over UDP.
+ 26.339: aal.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) answers queries over TCP.
+ 26.358: aal.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) is not recursive.
+ 26.440: aal.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) authoritative for aal.kommune.no.
+ 26.481: aal.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) closed for zone transfer of aal.kommune.no.
+ 26.523: aal.kommune.no INFO Legacy name server ID for dns1.as2116.net (193.75.75.1): hostname.bind = alpha-a.server.as2116.net
+ 26.548: aal.kommune.no INFO Legacy name server ID for dns1.as2116.net (193.75.75.1): version.bind = Shirely you must be joking
+ 26.575: aal.kommune.no NOTICE No answer received from 193.75.75.1 when querying for version.server/CH/TXT.
+ 26.602: aal.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) answers queries over UDP.
+ 26.647: aal.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) answers queries over TCP.
+ 26.700: aal.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) is not recursive.
+ 26.834: aal.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) authoritative for aal.kommune.no.
+ 26.880: aal.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) closed for zone transfer of aal.kommune.no.
+ 26.919: aal.kommune.no INFO Legacy name server ID for dns1.as2116.net (2001:8c0:2001:0:0:0:3:53): hostname.bind = alpha-a.server.as2116.net
+ 26.950: aal.kommune.no INFO Legacy name server ID for dns1.as2116.net (2001:8c0:2001:0:0:0:3:53): version.bind = Shirely you must be joking
+ 27.060: aal.kommune.no NOTICE No answer received from 2001:8c0:2001:0:0:0:3:53 when querying for version.server/CH/TXT.
+ 27.060: aal.kommune.no INFO Done testing name server dns1.as2116.net.
+ 27.060: aal.kommune.no INFO Begin testing name server dns2.as2116.net.
+ 27.060: aal.kommune.no INFO Begin testing host dns2.as2116.net.
+ 27.268: aal.kommune.no INFO Begin testing address 148.122.208.226.
+ 27.760: aal.kommune.no INFO Done testing address 148.122.208.226.
+ 27.760: aal.kommune.no INFO Done testing host dns2.as2116.net.
+ 28.031: aal.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) answers queries over UDP.
+ 28.084: aal.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) answers queries over TCP.
+ 28.100: aal.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) is not recursive.
+ 28.212: aal.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) authoritative for aal.kommune.no.
+ 28.271: aal.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) closed for zone transfer of aal.kommune.no.
+ 28.285: aal.kommune.no INFO Legacy name server ID for dns2.as2116.net (148.122.208.226): hostname.bind = ny-ns2-eunet.oke.nextra.no
+ 28.307: aal.kommune.no INFO Legacy name server ID for dns2.as2116.net (148.122.208.226): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 28.345: aal.kommune.no NOTICE No answer received from 148.122.208.226 when querying for version.server/CH/TXT.
+ 28.345: aal.kommune.no INFO Done testing name server dns2.as2116.net.
+ 28.345: aal.kommune.no INFO Begin testing zone consistency for aal.kommune.no.
+ 28.952: aal.kommune.no INFO SOA at address 2001:8c0:2001:0:0:0:3:53 has serial 2014021101.
+ 28.988: aal.kommune.no INFO SOA at address 193.75.75.1 has serial 2014021101.
+ 29.003: aal.kommune.no INFO SOA at address 148.122.208.226 has serial 2014021101.
+ 29.003: aal.kommune.no INFO All SOA records have consistent serial numbers.
+ 29.003: aal.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 29.352: aal.kommune.no NOTICE The listed nameservers for aal.kommune.no all report the same set of nameservers.
+ 29.352: aal.kommune.no INFO Done testing zone consistency for aal.kommune.no.
+ 29.352: aal.kommune.no INFO Begin testing SOA parameters for aal.kommune.no.
+ 29.384: aal.kommune.no INFO Found SOA record for aal.kommune.no.
+ 29.384: aal.kommune.no INFO Begin testing host dns1.eunet.no.
+ 29.385: aal.kommune.no INFO Begin testing address 193.75.75.1.
+ 29.428: aal.kommune.no INFO Done testing address 193.75.75.1.
+ 29.429: aal.kommune.no INFO Begin testing address 2001:8c0:2001:0:0:0:3:53.
+ 29.430: aal.kommune.no INFO Done testing address 2001:8c0:2001:0:0:0:3:53.
+ 29.430: aal.kommune.no INFO Done testing host dns1.eunet.no.
+ 29.430: aal.kommune.no INFO SOA MNAME for aal.kommune.no valid (dns1.eunet.no).
+ 29.430: aal.kommune.no INFO SOA MNAME for aal.kommune.no (dns1.eunet.no) listed as NS.
+ 29.504: aal.kommune.no INFO SOA MNAME for aal.kommune.no (dns1.eunet.no) is authoritative.
+ 29.532: aal.kommune.no INFO SOA MNAME for aal.kommune.no (dns1.eunet.no) is authoritative.
+ 29.532: aal.kommune.no INFO Begin testing email address hostmaster@ventelo.no.
+ 29.656: aal.kommune.no INFO Mail exchangers for hostmaster@ventelo.no found mailvask.infostorm.no.
+ 29.657: aal.kommune.no INFO Begin testing host mailvask.infostorm.no.
+ 32.842: aal.kommune.no INFO Begin testing address 217.18.206.27.
+ 33.392: aal.kommune.no INFO Done testing address 217.18.206.27.
+ 33.392: aal.kommune.no INFO Done testing host mailvask.infostorm.no.
+ 33.470: aal.kommune.no INFO Done testing email address hostmaster@ventelo.no.
+ 33.470: aal.kommune.no INFO Successful attempt to deliver email for SOA RNAME of aal.kommune.no (hostmaster.ventelo.no) using hostmaster@ventelo.no.
+ 33.470: aal.kommune.no INFO SOA TTL for aal.kommune.no OK (7200) - recommended >= 3600.
+ 33.470: aal.kommune.no INFO SOA refresh for aal.kommune.no OK (28800) - recommended >= 14400.
+ 33.470: aal.kommune.no INFO SOA retry for aal.kommune.no OK (3600) - recommended >= 3600.
+ 33.470: aal.kommune.no INFO SOA expire for aal.kommune.no OK (2592000) - recommended >= 604800.
+ 33.470: aal.kommune.no INFO SOA minimum for aal.kommune.no OK (600) - recommended between 300 and 86400.
+ 33.470: aal.kommune.no INFO Done testing SOA parameters for aal.kommune.no.
+ 33.471: aal.kommune.no INFO Begin testing connectivity for aal.kommune.no.
+ 34.399: aal.kommune.no INFO Zone announced by more than one ASN.
+ 34.934: aal.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 34.934: aal.kommune.no INFO Done testing connectivity for aal.kommune.no.
+ 34.934: aal.kommune.no INFO Begin testing DNSSEC for aal.kommune.no.
+ 35.044: aal.kommune.no INFO Did not find DS record for aal.kommune.no at parent.
+ 35.150: aal.kommune.no INFO Servers for aal.kommune.no have consistent extra processing status.
+ 35.180: aal.kommune.no INFO Authenticated denial records not found for aal.kommune.no.
+ 35.193: aal.kommune.no INFO Did not find DNSKEY record for aal.kommune.no at child.
+ 35.193: aal.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 35.193: aal.kommune.no INFO Done testing DNSSEC for aal.kommune.no.
+ 35.194: aal.kommune.no INFO Test completed for zone aal.kommune.no.

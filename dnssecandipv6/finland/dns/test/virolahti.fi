@@ -1,0 +1,80 @@
+  0.000: virolahti.fi INFO Begin testing zone virolahti.fi with version 1.6.1.
+  0.296: virolahti.fi INFO Begin testing delegation for virolahti.fi.
+  6.266: virolahti.fi INFO Name servers listed at parent: pri-ns.kymp.net,sec-ns.kymp.net
+  7.761: virolahti.fi INFO Name servers listed at child: pri-ns.kymp.net,sec-ns.kymp.net
+  7.761: virolahti.fi NOTICE No IPv6 name servers found.
+  8.554: virolahti.fi INFO It is possible to build a referral packet for virolahti.fi that works without EDNS0.
+  9.209: virolahti.fi INFO Previously used name servers for virolahti.fi: 
+  9.209: virolahti.fi INFO Done testing delegation for virolahti.fi.
+  9.210: virolahti.fi INFO Begin testing name server pri-ns.kymp.net.
+  9.210: virolahti.fi INFO Begin testing host pri-ns.kymp.net.
+  9.434: virolahti.fi INFO Begin testing address 80.248.96.130.
+ 12.359: virolahti.fi INFO Done testing address 80.248.96.130.
+ 12.359: virolahti.fi INFO Done testing host pri-ns.kymp.net.
+ 12.528: virolahti.fi INFO Name server pri-ns.kymp.net (80.248.96.130) answers queries over UDP.
+ 12.569: virolahti.fi INFO Name server pri-ns.kymp.net (80.248.96.130) answers queries over TCP.
+ 12.599: virolahti.fi INFO Name server pri-ns.kymp.net (80.248.96.130) is not recursive.
+ 12.696: virolahti.fi INFO Name server pri-ns.kymp.net (80.248.96.130) authoritative for virolahti.fi.
+ 12.742: virolahti.fi INFO Name server pri-ns.kymp.net (80.248.96.130) closed for zone transfer of virolahti.fi.
+ 12.763: virolahti.fi NOTICE No answer received from 80.248.96.130 when querying for hostname.bind/CH/TXT.
+ 12.780: virolahti.fi NOTICE No answer received from 80.248.96.130 when querying for version.bind/CH/TXT.
+ 12.796: virolahti.fi NOTICE No answer received from 80.248.96.130 when querying for id.server/CH/TXT.
+ 12.815: virolahti.fi NOTICE No answer received from 80.248.96.130 when querying for version.server/CH/TXT.
+ 12.815: virolahti.fi INFO Done testing name server pri-ns.kymp.net.
+ 12.815: virolahti.fi INFO Begin testing name server sec-ns.kymp.net.
+ 12.815: virolahti.fi INFO Begin testing host sec-ns.kymp.net.
+ 13.039: virolahti.fi INFO Begin testing address 80.248.97.30.
+ 13.686: virolahti.fi INFO Done testing address 80.248.97.30.
+ 13.686: virolahti.fi INFO Done testing host sec-ns.kymp.net.
+ 13.936: virolahti.fi INFO Name server sec-ns.kymp.net (80.248.97.30) answers queries over UDP.
+ 13.980: virolahti.fi INFO Name server sec-ns.kymp.net (80.248.97.30) answers queries over TCP.
+ 13.998: virolahti.fi INFO Name server sec-ns.kymp.net (80.248.97.30) is not recursive.
+ 14.070: virolahti.fi INFO Name server sec-ns.kymp.net (80.248.97.30) authoritative for virolahti.fi.
+ 14.121: virolahti.fi INFO Name server sec-ns.kymp.net (80.248.97.30) closed for zone transfer of virolahti.fi.
+ 14.139: virolahti.fi NOTICE No answer received from 80.248.97.30 when querying for hostname.bind/CH/TXT.
+ 14.161: virolahti.fi NOTICE No answer received from 80.248.97.30 when querying for version.bind/CH/TXT.
+ 14.183: virolahti.fi NOTICE No answer received from 80.248.97.30 when querying for id.server/CH/TXT.
+ 14.201: virolahti.fi NOTICE No answer received from 80.248.97.30 when querying for version.server/CH/TXT.
+ 14.202: virolahti.fi INFO Done testing name server sec-ns.kymp.net.
+ 14.202: virolahti.fi INFO Begin testing zone consistency for virolahti.fi.
+ 14.980: virolahti.fi INFO SOA at address 80.248.96.130 has serial 2014022401.
+ 15.057: virolahti.fi INFO SOA at address 80.248.97.30 has serial 2014022401.
+ 15.057: virolahti.fi INFO All SOA records have consistent serial numbers.
+ 15.057: virolahti.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 16.096: virolahti.fi NOTICE The listed nameservers for virolahti.fi all report the same set of nameservers.
+ 16.096: virolahti.fi INFO Done testing zone consistency for virolahti.fi.
+ 16.096: virolahti.fi INFO Begin testing SOA parameters for virolahti.fi.
+ 16.152: virolahti.fi INFO Found SOA record for virolahti.fi.
+ 16.152: virolahti.fi INFO Begin testing host pri-ns.kymp.net.
+ 16.705: virolahti.fi INFO Begin testing address 80.248.96.130.
+ 17.327: virolahti.fi INFO Done testing address 80.248.96.130.
+ 17.327: virolahti.fi INFO Done testing host pri-ns.kymp.net.
+ 17.327: virolahti.fi INFO SOA MNAME for virolahti.fi valid (pri-ns.kymp.net).
+ 17.328: virolahti.fi INFO SOA MNAME for virolahti.fi (pri-ns.kymp.net) listed as NS.
+ 17.920: virolahti.fi INFO SOA MNAME for virolahti.fi (pri-ns.kymp.net) is authoritative.
+ 17.920: virolahti.fi INFO Begin testing email address hostmaster@kymp.net.
+ 18.262: virolahti.fi INFO Mail exchangers for hostmaster@kymp.net found iport.kymp.net.
+ 18.263: virolahti.fi INFO Begin testing host iport.kymp.net.
+ 19.388: virolahti.fi INFO Begin testing address 80.248.96.180.
+ 20.578: virolahti.fi INFO Done testing address 80.248.96.180.
+ 20.603: virolahti.fi INFO Done testing host iport.kymp.net.
+ 21.139: virolahti.fi INFO Done testing email address hostmaster@kymp.net.
+ 21.139: virolahti.fi INFO Successful attempt to deliver email for SOA RNAME of virolahti.fi (hostmaster.kymp.net) using hostmaster@kymp.net.
+ 21.140: virolahti.fi INFO SOA TTL for virolahti.fi OK (86400) - recommended >= 3600.
+ 21.140: virolahti.fi INFO SOA refresh for virolahti.fi OK (28800) - recommended >= 14400.
+ 21.140: virolahti.fi INFO SOA retry for virolahti.fi OK (7200) - recommended >= 3600.
+ 21.140: virolahti.fi INFO SOA expire for virolahti.fi OK (1209600) - recommended >= 604800.
+ 21.140: virolahti.fi INFO SOA minimum for virolahti.fi OK (86400) - recommended between 300 and 86400.
+ 21.140: virolahti.fi INFO Done testing SOA parameters for virolahti.fi.
+ 21.140: virolahti.fi INFO Begin testing connectivity for virolahti.fi.
+ 22.591: virolahti.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 22.591: virolahti.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 22.592: virolahti.fi INFO Done testing connectivity for virolahti.fi.
+ 22.592: virolahti.fi INFO Begin testing DNSSEC for virolahti.fi.
+ 22.679: virolahti.fi INFO Did not find DS record for virolahti.fi at parent.
+ 22.762: virolahti.fi INFO Servers for virolahti.fi have consistent extra processing status.
+ 22.803: virolahti.fi INFO Authenticated denial records not found for virolahti.fi.
+ 22.821: virolahti.fi INFO Did not find DNSKEY record for virolahti.fi at child.
+ 22.822: virolahti.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 22.822: virolahti.fi INFO Done testing DNSSEC for virolahti.fi.
+ 22.822: virolahti.fi INFO Test completed for zone virolahti.fi.

@@ -1,0 +1,133 @@
+  0.000: overkalix.se INFO Begin testing zone overkalix.se with version 1.6.1.
+  0.659: overkalix.se INFO Begin testing delegation for overkalix.se.
+  9.644: overkalix.se INFO Name servers listed at parent: dns.overkalix.se,dns2.overkalix.se
+ 20.218: overkalix.se INFO Name servers listed at child: dns.overkalix.se,dns2.overkalix.se
+ 20.280: overkalix.se INFO Parent glue for overkalix.se found: dns.overkalix.se (195.84.101.98)
+ 20.374: overkalix.se INFO Parent glue for overkalix.se found: dns.overkalix.se (2001:67c:18f4:4:195:84:101:98)
+ 20.418: overkalix.se INFO Parent glue for overkalix.se found: dns2.overkalix.se (195.84.101.99)
+ 20.429: overkalix.se INFO Parent glue for overkalix.se found: dns2.overkalix.se (2001:67c:18f4:4:195:84:101:99)
+ 20.429: overkalix.se INFO Checking glue for dns.overkalix.se (195.84.101.98).
+ 20.472: overkalix.se INFO Child glue for overkalix.se found: dns.overkalix.se (195.84.101.98)
+ 20.472: overkalix.se INFO Checking glue for dns.overkalix.se (2001:67c:18f4:4:195:84:101:98).
+ 20.520: overkalix.se ERROR Inconsistent glue for name server dns.overkalix.se.
+ 20.521: overkalix.se INFO Checking glue for dns2.overkalix.se (195.84.101.99).
+ 20.572: overkalix.se INFO Child glue for overkalix.se found: dns2.overkalix.se (195.84.101.99)
+ 20.572: overkalix.se INFO Checking glue for dns2.overkalix.se (2001:67c:18f4:4:195:84:101:99).
+ 20.608: overkalix.se ERROR Inconsistent glue for name server dns2.overkalix.se.
+ 20.609: overkalix.se INFO Parent glue for overkalix.se found: dns.overkalix.se (195.84.101.98)
+ 20.609: overkalix.se INFO Parent glue for overkalix.se found: dns.overkalix.se (2001:67c:18f4:4:195:84:101:98)
+ 20.609: overkalix.se INFO Parent glue for overkalix.se found: dns2.overkalix.se (195.84.101.99)
+ 20.609: overkalix.se INFO Parent glue for overkalix.se found: dns2.overkalix.se (2001:67c:18f4:4:195:84:101:99)
+ 20.629: overkalix.se INFO It is possible to build a referral packet for overkalix.se that works without EDNS0.
+ 20.670: overkalix.se INFO Previously used name servers for overkalix.se: 
+ 20.670: overkalix.se INFO Done testing delegation for overkalix.se.
+ 20.670: overkalix.se INFO Begin testing name server dns.overkalix.se.
+ 20.671: overkalix.se INFO Begin testing host dns.overkalix.se.
+ 20.671: overkalix.se INFO Begin testing address 195.84.101.98.
+ 31.407: overkalix.se INFO Done testing address 195.84.101.98.
+ 31.407: overkalix.se INFO Begin testing address 2001:67c:18f4:4:0:0:0:98.
+ 40.354: overkalix.se WARNING Could not find reverse address for 2001:67c:18f4:4:0:0:0:98 (8.9.0.0.0.0.0.0.0.0.0.0.0.0.0.0.4.0.0.0.4.f.8.1.c.7.6.0.1.0.0.2.ip6.arpa.).
+ 40.355: overkalix.se INFO Done testing address 2001:67c:18f4:4:0:0:0:98.
+ 40.355: overkalix.se INFO Done testing host dns.overkalix.se.
+ 40.380: overkalix.se INFO Name server dns.overkalix.se (195.84.101.98) answers queries over UDP.
+ 40.434: overkalix.se INFO Name server dns.overkalix.se (195.84.101.98) answers queries over TCP.
+ 40.458: overkalix.se INFO Name server dns.overkalix.se (195.84.101.98) is not recursive.
+ 40.594: overkalix.se INFO Name server dns.overkalix.se (195.84.101.98) authoritative for overkalix.se.
+ 40.654: overkalix.se INFO Name server dns.overkalix.se (195.84.101.98) closed for zone transfer of overkalix.se.
+ 40.689: overkalix.se NOTICE No answer received from 195.84.101.98 when querying for hostname.bind/CH/TXT.
+ 40.710: overkalix.se INFO Legacy name server ID for dns.overkalix.se (195.84.101.98): version.bind = BIND 9
+ 40.737: overkalix.se NOTICE No answer received from 195.84.101.98 when querying for id.server/CH/TXT.
+ 40.766: overkalix.se NOTICE No answer received from 195.84.101.98 when querying for version.server/CH/TXT.
+ 40.822: overkalix.se INFO Name server dns.overkalix.se (2001:67c:18f4:4:0:0:0:98) answers queries over UDP.
+ 40.876: overkalix.se INFO Name server dns.overkalix.se (2001:67c:18f4:4:0:0:0:98) answers queries over TCP.
+ 40.914: overkalix.se INFO Name server dns.overkalix.se (2001:67c:18f4:4:0:0:0:98) is not recursive.
+ 41.038: overkalix.se INFO Name server dns.overkalix.se (2001:67c:18f4:4:0:0:0:98) authoritative for overkalix.se.
+ 41.114: overkalix.se INFO Name server dns.overkalix.se (2001:67c:18f4:4:0:0:0:98) closed for zone transfer of overkalix.se.
+ 41.141: overkalix.se NOTICE No answer received from 2001:67c:18f4:4:0:0:0:98 when querying for hostname.bind/CH/TXT.
+ 41.184: overkalix.se INFO Legacy name server ID for dns.overkalix.se (2001:67c:18f4:4:0:0:0:98): version.bind = BIND 9
+ 41.213: overkalix.se NOTICE No answer received from 2001:67c:18f4:4:0:0:0:98 when querying for id.server/CH/TXT.
+ 41.236: overkalix.se NOTICE No answer received from 2001:67c:18f4:4:0:0:0:98 when querying for version.server/CH/TXT.
+ 41.237: overkalix.se INFO Done testing name server dns.overkalix.se.
+ 41.237: overkalix.se INFO Begin testing name server dns2.overkalix.se.
+ 41.237: overkalix.se INFO Begin testing host dns2.overkalix.se.
+ 41.237: overkalix.se INFO Begin testing address 195.84.101.99.
+ 46.358: overkalix.se INFO Done testing address 195.84.101.99.
+ 46.360: overkalix.se INFO Begin testing address 2001:67c:18f4:4:0:0:0:99.
+ 47.051: overkalix.se INFO Done testing address 2001:67c:18f4:4:0:0:0:99.
+ 47.051: overkalix.se INFO Done testing host dns2.overkalix.se.
+ 47.077: overkalix.se INFO Name server dns2.overkalix.se (195.84.101.99) answers queries over UDP.
+ 47.121: overkalix.se INFO Name server dns2.overkalix.se (195.84.101.99) answers queries over TCP.
+ 47.154: overkalix.se INFO Name server dns2.overkalix.se (195.84.101.99) is not recursive.
+ 47.267: overkalix.se INFO Name server dns2.overkalix.se (195.84.101.99) authoritative for overkalix.se.
+ 47.326: overkalix.se INFO Name server dns2.overkalix.se (195.84.101.99) closed for zone transfer of overkalix.se.
+ 47.347: overkalix.se NOTICE No answer received from 195.84.101.99 when querying for hostname.bind/CH/TXT.
+ 47.370: overkalix.se INFO Legacy name server ID for dns2.overkalix.se (195.84.101.99): version.bind = BIND 9
+ 47.391: overkalix.se NOTICE No answer received from 195.84.101.99 when querying for id.server/CH/TXT.
+ 47.411: overkalix.se NOTICE No answer received from 195.84.101.99 when querying for version.server/CH/TXT.
+ 47.437: overkalix.se INFO Name server dns2.overkalix.se (2001:67c:18f4:4:0:0:0:99) answers queries over UDP.
+ 47.484: overkalix.se INFO Name server dns2.overkalix.se (2001:67c:18f4:4:0:0:0:99) answers queries over TCP.
+ 47.507: overkalix.se INFO Name server dns2.overkalix.se (2001:67c:18f4:4:0:0:0:99) is not recursive.
+ 47.610: overkalix.se INFO Name server dns2.overkalix.se (2001:67c:18f4:4:0:0:0:99) authoritative for overkalix.se.
+ 47.675: overkalix.se INFO Name server dns2.overkalix.se (2001:67c:18f4:4:0:0:0:99) closed for zone transfer of overkalix.se.
+ 47.698: overkalix.se NOTICE No answer received from 2001:67c:18f4:4:0:0:0:99 when querying for hostname.bind/CH/TXT.
+ 47.722: overkalix.se INFO Legacy name server ID for dns2.overkalix.se (2001:67c:18f4:4:0:0:0:99): version.bind = BIND 9
+ 47.746: overkalix.se NOTICE No answer received from 2001:67c:18f4:4:0:0:0:99 when querying for id.server/CH/TXT.
+ 47.777: overkalix.se NOTICE No answer received from 2001:67c:18f4:4:0:0:0:99 when querying for version.server/CH/TXT.
+ 47.777: overkalix.se INFO Done testing name server dns2.overkalix.se.
+ 47.777: overkalix.se INFO Begin testing zone consistency for overkalix.se.
+ 47.821: overkalix.se INFO SOA at address 2001:67c:18f4:4:0:0:0:98 has serial 2013121300.
+ 47.844: overkalix.se INFO SOA at address 195.84.101.99 has serial 2013121300.
+ 47.869: overkalix.se INFO SOA at address 195.84.101.98 has serial 2013121300.
+ 47.901: overkalix.se INFO SOA at address 2001:67c:18f4:4:0:0:0:99 has serial 2013121300.
+ 47.901: overkalix.se INFO All SOA records have consistent serial numbers.
+ 47.901: overkalix.se INFO All other fields in the SOA record are consistent among all name servers.
+ 48.008: overkalix.se NOTICE The listed nameservers for overkalix.se all report the same set of nameservers.
+ 48.008: overkalix.se INFO Done testing zone consistency for overkalix.se.
+ 48.009: overkalix.se INFO Begin testing SOA parameters for overkalix.se.
+ 48.040: overkalix.se INFO Found SOA record for overkalix.se.
+ 48.040: overkalix.se INFO Begin testing host dns.overkalix.se.
+ 48.041: overkalix.se INFO Begin testing address 195.84.101.98.
+ 48.051: overkalix.se INFO Done testing address 195.84.101.98.
+ 48.052: overkalix.se INFO Begin testing address 2001:67c:18f4:4:0:0:0:98.
+ 48.053: overkalix.se WARNING Could not find reverse address for 2001:67c:18f4:4:0:0:0:98 (8.9.0.0.0.0.0.0.0.0.0.0.0.0.0.0.4.0.0.0.4.f.8.1.c.7.6.0.1.0.0.2.ip6.arpa.).
+ 48.053: overkalix.se INFO Done testing address 2001:67c:18f4:4:0:0:0:98.
+ 48.054: overkalix.se INFO Done testing host dns.overkalix.se.
+ 48.054: overkalix.se INFO SOA MNAME for overkalix.se valid (dns.overkalix.se).
+ 48.058: overkalix.se INFO SOA MNAME for overkalix.se (dns.overkalix.se) listed as NS.
+ 48.084: overkalix.se INFO SOA MNAME for overkalix.se (dns.overkalix.se) is authoritative.
+ 48.113: overkalix.se INFO SOA MNAME for overkalix.se (dns.overkalix.se) is authoritative.
+ 48.113: overkalix.se INFO Begin testing email address postmaster@overkalix.se.
+ 52.247: overkalix.se INFO Mail exchangers for postmaster@overkalix.se found mail1.overkalix.se,mail2.overkalix.se.
+ 52.247: overkalix.se INFO All mail servers for postmaster@overkalix.se are in zone overkalix.se.
+ 52.247: overkalix.se INFO Begin testing host mail1.overkalix.se.
+ 60.533: overkalix.se INFO Begin testing address 195.84.101.106.
+ 61.491: overkalix.se INFO Done testing address 195.84.101.106.
+ 61.492: overkalix.se INFO Begin testing address 2001:67c:18f4:4:0:0:0:106.
+ 62.224: overkalix.se INFO Done testing address 2001:67c:18f4:4:0:0:0:106.
+ 62.224: overkalix.se INFO Done testing host mail1.overkalix.se.
+ 62.225: overkalix.se INFO Begin testing host mail2.overkalix.se.
+ 66.560: overkalix.se INFO Begin testing address 195.84.101.100.
+ 71.446: overkalix.se INFO Done testing address 195.84.101.100.
+ 71.446: overkalix.se INFO Begin testing address 2001:67c:18f4:4:0:0:0:100.
+ 76.016: overkalix.se INFO Done testing address 2001:67c:18f4:4:0:0:0:100.
+ 76.016: overkalix.se INFO Done testing host mail2.overkalix.se.
+ 76.016: overkalix.se INFO Done testing email address postmaster@overkalix.se.
+ 76.017: overkalix.se INFO Successful attempt to deliver email for SOA RNAME of overkalix.se (postmaster.overkalix.se) using postmaster@overkalix.se.
+ 76.017: overkalix.se INFO SOA TTL for overkalix.se OK (86400) - recommended >= 3600.
+ 76.017: overkalix.se INFO SOA refresh for overkalix.se OK (86400) - recommended >= 14400.
+ 76.017: overkalix.se INFO SOA retry for overkalix.se OK (7200) - recommended >= 3600.
+ 76.017: overkalix.se INFO SOA expire for overkalix.se OK (604800) - recommended >= 604800.
+ 76.017: overkalix.se NOTICE SOA minimum for overkalix.se too large (172800) - recommended <= 86400.
+ 76.017: overkalix.se INFO Done testing SOA parameters for overkalix.se.
+ 76.017: overkalix.se INFO Begin testing connectivity for overkalix.se.
+ 77.054: overkalix.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 77.947: overkalix.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 77.947: overkalix.se INFO Done testing connectivity for overkalix.se.
+ 77.947: overkalix.se INFO Begin testing DNSSEC for overkalix.se.
+ 77.981: overkalix.se INFO Did not find DS record for overkalix.se at parent.
+ 78.154: overkalix.se INFO Servers for overkalix.se have consistent extra processing status.
+ 78.193: overkalix.se INFO Authenticated denial records not found for overkalix.se.
+ 78.214: overkalix.se INFO Did not find DNSKEY record for overkalix.se at child.
+ 78.214: overkalix.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 78.214: overkalix.se INFO Done testing DNSSEC for overkalix.se.
+ 78.215: overkalix.se INFO Test completed for zone overkalix.se.

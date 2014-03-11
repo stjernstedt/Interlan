@@ -1,0 +1,79 @@
+  0.000: sparbankenfinn.se INFO Begin testing zone sparbankenfinn.se with version 1.5.0.
+  0.004: sparbankenfinn.se INFO Begin testing delegation for sparbankenfinn.se.
+  6.919: sparbankenfinn.se INFO Name servers listed at parent: ns1.ascio.com,ns2.ascio.com
+  9.071: sparbankenfinn.se INFO Name servers listed at child: ns1.ascio.com,ns2.ascio.com
+  9.072: sparbankenfinn.se NOTICE No IPv6 name servers found.
+  9.276: sparbankenfinn.se NOTICE DNS lookup error (SERVFAIL).
+  9.346: sparbankenfinn.se NOTICE DNS lookup error (SERVFAIL).
+ 10.292: sparbankenfinn.se INFO It is possible to build a referral packet for sparbankenfinn.se that works without EDNS0.
+ 10.292: sparbankenfinn.se INFO Done testing delegation for sparbankenfinn.se.
+ 10.293: sparbankenfinn.se INFO Begin testing name server ns1.ascio.com.
+ 10.293: sparbankenfinn.se INFO Begin testing host ns1.ascio.com.
+ 10.683: sparbankenfinn.se INFO Begin testing address 91.194.150.220.
+ 15.544: sparbankenfinn.se INFO Done testing address 91.194.150.220.
+ 15.544: sparbankenfinn.se INFO Done testing host ns1.ascio.com.
+ 16.295: sparbankenfinn.se INFO Name server ns1.ascio.com (91.194.150.220) answers queries over UDP.
+ 16.357: sparbankenfinn.se INFO Name server ns1.ascio.com (91.194.150.220) answers queries over TCP.
+ 16.391: sparbankenfinn.se INFO Name server ns1.ascio.com (91.194.150.220) is not recursive.
+ 16.526: sparbankenfinn.se INFO Name server ns1.ascio.com (91.194.150.220) authoritative for sparbankenfinn.se.
+ 16.617: sparbankenfinn.se INFO Name server ns1.ascio.com (91.194.150.220) closed for zone transfer of sparbankenfinn.se.
+ 16.686: sparbankenfinn.se INFO Legacy name server ID for ns1.ascio.com (91.194.150.220): version.bind = Served by POWERDNS 2.9.7 $Id: packethandler.cc,v 1.12 2003/03/17 13:44:53 ahu Exp $
+ 16.754: sparbankenfinn.se INFO Done testing name server ns1.ascio.com.
+ 16.754: sparbankenfinn.se INFO Begin testing name server ns2.ascio.com.
+ 16.754: sparbankenfinn.se INFO Begin testing host ns2.ascio.com.
+ 17.144: sparbankenfinn.se INFO Begin testing address 80.237.206.33.
+ 18.940: sparbankenfinn.se INFO Done testing address 80.237.206.33.
+ 18.941: sparbankenfinn.se INFO Done testing host ns2.ascio.com.
+ 19.491: sparbankenfinn.se INFO Name server ns2.ascio.com (80.237.206.33) answers queries over UDP.
+ 20.104: sparbankenfinn.se INFO Name server ns2.ascio.com (80.237.206.33) answers queries over TCP.
+ 20.147: sparbankenfinn.se INFO Name server ns2.ascio.com (80.237.206.33) is not recursive.
+ 20.300: sparbankenfinn.se INFO Name server ns2.ascio.com (80.237.206.33) authoritative for sparbankenfinn.se.
+ 20.410: sparbankenfinn.se INFO Name server ns2.ascio.com (80.237.206.33) closed for zone transfer of sparbankenfinn.se.
+ 20.488: sparbankenfinn.se NOTICE No answer received from 80.237.206.33 when querying for version.bind/CH/TXT.
+ 20.566: sparbankenfinn.se INFO Done testing name server ns2.ascio.com.
+ 20.566: sparbankenfinn.se INFO Begin testing zone consistency for sparbankenfinn.se.
+ 22.710: sparbankenfinn.se INFO SOA at address 80.237.206.33 has serial 1334733801.
+ 22.743: sparbankenfinn.se INFO SOA at address 91.194.150.220 has serial 1334733801.
+ 22.743: sparbankenfinn.se INFO All SOA records have consistent serial numbers.
+ 22.743: sparbankenfinn.se INFO All other fields in the SOA record are consistent among all name servers.
+ 24.038: sparbankenfinn.se NOTICE The listed nameservers for sparbankenfinn.se all report the same set of nameservers.
+ 24.038: sparbankenfinn.se INFO Done testing zone consistency for sparbankenfinn.se.
+ 24.039: sparbankenfinn.se INFO Begin testing SOA parameters for sparbankenfinn.se.
+ 24.076: sparbankenfinn.se INFO Found SOA record for sparbankenfinn.se.
+ 24.077: sparbankenfinn.se INFO Begin testing host ns1.ascio.com.
+ 24.589: sparbankenfinn.se INFO Begin testing address 91.194.150.220.
+ 25.065: sparbankenfinn.se INFO Done testing address 91.194.150.220.
+ 25.065: sparbankenfinn.se INFO Done testing host ns1.ascio.com.
+ 25.065: sparbankenfinn.se INFO SOA MNAME for sparbankenfinn.se valid (ns1.ascio.com).
+ 25.065: sparbankenfinn.se INFO SOA MNAME for sparbankenfinn.se (ns1.ascio.com) listed as NS.
+ 25.733: sparbankenfinn.se INFO SOA MNAME for sparbankenfinn.se (ns1.ascio.com) is authoritative.
+ 25.734: sparbankenfinn.se INFO Begin testing email address hostmaster@cedel.se.
+ 28.689: sparbankenfinn.se INFO Mail exchangers for hostmaster@cedel.se found relay2.netnames.net,relay1.netnames.net.
+ 28.689: sparbankenfinn.se INFO Begin testing host relay2.netnames.net.
+ 29.524: sparbankenfinn.se INFO Begin testing address 212.53.64.44.
+ 30.484: sparbankenfinn.se INFO Done testing address 212.53.64.44.
+ 30.484: sparbankenfinn.se INFO Done testing host relay2.netnames.net.
+ 31.274: sparbankenfinn.se INFO Begin testing host relay1.netnames.net.
+ 31.961: sparbankenfinn.se INFO Begin testing address 62.128.158.226.
+ 32.741: sparbankenfinn.se INFO Done testing address 62.128.158.226.
+ 32.741: sparbankenfinn.se INFO Done testing host relay1.netnames.net.
+ 33.034: sparbankenfinn.se INFO Done testing email address hostmaster@cedel.se.
+ 33.035: sparbankenfinn.se INFO Successful attempt to deliver email for SOA RNAME of sparbankenfinn.se (hostmaster.cedel.se) using hostmaster@cedel.se.
+ 33.035: sparbankenfinn.se INFO SOA TTL for sparbankenfinn.se OK (86400) - recommended >= 3600.
+ 33.035: sparbankenfinn.se NOTICE SOA refresh for sparbankenfinn.se too small (10800) - recommended >= 14400.
+ 33.035: sparbankenfinn.se INFO SOA retry for sparbankenfinn.se OK (3600) - recommended >= 3600.
+ 33.035: sparbankenfinn.se INFO SOA expire for sparbankenfinn.se OK (604800) - recommended >= 604800.
+ 33.035: sparbankenfinn.se INFO SOA minimum for sparbankenfinn.se OK (40001) - recommended between 300 and 86400.
+ 33.035: sparbankenfinn.se INFO Done testing SOA parameters for sparbankenfinn.se.
+ 33.035: sparbankenfinn.se INFO Begin testing connectivity for sparbankenfinn.se.
+ 34.481: sparbankenfinn.se INFO Zone announced by more than one ASN.
+ 35.051: sparbankenfinn.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 35.052: sparbankenfinn.se INFO Done testing connectivity for sparbankenfinn.se.
+ 35.054: sparbankenfinn.se INFO Begin testing DNSSEC for sparbankenfinn.se.
+ 35.092: sparbankenfinn.se INFO Did not find DS record for sparbankenfinn.se at parent.
+ 35.234: sparbankenfinn.se INFO Servers for sparbankenfinn.se have consistent extra processing status.
+ 35.310: sparbankenfinn.se INFO Authenticated denial records not found for sparbankenfinn.se.
+ 35.351: sparbankenfinn.se INFO Did not find DNSKEY record for sparbankenfinn.se at child.
+ 35.352: sparbankenfinn.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 35.352: sparbankenfinn.se INFO Done testing DNSSEC for sparbankenfinn.se.
+ 35.352: sparbankenfinn.se INFO Test completed for zone sparbankenfinn.se.

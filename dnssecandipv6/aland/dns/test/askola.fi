@@ -1,0 +1,84 @@
+  0.000: askola.fi INFO Begin testing zone askola.fi with version 1.5.0.
+  0.508: askola.fi INFO Begin testing delegation for askola.fi.
+ 11.932: askola.fi INFO Name servers listed at parent: ns3.neutech.fi,ns4.neutech.fi
+ 14.488: askola.fi INFO Name servers listed at child: ns3.neutech.fi,ns4.neutech.fi
+ 14.489: askola.fi NOTICE No IPv6 name servers found.
+ 14.613: askola.fi INFO Parent glue for askola.fi found: ns3.neutech.fi (94.199.59.155)
+ 14.731: askola.fi INFO Parent glue for askola.fi found: ns4.neutech.fi (85.17.226.207)
+ 14.804: askola.fi INFO Checking glue for ns3.neutech.fi (94.199.59.155).
+ 14.804: askola.fi INFO Checking glue for ns4.neutech.fi (85.17.226.207).
+ 14.804: askola.fi INFO Parent glue for askola.fi found: ns3.neutech.fi (94.199.59.155)
+ 14.805: askola.fi INFO Parent glue for askola.fi found: ns4.neutech.fi (85.17.226.207)
+ 15.852: askola.fi INFO It is possible to build a referral packet for askola.fi that works without EDNS0.
+ 16.886: askola.fi INFO Previously used name servers for askola.fi: 
+ 16.886: askola.fi INFO Done testing delegation for askola.fi.
+ 16.886: askola.fi INFO Begin testing name server ns3.neutech.fi.
+ 16.886: askola.fi INFO Begin testing host ns3.neutech.fi.
+ 17.380: askola.fi INFO Begin testing address 94.199.59.155.
+ 25.112: askola.fi INFO Done testing address 94.199.59.155.
+ 25.112: askola.fi INFO Done testing host ns3.neutech.fi.
+ 25.826: askola.fi INFO Name server ns3.neutech.fi (94.199.59.155) answers queries over UDP.
+ 25.974: askola.fi INFO Name server ns3.neutech.fi (94.199.59.155) answers queries over TCP.
+ 26.090: askola.fi INFO Name server ns3.neutech.fi (94.199.59.155) is not recursive.
+ 26.313: askola.fi INFO Name server ns3.neutech.fi (94.199.59.155) authoritative for askola.fi.
+ 26.368: askola.fi INFO Name server ns3.neutech.fi (94.199.59.155) closed for zone transfer of askola.fi.
+ 26.422: askola.fi INFO Legacy name server ID for ns3.neutech.fi (94.199.59.155): hostname.bind = ns3.neutech.fi
+ 26.519: askola.fi INFO Legacy name server ID for ns3.neutech.fi (94.199.59.155): version.bind = Neutech
+ 26.649: askola.fi NOTICE No answer received from 94.199.59.155 when querying for version.server/CH/TXT.
+ 26.649: askola.fi INFO Done testing name server ns3.neutech.fi.
+ 26.649: askola.fi INFO Begin testing name server ns4.neutech.fi.
+ 26.650: askola.fi INFO Begin testing host ns4.neutech.fi.
+ 27.218: askola.fi INFO Begin testing address 85.17.226.207.
+ 31.044: askola.fi INFO Done testing address 85.17.226.207.
+ 31.044: askola.fi INFO Done testing host ns4.neutech.fi.
+ 31.838: askola.fi INFO Name server ns4.neutech.fi (85.17.226.207) answers queries over UDP.
+ 31.972: askola.fi INFO Name server ns4.neutech.fi (85.17.226.207) answers queries over TCP.
+ 32.035: askola.fi INFO Name server ns4.neutech.fi (85.17.226.207) is not recursive.
+ 32.392: askola.fi INFO Name server ns4.neutech.fi (85.17.226.207) authoritative for askola.fi.
+ 32.534: askola.fi INFO Name server ns4.neutech.fi (85.17.226.207) closed for zone transfer of askola.fi.
+ 32.592: askola.fi INFO Legacy name server ID for ns4.neutech.fi (85.17.226.207): hostname.bind = TNL001
+ 32.692: askola.fi INFO Legacy name server ID for ns4.neutech.fi (85.17.226.207): version.bind = Neutech
+ 32.852: askola.fi NOTICE No answer received from 85.17.226.207 when querying for version.server/CH/TXT.
+ 32.852: askola.fi INFO Done testing name server ns4.neutech.fi.
+ 32.852: askola.fi INFO Begin testing zone consistency for askola.fi.
+ 34.784: askola.fi INFO SOA at address 94.199.59.155 has serial 2013080608.
+ 34.845: askola.fi INFO SOA at address 85.17.226.207 has serial 2013080608.
+ 34.845: askola.fi INFO All SOA records have consistent serial numbers.
+ 34.845: askola.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 35.950: askola.fi NOTICE The listed nameservers for askola.fi all report the same set of nameservers.
+ 35.950: askola.fi INFO Done testing zone consistency for askola.fi.
+ 35.950: askola.fi INFO Begin testing SOA parameters for askola.fi.
+ 36.013: askola.fi INFO Found SOA record for askola.fi.
+ 36.013: askola.fi INFO Begin testing host ns3.neutech.fi.
+ 36.540: askola.fi INFO Begin testing address 94.199.59.155.
+ 36.974: askola.fi INFO Done testing address 94.199.59.155.
+ 36.974: askola.fi INFO Done testing host ns3.neutech.fi.
+ 36.974: askola.fi INFO SOA MNAME for askola.fi valid (ns3.neutech.fi).
+ 36.980: askola.fi INFO SOA MNAME for askola.fi (ns3.neutech.fi) listed as NS.
+ 37.607: askola.fi INFO SOA MNAME for askola.fi (ns3.neutech.fi) is authoritative.
+ 37.624: askola.fi INFO Begin testing email address hostmaster@neutech.fi.
+ 38.112: askola.fi INFO Mail exchangers for hostmaster@neutech.fi found cng.neutech.fi.
+ 38.113: askola.fi INFO Begin testing host cng.neutech.fi.
+ 39.320: askola.fi INFO Begin testing address 94.199.56.20.
+ 40.841: askola.fi INFO Done testing address 94.199.56.20.
+ 40.842: askola.fi INFO Done testing host cng.neutech.fi.
+ 41.504: askola.fi INFO Done testing email address hostmaster@neutech.fi.
+ 41.504: askola.fi INFO Successful attempt to deliver email for SOA RNAME of askola.fi (hostmaster.neutech.fi) using hostmaster@neutech.fi.
+ 41.505: askola.fi INFO SOA TTL for askola.fi OK (3600) - recommended >= 3600.
+ 41.505: askola.fi NOTICE SOA refresh for askola.fi too small (3600) - recommended >= 14400.
+ 41.505: askola.fi NOTICE SOA retry for askola.fi too small (1800) - recommended >= 3600.
+ 41.505: askola.fi INFO SOA expire for askola.fi OK (604800) - recommended >= 604800.
+ 41.505: askola.fi INFO SOA minimum for askola.fi OK (3600) - recommended between 300 and 86400.
+ 41.505: askola.fi INFO Done testing SOA parameters for askola.fi.
+ 41.505: askola.fi INFO Begin testing connectivity for askola.fi.
+ 43.934: askola.fi INFO Zone announced by more than one ASN.
+ 43.934: askola.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 43.934: askola.fi INFO Done testing connectivity for askola.fi.
+ 43.934: askola.fi INFO Begin testing DNSSEC for askola.fi.
+ 44.305: askola.fi INFO Did not find DS record for askola.fi at parent.
+ 44.580: askola.fi INFO Servers for askola.fi have consistent extra processing status.
+ 44.688: askola.fi INFO Authenticated denial records not found for askola.fi.
+ 44.820: askola.fi INFO Did not find DNSKEY record for askola.fi at child.
+ 44.820: askola.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 44.821: askola.fi INFO Done testing DNSSEC for askola.fi.
+ 44.821: askola.fi INFO Test completed for zone askola.fi.

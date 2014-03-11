@@ -1,0 +1,152 @@
+  0.000: kiruna.se INFO Begin testing zone kiruna.se with version 1.2.
+  0.000: kiruna.se INFO Begin testing delegation for kiruna.se.
+ 14.413: kiruna.se INFO Name servers listed at parent: dns1.kommun.kiruna.se,dns2.kommun.kiruna.se,dns6.telia.com,ns.linnea.net,ns2.linnea.net
+ 18.859: kiruna.se INFO Name servers listed at child: dns1.kommun.kiruna.se,dns2.kommun.kiruna.se,dns6.telia.com,ns.linnea.net,ns2.linnea.net,ns3.linnea.net
+ 18.859: kiruna.se NOTICE Additional name server listed at child: ns3.linnea.net
+ 18.859: kiruna.se NOTICE No IPv6 name servers found.
+ 19.139: kiruna.se ERROR Nameserver dns1.kommun.kiruna.se is listed for zone kiruna.se without address information.
+ 19.139: kiruna.se ERROR Nameserver dns2.kommun.kiruna.se is listed for zone kiruna.se without address information.
+ 19.139: kiruna.se INFO Done testing delegation for kiruna.se.
+ 19.139: kiruna.se INFO Begin testing name server dns1.kommun.kiruna.se.
+ 19.139: kiruna.se INFO Begin testing host dns1.kommun.kiruna.se.
+ 19.140: kiruna.se INFO Begin testing address 193.45.227.2.
+ 27.270: kiruna.se INFO Done testing address 193.45.227.2.
+ 27.270: kiruna.se INFO Done testing host dns1.kommun.kiruna.se.
+ 27.296: kiruna.se INFO Name server dns1.kommun.kiruna.se (193.45.227.2) answers queries over UDP.
+ 27.341: kiruna.se INFO Name server dns1.kommun.kiruna.se (193.45.227.2) answers queries over TCP.
+ 27.364: kiruna.se INFO Name server dns1.kommun.kiruna.se (193.45.227.2) is not recursive.
+ 27.388: kiruna.se INFO Name server dns1.kommun.kiruna.se (193.45.227.2) authoritative for kiruna.se.
+ 27.450: kiruna.se INFO Name server dns1.kommun.kiruna.se (193.45.227.2) closed for zone transfer of kiruna.se.
+ 27.476: kiruna.se INFO Legacy name server ID for dns1.kommun.kiruna.se (193.45.227.2): hostname.bind = dns1
+ 27.499: kiruna.se INFO Legacy name server ID for dns1.kommun.kiruna.se (193.45.227.2): version.bind = 9.7.0-P1
+ 27.544: kiruna.se NOTICE No answer received from 193.45.227.2 when querying for version.server/CH/TXT.
+ 27.544: kiruna.se INFO Done testing name server dns1.kommun.kiruna.se.
+ 27.545: kiruna.se INFO Begin testing name server dns2.kommun.kiruna.se.
+ 27.545: kiruna.se INFO Begin testing host dns2.kommun.kiruna.se.
+ 27.545: kiruna.se INFO Begin testing address 193.45.227.3.
+ 28.104: kiruna.se INFO Done testing address 193.45.227.3.
+ 28.105: kiruna.se INFO Done testing host dns2.kommun.kiruna.se.
+ 28.131: kiruna.se INFO Name server dns2.kommun.kiruna.se (193.45.227.3) answers queries over UDP.
+ 28.175: kiruna.se INFO Name server dns2.kommun.kiruna.se (193.45.227.3) answers queries over TCP.
+ 28.199: kiruna.se INFO Name server dns2.kommun.kiruna.se (193.45.227.3) is not recursive.
+ 28.226: kiruna.se INFO Name server dns2.kommun.kiruna.se (193.45.227.3) authoritative for kiruna.se.
+ 28.325: kiruna.se NOTICE Name server dns2.kommun.kiruna.se (193.45.227.3) open for zone transfer of kiruna.se.
+ 28.348: kiruna.se INFO Legacy name server ID for dns2.kommun.kiruna.se (193.45.227.3): hostname.bind = dns2
+ 28.373: kiruna.se INFO Legacy name server ID for dns2.kommun.kiruna.se (193.45.227.3): version.bind = 9.7.0-P1
+ 28.419: kiruna.se NOTICE No answer received from 193.45.227.3 when querying for version.server/CH/TXT.
+ 28.420: kiruna.se INFO Done testing name server dns2.kommun.kiruna.se.
+ 28.420: kiruna.se INFO Begin testing name server dns6.telia.com.
+ 28.420: kiruna.se INFO Begin testing host dns6.telia.com.
+ 28.420: kiruna.se INFO Begin testing address 81.228.10.68.
+ 29.357: kiruna.se INFO Done testing address 81.228.10.68.
+ 29.357: kiruna.se INFO Done testing host dns6.telia.com.
+ 29.375: kiruna.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over UDP.
+ 29.405: kiruna.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over TCP.
+ 29.421: kiruna.se INFO Name server dns6.telia.com (81.228.10.68) is not recursive.
+ 29.439: kiruna.se INFO Name server dns6.telia.com (81.228.10.68) authoritative for kiruna.se.
+ 29.484: kiruna.se INFO Name server dns6.telia.com (81.228.10.68) closed for zone transfer of kiruna.se.
+ 29.501: kiruna.se INFO Legacy name server ID for dns6.telia.com (81.228.10.68): hostname.bind = dnshosting1-sn4.m-sp.skanova.net
+ 29.518: kiruna.se INFO Legacy name server ID for dns6.telia.com (81.228.10.68): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 29.549: kiruna.se NOTICE No answer received from 81.228.10.68 when querying for version.server/CH/TXT.
+ 29.549: kiruna.se INFO Done testing name server dns6.telia.com.
+ 29.549: kiruna.se INFO Begin testing name server ns.linnea.net.
+ 29.549: kiruna.se INFO Begin testing host ns.linnea.net.
+ 29.550: kiruna.se INFO Begin testing address 83.150.137.2.
+ 29.750: kiruna.se INFO Done testing address 83.150.137.2.
+ 29.750: kiruna.se INFO Done testing host ns.linnea.net.
+ 29.778: kiruna.se INFO Name server ns.linnea.net (83.150.137.2) answers queries over UDP.
+ 29.827: kiruna.se INFO Name server ns.linnea.net (83.150.137.2) answers queries over TCP.
+ 29.858: kiruna.se INFO Name server ns.linnea.net (83.150.137.2) is not recursive.
+ 29.885: kiruna.se INFO Name server ns.linnea.net (83.150.137.2) authoritative for kiruna.se.
+ 29.992: kiruna.se NOTICE Name server ns.linnea.net (83.150.137.2) open for zone transfer of kiruna.se.
+ 30.018: kiruna.se INFO Legacy name server ID for ns.linnea.net (83.150.137.2): hostname.bind = emma
+ 30.044: kiruna.se INFO Legacy name server ID for ns.linnea.net (83.150.137.2): version.bind = 9.3.4-P1.2
+ 30.093: kiruna.se NOTICE No answer received from 83.150.137.2 when querying for version.server/CH/TXT.
+ 30.093: kiruna.se INFO Done testing name server ns.linnea.net.
+ 30.094: kiruna.se INFO Begin testing name server ns2.linnea.net.
+ 30.094: kiruna.se INFO Begin testing host ns2.linnea.net.
+ 30.094: kiruna.se INFO Begin testing address 83.150.137.3.
+ 30.633: kiruna.se INFO Done testing address 83.150.137.3.
+ 30.633: kiruna.se INFO Done testing host ns2.linnea.net.
+ 30.661: kiruna.se INFO Name server ns2.linnea.net (83.150.137.3) answers queries over UDP.
+ 30.839: kiruna.se INFO Name server ns2.linnea.net (83.150.137.3) answers queries over TCP.
+ 30.864: kiruna.se INFO Name server ns2.linnea.net (83.150.137.3) is not recursive.
+ 30.891: kiruna.se INFO Name server ns2.linnea.net (83.150.137.3) authoritative for kiruna.se.
+ 30.958: kiruna.se INFO Name server ns2.linnea.net (83.150.137.3) closed for zone transfer of kiruna.se.
+ 30.983: kiruna.se INFO Legacy name server ID for ns2.linnea.net (83.150.137.3): hostname.bind = jenny
+ 31.008: kiruna.se INFO Legacy name server ID for ns2.linnea.net (83.150.137.3): version.bind = 9.5.1-P3
+ 31.059: kiruna.se NOTICE No answer received from 83.150.137.3 when querying for version.server/CH/TXT.
+ 31.059: kiruna.se INFO Done testing name server ns2.linnea.net.
+ 31.059: kiruna.se INFO Begin testing name server ns3.linnea.net.
+ 31.060: kiruna.se INFO Begin testing host ns3.linnea.net.
+ 31.060: kiruna.se INFO Begin testing address 85.119.128.68.
+ 33.554: kiruna.se INFO Done testing address 85.119.128.68.
+ 33.554: kiruna.se INFO Done testing host ns3.linnea.net.
+ 33.572: kiruna.se INFO Name server ns3.linnea.net (85.119.128.68) answers queries over UDP.
+ 33.587: kiruna.se INFO Name server ns3.linnea.net (85.119.128.68) answers queries over TCP.
+ 33.594: kiruna.se INFO Name server ns3.linnea.net (85.119.128.68) is not recursive.
+ 33.604: kiruna.se INFO Name server ns3.linnea.net (85.119.128.68) authoritative for kiruna.se.
+ 33.621: kiruna.se INFO Name server ns3.linnea.net (85.119.128.68) closed for zone transfer of kiruna.se.
+ 33.628: kiruna.se INFO Legacy name server ID for ns3.linnea.net (85.119.128.68): hostname.bind = ns2.wm.net
+ 33.636: kiruna.se INFO Legacy name server ID for ns3.linnea.net (85.119.128.68): version.bind = VIC 20
+ 33.651: kiruna.se NOTICE No answer received from 85.119.128.68 when querying for version.server/CH/TXT.
+ 33.651: kiruna.se INFO Done testing name server ns3.linnea.net.
+ 33.652: kiruna.se INFO Begin testing zone consistency for kiruna.se.
+ 33.669: kiruna.se INFO SOA at address 85.119.128.68 has serial 2010120702.
+ 33.696: kiruna.se INFO SOA at address 83.150.137.2 has serial 2010120702.
+ 33.722: kiruna.se INFO SOA at address 193.45.227.3 has serial 2010120702.
+ 33.749: kiruna.se INFO SOA at address 83.150.137.3 has serial 2010120702.
+ 33.773: kiruna.se INFO SOA at address 193.45.227.2 has serial 2010120702.
+ 33.790: kiruna.se INFO SOA at address 81.228.10.68 has serial 2010120702.
+ 33.790: kiruna.se INFO All SOA records have consistent serial numbers.
+ 33.790: kiruna.se INFO All SOA records are consistent among all name servers.
+ 33.790: kiruna.se INFO Done testing zone consistency for kiruna.se.
+ 33.790: kiruna.se INFO Begin testing SOA parameters for kiruna.se.
+ 33.816: kiruna.se INFO Found SOA record for kiruna.se.
+ 33.816: kiruna.se INFO Begin testing host dns1.kommun.kiruna.se.
+ 33.817: kiruna.se INFO Begin testing address 193.45.227.2.
+ 33.818: kiruna.se INFO Done testing address 193.45.227.2.
+ 33.818: kiruna.se INFO Done testing host dns1.kommun.kiruna.se.
+ 33.818: kiruna.se INFO SOA MNAME for kiruna.se valid (dns1.kommun.kiruna.se).
+ 33.819: kiruna.se INFO SOA MNAME for kiruna.se (dns1.kommun.kiruna.se) listed as NS.
+ 33.843: kiruna.se INFO SOA MNAME for kiruna.se (dns1.kommun.kiruna.se) is authoritative.
+ 33.843: kiruna.se INFO Begin testing email address root@kommun.kiruna.se.
+ 34.095: kiruna.se INFO Mail exchangers for root@kommun.kiruna.se found mailgate.kommun.kiruna.se.
+ 34.095: kiruna.se INFO All mail servers for root@kommun.kiruna.se are in zone kiruna.se.
+ 34.095: kiruna.se INFO Begin testing host mailgate.kommun.kiruna.se.
+ 34.661: kiruna.se INFO Begin testing address 193.45.227.4.
+ 35.006: kiruna.se INFO Done testing address 193.45.227.4.
+ 35.006: kiruna.se INFO Done testing host mailgate.kommun.kiruna.se.
+ 35.007: kiruna.se INFO Begin testing mail server mailgate.kommun.kiruna.se (193.45.227.4) with root@kommun.kiruna.se.
+ 36.118: kiruna.se INFO SMTP banner: mailgate.kommun.kiruna.se ESMTP Sendmail 8.14.2/8.14.2/Debian-2build1; Mon, 13 Dec 2010 20:05:31 +0100; (No UCE/UBE) logging access from: [213.141.76.238](FORGED)-taghax.interlan.se [213.141.76.238] (may be forged)
+ 36.246: kiruna.se INFO SMTP testing of mailgate.kommun.kiruna.se (193.45.227.4) with root@kommun.kiruna.se succeeded without errors.
+ 36.246: kiruna.se INFO Done testing mail server mailgate.kommun.kiruna.se (193.45.227.4) with root@kommun.kiruna.se.
+ 36.246: kiruna.se INFO Delivery over IPv4 to root@kommun.kiruna.se ok.
+ 36.246: kiruna.se INFO Delivery over IPv6 to root@kommun.kiruna.se could not be done.
+ 36.246: kiruna.se INFO Done testing email address root@kommun.kiruna.se.
+ 36.246: kiruna.se INFO Successful attempt to deliver email for SOA RNAME of kiruna.se (root.kommun.kiruna.se) using root@kommun.kiruna.se.
+ 36.246: kiruna.se INFO SOA TTL for kiruna.se OK (21600) - recommended >= 3600.
+ 36.246: kiruna.se INFO SOA refresh for kiruna.se OK (86400) - recommended >= 14400.
+ 36.246: kiruna.se INFO SOA retry for kiruna.se OK (3600) - recommended >= 3600.
+ 36.246: kiruna.se INFO SOA expire for kiruna.se OK (3600000) - recommended >= 604800.
+ 36.247: kiruna.se NOTICE SOA minimum for kiruna.se too large (172800) - recommended <= 86400.
+ 36.247: kiruna.se INFO Done testing SOA parameters for kiruna.se.
+ 36.247: kiruna.se INFO Begin testing connectivity for kiruna.se.
+ 36.889: kiruna.se INFO Name server 193.45.227.3 announced by: 3301
+ 37.381: kiruna.se INFO Name server 85.119.128.68 announced by: 29217
+ 37.908: kiruna.se INFO Name server 83.150.137.2 announced by: 31331
+ 38.512: kiruna.se INFO Name server 83.150.137.3 announced by: 31331
+ 39.193: kiruna.se INFO Name server 193.45.227.2 announced by: 3301
+ 39.721: kiruna.se INFO Name server 81.228.10.68 announced by: 3301
+ 39.721: kiruna.se INFO Zone announced by IPv4 ASN: 29217,3301,31331
+ 39.721: kiruna.se INFO Zone announced by more than one ASN (3).
+ 39.722: kiruna.se INFO Zone announced by IPv6 ASN: 
+ 39.722: kiruna.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 39.722: kiruna.se INFO Done testing connectivity for kiruna.se.
+ 39.722: kiruna.se INFO Begin testing DNSSEC for kiruna.se.
+ 39.770: kiruna.se INFO Did not find DS record for kiruna.se at parent.
+ 39.989: kiruna.se INFO Servers for kiruna.se have consistent extra processing status.
+ 39.989: kiruna.se INFO Did not find DNSKEY record for kiruna.se at child.
+ 39.990: kiruna.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 39.990: kiruna.se INFO Done testing DNSSEC for kiruna.se.
+ 39.990: kiruna.se INFO Test completed for zone kiruna.se.

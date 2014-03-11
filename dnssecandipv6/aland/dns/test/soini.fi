@@ -1,0 +1,91 @@
+  0.000: soini.fi INFO Begin testing zone soini.fi with version 1.5.0.
+  2.503: soini.fi INFO Begin testing delegation for soini.fi.
+ 66.906: soini.fi INFO Name servers listed at parent: dns1.6net.fi,dns2.6net.fi
+ 81.924: soini.fi INFO Name servers listed at child: dns1.6net.fi,dns2.6net.fi
+ 81.924: soini.fi NOTICE No IPv6 name servers found.
+ 82.630: soini.fi INFO Parent glue for soini.fi found: dns1.6net.fi (81.209.108.14)
+ 83.539: soini.fi INFO Parent glue for soini.fi found: dns2.6net.fi (81.209.108.34)
+ 83.988: soini.fi INFO Checking glue for dns1.6net.fi (81.209.108.14).
+ 83.988: soini.fi INFO Checking glue for dns2.6net.fi (81.209.108.34).
+ 83.988: soini.fi INFO Parent glue for soini.fi found: dns1.6net.fi (81.209.108.14)
+ 83.989: soini.fi INFO Parent glue for soini.fi found: dns2.6net.fi (81.209.108.34)
+ 91.505: soini.fi INFO It is possible to build a referral packet for soini.fi that works without EDNS0.
+ 97.043: soini.fi INFO Previously used name servers for soini.fi: 
+ 97.044: soini.fi INFO Done testing delegation for soini.fi.
+ 97.044: soini.fi INFO Begin testing name server dns1.6net.fi.
+ 97.044: soini.fi INFO Begin testing host dns1.6net.fi.
+ 99.586: soini.fi INFO Begin testing address 81.209.108.14.
+136.378: soini.fi INFO Done testing address 81.209.108.14.
+137.410: soini.fi INFO Done testing host dns1.6net.fi.
+139.935: soini.fi INFO Name server dns1.6net.fi (81.209.108.14) answers queries over UDP.
+144.959: soini.fi NOTICE DNS lookup error (connection failed).
+144.959: soini.fi ERROR Name server dns1.6net.fi (81.209.108.14) does not answer queries over TCP.
+145.274: soini.fi INFO Name server dns1.6net.fi (81.209.108.14) is not recursive.
+150.963: soini.fi NOTICE DNS lookup error (connection failed).
+150.963: soini.fi INFO Name server dns1.6net.fi (81.209.108.14) authoritative for soini.fi.
+150.963: soini.fi INFO Name server dns1.6net.fi (81.209.108.14) not checked for zone transfer of soini.fi.
+150.963: soini.fi INFO Name server dns1.6net.fi (81.209.108.14) not checked for legacy name server ID.
+150.963: soini.fi INFO Done testing name server dns1.6net.fi.
+150.963: soini.fi INFO Begin testing name server dns2.6net.fi.
+150.963: soini.fi INFO Begin testing host dns2.6net.fi.
+153.415: soini.fi INFO Begin testing address 81.209.108.34.
+159.307: soini.fi INFO Done testing address 81.209.108.34.
+159.307: soini.fi INFO Done testing host dns2.6net.fi.
+162.500: soini.fi INFO Name server dns2.6net.fi (81.209.108.34) answers queries over UDP.
+167.531: soini.fi NOTICE DNS lookup error (connection failed).
+167.531: soini.fi ERROR Name server dns2.6net.fi (81.209.108.34) does not answer queries over TCP.
+167.811: soini.fi INFO Name server dns2.6net.fi (81.209.108.34) is not recursive.
+173.890: soini.fi NOTICE DNS lookup error (connection failed).
+173.891: soini.fi INFO Name server dns2.6net.fi (81.209.108.34) authoritative for soini.fi.
+173.891: soini.fi INFO Name server dns2.6net.fi (81.209.108.34) not checked for zone transfer of soini.fi.
+173.891: soini.fi INFO Name server dns2.6net.fi (81.209.108.34) not checked for legacy name server ID.
+173.891: soini.fi INFO Done testing name server dns2.6net.fi.
+173.891: soini.fi INFO Begin testing zone consistency for soini.fi.
+184.892: soini.fi INFO SOA at address 81.209.108.14 has serial 2013062700.
+185.407: soini.fi INFO SOA at address 81.209.108.34 has serial 2013062700.
+185.408: soini.fi INFO All SOA records have consistent serial numbers.
+185.408: soini.fi INFO All other fields in the SOA record are consistent among all name servers.
+190.812: soini.fi NOTICE The listed nameservers for soini.fi all report the same set of nameservers.
+190.812: soini.fi INFO Done testing zone consistency for soini.fi.
+190.812: soini.fi INFO Begin testing SOA parameters for soini.fi.
+191.240: soini.fi INFO Found SOA record for soini.fi.
+191.240: soini.fi INFO Begin testing host dns1.6net.fi.
+193.767: soini.fi INFO Begin testing address 81.209.108.14.
+195.987: soini.fi INFO Done testing address 81.209.108.14.
+195.987: soini.fi INFO Done testing host dns1.6net.fi.
+195.987: soini.fi INFO SOA MNAME for soini.fi valid (dns1.6net.fi).
+195.988: soini.fi INFO SOA MNAME for soini.fi (dns1.6net.fi) listed as NS.
+198.516: soini.fi INFO SOA MNAME for soini.fi (dns1.6net.fi) is authoritative.
+198.516: soini.fi INFO Begin testing email address hostmaster@6net.fi.
+200.801: soini.fi INFO Mail exchangers for hostmaster@6net.fi found smtp2.6net.fi,smtp1.6net.fi.
+200.801: soini.fi INFO Begin testing host smtp2.6net.fi.
+205.143: soini.fi INFO Begin testing address 81.209.108.36.
+209.883: soini.fi INFO Done testing address 81.209.108.36.
+209.883: soini.fi INFO Done testing host smtp2.6net.fi.
+211.991: soini.fi INFO Begin testing host smtp1.6net.fi.
+216.373: soini.fi INFO Begin testing address 81.209.108.35.
+220.560: soini.fi INFO Done testing address 81.209.108.35.
+220.560: soini.fi INFO Done testing host smtp1.6net.fi.
+222.211: soini.fi INFO Done testing email address hostmaster@6net.fi.
+222.211: soini.fi INFO Successful attempt to deliver email for SOA RNAME of soini.fi (hostmaster.6net.fi) using hostmaster@6net.fi.
+222.211: soini.fi INFO SOA TTL for soini.fi OK (86400) - recommended >= 3600.
+222.211: soini.fi INFO SOA refresh for soini.fi OK (28800) - recommended >= 14400.
+222.211: soini.fi INFO SOA retry for soini.fi OK (7200) - recommended >= 3600.
+222.211: soini.fi INFO SOA expire for soini.fi OK (604800) - recommended >= 604800.
+222.211: soini.fi INFO SOA minimum for soini.fi OK (86400) - recommended between 300 and 86400.
+222.211: soini.fi INFO Done testing SOA parameters for soini.fi.
+222.211: soini.fi INFO Begin testing connectivity for soini.fi.
+227.128: soini.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+227.563: soini.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+227.563: soini.fi INFO Done testing connectivity for soini.fi.
+227.578: soini.fi INFO Begin testing DNSSEC for soini.fi.
+227.928: soini.fi INFO Did not find DS record for soini.fi at parent.
+233.207: soini.fi NOTICE DNS lookup error (connection failed).
+238.231: soini.fi NOTICE DNS lookup error (connection failed).
+238.231: soini.fi INFO Servers for soini.fi have consistent extra processing status.
+248.283: soini.fi NOTICE DNS lookup error (connection failed).
+248.283: soini.fi INFO Authenticated denial records not found for soini.fi.
+248.583: soini.fi INFO Did not find DNSKEY record for soini.fi at child.
+248.583: soini.fi INFO No DNSKEY(s) found at child, other tests skipped.
+248.583: soini.fi INFO Done testing DNSSEC for soini.fi.
+248.583: soini.fi INFO Test completed for zone soini.fi.

@@ -1,0 +1,161 @@
+  0.000: sigtuna.se INFO Begin testing zone sigtuna.se with version 1.6.1.
+  1.826: sigtuna.se INFO Begin testing delegation for sigtuna.se.
+ 16.255: sigtuna.se INFO Name servers listed at parent: dns6.telia.com,ns.sigtuna.se,ns2.sigtuna.se
+ 21.251: sigtuna.se INFO Name servers listed at child: dns6.telia.com,ns.sigtuna.se,ns2.sigtuna.se
+ 21.251: sigtuna.se NOTICE Too few IPv6 name servers (1).
+ 21.435: sigtuna.se INFO Parent glue for sigtuna.se found: ns.sigtuna.se (62.20.108.18)
+ 21.572: sigtuna.se INFO Parent glue for sigtuna.se found: ns2.sigtuna.se (62.20.108.23)
+ 21.683: sigtuna.se INFO Checking glue for ns.sigtuna.se (62.20.108.18).
+ 21.750: sigtuna.se INFO Child glue for sigtuna.se found: ns.sigtuna.se (62.20.108.18)
+ 21.751: sigtuna.se INFO Checking glue for ns2.sigtuna.se (62.20.108.23).
+ 21.854: sigtuna.se INFO Child glue for sigtuna.se found: ns2.sigtuna.se (62.20.108.23)
+ 21.855: sigtuna.se INFO Parent glue for sigtuna.se found: ns.sigtuna.se (62.20.108.18)
+ 21.855: sigtuna.se INFO Parent glue for sigtuna.se found: ns2.sigtuna.se (62.20.108.23)
+ 23.929: sigtuna.se INFO It is possible to build a referral packet for sigtuna.se that works without EDNS0.
+ 24.830: sigtuna.se INFO Previously used name servers for sigtuna.se: 
+ 24.830: sigtuna.se INFO Done testing delegation for sigtuna.se.
+ 24.831: sigtuna.se INFO Begin testing name server dns6.telia.com.
+ 24.831: sigtuna.se INFO Begin testing host dns6.telia.com.
+ 24.832: sigtuna.se INFO Begin testing address 81.228.10.68.
+ 39.572: sigtuna.se INFO Done testing address 81.228.10.68.
+ 39.572: sigtuna.se INFO Begin testing address 2001:2040:c001:401:0:0:0:4.
+ 42.471: sigtuna.se INFO Done testing address 2001:2040:c001:401:0:0:0:4.
+ 42.471: sigtuna.se INFO Done testing host dns6.telia.com.
+ 42.546: sigtuna.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over UDP.
+ 42.620: sigtuna.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over TCP.
+ 42.698: sigtuna.se INFO Name server dns6.telia.com (81.228.10.68) is not recursive.
+ 42.841: sigtuna.se INFO Name server dns6.telia.com (81.228.10.68) authoritative for sigtuna.se.
+ 42.909: sigtuna.se INFO Name server dns6.telia.com (81.228.10.68) closed for zone transfer of sigtuna.se.
+ 43.022: sigtuna.se INFO Legacy name server ID for dns6.telia.com (81.228.10.68): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 43.194: sigtuna.se INFO Name server dns6.telia.com (2001:2040:c001:401:0:0:0:4) answers queries over UDP.
+ 43.298: sigtuna.se INFO Name server dns6.telia.com (2001:2040:c001:401:0:0:0:4) answers queries over TCP.
+ 43.372: sigtuna.se INFO Name server dns6.telia.com (2001:2040:c001:401:0:0:0:4) is not recursive.
+ 43.624: sigtuna.se INFO Name server dns6.telia.com (2001:2040:c001:401:0:0:0:4) authoritative for sigtuna.se.
+ 43.766: sigtuna.se INFO Name server dns6.telia.com (2001:2040:c001:401:0:0:0:4) closed for zone transfer of sigtuna.se.
+ 43.928: sigtuna.se INFO Legacy name server ID for dns6.telia.com (2001:2040:c001:401:0:0:0:4): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 44.113: sigtuna.se INFO Done testing name server dns6.telia.com.
+ 44.114: sigtuna.se INFO Begin testing name server ns.sigtuna.se.
+ 44.114: sigtuna.se INFO Begin testing host ns.sigtuna.se.
+ 44.446: sigtuna.se INFO Begin testing address 62.20.108.18.
+ 48.722: sigtuna.se INFO Done testing address 62.20.108.18.
+ 48.723: sigtuna.se INFO Done testing host ns.sigtuna.se.
+ 49.143: sigtuna.se INFO Name server ns.sigtuna.se (62.20.108.18) answers queries over UDP.
+ 49.256: sigtuna.se INFO Name server ns.sigtuna.se (62.20.108.18) answers queries over TCP.
+ 49.294: sigtuna.se INFO Name server ns.sigtuna.se (62.20.108.18) is not recursive.
+ 49.513: sigtuna.se INFO Name server ns.sigtuna.se (62.20.108.18) authoritative for sigtuna.se.
+ 49.573: sigtuna.se INFO Name server ns.sigtuna.se (62.20.108.18) closed for zone transfer of sigtuna.se.
+ 49.622: sigtuna.se INFO Legacy name server ID for ns.sigtuna.se (62.20.108.18): hostname.bind = ns
+ 49.662: sigtuna.se INFO Legacy name server ID for ns.sigtuna.se (62.20.108.18): version.bind = none
+ 49.746: sigtuna.se NOTICE No answer received from 62.20.108.18 when querying for version.server/CH/TXT.
+ 49.746: sigtuna.se INFO Done testing name server ns.sigtuna.se.
+ 49.746: sigtuna.se INFO Begin testing name server ns2.sigtuna.se.
+ 49.746: sigtuna.se INFO Begin testing host ns2.sigtuna.se.
+ 50.133: sigtuna.se INFO Begin testing address 62.20.108.23.
+ 52.113: sigtuna.se INFO Done testing address 62.20.108.23.
+ 52.113: sigtuna.se INFO Done testing host ns2.sigtuna.se.
+ 52.446: sigtuna.se INFO Name server ns2.sigtuna.se (62.20.108.23) answers queries over UDP.
+ 52.493: sigtuna.se INFO Name server ns2.sigtuna.se (62.20.108.23) answers queries over TCP.
+ 52.545: sigtuna.se INFO Name server ns2.sigtuna.se (62.20.108.23) is not recursive.
+ 52.669: sigtuna.se INFO Name server ns2.sigtuna.se (62.20.108.23) authoritative for sigtuna.se.
+ 52.718: sigtuna.se INFO Name server ns2.sigtuna.se (62.20.108.23) closed for zone transfer of sigtuna.se.
+ 52.739: sigtuna.se INFO Legacy name server ID for ns2.sigtuna.se (62.20.108.23): hostname.bind = ns2
+ 52.766: sigtuna.se INFO Legacy name server ID for ns2.sigtuna.se (62.20.108.23): version.bind = none
+ 52.798: sigtuna.se NOTICE No answer received from 62.20.108.23 when querying for version.server/CH/TXT.
+ 52.798: sigtuna.se INFO Done testing name server ns2.sigtuna.se.
+ 52.798: sigtuna.se INFO Begin testing zone consistency for sigtuna.se.
+ 53.844: sigtuna.se INFO SOA at address 2001:2040:c001:401:0:0:0:4 has serial 2014022123.
+ 53.875: sigtuna.se INFO SOA at address 62.20.108.23 has serial 2014022123.
+ 53.893: sigtuna.se INFO SOA at address 62.20.108.18 has serial 2014022123.
+ 53.922: sigtuna.se INFO SOA at address 81.228.10.68 has serial 2014022123.
+ 53.923: sigtuna.se INFO All SOA records have consistent serial numbers.
+ 53.923: sigtuna.se INFO All other fields in the SOA record are consistent among all name servers.
+ 54.639: sigtuna.se NOTICE The listed nameservers for sigtuna.se all report the same set of nameservers.
+ 54.639: sigtuna.se INFO Done testing zone consistency for sigtuna.se.
+ 54.639: sigtuna.se INFO Begin testing SOA parameters for sigtuna.se.
+ 54.713: sigtuna.se INFO Found SOA record for sigtuna.se.
+ 54.714: sigtuna.se INFO Begin testing host ns.sigtuna.se.
+ 54.930: sigtuna.se INFO Begin testing address 62.20.108.18.
+ 55.666: sigtuna.se INFO Done testing address 62.20.108.18.
+ 55.666: sigtuna.se INFO Done testing host ns.sigtuna.se.
+ 55.667: sigtuna.se INFO SOA MNAME for sigtuna.se valid (ns.sigtuna.se).
+ 55.667: sigtuna.se INFO SOA MNAME for sigtuna.se (ns.sigtuna.se) listed as NS.
+ 55.871: sigtuna.se INFO SOA MNAME for sigtuna.se (ns.sigtuna.se) is authoritative.
+ 55.871: sigtuna.se INFO Begin testing email address helpdesk@sigtuna.se.
+ 56.134: sigtuna.se INFO Mail exchangers for helpdesk@sigtuna.se found smtp-in.sto-hy.se.stejtech.net,smtp-in.sto-ste.se.stejtech.net.
+ 56.135: sigtuna.se INFO Begin testing host smtp-in.sto-hy.se.stejtech.net.
+ 56.951: sigtuna.se INFO Begin testing address 91.236.209.10.
+ 59.100: sigtuna.se INFO Done testing address 91.236.209.10.
+ 59.100: sigtuna.se INFO Begin testing address 79.136.102.100.
+ 60.782: sigtuna.se INFO Done testing address 79.136.102.100.
+ 60.782: sigtuna.se INFO Begin testing address 91.236.208.10.
+ 62.139: sigtuna.se INFO Done testing address 91.236.208.10.
+ 62.140: sigtuna.se INFO Begin testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 64.109: sigtuna.se INFO Done testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 64.126: sigtuna.se INFO Begin testing address 2001:67c:27e0:2110:0:0:0:1b01.
+ 65.457: sigtuna.se INFO Done testing address 2001:67c:27e0:2110:0:0:0:1b01.
+ 65.470: sigtuna.se INFO Begin testing address 2001:9b0:1:703:0:0:0:1b01.
+ 68.007: sigtuna.se INFO Done testing address 2001:9b0:1:703:0:0:0:1b01.
+ 68.007: sigtuna.se INFO Done testing host smtp-in.sto-hy.se.stejtech.net.
+ 68.007: sigtuna.se INFO Begin testing host smtp-in.sto-ste.se.stejtech.net.
+ 68.954: sigtuna.se INFO Begin testing address 79.136.102.90.
+ 70.114: sigtuna.se INFO Done testing address 79.136.102.90.
+ 70.115: sigtuna.se INFO Begin testing address 83.140.31.145.
+ 71.175: sigtuna.se INFO Done testing address 83.140.31.145.
+ 71.176: sigtuna.se INFO Begin testing address 2001:9b0:1:703:0:0:0:b002.
+ 72.104: sigtuna.se INFO Done testing address 2001:9b0:1:703:0:0:0:b002.
+ 72.104: sigtuna.se INFO Done testing host smtp-in.sto-ste.se.stejtech.net.
+ 72.104: sigtuna.se INFO Done testing email address helpdesk@sigtuna.se.
+ 72.104: sigtuna.se INFO Successful attempt to deliver email for SOA RNAME of sigtuna.se (helpdesk.sigtuna.se) using helpdesk@sigtuna.se.
+ 72.104: sigtuna.se INFO SOA TTL for sigtuna.se OK (3600) - recommended >= 3600.
+ 72.104: sigtuna.se NOTICE SOA refresh for sigtuna.se too small (1200) - recommended >= 14400.
+ 72.105: sigtuna.se NOTICE SOA retry for sigtuna.se too small (180) - recommended >= 3600.
+ 72.105: sigtuna.se INFO SOA expire for sigtuna.se OK (1209600) - recommended >= 604800.
+ 72.105: sigtuna.se INFO SOA minimum for sigtuna.se OK (3600) - recommended between 300 and 86400.
+ 72.105: sigtuna.se INFO Done testing SOA parameters for sigtuna.se.
+ 72.105: sigtuna.se INFO Begin testing connectivity for sigtuna.se.
+ 73.868: sigtuna.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 74.576: sigtuna.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 74.576: sigtuna.se INFO Done testing connectivity for sigtuna.se.
+ 74.576: sigtuna.se INFO Begin testing DNSSEC for sigtuna.se.
+ 74.657: sigtuna.se INFO Found DS record for sigtuna.se at parent.
+ 74.687: sigtuna.se INFO Nameserver 62.20.108.23 does DNSSEC extra processing.
+ 74.726: sigtuna.se INFO Nameserver 62.20.108.18 does DNSSEC extra processing.
+ 74.761: sigtuna.se INFO Nameserver 81.228.10.68 does DNSSEC extra processing.
+ 74.866: sigtuna.se INFO Nameserver 2001:2040:c001:401:0:0:0:4 does DNSSEC extra processing.
+ 74.866: sigtuna.se INFO Servers for sigtuna.se have consistent extra processing status.
+ 74.893: sigtuna.se INFO Authenticated denial records found for sigtuna.se, of type NSEC.
+ 74.918: sigtuna.se INFO Found DNSKEY record for sigtuna.se at child.
+ 74.918: sigtuna.se INFO Consistent security for sigtuna.se.
+ 74.918: sigtuna.se INFO Checking DNSSEC at child (sigtuna.se).
+ 74.919: sigtuna.se INFO sigtuna.se's key with tag 41478 uses algorithm number 8 (RSA/SHA-256).
+ 74.919: sigtuna.se INFO Algorithm number 8 is OK.
+ 74.919: sigtuna.se INFO sigtuna.se's key with tag 16982 uses algorithm number 8 (RSA/SHA-256).
+ 74.919: sigtuna.se INFO Algorithm number 8 is OK.
+ 74.919: sigtuna.se INFO DNSKEY sigtuna.se (tag 16982) is marked as a secure entry point (SEP).
+ 74.919: sigtuna.se INFO DNSSEC signature expires at: Tue Mar 11 10:12:46 2014
+ 74.919: sigtuna.se INFO Duration for RRSIG(sigtuna.se/IN/DNSKEY/16982) is OK (864575 seconds).
+ 74.921: sigtuna.se INFO DNSSEC signature RRSIG(sigtuna.se/IN/DNSKEY/16982) matches records.
+ 74.921: sigtuna.se INFO DNSSEC signature valid: RRSIG(sigtuna.se/IN/DNSKEY/16982)
+ 74.922: sigtuna.se INFO DNSSEC signature expires at: Tue Mar 11 10:12:46 2014
+ 74.940: sigtuna.se INFO Duration for RRSIG(sigtuna.se/IN/DNSKEY/41478) is OK (864575 seconds).
+ 74.941: sigtuna.se INFO DNSSEC signature RRSIG(sigtuna.se/IN/DNSKEY/41478) matches records.
+ 74.941: sigtuna.se INFO DNSSEC signature valid: RRSIG(sigtuna.se/IN/DNSKEY/41478)
+ 74.941: sigtuna.se INFO Enough valid signatures found for sigtuna.se.
+ 74.973: sigtuna.se INFO DNSSEC signature expires at: Thu Mar 13 14:28:53 2014
+ 74.973: sigtuna.se INFO Duration for RRSIG(sigtuna.se/IN/SOA/41478) is OK (867600 seconds).
+ 74.973: sigtuna.se INFO DNSSEC signature RRSIG(sigtuna.se/IN/SOA/41478) matches records.
+ 74.974: sigtuna.se INFO DNSSEC signature valid: RRSIG(sigtuna.se/IN/SOA/41478)
+ 74.998: sigtuna.se INFO Enough valid signatures over SOA RRset found for sigtuna.se.
+ 74.998: sigtuna.se INFO DNSSEC child checks for sigtuna.se complete.
+ 74.998: sigtuna.se INFO Checking DNSSEC at parent of sigtuna.se.
+ 74.998: sigtuna.se INFO sigtuna.se's key with tag 16982 uses algorithm number 8 (RSA/SHA-256).
+ 74.998: sigtuna.se INFO Algorithm number 8 is OK.
+ 74.999: sigtuna.se INFO Parent DS(sigtuna.se/8/2/16982) refers to valid key at child: DNSKEY(sigtuna.se/8/16982)
+ 74.999: sigtuna.se INFO Parent DS(sigtuna.se) refers to secure entry point (SEP) at child: DS(sigtuna.se/8/2/16982)
+ 74.999: sigtuna.se INFO sigtuna.se's key with tag 16982 uses algorithm number 8 (RSA/SHA-256).
+ 74.999: sigtuna.se INFO Algorithm number 8 is OK.
+ 74.999: sigtuna.se INFO Parent DS(sigtuna.se/8/1/16982) refers to valid key at child: DNSKEY(sigtuna.se/8/16982)
+ 74.999: sigtuna.se INFO Parent DS(sigtuna.se) refers to secure entry point (SEP) at child: DS(sigtuna.se/8/1/16982)
+ 74.999: sigtuna.se INFO DNSSEC parent checks for sigtuna.se complete.
+ 74.999: sigtuna.se INFO Done testing DNSSEC for sigtuna.se.
+ 75.000: sigtuna.se INFO Test completed for zone sigtuna.se.

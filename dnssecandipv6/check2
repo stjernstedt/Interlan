@@ -1,0 +1,6 @@
+for i in `ls test` ; do
+if [ "`cat domain|grep $i`" = "" ] ; then
+	echo $i
+	mv test/$i old/
+fi
+done

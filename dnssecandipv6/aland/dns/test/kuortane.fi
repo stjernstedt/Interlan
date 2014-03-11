@@ -1,0 +1,91 @@
+  0.000: kuortane.fi INFO Begin testing zone kuortane.fi with version 1.5.0.
+  0.851: kuortane.fi INFO Begin testing delegation for kuortane.fi.
+ 22.476: kuortane.fi INFO Name servers listed at parent: dns1.6net.fi,dns2.6net.fi
+ 27.080: kuortane.fi INFO Name servers listed at child: dns1.6net.fi,dns2.6net.fi
+ 27.080: kuortane.fi NOTICE No IPv6 name servers found.
+ 27.288: kuortane.fi INFO Parent glue for kuortane.fi found: dns1.6net.fi (81.209.108.14)
+ 27.525: kuortane.fi INFO Parent glue for kuortane.fi found: dns2.6net.fi (81.209.108.34)
+ 27.696: kuortane.fi INFO Checking glue for dns1.6net.fi (81.209.108.14).
+ 27.696: kuortane.fi INFO Checking glue for dns2.6net.fi (81.209.108.34).
+ 27.697: kuortane.fi INFO Parent glue for kuortane.fi found: dns1.6net.fi (81.209.108.14)
+ 27.697: kuortane.fi INFO Parent glue for kuortane.fi found: dns2.6net.fi (81.209.108.34)
+ 29.943: kuortane.fi INFO It is possible to build a referral packet for kuortane.fi that works without EDNS0.
+ 31.540: kuortane.fi INFO Previously used name servers for kuortane.fi: 
+ 31.540: kuortane.fi INFO Done testing delegation for kuortane.fi.
+ 31.540: kuortane.fi INFO Begin testing name server dns1.6net.fi.
+ 31.541: kuortane.fi INFO Begin testing host dns1.6net.fi.
+ 32.342: kuortane.fi INFO Begin testing address 81.209.108.14.
+ 46.160: kuortane.fi INFO Done testing address 81.209.108.14.
+ 46.161: kuortane.fi INFO Done testing host dns1.6net.fi.
+ 46.730: kuortane.fi INFO Name server dns1.6net.fi (81.209.108.14) answers queries over UDP.
+ 51.803: kuortane.fi NOTICE DNS lookup error (connection failed).
+ 51.804: kuortane.fi ERROR Name server dns1.6net.fi (81.209.108.14) does not answer queries over TCP.
+ 51.823: kuortane.fi INFO Name server dns1.6net.fi (81.209.108.14) is not recursive.
+ 56.967: kuortane.fi NOTICE DNS lookup error (connection failed).
+ 56.967: kuortane.fi INFO Name server dns1.6net.fi (81.209.108.14) authoritative for kuortane.fi.
+ 56.968: kuortane.fi INFO Name server dns1.6net.fi (81.209.108.14) not checked for zone transfer of kuortane.fi.
+ 56.968: kuortane.fi INFO Name server dns1.6net.fi (81.209.108.14) not checked for legacy name server ID.
+ 56.968: kuortane.fi INFO Done testing name server dns1.6net.fi.
+ 56.968: kuortane.fi INFO Begin testing name server dns2.6net.fi.
+ 56.968: kuortane.fi INFO Begin testing host dns2.6net.fi.
+ 57.592: kuortane.fi INFO Begin testing address 81.209.108.34.
+ 58.914: kuortane.fi INFO Done testing address 81.209.108.34.
+ 59.114: kuortane.fi INFO Done testing host dns2.6net.fi.
+ 59.836: kuortane.fi INFO Name server dns2.6net.fi (81.209.108.34) answers queries over UDP.
+ 64.859: kuortane.fi NOTICE DNS lookup error (connection failed).
+ 64.859: kuortane.fi ERROR Name server dns2.6net.fi (81.209.108.34) does not answer queries over TCP.
+ 64.977: kuortane.fi INFO Name server dns2.6net.fi (81.209.108.34) is not recursive.
+ 70.436: kuortane.fi NOTICE DNS lookup error (connection failed).
+ 70.436: kuortane.fi INFO Name server dns2.6net.fi (81.209.108.34) authoritative for kuortane.fi.
+ 70.436: kuortane.fi INFO Name server dns2.6net.fi (81.209.108.34) not checked for zone transfer of kuortane.fi.
+ 70.436: kuortane.fi INFO Name server dns2.6net.fi (81.209.108.34) not checked for legacy name server ID.
+ 70.436: kuortane.fi INFO Done testing name server dns2.6net.fi.
+ 70.436: kuortane.fi INFO Begin testing zone consistency for kuortane.fi.
+ 76.165: kuortane.fi INFO SOA at address 81.209.108.14 has serial 2013080500.
+ 76.509: kuortane.fi INFO SOA at address 81.209.108.34 has serial 2013080500.
+ 76.509: kuortane.fi INFO All SOA records have consistent serial numbers.
+ 76.509: kuortane.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 79.538: kuortane.fi NOTICE The listed nameservers for kuortane.fi all report the same set of nameservers.
+ 79.538: kuortane.fi INFO Done testing zone consistency for kuortane.fi.
+ 79.538: kuortane.fi INFO Begin testing SOA parameters for kuortane.fi.
+ 79.797: kuortane.fi INFO Found SOA record for kuortane.fi.
+ 79.797: kuortane.fi INFO Begin testing host dns1.6net.fi.
+ 80.916: kuortane.fi INFO Begin testing address 81.209.108.14.
+ 82.608: kuortane.fi INFO Done testing address 81.209.108.14.
+ 82.608: kuortane.fi INFO Done testing host dns1.6net.fi.
+ 82.608: kuortane.fi INFO SOA MNAME for kuortane.fi valid (dns1.6net.fi).
+ 82.608: kuortane.fi INFO SOA MNAME for kuortane.fi (dns1.6net.fi) listed as NS.
+ 83.818: kuortane.fi INFO SOA MNAME for kuortane.fi (dns1.6net.fi) is authoritative.
+ 83.818: kuortane.fi INFO Begin testing email address hostmaster@6net.fi.
+ 85.073: kuortane.fi INFO Mail exchangers for hostmaster@6net.fi found smtp1.6net.fi,smtp2.6net.fi.
+ 85.074: kuortane.fi INFO Begin testing host smtp1.6net.fi.
+ 87.452: kuortane.fi INFO Begin testing address 81.209.108.35.
+ 89.271: kuortane.fi INFO Done testing address 81.209.108.35.
+ 90.531: kuortane.fi INFO Done testing host smtp1.6net.fi.
+ 92.432: kuortane.fi INFO Begin testing host smtp2.6net.fi.
+ 95.697: kuortane.fi INFO Begin testing address 81.209.108.36.
+ 98.492: kuortane.fi INFO Done testing address 81.209.108.36.
+ 98.615: kuortane.fi INFO Done testing host smtp2.6net.fi.
+100.192: kuortane.fi INFO Done testing email address hostmaster@6net.fi.
+100.192: kuortane.fi INFO Successful attempt to deliver email for SOA RNAME of kuortane.fi (hostmaster.6net.fi) using hostmaster@6net.fi.
+100.192: kuortane.fi INFO SOA TTL for kuortane.fi OK (86400) - recommended >= 3600.
+100.192: kuortane.fi INFO SOA refresh for kuortane.fi OK (28800) - recommended >= 14400.
+100.192: kuortane.fi INFO SOA retry for kuortane.fi OK (7200) - recommended >= 3600.
+100.192: kuortane.fi INFO SOA expire for kuortane.fi OK (604800) - recommended >= 604800.
+100.192: kuortane.fi INFO SOA minimum for kuortane.fi OK (86400) - recommended between 300 and 86400.
+100.193: kuortane.fi INFO Done testing SOA parameters for kuortane.fi.
+100.193: kuortane.fi INFO Begin testing connectivity for kuortane.fi.
+104.341: kuortane.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+104.341: kuortane.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+104.341: kuortane.fi INFO Done testing connectivity for kuortane.fi.
+104.342: kuortane.fi INFO Begin testing DNSSEC for kuortane.fi.
+104.721: kuortane.fi INFO Did not find DS record for kuortane.fi at parent.
+109.967: kuortane.fi NOTICE DNS lookup error (connection failed).
+115.067: kuortane.fi NOTICE DNS lookup error (connection failed).
+115.067: kuortane.fi INFO Servers for kuortane.fi have consistent extra processing status.
+125.115: kuortane.fi NOTICE DNS lookup error (connection failed).
+125.115: kuortane.fi INFO Authenticated denial records not found for kuortane.fi.
+125.244: kuortane.fi INFO Did not find DNSKEY record for kuortane.fi at child.
+125.244: kuortane.fi INFO No DNSKEY(s) found at child, other tests skipped.
+125.244: kuortane.fi INFO Done testing DNSSEC for kuortane.fi.
+125.245: kuortane.fi INFO Test completed for zone kuortane.fi.

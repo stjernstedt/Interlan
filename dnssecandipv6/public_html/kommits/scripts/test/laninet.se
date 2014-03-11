@@ -1,0 +1,83 @@
+  0.000: laninet.se INFO Begin testing zone laninet.se with version 1.2.
+  0.001: laninet.se INFO Begin testing delegation for laninet.se.
+  5.394: laninet.se INFO Name servers listed at parent: dns20.activeisp.com,dns21.activeisp.com
+  6.885: laninet.se INFO Name servers listed at child: dns20.activeisp.com,dns21.activeisp.com
+  6.886: laninet.se NOTICE No IPv6 name servers found.
+  6.959: laninet.se INFO Done testing delegation for laninet.se.
+  6.960: laninet.se INFO Begin testing name server dns20.activeisp.com.
+  6.960: laninet.se INFO Begin testing host dns20.activeisp.com.
+  6.961: laninet.se INFO Begin testing address 213.188.128.38.
+ 10.109: laninet.se INFO Done testing address 213.188.128.38.
+ 10.110: laninet.se INFO Done testing host dns20.activeisp.com.
+ 10.132: laninet.se INFO Name server dns20.activeisp.com (213.188.128.38) answers queries over UDP.
+ 10.171: laninet.se INFO Name server dns20.activeisp.com (213.188.128.38) answers queries over TCP.
+ 10.193: laninet.se INFO Name server dns20.activeisp.com (213.188.128.38) is not recursive.
+ 10.215: laninet.se INFO Name server dns20.activeisp.com (213.188.128.38) authoritative for laninet.se.
+ 10.358: laninet.se INFO Name server dns20.activeisp.com (213.188.128.38) closed for zone transfer of laninet.se.
+ 10.376: laninet.se INFO Legacy name server ID for dns20.activeisp.com (213.188.128.38): hostname.bind = dns20.activeisp.com
+ 10.394: laninet.se INFO Legacy name server ID for dns20.activeisp.com (213.188.128.38): version.bind = 9.4.3-P3-A2GP2
+ 10.428: laninet.se NOTICE No answer received from 213.188.128.38 when querying for version.server/CH/TXT.
+ 10.428: laninet.se INFO Done testing name server dns20.activeisp.com.
+ 10.428: laninet.se INFO Begin testing name server dns21.activeisp.com.
+ 10.428: laninet.se INFO Begin testing host dns21.activeisp.com.
+ 10.429: laninet.se INFO Begin testing address 194.19.37.12.
+ 12.495: laninet.se INFO Done testing address 194.19.37.12.
+ 12.495: laninet.se INFO Done testing host dns21.activeisp.com.
+ 12.510: laninet.se INFO Name server dns21.activeisp.com (194.19.37.12) answers queries over UDP.
+ 12.538: laninet.se INFO Name server dns21.activeisp.com (194.19.37.12) answers queries over TCP.
+ 12.553: laninet.se INFO Name server dns21.activeisp.com (194.19.37.12) is not recursive.
+ 12.570: laninet.se INFO Name server dns21.activeisp.com (194.19.37.12) authoritative for laninet.se.
+ 12.709: laninet.se INFO Name server dns21.activeisp.com (194.19.37.12) closed for zone transfer of laninet.se.
+ 12.725: laninet.se INFO Legacy name server ID for dns21.activeisp.com (194.19.37.12): hostname.bind = dns21.active24.com
+ 12.740: laninet.se INFO Legacy name server ID for dns21.activeisp.com (194.19.37.12): version.bind = 9.4.3-P3-A2GP2
+ 12.768: laninet.se NOTICE No answer received from 194.19.37.12 when querying for version.server/CH/TXT.
+ 12.768: laninet.se INFO Done testing name server dns21.activeisp.com.
+ 12.769: laninet.se INFO Begin testing zone consistency for laninet.se.
+ 12.787: laninet.se INFO SOA at address 194.19.37.12 has serial 2010100800.
+ 12.804: laninet.se INFO SOA at address 213.188.128.38 has serial 2010100800.
+ 12.804: laninet.se INFO All SOA records have consistent serial numbers.
+ 12.804: laninet.se INFO All SOA records are consistent among all name servers.
+ 12.804: laninet.se INFO Done testing zone consistency for laninet.se.
+ 12.805: laninet.se INFO Begin testing SOA parameters for laninet.se.
+ 12.820: laninet.se INFO Found SOA record for laninet.se.
+ 12.820: laninet.se INFO Begin testing host dns20.activeisp.com.
+ 12.821: laninet.se INFO Begin testing address 213.188.128.38.
+ 12.822: laninet.se INFO Done testing address 213.188.128.38.
+ 12.823: laninet.se INFO Done testing host dns20.activeisp.com.
+ 12.823: laninet.se INFO SOA MNAME for laninet.se valid (dns20.activeisp.com).
+ 12.823: laninet.se INFO SOA MNAME for laninet.se (dns20.activeisp.com) listed as NS.
+ 12.842: laninet.se INFO SOA MNAME for laninet.se (dns20.activeisp.com) is authoritative.
+ 12.843: laninet.se INFO Begin testing email address registry@activeisp.com.
+ 13.082: laninet.se INFO Mail exchangers for registry@activeisp.com found assassin.active24.com.
+ 13.082: laninet.se INFO Begin testing host assassin.active24.com.
+ 13.825: laninet.se INFO Begin testing address 213.188.134.112.
+ 14.337: laninet.se INFO Done testing address 213.188.134.112.
+ 14.337: laninet.se INFO Done testing host assassin.active24.com.
+ 14.338: laninet.se INFO Begin testing mail server assassin.active24.com (213.188.134.112) with registry@activeisp.com.
+ 34.351: laninet.se WARNING Failed to connect to assassin.active24.com (213.188.134.112).
+ 34.351: laninet.se INFO Done testing mail server assassin.active24.com (213.188.134.112) with registry@activeisp.com.
+ 34.351: laninet.se WARNING Delivery over IPv4 to registry@activeisp.com could not be done.
+ 34.351: laninet.se INFO Delivery over IPv6 to registry@activeisp.com could not be done.
+ 34.351: laninet.se INFO Done testing email address registry@activeisp.com.
+ 34.351: laninet.se WARNING Failed to deliver email for SOA RNAME of laninet.se (registry.activeisp.com) using registry@activeisp.com.
+ 34.352: laninet.se INFO SOA TTL for laninet.se OK (3600) - recommended >= 3600.
+ 34.352: laninet.se INFO SOA refresh for laninet.se OK (86400) - recommended >= 14400.
+ 34.352: laninet.se INFO SOA retry for laninet.se OK (7200) - recommended >= 3600.
+ 34.352: laninet.se INFO SOA expire for laninet.se OK (3600000) - recommended >= 604800.
+ 34.352: laninet.se NOTICE SOA minimum for laninet.se too large (172800) - recommended <= 86400.
+ 34.352: laninet.se INFO Done testing SOA parameters for laninet.se.
+ 34.352: laninet.se INFO Begin testing connectivity for laninet.se.
+ 34.872: laninet.se INFO Name server 194.19.37.12 announced by: 3307
+ 35.378: laninet.se INFO Name server 213.188.128.38 announced by: 12994
+ 35.378: laninet.se INFO Zone announced by IPv4 ASN: 12994,3307
+ 35.378: laninet.se INFO Zone announced by more than one ASN (2).
+ 35.379: laninet.se INFO Zone announced by IPv6 ASN: 
+ 35.379: laninet.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 35.379: laninet.se INFO Done testing connectivity for laninet.se.
+ 35.379: laninet.se INFO Begin testing DNSSEC for laninet.se.
+ 35.394: laninet.se INFO Did not find DS record for laninet.se at parent.
+ 35.466: laninet.se INFO Servers for laninet.se have consistent extra processing status.
+ 35.466: laninet.se INFO Did not find DNSKEY record for laninet.se at child.
+ 35.467: laninet.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 35.467: laninet.se INFO Done testing DNSSEC for laninet.se.
+ 35.467: laninet.se INFO Test completed for zone laninet.se.

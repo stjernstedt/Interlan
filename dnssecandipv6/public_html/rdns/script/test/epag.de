@@ -1,0 +1,92 @@
+  0.000: epag.de INFO Begin testing zone epag.de with version 1.5.0.
+  0.001: epag.de INFO Begin testing delegation for epag.de.
+  8.698: epag.de INFO Name servers listed at parent: dns1.epag.net,dns2.epag.net
+ 11.413: epag.de INFO Name servers listed at child: dns1.epag.net,dns2.epag.net
+ 11.453: epag.de NOTICE No IPv6 name servers found.
+ 13.136: epag.de INFO It is possible to build a referral packet for epag.de that works without EDNS0.
+ 13.136: epag.de INFO Done testing delegation for epag.de.
+ 13.136: epag.de INFO Begin testing name server dns1.epag.net.
+ 13.137: epag.de INFO Begin testing host dns1.epag.net.
+ 13.562: epag.de INFO Begin testing address 217.76.102.142.
+ 22.619: epag.de INFO Done testing address 217.76.102.142.
+ 22.619: epag.de INFO Begin testing address 212.123.35.78.
+ 23.544: epag.de INFO Done testing address 212.123.35.78.
+ 23.545: epag.de INFO Done testing host dns1.epag.net.
+ 23.919: epag.de INFO Name server dns1.epag.net (217.76.102.142) answers queries over UDP.
+ 23.993: epag.de INFO Name server dns1.epag.net (217.76.102.142) answers queries over TCP.
+ 24.034: epag.de INFO Name server dns1.epag.net (217.76.102.142) is not recursive.
+ 24.287: epag.de INFO Name server dns1.epag.net (217.76.102.142) authoritative for epag.de.
+ 24.412: epag.de INFO Name server dns1.epag.net (217.76.102.142) closed for zone transfer of epag.de.
+ 24.455: epag.de INFO Legacy name server ID for dns1.epag.net (217.76.102.142): hostname.bind = dns1b
+ 24.496: epag.de INFO Legacy name server ID for dns1.epag.net (217.76.102.142): version.bind = 9.7.4-P1
+ 24.641: epag.de NOTICE No answer received from 217.76.102.142 when querying for version.server/CH/TXT.
+ 24.681: epag.de INFO Name server dns1.epag.net (212.123.35.78) answers queries over UDP.
+ 24.754: epag.de INFO Name server dns1.epag.net (212.123.35.78) answers queries over TCP.
+ 24.793: epag.de INFO Name server dns1.epag.net (212.123.35.78) is not recursive.
+ 25.069: epag.de INFO Name server dns1.epag.net (212.123.35.78) authoritative for epag.de.
+ 25.190: epag.de INFO Name server dns1.epag.net (212.123.35.78) closed for zone transfer of epag.de.
+ 25.236: epag.de INFO Legacy name server ID for dns1.epag.net (212.123.35.78): hostname.bind = dns1c.epag.net
+ 25.280: epag.de INFO Legacy name server ID for dns1.epag.net (212.123.35.78): version.bind = 9.9.1-P3
+ 25.358: epag.de NOTICE No answer received from 212.123.35.78 when querying for version.server/CH/TXT.
+ 25.359: epag.de INFO Done testing name server dns1.epag.net.
+ 25.359: epag.de INFO Begin testing name server dns2.epag.net.
+ 25.359: epag.de INFO Begin testing host dns2.epag.net.
+ 26.123: epag.de INFO Begin testing address 212.123.32.78.
+ 27.158: epag.de INFO Done testing address 212.123.32.78.
+ 27.158: epag.de INFO Done testing host dns2.epag.net.
+ 27.696: epag.de INFO Name server dns2.epag.net (212.123.32.78) answers queries over UDP.
+ 27.784: epag.de INFO Name server dns2.epag.net (212.123.32.78) answers queries over TCP.
+ 27.822: epag.de INFO Name server dns2.epag.net (212.123.32.78) is not recursive.
+ 28.067: epag.de INFO Name server dns2.epag.net (212.123.32.78) authoritative for epag.de.
+ 28.168: epag.de INFO Name server dns2.epag.net (212.123.32.78) closed for zone transfer of epag.de.
+ 28.204: epag.de INFO Legacy name server ID for dns2.epag.net (212.123.32.78): hostname.bind = dns2
+ 28.255: epag.de INFO Legacy name server ID for dns2.epag.net (212.123.32.78): version.bind = 9.9.1-P3
+ 28.348: epag.de NOTICE No answer received from 212.123.32.78 when querying for version.server/CH/TXT.
+ 28.348: epag.de INFO Done testing name server dns2.epag.net.
+ 28.348: epag.de INFO Begin testing zone consistency for epag.de.
+ 30.983: epag.de INFO SOA at address 212.123.35.78 has serial 2013040801.
+ 31.020: epag.de INFO SOA at address 212.123.32.78 has serial 2013040801.
+ 31.067: epag.de INFO SOA at address 217.76.102.142 has serial 2013040801.
+ 31.067: epag.de INFO All SOA records have consistent serial numbers.
+ 31.067: epag.de INFO All other fields in the SOA record are consistent among all name servers.
+ 32.045: epag.de NOTICE The listed nameservers for epag.de all report the same set of nameservers.
+ 32.045: epag.de INFO Done testing zone consistency for epag.de.
+ 32.045: epag.de INFO Begin testing SOA parameters for epag.de.
+ 32.089: epag.de INFO Found SOA record for epag.de.
+ 32.089: epag.de INFO Begin testing host dns1.epag.net.
+ 32.704: epag.de INFO Begin testing address 217.76.102.142.
+ 33.274: epag.de INFO Done testing address 217.76.102.142.
+ 33.274: epag.de INFO Begin testing address 212.123.35.78.
+ 33.945: epag.de INFO Done testing address 212.123.35.78.
+ 33.945: epag.de INFO Done testing host dns1.epag.net.
+ 33.945: epag.de INFO SOA MNAME for epag.de valid (dns1.epag.net).
+ 33.946: epag.de INFO SOA MNAME for epag.de (dns1.epag.net) listed as NS.
+ 34.530: epag.de INFO SOA MNAME for epag.de (dns1.epag.net) is authoritative.
+ 34.594: epag.de INFO SOA MNAME for epag.de (dns1.epag.net) is authoritative.
+ 34.594: epag.de INFO Begin testing email address postmaster@epag.net.
+ 34.884: epag.de INFO Mail exchangers for postmaster@epag.net found mail4.epag.de.
+ 34.885: epag.de INFO All mail servers for postmaster@epag.net are in zone epag.de.
+ 34.885: epag.de INFO Begin testing host mail4.epag.de.
+ 35.499: epag.de INFO Begin testing address 212.123.34.110.
+ 36.308: epag.de INFO Done testing address 212.123.34.110.
+ 36.313: epag.de INFO Done testing host mail4.epag.de.
+ 36.654: epag.de INFO Done testing email address postmaster@epag.net.
+ 36.654: epag.de INFO Successful attempt to deliver email for SOA RNAME of epag.de (postmaster.epag.net) using postmaster@epag.net.
+ 36.654: epag.de NOTICE SOA TTL for epag.de too small (120) - recommended >= 3600.
+ 36.654: epag.de NOTICE SOA refresh for epag.de too small (10800) - recommended >= 14400.
+ 36.655: epag.de INFO SOA retry for epag.de OK (3600) - recommended >= 3600.
+ 36.655: epag.de INFO SOA expire for epag.de OK (604800) - recommended >= 604800.
+ 36.655: epag.de NOTICE SOA minimum for epag.de too small (120) - recommended >= 300.
+ 36.655: epag.de INFO Done testing SOA parameters for epag.de.
+ 36.655: epag.de INFO Begin testing connectivity for epag.de.
+ 39.147: epag.de INFO Zone announced by more than one ASN.
+ 39.147: epag.de NOTICE Zone announced by fewer than two IPv6 ASN.
+ 39.147: epag.de INFO Done testing connectivity for epag.de.
+ 39.147: epag.de INFO Begin testing DNSSEC for epag.de.
+ 39.297: epag.de INFO Did not find DS record for epag.de at parent.
+ 39.560: epag.de INFO Servers for epag.de have consistent extra processing status.
+ 39.643: epag.de INFO Authenticated denial records not found for epag.de.
+ 39.688: epag.de INFO Did not find DNSKEY record for epag.de at child.
+ 39.688: epag.de INFO No DNSKEY(s) found at child, other tests skipped.
+ 39.688: epag.de INFO Done testing DNSSEC for epag.de.
+ 39.689: epag.de INFO Test completed for zone epag.de.

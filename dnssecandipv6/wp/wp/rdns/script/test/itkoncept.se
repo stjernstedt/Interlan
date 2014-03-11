@@ -1,0 +1,113 @@
+  0.000: itkoncept.se INFO Begin testing zone itkoncept.se with version 1.0.1.
+  0.000: itkoncept.se INFO Begin testing delegation for itkoncept.se.
+  0.804: itkoncept.se INFO Name servers listed at parent: ns01.se,ns02.se,ns04.se
+ 12.209: itkoncept.se INFO Name servers listed at child: ns01.se,ns02.se,ns04.se
+ 12.209: itkoncept.se NOTICE No IPv6 name servers found.
+ 12.218: itkoncept.se INFO Parent glue for itkoncept.se found: ns01.se (94.254.113.11)
+ 12.366: itkoncept.se INFO Parent glue for itkoncept.se found: ns02.se (64.237.45.34)
+ 12.525: itkoncept.se INFO Parent glue for itkoncept.se found: ns04.se (69.41.170.223)
+ 12.566: itkoncept.se INFO Checking glue for ns01.se (94.254.113.11).
+ 12.566: itkoncept.se INFO Checking glue for ns02.se (64.237.45.34).
+ 12.567: itkoncept.se INFO Checking glue for ns04.se (69.41.170.223).
+ 12.567: itkoncept.se INFO Done testing delegation for itkoncept.se.
+ 12.568: itkoncept.se INFO Begin testing name server ns01.se.
+ 12.568: itkoncept.se INFO Begin testing host ns01.se.
+ 12.568: itkoncept.se INFO Begin testing address 94.254.113.11.
+ 16.465: itkoncept.se INFO Done testing address 94.254.113.11.
+ 16.465: itkoncept.se INFO Done testing host ns01.se.
+ 16.474: itkoncept.se INFO Name server ns01.se (94.254.113.11) is not recursive.
+ 16.482: itkoncept.se INFO Name server ns01.se (94.254.113.11) authoritative for itkoncept.se.
+ 16.489: itkoncept.se INFO Name server ns01.se (94.254.113.11) answers queries over UDP.
+ 16.501: itkoncept.se INFO Name server ns01.se (94.254.113.11) answers queries over TCP.
+ 16.716: itkoncept.se INFO Name server ns01.se (94.254.113.11) closed for zone transfer of itkoncept.se.
+ 16.723: itkoncept.se NOTICE No answer received from 94.254.113.11 when querying for hostname.bind/CH/TXT.
+ 34.744: itkoncept.se INFO Done testing name server ns01.se.
+ 34.744: itkoncept.se INFO Begin testing name server ns02.se.
+ 34.744: itkoncept.se INFO Begin testing host ns02.se.
+ 34.744: itkoncept.se INFO Begin testing address 64.237.45.34.
+ 36.618: itkoncept.se INFO Done testing address 64.237.45.34.
+ 36.618: itkoncept.se INFO Done testing host ns02.se.
+ 36.731: itkoncept.se INFO Name server ns02.se (64.237.45.34) is not recursive.
+ 36.845: itkoncept.se INFO Name server ns02.se (64.237.45.34) authoritative for itkoncept.se.
+ 36.958: itkoncept.se INFO Name server ns02.se (64.237.45.34) answers queries over UDP.
+ 37.181: itkoncept.se INFO Name server ns02.se (64.237.45.34) answers queries over TCP.
+ 37.670: itkoncept.se INFO Name server ns02.se (64.237.45.34) closed for zone transfer of itkoncept.se.
+ 37.787: itkoncept.se NOTICE No answer received from 64.237.45.34 when querying for hostname.bind/CH/TXT.
+ 55.812: itkoncept.se INFO Done testing name server ns02.se.
+ 55.812: itkoncept.se INFO Begin testing name server ns04.se.
+ 55.812: itkoncept.se INFO Begin testing host ns04.se.
+ 55.812: itkoncept.se INFO Begin testing address 69.41.170.223.
+ 57.312: itkoncept.se INFO Done testing address 69.41.170.223.
+ 57.312: itkoncept.se INFO Done testing host ns04.se.
+ 57.472: itkoncept.se INFO Name server ns04.se (69.41.170.223) is not recursive.
+ 57.636: itkoncept.se INFO Name server ns04.se (69.41.170.223) authoritative for itkoncept.se.
+ 57.796: itkoncept.se INFO Name server ns04.se (69.41.170.223) answers queries over UDP.
+ 58.111: itkoncept.se INFO Name server ns04.se (69.41.170.223) answers queries over TCP.
+ 58.736: itkoncept.se INFO Name server ns04.se (69.41.170.223) closed for zone transfer of itkoncept.se.
+ 59.041: itkoncept.se NOTICE No answer received from 69.41.170.223 when querying for hostname.bind/CH/TXT.
+ 77.044: itkoncept.se INFO Done testing name server ns04.se.
+ 77.044: itkoncept.se INFO Begin testing zone consistency for itkoncept.se.
+ 77.056: itkoncept.se INFO SOA at address 94.254.113.11 has serial 2010030109.
+ 77.304: itkoncept.se INFO SOA at address 69.41.170.223 has serial 2010030109.
+ 77.418: itkoncept.se INFO SOA at address 64.237.45.34 has serial 2010030109.
+ 77.418: itkoncept.se INFO All SOA records have consistent serial numbers.
+ 77.419: itkoncept.se INFO All SOA records are consistent among all name servers.
+ 77.419: itkoncept.se INFO Done testing zone consistency for itkoncept.se.
+ 77.419: itkoncept.se INFO Begin testing SOA parameters for itkoncept.se.
+ 77.578: itkoncept.se INFO Found SOA record for itkoncept.se.
+ 77.579: itkoncept.se INFO Begin testing host ns01.se.
+ 77.579: itkoncept.se INFO Begin testing address 94.254.113.11.
+ 77.580: itkoncept.se INFO Done testing address 94.254.113.11.
+ 77.581: itkoncept.se INFO Done testing host ns01.se.
+ 77.581: itkoncept.se INFO SOA MNAME for itkoncept.se valid (ns01.se).
+ 77.581: itkoncept.se INFO SOA MNAME for itkoncept.se (ns01.se) listed as NS.
+ 77.590: itkoncept.se INFO SOA MNAME for itkoncept.se (ns01.se) is authoritative.
+ 77.590: itkoncept.se INFO Begin testing email address hostmaster@itkoncept.se.
+ 77.758: itkoncept.se INFO Mail exchangers for hostmaster@itkoncept.se found mx01.se,mx02.se,mx03.se,mx04.se.
+ 77.758: itkoncept.se INFO Begin testing host mx01.se.
+ 77.789: itkoncept.se INFO Begin testing address 94.254.113.25.
+ 77.797: itkoncept.se INFO Done testing address 94.254.113.25.
+ 77.797: itkoncept.se INFO Done testing host mx01.se.
+ 77.797: itkoncept.se INFO Begin testing mail server mx01.se (94.254.113.25) with hostmaster@itkoncept.se.
+ 77.812: itkoncept.se INFO SMTP banner: mail.hostedservices.se Microsoft ESMTP MAIL Service ready at Tue, 7 Sep 2010 16:13:29 +0200
+ 83.001: itkoncept.se INFO SMTP testing of mx01.se (94.254.113.25) with hostmaster@itkoncept.se succeeded without errors.
+ 83.001: itkoncept.se INFO Done testing mail server mx01.se (94.254.113.25) with hostmaster@itkoncept.se.
+ 83.001: itkoncept.se INFO Begin testing host mx02.se.
+ 83.032: itkoncept.se INFO Begin testing address 94.254.113.25.
+ 83.033: itkoncept.se INFO Done testing address 94.254.113.25.
+ 83.033: itkoncept.se INFO Done testing host mx02.se.
+ 83.034: itkoncept.se INFO Begin testing host mx03.se.
+ 83.064: itkoncept.se INFO Begin testing address 94.254.113.25.
+ 83.065: itkoncept.se INFO Done testing address 94.254.113.25.
+ 83.065: itkoncept.se INFO Done testing host mx03.se.
+ 83.066: itkoncept.se INFO Begin testing host mx04.se.
+ 83.097: itkoncept.se INFO Begin testing address 94.254.113.25.
+ 83.098: itkoncept.se INFO Done testing address 94.254.113.25.
+ 83.098: itkoncept.se INFO Done testing host mx04.se.
+ 83.098: itkoncept.se INFO Delivery over IPv4 to hostmaster@itkoncept.se ok.
+ 83.098: itkoncept.se INFO Delivery over IPv6 to hostmaster@itkoncept.se could not be done.
+ 83.098: itkoncept.se INFO Done testing email address hostmaster@itkoncept.se.
+ 83.098: itkoncept.se INFO Successful attempt to deliver email for SOA RNAME of itkoncept.se (hostmaster.itkoncept.se) using hostmaster@itkoncept.se.
+ 83.099: itkoncept.se INFO SOA TTL for itkoncept.se OK (3600) - recommended >= 3600.
+ 83.099: itkoncept.se NOTICE SOA refresh for itkoncept.se too small (900) - recommended >= 14400.
+ 83.099: itkoncept.se NOTICE SOA retry for itkoncept.se too small (600) - recommended >= 3600.
+ 83.099: itkoncept.se NOTICE SOA expire for itkoncept.se too small (3600) - recommended >= 604800.
+ 83.099: itkoncept.se NOTICE SOA expire for itkoncept.se lower than refresh.
+ 83.099: itkoncept.se INFO SOA minimum for itkoncept.se OK (3600) - recommended between 300 and 86400.
+ 83.099: itkoncept.se INFO Done testing SOA parameters for itkoncept.se.
+ 83.099: itkoncept.se INFO Begin testing connectivity for itkoncept.se.
+ 83.452: itkoncept.se INFO Name server 69.41.170.223 announced by: 33210
+ 83.582: itkoncept.se INFO Name server 64.237.45.34 announced by: 20473
+ 83.708: itkoncept.se INFO Name server 94.254.113.11 announced by: 8473
+ 83.708: itkoncept.se INFO Zone announced by ASN: 8473,20473,33210
+ 83.708: itkoncept.se INFO Zone announced by more than one ASN (3).
+ 83.709: itkoncept.se INFO Zone announced by IPv6 ASN: 
+ 83.709: itkoncept.se NOTICE Zone announced by only one IPv6 ASN (0).
+ 83.709: itkoncept.se INFO Done testing connectivity for itkoncept.se.
+ 83.709: itkoncept.se INFO Begin testing DNSSEC for itkoncept.se.
+ 83.743: itkoncept.se INFO Did not find DS record for itkoncept.se at parent.
+ 84.293: itkoncept.se INFO Servers for itkoncept.se have consistent extra processing status.
+ 84.293: itkoncept.se INFO Did not find DNSKEY record for itkoncept.se at child.
+ 84.294: itkoncept.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 84.294: itkoncept.se INFO Done testing DNSSEC for itkoncept.se.
+ 84.294: itkoncept.se INFO Test completed for zone itkoncept.se.

@@ -1,0 +1,163 @@
+  0.000: ylojarvi.fi INFO Begin testing zone ylojarvi.fi with version 1.5.0.
+  2.655: ylojarvi.fi INFO Begin testing delegation for ylojarvi.fi.
+ 59.600: ylojarvi.fi INFO Name servers listed at parent: ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 80.426: ylojarvi.fi INFO Name servers listed at child: ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 81.022: ylojarvi.fi INFO Parent glue for ylojarvi.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+ 81.498: ylojarvi.fi INFO Parent glue for ylojarvi.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+ 82.907: ylojarvi.fi INFO Parent glue for ylojarvi.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+ 83.620: ylojarvi.fi INFO Parent glue for ylojarvi.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+ 86.033: ylojarvi.fi INFO Checking glue for ns1-fin.global.sonera.fi (193.210.18.31).
+ 86.034: ylojarvi.fi INFO Checking glue for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53).
+ 86.034: ylojarvi.fi INFO Checking glue for ns2-fin.global.sonera.fi (195.156.148.158).
+ 86.034: ylojarvi.fi INFO Checking glue for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53).
+ 86.034: ylojarvi.fi INFO Parent glue for ylojarvi.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+ 86.034: ylojarvi.fi INFO Parent glue for ylojarvi.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+ 86.035: ylojarvi.fi INFO Parent glue for ylojarvi.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+ 86.035: ylojarvi.fi INFO Parent glue for ylojarvi.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+ 92.634: ylojarvi.fi INFO It is possible to build a referral packet for ylojarvi.fi that works without EDNS0.
+ 94.476: ylojarvi.fi INFO Previously used name servers for ylojarvi.fi: 
+ 94.476: ylojarvi.fi INFO Done testing delegation for ylojarvi.fi.
+ 94.477: ylojarvi.fi INFO Begin testing name server ns1-fin.global.sonera.fi.
+ 94.477: ylojarvi.fi INFO Begin testing host ns1-fin.global.sonera.fi.
+ 94.478: ylojarvi.fi INFO Begin testing address 193.210.18.31.
+123.123: ylojarvi.fi INFO Done testing address 193.210.18.31.
+123.356: ylojarvi.fi INFO Begin testing address 2001:2060:ffdd:a01:0:0:0:53.
+130.633: ylojarvi.fi INFO Done testing address 2001:2060:ffdd:a01:0:0:0:53.
+130.633: ylojarvi.fi INFO Done testing host ns1-fin.global.sonera.fi.
+130.917: ylojarvi.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over UDP.
+131.019: ylojarvi.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over TCP.
+131.248: ylojarvi.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) is not recursive.
+132.167: ylojarvi.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) authoritative for ylojarvi.fi.
+132.327: ylojarvi.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) closed for zone transfer of ylojarvi.fi.
+132.406: ylojarvi.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): hostname.bind = mgda1
+132.685: ylojarvi.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): version.bind = TeliaSonera Finland DNS MGDA
+132.805: ylojarvi.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): id.server = mgda1
+132.939: ylojarvi.fi NOTICE No answer received from 193.210.18.31 when querying for version.server/CH/TXT.
+133.099: ylojarvi.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) answers queries over UDP.
+133.387: ylojarvi.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) answers queries over TCP.
+133.676: ylojarvi.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) is not recursive.
+134.567: ylojarvi.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) authoritative for ylojarvi.fi.
+134.736: ylojarvi.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) closed for zone transfer of ylojarvi.fi.
+134.855: ylojarvi.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): hostname.bind = mgda1
+134.964: ylojarvi.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+135.096: ylojarvi.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): id.server = mgda2
+135.231: ylojarvi.fi NOTICE No answer received from 2001:2060:ffdd:a01:0:0:0:53 when querying for version.server/CH/TXT.
+135.231: ylojarvi.fi INFO Done testing name server ns1-fin.global.sonera.fi.
+135.231: ylojarvi.fi INFO Begin testing name server ns1-swe.global.sonera.se.
+135.231: ylojarvi.fi INFO Begin testing host ns1-swe.global.sonera.se.
+135.264: ylojarvi.fi INFO Begin testing address 80.64.9.124.
+139.396: ylojarvi.fi INFO Done testing address 80.64.9.124.
+139.396: ylojarvi.fi INFO Begin testing address 2001:6e8:400:ffff:1:0:0:53.
+140.655: ylojarvi.fi INFO Done testing address 2001:6e8:400:ffff:1:0:0:53.
+140.675: ylojarvi.fi INFO Done testing host ns1-swe.global.sonera.se.
+140.899: ylojarvi.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over UDP.
+141.079: ylojarvi.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over TCP.
+141.315: ylojarvi.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) is not recursive.
+142.097: ylojarvi.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) authoritative for ylojarvi.fi.
+142.170: ylojarvi.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) closed for zone transfer of ylojarvi.fi.
+142.256: ylojarvi.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): hostname.bind = mgda3
+142.374: ylojarvi.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): version.bind = TeliaSonera Finland DNS MGDA
+142.448: ylojarvi.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): id.server = mgda3
+142.572: ylojarvi.fi NOTICE No answer received from 80.64.9.124 when querying for version.server/CH/TXT.
+142.740: ylojarvi.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over UDP.
+142.950: ylojarvi.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over TCP.
+143.040: ylojarvi.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) is not recursive.
+143.611: ylojarvi.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) authoritative for ylojarvi.fi.
+143.848: ylojarvi.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) closed for zone transfer of ylojarvi.fi.
+143.884: ylojarvi.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): hostname.bind = mgda3
+144.029: ylojarvi.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+144.144: ylojarvi.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): id.server = mgda3
+144.248: ylojarvi.fi NOTICE No answer received from 2001:6e8:400:ffff:1:0:0:53 when querying for version.server/CH/TXT.
+144.248: ylojarvi.fi INFO Done testing name server ns1-swe.global.sonera.se.
+144.248: ylojarvi.fi INFO Begin testing name server ns2-fin.global.sonera.fi.
+144.248: ylojarvi.fi INFO Begin testing host ns2-fin.global.sonera.fi.
+144.249: ylojarvi.fi INFO Begin testing address 195.156.148.158.
+145.374: ylojarvi.fi INFO Done testing address 195.156.148.158.
+145.374: ylojarvi.fi INFO Begin testing address 2001:2060:ffdd:a02:0:0:0:53.
+146.572: ylojarvi.fi INFO Done testing address 2001:2060:ffdd:a02:0:0:0:53.
+146.572: ylojarvi.fi INFO Done testing host ns2-fin.global.sonera.fi.
+146.790: ylojarvi.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over UDP.
+147.000: ylojarvi.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over TCP.
+147.048: ylojarvi.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) is not recursive.
+147.732: ylojarvi.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) authoritative for ylojarvi.fi.
+147.829: ylojarvi.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) closed for zone transfer of ylojarvi.fi.
+147.926: ylojarvi.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): hostname.bind = mgda1
+148.038: ylojarvi.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): version.bind = TeliaSonera Finland DNS MGDA
+148.110: ylojarvi.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): id.server = mgda2
+148.284: ylojarvi.fi NOTICE No answer received from 195.156.148.158 when querying for version.server/CH/TXT.
+148.464: ylojarvi.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) answers queries over UDP.
+148.654: ylojarvi.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) answers queries over TCP.
+148.821: ylojarvi.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) is not recursive.
+149.875: ylojarvi.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) authoritative for ylojarvi.fi.
+150.065: ylojarvi.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) closed for zone transfer of ylojarvi.fi.
+150.183: ylojarvi.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): hostname.bind = mgda2
+150.278: ylojarvi.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+150.402: ylojarvi.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): id.server = mgda2
+150.468: ylojarvi.fi NOTICE No answer received from 2001:2060:ffdd:a02:0:0:0:53 when querying for version.server/CH/TXT.
+150.468: ylojarvi.fi INFO Done testing name server ns2-fin.global.sonera.fi.
+150.468: ylojarvi.fi INFO Begin testing name server ns2-usa.global.sonera.net.
+150.468: ylojarvi.fi INFO Begin testing host ns2-usa.global.sonera.net.
+151.360: ylojarvi.fi INFO Begin testing address 46.38.190.56.
+154.956: ylojarvi.fi INFO Done testing address 46.38.190.56.
+154.956: ylojarvi.fi INFO Done testing host ns2-usa.global.sonera.net.
+155.869: ylojarvi.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over UDP.
+156.147: ylojarvi.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over TCP.
+156.524: ylojarvi.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) is not recursive.
+157.703: ylojarvi.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) authoritative for ylojarvi.fi.
+157.861: ylojarvi.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) closed for zone transfer of ylojarvi.fi.
+158.052: ylojarvi.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): hostname.bind = mgda5
+158.249: ylojarvi.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): version.bind = TeliaSonera Finland DNS MGDA
+158.424: ylojarvi.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): id.server = mgda5
+158.636: ylojarvi.fi NOTICE No answer received from 46.38.190.56 when querying for version.server/CH/TXT.
+158.636: ylojarvi.fi INFO Done testing name server ns2-usa.global.sonera.net.
+158.636: ylojarvi.fi INFO Begin testing zone consistency for ylojarvi.fi.
+161.579: ylojarvi.fi INFO SOA at address 2001:2060:ffdd:a01:0:0:0:53 has serial 2013061713.
+162.003: ylojarvi.fi INFO SOA at address 193.210.18.31 has serial 2013061713.
+162.431: ylojarvi.fi INFO SOA at address 80.64.9.124 has serial 2013061713.
+162.681: ylojarvi.fi INFO SOA at address 195.156.148.158 has serial 2013061713.
+162.807: ylojarvi.fi INFO SOA at address 2001:6e8:400:ffff:1:0:0:53 has serial 2013061713.
+163.139: ylojarvi.fi INFO SOA at address 46.38.190.56 has serial 2013061713.
+163.480: ylojarvi.fi INFO SOA at address 2001:2060:ffdd:a02:0:0:0:53 has serial 2013061713.
+163.481: ylojarvi.fi INFO All SOA records have consistent serial numbers.
+163.481: ylojarvi.fi INFO All other fields in the SOA record are consistent among all name servers.
+165.851: ylojarvi.fi NOTICE The listed nameservers for ylojarvi.fi all report the same set of nameservers.
+165.852: ylojarvi.fi INFO Done testing zone consistency for ylojarvi.fi.
+165.852: ylojarvi.fi INFO Begin testing SOA parameters for ylojarvi.fi.
+165.952: ylojarvi.fi INFO Found SOA record for ylojarvi.fi.
+165.952: ylojarvi.fi INFO Begin testing host namesurfer.inet.fi.
+167.663: ylojarvi.fi INFO Begin testing address 131.177.73.253.
+182.476: ylojarvi.fi INFO Done testing address 131.177.73.253.
+182.476: ylojarvi.fi INFO Done testing host namesurfer.inet.fi.
+182.476: ylojarvi.fi INFO SOA MNAME for ylojarvi.fi valid (namesurfer.inet.fi).
+182.476: ylojarvi.fi NOTICE SOA MNAME for ylojarvi.fi (namesurfer.inet.fi) not listed as NS.
+188.808: ylojarvi.fi INFO SOA MNAME for ylojarvi.fi (namesurfer.inet.fi) is authoritative.
+188.808: ylojarvi.fi INFO Begin testing email address hostmaster@sonera.com.
+189.181: ylojarvi.fi INFO Mail exchangers for hostmaster@sonera.com found smtp.dave.sonera.fi,mail.cm.sonera.com.
+189.183: ylojarvi.fi INFO Begin testing host smtp.dave.sonera.fi.
+189.811: ylojarvi.fi INFO Begin testing address 131.177.120.25.
+190.615: ylojarvi.fi INFO Done testing address 131.177.120.25.
+190.616: ylojarvi.fi INFO Done testing host smtp.dave.sonera.fi.
+190.885: ylojarvi.fi INFO Begin testing host mail.cm.sonera.com.
+191.817: ylojarvi.fi INFO Begin testing address 193.208.151.61.
+192.656: ylojarvi.fi INFO Done testing address 193.208.151.61.
+192.656: ylojarvi.fi INFO Done testing host mail.cm.sonera.com.
+192.935: ylojarvi.fi INFO Done testing email address hostmaster@sonera.com.
+192.935: ylojarvi.fi INFO Successful attempt to deliver email for SOA RNAME of ylojarvi.fi (hostmaster.sonera.com) using hostmaster@sonera.com.
+192.935: ylojarvi.fi INFO SOA TTL for ylojarvi.fi OK (3600) - recommended >= 3600.
+192.935: ylojarvi.fi INFO SOA refresh for ylojarvi.fi OK (28800) - recommended >= 14400.
+192.935: ylojarvi.fi INFO SOA retry for ylojarvi.fi OK (7200) - recommended >= 3600.
+192.935: ylojarvi.fi INFO SOA expire for ylojarvi.fi OK (3456000) - recommended >= 604800.
+192.935: ylojarvi.fi INFO SOA minimum for ylojarvi.fi OK (86400) - recommended between 300 and 86400.
+192.935: ylojarvi.fi INFO Done testing SOA parameters for ylojarvi.fi.
+192.936: ylojarvi.fi INFO Begin testing connectivity for ylojarvi.fi.
+195.660: ylojarvi.fi INFO Zone announced by more than one ASN.
+197.242: ylojarvi.fi INFO Zone announced by more than one IPv6 ASN.
+197.243: ylojarvi.fi INFO Done testing connectivity for ylojarvi.fi.
+197.243: ylojarvi.fi INFO Begin testing DNSSEC for ylojarvi.fi.
+197.320: ylojarvi.fi INFO Did not find DS record for ylojarvi.fi at parent.
+197.697: ylojarvi.fi INFO Servers for ylojarvi.fi have consistent extra processing status.
+197.722: ylojarvi.fi INFO Authenticated denial records not found for ylojarvi.fi.
+197.736: ylojarvi.fi INFO Did not find DNSKEY record for ylojarvi.fi at child.
+197.736: ylojarvi.fi INFO No DNSKEY(s) found at child, other tests skipped.
+197.736: ylojarvi.fi INFO Done testing DNSSEC for ylojarvi.fi.
+197.737: ylojarvi.fi INFO Test completed for zone ylojarvi.fi.

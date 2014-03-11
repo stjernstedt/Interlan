@@ -1,0 +1,87 @@
+  0.000: grums.se INFO Begin testing zone grums.se with version 1.2.
+  0.000: grums.se INFO Begin testing delegation for grums.se.
+  5.368: grums.se INFO Name servers listed at parent: dns6.telia.com,gru-dns.grums.se
+  6.611: grums.se INFO Name servers listed at child: dns6.telia.com,gru-dns.grums.se
+  6.612: grums.se NOTICE No IPv6 name servers found.
+  6.721: grums.se INFO Parent glue for grums.se found: gru-dns.grums.se (195.198.120.253)
+  6.738: grums.se INFO Checking glue for gru-dns.grums.se (195.198.120.253).
+  6.754: grums.se INFO Child glue for grums.se found: gru-dns.grums.se (195.198.120.253)
+  6.754: grums.se INFO Parent glue for grums.se found: gru-dns.grums.se (195.198.120.253)
+  6.755: grums.se INFO Done testing delegation for grums.se.
+  6.755: grums.se INFO Begin testing name server dns6.telia.com.
+  6.755: grums.se INFO Begin testing host dns6.telia.com.
+  6.756: grums.se INFO Begin testing address 81.228.10.68.
+ 11.036: grums.se INFO Done testing address 81.228.10.68.
+ 11.036: grums.se INFO Done testing host dns6.telia.com.
+ 11.054: grums.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over UDP.
+ 11.085: grums.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over TCP.
+ 11.101: grums.se INFO Name server dns6.telia.com (81.228.10.68) is not recursive.
+ 11.117: grums.se INFO Name server dns6.telia.com (81.228.10.68) authoritative for grums.se.
+ 11.158: grums.se INFO Name server dns6.telia.com (81.228.10.68) closed for zone transfer of grums.se.
+ 11.179: grums.se INFO Legacy name server ID for dns6.telia.com (81.228.10.68): hostname.bind = dnshosting1-sn4.m-sp.skanova.net
+ 11.195: grums.se INFO Legacy name server ID for dns6.telia.com (81.228.10.68): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 11.228: grums.se NOTICE No answer received from 81.228.10.68 when querying for version.server/CH/TXT.
+ 11.229: grums.se INFO Done testing name server dns6.telia.com.
+ 11.229: grums.se INFO Begin testing name server gru-dns.grums.se.
+ 11.229: grums.se INFO Begin testing host gru-dns.grums.se.
+ 11.229: grums.se INFO Begin testing address 195.198.120.253.
+ 11.764: grums.se INFO Done testing address 195.198.120.253.
+ 11.764: grums.se INFO Done testing host gru-dns.grums.se.
+ 11.778: grums.se INFO Name server gru-dns.grums.se (195.198.120.253) answers queries over UDP.
+ 11.803: grums.se INFO Name server gru-dns.grums.se (195.198.120.253) answers queries over TCP.
+ 11.816: grums.se INFO Name server gru-dns.grums.se (195.198.120.253) is not recursive.
+ 11.830: grums.se INFO Name server gru-dns.grums.se (195.198.120.253) authoritative for grums.se.
+ 11.997: grums.se NOTICE Name server gru-dns.grums.se (195.198.120.253) open for zone transfer of grums.se.
+ 12.011: grums.se NOTICE No answer received from 195.198.120.253 when querying for hostname.bind/CH/TXT.
+ 30.010: grums.se INFO Done testing name server gru-dns.grums.se.
+ 30.010: grums.se INFO Begin testing zone consistency for grums.se.
+ 30.027: grums.se INFO SOA at address 195.198.120.253 has serial 2002092578.
+ 30.045: grums.se INFO SOA at address 81.228.10.68 has serial 2002092578.
+ 30.045: grums.se INFO All SOA records have consistent serial numbers.
+ 30.045: grums.se INFO All SOA records are consistent among all name servers.
+ 30.045: grums.se INFO Done testing zone consistency for grums.se.
+ 30.045: grums.se INFO Begin testing SOA parameters for grums.se.
+ 30.059: grums.se INFO Found SOA record for grums.se.
+ 30.059: grums.se INFO Begin testing host gru-dns.grums.se.
+ 30.059: grums.se INFO Begin testing address 195.198.120.253.
+ 30.060: grums.se INFO Done testing address 195.198.120.253.
+ 30.060: grums.se INFO Done testing host gru-dns.grums.se.
+ 30.061: grums.se INFO SOA MNAME for grums.se valid (gru-dns.grums.se).
+ 30.061: grums.se INFO SOA MNAME for grums.se (gru-dns.grums.se) listed as NS.
+ 30.074: grums.se INFO SOA MNAME for grums.se (gru-dns.grums.se) is authoritative.
+ 30.075: grums.se INFO Begin testing email address bur@grums.se.
+ 30.325: grums.se INFO Mail exchangers for bur@grums.se found mail.grums.se.
+ 30.326: grums.se INFO All mail servers for bur@grums.se are in zone grums.se.
+ 30.326: grums.se INFO Begin testing host mail.grums.se.
+ 30.785: grums.se INFO Begin testing address 195.198.120.251.
+ 31.121: grums.se INFO Done testing address 195.198.120.251.
+ 31.121: grums.se INFO Done testing host mail.grums.se.
+ 31.121: grums.se INFO Begin testing mail server mail.grums.se (195.198.120.251) with bur@grums.se.
+ 31.339: grums.se INFO SMTP banner: mail.grums.se
+ 31.382: grums.se INFO SMTP testing of mail.grums.se (195.198.120.251) with bur@grums.se succeeded without errors.
+ 31.382: grums.se INFO Done testing mail server mail.grums.se (195.198.120.251) with bur@grums.se.
+ 31.382: grums.se INFO Delivery over IPv4 to bur@grums.se ok.
+ 31.382: grums.se INFO Delivery over IPv6 to bur@grums.se could not be done.
+ 31.382: grums.se INFO Done testing email address bur@grums.se.
+ 31.383: grums.se INFO Successful attempt to deliver email for SOA RNAME of grums.se (bur.grums.se) using bur@grums.se.
+ 31.383: grums.se INFO SOA TTL for grums.se OK (3600) - recommended >= 3600.
+ 31.383: grums.se INFO SOA refresh for grums.se OK (14400) - recommended >= 14400.
+ 31.383: grums.se INFO SOA retry for grums.se OK (3600) - recommended >= 3600.
+ 31.383: grums.se INFO SOA expire for grums.se OK (604800) - recommended >= 604800.
+ 31.383: grums.se INFO SOA minimum for grums.se OK (43200) - recommended between 300 and 86400.
+ 31.383: grums.se INFO Done testing SOA parameters for grums.se.
+ 31.383: grums.se INFO Begin testing connectivity for grums.se.
+ 31.921: grums.se INFO Name server 195.198.120.253 announced by: 3301
+ 32.443: grums.se INFO Name server 81.228.10.68 announced by: 3301
+ 32.444: grums.se INFO Zone announced by IPv4 ASN: 3301
+ 32.444: grums.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 32.444: grums.se INFO Zone announced by IPv6 ASN: 
+ 32.444: grums.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 32.444: grums.se INFO Done testing connectivity for grums.se.
+ 32.444: grums.se INFO Begin testing DNSSEC for grums.se.
+ 32.527: grums.se INFO Did not find DS record for grums.se at parent.
+ 32.582: grums.se INFO Servers for grums.se have consistent extra processing status.
+ 32.582: grums.se INFO Did not find DNSKEY record for grums.se at child.
+ 32.582: grums.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 32.582: grums.se INFO Done testing DNSSEC for grums.se.
+ 32.582: grums.se INFO Test completed for zone grums.se.

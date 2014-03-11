@@ -1,0 +1,153 @@
+  0.000: nordicedge.se INFO Begin testing zone nordicedge.se with version 1.2.
+  0.001: nordicedge.se INFO Begin testing delegation for nordicedge.se.
+  6.208: nordicedge.se INFO Name servers listed at parent: edns01.ports.net,edns03.ports.net
+  7.578: nordicedge.se INFO Name servers listed at child: edns01.ports.net,edns03.ports.net
+  7.579: nordicedge.se NOTICE No IPv6 name servers found.
+  7.663: nordicedge.se INFO Done testing delegation for nordicedge.se.
+  7.664: nordicedge.se INFO Begin testing name server edns01.ports.net.
+  7.664: nordicedge.se INFO Begin testing host edns01.ports.net.
+  7.664: nordicedge.se INFO Begin testing address 193.12.211.140.
+ 10.199: nordicedge.se INFO Done testing address 193.12.211.140.
+ 10.199: nordicedge.se INFO Done testing host edns01.ports.net.
+ 10.215: nordicedge.se INFO Name server edns01.ports.net (193.12.211.140) answers queries over UDP.
+ 10.241: nordicedge.se INFO Name server edns01.ports.net (193.12.211.140) answers queries over TCP.
+ 10.255: nordicedge.se INFO Name server edns01.ports.net (193.12.211.140) is not recursive.
+ 10.270: nordicedge.se INFO Name server edns01.ports.net (193.12.211.140) authoritative for nordicedge.se.
+ 10.306: nordicedge.se INFO Name server edns01.ports.net (193.12.211.140) closed for zone transfer of nordicedge.se.
+ 10.326: nordicedge.se INFO Legacy name server ID for edns01.ports.net (193.12.211.140): hostname.bind = edns01
+ 16.361: nordicedge.se NOTICE No answer received from 193.12.211.140 when querying for version.server/CH/TXT.
+ 16.361: nordicedge.se INFO Done testing name server edns01.ports.net.
+ 16.361: nordicedge.se INFO Begin testing name server edns03.ports.net.
+ 16.362: nordicedge.se INFO Begin testing host edns03.ports.net.
+ 16.362: nordicedge.se INFO Begin testing address 217.28.206.27.
+ 17.106: nordicedge.se INFO Done testing address 217.28.206.27.
+ 17.107: nordicedge.se INFO Done testing host edns03.ports.net.
+ 17.130: nordicedge.se INFO Name server edns03.ports.net (217.28.206.27) answers queries over UDP.
+ 17.169: nordicedge.se INFO Name server edns03.ports.net (217.28.206.27) answers queries over TCP.
+ 17.190: nordicedge.se INFO Name server edns03.ports.net (217.28.206.27) is not recursive.
+ 17.211: nordicedge.se INFO Name server edns03.ports.net (217.28.206.27) authoritative for nordicedge.se.
+ 17.267: nordicedge.se INFO Name server edns03.ports.net (217.28.206.27) closed for zone transfer of nordicedge.se.
+ 17.289: nordicedge.se INFO Legacy name server ID for edns03.ports.net (217.28.206.27): hostname.bind = edns03
+ 17.311: nordicedge.se INFO Legacy name server ID for edns03.ports.net (217.28.206.27): version.bind = DNS!
+ 17.353: nordicedge.se NOTICE No answer received from 217.28.206.27 when querying for version.server/CH/TXT.
+ 17.354: nordicedge.se INFO Done testing name server edns03.ports.net.
+ 17.354: nordicedge.se INFO Begin testing zone consistency for nordicedge.se.
+ 17.380: nordicedge.se INFO SOA at address 217.28.206.27 has serial 2010100802.
+ 17.395: nordicedge.se INFO SOA at address 193.12.211.140 has serial 2010100802.
+ 17.396: nordicedge.se INFO All SOA records have consistent serial numbers.
+ 17.396: nordicedge.se INFO All SOA records are consistent among all name servers.
+ 17.396: nordicedge.se INFO Done testing zone consistency for nordicedge.se.
+ 17.396: nordicedge.se INFO Begin testing SOA parameters for nordicedge.se.
+ 17.411: nordicedge.se INFO Found SOA record for nordicedge.se.
+ 17.411: nordicedge.se INFO Begin testing host edns01.ports.net.
+ 17.412: nordicedge.se INFO Begin testing address 193.12.211.140.
+ 17.414: nordicedge.se INFO Done testing address 193.12.211.140.
+ 17.414: nordicedge.se INFO Done testing host edns01.ports.net.
+ 17.415: nordicedge.se INFO SOA MNAME for nordicedge.se valid (edns01.ports.net).
+ 17.415: nordicedge.se INFO SOA MNAME for nordicedge.se (edns01.ports.net) listed as NS.
+ 17.430: nordicedge.se INFO SOA MNAME for nordicedge.se (edns01.ports.net) is authoritative.
+ 17.431: nordicedge.se INFO Begin testing email address registry@ports.net.
+ 17.822: nordicedge.se INFO Mail exchangers for registry@ports.net found mx12a.antispameurope.com,mx12b.antispameurope.com,mx12c.antispameurope.com,mx12d.antispameurope.com.
+ 17.822: nordicedge.se INFO Begin testing host mx12a.antispameurope.com.
+ 19.237: nordicedge.se INFO Begin testing address 83.246.65.108.
+ 21.222: nordicedge.se INFO Done testing address 83.246.65.108.
+ 21.222: nordicedge.se INFO Begin testing address 83.246.65.109.
+ 22.650: nordicedge.se INFO Done testing address 83.246.65.109.
+ 22.650: nordicedge.se INFO Begin testing address 83.246.65.110.
+ 24.086: nordicedge.se INFO Done testing address 83.246.65.110.
+ 24.087: nordicedge.se INFO Begin testing address 83.246.65.111.
+ 25.028: nordicedge.se INFO Done testing address 83.246.65.111.
+ 25.029: nordicedge.se INFO Begin testing address 83.246.65.112.
+ 25.879: nordicedge.se INFO Done testing address 83.246.65.112.
+ 25.879: nordicedge.se INFO Begin testing address 83.246.65.113.
+ 27.215: nordicedge.se INFO Done testing address 83.246.65.113.
+ 27.215: nordicedge.se INFO Begin testing address 83.246.65.114.
+ 28.032: nordicedge.se INFO Done testing address 83.246.65.114.
+ 28.032: nordicedge.se INFO Begin testing address 83.246.65.101.
+ 29.202: nordicedge.se INFO Done testing address 83.246.65.101.
+ 29.202: nordicedge.se INFO Begin testing address 83.246.65.102.
+ 30.118: nordicedge.se INFO Done testing address 83.246.65.102.
+ 30.119: nordicedge.se INFO Begin testing address 83.246.65.103.
+ 31.181: nordicedge.se INFO Done testing address 83.246.65.103.
+ 31.181: nordicedge.se INFO Begin testing address 83.246.65.104.
+ 32.229: nordicedge.se INFO Done testing address 83.246.65.104.
+ 32.231: nordicedge.se INFO Begin testing address 83.246.65.105.
+ 32.973: nordicedge.se INFO Done testing address 83.246.65.105.
+ 32.974: nordicedge.se INFO Begin testing address 83.246.65.106.
+ 34.022: nordicedge.se INFO Done testing address 83.246.65.106.
+ 34.022: nordicedge.se INFO Begin testing address 83.246.65.107.
+ 35.126: nordicedge.se INFO Done testing address 83.246.65.107.
+ 35.126: nordicedge.se INFO Done testing host mx12a.antispameurope.com.
+ 35.126: nordicedge.se INFO Begin testing mail server mx12a.antispameurope.com (83.246.65.108) with registry@ports.net.
+ 35.251: nordicedge.se INFO SMTP banner: mx-gate08-haj2.antispameurope.com antispameurope Mailsecurity
+ 35.418: nordicedge.se INFO SMTP testing of mx12a.antispameurope.com (83.246.65.108) with registry@ports.net succeeded without errors.
+ 35.418: nordicedge.se INFO Done testing mail server mx12a.antispameurope.com (83.246.65.108) with registry@ports.net.
+ 35.419: nordicedge.se INFO Begin testing host mx12b.antispameurope.com.
+ 36.143: nordicedge.se INFO Begin testing address 217.64.175.107.
+ 37.462: nordicedge.se INFO Done testing address 217.64.175.107.
+ 37.463: nordicedge.se INFO Begin testing address 217.64.175.101.
+ 38.361: nordicedge.se INFO Done testing address 217.64.175.101.
+ 38.362: nordicedge.se INFO Begin testing address 217.64.175.102.
+ 39.411: nordicedge.se INFO Done testing address 217.64.175.102.
+ 39.412: nordicedge.se INFO Begin testing address 217.64.175.103.
+ 40.758: nordicedge.se INFO Done testing address 217.64.175.103.
+ 40.759: nordicedge.se INFO Done testing host mx12b.antispameurope.com.
+ 40.759: nordicedge.se INFO Begin testing host mx12c.antispameurope.com.
+ 41.372: nordicedge.se INFO Begin testing address 83.246.65.109.
+ 41.375: nordicedge.se INFO Done testing address 83.246.65.109.
+ 41.375: nordicedge.se INFO Begin testing address 83.246.65.110.
+ 41.377: nordicedge.se INFO Done testing address 83.246.65.110.
+ 41.377: nordicedge.se INFO Begin testing address 83.246.65.111.
+ 41.379: nordicedge.se INFO Done testing address 83.246.65.111.
+ 41.379: nordicedge.se INFO Begin testing address 83.246.65.112.
+ 41.381: nordicedge.se INFO Done testing address 83.246.65.112.
+ 41.381: nordicedge.se INFO Begin testing address 83.246.65.113.
+ 41.383: nordicedge.se INFO Done testing address 83.246.65.113.
+ 41.383: nordicedge.se INFO Begin testing address 83.246.65.114.
+ 41.385: nordicedge.se INFO Done testing address 83.246.65.114.
+ 41.385: nordicedge.se INFO Begin testing address 83.246.65.102.
+ 41.387: nordicedge.se INFO Done testing address 83.246.65.102.
+ 41.388: nordicedge.se INFO Begin testing address 83.246.65.103.
+ 41.389: nordicedge.se INFO Done testing address 83.246.65.103.
+ 41.390: nordicedge.se INFO Begin testing address 83.246.65.104.
+ 41.391: nordicedge.se INFO Done testing address 83.246.65.104.
+ 41.392: nordicedge.se INFO Begin testing address 83.246.65.105.
+ 41.393: nordicedge.se INFO Done testing address 83.246.65.105.
+ 41.394: nordicedge.se INFO Begin testing address 83.246.65.106.
+ 41.395: nordicedge.se INFO Done testing address 83.246.65.106.
+ 41.396: nordicedge.se INFO Begin testing address 83.246.65.107.
+ 41.397: nordicedge.se INFO Done testing address 83.246.65.107.
+ 41.398: nordicedge.se INFO Begin testing address 83.246.65.108.
+ 41.400: nordicedge.se INFO Done testing address 83.246.65.108.
+ 41.400: nordicedge.se INFO Done testing host mx12c.antispameurope.com.
+ 41.401: nordicedge.se INFO Begin testing host mx12d.antispameurope.com.
+ 42.152: nordicedge.se INFO Begin testing address 217.64.175.110.
+ 42.911: nordicedge.se INFO Done testing address 217.64.175.110.
+ 42.912: nordicedge.se INFO Begin testing address 217.64.175.108.
+ 44.123: nordicedge.se INFO Done testing address 217.64.175.108.
+ 44.124: nordicedge.se INFO Done testing host mx12d.antispameurope.com.
+ 44.124: nordicedge.se INFO Delivery over IPv4 to registry@ports.net ok.
+ 44.124: nordicedge.se INFO Delivery over IPv6 to registry@ports.net could not be done.
+ 44.124: nordicedge.se INFO Done testing email address registry@ports.net.
+ 44.124: nordicedge.se INFO Successful attempt to deliver email for SOA RNAME of nordicedge.se (registry.ports.net) using registry@ports.net.
+ 44.124: nordicedge.se INFO SOA TTL for nordicedge.se OK (21600) - recommended >= 3600.
+ 44.125: nordicedge.se NOTICE SOA refresh for nordicedge.se too small (1800) - recommended >= 14400.
+ 44.125: nordicedge.se NOTICE SOA retry for nordicedge.se too small (900) - recommended >= 3600.
+ 44.125: nordicedge.se INFO SOA expire for nordicedge.se OK (1814400) - recommended >= 604800.
+ 44.125: nordicedge.se INFO SOA minimum for nordicedge.se OK (600) - recommended between 300 and 86400.
+ 44.125: nordicedge.se INFO Done testing SOA parameters for nordicedge.se.
+ 44.126: nordicedge.se INFO Begin testing connectivity for nordicedge.se.
+ 44.649: nordicedge.se INFO Name server 193.12.211.140 announced by: 1257
+ 45.249: nordicedge.se INFO Name server 217.28.206.27 announced by: 34385
+ 45.250: nordicedge.se INFO Zone announced by IPv4 ASN: 1257,34385
+ 45.250: nordicedge.se INFO Zone announced by more than one ASN (2).
+ 45.250: nordicedge.se INFO Zone announced by IPv6 ASN: 
+ 45.250: nordicedge.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 45.251: nordicedge.se INFO Done testing connectivity for nordicedge.se.
+ 45.251: nordicedge.se INFO Begin testing DNSSEC for nordicedge.se.
+ 45.269: nordicedge.se INFO Did not find DS record for nordicedge.se at parent.
+ 45.339: nordicedge.se INFO Servers for nordicedge.se have consistent extra processing status.
+ 45.339: nordicedge.se INFO Did not find DNSKEY record for nordicedge.se at child.
+ 45.340: nordicedge.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 45.340: nordicedge.se INFO Done testing DNSSEC for nordicedge.se.
+ 45.340: nordicedge.se INFO Test completed for zone nordicedge.se.

@@ -1,0 +1,87 @@
+  0.000: documentdata.li INFO Begin testing zone documentdata.li with version 1.5.0.
+  0.001: documentdata.li INFO Begin testing delegation for documentdata.li.
+  9.378: documentdata.li INFO Name servers listed at parent: ns1.nameident.net,ns2.nameident.net
+ 13.393: documentdata.li INFO Name servers listed at child: ns1.nameident.net,ns2.nameident.net,ns3.nameident.net
+ 13.393: documentdata.li NOTICE Additional name server listed at child: ns3.nameident.net
+ 13.393: documentdata.li NOTICE No IPv6 name servers found.
+ 17.557: documentdata.li INFO It is possible to build a referral packet for documentdata.li that works without EDNS0.
+ 17.557: documentdata.li INFO Done testing delegation for documentdata.li.
+ 17.557: documentdata.li INFO Begin testing name server ns1.nameident.net.
+ 17.558: documentdata.li INFO Begin testing host ns1.nameident.net.
+ 18.010: documentdata.li INFO Begin testing address 195.200.218.170.
+ 24.083: documentdata.li INFO Done testing address 195.200.218.170.
+ 24.083: documentdata.li INFO Done testing host ns1.nameident.net.
+ 24.528: documentdata.li INFO Name server ns1.nameident.net (195.200.218.170) answers queries over UDP.
+ 24.659: documentdata.li INFO Name server ns1.nameident.net (195.200.218.170) answers queries over TCP.
+ 24.707: documentdata.li INFO Name server ns1.nameident.net (195.200.218.170) is not recursive.
+ 24.944: documentdata.li INFO Name server ns1.nameident.net (195.200.218.170) authoritative for documentdata.li.
+ 25.129: documentdata.li INFO Name server ns1.nameident.net (195.200.218.170) closed for zone transfer of documentdata.li.
+ 25.251: documentdata.li INFO Legacy name server ID for ns1.nameident.net (195.200.218.170): version.bind = Served by PowerDNS - http://www.powerdns.com
+ 25.365: documentdata.li INFO Done testing name server ns1.nameident.net.
+ 25.366: documentdata.li INFO Begin testing name server ns2.nameident.net.
+ 25.366: documentdata.li INFO Begin testing host ns2.nameident.net.
+ 25.835: documentdata.li INFO Begin testing address 64.151.87.192.
+ 38.460: documentdata.li INFO Done testing address 64.151.87.192.
+ 38.461: documentdata.li INFO Done testing host ns2.nameident.net.
+ 39.044: documentdata.li INFO Name server ns2.nameident.net (64.151.87.192) answers queries over UDP.
+ 39.408: documentdata.li INFO Name server ns2.nameident.net (64.151.87.192) answers queries over TCP.
+ 39.619: documentdata.li WARNING Name server ns2.nameident.net (64.151.87.192) is recursive.
+ 40.346: documentdata.li INFO Name server ns2.nameident.net (64.151.87.192) authoritative for documentdata.li.
+ 40.892: documentdata.li INFO Name server ns2.nameident.net (64.151.87.192) closed for zone transfer of documentdata.li.
+ 41.271: documentdata.li INFO Legacy name server ID for ns2.nameident.net (64.151.87.192): version.bind = Served by PowerDNS - http://www.powerdns.com
+ 41.635: documentdata.li INFO Done testing name server ns2.nameident.net.
+ 41.635: documentdata.li INFO Begin testing name server ns3.nameident.net.
+ 41.635: documentdata.li INFO Begin testing host ns3.nameident.net.
+ 42.297: documentdata.li INFO Begin testing address 195.200.218.110.
+ 43.545: documentdata.li INFO Done testing address 195.200.218.110.
+ 43.545: documentdata.li INFO Done testing host ns3.nameident.net.
+ 43.914: documentdata.li INFO Name server ns3.nameident.net (195.200.218.110) answers queries over UDP.
+ 44.053: documentdata.li INFO Name server ns3.nameident.net (195.200.218.110) answers queries over TCP.
+ 44.101: documentdata.li INFO Name server ns3.nameident.net (195.200.218.110) is not recursive.
+ 44.342: documentdata.li INFO Name server ns3.nameident.net (195.200.218.110) authoritative for documentdata.li.
+ 44.514: documentdata.li INFO Name server ns3.nameident.net (195.200.218.110) closed for zone transfer of documentdata.li.
+ 44.623: documentdata.li INFO Legacy name server ID for ns3.nameident.net (195.200.218.110): version.bind = Served by PowerDNS - http://www.powerdns.com
+ 44.727: documentdata.li INFO Done testing name server ns3.nameident.net.
+ 44.727: documentdata.li INFO Begin testing zone consistency for documentdata.li.
+ 47.497: documentdata.li INFO SOA at address 64.151.87.192 has serial 2010102500.
+ 47.545: documentdata.li INFO SOA at address 195.200.218.110 has serial 2010102500.
+ 47.593: documentdata.li INFO SOA at address 195.200.218.170 has serial 2010102500.
+ 47.593: documentdata.li INFO All SOA records have consistent serial numbers.
+ 47.594: documentdata.li INFO All other fields in the SOA record are consistent among all name servers.
+ 48.735: documentdata.li NOTICE The listed nameservers for documentdata.li all report the same set of nameservers.
+ 48.735: documentdata.li INFO Done testing zone consistency for documentdata.li.
+ 48.743: documentdata.li INFO Begin testing SOA parameters for documentdata.li.
+ 48.974: documentdata.li INFO Found SOA record for documentdata.li.
+ 48.974: documentdata.li INFO Begin testing host ns1.nameident.net.
+ 49.433: documentdata.li INFO Begin testing address 195.200.218.170.
+ 49.764: documentdata.li INFO Done testing address 195.200.218.170.
+ 49.764: documentdata.li INFO Done testing host ns1.nameident.net.
+ 49.764: documentdata.li INFO SOA MNAME for documentdata.li valid (ns1.nameident.net).
+ 49.765: documentdata.li INFO SOA MNAME for documentdata.li (ns1.nameident.net) listed as NS.
+ 50.562: documentdata.li INFO SOA MNAME for documentdata.li (ns1.nameident.net) is authoritative.
+ 50.562: documentdata.li INFO Begin testing email address namemaster@nameident.net.
+ 55.075: documentdata.li INFO Mail exchangers for namemaster@nameident.net found mail.nameident.net.
+ 55.075: documentdata.li INFO Begin testing host mail.nameident.net.
+ 56.128: documentdata.li INFO Begin testing address 195.200.218.160.
+ 58.024: documentdata.li INFO Done testing address 195.200.218.160.
+ 58.024: documentdata.li INFO Done testing host mail.nameident.net.
+ 58.482: documentdata.li INFO Done testing email address namemaster@nameident.net.
+ 58.482: documentdata.li INFO Successful attempt to deliver email for SOA RNAME of documentdata.li (namemaster.nameident.net) using namemaster@nameident.net.
+ 58.486: documentdata.li INFO SOA TTL for documentdata.li OK (3600) - recommended >= 3600.
+ 58.487: documentdata.li NOTICE SOA refresh for documentdata.li too small (10800) - recommended >= 14400.
+ 58.487: documentdata.li INFO SOA retry for documentdata.li OK (3600) - recommended >= 3600.
+ 58.487: documentdata.li INFO SOA expire for documentdata.li OK (604800) - recommended >= 604800.
+ 58.487: documentdata.li INFO SOA minimum for documentdata.li OK (38400) - recommended between 300 and 86400.
+ 58.487: documentdata.li INFO Done testing SOA parameters for documentdata.li.
+ 58.487: documentdata.li INFO Begin testing connectivity for documentdata.li.
+ 60.434: documentdata.li INFO Zone announced by more than one ASN.
+ 60.434: documentdata.li NOTICE Zone announced by fewer than two IPv6 ASN.
+ 60.434: documentdata.li INFO Done testing connectivity for documentdata.li.
+ 60.435: documentdata.li INFO Begin testing DNSSEC for documentdata.li.
+ 60.512: documentdata.li INFO Did not find DS record for documentdata.li at parent.
+ 61.165: documentdata.li INFO Servers for documentdata.li have consistent extra processing status.
+ 61.526: documentdata.li INFO Authenticated denial records not found for documentdata.li.
+ 61.710: documentdata.li INFO Did not find DNSKEY record for documentdata.li at child.
+ 61.710: documentdata.li INFO No DNSKEY(s) found at child, other tests skipped.
+ 61.710: documentdata.li INFO Done testing DNSSEC for documentdata.li.
+ 61.711: documentdata.li INFO Test completed for zone documentdata.li.

@@ -1,0 +1,79 @@
+#!/bin/sh
+cd /home/it-companies/go6
+
+cp ../public_html/bankv6/scripts/ipv6.rrd bank.rrd
+rrdtool tune bank.rrd -r ipv6:bank
+ cp ../public_html/cipv6/scripts/ipv6.rrd county.rrd
+rrdtool tune county.rrd -r ipv6:county
+#cp ../public_html/urbanv6/script/ipv6.rrd urban.rrd
+#rrdtool tune urban.rrd -r ipv6:urban
+cp ../public_html/ripv6/script/ipv6.rrd registry.rrd
+rrdtool tune registry.rrd -r ipv6:registry
+cp ../ipv6/ipv6.rrd  consults.rrd
+rrdtool tune consults.rrd -r ipv6:consults
+cp ../../special/public_html/mipv6/script/ipv6.rrd authorities.rrd
+rrdtool tune authorities.rrd -r ipv6:authorities
+cp ../../special/public_html/kipv6/script/ipv6.rrd municipalities.rrd
+rrdtool tune municipalities.rrd -r www:municipalities
+
+cp ../public_html/bankv6/scripts/dns6.rrd bankdns.rrd
+rrdtool tune bankdns.rrd -r dns6:bank
+ cp ../public_html/cipv6/scripts/dns6.rrd countydns.rrd
+rrdtool tune countydns.rrd -r dns6:county
+#cp ../public_html/urbanv6/script/dns6.rrd urbandns.rrd
+#rrdtool tune urbandns.rrd -r dns6:urban
+cp ../public_html/ripv6/script/dns6.rrd registrydns.rrd
+rrdtool tune registrydns.rrd -r dns6:registry
+cp ../ipv6/dns6.rrd  consultsdns.rrd
+rrdtool tune consultsdns.rrd -r dns6:consults
+cp ../../special/public_html/mipv6/script/dns6.rrd authoritiesdns.rrd
+rrdtool tune authoritiesdns.rrd -r dns6:authorities
+cp ../../special/public_html/kipv6/script/dns6.rrd municipalitiesdns.rrd
+rrdtool tune municipalitiesdns.rrd -r dns6:municipalities
+
+cp ../public_html/bankv6/scripts/mx6.rrd bankmx.rrd
+rrdtool tune bankmx.rrd -r mx6:bank
+ cp ../public_html/cipv6/scripts/mx6.rrd countymx.rrd
+rrdtool tune countymx.rrd -r mx6:county
+#cp ../public_html/urbanv6/script/mx6.rrd urbanmx.rrd
+#rrdtool tune urbanmx.rrd -r mx6:urban
+cp ../public_html/ripv6/script/mx6.rrd registrymx.rrd
+rrdtool tune registrymx.rrd -r mx6:registry
+cp ../ipv6/mx6.rrd  consultsmx.rrd
+rrdtool tune consultsmx.rrd -r mx6:consults
+cp ../../special/public_html/mipv6/script/mx6.rrd authoritiesmx.rrd
+rrdtool tune authoritiesmx.rrd -r mx6:authorities
+cp ../../special/public_html/kipv6/script/mx6.rrd municipalitiesmx.rrd
+rrdtool tune municipalitiesmx.rrd -r mx6:municipalities
+
+
+#rrdtool graph ipv6.png -w 800  --start end-365days --width 365 --end now --lower-limit 0 --slope-mode --vertical-label "Quad A www's" \
+rrdtool graph ipv6.png -w 800  --start end-365days --width 365 --end now --lower-limit 0 --vertical-label "Quad A www's" \
+ DEF:bank=bank.rrd:bank:LAST LINE1:bank#D0D000:"Banks" \
+ DEF:county=county.rrd:county:LAST LINE2:county#8888FF:"County Council" \
+ DEF:authorities=authorities.rrd:authorities:LAST LINE3:authorities#000F0F:"Authorities" \
+ DEF:registry=registry.rrd:registry:LAST LINE4:registry#00FFFF:"Registrars"  \
+ DEF:municipalities=municipalities.rrd:municipalities:LAST LINE6:municipalities#FFFF00:"Municipalities" \
+ DEF:consults=consults.rrd:consults:LAST LINE7:consults#FF0000:"Consults,registrars etc"
+
+rrdtool graph dns6.png -w 800  --start end-365days --width 365 --end now --lower-limit 0 --slope-mode --vertical-label "Quad A DNS" \
+ DEF:bank=bankdns.rrd:bank:LAST LINE1:bank#D0D000:"Banks" \
+ DEF:county=countydns.rrd:county:LAST LINE2:county#8888FF:"County Council" \
+ DEF:authorities=authoritiesdns.rrd:authorities:LAST LINE3:authorities#000F0F:"Authorities" \
+ DEF:registry=registrydns.rrd:registry:LAST LINE4:registry#00FFFF:"Registrars"  \
+ DEF:municipalities=municipalitiesdns.rrd:municipalities:LAST LINE5:municipalities#FFFF00:"Municipalities" \
+ DEF:consults=consultsdns.rrd:consults:LAST LINE7:consults#FF0000:"Consults,registrars etc"
+
+rrdtool graph mx6.png -w 800 -N --start end-365days --width 365 --end now --lower-limit 0 --slope-mode --vertical-label "Quad A MX" \
+ DEF:bank=bankmx.rrd:bank:LAST LINE1:bank#D0D000:"Banks" \
+ DEF:county=countymx.rrd:county:LAST LINE2:county#8888FF:"County Council" \
+ DEF:authorities=authoritiesmx.rrd:authorities:LAST LINE3:authorities#000F0F:"Authorities" \
+ DEF:registry=registrymx.rrd:registry:LAST LINE4:registry#00FFFF:"Registrars"  \
+ DEF:municipalities=municipalitiesmx.rrd:municipalities:LAST LINE6:municipalities#FFFF00:"Municipalities" \
+ DEF:consults=consultsmx.rrd:consults:LAST LINE7:consults#FF0000:"Consults,registrars etc"
+
+cp -v ipv6.png ../public_html
+cp -v mx6.png ../public_html
+cp -v dns6.png ../public_html
+
+sh ./go62

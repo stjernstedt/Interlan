@@ -1,0 +1,104 @@
+  0.000: mullsjo.se INFO Begin testing zone mullsjo.se with version 1.2.
+  0.000: mullsjo.se INFO Begin testing delegation for mullsjo.se.
+ 13.843: mullsjo.se INFO Name servers listed at parent: dns1.telia.com,mulledns.mullsjo.se
+ 20.005: mullsjo.se INFO Name servers listed at child: dns1.telia.com,dns6.telia.com,mulledns.mullsjo.se
+ 20.005: mullsjo.se NOTICE Additional name server listed at child: dns6.telia.com
+ 20.006: mullsjo.se NOTICE No IPv6 name servers found.
+ 20.069: mullsjo.se INFO Parent glue for mullsjo.se found: mulledns.mullsjo.se (195.198.84.33)
+ 20.108: mullsjo.se INFO Checking glue for mulledns.mullsjo.se (195.198.84.33).
+ 20.126: mullsjo.se INFO Child glue for mullsjo.se found: mulledns.mullsjo.se (195.198.84.33)
+ 20.127: mullsjo.se INFO Parent glue for mullsjo.se found: mulledns.mullsjo.se (195.198.84.33)
+ 20.127: mullsjo.se INFO Done testing delegation for mullsjo.se.
+ 20.128: mullsjo.se INFO Begin testing name server dns1.telia.com.
+ 20.128: mullsjo.se INFO Begin testing host dns1.telia.com.
+ 20.128: mullsjo.se INFO Begin testing address 81.228.11.67.
+ 24.750: mullsjo.se INFO Done testing address 81.228.11.67.
+ 24.750: mullsjo.se INFO Done testing host dns1.telia.com.
+ 24.760: mullsjo.se INFO Name server dns1.telia.com (81.228.11.67) answers queries over UDP.
+ 24.771: mullsjo.se INFO Name server dns1.telia.com (81.228.11.67) answers queries over TCP.
+ 24.780: mullsjo.se INFO Name server dns1.telia.com (81.228.11.67) is not recursive.
+ 24.787: mullsjo.se INFO Name server dns1.telia.com (81.228.11.67) authoritative for mullsjo.se.
+ 24.801: mullsjo.se INFO Name server dns1.telia.com (81.228.11.67) closed for zone transfer of mullsjo.se.
+ 24.810: mullsjo.se INFO Legacy name server ID for dns1.telia.com (81.228.11.67): hostname.bind = dnshosting3-sn1.fre.skanova.net
+ 24.817: mullsjo.se INFO Legacy name server ID for dns1.telia.com (81.228.11.67): version.bind = 9.3.2-P1
+ 24.832: mullsjo.se NOTICE No answer received from 81.228.11.67 when querying for version.server/CH/TXT.
+ 24.832: mullsjo.se INFO Done testing name server dns1.telia.com.
+ 24.832: mullsjo.se INFO Begin testing name server dns6.telia.com.
+ 24.832: mullsjo.se INFO Begin testing host dns6.telia.com.
+ 24.832: mullsjo.se INFO Begin testing address 81.228.10.68.
+ 25.675: mullsjo.se INFO Done testing address 81.228.10.68.
+ 25.675: mullsjo.se INFO Done testing host dns6.telia.com.
+ 25.693: mullsjo.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over UDP.
+ 25.725: mullsjo.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over TCP.
+ 25.741: mullsjo.se INFO Name server dns6.telia.com (81.228.10.68) is not recursive.
+ 25.759: mullsjo.se INFO Name server dns6.telia.com (81.228.10.68) authoritative for mullsjo.se.
+ 25.805: mullsjo.se INFO Name server dns6.telia.com (81.228.10.68) closed for zone transfer of mullsjo.se.
+ 25.823: mullsjo.se INFO Legacy name server ID for dns6.telia.com (81.228.10.68): hostname.bind = dnshosting1-sn4.m-sp.skanova.net
+ 25.841: mullsjo.se INFO Legacy name server ID for dns6.telia.com (81.228.10.68): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 25.874: mullsjo.se NOTICE No answer received from 81.228.10.68 when querying for version.server/CH/TXT.
+ 25.874: mullsjo.se INFO Done testing name server dns6.telia.com.
+ 25.874: mullsjo.se INFO Begin testing name server mulledns.mullsjo.se.
+ 25.874: mullsjo.se INFO Begin testing host mulledns.mullsjo.se.
+ 25.875: mullsjo.se INFO Begin testing address 195.198.84.33.
+ 26.974: mullsjo.se INFO Done testing address 195.198.84.33.
+ 26.974: mullsjo.se INFO Done testing host mulledns.mullsjo.se.
+ 26.992: mullsjo.se INFO Name server mulledns.mullsjo.se (195.198.84.33) answers queries over UDP.
+ 27.042: mullsjo.se INFO Name server mulledns.mullsjo.se (195.198.84.33) answers queries over TCP.
+ 27.058: mullsjo.se INFO Name server mulledns.mullsjo.se (195.198.84.33) is not recursive.
+ 27.076: mullsjo.se INFO Name server mulledns.mullsjo.se (195.198.84.33) authoritative for mullsjo.se.
+ 27.294: mullsjo.se INFO Name server mulledns.mullsjo.se (195.198.84.33) closed for zone transfer of mullsjo.se.
+ 27.312: mullsjo.se NOTICE No answer received from 195.198.84.33 when querying for hostname.bind/CH/TXT.
+ 45.311: mullsjo.se INFO Done testing name server mulledns.mullsjo.se.
+ 45.312: mullsjo.se INFO Begin testing zone consistency for mullsjo.se.
+ 45.333: mullsjo.se INFO SOA at address 195.198.84.33 has serial 2008081650.
+ 45.341: mullsjo.se INFO SOA at address 81.228.11.67 has serial 2008081650.
+ 45.358: mullsjo.se INFO SOA at address 81.228.10.68 has serial 2008081650.
+ 45.358: mullsjo.se INFO All SOA records have consistent serial numbers.
+ 45.358: mullsjo.se INFO All SOA records are consistent among all name servers.
+ 45.359: mullsjo.se INFO Done testing zone consistency for mullsjo.se.
+ 45.359: mullsjo.se INFO Begin testing SOA parameters for mullsjo.se.
+ 45.376: mullsjo.se INFO Found SOA record for mullsjo.se.
+ 45.377: mullsjo.se INFO Begin testing host mulledns.mullsjo.se.
+ 45.377: mullsjo.se INFO Begin testing address 195.198.84.33.
+ 45.379: mullsjo.se INFO Done testing address 195.198.84.33.
+ 45.379: mullsjo.se INFO Done testing host mulledns.mullsjo.se.
+ 45.379: mullsjo.se INFO SOA MNAME for mullsjo.se valid (mulledns.mullsjo.se).
+ 45.379: mullsjo.se INFO SOA MNAME for mullsjo.se (mulledns.mullsjo.se) listed as NS.
+ 45.397: mullsjo.se INFO SOA MNAME for mullsjo.se (mulledns.mullsjo.se) is authoritative.
+ 45.397: mullsjo.se INFO Begin testing email address hostmaster@mullsjo.se.
+ 45.611: mullsjo.se INFO Mail exchangers for hostmaster@mullsjo.se found smtp.mullsjo.se.
+ 45.611: mullsjo.se INFO All mail servers for hostmaster@mullsjo.se are in zone mullsjo.se.
+ 45.611: mullsjo.se INFO Begin testing host smtp.mullsjo.se.
+ 46.039: mullsjo.se INFO Begin testing address 195.198.84.37.
+ 46.291: mullsjo.se INFO Done testing address 195.198.84.37.
+ 46.291: mullsjo.se INFO Done testing host smtp.mullsjo.se.
+ 46.292: mullsjo.se INFO Begin testing mail server smtp.mullsjo.se (195.198.84.37) with hostmaster@mullsjo.se.
+ 46.632: mullsjo.se INFO SMTP banner: *************************************************
+ 46.694: mullsjo.se INFO SMTP testing of smtp.mullsjo.se (195.198.84.37) with hostmaster@mullsjo.se succeeded without errors.
+ 46.694: mullsjo.se INFO Done testing mail server smtp.mullsjo.se (195.198.84.37) with hostmaster@mullsjo.se.
+ 46.694: mullsjo.se INFO Delivery over IPv4 to hostmaster@mullsjo.se ok.
+ 46.694: mullsjo.se INFO Delivery over IPv6 to hostmaster@mullsjo.se could not be done.
+ 46.695: mullsjo.se INFO Done testing email address hostmaster@mullsjo.se.
+ 46.695: mullsjo.se INFO Successful attempt to deliver email for SOA RNAME of mullsjo.se (hostmaster.mullsjo.se) using hostmaster@mullsjo.se.
+ 46.695: mullsjo.se INFO SOA TTL for mullsjo.se OK (3600) - recommended >= 3600.
+ 46.695: mullsjo.se INFO SOA refresh for mullsjo.se OK (43200) - recommended >= 14400.
+ 46.695: mullsjo.se NOTICE SOA retry for mullsjo.se too small (600) - recommended >= 3600.
+ 46.695: mullsjo.se INFO SOA expire for mullsjo.se OK (1814400) - recommended >= 604800.
+ 46.695: mullsjo.se INFO SOA minimum for mullsjo.se OK (3600) - recommended between 300 and 86400.
+ 46.695: mullsjo.se INFO Done testing SOA parameters for mullsjo.se.
+ 46.695: mullsjo.se INFO Begin testing connectivity for mullsjo.se.
+ 47.368: mullsjo.se INFO Name server 195.198.84.33 announced by: 3301
+ 47.965: mullsjo.se INFO Name server 81.228.11.67 announced by: 3301
+ 48.637: mullsjo.se INFO Name server 81.228.10.68 announced by: 3301
+ 48.638: mullsjo.se INFO Zone announced by IPv4 ASN: 3301
+ 48.638: mullsjo.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 48.638: mullsjo.se INFO Zone announced by IPv6 ASN: 
+ 48.638: mullsjo.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 48.638: mullsjo.se INFO Done testing connectivity for mullsjo.se.
+ 48.638: mullsjo.se INFO Begin testing DNSSEC for mullsjo.se.
+ 48.749: mullsjo.se INFO Did not find DS record for mullsjo.se at parent.
+ 48.827: mullsjo.se INFO Servers for mullsjo.se have consistent extra processing status.
+ 48.827: mullsjo.se INFO Did not find DNSKEY record for mullsjo.se at child.
+ 48.827: mullsjo.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 48.827: mullsjo.se INFO Done testing DNSSEC for mullsjo.se.
+ 48.827: mullsjo.se INFO Test completed for zone mullsjo.se.

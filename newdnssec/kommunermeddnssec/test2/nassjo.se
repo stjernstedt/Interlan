@@ -1,0 +1,84 @@
+  0.000: nassjo.se INFO Begin testing zone nassjo.se with version 1.2.
+  0.000: nassjo.se INFO Begin testing delegation for nassjo.se.
+ 21.304: nassjo.se INFO Name servers listed at parent: ns1.navab.net,ns2.navab.net
+ 22.886: nassjo.se INFO Name servers listed at child: ns1.navab.net,ns2.navab.net
+ 22.887: nassjo.se NOTICE No IPv6 name servers found.
+ 23.109: nassjo.se INFO Done testing delegation for nassjo.se.
+ 23.110: nassjo.se INFO Begin testing name server ns1.navab.net.
+ 23.110: nassjo.se INFO Begin testing host ns1.navab.net.
+ 23.110: nassjo.se INFO Begin testing address 80.84.32.12.
+ 26.751: nassjo.se INFO Done testing address 80.84.32.12.
+ 26.751: nassjo.se INFO Done testing host ns1.navab.net.
+ 26.766: nassjo.se INFO Name server ns1.navab.net (80.84.32.12) answers queries over UDP.
+ 29.788: nassjo.se INFO Name server ns1.navab.net (80.84.32.12) answers queries over TCP.
+ 29.988: nassjo.se WARNING Name server ns1.navab.net (80.84.32.12) is recursive.
+ 30.003: nassjo.se INFO Name server ns1.navab.net (80.84.32.12) authoritative for nassjo.se.
+ 30.169: nassjo.se NOTICE Name server ns1.navab.net (80.84.32.12) open for zone transfer of nassjo.se.
+ 30.185: nassjo.se INFO Legacy name server ID for ns1.navab.net (80.84.32.12): hostname.bind = ns1.navab.net
+ 30.198: nassjo.se INFO Legacy name server ID for ns1.navab.net (80.84.32.12): version.bind = 9.2.patched
+ 30.224: nassjo.se NOTICE No answer received from 80.84.32.12 when querying for version.server/CH/TXT.
+ 30.224: nassjo.se INFO Done testing name server ns1.navab.net.
+ 30.224: nassjo.se INFO Begin testing name server ns2.navab.net.
+ 30.225: nassjo.se INFO Begin testing host ns2.navab.net.
+ 30.225: nassjo.se INFO Begin testing address 80.84.32.10.
+ 30.463: nassjo.se INFO Done testing address 80.84.32.10.
+ 30.463: nassjo.se INFO Done testing host ns2.navab.net.
+ 30.477: nassjo.se INFO Name server ns2.navab.net (80.84.32.10) answers queries over UDP.
+ 30.501: nassjo.se INFO Name server ns2.navab.net (80.84.32.10) answers queries over TCP.
+ 30.543: nassjo.se WARNING Name server ns2.navab.net (80.84.32.10) is recursive.
+ 30.558: nassjo.se INFO Name server ns2.navab.net (80.84.32.10) authoritative for nassjo.se.
+ 30.711: nassjo.se NOTICE Name server ns2.navab.net (80.84.32.10) open for zone transfer of nassjo.se.
+ 30.724: nassjo.se INFO Legacy name server ID for ns2.navab.net (80.84.32.10): hostname.bind = ns2.navab.net
+ 30.738: nassjo.se INFO Legacy name server ID for ns2.navab.net (80.84.32.10): version.bind = 9.2.patched
+ 30.763: nassjo.se NOTICE No answer received from 80.84.32.10 when querying for version.server/CH/TXT.
+ 30.763: nassjo.se INFO Done testing name server ns2.navab.net.
+ 30.763: nassjo.se INFO Begin testing zone consistency for nassjo.se.
+ 30.781: nassjo.se INFO SOA at address 80.84.32.10 has serial 2009042054.
+ 30.795: nassjo.se INFO SOA at address 80.84.32.12 has serial 2009042054.
+ 30.795: nassjo.se INFO All SOA records have consistent serial numbers.
+ 30.795: nassjo.se INFO All SOA records are consistent among all name servers.
+ 30.796: nassjo.se INFO Done testing zone consistency for nassjo.se.
+ 30.796: nassjo.se INFO Begin testing SOA parameters for nassjo.se.
+ 30.811: nassjo.se INFO Found SOA record for nassjo.se.
+ 30.811: nassjo.se INFO Begin testing host ns1.navab.net.
+ 30.812: nassjo.se INFO Begin testing address 80.84.32.12.
+ 30.813: nassjo.se INFO Done testing address 80.84.32.12.
+ 30.813: nassjo.se INFO Done testing host ns1.navab.net.
+ 30.813: nassjo.se INFO SOA MNAME for nassjo.se valid (ns1.navab.net).
+ 30.814: nassjo.se INFO SOA MNAME for nassjo.se (ns1.navab.net) listed as NS.
+ 30.829: nassjo.se INFO SOA MNAME for nassjo.se (ns1.navab.net) is authoritative.
+ 30.829: nassjo.se INFO Begin testing email address dnsadmin@navab.net.
+ 31.341: nassjo.se INFO Mail exchangers for dnsadmin@navab.net found mail1.navab.net.
+ 31.342: nassjo.se INFO Begin testing host mail1.navab.net.
+ 32.106: nassjo.se INFO Begin testing address 80.84.32.6.
+ 32.343: nassjo.se INFO Done testing address 80.84.32.6.
+ 32.343: nassjo.se INFO Done testing host mail1.navab.net.
+ 32.344: nassjo.se INFO Begin testing mail server mail1.navab.net (80.84.32.6) with dnsadmin@navab.net.
+ 32.516: nassjo.se INFO SMTP banner: mail1.navab.net ESMTP Postfix
+ 32.561: nassjo.se INFO SMTP testing of mail1.navab.net (80.84.32.6) with dnsadmin@navab.net succeeded without errors.
+ 32.561: nassjo.se INFO Done testing mail server mail1.navab.net (80.84.32.6) with dnsadmin@navab.net.
+ 32.561: nassjo.se INFO Delivery over IPv4 to dnsadmin@navab.net ok.
+ 32.561: nassjo.se INFO Delivery over IPv6 to dnsadmin@navab.net could not be done.
+ 32.561: nassjo.se INFO Done testing email address dnsadmin@navab.net.
+ 32.561: nassjo.se INFO Successful attempt to deliver email for SOA RNAME of nassjo.se (dnsadmin.navab.net) using dnsadmin@navab.net.
+ 32.562: nassjo.se INFO SOA TTL for nassjo.se OK (86400) - recommended >= 3600.
+ 32.562: nassjo.se INFO SOA refresh for nassjo.se OK (21600) - recommended >= 14400.
+ 32.562: nassjo.se INFO SOA retry for nassjo.se OK (3600) - recommended >= 3600.
+ 32.562: nassjo.se INFO SOA expire for nassjo.se OK (1209600) - recommended >= 604800.
+ 32.562: nassjo.se INFO SOA minimum for nassjo.se OK (86400) - recommended between 300 and 86400.
+ 32.562: nassjo.se INFO Done testing SOA parameters for nassjo.se.
+ 32.562: nassjo.se INFO Begin testing connectivity for nassjo.se.
+ 33.106: nassjo.se INFO Name server 80.84.32.12 announced by: 28854
+ 33.781: nassjo.se INFO Name server 80.84.32.10 announced by: 28854
+ 33.781: nassjo.se INFO Zone announced by IPv4 ASN: 28854
+ 33.781: nassjo.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 33.781: nassjo.se INFO Zone announced by IPv6 ASN: 
+ 33.782: nassjo.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 33.782: nassjo.se INFO Done testing connectivity for nassjo.se.
+ 33.782: nassjo.se INFO Begin testing DNSSEC for nassjo.se.
+ 33.815: nassjo.se INFO Did not find DS record for nassjo.se at parent.
+ 33.862: nassjo.se INFO Servers for nassjo.se have consistent extra processing status.
+ 33.862: nassjo.se INFO Did not find DNSKEY record for nassjo.se at child.
+ 33.862: nassjo.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 33.862: nassjo.se INFO Done testing DNSSEC for nassjo.se.
+ 33.862: nassjo.se INFO Test completed for zone nassjo.se.

@@ -1,0 +1,91 @@
+  0.000: laihia.fi INFO Begin testing zone laihia.fi with version 1.6.1.
+  0.406: laihia.fi INFO Begin testing delegation for laihia.fi.
+  8.137: laihia.fi INFO Name servers listed at parent: ns1.zoner.fi,ns2.zoner.fi
+  9.960: laihia.fi INFO Name servers listed at child: ns1.zoner.fi,ns2.zoner.fi
+  9.961: laihia.fi NOTICE No IPv6 name servers found.
+ 10.003: laihia.fi INFO Parent glue for laihia.fi found: ns1.zoner.fi (84.34.166.22)
+ 10.097: laihia.fi INFO Parent glue for laihia.fi found: ns2.zoner.fi (84.34.147.22)
+ 10.157: laihia.fi INFO Checking glue for ns1.zoner.fi (84.34.166.22).
+ 10.157: laihia.fi INFO Checking glue for ns2.zoner.fi (84.34.147.22).
+ 10.157: laihia.fi INFO Parent glue for laihia.fi found: ns1.zoner.fi (84.34.166.22)
+ 10.158: laihia.fi INFO Parent glue for laihia.fi found: ns2.zoner.fi (84.34.147.22)
+ 11.007: laihia.fi INFO It is possible to build a referral packet for laihia.fi that works without EDNS0.
+ 11.759: laihia.fi INFO Previously used name servers for laihia.fi: 
+ 11.759: laihia.fi INFO Done testing delegation for laihia.fi.
+ 11.759: laihia.fi INFO Begin testing name server ns1.zoner.fi.
+ 11.759: laihia.fi INFO Begin testing host ns1.zoner.fi.
+ 12.043: laihia.fi INFO Begin testing address 84.34.166.22.
+ 17.706: laihia.fi INFO Done testing address 84.34.166.22.
+ 17.707: laihia.fi INFO Done testing host ns1.zoner.fi.
+ 17.823: laihia.fi INFO Name server ns1.zoner.fi (84.34.166.22) answers queries over UDP.
+ 19.834: laihia.fi NOTICE DNS lookup error (connection failed).
+ 19.835: laihia.fi ERROR Name server ns1.zoner.fi (84.34.166.22) does not answer queries over TCP.
+ 19.854: laihia.fi INFO Name server ns1.zoner.fi (84.34.166.22) is not recursive.
+ 21.918: laihia.fi NOTICE DNS lookup error (connection failed).
+ 21.918: laihia.fi INFO Name server ns1.zoner.fi (84.34.166.22) authoritative for laihia.fi.
+ 21.918: laihia.fi INFO Name server ns1.zoner.fi (84.34.166.22) not checked for zone transfer of laihia.fi.
+ 21.918: laihia.fi INFO Name server ns1.zoner.fi (84.34.166.22) not checked for legacy name server ID.
+ 21.919: laihia.fi INFO Done testing name server ns1.zoner.fi.
+ 21.919: laihia.fi INFO Begin testing name server ns2.zoner.fi.
+ 21.919: laihia.fi INFO Begin testing host ns2.zoner.fi.
+ 21.996: laihia.fi INFO Begin testing address 84.34.147.22.
+ 22.645: laihia.fi INFO Done testing address 84.34.147.22.
+ 22.645: laihia.fi INFO Done testing host ns2.zoner.fi.
+ 22.828: laihia.fi INFO Name server ns2.zoner.fi (84.34.147.22) answers queries over UDP.
+ 24.838: laihia.fi NOTICE DNS lookup error (connection failed).
+ 24.838: laihia.fi ERROR Name server ns2.zoner.fi (84.34.147.22) does not answer queries over TCP.
+ 24.874: laihia.fi INFO Name server ns2.zoner.fi (84.34.147.22) is not recursive.
+ 26.986: laihia.fi NOTICE DNS lookup error (connection failed).
+ 26.986: laihia.fi INFO Name server ns2.zoner.fi (84.34.147.22) authoritative for laihia.fi.
+ 26.986: laihia.fi INFO Name server ns2.zoner.fi (84.34.147.22) not checked for zone transfer of laihia.fi.
+ 26.986: laihia.fi INFO Name server ns2.zoner.fi (84.34.147.22) not checked for legacy name server ID.
+ 26.987: laihia.fi INFO Done testing name server ns2.zoner.fi.
+ 26.987: laihia.fi INFO Begin testing zone consistency for laihia.fi.
+ 27.785: laihia.fi INFO SOA at address 84.34.166.22 has serial 2013121805.
+ 27.835: laihia.fi INFO SOA at address 84.34.147.22 has serial 2013121805.
+ 27.835: laihia.fi INFO All SOA records have consistent serial numbers.
+ 27.835: laihia.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 28.149: laihia.fi NOTICE The listed nameservers for laihia.fi all report the same set of nameservers.
+ 28.149: laihia.fi INFO Done testing zone consistency for laihia.fi.
+ 28.149: laihia.fi INFO Begin testing SOA parameters for laihia.fi.
+ 28.179: laihia.fi INFO Found SOA record for laihia.fi.
+ 28.179: laihia.fi INFO Begin testing host ns1.zoner.fi.
+ 28.342: laihia.fi INFO Begin testing address 84.34.166.22.
+ 28.543: laihia.fi INFO Done testing address 84.34.166.22.
+ 28.543: laihia.fi INFO Done testing host ns1.zoner.fi.
+ 28.543: laihia.fi INFO SOA MNAME for laihia.fi valid (ns1.zoner.fi).
+ 28.543: laihia.fi INFO SOA MNAME for laihia.fi (ns1.zoner.fi) listed as NS.
+ 28.729: laihia.fi INFO SOA MNAME for laihia.fi (ns1.zoner.fi) is authoritative.
+ 28.730: laihia.fi INFO Begin testing email address hostmaster@laihia.fi.
+ 28.935: laihia.fi INFO Mail exchangers for hostmaster@laihia.fi found mbox1.netikka.net,mbox2.netikka.net.
+ 28.935: laihia.fi INFO Begin testing host mbox1.netikka.net.
+ 29.823: laihia.fi INFO Begin testing address 213.250.81.202.
+ 30.360: laihia.fi INFO Done testing address 213.250.81.202.
+ 30.360: laihia.fi INFO Done testing host mbox1.netikka.net.
+ 30.590: laihia.fi INFO Begin testing host mbox2.netikka.net.
+ 31.076: laihia.fi INFO Begin testing address 213.250.81.203.
+ 31.772: laihia.fi INFO Done testing address 213.250.81.203.
+ 31.772: laihia.fi INFO Done testing host mbox2.netikka.net.
+ 31.998: laihia.fi INFO Done testing email address hostmaster@laihia.fi.
+ 31.998: laihia.fi INFO Successful attempt to deliver email for SOA RNAME of laihia.fi (hostmaster.laihia.fi) using hostmaster@laihia.fi.
+ 31.998: laihia.fi INFO SOA TTL for laihia.fi OK (14400) - recommended >= 3600.
+ 31.999: laihia.fi INFO SOA refresh for laihia.fi OK (14400) - recommended >= 14400.
+ 31.999: laihia.fi INFO SOA retry for laihia.fi OK (3600) - recommended >= 3600.
+ 31.999: laihia.fi INFO SOA expire for laihia.fi OK (1209600) - recommended >= 604800.
+ 31.999: laihia.fi INFO SOA minimum for laihia.fi OK (86400) - recommended between 300 and 86400.
+ 31.999: laihia.fi INFO Done testing SOA parameters for laihia.fi.
+ 31.999: laihia.fi INFO Begin testing connectivity for laihia.fi.
+ 33.207: laihia.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 33.207: laihia.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 33.207: laihia.fi INFO Done testing connectivity for laihia.fi.
+ 33.207: laihia.fi INFO Begin testing DNSSEC for laihia.fi.
+ 33.296: laihia.fi INFO Did not find DS record for laihia.fi at parent.
+ 35.330: laihia.fi NOTICE DNS lookup error (connection failed).
+ 37.342: laihia.fi NOTICE DNS lookup error (connection failed).
+ 37.342: laihia.fi INFO Servers for laihia.fi have consistent extra processing status.
+ 41.366: laihia.fi NOTICE DNS lookup error (connection failed).
+ 41.366: laihia.fi INFO Authenticated denial records not found for laihia.fi.
+ 41.387: laihia.fi INFO Did not find DNSKEY record for laihia.fi at child.
+ 41.387: laihia.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 41.387: laihia.fi INFO Done testing DNSSEC for laihia.fi.
+ 41.388: laihia.fi INFO Test completed for zone laihia.fi.

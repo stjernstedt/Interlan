@@ -1,0 +1,99 @@
+  0.061: imega.se INFO Begin testing zone imega.se with version 1.2.1.
+  0.061: imega.se INFO Begin testing delegation for imega.se.
+  6.522: imega.se INFO Name servers listed at parent: ns.imegasystem.se,ns2.imegasystem.se
+  7.797: imega.se INFO Name servers listed at child: dns.gellivare.se,dns2.gellivare.se
+  7.797: imega.se ERROR Superfluous name server listed at parent: ns.imegasystem.se
+  7.797: imega.se ERROR Superfluous name server listed at parent: ns2.imegasystem.se
+  7.798: imega.se ERROR Total parent/child glue mismatch.
+  7.798: imega.se NOTICE Additional name server listed at child: dns.gellivare.se
+  7.798: imega.se NOTICE Additional name server listed at child: dns2.gellivare.se
+  7.798: imega.se NOTICE No IPv6 name servers found.
+  7.843: imega.se INFO Done testing delegation for imega.se.
+  7.843: imega.se INFO Begin testing name server dns.gellivare.se.
+  7.843: imega.se INFO Begin testing host dns.gellivare.se.
+  7.844: imega.se INFO Begin testing address 194.117.184.237.
+  8.369: imega.se INFO Done testing address 194.117.184.237.
+  8.369: imega.se INFO Done testing host dns.gellivare.se.
+  8.396: imega.se INFO Name server dns.gellivare.se (194.117.184.237) answers queries over UDP.
+  8.467: imega.se INFO Name server dns.gellivare.se (194.117.184.237) answers queries over TCP.
+  8.498: imega.se INFO Name server dns.gellivare.se (194.117.184.237) is not recursive.
+  8.523: imega.se INFO Name server dns.gellivare.se (194.117.184.237) authoritative for imega.se.
+  8.622: imega.se NOTICE Name server dns.gellivare.se (194.117.184.237) open for zone transfer of imega.se.
+  8.677: imega.se INFO Legacy name server ID for dns.gellivare.se (194.117.184.237): version.bind = Served by POWERDNS 2.9.22 $Id: packethandler.cc 1321 2008-12-06 19:44:36Z ahu $
+  8.731: imega.se INFO Done testing name server dns.gellivare.se.
+  8.731: imega.se INFO Begin testing name server dns2.gellivare.se.
+  8.731: imega.se INFO Begin testing host dns2.gellivare.se.
+  8.732: imega.se INFO Begin testing address 194.117.184.236.
+ 17.019: imega.se INFO Done testing address 194.117.184.236.
+ 17.019: imega.se INFO Done testing host dns2.gellivare.se.
+ 17.043: imega.se INFO Name server dns2.gellivare.se (194.117.184.236) answers queries over UDP.
+ 17.106: imega.se INFO Name server dns2.gellivare.se (194.117.184.236) answers queries over TCP.
+ 17.132: imega.se INFO Name server dns2.gellivare.se (194.117.184.236) is not recursive.
+ 17.155: imega.se INFO Name server dns2.gellivare.se (194.117.184.236) authoritative for imega.se.
+ 17.247: imega.se NOTICE Name server dns2.gellivare.se (194.117.184.236) open for zone transfer of imega.se.
+ 17.295: imega.se INFO Legacy name server ID for dns2.gellivare.se (194.117.184.236): version.bind = Served by POWERDNS 2.9.22 $Id: packethandler.cc 1321 2008-12-06 19:44:36Z ahu $
+ 17.345: imega.se INFO Done testing name server dns2.gellivare.se.
+ 17.345: imega.se INFO Begin testing zone consistency for imega.se.
+ 18.423: imega.se INFO SOA at address 194.117.184.236 has serial 2011050901.
+ 18.451: imega.se INFO SOA at address 195.196.139.16 has serial 2011050901.
+ 18.477: imega.se INFO SOA at address 194.117.184.237 has serial 2011050901.
+ 18.502: imega.se INFO SOA at address 195.196.139.17 has serial 2011050901.
+ 18.502: imega.se INFO All SOA records have consistent serial numbers.
+ 18.502: imega.se INFO All SOA records are consistent among all name servers.
+ 18.502: imega.se INFO Done testing zone consistency for imega.se.
+ 18.502: imega.se INFO Begin testing SOA parameters for imega.se.
+ 18.525: imega.se INFO Found SOA record for imega.se.
+ 18.525: imega.se INFO Begin testing host dns.gellivare.se.
+ 18.526: imega.se INFO Begin testing address 194.117.184.237.
+ 18.527: imega.se INFO Done testing address 194.117.184.237.
+ 18.527: imega.se INFO Done testing host dns.gellivare.se.
+ 18.527: imega.se INFO SOA MNAME for imega.se valid (dns.gellivare.se).
+ 18.527: imega.se INFO SOA MNAME for imega.se (dns.gellivare.se) listed as NS.
+ 18.552: imega.se INFO SOA MNAME for imega.se (dns.gellivare.se) is authoritative.
+ 18.552: imega.se INFO Begin testing email address hostmaster@imega.se.
+ 18.821: imega.se INFO Mail exchangers for hostmaster@imega.se found mx101.emailfiltering.com,mx102.emailfiltering.com,mx103.emailfiltering.com,mx104.emailfiltering.com.
+ 18.821: imega.se INFO Begin testing host mx101.emailfiltering.com.
+ 19.898: imega.se INFO Begin testing address 194.116.198.79.
+ 22.007: imega.se INFO Done testing address 194.116.198.79.
+ 22.007: imega.se INFO Done testing host mx101.emailfiltering.com.
+ 22.007: imega.se INFO Begin testing mail server mx101.emailfiltering.com (194.116.198.79) with hostmaster@imega.se.
+ 22.729: imega.se INFO SMTP banner: thb-mta-10.emailfiltering.com emfmtad 54
+ 22.968: imega.se INFO SMTP testing of mx101.emailfiltering.com (194.116.198.79) with hostmaster@imega.se succeeded without errors.
+ 22.968: imega.se INFO Done testing mail server mx101.emailfiltering.com (194.116.198.79) with hostmaster@imega.se.
+ 22.969: imega.se INFO Begin testing host mx102.emailfiltering.com.
+ 24.030: imega.se INFO Begin testing address 194.116.199.79.
+ 25.822: imega.se INFO Done testing address 194.116.199.79.
+ 25.822: imega.se INFO Done testing host mx102.emailfiltering.com.
+ 25.823: imega.se INFO Begin testing host mx103.emailfiltering.com.
+ 26.913: imega.se INFO Begin testing address 79.125.114.62.
+ 29.121: imega.se INFO Done testing address 79.125.114.62.
+ 29.121: imega.se INFO Done testing host mx103.emailfiltering.com.
+ 29.122: imega.se INFO Begin testing host mx104.emailfiltering.com.
+ 34.215: imega.se INFO Begin testing address 79.125.114.62.
+ 34.219: imega.se INFO Done testing address 79.125.114.62.
+ 34.219: imega.se INFO Done testing host mx104.emailfiltering.com.
+ 34.219: imega.se INFO Delivery over IPv4 to hostmaster@imega.se ok.
+ 34.219: imega.se INFO Delivery over IPv6 to hostmaster@imega.se could not be done.
+ 34.219: imega.se INFO Done testing email address hostmaster@imega.se.
+ 34.219: imega.se INFO Successful attempt to deliver email for SOA RNAME of imega.se (hostmaster.imega.se) using hostmaster@imega.se.
+ 34.220: imega.se INFO SOA TTL for imega.se OK (86400) - recommended >= 3600.
+ 34.220: imega.se NOTICE SOA refresh for imega.se too small (3600) - recommended >= 14400.
+ 34.220: imega.se NOTICE SOA retry for imega.se too small (900) - recommended >= 3600.
+ 34.220: imega.se INFO SOA expire for imega.se OK (1209600) - recommended >= 604800.
+ 34.220: imega.se INFO SOA minimum for imega.se OK (86400) - recommended between 300 and 86400.
+ 34.220: imega.se INFO Done testing SOA parameters for imega.se.
+ 34.220: imega.se INFO Begin testing connectivity for imega.se.
+ 34.841: imega.se INFO Name server 194.117.184.236 announced by: 3301
+ 35.626: imega.se INFO Name server 194.117.184.237 announced by: 3301
+ 35.626: imega.se INFO Zone announced by IPv4 ASN: 3301
+ 35.626: imega.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 35.626: imega.se INFO Zone announced by IPv6 ASN: 
+ 35.626: imega.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 35.626: imega.se INFO Done testing connectivity for imega.se.
+ 35.626: imega.se INFO Begin testing DNSSEC for imega.se.
+ 35.674: imega.se INFO Did not find DS record for imega.se at parent.
+ 35.816: imega.se INFO Servers for imega.se have consistent extra processing status.
+ 35.816: imega.se INFO Did not find DNSKEY record for imega.se at child.
+ 35.816: imega.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 35.816: imega.se INFO Done testing DNSSEC for imega.se.
+ 35.816: imega.se INFO Test completed for zone imega.se.

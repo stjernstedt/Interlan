@@ -1,0 +1,25 @@
+nstotalchild=0
+nstotalparent=0
+domain=0
+for i in `ls *.se` ; do
+	if [  "`cat $i|grep ERROR`"   ] ; then
+		
+
+		domain=`echo $domain +1 | bc`
+		echo "--- $i ---"
+		nschild=`dig +short ns $i | wc -l      `
+		echo ns at child=$nschild
+		nstotalchild=` echo $nstotalchild + $nschild | bc `
+
+		nsparent=`dig  ns $i @a.ns.se | grep "IN	NS" | grep -v ";" | wc -l	`
+		nstotalparent=`echo $nstotalparent + $nsparent |  bc `
+		echo ns at parent=$nsparent
+	fi
+done
+
+echo
+echo
+
+echo domains=$domain
+echo total child=$nstotalchild
+echo total parent=$nstotalparent

@@ -1,0 +1,77 @@
+  0.000: huddinge.se INFO Begin testing zone huddinge.se with version 1.6.1.
+  0.755: huddinge.se INFO Begin testing delegation for huddinge.se.
+ 39.827: huddinge.se INFO Name servers listed at parent: dns3.telia.com,dns4.telia.com
+ 45.016: huddinge.se INFO Name servers listed at child: dns3.telia.com,dns4.telia.com
+ 45.017: huddinge.se NOTICE No IPv6 name servers found.
+ 48.207: huddinge.se INFO It is possible to build a referral packet for huddinge.se that works without EDNS0.
+ 50.262: huddinge.se INFO Previously used name servers for huddinge.se: 
+ 50.263: huddinge.se INFO Done testing delegation for huddinge.se.
+ 50.263: huddinge.se INFO Begin testing name server dns3.telia.com.
+ 50.263: huddinge.se INFO Begin testing host dns3.telia.com.
+ 51.861: huddinge.se INFO Begin testing address 81.228.11.184.
+ 71.286: huddinge.se INFO Done testing address 81.228.11.184.
+ 71.302: huddinge.se INFO Done testing host dns3.telia.com.
+ 72.436: huddinge.se INFO Name server dns3.telia.com (81.228.11.184) answers queries over UDP.
+ 72.583: huddinge.se INFO Name server dns3.telia.com (81.228.11.184) answers queries over TCP.
+ 72.623: huddinge.se INFO Name server dns3.telia.com (81.228.11.184) is not recursive.
+ 72.822: huddinge.se INFO Name server dns3.telia.com (81.228.11.184) authoritative for huddinge.se.
+ 72.850: huddinge.se INFO Name server dns3.telia.com (81.228.11.184) closed for zone transfer of huddinge.se.
+ 72.944: huddinge.se INFO Legacy name server ID for dns3.telia.com (81.228.11.184): version.bind = Served by POWERDNS 3.1 $Id: packethandler.cc 2579 2012-04-26 11:28:04Z peter $
+ 73.165: huddinge.se INFO Done testing name server dns3.telia.com.
+ 73.165: huddinge.se INFO Begin testing name server dns4.telia.com.
+ 73.165: huddinge.se INFO Begin testing host dns4.telia.com.
+ 73.824: huddinge.se INFO Begin testing address 81.228.9.98.
+ 77.412: huddinge.se INFO Done testing address 81.228.9.98.
+ 77.412: huddinge.se INFO Done testing host dns4.telia.com.
+ 77.858: huddinge.se INFO Name server dns4.telia.com (81.228.9.98) answers queries over UDP.
+ 78.073: huddinge.se INFO Name server dns4.telia.com (81.228.9.98) answers queries over TCP.
+ 78.275: huddinge.se INFO Name server dns4.telia.com (81.228.9.98) is not recursive.
+ 78.535: huddinge.se INFO Name server dns4.telia.com (81.228.9.98) authoritative for huddinge.se.
+ 78.657: huddinge.se INFO Name server dns4.telia.com (81.228.9.98) closed for zone transfer of huddinge.se.
+ 78.761: huddinge.se INFO Legacy name server ID for dns4.telia.com (81.228.9.98): version.bind = Served by POWERDNS 3.1 $Id: packethandler.cc 2579 2012-04-26 11:28:04Z peter $
+ 78.847: huddinge.se INFO Done testing name server dns4.telia.com.
+ 78.848: huddinge.se INFO Begin testing zone consistency for huddinge.se.
+ 83.498: huddinge.se INFO SOA at address 81.228.9.98 has serial 1393516525.
+ 83.553: huddinge.se INFO SOA at address 81.228.11.184 has serial 1393516525.
+ 83.553: huddinge.se INFO All SOA records have consistent serial numbers.
+ 83.553: huddinge.se INFO All other fields in the SOA record are consistent among all name servers.
+ 84.987: huddinge.se NOTICE The listed nameservers for huddinge.se all report the same set of nameservers.
+ 84.987: huddinge.se INFO Done testing zone consistency for huddinge.se.
+ 84.987: huddinge.se INFO Begin testing SOA parameters for huddinge.se.
+ 85.116: huddinge.se INFO Found SOA record for huddinge.se.
+ 85.116: huddinge.se INFO Begin testing host dns9.telia.com.
+ 87.112: huddinge.se INFO Begin testing address 81.228.11.184.
+ 88.839: huddinge.se INFO Done testing address 81.228.11.184.
+ 88.839: huddinge.se INFO Begin testing address 2001:2040:c001:104:0:0:0:5.
+ 92.239: huddinge.se INFO Done testing address 2001:2040:c001:104:0:0:0:5.
+ 92.239: huddinge.se INFO Done testing host dns9.telia.com.
+ 92.239: huddinge.se INFO SOA MNAME for huddinge.se valid (dns9.telia.com).
+ 92.239: huddinge.se NOTICE SOA MNAME for huddinge.se (dns9.telia.com) not listed as NS.
+ 92.740: huddinge.se INFO SOA MNAME for huddinge.se (dns9.telia.com) is authoritative.
+ 92.843: huddinge.se INFO SOA MNAME for huddinge.se (dns9.telia.com) is authoritative.
+ 92.844: huddinge.se INFO Begin testing email address backbone@telia.net.
+ 93.926: huddinge.se INFO Mail exchangers for backbone@telia.net found mail.telia.net.
+ 93.926: huddinge.se INFO Begin testing host mail.telia.net.
+ 97.793: huddinge.se INFO Begin testing address 194.237.170.102.
+ 99.287: huddinge.se INFO Done testing address 194.237.170.102.
+ 99.287: huddinge.se INFO Done testing host mail.telia.net.
+ 99.696: huddinge.se INFO Done testing email address backbone@telia.net.
+ 99.696: huddinge.se INFO Successful attempt to deliver email for SOA RNAME of huddinge.se (backbone.telia.net) using backbone@telia.net.
+ 99.696: huddinge.se INFO SOA TTL for huddinge.se OK (3600) - recommended >= 3600.
+ 99.696: huddinge.se INFO SOA refresh for huddinge.se OK (21600) - recommended >= 14400.
+ 99.696: huddinge.se INFO SOA retry for huddinge.se OK (7200) - recommended >= 3600.
+ 99.696: huddinge.se INFO SOA expire for huddinge.se OK (604800) - recommended >= 604800.
+ 99.696: huddinge.se INFO SOA minimum for huddinge.se OK (3600) - recommended between 300 and 86400.
+ 99.696: huddinge.se INFO Done testing SOA parameters for huddinge.se.
+ 99.696: huddinge.se INFO Begin testing connectivity for huddinge.se.
+103.032: huddinge.se NOTICE Zone announced by fewer than two IPv4 ASN.
+103.032: huddinge.se NOTICE Zone announced by fewer than two IPv6 ASN.
+103.032: huddinge.se INFO Done testing connectivity for huddinge.se.
+103.032: huddinge.se INFO Begin testing DNSSEC for huddinge.se.
+103.262: huddinge.se INFO Did not find DS record for huddinge.se at parent.
+103.448: huddinge.se INFO Servers for huddinge.se have consistent extra processing status.
+103.506: huddinge.se INFO Authenticated denial records not found for huddinge.se.
+103.563: huddinge.se INFO Did not find DNSKEY record for huddinge.se at child.
+103.563: huddinge.se INFO No DNSKEY(s) found at child, other tests skipped.
+103.563: huddinge.se INFO Done testing DNSSEC for huddinge.se.
+103.564: huddinge.se INFO Test completed for zone huddinge.se.

@@ -1,0 +1,88 @@
+  0.000: hartola.fi INFO Begin testing zone hartola.fi with version 1.5.0.
+  0.405: hartola.fi INFO Begin testing delegation for hartola.fi.
+ 12.888: hartola.fi INFO Name servers listed at parent: ns1.taajama.fi,ns4.taajama.fi
+ 16.867: hartola.fi INFO Name servers listed at child: ns1.taajama.fi,ns4.taajama.fi
+ 16.867: hartola.fi NOTICE No IPv6 name servers found.
+ 17.074: hartola.fi INFO Parent glue for hartola.fi found: ns1.taajama.fi (83.102.40.26)
+ 17.318: hartola.fi INFO Parent glue for hartola.fi found: ns4.taajama.fi (83.102.40.27)
+ 17.415: hartola.fi INFO Checking glue for ns1.taajama.fi (83.102.40.26).
+ 17.415: hartola.fi INFO Checking glue for ns4.taajama.fi (83.102.40.27).
+ 17.415: hartola.fi INFO Parent glue for hartola.fi found: ns1.taajama.fi (83.102.40.26)
+ 17.437: hartola.fi INFO Parent glue for hartola.fi found: ns4.taajama.fi (83.102.40.27)
+ 18.908: hartola.fi INFO It is possible to build a referral packet for hartola.fi that works without EDNS0.
+ 20.434: hartola.fi INFO Previously used name servers for hartola.fi: 
+ 20.434: hartola.fi INFO Done testing delegation for hartola.fi.
+ 20.435: hartola.fi INFO Begin testing name server ns1.taajama.fi.
+ 20.435: hartola.fi INFO Begin testing host ns1.taajama.fi.
+ 21.206: hartola.fi INFO Begin testing address 83.102.40.26.
+ 46.935: hartola.fi INFO Done testing address 83.102.40.26.
+ 46.935: hartola.fi INFO Done testing host ns1.taajama.fi.
+ 47.863: hartola.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over UDP.
+ 47.979: hartola.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over TCP.
+ 48.060: hartola.fi INFO Name server ns1.taajama.fi (83.102.40.26) is not recursive.
+ 48.487: hartola.fi INFO Name server ns1.taajama.fi (83.102.40.26) authoritative for hartola.fi.
+ 48.572: hartola.fi INFO Name server ns1.taajama.fi (83.102.40.26) closed for zone transfer of hartola.fi.
+ 48.662: hartola.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): hostname.bind = saharausku
+ 48.722: hartola.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): version.bind = Not disclosed
+ 48.825: hartola.fi NOTICE No answer received from 83.102.40.26 when querying for version.server/CH/TXT.
+ 48.835: hartola.fi INFO Done testing name server ns1.taajama.fi.
+ 48.835: hartola.fi INFO Begin testing name server ns4.taajama.fi.
+ 48.836: hartola.fi INFO Begin testing host ns4.taajama.fi.
+ 49.439: hartola.fi INFO Begin testing address 83.102.40.27.
+ 50.982: hartola.fi INFO Done testing address 83.102.40.27.
+ 50.982: hartola.fi INFO Done testing host ns4.taajama.fi.
+ 51.740: hartola.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over UDP.
+ 51.859: hartola.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over TCP.
+ 51.963: hartola.fi INFO Name server ns4.taajama.fi (83.102.40.27) is not recursive.
+ 52.223: hartola.fi INFO Name server ns4.taajama.fi (83.102.40.27) authoritative for hartola.fi.
+ 52.317: hartola.fi INFO Name server ns4.taajama.fi (83.102.40.27) closed for zone transfer of hartola.fi.
+ 52.433: hartola.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): hostname.bind = perhosrausku
+ 52.507: hartola.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): version.bind = Not disclosed
+ 52.628: hartola.fi NOTICE No answer received from 83.102.40.27 when querying for version.server/CH/TXT.
+ 52.628: hartola.fi INFO Done testing name server ns4.taajama.fi.
+ 52.628: hartola.fi INFO Begin testing zone consistency for hartola.fi.
+ 55.459: hartola.fi INFO SOA at address 83.102.40.26 has serial 2013032701.
+ 55.590: hartola.fi INFO SOA at address 83.102.40.27 has serial 2013032701.
+ 55.590: hartola.fi INFO All SOA records have consistent serial numbers.
+ 55.590: hartola.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 57.180: hartola.fi NOTICE The listed nameservers for hartola.fi all report the same set of nameservers.
+ 57.181: hartola.fi INFO Done testing zone consistency for hartola.fi.
+ 57.181: hartola.fi INFO Begin testing SOA parameters for hartola.fi.
+ 57.315: hartola.fi INFO Found SOA record for hartola.fi.
+ 57.315: hartola.fi INFO Begin testing host ns1.taajama.fi.
+ 57.852: hartola.fi INFO Begin testing address 83.102.40.26.
+ 58.337: hartola.fi INFO Done testing address 83.102.40.26.
+ 58.337: hartola.fi INFO Done testing host ns1.taajama.fi.
+ 58.337: hartola.fi INFO SOA MNAME for hartola.fi valid (ns1.taajama.fi).
+ 58.337: hartola.fi INFO SOA MNAME for hartola.fi (ns1.taajama.fi) listed as NS.
+ 58.935: hartola.fi INFO SOA MNAME for hartola.fi (ns1.taajama.fi) is authoritative.
+ 58.935: hartola.fi INFO Begin testing email address hostmaster@taajama.com.
+ 59.431: hartola.fi INFO Mail exchangers for hostmaster@taajama.com found spp.taajama.fi,mx2.taajama.com.
+ 59.431: hartola.fi INFO Begin testing host spp.taajama.fi.
+ 60.634: hartola.fi INFO Begin testing address 217.78.212.151.
+ 61.509: hartola.fi INFO Done testing address 217.78.212.151.
+ 61.510: hartola.fi INFO Done testing host spp.taajama.fi.
+ 63.830: hartola.fi INFO Begin testing host mx2.taajama.com.
+ 65.034: hartola.fi INFO Begin testing address 83.102.41.75.
+ 66.426: hartola.fi INFO Done testing address 83.102.41.75.
+ 66.426: hartola.fi INFO Done testing host mx2.taajama.com.
+ 66.837: hartola.fi INFO Done testing email address hostmaster@taajama.com.
+ 66.837: hartola.fi INFO Successful attempt to deliver email for SOA RNAME of hartola.fi (hostmaster.taajama.com) using hostmaster@taajama.com.
+ 66.837: hartola.fi INFO SOA TTL for hartola.fi OK (3600) - recommended >= 3600.
+ 66.877: hartola.fi INFO SOA refresh for hartola.fi OK (28800) - recommended >= 14400.
+ 66.877: hartola.fi INFO SOA retry for hartola.fi OK (7200) - recommended >= 3600.
+ 66.878: hartola.fi INFO SOA expire for hartola.fi OK (1814400) - recommended >= 604800.
+ 66.878: hartola.fi INFO SOA minimum for hartola.fi OK (86400) - recommended between 300 and 86400.
+ 66.878: hartola.fi INFO Done testing SOA parameters for hartola.fi.
+ 66.878: hartola.fi INFO Begin testing connectivity for hartola.fi.
+ 68.351: hartola.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 68.352: hartola.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 68.352: hartola.fi INFO Done testing connectivity for hartola.fi.
+ 68.352: hartola.fi INFO Begin testing DNSSEC for hartola.fi.
+ 68.371: hartola.fi INFO Did not find DS record for hartola.fi at parent.
+ 68.430: hartola.fi INFO Servers for hartola.fi have consistent extra processing status.
+ 68.457: hartola.fi INFO Authenticated denial records not found for hartola.fi.
+ 68.494: hartola.fi INFO Did not find DNSKEY record for hartola.fi at child.
+ 68.494: hartola.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 68.494: hartola.fi INFO Done testing DNSSEC for hartola.fi.
+ 68.495: hartola.fi INFO Test completed for zone hartola.fi.

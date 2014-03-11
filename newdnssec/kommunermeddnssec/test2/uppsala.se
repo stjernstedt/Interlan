@@ -1,0 +1,119 @@
+  0.000: uppsala.se INFO Begin testing zone uppsala.se with version 1.2.
+  0.000: uppsala.se INFO Begin testing delegation for uppsala.se.
+  5.126: uppsala.se INFO Name servers listed at parent: datan.uppsala.se,ns1.skolnet.uppsala.se,ns1.udac.se
+ 11.581: uppsala.se INFO Name servers listed at child: datan.uppsala.se,ns1.skolnet.uppsala.se,ns1.udac.se
+ 11.582: uppsala.se NOTICE No IPv6 name servers found.
+ 11.623: uppsala.se INFO Parent glue for uppsala.se found: datan.uppsala.se (138.6.160.2)
+ 11.653: uppsala.se INFO Parent glue for uppsala.se found: ns1.skolnet.uppsala.se (192.176.237.243)
+ 11.732: uppsala.se INFO Parent glue for uppsala.se found: ns1.udac.se (193.44.79.8)
+ 11.772: uppsala.se INFO Checking glue for datan.uppsala.se (138.6.160.2).
+ 11.781: uppsala.se INFO Child glue for uppsala.se found: datan.uppsala.se (138.6.160.2)
+ 11.781: uppsala.se INFO Checking glue for ns1.skolnet.uppsala.se (192.176.237.243).
+ 11.790: uppsala.se INFO Child glue for uppsala.se found: ns1.skolnet.uppsala.se (192.176.237.243)
+ 11.790: uppsala.se INFO Checking glue for ns1.udac.se (193.44.79.8).
+ 11.791: uppsala.se INFO Parent glue for uppsala.se found: datan.uppsala.se (138.6.160.2)
+ 11.791: uppsala.se INFO Parent glue for uppsala.se found: ns1.skolnet.uppsala.se (192.176.237.243)
+ 11.792: uppsala.se INFO Parent glue for uppsala.se found: ns1.udac.se (193.44.79.8)
+ 11.792: uppsala.se INFO Done testing delegation for uppsala.se.
+ 11.793: uppsala.se INFO Begin testing name server datan.uppsala.se.
+ 11.793: uppsala.se INFO Begin testing host datan.uppsala.se.
+ 11.793: uppsala.se INFO Begin testing address 138.6.160.2.
+ 19.384: uppsala.se INFO Done testing address 138.6.160.2.
+ 19.385: uppsala.se INFO Done testing host datan.uppsala.se.
+ 19.395: uppsala.se INFO Name server datan.uppsala.se (138.6.160.2) answers queries over UDP.
+ 22.411: uppsala.se INFO Name server datan.uppsala.se (138.6.160.2) answers queries over TCP.
+ 22.429: uppsala.se INFO Name server datan.uppsala.se (138.6.160.2) is not recursive.
+ 22.440: uppsala.se INFO Name server datan.uppsala.se (138.6.160.2) authoritative for uppsala.se.
+ 22.458: uppsala.se INFO Name server datan.uppsala.se (138.6.160.2) closed for zone transfer of uppsala.se.
+ 22.466: uppsala.se NOTICE No answer received from 138.6.160.2 when querying for hostname.bind/CH/TXT.
+ 22.477: uppsala.se INFO Legacy name server ID for datan.uppsala.se (138.6.160.2): version.bind = Don't Ask
+ 22.486: uppsala.se NOTICE No answer received from 138.6.160.2 when querying for id.server/CH/TXT.
+ 22.494: uppsala.se NOTICE No answer received from 138.6.160.2 when querying for version.server/CH/TXT.
+ 22.495: uppsala.se INFO Done testing name server datan.uppsala.se.
+ 22.495: uppsala.se INFO Begin testing name server ns1.skolnet.uppsala.se.
+ 22.495: uppsala.se INFO Begin testing host ns1.skolnet.uppsala.se.
+ 22.495: uppsala.se INFO Begin testing address 192.176.237.243.
+ 30.076: uppsala.se INFO Done testing address 192.176.237.243.
+ 30.076: uppsala.se INFO Done testing host ns1.skolnet.uppsala.se.
+ 30.086: uppsala.se INFO Name server ns1.skolnet.uppsala.se (192.176.237.243) answers queries over UDP.
+ 30.101: uppsala.se INFO Name server ns1.skolnet.uppsala.se (192.176.237.243) answers queries over TCP.
+ 30.112: uppsala.se INFO Name server ns1.skolnet.uppsala.se (192.176.237.243) is not recursive.
+ 30.121: uppsala.se INFO Name server ns1.skolnet.uppsala.se (192.176.237.243) authoritative for uppsala.se.
+ 30.140: uppsala.se INFO Name server ns1.skolnet.uppsala.se (192.176.237.243) closed for zone transfer of uppsala.se.
+ 30.148: uppsala.se NOTICE No answer received from 192.176.237.243 when querying for hostname.bind/CH/TXT.
+ 30.156: uppsala.se INFO Legacy name server ID for ns1.skolnet.uppsala.se (192.176.237.243): version.bind = 9.2.4
+ 30.164: uppsala.se NOTICE No answer received from 192.176.237.243 when querying for id.server/CH/TXT.
+ 30.172: uppsala.se NOTICE No answer received from 192.176.237.243 when querying for version.server/CH/TXT.
+ 30.172: uppsala.se INFO Done testing name server ns1.skolnet.uppsala.se.
+ 30.172: uppsala.se INFO Begin testing name server ns1.udac.se.
+ 30.172: uppsala.se INFO Begin testing host ns1.udac.se.
+ 30.172: uppsala.se INFO Begin testing address 193.44.79.8.
+ 31.770: uppsala.se INFO Done testing address 193.44.79.8.
+ 31.770: uppsala.se INFO Done testing host ns1.udac.se.
+ 31.780: uppsala.se INFO Name server ns1.udac.se (193.44.79.8) answers queries over UDP.
+ 31.794: uppsala.se INFO Name server ns1.udac.se (193.44.79.8) answers queries over TCP.
+ 31.804: uppsala.se INFO Name server ns1.udac.se (193.44.79.8) is not recursive.
+ 31.813: uppsala.se INFO Name server ns1.udac.se (193.44.79.8) authoritative for uppsala.se.
+ 31.830: uppsala.se INFO Name server ns1.udac.se (193.44.79.8) closed for zone transfer of uppsala.se.
+ 31.838: uppsala.se NOTICE No answer received from 193.44.79.8 when querying for hostname.bind/CH/TXT.
+ 31.846: uppsala.se INFO Legacy name server ID for ns1.udac.se (193.44.79.8): version.bind = 9.2.4
+ 31.853: uppsala.se NOTICE No answer received from 193.44.79.8 when querying for id.server/CH/TXT.
+ 31.862: uppsala.se NOTICE No answer received from 193.44.79.8 when querying for version.server/CH/TXT.
+ 31.862: uppsala.se INFO Done testing name server ns1.udac.se.
+ 31.862: uppsala.se INFO Begin testing zone consistency for uppsala.se.
+ 31.876: uppsala.se INFO SOA at address 193.44.79.8 has serial 2010120801.
+ 31.886: uppsala.se INFO SOA at address 192.176.237.243 has serial 2010120801.
+ 31.895: uppsala.se INFO SOA at address 138.6.160.2 has serial 2010120801.
+ 31.895: uppsala.se INFO All SOA records have consistent serial numbers.
+ 31.895: uppsala.se INFO All SOA records are consistent among all name servers.
+ 31.895: uppsala.se INFO Done testing zone consistency for uppsala.se.
+ 31.895: uppsala.se INFO Begin testing SOA parameters for uppsala.se.
+ 31.905: uppsala.se INFO Found SOA record for uppsala.se.
+ 31.905: uppsala.se INFO Begin testing host datan.uppsala.se.
+ 31.905: uppsala.se INFO Begin testing address 138.6.160.2.
+ 31.906: uppsala.se INFO Done testing address 138.6.160.2.
+ 31.907: uppsala.se INFO Done testing host datan.uppsala.se.
+ 31.907: uppsala.se INFO SOA MNAME for uppsala.se valid (datan.uppsala.se).
+ 31.907: uppsala.se INFO SOA MNAME for uppsala.se (datan.uppsala.se) listed as NS.
+ 31.917: uppsala.se INFO SOA MNAME for uppsala.se (datan.uppsala.se) is authoritative.
+ 31.917: uppsala.se INFO Begin testing email address Datakommunikation@uppsala.se.
+ 32.141: uppsala.se INFO Mail exchangers for Datakommunikation@uppsala.se found mailgw02.uppsala.se,mailgw01.uppsala.se.
+ 32.141: uppsala.se INFO All mail servers for Datakommunikation@uppsala.se are in zone uppsala.se.
+ 32.142: uppsala.se INFO Begin testing host mailgw02.uppsala.se.
+ 32.577: uppsala.se INFO Begin testing address 192.176.238.123.
+ 32.974: uppsala.se INFO Done testing address 192.176.238.123.
+ 32.974: uppsala.se INFO Done testing host mailgw02.uppsala.se.
+ 32.975: uppsala.se INFO Begin testing mail server mailgw02.uppsala.se (192.176.238.123) with Datakommunikation@uppsala.se.
+ 33.219: uppsala.se INFO SMTP banner: mailgw02.uppsala.se ESMTP mailgw uppsala
+ 33.248: uppsala.se INFO SMTP testing of mailgw02.uppsala.se (192.176.238.123) with Datakommunikation@uppsala.se succeeded without errors.
+ 33.248: uppsala.se INFO Done testing mail server mailgw02.uppsala.se (192.176.238.123) with Datakommunikation@uppsala.se.
+ 33.248: uppsala.se INFO Begin testing host mailgw01.uppsala.se.
+ 33.682: uppsala.se INFO Begin testing address 192.176.238.121.
+ 34.073: uppsala.se INFO Done testing address 192.176.238.121.
+ 34.073: uppsala.se INFO Done testing host mailgw01.uppsala.se.
+ 34.073: uppsala.se INFO Delivery over IPv4 to Datakommunikation@uppsala.se ok.
+ 34.073: uppsala.se INFO Delivery over IPv6 to Datakommunikation@uppsala.se could not be done.
+ 34.073: uppsala.se INFO Done testing email address Datakommunikation@uppsala.se.
+ 34.074: uppsala.se INFO Successful attempt to deliver email for SOA RNAME of uppsala.se (Datakommunikation.uppsala.se) using Datakommunikation@uppsala.se.
+ 34.074: uppsala.se INFO SOA TTL for uppsala.se OK (3600) - recommended >= 3600.
+ 34.074: uppsala.se NOTICE SOA refresh for uppsala.se too small (7200) - recommended >= 14400.
+ 34.074: uppsala.se NOTICE SOA retry for uppsala.se too small (900) - recommended >= 3600.
+ 34.074: uppsala.se INFO SOA expire for uppsala.se OK (2592000) - recommended >= 604800.
+ 34.074: uppsala.se INFO SOA minimum for uppsala.se OK (3600) - recommended between 300 and 86400.
+ 34.074: uppsala.se INFO Done testing SOA parameters for uppsala.se.
+ 34.074: uppsala.se INFO Begin testing connectivity for uppsala.se.
+ 34.694: uppsala.se INFO Name server 193.44.79.8 announced by: 25473
+ 35.222: uppsala.se INFO Name server 138.6.160.2 announced by: 38956
+ 35.741: uppsala.se INFO Name server 192.176.237.243 announced by: 38956
+ 35.741: uppsala.se INFO Zone announced by IPv4 ASN: 25473,38956
+ 35.741: uppsala.se INFO Zone announced by more than one ASN (2).
+ 35.741: uppsala.se INFO Zone announced by IPv6 ASN: 
+ 35.741: uppsala.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 35.741: uppsala.se INFO Done testing connectivity for uppsala.se.
+ 35.741: uppsala.se INFO Begin testing DNSSEC for uppsala.se.
+ 35.756: uppsala.se INFO Did not find DS record for uppsala.se at parent.
+ 38.795: uppsala.se INFO Servers for uppsala.se have consistent extra processing status.
+ 38.795: uppsala.se INFO Did not find DNSKEY record for uppsala.se at child.
+ 38.795: uppsala.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 38.795: uppsala.se INFO Done testing DNSSEC for uppsala.se.
+ 38.795: uppsala.se INFO Test completed for zone uppsala.se.

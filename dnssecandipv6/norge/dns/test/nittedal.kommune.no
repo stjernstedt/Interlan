@@ -1,0 +1,82 @@
+  0.000: nittedal.kommune.no INFO Begin testing zone nittedal.kommune.no with version 1.6.1.
+  0.451: nittedal.kommune.no INFO Begin testing delegation for nittedal.kommune.no.
+  7.904: nittedal.kommune.no INFO Name servers listed at parent: elektronweb.elektron.no,uniweb.elektron.no
+  9.184: nittedal.kommune.no INFO Name servers listed at child: elektronweb.elektron.no,uniweb.elektron.no
+  9.184: nittedal.kommune.no NOTICE No IPv6 name servers found.
+  9.333: nittedal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.483: nittedal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.657: nittedal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.870: nittedal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.588: nittedal.kommune.no INFO It is possible to build a referral packet for nittedal.kommune.no that works without EDNS0.
+ 10.793: nittedal.kommune.no INFO Previously used name servers for nittedal.kommune.no: 
+ 10.793: nittedal.kommune.no INFO Done testing delegation for nittedal.kommune.no.
+ 10.793: nittedal.kommune.no INFO Begin testing name server elektronweb.elektron.no.
+ 10.794: nittedal.kommune.no INFO Begin testing host elektronweb.elektron.no.
+ 11.059: nittedal.kommune.no INFO Begin testing address 80.254.34.98.
+ 16.451: nittedal.kommune.no INFO Done testing address 80.254.34.98.
+ 16.452: nittedal.kommune.no INFO Done testing host elektronweb.elektron.no.
+ 16.562: nittedal.kommune.no INFO Name server elektronweb.elektron.no (80.254.34.98) answers queries over UDP.
+ 16.597: nittedal.kommune.no INFO Name server elektronweb.elektron.no (80.254.34.98) answers queries over TCP.
+ 16.614: nittedal.kommune.no INFO Name server elektronweb.elektron.no (80.254.34.98) is not recursive.
+ 16.712: nittedal.kommune.no INFO Name server elektronweb.elektron.no (80.254.34.98) authoritative for nittedal.kommune.no.
+ 16.752: nittedal.kommune.no NOTICE Name server elektronweb.elektron.no (80.254.34.98) open for zone transfer of nittedal.kommune.no.
+ 16.819: nittedal.kommune.no INFO Legacy name server ID for elektronweb.elektron.no (80.254.34.98): hostname.bind = elektronweb
+ 16.839: nittedal.kommune.no INFO Legacy name server ID for elektronweb.elektron.no (80.254.34.98): version.bind = 9.7.0-P1
+ 16.871: nittedal.kommune.no NOTICE No answer received from 80.254.34.98 when querying for version.server/CH/TXT.
+ 16.871: nittedal.kommune.no INFO Done testing name server elektronweb.elektron.no.
+ 16.871: nittedal.kommune.no INFO Begin testing name server uniweb.elektron.no.
+ 16.871: nittedal.kommune.no INFO Begin testing host uniweb.elektron.no.
+ 16.872: nittedal.kommune.no INFO Begin testing address 80.254.34.3.
+ 17.208: nittedal.kommune.no INFO Done testing address 80.254.34.3.
+ 17.208: nittedal.kommune.no INFO Done testing host uniweb.elektron.no.
+ 17.239: nittedal.kommune.no INFO Name server uniweb.elektron.no (80.254.34.3) answers queries over UDP.
+ 17.275: nittedal.kommune.no INFO Name server uniweb.elektron.no (80.254.34.3) answers queries over TCP.
+ 17.289: nittedal.kommune.no INFO Name server uniweb.elektron.no (80.254.34.3) is not recursive.
+ 17.379: nittedal.kommune.no INFO Name server uniweb.elektron.no (80.254.34.3) authoritative for nittedal.kommune.no.
+ 17.422: nittedal.kommune.no NOTICE Name server uniweb.elektron.no (80.254.34.3) open for zone transfer of nittedal.kommune.no.
+ 17.447: nittedal.kommune.no INFO Legacy name server ID for uniweb.elektron.no (80.254.34.3): hostname.bind = uniweb.elektron.no
+ 17.465: nittedal.kommune.no INFO Legacy name server ID for uniweb.elektron.no (80.254.34.3): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 17.502: nittedal.kommune.no NOTICE No answer received from 80.254.34.3 when querying for version.server/CH/TXT.
+ 17.503: nittedal.kommune.no INFO Done testing name server uniweb.elektron.no.
+ 17.503: nittedal.kommune.no INFO Begin testing zone consistency for nittedal.kommune.no.
+ 17.635: nittedal.kommune.no INFO SOA at address 80.254.34.3 has serial 2013121801.
+ 17.655: nittedal.kommune.no INFO SOA at address 80.254.34.98 has serial 2013121801.
+ 17.656: nittedal.kommune.no INFO All SOA records have consistent serial numbers.
+ 17.656: nittedal.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 17.713: nittedal.kommune.no NOTICE The listed nameservers for nittedal.kommune.no all report the same set of nameservers.
+ 17.713: nittedal.kommune.no INFO Done testing zone consistency for nittedal.kommune.no.
+ 17.714: nittedal.kommune.no INFO Begin testing SOA parameters for nittedal.kommune.no.
+ 17.731: nittedal.kommune.no INFO Found SOA record for nittedal.kommune.no.
+ 17.731: nittedal.kommune.no INFO Begin testing host uniweb.elektron.no.
+ 17.731: nittedal.kommune.no INFO Begin testing address 80.254.34.3.
+ 17.733: nittedal.kommune.no INFO Done testing address 80.254.34.3.
+ 17.733: nittedal.kommune.no INFO Done testing host uniweb.elektron.no.
+ 17.733: nittedal.kommune.no INFO SOA MNAME for nittedal.kommune.no valid (uniweb.elektron.no).
+ 17.733: nittedal.kommune.no INFO SOA MNAME for nittedal.kommune.no (uniweb.elektron.no) listed as NS.
+ 17.759: nittedal.kommune.no INFO SOA MNAME for nittedal.kommune.no (uniweb.elektron.no) is authoritative.
+ 17.759: nittedal.kommune.no INFO Begin testing email address hostmaster@uniweb.elektron.no.
+ 17.889: nittedal.kommune.no INFO Mail exchangers for hostmaster@uniweb.elektron.no found uniweb.elektron.no.
+ 17.889: nittedal.kommune.no INFO Begin testing host uniweb.elektron.no.
+ 17.889: nittedal.kommune.no INFO Begin testing address 80.254.34.3.
+ 17.902: nittedal.kommune.no INFO Done testing address 80.254.34.3.
+ 17.902: nittedal.kommune.no INFO Done testing host uniweb.elektron.no.
+ 17.903: nittedal.kommune.no INFO Done testing email address hostmaster@uniweb.elektron.no.
+ 17.903: nittedal.kommune.no INFO Successful attempt to deliver email for SOA RNAME of nittedal.kommune.no (hostmaster.uniweb.elektron.no) using hostmaster@uniweb.elektron.no.
+ 17.903: nittedal.kommune.no INFO SOA TTL for nittedal.kommune.no OK (3600) - recommended >= 3600.
+ 17.903: nittedal.kommune.no NOTICE SOA refresh for nittedal.kommune.no too small (2880) - recommended >= 14400.
+ 17.903: nittedal.kommune.no NOTICE SOA retry for nittedal.kommune.no too small (720) - recommended >= 3600.
+ 17.903: nittedal.kommune.no NOTICE SOA expire for nittedal.kommune.no too small (60480) - recommended >= 604800.
+ 17.903: nittedal.kommune.no INFO SOA minimum for nittedal.kommune.no OK (3600) - recommended between 300 and 86400.
+ 17.903: nittedal.kommune.no INFO Done testing SOA parameters for nittedal.kommune.no.
+ 17.903: nittedal.kommune.no INFO Begin testing connectivity for nittedal.kommune.no.
+ 19.103: nittedal.kommune.no NOTICE Zone announced by fewer than two IPv4 ASN.
+ 19.104: nittedal.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 19.104: nittedal.kommune.no INFO Done testing connectivity for nittedal.kommune.no.
+ 19.104: nittedal.kommune.no INFO Begin testing DNSSEC for nittedal.kommune.no.
+ 19.231: nittedal.kommune.no INFO Did not find DS record for nittedal.kommune.no at parent.
+ 19.290: nittedal.kommune.no INFO Servers for nittedal.kommune.no have consistent extra processing status.
+ 19.322: nittedal.kommune.no INFO Authenticated denial records not found for nittedal.kommune.no.
+ 19.336: nittedal.kommune.no INFO Did not find DNSKEY record for nittedal.kommune.no at child.
+ 19.337: nittedal.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 19.337: nittedal.kommune.no INFO Done testing DNSSEC for nittedal.kommune.no.
+ 19.337: nittedal.kommune.no INFO Test completed for zone nittedal.kommune.no.

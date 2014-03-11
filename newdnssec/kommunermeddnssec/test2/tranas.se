@@ -1,0 +1,86 @@
+  0.000: tranas.se INFO Begin testing zone tranas.se with version 1.2.
+  0.000: tranas.se INFO Begin testing delegation for tranas.se.
+  9.818: tranas.se INFO Name servers listed at parent: ns2.dkbutiken.se,sanna.tranas.se
+ 10.970: tranas.se INFO Name servers listed at child: ns2.dkbutiken.se,sanna.tranas.se
+ 10.970: tranas.se NOTICE No IPv6 name servers found.
+ 11.077: tranas.se INFO Parent glue for tranas.se found: sanna.tranas.se (193.180.229.240)
+ 11.118: tranas.se INFO Checking glue for sanna.tranas.se (193.180.229.240).
+ 11.130: tranas.se INFO Child glue for tranas.se found: sanna.tranas.se (193.180.229.240)
+ 11.131: tranas.se INFO Parent glue for tranas.se found: sanna.tranas.se (193.180.229.240)
+ 11.131: tranas.se INFO Done testing delegation for tranas.se.
+ 11.131: tranas.se INFO Begin testing name server ns2.dkbutiken.se.
+ 11.131: tranas.se INFO Begin testing host ns2.dkbutiken.se.
+ 11.132: tranas.se INFO Begin testing address 212.247.58.120.
+ 14.043: tranas.se INFO Done testing address 212.247.58.120.
+ 14.043: tranas.se INFO Done testing host ns2.dkbutiken.se.
+ 14.057: tranas.se INFO Name server ns2.dkbutiken.se (212.247.58.120) answers queries over UDP.
+ 14.081: tranas.se INFO Name server ns2.dkbutiken.se (212.247.58.120) answers queries over TCP.
+ 14.095: tranas.se INFO Name server ns2.dkbutiken.se (212.247.58.120) is not recursive.
+ 14.108: tranas.se INFO Name server ns2.dkbutiken.se (212.247.58.120) authoritative for tranas.se.
+ 14.347: tranas.se INFO Name server ns2.dkbutiken.se (212.247.58.120) closed for zone transfer of tranas.se.
+ 14.361: tranas.se NOTICE No answer received from 212.247.58.120 when querying for hostname.bind/CH/TXT.
+ 32.362: tranas.se INFO Done testing name server ns2.dkbutiken.se.
+ 32.362: tranas.se INFO Begin testing name server sanna.tranas.se.
+ 32.362: tranas.se INFO Begin testing host sanna.tranas.se.
+ 32.363: tranas.se INFO Begin testing address 193.180.229.240.
+ 33.113: tranas.se INFO Done testing address 193.180.229.240.
+ 33.114: tranas.se INFO Done testing host sanna.tranas.se.
+ 33.126: tranas.se INFO Name server sanna.tranas.se (193.180.229.240) answers queries over UDP.
+ 33.147: tranas.se INFO Name server sanna.tranas.se (193.180.229.240) answers queries over TCP.
+ 33.159: tranas.se INFO Name server sanna.tranas.se (193.180.229.240) is not recursive.
+ 33.171: tranas.se INFO Name server sanna.tranas.se (193.180.229.240) authoritative for tranas.se.
+ 33.400: tranas.se INFO Name server sanna.tranas.se (193.180.229.240) closed for zone transfer of tranas.se.
+ 33.411: tranas.se NOTICE No answer received from 193.180.229.240 when querying for hostname.bind/CH/TXT.
+ 51.446: tranas.se INFO Done testing name server sanna.tranas.se.
+ 51.446: tranas.se INFO Begin testing zone consistency for tranas.se.
+ 51.462: tranas.se INFO SOA at address 193.180.229.240 has serial 2010061017.
+ 51.475: tranas.se INFO SOA at address 212.247.58.120 has serial 2010061017.
+ 51.475: tranas.se INFO All SOA records have consistent serial numbers.
+ 51.475: tranas.se INFO All SOA records are consistent among all name servers.
+ 51.475: tranas.se INFO Done testing zone consistency for tranas.se.
+ 51.476: tranas.se INFO Begin testing SOA parameters for tranas.se.
+ 51.487: tranas.se INFO Found SOA record for tranas.se.
+ 51.488: tranas.se INFO Begin testing host sanna.tranas.se.
+ 51.488: tranas.se INFO Begin testing address 193.180.229.240.
+ 51.489: tranas.se INFO Done testing address 193.180.229.240.
+ 51.490: tranas.se INFO Done testing host sanna.tranas.se.
+ 51.490: tranas.se INFO SOA MNAME for tranas.se valid (sanna.tranas.se).
+ 51.490: tranas.se INFO SOA MNAME for tranas.se (sanna.tranas.se) listed as NS.
+ 51.502: tranas.se INFO SOA MNAME for tranas.se (sanna.tranas.se) is authoritative.
+ 51.502: tranas.se INFO Begin testing email address hostmaster@tranas.se.
+ 55.718: tranas.se INFO Mail exchangers for hostmaster@tranas.se found smtp.tranas.se.
+ 55.718: tranas.se INFO All mail servers for hostmaster@tranas.se are in zone tranas.se.
+ 55.718: tranas.se INFO Begin testing host smtp.tranas.se.
+ 56.206: tranas.se INFO Begin testing address 193.180.229.27.
+ 56.536: tranas.se INFO Done testing address 193.180.229.27.
+ 56.536: tranas.se INFO Done testing host smtp.tranas.se.
+ 56.537: tranas.se INFO Begin testing mail server smtp.tranas.se (193.180.229.27) with hostmaster@tranas.se.
+ 56.569: tranas.se INFO SMTP banner: smtp.tranas.se Ready
+ 56.609: tranas.se INFO SMTP testing of smtp.tranas.se (193.180.229.27) with hostmaster@tranas.se succeeded without errors.
+ 56.609: tranas.se INFO Done testing mail server smtp.tranas.se (193.180.229.27) with hostmaster@tranas.se.
+ 56.609: tranas.se INFO Delivery over IPv4 to hostmaster@tranas.se ok.
+ 56.609: tranas.se INFO Delivery over IPv6 to hostmaster@tranas.se could not be done.
+ 56.609: tranas.se INFO Done testing email address hostmaster@tranas.se.
+ 56.609: tranas.se INFO Successful attempt to deliver email for SOA RNAME of tranas.se (hostmaster.tranas.se) using hostmaster@tranas.se.
+ 56.610: tranas.se INFO SOA TTL for tranas.se OK (3600) - recommended >= 3600.
+ 56.610: tranas.se NOTICE SOA refresh for tranas.se too small (3600) - recommended >= 14400.
+ 56.610: tranas.se NOTICE SOA retry for tranas.se too small (900) - recommended >= 3600.
+ 56.610: tranas.se NOTICE SOA expire for tranas.se too small (7200) - recommended >= 604800.
+ 56.610: tranas.se NOTICE SOA expire for tranas.se lower than refresh.
+ 56.610: tranas.se INFO SOA minimum for tranas.se OK (3600) - recommended between 300 and 86400.
+ 56.610: tranas.se INFO Done testing SOA parameters for tranas.se.
+ 56.610: tranas.se INFO Begin testing connectivity for tranas.se.
+ 57.116: tranas.se INFO Name server 193.180.229.240 announced by: 3292
+ 57.634: tranas.se INFO Name server 212.247.58.120 announced by: 1257
+ 57.634: tranas.se INFO Zone announced by IPv4 ASN: 3292,1257
+ 57.634: tranas.se INFO Zone announced by more than one ASN (2).
+ 57.634: tranas.se INFO Zone announced by IPv6 ASN: 
+ 57.634: tranas.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 57.634: tranas.se INFO Done testing connectivity for tranas.se.
+ 57.635: tranas.se INFO Begin testing DNSSEC for tranas.se.
+ 57.668: tranas.se INFO Did not find DS record for tranas.se at parent.
+ 57.712: tranas.se INFO Servers for tranas.se have consistent extra processing status.
+ 57.712: tranas.se INFO Did not find DNSKEY record for tranas.se at child.
+ 57.712: tranas.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 57.712: tranas.se INFO Done testing DNSSEC for tranas.se.
+ 57.712: tranas.se INFO Test completed for zone tranas.se.

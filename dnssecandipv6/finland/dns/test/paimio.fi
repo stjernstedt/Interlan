@@ -1,0 +1,82 @@
+  0.000: paimio.fi INFO Begin testing zone paimio.fi with version 1.6.1.
+  0.446: paimio.fi INFO Begin testing delegation for paimio.fi.
+  9.480: paimio.fi INFO Name servers listed at parent: ns-fi.elisa.net,ns-se.elisa.net
+ 11.504: paimio.fi INFO Name servers listed at child: ns-fi.elisa.net,ns-se.elisa.net
+ 11.504: paimio.fi NOTICE No IPv6 name servers found.
+ 13.593: paimio.fi INFO It is possible to build a referral packet for paimio.fi that works without EDNS0.
+ 14.458: paimio.fi INFO Previously used name servers for paimio.fi: 
+ 14.458: paimio.fi INFO Done testing delegation for paimio.fi.
+ 14.458: paimio.fi INFO Begin testing name server ns-fi.elisa.net.
+ 14.458: paimio.fi INFO Begin testing host ns-fi.elisa.net.
+ 14.960: paimio.fi INFO Begin testing address 193.229.0.49.
+ 23.988: paimio.fi INFO Done testing address 193.229.0.49.
+ 23.988: paimio.fi INFO Done testing host ns-fi.elisa.net.
+ 24.304: paimio.fi INFO Name server ns-fi.elisa.net (193.229.0.49) answers queries over UDP.
+ 24.343: paimio.fi INFO Name server ns-fi.elisa.net (193.229.0.49) answers queries over TCP.
+ 24.401: paimio.fi INFO Name server ns-fi.elisa.net (193.229.0.49) is not recursive.
+ 24.507: paimio.fi INFO Name server ns-fi.elisa.net (193.229.0.49) authoritative for paimio.fi.
+ 24.564: paimio.fi INFO Name server ns-fi.elisa.net (193.229.0.49) closed for zone transfer of paimio.fi.
+ 24.602: paimio.fi INFO Legacy name server ID for ns-fi.elisa.net (193.229.0.49): hostname.bind = ldom-dns64
+ 24.643: paimio.fi INFO Legacy name server ID for ns-fi.elisa.net (193.229.0.49): version.bind = unknown
+ 24.707: paimio.fi NOTICE No answer received from 193.229.0.49 when querying for version.server/CH/TXT.
+ 24.707: paimio.fi INFO Done testing name server ns-fi.elisa.net.
+ 24.707: paimio.fi INFO Begin testing name server ns-se.elisa.net.
+ 24.707: paimio.fi INFO Begin testing host ns-se.elisa.net.
+ 25.053: paimio.fi INFO Begin testing address 62.248.254.2.
+ 26.104: paimio.fi INFO Done testing address 62.248.254.2.
+ 26.104: paimio.fi INFO Done testing host ns-se.elisa.net.
+ 26.495: paimio.fi INFO Name server ns-se.elisa.net (62.248.254.2) answers queries over UDP.
+ 26.526: paimio.fi INFO Name server ns-se.elisa.net (62.248.254.2) answers queries over TCP.
+ 26.558: paimio.fi INFO Name server ns-se.elisa.net (62.248.254.2) is not recursive.
+ 26.679: paimio.fi INFO Name server ns-se.elisa.net (62.248.254.2) authoritative for paimio.fi.
+ 26.724: paimio.fi INFO Name server ns-se.elisa.net (62.248.254.2) closed for zone transfer of paimio.fi.
+ 26.740: paimio.fi INFO Legacy name server ID for ns-se.elisa.net (62.248.254.2): hostname.bind = phys-dns8
+ 26.776: paimio.fi INFO Legacy name server ID for ns-se.elisa.net (62.248.254.2): version.bind = unknown
+ 26.816: paimio.fi NOTICE No answer received from 62.248.254.2 when querying for version.server/CH/TXT.
+ 26.816: paimio.fi INFO Done testing name server ns-se.elisa.net.
+ 26.816: paimio.fi INFO Begin testing zone consistency for paimio.fi.
+ 28.200: paimio.fi INFO SOA at address 62.248.254.2 has serial 2013112100.
+ 28.256: paimio.fi INFO SOA at address 193.229.0.49 has serial 2013112100.
+ 28.256: paimio.fi INFO All SOA records have consistent serial numbers.
+ 28.256: paimio.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 28.858: paimio.fi NOTICE The listed nameservers for paimio.fi all report the same set of nameservers.
+ 28.859: paimio.fi INFO Done testing zone consistency for paimio.fi.
+ 28.859: paimio.fi INFO Begin testing SOA parameters for paimio.fi.
+ 28.904: paimio.fi INFO Found SOA record for paimio.fi.
+ 28.904: paimio.fi INFO Begin testing host ns-fi.elisa.net.
+ 29.214: paimio.fi INFO Begin testing address 193.229.0.49.
+ 29.562: paimio.fi INFO Done testing address 193.229.0.49.
+ 29.562: paimio.fi INFO Done testing host ns-fi.elisa.net.
+ 29.562: paimio.fi INFO SOA MNAME for paimio.fi valid (ns-fi.elisa.net).
+ 29.562: paimio.fi INFO SOA MNAME for paimio.fi (ns-fi.elisa.net) listed as NS.
+ 30.008: paimio.fi INFO SOA MNAME for paimio.fi (ns-fi.elisa.net) is authoritative.
+ 30.008: paimio.fi INFO Begin testing email address hostmaster@elisa.fi.
+ 30.246: paimio.fi INFO Mail exchangers for hostmaster@elisa.fi found mx1.elisa.fi,mx2.elisa.fi.
+ 30.246: paimio.fi INFO Begin testing host mx1.elisa.fi.
+ 30.647: paimio.fi INFO Begin testing address 193.64.173.42.
+ 31.862: paimio.fi INFO Done testing address 193.64.173.42.
+ 31.862: paimio.fi INFO Done testing host mx1.elisa.fi.
+ 32.046: paimio.fi INFO Begin testing host mx2.elisa.fi.
+ 32.507: paimio.fi INFO Begin testing address 193.64.173.43.
+ 33.270: paimio.fi INFO Done testing address 193.64.173.43.
+ 33.270: paimio.fi INFO Done testing host mx2.elisa.fi.
+ 33.425: paimio.fi INFO Done testing email address hostmaster@elisa.fi.
+ 33.425: paimio.fi INFO Successful attempt to deliver email for SOA RNAME of paimio.fi (hostmaster.elisa.fi) using hostmaster@elisa.fi.
+ 33.425: paimio.fi INFO SOA TTL for paimio.fi OK (3600) - recommended >= 3600.
+ 33.425: paimio.fi NOTICE SOA refresh for paimio.fi too small (3600) - recommended >= 14400.
+ 33.425: paimio.fi NOTICE SOA retry for paimio.fi too small (900) - recommended >= 3600.
+ 33.425: paimio.fi INFO SOA expire for paimio.fi OK (604800) - recommended >= 604800.
+ 33.425: paimio.fi INFO SOA minimum for paimio.fi OK (3600) - recommended between 300 and 86400.
+ 33.425: paimio.fi INFO Done testing SOA parameters for paimio.fi.
+ 33.425: paimio.fi INFO Begin testing connectivity for paimio.fi.
+ 34.694: paimio.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 34.694: paimio.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 34.694: paimio.fi INFO Done testing connectivity for paimio.fi.
+ 34.694: paimio.fi INFO Begin testing DNSSEC for paimio.fi.
+ 34.726: paimio.fi INFO Did not find DS record for paimio.fi at parent.
+ 34.783: paimio.fi INFO Servers for paimio.fi have consistent extra processing status.
+ 34.813: paimio.fi INFO Authenticated denial records not found for paimio.fi.
+ 34.830: paimio.fi INFO Did not find DNSKEY record for paimio.fi at child.
+ 34.830: paimio.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 34.831: paimio.fi INFO Done testing DNSSEC for paimio.fi.
+ 34.831: paimio.fi INFO Test completed for zone paimio.fi.

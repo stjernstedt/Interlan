@@ -1,0 +1,88 @@
+  0.000: hailuoto.fi INFO Begin testing zone hailuoto.fi with version 1.5.0.
+  0.526: hailuoto.fi INFO Begin testing delegation for hailuoto.fi.
+ 13.141: hailuoto.fi INFO Name servers listed at parent: ns1.taajama.fi,ns4.taajama.fi
+ 17.083: hailuoto.fi INFO Name servers listed at child: ns1.taajama.fi,ns4.taajama.fi
+ 17.084: hailuoto.fi NOTICE No IPv6 name servers found.
+ 17.330: hailuoto.fi INFO Parent glue for hailuoto.fi found: ns1.taajama.fi (83.102.40.26)
+ 17.523: hailuoto.fi INFO Parent glue for hailuoto.fi found: ns4.taajama.fi (83.102.40.27)
+ 17.607: hailuoto.fi INFO Checking glue for ns1.taajama.fi (83.102.40.26).
+ 17.608: hailuoto.fi INFO Checking glue for ns4.taajama.fi (83.102.40.27).
+ 17.608: hailuoto.fi INFO Parent glue for hailuoto.fi found: ns1.taajama.fi (83.102.40.26)
+ 17.608: hailuoto.fi INFO Parent glue for hailuoto.fi found: ns4.taajama.fi (83.102.40.27)
+ 19.051: hailuoto.fi INFO It is possible to build a referral packet for hailuoto.fi that works without EDNS0.
+ 20.450: hailuoto.fi INFO Previously used name servers for hailuoto.fi: 
+ 20.450: hailuoto.fi INFO Done testing delegation for hailuoto.fi.
+ 20.493: hailuoto.fi INFO Begin testing name server ns1.taajama.fi.
+ 20.493: hailuoto.fi INFO Begin testing host ns1.taajama.fi.
+ 21.355: hailuoto.fi INFO Begin testing address 83.102.40.26.
+ 33.746: hailuoto.fi INFO Done testing address 83.102.40.26.
+ 33.777: hailuoto.fi INFO Done testing host ns1.taajama.fi.
+ 34.561: hailuoto.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over UDP.
+ 34.760: hailuoto.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over TCP.
+ 34.873: hailuoto.fi INFO Name server ns1.taajama.fi (83.102.40.26) is not recursive.
+ 35.240: hailuoto.fi INFO Name server ns1.taajama.fi (83.102.40.26) authoritative for hailuoto.fi.
+ 35.341: hailuoto.fi INFO Name server ns1.taajama.fi (83.102.40.26) closed for zone transfer of hailuoto.fi.
+ 35.401: hailuoto.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): hostname.bind = kotkarausku
+ 35.579: hailuoto.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): version.bind = Not disclosed
+ 35.739: hailuoto.fi NOTICE No answer received from 83.102.40.26 when querying for version.server/CH/TXT.
+ 35.739: hailuoto.fi INFO Done testing name server ns1.taajama.fi.
+ 35.739: hailuoto.fi INFO Begin testing name server ns4.taajama.fi.
+ 35.739: hailuoto.fi INFO Begin testing host ns4.taajama.fi.
+ 36.365: hailuoto.fi INFO Begin testing address 83.102.40.27.
+ 37.965: hailuoto.fi INFO Done testing address 83.102.40.27.
+ 37.965: hailuoto.fi INFO Done testing host ns4.taajama.fi.
+ 38.705: hailuoto.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over UDP.
+ 38.831: hailuoto.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over TCP.
+ 38.898: hailuoto.fi INFO Name server ns4.taajama.fi (83.102.40.27) is not recursive.
+ 38.992: hailuoto.fi INFO Name server ns4.taajama.fi (83.102.40.27) authoritative for hailuoto.fi.
+ 39.086: hailuoto.fi INFO Name server ns4.taajama.fi (83.102.40.27) closed for zone transfer of hailuoto.fi.
+ 39.138: hailuoto.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): hostname.bind = lapiorausku
+ 39.171: hailuoto.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): version.bind = Not disclosed
+ 39.286: hailuoto.fi NOTICE No answer received from 83.102.40.27 when querying for version.server/CH/TXT.
+ 39.287: hailuoto.fi INFO Done testing name server ns4.taajama.fi.
+ 39.287: hailuoto.fi INFO Begin testing zone consistency for hailuoto.fi.
+ 41.721: hailuoto.fi INFO SOA at address 83.102.40.26 has serial 2013013001.
+ 41.757: hailuoto.fi INFO SOA at address 83.102.40.27 has serial 2013013001.
+ 41.758: hailuoto.fi INFO All SOA records have consistent serial numbers.
+ 41.758: hailuoto.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 43.072: hailuoto.fi NOTICE The listed nameservers for hailuoto.fi all report the same set of nameservers.
+ 43.072: hailuoto.fi INFO Done testing zone consistency for hailuoto.fi.
+ 43.072: hailuoto.fi INFO Begin testing SOA parameters for hailuoto.fi.
+ 43.215: hailuoto.fi INFO Found SOA record for hailuoto.fi.
+ 43.215: hailuoto.fi INFO Begin testing host ns1.taajama.fi.
+ 43.907: hailuoto.fi INFO Begin testing address 83.102.40.26.
+ 44.761: hailuoto.fi INFO Done testing address 83.102.40.26.
+ 44.761: hailuoto.fi INFO Done testing host ns1.taajama.fi.
+ 44.762: hailuoto.fi INFO SOA MNAME for hailuoto.fi valid (ns1.taajama.fi).
+ 44.762: hailuoto.fi INFO SOA MNAME for hailuoto.fi (ns1.taajama.fi) listed as NS.
+ 45.599: hailuoto.fi INFO SOA MNAME for hailuoto.fi (ns1.taajama.fi) is authoritative.
+ 45.600: hailuoto.fi INFO Begin testing email address hostmaster@taajama.com.
+ 46.361: hailuoto.fi INFO Mail exchangers for hostmaster@taajama.com found spp.taajama.fi,mx2.taajama.com.
+ 46.361: hailuoto.fi INFO Begin testing host spp.taajama.fi.
+ 48.103: hailuoto.fi INFO Begin testing address 217.78.212.151.
+ 49.574: hailuoto.fi INFO Done testing address 217.78.212.151.
+ 49.590: hailuoto.fi INFO Done testing host spp.taajama.fi.
+ 50.189: hailuoto.fi INFO Begin testing host mx2.taajama.com.
+ 51.695: hailuoto.fi INFO Begin testing address 83.102.41.75.
+ 53.160: hailuoto.fi INFO Done testing address 83.102.41.75.
+ 53.160: hailuoto.fi INFO Done testing host mx2.taajama.com.
+ 54.243: hailuoto.fi INFO Done testing email address hostmaster@taajama.com.
+ 54.243: hailuoto.fi INFO Successful attempt to deliver email for SOA RNAME of hailuoto.fi (hostmaster.taajama.com) using hostmaster@taajama.com.
+ 54.244: hailuoto.fi INFO SOA TTL for hailuoto.fi OK (3600) - recommended >= 3600.
+ 54.244: hailuoto.fi INFO SOA refresh for hailuoto.fi OK (28800) - recommended >= 14400.
+ 54.244: hailuoto.fi INFO SOA retry for hailuoto.fi OK (7200) - recommended >= 3600.
+ 54.244: hailuoto.fi INFO SOA expire for hailuoto.fi OK (1814400) - recommended >= 604800.
+ 54.244: hailuoto.fi INFO SOA minimum for hailuoto.fi OK (86400) - recommended between 300 and 86400.
+ 54.244: hailuoto.fi INFO Done testing SOA parameters for hailuoto.fi.
+ 54.244: hailuoto.fi INFO Begin testing connectivity for hailuoto.fi.
+ 56.188: hailuoto.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 56.188: hailuoto.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 56.189: hailuoto.fi INFO Done testing connectivity for hailuoto.fi.
+ 56.189: hailuoto.fi INFO Begin testing DNSSEC for hailuoto.fi.
+ 56.481: hailuoto.fi INFO Did not find DS record for hailuoto.fi at parent.
+ 56.704: hailuoto.fi INFO Servers for hailuoto.fi have consistent extra processing status.
+ 56.799: hailuoto.fi INFO Authenticated denial records not found for hailuoto.fi.
+ 56.887: hailuoto.fi INFO Did not find DNSKEY record for hailuoto.fi at child.
+ 56.887: hailuoto.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 56.887: hailuoto.fi INFO Done testing DNSSEC for hailuoto.fi.
+ 56.887: hailuoto.fi INFO Test completed for zone hailuoto.fi.

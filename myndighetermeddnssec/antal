@@ -1,0 +1,11 @@
+#!/bin/bash
+cd /home/myndighetermeddnssec
+antal=0
+for i in `cat domain` ; do
+	dns=`dig +short ns $i |wc -l`
+	if [ "$dns" = "1" ] ; then
+		echo $i
+		let antal=$antal+1
+	fi
+done
+echo $antal >antal.txt

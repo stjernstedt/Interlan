@@ -1,0 +1,120 @@
+  0.004: eitss.se INFO Begin testing zone eitss.se with version 1.5.0.
+  0.005: eitss.se INFO Begin testing delegation for eitss.se.
+ 11.426: eitss.se INFO Name servers listed at parent: dns1.speedcom.se,dns2.speedcom.se
+ 14.616: eitss.se INFO Name servers listed at child: dns1.eitss.net,dns2.eitss.net
+ 14.616: eitss.se ERROR Superfluous name server listed at parent: dns1.speedcom.se
+ 14.616: eitss.se ERROR Superfluous name server listed at parent: dns2.speedcom.se
+ 14.617: eitss.se ERROR Total parent/child glue mismatch.
+ 14.617: eitss.se NOTICE Additional name server listed at child: dns1.eitss.net
+ 14.617: eitss.se NOTICE Additional name server listed at child: dns2.eitss.net
+ 14.617: eitss.se NOTICE No IPv6 name servers found.
+ 14.745: eitss.se INFO Parent glue for eitss.se found: dns1.speedcom.se (80.83.90.30)
+ 14.948: eitss.se INFO Parent glue for eitss.se found: dns2.speedcom.se (80.83.90.34)
+ 15.087: eitss.se INFO Checking glue for dns1.speedcom.se (80.83.90.30).
+ 15.122: eitss.se INFO Checking glue for dns2.speedcom.se (80.83.90.34).
+ 15.123: eitss.se INFO Parent glue for eitss.se found: dns1.speedcom.se (80.83.90.30)
+ 15.123: eitss.se INFO Parent glue for eitss.se found: dns2.speedcom.se (80.83.90.34)
+ 16.763: eitss.se INFO It is possible to build a referral packet for eitss.se that works without EDNS0.
+ 16.763: eitss.se INFO Done testing delegation for eitss.se.
+ 16.763: eitss.se INFO Begin testing name server dns1.eitss.net.
+ 16.764: eitss.se INFO Begin testing host dns1.eitss.net.
+ 17.279: eitss.se INFO Begin testing address 80.83.90.30.
+ 23.959: eitss.se INFO Done testing address 80.83.90.30.
+ 23.959: eitss.se INFO Done testing host dns1.eitss.net.
+ 24.304: eitss.se INFO Name server dns1.eitss.net (80.83.90.30) answers queries over UDP.
+ 24.342: eitss.se INFO Name server dns1.eitss.net (80.83.90.30) answers queries over TCP.
+ 24.502: eitss.se INFO Name server dns1.eitss.net (80.83.90.30) is not recursive.
+ 24.621: eitss.se INFO Name server dns1.eitss.net (80.83.90.30) authoritative for eitss.se.
+ 24.769: eitss.se INFO Name server dns1.eitss.net (80.83.90.30) closed for zone transfer of eitss.se.
+ 24.807: eitss.se INFO Legacy name server ID for dns1.eitss.net (80.83.90.30): hostname.bind = dns1.eitss.net
+ 24.873: eitss.se INFO Legacy name server ID for dns1.eitss.net (80.83.90.30): version.bind = not currently available
+ 24.981: eitss.se NOTICE No answer received from 80.83.90.30 when querying for version.server/CH/TXT.
+ 24.998: eitss.se INFO Done testing name server dns1.eitss.net.
+ 24.998: eitss.se INFO Begin testing name server dns2.eitss.net.
+ 24.998: eitss.se INFO Begin testing host dns2.eitss.net.
+ 25.335: eitss.se INFO Begin testing address 80.83.90.34.
+ 26.633: eitss.se INFO Done testing address 80.83.90.34.
+ 26.633: eitss.se INFO Done testing host dns2.eitss.net.
+ 27.070: eitss.se INFO Name server dns2.eitss.net (80.83.90.34) answers queries over UDP.
+ 27.117: eitss.se INFO Name server dns2.eitss.net (80.83.90.34) answers queries over TCP.
+ 27.180: eitss.se INFO Name server dns2.eitss.net (80.83.90.34) is not recursive.
+ 27.343: eitss.se INFO Name server dns2.eitss.net (80.83.90.34) authoritative for eitss.se.
+ 27.495: eitss.se INFO Name server dns2.eitss.net (80.83.90.34) closed for zone transfer of eitss.se.
+ 27.515: eitss.se INFO Legacy name server ID for dns2.eitss.net (80.83.90.34): hostname.bind = dns2.eitss.net
+ 27.542: eitss.se INFO Legacy name server ID for dns2.eitss.net (80.83.90.34): version.bind = not currently available
+ 27.602: eitss.se NOTICE No answer received from 80.83.90.34 when querying for version.server/CH/TXT.
+ 27.602: eitss.se INFO Done testing name server dns2.eitss.net.
+ 27.602: eitss.se INFO Begin testing name server dns1.speedcom.se.
+ 27.602: eitss.se INFO Begin testing host dns1.speedcom.se.
+ 28.060: eitss.se INFO Begin testing address 80.83.90.30.
+ 28.447: eitss.se INFO Done testing address 80.83.90.30.
+ 28.448: eitss.se INFO Done testing host dns1.speedcom.se.
+ 28.766: eitss.se INFO Name server dns1.speedcom.se (80.83.90.30) answers queries over UDP.
+ 28.801: eitss.se INFO Name server dns1.speedcom.se (80.83.90.30) answers queries over TCP.
+ 28.875: eitss.se INFO Name server dns1.speedcom.se (80.83.90.30) is not recursive.
+ 28.963: eitss.se INFO Name server dns1.speedcom.se (80.83.90.30) authoritative for eitss.se.
+ 29.111: eitss.se INFO Name server dns1.speedcom.se (80.83.90.30) closed for zone transfer of eitss.se.
+ 29.187: eitss.se INFO Legacy name server ID for dns1.speedcom.se (80.83.90.30): hostname.bind = dns1.eitss.net
+ 29.269: eitss.se INFO Legacy name server ID for dns1.speedcom.se (80.83.90.30): version.bind = not currently available
+ 29.354: eitss.se NOTICE No answer received from 80.83.90.30 when querying for version.server/CH/TXT.
+ 29.354: eitss.se INFO Done testing name server dns1.speedcom.se.
+ 29.354: eitss.se INFO Begin testing name server dns2.speedcom.se.
+ 29.354: eitss.se INFO Begin testing host dns2.speedcom.se.
+ 29.623: eitss.se INFO Begin testing address 80.83.90.34.
+ 30.158: eitss.se INFO Done testing address 80.83.90.34.
+ 30.158: eitss.se INFO Done testing host dns2.speedcom.se.
+ 30.515: eitss.se INFO Name server dns2.speedcom.se (80.83.90.34) answers queries over UDP.
+ 30.550: eitss.se INFO Name server dns2.speedcom.se (80.83.90.34) answers queries over TCP.
+ 30.588: eitss.se INFO Name server dns2.speedcom.se (80.83.90.34) is not recursive.
+ 30.714: eitss.se INFO Name server dns2.speedcom.se (80.83.90.34) authoritative for eitss.se.
+ 30.864: eitss.se INFO Name server dns2.speedcom.se (80.83.90.34) closed for zone transfer of eitss.se.
+ 30.884: eitss.se INFO Legacy name server ID for dns2.speedcom.se (80.83.90.34): hostname.bind = dns2.eitss.net
+ 30.911: eitss.se INFO Legacy name server ID for dns2.speedcom.se (80.83.90.34): version.bind = not currently available
+ 30.954: eitss.se NOTICE No answer received from 80.83.90.34 when querying for version.server/CH/TXT.
+ 30.954: eitss.se INFO Done testing name server dns2.speedcom.se.
+ 30.964: eitss.se INFO Begin testing zone consistency for eitss.se.
+ 32.294: eitss.se INFO SOA at address 80.83.90.34 has serial 2005101011.
+ 32.312: eitss.se INFO SOA at address 80.83.90.30 has serial 2005101011.
+ 32.312: eitss.se INFO All SOA records have consistent serial numbers.
+ 32.312: eitss.se INFO All other fields in the SOA record are consistent among all name servers.
+ 33.170: eitss.se NOTICE The listed nameservers for eitss.se all report the same set of nameservers.
+ 33.170: eitss.se INFO Done testing zone consistency for eitss.se.
+ 33.170: eitss.se INFO Begin testing SOA parameters for eitss.se.
+ 33.225: eitss.se INFO Found SOA record for eitss.se.
+ 33.225: eitss.se INFO Begin testing host dns1.eitss.net.
+ 33.776: eitss.se INFO Begin testing address 80.83.90.30.
+ 34.114: eitss.se INFO Done testing address 80.83.90.30.
+ 34.114: eitss.se INFO Done testing host dns1.eitss.net.
+ 34.114: eitss.se INFO SOA MNAME for eitss.se valid (dns1.eitss.net).
+ 34.114: eitss.se INFO SOA MNAME for eitss.se (dns1.eitss.net) listed as NS.
+ 34.780: eitss.se INFO SOA MNAME for eitss.se (dns1.eitss.net) is authoritative.
+ 34.780: eitss.se INFO Begin testing email address registry@eitss.se.
+ 35.203: eitss.se INFO Mail exchangers for registry@eitss.se found mail.speedcom.se,mail.eitss.se.
+ 35.204: eitss.se INFO Begin testing host mail.speedcom.se.
+ 35.933: eitss.se INFO Begin testing address 80.83.90.49.
+ 37.276: eitss.se INFO Done testing address 80.83.90.49.
+ 37.276: eitss.se INFO Done testing host mail.speedcom.se.
+ 37.604: eitss.se INFO Begin testing host mail.eitss.se.
+ 39.106: eitss.se ERROR Host name mail.eitss.se refers to a CNAME.
+ 39.107: eitss.se INFO Done testing host mail.eitss.se.
+ 39.107: eitss.se NOTICE Invalid host name for mail exchanger mail.eitss.se.
+ 39.107: eitss.se INFO Done testing email address registry@eitss.se.
+ 39.107: eitss.se INFO Successful attempt to deliver email for SOA RNAME of eitss.se (registry.eitss.se) using registry@eitss.se.
+ 39.107: eitss.se INFO SOA TTL for eitss.se OK (3600) - recommended >= 3600.
+ 39.107: eitss.se NOTICE SOA refresh for eitss.se too small (3600) - recommended >= 14400.
+ 39.107: eitss.se NOTICE SOA retry for eitss.se too small (600) - recommended >= 3600.
+ 39.107: eitss.se NOTICE SOA expire for eitss.se too small (86400) - recommended >= 604800.
+ 39.107: eitss.se INFO SOA minimum for eitss.se OK (3600) - recommended between 300 and 86400.
+ 39.107: eitss.se INFO Done testing SOA parameters for eitss.se.
+ 39.108: eitss.se INFO Begin testing connectivity for eitss.se.
+ 40.697: eitss.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 40.697: eitss.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 40.697: eitss.se INFO Done testing connectivity for eitss.se.
+ 40.714: eitss.se INFO Begin testing DNSSEC for eitss.se.
+ 40.783: eitss.se INFO Did not find DS record for eitss.se at parent.
+ 40.848: eitss.se INFO Servers for eitss.se have consistent extra processing status.
+ 40.879: eitss.se INFO Authenticated denial records not found for eitss.se.
+ 40.902: eitss.se INFO Did not find DNSKEY record for eitss.se at child.
+ 40.902: eitss.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 40.902: eitss.se INFO Done testing DNSSEC for eitss.se.
+ 40.903: eitss.se INFO Test completed for zone eitss.se.

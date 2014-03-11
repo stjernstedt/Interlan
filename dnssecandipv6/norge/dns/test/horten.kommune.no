@@ -1,0 +1,84 @@
+  0.000: horten.kommune.no INFO Begin testing zone horten.kommune.no with version 1.6.1.
+  0.576: horten.kommune.no INFO Begin testing delegation for horten.kommune.no.
+  8.738: horten.kommune.no INFO Name servers listed at parent: ns1.uniweb.no,ns3.uniweb.no
+  9.928: horten.kommune.no INFO Name servers listed at child: ns1.uniweb.no,ns3.uniweb.no
+  9.928: horten.kommune.no NOTICE No IPv6 name servers found.
+ 10.074: horten.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.214: horten.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.360: horten.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.502: horten.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.250: horten.kommune.no INFO It is possible to build a referral packet for horten.kommune.no that works without EDNS0.
+ 11.751: horten.kommune.no INFO Previously used name servers for horten.kommune.no: 
+ 11.751: horten.kommune.no INFO Done testing delegation for horten.kommune.no.
+ 11.751: horten.kommune.no INFO Begin testing name server ns1.uniweb.no.
+ 11.771: horten.kommune.no INFO Begin testing host ns1.uniweb.no.
+ 12.005: horten.kommune.no INFO Begin testing address 91.207.158.110.
+ 19.295: horten.kommune.no INFO Done testing address 91.207.158.110.
+ 19.295: horten.kommune.no INFO Done testing host ns1.uniweb.no.
+ 19.467: horten.kommune.no INFO Name server ns1.uniweb.no (91.207.158.110) answers queries over UDP.
+ 19.518: horten.kommune.no INFO Name server ns1.uniweb.no (91.207.158.110) answers queries over TCP.
+ 19.548: horten.kommune.no INFO Name server ns1.uniweb.no (91.207.158.110) is not recursive.
+ 19.621: horten.kommune.no INFO Name server ns1.uniweb.no (91.207.158.110) authoritative for horten.kommune.no.
+ 19.691: horten.kommune.no INFO Name server ns1.uniweb.no (91.207.158.110) closed for zone transfer of horten.kommune.no.
+ 19.726: horten.kommune.no NOTICE No answer received from 91.207.158.110 when querying for version.bind/CH/TXT.
+ 19.763: horten.kommune.no INFO Done testing name server ns1.uniweb.no.
+ 19.763: horten.kommune.no INFO Begin testing name server ns3.uniweb.no.
+ 19.763: horten.kommune.no INFO Begin testing host ns3.uniweb.no.
+ 19.850: horten.kommune.no INFO Begin testing address 109.247.131.38.
+ 21.108: horten.kommune.no INFO Done testing address 109.247.131.38.
+ 21.108: horten.kommune.no INFO Done testing host ns3.uniweb.no.
+ 21.336: horten.kommune.no INFO Name server ns3.uniweb.no (109.247.131.38) answers queries over UDP.
+ 21.379: horten.kommune.no INFO Name server ns3.uniweb.no (109.247.131.38) answers queries over TCP.
+ 21.398: horten.kommune.no INFO Name server ns3.uniweb.no (109.247.131.38) is not recursive.
+ 21.475: horten.kommune.no INFO Name server ns3.uniweb.no (109.247.131.38) authoritative for horten.kommune.no.
+ 21.528: horten.kommune.no INFO Name server ns3.uniweb.no (109.247.131.38) closed for zone transfer of horten.kommune.no.
+ 21.561: horten.kommune.no NOTICE No answer received from 109.247.131.38 when querying for version.bind/CH/TXT.
+ 21.596: horten.kommune.no INFO Done testing name server ns3.uniweb.no.
+ 21.596: horten.kommune.no INFO Begin testing zone consistency for horten.kommune.no.
+ 22.042: horten.kommune.no INFO SOA at address 91.207.158.110 has serial 2013061908.
+ 22.061: horten.kommune.no INFO SOA at address 109.247.131.38 has serial 2013062043.
+ 22.061: horten.kommune.no WARNING 2 different serials found.
+ 22.061: horten.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 22.289: horten.kommune.no NOTICE The listed nameservers for horten.kommune.no all report the same set of nameservers.
+ 22.289: horten.kommune.no INFO Done testing zone consistency for horten.kommune.no.
+ 22.289: horten.kommune.no INFO Begin testing SOA parameters for horten.kommune.no.
+ 22.306: horten.kommune.no INFO Found SOA record for horten.kommune.no.
+ 22.307: horten.kommune.no INFO Begin testing host ns1.uniweb.no.
+ 22.415: horten.kommune.no INFO Begin testing address 91.207.158.110.
+ 22.529: horten.kommune.no INFO Done testing address 91.207.158.110.
+ 22.529: horten.kommune.no INFO Done testing host ns1.uniweb.no.
+ 22.529: horten.kommune.no INFO SOA MNAME for horten.kommune.no valid (ns1.uniweb.no).
+ 22.529: horten.kommune.no INFO SOA MNAME for horten.kommune.no (ns1.uniweb.no) listed as NS.
+ 22.800: horten.kommune.no INFO SOA MNAME for horten.kommune.no (ns1.uniweb.no) is authoritative.
+ 22.800: horten.kommune.no INFO Begin testing email address hostmaster@uniweb.no.
+ 22.921: horten.kommune.no INFO Mail exchangers for hostmaster@uniweb.no found mx01.uniweb.no.
+ 22.921: horten.kommune.no INFO Begin testing host mx01.uniweb.no.
+ 23.224: horten.kommune.no INFO Begin testing address 91.207.158.12.
+ 23.938: horten.kommune.no INFO Done testing address 91.207.158.12.
+ 23.938: horten.kommune.no INFO Begin testing address 91.207.158.35.
+ 24.570: horten.kommune.no INFO Done testing address 91.207.158.35.
+ 24.570: horten.kommune.no INFO Begin testing address 91.207.158.18.
+ 25.038: horten.kommune.no INFO Done testing address 91.207.158.18.
+ 25.038: horten.kommune.no INFO Begin testing address 91.207.158.184.
+ 25.549: horten.kommune.no INFO Done testing address 91.207.158.184.
+ 25.550: horten.kommune.no INFO Done testing host mx01.uniweb.no.
+ 25.804: horten.kommune.no INFO Done testing email address hostmaster@uniweb.no.
+ 25.804: horten.kommune.no INFO Successful attempt to deliver email for SOA RNAME of horten.kommune.no (hostmaster.uniweb.no) using hostmaster@uniweb.no.
+ 25.804: horten.kommune.no INFO SOA TTL for horten.kommune.no OK (10800) - recommended >= 3600.
+ 25.804: horten.kommune.no NOTICE SOA refresh for horten.kommune.no too small (10800) - recommended >= 14400.
+ 25.804: horten.kommune.no INFO SOA retry for horten.kommune.no OK (3600) - recommended >= 3600.
+ 25.804: horten.kommune.no INFO SOA expire for horten.kommune.no OK (604800) - recommended >= 604800.
+ 25.804: horten.kommune.no INFO SOA minimum for horten.kommune.no OK (3600) - recommended between 300 and 86400.
+ 25.804: horten.kommune.no INFO Done testing SOA parameters for horten.kommune.no.
+ 25.805: horten.kommune.no INFO Begin testing connectivity for horten.kommune.no.
+ 26.951: horten.kommune.no INFO Zone announced by more than one ASN.
+ 26.952: horten.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 26.952: horten.kommune.no INFO Done testing connectivity for horten.kommune.no.
+ 26.952: horten.kommune.no INFO Begin testing DNSSEC for horten.kommune.no.
+ 27.026: horten.kommune.no INFO Did not find DS record for horten.kommune.no at parent.
+ 27.136: horten.kommune.no INFO Servers for horten.kommune.no have consistent extra processing status.
+ 27.186: horten.kommune.no INFO Authenticated denial records not found for horten.kommune.no.
+ 27.211: horten.kommune.no INFO Did not find DNSKEY record for horten.kommune.no at child.
+ 27.211: horten.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 27.211: horten.kommune.no INFO Done testing DNSSEC for horten.kommune.no.
+ 27.232: horten.kommune.no INFO Test completed for zone horten.kommune.no.

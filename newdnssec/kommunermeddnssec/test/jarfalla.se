@@ -1,0 +1,136 @@
+  0.000: jarfalla.se INFO Begin testing zone jarfalla.se with version 1.6.1.
+  0.721: jarfalla.se INFO Begin testing delegation for jarfalla.se.
+ 30.230: jarfalla.se INFO Name servers listed at parent: dns01.portsit.se,dns02.portsit.se
+ 36.112: jarfalla.se INFO Name servers listed at child: dns01.portsit.se,dns02.portsit.se
+ 36.112: jarfalla.se NOTICE No IPv6 name servers found.
+ 36.329: jarfalla.se INFO Parent glue for jarfalla.se found: dns01.portsit.se (193.14.90.55)
+ 36.613: jarfalla.se INFO Parent glue for jarfalla.se found: dns02.portsit.se (84.40.9.219)
+ 36.768: jarfalla.se INFO Checking glue for dns01.portsit.se (193.14.90.55).
+ 36.769: jarfalla.se INFO Checking glue for dns02.portsit.se (84.40.9.219).
+ 36.769: jarfalla.se INFO Parent glue for jarfalla.se found: dns01.portsit.se (193.14.90.55)
+ 36.770: jarfalla.se INFO Parent glue for jarfalla.se found: dns02.portsit.se (84.40.9.219)
+ 38.106: jarfalla.se INFO It is possible to build a referral packet for jarfalla.se that works without EDNS0.
+ 39.622: jarfalla.se INFO Previously used name servers for jarfalla.se: 
+ 39.623: jarfalla.se INFO Done testing delegation for jarfalla.se.
+ 39.623: jarfalla.se INFO Begin testing name server dns01.portsit.se.
+ 39.623: jarfalla.se INFO Begin testing host dns01.portsit.se.
+ 40.116: jarfalla.se INFO Begin testing address 193.14.90.55.
+ 61.520: jarfalla.se INFO Done testing address 193.14.90.55.
+ 61.520: jarfalla.se INFO Done testing host dns01.portsit.se.
+ 61.878: jarfalla.se INFO Name server dns01.portsit.se (193.14.90.55) answers queries over UDP.
+ 61.944: jarfalla.se INFO Name server dns01.portsit.se (193.14.90.55) answers queries over TCP.
+ 61.996: jarfalla.se INFO Name server dns01.portsit.se (193.14.90.55) is not recursive.
+ 62.252: jarfalla.se INFO Name server dns01.portsit.se (193.14.90.55) authoritative for jarfalla.se.
+ 62.316: jarfalla.se INFO Name server dns01.portsit.se (193.14.90.55) closed for zone transfer of jarfalla.se.
+ 62.384: jarfalla.se INFO Legacy name server ID for dns01.portsit.se (193.14.90.55): hostname.bind = <HIDDEN>
+ 66.628: jarfalla.se NOTICE No answer received from 193.14.90.55 when querying for version.server/CH/TXT.
+ 66.629: jarfalla.se INFO Done testing name server dns01.portsit.se.
+ 66.639: jarfalla.se INFO Begin testing name server dns02.portsit.se.
+ 66.640: jarfalla.se INFO Begin testing host dns02.portsit.se.
+ 67.390: jarfalla.se INFO Begin testing address 84.40.9.219.
+ 72.206: jarfalla.se INFO Done testing address 84.40.9.219.
+ 72.206: jarfalla.se INFO Done testing host dns02.portsit.se.
+ 73.256: jarfalla.se INFO Name server dns02.portsit.se (84.40.9.219) answers queries over UDP.
+ 73.424: jarfalla.se INFO Name server dns02.portsit.se (84.40.9.219) answers queries over TCP.
+ 73.468: jarfalla.se INFO Name server dns02.portsit.se (84.40.9.219) is not recursive.
+ 73.912: jarfalla.se INFO Name server dns02.portsit.se (84.40.9.219) authoritative for jarfalla.se.
+ 74.037: jarfalla.se INFO Name server dns02.portsit.se (84.40.9.219) closed for zone transfer of jarfalla.se.
+ 74.129: jarfalla.se INFO Legacy name server ID for dns02.portsit.se (84.40.9.219): hostname.bind = <HIDDEN>
+ 74.168: jarfalla.se INFO Legacy name server ID for dns02.portsit.se (84.40.9.219): version.bind = <HIDDEN>
+ 74.308: jarfalla.se NOTICE No answer received from 84.40.9.219 when querying for version.server/CH/TXT.
+ 74.308: jarfalla.se INFO Done testing name server dns02.portsit.se.
+ 74.308: jarfalla.se INFO Begin testing zone consistency for jarfalla.se.
+ 75.905: jarfalla.se INFO SOA at address 193.14.90.55 has serial 2014021408.
+ 76.264: jarfalla.se INFO SOA at address 84.40.9.219 has serial 2014021408.
+ 76.264: jarfalla.se INFO All SOA records have consistent serial numbers.
+ 76.264: jarfalla.se INFO All other fields in the SOA record are consistent among all name servers.
+ 78.721: jarfalla.se NOTICE The listed nameservers for jarfalla.se all report the same set of nameservers.
+ 78.722: jarfalla.se INFO Done testing zone consistency for jarfalla.se.
+ 78.722: jarfalla.se INFO Begin testing SOA parameters for jarfalla.se.
+ 78.764: jarfalla.se INFO Found SOA record for jarfalla.se.
+ 78.764: jarfalla.se INFO Begin testing host dns01.portsit.se.
+ 82.681: jarfalla.se INFO Begin testing address 193.14.90.55.
+ 83.164: jarfalla.se INFO Done testing address 193.14.90.55.
+ 83.164: jarfalla.se INFO Done testing host dns01.portsit.se.
+ 83.164: jarfalla.se INFO SOA MNAME for jarfalla.se valid (dns01.portsit.se).
+ 83.166: jarfalla.se INFO SOA MNAME for jarfalla.se (dns01.portsit.se) listed as NS.
+ 83.718: jarfalla.se INFO SOA MNAME for jarfalla.se (dns01.portsit.se) is authoritative.
+ 83.718: jarfalla.se INFO Begin testing email address registry@portsit.se.
+ 84.321: jarfalla.se INFO Mail exchangers for registry@portsit.se found asmx01.portsit.se,asmx02.portsit.se.
+ 84.321: jarfalla.se INFO Begin testing host asmx01.portsit.se.
+ 85.528: jarfalla.se INFO Begin testing address 193.14.90.114.
+ 87.396: jarfalla.se INFO Done testing address 193.14.90.114.
+ 87.396: jarfalla.se INFO Done testing host asmx01.portsit.se.
+ 87.990: jarfalla.se INFO Begin testing host asmx02.portsit.se.
+ 89.944: jarfalla.se INFO Begin testing address 193.14.90.115.
+ 90.876: jarfalla.se INFO Done testing address 193.14.90.115.
+ 90.876: jarfalla.se INFO Done testing host asmx02.portsit.se.
+ 91.341: jarfalla.se INFO Done testing email address registry@portsit.se.
+ 91.341: jarfalla.se INFO Successful attempt to deliver email for SOA RNAME of jarfalla.se (registry.portsit.se) using registry@portsit.se.
+ 91.342: jarfalla.se INFO SOA TTL for jarfalla.se OK (3600) - recommended >= 3600.
+ 91.342: jarfalla.se NOTICE SOA refresh for jarfalla.se too small (3600) - recommended >= 14400.
+ 91.342: jarfalla.se NOTICE SOA retry for jarfalla.se too small (600) - recommended >= 3600.
+ 91.342: jarfalla.se NOTICE SOA expire for jarfalla.se too small (86400) - recommended >= 604800.
+ 91.342: jarfalla.se INFO SOA minimum for jarfalla.se OK (3600) - recommended between 300 and 86400.
+ 91.342: jarfalla.se INFO Done testing SOA parameters for jarfalla.se.
+ 91.342: jarfalla.se INFO Begin testing connectivity for jarfalla.se.
+ 96.541: jarfalla.se INFO Zone announced by more than one ASN.
+ 96.541: jarfalla.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 96.541: jarfalla.se INFO Done testing connectivity for jarfalla.se.
+ 96.541: jarfalla.se INFO Begin testing DNSSEC for jarfalla.se.
+ 96.630: jarfalla.se INFO Found DS record for jarfalla.se at parent.
+ 96.805: jarfalla.se INFO Nameserver 193.14.90.55 does DNSSEC extra processing.
+ 96.918: jarfalla.se INFO Nameserver 84.40.9.219 does DNSSEC extra processing.
+ 96.918: jarfalla.se INFO Servers for jarfalla.se have consistent extra processing status.
+ 97.101: jarfalla.se INFO Authenticated denial records found for jarfalla.se, of type NSEC.
+ 97.221: jarfalla.se INFO Found DNSKEY record for jarfalla.se at child.
+ 97.221: jarfalla.se INFO Consistent security for jarfalla.se.
+ 97.221: jarfalla.se INFO Checking DNSSEC at child (jarfalla.se).
+ 97.221: jarfalla.se INFO jarfalla.se's key with tag 25008 uses algorithm number 5 (RSA/SHA-1).
+ 97.222: jarfalla.se INFO Algorithm number 5 is OK.
+ 97.222: jarfalla.se INFO jarfalla.se's key with tag 13366 uses algorithm number 5 (RSA/SHA-1).
+ 97.222: jarfalla.se INFO Algorithm number 5 is OK.
+ 97.222: jarfalla.se INFO jarfalla.se's key with tag 45573 uses algorithm number 5 (RSA/SHA-1).
+ 97.222: jarfalla.se INFO Algorithm number 5 is OK.
+ 97.222: jarfalla.se INFO jarfalla.se's key with tag 30181 uses algorithm number 5 (RSA/SHA-1).
+ 97.222: jarfalla.se INFO Algorithm number 5 is OK.
+ 97.222: jarfalla.se INFO DNSKEY jarfalla.se (tag 30181) is marked as a secure entry point (SEP).
+ 97.223: jarfalla.se INFO DNSSEC signature expires at: Wed Apr 30 16:04:35 2014
+ 97.223: jarfalla.se INFO Duration for RRSIG(jarfalla.se/IN/DNSKEY/25008) is OK (5371162 seconds).
+ 97.276: jarfalla.se INFO DNSSEC signature RRSIG(jarfalla.se/IN/DNSKEY/25008) matches records.
+ 97.276: jarfalla.se INFO DNSSEC signature valid: RRSIG(jarfalla.se/IN/DNSKEY/25008)
+ 97.276: jarfalla.se INFO DNSSEC signature expires at: Tue May 27 14:05:11 2014
+ 97.276: jarfalla.se INFO Duration for RRSIG(jarfalla.se/IN/DNSKEY/13366) is OK (7696798 seconds).
+ 97.278: jarfalla.se INFO DNSSEC signature RRSIG(jarfalla.se/IN/DNSKEY/13366) matches records.
+ 97.278: jarfalla.se INFO DNSSEC signature valid: RRSIG(jarfalla.se/IN/DNSKEY/13366)
+ 97.278: jarfalla.se INFO DNSSEC signature expires at: Thu Jan 10 14:44:15 2019
+ 97.278: jarfalla.se WARNING Duration for RRSIG(jarfalla.se/IN/DNSKEY/30181) is too long (153628742 seconds).
+ 97.279: jarfalla.se INFO DNSSEC signature RRSIG(jarfalla.se/IN/DNSKEY/30181) matches records.
+ 97.279: jarfalla.se INFO DNSSEC signature valid: RRSIG(jarfalla.se/IN/DNSKEY/30181)
+ 97.279: jarfalla.se INFO DNSSEC signature expires at: Thu Jan 10 14:45:45 2019
+ 97.319: jarfalla.se WARNING Duration for RRSIG(jarfalla.se/IN/DNSKEY/45573) is too long (153628832 seconds).
+ 97.321: jarfalla.se INFO DNSSEC signature RRSIG(jarfalla.se/IN/DNSKEY/45573) matches records.
+ 97.321: jarfalla.se INFO DNSSEC signature valid: RRSIG(jarfalla.se/IN/DNSKEY/45573)
+ 97.321: jarfalla.se INFO Enough valid signatures found for jarfalla.se.
+ 97.462: jarfalla.se INFO DNSSEC signature expires at: Wed Apr 30 16:04:35 2014
+ 97.462: jarfalla.se INFO Duration for RRSIG(jarfalla.se/IN/SOA/25008) is OK (5371162 seconds).
+ 97.463: jarfalla.se INFO DNSSEC signature RRSIG(jarfalla.se/IN/SOA/25008) matches records.
+ 97.463: jarfalla.se INFO DNSSEC signature valid: RRSIG(jarfalla.se/IN/SOA/25008)
+ 97.467: jarfalla.se INFO DNSSEC signature expires at: Tue May 27 14:05:11 2014
+ 97.467: jarfalla.se INFO Duration for RRSIG(jarfalla.se/IN/SOA/13366) is OK (7696798 seconds).
+ 97.468: jarfalla.se INFO DNSSEC signature RRSIG(jarfalla.se/IN/SOA/13366) matches records.
+ 97.468: jarfalla.se INFO DNSSEC signature valid: RRSIG(jarfalla.se/IN/SOA/13366)
+ 97.468: jarfalla.se INFO DNSSEC signature expires at: Thu Jan 10 14:45:45 2019
+ 97.468: jarfalla.se WARNING Duration for RRSIG(jarfalla.se/IN/SOA/45573) is too long (153628832 seconds).
+ 97.469: jarfalla.se INFO DNSSEC signature RRSIG(jarfalla.se/IN/SOA/45573) matches records.
+ 97.469: jarfalla.se INFO DNSSEC signature valid: RRSIG(jarfalla.se/IN/SOA/45573)
+ 97.469: jarfalla.se INFO Enough valid signatures over SOA RRset found for jarfalla.se.
+ 97.469: jarfalla.se INFO DNSSEC child checks for jarfalla.se complete.
+ 97.469: jarfalla.se INFO Checking DNSSEC at parent of jarfalla.se.
+ 97.469: jarfalla.se INFO jarfalla.se's key with tag 30181 uses algorithm number 5 (RSA/SHA-1).
+ 97.469: jarfalla.se INFO Algorithm number 5 is OK.
+ 97.470: jarfalla.se INFO Parent DS(jarfalla.se/5/1/30181) refers to valid key at child: DNSKEY(jarfalla.se/5/30181)
+ 97.470: jarfalla.se INFO Parent DS(jarfalla.se) refers to secure entry point (SEP) at child: DS(jarfalla.se/5/1/30181)
+ 97.470: jarfalla.se INFO DNSSEC parent checks for jarfalla.se complete.
+ 97.470: jarfalla.se INFO Done testing DNSSEC for jarfalla.se.
+ 97.470: jarfalla.se INFO Test completed for zone jarfalla.se.

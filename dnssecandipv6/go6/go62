@@ -1,0 +1,35 @@
+#!/bin/sh
+
+rrdtool graph ipv62.png -w 800  --start end-365days --width 365 --end now --lower-limit 0 --vertical-label "Quad A www's" \
+ DEF:bank=bank.rrd:bank:LAST  \
+ DEF:county=county.rrd:county:LAST  \
+ DEF:authorities=authorities.rrd:authorities:LAST  \
+ DEF:registry=registry.rrd:registry:LAST\
+ DEF:municipalities=municipalities.rrd:municipalities:LAST \
+ DEF:consults=consults.rrd:consults:LAST \
+ CDEF:ipv6tot=municipalities,consults,+,registry,+,authorities,+,county,+ LINE2:ipv6tot#FF0000
+
+cp -v ipv62.png ../public_html
+
+rrdtool graph dns62.png -w 800  --start end-365days --width 365 --end now --lower-limit 0 --vertical-label "Quad A DNS" \
+ DEF:bank=bankdns.rrd:bank:LAST  \
+ DEF:county=countydns.rrd:county:LAST  \
+ DEF:authorities=authoritiesdns.rrd:authorities:LAST  \
+ DEF:registry=registrydns.rrd:registry:LAST\
+ DEF:municipalities=municipalitiesdns.rrd:municipalities:LAST \
+ DEF:consults=consultsdns.rrd:consults:LAST \
+ CDEF:ipv6tot=municipalities,consults,+,registry,+,authorities,+,county,+ LINE2:ipv6tot#FF0000
+
+cp -v dns62.png ../public_html
+
+rrdtool graph mx62.png -w 800  --start end-365days --width 365 --end now --lower-limit 0 --vertical-label "Quad A MX" \
+ DEF:bank=bankmx.rrd:bank:LAST  \
+ DEF:county=countymx.rrd:county:LAST  \
+ DEF:authorities=authoritiesmx.rrd:authorities:LAST  \
+ DEF:registry=registrymx.rrd:registry:LAST\
+ DEF:municipalities=municipalitiesmx.rrd:municipalities:LAST \
+ DEF:consults=consultsmx.rrd:consults:LAST \
+ CDEF:ipv6tot=municipalities,consults,+,registry,+,authorities,+,county,+ LINE2:ipv6tot#FF0000
+
+cp -v mx62.png ../public_html
+

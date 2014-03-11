@@ -1,0 +1,89 @@
+  0.000: hylte.se INFO Begin testing zone hylte.se with version 1.2.
+  0.000: hylte.se INFO Begin testing delegation for hylte.se.
+  5.678: hylte.se INFO Name servers listed at parent: dns.hylte.se,dns2.telia.com
+  7.083: hylte.se INFO Name servers listed at child: dns.hylte.se,dns2.telia.com
+  7.083: hylte.se NOTICE No IPv6 name servers found.
+  7.101: hylte.se INFO Parent glue for hylte.se found: dns.hylte.se (194.237.31.6)
+  7.199: hylte.se INFO Checking glue for dns.hylte.se (194.237.31.6).
+  7.216: hylte.se ERROR Inconsistent glue for name server dns.hylte.se.
+  7.217: hylte.se INFO Parent glue for hylte.se found: dns.hylte.se (194.237.31.6)
+  7.218: hylte.se INFO Done testing delegation for hylte.se.
+  7.218: hylte.se INFO Begin testing name server dns.hylte.se.
+  7.218: hylte.se INFO Begin testing host dns.hylte.se.
+  7.219: hylte.se INFO Begin testing address 213.50.52.130.
+ 16.941: hylte.se INFO Done testing address 213.50.52.130.
+ 16.941: hylte.se INFO Done testing host dns.hylte.se.
+ 16.961: hylte.se INFO Name server dns.hylte.se (213.50.52.130) answers queries over UDP.
+ 16.996: hylte.se INFO Name server dns.hylte.se (213.50.52.130) answers queries over TCP.
+ 17.015: hylte.se INFO Name server dns.hylte.se (213.50.52.130) is not recursive.
+ 17.037: hylte.se INFO Name server dns.hylte.se (213.50.52.130) authoritative for hylte.se.
+ 17.087: hylte.se INFO Name server dns.hylte.se (213.50.52.130) closed for zone transfer of hylte.se.
+ 17.105: hylte.se NOTICE No answer received from 213.50.52.130 when querying for hostname.bind/CH/TXT.
+ 17.123: hylte.se NOTICE No answer received from 213.50.52.130 when querying for version.bind/CH/TXT.
+ 17.142: hylte.se NOTICE No answer received from 213.50.52.130 when querying for id.server/CH/TXT.
+ 17.161: hylte.se NOTICE No answer received from 213.50.52.130 when querying for version.server/CH/TXT.
+ 17.161: hylte.se INFO Done testing name server dns.hylte.se.
+ 17.161: hylte.se INFO Begin testing name server dns2.telia.com.
+ 17.161: hylte.se INFO Begin testing host dns2.telia.com.
+ 17.161: hylte.se INFO Begin testing address 81.228.10.67.
+ 18.635: hylte.se INFO Done testing address 81.228.10.67.
+ 18.635: hylte.se INFO Done testing host dns2.telia.com.
+ 18.652: hylte.se INFO Name server dns2.telia.com (81.228.10.67) answers queries over UDP.
+ 18.684: hylte.se INFO Name server dns2.telia.com (81.228.10.67) answers queries over TCP.
+ 18.707: hylte.se INFO Name server dns2.telia.com (81.228.10.67) is not recursive.
+ 18.724: hylte.se INFO Name server dns2.telia.com (81.228.10.67) authoritative for hylte.se.
+ 18.765: hylte.se INFO Name server dns2.telia.com (81.228.10.67) closed for zone transfer of hylte.se.
+ 18.783: hylte.se INFO Legacy name server ID for dns2.telia.com (81.228.10.67): hostname.bind = dnshosting3-sn4.m-sp.skanova.net
+ 18.799: hylte.se INFO Legacy name server ID for dns2.telia.com (81.228.10.67): version.bind = 9.3.2-P1
+ 18.832: hylte.se NOTICE No answer received from 81.228.10.67 when querying for version.server/CH/TXT.
+ 18.832: hylte.se INFO Done testing name server dns2.telia.com.
+ 18.832: hylte.se INFO Begin testing zone consistency for hylte.se.
+ 18.853: hylte.se INFO SOA at address 81.228.10.67 has serial 2004100544.
+ 18.872: hylte.se INFO SOA at address 213.50.52.130 has serial 2004100544.
+ 18.873: hylte.se INFO All SOA records have consistent serial numbers.
+ 18.873: hylte.se INFO All SOA records are consistent among all name servers.
+ 18.873: hylte.se INFO Done testing zone consistency for hylte.se.
+ 18.873: hylte.se INFO Begin testing SOA parameters for hylte.se.
+ 18.891: hylte.se INFO Found SOA record for hylte.se.
+ 18.891: hylte.se INFO Begin testing host 213.50.52.130.
+ 18.891: hylte.se ERROR Host name 213.50.52.130 is illegal (syntax error at Top all-numeric)
+ 18.891: hylte.se INFO Done testing host 213.50.52.130.
+ 18.891: hylte.se ERROR Error while checking SOA MNAME for hylte.se (213.50.52.130).
+ 18.892: hylte.se NOTICE SOA MNAME for hylte.se (213.50.52.130) not listed as NS.
+ 19.363: hylte.se INFO Begin testing email address webmaster@hylte.se.
+ 19.616: hylte.se INFO Mail exchangers for webmaster@hylte.se found mail.hylte.se.
+ 19.616: hylte.se INFO All mail servers for webmaster@hylte.se are in zone hylte.se.
+ 19.616: hylte.se INFO Begin testing host mail.hylte.se.
+ 20.073: hylte.se INFO Begin testing address 213.50.52.140.
+ 20.910: hylte.se INFO Done testing address 213.50.52.140.
+ 20.910: hylte.se INFO Done testing host mail.hylte.se.
+ 20.911: hylte.se INFO Begin testing mail server mail.hylte.se (213.50.52.140) with webmaster@hylte.se.
+ 21.020: hylte.se INFO SMTP banner: mail.hylte.se Service ready
+ 21.220: hylte.se INFO SMTP testing of mail.hylte.se (213.50.52.140) with webmaster@hylte.se succeeded without errors.
+ 21.220: hylte.se INFO Done testing mail server mail.hylte.se (213.50.52.140) with webmaster@hylte.se.
+ 21.220: hylte.se INFO Delivery over IPv4 to webmaster@hylte.se ok.
+ 21.220: hylte.se INFO Delivery over IPv6 to webmaster@hylte.se could not be done.
+ 21.221: hylte.se INFO Done testing email address webmaster@hylte.se.
+ 21.221: hylte.se INFO Successful attempt to deliver email for SOA RNAME of hylte.se (webmaster.hylte.se) using webmaster@hylte.se.
+ 21.221: hylte.se INFO SOA TTL for hylte.se OK (86400) - recommended >= 3600.
+ 21.221: hylte.se INFO SOA refresh for hylte.se OK (21600) - recommended >= 14400.
+ 21.221: hylte.se INFO SOA retry for hylte.se OK (3600) - recommended >= 3600.
+ 21.221: hylte.se INFO SOA expire for hylte.se OK (604800) - recommended >= 604800.
+ 21.221: hylte.se INFO SOA minimum for hylte.se OK (86400) - recommended between 300 and 86400.
+ 21.221: hylte.se INFO Done testing SOA parameters for hylte.se.
+ 21.221: hylte.se INFO Begin testing connectivity for hylte.se.
+ 21.975: hylte.se INFO Name server 81.228.10.67 announced by: 3301
+ 22.585: hylte.se INFO Name server 213.50.52.130 announced by: 3292
+ 22.586: hylte.se INFO Zone announced by IPv4 ASN: 3292,3301
+ 22.586: hylte.se INFO Zone announced by more than one ASN (2).
+ 22.586: hylte.se INFO Zone announced by IPv6 ASN: 
+ 22.586: hylte.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 22.586: hylte.se INFO Done testing connectivity for hylte.se.
+ 22.586: hylte.se INFO Begin testing DNSSEC for hylte.se.
+ 22.619: hylte.se INFO Did not find DS record for hylte.se at parent.
+ 22.683: hylte.se NOTICE No answer received from 213.50.52.130 when querying for hylte.se/IN/DNSKEY.
+ 22.683: hylte.se INFO Servers for hylte.se have consistent extra processing status.
+ 22.683: hylte.se INFO Did not find DNSKEY record for hylte.se at child.
+ 22.683: hylte.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 22.683: hylte.se INFO Done testing DNSSEC for hylte.se.
+ 22.683: hylte.se INFO Test completed for zone hylte.se.

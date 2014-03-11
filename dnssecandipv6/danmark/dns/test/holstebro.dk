@@ -1,0 +1,102 @@
+  0.000: holstebro.dk INFO Begin testing zone holstebro.dk with version 1.6.1.
+  0.511: holstebro.dk INFO Begin testing delegation for holstebro.dk.
+ 15.124: holstebro.dk INFO Name servers listed at parent: hkns1.holstebro.dk,hkns2.holstebro.dk,ns2.tele.dk
+ 16.561: holstebro.dk INFO Name servers listed at child: hkns1.holstebro.dk,hkns2.holstebro.dk,ns2.tele.dk
+ 16.561: holstebro.dk NOTICE No IPv6 name servers found.
+ 16.637: holstebro.dk INFO Parent glue for holstebro.dk found: hkns1.holstebro.dk (194.239.249.254)
+ 16.749: holstebro.dk INFO Parent glue for holstebro.dk found: hkns2.holstebro.dk (194.239.74.254)
+ 16.884: holstebro.dk INFO Checking glue for hkns1.holstebro.dk (194.239.249.254).
+ 16.924: holstebro.dk INFO Child glue for holstebro.dk found: hkns1.holstebro.dk (194.239.249.254)
+ 16.925: holstebro.dk INFO Checking glue for hkns2.holstebro.dk (194.239.74.254).
+ 16.952: holstebro.dk INFO Child glue for holstebro.dk found: hkns2.holstebro.dk (194.239.74.254)
+ 16.953: holstebro.dk INFO Parent glue for holstebro.dk found: hkns1.holstebro.dk (194.239.249.254)
+ 16.953: holstebro.dk INFO Parent glue for holstebro.dk found: hkns2.holstebro.dk (194.239.74.254)
+ 17.770: holstebro.dk INFO It is possible to build a referral packet for holstebro.dk that works without EDNS0.
+ 18.282: holstebro.dk INFO Previously used name servers for holstebro.dk: 
+ 18.282: holstebro.dk INFO Done testing delegation for holstebro.dk.
+ 18.283: holstebro.dk INFO Begin testing name server hkns1.holstebro.dk.
+ 18.283: holstebro.dk INFO Begin testing host hkns1.holstebro.dk.
+ 18.424: holstebro.dk INFO Begin testing address 194.239.249.254.
+ 27.027: holstebro.dk INFO Done testing address 194.239.249.254.
+ 27.027: holstebro.dk INFO Done testing host hkns1.holstebro.dk.
+ 27.311: holstebro.dk INFO Name server hkns1.holstebro.dk (194.239.249.254) answers queries over UDP.
+ 27.371: holstebro.dk INFO Name server hkns1.holstebro.dk (194.239.249.254) answers queries over TCP.
+ 27.401: holstebro.dk INFO Name server hkns1.holstebro.dk (194.239.249.254) is not recursive.
+ 27.507: holstebro.dk INFO Name server hkns1.holstebro.dk (194.239.249.254) authoritative for holstebro.dk.
+ 27.583: holstebro.dk INFO Name server hkns1.holstebro.dk (194.239.249.254) closed for zone transfer of holstebro.dk.
+ 27.614: holstebro.dk INFO Legacy name server ID for hkns1.holstebro.dk (194.239.249.254): hostname.bind = hkns1
+ 27.657: holstebro.dk INFO Legacy name server ID for hkns1.holstebro.dk (194.239.249.254): version.bind = 9.8.1-P1
+ 27.731: holstebro.dk NOTICE No answer received from 194.239.249.254 when querying for version.server/CH/TXT.
+ 27.732: holstebro.dk INFO Done testing name server hkns1.holstebro.dk.
+ 27.732: holstebro.dk INFO Begin testing name server hkns2.holstebro.dk.
+ 27.732: holstebro.dk INFO Begin testing host hkns2.holstebro.dk.
+ 27.944: holstebro.dk INFO Begin testing address 194.239.74.254.
+ 28.810: holstebro.dk INFO Done testing address 194.239.74.254.
+ 28.810: holstebro.dk INFO Done testing host hkns2.holstebro.dk.
+ 28.989: holstebro.dk INFO Name server hkns2.holstebro.dk (194.239.74.254) answers queries over UDP.
+ 29.093: holstebro.dk INFO Name server hkns2.holstebro.dk (194.239.74.254) answers queries over TCP.
+ 29.147: holstebro.dk INFO Name server hkns2.holstebro.dk (194.239.74.254) is not recursive.
+ 29.267: holstebro.dk INFO Name server hkns2.holstebro.dk (194.239.74.254) authoritative for holstebro.dk.
+ 29.360: holstebro.dk INFO Name server hkns2.holstebro.dk (194.239.74.254) closed for zone transfer of holstebro.dk.
+ 29.401: holstebro.dk INFO Legacy name server ID for hkns2.holstebro.dk (194.239.74.254): hostname.bind = hkns2
+ 29.423: holstebro.dk INFO Legacy name server ID for hkns2.holstebro.dk (194.239.74.254): version.bind = 9.8.1-P1
+ 29.477: holstebro.dk NOTICE No answer received from 194.239.74.254 when querying for version.server/CH/TXT.
+ 29.477: holstebro.dk INFO Done testing name server hkns2.holstebro.dk.
+ 29.477: holstebro.dk INFO Begin testing name server ns2.tele.dk.
+ 29.477: holstebro.dk INFO Begin testing host ns2.tele.dk.
+ 29.707: holstebro.dk INFO Begin testing address 194.239.134.82.
+ 30.324: holstebro.dk INFO Done testing address 194.239.134.82.
+ 30.324: holstebro.dk INFO Done testing host ns2.tele.dk.
+ 30.447: holstebro.dk INFO Name server ns2.tele.dk (194.239.134.82) answers queries over UDP.
+ 30.493: holstebro.dk INFO Name server ns2.tele.dk (194.239.134.82) answers queries over TCP.
+ 30.516: holstebro.dk INFO Name server ns2.tele.dk (194.239.134.82) is not recursive.
+ 30.620: holstebro.dk INFO Name server ns2.tele.dk (194.239.134.82) authoritative for holstebro.dk.
+ 30.678: holstebro.dk INFO Name server ns2.tele.dk (194.239.134.82) closed for zone transfer of holstebro.dk.
+ 30.708: holstebro.dk INFO Legacy name server ID for ns2.tele.dk (194.239.134.82): hostname.bind = tdchlegacyauth01.opa.tdch.dk
+ 30.732: holstebro.dk INFO Legacy name server ID for ns2.tele.dk (194.239.134.82): version.bind = no version info available
+ 30.783: holstebro.dk NOTICE No answer received from 194.239.134.82 when querying for version.server/CH/TXT.
+ 30.784: holstebro.dk INFO Done testing name server ns2.tele.dk.
+ 30.784: holstebro.dk INFO Begin testing zone consistency for holstebro.dk.
+ 31.693: holstebro.dk INFO SOA at address 194.239.74.254 has serial 2013102602.
+ 31.725: holstebro.dk INFO SOA at address 194.239.134.82 has serial 2013102602.
+ 31.747: holstebro.dk INFO SOA at address 194.239.249.254 has serial 2013102602.
+ 31.747: holstebro.dk INFO All SOA records have consistent serial numbers.
+ 31.747: holstebro.dk INFO All other fields in the SOA record are consistent among all name servers.
+ 32.232: holstebro.dk NOTICE The listed nameservers for holstebro.dk all report the same set of nameservers.
+ 32.233: holstebro.dk INFO Done testing zone consistency for holstebro.dk.
+ 32.233: holstebro.dk INFO Begin testing SOA parameters for holstebro.dk.
+ 32.254: holstebro.dk INFO Found SOA record for holstebro.dk.
+ 32.254: holstebro.dk INFO Begin testing host hkns1.holstebro.dk.
+ 32.398: holstebro.dk INFO Begin testing address 194.239.249.254.
+ 32.579: holstebro.dk INFO Done testing address 194.239.249.254.
+ 32.580: holstebro.dk INFO Done testing host hkns1.holstebro.dk.
+ 32.580: holstebro.dk INFO SOA MNAME for holstebro.dk valid (hkns1.holstebro.dk).
+ 32.580: holstebro.dk INFO SOA MNAME for holstebro.dk (hkns1.holstebro.dk) listed as NS.
+ 32.693: holstebro.dk INFO SOA MNAME for holstebro.dk (hkns1.holstebro.dk) is authoritative.
+ 32.693: holstebro.dk INFO Begin testing email address dns-admin@hkns1.holstebro.dk.
+ 32.802: holstebro.dk INFO Mail exchangers for dns-admin@hkns1.holstebro.dk found hkns1.holstebro.dk.
+ 32.802: holstebro.dk INFO All mail servers for dns-admin@hkns1.holstebro.dk are in zone holstebro.dk.
+ 32.802: holstebro.dk INFO Begin testing host hkns1.holstebro.dk.
+ 32.904: holstebro.dk INFO Begin testing address 194.239.249.254.
+ 33.018: holstebro.dk INFO Done testing address 194.239.249.254.
+ 33.018: holstebro.dk INFO Done testing host hkns1.holstebro.dk.
+ 33.131: holstebro.dk INFO Done testing email address dns-admin@hkns1.holstebro.dk.
+ 33.131: holstebro.dk INFO Successful attempt to deliver email for SOA RNAME of holstebro.dk (dns-admin.hkns1.holstebro.dk) using dns-admin@hkns1.holstebro.dk.
+ 33.131: holstebro.dk INFO SOA TTL for holstebro.dk OK (7200) - recommended >= 3600.
+ 33.131: holstebro.dk NOTICE SOA refresh for holstebro.dk too small (7200) - recommended >= 14400.
+ 33.132: holstebro.dk NOTICE SOA retry for holstebro.dk too small (540) - recommended >= 3600.
+ 33.132: holstebro.dk INFO SOA expire for holstebro.dk OK (604800) - recommended >= 604800.
+ 33.132: holstebro.dk INFO SOA minimum for holstebro.dk OK (86400) - recommended between 300 and 86400.
+ 33.132: holstebro.dk INFO Done testing SOA parameters for holstebro.dk.
+ 33.132: holstebro.dk INFO Begin testing connectivity for holstebro.dk.
+ 34.721: holstebro.dk NOTICE Zone announced by fewer than two IPv4 ASN.
+ 34.721: holstebro.dk NOTICE Zone announced by fewer than two IPv6 ASN.
+ 34.721: holstebro.dk INFO Done testing connectivity for holstebro.dk.
+ 34.721: holstebro.dk INFO Begin testing DNSSEC for holstebro.dk.
+ 34.768: holstebro.dk INFO Did not find DS record for holstebro.dk at parent.
+ 34.906: holstebro.dk INFO Servers for holstebro.dk have consistent extra processing status.
+ 34.952: holstebro.dk INFO Authenticated denial records not found for holstebro.dk.
+ 34.976: holstebro.dk INFO Did not find DNSKEY record for holstebro.dk at child.
+ 34.976: holstebro.dk INFO No DNSKEY(s) found at child, other tests skipped.
+ 34.976: holstebro.dk INFO Done testing DNSSEC for holstebro.dk.
+ 34.977: holstebro.dk INFO Test completed for zone holstebro.dk.

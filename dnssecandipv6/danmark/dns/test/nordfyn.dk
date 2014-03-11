@@ -1,0 +1,81 @@
+  0.000: nordfyn.dk INFO Begin testing zone nordfyn.dk with version 1.6.1.
+  0.418: nordfyn.dk INFO Begin testing delegation for nordfyn.dk.
+  5.716: nordfyn.dk INFO Name servers listed at parent: ns.tse.dk,ns2.tse.dk
+  7.072: nordfyn.dk INFO Name servers listed at child: ns.tse.dk,ns2.tse.dk
+  7.073: nordfyn.dk NOTICE No IPv6 name servers found.
+  7.180: nordfyn.dk INFO Parent glue for nordfyn.dk found: ns.tse.dk (195.41.183.222)
+  7.278: nordfyn.dk INFO Parent glue for nordfyn.dk found: ns2.tse.dk (194.239.230.14)
+  7.395: nordfyn.dk INFO Checking glue for ns.tse.dk (195.41.183.222).
+  7.395: nordfyn.dk INFO Checking glue for ns2.tse.dk (194.239.230.14).
+  7.425: nordfyn.dk INFO Parent glue for nordfyn.dk found: ns.tse.dk (195.41.183.222)
+  7.426: nordfyn.dk INFO Parent glue for nordfyn.dk found: ns2.tse.dk (194.239.230.14)
+  8.169: nordfyn.dk INFO It is possible to build a referral packet for nordfyn.dk that works without EDNS0.
+  8.963: nordfyn.dk INFO Previously used name servers for nordfyn.dk: 
+  8.963: nordfyn.dk INFO Done testing delegation for nordfyn.dk.
+  8.986: nordfyn.dk INFO Begin testing name server ns.tse.dk.
+  8.986: nordfyn.dk INFO Begin testing host ns.tse.dk.
+  9.258: nordfyn.dk INFO Begin testing address 195.41.183.222.
+ 20.177: nordfyn.dk INFO Done testing address 195.41.183.222.
+ 20.177: nordfyn.dk INFO Done testing host ns.tse.dk.
+ 20.353: nordfyn.dk INFO Name server ns.tse.dk (195.41.183.222) answers queries over UDP.
+ 20.409: nordfyn.dk INFO Name server ns.tse.dk (195.41.183.222) answers queries over TCP.
+ 20.432: nordfyn.dk INFO Name server ns.tse.dk (195.41.183.222) is not recursive.
+ 20.523: nordfyn.dk INFO Name server ns.tse.dk (195.41.183.222) authoritative for nordfyn.dk.
+ 20.798: nordfyn.dk NOTICE Name server ns.tse.dk (195.41.183.222) open for zone transfer of nordfyn.dk.
+ 20.852: nordfyn.dk NOTICE No answer received from 195.41.183.222 when querying for hostname.bind/CH/TXT.
+ 32.979: nordfyn.dk INFO Done testing name server ns.tse.dk.
+ 32.979: nordfyn.dk INFO Begin testing name server ns2.tse.dk.
+ 32.979: nordfyn.dk INFO Begin testing host ns2.tse.dk.
+ 33.133: nordfyn.dk INFO Begin testing address 194.239.230.14.
+ 33.823: nordfyn.dk INFO Done testing address 194.239.230.14.
+ 33.824: nordfyn.dk INFO Done testing host ns2.tse.dk.
+ 34.058: nordfyn.dk INFO Name server ns2.tse.dk (194.239.230.14) answers queries over UDP.
+ 34.108: nordfyn.dk INFO Name server ns2.tse.dk (194.239.230.14) answers queries over TCP.
+ 34.130: nordfyn.dk INFO Name server ns2.tse.dk (194.239.230.14) is not recursive.
+ 34.214: nordfyn.dk INFO Name server ns2.tse.dk (194.239.230.14) authoritative for nordfyn.dk.
+ 34.407: nordfyn.dk INFO Name server ns2.tse.dk (194.239.230.14) closed for zone transfer of nordfyn.dk.
+ 34.428: nordfyn.dk NOTICE No answer received from 194.239.230.14 when querying for hostname.bind/CH/TXT.
+ 46.492: nordfyn.dk INFO Done testing name server ns2.tse.dk.
+ 46.492: nordfyn.dk INFO Begin testing zone consistency for nordfyn.dk.
+ 47.206: nordfyn.dk INFO SOA at address 194.239.230.14 has serial 13.
+ 47.240: nordfyn.dk INFO SOA at address 195.41.183.222 has serial 13.
+ 47.240: nordfyn.dk INFO All SOA records have consistent serial numbers.
+ 47.240: nordfyn.dk INFO All other fields in the SOA record are consistent among all name servers.
+ 47.613: nordfyn.dk NOTICE The listed nameservers for nordfyn.dk all report the same set of nameservers.
+ 47.613: nordfyn.dk INFO Done testing zone consistency for nordfyn.dk.
+ 47.613: nordfyn.dk INFO Begin testing SOA parameters for nordfyn.dk.
+ 47.640: nordfyn.dk INFO Found SOA record for nordfyn.dk.
+ 47.640: nordfyn.dk INFO Begin testing host ns.tse.dk.
+ 47.762: nordfyn.dk INFO Begin testing address 195.41.183.222.
+ 47.908: nordfyn.dk INFO Done testing address 195.41.183.222.
+ 47.908: nordfyn.dk INFO Done testing host ns.tse.dk.
+ 47.908: nordfyn.dk INFO SOA MNAME for nordfyn.dk valid (ns.tse.dk).
+ 47.908: nordfyn.dk INFO SOA MNAME for nordfyn.dk (ns.tse.dk) listed as NS.
+ 48.136: nordfyn.dk INFO SOA MNAME for nordfyn.dk (ns.tse.dk) is authoritative.
+ 48.136: nordfyn.dk INFO Begin testing email address administrator@tse.dk.
+ 48.234: nordfyn.dk INFO Mail exchangers for administrator@tse.dk found mail.tse.dk.
+ 48.234: nordfyn.dk INFO Begin testing host mail.tse.dk.
+ 48.661: nordfyn.dk INFO Begin testing address 95.154.57.101.
+ 49.693: nordfyn.dk INFO Done testing address 95.154.57.101.
+ 49.693: nordfyn.dk INFO Done testing host mail.tse.dk.
+ 49.797: nordfyn.dk INFO Done testing email address administrator@tse.dk.
+ 49.797: nordfyn.dk INFO Successful attempt to deliver email for SOA RNAME of nordfyn.dk (administrator.tse.dk) using administrator@tse.dk.
+ 49.798: nordfyn.dk INFO SOA TTL for nordfyn.dk OK (3600) - recommended >= 3600.
+ 49.798: nordfyn.dk NOTICE SOA refresh for nordfyn.dk too small (3600) - recommended >= 14400.
+ 49.798: nordfyn.dk NOTICE SOA retry for nordfyn.dk too small (1800) - recommended >= 3600.
+ 49.798: nordfyn.dk INFO SOA expire for nordfyn.dk OK (604800) - recommended >= 604800.
+ 49.798: nordfyn.dk INFO SOA minimum for nordfyn.dk OK (3600) - recommended between 300 and 86400.
+ 49.798: nordfyn.dk INFO Done testing SOA parameters for nordfyn.dk.
+ 49.798: nordfyn.dk INFO Begin testing connectivity for nordfyn.dk.
+ 50.656: nordfyn.dk NOTICE Zone announced by fewer than two IPv4 ASN.
+ 50.656: nordfyn.dk NOTICE Zone announced by fewer than two IPv6 ASN.
+ 50.656: nordfyn.dk INFO Done testing connectivity for nordfyn.dk.
+ 50.656: nordfyn.dk INFO Begin testing DNSSEC for nordfyn.dk.
+ 50.700: nordfyn.dk INFO Did not find DS record for nordfyn.dk at parent.
+ 52.731: nordfyn.dk NOTICE DNS lookup error (timeout).
+ 52.775: nordfyn.dk INFO Servers for nordfyn.dk have consistent extra processing status.
+ 54.852: nordfyn.dk INFO Authenticated denial records not found for nordfyn.dk.
+ 54.874: nordfyn.dk INFO Did not find DNSKEY record for nordfyn.dk at child.
+ 54.874: nordfyn.dk INFO No DNSKEY(s) found at child, other tests skipped.
+ 54.874: nordfyn.dk INFO Done testing DNSSEC for nordfyn.dk.
+ 54.874: nordfyn.dk INFO Test completed for zone nordfyn.dk.

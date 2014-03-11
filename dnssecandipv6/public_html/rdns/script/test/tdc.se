@@ -1,0 +1,177 @@
+  0.000: tdc.se INFO Begin testing zone tdc.se with version 1.5.0.
+  0.001: tdc.se INFO Begin testing delegation for tdc.se.
+ 11.686: tdc.se INFO Name servers listed at parent: a.dns.tdc.se,b.dns.tdc.se,c.dns.tdc.se
+ 15.764: tdc.se INFO Name servers listed at child: a.dns.tdc.se,b.dns.tdc.se,c.dns.tdc.se
+ 15.870: tdc.se INFO Parent glue for tdc.se found: a.dns.tdc.se (213.50.29.190)
+ 15.925: tdc.se INFO Parent glue for tdc.se found: b.dns.tdc.se (213.50.29.195)
+ 15.975: tdc.se INFO Parent glue for tdc.se found: c.dns.tdc.se (130.242.124.20)
+ 15.992: tdc.se INFO Checking glue for a.dns.tdc.se (213.50.29.190).
+ 16.010: tdc.se INFO Child glue for tdc.se found: a.dns.tdc.se (213.50.29.190)
+ 16.010: tdc.se INFO Checking glue for b.dns.tdc.se (213.50.29.195).
+ 16.100: tdc.se INFO Child glue for tdc.se found: b.dns.tdc.se (213.50.29.195)
+ 16.100: tdc.se INFO Checking glue for c.dns.tdc.se (130.242.124.20).
+ 16.156: tdc.se INFO Child glue for tdc.se found: c.dns.tdc.se (130.242.124.20)
+ 16.200: tdc.se INFO Parent glue for tdc.se found: a.dns.tdc.se (213.50.29.190)
+ 16.200: tdc.se INFO Parent glue for tdc.se found: b.dns.tdc.se (213.50.29.195)
+ 16.201: tdc.se INFO Parent glue for tdc.se found: c.dns.tdc.se (130.242.124.20)
+ 16.510: tdc.se INFO It is possible to build a referral packet for tdc.se that works without EDNS0.
+ 16.510: tdc.se INFO Done testing delegation for tdc.se.
+ 16.510: tdc.se INFO Begin testing name server a.dns.tdc.se.
+ 16.511: tdc.se INFO Begin testing host a.dns.tdc.se.
+ 16.511: tdc.se INFO Begin testing address 213.50.29.190.
+ 23.185: tdc.se INFO Done testing address 213.50.29.190.
+ 23.185: tdc.se INFO Begin testing address 2001:6f0:0:1:0:0:2:2.
+ 24.094: tdc.se INFO Done testing address 2001:6f0:0:1:0:0:2:2.
+ 24.094: tdc.se INFO Done testing host a.dns.tdc.se.
+ 24.152: tdc.se INFO Name server a.dns.tdc.se (213.50.29.190) answers queries over UDP.
+ 24.196: tdc.se INFO Name server a.dns.tdc.se (213.50.29.190) answers queries over TCP.
+ 24.215: tdc.se INFO Name server a.dns.tdc.se (213.50.29.190) is not recursive.
+ 24.262: tdc.se INFO Name server a.dns.tdc.se (213.50.29.190) authoritative for tdc.se.
+ 24.285: tdc.se INFO Name server a.dns.tdc.se (213.50.29.190) closed for zone transfer of tdc.se.
+ 24.293: tdc.se INFO Legacy name server ID for a.dns.tdc.se (213.50.29.190): hostname.bind = a
+ 24.305: tdc.se INFO Legacy name server ID for a.dns.tdc.se (213.50.29.190): version.bind = tssk, well what can i say?
+ 24.329: tdc.se NOTICE No answer received from 213.50.29.190 when querying for version.server/CH/TXT.
+ 24.413: tdc.se INFO Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) answers queries over UDP.
+ 24.493: tdc.se INFO Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) answers queries over TCP.
+ 24.530: tdc.se INFO Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) is not recursive.
+ 24.733: tdc.se INFO Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) authoritative for tdc.se.
+ 24.818: tdc.se INFO Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) closed for zone transfer of tdc.se.
+ 24.848: tdc.se INFO Legacy name server ID for a.dns.tdc.se (2001:6f0:0:1:0:0:2:2): hostname.bind = a
+ 24.880: tdc.se INFO Legacy name server ID for a.dns.tdc.se (2001:6f0:0:1:0:0:2:2): version.bind = tssk, well what can i say?
+ 24.947: tdc.se NOTICE No answer received from 2001:6f0:0:1:0:0:2:2 when querying for version.server/CH/TXT.
+ 24.948: tdc.se INFO Done testing name server a.dns.tdc.se.
+ 24.948: tdc.se INFO Begin testing name server b.dns.tdc.se.
+ 24.948: tdc.se INFO Begin testing host b.dns.tdc.se.
+ 24.948: tdc.se INFO Begin testing address 213.50.29.195.
+ 25.553: tdc.se INFO Done testing address 213.50.29.195.
+ 25.554: tdc.se INFO Begin testing address 2001:6f0:0:1:0:0:1:2.
+ 26.161: tdc.se INFO Done testing address 2001:6f0:0:1:0:0:1:2.
+ 26.161: tdc.se INFO Done testing host b.dns.tdc.se.
+ 26.177: tdc.se INFO Name server b.dns.tdc.se (213.50.29.195) answers queries over UDP.
+ 26.224: tdc.se INFO Name server b.dns.tdc.se (213.50.29.195) answers queries over TCP.
+ 26.241: tdc.se INFO Name server b.dns.tdc.se (213.50.29.195) is not recursive.
+ 26.402: tdc.se INFO Name server b.dns.tdc.se (213.50.29.195) authoritative for tdc.se.
+ 26.441: tdc.se INFO Name server b.dns.tdc.se (213.50.29.195) closed for zone transfer of tdc.se.
+ 26.469: tdc.se INFO Legacy name server ID for b.dns.tdc.se (213.50.29.195): hostname.bind = b
+ 26.513: tdc.se INFO Legacy name server ID for b.dns.tdc.se (213.50.29.195): version.bind = tssk, well what can i say?
+ 26.621: tdc.se NOTICE No answer received from 213.50.29.195 when querying for version.server/CH/TXT.
+ 26.746: tdc.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) answers queries over UDP.
+ 26.866: tdc.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) answers queries over TCP.
+ 26.911: tdc.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) is not recursive.
+ 27.126: tdc.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) authoritative for tdc.se.
+ 27.208: tdc.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) closed for zone transfer of tdc.se.
+ 27.248: tdc.se INFO Legacy name server ID for b.dns.tdc.se (2001:6f0:0:1:0:0:1:2): hostname.bind = b
+ 27.350: tdc.se INFO Legacy name server ID for b.dns.tdc.se (2001:6f0:0:1:0:0:1:2): version.bind = tssk, well what can i say?
+ 27.540: tdc.se NOTICE No answer received from 2001:6f0:0:1:0:0:1:2 when querying for version.server/CH/TXT.
+ 27.545: tdc.se INFO Done testing name server b.dns.tdc.se.
+ 27.545: tdc.se INFO Begin testing name server c.dns.tdc.se.
+ 27.545: tdc.se INFO Begin testing host c.dns.tdc.se.
+ 27.545: tdc.se INFO Begin testing address 130.242.124.20.
+ 39.966: tdc.se INFO Done testing address 130.242.124.20.
+ 39.966: tdc.se INFO Begin testing address 2001:6b0:7:124:0:0:0:20.
+ 43.435: tdc.se INFO Done testing address 2001:6b0:7:124:0:0:0:20.
+ 43.435: tdc.se INFO Done testing host c.dns.tdc.se.
+ 43.497: tdc.se INFO Name server c.dns.tdc.se (130.242.124.20) answers queries over UDP.
+ 43.549: tdc.se INFO Name server c.dns.tdc.se (130.242.124.20) answers queries over TCP.
+ 43.578: tdc.se INFO Name server c.dns.tdc.se (130.242.124.20) is not recursive.
+ 43.724: tdc.se INFO Name server c.dns.tdc.se (130.242.124.20) authoritative for tdc.se.
+ 43.745: tdc.se INFO Name server c.dns.tdc.se (130.242.124.20) closed for zone transfer of tdc.se.
+ 43.752: tdc.se INFO Legacy name server ID for c.dns.tdc.se (130.242.124.20): hostname.bind = c
+ 43.766: tdc.se INFO Legacy name server ID for c.dns.tdc.se (130.242.124.20): version.bind = tssk, well what can i say?
+ 43.782: tdc.se NOTICE No answer received from 130.242.124.20 when querying for version.server/CH/TXT.
+ 43.794: tdc.se INFO Name server c.dns.tdc.se (2001:6b0:7:124:0:0:0:20) answers queries over UDP.
+ 43.809: tdc.se INFO Name server c.dns.tdc.se (2001:6b0:7:124:0:0:0:20) answers queries over TCP.
+ 43.817: tdc.se INFO Name server c.dns.tdc.se (2001:6b0:7:124:0:0:0:20) is not recursive.
+ 43.888: tdc.se INFO Name server c.dns.tdc.se (2001:6b0:7:124:0:0:0:20) authoritative for tdc.se.
+ 43.911: tdc.se INFO Name server c.dns.tdc.se (2001:6b0:7:124:0:0:0:20) closed for zone transfer of tdc.se.
+ 43.945: tdc.se INFO Legacy name server ID for c.dns.tdc.se (2001:6b0:7:124:0:0:0:20): hostname.bind = c
+ 43.977: tdc.se INFO Legacy name server ID for c.dns.tdc.se (2001:6b0:7:124:0:0:0:20): version.bind = tssk, well what can i say?
+ 43.993: tdc.se NOTICE No answer received from 2001:6b0:7:124:0:0:0:20 when querying for version.server/CH/TXT.
+ 43.994: tdc.se INFO Done testing name server c.dns.tdc.se.
+ 43.994: tdc.se INFO Begin testing zone consistency for tdc.se.
+ 44.030: tdc.se INFO SOA at address 2001:6b0:7:124:0:0:0:20 has serial 2013073001.
+ 44.063: tdc.se INFO SOA at address 2001:6f0:0:1:0:0:1:2 has serial 2013073001.
+ 44.101: tdc.se INFO SOA at address 2001:6f0:0:1:0:0:2:2 has serial 2013073001.
+ 44.126: tdc.se INFO SOA at address 130.242.124.20 has serial 2013073001.
+ 44.147: tdc.se INFO SOA at address 213.50.29.195 has serial 2013073001.
+ 44.183: tdc.se INFO SOA at address 213.50.29.190 has serial 2013073001.
+ 44.183: tdc.se INFO All SOA records have consistent serial numbers.
+ 44.184: tdc.se INFO All other fields in the SOA record are consistent among all name servers.
+ 44.351: tdc.se NOTICE The listed nameservers for tdc.se all report the same set of nameservers.
+ 44.352: tdc.se INFO Done testing zone consistency for tdc.se.
+ 44.356: tdc.se INFO Begin testing SOA parameters for tdc.se.
+ 44.367: tdc.se INFO Found SOA record for tdc.se.
+ 44.367: tdc.se INFO Begin testing host a.dns.tdc.se.
+ 44.368: tdc.se INFO Begin testing address 213.50.29.190.
+ 44.369: tdc.se INFO Done testing address 213.50.29.190.
+ 44.369: tdc.se INFO Begin testing address 2001:6f0:0:1:0:0:2:2.
+ 44.370: tdc.se INFO Done testing address 2001:6f0:0:1:0:0:2:2.
+ 44.371: tdc.se INFO Done testing host a.dns.tdc.se.
+ 44.371: tdc.se INFO SOA MNAME for tdc.se valid (a.dns.tdc.se).
+ 44.371: tdc.se INFO SOA MNAME for tdc.se (a.dns.tdc.se) listed as NS.
+ 44.381: tdc.se INFO SOA MNAME for tdc.se (a.dns.tdc.se) is authoritative.
+ 44.418: tdc.se INFO SOA MNAME for tdc.se (a.dns.tdc.se) is authoritative.
+ 44.418: tdc.se INFO Begin testing email address dns@tdc.se.
+ 44.711: tdc.se INFO Mail exchangers for dns@tdc.se found exmx.tdc.se.
+ 44.711: tdc.se INFO All mail servers for dns@tdc.se are in zone tdc.se.
+ 44.725: tdc.se INFO Begin testing host exmx.tdc.se.
+ 45.362: tdc.se INFO Begin testing address 213.50.87.85.
+ 46.402: tdc.se INFO Done testing address 213.50.87.85.
+ 46.402: tdc.se INFO Done testing host exmx.tdc.se.
+ 46.777: tdc.se INFO Done testing email address dns@tdc.se.
+ 46.778: tdc.se INFO Successful attempt to deliver email for SOA RNAME of tdc.se (dns.tdc.se) using dns@tdc.se.
+ 46.778: tdc.se INFO SOA TTL for tdc.se OK (3600) - recommended >= 3600.
+ 46.778: tdc.se INFO SOA refresh for tdc.se OK (21600) - recommended >= 14400.
+ 46.778: tdc.se INFO SOA retry for tdc.se OK (3600) - recommended >= 3600.
+ 46.778: tdc.se INFO SOA expire for tdc.se OK (1209600) - recommended >= 604800.
+ 46.779: tdc.se INFO SOA minimum for tdc.se OK (3600) - recommended between 300 and 86400.
+ 46.779: tdc.se INFO Done testing SOA parameters for tdc.se.
+ 46.779: tdc.se INFO Begin testing connectivity for tdc.se.
+ 48.991: tdc.se INFO Zone announced by more than one ASN.
+ 50.929: tdc.se INFO Zone announced by more than one IPv6 ASN.
+ 50.929: tdc.se INFO Done testing connectivity for tdc.se.
+ 50.930: tdc.se INFO Begin testing DNSSEC for tdc.se.
+ 51.000: tdc.se INFO Found DS record for tdc.se at parent.
+ 51.015: tdc.se INFO Nameserver 130.242.124.20 does DNSSEC extra processing.
+ 51.039: tdc.se INFO Nameserver 213.50.29.195 does DNSSEC extra processing.
+ 51.068: tdc.se INFO Nameserver 213.50.29.190 does DNSSEC extra processing.
+ 51.115: tdc.se INFO Nameserver 2001:6b0:7:124:0:0:0:20 does DNSSEC extra processing.
+ 51.183: tdc.se INFO Nameserver 2001:6f0:0:1:0:0:1:2 does DNSSEC extra processing.
+ 51.252: tdc.se INFO Nameserver 2001:6f0:0:1:0:0:2:2 does DNSSEC extra processing.
+ 51.252: tdc.se INFO Servers for tdc.se have consistent extra processing status.
+ 51.283: tdc.se INFO Authenticated denial records found for tdc.se, of type NSEC.
+ 51.306: tdc.se INFO Found DNSKEY record for tdc.se at child.
+ 51.306: tdc.se INFO Consistent security for tdc.se.
+ 51.306: tdc.se INFO Checking DNSSEC at child (tdc.se).
+ 51.306: tdc.se INFO tdc.se's key with tag 35721 uses algorithm number 5 (RSA/SHA-1).
+ 51.307: tdc.se INFO Algorithm number 5 is OK.
+ 51.307: tdc.se INFO DNSKEY tdc.se (tag 35721) is marked as a secure entry point (SEP).
+ 51.307: tdc.se INFO tdc.se's key with tag 53624 uses algorithm number 5 (RSA/SHA-1).
+ 51.307: tdc.se INFO Algorithm number 5 is OK.
+ 51.308: tdc.se INFO DNSSEC signature expires at: Fri Aug  9 16:35:01 2013
+ 51.308: tdc.se INFO Duration for RRSIG(tdc.se/IN/DNSKEY/35721) is OK (864000 seconds).
+ 51.319: tdc.se INFO DNSSEC signature RRSIG(tdc.se/IN/DNSKEY/35721) matches records.
+ 51.319: tdc.se INFO DNSSEC signature valid: RRSIG(tdc.se/IN/DNSKEY/35721)
+ 51.320: tdc.se INFO DNSSEC signature expires at: Fri Aug  9 16:35:01 2013
+ 51.320: tdc.se INFO Duration for RRSIG(tdc.se/IN/DNSKEY/53624) is OK (864000 seconds).
+ 51.341: tdc.se INFO DNSSEC signature RRSIG(tdc.se/IN/DNSKEY/53624) matches records.
+ 51.341: tdc.se INFO DNSSEC signature valid: RRSIG(tdc.se/IN/DNSKEY/53624)
+ 51.341: tdc.se INFO Enough valid signatures found for tdc.se.
+ 51.404: tdc.se INFO DNSSEC signature expires at: Fri Aug  9 16:35:01 2013
+ 51.404: tdc.se INFO Duration for RRSIG(tdc.se/IN/SOA/53624) is OK (864000 seconds).
+ 51.416: tdc.se INFO DNSSEC signature RRSIG(tdc.se/IN/SOA/53624) matches records.
+ 51.429: tdc.se INFO DNSSEC signature valid: RRSIG(tdc.se/IN/SOA/53624)
+ 51.429: tdc.se INFO Enough valid signatures over SOA RRset found for tdc.se.
+ 51.429: tdc.se INFO DNSSEC child checks for tdc.se complete.
+ 51.429: tdc.se INFO Checking DNSSEC at parent of tdc.se.
+ 51.430: tdc.se INFO tdc.se's key with tag 35721 uses algorithm number 5 (RSA/SHA-1).
+ 51.430: tdc.se INFO Algorithm number 5 is OK.
+ 51.430: tdc.se INFO Parent DS(tdc.se/5/1/35721) refers to valid key at child: DNSKEY(tdc.se/5/35721)
+ 51.431: tdc.se INFO Parent DS(tdc.se) refers to secure entry point (SEP) at child: DS(tdc.se/5/1/35721)
+ 51.431: tdc.se INFO tdc.se's key with tag 35721 uses algorithm number 5 (RSA/SHA-1).
+ 51.431: tdc.se INFO Algorithm number 5 is OK.
+ 51.432: tdc.se INFO Parent DS(tdc.se/5/2/35721) refers to valid key at child: DNSKEY(tdc.se/5/35721)
+ 51.432: tdc.se INFO Parent DS(tdc.se) refers to secure entry point (SEP) at child: DS(tdc.se/5/2/35721)
+ 51.432: tdc.se INFO DNSSEC parent checks for tdc.se complete.
+ 51.432: tdc.se INFO Done testing DNSSEC for tdc.se.
+ 51.457: tdc.se INFO Test completed for zone tdc.se.

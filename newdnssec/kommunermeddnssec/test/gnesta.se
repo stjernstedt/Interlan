@@ -1,0 +1,158 @@
+  0.000: gnesta.se INFO Begin testing zone gnesta.se with version 1.6.1.
+  0.636: gnesta.se INFO Begin testing delegation for gnesta.se.
+ 22.577: gnesta.se INFO Name servers listed at parent: dns01.portsit.se,dns02.portsit.se
+ 25.779: gnesta.se INFO Name servers listed at child: dns01.portsit.se,dns02.portsit.se
+ 25.779: gnesta.se NOTICE No IPv6 name servers found.
+ 25.921: gnesta.se INFO Parent glue for gnesta.se found: dns01.portsit.se (193.14.90.55)
+ 26.088: gnesta.se INFO Parent glue for gnesta.se found: dns02.portsit.se (84.40.9.219)
+ 26.148: gnesta.se INFO Checking glue for dns01.portsit.se (193.14.90.55).
+ 26.148: gnesta.se INFO Checking glue for dns02.portsit.se (84.40.9.219).
+ 26.148: gnesta.se INFO Parent glue for gnesta.se found: dns01.portsit.se (193.14.90.55)
+ 26.149: gnesta.se INFO Parent glue for gnesta.se found: dns02.portsit.se (84.40.9.219)
+ 35.427: gnesta.se INFO It is possible to build a referral packet for gnesta.se that works without EDNS0.
+ 36.211: gnesta.se INFO Previously used name servers for gnesta.se: 
+ 36.211: gnesta.se INFO Done testing delegation for gnesta.se.
+ 36.212: gnesta.se INFO Begin testing name server dns01.portsit.se.
+ 36.212: gnesta.se INFO Begin testing host dns01.portsit.se.
+ 36.541: gnesta.se INFO Begin testing address 193.14.90.55.
+ 63.321: gnesta.se INFO Done testing address 193.14.90.55.
+ 63.321: gnesta.se INFO Done testing host dns01.portsit.se.
+ 63.648: gnesta.se INFO Name server dns01.portsit.se (193.14.90.55) answers queries over UDP.
+ 63.695: gnesta.se INFO Name server dns01.portsit.se (193.14.90.55) answers queries over TCP.
+ 63.711: gnesta.se INFO Name server dns01.portsit.se (193.14.90.55) is not recursive.
+ 63.831: gnesta.se INFO Name server dns01.portsit.se (193.14.90.55) authoritative for gnesta.se.
+ 63.911: gnesta.se INFO Name server dns01.portsit.se (193.14.90.55) closed for zone transfer of gnesta.se.
+ 64.325: gnesta.se INFO Legacy name server ID for dns01.portsit.se (193.14.90.55): hostname.bind = <HIDDEN>
+ 68.817: gnesta.se NOTICE No answer received from 193.14.90.55 when querying for version.server/CH/TXT.
+ 68.818: gnesta.se INFO Done testing name server dns01.portsit.se.
+ 68.818: gnesta.se INFO Begin testing name server dns02.portsit.se.
+ 68.818: gnesta.se INFO Begin testing host dns02.portsit.se.
+ 69.053: gnesta.se INFO Begin testing address 84.40.9.219.
+ 70.803: gnesta.se INFO Done testing address 84.40.9.219.
+ 70.803: gnesta.se INFO Done testing host dns02.portsit.se.
+ 70.977: gnesta.se INFO Name server dns02.portsit.se (84.40.9.219) answers queries over UDP.
+ 71.055: gnesta.se INFO Name server dns02.portsit.se (84.40.9.219) answers queries over TCP.
+ 71.170: gnesta.se INFO Name server dns02.portsit.se (84.40.9.219) is not recursive.
+ 71.333: gnesta.se INFO Name server dns02.portsit.se (84.40.9.219) authoritative for gnesta.se.
+ 71.439: gnesta.se INFO Name server dns02.portsit.se (84.40.9.219) closed for zone transfer of gnesta.se.
+ 71.476: gnesta.se INFO Legacy name server ID for dns02.portsit.se (84.40.9.219): hostname.bind = <HIDDEN>
+ 71.517: gnesta.se INFO Legacy name server ID for dns02.portsit.se (84.40.9.219): version.bind = <HIDDEN>
+ 71.596: gnesta.se NOTICE No answer received from 84.40.9.219 when querying for version.server/CH/TXT.
+ 71.596: gnesta.se INFO Done testing name server dns02.portsit.se.
+ 71.597: gnesta.se INFO Begin testing zone consistency for gnesta.se.
+ 72.836: gnesta.se INFO SOA at address 193.14.90.55 has serial 2014021432.
+ 72.883: gnesta.se INFO SOA at address 84.40.9.219 has serial 2014021432.
+ 72.883: gnesta.se INFO All SOA records have consistent serial numbers.
+ 72.883: gnesta.se INFO All other fields in the SOA record are consistent among all name servers.
+ 73.908: gnesta.se NOTICE The listed nameservers for gnesta.se all report the same set of nameservers.
+ 73.909: gnesta.se INFO Done testing zone consistency for gnesta.se.
+ 73.909: gnesta.se INFO Begin testing SOA parameters for gnesta.se.
+ 73.936: gnesta.se INFO Found SOA record for gnesta.se.
+ 73.936: gnesta.se INFO Begin testing host dns01.portsit.se.
+ 74.191: gnesta.se INFO Begin testing address 193.14.90.55.
+ 74.659: gnesta.se INFO Done testing address 193.14.90.55.
+ 74.659: gnesta.se INFO Done testing host dns01.portsit.se.
+ 74.659: gnesta.se INFO SOA MNAME for gnesta.se valid (dns01.portsit.se).
+ 74.660: gnesta.se INFO SOA MNAME for gnesta.se (dns01.portsit.se) listed as NS.
+ 74.909: gnesta.se INFO SOA MNAME for gnesta.se (dns01.portsit.se) is authoritative.
+ 74.909: gnesta.se INFO Begin testing email address registry@portsit.se.
+ 75.290: gnesta.se INFO Mail exchangers for registry@portsit.se found asmx01.portsit.se,asmx02.portsit.se.
+ 75.291: gnesta.se INFO Begin testing host asmx01.portsit.se.
+ 75.852: gnesta.se INFO Begin testing address 193.14.90.114.
+ 77.231: gnesta.se INFO Done testing address 193.14.90.114.
+ 77.231: gnesta.se INFO Done testing host asmx01.portsit.se.
+ 77.583: gnesta.se INFO Begin testing host asmx02.portsit.se.
+ 78.279: gnesta.se INFO Begin testing address 193.14.90.115.
+ 79.215: gnesta.se INFO Done testing address 193.14.90.115.
+ 79.215: gnesta.se INFO Done testing host asmx02.portsit.se.
+ 79.511: gnesta.se INFO Done testing email address registry@portsit.se.
+ 79.511: gnesta.se INFO Successful attempt to deliver email for SOA RNAME of gnesta.se (registry.portsit.se) using registry@portsit.se.
+ 79.511: gnesta.se INFO SOA TTL for gnesta.se OK (3600) - recommended >= 3600.
+ 79.514: gnesta.se NOTICE SOA refresh for gnesta.se too small (3600) - recommended >= 14400.
+ 79.514: gnesta.se NOTICE SOA retry for gnesta.se too small (600) - recommended >= 3600.
+ 79.515: gnesta.se NOTICE SOA expire for gnesta.se too small (86400) - recommended >= 604800.
+ 79.518: gnesta.se INFO SOA minimum for gnesta.se OK (3600) - recommended between 300 and 86400.
+ 79.518: gnesta.se INFO Done testing SOA parameters for gnesta.se.
+ 79.519: gnesta.se INFO Begin testing connectivity for gnesta.se.
+ 80.893: gnesta.se INFO Zone announced by more than one ASN.
+ 80.893: gnesta.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 80.893: gnesta.se INFO Done testing connectivity for gnesta.se.
+ 80.893: gnesta.se INFO Begin testing DNSSEC for gnesta.se.
+ 80.999: gnesta.se INFO Found DS record for gnesta.se at parent.
+ 81.069: gnesta.se INFO Nameserver 193.14.90.55 does DNSSEC extra processing.
+ 81.169: gnesta.se INFO Nameserver 84.40.9.219 does DNSSEC extra processing.
+ 81.169: gnesta.se INFO Servers for gnesta.se have consistent extra processing status.
+ 81.226: gnesta.se INFO Authenticated denial records found for gnesta.se, of type NSEC.
+ 81.258: gnesta.se INFO Found DNSKEY record for gnesta.se at child.
+ 81.258: gnesta.se INFO Consistent security for gnesta.se.
+ 81.274: gnesta.se INFO Checking DNSSEC at child (gnesta.se).
+ 81.275: gnesta.se INFO gnesta.se's key with tag 62122 uses algorithm number 5 (RSA/SHA-1).
+ 81.275: gnesta.se INFO Algorithm number 5 is OK.
+ 81.275: gnesta.se INFO gnesta.se's key with tag 37182 uses algorithm number 5 (RSA/SHA-1).
+ 81.275: gnesta.se INFO Algorithm number 5 is OK.
+ 81.275: gnesta.se INFO gnesta.se's key with tag 55327 uses algorithm number 5 (RSA/SHA-1).
+ 81.275: gnesta.se INFO Algorithm number 5 is OK.
+ 81.275: gnesta.se INFO DNSKEY gnesta.se (tag 55327) is marked as a secure entry point (SEP).
+ 81.276: gnesta.se INFO gnesta.se's key with tag 23473 uses algorithm number 5 (RSA/SHA-1).
+ 81.276: gnesta.se INFO Algorithm number 5 is OK.
+ 81.276: gnesta.se INFO DNSKEY gnesta.se (tag 23473) is marked as a secure entry point (SEP).
+ 81.276: gnesta.se INFO gnesta.se's key with tag 29851 uses algorithm number 5 (RSA/SHA-1).
+ 81.276: gnesta.se INFO Algorithm number 5 is OK.
+ 81.276: gnesta.se INFO DNSKEY gnesta.se (tag 29851) is marked as a secure entry point (SEP).
+ 81.276: gnesta.se INFO gnesta.se's key with tag 47947 uses algorithm number 5 (RSA/SHA-1).
+ 81.276: gnesta.se INFO Algorithm number 5 is OK.
+ 81.276: gnesta.se INFO DNSSEC signature expires at: Wed Mar 26 15:03:23 2014
+ 81.277: gnesta.se INFO Duration for RRSIG(gnesta.se/IN/DNSKEY/47947) is OK (2343565 seconds).
+ 81.316: gnesta.se INFO DNSSEC signature RRSIG(gnesta.se/IN/DNSKEY/47947) matches records.
+ 81.316: gnesta.se INFO DNSSEC signature valid: RRSIG(gnesta.se/IN/DNSKEY/47947)
+ 81.316: gnesta.se INFO DNSSEC signature expires at: Wed Apr 30 16:03:29 2014
+ 81.316: gnesta.se INFO Duration for RRSIG(gnesta.se/IN/DNSKEY/62122) is OK (5371171 seconds).
+ 81.317: gnesta.se INFO DNSSEC signature RRSIG(gnesta.se/IN/DNSKEY/62122) matches records.
+ 81.317: gnesta.se INFO DNSSEC signature valid: RRSIG(gnesta.se/IN/DNSKEY/62122)
+ 81.317: gnesta.se INFO DNSSEC signature expires at: Tue May 27 14:03:57 2014
+ 81.317: gnesta.se INFO Duration for RRSIG(gnesta.se/IN/DNSKEY/37182) is OK (7696799 seconds).
+ 81.361: gnesta.se INFO DNSSEC signature RRSIG(gnesta.se/IN/DNSKEY/37182) matches records.
+ 81.361: gnesta.se INFO DNSSEC signature valid: RRSIG(gnesta.se/IN/DNSKEY/37182)
+ 81.361: gnesta.se INFO DNSSEC signature expires at: Wed Nov 30 13:08:54 2016
+ 81.361: gnesta.se WARNING Duration for RRSIG(gnesta.se/IN/DNSKEY/23473) is too long (87008696 seconds).
+ 81.379: gnesta.se INFO DNSSEC signature RRSIG(gnesta.se/IN/DNSKEY/23473) matches records.
+ 81.379: gnesta.se INFO DNSSEC signature valid: RRSIG(gnesta.se/IN/DNSKEY/23473)
+ 81.379: gnesta.se INFO DNSSEC signature expires at: Thu Jan 12 15:07:16 2017
+ 81.380: gnesta.se WARNING Duration for RRSIG(gnesta.se/IN/DNSKEY/55327) is too long (90730998 seconds).
+ 81.381: gnesta.se INFO DNSSEC signature RRSIG(gnesta.se/IN/DNSKEY/55327) matches records.
+ 81.381: gnesta.se INFO DNSSEC signature valid: RRSIG(gnesta.se/IN/DNSKEY/55327)
+ 81.381: gnesta.se INFO DNSSEC signature expires at: Thu Jan 12 16:20:44 2017
+ 81.381: gnesta.se WARNING Duration for RRSIG(gnesta.se/IN/DNSKEY/29851) is too long (90735406 seconds).
+ 81.418: gnesta.se INFO DNSSEC signature RRSIG(gnesta.se/IN/DNSKEY/29851) matches records.
+ 81.419: gnesta.se INFO DNSSEC signature valid: RRSIG(gnesta.se/IN/DNSKEY/29851)
+ 81.419: gnesta.se INFO Enough valid signatures found for gnesta.se.
+ 81.833: gnesta.se INFO DNSSEC signature expires at: Wed Mar 26 15:03:23 2014
+ 81.833: gnesta.se INFO Duration for RRSIG(gnesta.se/IN/SOA/47947) is OK (2343565 seconds).
+ 81.834: gnesta.se INFO DNSSEC signature RRSIG(gnesta.se/IN/SOA/47947) matches records.
+ 81.834: gnesta.se INFO DNSSEC signature valid: RRSIG(gnesta.se/IN/SOA/47947)
+ 81.834: gnesta.se INFO DNSSEC signature expires at: Wed Apr 30 16:03:29 2014
+ 81.834: gnesta.se INFO Duration for RRSIG(gnesta.se/IN/SOA/62122) is OK (5371171 seconds).
+ 81.859: gnesta.se INFO DNSSEC signature RRSIG(gnesta.se/IN/SOA/62122) matches records.
+ 81.859: gnesta.se INFO DNSSEC signature valid: RRSIG(gnesta.se/IN/SOA/62122)
+ 81.859: gnesta.se INFO DNSSEC signature expires at: Tue May 27 14:03:57 2014
+ 81.859: gnesta.se INFO Duration for RRSIG(gnesta.se/IN/SOA/37182) is OK (7696799 seconds).
+ 81.860: gnesta.se INFO DNSSEC signature RRSIG(gnesta.se/IN/SOA/37182) matches records.
+ 81.860: gnesta.se INFO DNSSEC signature valid: RRSIG(gnesta.se/IN/SOA/37182)
+ 81.860: gnesta.se INFO Enough valid signatures over SOA RRset found for gnesta.se.
+ 81.860: gnesta.se INFO DNSSEC child checks for gnesta.se complete.
+ 81.860: gnesta.se INFO Checking DNSSEC at parent of gnesta.se.
+ 81.860: gnesta.se INFO gnesta.se's key with tag 23473 uses algorithm number 5 (RSA/SHA-1).
+ 81.860: gnesta.se INFO Algorithm number 5 is OK.
+ 81.861: gnesta.se INFO Parent DS(gnesta.se/5/1/23473) refers to valid key at child: DNSKEY(gnesta.se/5/23473)
+ 81.861: gnesta.se INFO Parent DS(gnesta.se) refers to secure entry point (SEP) at child: DS(gnesta.se/5/1/23473)
+ 81.861: gnesta.se INFO gnesta.se's key with tag 55327 uses algorithm number 5 (RSA/SHA-1).
+ 81.861: gnesta.se INFO Algorithm number 5 is OK.
+ 81.903: gnesta.se INFO Parent DS(gnesta.se/5/1/55327) refers to valid key at child: DNSKEY(gnesta.se/5/55327)
+ 81.903: gnesta.se INFO Parent DS(gnesta.se) refers to secure entry point (SEP) at child: DS(gnesta.se/5/1/55327)
+ 81.903: gnesta.se INFO gnesta.se's key with tag 29851 uses algorithm number 5 (RSA/SHA-1).
+ 81.903: gnesta.se INFO Algorithm number 5 is OK.
+ 81.903: gnesta.se INFO Parent DS(gnesta.se/5/1/29851) refers to valid key at child: DNSKEY(gnesta.se/5/29851)
+ 81.903: gnesta.se INFO Parent DS(gnesta.se) refers to secure entry point (SEP) at child: DS(gnesta.se/5/1/29851)
+ 81.903: gnesta.se INFO DNSSEC parent checks for gnesta.se complete.
+ 81.903: gnesta.se INFO Done testing DNSSEC for gnesta.se.
+ 81.904: gnesta.se INFO Test completed for zone gnesta.se.

@@ -1,0 +1,104 @@
+  0.000: servercentralen.se INFO Begin testing zone servercentralen.se with version 1.0.1.
+  0.000: servercentralen.se INFO Begin testing delegation for servercentralen.se.
+  1.303: servercentralen.se INFO Name servers listed at parent: ns1.servercentralen.net,ns2.servercentralen.net,ns3.servercentralen.net,ns4.servercentralen.net
+  1.364: servercentralen.se INFO Name servers listed at child: ns1.servercentralen.net,ns2.servercentralen.net,ns3.servercentralen.net
+  1.364: servercentralen.se ERROR Superfluous name server listed at parent: ns4.servercentralen.net
+  1.364: servercentralen.se NOTICE No IPv6 name servers found.
+  1.586: servercentralen.se INFO Done testing delegation for servercentralen.se.
+  1.586: servercentralen.se INFO Begin testing name server ns1.servercentralen.net.
+  1.586: servercentralen.se INFO Begin testing host ns1.servercentralen.net.
+  1.587: servercentralen.se INFO Begin testing address 188.95.37.2.
+  4.361: servercentralen.se INFO Done testing address 188.95.37.2.
+  4.361: servercentralen.se INFO Done testing host ns1.servercentralen.net.
+  4.870: servercentralen.se WARNING Name server ns1.servercentralen.net (188.95.37.2) is recursive.
+  4.879: servercentralen.se INFO Name server ns1.servercentralen.net (188.95.37.2) authoritative for servercentralen.se.
+  4.888: servercentralen.se INFO Name server ns1.servercentralen.net (188.95.37.2) answers queries over UDP.
+  4.901: servercentralen.se INFO Name server ns1.servercentralen.net (188.95.37.2) answers queries over TCP.
+  4.915: servercentralen.se INFO Name server ns1.servercentralen.net (188.95.37.2) closed for zone transfer of servercentralen.se.
+  4.925: servercentralen.se INFO Legacy name server ID for ns1.servercentralen.net (188.95.37.2): hostname.bind = ns1.servercentralen.net
+  4.932: servercentralen.se INFO Legacy name server ID for ns1.servercentralen.net (188.95.37.2): version.bind = 9.3.6-P1-RedHat-9.3.6-4.P1.el5_4.2
+  4.944: servercentralen.se NOTICE No answer received from 188.95.37.2 when querying for version.server/CH/TXT.
+  4.944: servercentralen.se INFO Done testing name server ns1.servercentralen.net.
+  4.945: servercentralen.se INFO Begin testing name server ns2.servercentralen.net.
+  4.945: servercentralen.se INFO Begin testing host ns2.servercentralen.net.
+  4.945: servercentralen.se INFO Begin testing address 188.95.38.2.
+  5.092: servercentralen.se INFO Done testing address 188.95.38.2.
+  5.092: servercentralen.se INFO Done testing host ns2.servercentralen.net.
+  5.104: servercentralen.se INFO Name server ns2.servercentralen.net (188.95.38.2) is not recursive.
+  5.114: servercentralen.se INFO Name server ns2.servercentralen.net (188.95.38.2) authoritative for servercentralen.se.
+  5.124: servercentralen.se INFO Name server ns2.servercentralen.net (188.95.38.2) answers queries over UDP.
+  5.140: servercentralen.se INFO Name server ns2.servercentralen.net (188.95.38.2) answers queries over TCP.
+  5.160: servercentralen.se NOTICE Name server ns2.servercentralen.net (188.95.38.2) open for zone transfer of servercentralen.se.
+  5.169: servercentralen.se INFO Legacy name server ID for ns2.servercentralen.net (188.95.38.2): hostname.bind = ns2.servercentralen.net
+  5.177: servercentralen.se INFO Legacy name server ID for ns2.servercentralen.net (188.95.38.2): version.bind = 9.3.6-P1-RedHat-9.3.6-4.P1.el5_4.2
+  5.193: servercentralen.se NOTICE No answer received from 188.95.38.2 when querying for version.server/CH/TXT.
+  5.193: servercentralen.se INFO Done testing name server ns2.servercentralen.net.
+  5.193: servercentralen.se INFO Begin testing name server ns3.servercentralen.net.
+  5.193: servercentralen.se INFO Begin testing host ns3.servercentralen.net.
+  5.194: servercentralen.se INFO Begin testing address 188.95.39.2.
+  5.202: servercentralen.se WARNING Could not find reverse address for 188.95.39.2 (2.39.95.188.in-addr.arpa.).
+  5.202: servercentralen.se INFO Done testing address 188.95.39.2.
+  5.202: servercentralen.se INFO Done testing host ns3.servercentralen.net.
+  5.487: servercentralen.se WARNING Name server ns3.servercentralen.net (188.95.39.2) is recursive.
+  5.509: servercentralen.se INFO Name server ns3.servercentralen.net (188.95.39.2) authoritative for servercentralen.se.
+  5.529: servercentralen.se INFO Name server ns3.servercentralen.net (188.95.39.2) answers queries over UDP.
+  5.565: servercentralen.se INFO Name server ns3.servercentralen.net (188.95.39.2) answers queries over TCP.
+  5.714: servercentralen.se NOTICE Name server ns3.servercentralen.net (188.95.39.2) open for zone transfer of servercentralen.se.
+  5.734: servercentralen.se INFO Legacy name server ID for ns3.servercentralen.net (188.95.39.2): hostname.bind = ns3.servercentralen.net
+  5.756: servercentralen.se INFO Legacy name server ID for ns3.servercentralen.net (188.95.39.2): version.bind = 9.3.6-P1
+  5.794: servercentralen.se NOTICE No answer received from 188.95.39.2 when querying for version.server/CH/TXT.
+  5.794: servercentralen.se INFO Done testing name server ns3.servercentralen.net.
+  5.794: servercentralen.se INFO Begin testing zone consistency for servercentralen.se.
+  5.821: servercentralen.se INFO SOA at address 188.95.38.2 has serial 2010080300.
+  5.829: servercentralen.se INFO SOA at address 188.95.37.2 has serial 2010080300.
+  5.966: servercentralen.se INFO SOA at address 99.198.121.141 has serial 2010080300.
+  5.986: servercentralen.se INFO SOA at address 188.95.39.2 has serial 2010080300.
+  5.986: servercentralen.se INFO All SOA records have consistent serial numbers.
+  5.986: servercentralen.se INFO All SOA records are consistent among all name servers.
+  5.986: servercentralen.se INFO Done testing zone consistency for servercentralen.se.
+  5.986: servercentralen.se INFO Begin testing SOA parameters for servercentralen.se.
+  5.994: servercentralen.se INFO Found SOA record for servercentralen.se.
+  5.995: servercentralen.se INFO Begin testing host ns1.servercentralen.net.
+  5.995: servercentralen.se INFO Begin testing address 188.95.37.2.
+  5.996: servercentralen.se INFO Done testing address 188.95.37.2.
+  5.996: servercentralen.se INFO Done testing host ns1.servercentralen.net.
+  5.996: servercentralen.se INFO SOA MNAME for servercentralen.se valid (ns1.servercentralen.net).
+  5.996: servercentralen.se INFO SOA MNAME for servercentralen.se (ns1.servercentralen.net) listed as NS.
+  6.004: servercentralen.se INFO SOA MNAME for servercentralen.se (ns1.servercentralen.net) is authoritative.
+  6.004: servercentralen.se INFO Begin testing email address registry@servercentralen.net.
+  6.012: servercentralen.se INFO Mail exchangers for registry@servercentralen.net found servercentralen.net.
+  6.012: servercentralen.se INFO Begin testing host servercentralen.net.
+  6.025: servercentralen.se INFO Begin testing address 188.95.38.34.
+  6.045: servercentralen.se INFO Done testing address 188.95.38.34.
+  6.045: servercentralen.se INFO Done testing host servercentralen.net.
+  6.045: servercentralen.se INFO Begin testing mail server servercentralen.net (188.95.38.34) with registry@servercentralen.net.
+  6.075: servercentralen.se INFO SMTP banner: uwh1.centralcloud.net ESMTP Exim 4.69 #1 Tue, 07 Sep 2010 16:23:07 +0200 
+  6.360: servercentralen.se INFO SMTP testing of servercentralen.net (188.95.38.34) with registry@servercentralen.net succeeded without errors.
+  6.361: servercentralen.se INFO Done testing mail server servercentralen.net (188.95.38.34) with registry@servercentralen.net.
+  6.361: servercentralen.se INFO Delivery over IPv4 to registry@servercentralen.net ok.
+  6.361: servercentralen.se INFO Delivery over IPv6 to registry@servercentralen.net could not be done.
+  6.361: servercentralen.se INFO Done testing email address registry@servercentralen.net.
+  6.361: servercentralen.se INFO Successful attempt to deliver email for SOA RNAME of servercentralen.se (registry.servercentralen.net) using registry@servercentralen.net.
+  6.362: servercentralen.se INFO SOA TTL for servercentralen.se OK (86400) - recommended >= 3600.
+  6.362: servercentralen.se INFO SOA refresh for servercentralen.se OK (86400) - recommended >= 14400.
+  6.362: servercentralen.se INFO SOA retry for servercentralen.se OK (7200) - recommended >= 3600.
+  6.362: servercentralen.se INFO SOA expire for servercentralen.se OK (3600000) - recommended >= 604800.
+  6.362: servercentralen.se INFO SOA minimum for servercentralen.se OK (86400) - recommended between 300 and 86400.
+  6.362: servercentralen.se INFO Done testing SOA parameters for servercentralen.se.
+  6.362: servercentralen.se INFO Begin testing connectivity for servercentralen.se.
+  6.764: servercentralen.se INFO Name server 188.95.38.2 announced by: 49515
+  6.893: servercentralen.se INFO Name server 188.95.37.2 announced by: 49515
+  7.014: servercentralen.se INFO Name server 188.95.39.2 announced by: 49515,42695
+  7.014: servercentralen.se WARNING Name server 188.95.39.2 announced by multiple AS.
+  7.014: servercentralen.se INFO Zone announced by ASN: 49515,42695
+  7.014: servercentralen.se INFO Zone announced by more than one ASN (2).
+  7.015: servercentralen.se INFO Zone announced by IPv6 ASN: 
+  7.015: servercentralen.se NOTICE Zone announced by only one IPv6 ASN (0).
+  7.015: servercentralen.se INFO Done testing connectivity for servercentralen.se.
+  7.015: servercentralen.se INFO Begin testing DNSSEC for servercentralen.se.
+  7.030: servercentralen.se INFO Did not find DS record for servercentralen.se at parent.
+  7.091: servercentralen.se INFO Servers for servercentralen.se have consistent extra processing status.
+  7.092: servercentralen.se INFO Did not find DNSKEY record for servercentralen.se at child.
+  7.092: servercentralen.se INFO No DNSKEY(s) found at child, other tests skipped.
+  7.092: servercentralen.se INFO Done testing DNSSEC for servercentralen.se.
+  7.092: servercentralen.se INFO Test completed for zone servercentralen.se.

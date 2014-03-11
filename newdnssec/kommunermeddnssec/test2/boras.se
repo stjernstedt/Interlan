@@ -1,0 +1,131 @@
+  0.000: boras.se INFO Begin testing zone boras.se with version 1.2.
+  0.000: boras.se INFO Begin testing delegation for boras.se.
+ 10.055: boras.se INFO Name servers listed at parent: bill.boras.se,bull.boras.se,dns1.telia.com,pitea.dns.swip.net
+ 12.616: boras.se INFO Name servers listed at child: dns1.telia.com,ns1.boras.se,ns2.boras.se,pitea.dns.swip.net
+ 12.616: boras.se ERROR Superfluous name server listed at parent: bill.boras.se
+ 12.616: boras.se ERROR Superfluous name server listed at parent: bull.boras.se
+ 12.616: boras.se NOTICE Additional name server listed at child: ns1.boras.se
+ 12.616: boras.se NOTICE Additional name server listed at child: ns2.boras.se
+ 12.616: boras.se NOTICE No IPv6 name servers found.
+ 12.625: boras.se INFO Parent glue for boras.se found: bill.boras.se (148.160.250.19)
+ 12.706: boras.se INFO Parent glue for boras.se found: bull.boras.se (148.160.250.29)
+ 12.905: boras.se INFO Checking glue for bill.boras.se (148.160.250.19).
+ 12.914: boras.se INFO Child glue for boras.se found: bill.boras.se (148.160.250.19)
+ 12.914: boras.se INFO Checking glue for bull.boras.se (148.160.250.29).
+ 12.923: boras.se INFO Child glue for boras.se found: bull.boras.se (148.160.250.29)
+ 12.923: boras.se INFO Parent glue for boras.se found: bill.boras.se (148.160.250.19)
+ 12.923: boras.se INFO Parent glue for boras.se found: bull.boras.se (148.160.250.29)
+ 12.924: boras.se INFO Done testing delegation for boras.se.
+ 12.925: boras.se INFO Begin testing name server dns1.telia.com.
+ 12.925: boras.se INFO Begin testing host dns1.telia.com.
+ 12.925: boras.se INFO Begin testing address 81.228.11.67.
+ 16.742: boras.se INFO Done testing address 81.228.11.67.
+ 16.742: boras.se INFO Done testing host dns1.telia.com.
+ 16.750: boras.se INFO Name server dns1.telia.com (81.228.11.67) answers queries over UDP.
+ 16.763: boras.se INFO Name server dns1.telia.com (81.228.11.67) answers queries over TCP.
+ 16.771: boras.se INFO Name server dns1.telia.com (81.228.11.67) is not recursive.
+ 16.779: boras.se INFO Name server dns1.telia.com (81.228.11.67) authoritative for boras.se.
+ 16.793: boras.se INFO Name server dns1.telia.com (81.228.11.67) closed for zone transfer of boras.se.
+ 16.802: boras.se INFO Legacy name server ID for dns1.telia.com (81.228.11.67): hostname.bind = dnshosting3-sn1.fre.skanova.net
+ 16.809: boras.se INFO Legacy name server ID for dns1.telia.com (81.228.11.67): version.bind = 9.3.2-P1
+ 16.822: boras.se NOTICE No answer received from 81.228.11.67 when querying for version.server/CH/TXT.
+ 16.822: boras.se INFO Done testing name server dns1.telia.com.
+ 16.822: boras.se INFO Begin testing name server ns1.boras.se.
+ 16.822: boras.se INFO Begin testing host ns1.boras.se.
+ 16.823: boras.se INFO Begin testing address 148.160.250.19.
+ 21.671: boras.se INFO Done testing address 148.160.250.19.
+ 21.671: boras.se INFO Done testing host ns1.boras.se.
+ 21.690: boras.se INFO Name server ns1.boras.se (148.160.250.19) answers queries over UDP.
+ 21.725: boras.se INFO Name server ns1.boras.se (148.160.250.19) answers queries over TCP.
+ 21.742: boras.se INFO Name server ns1.boras.se (148.160.250.19) is not recursive.
+ 21.760: boras.se INFO Name server ns1.boras.se (148.160.250.19) authoritative for boras.se.
+ 21.802: boras.se INFO Name server ns1.boras.se (148.160.250.19) closed for zone transfer of boras.se.
+ 21.820: boras.se INFO Legacy name server ID for ns1.boras.se (148.160.250.19): hostname.bind = ns1.boras.se
+ 21.870: boras.se NOTICE No answer received from 148.160.250.19 when querying for version.server/CH/TXT.
+ 21.870: boras.se INFO Done testing name server ns1.boras.se.
+ 21.870: boras.se INFO Begin testing name server ns2.boras.se.
+ 21.870: boras.se INFO Begin testing host ns2.boras.se.
+ 21.871: boras.se INFO Begin testing address 148.160.250.29.
+ 22.612: boras.se INFO Done testing address 148.160.250.29.
+ 22.613: boras.se INFO Done testing host ns2.boras.se.
+ 22.630: boras.se INFO Name server ns2.boras.se (148.160.250.29) answers queries over UDP.
+ 22.657: boras.se INFO Name server ns2.boras.se (148.160.250.29) answers queries over TCP.
+ 22.672: boras.se INFO Name server ns2.boras.se (148.160.250.29) is not recursive.
+ 22.689: boras.se INFO Name server ns2.boras.se (148.160.250.29) authoritative for boras.se.
+ 22.731: boras.se INFO Name server ns2.boras.se (148.160.250.29) closed for zone transfer of boras.se.
+ 22.747: boras.se INFO Legacy name server ID for ns2.boras.se (148.160.250.29): hostname.bind = ns2.boras.se
+ 22.790: boras.se NOTICE No answer received from 148.160.250.29 when querying for version.server/CH/TXT.
+ 22.790: boras.se INFO Done testing name server ns2.boras.se.
+ 22.790: boras.se INFO Begin testing name server pitea.dns.swip.net.
+ 22.790: boras.se INFO Begin testing host pitea.dns.swip.net.
+ 22.790: boras.se INFO Begin testing address 192.71.180.43.
+ 23.585: boras.se INFO Done testing address 192.71.180.43.
+ 23.585: boras.se INFO Done testing host pitea.dns.swip.net.
+ 23.594: boras.se INFO Name server pitea.dns.swip.net (192.71.180.43) answers queries over UDP.
+ 23.609: boras.se INFO Name server pitea.dns.swip.net (192.71.180.43) answers queries over TCP.
+ 23.616: boras.se INFO Name server pitea.dns.swip.net (192.71.180.43) is not recursive.
+ 23.625: boras.se INFO Name server pitea.dns.swip.net (192.71.180.43) authoritative for boras.se.
+ 23.641: boras.se INFO Name server pitea.dns.swip.net (192.71.180.43) closed for zone transfer of boras.se.
+ 23.651: boras.se INFO Legacy name server ID for pitea.dns.swip.net (192.71.180.43): hostname.bind = nicodemus
+ 23.659: boras.se INFO Legacy name server ID for pitea.dns.swip.net (192.71.180.43): version.bind = PONG 0.2alpha
+ 23.673: boras.se NOTICE No answer received from 192.71.180.43 when querying for version.server/CH/TXT.
+ 23.673: boras.se INFO Done testing name server pitea.dns.swip.net.
+ 23.674: boras.se INFO Begin testing zone consistency for boras.se.
+ 23.687: boras.se INFO SOA at address 192.71.180.43 has serial 2010032540.
+ 23.706: boras.se INFO SOA at address 148.160.250.19 has serial 2010032540.
+ 23.722: boras.se INFO SOA at address 148.160.250.29 has serial 2010032540.
+ 23.730: boras.se INFO SOA at address 81.228.11.67 has serial 2010032540.
+ 23.731: boras.se INFO All SOA records have consistent serial numbers.
+ 23.731: boras.se INFO All SOA records are consistent among all name servers.
+ 23.731: boras.se INFO Done testing zone consistency for boras.se.
+ 23.731: boras.se INFO Begin testing SOA parameters for boras.se.
+ 23.739: boras.se INFO Found SOA record for boras.se.
+ 23.739: boras.se INFO Begin testing host ns1.boras.se.
+ 23.740: boras.se INFO Begin testing address 148.160.250.19.
+ 23.741: boras.se INFO Done testing address 148.160.250.19.
+ 23.741: boras.se INFO Done testing host ns1.boras.se.
+ 23.742: boras.se INFO SOA MNAME for boras.se valid (ns1.boras.se).
+ 23.742: boras.se INFO SOA MNAME for boras.se (ns1.boras.se) listed as NS.
+ 23.762: boras.se INFO SOA MNAME for boras.se (ns1.boras.se) is authoritative.
+ 23.762: boras.se INFO Begin testing email address hostmaster@boras.se.
+ 23.993: boras.se INFO Mail exchangers for hostmaster@boras.se found pelle.boras.se,maja.boras.se.
+ 23.993: boras.se INFO All mail servers for hostmaster@boras.se are in zone boras.se.
+ 23.993: boras.se INFO Begin testing host pelle.boras.se.
+ 24.433: boras.se INFO Begin testing address 148.160.250.52.
+ 25.152: boras.se INFO Done testing address 148.160.250.52.
+ 25.152: boras.se INFO Done testing host pelle.boras.se.
+ 25.152: boras.se INFO Begin testing mail server pelle.boras.se (148.160.250.52) with hostmaster@boras.se.
+ 25.339: boras.se INFO SMTP banner: pelle.boras.se EWSA3300/SMTP Ready.
+ 25.401: boras.se INFO SMTP testing of pelle.boras.se (148.160.250.52) with hostmaster@boras.se succeeded without errors.
+ 25.401: boras.se INFO Done testing mail server pelle.boras.se (148.160.250.52) with hostmaster@boras.se.
+ 25.401: boras.se INFO Begin testing host maja.boras.se.
+ 25.864: boras.se INFO Begin testing address 148.160.250.60.
+ 26.276: boras.se INFO Done testing address 148.160.250.60.
+ 26.276: boras.se INFO Done testing host maja.boras.se.
+ 26.276: boras.se INFO Delivery over IPv4 to hostmaster@boras.se ok.
+ 26.276: boras.se INFO Delivery over IPv6 to hostmaster@boras.se could not be done.
+ 26.276: boras.se INFO Done testing email address hostmaster@boras.se.
+ 26.276: boras.se INFO Successful attempt to deliver email for SOA RNAME of boras.se (hostmaster.boras.se) using hostmaster@boras.se.
+ 26.276: boras.se INFO SOA TTL for boras.se OK (28800) - recommended >= 3600.
+ 26.276: boras.se NOTICE SOA refresh for boras.se too small (10800) - recommended >= 14400.
+ 26.277: boras.se INFO SOA retry for boras.se OK (3600) - recommended >= 3600.
+ 26.277: boras.se INFO SOA expire for boras.se OK (2592000) - recommended >= 604800.
+ 26.277: boras.se INFO SOA minimum for boras.se OK (900) - recommended between 300 and 86400.
+ 26.277: boras.se INFO Done testing SOA parameters for boras.se.
+ 26.277: boras.se INFO Begin testing connectivity for boras.se.
+ 26.880: boras.se INFO Name server 192.71.180.43 announced by: 1257
+ 27.538: boras.se INFO Name server 81.228.11.67 announced by: 3301
+ 28.064: boras.se INFO Name server 148.160.250.19 announced by: 3301
+ 28.589: boras.se INFO Name server 148.160.250.29 announced by: 3301
+ 28.589: boras.se INFO Zone announced by IPv4 ASN: 3301,1257
+ 28.589: boras.se INFO Zone announced by more than one ASN (2).
+ 28.589: boras.se INFO Zone announced by IPv6 ASN: 
+ 28.589: boras.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 28.590: boras.se INFO Done testing connectivity for boras.se.
+ 28.590: boras.se INFO Begin testing DNSSEC for boras.se.
+ 28.671: boras.se INFO Did not find DS record for boras.se at parent.
+ 28.750: boras.se INFO Servers for boras.se have consistent extra processing status.
+ 28.750: boras.se INFO Did not find DNSKEY record for boras.se at child.
+ 28.750: boras.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 28.750: boras.se INFO Done testing DNSSEC for boras.se.
+ 28.750: boras.se INFO Test completed for zone boras.se.

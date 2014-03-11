@@ -1,0 +1,104 @@
+  0.000: hofors.se INFO Begin testing zone hofors.se with version 1.2.
+  0.000: hofors.se INFO Begin testing delegation for hofors.se.
+  5.130: hofors.se INFO Name servers listed at parent: ns.hofors.se,ns2.hofors.se
+  6.247: hofors.se INFO Name servers listed at child: ns.hofors.se,ns2.hofors.se
+  6.247: hofors.se NOTICE No IPv6 name servers found.
+  6.265: hofors.se INFO Parent glue for hofors.se found: ns.hofors.se (87.255.160.20)
+  6.316: hofors.se INFO Parent glue for hofors.se found: ns2.hofors.se (87.255.160.10)
+  6.336: hofors.se INFO Checking glue for ns.hofors.se (87.255.160.20).
+  6.349: hofors.se INFO Child glue for hofors.se found: ns.hofors.se (87.255.160.20)
+  6.349: hofors.se INFO Checking glue for ns2.hofors.se (87.255.160.10).
+  6.357: hofors.se INFO Child glue for hofors.se found: ns2.hofors.se (87.255.160.10)
+  6.358: hofors.se INFO Parent glue for hofors.se found: ns.hofors.se (87.255.160.20)
+  6.358: hofors.se INFO Parent glue for hofors.se found: ns2.hofors.se (87.255.160.10)
+  6.359: hofors.se INFO Done testing delegation for hofors.se.
+  6.359: hofors.se INFO Begin testing name server ns.hofors.se.
+  6.359: hofors.se INFO Begin testing host ns.hofors.se.
+  6.360: hofors.se INFO Begin testing address 87.255.160.20.
+ 11.961: hofors.se INFO Done testing address 87.255.160.20.
+ 11.961: hofors.se INFO Done testing host ns.hofors.se.
+ 11.970: hofors.se INFO Name server ns.hofors.se (87.255.160.20) answers queries over UDP.
+ 11.983: hofors.se INFO Name server ns.hofors.se (87.255.160.20) answers queries over TCP.
+ 12.175: hofors.se INFO Name server ns.hofors.se (87.255.160.20) is not recursive.
+ 12.185: hofors.se INFO Name server ns.hofors.se (87.255.160.20) authoritative for hofors.se.
+ 12.388: hofors.se NOTICE Name server ns.hofors.se (87.255.160.20) open for zone transfer of hofors.se.
+ 12.396: hofors.se NOTICE No answer received from 87.255.160.20 when querying for hostname.bind/CH/TXT.
+ 30.395: hofors.se INFO Done testing name server ns.hofors.se.
+ 30.396: hofors.se INFO Begin testing name server ns2.hofors.se.
+ 30.396: hofors.se INFO Begin testing host ns2.hofors.se.
+ 30.396: hofors.se INFO Begin testing address 87.255.160.10.
+ 30.720: hofors.se INFO Done testing address 87.255.160.10.
+ 30.720: hofors.se INFO Done testing host ns2.hofors.se.
+ 30.729: hofors.se INFO Name server ns2.hofors.se (87.255.160.10) answers queries over UDP.
+ 30.754: hofors.se INFO Name server ns2.hofors.se (87.255.160.10) answers queries over TCP.
+ 30.949: hofors.se INFO Name server ns2.hofors.se (87.255.160.10) is not recursive.
+ 30.958: hofors.se INFO Name server ns2.hofors.se (87.255.160.10) authoritative for hofors.se.
+ 31.087: hofors.se NOTICE Name server ns2.hofors.se (87.255.160.10) open for zone transfer of hofors.se.
+ 31.095: hofors.se NOTICE No answer received from 87.255.160.10 when querying for hostname.bind/CH/TXT.
+ 49.095: hofors.se INFO Done testing name server ns2.hofors.se.
+ 49.096: hofors.se INFO Begin testing zone consistency for hofors.se.
+ 49.107: hofors.se INFO SOA at address 87.255.160.20 has serial 112.
+ 49.115: hofors.se INFO SOA at address 87.255.160.10 has serial 112.
+ 49.115: hofors.se INFO All SOA records have consistent serial numbers.
+ 49.115: hofors.se INFO All SOA records are consistent among all name servers.
+ 49.115: hofors.se INFO Done testing zone consistency for hofors.se.
+ 49.116: hofors.se INFO Begin testing SOA parameters for hofors.se.
+ 49.123: hofors.se INFO Found SOA record for hofors.se.
+ 49.123: hofors.se INFO Begin testing host ns.hofors.se.
+ 49.124: hofors.se INFO Begin testing address 87.255.160.20.
+ 49.126: hofors.se INFO Done testing address 87.255.160.20.
+ 49.126: hofors.se INFO Done testing host ns.hofors.se.
+ 49.126: hofors.se INFO SOA MNAME for hofors.se valid (ns.hofors.se).
+ 49.126: hofors.se INFO SOA MNAME for hofors.se (ns.hofors.se) listed as NS.
+ 49.134: hofors.se INFO SOA MNAME for hofors.se (ns.hofors.se) is authoritative.
+ 49.134: hofors.se INFO Begin testing email address admin@hofors.se.
+ 49.356: hofors.se INFO Mail exchangers for admin@hofors.se found smtp1.interlan.se.
+ 49.356: hofors.se INFO Begin testing host smtp1.interlan.se.
+ 49.788: hofors.se INFO Begin testing address 195.198.228.203.
+ 51.751: hofors.se INFO Done testing address 195.198.228.203.
+ 51.752: hofors.se INFO Begin testing address 213.141.76.197.
+ 52.759: hofors.se INFO Done testing address 213.141.76.197.
+ 52.759: hofors.se INFO Begin testing address 213.141.76.232.
+ 53.537: hofors.se INFO Done testing address 213.141.76.232.
+ 53.537: hofors.se INFO Begin testing address 62.108.208.195.
+ 54.583: hofors.se INFO Done testing address 62.108.208.195.
+ 54.583: hofors.se INFO Begin testing address 2001:b48:10:0:0:0:0:225.
+ 54.886: hofors.se INFO Done testing address 2001:b48:10:0:0:0:0:225.
+ 54.886: hofors.se INFO Begin testing address 2a02:ae8:666:1:0:0:0:225.
+ 55.437: hofors.se INFO Done testing address 2a02:ae8:666:1:0:0:0:225.
+ 55.437: hofors.se INFO Done testing host smtp1.interlan.se.
+ 55.437: hofors.se INFO Begin testing mail server smtp1.interlan.se (195.198.228.203) with admin@hofors.se.
+ 55.760: hofors.se INFO SMTP banner: smtp3.interlan.se ESMTP Halon Mail Gateway (H/OS)
+ 55.924: hofors.se INFO SMTP testing of smtp1.interlan.se (195.198.228.203) with admin@hofors.se succeeded without errors.
+ 55.924: hofors.se INFO Done testing mail server smtp1.interlan.se (195.198.228.203) with admin@hofors.se.
+ 55.925: hofors.se INFO Begin testing mail server smtp1.interlan.se (2001:b48:10:0:0:0:0:225) with admin@hofors.se.
+ 55.928: hofors.se INFO SMTP banner: smtp2.interlan.se ESMTP Halon Mail Gateway (H/OS)
+ 56.042: hofors.se INFO SMTP testing of smtp1.interlan.se (2001:b48:10:0:0:0:0:225) with admin@hofors.se succeeded without errors.
+ 56.042: hofors.se INFO Done testing mail server smtp1.interlan.se (2001:b48:10:0:0:0:0:225) with admin@hofors.se.
+ 56.042: hofors.se INFO Delivery over IPv4 to admin@hofors.se ok.
+ 56.042: hofors.se INFO Delivery over IPv6 to admin@hofors.se ok.
+ 56.042: hofors.se INFO Done testing email address admin@hofors.se.
+ 56.042: hofors.se INFO Successful attempt to deliver email for SOA RNAME of hofors.se (admin.hofors.se) using admin@hofors.se.
+ 56.043: hofors.se INFO SOA TTL for hofors.se OK (3600) - recommended >= 3600.
+ 56.043: hofors.se NOTICE SOA refresh for hofors.se too small (3600) - recommended >= 14400.
+ 56.043: hofors.se NOTICE SOA retry for hofors.se too small (600) - recommended >= 3600.
+ 56.043: hofors.se INFO SOA expire for hofors.se OK (2419200) - recommended >= 604800.
+ 56.043: hofors.se INFO SOA minimum for hofors.se OK (3600) - recommended between 300 and 86400.
+ 56.043: hofors.se INFO Done testing SOA parameters for hofors.se.
+ 56.043: hofors.se INFO Begin testing connectivity for hofors.se.
+ 56.879: hofors.se INFO Name server 87.255.160.20 announced by: 3292
+ 57.559: hofors.se INFO Name server 87.255.160.10 announced by: 3292
+ 57.560: hofors.se INFO Zone announced by IPv4 ASN: 3292
+ 57.560: hofors.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 57.560: hofors.se INFO Zone announced by IPv6 ASN: 
+ 57.560: hofors.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 57.560: hofors.se INFO Done testing connectivity for hofors.se.
+ 57.560: hofors.se INFO Begin testing DNSSEC for hofors.se.
+ 57.638: hofors.se INFO Did not find DS record for hofors.se at parent.
+ 57.652: hofors.se ERROR EDNS not supported by 87.255.160.20.
+ 62.655: hofors.se NOTICE DNS lookup error (timeout).
+ 62.655: hofors.se INFO Servers for hofors.se have consistent extra processing status.
+ 62.656: hofors.se INFO Did not find DNSKEY record for hofors.se at child.
+ 62.656: hofors.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 62.656: hofors.se INFO Done testing DNSSEC for hofors.se.
+ 62.656: hofors.se INFO Test completed for zone hofors.se.

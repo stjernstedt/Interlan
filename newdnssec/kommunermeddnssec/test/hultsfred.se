@@ -1,0 +1,231 @@
+  0.000: hultsfred.se INFO Begin testing zone hultsfred.se with version 1.6.1.
+  0.691: hultsfred.se INFO Begin testing delegation for hultsfred.se.
+ 23.729: hultsfred.se INFO Name servers listed at parent: dns6.telia.com,hkdns1.hultsfred.se,hkdns2.hultsfred.se
+ 40.949: hultsfred.se INFO Name servers listed at child: dns6.telia.com,hkdns1.hultsfred.se,hkdns2.hultsfred.se,ns1.ipv6dns.se,ns2.ipv6dns.se
+ 40.949: hultsfred.se NOTICE Additional name server listed at child: ns1.ipv6dns.se
+ 40.949: hultsfred.se NOTICE Additional name server listed at child: ns2.ipv6dns.se
+ 43.360: hultsfred.se INFO Parent glue for hultsfred.se found: hkdns1.hultsfred.se (194.17.160.16)
+ 43.904: hultsfred.se INFO Parent glue for hultsfred.se found: hkdns2.hultsfred.se (194.17.160.17)
+ 43.954: hultsfred.se INFO Checking glue for hkdns1.hultsfred.se (194.17.160.16).
+ 44.026: hultsfred.se INFO Child glue for hultsfred.se found: hkdns1.hultsfred.se (194.17.160.16)
+ 44.026: hultsfred.se INFO Checking glue for hkdns2.hultsfred.se (194.17.160.17).
+ 44.074: hultsfred.se INFO Child glue for hultsfred.se found: hkdns2.hultsfred.se (194.17.160.17)
+ 44.075: hultsfred.se INFO Parent glue for hultsfred.se found: hkdns1.hultsfred.se (194.17.160.16)
+ 44.075: hultsfred.se INFO Parent glue for hultsfred.se found: hkdns2.hultsfred.se (194.17.160.17)
+ 53.857: hultsfred.se INFO It is possible to build a referral packet for hultsfred.se that works without EDNS0.
+ 55.992: hultsfred.se INFO Previously used name servers for hultsfred.se: 
+ 55.992: hultsfred.se INFO Done testing delegation for hultsfred.se.
+ 55.993: hultsfred.se INFO Begin testing name server dns6.telia.com.
+ 55.993: hultsfred.se INFO Begin testing host dns6.telia.com.
+ 55.993: hultsfred.se INFO Begin testing address 81.228.10.68.
+ 66.040: hultsfred.se INFO Done testing address 81.228.10.68.
+ 66.040: hultsfred.se INFO Begin testing address 2001:2040:c001:401:0:0:0:4.
+ 68.856: hultsfred.se INFO Done testing address 2001:2040:c001:401:0:0:0:4.
+ 68.856: hultsfred.se INFO Done testing host dns6.telia.com.
+ 68.959: hultsfred.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over UDP.
+ 69.016: hultsfred.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over TCP.
+ 69.471: hultsfred.se INFO Name server dns6.telia.com (81.228.10.68) is not recursive.
+ 69.888: hultsfred.se INFO Name server dns6.telia.com (81.228.10.68) authoritative for hultsfred.se.
+ 69.934: hultsfred.se INFO Name server dns6.telia.com (81.228.10.68) closed for zone transfer of hultsfred.se.
+ 70.296: hultsfred.se INFO Legacy name server ID for dns6.telia.com (81.228.10.68): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 70.928: hultsfred.se INFO Name server dns6.telia.com (2001:2040:c001:401:0:0:0:4) answers queries over UDP.
+ 71.289: hultsfred.se INFO Name server dns6.telia.com (2001:2040:c001:401:0:0:0:4) answers queries over TCP.
+ 71.399: hultsfred.se INFO Name server dns6.telia.com (2001:2040:c001:401:0:0:0:4) is not recursive.
+ 72.000: hultsfred.se INFO Name server dns6.telia.com (2001:2040:c001:401:0:0:0:4) authoritative for hultsfred.se.
+ 72.201: hultsfred.se INFO Name server dns6.telia.com (2001:2040:c001:401:0:0:0:4) closed for zone transfer of hultsfred.se.
+ 73.580: hultsfred.se INFO Legacy name server ID for dns6.telia.com (2001:2040:c001:401:0:0:0:4): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 73.800: hultsfred.se INFO Done testing name server dns6.telia.com.
+ 73.800: hultsfred.se INFO Begin testing name server hkdns1.hultsfred.se.
+ 73.800: hultsfred.se INFO Begin testing host hkdns1.hultsfred.se.
+ 75.917: hultsfred.se INFO Begin testing address 194.17.160.16.
+ 80.508: hultsfred.se INFO Done testing address 194.17.160.16.
+ 80.508: hultsfred.se INFO Done testing host hkdns1.hultsfred.se.
+ 81.319: hultsfred.se INFO Name server hkdns1.hultsfred.se (194.17.160.16) answers queries over UDP.
+ 81.475: hultsfred.se INFO Name server hkdns1.hultsfred.se (194.17.160.16) answers queries over TCP.
+ 81.496: hultsfred.se INFO Name server hkdns1.hultsfred.se (194.17.160.16) is not recursive.
+ 82.193: hultsfred.se INFO Name server hkdns1.hultsfred.se (194.17.160.16) authoritative for hultsfred.se.
+ 82.272: hultsfred.se INFO Name server hkdns1.hultsfred.se (194.17.160.16) closed for zone transfer of hultsfred.se.
+ 82.286: hultsfred.se INFO Legacy name server ID for hkdns1.hultsfred.se (194.17.160.16): hostname.bind = hkdns1
+ 83.620: hultsfred.se INFO Legacy name server ID for hkdns1.hultsfred.se (194.17.160.16): version.bind = 9.8.1-P1
+ 83.884: hultsfred.se NOTICE No answer received from 194.17.160.16 when querying for version.server/CH/TXT.
+ 83.884: hultsfred.se INFO Done testing name server hkdns1.hultsfred.se.
+ 83.884: hultsfred.se INFO Begin testing name server hkdns2.hultsfred.se.
+ 83.884: hultsfred.se INFO Begin testing host hkdns2.hultsfred.se.
+ 84.442: hultsfred.se INFO Begin testing address 194.17.160.17.
+ 87.020: hultsfred.se INFO Done testing address 194.17.160.17.
+ 87.020: hultsfred.se INFO Done testing host hkdns2.hultsfred.se.
+ 87.646: hultsfred.se INFO Name server hkdns2.hultsfred.se (194.17.160.17) answers queries over UDP.
+ 87.788: hultsfred.se INFO Name server hkdns2.hultsfred.se (194.17.160.17) answers queries over TCP.
+ 87.873: hultsfred.se INFO Name server hkdns2.hultsfred.se (194.17.160.17) is not recursive.
+ 88.177: hultsfred.se INFO Name server hkdns2.hultsfred.se (194.17.160.17) authoritative for hultsfred.se.
+ 90.884: hultsfred.se NOTICE Name server hkdns2.hultsfred.se (194.17.160.17) open for zone transfer of hultsfred.se.
+ 90.929: hultsfred.se INFO Legacy name server ID for hkdns2.hultsfred.se (194.17.160.17): hostname.bind = hkdns2
+ 90.988: hultsfred.se INFO Legacy name server ID for hkdns2.hultsfred.se (194.17.160.17): version.bind = 9.8.1-P1
+ 91.051: hultsfred.se NOTICE No answer received from 194.17.160.17 when querying for version.server/CH/TXT.
+ 91.052: hultsfred.se INFO Done testing name server hkdns2.hultsfred.se.
+ 91.052: hultsfred.se INFO Begin testing name server ns1.ipv6dns.se.
+ 91.052: hultsfred.se INFO Begin testing host ns1.ipv6dns.se.
+ 91.053: hultsfred.se INFO Begin testing address 192.71.21.35.
+112.161: hultsfred.se INFO Done testing address 192.71.21.35.
+112.161: hultsfred.se INFO Begin testing address 2001:67c:2448:10:0:0:0:53.
+112.730: hultsfred.se INFO Done testing address 2001:67c:2448:10:0:0:0:53.
+112.730: hultsfred.se INFO Done testing host ns1.ipv6dns.se.
+112.760: hultsfred.se INFO Name server ns1.ipv6dns.se (192.71.21.35) answers queries over UDP.
+112.796: hultsfred.se INFO Name server ns1.ipv6dns.se (192.71.21.35) answers queries over TCP.
+112.824: hultsfred.se INFO Name server ns1.ipv6dns.se (192.71.21.35) is not recursive.
+114.948: hultsfred.se INFO Name server ns1.ipv6dns.se (192.71.21.35) authoritative for hultsfred.se.
+114.988: hultsfred.se INFO Name server ns1.ipv6dns.se (192.71.21.35) closed for zone transfer of hultsfred.se.
+115.011: hultsfred.se INFO Legacy name server ID for ns1.ipv6dns.se (192.71.21.35): hostname.bind = ns1
+115.038: hultsfred.se INFO Legacy name server ID for ns1.ipv6dns.se (192.71.21.35): version.bind = 9.9.4rc2
+115.084: hultsfred.se NOTICE No answer received from 192.71.21.35 when querying for version.server/CH/TXT.
+115.104: hultsfred.se INFO Name server ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53) answers queries over UDP.
+115.149: hultsfred.se INFO Name server ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53) answers queries over TCP.
+115.188: hultsfred.se INFO Name server ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53) is not recursive.
+115.412: hultsfred.se INFO Name server ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53) authoritative for hultsfred.se.
+115.439: hultsfred.se INFO Name server ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53) closed for zone transfer of hultsfred.se.
+115.481: hultsfred.se INFO Legacy name server ID for ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53): hostname.bind = ns1
+115.512: hultsfred.se INFO Legacy name server ID for ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53): version.bind = 9.9.4rc2
+115.600: hultsfred.se NOTICE No answer received from 2001:67c:2448:10:0:0:0:53 when querying for version.server/CH/TXT.
+115.600: hultsfred.se INFO Done testing name server ns1.ipv6dns.se.
+115.600: hultsfred.se INFO Begin testing name server ns2.ipv6dns.se.
+115.601: hultsfred.se INFO Begin testing host ns2.ipv6dns.se.
+115.601: hultsfred.se INFO Begin testing address 109.74.7.166.
+117.725: hultsfred.se INFO Done testing address 109.74.7.166.
+117.725: hultsfred.se INFO Begin testing address 176.58.97.7.
+119.671: hultsfred.se INFO Done testing address 176.58.97.7.
+119.699: hultsfred.se INFO Begin testing address 2a02:750:7:0:0:0:0:165.
+120.389: hultsfred.se INFO Done testing address 2a02:750:7:0:0:0:0:165.
+120.389: hultsfred.se INFO Begin testing address 2a01:7e00:0:0:0:0:17:f001.
+121.658: hultsfred.se INFO Done testing address 2a01:7e00:0:0:0:0:17:f001.
+121.658: hultsfred.se INFO Done testing host ns2.ipv6dns.se.
+121.703: hultsfred.se INFO Name server ns2.ipv6dns.se (109.74.7.166) answers queries over UDP.
+121.717: hultsfred.se INFO Name server ns2.ipv6dns.se (109.74.7.166) answers queries over TCP.
+121.754: hultsfred.se INFO Name server ns2.ipv6dns.se (109.74.7.166) is not recursive.
+122.549: hultsfred.se INFO Name server ns2.ipv6dns.se (109.74.7.166) authoritative for hultsfred.se.
+122.612: hultsfred.se INFO Name server ns2.ipv6dns.se (109.74.7.166) closed for zone transfer of hultsfred.se.
+122.629: hultsfred.se INFO Legacy name server ID for ns2.ipv6dns.se (109.74.7.166): hostname.bind = ns3
+122.771: hultsfred.se INFO Legacy name server ID for ns2.ipv6dns.se (109.74.7.166): version.bind = 9.9.4-P2
+122.817: hultsfred.se NOTICE No answer received from 109.74.7.166 when querying for version.server/CH/TXT.
+122.864: hultsfred.se INFO Name server ns2.ipv6dns.se (176.58.97.7) answers queries over UDP.
+123.061: hultsfred.se INFO Name server ns2.ipv6dns.se (176.58.97.7) answers queries over TCP.
+123.117: hultsfred.se INFO Name server ns2.ipv6dns.se (176.58.97.7) is not recursive.
+123.362: hultsfred.se INFO Name server ns2.ipv6dns.se (176.58.97.7) authoritative for hultsfred.se.
+123.576: hultsfred.se INFO Name server ns2.ipv6dns.se (176.58.97.7) closed for zone transfer of hultsfred.se.
+123.691: hultsfred.se INFO Legacy name server ID for ns2.ipv6dns.se (176.58.97.7): hostname.bind = li443-7
+123.786: hultsfred.se INFO Legacy name server ID for ns2.ipv6dns.se (176.58.97.7): version.bind = 9.9.4-P2
+123.976: hultsfred.se NOTICE No answer received from 176.58.97.7 when querying for version.server/CH/TXT.
+124.072: hultsfred.se INFO Name server ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165) answers queries over UDP.
+124.115: hultsfred.se INFO Name server ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165) answers queries over TCP.
+124.163: hultsfred.se INFO Name server ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165) is not recursive.
+125.139: hultsfred.se INFO Name server ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165) authoritative for hultsfred.se.
+125.199: hultsfred.se INFO Name server ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165) closed for zone transfer of hultsfred.se.
+125.215: hultsfred.se INFO Legacy name server ID for ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165): hostname.bind = ns3
+125.234: hultsfred.se INFO Legacy name server ID for ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165): version.bind = 9.9.4-P2
+125.290: hultsfred.se NOTICE No answer received from 2a02:750:7:0:0:0:0:165 when querying for version.server/CH/TXT.
+125.365: hultsfred.se INFO Name server ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001) answers queries over UDP.
+125.486: hultsfred.se INFO Name server ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001) answers queries over TCP.
+125.650: hultsfred.se INFO Name server ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001) is not recursive.
+129.440: hultsfred.se INFO Name server ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001) authoritative for hultsfred.se.
+129.638: hultsfred.se INFO Name server ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001) closed for zone transfer of hultsfred.se.
+129.783: hultsfred.se INFO Legacy name server ID for ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001): hostname.bind = li443-7
+129.850: hultsfred.se INFO Legacy name server ID for ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001): version.bind = 9.9.4-P2
+130.072: hultsfred.se NOTICE No answer received from 2a01:7e00:0:0:0:0:17:f001 when querying for version.server/CH/TXT.
+130.072: hultsfred.se INFO Done testing name server ns2.ipv6dns.se.
+130.072: hultsfred.se INFO Begin testing zone consistency for hultsfred.se.
+131.456: hultsfred.se INFO SOA at address 194.17.160.17 has serial 2014030601.
+131.580: hultsfred.se INFO SOA at address 176.58.97.7 has serial 2014030601.
+131.636: hultsfred.se INFO SOA at address 2001:2040:c001:401:0:0:0:4 has serial 2014030601.
+131.695: hultsfred.se INFO SOA at address 2001:67c:2448:10:0:0:0:53 has serial 2014030601.
+131.738: hultsfred.se INFO SOA at address 194.17.160.16 has serial 2014030601.
+131.771: hultsfred.se INFO SOA at address 192.71.21.35 has serial 2014030601.
+131.815: hultsfred.se INFO SOA at address 109.74.7.166 has serial 2014030601.
+131.892: hultsfred.se INFO SOA at address 2a01:7e00:0:0:0:0:17:f001 has serial 2014030601.
+131.991: hultsfred.se INFO SOA at address 2a02:750:7:0:0:0:0:165 has serial 2014030601.
+132.020: hultsfred.se INFO SOA at address 81.228.10.68 has serial 2014030601.
+132.020: hultsfred.se INFO All SOA records have consistent serial numbers.
+132.020: hultsfred.se INFO All other fields in the SOA record are consistent among all name servers.
+133.113: hultsfred.se NOTICE The listed nameservers for hultsfred.se all report the same set of nameservers.
+133.113: hultsfred.se INFO Done testing zone consistency for hultsfred.se.
+133.113: hultsfred.se INFO Begin testing SOA parameters for hultsfred.se.
+133.127: hultsfred.se INFO Found SOA record for hultsfred.se.
+133.139: hultsfred.se INFO Begin testing host hkdns1.hultsfred.se.
+134.144: hultsfred.se INFO Begin testing address 194.17.160.16.
+134.486: hultsfred.se INFO Done testing address 194.17.160.16.
+134.486: hultsfred.se INFO Done testing host hkdns1.hultsfred.se.
+134.486: hultsfred.se INFO SOA MNAME for hultsfred.se valid (hkdns1.hultsfred.se).
+134.486: hultsfred.se INFO SOA MNAME for hultsfred.se (hkdns1.hultsfred.se) listed as NS.
+135.160: hultsfred.se INFO SOA MNAME for hultsfred.se (hkdns1.hultsfred.se) is authoritative.
+135.161: hultsfred.se INFO Begin testing email address postmaster@hultsfred.se.
+135.407: hultsfred.se INFO Mail exchangers for postmaster@hultsfred.se found spg1.hultsfred.se,spg2.hultsfred.se.
+135.407: hultsfred.se INFO All mail servers for postmaster@hultsfred.se are in zone hultsfred.se.
+135.451: hultsfred.se INFO Begin testing host spg1.hultsfred.se.
+136.216: hultsfred.se INFO Begin testing address 194.17.160.60.
+137.024: hultsfred.se INFO Done testing address 194.17.160.60.
+137.024: hultsfred.se INFO Done testing host spg1.hultsfred.se.
+137.573: hultsfred.se INFO Begin testing host spg2.hultsfred.se.
+138.300: hultsfred.se INFO Begin testing address 194.17.160.61.
+138.975: hultsfred.se INFO Done testing address 194.17.160.61.
+138.975: hultsfred.se INFO Done testing host spg2.hultsfred.se.
+139.584: hultsfred.se INFO Done testing email address postmaster@hultsfred.se.
+139.584: hultsfred.se INFO Successful attempt to deliver email for SOA RNAME of hultsfred.se (postmaster.hultsfred.se) using postmaster@hultsfred.se.
+139.584: hultsfred.se INFO SOA TTL for hultsfred.se OK (3600) - recommended >= 3600.
+139.584: hultsfred.se INFO SOA refresh for hultsfred.se OK (14800) - recommended >= 14400.
+139.584: hultsfred.se INFO SOA retry for hultsfred.se OK (3600) - recommended >= 3600.
+139.584: hultsfred.se INFO SOA expire for hultsfred.se OK (2592000) - recommended >= 604800.
+139.584: hultsfred.se INFO SOA minimum for hultsfred.se OK (3600) - recommended between 300 and 86400.
+139.584: hultsfred.se INFO Done testing SOA parameters for hultsfred.se.
+139.585: hultsfred.se INFO Begin testing connectivity for hultsfred.se.
+148.449: hultsfred.se INFO Zone announced by more than one ASN.
+151.204: hultsfred.se INFO Zone announced by more than one IPv6 ASN.
+151.204: hultsfred.se INFO Done testing connectivity for hultsfred.se.
+151.260: hultsfred.se INFO Begin testing DNSSEC for hultsfred.se.
+151.424: hultsfred.se INFO Found DS record for hultsfred.se at parent.
+151.490: hultsfred.se INFO Nameserver 194.17.160.17 does DNSSEC extra processing.
+151.593: hultsfred.se INFO Nameserver 176.58.97.7 does DNSSEC extra processing.
+151.651: hultsfred.se INFO Nameserver 194.17.160.16 does DNSSEC extra processing.
+151.673: hultsfred.se INFO Nameserver 109.74.7.166 does DNSSEC extra processing.
+151.681: hultsfred.se INFO Nameserver 192.71.21.35 does DNSSEC extra processing.
+151.717: hultsfred.se INFO Nameserver 81.228.10.68 does DNSSEC extra processing.
+151.838: hultsfred.se INFO Nameserver 2a01:7e00:0:0:0:0:17:f001 does DNSSEC extra processing.
+151.933: hultsfred.se INFO Nameserver 2001:2040:c001:401:0:0:0:4 does DNSSEC extra processing.
+151.961: hultsfred.se INFO Nameserver 2a02:750:7:0:0:0:0:165 does DNSSEC extra processing.
+151.972: hultsfred.se INFO Nameserver 2001:67c:2448:10:0:0:0:53 does DNSSEC extra processing.
+151.972: hultsfred.se INFO Servers for hultsfred.se have consistent extra processing status.
+152.001: hultsfred.se INFO Authenticated denial records found for hultsfred.se, of type NSEC3.
+152.016: hultsfred.se INFO NSEC3PARAM record found for hultsfred.se.
+152.016: hultsfred.se INFO NSEC3 for hultsfred.se is set to use 5 iterations, which is less than 100 and thus OK.
+152.016: hultsfred.se INFO Found DNSKEY record for hultsfred.se at child.
+152.016: hultsfred.se INFO Consistent security for hultsfred.se.
+152.016: hultsfred.se INFO Checking DNSSEC at child (hultsfred.se).
+152.016: hultsfred.se INFO hultsfred.se's key with tag 19268 uses algorithm number 8 (RSA/SHA-256).
+152.016: hultsfred.se INFO Algorithm number 8 is OK.
+152.016: hultsfred.se INFO hultsfred.se's key with tag 16143 uses algorithm number 8 (RSA/SHA-256).
+152.017: hultsfred.se INFO Algorithm number 8 is OK.
+152.017: hultsfred.se INFO DNSKEY hultsfred.se (tag 16143) is marked as a secure entry point (SEP).
+152.017: hultsfred.se INFO DNSSEC signature expires at: Wed May  7 15:07:02 2014
+152.017: hultsfred.se INFO Duration for RRSIG(hultsfred.se/IN/DNSKEY/16143) is OK (5184000 seconds).
+152.020: hultsfred.se INFO DNSSEC signature RRSIG(hultsfred.se/IN/DNSKEY/16143) matches records.
+152.020: hultsfred.se INFO DNSSEC signature valid: RRSIG(hultsfred.se/IN/DNSKEY/16143)
+152.020: hultsfred.se INFO DNSSEC signature expires at: Wed May  7 15:07:02 2014
+152.020: hultsfred.se INFO Duration for RRSIG(hultsfred.se/IN/DNSKEY/19268) is OK (5184000 seconds).
+152.062: hultsfred.se INFO DNSSEC signature RRSIG(hultsfred.se/IN/DNSKEY/19268) matches records.
+152.062: hultsfred.se INFO DNSSEC signature valid: RRSIG(hultsfred.se/IN/DNSKEY/19268)
+152.062: hultsfred.se INFO Enough valid signatures found for hultsfred.se.
+152.091: hultsfred.se INFO DNSSEC signature expires at: Wed May  7 15:07:02 2014
+152.091: hultsfred.se INFO Duration for RRSIG(hultsfred.se/IN/SOA/19268) is OK (5184000 seconds).
+152.092: hultsfred.se INFO DNSSEC signature RRSIG(hultsfred.se/IN/SOA/19268) matches records.
+152.092: hultsfred.se INFO DNSSEC signature valid: RRSIG(hultsfred.se/IN/SOA/19268)
+152.092: hultsfred.se INFO Enough valid signatures over SOA RRset found for hultsfred.se.
+152.092: hultsfred.se INFO DNSSEC child checks for hultsfred.se complete.
+152.093: hultsfred.se INFO Checking DNSSEC at parent of hultsfred.se.
+152.093: hultsfred.se INFO hultsfred.se's key with tag 16143 uses algorithm number 8 (RSA/SHA-256).
+152.093: hultsfred.se INFO Algorithm number 8 is OK.
+152.093: hultsfred.se INFO Parent DS(hultsfred.se/8/1/16143) refers to valid key at child: DNSKEY(hultsfred.se/8/16143)
+152.093: hultsfred.se INFO Parent DS(hultsfred.se) refers to secure entry point (SEP) at child: DS(hultsfred.se/8/1/16143)
+152.093: hultsfred.se INFO hultsfred.se's key with tag 16143 uses algorithm number 8 (RSA/SHA-256).
+152.093: hultsfred.se INFO Algorithm number 8 is OK.
+152.094: hultsfred.se INFO Parent DS(hultsfred.se/8/2/16143) refers to valid key at child: DNSKEY(hultsfred.se/8/16143)
+152.094: hultsfred.se INFO Parent DS(hultsfred.se) refers to secure entry point (SEP) at child: DS(hultsfred.se/8/2/16143)
+152.094: hultsfred.se INFO DNSSEC parent checks for hultsfred.se complete.
+152.094: hultsfred.se INFO Done testing DNSSEC for hultsfred.se.
+152.095: hultsfred.se INFO Test completed for zone hultsfred.se.

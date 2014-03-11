@@ -1,0 +1,71 @@
+#!/bin/sh
+echo "# "`date`
+
+for d in `cat domain | sort ` ; do
+
+        i=`echo $d|cut -d , -f 1`
+
+        echo ----------------- 1>&2
+        echo checking $i 1>&2
+
+        echo -n $d,
+
+	DNS=`dig +short ns $i`
+	dns=0
+	for ns in $DNS ; do
+		res=`host $ns | grep -i '[2-3][0-9|a-f][0-9|a-f][0-9|a-f]:'`
+		if [ "$res" ] ; then
+			dns=`echo $dns +1|bc`
+		fi
+	done
+	if [ "$dns" != "0" ] ; then
+		echo -n dns=$dns,
+	elif [ "$dns" = "0" ] ; then
+		echo -n dns=0,
+	fi
+	unset res
+	unset dns
+		
+	
+	MX=`dig +short mx $i|awk '{print $2}'`
+        for mx in $MX ; do
+		res=`host $mx | grep -i '[2-3][0-9|a-f][0-9|a-f][0-9|a-f]:'`
+                if [ "$res"  ] ; then
+			mxcheck=1
+                fi
+        done
+        if [ "$res" ] ; then
+                echo -n mx=1,
+        elif [ "$res" = "" ] ; then
+                echo -n mx=0, 
+        fi
+        unset res
+
+	res=`host www.$i | grep -i '[2-3][0-9|a-f][0-9|a-f][0-9|a-f]:'`
+	if [ "$res" ] ; then
+                echo  -n www=1,
+        elif [ "$res" = "" ] ; then
+                echo  -n www=0, 
+
+        fi
+        unset res
+
+	res=`dig +short ds $i`
+	if [ "$res" ] ; then
+		ds=`echo $res|head -1|cut -f 2 -d " "`
+		if [ "$ds" = "5" ] ; then
+			echo dnssec=nsec
+		elif [ "$ds" = "7" ] ; then
+			echo dnssce=nsec3
+		fi
+	elif [ "$res" = "" ] ; then
+		echo dnssec=0
+	fi
+	unset res
+
+
+        echo done with $i 1>&2
+        echo "" 1>&2
+
+
+done

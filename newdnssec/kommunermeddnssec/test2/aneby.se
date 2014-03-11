@@ -1,0 +1,84 @@
+  0.000: aneby.se INFO Begin testing zone aneby.se with version 1.2.
+  0.000: aneby.se INFO Begin testing delegation for aneby.se.
+  6.230: aneby.se INFO Name servers listed at parent: ns1.ascio.com,ns2.ascio.com
+  7.955: aneby.se INFO Name servers listed at child: ns1.ascio.com,ns2.ascio.com
+  7.955: aneby.se NOTICE No IPv6 name servers found.
+  8.135: aneby.se INFO Done testing delegation for aneby.se.
+  8.135: aneby.se INFO Begin testing name server ns1.ascio.com.
+  8.136: aneby.se INFO Begin testing host ns1.ascio.com.
+  8.136: aneby.se INFO Begin testing address 91.194.150.220.
+ 12.022: aneby.se INFO Done testing address 91.194.150.220.
+ 12.022: aneby.se INFO Done testing host ns1.ascio.com.
+ 12.067: aneby.se INFO Name server ns1.ascio.com (91.194.150.220) answers queries over UDP.
+ 12.152: aneby.se INFO Name server ns1.ascio.com (91.194.150.220) answers queries over TCP.
+ 12.199: aneby.se INFO Name server ns1.ascio.com (91.194.150.220) is not recursive.
+ 12.242: aneby.se INFO Name server ns1.ascio.com (91.194.150.220) authoritative for aneby.se.
+ 12.364: aneby.se INFO Name server ns1.ascio.com (91.194.150.220) closed for zone transfer of aneby.se.
+ 12.454: aneby.se INFO Legacy name server ID for ns1.ascio.com (91.194.150.220): version.bind = Served by POWERDNS 2.9.7 $Id: packethandler.cc,v 1.12 2003/03/17 13:44:53 ahu Exp $
+ 12.541: aneby.se INFO Done testing name server ns1.ascio.com.
+ 12.542: aneby.se INFO Begin testing name server ns2.ascio.com.
+ 12.542: aneby.se INFO Begin testing host ns2.ascio.com.
+ 12.542: aneby.se INFO Begin testing address 80.237.206.33.
+ 13.053: aneby.se INFO Done testing address 80.237.206.33.
+ 13.053: aneby.se INFO Done testing host ns2.ascio.com.
+ 13.094: aneby.se INFO Name server ns2.ascio.com (80.237.206.33) answers queries over UDP.
+ 13.172: aneby.se INFO Name server ns2.ascio.com (80.237.206.33) answers queries over TCP.
+ 13.216: aneby.se INFO Name server ns2.ascio.com (80.237.206.33) is not recursive.
+ 13.256: aneby.se INFO Name server ns2.ascio.com (80.237.206.33) authoritative for aneby.se.
+ 13.370: aneby.se INFO Name server ns2.ascio.com (80.237.206.33) closed for zone transfer of aneby.se.
+ 13.455: aneby.se NOTICE No answer received from 80.237.206.33 when querying for version.bind/CH/TXT.
+ 13.535: aneby.se INFO Done testing name server ns2.ascio.com.
+ 13.535: aneby.se INFO Begin testing zone consistency for aneby.se.
+ 13.578: aneby.se INFO SOA at address 80.237.206.33 has serial 1285225376.
+ 13.623: aneby.se INFO SOA at address 91.194.150.220 has serial 1285225376.
+ 13.623: aneby.se INFO All SOA records have consistent serial numbers.
+ 13.623: aneby.se INFO All SOA records are consistent among all name servers.
+ 13.623: aneby.se INFO Done testing zone consistency for aneby.se.
+ 13.623: aneby.se INFO Begin testing SOA parameters for aneby.se.
+ 13.664: aneby.se INFO Found SOA record for aneby.se.
+ 13.665: aneby.se INFO Begin testing host ns1.ascio.com.
+ 13.665: aneby.se INFO Begin testing address 91.194.150.220.
+ 13.666: aneby.se INFO Done testing address 91.194.150.220.
+ 13.667: aneby.se INFO Done testing host ns1.ascio.com.
+ 13.667: aneby.se INFO SOA MNAME for aneby.se valid (ns1.ascio.com).
+ 13.667: aneby.se INFO SOA MNAME for aneby.se (ns1.ascio.com) listed as NS.
+ 13.724: aneby.se INFO SOA MNAME for aneby.se (ns1.ascio.com) is authoritative.
+ 13.724: aneby.se INFO Begin testing email address itchefen@aneby.se.
+ 14.002: aneby.se INFO Mail exchangers for itchefen@aneby.se found mxsavvet2.savsjo.se,mxsavvet1.savsjo.se.
+ 14.002: aneby.se INFO Begin testing host mxsavvet2.savsjo.se.
+ 15.196: aneby.se INFO Begin testing address 88.206.208.234.
+ 15.901: aneby.se INFO Done testing address 88.206.208.234.
+ 15.902: aneby.se INFO Done testing host mxsavvet2.savsjo.se.
+ 15.902: aneby.se INFO Begin testing mail server mxsavvet2.savsjo.se (88.206.208.234) with itchefen@aneby.se.
+ 16.016: aneby.se INFO SMTP banner: mxsavvet2.savsjo.se ESMTP
+ 16.439: aneby.se INFO SMTP testing of mxsavvet2.savsjo.se (88.206.208.234) with itchefen@aneby.se succeeded without errors.
+ 16.439: aneby.se INFO Done testing mail server mxsavvet2.savsjo.se (88.206.208.234) with itchefen@aneby.se.
+ 16.440: aneby.se INFO Begin testing host mxsavvet1.savsjo.se.
+ 16.884: aneby.se INFO Begin testing address 88.206.208.233.
+ 17.121: aneby.se INFO Done testing address 88.206.208.233.
+ 17.121: aneby.se INFO Done testing host mxsavvet1.savsjo.se.
+ 17.121: aneby.se INFO Delivery over IPv4 to itchefen@aneby.se ok.
+ 17.121: aneby.se INFO Delivery over IPv6 to itchefen@aneby.se could not be done.
+ 17.121: aneby.se INFO Done testing email address itchefen@aneby.se.
+ 17.121: aneby.se INFO Successful attempt to deliver email for SOA RNAME of aneby.se (itchefen.aneby.se) using itchefen@aneby.se.
+ 17.121: aneby.se INFO SOA TTL for aneby.se OK (86400) - recommended >= 3600.
+ 17.121: aneby.se NOTICE SOA refresh for aneby.se too small (10800) - recommended >= 14400.
+ 17.121: aneby.se INFO SOA retry for aneby.se OK (3600) - recommended >= 3600.
+ 17.121: aneby.se INFO SOA expire for aneby.se OK (604800) - recommended >= 604800.
+ 17.122: aneby.se INFO SOA minimum for aneby.se OK (40001) - recommended between 300 and 86400.
+ 17.122: aneby.se INFO Done testing SOA parameters for aneby.se.
+ 17.122: aneby.se INFO Begin testing connectivity for aneby.se.
+ 17.804: aneby.se INFO Name server 80.237.206.33 announced by: 20773
+ 18.443: aneby.se INFO Name server 91.194.150.220 announced by: 34922
+ 18.443: aneby.se INFO Zone announced by IPv4 ASN: 34922,20773
+ 18.443: aneby.se INFO Zone announced by more than one ASN (2).
+ 18.443: aneby.se INFO Zone announced by IPv6 ASN: 
+ 18.443: aneby.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 18.443: aneby.se INFO Done testing connectivity for aneby.se.
+ 18.444: aneby.se INFO Begin testing DNSSEC for aneby.se.
+ 18.562: aneby.se INFO Did not find DS record for aneby.se at parent.
+ 18.734: aneby.se INFO Servers for aneby.se have consistent extra processing status.
+ 18.734: aneby.se INFO Did not find DNSKEY record for aneby.se at child.
+ 18.734: aneby.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 18.734: aneby.se INFO Done testing DNSSEC for aneby.se.
+ 18.734: aneby.se INFO Test completed for zone aneby.se.

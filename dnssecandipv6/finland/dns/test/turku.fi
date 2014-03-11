@@ -1,0 +1,124 @@
+  0.000: turku.fi INFO Begin testing zone turku.fi with version 1.6.1.
+  0.411: turku.fi INFO Begin testing delegation for turku.fi.
+ 12.535: turku.fi INFO Name servers listed at parent: ns1.turku.fi,ns3.turku.fi,ns4.turku.fi
+ 15.496: turku.fi INFO Name servers listed at child: ns1.turku.fi,ns3.turku.fi,ns4.turku.fi
+ 15.496: turku.fi NOTICE Too few IPv6 name servers (1).
+ 15.562: turku.fi INFO Parent glue for turku.fi found: ns1.turku.fi (192.103.92.8)
+ 15.851: turku.fi INFO Parent glue for turku.fi found: ns3.turku.fi (194.111.68.1)
+ 15.928: turku.fi INFO Parent glue for turku.fi found: ns4.turku.fi (80.69.173.21)
+ 15.964: turku.fi INFO Checking glue for ns1.turku.fi (192.103.92.8).
+ 15.998: turku.fi INFO Child glue for turku.fi found: ns1.turku.fi (192.103.92.8)
+ 15.998: turku.fi INFO Checking glue for ns3.turku.fi (194.111.68.1).
+ 16.088: turku.fi INFO Child glue for turku.fi found: ns3.turku.fi (194.111.68.1)
+ 16.089: turku.fi INFO Checking glue for ns4.turku.fi (80.69.173.21).
+ 16.156: turku.fi INFO Child glue for turku.fi found: ns4.turku.fi (80.69.173.21)
+ 16.157: turku.fi INFO Parent glue for turku.fi found: ns1.turku.fi (192.103.92.8)
+ 16.157: turku.fi INFO Parent glue for turku.fi found: ns3.turku.fi (194.111.68.1)
+ 16.157: turku.fi INFO Parent glue for turku.fi found: ns4.turku.fi (80.69.173.21)
+ 17.123: turku.fi INFO It is possible to build a referral packet for turku.fi that works without EDNS0.
+ 17.756: turku.fi INFO Previously used name servers for turku.fi: 
+ 17.756: turku.fi INFO Done testing delegation for turku.fi.
+ 17.756: turku.fi INFO Begin testing name server ns1.turku.fi.
+ 17.756: turku.fi INFO Begin testing host ns1.turku.fi.
+ 17.757: turku.fi INFO Begin testing address 192.103.92.8.
+ 25.427: turku.fi INFO Done testing address 192.103.92.8.
+ 25.428: turku.fi INFO Begin testing address 2001:2060:42:1:0:0:0:53.
+ 34.668: turku.fi INFO Done testing address 2001:2060:42:1:0:0:0:53.
+ 34.668: turku.fi INFO Done testing host ns1.turku.fi.
+ 34.690: turku.fi INFO Name server ns1.turku.fi (192.103.92.8) answers queries over UDP.
+ 34.737: turku.fi INFO Name server ns1.turku.fi (192.103.92.8) answers queries over TCP.
+ 34.791: turku.fi INFO Name server ns1.turku.fi (192.103.92.8) is not recursive.
+ 34.926: turku.fi INFO Name server ns1.turku.fi (192.103.92.8) authoritative for turku.fi.
+ 34.995: turku.fi INFO Name server ns1.turku.fi (192.103.92.8) closed for zone transfer of turku.fi.
+ 35.015: turku.fi INFO Legacy name server ID for ns1.turku.fi (192.103.92.8): hostname.bind = ns1
+ 35.040: turku.fi INFO Legacy name server ID for ns1.turku.fi (192.103.92.8): version.bind = foo
+ 35.119: turku.fi NOTICE No answer received from 192.103.92.8 when querying for version.server/CH/TXT.
+ 35.183: turku.fi INFO Name server ns1.turku.fi (2001:2060:42:1:0:0:0:53) answers queries over UDP.
+ 35.291: turku.fi INFO Name server ns1.turku.fi (2001:2060:42:1:0:0:0:53) answers queries over TCP.
+ 35.339: turku.fi INFO Name server ns1.turku.fi (2001:2060:42:1:0:0:0:53) is not recursive.
+ 35.534: turku.fi INFO Name server ns1.turku.fi (2001:2060:42:1:0:0:0:53) authoritative for turku.fi.
+ 35.666: turku.fi INFO Name server ns1.turku.fi (2001:2060:42:1:0:0:0:53) closed for zone transfer of turku.fi.
+ 35.736: turku.fi INFO Legacy name server ID for ns1.turku.fi (2001:2060:42:1:0:0:0:53): hostname.bind = ns1
+ 35.864: turku.fi INFO Legacy name server ID for ns1.turku.fi (2001:2060:42:1:0:0:0:53): version.bind = foo
+ 35.990: turku.fi NOTICE No answer received from 2001:2060:42:1:0:0:0:53 when querying for version.server/CH/TXT.
+ 35.990: turku.fi INFO Done testing name server ns1.turku.fi.
+ 35.991: turku.fi INFO Begin testing name server ns3.turku.fi.
+ 35.991: turku.fi INFO Begin testing host ns3.turku.fi.
+ 36.115: turku.fi INFO Begin testing address 194.111.68.1.
+ 36.718: turku.fi INFO Done testing address 194.111.68.1.
+ 36.718: turku.fi INFO Done testing host ns3.turku.fi.
+ 36.899: turku.fi INFO Name server ns3.turku.fi (194.111.68.1) answers queries over UDP.
+ 36.953: turku.fi INFO Name server ns3.turku.fi (194.111.68.1) answers queries over TCP.
+ 36.989: turku.fi INFO Name server ns3.turku.fi (194.111.68.1) is not recursive.
+ 37.081: turku.fi INFO Name server ns3.turku.fi (194.111.68.1) authoritative for turku.fi.
+ 37.147: turku.fi INFO Name server ns3.turku.fi (194.111.68.1) closed for zone transfer of turku.fi.
+ 37.166: turku.fi INFO Legacy name server ID for ns3.turku.fi (194.111.68.1): hostname.bind = ns3
+ 37.193: turku.fi INFO Legacy name server ID for ns3.turku.fi (194.111.68.1): version.bind = 9.8.4-rpz2+rl005.12-P1
+ 37.232: turku.fi NOTICE No answer received from 194.111.68.1 when querying for version.server/CH/TXT.
+ 37.232: turku.fi INFO Done testing name server ns3.turku.fi.
+ 37.232: turku.fi INFO Begin testing name server ns4.turku.fi.
+ 37.232: turku.fi INFO Begin testing host ns4.turku.fi.
+ 37.367: turku.fi INFO Begin testing address 80.69.173.21.
+ 38.128: turku.fi INFO Done testing address 80.69.173.21.
+ 38.128: turku.fi INFO Done testing host ns4.turku.fi.
+ 38.260: turku.fi INFO Name server ns4.turku.fi (80.69.173.21) answers queries over UDP.
+ 38.286: turku.fi INFO Name server ns4.turku.fi (80.69.173.21) answers queries over TCP.
+ 38.302: turku.fi INFO Name server ns4.turku.fi (80.69.173.21) is not recursive.
+ 38.376: turku.fi INFO Name server ns4.turku.fi (80.69.173.21) authoritative for turku.fi.
+ 38.427: turku.fi INFO Name server ns4.turku.fi (80.69.173.21) closed for zone transfer of turku.fi.
+ 38.443: turku.fi INFO Legacy name server ID for ns4.turku.fi (80.69.173.21): hostname.bind = ns4.turku.fi
+ 38.456: turku.fi INFO Legacy name server ID for ns4.turku.fi (80.69.173.21): version.bind = 9.8.1-P1
+ 38.486: turku.fi NOTICE No answer received from 80.69.173.21 when querying for version.server/CH/TXT.
+ 38.486: turku.fi INFO Done testing name server ns4.turku.fi.
+ 38.486: turku.fi INFO Begin testing zone consistency for turku.fi.
+ 39.113: turku.fi INFO SOA at address 80.69.173.21 has serial 2014022400.
+ 39.177: turku.fi INFO SOA at address 192.103.92.8 has serial 2014022400.
+ 39.219: turku.fi INFO SOA at address 194.111.68.1 has serial 2014022400.
+ 39.268: turku.fi INFO SOA at address 2001:2060:42:1:0:0:0:53 has serial 2014022400.
+ 39.268: turku.fi INFO All SOA records have consistent serial numbers.
+ 39.268: turku.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 43.625: turku.fi NOTICE The listed nameservers for turku.fi all report the same set of nameservers.
+ 43.625: turku.fi INFO Done testing zone consistency for turku.fi.
+ 43.625: turku.fi INFO Begin testing SOA parameters for turku.fi.
+ 43.662: turku.fi INFO Found SOA record for turku.fi.
+ 43.670: turku.fi INFO Begin testing host ns1.turku.fi.
+ 43.671: turku.fi INFO Begin testing address 192.103.92.8.
+ 43.674: turku.fi INFO Done testing address 192.103.92.8.
+ 43.679: turku.fi INFO Begin testing address 2001:2060:42:1:0:0:0:53.
+ 43.680: turku.fi INFO Done testing address 2001:2060:42:1:0:0:0:53.
+ 43.680: turku.fi INFO Done testing host ns1.turku.fi.
+ 43.680: turku.fi INFO SOA MNAME for turku.fi valid (ns1.turku.fi).
+ 43.681: turku.fi INFO SOA MNAME for turku.fi (ns1.turku.fi) listed as NS.
+ 43.709: turku.fi INFO SOA MNAME for turku.fi (ns1.turku.fi) is authoritative.
+ 43.763: turku.fi INFO SOA MNAME for turku.fi (ns1.turku.fi) is authoritative.
+ 43.763: turku.fi INFO Begin testing email address namemaster@turku.fi.
+ 43.854: turku.fi INFO Mail exchangers for namemaster@turku.fi found mail3.turku.fi,mail1.turku.fi.
+ 43.854: turku.fi INFO All mail servers for namemaster@turku.fi are in zone turku.fi.
+ 43.854: turku.fi INFO Begin testing host mail3.turku.fi.
+ 44.087: turku.fi INFO Begin testing address 192.103.112.36.
+ 44.622: turku.fi INFO Done testing address 192.103.112.36.
+ 44.623: turku.fi INFO Done testing host mail3.turku.fi.
+ 44.816: turku.fi INFO Begin testing host mail1.turku.fi.
+ 45.008: turku.fi INFO Begin testing address 192.103.112.38.
+ 45.433: turku.fi INFO Done testing address 192.103.112.38.
+ 45.433: turku.fi INFO Done testing host mail1.turku.fi.
+ 45.547: turku.fi INFO Done testing email address namemaster@turku.fi.
+ 45.547: turku.fi INFO Successful attempt to deliver email for SOA RNAME of turku.fi (namemaster.turku.fi) using namemaster@turku.fi.
+ 45.547: turku.fi INFO SOA TTL for turku.fi OK (3600) - recommended >= 3600.
+ 45.547: turku.fi NOTICE SOA refresh for turku.fi too small (600) - recommended >= 14400.
+ 45.547: turku.fi NOTICE SOA retry for turku.fi too small (300) - recommended >= 3600.
+ 45.548: turku.fi INFO SOA expire for turku.fi OK (1209600) - recommended >= 604800.
+ 45.548: turku.fi INFO SOA minimum for turku.fi OK (3600) - recommended between 300 and 86400.
+ 45.548: turku.fi INFO Done testing SOA parameters for turku.fi.
+ 45.548: turku.fi INFO Begin testing connectivity for turku.fi.
+ 46.838: turku.fi INFO Zone announced by more than one ASN.
+ 47.223: turku.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 47.223: turku.fi INFO Done testing connectivity for turku.fi.
+ 47.223: turku.fi INFO Begin testing DNSSEC for turku.fi.
+ 47.242: turku.fi INFO Did not find DS record for turku.fi at parent.
+ 47.435: turku.fi INFO Servers for turku.fi have consistent extra processing status.
+ 47.472: turku.fi INFO Authenticated denial records not found for turku.fi.
+ 47.496: turku.fi INFO Did not find DNSKEY record for turku.fi at child.
+ 47.496: turku.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 47.496: turku.fi INFO Done testing DNSSEC for turku.fi.
+ 47.497: turku.fi INFO Test completed for zone turku.fi.

@@ -1,0 +1,88 @@
+  0.000: oskarshamnenergi.se INFO Begin testing zone oskarshamnenergi.se with version 1.0.1.
+  0.001: oskarshamnenergi.se INFO Begin testing delegation for oskarshamnenergi.se.
+  0.780: oskarshamnenergi.se INFO Name servers listed at parent: ns1.oskarnet.se,ns2.oskarnet.se
+  0.955: oskarshamnenergi.se INFO Name servers listed at child: ns1.oskarnet.se,ns2.oskarnet.se
+  0.955: oskarshamnenergi.se NOTICE No IPv6 name servers found.
+  0.969: oskarshamnenergi.se INFO Parent glue for oskarshamnenergi.se found: ns1.oskarnet.se (217.140.112.5)
+  1.008: oskarshamnenergi.se INFO Parent glue for oskarshamnenergi.se found: ns2.oskarnet.se (217.140.112.10)
+  1.034: oskarshamnenergi.se INFO Checking glue for ns1.oskarnet.se (217.140.112.5).
+  1.034: oskarshamnenergi.se INFO Checking glue for ns2.oskarnet.se (217.140.112.10).
+  1.035: oskarshamnenergi.se INFO Done testing delegation for oskarshamnenergi.se.
+  1.035: oskarshamnenergi.se INFO Begin testing name server ns1.oskarnet.se.
+  1.036: oskarshamnenergi.se INFO Begin testing host ns1.oskarnet.se.
+  1.037: oskarshamnenergi.se INFO Begin testing address 217.140.112.5.
+  3.509: oskarshamnenergi.se INFO Done testing address 217.140.112.5.
+  3.510: oskarshamnenergi.se INFO Done testing host ns1.oskarnet.se.
+  3.536: oskarshamnenergi.se INFO Name server ns1.oskarnet.se (217.140.112.5) is not recursive.
+  3.566: oskarshamnenergi.se INFO Name server ns1.oskarnet.se (217.140.112.5) authoritative for oskarshamnenergi.se.
+  3.592: oskarshamnenergi.se INFO Name server ns1.oskarnet.se (217.140.112.5) answers queries over UDP.
+  3.638: oskarshamnenergi.se INFO Name server ns1.oskarnet.se (217.140.112.5) answers queries over TCP.
+  3.697: oskarshamnenergi.se INFO Name server ns1.oskarnet.se (217.140.112.5) closed for zone transfer of oskarshamnenergi.se.
+  3.727: oskarshamnenergi.se INFO Legacy name server ID for ns1.oskarnet.se (217.140.112.5): hostname.bind = ns1
+  3.751: oskarshamnenergi.se INFO Legacy name server ID for ns1.oskarnet.se (217.140.112.5): version.bind = Go away
+  3.800: oskarshamnenergi.se NOTICE No answer received from 217.140.112.5 when querying for version.server/CH/TXT.
+  3.801: oskarshamnenergi.se INFO Done testing name server ns1.oskarnet.se.
+  3.801: oskarshamnenergi.se INFO Begin testing name server ns2.oskarnet.se.
+  3.801: oskarshamnenergi.se INFO Begin testing host ns2.oskarnet.se.
+  3.802: oskarshamnenergi.se INFO Begin testing address 217.140.112.10.
+  3.829: oskarshamnenergi.se INFO Done testing address 217.140.112.10.
+  3.830: oskarshamnenergi.se INFO Done testing host ns2.oskarnet.se.
+  3.855: oskarshamnenergi.se INFO Name server ns2.oskarnet.se (217.140.112.10) is not recursive.
+  3.882: oskarshamnenergi.se INFO Name server ns2.oskarnet.se (217.140.112.10) authoritative for oskarshamnenergi.se.
+  3.910: oskarshamnenergi.se INFO Name server ns2.oskarnet.se (217.140.112.10) answers queries over UDP.
+  3.958: oskarshamnenergi.se INFO Name server ns2.oskarnet.se (217.140.112.10) answers queries over TCP.
+  4.020: oskarshamnenergi.se INFO Name server ns2.oskarnet.se (217.140.112.10) closed for zone transfer of oskarshamnenergi.se.
+  4.046: oskarshamnenergi.se INFO Legacy name server ID for ns2.oskarnet.se (217.140.112.10): hostname.bind = ns2
+  4.072: oskarshamnenergi.se INFO Legacy name server ID for ns2.oskarnet.se (217.140.112.10): version.bind = Go away
+  4.124: oskarshamnenergi.se NOTICE No answer received from 217.140.112.10 when querying for version.server/CH/TXT.
+  4.125: oskarshamnenergi.se INFO Done testing name server ns2.oskarnet.se.
+  4.125: oskarshamnenergi.se INFO Begin testing zone consistency for oskarshamnenergi.se.
+  4.162: oskarshamnenergi.se INFO SOA at address 217.140.112.5 has serial 2008062301.
+  4.189: oskarshamnenergi.se INFO SOA at address 217.140.112.10 has serial 2008062301.
+  4.189: oskarshamnenergi.se INFO All SOA records have consistent serial numbers.
+  4.189: oskarshamnenergi.se INFO All SOA records are consistent among all name servers.
+  4.189: oskarshamnenergi.se INFO Done testing zone consistency for oskarshamnenergi.se.
+  4.189: oskarshamnenergi.se INFO Begin testing SOA parameters for oskarshamnenergi.se.
+  4.216: oskarshamnenergi.se INFO Found SOA record for oskarshamnenergi.se.
+  4.217: oskarshamnenergi.se INFO Begin testing host ns1.oskarnet.se.
+  4.217: oskarshamnenergi.se INFO Begin testing address 217.140.112.5.
+  4.220: oskarshamnenergi.se INFO Done testing address 217.140.112.5.
+  4.220: oskarshamnenergi.se INFO Done testing host ns1.oskarnet.se.
+  4.220: oskarshamnenergi.se INFO SOA MNAME for oskarshamnenergi.se valid (ns1.oskarnet.se).
+  4.221: oskarshamnenergi.se INFO SOA MNAME for oskarshamnenergi.se (ns1.oskarnet.se) listed as NS.
+  4.248: oskarshamnenergi.se INFO SOA MNAME for oskarshamnenergi.se (ns1.oskarnet.se) is authoritative.
+  4.249: oskarshamnenergi.se INFO Begin testing email address hostmaster@oskarnet.se.
+  4.282: oskarshamnenergi.se INFO Mail exchangers for hostmaster@oskarnet.se found smtp.oskarnet.se.
+  4.283: oskarshamnenergi.se INFO Begin testing host smtp.oskarnet.se.
+  4.335: oskarshamnenergi.se INFO Begin testing address 217.140.112.10.
+  4.338: oskarshamnenergi.se INFO Done testing address 217.140.112.10.
+  4.338: oskarshamnenergi.se INFO Done testing host smtp.oskarnet.se.
+  4.339: oskarshamnenergi.se INFO Begin testing mail server smtp.oskarnet.se (217.140.112.10) with hostmaster@oskarnet.se.
+  4.567: oskarshamnenergi.se INFO SMTP banner: smtp.oskarnet.se ESMTP Sendmail 8.14.3/8.14.3/Debian-5+lenny1; Fri, 26 Mar 2010 02:04:10 +0100; (No UCE/UBE) logging access from: [213.141.76.238](FORGED)-taghax.interlan.se [213.141.76.238] (may be forged)
+  4.626: oskarshamnenergi.se WARNING Host did not accept hostmaster@oskarnet.se as SMTP recipient.
+  4.664: oskarshamnenergi.se INFO Done testing mail server smtp.oskarnet.se (217.140.112.10) with hostmaster@oskarnet.se.
+  4.665: oskarshamnenergi.se WARNING Delivery over IPv4 to hostmaster@oskarnet.se could not be done.
+  4.665: oskarshamnenergi.se INFO Delivery over IPv6 to hostmaster@oskarnet.se could not be done.
+  4.665: oskarshamnenergi.se INFO Done testing email address hostmaster@oskarnet.se.
+  4.666: oskarshamnenergi.se WARNING Failed to deliver email for SOA RNAME of oskarshamnenergi.se (hostmaster.oskarnet.se) using hostmaster@oskarnet.se.
+  4.666: oskarshamnenergi.se NOTICE SOA TTL for oskarshamnenergi.se too small (60) - recommended >= 3600.
+  4.667: oskarshamnenergi.se NOTICE SOA refresh for oskarshamnenergi.se too small (1800) - recommended >= 14400.
+  4.667: oskarshamnenergi.se NOTICE SOA retry for oskarshamnenergi.se too small (900) - recommended >= 3600.
+  4.667: oskarshamnenergi.se INFO SOA expire for oskarshamnenergi.se OK (1209600) - recommended >= 604800.
+  4.667: oskarshamnenergi.se INFO SOA minimum for oskarshamnenergi.se OK (86400) - recommended between 300 and 86400.
+  4.667: oskarshamnenergi.se INFO Done testing SOA parameters for oskarshamnenergi.se.
+  4.668: oskarshamnenergi.se INFO Begin testing connectivity for oskarshamnenergi.se.
+  5.100: oskarshamnenergi.se INFO Name server 217.140.112.5 announced by: 3292
+  5.232: oskarshamnenergi.se INFO Name server 217.140.112.10 announced by: 3292
+  5.233: oskarshamnenergi.se INFO Zone announced by ASN: 3292
+  5.233: oskarshamnenergi.se NOTICE Zone announced by only one ASN (1).
+  5.233: oskarshamnenergi.se INFO Zone announced by IPv6 ASN: 
+  5.234: oskarshamnenergi.se NOTICE Zone announced by only one IPv6 ASN (0).
+  5.234: oskarshamnenergi.se INFO Done testing connectivity for oskarshamnenergi.se.
+  5.234: oskarshamnenergi.se INFO Begin testing DNSSEC for oskarshamnenergi.se.
+  5.261: oskarshamnenergi.se INFO Did not find DS record for oskarshamnenergi.se at parent.
+  5.352: oskarshamnenergi.se INFO Servers for oskarshamnenergi.se have consistent extra processing status.
+  5.353: oskarshamnenergi.se INFO Did not find DNSKEY record for oskarshamnenergi.se at child.
+  5.353: oskarshamnenergi.se INFO No DNSKEY(s) found at child, other tests skipped.
+  5.353: oskarshamnenergi.se INFO Done testing DNSSEC for oskarshamnenergi.se.
+  5.353: oskarshamnenergi.se INFO Test completed for zone oskarshamnenergi.se.

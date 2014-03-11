@@ -1,0 +1,88 @@
+  0.000: lahti.fi INFO Begin testing zone lahti.fi with version 1.5.0.
+  0.862: lahti.fi INFO Begin testing delegation for lahti.fi.
+ 22.743: lahti.fi INFO Name servers listed at parent: ns1.taajama.fi,ns4.taajama.fi
+ 27.022: lahti.fi INFO Name servers listed at child: ns1.taajama.fi,ns4.taajama.fi
+ 27.106: lahti.fi NOTICE No IPv6 name servers found.
+ 27.316: lahti.fi INFO Parent glue for lahti.fi found: ns1.taajama.fi (83.102.40.26)
+ 27.619: lahti.fi INFO Parent glue for lahti.fi found: ns4.taajama.fi (83.102.40.27)
+ 27.691: lahti.fi INFO Checking glue for ns1.taajama.fi (83.102.40.26).
+ 27.691: lahti.fi INFO Checking glue for ns4.taajama.fi (83.102.40.27).
+ 27.714: lahti.fi INFO Parent glue for lahti.fi found: ns1.taajama.fi (83.102.40.26)
+ 27.715: lahti.fi INFO Parent glue for lahti.fi found: ns4.taajama.fi (83.102.40.27)
+ 29.816: lahti.fi INFO It is possible to build a referral packet for lahti.fi that works without EDNS0.
+ 31.650: lahti.fi INFO Previously used name servers for lahti.fi: 
+ 31.650: lahti.fi INFO Done testing delegation for lahti.fi.
+ 31.651: lahti.fi INFO Begin testing name server ns1.taajama.fi.
+ 31.651: lahti.fi INFO Begin testing host ns1.taajama.fi.
+ 32.394: lahti.fi INFO Begin testing address 83.102.40.26.
+ 45.352: lahti.fi INFO Done testing address 83.102.40.26.
+ 45.352: lahti.fi INFO Done testing host ns1.taajama.fi.
+ 45.923: lahti.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over UDP.
+ 45.973: lahti.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over TCP.
+ 46.063: lahti.fi INFO Name server ns1.taajama.fi (83.102.40.26) is not recursive.
+ 46.371: lahti.fi INFO Name server ns1.taajama.fi (83.102.40.26) authoritative for lahti.fi.
+ 46.450: lahti.fi INFO Name server ns1.taajama.fi (83.102.40.26) closed for zone transfer of lahti.fi.
+ 46.469: lahti.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): hostname.bind = kotkarausku
+ 46.553: lahti.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): version.bind = Not disclosed
+ 46.658: lahti.fi NOTICE No answer received from 83.102.40.26 when querying for version.server/CH/TXT.
+ 46.658: lahti.fi INFO Done testing name server ns1.taajama.fi.
+ 46.658: lahti.fi INFO Begin testing name server ns4.taajama.fi.
+ 46.659: lahti.fi INFO Begin testing host ns4.taajama.fi.
+ 47.175: lahti.fi INFO Begin testing address 83.102.40.27.
+ 47.987: lahti.fi INFO Done testing address 83.102.40.27.
+ 47.987: lahti.fi INFO Done testing host ns4.taajama.fi.
+ 48.386: lahti.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over UDP.
+ 48.423: lahti.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over TCP.
+ 48.470: lahti.fi INFO Name server ns4.taajama.fi (83.102.40.27) is not recursive.
+ 48.648: lahti.fi INFO Name server ns4.taajama.fi (83.102.40.27) authoritative for lahti.fi.
+ 48.720: lahti.fi INFO Name server ns4.taajama.fi (83.102.40.27) closed for zone transfer of lahti.fi.
+ 48.781: lahti.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): hostname.bind = lapiorausku
+ 48.830: lahti.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): version.bind = Not disclosed
+ 48.905: lahti.fi NOTICE No answer received from 83.102.40.27 when querying for version.server/CH/TXT.
+ 48.905: lahti.fi INFO Done testing name server ns4.taajama.fi.
+ 48.905: lahti.fi INFO Begin testing zone consistency for lahti.fi.
+ 51.959: lahti.fi INFO SOA at address 83.102.40.26 has serial 2013041801.
+ 51.979: lahti.fi INFO SOA at address 83.102.40.27 has serial 2013041801.
+ 51.979: lahti.fi INFO All SOA records have consistent serial numbers.
+ 51.979: lahti.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 53.235: lahti.fi NOTICE The listed nameservers for lahti.fi all report the same set of nameservers.
+ 53.235: lahti.fi INFO Done testing zone consistency for lahti.fi.
+ 53.235: lahti.fi INFO Begin testing SOA parameters for lahti.fi.
+ 53.303: lahti.fi INFO Found SOA record for lahti.fi.
+ 53.303: lahti.fi INFO Begin testing host ns1.taajama.fi.
+ 53.806: lahti.fi INFO Begin testing address 83.102.40.26.
+ 54.431: lahti.fi INFO Done testing address 83.102.40.26.
+ 54.431: lahti.fi INFO Done testing host ns1.taajama.fi.
+ 54.431: lahti.fi INFO SOA MNAME for lahti.fi valid (ns1.taajama.fi).
+ 54.431: lahti.fi INFO SOA MNAME for lahti.fi (ns1.taajama.fi) listed as NS.
+ 54.867: lahti.fi INFO SOA MNAME for lahti.fi (ns1.taajama.fi) is authoritative.
+ 54.868: lahti.fi INFO Begin testing email address hostmaster@taajama.com.
+ 55.708: lahti.fi INFO Mail exchangers for hostmaster@taajama.com found spp.taajama.fi,mx2.taajama.com.
+ 55.708: lahti.fi INFO Begin testing host spp.taajama.fi.
+ 57.314: lahti.fi INFO Begin testing address 217.78.212.151.
+ 58.979: lahti.fi INFO Done testing address 217.78.212.151.
+ 59.390: lahti.fi INFO Done testing host spp.taajama.fi.
+ 60.001: lahti.fi INFO Begin testing host mx2.taajama.com.
+ 61.319: lahti.fi INFO Begin testing address 83.102.41.75.
+ 63.890: lahti.fi INFO Done testing address 83.102.41.75.
+ 63.942: lahti.fi INFO Done testing host mx2.taajama.com.
+ 65.094: lahti.fi INFO Done testing email address hostmaster@taajama.com.
+ 65.094: lahti.fi INFO Successful attempt to deliver email for SOA RNAME of lahti.fi (hostmaster.taajama.com) using hostmaster@taajama.com.
+ 65.095: lahti.fi INFO SOA TTL for lahti.fi OK (28800) - recommended >= 3600.
+ 65.095: lahti.fi INFO SOA refresh for lahti.fi OK (28800) - recommended >= 14400.
+ 65.095: lahti.fi INFO SOA retry for lahti.fi OK (7200) - recommended >= 3600.
+ 65.160: lahti.fi INFO SOA expire for lahti.fi OK (1814400) - recommended >= 604800.
+ 65.160: lahti.fi INFO SOA minimum for lahti.fi OK (86400) - recommended between 300 and 86400.
+ 65.160: lahti.fi INFO Done testing SOA parameters for lahti.fi.
+ 65.160: lahti.fi INFO Begin testing connectivity for lahti.fi.
+ 69.144: lahti.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 69.144: lahti.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 69.144: lahti.fi INFO Done testing connectivity for lahti.fi.
+ 69.144: lahti.fi INFO Begin testing DNSSEC for lahti.fi.
+ 69.591: lahti.fi INFO Did not find DS record for lahti.fi at parent.
+ 69.970: lahti.fi INFO Servers for lahti.fi have consistent extra processing status.
+ 70.150: lahti.fi INFO Authenticated denial records not found for lahti.fi.
+ 70.305: lahti.fi INFO Did not find DNSKEY record for lahti.fi at child.
+ 70.306: lahti.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 70.306: lahti.fi INFO Done testing DNSSEC for lahti.fi.
+ 70.342: lahti.fi INFO Test completed for zone lahti.fi.

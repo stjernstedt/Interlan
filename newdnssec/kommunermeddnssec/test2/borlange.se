@@ -1,0 +1,133 @@
+  0.000: borlange.se INFO Begin testing zone borlange.se with version 1.2.
+  0.000: borlange.se INFO Begin testing delegation for borlange.se.
+  5.288: borlange.se INFO Name servers listed at parent: mailman.borlange.se,ns1.borlange.se,ns2.borlange.se,ns2.borlangestadsnat.se
+  7.496: borlange.se INFO Name servers listed at child: mailman.borlange.se,ns1.borlange.se,ns2.borlange.se,ns2.borlangestadsnat.se
+  7.496: borlange.se NOTICE No IPv6 name servers found.
+  7.506: borlange.se INFO Parent glue for borlange.se found: mailman.borlange.se (192.121.234.11)
+  7.555: borlange.se INFO Parent glue for borlange.se found: ns1.borlange.se (91.195.225.3)
+  7.581: borlange.se INFO Parent glue for borlange.se found: ns2.borlange.se (91.195.225.2)
+  7.660: borlange.se INFO Parent glue for borlange.se found: ns2.borlangestadsnat.se (195.5.118.7)
+  7.678: borlange.se INFO Checking glue for mailman.borlange.se (192.121.234.11).
+  7.691: borlange.se INFO Child glue for borlange.se found: mailman.borlange.se (192.121.234.11)
+  7.691: borlange.se INFO Checking glue for ns1.borlange.se (91.195.225.3).
+  7.703: borlange.se INFO Child glue for borlange.se found: ns1.borlange.se (91.195.225.3)
+  7.703: borlange.se INFO Checking glue for ns2.borlange.se (91.195.225.2).
+  7.732: borlange.se INFO Child glue for borlange.se found: ns2.borlange.se (91.195.225.2)
+  7.732: borlange.se INFO Checking glue for ns2.borlangestadsnat.se (195.5.118.7).
+  7.732: borlange.se INFO Parent glue for borlange.se found: mailman.borlange.se (192.121.234.11)
+  7.733: borlange.se INFO Parent glue for borlange.se found: ns1.borlange.se (91.195.225.3)
+  7.733: borlange.se INFO Parent glue for borlange.se found: ns2.borlange.se (91.195.225.2)
+  7.733: borlange.se INFO Parent glue for borlange.se found: ns2.borlangestadsnat.se (195.5.118.7)
+  7.734: borlange.se INFO Done testing delegation for borlange.se.
+  7.734: borlange.se INFO Begin testing name server mailman.borlange.se.
+  7.734: borlange.se INFO Begin testing host mailman.borlange.se.
+  7.735: borlange.se INFO Begin testing address 192.121.234.11.
+ 19.799: borlange.se INFO Done testing address 192.121.234.11.
+ 19.800: borlange.se INFO Done testing host mailman.borlange.se.
+ 19.815: borlange.se INFO Name server mailman.borlange.se (192.121.234.11) answers queries over UDP.
+ 19.840: borlange.se INFO Name server mailman.borlange.se (192.121.234.11) answers queries over TCP.
+ 19.854: borlange.se INFO Name server mailman.borlange.se (192.121.234.11) is not recursive.
+ 19.869: borlange.se INFO Name server mailman.borlange.se (192.121.234.11) authoritative for borlange.se.
+ 19.900: borlange.se INFO Name server mailman.borlange.se (192.121.234.11) closed for zone transfer of borlange.se.
+ 19.912: borlange.se NOTICE No answer received from 192.121.234.11 when querying for hostname.bind/CH/TXT.
+ 19.927: borlange.se INFO Legacy name server ID for mailman.borlange.se (192.121.234.11): version.bind = None of your business
+ 19.939: borlange.se NOTICE No answer received from 192.121.234.11 when querying for id.server/CH/TXT.
+ 19.952: borlange.se NOTICE No answer received from 192.121.234.11 when querying for version.server/CH/TXT.
+ 19.952: borlange.se INFO Done testing name server mailman.borlange.se.
+ 19.952: borlange.se INFO Begin testing name server ns1.borlange.se.
+ 19.952: borlange.se INFO Begin testing host ns1.borlange.se.
+ 19.952: borlange.se INFO Begin testing address 91.195.225.3.
+ 22.627: borlange.se INFO Done testing address 91.195.225.3.
+ 22.627: borlange.se INFO Done testing host ns1.borlange.se.
+ 22.640: borlange.se INFO Name server ns1.borlange.se (91.195.225.3) answers queries over UDP.
+ 22.661: borlange.se INFO Name server ns1.borlange.se (91.195.225.3) answers queries over TCP.
+ 22.673: borlange.se INFO Name server ns1.borlange.se (91.195.225.3) is not recursive.
+ 22.687: borlange.se INFO Name server ns1.borlange.se (91.195.225.3) authoritative for borlange.se.
+ 22.714: borlange.se INFO Name server ns1.borlange.se (91.195.225.3) closed for zone transfer of borlange.se.
+ 22.726: borlange.se INFO Legacy name server ID for ns1.borlange.se (91.195.225.3): hostname.bind = ns1
+ 22.737: borlange.se INFO Legacy name server ID for ns1.borlange.se (91.195.225.3): version.bind = None of your business
+ 22.759: borlange.se NOTICE No answer received from 91.195.225.3 when querying for version.server/CH/TXT.
+ 22.759: borlange.se INFO Done testing name server ns1.borlange.se.
+ 22.759: borlange.se INFO Begin testing name server ns2.borlange.se.
+ 22.759: borlange.se INFO Begin testing host ns2.borlange.se.
+ 22.760: borlange.se INFO Begin testing address 91.195.225.2.
+ 23.080: borlange.se INFO Done testing address 91.195.225.2.
+ 23.080: borlange.se INFO Done testing host ns2.borlange.se.
+ 23.094: borlange.se INFO Name server ns2.borlange.se (91.195.225.2) answers queries over UDP.
+ 23.115: borlange.se INFO Name server ns2.borlange.se (91.195.225.2) answers queries over TCP.
+ 23.133: borlange.se INFO Name server ns2.borlange.se (91.195.225.2) is not recursive.
+ 23.146: borlange.se INFO Name server ns2.borlange.se (91.195.225.2) authoritative for borlange.se.
+ 23.173: borlange.se INFO Name server ns2.borlange.se (91.195.225.2) closed for zone transfer of borlange.se.
+ 23.185: borlange.se INFO Legacy name server ID for ns2.borlange.se (91.195.225.2): hostname.bind = ns2
+ 23.196: borlange.se INFO Legacy name server ID for ns2.borlange.se (91.195.225.2): version.bind = None of your business
+ 23.218: borlange.se NOTICE No answer received from 91.195.225.2 when querying for version.server/CH/TXT.
+ 23.218: borlange.se INFO Done testing name server ns2.borlange.se.
+ 23.218: borlange.se INFO Begin testing name server ns2.borlangestadsnat.se.
+ 23.218: borlange.se INFO Begin testing host ns2.borlangestadsnat.se.
+ 23.218: borlange.se INFO Begin testing address 195.5.118.7.
+ 23.705: borlange.se INFO Done testing address 195.5.118.7.
+ 23.705: borlange.se INFO Done testing host ns2.borlangestadsnat.se.
+ 23.720: borlange.se INFO Name server ns2.borlangestadsnat.se (195.5.118.7) answers queries over UDP.
+ 23.742: borlange.se INFO Name server ns2.borlangestadsnat.se (195.5.118.7) answers queries over TCP.
+ 23.754: borlange.se INFO Name server ns2.borlangestadsnat.se (195.5.118.7) is not recursive.
+ 23.768: borlange.se INFO Name server ns2.borlangestadsnat.se (195.5.118.7) authoritative for borlange.se.
+ 23.797: borlange.se INFO Name server ns2.borlangestadsnat.se (195.5.118.7) closed for zone transfer of borlange.se.
+ 23.810: borlange.se INFO Legacy name server ID for ns2.borlangestadsnat.se (195.5.118.7): hostname.bind = NS2
+ 23.824: borlange.se INFO Legacy name server ID for ns2.borlangestadsnat.se (195.5.118.7): version.bind = OS/2 2.2
+ 23.850: borlange.se NOTICE No answer received from 195.5.118.7 when querying for version.server/CH/TXT.
+ 23.850: borlange.se INFO Done testing name server ns2.borlangestadsnat.se.
+ 23.851: borlange.se INFO Begin testing zone consistency for borlange.se.
+ 23.872: borlange.se INFO SOA at address 195.5.118.7 has serial 2010120901.
+ 23.888: borlange.se INFO SOA at address 192.121.234.11 has serial 2010120901.
+ 23.902: borlange.se INFO SOA at address 91.195.225.2 has serial 2010120901.
+ 23.914: borlange.se INFO SOA at address 91.195.225.3 has serial 2010083101.
+ 23.914: borlange.se WARNING 2 different serials found.
+ 23.915: borlange.se INFO All SOA records are consistent among all name servers.
+ 23.915: borlange.se INFO Done testing zone consistency for borlange.se.
+ 23.915: borlange.se INFO Begin testing SOA parameters for borlange.se.
+ 23.928: borlange.se INFO Found SOA record for borlange.se.
+ 23.928: borlange.se INFO Begin testing host ns1.borlange.se.
+ 23.928: borlange.se INFO Begin testing address 91.195.225.3.
+ 23.930: borlange.se INFO Done testing address 91.195.225.3.
+ 23.930: borlange.se INFO Done testing host ns1.borlange.se.
+ 23.930: borlange.se INFO SOA MNAME for borlange.se valid (ns1.borlange.se).
+ 23.930: borlange.se INFO SOA MNAME for borlange.se (ns1.borlange.se) listed as NS.
+ 23.943: borlange.se INFO SOA MNAME for borlange.se (ns1.borlange.se) is authoritative.
+ 23.943: borlange.se INFO Begin testing email address hostmaster@borlange.se.
+ 24.193: borlange.se INFO Mail exchangers for hostmaster@borlange.se found ipmx01.borlange.se.
+ 24.193: borlange.se INFO All mail servers for hostmaster@borlange.se are in zone borlange.se.
+ 24.193: borlange.se INFO Begin testing host ipmx01.borlange.se.
+ 24.640: borlange.se INFO Begin testing address 91.195.225.11.
+ 25.052: borlange.se INFO Done testing address 91.195.225.11.
+ 25.052: borlange.se INFO Done testing host ipmx01.borlange.se.
+ 25.053: borlange.se INFO Begin testing mail server ipmx01.borlange.se (91.195.225.11) with hostmaster@borlange.se.
+ 30.280: borlange.se INFO SMTP banner: ipmx01.borlange.se ESMTP
+ 30.316: borlange.se INFO SMTP testing of ipmx01.borlange.se (91.195.225.11) with hostmaster@borlange.se succeeded without errors.
+ 30.316: borlange.se INFO Done testing mail server ipmx01.borlange.se (91.195.225.11) with hostmaster@borlange.se.
+ 30.316: borlange.se INFO Delivery over IPv4 to hostmaster@borlange.se ok.
+ 30.316: borlange.se INFO Delivery over IPv6 to hostmaster@borlange.se could not be done.
+ 30.316: borlange.se INFO Done testing email address hostmaster@borlange.se.
+ 30.316: borlange.se INFO Successful attempt to deliver email for SOA RNAME of borlange.se (hostmaster.borlange.se) using hostmaster@borlange.se.
+ 30.316: borlange.se NOTICE SOA TTL for borlange.se too small (1800) - recommended >= 3600.
+ 30.316: borlange.se INFO SOA refresh for borlange.se OK (28800) - recommended >= 14400.
+ 30.316: borlange.se INFO SOA retry for borlange.se OK (7200) - recommended >= 3600.
+ 30.316: borlange.se INFO SOA expire for borlange.se OK (2419200) - recommended >= 604800.
+ 30.316: borlange.se INFO SOA minimum for borlange.se OK (86400) - recommended between 300 and 86400.
+ 30.316: borlange.se INFO Done testing SOA parameters for borlange.se.
+ 30.317: borlange.se INFO Begin testing connectivity for borlange.se.
+ 30.913: borlange.se INFO Name server 91.195.225.3 announced by: 8473
+ 31.454: borlange.se INFO Name server 195.5.118.7 announced by: 39708
+ 31.964: borlange.se INFO Name server 192.121.234.11 announced by: 3292
+ 32.488: borlange.se INFO Name server 91.195.225.2 announced by: 8473
+ 32.488: borlange.se INFO Zone announced by IPv4 ASN: 3292,39708,8473
+ 32.488: borlange.se INFO Zone announced by more than one ASN (3).
+ 32.488: borlange.se INFO Zone announced by IPv6 ASN: 
+ 32.488: borlange.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 32.488: borlange.se INFO Done testing connectivity for borlange.se.
+ 32.488: borlange.se INFO Begin testing DNSSEC for borlange.se.
+ 32.536: borlange.se INFO Did not find DS record for borlange.se at parent.
+ 32.619: borlange.se INFO Servers for borlange.se have consistent extra processing status.
+ 32.619: borlange.se INFO Did not find DNSKEY record for borlange.se at child.
+ 32.619: borlange.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 32.619: borlange.se INFO Done testing DNSSEC for borlange.se.
+ 32.619: borlange.se INFO Test completed for zone borlange.se.

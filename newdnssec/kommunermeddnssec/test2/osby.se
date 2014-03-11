@@ -1,0 +1,84 @@
+  0.000: osby.se INFO Begin testing zone osby.se with version 1.2.
+  0.000: osby.se INFO Begin testing delegation for osby.se.
+  5.848: osby.se INFO Name servers listed at parent: kalmar.dns.swip.net,wexio.dns.swip.net
+  7.541: osby.se INFO Name servers listed at child: kalmar.dns.swip.net,wexio.dns.swip.net
+  7.541: osby.se NOTICE No IPv6 name servers found.
+  7.732: osby.se INFO Done testing delegation for osby.se.
+  7.733: osby.se INFO Begin testing name server kalmar.dns.swip.net.
+  7.733: osby.se INFO Begin testing host kalmar.dns.swip.net.
+  7.733: osby.se INFO Begin testing address 192.71.180.46.
+ 18.393: osby.se INFO Done testing address 192.71.180.46.
+ 18.393: osby.se INFO Done testing host kalmar.dns.swip.net.
+ 22.403: osby.se INFO Name server kalmar.dns.swip.net (192.71.180.46) answers queries over UDP.
+ 22.416: osby.se INFO Name server kalmar.dns.swip.net (192.71.180.46) answers queries over TCP.
+ 22.424: osby.se INFO Name server kalmar.dns.swip.net (192.71.180.46) is not recursive.
+ 22.432: osby.se INFO Name server kalmar.dns.swip.net (192.71.180.46) authoritative for osby.se.
+ 22.448: osby.se INFO Name server kalmar.dns.swip.net (192.71.180.46) closed for zone transfer of osby.se.
+ 22.458: osby.se INFO Legacy name server ID for kalmar.dns.swip.net (192.71.180.46): hostname.bind = nicodemus
+ 22.466: osby.se INFO Legacy name server ID for kalmar.dns.swip.net (192.71.180.46): version.bind = PONG 0.2alpha
+ 22.480: osby.se NOTICE No answer received from 192.71.180.46 when querying for version.server/CH/TXT.
+ 22.480: osby.se INFO Done testing name server kalmar.dns.swip.net.
+ 22.480: osby.se INFO Begin testing name server wexio.dns.swip.net.
+ 22.480: osby.se INFO Begin testing host wexio.dns.swip.net.
+ 22.481: osby.se INFO Begin testing address 192.71.220.14.
+ 22.756: osby.se INFO Done testing address 192.71.220.14.
+ 22.756: osby.se INFO Done testing host wexio.dns.swip.net.
+ 22.768: osby.se INFO Name server wexio.dns.swip.net (192.71.220.14) answers queries over UDP.
+ 22.782: osby.se INFO Name server wexio.dns.swip.net (192.71.220.14) answers queries over TCP.
+ 22.790: osby.se INFO Name server wexio.dns.swip.net (192.71.220.14) is not recursive.
+ 22.798: osby.se INFO Name server wexio.dns.swip.net (192.71.220.14) authoritative for osby.se.
+ 22.812: osby.se INFO Name server wexio.dns.swip.net (192.71.220.14) closed for zone transfer of osby.se.
+ 22.820: osby.se INFO Legacy name server ID for wexio.dns.swip.net (192.71.220.14): hostname.bind = nico
+ 22.827: osby.se INFO Legacy name server ID for wexio.dns.swip.net (192.71.220.14): version.bind = PONG 0.2alpha
+ 22.841: osby.se NOTICE No answer received from 192.71.220.14 when querying for version.server/CH/TXT.
+ 22.841: osby.se INFO Done testing name server wexio.dns.swip.net.
+ 22.842: osby.se INFO Begin testing zone consistency for osby.se.
+ 22.853: osby.se INFO SOA at address 192.71.180.46 has serial 2010050301.
+ 22.862: osby.se INFO SOA at address 192.71.220.14 has serial 2010050301.
+ 22.862: osby.se INFO All SOA records have consistent serial numbers.
+ 22.862: osby.se INFO All SOA records are consistent among all name servers.
+ 22.862: osby.se INFO Done testing zone consistency for osby.se.
+ 22.862: osby.se INFO Begin testing SOA parameters for osby.se.
+ 22.870: osby.se INFO Found SOA record for osby.se.
+ 22.871: osby.se INFO Begin testing host kalmar.dns.swip.net.
+ 22.871: osby.se INFO Begin testing address 192.71.180.46.
+ 22.873: osby.se INFO Done testing address 192.71.180.46.
+ 22.873: osby.se INFO Done testing host kalmar.dns.swip.net.
+ 22.873: osby.se INFO SOA MNAME for osby.se valid (kalmar.dns.swip.net).
+ 22.873: osby.se INFO SOA MNAME for osby.se (kalmar.dns.swip.net) listed as NS.
+ 22.882: osby.se INFO SOA MNAME for osby.se (kalmar.dns.swip.net) is authoritative.
+ 22.882: osby.se INFO Begin testing email address registry@swip.net.
+ 23.134: osby.se INFO Mail exchangers for registry@swip.net found mailgw.swip.net.
+ 23.134: osby.se INFO Begin testing host mailgw.swip.net.
+ 23.632: osby.se INFO Begin testing address 212.247.156.1.
+ 25.747: osby.se INFO Done testing address 212.247.156.1.
+ 25.747: osby.se INFO Done testing host mailgw.swip.net.
+ 25.748: osby.se INFO Begin testing mail server mailgw.swip.net (212.247.156.1) with registry@swip.net.
+ 27.771: osby.se INFO SMTP banner: mailfe04.swip.net ESMTP 5.2.19
+ 27.789: osby.se INFO SMTP testing of mailgw.swip.net (212.247.156.1) with registry@swip.net succeeded without errors.
+ 27.790: osby.se INFO Done testing mail server mailgw.swip.net (212.247.156.1) with registry@swip.net.
+ 27.790: osby.se INFO Delivery over IPv4 to registry@swip.net ok.
+ 27.790: osby.se INFO Delivery over IPv6 to registry@swip.net could not be done.
+ 27.790: osby.se INFO Done testing email address registry@swip.net.
+ 27.790: osby.se INFO Successful attempt to deliver email for SOA RNAME of osby.se (registry.swip.net) using registry@swip.net.
+ 27.790: osby.se INFO SOA TTL for osby.se OK (86400) - recommended >= 3600.
+ 27.790: osby.se INFO SOA refresh for osby.se OK (28800) - recommended >= 14400.
+ 27.790: osby.se INFO SOA retry for osby.se OK (7200) - recommended >= 3600.
+ 27.790: osby.se INFO SOA expire for osby.se OK (604800) - recommended >= 604800.
+ 27.790: osby.se INFO SOA minimum for osby.se OK (86400) - recommended between 300 and 86400.
+ 27.790: osby.se INFO Done testing SOA parameters for osby.se.
+ 27.791: osby.se INFO Begin testing connectivity for osby.se.
+ 28.333: osby.se INFO Name server 192.71.180.46 announced by: 1257
+ 28.868: osby.se INFO Name server 192.71.220.14 announced by: 1257
+ 28.869: osby.se INFO Zone announced by IPv4 ASN: 1257
+ 28.869: osby.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 28.869: osby.se INFO Zone announced by IPv6 ASN: 
+ 28.869: osby.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 28.869: osby.se INFO Done testing connectivity for osby.se.
+ 28.869: osby.se INFO Begin testing DNSSEC for osby.se.
+ 28.901: osby.se INFO Did not find DS record for osby.se at parent.
+ 28.925: osby.se INFO Servers for osby.se have consistent extra processing status.
+ 28.925: osby.se INFO Did not find DNSKEY record for osby.se at child.
+ 28.925: osby.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 28.925: osby.se INFO Done testing DNSSEC for osby.se.
+ 28.925: osby.se INFO Test completed for zone osby.se.

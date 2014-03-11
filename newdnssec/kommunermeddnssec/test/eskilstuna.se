@@ -1,0 +1,83 @@
+  0.000: eskilstuna.se INFO Begin testing zone eskilstuna.se with version 1.6.1.
+  0.794: eskilstuna.se INFO Begin testing delegation for eskilstuna.se.
+ 20.185: eskilstuna.se INFO Name servers listed at parent: dns2.utfors.se,ns.eskilstuna.se
+ 22.883: eskilstuna.se INFO Name servers listed at child: dns2.utfors.se,ns.eskilstuna.se
+ 22.883: eskilstuna.se NOTICE No IPv6 name servers found.
+ 23.168: eskilstuna.se INFO Parent glue for eskilstuna.se found: ns.eskilstuna.se (212.105.81.20)
+ 23.235: eskilstuna.se INFO Checking glue for ns.eskilstuna.se (212.105.81.20).
+ 23.303: eskilstuna.se INFO Child glue for eskilstuna.se found: ns.eskilstuna.se (212.105.81.20)
+ 23.304: eskilstuna.se INFO Parent glue for eskilstuna.se found: ns.eskilstuna.se (212.105.81.20)
+ 25.830: eskilstuna.se INFO It is possible to build a referral packet for eskilstuna.se that works without EDNS0.
+ 26.918: eskilstuna.se INFO Previously used name servers for eskilstuna.se: 
+ 26.926: eskilstuna.se INFO Done testing delegation for eskilstuna.se.
+ 26.927: eskilstuna.se INFO Begin testing name server dns2.utfors.se.
+ 26.927: eskilstuna.se INFO Begin testing host dns2.utfors.se.
+ 27.217: eskilstuna.se INFO Begin testing address 213.150.128.30.
+ 41.369: eskilstuna.se INFO Done testing address 213.150.128.30.
+ 41.369: eskilstuna.se INFO Done testing host dns2.utfors.se.
+ 41.710: eskilstuna.se INFO Name server dns2.utfors.se (213.150.128.30) answers queries over UDP.
+ 41.803: eskilstuna.se INFO Name server dns2.utfors.se (213.150.128.30) answers queries over TCP.
+ 41.830: eskilstuna.se INFO Name server dns2.utfors.se (213.150.128.30) is not recursive.
+ 41.920: eskilstuna.se INFO Name server dns2.utfors.se (213.150.128.30) authoritative for eskilstuna.se.
+ 41.966: eskilstuna.se INFO Name server dns2.utfors.se (213.150.128.30) closed for zone transfer of eskilstuna.se.
+ 42.030: eskilstuna.se INFO Legacy name server ID for dns2.utfors.se (213.150.128.30): hostname.bind = dns2.telenor.se
+ 42.051: eskilstuna.se INFO Legacy name server ID for dns2.utfors.se (213.150.128.30): version.bind = Telenor DNS
+ 42.101: eskilstuna.se NOTICE No answer received from 213.150.128.30 when querying for version.server/CH/TXT.
+ 42.102: eskilstuna.se INFO Done testing name server dns2.utfors.se.
+ 42.102: eskilstuna.se INFO Begin testing name server ns.eskilstuna.se.
+ 42.102: eskilstuna.se INFO Begin testing host ns.eskilstuna.se.
+ 42.330: eskilstuna.se INFO Begin testing address 212.105.81.20.
+ 44.542: eskilstuna.se INFO Done testing address 212.105.81.20.
+ 44.542: eskilstuna.se INFO Done testing host ns.eskilstuna.se.
+ 44.769: eskilstuna.se INFO Name server ns.eskilstuna.se (212.105.81.20) answers queries over UDP.
+ 44.799: eskilstuna.se INFO Name server ns.eskilstuna.se (212.105.81.20) answers queries over TCP.
+ 44.849: eskilstuna.se WARNING Name server ns.eskilstuna.se (212.105.81.20) is recursive.
+ 45.002: eskilstuna.se INFO Name server ns.eskilstuna.se (212.105.81.20) authoritative for eskilstuna.se.
+ 45.143: eskilstuna.se NOTICE Name server ns.eskilstuna.se (212.105.81.20) open for zone transfer of eskilstuna.se.
+ 45.171: eskilstuna.se INFO Legacy name server ID for ns.eskilstuna.se (212.105.81.20): hostname.bind = hera.eskilstuna.se
+ 45.203: eskilstuna.se INFO Legacy name server ID for ns.eskilstuna.se (212.105.81.20): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 45.246: eskilstuna.se NOTICE No answer received from 212.105.81.20 when querying for version.server/CH/TXT.
+ 45.247: eskilstuna.se INFO Done testing name server ns.eskilstuna.se.
+ 45.247: eskilstuna.se INFO Begin testing zone consistency for eskilstuna.se.
+ 54.098: eskilstuna.se INFO SOA at address 212.105.81.20 has serial 2012071915.
+ 54.363: eskilstuna.se INFO SOA at address 213.150.128.30 has serial 2012071915.
+ 54.363: eskilstuna.se INFO All SOA records have consistent serial numbers.
+ 54.363: eskilstuna.se INFO All other fields in the SOA record are consistent among all name servers.
+ 55.063: eskilstuna.se NOTICE The listed nameservers for eskilstuna.se all report the same set of nameservers.
+ 55.075: eskilstuna.se INFO Done testing zone consistency for eskilstuna.se.
+ 55.075: eskilstuna.se INFO Begin testing SOA parameters for eskilstuna.se.
+ 55.102: eskilstuna.se INFO Found SOA record for eskilstuna.se.
+ 55.102: eskilstuna.se INFO Begin testing host ns.eskilstuna.se.
+ 55.611: eskilstuna.se INFO Begin testing address 212.105.81.20.
+ 56.719: eskilstuna.se INFO Done testing address 212.105.81.20.
+ 56.719: eskilstuna.se INFO Done testing host ns.eskilstuna.se.
+ 56.719: eskilstuna.se INFO SOA MNAME for eskilstuna.se valid (ns.eskilstuna.se).
+ 56.719: eskilstuna.se INFO SOA MNAME for eskilstuna.se (ns.eskilstuna.se) listed as NS.
+ 57.163: eskilstuna.se INFO SOA MNAME for eskilstuna.se (ns.eskilstuna.se) is authoritative.
+ 57.163: eskilstuna.se INFO Begin testing email address root@eskilstuna.se.
+ 57.713: eskilstuna.se INFO Mail exchangers for root@eskilstuna.se found eskil.eskilstuna.se.
+ 57.713: eskilstuna.se INFO All mail servers for root@eskilstuna.se are in zone eskilstuna.se.
+ 57.713: eskilstuna.se INFO Begin testing host eskil.eskilstuna.se.
+ 58.064: eskilstuna.se INFO Begin testing address 212.105.81.20.
+ 59.467: eskilstuna.se INFO Done testing address 212.105.81.20.
+ 59.467: eskilstuna.se INFO Done testing host eskil.eskilstuna.se.
+ 59.837: eskilstuna.se INFO Done testing email address root@eskilstuna.se.
+ 59.837: eskilstuna.se INFO Successful attempt to deliver email for SOA RNAME of eskilstuna.se (root.eskilstuna.se) using root@eskilstuna.se.
+ 59.838: eskilstuna.se INFO SOA TTL for eskilstuna.se OK (86400) - recommended >= 3600.
+ 59.838: eskilstuna.se INFO SOA refresh for eskilstuna.se OK (28800) - recommended >= 14400.
+ 59.838: eskilstuna.se INFO SOA retry for eskilstuna.se OK (7200) - recommended >= 3600.
+ 59.838: eskilstuna.se NOTICE SOA expire for eskilstuna.se too small (302400) - recommended >= 604800.
+ 59.838: eskilstuna.se INFO SOA minimum for eskilstuna.se OK (86400) - recommended between 300 and 86400.
+ 59.838: eskilstuna.se INFO Done testing SOA parameters for eskilstuna.se.
+ 59.854: eskilstuna.se INFO Begin testing connectivity for eskilstuna.se.
+ 61.985: eskilstuna.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 61.985: eskilstuna.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 61.985: eskilstuna.se INFO Done testing connectivity for eskilstuna.se.
+ 61.985: eskilstuna.se INFO Begin testing DNSSEC for eskilstuna.se.
+ 62.047: eskilstuna.se INFO Did not find DS record for eskilstuna.se at parent.
+ 62.225: eskilstuna.se INFO Servers for eskilstuna.se have consistent extra processing status.
+ 62.307: eskilstuna.se INFO Authenticated denial records not found for eskilstuna.se.
+ 62.341: eskilstuna.se INFO Did not find DNSKEY record for eskilstuna.se at child.
+ 62.341: eskilstuna.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 62.341: eskilstuna.se INFO Done testing DNSSEC for eskilstuna.se.
+ 62.341: eskilstuna.se INFO Test completed for zone eskilstuna.se.

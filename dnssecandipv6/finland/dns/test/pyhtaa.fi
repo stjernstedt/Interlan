@@ -1,0 +1,80 @@
+  0.000: pyhtaa.fi INFO Begin testing zone pyhtaa.fi with version 1.6.1.
+  0.410: pyhtaa.fi INFO Begin testing delegation for pyhtaa.fi.
+  9.409: pyhtaa.fi INFO Name servers listed at parent: pri-ns.kymp.net,sec-ns.kymp.net
+ 11.752: pyhtaa.fi INFO Name servers listed at child: pri-ns.kymp.net,sec-ns.kymp.net
+ 11.752: pyhtaa.fi NOTICE No IPv6 name servers found.
+ 13.157: pyhtaa.fi INFO It is possible to build a referral packet for pyhtaa.fi that works without EDNS0.
+ 14.011: pyhtaa.fi INFO Previously used name servers for pyhtaa.fi: 
+ 14.011: pyhtaa.fi INFO Done testing delegation for pyhtaa.fi.
+ 14.012: pyhtaa.fi INFO Begin testing name server pri-ns.kymp.net.
+ 14.012: pyhtaa.fi INFO Begin testing host pri-ns.kymp.net.
+ 14.297: pyhtaa.fi INFO Begin testing address 80.248.96.130.
+ 20.117: pyhtaa.fi INFO Done testing address 80.248.96.130.
+ 20.117: pyhtaa.fi INFO Done testing host pri-ns.kymp.net.
+ 20.572: pyhtaa.fi INFO Name server pri-ns.kymp.net (80.248.96.130) answers queries over UDP.
+ 20.618: pyhtaa.fi INFO Name server pri-ns.kymp.net (80.248.96.130) answers queries over TCP.
+ 20.664: pyhtaa.fi INFO Name server pri-ns.kymp.net (80.248.96.130) is not recursive.
+ 20.734: pyhtaa.fi INFO Name server pri-ns.kymp.net (80.248.96.130) authoritative for pyhtaa.fi.
+ 20.783: pyhtaa.fi INFO Name server pri-ns.kymp.net (80.248.96.130) closed for zone transfer of pyhtaa.fi.
+ 20.810: pyhtaa.fi NOTICE No answer received from 80.248.96.130 when querying for hostname.bind/CH/TXT.
+ 20.825: pyhtaa.fi NOTICE No answer received from 80.248.96.130 when querying for version.bind/CH/TXT.
+ 20.847: pyhtaa.fi NOTICE No answer received from 80.248.96.130 when querying for id.server/CH/TXT.
+ 20.867: pyhtaa.fi NOTICE No answer received from 80.248.96.130 when querying for version.server/CH/TXT.
+ 20.867: pyhtaa.fi INFO Done testing name server pri-ns.kymp.net.
+ 20.867: pyhtaa.fi INFO Begin testing name server sec-ns.kymp.net.
+ 20.867: pyhtaa.fi INFO Begin testing host sec-ns.kymp.net.
+ 20.999: pyhtaa.fi INFO Begin testing address 80.248.97.30.
+ 21.658: pyhtaa.fi INFO Done testing address 80.248.97.30.
+ 21.658: pyhtaa.fi INFO Done testing host sec-ns.kymp.net.
+ 21.862: pyhtaa.fi INFO Name server sec-ns.kymp.net (80.248.97.30) answers queries over UDP.
+ 21.897: pyhtaa.fi INFO Name server sec-ns.kymp.net (80.248.97.30) answers queries over TCP.
+ 21.923: pyhtaa.fi INFO Name server sec-ns.kymp.net (80.248.97.30) is not recursive.
+ 22.003: pyhtaa.fi INFO Name server sec-ns.kymp.net (80.248.97.30) authoritative for pyhtaa.fi.
+ 22.055: pyhtaa.fi INFO Name server sec-ns.kymp.net (80.248.97.30) closed for zone transfer of pyhtaa.fi.
+ 22.083: pyhtaa.fi NOTICE No answer received from 80.248.97.30 when querying for hostname.bind/CH/TXT.
+ 22.114: pyhtaa.fi NOTICE No answer received from 80.248.97.30 when querying for version.bind/CH/TXT.
+ 22.140: pyhtaa.fi NOTICE No answer received from 80.248.97.30 when querying for id.server/CH/TXT.
+ 22.191: pyhtaa.fi NOTICE No answer received from 80.248.97.30 when querying for version.server/CH/TXT.
+ 22.191: pyhtaa.fi INFO Done testing name server sec-ns.kymp.net.
+ 22.191: pyhtaa.fi INFO Begin testing zone consistency for pyhtaa.fi.
+ 23.220: pyhtaa.fi INFO SOA at address 80.248.96.130 has serial 2013102801.
+ 23.252: pyhtaa.fi INFO SOA at address 80.248.97.30 has serial 2013102801.
+ 23.252: pyhtaa.fi INFO All SOA records have consistent serial numbers.
+ 23.252: pyhtaa.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 23.690: pyhtaa.fi NOTICE The listed nameservers for pyhtaa.fi all report the same set of nameservers.
+ 23.690: pyhtaa.fi INFO Done testing zone consistency for pyhtaa.fi.
+ 23.691: pyhtaa.fi INFO Begin testing SOA parameters for pyhtaa.fi.
+ 23.742: pyhtaa.fi INFO Found SOA record for pyhtaa.fi.
+ 23.743: pyhtaa.fi INFO Begin testing host pri-ns.kymp.net.
+ 24.214: pyhtaa.fi INFO Begin testing address 80.248.96.130.
+ 24.503: pyhtaa.fi INFO Done testing address 80.248.96.130.
+ 24.503: pyhtaa.fi INFO Done testing host pri-ns.kymp.net.
+ 24.503: pyhtaa.fi INFO SOA MNAME for pyhtaa.fi valid (pri-ns.kymp.net).
+ 24.503: pyhtaa.fi INFO SOA MNAME for pyhtaa.fi (pri-ns.kymp.net) listed as NS.
+ 24.816: pyhtaa.fi INFO SOA MNAME for pyhtaa.fi (pri-ns.kymp.net) is authoritative.
+ 24.816: pyhtaa.fi INFO Begin testing email address hostmaster@kymp.net.
+ 25.152: pyhtaa.fi INFO Mail exchangers for hostmaster@kymp.net found iport.kymp.net.
+ 25.152: pyhtaa.fi INFO Begin testing host iport.kymp.net.
+ 25.839: pyhtaa.fi INFO Begin testing address 80.248.96.180.
+ 26.909: pyhtaa.fi INFO Done testing address 80.248.96.180.
+ 26.909: pyhtaa.fi INFO Done testing host iport.kymp.net.
+ 27.038: pyhtaa.fi INFO Done testing email address hostmaster@kymp.net.
+ 27.045: pyhtaa.fi INFO Successful attempt to deliver email for SOA RNAME of pyhtaa.fi (hostmaster.kymp.net) using hostmaster@kymp.net.
+ 27.045: pyhtaa.fi INFO SOA TTL for pyhtaa.fi OK (86400) - recommended >= 3600.
+ 27.045: pyhtaa.fi INFO SOA refresh for pyhtaa.fi OK (28800) - recommended >= 14400.
+ 27.046: pyhtaa.fi INFO SOA retry for pyhtaa.fi OK (7200) - recommended >= 3600.
+ 27.046: pyhtaa.fi INFO SOA expire for pyhtaa.fi OK (1209600) - recommended >= 604800.
+ 27.046: pyhtaa.fi INFO SOA minimum for pyhtaa.fi OK (86400) - recommended between 300 and 86400.
+ 27.046: pyhtaa.fi INFO Done testing SOA parameters for pyhtaa.fi.
+ 27.046: pyhtaa.fi INFO Begin testing connectivity for pyhtaa.fi.
+ 28.218: pyhtaa.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 28.219: pyhtaa.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 28.219: pyhtaa.fi INFO Done testing connectivity for pyhtaa.fi.
+ 28.219: pyhtaa.fi INFO Begin testing DNSSEC for pyhtaa.fi.
+ 28.298: pyhtaa.fi INFO Did not find DS record for pyhtaa.fi at parent.
+ 28.440: pyhtaa.fi INFO Servers for pyhtaa.fi have consistent extra processing status.
+ 28.497: pyhtaa.fi INFO Authenticated denial records not found for pyhtaa.fi.
+ 28.537: pyhtaa.fi INFO Did not find DNSKEY record for pyhtaa.fi at child.
+ 28.537: pyhtaa.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 28.537: pyhtaa.fi INFO Done testing DNSSEC for pyhtaa.fi.
+ 28.538: pyhtaa.fi INFO Test completed for zone pyhtaa.fi.

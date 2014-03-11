@@ -1,0 +1,84 @@
+  0.000: eidfjord.kommune.no INFO Begin testing zone eidfjord.kommune.no with version 1.6.1.
+  0.883: eidfjord.kommune.no INFO Begin testing delegation for eidfjord.kommune.no.
+ 10.248: eidfjord.kommune.no INFO Name servers listed at parent: ns1.nextra.no,ns2.nextra.no
+ 11.490: eidfjord.kommune.no INFO Name servers listed at child: ns1.nextra.no,ns2.nextra.no
+ 11.491: eidfjord.kommune.no NOTICE No IPv6 name servers found.
+ 11.658: eidfjord.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.817: eidfjord.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.981: eidfjord.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 12.137: eidfjord.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 12.698: eidfjord.kommune.no INFO It is possible to build a referral packet for eidfjord.kommune.no that works without EDNS0.
+ 13.082: eidfjord.kommune.no INFO Previously used name servers for eidfjord.kommune.no: 
+ 13.082: eidfjord.kommune.no INFO Done testing delegation for eidfjord.kommune.no.
+ 13.083: eidfjord.kommune.no INFO Begin testing name server ns1.nextra.no.
+ 13.083: eidfjord.kommune.no INFO Begin testing host ns1.nextra.no.
+ 13.252: eidfjord.kommune.no INFO Begin testing address 148.122.208.98.
+ 25.485: eidfjord.kommune.no INFO Done testing address 148.122.208.98.
+ 25.485: eidfjord.kommune.no INFO Done testing host ns1.nextra.no.
+ 25.614: eidfjord.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) answers queries over UDP.
+ 25.642: eidfjord.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) answers queries over TCP.
+ 25.685: eidfjord.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) is not recursive.
+ 25.767: eidfjord.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) authoritative for eidfjord.kommune.no.
+ 25.803: eidfjord.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) closed for zone transfer of eidfjord.kommune.no.
+ 25.816: eidfjord.kommune.no NOTICE No answer received from 148.122.208.98 when querying for hostname.bind/CH/TXT.
+ 25.867: eidfjord.kommune.no INFO Legacy name server ID for ns1.nextra.no (148.122.208.98): version.bind = Nominum ANS 2.8.1.2
+ 25.921: eidfjord.kommune.no INFO Legacy name server ID for ns1.nextra.no (148.122.208.98): id.server = 275236d1-c090-4e72-8b4f-6bb3656fbdc2
+ 25.950: eidfjord.kommune.no INFO Legacy name server ID for ns1.nextra.no (148.122.208.98): version.server = Nominum ANS 2.8.1.2
+ 25.950: eidfjord.kommune.no INFO Done testing name server ns1.nextra.no.
+ 25.950: eidfjord.kommune.no INFO Begin testing name server ns2.nextra.no.
+ 25.950: eidfjord.kommune.no INFO Begin testing host ns2.nextra.no.
+ 26.064: eidfjord.kommune.no INFO Begin testing address 148.122.161.2.
+ 26.657: eidfjord.kommune.no INFO Done testing address 148.122.161.2.
+ 26.657: eidfjord.kommune.no INFO Done testing host ns2.nextra.no.
+ 26.828: eidfjord.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) answers queries over UDP.
+ 26.865: eidfjord.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) answers queries over TCP.
+ 26.894: eidfjord.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) is not recursive.
+ 26.969: eidfjord.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) authoritative for eidfjord.kommune.no.
+ 27.017: eidfjord.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) closed for zone transfer of eidfjord.kommune.no.
+ 27.039: eidfjord.kommune.no NOTICE No answer received from 148.122.161.2 when querying for hostname.bind/CH/TXT.
+ 27.062: eidfjord.kommune.no INFO Legacy name server ID for ns2.nextra.no (148.122.161.2): version.bind = Nominum ANS 2.8.1.2
+ 27.104: eidfjord.kommune.no INFO Legacy name server ID for ns2.nextra.no (148.122.161.2): id.server = b15665a4-93cf-4b41-b1b3-3effb406c70f
+ 27.130: eidfjord.kommune.no INFO Legacy name server ID for ns2.nextra.no (148.122.161.2): version.server = Nominum ANS 2.8.1.2
+ 27.130: eidfjord.kommune.no INFO Done testing name server ns2.nextra.no.
+ 27.130: eidfjord.kommune.no INFO Begin testing zone consistency for eidfjord.kommune.no.
+ 27.914: eidfjord.kommune.no INFO SOA at address 148.122.208.98 has serial 2013010700.
+ 27.938: eidfjord.kommune.no INFO SOA at address 148.122.161.2 has serial 2013010700.
+ 27.938: eidfjord.kommune.no INFO All SOA records have consistent serial numbers.
+ 27.938: eidfjord.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 28.211: eidfjord.kommune.no NOTICE The listed nameservers for eidfjord.kommune.no all report the same set of nameservers.
+ 28.211: eidfjord.kommune.no INFO Done testing zone consistency for eidfjord.kommune.no.
+ 28.211: eidfjord.kommune.no INFO Begin testing SOA parameters for eidfjord.kommune.no.
+ 28.226: eidfjord.kommune.no INFO Found SOA record for eidfjord.kommune.no.
+ 28.226: eidfjord.kommune.no INFO Begin testing host ns1.nextra.no.
+ 28.489: eidfjord.kommune.no INFO Begin testing address 148.122.208.98.
+ 28.698: eidfjord.kommune.no INFO Done testing address 148.122.208.98.
+ 28.698: eidfjord.kommune.no INFO Done testing host ns1.nextra.no.
+ 28.698: eidfjord.kommune.no INFO SOA MNAME for eidfjord.kommune.no valid (ns1.nextra.no).
+ 28.698: eidfjord.kommune.no INFO SOA MNAME for eidfjord.kommune.no (ns1.nextra.no) listed as NS.
+ 28.845: eidfjord.kommune.no INFO SOA MNAME for eidfjord.kommune.no (ns1.nextra.no) is authoritative.
+ 28.845: eidfjord.kommune.no INFO Begin testing email address hostmaster@telenor.net.
+ 30.650: eidfjord.kommune.no INFO Mail exchangers for hostmaster@telenor.net found mx.nsc.no.
+ 30.650: eidfjord.kommune.no INFO Begin testing host mx.nsc.no.
+ 30.878: eidfjord.kommune.no INFO Begin testing address 193.213.112.62.
+ 31.290: eidfjord.kommune.no INFO Done testing address 193.213.112.62.
+ 31.290: eidfjord.kommune.no INFO Done testing host mx.nsc.no.
+ 31.431: eidfjord.kommune.no INFO Done testing email address hostmaster@telenor.net.
+ 31.431: eidfjord.kommune.no INFO Successful attempt to deliver email for SOA RNAME of eidfjord.kommune.no (hostmaster.telenor.net) using hostmaster@telenor.net.
+ 31.432: eidfjord.kommune.no INFO SOA TTL for eidfjord.kommune.no OK (3600) - recommended >= 3600.
+ 31.432: eidfjord.kommune.no NOTICE SOA refresh for eidfjord.kommune.no too small (3600) - recommended >= 14400.
+ 31.432: eidfjord.kommune.no NOTICE SOA retry for eidfjord.kommune.no too small (600) - recommended >= 3600.
+ 31.445: eidfjord.kommune.no INFO SOA expire for eidfjord.kommune.no OK (604800) - recommended >= 604800.
+ 31.445: eidfjord.kommune.no INFO SOA minimum for eidfjord.kommune.no OK (3600) - recommended between 300 and 86400.
+ 31.446: eidfjord.kommune.no INFO Done testing SOA parameters for eidfjord.kommune.no.
+ 31.446: eidfjord.kommune.no INFO Begin testing connectivity for eidfjord.kommune.no.
+ 32.731: eidfjord.kommune.no NOTICE Zone announced by fewer than two IPv4 ASN.
+ 32.732: eidfjord.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 32.732: eidfjord.kommune.no INFO Done testing connectivity for eidfjord.kommune.no.
+ 32.732: eidfjord.kommune.no INFO Begin testing DNSSEC for eidfjord.kommune.no.
+ 32.842: eidfjord.kommune.no INFO Did not find DS record for eidfjord.kommune.no at parent.
+ 32.941: eidfjord.kommune.no INFO Servers for eidfjord.kommune.no have consistent extra processing status.
+ 32.994: eidfjord.kommune.no INFO Authenticated denial records not found for eidfjord.kommune.no.
+ 33.008: eidfjord.kommune.no INFO Did not find DNSKEY record for eidfjord.kommune.no at child.
+ 33.008: eidfjord.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 33.008: eidfjord.kommune.no INFO Done testing DNSSEC for eidfjord.kommune.no.
+ 33.009: eidfjord.kommune.no INFO Test completed for zone eidfjord.kommune.no.

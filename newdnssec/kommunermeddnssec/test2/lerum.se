@@ -1,0 +1,92 @@
+  0.000: lerum.se INFO Begin testing zone lerum.se with version 1.2.
+  0.000: lerum.se INFO Begin testing delegation for lerum.se.
+  5.119: lerum.se INFO Name servers listed at parent: a.dns.songnetworks.se,b.dns.songnetworks.se
+  6.307: lerum.se INFO Name servers listed at child: a.dns.songnetworks.se,b.dns.songnetworks.se
+  6.307: lerum.se NOTICE No IPv6 name servers found.
+  6.346: lerum.se INFO Parent glue for lerum.se found: a.dns.songnetworks.se (213.50.29.190)
+  6.384: lerum.se INFO Parent glue for lerum.se found: b.dns.songnetworks.se (213.50.29.195)
+  6.423: lerum.se INFO Checking glue for a.dns.songnetworks.se (213.50.29.190).
+  6.423: lerum.se INFO Checking glue for b.dns.songnetworks.se (213.50.29.195).
+  6.423: lerum.se INFO Parent glue for lerum.se found: a.dns.songnetworks.se (213.50.29.190)
+  6.424: lerum.se INFO Parent glue for lerum.se found: b.dns.songnetworks.se (213.50.29.195)
+  6.424: lerum.se INFO Done testing delegation for lerum.se.
+  6.424: lerum.se INFO Begin testing name server a.dns.songnetworks.se.
+  6.425: lerum.se INFO Begin testing host a.dns.songnetworks.se.
+  6.425: lerum.se INFO Begin testing address 213.50.29.190.
+ 11.006: lerum.se INFO Done testing address 213.50.29.190.
+ 11.006: lerum.se INFO Done testing host a.dns.songnetworks.se.
+ 11.015: lerum.se INFO Name server a.dns.songnetworks.se (213.50.29.190) answers queries over UDP.
+ 11.028: lerum.se INFO Name server a.dns.songnetworks.se (213.50.29.190) answers queries over TCP.
+ 11.036: lerum.se INFO Name server a.dns.songnetworks.se (213.50.29.190) is not recursive.
+ 11.045: lerum.se INFO Name server a.dns.songnetworks.se (213.50.29.190) authoritative for lerum.se.
+ 11.060: lerum.se INFO Name server a.dns.songnetworks.se (213.50.29.190) closed for zone transfer of lerum.se.
+ 11.073: lerum.se INFO Legacy name server ID for a.dns.songnetworks.se (213.50.29.190): hostname.bind = a
+ 11.080: lerum.se INFO Legacy name server ID for a.dns.songnetworks.se (213.50.29.190): version.bind = tssk, well what can i say?
+ 11.094: lerum.se NOTICE No answer received from 213.50.29.190 when querying for version.server/CH/TXT.
+ 11.094: lerum.se INFO Done testing name server a.dns.songnetworks.se.
+ 11.094: lerum.se INFO Begin testing name server b.dns.songnetworks.se.
+ 11.094: lerum.se INFO Begin testing host b.dns.songnetworks.se.
+ 11.094: lerum.se INFO Begin testing address 213.50.29.195.
+ 11.844: lerum.se INFO Done testing address 213.50.29.195.
+ 11.844: lerum.se INFO Done testing host b.dns.songnetworks.se.
+ 11.852: lerum.se INFO Name server b.dns.songnetworks.se (213.50.29.195) answers queries over UDP.
+ 11.863: lerum.se INFO Name server b.dns.songnetworks.se (213.50.29.195) answers queries over TCP.
+ 11.869: lerum.se INFO Name server b.dns.songnetworks.se (213.50.29.195) is not recursive.
+ 11.877: lerum.se INFO Name server b.dns.songnetworks.se (213.50.29.195) authoritative for lerum.se.
+ 11.890: lerum.se INFO Name server b.dns.songnetworks.se (213.50.29.195) closed for zone transfer of lerum.se.
+ 11.897: lerum.se INFO Legacy name server ID for b.dns.songnetworks.se (213.50.29.195): hostname.bind = b
+ 11.903: lerum.se INFO Legacy name server ID for b.dns.songnetworks.se (213.50.29.195): version.bind = tssk, well what can i say?
+ 11.916: lerum.se NOTICE No answer received from 213.50.29.195 when querying for version.server/CH/TXT.
+ 11.916: lerum.se INFO Done testing name server b.dns.songnetworks.se.
+ 11.916: lerum.se INFO Begin testing zone consistency for lerum.se.
+ 11.927: lerum.se INFO SOA at address 213.50.29.195 has serial 91.
+ 11.935: lerum.se INFO SOA at address 213.50.29.190 has serial 91.
+ 11.935: lerum.se INFO All SOA records have consistent serial numbers.
+ 11.935: lerum.se INFO All SOA records are consistent among all name servers.
+ 11.935: lerum.se INFO Done testing zone consistency for lerum.se.
+ 11.935: lerum.se INFO Begin testing SOA parameters for lerum.se.
+ 11.943: lerum.se INFO Found SOA record for lerum.se.
+ 11.943: lerum.se INFO Begin testing host ns1.lerum.se.
+ 12.369: lerum.se ERROR No address found for ns1.lerum.se.
+ 12.369: lerum.se INFO Done testing host ns1.lerum.se.
+ 12.369: lerum.se ERROR Error while checking SOA MNAME for lerum.se (ns1.lerum.se).
+ 12.369: lerum.se NOTICE SOA MNAME for lerum.se (ns1.lerum.se) not listed as NS.
+ 12.370: lerum.se INFO Begin testing email address hostmaster@lerum.se.
+ 12.614: lerum.se INFO Mail exchangers for hostmaster@lerum.se found mx2.zetup.se,mx1.zetup.se.
+ 12.614: lerum.se INFO Begin testing host mx2.zetup.se.
+ 13.185: lerum.se INFO Begin testing address 109.205.216.67.
+ 14.485: lerum.se INFO Done testing address 109.205.216.67.
+ 14.485: lerum.se INFO Done testing host mx2.zetup.se.
+ 14.486: lerum.se INFO Begin testing mail server mx2.zetup.se (109.205.216.67) with hostmaster@lerum.se.
+ 16.173: lerum.se INFO SMTP banner: mx2.zetup.se ESMTP
+ 16.239: lerum.se INFO SMTP testing of mx2.zetup.se (109.205.216.67) with hostmaster@lerum.se succeeded without errors.
+ 16.240: lerum.se INFO Done testing mail server mx2.zetup.se (109.205.216.67) with hostmaster@lerum.se.
+ 16.240: lerum.se INFO Begin testing host mx1.zetup.se.
+ 16.993: lerum.se INFO Begin testing address 109.205.216.66.
+ 17.341: lerum.se INFO Done testing address 109.205.216.66.
+ 17.341: lerum.se INFO Done testing host mx1.zetup.se.
+ 17.341: lerum.se INFO Delivery over IPv4 to hostmaster@lerum.se ok.
+ 17.341: lerum.se INFO Delivery over IPv6 to hostmaster@lerum.se could not be done.
+ 17.341: lerum.se INFO Done testing email address hostmaster@lerum.se.
+ 17.341: lerum.se INFO Successful attempt to deliver email for SOA RNAME of lerum.se (hostmaster.lerum.se) using hostmaster@lerum.se.
+ 17.342: lerum.se INFO SOA TTL for lerum.se OK (3600) - recommended >= 3600.
+ 17.342: lerum.se NOTICE SOA refresh for lerum.se too small (900) - recommended >= 14400.
+ 17.342: lerum.se NOTICE SOA retry for lerum.se too small (600) - recommended >= 3600.
+ 17.342: lerum.se NOTICE SOA expire for lerum.se too small (86400) - recommended >= 604800.
+ 17.342: lerum.se INFO SOA minimum for lerum.se OK (86400) - recommended between 300 and 86400.
+ 17.342: lerum.se INFO Done testing SOA parameters for lerum.se.
+ 17.342: lerum.se INFO Begin testing connectivity for lerum.se.
+ 17.922: lerum.se INFO Name server 213.50.29.195 announced by: 3292
+ 18.587: lerum.se INFO Name server 213.50.29.190 announced by: 3292
+ 18.588: lerum.se INFO Zone announced by IPv4 ASN: 3292
+ 18.588: lerum.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 18.588: lerum.se INFO Zone announced by IPv6 ASN: 
+ 18.588: lerum.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 18.588: lerum.se INFO Done testing connectivity for lerum.se.
+ 18.588: lerum.se INFO Begin testing DNSSEC for lerum.se.
+ 18.621: lerum.se INFO Did not find DS record for lerum.se at parent.
+ 18.644: lerum.se INFO Servers for lerum.se have consistent extra processing status.
+ 18.644: lerum.se INFO Did not find DNSKEY record for lerum.se at child.
+ 18.644: lerum.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 18.644: lerum.se INFO Done testing DNSSEC for lerum.se.
+ 18.644: lerum.se INFO Test completed for zone lerum.se.

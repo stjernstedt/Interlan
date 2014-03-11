@@ -1,0 +1,88 @@
+  0.000: juupajoki.fi INFO Begin testing zone juupajoki.fi with version 1.6.1.
+  0.394: juupajoki.fi INFO Begin testing delegation for juupajoki.fi.
+  8.380: juupajoki.fi INFO Name servers listed at parent: ns1.taajama.fi,ns4.taajama.fi
+ 10.052: juupajoki.fi INFO Name servers listed at child: ns1.taajama.fi,ns4.taajama.fi
+ 10.052: juupajoki.fi NOTICE No IPv6 name servers found.
+ 10.257: juupajoki.fi INFO Parent glue for juupajoki.fi found: ns1.taajama.fi (83.102.40.26)
+ 10.507: juupajoki.fi INFO Parent glue for juupajoki.fi found: ns4.taajama.fi (83.102.40.27)
+ 10.621: juupajoki.fi INFO Checking glue for ns1.taajama.fi (83.102.40.26).
+ 10.621: juupajoki.fi INFO Checking glue for ns4.taajama.fi (83.102.40.27).
+ 10.622: juupajoki.fi INFO Parent glue for juupajoki.fi found: ns1.taajama.fi (83.102.40.26)
+ 10.622: juupajoki.fi INFO Parent glue for juupajoki.fi found: ns4.taajama.fi (83.102.40.27)
+ 12.021: juupajoki.fi INFO It is possible to build a referral packet for juupajoki.fi that works without EDNS0.
+ 13.559: juupajoki.fi INFO Previously used name servers for juupajoki.fi: 
+ 13.559: juupajoki.fi INFO Done testing delegation for juupajoki.fi.
+ 13.559: juupajoki.fi INFO Begin testing name server ns1.taajama.fi.
+ 13.559: juupajoki.fi INFO Begin testing host ns1.taajama.fi.
+ 14.267: juupajoki.fi INFO Begin testing address 83.102.40.26.
+ 20.323: juupajoki.fi INFO Done testing address 83.102.40.26.
+ 20.323: juupajoki.fi INFO Done testing host ns1.taajama.fi.
+ 20.462: juupajoki.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over UDP.
+ 20.496: juupajoki.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over TCP.
+ 20.515: juupajoki.fi INFO Name server ns1.taajama.fi (83.102.40.26) is not recursive.
+ 20.591: juupajoki.fi INFO Name server ns1.taajama.fi (83.102.40.26) authoritative for juupajoki.fi.
+ 20.635: juupajoki.fi INFO Name server ns1.taajama.fi (83.102.40.26) closed for zone transfer of juupajoki.fi.
+ 20.654: juupajoki.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): hostname.bind = saharausku
+ 20.689: juupajoki.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): version.bind = Not disclosed
+ 20.731: juupajoki.fi NOTICE No answer received from 83.102.40.26 when querying for version.server/CH/TXT.
+ 20.731: juupajoki.fi INFO Done testing name server ns1.taajama.fi.
+ 20.731: juupajoki.fi INFO Begin testing name server ns4.taajama.fi.
+ 20.731: juupajoki.fi INFO Begin testing host ns4.taajama.fi.
+ 20.878: juupajoki.fi INFO Begin testing address 83.102.40.27.
+ 21.812: juupajoki.fi INFO Done testing address 83.102.40.27.
+ 21.812: juupajoki.fi INFO Done testing host ns4.taajama.fi.
+ 22.047: juupajoki.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over UDP.
+ 22.074: juupajoki.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over TCP.
+ 22.095: juupajoki.fi INFO Name server ns4.taajama.fi (83.102.40.27) is not recursive.
+ 22.171: juupajoki.fi INFO Name server ns4.taajama.fi (83.102.40.27) authoritative for juupajoki.fi.
+ 22.216: juupajoki.fi INFO Name server ns4.taajama.fi (83.102.40.27) closed for zone transfer of juupajoki.fi.
+ 22.275: juupajoki.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): hostname.bind = perhosrausku
+ 22.291: juupajoki.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): version.bind = Not disclosed
+ 22.357: juupajoki.fi NOTICE No answer received from 83.102.40.27 when querying for version.server/CH/TXT.
+ 22.357: juupajoki.fi INFO Done testing name server ns4.taajama.fi.
+ 22.358: juupajoki.fi INFO Begin testing zone consistency for juupajoki.fi.
+ 23.260: juupajoki.fi INFO SOA at address 83.102.40.26 has serial 2013093001.
+ 23.275: juupajoki.fi INFO SOA at address 83.102.40.27 has serial 2013093001.
+ 23.275: juupajoki.fi INFO All SOA records have consistent serial numbers.
+ 23.275: juupajoki.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 23.640: juupajoki.fi NOTICE The listed nameservers for juupajoki.fi all report the same set of nameservers.
+ 23.640: juupajoki.fi INFO Done testing zone consistency for juupajoki.fi.
+ 23.640: juupajoki.fi INFO Begin testing SOA parameters for juupajoki.fi.
+ 23.660: juupajoki.fi INFO Found SOA record for juupajoki.fi.
+ 23.660: juupajoki.fi INFO Begin testing host ns1.taajama.fi.
+ 23.819: juupajoki.fi INFO Begin testing address 83.102.40.26.
+ 24.022: juupajoki.fi INFO Done testing address 83.102.40.26.
+ 24.026: juupajoki.fi INFO Done testing host ns1.taajama.fi.
+ 24.027: juupajoki.fi INFO SOA MNAME for juupajoki.fi valid (ns1.taajama.fi).
+ 24.027: juupajoki.fi INFO SOA MNAME for juupajoki.fi (ns1.taajama.fi) listed as NS.
+ 24.148: juupajoki.fi INFO SOA MNAME for juupajoki.fi (ns1.taajama.fi) is authoritative.
+ 24.148: juupajoki.fi INFO Begin testing email address hostmaster@taajama.com.
+ 24.456: juupajoki.fi INFO Mail exchangers for hostmaster@taajama.com found spp.taajama.fi,mx2.taajama.com.
+ 24.457: juupajoki.fi INFO Begin testing host spp.taajama.fi.
+ 24.903: juupajoki.fi INFO Begin testing address 217.78.212.151.
+ 25.567: juupajoki.fi INFO Done testing address 217.78.212.151.
+ 25.567: juupajoki.fi INFO Done testing host spp.taajama.fi.
+ 25.794: juupajoki.fi INFO Begin testing host mx2.taajama.com.
+ 26.202: juupajoki.fi INFO Begin testing address 83.102.41.75.
+ 26.840: juupajoki.fi INFO Done testing address 83.102.41.75.
+ 26.840: juupajoki.fi INFO Done testing host mx2.taajama.com.
+ 27.037: juupajoki.fi INFO Done testing email address hostmaster@taajama.com.
+ 27.037: juupajoki.fi INFO Successful attempt to deliver email for SOA RNAME of juupajoki.fi (hostmaster.taajama.com) using hostmaster@taajama.com.
+ 27.037: juupajoki.fi NOTICE SOA TTL for juupajoki.fi too small (900) - recommended >= 3600.
+ 27.037: juupajoki.fi INFO SOA refresh for juupajoki.fi OK (28800) - recommended >= 14400.
+ 27.037: juupajoki.fi INFO SOA retry for juupajoki.fi OK (7200) - recommended >= 3600.
+ 27.038: juupajoki.fi INFO SOA expire for juupajoki.fi OK (1814400) - recommended >= 604800.
+ 27.038: juupajoki.fi INFO SOA minimum for juupajoki.fi OK (86400) - recommended between 300 and 86400.
+ 27.038: juupajoki.fi INFO Done testing SOA parameters for juupajoki.fi.
+ 27.038: juupajoki.fi INFO Begin testing connectivity for juupajoki.fi.
+ 28.281: juupajoki.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 28.281: juupajoki.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 28.281: juupajoki.fi INFO Done testing connectivity for juupajoki.fi.
+ 28.281: juupajoki.fi INFO Begin testing DNSSEC for juupajoki.fi.
+ 28.352: juupajoki.fi INFO Did not find DS record for juupajoki.fi at parent.
+ 28.451: juupajoki.fi INFO Servers for juupajoki.fi have consistent extra processing status.
+ 28.491: juupajoki.fi INFO Authenticated denial records not found for juupajoki.fi.
+ 28.518: juupajoki.fi INFO Did not find DNSKEY record for juupajoki.fi at child.
+ 28.518: juupajoki.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 28.518: juupajoki.fi INFO Done testing DNSSEC for juupajoki.fi.
+ 28.518: juupajoki.fi INFO Test completed for zone juupajoki.fi.

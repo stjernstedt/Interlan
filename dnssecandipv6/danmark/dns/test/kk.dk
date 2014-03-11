@@ -1,0 +1,86 @@
+  0.000: kk.dk INFO Begin testing zone kk.dk with version 1.6.1.
+  0.532: kk.dk INFO Begin testing delegation for kk.dk.
+ 15.644: kk.dk INFO Name servers listed at parent: ns.kk.dk,ns2.tele.dk
+ 16.968: kk.dk INFO Name servers listed at child: ns.kk.dk,ns2.tele.dk
+ 16.968: kk.dk NOTICE No IPv6 name servers found.
+ 17.019: kk.dk INFO Parent glue for kk.dk found: ns.kk.dk (193.169.154.80)
+ 17.178: kk.dk INFO Checking glue for ns.kk.dk (193.169.154.80).
+ 17.216: kk.dk INFO Child glue for kk.dk found: ns.kk.dk (193.169.154.80)
+ 17.217: kk.dk INFO Parent glue for kk.dk found: ns.kk.dk (193.169.154.80)
+ 17.349: kk.dk NOTICE DNS lookup error (SERVFAIL).
+ 17.690: kk.dk INFO It is possible to build a referral packet for kk.dk that works without EDNS0.
+ 18.423: kk.dk INFO Previously used name servers for kk.dk: 
+ 18.426: kk.dk INFO Done testing delegation for kk.dk.
+ 18.426: kk.dk INFO Begin testing name server ns.kk.dk.
+ 18.426: kk.dk INFO Begin testing host ns.kk.dk.
+ 18.534: kk.dk INFO Begin testing address 193.169.154.80.
+ 22.644: kk.dk WARNING Could not find reverse address for 193.169.154.80 (80.154.169.193.in-addr.arpa.).
+ 22.644: kk.dk INFO Done testing address 193.169.154.80.
+ 22.644: kk.dk INFO Done testing host ns.kk.dk.
+ 22.888: kk.dk INFO Name server ns.kk.dk (193.169.154.80) answers queries over UDP.
+ 22.972: kk.dk INFO Name server ns.kk.dk (193.169.154.80) answers queries over TCP.
+ 23.017: kk.dk WARNING Name server ns.kk.dk (193.169.154.80) is recursive.
+ 23.150: kk.dk INFO Name server ns.kk.dk (193.169.154.80) authoritative for kk.dk.
+ 23.415: kk.dk INFO Name server ns.kk.dk (193.169.154.80) closed for zone transfer of kk.dk.
+ 23.467: kk.dk NOTICE No answer received from 193.169.154.80 when querying for hostname.bind/CH/TXT.
+ 33.575: kk.dk INFO Done testing name server ns.kk.dk.
+ 33.576: kk.dk INFO Begin testing name server ns2.tele.dk.
+ 33.576: kk.dk INFO Begin testing host ns2.tele.dk.
+ 33.780: kk.dk INFO Begin testing address 194.239.134.82.
+ 34.900: kk.dk INFO Done testing address 194.239.134.82.
+ 34.900: kk.dk INFO Done testing host ns2.tele.dk.
+ 35.042: kk.dk INFO Name server ns2.tele.dk (194.239.134.82) answers queries over UDP.
+ 35.083: kk.dk INFO Name server ns2.tele.dk (194.239.134.82) answers queries over TCP.
+ 35.108: kk.dk INFO Name server ns2.tele.dk (194.239.134.82) is not recursive.
+ 35.202: kk.dk INFO Name server ns2.tele.dk (194.239.134.82) authoritative for kk.dk.
+ 35.261: kk.dk INFO Name server ns2.tele.dk (194.239.134.82) closed for zone transfer of kk.dk.
+ 35.286: kk.dk INFO Legacy name server ID for ns2.tele.dk (194.239.134.82): hostname.bind = tdchlegacyauth01.opa.tdch.dk
+ 35.308: kk.dk INFO Legacy name server ID for ns2.tele.dk (194.239.134.82): version.bind = no version info available
+ 35.352: kk.dk NOTICE No answer received from 194.239.134.82 when querying for version.server/CH/TXT.
+ 35.352: kk.dk INFO Done testing name server ns2.tele.dk.
+ 35.352: kk.dk INFO Begin testing zone consistency for kk.dk.
+ 35.966: kk.dk INFO SOA at address 194.239.134.82 has serial 2012062361.
+ 35.990: kk.dk INFO SOA at address 193.169.154.80 has serial 2012062361.
+ 35.990: kk.dk INFO All SOA records have consistent serial numbers.
+ 35.991: kk.dk INFO All other fields in the SOA record are consistent among all name servers.
+ 36.259: kk.dk NOTICE The listed nameservers for kk.dk all report the same set of nameservers.
+ 36.259: kk.dk INFO Done testing zone consistency for kk.dk.
+ 36.259: kk.dk INFO Begin testing SOA parameters for kk.dk.
+ 36.281: kk.dk INFO Found SOA record for kk.dk.
+ 36.281: kk.dk INFO Begin testing host ns.kk.dk.
+ 36.360: kk.dk INFO Begin testing address 193.169.154.80.
+ 36.361: kk.dk WARNING Could not find reverse address for 193.169.154.80 (80.154.169.193.in-addr.arpa.).
+ 36.361: kk.dk INFO Done testing address 193.169.154.80.
+ 36.361: kk.dk INFO Done testing host ns.kk.dk.
+ 36.361: kk.dk INFO SOA MNAME for kk.dk valid (ns.kk.dk).
+ 36.361: kk.dk INFO SOA MNAME for kk.dk (ns.kk.dk) listed as NS.
+ 36.481: kk.dk INFO SOA MNAME for kk.dk (ns.kk.dk) is authoritative.
+ 36.481: kk.dk INFO Begin testing email address kkadmin@kk.dk.
+ 37.012: kk.dk INFO Mail exchangers for kkadmin@kk.dk found mail01.kk.dk.
+ 37.013: kk.dk INFO All mail servers for kkadmin@kk.dk are in zone kk.dk.
+ 37.013: kk.dk INFO Begin testing host mail01.kk.dk.
+ 37.228: kk.dk INFO Begin testing address 62.242.41.25.
+ 39.048: kk.dk INFO Done testing address 62.242.41.25.
+ 39.048: kk.dk INFO Begin testing address 62.242.41.26.
+ 39.715: kk.dk INFO Done testing address 62.242.41.26.
+ 39.716: kk.dk INFO Done testing host mail01.kk.dk.
+ 39.809: kk.dk INFO Done testing email address kkadmin@kk.dk.
+ 39.809: kk.dk INFO Successful attempt to deliver email for SOA RNAME of kk.dk (kkadmin.kk.dk) using kkadmin@kk.dk.
+ 39.810: kk.dk NOTICE SOA TTL for kk.dk too small (1800) - recommended >= 3600.
+ 39.810: kk.dk INFO SOA refresh for kk.dk OK (14400) - recommended >= 14400.
+ 39.810: kk.dk INFO SOA retry for kk.dk OK (7200) - recommended >= 3600.
+ 39.810: kk.dk INFO SOA expire for kk.dk OK (604800) - recommended >= 604800.
+ 39.810: kk.dk INFO SOA minimum for kk.dk OK (900) - recommended between 300 and 86400.
+ 39.810: kk.dk INFO Done testing SOA parameters for kk.dk.
+ 39.810: kk.dk INFO Begin testing connectivity for kk.dk.
+ 49.879: kk.dk NOTICE Zone announced by fewer than two IPv4 ASN.
+ 49.879: kk.dk NOTICE Zone announced by fewer than two IPv6 ASN.
+ 49.879: kk.dk INFO Done testing connectivity for kk.dk.
+ 49.880: kk.dk INFO Begin testing DNSSEC for kk.dk.
+ 49.931: kk.dk INFO Did not find DS record for kk.dk at parent.
+ 50.011: kk.dk INFO Servers for kk.dk have consistent extra processing status.
+ 50.053: kk.dk INFO Authenticated denial records not found for kk.dk.
+ 50.075: kk.dk INFO Did not find DNSKEY record for kk.dk at child.
+ 50.075: kk.dk INFO No DNSKEY(s) found at child, other tests skipped.
+ 50.075: kk.dk INFO Done testing DNSSEC for kk.dk.
+ 50.075: kk.dk INFO Test completed for zone kk.dk.

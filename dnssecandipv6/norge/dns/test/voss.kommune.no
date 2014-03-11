@@ -1,0 +1,103 @@
+  0.000: voss.kommune.no INFO Begin testing zone voss.kommune.no with version 1.6.1.
+  0.264: voss.kommune.no INFO Begin testing delegation for voss.kommune.no.
+  6.324: voss.kommune.no INFO Name servers listed at parent: eject.dataguard.no,josva.dataguard.no,lin.dataguard.no
+  7.918: voss.kommune.no INFO Name servers listed at child: eject.dataguard.no,josva.dataguard.no,lin.dataguard.no
+  7.918: voss.kommune.no NOTICE No IPv6 name servers found.
+  8.072: voss.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  8.220: voss.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  8.393: voss.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  8.536: voss.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  8.685: voss.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  8.836: voss.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.514: voss.kommune.no INFO It is possible to build a referral packet for voss.kommune.no that works without EDNS0.
+ 10.121: voss.kommune.no INFO Previously used name servers for voss.kommune.no: 
+ 10.121: voss.kommune.no INFO Done testing delegation for voss.kommune.no.
+ 10.122: voss.kommune.no INFO Begin testing name server eject.dataguard.no.
+ 10.122: voss.kommune.no INFO Begin testing host eject.dataguard.no.
+ 10.296: voss.kommune.no INFO Begin testing address 212.62.224.4.
+ 17.606: voss.kommune.no INFO Done testing address 212.62.224.4.
+ 17.606: voss.kommune.no INFO Done testing host eject.dataguard.no.
+ 17.714: voss.kommune.no INFO Name server eject.dataguard.no (212.62.224.4) answers queries over UDP.
+ 17.753: voss.kommune.no INFO Name server eject.dataguard.no (212.62.224.4) answers queries over TCP.
+ 17.768: voss.kommune.no INFO Name server eject.dataguard.no (212.62.224.4) is not recursive.
+ 17.834: voss.kommune.no INFO Name server eject.dataguard.no (212.62.224.4) authoritative for voss.kommune.no.
+ 17.872: voss.kommune.no INFO Name server eject.dataguard.no (212.62.224.4) closed for zone transfer of voss.kommune.no.
+ 17.886: voss.kommune.no INFO Legacy name server ID for eject.dataguard.no (212.62.224.4): hostname.bind = eject
+ 17.901: voss.kommune.no INFO Legacy name server ID for eject.dataguard.no (212.62.224.4): version.bind = The request has been logged. Further inqueries should be sent to abuse@dataguard.no.
+ 17.935: voss.kommune.no NOTICE No answer received from 212.62.224.4 when querying for version.server/CH/TXT.
+ 17.935: voss.kommune.no INFO Done testing name server eject.dataguard.no.
+ 17.935: voss.kommune.no INFO Begin testing name server josva.dataguard.no.
+ 17.935: voss.kommune.no INFO Begin testing host josva.dataguard.no.
+ 18.020: voss.kommune.no INFO Begin testing address 213.158.233.132.
+ 18.524: voss.kommune.no INFO Done testing address 213.158.233.132.
+ 18.524: voss.kommune.no INFO Done testing host josva.dataguard.no.
+ 18.757: voss.kommune.no INFO Name server josva.dataguard.no (213.158.233.132) answers queries over UDP.
+ 18.785: voss.kommune.no INFO Name server josva.dataguard.no (213.158.233.132) answers queries over TCP.
+ 18.798: voss.kommune.no INFO Name server josva.dataguard.no (213.158.233.132) is not recursive.
+ 18.989: voss.kommune.no INFO Name server josva.dataguard.no (213.158.233.132) authoritative for voss.kommune.no.
+ 19.201: voss.kommune.no INFO Name server josva.dataguard.no (213.158.233.132) closed for zone transfer of voss.kommune.no.
+ 19.215: voss.kommune.no INFO Legacy name server ID for josva.dataguard.no (213.158.233.132): hostname.bind = josva.dataguard.no
+ 19.233: voss.kommune.no INFO Legacy name server ID for josva.dataguard.no (213.158.233.132): version.bind = Go away
+ 19.258: voss.kommune.no NOTICE No answer received from 213.158.233.132 when querying for version.server/CH/TXT.
+ 19.258: voss.kommune.no INFO Done testing name server josva.dataguard.no.
+ 19.258: voss.kommune.no INFO Begin testing name server lin.dataguard.no.
+ 19.258: voss.kommune.no INFO Begin testing host lin.dataguard.no.
+ 19.344: voss.kommune.no INFO Begin testing address 80.64.192.174.
+ 20.093: voss.kommune.no INFO Done testing address 80.64.192.174.
+ 20.093: voss.kommune.no INFO Done testing host lin.dataguard.no.
+ 20.214: voss.kommune.no INFO Name server lin.dataguard.no (80.64.192.174) answers queries over UDP.
+ 20.248: voss.kommune.no INFO Name server lin.dataguard.no (80.64.192.174) answers queries over TCP.
+ 20.264: voss.kommune.no INFO Name server lin.dataguard.no (80.64.192.174) is not recursive.
+ 20.329: voss.kommune.no INFO Name server lin.dataguard.no (80.64.192.174) authoritative for voss.kommune.no.
+ 20.463: voss.kommune.no INFO Name server lin.dataguard.no (80.64.192.174) closed for zone transfer of voss.kommune.no.
+ 20.478: voss.kommune.no INFO Legacy name server ID for lin.dataguard.no (80.64.192.174): hostname.bind = lin.dataguard.no
+ 20.494: voss.kommune.no INFO Legacy name server ID for lin.dataguard.no (80.64.192.174): version.bind = Go away
+ 20.521: voss.kommune.no NOTICE No answer received from 80.64.192.174 when querying for version.server/CH/TXT.
+ 20.522: voss.kommune.no INFO Done testing name server lin.dataguard.no.
+ 20.522: voss.kommune.no INFO Begin testing zone consistency for voss.kommune.no.
+ 21.347: voss.kommune.no INFO SOA at address 213.158.233.132 has serial 2014030303.
+ 21.368: voss.kommune.no INFO SOA at address 80.64.192.174 has serial 2014030303.
+ 21.387: voss.kommune.no INFO SOA at address 212.62.224.4 has serial 2014030303.
+ 21.387: voss.kommune.no INFO All SOA records have consistent serial numbers.
+ 21.399: voss.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 21.981: voss.kommune.no NOTICE The listed nameservers for voss.kommune.no all report the same set of nameservers.
+ 21.981: voss.kommune.no INFO Done testing zone consistency for voss.kommune.no.
+ 21.981: voss.kommune.no INFO Begin testing SOA parameters for voss.kommune.no.
+ 22.011: voss.kommune.no INFO Found SOA record for voss.kommune.no.
+ 22.011: voss.kommune.no INFO Begin testing host eject.dataguard.no.
+ 22.096: voss.kommune.no INFO Begin testing address 212.62.224.4.
+ 22.176: voss.kommune.no INFO Done testing address 212.62.224.4.
+ 22.176: voss.kommune.no INFO Done testing host eject.dataguard.no.
+ 22.176: voss.kommune.no INFO SOA MNAME for voss.kommune.no valid (eject.dataguard.no).
+ 22.176: voss.kommune.no INFO SOA MNAME for voss.kommune.no (eject.dataguard.no) listed as NS.
+ 22.300: voss.kommune.no INFO SOA MNAME for voss.kommune.no (eject.dataguard.no) is authoritative.
+ 22.300: voss.kommune.no INFO Begin testing email address hostmaster@dataguard.no.
+ 22.406: voss.kommune.no INFO Mail exchangers for hostmaster@dataguard.no found mx1.dataguard.no,mx0.dataguard.no.
+ 22.406: voss.kommune.no INFO Begin testing host mx1.dataguard.no.
+ 22.662: voss.kommune.no INFO Begin testing address 213.158.233.74.
+ 23.208: voss.kommune.no INFO Done testing address 213.158.233.74.
+ 23.208: voss.kommune.no INFO Done testing host mx1.dataguard.no.
+ 23.300: voss.kommune.no INFO Begin testing host mx0.dataguard.no.
+ 23.522: voss.kommune.no INFO Begin testing address 213.158.233.150.
+ 24.124: voss.kommune.no INFO Done testing address 213.158.233.150.
+ 24.124: voss.kommune.no INFO Done testing host mx0.dataguard.no.
+ 24.255: voss.kommune.no INFO Done testing email address hostmaster@dataguard.no.
+ 24.259: voss.kommune.no INFO Successful attempt to deliver email for SOA RNAME of voss.kommune.no (hostmaster.dataguard.no) using hostmaster@dataguard.no.
+ 24.259: voss.kommune.no INFO SOA TTL for voss.kommune.no OK (86400) - recommended >= 3600.
+ 24.259: voss.kommune.no INFO SOA refresh for voss.kommune.no OK (86400) - recommended >= 14400.
+ 24.260: voss.kommune.no INFO SOA retry for voss.kommune.no OK (7200) - recommended >= 3600.
+ 24.260: voss.kommune.no INFO SOA expire for voss.kommune.no OK (3600000) - recommended >= 604800.
+ 24.260: voss.kommune.no INFO SOA minimum for voss.kommune.no OK (17200) - recommended between 300 and 86400.
+ 24.260: voss.kommune.no INFO Done testing SOA parameters for voss.kommune.no.
+ 24.260: voss.kommune.no INFO Begin testing connectivity for voss.kommune.no.
+ 25.842: voss.kommune.no NOTICE Zone announced by fewer than two IPv4 ASN.
+ 25.842: voss.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 25.842: voss.kommune.no INFO Done testing connectivity for voss.kommune.no.
+ 25.842: voss.kommune.no INFO Begin testing DNSSEC for voss.kommune.no.
+ 25.952: voss.kommune.no INFO Did not find DS record for voss.kommune.no at parent.
+ 26.067: voss.kommune.no INFO Servers for voss.kommune.no have consistent extra processing status.
+ 26.092: voss.kommune.no INFO Authenticated denial records not found for voss.kommune.no.
+ 26.112: voss.kommune.no INFO Did not find DNSKEY record for voss.kommune.no at child.
+ 26.112: voss.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 26.112: voss.kommune.no INFO Done testing DNSSEC for voss.kommune.no.
+ 26.113: voss.kommune.no INFO Test completed for zone voss.kommune.no.

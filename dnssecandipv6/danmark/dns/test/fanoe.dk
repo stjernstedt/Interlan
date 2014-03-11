@@ -1,0 +1,88 @@
+  0.000: fanoe.dk INFO Begin testing zone fanoe.dk with version 1.6.1.
+  0.415: fanoe.dk INFO Begin testing delegation for fanoe.dk.
+  5.818: fanoe.dk INFO Name servers listed at parent: ns-auth03.kmd.dk,ns-auth04.kmd.dk
+  7.564: fanoe.dk INFO Name servers listed at child: ns-auth03.kmd.dk,ns-auth04.kmd.dk
+  7.564: fanoe.dk NOTICE No IPv6 name servers found.
+  7.636: fanoe.dk INFO Parent glue for fanoe.dk found: ns-auth03.kmd.dk (131.165.64.5)
+  7.801: fanoe.dk INFO Parent glue for fanoe.dk found: ns-auth04.kmd.dk (131.165.4.5)
+  7.851: fanoe.dk INFO Checking glue for ns-auth03.kmd.dk (131.165.64.5).
+  7.851: fanoe.dk INFO Checking glue for ns-auth04.kmd.dk (131.165.4.5).
+  7.851: fanoe.dk INFO Parent glue for fanoe.dk found: ns-auth03.kmd.dk (131.165.64.5)
+  7.852: fanoe.dk INFO Parent glue for fanoe.dk found: ns-auth04.kmd.dk (131.165.4.5)
+  8.885: fanoe.dk INFO It is possible to build a referral packet for fanoe.dk that works without EDNS0.
+  9.815: fanoe.dk INFO Previously used name servers for fanoe.dk: 
+  9.815: fanoe.dk INFO Done testing delegation for fanoe.dk.
+  9.815: fanoe.dk INFO Begin testing name server ns-auth03.kmd.dk.
+  9.815: fanoe.dk INFO Begin testing host ns-auth03.kmd.dk.
+ 10.088: fanoe.dk INFO Begin testing address 131.165.64.5.
+ 16.430: fanoe.dk INFO Done testing address 131.165.64.5.
+ 16.430: fanoe.dk INFO Done testing host ns-auth03.kmd.dk.
+ 16.792: fanoe.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) answers queries over UDP.
+ 16.896: fanoe.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) answers queries over TCP.
+ 16.949: fanoe.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) is not recursive.
+ 17.173: fanoe.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) authoritative for fanoe.dk.
+ 17.341: fanoe.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) closed for zone transfer of fanoe.dk.
+ 17.395: fanoe.dk INFO Legacy name server ID for ns-auth03.kmd.dk (131.165.64.5): hostname.bind = ns-auth03.kmd.dk
+ 17.447: fanoe.dk INFO Legacy name server ID for ns-auth03.kmd.dk (131.165.64.5): version.bind = 1.0
+ 17.551: fanoe.dk NOTICE No answer received from 131.165.64.5 when querying for version.server/CH/TXT.
+ 17.552: fanoe.dk INFO Done testing name server ns-auth03.kmd.dk.
+ 17.552: fanoe.dk INFO Begin testing name server ns-auth04.kmd.dk.
+ 17.552: fanoe.dk INFO Begin testing host ns-auth04.kmd.dk.
+ 17.676: fanoe.dk INFO Begin testing address 131.165.4.5.
+ 18.381: fanoe.dk INFO Done testing address 131.165.4.5.
+ 18.381: fanoe.dk INFO Done testing host ns-auth04.kmd.dk.
+ 18.712: fanoe.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) answers queries over UDP.
+ 18.816: fanoe.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) answers queries over TCP.
+ 18.871: fanoe.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) is not recursive.
+ 19.108: fanoe.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) authoritative for fanoe.dk.
+ 19.258: fanoe.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) closed for zone transfer of fanoe.dk.
+ 19.311: fanoe.dk INFO Legacy name server ID for ns-auth04.kmd.dk (131.165.4.5): hostname.bind = ns-auth04.kmd.dk
+ 19.363: fanoe.dk INFO Legacy name server ID for ns-auth04.kmd.dk (131.165.4.5): version.bind = 1.0
+ 19.471: fanoe.dk NOTICE No answer received from 131.165.4.5 when querying for version.server/CH/TXT.
+ 19.471: fanoe.dk INFO Done testing name server ns-auth04.kmd.dk.
+ 19.471: fanoe.dk INFO Begin testing zone consistency for fanoe.dk.
+ 20.367: fanoe.dk INFO SOA at address 131.165.4.5 has serial 96.
+ 20.422: fanoe.dk INFO SOA at address 131.165.64.5 has serial 96.
+ 20.434: fanoe.dk INFO All SOA records have consistent serial numbers.
+ 20.434: fanoe.dk INFO All other fields in the SOA record are consistent among all name servers.
+ 20.908: fanoe.dk NOTICE The listed nameservers for fanoe.dk all report the same set of nameservers.
+ 20.908: fanoe.dk INFO Done testing zone consistency for fanoe.dk.
+ 20.908: fanoe.dk INFO Begin testing SOA parameters for fanoe.dk.
+ 20.961: fanoe.dk INFO Found SOA record for fanoe.dk.
+ 20.961: fanoe.dk INFO Begin testing host ns-auth03.kmd.dk.
+ 21.247: fanoe.dk INFO Begin testing address 131.165.64.5.
+ 21.561: fanoe.dk INFO Done testing address 131.165.64.5.
+ 21.561: fanoe.dk INFO Done testing host ns-auth03.kmd.dk.
+ 21.561: fanoe.dk INFO SOA MNAME for fanoe.dk valid (ns-auth03.kmd.dk).
+ 21.562: fanoe.dk INFO SOA MNAME for fanoe.dk (ns-auth03.kmd.dk) listed as NS.
+ 21.887: fanoe.dk INFO SOA MNAME for fanoe.dk (ns-auth03.kmd.dk) is authoritative.
+ 21.888: fanoe.dk INFO Begin testing email address dnsadmin@kmd.dk.
+ 22.136: fanoe.dk INFO Mail exchangers for dnsadmin@kmd.dk found edge1.kmd.dk,edge2.kmd.dk.
+ 22.136: fanoe.dk INFO Begin testing host edge1.kmd.dk.
+ 22.519: fanoe.dk INFO Begin testing address 131.165.63.88.
+ 23.358: fanoe.dk INFO Done testing address 131.165.63.88.
+ 23.358: fanoe.dk INFO Done testing host edge1.kmd.dk.
+ 23.638: fanoe.dk INFO Begin testing host edge2.kmd.dk.
+ 24.031: fanoe.dk INFO Begin testing address 131.165.63.89.
+ 24.696: fanoe.dk INFO Done testing address 131.165.63.89.
+ 24.696: fanoe.dk INFO Done testing host edge2.kmd.dk.
+ 24.861: fanoe.dk INFO Done testing email address dnsadmin@kmd.dk.
+ 24.861: fanoe.dk INFO Successful attempt to deliver email for SOA RNAME of fanoe.dk (dnsadmin.kmd.dk) using dnsadmin@kmd.dk.
+ 24.861: fanoe.dk INFO SOA TTL for fanoe.dk OK (3600) - recommended >= 3600.
+ 24.861: fanoe.dk NOTICE SOA refresh for fanoe.dk too small (10800) - recommended >= 14400.
+ 24.861: fanoe.dk INFO SOA retry for fanoe.dk OK (3600) - recommended >= 3600.
+ 24.861: fanoe.dk INFO SOA expire for fanoe.dk OK (604800) - recommended >= 604800.
+ 24.861: fanoe.dk INFO SOA minimum for fanoe.dk OK (43200) - recommended between 300 and 86400.
+ 24.861: fanoe.dk INFO Done testing SOA parameters for fanoe.dk.
+ 24.862: fanoe.dk INFO Begin testing connectivity for fanoe.dk.
+ 26.150: fanoe.dk NOTICE Zone announced by fewer than two IPv4 ASN.
+ 26.150: fanoe.dk NOTICE Zone announced by fewer than two IPv6 ASN.
+ 26.150: fanoe.dk INFO Done testing connectivity for fanoe.dk.
+ 26.162: fanoe.dk INFO Begin testing DNSSEC for fanoe.dk.
+ 26.239: fanoe.dk INFO Did not find DS record for fanoe.dk at parent.
+ 26.475: fanoe.dk INFO Servers for fanoe.dk have consistent extra processing status.
+ 26.577: fanoe.dk INFO Authenticated denial records not found for fanoe.dk.
+ 26.631: fanoe.dk INFO Did not find DNSKEY record for fanoe.dk at child.
+ 26.631: fanoe.dk INFO No DNSKEY(s) found at child, other tests skipped.
+ 26.631: fanoe.dk INFO Done testing DNSSEC for fanoe.dk.
+ 26.632: fanoe.dk INFO Test completed for zone fanoe.dk.

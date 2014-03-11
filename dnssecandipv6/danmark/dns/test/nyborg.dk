@@ -1,0 +1,88 @@
+  0.000: nyborg.dk INFO Begin testing zone nyborg.dk with version 1.6.1.
+  0.436: nyborg.dk INFO Begin testing delegation for nyborg.dk.
+ 10.210: nyborg.dk INFO Name servers listed at parent: ns1.tdchweb.dk,ns2.tdchweb.dk
+ 11.762: nyborg.dk INFO Name servers listed at child: ns1.tdchweb.dk,ns2.tdchweb.dk
+ 11.762: nyborg.dk NOTICE No IPv6 name servers found.
+ 11.825: nyborg.dk INFO Parent glue for nyborg.dk found: ns1.tdchweb.dk (193.88.99.205)
+ 11.965: nyborg.dk INFO Parent glue for nyborg.dk found: ns2.tdchweb.dk (193.88.99.143)
+ 12.024: nyborg.dk INFO Checking glue for ns1.tdchweb.dk (193.88.99.205).
+ 12.024: nyborg.dk INFO Checking glue for ns2.tdchweb.dk (193.88.99.143).
+ 12.025: nyborg.dk INFO Parent glue for nyborg.dk found: ns1.tdchweb.dk (193.88.99.205)
+ 12.025: nyborg.dk INFO Parent glue for nyborg.dk found: ns2.tdchweb.dk (193.88.99.143)
+ 16.678: nyborg.dk INFO It is possible to build a referral packet for nyborg.dk that works without EDNS0.
+ 17.022: nyborg.dk INFO Previously used name servers for nyborg.dk: 
+ 17.022: nyborg.dk INFO Done testing delegation for nyborg.dk.
+ 17.022: nyborg.dk INFO Begin testing name server ns1.tdchweb.dk.
+ 17.023: nyborg.dk INFO Begin testing host ns1.tdchweb.dk.
+ 17.256: nyborg.dk INFO Begin testing address 193.88.99.205.
+ 42.291: nyborg.dk INFO Done testing address 193.88.99.205.
+ 42.291: nyborg.dk INFO Done testing host ns1.tdchweb.dk.
+ 42.406: nyborg.dk INFO Name server ns1.tdchweb.dk (193.88.99.205) answers queries over UDP.
+ 42.451: nyborg.dk INFO Name server ns1.tdchweb.dk (193.88.99.205) answers queries over TCP.
+ 42.494: nyborg.dk INFO Name server ns1.tdchweb.dk (193.88.99.205) is not recursive.
+ 42.613: nyborg.dk INFO Name server ns1.tdchweb.dk (193.88.99.205) authoritative for nyborg.dk.
+ 42.693: nyborg.dk INFO Name server ns1.tdchweb.dk (193.88.99.205) closed for zone transfer of nyborg.dk.
+ 42.715: nyborg.dk NOTICE No answer received from 193.88.99.205 when querying for hostname.bind/CH/TXT.
+ 42.742: nyborg.dk INFO Legacy name server ID for ns1.tdchweb.dk (193.88.99.205): version.bind = 9.2.4
+ 42.783: nyborg.dk NOTICE No answer received from 193.88.99.205 when querying for id.server/CH/TXT.
+ 42.805: nyborg.dk NOTICE No answer received from 193.88.99.205 when querying for version.server/CH/TXT.
+ 42.806: nyborg.dk INFO Done testing name server ns1.tdchweb.dk.
+ 42.806: nyborg.dk INFO Begin testing name server ns2.tdchweb.dk.
+ 42.806: nyborg.dk INFO Begin testing host ns2.tdchweb.dk.
+ 42.932: nyborg.dk INFO Begin testing address 193.88.99.143.
+ 43.512: nyborg.dk INFO Done testing address 193.88.99.143.
+ 43.512: nyborg.dk INFO Done testing host ns2.tdchweb.dk.
+ 43.685: nyborg.dk INFO Name server ns2.tdchweb.dk (193.88.99.143) answers queries over UDP.
+ 43.728: nyborg.dk INFO Name server ns2.tdchweb.dk (193.88.99.143) answers queries over TCP.
+ 43.761: nyborg.dk INFO Name server ns2.tdchweb.dk (193.88.99.143) is not recursive.
+ 43.864: nyborg.dk INFO Name server ns2.tdchweb.dk (193.88.99.143) authoritative for nyborg.dk.
+ 43.926: nyborg.dk INFO Name server ns2.tdchweb.dk (193.88.99.143) closed for zone transfer of nyborg.dk.
+ 43.950: nyborg.dk NOTICE No answer received from 193.88.99.143 when querying for hostname.bind/CH/TXT.
+ 43.978: nyborg.dk INFO Legacy name server ID for ns2.tdchweb.dk (193.88.99.143): version.bind = 9.2.4
+ 44.000: nyborg.dk NOTICE No answer received from 193.88.99.143 when querying for id.server/CH/TXT.
+ 44.023: nyborg.dk NOTICE No answer received from 193.88.99.143 when querying for version.server/CH/TXT.
+ 44.024: nyborg.dk INFO Done testing name server ns2.tdchweb.dk.
+ 44.024: nyborg.dk INFO Begin testing zone consistency for nyborg.dk.
+ 44.518: nyborg.dk INFO SOA at address 193.88.99.143 has serial 1264505651.
+ 44.541: nyborg.dk INFO SOA at address 193.88.99.205 has serial 1264505651.
+ 44.541: nyborg.dk INFO All SOA records have consistent serial numbers.
+ 44.542: nyborg.dk INFO All other fields in the SOA record are consistent among all name servers.
+ 44.925: nyborg.dk NOTICE The listed nameservers for nyborg.dk all report the same set of nameservers.
+ 44.925: nyborg.dk INFO Done testing zone consistency for nyborg.dk.
+ 44.925: nyborg.dk INFO Begin testing SOA parameters for nyborg.dk.
+ 44.952: nyborg.dk INFO Found SOA record for nyborg.dk.
+ 44.953: nyborg.dk INFO Begin testing host ns1.tdchweb.dk.
+ 45.188: nyborg.dk INFO Begin testing address 193.88.99.205.
+ 45.327: nyborg.dk INFO Done testing address 193.88.99.205.
+ 45.327: nyborg.dk INFO Done testing host ns1.tdchweb.dk.
+ 45.327: nyborg.dk INFO SOA MNAME for nyborg.dk valid (ns1.tdchweb.dk).
+ 45.331: nyborg.dk INFO SOA MNAME for nyborg.dk (ns1.tdchweb.dk) listed as NS.
+ 45.466: nyborg.dk INFO SOA MNAME for nyborg.dk (ns1.tdchweb.dk) is authoritative.
+ 45.467: nyborg.dk INFO Begin testing email address bon@nyborg.dk.
+ 45.772: nyborg.dk INFO Mail exchangers for bon@nyborg.dk found mx.mailfirewall.dk.
+ 45.772: nyborg.dk INFO Begin testing host mx.mailfirewall.dk.
+ 46.253: nyborg.dk INFO Begin testing address 94.231.106.12.
+ 47.628: nyborg.dk INFO Done testing address 94.231.106.12.
+ 47.628: nyborg.dk INFO Begin testing address 94.231.106.10.
+ 48.512: nyborg.dk INFO Done testing address 94.231.106.10.
+ 48.512: nyborg.dk INFO Done testing host mx.mailfirewall.dk.
+ 48.619: nyborg.dk INFO Done testing email address bon@nyborg.dk.
+ 48.619: nyborg.dk INFO Successful attempt to deliver email for SOA RNAME of nyborg.dk (bon.nyborg.dk) using bon@nyborg.dk.
+ 48.619: nyborg.dk INFO SOA TTL for nyborg.dk OK (3600) - recommended >= 3600.
+ 48.623: nyborg.dk INFO SOA refresh for nyborg.dk OK (14400) - recommended >= 14400.
+ 48.623: nyborg.dk INFO SOA retry for nyborg.dk OK (7200) - recommended >= 3600.
+ 48.623: nyborg.dk INFO SOA expire for nyborg.dk OK (2419200) - recommended >= 604800.
+ 48.623: nyborg.dk INFO SOA minimum for nyborg.dk OK (3600) - recommended between 300 and 86400.
+ 48.623: nyborg.dk INFO Done testing SOA parameters for nyborg.dk.
+ 48.624: nyborg.dk INFO Begin testing connectivity for nyborg.dk.
+ 49.690: nyborg.dk NOTICE Zone announced by fewer than two IPv4 ASN.
+ 49.690: nyborg.dk NOTICE Zone announced by fewer than two IPv6 ASN.
+ 49.690: nyborg.dk INFO Done testing connectivity for nyborg.dk.
+ 49.691: nyborg.dk INFO Begin testing DNSSEC for nyborg.dk.
+ 49.798: nyborg.dk INFO Did not find DS record for nyborg.dk at parent.
+ 49.918: nyborg.dk INFO Servers for nyborg.dk have consistent extra processing status.
+ 49.979: nyborg.dk INFO Authenticated denial records not found for nyborg.dk.
+ 50.002: nyborg.dk INFO Did not find DNSKEY record for nyborg.dk at child.
+ 50.002: nyborg.dk INFO No DNSKEY(s) found at child, other tests skipped.
+ 50.002: nyborg.dk INFO Done testing DNSSEC for nyborg.dk.
+ 50.002: nyborg.dk INFO Test completed for zone nyborg.dk.

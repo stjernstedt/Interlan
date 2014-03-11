@@ -1,0 +1,80 @@
+  0.000: svendborg.dk INFO Begin testing zone svendborg.dk with version 1.6.1.
+  0.380: svendborg.dk INFO Begin testing delegation for svendborg.dk.
+  5.512: svendborg.dk INFO Name servers listed at parent: ns01.tdcwebmore.dk,ns02.tdcwebmore.dk
+  7.026: svendborg.dk INFO Name servers listed at child: ns01.tdcwebmore.dk,ns02.tdcwebmore.dk
+  7.026: svendborg.dk NOTICE No IPv6 name servers found.
+  7.092: svendborg.dk INFO Parent glue for svendborg.dk found: ns01.tdcwebmore.dk (62.243.74.199)
+  7.287: svendborg.dk INFO Parent glue for svendborg.dk found: ns02.tdcwebmore.dk (92.43.121.7)
+  7.429: svendborg.dk INFO Checking glue for ns01.tdcwebmore.dk (62.243.74.199).
+  7.429: svendborg.dk INFO Checking glue for ns02.tdcwebmore.dk (92.43.121.7).
+  7.429: svendborg.dk INFO Parent glue for svendborg.dk found: ns01.tdcwebmore.dk (62.243.74.199)
+  7.429: svendborg.dk INFO Parent glue for svendborg.dk found: ns02.tdcwebmore.dk (92.43.121.7)
+  8.253: svendborg.dk INFO It is possible to build a referral packet for svendborg.dk that works without EDNS0.
+  8.829: svendborg.dk INFO Previously used name servers for svendborg.dk: 
+  8.829: svendborg.dk INFO Done testing delegation for svendborg.dk.
+  8.829: svendborg.dk INFO Begin testing name server ns01.tdcwebmore.dk.
+  8.830: svendborg.dk INFO Begin testing host ns01.tdcwebmore.dk.
+  9.109: svendborg.dk INFO Begin testing address 62.243.74.199.
+ 24.145: svendborg.dk INFO Done testing address 62.243.74.199.
+ 24.145: svendborg.dk INFO Done testing host ns01.tdcwebmore.dk.
+ 24.471: svendborg.dk INFO Name server ns01.tdcwebmore.dk (62.243.74.199) answers queries over UDP.
+ 24.524: svendborg.dk INFO Name server ns01.tdcwebmore.dk (62.243.74.199) answers queries over TCP.
+ 24.547: svendborg.dk INFO Name server ns01.tdcwebmore.dk (62.243.74.199) is not recursive.
+ 24.640: svendborg.dk INFO Name server ns01.tdcwebmore.dk (62.243.74.199) authoritative for svendborg.dk.
+ 24.699: svendborg.dk INFO Name server ns01.tdcwebmore.dk (62.243.74.199) closed for zone transfer of svendborg.dk.
+ 24.747: svendborg.dk INFO Legacy name server ID for ns01.tdcwebmore.dk (62.243.74.199): version.bind = PowerDNS Authoritative Server 3.3 (jenkins@autotest.powerdns.com built 20130708130708 mockbuild@repo.monshouwer.eu)
+ 24.803: svendborg.dk INFO Done testing name server ns01.tdcwebmore.dk.
+ 24.815: svendborg.dk INFO Begin testing name server ns02.tdcwebmore.dk.
+ 24.816: svendborg.dk INFO Begin testing host ns02.tdcwebmore.dk.
+ 24.988: svendborg.dk INFO Begin testing address 92.43.121.7.
+ 25.654: svendborg.dk INFO Done testing address 92.43.121.7.
+ 25.654: svendborg.dk INFO Done testing host ns02.tdcwebmore.dk.
+ 25.828: svendborg.dk INFO Name server ns02.tdcwebmore.dk (92.43.121.7) answers queries over UDP.
+ 25.858: svendborg.dk INFO Name server ns02.tdcwebmore.dk (92.43.121.7) answers queries over TCP.
+ 25.885: svendborg.dk INFO Name server ns02.tdcwebmore.dk (92.43.121.7) is not recursive.
+ 25.980: svendborg.dk INFO Name server ns02.tdcwebmore.dk (92.43.121.7) authoritative for svendborg.dk.
+ 26.023: svendborg.dk INFO Name server ns02.tdcwebmore.dk (92.43.121.7) closed for zone transfer of svendborg.dk.
+ 26.084: svendborg.dk INFO Legacy name server ID for ns02.tdcwebmore.dk (92.43.121.7): version.bind = PowerDNS Authoritative Server 3.3 (jenkins@autotest.powerdns.com built 20130708130708 mockbuild@repo.monshouwer.eu)
+ 26.118: svendborg.dk INFO Done testing name server ns02.tdcwebmore.dk.
+ 26.118: svendborg.dk INFO Begin testing zone consistency for svendborg.dk.
+ 27.033: svendborg.dk INFO SOA at address 92.43.121.7 has serial 2014011800.
+ 27.079: svendborg.dk INFO SOA at address 62.243.74.199 has serial 2014011800.
+ 27.079: svendborg.dk INFO All SOA records have consistent serial numbers.
+ 27.079: svendborg.dk INFO All other fields in the SOA record are consistent among all name servers.
+ 27.556: svendborg.dk NOTICE The listed nameservers for svendborg.dk all report the same set of nameservers.
+ 27.556: svendborg.dk INFO Done testing zone consistency for svendborg.dk.
+ 27.557: svendborg.dk INFO Begin testing SOA parameters for svendborg.dk.
+ 27.574: svendborg.dk INFO Found SOA record for svendborg.dk.
+ 27.575: svendborg.dk INFO Begin testing host ns01.tdcwebmore.dk.
+ 27.655: svendborg.dk INFO Begin testing address 62.243.74.199.
+ 27.757: svendborg.dk INFO Done testing address 62.243.74.199.
+ 27.757: svendborg.dk INFO Done testing host ns01.tdcwebmore.dk.
+ 27.757: svendborg.dk INFO SOA MNAME for svendborg.dk valid (ns01.tdcwebmore.dk).
+ 27.757: svendborg.dk INFO SOA MNAME for svendborg.dk (ns01.tdcwebmore.dk) listed as NS.
+ 27.868: svendborg.dk INFO SOA MNAME for svendborg.dk (ns01.tdcwebmore.dk) is authoritative.
+ 27.868: svendborg.dk INFO Begin testing email address hostmaster@tele.dk.
+ 28.204: svendborg.dk INFO Mail exchangers for hostmaster@tele.dk found mailgrinder.inet.tele.dk.
+ 28.204: svendborg.dk INFO Begin testing host mailgrinder.inet.tele.dk.
+ 28.632: svendborg.dk INFO Begin testing address 195.41.53.78.
+ 29.315: svendborg.dk INFO Done testing address 195.41.53.78.
+ 29.315: svendborg.dk INFO Done testing host mailgrinder.inet.tele.dk.
+ 29.426: svendborg.dk INFO Done testing email address hostmaster@tele.dk.
+ 29.426: svendborg.dk INFO Successful attempt to deliver email for SOA RNAME of svendborg.dk (hostmaster.tele.dk) using hostmaster@tele.dk.
+ 29.426: svendborg.dk INFO SOA TTL for svendborg.dk OK (21600) - recommended >= 3600.
+ 29.426: svendborg.dk INFO SOA refresh for svendborg.dk OK (14400) - recommended >= 14400.
+ 29.426: svendborg.dk INFO SOA retry for svendborg.dk OK (7200) - recommended >= 3600.
+ 29.426: svendborg.dk INFO SOA expire for svendborg.dk OK (604800) - recommended >= 604800.
+ 29.426: svendborg.dk INFO SOA minimum for svendborg.dk OK (900) - recommended between 300 and 86400.
+ 29.426: svendborg.dk INFO Done testing SOA parameters for svendborg.dk.
+ 29.426: svendborg.dk INFO Begin testing connectivity for svendborg.dk.
+ 30.368: svendborg.dk INFO Zone announced by more than one ASN.
+ 30.368: svendborg.dk NOTICE Zone announced by fewer than two IPv6 ASN.
+ 30.368: svendborg.dk INFO Done testing connectivity for svendborg.dk.
+ 30.368: svendborg.dk INFO Begin testing DNSSEC for svendborg.dk.
+ 30.410: svendborg.dk INFO Did not find DS record for svendborg.dk at parent.
+ 30.490: svendborg.dk INFO Servers for svendborg.dk have consistent extra processing status.
+ 30.532: svendborg.dk INFO Authenticated denial records not found for svendborg.dk.
+ 30.552: svendborg.dk INFO Did not find DNSKEY record for svendborg.dk at child.
+ 30.552: svendborg.dk INFO No DNSKEY(s) found at child, other tests skipped.
+ 30.552: svendborg.dk INFO Done testing DNSSEC for svendborg.dk.
+ 30.553: svendborg.dk INFO Test completed for zone svendborg.dk.

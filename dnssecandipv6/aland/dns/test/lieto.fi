@@ -1,0 +1,82 @@
+  0.000: lieto.fi INFO Begin testing zone lieto.fi with version 1.5.0.
+  0.381: lieto.fi INFO Begin testing delegation for lieto.fi.
+ 27.755: lieto.fi INFO Name servers listed at parent: ns-fi.elisa.net,ns-se.elisa.net
+ 32.339: lieto.fi INFO Name servers listed at child: ns-fi.elisa.net,ns-se.elisa.net
+ 32.339: lieto.fi NOTICE No IPv6 name servers found.
+ 35.428: lieto.fi INFO It is possible to build a referral packet for lieto.fi that works without EDNS0.
+ 37.479: lieto.fi INFO Previously used name servers for lieto.fi: 
+ 37.479: lieto.fi INFO Done testing delegation for lieto.fi.
+ 37.479: lieto.fi INFO Begin testing name server ns-fi.elisa.net.
+ 37.480: lieto.fi INFO Begin testing host ns-fi.elisa.net.
+ 38.581: lieto.fi INFO Begin testing address 193.229.0.49.
+ 53.711: lieto.fi INFO Done testing address 193.229.0.49.
+ 53.711: lieto.fi INFO Done testing host ns-fi.elisa.net.
+ 54.638: lieto.fi INFO Name server ns-fi.elisa.net (193.229.0.49) answers queries over UDP.
+ 54.773: lieto.fi INFO Name server ns-fi.elisa.net (193.229.0.49) answers queries over TCP.
+ 54.889: lieto.fi INFO Name server ns-fi.elisa.net (193.229.0.49) is not recursive.
+ 55.175: lieto.fi INFO Name server ns-fi.elisa.net (193.229.0.49) authoritative for lieto.fi.
+ 55.338: lieto.fi INFO Name server ns-fi.elisa.net (193.229.0.49) closed for zone transfer of lieto.fi.
+ 55.417: lieto.fi INFO Legacy name server ID for ns-fi.elisa.net (193.229.0.49): hostname.bind = ldom-dns64
+ 55.558: lieto.fi INFO Legacy name server ID for ns-fi.elisa.net (193.229.0.49): version.bind = unknown
+ 55.700: lieto.fi NOTICE No answer received from 193.229.0.49 when querying for version.server/CH/TXT.
+ 55.701: lieto.fi INFO Done testing name server ns-fi.elisa.net.
+ 55.701: lieto.fi INFO Begin testing name server ns-se.elisa.net.
+ 55.701: lieto.fi INFO Begin testing host ns-se.elisa.net.
+ 56.767: lieto.fi INFO Begin testing address 62.248.254.2.
+ 58.869: lieto.fi INFO Done testing address 62.248.254.2.
+ 58.869: lieto.fi INFO Done testing host ns-se.elisa.net.
+ 59.999: lieto.fi INFO Name server ns-se.elisa.net (62.248.254.2) answers queries over UDP.
+ 60.123: lieto.fi INFO Name server ns-se.elisa.net (62.248.254.2) answers queries over TCP.
+ 60.238: lieto.fi INFO Name server ns-se.elisa.net (62.248.254.2) is not recursive.
+ 60.790: lieto.fi INFO Name server ns-se.elisa.net (62.248.254.2) authoritative for lieto.fi.
+ 60.936: lieto.fi INFO Name server ns-se.elisa.net (62.248.254.2) closed for zone transfer of lieto.fi.
+ 61.131: lieto.fi INFO Legacy name server ID for ns-se.elisa.net (62.248.254.2): hostname.bind = phys-dns8
+ 61.271: lieto.fi INFO Legacy name server ID for ns-se.elisa.net (62.248.254.2): version.bind = unknown
+ 61.546: lieto.fi NOTICE No answer received from 62.248.254.2 when querying for version.server/CH/TXT.
+ 61.547: lieto.fi INFO Done testing name server ns-se.elisa.net.
+ 61.547: lieto.fi INFO Begin testing zone consistency for lieto.fi.
+ 70.439: lieto.fi INFO SOA at address 62.248.254.2 has serial 2013012100.
+ 70.624: lieto.fi INFO SOA at address 193.229.0.49 has serial 2013012100.
+ 70.624: lieto.fi INFO All SOA records have consistent serial numbers.
+ 70.624: lieto.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 74.382: lieto.fi NOTICE The listed nameservers for lieto.fi all report the same set of nameservers.
+ 74.383: lieto.fi INFO Done testing zone consistency for lieto.fi.
+ 74.383: lieto.fi INFO Begin testing SOA parameters for lieto.fi.
+ 74.595: lieto.fi INFO Found SOA record for lieto.fi.
+ 74.595: lieto.fi INFO Begin testing host ns-fi.elisa.net.
+ 76.315: lieto.fi INFO Begin testing address 193.229.0.49.
+ 78.047: lieto.fi INFO Done testing address 193.229.0.49.
+ 78.047: lieto.fi INFO Done testing host ns-fi.elisa.net.
+ 78.047: lieto.fi INFO SOA MNAME for lieto.fi valid (ns-fi.elisa.net).
+ 78.047: lieto.fi INFO SOA MNAME for lieto.fi (ns-fi.elisa.net) listed as NS.
+ 79.727: lieto.fi INFO SOA MNAME for lieto.fi (ns-fi.elisa.net) is authoritative.
+ 79.727: lieto.fi INFO Begin testing email address hostmaster@elisa.fi.
+ 81.269: lieto.fi INFO Mail exchangers for hostmaster@elisa.fi found mx2.elisa.fi,mx1.elisa.fi.
+ 81.269: lieto.fi INFO Begin testing host mx2.elisa.fi.
+ 84.236: lieto.fi INFO Begin testing address 193.64.173.43.
+ 92.074: lieto.fi INFO Done testing address 193.64.173.43.
+ 92.075: lieto.fi INFO Done testing host mx2.elisa.fi.
+ 93.243: lieto.fi INFO Begin testing host mx1.elisa.fi.
+ 95.718: lieto.fi INFO Begin testing address 193.64.173.42.
+100.441: lieto.fi INFO Done testing address 193.64.173.42.
+101.206: lieto.fi INFO Done testing host mx1.elisa.fi.
+102.633: lieto.fi INFO Done testing email address hostmaster@elisa.fi.
+102.633: lieto.fi INFO Successful attempt to deliver email for SOA RNAME of lieto.fi (hostmaster.elisa.fi) using hostmaster@elisa.fi.
+102.633: lieto.fi INFO SOA TTL for lieto.fi OK (3600) - recommended >= 3600.
+102.633: lieto.fi NOTICE SOA refresh for lieto.fi too small (3600) - recommended >= 14400.
+102.633: lieto.fi NOTICE SOA retry for lieto.fi too small (900) - recommended >= 3600.
+102.633: lieto.fi INFO SOA expire for lieto.fi OK (604800) - recommended >= 604800.
+102.633: lieto.fi INFO SOA minimum for lieto.fi OK (3600) - recommended between 300 and 86400.
+102.634: lieto.fi INFO Done testing SOA parameters for lieto.fi.
+102.634: lieto.fi INFO Begin testing connectivity for lieto.fi.
+107.429: lieto.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+107.429: lieto.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+107.429: lieto.fi INFO Done testing connectivity for lieto.fi.
+107.429: lieto.fi INFO Begin testing DNSSEC for lieto.fi.
+107.903: lieto.fi INFO Did not find DS record for lieto.fi at parent.
+108.372: lieto.fi INFO Servers for lieto.fi have consistent extra processing status.
+108.611: lieto.fi INFO Authenticated denial records not found for lieto.fi.
+108.808: lieto.fi INFO Did not find DNSKEY record for lieto.fi at child.
+108.808: lieto.fi INFO No DNSKEY(s) found at child, other tests skipped.
+108.809: lieto.fi INFO Done testing DNSSEC for lieto.fi.
+108.809: lieto.fi INFO Test completed for zone lieto.fi.

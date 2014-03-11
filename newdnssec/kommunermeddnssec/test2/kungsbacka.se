@@ -1,0 +1,94 @@
+  0.000: kungsbacka.se INFO Begin testing zone kungsbacka.se with version 1.2.
+  0.000: kungsbacka.se INFO Begin testing delegation for kungsbacka.se.
+ 13.165: kungsbacka.se INFO Name servers listed at parent: ns1.tripnet.se,ns2.tripnet.se
+ 14.429: kungsbacka.se INFO Name servers listed at child: ns1.tripnet.se,ns2.tripnet.se
+ 14.429: kungsbacka.se NOTICE No IPv6 name servers found.
+ 14.448: kungsbacka.se INFO Parent glue for kungsbacka.se found: ns1.tripnet.se (217.28.202.2)
+ 14.490: kungsbacka.se INFO Parent glue for kungsbacka.se found: ns2.tripnet.se (217.28.204.2)
+ 14.533: kungsbacka.se INFO Checking glue for ns1.tripnet.se (217.28.202.2).
+ 14.533: kungsbacka.se INFO Checking glue for ns2.tripnet.se (217.28.204.2).
+ 14.534: kungsbacka.se INFO Parent glue for kungsbacka.se found: ns1.tripnet.se (217.28.202.2)
+ 14.534: kungsbacka.se INFO Parent glue for kungsbacka.se found: ns2.tripnet.se (217.28.204.2)
+ 14.535: kungsbacka.se INFO Done testing delegation for kungsbacka.se.
+ 14.535: kungsbacka.se INFO Begin testing name server ns1.tripnet.se.
+ 14.535: kungsbacka.se INFO Begin testing host ns1.tripnet.se.
+ 14.536: kungsbacka.se INFO Begin testing address 217.28.202.2.
+ 18.803: kungsbacka.se INFO Done testing address 217.28.202.2.
+ 18.803: kungsbacka.se INFO Done testing host ns1.tripnet.se.
+ 18.829: kungsbacka.se INFO Name server ns1.tripnet.se (217.28.202.2) answers queries over UDP.
+ 18.869: kungsbacka.se INFO Name server ns1.tripnet.se (217.28.202.2) answers queries over TCP.
+ 18.892: kungsbacka.se INFO Name server ns1.tripnet.se (217.28.202.2) is not recursive.
+ 18.928: kungsbacka.se INFO Name server ns1.tripnet.se (217.28.202.2) authoritative for kungsbacka.se.
+ 18.984: kungsbacka.se INFO Name server ns1.tripnet.se (217.28.202.2) closed for zone transfer of kungsbacka.se.
+ 19.011: kungsbacka.se INFO Legacy name server ID for ns1.tripnet.se (217.28.202.2): hostname.bind = ns1
+ 19.032: kungsbacka.se INFO Legacy name server ID for ns1.tripnet.se (217.28.202.2): version.bind = 9.3.4-P1.2
+ 19.074: kungsbacka.se NOTICE No answer received from 217.28.202.2 when querying for version.server/CH/TXT.
+ 19.074: kungsbacka.se INFO Done testing name server ns1.tripnet.se.
+ 19.074: kungsbacka.se INFO Begin testing name server ns2.tripnet.se.
+ 19.074: kungsbacka.se INFO Begin testing host ns2.tripnet.se.
+ 19.075: kungsbacka.se INFO Begin testing address 217.28.204.2.
+ 19.319: kungsbacka.se INFO Done testing address 217.28.204.2.
+ 19.319: kungsbacka.se INFO Done testing host ns2.tripnet.se.
+ 19.342: kungsbacka.se INFO Name server ns2.tripnet.se (217.28.204.2) answers queries over UDP.
+ 19.384: kungsbacka.se INFO Name server ns2.tripnet.se (217.28.204.2) answers queries over TCP.
+ 19.407: kungsbacka.se INFO Name server ns2.tripnet.se (217.28.204.2) is not recursive.
+ 19.430: kungsbacka.se INFO Name server ns2.tripnet.se (217.28.204.2) authoritative for kungsbacka.se.
+ 19.489: kungsbacka.se INFO Name server ns2.tripnet.se (217.28.204.2) closed for zone transfer of kungsbacka.se.
+ 19.510: kungsbacka.se INFO Legacy name server ID for ns2.tripnet.se (217.28.204.2): hostname.bind = ns2
+ 19.532: kungsbacka.se INFO Legacy name server ID for ns2.tripnet.se (217.28.204.2): version.bind = 9.3.4-P1.2
+ 19.578: kungsbacka.se NOTICE No answer received from 217.28.204.2 when querying for version.server/CH/TXT.
+ 19.578: kungsbacka.se INFO Done testing name server ns2.tripnet.se.
+ 19.579: kungsbacka.se INFO Begin testing zone consistency for kungsbacka.se.
+ 19.612: kungsbacka.se INFO SOA at address 217.28.202.2 has serial 2010120301.
+ 19.634: kungsbacka.se INFO SOA at address 217.28.204.2 has serial 2010120301.
+ 19.634: kungsbacka.se INFO All SOA records have consistent serial numbers.
+ 19.634: kungsbacka.se INFO All SOA records are consistent among all name servers.
+ 19.634: kungsbacka.se INFO Done testing zone consistency for kungsbacka.se.
+ 19.635: kungsbacka.se INFO Begin testing SOA parameters for kungsbacka.se.
+ 19.662: kungsbacka.se INFO Found SOA record for kungsbacka.se.
+ 19.662: kungsbacka.se INFO Begin testing host ns1.tripnet.se.
+ 19.663: kungsbacka.se INFO Begin testing address 217.28.202.2.
+ 19.664: kungsbacka.se INFO Done testing address 217.28.202.2.
+ 19.664: kungsbacka.se INFO Done testing host ns1.tripnet.se.
+ 19.664: kungsbacka.se INFO SOA MNAME for kungsbacka.se valid (ns1.tripnet.se).
+ 19.665: kungsbacka.se INFO SOA MNAME for kungsbacka.se (ns1.tripnet.se) listed as NS.
+ 19.687: kungsbacka.se INFO SOA MNAME for kungsbacka.se (ns1.tripnet.se) is authoritative.
+ 19.688: kungsbacka.se INFO Begin testing email address registry@tripnet.se.
+ 19.915: kungsbacka.se INFO Mail exchangers for registry@tripnet.se found mx1.tripnet.se,mx2.tripnet.se.
+ 19.915: kungsbacka.se INFO Begin testing host mx1.tripnet.se.
+ 20.408: kungsbacka.se INFO Begin testing address 217.28.202.24.
+ 24.671: kungsbacka.se INFO Done testing address 217.28.202.24.
+ 24.671: kungsbacka.se INFO Done testing host mx1.tripnet.se.
+ 24.671: kungsbacka.se INFO Begin testing mail server mx1.tripnet.se (217.28.202.24) with registry@tripnet.se.
+ 24.774: kungsbacka.se INFO SMTP banner: mx1.tripnet.se ESMTP Exim 4.69 Mon, 13 Dec 2010 20:12:24 +0100
+ 24.858: kungsbacka.se INFO SMTP testing of mx1.tripnet.se (217.28.202.24) with registry@tripnet.se succeeded without errors.
+ 24.858: kungsbacka.se INFO Done testing mail server mx1.tripnet.se (217.28.202.24) with registry@tripnet.se.
+ 24.858: kungsbacka.se INFO Begin testing host mx2.tripnet.se.
+ 25.374: kungsbacka.se INFO Begin testing address 217.28.204.24.
+ 25.887: kungsbacka.se INFO Done testing address 217.28.204.24.
+ 25.887: kungsbacka.se INFO Done testing host mx2.tripnet.se.
+ 25.887: kungsbacka.se INFO Delivery over IPv4 to registry@tripnet.se ok.
+ 25.887: kungsbacka.se INFO Delivery over IPv6 to registry@tripnet.se could not be done.
+ 25.888: kungsbacka.se INFO Done testing email address registry@tripnet.se.
+ 25.888: kungsbacka.se INFO Successful attempt to deliver email for SOA RNAME of kungsbacka.se (registry.tripnet.se) using registry@tripnet.se.
+ 25.888: kungsbacka.se NOTICE SOA TTL for kungsbacka.se too small (600) - recommended >= 3600.
+ 25.888: kungsbacka.se INFO SOA refresh for kungsbacka.se OK (28800) - recommended >= 14400.
+ 25.888: kungsbacka.se INFO SOA retry for kungsbacka.se OK (7200) - recommended >= 3600.
+ 25.888: kungsbacka.se INFO SOA expire for kungsbacka.se OK (604800) - recommended >= 604800.
+ 25.888: kungsbacka.se INFO SOA minimum for kungsbacka.se OK (86400) - recommended between 300 and 86400.
+ 25.888: kungsbacka.se INFO Done testing SOA parameters for kungsbacka.se.
+ 25.888: kungsbacka.se INFO Begin testing connectivity for kungsbacka.se.
+ 26.400: kungsbacka.se INFO Name server 217.28.202.2 announced by: 34385
+ 27.146: kungsbacka.se INFO Name server 217.28.204.2 announced by: 34385
+ 27.146: kungsbacka.se INFO Zone announced by IPv4 ASN: 34385
+ 27.147: kungsbacka.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 27.147: kungsbacka.se INFO Zone announced by IPv6 ASN: 
+ 27.147: kungsbacka.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 27.147: kungsbacka.se INFO Done testing connectivity for kungsbacka.se.
+ 27.147: kungsbacka.se INFO Begin testing DNSSEC for kungsbacka.se.
+ 27.223: kungsbacka.se INFO Did not find DS record for kungsbacka.se at parent.
+ 27.302: kungsbacka.se INFO Servers for kungsbacka.se have consistent extra processing status.
+ 27.302: kungsbacka.se INFO Did not find DNSKEY record for kungsbacka.se at child.
+ 27.302: kungsbacka.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 27.302: kungsbacka.se INFO Done testing DNSSEC for kungsbacka.se.
+ 27.302: kungsbacka.se INFO Test completed for zone kungsbacka.se.

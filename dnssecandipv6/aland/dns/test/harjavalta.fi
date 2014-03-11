@@ -1,0 +1,78 @@
+  0.000: harjavalta.fi INFO Begin testing zone harjavalta.fi with version 1.5.0.
+  0.578: harjavalta.fi INFO Begin testing delegation for harjavalta.fi.
+ 15.724: harjavalta.fi INFO Name servers listed at parent: ns1-fin.seclan.com,ns2-fin.seclan.com
+ 20.033: harjavalta.fi INFO Name servers listed at child: ns1-fin.seclan.com,ns2-fin.seclan.com
+ 20.033: harjavalta.fi NOTICE No IPv6 name servers found.
+ 22.538: harjavalta.fi INFO It is possible to build a referral packet for harjavalta.fi that works without EDNS0.
+ 24.337: harjavalta.fi INFO Previously used name servers for harjavalta.fi: 
+ 24.337: harjavalta.fi INFO Done testing delegation for harjavalta.fi.
+ 24.337: harjavalta.fi INFO Begin testing name server ns1-fin.seclan.com.
+ 24.338: harjavalta.fi INFO Begin testing host ns1-fin.seclan.com.
+ 25.115: harjavalta.fi INFO Begin testing address 109.70.160.130.
+ 45.916: harjavalta.fi INFO Done testing address 109.70.160.130.
+ 45.916: harjavalta.fi INFO Done testing host ns1-fin.seclan.com.
+ 46.737: harjavalta.fi INFO Name server ns1-fin.seclan.com (109.70.160.130) answers queries over UDP.
+ 46.881: harjavalta.fi INFO Name server ns1-fin.seclan.com (109.70.160.130) answers queries over TCP.
+ 46.990: harjavalta.fi INFO Name server ns1-fin.seclan.com (109.70.160.130) is not recursive.
+ 47.412: harjavalta.fi INFO Name server ns1-fin.seclan.com (109.70.160.130) authoritative for harjavalta.fi.
+ 47.504: harjavalta.fi INFO Name server ns1-fin.seclan.com (109.70.160.130) closed for zone transfer of harjavalta.fi.
+ 47.665: harjavalta.fi INFO Legacy name server ID for ns1-fin.seclan.com (109.70.160.130): hostname.bind = ns1-fin.seclan.com
+ 47.799: harjavalta.fi INFO Legacy name server ID for ns1-fin.seclan.com (109.70.160.130): version.bind = 9.7.3
+ 48.035: harjavalta.fi NOTICE No answer received from 109.70.160.130 when querying for version.server/CH/TXT.
+ 48.035: harjavalta.fi INFO Done testing name server ns1-fin.seclan.com.
+ 48.035: harjavalta.fi INFO Begin testing name server ns2-fin.seclan.com.
+ 48.035: harjavalta.fi INFO Begin testing host ns2-fin.seclan.com.
+ 48.879: harjavalta.fi INFO Begin testing address 83.102.13.35.
+ 55.656: harjavalta.fi INFO Done testing address 83.102.13.35.
+ 55.656: harjavalta.fi INFO Done testing host ns2-fin.seclan.com.
+ 56.502: harjavalta.fi INFO Name server ns2-fin.seclan.com (83.102.13.35) answers queries over UDP.
+ 56.630: harjavalta.fi INFO Name server ns2-fin.seclan.com (83.102.13.35) answers queries over TCP.
+ 56.740: harjavalta.fi INFO Name server ns2-fin.seclan.com (83.102.13.35) is not recursive.
+ 57.047: harjavalta.fi INFO Name server ns2-fin.seclan.com (83.102.13.35) authoritative for harjavalta.fi.
+ 57.174: harjavalta.fi INFO Name server ns2-fin.seclan.com (83.102.13.35) closed for zone transfer of harjavalta.fi.
+ 57.237: harjavalta.fi INFO Legacy name server ID for ns2-fin.seclan.com (83.102.13.35): hostname.bind = ns2-fin
+ 57.387: harjavalta.fi INFO Legacy name server ID for ns2-fin.seclan.com (83.102.13.35): version.bind = 9.7.3
+ 57.532: harjavalta.fi NOTICE No answer received from 83.102.13.35 when querying for version.server/CH/TXT.
+ 57.532: harjavalta.fi INFO Done testing name server ns2-fin.seclan.com.
+ 57.532: harjavalta.fi INFO Begin testing zone consistency for harjavalta.fi.
+ 59.754: harjavalta.fi INFO SOA at address 83.102.13.35 has serial 2012012001.
+ 59.782: harjavalta.fi INFO SOA at address 109.70.160.130 has serial 2012012001.
+ 59.783: harjavalta.fi INFO All SOA records have consistent serial numbers.
+ 59.783: harjavalta.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 61.302: harjavalta.fi NOTICE The listed nameservers for harjavalta.fi all report the same set of nameservers.
+ 61.302: harjavalta.fi INFO Done testing zone consistency for harjavalta.fi.
+ 61.302: harjavalta.fi INFO Begin testing SOA parameters for harjavalta.fi.
+ 61.349: harjavalta.fi INFO Found SOA record for harjavalta.fi.
+ 61.349: harjavalta.fi INFO Begin testing host ns1-fin.seclan.com.
+ 63.926: harjavalta.fi INFO Begin testing address 109.70.160.130.
+ 64.486: harjavalta.fi INFO Done testing address 109.70.160.130.
+ 64.487: harjavalta.fi INFO Done testing host ns1-fin.seclan.com.
+ 64.487: harjavalta.fi INFO SOA MNAME for harjavalta.fi valid (ns1-fin.seclan.com).
+ 64.487: harjavalta.fi INFO SOA MNAME for harjavalta.fi (ns1-fin.seclan.com) listed as NS.
+ 65.112: harjavalta.fi INFO SOA MNAME for harjavalta.fi (ns1-fin.seclan.com) is authoritative.
+ 65.112: harjavalta.fi INFO Begin testing email address root@harjavalta.fi.
+ 65.453: harjavalta.fi INFO Mail exchangers for root@harjavalta.fi found mail.kokemaki.fi.
+ 65.453: harjavalta.fi INFO Begin testing host mail.kokemaki.fi.
+ 66.932: harjavalta.fi INFO Begin testing address 62.142.89.73.
+ 68.136: harjavalta.fi INFO Done testing address 62.142.89.73.
+ 68.136: harjavalta.fi INFO Done testing host mail.kokemaki.fi.
+ 68.432: harjavalta.fi INFO Done testing email address root@harjavalta.fi.
+ 68.432: harjavalta.fi INFO Successful attempt to deliver email for SOA RNAME of harjavalta.fi (root.harjavalta.fi) using root@harjavalta.fi.
+ 68.432: harjavalta.fi INFO SOA TTL for harjavalta.fi OK (3600) - recommended >= 3600.
+ 68.432: harjavalta.fi INFO SOA refresh for harjavalta.fi OK (28800) - recommended >= 14400.
+ 68.432: harjavalta.fi INFO SOA retry for harjavalta.fi OK (7200) - recommended >= 3600.
+ 68.432: harjavalta.fi INFO SOA expire for harjavalta.fi OK (604800) - recommended >= 604800.
+ 68.432: harjavalta.fi INFO SOA minimum for harjavalta.fi OK (3600) - recommended between 300 and 86400.
+ 68.433: harjavalta.fi INFO Done testing SOA parameters for harjavalta.fi.
+ 68.433: harjavalta.fi INFO Begin testing connectivity for harjavalta.fi.
+ 69.807: harjavalta.fi INFO Zone announced by more than one ASN.
+ 69.807: harjavalta.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 69.807: harjavalta.fi INFO Done testing connectivity for harjavalta.fi.
+ 69.807: harjavalta.fi INFO Begin testing DNSSEC for harjavalta.fi.
+ 69.844: harjavalta.fi INFO Did not find DS record for harjavalta.fi at parent.
+ 69.908: harjavalta.fi INFO Servers for harjavalta.fi have consistent extra processing status.
+ 69.938: harjavalta.fi INFO Authenticated denial records not found for harjavalta.fi.
+ 69.982: harjavalta.fi INFO Did not find DNSKEY record for harjavalta.fi at child.
+ 69.982: harjavalta.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 69.982: harjavalta.fi INFO Done testing DNSSEC for harjavalta.fi.
+ 69.982: harjavalta.fi INFO Test completed for zone harjavalta.fi.

@@ -1,0 +1,139 @@
+  0.000: molde.kommune.no INFO Begin testing zone molde.kommune.no with version 1.6.1.
+  0.425: molde.kommune.no INFO Begin testing delegation for molde.kommune.no.
+  8.485: molde.kommune.no INFO Name servers listed at parent: dns1.as2116.net,dns2.as2116.net
+  9.687: molde.kommune.no INFO Name servers listed at child: dns1.eunet.no,dns2.eunet.no
+  9.687: molde.kommune.no ERROR Superfluous name server listed at parent: dns1.as2116.net
+  9.687: molde.kommune.no ERROR Superfluous name server listed at parent: dns2.as2116.net
+  9.688: molde.kommune.no ERROR Total parent/child glue mismatch.
+  9.688: molde.kommune.no NOTICE Additional name server listed at child: dns1.eunet.no
+  9.688: molde.kommune.no NOTICE Additional name server listed at child: dns2.eunet.no
+  9.688: molde.kommune.no NOTICE Too few IPv6 name servers (1).
+  9.845: molde.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.977: molde.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.116: molde.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.284: molde.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.782: molde.kommune.no INFO It is possible to build a referral packet for molde.kommune.no that works without EDNS0.
+ 12.493: molde.kommune.no INFO Previously used name servers for molde.kommune.no: 
+ 12.493: molde.kommune.no INFO Done testing delegation for molde.kommune.no.
+ 12.494: molde.kommune.no INFO Begin testing name server dns1.eunet.no.
+ 12.494: molde.kommune.no INFO Begin testing host dns1.eunet.no.
+ 12.494: molde.kommune.no INFO Begin testing address 193.75.75.1.
+ 25.142: molde.kommune.no INFO Done testing address 193.75.75.1.
+ 25.142: molde.kommune.no INFO Begin testing address 2001:8c0:2001:0:0:0:3:53.
+ 25.639: molde.kommune.no INFO Done testing address 2001:8c0:2001:0:0:0:3:53.
+ 25.639: molde.kommune.no INFO Done testing host dns1.eunet.no.
+ 25.669: molde.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) answers queries over UDP.
+ 25.697: molde.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) answers queries over TCP.
+ 25.732: molde.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) is not recursive.
+ 25.788: molde.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) authoritative for molde.kommune.no.
+ 25.829: molde.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) closed for zone transfer of molde.kommune.no.
+ 25.848: molde.kommune.no INFO Legacy name server ID for dns1.eunet.no (193.75.75.1): hostname.bind = alpha-a.server.as2116.net
+ 25.886: molde.kommune.no INFO Legacy name server ID for dns1.eunet.no (193.75.75.1): version.bind = Shirely you must be joking
+ 25.929: molde.kommune.no NOTICE No answer received from 193.75.75.1 when querying for version.server/CH/TXT.
+ 25.947: molde.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) answers queries over UDP.
+ 25.994: molde.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) answers queries over TCP.
+ 26.014: molde.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) is not recursive.
+ 26.097: molde.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) authoritative for molde.kommune.no.
+ 26.148: molde.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) closed for zone transfer of molde.kommune.no.
+ 26.169: molde.kommune.no INFO Legacy name server ID for dns1.eunet.no (2001:8c0:2001:0:0:0:3:53): hostname.bind = alpha-a.server.as2116.net
+ 26.187: molde.kommune.no INFO Legacy name server ID for dns1.eunet.no (2001:8c0:2001:0:0:0:3:53): version.bind = Shirely you must be joking
+ 26.227: molde.kommune.no NOTICE No answer received from 2001:8c0:2001:0:0:0:3:53 when querying for version.server/CH/TXT.
+ 26.228: molde.kommune.no INFO Done testing name server dns1.eunet.no.
+ 26.228: molde.kommune.no INFO Begin testing name server dns2.eunet.no.
+ 26.228: molde.kommune.no INFO Begin testing host dns2.eunet.no.
+ 26.393: molde.kommune.no INFO Begin testing address 148.122.208.226.
+ 31.305: molde.kommune.no INFO Done testing address 148.122.208.226.
+ 31.305: molde.kommune.no INFO Done testing host dns2.eunet.no.
+ 31.421: molde.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) answers queries over UDP.
+ 31.457: molde.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) answers queries over TCP.
+ 31.477: molde.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) is not recursive.
+ 31.536: molde.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) authoritative for molde.kommune.no.
+ 31.577: molde.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) closed for zone transfer of molde.kommune.no.
+ 31.591: molde.kommune.no INFO Legacy name server ID for dns2.eunet.no (148.122.208.226): hostname.bind = ny-ns2-eunet.oke.nextra.no
+ 31.623: molde.kommune.no INFO Legacy name server ID for dns2.eunet.no (148.122.208.226): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 31.667: molde.kommune.no NOTICE No answer received from 148.122.208.226 when querying for version.server/CH/TXT.
+ 31.667: molde.kommune.no INFO Done testing name server dns2.eunet.no.
+ 31.667: molde.kommune.no INFO Begin testing name server dns1.as2116.net.
+ 31.667: molde.kommune.no INFO Begin testing host dns1.as2116.net.
+ 31.668: molde.kommune.no INFO Begin testing address 193.75.75.1.
+ 31.682: molde.kommune.no INFO Done testing address 193.75.75.1.
+ 31.682: molde.kommune.no INFO Begin testing address 2001:8c0:2001:0:0:0:3:53.
+ 31.684: molde.kommune.no INFO Done testing address 2001:8c0:2001:0:0:0:3:53.
+ 31.684: molde.kommune.no INFO Done testing host dns1.as2116.net.
+ 31.713: molde.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) answers queries over UDP.
+ 31.760: molde.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) answers queries over TCP.
+ 31.777: molde.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) is not recursive.
+ 31.855: molde.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) authoritative for molde.kommune.no.
+ 31.893: molde.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) closed for zone transfer of molde.kommune.no.
+ 31.906: molde.kommune.no INFO Legacy name server ID for dns1.as2116.net (193.75.75.1): hostname.bind = alpha-a.server.as2116.net
+ 31.920: molde.kommune.no INFO Legacy name server ID for dns1.as2116.net (193.75.75.1): version.bind = Shirely you must be joking
+ 31.953: molde.kommune.no NOTICE No answer received from 193.75.75.1 when querying for version.server/CH/TXT.
+ 31.971: molde.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) answers queries over UDP.
+ 32.020: molde.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) answers queries over TCP.
+ 32.038: molde.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) is not recursive.
+ 32.113: molde.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) authoritative for molde.kommune.no.
+ 32.161: molde.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) closed for zone transfer of molde.kommune.no.
+ 32.181: molde.kommune.no INFO Legacy name server ID for dns1.as2116.net (2001:8c0:2001:0:0:0:3:53): hostname.bind = alpha-a.server.as2116.net
+ 32.197: molde.kommune.no INFO Legacy name server ID for dns1.as2116.net (2001:8c0:2001:0:0:0:3:53): version.bind = Shirely you must be joking
+ 32.241: molde.kommune.no NOTICE No answer received from 2001:8c0:2001:0:0:0:3:53 when querying for version.server/CH/TXT.
+ 32.241: molde.kommune.no INFO Done testing name server dns1.as2116.net.
+ 32.241: molde.kommune.no INFO Begin testing name server dns2.as2116.net.
+ 32.241: molde.kommune.no INFO Begin testing host dns2.as2116.net.
+ 32.462: molde.kommune.no INFO Begin testing address 148.122.208.226.
+ 32.844: molde.kommune.no INFO Done testing address 148.122.208.226.
+ 32.844: molde.kommune.no INFO Done testing host dns2.as2116.net.
+ 33.010: molde.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) answers queries over UDP.
+ 33.036: molde.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) answers queries over TCP.
+ 33.051: molde.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) is not recursive.
+ 33.114: molde.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) authoritative for molde.kommune.no.
+ 33.150: molde.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) closed for zone transfer of molde.kommune.no.
+ 33.170: molde.kommune.no INFO Legacy name server ID for dns2.as2116.net (148.122.208.226): hostname.bind = ny-ns2-eunet.oke.nextra.no
+ 33.184: molde.kommune.no INFO Legacy name server ID for dns2.as2116.net (148.122.208.226): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 33.213: molde.kommune.no NOTICE No answer received from 148.122.208.226 when querying for version.server/CH/TXT.
+ 33.213: molde.kommune.no INFO Done testing name server dns2.as2116.net.
+ 33.213: molde.kommune.no INFO Begin testing zone consistency for molde.kommune.no.
+ 33.624: molde.kommune.no INFO SOA at address 2001:8c0:2001:0:0:0:3:53 has serial 2013071001.
+ 33.645: molde.kommune.no INFO SOA at address 193.75.75.1 has serial 2013071001.
+ 33.705: molde.kommune.no INFO SOA at address 148.122.208.226 has serial 2013071001.
+ 33.706: molde.kommune.no INFO All SOA records have consistent serial numbers.
+ 33.706: molde.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 34.026: molde.kommune.no NOTICE The listed nameservers for molde.kommune.no all report the same set of nameservers.
+ 34.027: molde.kommune.no INFO Done testing zone consistency for molde.kommune.no.
+ 34.027: molde.kommune.no INFO Begin testing SOA parameters for molde.kommune.no.
+ 34.053: molde.kommune.no INFO Found SOA record for molde.kommune.no.
+ 34.053: molde.kommune.no INFO Begin testing host dns1.eunet.no.
+ 34.053: molde.kommune.no INFO Begin testing address 193.75.75.1.
+ 34.055: molde.kommune.no INFO Done testing address 193.75.75.1.
+ 34.055: molde.kommune.no INFO Begin testing address 2001:8c0:2001:0:0:0:3:53.
+ 34.056: molde.kommune.no INFO Done testing address 2001:8c0:2001:0:0:0:3:53.
+ 34.076: molde.kommune.no INFO Done testing host dns1.eunet.no.
+ 34.076: molde.kommune.no INFO SOA MNAME for molde.kommune.no valid (dns1.eunet.no).
+ 34.077: molde.kommune.no INFO SOA MNAME for molde.kommune.no (dns1.eunet.no) listed as NS.
+ 34.097: molde.kommune.no INFO SOA MNAME for molde.kommune.no (dns1.eunet.no) is authoritative.
+ 34.136: molde.kommune.no INFO SOA MNAME for molde.kommune.no (dns1.eunet.no) is authoritative.
+ 34.136: molde.kommune.no INFO Begin testing email address hostmaster@ventelo.no.
+ 34.265: molde.kommune.no INFO Mail exchangers for hostmaster@ventelo.no found mailvask.infostorm.no.
+ 34.265: molde.kommune.no INFO Begin testing host mailvask.infostorm.no.
+ 37.717: molde.kommune.no INFO Begin testing address 217.18.206.27.
+ 38.397: molde.kommune.no INFO Done testing address 217.18.206.27.
+ 38.397: molde.kommune.no INFO Done testing host mailvask.infostorm.no.
+ 38.517: molde.kommune.no INFO Done testing email address hostmaster@ventelo.no.
+ 38.517: molde.kommune.no INFO Successful attempt to deliver email for SOA RNAME of molde.kommune.no (hostmaster.ventelo.no) using hostmaster@ventelo.no.
+ 38.517: molde.kommune.no INFO SOA TTL for molde.kommune.no OK (7200) - recommended >= 3600.
+ 38.517: molde.kommune.no INFO SOA refresh for molde.kommune.no OK (28800) - recommended >= 14400.
+ 38.517: molde.kommune.no INFO SOA retry for molde.kommune.no OK (3600) - recommended >= 3600.
+ 38.517: molde.kommune.no INFO SOA expire for molde.kommune.no OK (2592000) - recommended >= 604800.
+ 38.518: molde.kommune.no INFO SOA minimum for molde.kommune.no OK (600) - recommended between 300 and 86400.
+ 38.518: molde.kommune.no INFO Done testing SOA parameters for molde.kommune.no.
+ 38.518: molde.kommune.no INFO Begin testing connectivity for molde.kommune.no.
+ 39.502: molde.kommune.no INFO Zone announced by more than one ASN.
+ 40.018: molde.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 40.018: molde.kommune.no INFO Done testing connectivity for molde.kommune.no.
+ 40.018: molde.kommune.no INFO Begin testing DNSSEC for molde.kommune.no.
+ 40.101: molde.kommune.no INFO Did not find DS record for molde.kommune.no at parent.
+ 40.205: molde.kommune.no INFO Servers for molde.kommune.no have consistent extra processing status.
+ 40.230: molde.kommune.no INFO Authenticated denial records not found for molde.kommune.no.
+ 40.245: molde.kommune.no INFO Did not find DNSKEY record for molde.kommune.no at child.
+ 40.245: molde.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 40.245: molde.kommune.no INFO Done testing DNSSEC for molde.kommune.no.
+ 40.246: molde.kommune.no INFO Test completed for zone molde.kommune.no.

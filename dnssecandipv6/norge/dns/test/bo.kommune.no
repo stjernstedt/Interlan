@@ -1,0 +1,88 @@
+  0.000: bo.kommune.no INFO Begin testing zone bo.kommune.no with version 1.6.1.
+  0.431: bo.kommune.no INFO Begin testing delegation for bo.kommune.no.
+  7.821: bo.kommune.no INFO Name servers listed at parent: ns1.acos.no,ns2.acos.no,ns3.acos.no
+  9.636: bo.kommune.no INFO Name servers listed at child: ns1.acos.no,ns2.acos.no,ns3.acos.no
+  9.637: bo.kommune.no NOTICE No IPv6 name servers found.
+  9.794: bo.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.968: bo.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.096: bo.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.231: bo.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.357: bo.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.484: bo.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.206: bo.kommune.no INFO It is possible to build a referral packet for bo.kommune.no that works without EDNS0.
+ 11.780: bo.kommune.no INFO Previously used name servers for bo.kommune.no: 
+ 11.780: bo.kommune.no INFO Done testing delegation for bo.kommune.no.
+ 11.781: bo.kommune.no INFO Begin testing name server ns1.acos.no.
+ 11.781: bo.kommune.no INFO Begin testing host ns1.acos.no.
+ 11.977: bo.kommune.no INFO Begin testing address 82.134.18.193.
+ 25.092: bo.kommune.no INFO Done testing address 82.134.18.193.
+ 25.092: bo.kommune.no INFO Done testing host ns1.acos.no.
+ 25.265: bo.kommune.no INFO Name server ns1.acos.no (82.134.18.193) answers queries over UDP.
+ 25.315: bo.kommune.no INFO Name server ns1.acos.no (82.134.18.193) answers queries over TCP.
+ 25.381: bo.kommune.no INFO Name server ns1.acos.no (82.134.18.193) is not recursive.
+ 25.515: bo.kommune.no INFO Name server ns1.acos.no (82.134.18.193) authoritative for bo.kommune.no.
+ 25.592: bo.kommune.no INFO Name server ns1.acos.no (82.134.18.193) closed for zone transfer of bo.kommune.no.
+ 25.640: bo.kommune.no INFO Legacy name server ID for ns1.acos.no (82.134.18.193): hostname.bind = sentinel
+ 25.668: bo.kommune.no INFO Legacy name server ID for ns1.acos.no (82.134.18.193): version.bind = 9.3.4-P1.1
+ 25.718: bo.kommune.no NOTICE No answer received from 82.134.18.193 when querying for version.server/CH/TXT.
+ 25.718: bo.kommune.no INFO Done testing name server ns1.acos.no.
+ 25.718: bo.kommune.no INFO Begin testing name server ns2.acos.no.
+ 25.718: bo.kommune.no INFO Begin testing host ns2.acos.no.
+ 25.947: bo.kommune.no INFO Begin testing address 85.200.17.39.
+ 26.939: bo.kommune.no INFO Done testing address 85.200.17.39.
+ 26.939: bo.kommune.no INFO Done testing host ns2.acos.no.
+ 27.140: bo.kommune.no INFO Name server ns2.acos.no (85.200.17.39) answers queries over UDP.
+ 27.206: bo.kommune.no INFO Name server ns2.acos.no (85.200.17.39) answers queries over TCP.
+ 27.273: bo.kommune.no INFO Name server ns2.acos.no (85.200.17.39) is not recursive.
+ 27.504: bo.kommune.no INFO Name server ns2.acos.no (85.200.17.39) authoritative for bo.kommune.no.
+ 27.809: bo.kommune.no INFO Name server ns2.acos.no (85.200.17.39) closed for zone transfer of bo.kommune.no.
+ 27.848: bo.kommune.no NOTICE No answer received from 85.200.17.39 when querying for hostname.bind/CH/TXT.
+ 39.976: bo.kommune.no INFO Done testing name server ns2.acos.no.
+ 39.976: bo.kommune.no INFO Begin testing name server ns3.acos.no.
+ 39.976: bo.kommune.no INFO Begin testing host ns3.acos.no.
+ 39.977: bo.kommune.no ERROR No address found for ns3.acos.no.
+ 39.977: bo.kommune.no INFO Done testing host ns3.acos.no.
+ 39.977: bo.kommune.no ERROR Host name or address error for ns3.acos.no.
+ 39.977: bo.kommune.no INFO Done testing name server ns3.acos.no.
+ 39.977: bo.kommune.no INFO Begin testing zone consistency for bo.kommune.no.
+ 40.388: bo.kommune.no INFO SOA at address 85.200.17.39 has serial 2009062502.
+ 40.419: bo.kommune.no INFO SOA at address 82.134.18.193 has serial 2009062502.
+ 40.419: bo.kommune.no INFO All SOA records have consistent serial numbers.
+ 40.419: bo.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 40.864: bo.kommune.no NOTICE The listed nameservers for bo.kommune.no all report the same set of nameservers.
+ 40.864: bo.kommune.no INFO Done testing zone consistency for bo.kommune.no.
+ 40.864: bo.kommune.no INFO Begin testing SOA parameters for bo.kommune.no.
+ 40.898: bo.kommune.no INFO Found SOA record for bo.kommune.no.
+ 40.899: bo.kommune.no INFO Begin testing host ns1.acos.no.
+ 41.014: bo.kommune.no INFO Begin testing address 82.134.18.193.
+ 41.126: bo.kommune.no INFO Done testing address 82.134.18.193.
+ 41.126: bo.kommune.no INFO Done testing host ns1.acos.no.
+ 41.127: bo.kommune.no INFO SOA MNAME for bo.kommune.no valid (ns1.acos.no).
+ 41.127: bo.kommune.no INFO SOA MNAME for bo.kommune.no (ns1.acos.no) listed as NS.
+ 41.262: bo.kommune.no INFO SOA MNAME for bo.kommune.no (ns1.acos.no) is authoritative.
+ 41.263: bo.kommune.no INFO Begin testing email address hostmaster@acos.no.
+ 41.388: bo.kommune.no INFO Mail exchangers for hostmaster@acos.no found tux.acos.no.
+ 41.389: bo.kommune.no INFO Begin testing host tux.acos.no.
+ 41.584: bo.kommune.no INFO Begin testing address 82.134.18.193.
+ 41.682: bo.kommune.no INFO Done testing address 82.134.18.193.
+ 41.682: bo.kommune.no INFO Done testing host tux.acos.no.
+ 41.774: bo.kommune.no INFO Done testing email address hostmaster@acos.no.
+ 41.774: bo.kommune.no INFO Successful attempt to deliver email for SOA RNAME of bo.kommune.no (hostmaster.acos.no) using hostmaster@acos.no.
+ 41.774: bo.kommune.no INFO SOA TTL for bo.kommune.no OK (172800) - recommended >= 3600.
+ 41.775: bo.kommune.no INFO SOA refresh for bo.kommune.no OK (86400) - recommended >= 14400.
+ 41.775: bo.kommune.no INFO SOA retry for bo.kommune.no OK (7200) - recommended >= 3600.
+ 41.775: bo.kommune.no INFO SOA expire for bo.kommune.no OK (3600000) - recommended >= 604800.
+ 41.775: bo.kommune.no NOTICE SOA minimum for bo.kommune.no too large (172800) - recommended <= 86400.
+ 41.775: bo.kommune.no INFO Done testing SOA parameters for bo.kommune.no.
+ 41.775: bo.kommune.no INFO Begin testing connectivity for bo.kommune.no.
+ 42.586: bo.kommune.no NOTICE Zone announced by fewer than two IPv4 ASN.
+ 42.587: bo.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 42.587: bo.kommune.no INFO Done testing connectivity for bo.kommune.no.
+ 42.587: bo.kommune.no INFO Begin testing DNSSEC for bo.kommune.no.
+ 42.663: bo.kommune.no INFO Did not find DS record for bo.kommune.no at parent.
+ 42.776: bo.kommune.no INFO Servers for bo.kommune.no have consistent extra processing status.
+ 42.841: bo.kommune.no INFO Authenticated denial records not found for bo.kommune.no.
+ 42.876: bo.kommune.no INFO Did not find DNSKEY record for bo.kommune.no at child.
+ 42.876: bo.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 42.876: bo.kommune.no INFO Done testing DNSSEC for bo.kommune.no.
+ 42.877: bo.kommune.no INFO Test completed for zone bo.kommune.no.

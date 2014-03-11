@@ -1,0 +1,6 @@
+#!/bin/sh
+ipv6=`grep "No IPv6 name servers found." test/$1`
+if [ "$ipv6" != "" ] ; then
+	ipv6=`echo $ipv6|sed s/NOTICE/WARNING/g`
+	echo $ipv6 >>test/$1
+fi

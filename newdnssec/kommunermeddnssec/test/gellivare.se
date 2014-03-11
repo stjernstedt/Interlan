@@ -1,0 +1,179 @@
+  0.000: gellivare.se INFO Begin testing zone gellivare.se with version 1.6.1.
+  0.633: gellivare.se INFO Begin testing delegation for gellivare.se.
+ 22.608: gellivare.se INFO Name servers listed at parent: ns.cafax.se,ns1.frobbit.se,ns2.frobbit.se
+ 31.052: gellivare.se INFO Name servers listed at child: ns.cafax.se,ns1.frobbit.se,ns2.frobbit.se
+ 31.154: gellivare.se INFO Parent glue for gellivare.se found: ns.cafax.se (192.71.228.17)
+ 31.192: gellivare.se INFO Parent glue for gellivare.se found: ns.cafax.se (2a00:801:11:53:0:0:0:17)
+ 31.341: gellivare.se INFO Parent glue for gellivare.se found: ns1.frobbit.se (208.79.80.118)
+ 31.549: gellivare.se INFO Parent glue for gellivare.se found: ns2.frobbit.se (85.30.129.39)
+ 31.683: gellivare.se INFO Parent glue for gellivare.se found: ns2.frobbit.se (2a02:80:3ffe:0:0:0:0:39)
+ 31.684: gellivare.se INFO Checking glue for ns.cafax.se (192.71.228.17).
+ 31.684: gellivare.se INFO Checking glue for ns.cafax.se (2a00:801:11:53:0:0:0:17).
+ 31.684: gellivare.se INFO Checking glue for ns1.frobbit.se (208.79.80.118).
+ 31.684: gellivare.se INFO Checking glue for ns2.frobbit.se (85.30.129.39).
+ 31.684: gellivare.se INFO Checking glue for ns2.frobbit.se (2a02:80:3ffe:0:0:0:0:39).
+ 31.685: gellivare.se INFO Parent glue for gellivare.se found: ns.cafax.se (192.71.228.17)
+ 31.685: gellivare.se INFO Parent glue for gellivare.se found: ns.cafax.se (2a00:801:11:53:0:0:0:17)
+ 31.685: gellivare.se INFO Parent glue for gellivare.se found: ns1.frobbit.se (208.79.80.118)
+ 31.685: gellivare.se INFO Parent glue for gellivare.se found: ns2.frobbit.se (85.30.129.39)
+ 31.685: gellivare.se INFO Parent glue for gellivare.se found: ns2.frobbit.se (2a02:80:3ffe:0:0:0:0:39)
+ 34.321: gellivare.se INFO It is possible to build a referral packet for gellivare.se that works without EDNS0.
+ 35.303: gellivare.se INFO Previously used name servers for gellivare.se: 
+ 35.303: gellivare.se INFO Done testing delegation for gellivare.se.
+ 35.304: gellivare.se INFO Begin testing name server ns.cafax.se.
+ 35.304: gellivare.se INFO Begin testing host ns.cafax.se.
+ 35.304: gellivare.se INFO Begin testing address 192.71.228.17.
+ 80.851: gellivare.se INFO Done testing address 192.71.228.17.
+ 80.851: gellivare.se INFO Begin testing address 2a00:801:11:53:0:0:0:17.
+ 82.629: gellivare.se INFO Done testing address 2a00:801:11:53:0:0:0:17.
+ 82.629: gellivare.se INFO Done testing host ns.cafax.se.
+ 82.685: gellivare.se INFO Name server ns.cafax.se (192.71.228.17) answers queries over UDP.
+ 82.759: gellivare.se INFO Name server ns.cafax.se (192.71.228.17) answers queries over TCP.
+ 82.768: gellivare.se INFO Name server ns.cafax.se (192.71.228.17) is not recursive.
+ 82.849: gellivare.se INFO Name server ns.cafax.se (192.71.228.17) authoritative for gellivare.se.
+ 83.108: gellivare.se INFO Name server ns.cafax.se (192.71.228.17) closed for zone transfer of gellivare.se.
+ 83.135: gellivare.se INFO Legacy name server ID for ns.cafax.se (192.71.228.17): hostname.bind = ns.cafax.se
+ 83.155: gellivare.se INFO Legacy name server ID for ns.cafax.se (192.71.228.17): version.bind = 9.9.4-P2
+ 83.205: gellivare.se NOTICE No answer received from 192.71.228.17 when querying for version.server/CH/TXT.
+ 83.236: gellivare.se INFO Name server ns.cafax.se (2a00:801:11:53:0:0:0:17) answers queries over UDP.
+ 83.277: gellivare.se INFO Name server ns.cafax.se (2a00:801:11:53:0:0:0:17) answers queries over TCP.
+ 83.291: gellivare.se INFO Name server ns.cafax.se (2a00:801:11:53:0:0:0:17) is not recursive.
+ 83.398: gellivare.se INFO Name server ns.cafax.se (2a00:801:11:53:0:0:0:17) authoritative for gellivare.se.
+ 83.656: gellivare.se INFO Name server ns.cafax.se (2a00:801:11:53:0:0:0:17) closed for zone transfer of gellivare.se.
+ 83.695: gellivare.se INFO Legacy name server ID for ns.cafax.se (2a00:801:11:53:0:0:0:17): hostname.bind = ns.cafax.se
+ 83.729: gellivare.se INFO Legacy name server ID for ns.cafax.se (2a00:801:11:53:0:0:0:17): version.bind = 9.9.4-P2
+ 83.787: gellivare.se NOTICE No answer received from 2a00:801:11:53:0:0:0:17 when querying for version.server/CH/TXT.
+ 83.787: gellivare.se INFO Done testing name server ns.cafax.se.
+ 83.787: gellivare.se INFO Begin testing name server ns1.frobbit.se.
+ 83.787: gellivare.se INFO Begin testing host ns1.frobbit.se.
+ 84.082: gellivare.se INFO Begin testing address 208.79.80.118.
+ 85.907: gellivare.se INFO Done testing address 208.79.80.118.
+ 85.907: gellivare.se INFO Done testing host ns1.frobbit.se.
+ 86.730: gellivare.se INFO Name server ns1.frobbit.se (208.79.80.118) answers queries over UDP.
+ 87.007: gellivare.se INFO Name server ns1.frobbit.se (208.79.80.118) answers queries over TCP.
+ 87.138: gellivare.se INFO Name server ns1.frobbit.se (208.79.80.118) is not recursive.
+ 87.864: gellivare.se INFO Name server ns1.frobbit.se (208.79.80.118) authoritative for gellivare.se.
+ 88.678: gellivare.se INFO Name server ns1.frobbit.se (208.79.80.118) closed for zone transfer of gellivare.se.
+ 88.809: gellivare.se INFO Legacy name server ID for ns1.frobbit.se (208.79.80.118): hostname.bind = r.secondary2.com
+ 88.951: gellivare.se INFO Legacy name server ID for ns1.frobbit.se (208.79.80.118): version.bind = 9.8.4-P2
+ 89.238: gellivare.se NOTICE No answer received from 208.79.80.118 when querying for version.server/CH/TXT.
+ 89.239: gellivare.se INFO Done testing name server ns1.frobbit.se.
+ 89.239: gellivare.se INFO Begin testing name server ns2.frobbit.se.
+ 89.239: gellivare.se INFO Begin testing host ns2.frobbit.se.
+ 89.239: gellivare.se INFO Begin testing address 85.30.129.39.
+ 91.125: gellivare.se INFO Done testing address 85.30.129.39.
+ 91.126: gellivare.se INFO Begin testing address 2a02:80:3ffe:0:0:0:0:39.
+ 91.785: gellivare.se INFO Done testing address 2a02:80:3ffe:0:0:0:0:39.
+ 91.785: gellivare.se INFO Done testing host ns2.frobbit.se.
+ 91.840: gellivare.se INFO Name server ns2.frobbit.se (85.30.129.39) answers queries over UDP.
+ 91.880: gellivare.se INFO Name server ns2.frobbit.se (85.30.129.39) answers queries over TCP.
+ 91.897: gellivare.se INFO Name server ns2.frobbit.se (85.30.129.39) is not recursive.
+ 91.980: gellivare.se INFO Name server ns2.frobbit.se (85.30.129.39) authoritative for gellivare.se.
+ 92.021: gellivare.se INFO Name server ns2.frobbit.se (85.30.129.39) closed for zone transfer of gellivare.se.
+ 92.197: gellivare.se INFO Legacy name server ID for ns2.frobbit.se (85.30.129.39): hostname.bind = elna
+ 92.234: gellivare.se INFO Legacy name server ID for ns2.frobbit.se (85.30.129.39): version.bind = 9.9.2-vjs287.12
+ 92.439: gellivare.se NOTICE No answer received from 85.30.129.39 when querying for version.server/CH/TXT.
+ 92.519: gellivare.se INFO Name server ns2.frobbit.se (2a02:80:3ffe:0:0:0:0:39) answers queries over UDP.
+ 92.564: gellivare.se INFO Name server ns2.frobbit.se (2a02:80:3ffe:0:0:0:0:39) answers queries over TCP.
+ 92.590: gellivare.se INFO Name server ns2.frobbit.se (2a02:80:3ffe:0:0:0:0:39) is not recursive.
+ 93.255: gellivare.se INFO Name server ns2.frobbit.se (2a02:80:3ffe:0:0:0:0:39) authoritative for gellivare.se.
+ 93.327: gellivare.se INFO Name server ns2.frobbit.se (2a02:80:3ffe:0:0:0:0:39) closed for zone transfer of gellivare.se.
+ 93.428: gellivare.se INFO Legacy name server ID for ns2.frobbit.se (2a02:80:3ffe:0:0:0:0:39): hostname.bind = elna
+ 93.774: gellivare.se INFO Legacy name server ID for ns2.frobbit.se (2a02:80:3ffe:0:0:0:0:39): version.bind = 9.9.2-vjs287.12
+ 94.958: gellivare.se NOTICE No answer received from 2a02:80:3ffe:0:0:0:0:39 when querying for version.server/CH/TXT.
+ 94.959: gellivare.se INFO Done testing name server ns2.frobbit.se.
+ 94.959: gellivare.se INFO Begin testing zone consistency for gellivare.se.
+ 96.696: gellivare.se INFO SOA at address 85.30.129.39 has serial 2014030500.
+ 96.883: gellivare.se INFO SOA at address 192.71.228.17 has serial 2014030500.
+ 97.200: gellivare.se INFO SOA at address 208.79.80.118 has serial 2014030500.
+ 98.671: gellivare.se INFO SOA at address 2a00:801:11:53:0:0:0:17 has serial 2014030500.
+ 98.705: gellivare.se INFO SOA at address 2a02:80:3ffe:0:0:0:0:39 has serial 2014030500.
+ 98.706: gellivare.se INFO All SOA records have consistent serial numbers.
+ 98.706: gellivare.se INFO All other fields in the SOA record are consistent among all name servers.
+ 99.426: gellivare.se NOTICE The listed nameservers for gellivare.se all report the same set of nameservers.
+ 99.426: gellivare.se INFO Done testing zone consistency for gellivare.se.
+ 99.438: gellivare.se INFO Begin testing SOA parameters for gellivare.se.
+ 99.467: gellivare.se INFO Found SOA record for gellivare.se.
+ 99.467: gellivare.se INFO Begin testing host ns1.frobbit.se.
+ 99.693: gellivare.se INFO Begin testing address 208.79.80.118.
+101.344: gellivare.se INFO Done testing address 208.79.80.118.
+101.344: gellivare.se INFO Done testing host ns1.frobbit.se.
+101.344: gellivare.se INFO SOA MNAME for gellivare.se valid (ns1.frobbit.se).
+101.344: gellivare.se INFO SOA MNAME for gellivare.se (ns1.frobbit.se) listed as NS.
+102.317: gellivare.se INFO SOA MNAME for gellivare.se (ns1.frobbit.se) is authoritative.
+102.317: gellivare.se INFO Begin testing email address admin-dns@frobbit.se.
+102.649: gellivare.se INFO Mail exchangers for admin-dns@frobbit.se found mail.frobbit.se,mailv4.frobbit.se.
+102.649: gellivare.se INFO Begin testing host mail.frobbit.se.
+103.613: gellivare.se INFO Begin testing address 85.30.129.176.
+104.703: gellivare.se INFO Done testing address 85.30.129.176.
+104.704: gellivare.se INFO Begin testing address 85.30.129.185.
+105.118: gellivare.se INFO Done testing address 85.30.129.185.
+105.118: gellivare.se INFO Begin testing address 2a02:80:3ffe:0:0:0:0:176.
+105.596: gellivare.se INFO Done testing address 2a02:80:3ffe:0:0:0:0:176.
+105.596: gellivare.se INFO Done testing host mail.frobbit.se.
+105.596: gellivare.se INFO Begin testing host mailv4.frobbit.se.
+107.014: gellivare.se INFO Begin testing address 85.30.129.176.
+107.015: gellivare.se INFO Done testing address 85.30.129.176.
+107.015: gellivare.se INFO Done testing host mailv4.frobbit.se.
+107.307: gellivare.se INFO Done testing email address admin-dns@frobbit.se.
+107.307: gellivare.se INFO Successful attempt to deliver email for SOA RNAME of gellivare.se (admin-dns.frobbit.se) using admin-dns@frobbit.se.
+107.307: gellivare.se NOTICE SOA TTL for gellivare.se too small (900) - recommended >= 3600.
+107.307: gellivare.se INFO SOA refresh for gellivare.se OK (36000) - recommended >= 14400.
+107.307: gellivare.se INFO SOA retry for gellivare.se OK (3600) - recommended >= 3600.
+107.307: gellivare.se INFO SOA expire for gellivare.se OK (604800) - recommended >= 604800.
+107.307: gellivare.se INFO SOA minimum for gellivare.se OK (900) - recommended between 300 and 86400.
+107.307: gellivare.se INFO Done testing SOA parameters for gellivare.se.
+107.308: gellivare.se INFO Begin testing connectivity for gellivare.se.
+109.771: gellivare.se INFO Zone announced by more than one ASN.
+111.423: gellivare.se INFO Zone announced by more than one IPv6 ASN.
+111.423: gellivare.se INFO Done testing connectivity for gellivare.se.
+111.424: gellivare.se INFO Begin testing DNSSEC for gellivare.se.
+111.531: gellivare.se INFO Found DS record for gellivare.se at parent.
+111.593: gellivare.se INFO Nameserver 85.30.129.39 does DNSSEC extra processing.
+111.631: gellivare.se INFO Nameserver 192.71.228.17 does DNSSEC extra processing.
+111.904: gellivare.se INFO Nameserver 208.79.80.118 does DNSSEC extra processing.
+112.029: gellivare.se INFO Nameserver 2a00:801:11:53:0:0:0:17 does DNSSEC extra processing.
+112.110: gellivare.se INFO Nameserver 2a02:80:3ffe:0:0:0:0:39 does DNSSEC extra processing.
+112.110: gellivare.se INFO Servers for gellivare.se have consistent extra processing status.
+112.175: gellivare.se INFO Authenticated denial records found for gellivare.se, of type NSEC.
+112.207: gellivare.se INFO Found DNSKEY record for gellivare.se at child.
+112.207: gellivare.se INFO Consistent security for gellivare.se.
+112.207: gellivare.se INFO Checking DNSSEC at child (gellivare.se).
+112.207: gellivare.se INFO gellivare.se's key with tag 38490 uses algorithm number 5 (RSA/SHA-1).
+112.207: gellivare.se INFO Algorithm number 5 is OK.
+112.207: gellivare.se INFO gellivare.se's key with tag 62614 uses algorithm number 5 (RSA/SHA-1).
+112.208: gellivare.se INFO Algorithm number 5 is OK.
+112.208: gellivare.se INFO DNSKEY gellivare.se (tag 62614) is marked as a secure entry point (SEP).
+112.208: gellivare.se INFO gellivare.se's key with tag 46650 uses algorithm number 5 (RSA/SHA-1).
+112.208: gellivare.se INFO Algorithm number 5 is OK.
+112.208: gellivare.se INFO DNSSEC signature expires at: Tue Mar 18 22:09:16 2014
+112.208: gellivare.se INFO Duration for RRSIG(gellivare.se/IN/DNSKEY/38490) is OK (1209600 seconds).
+112.245: gellivare.se INFO DNSSEC signature RRSIG(gellivare.se/IN/DNSKEY/38490) matches records.
+112.245: gellivare.se INFO DNSSEC signature valid: RRSIG(gellivare.se/IN/DNSKEY/38490)
+112.245: gellivare.se INFO DNSSEC signature expires at: Tue Mar 18 22:09:16 2014
+112.245: gellivare.se INFO Duration for RRSIG(gellivare.se/IN/DNSKEY/46650) is OK (1209600 seconds).
+112.264: gellivare.se INFO DNSSEC signature RRSIG(gellivare.se/IN/DNSKEY/46650) matches records.
+112.264: gellivare.se INFO DNSSEC signature valid: RRSIG(gellivare.se/IN/DNSKEY/46650)
+112.264: gellivare.se INFO DNSSEC signature expires at: Tue Mar 18 22:09:16 2014
+112.264: gellivare.se INFO Duration for RRSIG(gellivare.se/IN/DNSKEY/62614) is OK (1209600 seconds).
+112.265: gellivare.se INFO DNSSEC signature RRSIG(gellivare.se/IN/DNSKEY/62614) matches records.
+112.265: gellivare.se INFO DNSSEC signature valid: RRSIG(gellivare.se/IN/DNSKEY/62614)
+112.265: gellivare.se INFO Enough valid signatures found for gellivare.se.
+112.406: gellivare.se INFO DNSSEC signature expires at: Tue Mar 18 22:09:16 2014
+112.406: gellivare.se INFO Duration for RRSIG(gellivare.se/IN/SOA/38490) is OK (1209600 seconds).
+112.407: gellivare.se INFO DNSSEC signature RRSIG(gellivare.se/IN/SOA/38490) matches records.
+112.407: gellivare.se INFO DNSSEC signature valid: RRSIG(gellivare.se/IN/SOA/38490)
+112.407: gellivare.se INFO DNSSEC signature expires at: Tue Mar 18 22:09:16 2014
+112.407: gellivare.se INFO Duration for RRSIG(gellivare.se/IN/SOA/46650) is OK (1209600 seconds).
+112.408: gellivare.se INFO DNSSEC signature RRSIG(gellivare.se/IN/SOA/46650) matches records.
+112.408: gellivare.se INFO DNSSEC signature valid: RRSIG(gellivare.se/IN/SOA/46650)
+112.408: gellivare.se INFO Enough valid signatures over SOA RRset found for gellivare.se.
+112.408: gellivare.se INFO DNSSEC child checks for gellivare.se complete.
+112.408: gellivare.se INFO Checking DNSSEC at parent of gellivare.se.
+112.409: gellivare.se INFO gellivare.se's key with tag 62614 uses algorithm number 5 (RSA/SHA-1).
+112.409: gellivare.se INFO Algorithm number 5 is OK.
+112.409: gellivare.se INFO Parent DS(gellivare.se/5/1/62614) refers to valid key at child: DNSKEY(gellivare.se/5/62614)
+112.409: gellivare.se INFO Parent DS(gellivare.se) refers to secure entry point (SEP) at child: DS(gellivare.se/5/1/62614)
+112.409: gellivare.se INFO DNSSEC parent checks for gellivare.se complete.
+112.409: gellivare.se INFO Done testing DNSSEC for gellivare.se.
+112.410: gellivare.se INFO Test completed for zone gellivare.se.

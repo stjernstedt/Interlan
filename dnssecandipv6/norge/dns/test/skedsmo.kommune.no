@@ -1,0 +1,86 @@
+  0.000: skedsmo.kommune.no INFO Begin testing zone skedsmo.kommune.no with version 1.6.1.
+  0.478: skedsmo.kommune.no INFO Begin testing delegation for skedsmo.kommune.no.
+  9.600: skedsmo.kommune.no INFO Name servers listed at parent: dns1.skedsmoskolen.no,dns2.skedsmoskolen.no
+ 10.901: skedsmo.kommune.no INFO Name servers listed at child: dns1.skedsmoskolen.no,dns2.skedsmoskolen.no
+ 10.901: skedsmo.kommune.no NOTICE No IPv6 name servers found.
+ 11.075: skedsmo.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.235: skedsmo.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.374: skedsmo.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.527: skedsmo.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.980: skedsmo.kommune.no INFO It is possible to build a referral packet for skedsmo.kommune.no that works without EDNS0.
+ 11.981: skedsmo.kommune.no INFO Previously used name servers for skedsmo.kommune.no: 
+ 11.981: skedsmo.kommune.no INFO Done testing delegation for skedsmo.kommune.no.
+ 11.982: skedsmo.kommune.no INFO Begin testing name server dns1.skedsmoskolen.no.
+ 11.982: skedsmo.kommune.no INFO Begin testing host dns1.skedsmoskolen.no.
+ 12.047: skedsmo.kommune.no INFO Begin testing address 217.8.147.29.
+ 19.173: skedsmo.kommune.no INFO Done testing address 217.8.147.29.
+ 19.173: skedsmo.kommune.no INFO Done testing host dns1.skedsmoskolen.no.
+ 19.240: skedsmo.kommune.no INFO Name server dns1.skedsmoskolen.no (217.8.147.29) answers queries over UDP.
+ 19.383: skedsmo.kommune.no INFO Name server dns1.skedsmoskolen.no (217.8.147.29) answers queries over TCP.
+ 22.884: skedsmo.kommune.no INFO Name server dns1.skedsmoskolen.no (217.8.147.29) is not recursive.
+ 23.190: skedsmo.kommune.no INFO Name server dns1.skedsmoskolen.no (217.8.147.29) authoritative for skedsmo.kommune.no.
+ 23.503: skedsmo.kommune.no INFO Name server dns1.skedsmoskolen.no (217.8.147.29) closed for zone transfer of skedsmo.kommune.no.
+ 23.552: skedsmo.kommune.no NOTICE No answer received from 217.8.147.29 when querying for hostname.bind/CH/TXT.
+ 35.783: skedsmo.kommune.no INFO Done testing name server dns1.skedsmoskolen.no.
+ 35.785: skedsmo.kommune.no INFO Begin testing name server dns2.skedsmoskolen.no.
+ 35.786: skedsmo.kommune.no INFO Begin testing host dns2.skedsmoskolen.no.
+ 35.786: skedsmo.kommune.no INFO Begin testing address 217.8.147.30.
+ 36.567: skedsmo.kommune.no INFO Done testing address 217.8.147.30.
+ 36.567: skedsmo.kommune.no INFO Done testing host dns2.skedsmoskolen.no.
+ 36.582: skedsmo.kommune.no INFO Name server dns2.skedsmoskolen.no (217.8.147.30) answers queries over UDP.
+ 36.617: skedsmo.kommune.no INFO Name server dns2.skedsmoskolen.no (217.8.147.30) answers queries over TCP.
+ 36.761: skedsmo.kommune.no INFO Name server dns2.skedsmoskolen.no (217.8.147.30) is not recursive.
+ 36.827: skedsmo.kommune.no INFO Name server dns2.skedsmoskolen.no (217.8.147.30) authoritative for skedsmo.kommune.no.
+ 37.055: skedsmo.kommune.no INFO Name server dns2.skedsmoskolen.no (217.8.147.30) closed for zone transfer of skedsmo.kommune.no.
+ 37.069: skedsmo.kommune.no NOTICE No answer received from 217.8.147.30 when querying for hostname.bind/CH/TXT.
+ 49.175: skedsmo.kommune.no INFO Done testing name server dns2.skedsmoskolen.no.
+ 49.175: skedsmo.kommune.no INFO Begin testing zone consistency for skedsmo.kommune.no.
+ 49.193: skedsmo.kommune.no INFO SOA at address 217.8.147.30 has serial 136.
+ 49.206: skedsmo.kommune.no INFO SOA at address 217.8.147.29 has serial 136.
+ 49.207: skedsmo.kommune.no INFO All SOA records have consistent serial numbers.
+ 49.207: skedsmo.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 49.240: skedsmo.kommune.no NOTICE The listed nameservers for skedsmo.kommune.no all report the same set of nameservers.
+ 49.240: skedsmo.kommune.no INFO Done testing zone consistency for skedsmo.kommune.no.
+ 49.240: skedsmo.kommune.no INFO Begin testing SOA parameters for skedsmo.kommune.no.
+ 49.254: skedsmo.kommune.no INFO Found SOA record for skedsmo.kommune.no.
+ 49.254: skedsmo.kommune.no INFO Begin testing host dns1.skedsmoskolen.no.
+ 49.255: skedsmo.kommune.no INFO Begin testing address 217.8.147.29.
+ 49.337: skedsmo.kommune.no INFO Done testing address 217.8.147.29.
+ 49.337: skedsmo.kommune.no INFO Done testing host dns1.skedsmoskolen.no.
+ 49.337: skedsmo.kommune.no INFO SOA MNAME for skedsmo.kommune.no valid (dns1.skedsmoskolen.no).
+ 49.337: skedsmo.kommune.no INFO SOA MNAME for skedsmo.kommune.no (dns1.skedsmoskolen.no) listed as NS.
+ 49.351: skedsmo.kommune.no INFO SOA MNAME for skedsmo.kommune.no (dns1.skedsmoskolen.no) is authoritative.
+ 49.352: skedsmo.kommune.no INFO Begin testing email address hostmaster@skedsmo.kommune.no.
+ 49.519: skedsmo.kommune.no INFO Mail exchangers for hostmaster@skedsmo.kommune.no found gw5-sec.net.comendo.com,gw1-sec.net.comendo.com,gw2-sec.net.comendo.com.
+ 49.520: skedsmo.kommune.no INFO Begin testing host gw5-sec.net.comendo.com.
+ 50.210: skedsmo.kommune.no INFO Begin testing address 195.204.58.205.
+ 50.681: skedsmo.kommune.no INFO Done testing address 195.204.58.205.
+ 50.681: skedsmo.kommune.no INFO Done testing host gw5-sec.net.comendo.com.
+ 50.918: skedsmo.kommune.no INFO Begin testing host gw1-sec.net.comendo.com.
+ 51.141: skedsmo.kommune.no INFO Begin testing address 89.104.217.11.
+ 51.733: skedsmo.kommune.no INFO Done testing address 89.104.217.11.
+ 51.734: skedsmo.kommune.no INFO Done testing host gw1-sec.net.comendo.com.
+ 51.851: skedsmo.kommune.no INFO Begin testing host gw2-sec.net.comendo.com.
+ 52.228: skedsmo.kommune.no INFO Begin testing address 89.104.216.12.
+ 52.888: skedsmo.kommune.no INFO Done testing address 89.104.216.12.
+ 52.888: skedsmo.kommune.no INFO Done testing host gw2-sec.net.comendo.com.
+ 53.009: skedsmo.kommune.no INFO Done testing email address hostmaster@skedsmo.kommune.no.
+ 53.009: skedsmo.kommune.no INFO Successful attempt to deliver email for SOA RNAME of skedsmo.kommune.no (hostmaster.skedsmo.kommune.no) using hostmaster@skedsmo.kommune.no.
+ 53.009: skedsmo.kommune.no INFO SOA TTL for skedsmo.kommune.no OK (3600) - recommended >= 3600.
+ 53.009: skedsmo.kommune.no NOTICE SOA refresh for skedsmo.kommune.no too small (900) - recommended >= 14400.
+ 53.009: skedsmo.kommune.no NOTICE SOA retry for skedsmo.kommune.no too small (600) - recommended >= 3600.
+ 53.009: skedsmo.kommune.no NOTICE SOA expire for skedsmo.kommune.no too small (86400) - recommended >= 604800.
+ 53.010: skedsmo.kommune.no INFO SOA minimum for skedsmo.kommune.no OK (3600) - recommended between 300 and 86400.
+ 53.010: skedsmo.kommune.no INFO Done testing SOA parameters for skedsmo.kommune.no.
+ 53.010: skedsmo.kommune.no INFO Begin testing connectivity for skedsmo.kommune.no.
+ 54.027: skedsmo.kommune.no NOTICE Zone announced by fewer than two IPv4 ASN.
+ 54.027: skedsmo.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 54.027: skedsmo.kommune.no INFO Done testing connectivity for skedsmo.kommune.no.
+ 54.027: skedsmo.kommune.no INFO Begin testing DNSSEC for skedsmo.kommune.no.
+ 54.132: skedsmo.kommune.no INFO Did not find DS record for skedsmo.kommune.no at parent.
+ 54.184: skedsmo.kommune.no INFO Servers for skedsmo.kommune.no have consistent extra processing status.
+ 54.209: skedsmo.kommune.no INFO Authenticated denial records not found for skedsmo.kommune.no.
+ 54.224: skedsmo.kommune.no INFO Did not find DNSKEY record for skedsmo.kommune.no at child.
+ 54.224: skedsmo.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 54.224: skedsmo.kommune.no INFO Done testing DNSSEC for skedsmo.kommune.no.
+ 54.225: skedsmo.kommune.no INFO Test completed for zone skedsmo.kommune.no.

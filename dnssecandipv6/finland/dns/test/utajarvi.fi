@@ -1,0 +1,84 @@
+  0.000: utajarvi.fi INFO Begin testing zone utajarvi.fi with version 1.6.1.
+  0.406: utajarvi.fi INFO Begin testing delegation for utajarvi.fi.
+ 10.989: utajarvi.fi INFO Name servers listed at parent: ns1.galaxo.fi,ns2.galaxo.fi
+ 12.569: utajarvi.fi INFO Name servers listed at child: ns1.galaxo.fi,ns2.galaxo.fi
+ 12.569: utajarvi.fi NOTICE No IPv6 name servers found.
+ 12.628: utajarvi.fi INFO Parent glue for utajarvi.fi found: ns1.galaxo.fi (62.236.72.9)
+ 12.832: utajarvi.fi INFO Parent glue for utajarvi.fi found: ns2.galaxo.fi (84.20.133.170)
+ 13.025: utajarvi.fi INFO Checking glue for ns1.galaxo.fi (62.236.72.9).
+ 13.025: utajarvi.fi INFO Checking glue for ns2.galaxo.fi (84.20.133.170).
+ 13.026: utajarvi.fi INFO Parent glue for utajarvi.fi found: ns1.galaxo.fi (62.236.72.9)
+ 13.026: utajarvi.fi INFO Parent glue for utajarvi.fi found: ns2.galaxo.fi (84.20.133.170)
+ 14.069: utajarvi.fi INFO It is possible to build a referral packet for utajarvi.fi that works without EDNS0.
+ 14.759: utajarvi.fi INFO Previously used name servers for utajarvi.fi: 
+ 14.759: utajarvi.fi INFO Done testing delegation for utajarvi.fi.
+ 14.759: utajarvi.fi INFO Begin testing name server ns1.galaxo.fi.
+ 14.760: utajarvi.fi INFO Begin testing host ns1.galaxo.fi.
+ 15.119: utajarvi.fi INFO Begin testing address 62.236.72.9.
+ 25.079: utajarvi.fi INFO Done testing address 62.236.72.9.
+ 25.079: utajarvi.fi INFO Done testing host ns1.galaxo.fi.
+ 25.393: utajarvi.fi INFO Name server ns1.galaxo.fi (62.236.72.9) answers queries over UDP.
+ 25.457: utajarvi.fi INFO Name server ns1.galaxo.fi (62.236.72.9) answers queries over TCP.
+ 25.573: utajarvi.fi INFO Name server ns1.galaxo.fi (62.236.72.9) is not recursive.
+ 25.719: utajarvi.fi INFO Name server ns1.galaxo.fi (62.236.72.9) authoritative for utajarvi.fi.
+ 25.959: utajarvi.fi INFO Name server ns1.galaxo.fi (62.236.72.9) closed for zone transfer of utajarvi.fi.
+ 25.994: utajarvi.fi NOTICE No answer received from 62.236.72.9 when querying for hostname.bind/CH/TXT.
+ 38.093: utajarvi.fi INFO Done testing name server ns1.galaxo.fi.
+ 38.093: utajarvi.fi INFO Begin testing name server ns2.galaxo.fi.
+ 38.093: utajarvi.fi INFO Begin testing host ns2.galaxo.fi.
+ 38.274: utajarvi.fi INFO Begin testing address 84.20.133.170.
+ 39.629: utajarvi.fi INFO Done testing address 84.20.133.170.
+ 39.630: utajarvi.fi INFO Done testing host ns2.galaxo.fi.
+ 39.745: utajarvi.fi INFO Name server ns2.galaxo.fi (84.20.133.170) answers queries over UDP.
+ 39.773: utajarvi.fi INFO Name server ns2.galaxo.fi (84.20.133.170) answers queries over TCP.
+ 39.831: utajarvi.fi INFO Name server ns2.galaxo.fi (84.20.133.170) is not recursive.
+ 39.913: utajarvi.fi INFO Name server ns2.galaxo.fi (84.20.133.170) authoritative for utajarvi.fi.
+ 40.067: utajarvi.fi INFO Name server ns2.galaxo.fi (84.20.133.170) closed for zone transfer of utajarvi.fi.
+ 40.083: utajarvi.fi NOTICE No answer received from 84.20.133.170 when querying for hostname.bind/CH/TXT.
+ 52.159: utajarvi.fi INFO Done testing name server ns2.galaxo.fi.
+ 52.159: utajarvi.fi INFO Begin testing zone consistency for utajarvi.fi.
+ 52.567: utajarvi.fi INFO SOA at address 84.20.133.170 has serial 2011092324.
+ 52.580: utajarvi.fi INFO SOA at address 62.236.72.9 has serial 2011092324.
+ 52.581: utajarvi.fi INFO All SOA records have consistent serial numbers.
+ 52.581: utajarvi.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 52.800: utajarvi.fi NOTICE The listed nameservers for utajarvi.fi all report the same set of nameservers.
+ 52.800: utajarvi.fi INFO Done testing zone consistency for utajarvi.fi.
+ 52.800: utajarvi.fi INFO Begin testing SOA parameters for utajarvi.fi.
+ 52.815: utajarvi.fi INFO Found SOA record for utajarvi.fi.
+ 52.815: utajarvi.fi INFO Begin testing host ns1.galaxo.fi.
+ 52.892: utajarvi.fi INFO Begin testing address 62.236.72.9.
+ 52.973: utajarvi.fi INFO Done testing address 62.236.72.9.
+ 52.973: utajarvi.fi INFO Done testing host ns1.galaxo.fi.
+ 52.973: utajarvi.fi INFO SOA MNAME for utajarvi.fi valid (ns1.galaxo.fi).
+ 52.974: utajarvi.fi INFO SOA MNAME for utajarvi.fi (ns1.galaxo.fi) listed as NS.
+ 53.064: utajarvi.fi INFO SOA MNAME for utajarvi.fi (ns1.galaxo.fi) is authoritative.
+ 53.065: utajarvi.fi INFO Begin testing email address hostmaster@galaxo.fi.
+ 53.148: utajarvi.fi INFO Mail exchangers for hostmaster@galaxo.fi found mx.galaxo.fi,mx2.galaxo.fi.
+ 53.148: utajarvi.fi INFO Begin testing host mx.galaxo.fi.
+ 53.359: utajarvi.fi INFO Begin testing address 62.236.136.76.
+ 53.985: utajarvi.fi INFO Done testing address 62.236.136.76.
+ 53.985: utajarvi.fi INFO Done testing host mx.galaxo.fi.
+ 54.067: utajarvi.fi INFO Begin testing host mx2.galaxo.fi.
+ 54.227: utajarvi.fi INFO Begin testing address 62.236.136.77.
+ 54.566: utajarvi.fi INFO Done testing address 62.236.136.77.
+ 54.566: utajarvi.fi INFO Done testing host mx2.galaxo.fi.
+ 54.642: utajarvi.fi INFO Done testing email address hostmaster@galaxo.fi.
+ 54.642: utajarvi.fi INFO Successful attempt to deliver email for SOA RNAME of utajarvi.fi (hostmaster.galaxo.fi) using hostmaster@galaxo.fi.
+ 54.642: utajarvi.fi INFO SOA TTL for utajarvi.fi OK (3600) - recommended >= 3600.
+ 54.643: utajarvi.fi NOTICE SOA refresh for utajarvi.fi too small (900) - recommended >= 14400.
+ 54.643: utajarvi.fi NOTICE SOA retry for utajarvi.fi too small (600) - recommended >= 3600.
+ 54.643: utajarvi.fi NOTICE SOA expire for utajarvi.fi too small (86400) - recommended >= 604800.
+ 54.643: utajarvi.fi INFO SOA minimum for utajarvi.fi OK (3600) - recommended between 300 and 86400.
+ 54.643: utajarvi.fi INFO Done testing SOA parameters for utajarvi.fi.
+ 54.643: utajarvi.fi INFO Begin testing connectivity for utajarvi.fi.
+ 55.882: utajarvi.fi INFO Zone announced by more than one ASN.
+ 55.882: utajarvi.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 55.882: utajarvi.fi INFO Done testing connectivity for utajarvi.fi.
+ 55.882: utajarvi.fi INFO Begin testing DNSSEC for utajarvi.fi.
+ 55.956: utajarvi.fi INFO Did not find DS record for utajarvi.fi at parent.
+ 56.007: utajarvi.fi INFO Servers for utajarvi.fi have consistent extra processing status.
+ 56.033: utajarvi.fi INFO Authenticated denial records not found for utajarvi.fi.
+ 56.048: utajarvi.fi INFO Did not find DNSKEY record for utajarvi.fi at child.
+ 56.048: utajarvi.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 56.048: utajarvi.fi INFO Done testing DNSSEC for utajarvi.fi.
+ 56.048: utajarvi.fi INFO Test completed for zone utajarvi.fi.

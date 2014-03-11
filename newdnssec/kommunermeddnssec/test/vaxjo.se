@@ -1,0 +1,143 @@
+  0.000: vaxjo.se INFO Begin testing zone vaxjo.se with version 1.6.1.
+  2.662: vaxjo.se INFO Begin testing delegation for vaxjo.se.
+ 23.466: vaxjo.se INFO Name servers listed at parent: ns.vaxjo.se,ns2.vaxjo.se
+ 26.878: vaxjo.se INFO Name servers listed at child: ns.vaxjo.se,ns2.vaxjo.se
+ 26.878: vaxjo.se NOTICE No IPv6 name servers found.
+ 27.569: vaxjo.se INFO Parent glue for vaxjo.se found: ns.vaxjo.se (195.84.40.4)
+ 28.387: vaxjo.se INFO Parent glue for vaxjo.se found: ns2.vaxjo.se (217.74.80.26)
+ 28.603: vaxjo.se INFO Checking glue for ns.vaxjo.se (195.84.40.4).
+ 28.748: vaxjo.se INFO Child glue for vaxjo.se found: ns.vaxjo.se (195.84.40.4)
+ 28.748: vaxjo.se INFO Checking glue for ns2.vaxjo.se (217.74.80.26).
+ 28.842: vaxjo.se INFO Child glue for vaxjo.se found: ns2.vaxjo.se (217.74.80.26)
+ 28.843: vaxjo.se INFO Parent glue for vaxjo.se found: ns.vaxjo.se (195.84.40.4)
+ 28.843: vaxjo.se INFO Parent glue for vaxjo.se found: ns2.vaxjo.se (217.74.80.26)
+ 29.572: vaxjo.se INFO It is possible to build a referral packet for vaxjo.se that works without EDNS0.
+ 30.749: vaxjo.se INFO Previously used name servers for vaxjo.se: 
+ 30.749: vaxjo.se INFO Done testing delegation for vaxjo.se.
+ 30.750: vaxjo.se INFO Begin testing name server ns.vaxjo.se.
+ 30.750: vaxjo.se INFO Begin testing host ns.vaxjo.se.
+ 31.165: vaxjo.se INFO Begin testing address 195.84.40.4.
+ 47.889: vaxjo.se INFO Done testing address 195.84.40.4.
+ 47.889: vaxjo.se INFO Done testing host ns.vaxjo.se.
+ 48.265: vaxjo.se INFO Name server ns.vaxjo.se (195.84.40.4) answers queries over UDP.
+ 48.344: vaxjo.se INFO Name server ns.vaxjo.se (195.84.40.4) answers queries over TCP.
+ 48.416: vaxjo.se INFO Name server ns.vaxjo.se (195.84.40.4) is not recursive.
+ 48.632: vaxjo.se INFO Name server ns.vaxjo.se (195.84.40.4) authoritative for vaxjo.se.
+ 48.789: vaxjo.se INFO Name server ns.vaxjo.se (195.84.40.4) closed for zone transfer of vaxjo.se.
+ 48.830: vaxjo.se NOTICE No answer received from 195.84.40.4 when querying for hostname.bind/CH/TXT.
+ 60.885: vaxjo.se INFO Done testing name server ns.vaxjo.se.
+ 60.885: vaxjo.se INFO Begin testing name server ns2.vaxjo.se.
+ 60.885: vaxjo.se INFO Begin testing host ns2.vaxjo.se.
+ 61.295: vaxjo.se INFO Begin testing address 217.74.80.26.
+ 64.141: vaxjo.se INFO Done testing address 217.74.80.26.
+ 64.141: vaxjo.se INFO Done testing host ns2.vaxjo.se.
+ 64.350: vaxjo.se INFO Name server ns2.vaxjo.se (217.74.80.26) answers queries over UDP.
+ 64.394: vaxjo.se INFO Name server ns2.vaxjo.se (217.74.80.26) answers queries over TCP.
+ 64.444: vaxjo.se INFO Name server ns2.vaxjo.se (217.74.80.26) is not recursive.
+ 64.546: vaxjo.se INFO Name server ns2.vaxjo.se (217.74.80.26) authoritative for vaxjo.se.
+ 64.682: vaxjo.se INFO Name server ns2.vaxjo.se (217.74.80.26) closed for zone transfer of vaxjo.se.
+ 64.747: vaxjo.se NOTICE No answer received from 217.74.80.26 when querying for hostname.bind/CH/TXT.
+ 76.973: vaxjo.se INFO Done testing name server ns2.vaxjo.se.
+ 76.974: vaxjo.se INFO Begin testing zone consistency for vaxjo.se.
+ 77.528: vaxjo.se INFO SOA at address 195.84.40.4 has serial 2014020707.
+ 77.552: vaxjo.se INFO SOA at address 217.74.80.26 has serial 2014020707.
+ 77.552: vaxjo.se INFO All SOA records have consistent serial numbers.
+ 77.552: vaxjo.se INFO All other fields in the SOA record are consistent among all name servers.
+ 77.855: vaxjo.se NOTICE The listed nameservers for vaxjo.se all report the same set of nameservers.
+ 77.855: vaxjo.se INFO Done testing zone consistency for vaxjo.se.
+ 77.855: vaxjo.se INFO Begin testing SOA parameters for vaxjo.se.
+ 77.878: vaxjo.se INFO Found SOA record for vaxjo.se.
+ 77.878: vaxjo.se INFO Begin testing host ns.vaxjo.se.
+ 77.996: vaxjo.se INFO Begin testing address 195.84.40.4.
+ 78.105: vaxjo.se INFO Done testing address 195.84.40.4.
+ 78.105: vaxjo.se INFO Done testing host ns.vaxjo.se.
+ 78.105: vaxjo.se INFO SOA MNAME for vaxjo.se valid (ns.vaxjo.se).
+ 78.105: vaxjo.se INFO SOA MNAME for vaxjo.se (ns.vaxjo.se) listed as NS.
+ 78.250: vaxjo.se INFO SOA MNAME for vaxjo.se (ns.vaxjo.se) is authoritative.
+ 78.250: vaxjo.se INFO Begin testing email address domains@vaxjo.se.
+ 78.337: vaxjo.se INFO Mail exchangers for domains@vaxjo.se found mail.messaging.microsoft.com.
+ 78.337: vaxjo.se INFO Begin testing host mail.messaging.microsoft.com.
+ 82.881: vaxjo.se INFO Begin testing address 216.32.181.178.
+ 89.065: vaxjo.se INFO Done testing address 216.32.181.178.
+ 89.066: vaxjo.se INFO Begin testing address 207.46.163.30.
+ 89.543: vaxjo.se INFO Done testing address 207.46.163.30.
+ 89.543: vaxjo.se INFO Begin testing address 216.32.180.22.
+ 90.573: vaxjo.se INFO Done testing address 216.32.180.22.
+ 90.574: vaxjo.se INFO Begin testing address 65.55.88.22.
+ 91.374: vaxjo.se INFO Done testing address 65.55.88.22.
+ 91.374: vaxjo.se INFO Begin testing address 213.199.180.150.
+ 92.412: vaxjo.se INFO Done testing address 213.199.180.150.
+ 92.412: vaxjo.se INFO Done testing host mail.messaging.microsoft.com.
+ 93.923: vaxjo.se INFO Done testing email address domains@vaxjo.se.
+ 93.923: vaxjo.se INFO Successful attempt to deliver email for SOA RNAME of vaxjo.se (domains.vaxjo.se) using domains@vaxjo.se.
+ 93.924: vaxjo.se INFO SOA TTL for vaxjo.se OK (3600) - recommended >= 3600.
+ 93.924: vaxjo.se INFO SOA refresh for vaxjo.se OK (14400) - recommended >= 14400.
+ 93.924: vaxjo.se INFO SOA retry for vaxjo.se OK (3600) - recommended >= 3600.
+ 93.924: vaxjo.se INFO SOA expire for vaxjo.se OK (2419200) - recommended >= 604800.
+ 93.924: vaxjo.se INFO SOA minimum for vaxjo.se OK (21600) - recommended between 300 and 86400.
+ 93.924: vaxjo.se INFO Done testing SOA parameters for vaxjo.se.
+ 93.924: vaxjo.se INFO Begin testing connectivity for vaxjo.se.
+ 94.722: vaxjo.se INFO Zone announced by more than one ASN.
+ 94.722: vaxjo.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 94.722: vaxjo.se INFO Done testing connectivity for vaxjo.se.
+ 94.723: vaxjo.se INFO Begin testing DNSSEC for vaxjo.se.
+ 94.735: vaxjo.se INFO Found DS record for vaxjo.se at parent.
+ 94.771: vaxjo.se INFO Nameserver 195.84.40.4 does DNSSEC extra processing.
+ 94.812: vaxjo.se INFO Nameserver 217.74.80.26 does DNSSEC extra processing.
+ 94.812: vaxjo.se INFO Servers for vaxjo.se have consistent extra processing status.
+ 94.847: vaxjo.se INFO Authenticated denial records found for vaxjo.se, of type NSEC3.
+ 94.866: vaxjo.se INFO NSEC3PARAM record found for vaxjo.se.
+ 94.866: vaxjo.se INFO NSEC3 for vaxjo.se is set to use 50 iterations, which is less than 100 and thus OK.
+ 94.866: vaxjo.se INFO Found DNSKEY record for vaxjo.se at child.
+ 94.866: vaxjo.se INFO Consistent security for vaxjo.se.
+ 94.866: vaxjo.se INFO Checking DNSSEC at child (vaxjo.se).
+ 94.867: vaxjo.se INFO vaxjo.se's key with tag 63718 uses algorithm number 8 (RSA/SHA-256).
+ 94.867: vaxjo.se INFO Algorithm number 8 is OK.
+ 94.867: vaxjo.se INFO vaxjo.se's key with tag 51625 uses algorithm number 8 (RSA/SHA-256).
+ 94.867: vaxjo.se INFO Algorithm number 8 is OK.
+ 94.867: vaxjo.se INFO DNSKEY vaxjo.se (tag 51625) is marked as a secure entry point (SEP).
+ 94.867: vaxjo.se INFO vaxjo.se's key with tag 31083 uses algorithm number 8 (RSA/SHA-256).
+ 94.867: vaxjo.se INFO Algorithm number 8 is OK.
+ 94.868: vaxjo.se WARNING DNSSEC signature expired: RRSIG(vaxjo.se/IN/DNSKEY/31083)
+ 94.868: vaxjo.se WARNING DNSSEC signature expired: RRSIG(vaxjo.se/IN/DNSKEY/31083)
+ 94.869: vaxjo.se INFO DNSSEC signature expires at: Fri Mar 21 02:51:22 2014
+ 94.869: vaxjo.se INFO Duration for RRSIG(vaxjo.se/IN/DNSKEY/51625) is OK (2595600 seconds).
+ 94.871: vaxjo.se INFO DNSSEC signature RRSIG(vaxjo.se/IN/DNSKEY/51625) matches records.
+ 94.871: vaxjo.se INFO DNSSEC signature valid: RRSIG(vaxjo.se/IN/DNSKEY/51625)
+ 94.872: vaxjo.se INFO DNSSEC signature expires at: Sun Mar  9 11:58:04 2014
+ 94.872: vaxjo.se INFO Duration for RRSIG(vaxjo.se/IN/DNSKEY/51625) is OK (2595600 seconds).
+ 94.873: vaxjo.se INFO DNSSEC signature RRSIG(vaxjo.se/IN/DNSKEY/51625) matches records.
+ 94.873: vaxjo.se INFO DNSSEC signature valid: RRSIG(vaxjo.se/IN/DNSKEY/51625)
+ 94.873: vaxjo.se WARNING DNSSEC signature expired: RRSIG(vaxjo.se/IN/DNSKEY/31083)
+ 94.874: vaxjo.se INFO DNSSEC signature expires at: Sat Mar 15 12:21:14 2014
+ 94.874: vaxjo.se INFO Duration for RRSIG(vaxjo.se/IN/DNSKEY/51625) is OK (2595600 seconds).
+ 94.875: vaxjo.se INFO DNSSEC signature RRSIG(vaxjo.se/IN/DNSKEY/51625) matches records.
+ 94.875: vaxjo.se INFO DNSSEC signature valid: RRSIG(vaxjo.se/IN/DNSKEY/51625)
+ 94.875: vaxjo.se WARNING DNSSEC signature expired: RRSIG(vaxjo.se/IN/DNSKEY/31083)
+ 94.876: vaxjo.se INFO DNSSEC signature expires at: Wed Mar 26 17:20:16 2014
+ 94.876: vaxjo.se INFO Duration for RRSIG(vaxjo.se/IN/DNSKEY/51625) is OK (2595600 seconds).
+ 94.877: vaxjo.se INFO DNSSEC signature RRSIG(vaxjo.se/IN/DNSKEY/51625) matches records.
+ 94.877: vaxjo.se INFO DNSSEC signature valid: RRSIG(vaxjo.se/IN/DNSKEY/51625)
+ 94.877: vaxjo.se INFO DNSSEC signature expires at: Fri Mar 14 22:21:48 2014
+ 94.877: vaxjo.se INFO Duration for RRSIG(vaxjo.se/IN/DNSKEY/31083) is OK (608400 seconds).
+ 94.878: vaxjo.se INFO DNSSEC signature RRSIG(vaxjo.se/IN/DNSKEY/31083) matches records.
+ 94.878: vaxjo.se INFO DNSSEC signature valid: RRSIG(vaxjo.se/IN/DNSKEY/31083)
+ 94.879: vaxjo.se INFO DNSSEC signature expires at: Sun Apr  6 22:21:48 2014
+ 94.879: vaxjo.se INFO Duration for RRSIG(vaxjo.se/IN/DNSKEY/51625) is OK (2595600 seconds).
+ 94.881: vaxjo.se INFO DNSSEC signature RRSIG(vaxjo.se/IN/DNSKEY/51625) matches records.
+ 94.881: vaxjo.se INFO DNSSEC signature valid: RRSIG(vaxjo.se/IN/DNSKEY/51625)
+ 94.881: vaxjo.se INFO Enough valid signatures found for vaxjo.se.
+ 94.918: vaxjo.se INFO DNSSEC signature expires at: Tue Mar 18 15:09:52 2014
+ 94.918: vaxjo.se INFO Duration for RRSIG(vaxjo.se/IN/SOA/31083) is OK (867600 seconds).
+ 94.919: vaxjo.se INFO DNSSEC signature RRSIG(vaxjo.se/IN/SOA/31083) matches records.
+ 94.919: vaxjo.se INFO DNSSEC signature valid: RRSIG(vaxjo.se/IN/SOA/31083)
+ 94.920: vaxjo.se INFO Enough valid signatures over SOA RRset found for vaxjo.se.
+ 94.920: vaxjo.se INFO DNSSEC child checks for vaxjo.se complete.
+ 94.920: vaxjo.se INFO Checking DNSSEC at parent of vaxjo.se.
+ 94.920: vaxjo.se INFO vaxjo.se's key with tag 51625 uses algorithm number 8 (RSA/SHA-256).
+ 94.920: vaxjo.se INFO Algorithm number 8 is OK.
+ 94.920: vaxjo.se INFO Parent DS(vaxjo.se/8/1/51625) refers to valid key at child: DNSKEY(vaxjo.se/8/51625)
+ 94.921: vaxjo.se INFO Parent DS(vaxjo.se) refers to secure entry point (SEP) at child: DS(vaxjo.se/8/1/51625)
+ 94.921: vaxjo.se INFO DNSSEC parent checks for vaxjo.se complete.
+ 94.921: vaxjo.se INFO Done testing DNSSEC for vaxjo.se.
+ 94.921: vaxjo.se INFO Test completed for zone vaxjo.se.

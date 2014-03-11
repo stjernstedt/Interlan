@@ -1,0 +1,107 @@
+  0.000: ale.se INFO Begin testing zone ale.se with version 1.2.
+  0.000: ale.se INFO Begin testing delegation for ale.se.
+ 11.144: ale.se INFO Name servers listed at parent: dist.ale.se,ystad.dns.swip.net
+ 13.157: ale.se INFO Name servers listed at child: dist.ale.se,ystad.dns.swip.net
+ 13.158: ale.se NOTICE No IPv6 name servers found.
+ 13.299: ale.se INFO Parent glue for ale.se found: dist.ale.se (194.14.227.81)
+ 13.479: ale.se INFO Checking glue for dist.ale.se (194.14.227.81).
+ 13.530: ale.se INFO Child glue for ale.se found: dist.ale.se (194.14.227.81)
+ 13.531: ale.se INFO Parent glue for ale.se found: dist.ale.se (194.14.227.81)
+ 13.531: ale.se INFO Done testing delegation for ale.se.
+ 13.532: ale.se INFO Begin testing name server dist.ale.se.
+ 13.532: ale.se INFO Begin testing host dist.ale.se.
+ 13.532: ale.se INFO Begin testing address 194.14.227.81.
+ 19.393: ale.se INFO Done testing address 194.14.227.81.
+ 19.393: ale.se INFO Done testing host dist.ale.se.
+ 19.575: ale.se INFO Name server dist.ale.se (194.14.227.81) answers queries over UDP.
+ 19.651: ale.se INFO Name server dist.ale.se (194.14.227.81) answers queries over TCP.
+ 19.716: ale.se INFO Name server dist.ale.se (194.14.227.81) is not recursive.
+ 19.861: ale.se INFO Name server dist.ale.se (194.14.227.81) authoritative for ale.se.
+ 20.018: ale.se NOTICE Name server dist.ale.se (194.14.227.81) open for zone transfer of ale.se.
+ 20.093: ale.se NOTICE No answer received from 194.14.227.81 when querying for hostname.bind/CH/TXT.
+ 20.177: ale.se INFO Legacy name server ID for dist.ale.se (194.14.227.81): version.bind = -
+ 20.300: ale.se NOTICE No answer received from 194.14.227.81 when querying for id.server/CH/TXT.
+ 20.316: ale.se NOTICE No answer received from 194.14.227.81 when querying for version.server/CH/TXT.
+ 20.317: ale.se INFO Done testing name server dist.ale.se.
+ 20.317: ale.se INFO Begin testing name server ystad.dns.swip.net.
+ 20.317: ale.se INFO Begin testing host ystad.dns.swip.net.
+ 20.317: ale.se INFO Begin testing address 192.71.220.12.
+ 25.354: ale.se INFO Done testing address 192.71.220.12.
+ 25.354: ale.se INFO Done testing host ystad.dns.swip.net.
+ 25.366: ale.se INFO Name server ystad.dns.swip.net (192.71.220.12) answers queries over UDP.
+ 25.388: ale.se INFO Name server ystad.dns.swip.net (192.71.220.12) answers queries over TCP.
+ 25.395: ale.se INFO Name server ystad.dns.swip.net (192.71.220.12) is not recursive.
+ 25.443: ale.se INFO Name server ystad.dns.swip.net (192.71.220.12) authoritative for ale.se.
+ 25.461: ale.se INFO Name server ystad.dns.swip.net (192.71.220.12) closed for zone transfer of ale.se.
+ 25.531: ale.se INFO Legacy name server ID for ystad.dns.swip.net (192.71.220.12): hostname.bind = nico
+ 25.554: ale.se INFO Legacy name server ID for ystad.dns.swip.net (192.71.220.12): version.bind = PONG 0.2alpha
+ 25.703: ale.se NOTICE No answer received from 192.71.220.12 when querying for version.server/CH/TXT.
+ 25.703: ale.se INFO Done testing name server ystad.dns.swip.net.
+ 25.704: ale.se INFO Begin testing zone consistency for ale.se.
+ 25.746: ale.se INFO SOA at address 192.71.220.12 has serial 2008010933.
+ 25.760: ale.se INFO SOA at address 194.14.227.81 has serial 2008010933.
+ 25.761: ale.se INFO All SOA records have consistent serial numbers.
+ 25.761: ale.se INFO All SOA records are consistent among all name servers.
+ 25.761: ale.se INFO Done testing zone consistency for ale.se.
+ 25.761: ale.se INFO Begin testing SOA parameters for ale.se.
+ 25.769: ale.se INFO Found SOA record for ale.se.
+ 25.769: ale.se INFO Begin testing host dist.ale.se.
+ 25.769: ale.se INFO Begin testing address 194.14.227.81.
+ 25.770: ale.se INFO Done testing address 194.14.227.81.
+ 25.770: ale.se INFO Done testing host dist.ale.se.
+ 25.770: ale.se INFO SOA MNAME for ale.se valid (dist.ale.se).
+ 25.771: ale.se INFO SOA MNAME for ale.se (dist.ale.se) listed as NS.
+ 25.787: ale.se INFO SOA MNAME for ale.se (dist.ale.se) is authoritative.
+ 25.787: ale.se INFO Begin testing email address root@ale.se.
+ 26.141: ale.se INFO Mail exchangers for root@ale.se found cluster5a.eu.messagelabs.com,cluster5.eu.messagelabs.com.
+ 26.141: ale.se INFO Begin testing host cluster5a.eu.messagelabs.com.
+ 27.175: ale.se INFO Begin testing address 85.158.141.190.
+ 30.894: ale.se INFO Done testing address 85.158.141.190.
+ 30.894: ale.se INFO Begin testing address 195.245.231.196.
+ 32.124: ale.se INFO Done testing address 195.245.231.196.
+ 32.124: ale.se INFO Begin testing address 85.158.137.231.
+ 33.367: ale.se INFO Done testing address 85.158.137.231.
+ 33.367: ale.se INFO Done testing host cluster5a.eu.messagelabs.com.
+ 33.367: ale.se INFO Begin testing mail server cluster5a.eu.messagelabs.com (85.158.141.190) with root@ale.se.
+ 33.535: ale.se INFO SMTP banner: server-10.tower-553.messagelabs.com ESMTP
+ 33.637: ale.se INFO SMTP testing of cluster5a.eu.messagelabs.com (85.158.141.190) with root@ale.se succeeded without errors.
+ 33.637: ale.se INFO Done testing mail server cluster5a.eu.messagelabs.com (85.158.141.190) with root@ale.se.
+ 33.637: ale.se INFO Begin testing host cluster5.eu.messagelabs.com.
+ 34.463: ale.se INFO Begin testing address 85.158.136.83.
+ 35.800: ale.se INFO Done testing address 85.158.136.83.
+ 35.800: ale.se INFO Begin testing address 193.109.254.3.
+ 37.613: ale.se INFO Done testing address 193.109.254.3.
+ 37.614: ale.se INFO Begin testing address 195.245.230.51.
+ 38.576: ale.se INFO Done testing address 195.245.230.51.
+ 38.577: ale.se INFO Begin testing address 195.245.230.83.
+ 40.086: ale.se INFO Done testing address 195.245.230.83.
+ 40.086: ale.se INFO Begin testing address 85.158.136.51.
+ 41.619: ale.se INFO Done testing address 85.158.136.51.
+ 41.619: ale.se INFO Begin testing address 85.158.136.67.
+ 42.854: ale.se INFO Done testing address 85.158.136.67.
+ 42.854: ale.se INFO Done testing host cluster5.eu.messagelabs.com.
+ 42.854: ale.se INFO Delivery over IPv4 to root@ale.se ok.
+ 42.855: ale.se INFO Delivery over IPv6 to root@ale.se could not be done.
+ 42.855: ale.se INFO Done testing email address root@ale.se.
+ 42.855: ale.se INFO Successful attempt to deliver email for SOA RNAME of ale.se (root.ale.se) using root@ale.se.
+ 42.855: ale.se INFO SOA TTL for ale.se OK (38400) - recommended >= 3600.
+ 42.855: ale.se NOTICE SOA refresh for ale.se too small (10800) - recommended >= 14400.
+ 42.855: ale.se INFO SOA retry for ale.se OK (3600) - recommended >= 3600.
+ 42.855: ale.se INFO SOA expire for ale.se OK (604800) - recommended >= 604800.
+ 42.855: ale.se INFO SOA minimum for ale.se OK (38400) - recommended between 300 and 86400.
+ 42.855: ale.se INFO Done testing SOA parameters for ale.se.
+ 42.855: ale.se INFO Begin testing connectivity for ale.se.
+ 43.533: ale.se INFO Name server 192.71.220.12 announced by: 1257
+ 44.058: ale.se INFO Name server 194.14.227.81 announced by: 3301
+ 44.058: ale.se INFO Zone announced by IPv4 ASN: 3301,1257
+ 44.058: ale.se INFO Zone announced by more than one ASN (2).
+ 44.059: ale.se INFO Zone announced by IPv6 ASN: 
+ 44.059: ale.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 44.059: ale.se INFO Done testing connectivity for ale.se.
+ 44.059: ale.se INFO Begin testing DNSSEC for ale.se.
+ 44.146: ale.se INFO Did not find DS record for ale.se at parent.
+ 44.187: ale.se INFO Servers for ale.se have consistent extra processing status.
+ 44.188: ale.se INFO Did not find DNSKEY record for ale.se at child.
+ 44.188: ale.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 44.188: ale.se INFO Done testing DNSSEC for ale.se.
+ 44.188: ale.se INFO Test completed for zone ale.se.

@@ -1,0 +1,85 @@
+  0.000: hankasalmi.fi INFO Begin testing zone hankasalmi.fi with version 1.5.0.
+  0.536: hankasalmi.fi INFO Begin testing delegation for hankasalmi.fi.
+ 15.612: hankasalmi.fi INFO Name servers listed at parent: koukku.hankasalmi.fi,ns.artio.net
+ 19.885: hankasalmi.fi INFO Name servers listed at child: koukku.hankasalmi.fi,ns.artio.net
+ 19.885: hankasalmi.fi NOTICE No IPv6 name servers found.
+ 20.032: hankasalmi.fi INFO Parent glue for hankasalmi.fi found: koukku.hankasalmi.fi (194.86.5.3)
+ 20.426: hankasalmi.fi INFO Checking glue for koukku.hankasalmi.fi (194.86.5.3).
+ 20.496: hankasalmi.fi INFO Child glue for hankasalmi.fi found: koukku.hankasalmi.fi (194.86.5.3)
+ 20.497: hankasalmi.fi INFO Parent glue for hankasalmi.fi found: koukku.hankasalmi.fi (194.86.5.3)
+ 22.414: hankasalmi.fi INFO It is possible to build a referral packet for hankasalmi.fi that works without EDNS0.
+ 24.404: hankasalmi.fi INFO Previously used name servers for hankasalmi.fi: 
+ 24.404: hankasalmi.fi INFO Done testing delegation for hankasalmi.fi.
+ 24.404: hankasalmi.fi INFO Begin testing name server koukku.hankasalmi.fi.
+ 24.405: hankasalmi.fi INFO Begin testing host koukku.hankasalmi.fi.
+ 25.208: hankasalmi.fi INFO Begin testing address 194.86.5.3.
+ 36.463: hankasalmi.fi INFO Done testing address 194.86.5.3.
+ 36.494: hankasalmi.fi INFO Done testing host koukku.hankasalmi.fi.
+ 37.071: hankasalmi.fi INFO Name server koukku.hankasalmi.fi (194.86.5.3) answers queries over UDP.
+ 37.248: hankasalmi.fi INFO Name server koukku.hankasalmi.fi (194.86.5.3) answers queries over TCP.
+ 37.296: hankasalmi.fi INFO Name server koukku.hankasalmi.fi (194.86.5.3) is not recursive.
+ 37.601: hankasalmi.fi INFO Name server koukku.hankasalmi.fi (194.86.5.3) authoritative for hankasalmi.fi.
+ 38.394: hankasalmi.fi NOTICE Name server koukku.hankasalmi.fi (194.86.5.3) open for zone transfer of hankasalmi.fi.
+ 38.548: hankasalmi.fi INFO Legacy name server ID for koukku.hankasalmi.fi (194.86.5.3): hostname.bind = sumppu.hankasalmi.fi
+ 38.595: hankasalmi.fi INFO Legacy name server ID for koukku.hankasalmi.fi (194.86.5.3): version.bind = Not available
+ 38.780: hankasalmi.fi NOTICE No answer received from 194.86.5.3 when querying for version.server/CH/TXT.
+ 38.780: hankasalmi.fi INFO Done testing name server koukku.hankasalmi.fi.
+ 38.780: hankasalmi.fi INFO Begin testing name server ns.artio.net.
+ 38.780: hankasalmi.fi INFO Begin testing host ns.artio.net.
+ 39.364: hankasalmi.fi INFO Begin testing address 195.191.122.4.
+ 41.088: hankasalmi.fi INFO Done testing address 195.191.122.4.
+ 41.088: hankasalmi.fi INFO Done testing host ns.artio.net.
+ 41.613: hankasalmi.fi INFO Name server ns.artio.net (195.191.122.4) answers queries over UDP.
+ 41.721: hankasalmi.fi INFO Name server ns.artio.net (195.191.122.4) answers queries over TCP.
+ 41.820: hankasalmi.fi INFO Name server ns.artio.net (195.191.122.4) is not recursive.
+ 42.037: hankasalmi.fi INFO Name server ns.artio.net (195.191.122.4) authoritative for hankasalmi.fi.
+ 42.107: hankasalmi.fi INFO Name server ns.artio.net (195.191.122.4) closed for zone transfer of hankasalmi.fi.
+ 42.131: hankasalmi.fi INFO Legacy name server ID for ns.artio.net (195.191.122.4): hostname.bind = ns.artio.net
+ 42.300: hankasalmi.fi NOTICE No answer received from 195.191.122.4 when querying for version.server/CH/TXT.
+ 42.300: hankasalmi.fi INFO Done testing name server ns.artio.net.
+ 42.301: hankasalmi.fi INFO Begin testing zone consistency for hankasalmi.fi.
+ 45.473: hankasalmi.fi INFO SOA at address 195.191.122.4 has serial 2012111601.
+ 45.643: hankasalmi.fi INFO SOA at address 194.86.5.3 has serial 2012111601.
+ 45.643: hankasalmi.fi INFO All SOA records have consistent serial numbers.
+ 45.644: hankasalmi.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 47.658: hankasalmi.fi NOTICE The listed nameservers for hankasalmi.fi all report the same set of nameservers.
+ 47.658: hankasalmi.fi INFO Done testing zone consistency for hankasalmi.fi.
+ 47.658: hankasalmi.fi INFO Begin testing SOA parameters for hankasalmi.fi.
+ 47.875: hankasalmi.fi INFO Found SOA record for hankasalmi.fi.
+ 47.876: hankasalmi.fi INFO Begin testing host koukku.hankasalmi.fi.
+ 48.584: hankasalmi.fi INFO Begin testing address 194.86.5.3.
+ 49.192: hankasalmi.fi INFO Done testing address 194.86.5.3.
+ 49.192: hankasalmi.fi INFO Done testing host koukku.hankasalmi.fi.
+ 49.192: hankasalmi.fi INFO SOA MNAME for hankasalmi.fi valid (koukku.hankasalmi.fi).
+ 49.192: hankasalmi.fi INFO SOA MNAME for hankasalmi.fi (koukku.hankasalmi.fi) listed as NS.
+ 49.887: hankasalmi.fi INFO SOA MNAME for hankasalmi.fi (koukku.hankasalmi.fi) is authoritative.
+ 49.888: hankasalmi.fi INFO Begin testing email address hostmaster@hankasalmi.fi.
+ 50.485: hankasalmi.fi INFO Mail exchangers for hostmaster@hankasalmi.fi found haavi.hankasalmi.fi,lambic.artio.net.
+ 50.485: hankasalmi.fi INFO Begin testing host haavi.hankasalmi.fi.
+ 51.864: hankasalmi.fi INFO Begin testing address 194.86.5.4.
+ 53.725: hankasalmi.fi INFO Done testing address 194.86.5.4.
+ 53.725: hankasalmi.fi INFO Done testing host haavi.hankasalmi.fi.
+ 54.362: hankasalmi.fi INFO Begin testing host lambic.artio.net.
+ 55.974: hankasalmi.fi INFO Begin testing address 195.191.122.5.
+ 57.844: hankasalmi.fi INFO Done testing address 195.191.122.5.
+ 57.844: hankasalmi.fi INFO Done testing host lambic.artio.net.
+ 58.344: hankasalmi.fi INFO Done testing email address hostmaster@hankasalmi.fi.
+ 58.344: hankasalmi.fi INFO Successful attempt to deliver email for SOA RNAME of hankasalmi.fi (hostmaster.hankasalmi.fi) using hostmaster@hankasalmi.fi.
+ 58.344: hankasalmi.fi NOTICE SOA TTL for hankasalmi.fi too small (300) - recommended >= 3600.
+ 58.344: hankasalmi.fi INFO SOA refresh for hankasalmi.fi OK (28800) - recommended >= 14400.
+ 58.344: hankasalmi.fi INFO SOA retry for hankasalmi.fi OK (7200) - recommended >= 3600.
+ 58.344: hankasalmi.fi INFO SOA expire for hankasalmi.fi OK (604800) - recommended >= 604800.
+ 58.344: hankasalmi.fi INFO SOA minimum for hankasalmi.fi OK (86400) - recommended between 300 and 86400.
+ 58.344: hankasalmi.fi INFO Done testing SOA parameters for hankasalmi.fi.
+ 58.345: hankasalmi.fi INFO Begin testing connectivity for hankasalmi.fi.
+ 60.329: hankasalmi.fi INFO Zone announced by more than one ASN.
+ 60.329: hankasalmi.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 60.330: hankasalmi.fi INFO Done testing connectivity for hankasalmi.fi.
+ 60.330: hankasalmi.fi INFO Begin testing DNSSEC for hankasalmi.fi.
+ 60.597: hankasalmi.fi INFO Did not find DS record for hankasalmi.fi at parent.
+ 60.936: hankasalmi.fi INFO Servers for hankasalmi.fi have consistent extra processing status.
+ 61.009: hankasalmi.fi INFO Authenticated denial records not found for hankasalmi.fi.
+ 61.053: hankasalmi.fi INFO Did not find DNSKEY record for hankasalmi.fi at child.
+ 61.053: hankasalmi.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 61.053: hankasalmi.fi INFO Done testing DNSSEC for hankasalmi.fi.
+ 61.054: hankasalmi.fi INFO Test completed for zone hankasalmi.fi.

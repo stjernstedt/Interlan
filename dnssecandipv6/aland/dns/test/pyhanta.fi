@@ -1,0 +1,93 @@
+  0.000: pyhanta.fi INFO Begin testing zone pyhanta.fi with version 1.5.0.
+  1.497: pyhanta.fi INFO Begin testing delegation for pyhanta.fi.
+ 44.578: pyhanta.fi INFO Name servers listed at parent: ns1.kotinet.com,ns2.kotinet.com,ns3.kotinet.com
+ 62.571: pyhanta.fi INFO Name servers listed at child: ns1.kotinet.com,ns2.kotinet.com,ns3.kotinet.com
+ 62.571: pyhanta.fi NOTICE No IPv6 name servers found.
+ 74.144: pyhanta.fi INFO It is possible to build a referral packet for pyhanta.fi that works without EDNS0.
+ 81.204: pyhanta.fi INFO Previously used name servers for pyhanta.fi: 
+ 81.204: pyhanta.fi INFO Done testing delegation for pyhanta.fi.
+ 81.204: pyhanta.fi INFO Begin testing name server ns1.kotinet.com.
+ 81.204: pyhanta.fi INFO Begin testing host ns1.kotinet.com.
+ 84.066: pyhanta.fi INFO Begin testing address 212.50.211.242.
+143.638: pyhanta.fi INFO Done testing address 212.50.211.242.
+143.638: pyhanta.fi INFO Done testing host ns1.kotinet.com.
+146.922: pyhanta.fi INFO Name server ns1.kotinet.com (212.50.211.242) answers queries over UDP.
+147.427: pyhanta.fi INFO Name server ns1.kotinet.com (212.50.211.242) answers queries over TCP.
+147.933: pyhanta.fi INFO Name server ns1.kotinet.com (212.50.211.242) is not recursive.
+149.747: pyhanta.fi INFO Name server ns1.kotinet.com (212.50.211.242) authoritative for pyhanta.fi.
+150.129: pyhanta.fi INFO Name server ns1.kotinet.com (212.50.211.242) closed for zone transfer of pyhanta.fi.
+150.428: pyhanta.fi INFO Legacy name server ID for ns1.kotinet.com (212.50.211.242): hostname.bind = ns1.kotinet.com
+151.038: pyhanta.fi INFO Legacy name server ID for ns1.kotinet.com (212.50.211.242): version.bind = enkerro
+151.685: pyhanta.fi NOTICE No answer received from 212.50.211.242 when querying for version.server/CH/TXT.
+151.685: pyhanta.fi INFO Done testing name server ns1.kotinet.com.
+151.685: pyhanta.fi INFO Begin testing name server ns2.kotinet.com.
+151.685: pyhanta.fi INFO Begin testing host ns2.kotinet.com.
+154.315: pyhanta.fi INFO Begin testing address 212.50.192.226.
+160.042: pyhanta.fi INFO Done testing address 212.50.192.226.
+160.042: pyhanta.fi INFO Done testing host ns2.kotinet.com.
+163.055: pyhanta.fi INFO Name server ns2.kotinet.com (212.50.192.226) answers queries over UDP.
+163.687: pyhanta.fi INFO Name server ns2.kotinet.com (212.50.192.226) answers queries over TCP.
+164.064: pyhanta.fi INFO Name server ns2.kotinet.com (212.50.192.226) is not recursive.
+165.618: pyhanta.fi INFO Name server ns2.kotinet.com (212.50.192.226) authoritative for pyhanta.fi.
+165.975: pyhanta.fi INFO Name server ns2.kotinet.com (212.50.192.226) closed for zone transfer of pyhanta.fi.
+166.270: pyhanta.fi INFO Legacy name server ID for ns2.kotinet.com (212.50.192.226): hostname.bind = ns2
+166.734: pyhanta.fi INFO Legacy name server ID for ns2.kotinet.com (212.50.192.226): version.bind = enkerro
+167.422: pyhanta.fi NOTICE No answer received from 212.50.192.226 when querying for version.server/CH/TXT.
+167.422: pyhanta.fi INFO Done testing name server ns2.kotinet.com.
+167.422: pyhanta.fi INFO Begin testing name server ns3.kotinet.com.
+167.422: pyhanta.fi INFO Begin testing host ns3.kotinet.com.
+169.926: pyhanta.fi INFO Begin testing address 82.141.108.26.
+175.758: pyhanta.fi INFO Done testing address 82.141.108.26.
+175.758: pyhanta.fi INFO Done testing host ns3.kotinet.com.
+178.923: pyhanta.fi INFO Name server ns3.kotinet.com (82.141.108.26) answers queries over UDP.
+179.443: pyhanta.fi INFO Name server ns3.kotinet.com (82.141.108.26) answers queries over TCP.
+179.946: pyhanta.fi INFO Name server ns3.kotinet.com (82.141.108.26) is not recursive.
+181.415: pyhanta.fi INFO Name server ns3.kotinet.com (82.141.108.26) authoritative for pyhanta.fi.
+181.924: pyhanta.fi INFO Name server ns3.kotinet.com (82.141.108.26) closed for zone transfer of pyhanta.fi.
+182.212: pyhanta.fi INFO Legacy name server ID for ns3.kotinet.com (82.141.108.26): hostname.bind = ns3.kotinet.com
+182.706: pyhanta.fi INFO Legacy name server ID for ns3.kotinet.com (82.141.108.26): version.bind = enkerro
+183.364: pyhanta.fi NOTICE No answer received from 82.141.108.26 when querying for version.server/CH/TXT.
+183.364: pyhanta.fi INFO Done testing name server ns3.kotinet.com.
+183.364: pyhanta.fi INFO Begin testing zone consistency for pyhanta.fi.
+200.565: pyhanta.fi INFO SOA at address 212.50.192.226 has serial 2013052314.
+201.189: pyhanta.fi INFO SOA at address 82.141.108.26 has serial 2013052314.
+201.735: pyhanta.fi INFO SOA at address 212.50.211.242 has serial 2013052314.
+201.736: pyhanta.fi INFO All SOA records have consistent serial numbers.
+201.736: pyhanta.fi INFO All other fields in the SOA record are consistent among all name servers.
+211.238: pyhanta.fi NOTICE The listed nameservers for pyhanta.fi all report the same set of nameservers.
+211.238: pyhanta.fi INFO Done testing zone consistency for pyhanta.fi.
+211.238: pyhanta.fi INFO Begin testing SOA parameters for pyhanta.fi.
+211.901: pyhanta.fi INFO Found SOA record for pyhanta.fi.
+211.902: pyhanta.fi INFO Begin testing host ns3.kotinet.com.
+214.378: pyhanta.fi INFO Begin testing address 82.141.108.26.
+216.932: pyhanta.fi INFO Done testing address 82.141.108.26.
+216.932: pyhanta.fi INFO Done testing host ns3.kotinet.com.
+216.932: pyhanta.fi INFO SOA MNAME for pyhanta.fi valid (ns3.kotinet.com).
+216.932: pyhanta.fi INFO SOA MNAME for pyhanta.fi (ns3.kotinet.com) listed as NS.
+219.912: pyhanta.fi INFO SOA MNAME for pyhanta.fi (ns3.kotinet.com) is authoritative.
+219.912: pyhanta.fi INFO Begin testing email address root@adonis.kotinet.com.
+225.131: pyhanta.fi INFO Mail exchangers for root@adonis.kotinet.com found adonis.kotinet.com.
+225.131: pyhanta.fi INFO Begin testing host adonis.kotinet.com.
+228.342: pyhanta.fi INFO Begin testing address 212.50.211.55.
+239.878: pyhanta.fi INFO Done testing address 212.50.211.55.
+239.878: pyhanta.fi INFO Done testing host adonis.kotinet.com.
+243.302: pyhanta.fi INFO Done testing email address root@adonis.kotinet.com.
+243.302: pyhanta.fi INFO Successful attempt to deliver email for SOA RNAME of pyhanta.fi (root.adonis.kotinet.com) using root@adonis.kotinet.com.
+243.473: pyhanta.fi INFO SOA TTL for pyhanta.fi OK (86400) - recommended >= 3600.
+243.473: pyhanta.fi INFO SOA refresh for pyhanta.fi OK (28800) - recommended >= 14400.
+243.473: pyhanta.fi INFO SOA retry for pyhanta.fi OK (7200) - recommended >= 3600.
+243.474: pyhanta.fi INFO SOA expire for pyhanta.fi OK (1209600) - recommended >= 604800.
+243.474: pyhanta.fi INFO SOA minimum for pyhanta.fi OK (86400) - recommended between 300 and 86400.
+243.474: pyhanta.fi INFO Done testing SOA parameters for pyhanta.fi.
+243.474: pyhanta.fi INFO Begin testing connectivity for pyhanta.fi.
+255.767: pyhanta.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+255.767: pyhanta.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+255.767: pyhanta.fi INFO Done testing connectivity for pyhanta.fi.
+255.767: pyhanta.fi INFO Begin testing DNSSEC for pyhanta.fi.
+256.583: pyhanta.fi INFO Did not find DS record for pyhanta.fi at parent.
+258.270: pyhanta.fi INFO Servers for pyhanta.fi have consistent extra processing status.
+258.754: pyhanta.fi INFO Authenticated denial records not found for pyhanta.fi.
+259.107: pyhanta.fi INFO Did not find DNSKEY record for pyhanta.fi at child.
+259.107: pyhanta.fi INFO No DNSKEY(s) found at child, other tests skipped.
+259.107: pyhanta.fi INFO Done testing DNSSEC for pyhanta.fi.
+259.108: pyhanta.fi INFO Test completed for zone pyhanta.fi.

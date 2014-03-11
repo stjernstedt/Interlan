@@ -1,0 +1,96 @@
+  0.000: nacka.se INFO Begin testing zone nacka.se with version 1.2.
+  0.000: nacka.se INFO Begin testing delegation for nacka.se.
+  9.603: nacka.se INFO Name servers listed at parent: dns5.telia.com,ns.nacka.se
+ 11.006: nacka.se INFO Name servers listed at child: dns5.telia.com,ns.nacka.se
+ 11.007: nacka.se NOTICE No IPv6 name servers found.
+ 11.106: nacka.se INFO Parent glue for nacka.se found: ns.nacka.se (194.22.5.13)
+ 11.144: nacka.se INFO Checking glue for ns.nacka.se (194.22.5.13).
+ 11.151: nacka.se INFO Child glue for nacka.se found: ns.nacka.se (194.22.5.13)
+ 11.152: nacka.se INFO Parent glue for nacka.se found: ns.nacka.se (194.22.5.13)
+ 11.152: nacka.se INFO Done testing delegation for nacka.se.
+ 11.152: nacka.se INFO Begin testing name server dns5.telia.com.
+ 11.152: nacka.se INFO Begin testing host dns5.telia.com.
+ 11.153: nacka.se INFO Begin testing address 81.228.11.68.
+ 15.224: nacka.se INFO Done testing address 81.228.11.68.
+ 15.224: nacka.se INFO Done testing host dns5.telia.com.
+ 15.233: nacka.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over UDP.
+ 15.245: nacka.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over TCP.
+ 15.253: nacka.se INFO Name server dns5.telia.com (81.228.11.68) is not recursive.
+ 15.262: nacka.se INFO Name server dns5.telia.com (81.228.11.68) authoritative for nacka.se.
+ 15.278: nacka.se INFO Name server dns5.telia.com (81.228.11.68) closed for zone transfer of nacka.se.
+ 15.288: nacka.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): hostname.bind = dnshosting1-sn1.fre.skanova.net
+ 15.295: nacka.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 15.308: nacka.se NOTICE No answer received from 81.228.11.68 when querying for version.server/CH/TXT.
+ 15.308: nacka.se INFO Done testing name server dns5.telia.com.
+ 15.308: nacka.se INFO Begin testing name server ns.nacka.se.
+ 15.308: nacka.se INFO Begin testing host ns.nacka.se.
+ 15.309: nacka.se INFO Begin testing address 194.22.5.13.
+ 15.637: nacka.se INFO Done testing address 194.22.5.13.
+ 15.637: nacka.se INFO Done testing host ns.nacka.se.
+ 15.647: nacka.se INFO Name server ns.nacka.se (194.22.5.13) answers queries over UDP.
+ 15.663: nacka.se INFO Name server ns.nacka.se (194.22.5.13) answers queries over TCP.
+ 15.892: nacka.se INFO Name server ns.nacka.se (194.22.5.13) is not recursive.
+ 15.902: nacka.se INFO Name server ns.nacka.se (194.22.5.13) authoritative for nacka.se.
+ 16.065: nacka.se INFO Name server ns.nacka.se (194.22.5.13) closed for zone transfer of nacka.se.
+ 16.076: nacka.se NOTICE No answer received from 194.22.5.13 when querying for hostname.bind/CH/TXT.
+ 34.078: nacka.se INFO Done testing name server ns.nacka.se.
+ 34.078: nacka.se INFO Begin testing zone consistency for nacka.se.
+ 34.089: nacka.se INFO SOA at address 81.228.11.68 has serial 2005031967.
+ 34.097: nacka.se INFO SOA at address 194.22.5.13 has serial 2005031967.
+ 34.098: nacka.se INFO All SOA records have consistent serial numbers.
+ 34.098: nacka.se INFO All SOA records are consistent among all name servers.
+ 34.098: nacka.se INFO Done testing zone consistency for nacka.se.
+ 34.098: nacka.se INFO Begin testing SOA parameters for nacka.se.
+ 34.104: nacka.se INFO Found SOA record for nacka.se.
+ 34.104: nacka.se INFO Begin testing host ns.nacka.se.
+ 34.105: nacka.se INFO Begin testing address 194.22.5.13.
+ 34.106: nacka.se INFO Done testing address 194.22.5.13.
+ 34.106: nacka.se INFO Done testing host ns.nacka.se.
+ 34.106: nacka.se INFO SOA MNAME for nacka.se valid (ns.nacka.se).
+ 34.106: nacka.se INFO SOA MNAME for nacka.se (ns.nacka.se) listed as NS.
+ 34.115: nacka.se INFO SOA MNAME for nacka.se (ns.nacka.se) is authoritative.
+ 34.115: nacka.se INFO Begin testing email address postmaster@nacka.se.
+ 34.330: nacka.se INFO Mail exchangers for postmaster@nacka.se found mailgate01.nacka.se,mailgate02.nacka.se.
+ 34.330: nacka.se INFO All mail servers for postmaster@nacka.se are in zone nacka.se.
+ 34.330: nacka.se INFO Begin testing host mailgate01.nacka.se.
+ 34.811: nacka.se INFO Begin testing address 194.22.5.44.
+ 35.095: nacka.se INFO Done testing address 194.22.5.44.
+ 35.095: nacka.se INFO Begin testing address 194.22.5.84.
+ 39.826: nacka.se INFO Done testing address 194.22.5.84.
+ 39.826: nacka.se INFO Done testing host mailgate01.nacka.se.
+ 39.827: nacka.se INFO Begin testing mail server mailgate01.nacka.se (194.22.5.44) with postmaster@nacka.se.
+ 39.954: nacka.se INFO SMTP banner: mailgate01.nacka.se ESMTP
+ 40.151: nacka.se INFO SMTP testing of mailgate01.nacka.se (194.22.5.44) with postmaster@nacka.se succeeded without errors.
+ 40.151: nacka.se INFO Done testing mail server mailgate01.nacka.se (194.22.5.44) with postmaster@nacka.se.
+ 40.151: nacka.se INFO Begin testing host mailgate02.nacka.se.
+ 40.581: nacka.se INFO Begin testing address 194.22.5.46.
+ 40.943: nacka.se INFO Done testing address 194.22.5.46.
+ 40.943: nacka.se INFO Begin testing address 194.22.5.87.
+ 41.945: nacka.se INFO Done testing address 194.22.5.87.
+ 41.946: nacka.se INFO Done testing host mailgate02.nacka.se.
+ 41.946: nacka.se INFO Delivery over IPv4 to postmaster@nacka.se ok.
+ 41.946: nacka.se INFO Delivery over IPv6 to postmaster@nacka.se could not be done.
+ 41.946: nacka.se INFO Done testing email address postmaster@nacka.se.
+ 41.946: nacka.se INFO Successful attempt to deliver email for SOA RNAME of nacka.se (postmaster.nacka.se) using postmaster@nacka.se.
+ 41.946: nacka.se NOTICE SOA TTL for nacka.se too small (300) - recommended >= 3600.
+ 41.946: nacka.se NOTICE SOA refresh for nacka.se too small (900) - recommended >= 14400.
+ 41.947: nacka.se NOTICE SOA refresh for nacka.se lower than retry (900 vs 900).
+ 41.947: nacka.se NOTICE SOA retry for nacka.se too small (900) - recommended >= 3600.
+ 41.947: nacka.se INFO SOA expire for nacka.se OK (604800) - recommended >= 604800.
+ 41.947: nacka.se INFO SOA minimum for nacka.se OK (300) - recommended between 300 and 86400.
+ 41.947: nacka.se INFO Done testing SOA parameters for nacka.se.
+ 41.947: nacka.se INFO Begin testing connectivity for nacka.se.
+ 42.493: nacka.se INFO Name server 81.228.11.68 announced by: 3301
+ 43.005: nacka.se INFO Name server 194.22.5.13 announced by: 3301
+ 43.005: nacka.se INFO Zone announced by IPv4 ASN: 3301
+ 43.005: nacka.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 43.006: nacka.se INFO Zone announced by IPv6 ASN: 
+ 43.006: nacka.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 43.006: nacka.se INFO Done testing connectivity for nacka.se.
+ 43.006: nacka.se INFO Begin testing DNSSEC for nacka.se.
+ 43.116: nacka.se INFO Did not find DS record for nacka.se at parent.
+ 43.145: nacka.se INFO Servers for nacka.se have consistent extra processing status.
+ 43.145: nacka.se INFO Did not find DNSKEY record for nacka.se at child.
+ 43.145: nacka.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 43.145: nacka.se INFO Done testing DNSSEC for nacka.se.
+ 43.146: nacka.se INFO Test completed for zone nacka.se.

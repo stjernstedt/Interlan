@@ -1,0 +1,139 @@
+  0.000: skaun.kommune.no INFO Begin testing zone skaun.kommune.no with version 1.6.1.
+  0.510: skaun.kommune.no INFO Begin testing delegation for skaun.kommune.no.
+ 10.112: skaun.kommune.no INFO Name servers listed at parent: dns1.as2116.net,dns2.as2116.net
+ 11.363: skaun.kommune.no INFO Name servers listed at child: dns1.eunet.no,dns2.eunet.no
+ 11.363: skaun.kommune.no ERROR Superfluous name server listed at parent: dns1.as2116.net
+ 11.378: skaun.kommune.no ERROR Superfluous name server listed at parent: dns2.as2116.net
+ 11.378: skaun.kommune.no ERROR Total parent/child glue mismatch.
+ 11.378: skaun.kommune.no NOTICE Additional name server listed at child: dns1.eunet.no
+ 11.378: skaun.kommune.no NOTICE Additional name server listed at child: dns2.eunet.no
+ 11.379: skaun.kommune.no NOTICE Too few IPv6 name servers (1).
+ 11.523: skaun.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.648: skaun.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.772: skaun.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.922: skaun.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 12.292: skaun.kommune.no INFO It is possible to build a referral packet for skaun.kommune.no that works without EDNS0.
+ 13.980: skaun.kommune.no INFO Previously used name servers for skaun.kommune.no: 
+ 13.980: skaun.kommune.no INFO Done testing delegation for skaun.kommune.no.
+ 13.980: skaun.kommune.no INFO Begin testing name server dns1.eunet.no.
+ 13.981: skaun.kommune.no INFO Begin testing host dns1.eunet.no.
+ 13.981: skaun.kommune.no INFO Begin testing address 193.75.75.1.
+ 23.298: skaun.kommune.no INFO Done testing address 193.75.75.1.
+ 23.298: skaun.kommune.no INFO Begin testing address 2001:8c0:2001:0:0:0:3:53.
+ 24.303: skaun.kommune.no INFO Done testing address 2001:8c0:2001:0:0:0:3:53.
+ 24.303: skaun.kommune.no INFO Done testing host dns1.eunet.no.
+ 24.391: skaun.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) answers queries over UDP.
+ 24.459: skaun.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) answers queries over TCP.
+ 24.535: skaun.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) is not recursive.
+ 24.805: skaun.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) authoritative for skaun.kommune.no.
+ 24.884: skaun.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) closed for zone transfer of skaun.kommune.no.
+ 24.953: skaun.kommune.no INFO Legacy name server ID for dns1.eunet.no (193.75.75.1): hostname.bind = alpha-a.server.as2116.net
+ 25.103: skaun.kommune.no INFO Legacy name server ID for dns1.eunet.no (193.75.75.1): version.bind = Shirely you must be joking
+ 25.238: skaun.kommune.no NOTICE No answer received from 193.75.75.1 when querying for version.server/CH/TXT.
+ 25.305: skaun.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) answers queries over UDP.
+ 25.395: skaun.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) answers queries over TCP.
+ 25.453: skaun.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) is not recursive.
+ 25.726: skaun.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) authoritative for skaun.kommune.no.
+ 25.837: skaun.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) closed for zone transfer of skaun.kommune.no.
+ 25.939: skaun.kommune.no INFO Legacy name server ID for dns1.eunet.no (2001:8c0:2001:0:0:0:3:53): hostname.bind = alpha-a.server.as2116.net
+ 25.993: skaun.kommune.no INFO Legacy name server ID for dns1.eunet.no (2001:8c0:2001:0:0:0:3:53): version.bind = Shirely you must be joking
+ 26.206: skaun.kommune.no NOTICE No answer received from 2001:8c0:2001:0:0:0:3:53 when querying for version.server/CH/TXT.
+ 26.234: skaun.kommune.no INFO Done testing name server dns1.eunet.no.
+ 26.234: skaun.kommune.no INFO Begin testing name server dns2.eunet.no.
+ 26.234: skaun.kommune.no INFO Begin testing host dns2.eunet.no.
+ 26.555: skaun.kommune.no INFO Begin testing address 148.122.208.226.
+ 34.707: skaun.kommune.no INFO Done testing address 148.122.208.226.
+ 34.707: skaun.kommune.no INFO Done testing host dns2.eunet.no.
+ 34.833: skaun.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) answers queries over UDP.
+ 34.864: skaun.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) answers queries over TCP.
+ 34.879: skaun.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) is not recursive.
+ 34.952: skaun.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) authoritative for skaun.kommune.no.
+ 34.988: skaun.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) closed for zone transfer of skaun.kommune.no.
+ 35.007: skaun.kommune.no INFO Legacy name server ID for dns2.eunet.no (148.122.208.226): hostname.bind = ny-ns2-eunet.oke.nextra.no
+ 35.021: skaun.kommune.no INFO Legacy name server ID for dns2.eunet.no (148.122.208.226): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 35.059: skaun.kommune.no NOTICE No answer received from 148.122.208.226 when querying for version.server/CH/TXT.
+ 35.059: skaun.kommune.no INFO Done testing name server dns2.eunet.no.
+ 35.059: skaun.kommune.no INFO Begin testing name server dns1.as2116.net.
+ 35.059: skaun.kommune.no INFO Begin testing host dns1.as2116.net.
+ 35.060: skaun.kommune.no INFO Begin testing address 193.75.75.1.
+ 35.061: skaun.kommune.no INFO Done testing address 193.75.75.1.
+ 35.061: skaun.kommune.no INFO Begin testing address 2001:8c0:2001:0:0:0:3:53.
+ 35.062: skaun.kommune.no INFO Done testing address 2001:8c0:2001:0:0:0:3:53.
+ 35.070: skaun.kommune.no INFO Done testing host dns1.as2116.net.
+ 35.085: skaun.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) answers queries over UDP.
+ 35.111: skaun.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) answers queries over TCP.
+ 35.127: skaun.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) is not recursive.
+ 35.195: skaun.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) authoritative for skaun.kommune.no.
+ 35.241: skaun.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) closed for zone transfer of skaun.kommune.no.
+ 35.267: skaun.kommune.no INFO Legacy name server ID for dns1.as2116.net (193.75.75.1): hostname.bind = alpha-a.server.as2116.net
+ 35.291: skaun.kommune.no INFO Legacy name server ID for dns1.as2116.net (193.75.75.1): version.bind = Shirely you must be joking
+ 35.329: skaun.kommune.no NOTICE No answer received from 193.75.75.1 when querying for version.server/CH/TXT.
+ 35.381: skaun.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) answers queries over UDP.
+ 35.415: skaun.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) answers queries over TCP.
+ 35.435: skaun.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) is not recursive.
+ 35.522: skaun.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) authoritative for skaun.kommune.no.
+ 35.584: skaun.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) closed for zone transfer of skaun.kommune.no.
+ 35.605: skaun.kommune.no INFO Legacy name server ID for dns1.as2116.net (2001:8c0:2001:0:0:0:3:53): hostname.bind = alpha-a.server.as2116.net
+ 35.626: skaun.kommune.no INFO Legacy name server ID for dns1.as2116.net (2001:8c0:2001:0:0:0:3:53): version.bind = Shirely you must be joking
+ 35.658: skaun.kommune.no NOTICE No answer received from 2001:8c0:2001:0:0:0:3:53 when querying for version.server/CH/TXT.
+ 35.659: skaun.kommune.no INFO Done testing name server dns1.as2116.net.
+ 35.659: skaun.kommune.no INFO Begin testing name server dns2.as2116.net.
+ 35.659: skaun.kommune.no INFO Begin testing host dns2.as2116.net.
+ 36.043: skaun.kommune.no INFO Begin testing address 148.122.208.226.
+ 36.443: skaun.kommune.no INFO Done testing address 148.122.208.226.
+ 36.443: skaun.kommune.no INFO Done testing host dns2.as2116.net.
+ 36.572: skaun.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) answers queries over UDP.
+ 36.600: skaun.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) answers queries over TCP.
+ 36.620: skaun.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) is not recursive.
+ 36.680: skaun.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) authoritative for skaun.kommune.no.
+ 36.713: skaun.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) closed for zone transfer of skaun.kommune.no.
+ 36.727: skaun.kommune.no INFO Legacy name server ID for dns2.as2116.net (148.122.208.226): hostname.bind = ny-ns2-eunet.oke.nextra.no
+ 36.740: skaun.kommune.no INFO Legacy name server ID for dns2.as2116.net (148.122.208.226): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 36.766: skaun.kommune.no NOTICE No answer received from 148.122.208.226 when querying for version.server/CH/TXT.
+ 36.766: skaun.kommune.no INFO Done testing name server dns2.as2116.net.
+ 36.767: skaun.kommune.no INFO Begin testing zone consistency for skaun.kommune.no.
+ 37.043: skaun.kommune.no INFO SOA at address 2001:8c0:2001:0:0:0:3:53 has serial 2012042500.
+ 37.057: skaun.kommune.no INFO SOA at address 193.75.75.1 has serial 2012042500.
+ 37.073: skaun.kommune.no INFO SOA at address 148.122.208.226 has serial 2012042500.
+ 37.073: skaun.kommune.no INFO All SOA records have consistent serial numbers.
+ 37.073: skaun.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 37.368: skaun.kommune.no NOTICE The listed nameservers for skaun.kommune.no all report the same set of nameservers.
+ 37.368: skaun.kommune.no INFO Done testing zone consistency for skaun.kommune.no.
+ 37.368: skaun.kommune.no INFO Begin testing SOA parameters for skaun.kommune.no.
+ 37.393: skaun.kommune.no INFO Found SOA record for skaun.kommune.no.
+ 37.393: skaun.kommune.no INFO Begin testing host dns1.eunet.no.
+ 37.394: skaun.kommune.no INFO Begin testing address 193.75.75.1.
+ 37.395: skaun.kommune.no INFO Done testing address 193.75.75.1.
+ 37.395: skaun.kommune.no INFO Begin testing address 2001:8c0:2001:0:0:0:3:53.
+ 37.396: skaun.kommune.no INFO Done testing address 2001:8c0:2001:0:0:0:3:53.
+ 37.397: skaun.kommune.no INFO Done testing host dns1.eunet.no.
+ 37.397: skaun.kommune.no INFO SOA MNAME for skaun.kommune.no valid (dns1.eunet.no).
+ 37.397: skaun.kommune.no INFO SOA MNAME for skaun.kommune.no (dns1.eunet.no) listed as NS.
+ 37.411: skaun.kommune.no INFO SOA MNAME for skaun.kommune.no (dns1.eunet.no) is authoritative.
+ 37.430: skaun.kommune.no INFO SOA MNAME for skaun.kommune.no (dns1.eunet.no) is authoritative.
+ 37.431: skaun.kommune.no INFO Begin testing email address hostmaster@eunetnorge.no.
+ 37.733: skaun.kommune.no INFO Mail exchangers for hostmaster@eunetnorge.no found eunetnorge.no.
+ 37.733: skaun.kommune.no INFO Begin testing host eunetnorge.no.
+ 37.831: skaun.kommune.no INFO Begin testing address 193.71.71.109.
+ 38.279: skaun.kommune.no INFO Done testing address 193.71.71.109.
+ 38.279: skaun.kommune.no INFO Done testing host eunetnorge.no.
+ 38.361: skaun.kommune.no INFO Done testing email address hostmaster@eunetnorge.no.
+ 38.361: skaun.kommune.no INFO Successful attempt to deliver email for SOA RNAME of skaun.kommune.no (hostmaster.eunetnorge.no) using hostmaster@eunetnorge.no.
+ 38.361: skaun.kommune.no NOTICE SOA TTL for skaun.kommune.no too small (600) - recommended >= 3600.
+ 38.362: skaun.kommune.no INFO SOA refresh for skaun.kommune.no OK (28800) - recommended >= 14400.
+ 38.362: skaun.kommune.no INFO SOA retry for skaun.kommune.no OK (3600) - recommended >= 3600.
+ 38.362: skaun.kommune.no INFO SOA expire for skaun.kommune.no OK (2592000) - recommended >= 604800.
+ 38.362: skaun.kommune.no INFO SOA minimum for skaun.kommune.no OK (600) - recommended between 300 and 86400.
+ 38.362: skaun.kommune.no INFO Done testing SOA parameters for skaun.kommune.no.
+ 38.362: skaun.kommune.no INFO Begin testing connectivity for skaun.kommune.no.
+ 39.360: skaun.kommune.no INFO Zone announced by more than one ASN.
+ 39.897: skaun.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 39.897: skaun.kommune.no INFO Done testing connectivity for skaun.kommune.no.
+ 39.897: skaun.kommune.no INFO Begin testing DNSSEC for skaun.kommune.no.
+ 40.299: skaun.kommune.no INFO Did not find DS record for skaun.kommune.no at parent.
+ 40.409: skaun.kommune.no INFO Servers for skaun.kommune.no have consistent extra processing status.
+ 40.451: skaun.kommune.no INFO Authenticated denial records not found for skaun.kommune.no.
+ 40.465: skaun.kommune.no INFO Did not find DNSKEY record for skaun.kommune.no at child.
+ 40.477: skaun.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 40.477: skaun.kommune.no INFO Done testing DNSSEC for skaun.kommune.no.
+ 40.478: skaun.kommune.no INFO Test completed for zone skaun.kommune.no.

@@ -1,0 +1,233 @@
+  0.000: intron.net INFO Begin testing zone intron.net with version 1.0.1.
+  0.000: intron.net INFO Begin testing delegation for intron.net.
+  3.974: intron.net INFO Name servers listed at parent: dns1.intron.net,dns2.intron.net,dns3.intron.net,dns4.intron.net
+  4.434: intron.net INFO Name servers listed at child: dns1.intron.net,dns1.koneo.net,dns2.intron.net,dns2.koneo.net,dns3.intron.net,dns3.koneo.net,dns4.intron.net,dns4.koneo.net
+  4.434: intron.net NOTICE Additional name server listed at child: dns1.koneo.net
+  4.435: intron.net NOTICE Additional name server listed at child: dns2.koneo.net
+  4.435: intron.net NOTICE Additional name server listed at child: dns3.koneo.net
+  4.435: intron.net NOTICE Additional name server listed at child: dns4.koneo.net
+  4.605: intron.net INFO Parent glue for intron.net found: dns1.intron.net (82.115.144.10)
+  4.615: intron.net INFO Parent glue for intron.net found: dns1.intron.net (2a01:650:0:144:0:0:0:10)
+  4.721: intron.net INFO Parent glue for intron.net found: dns2.intron.net (82.115.131.1)
+  4.776: intron.net INFO Parent glue for intron.net found: dns2.intron.net (2a01:650:0:131:0:0:0:1)
+  4.908: intron.net INFO Parent glue for intron.net found: dns3.intron.net (212.181.125.199)
+  5.197: intron.net INFO Parent glue for intron.net found: dns4.intron.net (193.188.248.48)
+  5.209: intron.net INFO Checking glue for dns1.intron.net (82.115.144.10).
+  5.229: intron.net INFO Child glue for intron.net found: dns1.intron.net (82.115.144.10)
+  5.229: intron.net INFO Checking glue for dns1.intron.net (2a01:650:0:144:0:0:0:10).
+  5.248: intron.net INFO Child glue for intron.net found: dns1.intron.net (2a01:650:0:144:0:0:0:10)
+  5.248: intron.net INFO Checking glue for dns2.intron.net (82.115.131.1).
+  5.267: intron.net INFO Child glue for intron.net found: dns2.intron.net (82.115.131.1)
+  5.267: intron.net INFO Checking glue for dns2.intron.net (2a01:650:0:131:0:0:0:1).
+  5.286: intron.net INFO Child glue for intron.net found: dns2.intron.net (2a01:650:0:131:0:0:0:1)
+  5.286: intron.net INFO Checking glue for dns3.intron.net (212.181.125.199).
+  5.305: intron.net INFO Child glue for intron.net found: dns3.intron.net (212.181.125.199)
+  5.305: intron.net INFO Checking glue for dns4.intron.net (193.188.248.48).
+  5.325: intron.net INFO Child glue for intron.net found: dns4.intron.net (193.188.248.48)
+  5.325: intron.net INFO Done testing delegation for intron.net.
+  5.326: intron.net INFO Begin testing name server dns1.intron.net.
+  5.326: intron.net INFO Begin testing host dns1.intron.net.
+  5.326: intron.net INFO Begin testing address 82.115.144.10.
+  7.938: intron.net INFO Done testing address 82.115.144.10.
+  7.938: intron.net INFO Begin testing address 2a01:650:0:144:0:0:0:10.
+  9.862: intron.net INFO Done testing address 2a01:650:0:144:0:0:0:10.
+  9.862: intron.net INFO Done testing host dns1.intron.net.
+  9.875: intron.net INFO Name server dns1.intron.net (82.115.144.10) is not recursive.
+  9.893: intron.net INFO Name server dns1.intron.net (82.115.144.10) authoritative for intron.net.
+  9.911: intron.net INFO Name server dns1.intron.net (82.115.144.10) answers queries over UDP.
+  9.938: intron.net INFO Name server dns1.intron.net (82.115.144.10) answers queries over TCP.
+  9.966: intron.net INFO Name server dns1.intron.net (82.115.144.10) closed for zone transfer of intron.net.
+  9.978: intron.net NOTICE No answer received from 82.115.144.10 when querying for hostname.bind/CH/TXT.
+  9.989: intron.net NOTICE No answer received from 82.115.144.10 when querying for version.bind/CH/TXT.
+ 10.000: intron.net NOTICE No answer received from 82.115.144.10 when querying for id.server/CH/TXT.
+ 10.011: intron.net NOTICE No answer received from 82.115.144.10 when querying for version.server/CH/TXT.
+ 10.012: intron.net INFO IPv6 disabled - will not test name server at 2a01:650:0:144:0:0:0:10
+ 10.012: intron.net INFO Done testing name server dns1.intron.net.
+ 10.012: intron.net INFO Begin testing name server dns1.koneo.net.
+ 10.012: intron.net INFO Begin testing host dns1.koneo.net.
+ 10.012: intron.net INFO Begin testing address 82.115.144.10.
+ 10.014: intron.net INFO Done testing address 82.115.144.10.
+ 10.014: intron.net INFO Begin testing address 2a01:650:0:144:0:0:0:10.
+ 10.015: intron.net INFO Done testing address 2a01:650:0:144:0:0:0:10.
+ 10.016: intron.net INFO Done testing host dns1.koneo.net.
+ 10.027: intron.net INFO Name server dns1.koneo.net (82.115.144.10) is not recursive.
+ 10.045: intron.net INFO Name server dns1.koneo.net (82.115.144.10) authoritative for intron.net.
+ 10.063: intron.net INFO Name server dns1.koneo.net (82.115.144.10) answers queries over UDP.
+ 10.090: intron.net INFO Name server dns1.koneo.net (82.115.144.10) answers queries over TCP.
+ 10.121: intron.net INFO Name server dns1.koneo.net (82.115.144.10) closed for zone transfer of intron.net.
+ 10.132: intron.net NOTICE No answer received from 82.115.144.10 when querying for hostname.bind/CH/TXT.
+ 10.143: intron.net NOTICE No answer received from 82.115.144.10 when querying for version.bind/CH/TXT.
+ 10.155: intron.net NOTICE No answer received from 82.115.144.10 when querying for id.server/CH/TXT.
+ 10.166: intron.net NOTICE No answer received from 82.115.144.10 when querying for version.server/CH/TXT.
+ 10.167: intron.net INFO IPv6 disabled - will not test name server at 2a01:650:0:144:0:0:0:10
+ 10.167: intron.net INFO Done testing name server dns1.koneo.net.
+ 10.167: intron.net INFO Begin testing name server dns2.intron.net.
+ 10.167: intron.net INFO Begin testing host dns2.intron.net.
+ 10.167: intron.net INFO Begin testing address 82.115.131.1.
+ 10.192: intron.net INFO Done testing address 82.115.131.1.
+ 10.192: intron.net INFO Begin testing address 2a01:650:0:131:0:0:0:1.
+ 10.210: intron.net INFO Done testing address 2a01:650:0:131:0:0:0:1.
+ 10.210: intron.net INFO Done testing host dns2.intron.net.
+ 10.222: intron.net INFO Name server dns2.intron.net (82.115.131.1) is not recursive.
+ 10.240: intron.net INFO Name server dns2.intron.net (82.115.131.1) authoritative for intron.net.
+ 10.258: intron.net INFO Name server dns2.intron.net (82.115.131.1) answers queries over UDP.
+ 10.284: intron.net INFO Name server dns2.intron.net (82.115.131.1) answers queries over TCP.
+ 10.311: intron.net INFO Name server dns2.intron.net (82.115.131.1) closed for zone transfer of intron.net.
+ 10.323: intron.net NOTICE No answer received from 82.115.131.1 when querying for hostname.bind/CH/TXT.
+ 10.336: intron.net NOTICE No answer received from 82.115.131.1 when querying for version.bind/CH/TXT.
+ 10.347: intron.net NOTICE No answer received from 82.115.131.1 when querying for id.server/CH/TXT.
+ 10.357: intron.net NOTICE No answer received from 82.115.131.1 when querying for version.server/CH/TXT.
+ 10.358: intron.net INFO IPv6 disabled - will not test name server at 2a01:650:0:131:0:0:0:1
+ 10.358: intron.net INFO Done testing name server dns2.intron.net.
+ 10.358: intron.net INFO Begin testing name server dns2.koneo.net.
+ 10.358: intron.net INFO Begin testing host dns2.koneo.net.
+ 10.358: intron.net INFO Begin testing address 82.115.131.1.
+ 10.359: intron.net INFO Done testing address 82.115.131.1.
+ 10.360: intron.net INFO Begin testing address 2a01:650:0:131:0:0:0:1.
+ 10.361: intron.net INFO Done testing address 2a01:650:0:131:0:0:0:1.
+ 10.361: intron.net INFO Done testing host dns2.koneo.net.
+ 10.373: intron.net INFO Name server dns2.koneo.net (82.115.131.1) is not recursive.
+ 10.393: intron.net INFO Name server dns2.koneo.net (82.115.131.1) authoritative for intron.net.
+ 10.412: intron.net INFO Name server dns2.koneo.net (82.115.131.1) answers queries over UDP.
+ 10.439: intron.net INFO Name server dns2.koneo.net (82.115.131.1) answers queries over TCP.
+ 10.466: intron.net INFO Name server dns2.koneo.net (82.115.131.1) closed for zone transfer of intron.net.
+ 10.478: intron.net NOTICE No answer received from 82.115.131.1 when querying for hostname.bind/CH/TXT.
+ 10.489: intron.net NOTICE No answer received from 82.115.131.1 when querying for version.bind/CH/TXT.
+ 10.499: intron.net NOTICE No answer received from 82.115.131.1 when querying for id.server/CH/TXT.
+ 10.510: intron.net NOTICE No answer received from 82.115.131.1 when querying for version.server/CH/TXT.
+ 10.510: intron.net INFO IPv6 disabled - will not test name server at 2a01:650:0:131:0:0:0:1
+ 10.510: intron.net INFO Done testing name server dns2.koneo.net.
+ 10.510: intron.net INFO Begin testing name server dns3.intron.net.
+ 10.511: intron.net INFO Begin testing host dns3.intron.net.
+ 10.511: intron.net INFO Begin testing address 212.181.125.199.
+ 11.327: intron.net INFO Done testing address 212.181.125.199.
+ 11.327: intron.net INFO Done testing host dns3.intron.net.
+ 11.343: intron.net INFO Name server dns3.intron.net (212.181.125.199) is not recursive.
+ 11.364: intron.net INFO Name server dns3.intron.net (212.181.125.199) authoritative for intron.net.
+ 11.386: intron.net INFO Name server dns3.intron.net (212.181.125.199) answers queries over UDP.
+ 11.419: intron.net INFO Name server dns3.intron.net (212.181.125.199) answers queries over TCP.
+ 11.460: intron.net INFO Name server dns3.intron.net (212.181.125.199) closed for zone transfer of intron.net.
+ 11.475: intron.net NOTICE No answer received from 212.181.125.199 when querying for hostname.bind/CH/TXT.
+ 11.490: intron.net NOTICE No answer received from 212.181.125.199 when querying for version.bind/CH/TXT.
+ 11.504: intron.net NOTICE No answer received from 212.181.125.199 when querying for id.server/CH/TXT.
+ 11.520: intron.net NOTICE No answer received from 212.181.125.199 when querying for version.server/CH/TXT.
+ 11.520: intron.net INFO Done testing name server dns3.intron.net.
+ 11.520: intron.net INFO Begin testing name server dns3.koneo.net.
+ 11.520: intron.net INFO Begin testing host dns3.koneo.net.
+ 11.520: intron.net INFO Begin testing address 212.181.125.199.
+ 11.521: intron.net INFO Done testing address 212.181.125.199.
+ 11.521: intron.net INFO Done testing host dns3.koneo.net.
+ 11.537: intron.net INFO Name server dns3.koneo.net (212.181.125.199) is not recursive.
+ 11.557: intron.net INFO Name server dns3.koneo.net (212.181.125.199) authoritative for intron.net.
+ 11.578: intron.net INFO Name server dns3.koneo.net (212.181.125.199) answers queries over UDP.
+ 11.613: intron.net INFO Name server dns3.koneo.net (212.181.125.199) answers queries over TCP.
+ 11.658: intron.net INFO Name server dns3.koneo.net (212.181.125.199) closed for zone transfer of intron.net.
+ 11.676: intron.net NOTICE No answer received from 212.181.125.199 when querying for hostname.bind/CH/TXT.
+ 11.692: intron.net NOTICE No answer received from 212.181.125.199 when querying for version.bind/CH/TXT.
+ 11.706: intron.net NOTICE No answer received from 212.181.125.199 when querying for id.server/CH/TXT.
+ 11.722: intron.net NOTICE No answer received from 212.181.125.199 when querying for version.server/CH/TXT.
+ 11.722: intron.net INFO Done testing name server dns3.koneo.net.
+ 11.722: intron.net INFO Begin testing name server dns4.intron.net.
+ 11.722: intron.net INFO Begin testing host dns4.intron.net.
+ 11.723: intron.net INFO Begin testing address 193.188.248.48.
+ 12.009: intron.net INFO Done testing address 193.188.248.48.
+ 12.009: intron.net INFO Done testing host dns4.intron.net.
+ 12.022: intron.net INFO Name server dns4.intron.net (193.188.248.48) is not recursive.
+ 12.042: intron.net INFO Name server dns4.intron.net (193.188.248.48) authoritative for intron.net.
+ 12.060: intron.net INFO Name server dns4.intron.net (193.188.248.48) answers queries over UDP.
+ 12.089: intron.net INFO Name server dns4.intron.net (193.188.248.48) answers queries over TCP.
+ 12.119: intron.net INFO Name server dns4.intron.net (193.188.248.48) closed for zone transfer of intron.net.
+ 12.131: intron.net NOTICE No answer received from 193.188.248.48 when querying for hostname.bind/CH/TXT.
+ 12.143: intron.net NOTICE No answer received from 193.188.248.48 when querying for version.bind/CH/TXT.
+ 12.159: intron.net NOTICE No answer received from 193.188.248.48 when querying for id.server/CH/TXT.
+ 12.173: intron.net NOTICE No answer received from 193.188.248.48 when querying for version.server/CH/TXT.
+ 12.173: intron.net INFO Done testing name server dns4.intron.net.
+ 12.173: intron.net INFO Begin testing name server dns4.koneo.net.
+ 12.174: intron.net INFO Begin testing host dns4.koneo.net.
+ 12.174: intron.net INFO Begin testing address 193.188.248.48.
+ 12.176: intron.net INFO Done testing address 193.188.248.48.
+ 12.176: intron.net INFO Done testing host dns4.koneo.net.
+ 12.189: intron.net INFO Name server dns4.koneo.net (193.188.248.48) is not recursive.
+ 12.210: intron.net INFO Name server dns4.koneo.net (193.188.248.48) authoritative for intron.net.
+ 12.229: intron.net INFO Name server dns4.koneo.net (193.188.248.48) answers queries over UDP.
+ 12.259: intron.net INFO Name server dns4.koneo.net (193.188.248.48) answers queries over TCP.
+ 12.291: intron.net INFO Name server dns4.koneo.net (193.188.248.48) closed for zone transfer of intron.net.
+ 12.304: intron.net NOTICE No answer received from 193.188.248.48 when querying for hostname.bind/CH/TXT.
+ 12.321: intron.net NOTICE No answer received from 193.188.248.48 when querying for version.bind/CH/TXT.
+ 12.334: intron.net NOTICE No answer received from 193.188.248.48 when querying for id.server/CH/TXT.
+ 12.347: intron.net NOTICE No answer received from 193.188.248.48 when querying for version.server/CH/TXT.
+ 12.347: intron.net INFO Done testing name server dns4.koneo.net.
+ 12.347: intron.net INFO Begin testing zone consistency for intron.net.
+ 12.372: intron.net INFO SOA at address 82.115.131.1 has serial 2010090300.
+ 12.392: intron.net INFO SOA at address 212.181.125.199 has serial 2010090300.
+ 12.412: intron.net INFO SOA at address 193.188.248.48 has serial 2010090300.
+ 12.430: intron.net INFO SOA at address 82.115.144.10 has serial 2010090300.
+ 12.431: intron.net INFO All SOA records have consistent serial numbers.
+ 12.431: intron.net INFO All SOA records are consistent among all name servers.
+ 12.431: intron.net INFO Done testing zone consistency for intron.net.
+ 12.431: intron.net INFO Begin testing SOA parameters for intron.net.
+ 12.450: intron.net INFO Found SOA record for intron.net.
+ 12.451: intron.net INFO Begin testing host dns1.koneo.net.
+ 12.451: intron.net INFO Begin testing address 82.115.144.10.
+ 12.452: intron.net INFO Done testing address 82.115.144.10.
+ 12.452: intron.net INFO Begin testing address 2a01:650:0:144:0:0:0:10.
+ 12.454: intron.net INFO Done testing address 2a01:650:0:144:0:0:0:10.
+ 12.454: intron.net INFO Done testing host dns1.koneo.net.
+ 12.454: intron.net INFO SOA MNAME for intron.net valid (dns1.koneo.net).
+ 12.454: intron.net INFO SOA MNAME for intron.net (dns1.koneo.net) listed as NS.
+ 12.473: intron.net INFO SOA MNAME for intron.net (dns1.koneo.net) is authoritative.
+ 12.473: intron.net INFO IPv6 disabled - will not query SOA MNAME at 2a01:650:0:144:0:0:0:10
+ 12.473: intron.net INFO Begin testing email address hostmaster@koneo.net.
+ 12.495: intron.net INFO Mail exchangers for hostmaster@koneo.net found mail.intron.net.
+ 12.495: intron.net INFO All mail servers for hostmaster@koneo.net are in zone intron.net.
+ 12.495: intron.net INFO Begin testing host mail.intron.net.
+ 12.532: intron.net INFO Begin testing address 82.115.144.34.
+ 12.582: intron.net INFO Done testing address 82.115.144.34.
+ 12.582: intron.net INFO Begin testing address 82.115.144.35.
+ 12.634: intron.net INFO Done testing address 82.115.144.35.
+ 12.635: intron.net INFO Begin testing address 82.115.144.36.
+ 12.687: intron.net INFO Done testing address 82.115.144.36.
+ 12.687: intron.net INFO Begin testing address 82.115.144.37.
+ 12.738: intron.net INFO Done testing address 82.115.144.37.
+ 12.738: intron.net INFO Begin testing address 2a01:650:0:144:25:0:0:35.
+ 12.755: intron.net INFO Done testing address 2a01:650:0:144:25:0:0:35.
+ 12.755: intron.net INFO Begin testing address 2a01:650:0:144:25:0:0:36.
+ 12.773: intron.net INFO Done testing address 2a01:650:0:144:25:0:0:36.
+ 12.773: intron.net INFO Begin testing address 2a01:650:0:144:25:0:0:37.
+ 12.791: intron.net INFO Done testing address 2a01:650:0:144:25:0:0:37.
+ 12.791: intron.net INFO Begin testing address 2a01:650:0:144:25:0:0:34.
+ 12.810: intron.net INFO Done testing address 2a01:650:0:144:25:0:0:34.
+ 12.810: intron.net INFO Done testing host mail.intron.net.
+ 12.810: intron.net INFO Begin testing mail server mail.intron.net (82.115.144.34) with hostmaster@koneo.net.
+ 12.849: intron.net INFO SMTP banner: mfs264.intron.net ESMTP Postfix
+ 13.047: intron.net INFO SMTP testing of mail.intron.net (82.115.144.34) with hostmaster@koneo.net succeeded without errors.
+ 13.047: intron.net INFO Done testing mail server mail.intron.net (82.115.144.34) with hostmaster@koneo.net.
+ 13.047: intron.net INFO Delivery over IPv4 to hostmaster@koneo.net ok.
+ 13.047: intron.net INFO Delivery over IPv6 to hostmaster@koneo.net could not be done.
+ 13.048: intron.net INFO Done testing email address hostmaster@koneo.net.
+ 13.048: intron.net INFO Successful attempt to deliver email for SOA RNAME of intron.net (hostmaster.koneo.net) using hostmaster@koneo.net.
+ 13.048: intron.net INFO SOA TTL for intron.net OK (3600) - recommended >= 3600.
+ 13.048: intron.net INFO SOA refresh for intron.net OK (28800) - recommended >= 14400.
+ 13.048: intron.net INFO SOA retry for intron.net OK (7200) - recommended >= 3600.
+ 13.048: intron.net INFO SOA expire for intron.net OK (2419200) - recommended >= 604800.
+ 13.048: intron.net INFO SOA minimum for intron.net OK (3600) - recommended between 300 and 86400.
+ 13.048: intron.net INFO Done testing SOA parameters for intron.net.
+ 13.048: intron.net INFO Begin testing connectivity for intron.net.
+ 13.406: intron.net INFO Name server 193.188.248.48 announced by: 3301
+ 13.531: intron.net INFO Name server 82.115.144.10 announced by: 30795
+ 13.660: intron.net INFO Name server 82.115.131.1 announced by: 30795
+ 13.790: intron.net INFO Name server 212.181.125.199 announced by: 3301
+ 13.790: intron.net INFO Zone announced by ASN: 3301,30795
+ 13.790: intron.net INFO Zone announced by more than one ASN (2).
+ 13.922: intron.net INFO Name server 2a01:0650:0000:0144:0000:0000:0000:0010 announced over IPv6 by: 30795
+ 14.047: intron.net INFO Name server 2a01:0650:0000:0131:0000:0000:0000:0001 announced over IPv6 by: 30795
+ 14.047: intron.net INFO Zone announced by IPv6 ASN: 30795
+ 14.047: intron.net NOTICE Zone announced by only one IPv6 ASN (1).
+ 14.047: intron.net INFO Done testing connectivity for intron.net.
+ 14.047: intron.net INFO Begin testing DNSSEC for intron.net.
+ 14.605: intron.net INFO Did not find DS record for intron.net at parent.
+ 14.697: intron.net INFO Servers for intron.net have consistent extra processing status.
+ 14.697: intron.net INFO Did not find DNSKEY record for intron.net at child.
+ 14.697: intron.net INFO No DNSKEY(s) found at child, other tests skipped.
+ 14.697: intron.net INFO Done testing DNSSEC for intron.net.
+ 14.697: intron.net INFO Test completed for zone intron.net.

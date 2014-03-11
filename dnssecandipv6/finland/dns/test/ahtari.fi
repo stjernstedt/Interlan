@@ -1,0 +1,91 @@
+  0.000: ahtari.fi INFO Begin testing zone ahtari.fi with version 1.6.1.
+  0.341: ahtari.fi INFO Begin testing delegation for ahtari.fi.
+  7.826: ahtari.fi INFO Name servers listed at parent: dns1.6net.fi,dns2.6net.fi
+  9.508: ahtari.fi INFO Name servers listed at child: dns1.6net.fi,dns2.6net.fi
+  9.509: ahtari.fi NOTICE No IPv6 name servers found.
+  9.593: ahtari.fi INFO Parent glue for ahtari.fi found: dns1.6net.fi (81.209.108.14)
+  9.877: ahtari.fi INFO Parent glue for ahtari.fi found: dns2.6net.fi (81.209.108.34)
+  9.932: ahtari.fi INFO Checking glue for dns1.6net.fi (81.209.108.14).
+  9.932: ahtari.fi INFO Checking glue for dns2.6net.fi (81.209.108.34).
+  9.933: ahtari.fi INFO Parent glue for ahtari.fi found: dns1.6net.fi (81.209.108.14)
+  9.933: ahtari.fi INFO Parent glue for ahtari.fi found: dns2.6net.fi (81.209.108.34)
+ 10.913: ahtari.fi INFO It is possible to build a referral packet for ahtari.fi that works without EDNS0.
+ 11.480: ahtari.fi INFO Previously used name servers for ahtari.fi: 
+ 11.480: ahtari.fi INFO Done testing delegation for ahtari.fi.
+ 11.481: ahtari.fi INFO Begin testing name server dns1.6net.fi.
+ 11.481: ahtari.fi INFO Begin testing host dns1.6net.fi.
+ 11.815: ahtari.fi INFO Begin testing address 81.209.108.14.
+ 20.707: ahtari.fi INFO Done testing address 81.209.108.14.
+ 20.707: ahtari.fi INFO Done testing host dns1.6net.fi.
+ 20.942: ahtari.fi INFO Name server dns1.6net.fi (81.209.108.14) answers queries over UDP.
+ 22.991: ahtari.fi NOTICE DNS lookup error (connection failed).
+ 22.992: ahtari.fi ERROR Name server dns1.6net.fi (81.209.108.14) does not answer queries over TCP.
+ 23.038: ahtari.fi INFO Name server dns1.6net.fi (81.209.108.14) is not recursive.
+ 25.215: ahtari.fi NOTICE DNS lookup error (connection failed).
+ 25.216: ahtari.fi INFO Name server dns1.6net.fi (81.209.108.14) authoritative for ahtari.fi.
+ 25.216: ahtari.fi INFO Name server dns1.6net.fi (81.209.108.14) not checked for zone transfer of ahtari.fi.
+ 25.216: ahtari.fi INFO Name server dns1.6net.fi (81.209.108.14) not checked for legacy name server ID.
+ 25.216: ahtari.fi INFO Done testing name server dns1.6net.fi.
+ 25.216: ahtari.fi INFO Begin testing name server dns2.6net.fi.
+ 25.216: ahtari.fi INFO Begin testing host dns2.6net.fi.
+ 25.472: ahtari.fi INFO Begin testing address 81.209.108.34.
+ 26.128: ahtari.fi INFO Done testing address 81.209.108.34.
+ 26.128: ahtari.fi INFO Done testing host dns2.6net.fi.
+ 26.380: ahtari.fi INFO Name server dns2.6net.fi (81.209.108.34) answers queries over UDP.
+ 28.391: ahtari.fi NOTICE DNS lookup error (connection failed).
+ 28.392: ahtari.fi ERROR Name server dns2.6net.fi (81.209.108.34) does not answer queries over TCP.
+ 28.416: ahtari.fi INFO Name server dns2.6net.fi (81.209.108.34) is not recursive.
+ 30.497: ahtari.fi NOTICE DNS lookup error (connection failed).
+ 30.498: ahtari.fi INFO Name server dns2.6net.fi (81.209.108.34) authoritative for ahtari.fi.
+ 30.498: ahtari.fi INFO Name server dns2.6net.fi (81.209.108.34) not checked for zone transfer of ahtari.fi.
+ 30.498: ahtari.fi INFO Name server dns2.6net.fi (81.209.108.34) not checked for legacy name server ID.
+ 30.498: ahtari.fi INFO Done testing name server dns2.6net.fi.
+ 30.498: ahtari.fi INFO Begin testing zone consistency for ahtari.fi.
+ 31.228: ahtari.fi INFO SOA at address 81.209.108.14 has serial 2013102800.
+ 31.247: ahtari.fi INFO SOA at address 81.209.108.34 has serial 2013102800.
+ 31.253: ahtari.fi INFO All SOA records have consistent serial numbers.
+ 31.253: ahtari.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 31.691: ahtari.fi NOTICE The listed nameservers for ahtari.fi all report the same set of nameservers.
+ 31.691: ahtari.fi INFO Done testing zone consistency for ahtari.fi.
+ 31.691: ahtari.fi INFO Begin testing SOA parameters for ahtari.fi.
+ 31.711: ahtari.fi INFO Found SOA record for ahtari.fi.
+ 31.711: ahtari.fi INFO Begin testing host dns1.6net.fi.
+ 31.818: ahtari.fi INFO Begin testing address 81.209.108.14.
+ 31.982: ahtari.fi INFO Done testing address 81.209.108.14.
+ 31.983: ahtari.fi INFO Done testing host dns1.6net.fi.
+ 31.983: ahtari.fi INFO SOA MNAME for ahtari.fi valid (dns1.6net.fi).
+ 31.983: ahtari.fi INFO SOA MNAME for ahtari.fi (dns1.6net.fi) listed as NS.
+ 32.153: ahtari.fi INFO SOA MNAME for ahtari.fi (dns1.6net.fi) is authoritative.
+ 32.153: ahtari.fi INFO Begin testing email address hostmaster@6net.fi.
+ 32.281: ahtari.fi INFO Mail exchangers for hostmaster@6net.fi found smtp2.6net.fi,smtp1.6net.fi.
+ 32.281: ahtari.fi INFO Begin testing host smtp2.6net.fi.
+ 32.508: ahtari.fi INFO Begin testing address 81.209.108.36.
+ 32.992: ahtari.fi INFO Done testing address 81.209.108.36.
+ 32.992: ahtari.fi INFO Done testing host smtp2.6net.fi.
+ 33.076: ahtari.fi INFO Begin testing host smtp1.6net.fi.
+ 33.291: ahtari.fi INFO Begin testing address 81.209.108.35.
+ 33.608: ahtari.fi INFO Done testing address 81.209.108.35.
+ 33.608: ahtari.fi INFO Done testing host smtp1.6net.fi.
+ 33.740: ahtari.fi INFO Done testing email address hostmaster@6net.fi.
+ 33.740: ahtari.fi INFO Successful attempt to deliver email for SOA RNAME of ahtari.fi (hostmaster.6net.fi) using hostmaster@6net.fi.
+ 33.740: ahtari.fi INFO SOA TTL for ahtari.fi OK (86400) - recommended >= 3600.
+ 33.740: ahtari.fi INFO SOA refresh for ahtari.fi OK (28800) - recommended >= 14400.
+ 33.740: ahtari.fi INFO SOA retry for ahtari.fi OK (7200) - recommended >= 3600.
+ 33.740: ahtari.fi INFO SOA expire for ahtari.fi OK (604800) - recommended >= 604800.
+ 33.740: ahtari.fi INFO SOA minimum for ahtari.fi OK (86400) - recommended between 300 and 86400.
+ 33.740: ahtari.fi INFO Done testing SOA parameters for ahtari.fi.
+ 33.741: ahtari.fi INFO Begin testing connectivity for ahtari.fi.
+ 34.697: ahtari.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 34.698: ahtari.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 34.698: ahtari.fi INFO Done testing connectivity for ahtari.fi.
+ 34.698: ahtari.fi INFO Begin testing DNSSEC for ahtari.fi.
+ 34.804: ahtari.fi INFO Did not find DS record for ahtari.fi at parent.
+ 36.817: ahtari.fi NOTICE DNS lookup error (connection failed).
+ 38.829: ahtari.fi NOTICE DNS lookup error (connection failed).
+ 38.829: ahtari.fi INFO Servers for ahtari.fi have consistent extra processing status.
+ 42.853: ahtari.fi NOTICE DNS lookup error (connection failed).
+ 42.853: ahtari.fi INFO Authenticated denial records not found for ahtari.fi.
+ 42.872: ahtari.fi INFO Did not find DNSKEY record for ahtari.fi at child.
+ 42.873: ahtari.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 42.873: ahtari.fi INFO Done testing DNSSEC for ahtari.fi.
+ 42.873: ahtari.fi INFO Test completed for zone ahtari.fi.

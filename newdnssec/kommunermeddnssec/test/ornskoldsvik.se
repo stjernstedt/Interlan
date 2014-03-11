@@ -1,0 +1,128 @@
+  0.000: ornskoldsvik.se INFO Begin testing zone ornskoldsvik.se with version 1.6.1.
+  0.582: ornskoldsvik.se INFO Begin testing delegation for ornskoldsvik.se.
+  9.390: ornskoldsvik.se INFO Name servers listed at parent: ns.ornskoldsvik.se,ns2.ornskoldsvik.se
+ 11.143: ornskoldsvik.se INFO Name servers listed at child: ns.ornskoldsvik.se,ns2.ornskoldsvik.se
+ 11.143: ornskoldsvik.se NOTICE No IPv6 name servers found.
+ 11.199: ornskoldsvik.se INFO Parent glue for ornskoldsvik.se found: ns.ornskoldsvik.se (192.36.230.66)
+ 11.315: ornskoldsvik.se INFO Parent glue for ornskoldsvik.se found: ns2.ornskoldsvik.se (192.36.230.100)
+ 11.377: ornskoldsvik.se INFO Checking glue for ns.ornskoldsvik.se (192.36.230.66).
+ 11.441: ornskoldsvik.se INFO Child glue for ornskoldsvik.se found: ns.ornskoldsvik.se (192.36.230.66)
+ 11.441: ornskoldsvik.se INFO Checking glue for ns2.ornskoldsvik.se (192.36.230.100).
+ 11.534: ornskoldsvik.se INFO Child glue for ornskoldsvik.se found: ns2.ornskoldsvik.se (192.36.230.100)
+ 11.534: ornskoldsvik.se INFO Parent glue for ornskoldsvik.se found: ns.ornskoldsvik.se (192.36.230.66)
+ 11.535: ornskoldsvik.se INFO Parent glue for ornskoldsvik.se found: ns2.ornskoldsvik.se (192.36.230.100)
+ 12.289: ornskoldsvik.se INFO It is possible to build a referral packet for ornskoldsvik.se that works without EDNS0.
+ 13.007: ornskoldsvik.se INFO Previously used name servers for ornskoldsvik.se: 
+ 13.007: ornskoldsvik.se INFO Done testing delegation for ornskoldsvik.se.
+ 13.007: ornskoldsvik.se INFO Begin testing name server ns.ornskoldsvik.se.
+ 13.007: ornskoldsvik.se INFO Begin testing host ns.ornskoldsvik.se.
+ 13.383: ornskoldsvik.se INFO Begin testing address 192.36.230.66.
+ 35.320: ornskoldsvik.se INFO Done testing address 192.36.230.66.
+ 35.320: ornskoldsvik.se INFO Done testing host ns.ornskoldsvik.se.
+ 35.597: ornskoldsvik.se INFO Name server ns.ornskoldsvik.se (192.36.230.66) answers queries over UDP.
+ 35.673: ornskoldsvik.se INFO Name server ns.ornskoldsvik.se (192.36.230.66) answers queries over TCP.
+ 35.704: ornskoldsvik.se INFO Name server ns.ornskoldsvik.se (192.36.230.66) is not recursive.
+ 36.025: ornskoldsvik.se INFO Name server ns.ornskoldsvik.se (192.36.230.66) authoritative for ornskoldsvik.se.
+ 36.092: ornskoldsvik.se INFO Name server ns.ornskoldsvik.se (192.36.230.66) closed for zone transfer of ornskoldsvik.se.
+ 36.120: ornskoldsvik.se NOTICE No answer received from 192.36.230.66 when querying for hostname.bind/CH/TXT.
+ 36.148: ornskoldsvik.se NOTICE No answer received from 192.36.230.66 when querying for version.bind/CH/TXT.
+ 36.182: ornskoldsvik.se NOTICE No answer received from 192.36.230.66 when querying for id.server/CH/TXT.
+ 36.199: ornskoldsvik.se NOTICE No answer received from 192.36.230.66 when querying for version.server/CH/TXT.
+ 36.200: ornskoldsvik.se INFO Done testing name server ns.ornskoldsvik.se.
+ 36.200: ornskoldsvik.se INFO Begin testing name server ns2.ornskoldsvik.se.
+ 36.200: ornskoldsvik.se INFO Begin testing host ns2.ornskoldsvik.se.
+ 36.346: ornskoldsvik.se INFO Begin testing address 192.36.230.100.
+ 37.204: ornskoldsvik.se INFO Done testing address 192.36.230.100.
+ 37.204: ornskoldsvik.se INFO Done testing host ns2.ornskoldsvik.se.
+ 37.449: ornskoldsvik.se INFO Name server ns2.ornskoldsvik.se (192.36.230.100) answers queries over UDP.
+ 37.521: ornskoldsvik.se INFO Name server ns2.ornskoldsvik.se (192.36.230.100) answers queries over TCP.
+ 37.541: ornskoldsvik.se INFO Name server ns2.ornskoldsvik.se (192.36.230.100) is not recursive.
+ 37.651: ornskoldsvik.se INFO Name server ns2.ornskoldsvik.se (192.36.230.100) authoritative for ornskoldsvik.se.
+ 37.706: ornskoldsvik.se INFO Name server ns2.ornskoldsvik.se (192.36.230.100) closed for zone transfer of ornskoldsvik.se.
+ 37.725: ornskoldsvik.se NOTICE No answer received from 192.36.230.100 when querying for hostname.bind/CH/TXT.
+ 37.770: ornskoldsvik.se NOTICE No answer received from 192.36.230.100 when querying for version.bind/CH/TXT.
+ 37.788: ornskoldsvik.se NOTICE No answer received from 192.36.230.100 when querying for id.server/CH/TXT.
+ 37.814: ornskoldsvik.se NOTICE No answer received from 192.36.230.100 when querying for version.server/CH/TXT.
+ 37.814: ornskoldsvik.se INFO Done testing name server ns2.ornskoldsvik.se.
+ 37.814: ornskoldsvik.se INFO Begin testing zone consistency for ornskoldsvik.se.
+ 38.716: ornskoldsvik.se INFO SOA at address 192.36.230.100 has serial 2014012011.
+ 38.735: ornskoldsvik.se INFO SOA at address 192.36.230.66 has serial 2014012011.
+ 38.736: ornskoldsvik.se INFO All SOA records have consistent serial numbers.
+ 38.736: ornskoldsvik.se INFO All other fields in the SOA record are consistent among all name servers.
+ 39.087: ornskoldsvik.se NOTICE The listed nameservers for ornskoldsvik.se all report the same set of nameservers.
+ 39.087: ornskoldsvik.se INFO Done testing zone consistency for ornskoldsvik.se.
+ 39.087: ornskoldsvik.se INFO Begin testing SOA parameters for ornskoldsvik.se.
+ 39.105: ornskoldsvik.se INFO Found SOA record for ornskoldsvik.se.
+ 39.106: ornskoldsvik.se INFO Begin testing host ns.ornskoldsvik.se.
+ 39.326: ornskoldsvik.se INFO Begin testing address 192.36.230.66.
+ 39.445: ornskoldsvik.se INFO Done testing address 192.36.230.66.
+ 39.445: ornskoldsvik.se INFO Done testing host ns.ornskoldsvik.se.
+ 39.445: ornskoldsvik.se INFO SOA MNAME for ornskoldsvik.se valid (ns.ornskoldsvik.se).
+ 39.445: ornskoldsvik.se INFO SOA MNAME for ornskoldsvik.se (ns.ornskoldsvik.se) listed as NS.
+ 39.594: ornskoldsvik.se INFO SOA MNAME for ornskoldsvik.se (ns.ornskoldsvik.se) is authoritative.
+ 39.595: ornskoldsvik.se INFO Begin testing email address hostmaster@ornskoldsvik.se.
+ 39.709: ornskoldsvik.se INFO Mail exchangers for hostmaster@ornskoldsvik.se found mailgw.ornskoldsvik.se,gatekeeper.ornskoldsvik.se.
+ 39.709: ornskoldsvik.se INFO All mail servers for hostmaster@ornskoldsvik.se are in zone ornskoldsvik.se.
+ 39.709: ornskoldsvik.se INFO Begin testing host mailgw.ornskoldsvik.se.
+ 40.048: ornskoldsvik.se INFO Begin testing address 192.36.230.80.
+ 40.582: ornskoldsvik.se INFO Done testing address 192.36.230.80.
+ 40.582: ornskoldsvik.se INFO Done testing host mailgw.ornskoldsvik.se.
+ 40.694: ornskoldsvik.se INFO Begin testing host gatekeeper.ornskoldsvik.se.
+ 40.829: ornskoldsvik.se INFO Begin testing address 192.36.230.66.
+ 41.013: ornskoldsvik.se INFO Done testing address 192.36.230.66.
+ 41.013: ornskoldsvik.se INFO Done testing host gatekeeper.ornskoldsvik.se.
+ 41.136: ornskoldsvik.se INFO Done testing email address hostmaster@ornskoldsvik.se.
+ 41.136: ornskoldsvik.se INFO Successful attempt to deliver email for SOA RNAME of ornskoldsvik.se (hostmaster.ornskoldsvik.se) using hostmaster@ornskoldsvik.se.
+ 41.136: ornskoldsvik.se INFO SOA TTL for ornskoldsvik.se OK (3600) - recommended >= 3600.
+ 41.136: ornskoldsvik.se INFO SOA refresh for ornskoldsvik.se OK (14400) - recommended >= 14400.
+ 41.136: ornskoldsvik.se INFO SOA retry for ornskoldsvik.se OK (3600) - recommended >= 3600.
+ 41.136: ornskoldsvik.se INFO SOA expire for ornskoldsvik.se OK (604800) - recommended >= 604800.
+ 41.137: ornskoldsvik.se INFO SOA minimum for ornskoldsvik.se OK (3600) - recommended between 300 and 86400.
+ 41.137: ornskoldsvik.se INFO Done testing SOA parameters for ornskoldsvik.se.
+ 41.137: ornskoldsvik.se INFO Begin testing connectivity for ornskoldsvik.se.
+ 42.332: ornskoldsvik.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 42.332: ornskoldsvik.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 42.332: ornskoldsvik.se INFO Done testing connectivity for ornskoldsvik.se.
+ 42.332: ornskoldsvik.se INFO Begin testing DNSSEC for ornskoldsvik.se.
+ 42.406: ornskoldsvik.se INFO Found DS record for ornskoldsvik.se at parent.
+ 42.444: ornskoldsvik.se INFO Nameserver 192.36.230.66 does DNSSEC extra processing.
+ 42.479: ornskoldsvik.se INFO Nameserver 192.36.230.100 does DNSSEC extra processing.
+ 42.479: ornskoldsvik.se INFO Servers for ornskoldsvik.se have consistent extra processing status.
+ 42.514: ornskoldsvik.se INFO Authenticated denial records found for ornskoldsvik.se, of type NSEC3.
+ 42.533: ornskoldsvik.se INFO NSEC3PARAM record found for ornskoldsvik.se.
+ 42.534: ornskoldsvik.se INFO NSEC3 for ornskoldsvik.se is set to use 11 iterations, which is less than 100 and thus OK.
+ 42.534: ornskoldsvik.se INFO Found DNSKEY record for ornskoldsvik.se at child.
+ 42.534: ornskoldsvik.se INFO Consistent security for ornskoldsvik.se.
+ 42.534: ornskoldsvik.se INFO Checking DNSSEC at child (ornskoldsvik.se).
+ 42.534: ornskoldsvik.se INFO ornskoldsvik.se's key with tag 12483 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 42.534: ornskoldsvik.se INFO Algorithm number 7 is OK.
+ 42.534: ornskoldsvik.se INFO DNSKEY ornskoldsvik.se (tag 12483) is marked as a secure entry point (SEP).
+ 42.534: ornskoldsvik.se INFO ornskoldsvik.se's key with tag 54677 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 42.534: ornskoldsvik.se INFO Algorithm number 7 is OK.
+ 42.535: ornskoldsvik.se INFO DNSSEC signature expires at: Sat Apr  5 09:05:00 2014
+ 42.535: ornskoldsvik.se INFO Duration for RRSIG(ornskoldsvik.se/IN/DNSKEY/12483) is OK (3024000 seconds).
+ 42.546: ornskoldsvik.se INFO DNSSEC signature RRSIG(ornskoldsvik.se/IN/DNSKEY/12483) matches records.
+ 42.546: ornskoldsvik.se INFO DNSSEC signature valid: RRSIG(ornskoldsvik.se/IN/DNSKEY/12483)
+ 42.546: ornskoldsvik.se INFO DNSSEC signature expires at: Sat Apr  5 09:05:00 2014
+ 42.546: ornskoldsvik.se INFO Duration for RRSIG(ornskoldsvik.se/IN/DNSKEY/54677) is OK (3024000 seconds).
+ 42.547: ornskoldsvik.se INFO DNSSEC signature RRSIG(ornskoldsvik.se/IN/DNSKEY/54677) matches records.
+ 42.547: ornskoldsvik.se INFO DNSSEC signature valid: RRSIG(ornskoldsvik.se/IN/DNSKEY/54677)
+ 42.547: ornskoldsvik.se INFO Enough valid signatures found for ornskoldsvik.se.
+ 42.591: ornskoldsvik.se INFO DNSSEC signature expires at: Sat Apr  5 09:05:00 2014
+ 42.591: ornskoldsvik.se INFO Duration for RRSIG(ornskoldsvik.se/IN/SOA/54677) is OK (3024000 seconds).
+ 42.592: ornskoldsvik.se INFO DNSSEC signature RRSIG(ornskoldsvik.se/IN/SOA/54677) matches records.
+ 42.592: ornskoldsvik.se INFO DNSSEC signature valid: RRSIG(ornskoldsvik.se/IN/SOA/54677)
+ 42.592: ornskoldsvik.se INFO Enough valid signatures over SOA RRset found for ornskoldsvik.se.
+ 42.592: ornskoldsvik.se INFO DNSSEC child checks for ornskoldsvik.se complete.
+ 42.592: ornskoldsvik.se INFO Checking DNSSEC at parent of ornskoldsvik.se.
+ 42.592: ornskoldsvik.se INFO ornskoldsvik.se's key with tag 12483 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 42.593: ornskoldsvik.se INFO Algorithm number 7 is OK.
+ 42.593: ornskoldsvik.se INFO Parent DS(ornskoldsvik.se/7/1/12483) refers to valid key at child: DNSKEY(ornskoldsvik.se/7/12483)
+ 42.593: ornskoldsvik.se INFO Parent DS(ornskoldsvik.se) refers to secure entry point (SEP) at child: DS(ornskoldsvik.se/7/1/12483)
+ 42.593: ornskoldsvik.se INFO ornskoldsvik.se's key with tag 12483 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 42.593: ornskoldsvik.se INFO Algorithm number 7 is OK.
+ 42.593: ornskoldsvik.se INFO Parent DS(ornskoldsvik.se/7/2/12483) refers to valid key at child: DNSKEY(ornskoldsvik.se/7/12483)
+ 42.593: ornskoldsvik.se INFO Parent DS(ornskoldsvik.se) refers to secure entry point (SEP) at child: DS(ornskoldsvik.se/7/2/12483)
+ 42.593: ornskoldsvik.se INFO DNSSEC parent checks for ornskoldsvik.se complete.
+ 42.593: ornskoldsvik.se INFO Done testing DNSSEC for ornskoldsvik.se.
+ 42.602: ornskoldsvik.se INFO Test completed for zone ornskoldsvik.se.

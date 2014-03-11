@@ -1,0 +1,84 @@
+  0.000: vimpeli.fi INFO Begin testing zone vimpeli.fi with version 1.5.0.
+  2.549: vimpeli.fi INFO Begin testing delegation for vimpeli.fi.
+ 54.724: vimpeli.fi INFO Name servers listed at parent: ns1.japo.fi,ns2.japo.fi
+ 67.663: vimpeli.fi INFO Name servers listed at child: ns1.japo.fi,ns2.japo.fi
+ 67.663: vimpeli.fi NOTICE No IPv6 name servers found.
+ 68.002: vimpeli.fi INFO Parent glue for vimpeli.fi found: ns1.japo.fi (212.66.193.10)
+ 68.679: vimpeli.fi INFO Parent glue for vimpeli.fi found: ns2.japo.fi (212.66.193.9)
+ 68.851: vimpeli.fi INFO Checking glue for ns1.japo.fi (212.66.193.10).
+ 68.851: vimpeli.fi INFO Checking glue for ns2.japo.fi (212.66.193.9).
+ 68.851: vimpeli.fi INFO Parent glue for vimpeli.fi found: ns1.japo.fi (212.66.193.10)
+ 68.852: vimpeli.fi INFO Parent glue for vimpeli.fi found: ns2.japo.fi (212.66.193.9)
+ 73.835: vimpeli.fi INFO It is possible to build a referral packet for vimpeli.fi that works without EDNS0.
+ 78.586: vimpeli.fi INFO Previously used name servers for vimpeli.fi: 
+ 78.586: vimpeli.fi INFO Done testing delegation for vimpeli.fi.
+ 78.586: vimpeli.fi INFO Begin testing name server ns1.japo.fi.
+ 78.587: vimpeli.fi INFO Begin testing host ns1.japo.fi.
+ 80.894: vimpeli.fi INFO Begin testing address 212.66.193.10.
+119.402: vimpeli.fi INFO Done testing address 212.66.193.10.
+119.402: vimpeli.fi INFO Done testing host ns1.japo.fi.
+120.967: vimpeli.fi INFO Name server ns1.japo.fi (212.66.193.10) answers queries over UDP.
+121.257: vimpeli.fi INFO Name server ns1.japo.fi (212.66.193.10) answers queries over TCP.
+121.518: vimpeli.fi INFO Name server ns1.japo.fi (212.66.193.10) is not recursive.
+122.330: vimpeli.fi INFO Name server ns1.japo.fi (212.66.193.10) authoritative for vimpeli.fi.
+122.552: vimpeli.fi INFO Name server ns1.japo.fi (212.66.193.10) closed for zone transfer of vimpeli.fi.
+122.668: vimpeli.fi INFO Legacy name server ID for ns1.japo.fi (212.66.193.10): hostname.bind = aapo
+123.065: vimpeli.fi INFO Legacy name server ID for ns1.japo.fi (212.66.193.10): version.bind = None of your business
+123.474: vimpeli.fi NOTICE No answer received from 212.66.193.10 when querying for version.server/CH/TXT.
+123.474: vimpeli.fi INFO Done testing name server ns1.japo.fi.
+123.474: vimpeli.fi INFO Begin testing name server ns2.japo.fi.
+123.475: vimpeli.fi INFO Begin testing host ns2.japo.fi.
+124.954: vimpeli.fi INFO Begin testing address 212.66.193.9.
+127.315: vimpeli.fi INFO Done testing address 212.66.193.9.
+127.315: vimpeli.fi INFO Done testing host ns2.japo.fi.
+129.073: vimpeli.fi INFO Name server ns2.japo.fi (212.66.193.9) answers queries over UDP.
+129.253: vimpeli.fi INFO Name server ns2.japo.fi (212.66.193.9) answers queries over TCP.
+129.355: vimpeli.fi INFO Name server ns2.japo.fi (212.66.193.9) is not recursive.
+129.847: vimpeli.fi INFO Name server ns2.japo.fi (212.66.193.9) authoritative for vimpeli.fi.
+129.983: vimpeli.fi INFO Name server ns2.japo.fi (212.66.193.9) closed for zone transfer of vimpeli.fi.
+130.118: vimpeli.fi INFO Legacy name server ID for ns2.japo.fi (212.66.193.9): hostname.bind = ns2.japo.fi
+130.262: vimpeli.fi INFO Legacy name server ID for ns2.japo.fi (212.66.193.9): version.bind = None of your business
+130.465: vimpeli.fi NOTICE No answer received from 212.66.193.9 when querying for version.server/CH/TXT.
+130.507: vimpeli.fi INFO Done testing name server ns2.japo.fi.
+130.507: vimpeli.fi INFO Begin testing zone consistency for vimpeli.fi.
+134.547: vimpeli.fi INFO SOA at address 212.66.193.10 has serial 2012110901.
+134.743: vimpeli.fi INFO SOA at address 212.66.193.9 has serial 2012110901.
+134.743: vimpeli.fi INFO All SOA records have consistent serial numbers.
+134.743: vimpeli.fi INFO All other fields in the SOA record are consistent among all name servers.
+137.307: vimpeli.fi NOTICE The listed nameservers for vimpeli.fi all report the same set of nameservers.
+137.307: vimpeli.fi INFO Done testing zone consistency for vimpeli.fi.
+137.307: vimpeli.fi INFO Begin testing SOA parameters for vimpeli.fi.
+137.607: vimpeli.fi INFO Found SOA record for vimpeli.fi.
+137.607: vimpeli.fi INFO Begin testing host ns1.japo.fi.
+138.399: vimpeli.fi INFO Begin testing address 212.66.193.10.
+139.526: vimpeli.fi INFO Done testing address 212.66.193.10.
+139.526: vimpeli.fi INFO Done testing host ns1.japo.fi.
+139.526: vimpeli.fi INFO SOA MNAME for vimpeli.fi valid (ns1.japo.fi).
+139.527: vimpeli.fi INFO SOA MNAME for vimpeli.fi (ns1.japo.fi) listed as NS.
+140.592: vimpeli.fi INFO SOA MNAME for vimpeli.fi (ns1.japo.fi) is authoritative.
+140.592: vimpeli.fi INFO Begin testing email address hostmaster@japo.fi.
+141.677: vimpeli.fi INFO Mail exchangers for hostmaster@japo.fi found mail.japo.fi.
+141.677: vimpeli.fi INFO Begin testing host mail.japo.fi.
+143.642: vimpeli.fi INFO Begin testing address 212.66.193.100.
+145.321: vimpeli.fi INFO Done testing address 212.66.193.100.
+145.321: vimpeli.fi INFO Done testing host mail.japo.fi.
+146.145: vimpeli.fi INFO Done testing email address hostmaster@japo.fi.
+146.145: vimpeli.fi INFO Successful attempt to deliver email for SOA RNAME of vimpeli.fi (hostmaster.japo.fi) using hostmaster@japo.fi.
+146.145: vimpeli.fi INFO SOA TTL for vimpeli.fi OK (86400) - recommended >= 3600.
+146.145: vimpeli.fi INFO SOA refresh for vimpeli.fi OK (28800) - recommended >= 14400.
+146.145: vimpeli.fi INFO SOA retry for vimpeli.fi OK (7200) - recommended >= 3600.
+146.169: vimpeli.fi INFO SOA expire for vimpeli.fi OK (604800) - recommended >= 604800.
+146.169: vimpeli.fi INFO SOA minimum for vimpeli.fi OK (86400) - recommended between 300 and 86400.
+146.169: vimpeli.fi INFO Done testing SOA parameters for vimpeli.fi.
+146.170: vimpeli.fi INFO Begin testing connectivity for vimpeli.fi.
+148.672: vimpeli.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+148.672: vimpeli.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+148.672: vimpeli.fi INFO Done testing connectivity for vimpeli.fi.
+148.672: vimpeli.fi INFO Begin testing DNSSEC for vimpeli.fi.
+149.010: vimpeli.fi INFO Did not find DS record for vimpeli.fi at parent.
+149.226: vimpeli.fi INFO Servers for vimpeli.fi have consistent extra processing status.
+149.386: vimpeli.fi INFO Authenticated denial records not found for vimpeli.fi.
+149.430: vimpeli.fi INFO Did not find DNSKEY record for vimpeli.fi at child.
+149.430: vimpeli.fi INFO No DNSKEY(s) found at child, other tests skipped.
+149.430: vimpeli.fi INFO Done testing DNSSEC for vimpeli.fi.
+149.431: vimpeli.fi INFO Test completed for zone vimpeli.fi.

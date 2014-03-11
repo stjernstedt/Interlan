@@ -1,0 +1,84 @@
+  0.000: berg.se INFO Begin testing zone berg.se with version 1.2.
+  0.000: berg.se INFO Begin testing delegation for berg.se.
+  6.233: berg.se INFO Name servers listed at parent: dns3.telia.com,dns4.telia.com
+  7.862: berg.se INFO Name servers listed at child: dns3.telia.com,dns4.telia.com
+  7.862: berg.se NOTICE No IPv6 name servers found.
+  8.122: berg.se INFO Done testing delegation for berg.se.
+  8.122: berg.se INFO Begin testing name server dns3.telia.com.
+  8.122: berg.se INFO Begin testing host dns3.telia.com.
+  8.123: berg.se INFO Begin testing address 81.228.11.184.
+ 12.404: berg.se INFO Done testing address 81.228.11.184.
+ 12.404: berg.se INFO Done testing host dns3.telia.com.
+ 12.412: berg.se INFO Name server dns3.telia.com (81.228.11.184) answers queries over UDP.
+ 12.424: berg.se INFO Name server dns3.telia.com (81.228.11.184) answers queries over TCP.
+ 12.431: berg.se INFO Name server dns3.telia.com (81.228.11.184) is not recursive.
+ 12.438: berg.se INFO Name server dns3.telia.com (81.228.11.184) authoritative for berg.se.
+ 12.452: berg.se INFO Name server dns3.telia.com (81.228.11.184) closed for zone transfer of berg.se.
+ 12.462: berg.se INFO Legacy name server ID for dns3.telia.com (81.228.11.184): hostname.bind = dnshosting2-sn1.fre.skanova.net
+ 12.469: berg.se INFO Legacy name server ID for dns3.telia.com (81.228.11.184): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 12.483: berg.se NOTICE No answer received from 81.228.11.184 when querying for version.server/CH/TXT.
+ 12.483: berg.se INFO Done testing name server dns3.telia.com.
+ 12.483: berg.se INFO Begin testing name server dns4.telia.com.
+ 12.483: berg.se INFO Begin testing host dns4.telia.com.
+ 12.484: berg.se INFO Begin testing address 81.228.9.98.
+ 13.544: berg.se INFO Done testing address 81.228.9.98.
+ 13.544: berg.se INFO Done testing host dns4.telia.com.
+ 13.558: berg.se INFO Name server dns4.telia.com (81.228.9.98) answers queries over UDP.
+ 13.581: berg.se INFO Name server dns4.telia.com (81.228.9.98) answers queries over TCP.
+ 13.595: berg.se INFO Name server dns4.telia.com (81.228.9.98) is not recursive.
+ 13.608: berg.se INFO Name server dns4.telia.com (81.228.9.98) authoritative for berg.se.
+ 13.640: berg.se INFO Name server dns4.telia.com (81.228.9.98) closed for zone transfer of berg.se.
+ 13.653: berg.se INFO Legacy name server ID for dns4.telia.com (81.228.9.98): hostname.bind = dnshosting1-sn3.vrr.skanova.net
+ 13.666: berg.se INFO Legacy name server ID for dns4.telia.com (81.228.9.98): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 13.692: berg.se NOTICE No answer received from 81.228.9.98 when querying for version.server/CH/TXT.
+ 13.692: berg.se INFO Done testing name server dns4.telia.com.
+ 13.692: berg.se INFO Begin testing zone consistency for berg.se.
+ 13.708: berg.se INFO SOA at address 81.228.9.98 has serial 2010100101.
+ 13.716: berg.se INFO SOA at address 81.228.11.184 has serial 2010100101.
+ 13.716: berg.se INFO All SOA records have consistent serial numbers.
+ 13.716: berg.se INFO All SOA records are consistent among all name servers.
+ 13.716: berg.se INFO Done testing zone consistency for berg.se.
+ 13.716: berg.se INFO Begin testing SOA parameters for berg.se.
+ 13.730: berg.se INFO Found SOA record for berg.se.
+ 13.730: berg.se INFO Begin testing host dns3.telia.com.
+ 13.730: berg.se INFO Begin testing address 81.228.11.184.
+ 13.732: berg.se INFO Done testing address 81.228.11.184.
+ 13.732: berg.se INFO Done testing host dns3.telia.com.
+ 13.732: berg.se INFO SOA MNAME for berg.se valid (dns3.telia.com).
+ 13.732: berg.se INFO SOA MNAME for berg.se (dns3.telia.com) listed as NS.
+ 13.740: berg.se INFO SOA MNAME for berg.se (dns3.telia.com) is authoritative.
+ 13.740: berg.se INFO Begin testing email address dns@telia.net.
+ 14.231: berg.se INFO Mail exchangers for dns@telia.net found mail.telia.net.
+ 14.231: berg.se INFO Begin testing host mail.telia.net.
+ 15.114: berg.se INFO Begin testing address 194.237.170.102.
+ 16.563: berg.se INFO Done testing address 194.237.170.102.
+ 16.563: berg.se INFO Done testing host mail.telia.net.
+ 16.564: berg.se INFO Begin testing mail server mail.telia.net (194.237.170.102) with dns@telia.net.
+ 16.586: berg.se INFO SMTP banner: avserver.telia.net ESMTP Postfix
+ 16.782: berg.se INFO SMTP testing of mail.telia.net (194.237.170.102) with dns@telia.net succeeded without errors.
+ 16.782: berg.se INFO Done testing mail server mail.telia.net (194.237.170.102) with dns@telia.net.
+ 16.782: berg.se INFO Delivery over IPv4 to dns@telia.net ok.
+ 16.782: berg.se INFO Delivery over IPv6 to dns@telia.net could not be done.
+ 16.782: berg.se INFO Done testing email address dns@telia.net.
+ 16.782: berg.se INFO Successful attempt to deliver email for SOA RNAME of berg.se (dns.telia.net) using dns@telia.net.
+ 16.783: berg.se INFO SOA TTL for berg.se OK (86400) - recommended >= 3600.
+ 16.783: berg.se NOTICE SOA refresh for berg.se too small (10800) - recommended >= 14400.
+ 16.783: berg.se INFO SOA retry for berg.se OK (3600) - recommended >= 3600.
+ 16.783: berg.se INFO SOA expire for berg.se OK (604800) - recommended >= 604800.
+ 16.783: berg.se INFO SOA minimum for berg.se OK (86400) - recommended between 300 and 86400.
+ 16.783: berg.se INFO Done testing SOA parameters for berg.se.
+ 16.783: berg.se INFO Begin testing connectivity for berg.se.
+ 17.320: berg.se INFO Name server 81.228.9.98 announced by: 3301
+ 17.881: berg.se INFO Name server 81.228.11.184 announced by: 3301
+ 17.881: berg.se INFO Zone announced by IPv4 ASN: 3301
+ 17.881: berg.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 17.882: berg.se INFO Zone announced by IPv6 ASN: 
+ 17.882: berg.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 17.882: berg.se INFO Done testing connectivity for berg.se.
+ 17.882: berg.se INFO Begin testing DNSSEC for berg.se.
+ 17.996: berg.se INFO Did not find DS record for berg.se at parent.
+ 18.034: berg.se INFO Servers for berg.se have consistent extra processing status.
+ 18.034: berg.se INFO Did not find DNSKEY record for berg.se at child.
+ 18.034: berg.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 18.034: berg.se INFO Done testing DNSSEC for berg.se.
+ 18.034: berg.se INFO Test completed for zone berg.se.

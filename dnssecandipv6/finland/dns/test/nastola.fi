@@ -1,0 +1,88 @@
+  0.000: nastola.fi INFO Begin testing zone nastola.fi with version 1.6.1.
+  0.467: nastola.fi INFO Begin testing delegation for nastola.fi.
+  8.273: nastola.fi INFO Name servers listed at parent: ns1.taajama.fi,ns4.taajama.fi
+ 10.068: nastola.fi INFO Name servers listed at child: ns1.taajama.fi,ns4.taajama.fi
+ 10.068: nastola.fi NOTICE No IPv6 name servers found.
+ 10.127: nastola.fi INFO Parent glue for nastola.fi found: ns1.taajama.fi (83.102.40.26)
+ 10.292: nastola.fi INFO Parent glue for nastola.fi found: ns4.taajama.fi (83.102.40.27)
+ 10.338: nastola.fi INFO Checking glue for ns1.taajama.fi (83.102.40.26).
+ 10.338: nastola.fi INFO Checking glue for ns4.taajama.fi (83.102.40.27).
+ 10.358: nastola.fi INFO Parent glue for nastola.fi found: ns1.taajama.fi (83.102.40.26)
+ 10.359: nastola.fi INFO Parent glue for nastola.fi found: ns4.taajama.fi (83.102.40.27)
+ 11.248: nastola.fi INFO It is possible to build a referral packet for nastola.fi that works without EDNS0.
+ 11.938: nastola.fi INFO Previously used name servers for nastola.fi: 
+ 11.938: nastola.fi INFO Done testing delegation for nastola.fi.
+ 11.955: nastola.fi INFO Begin testing name server ns1.taajama.fi.
+ 11.955: nastola.fi INFO Begin testing host ns1.taajama.fi.
+ 12.692: nastola.fi INFO Begin testing address 83.102.40.26.
+ 19.242: nastola.fi INFO Done testing address 83.102.40.26.
+ 19.242: nastola.fi INFO Done testing host ns1.taajama.fi.
+ 19.532: nastola.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over UDP.
+ 19.564: nastola.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over TCP.
+ 19.598: nastola.fi INFO Name server ns1.taajama.fi (83.102.40.26) is not recursive.
+ 19.682: nastola.fi INFO Name server ns1.taajama.fi (83.102.40.26) authoritative for nastola.fi.
+ 19.735: nastola.fi INFO Name server ns1.taajama.fi (83.102.40.26) closed for zone transfer of nastola.fi.
+ 19.765: nastola.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): hostname.bind = kotkarausku
+ 19.803: nastola.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): version.bind = Not disclosed
+ 19.839: nastola.fi NOTICE No answer received from 83.102.40.26 when querying for version.server/CH/TXT.
+ 19.840: nastola.fi INFO Done testing name server ns1.taajama.fi.
+ 19.840: nastola.fi INFO Begin testing name server ns4.taajama.fi.
+ 19.840: nastola.fi INFO Begin testing host ns4.taajama.fi.
+ 20.091: nastola.fi INFO Begin testing address 83.102.40.27.
+ 20.517: nastola.fi INFO Done testing address 83.102.40.27.
+ 20.518: nastola.fi INFO Done testing host ns4.taajama.fi.
+ 20.695: nastola.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over UDP.
+ 20.723: nastola.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over TCP.
+ 20.737: nastola.fi INFO Name server ns4.taajama.fi (83.102.40.27) is not recursive.
+ 20.795: nastola.fi INFO Name server ns4.taajama.fi (83.102.40.27) authoritative for nastola.fi.
+ 20.839: nastola.fi INFO Name server ns4.taajama.fi (83.102.40.27) closed for zone transfer of nastola.fi.
+ 20.859: nastola.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): hostname.bind = lapiorausku
+ 20.875: nastola.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): version.bind = Not disclosed
+ 20.904: nastola.fi NOTICE No answer received from 83.102.40.27 when querying for version.server/CH/TXT.
+ 20.905: nastola.fi INFO Done testing name server ns4.taajama.fi.
+ 20.905: nastola.fi INFO Begin testing zone consistency for nastola.fi.
+ 21.850: nastola.fi INFO SOA at address 83.102.40.26 has serial 2013121701.
+ 21.882: nastola.fi INFO SOA at address 83.102.40.27 has serial 2013121701.
+ 21.882: nastola.fi INFO All SOA records have consistent serial numbers.
+ 21.882: nastola.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 22.383: nastola.fi NOTICE The listed nameservers for nastola.fi all report the same set of nameservers.
+ 22.383: nastola.fi INFO Done testing zone consistency for nastola.fi.
+ 22.383: nastola.fi INFO Begin testing SOA parameters for nastola.fi.
+ 22.404: nastola.fi INFO Found SOA record for nastola.fi.
+ 22.404: nastola.fi INFO Begin testing host ns1.taajama.fi.
+ 22.650: nastola.fi INFO Begin testing address 83.102.40.26.
+ 22.879: nastola.fi INFO Done testing address 83.102.40.26.
+ 22.879: nastola.fi INFO Done testing host ns1.taajama.fi.
+ 22.879: nastola.fi INFO SOA MNAME for nastola.fi valid (ns1.taajama.fi).
+ 22.879: nastola.fi INFO SOA MNAME for nastola.fi (ns1.taajama.fi) listed as NS.
+ 23.092: nastola.fi INFO SOA MNAME for nastola.fi (ns1.taajama.fi) is authoritative.
+ 23.092: nastola.fi INFO Begin testing email address hostmaster@taajama.com.
+ 23.314: nastola.fi INFO Mail exchangers for hostmaster@taajama.com found spp.taajama.fi,mx2.taajama.com.
+ 23.314: nastola.fi INFO Begin testing host spp.taajama.fi.
+ 23.758: nastola.fi INFO Begin testing address 217.78.212.151.
+ 24.587: nastola.fi INFO Done testing address 217.78.212.151.
+ 24.587: nastola.fi INFO Done testing host spp.taajama.fi.
+ 24.797: nastola.fi INFO Begin testing host mx2.taajama.com.
+ 25.360: nastola.fi INFO Begin testing address 83.102.41.75.
+ 26.607: nastola.fi INFO Done testing address 83.102.41.75.
+ 26.607: nastola.fi INFO Done testing host mx2.taajama.com.
+ 26.923: nastola.fi INFO Done testing email address hostmaster@taajama.com.
+ 26.923: nastola.fi INFO Successful attempt to deliver email for SOA RNAME of nastola.fi (hostmaster.taajama.com) using hostmaster@taajama.com.
+ 26.923: nastola.fi INFO SOA TTL for nastola.fi OK (28800) - recommended >= 3600.
+ 26.923: nastola.fi INFO SOA refresh for nastola.fi OK (28800) - recommended >= 14400.
+ 26.923: nastola.fi INFO SOA retry for nastola.fi OK (7200) - recommended >= 3600.
+ 26.923: nastola.fi INFO SOA expire for nastola.fi OK (1814400) - recommended >= 604800.
+ 26.923: nastola.fi INFO SOA minimum for nastola.fi OK (86400) - recommended between 300 and 86400.
+ 26.923: nastola.fi INFO Done testing SOA parameters for nastola.fi.
+ 26.924: nastola.fi INFO Begin testing connectivity for nastola.fi.
+ 28.097: nastola.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 28.097: nastola.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 28.098: nastola.fi INFO Done testing connectivity for nastola.fi.
+ 28.098: nastola.fi INFO Begin testing DNSSEC for nastola.fi.
+ 28.344: nastola.fi INFO Did not find DS record for nastola.fi at parent.
+ 28.419: nastola.fi INFO Servers for nastola.fi have consistent extra processing status.
+ 28.463: nastola.fi INFO Authenticated denial records not found for nastola.fi.
+ 28.483: nastola.fi INFO Did not find DNSKEY record for nastola.fi at child.
+ 28.483: nastola.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 28.483: nastola.fi INFO Done testing DNSSEC for nastola.fi.
+ 28.483: nastola.fi INFO Test completed for zone nastola.fi.

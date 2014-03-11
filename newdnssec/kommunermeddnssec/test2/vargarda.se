@@ -1,0 +1,91 @@
+  0.000: vargarda.se INFO Begin testing zone vargarda.se with version 1.2.
+  0.000: vargarda.se INFO Begin testing delegation for vargarda.se.
+  5.815: vargarda.se INFO Name servers listed at parent: malmoe.dns.swip.net,ns.vargarda.se
+  7.166: vargarda.se INFO Name servers listed at child: malmoe.dns.swip.net,ns.vargarda.se
+  7.166: vargarda.se NOTICE No IPv6 name servers found.
+  7.286: vargarda.se INFO Parent glue for vargarda.se found: ns.vargarda.se (212.247.53.189)
+  7.295: vargarda.se INFO Checking glue for ns.vargarda.se (212.247.53.189).
+  7.317: vargarda.se INFO Child glue for vargarda.se found: ns.vargarda.se (212.247.53.189)
+  7.318: vargarda.se INFO Parent glue for vargarda.se found: ns.vargarda.se (212.247.53.189)
+  7.318: vargarda.se INFO Done testing delegation for vargarda.se.
+  7.318: vargarda.se INFO Begin testing name server malmoe.dns.swip.net.
+  7.319: vargarda.se INFO Begin testing host malmoe.dns.swip.net.
+  7.319: vargarda.se INFO Begin testing address 192.71.180.44.
+ 13.940: vargarda.se INFO Done testing address 192.71.180.44.
+ 13.940: vargarda.se INFO Done testing host malmoe.dns.swip.net.
+ 13.947: vargarda.se NOTICE No answer received from 192.71.180.44 when querying for vargarda.se/IN/SOA.
+ 13.947: vargarda.se INFO Name server malmoe.dns.swip.net (192.71.180.44) answers queries over UDP.
+ 13.959: vargarda.se NOTICE No answer received from 192.71.180.44 when querying for vargarda.se/IN/SOA.
+ 13.959: vargarda.se INFO Name server malmoe.dns.swip.net (192.71.180.44) answers queries over TCP.
+ 13.967: vargarda.se INFO Name server malmoe.dns.swip.net (192.71.180.44) is not recursive.
+ 13.974: vargarda.se NOTICE No answer received from 192.71.180.44 when querying for vargarda.se/IN/SOA.
+ 13.974: vargarda.se ERROR Name server malmoe.dns.swip.net (192.71.180.44) not authoritative for vargarda.se.
+ 13.974: vargarda.se INFO Done testing name server malmoe.dns.swip.net.
+ 13.974: vargarda.se INFO Begin testing name server ns.vargarda.se.
+ 13.974: vargarda.se INFO Begin testing host ns.vargarda.se.
+ 13.974: vargarda.se INFO Begin testing address 212.247.53.189.
+ 15.207: vargarda.se WARNING Reverse for 212.247.53.189 points to an unknown host name (mail.vargarda.se).
+ 15.207: vargarda.se INFO Done testing address 212.247.53.189.
+ 15.207: vargarda.se INFO Done testing host ns.vargarda.se.
+ 15.224: vargarda.se INFO Name server ns.vargarda.se (212.247.53.189) answers queries over UDP.
+ 20.223: vargarda.se NOTICE DNS lookup error (connection failed).
+ 20.223: vargarda.se ERROR Name server ns.vargarda.se (212.247.53.189) does not answer queries over TCP.
+ 20.244: vargarda.se INFO Name server ns.vargarda.se (212.247.53.189) is not recursive.
+ 20.259: vargarda.se INFO Name server ns.vargarda.se (212.247.53.189) authoritative for vargarda.se.
+ 20.260: vargarda.se INFO Name server ns.vargarda.se (212.247.53.189) not checked for zone transfer of vargarda.se.
+ 20.260: vargarda.se INFO Name server ns.vargarda.se (212.247.53.189) not checked for legacy name server ID.
+ 20.260: vargarda.se INFO Done testing name server ns.vargarda.se.
+ 20.260: vargarda.se INFO Begin testing zone consistency for vargarda.se.
+ 20.270: vargarda.se NOTICE No answer received from 192.71.180.44 when querying for vargarda.se/IN/SOA.
+ 20.286: vargarda.se INFO SOA at address 212.247.53.189 has serial 2009030209.
+ 20.287: vargarda.se INFO All SOA records have consistent serial numbers.
+ 20.287: vargarda.se INFO All SOA records are consistent among all name servers.
+ 20.287: vargarda.se INFO Done testing zone consistency for vargarda.se.
+ 20.287: vargarda.se INFO Begin testing SOA parameters for vargarda.se.
+ 20.309: vargarda.se INFO Found SOA record for vargarda.se.
+ 20.309: vargarda.se INFO Begin testing host ns.vargarda.se.
+ 20.310: vargarda.se INFO Begin testing address 212.247.53.189.
+ 20.311: vargarda.se WARNING Reverse for 212.247.53.189 points to an unknown host name (mail.vargarda.se).
+ 20.311: vargarda.se INFO Done testing address 212.247.53.189.
+ 20.311: vargarda.se INFO Done testing host ns.vargarda.se.
+ 20.311: vargarda.se INFO SOA MNAME for vargarda.se valid (ns.vargarda.se).
+ 20.312: vargarda.se INFO SOA MNAME for vargarda.se (ns.vargarda.se) listed as NS.
+ 20.328: vargarda.se INFO SOA MNAME for vargarda.se (ns.vargarda.se) is authoritative.
+ 20.328: vargarda.se INFO Begin testing email address root@ns.vargarda.se.
+ 20.555: vargarda.se INFO Mail exchangers for root@ns.vargarda.se found ns.vargarda.se.
+ 20.555: vargarda.se INFO All mail servers for root@ns.vargarda.se are in zone vargarda.se.
+ 20.556: vargarda.se INFO Begin testing host ns.vargarda.se.
+ 20.556: vargarda.se INFO Begin testing address 212.247.53.189.
+ 20.557: vargarda.se WARNING Reverse for 212.247.53.189 points to an unknown host name (mail.vargarda.se).
+ 20.557: vargarda.se INFO Done testing address 212.247.53.189.
+ 20.557: vargarda.se INFO Done testing host ns.vargarda.se.
+ 20.558: vargarda.se INFO Begin testing mail server ns.vargarda.se (212.247.53.189) with root@ns.vargarda.se.
+ 40.555: vargarda.se WARNING Failed to connect to ns.vargarda.se (212.247.53.189).
+ 40.555: vargarda.se INFO Done testing mail server ns.vargarda.se (212.247.53.189) with root@ns.vargarda.se.
+ 40.555: vargarda.se WARNING Delivery over IPv4 to root@ns.vargarda.se could not be done.
+ 40.556: vargarda.se INFO Delivery over IPv6 to root@ns.vargarda.se could not be done.
+ 40.556: vargarda.se INFO Done testing email address root@ns.vargarda.se.
+ 40.556: vargarda.se WARNING Failed to deliver email for SOA RNAME of vargarda.se (root.ns.vargarda.se) using root@ns.vargarda.se.
+ 40.556: vargarda.se INFO SOA TTL for vargarda.se OK (172800) - recommended >= 3600.
+ 40.556: vargarda.se NOTICE SOA refresh for vargarda.se too small (10800) - recommended >= 14400.
+ 40.556: vargarda.se INFO SOA retry for vargarda.se OK (3600) - recommended >= 3600.
+ 40.556: vargarda.se INFO SOA expire for vargarda.se OK (604800) - recommended >= 604800.
+ 40.556: vargarda.se INFO SOA minimum for vargarda.se OK (86400) - recommended between 300 and 86400.
+ 40.556: vargarda.se INFO Done testing SOA parameters for vargarda.se.
+ 40.556: vargarda.se INFO Begin testing connectivity for vargarda.se.
+ 45.084: vargarda.se INFO Name server 192.71.180.44 announced by: 1257
+ 45.601: vargarda.se INFO Name server 212.247.53.189 announced by: 1257
+ 45.601: vargarda.se INFO Zone announced by IPv4 ASN: 1257
+ 45.601: vargarda.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 45.601: vargarda.se INFO Zone announced by IPv6 ASN: 
+ 45.601: vargarda.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 45.601: vargarda.se INFO Done testing connectivity for vargarda.se.
+ 45.601: vargarda.se INFO Begin testing DNSSEC for vargarda.se.
+ 45.719: vargarda.se INFO Did not find DS record for vargarda.se at parent.
+ 45.733: vargarda.se NOTICE No answer received from 192.71.180.44 when querying for vargarda.se/IN/DNSKEY.
+ 50.735: vargarda.se NOTICE DNS lookup error (connection failed).
+ 50.735: vargarda.se INFO Servers for vargarda.se have consistent extra processing status.
+ 50.736: vargarda.se INFO Did not find DNSKEY record for vargarda.se at child.
+ 50.736: vargarda.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 50.736: vargarda.se INFO Done testing DNSSEC for vargarda.se.
+ 50.736: vargarda.se INFO Test completed for zone vargarda.se.

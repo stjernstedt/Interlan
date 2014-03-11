@@ -1,0 +1,110 @@
+  0.000: burlov.se INFO Begin testing zone burlov.se with version 1.2.
+  0.000: burlov.se INFO Begin testing delegation for burlov.se.
+  6.023: burlov.se INFO Name servers listed at parent: kista.dns.swip.net,malmoe.dns.swip.net,ns.burlov.se
+  7.975: burlov.se INFO Name servers listed at child: kista.dns.swip.net,malmoe.dns.swip.net,ns.burlov.se
+  7.975: burlov.se NOTICE No IPv6 name servers found.
+  8.137: burlov.se INFO Parent glue for burlov.se found: ns.burlov.se (194.165.59.130)
+  8.175: burlov.se INFO Checking glue for ns.burlov.se (194.165.59.130).
+  8.194: burlov.se INFO Child glue for burlov.se found: ns.burlov.se (194.165.59.130)
+  8.196: burlov.se INFO Parent glue for burlov.se found: ns.burlov.se (194.165.59.130)
+  8.196: burlov.se INFO Done testing delegation for burlov.se.
+  8.196: burlov.se INFO Begin testing name server kista.dns.swip.net.
+  8.197: burlov.se INFO Begin testing host kista.dns.swip.net.
+  8.197: burlov.se INFO Begin testing address 192.71.220.9.
+ 18.422: burlov.se INFO Done testing address 192.71.220.9.
+ 18.422: burlov.se INFO Done testing host kista.dns.swip.net.
+ 18.433: burlov.se INFO Name server kista.dns.swip.net (192.71.220.9) answers queries over UDP.
+ 18.446: burlov.se INFO Name server kista.dns.swip.net (192.71.220.9) answers queries over TCP.
+ 18.454: burlov.se INFO Name server kista.dns.swip.net (192.71.220.9) is not recursive.
+ 18.463: burlov.se INFO Name server kista.dns.swip.net (192.71.220.9) authoritative for burlov.se.
+ 18.477: burlov.se INFO Name server kista.dns.swip.net (192.71.220.9) closed for zone transfer of burlov.se.
+ 18.487: burlov.se INFO Legacy name server ID for kista.dns.swip.net (192.71.220.9): hostname.bind = nico
+ 18.494: burlov.se INFO Legacy name server ID for kista.dns.swip.net (192.71.220.9): version.bind = PONG 0.2alpha
+ 18.508: burlov.se NOTICE No answer received from 192.71.220.9 when querying for version.server/CH/TXT.
+ 18.508: burlov.se INFO Done testing name server kista.dns.swip.net.
+ 18.508: burlov.se INFO Begin testing name server malmoe.dns.swip.net.
+ 18.508: burlov.se INFO Begin testing host malmoe.dns.swip.net.
+ 18.509: burlov.se INFO Begin testing address 192.71.180.44.
+ 18.840: burlov.se INFO Done testing address 192.71.180.44.
+ 18.841: burlov.se INFO Done testing host malmoe.dns.swip.net.
+ 18.852: burlov.se INFO Name server malmoe.dns.swip.net (192.71.180.44) answers queries over UDP.
+ 18.866: burlov.se INFO Name server malmoe.dns.swip.net (192.71.180.44) answers queries over TCP.
+ 18.874: burlov.se INFO Name server malmoe.dns.swip.net (192.71.180.44) is not recursive.
+ 18.883: burlov.se INFO Name server malmoe.dns.swip.net (192.71.180.44) authoritative for burlov.se.
+ 18.897: burlov.se INFO Name server malmoe.dns.swip.net (192.71.180.44) closed for zone transfer of burlov.se.
+ 18.905: burlov.se INFO Legacy name server ID for malmoe.dns.swip.net (192.71.180.44): hostname.bind = nicodemus
+ 18.912: burlov.se INFO Legacy name server ID for malmoe.dns.swip.net (192.71.180.44): version.bind = PONG 0.2alpha
+ 18.926: burlov.se NOTICE No answer received from 192.71.180.44 when querying for version.server/CH/TXT.
+ 18.926: burlov.se INFO Done testing name server malmoe.dns.swip.net.
+ 18.926: burlov.se INFO Begin testing name server ns.burlov.se.
+ 18.926: burlov.se INFO Begin testing host ns.burlov.se.
+ 18.927: burlov.se INFO Begin testing address 194.165.59.130.
+ 19.801: burlov.se INFO Done testing address 194.165.59.130.
+ 19.801: burlov.se INFO Done testing host ns.burlov.se.
+ 19.820: burlov.se INFO Name server ns.burlov.se (194.165.59.130) answers queries over UDP.
+ 19.856: burlov.se INFO Name server ns.burlov.se (194.165.59.130) answers queries over TCP.
+ 20.095: burlov.se INFO Name server ns.burlov.se (194.165.59.130) is not recursive.
+ 20.114: burlov.se INFO Name server ns.burlov.se (194.165.59.130) authoritative for burlov.se.
+ 20.365: burlov.se INFO Name server ns.burlov.se (194.165.59.130) closed for zone transfer of burlov.se.
+ 20.383: burlov.se NOTICE No answer received from 194.165.59.130 when querying for hostname.bind/CH/TXT.
+ 38.385: burlov.se INFO Done testing name server ns.burlov.se.
+ 38.385: burlov.se INFO Begin testing zone consistency for burlov.se.
+ 38.398: burlov.se INFO SOA at address 192.71.220.9 has serial 2008030328.
+ 38.417: burlov.se INFO SOA at address 194.165.59.130 has serial 2008030328.
+ 38.426: burlov.se INFO SOA at address 192.71.180.44 has serial 2008030328.
+ 38.426: burlov.se INFO All SOA records have consistent serial numbers.
+ 38.426: burlov.se INFO All SOA records are consistent among all name servers.
+ 38.426: burlov.se INFO Done testing zone consistency for burlov.se.
+ 38.426: burlov.se INFO Begin testing SOA parameters for burlov.se.
+ 38.444: burlov.se INFO Found SOA record for burlov.se.
+ 38.444: burlov.se INFO Begin testing host ns.burlov.se.
+ 38.445: burlov.se INFO Begin testing address 194.165.59.130.
+ 38.446: burlov.se INFO Done testing address 194.165.59.130.
+ 38.446: burlov.se INFO Done testing host ns.burlov.se.
+ 38.446: burlov.se INFO SOA MNAME for burlov.se valid (ns.burlov.se).
+ 38.446: burlov.se INFO SOA MNAME for burlov.se (ns.burlov.se) listed as NS.
+ 38.465: burlov.se INFO SOA MNAME for burlov.se (ns.burlov.se) is authoritative.
+ 38.465: burlov.se INFO Begin testing email address hostmaster@burlov.se.
+ 38.729: burlov.se INFO Mail exchangers for hostmaster@burlov.se found dkcphmx78.softcom.dk,dkcphmx76.softcom.dk,deframx30.softcom.dk.
+ 38.729: burlov.se INFO Begin testing host dkcphmx78.softcom.dk.
+ 39.330: burlov.se INFO Begin testing address 213.150.52.220.
+ 39.823: burlov.se INFO Done testing address 213.150.52.220.
+ 39.823: burlov.se INFO Done testing host dkcphmx78.softcom.dk.
+ 39.824: burlov.se INFO Begin testing mail server dkcphmx78.softcom.dk (213.150.52.220) with hostmaster@burlov.se.
+ 39.927: burlov.se INFO SMTP banner: dkcphmx78.softcom.dk ESMTP ready;
+ 40.019: burlov.se INFO SMTP testing of dkcphmx78.softcom.dk (213.150.52.220) with hostmaster@burlov.se succeeded without errors.
+ 40.019: burlov.se INFO Done testing mail server dkcphmx78.softcom.dk (213.150.52.220) with hostmaster@burlov.se.
+ 40.019: burlov.se INFO Begin testing host dkcphmx76.softcom.dk.
+ 40.531: burlov.se INFO Begin testing address 194.192.15.205.
+ 42.493: burlov.se INFO Done testing address 194.192.15.205.
+ 42.493: burlov.se INFO Done testing host dkcphmx76.softcom.dk.
+ 42.493: burlov.se INFO Begin testing host deframx30.softcom.dk.
+ 43.032: burlov.se INFO Begin testing address 87.230.103.106.
+ 44.608: burlov.se INFO Done testing address 87.230.103.106.
+ 44.608: burlov.se INFO Done testing host deframx30.softcom.dk.
+ 44.608: burlov.se INFO Delivery over IPv4 to hostmaster@burlov.se ok.
+ 44.608: burlov.se INFO Delivery over IPv6 to hostmaster@burlov.se could not be done.
+ 44.608: burlov.se INFO Done testing email address hostmaster@burlov.se.
+ 44.608: burlov.se INFO Successful attempt to deliver email for SOA RNAME of burlov.se (hostmaster.burlov.se) using hostmaster@burlov.se.
+ 44.609: burlov.se INFO SOA TTL for burlov.se OK (3600) - recommended >= 3600.
+ 44.609: burlov.se NOTICE SOA refresh for burlov.se too small (3600) - recommended >= 14400.
+ 44.609: burlov.se NOTICE SOA retry for burlov.se too small (600) - recommended >= 3600.
+ 44.609: burlov.se NOTICE SOA expire for burlov.se too small (86400) - recommended >= 604800.
+ 44.609: burlov.se INFO SOA minimum for burlov.se OK (3600) - recommended between 300 and 86400.
+ 44.609: burlov.se INFO Done testing SOA parameters for burlov.se.
+ 44.609: burlov.se INFO Begin testing connectivity for burlov.se.
+ 45.201: burlov.se INFO Name server 194.165.59.130 announced by: 1257
+ 45.716: burlov.se INFO Name server 192.71.180.44 announced by: 1257
+ 46.305: burlov.se INFO Name server 192.71.220.9 announced by: 1257
+ 46.305: burlov.se INFO Zone announced by IPv4 ASN: 1257
+ 46.305: burlov.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 46.305: burlov.se INFO Zone announced by IPv6 ASN: 
+ 46.305: burlov.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 46.305: burlov.se INFO Done testing connectivity for burlov.se.
+ 46.305: burlov.se INFO Begin testing DNSSEC for burlov.se.
+ 46.319: burlov.se INFO Did not find DS record for burlov.se at parent.
+ 46.376: burlov.se INFO Servers for burlov.se have consistent extra processing status.
+ 46.376: burlov.se INFO Did not find DNSKEY record for burlov.se at child.
+ 46.376: burlov.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 46.376: burlov.se INFO Done testing DNSSEC for burlov.se.
+ 46.376: burlov.se INFO Test completed for zone burlov.se.

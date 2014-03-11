@@ -1,0 +1,158 @@
+  0.000: ljungby.se INFO Begin testing zone ljungby.se with version 1.6.1.
+  1.238: ljungby.se INFO Begin testing delegation for ljungby.se.
+ 21.733: ljungby.se INFO Name servers listed at parent: dns01.portsit.se,dns02.portsit.se
+ 23.977: ljungby.se INFO Name servers listed at child: dns01.portsit.se,dns02.portsit.se
+ 23.987: ljungby.se NOTICE No IPv6 name servers found.
+ 24.024: ljungby.se INFO Parent glue for ljungby.se found: dns01.portsit.se (193.14.90.55)
+ 24.263: ljungby.se INFO Parent glue for ljungby.se found: dns02.portsit.se (84.40.9.219)
+ 24.399: ljungby.se INFO Checking glue for dns01.portsit.se (193.14.90.55).
+ 24.399: ljungby.se INFO Checking glue for dns02.portsit.se (84.40.9.219).
+ 24.399: ljungby.se INFO Parent glue for ljungby.se found: dns01.portsit.se (193.14.90.55)
+ 24.399: ljungby.se INFO Parent glue for ljungby.se found: dns02.portsit.se (84.40.9.219)
+ 25.357: ljungby.se INFO It is possible to build a referral packet for ljungby.se that works without EDNS0.
+ 26.259: ljungby.se INFO Previously used name servers for ljungby.se: 
+ 26.261: ljungby.se INFO Done testing delegation for ljungby.se.
+ 26.262: ljungby.se INFO Begin testing name server dns01.portsit.se.
+ 26.262: ljungby.se INFO Begin testing host dns01.portsit.se.
+ 26.882: ljungby.se INFO Begin testing address 193.14.90.55.
+ 33.790: ljungby.se INFO Done testing address 193.14.90.55.
+ 33.790: ljungby.se INFO Done testing host dns01.portsit.se.
+ 34.515: ljungby.se INFO Name server dns01.portsit.se (193.14.90.55) answers queries over UDP.
+ 34.586: ljungby.se INFO Name server dns01.portsit.se (193.14.90.55) answers queries over TCP.
+ 34.659: ljungby.se INFO Name server dns01.portsit.se (193.14.90.55) is not recursive.
+ 34.857: ljungby.se INFO Name server dns01.portsit.se (193.14.90.55) authoritative for ljungby.se.
+ 35.041: ljungby.se INFO Name server dns01.portsit.se (193.14.90.55) closed for zone transfer of ljungby.se.
+ 35.087: ljungby.se INFO Legacy name server ID for dns01.portsit.se (193.14.90.55): hostname.bind = <HIDDEN>
+ 39.474: ljungby.se NOTICE No answer received from 193.14.90.55 when querying for version.server/CH/TXT.
+ 39.474: ljungby.se INFO Done testing name server dns01.portsit.se.
+ 39.474: ljungby.se INFO Begin testing name server dns02.portsit.se.
+ 39.474: ljungby.se INFO Begin testing host dns02.portsit.se.
+ 39.930: ljungby.se INFO Begin testing address 84.40.9.219.
+ 43.635: ljungby.se INFO Done testing address 84.40.9.219.
+ 43.635: ljungby.se INFO Done testing host dns02.portsit.se.
+ 44.306: ljungby.se INFO Name server dns02.portsit.se (84.40.9.219) answers queries over UDP.
+ 44.405: ljungby.se INFO Name server dns02.portsit.se (84.40.9.219) answers queries over TCP.
+ 44.476: ljungby.se INFO Name server dns02.portsit.se (84.40.9.219) is not recursive.
+ 45.899: ljungby.se INFO Name server dns02.portsit.se (84.40.9.219) authoritative for ljungby.se.
+ 46.005: ljungby.se INFO Name server dns02.portsit.se (84.40.9.219) closed for zone transfer of ljungby.se.
+ 46.046: ljungby.se INFO Legacy name server ID for dns02.portsit.se (84.40.9.219): hostname.bind = <HIDDEN>
+ 46.112: ljungby.se INFO Legacy name server ID for dns02.portsit.se (84.40.9.219): version.bind = <HIDDEN>
+ 46.226: ljungby.se NOTICE No answer received from 84.40.9.219 when querying for version.server/CH/TXT.
+ 46.226: ljungby.se INFO Done testing name server dns02.portsit.se.
+ 46.226: ljungby.se INFO Begin testing zone consistency for ljungby.se.
+ 49.467: ljungby.se INFO SOA at address 193.14.90.55 has serial 2014030622.
+ 49.514: ljungby.se INFO SOA at address 84.40.9.219 has serial 2014030622.
+ 49.514: ljungby.se INFO All SOA records have consistent serial numbers.
+ 49.514: ljungby.se INFO All other fields in the SOA record are consistent among all name servers.
+ 50.521: ljungby.se NOTICE The listed nameservers for ljungby.se all report the same set of nameservers.
+ 50.534: ljungby.se INFO Done testing zone consistency for ljungby.se.
+ 50.534: ljungby.se INFO Begin testing SOA parameters for ljungby.se.
+ 50.591: ljungby.se INFO Found SOA record for ljungby.se.
+ 50.591: ljungby.se INFO Begin testing host dns01.portsit.se.
+ 51.552: ljungby.se INFO Begin testing address 193.14.90.55.
+ 52.098: ljungby.se INFO Done testing address 193.14.90.55.
+ 52.098: ljungby.se INFO Done testing host dns01.portsit.se.
+ 52.098: ljungby.se INFO SOA MNAME for ljungby.se valid (dns01.portsit.se).
+ 52.098: ljungby.se INFO SOA MNAME for ljungby.se (dns01.portsit.se) listed as NS.
+ 52.597: ljungby.se INFO SOA MNAME for ljungby.se (dns01.portsit.se) is authoritative.
+ 52.598: ljungby.se INFO Begin testing email address registry@portsit.se.
+ 53.101: ljungby.se INFO Mail exchangers for registry@portsit.se found asmx01.portsit.se,asmx02.portsit.se.
+ 53.101: ljungby.se INFO Begin testing host asmx01.portsit.se.
+ 54.110: ljungby.se INFO Begin testing address 193.14.90.114.
+ 55.402: ljungby.se INFO Done testing address 193.14.90.114.
+ 55.402: ljungby.se INFO Done testing host asmx01.portsit.se.
+ 56.119: ljungby.se INFO Begin testing host asmx02.portsit.se.
+ 57.209: ljungby.se INFO Begin testing address 193.14.90.115.
+ 59.000: ljungby.se INFO Done testing address 193.14.90.115.
+ 59.000: ljungby.se INFO Done testing host asmx02.portsit.se.
+ 59.832: ljungby.se INFO Done testing email address registry@portsit.se.
+ 59.844: ljungby.se INFO Successful attempt to deliver email for SOA RNAME of ljungby.se (registry.portsit.se) using registry@portsit.se.
+ 59.844: ljungby.se INFO SOA TTL for ljungby.se OK (3600) - recommended >= 3600.
+ 59.844: ljungby.se NOTICE SOA refresh for ljungby.se too small (3600) - recommended >= 14400.
+ 59.844: ljungby.se NOTICE SOA retry for ljungby.se too small (600) - recommended >= 3600.
+ 59.845: ljungby.se NOTICE SOA expire for ljungby.se too small (86400) - recommended >= 604800.
+ 59.845: ljungby.se INFO SOA minimum for ljungby.se OK (3600) - recommended between 300 and 86400.
+ 59.845: ljungby.se INFO Done testing SOA parameters for ljungby.se.
+ 59.845: ljungby.se INFO Begin testing connectivity for ljungby.se.
+ 62.105: ljungby.se INFO Zone announced by more than one ASN.
+ 62.105: ljungby.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 62.105: ljungby.se INFO Done testing connectivity for ljungby.se.
+ 62.105: ljungby.se INFO Begin testing DNSSEC for ljungby.se.
+ 62.282: ljungby.se INFO Found DS record for ljungby.se at parent.
+ 62.392: ljungby.se INFO Nameserver 193.14.90.55 does DNSSEC extra processing.
+ 62.731: ljungby.se INFO Nameserver 84.40.9.219 does DNSSEC extra processing.
+ 62.731: ljungby.se INFO Servers for ljungby.se have consistent extra processing status.
+ 63.008: ljungby.se INFO Authenticated denial records found for ljungby.se, of type NSEC.
+ 63.086: ljungby.se INFO Found DNSKEY record for ljungby.se at child.
+ 63.086: ljungby.se INFO Consistent security for ljungby.se.
+ 63.086: ljungby.se INFO Checking DNSSEC at child (ljungby.se).
+ 63.087: ljungby.se INFO ljungby.se's key with tag 3687 uses algorithm number 5 (RSA/SHA-1).
+ 63.087: ljungby.se INFO Algorithm number 5 is OK.
+ 63.087: ljungby.se INFO ljungby.se's key with tag 25252 uses algorithm number 5 (RSA/SHA-1).
+ 63.087: ljungby.se INFO Algorithm number 5 is OK.
+ 63.087: ljungby.se INFO ljungby.se's key with tag 45604 uses algorithm number 5 (RSA/SHA-1).
+ 63.087: ljungby.se INFO Algorithm number 5 is OK.
+ 63.087: ljungby.se INFO DNSKEY ljungby.se (tag 45604) is marked as a secure entry point (SEP).
+ 63.087: ljungby.se INFO ljungby.se's key with tag 3053 uses algorithm number 5 (RSA/SHA-1).
+ 63.088: ljungby.se INFO Algorithm number 5 is OK.
+ 63.088: ljungby.se INFO DNSKEY ljungby.se (tag 3053) is marked as a secure entry point (SEP).
+ 63.088: ljungby.se INFO ljungby.se's key with tag 4501 uses algorithm number 5 (RSA/SHA-1).
+ 63.088: ljungby.se INFO Algorithm number 5 is OK.
+ 63.088: ljungby.se INFO DNSKEY ljungby.se (tag 4501) is marked as a secure entry point (SEP).
+ 63.088: ljungby.se INFO ljungby.se's key with tag 59245 uses algorithm number 5 (RSA/SHA-1).
+ 63.088: ljungby.se INFO Algorithm number 5 is OK.
+ 63.088: ljungby.se INFO DNSSEC signature expires at: Wed Mar 26 15:05:04 2014
+ 63.089: ljungby.se INFO Duration for RRSIG(ljungby.se/IN/DNSKEY/3687) is OK (1759144 seconds).
+ 63.167: ljungby.se INFO DNSSEC signature RRSIG(ljungby.se/IN/DNSKEY/3687) matches records.
+ 63.167: ljungby.se INFO DNSSEC signature valid: RRSIG(ljungby.se/IN/DNSKEY/3687)
+ 63.302: ljungby.se INFO DNSSEC signature expires at: Wed Apr 30 16:05:13 2014
+ 63.302: ljungby.se INFO Duration for RRSIG(ljungby.se/IN/DNSKEY/59245) is OK (4786753 seconds).
+ 63.314: ljungby.se INFO DNSSEC signature RRSIG(ljungby.se/IN/DNSKEY/59245) matches records.
+ 63.314: ljungby.se INFO DNSSEC signature valid: RRSIG(ljungby.se/IN/DNSKEY/59245)
+ 63.315: ljungby.se INFO DNSSEC signature expires at: Tue May 27 16:05:46 2014
+ 63.315: ljungby.se INFO Duration for RRSIG(ljungby.se/IN/DNSKEY/25252) is OK (7119586 seconds).
+ 63.316: ljungby.se INFO DNSSEC signature RRSIG(ljungby.se/IN/DNSKEY/25252) matches records.
+ 63.336: ljungby.se INFO DNSSEC signature valid: RRSIG(ljungby.se/IN/DNSKEY/25252)
+ 63.336: ljungby.se INFO DNSSEC signature expires at: Wed Nov 30 13:13:21 2016
+ 63.337: ljungby.se WARNING Duration for RRSIG(ljungby.se/IN/DNSKEY/4501) is too long (86424441 seconds).
+ 63.359: ljungby.se INFO DNSSEC signature RRSIG(ljungby.se/IN/DNSKEY/4501) matches records.
+ 63.359: ljungby.se INFO DNSSEC signature valid: RRSIG(ljungby.se/IN/DNSKEY/4501)
+ 63.374: ljungby.se INFO DNSSEC signature expires at: Thu Jan 12 15:11:16 2017
+ 63.374: ljungby.se WARNING Duration for RRSIG(ljungby.se/IN/DNSKEY/45604) is too long (90146716 seconds).
+ 63.380: ljungby.se INFO DNSSEC signature RRSIG(ljungby.se/IN/DNSKEY/45604) matches records.
+ 63.380: ljungby.se INFO DNSSEC signature valid: RRSIG(ljungby.se/IN/DNSKEY/45604)
+ 63.384: ljungby.se INFO DNSSEC signature expires at: Thu Jan 12 16:24:37 2017
+ 63.385: ljungby.se WARNING Duration for RRSIG(ljungby.se/IN/DNSKEY/3053) is too long (90151117 seconds).
+ 63.396: ljungby.se INFO DNSSEC signature RRSIG(ljungby.se/IN/DNSKEY/3053) matches records.
+ 63.396: ljungby.se INFO DNSSEC signature valid: RRSIG(ljungby.se/IN/DNSKEY/3053)
+ 63.396: ljungby.se INFO Enough valid signatures found for ljungby.se.
+ 63.586: ljungby.se INFO DNSSEC signature expires at: Wed Mar 26 15:05:04 2014
+ 63.586: ljungby.se INFO Duration for RRSIG(ljungby.se/IN/SOA/3687) is OK (1759144 seconds).
+ 63.602: ljungby.se INFO DNSSEC signature RRSIG(ljungby.se/IN/SOA/3687) matches records.
+ 63.602: ljungby.se INFO DNSSEC signature valid: RRSIG(ljungby.se/IN/SOA/3687)
+ 63.603: ljungby.se INFO DNSSEC signature expires at: Wed Apr 30 16:05:13 2014
+ 63.603: ljungby.se INFO Duration for RRSIG(ljungby.se/IN/SOA/59245) is OK (4786753 seconds).
+ 63.603: ljungby.se INFO DNSSEC signature RRSIG(ljungby.se/IN/SOA/59245) matches records.
+ 63.603: ljungby.se INFO DNSSEC signature valid: RRSIG(ljungby.se/IN/SOA/59245)
+ 63.625: ljungby.se INFO DNSSEC signature expires at: Tue May 27 16:05:46 2014
+ 63.625: ljungby.se INFO Duration for RRSIG(ljungby.se/IN/SOA/25252) is OK (7119586 seconds).
+ 63.639: ljungby.se INFO DNSSEC signature RRSIG(ljungby.se/IN/SOA/25252) matches records.
+ 63.648: ljungby.se INFO DNSSEC signature valid: RRSIG(ljungby.se/IN/SOA/25252)
+ 63.648: ljungby.se INFO Enough valid signatures over SOA RRset found for ljungby.se.
+ 63.648: ljungby.se INFO DNSSEC child checks for ljungby.se complete.
+ 63.648: ljungby.se INFO Checking DNSSEC at parent of ljungby.se.
+ 63.660: ljungby.se INFO ljungby.se's key with tag 4501 uses algorithm number 5 (RSA/SHA-1).
+ 63.660: ljungby.se INFO Algorithm number 5 is OK.
+ 63.669: ljungby.se INFO Parent DS(ljungby.se/5/1/4501) refers to valid key at child: DNSKEY(ljungby.se/5/4501)
+ 63.669: ljungby.se INFO Parent DS(ljungby.se) refers to secure entry point (SEP) at child: DS(ljungby.se/5/1/4501)
+ 63.669: ljungby.se INFO ljungby.se's key with tag 3053 uses algorithm number 5 (RSA/SHA-1).
+ 63.684: ljungby.se INFO Algorithm number 5 is OK.
+ 63.685: ljungby.se INFO Parent DS(ljungby.se/5/1/3053) refers to valid key at child: DNSKEY(ljungby.se/5/3053)
+ 63.685: ljungby.se INFO Parent DS(ljungby.se) refers to secure entry point (SEP) at child: DS(ljungby.se/5/1/3053)
+ 63.708: ljungby.se INFO ljungby.se's key with tag 45604 uses algorithm number 5 (RSA/SHA-1).
+ 63.708: ljungby.se INFO Algorithm number 5 is OK.
+ 63.709: ljungby.se INFO Parent DS(ljungby.se/5/1/45604) refers to valid key at child: DNSKEY(ljungby.se/5/45604)
+ 63.709: ljungby.se INFO Parent DS(ljungby.se) refers to secure entry point (SEP) at child: DS(ljungby.se/5/1/45604)
+ 63.709: ljungby.se INFO DNSSEC parent checks for ljungby.se complete.
+ 63.709: ljungby.se INFO Done testing DNSSEC for ljungby.se.
+ 63.726: ljungby.se INFO Test completed for zone ljungby.se.

@@ -1,0 +1,139 @@
+  0.000: hemsedal.kommune.no INFO Begin testing zone hemsedal.kommune.no with version 1.6.1.
+  0.493: hemsedal.kommune.no INFO Begin testing delegation for hemsedal.kommune.no.
+  9.561: hemsedal.kommune.no INFO Name servers listed at parent: dns1.as2116.net,dns2.as2116.net
+ 10.763: hemsedal.kommune.no INFO Name servers listed at child: dns1.eunet.no,dns2.eunet.no
+ 10.764: hemsedal.kommune.no ERROR Superfluous name server listed at parent: dns1.as2116.net
+ 10.764: hemsedal.kommune.no ERROR Superfluous name server listed at parent: dns2.as2116.net
+ 10.764: hemsedal.kommune.no ERROR Total parent/child glue mismatch.
+ 10.764: hemsedal.kommune.no NOTICE Additional name server listed at child: dns1.eunet.no
+ 10.764: hemsedal.kommune.no NOTICE Additional name server listed at child: dns2.eunet.no
+ 10.764: hemsedal.kommune.no NOTICE Too few IPv6 name servers (1).
+ 10.914: hemsedal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.053: hemsedal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.203: hemsedal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.337: hemsedal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.720: hemsedal.kommune.no INFO It is possible to build a referral packet for hemsedal.kommune.no that works without EDNS0.
+ 12.966: hemsedal.kommune.no INFO Previously used name servers for hemsedal.kommune.no: 
+ 12.966: hemsedal.kommune.no INFO Done testing delegation for hemsedal.kommune.no.
+ 12.967: hemsedal.kommune.no INFO Begin testing name server dns1.eunet.no.
+ 12.967: hemsedal.kommune.no INFO Begin testing host dns1.eunet.no.
+ 12.967: hemsedal.kommune.no INFO Begin testing address 193.75.75.1.
+ 17.094: hemsedal.kommune.no INFO Done testing address 193.75.75.1.
+ 17.094: hemsedal.kommune.no INFO Begin testing address 2001:8c0:2001:0:0:0:3:53.
+ 17.471: hemsedal.kommune.no INFO Done testing address 2001:8c0:2001:0:0:0:3:53.
+ 17.471: hemsedal.kommune.no INFO Done testing host dns1.eunet.no.
+ 17.486: hemsedal.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) answers queries over UDP.
+ 17.511: hemsedal.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) answers queries over TCP.
+ 17.527: hemsedal.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) is not recursive.
+ 17.602: hemsedal.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) authoritative for hemsedal.kommune.no.
+ 17.643: hemsedal.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) closed for zone transfer of hemsedal.kommune.no.
+ 17.673: hemsedal.kommune.no INFO Legacy name server ID for dns1.eunet.no (193.75.75.1): hostname.bind = alpha-a.server.as2116.net
+ 17.709: hemsedal.kommune.no INFO Legacy name server ID for dns1.eunet.no (193.75.75.1): version.bind = Shirely you must be joking
+ 17.741: hemsedal.kommune.no NOTICE No answer received from 193.75.75.1 when querying for version.server/CH/TXT.
+ 17.768: hemsedal.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) answers queries over UDP.
+ 17.808: hemsedal.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) answers queries over TCP.
+ 17.829: hemsedal.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) is not recursive.
+ 17.894: hemsedal.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) authoritative for hemsedal.kommune.no.
+ 17.945: hemsedal.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) closed for zone transfer of hemsedal.kommune.no.
+ 17.962: hemsedal.kommune.no INFO Legacy name server ID for dns1.eunet.no (2001:8c0:2001:0:0:0:3:53): hostname.bind = alpha-a.server.as2116.net
+ 17.994: hemsedal.kommune.no INFO Legacy name server ID for dns1.eunet.no (2001:8c0:2001:0:0:0:3:53): version.bind = Shirely you must be joking
+ 18.040: hemsedal.kommune.no NOTICE No answer received from 2001:8c0:2001:0:0:0:3:53 when querying for version.server/CH/TXT.
+ 18.040: hemsedal.kommune.no INFO Done testing name server dns1.eunet.no.
+ 18.040: hemsedal.kommune.no INFO Begin testing name server dns2.eunet.no.
+ 18.040: hemsedal.kommune.no INFO Begin testing host dns2.eunet.no.
+ 18.149: hemsedal.kommune.no INFO Begin testing address 148.122.208.226.
+ 22.722: hemsedal.kommune.no INFO Done testing address 148.122.208.226.
+ 22.722: hemsedal.kommune.no INFO Done testing host dns2.eunet.no.
+ 22.871: hemsedal.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) answers queries over UDP.
+ 22.924: hemsedal.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) answers queries over TCP.
+ 22.944: hemsedal.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) is not recursive.
+ 23.026: hemsedal.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) authoritative for hemsedal.kommune.no.
+ 23.065: hemsedal.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) closed for zone transfer of hemsedal.kommune.no.
+ 23.082: hemsedal.kommune.no INFO Legacy name server ID for dns2.eunet.no (148.122.208.226): hostname.bind = ny-ns2-eunet.oke.nextra.no
+ 23.095: hemsedal.kommune.no INFO Legacy name server ID for dns2.eunet.no (148.122.208.226): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 23.120: hemsedal.kommune.no NOTICE No answer received from 148.122.208.226 when querying for version.server/CH/TXT.
+ 23.121: hemsedal.kommune.no INFO Done testing name server dns2.eunet.no.
+ 23.121: hemsedal.kommune.no INFO Begin testing name server dns1.as2116.net.
+ 23.121: hemsedal.kommune.no INFO Begin testing host dns1.as2116.net.
+ 23.133: hemsedal.kommune.no INFO Begin testing address 193.75.75.1.
+ 23.134: hemsedal.kommune.no INFO Done testing address 193.75.75.1.
+ 23.134: hemsedal.kommune.no INFO Begin testing address 2001:8c0:2001:0:0:0:3:53.
+ 23.135: hemsedal.kommune.no INFO Done testing address 2001:8c0:2001:0:0:0:3:53.
+ 23.136: hemsedal.kommune.no INFO Done testing host dns1.as2116.net.
+ 23.192: hemsedal.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) answers queries over UDP.
+ 23.230: hemsedal.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) answers queries over TCP.
+ 23.254: hemsedal.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) is not recursive.
+ 23.374: hemsedal.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) authoritative for hemsedal.kommune.no.
+ 23.411: hemsedal.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) closed for zone transfer of hemsedal.kommune.no.
+ 23.424: hemsedal.kommune.no INFO Legacy name server ID for dns1.as2116.net (193.75.75.1): hostname.bind = alpha-a.server.as2116.net
+ 23.468: hemsedal.kommune.no INFO Legacy name server ID for dns1.as2116.net (193.75.75.1): version.bind = Shirely you must be joking
+ 23.532: hemsedal.kommune.no NOTICE No answer received from 193.75.75.1 when querying for version.server/CH/TXT.
+ 23.554: hemsedal.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) answers queries over UDP.
+ 23.600: hemsedal.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) answers queries over TCP.
+ 23.633: hemsedal.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) is not recursive.
+ 23.750: hemsedal.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) authoritative for hemsedal.kommune.no.
+ 23.813: hemsedal.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) closed for zone transfer of hemsedal.kommune.no.
+ 23.834: hemsedal.kommune.no INFO Legacy name server ID for dns1.as2116.net (2001:8c0:2001:0:0:0:3:53): hostname.bind = alpha-a.server.as2116.net
+ 23.878: hemsedal.kommune.no INFO Legacy name server ID for dns1.as2116.net (2001:8c0:2001:0:0:0:3:53): version.bind = Shirely you must be joking
+ 23.924: hemsedal.kommune.no NOTICE No answer received from 2001:8c0:2001:0:0:0:3:53 when querying for version.server/CH/TXT.
+ 23.924: hemsedal.kommune.no INFO Done testing name server dns1.as2116.net.
+ 23.925: hemsedal.kommune.no INFO Begin testing name server dns2.as2116.net.
+ 23.925: hemsedal.kommune.no INFO Begin testing host dns2.as2116.net.
+ 24.181: hemsedal.kommune.no INFO Begin testing address 148.122.208.226.
+ 24.668: hemsedal.kommune.no INFO Done testing address 148.122.208.226.
+ 24.668: hemsedal.kommune.no INFO Done testing host dns2.as2116.net.
+ 24.974: hemsedal.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) answers queries over UDP.
+ 25.004: hemsedal.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) answers queries over TCP.
+ 25.020: hemsedal.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) is not recursive.
+ 25.091: hemsedal.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) authoritative for hemsedal.kommune.no.
+ 25.128: hemsedal.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) closed for zone transfer of hemsedal.kommune.no.
+ 25.151: hemsedal.kommune.no INFO Legacy name server ID for dns2.as2116.net (148.122.208.226): hostname.bind = ny-ns2-eunet.oke.nextra.no
+ 25.166: hemsedal.kommune.no INFO Legacy name server ID for dns2.as2116.net (148.122.208.226): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 25.203: hemsedal.kommune.no NOTICE No answer received from 148.122.208.226 when querying for version.server/CH/TXT.
+ 25.203: hemsedal.kommune.no INFO Done testing name server dns2.as2116.net.
+ 25.204: hemsedal.kommune.no INFO Begin testing zone consistency for hemsedal.kommune.no.
+ 25.638: hemsedal.kommune.no INFO SOA at address 2001:8c0:2001:0:0:0:3:53 has serial 2014021101.
+ 25.651: hemsedal.kommune.no INFO SOA at address 193.75.75.1 has serial 2014021101.
+ 25.666: hemsedal.kommune.no INFO SOA at address 148.122.208.226 has serial 2014021101.
+ 25.666: hemsedal.kommune.no INFO All SOA records have consistent serial numbers.
+ 25.666: hemsedal.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 26.067: hemsedal.kommune.no NOTICE The listed nameservers for hemsedal.kommune.no all report the same set of nameservers.
+ 26.067: hemsedal.kommune.no INFO Done testing zone consistency for hemsedal.kommune.no.
+ 26.067: hemsedal.kommune.no INFO Begin testing SOA parameters for hemsedal.kommune.no.
+ 26.110: hemsedal.kommune.no INFO Found SOA record for hemsedal.kommune.no.
+ 26.110: hemsedal.kommune.no INFO Begin testing host dns1.eunet.no.
+ 26.111: hemsedal.kommune.no INFO Begin testing address 193.75.75.1.
+ 26.112: hemsedal.kommune.no INFO Done testing address 193.75.75.1.
+ 26.112: hemsedal.kommune.no INFO Begin testing address 2001:8c0:2001:0:0:0:3:53.
+ 26.153: hemsedal.kommune.no INFO Done testing address 2001:8c0:2001:0:0:0:3:53.
+ 26.153: hemsedal.kommune.no INFO Done testing host dns1.eunet.no.
+ 26.154: hemsedal.kommune.no INFO SOA MNAME for hemsedal.kommune.no valid (dns1.eunet.no).
+ 26.154: hemsedal.kommune.no INFO SOA MNAME for hemsedal.kommune.no (dns1.eunet.no) listed as NS.
+ 26.186: hemsedal.kommune.no INFO SOA MNAME for hemsedal.kommune.no (dns1.eunet.no) is authoritative.
+ 26.229: hemsedal.kommune.no INFO SOA MNAME for hemsedal.kommune.no (dns1.eunet.no) is authoritative.
+ 26.229: hemsedal.kommune.no INFO Begin testing email address hostmaster@ventelo.no.
+ 26.375: hemsedal.kommune.no INFO Mail exchangers for hostmaster@ventelo.no found mailvask.infostorm.no.
+ 26.375: hemsedal.kommune.no INFO Begin testing host mailvask.infostorm.no.
+ 30.152: hemsedal.kommune.no INFO Begin testing address 217.18.206.27.
+ 30.932: hemsedal.kommune.no INFO Done testing address 217.18.206.27.
+ 30.932: hemsedal.kommune.no INFO Done testing host mailvask.infostorm.no.
+ 31.334: hemsedal.kommune.no INFO Done testing email address hostmaster@ventelo.no.
+ 31.334: hemsedal.kommune.no INFO Successful attempt to deliver email for SOA RNAME of hemsedal.kommune.no (hostmaster.ventelo.no) using hostmaster@ventelo.no.
+ 31.334: hemsedal.kommune.no INFO SOA TTL for hemsedal.kommune.no OK (7200) - recommended >= 3600.
+ 31.334: hemsedal.kommune.no INFO SOA refresh for hemsedal.kommune.no OK (28800) - recommended >= 14400.
+ 31.334: hemsedal.kommune.no INFO SOA retry for hemsedal.kommune.no OK (3600) - recommended >= 3600.
+ 31.334: hemsedal.kommune.no INFO SOA expire for hemsedal.kommune.no OK (2592000) - recommended >= 604800.
+ 31.334: hemsedal.kommune.no INFO SOA minimum for hemsedal.kommune.no OK (600) - recommended between 300 and 86400.
+ 31.334: hemsedal.kommune.no INFO Done testing SOA parameters for hemsedal.kommune.no.
+ 31.335: hemsedal.kommune.no INFO Begin testing connectivity for hemsedal.kommune.no.
+ 32.867: hemsedal.kommune.no INFO Zone announced by more than one ASN.
+ 33.521: hemsedal.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 33.545: hemsedal.kommune.no INFO Done testing connectivity for hemsedal.kommune.no.
+ 33.545: hemsedal.kommune.no INFO Begin testing DNSSEC for hemsedal.kommune.no.
+ 33.652: hemsedal.kommune.no INFO Did not find DS record for hemsedal.kommune.no at parent.
+ 33.769: hemsedal.kommune.no INFO Servers for hemsedal.kommune.no have consistent extra processing status.
+ 33.800: hemsedal.kommune.no INFO Authenticated denial records not found for hemsedal.kommune.no.
+ 33.818: hemsedal.kommune.no INFO Did not find DNSKEY record for hemsedal.kommune.no at child.
+ 33.818: hemsedal.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 33.818: hemsedal.kommune.no INFO Done testing DNSSEC for hemsedal.kommune.no.
+ 33.818: hemsedal.kommune.no INFO Test completed for zone hemsedal.kommune.no.

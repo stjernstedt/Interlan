@@ -1,0 +1,121 @@
+  0.000: varmdo.se INFO Begin testing zone varmdo.se with version 1.2.
+  0.000: varmdo.se INFO Begin testing delegation for varmdo.se.
+  5.077: varmdo.se INFO Name servers listed at parent: dns1.varmdo.se,dns2.varmdo.se,njord.xsoft.se
+  7.030: varmdo.se INFO Name servers listed at child: dns1.varmdo.se,dns2.varmdo.se,njord.xsoft.se
+  7.030: varmdo.se WARNING Too few IPv6 name servers (1).
+  7.050: varmdo.se INFO Parent glue for varmdo.se found: dns1.varmdo.se (194.71.153.10)
+  7.089: varmdo.se INFO Parent glue for varmdo.se found: dns2.varmdo.se (194.71.153.11)
+  7.117: varmdo.se INFO Parent glue for varmdo.se found: njord.xsoft.se (87.227.97.197)
+  7.137: varmdo.se INFO Checking glue for dns1.varmdo.se (194.71.153.10).
+  7.148: varmdo.se INFO Child glue for varmdo.se found: dns1.varmdo.se (194.71.153.10)
+  7.148: varmdo.se INFO Checking glue for dns2.varmdo.se (194.71.153.11).
+  7.159: varmdo.se INFO Child glue for varmdo.se found: dns2.varmdo.se (194.71.153.11)
+  7.159: varmdo.se INFO Checking glue for njord.xsoft.se (87.227.97.197).
+  7.159: varmdo.se INFO Parent glue for varmdo.se found: dns1.varmdo.se (194.71.153.10)
+  7.160: varmdo.se INFO Parent glue for varmdo.se found: dns2.varmdo.se (194.71.153.11)
+  7.160: varmdo.se INFO Parent glue for varmdo.se found: njord.xsoft.se (87.227.97.197)
+  7.160: varmdo.se INFO Done testing delegation for varmdo.se.
+  7.161: varmdo.se INFO Begin testing name server dns1.varmdo.se.
+  7.161: varmdo.se INFO Begin testing host dns1.varmdo.se.
+  7.161: varmdo.se INFO Begin testing address 194.71.153.10.
+ 16.032: varmdo.se INFO Done testing address 194.71.153.10.
+ 16.032: varmdo.se INFO Done testing host dns1.varmdo.se.
+ 16.043: varmdo.se INFO Name server dns1.varmdo.se (194.71.153.10) answers queries over UDP.
+ 16.060: varmdo.se INFO Name server dns1.varmdo.se (194.71.153.10) answers queries over TCP.
+ 16.069: varmdo.se INFO Name server dns1.varmdo.se (194.71.153.10) is not recursive.
+ 16.081: varmdo.se INFO Name server dns1.varmdo.se (194.71.153.10) authoritative for varmdo.se.
+ 16.100: varmdo.se INFO Name server dns1.varmdo.se (194.71.153.10) closed for zone transfer of varmdo.se.
+ 16.111: varmdo.se INFO Legacy name server ID for dns1.varmdo.se (194.71.153.10): hostname.bind = dns1
+ 16.120: varmdo.se INFO Legacy name server ID for dns1.varmdo.se (194.71.153.10): version.bind = Are you joking with me ? (request logged)
+ 16.137: varmdo.se NOTICE No answer received from 194.71.153.10 when querying for version.server/CH/TXT.
+ 16.137: varmdo.se INFO Done testing name server dns1.varmdo.se.
+ 16.138: varmdo.se INFO Begin testing name server dns2.varmdo.se.
+ 16.138: varmdo.se INFO Begin testing host dns2.varmdo.se.
+ 16.138: varmdo.se INFO Begin testing address 194.71.153.11.
+ 16.503: varmdo.se INFO Done testing address 194.71.153.11.
+ 16.503: varmdo.se INFO Done testing host dns2.varmdo.se.
+ 16.514: varmdo.se INFO Name server dns2.varmdo.se (194.71.153.11) answers queries over UDP.
+ 16.532: varmdo.se INFO Name server dns2.varmdo.se (194.71.153.11) answers queries over TCP.
+ 16.541: varmdo.se INFO Name server dns2.varmdo.se (194.71.153.11) is not recursive.
+ 16.552: varmdo.se INFO Name server dns2.varmdo.se (194.71.153.11) authoritative for varmdo.se.
+ 16.571: varmdo.se INFO Name server dns2.varmdo.se (194.71.153.11) closed for zone transfer of varmdo.se.
+ 16.580: varmdo.se INFO Legacy name server ID for dns2.varmdo.se (194.71.153.11): hostname.bind = dns2
+ 16.589: varmdo.se INFO Legacy name server ID for dns2.varmdo.se (194.71.153.11): version.bind = Are you joking with me ? (request logged)
+ 16.605: varmdo.se NOTICE No answer received from 194.71.153.11 when querying for version.server/CH/TXT.
+ 16.606: varmdo.se INFO Done testing name server dns2.varmdo.se.
+ 16.606: varmdo.se INFO Begin testing name server njord.xsoft.se.
+ 16.606: varmdo.se INFO Begin testing host njord.xsoft.se.
+ 16.606: varmdo.se INFO Begin testing address 87.227.97.197.
+ 22.582: varmdo.se INFO Done testing address 87.227.97.197.
+ 22.583: varmdo.se INFO Begin testing address 2001:16d8:ff97:0:0:0:0:12.
+ 30.723: varmdo.se INFO Done testing address 2001:16d8:ff97:0:0:0:0:12.
+ 30.723: varmdo.se INFO Done testing host njord.xsoft.se.
+ 30.759: varmdo.se INFO Name server njord.xsoft.se (87.227.97.197) answers queries over UDP.
+ 30.831: varmdo.se INFO Name server njord.xsoft.se (87.227.97.197) answers queries over TCP.
+ 30.864: varmdo.se INFO Name server njord.xsoft.se (87.227.97.197) is not recursive.
+ 30.900: varmdo.se INFO Name server njord.xsoft.se (87.227.97.197) authoritative for varmdo.se.
+ 31.000: varmdo.se INFO Name server njord.xsoft.se (87.227.97.197) closed for zone transfer of varmdo.se.
+ 31.035: varmdo.se INFO Legacy name server ID for njord.xsoft.se (87.227.97.197): hostname.bind = Idun
+ 31.069: varmdo.se INFO Legacy name server ID for njord.xsoft.se (87.227.97.197): version.bind = 9.6-ESV-R3
+ 31.138: varmdo.se NOTICE No answer received from 87.227.97.197 when querying for version.server/CH/TXT.
+ 37.139: varmdo.se ERROR Name server njord.xsoft.se (2001:16d8:ff97:0:0:0:0:12) does not answer queries over UDP.
+ 37.140: varmdo.se ERROR Name server njord.xsoft.se (2001:16d8:ff97:0:0:0:0:12) does not answer queries over TCP.
+ 37.140: varmdo.se INFO Done testing name server njord.xsoft.se.
+ 37.141: varmdo.se INFO Begin testing zone consistency for varmdo.se.
+ 37.184: varmdo.se INFO SOA at address 87.227.97.197 has serial 2010111802.
+ 37.195: varmdo.se INFO SOA at address 194.71.153.11 has serial 2010111802.
+ 37.206: varmdo.se INFO SOA at address 194.71.153.10 has serial 2010111802.
+ 37.206: varmdo.se INFO All SOA records have consistent serial numbers.
+ 37.206: varmdo.se INFO All SOA records are consistent among all name servers.
+ 37.206: varmdo.se INFO Done testing zone consistency for varmdo.se.
+ 37.206: varmdo.se INFO Begin testing SOA parameters for varmdo.se.
+ 37.218: varmdo.se INFO Found SOA record for varmdo.se.
+ 37.218: varmdo.se INFO Begin testing host dns1.varmdo.se.
+ 37.218: varmdo.se INFO Begin testing address 194.71.153.10.
+ 37.220: varmdo.se INFO Done testing address 194.71.153.10.
+ 37.220: varmdo.se INFO Done testing host dns1.varmdo.se.
+ 37.220: varmdo.se INFO SOA MNAME for varmdo.se valid (dns1.varmdo.se).
+ 37.220: varmdo.se INFO SOA MNAME for varmdo.se (dns1.varmdo.se) listed as NS.
+ 37.231: varmdo.se INFO SOA MNAME for varmdo.se (dns1.varmdo.se) is authoritative.
+ 37.231: varmdo.se INFO Begin testing email address sysadmin@varmdo.se.
+ 37.486: varmdo.se INFO Mail exchangers for sysadmin@varmdo.se found smtp-in.sto-hy.se.stejtech.net,smtp-in.sto-ste.se.stejtech.net.
+ 37.486: varmdo.se INFO Begin testing host smtp-in.sto-hy.se.stejtech.net.
+ 37.952: varmdo.se INFO Begin testing address 83.140.31.145.
+ 46.747: varmdo.se INFO Done testing address 83.140.31.145.
+ 46.747: varmdo.se INFO Done testing host smtp-in.sto-hy.se.stejtech.net.
+ 46.748: varmdo.se INFO Begin testing mail server smtp-in.sto-hy.se.stejtech.net (83.140.31.145) with sysadmin@varmdo.se.
+ 46.764: varmdo.se INFO SMTP banner: smtp5.stejtech.net ESMTP Stej PowerFilter
+ 46.879: varmdo.se INFO SMTP testing of smtp-in.sto-hy.se.stejtech.net (83.140.31.145) with sysadmin@varmdo.se succeeded without errors.
+ 46.879: varmdo.se INFO Done testing mail server smtp-in.sto-hy.se.stejtech.net (83.140.31.145) with sysadmin@varmdo.se.
+ 46.879: varmdo.se INFO Begin testing host smtp-in.sto-ste.se.stejtech.net.
+ 47.381: varmdo.se INFO Begin testing address 80.248.224.70.
+ 48.589: varmdo.se INFO Done testing address 80.248.224.70.
+ 48.589: varmdo.se INFO Done testing host smtp-in.sto-ste.se.stejtech.net.
+ 48.589: varmdo.se INFO Delivery over IPv4 to sysadmin@varmdo.se ok.
+ 48.589: varmdo.se INFO Delivery over IPv6 to sysadmin@varmdo.se could not be done.
+ 48.590: varmdo.se INFO Done testing email address sysadmin@varmdo.se.
+ 48.590: varmdo.se INFO Successful attempt to deliver email for SOA RNAME of varmdo.se (sysadmin.varmdo.se) using sysadmin@varmdo.se.
+ 48.590: varmdo.se NOTICE SOA TTL for varmdo.se too small (1800) - recommended >= 3600.
+ 48.590: varmdo.se NOTICE SOA refresh for varmdo.se too small (3600) - recommended >= 14400.
+ 48.590: varmdo.se NOTICE SOA retry for varmdo.se too small (600) - recommended >= 3600.
+ 48.590: varmdo.se INFO SOA expire for varmdo.se OK (604800) - recommended >= 604800.
+ 48.590: varmdo.se INFO SOA minimum for varmdo.se OK (1800) - recommended between 300 and 86400.
+ 48.590: varmdo.se INFO Done testing SOA parameters for varmdo.se.
+ 48.590: varmdo.se INFO Begin testing connectivity for varmdo.se.
+ 49.223: varmdo.se INFO Name server 194.71.153.11 announced by: 49079
+ 49.903: varmdo.se INFO Name server 194.71.153.10 announced by: 49079
+ 50.489: varmdo.se INFO Name server 87.227.97.197 announced by: 3292
+ 50.489: varmdo.se INFO Zone announced by IPv4 ASN: 3292,49079
+ 50.489: varmdo.se INFO Zone announced by more than one ASN (2).
+ 51.026: varmdo.se INFO Name server 2001:16d8:ff97:0000:0000:0000:0000:0012 announced over IPv6 by: 16150
+ 51.027: varmdo.se INFO Zone announced by IPv6 ASN: 16150
+ 51.027: varmdo.se NOTICE Zone announced by less than two IPv6 ASN (1).
+ 51.027: varmdo.se INFO Done testing connectivity for varmdo.se.
+ 51.027: varmdo.se INFO Begin testing DNSSEC for varmdo.se.
+ 51.116: varmdo.se INFO Did not find DS record for varmdo.se at parent.
+ 56.215: varmdo.se NOTICE DNS lookup error (connection failed(IPv6 socket failure)).
+ 56.215: varmdo.se INFO Servers for varmdo.se have consistent extra processing status.
+ 56.215: varmdo.se INFO Did not find DNSKEY record for varmdo.se at child.
+ 56.215: varmdo.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 56.215: varmdo.se INFO Done testing DNSSEC for varmdo.se.
+ 56.215: varmdo.se INFO Test completed for zone varmdo.se.

@@ -1,0 +1,120 @@
+  0.000: somero.fi INFO Begin testing zone somero.fi with version 1.5.0.
+  2.531: somero.fi INFO Begin testing delegation for somero.fi.
+ 68.081: somero.fi INFO Name servers listed at parent: ns.foobar.fi,ns2.foobar.fi
+ 85.062: somero.fi INFO Name servers listed at child: ns.foobar.fi,ns2.foobar.fi
+ 85.619: somero.fi INFO Parent glue for somero.fi found: ns.foobar.fi (188.117.5.225)
+ 86.417: somero.fi INFO Parent glue for somero.fi found: ns.foobar.fi (2001:1bc8:101:ea00:0:0:0:225)
+ 87.045: somero.fi INFO Parent glue for somero.fi found: ns2.foobar.fi (81.22.252.185)
+ 87.630: somero.fi INFO Parent glue for somero.fi found: ns2.foobar.fi (2001:470:dd9e:d00:1:0:0:185)
+ 87.630: somero.fi INFO Checking glue for ns.foobar.fi (188.117.5.225).
+ 87.630: somero.fi INFO Checking glue for ns.foobar.fi (2001:1bc8:101:ea00:0:0:0:225).
+ 87.630: somero.fi INFO Checking glue for ns2.foobar.fi (81.22.252.185).
+ 87.630: somero.fi INFO Checking glue for ns2.foobar.fi (2001:470:dd9e:d00:1:0:0:185).
+ 87.631: somero.fi INFO Parent glue for somero.fi found: ns.foobar.fi (188.117.5.225)
+ 87.631: somero.fi INFO Parent glue for somero.fi found: ns.foobar.fi (2001:1bc8:101:ea00:0:0:0:225)
+ 87.631: somero.fi INFO Parent glue for somero.fi found: ns2.foobar.fi (81.22.252.185)
+ 87.631: somero.fi INFO Parent glue for somero.fi found: ns2.foobar.fi (2001:470:dd9e:d00:1:0:0:185)
+ 90.552: somero.fi INFO It is possible to build a referral packet for somero.fi that works without EDNS0.
+ 90.553: somero.fi INFO Previously used name servers for somero.fi: 
+ 90.553: somero.fi INFO Done testing delegation for somero.fi.
+ 90.553: somero.fi INFO Begin testing name server ns.foobar.fi.
+ 90.554: somero.fi INFO Begin testing host ns.foobar.fi.
+ 90.554: somero.fi INFO Begin testing address 188.117.5.225.
+136.441: somero.fi INFO Done testing address 188.117.5.225.
+137.005: somero.fi INFO Begin testing address 2001:1bc8:101:ea00:0:0:0:225.
+139.468: somero.fi INFO Done testing address 2001:1bc8:101:ea00:0:0:0:225.
+139.468: somero.fi INFO Done testing host ns.foobar.fi.
+139.864: somero.fi INFO Name server ns.foobar.fi (188.117.5.225) answers queries over UDP.
+140.328: somero.fi INFO Name server ns.foobar.fi (188.117.5.225) answers queries over TCP.
+140.620: somero.fi INFO Name server ns.foobar.fi (188.117.5.225) is not recursive.
+141.417: somero.fi INFO Name server ns.foobar.fi (188.117.5.225) authoritative for somero.fi.
+141.700: somero.fi INFO Name server ns.foobar.fi (188.117.5.225) closed for zone transfer of somero.fi.
+141.903: somero.fi INFO Legacy name server ID for ns.foobar.fi (188.117.5.225): hostname.bind = none
+142.412: somero.fi NOTICE No answer received from 188.117.5.225 when querying for version.bind/CH/TXT.
+142.656: somero.fi INFO Legacy name server ID for ns.foobar.fi (188.117.5.225): id.server = none
+142.860: somero.fi NOTICE No answer received from 188.117.5.225 when querying for version.server/CH/TXT.
+143.144: somero.fi INFO Name server ns.foobar.fi (2001:1bc8:101:ea00:0:0:0:225) answers queries over UDP.
+143.432: somero.fi INFO Name server ns.foobar.fi (2001:1bc8:101:ea00:0:0:0:225) answers queries over TCP.
+143.716: somero.fi INFO Name server ns.foobar.fi (2001:1bc8:101:ea00:0:0:0:225) is not recursive.
+144.649: somero.fi INFO Name server ns.foobar.fi (2001:1bc8:101:ea00:0:0:0:225) authoritative for somero.fi.
+144.826: somero.fi INFO Name server ns.foobar.fi (2001:1bc8:101:ea00:0:0:0:225) closed for zone transfer of somero.fi.
+144.987: somero.fi INFO Legacy name server ID for ns.foobar.fi (2001:1bc8:101:ea00:0:0:0:225): hostname.bind = none
+145.356: somero.fi NOTICE No answer received from 2001:1bc8:101:ea00:0:0:0:225 when querying for version.bind/CH/TXT.
+145.562: somero.fi INFO Legacy name server ID for ns.foobar.fi (2001:1bc8:101:ea00:0:0:0:225): id.server = none
+145.888: somero.fi NOTICE No answer received from 2001:1bc8:101:ea00:0:0:0:225 when querying for version.server/CH/TXT.
+145.888: somero.fi INFO Done testing name server ns.foobar.fi.
+145.888: somero.fi INFO Begin testing name server ns2.foobar.fi.
+145.888: somero.fi INFO Begin testing host ns2.foobar.fi.
+145.889: somero.fi INFO Begin testing address 81.22.252.185.
+156.301: somero.fi INFO Done testing address 81.22.252.185.
+156.301: somero.fi INFO Begin testing address 2001:470:dd9e:d00:1:0:0:185.
+216.648: somero.fi INFO Done testing address 2001:470:dd9e:d00:1:0:0:185.
+216.648: somero.fi INFO Done testing host ns2.foobar.fi.
+216.868: somero.fi INFO Name server ns2.foobar.fi (81.22.252.185) answers queries over UDP.
+217.186: somero.fi INFO Name server ns2.foobar.fi (81.22.252.185) answers queries over TCP.
+217.456: somero.fi INFO Name server ns2.foobar.fi (81.22.252.185) is not recursive.
+218.284: somero.fi INFO Name server ns2.foobar.fi (81.22.252.185) authoritative for somero.fi.
+218.588: somero.fi INFO Name server ns2.foobar.fi (81.22.252.185) closed for zone transfer of somero.fi.
+218.796: somero.fi INFO Legacy name server ID for ns2.foobar.fi (81.22.252.185): hostname.bind = none
+219.024: somero.fi NOTICE No answer received from 81.22.252.185 when querying for version.bind/CH/TXT.
+219.336: somero.fi INFO Legacy name server ID for ns2.foobar.fi (81.22.252.185): id.server = none
+219.539: somero.fi NOTICE No answer received from 81.22.252.185 when querying for version.server/CH/TXT.
+219.904: somero.fi INFO Name server ns2.foobar.fi (2001:470:dd9e:d00:1:0:0:185) answers queries over UDP.
+220.180: somero.fi INFO Name server ns2.foobar.fi (2001:470:dd9e:d00:1:0:0:185) answers queries over TCP.
+220.403: somero.fi INFO Name server ns2.foobar.fi (2001:470:dd9e:d00:1:0:0:185) is not recursive.
+221.350: somero.fi INFO Name server ns2.foobar.fi (2001:470:dd9e:d00:1:0:0:185) authoritative for somero.fi.
+221.601: somero.fi INFO Name server ns2.foobar.fi (2001:470:dd9e:d00:1:0:0:185) closed for zone transfer of somero.fi.
+221.862: somero.fi INFO Legacy name server ID for ns2.foobar.fi (2001:470:dd9e:d00:1:0:0:185): hostname.bind = none
+222.100: somero.fi NOTICE No answer received from 2001:470:dd9e:d00:1:0:0:185 when querying for version.bind/CH/TXT.
+222.337: somero.fi INFO Legacy name server ID for ns2.foobar.fi (2001:470:dd9e:d00:1:0:0:185): id.server = none
+222.572: somero.fi NOTICE No answer received from 2001:470:dd9e:d00:1:0:0:185 when querying for version.server/CH/TXT.
+222.572: somero.fi INFO Done testing name server ns2.foobar.fi.
+222.572: somero.fi INFO Begin testing zone consistency for somero.fi.
+223.268: somero.fi INFO SOA at address 2001:470:dd9e:d00:1:0:0:185 has serial 1355732996.
+223.504: somero.fi INFO SOA at address 81.22.252.185 has serial 1355732996.
+223.840: somero.fi INFO SOA at address 2001:1bc8:101:ea00:0:0:0:225 has serial 1355732996.
+223.978: somero.fi INFO SOA at address 188.117.5.225 has serial 1355732996.
+223.978: somero.fi INFO All SOA records have consistent serial numbers.
+223.978: somero.fi INFO All other fields in the SOA record are consistent among all name servers.
+225.068: somero.fi NOTICE The listed nameservers for somero.fi all report the same set of nameservers.
+225.068: somero.fi INFO Done testing zone consistency for somero.fi.
+225.069: somero.fi INFO Begin testing SOA parameters for somero.fi.
+225.313: somero.fi INFO Found SOA record for somero.fi.
+225.314: somero.fi INFO Begin testing host ns.foobar.fi.
+225.314: somero.fi INFO Begin testing address 188.117.5.225.
+225.448: somero.fi INFO Done testing address 188.117.5.225.
+225.448: somero.fi INFO Begin testing address 2001:1bc8:101:ea00:0:0:0:225.
+225.450: somero.fi INFO Done testing address 2001:1bc8:101:ea00:0:0:0:225.
+225.450: somero.fi INFO Done testing host ns.foobar.fi.
+225.450: somero.fi INFO SOA MNAME for somero.fi valid (ns.foobar.fi).
+225.450: somero.fi INFO SOA MNAME for somero.fi (ns.foobar.fi) listed as NS.
+225.908: somero.fi INFO SOA MNAME for somero.fi (ns.foobar.fi) is authoritative.
+226.232: somero.fi INFO SOA MNAME for somero.fi (ns.foobar.fi) is authoritative.
+226.233: somero.fi INFO Begin testing email address hostmaster@foobar.fi.
+227.936: somero.fi INFO Mail exchangers for hostmaster@foobar.fi found ikijono.foobar.fi.
+227.936: somero.fi INFO Begin testing host ikijono.foobar.fi.
+231.825: somero.fi INFO Begin testing address 188.117.5.227.
+237.225: somero.fi INFO Done testing address 188.117.5.227.
+237.226: somero.fi INFO Begin testing address 2001:1bc8:101:ea00:0:0:0:227.
+239.185: somero.fi INFO Done testing address 2001:1bc8:101:ea00:0:0:0:227.
+239.185: somero.fi INFO Done testing host ikijono.foobar.fi.
+239.185: somero.fi INFO Done testing email address hostmaster@foobar.fi.
+239.185: somero.fi INFO Successful attempt to deliver email for SOA RNAME of somero.fi (hostmaster.foobar.fi) using hostmaster@foobar.fi.
+239.185: somero.fi INFO SOA TTL for somero.fi OK (21600) - recommended >= 3600.
+239.185: somero.fi INFO SOA refresh for somero.fi OK (21600) - recommended >= 14400.
+239.185: somero.fi INFO SOA retry for somero.fi OK (7200) - recommended >= 3600.
+239.185: somero.fi INFO SOA expire for somero.fi OK (604800) - recommended >= 604800.
+239.185: somero.fi INFO SOA minimum for somero.fi OK (21600) - recommended between 300 and 86400.
+239.186: somero.fi INFO Done testing SOA parameters for somero.fi.
+239.186: somero.fi INFO Begin testing connectivity for somero.fi.
+244.273: somero.fi INFO Zone announced by more than one ASN.
+250.311: somero.fi INFO Zone announced by more than one IPv6 ASN.
+250.311: somero.fi INFO Done testing connectivity for somero.fi.
+250.311: somero.fi INFO Begin testing DNSSEC for somero.fi.
+251.393: somero.fi INFO Did not find DS record for somero.fi at parent.
+252.847: somero.fi INFO Servers for somero.fi have consistent extra processing status.
+253.231: somero.fi INFO Authenticated denial records not found for somero.fi.
+253.560: somero.fi INFO Did not find DNSKEY record for somero.fi at child.
+253.560: somero.fi INFO No DNSKEY(s) found at child, other tests skipped.
+253.560: somero.fi INFO Done testing DNSSEC for somero.fi.
+253.561: somero.fi INFO Test completed for zone somero.fi.

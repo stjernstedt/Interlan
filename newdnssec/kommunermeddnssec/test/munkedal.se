@@ -1,0 +1,112 @@
+  0.000: munkedal.se INFO Begin testing zone munkedal.se with version 1.6.1.
+  0.960: munkedal.se INFO Begin testing delegation for munkedal.se.
+ 30.955: munkedal.se INFO Name servers listed at parent: dns1.munkedal.se,dns1.sml-it.se,dns2.munkedal.se
+ 34.721: munkedal.se INFO Name servers listed at child: dns1.munkedal.se,dns1.sml-it.se,dns2.munkedal.se
+ 34.721: munkedal.se NOTICE No IPv6 name servers found.
+ 34.841: munkedal.se INFO Parent glue for munkedal.se found: dns1.munkedal.se (194.16.179.114)
+ 35.798: munkedal.se INFO Parent glue for munkedal.se found: dns2.munkedal.se (194.16.179.115)
+ 35.911: munkedal.se INFO Checking glue for dns1.munkedal.se (194.16.179.114).
+ 36.048: munkedal.se INFO Child glue for munkedal.se found: dns1.munkedal.se (194.16.179.114)
+ 36.048: munkedal.se INFO Checking glue for dns2.munkedal.se (194.16.179.115).
+ 36.072: munkedal.se INFO Child glue for munkedal.se found: dns2.munkedal.se (194.16.179.115)
+ 36.073: munkedal.se INFO Parent glue for munkedal.se found: dns1.munkedal.se (194.16.179.114)
+ 36.073: munkedal.se INFO Parent glue for munkedal.se found: dns2.munkedal.se (194.16.179.115)
+ 37.639: munkedal.se INFO It is possible to build a referral packet for munkedal.se that works without EDNS0.
+ 39.015: munkedal.se INFO Previously used name servers for munkedal.se: 
+ 39.015: munkedal.se INFO Done testing delegation for munkedal.se.
+ 39.040: munkedal.se INFO Begin testing name server dns1.munkedal.se.
+ 39.040: munkedal.se INFO Begin testing host dns1.munkedal.se.
+ 39.574: munkedal.se INFO Begin testing address 194.16.179.114.
+ 55.947: munkedal.se INFO Done testing address 194.16.179.114.
+ 55.947: munkedal.se INFO Done testing host dns1.munkedal.se.
+ 57.424: munkedal.se INFO Name server dns1.munkedal.se (194.16.179.114) answers queries over UDP.
+ 57.501: munkedal.se INFO Name server dns1.munkedal.se (194.16.179.114) answers queries over TCP.
+ 57.638: munkedal.se INFO Name server dns1.munkedal.se (194.16.179.114) is not recursive.
+ 57.866: munkedal.se INFO Name server dns1.munkedal.se (194.16.179.114) authoritative for munkedal.se.
+ 58.246: munkedal.se INFO Name server dns1.munkedal.se (194.16.179.114) closed for zone transfer of munkedal.se.
+ 58.331: munkedal.se NOTICE No answer received from 194.16.179.114 when querying for hostname.bind/CH/TXT.
+ 69.309: munkedal.se INFO Done testing name server dns1.munkedal.se.
+ 69.310: munkedal.se INFO Begin testing name server dns1.sml-it.se.
+ 69.310: munkedal.se INFO Begin testing host dns1.sml-it.se.
+ 69.752: munkedal.se INFO Begin testing address 194.16.194.209.
+ 73.376: munkedal.se INFO Done testing address 194.16.194.209.
+ 73.376: munkedal.se INFO Done testing host dns1.sml-it.se.
+ 74.256: munkedal.se INFO Name server dns1.sml-it.se (194.16.194.209) answers queries over UDP.
+ 74.383: munkedal.se INFO Name server dns1.sml-it.se (194.16.194.209) answers queries over TCP.
+ 74.435: munkedal.se INFO Name server dns1.sml-it.se (194.16.194.209) is not recursive.
+ 74.715: munkedal.se INFO Name server dns1.sml-it.se (194.16.194.209) authoritative for munkedal.se.
+ 75.055: munkedal.se INFO Name server dns1.sml-it.se (194.16.194.209) closed for zone transfer of munkedal.se.
+ 91.345: munkedal.se INFO Done testing name server dns1.sml-it.se.
+ 91.345: munkedal.se INFO Begin testing name server dns2.munkedal.se.
+ 91.345: munkedal.se INFO Begin testing host dns2.munkedal.se.
+ 92.148: munkedal.se INFO Begin testing address 194.16.179.115.
+ 93.430: munkedal.se INFO Done testing address 194.16.179.115.
+ 93.431: munkedal.se INFO Done testing host dns2.munkedal.se.
+ 93.721: munkedal.se INFO Name server dns2.munkedal.se (194.16.179.115) answers queries over UDP.
+ 93.764: munkedal.se INFO Name server dns2.munkedal.se (194.16.179.115) answers queries over TCP.
+ 93.848: munkedal.se INFO Name server dns2.munkedal.se (194.16.179.115) is not recursive.
+ 93.971: munkedal.se INFO Name server dns2.munkedal.se (194.16.179.115) authoritative for munkedal.se.
+ 94.297: munkedal.se INFO Name server dns2.munkedal.se (194.16.179.115) closed for zone transfer of munkedal.se.
+ 94.322: munkedal.se NOTICE No answer received from 194.16.179.115 when querying for hostname.bind/CH/TXT.
+106.413: munkedal.se INFO Done testing name server dns2.munkedal.se.
+106.413: munkedal.se INFO Begin testing zone consistency for munkedal.se.
+107.232: munkedal.se INFO SOA at address 194.16.179.114 has serial 17503.
+107.258: munkedal.se INFO SOA at address 194.16.194.209 has serial 17503.
+107.280: munkedal.se INFO SOA at address 194.16.179.115 has serial 17503.
+107.280: munkedal.se INFO All SOA records have consistent serial numbers.
+107.280: munkedal.se INFO All other fields in the SOA record are consistent among all name servers.
+107.643: munkedal.se NOTICE The listed nameservers for munkedal.se all report the same set of nameservers.
+107.643: munkedal.se INFO Done testing zone consistency for munkedal.se.
+107.644: munkedal.se INFO Begin testing SOA parameters for munkedal.se.
+107.667: munkedal.se INFO Found SOA record for munkedal.se.
+107.667: munkedal.se INFO Begin testing host dns1.sml-it.se.
+107.768: munkedal.se INFO Begin testing address 194.16.194.209.
+107.862: munkedal.se INFO Done testing address 194.16.194.209.
+107.862: munkedal.se INFO Done testing host dns1.sml-it.se.
+107.862: munkedal.se INFO SOA MNAME for munkedal.se valid (dns1.sml-it.se).
+107.862: munkedal.se INFO SOA MNAME for munkedal.se (dns1.sml-it.se) listed as NS.
+107.972: munkedal.se INFO SOA MNAME for munkedal.se (dns1.sml-it.se) is authoritative.
+107.972: munkedal.se INFO Begin testing email address admin@munkedal.se.
+108.095: munkedal.se INFO Mail exchangers for admin@munkedal.se found smtp-in.sto-hy.se.stejtech.net,smtp-in.sto-ste.se.stejtech.net.
+108.095: munkedal.se INFO Begin testing host smtp-in.sto-hy.se.stejtech.net.
+108.506: munkedal.se INFO Begin testing address 91.236.209.10.
+109.975: munkedal.se INFO Done testing address 91.236.209.10.
+109.975: munkedal.se INFO Begin testing address 79.136.102.100.
+111.232: munkedal.se INFO Done testing address 79.136.102.100.
+111.232: munkedal.se INFO Begin testing address 91.236.208.10.
+112.302: munkedal.se INFO Done testing address 91.236.208.10.
+112.302: munkedal.se INFO Begin testing address 2001:67c:27e0:2210:0:0:0:1b01.
+113.542: munkedal.se INFO Done testing address 2001:67c:27e0:2210:0:0:0:1b01.
+113.542: munkedal.se INFO Begin testing address 2001:67c:27e0:2110:0:0:0:1b01.
+114.543: munkedal.se INFO Done testing address 2001:67c:27e0:2110:0:0:0:1b01.
+114.543: munkedal.se INFO Begin testing address 2001:9b0:1:703:0:0:0:1b01.
+117.424: munkedal.se INFO Done testing address 2001:9b0:1:703:0:0:0:1b01.
+117.424: munkedal.se INFO Done testing host smtp-in.sto-hy.se.stejtech.net.
+117.424: munkedal.se INFO Begin testing host smtp-in.sto-ste.se.stejtech.net.
+118.298: munkedal.se INFO Begin testing address 79.136.102.90.
+119.209: munkedal.se INFO Done testing address 79.136.102.90.
+119.210: munkedal.se INFO Begin testing address 83.140.31.145.
+120.018: munkedal.se INFO Done testing address 83.140.31.145.
+120.065: munkedal.se INFO Begin testing address 2001:9b0:1:703:0:0:0:b002.
+120.901: munkedal.se INFO Done testing address 2001:9b0:1:703:0:0:0:b002.
+120.901: munkedal.se INFO Done testing host smtp-in.sto-ste.se.stejtech.net.
+120.901: munkedal.se INFO Done testing email address admin@munkedal.se.
+120.901: munkedal.se INFO Successful attempt to deliver email for SOA RNAME of munkedal.se (admin.munkedal.se) using admin@munkedal.se.
+120.902: munkedal.se INFO SOA TTL for munkedal.se OK (3600) - recommended >= 3600.
+120.902: munkedal.se INFO SOA refresh for munkedal.se OK (14400) - recommended >= 14400.
+120.902: munkedal.se INFO SOA retry for munkedal.se OK (3600) - recommended >= 3600.
+120.902: munkedal.se INFO SOA expire for munkedal.se OK (1209600) - recommended >= 604800.
+120.902: munkedal.se INFO SOA minimum for munkedal.se OK (3600) - recommended between 300 and 86400.
+120.902: munkedal.se INFO Done testing SOA parameters for munkedal.se.
+120.902: munkedal.se INFO Begin testing connectivity for munkedal.se.
+122.433: munkedal.se NOTICE Zone announced by fewer than two IPv4 ASN.
+122.434: munkedal.se NOTICE Zone announced by fewer than two IPv6 ASN.
+122.434: munkedal.se INFO Done testing connectivity for munkedal.se.
+122.434: munkedal.se INFO Begin testing DNSSEC for munkedal.se.
+122.458: munkedal.se INFO Did not find DS record for munkedal.se at parent.
+122.595: munkedal.se INFO Servers for munkedal.se have consistent extra processing status.
+122.644: munkedal.se INFO Authenticated denial records not found for munkedal.se.
+122.666: munkedal.se INFO Did not find DNSKEY record for munkedal.se at child.
+122.667: munkedal.se INFO No DNSKEY(s) found at child, other tests skipped.
+122.667: munkedal.se INFO Done testing DNSSEC for munkedal.se.
+122.667: munkedal.se INFO Test completed for zone munkedal.se.

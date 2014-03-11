@@ -1,0 +1,123 @@
+  0.000: mala.se INFO Begin testing zone mala.se with version 1.6.1.
+  1.090: mala.se INFO Begin testing delegation for mala.se.
+ 22.772: mala.se INFO Name servers listed at parent: cesar.mala.se,julius.mala.se
+ 26.900: mala.se INFO Name servers listed at child: cesar.mala.se,julius.mala.se
+ 26.901: mala.se NOTICE No IPv6 name servers found.
+ 27.070: mala.se INFO Parent glue for mala.se found: cesar.mala.se (80.88.123.63)
+ 27.433: mala.se INFO Parent glue for mala.se found: julius.mala.se (80.88.123.62)
+ 27.671: mala.se INFO Checking glue for cesar.mala.se (80.88.123.63).
+ 27.714: mala.se INFO Child glue for mala.se found: cesar.mala.se (80.88.123.63)
+ 27.714: mala.se INFO Checking glue for julius.mala.se (80.88.123.62).
+ 27.846: mala.se INFO Child glue for mala.se found: julius.mala.se (80.88.123.62)
+ 27.847: mala.se INFO Parent glue for mala.se found: cesar.mala.se (80.88.123.63)
+ 27.847: mala.se INFO Parent glue for mala.se found: julius.mala.se (80.88.123.62)
+ 28.894: mala.se INFO It is possible to build a referral packet for mala.se that works without EDNS0.
+ 29.897: mala.se INFO Previously used name servers for mala.se: 
+ 29.898: mala.se INFO Done testing delegation for mala.se.
+ 29.898: mala.se INFO Begin testing name server cesar.mala.se.
+ 29.898: mala.se INFO Begin testing host cesar.mala.se.
+ 30.472: mala.se INFO Begin testing address 80.88.123.63.
+ 48.369: mala.se INFO Done testing address 80.88.123.63.
+ 48.369: mala.se INFO Done testing host cesar.mala.se.
+ 48.684: mala.se INFO Name server cesar.mala.se (80.88.123.63) answers queries over UDP.
+ 48.854: mala.se INFO Name server cesar.mala.se (80.88.123.63) answers queries over TCP.
+ 49.026: mala.se INFO Name server cesar.mala.se (80.88.123.63) is not recursive.
+ 49.380: mala.se INFO Name server cesar.mala.se (80.88.123.63) authoritative for mala.se.
+ 49.474: mala.se INFO Name server cesar.mala.se (80.88.123.63) closed for zone transfer of mala.se.
+ 49.600: mala.se INFO Legacy name server ID for cesar.mala.se (80.88.123.63): hostname.bind = cesar.dmz.mala.se
+ 49.677: mala.se INFO Legacy name server ID for cesar.mala.se (80.88.123.63): version.bind = 9.3.4-P1
+ 49.770: mala.se NOTICE No answer received from 80.88.123.63 when querying for version.server/CH/TXT.
+ 49.770: mala.se INFO Done testing name server cesar.mala.se.
+ 49.770: mala.se INFO Begin testing name server julius.mala.se.
+ 49.770: mala.se INFO Begin testing host julius.mala.se.
+ 50.558: mala.se INFO Begin testing address 80.88.123.62.
+ 52.523: mala.se INFO Done testing address 80.88.123.62.
+ 52.523: mala.se INFO Done testing host julius.mala.se.
+ 53.365: mala.se INFO Name server julius.mala.se (80.88.123.62) answers queries over UDP.
+ 53.456: mala.se INFO Name server julius.mala.se (80.88.123.62) answers queries over TCP.
+ 53.517: mala.se INFO Name server julius.mala.se (80.88.123.62) is not recursive.
+ 53.931: mala.se INFO Name server julius.mala.se (80.88.123.62) authoritative for mala.se.
+ 54.018: mala.se INFO Name server julius.mala.se (80.88.123.62) closed for zone transfer of mala.se.
+ 54.051: mala.se INFO Legacy name server ID for julius.mala.se (80.88.123.62): hostname.bind = julius
+ 54.121: mala.se INFO Legacy name server ID for julius.mala.se (80.88.123.62): version.bind = 9.6.1-P2
+ 54.335: mala.se NOTICE No answer received from 80.88.123.62 when querying for version.server/CH/TXT.
+ 54.335: mala.se INFO Done testing name server julius.mala.se.
+ 54.899: mala.se INFO Begin testing zone consistency for mala.se.
+ 57.558: mala.se INFO SOA at address 80.88.123.62 has serial 1393628401.
+ 57.648: mala.se INFO SOA at address 80.88.123.63 has serial 1393628401.
+ 57.649: mala.se INFO All SOA records have consistent serial numbers.
+ 57.649: mala.se INFO All other fields in the SOA record are consistent among all name servers.
+ 61.201: mala.se NOTICE The listed nameservers for mala.se all report the same set of nameservers.
+ 61.201: mala.se INFO Done testing zone consistency for mala.se.
+ 61.201: mala.se INFO Begin testing SOA parameters for mala.se.
+ 61.262: mala.se INFO Found SOA record for mala.se.
+ 61.263: mala.se INFO Begin testing host cesar.mala.se.
+ 61.744: mala.se INFO Begin testing address 80.88.123.63.
+ 62.138: mala.se INFO Done testing address 80.88.123.63.
+ 62.138: mala.se INFO Done testing host cesar.mala.se.
+ 62.138: mala.se INFO SOA MNAME for mala.se valid (cesar.mala.se).
+ 62.139: mala.se INFO SOA MNAME for mala.se (cesar.mala.se) listed as NS.
+ 62.902: mala.se INFO SOA MNAME for mala.se (cesar.mala.se) is authoritative.
+ 62.903: mala.se INFO Begin testing email address hostmaster@mala.se.
+ 63.586: mala.se INFO Mail exchangers for hostmaster@mala.se found mailgw.net.umea.se,mailgw2.net.umea.se.
+ 63.586: mala.se INFO Begin testing host mailgw.net.umea.se.
+ 64.597: mala.se INFO Begin testing address 193.254.4.57.
+ 65.600: mala.se INFO Done testing address 193.254.4.57.
+ 65.601: mala.se INFO Done testing host mailgw.net.umea.se.
+ 66.178: mala.se INFO Begin testing host mailgw2.net.umea.se.
+ 67.426: mala.se INFO Begin testing address 193.254.4.60.
+ 68.482: mala.se INFO Done testing address 193.254.4.60.
+ 68.482: mala.se INFO Done testing host mailgw2.net.umea.se.
+ 69.567: mala.se INFO Done testing email address hostmaster@mala.se.
+ 69.567: mala.se INFO Successful attempt to deliver email for SOA RNAME of mala.se (hostmaster.mala.se) using hostmaster@mala.se.
+ 69.567: mala.se INFO SOA TTL for mala.se OK (3600) - recommended >= 3600.
+ 69.567: mala.se NOTICE SOA refresh for mala.se too small (7200) - recommended >= 14400.
+ 69.568: mala.se INFO SOA retry for mala.se OK (3600) - recommended >= 3600.
+ 69.588: mala.se INFO SOA expire for mala.se OK (604800) - recommended >= 604800.
+ 69.588: mala.se INFO SOA minimum for mala.se OK (86400) - recommended between 300 and 86400.
+ 69.588: mala.se INFO Done testing SOA parameters for mala.se.
+ 69.589: mala.se INFO Begin testing connectivity for mala.se.
+ 71.756: mala.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 71.756: mala.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 71.756: mala.se INFO Done testing connectivity for mala.se.
+ 71.756: mala.se INFO Begin testing DNSSEC for mala.se.
+ 72.314: mala.se INFO Found DS record for mala.se at parent.
+ 72.411: mala.se INFO Nameserver 80.88.123.62 does DNSSEC extra processing.
+ 72.651: mala.se INFO Nameserver 80.88.123.63 does DNSSEC extra processing.
+ 72.651: mala.se INFO Servers for mala.se have consistent extra processing status.
+ 72.863: mala.se INFO Authenticated denial records found for mala.se, of type NSEC.
+ 72.950: mala.se INFO Found DNSKEY record for mala.se at child.
+ 72.950: mala.se INFO Consistent security for mala.se.
+ 72.950: mala.se INFO Checking DNSSEC at child (mala.se).
+ 72.950: mala.se INFO mala.se's key with tag 11578 uses algorithm number 5 (RSA/SHA-1).
+ 72.950: mala.se INFO Algorithm number 5 is OK.
+ 72.950: mala.se INFO DNSKEY mala.se (tag 11578) is marked as a secure entry point (SEP).
+ 72.950: mala.se INFO mala.se's key with tag 38220 uses algorithm number 5 (RSA/SHA-1).
+ 72.950: mala.se INFO Algorithm number 5 is OK.
+ 72.951: mala.se INFO DNSSEC signature expires at: Sun Mar 30 22:00:02 2014
+ 72.951: mala.se INFO Duration for RRSIG(mala.se/IN/DNSKEY/11578) is OK (2592000 seconds).
+ 72.997: mala.se INFO DNSSEC signature RRSIG(mala.se/IN/DNSKEY/11578) matches records.
+ 72.997: mala.se INFO DNSSEC signature valid: RRSIG(mala.se/IN/DNSKEY/11578)
+ 72.997: mala.se INFO DNSSEC signature expires at: Sun Mar 30 22:00:02 2014
+ 72.997: mala.se INFO Duration for RRSIG(mala.se/IN/DNSKEY/38220) is OK (2592000 seconds).
+ 72.998: mala.se INFO DNSSEC signature RRSIG(mala.se/IN/DNSKEY/38220) matches records.
+ 72.998: mala.se INFO DNSSEC signature valid: RRSIG(mala.se/IN/DNSKEY/38220)
+ 72.998: mala.se INFO Enough valid signatures found for mala.se.
+ 73.080: mala.se INFO DNSSEC signature expires at: Sun Mar 30 22:00:02 2014
+ 73.080: mala.se INFO Duration for RRSIG(mala.se/IN/SOA/38220) is OK (2592000 seconds).
+ 73.080: mala.se INFO DNSSEC signature RRSIG(mala.se/IN/SOA/38220) matches records.
+ 73.081: mala.se INFO DNSSEC signature valid: RRSIG(mala.se/IN/SOA/38220)
+ 73.081: mala.se INFO Enough valid signatures over SOA RRset found for mala.se.
+ 73.165: mala.se INFO DNSSEC child checks for mala.se complete.
+ 73.165: mala.se INFO Checking DNSSEC at parent of mala.se.
+ 73.166: mala.se INFO mala.se's key with tag 11578 uses algorithm number 5 (RSA/SHA-1).
+ 73.166: mala.se INFO Algorithm number 5 is OK.
+ 73.166: mala.se INFO Parent DS(mala.se/5/1/11578) refers to valid key at child: DNSKEY(mala.se/5/11578)
+ 73.166: mala.se INFO Parent DS(mala.se) refers to secure entry point (SEP) at child: DS(mala.se/5/1/11578)
+ 73.169: mala.se INFO mala.se's key with tag 11578 uses algorithm number 5 (RSA/SHA-1).
+ 73.169: mala.se INFO Algorithm number 5 is OK.
+ 73.169: mala.se INFO Parent DS(mala.se/5/2/11578) refers to valid key at child: DNSKEY(mala.se/5/11578)
+ 73.169: mala.se INFO Parent DS(mala.se) refers to secure entry point (SEP) at child: DS(mala.se/5/2/11578)
+ 73.170: mala.se INFO DNSSEC parent checks for mala.se complete.
+ 73.170: mala.se INFO Done testing DNSSEC for mala.se.
+ 73.170: mala.se INFO Test completed for zone mala.se.

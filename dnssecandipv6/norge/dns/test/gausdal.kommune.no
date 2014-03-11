@@ -1,0 +1,84 @@
+  0.000: gausdal.kommune.no INFO Begin testing zone gausdal.kommune.no with version 1.6.1.
+  0.415: gausdal.kommune.no INFO Begin testing delegation for gausdal.kommune.no.
+  7.637: gausdal.kommune.no INFO Name servers listed at parent: ns1.nextra.no,ns2.nextra.no
+  8.710: gausdal.kommune.no INFO Name servers listed at child: ns1.nextra.no,ns2.nextra.no
+  8.710: gausdal.kommune.no NOTICE No IPv6 name servers found.
+  8.848: gausdal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  8.975: gausdal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.103: gausdal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.231: gausdal.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.820: gausdal.kommune.no INFO It is possible to build a referral packet for gausdal.kommune.no that works without EDNS0.
+ 10.283: gausdal.kommune.no INFO Previously used name servers for gausdal.kommune.no: 
+ 10.283: gausdal.kommune.no INFO Done testing delegation for gausdal.kommune.no.
+ 10.284: gausdal.kommune.no INFO Begin testing name server ns1.nextra.no.
+ 10.284: gausdal.kommune.no INFO Begin testing host ns1.nextra.no.
+ 10.539: gausdal.kommune.no INFO Begin testing address 148.122.208.98.
+ 19.548: gausdal.kommune.no INFO Done testing address 148.122.208.98.
+ 19.548: gausdal.kommune.no INFO Done testing host ns1.nextra.no.
+ 19.813: gausdal.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) answers queries over UDP.
+ 19.853: gausdal.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) answers queries over TCP.
+ 19.879: gausdal.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) is not recursive.
+ 19.962: gausdal.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) authoritative for gausdal.kommune.no.
+ 20.016: gausdal.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) closed for zone transfer of gausdal.kommune.no.
+ 20.029: gausdal.kommune.no NOTICE No answer received from 148.122.208.98 when querying for hostname.bind/CH/TXT.
+ 20.059: gausdal.kommune.no INFO Legacy name server ID for ns1.nextra.no (148.122.208.98): version.bind = Nominum ANS 2.8.1.2
+ 20.072: gausdal.kommune.no INFO Legacy name server ID for ns1.nextra.no (148.122.208.98): id.server = 275236d1-c090-4e72-8b4f-6bb3656fbdc2
+ 20.095: gausdal.kommune.no INFO Legacy name server ID for ns1.nextra.no (148.122.208.98): version.server = Nominum ANS 2.8.1.2
+ 20.095: gausdal.kommune.no INFO Done testing name server ns1.nextra.no.
+ 20.095: gausdal.kommune.no INFO Begin testing name server ns2.nextra.no.
+ 20.095: gausdal.kommune.no INFO Begin testing host ns2.nextra.no.
+ 20.330: gausdal.kommune.no INFO Begin testing address 148.122.161.2.
+ 20.903: gausdal.kommune.no INFO Done testing address 148.122.161.2.
+ 20.903: gausdal.kommune.no INFO Done testing host ns2.nextra.no.
+ 21.043: gausdal.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) answers queries over UDP.
+ 21.083: gausdal.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) answers queries over TCP.
+ 21.098: gausdal.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) is not recursive.
+ 21.158: gausdal.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) authoritative for gausdal.kommune.no.
+ 21.196: gausdal.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) closed for zone transfer of gausdal.kommune.no.
+ 21.219: gausdal.kommune.no NOTICE No answer received from 148.122.161.2 when querying for hostname.bind/CH/TXT.
+ 21.235: gausdal.kommune.no INFO Legacy name server ID for ns2.nextra.no (148.122.161.2): version.bind = Nominum ANS 2.8.1.2
+ 21.251: gausdal.kommune.no INFO Legacy name server ID for ns2.nextra.no (148.122.161.2): id.server = b15665a4-93cf-4b41-b1b3-3effb406c70f
+ 21.264: gausdal.kommune.no INFO Legacy name server ID for ns2.nextra.no (148.122.161.2): version.server = Nominum ANS 2.8.1.2
+ 21.265: gausdal.kommune.no INFO Done testing name server ns2.nextra.no.
+ 21.265: gausdal.kommune.no INFO Begin testing zone consistency for gausdal.kommune.no.
+ 21.833: gausdal.kommune.no INFO SOA at address 148.122.208.98 has serial 2014021800.
+ 21.849: gausdal.kommune.no INFO SOA at address 148.122.161.2 has serial 2014021800.
+ 21.849: gausdal.kommune.no INFO All SOA records have consistent serial numbers.
+ 21.850: gausdal.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 22.115: gausdal.kommune.no NOTICE The listed nameservers for gausdal.kommune.no all report the same set of nameservers.
+ 22.115: gausdal.kommune.no INFO Done testing zone consistency for gausdal.kommune.no.
+ 22.115: gausdal.kommune.no INFO Begin testing SOA parameters for gausdal.kommune.no.
+ 22.134: gausdal.kommune.no INFO Found SOA record for gausdal.kommune.no.
+ 22.134: gausdal.kommune.no INFO Begin testing host ns1.nextra.no.
+ 22.255: gausdal.kommune.no INFO Begin testing address 148.122.208.98.
+ 22.374: gausdal.kommune.no INFO Done testing address 148.122.208.98.
+ 22.374: gausdal.kommune.no INFO Done testing host ns1.nextra.no.
+ 22.374: gausdal.kommune.no INFO SOA MNAME for gausdal.kommune.no valid (ns1.nextra.no).
+ 22.374: gausdal.kommune.no INFO SOA MNAME for gausdal.kommune.no (ns1.nextra.no) listed as NS.
+ 22.562: gausdal.kommune.no INFO SOA MNAME for gausdal.kommune.no (ns1.nextra.no) is authoritative.
+ 22.562: gausdal.kommune.no INFO Begin testing email address hostmaster@telenor.net.
+ 24.511: gausdal.kommune.no INFO Mail exchangers for hostmaster@telenor.net found mx.nsc.no.
+ 24.512: gausdal.kommune.no INFO Begin testing host mx.nsc.no.
+ 24.979: gausdal.kommune.no INFO Begin testing address 193.213.112.62.
+ 25.603: gausdal.kommune.no INFO Done testing address 193.213.112.62.
+ 25.604: gausdal.kommune.no INFO Done testing host mx.nsc.no.
+ 25.751: gausdal.kommune.no INFO Done testing email address hostmaster@telenor.net.
+ 25.751: gausdal.kommune.no INFO Successful attempt to deliver email for SOA RNAME of gausdal.kommune.no (hostmaster.telenor.net) using hostmaster@telenor.net.
+ 25.751: gausdal.kommune.no INFO SOA TTL for gausdal.kommune.no OK (3600) - recommended >= 3600.
+ 25.751: gausdal.kommune.no NOTICE SOA refresh for gausdal.kommune.no too small (3600) - recommended >= 14400.
+ 25.751: gausdal.kommune.no NOTICE SOA retry for gausdal.kommune.no too small (600) - recommended >= 3600.
+ 25.751: gausdal.kommune.no INFO SOA expire for gausdal.kommune.no OK (604800) - recommended >= 604800.
+ 25.752: gausdal.kommune.no INFO SOA minimum for gausdal.kommune.no OK (3600) - recommended between 300 and 86400.
+ 25.752: gausdal.kommune.no INFO Done testing SOA parameters for gausdal.kommune.no.
+ 25.752: gausdal.kommune.no INFO Begin testing connectivity for gausdal.kommune.no.
+ 26.764: gausdal.kommune.no NOTICE Zone announced by fewer than two IPv4 ASN.
+ 26.764: gausdal.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 26.765: gausdal.kommune.no INFO Done testing connectivity for gausdal.kommune.no.
+ 26.765: gausdal.kommune.no INFO Begin testing DNSSEC for gausdal.kommune.no.
+ 26.873: gausdal.kommune.no INFO Did not find DS record for gausdal.kommune.no at parent.
+ 26.951: gausdal.kommune.no INFO Servers for gausdal.kommune.no have consistent extra processing status.
+ 26.986: gausdal.kommune.no INFO Authenticated denial records not found for gausdal.kommune.no.
+ 27.005: gausdal.kommune.no INFO Did not find DNSKEY record for gausdal.kommune.no at child.
+ 27.005: gausdal.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 27.005: gausdal.kommune.no INFO Done testing DNSSEC for gausdal.kommune.no.
+ 27.006: gausdal.kommune.no INFO Test completed for zone gausdal.kommune.no.

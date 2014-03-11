@@ -1,0 +1,12 @@
+#!/bin/sh
+cd /home/it-companies/public_html/bankdns/scripts
+#number=0
+for i in `cat domain|sort` ; do
+#	number=`echo 1+$number|bc`
+	echo $i
+	dnscheck $i >test/$i 
+#	if [ "$number" = "10" ] ; then
+#		number=0
+#		sleep 30
+#	fi
+done

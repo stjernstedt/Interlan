@@ -1,0 +1,166 @@
+  0.000: mantyharju.fi INFO Begin testing zone mantyharju.fi with version 1.5.0.
+  1.428: mantyharju.fi INFO Begin testing delegation for mantyharju.fi.
+ 45.325: mantyharju.fi INFO Name servers listed at parent: ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 65.096: mantyharju.fi INFO Name servers listed at child: ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 65.370: mantyharju.fi INFO Parent glue for mantyharju.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+ 65.765: mantyharju.fi INFO Parent glue for mantyharju.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+ 66.159: mantyharju.fi INFO Parent glue for mantyharju.fi found: ns1-swe.global.sonera.se (80.64.9.124)
+ 66.482: mantyharju.fi INFO Parent glue for mantyharju.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+ 66.941: mantyharju.fi INFO Parent glue for mantyharju.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+ 67.732: mantyharju.fi INFO Checking glue for ns1-fin.global.sonera.fi (193.210.18.31).
+ 67.732: mantyharju.fi INFO Checking glue for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53).
+ 67.732: mantyharju.fi INFO Checking glue for ns1-swe.global.sonera.se (80.64.9.124).
+ 67.732: mantyharju.fi INFO Checking glue for ns2-fin.global.sonera.fi (195.156.148.158).
+ 67.732: mantyharju.fi INFO Checking glue for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53).
+ 67.733: mantyharju.fi INFO Parent glue for mantyharju.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+ 67.733: mantyharju.fi INFO Parent glue for mantyharju.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+ 67.733: mantyharju.fi INFO Parent glue for mantyharju.fi found: ns1-swe.global.sonera.se (80.64.9.124)
+ 67.733: mantyharju.fi INFO Parent glue for mantyharju.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+ 67.734: mantyharju.fi INFO Parent glue for mantyharju.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+ 72.085: mantyharju.fi INFO It is possible to build a referral packet for mantyharju.fi that works without EDNS0.
+ 73.652: mantyharju.fi INFO Previously used name servers for mantyharju.fi: 
+ 73.652: mantyharju.fi INFO Done testing delegation for mantyharju.fi.
+ 73.653: mantyharju.fi INFO Begin testing name server ns1-fin.global.sonera.fi.
+ 73.653: mantyharju.fi INFO Begin testing host ns1-fin.global.sonera.fi.
+ 73.653: mantyharju.fi INFO Begin testing address 193.210.18.31.
+ 90.194: mantyharju.fi INFO Done testing address 193.210.18.31.
+ 90.194: mantyharju.fi INFO Begin testing address 2001:2060:ffdd:a01:0:0:0:53.
+103.165: mantyharju.fi INFO Done testing address 2001:2060:ffdd:a01:0:0:0:53.
+103.165: mantyharju.fi INFO Done testing host ns1-fin.global.sonera.fi.
+103.811: mantyharju.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over UDP.
+104.400: mantyharju.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over TCP.
+104.652: mantyharju.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) is not recursive.
+105.962: mantyharju.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) authoritative for mantyharju.fi.
+106.336: mantyharju.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) closed for zone transfer of mantyharju.fi.
+106.524: mantyharju.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): hostname.bind = mgda1
+106.748: mantyharju.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): version.bind = TeliaSonera Finland DNS MGDA
+106.988: mantyharju.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): id.server = mgda1
+107.224: mantyharju.fi NOTICE No answer received from 193.210.18.31 when querying for version.server/CH/TXT.
+107.748: mantyharju.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) answers queries over UDP.
+108.212: mantyharju.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) answers queries over TCP.
+108.528: mantyharju.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) is not recursive.
+110.046: mantyharju.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) authoritative for mantyharju.fi.
+110.494: mantyharju.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) closed for zone transfer of mantyharju.fi.
+110.795: mantyharju.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): hostname.bind = mgda1
+110.984: mantyharju.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+111.398: mantyharju.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): id.server = mgda1
+111.755: mantyharju.fi NOTICE No answer received from 2001:2060:ffdd:a01:0:0:0:53 when querying for version.server/CH/TXT.
+111.755: mantyharju.fi INFO Done testing name server ns1-fin.global.sonera.fi.
+111.814: mantyharju.fi INFO Begin testing name server ns1-swe.global.sonera.se.
+111.815: mantyharju.fi INFO Begin testing host ns1-swe.global.sonera.se.
+111.815: mantyharju.fi INFO Begin testing address 80.64.9.124.
+118.217: mantyharju.fi INFO Done testing address 80.64.9.124.
+118.217: mantyharju.fi INFO Begin testing address 2001:6e8:400:ffff:1:0:0:53.
+120.704: mantyharju.fi INFO Done testing address 2001:6e8:400:ffff:1:0:0:53.
+120.704: mantyharju.fi INFO Done testing host ns1-swe.global.sonera.se.
+121.280: mantyharju.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over UDP.
+121.713: mantyharju.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over TCP.
+121.997: mantyharju.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) is not recursive.
+123.491: mantyharju.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) authoritative for mantyharju.fi.
+124.008: mantyharju.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) closed for zone transfer of mantyharju.fi.
+124.273: mantyharju.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): hostname.bind = mgda3
+124.536: mantyharju.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): version.bind = TeliaSonera Finland DNS MGDA
+124.836: mantyharju.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): id.server = mgda3
+125.176: mantyharju.fi NOTICE No answer received from 80.64.9.124 when querying for version.server/CH/TXT.
+125.806: mantyharju.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over UDP.
+126.305: mantyharju.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over TCP.
+126.740: mantyharju.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) is not recursive.
+128.277: mantyharju.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) authoritative for mantyharju.fi.
+128.579: mantyharju.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) closed for zone transfer of mantyharju.fi.
+128.849: mantyharju.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): hostname.bind = mgda3
+129.192: mantyharju.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+129.444: mantyharju.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): id.server = mgda3
+129.698: mantyharju.fi NOTICE No answer received from 2001:6e8:400:ffff:1:0:0:53 when querying for version.server/CH/TXT.
+129.699: mantyharju.fi INFO Done testing name server ns1-swe.global.sonera.se.
+129.699: mantyharju.fi INFO Begin testing name server ns2-fin.global.sonera.fi.
+129.699: mantyharju.fi INFO Begin testing host ns2-fin.global.sonera.fi.
+129.787: mantyharju.fi INFO Begin testing address 195.156.148.158.
+131.962: mantyharju.fi INFO Done testing address 195.156.148.158.
+131.962: mantyharju.fi INFO Begin testing address 2001:2060:ffdd:a02:0:0:0:53.
+134.432: mantyharju.fi INFO Done testing address 2001:2060:ffdd:a02:0:0:0:53.
+134.432: mantyharju.fi INFO Done testing host ns2-fin.global.sonera.fi.
+134.767: mantyharju.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over UDP.
+135.396: mantyharju.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over TCP.
+135.640: mantyharju.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) is not recursive.
+136.996: mantyharju.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) authoritative for mantyharju.fi.
+137.128: mantyharju.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) closed for zone transfer of mantyharju.fi.
+137.313: mantyharju.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): hostname.bind = mgda2
+137.434: mantyharju.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): version.bind = TeliaSonera Finland DNS MGDA
+137.594: mantyharju.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): id.server = mgda2
+137.812: mantyharju.fi NOTICE No answer received from 195.156.148.158 when querying for version.server/CH/TXT.
+138.098: mantyharju.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) answers queries over UDP.
+138.658: mantyharju.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) answers queries over TCP.
+138.881: mantyharju.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) is not recursive.
+140.185: mantyharju.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) authoritative for mantyharju.fi.
+140.372: mantyharju.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) closed for zone transfer of mantyharju.fi.
+140.484: mantyharju.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): hostname.bind = mgda2
+140.682: mantyharju.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+140.898: mantyharju.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): id.server = mgda2
+141.023: mantyharju.fi NOTICE No answer received from 2001:2060:ffdd:a02:0:0:0:53 when querying for version.server/CH/TXT.
+141.144: mantyharju.fi INFO Done testing name server ns2-fin.global.sonera.fi.
+141.144: mantyharju.fi INFO Begin testing name server ns2-usa.global.sonera.net.
+141.144: mantyharju.fi INFO Begin testing host ns2-usa.global.sonera.net.
+142.244: mantyharju.fi INFO Begin testing address 46.38.190.56.
+147.932: mantyharju.fi INFO Done testing address 46.38.190.56.
+147.932: mantyharju.fi INFO Done testing host ns2-usa.global.sonera.net.
+150.144: mantyharju.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over UDP.
+150.921: mantyharju.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over TCP.
+151.100: mantyharju.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) is not recursive.
+152.275: mantyharju.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) authoritative for mantyharju.fi.
+153.451: mantyharju.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) closed for zone transfer of mantyharju.fi.
+153.696: mantyharju.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): hostname.bind = mgda5
+153.839: mantyharju.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): version.bind = TeliaSonera Finland DNS MGDA
+154.104: mantyharju.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): id.server = mgda5
+154.360: mantyharju.fi NOTICE No answer received from 46.38.190.56 when querying for version.server/CH/TXT.
+154.360: mantyharju.fi INFO Done testing name server ns2-usa.global.sonera.net.
+154.360: mantyharju.fi INFO Begin testing zone consistency for mantyharju.fi.
+159.389: mantyharju.fi INFO SOA at address 2001:2060:ffdd:a01:0:0:0:53 has serial 2012100912.
+159.663: mantyharju.fi INFO SOA at address 193.210.18.31 has serial 2012100912.
+160.066: mantyharju.fi INFO SOA at address 80.64.9.124 has serial 2012100912.
+160.375: mantyharju.fi INFO SOA at address 195.156.148.158 has serial 2012100912.
+161.156: mantyharju.fi INFO SOA at address 2001:6e8:400:ffff:1:0:0:53 has serial 2012100912.
+161.359: mantyharju.fi INFO SOA at address 46.38.190.56 has serial 2012100912.
+161.803: mantyharju.fi INFO SOA at address 2001:2060:ffdd:a02:0:0:0:53 has serial 2012100912.
+161.803: mantyharju.fi INFO All SOA records have consistent serial numbers.
+161.803: mantyharju.fi INFO All other fields in the SOA record are consistent among all name servers.
+173.293: mantyharju.fi NOTICE The listed nameservers for mantyharju.fi all report the same set of nameservers.
+173.293: mantyharju.fi INFO Done testing zone consistency for mantyharju.fi.
+173.293: mantyharju.fi INFO Begin testing SOA parameters for mantyharju.fi.
+173.687: mantyharju.fi INFO Found SOA record for mantyharju.fi.
+173.687: mantyharju.fi INFO Begin testing host namesurfer.inet.fi.
+178.535: mantyharju.fi INFO Begin testing address 131.177.73.253.
+222.210: mantyharju.fi INFO Done testing address 131.177.73.253.
+222.210: mantyharju.fi INFO Done testing host namesurfer.inet.fi.
+222.210: mantyharju.fi INFO SOA MNAME for mantyharju.fi valid (namesurfer.inet.fi).
+222.210: mantyharju.fi NOTICE SOA MNAME for mantyharju.fi (namesurfer.inet.fi) not listed as NS.
+230.336: mantyharju.fi INFO SOA MNAME for mantyharju.fi (namesurfer.inet.fi) is authoritative.
+230.336: mantyharju.fi INFO Begin testing email address hostmaster@sonera.com.
+232.376: mantyharju.fi INFO Mail exchangers for hostmaster@sonera.com found smtp.dave.sonera.fi,mail.cm.sonera.com.
+232.376: mantyharju.fi INFO Begin testing host smtp.dave.sonera.fi.
+236.488: mantyharju.fi INFO Begin testing address 131.177.120.25.
+241.692: mantyharju.fi INFO Done testing address 131.177.120.25.
+241.692: mantyharju.fi INFO Done testing host smtp.dave.sonera.fi.
+244.260: mantyharju.fi INFO Begin testing host mail.cm.sonera.com.
+248.884: mantyharju.fi INFO Begin testing address 193.208.151.61.
+253.584: mantyharju.fi INFO Done testing address 193.208.151.61.
+253.584: mantyharju.fi INFO Done testing host mail.cm.sonera.com.
+255.280: mantyharju.fi INFO Done testing email address hostmaster@sonera.com.
+255.280: mantyharju.fi INFO Successful attempt to deliver email for SOA RNAME of mantyharju.fi (hostmaster.sonera.com) using hostmaster@sonera.com.
+255.280: mantyharju.fi INFO SOA TTL for mantyharju.fi OK (14400) - recommended >= 3600.
+255.280: mantyharju.fi INFO SOA refresh for mantyharju.fi OK (28800) - recommended >= 14400.
+255.280: mantyharju.fi INFO SOA retry for mantyharju.fi OK (7200) - recommended >= 3600.
+255.281: mantyharju.fi INFO SOA expire for mantyharju.fi OK (604800) - recommended >= 604800.
+255.281: mantyharju.fi INFO SOA minimum for mantyharju.fi OK (14400) - recommended between 300 and 86400.
+255.281: mantyharju.fi INFO Done testing SOA parameters for mantyharju.fi.
+255.281: mantyharju.fi INFO Begin testing connectivity for mantyharju.fi.
+264.839: mantyharju.fi INFO Zone announced by more than one ASN.
+272.342: mantyharju.fi INFO Zone announced by more than one IPv6 ASN.
+272.342: mantyharju.fi INFO Done testing connectivity for mantyharju.fi.
+272.342: mantyharju.fi INFO Begin testing DNSSEC for mantyharju.fi.
+273.373: mantyharju.fi INFO Did not find DS record for mantyharju.fi at parent.
+275.688: mantyharju.fi INFO Servers for mantyharju.fi have consistent extra processing status.
+275.980: mantyharju.fi INFO Authenticated denial records not found for mantyharju.fi.
+276.301: mantyharju.fi INFO Did not find DNSKEY record for mantyharju.fi at child.
+276.301: mantyharju.fi INFO No DNSKEY(s) found at child, other tests skipped.
+276.301: mantyharju.fi INFO Done testing DNSSEC for mantyharju.fi.
+276.302: mantyharju.fi INFO Test completed for zone mantyharju.fi.

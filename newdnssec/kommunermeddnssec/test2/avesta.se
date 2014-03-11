@@ -1,0 +1,96 @@
+  0.000: avesta.se INFO Begin testing zone avesta.se with version 1.2.
+  0.000: avesta.se INFO Begin testing delegation for avesta.se.
+  5.505: avesta.se INFO Name servers listed at parent: dns6.telia.com,ns.avesta.se
+  7.163: avesta.se INFO Name servers listed at child: dns6.telia.com,ns.avesta.se
+  7.163: avesta.se NOTICE No IPv6 name servers found.
+  7.300: avesta.se INFO Parent glue for avesta.se found: ns.avesta.se (194.23.24.130)
+  7.339: avesta.se INFO Checking glue for ns.avesta.se (194.23.24.130).
+  7.350: avesta.se INFO Child glue for avesta.se found: ns.avesta.se (194.23.24.130)
+  7.350: avesta.se INFO Parent glue for avesta.se found: ns.avesta.se (194.23.24.130)
+  7.351: avesta.se INFO Done testing delegation for avesta.se.
+  7.351: avesta.se INFO Begin testing name server dns6.telia.com.
+  7.351: avesta.se INFO Begin testing host dns6.telia.com.
+  7.352: avesta.se INFO Begin testing address 81.228.10.68.
+ 11.902: avesta.se INFO Done testing address 81.228.10.68.
+ 11.902: avesta.se INFO Done testing host dns6.telia.com.
+ 11.919: avesta.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over UDP.
+ 11.952: avesta.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over TCP.
+ 11.970: avesta.se INFO Name server dns6.telia.com (81.228.10.68) is not recursive.
+ 11.988: avesta.se INFO Name server dns6.telia.com (81.228.10.68) authoritative for avesta.se.
+ 12.029: avesta.se INFO Name server dns6.telia.com (81.228.10.68) closed for zone transfer of avesta.se.
+ 12.052: avesta.se INFO Legacy name server ID for dns6.telia.com (81.228.10.68): hostname.bind = dnshosting1-sn4.m-sp.skanova.net
+ 12.069: avesta.se INFO Legacy name server ID for dns6.telia.com (81.228.10.68): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 12.101: avesta.se NOTICE No answer received from 81.228.10.68 when querying for version.server/CH/TXT.
+ 12.101: avesta.se INFO Done testing name server dns6.telia.com.
+ 12.101: avesta.se INFO Begin testing name server ns.avesta.se.
+ 12.101: avesta.se INFO Begin testing host ns.avesta.se.
+ 12.102: avesta.se INFO Begin testing address 194.23.24.130.
+ 12.358: avesta.se INFO Done testing address 194.23.24.130.
+ 12.358: avesta.se INFO Done testing host ns.avesta.se.
+ 12.369: avesta.se INFO Name server ns.avesta.se (194.23.24.130) answers queries over UDP.
+ 12.387: avesta.se INFO Name server ns.avesta.se (194.23.24.130) answers queries over TCP.
+ 12.397: avesta.se INFO Name server ns.avesta.se (194.23.24.130) is not recursive.
+ 12.409: avesta.se INFO Name server ns.avesta.se (194.23.24.130) authoritative for avesta.se.
+ 12.433: avesta.se INFO Name server ns.avesta.se (194.23.24.130) closed for zone transfer of avesta.se.
+ 12.444: avesta.se INFO Legacy name server ID for ns.avesta.se (194.23.24.130): hostname.bind = SZ0NSv01
+ 12.454: avesta.se INFO Legacy name server ID for ns.avesta.se (194.23.24.130): version.bind = 9.7.0-P1
+ 12.474: avesta.se NOTICE No answer received from 194.23.24.130 when querying for version.server/CH/TXT.
+ 12.474: avesta.se INFO Done testing name server ns.avesta.se.
+ 12.474: avesta.se INFO Begin testing zone consistency for avesta.se.
+ 12.501: avesta.se INFO SOA at address 194.23.24.130 has serial 2010041201.
+ 12.519: avesta.se INFO SOA at address 81.228.10.68 has serial 2010041201.
+ 12.519: avesta.se INFO All SOA records have consistent serial numbers.
+ 12.519: avesta.se INFO All SOA records are consistent among all name servers.
+ 12.519: avesta.se INFO Done testing zone consistency for avesta.se.
+ 12.519: avesta.se INFO Begin testing SOA parameters for avesta.se.
+ 12.538: avesta.se INFO Found SOA record for avesta.se.
+ 12.539: avesta.se INFO Begin testing host ns.avesta.se.
+ 12.539: avesta.se INFO Begin testing address 194.23.24.130.
+ 12.540: avesta.se INFO Done testing address 194.23.24.130.
+ 12.540: avesta.se INFO Done testing host ns.avesta.se.
+ 12.541: avesta.se INFO SOA MNAME for avesta.se valid (ns.avesta.se).
+ 12.541: avesta.se INFO SOA MNAME for avesta.se (ns.avesta.se) listed as NS.
+ 12.551: avesta.se INFO SOA MNAME for avesta.se (ns.avesta.se) is authoritative.
+ 12.552: avesta.se INFO Begin testing email address postmaster@avesta.se.
+ 12.773: avesta.se INFO Mail exchangers for postmaster@avesta.se found mx11.emailfiltering.com,mx12.emailfiltering.com,mx13.emailfiltering.com.
+ 12.774: avesta.se INFO Begin testing host mx11.emailfiltering.com.
+ 13.618: avesta.se INFO Begin testing address 194.116.198.75.
+ 15.007: avesta.se INFO Done testing address 194.116.198.75.
+ 15.007: avesta.se INFO Done testing host mx11.emailfiltering.com.
+ 15.007: avesta.se INFO Begin testing mail server mx11.emailfiltering.com (194.116.198.75) with postmaster@avesta.se.
+ 15.666: avesta.se INFO SMTP banner: gse-mta-02.emailfiltering.com emfmtad 72
+ 15.847: avesta.se INFO SMTP testing of mx11.emailfiltering.com (194.116.198.75) with postmaster@avesta.se succeeded without errors.
+ 15.847: avesta.se INFO Done testing mail server mx11.emailfiltering.com (194.116.198.75) with postmaster@avesta.se.
+ 15.848: avesta.se INFO Begin testing host mx12.emailfiltering.com.
+ 16.862: avesta.se INFO Begin testing address 194.116.199.75.
+ 18.474: avesta.se INFO Done testing address 194.116.199.75.
+ 18.474: avesta.se INFO Done testing host mx12.emailfiltering.com.
+ 18.474: avesta.se INFO Begin testing host mx13.emailfiltering.com.
+ 19.375: avesta.se INFO Begin testing address 79.125.114.40.
+ 22.599: avesta.se INFO Done testing address 79.125.114.40.
+ 22.599: avesta.se INFO Done testing host mx13.emailfiltering.com.
+ 22.599: avesta.se INFO Delivery over IPv4 to postmaster@avesta.se ok.
+ 22.599: avesta.se INFO Delivery over IPv6 to postmaster@avesta.se could not be done.
+ 22.599: avesta.se INFO Done testing email address postmaster@avesta.se.
+ 22.599: avesta.se INFO Successful attempt to deliver email for SOA RNAME of avesta.se (postmaster.avesta.se) using postmaster@avesta.se.
+ 22.599: avesta.se INFO SOA TTL for avesta.se OK (259200) - recommended >= 3600.
+ 22.599: avesta.se INFO SOA refresh for avesta.se OK (28800) - recommended >= 14400.
+ 22.599: avesta.se INFO SOA retry for avesta.se OK (7200) - recommended >= 3600.
+ 22.599: avesta.se INFO SOA expire for avesta.se OK (2419200) - recommended >= 604800.
+ 22.599: avesta.se INFO SOA minimum for avesta.se OK (86400) - recommended between 300 and 86400.
+ 22.599: avesta.se INFO Done testing SOA parameters for avesta.se.
+ 22.600: avesta.se INFO Begin testing connectivity for avesta.se.
+ 23.118: avesta.se INFO Name server 194.23.24.130 announced by: 3301
+ 23.737: avesta.se INFO Name server 81.228.10.68 announced by: 3301
+ 23.737: avesta.se INFO Zone announced by IPv4 ASN: 3301
+ 23.737: avesta.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 23.737: avesta.se INFO Zone announced by IPv6 ASN: 
+ 23.737: avesta.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 23.737: avesta.se INFO Done testing connectivity for avesta.se.
+ 23.737: avesta.se INFO Begin testing DNSSEC for avesta.se.
+ 23.817: avesta.se INFO Did not find DS record for avesta.se at parent.
+ 23.866: avesta.se INFO Servers for avesta.se have consistent extra processing status.
+ 23.866: avesta.se INFO Did not find DNSKEY record for avesta.se at child.
+ 23.866: avesta.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 23.866: avesta.se INFO Done testing DNSSEC for avesta.se.
+ 23.866: avesta.se INFO Test completed for zone avesta.se.

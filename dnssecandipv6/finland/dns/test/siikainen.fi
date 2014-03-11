@@ -1,0 +1,100 @@
+  0.000: siikainen.fi INFO Begin testing zone siikainen.fi with version 1.6.1.
+  0.883: siikainen.fi INFO Begin testing delegation for siikainen.fi.
+ 10.668: siikainen.fi INFO Name servers listed at parent: ns1.neviso.fi,ns2.neviso.fi,ns3.neviso.fi
+ 13.139: siikainen.fi INFO Name servers listed at child: ns1.neviso.fi,ns2.neviso.fi,ns3.neviso.fi
+ 13.139: siikainen.fi NOTICE No IPv6 name servers found.
+ 13.173: siikainen.fi INFO Parent glue for siikainen.fi found: ns1.neviso.fi (81.209.43.194)
+ 13.322: siikainen.fi INFO Parent glue for siikainen.fi found: ns2.neviso.fi (81.209.43.195)
+ 13.554: siikainen.fi INFO Parent glue for siikainen.fi found: ns3.neviso.fi (46.105.16.214)
+ 13.624: siikainen.fi INFO Checking glue for ns1.neviso.fi (81.209.43.194).
+ 13.624: siikainen.fi INFO Checking glue for ns2.neviso.fi (81.209.43.195).
+ 13.624: siikainen.fi INFO Checking glue for ns3.neviso.fi (46.105.16.214).
+ 13.624: siikainen.fi INFO Parent glue for siikainen.fi found: ns1.neviso.fi (81.209.43.194)
+ 13.625: siikainen.fi INFO Parent glue for siikainen.fi found: ns2.neviso.fi (81.209.43.195)
+ 13.625: siikainen.fi INFO Parent glue for siikainen.fi found: ns3.neviso.fi (46.105.16.214)
+ 14.949: siikainen.fi INFO It is possible to build a referral packet for siikainen.fi that works without EDNS0.
+ 16.019: siikainen.fi INFO Previously used name servers for siikainen.fi: 
+ 16.019: siikainen.fi INFO Done testing delegation for siikainen.fi.
+ 16.020: siikainen.fi INFO Begin testing name server ns1.neviso.fi.
+ 16.020: siikainen.fi INFO Begin testing host ns1.neviso.fi.
+ 16.324: siikainen.fi INFO Begin testing address 81.209.43.194.
+ 26.292: siikainen.fi INFO Done testing address 81.209.43.194.
+ 26.292: siikainen.fi INFO Done testing host ns1.neviso.fi.
+ 26.571: siikainen.fi INFO Name server ns1.neviso.fi (81.209.43.194) answers queries over UDP.
+ 26.623: siikainen.fi INFO Name server ns1.neviso.fi (81.209.43.194) answers queries over TCP.
+ 26.654: siikainen.fi INFO Name server ns1.neviso.fi (81.209.43.194) is not recursive.
+ 26.776: siikainen.fi INFO Name server ns1.neviso.fi (81.209.43.194) authoritative for siikainen.fi.
+ 26.833: siikainen.fi INFO Name server ns1.neviso.fi (81.209.43.194) closed for zone transfer of siikainen.fi.
+ 26.895: siikainen.fi NOTICE No answer received from 81.209.43.194 when querying for version.bind/CH/TXT.
+ 26.961: siikainen.fi INFO Done testing name server ns1.neviso.fi.
+ 26.961: siikainen.fi INFO Begin testing name server ns2.neviso.fi.
+ 26.961: siikainen.fi INFO Begin testing host ns2.neviso.fi.
+ 27.199: siikainen.fi INFO Begin testing address 81.209.43.195.
+ 27.835: siikainen.fi INFO Done testing address 81.209.43.195.
+ 27.835: siikainen.fi INFO Done testing host ns2.neviso.fi.
+ 28.114: siikainen.fi INFO Name server ns2.neviso.fi (81.209.43.195) answers queries over UDP.
+ 28.169: siikainen.fi INFO Name server ns2.neviso.fi (81.209.43.195) answers queries over TCP.
+ 28.213: siikainen.fi INFO Name server ns2.neviso.fi (81.209.43.195) is not recursive.
+ 28.311: siikainen.fi INFO Name server ns2.neviso.fi (81.209.43.195) authoritative for siikainen.fi.
+ 28.406: siikainen.fi INFO Name server ns2.neviso.fi (81.209.43.195) closed for zone transfer of siikainen.fi.
+ 28.477: siikainen.fi NOTICE No answer received from 81.209.43.195 when querying for version.bind/CH/TXT.
+ 28.561: siikainen.fi INFO Done testing name server ns2.neviso.fi.
+ 28.562: siikainen.fi INFO Begin testing name server ns3.neviso.fi.
+ 28.562: siikainen.fi INFO Begin testing host ns3.neviso.fi.
+ 28.747: siikainen.fi INFO Begin testing address 46.105.16.214.
+ 33.315: siikainen.fi INFO Done testing address 46.105.16.214.
+ 33.315: siikainen.fi INFO Done testing host ns3.neviso.fi.
+ 33.561: siikainen.fi INFO Name server ns3.neviso.fi (46.105.16.214) answers queries over UDP.
+ 33.667: siikainen.fi INFO Name server ns3.neviso.fi (46.105.16.214) answers queries over TCP.
+ 33.715: siikainen.fi INFO Name server ns3.neviso.fi (46.105.16.214) is not recursive.
+ 33.890: siikainen.fi INFO Name server ns3.neviso.fi (46.105.16.214) authoritative for siikainen.fi.
+ 34.018: siikainen.fi INFO Name server ns3.neviso.fi (46.105.16.214) closed for zone transfer of siikainen.fi.
+ 34.107: siikainen.fi NOTICE No answer received from 46.105.16.214 when querying for version.bind/CH/TXT.
+ 34.195: siikainen.fi INFO Done testing name server ns3.neviso.fi.
+ 34.195: siikainen.fi INFO Begin testing zone consistency for siikainen.fi.
+ 37.100: siikainen.fi INFO SOA at address 81.209.43.195 has serial 2014011700.
+ 37.120: siikainen.fi INFO SOA at address 81.209.43.194 has serial 2014011700.
+ 37.161: siikainen.fi INFO SOA at address 46.105.16.214 has serial 2014011700.
+ 37.161: siikainen.fi INFO All SOA records have consistent serial numbers.
+ 37.161: siikainen.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 37.604: siikainen.fi NOTICE The listed nameservers for siikainen.fi all report the same set of nameservers.
+ 37.604: siikainen.fi INFO Done testing zone consistency for siikainen.fi.
+ 37.604: siikainen.fi INFO Begin testing SOA parameters for siikainen.fi.
+ 37.624: siikainen.fi INFO Found SOA record for siikainen.fi.
+ 37.624: siikainen.fi INFO Begin testing host ns1.neviso.fi.
+ 37.757: siikainen.fi INFO Begin testing address 81.209.43.194.
+ 37.964: siikainen.fi INFO Done testing address 81.209.43.194.
+ 37.964: siikainen.fi INFO Done testing host ns1.neviso.fi.
+ 37.964: siikainen.fi INFO SOA MNAME for siikainen.fi valid (ns1.neviso.fi).
+ 37.964: siikainen.fi INFO SOA MNAME for siikainen.fi (ns1.neviso.fi) listed as NS.
+ 38.191: siikainen.fi INFO SOA MNAME for siikainen.fi (ns1.neviso.fi) is authoritative.
+ 38.191: siikainen.fi INFO Begin testing email address hostmaster@neviso.fi.
+ 38.510: siikainen.fi INFO Mail exchangers for hostmaster@neviso.fi found rps2.neviso.fi,rps1.neviso.fi.
+ 38.510: siikainen.fi INFO Begin testing host rps2.neviso.fi.
+ 38.774: siikainen.fi INFO Begin testing address 81.209.43.220.
+ 39.123: siikainen.fi INFO Done testing address 81.209.43.220.
+ 39.123: siikainen.fi INFO Done testing host rps2.neviso.fi.
+ 39.201: siikainen.fi INFO Begin testing host rps1.neviso.fi.
+ 39.709: siikainen.fi INFO Begin testing address 81.209.43.197.
+ 40.295: siikainen.fi INFO Done testing address 81.209.43.197.
+ 40.295: siikainen.fi INFO Done testing host rps1.neviso.fi.
+ 40.403: siikainen.fi INFO Done testing email address hostmaster@neviso.fi.
+ 40.403: siikainen.fi INFO Successful attempt to deliver email for SOA RNAME of siikainen.fi (hostmaster.neviso.fi) using hostmaster@neviso.fi.
+ 40.403: siikainen.fi INFO SOA TTL for siikainen.fi OK (10800) - recommended >= 3600.
+ 40.403: siikainen.fi NOTICE SOA refresh for siikainen.fi too small (10800) - recommended >= 14400.
+ 40.404: siikainen.fi INFO SOA retry for siikainen.fi OK (3600) - recommended >= 3600.
+ 40.404: siikainen.fi INFO SOA expire for siikainen.fi OK (604800) - recommended >= 604800.
+ 40.404: siikainen.fi INFO SOA minimum for siikainen.fi OK (3600) - recommended between 300 and 86400.
+ 40.404: siikainen.fi INFO Done testing SOA parameters for siikainen.fi.
+ 40.404: siikainen.fi INFO Begin testing connectivity for siikainen.fi.
+ 41.991: siikainen.fi INFO Zone announced by more than one ASN.
+ 41.991: siikainen.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 41.991: siikainen.fi INFO Done testing connectivity for siikainen.fi.
+ 41.991: siikainen.fi INFO Begin testing DNSSEC for siikainen.fi.
+ 42.015: siikainen.fi INFO Did not find DS record for siikainen.fi at parent.
+ 42.178: siikainen.fi INFO Servers for siikainen.fi have consistent extra processing status.
+ 42.219: siikainen.fi INFO Authenticated denial records not found for siikainen.fi.
+ 42.239: siikainen.fi INFO Did not find DNSKEY record for siikainen.fi at child.
+ 42.240: siikainen.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 42.240: siikainen.fi INFO Done testing DNSSEC for siikainen.fi.
+ 42.240: siikainen.fi INFO Test completed for zone siikainen.fi.

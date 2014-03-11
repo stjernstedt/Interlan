@@ -1,0 +1,84 @@
+  0.000: lejre.dk INFO Begin testing zone lejre.dk with version 1.6.1.
+  0.493: lejre.dk INFO Begin testing delegation for lejre.dk.
+  5.552: lejre.dk INFO Name servers listed at parent: ns.scannet2.dk,ns2.scannet2.dk
+  9.396: lejre.dk INFO Name servers listed at child: ns.scannet2.dk,ns2.scannet2.dk
+  9.396: lejre.dk NOTICE No IPv6 name servers found.
+  9.450: lejre.dk INFO Parent glue for lejre.dk found: ns.scannet2.dk (195.69.128.141)
+  9.713: lejre.dk INFO Parent glue for lejre.dk found: ns2.scannet2.dk (195.69.129.2)
+  9.770: lejre.dk INFO Checking glue for ns.scannet2.dk (195.69.128.141).
+  9.771: lejre.dk INFO Checking glue for ns2.scannet2.dk (195.69.129.2).
+  9.771: lejre.dk INFO Parent glue for lejre.dk found: ns.scannet2.dk (195.69.128.141)
+  9.771: lejre.dk INFO Parent glue for lejre.dk found: ns2.scannet2.dk (195.69.129.2)
+ 10.552: lejre.dk INFO It is possible to build a referral packet for lejre.dk that works without EDNS0.
+ 11.286: lejre.dk INFO Previously used name servers for lejre.dk: 
+ 11.286: lejre.dk INFO Done testing delegation for lejre.dk.
+ 11.286: lejre.dk INFO Begin testing name server ns.scannet2.dk.
+ 11.287: lejre.dk INFO Begin testing host ns.scannet2.dk.
+ 11.534: lejre.dk INFO Begin testing address 195.69.128.141.
+ 20.432: lejre.dk INFO Done testing address 195.69.128.141.
+ 20.433: lejre.dk INFO Done testing host ns.scannet2.dk.
+ 20.671: lejre.dk INFO Name server ns.scannet2.dk (195.69.128.141) answers queries over UDP.
+ 20.737: lejre.dk INFO Name server ns.scannet2.dk (195.69.128.141) answers queries over TCP.
+ 20.765: lejre.dk INFO Name server ns.scannet2.dk (195.69.128.141) is not recursive.
+ 20.884: lejre.dk INFO Name server ns.scannet2.dk (195.69.128.141) authoritative for lejre.dk.
+ 20.955: lejre.dk INFO Name server ns.scannet2.dk (195.69.128.141) closed for zone transfer of lejre.dk.
+ 21.002: lejre.dk NOTICE No answer received from 195.69.128.141 when querying for version.bind/CH/TXT.
+ 21.055: lejre.dk INFO Done testing name server ns.scannet2.dk.
+ 21.055: lejre.dk INFO Begin testing name server ns2.scannet2.dk.
+ 21.055: lejre.dk INFO Begin testing host ns2.scannet2.dk.
+ 21.297: lejre.dk INFO Begin testing address 195.69.129.2.
+ 22.046: lejre.dk INFO Done testing address 195.69.129.2.
+ 22.046: lejre.dk INFO Done testing host ns2.scannet2.dk.
+ 22.290: lejre.dk INFO Name server ns2.scannet2.dk (195.69.129.2) answers queries over UDP.
+ 22.344: lejre.dk INFO Name server ns2.scannet2.dk (195.69.129.2) answers queries over TCP.
+ 22.382: lejre.dk INFO Name server ns2.scannet2.dk (195.69.129.2) is not recursive.
+ 22.482: lejre.dk INFO Name server ns2.scannet2.dk (195.69.129.2) authoritative for lejre.dk.
+ 22.550: lejre.dk INFO Name server ns2.scannet2.dk (195.69.129.2) closed for zone transfer of lejre.dk.
+ 22.622: lejre.dk NOTICE No answer received from 195.69.129.2 when querying for version.bind/CH/TXT.
+ 22.661: lejre.dk INFO Done testing name server ns2.scannet2.dk.
+ 22.661: lejre.dk INFO Begin testing zone consistency for lejre.dk.
+ 23.799: lejre.dk INFO SOA at address 195.69.129.2 has serial 2008010700.
+ 23.822: lejre.dk INFO SOA at address 195.69.128.141 has serial 2008010700.
+ 23.822: lejre.dk INFO All SOA records have consistent serial numbers.
+ 23.822: lejre.dk INFO All other fields in the SOA record are consistent among all name servers.
+ 24.325: lejre.dk NOTICE The listed nameservers for lejre.dk all report the same set of nameservers.
+ 24.325: lejre.dk INFO Done testing zone consistency for lejre.dk.
+ 24.339: lejre.dk INFO Begin testing SOA parameters for lejre.dk.
+ 24.360: lejre.dk INFO Found SOA record for lejre.dk.
+ 24.360: lejre.dk INFO Begin testing host ns.scannet2.dk.
+ 24.666: lejre.dk INFO Begin testing address 195.69.128.141.
+ 24.937: lejre.dk INFO Done testing address 195.69.128.141.
+ 24.937: lejre.dk INFO Done testing host ns.scannet2.dk.
+ 24.937: lejre.dk INFO SOA MNAME for lejre.dk valid (ns.scannet2.dk).
+ 24.938: lejre.dk INFO SOA MNAME for lejre.dk (ns.scannet2.dk) listed as NS.
+ 25.326: lejre.dk INFO SOA MNAME for lejre.dk (ns.scannet2.dk) is authoritative.
+ 25.326: lejre.dk INFO Begin testing email address hostmaster@scannet2.dk.
+ 25.509: lejre.dk INFO Mail exchangers for hostmaster@scannet2.dk found front-lvs.scannet.dk,mx77.front02.scannet.dk.
+ 25.509: lejre.dk INFO Begin testing host front-lvs.scannet.dk.
+ 26.129: lejre.dk INFO Begin testing address 195.69.129.85.
+ 26.953: lejre.dk INFO Done testing address 195.69.129.85.
+ 26.953: lejre.dk INFO Done testing host front-lvs.scannet.dk.
+ 27.230: lejre.dk INFO Begin testing host mx77.front02.scannet.dk.
+ 27.658: lejre.dk INFO Begin testing address 195.69.129.79.
+ 28.350: lejre.dk INFO Done testing address 195.69.129.79.
+ 28.350: lejre.dk INFO Done testing host mx77.front02.scannet.dk.
+ 28.540: lejre.dk INFO Done testing email address hostmaster@scannet2.dk.
+ 28.540: lejre.dk INFO Successful attempt to deliver email for SOA RNAME of lejre.dk (hostmaster.scannet2.dk) using hostmaster@scannet2.dk.
+ 28.540: lejre.dk INFO SOA TTL for lejre.dk OK (14400) - recommended >= 3600.
+ 28.541: lejre.dk INFO SOA refresh for lejre.dk OK (28800) - recommended >= 14400.
+ 28.541: lejre.dk INFO SOA retry for lejre.dk OK (7200) - recommended >= 3600.
+ 28.541: lejre.dk INFO SOA expire for lejre.dk OK (604800) - recommended >= 604800.
+ 28.541: lejre.dk INFO SOA minimum for lejre.dk OK (3600) - recommended between 300 and 86400.
+ 28.541: lejre.dk INFO Done testing SOA parameters for lejre.dk.
+ 28.541: lejre.dk INFO Begin testing connectivity for lejre.dk.
+ 29.465: lejre.dk NOTICE Zone announced by fewer than two IPv4 ASN.
+ 29.466: lejre.dk NOTICE Zone announced by fewer than two IPv6 ASN.
+ 29.466: lejre.dk INFO Done testing connectivity for lejre.dk.
+ 29.466: lejre.dk INFO Begin testing DNSSEC for lejre.dk.
+ 29.507: lejre.dk INFO Did not find DS record for lejre.dk at parent.
+ 29.624: lejre.dk INFO Servers for lejre.dk have consistent extra processing status.
+ 29.698: lejre.dk INFO Authenticated denial records not found for lejre.dk.
+ 29.718: lejre.dk INFO Did not find DNSKEY record for lejre.dk at child.
+ 29.718: lejre.dk INFO No DNSKEY(s) found at child, other tests skipped.
+ 29.718: lejre.dk INFO Done testing DNSSEC for lejre.dk.
+ 29.718: lejre.dk INFO Test completed for zone lejre.dk.

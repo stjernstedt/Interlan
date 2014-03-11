@@ -1,0 +1,90 @@
+  0.000: vallentuna.se INFO Begin testing zone vallentuna.se with version 1.2.
+  0.000: vallentuna.se INFO Begin testing delegation for vallentuna.se.
+  9.550: vallentuna.se INFO Name servers listed at parent: dns5.telia.com,ns.vallentuna.se
+ 10.934: vallentuna.se INFO Name servers listed at child: dns5.telia.com,ns.vallentuna.se
+ 10.934: vallentuna.se NOTICE No IPv6 name servers found.
+ 11.080: vallentuna.se INFO Parent glue for vallentuna.se found: ns.vallentuna.se (195.67.32.98)
+ 11.121: vallentuna.se INFO Checking glue for ns.vallentuna.se (195.67.32.98).
+ 11.129: vallentuna.se INFO Child glue for vallentuna.se found: ns.vallentuna.se (195.67.32.98)
+ 11.130: vallentuna.se INFO Parent glue for vallentuna.se found: ns.vallentuna.se (195.67.32.98)
+ 11.130: vallentuna.se INFO Done testing delegation for vallentuna.se.
+ 11.130: vallentuna.se INFO Begin testing name server dns5.telia.com.
+ 11.131: vallentuna.se INFO Begin testing host dns5.telia.com.
+ 11.131: vallentuna.se INFO Begin testing address 81.228.11.68.
+ 16.112: vallentuna.se INFO Done testing address 81.228.11.68.
+ 16.112: vallentuna.se INFO Done testing host dns5.telia.com.
+ 16.120: vallentuna.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over UDP.
+ 16.132: vallentuna.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over TCP.
+ 16.140: vallentuna.se INFO Name server dns5.telia.com (81.228.11.68) is not recursive.
+ 16.147: vallentuna.se INFO Name server dns5.telia.com (81.228.11.68) authoritative for vallentuna.se.
+ 16.161: vallentuna.se INFO Name server dns5.telia.com (81.228.11.68) closed for zone transfer of vallentuna.se.
+ 16.170: vallentuna.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): hostname.bind = dnshosting1-sn1.fre.skanova.net
+ 16.177: vallentuna.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 16.191: vallentuna.se NOTICE No answer received from 81.228.11.68 when querying for version.server/CH/TXT.
+ 16.191: vallentuna.se INFO Done testing name server dns5.telia.com.
+ 16.191: vallentuna.se INFO Begin testing name server ns.vallentuna.se.
+ 16.191: vallentuna.se INFO Begin testing host ns.vallentuna.se.
+ 16.191: vallentuna.se INFO Begin testing address 195.67.32.98.
+ 22.344: vallentuna.se WARNING Reverse for 195.67.32.98 points to an unknown host name (195-67-32-98.customer.telia.com).
+ 22.344: vallentuna.se INFO Done testing address 195.67.32.98.
+ 22.345: vallentuna.se INFO Done testing host ns.vallentuna.se.
+ 22.354: vallentuna.se INFO Name server ns.vallentuna.se (195.67.32.98) answers queries over UDP.
+ 22.368: vallentuna.se INFO Name server ns.vallentuna.se (195.67.32.98) answers queries over TCP.
+ 22.725: vallentuna.se INFO Name server ns.vallentuna.se (195.67.32.98) is not recursive.
+ 22.734: vallentuna.se INFO Name server ns.vallentuna.se (195.67.32.98) authoritative for vallentuna.se.
+ 22.859: vallentuna.se INFO Name server ns.vallentuna.se (195.67.32.98) closed for zone transfer of vallentuna.se.
+ 22.867: vallentuna.se NOTICE No answer received from 195.67.32.98 when querying for hostname.bind/CH/TXT.
+ 40.867: vallentuna.se INFO Done testing name server ns.vallentuna.se.
+ 40.867: vallentuna.se INFO Begin testing zone consistency for vallentuna.se.
+ 40.879: vallentuna.se INFO SOA at address 195.67.32.98 has serial 2008061848.
+ 40.887: vallentuna.se INFO SOA at address 81.228.11.68 has serial 2008061848.
+ 40.887: vallentuna.se INFO All SOA records have consistent serial numbers.
+ 40.887: vallentuna.se INFO All SOA records are consistent among all name servers.
+ 40.887: vallentuna.se INFO Done testing zone consistency for vallentuna.se.
+ 40.887: vallentuna.se INFO Begin testing SOA parameters for vallentuna.se.
+ 40.895: vallentuna.se INFO Found SOA record for vallentuna.se.
+ 40.896: vallentuna.se INFO Begin testing host ns.vallentuna.se.
+ 40.896: vallentuna.se INFO Begin testing address 195.67.32.98.
+ 40.898: vallentuna.se WARNING Reverse for 195.67.32.98 points to an unknown host name (195-67-32-98.customer.telia.com).
+ 40.898: vallentuna.se INFO Done testing address 195.67.32.98.
+ 40.898: vallentuna.se INFO Done testing host ns.vallentuna.se.
+ 40.898: vallentuna.se INFO SOA MNAME for vallentuna.se valid (ns.vallentuna.se).
+ 40.898: vallentuna.se INFO SOA MNAME for vallentuna.se (ns.vallentuna.se) listed as NS.
+ 40.907: vallentuna.se INFO SOA MNAME for vallentuna.se (ns.vallentuna.se) is authoritative.
+ 40.907: vallentuna.se INFO Begin testing email address postmaster@vallentuna.se.
+ 41.151: vallentuna.se INFO Mail exchangers for postmaster@vallentuna.se found es0002.skolor.vallentuna.se.
+ 41.151: vallentuna.se INFO All mail servers for postmaster@vallentuna.se are in zone vallentuna.se.
+ 41.152: vallentuna.se INFO Begin testing host es0002.skolor.vallentuna.se.
+ 41.581: vallentuna.se INFO Begin testing address 195.67.83.100.
+ 42.761: vallentuna.se WARNING Reverse for 195.67.83.100 points to an unknown host name (195-67-83-100.customer.telia.com).
+ 42.761: vallentuna.se INFO Done testing address 195.67.83.100.
+ 42.762: vallentuna.se INFO Done testing host es0002.skolor.vallentuna.se.
+ 42.762: vallentuna.se INFO Begin testing mail server es0002.skolor.vallentuna.se (195.67.83.100) with postmaster@vallentuna.se.
+ 42.824: vallentuna.se INFO SMTP banner: es0002.skolor.vallentuna.se Vallentuna kommun ESMTP Ready
+ 42.863: vallentuna.se INFO SMTP testing of es0002.skolor.vallentuna.se (195.67.83.100) with postmaster@vallentuna.se succeeded without errors.
+ 42.863: vallentuna.se INFO Done testing mail server es0002.skolor.vallentuna.se (195.67.83.100) with postmaster@vallentuna.se.
+ 42.863: vallentuna.se INFO Delivery over IPv4 to postmaster@vallentuna.se ok.
+ 42.863: vallentuna.se INFO Delivery over IPv6 to postmaster@vallentuna.se could not be done.
+ 42.863: vallentuna.se INFO Done testing email address postmaster@vallentuna.se.
+ 42.863: vallentuna.se INFO Successful attempt to deliver email for SOA RNAME of vallentuna.se (postmaster.vallentuna.se) using postmaster@vallentuna.se.
+ 42.864: vallentuna.se INFO SOA TTL for vallentuna.se OK (3600) - recommended >= 3600.
+ 42.864: vallentuna.se NOTICE SOA refresh for vallentuna.se too small (1200) - recommended >= 14400.
+ 42.864: vallentuna.se NOTICE SOA retry for vallentuna.se too small (600) - recommended >= 3600.
+ 42.864: vallentuna.se INFO SOA expire for vallentuna.se OK (1728000) - recommended >= 604800.
+ 42.864: vallentuna.se INFO SOA minimum for vallentuna.se OK (3600) - recommended between 300 and 86400.
+ 42.864: vallentuna.se INFO Done testing SOA parameters for vallentuna.se.
+ 42.864: vallentuna.se INFO Begin testing connectivity for vallentuna.se.
+ 47.493: vallentuna.se INFO Name server 195.67.32.98 announced by: 3301
+ 48.126: vallentuna.se INFO Name server 81.228.11.68 announced by: 3301
+ 48.126: vallentuna.se INFO Zone announced by IPv4 ASN: 3301
+ 48.126: vallentuna.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 48.126: vallentuna.se INFO Zone announced by IPv6 ASN: 
+ 48.126: vallentuna.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 48.126: vallentuna.se INFO Done testing connectivity for vallentuna.se.
+ 48.126: vallentuna.se INFO Begin testing DNSSEC for vallentuna.se.
+ 48.174: vallentuna.se INFO Did not find DS record for vallentuna.se at parent.
+ 48.198: vallentuna.se INFO Servers for vallentuna.se have consistent extra processing status.
+ 48.198: vallentuna.se INFO Did not find DNSKEY record for vallentuna.se at child.
+ 48.198: vallentuna.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 48.198: vallentuna.se INFO Done testing DNSSEC for vallentuna.se.
+ 48.198: vallentuna.se INFO Test completed for zone vallentuna.se.

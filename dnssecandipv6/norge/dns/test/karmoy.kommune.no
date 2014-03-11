@@ -1,0 +1,129 @@
+  0.000: karmoy.kommune.no INFO Begin testing zone karmoy.kommune.no with version 1.6.1.
+  0.427: karmoy.kommune.no INFO Begin testing delegation for karmoy.kommune.no.
+ 11.225: karmoy.kommune.no INFO Name servers listed at parent: ns-foo.linpro.net,ns1.karmoy.kommune.no
+ 13.310: karmoy.kommune.no INFO Name servers listed at child: ns-foo.linpro.net,ns1.karmoy.kommune.no,ns2.karmoy.kommune.no
+ 13.310: karmoy.kommune.no NOTICE Additional name server listed at child: ns2.karmoy.kommune.no
+ 13.455: karmoy.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 13.583: karmoy.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 13.675: karmoy.kommune.no ERROR Nameserver ns1.karmoy.kommune.no is listed for zone karmoy.kommune.no without address information.
+ 14.446: karmoy.kommune.no INFO It is possible to build a referral packet for karmoy.kommune.no that works without EDNS0.
+ 14.446: karmoy.kommune.no INFO Previously used name servers for karmoy.kommune.no: 
+ 14.447: karmoy.kommune.no INFO Done testing delegation for karmoy.kommune.no.
+ 14.462: karmoy.kommune.no INFO Begin testing name server ns-foo.linpro.net.
+ 14.463: karmoy.kommune.no INFO Begin testing host ns-foo.linpro.net.
+ 14.463: karmoy.kommune.no INFO Begin testing address 87.238.32.254.
+ 34.381: karmoy.kommune.no INFO Done testing address 87.238.32.254.
+ 34.381: karmoy.kommune.no INFO Begin testing address 2a02:c0:1001:1:0:0:0:2.
+ 34.917: karmoy.kommune.no INFO Done testing address 2a02:c0:1001:1:0:0:0:2.
+ 34.917: karmoy.kommune.no INFO Done testing host ns-foo.linpro.net.
+ 34.933: karmoy.kommune.no INFO Name server ns-foo.linpro.net (87.238.32.254) answers queries over UDP.
+ 34.965: karmoy.kommune.no INFO Name server ns-foo.linpro.net (87.238.32.254) answers queries over TCP.
+ 34.982: karmoy.kommune.no INFO Name server ns-foo.linpro.net (87.238.32.254) is not recursive.
+ 35.054: karmoy.kommune.no INFO Name server ns-foo.linpro.net (87.238.32.254) authoritative for karmoy.kommune.no.
+ 35.102: karmoy.kommune.no INFO Name server ns-foo.linpro.net (87.238.32.254) closed for zone transfer of karmoy.kommune.no.
+ 35.119: karmoy.kommune.no INFO Legacy name server ID for ns-foo.linpro.net (87.238.32.254): hostname.bind = pridns.linpro.no
+ 35.136: karmoy.kommune.no INFO Legacy name server ID for ns-foo.linpro.net (87.238.32.254): version.bind = BIND (Redpill Linpro)
+ 35.175: karmoy.kommune.no NOTICE No answer received from 87.238.32.254 when querying for version.server/CH/TXT.
+ 35.230: karmoy.kommune.no INFO Name server ns-foo.linpro.net (2a02:c0:1001:1:0:0:0:2) answers queries over UDP.
+ 35.341: karmoy.kommune.no INFO Name server ns-foo.linpro.net (2a02:c0:1001:1:0:0:0:2) answers queries over TCP.
+ 35.395: karmoy.kommune.no INFO Name server ns-foo.linpro.net (2a02:c0:1001:1:0:0:0:2) is not recursive.
+ 35.631: karmoy.kommune.no INFO Name server ns-foo.linpro.net (2a02:c0:1001:1:0:0:0:2) authoritative for karmoy.kommune.no.
+ 35.765: karmoy.kommune.no INFO Name server ns-foo.linpro.net (2a02:c0:1001:1:0:0:0:2) closed for zone transfer of karmoy.kommune.no.
+ 35.824: karmoy.kommune.no INFO Legacy name server ID for ns-foo.linpro.net (2a02:c0:1001:1:0:0:0:2): hostname.bind = pridns.linpro.no
+ 35.880: karmoy.kommune.no INFO Legacy name server ID for ns-foo.linpro.net (2a02:c0:1001:1:0:0:0:2): version.bind = BIND (Redpill Linpro)
+ 35.975: karmoy.kommune.no NOTICE No answer received from 2a02:c0:1001:1:0:0:0:2 when querying for version.server/CH/TXT.
+ 35.975: karmoy.kommune.no INFO Done testing name server ns-foo.linpro.net.
+ 35.976: karmoy.kommune.no INFO Begin testing name server ns1.karmoy.kommune.no.
+ 35.976: karmoy.kommune.no INFO Begin testing host ns1.karmoy.kommune.no.
+ 35.976: karmoy.kommune.no INFO Begin testing address 62.97.210.131.
+ 36.445: karmoy.kommune.no WARNING Could not find reverse address for 62.97.210.131 (131.210.97.62.in-addr.arpa.).
+ 36.445: karmoy.kommune.no INFO Done testing address 62.97.210.131.
+ 36.445: karmoy.kommune.no INFO Begin testing address 2a00:14d8:4107:b3e3:0:0:1:c38.
+ 42.291: karmoy.kommune.no WARNING Could not find reverse address for 2a00:14d8:4107:b3e3:0:0:1:c38 (8.3.c.0.1.0.0.0.0.0.0.0.0.0.0.0.3.e.3.b.7.0.1.4.8.d.4.1.0.0.a.2.ip6.arpa.).
+ 42.291: karmoy.kommune.no INFO Done testing address 2a00:14d8:4107:b3e3:0:0:1:c38.
+ 42.291: karmoy.kommune.no INFO Done testing host ns1.karmoy.kommune.no.
+ 42.317: karmoy.kommune.no INFO Name server ns1.karmoy.kommune.no (62.97.210.131) answers queries over UDP.
+ 44.329: karmoy.kommune.no NOTICE DNS lookup error (connection failed).
+ 44.329: karmoy.kommune.no ERROR Name server ns1.karmoy.kommune.no (62.97.210.131) does not answer queries over TCP.
+ 44.360: karmoy.kommune.no INFO Name server ns1.karmoy.kommune.no (62.97.210.131) is not recursive.
+ 46.413: karmoy.kommune.no NOTICE DNS lookup error (connection failed).
+ 46.413: karmoy.kommune.no INFO Name server ns1.karmoy.kommune.no (62.97.210.131) authoritative for karmoy.kommune.no.
+ 46.413: karmoy.kommune.no INFO Name server ns1.karmoy.kommune.no (62.97.210.131) not checked for zone transfer of karmoy.kommune.no.
+ 46.413: karmoy.kommune.no INFO Name server ns1.karmoy.kommune.no (62.97.210.131) not checked for legacy name server ID.
+ 46.472: karmoy.kommune.no INFO Name server ns1.karmoy.kommune.no (2a00:14d8:4107:b3e3:0:0:1:c38) answers queries over UDP.
+ 48.488: karmoy.kommune.no NOTICE DNS lookup error (connection failed(IPv6 socket failure)).
+ 48.488: karmoy.kommune.no ERROR Name server ns1.karmoy.kommune.no (2a00:14d8:4107:b3e3:0:0:1:c38) does not answer queries over TCP.
+ 48.543: karmoy.kommune.no INFO Name server ns1.karmoy.kommune.no (2a00:14d8:4107:b3e3:0:0:1:c38) is not recursive.
+ 50.675: karmoy.kommune.no NOTICE DNS lookup error (connection failed(IPv6 socket failure)).
+ 50.675: karmoy.kommune.no INFO Name server ns1.karmoy.kommune.no (2a00:14d8:4107:b3e3:0:0:1:c38) authoritative for karmoy.kommune.no.
+ 50.675: karmoy.kommune.no INFO Name server ns1.karmoy.kommune.no (2a00:14d8:4107:b3e3:0:0:1:c38) not checked for zone transfer of karmoy.kommune.no.
+ 50.675: karmoy.kommune.no INFO Name server ns1.karmoy.kommune.no (2a00:14d8:4107:b3e3:0:0:1:c38) not checked for legacy name server ID.
+ 50.676: karmoy.kommune.no INFO Done testing name server ns1.karmoy.kommune.no.
+ 50.676: karmoy.kommune.no INFO Begin testing name server ns2.karmoy.kommune.no.
+ 50.676: karmoy.kommune.no INFO Begin testing host ns2.karmoy.kommune.no.
+ 50.789: karmoy.kommune.no INFO Begin testing address 82.134.72.38.
+ 51.851: karmoy.kommune.no INFO Done testing address 82.134.72.38.
+ 51.852: karmoy.kommune.no INFO Done testing host ns2.karmoy.kommune.no.
+ 52.019: karmoy.kommune.no INFO Name server ns2.karmoy.kommune.no (82.134.72.38) answers queries over UDP.
+ 54.033: karmoy.kommune.no NOTICE DNS lookup error (connection failed).
+ 54.033: karmoy.kommune.no ERROR Name server ns2.karmoy.kommune.no (82.134.72.38) does not answer queries over TCP.
+ 54.056: karmoy.kommune.no INFO Name server ns2.karmoy.kommune.no (82.134.72.38) is not recursive.
+ 56.120: karmoy.kommune.no NOTICE DNS lookup error (connection failed).
+ 56.120: karmoy.kommune.no INFO Name server ns2.karmoy.kommune.no (82.134.72.38) authoritative for karmoy.kommune.no.
+ 56.120: karmoy.kommune.no INFO Name server ns2.karmoy.kommune.no (82.134.72.38) not checked for zone transfer of karmoy.kommune.no.
+ 56.120: karmoy.kommune.no INFO Name server ns2.karmoy.kommune.no (82.134.72.38) not checked for legacy name server ID.
+ 56.120: karmoy.kommune.no INFO Done testing name server ns2.karmoy.kommune.no.
+ 56.120: karmoy.kommune.no INFO Begin testing zone consistency for karmoy.kommune.no.
+ 56.334: karmoy.kommune.no INFO SOA at address 2a00:14d8:4107:b3e3:0:0:1:c38 has serial 2011010035.
+ 56.363: karmoy.kommune.no INFO SOA at address 62.97.210.131 has serial 2011010035.
+ 56.410: karmoy.kommune.no INFO SOA at address 2a02:c0:1001:1:0:0:0:2 has serial 2011010035.
+ 56.426: karmoy.kommune.no INFO SOA at address 87.238.32.254 has serial 2011010035.
+ 56.451: karmoy.kommune.no INFO SOA at address 82.134.72.38 has serial 2004030959.
+ 56.451: karmoy.kommune.no WARNING 2 different serials found.
+ 56.452: karmoy.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 56.613: karmoy.kommune.no NOTICE The listed nameservers for karmoy.kommune.no all report the same set of nameservers.
+ 56.614: karmoy.kommune.no INFO Done testing zone consistency for karmoy.kommune.no.
+ 56.614: karmoy.kommune.no INFO Begin testing SOA parameters for karmoy.kommune.no.
+ 56.640: karmoy.kommune.no INFO Found SOA record for karmoy.kommune.no.
+ 56.640: karmoy.kommune.no INFO Begin testing host ns1.karmoy.kommune.no.
+ 56.640: karmoy.kommune.no INFO Begin testing address 62.97.210.131.
+ 56.641: karmoy.kommune.no WARNING Could not find reverse address for 62.97.210.131 (131.210.97.62.in-addr.arpa.).
+ 56.642: karmoy.kommune.no INFO Done testing address 62.97.210.131.
+ 56.642: karmoy.kommune.no INFO Begin testing address 2a00:14d8:4107:b3e3:0:0:1:c38.
+ 56.643: karmoy.kommune.no WARNING Could not find reverse address for 2a00:14d8:4107:b3e3:0:0:1:c38 (8.3.c.0.1.0.0.0.0.0.0.0.0.0.0.0.3.e.3.b.7.0.1.4.8.d.4.1.0.0.a.2.ip6.arpa.).
+ 56.643: karmoy.kommune.no INFO Done testing address 2a00:14d8:4107:b3e3:0:0:1:c38.
+ 56.643: karmoy.kommune.no INFO Done testing host ns1.karmoy.kommune.no.
+ 56.643: karmoy.kommune.no INFO SOA MNAME for karmoy.kommune.no valid (ns1.karmoy.kommune.no).
+ 56.644: karmoy.kommune.no INFO SOA MNAME for karmoy.kommune.no (ns1.karmoy.kommune.no) listed as NS.
+ 56.669: karmoy.kommune.no INFO SOA MNAME for karmoy.kommune.no (ns1.karmoy.kommune.no) is authoritative.
+ 56.725: karmoy.kommune.no INFO SOA MNAME for karmoy.kommune.no (ns1.karmoy.kommune.no) is authoritative.
+ 56.725: karmoy.kommune.no INFO Begin testing email address hostmaster@karmoy.kommune.no.
+ 56.870: karmoy.kommune.no INFO Mail exchangers for hostmaster@karmoy.kommune.no found secureboxmail1.karmoy.kommune.no.
+ 56.871: karmoy.kommune.no INFO All mail servers for hostmaster@karmoy.kommune.no are in zone karmoy.kommune.no.
+ 56.871: karmoy.kommune.no INFO Begin testing host secureboxmail1.karmoy.kommune.no.
+ 57.147: karmoy.kommune.no INFO Begin testing address 82.134.72.40.
+ 57.668: karmoy.kommune.no INFO Done testing address 82.134.72.40.
+ 57.668: karmoy.kommune.no INFO Done testing host secureboxmail1.karmoy.kommune.no.
+ 57.808: karmoy.kommune.no INFO Done testing email address hostmaster@karmoy.kommune.no.
+ 57.808: karmoy.kommune.no INFO Successful attempt to deliver email for SOA RNAME of karmoy.kommune.no (hostmaster.karmoy.kommune.no) using hostmaster@karmoy.kommune.no.
+ 57.808: karmoy.kommune.no INFO SOA TTL for karmoy.kommune.no OK (86400) - recommended >= 3600.
+ 57.808: karmoy.kommune.no NOTICE SOA refresh for karmoy.kommune.no too small (3600) - recommended >= 14400.
+ 57.808: karmoy.kommune.no NOTICE SOA retry for karmoy.kommune.no too small (300) - recommended >= 3600.
+ 57.808: karmoy.kommune.no INFO SOA expire for karmoy.kommune.no OK (3600000) - recommended >= 604800.
+ 57.808: karmoy.kommune.no INFO SOA minimum for karmoy.kommune.no OK (86400) - recommended between 300 and 86400.
+ 57.808: karmoy.kommune.no INFO Done testing SOA parameters for karmoy.kommune.no.
+ 57.809: karmoy.kommune.no INFO Begin testing connectivity for karmoy.kommune.no.
+ 59.165: karmoy.kommune.no INFO Zone announced by more than one ASN.
+ 60.110: karmoy.kommune.no INFO Zone announced by more than one IPv6 ASN.
+ 60.110: karmoy.kommune.no INFO Done testing connectivity for karmoy.kommune.no.
+ 60.110: karmoy.kommune.no INFO Begin testing DNSSEC for karmoy.kommune.no.
+ 60.186: karmoy.kommune.no INFO Did not find DS record for karmoy.kommune.no at parent.
+ 62.199: karmoy.kommune.no NOTICE DNS lookup error (connection failed).
+ 64.240: karmoy.kommune.no NOTICE DNS lookup error (connection failed).
+ 66.253: karmoy.kommune.no NOTICE DNS lookup error (connection failed(IPv6 socket failure)).
+ 66.342: karmoy.kommune.no INFO Servers for karmoy.kommune.no have consistent extra processing status.
+ 68.390: karmoy.kommune.no INFO Authenticated denial records not found for karmoy.kommune.no.
+ 68.413: karmoy.kommune.no INFO Did not find DNSKEY record for karmoy.kommune.no at child.
+ 68.413: karmoy.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 68.413: karmoy.kommune.no INFO Done testing DNSSEC for karmoy.kommune.no.
+ 68.413: karmoy.kommune.no INFO Test completed for zone karmoy.kommune.no.

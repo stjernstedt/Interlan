@@ -1,0 +1,140 @@
+  0.000: sedirekt.se INFO Begin testing zone sedirekt.se with version 1.0.1.
+  0.000: sedirekt.se INFO Begin testing delegation for sedirekt.se.
+  0.679: sedirekt.se INFO Name servers listed at parent: ns.nic.se,ns2.nic.se,ns3.nic.se
+  0.764: sedirekt.se INFO Name servers listed at child: ns.nic.se,ns2.nic.se,ns3.nic.se
+  0.764: sedirekt.se WARNING Too few IPv6 name servers (1).
+  0.905: sedirekt.se INFO Parent glue for sedirekt.se found: ns.nic.se (212.247.7.228)
+  0.925: sedirekt.se INFO Parent glue for sedirekt.se found: ns.nic.se (2a00:801:f0:53:0:0:0:53)
+  0.944: sedirekt.se INFO Parent glue for sedirekt.se found: ns2.nic.se (194.17.45.54)
+  0.994: sedirekt.se INFO Parent glue for sedirekt.se found: ns3.nic.se (212.247.3.83)
+  1.135: sedirekt.se INFO Checking glue for ns.nic.se (212.247.7.228).
+  1.135: sedirekt.se INFO Checking glue for ns.nic.se (2a00:801:f0:53:0:0:0:53).
+  1.135: sedirekt.se INFO Checking glue for ns2.nic.se (194.17.45.54).
+  1.136: sedirekt.se INFO Checking glue for ns3.nic.se (212.247.3.83).
+  1.136: sedirekt.se INFO Done testing delegation for sedirekt.se.
+  1.136: sedirekt.se INFO Begin testing name server ns.nic.se.
+  1.136: sedirekt.se INFO Begin testing host ns.nic.se.
+  1.137: sedirekt.se INFO Begin testing address 212.247.7.228.
+  3.760: sedirekt.se INFO Done testing address 212.247.7.228.
+  3.761: sedirekt.se INFO Begin testing address 2a00:801:f0:53:0:0:0:53.
+  5.984: sedirekt.se INFO Done testing address 2a00:801:f0:53:0:0:0:53.
+  5.985: sedirekt.se INFO Done testing host ns.nic.se.
+  5.994: sedirekt.se INFO Name server ns.nic.se (212.247.7.228) is not recursive.
+  6.006: sedirekt.se INFO Name server ns.nic.se (212.247.7.228) authoritative for sedirekt.se.
+  6.019: sedirekt.se INFO Name server ns.nic.se (212.247.7.228) answers queries over UDP.
+  6.035: sedirekt.se INFO Name server ns.nic.se (212.247.7.228) answers queries over TCP.
+  6.053: sedirekt.se INFO Name server ns.nic.se (212.247.7.228) closed for zone transfer of sedirekt.se.
+  6.066: sedirekt.se INFO Legacy name server ID for ns.nic.se (212.247.7.228): hostname.bind = mail01
+  6.075: sedirekt.se INFO Legacy name server ID for ns.nic.se (212.247.7.228): version.bind = 9.4.2-P2.1
+  6.090: sedirekt.se NOTICE No answer received from 212.247.7.228 when querying for version.server/CH/TXT.
+  6.090: sedirekt.se INFO IPv6 disabled - will not test name server at 2a00:801:f0:53:0:0:0:53
+  6.090: sedirekt.se INFO Done testing name server ns.nic.se.
+  6.091: sedirekt.se INFO Begin testing name server ns2.nic.se.
+  6.091: sedirekt.se INFO Begin testing host ns2.nic.se.
+  6.091: sedirekt.se INFO Begin testing address 194.17.45.54.
+  6.901: sedirekt.se INFO Done testing address 194.17.45.54.
+  6.901: sedirekt.se INFO Done testing host ns2.nic.se.
+  6.909: sedirekt.se INFO Name server ns2.nic.se (194.17.45.54) is not recursive.
+  6.919: sedirekt.se INFO Name server ns2.nic.se (194.17.45.54) authoritative for sedirekt.se.
+  6.928: sedirekt.se INFO Name server ns2.nic.se (194.17.45.54) answers queries over UDP.
+  6.943: sedirekt.se INFO Name server ns2.nic.se (194.17.45.54) answers queries over TCP.
+  6.959: sedirekt.se INFO Name server ns2.nic.se (194.17.45.54) closed for zone transfer of sedirekt.se.
+  6.967: sedirekt.se INFO Legacy name server ID for ns2.nic.se (194.17.45.54): hostname.bind = ns2
+  6.975: sedirekt.se INFO Legacy name server ID for ns2.nic.se (194.17.45.54): version.bind = 9.4.2-P2.1
+  6.989: sedirekt.se NOTICE No answer received from 194.17.45.54 when querying for version.server/CH/TXT.
+  6.989: sedirekt.se INFO Done testing name server ns2.nic.se.
+  6.989: sedirekt.se INFO Begin testing name server ns3.nic.se.
+  6.989: sedirekt.se INFO Begin testing host ns3.nic.se.
+  6.990: sedirekt.se INFO Begin testing address 212.247.3.83.
+  7.030: sedirekt.se INFO Done testing address 212.247.3.83.
+  7.031: sedirekt.se INFO Done testing host ns3.nic.se.
+  7.038: sedirekt.se INFO Name server ns3.nic.se (212.247.3.83) is not recursive.
+  7.048: sedirekt.se INFO Name server ns3.nic.se (212.247.3.83) authoritative for sedirekt.se.
+  7.057: sedirekt.se INFO Name server ns3.nic.se (212.247.3.83) answers queries over UDP.
+  7.071: sedirekt.se INFO Name server ns3.nic.se (212.247.3.83) answers queries over TCP.
+  7.087: sedirekt.se INFO Name server ns3.nic.se (212.247.3.83) closed for zone transfer of sedirekt.se.
+  7.094: sedirekt.se INFO Legacy name server ID for ns3.nic.se (212.247.3.83): hostname.bind = mail01
+  7.101: sedirekt.se INFO Legacy name server ID for ns3.nic.se (212.247.3.83): version.bind = 9.4.2-P2
+  7.115: sedirekt.se NOTICE No answer received from 212.247.3.83 when querying for version.server/CH/TXT.
+  7.115: sedirekt.se INFO Done testing name server ns3.nic.se.
+  7.115: sedirekt.se INFO Begin testing zone consistency for sedirekt.se.
+  7.130: sedirekt.se INFO SOA at address 194.17.45.54 has serial 1283292901.
+  7.141: sedirekt.se INFO SOA at address 212.247.7.228 has serial 1283292901.
+  7.150: sedirekt.se INFO SOA at address 212.247.3.83 has serial 1283292901.
+  7.150: sedirekt.se INFO All SOA records have consistent serial numbers.
+  7.150: sedirekt.se INFO All SOA records are consistent among all name servers.
+  7.150: sedirekt.se INFO Done testing zone consistency for sedirekt.se.
+  7.150: sedirekt.se INFO Begin testing SOA parameters for sedirekt.se.
+  7.160: sedirekt.se INFO Found SOA record for sedirekt.se.
+  7.160: sedirekt.se INFO Begin testing host ns.nic.se.
+  7.160: sedirekt.se INFO Begin testing address 212.247.7.228.
+  7.162: sedirekt.se INFO Done testing address 212.247.7.228.
+  7.162: sedirekt.se INFO Begin testing address 2a00:801:f0:53:0:0:0:53.
+  7.163: sedirekt.se INFO Done testing address 2a00:801:f0:53:0:0:0:53.
+  7.163: sedirekt.se INFO Done testing host ns.nic.se.
+  7.163: sedirekt.se INFO SOA MNAME for sedirekt.se valid (ns.nic.se).
+  7.164: sedirekt.se INFO SOA MNAME for sedirekt.se (ns.nic.se) listed as NS.
+  7.174: sedirekt.se INFO SOA MNAME for sedirekt.se (ns.nic.se) is authoritative.
+  7.174: sedirekt.se INFO IPv6 disabled - will not query SOA MNAME at 2a00:801:f0:53:0:0:0:53
+  7.174: sedirekt.se INFO Begin testing email address hostmaster@iis.se.
+  7.186: sedirekt.se INFO Mail exchangers for hostmaster@iis.se found mx1.iis.se.
+  7.187: sedirekt.se INFO Begin testing host mx1.iis.se.
+  7.203: sedirekt.se INFO Begin testing address 212.247.7.222.
+  7.220: sedirekt.se INFO Done testing address 212.247.7.222.
+  7.220: sedirekt.se INFO Done testing host mx1.iis.se.
+  7.220: sedirekt.se INFO Begin testing mail server mx1.iis.se (212.247.7.222) with hostmaster@iis.se.
+  7.314: sedirekt.se INFO SMTP banner: mx1.iis.se ESMTP Halon Mail Gateway (H/OS)
+  7.514: sedirekt.se INFO SMTP testing of mx1.iis.se (212.247.7.222) with hostmaster@iis.se succeeded without errors.
+  7.514: sedirekt.se INFO Done testing mail server mx1.iis.se (212.247.7.222) with hostmaster@iis.se.
+  7.514: sedirekt.se INFO Delivery over IPv4 to hostmaster@iis.se ok.
+  7.514: sedirekt.se INFO Delivery over IPv6 to hostmaster@iis.se could not be done.
+  7.514: sedirekt.se INFO Done testing email address hostmaster@iis.se.
+  7.514: sedirekt.se INFO Successful attempt to deliver email for SOA RNAME of sedirekt.se (hostmaster.iis.se) using hostmaster@iis.se.
+  7.514: sedirekt.se INFO SOA TTL for sedirekt.se OK (3600) - recommended >= 3600.
+  7.515: sedirekt.se NOTICE SOA refresh for sedirekt.se too small (10800) - recommended >= 14400.
+  7.515: sedirekt.se INFO SOA retry for sedirekt.se OK (3600) - recommended >= 3600.
+  7.515: sedirekt.se NOTICE SOA expire for sedirekt.se too small (86400) - recommended >= 604800.
+  7.515: sedirekt.se INFO SOA minimum for sedirekt.se OK (3600) - recommended between 300 and 86400.
+  7.515: sedirekt.se INFO Done testing SOA parameters for sedirekt.se.
+  7.515: sedirekt.se INFO Begin testing connectivity for sedirekt.se.
+  7.819: sedirekt.se INFO Name server 194.17.45.54 announced by: 3301
+  7.940: sedirekt.se INFO Name server 212.247.7.228 announced by: 1257
+  8.071: sedirekt.se INFO Name server 212.247.3.83 announced by: 1257
+  8.071: sedirekt.se INFO Zone announced by ASN: 3301,1257
+  8.071: sedirekt.se INFO Zone announced by more than one ASN (2).
+  8.199: sedirekt.se INFO Name server 2a00:0801:00f0:0053:0000:0000:0000:0053 announced over IPv6 by: 1257
+  8.199: sedirekt.se INFO Zone announced by IPv6 ASN: 1257
+  8.199: sedirekt.se NOTICE Zone announced by only one IPv6 ASN (1).
+  8.199: sedirekt.se INFO Done testing connectivity for sedirekt.se.
+  8.199: sedirekt.se INFO Begin testing DNSSEC for sedirekt.se.
+  8.486: sedirekt.se INFO Found DS record for sedirekt.se at parent.
+  8.525: sedirekt.se INFO Nameserver 194.17.45.54 does DNSSEC extra processing.
+  8.544: sedirekt.se INFO Nameserver 212.247.7.228 does DNSSEC extra processing.
+  8.562: sedirekt.se INFO Nameserver 212.247.3.83 does DNSSEC extra processing.
+  8.562: sedirekt.se INFO Servers for sedirekt.se have consistent extra processing status.
+  8.562: sedirekt.se INFO Found DNSKEY record for sedirekt.se at child.
+  8.563: sedirekt.se INFO Consistent security for sedirekt.se.
+  8.563: sedirekt.se INFO Checking DNSSEC at child (sedirekt.se).
+  8.563: sedirekt.se INFO DNSKEY sedirekt.se (tag 6691) is marked as a secure entry point (SEP).
+  8.563: sedirekt.se INFO At least one mandatory algorithm found for DNSKEY sedirekt.se.
+  8.564: sedirekt.se INFO DNSSEC signature expires at: Fri Sep 10 21:15:01 2010
+  8.566: sedirekt.se INFO DNSSEC signature RRSIG(sedirekt.se/IN/DNSKEY/6691) matches records.
+  8.566: sedirekt.se INFO DNSSEC signature valid: RRSIG(sedirekt.se/IN/DNSKEY/6691)
+  8.566: sedirekt.se INFO DNSSEC signature expires at: Fri Sep 10 21:15:01 2010
+  8.567: sedirekt.se INFO DNSSEC signature RRSIG(sedirekt.se/IN/DNSKEY/19868) matches records.
+  8.567: sedirekt.se INFO DNSSEC signature valid: RRSIG(sedirekt.se/IN/DNSKEY/19868)
+  8.567: sedirekt.se INFO Enough valid signatures found for sedirekt.se.
+  8.583: sedirekt.se INFO DNSSEC signature expires at: Fri Sep 10 21:15:01 2010
+  8.584: sedirekt.se INFO DNSSEC signature RRSIG(sedirekt.se/IN/SOA/19868) matches records.
+  8.585: sedirekt.se INFO DNSSEC signature valid: RRSIG(sedirekt.se/IN/SOA/19868)
+  8.585: sedirekt.se INFO Enough valid signatures over SOA RRset found for sedirekt.se.
+  8.585: sedirekt.se INFO DNSSEC child checks for sedirekt.se complete.
+  8.585: sedirekt.se INFO Checking DNSSEC at parent of sedirekt.se.
+  8.585: sedirekt.se INFO Parent DS(sedirekt.se) refers to valid key at child: DS(sedirekt.se/5/1/6691)
+  8.585: sedirekt.se INFO Parent DS(sedirekt.se) refers to secure entry point (SEP) at child: DS(sedirekt.se/5/1/6691)
+  8.586: sedirekt.se INFO Parent DS(sedirekt.se) refers to valid key at child: DS(sedirekt.se/5/2/6691)
+  8.586: sedirekt.se INFO Parent DS(sedirekt.se) refers to secure entry point (SEP) at child: DS(sedirekt.se/5/2/6691)
+  8.586: sedirekt.se INFO At least one mandatory DS algorithm found for sedirekt.se.
+  8.586: sedirekt.se INFO DNSSEC parent checks for sedirekt.se complete.
+  8.586: sedirekt.se INFO Done testing DNSSEC for sedirekt.se.
+  8.586: sedirekt.se INFO Test completed for zone sedirekt.se.

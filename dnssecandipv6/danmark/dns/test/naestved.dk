@@ -1,0 +1,191 @@
+  0.000: naestved.dk INFO Begin testing zone naestved.dk with version 1.6.1.
+  0.403: naestved.dk INFO Begin testing delegation for naestved.dk.
+  6.129: naestved.dk INFO Name servers listed at parent: ns1.gratisdns.dk,ns2.gratisdns.dk
+ 11.036: naestved.dk INFO Name servers listed at child: ns1.gratisdns.dk,ns2.gratisdns.dk,ns3.gratisdns.dk,ns4.gratisdns.dk,ns5.gratisdns.dk
+ 11.036: naestved.dk NOTICE Additional name server listed at child: ns3.gratisdns.dk
+ 11.036: naestved.dk NOTICE Additional name server listed at child: ns4.gratisdns.dk
+ 11.036: naestved.dk NOTICE Additional name server listed at child: ns5.gratisdns.dk
+ 11.083: naestved.dk INFO Parent glue for naestved.dk found: ns1.gratisdns.dk (109.238.48.13)
+ 11.187: naestved.dk INFO Parent glue for naestved.dk found: ns1.gratisdns.dk (2a02:9d0:3002:1:0:0:0:2)
+ 11.316: naestved.dk INFO Parent glue for naestved.dk found: ns2.gratisdns.dk (185.10.10.53)
+ 11.423: naestved.dk INFO Checking glue for ns1.gratisdns.dk (109.238.48.13).
+ 11.423: naestved.dk INFO Checking glue for ns1.gratisdns.dk (2a02:9d0:3002:1:0:0:0:2).
+ 11.423: naestved.dk INFO Checking glue for ns2.gratisdns.dk (185.10.10.53).
+ 11.424: naestved.dk INFO Parent glue for naestved.dk found: ns1.gratisdns.dk (109.238.48.13)
+ 11.424: naestved.dk INFO Parent glue for naestved.dk found: ns1.gratisdns.dk (2a02:9d0:3002:1:0:0:0:2)
+ 11.424: naestved.dk INFO Parent glue for naestved.dk found: ns2.gratisdns.dk (185.10.10.53)
+ 12.877: naestved.dk INFO It is possible to build a referral packet for naestved.dk that works without EDNS0.
+ 13.140: naestved.dk INFO Previously used name servers for naestved.dk: 
+ 13.140: naestved.dk INFO Done testing delegation for naestved.dk.
+ 13.140: naestved.dk INFO Begin testing name server ns1.gratisdns.dk.
+ 13.140: naestved.dk INFO Begin testing host ns1.gratisdns.dk.
+ 13.141: naestved.dk INFO Begin testing address 109.238.48.13.
+ 29.341: naestved.dk INFO Done testing address 109.238.48.13.
+ 29.341: naestved.dk INFO Begin testing address 2a02:9d0:3002:1:0:0:0:2.
+ 29.719: naestved.dk INFO Done testing address 2a02:9d0:3002:1:0:0:0:2.
+ 29.719: naestved.dk INFO Done testing host ns1.gratisdns.dk.
+ 29.737: naestved.dk INFO Name server ns1.gratisdns.dk (109.238.48.13) answers queries over UDP.
+ 29.768: naestved.dk INFO Name server ns1.gratisdns.dk (109.238.48.13) answers queries over TCP.
+ 29.785: naestved.dk INFO Name server ns1.gratisdns.dk (109.238.48.13) is not recursive.
+ 29.850: naestved.dk INFO Name server ns1.gratisdns.dk (109.238.48.13) authoritative for naestved.dk.
+ 29.992: naestved.dk INFO Name server ns1.gratisdns.dk (109.238.48.13) closed for zone transfer of naestved.dk.
+ 30.016: naestved.dk INFO Legacy name server ID for ns1.gratisdns.dk (109.238.48.13): hostname.bind = ns1.gratisdns.dk
+ 30.035: naestved.dk INFO Legacy name server ID for ns1.gratisdns.dk (109.238.48.13): version.bind = .... Yes ?
+ 30.067: naestved.dk NOTICE No answer received from 109.238.48.13 when querying for version.server/CH/TXT.
+ 30.089: naestved.dk INFO Name server ns1.gratisdns.dk (2a02:9d0:3002:1:0:0:0:2) answers queries over UDP.
+ 30.127: naestved.dk INFO Name server ns1.gratisdns.dk (2a02:9d0:3002:1:0:0:0:2) answers queries over TCP.
+ 30.148: naestved.dk INFO Name server ns1.gratisdns.dk (2a02:9d0:3002:1:0:0:0:2) is not recursive.
+ 30.235: naestved.dk INFO Name server ns1.gratisdns.dk (2a02:9d0:3002:1:0:0:0:2) authoritative for naestved.dk.
+ 30.390: naestved.dk INFO Name server ns1.gratisdns.dk (2a02:9d0:3002:1:0:0:0:2) closed for zone transfer of naestved.dk.
+ 30.412: naestved.dk INFO Legacy name server ID for ns1.gratisdns.dk (2a02:9d0:3002:1:0:0:0:2): hostname.bind = ns1.gratisdns.dk
+ 30.434: naestved.dk INFO Legacy name server ID for ns1.gratisdns.dk (2a02:9d0:3002:1:0:0:0:2): version.bind = .... Yes ?
+ 30.567: naestved.dk NOTICE No answer received from 2a02:9d0:3002:1:0:0:0:2 when querying for version.server/CH/TXT.
+ 30.567: naestved.dk INFO Done testing name server ns1.gratisdns.dk.
+ 30.567: naestved.dk INFO Begin testing name server ns2.gratisdns.dk.
+ 30.567: naestved.dk INFO Begin testing host ns2.gratisdns.dk.
+ 30.676: naestved.dk INFO Begin testing address 185.10.10.53.
+ 31.128: naestved.dk INFO Done testing address 185.10.10.53.
+ 31.128: naestved.dk INFO Done testing host ns2.gratisdns.dk.
+ 31.255: naestved.dk INFO Name server ns2.gratisdns.dk (185.10.10.53) answers queries over UDP.
+ 31.272: naestved.dk INFO Name server ns2.gratisdns.dk (185.10.10.53) answers queries over TCP.
+ 31.284: naestved.dk INFO Name server ns2.gratisdns.dk (185.10.10.53) is not recursive.
+ 31.323: naestved.dk INFO Name server ns2.gratisdns.dk (185.10.10.53) authoritative for naestved.dk.
+ 31.433: naestved.dk INFO Name server ns2.gratisdns.dk (185.10.10.53) closed for zone transfer of naestved.dk.
+ 31.441: naestved.dk INFO Legacy name server ID for ns2.gratisdns.dk (185.10.10.53): hostname.bind = ns.anycast.gratisdns.dk
+ 31.450: naestved.dk INFO Legacy name server ID for ns2.gratisdns.dk (185.10.10.53): version.bind = .... Yes ?
+ 31.466: naestved.dk NOTICE No answer received from 185.10.10.53 when querying for version.server/CH/TXT.
+ 31.467: naestved.dk INFO Done testing name server ns2.gratisdns.dk.
+ 31.467: naestved.dk INFO Begin testing name server ns3.gratisdns.dk.
+ 31.467: naestved.dk INFO Begin testing host ns3.gratisdns.dk.
+ 31.468: naestved.dk INFO Begin testing address 194.0.2.6.
+ 37.702: naestved.dk INFO Done testing address 194.0.2.6.
+ 37.702: naestved.dk INFO Begin testing address 2001:678:5:0:0:0:0:6.
+ 38.008: naestved.dk INFO Done testing address 2001:678:5:0:0:0:0:6.
+ 38.008: naestved.dk INFO Done testing host ns3.gratisdns.dk.
+ 38.019: naestved.dk INFO Name server ns3.gratisdns.dk (194.0.2.6) answers queries over UDP.
+ 38.032: naestved.dk INFO Name server ns3.gratisdns.dk (194.0.2.6) answers queries over TCP.
+ 38.044: naestved.dk INFO Name server ns3.gratisdns.dk (194.0.2.6) is not recursive.
+ 38.073: naestved.dk INFO Name server ns3.gratisdns.dk (194.0.2.6) authoritative for naestved.dk.
+ 38.090: naestved.dk INFO Name server ns3.gratisdns.dk (194.0.2.6) closed for zone transfer of naestved.dk.
+ 38.098: naestved.dk INFO Legacy name server ID for ns3.gratisdns.dk (194.0.2.6): hostname.bind = COMM D067E5-E71ED8
+ 38.107: naestved.dk INFO Legacy name server ID for ns3.gratisdns.dk (194.0.2.6): version.bind = this page intentionally left blank
+ 38.114: naestved.dk NOTICE No answer received from 194.0.2.6 when querying for id.server/CH/TXT.
+ 38.121: naestved.dk NOTICE No answer received from 194.0.2.6 when querying for version.server/CH/TXT.
+ 38.168: naestved.dk INFO Name server ns3.gratisdns.dk (2001:678:5:0:0:0:0:6) answers queries over UDP.
+ 38.260: naestved.dk INFO Name server ns3.gratisdns.dk (2001:678:5:0:0:0:0:6) answers queries over TCP.
+ 38.308: naestved.dk INFO Name server ns3.gratisdns.dk (2001:678:5:0:0:0:0:6) is not recursive.
+ 38.499: naestved.dk INFO Name server ns3.gratisdns.dk (2001:678:5:0:0:0:0:6) authoritative for naestved.dk.
+ 38.637: naestved.dk INFO Name server ns3.gratisdns.dk (2001:678:5:0:0:0:0:6) closed for zone transfer of naestved.dk.
+ 38.686: naestved.dk INFO Legacy name server ID for ns3.gratisdns.dk (2001:678:5:0:0:0:0:6): hostname.bind = COMM 001999-20D8BF
+ 38.734: naestved.dk INFO Legacy name server ID for ns3.gratisdns.dk (2001:678:5:0:0:0:0:6): version.bind = this page intentionally left blank
+ 38.783: naestved.dk NOTICE No answer received from 2001:678:5:0:0:0:0:6 when querying for id.server/CH/TXT.
+ 38.836: naestved.dk NOTICE No answer received from 2001:678:5:0:0:0:0:6 when querying for version.server/CH/TXT.
+ 38.836: naestved.dk INFO Done testing name server ns3.gratisdns.dk.
+ 38.836: naestved.dk INFO Begin testing name server ns4.gratisdns.dk.
+ 38.836: naestved.dk INFO Begin testing host ns4.gratisdns.dk.
+ 38.837: naestved.dk INFO Begin testing address 87.73.3.3.
+ 39.809: naestved.dk INFO Done testing address 87.73.3.3.
+ 39.809: naestved.dk INFO Begin testing address 2a01:558:4000:0:0:0:0:3.
+ 40.046: naestved.dk INFO Done testing address 2a01:558:4000:0:0:0:0:3.
+ 40.046: naestved.dk INFO Done testing host ns4.gratisdns.dk.
+ 40.062: naestved.dk INFO Name server ns4.gratisdns.dk (87.73.3.3) answers queries over UDP.
+ 40.091: naestved.dk INFO Name server ns4.gratisdns.dk (87.73.3.3) answers queries over TCP.
+ 40.106: naestved.dk INFO Name server ns4.gratisdns.dk (87.73.3.3) is not recursive.
+ 40.164: naestved.dk INFO Name server ns4.gratisdns.dk (87.73.3.3) authoritative for naestved.dk.
+ 40.304: naestved.dk INFO Name server ns4.gratisdns.dk (87.73.3.3) closed for zone transfer of naestved.dk.
+ 40.320: naestved.dk INFO Legacy name server ID for ns4.gratisdns.dk (87.73.3.3): hostname.bind = ns4.gratisdns.dk
+ 40.336: naestved.dk INFO Legacy name server ID for ns4.gratisdns.dk (87.73.3.3): version.bind = .... Yes ?
+ 40.367: naestved.dk NOTICE No answer received from 87.73.3.3 when querying for version.server/CH/TXT.
+ 40.387: naestved.dk INFO Name server ns4.gratisdns.dk (2a01:558:4000:0:0:0:0:3) answers queries over UDP.
+ 40.424: naestved.dk INFO Name server ns4.gratisdns.dk (2a01:558:4000:0:0:0:0:3) answers queries over TCP.
+ 40.443: naestved.dk INFO Name server ns4.gratisdns.dk (2a01:558:4000:0:0:0:0:3) is not recursive.
+ 40.523: naestved.dk INFO Name server ns4.gratisdns.dk (2a01:558:4000:0:0:0:0:3) authoritative for naestved.dk.
+ 40.676: naestved.dk INFO Name server ns4.gratisdns.dk (2a01:558:4000:0:0:0:0:3) closed for zone transfer of naestved.dk.
+ 40.696: naestved.dk INFO Legacy name server ID for ns4.gratisdns.dk (2a01:558:4000:0:0:0:0:3): hostname.bind = ns4.gratisdns.dk
+ 40.717: naestved.dk INFO Legacy name server ID for ns4.gratisdns.dk (2a01:558:4000:0:0:0:0:3): version.bind = .... Yes ?
+ 40.753: naestved.dk NOTICE No answer received from 2a01:558:4000:0:0:0:0:3 when querying for version.server/CH/TXT.
+ 40.754: naestved.dk INFO Done testing name server ns4.gratisdns.dk.
+ 40.754: naestved.dk INFO Begin testing name server ns5.gratisdns.dk.
+ 40.754: naestved.dk INFO Begin testing host ns5.gratisdns.dk.
+ 40.754: naestved.dk INFO Begin testing address 62.209.190.10.
+ 41.760: naestved.dk INFO Done testing address 62.209.190.10.
+ 41.761: naestved.dk INFO Begin testing address 2a01:2b0:2000:9b:0:0:0:10.
+ 42.153: naestved.dk INFO Done testing address 2a01:2b0:2000:9b:0:0:0:10.
+ 42.153: naestved.dk INFO Done testing host ns5.gratisdns.dk.
+ 42.162: naestved.dk INFO Name server ns5.gratisdns.dk (62.209.190.10) answers queries over UDP.
+ 42.175: naestved.dk INFO Name server ns5.gratisdns.dk (62.209.190.10) answers queries over TCP.
+ 42.184: naestved.dk INFO Name server ns5.gratisdns.dk (62.209.190.10) is not recursive.
+ 42.219: naestved.dk INFO Name server ns5.gratisdns.dk (62.209.190.10) authoritative for naestved.dk.
+ 42.343: naestved.dk INFO Name server ns5.gratisdns.dk (62.209.190.10) closed for zone transfer of naestved.dk.
+ 42.352: naestved.dk INFO Legacy name server ID for ns5.gratisdns.dk (62.209.190.10): hostname.bind = ns.anycast.gratisdns.dk
+ 42.360: naestved.dk INFO Legacy name server ID for ns5.gratisdns.dk (62.209.190.10): version.bind = .... Yes ?
+ 42.375: naestved.dk NOTICE No answer received from 62.209.190.10 when querying for version.server/CH/TXT.
+ 42.388: naestved.dk INFO Name server ns5.gratisdns.dk (2a01:2b0:2000:9b:0:0:0:10) answers queries over UDP.
+ 42.411: naestved.dk INFO Name server ns5.gratisdns.dk (2a01:2b0:2000:9b:0:0:0:10) answers queries over TCP.
+ 42.428: naestved.dk INFO Name server ns5.gratisdns.dk (2a01:2b0:2000:9b:0:0:0:10) is not recursive.
+ 42.483: naestved.dk INFO Name server ns5.gratisdns.dk (2a01:2b0:2000:9b:0:0:0:10) authoritative for naestved.dk.
+ 42.608: naestved.dk INFO Name server ns5.gratisdns.dk (2a01:2b0:2000:9b:0:0:0:10) closed for zone transfer of naestved.dk.
+ 42.621: naestved.dk INFO Legacy name server ID for ns5.gratisdns.dk (2a01:2b0:2000:9b:0:0:0:10): hostname.bind = ns.anycast.gratisdns.dk
+ 42.633: naestved.dk INFO Legacy name server ID for ns5.gratisdns.dk (2a01:2b0:2000:9b:0:0:0:10): version.bind = .... Yes ?
+ 42.656: naestved.dk NOTICE No answer received from 2a01:2b0:2000:9b:0:0:0:10 when querying for version.server/CH/TXT.
+ 42.657: naestved.dk INFO Done testing name server ns5.gratisdns.dk.
+ 42.657: naestved.dk INFO Begin testing zone consistency for naestved.dk.
+ 42.860: naestved.dk INFO SOA at address 194.0.2.6 has serial 2014022016.
+ 42.869: naestved.dk INFO SOA at address 62.209.190.10 has serial 2014022016.
+ 42.880: naestved.dk INFO SOA at address 185.10.10.53 has serial 2014022016.
+ 42.899: naestved.dk INFO SOA at address 109.238.48.13 has serial 2014022016.
+ 42.948: naestved.dk INFO SOA at address 2001:678:5:0:0:0:0:6 has serial 2014022016.
+ 42.975: naestved.dk INFO SOA at address 2a02:9d0:3002:1:0:0:0:2 has serial 2014022016.
+ 42.987: naestved.dk INFO SOA at address 2a01:2b0:2000:9b:0:0:0:10 has serial 2014022016.
+ 43.002: naestved.dk INFO SOA at address 87.73.3.3 has serial 2014022016.
+ 43.022: naestved.dk INFO SOA at address 2a01:558:4000:0:0:0:0:3 has serial 2014022016.
+ 43.023: naestved.dk INFO All SOA records have consistent serial numbers.
+ 43.023: naestved.dk INFO All other fields in the SOA record are consistent among all name servers.
+ 43.207: naestved.dk NOTICE The listed nameservers for naestved.dk all report the same set of nameservers.
+ 43.207: naestved.dk INFO Done testing zone consistency for naestved.dk.
+ 43.208: naestved.dk INFO Begin testing SOA parameters for naestved.dk.
+ 43.225: naestved.dk INFO Found SOA record for naestved.dk.
+ 43.225: naestved.dk INFO Begin testing host ns1.gratisdns.dk.
+ 43.226: naestved.dk INFO Begin testing address 109.238.48.13.
+ 43.227: naestved.dk INFO Done testing address 109.238.48.13.
+ 43.227: naestved.dk INFO Begin testing address 2a02:9d0:3002:1:0:0:0:2.
+ 43.228: naestved.dk INFO Done testing address 2a02:9d0:3002:1:0:0:0:2.
+ 43.229: naestved.dk INFO Done testing host ns1.gratisdns.dk.
+ 43.229: naestved.dk INFO SOA MNAME for naestved.dk valid (ns1.gratisdns.dk).
+ 43.229: naestved.dk INFO SOA MNAME for naestved.dk (ns1.gratisdns.dk) listed as NS.
+ 43.246: naestved.dk INFO SOA MNAME for naestved.dk (ns1.gratisdns.dk) is authoritative.
+ 43.267: naestved.dk INFO SOA MNAME for naestved.dk (ns1.gratisdns.dk) is authoritative.
+ 43.267: naestved.dk INFO Begin testing email address helpdesk@naestved.dk.
+ 43.467: naestved.dk INFO Mail exchangers for helpdesk@naestved.dk found gw1.security.comendo.com,gw2.security.comendo.com,gw3.security.comendo.com.
+ 43.467: naestved.dk INFO Begin testing host gw1.security.comendo.com.
+ 44.104: naestved.dk INFO Begin testing address 89.104.217.10.
+ 44.726: naestved.dk INFO Done testing address 89.104.217.10.
+ 44.726: naestved.dk INFO Done testing host gw1.security.comendo.com.
+ 44.857: naestved.dk INFO Begin testing host gw2.security.comendo.com.
+ 45.536: naestved.dk INFO Begin testing address 89.104.217.10.
+ 45.980: naestved.dk INFO Done testing address 89.104.217.10.
+ 45.980: naestved.dk INFO Done testing host gw2.security.comendo.com.
+ 46.123: naestved.dk INFO Begin testing host gw3.security.comendo.com.
+ 46.512: naestved.dk INFO Begin testing address 89.104.216.11.
+ 47.450: naestved.dk INFO Done testing address 89.104.216.11.
+ 47.450: naestved.dk INFO Done testing host gw3.security.comendo.com.
+ 47.666: naestved.dk INFO Done testing email address helpdesk@naestved.dk.
+ 47.666: naestved.dk INFO Successful attempt to deliver email for SOA RNAME of naestved.dk (helpdesk.naestved.dk) using helpdesk@naestved.dk.
+ 47.666: naestved.dk INFO SOA TTL for naestved.dk OK (43200) - recommended >= 3600.
+ 47.666: naestved.dk NOTICE SOA refresh for naestved.dk too small (10800) - recommended >= 14400.
+ 47.666: naestved.dk INFO SOA retry for naestved.dk OK (3600) - recommended >= 3600.
+ 47.666: naestved.dk INFO SOA expire for naestved.dk OK (2419000) - recommended >= 604800.
+ 47.667: naestved.dk INFO SOA minimum for naestved.dk OK (43200) - recommended between 300 and 86400.
+ 47.667: naestved.dk INFO Done testing SOA parameters for naestved.dk.
+ 47.667: naestved.dk INFO Begin testing connectivity for naestved.dk.
+ 49.935: naestved.dk INFO Zone announced by more than one ASN.
+ 51.558: naestved.dk INFO Zone announced by more than one IPv6 ASN.
+ 51.559: naestved.dk INFO Done testing connectivity for naestved.dk.
+ 51.559: naestved.dk INFO Begin testing DNSSEC for naestved.dk.
+ 51.643: naestved.dk INFO Did not find DS record for naestved.dk at parent.
+ 51.948: naestved.dk INFO Servers for naestved.dk have consistent extra processing status.
+ 51.988: naestved.dk INFO Authenticated denial records not found for naestved.dk.
+ 52.006: naestved.dk INFO Did not find DNSKEY record for naestved.dk at child.
+ 52.007: naestved.dk INFO No DNSKEY(s) found at child, other tests skipped.
+ 52.007: naestved.dk INFO Done testing DNSSEC for naestved.dk.
+ 52.007: naestved.dk INFO Test completed for zone naestved.dk.

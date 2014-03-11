@@ -1,0 +1,108 @@
+  0.000: radoy.kommune.no INFO Begin testing zone radoy.kommune.no with version 1.6.1.
+  0.464: radoy.kommune.no INFO Begin testing delegation for radoy.kommune.no.
+  8.300: radoy.kommune.no INFO Name servers listed at parent: dns1.siteman.no,dns2.siteman.no
+  9.609: radoy.kommune.no INFO Name servers listed at child: dns1.siteman.no,dns2.siteman.no
+  9.609: radoy.kommune.no NOTICE No IPv6 name servers found.
+  9.775: radoy.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.899: radoy.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.052: radoy.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.233: radoy.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.909: radoy.kommune.no INFO It is possible to build a referral packet for radoy.kommune.no that works without EDNS0.
+ 11.441: radoy.kommune.no INFO Previously used name servers for radoy.kommune.no: 
+ 11.441: radoy.kommune.no INFO Done testing delegation for radoy.kommune.no.
+ 11.442: radoy.kommune.no INFO Begin testing name server dns1.siteman.no.
+ 11.442: radoy.kommune.no INFO Begin testing host dns1.siteman.no.
+ 11.751: radoy.kommune.no INFO Begin testing address 109.68.89.104.
+ 25.613: radoy.kommune.no INFO Done testing address 109.68.89.104.
+ 25.613: radoy.kommune.no INFO Done testing host dns1.siteman.no.
+ 25.815: radoy.kommune.no INFO Name server dns1.siteman.no (109.68.89.104) answers queries over UDP.
+ 25.881: radoy.kommune.no INFO Name server dns1.siteman.no (109.68.89.104) answers queries over TCP.
+ 25.906: radoy.kommune.no INFO Name server dns1.siteman.no (109.68.89.104) is not recursive.
+ 26.076: radoy.kommune.no INFO Name server dns1.siteman.no (109.68.89.104) authoritative for radoy.kommune.no.
+ 26.121: radoy.kommune.no INFO Name server dns1.siteman.no (109.68.89.104) closed for zone transfer of radoy.kommune.no.
+ 26.151: radoy.kommune.no INFO Legacy name server ID for dns1.siteman.no (109.68.89.104): hostname.bind = dns1
+ 26.197: radoy.kommune.no INFO Legacy name server ID for dns1.siteman.no (109.68.89.104): version.bind = 9.9.3-P2
+ 26.272: radoy.kommune.no NOTICE No answer received from 109.68.89.104 when querying for version.server/CH/TXT.
+ 26.272: radoy.kommune.no INFO Done testing name server dns1.siteman.no.
+ 26.282: radoy.kommune.no INFO Begin testing name server dns2.siteman.no.
+ 26.282: radoy.kommune.no INFO Begin testing host dns2.siteman.no.
+ 26.520: radoy.kommune.no INFO Begin testing address 89.250.121.156.
+ 27.719: radoy.kommune.no INFO Done testing address 89.250.121.156.
+ 27.719: radoy.kommune.no INFO Done testing host dns2.siteman.no.
+ 27.963: radoy.kommune.no INFO Name server dns2.siteman.no (89.250.121.156) answers queries over UDP.
+ 28.026: radoy.kommune.no INFO Name server dns2.siteman.no (89.250.121.156) answers queries over TCP.
+ 28.040: radoy.kommune.no INFO Name server dns2.siteman.no (89.250.121.156) is not recursive.
+ 28.166: radoy.kommune.no INFO Name server dns2.siteman.no (89.250.121.156) authoritative for radoy.kommune.no.
+ 28.219: radoy.kommune.no INFO Name server dns2.siteman.no (89.250.121.156) closed for zone transfer of radoy.kommune.no.
+ 28.241: radoy.kommune.no INFO Legacy name server ID for dns2.siteman.no (89.250.121.156): hostname.bind = dns2
+ 28.261: radoy.kommune.no INFO Legacy name server ID for dns2.siteman.no (89.250.121.156): version.bind = 9.9.3-P2
+ 28.309: radoy.kommune.no NOTICE No answer received from 89.250.121.156 when querying for version.server/CH/TXT.
+ 28.310: radoy.kommune.no INFO Done testing name server dns2.siteman.no.
+ 28.310: radoy.kommune.no INFO Begin testing zone consistency for radoy.kommune.no.
+ 29.128: radoy.kommune.no INFO SOA at address 89.250.121.156 has serial 2014030301.
+ 29.166: radoy.kommune.no INFO SOA at address 109.68.89.104 has serial 2014030301.
+ 29.166: radoy.kommune.no INFO All SOA records have consistent serial numbers.
+ 29.166: radoy.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 29.734: radoy.kommune.no NOTICE The listed nameservers for radoy.kommune.no all report the same set of nameservers.
+ 29.734: radoy.kommune.no INFO Done testing zone consistency for radoy.kommune.no.
+ 29.734: radoy.kommune.no INFO Begin testing SOA parameters for radoy.kommune.no.
+ 29.762: radoy.kommune.no INFO Found SOA record for radoy.kommune.no.
+ 29.762: radoy.kommune.no INFO Begin testing host dns1.siteman.no.
+ 29.909: radoy.kommune.no INFO Begin testing address 109.68.89.104.
+ 30.158: radoy.kommune.no INFO Done testing address 109.68.89.104.
+ 30.158: radoy.kommune.no INFO Done testing host dns1.siteman.no.
+ 30.158: radoy.kommune.no INFO SOA MNAME for radoy.kommune.no valid (dns1.siteman.no).
+ 30.159: radoy.kommune.no INFO SOA MNAME for radoy.kommune.no (dns1.siteman.no) listed as NS.
+ 30.322: radoy.kommune.no INFO SOA MNAME for radoy.kommune.no (dns1.siteman.no) is authoritative.
+ 30.322: radoy.kommune.no INFO Begin testing email address hostmaster@siteman.no.
+ 30.483: radoy.kommune.no INFO Mail exchangers for hostmaster@siteman.no found ASPMX.L.GOOGLE.COM,ALT2.ASPMX.L.GOOGLE.COM,ALT1.ASPMX.L.GOOGLE.COM,ASPMX2.GOOGLEMAIL.COM,ASPMX3.GOOGLEMAIL.COM.
+ 30.484: radoy.kommune.no INFO Begin testing host ASPMX.L.GOOGLE.COM.
+ 31.260: radoy.kommune.no INFO Begin testing address 173.194.71.27.
+ 36.221: radoy.kommune.no INFO Done testing address 173.194.71.27.
+ 36.222: radoy.kommune.no INFO Begin testing address 2a00:1450:4010:c04:0:0:0:1a.
+ 37.443: radoy.kommune.no INFO Done testing address 2a00:1450:4010:c04:0:0:0:1a.
+ 37.443: radoy.kommune.no INFO Done testing host ASPMX.L.GOOGLE.COM.
+ 37.443: radoy.kommune.no INFO Begin testing host ALT2.ASPMX.L.GOOGLE.COM.
+ 38.430: radoy.kommune.no INFO Begin testing address 74.125.193.26.
+ 39.617: radoy.kommune.no INFO Done testing address 74.125.193.26.
+ 39.617: radoy.kommune.no INFO Begin testing address 2607:f8b0:4001:c05:0:0:0:1a.
+ 40.730: radoy.kommune.no INFO Done testing address 2607:f8b0:4001:c05:0:0:0:1a.
+ 40.730: radoy.kommune.no INFO Done testing host ALT2.ASPMX.L.GOOGLE.COM.
+ 40.731: radoy.kommune.no INFO Begin testing host ALT1.ASPMX.L.GOOGLE.COM.
+ 41.396: radoy.kommune.no INFO Begin testing address 173.194.64.27.
+ 42.506: radoy.kommune.no INFO Done testing address 173.194.64.27.
+ 42.507: radoy.kommune.no INFO Begin testing address 2607:f8b0:4003:c02:0:0:0:1a.
+ 45.299: radoy.kommune.no INFO Done testing address 2607:f8b0:4003:c02:0:0:0:1a.
+ 45.299: radoy.kommune.no INFO Done testing host ALT1.ASPMX.L.GOOGLE.COM.
+ 45.299: radoy.kommune.no INFO Begin testing host ASPMX2.GOOGLEMAIL.COM.
+ 45.841: radoy.kommune.no INFO Begin testing address 173.194.64.27.
+ 46.182: radoy.kommune.no INFO Done testing address 173.194.64.27.
+ 46.183: radoy.kommune.no INFO Begin testing address 2607:f8b0:4003:c02:0:0:0:1b.
+ 47.140: radoy.kommune.no INFO Done testing address 2607:f8b0:4003:c02:0:0:0:1b.
+ 47.140: radoy.kommune.no INFO Done testing host ASPMX2.GOOGLEMAIL.COM.
+ 47.141: radoy.kommune.no INFO Begin testing host ASPMX3.GOOGLEMAIL.COM.
+ 47.891: radoy.kommune.no INFO Begin testing address 74.125.193.27.
+ 48.553: radoy.kommune.no INFO Done testing address 74.125.193.27.
+ 48.553: radoy.kommune.no INFO Begin testing address 2607:f8b0:4001:c05:0:0:0:1a.
+ 48.902: radoy.kommune.no INFO Done testing address 2607:f8b0:4001:c05:0:0:0:1a.
+ 48.910: radoy.kommune.no INFO Done testing host ASPMX3.GOOGLEMAIL.COM.
+ 48.910: radoy.kommune.no INFO Done testing email address hostmaster@siteman.no.
+ 48.911: radoy.kommune.no INFO Successful attempt to deliver email for SOA RNAME of radoy.kommune.no (hostmaster.siteman.no) using hostmaster@siteman.no.
+ 48.911: radoy.kommune.no INFO SOA TTL for radoy.kommune.no OK (3600) - recommended >= 3600.
+ 48.911: radoy.kommune.no INFO SOA refresh for radoy.kommune.no OK (86400) - recommended >= 14400.
+ 48.911: radoy.kommune.no INFO SOA retry for radoy.kommune.no OK (7200) - recommended >= 3600.
+ 48.911: radoy.kommune.no INFO SOA expire for radoy.kommune.no OK (3628800) - recommended >= 604800.
+ 48.911: radoy.kommune.no INFO SOA minimum for radoy.kommune.no OK (3600) - recommended between 300 and 86400.
+ 48.911: radoy.kommune.no INFO Done testing SOA parameters for radoy.kommune.no.
+ 48.911: radoy.kommune.no INFO Begin testing connectivity for radoy.kommune.no.
+ 49.815: radoy.kommune.no NOTICE Zone announced by fewer than two IPv4 ASN.
+ 49.816: radoy.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 49.816: radoy.kommune.no INFO Done testing connectivity for radoy.kommune.no.
+ 49.816: radoy.kommune.no INFO Begin testing DNSSEC for radoy.kommune.no.
+ 49.889: radoy.kommune.no INFO Did not find DS record for radoy.kommune.no at parent.
+ 49.941: radoy.kommune.no INFO Servers for radoy.kommune.no have consistent extra processing status.
+ 49.965: radoy.kommune.no INFO Authenticated denial records not found for radoy.kommune.no.
+ 49.981: radoy.kommune.no INFO Did not find DNSKEY record for radoy.kommune.no at child.
+ 49.981: radoy.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 49.981: radoy.kommune.no INFO Done testing DNSSEC for radoy.kommune.no.
+ 49.982: radoy.kommune.no INFO Test completed for zone radoy.kommune.no.

@@ -1,0 +1,93 @@
+  0.000: jak.se INFO Begin testing zone jak.se with version 1.5.0.
+  0.001: jak.se INFO Begin testing delegation for jak.se.
+  5.131: jak.se INFO Name servers listed at parent: ns.artech.se
+  6.330: jak.se INFO Name servers listed at child: ns.artech.se,ns2.artech.se
+  6.330: jak.se ERROR Too few name servers (1).
+  6.330: jak.se NOTICE Additional name server listed at child: ns2.artech.se
+  6.330: jak.se NOTICE No IPv6 name servers found.
+  7.097: jak.se INFO It is possible to build a referral packet for jak.se that works without EDNS0.
+  7.098: jak.se INFO Done testing delegation for jak.se.
+  7.098: jak.se INFO Begin testing name server ns.artech.se.
+  7.099: jak.se INFO Begin testing host ns.artech.se.
+  7.335: jak.se INFO Begin testing address 213.115.224.242.
+ 16.002: jak.se INFO Done testing address 213.115.224.242.
+ 16.005: jak.se INFO Begin testing address 195.84.80.2.
+ 17.293: jak.se INFO Done testing address 195.84.80.2.
+ 17.293: jak.se INFO Done testing host ns.artech.se.
+ 17.548: jak.se INFO Name server ns.artech.se (213.115.224.242) answers queries over UDP.
+ 17.587: jak.se INFO Name server ns.artech.se (213.115.224.242) answers queries over TCP.
+ 17.614: jak.se INFO Name server ns.artech.se (213.115.224.242) is not recursive.
+ 17.700: jak.se INFO Name server ns.artech.se (213.115.224.242) authoritative for jak.se.
+ 17.756: jak.se NOTICE Name server ns.artech.se (213.115.224.242) open for zone transfer of jak.se.
+ 17.781: jak.se INFO Legacy name server ID for ns.artech.se (213.115.224.242): hostname.bind = linus
+ 17.801: jak.se INFO Legacy name server ID for ns.artech.se (213.115.224.242): version.bind = Bind 9.3.2
+ 17.841: jak.se NOTICE No answer received from 213.115.224.242 when querying for version.server/CH/TXT.
+ 17.868: jak.se INFO Name server ns.artech.se (195.84.80.2) answers queries over UDP.
+ 17.914: jak.se INFO Name server ns.artech.se (195.84.80.2) answers queries over TCP.
+ 17.949: jak.se INFO Name server ns.artech.se (195.84.80.2) is not recursive.
+ 18.056: jak.se INFO Name server ns.artech.se (195.84.80.2) authoritative for jak.se.
+ 18.127: jak.se NOTICE Name server ns.artech.se (195.84.80.2) open for zone transfer of jak.se.
+ 18.154: jak.se INFO Legacy name server ID for ns.artech.se (195.84.80.2): hostname.bind = linus
+ 18.179: jak.se INFO Legacy name server ID for ns.artech.se (195.84.80.2): version.bind = Bind 9.3.2
+ 18.239: jak.se NOTICE No answer received from 195.84.80.2 when querying for version.server/CH/TXT.
+ 18.239: jak.se INFO Done testing name server ns.artech.se.
+ 18.240: jak.se INFO Begin testing name server ns2.artech.se.
+ 18.240: jak.se INFO Begin testing host ns2.artech.se.
+ 18.492: jak.se INFO Begin testing address 195.84.80.4.
+ 19.662: jak.se INFO Done testing address 195.84.80.4.
+ 19.662: jak.se INFO Done testing host ns2.artech.se.
+ 19.937: jak.se INFO Name server ns2.artech.se (195.84.80.4) answers queries over UDP.
+ 19.988: jak.se INFO Name server ns2.artech.se (195.84.80.4) answers queries over TCP.
+ 20.025: jak.se INFO Name server ns2.artech.se (195.84.80.4) is not recursive.
+ 20.136: jak.se INFO Name server ns2.artech.se (195.84.80.4) authoritative for jak.se.
+ 20.212: jak.se NOTICE Name server ns2.artech.se (195.84.80.4) open for zone transfer of jak.se.
+ 20.238: jak.se INFO Legacy name server ID for ns2.artech.se (195.84.80.4): hostname.bind = linus
+ 20.269: jak.se INFO Legacy name server ID for ns2.artech.se (195.84.80.4): version.bind = Bind 9.3.2
+ 20.319: jak.se NOTICE No answer received from 195.84.80.4 when querying for version.server/CH/TXT.
+ 20.319: jak.se INFO Done testing name server ns2.artech.se.
+ 20.320: jak.se INFO Begin testing zone consistency for jak.se.
+ 21.060: jak.se INFO SOA at address 195.84.80.2 has serial 2004112522.
+ 21.091: jak.se INFO SOA at address 195.84.80.4 has serial 2004112522.
+ 21.111: jak.se INFO SOA at address 213.115.224.242 has serial 2004112522.
+ 21.111: jak.se INFO All SOA records have consistent serial numbers.
+ 21.111: jak.se INFO All other fields in the SOA record are consistent among all name servers.
+ 21.394: jak.se NOTICE The listed nameservers for jak.se all report the same set of nameservers.
+ 21.394: jak.se INFO Done testing zone consistency for jak.se.
+ 21.395: jak.se INFO Begin testing SOA parameters for jak.se.
+ 21.424: jak.se INFO Found SOA record for jak.se.
+ 21.425: jak.se INFO Begin testing host linus.artech.net.
+ 34.852: jak.se INFO Begin testing address 195.84.80.2.
+ 35.106: jak.se INFO Done testing address 195.84.80.2.
+ 35.106: jak.se INFO Done testing host linus.artech.net.
+ 35.107: jak.se INFO SOA MNAME for jak.se valid (linus.artech.net).
+ 35.107: jak.se NOTICE SOA MNAME for jak.se (linus.artech.net) not listed as NS.
+ 41.669: jak.se INFO SOA MNAME for jak.se (linus.artech.net) is authoritative.
+ 41.669: jak.se INFO Begin testing email address hostmaster@artech.net.
+ 48.203: jak.se INFO Mail exchangers for hostmaster@artech.net found smtp.artech.se.
+ 48.204: jak.se INFO Begin testing host smtp.artech.se.
+ 48.699: jak.se INFO Begin testing address 195.84.80.2.
+ 48.951: jak.se INFO Done testing address 195.84.80.2.
+ 48.951: jak.se INFO Begin testing address 213.115.224.242.
+ 49.216: jak.se INFO Done testing address 213.115.224.242.
+ 49.216: jak.se INFO Done testing host smtp.artech.se.
+ 49.448: jak.se INFO Done testing email address hostmaster@artech.net.
+ 49.448: jak.se INFO Successful attempt to deliver email for SOA RNAME of jak.se (hostmaster.artech.net) using hostmaster@artech.net.
+ 49.449: jak.se INFO SOA TTL for jak.se OK (3600) - recommended >= 3600.
+ 49.449: jak.se NOTICE SOA refresh for jak.se too small (10800) - recommended >= 14400.
+ 49.449: jak.se INFO SOA retry for jak.se OK (3600) - recommended >= 3600.
+ 49.449: jak.se NOTICE SOA expire for jak.se too small (60480) - recommended >= 604800.
+ 49.449: jak.se NOTICE SOA expire for jak.se lower than refresh.
+ 49.449: jak.se INFO SOA minimum for jak.se OK (3600) - recommended between 300 and 86400.
+ 49.450: jak.se INFO Done testing SOA parameters for jak.se.
+ 49.450: jak.se INFO Begin testing connectivity for jak.se.
+ 51.501: jak.se INFO Zone announced by more than one ASN.
+ 51.501: jak.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 51.502: jak.se INFO Done testing connectivity for jak.se.
+ 51.502: jak.se INFO Begin testing DNSSEC for jak.se.
+ 51.519: jak.se INFO Did not find DS record for jak.se at parent.
+ 51.651: jak.se INFO Servers for jak.se have consistent extra processing status.
+ 51.696: jak.se INFO Authenticated denial records not found for jak.se.
+ 51.721: jak.se INFO Did not find DNSKEY record for jak.se at child.
+ 51.721: jak.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 51.721: jak.se INFO Done testing DNSSEC for jak.se.
+ 51.722: jak.se INFO Test completed for zone jak.se.

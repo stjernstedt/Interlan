@@ -1,0 +1,129 @@
+  0.000: taby.se INFO Begin testing zone taby.se with version 1.6.1.
+  0.644: taby.se INFO Begin testing delegation for taby.se.
+ 13.996: taby.se INFO Name servers listed at parent: dns.taby.se,dns5.telia.com
+ 17.287: taby.se INFO Name servers listed at child: dns.taby.se,dns5.telia.com
+ 17.288: taby.se NOTICE Too few IPv6 name servers (1).
+ 17.375: taby.se INFO Parent glue for taby.se found: dns.taby.se (194.23.239.3)
+ 17.579: taby.se INFO Checking glue for dns.taby.se (194.23.239.3).
+ 17.662: taby.se INFO Child glue for taby.se found: dns.taby.se (194.23.239.3)
+ 17.663: taby.se INFO Parent glue for taby.se found: dns.taby.se (194.23.239.3)
+ 18.786: taby.se INFO It is possible to build a referral packet for taby.se that works without EDNS0.
+ 19.189: taby.se INFO Previously used name servers for taby.se: 
+ 19.189: taby.se INFO Done testing delegation for taby.se.
+ 19.190: taby.se INFO Begin testing name server dns.taby.se.
+ 19.190: taby.se INFO Begin testing host dns.taby.se.
+ 19.669: taby.se INFO Begin testing address 194.23.239.3.
+ 47.485: taby.se INFO Done testing address 194.23.239.3.
+ 47.486: taby.se INFO Done testing host dns.taby.se.
+ 47.620: taby.se INFO Name server dns.taby.se (194.23.239.3) answers queries over UDP.
+ 47.642: taby.se INFO Name server dns.taby.se (194.23.239.3) answers queries over TCP.
+ 47.673: taby.se INFO Name server dns.taby.se (194.23.239.3) is not recursive.
+ 47.798: taby.se INFO Name server dns.taby.se (194.23.239.3) authoritative for taby.se.
+ 47.831: taby.se INFO Name server dns.taby.se (194.23.239.3) closed for zone transfer of taby.se.
+ 47.948: taby.se NOTICE No answer received from 194.23.239.3 when querying for version.server/CH/TXT.
+ 47.949: taby.se INFO Done testing name server dns.taby.se.
+ 47.949: taby.se INFO Begin testing name server dns5.telia.com.
+ 47.949: taby.se INFO Begin testing host dns5.telia.com.
+ 47.959: taby.se INFO Begin testing address 81.228.11.68.
+ 49.217: taby.se INFO Done testing address 81.228.11.68.
+ 49.217: taby.se INFO Begin testing address 2001:2040:c001:101:0:0:0:4.
+ 52.045: taby.se INFO Done testing address 2001:2040:c001:101:0:0:0:4.
+ 52.045: taby.se INFO Done testing host dns5.telia.com.
+ 52.076: taby.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over UDP.
+ 52.096: taby.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over TCP.
+ 52.134: taby.se INFO Name server dns5.telia.com (81.228.11.68) is not recursive.
+ 52.244: taby.se INFO Name server dns5.telia.com (81.228.11.68) authoritative for taby.se.
+ 52.287: taby.se INFO Name server dns5.telia.com (81.228.11.68) closed for zone transfer of taby.se.
+ 52.329: taby.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 52.462: taby.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) answers queries over UDP.
+ 52.553: taby.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) answers queries over TCP.
+ 52.617: taby.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) is not recursive.
+ 52.800: taby.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) authoritative for taby.se.
+ 52.904: taby.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) closed for zone transfer of taby.se.
+ 53.005: taby.se INFO Legacy name server ID for dns5.telia.com (2001:2040:c001:101:0:0:0:4): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 53.105: taby.se INFO Done testing name server dns5.telia.com.
+ 53.105: taby.se INFO Begin testing zone consistency for taby.se.
+ 53.490: taby.se INFO SOA at address 81.228.11.68 has serial 2013032906.
+ 53.516: taby.se INFO SOA at address 194.23.239.3 has serial 2013032906.
+ 53.552: taby.se INFO SOA at address 2001:2040:c001:101:0:0:0:4 has serial 2013032906.
+ 53.552: taby.se INFO All SOA records have consistent serial numbers.
+ 53.552: taby.se INFO All other fields in the SOA record are consistent among all name servers.
+ 53.839: taby.se NOTICE The listed nameservers for taby.se all report the same set of nameservers.
+ 53.839: taby.se INFO Done testing zone consistency for taby.se.
+ 53.839: taby.se INFO Begin testing SOA parameters for taby.se.
+ 53.859: taby.se INFO Found SOA record for taby.se.
+ 53.859: taby.se INFO Begin testing host dns.taby.se.
+ 54.071: taby.se INFO Begin testing address 194.23.239.3.
+ 54.233: taby.se INFO Done testing address 194.23.239.3.
+ 54.233: taby.se INFO Done testing host dns.taby.se.
+ 54.233: taby.se INFO SOA MNAME for taby.se valid (dns.taby.se).
+ 54.233: taby.se INFO SOA MNAME for taby.se (dns.taby.se) listed as NS.
+ 54.442: taby.se INFO SOA MNAME for taby.se (dns.taby.se) is authoritative.
+ 54.442: taby.se INFO Begin testing email address registry@taby.se.
+ 54.607: taby.se INFO Mail exchangers for registry@taby.se found mail.messaging.microsoft.com.
+ 54.607: taby.se INFO Begin testing host mail.messaging.microsoft.com.
+ 59.535: taby.se INFO Begin testing address 216.32.181.178.
+ 67.889: taby.se INFO Done testing address 216.32.181.178.
+ 67.889: taby.se INFO Begin testing address 207.46.163.30.
+ 68.931: taby.se INFO Done testing address 207.46.163.30.
+ 68.931: taby.se INFO Begin testing address 216.32.180.22.
+ 70.334: taby.se INFO Done testing address 216.32.180.22.
+ 70.334: taby.se INFO Begin testing address 213.199.180.150.
+ 71.587: taby.se INFO Done testing address 213.199.180.150.
+ 71.587: taby.se INFO Begin testing address 65.55.88.22.
+ 72.476: taby.se INFO Done testing address 65.55.88.22.
+ 72.476: taby.se INFO Done testing host mail.messaging.microsoft.com.
+ 74.590: taby.se INFO Done testing email address registry@taby.se.
+ 74.590: taby.se INFO Successful attempt to deliver email for SOA RNAME of taby.se (registry.taby.se) using registry@taby.se.
+ 74.590: taby.se INFO SOA TTL for taby.se OK (3600) - recommended >= 3600.
+ 74.591: taby.se INFO SOA refresh for taby.se OK (14400) - recommended >= 14400.
+ 74.591: taby.se NOTICE SOA retry for taby.se too small (1440) - recommended >= 3600.
+ 74.591: taby.se INFO SOA expire for taby.se OK (604800) - recommended >= 604800.
+ 74.591: taby.se INFO SOA minimum for taby.se OK (86400) - recommended between 300 and 86400.
+ 74.591: taby.se INFO Done testing SOA parameters for taby.se.
+ 74.591: taby.se INFO Begin testing connectivity for taby.se.
+ 75.862: taby.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 76.458: taby.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 76.458: taby.se INFO Done testing connectivity for taby.se.
+ 76.459: taby.se INFO Begin testing DNSSEC for taby.se.
+ 76.503: taby.se INFO Found DS record for taby.se at parent.
+ 76.518: taby.se INFO Nameserver 81.228.11.68 does DNSSEC extra processing.
+ 76.537: taby.se INFO Nameserver 194.23.239.3 does DNSSEC extra processing.
+ 76.617: taby.se INFO Nameserver 2001:2040:c001:101:0:0:0:4 does DNSSEC extra processing.
+ 76.617: taby.se INFO Servers for taby.se have consistent extra processing status.
+ 76.643: taby.se INFO Authenticated denial records found for taby.se, of type NSEC.
+ 76.651: taby.se INFO Found DNSKEY record for taby.se at child.
+ 76.652: taby.se INFO Consistent security for taby.se.
+ 76.653: taby.se INFO Checking DNSSEC at child (taby.se).
+ 76.653: taby.se INFO taby.se's key with tag 10776 uses algorithm number 5 (RSA/SHA-1).
+ 76.653: taby.se INFO Algorithm number 5 is OK.
+ 76.653: taby.se INFO taby.se's key with tag 44644 uses algorithm number 5 (RSA/SHA-1).
+ 76.653: taby.se INFO Algorithm number 5 is OK.
+ 76.653: taby.se INFO DNSKEY taby.se (tag 44644) is marked as a secure entry point (SEP).
+ 76.654: taby.se INFO DNSSEC signature expires at: Sat Mar 22 08:43:58 2014
+ 76.654: taby.se INFO Duration for RRSIG(taby.se/IN/DNSKEY/44644) is OK (1210486 seconds).
+ 76.661: taby.se INFO DNSSEC signature RRSIG(taby.se/IN/DNSKEY/44644) matches records.
+ 76.661: taby.se INFO DNSSEC signature valid: RRSIG(taby.se/IN/DNSKEY/44644)
+ 76.661: taby.se INFO DNSSEC signature expires at: Sat Mar 22 08:43:58 2014
+ 76.661: taby.se INFO Duration for RRSIG(taby.se/IN/DNSKEY/10776) is OK (1210486 seconds).
+ 76.662: taby.se INFO DNSSEC signature RRSIG(taby.se/IN/DNSKEY/10776) matches records.
+ 76.662: taby.se INFO DNSSEC signature valid: RRSIG(taby.se/IN/DNSKEY/10776)
+ 76.662: taby.se INFO Enough valid signatures found for taby.se.
+ 76.679: taby.se INFO DNSSEC signature expires at: Sat Mar 22 19:30:43 2014
+ 76.679: taby.se INFO Duration for RRSIG(taby.se/IN/SOA/10776) is OK (1213200 seconds).
+ 76.680: taby.se INFO DNSSEC signature RRSIG(taby.se/IN/SOA/10776) matches records.
+ 76.680: taby.se INFO DNSSEC signature valid: RRSIG(taby.se/IN/SOA/10776)
+ 76.680: taby.se INFO Enough valid signatures over SOA RRset found for taby.se.
+ 76.680: taby.se INFO DNSSEC child checks for taby.se complete.
+ 76.680: taby.se INFO Checking DNSSEC at parent of taby.se.
+ 76.681: taby.se INFO taby.se's key with tag 44644 uses algorithm number 5 (RSA/SHA-1).
+ 76.681: taby.se INFO Algorithm number 5 is OK.
+ 76.681: taby.se INFO Parent DS(taby.se/5/2/44644) refers to valid key at child: DNSKEY(taby.se/5/44644)
+ 76.681: taby.se INFO Parent DS(taby.se) refers to secure entry point (SEP) at child: DS(taby.se/5/2/44644)
+ 76.681: taby.se INFO taby.se's key with tag 44644 uses algorithm number 5 (RSA/SHA-1).
+ 76.681: taby.se INFO Algorithm number 5 is OK.
+ 76.682: taby.se INFO Parent DS(taby.se/5/1/44644) refers to valid key at child: DNSKEY(taby.se/5/44644)
+ 76.682: taby.se INFO Parent DS(taby.se) refers to secure entry point (SEP) at child: DS(taby.se/5/1/44644)
+ 76.682: taby.se INFO DNSSEC parent checks for taby.se complete.
+ 76.682: taby.se INFO Done testing DNSSEC for taby.se.
+ 76.683: taby.se INFO Test completed for zone taby.se.

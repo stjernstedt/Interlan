@@ -1,0 +1,165 @@
+  0.000: umea.se INFO Begin testing zone umea.se with version 1.6.1.
+  0.605: umea.se INFO Begin testing delegation for umea.se.
+ 13.027: umea.se INFO Name servers listed at parent: dns.net.umea.se,secdns.net.umea.se
+ 16.176: umea.se INFO Name servers listed at child: dns.net.umea.se,secdns.net.umea.se
+ 16.304: umea.se INFO Parent glue for umea.se found: dns.net.umea.se (193.254.4.46)
+ 16.398: umea.se INFO Parent glue for umea.se found: dns.net.umea.se (2a00:1718:1:8:0:0:0:46)
+ 16.502: umea.se INFO Parent glue for umea.se found: secdns.net.umea.se (193.254.4.34)
+ 16.681: umea.se INFO Parent glue for umea.se found: secdns.net.umea.se (2a00:1718:1:8:0:0:0:34)
+ 16.681: umea.se INFO Checking glue for dns.net.umea.se (193.254.4.46).
+ 16.757: umea.se INFO Child glue for umea.se found: dns.net.umea.se (193.254.4.46)
+ 16.757: umea.se INFO Checking glue for dns.net.umea.se (2a00:1718:1:8:0:0:0:46).
+ 16.846: umea.se INFO Child glue for umea.se found: dns.net.umea.se (2a00:1718:1:8:0:0:0:46)
+ 16.959: umea.se INFO Checking glue for secdns.net.umea.se (193.254.4.34).
+ 17.020: umea.se INFO Child glue for umea.se found: secdns.net.umea.se (193.254.4.34)
+ 17.020: umea.se INFO Checking glue for secdns.net.umea.se (2a00:1718:1:8:0:0:0:34).
+ 17.088: umea.se INFO Child glue for umea.se found: secdns.net.umea.se (2a00:1718:1:8:0:0:0:34)
+ 17.089: umea.se INFO Parent glue for umea.se found: dns.net.umea.se (193.254.4.46)
+ 17.089: umea.se INFO Parent glue for umea.se found: dns.net.umea.se (2a00:1718:1:8:0:0:0:46)
+ 17.089: umea.se INFO Parent glue for umea.se found: secdns.net.umea.se (193.254.4.34)
+ 17.089: umea.se INFO Parent glue for umea.se found: secdns.net.umea.se (2a00:1718:1:8:0:0:0:34)
+ 17.226: umea.se INFO It is possible to build a referral packet for umea.se that works without EDNS0.
+ 17.226: umea.se INFO Previously used name servers for umea.se: 
+ 17.227: umea.se INFO Done testing delegation for umea.se.
+ 17.227: umea.se INFO Begin testing name server dns.net.umea.se.
+ 17.227: umea.se INFO Begin testing host dns.net.umea.se.
+ 17.284: umea.se INFO Begin testing address 193.254.4.46.
+ 34.893: umea.se INFO Done testing address 193.254.4.46.
+ 34.893: umea.se INFO Begin testing address 2a00:1718:1:8:0:0:0:46.
+ 35.586: umea.se INFO Done testing address 2a00:1718:1:8:0:0:0:46.
+ 35.586: umea.se INFO Done testing host dns.net.umea.se.
+ 35.652: umea.se INFO Name server dns.net.umea.se (193.254.4.46) answers queries over UDP.
+ 35.717: umea.se INFO Name server dns.net.umea.se (193.254.4.46) answers queries over TCP.
+ 35.772: umea.se INFO Name server dns.net.umea.se (193.254.4.46) is not recursive.
+ 35.983: umea.se INFO Name server dns.net.umea.se (193.254.4.46) authoritative for umea.se.
+ 36.302: umea.se INFO Name server dns.net.umea.se (193.254.4.46) closed for zone transfer of umea.se.
+ 36.340: umea.se NOTICE No answer received from 193.254.4.46 when querying for hostname.bind/CH/TXT.
+ 48.509: umea.se INFO Name server dns.net.umea.se (2a00:1718:1:8:0:0:0:46) answers queries over UDP.
+ 48.596: umea.se INFO Name server dns.net.umea.se (2a00:1718:1:8:0:0:0:46) answers queries over TCP.
+ 48.627: umea.se INFO Name server dns.net.umea.se (2a00:1718:1:8:0:0:0:46) is not recursive.
+ 48.865: umea.se INFO Name server dns.net.umea.se (2a00:1718:1:8:0:0:0:46) authoritative for umea.se.
+ 48.996: umea.se INFO Name server dns.net.umea.se (2a00:1718:1:8:0:0:0:46) closed for zone transfer of umea.se.
+ 49.048: umea.se NOTICE No answer received from 2a00:1718:1:8:0:0:0:46 when querying for hostname.bind/CH/TXT.
+ 61.124: umea.se INFO Done testing name server dns.net.umea.se.
+ 61.124: umea.se INFO Begin testing name server secdns.net.umea.se.
+ 61.124: umea.se INFO Begin testing host secdns.net.umea.se.
+ 61.124: umea.se INFO Begin testing address 193.254.4.34.
+ 61.352: umea.se INFO Done testing address 193.254.4.34.
+ 61.352: umea.se INFO Begin testing address 2a00:1718:1:8:0:0:0:34.
+ 61.992: umea.se INFO Done testing address 2a00:1718:1:8:0:0:0:34.
+ 61.992: umea.se INFO Done testing host secdns.net.umea.se.
+ 62.022: umea.se INFO Name server secdns.net.umea.se (193.254.4.34) answers queries over UDP.
+ 62.086: umea.se INFO Name server secdns.net.umea.se (193.254.4.34) answers queries over TCP.
+ 62.128: umea.se INFO Name server secdns.net.umea.se (193.254.4.34) is not recursive.
+ 62.231: umea.se INFO Name server secdns.net.umea.se (193.254.4.34) authoritative for umea.se.
+ 62.364: umea.se INFO Name server secdns.net.umea.se (193.254.4.34) closed for zone transfer of umea.se.
+ 62.384: umea.se NOTICE No answer received from 193.254.4.34 when querying for hostname.bind/CH/TXT.
+ 74.565: umea.se INFO Name server secdns.net.umea.se (2a00:1718:1:8:0:0:0:34) answers queries over UDP.
+ 74.625: umea.se INFO Name server secdns.net.umea.se (2a00:1718:1:8:0:0:0:34) answers queries over TCP.
+ 74.649: umea.se INFO Name server secdns.net.umea.se (2a00:1718:1:8:0:0:0:34) is not recursive.
+ 74.742: umea.se INFO Name server secdns.net.umea.se (2a00:1718:1:8:0:0:0:34) authoritative for umea.se.
+ 74.858: umea.se INFO Name server secdns.net.umea.se (2a00:1718:1:8:0:0:0:34) closed for zone transfer of umea.se.
+ 74.892: umea.se NOTICE No answer received from 2a00:1718:1:8:0:0:0:34 when querying for hostname.bind/CH/TXT.
+ 86.969: umea.se INFO Done testing name server secdns.net.umea.se.
+ 86.969: umea.se INFO Begin testing zone consistency for umea.se.
+ 86.998: umea.se INFO SOA at address 2a00:1718:1:8:0:0:0:46 has serial 2011051573.
+ 87.023: umea.se INFO SOA at address 193.254.4.46 has serial 2011051573.
+ 87.057: umea.se INFO SOA at address 2a00:1718:1:8:0:0:0:34 has serial 2011051573.
+ 87.093: umea.se INFO SOA at address 193.254.4.34 has serial 2011051573.
+ 87.093: umea.se INFO All SOA records have consistent serial numbers.
+ 87.093: umea.se INFO All other fields in the SOA record are consistent among all name servers.
+ 87.401: umea.se NOTICE The listed nameservers for umea.se all report the same set of nameservers.
+ 87.401: umea.se INFO Done testing zone consistency for umea.se.
+ 87.401: umea.se INFO Begin testing SOA parameters for umea.se.
+ 87.435: umea.se INFO Found SOA record for umea.se.
+ 87.435: umea.se INFO Begin testing host dns.net.umea.se.
+ 87.436: umea.se INFO Begin testing address 193.254.4.46.
+ 87.437: umea.se INFO Done testing address 193.254.4.46.
+ 87.437: umea.se INFO Begin testing address 2a00:1718:1:8:0:0:0:46.
+ 87.438: umea.se INFO Done testing address 2a00:1718:1:8:0:0:0:46.
+ 87.438: umea.se INFO Done testing host dns.net.umea.se.
+ 87.438: umea.se INFO SOA MNAME for umea.se valid (dns.net.umea.se).
+ 87.439: umea.se INFO SOA MNAME for umea.se (dns.net.umea.se) listed as NS.
+ 87.472: umea.se INFO SOA MNAME for umea.se (dns.net.umea.se) is authoritative.
+ 87.494: umea.se INFO SOA MNAME for umea.se (dns.net.umea.se) is authoritative.
+ 87.494: umea.se INFO Begin testing email address hostmaster@umea.se.
+ 87.591: umea.se INFO Mail exchangers for hostmaster@umea.se found mailgw2.net.umea.se,mailgw.net.umea.se,mailgw4.net.umea.se,mailgw3.net.umea.se.
+ 87.591: umea.se INFO All mail servers for hostmaster@umea.se are in zone umea.se.
+ 87.608: umea.se INFO Begin testing host mailgw2.net.umea.se.
+ 87.922: umea.se INFO Begin testing address 193.254.4.60.
+ 88.464: umea.se INFO Done testing address 193.254.4.60.
+ 88.464: umea.se INFO Done testing host mailgw2.net.umea.se.
+ 88.576: umea.se INFO Begin testing host mailgw.net.umea.se.
+ 88.778: umea.se INFO Begin testing address 193.254.4.57.
+ 89.226: umea.se INFO Done testing address 193.254.4.57.
+ 89.226: umea.se INFO Done testing host mailgw.net.umea.se.
+ 89.326: umea.se INFO Begin testing host mailgw4.net.umea.se.
+ 89.498: umea.se INFO Begin testing address 193.254.4.74.
+ 90.200: umea.se INFO Done testing address 193.254.4.74.
+ 90.200: umea.se INFO Done testing host mailgw4.net.umea.se.
+ 90.293: umea.se INFO Begin testing host mailgw3.net.umea.se.
+ 90.500: umea.se INFO Begin testing address 193.254.4.73.
+ 91.260: umea.se INFO Done testing address 193.254.4.73.
+ 91.260: umea.se INFO Done testing host mailgw3.net.umea.se.
+ 91.359: umea.se INFO Done testing email address hostmaster@umea.se.
+ 91.359: umea.se INFO Successful attempt to deliver email for SOA RNAME of umea.se (hostmaster.umea.se) using hostmaster@umea.se.
+ 91.359: umea.se INFO SOA TTL for umea.se OK (432000) - recommended >= 3600.
+ 91.359: umea.se INFO SOA refresh for umea.se OK (21600) - recommended >= 14400.
+ 91.359: umea.se NOTICE SOA retry for umea.se too small (900) - recommended >= 3600.
+ 91.360: umea.se INFO SOA expire for umea.se OK (1209600) - recommended >= 604800.
+ 91.360: umea.se INFO SOA minimum for umea.se OK (3600) - recommended between 300 and 86400.
+ 91.360: umea.se INFO Done testing SOA parameters for umea.se.
+ 91.360: umea.se INFO Begin testing connectivity for umea.se.
+ 92.229: umea.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 93.248: umea.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 93.256: umea.se INFO Done testing connectivity for umea.se.
+ 93.256: umea.se INFO Begin testing DNSSEC for umea.se.
+ 93.302: umea.se INFO Found DS record for umea.se at parent.
+ 93.345: umea.se INFO Nameserver 193.254.4.46 does DNSSEC extra processing.
+ 93.389: umea.se INFO Nameserver 193.254.4.34 does DNSSEC extra processing.
+ 93.434: umea.se INFO Nameserver 2a00:1718:1:8:0:0:0:46 does DNSSEC extra processing.
+ 93.483: umea.se INFO Nameserver 2a00:1718:1:8:0:0:0:34 does DNSSEC extra processing.
+ 93.483: umea.se INFO Servers for umea.se have consistent extra processing status.
+ 93.523: umea.se INFO Authenticated denial records found for umea.se, of type NSEC3.
+ 93.545: umea.se INFO NSEC3PARAM record found for umea.se.
+ 93.545: umea.se INFO NSEC3 for umea.se is set to use 50 iterations, which is less than 100 and thus OK.
+ 93.545: umea.se INFO Found DNSKEY record for umea.se at child.
+ 93.545: umea.se INFO Consistent security for umea.se.
+ 93.545: umea.se INFO Checking DNSSEC at child (umea.se).
+ 93.546: umea.se INFO umea.se's key with tag 1816 uses algorithm number 8 (RSA/SHA-256).
+ 93.546: umea.se INFO Algorithm number 8 is OK.
+ 93.546: umea.se INFO DNSKEY umea.se (tag 1816) is marked as a secure entry point (SEP).
+ 93.547: umea.se INFO umea.se's key with tag 18180 uses algorithm number 8 (RSA/SHA-256).
+ 93.547: umea.se INFO Algorithm number 8 is OK.
+ 93.547: umea.se INFO umea.se's key with tag 4384 uses algorithm number 8 (RSA/SHA-256).
+ 93.547: umea.se INFO Algorithm number 8 is OK.
+ 93.547: umea.se INFO umea.se's key with tag 5000 uses algorithm number 8 (RSA/SHA-256).
+ 93.547: umea.se INFO Algorithm number 8 is OK.
+ 93.548: umea.se INFO DNSKEY umea.se (tag 5000) is marked as a secure entry point (SEP).
+ 93.548: umea.se INFO DNSSEC signature expires at: Mon Mar 17 11:41:40 2014
+ 93.548: umea.se INFO Duration for RRSIG(umea.se/IN/DNSKEY/1816) is OK (2419200 seconds).
+ 93.551: umea.se INFO DNSSEC signature RRSIG(umea.se/IN/DNSKEY/1816) matches records.
+ 93.551: umea.se INFO DNSSEC signature valid: RRSIG(umea.se/IN/DNSKEY/1816)
+ 93.552: umea.se INFO DNSSEC signature expires at: Mon Mar 17 11:41:40 2014
+ 93.552: umea.se INFO Duration for RRSIG(umea.se/IN/DNSKEY/18180) is OK (2419200 seconds).
+ 93.554: umea.se INFO DNSSEC signature RRSIG(umea.se/IN/DNSKEY/18180) matches records.
+ 93.554: umea.se INFO DNSSEC signature valid: RRSIG(umea.se/IN/DNSKEY/18180)
+ 93.554: umea.se INFO Enough valid signatures found for umea.se.
+ 93.595: umea.se INFO DNSSEC signature expires at: Mon Mar 24 13:12:57 2014
+ 93.595: umea.se INFO Duration for RRSIG(umea.se/IN/SOA/18180) is OK (2419200 seconds).
+ 93.596: umea.se INFO DNSSEC signature RRSIG(umea.se/IN/SOA/18180) matches records.
+ 93.596: umea.se INFO DNSSEC signature valid: RRSIG(umea.se/IN/SOA/18180)
+ 93.596: umea.se INFO Enough valid signatures over SOA RRset found for umea.se.
+ 93.596: umea.se INFO DNSSEC child checks for umea.se complete.
+ 93.597: umea.se INFO Checking DNSSEC at parent of umea.se.
+ 93.597: umea.se INFO umea.se's key with tag 1816 uses algorithm number 8 (RSA/SHA-256).
+ 93.597: umea.se INFO Algorithm number 8 is OK.
+ 93.597: umea.se INFO Parent DS(umea.se/8/1/1816) refers to valid key at child: DNSKEY(umea.se/8/1816)
+ 93.597: umea.se INFO Parent DS(umea.se) refers to secure entry point (SEP) at child: DS(umea.se/8/1/1816)
+ 93.597: umea.se INFO umea.se's key with tag 5000 uses algorithm number 8 (RSA/SHA-256).
+ 93.598: umea.se INFO Algorithm number 8 is OK.
+ 93.598: umea.se INFO Parent DS(umea.se/8/1/5000) refers to invalid key at child: DNSKEY(umea.se/8/5000)
+ 93.598: umea.se INFO Parent DS(umea.se) refers to secure entry point (SEP) at child: DS(umea.se/8/1/5000)
+ 93.598: umea.se INFO DNSSEC parent checks for umea.se complete.
+ 93.598: umea.se INFO Done testing DNSSEC for umea.se.
+ 93.598: umea.se INFO Test completed for zone umea.se.

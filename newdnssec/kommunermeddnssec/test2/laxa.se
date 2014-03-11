@@ -1,0 +1,100 @@
+  0.000: laxa.se INFO Begin testing zone laxa.se with version 1.2.
+  0.000: laxa.se INFO Begin testing delegation for laxa.se.
+  5.447: laxa.se INFO Name servers listed at parent: dns1.hallsberg.se,dns5.telia.com
+  7.715: laxa.se INFO Name servers listed at child: dns1.hallsberg.se,dns2.hallsberg.se,dns5.telia.com
+  7.715: laxa.se NOTICE Additional name server listed at child: dns2.hallsberg.se
+  7.715: laxa.se NOTICE No IPv6 name servers found.
+  7.733: laxa.se INFO Parent glue for laxa.se found: dns1.hallsberg.se (193.44.212.4)
+  7.889: laxa.se INFO Checking glue for dns1.hallsberg.se (193.44.212.4).
+  7.889: laxa.se INFO Parent glue for laxa.se found: dns1.hallsberg.se (193.44.212.4)
+  7.890: laxa.se INFO Done testing delegation for laxa.se.
+  7.890: laxa.se INFO Begin testing name server dns1.hallsberg.se.
+  7.890: laxa.se INFO Begin testing host dns1.hallsberg.se.
+  7.891: laxa.se INFO Begin testing address 193.44.212.4.
+ 11.180: laxa.se INFO Done testing address 193.44.212.4.
+ 11.181: laxa.se INFO Done testing host dns1.hallsberg.se.
+ 11.195: laxa.se INFO Name server dns1.hallsberg.se (193.44.212.4) answers queries over UDP.
+ 11.221: laxa.se INFO Name server dns1.hallsberg.se (193.44.212.4) answers queries over TCP.
+ 11.240: laxa.se INFO Name server dns1.hallsberg.se (193.44.212.4) is not recursive.
+ 11.255: laxa.se INFO Name server dns1.hallsberg.se (193.44.212.4) authoritative for laxa.se.
+ 11.303: laxa.se NOTICE Name server dns1.hallsberg.se (193.44.212.4) open for zone transfer of laxa.se.
+ 11.317: laxa.se NOTICE No answer received from 193.44.212.4 when querying for hostname.bind/CH/TXT.
+ 11.331: laxa.se NOTICE No answer received from 193.44.212.4 when querying for version.bind/CH/TXT.
+ 11.344: laxa.se NOTICE No answer received from 193.44.212.4 when querying for id.server/CH/TXT.
+ 11.358: laxa.se NOTICE No answer received from 193.44.212.4 when querying for version.server/CH/TXT.
+ 11.358: laxa.se INFO Done testing name server dns1.hallsberg.se.
+ 11.358: laxa.se INFO Begin testing name server dns2.hallsberg.se.
+ 11.358: laxa.se INFO Begin testing host dns2.hallsberg.se.
+ 11.358: laxa.se ERROR No address found for dns2.hallsberg.se.
+ 11.358: laxa.se INFO Done testing host dns2.hallsberg.se.
+ 11.358: laxa.se ERROR Host name or address error for dns2.hallsberg.se.
+ 11.358: laxa.se INFO Done testing name server dns2.hallsberg.se.
+ 11.359: laxa.se INFO Begin testing name server dns5.telia.com.
+ 11.359: laxa.se INFO Begin testing host dns5.telia.com.
+ 11.359: laxa.se INFO Begin testing address 81.228.11.68.
+ 12.412: laxa.se INFO Done testing address 81.228.11.68.
+ 12.412: laxa.se INFO Done testing host dns5.telia.com.
+ 12.420: laxa.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over UDP.
+ 12.431: laxa.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over TCP.
+ 12.438: laxa.se INFO Name server dns5.telia.com (81.228.11.68) is not recursive.
+ 12.445: laxa.se INFO Name server dns5.telia.com (81.228.11.68) authoritative for laxa.se.
+ 12.458: laxa.se INFO Name server dns5.telia.com (81.228.11.68) closed for zone transfer of laxa.se.
+ 12.465: laxa.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): hostname.bind = dnshosting1-sn1.fre.skanova.net
+ 12.472: laxa.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 12.485: laxa.se NOTICE No answer received from 81.228.11.68 when querying for version.server/CH/TXT.
+ 12.485: laxa.se INFO Done testing name server dns5.telia.com.
+ 12.485: laxa.se INFO Begin testing zone consistency for laxa.se.
+ 12.496: laxa.se INFO SOA at address 81.228.11.68 has serial 2010112431.
+ 12.511: laxa.se INFO SOA at address 193.44.212.4 has serial 2010112431.
+ 12.511: laxa.se INFO All SOA records have consistent serial numbers.
+ 12.511: laxa.se INFO All SOA records are consistent among all name servers.
+ 12.511: laxa.se INFO Done testing zone consistency for laxa.se.
+ 12.511: laxa.se INFO Begin testing SOA parameters for laxa.se.
+ 12.518: laxa.se INFO Found SOA record for laxa.se.
+ 12.518: laxa.se INFO Begin testing host dns1.hallsberg.se.
+ 12.519: laxa.se INFO Begin testing address 193.44.212.4.
+ 12.520: laxa.se INFO Done testing address 193.44.212.4.
+ 12.520: laxa.se INFO Done testing host dns1.hallsberg.se.
+ 12.520: laxa.se INFO SOA MNAME for laxa.se valid (dns1.hallsberg.se).
+ 12.520: laxa.se INFO SOA MNAME for laxa.se (dns1.hallsberg.se) listed as NS.
+ 12.534: laxa.se INFO SOA MNAME for laxa.se (dns1.hallsberg.se) is authoritative.
+ 12.535: laxa.se INFO Begin testing email address webmaster@hallsberg.se.
+ 12.754: laxa.se INFO Mail exchangers for webmaster@hallsberg.se found mg-hbg17.hallsberg.se,mailscan.askersund.se.
+ 12.754: laxa.se INFO Begin testing host mg-hbg17.hallsberg.se.
+ 13.219: laxa.se INFO Begin testing address 193.44.212.13.
+ 13.493: laxa.se INFO Done testing address 193.44.212.13.
+ 13.493: laxa.se INFO Done testing host mg-hbg17.hallsberg.se.
+ 13.494: laxa.se INFO Begin testing mail server mg-hbg17.hallsberg.se (193.44.212.13) with webmaster@hallsberg.se.
+ 13.562: laxa.se INFO SMTP banner: mg-hbg17.hallsberg.se ESMTP Postfix
+ 13.606: laxa.se INFO SMTP testing of mg-hbg17.hallsberg.se (193.44.212.13) with webmaster@hallsberg.se succeeded without errors.
+ 13.606: laxa.se INFO Done testing mail server mg-hbg17.hallsberg.se (193.44.212.13) with webmaster@hallsberg.se.
+ 13.606: laxa.se INFO Begin testing host mailscan.askersund.se.
+ 14.096: laxa.se INFO Begin testing address 193.44.212.159.
+ 14.376: laxa.se INFO Done testing address 193.44.212.159.
+ 14.376: laxa.se INFO Done testing host mailscan.askersund.se.
+ 14.377: laxa.se INFO Delivery over IPv4 to webmaster@hallsberg.se ok.
+ 14.377: laxa.se INFO Delivery over IPv6 to webmaster@hallsberg.se could not be done.
+ 14.377: laxa.se INFO Done testing email address webmaster@hallsberg.se.
+ 14.377: laxa.se INFO Successful attempt to deliver email for SOA RNAME of laxa.se (webmaster.hallsberg.se) using webmaster@hallsberg.se.
+ 14.377: laxa.se INFO SOA TTL for laxa.se OK (86400) - recommended >= 3600.
+ 14.377: laxa.se NOTICE SOA refresh for laxa.se too small (900) - recommended >= 14400.
+ 14.377: laxa.se NOTICE SOA refresh for laxa.se lower than retry (900 vs 900).
+ 14.377: laxa.se NOTICE SOA retry for laxa.se too small (900) - recommended >= 3600.
+ 14.377: laxa.se INFO SOA expire for laxa.se OK (604800) - recommended >= 604800.
+ 14.377: laxa.se INFO SOA minimum for laxa.se OK (86400) - recommended between 300 and 86400.
+ 14.377: laxa.se INFO Done testing SOA parameters for laxa.se.
+ 14.378: laxa.se INFO Begin testing connectivity for laxa.se.
+ 14.896: laxa.se INFO Name server 81.228.11.68 announced by: 3301
+ 15.454: laxa.se INFO Name server 193.44.212.4 announced by: 3301
+ 15.454: laxa.se INFO Zone announced by IPv4 ASN: 3301
+ 15.454: laxa.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 15.454: laxa.se INFO Zone announced by IPv6 ASN: 
+ 15.454: laxa.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 15.454: laxa.se INFO Done testing connectivity for laxa.se.
+ 15.455: laxa.se INFO Begin testing DNSSEC for laxa.se.
+ 15.536: laxa.se INFO Did not find DS record for laxa.se at parent.
+ 15.572: laxa.se INFO Servers for laxa.se have consistent extra processing status.
+ 15.572: laxa.se INFO Did not find DNSKEY record for laxa.se at child.
+ 15.572: laxa.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 15.572: laxa.se INFO Done testing DNSSEC for laxa.se.
+ 15.572: laxa.se INFO Test completed for zone laxa.se.

@@ -1,0 +1,88 @@
+  0.000: pomarkku.fi INFO Begin testing zone pomarkku.fi with version 1.6.1.
+  0.410: pomarkku.fi INFO Begin testing delegation for pomarkku.fi.
+  8.347: pomarkku.fi INFO Name servers listed at parent: ns1.taajama.fi,ns4.taajama.fi
+ 10.149: pomarkku.fi INFO Name servers listed at child: ns1.taajama.fi,ns4.taajama.fi
+ 10.149: pomarkku.fi NOTICE No IPv6 name servers found.
+ 10.215: pomarkku.fi INFO Parent glue for pomarkku.fi found: ns1.taajama.fi (83.102.40.26)
+ 10.327: pomarkku.fi INFO Parent glue for pomarkku.fi found: ns4.taajama.fi (83.102.40.27)
+ 10.391: pomarkku.fi INFO Checking glue for ns1.taajama.fi (83.102.40.26).
+ 10.391: pomarkku.fi INFO Checking glue for ns4.taajama.fi (83.102.40.27).
+ 10.392: pomarkku.fi INFO Parent glue for pomarkku.fi found: ns1.taajama.fi (83.102.40.26)
+ 10.392: pomarkku.fi INFO Parent glue for pomarkku.fi found: ns4.taajama.fi (83.102.40.27)
+ 11.312: pomarkku.fi INFO It is possible to build a referral packet for pomarkku.fi that works without EDNS0.
+ 11.960: pomarkku.fi INFO Previously used name servers for pomarkku.fi: 
+ 11.960: pomarkku.fi INFO Done testing delegation for pomarkku.fi.
+ 11.961: pomarkku.fi INFO Begin testing name server ns1.taajama.fi.
+ 11.961: pomarkku.fi INFO Begin testing host ns1.taajama.fi.
+ 12.310: pomarkku.fi INFO Begin testing address 83.102.40.26.
+ 27.062: pomarkku.fi INFO Done testing address 83.102.40.26.
+ 27.074: pomarkku.fi INFO Done testing host ns1.taajama.fi.
+ 27.373: pomarkku.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over UDP.
+ 27.415: pomarkku.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over TCP.
+ 27.430: pomarkku.fi INFO Name server ns1.taajama.fi (83.102.40.26) is not recursive.
+ 27.527: pomarkku.fi INFO Name server ns1.taajama.fi (83.102.40.26) authoritative for pomarkku.fi.
+ 27.564: pomarkku.fi INFO Name server ns1.taajama.fi (83.102.40.26) closed for zone transfer of pomarkku.fi.
+ 27.614: pomarkku.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): hostname.bind = kotkarausku
+ 27.630: pomarkku.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): version.bind = Not disclosed
+ 27.692: pomarkku.fi NOTICE No answer received from 83.102.40.26 when querying for version.server/CH/TXT.
+ 27.692: pomarkku.fi INFO Done testing name server ns1.taajama.fi.
+ 27.692: pomarkku.fi INFO Begin testing name server ns4.taajama.fi.
+ 27.692: pomarkku.fi INFO Begin testing host ns4.taajama.fi.
+ 27.916: pomarkku.fi INFO Begin testing address 83.102.40.27.
+ 28.550: pomarkku.fi INFO Done testing address 83.102.40.27.
+ 28.550: pomarkku.fi INFO Done testing host ns4.taajama.fi.
+ 28.812: pomarkku.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over UDP.
+ 28.847: pomarkku.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over TCP.
+ 28.874: pomarkku.fi INFO Name server ns4.taajama.fi (83.102.40.27) is not recursive.
+ 28.967: pomarkku.fi INFO Name server ns4.taajama.fi (83.102.40.27) authoritative for pomarkku.fi.
+ 29.003: pomarkku.fi INFO Name server ns4.taajama.fi (83.102.40.27) closed for zone transfer of pomarkku.fi.
+ 29.024: pomarkku.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): hostname.bind = perhosrausku
+ 29.058: pomarkku.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): version.bind = Not disclosed
+ 29.105: pomarkku.fi NOTICE No answer received from 83.102.40.27 when querying for version.server/CH/TXT.
+ 29.105: pomarkku.fi INFO Done testing name server ns4.taajama.fi.
+ 29.105: pomarkku.fi INFO Begin testing zone consistency for pomarkku.fi.
+ 30.017: pomarkku.fi INFO SOA at address 83.102.40.26 has serial 2014013001.
+ 30.066: pomarkku.fi INFO SOA at address 83.102.40.27 has serial 2014013001.
+ 30.066: pomarkku.fi INFO All SOA records have consistent serial numbers.
+ 30.066: pomarkku.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 30.495: pomarkku.fi NOTICE The listed nameservers for pomarkku.fi all report the same set of nameservers.
+ 30.495: pomarkku.fi INFO Done testing zone consistency for pomarkku.fi.
+ 30.495: pomarkku.fi INFO Begin testing SOA parameters for pomarkku.fi.
+ 30.511: pomarkku.fi INFO Found SOA record for pomarkku.fi.
+ 30.511: pomarkku.fi INFO Begin testing host ns1.taajama.fi.
+ 30.730: pomarkku.fi INFO Begin testing address 83.102.40.26.
+ 30.834: pomarkku.fi INFO Done testing address 83.102.40.26.
+ 30.834: pomarkku.fi INFO Done testing host ns1.taajama.fi.
+ 30.835: pomarkku.fi INFO SOA MNAME for pomarkku.fi valid (ns1.taajama.fi).
+ 30.835: pomarkku.fi INFO SOA MNAME for pomarkku.fi (ns1.taajama.fi) listed as NS.
+ 31.012: pomarkku.fi INFO SOA MNAME for pomarkku.fi (ns1.taajama.fi) is authoritative.
+ 31.012: pomarkku.fi INFO Begin testing email address hostmaster@taajama.com.
+ 31.383: pomarkku.fi INFO Mail exchangers for hostmaster@taajama.com found spp.taajama.fi,mx2.taajama.com.
+ 31.383: pomarkku.fi INFO Begin testing host spp.taajama.fi.
+ 31.694: pomarkku.fi INFO Begin testing address 217.78.212.151.
+ 32.225: pomarkku.fi INFO Done testing address 217.78.212.151.
+ 32.225: pomarkku.fi INFO Done testing host spp.taajama.fi.
+ 32.323: pomarkku.fi INFO Begin testing host mx2.taajama.com.
+ 33.034: pomarkku.fi INFO Begin testing address 83.102.41.75.
+ 33.787: pomarkku.fi INFO Done testing address 83.102.41.75.
+ 33.787: pomarkku.fi INFO Done testing host mx2.taajama.com.
+ 34.020: pomarkku.fi INFO Done testing email address hostmaster@taajama.com.
+ 34.020: pomarkku.fi INFO Successful attempt to deliver email for SOA RNAME of pomarkku.fi (hostmaster.taajama.com) using hostmaster@taajama.com.
+ 34.020: pomarkku.fi INFO SOA TTL for pomarkku.fi OK (28800) - recommended >= 3600.
+ 34.020: pomarkku.fi INFO SOA refresh for pomarkku.fi OK (28800) - recommended >= 14400.
+ 34.020: pomarkku.fi INFO SOA retry for pomarkku.fi OK (7200) - recommended >= 3600.
+ 34.020: pomarkku.fi INFO SOA expire for pomarkku.fi OK (1814400) - recommended >= 604800.
+ 34.020: pomarkku.fi INFO SOA minimum for pomarkku.fi OK (86400) - recommended between 300 and 86400.
+ 34.020: pomarkku.fi INFO Done testing SOA parameters for pomarkku.fi.
+ 34.021: pomarkku.fi INFO Begin testing connectivity for pomarkku.fi.
+ 35.020: pomarkku.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 35.020: pomarkku.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 35.020: pomarkku.fi INFO Done testing connectivity for pomarkku.fi.
+ 35.020: pomarkku.fi INFO Begin testing DNSSEC for pomarkku.fi.
+ 35.129: pomarkku.fi INFO Did not find DS record for pomarkku.fi at parent.
+ 35.203: pomarkku.fi INFO Servers for pomarkku.fi have consistent extra processing status.
+ 35.229: pomarkku.fi INFO Authenticated denial records not found for pomarkku.fi.
+ 35.267: pomarkku.fi INFO Did not find DNSKEY record for pomarkku.fi at child.
+ 35.267: pomarkku.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 35.267: pomarkku.fi INFO Done testing DNSSEC for pomarkku.fi.
+ 35.267: pomarkku.fi INFO Test completed for zone pomarkku.fi.

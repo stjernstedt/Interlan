@@ -1,0 +1,42 @@
+#!/bin/sh
+echo "# "`date`
+dir=/home/myndighetermeddnssec/test/
+
+for d in `cat domain | sort ` ; do
+
+        i=`echo $d|cut -d , -f 1`
+
+        echo -n $d,
+
+	res=`dig +short ds $i|grep -v "no servers could be reached"`
+	if [ "$res" ] ; then
+		ds=`echo $res|head -1|cut -f 2 -d " "`
+		if [ "$ds" = "5" ] ; then
+			echo -n dnssec=nsec,
+		elif [ "$ds" = "7" ] ; then
+			echo -n dnssec=nsec3,
+		fi
+	elif [ "$res" = "" ] ; then
+		echo -n dnssec=0,
+	fi
+	unset res
+	err=`cat $dir/$i|grep ERROR|wc -l`	
+	echo -n error=$err,
+	errors=`cat $dir/$i| grep ERROR | sed 's/\(.*\)\(ERROR.*\)/\2/g'|sed s/" "/_/g`
+	for line in `echo $errors` ; do
+		echo -n $line";"
+	done
+	echo -n ,
+	warn=`cat $dir/$i|grep WARNING|wc -l`	
+	echo  -n warning=$warn,
+	warnings=`cat $dir/$i| grep WARNING | sed 's/\(.*\)\(WARNING.*\)/\2/g'|sed s/" "/_/g`
+        for line in `echo $warnings` ; do
+                echo -n $line";"
+        done
+	echo
+
+       echo done with $i 1>&2
+        echo "" 1>&2
+
+
+done

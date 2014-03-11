@@ -1,0 +1,84 @@
+  0.000: jomala.ax INFO Begin testing zone jomala.ax with version 1.6.1.
+  0.411: jomala.ax INFO Begin testing delegation for jomala.ax.
+  3.176: jomala.ax INFO Name servers listed at parent: ns1.justit.ax,ns2.justit.ax
+  4.098: jomala.ax INFO Name servers listed at child: ns1.justit.ax,ns2.justit.ax
+  4.098: jomala.ax NOTICE No IPv6 name servers found.
+  4.160: jomala.ax INFO Parent glue for jomala.ax found: ns1.justit.ax (194.110.185.99)
+  4.269: jomala.ax INFO Parent glue for jomala.ax found: ns2.justit.ax (194.100.49.11)
+  4.329: jomala.ax INFO Checking glue for ns1.justit.ax (194.110.185.99).
+  4.330: jomala.ax INFO Checking glue for ns2.justit.ax (194.100.49.11).
+  4.330: jomala.ax INFO Parent glue for jomala.ax found: ns1.justit.ax (194.110.185.99)
+  4.330: jomala.ax INFO Parent glue for jomala.ax found: ns2.justit.ax (194.100.49.11)
+  4.769: jomala.ax INFO It is possible to build a referral packet for jomala.ax that works without EDNS0.
+  4.770: jomala.ax INFO Previously used name servers for jomala.ax: 
+  4.770: jomala.ax INFO Done testing delegation for jomala.ax.
+  4.770: jomala.ax INFO Begin testing name server ns1.justit.ax.
+  4.770: jomala.ax INFO Begin testing host ns1.justit.ax.
+  4.771: jomala.ax INFO Begin testing address 194.110.185.99.
+ 16.759: jomala.ax INFO Done testing address 194.110.185.99.
+ 16.759: jomala.ax INFO Done testing host ns1.justit.ax.
+ 16.828: jomala.ax INFO Name server ns1.justit.ax (194.110.185.99) answers queries over UDP.
+ 16.858: jomala.ax INFO Name server ns1.justit.ax (194.110.185.99) answers queries over TCP.
+ 16.907: jomala.ax INFO Name server ns1.justit.ax (194.110.185.99) is not recursive.
+ 17.038: jomala.ax INFO Name server ns1.justit.ax (194.110.185.99) authoritative for jomala.ax.
+ 17.074: jomala.ax INFO Name server ns1.justit.ax (194.110.185.99) closed for zone transfer of jomala.ax.
+ 17.118: jomala.ax INFO Legacy name server ID for ns1.justit.ax (194.110.185.99): hostname.bind = ns1
+ 17.155: jomala.ax INFO Legacy name server ID for ns1.justit.ax (194.110.185.99): version.bind = 9.5.0-P2
+ 17.228: jomala.ax NOTICE No answer received from 194.110.185.99 when querying for version.server/CH/TXT.
+ 17.228: jomala.ax INFO Done testing name server ns1.justit.ax.
+ 17.228: jomala.ax INFO Begin testing name server ns2.justit.ax.
+ 17.228: jomala.ax INFO Begin testing host ns2.justit.ax.
+ 17.228: jomala.ax INFO Begin testing address 194.100.49.11.
+ 19.128: jomala.ax INFO Done testing address 194.100.49.11.
+ 19.128: jomala.ax INFO Done testing host ns2.justit.ax.
+ 19.151: jomala.ax INFO Name server ns2.justit.ax (194.100.49.11) answers queries over UDP.
+ 19.193: jomala.ax INFO Name server ns2.justit.ax (194.100.49.11) answers queries over TCP.
+ 19.212: jomala.ax INFO Name server ns2.justit.ax (194.100.49.11) is not recursive.
+ 19.358: jomala.ax INFO Name server ns2.justit.ax (194.100.49.11) authoritative for jomala.ax.
+ 19.421: jomala.ax INFO Name server ns2.justit.ax (194.100.49.11) closed for zone transfer of jomala.ax.
+ 19.472: jomala.ax INFO Legacy name server ID for ns2.justit.ax (194.100.49.11): hostname.bind = ns2.justit.ax
+ 19.492: jomala.ax INFO Legacy name server ID for ns2.justit.ax (194.100.49.11): version.bind = 9.3.4-P1
+ 19.540: jomala.ax NOTICE No answer received from 194.100.49.11 when querying for version.server/CH/TXT.
+ 19.540: jomala.ax INFO Done testing name server ns2.justit.ax.
+ 19.540: jomala.ax INFO Begin testing zone consistency for jomala.ax.
+ 19.585: jomala.ax INFO SOA at address 194.100.49.11 has serial 2013013100.
+ 19.598: jomala.ax INFO SOA at address 194.110.185.99 has serial 2013013100.
+ 19.598: jomala.ax INFO All SOA records have consistent serial numbers.
+ 19.598: jomala.ax INFO All other fields in the SOA record are consistent among all name servers.
+ 19.645: jomala.ax NOTICE The listed nameservers for jomala.ax all report the same set of nameservers.
+ 19.645: jomala.ax INFO Done testing zone consistency for jomala.ax.
+ 19.645: jomala.ax INFO Begin testing SOA parameters for jomala.ax.
+ 19.673: jomala.ax INFO Found SOA record for jomala.ax.
+ 19.673: jomala.ax INFO Begin testing host ns1.justit.ax.
+ 19.695: jomala.ax INFO Begin testing address 194.110.185.99.
+ 19.696: jomala.ax INFO Done testing address 194.110.185.99.
+ 19.697: jomala.ax INFO Done testing host ns1.justit.ax.
+ 19.697: jomala.ax INFO SOA MNAME for jomala.ax valid (ns1.justit.ax).
+ 19.706: jomala.ax INFO SOA MNAME for jomala.ax (ns1.justit.ax) listed as NS.
+ 19.735: jomala.ax INFO SOA MNAME for jomala.ax (ns1.justit.ax) is authoritative.
+ 19.735: jomala.ax INFO Begin testing email address hostmaster@justit.ax.
+ 19.827: jomala.ax INFO Mail exchangers for hostmaster@justit.ax found mail2.justit.ax.
+ 19.831: jomala.ax INFO Begin testing host mail2.justit.ax.
+ 20.043: jomala.ax INFO Begin testing address 194.112.11.12.
+ 20.357: jomala.ax INFO Done testing address 194.112.11.12.
+ 20.357: jomala.ax INFO Done testing host mail2.justit.ax.
+ 20.357: jomala.ax INFO Done testing email address hostmaster@justit.ax.
+ 20.357: jomala.ax INFO Successful attempt to deliver email for SOA RNAME of jomala.ax (hostmaster.justit.ax) using hostmaster@justit.ax.
+ 20.358: jomala.ax INFO SOA TTL for jomala.ax OK (14400) - recommended >= 3600.
+ 20.358: jomala.ax NOTICE SOA refresh for jomala.ax too small (10800) - recommended >= 14400.
+ 20.358: jomala.ax INFO SOA retry for jomala.ax OK (3600) - recommended >= 3600.
+ 20.358: jomala.ax INFO SOA expire for jomala.ax OK (604800) - recommended >= 604800.
+ 20.358: jomala.ax INFO SOA minimum for jomala.ax OK (86400) - recommended between 300 and 86400.
+ 20.358: jomala.ax INFO Done testing SOA parameters for jomala.ax.
+ 20.358: jomala.ax INFO Begin testing connectivity for jomala.ax.
+ 21.466: jomala.ax INFO Zone announced by more than one ASN.
+ 21.466: jomala.ax NOTICE Zone announced by fewer than two IPv6 ASN.
+ 21.466: jomala.ax INFO Done testing connectivity for jomala.ax.
+ 21.467: jomala.ax INFO Begin testing DNSSEC for jomala.ax.
+ 21.514: jomala.ax INFO Did not find DS record for jomala.ax at parent.
+ 21.558: jomala.ax INFO Servers for jomala.ax have consistent extra processing status.
+ 21.661: jomala.ax INFO Authenticated denial records not found for jomala.ax.
+ 21.680: jomala.ax INFO Did not find DNSKEY record for jomala.ax at child.
+ 21.680: jomala.ax INFO No DNSKEY(s) found at child, other tests skipped.
+ 21.680: jomala.ax INFO Done testing DNSSEC for jomala.ax.
+ 21.681: jomala.ax INFO Test completed for zone jomala.ax.

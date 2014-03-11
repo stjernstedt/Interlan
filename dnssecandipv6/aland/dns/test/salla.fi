@@ -1,0 +1,165 @@
+  0.000: salla.fi INFO Begin testing zone salla.fi with version 1.5.0.
+  2.059: salla.fi INFO Begin testing delegation for salla.fi.
+ 61.894: salla.fi INFO Name servers listed at parent: ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 98.495: salla.fi INFO Name servers listed at child: ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 99.586: salla.fi INFO Parent glue for salla.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+100.022: salla.fi INFO Parent glue for salla.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+100.693: salla.fi INFO Parent glue for salla.fi found: ns1-swe.global.sonera.se (80.64.9.124)
+101.450: salla.fi INFO Parent glue for salla.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+102.293: salla.fi INFO Parent glue for salla.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+103.220: salla.fi INFO Checking glue for ns1-fin.global.sonera.fi (193.210.18.31).
+103.220: salla.fi INFO Checking glue for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53).
+103.220: salla.fi INFO Checking glue for ns1-swe.global.sonera.se (80.64.9.124).
+103.220: salla.fi INFO Checking glue for ns2-fin.global.sonera.fi (195.156.148.158).
+103.220: salla.fi INFO Checking glue for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53).
+103.221: salla.fi INFO Parent glue for salla.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+103.367: salla.fi INFO Parent glue for salla.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+103.368: salla.fi INFO Parent glue for salla.fi found: ns1-swe.global.sonera.se (80.64.9.124)
+103.368: salla.fi INFO Parent glue for salla.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+103.368: salla.fi INFO Parent glue for salla.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+111.993: salla.fi INFO It is possible to build a referral packet for salla.fi that works without EDNS0.
+114.943: salla.fi INFO Previously used name servers for salla.fi: 
+114.943: salla.fi INFO Done testing delegation for salla.fi.
+115.111: salla.fi INFO Begin testing name server ns1-fin.global.sonera.fi.
+115.112: salla.fi INFO Begin testing host ns1-fin.global.sonera.fi.
+115.112: salla.fi INFO Begin testing address 193.210.18.31.
+167.682: salla.fi INFO Done testing address 193.210.18.31.
+167.682: salla.fi INFO Begin testing address 2001:2060:ffdd:a01:0:0:0:53.
+185.539: salla.fi INFO Done testing address 2001:2060:ffdd:a01:0:0:0:53.
+185.540: salla.fi INFO Done testing host ns1-fin.global.sonera.fi.
+186.448: salla.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over UDP.
+187.247: salla.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over TCP.
+187.527: salla.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) is not recursive.
+189.619: salla.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) authoritative for salla.fi.
+190.432: salla.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) closed for zone transfer of salla.fi.
+190.818: salla.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): hostname.bind = mgda2
+191.152: salla.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): version.bind = TeliaSonera Finland DNS MGDA
+191.494: salla.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): id.server = mgda1
+191.876: salla.fi NOTICE No answer received from 193.210.18.31 when querying for version.server/CH/TXT.
+192.227: salla.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) answers queries over UDP.
+197.823: salla.fi NOTICE DNS lookup error (connection failed(IPv6 socket failure)).
+197.824: salla.fi ERROR Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) does not answer queries over TCP.
+198.112: salla.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) is not recursive.
+204.955: salla.fi NOTICE DNS lookup error (connection failed(IPv6 socket failure)).
+204.956: salla.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) authoritative for salla.fi.
+204.956: salla.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) not checked for zone transfer of salla.fi.
+204.956: salla.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) not checked for legacy name server ID.
+204.956: salla.fi INFO Done testing name server ns1-fin.global.sonera.fi.
+204.956: salla.fi INFO Begin testing name server ns1-swe.global.sonera.se.
+204.956: salla.fi INFO Begin testing host ns1-swe.global.sonera.se.
+204.956: salla.fi INFO Begin testing address 80.64.9.124.
+212.320: salla.fi INFO Done testing address 80.64.9.124.
+212.321: salla.fi INFO Begin testing address 2001:6e8:400:ffff:1:0:0:53.
+214.816: salla.fi INFO Done testing address 2001:6e8:400:ffff:1:0:0:53.
+214.816: salla.fi INFO Done testing host ns1-swe.global.sonera.se.
+215.291: salla.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over UDP.
+216.313: salla.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over TCP.
+216.804: salla.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) is not recursive.
+219.293: salla.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) authoritative for salla.fi.
+219.788: salla.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) closed for zone transfer of salla.fi.
+220.164: salla.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): hostname.bind = mgda3
+220.458: salla.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): version.bind = TeliaSonera Finland DNS MGDA
+220.724: salla.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): id.server = mgda3
+221.128: salla.fi NOTICE No answer received from 80.64.9.124 when querying for version.server/CH/TXT.
+221.709: salla.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over UDP.
+222.179: salla.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over TCP.
+222.830: salla.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) is not recursive.
+224.738: salla.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) authoritative for salla.fi.
+225.473: salla.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) closed for zone transfer of salla.fi.
+225.772: salla.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): hostname.bind = mgda3
+226.172: salla.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+226.484: salla.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): id.server = mgda3
+226.784: salla.fi NOTICE No answer received from 2001:6e8:400:ffff:1:0:0:53 when querying for version.server/CH/TXT.
+226.784: salla.fi INFO Done testing name server ns1-swe.global.sonera.se.
+226.784: salla.fi INFO Begin testing name server ns2-fin.global.sonera.fi.
+226.784: salla.fi INFO Begin testing host ns2-fin.global.sonera.fi.
+226.785: salla.fi INFO Begin testing address 195.156.148.158.
+234.923: salla.fi INFO Done testing address 195.156.148.158.
+234.923: salla.fi INFO Begin testing address 2001:2060:ffdd:a02:0:0:0:53.
+237.816: salla.fi INFO Done testing address 2001:2060:ffdd:a02:0:0:0:53.
+237.816: salla.fi INFO Done testing host ns2-fin.global.sonera.fi.
+238.399: salla.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over UDP.
+238.643: salla.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over TCP.
+239.088: salla.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) is not recursive.
+240.635: salla.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) authoritative for salla.fi.
+240.811: salla.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) closed for zone transfer of salla.fi.
+241.160: salla.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): hostname.bind = mgda2
+242.147: salla.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): version.bind = TeliaSonera Finland DNS MGDA
+242.881: salla.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): id.server = mgda2
+243.338: salla.fi NOTICE No answer received from 195.156.148.158 when querying for version.server/CH/TXT.
+244.171: salla.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) answers queries over UDP.
+245.674: salla.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) answers queries over TCP.
+246.031: salla.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) is not recursive.
+248.557: salla.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) authoritative for salla.fi.
+249.098: salla.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) closed for zone transfer of salla.fi.
+249.645: salla.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): hostname.bind = mgda1
+250.094: salla.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+250.449: salla.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): id.server = mgda1
+250.940: salla.fi NOTICE No answer received from 2001:2060:ffdd:a02:0:0:0:53 when querying for version.server/CH/TXT.
+250.940: salla.fi INFO Done testing name server ns2-fin.global.sonera.fi.
+250.940: salla.fi INFO Begin testing name server ns2-usa.global.sonera.net.
+250.940: salla.fi INFO Begin testing host ns2-usa.global.sonera.net.
+253.950: salla.fi INFO Begin testing address 46.38.190.56.
+265.071: salla.fi INFO Done testing address 46.38.190.56.
+265.071: salla.fi INFO Done testing host ns2-usa.global.sonera.net.
+267.815: salla.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over UDP.
+269.201: salla.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over TCP.
+269.892: salla.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) is not recursive.
+272.195: salla.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) authoritative for salla.fi.
+272.676: salla.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) closed for zone transfer of salla.fi.
+272.884: salla.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): hostname.bind = mgda5
+273.274: salla.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): version.bind = TeliaSonera Finland DNS MGDA
+273.656: salla.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): id.server = mgda5
+274.008: salla.fi NOTICE No answer received from 46.38.190.56 when querying for version.server/CH/TXT.
+274.008: salla.fi INFO Done testing name server ns2-usa.global.sonera.net.
+274.008: salla.fi INFO Begin testing zone consistency for salla.fi.
+280.123: salla.fi INFO SOA at address 2001:2060:ffdd:a01:0:0:0:53 has serial 2012090509.
+280.787: salla.fi INFO SOA at address 193.210.18.31 has serial 2012090509.
+281.828: salla.fi INFO SOA at address 80.64.9.124 has serial 2012090509.
+282.107: salla.fi INFO SOA at address 195.156.148.158 has serial 2012090509.
+283.029: salla.fi INFO SOA at address 2001:6e8:400:ffff:1:0:0:53 has serial 2012090509.
+283.761: salla.fi INFO SOA at address 46.38.190.56 has serial 2012090509.
+284.584: salla.fi INFO SOA at address 2001:2060:ffdd:a02:0:0:0:53 has serial 2012090509.
+284.584: salla.fi INFO All SOA records have consistent serial numbers.
+284.584: salla.fi INFO All other fields in the SOA record are consistent among all name servers.
+291.606: salla.fi NOTICE The listed nameservers for salla.fi all report the same set of nameservers.
+291.606: salla.fi INFO Done testing zone consistency for salla.fi.
+291.607: salla.fi INFO Begin testing SOA parameters for salla.fi.
+292.436: salla.fi INFO Found SOA record for salla.fi.
+292.436: salla.fi INFO Begin testing host namesurfer.inet.fi.
+297.352: salla.fi INFO Begin testing address 131.177.73.253.
+340.864: salla.fi INFO Done testing address 131.177.73.253.
+340.864: salla.fi INFO Done testing host namesurfer.inet.fi.
+340.864: salla.fi INFO SOA MNAME for salla.fi valid (namesurfer.inet.fi).
+340.865: salla.fi NOTICE SOA MNAME for salla.fi (namesurfer.inet.fi) not listed as NS.
+349.479: salla.fi INFO SOA MNAME for salla.fi (namesurfer.inet.fi) is authoritative.
+349.480: salla.fi INFO Begin testing email address hostmaster@sonera.com.
+351.698: salla.fi INFO Mail exchangers for hostmaster@sonera.com found smtp.dave.sonera.fi,mail.cm.sonera.com.
+351.698: salla.fi INFO Begin testing host smtp.dave.sonera.fi.
+357.260: salla.fi INFO Begin testing address 131.177.120.25.
+361.025: salla.fi INFO Done testing address 131.177.120.25.
+361.025: salla.fi INFO Done testing host smtp.dave.sonera.fi.
+363.088: salla.fi INFO Begin testing host mail.cm.sonera.com.
+366.908: salla.fi INFO Begin testing address 193.208.151.61.
+371.020: salla.fi INFO Done testing address 193.208.151.61.
+371.020: salla.fi INFO Done testing host mail.cm.sonera.com.
+372.624: salla.fi INFO Done testing email address hostmaster@sonera.com.
+372.624: salla.fi INFO Successful attempt to deliver email for SOA RNAME of salla.fi (hostmaster.sonera.com) using hostmaster@sonera.com.
+372.624: salla.fi INFO SOA TTL for salla.fi OK (86400) - recommended >= 3600.
+372.624: salla.fi INFO SOA refresh for salla.fi OK (28800) - recommended >= 14400.
+372.624: salla.fi INFO SOA retry for salla.fi OK (7200) - recommended >= 3600.
+372.624: salla.fi INFO SOA expire for salla.fi OK (604800) - recommended >= 604800.
+372.624: salla.fi INFO SOA minimum for salla.fi OK (86400) - recommended between 300 and 86400.
+372.624: salla.fi INFO Done testing SOA parameters for salla.fi.
+372.625: salla.fi INFO Begin testing connectivity for salla.fi.
+382.178: salla.fi INFO Zone announced by more than one ASN.
+387.567: salla.fi INFO Zone announced by more than one IPv6 ASN.
+387.567: salla.fi INFO Done testing connectivity for salla.fi.
+387.757: salla.fi INFO Begin testing DNSSEC for salla.fi.
+388.105: salla.fi INFO Did not find DS record for salla.fi at parent.
+389.648: salla.fi INFO Servers for salla.fi have consistent extra processing status.
+389.856: salla.fi INFO Authenticated denial records not found for salla.fi.
+390.032: salla.fi INFO Did not find DNSKEY record for salla.fi at child.
+390.032: salla.fi INFO No DNSKEY(s) found at child, other tests skipped.
+390.032: salla.fi INFO Done testing DNSSEC for salla.fi.
+390.033: salla.fi INFO Test completed for zone salla.fi.

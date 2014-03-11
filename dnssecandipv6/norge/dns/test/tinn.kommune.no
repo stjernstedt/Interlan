@@ -1,0 +1,89 @@
+  0.000: tinn.kommune.no INFO Begin testing zone tinn.kommune.no with version 1.6.1.
+  0.418: tinn.kommune.no INFO Begin testing delegation for tinn.kommune.no.
+  7.959: tinn.kommune.no INFO Name servers listed at parent: ns.dataservice.no,ns1.dataservice.no
+  9.221: tinn.kommune.no INFO Name servers listed at child: ns.dataservice.no,ns1.dataservice.no
+  9.221: tinn.kommune.no NOTICE No IPv6 name servers found.
+  9.389: tinn.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.539: tinn.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.690: tinn.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.828: tinn.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.602: tinn.kommune.no INFO It is possible to build a referral packet for tinn.kommune.no that works without EDNS0.
+ 11.147: tinn.kommune.no INFO Previously used name servers for tinn.kommune.no: 
+ 11.147: tinn.kommune.no INFO Done testing delegation for tinn.kommune.no.
+ 11.148: tinn.kommune.no INFO Begin testing name server ns.dataservice.no.
+ 11.148: tinn.kommune.no INFO Begin testing host ns.dataservice.no.
+ 11.380: tinn.kommune.no INFO Begin testing address 178.21.128.157.
+ 24.223: tinn.kommune.no WARNING Could not find reverse address for 178.21.128.157 (157.128.21.178.in-addr.arpa.).
+ 24.223: tinn.kommune.no INFO Done testing address 178.21.128.157.
+ 24.223: tinn.kommune.no INFO Done testing host ns.dataservice.no.
+ 24.360: tinn.kommune.no INFO Name server ns.dataservice.no (178.21.128.157) answers queries over UDP.
+ 24.425: tinn.kommune.no INFO Name server ns.dataservice.no (178.21.128.157) answers queries over TCP.
+ 28.455: tinn.kommune.no INFO Name server ns.dataservice.no (178.21.128.157) is not recursive.
+ 28.586: tinn.kommune.no INFO Name server ns.dataservice.no (178.21.128.157) authoritative for tinn.kommune.no.
+ 28.662: tinn.kommune.no INFO Name server ns.dataservice.no (178.21.128.157) closed for zone transfer of tinn.kommune.no.
+ 28.699: tinn.kommune.no NOTICE DNS lookup error (FORMERR).
+ 28.735: tinn.kommune.no NOTICE DNS lookup error (FORMERR).
+ 28.761: tinn.kommune.no NOTICE DNS lookup error (FORMERR).
+ 28.786: tinn.kommune.no NOTICE DNS lookup error (FORMERR).
+ 28.786: tinn.kommune.no INFO Done testing name server ns.dataservice.no.
+ 28.786: tinn.kommune.no INFO Begin testing name server ns1.dataservice.no.
+ 28.786: tinn.kommune.no INFO Begin testing host ns1.dataservice.no.
+ 28.871: tinn.kommune.no INFO Begin testing address 109.109.80.76.
+ 29.796: tinn.kommune.no INFO Done testing address 109.109.80.76.
+ 29.796: tinn.kommune.no INFO Done testing host ns1.dataservice.no.
+ 29.984: tinn.kommune.no INFO Name server ns1.dataservice.no (109.109.80.76) answers queries over UDP.
+ 30.043: tinn.kommune.no INFO Name server ns1.dataservice.no (109.109.80.76) answers queries over TCP.
+ 34.063: tinn.kommune.no INFO Name server ns1.dataservice.no (109.109.80.76) is not recursive.
+ 34.158: tinn.kommune.no INFO Name server ns1.dataservice.no (109.109.80.76) authoritative for tinn.kommune.no.
+ 34.206: tinn.kommune.no INFO Name server ns1.dataservice.no (109.109.80.76) closed for zone transfer of tinn.kommune.no.
+ 34.224: tinn.kommune.no NOTICE DNS lookup error (FORMERR).
+ 34.240: tinn.kommune.no NOTICE DNS lookup error (FORMERR).
+ 34.261: tinn.kommune.no NOTICE DNS lookup error (FORMERR).
+ 34.362: tinn.kommune.no NOTICE DNS lookup error (FORMERR).
+ 34.362: tinn.kommune.no INFO Done testing name server ns1.dataservice.no.
+ 34.362: tinn.kommune.no INFO Begin testing zone consistency for tinn.kommune.no.
+ 35.200: tinn.kommune.no INFO SOA at address 178.21.128.157 has serial 1393829701.
+ 35.245: tinn.kommune.no INFO SOA at address 109.109.80.76 has serial 1393829701.
+ 35.245: tinn.kommune.no INFO All SOA records have consistent serial numbers.
+ 35.245: tinn.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 35.559: tinn.kommune.no NOTICE The listed nameservers for tinn.kommune.no all report the same set of nameservers.
+ 35.559: tinn.kommune.no INFO Done testing zone consistency for tinn.kommune.no.
+ 35.560: tinn.kommune.no INFO Begin testing SOA parameters for tinn.kommune.no.
+ 35.599: tinn.kommune.no INFO Found SOA record for tinn.kommune.no.
+ 35.599: tinn.kommune.no INFO Begin testing host ns1.dataservice.no.
+ 35.697: tinn.kommune.no INFO Begin testing address 109.109.80.76.
+ 35.842: tinn.kommune.no INFO Done testing address 109.109.80.76.
+ 35.842: tinn.kommune.no INFO Done testing host ns1.dataservice.no.
+ 35.842: tinn.kommune.no INFO SOA MNAME for tinn.kommune.no valid (ns1.dataservice.no).
+ 35.846: tinn.kommune.no INFO SOA MNAME for tinn.kommune.no (ns1.dataservice.no) listed as NS.
+ 35.970: tinn.kommune.no INFO SOA MNAME for tinn.kommune.no (ns1.dataservice.no) is authoritative.
+ 35.970: tinn.kommune.no INFO Begin testing email address post@tinn.kommune.no.
+ 36.106: tinn.kommune.no INFO Mail exchangers for post@tinn.kommune.no found mail.itum.com,mailgw.itum.com.
+ 36.107: tinn.kommune.no INFO Begin testing host mail.itum.com.
+ 36.411: tinn.kommune.no INFO Begin testing address 93.187.82.67.
+ 37.249: tinn.kommune.no INFO Done testing address 93.187.82.67.
+ 37.250: tinn.kommune.no INFO Done testing host mail.itum.com.
+ 37.397: tinn.kommune.no INFO Begin testing host mailgw.itum.com.
+ 37.864: tinn.kommune.no INFO Begin testing address 93.187.82.77.
+ 38.283: tinn.kommune.no INFO Done testing address 93.187.82.77.
+ 38.283: tinn.kommune.no INFO Done testing host mailgw.itum.com.
+ 38.435: tinn.kommune.no INFO Done testing email address post@tinn.kommune.no.
+ 38.435: tinn.kommune.no INFO Successful attempt to deliver email for SOA RNAME of tinn.kommune.no (post.tinn.kommune.no) using post@tinn.kommune.no.
+ 38.435: tinn.kommune.no INFO SOA TTL for tinn.kommune.no OK (3600) - recommended >= 3600.
+ 38.435: tinn.kommune.no INFO SOA refresh for tinn.kommune.no OK (16384) - recommended >= 14400.
+ 38.435: tinn.kommune.no NOTICE SOA retry for tinn.kommune.no too small (2048) - recommended >= 3600.
+ 38.435: tinn.kommune.no INFO SOA expire for tinn.kommune.no OK (1048576) - recommended >= 604800.
+ 38.436: tinn.kommune.no INFO SOA minimum for tinn.kommune.no OK (2560) - recommended between 300 and 86400.
+ 38.436: tinn.kommune.no INFO Done testing SOA parameters for tinn.kommune.no.
+ 38.436: tinn.kommune.no INFO Begin testing connectivity for tinn.kommune.no.
+ 39.561: tinn.kommune.no INFO Zone announced by more than one ASN.
+ 39.561: tinn.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 39.561: tinn.kommune.no INFO Done testing connectivity for tinn.kommune.no.
+ 39.562: tinn.kommune.no INFO Begin testing DNSSEC for tinn.kommune.no.
+ 39.669: tinn.kommune.no INFO Did not find DS record for tinn.kommune.no at parent.
+ 39.753: tinn.kommune.no INFO Servers for tinn.kommune.no have consistent extra processing status.
+ 39.801: tinn.kommune.no INFO Authenticated denial records not found for tinn.kommune.no.
+ 39.827: tinn.kommune.no INFO Did not find DNSKEY record for tinn.kommune.no at child.
+ 39.827: tinn.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 39.827: tinn.kommune.no INFO Done testing DNSSEC for tinn.kommune.no.
+ 39.827: tinn.kommune.no INFO Test completed for zone tinn.kommune.no.

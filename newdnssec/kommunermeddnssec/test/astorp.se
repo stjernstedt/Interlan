@@ -1,0 +1,88 @@
+  0.000: astorp.se INFO Begin testing zone astorp.se with version 1.6.1.
+  0.486: astorp.se INFO Begin testing delegation for astorp.se.
+  8.878: astorp.se INFO Name servers listed at parent: ns.astorp.se
+  9.833: astorp.se INFO Name servers listed at child: ns.astorp.se
+  9.833: astorp.se ERROR Too few name servers (1).
+  9.833: astorp.se ERROR Too few IPv4 name servers (1).
+  9.833: astorp.se NOTICE No IPv6 name servers found.
+  9.880: astorp.se INFO Parent glue for astorp.se found: ns.astorp.se (195.67.84.162)
+  9.977: astorp.se INFO Checking glue for ns.astorp.se (195.67.84.162).
+ 10.016: astorp.se INFO Child glue for astorp.se found: ns.astorp.se (195.67.84.162)
+ 10.021: astorp.se INFO Parent glue for astorp.se found: ns.astorp.se (195.67.84.162)
+ 10.475: astorp.se INFO It is possible to build a referral packet for astorp.se that works without EDNS0.
+ 10.809: astorp.se INFO Previously used name servers for astorp.se: 
+ 10.827: astorp.se INFO Done testing delegation for astorp.se.
+ 10.827: astorp.se INFO Begin testing name server ns.astorp.se.
+ 10.828: astorp.se INFO Begin testing host ns.astorp.se.
+ 11.183: astorp.se INFO Begin testing address 195.67.84.162.
+ 19.360: astorp.se INFO Done testing address 195.67.84.162.
+ 19.360: astorp.se INFO Done testing host ns.astorp.se.
+ 19.574: astorp.se INFO Name server ns.astorp.se (195.67.84.162) answers queries over UDP.
+ 19.617: astorp.se INFO Name server ns.astorp.se (195.67.84.162) answers queries over TCP.
+ 19.666: astorp.se WARNING Name server ns.astorp.se (195.67.84.162) is recursive.
+ 19.785: astorp.se INFO Name server ns.astorp.se (195.67.84.162) authoritative for astorp.se.
+ 19.848: astorp.se NOTICE Name server ns.astorp.se (195.67.84.162) open for zone transfer of astorp.se.
+ 19.903: astorp.se NOTICE No answer received from 195.67.84.162 when querying for hostname.bind/CH/TXT.
+ 19.969: astorp.se NOTICE No answer received from 195.67.84.162 when querying for version.bind/CH/TXT.
+ 20.006: astorp.se NOTICE No answer received from 195.67.84.162 when querying for id.server/CH/TXT.
+ 20.046: astorp.se NOTICE No answer received from 195.67.84.162 when querying for version.server/CH/TXT.
+ 20.047: astorp.se INFO Done testing name server ns.astorp.se.
+ 20.047: astorp.se INFO Begin testing zone consistency for astorp.se.
+ 21.869: astorp.se INFO SOA at address 195.67.84.162 has serial 2013061490.
+ 21.869: astorp.se INFO All SOA records have consistent serial numbers.
+ 21.869: astorp.se INFO All other fields in the SOA record are consistent among all name servers.
+ 22.170: astorp.se NOTICE The listed nameservers for astorp.se all report the same set of nameservers.
+ 22.170: astorp.se INFO Done testing zone consistency for astorp.se.
+ 22.171: astorp.se INFO Begin testing SOA parameters for astorp.se.
+ 22.240: astorp.se INFO Found SOA record for astorp.se.
+ 22.240: astorp.se INFO Begin testing host ns.astorp.se.
+ 22.416: astorp.se INFO Begin testing address 195.67.84.162.
+ 23.330: astorp.se INFO Done testing address 195.67.84.162.
+ 23.330: astorp.se INFO Done testing host ns.astorp.se.
+ 23.330: astorp.se INFO SOA MNAME for astorp.se valid (ns.astorp.se).
+ 23.330: astorp.se INFO SOA MNAME for astorp.se (ns.astorp.se) listed as NS.
+ 23.870: astorp.se INFO SOA MNAME for astorp.se (ns.astorp.se) is authoritative.
+ 23.870: astorp.se INFO Begin testing email address it@astorp.se.
+ 24.472: astorp.se INFO Mail exchangers for it@astorp.se found smtp-in.sto-hy.se.stejtech.net,smtp-in.sto-ste.se.stejtech.net.
+ 24.473: astorp.se INFO Begin testing host smtp-in.sto-hy.se.stejtech.net.
+ 25.575: astorp.se INFO Begin testing address 91.236.209.10.
+ 28.170: astorp.se INFO Done testing address 91.236.209.10.
+ 28.171: astorp.se INFO Begin testing address 79.136.102.100.
+ 30.566: astorp.se INFO Done testing address 79.136.102.100.
+ 30.566: astorp.se INFO Begin testing address 91.236.208.10.
+ 32.233: astorp.se INFO Done testing address 91.236.208.10.
+ 32.234: astorp.se INFO Begin testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 33.751: astorp.se INFO Done testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 33.751: astorp.se INFO Begin testing address 2001:67c:27e0:2110:0:0:0:1b01.
+ 35.207: astorp.se INFO Done testing address 2001:67c:27e0:2110:0:0:0:1b01.
+ 35.207: astorp.se INFO Begin testing address 2001:9b0:1:703:0:0:0:1b01.
+ 36.800: astorp.se INFO Done testing address 2001:9b0:1:703:0:0:0:1b01.
+ 36.801: astorp.se INFO Done testing host smtp-in.sto-hy.se.stejtech.net.
+ 36.809: astorp.se INFO Begin testing host smtp-in.sto-ste.se.stejtech.net.
+ 37.604: astorp.se INFO Begin testing address 79.136.102.90.
+ 38.521: astorp.se INFO Done testing address 79.136.102.90.
+ 38.522: astorp.se INFO Begin testing address 83.140.31.145.
+ 40.077: astorp.se INFO Done testing address 83.140.31.145.
+ 40.077: astorp.se INFO Begin testing address 2001:9b0:1:703:0:0:0:b002.
+ 40.948: astorp.se INFO Done testing address 2001:9b0:1:703:0:0:0:b002.
+ 40.948: astorp.se INFO Done testing host smtp-in.sto-ste.se.stejtech.net.
+ 40.948: astorp.se INFO Done testing email address it@astorp.se.
+ 40.948: astorp.se INFO Successful attempt to deliver email for SOA RNAME of astorp.se (it.astorp.se) using it@astorp.se.
+ 40.948: astorp.se INFO SOA TTL for astorp.se OK (86400) - recommended >= 3600.
+ 40.948: astorp.se INFO SOA refresh for astorp.se OK (14400) - recommended >= 14400.
+ 40.948: astorp.se INFO SOA retry for astorp.se OK (3600) - recommended >= 3600.
+ 40.948: astorp.se INFO SOA expire for astorp.se OK (1209600) - recommended >= 604800.
+ 40.949: astorp.se INFO SOA minimum for astorp.se OK (86400) - recommended between 300 and 86400.
+ 40.949: astorp.se INFO Done testing SOA parameters for astorp.se.
+ 40.949: astorp.se INFO Begin testing connectivity for astorp.se.
+ 41.504: astorp.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 41.504: astorp.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 41.504: astorp.se INFO Done testing connectivity for astorp.se.
+ 41.504: astorp.se INFO Begin testing DNSSEC for astorp.se.
+ 41.525: astorp.se INFO Did not find DS record for astorp.se at parent.
+ 41.578: astorp.se INFO Servers for astorp.se have consistent extra processing status.
+ 41.613: astorp.se INFO Authenticated denial records not found for astorp.se.
+ 41.634: astorp.se INFO Did not find DNSKEY record for astorp.se at child.
+ 41.634: astorp.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 41.634: astorp.se INFO Done testing DNSSEC for astorp.se.
+ 41.634: astorp.se INFO Test completed for zone astorp.se.

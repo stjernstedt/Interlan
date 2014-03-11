@@ -1,0 +1,88 @@
+  0.000: kustavi.fi INFO Begin testing zone kustavi.fi with version 1.6.1.
+  0.380: kustavi.fi INFO Begin testing delegation for kustavi.fi.
+  8.350: kustavi.fi INFO Name servers listed at parent: bender.4tune.fi,flexo.4tune.fi
+ 10.181: kustavi.fi INFO Name servers listed at child: bender.4tune.fi,flexo.4tune.fi
+ 10.181: kustavi.fi NOTICE No IPv6 name servers found.
+ 10.245: kustavi.fi INFO Parent glue for kustavi.fi found: bender.4tune.fi (212.83.122.4)
+ 10.452: kustavi.fi INFO Parent glue for kustavi.fi found: flexo.4tune.fi (212.83.122.100)
+ 10.485: kustavi.fi INFO Checking glue for bender.4tune.fi (212.83.122.4).
+ 10.485: kustavi.fi INFO Checking glue for flexo.4tune.fi (212.83.122.100).
+ 10.485: kustavi.fi INFO Parent glue for kustavi.fi found: bender.4tune.fi (212.83.122.4)
+ 10.486: kustavi.fi INFO Parent glue for kustavi.fi found: flexo.4tune.fi (212.83.122.100)
+ 11.318: kustavi.fi INFO It is possible to build a referral packet for kustavi.fi that works without EDNS0.
+ 11.968: kustavi.fi INFO Previously used name servers for kustavi.fi: 
+ 11.968: kustavi.fi INFO Done testing delegation for kustavi.fi.
+ 11.969: kustavi.fi INFO Begin testing name server bender.4tune.fi.
+ 11.969: kustavi.fi INFO Begin testing host bender.4tune.fi.
+ 12.248: kustavi.fi INFO Begin testing address 212.83.122.4.
+ 22.892: kustavi.fi INFO Done testing address 212.83.122.4.
+ 22.892: kustavi.fi INFO Done testing host bender.4tune.fi.
+ 23.021: kustavi.fi INFO Name server bender.4tune.fi (212.83.122.4) answers queries over UDP.
+ 23.077: kustavi.fi INFO Name server bender.4tune.fi (212.83.122.4) answers queries over TCP.
+ 23.135: kustavi.fi INFO Name server bender.4tune.fi (212.83.122.4) is not recursive.
+ 23.257: kustavi.fi INFO Name server bender.4tune.fi (212.83.122.4) authoritative for kustavi.fi.
+ 23.309: kustavi.fi INFO Name server bender.4tune.fi (212.83.122.4) closed for zone transfer of kustavi.fi.
+ 23.332: kustavi.fi INFO Legacy name server ID for bender.4tune.fi (212.83.122.4): hostname.bind = bender
+ 23.368: kustavi.fi INFO Legacy name server ID for bender.4tune.fi (212.83.122.4): version.bind =  
+ 23.432: kustavi.fi NOTICE No answer received from 212.83.122.4 when querying for version.server/CH/TXT.
+ 23.432: kustavi.fi INFO Done testing name server bender.4tune.fi.
+ 23.432: kustavi.fi INFO Begin testing name server flexo.4tune.fi.
+ 23.432: kustavi.fi INFO Begin testing host flexo.4tune.fi.
+ 23.676: kustavi.fi INFO Begin testing address 212.83.122.100.
+ 25.108: kustavi.fi INFO Done testing address 212.83.122.100.
+ 25.109: kustavi.fi INFO Done testing host flexo.4tune.fi.
+ 25.237: kustavi.fi INFO Name server flexo.4tune.fi (212.83.122.100) answers queries over UDP.
+ 25.289: kustavi.fi INFO Name server flexo.4tune.fi (212.83.122.100) answers queries over TCP.
+ 25.314: kustavi.fi INFO Name server flexo.4tune.fi (212.83.122.100) is not recursive.
+ 25.449: kustavi.fi INFO Name server flexo.4tune.fi (212.83.122.100) authoritative for kustavi.fi.
+ 25.598: kustavi.fi NOTICE Name server flexo.4tune.fi (212.83.122.100) open for zone transfer of kustavi.fi.
+ 25.664: kustavi.fi INFO Legacy name server ID for flexo.4tune.fi (212.83.122.100): hostname.bind = mx
+ 25.685: kustavi.fi INFO Legacy name server ID for flexo.4tune.fi (212.83.122.100): version.bind = BIND
+ 25.730: kustavi.fi NOTICE No answer received from 212.83.122.100 when querying for version.server/CH/TXT.
+ 25.731: kustavi.fi INFO Done testing name server flexo.4tune.fi.
+ 25.731: kustavi.fi INFO Begin testing zone consistency for kustavi.fi.
+ 26.623: kustavi.fi INFO SOA at address 212.83.122.100 has serial 2013050601.
+ 26.664: kustavi.fi INFO SOA at address 212.83.122.4 has serial 2013050601.
+ 26.664: kustavi.fi INFO All SOA records have consistent serial numbers.
+ 26.664: kustavi.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 27.079: kustavi.fi NOTICE The listed nameservers for kustavi.fi all report the same set of nameservers.
+ 27.079: kustavi.fi INFO Done testing zone consistency for kustavi.fi.
+ 27.079: kustavi.fi INFO Begin testing SOA parameters for kustavi.fi.
+ 27.120: kustavi.fi INFO Found SOA record for kustavi.fi.
+ 27.120: kustavi.fi INFO Begin testing host flexo.4tune.fi.
+ 27.280: kustavi.fi INFO Begin testing address 212.83.122.100.
+ 27.408: kustavi.fi INFO Done testing address 212.83.122.100.
+ 27.408: kustavi.fi INFO Done testing host flexo.4tune.fi.
+ 27.408: kustavi.fi INFO SOA MNAME for kustavi.fi valid (flexo.4tune.fi).
+ 27.408: kustavi.fi INFO SOA MNAME for kustavi.fi (flexo.4tune.fi) listed as NS.
+ 27.729: kustavi.fi INFO SOA MNAME for kustavi.fi (flexo.4tune.fi) is authoritative.
+ 27.730: kustavi.fi INFO Begin testing email address hostmaster@4tune.fi.
+ 27.886: kustavi.fi INFO Mail exchangers for hostmaster@4tune.fi found mxfilter1.mercuriusonline.com,mxfilter2.mercuriusonline.com.
+ 27.886: kustavi.fi INFO Begin testing host mxfilter1.mercuriusonline.com.
+ 28.259: kustavi.fi INFO Begin testing address 212.83.122.18.
+ 29.624: kustavi.fi INFO Done testing address 212.83.122.18.
+ 29.624: kustavi.fi INFO Done testing host mxfilter1.mercuriusonline.com.
+ 29.963: kustavi.fi INFO Begin testing host mxfilter2.mercuriusonline.com.
+ 30.434: kustavi.fi INFO Begin testing address 212.83.122.17.
+ 32.204: kustavi.fi INFO Done testing address 212.83.122.17.
+ 32.204: kustavi.fi INFO Done testing host mxfilter2.mercuriusonline.com.
+ 32.395: kustavi.fi INFO Done testing email address hostmaster@4tune.fi.
+ 32.395: kustavi.fi INFO Successful attempt to deliver email for SOA RNAME of kustavi.fi (hostmaster.4tune.fi) using hostmaster@4tune.fi.
+ 32.402: kustavi.fi INFO SOA TTL for kustavi.fi OK (3600) - recommended >= 3600.
+ 32.402: kustavi.fi INFO SOA refresh for kustavi.fi OK (28800) - recommended >= 14400.
+ 32.402: kustavi.fi INFO SOA retry for kustavi.fi OK (7200) - recommended >= 3600.
+ 32.402: kustavi.fi INFO SOA expire for kustavi.fi OK (1209600) - recommended >= 604800.
+ 32.402: kustavi.fi INFO SOA minimum for kustavi.fi OK (3600) - recommended between 300 and 86400.
+ 32.402: kustavi.fi INFO Done testing SOA parameters for kustavi.fi.
+ 32.402: kustavi.fi INFO Begin testing connectivity for kustavi.fi.
+ 33.562: kustavi.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 33.562: kustavi.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 33.562: kustavi.fi INFO Done testing connectivity for kustavi.fi.
+ 33.563: kustavi.fi INFO Begin testing DNSSEC for kustavi.fi.
+ 33.611: kustavi.fi INFO Did not find DS record for kustavi.fi at parent.
+ 33.697: kustavi.fi INFO Servers for kustavi.fi have consistent extra processing status.
+ 33.754: kustavi.fi INFO Authenticated denial records not found for kustavi.fi.
+ 33.780: kustavi.fi INFO Did not find DNSKEY record for kustavi.fi at child.
+ 33.780: kustavi.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 33.780: kustavi.fi INFO Done testing DNSSEC for kustavi.fi.
+ 33.781: kustavi.fi INFO Test completed for zone kustavi.fi.

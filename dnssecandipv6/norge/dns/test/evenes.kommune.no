@@ -1,0 +1,78 @@
+  0.000: evenes.kommune.no INFO Begin testing zone evenes.kommune.no with version 1.6.1.
+  0.920: evenes.kommune.no INFO Begin testing delegation for evenes.kommune.no.
+ 11.028: evenes.kommune.no INFO Name servers listed at parent: ns.lofotnett.no,ns2.lofotnett.no
+ 12.372: evenes.kommune.no INFO Name servers listed at child: ns.lofotnett.no,ns2.lofotnett.no
+ 12.373: evenes.kommune.no NOTICE No IPv6 name servers found.
+ 12.525: evenes.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 12.657: evenes.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 12.788: evenes.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 12.922: evenes.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 13.607: evenes.kommune.no INFO It is possible to build a referral packet for evenes.kommune.no that works without EDNS0.
+ 14.040: evenes.kommune.no INFO Previously used name servers for evenes.kommune.no: 
+ 14.040: evenes.kommune.no INFO Done testing delegation for evenes.kommune.no.
+ 14.041: evenes.kommune.no INFO Begin testing name server ns.lofotnett.no.
+ 14.041: evenes.kommune.no INFO Begin testing host ns.lofotnett.no.
+ 14.210: evenes.kommune.no INFO Begin testing address 217.22.17.2.
+ 21.700: evenes.kommune.no INFO Done testing address 217.22.17.2.
+ 21.700: evenes.kommune.no INFO Done testing host ns.lofotnett.no.
+ 21.860: evenes.kommune.no INFO Name server ns.lofotnett.no (217.22.17.2) answers queries over UDP.
+ 21.940: evenes.kommune.no INFO Name server ns.lofotnett.no (217.22.17.2) answers queries over TCP.
+ 21.991: evenes.kommune.no INFO Name server ns.lofotnett.no (217.22.17.2) is not recursive.
+ 22.160: evenes.kommune.no INFO Name server ns.lofotnett.no (217.22.17.2) authoritative for evenes.kommune.no.
+ 22.398: evenes.kommune.no NOTICE Name server ns.lofotnett.no (217.22.17.2) open for zone transfer of evenes.kommune.no.
+ 22.444: evenes.kommune.no NOTICE No answer received from 217.22.17.2 when querying for hostname.bind/CH/TXT.
+ 34.533: evenes.kommune.no INFO Done testing name server ns.lofotnett.no.
+ 34.533: evenes.kommune.no INFO Begin testing name server ns2.lofotnett.no.
+ 34.533: evenes.kommune.no INFO Begin testing host ns2.lofotnett.no.
+ 34.708: evenes.kommune.no INFO Begin testing address 217.22.17.3.
+ 35.352: evenes.kommune.no INFO Done testing address 217.22.17.3.
+ 35.352: evenes.kommune.no INFO Done testing host ns2.lofotnett.no.
+ 35.646: evenes.kommune.no INFO Name server ns2.lofotnett.no (217.22.17.3) answers queries over UDP.
+ 35.715: evenes.kommune.no INFO Name server ns2.lofotnett.no (217.22.17.3) answers queries over TCP.
+ 35.774: evenes.kommune.no INFO Name server ns2.lofotnett.no (217.22.17.3) is not recursive.
+ 36.001: evenes.kommune.no INFO Name server ns2.lofotnett.no (217.22.17.3) authoritative for evenes.kommune.no.
+ 36.286: evenes.kommune.no INFO Name server ns2.lofotnett.no (217.22.17.3) closed for zone transfer of evenes.kommune.no.
+ 36.331: evenes.kommune.no NOTICE No answer received from 217.22.17.3 when querying for hostname.bind/CH/TXT.
+ 48.414: evenes.kommune.no INFO Done testing name server ns2.lofotnett.no.
+ 48.414: evenes.kommune.no INFO Begin testing zone consistency for evenes.kommune.no.
+ 49.035: evenes.kommune.no INFO SOA at address 217.22.17.2 has serial 32.
+ 49.071: evenes.kommune.no INFO SOA at address 217.22.17.3 has serial 32.
+ 49.071: evenes.kommune.no INFO All SOA records have consistent serial numbers.
+ 49.071: evenes.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 49.320: evenes.kommune.no NOTICE The listed nameservers for evenes.kommune.no all report the same set of nameservers.
+ 49.320: evenes.kommune.no INFO Done testing zone consistency for evenes.kommune.no.
+ 49.320: evenes.kommune.no INFO Begin testing SOA parameters for evenes.kommune.no.
+ 49.354: evenes.kommune.no INFO Found SOA record for evenes.kommune.no.
+ 49.354: evenes.kommune.no INFO Begin testing host ns.lofotnett.no.
+ 49.529: evenes.kommune.no INFO Begin testing address 217.22.17.2.
+ 49.611: evenes.kommune.no INFO Done testing address 217.22.17.2.
+ 49.611: evenes.kommune.no INFO Done testing host ns.lofotnett.no.
+ 49.611: evenes.kommune.no INFO SOA MNAME for evenes.kommune.no valid (ns.lofotnett.no).
+ 49.611: evenes.kommune.no INFO SOA MNAME for evenes.kommune.no (ns.lofotnett.no) listed as NS.
+ 49.741: evenes.kommune.no INFO SOA MNAME for evenes.kommune.no (ns.lofotnett.no) is authoritative.
+ 49.741: evenes.kommune.no INFO Begin testing email address registry@lofotnett.no.
+ 49.924: evenes.kommune.no INFO Mail exchangers for registry@lofotnett.no found mail.lofotnett.no.
+ 49.924: evenes.kommune.no INFO Begin testing host mail.lofotnett.no.
+ 50.087: evenes.kommune.no INFO Begin testing address 217.22.16.54.
+ 50.516: evenes.kommune.no INFO Done testing address 217.22.16.54.
+ 50.516: evenes.kommune.no INFO Done testing host mail.lofotnett.no.
+ 50.594: evenes.kommune.no INFO Done testing email address registry@lofotnett.no.
+ 50.595: evenes.kommune.no INFO Successful attempt to deliver email for SOA RNAME of evenes.kommune.no (registry.lofotnett.no) using registry@lofotnett.no.
+ 50.595: evenes.kommune.no INFO SOA TTL for evenes.kommune.no OK (3600) - recommended >= 3600.
+ 50.595: evenes.kommune.no NOTICE SOA refresh for evenes.kommune.no too small (900) - recommended >= 14400.
+ 50.595: evenes.kommune.no NOTICE SOA retry for evenes.kommune.no too small (600) - recommended >= 3600.
+ 50.595: evenes.kommune.no NOTICE SOA expire for evenes.kommune.no too small (86400) - recommended >= 604800.
+ 50.595: evenes.kommune.no INFO SOA minimum for evenes.kommune.no OK (3600) - recommended between 300 and 86400.
+ 50.599: evenes.kommune.no INFO Done testing SOA parameters for evenes.kommune.no.
+ 50.599: evenes.kommune.no INFO Begin testing connectivity for evenes.kommune.no.
+ 51.406: evenes.kommune.no NOTICE Zone announced by fewer than two IPv4 ASN.
+ 51.406: evenes.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 51.406: evenes.kommune.no INFO Done testing connectivity for evenes.kommune.no.
+ 51.406: evenes.kommune.no INFO Begin testing DNSSEC for evenes.kommune.no.
+ 51.480: evenes.kommune.no INFO Did not find DS record for evenes.kommune.no at parent.
+ 51.620: evenes.kommune.no INFO Servers for evenes.kommune.no have consistent extra processing status.
+ 51.696: evenes.kommune.no INFO Authenticated denial records not found for evenes.kommune.no.
+ 51.732: evenes.kommune.no INFO Did not find DNSKEY record for evenes.kommune.no at child.
+ 51.732: evenes.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 51.732: evenes.kommune.no INFO Done testing DNSSEC for evenes.kommune.no.
+ 51.732: evenes.kommune.no INFO Test completed for zone evenes.kommune.no.

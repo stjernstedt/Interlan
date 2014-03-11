@@ -1,0 +1,77 @@
+  0.000: odibo.se INFO Begin testing zone odibo.se with version 1.5.0.
+  0.001: odibo.se INFO Begin testing delegation for odibo.se.
+ 14.433: odibo.se INFO Name servers listed at parent: gran.egenweb.net,tall.egenweb.net
+ 17.504: odibo.se INFO Name servers listed at child: gran.egenweb.net,tall.egenweb.net
+ 17.505: odibo.se NOTICE No IPv6 name servers found.
+ 20.182: odibo.se INFO It is possible to build a referral packet for odibo.se that works without EDNS0.
+ 20.182: odibo.se INFO Done testing delegation for odibo.se.
+ 20.183: odibo.se INFO Begin testing name server gran.egenweb.net.
+ 20.204: odibo.se INFO Begin testing host gran.egenweb.net.
+ 20.835: odibo.se INFO Begin testing address 85.92.82.228.
+ 28.492: odibo.se INFO Done testing address 85.92.82.228.
+ 28.493: odibo.se INFO Done testing host gran.egenweb.net.
+ 29.378: odibo.se INFO Name server gran.egenweb.net (85.92.82.228) answers queries over UDP.
+ 29.465: odibo.se INFO Name server gran.egenweb.net (85.92.82.228) answers queries over TCP.
+ 29.509: odibo.se INFO Name server gran.egenweb.net (85.92.82.228) is not recursive.
+ 29.705: odibo.se INFO Name server gran.egenweb.net (85.92.82.228) authoritative for odibo.se.
+ 29.836: odibo.se INFO Name server gran.egenweb.net (85.92.82.228) closed for zone transfer of odibo.se.
+ 29.914: odibo.se INFO Legacy name server ID for gran.egenweb.net (85.92.82.228): hostname.bind = eagle.servernr.net
+ 30.016: odibo.se INFO Legacy name server ID for gran.egenweb.net (85.92.82.228): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 30.133: odibo.se NOTICE No answer received from 85.92.82.228 when querying for version.server/CH/TXT.
+ 30.134: odibo.se INFO Done testing name server gran.egenweb.net.
+ 30.134: odibo.se INFO Begin testing name server tall.egenweb.net.
+ 30.134: odibo.se INFO Begin testing host tall.egenweb.net.
+ 30.725: odibo.se INFO Begin testing address 85.92.83.217.
+ 31.829: odibo.se INFO Done testing address 85.92.83.217.
+ 31.829: odibo.se INFO Done testing host tall.egenweb.net.
+ 32.457: odibo.se INFO Name server tall.egenweb.net (85.92.83.217) answers queries over UDP.
+ 32.545: odibo.se INFO Name server tall.egenweb.net (85.92.83.217) answers queries over TCP.
+ 32.610: odibo.se INFO Name server tall.egenweb.net (85.92.83.217) is not recursive.
+ 32.808: odibo.se INFO Name server tall.egenweb.net (85.92.83.217) authoritative for odibo.se.
+ 32.938: odibo.se INFO Name server tall.egenweb.net (85.92.83.217) closed for zone transfer of odibo.se.
+ 32.988: odibo.se INFO Legacy name server ID for tall.egenweb.net (85.92.83.217): hostname.bind = birdie.servernr.net
+ 33.032: odibo.se INFO Legacy name server ID for tall.egenweb.net (85.92.83.217): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 33.127: odibo.se NOTICE No answer received from 85.92.83.217 when querying for version.server/CH/TXT.
+ 33.128: odibo.se INFO Done testing name server tall.egenweb.net.
+ 33.128: odibo.se INFO Begin testing zone consistency for odibo.se.
+ 35.739: odibo.se INFO SOA at address 85.92.83.217 has serial 2013061901.
+ 35.811: odibo.se INFO SOA at address 85.92.82.228 has serial 2013061901.
+ 35.812: odibo.se INFO All SOA records have consistent serial numbers.
+ 35.812: odibo.se INFO All other fields in the SOA record are consistent among all name servers.
+ 36.662: odibo.se NOTICE The listed nameservers for odibo.se all report the same set of nameservers.
+ 36.662: odibo.se INFO Done testing zone consistency for odibo.se.
+ 36.663: odibo.se INFO Begin testing SOA parameters for odibo.se.
+ 36.711: odibo.se INFO Found SOA record for odibo.se.
+ 36.711: odibo.se INFO Begin testing host tall.egenweb.net.
+ 37.179: odibo.se INFO Begin testing address 85.92.83.217.
+ 37.444: odibo.se INFO Done testing address 85.92.83.217.
+ 37.444: odibo.se INFO Done testing host tall.egenweb.net.
+ 37.444: odibo.se INFO SOA MNAME for odibo.se valid (tall.egenweb.net).
+ 37.444: odibo.se INFO SOA MNAME for odibo.se (tall.egenweb.net) listed as NS.
+ 38.109: odibo.se INFO SOA MNAME for odibo.se (tall.egenweb.net) is authoritative.
+ 38.110: odibo.se INFO Begin testing email address nsadmin@egenweb.net.
+ 38.645: odibo.se INFO Mail exchangers for nsadmin@egenweb.net found mail.egenweb.net.
+ 38.645: odibo.se INFO Begin testing host mail.egenweb.net.
+ 39.332: odibo.se INFO Begin testing address 85.92.83.218.
+ 40.398: odibo.se INFO Done testing address 85.92.83.218.
+ 40.398: odibo.se INFO Done testing host mail.egenweb.net.
+ 40.828: odibo.se INFO Done testing email address nsadmin@egenweb.net.
+ 40.828: odibo.se INFO Successful attempt to deliver email for SOA RNAME of odibo.se (nsadmin.egenweb.net) using nsadmin@egenweb.net.
+ 40.829: odibo.se NOTICE SOA TTL for odibo.se too small (300) - recommended >= 3600.
+ 40.829: odibo.se INFO SOA refresh for odibo.se OK (86400) - recommended >= 14400.
+ 40.829: odibo.se INFO SOA retry for odibo.se OK (7200) - recommended >= 3600.
+ 40.829: odibo.se INFO SOA expire for odibo.se OK (3600000) - recommended >= 604800.
+ 40.829: odibo.se INFO SOA minimum for odibo.se OK (360) - recommended between 300 and 86400.
+ 40.829: odibo.se INFO Done testing SOA parameters for odibo.se.
+ 40.829: odibo.se INFO Begin testing connectivity for odibo.se.
+ 42.549: odibo.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 42.549: odibo.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 42.549: odibo.se INFO Done testing connectivity for odibo.se.
+ 42.555: odibo.se INFO Begin testing DNSSEC for odibo.se.
+ 42.663: odibo.se INFO Did not find DS record for odibo.se at parent.
+ 42.912: odibo.se INFO Servers for odibo.se have consistent extra processing status.
+ 43.021: odibo.se INFO Authenticated denial records not found for odibo.se.
+ 43.095: odibo.se INFO Did not find DNSKEY record for odibo.se at child.
+ 43.099: odibo.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 43.099: odibo.se INFO Done testing DNSSEC for odibo.se.
+ 43.100: odibo.se INFO Test completed for zone odibo.se.

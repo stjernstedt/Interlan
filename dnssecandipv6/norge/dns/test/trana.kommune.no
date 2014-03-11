@@ -1,0 +1,91 @@
+  0.000: trana.kommune.no INFO Begin testing zone trana.kommune.no with version 1.6.1.
+  0.461: trana.kommune.no INFO Begin testing delegation for trana.kommune.no.
+  7.797: trana.kommune.no INFO Name servers listed at parent: dns1.itet.no,dns2.itet.no
+  9.183: trana.kommune.no INFO Name servers listed at child: dns1.itet.no,dns2.itet.no
+  9.184: trana.kommune.no NOTICE No IPv6 name servers found.
+  9.325: trana.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.453: trana.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.587: trana.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.766: trana.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.541: trana.kommune.no INFO It is possible to build a referral packet for trana.kommune.no that works without EDNS0.
+ 11.011: trana.kommune.no INFO Previously used name servers for trana.kommune.no: 
+ 11.011: trana.kommune.no INFO Done testing delegation for trana.kommune.no.
+ 11.012: trana.kommune.no INFO Begin testing name server dns1.itet.no.
+ 11.012: trana.kommune.no INFO Begin testing host dns1.itet.no.
+ 11.316: trana.kommune.no INFO Begin testing address 193.169.42.23.
+ 24.497: trana.kommune.no INFO Done testing address 193.169.42.23.
+ 24.497: trana.kommune.no INFO Done testing host dns1.itet.no.
+ 24.725: trana.kommune.no INFO Name server dns1.itet.no (193.169.42.23) answers queries over UDP.
+ 24.782: trana.kommune.no INFO Name server dns1.itet.no (193.169.42.23) answers queries over TCP.
+ 24.837: trana.kommune.no WARNING Name server dns1.itet.no (193.169.42.23) is recursive.
+ 24.981: trana.kommune.no INFO Name server dns1.itet.no (193.169.42.23) authoritative for trana.kommune.no.
+ 25.156: trana.kommune.no INFO Name server dns1.itet.no (193.169.42.23) closed for zone transfer of trana.kommune.no.
+ 25.189: trana.kommune.no INFO Legacy name server ID for dns1.itet.no (193.169.42.23): hostname.bind = dns1.itet.no
+ 25.222: trana.kommune.no INFO Legacy name server ID for dns1.itet.no (193.169.42.23): version.bind = 9.7.2-P3
+ 25.297: trana.kommune.no NOTICE No answer received from 193.169.42.23 when querying for version.server/CH/TXT.
+ 25.297: trana.kommune.no INFO Done testing name server dns1.itet.no.
+ 25.297: trana.kommune.no INFO Begin testing name server dns2.itet.no.
+ 25.297: trana.kommune.no INFO Begin testing host dns2.itet.no.
+ 25.536: trana.kommune.no INFO Begin testing address 80.89.33.210.
+ 26.356: trana.kommune.no INFO Done testing address 80.89.33.210.
+ 26.356: trana.kommune.no INFO Done testing host dns2.itet.no.
+ 26.647: trana.kommune.no INFO Name server dns2.itet.no (80.89.33.210) answers queries over UDP.
+ 26.719: trana.kommune.no INFO Name server dns2.itet.no (80.89.33.210) answers queries over TCP.
+ 26.753: trana.kommune.no INFO Name server dns2.itet.no (80.89.33.210) is not recursive.
+ 26.896: trana.kommune.no INFO Name server dns2.itet.no (80.89.33.210) authoritative for trana.kommune.no.
+ 27.089: trana.kommune.no INFO Name server dns2.itet.no (80.89.33.210) closed for zone transfer of trana.kommune.no.
+ 27.134: trana.kommune.no NOTICE No answer received from 80.89.33.210 when querying for hostname.bind/CH/TXT.
+ 27.162: trana.kommune.no NOTICE No answer received from 80.89.33.210 when querying for version.bind/CH/TXT.
+ 27.197: trana.kommune.no NOTICE No answer received from 80.89.33.210 when querying for id.server/CH/TXT.
+ 27.225: trana.kommune.no NOTICE No answer received from 80.89.33.210 when querying for version.server/CH/TXT.
+ 27.226: trana.kommune.no INFO Done testing name server dns2.itet.no.
+ 27.226: trana.kommune.no INFO Begin testing zone consistency for trana.kommune.no.
+ 27.945: trana.kommune.no INFO SOA at address 80.89.33.210 has serial 3833565823.
+ 27.993: trana.kommune.no INFO SOA at address 193.169.42.23 has serial 3833565823.
+ 28.008: trana.kommune.no INFO All SOA records have consistent serial numbers.
+ 28.009: trana.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 28.405: trana.kommune.no NOTICE The listed nameservers for trana.kommune.no all report the same set of nameservers.
+ 28.405: trana.kommune.no INFO Done testing zone consistency for trana.kommune.no.
+ 28.405: trana.kommune.no INFO Begin testing SOA parameters for trana.kommune.no.
+ 28.436: trana.kommune.no INFO Found SOA record for trana.kommune.no.
+ 28.436: trana.kommune.no INFO Begin testing host dns1.itet.no.
+ 28.595: trana.kommune.no INFO Begin testing address 193.169.42.23.
+ 28.745: trana.kommune.no INFO Done testing address 193.169.42.23.
+ 28.745: trana.kommune.no INFO Done testing host dns1.itet.no.
+ 28.745: trana.kommune.no INFO SOA MNAME for trana.kommune.no valid (dns1.itet.no).
+ 28.745: trana.kommune.no INFO SOA MNAME for trana.kommune.no (dns1.itet.no) listed as NS.
+ 28.925: trana.kommune.no INFO SOA MNAME for trana.kommune.no (dns1.itet.no) is authoritative.
+ 28.925: trana.kommune.no INFO Begin testing email address hostmaster@itet.no.
+ 29.199: trana.kommune.no INFO Mail exchangers for hostmaster@itet.no found gw1.security.comendo.com,gw2.security.comendo.com,gw3.security.comendo.com.
+ 29.199: trana.kommune.no INFO Begin testing host gw1.security.comendo.com.
+ 30.101: trana.kommune.no INFO Begin testing address 89.104.217.10.
+ 30.961: trana.kommune.no INFO Done testing address 89.104.217.10.
+ 30.961: trana.kommune.no INFO Done testing host gw1.security.comendo.com.
+ 31.505: trana.kommune.no INFO Begin testing host gw2.security.comendo.com.
+ 31.959: trana.kommune.no INFO Begin testing address 89.104.217.10.
+ 32.214: trana.kommune.no INFO Done testing address 89.104.217.10.
+ 32.215: trana.kommune.no INFO Done testing host gw2.security.comendo.com.
+ 32.478: trana.kommune.no INFO Begin testing host gw3.security.comendo.com.
+ 32.733: trana.kommune.no INFO Begin testing address 89.104.216.11.
+ 33.633: trana.kommune.no INFO Done testing address 89.104.216.11.
+ 33.633: trana.kommune.no INFO Done testing host gw3.security.comendo.com.
+ 33.791: trana.kommune.no INFO Done testing email address hostmaster@itet.no.
+ 33.791: trana.kommune.no INFO Successful attempt to deliver email for SOA RNAME of trana.kommune.no (hostmaster.itet.no) using hostmaster@itet.no.
+ 33.791: trana.kommune.no NOTICE SOA TTL for trana.kommune.no too small (300) - recommended >= 3600.
+ 33.791: trana.kommune.no INFO SOA refresh for trana.kommune.no OK (28800) - recommended >= 14400.
+ 33.791: trana.kommune.no INFO SOA retry for trana.kommune.no OK (7200) - recommended >= 3600.
+ 33.791: trana.kommune.no INFO SOA expire for trana.kommune.no OK (3600000) - recommended >= 604800.
+ 33.791: trana.kommune.no NOTICE SOA minimum for trana.kommune.no too large (172800) - recommended <= 86400.
+ 33.791: trana.kommune.no INFO Done testing SOA parameters for trana.kommune.no.
+ 33.791: trana.kommune.no INFO Begin testing connectivity for trana.kommune.no.
+ 34.646: trana.kommune.no NOTICE Zone announced by fewer than two IPv4 ASN.
+ 34.647: trana.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 34.647: trana.kommune.no INFO Done testing connectivity for trana.kommune.no.
+ 34.647: trana.kommune.no INFO Begin testing DNSSEC for trana.kommune.no.
+ 34.735: trana.kommune.no INFO Did not find DS record for trana.kommune.no at parent.
+ 34.865: trana.kommune.no INFO Servers for trana.kommune.no have consistent extra processing status.
+ 34.936: trana.kommune.no INFO Authenticated denial records not found for trana.kommune.no.
+ 34.978: trana.kommune.no INFO Did not find DNSKEY record for trana.kommune.no at child.
+ 34.978: trana.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 34.979: trana.kommune.no INFO Done testing DNSSEC for trana.kommune.no.
+ 34.979: trana.kommune.no INFO Test completed for zone trana.kommune.no.

@@ -1,0 +1,98 @@
+  0.000: gullspang.se INFO Begin testing zone gullspang.se with version 1.6.1.
+  0.551: gullspang.se INFO Begin testing delegation for gullspang.se.
+ 14.892: gullspang.se INFO Name servers listed at parent: ns.mariestad.se,ns1.mariestad.se,ns1.mteab.net
+ 26.962: gullspang.se INFO Name servers listed at child: ns.mariestad.se,ns1.mariestad.se,ns1.mteab.net
+ 26.963: gullspang.se NOTICE No IPv6 name servers found.
+ 27.076: gullspang.se INFO Parent glue for gullspang.se found: ns.mariestad.se (80.254.244.194)
+ 27.272: gullspang.se INFO Parent glue for gullspang.se found: ns1.mariestad.se (80.254.244.217)
+ 27.618: gullspang.se INFO Checking glue for ns.mariestad.se (80.254.244.194).
+ 27.635: gullspang.se INFO Checking glue for ns1.mariestad.se (80.254.244.217).
+ 27.645: gullspang.se INFO Parent glue for gullspang.se found: ns.mariestad.se (80.254.244.194)
+ 27.666: gullspang.se INFO Parent glue for gullspang.se found: ns1.mariestad.se (80.254.244.217)
+ 31.607: gullspang.se INFO It is possible to build a referral packet for gullspang.se that works without EDNS0.
+ 33.076: gullspang.se INFO Previously used name servers for gullspang.se: 
+ 33.076: gullspang.se INFO Done testing delegation for gullspang.se.
+ 33.076: gullspang.se INFO Begin testing name server ns.mariestad.se.
+ 33.077: gullspang.se INFO Begin testing host ns.mariestad.se.
+ 36.035: gullspang.se INFO Begin testing address 80.254.244.194.
+ 58.288: gullspang.se INFO Done testing address 80.254.244.194.
+ 58.288: gullspang.se INFO Done testing host ns.mariestad.se.
+ 58.698: gullspang.se INFO Name server ns.mariestad.se (80.254.244.194) answers queries over UDP.
+ 58.990: gullspang.se INFO Name server ns.mariestad.se (80.254.244.194) answers queries over TCP.
+ 59.080: gullspang.se INFO Name server ns.mariestad.se (80.254.244.194) is not recursive.
+ 59.608: gullspang.se INFO Name server ns.mariestad.se (80.254.244.194) authoritative for gullspang.se.
+ 59.786: gullspang.se INFO Name server ns.mariestad.se (80.254.244.194) closed for zone transfer of gullspang.se.
+ 75.995: gullspang.se INFO Done testing name server ns.mariestad.se.
+ 76.001: gullspang.se INFO Begin testing name server ns1.mariestad.se.
+ 76.002: gullspang.se INFO Begin testing host ns1.mariestad.se.
+ 76.286: gullspang.se INFO Begin testing address 80.254.244.217.
+ 77.542: gullspang.se INFO Done testing address 80.254.244.217.
+ 77.542: gullspang.se INFO Done testing host ns1.mariestad.se.
+ 77.932: gullspang.se INFO Name server ns1.mariestad.se (80.254.244.217) answers queries over UDP.
+ 78.010: gullspang.se INFO Name server ns1.mariestad.se (80.254.244.217) answers queries over TCP.
+ 78.099: gullspang.se INFO Name server ns1.mariestad.se (80.254.244.217) is not recursive.
+ 78.277: gullspang.se INFO Name server ns1.mariestad.se (80.254.244.217) authoritative for gullspang.se.
+ 78.547: gullspang.se INFO Name server ns1.mariestad.se (80.254.244.217) closed for zone transfer of gullspang.se.
+ 95.287: gullspang.se INFO Done testing name server ns1.mariestad.se.
+ 95.287: gullspang.se INFO Begin testing name server ns1.mteab.net.
+ 95.288: gullspang.se INFO Begin testing host ns1.mteab.net.
+ 96.697: gullspang.se INFO Begin testing address 80.254.240.18.
+ 97.971: gullspang.se INFO Done testing address 80.254.240.18.
+ 97.971: gullspang.se INFO Done testing host ns1.mteab.net.
+ 99.589: gullspang.se INFO Name server ns1.mteab.net (80.254.240.18) answers queries over UDP.
+101.599: gullspang.se NOTICE DNS lookup error (connection failed).
+101.614: gullspang.se ERROR Name server ns1.mteab.net (80.254.240.18) does not answer queries over TCP.
+101.680: gullspang.se WARNING Name server ns1.mteab.net (80.254.240.18) is recursive.
+103.759: gullspang.se NOTICE DNS lookup error (connection failed).
+103.759: gullspang.se INFO Name server ns1.mteab.net (80.254.240.18) authoritative for gullspang.se.
+103.760: gullspang.se INFO Name server ns1.mteab.net (80.254.240.18) not checked for zone transfer of gullspang.se.
+103.760: gullspang.se INFO Name server ns1.mteab.net (80.254.240.18) not checked for legacy name server ID.
+103.760: gullspang.se INFO Done testing name server ns1.mteab.net.
+103.760: gullspang.se INFO Begin testing zone consistency for gullspang.se.
+107.556: gullspang.se INFO SOA at address 80.254.244.194 has serial 2014022107.
+107.576: gullspang.se INFO SOA at address 80.254.244.217 has serial 2014022107.
+107.739: gullspang.se INFO SOA at address 80.254.240.18 has serial 2014022107.
+107.739: gullspang.se INFO All SOA records have consistent serial numbers.
+107.739: gullspang.se INFO All other fields in the SOA record are consistent among all name servers.
+109.092: gullspang.se NOTICE The listed nameservers for gullspang.se all report the same set of nameservers.
+109.093: gullspang.se INFO Done testing zone consistency for gullspang.se.
+109.093: gullspang.se INFO Begin testing SOA parameters for gullspang.se.
+109.120: gullspang.se INFO Found SOA record for gullspang.se.
+109.120: gullspang.se INFO Begin testing host ns.mariestad.se.
+109.486: gullspang.se INFO Begin testing address 80.254.244.194.
+109.678: gullspang.se INFO Done testing address 80.254.244.194.
+109.678: gullspang.se INFO Done testing host ns.mariestad.se.
+109.679: gullspang.se INFO SOA MNAME for gullspang.se valid (ns.mariestad.se).
+109.679: gullspang.se INFO SOA MNAME for gullspang.se (ns.mariestad.se) listed as NS.
+109.886: gullspang.se INFO SOA MNAME for gullspang.se (ns.mariestad.se) is authoritative.
+109.886: gullspang.se INFO Begin testing email address hostmaster@mariestad.se.
+110.121: gullspang.se INFO Mail exchangers for hostmaster@mariestad.se found mail.mariestad.se,mail2.mariestad.se.
+110.121: gullspang.se INFO Begin testing host mail.mariestad.se.
+110.547: gullspang.se INFO Begin testing address 80.254.244.195.
+111.408: gullspang.se INFO Done testing address 80.254.244.195.
+111.408: gullspang.se INFO Done testing host mail.mariestad.se.
+111.560: gullspang.se INFO Begin testing host mail2.mariestad.se.
+112.229: gullspang.se INFO Begin testing address 80.254.244.216.
+113.500: gullspang.se INFO Done testing address 80.254.244.216.
+113.501: gullspang.se INFO Done testing host mail2.mariestad.se.
+114.608: gullspang.se INFO Done testing email address hostmaster@mariestad.se.
+114.608: gullspang.se INFO Successful attempt to deliver email for SOA RNAME of gullspang.se (hostmaster.mariestad.se) using hostmaster@mariestad.se.
+114.609: gullspang.se INFO SOA TTL for gullspang.se OK (10800) - recommended >= 3600.
+114.609: gullspang.se INFO SOA refresh for gullspang.se OK (14400) - recommended >= 14400.
+114.609: gullspang.se INFO SOA retry for gullspang.se OK (3600) - recommended >= 3600.
+114.609: gullspang.se INFO SOA expire for gullspang.se OK (777600) - recommended >= 604800.
+114.609: gullspang.se INFO SOA minimum for gullspang.se OK (3600) - recommended between 300 and 86400.
+114.609: gullspang.se INFO Done testing SOA parameters for gullspang.se.
+114.609: gullspang.se INFO Begin testing connectivity for gullspang.se.
+116.765: gullspang.se NOTICE Zone announced by fewer than two IPv4 ASN.
+116.765: gullspang.se NOTICE Zone announced by fewer than two IPv6 ASN.
+116.765: gullspang.se INFO Done testing connectivity for gullspang.se.
+116.783: gullspang.se INFO Begin testing DNSSEC for gullspang.se.
+116.883: gullspang.se INFO Did not find DS record for gullspang.se at parent.
+118.939: gullspang.se NOTICE DNS lookup error (connection failed).
+118.975: gullspang.se INFO Servers for gullspang.se have consistent extra processing status.
+121.072: gullspang.se INFO Authenticated denial records not found for gullspang.se.
+121.094: gullspang.se INFO Did not find DNSKEY record for gullspang.se at child.
+121.094: gullspang.se INFO No DNSKEY(s) found at child, other tests skipped.
+121.094: gullspang.se INFO Done testing DNSSEC for gullspang.se.
+121.094: gullspang.se INFO Test completed for zone gullspang.se.

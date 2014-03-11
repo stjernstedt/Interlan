@@ -1,0 +1,106 @@
+  0.000: norberg.se INFO Begin testing zone norberg.se with version 1.2.
+  0.000: norberg.se INFO Begin testing delegation for norberg.se.
+ 18.126: norberg.se INFO Name servers listed at parent: dns.norberg.se,dns6.telia.com,kista.dns.swip.net
+ 19.997: norberg.se INFO Name servers listed at child: dns.norberg.se,dns6.telia.com,kista.dns.swip.net
+ 19.997: norberg.se NOTICE No IPv6 name servers found.
+ 20.014: norberg.se INFO Parent glue for norberg.se found: dns.norberg.se (194.17.220.70)
+ 20.212: norberg.se INFO Checking glue for dns.norberg.se (194.17.220.70).
+ 20.220: norberg.se INFO Child glue for norberg.se found: dns.norberg.se (194.17.220.70)
+ 20.220: norberg.se INFO Parent glue for norberg.se found: dns.norberg.se (194.17.220.70)
+ 20.221: norberg.se INFO Done testing delegation for norberg.se.
+ 20.222: norberg.se INFO Begin testing name server dns.norberg.se.
+ 20.222: norberg.se INFO Begin testing host dns.norberg.se.
+ 20.222: norberg.se INFO Begin testing address 194.17.220.70.
+ 28.242: norberg.se INFO Done testing address 194.17.220.70.
+ 28.242: norberg.se INFO Done testing host dns.norberg.se.
+ 28.256: norberg.se INFO Name server dns.norberg.se (194.17.220.70) answers queries over UDP.
+ 28.279: norberg.se INFO Name server dns.norberg.se (194.17.220.70) answers queries over TCP.
+ 28.495: norberg.se INFO Name server dns.norberg.se (194.17.220.70) is not recursive.
+ 28.508: norberg.se INFO Name server dns.norberg.se (194.17.220.70) authoritative for norberg.se.
+ 28.679: norberg.se INFO Name server dns.norberg.se (194.17.220.70) closed for zone transfer of norberg.se.
+ 28.691: norberg.se NOTICE No answer received from 194.17.220.70 when querying for hostname.bind/CH/TXT.
+ 46.694: norberg.se INFO Done testing name server dns.norberg.se.
+ 46.694: norberg.se INFO Begin testing name server dns6.telia.com.
+ 46.694: norberg.se INFO Begin testing host dns6.telia.com.
+ 46.695: norberg.se INFO Begin testing address 81.228.10.68.
+ 47.412: norberg.se INFO Done testing address 81.228.10.68.
+ 47.412: norberg.se INFO Done testing host dns6.telia.com.
+ 47.430: norberg.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over UDP.
+ 47.462: norberg.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over TCP.
+ 47.478: norberg.se INFO Name server dns6.telia.com (81.228.10.68) is not recursive.
+ 47.495: norberg.se INFO Name server dns6.telia.com (81.228.10.68) authoritative for norberg.se.
+ 47.539: norberg.se INFO Name server dns6.telia.com (81.228.10.68) closed for zone transfer of norberg.se.
+ 47.559: norberg.se INFO Legacy name server ID for dns6.telia.com (81.228.10.68): hostname.bind = dnshosting1-sn4.m-sp.skanova.net
+ 47.576: norberg.se INFO Legacy name server ID for dns6.telia.com (81.228.10.68): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 47.609: norberg.se NOTICE No answer received from 81.228.10.68 when querying for version.server/CH/TXT.
+ 47.609: norberg.se INFO Done testing name server dns6.telia.com.
+ 47.609: norberg.se INFO Begin testing name server kista.dns.swip.net.
+ 47.610: norberg.se INFO Begin testing host kista.dns.swip.net.
+ 47.610: norberg.se INFO Begin testing address 192.71.220.9.
+ 52.061: norberg.se INFO Done testing address 192.71.220.9.
+ 52.061: norberg.se INFO Done testing host kista.dns.swip.net.
+ 52.071: norberg.se INFO Name server kista.dns.swip.net (192.71.220.9) answers queries over UDP.
+ 52.083: norberg.se INFO Name server kista.dns.swip.net (192.71.220.9) answers queries over TCP.
+ 52.090: norberg.se INFO Name server kista.dns.swip.net (192.71.220.9) is not recursive.
+ 52.098: norberg.se INFO Name server kista.dns.swip.net (192.71.220.9) authoritative for norberg.se.
+ 52.113: norberg.se INFO Name server kista.dns.swip.net (192.71.220.9) closed for zone transfer of norberg.se.
+ 52.121: norberg.se INFO Legacy name server ID for kista.dns.swip.net (192.71.220.9): hostname.bind = nico
+ 52.128: norberg.se INFO Legacy name server ID for kista.dns.swip.net (192.71.220.9): version.bind = PONG 0.2alpha
+ 52.141: norberg.se NOTICE No answer received from 192.71.220.9 when querying for version.server/CH/TXT.
+ 52.141: norberg.se INFO Done testing name server kista.dns.swip.net.
+ 52.142: norberg.se INFO Begin testing zone consistency for norberg.se.
+ 52.154: norberg.se INFO SOA at address 192.71.220.9 has serial 2007031702.
+ 52.166: norberg.se INFO SOA at address 194.17.220.70 has serial 2007031702.
+ 52.183: norberg.se INFO SOA at address 81.228.10.68 has serial 2007031702.
+ 52.183: norberg.se INFO All SOA records have consistent serial numbers.
+ 52.183: norberg.se INFO All SOA records are consistent among all name servers.
+ 52.183: norberg.se INFO Done testing zone consistency for norberg.se.
+ 52.183: norberg.se INFO Begin testing SOA parameters for norberg.se.
+ 52.191: norberg.se INFO Found SOA record for norberg.se.
+ 52.191: norberg.se INFO Begin testing host dns.norberg.se.
+ 52.191: norberg.se INFO Begin testing address 194.17.220.70.
+ 52.193: norberg.se INFO Done testing address 194.17.220.70.
+ 52.193: norberg.se INFO Done testing host dns.norberg.se.
+ 52.193: norberg.se INFO SOA MNAME for norberg.se valid (dns.norberg.se).
+ 52.193: norberg.se INFO SOA MNAME for norberg.se (dns.norberg.se) listed as NS.
+ 52.206: norberg.se INFO SOA MNAME for norberg.se (dns.norberg.se) is authoritative.
+ 52.206: norberg.se INFO Begin testing email address administrator@norberg.se.
+ 52.452: norberg.se INFO Mail exchangers for administrator@norberg.se found smtp-in.sto-hy.se.stejtech.net,smtp-in.sto-ste.se.stejtech.net.
+ 52.453: norberg.se INFO Begin testing host smtp-in.sto-hy.se.stejtech.net.
+ 53.128: norberg.se INFO Begin testing address 83.140.31.145.
+ 54.899: norberg.se INFO Done testing address 83.140.31.145.
+ 54.899: norberg.se INFO Done testing host smtp-in.sto-hy.se.stejtech.net.
+ 54.900: norberg.se INFO Begin testing mail server smtp-in.sto-hy.se.stejtech.net (83.140.31.145) with administrator@norberg.se.
+ 54.914: norberg.se INFO SMTP banner: smtp1.stejtech.net ESMTP Stej PowerFilter
+ 55.325: norberg.se INFO SMTP testing of smtp-in.sto-hy.se.stejtech.net (83.140.31.145) with administrator@norberg.se succeeded without errors.
+ 55.325: norberg.se INFO Done testing mail server smtp-in.sto-hy.se.stejtech.net (83.140.31.145) with administrator@norberg.se.
+ 55.325: norberg.se INFO Begin testing host smtp-in.sto-ste.se.stejtech.net.
+ 55.811: norberg.se INFO Begin testing address 80.248.224.70.
+ 57.247: norberg.se INFO Done testing address 80.248.224.70.
+ 57.247: norberg.se INFO Done testing host smtp-in.sto-ste.se.stejtech.net.
+ 57.248: norberg.se INFO Delivery over IPv4 to administrator@norberg.se ok.
+ 57.248: norberg.se INFO Delivery over IPv6 to administrator@norberg.se could not be done.
+ 57.248: norberg.se INFO Done testing email address administrator@norberg.se.
+ 57.248: norberg.se INFO Successful attempt to deliver email for SOA RNAME of norberg.se (administrator.norberg.se) using administrator@norberg.se.
+ 57.248: norberg.se INFO SOA TTL for norberg.se OK (3600) - recommended >= 3600.
+ 57.248: norberg.se NOTICE SOA refresh for norberg.se too small (3600) - recommended >= 14400.
+ 57.248: norberg.se NOTICE SOA retry for norberg.se too small (600) - recommended >= 3600.
+ 57.249: norberg.se NOTICE SOA expire for norberg.se too small (86400) - recommended >= 604800.
+ 57.249: norberg.se INFO SOA minimum for norberg.se OK (3600) - recommended between 300 and 86400.
+ 57.249: norberg.se INFO Done testing SOA parameters for norberg.se.
+ 57.249: norberg.se INFO Begin testing connectivity for norberg.se.
+ 57.863: norberg.se INFO Name server 192.71.220.9 announced by: 1257
+ 58.484: norberg.se INFO Name server 194.17.220.70 announced by: 3301
+ 59.093: norberg.se INFO Name server 81.228.10.68 announced by: 3301
+ 59.093: norberg.se INFO Zone announced by IPv4 ASN: 3301,1257
+ 59.093: norberg.se INFO Zone announced by more than one ASN (2).
+ 59.094: norberg.se INFO Zone announced by IPv6 ASN: 
+ 59.094: norberg.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 59.094: norberg.se INFO Done testing connectivity for norberg.se.
+ 59.094: norberg.se INFO Begin testing DNSSEC for norberg.se.
+ 59.204: norberg.se INFO Did not find DS record for norberg.se at parent.
+ 59.267: norberg.se INFO Servers for norberg.se have consistent extra processing status.
+ 59.267: norberg.se INFO Did not find DNSKEY record for norberg.se at child.
+ 59.267: norberg.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 59.267: norberg.se INFO Done testing DNSSEC for norberg.se.
+ 59.267: norberg.se INFO Test completed for zone norberg.se.

@@ -1,0 +1,128 @@
+  0.000: skovde.se INFO Begin testing zone skovde.se with version 1.6.1.
+  1.377: skovde.se INFO Begin testing delegation for skovde.se.
+ 15.742: skovde.se INFO Name servers listed at parent: srv-ext-dns01.skovde.se,srv-ext-dns02.skovde.se
+ 19.305: skovde.se INFO Name servers listed at child: srv-ext-dns01.skovde.se,srv-ext-dns02.skovde.se
+ 19.648: skovde.se INFO Parent glue for skovde.se found: srv-ext-dns01.skovde.se (194.16.15.18)
+ 19.776: skovde.se INFO Parent glue for skovde.se found: srv-ext-dns01.skovde.se (2001:67c:15e8:d1:0:0:0:18)
+ 20.392: skovde.se INFO Parent glue for skovde.se found: srv-ext-dns02.skovde.se (194.16.15.19)
+ 20.488: skovde.se INFO Parent glue for skovde.se found: srv-ext-dns02.skovde.se (2001:67c:15e8:d1:0:0:0:19)
+ 20.488: skovde.se INFO Checking glue for srv-ext-dns01.skovde.se (194.16.15.18).
+ 21.001: skovde.se INFO Child glue for skovde.se found: srv-ext-dns01.skovde.se (194.16.15.18)
+ 21.001: skovde.se INFO Checking glue for srv-ext-dns01.skovde.se (2001:67c:15e8:d1:0:0:0:18).
+ 21.224: skovde.se INFO Child glue for skovde.se found: srv-ext-dns01.skovde.se (2001:67c:15e8:d1:0:0:0:18)
+ 21.225: skovde.se INFO Checking glue for srv-ext-dns02.skovde.se (194.16.15.19).
+ 21.267: skovde.se INFO Child glue for skovde.se found: srv-ext-dns02.skovde.se (194.16.15.19)
+ 21.267: skovde.se INFO Checking glue for srv-ext-dns02.skovde.se (2001:67c:15e8:d1:0:0:0:19).
+ 21.349: skovde.se INFO Child glue for skovde.se found: srv-ext-dns02.skovde.se (2001:67c:15e8:d1:0:0:0:19)
+ 21.349: skovde.se INFO Parent glue for skovde.se found: srv-ext-dns01.skovde.se (194.16.15.18)
+ 21.349: skovde.se INFO Parent glue for skovde.se found: srv-ext-dns01.skovde.se (2001:67c:15e8:d1:0:0:0:18)
+ 21.350: skovde.se INFO Parent glue for skovde.se found: srv-ext-dns02.skovde.se (194.16.15.19)
+ 21.350: skovde.se INFO Parent glue for skovde.se found: srv-ext-dns02.skovde.se (2001:67c:15e8:d1:0:0:0:19)
+ 21.404: skovde.se INFO It is possible to build a referral packet for skovde.se that works without EDNS0.
+ 21.405: skovde.se INFO Previously used name servers for skovde.se: 
+ 21.405: skovde.se INFO Done testing delegation for skovde.se.
+ 21.405: skovde.se INFO Begin testing name server srv-ext-dns01.skovde.se.
+ 21.405: skovde.se INFO Begin testing host srv-ext-dns01.skovde.se.
+ 21.490: skovde.se INFO Begin testing address 194.16.15.18.
+ 49.309: skovde.se WARNING Could not find reverse address for 194.16.15.18 (18.15.16.194.in-addr.arpa.).
+ 49.309: skovde.se INFO Done testing address 194.16.15.18.
+ 49.309: skovde.se INFO Begin testing address 2001:67c:15e8:d1:0:0:0:18.
+ 49.832: skovde.se INFO Done testing address 2001:67c:15e8:d1:0:0:0:18.
+ 49.832: skovde.se INFO Done testing host srv-ext-dns01.skovde.se.
+ 49.928: skovde.se INFO Name server srv-ext-dns01.skovde.se (194.16.15.18) answers queries over UDP.
+ 50.024: skovde.se INFO Name server srv-ext-dns01.skovde.se (194.16.15.18) answers queries over TCP.
+ 50.105: skovde.se WARNING Name server srv-ext-dns01.skovde.se (194.16.15.18) is recursive.
+ 50.353: skovde.se INFO Name server srv-ext-dns01.skovde.se (194.16.15.18) authoritative for skovde.se.
+ 50.648: skovde.se INFO Name server srv-ext-dns01.skovde.se (194.16.15.18) closed for zone transfer of skovde.se.
+ 50.698: skovde.se NOTICE No answer received from 194.16.15.18 when querying for hostname.bind/CH/TXT.
+ 62.910: skovde.se INFO Name server srv-ext-dns01.skovde.se (2001:67c:15e8:d1:0:0:0:18) answers queries over UDP.
+ 63.024: skovde.se INFO Name server srv-ext-dns01.skovde.se (2001:67c:15e8:d1:0:0:0:18) answers queries over TCP.
+ 63.104: skovde.se WARNING Name server srv-ext-dns01.skovde.se (2001:67c:15e8:d1:0:0:0:18) is recursive.
+ 63.540: skovde.se INFO Name server srv-ext-dns01.skovde.se (2001:67c:15e8:d1:0:0:0:18) authoritative for skovde.se.
+ 64.028: skovde.se INFO Name server srv-ext-dns01.skovde.se (2001:67c:15e8:d1:0:0:0:18) closed for zone transfer of skovde.se.
+ 64.103: skovde.se NOTICE No answer received from 2001:67c:15e8:d1:0:0:0:18 when querying for hostname.bind/CH/TXT.
+ 76.286: skovde.se INFO Done testing name server srv-ext-dns01.skovde.se.
+ 76.287: skovde.se INFO Begin testing name server srv-ext-dns02.skovde.se.
+ 76.287: skovde.se INFO Begin testing host srv-ext-dns02.skovde.se.
+ 76.287: skovde.se INFO Begin testing address 194.16.15.19.
+ 76.712: skovde.se WARNING Could not find reverse address for 194.16.15.19 (19.15.16.194.in-addr.arpa.).
+ 76.712: skovde.se INFO Done testing address 194.16.15.19.
+ 76.713: skovde.se INFO Begin testing address 2001:67c:15e8:d1:0:0:0:19.
+ 76.979: skovde.se INFO Done testing address 2001:67c:15e8:d1:0:0:0:19.
+ 76.979: skovde.se INFO Done testing host srv-ext-dns02.skovde.se.
+ 77.000: skovde.se INFO Name server srv-ext-dns02.skovde.se (194.16.15.19) answers queries over UDP.
+ 77.036: skovde.se INFO Name server srv-ext-dns02.skovde.se (194.16.15.19) answers queries over TCP.
+ 77.086: skovde.se WARNING Name server srv-ext-dns02.skovde.se (194.16.15.19) is recursive.
+ 77.167: skovde.se INFO Name server srv-ext-dns02.skovde.se (194.16.15.19) authoritative for skovde.se.
+ 77.421: skovde.se INFO Name server srv-ext-dns02.skovde.se (194.16.15.19) closed for zone transfer of skovde.se.
+ 77.442: skovde.se NOTICE No answer received from 194.16.15.19 when querying for hostname.bind/CH/TXT.
+ 89.621: skovde.se INFO Name server srv-ext-dns02.skovde.se (2001:67c:15e8:d1:0:0:0:19) answers queries over UDP.
+ 89.708: skovde.se INFO Name server srv-ext-dns02.skovde.se (2001:67c:15e8:d1:0:0:0:19) answers queries over TCP.
+ 89.780: skovde.se WARNING Name server srv-ext-dns02.skovde.se (2001:67c:15e8:d1:0:0:0:19) is recursive.
+ 89.951: skovde.se INFO Name server srv-ext-dns02.skovde.se (2001:67c:15e8:d1:0:0:0:19) authoritative for skovde.se.
+ 90.289: skovde.se INFO Name server srv-ext-dns02.skovde.se (2001:67c:15e8:d1:0:0:0:19) closed for zone transfer of skovde.se.
+ 90.332: skovde.se NOTICE No answer received from 2001:67c:15e8:d1:0:0:0:19 when querying for hostname.bind/CH/TXT.
+100.480: skovde.se INFO Done testing name server srv-ext-dns02.skovde.se.
+100.482: skovde.se INFO Begin testing zone consistency for skovde.se.
+100.532: skovde.se INFO SOA at address 2001:67c:15e8:d1:0:0:0:18 has serial 2880259634.
+100.552: skovde.se INFO SOA at address 194.16.15.19 has serial 2880259634.
+100.593: skovde.se INFO SOA at address 2001:67c:15e8:d1:0:0:0:19 has serial 2880259634.
+100.614: skovde.se INFO SOA at address 194.16.15.18 has serial 2880259634.
+100.614: skovde.se INFO All SOA records have consistent serial numbers.
+100.614: skovde.se INFO All other fields in the SOA record are consistent among all name servers.
+100.748: skovde.se NOTICE The listed nameservers for skovde.se all report the same set of nameservers.
+100.748: skovde.se INFO Done testing zone consistency for skovde.se.
+100.748: skovde.se INFO Begin testing SOA parameters for skovde.se.
+100.768: skovde.se INFO Found SOA record for skovde.se.
+100.768: skovde.se INFO Begin testing host srv-ext-dns01.skovde.se.
+100.769: skovde.se INFO Begin testing address 194.16.15.18.
+100.770: skovde.se WARNING Could not find reverse address for 194.16.15.18 (18.15.16.194.in-addr.arpa.).
+100.770: skovde.se INFO Done testing address 194.16.15.18.
+100.770: skovde.se INFO Begin testing address 2001:67c:15e8:d1:0:0:0:18.
+100.772: skovde.se INFO Done testing address 2001:67c:15e8:d1:0:0:0:18.
+100.772: skovde.se INFO Done testing host srv-ext-dns01.skovde.se.
+100.772: skovde.se INFO SOA MNAME for skovde.se valid (srv-ext-dns01.skovde.se).
+100.772: skovde.se INFO SOA MNAME for skovde.se (srv-ext-dns01.skovde.se) listed as NS.
+100.792: skovde.se INFO SOA MNAME for skovde.se (srv-ext-dns01.skovde.se) is authoritative.
+100.840: skovde.se INFO SOA MNAME for skovde.se (srv-ext-dns01.skovde.se) is authoritative.
+100.840: skovde.se INFO Begin testing email address postmaster@skovde.se.
+100.953: skovde.se INFO Mail exchangers for postmaster@skovde.se found srv-vsp01.skovde.se,srv-vsp02.skovde.se,email.skovde.se.
+100.953: skovde.se INFO All mail servers for postmaster@skovde.se are in zone skovde.se.
+100.953: skovde.se INFO Begin testing host srv-vsp01.skovde.se.
+101.147: skovde.se INFO Begin testing address 194.16.15.77.
+101.606: skovde.se INFO Done testing address 194.16.15.77.
+101.606: skovde.se INFO Begin testing address 2001:67c:15e8:d1:0:0:0:77.
+102.023: skovde.se INFO Done testing address 2001:67c:15e8:d1:0:0:0:77.
+102.023: skovde.se INFO Done testing host srv-vsp01.skovde.se.
+102.023: skovde.se INFO Begin testing host srv-vsp02.skovde.se.
+102.226: skovde.se INFO Begin testing address 194.16.15.78.
+102.604: skovde.se INFO Done testing address 194.16.15.78.
+102.604: skovde.se INFO Begin testing address 2001:67c:15e8:d1:0:0:0:78.
+102.838: skovde.se INFO Done testing address 2001:67c:15e8:d1:0:0:0:78.
+102.838: skovde.se INFO Done testing host srv-vsp02.skovde.se.
+102.839: skovde.se INFO Begin testing host email.skovde.se.
+103.047: skovde.se INFO Begin testing address 194.16.15.78.
+103.048: skovde.se INFO Done testing address 194.16.15.78.
+103.048: skovde.se INFO Begin testing address 194.16.15.77.
+103.049: skovde.se INFO Done testing address 194.16.15.77.
+103.050: skovde.se INFO Done testing host email.skovde.se.
+103.132: skovde.se INFO Done testing email address postmaster@skovde.se.
+103.132: skovde.se INFO Successful attempt to deliver email for SOA RNAME of skovde.se (postmaster.skovde.se) using postmaster@skovde.se.
+103.132: skovde.se INFO SOA TTL for skovde.se OK (3600) - recommended >= 3600.
+103.132: skovde.se INFO SOA refresh for skovde.se OK (86400) - recommended >= 14400.
+103.132: skovde.se INFO SOA retry for skovde.se OK (3600) - recommended >= 3600.
+103.132: skovde.se INFO SOA expire for skovde.se OK (604800) - recommended >= 604800.
+103.133: skovde.se INFO SOA minimum for skovde.se OK (300) - recommended between 300 and 86400.
+103.133: skovde.se INFO Done testing SOA parameters for skovde.se.
+103.133: skovde.se INFO Begin testing connectivity for skovde.se.
+103.850: skovde.se NOTICE Zone announced by fewer than two IPv4 ASN.
+104.620: skovde.se NOTICE Zone announced by fewer than two IPv6 ASN.
+104.620: skovde.se INFO Done testing connectivity for skovde.se.
+104.621: skovde.se INFO Begin testing DNSSEC for skovde.se.
+104.633: skovde.se INFO Did not find DS record for skovde.se at parent.
+104.865: skovde.se INFO Servers for skovde.se have consistent extra processing status.
+104.902: skovde.se INFO Authenticated denial records not found for skovde.se.
+104.921: skovde.se INFO Did not find DNSKEY record for skovde.se at child.
+104.921: skovde.se INFO No DNSKEY(s) found at child, other tests skipped.
+104.921: skovde.se INFO Done testing DNSSEC for skovde.se.
+104.922: skovde.se INFO Test completed for zone skovde.se.

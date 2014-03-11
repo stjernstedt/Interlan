@@ -1,0 +1,90 @@
+  0.000: dalsed.se INFO Begin testing zone dalsed.se with version 1.2.
+  0.000: dalsed.se INFO Begin testing delegation for dalsed.se.
+  5.706: dalsed.se INFO Name servers listed at parent: dns5.telia.com,ns1.dalsnet.se,ns2.dalsnet.se
+  6.944: dalsed.se INFO Name servers listed at child: ns1.dalsnet.se,ns2.dalsnet.se
+  6.944: dalsed.se ERROR Superfluous name server listed at parent: dns5.telia.com
+  6.945: dalsed.se NOTICE No IPv6 name servers found.
+  7.219: dalsed.se INFO Done testing delegation for dalsed.se.
+  7.219: dalsed.se INFO Begin testing name server ns1.dalsnet.se.
+  7.219: dalsed.se INFO Begin testing host ns1.dalsnet.se.
+  7.220: dalsed.se INFO Begin testing address 194.17.152.2.
+ 12.382: dalsed.se INFO Done testing address 194.17.152.2.
+ 12.382: dalsed.se INFO Done testing host ns1.dalsnet.se.
+ 12.400: dalsed.se INFO Name server ns1.dalsnet.se (194.17.152.2) answers queries over UDP.
+ 12.433: dalsed.se INFO Name server ns1.dalsnet.se (194.17.152.2) answers queries over TCP.
+ 12.450: dalsed.se INFO Name server ns1.dalsnet.se (194.17.152.2) is not recursive.
+ 12.468: dalsed.se INFO Name server ns1.dalsnet.se (194.17.152.2) authoritative for dalsed.se.
+ 12.511: dalsed.se INFO Name server ns1.dalsnet.se (194.17.152.2) closed for zone transfer of dalsed.se.
+ 12.531: dalsed.se INFO Legacy name server ID for ns1.dalsnet.se (194.17.152.2): hostname.bind = new.server
+ 12.548: dalsed.se INFO Legacy name server ID for ns1.dalsnet.se (194.17.152.2): version.bind = Contact administrator in SOA
+ 12.582: dalsed.se NOTICE No answer received from 194.17.152.2 when querying for version.server/CH/TXT.
+ 12.582: dalsed.se INFO Done testing name server ns1.dalsnet.se.
+ 12.582: dalsed.se INFO Begin testing name server ns2.dalsnet.se.
+ 12.583: dalsed.se INFO Begin testing host ns2.dalsnet.se.
+ 12.583: dalsed.se INFO Begin testing address 194.17.150.10.
+ 13.141: dalsed.se INFO Done testing address 194.17.150.10.
+ 13.141: dalsed.se INFO Done testing host ns2.dalsnet.se.
+ 13.160: dalsed.se INFO Name server ns2.dalsnet.se (194.17.150.10) answers queries over UDP.
+ 13.194: dalsed.se INFO Name server ns2.dalsnet.se (194.17.150.10) answers queries over TCP.
+ 13.233: dalsed.se WARNING Name server ns2.dalsnet.se (194.17.150.10) is recursive.
+ 13.251: dalsed.se INFO Name server ns2.dalsnet.se (194.17.150.10) authoritative for dalsed.se.
+ 13.301: dalsed.se INFO Name server ns2.dalsnet.se (194.17.150.10) closed for zone transfer of dalsed.se.
+ 13.318: dalsed.se INFO Legacy name server ID for ns2.dalsnet.se (194.17.150.10): hostname.bind = ns2.dalsnet.se
+ 13.336: dalsed.se INFO Legacy name server ID for ns2.dalsnet.se (194.17.150.10): version.bind = Contact administrator in SOA
+ 13.370: dalsed.se NOTICE No answer received from 194.17.150.10 when querying for version.server/CH/TXT.
+ 13.371: dalsed.se INFO Done testing name server ns2.dalsnet.se.
+ 13.371: dalsed.se INFO Begin testing zone consistency for dalsed.se.
+ 13.916: dalsed.se INFO SOA at address 194.17.152.2 has serial 2010010800.
+ 13.922: dalsed.se ERROR DNS SERVFAIL when querying 81.228.11.68 for SOA
+ 13.941: dalsed.se INFO SOA at address 194.17.150.10 has serial 2010010800.
+ 13.941: dalsed.se INFO All SOA records have consistent serial numbers.
+ 13.941: dalsed.se INFO All SOA records are consistent among all name servers.
+ 13.941: dalsed.se INFO Done testing zone consistency for dalsed.se.
+ 13.941: dalsed.se INFO Begin testing SOA parameters for dalsed.se.
+ 13.959: dalsed.se INFO Found SOA record for dalsed.se.
+ 13.959: dalsed.se INFO Begin testing host ns1.dalsnet.se.
+ 13.960: dalsed.se INFO Begin testing address 194.17.152.2.
+ 13.962: dalsed.se INFO Done testing address 194.17.152.2.
+ 13.962: dalsed.se INFO Done testing host ns1.dalsnet.se.
+ 13.962: dalsed.se INFO SOA MNAME for dalsed.se valid (ns1.dalsnet.se).
+ 13.962: dalsed.se INFO SOA MNAME for dalsed.se (ns1.dalsnet.se) listed as NS.
+ 13.980: dalsed.se INFO SOA MNAME for dalsed.se (ns1.dalsnet.se) is authoritative.
+ 13.980: dalsed.se INFO Begin testing email address hostmaster@mellerud.se.
+ 14.217: dalsed.se INFO Mail exchangers for hostmaster@mellerud.se found mx.amal.se,mx.bengtsfors.se.
+ 14.218: dalsed.se INFO Begin testing host mx.amal.se.
+ 14.693: dalsed.se INFO Begin testing address 194.17.150.14.
+ 15.929: dalsed.se INFO Done testing address 194.17.150.14.
+ 15.929: dalsed.se INFO Done testing host mx.amal.se.
+ 15.929: dalsed.se INFO Begin testing mail server mx.amal.se (194.17.150.14) with hostmaster@mellerud.se.
+ 31.043: dalsed.se INFO SMTP banner: mx.amal.se ESMTP
+ 46.634: dalsed.se INFO SMTP testing of mx.amal.se (194.17.150.14) with hostmaster@mellerud.se succeeded without errors.
+ 46.634: dalsed.se INFO Done testing mail server mx.amal.se (194.17.150.14) with hostmaster@mellerud.se.
+ 46.635: dalsed.se INFO Begin testing host mx.bengtsfors.se.
+ 47.069: dalsed.se INFO Begin testing address 194.17.153.17.
+ 47.897: dalsed.se INFO Done testing address 194.17.153.17.
+ 47.897: dalsed.se INFO Done testing host mx.bengtsfors.se.
+ 47.898: dalsed.se INFO Delivery over IPv4 to hostmaster@mellerud.se ok.
+ 47.898: dalsed.se INFO Delivery over IPv6 to hostmaster@mellerud.se could not be done.
+ 47.898: dalsed.se INFO Done testing email address hostmaster@mellerud.se.
+ 47.898: dalsed.se INFO Successful attempt to deliver email for SOA RNAME of dalsed.se (hostmaster.mellerud.se) using hostmaster@mellerud.se.
+ 47.898: dalsed.se INFO SOA TTL for dalsed.se OK (3600) - recommended >= 3600.
+ 47.898: dalsed.se NOTICE SOA refresh for dalsed.se too small (10800) - recommended >= 14400.
+ 47.898: dalsed.se INFO SOA retry for dalsed.se OK (3600) - recommended >= 3600.
+ 47.898: dalsed.se INFO SOA expire for dalsed.se OK (604800) - recommended >= 604800.
+ 47.898: dalsed.se INFO SOA minimum for dalsed.se OK (3600) - recommended between 300 and 86400.
+ 47.898: dalsed.se INFO Done testing SOA parameters for dalsed.se.
+ 47.899: dalsed.se INFO Begin testing connectivity for dalsed.se.
+ 48.510: dalsed.se INFO Name server 194.17.152.2 announced by: 3301
+ 49.174: dalsed.se INFO Name server 194.17.150.10 announced by: 3301
+ 49.175: dalsed.se INFO Zone announced by IPv4 ASN: 3301
+ 49.175: dalsed.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 49.175: dalsed.se INFO Zone announced by IPv6 ASN: 
+ 49.175: dalsed.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 49.175: dalsed.se INFO Done testing connectivity for dalsed.se.
+ 49.175: dalsed.se INFO Begin testing DNSSEC for dalsed.se.
+ 49.222: dalsed.se INFO Did not find DS record for dalsed.se at parent.
+ 49.291: dalsed.se INFO Servers for dalsed.se have consistent extra processing status.
+ 49.291: dalsed.se INFO Did not find DNSKEY record for dalsed.se at child.
+ 49.291: dalsed.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 49.291: dalsed.se INFO Done testing DNSSEC for dalsed.se.
+ 49.291: dalsed.se INFO Test completed for zone dalsed.se.

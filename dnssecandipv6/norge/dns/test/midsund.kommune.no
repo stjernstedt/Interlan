@@ -1,0 +1,82 @@
+  0.000: midsund.kommune.no INFO Begin testing zone midsund.kommune.no with version 1.6.1.
+  0.415: midsund.kommune.no INFO Begin testing delegation for midsund.kommune.no.
+  8.074: midsund.kommune.no INFO Name servers listed at parent: ns.mimer.no,ns2.mimer.no
+  9.438: midsund.kommune.no INFO Name servers listed at child: ns.mimer.no,ns2.mimer.no
+  9.438: midsund.kommune.no NOTICE No IPv6 name servers found.
+  9.591: midsund.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.733: midsund.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.861: midsund.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.993: midsund.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.585: midsund.kommune.no INFO It is possible to build a referral packet for midsund.kommune.no that works without EDNS0.
+ 11.110: midsund.kommune.no INFO Previously used name servers for midsund.kommune.no: 
+ 11.110: midsund.kommune.no INFO Done testing delegation for midsund.kommune.no.
+ 11.110: midsund.kommune.no INFO Begin testing name server ns.mimer.no.
+ 11.111: midsund.kommune.no INFO Begin testing host ns.mimer.no.
+ 11.266: midsund.kommune.no INFO Begin testing address 213.184.200.1.
+ 16.594: midsund.kommune.no INFO Done testing address 213.184.200.1.
+ 16.594: midsund.kommune.no INFO Done testing host ns.mimer.no.
+ 16.771: midsund.kommune.no INFO Name server ns.mimer.no (213.184.200.1) answers queries over UDP.
+ 16.820: midsund.kommune.no INFO Name server ns.mimer.no (213.184.200.1) answers queries over TCP.
+ 16.867: midsund.kommune.no INFO Name server ns.mimer.no (213.184.200.1) is not recursive.
+ 16.975: midsund.kommune.no INFO Name server ns.mimer.no (213.184.200.1) authoritative for midsund.kommune.no.
+ 17.044: midsund.kommune.no INFO Name server ns.mimer.no (213.184.200.1) closed for zone transfer of midsund.kommune.no.
+ 17.091: midsund.kommune.no INFO Legacy name server ID for ns.mimer.no (213.184.200.1): hostname.bind = odin
+ 17.118: midsund.kommune.no INFO Legacy name server ID for ns.mimer.no (213.184.200.1): version.bind = 9.7.3
+ 17.173: midsund.kommune.no NOTICE No answer received from 213.184.200.1 when querying for version.server/CH/TXT.
+ 17.174: midsund.kommune.no INFO Done testing name server ns.mimer.no.
+ 17.174: midsund.kommune.no INFO Begin testing name server ns2.mimer.no.
+ 17.174: midsund.kommune.no INFO Begin testing host ns2.mimer.no.
+ 17.286: midsund.kommune.no INFO Begin testing address 213.184.200.2.
+ 18.294: midsund.kommune.no INFO Done testing address 213.184.200.2.
+ 18.294: midsund.kommune.no INFO Done testing host ns2.mimer.no.
+ 18.445: midsund.kommune.no INFO Name server ns2.mimer.no (213.184.200.2) answers queries over UDP.
+ 18.513: midsund.kommune.no INFO Name server ns2.mimer.no (213.184.200.2) answers queries over TCP.
+ 18.544: midsund.kommune.no INFO Name server ns2.mimer.no (213.184.200.2) is not recursive.
+ 18.674: midsund.kommune.no INFO Name server ns2.mimer.no (213.184.200.2) authoritative for midsund.kommune.no.
+ 18.763: midsund.kommune.no INFO Name server ns2.mimer.no (213.184.200.2) closed for zone transfer of midsund.kommune.no.
+ 18.801: midsund.kommune.no INFO Legacy name server ID for ns2.mimer.no (213.184.200.2): hostname.bind = fjordgyn
+ 18.858: midsund.kommune.no INFO Legacy name server ID for ns2.mimer.no (213.184.200.2): version.bind = 9.7.3
+ 18.919: midsund.kommune.no NOTICE No answer received from 213.184.200.2 when querying for version.server/CH/TXT.
+ 18.920: midsund.kommune.no INFO Done testing name server ns2.mimer.no.
+ 18.920: midsund.kommune.no INFO Begin testing zone consistency for midsund.kommune.no.
+ 19.718: midsund.kommune.no INFO SOA at address 213.184.200.1 has serial 20011117.
+ 20.318: midsund.kommune.no INFO SOA at address 213.184.200.2 has serial 20011117.
+ 20.318: midsund.kommune.no INFO All SOA records have consistent serial numbers.
+ 20.318: midsund.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 20.803: midsund.kommune.no NOTICE The listed nameservers for midsund.kommune.no all report the same set of nameservers.
+ 20.803: midsund.kommune.no INFO Done testing zone consistency for midsund.kommune.no.
+ 20.803: midsund.kommune.no INFO Begin testing SOA parameters for midsund.kommune.no.
+ 20.829: midsund.kommune.no INFO Found SOA record for midsund.kommune.no.
+ 20.829: midsund.kommune.no INFO Begin testing host ns.mimer.no.
+ 21.033: midsund.kommune.no INFO Begin testing address 213.184.200.1.
+ 21.622: midsund.kommune.no INFO Done testing address 213.184.200.1.
+ 21.622: midsund.kommune.no INFO Done testing host ns.mimer.no.
+ 21.622: midsund.kommune.no INFO SOA MNAME for midsund.kommune.no valid (ns.mimer.no).
+ 21.622: midsund.kommune.no INFO SOA MNAME for midsund.kommune.no (ns.mimer.no) listed as NS.
+ 21.827: midsund.kommune.no INFO SOA MNAME for midsund.kommune.no (ns.mimer.no) is authoritative.
+ 21.828: midsund.kommune.no INFO Begin testing email address hostmaster@mimer.no.
+ 22.371: midsund.kommune.no INFO Mail exchangers for hostmaster@mimer.no found pop.mimer.no.
+ 22.371: midsund.kommune.no INFO Begin testing host pop.mimer.no.
+ 22.658: midsund.kommune.no INFO Begin testing address 213.184.202.5.
+ 23.277: midsund.kommune.no INFO Done testing address 213.184.202.5.
+ 23.277: midsund.kommune.no INFO Done testing host pop.mimer.no.
+ 23.504: midsund.kommune.no INFO Done testing email address hostmaster@mimer.no.
+ 23.504: midsund.kommune.no INFO Successful attempt to deliver email for SOA RNAME of midsund.kommune.no (hostmaster.mimer.no) using hostmaster@mimer.no.
+ 23.504: midsund.kommune.no INFO SOA TTL for midsund.kommune.no OK (86400) - recommended >= 3600.
+ 23.504: midsund.kommune.no INFO SOA refresh for midsund.kommune.no OK (86400) - recommended >= 14400.
+ 23.504: midsund.kommune.no INFO SOA retry for midsund.kommune.no OK (3600) - recommended >= 3600.
+ 23.504: midsund.kommune.no INFO SOA expire for midsund.kommune.no OK (3600000) - recommended >= 604800.
+ 23.504: midsund.kommune.no INFO SOA minimum for midsund.kommune.no OK (86400) - recommended between 300 and 86400.
+ 23.505: midsund.kommune.no INFO Done testing SOA parameters for midsund.kommune.no.
+ 23.505: midsund.kommune.no INFO Begin testing connectivity for midsund.kommune.no.
+ 24.820: midsund.kommune.no NOTICE Zone announced by fewer than two IPv4 ASN.
+ 24.820: midsund.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 24.820: midsund.kommune.no INFO Done testing connectivity for midsund.kommune.no.
+ 24.820: midsund.kommune.no INFO Begin testing DNSSEC for midsund.kommune.no.
+ 24.920: midsund.kommune.no INFO Did not find DS record for midsund.kommune.no at parent.
+ 25.040: midsund.kommune.no INFO Servers for midsund.kommune.no have consistent extra processing status.
+ 25.112: midsund.kommune.no INFO Authenticated denial records not found for midsund.kommune.no.
+ 25.150: midsund.kommune.no INFO Did not find DNSKEY record for midsund.kommune.no at child.
+ 25.150: midsund.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 25.150: midsund.kommune.no INFO Done testing DNSSEC for midsund.kommune.no.
+ 25.150: midsund.kommune.no INFO Test completed for zone midsund.kommune.no.

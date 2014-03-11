@@ -1,0 +1,136 @@
+  0.000: tranas.se INFO Begin testing zone tranas.se with version 1.6.1.
+  0.709: tranas.se INFO Begin testing delegation for tranas.se.
+ 12.638: tranas.se INFO Name servers listed at parent: dns01.tranas.se,dns02.dkdata.se
+ 19.982: tranas.se INFO Name servers listed at child: dns01.tranas.se,dns02.dkdata.se
+ 19.983: tranas.se NOTICE No IPv6 name servers found.
+ 20.094: tranas.se INFO Parent glue for tranas.se found: dns01.tranas.se (193.180.229.75)
+ 20.263: tranas.se INFO Parent glue for tranas.se found: dns02.dkdata.se (193.12.142.29)
+ 20.355: tranas.se INFO Checking glue for dns01.tranas.se (193.180.229.75).
+ 20.431: tranas.se INFO Child glue for tranas.se found: dns01.tranas.se (193.180.229.75)
+ 20.432: tranas.se INFO Checking glue for dns02.dkdata.se (193.12.142.29).
+ 20.432: tranas.se INFO Parent glue for tranas.se found: dns01.tranas.se (193.180.229.75)
+ 20.432: tranas.se INFO Parent glue for tranas.se found: dns02.dkdata.se (193.12.142.29)
+ 20.726: tranas.se NOTICE DNS lookup error (SERVFAIL).
+ 20.849: tranas.se NOTICE DNS lookup error (SERVFAIL).
+ 21.794: tranas.se INFO It is possible to build a referral packet for tranas.se that works without EDNS0.
+ 22.736: tranas.se INFO Previously used name servers for tranas.se: 
+ 22.736: tranas.se INFO Done testing delegation for tranas.se.
+ 22.736: tranas.se INFO Begin testing name server dns01.tranas.se.
+ 22.736: tranas.se INFO Begin testing host dns01.tranas.se.
+ 23.199: tranas.se INFO Begin testing address 193.180.229.75.
+ 33.231: tranas.se INFO Done testing address 193.180.229.75.
+ 33.231: tranas.se INFO Done testing host dns01.tranas.se.
+ 34.287: tranas.se INFO Name server dns01.tranas.se (193.180.229.75) answers queries over UDP.
+ 34.355: tranas.se INFO Name server dns01.tranas.se (193.180.229.75) answers queries over TCP.
+ 34.437: tranas.se INFO Name server dns01.tranas.se (193.180.229.75) is not recursive.
+ 34.814: tranas.se INFO Name server dns01.tranas.se (193.180.229.75) authoritative for tranas.se.
+ 34.938: tranas.se INFO Name server dns01.tranas.se (193.180.229.75) closed for zone transfer of tranas.se.
+ 34.978: tranas.se NOTICE No answer received from 193.180.229.75 when querying for hostname.bind/CH/TXT.
+ 47.157: tranas.se INFO Done testing name server dns01.tranas.se.
+ 47.157: tranas.se INFO Begin testing name server dns02.dkdata.se.
+ 47.157: tranas.se INFO Begin testing host dns02.dkdata.se.
+ 47.158: tranas.se INFO Begin testing address 193.12.142.29.
+ 49.393: tranas.se INFO Done testing address 193.12.142.29.
+ 49.393: tranas.se INFO Done testing host dns02.dkdata.se.
+ 49.458: tranas.se INFO Name server dns02.dkdata.se (193.12.142.29) answers queries over UDP.
+ 49.505: tranas.se INFO Name server dns02.dkdata.se (193.12.142.29) answers queries over TCP.
+ 49.537: tranas.se INFO Name server dns02.dkdata.se (193.12.142.29) is not recursive.
+ 49.629: tranas.se INFO Name server dns02.dkdata.se (193.12.142.29) authoritative for tranas.se.
+ 49.737: tranas.se INFO Name server dns02.dkdata.se (193.12.142.29) closed for zone transfer of tranas.se.
+ 49.753: tranas.se NOTICE No answer received from 193.12.142.29 when querying for hostname.bind/CH/TXT.
+ 61.841: tranas.se INFO Done testing name server dns02.dkdata.se.
+ 61.841: tranas.se INFO Begin testing zone consistency for tranas.se.
+ 62.172: tranas.se INFO SOA at address 193.180.229.75 has serial 2014012160.
+ 62.219: tranas.se INFO SOA at address 193.12.142.29 has serial 2014012160.
+ 62.219: tranas.se INFO All SOA records have consistent serial numbers.
+ 62.219: tranas.se INFO All other fields in the SOA record are consistent among all name servers.
+ 62.438: tranas.se NOTICE The listed nameservers for tranas.se all report the same set of nameservers.
+ 62.438: tranas.se INFO Done testing zone consistency for tranas.se.
+ 62.438: tranas.se INFO Begin testing SOA parameters for tranas.se.
+ 62.458: tranas.se INFO Found SOA record for tranas.se.
+ 62.468: tranas.se INFO Begin testing host dns01.tranas.se.
+ 62.613: tranas.se INFO Begin testing address 193.180.229.75.
+ 62.834: tranas.se INFO Done testing address 193.180.229.75.
+ 62.834: tranas.se INFO Done testing host dns01.tranas.se.
+ 62.834: tranas.se INFO SOA MNAME for tranas.se valid (dns01.tranas.se).
+ 62.835: tranas.se INFO SOA MNAME for tranas.se (dns01.tranas.se) listed as NS.
+ 63.102: tranas.se INFO SOA MNAME for tranas.se (dns01.tranas.se) is authoritative.
+ 63.102: tranas.se INFO Begin testing email address hostmaster@tranas.se.
+ 63.276: tranas.se INFO Mail exchangers for hostmaster@tranas.se found email.tranas.se.
+ 63.276: tranas.se INFO All mail servers for hostmaster@tranas.se are in zone tranas.se.
+ 63.277: tranas.se INFO Begin testing host email.tranas.se.
+ 63.606: tranas.se INFO Begin testing address 193.180.229.66.
+ 64.351: tranas.se INFO Done testing address 193.180.229.66.
+ 64.351: tranas.se INFO Done testing host email.tranas.se.
+ 64.523: tranas.se INFO Done testing email address hostmaster@tranas.se.
+ 64.524: tranas.se INFO Successful attempt to deliver email for SOA RNAME of tranas.se (hostmaster.tranas.se) using hostmaster@tranas.se.
+ 64.524: tranas.se INFO SOA TTL for tranas.se OK (3600) - recommended >= 3600.
+ 64.524: tranas.se INFO SOA refresh for tranas.se OK (14400) - recommended >= 14400.
+ 64.524: tranas.se INFO SOA retry for tranas.se OK (3600) - recommended >= 3600.
+ 64.524: tranas.se INFO SOA expire for tranas.se OK (1209600) - recommended >= 604800.
+ 64.524: tranas.se INFO SOA minimum for tranas.se OK (3600) - recommended between 300 and 86400.
+ 64.524: tranas.se INFO Done testing SOA parameters for tranas.se.
+ 64.524: tranas.se INFO Begin testing connectivity for tranas.se.
+ 65.606: tranas.se INFO Zone announced by more than one ASN.
+ 65.606: tranas.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 65.606: tranas.se INFO Done testing connectivity for tranas.se.
+ 65.606: tranas.se INFO Begin testing DNSSEC for tranas.se.
+ 65.662: tranas.se INFO Found DS record for tranas.se at parent.
+ 65.701: tranas.se INFO Nameserver 193.180.229.75 does DNSSEC extra processing.
+ 65.747: tranas.se INFO Nameserver 193.12.142.29 does DNSSEC extra processing.
+ 65.747: tranas.se INFO Servers for tranas.se have consistent extra processing status.
+ 65.799: tranas.se INFO Authenticated denial records found for tranas.se, of type NSEC3.
+ 65.825: tranas.se INFO NSEC3PARAM record found for tranas.se.
+ 65.826: tranas.se INFO NSEC3 for tranas.se is set to use 50 iterations, which is less than 100 and thus OK.
+ 65.826: tranas.se INFO Found DNSKEY record for tranas.se at child.
+ 65.826: tranas.se INFO Consistent security for tranas.se.
+ 65.826: tranas.se INFO Checking DNSSEC at child (tranas.se).
+ 65.826: tranas.se INFO tranas.se's key with tag 55367 uses algorithm number 8 (RSA/SHA-256).
+ 65.826: tranas.se INFO Algorithm number 8 is OK.
+ 65.826: tranas.se INFO DNSKEY tranas.se (tag 55367) is marked as a secure entry point (SEP).
+ 65.826: tranas.se INFO tranas.se's key with tag 29388 uses algorithm number 8 (RSA/SHA-256).
+ 65.826: tranas.se INFO Algorithm number 8 is OK.
+ 65.827: tranas.se INFO tranas.se's key with tag 9226 uses algorithm number 8 (RSA/SHA-256).
+ 65.827: tranas.se INFO Algorithm number 8 is OK.
+ 65.827: tranas.se INFO tranas.se's key with tag 23551 uses algorithm number 8 (RSA/SHA-256).
+ 65.827: tranas.se INFO Algorithm number 8 is OK.
+ 65.827: tranas.se INFO DNSKEY tranas.se (tag 23551) is marked as a secure entry point (SEP).
+ 65.827: tranas.se INFO DNSSEC signature expires at: Sat Mar 15 11:15:10 2014
+ 65.827: tranas.se INFO Duration for RRSIG(tranas.se/IN/DNSKEY/29388) is OK (608400 seconds).
+ 65.853: tranas.se INFO DNSSEC signature RRSIG(tranas.se/IN/DNSKEY/29388) matches records.
+ 65.854: tranas.se INFO DNSSEC signature valid: RRSIG(tranas.se/IN/DNSKEY/29388)
+ 65.854: tranas.se INFO DNSSEC signature expires at: Sat Mar 15 11:15:10 2014
+ 65.854: tranas.se INFO Duration for RRSIG(tranas.se/IN/DNSKEY/23551) is OK (608400 seconds).
+ 65.855: tranas.se INFO DNSSEC signature RRSIG(tranas.se/IN/DNSKEY/23551) matches records.
+ 65.855: tranas.se INFO DNSSEC signature valid: RRSIG(tranas.se/IN/DNSKEY/23551)
+ 65.855: tranas.se INFO DNSSEC signature expires at: Sat Mar 15 11:15:10 2014
+ 65.856: tranas.se INFO Duration for RRSIG(tranas.se/IN/DNSKEY/55367) is OK (608400 seconds).
+ 65.874: tranas.se INFO DNSSEC signature RRSIG(tranas.se/IN/DNSKEY/55367) matches records.
+ 65.874: tranas.se INFO DNSSEC signature valid: RRSIG(tranas.se/IN/DNSKEY/55367)
+ 65.874: tranas.se INFO Enough valid signatures found for tranas.se.
+ 65.913: tranas.se INFO DNSSEC signature expires at: Tue Mar 18 11:15:10 2014
+ 65.913: tranas.se INFO Duration for RRSIG(tranas.se/IN/SOA/29388) is OK (867600 seconds).
+ 65.925: tranas.se INFO DNSSEC signature RRSIG(tranas.se/IN/SOA/29388) matches records.
+ 65.925: tranas.se INFO DNSSEC signature valid: RRSIG(tranas.se/IN/SOA/29388)
+ 65.926: tranas.se INFO Enough valid signatures over SOA RRset found for tranas.se.
+ 65.926: tranas.se INFO DNSSEC child checks for tranas.se complete.
+ 65.926: tranas.se INFO Checking DNSSEC at parent of tranas.se.
+ 65.926: tranas.se INFO tranas.se's key with tag 55367 uses algorithm number 8 (RSA/SHA-256).
+ 65.926: tranas.se INFO Algorithm number 8 is OK.
+ 65.926: tranas.se INFO Parent DS(tranas.se/8/1/55367) refers to valid key at child: DNSKEY(tranas.se/8/55367)
+ 65.926: tranas.se INFO Parent DS(tranas.se) refers to secure entry point (SEP) at child: DS(tranas.se/8/1/55367)
+ 65.927: tranas.se INFO tranas.se's key with tag 55367 uses algorithm number 8 (RSA/SHA-256).
+ 65.927: tranas.se INFO Algorithm number 8 is OK.
+ 65.927: tranas.se INFO Parent DS(tranas.se/8/2/55367) refers to valid key at child: DNSKEY(tranas.se/8/55367)
+ 65.927: tranas.se INFO Parent DS(tranas.se) refers to secure entry point (SEP) at child: DS(tranas.se/8/2/55367)
+ 65.927: tranas.se INFO tranas.se's key with tag 23551 uses algorithm number 8 (RSA/SHA-256).
+ 65.927: tranas.se INFO Algorithm number 8 is OK.
+ 65.927: tranas.se INFO Parent DS(tranas.se/8/1/23551) refers to valid key at child: DNSKEY(tranas.se/8/23551)
+ 65.928: tranas.se INFO Parent DS(tranas.se) refers to secure entry point (SEP) at child: DS(tranas.se/8/1/23551)
+ 65.928: tranas.se INFO tranas.se's key with tag 23551 uses algorithm number 8 (RSA/SHA-256).
+ 65.928: tranas.se INFO Algorithm number 8 is OK.
+ 65.969: tranas.se INFO Parent DS(tranas.se/8/2/23551) refers to valid key at child: DNSKEY(tranas.se/8/23551)
+ 65.969: tranas.se INFO Parent DS(tranas.se) refers to secure entry point (SEP) at child: DS(tranas.se/8/2/23551)
+ 65.969: tranas.se INFO DNSSEC parent checks for tranas.se complete.
+ 65.969: tranas.se INFO Done testing DNSSEC for tranas.se.
+ 65.970: tranas.se INFO Test completed for zone tranas.se.

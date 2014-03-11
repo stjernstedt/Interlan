@@ -1,0 +1,12 @@
+#!/bin/sh
+rndc flush
+for i in `cat domain` ; do
+	res=`host $i| grep IPv6`
+	if [ "$res" != "" ] ; then
+		echo yes,$i
+	fi
+        if [ "$res" = "" ] ; then
+                echo no,$i
+        fi
+done
+

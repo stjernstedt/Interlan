@@ -1,0 +1,133 @@
+  0.000: ltkalmar.se INFO Begin testing zone ltkalmar.se with version 1.6.1.
+  0.490: ltkalmar.se INFO Begin testing delegation for ltkalmar.se.
+  9.688: ltkalmar.se INFO Name servers listed at parent: a.dns.tdc.se,ns1.ltkalmar.se,ns2.ltkalmar.se
+ 12.977: ltkalmar.se INFO Name servers listed at child: a.dns.tdc.se,ns1.ltkalmar.se,ns2.ltkalmar.se
+ 13.062: ltkalmar.se INFO Parent glue for ltkalmar.se found: a.dns.tdc.se (213.50.29.190)
+ 13.185: ltkalmar.se INFO Parent glue for ltkalmar.se found: ns1.ltkalmar.se (193.235.216.10)
+ 13.329: ltkalmar.se INFO Parent glue for ltkalmar.se found: ns2.ltkalmar.se (193.235.216.11)
+ 13.434: ltkalmar.se INFO Checking glue for a.dns.tdc.se (213.50.29.190).
+ 13.434: ltkalmar.se INFO Checking glue for ns1.ltkalmar.se (193.235.216.10).
+ 13.479: ltkalmar.se INFO Child glue for ltkalmar.se found: ns1.ltkalmar.se (193.235.216.10)
+ 13.493: ltkalmar.se INFO Checking glue for ns2.ltkalmar.se (193.235.216.11).
+ 13.533: ltkalmar.se INFO Child glue for ltkalmar.se found: ns2.ltkalmar.se (193.235.216.11)
+ 13.552: ltkalmar.se INFO Parent glue for ltkalmar.se found: a.dns.tdc.se (213.50.29.190)
+ 13.552: ltkalmar.se INFO Parent glue for ltkalmar.se found: ns1.ltkalmar.se (193.235.216.10)
+ 13.553: ltkalmar.se INFO Parent glue for ltkalmar.se found: ns2.ltkalmar.se (193.235.216.11)
+ 14.718: ltkalmar.se INFO It is possible to build a referral packet for ltkalmar.se that works without EDNS0.
+ 15.592: ltkalmar.se INFO Previously used name servers for ltkalmar.se: 
+ 15.592: ltkalmar.se INFO Done testing delegation for ltkalmar.se.
+ 15.592: ltkalmar.se INFO Begin testing name server a.dns.tdc.se.
+ 15.593: ltkalmar.se INFO Begin testing host a.dns.tdc.se.
+ 15.596: ltkalmar.se INFO Begin testing address 213.50.29.190.
+ 28.961: ltkalmar.se INFO Done testing address 213.50.29.190.
+ 28.964: ltkalmar.se INFO Begin testing address 2001:6f0:0:1:0:0:2:2.
+ 29.282: ltkalmar.se INFO Done testing address 2001:6f0:0:1:0:0:2:2.
+ 29.282: ltkalmar.se INFO Done testing host a.dns.tdc.se.
+ 29.326: ltkalmar.se INFO Name server a.dns.tdc.se (213.50.29.190) answers queries over UDP.
+ 29.387: ltkalmar.se INFO Name server a.dns.tdc.se (213.50.29.190) answers queries over TCP.
+ 29.434: ltkalmar.se INFO Name server a.dns.tdc.se (213.50.29.190) is not recursive.
+ 29.534: ltkalmar.se INFO Name server a.dns.tdc.se (213.50.29.190) authoritative for ltkalmar.se.
+ 29.566: ltkalmar.se INFO Name server a.dns.tdc.se (213.50.29.190) closed for zone transfer of ltkalmar.se.
+ 29.579: ltkalmar.se INFO Legacy name server ID for a.dns.tdc.se (213.50.29.190): hostname.bind = a
+ 29.588: ltkalmar.se INFO Legacy name server ID for a.dns.tdc.se (213.50.29.190): version.bind = tssk, well what can i say?
+ 29.706: ltkalmar.se NOTICE No answer received from 213.50.29.190 when querying for version.server/CH/TXT.
+ 29.759: ltkalmar.se INFO Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) answers queries over UDP.
+ 29.842: ltkalmar.se INFO Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) answers queries over TCP.
+ 29.903: ltkalmar.se INFO Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) is not recursive.
+ 30.039: ltkalmar.se INFO Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) authoritative for ltkalmar.se.
+ 30.068: ltkalmar.se INFO Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) closed for zone transfer of ltkalmar.se.
+ 30.080: ltkalmar.se INFO Legacy name server ID for a.dns.tdc.se (2001:6f0:0:1:0:0:2:2): hostname.bind = a
+ 30.106: ltkalmar.se INFO Legacy name server ID for a.dns.tdc.se (2001:6f0:0:1:0:0:2:2): version.bind = tssk, well what can i say?
+ 30.144: ltkalmar.se NOTICE No answer received from 2001:6f0:0:1:0:0:2:2 when querying for version.server/CH/TXT.
+ 30.158: ltkalmar.se INFO Done testing name server a.dns.tdc.se.
+ 30.158: ltkalmar.se INFO Begin testing name server ns1.ltkalmar.se.
+ 30.158: ltkalmar.se INFO Begin testing host ns1.ltkalmar.se.
+ 30.322: ltkalmar.se INFO Begin testing address 193.235.216.10.
+ 33.390: ltkalmar.se INFO Done testing address 193.235.216.10.
+ 33.390: ltkalmar.se INFO Done testing host ns1.ltkalmar.se.
+ 33.635: ltkalmar.se INFO Name server ns1.ltkalmar.se (193.235.216.10) answers queries over UDP.
+ 33.699: ltkalmar.se INFO Name server ns1.ltkalmar.se (193.235.216.10) answers queries over TCP.
+ 33.724: ltkalmar.se INFO Name server ns1.ltkalmar.se (193.235.216.10) is not recursive.
+ 33.857: ltkalmar.se INFO Name server ns1.ltkalmar.se (193.235.216.10) authoritative for ltkalmar.se.
+ 33.908: ltkalmar.se INFO Name server ns1.ltkalmar.se (193.235.216.10) closed for zone transfer of ltkalmar.se.
+ 33.933: ltkalmar.se INFO Legacy name server ID for ns1.ltkalmar.se (193.235.216.10): hostname.bind = ns1.ltkalmar.se
+ 33.984: ltkalmar.se INFO Legacy name server ID for ns1.ltkalmar.se (193.235.216.10): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 34.088: ltkalmar.se NOTICE No answer received from 193.235.216.10 when querying for version.server/CH/TXT.
+ 34.091: ltkalmar.se INFO Done testing name server ns1.ltkalmar.se.
+ 34.092: ltkalmar.se INFO Begin testing name server ns2.ltkalmar.se.
+ 34.092: ltkalmar.se INFO Begin testing host ns2.ltkalmar.se.
+ 34.461: ltkalmar.se INFO Begin testing address 193.235.216.11.
+ 35.632: ltkalmar.se INFO Done testing address 193.235.216.11.
+ 35.632: ltkalmar.se INFO Done testing host ns2.ltkalmar.se.
+ 36.310: ltkalmar.se INFO Name server ns2.ltkalmar.se (193.235.216.11) answers queries over UDP.
+ 36.446: ltkalmar.se INFO Name server ns2.ltkalmar.se (193.235.216.11) answers queries over TCP.
+ 36.498: ltkalmar.se INFO Name server ns2.ltkalmar.se (193.235.216.11) is not recursive.
+ 36.747: ltkalmar.se INFO Name server ns2.ltkalmar.se (193.235.216.11) authoritative for ltkalmar.se.
+ 36.854: ltkalmar.se INFO Name server ns2.ltkalmar.se (193.235.216.11) closed for zone transfer of ltkalmar.se.
+ 36.915: ltkalmar.se INFO Legacy name server ID for ns2.ltkalmar.se (193.235.216.11): hostname.bind = ns2.ltkalmar.se
+ 36.979: ltkalmar.se INFO Legacy name server ID for ns2.ltkalmar.se (193.235.216.11): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 37.120: ltkalmar.se NOTICE No answer received from 193.235.216.11 when querying for version.server/CH/TXT.
+ 37.120: ltkalmar.se INFO Done testing name server ns2.ltkalmar.se.
+ 37.121: ltkalmar.se INFO Begin testing zone consistency for ltkalmar.se.
+ 39.368: ltkalmar.se INFO SOA at address 193.235.216.10 has serial 2014012908.
+ 39.544: ltkalmar.se INFO SOA at address 2001:6f0:0:1:0:0:2:2 has serial 2014012908.
+ 39.629: ltkalmar.se INFO SOA at address 193.235.216.11 has serial 2014012908.
+ 39.750: ltkalmar.se INFO SOA at address 213.50.29.190 has serial 2014012908.
+ 39.772: ltkalmar.se INFO All SOA records have consistent serial numbers.
+ 39.772: ltkalmar.se INFO All other fields in the SOA record are consistent among all name servers.
+ 41.195: ltkalmar.se NOTICE The listed nameservers for ltkalmar.se all report the same set of nameservers.
+ 41.199: ltkalmar.se INFO Done testing zone consistency for ltkalmar.se.
+ 41.203: ltkalmar.se INFO Begin testing SOA parameters for ltkalmar.se.
+ 41.228: ltkalmar.se INFO Found SOA record for ltkalmar.se.
+ 41.231: ltkalmar.se INFO Begin testing host ns1.ltkalmar.se.
+ 41.461: ltkalmar.se INFO Begin testing address 193.235.216.10.
+ 41.661: ltkalmar.se INFO Done testing address 193.235.216.10.
+ 41.667: ltkalmar.se INFO Done testing host ns1.ltkalmar.se.
+ 41.683: ltkalmar.se INFO SOA MNAME for ltkalmar.se valid (ns1.ltkalmar.se).
+ 41.684: ltkalmar.se INFO SOA MNAME for ltkalmar.se (ns1.ltkalmar.se) listed as NS.
+ 41.958: ltkalmar.se INFO SOA MNAME for ltkalmar.se (ns1.ltkalmar.se) is authoritative.
+ 41.961: ltkalmar.se INFO Begin testing email address domainmanager@ltkalmar.se.
+ 42.270: ltkalmar.se INFO Mail exchangers for domainmanager@ltkalmar.se found smtp-in.sto-hy.se.stejtech.net,smtp-in.sto-ste.se.stejtech.net.
+ 42.318: ltkalmar.se INFO Begin testing host smtp-in.sto-hy.se.stejtech.net.
+ 43.898: ltkalmar.se INFO Begin testing address 91.236.209.10.
+ 45.969: ltkalmar.se INFO Done testing address 91.236.209.10.
+ 45.969: ltkalmar.se INFO Begin testing address 79.136.102.100.
+ 47.612: ltkalmar.se INFO Done testing address 79.136.102.100.
+ 47.612: ltkalmar.se INFO Begin testing address 91.236.208.10.
+ 48.771: ltkalmar.se INFO Done testing address 91.236.208.10.
+ 48.771: ltkalmar.se INFO Begin testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 49.940: ltkalmar.se INFO Done testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 49.942: ltkalmar.se INFO Begin testing address 2001:67c:27e0:2110:0:0:0:1b01.
+ 54.918: ltkalmar.se INFO Done testing address 2001:67c:27e0:2110:0:0:0:1b01.
+ 54.923: ltkalmar.se INFO Begin testing address 2001:9b0:1:703:0:0:0:1b01.
+ 56.046: ltkalmar.se INFO Done testing address 2001:9b0:1:703:0:0:0:1b01.
+ 56.067: ltkalmar.se INFO Done testing host smtp-in.sto-hy.se.stejtech.net.
+ 56.072: ltkalmar.se INFO Begin testing host smtp-in.sto-ste.se.stejtech.net.
+ 56.758: ltkalmar.se INFO Begin testing address 79.136.102.90.
+ 57.780: ltkalmar.se INFO Done testing address 79.136.102.90.
+ 57.780: ltkalmar.se INFO Begin testing address 83.140.31.145.
+ 62.936: ltkalmar.se INFO Done testing address 83.140.31.145.
+ 62.937: ltkalmar.se INFO Begin testing address 2001:9b0:1:703:0:0:0:b002.
+ 63.924: ltkalmar.se INFO Done testing address 2001:9b0:1:703:0:0:0:b002.
+ 63.925: ltkalmar.se INFO Done testing host smtp-in.sto-ste.se.stejtech.net.
+ 63.926: ltkalmar.se INFO Done testing email address domainmanager@ltkalmar.se.
+ 63.926: ltkalmar.se INFO Successful attempt to deliver email for SOA RNAME of ltkalmar.se (domainmanager.ltkalmar.se) using domainmanager@ltkalmar.se.
+ 63.926: ltkalmar.se INFO SOA TTL for ltkalmar.se OK (86400) - recommended >= 3600.
+ 63.926: ltkalmar.se NOTICE SOA refresh for ltkalmar.se too small (3600) - recommended >= 14400.
+ 63.926: ltkalmar.se NOTICE SOA retry for ltkalmar.se too small (600) - recommended >= 3600.
+ 63.926: ltkalmar.se WARNING SOA expire for ltkalmar.se too small (4800) - recommended >= 259200.
+ 63.926: ltkalmar.se NOTICE SOA expire for ltkalmar.se lower than refresh.
+ 63.931: ltkalmar.se INFO SOA minimum for ltkalmar.se OK (3600) - recommended between 300 and 86400.
+ 63.931: ltkalmar.se INFO Done testing SOA parameters for ltkalmar.se.
+ 63.931: ltkalmar.se INFO Begin testing connectivity for ltkalmar.se.
+ 65.496: ltkalmar.se ERROR Zone announced by fewer than two IPv4 ASN.
+ 66.035: ltkalmar.se WARNING Zone announced by fewer than two IPv6 ASN.
+ 66.035: ltkalmar.se INFO Done testing connectivity for ltkalmar.se.
+ 66.035: ltkalmar.se INFO Begin testing DNSSEC for ltkalmar.se.
+ 66.075: ltkalmar.se INFO Did not find DS record for ltkalmar.se at parent.
+ 66.187: ltkalmar.se INFO Servers for ltkalmar.se have consistent extra processing status.
+ 66.223: ltkalmar.se INFO Authenticated denial records not found for ltkalmar.se.
+ 66.251: ltkalmar.se INFO Did not find DNSKEY record for ltkalmar.se at child.
+ 66.251: ltkalmar.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 66.251: ltkalmar.se INFO Done testing DNSSEC for ltkalmar.se.
+ 66.252: ltkalmar.se INFO Test completed for zone ltkalmar.se.

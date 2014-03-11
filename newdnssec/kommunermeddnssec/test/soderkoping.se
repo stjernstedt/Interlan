@@ -1,0 +1,69 @@
+  0.000: soderkoping.se INFO Begin testing zone soderkoping.se with version 1.6.1.
+  0.661: soderkoping.se INFO Begin testing delegation for soderkoping.se.
+ 12.697: soderkoping.se INFO Name servers listed at parent: ns.soderkoping.se
+ 14.446: soderkoping.se INFO Name servers listed at child: ns.soderkoping.se
+ 14.447: soderkoping.se ERROR Too few name servers (1).
+ 14.447: soderkoping.se ERROR Too few IPv4 name servers (1).
+ 14.447: soderkoping.se NOTICE No IPv6 name servers found.
+ 14.591: soderkoping.se INFO Parent glue for soderkoping.se found: ns.soderkoping.se (195.67.51.130)
+ 14.607: soderkoping.se INFO Checking glue for ns.soderkoping.se (195.67.51.130).
+ 14.716: soderkoping.se INFO Child glue for soderkoping.se found: ns.soderkoping.se (195.67.51.130)
+ 14.716: soderkoping.se INFO Parent glue for soderkoping.se found: ns.soderkoping.se (195.67.51.130)
+ 15.365: soderkoping.se INFO It is possible to build a referral packet for soderkoping.se that works without EDNS0.
+ 15.902: soderkoping.se INFO Previously used name servers for soderkoping.se: 
+ 15.902: soderkoping.se INFO Done testing delegation for soderkoping.se.
+ 15.903: soderkoping.se INFO Begin testing name server ns.soderkoping.se.
+ 15.903: soderkoping.se INFO Begin testing host ns.soderkoping.se.
+ 16.359: soderkoping.se INFO Begin testing address 195.67.51.130.
+ 36.692: soderkoping.se INFO Done testing address 195.67.51.130.
+ 36.692: soderkoping.se INFO Done testing host ns.soderkoping.se.
+ 37.221: soderkoping.se INFO Name server ns.soderkoping.se (195.67.51.130) answers queries over UDP.
+ 37.251: soderkoping.se INFO Name server ns.soderkoping.se (195.67.51.130) answers queries over TCP.
+ 37.293: soderkoping.se INFO Name server ns.soderkoping.se (195.67.51.130) is not recursive.
+ 38.179: soderkoping.se INFO Name server ns.soderkoping.se (195.67.51.130) authoritative for soderkoping.se.
+ 38.424: soderkoping.se INFO Name server ns.soderkoping.se (195.67.51.130) closed for zone transfer of soderkoping.se.
+ 38.459: soderkoping.se NOTICE No answer received from 195.67.51.130 when querying for hostname.bind/CH/TXT.
+ 50.579: soderkoping.se INFO Done testing name server ns.soderkoping.se.
+ 50.580: soderkoping.se INFO Begin testing zone consistency for soderkoping.se.
+ 51.248: soderkoping.se INFO SOA at address 195.67.51.130 has serial 2011033224.
+ 51.248: soderkoping.se INFO All SOA records have consistent serial numbers.
+ 51.248: soderkoping.se INFO All other fields in the SOA record are consistent among all name servers.
+ 51.584: soderkoping.se NOTICE The listed nameservers for soderkoping.se all report the same set of nameservers.
+ 51.584: soderkoping.se INFO Done testing zone consistency for soderkoping.se.
+ 51.584: soderkoping.se INFO Begin testing SOA parameters for soderkoping.se.
+ 51.593: soderkoping.se INFO Found SOA record for soderkoping.se.
+ 51.594: soderkoping.se INFO Begin testing host ns.soderkoping.se.
+ 51.736: soderkoping.se INFO Begin testing address 195.67.51.130.
+ 52.736: soderkoping.se INFO Done testing address 195.67.51.130.
+ 52.736: soderkoping.se INFO Done testing host ns.soderkoping.se.
+ 52.736: soderkoping.se INFO SOA MNAME for soderkoping.se valid (ns.soderkoping.se).
+ 52.736: soderkoping.se INFO SOA MNAME for soderkoping.se (ns.soderkoping.se) listed as NS.
+ 52.932: soderkoping.se INFO SOA MNAME for soderkoping.se (ns.soderkoping.se) is authoritative.
+ 52.933: soderkoping.se INFO Begin testing email address hostmaster@soderkoping.se.
+ 53.070: soderkoping.se INFO Mail exchangers for hostmaster@soderkoping.se found mx01.soderkoping.se.
+ 53.070: soderkoping.se INFO All mail servers for hostmaster@soderkoping.se are in zone soderkoping.se.
+ 53.071: soderkoping.se INFO Begin testing host mx01.soderkoping.se.
+ 53.230: soderkoping.se INFO Begin testing address 195.67.51.130.
+ 54.121: soderkoping.se INFO Done testing address 195.67.51.130.
+ 54.121: soderkoping.se INFO Done testing host mx01.soderkoping.se.
+ 54.303: soderkoping.se INFO Done testing email address hostmaster@soderkoping.se.
+ 54.304: soderkoping.se INFO Successful attempt to deliver email for SOA RNAME of soderkoping.se (hostmaster.soderkoping.se) using hostmaster@soderkoping.se.
+ 54.304: soderkoping.se INFO SOA TTL for soderkoping.se OK (3600) - recommended >= 3600.
+ 54.304: soderkoping.se NOTICE SOA refresh for soderkoping.se too small (900) - recommended >= 14400.
+ 54.304: soderkoping.se NOTICE SOA retry for soderkoping.se too small (600) - recommended >= 3600.
+ 54.304: soderkoping.se NOTICE SOA expire for soderkoping.se too small (86400) - recommended >= 604800.
+ 54.304: soderkoping.se INFO SOA minimum for soderkoping.se OK (3600) - recommended between 300 and 86400.
+ 54.304: soderkoping.se INFO Done testing SOA parameters for soderkoping.se.
+ 54.304: soderkoping.se INFO Begin testing connectivity for soderkoping.se.
+ 54.856: soderkoping.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 54.856: soderkoping.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 54.856: soderkoping.se INFO Done testing connectivity for soderkoping.se.
+ 54.856: soderkoping.se INFO Begin testing DNSSEC for soderkoping.se.
+ 54.896: soderkoping.se INFO Did not find DS record for soderkoping.se at parent.
+ 54.913: soderkoping.se INFO Servers for soderkoping.se have consistent extra processing status.
+ 54.947: soderkoping.se INFO Authenticated denial records not found for soderkoping.se.
+ 54.976: soderkoping.se INFO Did not find DNSKEY record for soderkoping.se at child.
+ 54.976: soderkoping.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 54.976: soderkoping.se INFO Done testing DNSSEC for soderkoping.se.
+ 54.976: soderkoping.se INFO Test completed for zone soderkoping.se.
+99.999 soderkoping.se WARNING SOA expire to low 86400 seconds,1 days 0 hours, 

@@ -1,0 +1,82 @@
+  0.000: arboga.se INFO Begin testing zone arboga.se with version 1.6.1.
+  1.251: arboga.se INFO Begin testing delegation for arboga.se.
+ 14.874: arboga.se INFO Name servers listed at parent: ns2.compose.se,web1-srv.arboga.se
+ 17.732: arboga.se INFO Name servers listed at child: ns2.compose.se,web1-srv.arboga.se
+ 17.733: arboga.se NOTICE No IPv6 name servers found.
+ 17.832: arboga.se INFO Parent glue for arboga.se found: ns2.compose.se (193.188.248.9)
+ 18.018: arboga.se INFO Parent glue for arboga.se found: web1-srv.arboga.se (217.175.119.20)
+ 18.171: arboga.se INFO Checking glue for ns2.compose.se (193.188.248.9).
+ 18.171: arboga.se INFO Checking glue for web1-srv.arboga.se (217.175.119.20).
+ 18.248: arboga.se INFO Child glue for arboga.se found: web1-srv.arboga.se (217.175.119.20)
+ 18.248: arboga.se INFO Parent glue for arboga.se found: ns2.compose.se (193.188.248.9)
+ 18.249: arboga.se INFO Parent glue for arboga.se found: web1-srv.arboga.se (217.175.119.20)
+ 19.661: arboga.se INFO It is possible to build a referral packet for arboga.se that works without EDNS0.
+ 20.880: arboga.se INFO Previously used name servers for arboga.se: 
+ 20.880: arboga.se INFO Done testing delegation for arboga.se.
+ 20.880: arboga.se INFO Begin testing name server ns2.compose.se.
+ 20.880: arboga.se INFO Begin testing host ns2.compose.se.
+ 21.372: arboga.se INFO Begin testing address 193.188.248.9.
+ 35.940: arboga.se INFO Done testing address 193.188.248.9.
+ 35.940: arboga.se INFO Done testing host ns2.compose.se.
+ 36.444: arboga.se INFO Name server ns2.compose.se (193.188.248.9) answers queries over UDP.
+ 36.591: arboga.se INFO Name server ns2.compose.se (193.188.248.9) answers queries over TCP.
+ 36.887: arboga.se INFO Name server ns2.compose.se (193.188.248.9) is not recursive.
+ 37.066: arboga.se INFO Name server ns2.compose.se (193.188.248.9) authoritative for arboga.se.
+ 37.331: arboga.se INFO Name server ns2.compose.se (193.188.248.9) closed for zone transfer of arboga.se.
+ 37.375: arboga.se NOTICE No answer received from 193.188.248.9 when querying for hostname.bind/CH/TXT.
+ 47.611: arboga.se INFO Done testing name server ns2.compose.se.
+ 47.612: arboga.se INFO Begin testing name server web1-srv.arboga.se.
+ 47.612: arboga.se INFO Begin testing host web1-srv.arboga.se.
+ 48.341: arboga.se INFO Begin testing address 217.175.119.20.
+ 51.072: arboga.se INFO Done testing address 217.175.119.20.
+ 51.072: arboga.se INFO Done testing host web1-srv.arboga.se.
+ 51.682: arboga.se INFO Name server web1-srv.arboga.se (217.175.119.20) answers queries over UDP.
+ 52.186: arboga.se INFO Name server web1-srv.arboga.se (217.175.119.20) answers queries over TCP.
+ 52.276: arboga.se INFO Name server web1-srv.arboga.se (217.175.119.20) is not recursive.
+ 52.551: arboga.se INFO Name server web1-srv.arboga.se (217.175.119.20) authoritative for arboga.se.
+ 52.819: arboga.se INFO Name server web1-srv.arboga.se (217.175.119.20) closed for zone transfer of arboga.se.
+ 52.835: arboga.se NOTICE No answer received from 217.175.119.20 when querying for hostname.bind/CH/TXT.
+ 65.027: arboga.se INFO Done testing name server web1-srv.arboga.se.
+ 65.027: arboga.se INFO Begin testing zone consistency for arboga.se.
+ 66.540: arboga.se INFO SOA at address 193.188.248.9 has serial 741.
+ 66.576: arboga.se INFO SOA at address 217.175.119.20 has serial 741.
+ 66.576: arboga.se INFO All SOA records have consistent serial numbers.
+ 66.576: arboga.se INFO All other fields in the SOA record are consistent among all name servers.
+ 67.285: arboga.se NOTICE The listed nameservers for arboga.se all report the same set of nameservers.
+ 67.285: arboga.se INFO Done testing zone consistency for arboga.se.
+ 67.285: arboga.se INFO Begin testing SOA parameters for arboga.se.
+ 67.324: arboga.se INFO Found SOA record for arboga.se.
+ 67.324: arboga.se INFO Begin testing host web1-srv.arboga.se.
+ 67.649: arboga.se INFO Begin testing address 217.175.119.20.
+ 68.316: arboga.se INFO Done testing address 217.175.119.20.
+ 68.316: arboga.se INFO Done testing host web1-srv.arboga.se.
+ 68.316: arboga.se INFO SOA MNAME for arboga.se valid (web1-srv.arboga.se).
+ 68.316: arboga.se INFO SOA MNAME for arboga.se (web1-srv.arboga.se) listed as NS.
+ 68.620: arboga.se INFO SOA MNAME for arboga.se (web1-srv.arboga.se) is authoritative.
+ 68.620: arboga.se INFO Begin testing email address hostmaster@arboga.se.
+ 69.070: arboga.se INFO Mail exchangers for hostmaster@arboga.se found imsva.arboga.se.
+ 69.070: arboga.se INFO All mail servers for hostmaster@arboga.se are in zone arboga.se.
+ 69.070: arboga.se INFO Begin testing host imsva.arboga.se.
+ 69.608: arboga.se INFO Begin testing address 217.175.119.47.
+ 70.738: arboga.se INFO Done testing address 217.175.119.47.
+ 70.738: arboga.se INFO Done testing host imsva.arboga.se.
+ 71.000: arboga.se INFO Done testing email address hostmaster@arboga.se.
+ 71.000: arboga.se INFO Successful attempt to deliver email for SOA RNAME of arboga.se (hostmaster.arboga.se) using hostmaster@arboga.se.
+ 71.000: arboga.se INFO SOA TTL for arboga.se OK (3600) - recommended >= 3600.
+ 71.000: arboga.se INFO SOA refresh for arboga.se OK (14400) - recommended >= 14400.
+ 71.000: arboga.se INFO SOA retry for arboga.se OK (3600) - recommended >= 3600.
+ 71.000: arboga.se INFO SOA expire for arboga.se OK (604800) - recommended >= 604800.
+ 71.000: arboga.se INFO SOA minimum for arboga.se OK (3600) - recommended between 300 and 86400.
+ 71.000: arboga.se INFO Done testing SOA parameters for arboga.se.
+ 71.000: arboga.se INFO Begin testing connectivity for arboga.se.
+ 72.408: arboga.se INFO Zone announced by more than one ASN.
+ 72.408: arboga.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 72.408: arboga.se INFO Done testing connectivity for arboga.se.
+ 72.408: arboga.se INFO Begin testing DNSSEC for arboga.se.
+ 72.510: arboga.se INFO Did not find DS record for arboga.se at parent.
+ 72.628: arboga.se INFO Servers for arboga.se have consistent extra processing status.
+ 72.687: arboga.se INFO Authenticated denial records not found for arboga.se.
+ 72.728: arboga.se INFO Did not find DNSKEY record for arboga.se at child.
+ 72.728: arboga.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 72.728: arboga.se INFO Done testing DNSSEC for arboga.se.
+ 72.728: arboga.se INFO Test completed for zone arboga.se.

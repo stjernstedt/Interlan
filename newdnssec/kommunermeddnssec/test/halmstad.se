@@ -1,0 +1,98 @@
+  0.000: halmstad.se INFO Begin testing zone halmstad.se with version 1.6.1.
+  0.760: halmstad.se INFO Begin testing delegation for halmstad.se.
+ 32.156: halmstad.se INFO Name servers listed at parent: ns1.ascio.net,ns2.ascio.net,ns3.ascio.net
+ 39.957: halmstad.se INFO Name servers listed at child: ns1.ascio.net,ns2.ascio.net,ns3.ascio.net
+ 39.957: halmstad.se NOTICE No IPv6 name servers found.
+ 43.946: halmstad.se INFO It is possible to build a referral packet for halmstad.se that works without EDNS0.
+ 46.699: halmstad.se INFO Previously used name servers for halmstad.se: 
+ 46.718: halmstad.se INFO Done testing delegation for halmstad.se.
+ 46.719: halmstad.se INFO Begin testing name server ns1.ascio.net.
+ 46.719: halmstad.se INFO Begin testing host ns1.ascio.net.
+ 47.425: halmstad.se INFO Begin testing address 62.128.146.41.
+ 79.630: halmstad.se INFO Done testing address 62.128.146.41.
+ 79.630: halmstad.se INFO Done testing host ns1.ascio.net.
+ 80.978: halmstad.se INFO Name server ns1.ascio.net (62.128.146.41) answers queries over UDP.
+ 81.335: halmstad.se INFO Name server ns1.ascio.net (62.128.146.41) answers queries over TCP.
+ 81.507: halmstad.se INFO Name server ns1.ascio.net (62.128.146.41) is not recursive.
+ 82.025: halmstad.se INFO Name server ns1.ascio.net (62.128.146.41) authoritative for halmstad.se.
+ 82.224: halmstad.se INFO Name server ns1.ascio.net (62.128.146.41) closed for zone transfer of halmstad.se.
+ 82.297: halmstad.se INFO Legacy name server ID for ns1.ascio.net (62.128.146.41): hostname.bind = nn-ns1
+ 82.604: halmstad.se NOTICE No answer received from 62.128.146.41 when querying for version.server/CH/TXT.
+ 82.604: halmstad.se INFO Done testing name server ns1.ascio.net.
+ 82.604: halmstad.se INFO Begin testing name server ns2.ascio.net.
+ 82.604: halmstad.se INFO Begin testing host ns2.ascio.net.
+ 84.153: halmstad.se INFO Begin testing address 80.237.153.102.
+ 88.099: halmstad.se INFO Done testing address 80.237.153.102.
+ 88.099: halmstad.se INFO Done testing host ns2.ascio.net.
+ 88.989: halmstad.se INFO Name server ns2.ascio.net (80.237.153.102) answers queries over UDP.
+ 89.304: halmstad.se INFO Name server ns2.ascio.net (80.237.153.102) answers queries over TCP.
+ 89.408: halmstad.se INFO Name server ns2.ascio.net (80.237.153.102) is not recursive.
+ 89.665: halmstad.se INFO Name server ns2.ascio.net (80.237.153.102) authoritative for halmstad.se.
+ 90.023: halmstad.se INFO Name server ns2.ascio.net (80.237.153.102) closed for zone transfer of halmstad.se.
+ 90.160: halmstad.se INFO Legacy name server ID for ns2.ascio.net (80.237.153.102): hostname.bind = cgn1srv5.ascio.net
+ 90.203: halmstad.se NOTICE No answer received from 80.237.153.102 when querying for version.bind/CH/TXT.
+ 90.247: halmstad.se NOTICE No answer received from 80.237.153.102 when querying for id.server/CH/TXT.
+ 90.289: halmstad.se NOTICE No answer received from 80.237.153.102 when querying for version.server/CH/TXT.
+ 90.289: halmstad.se INFO Done testing name server ns2.ascio.net.
+ 90.289: halmstad.se INFO Begin testing name server ns3.ascio.net.
+ 90.289: halmstad.se INFO Begin testing host ns3.ascio.net.
+ 91.007: halmstad.se INFO Begin testing address 64.34.211.132.
+111.820: halmstad.se INFO Done testing address 64.34.211.132.
+111.821: halmstad.se INFO Done testing host ns3.ascio.net.
+112.529: halmstad.se INFO Name server ns3.ascio.net (64.34.211.132) answers queries over UDP.
+113.048: halmstad.se INFO Name server ns3.ascio.net (64.34.211.132) answers queries over TCP.
+113.210: halmstad.se INFO Name server ns3.ascio.net (64.34.211.132) is not recursive.
+113.941: halmstad.se INFO Name server ns3.ascio.net (64.34.211.132) authoritative for halmstad.se.
+114.382: halmstad.se INFO Name server ns3.ascio.net (64.34.211.132) closed for zone transfer of halmstad.se.
+114.534: halmstad.se INFO Legacy name server ID for ns3.ascio.net (64.34.211.132): hostname.bind = sat1srv1.ascio.net
+114.780: halmstad.se NOTICE No answer received from 64.34.211.132 when querying for version.bind/CH/TXT.
+114.928: halmstad.se NOTICE No answer received from 64.34.211.132 when querying for id.server/CH/TXT.
+115.107: halmstad.se NOTICE No answer received from 64.34.211.132 when querying for version.server/CH/TXT.
+115.107: halmstad.se INFO Done testing name server ns3.ascio.net.
+115.107: halmstad.se INFO Begin testing zone consistency for halmstad.se.
+118.445: halmstad.se INFO SOA at address 62.128.146.41 has serial 2014030500.
+118.501: halmstad.se INFO SOA at address 80.237.153.102 has serial 2014030500.
+118.728: halmstad.se INFO SOA at address 64.34.211.132 has serial 2014030500.
+118.729: halmstad.se INFO All SOA records have consistent serial numbers.
+118.729: halmstad.se INFO All other fields in the SOA record are consistent among all name servers.
+121.909: halmstad.se NOTICE The listed nameservers for halmstad.se all report the same set of nameservers.
+121.909: halmstad.se INFO Done testing zone consistency for halmstad.se.
+121.910: halmstad.se INFO Begin testing SOA parameters for halmstad.se.
+122.559: halmstad.se INFO Found SOA record for halmstad.se.
+122.559: halmstad.se INFO Begin testing host ns1.ascio.net.
+123.284: halmstad.se INFO Begin testing address 62.128.146.41.
+123.964: halmstad.se INFO Done testing address 62.128.146.41.
+124.011: halmstad.se INFO Done testing host ns1.ascio.net.
+124.012: halmstad.se INFO SOA MNAME for halmstad.se valid (ns1.ascio.net).
+124.012: halmstad.se INFO SOA MNAME for halmstad.se (ns1.ascio.net) listed as NS.
+125.419: halmstad.se INFO SOA MNAME for halmstad.se (ns1.ascio.net) is authoritative.
+125.420: halmstad.se INFO Begin testing email address hostmaster@ascio.net.
+127.119: halmstad.se INFO Mail exchangers for hostmaster@ascio.net found mx1.netbenefit.co.uk,mx2.netbenefit.co.uk.
+127.135: halmstad.se INFO Begin testing host mx1.netbenefit.co.uk.
+128.276: halmstad.se INFO Begin testing address 62.128.158.224.
+129.952: halmstad.se INFO Done testing address 62.128.158.224.
+129.952: halmstad.se INFO Done testing host mx1.netbenefit.co.uk.
+130.942: halmstad.se INFO Begin testing host mx2.netbenefit.co.uk.
+133.780: halmstad.se INFO Begin testing address 212.53.64.42.
+134.982: halmstad.se INFO Done testing address 212.53.64.42.
+134.983: halmstad.se INFO Done testing host mx2.netbenefit.co.uk.
+135.823: halmstad.se INFO Done testing email address hostmaster@ascio.net.
+135.823: halmstad.se INFO Successful attempt to deliver email for SOA RNAME of halmstad.se (hostmaster.ascio.net) using hostmaster@ascio.net.
+135.824: halmstad.se NOTICE SOA TTL for halmstad.se too small (600) - recommended >= 3600.
+135.824: halmstad.se NOTICE SOA refresh for halmstad.se too small (10000) - recommended >= 14400.
+135.824: halmstad.se NOTICE SOA retry for halmstad.se too small (1800) - recommended >= 3600.
+135.824: halmstad.se INFO SOA expire for halmstad.se OK (604800) - recommended >= 604800.
+135.824: halmstad.se INFO SOA minimum for halmstad.se OK (600) - recommended between 300 and 86400.
+135.824: halmstad.se INFO Done testing SOA parameters for halmstad.se.
+135.824: halmstad.se INFO Begin testing connectivity for halmstad.se.
+138.615: halmstad.se INFO Zone announced by more than one ASN.
+138.615: halmstad.se NOTICE Zone announced by fewer than two IPv6 ASN.
+138.615: halmstad.se INFO Done testing connectivity for halmstad.se.
+138.622: halmstad.se INFO Begin testing DNSSEC for halmstad.se.
+138.680: halmstad.se INFO Did not find DS record for halmstad.se at parent.
+139.291: halmstad.se INFO Servers for halmstad.se have consistent extra processing status.
+139.472: halmstad.se INFO Authenticated denial records not found for halmstad.se.
+139.516: halmstad.se INFO Did not find DNSKEY record for halmstad.se at child.
+139.516: halmstad.se INFO No DNSKEY(s) found at child, other tests skipped.
+139.516: halmstad.se INFO Done testing DNSSEC for halmstad.se.
+139.517: halmstad.se INFO Test completed for zone halmstad.se.

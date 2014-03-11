@@ -1,0 +1,120 @@
+  0.000: gnosjo.se INFO Begin testing zone gnosjo.se with version 1.6.1.
+  1.850: gnosjo.se INFO Begin testing delegation for gnosjo.se.
+ 19.921: gnosjo.se INFO Name servers listed at parent: ns01.gnosjo.se,ns02.gnosjo.se
+ 24.853: gnosjo.se INFO Name servers listed at child: ns01.gnosjo.se,ns02.gnosjo.se
+ 24.853: gnosjo.se NOTICE No IPv6 name servers found.
+ 24.937: gnosjo.se INFO Parent glue for gnosjo.se found: ns01.gnosjo.se (82.145.131.4)
+ 25.069: gnosjo.se INFO Parent glue for gnosjo.se found: ns02.gnosjo.se (82.145.131.27)
+ 25.257: gnosjo.se INFO Checking glue for ns01.gnosjo.se (82.145.131.4).
+ 25.497: gnosjo.se INFO Child glue for gnosjo.se found: ns01.gnosjo.se (82.145.131.4)
+ 25.497: gnosjo.se INFO Checking glue for ns02.gnosjo.se (82.145.131.27).
+ 25.529: gnosjo.se INFO Child glue for gnosjo.se found: ns02.gnosjo.se (82.145.131.27)
+ 25.529: gnosjo.se INFO Parent glue for gnosjo.se found: ns01.gnosjo.se (82.145.131.4)
+ 25.529: gnosjo.se INFO Parent glue for gnosjo.se found: ns02.gnosjo.se (82.145.131.27)
+ 26.325: gnosjo.se INFO It is possible to build a referral packet for gnosjo.se that works without EDNS0.
+ 28.169: gnosjo.se INFO Previously used name servers for gnosjo.se: 
+ 28.169: gnosjo.se INFO Done testing delegation for gnosjo.se.
+ 28.169: gnosjo.se INFO Begin testing name server ns01.gnosjo.se.
+ 28.169: gnosjo.se INFO Begin testing host ns01.gnosjo.se.
+ 28.541: gnosjo.se INFO Begin testing address 82.145.131.4.
+ 54.052: gnosjo.se INFO Done testing address 82.145.131.4.
+ 54.053: gnosjo.se INFO Done testing host ns01.gnosjo.se.
+ 55.321: gnosjo.se INFO Name server ns01.gnosjo.se (82.145.131.4) answers queries over UDP.
+ 55.392: gnosjo.se INFO Name server ns01.gnosjo.se (82.145.131.4) answers queries over TCP.
+ 55.505: gnosjo.se INFO Name server ns01.gnosjo.se (82.145.131.4) is not recursive.
+ 55.956: gnosjo.se INFO Name server ns01.gnosjo.se (82.145.131.4) authoritative for gnosjo.se.
+ 56.071: gnosjo.se INFO Name server ns01.gnosjo.se (82.145.131.4) closed for zone transfer of gnosjo.se.
+ 56.130: gnosjo.se NOTICE No answer received from 82.145.131.4 when querying for hostname.bind/CH/TXT.
+ 68.336: gnosjo.se INFO Done testing name server ns01.gnosjo.se.
+ 68.336: gnosjo.se INFO Begin testing name server ns02.gnosjo.se.
+ 68.337: gnosjo.se INFO Begin testing host ns02.gnosjo.se.
+ 68.476: gnosjo.se INFO Begin testing address 82.145.131.27.
+ 69.402: gnosjo.se INFO Done testing address 82.145.131.27.
+ 69.402: gnosjo.se INFO Done testing host ns02.gnosjo.se.
+ 69.712: gnosjo.se INFO Name server ns02.gnosjo.se (82.145.131.27) answers queries over UDP.
+ 69.781: gnosjo.se INFO Name server ns02.gnosjo.se (82.145.131.27) answers queries over TCP.
+ 69.815: gnosjo.se INFO Name server ns02.gnosjo.se (82.145.131.27) is not recursive.
+ 69.937: gnosjo.se INFO Name server ns02.gnosjo.se (82.145.131.27) authoritative for gnosjo.se.
+ 70.352: gnosjo.se INFO Name server ns02.gnosjo.se (82.145.131.27) closed for zone transfer of gnosjo.se.
+ 70.368: gnosjo.se NOTICE No answer received from 82.145.131.27 when querying for hostname.bind/CH/TXT.
+ 82.524: gnosjo.se INFO Done testing name server ns02.gnosjo.se.
+ 82.524: gnosjo.se INFO Begin testing zone consistency for gnosjo.se.
+ 83.675: gnosjo.se INFO SOA at address 82.145.131.4 has serial 2014011617.
+ 83.827: gnosjo.se INFO SOA at address 82.145.131.27 has serial 2014011617.
+ 83.827: gnosjo.se INFO All SOA records have consistent serial numbers.
+ 83.827: gnosjo.se INFO All other fields in the SOA record are consistent among all name servers.
+ 84.827: gnosjo.se NOTICE The listed nameservers for gnosjo.se all report the same set of nameservers.
+ 84.827: gnosjo.se INFO Done testing zone consistency for gnosjo.se.
+ 84.827: gnosjo.se INFO Begin testing SOA parameters for gnosjo.se.
+ 84.848: gnosjo.se INFO Found SOA record for gnosjo.se.
+ 84.849: gnosjo.se INFO Begin testing host ns01.gnosjo.se.
+ 85.055: gnosjo.se INFO Begin testing address 82.145.131.4.
+ 85.069: gnosjo.se INFO Done testing address 82.145.131.4.
+ 85.069: gnosjo.se INFO Done testing host ns01.gnosjo.se.
+ 85.069: gnosjo.se INFO SOA MNAME for gnosjo.se valid (ns01.gnosjo.se).
+ 85.070: gnosjo.se INFO SOA MNAME for gnosjo.se (ns01.gnosjo.se) listed as NS.
+ 85.258: gnosjo.se INFO SOA MNAME for gnosjo.se (ns01.gnosjo.se) is authoritative.
+ 85.258: gnosjo.se INFO Begin testing email address itavdelningen@gnosjo.se.
+ 85.449: gnosjo.se INFO Mail exchangers for itavdelningen@gnosjo.se found mail.gnosjo.se.
+ 85.449: gnosjo.se INFO All mail servers for itavdelningen@gnosjo.se are in zone gnosjo.se.
+ 85.450: gnosjo.se INFO Begin testing host mail.gnosjo.se.
+ 85.948: gnosjo.se INFO Begin testing address 82.145.131.9.
+ 89.472: gnosjo.se INFO Done testing address 82.145.131.9.
+ 89.473: gnosjo.se INFO Done testing host mail.gnosjo.se.
+ 90.141: gnosjo.se INFO Done testing email address itavdelningen@gnosjo.se.
+ 90.141: gnosjo.se INFO Successful attempt to deliver email for SOA RNAME of gnosjo.se (itavdelningen.gnosjo.se) using itavdelningen@gnosjo.se.
+ 90.141: gnosjo.se INFO SOA TTL for gnosjo.se OK (3600) - recommended >= 3600.
+ 90.141: gnosjo.se INFO SOA refresh for gnosjo.se OK (14400) - recommended >= 14400.
+ 90.141: gnosjo.se INFO SOA retry for gnosjo.se OK (10800) - recommended >= 3600.
+ 90.141: gnosjo.se INFO SOA expire for gnosjo.se OK (604800) - recommended >= 604800.
+ 90.141: gnosjo.se INFO SOA minimum for gnosjo.se OK (3600) - recommended between 300 and 86400.
+ 90.141: gnosjo.se INFO Done testing SOA parameters for gnosjo.se.
+ 90.141: gnosjo.se INFO Begin testing connectivity for gnosjo.se.
+ 92.829: gnosjo.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 92.829: gnosjo.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 92.829: gnosjo.se INFO Done testing connectivity for gnosjo.se.
+ 92.829: gnosjo.se INFO Begin testing DNSSEC for gnosjo.se.
+ 92.885: gnosjo.se INFO Found DS record for gnosjo.se at parent.
+ 92.950: gnosjo.se INFO Nameserver 82.145.131.4 does DNSSEC extra processing.
+ 92.983: gnosjo.se INFO Nameserver 82.145.131.27 does DNSSEC extra processing.
+ 92.983: gnosjo.se INFO Servers for gnosjo.se have consistent extra processing status.
+ 93.378: gnosjo.se INFO Authenticated denial records found for gnosjo.se, of type NSEC3.
+ 93.422: gnosjo.se INFO NSEC3PARAM record found for gnosjo.se.
+ 93.423: gnosjo.se INFO NSEC3 for gnosjo.se is set to use 50 iterations, which is less than 100 and thus OK.
+ 93.423: gnosjo.se INFO Found DNSKEY record for gnosjo.se at child.
+ 93.423: gnosjo.se INFO Consistent security for gnosjo.se.
+ 93.423: gnosjo.se INFO Checking DNSSEC at child (gnosjo.se).
+ 93.423: gnosjo.se INFO gnosjo.se's key with tag 52337 uses algorithm number 8 (RSA/SHA-256).
+ 93.424: gnosjo.se INFO Algorithm number 8 is OK.
+ 93.430: gnosjo.se INFO DNSKEY gnosjo.se (tag 52337) is marked as a secure entry point (SEP).
+ 93.430: gnosjo.se INFO gnosjo.se's key with tag 52545 uses algorithm number 8 (RSA/SHA-256).
+ 93.430: gnosjo.se INFO Algorithm number 8 is OK.
+ 93.431: gnosjo.se INFO gnosjo.se's key with tag 56461 uses algorithm number 8 (RSA/SHA-256).
+ 93.431: gnosjo.se INFO Algorithm number 8 is OK.
+ 93.431: gnosjo.se INFO DNSSEC signature expires at: Thu Mar 13 06:00:03 2014
+ 93.431: gnosjo.se INFO Duration for RRSIG(gnosjo.se/IN/DNSKEY/52337) is OK (608400 seconds).
+ 93.434: gnosjo.se INFO DNSSEC signature RRSIG(gnosjo.se/IN/DNSKEY/52337) matches records.
+ 93.434: gnosjo.se INFO DNSSEC signature valid: RRSIG(gnosjo.se/IN/DNSKEY/52337)
+ 93.434: gnosjo.se INFO DNSSEC signature expires at: Thu Mar 13 06:00:03 2014
+ 93.434: gnosjo.se INFO Duration for RRSIG(gnosjo.se/IN/DNSKEY/56461) is OK (608400 seconds).
+ 93.435: gnosjo.se INFO DNSSEC signature RRSIG(gnosjo.se/IN/DNSKEY/56461) matches records.
+ 93.436: gnosjo.se INFO DNSSEC signature valid: RRSIG(gnosjo.se/IN/DNSKEY/56461)
+ 93.436: gnosjo.se INFO Enough valid signatures found for gnosjo.se.
+ 93.473: gnosjo.se INFO DNSSEC signature expires at: Sun Mar 16 06:00:03 2014
+ 93.473: gnosjo.se INFO Duration for RRSIG(gnosjo.se/IN/SOA/56461) is OK (867600 seconds).
+ 93.474: gnosjo.se INFO DNSSEC signature RRSIG(gnosjo.se/IN/SOA/56461) matches records.
+ 93.474: gnosjo.se INFO DNSSEC signature valid: RRSIG(gnosjo.se/IN/SOA/56461)
+ 93.474: gnosjo.se INFO Enough valid signatures over SOA RRset found for gnosjo.se.
+ 93.474: gnosjo.se INFO DNSSEC child checks for gnosjo.se complete.
+ 93.528: gnosjo.se INFO Checking DNSSEC at parent of gnosjo.se.
+ 93.528: gnosjo.se INFO gnosjo.se's key with tag 52337 uses algorithm number 8 (RSA/SHA-256).
+ 93.528: gnosjo.se INFO Algorithm number 8 is OK.
+ 93.529: gnosjo.se INFO Parent DS(gnosjo.se/8/1/52337) refers to valid key at child: DNSKEY(gnosjo.se/8/52337)
+ 93.529: gnosjo.se INFO Parent DS(gnosjo.se) refers to secure entry point (SEP) at child: DS(gnosjo.se/8/1/52337)
+ 93.529: gnosjo.se INFO gnosjo.se's key with tag 52337 uses algorithm number 8 (RSA/SHA-256).
+ 93.529: gnosjo.se INFO Algorithm number 8 is OK.
+ 93.529: gnosjo.se INFO Parent DS(gnosjo.se/8/2/52337) refers to valid key at child: DNSKEY(gnosjo.se/8/52337)
+ 93.529: gnosjo.se INFO Parent DS(gnosjo.se) refers to secure entry point (SEP) at child: DS(gnosjo.se/8/2/52337)
+ 93.529: gnosjo.se INFO DNSSEC parent checks for gnosjo.se complete.
+ 93.529: gnosjo.se INFO Done testing DNSSEC for gnosjo.se.
+ 93.530: gnosjo.se INFO Test completed for zone gnosjo.se.

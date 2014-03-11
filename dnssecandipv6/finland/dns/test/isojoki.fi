@@ -1,0 +1,100 @@
+  0.000: isojoki.fi INFO Begin testing zone isojoki.fi with version 1.6.1.
+  0.445: isojoki.fi INFO Begin testing delegation for isojoki.fi.
+  8.978: isojoki.fi INFO Name servers listed at parent: ns1.neviso.fi,ns2.neviso.fi,ns3.neviso.fi
+ 11.464: isojoki.fi INFO Name servers listed at child: ns1.neviso.fi,ns2.neviso.fi,ns3.neviso.fi
+ 11.465: isojoki.fi NOTICE No IPv6 name servers found.
+ 11.505: isojoki.fi INFO Parent glue for isojoki.fi found: ns1.neviso.fi (81.209.43.194)
+ 11.724: isojoki.fi INFO Parent glue for isojoki.fi found: ns2.neviso.fi (81.209.43.195)
+ 11.885: isojoki.fi INFO Parent glue for isojoki.fi found: ns3.neviso.fi (46.105.16.214)
+ 12.025: isojoki.fi INFO Checking glue for ns1.neviso.fi (81.209.43.194).
+ 12.025: isojoki.fi INFO Checking glue for ns2.neviso.fi (81.209.43.195).
+ 12.025: isojoki.fi INFO Checking glue for ns3.neviso.fi (46.105.16.214).
+ 12.025: isojoki.fi INFO Parent glue for isojoki.fi found: ns1.neviso.fi (81.209.43.194)
+ 12.025: isojoki.fi INFO Parent glue for isojoki.fi found: ns2.neviso.fi (81.209.43.195)
+ 12.026: isojoki.fi INFO Parent glue for isojoki.fi found: ns3.neviso.fi (46.105.16.214)
+ 13.282: isojoki.fi INFO It is possible to build a referral packet for isojoki.fi that works without EDNS0.
+ 14.192: isojoki.fi INFO Previously used name servers for isojoki.fi: 
+ 14.192: isojoki.fi INFO Done testing delegation for isojoki.fi.
+ 14.193: isojoki.fi INFO Begin testing name server ns1.neviso.fi.
+ 14.193: isojoki.fi INFO Begin testing host ns1.neviso.fi.
+ 14.547: isojoki.fi INFO Begin testing address 81.209.43.194.
+ 30.472: isojoki.fi INFO Done testing address 81.209.43.194.
+ 30.472: isojoki.fi INFO Done testing host ns1.neviso.fi.
+ 30.638: isojoki.fi INFO Name server ns1.neviso.fi (81.209.43.194) answers queries over UDP.
+ 30.700: isojoki.fi INFO Name server ns1.neviso.fi (81.209.43.194) answers queries over TCP.
+ 30.732: isojoki.fi INFO Name server ns1.neviso.fi (81.209.43.194) is not recursive.
+ 30.832: isojoki.fi INFO Name server ns1.neviso.fi (81.209.43.194) authoritative for isojoki.fi.
+ 30.888: isojoki.fi INFO Name server ns1.neviso.fi (81.209.43.194) closed for zone transfer of isojoki.fi.
+ 30.939: isojoki.fi NOTICE No answer received from 81.209.43.194 when querying for version.bind/CH/TXT.
+ 30.984: isojoki.fi INFO Done testing name server ns1.neviso.fi.
+ 30.984: isojoki.fi INFO Begin testing name server ns2.neviso.fi.
+ 30.984: isojoki.fi INFO Begin testing host ns2.neviso.fi.
+ 31.224: isojoki.fi INFO Begin testing address 81.209.43.195.
+ 31.910: isojoki.fi INFO Done testing address 81.209.43.195.
+ 31.910: isojoki.fi INFO Done testing host ns2.neviso.fi.
+ 32.106: isojoki.fi INFO Name server ns2.neviso.fi (81.209.43.195) answers queries over UDP.
+ 32.143: isojoki.fi INFO Name server ns2.neviso.fi (81.209.43.195) answers queries over TCP.
+ 32.168: isojoki.fi INFO Name server ns2.neviso.fi (81.209.43.195) is not recursive.
+ 32.268: isojoki.fi INFO Name server ns2.neviso.fi (81.209.43.195) authoritative for isojoki.fi.
+ 32.324: isojoki.fi INFO Name server ns2.neviso.fi (81.209.43.195) closed for zone transfer of isojoki.fi.
+ 32.379: isojoki.fi NOTICE No answer received from 81.209.43.195 when querying for version.bind/CH/TXT.
+ 32.430: isojoki.fi INFO Done testing name server ns2.neviso.fi.
+ 32.430: isojoki.fi INFO Begin testing name server ns3.neviso.fi.
+ 32.430: isojoki.fi INFO Begin testing host ns3.neviso.fi.
+ 32.728: isojoki.fi INFO Begin testing address 46.105.16.214.
+ 36.144: isojoki.fi INFO Done testing address 46.105.16.214.
+ 36.144: isojoki.fi INFO Done testing host ns3.neviso.fi.
+ 36.577: isojoki.fi INFO Name server ns3.neviso.fi (46.105.16.214) answers queries over UDP.
+ 36.673: isojoki.fi INFO Name server ns3.neviso.fi (46.105.16.214) answers queries over TCP.
+ 36.717: isojoki.fi INFO Name server ns3.neviso.fi (46.105.16.214) is not recursive.
+ 36.920: isojoki.fi INFO Name server ns3.neviso.fi (46.105.16.214) authoritative for isojoki.fi.
+ 37.046: isojoki.fi INFO Name server ns3.neviso.fi (46.105.16.214) closed for zone transfer of isojoki.fi.
+ 37.139: isojoki.fi NOTICE No answer received from 46.105.16.214 when querying for version.bind/CH/TXT.
+ 37.228: isojoki.fi INFO Done testing name server ns3.neviso.fi.
+ 37.228: isojoki.fi INFO Begin testing zone consistency for isojoki.fi.
+ 38.197: isojoki.fi INFO SOA at address 81.209.43.195 has serial 2012060701.
+ 38.217: isojoki.fi INFO SOA at address 81.209.43.194 has serial 2012060701.
+ 38.260: isojoki.fi INFO SOA at address 46.105.16.214 has serial 2012060701.
+ 38.260: isojoki.fi INFO All SOA records have consistent serial numbers.
+ 38.260: isojoki.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 38.825: isojoki.fi NOTICE The listed nameservers for isojoki.fi all report the same set of nameservers.
+ 38.825: isojoki.fi INFO Done testing zone consistency for isojoki.fi.
+ 38.825: isojoki.fi INFO Begin testing SOA parameters for isojoki.fi.
+ 38.862: isojoki.fi INFO Found SOA record for isojoki.fi.
+ 38.863: isojoki.fi INFO Begin testing host ns1.neviso.fi.
+ 38.982: isojoki.fi INFO Begin testing address 81.209.43.194.
+ 39.145: isojoki.fi INFO Done testing address 81.209.43.194.
+ 39.145: isojoki.fi INFO Done testing host ns1.neviso.fi.
+ 39.145: isojoki.fi INFO SOA MNAME for isojoki.fi valid (ns1.neviso.fi).
+ 39.146: isojoki.fi INFO SOA MNAME for isojoki.fi (ns1.neviso.fi) listed as NS.
+ 39.315: isojoki.fi INFO SOA MNAME for isojoki.fi (ns1.neviso.fi) is authoritative.
+ 39.315: isojoki.fi INFO Begin testing email address hostmaster@neviso.fi.
+ 39.473: isojoki.fi INFO Mail exchangers for hostmaster@neviso.fi found rps1.neviso.fi,rps2.neviso.fi.
+ 39.473: isojoki.fi INFO Begin testing host rps1.neviso.fi.
+ 39.737: isojoki.fi INFO Begin testing address 81.209.43.197.
+ 40.188: isojoki.fi INFO Done testing address 81.209.43.197.
+ 40.188: isojoki.fi INFO Done testing host rps1.neviso.fi.
+ 40.308: isojoki.fi INFO Begin testing host rps2.neviso.fi.
+ 40.611: isojoki.fi INFO Begin testing address 81.209.43.220.
+ 41.508: isojoki.fi INFO Done testing address 81.209.43.220.
+ 41.508: isojoki.fi INFO Done testing host rps2.neviso.fi.
+ 41.597: isojoki.fi INFO Done testing email address hostmaster@neviso.fi.
+ 41.597: isojoki.fi INFO Successful attempt to deliver email for SOA RNAME of isojoki.fi (hostmaster.neviso.fi) using hostmaster@neviso.fi.
+ 41.597: isojoki.fi INFO SOA TTL for isojoki.fi OK (10800) - recommended >= 3600.
+ 41.597: isojoki.fi NOTICE SOA refresh for isojoki.fi too small (10800) - recommended >= 14400.
+ 41.597: isojoki.fi INFO SOA retry for isojoki.fi OK (3600) - recommended >= 3600.
+ 41.598: isojoki.fi INFO SOA expire for isojoki.fi OK (604800) - recommended >= 604800.
+ 41.598: isojoki.fi INFO SOA minimum for isojoki.fi OK (3600) - recommended between 300 and 86400.
+ 41.598: isojoki.fi INFO Done testing SOA parameters for isojoki.fi.
+ 41.598: isojoki.fi INFO Begin testing connectivity for isojoki.fi.
+ 42.902: isojoki.fi INFO Zone announced by more than one ASN.
+ 42.911: isojoki.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 42.911: isojoki.fi INFO Done testing connectivity for isojoki.fi.
+ 42.911: isojoki.fi INFO Begin testing DNSSEC for isojoki.fi.
+ 42.991: isojoki.fi INFO Did not find DS record for isojoki.fi at parent.
+ 43.172: isojoki.fi INFO Servers for isojoki.fi have consistent extra processing status.
+ 43.212: isojoki.fi INFO Authenticated denial records not found for isojoki.fi.
+ 43.232: isojoki.fi INFO Did not find DNSKEY record for isojoki.fi at child.
+ 43.232: isojoki.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 43.232: isojoki.fi INFO Done testing DNSSEC for isojoki.fi.
+ 43.233: isojoki.fi INFO Test completed for zone isojoki.fi.

@@ -1,0 +1,98 @@
+  0.000: inrego.se INFO Begin testing zone inrego.se with version 1.2.
+  0.001: inrego.se INFO Begin testing delegation for inrego.se.
+  4.971: inrego.se INFO Name servers listed at parent: dns.inregodirekt.se,dns2.inregodirekt.se
+  6.185: inrego.se INFO Name servers listed at child: dns.inregodirekt.se,dns2.inregodirekt.se
+  6.186: inrego.se NOTICE No IPv6 name servers found.
+  6.204: inrego.se INFO Parent glue for inrego.se found: dns.inregodirekt.se (83.241.189.70)
+  6.234: inrego.se INFO Parent glue for inrego.se found: dns2.inregodirekt.se (212.181.110.247)
+  6.242: inrego.se INFO Checking glue for dns.inregodirekt.se (83.241.189.70).
+  6.242: inrego.se INFO Checking glue for dns2.inregodirekt.se (212.181.110.247).
+  6.243: inrego.se INFO Parent glue for inrego.se found: dns.inregodirekt.se (83.241.189.70)
+  6.243: inrego.se INFO Parent glue for inrego.se found: dns2.inregodirekt.se (212.181.110.247)
+  6.244: inrego.se INFO Done testing delegation for inrego.se.
+  6.244: inrego.se INFO Begin testing name server dns.inregodirekt.se.
+  6.245: inrego.se INFO Begin testing host dns.inregodirekt.se.
+  6.245: inrego.se INFO Begin testing address 83.241.189.70.
+ 11.004: inrego.se INFO Done testing address 83.241.189.70.
+ 11.005: inrego.se INFO Done testing host dns.inregodirekt.se.
+ 11.014: inrego.se INFO Name server dns.inregodirekt.se (83.241.189.70) answers queries over UDP.
+ 11.028: inrego.se INFO Name server dns.inregodirekt.se (83.241.189.70) answers queries over TCP.
+ 11.066: inrego.se INFO Name server dns.inregodirekt.se (83.241.189.70) is not recursive.
+ 11.081: inrego.se INFO Name server dns.inregodirekt.se (83.241.189.70) authoritative for inrego.se.
+ 11.197: inrego.se INFO Name server dns.inregodirekt.se (83.241.189.70) closed for zone transfer of inrego.se.
+ 11.207: inrego.se INFO Legacy name server ID for dns.inregodirekt.se (83.241.189.70): hostname.bind = webstar.inrego.local
+ 11.215: inrego.se INFO Legacy name server ID for dns.inregodirekt.se (83.241.189.70): version.bind = 9.4.3-P2
+ 11.230: inrego.se NOTICE No answer received from 83.241.189.70 when querying for version.server/CH/TXT.
+ 11.230: inrego.se INFO Done testing name server dns.inregodirekt.se.
+ 11.230: inrego.se INFO Begin testing name server dns2.inregodirekt.se.
+ 11.231: inrego.se INFO Begin testing host dns2.inregodirekt.se.
+ 11.231: inrego.se INFO Begin testing address 212.181.110.247.
+ 13.429: inrego.se INFO Done testing address 212.181.110.247.
+ 13.429: inrego.se INFO Done testing host dns2.inregodirekt.se.
+ 13.470: inrego.se INFO Name server dns2.inregodirekt.se (212.181.110.247) answers queries over UDP.
+ 18.505: inrego.se NOTICE DNS lookup error (timeout).
+ 18.506: inrego.se ERROR Name server dns2.inregodirekt.se (212.181.110.247) does not answer queries over TCP.
+ 18.545: inrego.se INFO Name server dns2.inregodirekt.se (212.181.110.247) is not recursive.
+ 18.586: inrego.se INFO Name server dns2.inregodirekt.se (212.181.110.247) authoritative for inrego.se.
+ 18.586: inrego.se INFO Name server dns2.inregodirekt.se (212.181.110.247) not checked for zone transfer of inrego.se.
+ 18.586: inrego.se INFO Name server dns2.inregodirekt.se (212.181.110.247) not checked for legacy name server ID.
+ 18.586: inrego.se INFO Done testing name server dns2.inregodirekt.se.
+ 18.587: inrego.se INFO Begin testing zone consistency for inrego.se.
+ 18.630: inrego.se INFO SOA at address 212.181.110.247 has serial 2009121401.
+ 18.639: inrego.se INFO SOA at address 83.241.189.70 has serial 2009121401.
+ 18.640: inrego.se INFO All SOA records have consistent serial numbers.
+ 18.640: inrego.se INFO All SOA records are consistent among all name servers.
+ 18.640: inrego.se INFO Done testing zone consistency for inrego.se.
+ 18.640: inrego.se INFO Begin testing SOA parameters for inrego.se.
+ 18.679: inrego.se INFO Found SOA record for inrego.se.
+ 18.680: inrego.se INFO Begin testing host dns.inregodirekt.se.
+ 18.680: inrego.se INFO Begin testing address 83.241.189.70.
+ 18.682: inrego.se INFO Done testing address 83.241.189.70.
+ 18.682: inrego.se INFO Done testing host dns.inregodirekt.se.
+ 18.683: inrego.se INFO SOA MNAME for inrego.se valid (dns.inregodirekt.se).
+ 18.683: inrego.se INFO SOA MNAME for inrego.se (dns.inregodirekt.se) listed as NS.
+ 18.692: inrego.se INFO SOA MNAME for inrego.se (dns.inregodirekt.se) is authoritative.
+ 18.693: inrego.se INFO Begin testing email address domain@inrego.se.
+ 18.916: inrego.se INFO Mail exchangers for domain@inrego.se found mail.inrego.se,vsp1.kullander.se,vsp2.kullander.se.
+ 18.917: inrego.se INFO Begin testing host mail.inrego.se.
+ 18.917: inrego.se INFO Begin testing address 83.241.189.70.
+ 18.919: inrego.se INFO Done testing address 83.241.189.70.
+ 18.919: inrego.se INFO Done testing host mail.inrego.se.
+ 18.920: inrego.se INFO Begin testing mail server mail.inrego.se (83.241.189.70) with domain@inrego.se.
+ 31.397: inrego.se INFO SMTP banner: mail.inrego.se ESMTP ready
+ 31.420: inrego.se INFO SMTP testing of mail.inrego.se (83.241.189.70) with domain@inrego.se succeeded without errors.
+ 31.421: inrego.se INFO Done testing mail server mail.inrego.se (83.241.189.70) with domain@inrego.se.
+ 31.421: inrego.se INFO Begin testing host vsp1.kullander.se.
+ 31.909: inrego.se INFO Begin testing address 213.132.96.99.
+ 32.590: inrego.se INFO Done testing address 213.132.96.99.
+ 32.590: inrego.se INFO Done testing host vsp1.kullander.se.
+ 32.591: inrego.se INFO Begin testing host vsp2.kullander.se.
+ 33.072: inrego.se INFO Begin testing address 212.181.110.249.
+ 33.562: inrego.se INFO Done testing address 212.181.110.249.
+ 33.562: inrego.se INFO Done testing host vsp2.kullander.se.
+ 33.562: inrego.se INFO Delivery over IPv4 to domain@inrego.se ok.
+ 33.563: inrego.se INFO Delivery over IPv6 to domain@inrego.se could not be done.
+ 33.563: inrego.se INFO Done testing email address domain@inrego.se.
+ 33.563: inrego.se INFO Successful attempt to deliver email for SOA RNAME of inrego.se (domain.inrego.se) using domain@inrego.se.
+ 33.563: inrego.se INFO SOA TTL for inrego.se OK (86400) - recommended >= 3600.
+ 33.564: inrego.se NOTICE SOA refresh for inrego.se too small (10800) - recommended >= 14400.
+ 33.564: inrego.se INFO SOA retry for inrego.se OK (3600) - recommended >= 3600.
+ 33.564: inrego.se INFO SOA expire for inrego.se OK (604800) - recommended >= 604800.
+ 33.564: inrego.se INFO SOA minimum for inrego.se OK (3600) - recommended between 300 and 86400.
+ 33.565: inrego.se INFO Done testing SOA parameters for inrego.se.
+ 33.565: inrego.se INFO Begin testing connectivity for inrego.se.
+ 34.131: inrego.se INFO Name server 212.181.110.247 announced by: 3301
+ 34.627: inrego.se INFO Name server 83.241.189.70 announced by: 21195
+ 34.627: inrego.se INFO Zone announced by IPv4 ASN: 3301,21195
+ 34.628: inrego.se INFO Zone announced by more than one ASN (2).
+ 34.628: inrego.se INFO Zone announced by IPv6 ASN: 
+ 34.628: inrego.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 34.628: inrego.se INFO Done testing connectivity for inrego.se.
+ 34.628: inrego.se INFO Begin testing DNSSEC for inrego.se.
+ 34.675: inrego.se INFO Did not find DS record for inrego.se at parent.
+ 39.753: inrego.se NOTICE DNS lookup error (timeout).
+ 39.766: inrego.se INFO Servers for inrego.se have consistent extra processing status.
+ 39.767: inrego.se INFO Did not find DNSKEY record for inrego.se at child.
+ 39.767: inrego.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 39.767: inrego.se INFO Done testing DNSSEC for inrego.se.
+ 39.767: inrego.se INFO Test completed for zone inrego.se.

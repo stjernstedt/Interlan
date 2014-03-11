@@ -1,0 +1,90 @@
+  0.000: pitea.se INFO Begin testing zone pitea.se with version 1.6.1.
+  1.161: pitea.se INFO Begin testing delegation for pitea.se.
+ 14.737: pitea.se INFO Name servers listed at parent: dns.pitea.se,dns1.pitea.se
+ 18.778: pitea.se INFO Name servers listed at child: dns.pitea.se,dns1.pitea.se
+ 18.779: pitea.se NOTICE No IPv6 name servers found.
+ 18.879: pitea.se INFO Parent glue for pitea.se found: dns.pitea.se (195.196.144.4)
+ 19.045: pitea.se INFO Parent glue for pitea.se found: dns1.pitea.se (195.196.144.3)
+ 19.142: pitea.se INFO Checking glue for dns.pitea.se (195.196.144.4).
+ 19.229: pitea.se INFO Child glue for pitea.se found: dns.pitea.se (195.196.144.4)
+ 19.229: pitea.se INFO Checking glue for dns1.pitea.se (195.196.144.3).
+ 19.324: pitea.se INFO Child glue for pitea.se found: dns1.pitea.se (195.196.144.3)
+ 19.325: pitea.se INFO Parent glue for pitea.se found: dns.pitea.se (195.196.144.4)
+ 19.325: pitea.se INFO Parent glue for pitea.se found: dns1.pitea.se (195.196.144.3)
+ 21.042: pitea.se INFO It is possible to build a referral packet for pitea.se that works without EDNS0.
+ 22.536: pitea.se INFO Previously used name servers for pitea.se: 
+ 22.536: pitea.se INFO Done testing delegation for pitea.se.
+ 22.537: pitea.se INFO Begin testing name server dns.pitea.se.
+ 22.537: pitea.se INFO Begin testing host dns.pitea.se.
+ 23.180: pitea.se INFO Begin testing address 195.196.144.4.
+ 38.795: pitea.se WARNING Could not find reverse address for 195.196.144.4 (4.144.196.195.in-addr.arpa.).
+ 38.795: pitea.se INFO Done testing address 195.196.144.4.
+ 38.795: pitea.se INFO Done testing host dns.pitea.se.
+ 39.097: pitea.se INFO Name server dns.pitea.se (195.196.144.4) answers queries over UDP.
+ 39.158: pitea.se INFO Name server dns.pitea.se (195.196.144.4) answers queries over TCP.
+ 39.269: pitea.se INFO Name server dns.pitea.se (195.196.144.4) is not recursive.
+ 39.638: pitea.se INFO Name server dns.pitea.se (195.196.144.4) authoritative for pitea.se.
+ 39.919: pitea.se INFO Name server dns.pitea.se (195.196.144.4) closed for zone transfer of pitea.se.
+ 39.946: pitea.se NOTICE No answer received from 195.196.144.4 when querying for hostname.bind/CH/TXT.
+ 52.144: pitea.se INFO Done testing name server dns.pitea.se.
+ 52.144: pitea.se INFO Begin testing name server dns1.pitea.se.
+ 52.144: pitea.se INFO Begin testing host dns1.pitea.se.
+ 52.496: pitea.se INFO Begin testing address 195.196.144.3.
+ 53.425: pitea.se WARNING Could not find reverse address for 195.196.144.3 (3.144.196.195.in-addr.arpa.).
+ 53.425: pitea.se INFO Done testing address 195.196.144.3.
+ 53.425: pitea.se INFO Done testing host dns1.pitea.se.
+ 54.265: pitea.se INFO Name server dns1.pitea.se (195.196.144.3) answers queries over UDP.
+ 54.321: pitea.se INFO Name server dns1.pitea.se (195.196.144.3) answers queries over TCP.
+ 54.428: pitea.se INFO Name server dns1.pitea.se (195.196.144.3) is not recursive.
+ 54.556: pitea.se INFO Name server dns1.pitea.se (195.196.144.3) authoritative for pitea.se.
+ 54.847: pitea.se INFO Name server dns1.pitea.se (195.196.144.3) closed for zone transfer of pitea.se.
+ 54.878: pitea.se NOTICE No answer received from 195.196.144.3 when querying for hostname.bind/CH/TXT.
+ 67.070: pitea.se INFO Done testing name server dns1.pitea.se.
+ 67.071: pitea.se INFO Begin testing zone consistency for pitea.se.
+ 70.400: pitea.se INFO SOA at address 195.196.144.3 has serial 2012011860.
+ 70.476: pitea.se INFO SOA at address 195.196.144.4 has serial 2012011860.
+ 70.476: pitea.se INFO All SOA records have consistent serial numbers.
+ 70.476: pitea.se INFO All other fields in the SOA record are consistent among all name servers.
+ 71.011: pitea.se NOTICE The listed nameservers for pitea.se all report the same set of nameservers.
+ 71.021: pitea.se INFO Done testing zone consistency for pitea.se.
+ 71.022: pitea.se INFO Begin testing SOA parameters for pitea.se.
+ 71.078: pitea.se INFO Found SOA record for pitea.se.
+ 71.078: pitea.se INFO Begin testing host dns.pitea.se.
+ 71.828: pitea.se INFO Begin testing address 195.196.144.4.
+ 71.829: pitea.se WARNING Could not find reverse address for 195.196.144.4 (4.144.196.195.in-addr.arpa.).
+ 71.829: pitea.se INFO Done testing address 195.196.144.4.
+ 71.829: pitea.se INFO Done testing host dns.pitea.se.
+ 71.829: pitea.se INFO SOA MNAME for pitea.se valid (dns.pitea.se).
+ 71.830: pitea.se INFO SOA MNAME for pitea.se (dns.pitea.se) listed as NS.
+ 72.420: pitea.se INFO SOA MNAME for pitea.se (dns.pitea.se) is authoritative.
+ 72.420: pitea.se INFO Begin testing email address systemmail@it.pitea.se.
+ 72.849: pitea.se INFO Mail exchangers for systemmail@it.pitea.se found epost.pitea.se,epost2.pitea.se.
+ 72.850: pitea.se INFO All mail servers for systemmail@it.pitea.se are in zone pitea.se.
+ 72.850: pitea.se INFO Begin testing host epost.pitea.se.
+ 73.312: pitea.se INFO Begin testing address 195.196.144.123.
+ 73.936: pitea.se INFO Done testing address 195.196.144.123.
+ 73.936: pitea.se INFO Done testing host epost.pitea.se.
+ 74.154: pitea.se INFO Begin testing host epost2.pitea.se.
+ 74.734: pitea.se INFO Begin testing address 195.196.144.94.
+ 75.820: pitea.se INFO Done testing address 195.196.144.94.
+ 75.820: pitea.se INFO Done testing host epost2.pitea.se.
+ 76.052: pitea.se INFO Done testing email address systemmail@it.pitea.se.
+ 76.052: pitea.se INFO Successful attempt to deliver email for SOA RNAME of pitea.se (systemmail.it.pitea.se) using systemmail@it.pitea.se.
+ 76.053: pitea.se INFO SOA TTL for pitea.se OK (86400) - recommended >= 3600.
+ 76.053: pitea.se NOTICE SOA refresh for pitea.se too small (10800) - recommended >= 14400.
+ 76.053: pitea.se INFO SOA retry for pitea.se OK (3600) - recommended >= 3600.
+ 76.053: pitea.se INFO SOA expire for pitea.se OK (1209600) - recommended >= 604800.
+ 76.053: pitea.se INFO SOA minimum for pitea.se OK (86400) - recommended between 300 and 86400.
+ 76.053: pitea.se INFO Done testing SOA parameters for pitea.se.
+ 76.053: pitea.se INFO Begin testing connectivity for pitea.se.
+ 77.154: pitea.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 77.154: pitea.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 77.155: pitea.se INFO Done testing connectivity for pitea.se.
+ 77.155: pitea.se INFO Begin testing DNSSEC for pitea.se.
+ 77.224: pitea.se INFO Did not find DS record for pitea.se at parent.
+ 77.341: pitea.se INFO Servers for pitea.se have consistent extra processing status.
+ 77.393: pitea.se INFO Authenticated denial records not found for pitea.se.
+ 77.428: pitea.se INFO Did not find DNSKEY record for pitea.se at child.
+ 77.428: pitea.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 77.428: pitea.se INFO Done testing DNSSEC for pitea.se.
+ 77.429: pitea.se INFO Test completed for zone pitea.se.

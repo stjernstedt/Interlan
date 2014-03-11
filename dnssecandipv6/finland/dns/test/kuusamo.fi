@@ -1,0 +1,186 @@
+  0.000: kuusamo.fi INFO Begin testing zone kuusamo.fi with version 1.6.1.
+  0.404: kuusamo.fi INFO Begin testing delegation for kuusamo.fi.
+ 10.051: kuusamo.fi INFO Name servers listed at parent: ns.kuusamo.fi,ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 14.623: kuusamo.fi INFO Name servers listed at child: ns.kuusamo.fi,ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 14.726: kuusamo.fi INFO Parent glue for kuusamo.fi found: ns.kuusamo.fi (193.106.8.100)
+ 14.930: kuusamo.fi INFO Parent glue for kuusamo.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+ 14.966: kuusamo.fi INFO Parent glue for kuusamo.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+ 15.066: kuusamo.fi INFO Parent glue for kuusamo.fi found: ns1-swe.global.sonera.se (80.64.9.124)
+ 15.154: kuusamo.fi INFO Parent glue for kuusamo.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+ 15.231: kuusamo.fi INFO Parent glue for kuusamo.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+ 15.450: kuusamo.fi INFO Checking glue for ns.kuusamo.fi (193.106.8.100).
+ 15.480: kuusamo.fi INFO Child glue for kuusamo.fi found: ns.kuusamo.fi (193.106.8.100)
+ 15.480: kuusamo.fi INFO Checking glue for ns1-fin.global.sonera.fi (193.210.18.31).
+ 15.528: kuusamo.fi INFO Checking glue for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53).
+ 15.528: kuusamo.fi INFO Checking glue for ns1-swe.global.sonera.se (80.64.9.124).
+ 15.528: kuusamo.fi INFO Checking glue for ns2-fin.global.sonera.fi (195.156.148.158).
+ 15.528: kuusamo.fi INFO Checking glue for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53).
+ 15.529: kuusamo.fi INFO Parent glue for kuusamo.fi found: ns.kuusamo.fi (193.106.8.100)
+ 15.529: kuusamo.fi INFO Parent glue for kuusamo.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+ 15.529: kuusamo.fi INFO Parent glue for kuusamo.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+ 15.529: kuusamo.fi INFO Parent glue for kuusamo.fi found: ns1-swe.global.sonera.se (80.64.9.124)
+ 15.530: kuusamo.fi INFO Parent glue for kuusamo.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+ 15.530: kuusamo.fi INFO Parent glue for kuusamo.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+ 16.989: kuusamo.fi INFO It is possible to build a referral packet for kuusamo.fi that works without EDNS0.
+ 17.427: kuusamo.fi INFO Previously used name servers for kuusamo.fi: 
+ 17.427: kuusamo.fi INFO Done testing delegation for kuusamo.fi.
+ 17.428: kuusamo.fi INFO Begin testing name server ns.kuusamo.fi.
+ 17.428: kuusamo.fi INFO Begin testing host ns.kuusamo.fi.
+ 17.629: kuusamo.fi INFO Begin testing address 193.106.8.100.
+ 26.007: kuusamo.fi INFO Done testing address 193.106.8.100.
+ 26.007: kuusamo.fi INFO Done testing host ns.kuusamo.fi.
+ 26.325: kuusamo.fi INFO Name server ns.kuusamo.fi (193.106.8.100) answers queries over UDP.
+ 28.336: kuusamo.fi NOTICE DNS lookup error (connection failed).
+ 28.337: kuusamo.fi ERROR Name server ns.kuusamo.fi (193.106.8.100) does not answer queries over TCP.
+ 32.357: kuusamo.fi INFO Name server ns.kuusamo.fi (193.106.8.100) is not recursive.
+ 34.432: kuusamo.fi NOTICE DNS lookup error (connection failed).
+ 34.433: kuusamo.fi INFO Name server ns.kuusamo.fi (193.106.8.100) authoritative for kuusamo.fi.
+ 34.433: kuusamo.fi INFO Name server ns.kuusamo.fi (193.106.8.100) not checked for zone transfer of kuusamo.fi.
+ 34.433: kuusamo.fi INFO Name server ns.kuusamo.fi (193.106.8.100) not checked for legacy name server ID.
+ 34.433: kuusamo.fi INFO Done testing name server ns.kuusamo.fi.
+ 34.433: kuusamo.fi INFO Begin testing name server ns1-fin.global.sonera.fi.
+ 34.433: kuusamo.fi INFO Begin testing host ns1-fin.global.sonera.fi.
+ 34.434: kuusamo.fi INFO Begin testing address 193.210.18.31.
+ 34.846: kuusamo.fi INFO Done testing address 193.210.18.31.
+ 34.846: kuusamo.fi INFO Begin testing address 2001:2060:ffdd:a01:0:0:0:53.
+ 36.090: kuusamo.fi INFO Done testing address 2001:2060:ffdd:a01:0:0:0:53.
+ 36.091: kuusamo.fi INFO Done testing host ns1-fin.global.sonera.fi.
+ 36.119: kuusamo.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over UDP.
+ 36.157: kuusamo.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over TCP.
+ 36.173: kuusamo.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) is not recursive.
+ 36.285: kuusamo.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) authoritative for kuusamo.fi.
+ 36.326: kuusamo.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) closed for zone transfer of kuusamo.fi.
+ 36.346: kuusamo.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): hostname.bind = mgda1
+ 36.366: kuusamo.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): version.bind = TeliaSonera Finland DNS MGDA
+ 36.385: kuusamo.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): id.server = mgda1
+ 36.400: kuusamo.fi NOTICE No answer received from 193.210.18.31 when querying for version.server/CH/TXT.
+ 36.448: kuusamo.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) answers queries over UDP.
+ 36.535: kuusamo.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) answers queries over TCP.
+ 38.556: kuusamo.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) is not recursive.
+ 38.735: kuusamo.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) authoritative for kuusamo.fi.
+ 38.861: kuusamo.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) closed for zone transfer of kuusamo.fi.
+ 38.905: kuusamo.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): hostname.bind = mgda1
+ 38.948: kuusamo.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+ 43.017: kuusamo.fi NOTICE No answer received from 2001:2060:ffdd:a01:0:0:0:53 when querying for version.server/CH/TXT.
+ 43.031: kuusamo.fi INFO Done testing name server ns1-fin.global.sonera.fi.
+ 43.031: kuusamo.fi INFO Begin testing name server ns1-swe.global.sonera.se.
+ 43.031: kuusamo.fi INFO Begin testing host ns1-swe.global.sonera.se.
+ 43.032: kuusamo.fi INFO Begin testing address 80.64.9.124.
+ 43.595: kuusamo.fi INFO Done testing address 80.64.9.124.
+ 43.596: kuusamo.fi INFO Begin testing address 2001:6e8:400:ffff:1:0:0:53.
+ 44.070: kuusamo.fi INFO Done testing address 2001:6e8:400:ffff:1:0:0:53.
+ 44.070: kuusamo.fi INFO Done testing host ns1-swe.global.sonera.se.
+ 44.088: kuusamo.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over UDP.
+ 44.116: kuusamo.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over TCP.
+ 44.129: kuusamo.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) is not recursive.
+ 44.191: kuusamo.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) authoritative for kuusamo.fi.
+ 44.225: kuusamo.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) closed for zone transfer of kuusamo.fi.
+ 44.241: kuusamo.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): hostname.bind = mgda3
+ 44.254: kuusamo.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): version.bind = TeliaSonera Finland DNS MGDA
+ 44.268: kuusamo.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): id.server = mgda3
+ 44.282: kuusamo.fi NOTICE No answer received from 80.64.9.124 when querying for version.server/CH/TXT.
+ 44.302: kuusamo.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over UDP.
+ 44.336: kuusamo.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over TCP.
+ 44.352: kuusamo.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) is not recursive.
+ 44.428: kuusamo.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) authoritative for kuusamo.fi.
+ 44.470: kuusamo.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) closed for zone transfer of kuusamo.fi.
+ 44.487: kuusamo.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): hostname.bind = mgda3
+ 44.503: kuusamo.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+ 44.520: kuusamo.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): id.server = mgda3
+ 44.536: kuusamo.fi NOTICE No answer received from 2001:6e8:400:ffff:1:0:0:53 when querying for version.server/CH/TXT.
+ 44.536: kuusamo.fi INFO Done testing name server ns1-swe.global.sonera.se.
+ 44.536: kuusamo.fi INFO Begin testing name server ns2-fin.global.sonera.fi.
+ 44.536: kuusamo.fi INFO Begin testing host ns2-fin.global.sonera.fi.
+ 44.537: kuusamo.fi INFO Begin testing address 195.156.148.158.
+ 44.771: kuusamo.fi INFO Done testing address 195.156.148.158.
+ 44.771: kuusamo.fi INFO Begin testing address 2001:2060:ffdd:a02:0:0:0:53.
+ 44.922: kuusamo.fi INFO Done testing address 2001:2060:ffdd:a02:0:0:0:53.
+ 44.922: kuusamo.fi INFO Done testing host ns2-fin.global.sonera.fi.
+ 44.942: kuusamo.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over UDP.
+ 44.973: kuusamo.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over TCP.
+ 44.988: kuusamo.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) is not recursive.
+ 45.056: kuusamo.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) authoritative for kuusamo.fi.
+ 45.094: kuusamo.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) closed for zone transfer of kuusamo.fi.
+ 45.109: kuusamo.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): hostname.bind = mgda1
+ 45.125: kuusamo.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): version.bind = TeliaSonera Finland DNS MGDA
+ 45.139: kuusamo.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): id.server = mgda1
+ 45.155: kuusamo.fi NOTICE No answer received from 195.156.148.158 when querying for version.server/CH/TXT.
+ 45.201: kuusamo.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) answers queries over UDP.
+ 45.291: kuusamo.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) answers queries over TCP.
+ 45.333: kuusamo.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) is not recursive.
+ 45.519: kuusamo.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) authoritative for kuusamo.fi.
+ 45.636: kuusamo.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) closed for zone transfer of kuusamo.fi.
+ 45.679: kuusamo.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): hostname.bind = mgda1
+ 45.722: kuusamo.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+ 45.764: kuusamo.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): id.server = mgda1
+ 45.807: kuusamo.fi NOTICE No answer received from 2001:2060:ffdd:a02:0:0:0:53 when querying for version.server/CH/TXT.
+ 45.807: kuusamo.fi INFO Done testing name server ns2-fin.global.sonera.fi.
+ 45.807: kuusamo.fi INFO Begin testing name server ns2-usa.global.sonera.net.
+ 45.807: kuusamo.fi INFO Begin testing host ns2-usa.global.sonera.net.
+ 45.997: kuusamo.fi INFO Begin testing address 46.38.190.56.
+ 47.320: kuusamo.fi INFO Done testing address 46.38.190.56.
+ 47.320: kuusamo.fi INFO Done testing host ns2-usa.global.sonera.net.
+ 47.483: kuusamo.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over UDP.
+ 47.588: kuusamo.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over TCP.
+ 47.639: kuusamo.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) is not recursive.
+ 47.858: kuusamo.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) authoritative for kuusamo.fi.
+ 48.006: kuusamo.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) closed for zone transfer of kuusamo.fi.
+ 48.059: kuusamo.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): hostname.bind = mgda5
+ 48.116: kuusamo.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): version.bind = TeliaSonera Finland DNS MGDA
+ 48.168: kuusamo.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): id.server = mgda5
+ 48.219: kuusamo.fi NOTICE No answer received from 46.38.190.56 when querying for version.server/CH/TXT.
+ 48.220: kuusamo.fi INFO Done testing name server ns2-usa.global.sonera.net.
+ 48.220: kuusamo.fi INFO Begin testing zone consistency for kuusamo.fi.
+ 48.887: kuusamo.fi INFO SOA at address 2001:2060:ffdd:a01:0:0:0:53 has serial 20101283.
+ 48.906: kuusamo.fi INFO SOA at address 193.210.18.31 has serial 20101283.
+ 48.923: kuusamo.fi INFO SOA at address 80.64.9.124 has serial 20101283.
+ 48.942: kuusamo.fi INFO SOA at address 195.156.148.158 has serial 20101283.
+ 48.964: kuusamo.fi INFO SOA at address 2001:6e8:400:ffff:1:0:0:53 has serial 20101283.
+ 48.995: kuusamo.fi INFO SOA at address 193.106.8.100 has serial 20101283.
+ 49.052: kuusamo.fi INFO SOA at address 46.38.190.56 has serial 20101283.
+ 49.102: kuusamo.fi INFO SOA at address 2001:2060:ffdd:a02:0:0:0:53 has serial 20101283.
+ 49.102: kuusamo.fi INFO All SOA records have consistent serial numbers.
+ 49.102: kuusamo.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 49.711: kuusamo.fi NOTICE The listed nameservers for kuusamo.fi does not all report the same set of nameservers.
+ 49.711: kuusamo.fi INFO Done testing zone consistency for kuusamo.fi.
+ 49.712: kuusamo.fi INFO Begin testing SOA parameters for kuusamo.fi.
+ 49.732: kuusamo.fi INFO Found SOA record for kuusamo.fi.
+ 49.732: kuusamo.fi INFO Begin testing host ns.kuusamo.fi.
+ 49.933: kuusamo.fi INFO Begin testing address 193.106.8.100.
+ 51.584: kuusamo.fi INFO Done testing address 193.106.8.100.
+ 51.584: kuusamo.fi INFO Done testing host ns.kuusamo.fi.
+ 51.584: kuusamo.fi INFO SOA MNAME for kuusamo.fi valid (ns.kuusamo.fi).
+ 51.585: kuusamo.fi INFO SOA MNAME for kuusamo.fi (ns.kuusamo.fi) listed as NS.
+ 51.747: kuusamo.fi INFO SOA MNAME for kuusamo.fi (ns.kuusamo.fi) is authoritative.
+ 51.747: kuusamo.fi INFO Begin testing email address network@lapitoy.fi.
+ 51.904: kuusamo.fi INFO Mail exchangers for network@lapitoy.fi found smtpgw1.lapitoy.fi,smtpgw2.lapitoy.fi.
+ 51.904: kuusamo.fi INFO Begin testing host smtpgw1.lapitoy.fi.
+ 52.166: kuusamo.fi INFO Begin testing address 193.106.9.27.
+ 52.688: kuusamo.fi INFO Done testing address 193.106.9.27.
+ 52.688: kuusamo.fi INFO Done testing host smtpgw1.lapitoy.fi.
+ 52.951: kuusamo.fi INFO Begin testing host smtpgw2.lapitoy.fi.
+ 53.219: kuusamo.fi INFO Begin testing address 193.106.9.28.
+ 53.730: kuusamo.fi INFO Done testing address 193.106.9.28.
+ 53.731: kuusamo.fi INFO Done testing host smtpgw2.lapitoy.fi.
+ 53.880: kuusamo.fi INFO Done testing email address network@lapitoy.fi.
+ 53.880: kuusamo.fi INFO Successful attempt to deliver email for SOA RNAME of kuusamo.fi (network.lapitoy.fi) using network@lapitoy.fi.
+ 53.880: kuusamo.fi NOTICE SOA TTL for kuusamo.fi too small (300) - recommended >= 3600.
+ 53.880: kuusamo.fi NOTICE SOA refresh for kuusamo.fi too small (300) - recommended >= 14400.
+ 53.884: kuusamo.fi NOTICE SOA refresh for kuusamo.fi lower than retry (300 vs 600).
+ 53.884: kuusamo.fi NOTICE SOA retry for kuusamo.fi too small (600) - recommended >= 3600.
+ 53.884: kuusamo.fi INFO SOA expire for kuusamo.fi OK (604800) - recommended >= 604800.
+ 53.884: kuusamo.fi INFO SOA minimum for kuusamo.fi OK (300) - recommended between 300 and 86400.
+ 53.884: kuusamo.fi INFO Done testing SOA parameters for kuusamo.fi.
+ 53.885: kuusamo.fi INFO Begin testing connectivity for kuusamo.fi.
+ 56.124: kuusamo.fi INFO Zone announced by more than one ASN.
+ 57.377: kuusamo.fi INFO Zone announced by more than one IPv6 ASN.
+ 57.377: kuusamo.fi INFO Done testing connectivity for kuusamo.fi.
+ 57.377: kuusamo.fi INFO Begin testing DNSSEC for kuusamo.fi.
+ 57.607: kuusamo.fi INFO Did not find DS record for kuusamo.fi at parent.
+ 59.703: kuusamo.fi NOTICE DNS lookup error (connection failed).
+ 59.998: kuusamo.fi INFO Servers for kuusamo.fi have consistent extra processing status.
+ 60.027: kuusamo.fi INFO Authenticated denial records not found for kuusamo.fi.
+ 60.042: kuusamo.fi INFO Did not find DNSKEY record for kuusamo.fi at child.
+ 60.043: kuusamo.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 60.043: kuusamo.fi INFO Done testing DNSSEC for kuusamo.fi.
+ 60.044: kuusamo.fi INFO Test completed for zone kuusamo.fi.

@@ -1,0 +1,89 @@
+  0.000: sodankyla.fi INFO Begin testing zone sodankyla.fi with version 1.6.1.
+  0.870: sodankyla.fi INFO Begin testing delegation for sodankyla.fi.
+ 10.618: sodankyla.fi INFO Name servers listed at parent: ns1.sodankyla.fi,ns2.sodankyla.fi
+ 12.394: sodankyla.fi INFO Name servers listed at child: ns1.sodankyla.fi,ns2.sodankyla.fi
+ 12.394: sodankyla.fi NOTICE No IPv6 name servers found.
+ 12.435: sodankyla.fi INFO Parent glue for sodankyla.fi found: ns1.sodankyla.fi (194.251.77.131)
+ 12.586: sodankyla.fi INFO Parent glue for sodankyla.fi found: ns2.sodankyla.fi (194.251.77.132)
+ 12.703: sodankyla.fi INFO Checking glue for ns1.sodankyla.fi (194.251.77.131).
+ 12.771: sodankyla.fi INFO Child glue for sodankyla.fi found: ns1.sodankyla.fi (194.251.77.131)
+ 12.771: sodankyla.fi INFO Checking glue for ns2.sodankyla.fi (194.251.77.132).
+ 12.819: sodankyla.fi INFO Child glue for sodankyla.fi found: ns2.sodankyla.fi (194.251.77.132)
+ 12.819: sodankyla.fi INFO Parent glue for sodankyla.fi found: ns1.sodankyla.fi (194.251.77.131)
+ 12.819: sodankyla.fi INFO Parent glue for sodankyla.fi found: ns2.sodankyla.fi (194.251.77.132)
+ 13.624: sodankyla.fi INFO It is possible to build a referral packet for sodankyla.fi that works without EDNS0.
+ 14.338: sodankyla.fi INFO Previously used name servers for sodankyla.fi: 
+ 14.338: sodankyla.fi INFO Done testing delegation for sodankyla.fi.
+ 14.339: sodankyla.fi INFO Begin testing name server ns1.sodankyla.fi.
+ 14.339: sodankyla.fi INFO Begin testing host ns1.sodankyla.fi.
+ 14.636: sodankyla.fi INFO Begin testing address 194.251.77.131.
+ 21.489: sodankyla.fi INFO Done testing address 194.251.77.131.
+ 21.493: sodankyla.fi INFO Done testing host ns1.sodankyla.fi.
+ 21.727: sodankyla.fi INFO Name server ns1.sodankyla.fi (194.251.77.131) answers queries over UDP.
+ 21.812: sodankyla.fi INFO Name server ns1.sodankyla.fi (194.251.77.131) answers queries over TCP.
+ 21.890: sodankyla.fi INFO Name server ns1.sodankyla.fi (194.251.77.131) is not recursive.
+ 22.075: sodankyla.fi INFO Name server ns1.sodankyla.fi (194.251.77.131) authoritative for sodankyla.fi.
+ 22.184: sodankyla.fi INFO Name server ns1.sodankyla.fi (194.251.77.131) closed for zone transfer of sodankyla.fi.
+ 22.230: sodankyla.fi NOTICE No answer received from 194.251.77.131 when querying for hostname.bind/CH/TXT.
+ 22.279: sodankyla.fi INFO Legacy name server ID for ns1.sodankyla.fi (194.251.77.131): version.bind = version
+ 22.317: sodankyla.fi NOTICE No answer received from 194.251.77.131 when querying for id.server/CH/TXT.
+ 22.355: sodankyla.fi NOTICE No answer received from 194.251.77.131 when querying for version.server/CH/TXT.
+ 22.355: sodankyla.fi INFO Done testing name server ns1.sodankyla.fi.
+ 22.355: sodankyla.fi INFO Begin testing name server ns2.sodankyla.fi.
+ 22.355: sodankyla.fi INFO Begin testing host ns2.sodankyla.fi.
+ 22.592: sodankyla.fi INFO Begin testing address 194.251.77.132.
+ 23.232: sodankyla.fi INFO Done testing address 194.251.77.132.
+ 23.232: sodankyla.fi INFO Done testing host ns2.sodankyla.fi.
+ 23.439: sodankyla.fi INFO Name server ns2.sodankyla.fi (194.251.77.132) answers queries over UDP.
+ 23.517: sodankyla.fi INFO Name server ns2.sodankyla.fi (194.251.77.132) answers queries over TCP.
+ 23.565: sodankyla.fi INFO Name server ns2.sodankyla.fi (194.251.77.132) is not recursive.
+ 23.747: sodankyla.fi INFO Name server ns2.sodankyla.fi (194.251.77.132) authoritative for sodankyla.fi.
+ 23.851: sodankyla.fi INFO Name server ns2.sodankyla.fi (194.251.77.132) closed for zone transfer of sodankyla.fi.
+ 23.889: sodankyla.fi INFO Legacy name server ID for ns2.sodankyla.fi (194.251.77.132): hostname.bind = ns2
+ 23.938: sodankyla.fi INFO Legacy name server ID for ns2.sodankyla.fi (194.251.77.132): version.bind = version
+ 24.014: sodankyla.fi NOTICE No answer received from 194.251.77.132 when querying for version.server/CH/TXT.
+ 24.014: sodankyla.fi INFO Done testing name server ns2.sodankyla.fi.
+ 24.014: sodankyla.fi INFO Begin testing zone consistency for sodankyla.fi.
+ 24.962: sodankyla.fi INFO SOA at address 194.251.77.131 has serial 49.
+ 25.015: sodankyla.fi INFO SOA at address 194.251.77.132 has serial 49.
+ 25.035: sodankyla.fi INFO All SOA records have consistent serial numbers.
+ 25.035: sodankyla.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 25.523: sodankyla.fi NOTICE The listed nameservers for sodankyla.fi all report the same set of nameservers.
+ 25.523: sodankyla.fi INFO Done testing zone consistency for sodankyla.fi.
+ 25.523: sodankyla.fi INFO Begin testing SOA parameters for sodankyla.fi.
+ 25.567: sodankyla.fi INFO Found SOA record for sodankyla.fi.
+ 25.567: sodankyla.fi INFO Begin testing host ns1.sodankyla.fi.
+ 25.824: sodankyla.fi INFO Begin testing address 194.251.77.131.
+ 26.089: sodankyla.fi INFO Done testing address 194.251.77.131.
+ 26.089: sodankyla.fi INFO Done testing host ns1.sodankyla.fi.
+ 26.089: sodankyla.fi INFO SOA MNAME for sodankyla.fi valid (ns1.sodankyla.fi).
+ 26.089: sodankyla.fi INFO SOA MNAME for sodankyla.fi (ns1.sodankyla.fi) listed as NS.
+ 26.317: sodankyla.fi INFO SOA MNAME for sodankyla.fi (ns1.sodankyla.fi) is authoritative.
+ 26.317: sodankyla.fi INFO Begin testing email address postmaster@sodankyla.fi.
+ 26.540: sodankyla.fi INFO Mail exchangers for postmaster@sodankyla.fi found mail.sodankyla.fi.
+ 26.541: sodankyla.fi INFO All mail servers for postmaster@sodankyla.fi are in zone sodankyla.fi.
+ 26.541: sodankyla.fi INFO Begin testing host mail.sodankyla.fi.
+ 27.104: sodankyla.fi INFO Begin testing address 194.251.76.90.
+ 27.780: sodankyla.fi WARNING Could not find reverse address for 194.251.76.90 (90.76.251.194.in-addr.arpa.).
+ 27.780: sodankyla.fi INFO Done testing address 194.251.76.90.
+ 27.780: sodankyla.fi INFO Done testing host mail.sodankyla.fi.
+ 28.019: sodankyla.fi INFO Done testing email address postmaster@sodankyla.fi.
+ 28.019: sodankyla.fi INFO Successful attempt to deliver email for SOA RNAME of sodankyla.fi (postmaster.sodankyla.fi) using postmaster@sodankyla.fi.
+ 28.019: sodankyla.fi INFO SOA TTL for sodankyla.fi OK (3600) - recommended >= 3600.
+ 28.019: sodankyla.fi NOTICE SOA refresh for sodankyla.fi too small (10800) - recommended >= 14400.
+ 28.019: sodankyla.fi INFO SOA retry for sodankyla.fi OK (3600) - recommended >= 3600.
+ 28.019: sodankyla.fi INFO SOA expire for sodankyla.fi OK (605000) - recommended >= 604800.
+ 28.020: sodankyla.fi INFO SOA minimum for sodankyla.fi OK (10800) - recommended between 300 and 86400.
+ 28.020: sodankyla.fi INFO Done testing SOA parameters for sodankyla.fi.
+ 28.020: sodankyla.fi INFO Begin testing connectivity for sodankyla.fi.
+ 29.263: sodankyla.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 29.263: sodankyla.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 29.263: sodankyla.fi INFO Done testing connectivity for sodankyla.fi.
+ 29.264: sodankyla.fi INFO Begin testing DNSSEC for sodankyla.fi.
+ 29.361: sodankyla.fi INFO Did not find DS record for sodankyla.fi at parent.
+ 29.550: sodankyla.fi INFO Servers for sodankyla.fi have consistent extra processing status.
+ 29.654: sodankyla.fi INFO Authenticated denial records not found for sodankyla.fi.
+ 29.693: sodankyla.fi INFO Did not find DNSKEY record for sodankyla.fi at child.
+ 29.693: sodankyla.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 29.717: sodankyla.fi INFO Done testing DNSSEC for sodankyla.fi.
+ 29.718: sodankyla.fi INFO Test completed for zone sodankyla.fi.

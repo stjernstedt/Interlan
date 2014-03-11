@@ -1,0 +1,10 @@
+#!/bin/sh
+
+cd /home/it-companies/public_html/slump2/script
+
+./dnssec2 |tee resultat.txt
+
+php file.php < resultat.txt >../index2.html
+cp ../index2.html ../index.html
+
+

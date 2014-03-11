@@ -1,0 +1,84 @@
+  0.000: laitila.fi INFO Begin testing zone laitila.fi with version 1.6.1.
+  0.411: laitila.fi INFO Begin testing delegation for laitila.fi.
+  8.256: laitila.fi INFO Name servers listed at parent: ns.laitilanpuhelin.fi,ns1.lailanet.fi
+  9.956: laitila.fi INFO Name servers listed at child: ns.laitilanpuhelin.fi,ns1.lailanet.fi
+  9.956: laitila.fi NOTICE No IPv6 name servers found.
+ 10.016: laitila.fi INFO Parent glue for laitila.fi found: ns.laitilanpuhelin.fi (188.123.0.2)
+ 10.367: laitila.fi INFO Parent glue for laitila.fi found: ns1.lailanet.fi (188.123.0.69)
+ 10.450: laitila.fi INFO Checking glue for ns.laitilanpuhelin.fi (188.123.0.2).
+ 10.450: laitila.fi INFO Checking glue for ns1.lailanet.fi (188.123.0.69).
+ 10.450: laitila.fi INFO Parent glue for laitila.fi found: ns.laitilanpuhelin.fi (188.123.0.2)
+ 10.450: laitila.fi INFO Parent glue for laitila.fi found: ns1.lailanet.fi (188.123.0.69)
+ 11.476: laitila.fi INFO It is possible to build a referral packet for laitila.fi that works without EDNS0.
+ 12.069: laitila.fi INFO Previously used name servers for laitila.fi: 
+ 12.070: laitila.fi INFO Done testing delegation for laitila.fi.
+ 12.070: laitila.fi INFO Begin testing name server ns.laitilanpuhelin.fi.
+ 12.070: laitila.fi INFO Begin testing host ns.laitilanpuhelin.fi.
+ 12.400: laitila.fi INFO Begin testing address 188.123.0.2.
+ 21.144: laitila.fi INFO Done testing address 188.123.0.2.
+ 21.144: laitila.fi INFO Done testing host ns.laitilanpuhelin.fi.
+ 21.358: laitila.fi INFO Name server ns.laitilanpuhelin.fi (188.123.0.2) answers queries over UDP.
+ 21.401: laitila.fi INFO Name server ns.laitilanpuhelin.fi (188.123.0.2) answers queries over TCP.
+ 21.419: laitila.fi INFO Name server ns.laitilanpuhelin.fi (188.123.0.2) is not recursive.
+ 21.490: laitila.fi INFO Name server ns.laitilanpuhelin.fi (188.123.0.2) authoritative for laitila.fi.
+ 21.559: laitila.fi INFO Name server ns.laitilanpuhelin.fi (188.123.0.2) closed for zone transfer of laitila.fi.
+ 21.587: laitila.fi INFO Legacy name server ID for ns.laitilanpuhelin.fi (188.123.0.2): hostname.bind = ns
+ 21.648: laitila.fi INFO Legacy name server ID for ns.laitilanpuhelin.fi (188.123.0.2): version.bind = not currently available
+ 21.688: laitila.fi NOTICE No answer received from 188.123.0.2 when querying for version.server/CH/TXT.
+ 21.688: laitila.fi INFO Done testing name server ns.laitilanpuhelin.fi.
+ 21.688: laitila.fi INFO Begin testing name server ns1.lailanet.fi.
+ 21.688: laitila.fi INFO Begin testing host ns1.lailanet.fi.
+ 21.840: laitila.fi INFO Begin testing address 188.123.0.69.
+ 22.448: laitila.fi INFO Done testing address 188.123.0.69.
+ 22.448: laitila.fi INFO Done testing host ns1.lailanet.fi.
+ 22.655: laitila.fi INFO Name server ns1.lailanet.fi (188.123.0.69) answers queries over UDP.
+ 22.693: laitila.fi INFO Name server ns1.lailanet.fi (188.123.0.69) answers queries over TCP.
+ 22.713: laitila.fi INFO Name server ns1.lailanet.fi (188.123.0.69) is not recursive.
+ 22.826: laitila.fi INFO Name server ns1.lailanet.fi (188.123.0.69) authoritative for laitila.fi.
+ 22.874: laitila.fi INFO Name server ns1.lailanet.fi (188.123.0.69) closed for zone transfer of laitila.fi.
+ 22.901: laitila.fi INFO Legacy name server ID for ns1.lailanet.fi (188.123.0.69): hostname.bind = ns1.lailanet.fi
+ 22.920: laitila.fi INFO Legacy name server ID for ns1.lailanet.fi (188.123.0.69): version.bind = not currently available
+ 22.967: laitila.fi NOTICE No answer received from 188.123.0.69 when querying for version.server/CH/TXT.
+ 22.968: laitila.fi INFO Done testing name server ns1.lailanet.fi.
+ 22.968: laitila.fi INFO Begin testing zone consistency for laitila.fi.
+ 23.792: laitila.fi INFO SOA at address 188.123.0.69 has serial 18.
+ 23.819: laitila.fi INFO SOA at address 188.123.0.2 has serial 18.
+ 23.819: laitila.fi INFO All SOA records have consistent serial numbers.
+ 23.819: laitila.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 24.391: laitila.fi NOTICE The listed nameservers for laitila.fi all report the same set of nameservers.
+ 24.397: laitila.fi INFO Done testing zone consistency for laitila.fi.
+ 24.397: laitila.fi INFO Begin testing SOA parameters for laitila.fi.
+ 24.414: laitila.fi INFO Found SOA record for laitila.fi.
+ 24.415: laitila.fi INFO Begin testing host ns1.lailanet.fi.
+ 24.605: laitila.fi INFO Begin testing address 188.123.0.69.
+ 24.752: laitila.fi INFO Done testing address 188.123.0.69.
+ 24.752: laitila.fi INFO Done testing host ns1.lailanet.fi.
+ 24.752: laitila.fi INFO SOA MNAME for laitila.fi valid (ns1.lailanet.fi).
+ 24.752: laitila.fi INFO SOA MNAME for laitila.fi (ns1.lailanet.fi) listed as NS.
+ 25.049: laitila.fi INFO SOA MNAME for laitila.fi (ns1.lailanet.fi) is authoritative.
+ 25.049: laitila.fi INFO Begin testing email address hostmaster@lailanet.fi.
+ 25.345: laitila.fi INFO Mail exchangers for hostmaster@lailanet.fi found mail.lailanet.fi.
+ 25.345: laitila.fi INFO Begin testing host mail.lailanet.fi.
+ 25.755: laitila.fi INFO Begin testing address 188.123.0.131.
+ 26.360: laitila.fi INFO Done testing address 188.123.0.131.
+ 26.360: laitila.fi INFO Done testing host mail.lailanet.fi.
+ 26.661: laitila.fi INFO Done testing email address hostmaster@lailanet.fi.
+ 26.661: laitila.fi INFO Successful attempt to deliver email for SOA RNAME of laitila.fi (hostmaster.lailanet.fi) using hostmaster@lailanet.fi.
+ 26.661: laitila.fi INFO SOA TTL for laitila.fi OK (10800) - recommended >= 3600.
+ 26.661: laitila.fi INFO SOA refresh for laitila.fi OK (28800) - recommended >= 14400.
+ 26.661: laitila.fi INFO SOA retry for laitila.fi OK (7200) - recommended >= 3600.
+ 26.661: laitila.fi INFO SOA expire for laitila.fi OK (604800) - recommended >= 604800.
+ 26.661: laitila.fi INFO SOA minimum for laitila.fi OK (7200) - recommended between 300 and 86400.
+ 26.661: laitila.fi INFO Done testing SOA parameters for laitila.fi.
+ 26.661: laitila.fi INFO Begin testing connectivity for laitila.fi.
+ 27.756: laitila.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 27.756: laitila.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 27.756: laitila.fi INFO Done testing connectivity for laitila.fi.
+ 27.756: laitila.fi INFO Begin testing DNSSEC for laitila.fi.
+ 27.845: laitila.fi INFO Did not find DS record for laitila.fi at parent.
+ 27.930: laitila.fi INFO Servers for laitila.fi have consistent extra processing status.
+ 27.960: laitila.fi INFO Authenticated denial records not found for laitila.fi.
+ 27.984: laitila.fi INFO Did not find DNSKEY record for laitila.fi at child.
+ 27.984: laitila.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 27.984: laitila.fi INFO Done testing DNSSEC for laitila.fi.
+ 27.984: laitila.fi INFO Test completed for zone laitila.fi.

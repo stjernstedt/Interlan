@@ -1,0 +1,88 @@
+  0.000: raisio.fi INFO Begin testing zone raisio.fi with version 1.5.0.
+  1.491: raisio.fi INFO Begin testing delegation for raisio.fi.
+ 42.124: raisio.fi INFO Name servers listed at parent: ns1.taajama.fi,ns4.taajama.fi
+ 54.003: raisio.fi INFO Name servers listed at child: ns1.taajama.fi,ns4.taajama.fi
+ 54.004: raisio.fi NOTICE No IPv6 name servers found.
+ 54.593: raisio.fi INFO Parent glue for raisio.fi found: ns1.taajama.fi (83.102.40.26)
+ 55.419: raisio.fi INFO Parent glue for raisio.fi found: ns4.taajama.fi (83.102.40.27)
+ 55.872: raisio.fi INFO Checking glue for ns1.taajama.fi (83.102.40.26).
+ 55.872: raisio.fi INFO Checking glue for ns4.taajama.fi (83.102.40.27).
+ 55.872: raisio.fi INFO Parent glue for raisio.fi found: ns1.taajama.fi (83.102.40.26)
+ 55.872: raisio.fi INFO Parent glue for raisio.fi found: ns4.taajama.fi (83.102.40.27)
+ 62.336: raisio.fi INFO It is possible to build a referral packet for raisio.fi that works without EDNS0.
+ 67.145: raisio.fi INFO Previously used name servers for raisio.fi: 
+ 67.145: raisio.fi INFO Done testing delegation for raisio.fi.
+ 67.145: raisio.fi INFO Begin testing name server ns1.taajama.fi.
+ 67.146: raisio.fi INFO Begin testing host ns1.taajama.fi.
+ 69.338: raisio.fi INFO Begin testing address 83.102.40.26.
+111.751: raisio.fi INFO Done testing address 83.102.40.26.
+111.751: raisio.fi INFO Done testing host ns1.taajama.fi.
+114.386: raisio.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over UDP.
+114.824: raisio.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over TCP.
+115.211: raisio.fi INFO Name server ns1.taajama.fi (83.102.40.26) is not recursive.
+116.299: raisio.fi INFO Name server ns1.taajama.fi (83.102.40.26) authoritative for raisio.fi.
+116.494: raisio.fi INFO Name server ns1.taajama.fi (83.102.40.26) closed for zone transfer of raisio.fi.
+116.852: raisio.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): hostname.bind = saharausku
+117.321: raisio.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): version.bind = Not disclosed
+117.874: raisio.fi NOTICE No answer received from 83.102.40.26 when querying for version.server/CH/TXT.
+117.875: raisio.fi INFO Done testing name server ns1.taajama.fi.
+117.875: raisio.fi INFO Begin testing name server ns4.taajama.fi.
+117.875: raisio.fi INFO Begin testing host ns4.taajama.fi.
+119.849: raisio.fi INFO Begin testing address 83.102.40.27.
+124.312: raisio.fi INFO Done testing address 83.102.40.27.
+124.312: raisio.fi INFO Done testing host ns4.taajama.fi.
+126.648: raisio.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over UDP.
+127.091: raisio.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over TCP.
+127.355: raisio.fi INFO Name server ns4.taajama.fi (83.102.40.27) is not recursive.
+128.380: raisio.fi INFO Name server ns4.taajama.fi (83.102.40.27) authoritative for raisio.fi.
+128.689: raisio.fi INFO Name server ns4.taajama.fi (83.102.40.27) closed for zone transfer of raisio.fi.
+128.835: raisio.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): hostname.bind = perhosrausku
+129.116: raisio.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): version.bind = Not disclosed
+129.640: raisio.fi NOTICE No answer received from 83.102.40.27 when querying for version.server/CH/TXT.
+129.640: raisio.fi INFO Done testing name server ns4.taajama.fi.
+129.640: raisio.fi INFO Begin testing zone consistency for raisio.fi.
+137.742: raisio.fi INFO SOA at address 83.102.40.26 has serial 2013053101.
+138.184: raisio.fi INFO SOA at address 83.102.40.27 has serial 2013053101.
+138.184: raisio.fi INFO All SOA records have consistent serial numbers.
+138.184: raisio.fi INFO All other fields in the SOA record are consistent among all name servers.
+144.844: raisio.fi NOTICE The listed nameservers for raisio.fi all report the same set of nameservers.
+144.844: raisio.fi INFO Done testing zone consistency for raisio.fi.
+144.844: raisio.fi INFO Begin testing SOA parameters for raisio.fi.
+145.358: raisio.fi INFO Found SOA record for raisio.fi.
+145.618: raisio.fi INFO Begin testing host ns1.taajama.fi.
+148.278: raisio.fi INFO Begin testing address 83.102.40.26.
+151.205: raisio.fi INFO Done testing address 83.102.40.26.
+151.206: raisio.fi INFO Done testing host ns1.taajama.fi.
+151.206: raisio.fi INFO SOA MNAME for raisio.fi valid (ns1.taajama.fi).
+151.206: raisio.fi INFO SOA MNAME for raisio.fi (ns1.taajama.fi) listed as NS.
+154.056: raisio.fi INFO SOA MNAME for raisio.fi (ns1.taajama.fi) is authoritative.
+154.056: raisio.fi INFO Begin testing email address hostmaster@taajama.com.
+156.560: raisio.fi INFO Mail exchangers for hostmaster@taajama.com found spp.taajama.fi,mx2.taajama.com.
+156.560: raisio.fi INFO Begin testing host spp.taajama.fi.
+162.339: raisio.fi INFO Begin testing address 217.78.212.151.
+167.638: raisio.fi INFO Done testing address 217.78.212.151.
+167.702: raisio.fi INFO Done testing host spp.taajama.fi.
+170.336: raisio.fi INFO Begin testing host mx2.taajama.com.
+175.591: raisio.fi INFO Begin testing address 83.102.41.75.
+180.919: raisio.fi INFO Done testing address 83.102.41.75.
+180.919: raisio.fi INFO Done testing host mx2.taajama.com.
+183.147: raisio.fi INFO Done testing email address hostmaster@taajama.com.
+183.147: raisio.fi INFO Successful attempt to deliver email for SOA RNAME of raisio.fi (hostmaster.taajama.com) using hostmaster@taajama.com.
+183.147: raisio.fi INFO SOA TTL for raisio.fi OK (28800) - recommended >= 3600.
+183.147: raisio.fi INFO SOA refresh for raisio.fi OK (28800) - recommended >= 14400.
+183.147: raisio.fi INFO SOA retry for raisio.fi OK (7200) - recommended >= 3600.
+183.147: raisio.fi INFO SOA expire for raisio.fi OK (1814400) - recommended >= 604800.
+183.147: raisio.fi INFO SOA minimum for raisio.fi OK (86400) - recommended between 300 and 86400.
+183.148: raisio.fi INFO Done testing SOA parameters for raisio.fi.
+183.148: raisio.fi INFO Begin testing connectivity for raisio.fi.
+190.664: raisio.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+190.664: raisio.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+190.665: raisio.fi INFO Done testing connectivity for raisio.fi.
+190.665: raisio.fi INFO Begin testing DNSSEC for raisio.fi.
+191.496: raisio.fi INFO Did not find DS record for raisio.fi at parent.
+192.407: raisio.fi INFO Servers for raisio.fi have consistent extra processing status.
+192.851: raisio.fi INFO Authenticated denial records not found for raisio.fi.
+193.241: raisio.fi INFO Did not find DNSKEY record for raisio.fi at child.
+193.241: raisio.fi INFO No DNSKEY(s) found at child, other tests skipped.
+193.241: raisio.fi INFO Done testing DNSSEC for raisio.fi.
+193.242: raisio.fi INFO Test completed for zone raisio.fi.

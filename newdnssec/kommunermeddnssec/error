@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cat test/$1 | grep -vi ns2.gavlenet.com | grep ERROR
+cat test/$1 | grep -vi ns2.gavlenet.com |grep WARNING

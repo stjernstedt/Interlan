@@ -1,0 +1,87 @@
+  0.000: fredericia.dk INFO Begin testing zone fredericia.dk with version 1.6.1.
+  0.395: fredericia.dk INFO Begin testing delegation for fredericia.dk.
+  5.690: fredericia.dk INFO Name servers listed at parent: ns-auth03.kmd.dk,ns-auth04.kmd.dk
+  7.310: fredericia.dk INFO Name servers listed at child: ns-auth03.kmd.dk,ns-auth04.kmd.dk
+  7.311: fredericia.dk NOTICE No IPv6 name servers found.
+  7.400: fredericia.dk INFO Parent glue for fredericia.dk found: ns-auth03.kmd.dk (131.165.64.5)
+  7.555: fredericia.dk INFO Parent glue for fredericia.dk found: ns-auth04.kmd.dk (131.165.4.5)
+  7.680: fredericia.dk INFO Checking glue for ns-auth03.kmd.dk (131.165.64.5).
+  7.680: fredericia.dk INFO Checking glue for ns-auth04.kmd.dk (131.165.4.5).
+  7.681: fredericia.dk INFO Parent glue for fredericia.dk found: ns-auth03.kmd.dk (131.165.64.5)
+  7.716: fredericia.dk INFO Parent glue for fredericia.dk found: ns-auth04.kmd.dk (131.165.4.5)
+  8.681: fredericia.dk INFO It is possible to build a referral packet for fredericia.dk that works without EDNS0.
+  9.249: fredericia.dk INFO Previously used name servers for fredericia.dk: 
+  9.249: fredericia.dk INFO Done testing delegation for fredericia.dk.
+  9.250: fredericia.dk INFO Begin testing name server ns-auth03.kmd.dk.
+  9.250: fredericia.dk INFO Begin testing host ns-auth03.kmd.dk.
+  9.509: fredericia.dk INFO Begin testing address 131.165.64.5.
+ 15.814: fredericia.dk INFO Done testing address 131.165.64.5.
+ 15.814: fredericia.dk INFO Done testing host ns-auth03.kmd.dk.
+ 16.014: fredericia.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) answers queries over UDP.
+ 16.119: fredericia.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) answers queries over TCP.
+ 16.186: fredericia.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) is not recursive.
+ 16.415: fredericia.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) authoritative for fredericia.dk.
+ 16.563: fredericia.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) closed for zone transfer of fredericia.dk.
+ 20.637: fredericia.dk INFO Legacy name server ID for ns-auth03.kmd.dk (131.165.64.5): version.bind = 1.0
+ 20.748: fredericia.dk NOTICE No answer received from 131.165.64.5 when querying for version.server/CH/TXT.
+ 20.748: fredericia.dk INFO Done testing name server ns-auth03.kmd.dk.
+ 20.748: fredericia.dk INFO Begin testing name server ns-auth04.kmd.dk.
+ 20.748: fredericia.dk INFO Begin testing host ns-auth04.kmd.dk.
+ 20.950: fredericia.dk INFO Begin testing address 131.165.4.5.
+ 21.582: fredericia.dk INFO Done testing address 131.165.4.5.
+ 21.582: fredericia.dk INFO Done testing host ns-auth04.kmd.dk.
+ 21.918: fredericia.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) answers queries over UDP.
+ 22.025: fredericia.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) answers queries over TCP.
+ 22.095: fredericia.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) is not recursive.
+ 22.316: fredericia.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) authoritative for fredericia.dk.
+ 22.469: fredericia.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) closed for zone transfer of fredericia.dk.
+ 22.522: fredericia.dk INFO Legacy name server ID for ns-auth04.kmd.dk (131.165.4.5): hostname.bind = ns-auth04.kmd.dk
+ 22.577: fredericia.dk INFO Legacy name server ID for ns-auth04.kmd.dk (131.165.4.5): version.bind = 1.0
+ 22.691: fredericia.dk NOTICE No answer received from 131.165.4.5 when querying for version.server/CH/TXT.
+ 22.692: fredericia.dk INFO Done testing name server ns-auth04.kmd.dk.
+ 22.697: fredericia.dk INFO Begin testing zone consistency for fredericia.dk.
+ 23.768: fredericia.dk INFO SOA at address 131.165.4.5 has serial 141.
+ 23.840: fredericia.dk INFO SOA at address 131.165.64.5 has serial 141.
+ 23.840: fredericia.dk INFO All SOA records have consistent serial numbers.
+ 23.840: fredericia.dk INFO All other fields in the SOA record are consistent among all name servers.
+ 24.417: fredericia.dk NOTICE The listed nameservers for fredericia.dk all report the same set of nameservers.
+ 24.418: fredericia.dk INFO Done testing zone consistency for fredericia.dk.
+ 24.418: fredericia.dk INFO Begin testing SOA parameters for fredericia.dk.
+ 24.476: fredericia.dk INFO Found SOA record for fredericia.dk.
+ 24.477: fredericia.dk INFO Begin testing host ns-auth03.kmd.dk.
+ 24.698: fredericia.dk INFO Begin testing address 131.165.64.5.
+ 24.919: fredericia.dk INFO Done testing address 131.165.64.5.
+ 24.920: fredericia.dk INFO Done testing host ns-auth03.kmd.dk.
+ 24.920: fredericia.dk INFO SOA MNAME for fredericia.dk valid (ns-auth03.kmd.dk).
+ 24.920: fredericia.dk INFO SOA MNAME for fredericia.dk (ns-auth03.kmd.dk) listed as NS.
+ 25.281: fredericia.dk INFO SOA MNAME for fredericia.dk (ns-auth03.kmd.dk) is authoritative.
+ 25.281: fredericia.dk INFO Begin testing email address dnsadmin@kmd.dk.
+ 25.463: fredericia.dk INFO Mail exchangers for dnsadmin@kmd.dk found edge1.kmd.dk,edge2.kmd.dk.
+ 25.463: fredericia.dk INFO Begin testing host edge1.kmd.dk.
+ 26.068: fredericia.dk INFO Begin testing address 131.165.63.88.
+ 26.669: fredericia.dk INFO Done testing address 131.165.63.88.
+ 26.670: fredericia.dk INFO Done testing host edge1.kmd.dk.
+ 26.822: fredericia.dk INFO Begin testing host edge2.kmd.dk.
+ 27.170: fredericia.dk INFO Begin testing address 131.165.63.89.
+ 27.687: fredericia.dk INFO Done testing address 131.165.63.89.
+ 27.687: fredericia.dk INFO Done testing host edge2.kmd.dk.
+ 27.885: fredericia.dk INFO Done testing email address dnsadmin@kmd.dk.
+ 27.886: fredericia.dk INFO Successful attempt to deliver email for SOA RNAME of fredericia.dk (dnsadmin.kmd.dk) using dnsadmin@kmd.dk.
+ 27.886: fredericia.dk INFO SOA TTL for fredericia.dk OK (3600) - recommended >= 3600.
+ 27.886: fredericia.dk NOTICE SOA refresh for fredericia.dk too small (10800) - recommended >= 14400.
+ 27.886: fredericia.dk INFO SOA retry for fredericia.dk OK (3600) - recommended >= 3600.
+ 27.886: fredericia.dk INFO SOA expire for fredericia.dk OK (604800) - recommended >= 604800.
+ 27.886: fredericia.dk INFO SOA minimum for fredericia.dk OK (43200) - recommended between 300 and 86400.
+ 27.886: fredericia.dk INFO Done testing SOA parameters for fredericia.dk.
+ 27.886: fredericia.dk INFO Begin testing connectivity for fredericia.dk.
+ 28.770: fredericia.dk NOTICE Zone announced by fewer than two IPv4 ASN.
+ 28.770: fredericia.dk NOTICE Zone announced by fewer than two IPv6 ASN.
+ 28.770: fredericia.dk INFO Done testing connectivity for fredericia.dk.
+ 28.771: fredericia.dk INFO Begin testing DNSSEC for fredericia.dk.
+ 28.822: fredericia.dk INFO Did not find DS record for fredericia.dk at parent.
+ 29.038: fredericia.dk INFO Servers for fredericia.dk have consistent extra processing status.
+ 29.145: fredericia.dk INFO Authenticated denial records not found for fredericia.dk.
+ 29.202: fredericia.dk INFO Did not find DNSKEY record for fredericia.dk at child.
+ 29.202: fredericia.dk INFO No DNSKEY(s) found at child, other tests skipped.
+ 29.202: fredericia.dk INFO Done testing DNSSEC for fredericia.dk.
+ 29.202: fredericia.dk INFO Test completed for zone fredericia.dk.

@@ -1,0 +1,82 @@
+  0.000: orivesi.fi INFO Begin testing zone orivesi.fi with version 1.6.1.
+  0.409: orivesi.fi INFO Begin testing delegation for orivesi.fi.
+  8.872: orivesi.fi INFO Name servers listed at parent: ns-fi.elisa.net,ns-se.elisa.net
+ 10.947: orivesi.fi INFO Name servers listed at child: ns-fi.elisa.net,ns-se.elisa.net
+ 10.948: orivesi.fi NOTICE No IPv6 name servers found.
+ 12.382: orivesi.fi INFO It is possible to build a referral packet for orivesi.fi that works without EDNS0.
+ 14.006: orivesi.fi INFO Previously used name servers for orivesi.fi: 
+ 14.007: orivesi.fi INFO Done testing delegation for orivesi.fi.
+ 14.007: orivesi.fi INFO Begin testing name server ns-fi.elisa.net.
+ 14.019: orivesi.fi INFO Begin testing host ns-fi.elisa.net.
+ 14.474: orivesi.fi INFO Begin testing address 193.229.0.49.
+ 23.168: orivesi.fi INFO Done testing address 193.229.0.49.
+ 23.168: orivesi.fi INFO Done testing host ns-fi.elisa.net.
+ 23.500: orivesi.fi INFO Name server ns-fi.elisa.net (193.229.0.49) answers queries over UDP.
+ 23.527: orivesi.fi INFO Name server ns-fi.elisa.net (193.229.0.49) answers queries over TCP.
+ 23.556: orivesi.fi INFO Name server ns-fi.elisa.net (193.229.0.49) is not recursive.
+ 23.636: orivesi.fi INFO Name server ns-fi.elisa.net (193.229.0.49) authoritative for orivesi.fi.
+ 23.673: orivesi.fi INFO Name server ns-fi.elisa.net (193.229.0.49) closed for zone transfer of orivesi.fi.
+ 23.708: orivesi.fi INFO Legacy name server ID for ns-fi.elisa.net (193.229.0.49): hostname.bind = ldom-dns64
+ 23.748: orivesi.fi INFO Legacy name server ID for ns-fi.elisa.net (193.229.0.49): version.bind = unknown
+ 23.780: orivesi.fi NOTICE No answer received from 193.229.0.49 when querying for version.server/CH/TXT.
+ 23.780: orivesi.fi INFO Done testing name server ns-fi.elisa.net.
+ 23.780: orivesi.fi INFO Begin testing name server ns-se.elisa.net.
+ 23.780: orivesi.fi INFO Begin testing host ns-se.elisa.net.
+ 23.944: orivesi.fi INFO Begin testing address 62.248.254.2.
+ 24.449: orivesi.fi INFO Done testing address 62.248.254.2.
+ 24.449: orivesi.fi INFO Done testing host ns-se.elisa.net.
+ 25.000: orivesi.fi INFO Name server ns-se.elisa.net (62.248.254.2) answers queries over UDP.
+ 25.036: orivesi.fi INFO Name server ns-se.elisa.net (62.248.254.2) answers queries over TCP.
+ 25.053: orivesi.fi INFO Name server ns-se.elisa.net (62.248.254.2) is not recursive.
+ 25.124: orivesi.fi INFO Name server ns-se.elisa.net (62.248.254.2) authoritative for orivesi.fi.
+ 25.182: orivesi.fi INFO Name server ns-se.elisa.net (62.248.254.2) closed for zone transfer of orivesi.fi.
+ 25.224: orivesi.fi INFO Legacy name server ID for ns-se.elisa.net (62.248.254.2): hostname.bind = phys-dns8
+ 25.294: orivesi.fi INFO Legacy name server ID for ns-se.elisa.net (62.248.254.2): version.bind = unknown
+ 25.352: orivesi.fi NOTICE No answer received from 62.248.254.2 when querying for version.server/CH/TXT.
+ 25.352: orivesi.fi INFO Done testing name server ns-se.elisa.net.
+ 25.352: orivesi.fi INFO Begin testing zone consistency for orivesi.fi.
+ 27.112: orivesi.fi INFO SOA at address 62.248.254.2 has serial 2013110100.
+ 27.140: orivesi.fi INFO SOA at address 193.229.0.49 has serial 2013110100.
+ 27.140: orivesi.fi INFO All SOA records have consistent serial numbers.
+ 27.140: orivesi.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 27.952: orivesi.fi NOTICE The listed nameservers for orivesi.fi all report the same set of nameservers.
+ 27.953: orivesi.fi INFO Done testing zone consistency for orivesi.fi.
+ 27.953: orivesi.fi INFO Begin testing SOA parameters for orivesi.fi.
+ 28.028: orivesi.fi INFO Found SOA record for orivesi.fi.
+ 28.028: orivesi.fi INFO Begin testing host ns-fi.elisa.net.
+ 28.322: orivesi.fi INFO Begin testing address 193.229.0.49.
+ 28.600: orivesi.fi INFO Done testing address 193.229.0.49.
+ 28.600: orivesi.fi INFO Done testing host ns-fi.elisa.net.
+ 28.600: orivesi.fi INFO SOA MNAME for orivesi.fi valid (ns-fi.elisa.net).
+ 28.600: orivesi.fi INFO SOA MNAME for orivesi.fi (ns-fi.elisa.net) listed as NS.
+ 29.012: orivesi.fi INFO SOA MNAME for orivesi.fi (ns-fi.elisa.net) is authoritative.
+ 29.012: orivesi.fi INFO Begin testing email address hostmaster@elisa.fi.
+ 29.202: orivesi.fi INFO Mail exchangers for hostmaster@elisa.fi found mx2.elisa.fi,mx1.elisa.fi.
+ 29.202: orivesi.fi INFO Begin testing host mx2.elisa.fi.
+ 29.624: orivesi.fi INFO Begin testing address 193.64.173.43.
+ 30.860: orivesi.fi INFO Done testing address 193.64.173.43.
+ 30.860: orivesi.fi INFO Done testing host mx2.elisa.fi.
+ 31.040: orivesi.fi INFO Begin testing host mx1.elisa.fi.
+ 31.452: orivesi.fi INFO Begin testing address 193.64.173.42.
+ 32.725: orivesi.fi INFO Done testing address 193.64.173.42.
+ 32.725: orivesi.fi INFO Done testing host mx1.elisa.fi.
+ 32.860: orivesi.fi INFO Done testing email address hostmaster@elisa.fi.
+ 32.860: orivesi.fi INFO Successful attempt to deliver email for SOA RNAME of orivesi.fi (hostmaster.elisa.fi) using hostmaster@elisa.fi.
+ 32.860: orivesi.fi INFO SOA TTL for orivesi.fi OK (3600) - recommended >= 3600.
+ 32.860: orivesi.fi NOTICE SOA refresh for orivesi.fi too small (3600) - recommended >= 14400.
+ 32.860: orivesi.fi NOTICE SOA retry for orivesi.fi too small (900) - recommended >= 3600.
+ 32.860: orivesi.fi INFO SOA expire for orivesi.fi OK (604800) - recommended >= 604800.
+ 32.860: orivesi.fi INFO SOA minimum for orivesi.fi OK (3600) - recommended between 300 and 86400.
+ 32.860: orivesi.fi INFO Done testing SOA parameters for orivesi.fi.
+ 32.860: orivesi.fi INFO Begin testing connectivity for orivesi.fi.
+ 34.047: orivesi.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 34.048: orivesi.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 34.048: orivesi.fi INFO Done testing connectivity for orivesi.fi.
+ 34.048: orivesi.fi INFO Begin testing DNSSEC for orivesi.fi.
+ 34.073: orivesi.fi INFO Did not find DS record for orivesi.fi at parent.
+ 34.136: orivesi.fi INFO Servers for orivesi.fi have consistent extra processing status.
+ 34.176: orivesi.fi INFO Authenticated denial records not found for orivesi.fi.
+ 34.193: orivesi.fi INFO Did not find DNSKEY record for orivesi.fi at child.
+ 34.193: orivesi.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 34.194: orivesi.fi INFO Done testing DNSSEC for orivesi.fi.
+ 34.194: orivesi.fi INFO Test completed for zone orivesi.fi.

@@ -1,0 +1,114 @@
+  0.000: register.eu INFO Begin testing zone register.eu with version 1.5.0.
+  0.001: register.eu INFO Begin testing delegation for register.eu.
+ 12.518: register.eu INFO Name servers listed at parent: ns1.register.be,ns2.register.be,ns3.register.be
+ 15.923: register.eu INFO Name servers listed at child: ns1.register.be,ns1.register.eu,ns2.register.be,ns3.register.be
+ 15.923: register.eu NOTICE Additional name server listed at child: ns1.register.eu
+ 15.951: register.eu NOTICE No IPv6 name servers found.
+ 18.410: register.eu INFO It is possible to build a referral packet for register.eu that works without EDNS0.
+ 18.410: register.eu INFO Done testing delegation for register.eu.
+ 18.435: register.eu INFO Begin testing name server ns1.register.be.
+ 18.436: register.eu INFO Begin testing host ns1.register.be.
+ 18.764: register.eu INFO Begin testing address 80.169.63.207.
+ 26.591: register.eu INFO Done testing address 80.169.63.207.
+ 26.594: register.eu INFO Done testing host ns1.register.be.
+ 27.037: register.eu INFO Name server ns1.register.be (80.169.63.207) answers queries over UDP.
+ 27.138: register.eu INFO Name server ns1.register.be (80.169.63.207) answers queries over TCP.
+ 33.235: register.eu INFO Name server ns1.register.be (80.169.63.207) is not recursive.
+ 33.394: register.eu INFO Name server ns1.register.be (80.169.63.207) authoritative for register.eu.
+ 33.692: register.eu INFO Name server ns1.register.be (80.169.63.207) closed for zone transfer of register.eu.
+ 57.741: register.eu INFO Done testing name server ns1.register.be.
+ 57.741: register.eu INFO Begin testing name server ns1.register.eu.
+ 57.741: register.eu INFO Begin testing host ns1.register.eu.
+ 58.041: register.eu INFO Begin testing address 80.169.63.207.
+ 58.352: register.eu INFO Done testing address 80.169.63.207.
+ 58.352: register.eu INFO Done testing host ns1.register.eu.
+ 58.649: register.eu INFO Name server ns1.register.eu (80.169.63.207) answers queries over UDP.
+ 58.709: register.eu INFO Name server ns1.register.eu (80.169.63.207) answers queries over TCP.
+ 64.718: register.eu INFO Name server ns1.register.eu (80.169.63.207) is not recursive.
+ 64.989: register.eu INFO Name server ns1.register.eu (80.169.63.207) authoritative for register.eu.
+ 65.285: register.eu INFO Name server ns1.register.eu (80.169.63.207) closed for zone transfer of register.eu.
+ 65.292: register.eu INFO Done testing name server ns1.register.eu.
+ 65.292: register.eu INFO Begin testing name server ns2.register.be.
+ 65.292: register.eu INFO Begin testing host ns2.register.be.
+ 65.708: register.eu INFO Begin testing address 217.21.176.34.
+ 68.604: register.eu INFO Done testing address 217.21.176.34.
+ 68.604: register.eu INFO Done testing host ns2.register.be.
+ 69.121: register.eu INFO Name server ns2.register.be (217.21.176.34) answers queries over UDP.
+ 69.270: register.eu INFO Name server ns2.register.be (217.21.176.34) answers queries over TCP.
+ 75.346: register.eu INFO Name server ns2.register.be (217.21.176.34) is not recursive.
+ 75.623: register.eu INFO Name server ns2.register.be (217.21.176.34) authoritative for register.eu.
+ 75.907: register.eu INFO Name server ns2.register.be (217.21.176.34) closed for zone transfer of register.eu.
+ 99.942: register.eu INFO Done testing name server ns2.register.be.
+ 99.942: register.eu INFO Begin testing name server ns3.register.be.
+ 99.942: register.eu INFO Begin testing host ns3.register.be.
+100.292: register.eu INFO Begin testing address 91.121.5.186.
+108.359: register.eu INFO Done testing address 91.121.5.186.
+108.359: register.eu INFO Done testing host ns3.register.be.
+108.749: register.eu INFO Name server ns3.register.be (91.121.5.186) answers queries over UDP.
+108.825: register.eu INFO Name server ns3.register.be (91.121.5.186) answers queries over TCP.
+114.838: register.eu INFO Name server ns3.register.be (91.121.5.186) is not recursive.
+114.997: register.eu INFO Name server ns3.register.be (91.121.5.186) authoritative for register.eu.
+115.291: register.eu INFO Name server ns3.register.be (91.121.5.186) closed for zone transfer of register.eu.
+139.327: register.eu INFO Done testing name server ns3.register.be.
+139.328: register.eu INFO Begin testing zone consistency for register.eu.
+142.313: register.eu INFO SOA at address 217.21.176.34 has serial 2013030602.
+142.404: register.eu INFO SOA at address 91.121.5.186 has serial 2013030602.
+142.453: register.eu INFO SOA at address 80.169.63.207 has serial 2013030602.
+142.453: register.eu INFO All SOA records have consistent serial numbers.
+142.454: register.eu INFO All other fields in the SOA record are consistent among all name servers.
+143.677: register.eu NOTICE The listed nameservers for register.eu all report the same set of nameservers.
+143.677: register.eu INFO Done testing zone consistency for register.eu.
+143.678: register.eu INFO Begin testing SOA parameters for register.eu.
+143.720: register.eu INFO Found SOA record for register.eu.
+143.721: register.eu INFO Begin testing host ns1.register.eu.
+144.045: register.eu INFO Begin testing address 80.169.63.207.
+144.368: register.eu INFO Done testing address 80.169.63.207.
+144.368: register.eu INFO Done testing host ns1.register.eu.
+144.368: register.eu INFO SOA MNAME for register.eu valid (ns1.register.eu).
+144.368: register.eu INFO SOA MNAME for register.eu (ns1.register.eu) listed as NS.
+144.709: register.eu INFO SOA MNAME for register.eu (ns1.register.eu) is authoritative.
+144.709: register.eu INFO Begin testing email address info@register.eu.
+145.038: register.eu INFO Mail exchangers for info@register.eu found mail-in.register.be,mail-secondary.register.be,mail-buffer.register.be.
+145.043: register.eu INFO Begin testing host mail-in.register.be.
+145.666: register.eu INFO Begin testing address 178.208.39.143.
+146.881: register.eu INFO Done testing address 178.208.39.143.
+146.882: register.eu INFO Begin testing address 178.208.39.142.
+147.784: register.eu INFO Done testing address 178.208.39.142.
+147.784: register.eu INFO Done testing host mail-in.register.be.
+148.069: register.eu INFO Begin testing host mail-secondary.register.be.
+148.651: register.eu INFO Begin testing address 178.208.39.140.
+149.847: register.eu INFO Done testing address 178.208.39.140.
+149.847: register.eu INFO Begin testing address 178.208.39.141.
+150.830: register.eu INFO Done testing address 178.208.39.141.
+150.830: register.eu INFO Done testing host mail-secondary.register.be.
+151.128: register.eu INFO Begin testing host mail-buffer.register.be.
+151.816: register.eu INFO Begin testing address 178.208.39.142.
+152.189: register.eu INFO Done testing address 178.208.39.142.
+152.190: register.eu INFO Begin testing address 178.208.39.141.
+152.540: register.eu INFO Done testing address 178.208.39.141.
+152.541: register.eu INFO Begin testing address 178.208.39.140.
+152.819: register.eu INFO Done testing address 178.208.39.140.
+152.819: register.eu INFO Begin testing address 178.208.39.143.
+153.110: register.eu INFO Done testing address 178.208.39.143.
+153.110: register.eu INFO Done testing host mail-buffer.register.be.
+153.420: register.eu INFO Done testing email address info@register.eu.
+153.420: register.eu INFO Successful attempt to deliver email for SOA RNAME of register.eu (info.register.eu) using info@register.eu.
+153.420: register.eu NOTICE SOA TTL for register.eu too small (60) - recommended >= 3600.
+153.420: register.eu NOTICE SOA refresh for register.eu too small (300) - recommended >= 14400.
+153.420: register.eu NOTICE SOA refresh for register.eu lower than retry (300 vs 3600).
+153.420: register.eu INFO SOA retry for register.eu OK (3600) - recommended >= 3600.
+153.421: register.eu NOTICE SOA expire for register.eu too small (86400) - recommended >= 604800.
+153.421: register.eu NOTICE SOA minimum for register.eu too small (60) - recommended >= 300.
+153.421: register.eu INFO Done testing SOA parameters for register.eu.
+153.421: register.eu INFO Begin testing connectivity for register.eu.
+155.783: register.eu INFO Zone announced by more than one ASN.
+155.783: register.eu NOTICE Zone announced by fewer than two IPv6 ASN.
+155.783: register.eu INFO Done testing connectivity for register.eu.
+155.784: register.eu INFO Begin testing DNSSEC for register.eu.
+155.874: register.eu INFO Did not find DS record for register.eu at parent.
+156.079: register.eu INFO Servers for register.eu have consistent extra processing status.
+156.136: register.eu INFO Authenticated denial records not found for register.eu.
+156.188: register.eu INFO Did not find DNSKEY record for register.eu at child.
+156.188: register.eu INFO No DNSKEY(s) found at child, other tests skipped.
+156.188: register.eu INFO Done testing DNSSEC for register.eu.
+156.189: register.eu INFO Test completed for zone register.eu.

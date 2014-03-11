@@ -1,0 +1,139 @@
+  0.000: oyer.kommune.no INFO Begin testing zone oyer.kommune.no with version 1.6.1.
+  0.394: oyer.kommune.no INFO Begin testing delegation for oyer.kommune.no.
+  8.941: oyer.kommune.no INFO Name servers listed at parent: dns1.as2116.net,dns2.as2116.net
+ 10.145: oyer.kommune.no INFO Name servers listed at child: dns1.eunet.no,dns2.eunet.no
+ 10.145: oyer.kommune.no ERROR Superfluous name server listed at parent: dns1.as2116.net
+ 10.145: oyer.kommune.no ERROR Superfluous name server listed at parent: dns2.as2116.net
+ 10.145: oyer.kommune.no ERROR Total parent/child glue mismatch.
+ 10.145: oyer.kommune.no NOTICE Additional name server listed at child: dns1.eunet.no
+ 10.145: oyer.kommune.no NOTICE Additional name server listed at child: dns2.eunet.no
+ 10.145: oyer.kommune.no NOTICE Too few IPv6 name servers (1).
+ 10.303: oyer.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.431: oyer.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.561: oyer.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.750: oyer.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.104: oyer.kommune.no INFO It is possible to build a referral packet for oyer.kommune.no that works without EDNS0.
+ 12.887: oyer.kommune.no INFO Previously used name servers for oyer.kommune.no: 
+ 12.887: oyer.kommune.no INFO Done testing delegation for oyer.kommune.no.
+ 12.887: oyer.kommune.no INFO Begin testing name server dns1.eunet.no.
+ 12.888: oyer.kommune.no INFO Begin testing host dns1.eunet.no.
+ 12.888: oyer.kommune.no INFO Begin testing address 193.75.75.1.
+ 20.652: oyer.kommune.no INFO Done testing address 193.75.75.1.
+ 20.652: oyer.kommune.no INFO Begin testing address 2001:8c0:2001:0:0:0:3:53.
+ 20.966: oyer.kommune.no INFO Done testing address 2001:8c0:2001:0:0:0:3:53.
+ 20.966: oyer.kommune.no INFO Done testing host dns1.eunet.no.
+ 20.991: oyer.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) answers queries over UDP.
+ 21.030: oyer.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) answers queries over TCP.
+ 21.047: oyer.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) is not recursive.
+ 21.182: oyer.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) authoritative for oyer.kommune.no.
+ 21.224: oyer.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) closed for zone transfer of oyer.kommune.no.
+ 21.247: oyer.kommune.no INFO Legacy name server ID for dns1.eunet.no (193.75.75.1): hostname.bind = alpha-a.server.as2116.net
+ 21.283: oyer.kommune.no INFO Legacy name server ID for dns1.eunet.no (193.75.75.1): version.bind = Shirely you must be joking
+ 21.335: oyer.kommune.no NOTICE No answer received from 193.75.75.1 when querying for version.server/CH/TXT.
+ 21.380: oyer.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) answers queries over UDP.
+ 21.450: oyer.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) answers queries over TCP.
+ 21.498: oyer.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) is not recursive.
+ 21.625: oyer.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) authoritative for oyer.kommune.no.
+ 21.695: oyer.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) closed for zone transfer of oyer.kommune.no.
+ 21.718: oyer.kommune.no INFO Legacy name server ID for dns1.eunet.no (2001:8c0:2001:0:0:0:3:53): hostname.bind = alpha-a.server.as2116.net
+ 21.761: oyer.kommune.no INFO Legacy name server ID for dns1.eunet.no (2001:8c0:2001:0:0:0:3:53): version.bind = Shirely you must be joking
+ 21.837: oyer.kommune.no NOTICE No answer received from 2001:8c0:2001:0:0:0:3:53 when querying for version.server/CH/TXT.
+ 21.837: oyer.kommune.no INFO Done testing name server dns1.eunet.no.
+ 21.837: oyer.kommune.no INFO Begin testing name server dns2.eunet.no.
+ 21.837: oyer.kommune.no INFO Begin testing host dns2.eunet.no.
+ 21.999: oyer.kommune.no INFO Begin testing address 148.122.208.226.
+ 27.577: oyer.kommune.no INFO Done testing address 148.122.208.226.
+ 27.577: oyer.kommune.no INFO Done testing host dns2.eunet.no.
+ 27.726: oyer.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) answers queries over UDP.
+ 27.764: oyer.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) answers queries over TCP.
+ 27.801: oyer.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) is not recursive.
+ 27.874: oyer.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) authoritative for oyer.kommune.no.
+ 27.926: oyer.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) closed for zone transfer of oyer.kommune.no.
+ 27.955: oyer.kommune.no INFO Legacy name server ID for dns2.eunet.no (148.122.208.226): hostname.bind = ny-ns2-eunet.oke.nextra.no
+ 27.970: oyer.kommune.no INFO Legacy name server ID for dns2.eunet.no (148.122.208.226): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 28.028: oyer.kommune.no NOTICE No answer received from 148.122.208.226 when querying for version.server/CH/TXT.
+ 28.029: oyer.kommune.no INFO Done testing name server dns2.eunet.no.
+ 28.029: oyer.kommune.no INFO Begin testing name server dns1.as2116.net.
+ 28.029: oyer.kommune.no INFO Begin testing host dns1.as2116.net.
+ 28.029: oyer.kommune.no INFO Begin testing address 193.75.75.1.
+ 28.043: oyer.kommune.no INFO Done testing address 193.75.75.1.
+ 28.043: oyer.kommune.no INFO Begin testing address 2001:8c0:2001:0:0:0:3:53.
+ 28.044: oyer.kommune.no INFO Done testing address 2001:8c0:2001:0:0:0:3:53.
+ 28.044: oyer.kommune.no INFO Done testing host dns1.as2116.net.
+ 28.058: oyer.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) answers queries over UDP.
+ 28.095: oyer.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) answers queries over TCP.
+ 28.109: oyer.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) is not recursive.
+ 28.195: oyer.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) authoritative for oyer.kommune.no.
+ 28.235: oyer.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) closed for zone transfer of oyer.kommune.no.
+ 28.273: oyer.kommune.no INFO Legacy name server ID for dns1.as2116.net (193.75.75.1): hostname.bind = alpha-a.server.as2116.net
+ 28.305: oyer.kommune.no INFO Legacy name server ID for dns1.as2116.net (193.75.75.1): version.bind = Shirely you must be joking
+ 28.339: oyer.kommune.no NOTICE No answer received from 193.75.75.1 when querying for version.server/CH/TXT.
+ 28.357: oyer.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) answers queries over UDP.
+ 28.398: oyer.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) answers queries over TCP.
+ 28.423: oyer.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) is not recursive.
+ 28.506: oyer.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) authoritative for oyer.kommune.no.
+ 28.560: oyer.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) closed for zone transfer of oyer.kommune.no.
+ 28.599: oyer.kommune.no INFO Legacy name server ID for dns1.as2116.net (2001:8c0:2001:0:0:0:3:53): hostname.bind = alpha-a.server.as2116.net
+ 28.635: oyer.kommune.no INFO Legacy name server ID for dns1.as2116.net (2001:8c0:2001:0:0:0:3:53): version.bind = Shirely you must be joking
+ 28.684: oyer.kommune.no NOTICE No answer received from 2001:8c0:2001:0:0:0:3:53 when querying for version.server/CH/TXT.
+ 28.684: oyer.kommune.no INFO Done testing name server dns1.as2116.net.
+ 28.684: oyer.kommune.no INFO Begin testing name server dns2.as2116.net.
+ 28.685: oyer.kommune.no INFO Begin testing host dns2.as2116.net.
+ 28.918: oyer.kommune.no INFO Begin testing address 148.122.208.226.
+ 29.199: oyer.kommune.no INFO Done testing address 148.122.208.226.
+ 29.199: oyer.kommune.no INFO Done testing host dns2.as2116.net.
+ 29.503: oyer.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) answers queries over UDP.
+ 29.536: oyer.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) answers queries over TCP.
+ 29.579: oyer.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) is not recursive.
+ 29.656: oyer.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) authoritative for oyer.kommune.no.
+ 29.699: oyer.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) closed for zone transfer of oyer.kommune.no.
+ 29.713: oyer.kommune.no INFO Legacy name server ID for dns2.as2116.net (148.122.208.226): hostname.bind = ny-ns2-eunet.oke.nextra.no
+ 29.739: oyer.kommune.no INFO Legacy name server ID for dns2.as2116.net (148.122.208.226): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 29.780: oyer.kommune.no NOTICE No answer received from 148.122.208.226 when querying for version.server/CH/TXT.
+ 29.780: oyer.kommune.no INFO Done testing name server dns2.as2116.net.
+ 29.780: oyer.kommune.no INFO Begin testing zone consistency for oyer.kommune.no.
+ 30.348: oyer.kommune.no INFO SOA at address 2001:8c0:2001:0:0:0:3:53 has serial 2012032900.
+ 30.363: oyer.kommune.no INFO SOA at address 193.75.75.1 has serial 2012032900.
+ 30.391: oyer.kommune.no INFO SOA at address 148.122.208.226 has serial 2012032900.
+ 30.391: oyer.kommune.no INFO All SOA records have consistent serial numbers.
+ 30.391: oyer.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 30.656: oyer.kommune.no NOTICE The listed nameservers for oyer.kommune.no all report the same set of nameservers.
+ 30.657: oyer.kommune.no INFO Done testing zone consistency for oyer.kommune.no.
+ 30.657: oyer.kommune.no INFO Begin testing SOA parameters for oyer.kommune.no.
+ 30.696: oyer.kommune.no INFO Found SOA record for oyer.kommune.no.
+ 30.697: oyer.kommune.no INFO Begin testing host dns1.eunet.no.
+ 30.711: oyer.kommune.no INFO Begin testing address 193.75.75.1.
+ 30.712: oyer.kommune.no INFO Done testing address 193.75.75.1.
+ 30.712: oyer.kommune.no INFO Begin testing address 2001:8c0:2001:0:0:0:3:53.
+ 30.714: oyer.kommune.no INFO Done testing address 2001:8c0:2001:0:0:0:3:53.
+ 30.738: oyer.kommune.no INFO Done testing host dns1.eunet.no.
+ 30.739: oyer.kommune.no INFO SOA MNAME for oyer.kommune.no valid (dns1.eunet.no).
+ 30.739: oyer.kommune.no INFO SOA MNAME for oyer.kommune.no (dns1.eunet.no) listed as NS.
+ 30.758: oyer.kommune.no INFO SOA MNAME for oyer.kommune.no (dns1.eunet.no) is authoritative.
+ 30.779: oyer.kommune.no INFO SOA MNAME for oyer.kommune.no (dns1.eunet.no) is authoritative.
+ 30.779: oyer.kommune.no INFO Begin testing email address hostmaster@eunetnorge.no.
+ 31.158: oyer.kommune.no INFO Mail exchangers for hostmaster@eunetnorge.no found eunetnorge.no.
+ 31.158: oyer.kommune.no INFO Begin testing host eunetnorge.no.
+ 31.368: oyer.kommune.no INFO Begin testing address 193.71.71.109.
+ 31.936: oyer.kommune.no INFO Done testing address 193.71.71.109.
+ 31.937: oyer.kommune.no INFO Done testing host eunetnorge.no.
+ 32.057: oyer.kommune.no INFO Done testing email address hostmaster@eunetnorge.no.
+ 32.057: oyer.kommune.no INFO Successful attempt to deliver email for SOA RNAME of oyer.kommune.no (hostmaster.eunetnorge.no) using hostmaster@eunetnorge.no.
+ 32.057: oyer.kommune.no INFO SOA TTL for oyer.kommune.no OK (7200) - recommended >= 3600.
+ 32.057: oyer.kommune.no INFO SOA refresh for oyer.kommune.no OK (28800) - recommended >= 14400.
+ 32.057: oyer.kommune.no INFO SOA retry for oyer.kommune.no OK (3600) - recommended >= 3600.
+ 32.057: oyer.kommune.no INFO SOA expire for oyer.kommune.no OK (2592000) - recommended >= 604800.
+ 32.057: oyer.kommune.no INFO SOA minimum for oyer.kommune.no OK (600) - recommended between 300 and 86400.
+ 32.057: oyer.kommune.no INFO Done testing SOA parameters for oyer.kommune.no.
+ 32.058: oyer.kommune.no INFO Begin testing connectivity for oyer.kommune.no.
+ 33.236: oyer.kommune.no INFO Zone announced by more than one ASN.
+ 33.765: oyer.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 33.765: oyer.kommune.no INFO Done testing connectivity for oyer.kommune.no.
+ 33.765: oyer.kommune.no INFO Begin testing DNSSEC for oyer.kommune.no.
+ 33.851: oyer.kommune.no INFO Did not find DS record for oyer.kommune.no at parent.
+ 33.943: oyer.kommune.no INFO Servers for oyer.kommune.no have consistent extra processing status.
+ 33.970: oyer.kommune.no INFO Authenticated denial records not found for oyer.kommune.no.
+ 33.991: oyer.kommune.no INFO Did not find DNSKEY record for oyer.kommune.no at child.
+ 33.991: oyer.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 33.991: oyer.kommune.no INFO Done testing DNSSEC for oyer.kommune.no.
+ 33.992: oyer.kommune.no INFO Test completed for zone oyer.kommune.no.

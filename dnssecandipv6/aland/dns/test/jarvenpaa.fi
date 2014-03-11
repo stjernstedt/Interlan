@@ -1,0 +1,166 @@
+  0.000: jarvenpaa.fi INFO Begin testing zone jarvenpaa.fi with version 1.5.0.
+  0.489: jarvenpaa.fi INFO Begin testing delegation for jarvenpaa.fi.
+ 20.182: jarvenpaa.fi INFO Name servers listed at parent: ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 29.979: jarvenpaa.fi INFO Name servers listed at child: ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 30.202: jarvenpaa.fi INFO Parent glue for jarvenpaa.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+ 30.354: jarvenpaa.fi INFO Parent glue for jarvenpaa.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+ 30.761: jarvenpaa.fi INFO Parent glue for jarvenpaa.fi found: ns1-swe.global.sonera.se (80.64.9.124)
+ 31.036: jarvenpaa.fi INFO Parent glue for jarvenpaa.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+ 31.226: jarvenpaa.fi INFO Parent glue for jarvenpaa.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+ 31.396: jarvenpaa.fi INFO Checking glue for ns1-fin.global.sonera.fi (193.210.18.31).
+ 31.397: jarvenpaa.fi INFO Checking glue for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53).
+ 31.397: jarvenpaa.fi INFO Checking glue for ns1-swe.global.sonera.se (80.64.9.124).
+ 31.397: jarvenpaa.fi INFO Checking glue for ns2-fin.global.sonera.fi (195.156.148.158).
+ 31.397: jarvenpaa.fi INFO Checking glue for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53).
+ 31.397: jarvenpaa.fi INFO Parent glue for jarvenpaa.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+ 31.398: jarvenpaa.fi INFO Parent glue for jarvenpaa.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+ 31.398: jarvenpaa.fi INFO Parent glue for jarvenpaa.fi found: ns1-swe.global.sonera.se (80.64.9.124)
+ 31.398: jarvenpaa.fi INFO Parent glue for jarvenpaa.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+ 31.398: jarvenpaa.fi INFO Parent glue for jarvenpaa.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+ 33.918: jarvenpaa.fi INFO It is possible to build a referral packet for jarvenpaa.fi that works without EDNS0.
+ 34.748: jarvenpaa.fi INFO Previously used name servers for jarvenpaa.fi: 
+ 34.748: jarvenpaa.fi INFO Done testing delegation for jarvenpaa.fi.
+ 34.749: jarvenpaa.fi INFO Begin testing name server ns1-fin.global.sonera.fi.
+ 34.749: jarvenpaa.fi INFO Begin testing host ns1-fin.global.sonera.fi.
+ 34.749: jarvenpaa.fi INFO Begin testing address 193.210.18.31.
+ 44.152: jarvenpaa.fi INFO Done testing address 193.210.18.31.
+ 44.154: jarvenpaa.fi INFO Begin testing address 2001:2060:ffdd:a01:0:0:0:53.
+ 46.952: jarvenpaa.fi INFO Done testing address 2001:2060:ffdd:a01:0:0:0:53.
+ 46.952: jarvenpaa.fi INFO Done testing host ns1-fin.global.sonera.fi.
+ 47.070: jarvenpaa.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over UDP.
+ 47.224: jarvenpaa.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over TCP.
+ 47.238: jarvenpaa.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) is not recursive.
+ 47.642: jarvenpaa.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) authoritative for jarvenpaa.fi.
+ 47.732: jarvenpaa.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) closed for zone transfer of jarvenpaa.fi.
+ 47.784: jarvenpaa.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): hostname.bind = mgda1
+ 47.827: jarvenpaa.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): version.bind = TeliaSonera Finland DNS MGDA
+ 47.852: jarvenpaa.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): id.server = mgda1
+ 47.919: jarvenpaa.fi NOTICE No answer received from 193.210.18.31 when querying for version.server/CH/TXT.
+ 47.994: jarvenpaa.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) answers queries over UDP.
+ 48.090: jarvenpaa.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) answers queries over TCP.
+ 48.131: jarvenpaa.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) is not recursive.
+ 48.494: jarvenpaa.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) authoritative for jarvenpaa.fi.
+ 48.632: jarvenpaa.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) closed for zone transfer of jarvenpaa.fi.
+ 48.671: jarvenpaa.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): hostname.bind = mgda2
+ 48.724: jarvenpaa.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+ 48.783: jarvenpaa.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): id.server = mgda2
+ 48.836: jarvenpaa.fi NOTICE No answer received from 2001:2060:ffdd:a01:0:0:0:53 when querying for version.server/CH/TXT.
+ 48.836: jarvenpaa.fi INFO Done testing name server ns1-fin.global.sonera.fi.
+ 48.836: jarvenpaa.fi INFO Begin testing name server ns1-swe.global.sonera.se.
+ 48.836: jarvenpaa.fi INFO Begin testing host ns1-swe.global.sonera.se.
+ 48.836: jarvenpaa.fi INFO Begin testing address 80.64.9.124.
+ 50.440: jarvenpaa.fi INFO Done testing address 80.64.9.124.
+ 50.440: jarvenpaa.fi INFO Begin testing address 2001:6e8:400:ffff:1:0:0:53.
+ 51.091: jarvenpaa.fi INFO Done testing address 2001:6e8:400:ffff:1:0:0:53.
+ 51.092: jarvenpaa.fi INFO Done testing host ns1-swe.global.sonera.se.
+ 51.197: jarvenpaa.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over UDP.
+ 51.354: jarvenpaa.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over TCP.
+ 51.419: jarvenpaa.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) is not recursive.
+ 51.693: jarvenpaa.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) authoritative for jarvenpaa.fi.
+ 51.744: jarvenpaa.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) closed for zone transfer of jarvenpaa.fi.
+ 51.773: jarvenpaa.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): hostname.bind = mgda3
+ 51.795: jarvenpaa.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): version.bind = TeliaSonera Finland DNS MGDA
+ 51.818: jarvenpaa.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): id.server = mgda3
+ 51.848: jarvenpaa.fi NOTICE No answer received from 80.64.9.124 when querying for version.server/CH/TXT.
+ 51.935: jarvenpaa.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over UDP.
+ 52.303: jarvenpaa.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over TCP.
+ 52.386: jarvenpaa.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) is not recursive.
+ 52.877: jarvenpaa.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) authoritative for jarvenpaa.fi.
+ 53.059: jarvenpaa.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) closed for zone transfer of jarvenpaa.fi.
+ 53.124: jarvenpaa.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): hostname.bind = mgda3
+ 53.203: jarvenpaa.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+ 53.334: jarvenpaa.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): id.server = mgda3
+ 53.437: jarvenpaa.fi NOTICE No answer received from 2001:6e8:400:ffff:1:0:0:53 when querying for version.server/CH/TXT.
+ 53.438: jarvenpaa.fi INFO Done testing name server ns1-swe.global.sonera.se.
+ 53.438: jarvenpaa.fi INFO Begin testing name server ns2-fin.global.sonera.fi.
+ 53.438: jarvenpaa.fi INFO Begin testing host ns2-fin.global.sonera.fi.
+ 53.438: jarvenpaa.fi INFO Begin testing address 195.156.148.158.
+ 54.520: jarvenpaa.fi INFO Done testing address 195.156.148.158.
+ 54.520: jarvenpaa.fi INFO Begin testing address 2001:2060:ffdd:a02:0:0:0:53.
+ 55.567: jarvenpaa.fi INFO Done testing address 2001:2060:ffdd:a02:0:0:0:53.
+ 55.567: jarvenpaa.fi INFO Done testing host ns2-fin.global.sonera.fi.
+ 55.727: jarvenpaa.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over UDP.
+ 55.992: jarvenpaa.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over TCP.
+ 56.058: jarvenpaa.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) is not recursive.
+ 56.474: jarvenpaa.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) authoritative for jarvenpaa.fi.
+ 56.555: jarvenpaa.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) closed for zone transfer of jarvenpaa.fi.
+ 56.644: jarvenpaa.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): hostname.bind = mgda2
+ 56.708: jarvenpaa.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): version.bind = TeliaSonera Finland DNS MGDA
+ 56.782: jarvenpaa.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): id.server = mgda1
+ 56.812: jarvenpaa.fi NOTICE No answer received from 195.156.148.158 when querying for version.server/CH/TXT.
+ 56.924: jarvenpaa.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) answers queries over UDP.
+ 57.163: jarvenpaa.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) answers queries over TCP.
+ 57.285: jarvenpaa.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) is not recursive.
+ 57.785: jarvenpaa.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) authoritative for jarvenpaa.fi.
+ 57.955: jarvenpaa.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) closed for zone transfer of jarvenpaa.fi.
+ 58.004: jarvenpaa.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): hostname.bind = mgda2
+ 58.080: jarvenpaa.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+ 58.176: jarvenpaa.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): id.server = mgda1
+ 58.320: jarvenpaa.fi NOTICE No answer received from 2001:2060:ffdd:a02:0:0:0:53 when querying for version.server/CH/TXT.
+ 58.320: jarvenpaa.fi INFO Done testing name server ns2-fin.global.sonera.fi.
+ 58.320: jarvenpaa.fi INFO Begin testing name server ns2-usa.global.sonera.net.
+ 58.320: jarvenpaa.fi INFO Begin testing host ns2-usa.global.sonera.net.
+ 58.936: jarvenpaa.fi INFO Begin testing address 46.38.190.56.
+ 61.796: jarvenpaa.fi INFO Done testing address 46.38.190.56.
+ 61.796: jarvenpaa.fi INFO Done testing host ns2-usa.global.sonera.net.
+ 62.641: jarvenpaa.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over UDP.
+ 62.801: jarvenpaa.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over TCP.
+ 62.852: jarvenpaa.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) is not recursive.
+ 63.187: jarvenpaa.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) authoritative for jarvenpaa.fi.
+ 63.354: jarvenpaa.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) closed for zone transfer of jarvenpaa.fi.
+ 63.437: jarvenpaa.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): hostname.bind = mgda5
+ 63.488: jarvenpaa.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): version.bind = TeliaSonera Finland DNS MGDA
+ 63.552: jarvenpaa.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): id.server = mgda5
+ 63.614: jarvenpaa.fi NOTICE No answer received from 46.38.190.56 when querying for version.server/CH/TXT.
+ 63.614: jarvenpaa.fi INFO Done testing name server ns2-usa.global.sonera.net.
+ 63.614: jarvenpaa.fi INFO Begin testing zone consistency for jarvenpaa.fi.
+ 65.141: jarvenpaa.fi INFO SOA at address 2001:2060:ffdd:a01:0:0:0:53 has serial 2013073113.
+ 65.223: jarvenpaa.fi INFO SOA at address 193.210.18.31 has serial 2013073113.
+ 65.404: jarvenpaa.fi INFO SOA at address 80.64.9.124 has serial 2013073113.
+ 65.561: jarvenpaa.fi INFO SOA at address 195.156.148.158 has serial 2013073113.
+ 65.665: jarvenpaa.fi INFO SOA at address 2001:6e8:400:ffff:1:0:0:53 has serial 2013073113.
+ 65.787: jarvenpaa.fi INFO SOA at address 46.38.190.56 has serial 2013073113.
+ 65.875: jarvenpaa.fi INFO SOA at address 2001:2060:ffdd:a02:0:0:0:53 has serial 2013073113.
+ 65.875: jarvenpaa.fi INFO All SOA records have consistent serial numbers.
+ 65.875: jarvenpaa.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 67.458: jarvenpaa.fi NOTICE The listed nameservers for jarvenpaa.fi all report the same set of nameservers.
+ 67.458: jarvenpaa.fi INFO Done testing zone consistency for jarvenpaa.fi.
+ 67.458: jarvenpaa.fi INFO Begin testing SOA parameters for jarvenpaa.fi.
+ 67.660: jarvenpaa.fi INFO Found SOA record for jarvenpaa.fi.
+ 67.660: jarvenpaa.fi INFO Begin testing host namesurfer.inet.fi.
+ 68.764: jarvenpaa.fi INFO Begin testing address 131.177.73.253.
+ 88.706: jarvenpaa.fi INFO Done testing address 131.177.73.253.
+ 88.706: jarvenpaa.fi INFO Done testing host namesurfer.inet.fi.
+ 88.706: jarvenpaa.fi INFO SOA MNAME for jarvenpaa.fi valid (namesurfer.inet.fi).
+ 88.706: jarvenpaa.fi NOTICE SOA MNAME for jarvenpaa.fi (namesurfer.inet.fi) not listed as NS.
+ 95.680: jarvenpaa.fi INFO SOA MNAME for jarvenpaa.fi (namesurfer.inet.fi) is authoritative.
+ 95.680: jarvenpaa.fi INFO Begin testing email address hostmaster@sonera.com.
+ 96.422: jarvenpaa.fi INFO Mail exchangers for hostmaster@sonera.com found smtp.dave.sonera.fi,mail.cm.sonera.com.
+ 96.422: jarvenpaa.fi INFO Begin testing host smtp.dave.sonera.fi.
+ 98.262: jarvenpaa.fi INFO Begin testing address 131.177.120.25.
+ 99.782: jarvenpaa.fi INFO Done testing address 131.177.120.25.
+ 99.782: jarvenpaa.fi INFO Done testing host smtp.dave.sonera.fi.
+100.456: jarvenpaa.fi INFO Begin testing host mail.cm.sonera.com.
+101.831: jarvenpaa.fi INFO Begin testing address 193.208.151.61.
+103.568: jarvenpaa.fi INFO Done testing address 193.208.151.61.
+103.568: jarvenpaa.fi INFO Done testing host mail.cm.sonera.com.
+103.953: jarvenpaa.fi INFO Done testing email address hostmaster@sonera.com.
+103.953: jarvenpaa.fi INFO Successful attempt to deliver email for SOA RNAME of jarvenpaa.fi (hostmaster.sonera.com) using hostmaster@sonera.com.
+103.953: jarvenpaa.fi INFO SOA TTL for jarvenpaa.fi OK (3600) - recommended >= 3600.
+103.953: jarvenpaa.fi INFO SOA refresh for jarvenpaa.fi OK (86400) - recommended >= 14400.
+103.953: jarvenpaa.fi INFO SOA retry for jarvenpaa.fi OK (7200) - recommended >= 3600.
+103.953: jarvenpaa.fi INFO SOA expire for jarvenpaa.fi OK (3456000) - recommended >= 604800.
+103.953: jarvenpaa.fi INFO SOA minimum for jarvenpaa.fi OK (3600) - recommended between 300 and 86400.
+103.954: jarvenpaa.fi INFO Done testing SOA parameters for jarvenpaa.fi.
+103.954: jarvenpaa.fi INFO Begin testing connectivity for jarvenpaa.fi.
+107.634: jarvenpaa.fi INFO Zone announced by more than one ASN.
+112.185: jarvenpaa.fi INFO Zone announced by more than one IPv6 ASN.
+112.185: jarvenpaa.fi INFO Done testing connectivity for jarvenpaa.fi.
+112.186: jarvenpaa.fi INFO Begin testing DNSSEC for jarvenpaa.fi.
+112.477: jarvenpaa.fi INFO Did not find DS record for jarvenpaa.fi at parent.
+113.556: jarvenpaa.fi INFO Servers for jarvenpaa.fi have consistent extra processing status.
+113.636: jarvenpaa.fi INFO Authenticated denial records not found for jarvenpaa.fi.
+113.736: jarvenpaa.fi INFO Did not find DNSKEY record for jarvenpaa.fi at child.
+113.736: jarvenpaa.fi INFO No DNSKEY(s) found at child, other tests skipped.
+113.736: jarvenpaa.fi INFO Done testing DNSSEC for jarvenpaa.fi.
+113.737: jarvenpaa.fi INFO Test completed for zone jarvenpaa.fi.

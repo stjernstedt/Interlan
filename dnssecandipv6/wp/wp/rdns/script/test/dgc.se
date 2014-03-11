@@ -1,0 +1,88 @@
+  0.000: dgc.se INFO Begin testing zone dgc.se with version 1.0.1.
+  0.001: dgc.se INFO Begin testing delegation for dgc.se.
+  1.064: dgc.se INFO Name servers listed at parent: ns1.dgcsystems.net,ns2.dgcsystems.net
+  1.104: dgc.se INFO Name servers listed at child: ns1.dgcsystems.net,ns2.dgcsystems.net
+  1.104: dgc.se NOTICE No IPv6 name servers found.
+  1.188: dgc.se INFO Done testing delegation for dgc.se.
+  1.188: dgc.se INFO Begin testing name server ns1.dgcsystems.net.
+  1.188: dgc.se INFO Begin testing host ns1.dgcsystems.net.
+  1.189: dgc.se INFO Begin testing address 217.13.225.100.
+  3.762: dgc.se INFO Done testing address 217.13.225.100.
+  3.762: dgc.se INFO Done testing host ns1.dgcsystems.net.
+  3.769: dgc.se INFO Name server ns1.dgcsystems.net (217.13.225.100) is not recursive.
+  3.778: dgc.se INFO Name server ns1.dgcsystems.net (217.13.225.100) authoritative for dgc.se.
+  3.785: dgc.se INFO Name server ns1.dgcsystems.net (217.13.225.100) answers queries over UDP.
+  3.797: dgc.se INFO Name server ns1.dgcsystems.net (217.13.225.100) answers queries over TCP.
+  3.909: dgc.se INFO Name server ns1.dgcsystems.net (217.13.225.100) closed for zone transfer of dgc.se.
+  3.919: dgc.se INFO Legacy name server ID for ns1.dgcsystems.net (217.13.225.100): hostname.bind = ns1.dgcsystems.net
+  3.926: dgc.se INFO Legacy name server ID for ns1.dgcsystems.net (217.13.225.100): version.bind = Le DNS
+  3.939: dgc.se NOTICE No answer received from 217.13.225.100 when querying for version.server/CH/TXT.
+  3.939: dgc.se INFO Done testing name server ns1.dgcsystems.net.
+  3.939: dgc.se INFO Begin testing name server ns2.dgcsystems.net.
+  3.939: dgc.se INFO Begin testing host ns2.dgcsystems.net.
+  3.940: dgc.se INFO Begin testing address 217.13.225.120.
+  3.948: dgc.se INFO Done testing address 217.13.225.120.
+  3.948: dgc.se INFO Done testing host ns2.dgcsystems.net.
+  3.955: dgc.se INFO Name server ns2.dgcsystems.net (217.13.225.120) is not recursive.
+  3.963: dgc.se INFO Name server ns2.dgcsystems.net (217.13.225.120) authoritative for dgc.se.
+  3.973: dgc.se INFO Name server ns2.dgcsystems.net (217.13.225.120) answers queries over UDP.
+  3.986: dgc.se INFO Name server ns2.dgcsystems.net (217.13.225.120) answers queries over TCP.
+  4.091: dgc.se INFO Name server ns2.dgcsystems.net (217.13.225.120) closed for zone transfer of dgc.se.
+  4.099: dgc.se INFO Legacy name server ID for ns2.dgcsystems.net (217.13.225.120): hostname.bind = ns2.dgcsystems.net
+  4.105: dgc.se INFO Legacy name server ID for ns2.dgcsystems.net (217.13.225.120): version.bind = Le DNS
+  4.118: dgc.se NOTICE No answer received from 217.13.225.120 when querying for version.server/CH/TXT.
+  4.118: dgc.se INFO Done testing name server ns2.dgcsystems.net.
+  4.119: dgc.se INFO Begin testing zone consistency for dgc.se.
+  4.130: dgc.se INFO SOA at address 217.13.225.120 has serial 3034589175.
+  4.139: dgc.se INFO SOA at address 217.13.225.100 has serial 3034589175.
+  4.139: dgc.se INFO All SOA records have consistent serial numbers.
+  4.139: dgc.se INFO All SOA records are consistent among all name servers.
+  4.139: dgc.se INFO Done testing zone consistency for dgc.se.
+  4.139: dgc.se INFO Begin testing SOA parameters for dgc.se.
+  4.147: dgc.se INFO Found SOA record for dgc.se.
+  4.147: dgc.se INFO Begin testing host ns1.dgcsystems.net.
+  4.148: dgc.se INFO Begin testing address 217.13.225.100.
+  4.149: dgc.se INFO Done testing address 217.13.225.100.
+  4.149: dgc.se INFO Done testing host ns1.dgcsystems.net.
+  4.149: dgc.se INFO SOA MNAME for dgc.se valid (ns1.dgcsystems.net).
+  4.149: dgc.se INFO SOA MNAME for dgc.se (ns1.dgcsystems.net) listed as NS.
+  4.157: dgc.se INFO SOA MNAME for dgc.se (ns1.dgcsystems.net) is authoritative.
+  4.158: dgc.se INFO Begin testing email address registry@dgc.se.
+  4.168: dgc.se INFO Mail exchangers for registry@dgc.se found mx01.dgcsystems.net,mx02.dgcsystems.net.
+  4.168: dgc.se INFO Begin testing host mx01.dgcsystems.net.
+  4.181: dgc.se INFO Begin testing address 83.241.254.84.
+  4.414: dgc.se INFO Done testing address 83.241.254.84.
+  4.414: dgc.se INFO Done testing host mx01.dgcsystems.net.
+  4.414: dgc.se INFO Begin testing mail server mx01.dgcsystems.net (83.241.254.84) with registry@dgc.se.
+  4.440: dgc.se INFO SMTP banner: mx01.dgcsystems.net ESMTP
+  4.773: dgc.se INFO SMTP testing of mx01.dgcsystems.net (83.241.254.84) with registry@dgc.se succeeded without errors.
+  4.773: dgc.se INFO Done testing mail server mx01.dgcsystems.net (83.241.254.84) with registry@dgc.se.
+  4.773: dgc.se INFO Begin testing host mx02.dgcsystems.net.
+  4.787: dgc.se INFO Begin testing address 83.241.254.87.
+  4.796: dgc.se INFO Done testing address 83.241.254.87.
+  4.796: dgc.se INFO Done testing host mx02.dgcsystems.net.
+  4.796: dgc.se INFO Delivery over IPv4 to registry@dgc.se ok.
+  4.796: dgc.se INFO Delivery over IPv6 to registry@dgc.se could not be done.
+  4.796: dgc.se INFO Done testing email address registry@dgc.se.
+  4.796: dgc.se INFO Successful attempt to deliver email for SOA RNAME of dgc.se (registry.dgc.se) using registry@dgc.se.
+  4.796: dgc.se NOTICE SOA TTL for dgc.se too small (60) - recommended >= 3600.
+  4.797: dgc.se NOTICE SOA refresh for dgc.se too small (10800) - recommended >= 14400.
+  4.797: dgc.se INFO SOA retry for dgc.se OK (3600) - recommended >= 3600.
+  4.797: dgc.se INFO SOA expire for dgc.se OK (604800) - recommended >= 604800.
+  4.797: dgc.se INFO SOA minimum for dgc.se OK (3600) - recommended between 300 and 86400.
+  4.797: dgc.se INFO Done testing SOA parameters for dgc.se.
+  4.797: dgc.se INFO Begin testing connectivity for dgc.se.
+  5.451: dgc.se INFO Name server 217.13.225.120 announced by: 21195
+  5.584: dgc.se INFO Name server 217.13.225.100 announced by: 21195
+  5.584: dgc.se INFO Zone announced by ASN: 21195
+  5.584: dgc.se NOTICE Zone announced by only one ASN (1).
+  5.585: dgc.se INFO Zone announced by IPv6 ASN: 
+  5.585: dgc.se NOTICE Zone announced by only one IPv6 ASN (0).
+  5.585: dgc.se INFO Done testing connectivity for dgc.se.
+  5.585: dgc.se INFO Begin testing DNSSEC for dgc.se.
+  5.618: dgc.se INFO Did not find DS record for dgc.se at parent.
+  5.641: dgc.se INFO Servers for dgc.se have consistent extra processing status.
+  5.641: dgc.se INFO Did not find DNSKEY record for dgc.se at child.
+  5.641: dgc.se INFO No DNSKEY(s) found at child, other tests skipped.
+  5.641: dgc.se INFO Done testing DNSSEC for dgc.se.
+  5.641: dgc.se INFO Test completed for zone dgc.se.

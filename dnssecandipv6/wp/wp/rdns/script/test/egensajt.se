@@ -1,0 +1,129 @@
+  0.000: egensajt.se INFO Begin testing zone egensajt.se with version 1.0.1.
+  0.000: egensajt.se INFO Begin testing delegation for egensajt.se.
+ 19.069: egensajt.se INFO Name servers listed at parent: ns1.web20.se,ns2.web20.se,ns3.web20.se,ns4.web20.se
+ 19.296: egensajt.se INFO Name servers listed at child: ns1.egensajt.se,ns2.egensajt.se,ns3.egensajt.se,ns4.egensajt.se
+ 19.296: egensajt.se ERROR Superfluous name server listed at parent: ns1.web20.se
+ 19.296: egensajt.se ERROR Superfluous name server listed at parent: ns2.web20.se
+ 19.297: egensajt.se ERROR Superfluous name server listed at parent: ns3.web20.se
+ 19.297: egensajt.se ERROR Superfluous name server listed at parent: ns4.web20.se
+ 19.297: egensajt.se ERROR Total parent/child glue mismatch.
+ 19.297: egensajt.se NOTICE Additional name server listed at child: ns1.egensajt.se
+ 19.297: egensajt.se NOTICE Additional name server listed at child: ns2.egensajt.se
+ 19.297: egensajt.se NOTICE Additional name server listed at child: ns3.egensajt.se
+ 19.297: egensajt.se NOTICE Additional name server listed at child: ns4.egensajt.se
+ 19.297: egensajt.se NOTICE No IPv6 name servers found.
+ 19.558: egensajt.se INFO Done testing delegation for egensajt.se.
+ 19.558: egensajt.se INFO Begin testing name server ns1.egensajt.se.
+ 19.558: egensajt.se INFO Begin testing host ns1.egensajt.se.
+ 19.559: egensajt.se INFO Begin testing address 193.42.159.234.
+ 46.484: egensajt.se INFO Done testing address 193.42.159.234.
+ 46.484: egensajt.se INFO Done testing host ns1.egensajt.se.
+ 46.500: egensajt.se INFO Name server ns1.egensajt.se (193.42.159.234) is not recursive.
+ 46.513: egensajt.se INFO Name server ns1.egensajt.se (193.42.159.234) authoritative for egensajt.se.
+ 46.525: egensajt.se INFO Name server ns1.egensajt.se (193.42.159.234) answers queries over UDP.
+ 46.552: egensajt.se INFO Name server ns1.egensajt.se (193.42.159.234) answers queries over TCP.
+ 46.620: egensajt.se INFO Name server ns1.egensajt.se (193.42.159.234) closed for zone transfer of egensajt.se.
+ 46.631: egensajt.se NOTICE No answer received from 193.42.159.234 when querying for hostname.bind/CH/TXT.
+ 46.641: egensajt.se NOTICE No answer received from 193.42.159.234 when querying for version.bind/CH/TXT.
+ 46.652: egensajt.se NOTICE No answer received from 193.42.159.234 when querying for id.server/CH/TXT.
+ 46.662: egensajt.se NOTICE No answer received from 193.42.159.234 when querying for version.server/CH/TXT.
+ 46.662: egensajt.se INFO Done testing name server ns1.egensajt.se.
+ 46.663: egensajt.se INFO Begin testing name server ns2.egensajt.se.
+ 46.663: egensajt.se INFO Begin testing host ns2.egensajt.se.
+ 46.663: egensajt.se INFO Begin testing address 79.99.6.243.
+ 47.961: egensajt.se INFO Done testing address 79.99.6.243.
+ 47.961: egensajt.se INFO Done testing host ns2.egensajt.se.
+ 47.982: egensajt.se INFO Name server ns2.egensajt.se (79.99.6.243) is not recursive.
+ 48.005: egensajt.se INFO Name server ns2.egensajt.se (79.99.6.243) authoritative for egensajt.se.
+ 48.027: egensajt.se INFO Name server ns2.egensajt.se (79.99.6.243) answers queries over UDP.
+ 48.087: egensajt.se INFO Name server ns2.egensajt.se (79.99.6.243) answers queries over TCP.
+ 48.145: egensajt.se INFO Name server ns2.egensajt.se (79.99.6.243) closed for zone transfer of egensajt.se.
+ 48.165: egensajt.se NOTICE No answer received from 79.99.6.243 when querying for hostname.bind/CH/TXT.
+ 48.187: egensajt.se NOTICE No answer received from 79.99.6.243 when querying for version.bind/CH/TXT.
+ 48.208: egensajt.se NOTICE No answer received from 79.99.6.243 when querying for id.server/CH/TXT.
+ 48.229: egensajt.se NOTICE No answer received from 79.99.6.243 when querying for version.server/CH/TXT.
+ 48.229: egensajt.se INFO Done testing name server ns2.egensajt.se.
+ 48.229: egensajt.se INFO Begin testing name server ns3.egensajt.se.
+ 48.229: egensajt.se INFO Begin testing host ns3.egensajt.se.
+ 48.230: egensajt.se INFO Begin testing address 209.59.220.146.
+ 50.127: egensajt.se INFO Done testing address 209.59.220.146.
+ 50.127: egensajt.se INFO Done testing host ns3.egensajt.se.
+ 50.259: egensajt.se INFO Name server ns3.egensajt.se (209.59.220.146) is not recursive.
+ 50.392: egensajt.se INFO Name server ns3.egensajt.se (209.59.220.146) authoritative for egensajt.se.
+ 50.521: egensajt.se INFO Name server ns3.egensajt.se (209.59.220.146) answers queries over UDP.
+ 50.897: egensajt.se INFO Name server ns3.egensajt.se (209.59.220.146) answers queries over TCP.
+ 51.283: egensajt.se INFO Name server ns3.egensajt.se (209.59.220.146) closed for zone transfer of egensajt.se.
+ 51.414: egensajt.se NOTICE No answer received from 209.59.220.146 when querying for hostname.bind/CH/TXT.
+ 51.541: egensajt.se NOTICE No answer received from 209.59.220.146 when querying for version.bind/CH/TXT.
+ 51.671: egensajt.se NOTICE No answer received from 209.59.220.146 when querying for id.server/CH/TXT.
+ 51.798: egensajt.se NOTICE No answer received from 209.59.220.146 when querying for version.server/CH/TXT.
+ 51.798: egensajt.se INFO Done testing name server ns3.egensajt.se.
+ 51.798: egensajt.se INFO Begin testing name server ns4.egensajt.se.
+ 51.798: egensajt.se INFO Begin testing host ns4.egensajt.se.
+ 51.798: egensajt.se INFO Begin testing address 91.142.208.146.
+ 52.968: egensajt.se INFO Done testing address 91.142.208.146.
+ 52.969: egensajt.se INFO Done testing host ns4.egensajt.se.
+ 53.041: egensajt.se INFO Name server ns4.egensajt.se (91.142.208.146) is not recursive.
+ 53.112: egensajt.se INFO Name server ns4.egensajt.se (91.142.208.146) authoritative for egensajt.se.
+ 53.189: egensajt.se INFO Name server ns4.egensajt.se (91.142.208.146) answers queries over UDP.
+ 53.395: egensajt.se INFO Name server ns4.egensajt.se (91.142.208.146) answers queries over TCP.
+ 53.601: egensajt.se INFO Name server ns4.egensajt.se (91.142.208.146) closed for zone transfer of egensajt.se.
+ 53.668: egensajt.se NOTICE No answer received from 91.142.208.146 when querying for hostname.bind/CH/TXT.
+ 53.738: egensajt.se NOTICE No answer received from 91.142.208.146 when querying for version.bind/CH/TXT.
+ 53.805: egensajt.se NOTICE No answer received from 91.142.208.146 when querying for id.server/CH/TXT.
+ 53.872: egensajt.se NOTICE No answer received from 91.142.208.146 when querying for version.server/CH/TXT.
+ 53.872: egensajt.se INFO Done testing name server ns4.egensajt.se.
+ 53.872: egensajt.se INFO Begin testing zone consistency for egensajt.se.
+102.082: egensajt.se INFO SOA at address 79.99.6.243 has serial 2010090605.
+102.103: egensajt.se INFO SOA at address 193.42.159.234 has serial 2010090401.
+108.237: egensajt.se INFO SOA at address 209.59.220.146 has serial 2010090605.
+108.306: egensajt.se INFO SOA at address 91.142.208.146 has serial 2010063001.
+114.306: egensajt.se WARNING 3 different serials found.
+114.306: egensajt.se INFO All SOA records are consistent among all name servers.
+114.306: egensajt.se INFO Done testing zone consistency for egensajt.se.
+114.306: egensajt.se INFO Begin testing SOA parameters for egensajt.se.
+114.321: egensajt.se INFO Found SOA record for egensajt.se.
+114.321: egensajt.se INFO Begin testing host ns1.egensajt.se.
+114.322: egensajt.se INFO Begin testing address 193.42.159.234.
+114.323: egensajt.se INFO Done testing address 193.42.159.234.
+114.323: egensajt.se INFO Done testing host ns1.egensajt.se.
+114.323: egensajt.se INFO SOA MNAME for egensajt.se valid (ns1.egensajt.se).
+114.323: egensajt.se INFO SOA MNAME for egensajt.se (ns1.egensajt.se) listed as NS.
+114.337: egensajt.se INFO SOA MNAME for egensajt.se (ns1.egensajt.se) is authoritative.
+114.337: egensajt.se INFO Begin testing email address registry@egensajt.se.
+114.361: egensajt.se INFO Mail exchangers for registry@egensajt.se found mail.getwebs.org.
+114.362: egensajt.se INFO Begin testing host mail.getwebs.org.
+138.495: egensajt.se INFO Begin testing address 193.42.159.247.
+138.508: egensajt.se INFO Done testing address 193.42.159.247.
+138.508: egensajt.se INFO Done testing host mail.getwebs.org.
+138.509: egensajt.se INFO Begin testing mail server mail.getwebs.org (193.42.159.247) with registry@egensajt.se.
+138.712: egensajt.se INFO SMTP banner: mail.getwebs.org GetWebs.org Mi-Web.es and EgenSajt.se managed mail service
+138.780: egensajt.se WARNING Host did not accept registry@egensajt.se as SMTP recipient.
+138.796: egensajt.se INFO Done testing mail server mail.getwebs.org (193.42.159.247) with registry@egensajt.se.
+138.797: egensajt.se WARNING Delivery over IPv4 to registry@egensajt.se could not be done.
+138.797: egensajt.se INFO Delivery over IPv6 to registry@egensajt.se could not be done.
+138.797: egensajt.se INFO Done testing email address registry@egensajt.se.
+138.797: egensajt.se WARNING Failed to deliver email for SOA RNAME of egensajt.se (registry.egensajt.se) using registry@egensajt.se.
+138.797: egensajt.se INFO SOA TTL for egensajt.se OK (86400) - recommended >= 3600.
+138.797: egensajt.se INFO SOA refresh for egensajt.se OK (28800) - recommended >= 14400.
+138.797: egensajt.se INFO SOA retry for egensajt.se OK (7200) - recommended >= 3600.
+138.797: egensajt.se INFO SOA expire for egensajt.se OK (604800) - recommended >= 604800.
+138.797: egensajt.se INFO SOA minimum for egensajt.se OK (86400) - recommended between 300 and 86400.
+138.797: egensajt.se INFO Done testing SOA parameters for egensajt.se.
+138.797: egensajt.se INFO Begin testing connectivity for egensajt.se.
+139.024: egensajt.se INFO Name server 193.42.159.234 announced by: 3292
+139.145: egensajt.se INFO Name server 79.99.6.243 announced by: 43948
+139.278: egensajt.se INFO Name server 209.59.220.146 announced by: 29873
+139.402: egensajt.se INFO Name server 91.142.208.146 announced by: 12860
+139.402: egensajt.se INFO Zone announced by ASN: 3292,12860,29873,43948
+139.402: egensajt.se INFO Zone announced by more than one ASN (4).
+139.402: egensajt.se INFO Zone announced by IPv6 ASN: 
+139.402: egensajt.se NOTICE Zone announced by only one IPv6 ASN (0).
+139.402: egensajt.se INFO Done testing connectivity for egensajt.se.
+139.402: egensajt.se INFO Begin testing DNSSEC for egensajt.se.
+139.416: egensajt.se INFO Did not find DS record for egensajt.se at parent.
+140.091: egensajt.se INFO Servers for egensajt.se have consistent extra processing status.
+140.091: egensajt.se INFO Did not find DNSKEY record for egensajt.se at child.
+140.091: egensajt.se INFO No DNSKEY(s) found at child, other tests skipped.
+140.091: egensajt.se INFO Done testing DNSSEC for egensajt.se.
+140.091: egensajt.se INFO Test completed for zone egensajt.se.

@@ -1,0 +1,90 @@
+  0.000: malung-salen.se INFO Begin testing zone malung-salen.se with version 1.2.
+  0.000: malung-salen.se INFO Begin testing delegation for malung-salen.se.
+  5.615: malung-salen.se INFO Name servers listed at parent: dns1.podata.se,dns5.telia.com
+  7.032: malung-salen.se INFO Name servers listed at child: dns1.podata.se,dns5.telia.com
+  7.032: malung-salen.se NOTICE No IPv6 name servers found.
+  7.054: malung-salen.se INFO Parent glue for malung-salen.se found: dns1.podata.se (91.123.194.16)
+  7.136: malung-salen.se INFO Checking glue for dns1.podata.se (91.123.194.16).
+  7.136: malung-salen.se INFO Parent glue for malung-salen.se found: dns1.podata.se (91.123.194.16)
+  7.137: malung-salen.se INFO Done testing delegation for malung-salen.se.
+  7.137: malung-salen.se INFO Begin testing name server dns1.podata.se.
+  7.138: malung-salen.se INFO Begin testing host dns1.podata.se.
+  7.138: malung-salen.se INFO Begin testing address 91.123.194.16.
+ 16.502: malung-salen.se INFO Done testing address 91.123.194.16.
+ 16.502: malung-salen.se INFO Done testing host dns1.podata.se.
+ 16.522: malung-salen.se INFO Name server dns1.podata.se (91.123.194.16) answers queries over UDP.
+ 16.558: malung-salen.se INFO Name server dns1.podata.se (91.123.194.16) answers queries over TCP.
+ 16.758: malung-salen.se WARNING Name server dns1.podata.se (91.123.194.16) is recursive.
+ 16.779: malung-salen.se INFO Name server dns1.podata.se (91.123.194.16) authoritative for malung-salen.se.
+ 16.876: malung-salen.se NOTICE Name server dns1.podata.se (91.123.194.16) open for zone transfer of malung-salen.se.
+ 16.896: malung-salen.se INFO Legacy name server ID for dns1.podata.se (91.123.194.16): hostname.bind = mail2.podata.se
+ 16.915: malung-salen.se INFO Legacy name server ID for dns1.podata.se (91.123.194.16): version.bind = 9.4.2
+ 16.952: malung-salen.se NOTICE No answer received from 91.123.194.16 when querying for version.server/CH/TXT.
+ 16.952: malung-salen.se INFO Done testing name server dns1.podata.se.
+ 16.953: malung-salen.se INFO Begin testing name server dns5.telia.com.
+ 16.953: malung-salen.se INFO Begin testing host dns5.telia.com.
+ 16.953: malung-salen.se INFO Begin testing address 81.228.11.68.
+ 18.628: malung-salen.se INFO Done testing address 81.228.11.68.
+ 18.628: malung-salen.se INFO Done testing host dns5.telia.com.
+ 18.636: malung-salen.se ERROR DNS SERVFAIL when querying 81.228.11.68 for SOA
+ 18.636: malung-salen.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over UDP.
+ 18.638: malung-salen.se ERROR Name server dns5.telia.com (81.228.11.68) does not answer queries over TCP.
+ 18.646: malung-salen.se INFO Name server dns5.telia.com (81.228.11.68) is not recursive.
+ 18.648: malung-salen.se INFO Name server dns5.telia.com (81.228.11.68) authoritative for malung-salen.se.
+ 18.648: malung-salen.se INFO Name server dns5.telia.com (81.228.11.68) not checked for zone transfer of malung-salen.se.
+ 18.648: malung-salen.se INFO Name server dns5.telia.com (81.228.11.68) not checked for legacy name server ID.
+ 18.648: malung-salen.se INFO Done testing name server dns5.telia.com.
+ 18.648: malung-salen.se INFO Begin testing zone consistency for malung-salen.se.
+ 18.673: malung-salen.se INFO SOA at address 91.123.194.16 has serial 2010060807.
+ 18.673: malung-salen.se INFO All SOA records have consistent serial numbers.
+ 18.673: malung-salen.se INFO All SOA records are consistent among all name servers.
+ 18.673: malung-salen.se INFO Done testing zone consistency for malung-salen.se.
+ 18.673: malung-salen.se INFO Begin testing SOA parameters for malung-salen.se.
+ 18.693: malung-salen.se INFO Found SOA record for malung-salen.se.
+ 18.693: malung-salen.se INFO Begin testing host dns1.podata.se.
+ 18.694: malung-salen.se INFO Begin testing address 91.123.194.16.
+ 18.695: malung-salen.se INFO Done testing address 91.123.194.16.
+ 18.695: malung-salen.se INFO Done testing host dns1.podata.se.
+ 18.695: malung-salen.se INFO SOA MNAME for malung-salen.se valid (dns1.podata.se).
+ 18.696: malung-salen.se INFO SOA MNAME for malung-salen.se (dns1.podata.se) listed as NS.
+ 18.716: malung-salen.se INFO SOA MNAME for malung-salen.se (dns1.podata.se) is authoritative.
+ 18.717: malung-salen.se INFO Begin testing email address perla@podata.se.
+ 18.949: malung-salen.se INFO Mail exchangers for perla@podata.se found mx1.ilait.se.
+ 18.949: malung-salen.se INFO Begin testing host mx1.ilait.se.
+ 19.394: malung-salen.se INFO Begin testing address 178.63.104.189.
+ 21.037: malung-salen.se INFO Done testing address 178.63.104.189.
+ 21.037: malung-salen.se INFO Begin testing address 178.63.104.188.
+ 21.798: malung-salen.se INFO Done testing address 178.63.104.188.
+ 21.799: malung-salen.se INFO Begin testing address 62.109.34.25.
+ 22.042: malung-salen.se INFO Done testing address 62.109.34.25.
+ 22.042: malung-salen.se INFO Done testing host mx1.ilait.se.
+ 22.042: malung-salen.se INFO Begin testing mail server mx1.ilait.se (178.63.104.189) with perla@podata.se.
+ 22.778: malung-salen.se INFO SMTP banner: mx4-3.ilait.eu ESMTP Postfix
+ 22.983: malung-salen.se INFO SMTP testing of mx1.ilait.se (178.63.104.189) with perla@podata.se succeeded without errors.
+ 22.983: malung-salen.se INFO Done testing mail server mx1.ilait.se (178.63.104.189) with perla@podata.se.
+ 22.983: malung-salen.se INFO Delivery over IPv4 to perla@podata.se ok.
+ 22.983: malung-salen.se INFO Delivery over IPv6 to perla@podata.se could not be done.
+ 22.983: malung-salen.se INFO Done testing email address perla@podata.se.
+ 22.983: malung-salen.se INFO Successful attempt to deliver email for SOA RNAME of malung-salen.se (perla.podata.se) using perla@podata.se.
+ 22.984: malung-salen.se INFO SOA TTL for malung-salen.se OK (86400) - recommended >= 3600.
+ 22.984: malung-salen.se NOTICE SOA refresh for malung-salen.se too small (3600) - recommended >= 14400.
+ 22.984: malung-salen.se NOTICE SOA retry for malung-salen.se too small (1200) - recommended >= 3600.
+ 22.984: malung-salen.se INFO SOA expire for malung-salen.se OK (1209600) - recommended >= 604800.
+ 22.984: malung-salen.se INFO SOA minimum for malung-salen.se OK (86400) - recommended between 300 and 86400.
+ 22.984: malung-salen.se INFO Done testing SOA parameters for malung-salen.se.
+ 22.984: malung-salen.se INFO Begin testing connectivity for malung-salen.se.
+ 23.609: malung-salen.se INFO Name server 91.123.194.16 announced by: 42695
+ 24.143: malung-salen.se INFO Name server 81.228.11.68 announced by: 3301
+ 24.143: malung-salen.se INFO Zone announced by IPv4 ASN: 3301,42695
+ 24.143: malung-salen.se INFO Zone announced by more than one ASN (2).
+ 24.143: malung-salen.se INFO Zone announced by IPv6 ASN: 
+ 24.143: malung-salen.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 24.143: malung-salen.se INFO Done testing connectivity for malung-salen.se.
+ 24.144: malung-salen.se INFO Begin testing DNSSEC for malung-salen.se.
+ 24.158: malung-salen.se INFO Did not find DS record for malung-salen.se at parent.
+ 24.206: malung-salen.se NOTICE No answer received from 81.228.11.68 when querying for malung-salen.se/IN/DNSKEY.
+ 24.206: malung-salen.se INFO Servers for malung-salen.se have consistent extra processing status.
+ 24.206: malung-salen.se INFO Did not find DNSKEY record for malung-salen.se at child.
+ 24.206: malung-salen.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 24.206: malung-salen.se INFO Done testing DNSSEC for malung-salen.se.
+ 24.206: malung-salen.se INFO Test completed for zone malung-salen.se.

@@ -1,0 +1,83 @@
+  0.000: ikaalinen.fi INFO Begin testing zone ikaalinen.fi with version 1.6.1.
+  0.454: ikaalinen.fi INFO Begin testing delegation for ikaalinen.fi.
+  8.792: ikaalinen.fi INFO Name servers listed at parent: ns3.netorek.fi,ns4.netorek.fi
+ 10.508: ikaalinen.fi INFO Name servers listed at child: ns3.netorek.fi,ns4.netorek.fi
+ 10.508: ikaalinen.fi NOTICE No IPv6 name servers found.
+ 10.585: ikaalinen.fi INFO Parent glue for ikaalinen.fi found: ns3.netorek.fi (62.106.63.5)
+ 10.768: ikaalinen.fi INFO Parent glue for ikaalinen.fi found: ns4.netorek.fi (62.197.168.5)
+ 10.953: ikaalinen.fi INFO Checking glue for ns3.netorek.fi (62.106.63.5).
+ 10.953: ikaalinen.fi INFO Checking glue for ns4.netorek.fi (62.197.168.5).
+ 10.953: ikaalinen.fi INFO Parent glue for ikaalinen.fi found: ns3.netorek.fi (62.106.63.5)
+ 10.953: ikaalinen.fi INFO Parent glue for ikaalinen.fi found: ns4.netorek.fi (62.197.168.5)
+ 15.879: ikaalinen.fi INFO It is possible to build a referral packet for ikaalinen.fi that works without EDNS0.
+ 16.334: ikaalinen.fi INFO Previously used name servers for ikaalinen.fi: 
+ 16.334: ikaalinen.fi INFO Done testing delegation for ikaalinen.fi.
+ 16.335: ikaalinen.fi INFO Begin testing name server ns3.netorek.fi.
+ 16.335: ikaalinen.fi INFO Begin testing host ns3.netorek.fi.
+ 16.556: ikaalinen.fi INFO Begin testing address 62.106.63.5.
+ 24.192: ikaalinen.fi INFO Done testing address 62.106.63.5.
+ 24.193: ikaalinen.fi INFO Done testing host ns3.netorek.fi.
+ 24.438: ikaalinen.fi INFO Name server ns3.netorek.fi (62.106.63.5) answers queries over UDP.
+ 24.492: ikaalinen.fi INFO Name server ns3.netorek.fi (62.106.63.5) answers queries over TCP.
+ 24.523: ikaalinen.fi INFO Name server ns3.netorek.fi (62.106.63.5) is not recursive.
+ 24.652: ikaalinen.fi INFO Name server ns3.netorek.fi (62.106.63.5) authoritative for ikaalinen.fi.
+ 24.701: ikaalinen.fi INFO Name server ns3.netorek.fi (62.106.63.5) closed for zone transfer of ikaalinen.fi.
+ 24.722: ikaalinen.fi INFO Legacy name server ID for ns3.netorek.fi (62.106.63.5): hostname.bind = posti.ippnet.fi
+ 24.780: ikaalinen.fi INFO Legacy name server ID for ns3.netorek.fi (62.106.63.5): version.bind = CCCP
+ 24.819: ikaalinen.fi NOTICE No answer received from 62.106.63.5 when querying for version.server/CH/TXT.
+ 24.819: ikaalinen.fi INFO Done testing name server ns3.netorek.fi.
+ 24.819: ikaalinen.fi INFO Begin testing name server ns4.netorek.fi.
+ 24.819: ikaalinen.fi INFO Begin testing host ns4.netorek.fi.
+ 24.922: ikaalinen.fi INFO Begin testing address 62.197.168.5.
+ 26.040: ikaalinen.fi INFO Done testing address 62.197.168.5.
+ 26.040: ikaalinen.fi INFO Done testing host ns4.netorek.fi.
+ 26.261: ikaalinen.fi INFO Name server ns4.netorek.fi (62.197.168.5) answers queries over UDP.
+ 26.318: ikaalinen.fi INFO Name server ns4.netorek.fi (62.197.168.5) answers queries over TCP.
+ 26.343: ikaalinen.fi INFO Name server ns4.netorek.fi (62.197.168.5) is not recursive.
+ 26.457: ikaalinen.fi INFO Name server ns4.netorek.fi (62.197.168.5) authoritative for ikaalinen.fi.
+ 26.502: ikaalinen.fi INFO Name server ns4.netorek.fi (62.197.168.5) closed for zone transfer of ikaalinen.fi.
+ 26.525: ikaalinen.fi INFO Legacy name server ID for ns4.netorek.fi (62.197.168.5): hostname.bind = ns4.netorek.fi
+ 26.585: ikaalinen.fi NOTICE No answer received from 62.197.168.5 when querying for version.server/CH/TXT.
+ 26.586: ikaalinen.fi INFO Done testing name server ns4.netorek.fi.
+ 26.586: ikaalinen.fi INFO Begin testing zone consistency for ikaalinen.fi.
+ 27.249: ikaalinen.fi INFO SOA at address 62.106.63.5 has serial 2013110801.
+ 27.297: ikaalinen.fi INFO SOA at address 62.197.168.5 has serial 2013110801.
+ 27.297: ikaalinen.fi INFO All SOA records have consistent serial numbers.
+ 27.297: ikaalinen.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 27.800: ikaalinen.fi NOTICE The listed nameservers for ikaalinen.fi all report the same set of nameservers.
+ 27.800: ikaalinen.fi INFO Done testing zone consistency for ikaalinen.fi.
+ 27.800: ikaalinen.fi INFO Begin testing SOA parameters for ikaalinen.fi.
+ 27.868: ikaalinen.fi INFO Found SOA record for ikaalinen.fi.
+ 27.868: ikaalinen.fi INFO Begin testing host ns4.netorek.fi.
+ 28.103: ikaalinen.fi INFO Begin testing address 62.197.168.5.
+ 28.302: ikaalinen.fi INFO Done testing address 62.197.168.5.
+ 28.302: ikaalinen.fi INFO Done testing host ns4.netorek.fi.
+ 28.302: ikaalinen.fi INFO SOA MNAME for ikaalinen.fi valid (ns4.netorek.fi).
+ 28.302: ikaalinen.fi INFO SOA MNAME for ikaalinen.fi (ns4.netorek.fi) listed as NS.
+ 28.454: ikaalinen.fi INFO SOA MNAME for ikaalinen.fi (ns4.netorek.fi) is authoritative.
+ 28.454: ikaalinen.fi INFO Begin testing email address jonni@netorek.fi.
+ 28.695: ikaalinen.fi INFO Mail exchangers for jonni@netorek.fi found mx2.netorek.fi.
+ 28.695: ikaalinen.fi INFO Begin testing host mx2.netorek.fi.
+ 29.058: ikaalinen.fi INFO Begin testing address 213.157.84.84.
+ 31.144: ikaalinen.fi INFO Done testing address 213.157.84.84.
+ 31.144: ikaalinen.fi INFO Done testing host mx2.netorek.fi.
+ 31.320: ikaalinen.fi INFO Done testing email address jonni@netorek.fi.
+ 31.320: ikaalinen.fi INFO Successful attempt to deliver email for SOA RNAME of ikaalinen.fi (jonni.netorek.fi) using jonni@netorek.fi.
+ 31.320: ikaalinen.fi NOTICE SOA TTL for ikaalinen.fi too small (600) - recommended >= 3600.
+ 31.320: ikaalinen.fi NOTICE SOA refresh for ikaalinen.fi too small (3600) - recommended >= 14400.
+ 31.321: ikaalinen.fi NOTICE SOA retry for ikaalinen.fi too small (900) - recommended >= 3600.
+ 31.321: ikaalinen.fi INFO SOA expire for ikaalinen.fi OK (604800) - recommended >= 604800.
+ 31.321: ikaalinen.fi INFO SOA minimum for ikaalinen.fi OK (600) - recommended between 300 and 86400.
+ 31.321: ikaalinen.fi INFO Done testing SOA parameters for ikaalinen.fi.
+ 31.321: ikaalinen.fi INFO Begin testing connectivity for ikaalinen.fi.
+ 32.597: ikaalinen.fi INFO Zone announced by more than one ASN.
+ 32.598: ikaalinen.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 32.598: ikaalinen.fi INFO Done testing connectivity for ikaalinen.fi.
+ 32.598: ikaalinen.fi INFO Begin testing DNSSEC for ikaalinen.fi.
+ 32.723: ikaalinen.fi INFO Did not find DS record for ikaalinen.fi at parent.
+ 32.818: ikaalinen.fi INFO Servers for ikaalinen.fi have consistent extra processing status.
+ 32.876: ikaalinen.fi INFO Authenticated denial records not found for ikaalinen.fi.
+ 32.898: ikaalinen.fi INFO Did not find DNSKEY record for ikaalinen.fi at child.
+ 32.898: ikaalinen.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 32.898: ikaalinen.fi INFO Done testing DNSSEC for ikaalinen.fi.
+ 32.899: ikaalinen.fi INFO Test completed for zone ikaalinen.fi.

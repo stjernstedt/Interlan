@@ -1,0 +1,88 @@
+  0.000: merikarvia.fi INFO Begin testing zone merikarvia.fi with version 1.6.1.
+  0.455: merikarvia.fi INFO Begin testing delegation for merikarvia.fi.
+  8.852: merikarvia.fi INFO Name servers listed at parent: ns1.taajama.fi,ns4.taajama.fi
+ 10.656: merikarvia.fi INFO Name servers listed at child: ns1.taajama.fi,ns4.taajama.fi
+ 10.657: merikarvia.fi NOTICE No IPv6 name servers found.
+ 10.740: merikarvia.fi INFO Parent glue for merikarvia.fi found: ns1.taajama.fi (83.102.40.26)
+ 10.853: merikarvia.fi INFO Parent glue for merikarvia.fi found: ns4.taajama.fi (83.102.40.27)
+ 10.940: merikarvia.fi INFO Checking glue for ns1.taajama.fi (83.102.40.26).
+ 10.941: merikarvia.fi INFO Checking glue for ns4.taajama.fi (83.102.40.27).
+ 10.941: merikarvia.fi INFO Parent glue for merikarvia.fi found: ns1.taajama.fi (83.102.40.26)
+ 10.941: merikarvia.fi INFO Parent glue for merikarvia.fi found: ns4.taajama.fi (83.102.40.27)
+ 11.757: merikarvia.fi INFO It is possible to build a referral packet for merikarvia.fi that works without EDNS0.
+ 12.876: merikarvia.fi INFO Previously used name servers for merikarvia.fi: 
+ 12.876: merikarvia.fi INFO Done testing delegation for merikarvia.fi.
+ 12.876: merikarvia.fi INFO Begin testing name server ns1.taajama.fi.
+ 12.876: merikarvia.fi INFO Begin testing host ns1.taajama.fi.
+ 13.182: merikarvia.fi INFO Begin testing address 83.102.40.26.
+ 25.122: merikarvia.fi INFO Done testing address 83.102.40.26.
+ 25.122: merikarvia.fi INFO Done testing host ns1.taajama.fi.
+ 25.398: merikarvia.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over UDP.
+ 25.446: merikarvia.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over TCP.
+ 25.503: merikarvia.fi INFO Name server ns1.taajama.fi (83.102.40.26) is not recursive.
+ 25.611: merikarvia.fi INFO Name server ns1.taajama.fi (83.102.40.26) authoritative for merikarvia.fi.
+ 25.669: merikarvia.fi INFO Name server ns1.taajama.fi (83.102.40.26) closed for zone transfer of merikarvia.fi.
+ 25.698: merikarvia.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): hostname.bind = saharausku
+ 25.760: merikarvia.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): version.bind = Not disclosed
+ 25.827: merikarvia.fi NOTICE No answer received from 83.102.40.26 when querying for version.server/CH/TXT.
+ 25.832: merikarvia.fi INFO Done testing name server ns1.taajama.fi.
+ 25.832: merikarvia.fi INFO Begin testing name server ns4.taajama.fi.
+ 25.832: merikarvia.fi INFO Begin testing host ns4.taajama.fi.
+ 26.054: merikarvia.fi INFO Begin testing address 83.102.40.27.
+ 26.680: merikarvia.fi INFO Done testing address 83.102.40.27.
+ 26.680: merikarvia.fi INFO Done testing host ns4.taajama.fi.
+ 26.904: merikarvia.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over UDP.
+ 26.953: merikarvia.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over TCP.
+ 26.988: merikarvia.fi INFO Name server ns4.taajama.fi (83.102.40.27) is not recursive.
+ 27.111: merikarvia.fi INFO Name server ns4.taajama.fi (83.102.40.27) authoritative for merikarvia.fi.
+ 27.148: merikarvia.fi INFO Name server ns4.taajama.fi (83.102.40.27) closed for zone transfer of merikarvia.fi.
+ 27.162: merikarvia.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): hostname.bind = lapiorausku
+ 27.212: merikarvia.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): version.bind = Not disclosed
+ 27.271: merikarvia.fi NOTICE No answer received from 83.102.40.27 when querying for version.server/CH/TXT.
+ 27.272: merikarvia.fi INFO Done testing name server ns4.taajama.fi.
+ 27.272: merikarvia.fi INFO Begin testing zone consistency for merikarvia.fi.
+ 28.087: merikarvia.fi INFO SOA at address 83.102.40.26 has serial 2012071201.
+ 28.123: merikarvia.fi INFO SOA at address 83.102.40.27 has serial 2012071201.
+ 28.123: merikarvia.fi INFO All SOA records have consistent serial numbers.
+ 28.123: merikarvia.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 28.645: merikarvia.fi NOTICE The listed nameservers for merikarvia.fi all report the same set of nameservers.
+ 28.645: merikarvia.fi INFO Done testing zone consistency for merikarvia.fi.
+ 28.645: merikarvia.fi INFO Begin testing SOA parameters for merikarvia.fi.
+ 28.672: merikarvia.fi INFO Found SOA record for merikarvia.fi.
+ 28.672: merikarvia.fi INFO Begin testing host ns1.taajama.fi.
+ 28.896: merikarvia.fi INFO Begin testing address 83.102.40.26.
+ 29.032: merikarvia.fi INFO Done testing address 83.102.40.26.
+ 29.032: merikarvia.fi INFO Done testing host ns1.taajama.fi.
+ 29.032: merikarvia.fi INFO SOA MNAME for merikarvia.fi valid (ns1.taajama.fi).
+ 29.033: merikarvia.fi INFO SOA MNAME for merikarvia.fi (ns1.taajama.fi) listed as NS.
+ 29.187: merikarvia.fi INFO SOA MNAME for merikarvia.fi (ns1.taajama.fi) is authoritative.
+ 29.187: merikarvia.fi INFO Begin testing email address hostmaster@taajama.com.
+ 29.403: merikarvia.fi INFO Mail exchangers for hostmaster@taajama.com found spp.taajama.fi,mx2.taajama.com.
+ 29.403: merikarvia.fi INFO Begin testing host spp.taajama.fi.
+ 29.751: merikarvia.fi INFO Begin testing address 217.78.212.151.
+ 30.252: merikarvia.fi INFO Done testing address 217.78.212.151.
+ 30.252: merikarvia.fi INFO Done testing host spp.taajama.fi.
+ 30.404: merikarvia.fi INFO Begin testing host mx2.taajama.com.
+ 30.881: merikarvia.fi INFO Begin testing address 83.102.41.75.
+ 31.700: merikarvia.fi INFO Done testing address 83.102.41.75.
+ 31.700: merikarvia.fi INFO Done testing host mx2.taajama.com.
+ 31.842: merikarvia.fi INFO Done testing email address hostmaster@taajama.com.
+ 31.842: merikarvia.fi INFO Successful attempt to deliver email for SOA RNAME of merikarvia.fi (hostmaster.taajama.com) using hostmaster@taajama.com.
+ 31.842: merikarvia.fi INFO SOA TTL for merikarvia.fi OK (28800) - recommended >= 3600.
+ 31.842: merikarvia.fi INFO SOA refresh for merikarvia.fi OK (28800) - recommended >= 14400.
+ 31.842: merikarvia.fi INFO SOA retry for merikarvia.fi OK (7200) - recommended >= 3600.
+ 31.842: merikarvia.fi INFO SOA expire for merikarvia.fi OK (1814400) - recommended >= 604800.
+ 31.842: merikarvia.fi INFO SOA minimum for merikarvia.fi OK (86400) - recommended between 300 and 86400.
+ 31.842: merikarvia.fi INFO Done testing SOA parameters for merikarvia.fi.
+ 31.843: merikarvia.fi INFO Begin testing connectivity for merikarvia.fi.
+ 32.793: merikarvia.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 32.794: merikarvia.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 32.794: merikarvia.fi INFO Done testing connectivity for merikarvia.fi.
+ 32.794: merikarvia.fi INFO Begin testing DNSSEC for merikarvia.fi.
+ 32.847: merikarvia.fi INFO Did not find DS record for merikarvia.fi at parent.
+ 32.960: merikarvia.fi INFO Servers for merikarvia.fi have consistent extra processing status.
+ 32.999: merikarvia.fi INFO Authenticated denial records not found for merikarvia.fi.
+ 33.019: merikarvia.fi INFO Did not find DNSKEY record for merikarvia.fi at child.
+ 33.019: merikarvia.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 33.020: merikarvia.fi INFO Done testing DNSSEC for merikarvia.fi.
+ 33.020: merikarvia.fi INFO Test completed for zone merikarvia.fi.

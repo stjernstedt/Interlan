@@ -1,0 +1,87 @@
+  0.000: vaggeryd.se INFO Begin testing zone vaggeryd.se with version 1.2.
+  0.000: vaggeryd.se INFO Begin testing delegation for vaggeryd.se.
+  5.660: vaggeryd.se INFO Name servers listed at parent: dns6.telia.com,ns.vaggeryd.se
+  6.974: vaggeryd.se INFO Name servers listed at child: dns6.telia.com,ns.vaggeryd.se
+  6.974: vaggeryd.se NOTICE No IPv6 name servers found.
+  7.029: vaggeryd.se INFO Parent glue for vaggeryd.se found: ns.vaggeryd.se (194.22.148.194)
+  7.071: vaggeryd.se INFO Checking glue for ns.vaggeryd.se (194.22.148.194).
+  7.086: vaggeryd.se INFO Child glue for vaggeryd.se found: ns.vaggeryd.se (194.22.148.194)
+  7.087: vaggeryd.se INFO Parent glue for vaggeryd.se found: ns.vaggeryd.se (194.22.148.194)
+  7.087: vaggeryd.se INFO Done testing delegation for vaggeryd.se.
+  7.087: vaggeryd.se INFO Begin testing name server dns6.telia.com.
+  7.088: vaggeryd.se INFO Begin testing host dns6.telia.com.
+  7.088: vaggeryd.se INFO Begin testing address 81.228.10.68.
+ 15.726: vaggeryd.se INFO Done testing address 81.228.10.68.
+ 15.726: vaggeryd.se INFO Done testing host dns6.telia.com.
+ 15.744: vaggeryd.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over UDP.
+ 15.773: vaggeryd.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over TCP.
+ 15.792: vaggeryd.se INFO Name server dns6.telia.com (81.228.10.68) is not recursive.
+ 15.810: vaggeryd.se INFO Name server dns6.telia.com (81.228.10.68) authoritative for vaggeryd.se.
+ 15.851: vaggeryd.se INFO Name server dns6.telia.com (81.228.10.68) closed for zone transfer of vaggeryd.se.
+ 15.869: vaggeryd.se INFO Legacy name server ID for dns6.telia.com (81.228.10.68): hostname.bind = dnshosting1-sn4.m-sp.skanova.net
+ 15.887: vaggeryd.se INFO Legacy name server ID for dns6.telia.com (81.228.10.68): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 15.920: vaggeryd.se NOTICE No answer received from 81.228.10.68 when querying for version.server/CH/TXT.
+ 15.921: vaggeryd.se INFO Done testing name server dns6.telia.com.
+ 15.921: vaggeryd.se INFO Begin testing name server ns.vaggeryd.se.
+ 15.921: vaggeryd.se INFO Begin testing host ns.vaggeryd.se.
+ 15.921: vaggeryd.se INFO Begin testing address 194.22.148.194.
+ 16.471: vaggeryd.se INFO Done testing address 194.22.148.194.
+ 16.471: vaggeryd.se INFO Done testing host ns.vaggeryd.se.
+ 16.484: vaggeryd.se INFO Name server ns.vaggeryd.se (194.22.148.194) answers queries over UDP.
+ 16.723: vaggeryd.se INFO Name server ns.vaggeryd.se (194.22.148.194) answers queries over TCP.
+ 16.735: vaggeryd.se INFO Name server ns.vaggeryd.se (194.22.148.194) is not recursive.
+ 16.748: vaggeryd.se INFO Name server ns.vaggeryd.se (194.22.148.194) authoritative for vaggeryd.se.
+ 16.936: vaggeryd.se INFO Name server ns.vaggeryd.se (194.22.148.194) closed for zone transfer of vaggeryd.se.
+ 16.949: vaggeryd.se NOTICE No answer received from 194.22.148.194 when querying for hostname.bind/CH/TXT.
+ 34.949: vaggeryd.se INFO Done testing name server ns.vaggeryd.se.
+ 34.950: vaggeryd.se INFO Begin testing zone consistency for vaggeryd.se.
+ 34.969: vaggeryd.se INFO SOA at address 194.22.148.194 has serial 2005052010.
+ 34.985: vaggeryd.se INFO SOA at address 81.228.10.68 has serial 2005052010.
+ 34.985: vaggeryd.se INFO All SOA records have consistent serial numbers.
+ 34.985: vaggeryd.se INFO All SOA records are consistent among all name servers.
+ 34.985: vaggeryd.se INFO Done testing zone consistency for vaggeryd.se.
+ 34.986: vaggeryd.se INFO Begin testing SOA parameters for vaggeryd.se.
+ 35.003: vaggeryd.se INFO Found SOA record for vaggeryd.se.
+ 35.003: vaggeryd.se INFO Begin testing host ns.vaggeryd.se.
+ 35.003: vaggeryd.se INFO Begin testing address 194.22.148.194.
+ 35.005: vaggeryd.se INFO Done testing address 194.22.148.194.
+ 35.005: vaggeryd.se INFO Done testing host ns.vaggeryd.se.
+ 35.005: vaggeryd.se INFO SOA MNAME for vaggeryd.se valid (ns.vaggeryd.se).
+ 35.005: vaggeryd.se INFO SOA MNAME for vaggeryd.se (ns.vaggeryd.se) listed as NS.
+ 35.027: vaggeryd.se INFO SOA MNAME for vaggeryd.se (ns.vaggeryd.se) is authoritative.
+ 35.027: vaggeryd.se INFO Begin testing email address hostmaster@vaggeryd.se.
+ 35.277: vaggeryd.se INFO Mail exchangers for hostmaster@vaggeryd.se found ns.vaggeryd.se.
+ 35.277: vaggeryd.se INFO All mail servers for hostmaster@vaggeryd.se are in zone vaggeryd.se.
+ 35.277: vaggeryd.se INFO Begin testing host ns.vaggeryd.se.
+ 35.278: vaggeryd.se INFO Begin testing address 194.22.148.194.
+ 35.279: vaggeryd.se INFO Done testing address 194.22.148.194.
+ 35.279: vaggeryd.se INFO Done testing host ns.vaggeryd.se.
+ 35.280: vaggeryd.se INFO Begin testing mail server ns.vaggeryd.se (194.22.148.194) with hostmaster@vaggeryd.se.
+ 35.311: vaggeryd.se INFO SMTP banner: vaggeryd.se ESMTP MDaemon 11.0.3; Mon, 13 Dec 2010 21:56:19 +0100
+ 35.449: vaggeryd.se INFO SMTP testing of ns.vaggeryd.se (194.22.148.194) with hostmaster@vaggeryd.se succeeded without errors.
+ 35.449: vaggeryd.se INFO Done testing mail server ns.vaggeryd.se (194.22.148.194) with hostmaster@vaggeryd.se.
+ 35.449: vaggeryd.se INFO Delivery over IPv4 to hostmaster@vaggeryd.se ok.
+ 35.450: vaggeryd.se INFO Delivery over IPv6 to hostmaster@vaggeryd.se could not be done.
+ 35.450: vaggeryd.se INFO Done testing email address hostmaster@vaggeryd.se.
+ 35.450: vaggeryd.se INFO Successful attempt to deliver email for SOA RNAME of vaggeryd.se (hostmaster.vaggeryd.se) using hostmaster@vaggeryd.se.
+ 35.450: vaggeryd.se INFO SOA TTL for vaggeryd.se OK (3600) - recommended >= 3600.
+ 35.450: vaggeryd.se NOTICE SOA refresh for vaggeryd.se too small (3600) - recommended >= 14400.
+ 35.450: vaggeryd.se NOTICE SOA retry for vaggeryd.se too small (600) - recommended >= 3600.
+ 35.450: vaggeryd.se INFO SOA expire for vaggeryd.se OK (1209600) - recommended >= 604800.
+ 35.450: vaggeryd.se INFO SOA minimum for vaggeryd.se OK (3600) - recommended between 300 and 86400.
+ 35.450: vaggeryd.se INFO Done testing SOA parameters for vaggeryd.se.
+ 35.450: vaggeryd.se INFO Begin testing connectivity for vaggeryd.se.
+ 35.990: vaggeryd.se INFO Name server 194.22.148.194 announced by: 3301
+ 40.664: vaggeryd.se INFO Name server 81.228.10.68 announced by: 3301
+ 40.664: vaggeryd.se INFO Zone announced by IPv4 ASN: 3301
+ 40.664: vaggeryd.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 40.665: vaggeryd.se INFO Zone announced by IPv6 ASN: 
+ 40.665: vaggeryd.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 40.665: vaggeryd.se INFO Done testing connectivity for vaggeryd.se.
+ 40.665: vaggeryd.se INFO Begin testing DNSSEC for vaggeryd.se.
+ 40.680: vaggeryd.se INFO Did not find DS record for vaggeryd.se at parent.
+ 40.734: vaggeryd.se INFO Servers for vaggeryd.se have consistent extra processing status.
+ 40.734: vaggeryd.se INFO Did not find DNSKEY record for vaggeryd.se at child.
+ 40.734: vaggeryd.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 40.734: vaggeryd.se INFO Done testing DNSSEC for vaggeryd.se.
+ 40.734: vaggeryd.se INFO Test completed for zone vaggeryd.se.

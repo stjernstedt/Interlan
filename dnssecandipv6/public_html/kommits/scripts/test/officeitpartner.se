@@ -1,0 +1,97 @@
+  0.000: officeitpartner.se INFO Begin testing zone officeitpartner.se with version 1.2.
+  0.001: officeitpartner.se INFO Begin testing delegation for officeitpartner.se.
+  5.188: officeitpartner.se INFO Name servers listed at parent: ns1.moln.net,ns2.moln.net,ns3.moln.net
+  6.952: officeitpartner.se INFO Name servers listed at child: ns1.moln.net,ns2.moln.net,ns3.moln.net
+  6.953: officeitpartner.se NOTICE No IPv6 name servers found.
+  7.123: officeitpartner.se INFO Done testing delegation for officeitpartner.se.
+  7.124: officeitpartner.se INFO Begin testing name server ns1.moln.net.
+  7.124: officeitpartner.se INFO Begin testing host ns1.moln.net.
+  7.124: officeitpartner.se INFO Begin testing address 194.71.21.6.
+ 12.527: officeitpartner.se WARNING Could not find reverse address for 194.71.21.6 (6.21.71.194.in-addr.arpa.).
+ 12.528: officeitpartner.se INFO Done testing address 194.71.21.6.
+ 12.528: officeitpartner.se INFO Done testing host ns1.moln.net.
+ 12.540: officeitpartner.se INFO Name server ns1.moln.net (194.71.21.6) answers queries over UDP.
+ 12.558: officeitpartner.se INFO Name server ns1.moln.net (194.71.21.6) answers queries over TCP.
+ 18.559: officeitpartner.se INFO Name server ns1.moln.net (194.71.21.6) is not recursive.
+ 18.569: officeitpartner.se INFO Name server ns1.moln.net (194.71.21.6) authoritative for officeitpartner.se.
+ 18.797: officeitpartner.se INFO Name server ns1.moln.net (194.71.21.6) closed for zone transfer of officeitpartner.se.
+ 18.808: officeitpartner.se NOTICE No answer received from 194.71.21.6 when querying for hostname.bind/CH/TXT.
+ 36.835: officeitpartner.se INFO Done testing name server ns1.moln.net.
+ 36.835: officeitpartner.se INFO Begin testing name server ns2.moln.net.
+ 36.835: officeitpartner.se INFO Begin testing host ns2.moln.net.
+ 36.836: officeitpartner.se INFO Begin testing address 194.71.21.7.
+ 37.207: officeitpartner.se WARNING Could not find reverse address for 194.71.21.7 (7.21.71.194.in-addr.arpa.).
+ 37.207: officeitpartner.se INFO Done testing address 194.71.21.7.
+ 37.207: officeitpartner.se INFO Done testing host ns2.moln.net.
+ 37.220: officeitpartner.se INFO Name server ns2.moln.net (194.71.21.7) answers queries over UDP.
+ 37.249: officeitpartner.se INFO Name server ns2.moln.net (194.71.21.7) answers queries over TCP.
+ 43.251: officeitpartner.se INFO Name server ns2.moln.net (194.71.21.7) is not recursive.
+ 43.262: officeitpartner.se INFO Name server ns2.moln.net (194.71.21.7) authoritative for officeitpartner.se.
+ 43.497: officeitpartner.se INFO Name server ns2.moln.net (194.71.21.7) closed for zone transfer of officeitpartner.se.
+ 43.507: officeitpartner.se NOTICE No answer received from 194.71.21.7 when querying for hostname.bind/CH/TXT.
+ 61.543: officeitpartner.se INFO Done testing name server ns2.moln.net.
+ 61.543: officeitpartner.se INFO Begin testing name server ns3.moln.net.
+ 61.543: officeitpartner.se INFO Begin testing host ns3.moln.net.
+ 61.544: officeitpartner.se INFO Begin testing address 217.78.29.105.
+ 62.306: officeitpartner.se INFO Done testing address 217.78.29.105.
+ 62.306: officeitpartner.se INFO Done testing host ns3.moln.net.
+ 62.317: officeitpartner.se INFO Name server ns3.moln.net (217.78.29.105) answers queries over UDP.
+ 62.335: officeitpartner.se INFO Name server ns3.moln.net (217.78.29.105) answers queries over TCP.
+ 62.388: officeitpartner.se WARNING Name server ns3.moln.net (217.78.29.105) is recursive.
+ 62.399: officeitpartner.se INFO Name server ns3.moln.net (217.78.29.105) authoritative for officeitpartner.se.
+ 62.628: officeitpartner.se INFO Name server ns3.moln.net (217.78.29.105) closed for zone transfer of officeitpartner.se.
+ 62.639: officeitpartner.se NOTICE No answer received from 217.78.29.105 when querying for hostname.bind/CH/TXT.
+ 80.639: officeitpartner.se INFO Done testing name server ns3.moln.net.
+ 80.639: officeitpartner.se INFO Begin testing zone consistency for officeitpartner.se.
+ 80.655: officeitpartner.se INFO SOA at address 194.71.21.6 has serial 41.
+ 80.666: officeitpartner.se INFO SOA at address 217.78.29.105 has serial 41.
+ 80.676: officeitpartner.se INFO SOA at address 194.71.21.7 has serial 41.
+ 80.677: officeitpartner.se INFO All SOA records have consistent serial numbers.
+ 80.677: officeitpartner.se INFO All SOA records are consistent among all name servers.
+ 80.677: officeitpartner.se INFO Done testing zone consistency for officeitpartner.se.
+ 80.677: officeitpartner.se INFO Begin testing SOA parameters for officeitpartner.se.
+ 80.692: officeitpartner.se INFO Found SOA record for officeitpartner.se.
+ 80.693: officeitpartner.se INFO Begin testing host ns1.moln.net.
+ 80.693: officeitpartner.se INFO Begin testing address 194.71.21.6.
+ 80.694: officeitpartner.se WARNING Could not find reverse address for 194.71.21.6 (6.21.71.194.in-addr.arpa.).
+ 80.694: officeitpartner.se INFO Done testing address 194.71.21.6.
+ 80.695: officeitpartner.se INFO Done testing host ns1.moln.net.
+ 80.695: officeitpartner.se INFO SOA MNAME for officeitpartner.se valid (ns1.moln.net).
+ 80.695: officeitpartner.se INFO SOA MNAME for officeitpartner.se (ns1.moln.net) listed as NS.
+ 80.705: officeitpartner.se INFO SOA MNAME for officeitpartner.se (ns1.moln.net) is authoritative.
+ 80.705: officeitpartner.se INFO Begin testing email address hostmaster@moln.net.
+ 80.921: officeitpartner.se INFO Mail exchangers for hostmaster@moln.net found mailin05.moln.net.
+ 80.922: officeitpartner.se INFO Begin testing host mailin05.moln.net.
+ 81.468: officeitpartner.se INFO Begin testing address 194.71.21.103.
+ 82.188: officeitpartner.se INFO Done testing address 194.71.21.103.
+ 82.188: officeitpartner.se INFO Done testing host mailin05.moln.net.
+ 82.189: officeitpartner.se INFO Begin testing mail server mailin05.moln.net (194.71.21.103) with hostmaster@moln.net.
+ 82.212: officeitpartner.se INFO SMTP banner: exchange04.lan.moln.net Microsoft ESMTP MAIL Service ready at Tue, 9 Nov 2010 11:18:39 +0100
+ 87.247: officeitpartner.se INFO SMTP testing of mailin05.moln.net (194.71.21.103) with hostmaster@moln.net succeeded without errors.
+ 87.247: officeitpartner.se INFO Done testing mail server mailin05.moln.net (194.71.21.103) with hostmaster@moln.net.
+ 87.248: officeitpartner.se INFO Delivery over IPv4 to hostmaster@moln.net ok.
+ 87.248: officeitpartner.se INFO Delivery over IPv6 to hostmaster@moln.net could not be done.
+ 87.248: officeitpartner.se INFO Done testing email address hostmaster@moln.net.
+ 87.248: officeitpartner.se INFO Successful attempt to deliver email for SOA RNAME of officeitpartner.se (hostmaster.moln.net) using hostmaster@moln.net.
+ 87.248: officeitpartner.se INFO SOA TTL for officeitpartner.se OK (3600) - recommended >= 3600.
+ 87.248: officeitpartner.se NOTICE SOA refresh for officeitpartner.se too small (3600) - recommended >= 14400.
+ 87.248: officeitpartner.se NOTICE SOA retry for officeitpartner.se too small (900) - recommended >= 3600.
+ 87.248: officeitpartner.se INFO SOA expire for officeitpartner.se OK (604800) - recommended >= 604800.
+ 87.248: officeitpartner.se INFO SOA minimum for officeitpartner.se OK (3600) - recommended between 300 and 86400.
+ 87.248: officeitpartner.se INFO Done testing SOA parameters for officeitpartner.se.
+ 87.249: officeitpartner.se INFO Begin testing connectivity for officeitpartner.se.
+ 87.888: officeitpartner.se INFO Name server 194.71.21.6 announced by: 702
+ 88.628: officeitpartner.se INFO Name server 217.78.29.105 announced by: 1257
+ 89.225: officeitpartner.se INFO Name server 194.71.21.7 announced by: 702
+ 89.225: officeitpartner.se INFO Zone announced by IPv4 ASN: 702,1257
+ 89.225: officeitpartner.se INFO Zone announced by more than one ASN (2).
+ 89.226: officeitpartner.se INFO Zone announced by IPv6 ASN: 
+ 89.226: officeitpartner.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 89.226: officeitpartner.se INFO Done testing connectivity for officeitpartner.se.
+ 89.226: officeitpartner.se INFO Begin testing DNSSEC for officeitpartner.se.
+ 89.273: officeitpartner.se INFO Did not find DS record for officeitpartner.se at parent.
+ 89.324: officeitpartner.se INFO Servers for officeitpartner.se have consistent extra processing status.
+ 89.324: officeitpartner.se INFO Did not find DNSKEY record for officeitpartner.se at child.
+ 89.325: officeitpartner.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 89.325: officeitpartner.se INFO Done testing DNSSEC for officeitpartner.se.
+ 89.325: officeitpartner.se INFO Test completed for zone officeitpartner.se.

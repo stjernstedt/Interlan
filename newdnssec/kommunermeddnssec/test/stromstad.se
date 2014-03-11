@@ -1,0 +1,111 @@
+  0.000: stromstad.se INFO Begin testing zone stromstad.se with version 1.6.1.
+  1.319: stromstad.se INFO Begin testing delegation for stromstad.se.
+ 14.086: stromstad.se INFO Name servers listed at parent: dns2.tanum.se,sdsrvextdns1.stromstad.se
+ 26.769: stromstad.se INFO Name servers listed at child: dns2.tanum.se,sdsrvextdns1.stromstad.se
+ 26.837: stromstad.se INFO Parent glue for stromstad.se found: dns2.tanum.se (194.68.124.22)
+ 26.983: stromstad.se INFO Parent glue for stromstad.se found: dns2.tanum.se (2001:67c:13f4:0:0:0:b1ff:2)
+ 27.169: stromstad.se INFO Parent glue for stromstad.se found: sdsrvextdns1.stromstad.se (194.71.159.39)
+ 27.490: stromstad.se INFO Parent glue for stromstad.se found: sdsrvextdns1.stromstad.se (2001:67c:15c8:254:0:0:0:39)
+ 27.490: stromstad.se INFO Checking glue for dns2.tanum.se (194.68.124.22).
+ 27.490: stromstad.se INFO Checking glue for dns2.tanum.se (2001:67c:13f4:0:0:0:b1ff:2).
+ 27.491: stromstad.se INFO Checking glue for sdsrvextdns1.stromstad.se (194.71.159.39).
+ 27.608: stromstad.se INFO Child glue for stromstad.se found: sdsrvextdns1.stromstad.se (194.71.159.39)
+ 27.608: stromstad.se INFO Checking glue for sdsrvextdns1.stromstad.se (2001:67c:15c8:254:0:0:0:39).
+ 27.656: stromstad.se INFO Child glue for stromstad.se found: sdsrvextdns1.stromstad.se (2001:67c:15c8:254:0:0:0:39)
+ 27.656: stromstad.se INFO Parent glue for stromstad.se found: dns2.tanum.se (194.68.124.22)
+ 27.656: stromstad.se INFO Parent glue for stromstad.se found: dns2.tanum.se (2001:67c:13f4:0:0:0:b1ff:2)
+ 27.656: stromstad.se INFO Parent glue for stromstad.se found: sdsrvextdns1.stromstad.se (194.71.159.39)
+ 27.657: stromstad.se INFO Parent glue for stromstad.se found: sdsrvextdns1.stromstad.se (2001:67c:15c8:254:0:0:0:39)
+ 29.684: stromstad.se INFO It is possible to build a referral packet for stromstad.se that works without EDNS0.
+ 29.685: stromstad.se INFO Previously used name servers for stromstad.se: 
+ 29.685: stromstad.se INFO Done testing delegation for stromstad.se.
+ 29.685: stromstad.se INFO Begin testing name server dns2.tanum.se.
+ 29.686: stromstad.se INFO Begin testing host dns2.tanum.se.
+ 29.686: stromstad.se INFO Begin testing address 194.68.124.22.
+ 41.309: stromstad.se INFO Done testing address 194.68.124.22.
+ 41.309: stromstad.se INFO Begin testing address 2001:67c:13f4:0:0:0:b1ff:2.
+ 41.936: stromstad.se INFO Done testing address 2001:67c:13f4:0:0:0:b1ff:2.
+ 41.937: stromstad.se INFO Done testing host dns2.tanum.se.
+ 42.000: stromstad.se INFO Name server dns2.tanum.se (194.68.124.22) answers queries over UDP.
+ 42.120: stromstad.se INFO Name server dns2.tanum.se (194.68.124.22) answers queries over TCP.
+ 42.165: stromstad.se INFO Name server dns2.tanum.se (194.68.124.22) is not recursive.
+ 42.402: stromstad.se INFO Name server dns2.tanum.se (194.68.124.22) authoritative for stromstad.se.
+ 42.550: stromstad.se INFO Name server dns2.tanum.se (194.68.124.22) closed for zone transfer of stromstad.se.
+ 42.599: stromstad.se NOTICE No answer received from 194.68.124.22 when querying for hostname.bind/CH/TXT.
+ 54.708: stromstad.se INFO Name server dns2.tanum.se (2001:67c:13f4:0:0:0:b1ff:2) answers queries over UDP.
+ 54.796: stromstad.se INFO Name server dns2.tanum.se (2001:67c:13f4:0:0:0:b1ff:2) answers queries over TCP.
+ 54.875: stromstad.se INFO Name server dns2.tanum.se (2001:67c:13f4:0:0:0:b1ff:2) is not recursive.
+ 55.121: stromstad.se INFO Name server dns2.tanum.se (2001:67c:13f4:0:0:0:b1ff:2) authoritative for stromstad.se.
+ 55.277: stromstad.se INFO Name server dns2.tanum.se (2001:67c:13f4:0:0:0:b1ff:2) closed for zone transfer of stromstad.se.
+ 55.339: stromstad.se NOTICE No answer received from 2001:67c:13f4:0:0:0:b1ff:2 when querying for hostname.bind/CH/TXT.
+ 67.587: stromstad.se INFO Done testing name server dns2.tanum.se.
+ 67.587: stromstad.se INFO Begin testing name server sdsrvextdns1.stromstad.se.
+ 67.588: stromstad.se INFO Begin testing host sdsrvextdns1.stromstad.se.
+ 67.588: stromstad.se INFO Begin testing address 194.71.159.39.
+ 68.883: stromstad.se INFO Done testing address 194.71.159.39.
+ 68.895: stromstad.se INFO Begin testing address 2001:67c:15c8:254:0:0:0:39.
+ 69.467: stromstad.se INFO Done testing address 2001:67c:15c8:254:0:0:0:39.
+ 69.467: stromstad.se INFO Done testing host sdsrvextdns1.stromstad.se.
+ 69.510: stromstad.se INFO Name server sdsrvextdns1.stromstad.se (194.71.159.39) answers queries over UDP.
+ 69.565: stromstad.se INFO Name server sdsrvextdns1.stromstad.se (194.71.159.39) answers queries over TCP.
+ 69.589: stromstad.se INFO Name server sdsrvextdns1.stromstad.se (194.71.159.39) is not recursive.
+ 69.707: stromstad.se INFO Name server sdsrvextdns1.stromstad.se (194.71.159.39) authoritative for stromstad.se.
+ 69.839: stromstad.se INFO Name server sdsrvextdns1.stromstad.se (194.71.159.39) closed for zone transfer of stromstad.se.
+ 69.864: stromstad.se NOTICE No answer received from 194.71.159.39 when querying for hostname.bind/CH/TXT.
+ 81.983: stromstad.se INFO Name server sdsrvextdns1.stromstad.se (2001:67c:15c8:254:0:0:0:39) answers queries over UDP.
+ 82.073: stromstad.se INFO Name server sdsrvextdns1.stromstad.se (2001:67c:15c8:254:0:0:0:39) answers queries over TCP.
+ 82.131: stromstad.se INFO Name server sdsrvextdns1.stromstad.se (2001:67c:15c8:254:0:0:0:39) is not recursive.
+ 82.315: stromstad.se INFO Name server sdsrvextdns1.stromstad.se (2001:67c:15c8:254:0:0:0:39) authoritative for stromstad.se.
+ 82.463: stromstad.se INFO Name server sdsrvextdns1.stromstad.se (2001:67c:15c8:254:0:0:0:39) closed for zone transfer of stromstad.se.
+ 82.507: stromstad.se NOTICE No answer received from 2001:67c:15c8:254:0:0:0:39 when querying for hostname.bind/CH/TXT.
+ 94.780: stromstad.se INFO Done testing name server sdsrvextdns1.stromstad.se.
+ 94.780: stromstad.se INFO Begin testing zone consistency for stromstad.se.
+ 94.809: stromstad.se INFO SOA at address 194.71.159.39 has serial 159.
+ 94.857: stromstad.se INFO SOA at address 2001:67c:15c8:254:0:0:0:39 has serial 159.
+ 94.878: stromstad.se INFO SOA at address 194.68.124.22 has serial 159.
+ 94.921: stromstad.se INFO SOA at address 2001:67c:13f4:0:0:0:b1ff:2 has serial 159.
+ 94.921: stromstad.se INFO All SOA records have consistent serial numbers.
+ 94.921: stromstad.se INFO All other fields in the SOA record are consistent among all name servers.
+ 95.058: stromstad.se NOTICE The listed nameservers for stromstad.se all report the same set of nameservers.
+ 95.059: stromstad.se INFO Done testing zone consistency for stromstad.se.
+ 95.059: stromstad.se INFO Begin testing SOA parameters for stromstad.se.
+ 95.081: stromstad.se INFO Found SOA record for stromstad.se.
+ 95.081: stromstad.se INFO Begin testing host sdsrvextdns1.stromstad.se.
+ 95.082: stromstad.se INFO Begin testing address 194.71.159.39.
+ 95.084: stromstad.se INFO Done testing address 194.71.159.39.
+ 95.084: stromstad.se INFO Begin testing address 2001:67c:15c8:254:0:0:0:39.
+ 95.086: stromstad.se INFO Done testing address 2001:67c:15c8:254:0:0:0:39.
+ 95.086: stromstad.se INFO Done testing host sdsrvextdns1.stromstad.se.
+ 95.086: stromstad.se INFO SOA MNAME for stromstad.se valid (sdsrvextdns1.stromstad.se).
+ 95.086: stromstad.se INFO SOA MNAME for stromstad.se (sdsrvextdns1.stromstad.se) listed as NS.
+ 95.110: stromstad.se INFO SOA MNAME for stromstad.se (sdsrvextdns1.stromstad.se) is authoritative.
+ 95.155: stromstad.se INFO SOA MNAME for stromstad.se (sdsrvextdns1.stromstad.se) is authoritative.
+ 95.155: stromstad.se INFO Begin testing email address hostmaster@stromstad.se.
+ 95.270: stromstad.se INFO Mail exchangers for hostmaster@stromstad.se found vsp.stromstad.se.
+ 95.272: stromstad.se INFO All mail servers for hostmaster@stromstad.se are in zone stromstad.se.
+ 95.272: stromstad.se INFO Begin testing host vsp.stromstad.se.
+ 95.506: stromstad.se INFO Begin testing address 194.71.159.20.
+103.808: stromstad.se INFO Done testing address 194.71.159.20.
+103.808: stromstad.se INFO Begin testing address 2001:67c:15c8:0:0:0:0:20.
+104.264: stromstad.se INFO Done testing address 2001:67c:15c8:0:0:0:0:20.
+104.264: stromstad.se INFO Done testing host vsp.stromstad.se.
+104.264: stromstad.se INFO Done testing email address hostmaster@stromstad.se.
+104.264: stromstad.se INFO Successful attempt to deliver email for SOA RNAME of stromstad.se (hostmaster.stromstad.se) using hostmaster@stromstad.se.
+104.265: stromstad.se INFO SOA TTL for stromstad.se OK (3600) - recommended >= 3600.
+104.265: stromstad.se INFO SOA refresh for stromstad.se OK (14400) - recommended >= 14400.
+104.265: stromstad.se INFO SOA retry for stromstad.se OK (3600) - recommended >= 3600.
+104.265: stromstad.se INFO SOA expire for stromstad.se OK (604800) - recommended >= 604800.
+104.265: stromstad.se INFO SOA minimum for stromstad.se OK (3600) - recommended between 300 and 86400.
+104.265: stromstad.se INFO Done testing SOA parameters for stromstad.se.
+104.266: stromstad.se INFO Begin testing connectivity for stromstad.se.
+105.060: stromstad.se NOTICE Zone announced by fewer than two IPv4 ASN.
+106.110: stromstad.se NOTICE Zone announced by fewer than two IPv6 ASN.
+106.110: stromstad.se INFO Done testing connectivity for stromstad.se.
+106.110: stromstad.se INFO Begin testing DNSSEC for stromstad.se.
+106.131: stromstad.se INFO Did not find DS record for stromstad.se at parent.
+106.386: stromstad.se INFO Servers for stromstad.se have consistent extra processing status.
+106.426: stromstad.se INFO Authenticated denial records not found for stromstad.se.
+106.447: stromstad.se INFO Did not find DNSKEY record for stromstad.se at child.
+106.448: stromstad.se INFO No DNSKEY(s) found at child, other tests skipped.
+106.448: stromstad.se INFO Done testing DNSSEC for stromstad.se.
+106.448: stromstad.se INFO Test completed for zone stromstad.se.

@@ -1,0 +1,107 @@
+  0.000: sll.se INFO Begin testing zone sll.se with version 1.6.1.
+  0.495: sll.se INFO Begin testing delegation for sll.se.
+  9.704: sll.se INFO Name servers listed at parent: ens1.sll.se,ens2.sll.se
+ 11.595: sll.se INFO Name servers listed at child: ens1.sll.se,ens2.sll.se
+ 11.611: sll.se WARNING No IPv6 name servers found.
+ 11.677: sll.se INFO Parent glue for sll.se found: ens1.sll.se (192.44.242.66)
+ 11.812: sll.se INFO Parent glue for sll.se found: ens2.sll.se (192.44.243.66)
+ 11.880: sll.se INFO Checking glue for ens1.sll.se (192.44.242.66).
+ 11.944: sll.se INFO Child glue for sll.se found: ens1.sll.se (192.44.242.66)
+ 11.977: sll.se INFO Checking glue for ens2.sll.se (192.44.243.66).
+ 12.021: sll.se INFO Child glue for sll.se found: ens2.sll.se (192.44.243.66)
+ 12.022: sll.se INFO Parent glue for sll.se found: ens1.sll.se (192.44.242.66)
+ 12.028: sll.se INFO Parent glue for sll.se found: ens2.sll.se (192.44.243.66)
+ 12.876: sll.se INFO It is possible to build a referral packet for sll.se that works without EDNS0.
+ 13.540: sll.se INFO Previously used name servers for sll.se: 
+ 13.540: sll.se INFO Done testing delegation for sll.se.
+ 13.541: sll.se INFO Begin testing name server ens1.sll.se.
+ 13.543: sll.se INFO Begin testing host ens1.sll.se.
+ 13.879: sll.se INFO Begin testing address 192.44.242.66.
+ 21.839: sll.se INFO Done testing address 192.44.242.66.
+ 21.840: sll.se INFO Done testing host ens1.sll.se.
+ 22.085: sll.se INFO Name server ens1.sll.se (192.44.242.66) answers queries over UDP.
+ 24.103: sll.se NOTICE DNS lookup error (connection failed).
+ 24.104: sll.se ERROR Name server ens1.sll.se (192.44.242.66) does not answer queries over TCP.
+ 24.136: sll.se INFO Name server ens1.sll.se (192.44.242.66) is not recursive.
+ 26.227: sll.se NOTICE DNS lookup error (connection failed).
+ 26.228: sll.se INFO Name server ens1.sll.se (192.44.242.66) authoritative for sll.se.
+ 26.228: sll.se INFO Name server ens1.sll.se (192.44.242.66) not checked for zone transfer of sll.se.
+ 26.228: sll.se INFO Name server ens1.sll.se (192.44.242.66) not checked for legacy name server ID.
+ 26.228: sll.se INFO Done testing name server ens1.sll.se.
+ 26.228: sll.se INFO Begin testing name server ens2.sll.se.
+ 26.228: sll.se INFO Begin testing host ens2.sll.se.
+ 26.388: sll.se INFO Begin testing address 192.44.243.66.
+ 27.234: sll.se INFO Done testing address 192.44.243.66.
+ 27.234: sll.se INFO Done testing host ens2.sll.se.
+ 27.460: sll.se INFO Name server ens2.sll.se (192.44.243.66) answers queries over UDP.
+ 29.503: sll.se NOTICE DNS lookup error (connection failed).
+ 29.504: sll.se ERROR Name server ens2.sll.se (192.44.243.66) does not answer queries over TCP.
+ 29.525: sll.se INFO Name server ens2.sll.se (192.44.243.66) is not recursive.
+ 31.623: sll.se NOTICE DNS lookup error (connection failed).
+ 31.624: sll.se INFO Name server ens2.sll.se (192.44.243.66) authoritative for sll.se.
+ 31.624: sll.se INFO Name server ens2.sll.se (192.44.243.66) not checked for zone transfer of sll.se.
+ 31.624: sll.se INFO Name server ens2.sll.se (192.44.243.66) not checked for legacy name server ID.
+ 31.624: sll.se INFO Done testing name server ens2.sll.se.
+ 31.624: sll.se INFO Begin testing zone consistency for sll.se.
+ 32.240: sll.se INFO SOA at address 192.44.242.66 has serial 2014022614.
+ 32.262: sll.se INFO SOA at address 192.44.243.66 has serial 2014022614.
+ 32.271: sll.se INFO All SOA records have consistent serial numbers.
+ 32.271: sll.se INFO All other fields in the SOA record are consistent among all name servers.
+ 32.653: sll.se NOTICE The listed nameservers for sll.se all report the same set of nameservers.
+ 32.667: sll.se INFO Done testing zone consistency for sll.se.
+ 32.667: sll.se INFO Begin testing SOA parameters for sll.se.
+ 32.692: sll.se INFO Found SOA record for sll.se.
+ 32.693: sll.se INFO Begin testing host ens1.sll.se.
+ 32.880: sll.se INFO Begin testing address 192.44.242.66.
+ 33.084: sll.se INFO Done testing address 192.44.242.66.
+ 33.084: sll.se INFO Done testing host ens1.sll.se.
+ 33.085: sll.se INFO SOA MNAME for sll.se valid (ens1.sll.se).
+ 33.085: sll.se INFO SOA MNAME for sll.se (ens1.sll.se) listed as NS.
+ 33.316: sll.se INFO SOA MNAME for sll.se (ens1.sll.se) is authoritative.
+ 33.316: sll.se INFO Begin testing email address dnsadmin@sll.se.
+ 33.495: sll.se INFO Mail exchangers for dnsadmin@sll.se found smtp-in.sto-hy.se.stejtech.net,smtp-in.sto-ste.se.stejtech.net.
+ 33.519: sll.se INFO Begin testing host smtp-in.sto-hy.se.stejtech.net.
+ 34.901: sll.se INFO Begin testing address 91.236.209.10.
+ 50.632: sll.se INFO Done testing address 91.236.209.10.
+ 50.632: sll.se INFO Begin testing address 79.136.102.100.
+ 52.272: sll.se INFO Done testing address 79.136.102.100.
+ 52.272: sll.se INFO Begin testing address 91.236.208.10.
+ 53.380: sll.se INFO Done testing address 91.236.208.10.
+ 53.381: sll.se INFO Begin testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 54.420: sll.se INFO Done testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 54.439: sll.se INFO Begin testing address 2001:67c:27e0:2110:0:0:0:1b01.
+ 55.253: sll.se INFO Done testing address 2001:67c:27e0:2110:0:0:0:1b01.
+ 55.255: sll.se INFO Begin testing address 2001:9b0:1:703:0:0:0:1b01.
+ 56.580: sll.se INFO Done testing address 2001:9b0:1:703:0:0:0:1b01.
+ 56.595: sll.se INFO Done testing host smtp-in.sto-hy.se.stejtech.net.
+ 56.595: sll.se INFO Begin testing host smtp-in.sto-ste.se.stejtech.net.
+ 57.621: sll.se INFO Begin testing address 79.136.102.90.
+ 58.405: sll.se INFO Done testing address 79.136.102.90.
+ 58.406: sll.se INFO Begin testing address 83.140.31.145.
+ 59.420: sll.se INFO Done testing address 83.140.31.145.
+ 59.421: sll.se INFO Begin testing address 2001:9b0:1:703:0:0:0:b002.
+ 60.543: sll.se INFO Done testing address 2001:9b0:1:703:0:0:0:b002.
+ 60.549: sll.se INFO Done testing host smtp-in.sto-ste.se.stejtech.net.
+ 60.549: sll.se INFO Done testing email address dnsadmin@sll.se.
+ 60.549: sll.se INFO Successful attempt to deliver email for SOA RNAME of sll.se (dnsadmin.sll.se) using dnsadmin@sll.se.
+ 60.549: sll.se NOTICE SOA TTL for sll.se too small (300) - recommended >= 3600.
+ 60.549: sll.se NOTICE SOA refresh for sll.se too small (10800) - recommended >= 14400.
+ 60.552: sll.se INFO SOA retry for sll.se OK (3600) - recommended >= 3600.
+ 60.555: sll.se INFO SOA expire for sll.se OK (604800) - recommended >= 259200.
+ 60.555: sll.se INFO SOA minimum for sll.se OK (300) - recommended between 300 and 86400.
+ 60.555: sll.se INFO Done testing SOA parameters for sll.se.
+ 60.556: sll.se INFO Begin testing connectivity for sll.se.
+ 61.760: sll.se ERROR Zone announced by fewer than two IPv4 ASN.
+ 61.766: sll.se WARNING Zone announced by fewer than two IPv6 ASN.
+ 61.766: sll.se INFO Done testing connectivity for sll.se.
+ 61.766: sll.se INFO Begin testing DNSSEC for sll.se.
+ 61.828: sll.se INFO Did not find DS record for sll.se at parent.
+ 63.839: sll.se NOTICE DNS lookup error (connection failed).
+ 65.843: sll.se NOTICE DNS lookup error (connection failed).
+ 65.843: sll.se INFO Servers for sll.se have consistent extra processing status.
+ 69.852: sll.se NOTICE DNS lookup error (connection failed).
+ 69.852: sll.se INFO Authenticated denial records not found for sll.se.
+ 69.860: sll.se INFO Did not find DNSKEY record for sll.se at child.
+ 69.860: sll.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 69.860: sll.se INFO Done testing DNSSEC for sll.se.
+ 69.860: sll.se INFO Test completed for zone sll.se.

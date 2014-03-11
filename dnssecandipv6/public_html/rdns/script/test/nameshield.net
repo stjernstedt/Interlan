@@ -1,0 +1,107 @@
+  0.000: nameshield.net INFO Begin testing zone nameshield.net with version 1.5.0.
+  0.004: nameshield.net INFO Begin testing delegation for nameshield.net.
+ 25.689: nameshield.net INFO Name servers listed at parent: ns2.observatoiredesmarques.fr,ns3.nameshield.net,observatoire.observatoiredesmarques.fr
+ 29.128: nameshield.net INFO Name servers listed at child: ns2.observatoiredesmarques.fr,ns3.nameshield.net,observatoire.observatoiredesmarques.fr
+ 29.129: nameshield.net NOTICE No IPv6 name servers found.
+ 29.442: nameshield.net INFO Parent glue for nameshield.net found: ns3.nameshield.net (195.246.156.74)
+ 29.918: nameshield.net INFO Checking glue for ns3.nameshield.net (195.246.156.74).
+ 29.980: nameshield.net INFO Child glue for nameshield.net found: ns3.nameshield.net (195.246.156.74)
+ 29.982: nameshield.net INFO Parent glue for nameshield.net found: ns3.nameshield.net (195.246.156.74)
+ 31.752: nameshield.net INFO It is possible to build a referral packet for nameshield.net that works without EDNS0.
+ 31.752: nameshield.net INFO Done testing delegation for nameshield.net.
+ 31.753: nameshield.net INFO Begin testing name server ns2.observatoiredesmarques.fr.
+ 31.753: nameshield.net INFO Begin testing host ns2.observatoiredesmarques.fr.
+ 32.249: nameshield.net INFO Begin testing address 80.74.69.8.
+ 38.857: nameshield.net INFO Done testing address 80.74.69.8.
+ 38.857: nameshield.net INFO Done testing host ns2.observatoiredesmarques.fr.
+ 39.253: nameshield.net INFO Name server ns2.observatoiredesmarques.fr (80.74.69.8) answers queries over UDP.
+ 39.357: nameshield.net INFO Name server ns2.observatoiredesmarques.fr (80.74.69.8) answers queries over TCP.
+ 39.421: nameshield.net INFO Name server ns2.observatoiredesmarques.fr (80.74.69.8) is not recursive.
+ 39.633: nameshield.net INFO Name server ns2.observatoiredesmarques.fr (80.74.69.8) authoritative for nameshield.net.
+ 39.781: nameshield.net INFO Name server ns2.observatoiredesmarques.fr (80.74.69.8) closed for zone transfer of nameshield.net.
+ 39.839: nameshield.net INFO Legacy name server ID for ns2.observatoiredesmarques.fr (80.74.69.8): hostname.bind = ns2
+ 39.915: nameshield.net INFO Legacy name server ID for ns2.observatoiredesmarques.fr (80.74.69.8): version.bind = Secure
+ 39.973: nameshield.net INFO Legacy name server ID for ns2.observatoiredesmarques.fr (80.74.69.8): id.server = 1
+ 40.070: nameshield.net NOTICE No answer received from 80.74.69.8 when querying for version.server/CH/TXT.
+ 40.071: nameshield.net INFO Done testing name server ns2.observatoiredesmarques.fr.
+ 40.071: nameshield.net INFO Begin testing name server ns3.nameshield.net.
+ 40.071: nameshield.net INFO Begin testing host ns3.nameshield.net.
+ 40.483: nameshield.net INFO Begin testing address 195.246.156.74.
+ 47.429: nameshield.net INFO Done testing address 195.246.156.74.
+ 47.429: nameshield.net INFO Done testing host ns3.nameshield.net.
+ 47.968: nameshield.net INFO Name server ns3.nameshield.net (195.246.156.74) answers queries over UDP.
+ 48.055: nameshield.net INFO Name server ns3.nameshield.net (195.246.156.74) answers queries over TCP.
+ 48.099: nameshield.net INFO Name server ns3.nameshield.net (195.246.156.74) is not recursive.
+ 48.346: nameshield.net INFO Name server ns3.nameshield.net (195.246.156.74) authoritative for nameshield.net.
+ 48.475: nameshield.net INFO Name server ns3.nameshield.net (195.246.156.74) closed for zone transfer of nameshield.net.
+ 48.520: nameshield.net INFO Legacy name server ID for ns3.nameshield.net (195.246.156.74): hostname.bind = ns3
+ 48.564: nameshield.net INFO Legacy name server ID for ns3.nameshield.net (195.246.156.74): version.bind = Secure
+ 48.608: nameshield.net INFO Legacy name server ID for ns3.nameshield.net (195.246.156.74): id.server = 1
+ 48.651: nameshield.net NOTICE No answer received from 195.246.156.74 when querying for version.server/CH/TXT.
+ 48.652: nameshield.net INFO Done testing name server ns3.nameshield.net.
+ 48.652: nameshield.net INFO Begin testing name server observatoire.observatoiredesmarques.fr.
+ 48.652: nameshield.net INFO Begin testing host observatoire.observatoiredesmarques.fr.
+ 49.012: nameshield.net INFO Begin testing address 62.93.195.146.
+ 50.195: nameshield.net INFO Done testing address 62.93.195.146.
+ 50.196: nameshield.net INFO Done testing host observatoire.observatoiredesmarques.fr.
+ 50.630: nameshield.net INFO Name server observatoire.observatoiredesmarques.fr (62.93.195.146) answers queries over UDP.
+ 50.722: nameshield.net INFO Name server observatoire.observatoiredesmarques.fr (62.93.195.146) answers queries over TCP.
+ 50.767: nameshield.net INFO Name server observatoire.observatoiredesmarques.fr (62.93.195.146) is not recursive.
+ 50.937: nameshield.net INFO Name server observatoire.observatoiredesmarques.fr (62.93.195.146) authoritative for nameshield.net.
+ 51.060: nameshield.net INFO Name server observatoire.observatoiredesmarques.fr (62.93.195.146) closed for zone transfer of nameshield.net.
+ 51.107: nameshield.net INFO Legacy name server ID for observatoire.observatoiredesmarques.fr (62.93.195.146): hostname.bind = observatoire
+ 51.160: nameshield.net INFO Legacy name server ID for observatoire.observatoiredesmarques.fr (62.93.195.146): version.bind = Secure
+ 51.202: nameshield.net INFO Legacy name server ID for observatoire.observatoiredesmarques.fr (62.93.195.146): id.server = 1
+ 51.245: nameshield.net NOTICE No answer received from 62.93.195.146 when querying for version.server/CH/TXT.
+ 51.246: nameshield.net INFO Done testing name server observatoire.observatoiredesmarques.fr.
+ 51.246: nameshield.net INFO Begin testing zone consistency for nameshield.net.
+ 53.954: nameshield.net INFO SOA at address 62.93.195.146 has serial 2013061921.
+ 53.998: nameshield.net INFO SOA at address 195.246.156.74 has serial 2013061921.
+ 54.057: nameshield.net INFO SOA at address 80.74.69.8 has serial 2013061921.
+ 54.058: nameshield.net INFO All SOA records have consistent serial numbers.
+ 54.058: nameshield.net INFO All other fields in the SOA record are consistent among all name servers.
+ 55.353: nameshield.net NOTICE The listed nameservers for nameshield.net all report the same set of nameservers.
+ 55.353: nameshield.net INFO Done testing zone consistency for nameshield.net.
+ 55.354: nameshield.net INFO Begin testing SOA parameters for nameshield.net.
+ 55.399: nameshield.net INFO Found SOA record for nameshield.net.
+ 55.400: nameshield.net INFO Begin testing host observatoire.observatoiredesmarques.fr.
+ 55.726: nameshield.net INFO Begin testing address 62.93.195.146.
+ 56.093: nameshield.net INFO Done testing address 62.93.195.146.
+ 56.094: nameshield.net INFO Done testing host observatoire.observatoiredesmarques.fr.
+ 56.094: nameshield.net INFO SOA MNAME for nameshield.net valid (observatoire.observatoiredesmarques.fr).
+ 56.094: nameshield.net INFO SOA MNAME for nameshield.net (observatoire.observatoiredesmarques.fr) listed as NS.
+ 56.497: nameshield.net INFO SOA MNAME for nameshield.net (observatoire.observatoiredesmarques.fr) is authoritative.
+ 56.502: nameshield.net INFO Begin testing email address technical@nameshield.net.
+ 57.185: nameshield.net INFO Mail exchangers for technical@nameshield.net found mx.perf1.com,mx2.perf1.fr,mx3.perf1.fr.
+ 57.185: nameshield.net INFO Begin testing host mx.perf1.com.
+ 59.076: nameshield.net INFO Begin testing address 81.92.85.46.
+ 60.265: nameshield.net INFO Done testing address 81.92.85.46.
+ 60.265: nameshield.net INFO Done testing host mx.perf1.com.
+ 60.561: nameshield.net INFO Begin testing host mx2.perf1.fr.
+ 61.165: nameshield.net INFO Begin testing address 81.92.81.46.
+ 61.909: nameshield.net INFO Done testing address 81.92.81.46.
+ 61.909: nameshield.net INFO Done testing host mx2.perf1.fr.
+ 62.484: nameshield.net INFO Begin testing host mx3.perf1.fr.
+ 63.636: nameshield.net INFO Begin testing address 81.92.85.46.
+ 64.209: nameshield.net INFO Done testing address 81.92.85.46.
+ 64.209: nameshield.net INFO Done testing host mx3.perf1.fr.
+ 64.676: nameshield.net INFO Done testing email address technical@nameshield.net.
+ 64.676: nameshield.net INFO Successful attempt to deliver email for SOA RNAME of nameshield.net (technical.nameshield.net) using technical@nameshield.net.
+ 64.676: nameshield.net INFO SOA TTL for nameshield.net OK (86400) - recommended >= 3600.
+ 64.676: nameshield.net NOTICE SOA refresh for nameshield.net too small (10800) - recommended >= 14400.
+ 64.676: nameshield.net INFO SOA retry for nameshield.net OK (3600) - recommended >= 3600.
+ 64.676: nameshield.net INFO SOA expire for nameshield.net OK (604800) - recommended >= 604800.
+ 64.676: nameshield.net INFO SOA minimum for nameshield.net OK (7200) - recommended between 300 and 86400.
+ 64.677: nameshield.net INFO Done testing SOA parameters for nameshield.net.
+ 64.677: nameshield.net INFO Begin testing connectivity for nameshield.net.
+ 68.079: nameshield.net INFO Zone announced by more than one ASN.
+ 68.079: nameshield.net NOTICE Zone announced by fewer than two IPv6 ASN.
+ 68.079: nameshield.net INFO Done testing connectivity for nameshield.net.
+ 68.080: nameshield.net INFO Begin testing DNSSEC for nameshield.net.
+ 68.328: nameshield.net INFO Did not find DS record for nameshield.net at parent.
+ 68.693: nameshield.net INFO Servers for nameshield.net have consistent extra processing status.
+ 68.805: nameshield.net INFO Authenticated denial records not found for nameshield.net.
+ 68.872: nameshield.net INFO Did not find DNSKEY record for nameshield.net at child.
+ 68.872: nameshield.net INFO No DNSKEY(s) found at child, other tests skipped.
+ 68.873: nameshield.net INFO Done testing DNSSEC for nameshield.net.
+ 68.874: nameshield.net INFO Test completed for zone nameshield.net.

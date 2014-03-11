@@ -1,0 +1,73 @@
+  0.000: levanger.kommune.no INFO Begin testing zone levanger.kommune.no with version 1.6.1.
+  0.446: levanger.kommune.no INFO Begin testing delegation for levanger.kommune.no.
+  7.337: levanger.kommune.no INFO Name servers listed at parent: ns1.levanger.kommune.no,ns2.levanger.kommune.no
+  8.567: levanger.kommune.no INFO Name servers listed at child: ns1.levanger.kommune.no,ns2.levanger.kommune.no
+  8.567: levanger.kommune.no NOTICE No IPv6 name servers found.
+  8.653: levanger.kommune.no INFO Parent glue for levanger.kommune.no found: ns1.levanger.kommune.no (84.16.194.130)
+  8.773: levanger.kommune.no INFO Parent glue for levanger.kommune.no found: ns2.levanger.kommune.no (84.16.194.131)
+  8.834: levanger.kommune.no INFO Checking glue for ns1.levanger.kommune.no (84.16.194.130).
+  8.887: levanger.kommune.no INFO Child glue for levanger.kommune.no found: ns1.levanger.kommune.no (84.16.194.130)
+  8.902: levanger.kommune.no INFO Checking glue for ns2.levanger.kommune.no (84.16.194.131).
+  8.933: levanger.kommune.no INFO Child glue for levanger.kommune.no found: ns2.levanger.kommune.no (84.16.194.131)
+  8.936: levanger.kommune.no INFO Parent glue for levanger.kommune.no found: ns1.levanger.kommune.no (84.16.194.130)
+  8.936: levanger.kommune.no INFO Parent glue for levanger.kommune.no found: ns2.levanger.kommune.no (84.16.194.131)
+  9.605: levanger.kommune.no INFO It is possible to build a referral packet for levanger.kommune.no that works without EDNS0.
+ 10.144: levanger.kommune.no INFO Previously used name servers for levanger.kommune.no: 
+ 10.144: levanger.kommune.no INFO Done testing delegation for levanger.kommune.no.
+ 10.144: levanger.kommune.no INFO Begin testing name server ns1.levanger.kommune.no.
+ 10.145: levanger.kommune.no INFO Begin testing host ns1.levanger.kommune.no.
+ 10.442: levanger.kommune.no INFO Begin testing address 84.16.194.130.
+ 17.886: levanger.kommune.no INFO Done testing address 84.16.194.130.
+ 17.886: levanger.kommune.no INFO Done testing host ns1.levanger.kommune.no.
+ 18.112: levanger.kommune.no INFO Name server ns1.levanger.kommune.no (84.16.194.130) answers queries over UDP.
+ 18.156: levanger.kommune.no INFO Name server ns1.levanger.kommune.no (84.16.194.130) answers queries over TCP.
+ 18.234: levanger.kommune.no WARNING Name server ns1.levanger.kommune.no (84.16.194.130) is recursive.
+ 18.362: levanger.kommune.no INFO Name server ns1.levanger.kommune.no (84.16.194.130) authoritative for levanger.kommune.no.
+ 18.627: levanger.kommune.no INFO Name server ns1.levanger.kommune.no (84.16.194.130) closed for zone transfer of levanger.kommune.no.
+ 18.652: levanger.kommune.no NOTICE No answer received from 84.16.194.130 when querying for hostname.bind/CH/TXT.
+ 28.771: levanger.kommune.no INFO Done testing name server ns1.levanger.kommune.no.
+ 28.772: levanger.kommune.no INFO Begin testing name server ns2.levanger.kommune.no.
+ 28.772: levanger.kommune.no INFO Begin testing host ns2.levanger.kommune.no.
+ 28.966: levanger.kommune.no INFO Begin testing address 84.16.194.131.
+ 29.747: levanger.kommune.no INFO Done testing address 84.16.194.131.
+ 29.749: levanger.kommune.no INFO Done testing host ns2.levanger.kommune.no.
+ 29.950: levanger.kommune.no INFO Name server ns2.levanger.kommune.no (84.16.194.131) answers queries over UDP.
+ 30.013: levanger.kommune.no INFO Name server ns2.levanger.kommune.no (84.16.194.131) answers queries over TCP.
+ 30.076: levanger.kommune.no WARNING Name server ns2.levanger.kommune.no (84.16.194.131) is recursive.
+ 30.178: levanger.kommune.no INFO Name server ns2.levanger.kommune.no (84.16.194.131) authoritative for levanger.kommune.no.
+ 30.453: levanger.kommune.no INFO Name server ns2.levanger.kommune.no (84.16.194.131) closed for zone transfer of levanger.kommune.no.
+ 30.475: levanger.kommune.no NOTICE No answer received from 84.16.194.131 when querying for hostname.bind/CH/TXT.
+ 42.608: levanger.kommune.no INFO Done testing name server ns2.levanger.kommune.no.
+ 42.613: levanger.kommune.no INFO Begin testing zone consistency for levanger.kommune.no.
+ 43.190: levanger.kommune.no INFO SOA at address 84.16.194.130 has serial 42.
+ 43.212: levanger.kommune.no INFO SOA at address 84.16.194.131 has serial 42.
+ 43.212: levanger.kommune.no INFO All SOA records have consistent serial numbers.
+ 43.212: levanger.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 43.539: levanger.kommune.no NOTICE The listed nameservers for levanger.kommune.no all report the same set of nameservers.
+ 43.539: levanger.kommune.no INFO Done testing zone consistency for levanger.kommune.no.
+ 43.539: levanger.kommune.no INFO Begin testing SOA parameters for levanger.kommune.no.
+ 43.562: levanger.kommune.no INFO Found SOA record for levanger.kommune.no.
+ 43.562: levanger.kommune.no INFO Begin testing host ns1.
+ 49.629: levanger.kommune.no ERROR No address found for ns1.
+ 49.629: levanger.kommune.no INFO Done testing host ns1.
+ 49.629: levanger.kommune.no WARNING Error while checking SOA MNAME for levanger.kommune.no (ns1).
+ 49.630: levanger.kommune.no NOTICE SOA MNAME for levanger.kommune.no (ns1) not listed as NS.
+ 49.630: levanger.kommune.no ERROR Invalid SOA RNAME syntax for levanger.kommune.no: hostmaster
+ 49.630: levanger.kommune.no INFO SOA TTL for levanger.kommune.no OK (3600) - recommended >= 3600.
+ 49.630: levanger.kommune.no NOTICE SOA refresh for levanger.kommune.no too small (900) - recommended >= 14400.
+ 49.630: levanger.kommune.no NOTICE SOA retry for levanger.kommune.no too small (600) - recommended >= 3600.
+ 49.631: levanger.kommune.no NOTICE SOA expire for levanger.kommune.no too small (86400) - recommended >= 604800.
+ 49.631: levanger.kommune.no INFO SOA minimum for levanger.kommune.no OK (3600) - recommended between 300 and 86400.
+ 49.631: levanger.kommune.no INFO Done testing SOA parameters for levanger.kommune.no.
+ 49.631: levanger.kommune.no INFO Begin testing connectivity for levanger.kommune.no.
+ 50.416: levanger.kommune.no NOTICE Zone announced by fewer than two IPv4 ASN.
+ 50.416: levanger.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 50.416: levanger.kommune.no INFO Done testing connectivity for levanger.kommune.no.
+ 50.416: levanger.kommune.no INFO Begin testing DNSSEC for levanger.kommune.no.
+ 50.492: levanger.kommune.no INFO Did not find DS record for levanger.kommune.no at parent.
+ 50.578: levanger.kommune.no INFO Servers for levanger.kommune.no have consistent extra processing status.
+ 50.620: levanger.kommune.no INFO Authenticated denial records not found for levanger.kommune.no.
+ 50.643: levanger.kommune.no INFO Did not find DNSKEY record for levanger.kommune.no at child.
+ 50.643: levanger.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 50.643: levanger.kommune.no INFO Done testing DNSSEC for levanger.kommune.no.
+ 50.644: levanger.kommune.no INFO Test completed for zone levanger.kommune.no.

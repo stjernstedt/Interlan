@@ -1,0 +1,10 @@
+#!/bin/sh
+file=/tmp/$$
+
+cd /home/dnssecandipv6/public_html/cipv6/scripts
+
+./ipv6 > $file
+cat $file > ../index.html
+rm $file
+
+./rrd

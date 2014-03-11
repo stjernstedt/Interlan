@@ -1,0 +1,140 @@
+  0.000: lapua.fi INFO Begin testing zone lapua.fi with version 1.5.0.
+  0.821: lapua.fi INFO Begin testing delegation for lapua.fi.
+ 23.030: lapua.fi INFO Name servers listed at parent: ns.lapua.fi,ns1.netikka.fi,ns2.netikka.fi,ns3.netikka.fi,www.lapua.fi
+ 33.157: lapua.fi INFO Name servers listed at child: ns.lapua.fi,ns1.netikka.fi,ns2.netikka.fi,ns3.netikka.fi,www.lapua.fi
+ 33.158: lapua.fi NOTICE No IPv6 name servers found.
+ 33.317: lapua.fi INFO Parent glue for lapua.fi found: ns.lapua.fi (62.148.204.2)
+ 33.634: lapua.fi INFO Parent glue for lapua.fi found: ns1.netikka.fi (62.148.192.130)
+ 33.912: lapua.fi INFO Parent glue for lapua.fi found: ns2.netikka.fi (62.148.192.131)
+ 34.153: lapua.fi INFO Parent glue for lapua.fi found: ns3.netikka.fi (62.148.192.154)
+ 34.510: lapua.fi INFO Parent glue for lapua.fi found: www.lapua.fi (62.148.204.9)
+ 34.747: lapua.fi INFO Checking glue for ns.lapua.fi (62.148.204.2).
+ 34.857: lapua.fi INFO Child glue for lapua.fi found: ns.lapua.fi (62.148.204.2)
+ 34.858: lapua.fi INFO Checking glue for ns1.netikka.fi (62.148.192.130).
+ 34.858: lapua.fi INFO Checking glue for ns2.netikka.fi (62.148.192.131).
+ 34.875: lapua.fi INFO Checking glue for ns3.netikka.fi (62.148.192.154).
+ 34.875: lapua.fi INFO Checking glue for www.lapua.fi (62.148.204.9).
+ 35.033: lapua.fi INFO Child glue for lapua.fi found: www.lapua.fi (62.148.204.9)
+ 35.034: lapua.fi INFO Parent glue for lapua.fi found: ns.lapua.fi (62.148.204.2)
+ 35.034: lapua.fi INFO Parent glue for lapua.fi found: ns1.netikka.fi (62.148.192.130)
+ 35.034: lapua.fi INFO Parent glue for lapua.fi found: ns2.netikka.fi (62.148.192.131)
+ 35.035: lapua.fi INFO Parent glue for lapua.fi found: ns3.netikka.fi (62.148.192.154)
+ 35.167: lapua.fi INFO Parent glue for lapua.fi found: www.lapua.fi (62.148.204.9)
+ 40.434: lapua.fi INFO It is possible to build a referral packet for lapua.fi that works without EDNS0.
+ 43.638: lapua.fi INFO Previously used name servers for lapua.fi: 
+ 43.638: lapua.fi INFO Done testing delegation for lapua.fi.
+ 43.638: lapua.fi INFO Begin testing name server ns.lapua.fi.
+ 43.639: lapua.fi INFO Begin testing host ns.lapua.fi.
+ 44.068: lapua.fi INFO Begin testing address 62.148.204.2.
+ 57.079: lapua.fi INFO Done testing address 62.148.204.2.
+ 57.080: lapua.fi INFO Done testing host ns.lapua.fi.
+ 57.964: lapua.fi INFO Name server ns.lapua.fi (62.148.204.2) answers queries over UDP.
+ 58.052: lapua.fi INFO Name server ns.lapua.fi (62.148.204.2) answers queries over TCP.
+ 58.111: lapua.fi WARNING Name server ns.lapua.fi (62.148.204.2) is recursive.
+ 58.312: lapua.fi INFO Name server ns.lapua.fi (62.148.204.2) authoritative for lapua.fi.
+ 58.544: lapua.fi INFO Name server ns.lapua.fi (62.148.204.2) closed for zone transfer of lapua.fi.
+ 58.587: lapua.fi NOTICE No answer received from 62.148.204.2 when querying for hostname.bind/CH/TXT.
+ 76.778: lapua.fi INFO Done testing name server ns.lapua.fi.
+ 76.778: lapua.fi INFO Begin testing name server ns1.netikka.fi.
+ 76.778: lapua.fi INFO Begin testing host ns1.netikka.fi.
+ 78.412: lapua.fi INFO Begin testing address 62.148.192.130.
+ 80.844: lapua.fi INFO Done testing address 62.148.192.130.
+ 80.844: lapua.fi INFO Done testing host ns1.netikka.fi.
+ 82.389: lapua.fi INFO Name server ns1.netikka.fi (62.148.192.130) answers queries over UDP.
+ 82.670: lapua.fi INFO Name server ns1.netikka.fi (62.148.192.130) answers queries over TCP.
+ 83.191: lapua.fi INFO Name server ns1.netikka.fi (62.148.192.130) is not recursive.
+ 83.821: lapua.fi INFO Name server ns1.netikka.fi (62.148.192.130) authoritative for lapua.fi.
+ 84.035: lapua.fi INFO Name server ns1.netikka.fi (62.148.192.130) closed for zone transfer of lapua.fi.
+ 84.234: lapua.fi INFO Legacy name server ID for ns1.netikka.fi (62.148.192.130): hostname.bind = ns1
+ 84.448: lapua.fi INFO Legacy name server ID for ns1.netikka.fi (62.148.192.130): version.bind = 9.8.4-rpz2+rl005.12-P1
+ 84.780: lapua.fi NOTICE No answer received from 62.148.192.130 when querying for version.server/CH/TXT.
+ 84.780: lapua.fi INFO Done testing name server ns1.netikka.fi.
+ 84.781: lapua.fi INFO Begin testing name server ns2.netikka.fi.
+ 84.781: lapua.fi INFO Begin testing host ns2.netikka.fi.
+ 85.960: lapua.fi INFO Begin testing address 62.148.192.131.
+ 88.374: lapua.fi INFO Done testing address 62.148.192.131.
+ 88.374: lapua.fi INFO Done testing host ns2.netikka.fi.
+ 89.462: lapua.fi INFO Name server ns2.netikka.fi (62.148.192.131) answers queries over UDP.
+ 91.535: lapua.fi INFO Name server ns2.netikka.fi (62.148.192.131) answers queries over TCP.
+ 91.731: lapua.fi INFO Name server ns2.netikka.fi (62.148.192.131) is not recursive.
+ 93.188: lapua.fi INFO Name server ns2.netikka.fi (62.148.192.131) authoritative for lapua.fi.
+ 93.459: lapua.fi INFO Name server ns2.netikka.fi (62.148.192.131) closed for zone transfer of lapua.fi.
+ 93.749: lapua.fi INFO Legacy name server ID for ns2.netikka.fi (62.148.192.131): hostname.bind = ns2
+ 94.093: lapua.fi INFO Legacy name server ID for ns2.netikka.fi (62.148.192.131): version.bind = 9.8.4-rpz2+rl005.12-P1
+ 94.507: lapua.fi NOTICE No answer received from 62.148.192.131 when querying for version.server/CH/TXT.
+ 94.508: lapua.fi INFO Done testing name server ns2.netikka.fi.
+ 94.508: lapua.fi INFO Begin testing name server ns3.netikka.fi.
+ 94.508: lapua.fi INFO Begin testing host ns3.netikka.fi.
+ 95.200: lapua.fi INFO Begin testing address 62.148.192.154.
+ 97.528: lapua.fi INFO Done testing address 62.148.192.154.
+ 97.528: lapua.fi INFO Done testing host ns3.netikka.fi.
+ 99.127: lapua.fi INFO Name server ns3.netikka.fi (62.148.192.154) answers queries over UDP.
+ 99.330: lapua.fi INFO Name server ns3.netikka.fi (62.148.192.154) answers queries over TCP.
+ 99.694: lapua.fi INFO Name server ns3.netikka.fi (62.148.192.154) is not recursive.
+100.694: lapua.fi INFO Name server ns3.netikka.fi (62.148.192.154) authoritative for lapua.fi.
+100.995: lapua.fi INFO Name server ns3.netikka.fi (62.148.192.154) closed for zone transfer of lapua.fi.
+101.152: lapua.fi INFO Legacy name server ID for ns3.netikka.fi (62.148.192.154): hostname.bind = ns3
+101.344: lapua.fi INFO Legacy name server ID for ns3.netikka.fi (62.148.192.154): version.bind = 9.8.4-rpz2+rl005.12-P1
+101.799: lapua.fi NOTICE No answer received from 62.148.192.154 when querying for version.server/CH/TXT.
+101.800: lapua.fi INFO Done testing name server ns3.netikka.fi.
+101.800: lapua.fi INFO Begin testing name server www.lapua.fi.
+101.800: lapua.fi INFO Begin testing host www.lapua.fi.
+103.411: lapua.fi INFO Begin testing address 62.148.204.9.
+111.131: lapua.fi INFO Done testing address 62.148.204.9.
+111.132: lapua.fi INFO Done testing host www.lapua.fi.
+112.496: lapua.fi INFO Name server www.lapua.fi (62.148.204.9) answers queries over UDP.
+112.622: lapua.fi INFO Name server www.lapua.fi (62.148.204.9) answers queries over TCP.
+113.063: lapua.fi INFO Name server www.lapua.fi (62.148.204.9) is not recursive.
+113.532: lapua.fi INFO Name server www.lapua.fi (62.148.204.9) authoritative for lapua.fi.
+113.921: lapua.fi INFO Name server www.lapua.fi (62.148.204.9) closed for zone transfer of lapua.fi.
+113.999: lapua.fi NOTICE No answer received from 62.148.204.9 when querying for hostname.bind/CH/TXT.
+131.177: lapua.fi INFO Done testing name server www.lapua.fi.
+131.177: lapua.fi INFO Begin testing zone consistency for lapua.fi.
+139.797: lapua.fi INFO SOA at address 62.148.192.130 has serial 529.
+139.884: lapua.fi INFO SOA at address 62.148.204.9 has serial 529.
+140.099: lapua.fi INFO SOA at address 62.148.192.154 has serial 529.
+140.223: lapua.fi INFO SOA at address 62.148.192.131 has serial 529.
+140.288: lapua.fi INFO SOA at address 62.148.204.2 has serial 529.
+140.288: lapua.fi INFO All SOA records have consistent serial numbers.
+140.288: lapua.fi INFO All other fields in the SOA record are consistent among all name servers.
+145.010: lapua.fi NOTICE The listed nameservers for lapua.fi all report the same set of nameservers.
+145.010: lapua.fi INFO Done testing zone consistency for lapua.fi.
+145.010: lapua.fi INFO Begin testing SOA parameters for lapua.fi.
+145.303: lapua.fi INFO Found SOA record for lapua.fi.
+145.303: lapua.fi INFO Begin testing host ns.lapua.fi.
+146.098: lapua.fi INFO Begin testing address 62.148.204.2.
+146.928: lapua.fi INFO Done testing address 62.148.204.2.
+146.928: lapua.fi INFO Done testing host ns.lapua.fi.
+146.928: lapua.fi INFO SOA MNAME for lapua.fi valid (ns.lapua.fi).
+146.928: lapua.fi INFO SOA MNAME for lapua.fi (ns.lapua.fi) listed as NS.
+147.916: lapua.fi INFO SOA MNAME for lapua.fi (ns.lapua.fi) is authoritative.
+147.917: lapua.fi INFO Begin testing email address hostmaster@lapua.fi.
+149.266: lapua.fi INFO Mail exchangers for hostmaster@lapua.fi found mbox1.netikka.net,mbox2.netikka.net.
+149.266: lapua.fi INFO Begin testing host mbox1.netikka.net.
+151.654: lapua.fi INFO Begin testing address 213.250.81.202.
+155.120: lapua.fi INFO Done testing address 213.250.81.202.
+155.120: lapua.fi INFO Done testing host mbox1.netikka.net.
+157.464: lapua.fi INFO Begin testing host mbox2.netikka.net.
+161.274: lapua.fi INFO Begin testing address 213.250.81.203.
+164.599: lapua.fi INFO Done testing address 213.250.81.203.
+164.600: lapua.fi INFO Done testing host mbox2.netikka.net.
+165.983: lapua.fi INFO Done testing email address hostmaster@lapua.fi.
+165.983: lapua.fi INFO Successful attempt to deliver email for SOA RNAME of lapua.fi (hostmaster.lapua.fi) using hostmaster@lapua.fi.
+165.984: lapua.fi INFO SOA TTL for lapua.fi OK (3600) - recommended >= 3600.
+165.984: lapua.fi NOTICE SOA refresh for lapua.fi too small (900) - recommended >= 14400.
+166.166: lapua.fi NOTICE SOA retry for lapua.fi too small (600) - recommended >= 3600.
+166.166: lapua.fi NOTICE SOA expire for lapua.fi too small (86400) - recommended >= 604800.
+166.166: lapua.fi INFO SOA minimum for lapua.fi OK (3600) - recommended between 300 and 86400.
+166.166: lapua.fi INFO Done testing SOA parameters for lapua.fi.
+166.167: lapua.fi INFO Begin testing connectivity for lapua.fi.
+177.065: lapua.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+177.065: lapua.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+177.065: lapua.fi INFO Done testing connectivity for lapua.fi.
+177.066: lapua.fi INFO Begin testing DNSSEC for lapua.fi.
+177.402: lapua.fi INFO Did not find DS record for lapua.fi at parent.
+178.645: lapua.fi INFO Servers for lapua.fi have consistent extra processing status.
+178.831: lapua.fi INFO Authenticated denial records not found for lapua.fi.
+178.944: lapua.fi INFO Did not find DNSKEY record for lapua.fi at child.
+178.944: lapua.fi INFO No DNSKEY(s) found at child, other tests skipped.
+178.944: lapua.fi INFO Done testing DNSSEC for lapua.fi.
+178.945: lapua.fi INFO Test completed for zone lapua.fi.

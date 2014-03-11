@@ -1,0 +1,100 @@
+  0.000: admax.se INFO Begin testing zone admax.se with version 1.5.0.
+  0.001: admax.se INFO Begin testing delegation for admax.se.
+  8.995: admax.se INFO Name servers listed at parent: ns1.admax.se,ns2.admax.se,ns3.admax.se
+ 11.049: admax.se INFO Name servers listed at child: ns1.admax.se,ns2.admax.se
+ 11.049: admax.se ERROR Superfluous name server listed at parent: ns3.admax.se
+ 11.050: admax.se NOTICE No IPv6 name servers found.
+ 11.125: admax.se INFO Parent glue for admax.se found: ns1.admax.se (178.21.72.132)
+ 11.340: admax.se INFO Parent glue for admax.se found: ns2.admax.se (178.73.214.157)
+ 11.472: admax.se INFO Parent glue for admax.se found: ns3.admax.se (212.47.221.149)
+ 11.589: admax.se INFO Checking glue for ns1.admax.se (178.21.72.132).
+ 11.616: admax.se INFO Child glue for admax.se found: ns1.admax.se (178.21.72.132)
+ 11.616: admax.se INFO Checking glue for ns2.admax.se (178.73.214.157).
+ 11.657: admax.se INFO Child glue for admax.se found: ns2.admax.se (178.73.214.157)
+ 11.657: admax.se INFO Checking glue for ns3.admax.se (212.47.221.149).
+ 11.783: admax.se INFO Child glue for admax.se found: ns3.admax.se (212.47.221.149)
+ 11.784: admax.se INFO Parent glue for admax.se found: ns1.admax.se (178.21.72.132)
+ 11.784: admax.se INFO Parent glue for admax.se found: ns2.admax.se (178.73.214.157)
+ 11.784: admax.se INFO Parent glue for admax.se found: ns3.admax.se (212.47.221.149)
+ 12.961: admax.se INFO It is possible to build a referral packet for admax.se that works without EDNS0.
+ 12.961: admax.se INFO Done testing delegation for admax.se.
+ 12.961: admax.se INFO Begin testing name server ns1.admax.se.
+ 12.962: admax.se INFO Begin testing host ns1.admax.se.
+ 13.513: admax.se INFO Begin testing address 178.21.72.132.
+ 22.544: admax.se INFO Done testing address 178.21.72.132.
+ 22.544: admax.se INFO Done testing host ns1.admax.se.
+ 22.848: admax.se INFO Name server ns1.admax.se (178.21.72.132) answers queries over UDP.
+ 22.873: admax.se INFO Name server ns1.admax.se (178.21.72.132) answers queries over TCP.
+ 28.903: admax.se INFO Name server ns1.admax.se (178.21.72.132) is not recursive.
+ 29.008: admax.se INFO Name server ns1.admax.se (178.21.72.132) authoritative for admax.se.
+ 29.238: admax.se INFO Name server ns1.admax.se (178.21.72.132) closed for zone transfer of admax.se.
+ 53.338: admax.se INFO Done testing name server ns1.admax.se.
+ 53.338: admax.se INFO Begin testing name server ns2.admax.se.
+ 53.338: admax.se INFO Begin testing host ns2.admax.se.
+ 53.720: admax.se INFO Begin testing address 178.73.214.157.
+ 56.205: admax.se INFO Done testing address 178.73.214.157.
+ 56.205: admax.se INFO Done testing host ns2.admax.se.
+ 58.471: admax.se INFO Name server ns2.admax.se (178.73.214.157) answers queries over UDP.
+ 58.485: admax.se INFO Name server ns2.admax.se (178.73.214.157) answers queries over TCP.
+ 64.495: admax.se INFO Name server ns2.admax.se (178.73.214.157) is not recursive.
+ 64.528: admax.se INFO Name server ns2.admax.se (178.73.214.157) authoritative for admax.se.
+ 64.751: admax.se INFO Name server ns2.admax.se (178.73.214.157) closed for zone transfer of admax.se.
+ 88.787: admax.se INFO Done testing name server ns2.admax.se.
+ 88.787: admax.se INFO Begin testing name server ns3.admax.se.
+ 88.788: admax.se INFO Begin testing host ns3.admax.se.
+ 89.641: admax.se INFO Begin testing address 212.47.221.149.
+ 92.016: admax.se INFO Done testing address 212.47.221.149.
+ 92.016: admax.se INFO Done testing host ns3.admax.se.
+ 92.575: admax.se INFO Name server ns3.admax.se (212.47.221.149) answers queries over UDP.
+ 92.706: admax.se INFO Name server ns3.admax.se (212.47.221.149) answers queries over TCP.
+ 92.776: admax.se INFO Name server ns3.admax.se (212.47.221.149) is not recursive.
+ 93.005: admax.se INFO Name server ns3.admax.se (212.47.221.149) authoritative for admax.se.
+ 93.455: admax.se INFO Name server ns3.admax.se (212.47.221.149) closed for zone transfer of admax.se.
+ 93.514: admax.se NOTICE No answer received from 212.47.221.149 when querying for hostname.bind/CH/TXT.
+ 93.576: admax.se NOTICE No answer received from 212.47.221.149 when querying for version.bind/CH/TXT.
+ 93.634: admax.se NOTICE No answer received from 212.47.221.149 when querying for id.server/CH/TXT.
+ 93.694: admax.se NOTICE No answer received from 212.47.221.149 when querying for version.server/CH/TXT.
+ 93.694: admax.se INFO Done testing name server ns3.admax.se.
+ 93.694: admax.se INFO Begin testing zone consistency for admax.se.
+ 95.620: admax.se INFO SOA at address 212.47.221.149 has serial 2013072101.
+ 95.631: admax.se INFO SOA at address 178.73.214.157 has serial 2013072101.
+ 95.639: admax.se INFO SOA at address 178.21.72.132 has serial 2013072101.
+ 95.639: admax.se INFO All SOA records have consistent serial numbers.
+ 95.639: admax.se INFO All other fields in the SOA record are consistent among all name servers.
+ 96.806: admax.se NOTICE The listed nameservers for admax.se all report the same set of nameservers.
+ 96.806: admax.se INFO Done testing zone consistency for admax.se.
+ 96.806: admax.se INFO Begin testing SOA parameters for admax.se.
+ 96.825: admax.se INFO Found SOA record for admax.se.
+ 96.825: admax.se INFO Begin testing host ns1.admax.se.
+ 97.072: admax.se INFO Begin testing address 178.21.72.132.
+ 97.496: admax.se INFO Done testing address 178.21.72.132.
+ 97.496: admax.se INFO Done testing host ns1.admax.se.
+ 97.496: admax.se INFO SOA MNAME for admax.se valid (ns1.admax.se).
+ 97.497: admax.se INFO SOA MNAME for admax.se (ns1.admax.se) listed as NS.
+ 97.807: admax.se INFO SOA MNAME for admax.se (ns1.admax.se) is authoritative.
+ 97.807: admax.se INFO Begin testing email address registry@admax.nu.
+ 98.115: admax.se INFO Mail exchangers for registry@admax.nu found mail.egomail.se.
+ 98.115: admax.se INFO Begin testing host mail.egomail.se.
+100.872: admax.se INFO Begin testing address 178.21.73.20.
+102.038: admax.se INFO Done testing address 178.21.73.20.
+102.038: admax.se INFO Done testing host mail.egomail.se.
+102.372: admax.se INFO Done testing email address registry@admax.nu.
+102.372: admax.se INFO Successful attempt to deliver email for SOA RNAME of admax.se (registry.admax.nu) using registry@admax.nu.
+102.372: admax.se INFO SOA TTL for admax.se OK (3600) - recommended >= 3600.
+102.372: admax.se NOTICE SOA refresh for admax.se too small (3600) - recommended >= 14400.
+102.372: admax.se NOTICE SOA retry for admax.se too small (900) - recommended >= 3600.
+102.372: admax.se INFO SOA expire for admax.se OK (604800) - recommended >= 604800.
+102.373: admax.se INFO SOA minimum for admax.se OK (3600) - recommended between 300 and 86400.
+102.373: admax.se INFO Done testing SOA parameters for admax.se.
+102.373: admax.se INFO Begin testing connectivity for admax.se.
+104.260: admax.se INFO Zone announced by more than one ASN.
+104.260: admax.se NOTICE Zone announced by fewer than two IPv6 ASN.
+104.260: admax.se INFO Done testing connectivity for admax.se.
+104.261: admax.se INFO Begin testing DNSSEC for admax.se.
+104.424: admax.se INFO Did not find DS record for admax.se at parent.
+104.471: admax.se INFO Servers for admax.se have consistent extra processing status.
+104.504: admax.se INFO Authenticated denial records not found for admax.se.
+104.520: admax.se INFO Did not find DNSKEY record for admax.se at child.
+104.520: admax.se INFO No DNSKEY(s) found at child, other tests skipped.
+104.520: admax.se INFO Done testing DNSSEC for admax.se.
+104.521: admax.se INFO Test completed for zone admax.se.

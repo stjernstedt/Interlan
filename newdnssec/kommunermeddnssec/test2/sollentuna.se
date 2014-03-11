@@ -1,0 +1,146 @@
+  0.000: sollentuna.se INFO Begin testing zone sollentuna.se with version 1.2.
+  0.000: sollentuna.se INFO Begin testing delegation for sollentuna.se.
+  5.515: sollentuna.se INFO Name servers listed at parent: a.dns.tdc.se,b.dns.tdc.se,c.dns.tdc.se,ns-1.sollentuna.net,ns-2.sollentuna.net
+ 12.165: sollentuna.se INFO Name servers listed at child: a.dns.tdc.se,b.dns.tdc.se,c.dns.tdc.se,ns-1.sollentuna.net,ns-2.sollentuna.net
+ 12.166: sollentuna.se NOTICE No IPv6 name servers found.
+ 12.185: sollentuna.se INFO Parent glue for sollentuna.se found: a.dns.tdc.se (213.50.29.190)
+ 12.215: sollentuna.se INFO Parent glue for sollentuna.se found: b.dns.tdc.se (213.50.29.195)
+ 12.267: sollentuna.se INFO Parent glue for sollentuna.se found: c.dns.tdc.se (195.10.143.3)
+ 12.438: sollentuna.se INFO Checking glue for a.dns.tdc.se (213.50.29.190).
+ 12.438: sollentuna.se INFO Checking glue for b.dns.tdc.se (213.50.29.195).
+ 12.438: sollentuna.se INFO Checking glue for c.dns.tdc.se (195.10.143.3).
+ 12.439: sollentuna.se INFO Parent glue for sollentuna.se found: a.dns.tdc.se (213.50.29.190)
+ 12.439: sollentuna.se INFO Parent glue for sollentuna.se found: b.dns.tdc.se (213.50.29.195)
+ 12.439: sollentuna.se INFO Parent glue for sollentuna.se found: c.dns.tdc.se (195.10.143.3)
+ 12.440: sollentuna.se INFO Done testing delegation for sollentuna.se.
+ 12.440: sollentuna.se INFO Begin testing name server a.dns.tdc.se.
+ 12.440: sollentuna.se INFO Begin testing host a.dns.tdc.se.
+ 12.441: sollentuna.se INFO Begin testing address 213.50.29.190.
+ 16.198: sollentuna.se INFO Done testing address 213.50.29.190.
+ 16.198: sollentuna.se INFO Done testing host a.dns.tdc.se.
+ 16.208: sollentuna.se INFO Name server a.dns.tdc.se (213.50.29.190) answers queries over UDP.
+ 16.221: sollentuna.se INFO Name server a.dns.tdc.se (213.50.29.190) answers queries over TCP.
+ 16.230: sollentuna.se INFO Name server a.dns.tdc.se (213.50.29.190) is not recursive.
+ 16.240: sollentuna.se INFO Name server a.dns.tdc.se (213.50.29.190) authoritative for sollentuna.se.
+ 16.254: sollentuna.se INFO Name server a.dns.tdc.se (213.50.29.190) closed for zone transfer of sollentuna.se.
+ 16.264: sollentuna.se INFO Legacy name server ID for a.dns.tdc.se (213.50.29.190): hostname.bind = a
+ 16.272: sollentuna.se INFO Legacy name server ID for a.dns.tdc.se (213.50.29.190): version.bind = tssk, well what can i say?
+ 16.286: sollentuna.se NOTICE No answer received from 213.50.29.190 when querying for version.server/CH/TXT.
+ 16.286: sollentuna.se INFO Done testing name server a.dns.tdc.se.
+ 16.286: sollentuna.se INFO Begin testing name server b.dns.tdc.se.
+ 16.286: sollentuna.se INFO Begin testing host b.dns.tdc.se.
+ 16.287: sollentuna.se INFO Begin testing address 213.50.29.195.
+ 16.530: sollentuna.se INFO Done testing address 213.50.29.195.
+ 16.530: sollentuna.se INFO Done testing host b.dns.tdc.se.
+ 16.540: sollentuna.se INFO Name server b.dns.tdc.se (213.50.29.195) answers queries over UDP.
+ 16.552: sollentuna.se INFO Name server b.dns.tdc.se (213.50.29.195) answers queries over TCP.
+ 16.558: sollentuna.se INFO Name server b.dns.tdc.se (213.50.29.195) is not recursive.
+ 16.567: sollentuna.se INFO Name server b.dns.tdc.se (213.50.29.195) authoritative for sollentuna.se.
+ 16.580: sollentuna.se INFO Name server b.dns.tdc.se (213.50.29.195) closed for zone transfer of sollentuna.se.
+ 16.588: sollentuna.se INFO Legacy name server ID for b.dns.tdc.se (213.50.29.195): hostname.bind = b
+ 16.596: sollentuna.se INFO Legacy name server ID for b.dns.tdc.se (213.50.29.195): version.bind = tssk, well what can i say?
+ 16.609: sollentuna.se NOTICE No answer received from 213.50.29.195 when querying for version.server/CH/TXT.
+ 16.609: sollentuna.se INFO Done testing name server b.dns.tdc.se.
+ 16.609: sollentuna.se INFO Begin testing name server c.dns.tdc.se.
+ 16.609: sollentuna.se INFO Begin testing host c.dns.tdc.se.
+ 16.609: sollentuna.se INFO Begin testing address 195.10.143.3.
+ 17.737: sollentuna.se INFO Done testing address 195.10.143.3.
+ 17.737: sollentuna.se INFO Done testing host c.dns.tdc.se.
+ 17.752: sollentuna.se INFO Name server c.dns.tdc.se (195.10.143.3) answers queries over UDP.
+ 17.777: sollentuna.se INFO Name server c.dns.tdc.se (195.10.143.3) answers queries over TCP.
+ 17.791: sollentuna.se INFO Name server c.dns.tdc.se (195.10.143.3) is not recursive.
+ 17.806: sollentuna.se INFO Name server c.dns.tdc.se (195.10.143.3) authoritative for sollentuna.se.
+ 17.839: sollentuna.se INFO Name server c.dns.tdc.se (195.10.143.3) closed for zone transfer of sollentuna.se.
+ 17.853: sollentuna.se INFO Legacy name server ID for c.dns.tdc.se (195.10.143.3): hostname.bind = c.dns.tdc.se
+ 17.868: sollentuna.se INFO Legacy name server ID for c.dns.tdc.se (195.10.143.3): version.bind = tssk, well what can i say?
+ 17.895: sollentuna.se NOTICE No answer received from 195.10.143.3 when querying for version.server/CH/TXT.
+ 17.895: sollentuna.se INFO Done testing name server c.dns.tdc.se.
+ 17.895: sollentuna.se INFO Begin testing name server ns-1.sollentuna.net.
+ 17.895: sollentuna.se INFO Begin testing host ns-1.sollentuna.net.
+ 17.896: sollentuna.se INFO Begin testing address 62.65.68.8.
+ 18.396: sollentuna.se INFO Done testing address 62.65.68.8.
+ 18.396: sollentuna.se INFO Done testing host ns-1.sollentuna.net.
+ 18.406: sollentuna.se INFO Name server ns-1.sollentuna.net (62.65.68.8) answers queries over UDP.
+ 18.420: sollentuna.se INFO Name server ns-1.sollentuna.net (62.65.68.8) answers queries over TCP.
+ 18.435: sollentuna.se INFO Name server ns-1.sollentuna.net (62.65.68.8) is not recursive.
+ 18.444: sollentuna.se INFO Name server ns-1.sollentuna.net (62.65.68.8) authoritative for sollentuna.se.
+ 18.461: sollentuna.se INFO Name server ns-1.sollentuna.net (62.65.68.8) closed for zone transfer of sollentuna.se.
+ 18.469: sollentuna.se INFO Legacy name server ID for ns-1.sollentuna.net (62.65.68.8): hostname.bind = ns-1.sollentuna.net
+ 18.477: sollentuna.se INFO Legacy name server ID for ns-1.sollentuna.net (62.65.68.8): version.bind = 9.5.0-P1
+ 18.493: sollentuna.se NOTICE No answer received from 62.65.68.8 when querying for version.server/CH/TXT.
+ 18.493: sollentuna.se INFO Done testing name server ns-1.sollentuna.net.
+ 18.493: sollentuna.se INFO Begin testing name server ns-2.sollentuna.net.
+ 18.494: sollentuna.se INFO Begin testing host ns-2.sollentuna.net.
+ 18.494: sollentuna.se INFO Begin testing address 195.84.163.198.
+ 19.704: sollentuna.se INFO Done testing address 195.84.163.198.
+ 19.704: sollentuna.se INFO Done testing host ns-2.sollentuna.net.
+ 19.716: sollentuna.se INFO Name server ns-2.sollentuna.net (195.84.163.198) answers queries over UDP.
+ 19.737: sollentuna.se INFO Name server ns-2.sollentuna.net (195.84.163.198) answers queries over TCP.
+ 19.757: sollentuna.se INFO Name server ns-2.sollentuna.net (195.84.163.198) is not recursive.
+ 19.769: sollentuna.se INFO Name server ns-2.sollentuna.net (195.84.163.198) authoritative for sollentuna.se.
+ 19.808: sollentuna.se INFO Name server ns-2.sollentuna.net (195.84.163.198) closed for zone transfer of sollentuna.se.
+ 19.821: sollentuna.se INFO Legacy name server ID for ns-2.sollentuna.net (195.84.163.198): hostname.bind = ns-2.sollentuna.net
+ 19.831: sollentuna.se INFO Legacy name server ID for ns-2.sollentuna.net (195.84.163.198): version.bind = 9.4.2-P1
+ 19.850: sollentuna.se NOTICE No answer received from 195.84.163.198 when querying for version.server/CH/TXT.
+ 19.850: sollentuna.se INFO Done testing name server ns-2.sollentuna.net.
+ 19.850: sollentuna.se INFO Begin testing zone consistency for sollentuna.se.
+ 19.867: sollentuna.se INFO SOA at address 62.65.68.8 has serial 2010120902.
+ 19.882: sollentuna.se INFO SOA at address 195.10.143.3 has serial 2010120902.
+ 19.890: sollentuna.se INFO SOA at address 213.50.29.195 has serial 2010120902.
+ 19.902: sollentuna.se INFO SOA at address 195.84.163.198 has serial 2010120902.
+ 19.911: sollentuna.se INFO SOA at address 213.50.29.190 has serial 2010120902.
+ 19.911: sollentuna.se INFO All SOA records have consistent serial numbers.
+ 19.911: sollentuna.se INFO All SOA records are consistent among all name servers.
+ 19.911: sollentuna.se INFO Done testing zone consistency for sollentuna.se.
+ 19.911: sollentuna.se INFO Begin testing SOA parameters for sollentuna.se.
+ 19.926: sollentuna.se INFO Found SOA record for sollentuna.se.
+ 19.926: sollentuna.se INFO Begin testing host ns-1.sollentuna.net.
+ 19.926: sollentuna.se INFO Begin testing address 62.65.68.8.
+ 19.928: sollentuna.se INFO Done testing address 62.65.68.8.
+ 19.928: sollentuna.se INFO Done testing host ns-1.sollentuna.net.
+ 19.928: sollentuna.se INFO SOA MNAME for sollentuna.se valid (ns-1.sollentuna.net).
+ 19.928: sollentuna.se INFO SOA MNAME for sollentuna.se (ns-1.sollentuna.net) listed as NS.
+ 19.938: sollentuna.se INFO SOA MNAME for sollentuna.se (ns-1.sollentuna.net) is authoritative.
+ 19.938: sollentuna.se INFO Begin testing email address admin@sollentuna.net.
+ 20.206: sollentuna.se INFO Mail exchangers for admin@sollentuna.net found mx-1.sollentuna.net,mx-2.sollentuna.net.
+ 20.206: sollentuna.se INFO Begin testing host mx-1.sollentuna.net.
+ 20.810: sollentuna.se INFO Begin testing address 62.65.68.9.
+ 21.312: sollentuna.se INFO Done testing address 62.65.68.9.
+ 21.313: sollentuna.se INFO Done testing host mx-1.sollentuna.net.
+ 21.313: sollentuna.se INFO Begin testing mail server mx-1.sollentuna.net (62.65.68.9) with admin@sollentuna.net.
+ 21.932: sollentuna.se INFO SMTP banner: mx-1.sollentuna.net ESMTP Postfix
+ 21.981: sollentuna.se INFO SMTP testing of mx-1.sollentuna.net (62.65.68.9) with admin@sollentuna.net succeeded without errors.
+ 21.981: sollentuna.se INFO Done testing mail server mx-1.sollentuna.net (62.65.68.9) with admin@sollentuna.net.
+ 21.982: sollentuna.se INFO Begin testing host mx-2.sollentuna.net.
+ 22.596: sollentuna.se INFO Begin testing address 195.84.163.199.
+ 23.799: sollentuna.se INFO Done testing address 195.84.163.199.
+ 23.799: sollentuna.se INFO Done testing host mx-2.sollentuna.net.
+ 23.800: sollentuna.se INFO Delivery over IPv4 to admin@sollentuna.net ok.
+ 23.800: sollentuna.se INFO Delivery over IPv6 to admin@sollentuna.net could not be done.
+ 23.800: sollentuna.se INFO Done testing email address admin@sollentuna.net.
+ 23.800: sollentuna.se INFO Successful attempt to deliver email for SOA RNAME of sollentuna.se (admin.sollentuna.net) using admin@sollentuna.net.
+ 23.800: sollentuna.se NOTICE SOA TTL for sollentuna.se too small (300) - recommended >= 3600.
+ 23.800: sollentuna.se NOTICE SOA refresh for sollentuna.se too small (900) - recommended >= 14400.
+ 23.800: sollentuna.se NOTICE SOA refresh for sollentuna.se lower than retry (900 vs 900).
+ 23.800: sollentuna.se NOTICE SOA retry for sollentuna.se too small (900) - recommended >= 3600.
+ 23.800: sollentuna.se INFO SOA expire for sollentuna.se OK (604800) - recommended >= 604800.
+ 23.800: sollentuna.se INFO SOA minimum for sollentuna.se OK (300) - recommended between 300 and 86400.
+ 23.800: sollentuna.se INFO Done testing SOA parameters for sollentuna.se.
+ 23.801: sollentuna.se INFO Begin testing connectivity for sollentuna.se.
+ 24.562: sollentuna.se INFO Name server 195.10.143.3 announced by: 3292
+ 25.080: sollentuna.se INFO Name server 213.50.29.195 announced by: 3292
+ 25.590: sollentuna.se INFO Name server 195.84.163.198 announced by: 3292
+ 26.183: sollentuna.se INFO Name server 62.65.68.8 announced by: 8434
+ 26.846: sollentuna.se INFO Name server 213.50.29.190 announced by: 3292
+ 26.846: sollentuna.se INFO Zone announced by IPv4 ASN: 3292,8434
+ 26.846: sollentuna.se INFO Zone announced by more than one ASN (2).
+ 26.847: sollentuna.se INFO Zone announced by IPv6 ASN: 
+ 26.847: sollentuna.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 26.847: sollentuna.se INFO Done testing connectivity for sollentuna.se.
+ 26.847: sollentuna.se INFO Begin testing DNSSEC for sollentuna.se.
+ 26.926: sollentuna.se INFO Did not find DS record for sollentuna.se at parent.
+ 27.007: sollentuna.se INFO Servers for sollentuna.se have consistent extra processing status.
+ 27.008: sollentuna.se INFO Did not find DNSKEY record for sollentuna.se at child.
+ 27.008: sollentuna.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 27.008: sollentuna.se INFO Done testing DNSSEC for sollentuna.se.
+ 27.008: sollentuna.se INFO Test completed for zone sollentuna.se.

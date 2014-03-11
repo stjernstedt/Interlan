@@ -1,0 +1,82 @@
+  0.000: tuusula.fi INFO Begin testing zone tuusula.fi with version 1.5.0.
+  2.316: tuusula.fi INFO Begin testing delegation for tuusula.fi.
+ 55.190: tuusula.fi INFO Name servers listed at parent: ns-fi.elisa.net,ns-se.elisa.net
+ 68.577: tuusula.fi INFO Name servers listed at child: ns-fi.elisa.net,ns-se.elisa.net
+ 68.577: tuusula.fi NOTICE No IPv6 name servers found.
+ 76.874: tuusula.fi INFO It is possible to build a referral packet for tuusula.fi that works without EDNS0.
+ 82.675: tuusula.fi INFO Previously used name servers for tuusula.fi: 
+ 82.675: tuusula.fi INFO Done testing delegation for tuusula.fi.
+ 82.676: tuusula.fi INFO Begin testing name server ns-fi.elisa.net.
+ 82.816: tuusula.fi INFO Begin testing host ns-fi.elisa.net.
+ 85.269: tuusula.fi INFO Begin testing address 193.229.0.49.
+125.260: tuusula.fi INFO Done testing address 193.229.0.49.
+125.260: tuusula.fi INFO Done testing host ns-fi.elisa.net.
+127.164: tuusula.fi INFO Name server ns-fi.elisa.net (193.229.0.49) answers queries over UDP.
+127.335: tuusula.fi INFO Name server ns-fi.elisa.net (193.229.0.49) answers queries over TCP.
+127.592: tuusula.fi INFO Name server ns-fi.elisa.net (193.229.0.49) is not recursive.
+128.321: tuusula.fi INFO Name server ns-fi.elisa.net (193.229.0.49) authoritative for tuusula.fi.
+128.572: tuusula.fi INFO Name server ns-fi.elisa.net (193.229.0.49) closed for zone transfer of tuusula.fi.
+128.782: tuusula.fi INFO Legacy name server ID for ns-fi.elisa.net (193.229.0.49): hostname.bind = ldom-dns64
+129.159: tuusula.fi INFO Legacy name server ID for ns-fi.elisa.net (193.229.0.49): version.bind = unknown
+129.636: tuusula.fi NOTICE No answer received from 193.229.0.49 when querying for version.server/CH/TXT.
+129.636: tuusula.fi INFO Done testing name server ns-fi.elisa.net.
+129.637: tuusula.fi INFO Begin testing name server ns-se.elisa.net.
+129.637: tuusula.fi INFO Begin testing host ns-se.elisa.net.
+131.281: tuusula.fi INFO Begin testing address 62.248.254.2.
+134.438: tuusula.fi INFO Done testing address 62.248.254.2.
+134.439: tuusula.fi INFO Done testing host ns-se.elisa.net.
+136.696: tuusula.fi INFO Name server ns-se.elisa.net (62.248.254.2) answers queries over UDP.
+136.978: tuusula.fi INFO Name server ns-se.elisa.net (62.248.254.2) answers queries over TCP.
+137.209: tuusula.fi INFO Name server ns-se.elisa.net (62.248.254.2) is not recursive.
+138.041: tuusula.fi INFO Name server ns-se.elisa.net (62.248.254.2) authoritative for tuusula.fi.
+138.247: tuusula.fi INFO Name server ns-se.elisa.net (62.248.254.2) closed for zone transfer of tuusula.fi.
+138.488: tuusula.fi INFO Legacy name server ID for ns-se.elisa.net (62.248.254.2): hostname.bind = phys-dns8
+138.676: tuusula.fi INFO Legacy name server ID for ns-se.elisa.net (62.248.254.2): version.bind = unknown
+139.172: tuusula.fi NOTICE No answer received from 62.248.254.2 when querying for version.server/CH/TXT.
+139.172: tuusula.fi INFO Done testing name server ns-se.elisa.net.
+139.173: tuusula.fi INFO Begin testing zone consistency for tuusula.fi.
+145.696: tuusula.fi INFO SOA at address 62.248.254.2 has serial 2013060300.
+145.829: tuusula.fi INFO SOA at address 193.229.0.49 has serial 2013060300.
+145.829: tuusula.fi INFO All SOA records have consistent serial numbers.
+145.829: tuusula.fi INFO All other fields in the SOA record are consistent among all name servers.
+150.589: tuusula.fi NOTICE The listed nameservers for tuusula.fi all report the same set of nameservers.
+150.589: tuusula.fi INFO Done testing zone consistency for tuusula.fi.
+150.589: tuusula.fi INFO Begin testing SOA parameters for tuusula.fi.
+150.933: tuusula.fi INFO Found SOA record for tuusula.fi.
+150.933: tuusula.fi INFO Begin testing host ns-fi.elisa.net.
+153.295: tuusula.fi INFO Begin testing address 193.229.0.49.
+155.656: tuusula.fi INFO Done testing address 193.229.0.49.
+155.657: tuusula.fi INFO Done testing host ns-fi.elisa.net.
+155.657: tuusula.fi INFO SOA MNAME for tuusula.fi valid (ns-fi.elisa.net).
+155.657: tuusula.fi INFO SOA MNAME for tuusula.fi (ns-fi.elisa.net) listed as NS.
+158.357: tuusula.fi INFO SOA MNAME for tuusula.fi (ns-fi.elisa.net) is authoritative.
+158.357: tuusula.fi INFO Begin testing email address hostmaster@elisa.fi.
+160.560: tuusula.fi INFO Mail exchangers for hostmaster@elisa.fi found mx2.elisa.fi,mx1.elisa.fi.
+160.561: tuusula.fi INFO Begin testing host mx2.elisa.fi.
+164.555: tuusula.fi INFO Begin testing address 193.64.173.43.
+173.845: tuusula.fi INFO Done testing address 193.64.173.43.
+173.846: tuusula.fi INFO Done testing host mx2.elisa.fi.
+175.629: tuusula.fi INFO Begin testing host mx1.elisa.fi.
+179.413: tuusula.fi INFO Begin testing address 193.64.173.42.
+184.548: tuusula.fi INFO Done testing address 193.64.173.42.
+184.548: tuusula.fi INFO Done testing host mx1.elisa.fi.
+186.244: tuusula.fi INFO Done testing email address hostmaster@elisa.fi.
+186.245: tuusula.fi INFO Successful attempt to deliver email for SOA RNAME of tuusula.fi (hostmaster.elisa.fi) using hostmaster@elisa.fi.
+186.245: tuusula.fi INFO SOA TTL for tuusula.fi OK (3600) - recommended >= 3600.
+186.245: tuusula.fi NOTICE SOA refresh for tuusula.fi too small (3600) - recommended >= 14400.
+186.245: tuusula.fi NOTICE SOA retry for tuusula.fi too small (900) - recommended >= 3600.
+186.245: tuusula.fi INFO SOA expire for tuusula.fi OK (604800) - recommended >= 604800.
+186.245: tuusula.fi INFO SOA minimum for tuusula.fi OK (3600) - recommended between 300 and 86400.
+186.245: tuusula.fi INFO Done testing SOA parameters for tuusula.fi.
+186.245: tuusula.fi INFO Begin testing connectivity for tuusula.fi.
+191.094: tuusula.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+191.095: tuusula.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+191.095: tuusula.fi INFO Done testing connectivity for tuusula.fi.
+191.095: tuusula.fi INFO Begin testing DNSSEC for tuusula.fi.
+191.541: tuusula.fi INFO Did not find DS record for tuusula.fi at parent.
+192.197: tuusula.fi INFO Servers for tuusula.fi have consistent extra processing status.
+192.411: tuusula.fi INFO Authenticated denial records not found for tuusula.fi.
+192.616: tuusula.fi INFO Did not find DNSKEY record for tuusula.fi at child.
+192.617: tuusula.fi INFO No DNSKEY(s) found at child, other tests skipped.
+192.617: tuusula.fi INFO Done testing DNSSEC for tuusula.fi.
+192.617: tuusula.fi INFO Test completed for zone tuusula.fi.

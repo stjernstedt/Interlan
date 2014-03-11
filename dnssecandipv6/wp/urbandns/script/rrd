@@ -1,0 +1,9 @@
+#!/bin/sh
+cd /home/it-companies/public_html/urbandns/script
+
+rrdtool update dnssec.rrd N:`cat resultat.txt |cut -d , -f 2|grep yes|wc -l`
+cat resultat.txt |cut -d , -f 2|grep yes|wc -l
+rrdtool graph dnssec.png -w 800  --start end-365days --width 365 --lower-limit 0 --end now --slope-mode --vertical-label "Signed domains"  DEF:dnssec=dnssec.rrd:dnssec:LAST LINE3:dnssec#0000FF:""
+cp dnssec.png ..
+
+

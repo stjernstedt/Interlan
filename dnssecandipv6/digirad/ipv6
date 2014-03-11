@@ -1,0 +1,22 @@
+#!/bin/sh
+rndc flush
+for i in `cat domain` ; do
+	www=`echo $i|cut -d , -f 1`
+	dns=`echo $i|cut -d , -f 2`
+	www=`host $www| grep IPv6`
+	if [ "$www" != "" ] ; then
+		ipv6=yes
+	fi
+        if [ "$www" = "" ] ; then
+                ipv6=no
+        fi
+	ds=`dig +short ds $dns`
+        if [ "$ds" != "" ] ; then
+                ds=yes
+        fi
+        if [ "$ds" = "" ] ; then
+                ds=no
+        fi
+	echo $ipv6,$ds,`echo $i|cut -d , -f 2`
+done
+

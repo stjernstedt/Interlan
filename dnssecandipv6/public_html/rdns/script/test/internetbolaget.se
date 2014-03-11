@@ -1,0 +1,125 @@
+  0.000: internetbolaget.se INFO Begin testing zone internetbolaget.se with version 1.5.0.
+  0.001: internetbolaget.se INFO Begin testing delegation for internetbolaget.se.
+ 12.201: internetbolaget.se INFO Name servers listed at parent: ns.ettnet.se,ns2.ettnet.se
+ 14.736: internetbolaget.se INFO Name servers listed at child: ns.ettnet.se,ns2.ettnet.se
+ 14.736: internetbolaget.se NOTICE No IPv6 name servers found.
+ 14.791: internetbolaget.se INFO Parent glue for internetbolaget.se found: ns.ettnet.se (80.248.225.122)
+ 14.819: internetbolaget.se INFO Parent glue for internetbolaget.se found: ns2.ettnet.se (109.75.176.254)
+ 14.833: internetbolaget.se INFO Checking glue for ns.ettnet.se (80.248.225.122).
+ 14.833: internetbolaget.se INFO Checking glue for ns2.ettnet.se (109.75.176.254).
+ 14.833: internetbolaget.se INFO Parent glue for internetbolaget.se found: ns.ettnet.se (80.248.225.122)
+ 14.853: internetbolaget.se INFO Parent glue for internetbolaget.se found: ns2.ettnet.se (109.75.176.254)
+ 16.186: internetbolaget.se INFO It is possible to build a referral packet for internetbolaget.se that works without EDNS0.
+ 16.186: internetbolaget.se INFO Done testing delegation for internetbolaget.se.
+ 16.186: internetbolaget.se INFO Begin testing name server ns.ettnet.se.
+ 16.229: internetbolaget.se INFO Begin testing host ns.ettnet.se.
+ 16.870: internetbolaget.se INFO Begin testing address 80.248.225.122.
+ 31.951: internetbolaget.se INFO Done testing address 80.248.225.122.
+ 31.951: internetbolaget.se INFO Done testing host ns.ettnet.se.
+ 32.321: internetbolaget.se INFO Name server ns.ettnet.se (80.248.225.122) answers queries over UDP.
+ 32.351: internetbolaget.se INFO Name server ns.ettnet.se (80.248.225.122) answers queries over TCP.
+ 38.362: internetbolaget.se INFO Name server ns.ettnet.se (80.248.225.122) is not recursive.
+ 38.406: internetbolaget.se INFO Name server ns.ettnet.se (80.248.225.122) authoritative for internetbolaget.se.
+ 38.438: internetbolaget.se INFO Name server ns.ettnet.se (80.248.225.122) closed for zone transfer of internetbolaget.se.
+ 38.458: internetbolaget.se NOTICE DNS lookup error (FORMERR).
+ 38.470: internetbolaget.se NOTICE DNS lookup error (FORMERR).
+ 38.523: internetbolaget.se NOTICE DNS lookup error (FORMERR).
+ 38.552: internetbolaget.se NOTICE DNS lookup error (FORMERR).
+ 38.553: internetbolaget.se INFO Done testing name server ns.ettnet.se.
+ 38.553: internetbolaget.se INFO Begin testing name server ns2.ettnet.se.
+ 38.553: internetbolaget.se INFO Begin testing host ns2.ettnet.se.
+ 38.976: internetbolaget.se INFO Begin testing address 109.75.176.254.
+ 41.639: internetbolaget.se WARNING Reverse for 109.75.176.254 points to an unknown host name (vserver-7qamdqcwy.vsrv.key-systems.net).
+ 41.639: internetbolaget.se INFO Done testing address 109.75.176.254.
+ 41.639: internetbolaget.se INFO Done testing host ns2.ettnet.se.
+ 41.988: internetbolaget.se INFO Name server ns2.ettnet.se (109.75.176.254) answers queries over UDP.
+ 42.096: internetbolaget.se INFO Name server ns2.ettnet.se (109.75.176.254) answers queries over TCP.
+ 48.114: internetbolaget.se INFO Name server ns2.ettnet.se (109.75.176.254) is not recursive.
+ 48.294: internetbolaget.se INFO Name server ns2.ettnet.se (109.75.176.254) authoritative for internetbolaget.se.
+ 48.397: internetbolaget.se INFO Name server ns2.ettnet.se (109.75.176.254) closed for zone transfer of internetbolaget.se.
+ 48.445: internetbolaget.se NOTICE DNS lookup error (FORMERR).
+ 48.489: internetbolaget.se NOTICE DNS lookup error (FORMERR).
+ 48.529: internetbolaget.se NOTICE DNS lookup error (FORMERR).
+ 48.570: internetbolaget.se NOTICE DNS lookup error (FORMERR).
+ 48.570: internetbolaget.se INFO Done testing name server ns2.ettnet.se.
+ 48.570: internetbolaget.se INFO Begin testing zone consistency for internetbolaget.se.
+ 49.884: internetbolaget.se INFO SOA at address 80.248.225.122 has serial 1375280255.
+ 49.927: internetbolaget.se INFO SOA at address 109.75.176.254 has serial 1375280255.
+ 49.927: internetbolaget.se INFO All SOA records have consistent serial numbers.
+ 49.927: internetbolaget.se INFO All other fields in the SOA record are consistent among all name servers.
+ 50.544: internetbolaget.se NOTICE The listed nameservers for internetbolaget.se all report the same set of nameservers.
+ 50.544: internetbolaget.se INFO Done testing zone consistency for internetbolaget.se.
+ 50.544: internetbolaget.se INFO Begin testing SOA parameters for internetbolaget.se.
+ 50.563: internetbolaget.se INFO Found SOA record for internetbolaget.se.
+ 50.563: internetbolaget.se INFO Begin testing host ns2.ettnet.se.
+ 50.842: internetbolaget.se INFO Begin testing address 109.75.176.254.
+ 50.844: internetbolaget.se WARNING Reverse for 109.75.176.254 points to an unknown host name (vserver-7qamdqcwy.vsrv.key-systems.net).
+ 50.844: internetbolaget.se INFO Done testing address 109.75.176.254.
+ 50.844: internetbolaget.se INFO Done testing host ns2.ettnet.se.
+ 50.844: internetbolaget.se INFO SOA MNAME for internetbolaget.se valid (ns2.ettnet.se).
+ 50.845: internetbolaget.se INFO SOA MNAME for internetbolaget.se (ns2.ettnet.se) listed as NS.
+ 51.164: internetbolaget.se INFO SOA MNAME for internetbolaget.se (ns2.ettnet.se) is authoritative.
+ 51.165: internetbolaget.se INFO Begin testing email address hostmaster@internetbolaget.se.
+ 51.450: internetbolaget.se INFO Mail exchangers for hostmaster@internetbolaget.se found ASPMX.L.GOOGLE.COM,ALT1.ASPMX.L.GOOGLE.COM,ALT2.ASPMX.L.GOOGLE.COM,ASPMX2.GOOGLEMAIL.COM,ASPMX3.GOOGLEMAIL.COM,ASPMX4.GOOGLEMAIL.COM,ASPMX5.GOOGLEMAIL.COM.
+ 51.451: internetbolaget.se INFO Begin testing host ASPMX.L.GOOGLE.COM.
+ 52.483: internetbolaget.se INFO Begin testing address 74.125.143.27.
+ 59.839: internetbolaget.se INFO Done testing address 74.125.143.27.
+ 59.839: internetbolaget.se INFO Begin testing address 2a00:1450:4010:c04:0:0:0:1a.
+ 61.720: internetbolaget.se INFO Done testing address 2a00:1450:4010:c04:0:0:0:1a.
+ 61.720: internetbolaget.se INFO Done testing host ASPMX.L.GOOGLE.COM.
+ 61.721: internetbolaget.se INFO Begin testing host ALT1.ASPMX.L.GOOGLE.COM.
+ 63.739: internetbolaget.se INFO Begin testing address 173.194.64.26.
+ 66.191: internetbolaget.se INFO Done testing address 173.194.64.26.
+ 66.192: internetbolaget.se INFO Begin testing address 2607:f8b0:4003:c02:0:0:0:1a.
+ 72.288: internetbolaget.se INFO Done testing address 2607:f8b0:4003:c02:0:0:0:1a.
+ 72.288: internetbolaget.se INFO Done testing host ALT1.ASPMX.L.GOOGLE.COM.
+ 72.288: internetbolaget.se INFO Begin testing host ALT2.ASPMX.L.GOOGLE.COM.
+ 73.622: internetbolaget.se INFO Begin testing address 74.125.137.26.
+ 75.590: internetbolaget.se INFO Done testing address 74.125.137.26.
+ 75.590: internetbolaget.se INFO Begin testing address 2607:f8b0:4002:c01:0:0:0:1b.
+ 77.471: internetbolaget.se INFO Done testing address 2607:f8b0:4002:c01:0:0:0:1b.
+ 77.471: internetbolaget.se INFO Done testing host ALT2.ASPMX.L.GOOGLE.COM.
+ 77.471: internetbolaget.se INFO Begin testing host ASPMX2.GOOGLEMAIL.COM.
+ 78.771: internetbolaget.se INFO Begin testing address 173.194.64.26.
+ 79.298: internetbolaget.se INFO Done testing address 173.194.64.26.
+ 79.298: internetbolaget.se INFO Begin testing address 2607:f8b0:4003:c02:0:0:0:1b.
+ 81.473: internetbolaget.se INFO Done testing address 2607:f8b0:4003:c02:0:0:0:1b.
+ 81.474: internetbolaget.se INFO Done testing host ASPMX2.GOOGLEMAIL.COM.
+ 81.474: internetbolaget.se INFO Begin testing host ASPMX3.GOOGLEMAIL.COM.
+ 82.650: internetbolaget.se INFO Begin testing address 74.125.137.26.
+ 83.514: internetbolaget.se INFO Done testing address 74.125.137.26.
+ 83.515: internetbolaget.se INFO Begin testing address 2607:f8b0:4002:c01:0:0:0:1b.
+ 84.102: internetbolaget.se INFO Done testing address 2607:f8b0:4002:c01:0:0:0:1b.
+ 84.102: internetbolaget.se INFO Done testing host ASPMX3.GOOGLEMAIL.COM.
+ 84.103: internetbolaget.se INFO Begin testing host ASPMX4.GOOGLEMAIL.COM.
+ 85.727: internetbolaget.se INFO Begin testing address 173.194.74.26.
+ 87.966: internetbolaget.se INFO Done testing address 173.194.74.26.
+ 87.966: internetbolaget.se INFO Begin testing address 2607:f8b0:400d:c02:0:0:0:1b.
+ 89.820: internetbolaget.se INFO Done testing address 2607:f8b0:400d:c02:0:0:0:1b.
+ 89.821: internetbolaget.se INFO Done testing host ASPMX4.GOOGLEMAIL.COM.
+ 89.821: internetbolaget.se INFO Begin testing host ASPMX5.GOOGLEMAIL.COM.
+ 90.999: internetbolaget.se INFO Begin testing address 173.194.75.26.
+ 92.825: internetbolaget.se INFO Done testing address 173.194.75.26.
+ 92.825: internetbolaget.se INFO Begin testing address 2607:f8b0:400c:c02:0:0:0:1a.
+ 94.855: internetbolaget.se INFO Done testing address 2607:f8b0:400c:c02:0:0:0:1a.
+ 94.855: internetbolaget.se INFO Done testing host ASPMX5.GOOGLEMAIL.COM.
+ 94.855: internetbolaget.se INFO Done testing email address hostmaster@internetbolaget.se.
+ 94.855: internetbolaget.se INFO Successful attempt to deliver email for SOA RNAME of internetbolaget.se (hostmaster.internetbolaget.se) using hostmaster@internetbolaget.se.
+ 94.856: internetbolaget.se NOTICE SOA TTL for internetbolaget.se too small (2560) - recommended >= 3600.
+ 94.856: internetbolaget.se INFO SOA refresh for internetbolaget.se OK (16384) - recommended >= 14400.
+ 94.856: internetbolaget.se NOTICE SOA retry for internetbolaget.se too small (2048) - recommended >= 3600.
+ 94.856: internetbolaget.se INFO SOA expire for internetbolaget.se OK (1048576) - recommended >= 604800.
+ 94.856: internetbolaget.se INFO SOA minimum for internetbolaget.se OK (2560) - recommended between 300 and 86400.
+ 94.856: internetbolaget.se INFO Done testing SOA parameters for internetbolaget.se.
+ 94.857: internetbolaget.se INFO Begin testing connectivity for internetbolaget.se.
+ 96.789: internetbolaget.se INFO Zone announced by more than one ASN.
+ 96.790: internetbolaget.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 96.790: internetbolaget.se INFO Done testing connectivity for internetbolaget.se.
+ 96.790: internetbolaget.se INFO Begin testing DNSSEC for internetbolaget.se.
+ 96.889: internetbolaget.se INFO Did not find DS record for internetbolaget.se at parent.
+ 97.032: internetbolaget.se INFO Servers for internetbolaget.se have consistent extra processing status.
+ 97.094: internetbolaget.se INFO Authenticated denial records not found for internetbolaget.se.
+ 97.114: internetbolaget.se INFO Did not find DNSKEY record for internetbolaget.se at child.
+ 97.114: internetbolaget.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 97.114: internetbolaget.se INFO Done testing DNSSEC for internetbolaget.se.
+ 97.115: internetbolaget.se INFO Test completed for zone internetbolaget.se.

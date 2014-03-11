@@ -1,0 +1,129 @@
+  0.000: crystone.se INFO Begin testing zone crystone.se with version 1.0.1.
+  0.001: crystone.se INFO Begin testing delegation for crystone.se.
+  0.670: crystone.se INFO Name servers listed at parent: ns6.crystone.se,ns7.crystone.se
+  1.037: crystone.se INFO Name servers listed at child: ns1.crystone.net,ns2.crystone.net
+  1.037: crystone.se ERROR Superfluous name server listed at parent: ns6.crystone.se
+  1.037: crystone.se ERROR Superfluous name server listed at parent: ns7.crystone.se
+  1.037: crystone.se ERROR Total parent/child glue mismatch.
+  1.037: crystone.se NOTICE Additional name server listed at child: ns1.crystone.net
+  1.037: crystone.se NOTICE Additional name server listed at child: ns2.crystone.net
+  1.038: crystone.se NOTICE No IPv6 name servers found.
+  1.056: crystone.se INFO Parent glue for crystone.se found: ns6.crystone.se (83.168.226.119)
+  1.082: crystone.se INFO Parent glue for crystone.se found: ns7.crystone.se (83.168.203.18)
+  1.090: crystone.se INFO Checking glue for ns6.crystone.se (83.168.226.119).
+  1.112: crystone.se INFO Child glue for crystone.se found: ns6.crystone.se (83.168.226.119)
+  1.112: crystone.se INFO Checking glue for ns7.crystone.se (83.168.203.18).
+  1.120: crystone.se INFO Child glue for crystone.se found: ns7.crystone.se (83.168.203.18)
+  1.121: crystone.se INFO Done testing delegation for crystone.se.
+  1.121: crystone.se INFO Begin testing name server ns1.crystone.net.
+  1.121: crystone.se INFO Begin testing host ns1.crystone.net.
+  1.121: crystone.se INFO Begin testing address 83.168.226.119.
+  3.647: crystone.se INFO Done testing address 83.168.226.119.
+  3.647: crystone.se INFO Done testing host ns1.crystone.net.
+  3.662: crystone.se INFO Name server ns1.crystone.net (83.168.226.119) is not recursive.
+  3.671: crystone.se INFO Name server ns1.crystone.net (83.168.226.119) authoritative for crystone.se.
+  3.680: crystone.se INFO Name server ns1.crystone.net (83.168.226.119) answers queries over UDP.
+  3.693: crystone.se INFO Name server ns1.crystone.net (83.168.226.119) answers queries over TCP.
+  3.709: crystone.se INFO Name server ns1.crystone.net (83.168.226.119) closed for zone transfer of crystone.se.
+  3.716: crystone.se NOTICE No answer received from 83.168.226.119 when querying for hostname.bind/CH/TXT.
+  3.726: crystone.se INFO Legacy name server ID for ns1.crystone.net (83.168.226.119): version.bind = 9.2.4
+  3.733: crystone.se NOTICE No answer received from 83.168.226.119 when querying for id.server/CH/TXT.
+  3.740: crystone.se NOTICE No answer received from 83.168.226.119 when querying for version.server/CH/TXT.
+  3.740: crystone.se INFO Done testing name server ns1.crystone.net.
+  3.740: crystone.se INFO Begin testing name server ns2.crystone.net.
+  3.740: crystone.se INFO Begin testing host ns2.crystone.net.
+  3.740: crystone.se INFO Begin testing address 83.168.203.18.
+  3.762: crystone.se INFO Done testing address 83.168.203.18.
+  3.762: crystone.se INFO Done testing host ns2.crystone.net.
+  3.776: crystone.se INFO Name server ns2.crystone.net (83.168.203.18) is not recursive.
+  3.785: crystone.se INFO Name server ns2.crystone.net (83.168.203.18) authoritative for crystone.se.
+  3.793: crystone.se INFO Name server ns2.crystone.net (83.168.203.18) answers queries over UDP.
+  3.806: crystone.se INFO Name server ns2.crystone.net (83.168.203.18) answers queries over TCP.
+  3.820: crystone.se INFO Name server ns2.crystone.net (83.168.203.18) closed for zone transfer of crystone.se.
+  3.827: crystone.se NOTICE No answer received from 83.168.203.18 when querying for hostname.bind/CH/TXT.
+  3.834: crystone.se INFO Legacy name server ID for ns2.crystone.net (83.168.203.18): version.bind = 9.2.4
+  3.841: crystone.se NOTICE No answer received from 83.168.203.18 when querying for id.server/CH/TXT.
+  3.848: crystone.se NOTICE No answer received from 83.168.203.18 when querying for version.server/CH/TXT.
+  3.848: crystone.se INFO Done testing name server ns2.crystone.net.
+  3.849: crystone.se INFO Begin testing zone consistency for crystone.se.
+  3.886: crystone.se INFO SOA at address 83.168.226.119 has serial 1282058298.
+  3.894: crystone.se INFO SOA at address 83.168.203.18 has serial 1282058298.
+  3.894: crystone.se INFO All SOA records have consistent serial numbers.
+  3.894: crystone.se INFO All SOA records are consistent among all name servers.
+  3.894: crystone.se INFO Done testing zone consistency for crystone.se.
+  3.894: crystone.se INFO Begin testing SOA parameters for crystone.se.
+  3.904: crystone.se INFO Found SOA record for crystone.se.
+  3.904: crystone.se INFO Begin testing host ns1.crystone.net.
+  3.905: crystone.se INFO Begin testing address 83.168.226.119.
+  3.906: crystone.se INFO Done testing address 83.168.226.119.
+  3.906: crystone.se INFO Done testing host ns1.crystone.net.
+  3.906: crystone.se INFO SOA MNAME for crystone.se valid (ns1.crystone.net).
+  3.906: crystone.se INFO SOA MNAME for crystone.se (ns1.crystone.net) listed as NS.
+  3.917: crystone.se INFO SOA MNAME for crystone.se (ns1.crystone.net) is authoritative.
+  3.917: crystone.se INFO Begin testing email address admin@crystone.net.
+  3.936: crystone.se INFO Mail exchangers for admin@crystone.net found vsp1.crystone.se,vsp2.crystone.se.
+  3.936: crystone.se INFO All mail servers for admin@crystone.net are in zone crystone.se.
+  3.936: crystone.se INFO Begin testing host vsp1.crystone.se.
+  3.953: crystone.se INFO Begin testing address 83.168.225.21.
+  3.985: crystone.se INFO Done testing address 83.168.225.21.
+  3.985: crystone.se INFO Begin testing address 83.168.225.22.
+  4.008: crystone.se INFO Done testing address 83.168.225.22.
+  4.008: crystone.se INFO Begin testing address 83.168.225.23.
+  4.031: crystone.se INFO Done testing address 83.168.225.23.
+  4.031: crystone.se INFO Begin testing address 83.168.203.32.
+  4.054: crystone.se INFO Done testing address 83.168.203.32.
+  4.054: crystone.se INFO Begin testing address 83.168.203.33.
+  4.076: crystone.se INFO Done testing address 83.168.203.33.
+  4.076: crystone.se INFO Begin testing address 83.168.203.34.
+  4.096: crystone.se INFO Done testing address 83.168.203.34.
+  4.096: crystone.se INFO Begin testing address 83.168.203.35.
+  4.117: crystone.se INFO Done testing address 83.168.203.35.
+  4.117: crystone.se INFO Begin testing address 83.168.225.20.
+  4.140: crystone.se INFO Done testing address 83.168.225.20.
+  4.140: crystone.se INFO Done testing host vsp1.crystone.se.
+  4.140: crystone.se INFO Begin testing mail server vsp1.crystone.se (83.168.225.21) with admin@crystone.net.
+  4.222: crystone.se INFO SMTP banner: vsp02.crystone.se ESMTP Halon Mail Gateway (H/OS)
+  4.385: crystone.se INFO SMTP testing of vsp1.crystone.se (83.168.225.21) with admin@crystone.net succeeded without errors.
+  4.386: crystone.se INFO Done testing mail server vsp1.crystone.se (83.168.225.21) with admin@crystone.net.
+  4.386: crystone.se INFO Begin testing host vsp2.crystone.se.
+  4.403: crystone.se INFO Begin testing address 83.168.203.34.
+  4.404: crystone.se INFO Done testing address 83.168.203.34.
+  4.404: crystone.se INFO Begin testing address 83.168.203.35.
+  4.405: crystone.se INFO Done testing address 83.168.203.35.
+  4.405: crystone.se INFO Begin testing address 83.168.225.20.
+  4.406: crystone.se INFO Done testing address 83.168.225.20.
+  4.407: crystone.se INFO Begin testing address 83.168.225.21.
+  4.408: crystone.se INFO Done testing address 83.168.225.21.
+  4.408: crystone.se INFO Begin testing address 83.168.225.22.
+  4.409: crystone.se INFO Done testing address 83.168.225.22.
+  4.409: crystone.se INFO Begin testing address 83.168.225.23.
+  4.410: crystone.se INFO Done testing address 83.168.225.23.
+  4.410: crystone.se INFO Begin testing address 83.168.203.33.
+  4.412: crystone.se INFO Done testing address 83.168.203.33.
+  4.412: crystone.se INFO Done testing host vsp2.crystone.se.
+  4.412: crystone.se INFO Delivery over IPv4 to admin@crystone.net ok.
+  4.412: crystone.se INFO Delivery over IPv6 to admin@crystone.net could not be done.
+  4.412: crystone.se INFO Done testing email address admin@crystone.net.
+  4.412: crystone.se INFO Successful attempt to deliver email for SOA RNAME of crystone.se (admin.crystone.net) using admin@crystone.net.
+  4.412: crystone.se INFO SOA TTL for crystone.se OK (38400) - recommended >= 3600.
+  4.412: crystone.se INFO SOA refresh for crystone.se OK (14400) - recommended >= 14400.
+  4.413: crystone.se NOTICE SOA refresh for crystone.se lower than retry (14400 vs 20000).
+  4.413: crystone.se INFO SOA retry for crystone.se OK (20000) - recommended >= 3600.
+  4.413: crystone.se INFO SOA expire for crystone.se OK (3600000) - recommended >= 604800.
+  4.413: crystone.se INFO SOA minimum for crystone.se OK (3600) - recommended between 300 and 86400.
+  4.413: crystone.se INFO Done testing SOA parameters for crystone.se.
+  4.413: crystone.se INFO Begin testing connectivity for crystone.se.
+  4.839: crystone.se INFO Name server 83.168.226.119 announced by: 35041
+  4.971: crystone.se INFO Name server 83.168.203.18 announced by: 35041
+  4.971: crystone.se INFO Zone announced by ASN: 35041
+  4.971: crystone.se NOTICE Zone announced by only one ASN (1).
+  4.971: crystone.se INFO Zone announced by IPv6 ASN: 
+  4.971: crystone.se NOTICE Zone announced by only one IPv6 ASN (0).
+  4.971: crystone.se INFO Done testing connectivity for crystone.se.
+  4.971: crystone.se INFO Begin testing DNSSEC for crystone.se.
+  5.248: crystone.se INFO Did not find DS record for crystone.se at parent.
+  5.272: crystone.se INFO Servers for crystone.se have consistent extra processing status.
+  5.272: crystone.se INFO Did not find DNSKEY record for crystone.se at child.
+  5.272: crystone.se INFO No DNSKEY(s) found at child, other tests skipped.
+  5.272: crystone.se INFO Done testing DNSSEC for crystone.se.
+  5.272: crystone.se INFO Test completed for zone crystone.se.

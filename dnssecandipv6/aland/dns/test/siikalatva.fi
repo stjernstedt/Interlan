@@ -1,0 +1,93 @@
+  0.000: siikalatva.fi INFO Begin testing zone siikalatva.fi with version 1.5.0.
+  1.986: siikalatva.fi INFO Begin testing delegation for siikalatva.fi.
+ 59.129: siikalatva.fi INFO Name servers listed at parent: ns1.kotinet.com,ns2.kotinet.com,ns3.kotinet.com
+ 78.292: siikalatva.fi INFO Name servers listed at child: ns1.kotinet.com,ns2.kotinet.com,ns3.kotinet.com
+ 78.292: siikalatva.fi NOTICE No IPv6 name servers found.
+ 91.393: siikalatva.fi INFO It is possible to build a referral packet for siikalatva.fi that works without EDNS0.
+100.159: siikalatva.fi INFO Previously used name servers for siikalatva.fi: 
+100.159: siikalatva.fi INFO Done testing delegation for siikalatva.fi.
+100.159: siikalatva.fi INFO Begin testing name server ns1.kotinet.com.
+100.160: siikalatva.fi INFO Begin testing host ns1.kotinet.com.
+103.107: siikalatva.fi INFO Begin testing address 212.50.211.242.
+148.211: siikalatva.fi INFO Done testing address 212.50.211.242.
+148.211: siikalatva.fi INFO Done testing host ns1.kotinet.com.
+151.885: siikalatva.fi INFO Name server ns1.kotinet.com (212.50.211.242) answers queries over UDP.
+152.329: siikalatva.fi INFO Name server ns1.kotinet.com (212.50.211.242) answers queries over TCP.
+152.953: siikalatva.fi INFO Name server ns1.kotinet.com (212.50.211.242) is not recursive.
+154.973: siikalatva.fi INFO Name server ns1.kotinet.com (212.50.211.242) authoritative for siikalatva.fi.
+155.335: siikalatva.fi INFO Name server ns1.kotinet.com (212.50.211.242) closed for zone transfer of siikalatva.fi.
+155.904: siikalatva.fi INFO Legacy name server ID for ns1.kotinet.com (212.50.211.242): hostname.bind = ns1.kotinet.com
+156.399: siikalatva.fi INFO Legacy name server ID for ns1.kotinet.com (212.50.211.242): version.bind = enkerro
+157.059: siikalatva.fi NOTICE No answer received from 212.50.211.242 when querying for version.server/CH/TXT.
+157.059: siikalatva.fi INFO Done testing name server ns1.kotinet.com.
+157.059: siikalatva.fi INFO Begin testing name server ns2.kotinet.com.
+157.059: siikalatva.fi INFO Begin testing host ns2.kotinet.com.
+160.227: siikalatva.fi INFO Begin testing address 212.50.192.226.
+166.591: siikalatva.fi INFO Done testing address 212.50.192.226.
+166.591: siikalatva.fi INFO Done testing host ns2.kotinet.com.
+170.102: siikalatva.fi INFO Name server ns2.kotinet.com (212.50.192.226) answers queries over UDP.
+170.620: siikalatva.fi INFO Name server ns2.kotinet.com (212.50.192.226) answers queries over TCP.
+171.261: siikalatva.fi INFO Name server ns2.kotinet.com (212.50.192.226) is not recursive.
+173.062: siikalatva.fi INFO Name server ns2.kotinet.com (212.50.192.226) authoritative for siikalatva.fi.
+173.433: siikalatva.fi INFO Name server ns2.kotinet.com (212.50.192.226) closed for zone transfer of siikalatva.fi.
+173.791: siikalatva.fi INFO Legacy name server ID for ns2.kotinet.com (212.50.192.226): hostname.bind = ns2
+174.386: siikalatva.fi INFO Legacy name server ID for ns2.kotinet.com (212.50.192.226): version.bind = enkerro
+175.063: siikalatva.fi NOTICE No answer received from 212.50.192.226 when querying for version.server/CH/TXT.
+175.063: siikalatva.fi INFO Done testing name server ns2.kotinet.com.
+175.063: siikalatva.fi INFO Begin testing name server ns3.kotinet.com.
+175.063: siikalatva.fi INFO Begin testing host ns3.kotinet.com.
+177.779: siikalatva.fi INFO Begin testing address 82.141.108.26.
+183.643: siikalatva.fi INFO Done testing address 82.141.108.26.
+183.643: siikalatva.fi INFO Done testing host ns3.kotinet.com.
+186.632: siikalatva.fi INFO Name server ns3.kotinet.com (82.141.108.26) answers queries over UDP.
+187.077: siikalatva.fi INFO Name server ns3.kotinet.com (82.141.108.26) answers queries over TCP.
+187.674: siikalatva.fi INFO Name server ns3.kotinet.com (82.141.108.26) is not recursive.
+189.148: siikalatva.fi INFO Name server ns3.kotinet.com (82.141.108.26) authoritative for siikalatva.fi.
+189.670: siikalatva.fi INFO Name server ns3.kotinet.com (82.141.108.26) closed for zone transfer of siikalatva.fi.
+190.103: siikalatva.fi INFO Legacy name server ID for ns3.kotinet.com (82.141.108.26): hostname.bind = ns3.kotinet.com
+190.531: siikalatva.fi INFO Legacy name server ID for ns3.kotinet.com (82.141.108.26): version.bind = enkerro
+191.136: siikalatva.fi NOTICE No answer received from 82.141.108.26 when querying for version.server/CH/TXT.
+191.136: siikalatva.fi INFO Done testing name server ns3.kotinet.com.
+191.136: siikalatva.fi INFO Begin testing zone consistency for siikalatva.fi.
+206.208: siikalatva.fi INFO SOA at address 212.50.192.226 has serial 2011030213.
+206.831: siikalatva.fi INFO SOA at address 82.141.108.26 has serial 2011030213.
+207.133: siikalatva.fi INFO SOA at address 212.50.211.242 has serial 2011030213.
+207.133: siikalatva.fi INFO All SOA records have consistent serial numbers.
+207.133: siikalatva.fi INFO All other fields in the SOA record are consistent among all name servers.
+215.304: siikalatva.fi NOTICE The listed nameservers for siikalatva.fi all report the same set of nameservers.
+215.304: siikalatva.fi INFO Done testing zone consistency for siikalatva.fi.
+215.304: siikalatva.fi INFO Begin testing SOA parameters for siikalatva.fi.
+215.772: siikalatva.fi INFO Found SOA record for siikalatva.fi.
+215.772: siikalatva.fi INFO Begin testing host ns3.kotinet.com.
+218.830: siikalatva.fi INFO Begin testing address 82.141.108.26.
+221.447: siikalatva.fi INFO Done testing address 82.141.108.26.
+221.447: siikalatva.fi INFO Done testing host ns3.kotinet.com.
+221.447: siikalatva.fi INFO SOA MNAME for siikalatva.fi valid (ns3.kotinet.com).
+221.447: siikalatva.fi INFO SOA MNAME for siikalatva.fi (ns3.kotinet.com) listed as NS.
+223.960: siikalatva.fi INFO SOA MNAME for siikalatva.fi (ns3.kotinet.com) is authoritative.
+223.960: siikalatva.fi INFO Begin testing email address root@adonis.kotinet.com.
+228.334: siikalatva.fi INFO Mail exchangers for root@adonis.kotinet.com found adonis.kotinet.com.
+228.614: siikalatva.fi INFO Begin testing host adonis.kotinet.com.
+230.650: siikalatva.fi INFO Begin testing address 212.50.211.55.
+237.281: siikalatva.fi INFO Done testing address 212.50.211.55.
+237.281: siikalatva.fi INFO Done testing host adonis.kotinet.com.
+239.179: siikalatva.fi INFO Done testing email address root@adonis.kotinet.com.
+239.180: siikalatva.fi INFO Successful attempt to deliver email for SOA RNAME of siikalatva.fi (root.adonis.kotinet.com) using root@adonis.kotinet.com.
+239.180: siikalatva.fi INFO SOA TTL for siikalatva.fi OK (86400) - recommended >= 3600.
+239.180: siikalatva.fi INFO SOA refresh for siikalatva.fi OK (28800) - recommended >= 14400.
+239.180: siikalatva.fi INFO SOA retry for siikalatva.fi OK (7200) - recommended >= 3600.
+239.180: siikalatva.fi INFO SOA expire for siikalatva.fi OK (1209600) - recommended >= 604800.
+239.180: siikalatva.fi INFO SOA minimum for siikalatva.fi OK (86400) - recommended between 300 and 86400.
+239.180: siikalatva.fi INFO Done testing SOA parameters for siikalatva.fi.
+239.181: siikalatva.fi INFO Begin testing connectivity for siikalatva.fi.
+250.668: siikalatva.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+250.669: siikalatva.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+250.669: siikalatva.fi INFO Done testing connectivity for siikalatva.fi.
+250.669: siikalatva.fi INFO Begin testing DNSSEC for siikalatva.fi.
+251.504: siikalatva.fi INFO Did not find DS record for siikalatva.fi at parent.
+252.977: siikalatva.fi INFO Servers for siikalatva.fi have consistent extra processing status.
+253.435: siikalatva.fi INFO Authenticated denial records not found for siikalatva.fi.
+253.859: siikalatva.fi INFO Did not find DNSKEY record for siikalatva.fi at child.
+253.859: siikalatva.fi INFO No DNSKEY(s) found at child, other tests skipped.
+253.859: siikalatva.fi INFO Done testing DNSSEC for siikalatva.fi.
+253.860: siikalatva.fi INFO Test completed for zone siikalatva.fi.

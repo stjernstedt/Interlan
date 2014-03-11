@@ -1,0 +1,88 @@
+  0.000: sakyla.fi INFO Begin testing zone sakyla.fi with version 1.5.0.
+  2.044: sakyla.fi INFO Begin testing delegation for sakyla.fi.
+ 56.944: sakyla.fi INFO Name servers listed at parent: ns1.taajama.fi,ns4.taajama.fi
+ 70.635: sakyla.fi INFO Name servers listed at child: ns1.taajama.fi,ns4.taajama.fi
+ 70.636: sakyla.fi NOTICE No IPv6 name servers found.
+ 71.353: sakyla.fi INFO Parent glue for sakyla.fi found: ns1.taajama.fi (83.102.40.26)
+ 72.327: sakyla.fi INFO Parent glue for sakyla.fi found: ns4.taajama.fi (83.102.40.27)
+ 72.920: sakyla.fi INFO Checking glue for ns1.taajama.fi (83.102.40.26).
+ 72.920: sakyla.fi INFO Checking glue for ns4.taajama.fi (83.102.40.27).
+ 72.920: sakyla.fi INFO Parent glue for sakyla.fi found: ns1.taajama.fi (83.102.40.26)
+ 72.920: sakyla.fi INFO Parent glue for sakyla.fi found: ns4.taajama.fi (83.102.40.27)
+ 80.008: sakyla.fi INFO It is possible to build a referral packet for sakyla.fi that works without EDNS0.
+ 85.819: sakyla.fi INFO Previously used name servers for sakyla.fi: 
+ 85.819: sakyla.fi INFO Done testing delegation for sakyla.fi.
+ 85.819: sakyla.fi INFO Begin testing name server ns1.taajama.fi.
+ 85.819: sakyla.fi INFO Begin testing host ns1.taajama.fi.
+ 88.611: sakyla.fi INFO Begin testing address 83.102.40.26.
+126.674: sakyla.fi INFO Done testing address 83.102.40.26.
+126.674: sakyla.fi INFO Done testing host ns1.taajama.fi.
+130.276: sakyla.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over UDP.
+131.059: sakyla.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over TCP.
+131.659: sakyla.fi INFO Name server ns1.taajama.fi (83.102.40.26) is not recursive.
+133.632: sakyla.fi INFO Name server ns1.taajama.fi (83.102.40.26) authoritative for sakyla.fi.
+134.440: sakyla.fi INFO Name server ns1.taajama.fi (83.102.40.26) closed for zone transfer of sakyla.fi.
+135.041: sakyla.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): hostname.bind = kotkarausku
+135.922: sakyla.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): version.bind = Not disclosed
+136.997: sakyla.fi NOTICE No answer received from 83.102.40.26 when querying for version.server/CH/TXT.
+136.997: sakyla.fi INFO Done testing name server ns1.taajama.fi.
+136.997: sakyla.fi INFO Begin testing name server ns4.taajama.fi.
+136.997: sakyla.fi INFO Begin testing host ns4.taajama.fi.
+140.300: sakyla.fi INFO Begin testing address 83.102.40.27.
+146.619: sakyla.fi INFO Done testing address 83.102.40.27.
+146.619: sakyla.fi INFO Done testing host ns4.taajama.fi.
+149.988: sakyla.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over UDP.
+150.488: sakyla.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over TCP.
+151.083: sakyla.fi INFO Name server ns4.taajama.fi (83.102.40.27) is not recursive.
+152.620: sakyla.fi INFO Name server ns4.taajama.fi (83.102.40.27) authoritative for sakyla.fi.
+153.060: sakyla.fi INFO Name server ns4.taajama.fi (83.102.40.27) closed for zone transfer of sakyla.fi.
+153.493: sakyla.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): hostname.bind = lapiorausku
+154.039: sakyla.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): version.bind = Not disclosed
+154.783: sakyla.fi NOTICE No answer received from 83.102.40.27 when querying for version.server/CH/TXT.
+154.783: sakyla.fi INFO Done testing name server ns4.taajama.fi.
+154.783: sakyla.fi INFO Begin testing zone consistency for sakyla.fi.
+167.240: sakyla.fi INFO SOA at address 83.102.40.26 has serial 2013031101.
+167.812: sakyla.fi INFO SOA at address 83.102.40.27 has serial 2013031101.
+167.812: sakyla.fi INFO All SOA records have consistent serial numbers.
+167.812: sakyla.fi INFO All other fields in the SOA record are consistent among all name servers.
+174.819: sakyla.fi NOTICE The listed nameservers for sakyla.fi all report the same set of nameservers.
+174.820: sakyla.fi INFO Done testing zone consistency for sakyla.fi.
+174.820: sakyla.fi INFO Begin testing SOA parameters for sakyla.fi.
+175.243: sakyla.fi INFO Found SOA record for sakyla.fi.
+175.244: sakyla.fi INFO Begin testing host ns1.taajama.fi.
+178.029: sakyla.fi INFO Begin testing address 83.102.40.26.
+180.795: sakyla.fi INFO Done testing address 83.102.40.26.
+180.795: sakyla.fi INFO Done testing host ns1.taajama.fi.
+180.796: sakyla.fi INFO SOA MNAME for sakyla.fi valid (ns1.taajama.fi).
+180.796: sakyla.fi INFO SOA MNAME for sakyla.fi (ns1.taajama.fi) listed as NS.
+184.039: sakyla.fi INFO SOA MNAME for sakyla.fi (ns1.taajama.fi) is authoritative.
+184.039: sakyla.fi INFO Begin testing email address hostmaster@taajama.com.
+186.623: sakyla.fi INFO Mail exchangers for hostmaster@taajama.com found spp.taajama.fi,mx2.taajama.com.
+186.624: sakyla.fi INFO Begin testing host spp.taajama.fi.
+192.239: sakyla.fi INFO Begin testing address 217.78.212.151.
+197.369: sakyla.fi INFO Done testing address 217.78.212.151.
+197.369: sakyla.fi INFO Done testing host spp.taajama.fi.
+199.831: sakyla.fi INFO Begin testing host mx2.taajama.com.
+203.570: sakyla.fi INFO Begin testing address 83.102.41.75.
+208.071: sakyla.fi INFO Done testing address 83.102.41.75.
+208.071: sakyla.fi INFO Done testing host mx2.taajama.com.
+209.916: sakyla.fi INFO Done testing email address hostmaster@taajama.com.
+209.916: sakyla.fi INFO Successful attempt to deliver email for SOA RNAME of sakyla.fi (hostmaster.taajama.com) using hostmaster@taajama.com.
+209.916: sakyla.fi INFO SOA TTL for sakyla.fi OK (28800) - recommended >= 3600.
+209.917: sakyla.fi INFO SOA refresh for sakyla.fi OK (28800) - recommended >= 14400.
+209.917: sakyla.fi INFO SOA retry for sakyla.fi OK (7200) - recommended >= 3600.
+209.917: sakyla.fi INFO SOA expire for sakyla.fi OK (1814400) - recommended >= 604800.
+209.917: sakyla.fi INFO SOA minimum for sakyla.fi OK (86400) - recommended between 300 and 86400.
+209.917: sakyla.fi INFO Done testing SOA parameters for sakyla.fi.
+209.917: sakyla.fi INFO Begin testing connectivity for sakyla.fi.
+215.632: sakyla.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+215.633: sakyla.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+215.633: sakyla.fi INFO Done testing connectivity for sakyla.fi.
+215.633: sakyla.fi INFO Begin testing DNSSEC for sakyla.fi.
+216.672: sakyla.fi INFO Did not find DS record for sakyla.fi at parent.
+217.662: sakyla.fi INFO Servers for sakyla.fi have consistent extra processing status.
+218.335: sakyla.fi INFO Authenticated denial records not found for sakyla.fi.
+218.759: sakyla.fi INFO Did not find DNSKEY record for sakyla.fi at child.
+218.759: sakyla.fi INFO No DNSKEY(s) found at child, other tests skipped.
+218.759: sakyla.fi INFO Done testing DNSSEC for sakyla.fi.
+218.759: sakyla.fi INFO Test completed for zone sakyla.fi.

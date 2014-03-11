@@ -1,0 +1,95 @@
+  0.000: sorsele.se INFO Begin testing zone sorsele.se with version 1.0.1.
+  0.001: sorsele.se INFO Begin testing delegation for sorsele.se.
+  0.864: sorsele.se INFO Name servers listed at parent: dns.umea.se,ns.sorsele.se
+  1.013: sorsele.se INFO Name servers listed at child: dns.umea.se,ns.sorsele.se
+  1.013: sorsele.se NOTICE No IPv6 name servers found.
+  1.059: sorsele.se INFO Parent glue for sorsele.se found: dns.umea.se (194.165.224.165)
+  1.098: sorsele.se INFO Parent glue for sorsele.se found: ns.sorsele.se (80.88.99.11)
+  1.115: sorsele.se INFO Checking glue for dns.umea.se (194.165.224.165).
+  1.115: sorsele.se INFO Checking glue for ns.sorsele.se (80.88.99.11).
+  1.135: sorsele.se INFO Child glue for sorsele.se found: ns.sorsele.se (80.88.99.11)
+  1.135: sorsele.se INFO Done testing delegation for sorsele.se.
+  1.136: sorsele.se INFO Begin testing name server dns.umea.se.
+  1.136: sorsele.se INFO Begin testing host dns.umea.se.
+  1.137: sorsele.se INFO Begin testing address 194.165.224.165.
+  3.970: sorsele.se INFO Done testing address 194.165.224.165.
+  3.971: sorsele.se INFO Done testing host dns.umea.se.
+  3.999: sorsele.se INFO Name server dns.umea.se (194.165.224.165) is not recursive.
+  4.037: sorsele.se INFO Name server dns.umea.se (194.165.224.165) authoritative for sorsele.se.
+  4.065: sorsele.se INFO Name server dns.umea.se (194.165.224.165) answers queries over UDP.
+  4.114: sorsele.se INFO Name server dns.umea.se (194.165.224.165) answers queries over TCP.
+  4.177: sorsele.se INFO Name server dns.umea.se (194.165.224.165) closed for zone transfer of sorsele.se.
+  4.209: sorsele.se INFO Legacy name server ID for dns.umea.se (194.165.224.165): hostname.bind = dns2mgmt.norrnod.se
+ 10.269: sorsele.se NOTICE No answer received from 194.165.224.165 when querying for version.server/CH/TXT.
+ 10.270: sorsele.se INFO Done testing name server dns.umea.se.
+ 10.270: sorsele.se INFO Begin testing name server ns.sorsele.se.
+ 10.271: sorsele.se INFO Begin testing host ns.sorsele.se.
+ 10.272: sorsele.se INFO Begin testing address 80.88.99.11.
+ 28.594: sorsele.se INFO Done testing address 80.88.99.11.
+ 28.594: sorsele.se INFO Done testing host ns.sorsele.se.
+ 28.843: sorsele.se INFO Name server ns.sorsele.se (80.88.99.11) is not recursive.
+ 28.864: sorsele.se INFO Name server ns.sorsele.se (80.88.99.11) authoritative for sorsele.se.
+ 28.884: sorsele.se INFO Name server ns.sorsele.se (80.88.99.11) answers queries over UDP.
+ 28.919: sorsele.se INFO Name server ns.sorsele.se (80.88.99.11) answers queries over TCP.
+ 29.080: sorsele.se NOTICE Name server ns.sorsele.se (80.88.99.11) open for zone transfer of sorsele.se.
+ 29.099: sorsele.se NOTICE No answer received from 80.88.99.11 when querying for hostname.bind/CH/TXT.
+ 47.116: sorsele.se INFO Done testing name server ns.sorsele.se.
+ 47.117: sorsele.se INFO Begin testing zone consistency for sorsele.se.
+ 47.144: sorsele.se INFO SOA at address 80.88.99.11 has serial 137.
+ 47.172: sorsele.se INFO SOA at address 194.165.224.165 has serial 137.
+ 47.172: sorsele.se INFO All SOA records have consistent serial numbers.
+ 47.172: sorsele.se INFO All SOA records are consistent among all name servers.
+ 47.173: sorsele.se INFO Done testing zone consistency for sorsele.se.
+ 47.173: sorsele.se INFO Begin testing SOA parameters for sorsele.se.
+ 47.193: sorsele.se INFO Found SOA record for sorsele.se.
+ 47.194: sorsele.se INFO Begin testing host ns.sorsele.se.
+ 47.195: sorsele.se INFO Begin testing address 80.88.99.11.
+ 47.197: sorsele.se INFO Done testing address 80.88.99.11.
+ 47.197: sorsele.se INFO Done testing host ns.sorsele.se.
+ 47.198: sorsele.se INFO SOA MNAME for sorsele.se valid (ns.sorsele.se).
+ 47.198: sorsele.se INFO SOA MNAME for sorsele.se (ns.sorsele.se) listed as NS.
+ 47.219: sorsele.se INFO SOA MNAME for sorsele.se (ns.sorsele.se) is authoritative.
+ 47.220: sorsele.se INFO Begin testing email address mae@sorsele.se.
+ 47.246: sorsele.se INFO Mail exchangers for mae@sorsele.se found dkcphmx72.softcom.dk,deframx26.softcom.dk,dkcphmx74.softcom.dk.
+ 47.246: sorsele.se INFO Begin testing host dkcphmx72.softcom.dk.
+ 47.420: sorsele.se INFO Begin testing address 194.192.15.203.
+ 48.201: sorsele.se INFO Done testing address 194.192.15.203.
+ 48.201: sorsele.se INFO Done testing host dkcphmx72.softcom.dk.
+ 48.202: sorsele.se INFO Begin testing mail server dkcphmx72.softcom.dk (194.192.15.203) with mae@sorsele.se.
+ 60.122: sorsele.se INFO SMTP banner: dkcphmx72.softcom.dk ESMTP ready;
+ 60.208: sorsele.se INFO SMTP testing of dkcphmx72.softcom.dk (194.192.15.203) with mae@sorsele.se succeeded without errors.
+ 60.209: sorsele.se INFO Done testing mail server dkcphmx72.softcom.dk (194.192.15.203) with mae@sorsele.se.
+ 60.209: sorsele.se INFO Begin testing host deframx26.softcom.dk.
+ 60.278: sorsele.se INFO Begin testing address 87.230.83.92.
+ 61.407: sorsele.se INFO Done testing address 87.230.83.92.
+ 61.407: sorsele.se INFO Done testing host deframx26.softcom.dk.
+ 61.408: sorsele.se INFO Begin testing host dkcphmx74.softcom.dk.
+ 61.475: sorsele.se INFO Begin testing address 213.150.52.219.
+ 61.702: sorsele.se INFO Done testing address 213.150.52.219.
+ 61.702: sorsele.se INFO Done testing host dkcphmx74.softcom.dk.
+ 61.703: sorsele.se INFO Delivery over IPv4 to mae@sorsele.se ok.
+ 61.703: sorsele.se INFO Delivery over IPv6 to mae@sorsele.se could not be done.
+ 61.703: sorsele.se INFO Done testing email address mae@sorsele.se.
+ 61.704: sorsele.se INFO Successful attempt to deliver email for SOA RNAME of sorsele.se (mae.sorsele.se) using mae@sorsele.se.
+ 61.704: sorsele.se INFO SOA TTL for sorsele.se OK (3600) - recommended >= 3600.
+ 61.704: sorsele.se INFO SOA refresh for sorsele.se OK (14400) - recommended >= 14400.
+ 61.704: sorsele.se INFO SOA retry for sorsele.se OK (3600) - recommended >= 3600.
+ 61.704: sorsele.se INFO SOA expire for sorsele.se OK (604800) - recommended >= 604800.
+ 61.705: sorsele.se INFO SOA minimum for sorsele.se OK (3600) - recommended between 300 and 86400.
+ 61.705: sorsele.se INFO Done testing SOA parameters for sorsele.se.
+ 61.705: sorsele.se INFO Begin testing connectivity for sorsele.se.
+ 62.341: sorsele.se INFO Name server 80.88.99.11 announced by: 25176
+ 62.507: sorsele.se INFO Name server 194.165.224.165 announced by: 12501
+ 62.507: sorsele.se INFO Zone announced by ASN: 12501,25176
+ 62.507: sorsele.se INFO Zone announced by more than one ASN (2).
+ 62.508: sorsele.se INFO Zone announced by IPv6 ASN: 
+ 62.508: sorsele.se NOTICE Zone announced by only one IPv6 ASN (0).
+ 62.508: sorsele.se INFO Done testing connectivity for sorsele.se.
+ 62.508: sorsele.se INFO Begin testing DNSSEC for sorsele.se.
+ 62.531: sorsele.se INFO Did not find DS record for sorsele.se at parent.
+ 67.551: sorsele.se NOTICE DNS lookup error (timeout).
+ 67.600: sorsele.se INFO Servers for sorsele.se have consistent extra processing status.
+ 67.600: sorsele.se INFO Did not find DNSKEY record for sorsele.se at child.
+ 67.601: sorsele.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 67.601: sorsele.se INFO Done testing DNSSEC for sorsele.se.
+ 67.601: sorsele.se INFO Test completed for zone sorsele.se.

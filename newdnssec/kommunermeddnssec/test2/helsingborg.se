@@ -1,0 +1,134 @@
+  0.000: helsingborg.se INFO Begin testing zone helsingborg.se with version 1.2.
+  0.000: helsingborg.se INFO Begin testing delegation for helsingborg.se.
+  5.146: helsingborg.se INFO Name servers listed at parent: hbgstad.helsingborg.se,ns1.oresundskraft.se
+ 10.424: helsingborg.se INFO Name servers listed at child: hbgstad.helsingborg.se,ns1.oresundskraft.se
+ 10.424: helsingborg.se NOTICE No IPv6 name servers found.
+ 10.434: helsingborg.se INFO Parent glue for helsingborg.se found: hbgstad.helsingborg.se (193.180.104.10)
+ 10.484: helsingborg.se INFO Parent glue for helsingborg.se found: ns1.oresundskraft.se (80.89.160.20)
+ 10.506: helsingborg.se INFO Checking glue for hbgstad.helsingborg.se (193.180.104.10).
+ 10.530: helsingborg.se INFO Child glue for helsingborg.se found: hbgstad.helsingborg.se (193.180.104.10)
+ 10.530: helsingborg.se INFO Checking glue for ns1.oresundskraft.se (80.89.160.20).
+ 10.531: helsingborg.se INFO Parent glue for helsingborg.se found: hbgstad.helsingborg.se (193.180.104.10)
+ 10.531: helsingborg.se INFO Parent glue for helsingborg.se found: ns1.oresundskraft.se (80.89.160.20)
+ 10.532: helsingborg.se INFO Done testing delegation for helsingborg.se.
+ 10.533: helsingborg.se INFO Begin testing name server hbgstad.helsingborg.se.
+ 10.533: helsingborg.se INFO Begin testing host hbgstad.helsingborg.se.
+ 10.533: helsingborg.se INFO Begin testing address 193.180.104.10.
+ 15.708: helsingborg.se INFO Done testing address 193.180.104.10.
+ 15.708: helsingborg.se INFO Done testing host hbgstad.helsingborg.se.
+ 15.737: helsingborg.se INFO Name server hbgstad.helsingborg.se (193.180.104.10) answers queries over UDP.
+ 15.790: helsingborg.se INFO Name server hbgstad.helsingborg.se (193.180.104.10) answers queries over TCP.
+ 15.818: helsingborg.se INFO Name server hbgstad.helsingborg.se (193.180.104.10) is not recursive.
+ 15.845: helsingborg.se INFO Name server hbgstad.helsingborg.se (193.180.104.10) authoritative for helsingborg.se.
+ 16.031: helsingborg.se INFO Name server hbgstad.helsingborg.se (193.180.104.10) closed for zone transfer of helsingborg.se.
+ 16.058: helsingborg.se NOTICE No answer received from 193.180.104.10 when querying for hostname.bind/CH/TXT.
+ 34.058: helsingborg.se INFO Done testing name server hbgstad.helsingborg.se.
+ 34.058: helsingborg.se INFO Begin testing name server ns1.oresundskraft.se.
+ 34.058: helsingborg.se INFO Begin testing host ns1.oresundskraft.se.
+ 34.058: helsingborg.se INFO Begin testing address 80.89.160.20.
+ 34.319: helsingborg.se INFO Done testing address 80.89.160.20.
+ 34.319: helsingborg.se INFO Done testing host ns1.oresundskraft.se.
+ 34.342: helsingborg.se INFO Name server ns1.oresundskraft.se (80.89.160.20) answers queries over UDP.
+ 34.384: helsingborg.se INFO Name server ns1.oresundskraft.se (80.89.160.20) answers queries over TCP.
+ 34.406: helsingborg.se INFO Name server ns1.oresundskraft.se (80.89.160.20) is not recursive.
+ 34.428: helsingborg.se INFO Name server ns1.oresundskraft.se (80.89.160.20) authoritative for helsingborg.se.
+ 34.604: helsingborg.se INFO Name server ns1.oresundskraft.se (80.89.160.20) closed for zone transfer of helsingborg.se.
+ 58.606: helsingborg.se INFO Done testing name server ns1.oresundskraft.se.
+ 58.606: helsingborg.se INFO Begin testing zone consistency for helsingborg.se.
+ 58.635: helsingborg.se INFO SOA at address 80.89.160.20 has serial 2010112918.
+ 58.662: helsingborg.se INFO SOA at address 193.180.104.10 has serial 2010112918.
+ 58.663: helsingborg.se INFO All SOA records have consistent serial numbers.
+ 58.663: helsingborg.se INFO All SOA records are consistent among all name servers.
+ 58.663: helsingborg.se INFO Done testing zone consistency for helsingborg.se.
+ 58.663: helsingborg.se INFO Begin testing SOA parameters for helsingborg.se.
+ 58.686: helsingborg.se INFO Found SOA record for helsingborg.se.
+ 58.686: helsingborg.se INFO Begin testing host ns1.oresundskraft.se.
+ 58.686: helsingborg.se INFO Begin testing address 80.89.160.20.
+ 58.688: helsingborg.se INFO Done testing address 80.89.160.20.
+ 58.688: helsingborg.se INFO Done testing host ns1.oresundskraft.se.
+ 58.688: helsingborg.se INFO SOA MNAME for helsingborg.se valid (ns1.oresundskraft.se).
+ 58.688: helsingborg.se INFO SOA MNAME for helsingborg.se (ns1.oresundskraft.se) listed as NS.
+ 58.711: helsingborg.se INFO SOA MNAME for helsingborg.se (ns1.oresundskraft.se) is authoritative.
+ 58.711: helsingborg.se INFO Begin testing email address registry@oresundskraft.se.
+ 58.943: helsingborg.se INFO Mail exchangers for registry@oresundskraft.se found mail1.mailwashing.com,mail3.mailwashing.com,mail4.mailwashing.com,mail2.mailwashing.com.
+ 58.943: helsingborg.se INFO Begin testing host mail1.mailwashing.com.
+ 59.740: helsingborg.se INFO Begin testing address 193.12.177.92.
+ 60.752: helsingborg.se INFO Done testing address 193.12.177.92.
+ 60.753: helsingborg.se INFO Begin testing address 193.12.177.92.
+ 60.754: helsingborg.se INFO Done testing address 193.12.177.92.
+ 60.754: helsingborg.se INFO Begin testing address 193.12.177.91.
+ 61.349: helsingborg.se INFO Done testing address 193.12.177.91.
+ 61.350: helsingborg.se INFO Begin testing address 193.12.177.92.
+ 61.351: helsingborg.se INFO Done testing address 193.12.177.92.
+ 61.351: helsingborg.se INFO Begin testing address 193.12.177.92.
+ 61.353: helsingborg.se INFO Done testing address 193.12.177.92.
+ 61.353: helsingborg.se INFO Begin testing address 193.12.177.92.
+ 61.354: helsingborg.se INFO Done testing address 193.12.177.92.
+ 61.354: helsingborg.se INFO Done testing host mail1.mailwashing.com.
+ 61.355: helsingborg.se INFO Begin testing mail server mail1.mailwashing.com (193.12.177.92) with registry@oresundskraft.se.
+ 61.421: helsingborg.se INFO SMTP banner: mail2.mailwashing.com ESMTP postfix-mailwashing
+ 61.565: helsingborg.se INFO SMTP testing of mail1.mailwashing.com (193.12.177.92) with registry@oresundskraft.se succeeded without errors.
+ 61.565: helsingborg.se INFO Done testing mail server mail1.mailwashing.com (193.12.177.92) with registry@oresundskraft.se.
+ 61.566: helsingborg.se INFO Begin testing host mail3.mailwashing.com.
+ 62.267: helsingborg.se INFO Begin testing address 193.12.177.92.
+ 62.268: helsingborg.se INFO Done testing address 193.12.177.92.
+ 62.268: helsingborg.se INFO Begin testing address 193.12.177.92.
+ 62.270: helsingborg.se INFO Done testing address 193.12.177.92.
+ 62.270: helsingborg.se INFO Begin testing address 193.12.177.92.
+ 62.271: helsingborg.se INFO Done testing address 193.12.177.92.
+ 62.271: helsingborg.se INFO Begin testing address 193.12.177.92.
+ 62.273: helsingborg.se INFO Done testing address 193.12.177.92.
+ 62.273: helsingborg.se INFO Begin testing address 193.12.177.92.
+ 62.274: helsingborg.se INFO Done testing address 193.12.177.92.
+ 62.275: helsingborg.se INFO Begin testing address 193.12.177.92.
+ 62.276: helsingborg.se INFO Done testing address 193.12.177.92.
+ 62.276: helsingborg.se INFO Done testing host mail3.mailwashing.com.
+ 62.277: helsingborg.se INFO Begin testing host mail4.mailwashing.com.
+ 63.047: helsingborg.se INFO Begin testing address 193.12.177.92.
+ 63.048: helsingborg.se INFO Done testing address 193.12.177.92.
+ 63.048: helsingborg.se INFO Begin testing address 193.12.177.92.
+ 63.050: helsingborg.se INFO Done testing address 193.12.177.92.
+ 63.050: helsingborg.se INFO Begin testing address 193.12.177.92.
+ 63.051: helsingborg.se INFO Done testing address 193.12.177.92.
+ 63.051: helsingborg.se INFO Begin testing address 193.12.177.92.
+ 63.053: helsingborg.se INFO Done testing address 193.12.177.92.
+ 63.053: helsingborg.se INFO Begin testing address 193.12.177.92.
+ 63.054: helsingborg.se INFO Done testing address 193.12.177.92.
+ 63.055: helsingborg.se INFO Begin testing address 193.12.177.92.
+ 63.056: helsingborg.se INFO Done testing address 193.12.177.92.
+ 63.056: helsingborg.se INFO Done testing host mail4.mailwashing.com.
+ 63.057: helsingborg.se INFO Begin testing host mail2.mailwashing.com.
+ 63.057: helsingborg.se INFO Begin testing address 193.12.177.92.
+ 63.058: helsingborg.se INFO Done testing address 193.12.177.92.
+ 63.059: helsingborg.se INFO Begin testing address 193.12.177.92.
+ 63.060: helsingborg.se INFO Done testing address 193.12.177.92.
+ 63.060: helsingborg.se INFO Begin testing address 193.12.177.92.
+ 63.062: helsingborg.se INFO Done testing address 193.12.177.92.
+ 63.062: helsingborg.se INFO Begin testing address 193.12.177.92.
+ 63.063: helsingborg.se INFO Done testing address 193.12.177.92.
+ 63.063: helsingborg.se INFO Done testing host mail2.mailwashing.com.
+ 63.064: helsingborg.se INFO Delivery over IPv4 to registry@oresundskraft.se ok.
+ 63.064: helsingborg.se INFO Delivery over IPv6 to registry@oresundskraft.se could not be done.
+ 63.064: helsingborg.se INFO Done testing email address registry@oresundskraft.se.
+ 63.064: helsingborg.se INFO Successful attempt to deliver email for SOA RNAME of helsingborg.se (registry.oresundskraft.se) using registry@oresundskraft.se.
+ 63.064: helsingborg.se INFO SOA TTL for helsingborg.se OK (10800) - recommended >= 3600.
+ 63.064: helsingborg.se INFO SOA refresh for helsingborg.se OK (14400) - recommended >= 14400.
+ 63.064: helsingborg.se INFO SOA retry for helsingborg.se OK (3600) - recommended >= 3600.
+ 63.064: helsingborg.se INFO SOA expire for helsingborg.se OK (604800) - recommended >= 604800.
+ 63.064: helsingborg.se INFO SOA minimum for helsingborg.se OK (3600) - recommended between 300 and 86400.
+ 63.065: helsingborg.se INFO Done testing SOA parameters for helsingborg.se.
+ 63.065: helsingborg.se INFO Begin testing connectivity for helsingborg.se.
+ 63.600: helsingborg.se INFO Name server 80.89.160.20 announced by: 8434
+ 64.085: helsingborg.se INFO Name server 193.180.104.10 announced by: 8434
+ 64.085: helsingborg.se INFO Zone announced by IPv4 ASN: 8434
+ 64.086: helsingborg.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 64.086: helsingborg.se INFO Zone announced by IPv6 ASN: 
+ 64.086: helsingborg.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 64.086: helsingborg.se INFO Done testing connectivity for helsingborg.se.
+ 64.086: helsingborg.se INFO Begin testing DNSSEC for helsingborg.se.
+ 64.197: helsingborg.se INFO Did not find DS record for helsingborg.se at parent.
+ 64.290: helsingborg.se INFO Servers for helsingborg.se have consistent extra processing status.
+ 64.290: helsingborg.se INFO Did not find DNSKEY record for helsingborg.se at child.
+ 64.290: helsingborg.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 64.290: helsingborg.se INFO Done testing DNSSEC for helsingborg.se.
+ 64.290: helsingborg.se INFO Test completed for zone helsingborg.se.

@@ -1,0 +1,82 @@
+  0.000: aremark.kommune.no INFO Begin testing zone aremark.kommune.no with version 1.6.1.
+  0.418: aremark.kommune.no INFO Begin testing delegation for aremark.kommune.no.
+  8.383: aremark.kommune.no INFO Name servers listed at parent: ns1.halden.net,ns2.halden.net
+ 10.197: aremark.kommune.no INFO Name servers listed at child: ns1.halden.net,ns2.halden.net
+ 10.197: aremark.kommune.no NOTICE No IPv6 name servers found.
+ 10.335: aremark.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.470: aremark.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.628: aremark.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.752: aremark.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.411: aremark.kommune.no INFO It is possible to build a referral packet for aremark.kommune.no that works without EDNS0.
+ 12.312: aremark.kommune.no INFO Previously used name servers for aremark.kommune.no: 
+ 12.312: aremark.kommune.no INFO Done testing delegation for aremark.kommune.no.
+ 12.313: aremark.kommune.no INFO Begin testing name server ns1.halden.net.
+ 12.313: aremark.kommune.no INFO Begin testing host ns1.halden.net.
+ 12.659: aremark.kommune.no INFO Begin testing address 194.69.214.10.
+ 22.375: aremark.kommune.no INFO Done testing address 194.69.214.10.
+ 22.375: aremark.kommune.no INFO Done testing host ns1.halden.net.
+ 22.806: aremark.kommune.no INFO Name server ns1.halden.net (194.69.214.10) answers queries over UDP.
+ 22.859: aremark.kommune.no INFO Name server ns1.halden.net (194.69.214.10) answers queries over TCP.
+ 22.898: aremark.kommune.no WARNING Name server ns1.halden.net (194.69.214.10) is recursive.
+ 23.083: aremark.kommune.no INFO Name server ns1.halden.net (194.69.214.10) authoritative for aremark.kommune.no.
+ 23.148: aremark.kommune.no INFO Name server ns1.halden.net (194.69.214.10) closed for zone transfer of aremark.kommune.no.
+ 23.169: aremark.kommune.no INFO Legacy name server ID for ns1.halden.net (194.69.214.10): hostname.bind = ns1
+ 23.210: aremark.kommune.no INFO Legacy name server ID for ns1.halden.net (194.69.214.10): version.bind = 9.7.3
+ 23.293: aremark.kommune.no NOTICE No answer received from 194.69.214.10 when querying for version.server/CH/TXT.
+ 23.294: aremark.kommune.no INFO Done testing name server ns1.halden.net.
+ 23.294: aremark.kommune.no INFO Begin testing name server ns2.halden.net.
+ 23.294: aremark.kommune.no INFO Begin testing host ns2.halden.net.
+ 23.632: aremark.kommune.no INFO Begin testing address 193.93.128.33.
+ 25.363: aremark.kommune.no INFO Done testing address 193.93.128.33.
+ 25.363: aremark.kommune.no INFO Done testing host ns2.halden.net.
+ 25.664: aremark.kommune.no INFO Name server ns2.halden.net (193.93.128.33) answers queries over UDP.
+ 25.701: aremark.kommune.no INFO Name server ns2.halden.net (193.93.128.33) answers queries over TCP.
+ 25.758: aremark.kommune.no INFO Name server ns2.halden.net (193.93.128.33) is not recursive.
+ 25.855: aremark.kommune.no INFO Name server ns2.halden.net (193.93.128.33) authoritative for aremark.kommune.no.
+ 25.920: aremark.kommune.no INFO Name server ns2.halden.net (193.93.128.33) closed for zone transfer of aremark.kommune.no.
+ 25.954: aremark.kommune.no INFO Legacy name server ID for ns2.halden.net (193.93.128.33): hostname.bind = ns2
+ 25.991: aremark.kommune.no INFO Legacy name server ID for ns2.halden.net (193.93.128.33): version.bind = 9.7.3
+ 26.036: aremark.kommune.no NOTICE No answer received from 193.93.128.33 when querying for version.server/CH/TXT.
+ 26.036: aremark.kommune.no INFO Done testing name server ns2.halden.net.
+ 26.036: aremark.kommune.no INFO Begin testing zone consistency for aremark.kommune.no.
+ 27.487: aremark.kommune.no INFO SOA at address 193.93.128.33 has serial 2014021301.
+ 27.554: aremark.kommune.no INFO SOA at address 194.69.214.10 has serial 2014021301.
+ 27.554: aremark.kommune.no INFO All SOA records have consistent serial numbers.
+ 27.554: aremark.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 28.165: aremark.kommune.no NOTICE The listed nameservers for aremark.kommune.no all report the same set of nameservers.
+ 28.165: aremark.kommune.no INFO Done testing zone consistency for aremark.kommune.no.
+ 28.166: aremark.kommune.no INFO Begin testing SOA parameters for aremark.kommune.no.
+ 28.204: aremark.kommune.no INFO Found SOA record for aremark.kommune.no.
+ 28.204: aremark.kommune.no INFO Begin testing host ns1.halden.net.
+ 28.466: aremark.kommune.no INFO Begin testing address 194.69.214.10.
+ 28.663: aremark.kommune.no INFO Done testing address 194.69.214.10.
+ 28.663: aremark.kommune.no INFO Done testing host ns1.halden.net.
+ 28.663: aremark.kommune.no INFO SOA MNAME for aremark.kommune.no valid (ns1.halden.net).
+ 28.664: aremark.kommune.no INFO SOA MNAME for aremark.kommune.no (ns1.halden.net) listed as NS.
+ 28.909: aremark.kommune.no INFO SOA MNAME for aremark.kommune.no (ns1.halden.net) is authoritative.
+ 28.909: aremark.kommune.no INFO Begin testing email address hostmaster@halden.net.
+ 29.297: aremark.kommune.no INFO Mail exchangers for hostmaster@halden.net found inmail.halden.net.
+ 29.297: aremark.kommune.no INFO Begin testing host inmail.halden.net.
+ 30.050: aremark.kommune.no INFO Begin testing address 194.69.214.104.
+ 30.776: aremark.kommune.no INFO Done testing address 194.69.214.104.
+ 30.776: aremark.kommune.no INFO Done testing host inmail.halden.net.
+ 31.064: aremark.kommune.no INFO Done testing email address hostmaster@halden.net.
+ 31.064: aremark.kommune.no INFO Successful attempt to deliver email for SOA RNAME of aremark.kommune.no (hostmaster.halden.net) using hostmaster@halden.net.
+ 31.064: aremark.kommune.no INFO SOA TTL for aremark.kommune.no OK (86400) - recommended >= 3600.
+ 31.064: aremark.kommune.no INFO SOA refresh for aremark.kommune.no OK (28800) - recommended >= 14400.
+ 31.064: aremark.kommune.no INFO SOA retry for aremark.kommune.no OK (14400) - recommended >= 3600.
+ 31.064: aremark.kommune.no INFO SOA expire for aremark.kommune.no OK (2592000) - recommended >= 604800.
+ 31.064: aremark.kommune.no INFO SOA minimum for aremark.kommune.no OK (86400) - recommended between 300 and 86400.
+ 31.064: aremark.kommune.no INFO Done testing SOA parameters for aremark.kommune.no.
+ 31.064: aremark.kommune.no INFO Begin testing connectivity for aremark.kommune.no.
+ 32.070: aremark.kommune.no INFO Zone announced by more than one ASN.
+ 32.070: aremark.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 32.070: aremark.kommune.no INFO Done testing connectivity for aremark.kommune.no.
+ 32.071: aremark.kommune.no INFO Begin testing DNSSEC for aremark.kommune.no.
+ 32.188: aremark.kommune.no INFO Did not find DS record for aremark.kommune.no at parent.
+ 32.412: aremark.kommune.no INFO Servers for aremark.kommune.no have consistent extra processing status.
+ 32.444: aremark.kommune.no INFO Authenticated denial records not found for aremark.kommune.no.
+ 32.464: aremark.kommune.no INFO Did not find DNSKEY record for aremark.kommune.no at child.
+ 32.464: aremark.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 32.464: aremark.kommune.no INFO Done testing DNSSEC for aremark.kommune.no.
+ 32.465: aremark.kommune.no INFO Test completed for zone aremark.kommune.no.

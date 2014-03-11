@@ -1,0 +1,85 @@
+  0.000: nordnet.se INFO Begin testing zone nordnet.se with version 1.5.0.
+  0.001: nordnet.se INFO Begin testing delegation for nordnet.se.
+  5.207: nordnet.se INFO Name servers listed at parent: dns1.nordnet.se,dns2.nordnet.fi
+  6.403: nordnet.se INFO Name servers listed at child: dns1.nordnet.se,dns2.nordnet.fi
+  6.403: nordnet.se NOTICE No IPv6 name servers found.
+  6.416: nordnet.se INFO Parent glue for nordnet.se found: dns1.nordnet.se (193.111.104.224)
+  6.568: nordnet.se INFO Checking glue for dns1.nordnet.se (193.111.104.224).
+  6.584: nordnet.se INFO Child glue for nordnet.se found: dns1.nordnet.se (193.111.104.224)
+  6.585: nordnet.se INFO Parent glue for nordnet.se found: dns1.nordnet.se (193.111.104.224)
+  7.152: nordnet.se INFO It is possible to build a referral packet for nordnet.se that works without EDNS0.
+  7.152: nordnet.se INFO Done testing delegation for nordnet.se.
+  7.153: nordnet.se INFO Begin testing name server dns1.nordnet.se.
+  7.153: nordnet.se INFO Begin testing host dns1.nordnet.se.
+  7.378: nordnet.se INFO Begin testing address 193.111.104.224.
+ 12.699: nordnet.se WARNING Reverse for 193.111.104.224 points to an unknown host name (host-104-224.nordnet.se).
+ 12.699: nordnet.se INFO Done testing address 193.111.104.224.
+ 12.700: nordnet.se INFO Done testing host dns1.nordnet.se.
+ 12.933: nordnet.se INFO Name server dns1.nordnet.se (193.111.104.224) answers queries over UDP.
+ 12.948: nordnet.se INFO Name server dns1.nordnet.se (193.111.104.224) answers queries over TCP.
+ 12.958: nordnet.se INFO Name server dns1.nordnet.se (193.111.104.224) is not recursive.
+ 12.992: nordnet.se INFO Name server dns1.nordnet.se (193.111.104.224) authoritative for nordnet.se.
+ 13.007: nordnet.se INFO Name server dns1.nordnet.se (193.111.104.224) closed for zone transfer of nordnet.se.
+ 13.016: nordnet.se INFO Legacy name server ID for dns1.nordnet.se (193.111.104.224): hostname.bind = dns1.nordnet.se
+ 13.024: nordnet.se INFO Legacy name server ID for dns1.nordnet.se (193.111.104.224): version.bind = not available
+ 13.041: nordnet.se NOTICE No answer received from 193.111.104.224 when querying for version.server/CH/TXT.
+ 13.041: nordnet.se INFO Done testing name server dns1.nordnet.se.
+ 13.041: nordnet.se INFO Begin testing name server dns2.nordnet.fi.
+ 13.041: nordnet.se INFO Begin testing host dns2.nordnet.fi.
+ 13.286: nordnet.se INFO Begin testing address 193.111.106.209.
+ 14.443: nordnet.se WARNING Reverse for 193.111.106.209 points to an unknown host name (host-106-209.nordnet.se).
+ 14.443: nordnet.se INFO Done testing address 193.111.106.209.
+ 14.443: nordnet.se INFO Done testing host dns2.nordnet.fi.
+ 14.705: nordnet.se INFO Name server dns2.nordnet.fi (193.111.106.209) answers queries over UDP.
+ 14.722: nordnet.se INFO Name server dns2.nordnet.fi (193.111.106.209) answers queries over TCP.
+ 14.731: nordnet.se INFO Name server dns2.nordnet.fi (193.111.106.209) is not recursive.
+ 14.779: nordnet.se INFO Name server dns2.nordnet.fi (193.111.106.209) authoritative for nordnet.se.
+ 14.795: nordnet.se INFO Name server dns2.nordnet.fi (193.111.106.209) closed for zone transfer of nordnet.se.
+ 14.803: nordnet.se INFO Legacy name server ID for dns2.nordnet.fi (193.111.106.209): hostname.bind = dns2.nordnet.fi
+ 14.811: nordnet.se INFO Legacy name server ID for dns2.nordnet.fi (193.111.106.209): version.bind = not available
+ 14.831: nordnet.se NOTICE No answer received from 193.111.106.209 when querying for version.server/CH/TXT.
+ 14.831: nordnet.se INFO Done testing name server dns2.nordnet.fi.
+ 14.832: nordnet.se INFO Begin testing zone consistency for nordnet.se.
+ 15.808: nordnet.se INFO SOA at address 193.111.104.224 has serial 2013071600.
+ 15.823: nordnet.se INFO SOA at address 193.111.106.209 has serial 2013071600.
+ 15.823: nordnet.se INFO All SOA records have consistent serial numbers.
+ 15.824: nordnet.se INFO All other fields in the SOA record are consistent among all name servers.
+ 16.339: nordnet.se NOTICE The listed nameservers for nordnet.se all report the same set of nameservers.
+ 16.339: nordnet.se INFO Done testing zone consistency for nordnet.se.
+ 16.339: nordnet.se INFO Begin testing SOA parameters for nordnet.se.
+ 16.352: nordnet.se INFO Found SOA record for nordnet.se.
+ 16.352: nordnet.se INFO Begin testing host dns1.nordnet.se.
+ 16.589: nordnet.se INFO Begin testing address 193.111.104.224.
+ 16.591: nordnet.se WARNING Reverse for 193.111.104.224 points to an unknown host name (host-104-224.nordnet.se).
+ 16.591: nordnet.se INFO Done testing address 193.111.104.224.
+ 16.591: nordnet.se INFO Done testing host dns1.nordnet.se.
+ 16.591: nordnet.se INFO SOA MNAME for nordnet.se valid (dns1.nordnet.se).
+ 16.592: nordnet.se INFO SOA MNAME for nordnet.se (dns1.nordnet.se) listed as NS.
+ 16.837: nordnet.se INFO SOA MNAME for nordnet.se (dns1.nordnet.se) is authoritative.
+ 16.838: nordnet.se INFO Begin testing email address hostmaster@nordnet.se.
+ 17.074: nordnet.se INFO Mail exchangers for hostmaster@nordnet.se found mailgw.nordnet.se.
+ 17.074: nordnet.se INFO All mail servers for hostmaster@nordnet.se are in zone nordnet.se.
+ 17.074: nordnet.se INFO Begin testing host mailgw.nordnet.se.
+ 17.554: nordnet.se INFO Begin testing address 193.111.107.248.
+ 18.347: nordnet.se INFO Done testing address 193.111.107.248.
+ 18.348: nordnet.se INFO Done testing host mailgw.nordnet.se.
+ 18.575: nordnet.se INFO Done testing email address hostmaster@nordnet.se.
+ 18.575: nordnet.se INFO Successful attempt to deliver email for SOA RNAME of nordnet.se (hostmaster.nordnet.se) using hostmaster@nordnet.se.
+ 18.575: nordnet.se NOTICE SOA TTL for nordnet.se too small (600) - recommended >= 3600.
+ 18.575: nordnet.se INFO SOA refresh for nordnet.se OK (43200) - recommended >= 14400.
+ 18.576: nordnet.se NOTICE SOA retry for nordnet.se too small (180) - recommended >= 3600.
+ 18.576: nordnet.se INFO SOA expire for nordnet.se OK (1814400) - recommended >= 604800.
+ 18.576: nordnet.se INFO SOA minimum for nordnet.se OK (3600) - recommended between 300 and 86400.
+ 18.576: nordnet.se INFO Done testing SOA parameters for nordnet.se.
+ 18.576: nordnet.se INFO Begin testing connectivity for nordnet.se.
+ 20.025: nordnet.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 20.028: nordnet.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 20.028: nordnet.se INFO Done testing connectivity for nordnet.se.
+ 20.028: nordnet.se INFO Begin testing DNSSEC for nordnet.se.
+ 20.044: nordnet.se INFO Did not find DS record for nordnet.se at parent.
+ 20.065: nordnet.se INFO Servers for nordnet.se have consistent extra processing status.
+ 20.075: nordnet.se INFO Authenticated denial records not found for nordnet.se.
+ 20.082: nordnet.se INFO Did not find DNSKEY record for nordnet.se at child.
+ 20.082: nordnet.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 20.082: nordnet.se INFO Done testing DNSSEC for nordnet.se.
+ 20.083: nordnet.se INFO Test completed for zone nordnet.se.

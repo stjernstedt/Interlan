@@ -1,0 +1,88 @@
+  0.000: billund.dk INFO Begin testing zone billund.dk with version 1.6.1.
+  0.397: billund.dk INFO Begin testing delegation for billund.dk.
+  5.490: billund.dk INFO Name servers listed at parent: ns-auth03.kmd.dk,ns-auth04.kmd.dk
+  7.303: billund.dk INFO Name servers listed at child: ns-auth03.kmd.dk,ns-auth04.kmd.dk
+  7.303: billund.dk NOTICE No IPv6 name servers found.
+  7.430: billund.dk INFO Parent glue for billund.dk found: ns-auth03.kmd.dk (131.165.64.5)
+  7.618: billund.dk INFO Parent glue for billund.dk found: ns-auth04.kmd.dk (131.165.4.5)
+  7.673: billund.dk INFO Checking glue for ns-auth03.kmd.dk (131.165.64.5).
+  7.673: billund.dk INFO Checking glue for ns-auth04.kmd.dk (131.165.4.5).
+  7.674: billund.dk INFO Parent glue for billund.dk found: ns-auth03.kmd.dk (131.165.64.5)
+  7.674: billund.dk INFO Parent glue for billund.dk found: ns-auth04.kmd.dk (131.165.4.5)
+  8.655: billund.dk INFO It is possible to build a referral packet for billund.dk that works without EDNS0.
+  9.286: billund.dk INFO Previously used name servers for billund.dk: 
+  9.286: billund.dk INFO Done testing delegation for billund.dk.
+  9.287: billund.dk INFO Begin testing name server ns-auth03.kmd.dk.
+  9.287: billund.dk INFO Begin testing host ns-auth03.kmd.dk.
+  9.649: billund.dk INFO Begin testing address 131.165.64.5.
+ 15.613: billund.dk INFO Done testing address 131.165.64.5.
+ 15.615: billund.dk INFO Done testing host ns-auth03.kmd.dk.
+ 15.968: billund.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) answers queries over UDP.
+ 16.081: billund.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) answers queries over TCP.
+ 16.135: billund.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) is not recursive.
+ 16.362: billund.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) authoritative for billund.dk.
+ 16.517: billund.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) closed for zone transfer of billund.dk.
+ 16.587: billund.dk INFO Legacy name server ID for ns-auth03.kmd.dk (131.165.64.5): hostname.bind = ns-auth03.kmd.dk
+ 16.652: billund.dk INFO Legacy name server ID for ns-auth03.kmd.dk (131.165.64.5): version.bind = 1.0
+ 16.763: billund.dk NOTICE No answer received from 131.165.64.5 when querying for version.server/CH/TXT.
+ 16.763: billund.dk INFO Done testing name server ns-auth03.kmd.dk.
+ 16.763: billund.dk INFO Begin testing name server ns-auth04.kmd.dk.
+ 16.763: billund.dk INFO Begin testing host ns-auth04.kmd.dk.
+ 16.953: billund.dk INFO Begin testing address 131.165.4.5.
+ 17.881: billund.dk INFO Done testing address 131.165.4.5.
+ 17.881: billund.dk INFO Done testing host ns-auth04.kmd.dk.
+ 18.084: billund.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) answers queries over UDP.
+ 18.190: billund.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) answers queries over TCP.
+ 18.256: billund.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) is not recursive.
+ 18.506: billund.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) authoritative for billund.dk.
+ 18.676: billund.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) closed for zone transfer of billund.dk.
+ 18.733: billund.dk INFO Legacy name server ID for ns-auth04.kmd.dk (131.165.4.5): hostname.bind = ns-auth04.kmd.dk
+ 18.785: billund.dk INFO Legacy name server ID for ns-auth04.kmd.dk (131.165.4.5): version.bind = 1.0
+ 18.897: billund.dk NOTICE No answer received from 131.165.4.5 when querying for version.server/CH/TXT.
+ 18.897: billund.dk INFO Done testing name server ns-auth04.kmd.dk.
+ 18.897: billund.dk INFO Begin testing zone consistency for billund.dk.
+ 19.664: billund.dk INFO SOA at address 131.165.4.5 has serial 246.
+ 19.741: billund.dk INFO SOA at address 131.165.64.5 has serial 246.
+ 19.741: billund.dk INFO All SOA records have consistent serial numbers.
+ 19.741: billund.dk INFO All other fields in the SOA record are consistent among all name servers.
+ 20.238: billund.dk NOTICE The listed nameservers for billund.dk all report the same set of nameservers.
+ 20.238: billund.dk INFO Done testing zone consistency for billund.dk.
+ 20.238: billund.dk INFO Begin testing SOA parameters for billund.dk.
+ 20.290: billund.dk INFO Found SOA record for billund.dk.
+ 20.290: billund.dk INFO Begin testing host ns-auth03.kmd.dk.
+ 20.477: billund.dk INFO Begin testing address 131.165.64.5.
+ 20.655: billund.dk INFO Done testing address 131.165.64.5.
+ 20.663: billund.dk INFO Done testing host ns-auth03.kmd.dk.
+ 20.663: billund.dk INFO SOA MNAME for billund.dk valid (ns-auth03.kmd.dk).
+ 20.663: billund.dk INFO SOA MNAME for billund.dk (ns-auth03.kmd.dk) listed as NS.
+ 20.990: billund.dk INFO SOA MNAME for billund.dk (ns-auth03.kmd.dk) is authoritative.
+ 20.990: billund.dk INFO Begin testing email address dnsadmin@kmd.dk.
+ 21.260: billund.dk INFO Mail exchangers for dnsadmin@kmd.dk found edge1.kmd.dk,edge2.kmd.dk.
+ 21.261: billund.dk INFO Begin testing host edge1.kmd.dk.
+ 21.617: billund.dk INFO Begin testing address 131.165.63.88.
+ 22.337: billund.dk INFO Done testing address 131.165.63.88.
+ 22.337: billund.dk INFO Done testing host edge1.kmd.dk.
+ 22.505: billund.dk INFO Begin testing host edge2.kmd.dk.
+ 22.927: billund.dk INFO Begin testing address 131.165.63.89.
+ 23.701: billund.dk INFO Done testing address 131.165.63.89.
+ 23.701: billund.dk INFO Done testing host edge2.kmd.dk.
+ 23.933: billund.dk INFO Done testing email address dnsadmin@kmd.dk.
+ 23.933: billund.dk INFO Successful attempt to deliver email for SOA RNAME of billund.dk (dnsadmin.kmd.dk) using dnsadmin@kmd.dk.
+ 23.933: billund.dk INFO SOA TTL for billund.dk OK (3600) - recommended >= 3600.
+ 23.933: billund.dk NOTICE SOA refresh for billund.dk too small (10800) - recommended >= 14400.
+ 23.933: billund.dk INFO SOA retry for billund.dk OK (3600) - recommended >= 3600.
+ 23.933: billund.dk INFO SOA expire for billund.dk OK (604800) - recommended >= 604800.
+ 23.933: billund.dk INFO SOA minimum for billund.dk OK (43200) - recommended between 300 and 86400.
+ 23.934: billund.dk INFO Done testing SOA parameters for billund.dk.
+ 23.934: billund.dk INFO Begin testing connectivity for billund.dk.
+ 24.866: billund.dk NOTICE Zone announced by fewer than two IPv4 ASN.
+ 24.888: billund.dk NOTICE Zone announced by fewer than two IPv6 ASN.
+ 24.888: billund.dk INFO Done testing connectivity for billund.dk.
+ 24.889: billund.dk INFO Begin testing DNSSEC for billund.dk.
+ 24.966: billund.dk INFO Did not find DS record for billund.dk at parent.
+ 25.191: billund.dk INFO Servers for billund.dk have consistent extra processing status.
+ 25.301: billund.dk INFO Authenticated denial records not found for billund.dk.
+ 25.355: billund.dk INFO Did not find DNSKEY record for billund.dk at child.
+ 25.355: billund.dk INFO No DNSKEY(s) found at child, other tests skipped.
+ 25.356: billund.dk INFO Done testing DNSSEC for billund.dk.
+ 25.356: billund.dk INFO Test completed for zone billund.dk.

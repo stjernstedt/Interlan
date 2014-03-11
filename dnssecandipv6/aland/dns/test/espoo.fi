@@ -1,0 +1,107 @@
+  0.000: espoo.fi INFO Begin testing zone espoo.fi with version 1.5.0.
+  0.374: espoo.fi INFO Begin testing delegation for espoo.fi.
+ 12.540: espoo.fi INFO Name servers listed at parent: ns1.edelkey.net,ns2.edelkey.net
+ 15.367: espoo.fi INFO Name servers listed at child: ns1.edelkey.net,ns2.edelkey.net
+ 15.367: espoo.fi NOTICE No IPv6 name servers found.
+ 16.903: espoo.fi INFO It is possible to build a referral packet for espoo.fi that works without EDNS0.
+ 17.792: espoo.fi INFO Previously used name servers for espoo.fi: 
+ 17.792: espoo.fi INFO Done testing delegation for espoo.fi.
+ 17.793: espoo.fi INFO Begin testing name server ns1.edelkey.net.
+ 17.793: espoo.fi INFO Begin testing host ns1.edelkey.net.
+ 18.298: espoo.fi INFO Begin testing address 213.138.147.140.
+ 33.715: espoo.fi INFO Done testing address 213.138.147.140.
+ 33.774: espoo.fi INFO Begin testing address 213.138.147.136.
+ 40.124: espoo.fi INFO Done testing address 213.138.147.136.
+ 40.124: espoo.fi INFO Done testing host ns1.edelkey.net.
+ 40.895: espoo.fi INFO Name server ns1.edelkey.net (213.138.147.140) answers queries over UDP.
+ 41.151: espoo.fi INFO Name server ns1.edelkey.net (213.138.147.140) answers queries over TCP.
+ 41.292: espoo.fi INFO Name server ns1.edelkey.net (213.138.147.140) is not recursive.
+ 41.688: espoo.fi INFO Name server ns1.edelkey.net (213.138.147.140) authoritative for espoo.fi.
+ 41.780: espoo.fi INFO Name server ns1.edelkey.net (213.138.147.140) closed for zone transfer of espoo.fi.
+ 41.839: espoo.fi INFO Legacy name server ID for ns1.edelkey.net (213.138.147.140): hostname.bind = gate.edelkey.net
+ 42.012: espoo.fi NOTICE No answer received from 213.138.147.140 when querying for version.server/CH/TXT.
+ 42.119: espoo.fi INFO Name server ns1.edelkey.net (213.138.147.136) answers queries over UDP.
+ 42.281: espoo.fi INFO Name server ns1.edelkey.net (213.138.147.136) answers queries over TCP.
+ 42.361: espoo.fi INFO Name server ns1.edelkey.net (213.138.147.136) is not recursive.
+ 42.564: espoo.fi INFO Name server ns1.edelkey.net (213.138.147.136) authoritative for espoo.fi.
+ 42.696: espoo.fi INFO Name server ns1.edelkey.net (213.138.147.136) closed for zone transfer of espoo.fi.
+ 42.797: espoo.fi INFO Legacy name server ID for ns1.edelkey.net (213.138.147.136): hostname.bind = sally.edelkey.net
+ 42.968: espoo.fi NOTICE No answer received from 213.138.147.136 when querying for version.server/CH/TXT.
+ 42.969: espoo.fi INFO Done testing name server ns1.edelkey.net.
+ 42.969: espoo.fi INFO Begin testing name server ns2.edelkey.net.
+ 42.969: espoo.fi INFO Begin testing host ns2.edelkey.net.
+ 43.619: espoo.fi INFO Begin testing address 213.138.147.137.
+ 46.665: espoo.fi INFO Done testing address 213.138.147.137.
+ 46.665: espoo.fi INFO Begin testing address 213.138.147.141.
+ 48.774: espoo.fi INFO Done testing address 213.138.147.141.
+ 48.774: espoo.fi INFO Done testing host ns2.edelkey.net.
+ 49.494: espoo.fi INFO Name server ns2.edelkey.net (213.138.147.137) answers queries over UDP.
+ 49.623: espoo.fi INFO Name server ns2.edelkey.net (213.138.147.137) answers queries over TCP.
+ 49.679: espoo.fi INFO Name server ns2.edelkey.net (213.138.147.137) is not recursive.
+ 49.853: espoo.fi INFO Name server ns2.edelkey.net (213.138.147.137) authoritative for espoo.fi.
+ 49.900: espoo.fi INFO Name server ns2.edelkey.net (213.138.147.137) closed for zone transfer of espoo.fi.
+ 49.916: espoo.fi INFO Legacy name server ID for ns2.edelkey.net (213.138.147.137): hostname.bind = sink.edelkey.net
+ 49.972: espoo.fi NOTICE No answer received from 213.138.147.137 when querying for version.server/CH/TXT.
+ 50.042: espoo.fi INFO Name server ns2.edelkey.net (213.138.147.141) answers queries over UDP.
+ 50.072: espoo.fi INFO Name server ns2.edelkey.net (213.138.147.141) answers queries over TCP.
+ 50.092: espoo.fi INFO Name server ns2.edelkey.net (213.138.147.141) is not recursive.
+ 50.161: espoo.fi INFO Name server ns2.edelkey.net (213.138.147.141) authoritative for espoo.fi.
+ 50.200: espoo.fi INFO Name server ns2.edelkey.net (213.138.147.141) closed for zone transfer of espoo.fi.
+ 50.245: espoo.fi INFO Legacy name server ID for ns2.edelkey.net (213.138.147.141): hostname.bind = harmaja.edelkey.net
+ 50.305: espoo.fi NOTICE No answer received from 213.138.147.141 when querying for version.server/CH/TXT.
+ 50.305: espoo.fi INFO Done testing name server ns2.edelkey.net.
+ 50.306: espoo.fi INFO Begin testing zone consistency for espoo.fi.
+ 52.812: espoo.fi INFO SOA at address 213.138.147.141 has serial 2013052701.
+ 52.886: espoo.fi INFO SOA at address 213.138.147.137 has serial 2013052701.
+ 52.989: espoo.fi INFO SOA at address 213.138.147.136 has serial 2013052701.
+ 53.058: espoo.fi INFO SOA at address 213.138.147.140 has serial 2013052701.
+ 53.058: espoo.fi INFO All SOA records have consistent serial numbers.
+ 53.059: espoo.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 54.753: espoo.fi NOTICE The listed nameservers for espoo.fi all report the same set of nameservers.
+ 54.753: espoo.fi INFO Done testing zone consistency for espoo.fi.
+ 54.753: espoo.fi INFO Begin testing SOA parameters for espoo.fi.
+ 54.826: espoo.fi INFO Found SOA record for espoo.fi.
+ 54.827: espoo.fi INFO Begin testing host ns1.edelkey.net.
+ 55.252: espoo.fi INFO Begin testing address 213.138.147.140.
+ 55.602: espoo.fi INFO Done testing address 213.138.147.140.
+ 55.602: espoo.fi INFO Begin testing address 213.138.147.136.
+ 56.085: espoo.fi INFO Done testing address 213.138.147.136.
+ 56.085: espoo.fi INFO Done testing host ns1.edelkey.net.
+ 56.085: espoo.fi INFO SOA MNAME for espoo.fi valid (ns1.edelkey.net).
+ 56.085: espoo.fi INFO SOA MNAME for espoo.fi (ns1.edelkey.net) listed as NS.
+ 56.844: espoo.fi INFO SOA MNAME for espoo.fi (ns1.edelkey.net) is authoritative.
+ 56.919: espoo.fi INFO SOA MNAME for espoo.fi (ns1.edelkey.net) is authoritative.
+ 56.919: espoo.fi INFO Begin testing email address hostmaster@fi.fujitsu.com.
+ 57.548: espoo.fi INFO Mail exchangers for hostmaster@fi.fujitsu.com found smtp1.invia.fujitsu.com,smtp2.invia.fujitsu.com.
+ 57.551: espoo.fi INFO Begin testing host smtp1.invia.fujitsu.com.
+ 58.701: espoo.fi INFO Begin testing address 213.138.147.141.
+ 59.060: espoo.fi INFO Done testing address 213.138.147.141.
+ 59.061: espoo.fi INFO Begin testing address 213.138.147.137.
+ 59.361: espoo.fi INFO Done testing address 213.138.147.137.
+ 59.361: espoo.fi INFO Done testing host smtp1.invia.fujitsu.com.
+ 60.247: espoo.fi INFO Begin testing host smtp2.invia.fujitsu.com.
+ 61.709: espoo.fi INFO Begin testing address 213.138.147.136.
+ 61.998: espoo.fi INFO Done testing address 213.138.147.136.
+ 61.998: espoo.fi INFO Begin testing address 213.138.147.140.
+ 62.356: espoo.fi INFO Done testing address 213.138.147.140.
+ 62.356: espoo.fi INFO Done testing host smtp2.invia.fujitsu.com.
+ 62.893: espoo.fi INFO Done testing email address hostmaster@fi.fujitsu.com.
+ 62.893: espoo.fi INFO Successful attempt to deliver email for SOA RNAME of espoo.fi (hostmaster.fi.fujitsu.com) using hostmaster@fi.fujitsu.com.
+ 62.893: espoo.fi INFO SOA TTL for espoo.fi OK (3600) - recommended >= 3600.
+ 62.894: espoo.fi NOTICE SOA refresh for espoo.fi too small (1800) - recommended >= 14400.
+ 62.894: espoo.fi NOTICE SOA retry for espoo.fi too small (900) - recommended >= 3600.
+ 62.894: espoo.fi INFO SOA expire for espoo.fi OK (1209600) - recommended >= 604800.
+ 62.894: espoo.fi INFO SOA minimum for espoo.fi OK (7200) - recommended between 300 and 86400.
+ 62.894: espoo.fi INFO Done testing SOA parameters for espoo.fi.
+ 62.894: espoo.fi INFO Begin testing connectivity for espoo.fi.
+ 65.388: espoo.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 65.420: espoo.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 65.421: espoo.fi INFO Done testing connectivity for espoo.fi.
+ 65.421: espoo.fi INFO Begin testing DNSSEC for espoo.fi.
+ 65.526: espoo.fi INFO Did not find DS record for espoo.fi at parent.
+ 66.016: espoo.fi INFO Servers for espoo.fi have consistent extra processing status.
+ 66.095: espoo.fi INFO Authenticated denial records not found for espoo.fi.
+ 66.139: espoo.fi INFO Did not find DNSKEY record for espoo.fi at child.
+ 66.139: espoo.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 66.140: espoo.fi INFO Done testing DNSSEC for espoo.fi.
+ 66.140: espoo.fi INFO Test completed for zone espoo.fi.

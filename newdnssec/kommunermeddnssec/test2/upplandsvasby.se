@@ -1,0 +1,89 @@
+  0.000: upplandsvasby.se INFO Begin testing zone upplandsvasby.se with version 1.2.
+  0.000: upplandsvasby.se INFO Begin testing delegation for upplandsvasby.se.
+  9.545: upplandsvasby.se INFO Name servers listed at parent: ns.upplandsvasby.se,ns2.dgcsystems.net
+ 11.092: upplandsvasby.se INFO Name servers listed at child: ns.upplandsvasby.se,ns2.dgcsystems.net
+ 11.092: upplandsvasby.se NOTICE No IPv6 name servers found.
+ 11.151: upplandsvasby.se INFO Parent glue for upplandsvasby.se found: ns.upplandsvasby.se (194.116.212.2)
+ 11.185: upplandsvasby.se INFO Checking glue for ns.upplandsvasby.se (194.116.212.2).
+ 11.194: upplandsvasby.se INFO Child glue for upplandsvasby.se found: ns.upplandsvasby.se (194.116.212.2)
+ 11.194: upplandsvasby.se INFO Parent glue for upplandsvasby.se found: ns.upplandsvasby.se (194.116.212.2)
+ 11.195: upplandsvasby.se INFO Done testing delegation for upplandsvasby.se.
+ 11.195: upplandsvasby.se INFO Begin testing name server ns.upplandsvasby.se.
+ 11.195: upplandsvasby.se INFO Begin testing host ns.upplandsvasby.se.
+ 11.196: upplandsvasby.se INFO Begin testing address 194.116.212.2.
+ 15.517: upplandsvasby.se INFO Done testing address 194.116.212.2.
+ 15.517: upplandsvasby.se INFO Done testing host ns.upplandsvasby.se.
+ 15.526: upplandsvasby.se INFO Name server ns.upplandsvasby.se (194.116.212.2) answers queries over UDP.
+ 15.542: upplandsvasby.se INFO Name server ns.upplandsvasby.se (194.116.212.2) answers queries over TCP.
+ 15.552: upplandsvasby.se INFO Name server ns.upplandsvasby.se (194.116.212.2) is not recursive.
+ 15.560: upplandsvasby.se INFO Name server ns.upplandsvasby.se (194.116.212.2) authoritative for upplandsvasby.se.
+ 15.576: upplandsvasby.se INFO Name server ns.upplandsvasby.se (194.116.212.2) closed for zone transfer of upplandsvasby.se.
+ 15.586: upplandsvasby.se INFO Legacy name server ID for ns.upplandsvasby.se (194.116.212.2): hostname.bind = new
+ 15.594: upplandsvasby.se INFO Legacy name server ID for ns.upplandsvasby.se (194.116.212.2): version.bind = Adonis Server (www.bluecatnetworks.com)
+ 15.609: upplandsvasby.se NOTICE No answer received from 194.116.212.2 when querying for version.server/CH/TXT.
+ 15.609: upplandsvasby.se INFO Done testing name server ns.upplandsvasby.se.
+ 15.610: upplandsvasby.se INFO Begin testing name server ns2.dgcsystems.net.
+ 15.610: upplandsvasby.se INFO Begin testing host ns2.dgcsystems.net.
+ 15.610: upplandsvasby.se INFO Begin testing address 217.13.225.120.
+ 15.848: upplandsvasby.se INFO Done testing address 217.13.225.120.
+ 15.848: upplandsvasby.se INFO Done testing host ns2.dgcsystems.net.
+ 15.857: upplandsvasby.se INFO Name server ns2.dgcsystems.net (217.13.225.120) answers queries over UDP.
+ 15.869: upplandsvasby.se INFO Name server ns2.dgcsystems.net (217.13.225.120) answers queries over TCP.
+ 15.876: upplandsvasby.se INFO Name server ns2.dgcsystems.net (217.13.225.120) is not recursive.
+ 15.886: upplandsvasby.se INFO Name server ns2.dgcsystems.net (217.13.225.120) authoritative for upplandsvasby.se.
+ 15.996: upplandsvasby.se INFO Name server ns2.dgcsystems.net (217.13.225.120) closed for zone transfer of upplandsvasby.se.
+ 16.005: upplandsvasby.se INFO Legacy name server ID for ns2.dgcsystems.net (217.13.225.120): hostname.bind = ns2.dgcsystems.net
+ 16.012: upplandsvasby.se INFO Legacy name server ID for ns2.dgcsystems.net (217.13.225.120): version.bind = Le DNS
+ 16.026: upplandsvasby.se NOTICE No answer received from 217.13.225.120 when querying for version.server/CH/TXT.
+ 16.026: upplandsvasby.se INFO Done testing name server ns2.dgcsystems.net.
+ 16.026: upplandsvasby.se INFO Begin testing zone consistency for upplandsvasby.se.
+ 16.038: upplandsvasby.se INFO SOA at address 194.116.212.2 has serial 2010090909.
+ 16.046: upplandsvasby.se INFO SOA at address 217.13.225.120 has serial 2010090909.
+ 16.046: upplandsvasby.se INFO All SOA records have consistent serial numbers.
+ 16.046: upplandsvasby.se INFO All SOA records are consistent among all name servers.
+ 16.046: upplandsvasby.se INFO Done testing zone consistency for upplandsvasby.se.
+ 16.047: upplandsvasby.se INFO Begin testing SOA parameters for upplandsvasby.se.
+ 16.055: upplandsvasby.se INFO Found SOA record for upplandsvasby.se.
+ 16.055: upplandsvasby.se INFO Begin testing host ns.upplandsvasby.se.
+ 16.055: upplandsvasby.se INFO Begin testing address 194.116.212.2.
+ 16.057: upplandsvasby.se INFO Done testing address 194.116.212.2.
+ 16.057: upplandsvasby.se INFO Done testing host ns.upplandsvasby.se.
+ 16.057: upplandsvasby.se INFO SOA MNAME for upplandsvasby.se valid (ns.upplandsvasby.se).
+ 16.057: upplandsvasby.se INFO SOA MNAME for upplandsvasby.se (ns.upplandsvasby.se) listed as NS.
+ 16.066: upplandsvasby.se INFO SOA MNAME for upplandsvasby.se (ns.upplandsvasby.se) is authoritative.
+ 16.066: upplandsvasby.se INFO Begin testing email address postmaster@upplandsvasby.se.
+ 16.307: upplandsvasby.se INFO Mail exchangers for postmaster@upplandsvasby.se found mailgateway.upplandsvasby.se.
+ 16.307: upplandsvasby.se INFO All mail servers for postmaster@upplandsvasby.se are in zone upplandsvasby.se.
+ 16.308: upplandsvasby.se INFO Begin testing host mailgateway.upplandsvasby.se.
+ 16.736: upplandsvasby.se INFO Begin testing address 194.116.212.25.
+ 17.047: upplandsvasby.se INFO Done testing address 194.116.212.25.
+ 17.047: upplandsvasby.se INFO Done testing host mailgateway.upplandsvasby.se.
+ 17.048: upplandsvasby.se INFO Begin testing mail server mailgateway.upplandsvasby.se (194.116.212.25) with postmaster@upplandsvasby.se.
+ 17.276: upplandsvasby.se INFO SMTP banner: mailgateway.upplandsvasby.se ESMTP smtp
+ 17.296: upplandsvasby.se INFO SMTP testing of mailgateway.upplandsvasby.se (194.116.212.25) with postmaster@upplandsvasby.se succeeded without errors.
+ 17.296: upplandsvasby.se INFO Done testing mail server mailgateway.upplandsvasby.se (194.116.212.25) with postmaster@upplandsvasby.se.
+ 17.296: upplandsvasby.se INFO Delivery over IPv4 to postmaster@upplandsvasby.se ok.
+ 17.296: upplandsvasby.se INFO Delivery over IPv6 to postmaster@upplandsvasby.se could not be done.
+ 17.296: upplandsvasby.se INFO Done testing email address postmaster@upplandsvasby.se.
+ 17.296: upplandsvasby.se INFO Successful attempt to deliver email for SOA RNAME of upplandsvasby.se (postmaster.upplandsvasby.se) using postmaster@upplandsvasby.se.
+ 17.297: upplandsvasby.se INFO SOA TTL for upplandsvasby.se OK (3600) - recommended >= 3600.
+ 17.297: upplandsvasby.se NOTICE SOA refresh for upplandsvasby.se too small (3600) - recommended >= 14400.
+ 17.297: upplandsvasby.se NOTICE SOA retry for upplandsvasby.se too small (1800) - recommended >= 3600.
+ 17.297: upplandsvasby.se INFO SOA expire for upplandsvasby.se OK (604800) - recommended >= 604800.
+ 17.297: upplandsvasby.se INFO SOA minimum for upplandsvasby.se OK (3600) - recommended between 300 and 86400.
+ 17.297: upplandsvasby.se INFO Done testing SOA parameters for upplandsvasby.se.
+ 17.298: upplandsvasby.se INFO Begin testing connectivity for upplandsvasby.se.
+ 17.833: upplandsvasby.se INFO Name server 194.116.212.2 announced by: 21195
+ 18.508: upplandsvasby.se INFO Name server 217.13.225.120 announced by: 21195
+ 18.508: upplandsvasby.se INFO Zone announced by IPv4 ASN: 21195
+ 18.508: upplandsvasby.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 18.508: upplandsvasby.se INFO Zone announced by IPv6 ASN: 
+ 18.508: upplandsvasby.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 18.508: upplandsvasby.se INFO Done testing connectivity for upplandsvasby.se.
+ 18.508: upplandsvasby.se INFO Begin testing DNSSEC for upplandsvasby.se.
+ 18.523: upplandsvasby.se INFO Did not find DS record for upplandsvasby.se at parent.
+ 18.547: upplandsvasby.se INFO Servers for upplandsvasby.se have consistent extra processing status.
+ 18.547: upplandsvasby.se INFO Did not find DNSKEY record for upplandsvasby.se at child.
+ 18.547: upplandsvasby.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 18.547: upplandsvasby.se INFO Done testing DNSSEC for upplandsvasby.se.
+ 18.547: upplandsvasby.se INFO Test completed for zone upplandsvasby.se.

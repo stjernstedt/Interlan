@@ -1,0 +1,121 @@
+  0.000: kokemaki.fi INFO Begin testing zone kokemaki.fi with version 1.5.0.
+  0.338: kokemaki.fi INFO Begin testing delegation for kokemaki.fi.
+ 19.363: kokemaki.fi INFO Name servers listed at parent: ns4.sci.fi,ns5.sci.fi,ns6.sci.fi
+ 26.327: kokemaki.fi INFO Name servers listed at child: ns4.sci.fi,ns5.sci.fi,ns6.sci.fi
+ 26.378: kokemaki.fi NOTICE No IPv6 name servers found.
+ 26.832: kokemaki.fi INFO Parent glue for kokemaki.fi found: ns5.sci.fi (213.192.189.2)
+ 27.252: kokemaki.fi INFO Parent glue for kokemaki.fi found: ns6.sci.fi (195.74.0.59)
+ 27.369: kokemaki.fi INFO Checking glue for ns5.sci.fi (213.192.189.2).
+ 27.369: kokemaki.fi INFO Checking glue for ns6.sci.fi (195.74.0.59).
+ 27.417: kokemaki.fi INFO Parent glue for kokemaki.fi found: ns5.sci.fi (213.192.189.2)
+ 27.417: kokemaki.fi INFO Parent glue for kokemaki.fi found: ns6.sci.fi (195.74.0.59)
+ 31.734: kokemaki.fi INFO It is possible to build a referral packet for kokemaki.fi that works without EDNS0.
+ 34.472: kokemaki.fi INFO Previously used name servers for kokemaki.fi: 
+ 34.472: kokemaki.fi INFO Done testing delegation for kokemaki.fi.
+ 34.473: kokemaki.fi INFO Begin testing name server ns4.sci.fi.
+ 34.473: kokemaki.fi INFO Begin testing host ns4.sci.fi.
+ 35.376: kokemaki.fi INFO Begin testing address 195.74.0.50.
+ 46.684: kokemaki.fi INFO Done testing address 195.74.0.50.
+ 46.684: kokemaki.fi INFO Done testing host ns4.sci.fi.
+ 47.583: kokemaki.fi INFO Name server ns4.sci.fi (195.74.0.50) answers queries over UDP.
+ 47.772: kokemaki.fi INFO Name server ns4.sci.fi (195.74.0.50) answers queries over TCP.
+ 47.884: kokemaki.fi INFO Name server ns4.sci.fi (195.74.0.50) is not recursive.
+ 48.192: kokemaki.fi INFO Name server ns4.sci.fi (195.74.0.50) authoritative for kokemaki.fi.
+ 48.365: kokemaki.fi INFO Name server ns4.sci.fi (195.74.0.50) closed for zone transfer of kokemaki.fi.
+ 48.561: kokemaki.fi INFO Legacy name server ID for ns4.sci.fi (195.74.0.50): hostname.bind = r2d2.saunalahti.fi
+ 48.748: kokemaki.fi INFO Legacy name server ID for ns4.sci.fi (195.74.0.50): version.bind = WE ARE THE BORG. RESISTANCE IS FUTILE.
+ 48.944: kokemaki.fi NOTICE No answer received from 195.74.0.50 when querying for version.server/CH/TXT.
+ 48.944: kokemaki.fi INFO Done testing name server ns4.sci.fi.
+ 48.944: kokemaki.fi INFO Begin testing name server ns5.sci.fi.
+ 48.944: kokemaki.fi INFO Begin testing host ns5.sci.fi.
+ 49.427: kokemaki.fi INFO Begin testing address 213.192.189.2.
+ 50.696: kokemaki.fi INFO Done testing address 213.192.189.2.
+ 50.696: kokemaki.fi INFO Done testing host ns5.sci.fi.
+ 51.344: kokemaki.fi INFO Name server ns5.sci.fi (213.192.189.2) answers queries over UDP.
+ 51.465: kokemaki.fi INFO Name server ns5.sci.fi (213.192.189.2) answers queries over TCP.
+ 51.586: kokemaki.fi INFO Name server ns5.sci.fi (213.192.189.2) is not recursive.
+ 51.993: kokemaki.fi INFO Name server ns5.sci.fi (213.192.189.2) authoritative for kokemaki.fi.
+ 52.152: kokemaki.fi INFO Name server ns5.sci.fi (213.192.189.2) closed for zone transfer of kokemaki.fi.
+ 52.229: kokemaki.fi INFO Legacy name server ID for ns5.sci.fi (213.192.189.2): hostname.bind = ns5-temp.saunalahti.fi
+ 52.280: kokemaki.fi INFO Legacy name server ID for ns5.sci.fi (213.192.189.2): version.bind = WE ARE THE BORG. RESISTANCE IS FUTILE.
+ 52.443: kokemaki.fi NOTICE No answer received from 213.192.189.2 when querying for version.server/CH/TXT.
+ 52.443: kokemaki.fi INFO Done testing name server ns5.sci.fi.
+ 52.443: kokemaki.fi INFO Begin testing name server ns6.sci.fi.
+ 52.467: kokemaki.fi INFO Begin testing host ns6.sci.fi.
+ 53.041: kokemaki.fi INFO Begin testing address 195.74.0.59.
+ 55.047: kokemaki.fi INFO Done testing address 195.74.0.59.
+ 55.047: kokemaki.fi INFO Done testing host ns6.sci.fi.
+ 56.122: kokemaki.fi INFO Name server ns6.sci.fi (195.74.0.59) answers queries over UDP.
+ 56.294: kokemaki.fi INFO Name server ns6.sci.fi (195.74.0.59) answers queries over TCP.
+ 56.380: kokemaki.fi INFO Name server ns6.sci.fi (195.74.0.59) is not recursive.
+ 56.787: kokemaki.fi INFO Name server ns6.sci.fi (195.74.0.59) authoritative for kokemaki.fi.
+ 57.031: kokemaki.fi INFO Name server ns6.sci.fi (195.74.0.59) closed for zone transfer of kokemaki.fi.
+ 57.100: kokemaki.fi INFO Legacy name server ID for ns6.sci.fi (195.74.0.59): hostname.bind = jabba.saunalahti.fi
+ 57.236: kokemaki.fi INFO Legacy name server ID for ns6.sci.fi (195.74.0.59): version.bind = WE ARE THE BORG. RESISTANCE IS FUTILE.
+ 57.408: kokemaki.fi NOTICE No answer received from 195.74.0.59 when querying for version.server/CH/TXT.
+ 57.408: kokemaki.fi INFO Done testing name server ns6.sci.fi.
+ 57.427: kokemaki.fi INFO Begin testing zone consistency for kokemaki.fi.
+ 62.924: kokemaki.fi INFO SOA at address 195.74.0.50 has serial 1363268603.
+ 63.049: kokemaki.fi INFO SOA at address 195.74.0.59 has serial 1363268603.
+ 63.153: kokemaki.fi INFO SOA at address 213.192.189.2 has serial 1363268603.
+ 63.153: kokemaki.fi INFO All SOA records have consistent serial numbers.
+ 63.153: kokemaki.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 66.219: kokemaki.fi NOTICE The listed nameservers for kokemaki.fi all report the same set of nameservers.
+ 66.219: kokemaki.fi INFO Done testing zone consistency for kokemaki.fi.
+ 66.220: kokemaki.fi INFO Begin testing SOA parameters for kokemaki.fi.
+ 66.276: kokemaki.fi INFO Found SOA record for kokemaki.fi.
+ 66.276: kokemaki.fi INFO Begin testing host ns4.sci.fi.
+ 67.073: kokemaki.fi INFO Begin testing address 195.74.0.50.
+ 67.880: kokemaki.fi INFO Done testing address 195.74.0.50.
+ 67.880: kokemaki.fi INFO Done testing host ns4.sci.fi.
+ 67.880: kokemaki.fi INFO SOA MNAME for kokemaki.fi valid (ns4.sci.fi).
+ 67.880: kokemaki.fi INFO SOA MNAME for kokemaki.fi (ns4.sci.fi) listed as NS.
+ 68.476: kokemaki.fi INFO SOA MNAME for kokemaki.fi (ns4.sci.fi) is authoritative.
+ 68.477: kokemaki.fi INFO Begin testing email address hostmaster@sci.fi.
+ 69.288: kokemaki.fi INFO Mail exchangers for hostmaster@sci.fi found fe-stp.mail.saunalahti.fi,fe-pa.mail.saunalahti.fi,mq01.mail.saunalahti.fi.
+ 69.288: kokemaki.fi INFO Begin testing host fe-stp.mail.saunalahti.fi.
+ 71.695: kokemaki.fi INFO Begin testing address 62.142.5.93.
+ 76.529: kokemaki.fi INFO Done testing address 62.142.5.93.
+ 76.530: kokemaki.fi INFO Begin testing address 62.142.5.25.
+ 81.560: kokemaki.fi INFO Done testing address 62.142.5.25.
+ 81.560: kokemaki.fi INFO Begin testing address 62.142.5.26.
+ 86.001: kokemaki.fi INFO Done testing address 62.142.5.26.
+ 86.001: kokemaki.fi INFO Begin testing address 62.142.5.27.
+ 90.152: kokemaki.fi INFO Done testing address 62.142.5.27.
+ 90.152: kokemaki.fi INFO Begin testing address 62.142.5.28.
+ 94.086: kokemaki.fi INFO Done testing address 62.142.5.28.
+ 94.086: kokemaki.fi INFO Done testing host fe-stp.mail.saunalahti.fi.
+ 95.519: kokemaki.fi INFO Begin testing host fe-pa.mail.saunalahti.fi.
+ 98.152: kokemaki.fi INFO Begin testing address 62.142.117.203.
+101.796: kokemaki.fi INFO Done testing address 62.142.117.203.
+101.796: kokemaki.fi INFO Begin testing address 62.142.117.204.
+106.064: kokemaki.fi INFO Done testing address 62.142.117.204.
+106.064: kokemaki.fi INFO Begin testing address 62.142.117.205.
+109.656: kokemaki.fi INFO Done testing address 62.142.117.205.
+109.656: kokemaki.fi INFO Begin testing address 62.142.117.206.
+113.175: kokemaki.fi INFO Done testing address 62.142.117.206.
+113.175: kokemaki.fi INFO Done testing host fe-pa.mail.saunalahti.fi.
+114.293: kokemaki.fi INFO Begin testing host mq01.mail.saunalahti.fi.
+116.462: kokemaki.fi INFO Begin testing address 195.197.172.98.
+119.512: kokemaki.fi INFO Done testing address 195.197.172.98.
+119.512: kokemaki.fi INFO Done testing host mq01.mail.saunalahti.fi.
+120.211: kokemaki.fi INFO Done testing email address hostmaster@sci.fi.
+120.267: kokemaki.fi INFO Successful attempt to deliver email for SOA RNAME of kokemaki.fi (hostmaster.sci.fi) using hostmaster@sci.fi.
+120.268: kokemaki.fi INFO SOA TTL for kokemaki.fi OK (14400) - recommended >= 3600.
+120.268: kokemaki.fi INFO SOA refresh for kokemaki.fi OK (28800) - recommended >= 14400.
+120.268: kokemaki.fi INFO SOA retry for kokemaki.fi OK (3600) - recommended >= 3600.
+120.268: kokemaki.fi INFO SOA expire for kokemaki.fi OK (604800) - recommended >= 604800.
+120.268: kokemaki.fi INFO SOA minimum for kokemaki.fi OK (3600) - recommended between 300 and 86400.
+120.268: kokemaki.fi INFO Done testing SOA parameters for kokemaki.fi.
+120.268: kokemaki.fi INFO Begin testing connectivity for kokemaki.fi.
+124.315: kokemaki.fi INFO Zone announced by more than one ASN.
+124.315: kokemaki.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+124.315: kokemaki.fi INFO Done testing connectivity for kokemaki.fi.
+124.315: kokemaki.fi INFO Begin testing DNSSEC for kokemaki.fi.
+124.535: kokemaki.fi INFO Did not find DS record for kokemaki.fi at parent.
+125.019: kokemaki.fi INFO Servers for kokemaki.fi have consistent extra processing status.
+125.162: kokemaki.fi INFO Authenticated denial records not found for kokemaki.fi.
+125.321: kokemaki.fi INFO Did not find DNSKEY record for kokemaki.fi at child.
+125.321: kokemaki.fi INFO No DNSKEY(s) found at child, other tests skipped.
+125.322: kokemaki.fi INFO Done testing DNSSEC for kokemaki.fi.
+125.322: kokemaki.fi INFO Test completed for zone kokemaki.fi.

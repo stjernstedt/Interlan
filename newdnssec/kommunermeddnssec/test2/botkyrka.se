@@ -1,0 +1,94 @@
+  0.000: botkyrka.se INFO Begin testing zone botkyrka.se with version 1.2.
+  0.000: botkyrka.se INFO Begin testing delegation for botkyrka.se.
+  5.225: botkyrka.se INFO Name servers listed at parent: dns1.botkyrka.se,ns2.telenor.se
+  6.830: botkyrka.se INFO Name servers listed at child: dns1.botkyrka.se,ns2.telenor.se
+  6.831: botkyrka.se NOTICE No IPv6 name servers found.
+  6.897: botkyrka.se INFO Parent glue for botkyrka.se found: dns1.botkyrka.se (62.119.155.70)
+  6.952: botkyrka.se INFO Parent glue for botkyrka.se found: ns2.telenor.se (213.150.128.30)
+  6.969: botkyrka.se INFO Checking glue for dns1.botkyrka.se (62.119.155.70).
+  6.976: botkyrka.se INFO Child glue for botkyrka.se found: dns1.botkyrka.se (62.119.155.70)
+  6.977: botkyrka.se INFO Checking glue for ns2.telenor.se (213.150.128.30).
+  6.977: botkyrka.se INFO Parent glue for botkyrka.se found: dns1.botkyrka.se (62.119.155.70)
+  6.977: botkyrka.se INFO Parent glue for botkyrka.se found: ns2.telenor.se (213.150.128.30)
+  6.978: botkyrka.se INFO Done testing delegation for botkyrka.se.
+  6.978: botkyrka.se INFO Begin testing name server dns1.botkyrka.se.
+  6.978: botkyrka.se INFO Begin testing host dns1.botkyrka.se.
+  6.978: botkyrka.se INFO Begin testing address 62.119.155.70.
+ 11.645: botkyrka.se INFO Done testing address 62.119.155.70.
+ 11.645: botkyrka.se INFO Done testing host dns1.botkyrka.se.
+ 11.653: botkyrka.se INFO Name server dns1.botkyrka.se (62.119.155.70) answers queries over UDP.
+ 11.665: botkyrka.se INFO Name server dns1.botkyrka.se (62.119.155.70) answers queries over TCP.
+ 11.672: botkyrka.se INFO Name server dns1.botkyrka.se (62.119.155.70) is not recursive.
+ 11.679: botkyrka.se INFO Name server dns1.botkyrka.se (62.119.155.70) authoritative for botkyrka.se.
+ 11.814: botkyrka.se INFO Name server dns1.botkyrka.se (62.119.155.70) closed for zone transfer of botkyrka.se.
+ 11.823: botkyrka.se NOTICE No answer received from 62.119.155.70 when querying for hostname.bind/CH/TXT.
+ 29.825: botkyrka.se INFO Done testing name server dns1.botkyrka.se.
+ 29.826: botkyrka.se INFO Begin testing name server ns2.telenor.se.
+ 29.826: botkyrka.se INFO Begin testing host ns2.telenor.se.
+ 29.826: botkyrka.se INFO Begin testing address 213.150.128.30.
+ 30.491: botkyrka.se INFO Done testing address 213.150.128.30.
+ 30.491: botkyrka.se INFO Done testing host ns2.telenor.se.
+ 30.499: botkyrka.se INFO Name server ns2.telenor.se (213.150.128.30) answers queries over UDP.
+ 30.511: botkyrka.se INFO Name server ns2.telenor.se (213.150.128.30) answers queries over TCP.
+ 30.517: botkyrka.se INFO Name server ns2.telenor.se (213.150.128.30) is not recursive.
+ 30.525: botkyrka.se INFO Name server ns2.telenor.se (213.150.128.30) authoritative for botkyrka.se.
+ 30.538: botkyrka.se INFO Name server ns2.telenor.se (213.150.128.30) closed for zone transfer of botkyrka.se.
+ 30.547: botkyrka.se INFO Legacy name server ID for ns2.telenor.se (213.150.128.30): hostname.bind = ns2.telenor.se
+ 30.554: botkyrka.se INFO Legacy name server ID for ns2.telenor.se (213.150.128.30): version.bind = Telenor DNS
+ 30.566: botkyrka.se NOTICE No answer received from 213.150.128.30 when querying for version.server/CH/TXT.
+ 30.566: botkyrka.se INFO Done testing name server ns2.telenor.se.
+ 30.566: botkyrka.se INFO Begin testing zone consistency for botkyrka.se.
+ 30.577: botkyrka.se INFO SOA at address 62.119.155.70 has serial 2009061065.
+ 30.585: botkyrka.se INFO SOA at address 213.150.128.30 has serial 2009061065.
+ 30.585: botkyrka.se INFO All SOA records have consistent serial numbers.
+ 30.585: botkyrka.se INFO All SOA records are consistent among all name servers.
+ 30.585: botkyrka.se INFO Done testing zone consistency for botkyrka.se.
+ 30.585: botkyrka.se INFO Begin testing SOA parameters for botkyrka.se.
+ 30.593: botkyrka.se INFO Found SOA record for botkyrka.se.
+ 30.593: botkyrka.se INFO Begin testing host dns1.botkyrka.se.
+ 30.594: botkyrka.se INFO Begin testing address 62.119.155.70.
+ 30.595: botkyrka.se INFO Done testing address 62.119.155.70.
+ 30.595: botkyrka.se INFO Done testing host dns1.botkyrka.se.
+ 30.595: botkyrka.se INFO SOA MNAME for botkyrka.se valid (dns1.botkyrka.se).
+ 30.595: botkyrka.se INFO SOA MNAME for botkyrka.se (dns1.botkyrka.se) listed as NS.
+ 30.603: botkyrka.se INFO SOA MNAME for botkyrka.se (dns1.botkyrka.se) is authoritative.
+ 30.604: botkyrka.se INFO Begin testing email address hostmaster@botkyrka.se.
+ 30.839: botkyrka.se INFO Mail exchangers for hostmaster@botkyrka.se found mx1.botkyrka.se,mail.botkyrka.se.
+ 30.839: botkyrka.se INFO All mail servers for hostmaster@botkyrka.se are in zone botkyrka.se.
+ 30.839: botkyrka.se INFO Begin testing host mx1.botkyrka.se.
+ 31.290: botkyrka.se INFO Begin testing address 62.119.155.254.
+ 32.279: botkyrka.se INFO Done testing address 62.119.155.254.
+ 32.280: botkyrka.se INFO Done testing host mx1.botkyrka.se.
+ 32.280: botkyrka.se INFO Begin testing mail server mx1.botkyrka.se (62.119.155.254) with hostmaster@botkyrka.se.
+ 32.632: botkyrka.se INFO SMTP banner: botkyrka.se [ESMTP Server] service ready;ESMTP Server
+ 32.651: botkyrka.se INFO SMTP testing of mx1.botkyrka.se (62.119.155.254) with hostmaster@botkyrka.se succeeded without errors.
+ 32.651: botkyrka.se INFO Done testing mail server mx1.botkyrka.se (62.119.155.254) with hostmaster@botkyrka.se.
+ 32.651: botkyrka.se INFO Begin testing host mail.botkyrka.se.
+ 33.100: botkyrka.se INFO Begin testing address 62.119.155.10.
+ 33.645: botkyrka.se INFO Done testing address 62.119.155.10.
+ 33.645: botkyrka.se INFO Done testing host mail.botkyrka.se.
+ 33.645: botkyrka.se INFO Delivery over IPv4 to hostmaster@botkyrka.se ok.
+ 33.645: botkyrka.se INFO Delivery over IPv6 to hostmaster@botkyrka.se could not be done.
+ 33.645: botkyrka.se INFO Done testing email address hostmaster@botkyrka.se.
+ 33.646: botkyrka.se INFO Successful attempt to deliver email for SOA RNAME of botkyrka.se (hostmaster.botkyrka.se) using hostmaster@botkyrka.se.
+ 33.646: botkyrka.se INFO SOA TTL for botkyrka.se OK (3600) - recommended >= 3600.
+ 33.646: botkyrka.se NOTICE SOA refresh for botkyrka.se too small (900) - recommended >= 14400.
+ 33.646: botkyrka.se NOTICE SOA retry for botkyrka.se too small (600) - recommended >= 3600.
+ 33.646: botkyrka.se NOTICE SOA expire for botkyrka.se too small (86400) - recommended >= 604800.
+ 33.646: botkyrka.se INFO SOA minimum for botkyrka.se OK (1800) - recommended between 300 and 86400.
+ 33.646: botkyrka.se INFO Done testing SOA parameters for botkyrka.se.
+ 33.646: botkyrka.se INFO Begin testing connectivity for botkyrka.se.
+ 34.261: botkyrka.se INFO Name server 62.119.155.70 announced by: 8434
+ 35.032: botkyrka.se INFO Name server 213.150.128.30 announced by: 2119
+ 35.032: botkyrka.se INFO Zone announced by IPv4 ASN: 8434,2119
+ 35.032: botkyrka.se INFO Zone announced by more than one ASN (2).
+ 35.032: botkyrka.se INFO Zone announced by IPv6 ASN: 
+ 35.032: botkyrka.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 35.032: botkyrka.se INFO Done testing connectivity for botkyrka.se.
+ 35.032: botkyrka.se INFO Begin testing DNSSEC for botkyrka.se.
+ 35.047: botkyrka.se INFO Did not find DS record for botkyrka.se at parent.
+ 35.070: botkyrka.se INFO Servers for botkyrka.se have consistent extra processing status.
+ 35.070: botkyrka.se INFO Did not find DNSKEY record for botkyrka.se at child.
+ 35.070: botkyrka.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 35.070: botkyrka.se INFO Done testing DNSSEC for botkyrka.se.
+ 35.070: botkyrka.se INFO Test completed for zone botkyrka.se.

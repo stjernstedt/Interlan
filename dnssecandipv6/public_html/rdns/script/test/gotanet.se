@@ -1,0 +1,235 @@
+  0.000: gotanet.se INFO Begin testing zone gotanet.se with version 1.5.0.
+  0.002: gotanet.se INFO Begin testing delegation for gotanet.se.
+ 12.928: gotanet.se INFO Name servers listed at parent: nic.fassberg.se,nic.gota.net,nic2.gota.net,nic3.gota.net,nic4.gota.net
+ 21.395: gotanet.se INFO Name servers listed at child: nic.fassberg.se,nic.gota.net,nic2.gota.net,nic3.gota.net,nic4.gota.net
+ 21.475: gotanet.se INFO Parent glue for gotanet.se found: nic.fassberg.se (192.71.31.7)
+ 21.531: gotanet.se INFO Parent glue for gotanet.se found: nic.fassberg.se (2a02:920:4fff:14a:0:0:0:7)
+ 22.102: gotanet.se INFO Checking glue for nic.fassberg.se (192.71.31.7).
+ 22.102: gotanet.se INFO Checking glue for nic.fassberg.se (2a02:920:4fff:14a:0:0:0:7).
+ 22.103: gotanet.se INFO Parent glue for gotanet.se found: nic.fassberg.se (192.71.31.7)
+ 22.103: gotanet.se INFO Parent glue for gotanet.se found: nic.fassberg.se (2a02:920:4fff:14a:0:0:0:7)
+ 22.687: gotanet.se INFO It is possible to build a referral packet for gotanet.se that works without EDNS0.
+ 22.687: gotanet.se INFO Done testing delegation for gotanet.se.
+ 22.687: gotanet.se INFO Begin testing name server nic.fassberg.se.
+ 22.688: gotanet.se INFO Begin testing host nic.fassberg.se.
+ 22.688: gotanet.se INFO Begin testing address 192.71.31.7.
+ 38.651: gotanet.se INFO Done testing address 192.71.31.7.
+ 38.652: gotanet.se INFO Begin testing address 2a02:920:4fff:14a:0:0:0:7.
+ 39.289: gotanet.se INFO Done testing address 2a02:920:4fff:14a:0:0:0:7.
+ 39.289: gotanet.se INFO Done testing host nic.fassberg.se.
+ 39.328: gotanet.se INFO Name server nic.fassberg.se (192.71.31.7) answers queries over UDP.
+ 39.359: gotanet.se INFO Name server nic.fassberg.se (192.71.31.7) answers queries over TCP.
+ 39.379: gotanet.se INFO Name server nic.fassberg.se (192.71.31.7) is not recursive.
+ 39.461: gotanet.se INFO Name server nic.fassberg.se (192.71.31.7) authoritative for gotanet.se.
+ 39.594: gotanet.se INFO Name server nic.fassberg.se (192.71.31.7) closed for zone transfer of gotanet.se.
+ 39.658: gotanet.se INFO Legacy name server ID for nic.fassberg.se (192.71.31.7): hostname.bind = nic.fassberg.se
+ 39.691: gotanet.se INFO Legacy name server ID for nic.fassberg.se (192.71.31.7): version.bind = ---
+ 39.745: gotanet.se NOTICE No answer received from 192.71.31.7 when querying for version.server/CH/TXT.
+ 39.763: gotanet.se INFO Name server nic.fassberg.se (2a02:920:4fff:14a:0:0:0:7) answers queries over UDP.
+ 39.796: gotanet.se INFO Name server nic.fassberg.se (2a02:920:4fff:14a:0:0:0:7) answers queries over TCP.
+ 39.820: gotanet.se INFO Name server nic.fassberg.se (2a02:920:4fff:14a:0:0:0:7) is not recursive.
+ 39.900: gotanet.se INFO Name server nic.fassberg.se (2a02:920:4fff:14a:0:0:0:7) authoritative for gotanet.se.
+ 40.063: gotanet.se INFO Name server nic.fassberg.se (2a02:920:4fff:14a:0:0:0:7) closed for zone transfer of gotanet.se.
+ 40.083: gotanet.se INFO Legacy name server ID for nic.fassberg.se (2a02:920:4fff:14a:0:0:0:7): hostname.bind = nic.fassberg.se
+ 40.132: gotanet.se INFO Legacy name server ID for nic.fassberg.se (2a02:920:4fff:14a:0:0:0:7): version.bind = ---
+ 40.210: gotanet.se NOTICE No answer received from 2a02:920:4fff:14a:0:0:0:7 when querying for version.server/CH/TXT.
+ 40.210: gotanet.se INFO Done testing name server nic.fassberg.se.
+ 40.210: gotanet.se INFO Begin testing name server nic.gota.net.
+ 40.210: gotanet.se INFO Begin testing host nic.gota.net.
+ 40.211: gotanet.se INFO Begin testing address 212.3.0.40.
+ 40.874: gotanet.se INFO Done testing address 212.3.0.40.
+ 40.874: gotanet.se INFO Begin testing address 2a02:920:3002:0:0:0:0:40.
+ 41.476: gotanet.se INFO Done testing address 2a02:920:3002:0:0:0:0:40.
+ 41.476: gotanet.se INFO Done testing host nic.gota.net.
+ 41.541: gotanet.se INFO Name server nic.gota.net (212.3.0.40) answers queries over UDP.
+ 41.589: gotanet.se INFO Name server nic.gota.net (212.3.0.40) answers queries over TCP.
+ 41.604: gotanet.se INFO Name server nic.gota.net (212.3.0.40) is not recursive.
+ 41.719: gotanet.se INFO Name server nic.gota.net (212.3.0.40) authoritative for gotanet.se.
+ 41.761: gotanet.se INFO Name server nic.gota.net (212.3.0.40) closed for zone transfer of gotanet.se.
+ 41.786: gotanet.se INFO Legacy name server ID for nic.gota.net (212.3.0.40): hostname.bind = nic
+ 41.814: gotanet.se INFO Legacy name server ID for nic.gota.net (212.3.0.40): version.bind = ---
+ 41.891: gotanet.se NOTICE No answer received from 212.3.0.40 when querying for version.server/CH/TXT.
+ 41.943: gotanet.se INFO Name server nic.gota.net (2a02:920:3002:0:0:0:0:40) answers queries over UDP.
+ 41.980: gotanet.se INFO Name server nic.gota.net (2a02:920:3002:0:0:0:0:40) answers queries over TCP.
+ 42.001: gotanet.se INFO Name server nic.gota.net (2a02:920:3002:0:0:0:0:40) is not recursive.
+ 42.185: gotanet.se INFO Name server nic.gota.net (2a02:920:3002:0:0:0:0:40) authoritative for gotanet.se.
+ 42.238: gotanet.se INFO Name server nic.gota.net (2a02:920:3002:0:0:0:0:40) closed for zone transfer of gotanet.se.
+ 42.290: gotanet.se INFO Legacy name server ID for nic.gota.net (2a02:920:3002:0:0:0:0:40): hostname.bind = nic
+ 42.322: gotanet.se INFO Legacy name server ID for nic.gota.net (2a02:920:3002:0:0:0:0:40): version.bind = ---
+ 42.364: gotanet.se NOTICE No answer received from 2a02:920:3002:0:0:0:0:40 when querying for version.server/CH/TXT.
+ 42.364: gotanet.se INFO Done testing name server nic.gota.net.
+ 42.364: gotanet.se INFO Begin testing name server nic2.gota.net.
+ 42.364: gotanet.se INFO Begin testing host nic2.gota.net.
+ 42.365: gotanet.se INFO Begin testing address 212.3.0.2.
+ 44.260: gotanet.se INFO Done testing address 212.3.0.2.
+ 44.260: gotanet.se INFO Begin testing address 2a02:920:4194:0:0:0:0:2.
+ 45.032: gotanet.se INFO Done testing address 2a02:920:4194:0:0:0:0:2.
+ 45.032: gotanet.se INFO Done testing host nic2.gota.net.
+ 45.176: gotanet.se INFO Name server nic2.gota.net (212.3.0.2) answers queries over UDP.
+ 45.252: gotanet.se INFO Name server nic2.gota.net (212.3.0.2) answers queries over TCP.
+ 45.268: gotanet.se INFO Name server nic2.gota.net (212.3.0.2) is not recursive.
+ 45.382: gotanet.se INFO Name server nic2.gota.net (212.3.0.2) authoritative for gotanet.se.
+ 45.434: gotanet.se INFO Name server nic2.gota.net (212.3.0.2) closed for zone transfer of gotanet.se.
+ 45.465: gotanet.se INFO Legacy name server ID for nic2.gota.net (212.3.0.2): hostname.bind = nic2
+ 45.495: gotanet.se INFO Legacy name server ID for nic2.gota.net (212.3.0.2): version.bind = ---
+ 45.570: gotanet.se NOTICE No answer received from 212.3.0.2 when querying for version.server/CH/TXT.
+ 45.668: gotanet.se INFO Name server nic2.gota.net (2a02:920:4194:0:0:0:0:2) answers queries over UDP.
+ 45.805: gotanet.se INFO Name server nic2.gota.net (2a02:920:4194:0:0:0:0:2) answers queries over TCP.
+ 45.857: gotanet.se INFO Name server nic2.gota.net (2a02:920:4194:0:0:0:0:2) is not recursive.
+ 45.990: gotanet.se INFO Name server nic2.gota.net (2a02:920:4194:0:0:0:0:2) authoritative for gotanet.se.
+ 46.031: gotanet.se INFO Name server nic2.gota.net (2a02:920:4194:0:0:0:0:2) closed for zone transfer of gotanet.se.
+ 46.048: gotanet.se INFO Legacy name server ID for nic2.gota.net (2a02:920:4194:0:0:0:0:2): hostname.bind = nic2
+ 46.065: gotanet.se INFO Legacy name server ID for nic2.gota.net (2a02:920:4194:0:0:0:0:2): version.bind = ---
+ 46.102: gotanet.se NOTICE No answer received from 2a02:920:4194:0:0:0:0:2 when querying for version.server/CH/TXT.
+ 46.102: gotanet.se INFO Done testing name server nic2.gota.net.
+ 46.102: gotanet.se INFO Begin testing name server nic3.gota.net.
+ 46.102: gotanet.se INFO Begin testing host nic3.gota.net.
+ 46.103: gotanet.se INFO Begin testing address 62.80.211.4.
+ 46.864: gotanet.se INFO Done testing address 62.80.211.4.
+ 46.864: gotanet.se INFO Begin testing address 2a02:920:1200:0:0:0:0:4.
+ 47.694: gotanet.se INFO Done testing address 2a02:920:1200:0:0:0:0:4.
+ 47.694: gotanet.se INFO Done testing host nic3.gota.net.
+ 47.723: gotanet.se INFO Name server nic3.gota.net (62.80.211.4) answers queries over UDP.
+ 47.740: gotanet.se INFO Name server nic3.gota.net (62.80.211.4) answers queries over TCP.
+ 47.746: gotanet.se INFO Name server nic3.gota.net (62.80.211.4) is not recursive.
+ 47.811: gotanet.se INFO Name server nic3.gota.net (62.80.211.4) authoritative for gotanet.se.
+ 47.824: gotanet.se INFO Name server nic3.gota.net (62.80.211.4) closed for zone transfer of gotanet.se.
+ 47.830: gotanet.se INFO Legacy name server ID for nic3.gota.net (62.80.211.4): hostname.bind = nic3
+ 47.837: gotanet.se INFO Legacy name server ID for nic3.gota.net (62.80.211.4): version.bind = ---
+ 47.855: gotanet.se NOTICE No answer received from 62.80.211.4 when querying for version.server/CH/TXT.
+ 47.898: gotanet.se INFO Name server nic3.gota.net (2a02:920:1200:0:0:0:0:4) answers queries over UDP.
+ 47.927: gotanet.se INFO Name server nic3.gota.net (2a02:920:1200:0:0:0:0:4) answers queries over TCP.
+ 47.945: gotanet.se INFO Name server nic3.gota.net (2a02:920:1200:0:0:0:0:4) is not recursive.
+ 48.121: gotanet.se INFO Name server nic3.gota.net (2a02:920:1200:0:0:0:0:4) authoritative for gotanet.se.
+ 48.144: gotanet.se INFO Name server nic3.gota.net (2a02:920:1200:0:0:0:0:4) closed for zone transfer of gotanet.se.
+ 48.178: gotanet.se INFO Legacy name server ID for nic3.gota.net (2a02:920:1200:0:0:0:0:4): hostname.bind = nic3
+ 48.214: gotanet.se INFO Legacy name server ID for nic3.gota.net (2a02:920:1200:0:0:0:0:4): version.bind = ---
+ 48.283: gotanet.se NOTICE No answer received from 2a02:920:1200:0:0:0:0:4 when querying for version.server/CH/TXT.
+ 48.283: gotanet.se INFO Done testing name server nic3.gota.net.
+ 48.284: gotanet.se INFO Begin testing name server nic4.gota.net.
+ 48.284: gotanet.se INFO Begin testing host nic4.gota.net.
+ 48.284: gotanet.se INFO Begin testing address 62.80.222.6.
+ 49.125: gotanet.se INFO Done testing address 62.80.222.6.
+ 49.126: gotanet.se INFO Begin testing address 2a02:920:5184:0:0:0:0:6.
+ 49.801: gotanet.se INFO Done testing address 2a02:920:5184:0:0:0:0:6.
+ 49.801: gotanet.se INFO Done testing host nic4.gota.net.
+ 49.878: gotanet.se INFO Name server nic4.gota.net (62.80.222.6) answers queries over UDP.
+ 49.950: gotanet.se INFO Name server nic4.gota.net (62.80.222.6) answers queries over TCP.
+ 49.982: gotanet.se INFO Name server nic4.gota.net (62.80.222.6) is not recursive.
+ 50.148: gotanet.se INFO Name server nic4.gota.net (62.80.222.6) authoritative for gotanet.se.
+ 50.207: gotanet.se INFO Name server nic4.gota.net (62.80.222.6) closed for zone transfer of gotanet.se.
+ 50.232: gotanet.se INFO Legacy name server ID for nic4.gota.net (62.80.222.6): hostname.bind = nic4
+ 50.254: gotanet.se INFO Legacy name server ID for nic4.gota.net (62.80.222.6): version.bind = ---
+ 50.310: gotanet.se NOTICE No answer received from 62.80.222.6 when querying for version.server/CH/TXT.
+ 50.376: gotanet.se INFO Name server nic4.gota.net (2a02:920:5184:0:0:0:0:6) answers queries over UDP.
+ 50.462: gotanet.se INFO Name server nic4.gota.net (2a02:920:5184:0:0:0:0:6) answers queries over TCP.
+ 50.480: gotanet.se INFO Name server nic4.gota.net (2a02:920:5184:0:0:0:0:6) is not recursive.
+ 50.620: gotanet.se INFO Name server nic4.gota.net (2a02:920:5184:0:0:0:0:6) authoritative for gotanet.se.
+ 50.728: gotanet.se INFO Name server nic4.gota.net (2a02:920:5184:0:0:0:0:6) closed for zone transfer of gotanet.se.
+ 50.766: gotanet.se INFO Legacy name server ID for nic4.gota.net (2a02:920:5184:0:0:0:0:6): hostname.bind = nic4
+ 50.823: gotanet.se INFO Legacy name server ID for nic4.gota.net (2a02:920:5184:0:0:0:0:6): version.bind = ---
+ 50.893: gotanet.se NOTICE No answer received from 2a02:920:5184:0:0:0:0:6 when querying for version.server/CH/TXT.
+ 50.893: gotanet.se INFO Done testing name server nic4.gota.net.
+ 50.893: gotanet.se INFO Begin testing zone consistency for gotanet.se.
+ 50.948: gotanet.se INFO SOA at address 2a02:920:4fff:14a:0:0:0:7 has serial 2013072901.
+ 50.975: gotanet.se INFO SOA at address 212.3.0.2 has serial 2013072901.
+ 51.024: gotanet.se INFO SOA at address 2a02:920:3002:0:0:0:0:40 has serial 2013072901.
+ 51.044: gotanet.se INFO SOA at address 192.71.31.7 has serial 2013072901.
+ 51.076: gotanet.se INFO SOA at address 2a02:920:4194:0:0:0:0:2 has serial 2013072901.
+ 51.116: gotanet.se INFO SOA at address 212.3.0.40 has serial 2013072901.
+ 51.136: gotanet.se INFO SOA at address 2a02:920:1200:0:0:0:0:4 has serial 2013072901.
+ 51.169: gotanet.se INFO SOA at address 2a02:920:5184:0:0:0:0:6 has serial 2013072901.
+ 51.234: gotanet.se INFO SOA at address 62.80.211.4 has serial 2013072901.
+ 51.311: gotanet.se INFO SOA at address 62.80.222.6 has serial 2013072901.
+ 51.311: gotanet.se INFO All SOA records have consistent serial numbers.
+ 51.311: gotanet.se INFO All other fields in the SOA record are consistent among all name servers.
+ 51.754: gotanet.se NOTICE The listed nameservers for gotanet.se all report the same set of nameservers.
+ 51.754: gotanet.se INFO Done testing zone consistency for gotanet.se.
+ 51.754: gotanet.se INFO Begin testing SOA parameters for gotanet.se.
+ 51.786: gotanet.se INFO Found SOA record for gotanet.se.
+ 51.787: gotanet.se INFO Begin testing host nic.gota.net.
+ 51.787: gotanet.se INFO Begin testing address 212.3.0.40.
+ 51.790: gotanet.se INFO Done testing address 212.3.0.40.
+ 51.790: gotanet.se INFO Begin testing address 2a02:920:3002:0:0:0:0:40.
+ 51.792: gotanet.se INFO Done testing address 2a02:920:3002:0:0:0:0:40.
+ 51.792: gotanet.se INFO Done testing host nic.gota.net.
+ 51.792: gotanet.se INFO SOA MNAME for gotanet.se valid (nic.gota.net).
+ 51.792: gotanet.se INFO SOA MNAME for gotanet.se (nic.gota.net) listed as NS.
+ 51.871: gotanet.se INFO SOA MNAME for gotanet.se (nic.gota.net) is authoritative.
+ 51.945: gotanet.se INFO SOA MNAME for gotanet.se (nic.gota.net) is authoritative.
+ 51.946: gotanet.se INFO Begin testing email address registry@leissner.se.
+ 52.251: gotanet.se INFO Mail exchangers for registry@leissner.se found public9.gotanet.se,mail12.gotanet.se.
+ 52.251: gotanet.se INFO All mail servers for registry@leissner.se are in zone gotanet.se.
+ 52.251: gotanet.se INFO Begin testing host public9.gotanet.se.
+ 52.821: gotanet.se INFO Begin testing address 62.80.209.34.
+ 54.279: gotanet.se INFO Done testing address 62.80.209.34.
+ 54.280: gotanet.se INFO Begin testing address 2a02:920:318f:0:0:0:0:34.
+ 54.944: gotanet.se INFO Done testing address 2a02:920:318f:0:0:0:0:34.
+ 54.944: gotanet.se INFO Done testing host public9.gotanet.se.
+ 54.945: gotanet.se INFO Begin testing host mail12.gotanet.se.
+ 55.530: gotanet.se INFO Begin testing address 62.80.209.46.
+ 56.548: gotanet.se INFO Done testing address 62.80.209.46.
+ 56.549: gotanet.se INFO Begin testing address 2a02:920:318f:0:0:0:0:46.
+ 57.476: gotanet.se INFO Done testing address 2a02:920:318f:0:0:0:0:46.
+ 57.476: gotanet.se INFO Done testing host mail12.gotanet.se.
+ 57.476: gotanet.se INFO Done testing email address registry@leissner.se.
+ 57.476: gotanet.se INFO Successful attempt to deliver email for SOA RNAME of gotanet.se (registry.leissner.se) using registry@leissner.se.
+ 57.477: gotanet.se INFO SOA TTL for gotanet.se OK (3600) - recommended >= 3600.
+ 57.477: gotanet.se INFO SOA refresh for gotanet.se OK (28800) - recommended >= 14400.
+ 57.477: gotanet.se INFO SOA retry for gotanet.se OK (7200) - recommended >= 3600.
+ 57.477: gotanet.se INFO SOA expire for gotanet.se OK (604800) - recommended >= 604800.
+ 57.477: gotanet.se INFO SOA minimum for gotanet.se OK (3600) - recommended between 300 and 86400.
+ 57.477: gotanet.se INFO Done testing SOA parameters for gotanet.se.
+ 57.478: gotanet.se INFO Begin testing connectivity for gotanet.se.
+ 61.137: gotanet.se INFO Zone announced by more than one ASN.
+ 65.132: gotanet.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 65.132: gotanet.se INFO Done testing connectivity for gotanet.se.
+ 65.133: gotanet.se INFO Begin testing DNSSEC for gotanet.se.
+ 65.299: gotanet.se INFO Found DS record for gotanet.se at parent.
+ 65.411: gotanet.se INFO Nameserver 212.3.0.2 does DNSSEC extra processing.
+ 65.553: gotanet.se INFO Nameserver 192.71.31.7 does DNSSEC extra processing.
+ 65.690: gotanet.se INFO Nameserver 212.3.0.40 does DNSSEC extra processing.
+ 65.807: gotanet.se INFO Nameserver 62.80.211.4 does DNSSEC extra processing.
+ 65.944: gotanet.se INFO Nameserver 62.80.222.6 does DNSSEC extra processing.
+ 66.106: gotanet.se INFO Nameserver 2a02:920:4194:0:0:0:0:2 does DNSSEC extra processing.
+ 66.291: gotanet.se INFO Nameserver 2a02:920:4fff:14a:0:0:0:7 does DNSSEC extra processing.
+ 66.439: gotanet.se INFO Nameserver 2a02:920:3002:0:0:0:0:40 does DNSSEC extra processing.
+ 66.579: gotanet.se INFO Nameserver 2a02:920:5184:0:0:0:0:6 does DNSSEC extra processing.
+ 66.847: gotanet.se INFO Nameserver 2a02:920:1200:0:0:0:0:4 does DNSSEC extra processing.
+ 66.847: gotanet.se INFO Servers for gotanet.se have consistent extra processing status.
+ 66.984: gotanet.se INFO Authenticated denial records found for gotanet.se, of type NSEC.
+ 67.089: gotanet.se INFO Found DNSKEY record for gotanet.se at child.
+ 67.089: gotanet.se INFO Consistent security for gotanet.se.
+ 67.089: gotanet.se INFO Checking DNSSEC at child (gotanet.se).
+ 67.090: gotanet.se INFO gotanet.se's key with tag 39080 uses algorithm number 5 (RSA/SHA-1).
+ 67.090: gotanet.se INFO Algorithm number 5 is OK.
+ 67.090: gotanet.se INFO gotanet.se's key with tag 16585 uses algorithm number 5 (RSA/SHA-1).
+ 67.090: gotanet.se INFO Algorithm number 5 is OK.
+ 67.090: gotanet.se INFO DNSKEY gotanet.se (tag 16585) is marked as a secure entry point (SEP).
+ 67.091: gotanet.se INFO DNSSEC signature expires at: Fri Aug 23 12:20:01 2013
+ 67.091: gotanet.se INFO Duration for RRSIG(gotanet.se/IN/DNSKEY/16585) is OK (2160000 seconds).
+ 67.092: gotanet.se INFO DNSSEC signature RRSIG(gotanet.se/IN/DNSKEY/16585) matches records.
+ 67.093: gotanet.se INFO DNSSEC signature valid: RRSIG(gotanet.se/IN/DNSKEY/16585)
+ 67.237: gotanet.se INFO DNSSEC signature expires at: Fri Aug 23 12:20:01 2013
+ 67.238: gotanet.se INFO Duration for RRSIG(gotanet.se/IN/DNSKEY/39080) is OK (2160000 seconds).
+ 67.239: gotanet.se INFO DNSSEC signature RRSIG(gotanet.se/IN/DNSKEY/39080) matches records.
+ 67.239: gotanet.se INFO DNSSEC signature valid: RRSIG(gotanet.se/IN/DNSKEY/39080)
+ 67.239: gotanet.se INFO Enough valid signatures found for gotanet.se.
+ 67.514: gotanet.se INFO DNSSEC signature expires at: Fri Aug 23 12:20:01 2013
+ 67.514: gotanet.se INFO Duration for RRSIG(gotanet.se/IN/SOA/39080) is OK (2160000 seconds).
+ 67.515: gotanet.se INFO DNSSEC signature RRSIG(gotanet.se/IN/SOA/39080) matches records.
+ 67.515: gotanet.se INFO DNSSEC signature valid: RRSIG(gotanet.se/IN/SOA/39080)
+ 67.515: gotanet.se INFO Enough valid signatures over SOA RRset found for gotanet.se.
+ 67.515: gotanet.se INFO DNSSEC child checks for gotanet.se complete.
+ 67.515: gotanet.se INFO Checking DNSSEC at parent of gotanet.se.
+ 67.515: gotanet.se INFO gotanet.se's key with tag 16585 uses algorithm number 5 (RSA/SHA-1).
+ 67.516: gotanet.se INFO Algorithm number 5 is OK.
+ 67.516: gotanet.se INFO Parent DS(gotanet.se/5/1/16585) refers to valid key at child: DNSKEY(gotanet.se/5/16585)
+ 67.516: gotanet.se INFO Parent DS(gotanet.se) refers to secure entry point (SEP) at child: DS(gotanet.se/5/1/16585)
+ 67.516: gotanet.se INFO gotanet.se's key with tag 16585 uses algorithm number 5 (RSA/SHA-1).
+ 67.516: gotanet.se INFO Algorithm number 5 is OK.
+ 67.516: gotanet.se INFO Parent DS(gotanet.se/5/2/16585) refers to valid key at child: DNSKEY(gotanet.se/5/16585)
+ 67.517: gotanet.se INFO Parent DS(gotanet.se) refers to secure entry point (SEP) at child: DS(gotanet.se/5/2/16585)
+ 67.517: gotanet.se INFO DNSSEC parent checks for gotanet.se complete.
+ 67.517: gotanet.se INFO Done testing DNSSEC for gotanet.se.
+ 67.626: gotanet.se INFO Test completed for zone gotanet.se.

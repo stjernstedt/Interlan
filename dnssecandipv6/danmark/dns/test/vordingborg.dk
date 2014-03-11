@@ -1,0 +1,81 @@
+  0.000: vordingborg.dk INFO Begin testing zone vordingborg.dk with version 1.6.1.
+  0.375: vordingborg.dk INFO Begin testing delegation for vordingborg.dk.
+  5.337: vordingborg.dk INFO Name servers listed at parent: ns.vordbkom.dk,ns.vordbskoler.dk
+  6.910: vordingborg.dk INFO Name servers listed at child: ns.vordbkom.dk,ns.vordbskoler.dk
+  6.910: vordingborg.dk NOTICE No IPv6 name servers found.
+  6.963: vordingborg.dk INFO Parent glue for vordingborg.dk found: ns.vordbkom.dk (131.165.202.1)
+  7.037: vordingborg.dk INFO Parent glue for vordingborg.dk found: ns.vordbskoler.dk (5.56.147.154)
+  7.075: vordingborg.dk INFO Checking glue for ns.vordbkom.dk (131.165.202.1).
+  7.115: vordingborg.dk INFO Checking glue for ns.vordbskoler.dk (5.56.147.154).
+  7.115: vordingborg.dk INFO Parent glue for vordingborg.dk found: ns.vordbkom.dk (131.165.202.1)
+  7.116: vordingborg.dk INFO Parent glue for vordingborg.dk found: ns.vordbskoler.dk (5.56.147.154)
+  8.020: vordingborg.dk INFO It is possible to build a referral packet for vordingborg.dk that works without EDNS0.
+  8.598: vordingborg.dk INFO Previously used name servers for vordingborg.dk: 
+  8.599: vordingborg.dk INFO Done testing delegation for vordingborg.dk.
+  8.599: vordingborg.dk INFO Begin testing name server ns.vordbkom.dk.
+  8.599: vordingborg.dk INFO Begin testing host ns.vordbkom.dk.
+  8.963: vordingborg.dk INFO Begin testing address 131.165.202.1.
+ 17.034: vordingborg.dk INFO Done testing address 131.165.202.1.
+ 17.034: vordingborg.dk INFO Done testing host ns.vordbkom.dk.
+ 17.263: vordingborg.dk INFO Name server ns.vordbkom.dk (131.165.202.1) answers queries over UDP.
+ 17.376: vordingborg.dk INFO Name server ns.vordbkom.dk (131.165.202.1) answers queries over TCP.
+ 21.416: vordingborg.dk INFO Name server ns.vordbkom.dk (131.165.202.1) is not recursive.
+ 21.672: vordingborg.dk INFO Name server ns.vordbkom.dk (131.165.202.1) authoritative for vordingborg.dk.
+ 22.033: vordingborg.dk INFO Name server ns.vordbkom.dk (131.165.202.1) closed for zone transfer of vordingborg.dk.
+ 22.092: vordingborg.dk NOTICE No answer received from 131.165.202.1 when querying for hostname.bind/CH/TXT.
+ 34.277: vordingborg.dk INFO Done testing name server ns.vordbkom.dk.
+ 34.278: vordingborg.dk INFO Begin testing name server ns.vordbskoler.dk.
+ 34.278: vordingborg.dk INFO Begin testing host ns.vordbskoler.dk.
+ 34.433: vordingborg.dk INFO Begin testing address 5.56.147.154.
+ 41.183: vordingborg.dk INFO Done testing address 5.56.147.154.
+ 41.183: vordingborg.dk INFO Done testing host ns.vordbskoler.dk.
+ 41.293: vordingborg.dk INFO Name server ns.vordbskoler.dk (5.56.147.154) answers queries over UDP.
+ 41.334: vordingborg.dk INFO Name server ns.vordbskoler.dk (5.56.147.154) answers queries over TCP.
+ 44.781: vordingborg.dk INFO Name server ns.vordbskoler.dk (5.56.147.154) is not recursive.
+ 44.870: vordingborg.dk INFO Name server ns.vordbskoler.dk (5.56.147.154) authoritative for vordingborg.dk.
+ 45.142: vordingborg.dk INFO Name server ns.vordbskoler.dk (5.56.147.154) closed for zone transfer of vordingborg.dk.
+ 45.163: vordingborg.dk NOTICE No answer received from 5.56.147.154 when querying for hostname.bind/CH/TXT.
+ 55.261: vordingborg.dk INFO Done testing name server ns.vordbskoler.dk.
+ 55.261: vordingborg.dk INFO Begin testing zone consistency for vordingborg.dk.
+ 55.818: vordingborg.dk INFO SOA at address 131.165.202.1 has serial 2013020230.
+ 55.840: vordingborg.dk INFO SOA at address 5.56.147.154 has serial 2013020230.
+ 55.840: vordingborg.dk INFO All SOA records have consistent serial numbers.
+ 55.840: vordingborg.dk INFO All other fields in the SOA record are consistent among all name servers.
+ 56.127: vordingborg.dk NOTICE The listed nameservers for vordingborg.dk all report the same set of nameservers.
+ 56.127: vordingborg.dk INFO Done testing zone consistency for vordingborg.dk.
+ 56.127: vordingborg.dk INFO Begin testing SOA parameters for vordingborg.dk.
+ 56.183: vordingborg.dk INFO Found SOA record for vordingborg.dk.
+ 56.183: vordingborg.dk INFO Begin testing host ns.vordbkom.dk.
+ 56.292: vordingborg.dk INFO Begin testing address 131.165.202.1.
+ 56.401: vordingborg.dk INFO Done testing address 131.165.202.1.
+ 56.401: vordingborg.dk INFO Done testing host ns.vordbkom.dk.
+ 56.401: vordingborg.dk INFO SOA MNAME for vordingborg.dk valid (ns.vordbkom.dk).
+ 56.401: vordingborg.dk INFO SOA MNAME for vordingborg.dk (ns.vordbkom.dk) listed as NS.
+ 56.569: vordingborg.dk INFO SOA MNAME for vordingborg.dk (ns.vordbkom.dk) is authoritative.
+ 56.569: vordingborg.dk INFO Begin testing email address itdrift@vordingborg.dk.
+ 56.682: vordingborg.dk INFO Mail exchangers for itdrift@vordingborg.dk found frontend.hostedsepo.dk.
+ 56.682: vordingborg.dk INFO Begin testing host frontend.hostedsepo.dk.
+ 57.682: vordingborg.dk INFO Begin testing address 92.43.124.138.
+ 58.203: vordingborg.dk WARNING Could not find reverse address for 92.43.124.138 (138.124.43.92.in-addr.arpa.).
+ 58.205: vordingborg.dk INFO Done testing address 92.43.124.138.
+ 58.206: vordingborg.dk INFO Done testing host frontend.hostedsepo.dk.
+ 58.416: vordingborg.dk INFO Done testing email address itdrift@vordingborg.dk.
+ 58.416: vordingborg.dk INFO Successful attempt to deliver email for SOA RNAME of vordingborg.dk (itdrift.vordingborg.dk) using itdrift@vordingborg.dk.
+ 58.416: vordingborg.dk INFO SOA TTL for vordingborg.dk OK (10800) - recommended >= 3600.
+ 58.416: vordingborg.dk INFO SOA refresh for vordingborg.dk OK (14400) - recommended >= 14400.
+ 58.416: vordingborg.dk INFO SOA retry for vordingborg.dk OK (7200) - recommended >= 3600.
+ 58.416: vordingborg.dk INFO SOA expire for vordingborg.dk OK (604800) - recommended >= 604800.
+ 58.416: vordingborg.dk INFO SOA minimum for vordingborg.dk OK (900) - recommended between 300 and 86400.
+ 58.417: vordingborg.dk INFO Done testing SOA parameters for vordingborg.dk.
+ 58.417: vordingborg.dk INFO Begin testing connectivity for vordingborg.dk.
+ 59.287: vordingborg.dk INFO Zone announced by more than one ASN.
+ 59.287: vordingborg.dk NOTICE Zone announced by fewer than two IPv6 ASN.
+ 59.287: vordingborg.dk INFO Done testing connectivity for vordingborg.dk.
+ 59.287: vordingborg.dk INFO Begin testing DNSSEC for vordingborg.dk.
+ 59.326: vordingborg.dk INFO Did not find DS record for vordingborg.dk at parent.
+ 59.473: vordingborg.dk INFO Servers for vordingborg.dk have consistent extra processing status.
+ 59.577: vordingborg.dk INFO Authenticated denial records not found for vordingborg.dk.
+ 59.633: vordingborg.dk INFO Did not find DNSKEY record for vordingborg.dk at child.
+ 59.633: vordingborg.dk INFO No DNSKEY(s) found at child, other tests skipped.
+ 59.633: vordingborg.dk INFO Done testing DNSSEC for vordingborg.dk.
+ 59.633: vordingborg.dk INFO Test completed for zone vordingborg.dk.

@@ -1,0 +1,91 @@
+  0.000: oskarshamn.se INFO Begin testing zone oskarshamn.se with version 1.2.
+  0.000: oskarshamn.se INFO Begin testing delegation for oskarshamn.se.
+  5.346: oskarshamn.se INFO Name servers listed at parent: ns.oskarshamn.se,ns2.oskarnet.se
+  6.588: oskarshamn.se INFO Name servers listed at child: ns.oskarshamn.se,ns2.oskarnet.se
+  6.588: oskarshamn.se NOTICE No IPv6 name servers found.
+  6.597: oskarshamn.se INFO Parent glue for oskarshamn.se found: ns.oskarshamn.se (217.140.112.194)
+  6.654: oskarshamn.se INFO Parent glue for oskarshamn.se found: ns2.oskarnet.se (217.140.112.10)
+  6.663: oskarshamn.se INFO Checking glue for ns.oskarshamn.se (217.140.112.194).
+  6.684: oskarshamn.se INFO Child glue for oskarshamn.se found: ns.oskarshamn.se (217.140.112.194)
+  6.684: oskarshamn.se INFO Checking glue for ns2.oskarnet.se (217.140.112.10).
+  6.685: oskarshamn.se INFO Parent glue for oskarshamn.se found: ns.oskarshamn.se (217.140.112.194)
+  6.685: oskarshamn.se INFO Parent glue for oskarshamn.se found: ns2.oskarnet.se (217.140.112.10)
+  6.686: oskarshamn.se INFO Done testing delegation for oskarshamn.se.
+  6.686: oskarshamn.se INFO Begin testing name server ns.oskarshamn.se.
+  6.686: oskarshamn.se INFO Begin testing host ns.oskarshamn.se.
+  6.687: oskarshamn.se INFO Begin testing address 217.140.112.194.
+ 10.813: oskarshamn.se INFO Done testing address 217.140.112.194.
+ 10.813: oskarshamn.se INFO Done testing host ns.oskarshamn.se.
+ 10.835: oskarshamn.se INFO Name server ns.oskarshamn.se (217.140.112.194) answers queries over UDP.
+ 10.972: oskarshamn.se INFO Name server ns.oskarshamn.se (217.140.112.194) answers queries over TCP.
+ 10.994: oskarshamn.se INFO Name server ns.oskarshamn.se (217.140.112.194) is not recursive.
+ 11.015: oskarshamn.se INFO Name server ns.oskarshamn.se (217.140.112.194) authoritative for oskarshamn.se.
+ 11.257: oskarshamn.se INFO Name server ns.oskarshamn.se (217.140.112.194) closed for zone transfer of oskarshamn.se.
+ 11.278: oskarshamn.se NOTICE No answer received from 217.140.112.194 when querying for hostname.bind/CH/TXT.
+ 29.280: oskarshamn.se INFO Done testing name server ns.oskarshamn.se.
+ 29.281: oskarshamn.se INFO Begin testing name server ns2.oskarnet.se.
+ 29.281: oskarshamn.se INFO Begin testing host ns2.oskarnet.se.
+ 29.281: oskarshamn.se INFO Begin testing address 217.140.112.10.
+ 29.494: oskarshamn.se INFO Done testing address 217.140.112.10.
+ 29.494: oskarshamn.se INFO Done testing host ns2.oskarnet.se.
+ 29.516: oskarshamn.se INFO Name server ns2.oskarnet.se (217.140.112.10) answers queries over UDP.
+ 29.555: oskarshamn.se INFO Name server ns2.oskarnet.se (217.140.112.10) answers queries over TCP.
+ 29.575: oskarshamn.se INFO Name server ns2.oskarnet.se (217.140.112.10) is not recursive.
+ 29.596: oskarshamn.se INFO Name server ns2.oskarnet.se (217.140.112.10) authoritative for oskarshamn.se.
+ 29.649: oskarshamn.se INFO Name server ns2.oskarnet.se (217.140.112.10) closed for zone transfer of oskarshamn.se.
+ 29.672: oskarshamn.se INFO Legacy name server ID for ns2.oskarnet.se (217.140.112.10): hostname.bind = ns2
+ 29.692: oskarshamn.se INFO Legacy name server ID for ns2.oskarnet.se (217.140.112.10): version.bind = Go away
+ 29.732: oskarshamn.se NOTICE No answer received from 217.140.112.10 when querying for version.server/CH/TXT.
+ 29.732: oskarshamn.se INFO Done testing name server ns2.oskarnet.se.
+ 29.732: oskarshamn.se INFO Begin testing zone consistency for oskarshamn.se.
+ 29.757: oskarshamn.se INFO SOA at address 217.140.112.194 has serial 2007011276.
+ 29.777: oskarshamn.se INFO SOA at address 217.140.112.10 has serial 2007011276.
+ 29.778: oskarshamn.se INFO All SOA records have consistent serial numbers.
+ 29.778: oskarshamn.se INFO All SOA records are consistent among all name servers.
+ 29.778: oskarshamn.se INFO Done testing zone consistency for oskarshamn.se.
+ 29.778: oskarshamn.se INFO Begin testing SOA parameters for oskarshamn.se.
+ 29.799: oskarshamn.se INFO Found SOA record for oskarshamn.se.
+ 29.799: oskarshamn.se INFO Begin testing host ns.oskarshamn.se.
+ 29.800: oskarshamn.se INFO Begin testing address 217.140.112.194.
+ 29.801: oskarshamn.se INFO Done testing address 217.140.112.194.
+ 29.801: oskarshamn.se INFO Done testing host ns.oskarshamn.se.
+ 29.801: oskarshamn.se INFO SOA MNAME for oskarshamn.se valid (ns.oskarshamn.se).
+ 29.801: oskarshamn.se INFO SOA MNAME for oskarshamn.se (ns.oskarshamn.se) listed as NS.
+ 29.823: oskarshamn.se INFO SOA MNAME for oskarshamn.se (ns.oskarshamn.se) is authoritative.
+ 29.823: oskarshamn.se INFO Begin testing email address hostmaster@oskarshamn.se.
+ 30.114: oskarshamn.se INFO Mail exchangers for hostmaster@oskarshamn.se found mxoskar.oskarshamn.se.
+ 30.114: oskarshamn.se INFO All mail servers for hostmaster@oskarshamn.se are in zone oskarshamn.se.
+ 30.114: oskarshamn.se INFO Begin testing host mxoskar.oskarshamn.se.
+ 30.634: oskarshamn.se INFO Begin testing address 217.140.112.210.
+ 31.400: oskarshamn.se INFO Done testing address 217.140.112.210.
+ 31.400: oskarshamn.se INFO Done testing host mxoskar.oskarshamn.se.
+ 31.400: oskarshamn.se INFO Begin testing mail server mxoskar.oskarshamn.se (217.140.112.210) with hostmaster@oskarshamn.se.
+ 36.519: oskarshamn.se INFO SMTP banner: mxoskar.oskarshamn.se ESMTP
+ 36.768: oskarshamn.se WARNING Host did not accept hostmaster@oskarshamn.se as SMTP recipient.
+ 36.804: oskarshamn.se INFO Done testing mail server mxoskar.oskarshamn.se (217.140.112.210) with hostmaster@oskarshamn.se.
+ 36.804: oskarshamn.se WARNING Delivery over IPv4 to hostmaster@oskarshamn.se could not be done.
+ 36.804: oskarshamn.se INFO Delivery over IPv6 to hostmaster@oskarshamn.se could not be done.
+ 36.804: oskarshamn.se INFO Done testing email address hostmaster@oskarshamn.se.
+ 36.804: oskarshamn.se WARNING Failed to deliver email for SOA RNAME of oskarshamn.se (hostmaster.oskarshamn.se) using hostmaster@oskarshamn.se.
+ 36.804: oskarshamn.se INFO SOA TTL for oskarshamn.se OK (3600) - recommended >= 3600.
+ 36.804: oskarshamn.se NOTICE SOA refresh for oskarshamn.se too small (3600) - recommended >= 14400.
+ 36.805: oskarshamn.se NOTICE SOA refresh for oskarshamn.se lower than retry (3600 vs 3600).
+ 36.805: oskarshamn.se INFO SOA retry for oskarshamn.se OK (3600) - recommended >= 3600.
+ 36.805: oskarshamn.se NOTICE SOA expire for oskarshamn.se too small (86400) - recommended >= 604800.
+ 36.805: oskarshamn.se INFO SOA minimum for oskarshamn.se OK (3600) - recommended between 300 and 86400.
+ 36.805: oskarshamn.se INFO Done testing SOA parameters for oskarshamn.se.
+ 36.805: oskarshamn.se INFO Begin testing connectivity for oskarshamn.se.
+ 37.420: oskarshamn.se INFO Name server 217.140.112.194 announced by: 3292
+ 38.083: oskarshamn.se INFO Name server 217.140.112.10 announced by: 3292
+ 38.083: oskarshamn.se INFO Zone announced by IPv4 ASN: 3292
+ 38.083: oskarshamn.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 38.083: oskarshamn.se INFO Zone announced by IPv6 ASN: 
+ 38.083: oskarshamn.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 38.084: oskarshamn.se INFO Done testing connectivity for oskarshamn.se.
+ 38.084: oskarshamn.se INFO Begin testing DNSSEC for oskarshamn.se.
+ 38.098: oskarshamn.se INFO Did not find DS record for oskarshamn.se at parent.
+ 38.179: oskarshamn.se INFO Servers for oskarshamn.se have consistent extra processing status.
+ 38.179: oskarshamn.se INFO Did not find DNSKEY record for oskarshamn.se at child.
+ 38.179: oskarshamn.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 38.179: oskarshamn.se INFO Done testing DNSSEC for oskarshamn.se.
+ 38.179: oskarshamn.se INFO Test completed for zone oskarshamn.se.

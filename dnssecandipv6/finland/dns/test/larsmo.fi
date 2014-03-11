@@ -1,0 +1,118 @@
+  0.000: larsmo.fi INFO Begin testing zone larsmo.fi with version 1.6.1.
+  0.416: larsmo.fi INFO Begin testing delegation for larsmo.fi.
+  8.217: larsmo.fi INFO Name servers listed at parent: ns1.multi.fi,ns2.multi.fi,ns3.multi.fi,ns4.multi.fi
+ 11.600: larsmo.fi INFO Name servers listed at child: ns1.multi.fi,ns2.multi.fi,ns3.multi.fi,ns4.multi.fi
+ 11.600: larsmo.fi NOTICE No IPv6 name servers found.
+ 11.683: larsmo.fi INFO Parent glue for larsmo.fi found: ns1.multi.fi (62.80.128.20)
+ 11.798: larsmo.fi INFO Parent glue for larsmo.fi found: ns2.multi.fi (62.80.128.29)
+ 11.921: larsmo.fi INFO Parent glue for larsmo.fi found: ns3.multi.fi (62.80.128.30)
+ 12.090: larsmo.fi INFO Parent glue for larsmo.fi found: ns4.multi.fi (62.80.136.42)
+ 12.193: larsmo.fi INFO Checking glue for ns1.multi.fi (62.80.128.20).
+ 12.193: larsmo.fi INFO Checking glue for ns2.multi.fi (62.80.128.29).
+ 12.193: larsmo.fi INFO Checking glue for ns3.multi.fi (62.80.128.30).
+ 12.193: larsmo.fi INFO Checking glue for ns4.multi.fi (62.80.136.42).
+ 12.194: larsmo.fi INFO Parent glue for larsmo.fi found: ns1.multi.fi (62.80.128.20)
+ 12.194: larsmo.fi INFO Parent glue for larsmo.fi found: ns2.multi.fi (62.80.128.29)
+ 12.194: larsmo.fi INFO Parent glue for larsmo.fi found: ns3.multi.fi (62.80.128.30)
+ 12.194: larsmo.fi INFO Parent glue for larsmo.fi found: ns4.multi.fi (62.80.136.42)
+ 13.878: larsmo.fi INFO It is possible to build a referral packet for larsmo.fi that works without EDNS0.
+ 15.076: larsmo.fi INFO Previously used name servers for larsmo.fi: 
+ 15.076: larsmo.fi INFO Done testing delegation for larsmo.fi.
+ 15.076: larsmo.fi INFO Begin testing name server ns1.multi.fi.
+ 15.077: larsmo.fi INFO Begin testing host ns1.multi.fi.
+ 15.411: larsmo.fi INFO Begin testing address 62.80.128.20.
+ 23.438: larsmo.fi INFO Done testing address 62.80.128.20.
+ 23.438: larsmo.fi INFO Done testing host ns1.multi.fi.
+ 23.671: larsmo.fi INFO Name server ns1.multi.fi (62.80.128.20) answers queries over UDP.
+ 23.728: larsmo.fi INFO Name server ns1.multi.fi (62.80.128.20) answers queries over TCP.
+ 23.756: larsmo.fi INFO Name server ns1.multi.fi (62.80.128.20) is not recursive.
+ 23.903: larsmo.fi INFO Name server ns1.multi.fi (62.80.128.20) authoritative for larsmo.fi.
+ 23.967: larsmo.fi INFO Name server ns1.multi.fi (62.80.128.20) closed for zone transfer of larsmo.fi.
+ 23.998: larsmo.fi INFO Legacy name server ID for ns1.multi.fi (62.80.128.20): hostname.bind = ns1.multi.fi
+ 24.072: larsmo.fi NOTICE No answer received from 62.80.128.20 when querying for version.server/CH/TXT.
+ 24.072: larsmo.fi INFO Done testing name server ns1.multi.fi.
+ 24.072: larsmo.fi INFO Begin testing name server ns2.multi.fi.
+ 24.073: larsmo.fi INFO Begin testing host ns2.multi.fi.
+ 24.294: larsmo.fi INFO Begin testing address 62.80.128.29.
+ 25.240: larsmo.fi INFO Done testing address 62.80.128.29.
+ 25.240: larsmo.fi INFO Done testing host ns2.multi.fi.
+ 25.471: larsmo.fi INFO Name server ns2.multi.fi (62.80.128.29) answers queries over UDP.
+ 25.555: larsmo.fi INFO Name server ns2.multi.fi (62.80.128.29) answers queries over TCP.
+ 25.583: larsmo.fi INFO Name server ns2.multi.fi (62.80.128.29) is not recursive.
+ 25.721: larsmo.fi INFO Name server ns2.multi.fi (62.80.128.29) authoritative for larsmo.fi.
+ 25.783: larsmo.fi INFO Name server ns2.multi.fi (62.80.128.29) closed for zone transfer of larsmo.fi.
+ 25.804: larsmo.fi INFO Legacy name server ID for ns2.multi.fi (62.80.128.29): hostname.bind = ns2.multi.fi
+ 25.916: larsmo.fi NOTICE No answer received from 62.80.128.29 when querying for version.server/CH/TXT.
+ 25.916: larsmo.fi INFO Done testing name server ns2.multi.fi.
+ 25.916: larsmo.fi INFO Begin testing name server ns3.multi.fi.
+ 25.916: larsmo.fi INFO Begin testing host ns3.multi.fi.
+ 26.152: larsmo.fi INFO Begin testing address 62.80.128.30.
+ 27.008: larsmo.fi INFO Done testing address 62.80.128.30.
+ 27.008: larsmo.fi INFO Done testing host ns3.multi.fi.
+ 27.150: larsmo.fi INFO Name server ns3.multi.fi (62.80.128.30) answers queries over UDP.
+ 27.193: larsmo.fi INFO Name server ns3.multi.fi (62.80.128.30) answers queries over TCP.
+ 27.214: larsmo.fi INFO Name server ns3.multi.fi (62.80.128.30) is not recursive.
+ 27.359: larsmo.fi INFO Name server ns3.multi.fi (62.80.128.30) authoritative for larsmo.fi.
+ 27.418: larsmo.fi INFO Name server ns3.multi.fi (62.80.128.30) closed for zone transfer of larsmo.fi.
+ 27.460: larsmo.fi INFO Legacy name server ID for ns3.multi.fi (62.80.128.30): hostname.bind = agda.multi.fi
+ 27.536: larsmo.fi NOTICE No answer received from 62.80.128.30 when querying for version.server/CH/TXT.
+ 27.536: larsmo.fi INFO Done testing name server ns3.multi.fi.
+ 27.536: larsmo.fi INFO Begin testing name server ns4.multi.fi.
+ 27.536: larsmo.fi INFO Begin testing host ns4.multi.fi.
+ 27.702: larsmo.fi INFO Begin testing address 62.80.136.42.
+ 28.525: larsmo.fi INFO Done testing address 62.80.136.42.
+ 28.525: larsmo.fi INFO Done testing host ns4.multi.fi.
+ 28.844: larsmo.fi INFO Name server ns4.multi.fi (62.80.136.42) answers queries over UDP.
+ 28.895: larsmo.fi INFO Name server ns4.multi.fi (62.80.136.42) answers queries over TCP.
+ 28.920: larsmo.fi INFO Name server ns4.multi.fi (62.80.136.42) is not recursive.
+ 29.037: larsmo.fi INFO Name server ns4.multi.fi (62.80.136.42) authoritative for larsmo.fi.
+ 29.103: larsmo.fi INFO Name server ns4.multi.fi (62.80.136.42) closed for zone transfer of larsmo.fi.
+ 29.128: larsmo.fi INFO Legacy name server ID for ns4.multi.fi (62.80.136.42): hostname.bind = ns4.multi.fi
+ 29.192: larsmo.fi NOTICE No answer received from 62.80.136.42 when querying for version.server/CH/TXT.
+ 29.192: larsmo.fi INFO Done testing name server ns4.multi.fi.
+ 29.192: larsmo.fi INFO Begin testing zone consistency for larsmo.fi.
+ 30.487: larsmo.fi INFO SOA at address 62.80.128.29 has serial 2014020301.
+ 30.513: larsmo.fi INFO SOA at address 62.80.128.20 has serial 2014020301.
+ 30.537: larsmo.fi INFO SOA at address 62.80.128.30 has serial 2014020301.
+ 30.577: larsmo.fi INFO SOA at address 62.80.136.42 has serial 2014020301.
+ 30.577: larsmo.fi INFO All SOA records have consistent serial numbers.
+ 30.577: larsmo.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 31.309: larsmo.fi NOTICE The listed nameservers for larsmo.fi all report the same set of nameservers.
+ 31.319: larsmo.fi INFO Done testing zone consistency for larsmo.fi.
+ 31.319: larsmo.fi INFO Begin testing SOA parameters for larsmo.fi.
+ 31.349: larsmo.fi INFO Found SOA record for larsmo.fi.
+ 31.349: larsmo.fi INFO Begin testing host ns1.multi.fi.
+ 31.550: larsmo.fi INFO Begin testing address 62.80.128.20.
+ 31.671: larsmo.fi INFO Done testing address 62.80.128.20.
+ 31.671: larsmo.fi INFO Done testing host ns1.multi.fi.
+ 31.671: larsmo.fi INFO SOA MNAME for larsmo.fi valid (ns1.multi.fi).
+ 31.671: larsmo.fi INFO SOA MNAME for larsmo.fi (ns1.multi.fi) listed as NS.
+ 31.826: larsmo.fi INFO SOA MNAME for larsmo.fi (ns1.multi.fi) is authoritative.
+ 31.826: larsmo.fi INFO Begin testing email address hostmaster@multi.fi.
+ 32.045: larsmo.fi INFO Mail exchangers for hostmaster@multi.fi found mx.multi.fi.
+ 32.045: larsmo.fi INFO Begin testing host mx.multi.fi.
+ 32.522: larsmo.fi INFO Begin testing address 62.80.136.30.
+ 33.772: larsmo.fi INFO Done testing address 62.80.136.30.
+ 33.772: larsmo.fi INFO Begin testing address 62.80.136.22.
+ 34.608: larsmo.fi INFO Done testing address 62.80.136.22.
+ 34.608: larsmo.fi INFO Done testing host mx.multi.fi.
+ 34.722: larsmo.fi INFO Done testing email address hostmaster@multi.fi.
+ 34.722: larsmo.fi INFO Successful attempt to deliver email for SOA RNAME of larsmo.fi (hostmaster.multi.fi) using hostmaster@multi.fi.
+ 34.723: larsmo.fi INFO SOA TTL for larsmo.fi OK (28800) - recommended >= 3600.
+ 34.723: larsmo.fi INFO SOA refresh for larsmo.fi OK (28800) - recommended >= 14400.
+ 34.723: larsmo.fi INFO SOA retry for larsmo.fi OK (7200) - recommended >= 3600.
+ 34.723: larsmo.fi INFO SOA expire for larsmo.fi OK (604800) - recommended >= 604800.
+ 34.723: larsmo.fi INFO SOA minimum for larsmo.fi OK (86400) - recommended between 300 and 86400.
+ 34.723: larsmo.fi INFO Done testing SOA parameters for larsmo.fi.
+ 34.723: larsmo.fi INFO Begin testing connectivity for larsmo.fi.
+ 36.932: larsmo.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 36.932: larsmo.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 36.932: larsmo.fi INFO Done testing connectivity for larsmo.fi.
+ 36.932: larsmo.fi INFO Begin testing DNSSEC for larsmo.fi.
+ 36.957: larsmo.fi INFO Did not find DS record for larsmo.fi at parent.
+ 37.126: larsmo.fi INFO Servers for larsmo.fi have consistent extra processing status.
+ 37.172: larsmo.fi INFO Authenticated denial records not found for larsmo.fi.
+ 37.193: larsmo.fi INFO Did not find DNSKEY record for larsmo.fi at child.
+ 37.193: larsmo.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 37.193: larsmo.fi INFO Done testing DNSSEC for larsmo.fi.
+ 37.194: larsmo.fi INFO Test completed for zone larsmo.fi.

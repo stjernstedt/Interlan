@@ -1,0 +1,93 @@
+  0.000: raahe.fi INFO Begin testing zone raahe.fi with version 1.5.0.
+  1.499: raahe.fi INFO Begin testing delegation for raahe.fi.
+ 45.312: raahe.fi INFO Name servers listed at parent: ns1.kotinet.com,ns2.kotinet.com,ns3.kotinet.com
+ 63.801: raahe.fi INFO Name servers listed at child: ns1.kotinet.com,ns2.kotinet.com,ns3.kotinet.com
+ 63.801: raahe.fi NOTICE No IPv6 name servers found.
+ 76.386: raahe.fi INFO It is possible to build a referral packet for raahe.fi that works without EDNS0.
+ 84.464: raahe.fi INFO Previously used name servers for raahe.fi: 
+ 84.464: raahe.fi INFO Done testing delegation for raahe.fi.
+ 84.464: raahe.fi INFO Begin testing name server ns1.kotinet.com.
+ 84.464: raahe.fi INFO Begin testing host ns1.kotinet.com.
+ 87.368: raahe.fi INFO Begin testing address 212.50.211.242.
+120.123: raahe.fi INFO Done testing address 212.50.211.242.
+120.199: raahe.fi INFO Done testing host ns1.kotinet.com.
+122.509: raahe.fi INFO Name server ns1.kotinet.com (212.50.211.242) answers queries over UDP.
+123.084: raahe.fi INFO Name server ns1.kotinet.com (212.50.211.242) answers queries over TCP.
+123.467: raahe.fi INFO Name server ns1.kotinet.com (212.50.211.242) is not recursive.
+124.736: raahe.fi INFO Name server ns1.kotinet.com (212.50.211.242) authoritative for raahe.fi.
+125.071: raahe.fi INFO Name server ns1.kotinet.com (212.50.211.242) closed for zone transfer of raahe.fi.
+125.260: raahe.fi INFO Legacy name server ID for ns1.kotinet.com (212.50.211.242): hostname.bind = ns1.kotinet.com
+125.648: raahe.fi INFO Legacy name server ID for ns1.kotinet.com (212.50.211.242): version.bind = enkerro
+126.170: raahe.fi NOTICE No answer received from 212.50.211.242 when querying for version.server/CH/TXT.
+126.170: raahe.fi INFO Done testing name server ns1.kotinet.com.
+126.171: raahe.fi INFO Begin testing name server ns2.kotinet.com.
+126.246: raahe.fi INFO Begin testing host ns2.kotinet.com.
+128.448: raahe.fi INFO Begin testing address 212.50.192.226.
+132.132: raahe.fi INFO Done testing address 212.50.192.226.
+132.132: raahe.fi INFO Done testing host ns2.kotinet.com.
+134.401: raahe.fi INFO Name server ns2.kotinet.com (212.50.192.226) answers queries over UDP.
+134.994: raahe.fi INFO Name server ns2.kotinet.com (212.50.192.226) answers queries over TCP.
+135.463: raahe.fi INFO Name server ns2.kotinet.com (212.50.192.226) is not recursive.
+136.581: raahe.fi INFO Name server ns2.kotinet.com (212.50.192.226) authoritative for raahe.fi.
+136.931: raahe.fi INFO Name server ns2.kotinet.com (212.50.192.226) closed for zone transfer of raahe.fi.
+137.116: raahe.fi INFO Legacy name server ID for ns2.kotinet.com (212.50.192.226): hostname.bind = ns2
+137.404: raahe.fi INFO Legacy name server ID for ns2.kotinet.com (212.50.192.226): version.bind = enkerro
+137.858: raahe.fi NOTICE No answer received from 212.50.192.226 when querying for version.server/CH/TXT.
+137.858: raahe.fi INFO Done testing name server ns2.kotinet.com.
+137.858: raahe.fi INFO Begin testing name server ns3.kotinet.com.
+137.858: raahe.fi INFO Begin testing host ns3.kotinet.com.
+140.738: raahe.fi INFO Begin testing address 82.141.108.26.
+146.571: raahe.fi INFO Done testing address 82.141.108.26.
+146.571: raahe.fi INFO Done testing host ns3.kotinet.com.
+149.492: raahe.fi INFO Name server ns3.kotinet.com (82.141.108.26) answers queries over UDP.
+150.197: raahe.fi INFO Name server ns3.kotinet.com (82.141.108.26) answers queries over TCP.
+150.784: raahe.fi INFO Name server ns3.kotinet.com (82.141.108.26) is not recursive.
+152.157: raahe.fi INFO Name server ns3.kotinet.com (82.141.108.26) authoritative for raahe.fi.
+152.577: raahe.fi INFO Name server ns3.kotinet.com (82.141.108.26) closed for zone transfer of raahe.fi.
+152.892: raahe.fi INFO Legacy name server ID for ns3.kotinet.com (82.141.108.26): hostname.bind = ns3.kotinet.com
+153.365: raahe.fi INFO Legacy name server ID for ns3.kotinet.com (82.141.108.26): version.bind = enkerro
+154.043: raahe.fi NOTICE No answer received from 82.141.108.26 when querying for version.server/CH/TXT.
+154.044: raahe.fi INFO Done testing name server ns3.kotinet.com.
+154.044: raahe.fi INFO Begin testing zone consistency for raahe.fi.
+170.709: raahe.fi INFO SOA at address 212.50.192.226 has serial 2013060310.
+171.364: raahe.fi INFO SOA at address 82.141.108.26 has serial 2013060310.
+171.886: raahe.fi INFO SOA at address 212.50.211.242 has serial 2013060310.
+171.886: raahe.fi INFO All SOA records have consistent serial numbers.
+171.886: raahe.fi INFO All other fields in the SOA record are consistent among all name servers.
+182.199: raahe.fi NOTICE The listed nameservers for raahe.fi all report the same set of nameservers.
+182.199: raahe.fi INFO Done testing zone consistency for raahe.fi.
+182.200: raahe.fi INFO Begin testing SOA parameters for raahe.fi.
+182.529: raahe.fi INFO Found SOA record for raahe.fi.
+182.529: raahe.fi INFO Begin testing host ns1.kotinet.com.
+185.192: raahe.fi INFO Begin testing address 212.50.211.242.
+187.991: raahe.fi INFO Done testing address 212.50.211.242.
+187.992: raahe.fi INFO Done testing host ns1.kotinet.com.
+187.992: raahe.fi INFO SOA MNAME for raahe.fi valid (ns1.kotinet.com).
+187.992: raahe.fi INFO SOA MNAME for raahe.fi (ns1.kotinet.com) listed as NS.
+191.085: raahe.fi INFO SOA MNAME for raahe.fi (ns1.kotinet.com) is authoritative.
+191.085: raahe.fi INFO Begin testing email address hostmaster@mail.kotinet.com.
+196.501: raahe.fi INFO Mail exchangers for hostmaster@mail.kotinet.com found mail.kotinet.com.
+196.501: raahe.fi INFO Begin testing host mail.kotinet.com.
+199.852: raahe.fi INFO Begin testing address 212.50.215.81.
+208.504: raahe.fi INFO Done testing address 212.50.215.81.
+208.504: raahe.fi INFO Done testing host mail.kotinet.com.
+211.099: raahe.fi INFO Done testing email address hostmaster@mail.kotinet.com.
+211.100: raahe.fi INFO Successful attempt to deliver email for SOA RNAME of raahe.fi (hostmaster.mail.kotinet.com) using hostmaster@mail.kotinet.com.
+211.100: raahe.fi INFO SOA TTL for raahe.fi OK (86400) - recommended >= 3600.
+211.100: raahe.fi INFO SOA refresh for raahe.fi OK (28800) - recommended >= 14400.
+211.100: raahe.fi INFO SOA retry for raahe.fi OK (7200) - recommended >= 3600.
+211.100: raahe.fi INFO SOA expire for raahe.fi OK (604800) - recommended >= 604800.
+211.100: raahe.fi INFO SOA minimum for raahe.fi OK (3600) - recommended between 300 and 86400.
+211.100: raahe.fi INFO Done testing SOA parameters for raahe.fi.
+211.100: raahe.fi INFO Begin testing connectivity for raahe.fi.
+221.129: raahe.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+221.129: raahe.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+221.129: raahe.fi INFO Done testing connectivity for raahe.fi.
+221.129: raahe.fi INFO Begin testing DNSSEC for raahe.fi.
+221.960: raahe.fi INFO Did not find DS record for raahe.fi at parent.
+223.324: raahe.fi INFO Servers for raahe.fi have consistent extra processing status.
+223.748: raahe.fi INFO Authenticated denial records not found for raahe.fi.
+224.088: raahe.fi INFO Did not find DNSKEY record for raahe.fi at child.
+224.088: raahe.fi INFO No DNSKEY(s) found at child, other tests skipped.
+224.088: raahe.fi INFO Done testing DNSSEC for raahe.fi.
+224.089: raahe.fi INFO Test completed for zone raahe.fi.

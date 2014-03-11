@@ -1,0 +1,77 @@
+  0.000: netim.eu INFO Begin testing zone netim.eu with version 1.5.0.
+  0.005: netim.eu INFO Begin testing delegation for netim.eu.
+ 19.038: netim.eu INFO Name servers listed at parent: ns.netim.fr,ns.netim.net,ns.netim.us
+ 34.162: netim.eu INFO Name servers listed at child: ns.netim.fr,ns.netim.net,ns.netim.us
+ 34.162: netim.eu NOTICE No IPv6 name servers found.
+ 41.700: netim.eu INFO It is possible to build a referral packet for netim.eu that works without EDNS0.
+ 41.700: netim.eu INFO Done testing delegation for netim.eu.
+ 41.772: netim.eu INFO Begin testing name server ns.netim.fr.
+ 41.773: netim.eu INFO Begin testing host ns.netim.fr.
+ 41.773: netim.eu ERROR No address found for ns.netim.fr.
+ 41.774: netim.eu INFO Done testing host ns.netim.fr.
+ 41.774: netim.eu ERROR Host name or address error for ns.netim.fr.
+ 41.774: netim.eu INFO Done testing name server ns.netim.fr.
+ 41.774: netim.eu INFO Begin testing name server ns.netim.net.
+ 41.774: netim.eu INFO Begin testing host ns.netim.net.
+ 42.282: netim.eu INFO Begin testing address 176.31.34.101.
+ 60.634: netim.eu INFO Done testing address 176.31.34.101.
+ 60.634: netim.eu INFO Done testing host ns.netim.net.
+ 60.975: netim.eu INFO Name server ns.netim.net (176.31.34.101) answers queries over UDP.
+ 61.050: netim.eu INFO Name server ns.netim.net (176.31.34.101) answers queries over TCP.
+ 61.094: netim.eu INFO Name server ns.netim.net (176.31.34.101) is not recursive.
+ 61.258: netim.eu INFO Name server ns.netim.net (176.31.34.101) authoritative for netim.eu.
+ 61.366: netim.eu INFO Name server ns.netim.net (176.31.34.101) closed for zone transfer of netim.eu.
+ 61.405: netim.eu INFO Legacy name server ID for ns.netim.net (176.31.34.101): hostname.bind = ns
+ 61.449: netim.eu INFO Legacy name server ID for ns.netim.net (176.31.34.101): version.bind = No version info available
+ 61.529: netim.eu NOTICE No answer received from 176.31.34.101 when querying for version.server/CH/TXT.
+ 61.529: netim.eu INFO Done testing name server ns.netim.net.
+ 61.530: netim.eu INFO Begin testing name server ns.netim.us.
+ 61.530: netim.eu INFO Begin testing host ns.netim.us.
+ 61.858: netim.eu INFO Begin testing address 142.4.212.118.
+ 79.631: netim.eu INFO Done testing address 142.4.212.118.
+ 79.631: netim.eu INFO Done testing host ns.netim.us.
+ 86.186: netim.eu ERROR Name server ns.netim.us (142.4.212.118) does not answer queries over UDP.
+ 86.188: netim.eu ERROR Name server ns.netim.us (142.4.212.118) does not answer queries over TCP.
+ 86.188: netim.eu INFO Done testing name server ns.netim.us.
+ 86.197: netim.eu INFO Begin testing zone consistency for netim.eu.
+100.250: netim.eu INFO SOA at address 176.31.34.101 has serial 2012112302.
+100.253: netim.eu INFO All SOA records have consistent serial numbers.
+100.253: netim.eu INFO All other fields in the SOA record are consistent among all name servers.
+113.070: netim.eu NOTICE The listed nameservers for netim.eu all report the same set of nameservers.
+113.070: netim.eu INFO Done testing zone consistency for netim.eu.
+113.070: netim.eu INFO Begin testing SOA parameters for netim.eu.
+113.109: netim.eu INFO Found SOA record for netim.eu.
+113.109: netim.eu INFO Begin testing host ns.netim.net.
+113.565: netim.eu INFO Begin testing address 176.31.34.101.
+114.133: netim.eu INFO Done testing address 176.31.34.101.
+114.133: netim.eu INFO Done testing host ns.netim.net.
+114.134: netim.eu INFO SOA MNAME for netim.eu valid (ns.netim.net).
+114.134: netim.eu INFO SOA MNAME for netim.eu (ns.netim.net) listed as NS.
+114.489: netim.eu INFO SOA MNAME for netim.eu (ns.netim.net) is authoritative.
+114.489: netim.eu INFO Begin testing email address yannick@netim.com.
+114.821: netim.eu INFO Mail exchangers for yannick@netim.com found cloudn.netim.net.
+114.822: netim.eu INFO Begin testing host cloudn.netim.net.
+115.499: netim.eu INFO Begin testing address 176.31.34.100.
+116.457: netim.eu INFO Done testing address 176.31.34.100.
+116.457: netim.eu INFO Done testing host cloudn.netim.net.
+116.875: netim.eu INFO Done testing email address yannick@netim.com.
+116.875: netim.eu INFO Successful attempt to deliver email for SOA RNAME of netim.eu (yannick.netim.com) using yannick@netim.com.
+116.876: netim.eu INFO SOA TTL for netim.eu OK (86400) - recommended >= 3600.
+116.880: netim.eu NOTICE SOA refresh for netim.eu too small (10800) - recommended >= 14400.
+116.881: netim.eu INFO SOA retry for netim.eu OK (3600) - recommended >= 3600.
+116.881: netim.eu INFO SOA expire for netim.eu OK (604800) - recommended >= 604800.
+116.881: netim.eu INFO SOA minimum for netim.eu OK (10800) - recommended between 300 and 86400.
+116.881: netim.eu INFO Done testing SOA parameters for netim.eu.
+116.881: netim.eu INFO Begin testing connectivity for netim.eu.
+118.543: netim.eu NOTICE Zone announced by fewer than two IPv4 ASN.
+118.543: netim.eu NOTICE Zone announced by fewer than two IPv6 ASN.
+118.543: netim.eu INFO Done testing connectivity for netim.eu.
+118.543: netim.eu INFO Begin testing DNSSEC for netim.eu.
+118.600: netim.eu INFO Did not find DS record for netim.eu at parent.
+118.820: netim.eu NOTICE DNS lookup error (connection failed).
+118.820: netim.eu INFO Servers for netim.eu have consistent extra processing status.
+118.892: netim.eu INFO Authenticated denial records not found for netim.eu.
+118.929: netim.eu INFO Did not find DNSKEY record for netim.eu at child.
+118.929: netim.eu INFO No DNSKEY(s) found at child, other tests skipped.
+118.929: netim.eu INFO Done testing DNSSEC for netim.eu.
+118.930: netim.eu INFO Test completed for zone netim.eu.

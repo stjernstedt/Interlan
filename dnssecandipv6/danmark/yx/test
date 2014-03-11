@@ -1,0 +1,9 @@
+for i in `cat ../domain` ; do
+echo $i
+wget -4 -q www.$i
+
+if [ ! "`grep -i tobbebbe index.html`" ] ; then
+	echo inte-$i
+fi
+rm index.html
+done

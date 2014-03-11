@@ -1,0 +1,119 @@
+  0.000: vmi.se INFO Begin testing zone vmi.se with version 1.5.0.
+  0.001: vmi.se INFO Begin testing delegation for vmi.se.
+ 11.716: vmi.se INFO Name servers listed at parent: ns.vmi.se,ns2.vmi.se,ns3.vmi.se
+ 15.369: vmi.se INFO Name servers listed at child: ns.vmi.se,ns2.vmi.se,ns3.vmi.se
+ 15.404: vmi.se INFO Parent glue for vmi.se found: ns.vmi.se (217.25.32.5)
+ 15.614: vmi.se INFO Parent glue for vmi.se found: ns2.vmi.se (84.246.134.2)
+ 15.801: vmi.se INFO Parent glue for vmi.se found: ns3.vmi.se (84.246.128.5)
+ 15.884: vmi.se INFO Checking glue for ns.vmi.se (217.25.32.5).
+ 15.901: vmi.se INFO Child glue for vmi.se found: ns.vmi.se (217.25.32.5)
+ 15.901: vmi.se INFO Checking glue for ns2.vmi.se (84.246.134.2).
+ 15.930: vmi.se INFO Child glue for vmi.se found: ns2.vmi.se (84.246.134.2)
+ 15.930: vmi.se INFO Checking glue for ns3.vmi.se (84.246.128.5).
+ 15.940: vmi.se INFO Child glue for vmi.se found: ns3.vmi.se (84.246.128.5)
+ 15.940: vmi.se INFO Parent glue for vmi.se found: ns.vmi.se (217.25.32.5)
+ 15.940: vmi.se INFO Parent glue for vmi.se found: ns2.vmi.se (84.246.134.2)
+ 15.941: vmi.se INFO Parent glue for vmi.se found: ns3.vmi.se (84.246.128.5)
+ 16.480: vmi.se INFO It is possible to build a referral packet for vmi.se that works without EDNS0.
+ 16.507: vmi.se INFO Done testing delegation for vmi.se.
+ 16.508: vmi.se INFO Begin testing name server ns.vmi.se.
+ 16.511: vmi.se INFO Begin testing host ns.vmi.se.
+ 16.511: vmi.se INFO Begin testing address 217.25.32.5.
+ 25.512: vmi.se INFO Done testing address 217.25.32.5.
+ 25.513: vmi.se INFO Begin testing address 2a03:f600:0:10:10:0:0:10.
+ 26.348: vmi.se INFO Done testing address 2a03:f600:0:10:10:0:0:10.
+ 26.348: vmi.se INFO Done testing host ns.vmi.se.
+ 26.393: vmi.se INFO Name server ns.vmi.se (217.25.32.5) answers queries over UDP.
+ 26.458: vmi.se INFO Name server ns.vmi.se (217.25.32.5) answers queries over TCP.
+ 26.509: vmi.se INFO Name server ns.vmi.se (217.25.32.5) is not recursive.
+ 26.672: vmi.se INFO Name server ns.vmi.se (217.25.32.5) authoritative for vmi.se.
+ 26.726: vmi.se NOTICE Name server ns.vmi.se (217.25.32.5) open for zone transfer of vmi.se.
+ 26.810: vmi.se NOTICE No answer received from 217.25.32.5 when querying for version.bind/CH/TXT.
+ 26.852: vmi.se INFO Name server ns.vmi.se (2a03:f600:0:10:10:0:0:10) answers queries over UDP.
+ 26.877: vmi.se INFO Name server ns.vmi.se (2a03:f600:0:10:10:0:0:10) answers queries over TCP.
+ 26.898: vmi.se INFO Name server ns.vmi.se (2a03:f600:0:10:10:0:0:10) is not recursive.
+ 27.012: vmi.se INFO Name server ns.vmi.se (2a03:f600:0:10:10:0:0:10) authoritative for vmi.se.
+ 27.046: vmi.se NOTICE Name server ns.vmi.se (2a03:f600:0:10:10:0:0:10) open for zone transfer of vmi.se.
+ 27.083: vmi.se NOTICE No answer received from 2a03:f600:0:10:10:0:0:10 when querying for version.bind/CH/TXT.
+ 27.128: vmi.se INFO Done testing name server ns.vmi.se.
+ 27.128: vmi.se INFO Begin testing name server ns2.vmi.se.
+ 27.128: vmi.se INFO Begin testing host ns2.vmi.se.
+ 27.128: vmi.se INFO Begin testing address 84.246.134.2.
+ 27.893: vmi.se INFO Done testing address 84.246.134.2.
+ 27.893: vmi.se INFO Begin testing address 2a03:f600:0:10:11:0:0:10.
+ 28.778: vmi.se INFO Done testing address 2a03:f600:0:10:11:0:0:10.
+ 28.778: vmi.se INFO Done testing host ns2.vmi.se.
+ 28.844: vmi.se INFO Name server ns2.vmi.se (84.246.134.2) answers queries over UDP.
+ 28.906: vmi.se INFO Name server ns2.vmi.se (84.246.134.2) answers queries over TCP.
+ 28.994: vmi.se INFO Name server ns2.vmi.se (84.246.134.2) is not recursive.
+ 29.200: vmi.se INFO Name server ns2.vmi.se (84.246.134.2) authoritative for vmi.se.
+ 29.228: vmi.se NOTICE Name server ns2.vmi.se (84.246.134.2) open for zone transfer of vmi.se.
+ 29.262: vmi.se NOTICE No answer received from 84.246.134.2 when querying for version.bind/CH/TXT.
+ 29.308: vmi.se INFO Name server ns2.vmi.se (2a03:f600:0:10:11:0:0:10) answers queries over UDP.
+ 29.326: vmi.se INFO Name server ns2.vmi.se (2a03:f600:0:10:11:0:0:10) answers queries over TCP.
+ 29.342: vmi.se INFO Name server ns2.vmi.se (2a03:f600:0:10:11:0:0:10) is not recursive.
+ 29.395: vmi.se INFO Name server ns2.vmi.se (2a03:f600:0:10:11:0:0:10) authoritative for vmi.se.
+ 29.424: vmi.se NOTICE Name server ns2.vmi.se (2a03:f600:0:10:11:0:0:10) open for zone transfer of vmi.se.
+ 29.530: vmi.se NOTICE No answer received from 2a03:f600:0:10:11:0:0:10 when querying for version.bind/CH/TXT.
+ 29.628: vmi.se INFO Done testing name server ns2.vmi.se.
+ 29.628: vmi.se INFO Begin testing name server ns3.vmi.se.
+ 29.628: vmi.se INFO Begin testing host ns3.vmi.se.
+ 29.948: vmi.se INFO Begin testing address 84.246.128.5.
+ 31.124: vmi.se INFO Done testing address 84.246.128.5.
+ 31.124: vmi.se INFO Done testing host ns3.vmi.se.
+ 31.559: vmi.se INFO Name server ns3.vmi.se (84.246.128.5) answers queries over UDP.
+ 31.609: vmi.se INFO Name server ns3.vmi.se (84.246.128.5) answers queries over TCP.
+ 31.626: vmi.se INFO Name server ns3.vmi.se (84.246.128.5) is not recursive.
+ 31.689: vmi.se INFO Name server ns3.vmi.se (84.246.128.5) authoritative for vmi.se.
+ 31.720: vmi.se INFO Name server ns3.vmi.se (84.246.128.5) closed for zone transfer of vmi.se.
+ 31.758: vmi.se NOTICE No answer received from 84.246.128.5 when querying for version.bind/CH/TXT.
+ 31.803: vmi.se INFO Done testing name server ns3.vmi.se.
+ 31.804: vmi.se INFO Begin testing zone consistency for vmi.se.
+ 32.688: vmi.se INFO SOA at address 84.246.128.5 has serial 1288.
+ 32.724: vmi.se INFO SOA at address 2a03:f600:0:10:11:0:0:10 has serial 1288.
+ 32.744: vmi.se INFO SOA at address 217.25.32.5 has serial 1288.
+ 32.759: vmi.se INFO SOA at address 84.246.134.2 has serial 1288.
+ 32.775: vmi.se INFO SOA at address 2a03:f600:0:10:10:0:0:10 has serial 1288.
+ 32.775: vmi.se INFO All SOA records have consistent serial numbers.
+ 32.775: vmi.se INFO All other fields in the SOA record are consistent among all name servers.
+ 33.156: vmi.se NOTICE The listed nameservers for vmi.se all report the same set of nameservers.
+ 33.156: vmi.se INFO Done testing zone consistency for vmi.se.
+ 33.156: vmi.se INFO Begin testing SOA parameters for vmi.se.
+ 33.165: vmi.se INFO Found SOA record for vmi.se.
+ 33.165: vmi.se INFO Begin testing host ns.vmi.se.
+ 33.166: vmi.se INFO Begin testing address 217.25.32.5.
+ 33.167: vmi.se INFO Done testing address 217.25.32.5.
+ 33.167: vmi.se INFO Begin testing address 2a03:f600:0:10:10:0:0:10.
+ 33.169: vmi.se INFO Done testing address 2a03:f600:0:10:10:0:0:10.
+ 33.169: vmi.se INFO Done testing host ns.vmi.se.
+ 33.169: vmi.se INFO SOA MNAME for vmi.se valid (ns.vmi.se).
+ 33.175: vmi.se INFO SOA MNAME for vmi.se (ns.vmi.se) listed as NS.
+ 33.183: vmi.se INFO SOA MNAME for vmi.se (ns.vmi.se) is authoritative.
+ 33.196: vmi.se INFO SOA MNAME for vmi.se (ns.vmi.se) is authoritative.
+ 33.197: vmi.se INFO Begin testing email address administrator@vmi.se.
+ 33.601: vmi.se INFO Mail exchangers for administrator@vmi.se found mailscan-01.vmi.se.
+ 33.601: vmi.se INFO All mail servers for administrator@vmi.se are in zone vmi.se.
+ 33.601: vmi.se INFO Begin testing host mailscan-01.vmi.se.
+ 34.263: vmi.se INFO Begin testing address 84.246.134.226.
+ 35.119: vmi.se INFO Done testing address 84.246.134.226.
+ 35.120: vmi.se INFO Done testing host mailscan-01.vmi.se.
+ 35.472: vmi.se INFO Done testing email address administrator@vmi.se.
+ 35.472: vmi.se INFO Successful attempt to deliver email for SOA RNAME of vmi.se (administrator.vmi.se) using administrator@vmi.se.
+ 35.472: vmi.se INFO SOA TTL for vmi.se OK (3600) - recommended >= 3600.
+ 35.472: vmi.se INFO SOA refresh for vmi.se OK (14400) - recommended >= 14400.
+ 35.472: vmi.se INFO SOA retry for vmi.se OK (3600) - recommended >= 3600.
+ 35.472: vmi.se INFO SOA expire for vmi.se OK (604800) - recommended >= 604800.
+ 35.472: vmi.se INFO SOA minimum for vmi.se OK (3600) - recommended between 300 and 86400.
+ 35.472: vmi.se INFO Done testing SOA parameters for vmi.se.
+ 35.473: vmi.se INFO Begin testing connectivity for vmi.se.
+ 37.743: vmi.se INFO Zone announced by more than one ASN.
+ 39.156: vmi.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 39.156: vmi.se INFO Done testing connectivity for vmi.se.
+ 39.157: vmi.se INFO Begin testing DNSSEC for vmi.se.
+ 39.201: vmi.se INFO Did not find DS record for vmi.se at parent.
+ 39.333: vmi.se INFO Servers for vmi.se have consistent extra processing status.
+ 39.362: vmi.se INFO Authenticated denial records not found for vmi.se.
+ 39.387: vmi.se INFO Did not find DNSKEY record for vmi.se at child.
+ 39.388: vmi.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 39.388: vmi.se INFO Done testing DNSSEC for vmi.se.
+ 39.389: vmi.se INFO Test completed for zone vmi.se.

@@ -1,0 +1,84 @@
+  0.000: alajarvi.fi INFO Begin testing zone alajarvi.fi with version 1.6.1.
+  0.629: alajarvi.fi INFO Begin testing delegation for alajarvi.fi.
+  8.368: alajarvi.fi INFO Name servers listed at parent: ns1.japo.fi,ns2.japo.fi
+ 10.123: alajarvi.fi INFO Name servers listed at child: ns1.japo.fi,ns2.japo.fi
+ 10.135: alajarvi.fi NOTICE No IPv6 name servers found.
+ 10.192: alajarvi.fi INFO Parent glue for alajarvi.fi found: ns1.japo.fi (212.66.193.10)
+ 10.312: alajarvi.fi INFO Parent glue for alajarvi.fi found: ns2.japo.fi (212.66.193.9)
+ 10.360: alajarvi.fi INFO Checking glue for ns1.japo.fi (212.66.193.10).
+ 10.361: alajarvi.fi INFO Checking glue for ns2.japo.fi (212.66.193.9).
+ 10.361: alajarvi.fi INFO Parent glue for alajarvi.fi found: ns1.japo.fi (212.66.193.10)
+ 10.361: alajarvi.fi INFO Parent glue for alajarvi.fi found: ns2.japo.fi (212.66.193.9)
+ 11.130: alajarvi.fi INFO It is possible to build a referral packet for alajarvi.fi that works without EDNS0.
+ 11.860: alajarvi.fi INFO Previously used name servers for alajarvi.fi: 
+ 11.860: alajarvi.fi INFO Done testing delegation for alajarvi.fi.
+ 11.861: alajarvi.fi INFO Begin testing name server ns1.japo.fi.
+ 11.861: alajarvi.fi INFO Begin testing host ns1.japo.fi.
+ 12.154: alajarvi.fi INFO Begin testing address 212.66.193.10.
+ 16.086: alajarvi.fi INFO Done testing address 212.66.193.10.
+ 16.086: alajarvi.fi INFO Done testing host ns1.japo.fi.
+ 16.302: alajarvi.fi INFO Name server ns1.japo.fi (212.66.193.10) answers queries over UDP.
+ 16.365: alajarvi.fi INFO Name server ns1.japo.fi (212.66.193.10) answers queries over TCP.
+ 16.386: alajarvi.fi INFO Name server ns1.japo.fi (212.66.193.10) is not recursive.
+ 16.504: alajarvi.fi INFO Name server ns1.japo.fi (212.66.193.10) authoritative for alajarvi.fi.
+ 16.568: alajarvi.fi INFO Name server ns1.japo.fi (212.66.193.10) closed for zone transfer of alajarvi.fi.
+ 16.643: alajarvi.fi INFO Legacy name server ID for ns1.japo.fi (212.66.193.10): hostname.bind = ns1.japo.fi
+ 16.717: alajarvi.fi INFO Legacy name server ID for ns1.japo.fi (212.66.193.10): version.bind = None of your business
+ 16.774: alajarvi.fi NOTICE No answer received from 212.66.193.10 when querying for version.server/CH/TXT.
+ 16.774: alajarvi.fi INFO Done testing name server ns1.japo.fi.
+ 16.774: alajarvi.fi INFO Begin testing name server ns2.japo.fi.
+ 16.774: alajarvi.fi INFO Begin testing host ns2.japo.fi.
+ 16.986: alajarvi.fi INFO Begin testing address 212.66.193.9.
+ 17.720: alajarvi.fi INFO Done testing address 212.66.193.9.
+ 17.720: alajarvi.fi INFO Done testing host ns2.japo.fi.
+ 18.019: alajarvi.fi INFO Name server ns2.japo.fi (212.66.193.9) answers queries over UDP.
+ 18.080: alajarvi.fi INFO Name server ns2.japo.fi (212.66.193.9) answers queries over TCP.
+ 18.148: alajarvi.fi INFO Name server ns2.japo.fi (212.66.193.9) is not recursive.
+ 18.290: alajarvi.fi INFO Name server ns2.japo.fi (212.66.193.9) authoritative for alajarvi.fi.
+ 18.350: alajarvi.fi INFO Name server ns2.japo.fi (212.66.193.9) closed for zone transfer of alajarvi.fi.
+ 18.389: alajarvi.fi INFO Legacy name server ID for ns2.japo.fi (212.66.193.9): hostname.bind = ns2.japo.fi
+ 18.411: alajarvi.fi INFO Legacy name server ID for ns2.japo.fi (212.66.193.9): version.bind = None of your business
+ 18.517: alajarvi.fi NOTICE No answer received from 212.66.193.9 when querying for version.server/CH/TXT.
+ 18.517: alajarvi.fi INFO Done testing name server ns2.japo.fi.
+ 18.517: alajarvi.fi INFO Begin testing zone consistency for alajarvi.fi.
+ 19.385: alajarvi.fi INFO SOA at address 212.66.193.10 has serial 2012110902.
+ 19.409: alajarvi.fi INFO SOA at address 212.66.193.9 has serial 2012110902.
+ 19.409: alajarvi.fi INFO All SOA records have consistent serial numbers.
+ 19.409: alajarvi.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 19.879: alajarvi.fi NOTICE The listed nameservers for alajarvi.fi all report the same set of nameservers.
+ 19.880: alajarvi.fi INFO Done testing zone consistency for alajarvi.fi.
+ 19.880: alajarvi.fi INFO Begin testing SOA parameters for alajarvi.fi.
+ 19.902: alajarvi.fi INFO Found SOA record for alajarvi.fi.
+ 19.902: alajarvi.fi INFO Begin testing host ns1.japo.fi.
+ 20.135: alajarvi.fi INFO Begin testing address 212.66.193.10.
+ 20.366: alajarvi.fi INFO Done testing address 212.66.193.10.
+ 20.366: alajarvi.fi INFO Done testing host ns1.japo.fi.
+ 20.366: alajarvi.fi INFO SOA MNAME for alajarvi.fi valid (ns1.japo.fi).
+ 20.366: alajarvi.fi INFO SOA MNAME for alajarvi.fi (ns1.japo.fi) listed as NS.
+ 20.618: alajarvi.fi INFO SOA MNAME for alajarvi.fi (ns1.japo.fi) is authoritative.
+ 20.619: alajarvi.fi INFO Begin testing email address hostmaster@japo.fi.
+ 20.829: alajarvi.fi INFO Mail exchangers for hostmaster@japo.fi found mail.japo.fi.
+ 20.829: alajarvi.fi INFO Begin testing host mail.japo.fi.
+ 21.362: alajarvi.fi INFO Begin testing address 212.66.193.100.
+ 22.103: alajarvi.fi INFO Done testing address 212.66.193.100.
+ 22.103: alajarvi.fi INFO Done testing host mail.japo.fi.
+ 22.451: alajarvi.fi INFO Done testing email address hostmaster@japo.fi.
+ 22.451: alajarvi.fi INFO Successful attempt to deliver email for SOA RNAME of alajarvi.fi (hostmaster.japo.fi) using hostmaster@japo.fi.
+ 22.452: alajarvi.fi INFO SOA TTL for alajarvi.fi OK (86400) - recommended >= 3600.
+ 22.452: alajarvi.fi INFO SOA refresh for alajarvi.fi OK (28800) - recommended >= 14400.
+ 22.452: alajarvi.fi INFO SOA retry for alajarvi.fi OK (7200) - recommended >= 3600.
+ 22.452: alajarvi.fi INFO SOA expire for alajarvi.fi OK (604800) - recommended >= 604800.
+ 22.452: alajarvi.fi INFO SOA minimum for alajarvi.fi OK (86400) - recommended between 300 and 86400.
+ 22.452: alajarvi.fi INFO Done testing SOA parameters for alajarvi.fi.
+ 22.452: alajarvi.fi INFO Begin testing connectivity for alajarvi.fi.
+ 24.235: alajarvi.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 24.258: alajarvi.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 24.258: alajarvi.fi INFO Done testing connectivity for alajarvi.fi.
+ 24.258: alajarvi.fi INFO Begin testing DNSSEC for alajarvi.fi.
+ 24.309: alajarvi.fi INFO Did not find DS record for alajarvi.fi at parent.
+ 24.426: alajarvi.fi INFO Servers for alajarvi.fi have consistent extra processing status.
+ 24.492: alajarvi.fi INFO Authenticated denial records not found for alajarvi.fi.
+ 24.520: alajarvi.fi INFO Did not find DNSKEY record for alajarvi.fi at child.
+ 24.520: alajarvi.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 24.520: alajarvi.fi INFO Done testing DNSSEC for alajarvi.fi.
+ 24.520: alajarvi.fi INFO Test completed for zone alajarvi.fi.

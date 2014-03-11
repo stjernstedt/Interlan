@@ -1,0 +1,82 @@
+  0.000: orsta.kommune.no INFO Begin testing zone orsta.kommune.no with version 1.6.1.
+  0.404: orsta.kommune.no INFO Begin testing delegation for orsta.kommune.no.
+  7.932: orsta.kommune.no INFO Name servers listed at parent: ns.mimer.no,ns2.mimer.no
+  9.373: orsta.kommune.no INFO Name servers listed at child: ns.mimer.no,ns2.mimer.no
+  9.373: orsta.kommune.no NOTICE No IPv6 name servers found.
+  9.504: orsta.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.652: orsta.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.824: orsta.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.951: orsta.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.517: orsta.kommune.no INFO It is possible to build a referral packet for orsta.kommune.no that works without EDNS0.
+ 11.048: orsta.kommune.no INFO Previously used name servers for orsta.kommune.no: 
+ 11.048: orsta.kommune.no INFO Done testing delegation for orsta.kommune.no.
+ 11.052: orsta.kommune.no INFO Begin testing name server ns.mimer.no.
+ 11.052: orsta.kommune.no INFO Begin testing host ns.mimer.no.
+ 11.280: orsta.kommune.no INFO Begin testing address 213.184.200.1.
+ 20.456: orsta.kommune.no INFO Done testing address 213.184.200.1.
+ 20.456: orsta.kommune.no INFO Done testing host ns.mimer.no.
+ 20.709: orsta.kommune.no INFO Name server ns.mimer.no (213.184.200.1) answers queries over UDP.
+ 20.760: orsta.kommune.no INFO Name server ns.mimer.no (213.184.200.1) answers queries over TCP.
+ 20.786: orsta.kommune.no INFO Name server ns.mimer.no (213.184.200.1) is not recursive.
+ 20.905: orsta.kommune.no INFO Name server ns.mimer.no (213.184.200.1) authoritative for orsta.kommune.no.
+ 20.976: orsta.kommune.no INFO Name server ns.mimer.no (213.184.200.1) closed for zone transfer of orsta.kommune.no.
+ 21.021: orsta.kommune.no INFO Legacy name server ID for ns.mimer.no (213.184.200.1): hostname.bind = odin
+ 21.048: orsta.kommune.no INFO Legacy name server ID for ns.mimer.no (213.184.200.1): version.bind = 9.7.3
+ 21.116: orsta.kommune.no NOTICE No answer received from 213.184.200.1 when querying for version.server/CH/TXT.
+ 21.116: orsta.kommune.no INFO Done testing name server ns.mimer.no.
+ 21.116: orsta.kommune.no INFO Begin testing name server ns2.mimer.no.
+ 21.116: orsta.kommune.no INFO Begin testing host ns2.mimer.no.
+ 21.310: orsta.kommune.no INFO Begin testing address 213.184.200.2.
+ 22.334: orsta.kommune.no INFO Done testing address 213.184.200.2.
+ 22.334: orsta.kommune.no INFO Done testing host ns2.mimer.no.
+ 22.629: orsta.kommune.no INFO Name server ns2.mimer.no (213.184.200.2) answers queries over UDP.
+ 22.697: orsta.kommune.no INFO Name server ns2.mimer.no (213.184.200.2) answers queries over TCP.
+ 22.721: orsta.kommune.no INFO Name server ns2.mimer.no (213.184.200.2) is not recursive.
+ 22.891: orsta.kommune.no INFO Name server ns2.mimer.no (213.184.200.2) authoritative for orsta.kommune.no.
+ 22.958: orsta.kommune.no INFO Name server ns2.mimer.no (213.184.200.2) closed for zone transfer of orsta.kommune.no.
+ 23.004: orsta.kommune.no INFO Legacy name server ID for ns2.mimer.no (213.184.200.2): hostname.bind = fjordgyn
+ 23.035: orsta.kommune.no INFO Legacy name server ID for ns2.mimer.no (213.184.200.2): version.bind = 9.7.3
+ 23.110: orsta.kommune.no NOTICE No answer received from 213.184.200.2 when querying for version.server/CH/TXT.
+ 23.111: orsta.kommune.no INFO Done testing name server ns2.mimer.no.
+ 23.111: orsta.kommune.no INFO Begin testing zone consistency for orsta.kommune.no.
+ 24.124: orsta.kommune.no INFO SOA at address 213.184.200.1 has serial 20010228.
+ 24.175: orsta.kommune.no INFO SOA at address 213.184.200.2 has serial 20010228.
+ 24.175: orsta.kommune.no INFO All SOA records have consistent serial numbers.
+ 24.175: orsta.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 24.667: orsta.kommune.no NOTICE The listed nameservers for orsta.kommune.no all report the same set of nameservers.
+ 24.667: orsta.kommune.no INFO Done testing zone consistency for orsta.kommune.no.
+ 24.667: orsta.kommune.no INFO Begin testing SOA parameters for orsta.kommune.no.
+ 24.712: orsta.kommune.no INFO Found SOA record for orsta.kommune.no.
+ 24.712: orsta.kommune.no INFO Begin testing host ns.mimer.no.
+ 24.907: orsta.kommune.no INFO Begin testing address 213.184.200.1.
+ 25.290: orsta.kommune.no INFO Done testing address 213.184.200.1.
+ 25.291: orsta.kommune.no INFO Done testing host ns.mimer.no.
+ 25.291: orsta.kommune.no INFO SOA MNAME for orsta.kommune.no valid (ns.mimer.no).
+ 25.291: orsta.kommune.no INFO SOA MNAME for orsta.kommune.no (ns.mimer.no) listed as NS.
+ 25.580: orsta.kommune.no INFO SOA MNAME for orsta.kommune.no (ns.mimer.no) is authoritative.
+ 25.580: orsta.kommune.no INFO Begin testing email address hostmaster@mimer.no.
+ 25.735: orsta.kommune.no INFO Mail exchangers for hostmaster@mimer.no found pop.mimer.no.
+ 25.735: orsta.kommune.no INFO Begin testing host pop.mimer.no.
+ 26.089: orsta.kommune.no INFO Begin testing address 213.184.202.5.
+ 26.781: orsta.kommune.no INFO Done testing address 213.184.202.5.
+ 26.781: orsta.kommune.no INFO Done testing host pop.mimer.no.
+ 26.971: orsta.kommune.no INFO Done testing email address hostmaster@mimer.no.
+ 26.971: orsta.kommune.no INFO Successful attempt to deliver email for SOA RNAME of orsta.kommune.no (hostmaster.mimer.no) using hostmaster@mimer.no.
+ 26.971: orsta.kommune.no INFO SOA TTL for orsta.kommune.no OK (86400) - recommended >= 3600.
+ 26.971: orsta.kommune.no INFO SOA refresh for orsta.kommune.no OK (86400) - recommended >= 14400.
+ 26.971: orsta.kommune.no INFO SOA retry for orsta.kommune.no OK (3600) - recommended >= 3600.
+ 26.971: orsta.kommune.no INFO SOA expire for orsta.kommune.no OK (604800) - recommended >= 604800.
+ 26.971: orsta.kommune.no INFO SOA minimum for orsta.kommune.no OK (86400) - recommended between 300 and 86400.
+ 26.971: orsta.kommune.no INFO Done testing SOA parameters for orsta.kommune.no.
+ 26.974: orsta.kommune.no INFO Begin testing connectivity for orsta.kommune.no.
+ 28.032: orsta.kommune.no NOTICE Zone announced by fewer than two IPv4 ASN.
+ 28.033: orsta.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 28.033: orsta.kommune.no INFO Done testing connectivity for orsta.kommune.no.
+ 28.033: orsta.kommune.no INFO Begin testing DNSSEC for orsta.kommune.no.
+ 28.147: orsta.kommune.no INFO Did not find DS record for orsta.kommune.no at parent.
+ 28.271: orsta.kommune.no INFO Servers for orsta.kommune.no have consistent extra processing status.
+ 28.338: orsta.kommune.no INFO Authenticated denial records not found for orsta.kommune.no.
+ 28.370: orsta.kommune.no INFO Did not find DNSKEY record for orsta.kommune.no at child.
+ 28.370: orsta.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 28.370: orsta.kommune.no INFO Done testing DNSSEC for orsta.kommune.no.
+ 28.370: orsta.kommune.no INFO Test completed for zone orsta.kommune.no.

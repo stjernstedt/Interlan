@@ -1,0 +1,85 @@
+  0.000: hp.se INFO Begin testing zone hp.se with version 1.2.
+  0.001: hp.se INFO Begin testing delegation for hp.se.
+  6.018: hp.se INFO Name servers listed at parent: nsa.hp.com,nsb.hp.com
+  8.406: hp.se INFO Name servers listed at child: nsa.hp.com,nsb.hp.com
+  8.407: hp.se NOTICE No IPv6 name servers found.
+  8.443: hp.se INFO Done testing delegation for hp.se.
+  8.444: hp.se INFO Begin testing name server nsa.hp.com.
+  8.444: hp.se INFO Begin testing host nsa.hp.com.
+  8.445: hp.se INFO Begin testing address 15.243.160.50.
+ 14.349: hp.se INFO Done testing address 15.243.160.50.
+ 14.350: hp.se INFO Done testing host nsa.hp.com.
+ 14.499: hp.se INFO Name server nsa.hp.com (15.243.160.50) answers queries over UDP.
+ 14.789: hp.se INFO Name server nsa.hp.com (15.243.160.50) answers queries over TCP.
+ 14.935: hp.se INFO Name server nsa.hp.com (15.243.160.50) is not recursive.
+ 15.084: hp.se INFO Name server nsa.hp.com (15.243.160.50) authoritative for hp.se.
+ 15.514: hp.se INFO Name server nsa.hp.com (15.243.160.50) closed for zone transfer of hp.se.
+ 15.662: hp.se NOTICE No answer received from 15.243.160.50 when querying for hostname.bind/CH/TXT.
+ 15.956: hp.se NOTICE No answer received from 15.243.160.50 when querying for id.server/CH/TXT.
+ 16.102: hp.se NOTICE No answer received from 15.243.160.50 when querying for version.server/CH/TXT.
+ 16.103: hp.se INFO Done testing name server nsa.hp.com.
+ 16.103: hp.se INFO Begin testing name server nsb.hp.com.
+ 16.103: hp.se INFO Begin testing host nsb.hp.com.
+ 16.104: hp.se INFO Begin testing address 15.227.128.50.
+ 21.744: hp.se INFO Done testing address 15.227.128.50.
+ 21.744: hp.se INFO Done testing host nsb.hp.com.
+ 21.900: hp.se INFO Name server nsb.hp.com (15.227.128.50) answers queries over UDP.
+ 22.235: hp.se INFO Name server nsb.hp.com (15.227.128.50) answers queries over TCP.
+ 22.455: hp.se WARNING Name server nsb.hp.com (15.227.128.50) is recursive.
+ 22.611: hp.se INFO Name server nsb.hp.com (15.227.128.50) authoritative for hp.se.
+ 23.073: hp.se NOTICE Name server nsb.hp.com (15.227.128.50) open for zone transfer of hp.se.
+ 23.250: hp.se INFO Legacy name server ID for nsb.hp.com (15.227.128.50): hostname.bind = g2t0024.austin.hp.com
+ 23.418: hp.se INFO Legacy name server ID for nsb.hp.com (15.227.128.50): version.bind = 9.4.3-P3
+ 23.739: hp.se NOTICE No answer received from 15.227.128.50 when querying for version.server/CH/TXT.
+ 23.740: hp.se INFO Done testing name server nsb.hp.com.
+ 23.740: hp.se INFO Begin testing zone consistency for hp.se.
+ 23.892: hp.se INFO SOA at address 15.243.160.50 has serial 2009063000.
+ 24.047: hp.se INFO SOA at address 15.227.128.50 has serial 2009063000.
+ 24.047: hp.se INFO All SOA records have consistent serial numbers.
+ 24.047: hp.se INFO All SOA records are consistent among all name servers.
+ 24.048: hp.se INFO Done testing zone consistency for hp.se.
+ 24.048: hp.se INFO Begin testing SOA parameters for hp.se.
+ 24.203: hp.se INFO Found SOA record for hp.se.
+ 24.203: hp.se INFO Begin testing host charon.core.hp.com.
+ 24.994: hp.se INFO Begin testing address 15.203.209.10.
+ 26.035: hp.se INFO Done testing address 15.203.209.10.
+ 26.035: hp.se INFO Done testing host charon.core.hp.com.
+ 26.036: hp.se INFO SOA MNAME for hp.se valid (charon.core.hp.com).
+ 26.036: hp.se NOTICE SOA MNAME for hp.se (charon.core.hp.com) not listed as NS.
+ 26.179: hp.se NOTICE No answer received from 15.203.209.10 when querying for hp.se/IN/SOA.
+ 26.180: hp.se WARNING SOA MNAME for hp.se (charon.core.hp.com) is not authoritative.
+ 26.180: hp.se INFO Begin testing email address hostmaster@hp.com.
+ 26.657: hp.se INFO Mail exchangers for hostmaster@hp.com found smtp.hp.com.
+ 26.658: hp.se INFO Begin testing host smtp.hp.com.
+ 27.614: hp.se INFO Begin testing address 15.193.32.72.
+ 28.773: hp.se INFO Done testing address 15.193.32.72.
+ 28.774: hp.se INFO Done testing host smtp.hp.com.
+ 28.774: hp.se INFO Begin testing mail server smtp.hp.com (15.193.32.72) with hostmaster@hp.com.
+ 29.272: hp.se INFO SMTP banner: g6t0181.atlanta.hp.com ESMTP Postfix
+ 29.806: hp.se INFO SMTP testing of smtp.hp.com (15.193.32.72) with hostmaster@hp.com succeeded without errors.
+ 29.807: hp.se INFO Done testing mail server smtp.hp.com (15.193.32.72) with hostmaster@hp.com.
+ 29.807: hp.se INFO Delivery over IPv4 to hostmaster@hp.com ok.
+ 29.807: hp.se INFO Delivery over IPv6 to hostmaster@hp.com could not be done.
+ 29.807: hp.se INFO Done testing email address hostmaster@hp.com.
+ 29.807: hp.se INFO Successful attempt to deliver email for SOA RNAME of hp.se (hostmaster.hp.com) using hostmaster@hp.com.
+ 29.808: hp.se INFO SOA TTL for hp.se OK (7200) - recommended >= 3600.
+ 29.808: hp.se NOTICE SOA refresh for hp.se too small (10800) - recommended >= 14400.
+ 29.808: hp.se INFO SOA retry for hp.se OK (3600) - recommended >= 3600.
+ 29.808: hp.se INFO SOA expire for hp.se OK (604800) - recommended >= 604800.
+ 29.809: hp.se INFO SOA minimum for hp.se OK (600) - recommended between 300 and 86400.
+ 29.809: hp.se INFO Done testing SOA parameters for hp.se.
+ 29.809: hp.se INFO Begin testing connectivity for hp.se.
+ 30.295: hp.se INFO Name server 15.227.128.50 announced by: 71
+ 30.909: hp.se INFO Name server 15.243.160.50 announced by: 71
+ 30.909: hp.se INFO Zone announced by IPv4 ASN: 71
+ 30.909: hp.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 30.910: hp.se INFO Zone announced by IPv6 ASN: 
+ 30.910: hp.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 30.910: hp.se INFO Done testing connectivity for hp.se.
+ 30.910: hp.se INFO Begin testing DNSSEC for hp.se.
+ 30.946: hp.se INFO Did not find DS record for hp.se at parent.
+ 31.537: hp.se INFO Servers for hp.se have consistent extra processing status.
+ 31.537: hp.se INFO Did not find DNSKEY record for hp.se at child.
+ 31.537: hp.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 31.538: hp.se INFO Done testing DNSSEC for hp.se.
+ 31.538: hp.se INFO Test completed for zone hp.se.

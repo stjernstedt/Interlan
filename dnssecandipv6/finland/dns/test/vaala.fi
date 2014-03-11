@@ -1,0 +1,117 @@
+  0.000: vaala.fi INFO Begin testing zone vaala.fi with version 1.6.1.
+  0.440: vaala.fi INFO Begin testing delegation for vaala.fi.
+ 11.264: vaala.fi INFO Name servers listed at parent: ns1.lanwan.fi,ns2.lanwan.fi,ns3.lanwan.fi
+ 15.097: vaala.fi INFO Name servers listed at child: ns1.lanwan.fi,ns2.lanwan.fi,ns3.lanwan.fi
+ 15.098: vaala.fi NOTICE Too few IPv6 name servers (1).
+ 15.245: vaala.fi INFO Parent glue for vaala.fi found: ns1.lanwan.fi (213.255.160.45)
+ 15.463: vaala.fi INFO Parent glue for vaala.fi found: ns2.lanwan.fi (193.142.16.132)
+ 15.690: vaala.fi INFO Parent glue for vaala.fi found: ns3.lanwan.fi (193.64.220.102)
+ 15.732: vaala.fi INFO Checking glue for ns1.lanwan.fi (213.255.160.45).
+ 15.733: vaala.fi INFO Checking glue for ns2.lanwan.fi (193.142.16.132).
+ 15.733: vaala.fi INFO Checking glue for ns3.lanwan.fi (193.64.220.102).
+ 15.733: vaala.fi INFO Parent glue for vaala.fi found: ns1.lanwan.fi (213.255.160.45)
+ 15.733: vaala.fi INFO Parent glue for vaala.fi found: ns2.lanwan.fi (193.142.16.132)
+ 15.734: vaala.fi INFO Parent glue for vaala.fi found: ns3.lanwan.fi (193.64.220.102)
+ 16.838: vaala.fi INFO It is possible to build a referral packet for vaala.fi that works without EDNS0.
+ 17.454: vaala.fi INFO Previously used name servers for vaala.fi: 
+ 17.454: vaala.fi INFO Done testing delegation for vaala.fi.
+ 17.491: vaala.fi INFO Begin testing name server ns1.lanwan.fi.
+ 17.492: vaala.fi INFO Begin testing host ns1.lanwan.fi.
+ 17.879: vaala.fi INFO Begin testing address 213.255.160.45.
+ 30.822: vaala.fi INFO Done testing address 213.255.160.45.
+ 30.822: vaala.fi INFO Done testing host ns1.lanwan.fi.
+ 30.994: vaala.fi INFO Name server ns1.lanwan.fi (213.255.160.45) answers queries over UDP.
+ 31.059: vaala.fi INFO Name server ns1.lanwan.fi (213.255.160.45) answers queries over TCP.
+ 31.085: vaala.fi INFO Name server ns1.lanwan.fi (213.255.160.45) is not recursive.
+ 31.226: vaala.fi INFO Name server ns1.lanwan.fi (213.255.160.45) authoritative for vaala.fi.
+ 31.296: vaala.fi INFO Name server ns1.lanwan.fi (213.255.160.45) closed for zone transfer of vaala.fi.
+ 31.339: vaala.fi INFO Legacy name server ID for ns1.lanwan.fi (213.255.160.45): hostname.bind = ns1.lanwan.fi
+ 31.395: vaala.fi INFO Legacy name server ID for ns1.lanwan.fi (213.255.160.45): version.bind = -
+ 31.455: vaala.fi NOTICE No answer received from 213.255.160.45 when querying for version.server/CH/TXT.
+ 31.455: vaala.fi INFO Done testing name server ns1.lanwan.fi.
+ 31.455: vaala.fi INFO Begin testing name server ns2.lanwan.fi.
+ 31.463: vaala.fi INFO Begin testing host ns2.lanwan.fi.
+ 31.464: vaala.fi INFO Begin testing address 193.142.16.132.
+ 32.044: vaala.fi INFO Done testing address 193.142.16.132.
+ 32.044: vaala.fi INFO Begin testing address 2a01:18:9:6:0:0:0:100.
+ 32.619: vaala.fi INFO Done testing address 2a01:18:9:6:0:0:0:100.
+ 32.619: vaala.fi INFO Done testing host ns2.lanwan.fi.
+ 32.658: vaala.fi INFO Name server ns2.lanwan.fi (193.142.16.132) answers queries over UDP.
+ 32.742: vaala.fi INFO Name server ns2.lanwan.fi (193.142.16.132) answers queries over TCP.
+ 32.786: vaala.fi INFO Name server ns2.lanwan.fi (193.142.16.132) is not recursive.
+ 32.899: vaala.fi INFO Name server ns2.lanwan.fi (193.142.16.132) authoritative for vaala.fi.
+ 32.975: vaala.fi INFO Name server ns2.lanwan.fi (193.142.16.132) closed for zone transfer of vaala.fi.
+ 33.003: vaala.fi INFO Legacy name server ID for ns2.lanwan.fi (193.142.16.132): hostname.bind = ns2.lanwan.fi
+ 33.032: vaala.fi INFO Legacy name server ID for ns2.lanwan.fi (193.142.16.132): version.bind = -
+ 33.087: vaala.fi NOTICE No answer received from 193.142.16.132 when querying for version.server/CH/TXT.
+ 33.152: vaala.fi INFO Name server ns2.lanwan.fi (2a01:18:9:6:0:0:0:100) answers queries over UDP.
+ 33.232: vaala.fi INFO Name server ns2.lanwan.fi (2a01:18:9:6:0:0:0:100) answers queries over TCP.
+ 33.284: vaala.fi INFO Name server ns2.lanwan.fi (2a01:18:9:6:0:0:0:100) is not recursive.
+ 33.454: vaala.fi INFO Name server ns2.lanwan.fi (2a01:18:9:6:0:0:0:100) authoritative for vaala.fi.
+ 33.574: vaala.fi INFO Name server ns2.lanwan.fi (2a01:18:9:6:0:0:0:100) closed for zone transfer of vaala.fi.
+ 33.632: vaala.fi INFO Legacy name server ID for ns2.lanwan.fi (2a01:18:9:6:0:0:0:100): hostname.bind = ns2.lanwan.fi
+ 33.680: vaala.fi INFO Legacy name server ID for ns2.lanwan.fi (2a01:18:9:6:0:0:0:100): version.bind = -
+ 33.764: vaala.fi NOTICE No answer received from 2a01:18:9:6:0:0:0:100 when querying for version.server/CH/TXT.
+ 33.765: vaala.fi INFO Done testing name server ns2.lanwan.fi.
+ 33.765: vaala.fi INFO Begin testing name server ns3.lanwan.fi.
+ 33.765: vaala.fi INFO Begin testing host ns3.lanwan.fi.
+ 33.994: vaala.fi INFO Begin testing address 193.64.220.102.
+ 34.876: vaala.fi INFO Done testing address 193.64.220.102.
+ 34.876: vaala.fi INFO Done testing host ns3.lanwan.fi.
+ 35.183: vaala.fi INFO Name server ns3.lanwan.fi (193.64.220.102) answers queries over UDP.
+ 35.222: vaala.fi INFO Name server ns3.lanwan.fi (193.64.220.102) answers queries over TCP.
+ 35.243: vaala.fi INFO Name server ns3.lanwan.fi (193.64.220.102) is not recursive.
+ 35.347: vaala.fi INFO Name server ns3.lanwan.fi (193.64.220.102) authoritative for vaala.fi.
+ 35.404: vaala.fi INFO Name server ns3.lanwan.fi (193.64.220.102) closed for zone transfer of vaala.fi.
+ 35.426: vaala.fi INFO Legacy name server ID for ns3.lanwan.fi (193.64.220.102): hostname.bind = ns3.lanwan.fi
+ 35.448: vaala.fi INFO Legacy name server ID for ns3.lanwan.fi (193.64.220.102): version.bind = -
+ 35.494: vaala.fi NOTICE No answer received from 193.64.220.102 when querying for version.server/CH/TXT.
+ 35.494: vaala.fi INFO Done testing name server ns3.lanwan.fi.
+ 35.495: vaala.fi INFO Begin testing zone consistency for vaala.fi.
+ 36.519: vaala.fi INFO SOA at address 2a01:18:9:6:0:0:0:100 has serial 2012022314.
+ 36.558: vaala.fi INFO SOA at address 213.255.160.45 has serial 2012022314.
+ 36.603: vaala.fi INFO SOA at address 193.64.220.102 has serial 2012022314.
+ 36.673: vaala.fi INFO SOA at address 193.142.16.132 has serial 2012022314.
+ 36.674: vaala.fi INFO All SOA records have consistent serial numbers.
+ 36.674: vaala.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 37.153: vaala.fi NOTICE The listed nameservers for vaala.fi all report the same set of nameservers.
+ 37.153: vaala.fi INFO Done testing zone consistency for vaala.fi.
+ 37.153: vaala.fi INFO Begin testing SOA parameters for vaala.fi.
+ 37.178: vaala.fi INFO Found SOA record for vaala.fi.
+ 37.178: vaala.fi INFO Begin testing host ns1.lanwan.fi.
+ 37.340: vaala.fi INFO Begin testing address 213.255.160.45.
+ 37.454: vaala.fi INFO Done testing address 213.255.160.45.
+ 37.454: vaala.fi INFO Done testing host ns1.lanwan.fi.
+ 37.454: vaala.fi INFO SOA MNAME for vaala.fi valid (ns1.lanwan.fi).
+ 37.455: vaala.fi INFO SOA MNAME for vaala.fi (ns1.lanwan.fi) listed as NS.
+ 37.625: vaala.fi INFO SOA MNAME for vaala.fi (ns1.lanwan.fi) is authoritative.
+ 37.626: vaala.fi INFO Begin testing email address hostmaster@lanwan.fi.
+ 37.842: vaala.fi INFO Mail exchangers for hostmaster@lanwan.fi found lw1.lanmail.fi,lw2.lanmail.fi.
+ 37.843: vaala.fi INFO Begin testing host lw1.lanmail.fi.
+ 38.184: vaala.fi INFO Begin testing address 213.255.168.39.
+ 38.767: vaala.fi INFO Done testing address 213.255.168.39.
+ 38.767: vaala.fi INFO Done testing host lw1.lanmail.fi.
+ 38.962: vaala.fi INFO Begin testing host lw2.lanmail.fi.
+ 39.268: vaala.fi INFO Begin testing address 213.255.168.71.
+ 40.038: vaala.fi INFO Done testing address 213.255.168.71.
+ 40.038: vaala.fi INFO Done testing host lw2.lanmail.fi.
+ 40.219: vaala.fi INFO Done testing email address hostmaster@lanwan.fi.
+ 40.219: vaala.fi INFO Successful attempt to deliver email for SOA RNAME of vaala.fi (hostmaster.lanwan.fi) using hostmaster@lanwan.fi.
+ 40.219: vaala.fi INFO SOA TTL for vaala.fi OK (38400) - recommended >= 3600.
+ 40.219: vaala.fi NOTICE SOA refresh for vaala.fi too small (10800) - recommended >= 14400.
+ 40.219: vaala.fi INFO SOA retry for vaala.fi OK (3600) - recommended >= 3600.
+ 40.219: vaala.fi INFO SOA expire for vaala.fi OK (2419200) - recommended >= 604800.
+ 40.219: vaala.fi INFO SOA minimum for vaala.fi OK (38400) - recommended between 300 and 86400.
+ 40.219: vaala.fi INFO Done testing SOA parameters for vaala.fi.
+ 40.220: vaala.fi INFO Begin testing connectivity for vaala.fi.
+ 41.566: vaala.fi INFO Zone announced by more than one ASN.
+ 42.079: vaala.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 42.079: vaala.fi INFO Done testing connectivity for vaala.fi.
+ 42.079: vaala.fi INFO Begin testing DNSSEC for vaala.fi.
+ 42.175: vaala.fi INFO Did not find DS record for vaala.fi at parent.
+ 42.390: vaala.fi INFO Servers for vaala.fi have consistent extra processing status.
+ 42.432: vaala.fi INFO Authenticated denial records not found for vaala.fi.
+ 42.456: vaala.fi INFO Did not find DNSKEY record for vaala.fi at child.
+ 42.456: vaala.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 42.456: vaala.fi INFO Done testing DNSSEC for vaala.fi.
+ 42.457: vaala.fi INFO Test completed for zone vaala.fi.

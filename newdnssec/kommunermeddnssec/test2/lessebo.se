@@ -1,0 +1,128 @@
+  0.000: lessebo.se INFO Begin testing zone lessebo.se with version 1.2.
+  0.000: lessebo.se INFO Begin testing delegation for lessebo.se.
+  5.137: lessebo.se INFO Name servers listed at parent: a.dns.tdc.se,b.dns.tdc.se,c.dns.tdc.se,ns.lessebo.se
+  7.345: lessebo.se INFO Name servers listed at child: a.dns.tdc.se,b.dns.tdc.se,c.dns.tdc.se,ns.lessebo.se
+  7.345: lessebo.se NOTICE No IPv6 name servers found.
+  7.388: lessebo.se INFO Parent glue for lessebo.se found: a.dns.tdc.se (213.50.29.190)
+  7.437: lessebo.se INFO Parent glue for lessebo.se found: b.dns.tdc.se (213.50.29.195)
+  7.463: lessebo.se INFO Parent glue for lessebo.se found: c.dns.tdc.se (195.10.143.3)
+  7.524: lessebo.se INFO Parent glue for lessebo.se found: ns.lessebo.se (212.214.8.9)
+  7.564: lessebo.se INFO Checking glue for a.dns.tdc.se (213.50.29.190).
+  7.565: lessebo.se INFO Checking glue for b.dns.tdc.se (213.50.29.195).
+  7.565: lessebo.se INFO Checking glue for c.dns.tdc.se (195.10.143.3).
+  7.565: lessebo.se INFO Checking glue for ns.lessebo.se (212.214.8.9).
+  7.579: lessebo.se INFO Child glue for lessebo.se found: ns.lessebo.se (212.214.8.9)
+  7.580: lessebo.se INFO Parent glue for lessebo.se found: a.dns.tdc.se (213.50.29.190)
+  7.580: lessebo.se INFO Parent glue for lessebo.se found: b.dns.tdc.se (213.50.29.195)
+  7.580: lessebo.se INFO Parent glue for lessebo.se found: c.dns.tdc.se (195.10.143.3)
+  7.581: lessebo.se INFO Parent glue for lessebo.se found: ns.lessebo.se (212.214.8.9)
+  7.581: lessebo.se INFO Done testing delegation for lessebo.se.
+  7.581: lessebo.se INFO Begin testing name server a.dns.tdc.se.
+  7.582: lessebo.se INFO Begin testing host a.dns.tdc.se.
+  7.582: lessebo.se INFO Begin testing address 213.50.29.190.
+ 11.810: lessebo.se INFO Done testing address 213.50.29.190.
+ 11.810: lessebo.se INFO Done testing host a.dns.tdc.se.
+ 11.820: lessebo.se INFO Name server a.dns.tdc.se (213.50.29.190) answers queries over UDP.
+ 11.834: lessebo.se INFO Name server a.dns.tdc.se (213.50.29.190) answers queries over TCP.
+ 11.841: lessebo.se INFO Name server a.dns.tdc.se (213.50.29.190) is not recursive.
+ 11.850: lessebo.se INFO Name server a.dns.tdc.se (213.50.29.190) authoritative for lessebo.se.
+ 11.865: lessebo.se INFO Name server a.dns.tdc.se (213.50.29.190) closed for zone transfer of lessebo.se.
+ 11.874: lessebo.se INFO Legacy name server ID for a.dns.tdc.se (213.50.29.190): hostname.bind = a
+ 11.882: lessebo.se INFO Legacy name server ID for a.dns.tdc.se (213.50.29.190): version.bind = tssk, well what can i say?
+ 11.895: lessebo.se NOTICE No answer received from 213.50.29.190 when querying for version.server/CH/TXT.
+ 11.896: lessebo.se INFO Done testing name server a.dns.tdc.se.
+ 11.896: lessebo.se INFO Begin testing name server b.dns.tdc.se.
+ 11.896: lessebo.se INFO Begin testing host b.dns.tdc.se.
+ 11.896: lessebo.se INFO Begin testing address 213.50.29.195.
+ 12.134: lessebo.se INFO Done testing address 213.50.29.195.
+ 12.134: lessebo.se INFO Done testing host b.dns.tdc.se.
+ 12.143: lessebo.se INFO Name server b.dns.tdc.se (213.50.29.195) answers queries over UDP.
+ 12.155: lessebo.se INFO Name server b.dns.tdc.se (213.50.29.195) answers queries over TCP.
+ 12.162: lessebo.se INFO Name server b.dns.tdc.se (213.50.29.195) is not recursive.
+ 12.170: lessebo.se INFO Name server b.dns.tdc.se (213.50.29.195) authoritative for lessebo.se.
+ 12.183: lessebo.se INFO Name server b.dns.tdc.se (213.50.29.195) closed for zone transfer of lessebo.se.
+ 12.190: lessebo.se INFO Legacy name server ID for b.dns.tdc.se (213.50.29.195): hostname.bind = b
+ 12.196: lessebo.se INFO Legacy name server ID for b.dns.tdc.se (213.50.29.195): version.bind = tssk, well what can i say?
+ 12.209: lessebo.se NOTICE No answer received from 213.50.29.195 when querying for version.server/CH/TXT.
+ 12.209: lessebo.se INFO Done testing name server b.dns.tdc.se.
+ 12.209: lessebo.se INFO Begin testing name server c.dns.tdc.se.
+ 12.209: lessebo.se INFO Begin testing host c.dns.tdc.se.
+ 12.209: lessebo.se INFO Begin testing address 195.10.143.3.
+ 13.458: lessebo.se INFO Done testing address 195.10.143.3.
+ 13.458: lessebo.se INFO Done testing host c.dns.tdc.se.
+ 13.474: lessebo.se INFO Name server c.dns.tdc.se (195.10.143.3) answers queries over UDP.
+ 13.499: lessebo.se INFO Name server c.dns.tdc.se (195.10.143.3) answers queries over TCP.
+ 13.511: lessebo.se INFO Name server c.dns.tdc.se (195.10.143.3) is not recursive.
+ 13.526: lessebo.se INFO Name server c.dns.tdc.se (195.10.143.3) authoritative for lessebo.se.
+ 13.558: lessebo.se INFO Name server c.dns.tdc.se (195.10.143.3) closed for zone transfer of lessebo.se.
+ 13.571: lessebo.se INFO Legacy name server ID for c.dns.tdc.se (195.10.143.3): hostname.bind = c.dns.tdc.se
+ 13.584: lessebo.se INFO Legacy name server ID for c.dns.tdc.se (195.10.143.3): version.bind = tssk, well what can i say?
+ 13.609: lessebo.se NOTICE No answer received from 195.10.143.3 when querying for version.server/CH/TXT.
+ 13.609: lessebo.se INFO Done testing name server c.dns.tdc.se.
+ 13.609: lessebo.se INFO Begin testing name server ns.lessebo.se.
+ 13.609: lessebo.se INFO Begin testing host ns.lessebo.se.
+ 13.610: lessebo.se INFO Begin testing address 212.214.8.9.
+ 19.675: lessebo.se INFO Done testing address 212.214.8.9.
+ 19.675: lessebo.se INFO Done testing host ns.lessebo.se.
+ 19.690: lessebo.se INFO Name server ns.lessebo.se (212.214.8.9) answers queries over UDP.
+ 19.715: lessebo.se INFO Name server ns.lessebo.se (212.214.8.9) answers queries over TCP.
+ 19.938: lessebo.se INFO Name server ns.lessebo.se (212.214.8.9) is not recursive.
+ 19.953: lessebo.se INFO Name server ns.lessebo.se (212.214.8.9) authoritative for lessebo.se.
+ 20.152: lessebo.se INFO Name server ns.lessebo.se (212.214.8.9) closed for zone transfer of lessebo.se.
+ 20.166: lessebo.se NOTICE No answer received from 212.214.8.9 when querying for hostname.bind/CH/TXT.
+ 38.168: lessebo.se INFO Done testing name server ns.lessebo.se.
+ 38.169: lessebo.se INFO Begin testing zone consistency for lessebo.se.
+ 38.189: lessebo.se INFO SOA at address 195.10.143.3 has serial 2010062235.
+ 38.197: lessebo.se INFO SOA at address 213.50.29.195 has serial 2010062235.
+ 38.211: lessebo.se INFO SOA at address 212.214.8.9 has serial 2010062235.
+ 38.220: lessebo.se INFO SOA at address 213.50.29.190 has serial 2010062235.
+ 38.220: lessebo.se INFO All SOA records have consistent serial numbers.
+ 38.220: lessebo.se INFO All SOA records are consistent among all name servers.
+ 38.220: lessebo.se INFO Done testing zone consistency for lessebo.se.
+ 38.221: lessebo.se INFO Begin testing SOA parameters for lessebo.se.
+ 38.235: lessebo.se INFO Found SOA record for lessebo.se.
+ 38.235: lessebo.se INFO Begin testing host ns.lessebo.se.
+ 38.236: lessebo.se INFO Begin testing address 212.214.8.9.
+ 38.237: lessebo.se INFO Done testing address 212.214.8.9.
+ 38.237: lessebo.se INFO Done testing host ns.lessebo.se.
+ 38.237: lessebo.se INFO SOA MNAME for lessebo.se valid (ns.lessebo.se).
+ 38.238: lessebo.se INFO SOA MNAME for lessebo.se (ns.lessebo.se) listed as NS.
+ 38.252: lessebo.se INFO SOA MNAME for lessebo.se (ns.lessebo.se) is authoritative.
+ 38.252: lessebo.se INFO Begin testing email address hostmaster@kommun.lessebo.se.
+ 38.476: lessebo.se INFO Mail exchangers for hostmaster@kommun.lessebo.se found mail.lessebo.se.
+ 38.476: lessebo.se INFO All mail servers for hostmaster@kommun.lessebo.se are in zone lessebo.se.
+ 38.476: lessebo.se INFO Begin testing host mail.lessebo.se.
+ 38.946: lessebo.se INFO Begin testing address 212.214.8.5.
+ 39.156: lessebo.se INFO Done testing address 212.214.8.5.
+ 39.156: lessebo.se INFO Done testing host mail.lessebo.se.
+ 39.157: lessebo.se INFO Begin testing mail server mail.lessebo.se (212.214.8.5) with hostmaster@kommun.lessebo.se.
+ 39.212: lessebo.se INFO SMTP banner: mail.lessebo.se Symantec Mail Security Mon, 13 Dec 2010 20:19:59 +0100 
+ 39.257: lessebo.se INFO SMTP testing of mail.lessebo.se (212.214.8.5) with hostmaster@kommun.lessebo.se succeeded without errors.
+ 39.257: lessebo.se INFO Done testing mail server mail.lessebo.se (212.214.8.5) with hostmaster@kommun.lessebo.se.
+ 39.257: lessebo.se INFO Delivery over IPv4 to hostmaster@kommun.lessebo.se ok.
+ 39.257: lessebo.se INFO Delivery over IPv6 to hostmaster@kommun.lessebo.se could not be done.
+ 39.258: lessebo.se INFO Done testing email address hostmaster@kommun.lessebo.se.
+ 39.258: lessebo.se INFO Successful attempt to deliver email for SOA RNAME of lessebo.se (hostmaster.kommun.lessebo.se) using hostmaster@kommun.lessebo.se.
+ 39.258: lessebo.se INFO SOA TTL for lessebo.se OK (3600) - recommended >= 3600.
+ 39.258: lessebo.se NOTICE SOA refresh for lessebo.se too small (1800) - recommended >= 14400.
+ 39.258: lessebo.se NOTICE SOA retry for lessebo.se too small (600) - recommended >= 3600.
+ 39.258: lessebo.se INFO SOA expire for lessebo.se OK (1209600) - recommended >= 604800.
+ 39.258: lessebo.se INFO SOA minimum for lessebo.se OK (1800) - recommended between 300 and 86400.
+ 39.258: lessebo.se INFO Done testing SOA parameters for lessebo.se.
+ 39.258: lessebo.se INFO Begin testing connectivity for lessebo.se.
+ 39.865: lessebo.se INFO Name server 195.10.143.3 announced by: 3292
+ 40.378: lessebo.se INFO Name server 213.50.29.195 announced by: 3292
+ 41.054: lessebo.se INFO Name server 212.214.8.9 announced by: 3292
+ 41.671: lessebo.se INFO Name server 213.50.29.190 announced by: 3292
+ 41.671: lessebo.se INFO Zone announced by IPv4 ASN: 3292
+ 41.671: lessebo.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 41.671: lessebo.se INFO Zone announced by IPv6 ASN: 
+ 41.672: lessebo.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 41.672: lessebo.se INFO Done testing connectivity for lessebo.se.
+ 41.672: lessebo.se INFO Begin testing DNSSEC for lessebo.se.
+ 41.721: lessebo.se INFO Did not find DS record for lessebo.se at parent.
+ 41.793: lessebo.se INFO Servers for lessebo.se have consistent extra processing status.
+ 41.794: lessebo.se INFO Did not find DNSKEY record for lessebo.se at child.
+ 41.794: lessebo.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 41.794: lessebo.se INFO Done testing DNSSEC for lessebo.se.
+ 41.794: lessebo.se INFO Test completed for zone lessebo.se.

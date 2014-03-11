@@ -1,0 +1,94 @@
+  0.000: nykoping.se INFO Begin testing zone nykoping.se with version 1.2.
+  0.000: nykoping.se INFO Begin testing delegation for nykoping.se.
+  5.455: nykoping.se INFO Name servers listed at parent: ns.gastabud.com,ns.nykoping.se
+  6.685: nykoping.se INFO Name servers listed at child: ns.gastabud.com,ns.nykoping.se
+  6.685: nykoping.se NOTICE No IPv6 name servers found.
+  6.757: nykoping.se INFO Parent glue for nykoping.se found: ns.nykoping.se (62.119.51.99)
+  6.765: nykoping.se INFO Checking glue for ns.nykoping.se (62.119.51.99).
+  6.776: nykoping.se INFO Child glue for nykoping.se found: ns.nykoping.se (62.119.51.99)
+  6.777: nykoping.se INFO Parent glue for nykoping.se found: ns.nykoping.se (62.119.51.99)
+  6.777: nykoping.se INFO Done testing delegation for nykoping.se.
+  6.778: nykoping.se INFO Begin testing name server ns.gastabud.com.
+  6.778: nykoping.se INFO Begin testing host ns.gastabud.com.
+  6.778: nykoping.se INFO Begin testing address 77.91.222.2.
+ 12.139: nykoping.se INFO Done testing address 77.91.222.2.
+ 12.139: nykoping.se INFO Done testing host ns.gastabud.com.
+ 12.151: nykoping.se INFO Name server ns.gastabud.com (77.91.222.2) answers queries over UDP.
+ 12.167: nykoping.se INFO Name server ns.gastabud.com (77.91.222.2) answers queries over TCP.
+ 12.178: nykoping.se INFO Name server ns.gastabud.com (77.91.222.2) is not recursive.
+ 12.188: nykoping.se INFO Name server ns.gastabud.com (77.91.222.2) authoritative for nykoping.se.
+ 12.216: nykoping.se NOTICE Name server ns.gastabud.com (77.91.222.2) open for zone transfer of nykoping.se.
+ 12.226: nykoping.se INFO Legacy name server ID for ns.gastabud.com (77.91.222.2): hostname.bind = ns1.gastabud.com
+ 12.235: nykoping.se INFO Legacy name server ID for ns.gastabud.com (77.91.222.2): version.bind = 9.3.4-P1.2
+ 12.252: nykoping.se NOTICE No answer received from 77.91.222.2 when querying for version.server/CH/TXT.
+ 12.253: nykoping.se INFO Done testing name server ns.gastabud.com.
+ 12.253: nykoping.se INFO Begin testing name server ns.nykoping.se.
+ 12.253: nykoping.se INFO Begin testing host ns.nykoping.se.
+ 12.253: nykoping.se INFO Begin testing address 62.119.51.99.
+ 13.434: nykoping.se INFO Done testing address 62.119.51.99.
+ 13.434: nykoping.se INFO Done testing host ns.nykoping.se.
+ 13.449: nykoping.se INFO Name server ns.nykoping.se (62.119.51.99) answers queries over UDP.
+ 13.472: nykoping.se INFO Name server ns.nykoping.se (62.119.51.99) answers queries over TCP.
+ 13.486: nykoping.se INFO Name server ns.nykoping.se (62.119.51.99) is not recursive.
+ 13.496: nykoping.se INFO Name server ns.nykoping.se (62.119.51.99) authoritative for nykoping.se.
+ 13.553: nykoping.se NOTICE Name server ns.nykoping.se (62.119.51.99) open for zone transfer of nykoping.se.
+ 13.571: nykoping.se INFO Legacy name server ID for ns.nykoping.se (62.119.51.99): hostname.bind = ns
+ 13.590: nykoping.se INFO Legacy name server ID for ns.nykoping.se (62.119.51.99): version.bind = 9.3.4-P1.2
+ 13.609: nykoping.se NOTICE No answer received from 62.119.51.99 when querying for version.server/CH/TXT.
+ 13.609: nykoping.se INFO Done testing name server ns.nykoping.se.
+ 13.610: nykoping.se INFO Begin testing zone consistency for nykoping.se.
+ 13.625: nykoping.se INFO SOA at address 62.119.51.99 has serial 2010120600.
+ 13.635: nykoping.se INFO SOA at address 77.91.222.2 has serial 2010120600.
+ 13.635: nykoping.se INFO All SOA records have consistent serial numbers.
+ 13.635: nykoping.se INFO All SOA records are consistent among all name servers.
+ 13.635: nykoping.se INFO Done testing zone consistency for nykoping.se.
+ 13.635: nykoping.se INFO Begin testing SOA parameters for nykoping.se.
+ 13.647: nykoping.se INFO Found SOA record for nykoping.se.
+ 13.647: nykoping.se INFO Begin testing host ns.nykoping.se.
+ 13.648: nykoping.se INFO Begin testing address 62.119.51.99.
+ 13.649: nykoping.se INFO Done testing address 62.119.51.99.
+ 13.649: nykoping.se INFO Done testing host ns.nykoping.se.
+ 13.649: nykoping.se INFO SOA MNAME for nykoping.se valid (ns.nykoping.se).
+ 13.649: nykoping.se INFO SOA MNAME for nykoping.se (ns.nykoping.se) listed as NS.
+ 13.660: nykoping.se INFO SOA MNAME for nykoping.se (ns.nykoping.se) is authoritative.
+ 13.660: nykoping.se INFO Begin testing email address hostmaster@nykoping.se.
+ 13.884: nykoping.se INFO Mail exchangers for hostmaster@nykoping.se found mx2.nykoping.se,mx1.nykoping.se.
+ 13.884: nykoping.se INFO All mail servers for hostmaster@nykoping.se are in zone nykoping.se.
+ 13.884: nykoping.se INFO Begin testing host mx2.nykoping.se.
+ 14.387: nykoping.se INFO Begin testing address 77.91.216.217.
+ 15.020: nykoping.se INFO Done testing address 77.91.216.217.
+ 15.021: nykoping.se INFO Done testing host mx2.nykoping.se.
+ 15.021: nykoping.se INFO Begin testing mail server mx2.nykoping.se (77.91.216.217) with hostmaster@nykoping.se.
+ 15.107: nykoping.se INFO SMTP banner: mx2.nykoping.se ESMTP
+ 15.307: nykoping.se INFO SMTP testing of mx2.nykoping.se (77.91.216.217) with hostmaster@nykoping.se succeeded without errors.
+ 15.308: nykoping.se INFO Done testing mail server mx2.nykoping.se (77.91.216.217) with hostmaster@nykoping.se.
+ 15.308: nykoping.se INFO Begin testing host mx1.nykoping.se.
+ 15.769: nykoping.se INFO Begin testing address 77.91.216.216.
+ 16.324: nykoping.se INFO Done testing address 77.91.216.216.
+ 16.324: nykoping.se INFO Done testing host mx1.nykoping.se.
+ 16.325: nykoping.se INFO Delivery over IPv4 to hostmaster@nykoping.se ok.
+ 16.325: nykoping.se INFO Delivery over IPv6 to hostmaster@nykoping.se could not be done.
+ 16.325: nykoping.se INFO Done testing email address hostmaster@nykoping.se.
+ 16.325: nykoping.se INFO Successful attempt to deliver email for SOA RNAME of nykoping.se (hostmaster.nykoping.se) using hostmaster@nykoping.se.
+ 16.325: nykoping.se INFO SOA TTL for nykoping.se OK (38400) - recommended >= 3600.
+ 16.325: nykoping.se NOTICE SOA refresh for nykoping.se too small (1200) - recommended >= 14400.
+ 16.325: nykoping.se NOTICE SOA refresh for nykoping.se lower than retry (1200 vs 3600).
+ 16.325: nykoping.se INFO SOA retry for nykoping.se OK (3600) - recommended >= 3600.
+ 16.325: nykoping.se INFO SOA expire for nykoping.se OK (1209600) - recommended >= 604800.
+ 16.325: nykoping.se INFO SOA minimum for nykoping.se OK (900) - recommended between 300 and 86400.
+ 16.325: nykoping.se INFO Done testing SOA parameters for nykoping.se.
+ 16.325: nykoping.se INFO Begin testing connectivity for nykoping.se.
+ 16.816: nykoping.se INFO Name server 62.119.51.99 announced by: 8434
+ 21.572: nykoping.se INFO Name server 77.91.222.2 announced by: 43012
+ 21.572: nykoping.se INFO Zone announced by IPv4 ASN: 8434,43012
+ 21.572: nykoping.se INFO Zone announced by more than one ASN (2).
+ 21.573: nykoping.se INFO Zone announced by IPv6 ASN: 
+ 21.573: nykoping.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 21.573: nykoping.se INFO Done testing connectivity for nykoping.se.
+ 21.573: nykoping.se INFO Begin testing DNSSEC for nykoping.se.
+ 21.588: nykoping.se INFO Did not find DS record for nykoping.se at parent.
+ 21.620: nykoping.se INFO Servers for nykoping.se have consistent extra processing status.
+ 21.620: nykoping.se INFO Did not find DNSKEY record for nykoping.se at child.
+ 21.621: nykoping.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 21.621: nykoping.se INFO Done testing DNSSEC for nykoping.se.
+ 21.621: nykoping.se INFO Test completed for zone nykoping.se.

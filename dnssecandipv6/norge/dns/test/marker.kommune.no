@@ -1,0 +1,82 @@
+  0.000: marker.kommune.no INFO Begin testing zone marker.kommune.no with version 1.6.1.
+  0.414: marker.kommune.no INFO Begin testing delegation for marker.kommune.no.
+  7.639: marker.kommune.no INFO Name servers listed at parent: ns1.halden.net,ns2.halden.net
+  9.276: marker.kommune.no INFO Name servers listed at child: ns1.halden.net,ns2.halden.net
+  9.277: marker.kommune.no NOTICE No IPv6 name servers found.
+  9.430: marker.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.565: marker.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.713: marker.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.864: marker.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.735: marker.kommune.no INFO It is possible to build a referral packet for marker.kommune.no that works without EDNS0.
+ 11.347: marker.kommune.no INFO Previously used name servers for marker.kommune.no: 
+ 11.347: marker.kommune.no INFO Done testing delegation for marker.kommune.no.
+ 11.348: marker.kommune.no INFO Begin testing name server ns1.halden.net.
+ 11.348: marker.kommune.no INFO Begin testing host ns1.halden.net.
+ 11.778: marker.kommune.no INFO Begin testing address 194.69.214.10.
+ 24.392: marker.kommune.no INFO Done testing address 194.69.214.10.
+ 24.392: marker.kommune.no INFO Done testing host ns1.halden.net.
+ 24.789: marker.kommune.no INFO Name server ns1.halden.net (194.69.214.10) answers queries over UDP.
+ 24.851: marker.kommune.no INFO Name server ns1.halden.net (194.69.214.10) answers queries over TCP.
+ 25.047: marker.kommune.no WARNING Name server ns1.halden.net (194.69.214.10) is recursive.
+ 25.151: marker.kommune.no INFO Name server ns1.halden.net (194.69.214.10) authoritative for marker.kommune.no.
+ 25.230: marker.kommune.no INFO Name server ns1.halden.net (194.69.214.10) closed for zone transfer of marker.kommune.no.
+ 25.248: marker.kommune.no INFO Legacy name server ID for ns1.halden.net (194.69.214.10): hostname.bind = ns1
+ 25.326: marker.kommune.no INFO Legacy name server ID for ns1.halden.net (194.69.214.10): version.bind = 9.7.3
+ 25.397: marker.kommune.no NOTICE No answer received from 194.69.214.10 when querying for version.server/CH/TXT.
+ 25.397: marker.kommune.no INFO Done testing name server ns1.halden.net.
+ 25.397: marker.kommune.no INFO Begin testing name server ns2.halden.net.
+ 25.397: marker.kommune.no INFO Begin testing host ns2.halden.net.
+ 25.609: marker.kommune.no INFO Begin testing address 193.93.128.33.
+ 26.926: marker.kommune.no INFO Done testing address 193.93.128.33.
+ 26.926: marker.kommune.no INFO Done testing host ns2.halden.net.
+ 27.449: marker.kommune.no INFO Name server ns2.halden.net (193.93.128.33) answers queries over UDP.
+ 27.482: marker.kommune.no INFO Name server ns2.halden.net (193.93.128.33) answers queries over TCP.
+ 27.502: marker.kommune.no INFO Name server ns2.halden.net (193.93.128.33) is not recursive.
+ 27.575: marker.kommune.no INFO Name server ns2.halden.net (193.93.128.33) authoritative for marker.kommune.no.
+ 27.626: marker.kommune.no INFO Name server ns2.halden.net (193.93.128.33) closed for zone transfer of marker.kommune.no.
+ 27.654: marker.kommune.no INFO Legacy name server ID for ns2.halden.net (193.93.128.33): hostname.bind = ns2
+ 27.670: marker.kommune.no INFO Legacy name server ID for ns2.halden.net (193.93.128.33): version.bind = 9.7.3
+ 27.700: marker.kommune.no NOTICE No answer received from 193.93.128.33 when querying for version.server/CH/TXT.
+ 27.700: marker.kommune.no INFO Done testing name server ns2.halden.net.
+ 27.700: marker.kommune.no INFO Begin testing zone consistency for marker.kommune.no.
+ 28.539: marker.kommune.no INFO SOA at address 193.93.128.33 has serial 2014021701.
+ 28.565: marker.kommune.no INFO SOA at address 194.69.214.10 has serial 2014021701.
+ 28.565: marker.kommune.no INFO All SOA records have consistent serial numbers.
+ 28.565: marker.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 29.236: marker.kommune.no NOTICE The listed nameservers for marker.kommune.no all report the same set of nameservers.
+ 29.237: marker.kommune.no INFO Done testing zone consistency for marker.kommune.no.
+ 29.237: marker.kommune.no INFO Begin testing SOA parameters for marker.kommune.no.
+ 29.276: marker.kommune.no INFO Found SOA record for marker.kommune.no.
+ 29.276: marker.kommune.no INFO Begin testing host ns1.halden.net.
+ 29.611: marker.kommune.no INFO Begin testing address 194.69.214.10.
+ 29.910: marker.kommune.no INFO Done testing address 194.69.214.10.
+ 29.910: marker.kommune.no INFO Done testing host ns1.halden.net.
+ 29.911: marker.kommune.no INFO SOA MNAME for marker.kommune.no valid (ns1.halden.net).
+ 29.911: marker.kommune.no INFO SOA MNAME for marker.kommune.no (ns1.halden.net) listed as NS.
+ 30.146: marker.kommune.no INFO SOA MNAME for marker.kommune.no (ns1.halden.net) is authoritative.
+ 30.146: marker.kommune.no INFO Begin testing email address hostmaster@halden.net.
+ 30.551: marker.kommune.no INFO Mail exchangers for hostmaster@halden.net found inmail.halden.net.
+ 30.551: marker.kommune.no INFO Begin testing host inmail.halden.net.
+ 30.997: marker.kommune.no INFO Begin testing address 194.69.214.104.
+ 31.876: marker.kommune.no INFO Done testing address 194.69.214.104.
+ 31.877: marker.kommune.no INFO Done testing host inmail.halden.net.
+ 32.054: marker.kommune.no INFO Done testing email address hostmaster@halden.net.
+ 32.054: marker.kommune.no INFO Successful attempt to deliver email for SOA RNAME of marker.kommune.no (hostmaster.halden.net) using hostmaster@halden.net.
+ 32.054: marker.kommune.no INFO SOA TTL for marker.kommune.no OK (86400) - recommended >= 3600.
+ 32.055: marker.kommune.no INFO SOA refresh for marker.kommune.no OK (28800) - recommended >= 14400.
+ 32.055: marker.kommune.no INFO SOA retry for marker.kommune.no OK (14400) - recommended >= 3600.
+ 32.055: marker.kommune.no INFO SOA expire for marker.kommune.no OK (2592000) - recommended >= 604800.
+ 32.055: marker.kommune.no INFO SOA minimum for marker.kommune.no OK (86400) - recommended between 300 and 86400.
+ 32.055: marker.kommune.no INFO Done testing SOA parameters for marker.kommune.no.
+ 32.055: marker.kommune.no INFO Begin testing connectivity for marker.kommune.no.
+ 32.983: marker.kommune.no INFO Zone announced by more than one ASN.
+ 32.983: marker.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 32.983: marker.kommune.no INFO Done testing connectivity for marker.kommune.no.
+ 32.984: marker.kommune.no INFO Begin testing DNSSEC for marker.kommune.no.
+ 33.086: marker.kommune.no INFO Did not find DS record for marker.kommune.no at parent.
+ 33.147: marker.kommune.no INFO Servers for marker.kommune.no have consistent extra processing status.
+ 33.194: marker.kommune.no INFO Authenticated denial records not found for marker.kommune.no.
+ 33.209: marker.kommune.no INFO Did not find DNSKEY record for marker.kommune.no at child.
+ 33.209: marker.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 33.209: marker.kommune.no INFO Done testing DNSSEC for marker.kommune.no.
+ 33.221: marker.kommune.no INFO Test completed for zone marker.kommune.no.

@@ -1,0 +1,83 @@
+  0.000: kronoby.fi INFO Begin testing zone kronoby.fi with version 1.6.1.
+  0.407: kronoby.fi INFO Begin testing delegation for kronoby.fi.
+  9.654: kronoby.fi INFO Name servers listed at parent: ns.datatower.fi,ns.kpk.fi
+ 11.406: kronoby.fi INFO Name servers listed at child: ns.datatower.fi,ns.kpk.fi
+ 11.406: kronoby.fi NOTICE No IPv6 name servers found.
+ 11.498: kronoby.fi INFO Parent glue for kronoby.fi found: ns.datatower.fi (85.157.249.22)
+ 11.789: kronoby.fi INFO Checking glue for ns.datatower.fi (85.157.249.22).
+ 11.789: kronoby.fi INFO Parent glue for kronoby.fi found: ns.datatower.fi (85.157.249.22)
+ 12.700: kronoby.fi INFO It is possible to build a referral packet for kronoby.fi that works without EDNS0.
+ 14.199: kronoby.fi INFO Previously used name servers for kronoby.fi: 
+ 14.199: kronoby.fi INFO Done testing delegation for kronoby.fi.
+ 14.200: kronoby.fi INFO Begin testing name server ns.datatower.fi.
+ 14.200: kronoby.fi INFO Begin testing host ns.datatower.fi.
+ 14.860: kronoby.fi INFO Begin testing address 85.157.249.22.
+ 23.754: kronoby.fi INFO Done testing address 85.157.249.22.
+ 23.754: kronoby.fi INFO Done testing host ns.datatower.fi.
+ 24.009: kronoby.fi INFO Name server ns.datatower.fi (85.157.249.22) answers queries over UDP.
+ 24.093: kronoby.fi INFO Name server ns.datatower.fi (85.157.249.22) answers queries over TCP.
+ 24.120: kronoby.fi INFO Name server ns.datatower.fi (85.157.249.22) is not recursive.
+ 24.252: kronoby.fi INFO Name server ns.datatower.fi (85.157.249.22) authoritative for kronoby.fi.
+ 24.493: kronoby.fi INFO Name server ns.datatower.fi (85.157.249.22) closed for zone transfer of kronoby.fi.
+ 24.519: kronoby.fi INFO Legacy name server ID for ns.datatower.fi (85.157.249.22): hostname.bind = raiweb
+ 24.630: kronoby.fi NOTICE No answer received from 85.157.249.22 when querying for version.server/CH/TXT.
+ 24.630: kronoby.fi INFO Done testing name server ns.datatower.fi.
+ 24.630: kronoby.fi INFO Begin testing name server ns.kpk.fi.
+ 24.631: kronoby.fi INFO Begin testing host ns.kpk.fi.
+ 24.782: kronoby.fi INFO Begin testing address 192.130.183.74.
+ 33.204: kronoby.fi INFO Done testing address 192.130.183.74.
+ 33.204: kronoby.fi INFO Done testing host ns.kpk.fi.
+ 33.368: kronoby.fi INFO Name server ns.kpk.fi (192.130.183.74) answers queries over UDP.
+ 33.423: kronoby.fi INFO Name server ns.kpk.fi (192.130.183.74) answers queries over TCP.
+ 33.457: kronoby.fi INFO Name server ns.kpk.fi (192.130.183.74) is not recursive.
+ 33.614: kronoby.fi INFO Name server ns.kpk.fi (192.130.183.74) authoritative for kronoby.fi.
+ 33.899: kronoby.fi INFO Name server ns.kpk.fi (192.130.183.74) closed for zone transfer of kronoby.fi.
+ 33.925: kronoby.fi INFO Legacy name server ID for ns.kpk.fi (192.130.183.74): hostname.bind = nsdmz
+ 34.100: kronoby.fi NOTICE No answer received from 192.130.183.74 when querying for version.server/CH/TXT.
+ 34.100: kronoby.fi INFO Done testing name server ns.kpk.fi.
+ 34.100: kronoby.fi INFO Begin testing zone consistency for kronoby.fi.
+ 34.968: kronoby.fi INFO SOA at address 85.157.249.22 has serial 2014012001.
+ 34.993: kronoby.fi INFO SOA at address 192.130.183.74 has serial 2014012001.
+ 34.994: kronoby.fi INFO All SOA records have consistent serial numbers.
+ 34.994: kronoby.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 35.416: kronoby.fi NOTICE The listed nameservers for kronoby.fi all report the same set of nameservers.
+ 35.416: kronoby.fi INFO Done testing zone consistency for kronoby.fi.
+ 35.416: kronoby.fi INFO Begin testing SOA parameters for kronoby.fi.
+ 35.456: kronoby.fi INFO Found SOA record for kronoby.fi.
+ 35.457: kronoby.fi INFO Begin testing host ns.kpk.fi.
+ 35.600: kronoby.fi INFO Begin testing address 192.130.183.74.
+ 35.706: kronoby.fi INFO Done testing address 192.130.183.74.
+ 35.706: kronoby.fi INFO Done testing host ns.kpk.fi.
+ 35.706: kronoby.fi INFO SOA MNAME for kronoby.fi valid (ns.kpk.fi).
+ 35.706: kronoby.fi INFO SOA MNAME for kronoby.fi (ns.kpk.fi) listed as NS.
+ 35.866: kronoby.fi INFO SOA MNAME for kronoby.fi (ns.kpk.fi) is authoritative.
+ 35.866: kronoby.fi INFO Begin testing email address hostmaster@kpk.fi.
+ 36.076: kronoby.fi INFO Mail exchangers for hostmaster@kpk.fi found postix.kpk.fi,mail.datatower.fi.
+ 36.076: kronoby.fi INFO Begin testing host postix.kpk.fi.
+ 36.448: kronoby.fi INFO Begin testing address 192.130.183.73.
+ 37.071: kronoby.fi INFO Done testing address 192.130.183.73.
+ 37.071: kronoby.fi INFO Done testing host postix.kpk.fi.
+ 37.184: kronoby.fi INFO Begin testing host mail.datatower.fi.
+ 37.460: kronoby.fi INFO Begin testing address 85.157.249.21.
+ 38.202: kronoby.fi INFO Done testing address 85.157.249.21.
+ 38.202: kronoby.fi INFO Done testing host mail.datatower.fi.
+ 38.343: kronoby.fi INFO Done testing email address hostmaster@kpk.fi.
+ 38.343: kronoby.fi INFO Successful attempt to deliver email for SOA RNAME of kronoby.fi (hostmaster.kpk.fi) using hostmaster@kpk.fi.
+ 38.343: kronoby.fi INFO SOA TTL for kronoby.fi OK (3600) - recommended >= 3600.
+ 38.343: kronoby.fi NOTICE SOA refresh for kronoby.fi too small (3600) - recommended >= 14400.
+ 38.343: kronoby.fi NOTICE SOA retry for kronoby.fi too small (600) - recommended >= 3600.
+ 38.343: kronoby.fi INFO SOA expire for kronoby.fi OK (1209600) - recommended >= 604800.
+ 38.344: kronoby.fi INFO SOA minimum for kronoby.fi OK (3600) - recommended between 300 and 86400.
+ 38.344: kronoby.fi INFO Done testing SOA parameters for kronoby.fi.
+ 38.344: kronoby.fi INFO Begin testing connectivity for kronoby.fi.
+ 39.430: kronoby.fi INFO Zone announced by more than one ASN.
+ 39.430: kronoby.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 39.431: kronoby.fi INFO Done testing connectivity for kronoby.fi.
+ 39.431: kronoby.fi INFO Begin testing DNSSEC for kronoby.fi.
+ 39.479: kronoby.fi INFO Did not find DS record for kronoby.fi at parent.
+ 39.590: kronoby.fi INFO Servers for kronoby.fi have consistent extra processing status.
+ 39.648: kronoby.fi INFO Authenticated denial records not found for kronoby.fi.
+ 39.671: kronoby.fi INFO Did not find DNSKEY record for kronoby.fi at child.
+ 39.671: kronoby.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 39.671: kronoby.fi INFO Done testing DNSSEC for kronoby.fi.
+ 39.672: kronoby.fi INFO Test completed for zone kronoby.fi.

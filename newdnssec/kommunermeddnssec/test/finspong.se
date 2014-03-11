@@ -1,0 +1,77 @@
+  0.000: finspong.se INFO Begin testing zone finspong.se with version 1.6.1.
+  0.645: finspong.se INFO Begin testing delegation for finspong.se.
+ 21.824: finspong.se INFO Name servers listed at parent: ns.finet.se,ns.wineasy.se
+ 33.991: finspong.se INFO Name servers listed at child: ns.finet.se,ns.wineasy.se
+ 34.035: finspong.se NOTICE No IPv6 name servers found.
+ 34.064: finspong.se INFO Parent glue for finspong.se found: ns.finet.se (81.216.34.100)
+ 35.162: finspong.se INFO Checking glue for ns.finet.se (81.216.34.100).
+ 35.163: finspong.se INFO Parent glue for finspong.se found: ns.finet.se (81.216.34.100)
+ 39.515: finspong.se NOTICE DNS lookup error (query timed out).
+ 43.612: finspong.se NOTICE DNS lookup error (query timed out).
+ 51.115: finspong.se INFO It is possible to build a referral packet for finspong.se that works without EDNS0.
+ 56.187: finspong.se INFO Previously used name servers for finspong.se: 
+ 56.188: finspong.se INFO Done testing delegation for finspong.se.
+ 56.188: finspong.se INFO Begin testing name server ns.finet.se.
+ 56.189: finspong.se INFO Begin testing host ns.finet.se.
+ 57.032: finspong.se INFO Begin testing address 81.216.34.100.
+ 80.746: finspong.se INFO Done testing address 81.216.34.100.
+ 80.746: finspong.se INFO Done testing host ns.finet.se.
+ 81.180: finspong.se INFO Name server ns.finet.se (81.216.34.100) answers queries over UDP.
+ 81.247: finspong.se INFO Name server ns.finet.se (81.216.34.100) answers queries over TCP.
+ 81.301: finspong.se INFO Name server ns.finet.se (81.216.34.100) is not recursive.
+ 81.446: finspong.se INFO Name server ns.finet.se (81.216.34.100) authoritative for finspong.se.
+ 81.505: finspong.se INFO Name server ns.finet.se (81.216.34.100) closed for zone transfer of finspong.se.
+ 81.536: finspong.se INFO Legacy name server ID for ns.finet.se (81.216.34.100): hostname.bind = sneet.finet.se
+ 81.586: finspong.se INFO Legacy name server ID for ns.finet.se (81.216.34.100): version.bind = 9.3.4-P1
+ 81.668: finspong.se NOTICE No answer received from 81.216.34.100 when querying for version.server/CH/TXT.
+ 81.669: finspong.se INFO Done testing name server ns.finet.se.
+ 81.669: finspong.se INFO Begin testing name server ns.wineasy.se.
+ 81.669: finspong.se INFO Begin testing host ns.wineasy.se.
+ 86.004: finspong.se INFO Begin testing address 213.50.29.190.
+103.947: finspong.se INFO Done testing address 213.50.29.190.
+103.991: finspong.se INFO Done testing host ns.wineasy.se.
+108.547: finspong.se ERROR Name server ns.wineasy.se (213.50.29.190) does not answer queries over UDP.
+108.550: finspong.se ERROR Name server ns.wineasy.se (213.50.29.190) does not answer queries over TCP.
+108.550: finspong.se INFO Done testing name server ns.wineasy.se.
+108.550: finspong.se INFO Begin testing zone consistency for finspong.se.
+110.228: finspong.se INFO SOA at address 81.216.34.100 has serial 2013121101.
+110.229: finspong.se INFO All SOA records have consistent serial numbers.
+110.229: finspong.se INFO All other fields in the SOA record are consistent among all name servers.
+123.106: finspong.se NOTICE The listed nameservers for finspong.se all report the same set of nameservers.
+123.106: finspong.se INFO Done testing zone consistency for finspong.se.
+123.106: finspong.se INFO Begin testing SOA parameters for finspong.se.
+123.123: finspong.se INFO Found SOA record for finspong.se.
+123.124: finspong.se INFO Begin testing host ns.finet.se.
+127.275: finspong.se INFO Begin testing address 81.216.34.100.
+131.410: finspong.se INFO Done testing address 81.216.34.100.
+131.410: finspong.se INFO Done testing host ns.finet.se.
+131.410: finspong.se INFO SOA MNAME for finspong.se valid (ns.finet.se).
+131.410: finspong.se INFO SOA MNAME for finspong.se (ns.finet.se) listed as NS.
+135.521: finspong.se INFO SOA MNAME for finspong.se (ns.finet.se) is authoritative.
+135.521: finspong.se INFO Begin testing email address hostmaster@finspong.com.
+139.913: finspong.se INFO Mail exchangers for hostmaster@finspong.com found mail.bahnhof.se.
+139.913: finspong.se INFO Begin testing host mail.bahnhof.se.
+140.372: finspong.se INFO Begin testing address 213.136.33.1.
+141.384: finspong.se INFO Done testing address 213.136.33.1.
+141.384: finspong.se INFO Done testing host mail.bahnhof.se.
+141.468: finspong.se INFO Done testing email address hostmaster@finspong.com.
+141.468: finspong.se INFO Successful attempt to deliver email for SOA RNAME of finspong.se (hostmaster.finspong.com) using hostmaster@finspong.com.
+141.469: finspong.se INFO SOA TTL for finspong.se OK (3600) - recommended >= 3600.
+141.469: finspong.se NOTICE SOA refresh for finspong.se too small (3600) - recommended >= 14400.
+141.469: finspong.se NOTICE SOA retry for finspong.se too small (1800) - recommended >= 3600.
+141.469: finspong.se INFO SOA expire for finspong.se OK (604800) - recommended >= 604800.
+141.469: finspong.se INFO SOA minimum for finspong.se OK (86400) - recommended between 300 and 86400.
+141.469: finspong.se INFO Done testing SOA parameters for finspong.se.
+141.470: finspong.se INFO Begin testing connectivity for finspong.se.
+142.352: finspong.se NOTICE Zone announced by fewer than two IPv4 ASN.
+142.353: finspong.se NOTICE Zone announced by fewer than two IPv6 ASN.
+142.353: finspong.se INFO Done testing connectivity for finspong.se.
+142.353: finspong.se INFO Begin testing DNSSEC for finspong.se.
+142.385: finspong.se INFO Did not find DS record for finspong.se at parent.
+144.420: finspong.se NOTICE DNS lookup error (connection failed).
+144.420: finspong.se INFO Servers for finspong.se have consistent extra processing status.
+144.441: finspong.se INFO Authenticated denial records not found for finspong.se.
+144.453: finspong.se INFO Did not find DNSKEY record for finspong.se at child.
+144.453: finspong.se INFO No DNSKEY(s) found at child, other tests skipped.
+144.453: finspong.se INFO Done testing DNSSEC for finspong.se.
+144.454: finspong.se INFO Test completed for zone finspong.se.

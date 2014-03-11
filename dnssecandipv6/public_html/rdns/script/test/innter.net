@@ -1,0 +1,131 @@
+  0.000: innter.net INFO Begin testing zone innter.net with version 1.5.0.
+  0.001: innter.net INFO Begin testing delegation for innter.net.
+ 23.157: innter.net INFO Name servers listed at parent: pns.innterdns.net,sns.innterdns.net,tns.innterdns.net
+ 30.223: innter.net INFO Name servers listed at child: pns.innterdns.net,qns.innterdns.eu,rns.innterdns.asia,sns.innterdns.net,tns.innterdns.net
+ 30.223: innter.net NOTICE Additional name server listed at child: qns.innterdns.eu
+ 30.224: innter.net NOTICE Additional name server listed at child: rns.innterdns.asia
+ 30.224: innter.net NOTICE No IPv6 name servers found.
+ 30.369: innter.net INFO Parent glue for innter.net found: pns.innterdns.net (77.74.56.10)
+ 30.703: innter.net INFO Parent glue for innter.net found: sns.innterdns.net (184.107.181.100)
+ 30.886: innter.net INFO Parent glue for innter.net found: tns.innterdns.net (213.203.233.110)
+ 31.050: innter.net INFO Checking glue for pns.innterdns.net (77.74.56.10).
+ 31.050: innter.net INFO Checking glue for sns.innterdns.net (184.107.181.100).
+ 31.051: innter.net INFO Checking glue for tns.innterdns.net (213.203.233.110).
+ 31.052: innter.net INFO Parent glue for innter.net found: pns.innterdns.net (77.74.56.10)
+ 31.052: innter.net INFO Parent glue for innter.net found: sns.innterdns.net (184.107.181.100)
+ 31.057: innter.net INFO Parent glue for innter.net found: tns.innterdns.net (213.203.233.110)
+ 33.919: innter.net INFO It is possible to build a referral packet for innter.net that works without EDNS0.
+ 33.919: innter.net INFO Done testing delegation for innter.net.
+ 33.920: innter.net INFO Begin testing name server pns.innterdns.net.
+ 33.920: innter.net INFO Begin testing host pns.innterdns.net.
+ 34.296: innter.net INFO Begin testing address 77.74.56.10.
+ 40.211: innter.net INFO Done testing address 77.74.56.10.
+ 40.211: innter.net INFO Done testing host pns.innterdns.net.
+ 40.743: innter.net INFO Name server pns.innterdns.net (77.74.56.10) answers queries over UDP.
+ 40.842: innter.net INFO Name server pns.innterdns.net (77.74.56.10) answers queries over TCP.
+ 40.906: innter.net INFO Name server pns.innterdns.net (77.74.56.10) is not recursive.
+ 41.114: innter.net INFO Name server pns.innterdns.net (77.74.56.10) authoritative for innter.net.
+ 41.339: innter.net INFO Name server pns.innterdns.net (77.74.56.10) closed for zone transfer of innter.net.
+ 41.473: innter.net INFO Legacy name server ID for pns.innterdns.net (77.74.56.10): version.bind = Innter.DNS
+ 41.561: innter.net NOTICE No answer received from 77.74.56.10 when querying for version.server/CH/TXT.
+ 41.561: innter.net INFO Done testing name server pns.innterdns.net.
+ 41.561: innter.net INFO Begin testing name server qns.innterdns.eu.
+ 41.562: innter.net INFO Begin testing host qns.innterdns.eu.
+ 41.980: innter.net INFO Begin testing address 92.46.175.65.
+ 43.642: innter.net INFO Done testing address 92.46.175.65.
+ 43.642: innter.net INFO Done testing host qns.innterdns.eu.
+ 44.045: innter.net INFO Name server qns.innterdns.eu (92.46.175.65) answers queries over UDP.
+ 44.201: innter.net INFO Name server qns.innterdns.eu (92.46.175.65) answers queries over TCP.
+ 44.289: innter.net INFO Name server qns.innterdns.eu (92.46.175.65) is not recursive.
+ 44.588: innter.net INFO Name server qns.innterdns.eu (92.46.175.65) authoritative for innter.net.
+ 44.888: innter.net INFO Name server qns.innterdns.eu (92.46.175.65) closed for zone transfer of innter.net.
+ 45.039: innter.net INFO Legacy name server ID for qns.innterdns.eu (92.46.175.65): version.bind = Innter.DNS
+ 45.186: innter.net NOTICE No answer received from 92.46.175.65 when querying for version.server/CH/TXT.
+ 45.186: innter.net INFO Done testing name server qns.innterdns.eu.
+ 45.186: innter.net INFO Begin testing name server rns.innterdns.asia.
+ 45.186: innter.net INFO Begin testing host rns.innterdns.asia.
+ 45.794: innter.net INFO Begin testing address 92.46.175.75.
+ 46.746: innter.net INFO Done testing address 92.46.175.75.
+ 46.746: innter.net INFO Done testing host rns.innterdns.asia.
+ 46.873: innter.net INFO Name server rns.innterdns.asia (92.46.175.75) answers queries over UDP.
+ 47.061: innter.net INFO Name server rns.innterdns.asia (92.46.175.75) answers queries over TCP.
+ 47.133: innter.net INFO Name server rns.innterdns.asia (92.46.175.75) is not recursive.
+ 47.461: innter.net INFO Name server rns.innterdns.asia (92.46.175.75) authoritative for innter.net.
+ 47.830: innter.net INFO Name server rns.innterdns.asia (92.46.175.75) closed for zone transfer of innter.net.
+ 47.981: innter.net INFO Legacy name server ID for rns.innterdns.asia (92.46.175.75): version.bind = Innter.DNS
+ 48.128: innter.net NOTICE No answer received from 92.46.175.75 when querying for version.server/CH/TXT.
+ 48.129: innter.net INFO Done testing name server rns.innterdns.asia.
+ 48.129: innter.net INFO Begin testing name server sns.innterdns.net.
+ 48.129: innter.net INFO Begin testing host sns.innterdns.net.
+ 48.595: innter.net INFO Begin testing address 92.46.175.70.
+ 49.835: innter.net INFO Done testing address 92.46.175.70.
+ 49.835: innter.net INFO Done testing host sns.innterdns.net.
+ 50.603: innter.net INFO Name server sns.innterdns.net (92.46.175.70) answers queries over UDP.
+ 50.781: innter.net INFO Name server sns.innterdns.net (92.46.175.70) answers queries over TCP.
+ 50.880: innter.net INFO Name server sns.innterdns.net (92.46.175.70) is not recursive.
+ 51.264: innter.net INFO Name server sns.innterdns.net (92.46.175.70) authoritative for innter.net.
+ 51.647: innter.net INFO Name server sns.innterdns.net (92.46.175.70) closed for zone transfer of innter.net.
+ 51.847: innter.net INFO Legacy name server ID for sns.innterdns.net (92.46.175.70): version.bind = Innter.DNS
+ 52.045: innter.net NOTICE No answer received from 92.46.175.70 when querying for version.server/CH/TXT.
+ 52.046: innter.net INFO Done testing name server sns.innterdns.net.
+ 52.046: innter.net INFO Begin testing name server tns.innterdns.net.
+ 52.047: innter.net INFO Begin testing host tns.innterdns.net.
+ 52.382: innter.net INFO Begin testing address 213.203.233.110.
+ 54.282: innter.net INFO Done testing address 213.203.233.110.
+ 54.282: innter.net INFO Done testing host tns.innterdns.net.
+ 54.849: innter.net INFO Name server tns.innterdns.net (213.203.233.110) answers queries over UDP.
+ 54.939: innter.net INFO Name server tns.innterdns.net (213.203.233.110) answers queries over TCP.
+ 54.999: innter.net INFO Name server tns.innterdns.net (213.203.233.110) is not recursive.
+ 55.181: innter.net INFO Name server tns.innterdns.net (213.203.233.110) authoritative for innter.net.
+ 55.405: innter.net INFO Name server tns.innterdns.net (213.203.233.110) closed for zone transfer of innter.net.
+ 55.503: innter.net INFO Legacy name server ID for tns.innterdns.net (213.203.233.110): version.bind = Innter.DNS
+ 55.594: innter.net NOTICE No answer received from 213.203.233.110 when querying for version.server/CH/TXT.
+ 55.594: innter.net INFO Done testing name server tns.innterdns.net.
+ 55.595: innter.net INFO Begin testing zone consistency for innter.net.
+ 59.461: innter.net INFO SOA at address 92.46.175.65 has serial 2007032748.
+ 59.561: innter.net INFO SOA at address 92.46.175.70 has serial 2007032748.
+ 59.606: innter.net INFO SOA at address 77.74.56.10 has serial 2007032748.
+ 59.688: innter.net INFO SOA at address 92.46.175.75 has serial 2007032748.
+ 59.733: innter.net INFO SOA at address 213.203.233.110 has serial 2007032748.
+ 59.733: innter.net INFO All SOA records have consistent serial numbers.
+ 59.733: innter.net INFO All other fields in the SOA record are consistent among all name servers.
+ 66.198: innter.net NOTICE The listed nameservers for innter.net all report the same set of nameservers.
+ 66.198: innter.net INFO Done testing zone consistency for innter.net.
+ 66.198: innter.net INFO Begin testing SOA parameters for innter.net.
+ 66.317: innter.net INFO Found SOA record for innter.net.
+ 66.317: innter.net INFO Begin testing host pns.innterdns.net.
+ 66.973: innter.net INFO Begin testing address 77.74.56.10.
+ 67.713: innter.net INFO Done testing address 77.74.56.10.
+ 67.713: innter.net INFO Done testing host pns.innterdns.net.
+ 67.713: innter.net INFO SOA MNAME for innter.net valid (pns.innterdns.net).
+ 67.714: innter.net INFO SOA MNAME for innter.net (pns.innterdns.net) listed as NS.
+ 68.749: innter.net INFO SOA MNAME for innter.net (pns.innterdns.net) is authoritative.
+ 68.749: innter.net INFO Begin testing email address hostmaster@innter.net.
+ 69.429: innter.net INFO Mail exchangers for hostmaster@innter.net found mail.innter.net.
+ 69.429: innter.net INFO All mail servers for hostmaster@innter.net are in zone innter.net.
+ 69.429: innter.net INFO Begin testing host mail.innter.net.
+ 70.909: innter.net INFO Begin testing address 77.74.56.40.
+ 72.265: innter.net INFO Done testing address 77.74.56.40.
+ 72.265: innter.net INFO Begin testing address 77.74.56.41.
+ 74.204: innter.net INFO Done testing address 77.74.56.41.
+ 74.204: innter.net INFO Done testing host mail.innter.net.
+ 74.929: innter.net INFO Done testing email address hostmaster@innter.net.
+ 74.929: innter.net INFO Successful attempt to deliver email for SOA RNAME of innter.net (hostmaster.innter.net) using hostmaster@innter.net.
+ 74.929: innter.net INFO SOA TTL for innter.net OK (86400) - recommended >= 3600.
+ 74.930: innter.net NOTICE SOA refresh for innter.net too small (10800) - recommended >= 14400.
+ 74.930: innter.net INFO SOA retry for innter.net OK (3600) - recommended >= 3600.
+ 74.930: innter.net INFO SOA expire for innter.net OK (604800) - recommended >= 604800.
+ 74.930: innter.net INFO SOA minimum for innter.net OK (86400) - recommended between 300 and 86400.
+ 74.930: innter.net INFO Done testing SOA parameters for innter.net.
+ 74.930: innter.net INFO Begin testing connectivity for innter.net.
+ 79.324: innter.net INFO Zone announced by more than one ASN.
+ 79.324: innter.net NOTICE Zone announced by fewer than two IPv6 ASN.
+ 79.345: innter.net INFO Done testing connectivity for innter.net.
+ 79.346: innter.net INFO Begin testing DNSSEC for innter.net.
+ 79.697: innter.net INFO Did not find DS record for innter.net at parent.
+ 80.444: innter.net INFO Servers for innter.net have consistent extra processing status.
+ 80.527: innter.net INFO Authenticated denial records not found for innter.net.
+ 80.593: innter.net INFO Did not find DNSKEY record for innter.net at child.
+ 80.593: innter.net INFO No DNSKEY(s) found at child, other tests skipped.
+ 80.594: innter.net INFO Done testing DNSSEC for innter.net.
+ 80.594: innter.net INFO Test completed for zone innter.net.

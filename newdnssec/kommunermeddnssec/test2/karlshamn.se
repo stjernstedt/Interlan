@@ -1,0 +1,130 @@
+  0.000: karlshamn.se INFO Begin testing zone karlshamn.se with version 1.2.
+  0.000: karlshamn.se INFO Begin testing delegation for karlshamn.se.
+  5.131: karlshamn.se INFO Name servers listed at parent: a.dns.tdc.se,b.dns.tdc.se,ns.karlshamn.se
+  7.158: karlshamn.se INFO Name servers listed at child: a.dns.tdc.se,b.dns.tdc.se,ns.karlshamn.se,ns.utb.karlshamn.se
+  7.158: karlshamn.se NOTICE Additional name server listed at child: ns.utb.karlshamn.se
+  7.158: karlshamn.se NOTICE No IPv6 name servers found.
+  7.177: karlshamn.se INFO Parent glue for karlshamn.se found: a.dns.tdc.se (213.50.29.190)
+  7.238: karlshamn.se INFO Parent glue for karlshamn.se found: b.dns.tdc.se (213.50.29.195)
+  7.322: karlshamn.se INFO Parent glue for karlshamn.se found: ns.karlshamn.se (195.84.86.26)
+  7.401: karlshamn.se INFO Checking glue for a.dns.tdc.se (213.50.29.190).
+  7.401: karlshamn.se INFO Checking glue for b.dns.tdc.se (213.50.29.195).
+  7.401: karlshamn.se INFO Checking glue for ns.karlshamn.se (195.84.86.26).
+  7.411: karlshamn.se INFO Child glue for karlshamn.se found: ns.karlshamn.se (195.84.86.26)
+  7.412: karlshamn.se INFO Parent glue for karlshamn.se found: a.dns.tdc.se (213.50.29.190)
+  7.412: karlshamn.se INFO Parent glue for karlshamn.se found: b.dns.tdc.se (213.50.29.195)
+  7.412: karlshamn.se INFO Parent glue for karlshamn.se found: ns.karlshamn.se (195.84.86.26)
+  7.413: karlshamn.se INFO Done testing delegation for karlshamn.se.
+  7.414: karlshamn.se INFO Begin testing name server a.dns.tdc.se.
+  7.415: karlshamn.se INFO Begin testing host a.dns.tdc.se.
+  7.415: karlshamn.se INFO Begin testing address 213.50.29.190.
+ 11.538: karlshamn.se INFO Done testing address 213.50.29.190.
+ 11.538: karlshamn.se INFO Done testing host a.dns.tdc.se.
+ 11.548: karlshamn.se INFO Name server a.dns.tdc.se (213.50.29.190) answers queries over UDP.
+ 11.562: karlshamn.se INFO Name server a.dns.tdc.se (213.50.29.190) answers queries over TCP.
+ 11.569: karlshamn.se INFO Name server a.dns.tdc.se (213.50.29.190) is not recursive.
+ 11.578: karlshamn.se INFO Name server a.dns.tdc.se (213.50.29.190) authoritative for karlshamn.se.
+ 11.593: karlshamn.se INFO Name server a.dns.tdc.se (213.50.29.190) closed for zone transfer of karlshamn.se.
+ 11.602: karlshamn.se INFO Legacy name server ID for a.dns.tdc.se (213.50.29.190): hostname.bind = a
+ 11.610: karlshamn.se INFO Legacy name server ID for a.dns.tdc.se (213.50.29.190): version.bind = tssk, well what can i say?
+ 11.624: karlshamn.se NOTICE No answer received from 213.50.29.190 when querying for version.server/CH/TXT.
+ 11.624: karlshamn.se INFO Done testing name server a.dns.tdc.se.
+ 11.624: karlshamn.se INFO Begin testing name server b.dns.tdc.se.
+ 11.624: karlshamn.se INFO Begin testing host b.dns.tdc.se.
+ 11.624: karlshamn.se INFO Begin testing address 213.50.29.195.
+ 11.953: karlshamn.se INFO Done testing address 213.50.29.195.
+ 11.954: karlshamn.se INFO Done testing host b.dns.tdc.se.
+ 11.964: karlshamn.se INFO Name server b.dns.tdc.se (213.50.29.195) answers queries over UDP.
+ 11.977: karlshamn.se INFO Name server b.dns.tdc.se (213.50.29.195) answers queries over TCP.
+ 11.983: karlshamn.se INFO Name server b.dns.tdc.se (213.50.29.195) is not recursive.
+ 11.992: karlshamn.se INFO Name server b.dns.tdc.se (213.50.29.195) authoritative for karlshamn.se.
+ 12.005: karlshamn.se INFO Name server b.dns.tdc.se (213.50.29.195) closed for zone transfer of karlshamn.se.
+ 12.011: karlshamn.se INFO Legacy name server ID for b.dns.tdc.se (213.50.29.195): hostname.bind = b
+ 12.018: karlshamn.se INFO Legacy name server ID for b.dns.tdc.se (213.50.29.195): version.bind = tssk, well what can i say?
+ 12.031: karlshamn.se NOTICE No answer received from 213.50.29.195 when querying for version.server/CH/TXT.
+ 12.031: karlshamn.se INFO Done testing name server b.dns.tdc.se.
+ 12.031: karlshamn.se INFO Begin testing name server ns.karlshamn.se.
+ 12.031: karlshamn.se INFO Begin testing host ns.karlshamn.se.
+ 12.032: karlshamn.se INFO Begin testing address 195.84.86.26.
+ 12.619: karlshamn.se WARNING Could not find reverse address for 195.84.86.26 (26.86.84.195.in-addr.arpa.).
+ 12.619: karlshamn.se INFO Done testing address 195.84.86.26.
+ 12.619: karlshamn.se INFO Done testing host ns.karlshamn.se.
+ 12.638: karlshamn.se INFO Name server ns.karlshamn.se (195.84.86.26) answers queries over UDP.
+ 12.670: karlshamn.se INFO Name server ns.karlshamn.se (195.84.86.26) answers queries over TCP.
+ 18.669: karlshamn.se INFO Name server ns.karlshamn.se (195.84.86.26) is not recursive.
+ 18.687: karlshamn.se INFO Name server ns.karlshamn.se (195.84.86.26) authoritative for karlshamn.se.
+ 18.945: karlshamn.se INFO Name server ns.karlshamn.se (195.84.86.26) closed for zone transfer of karlshamn.se.
+ 18.962: karlshamn.se NOTICE No answer received from 195.84.86.26 when querying for hostname.bind/CH/TXT.
+ 36.993: karlshamn.se INFO Done testing name server ns.karlshamn.se.
+ 36.993: karlshamn.se INFO Begin testing name server ns.utb.karlshamn.se.
+ 36.994: karlshamn.se INFO Begin testing host ns.utb.karlshamn.se.
+ 36.994: karlshamn.se INFO Begin testing address 195.84.86.137.
+ 37.279: karlshamn.se WARNING Could not find reverse address for 195.84.86.137 (137.86.84.195.in-addr.arpa.).
+ 37.280: karlshamn.se INFO Done testing address 195.84.86.137.
+ 37.280: karlshamn.se INFO Done testing host ns.utb.karlshamn.se.
+ 37.298: karlshamn.se INFO Name server ns.utb.karlshamn.se (195.84.86.137) answers queries over UDP.
+ 37.523: karlshamn.se INFO Name server ns.utb.karlshamn.se (195.84.86.137) answers queries over TCP.
+ 43.529: karlshamn.se INFO Name server ns.utb.karlshamn.se (195.84.86.137) is not recursive.
+ 43.549: karlshamn.se INFO Name server ns.utb.karlshamn.se (195.84.86.137) authoritative for karlshamn.se.
+ 43.806: karlshamn.se INFO Name server ns.utb.karlshamn.se (195.84.86.137) closed for zone transfer of karlshamn.se.
+ 67.841: karlshamn.se INFO Done testing name server ns.utb.karlshamn.se.
+ 67.842: karlshamn.se INFO Begin testing zone consistency for karlshamn.se.
+ 67.865: karlshamn.se INFO SOA at address 195.84.86.137 has serial 2010111244.
+ 67.878: karlshamn.se INFO SOA at address 213.50.29.195 has serial 2010111244.
+ 67.902: karlshamn.se INFO SOA at address 195.84.86.26 has serial 2010111244.
+ 67.911: karlshamn.se INFO SOA at address 213.50.29.190 has serial 2010111244.
+ 67.911: karlshamn.se INFO All SOA records have consistent serial numbers.
+ 67.911: karlshamn.se INFO All SOA records are consistent among all name servers.
+ 67.911: karlshamn.se INFO Done testing zone consistency for karlshamn.se.
+ 67.911: karlshamn.se INFO Begin testing SOA parameters for karlshamn.se.
+ 67.920: karlshamn.se INFO Found SOA record for karlshamn.se.
+ 67.921: karlshamn.se INFO Begin testing host ns.karlshamn.se.
+ 67.921: karlshamn.se INFO Begin testing address 195.84.86.26.
+ 67.922: karlshamn.se WARNING Could not find reverse address for 195.84.86.26 (26.86.84.195.in-addr.arpa.).
+ 67.922: karlshamn.se INFO Done testing address 195.84.86.26.
+ 67.922: karlshamn.se INFO Done testing host ns.karlshamn.se.
+ 67.922: karlshamn.se INFO SOA MNAME for karlshamn.se valid (ns.karlshamn.se).
+ 67.923: karlshamn.se INFO SOA MNAME for karlshamn.se (ns.karlshamn.se) listed as NS.
+ 67.941: karlshamn.se INFO SOA MNAME for karlshamn.se (ns.karlshamn.se) is authoritative.
+ 67.941: karlshamn.se INFO Begin testing email address hostmaster@karlshamn.se.
+ 68.165: karlshamn.se INFO Mail exchangers for hostmaster@karlshamn.se found mail.karlshamn.se,relay.tdc.se.
+ 68.165: karlshamn.se INFO Begin testing host mail.karlshamn.se.
+ 68.626: karlshamn.se INFO Begin testing address 195.84.86.25.
+ 69.175: karlshamn.se WARNING Could not find reverse address for 195.84.86.25 (25.86.84.195.in-addr.arpa.).
+ 69.176: karlshamn.se INFO Done testing address 195.84.86.25.
+ 69.176: karlshamn.se INFO Done testing host mail.karlshamn.se.
+ 69.176: karlshamn.se INFO Begin testing mail server mail.karlshamn.se (195.84.86.25) with hostmaster@karlshamn.se.
+ 69.895: karlshamn.se INFO SMTP banner: karlshamn.se [ESMTP Server] service ready;mail.karlshamn.se
+ 69.970: karlshamn.se INFO SMTP testing of mail.karlshamn.se (195.84.86.25) with hostmaster@karlshamn.se succeeded without errors.
+ 69.971: karlshamn.se INFO Done testing mail server mail.karlshamn.se (195.84.86.25) with hostmaster@karlshamn.se.
+ 69.971: karlshamn.se INFO Begin testing host relay.tdc.se.
+ 70.466: karlshamn.se INFO Begin testing address 195.42.198.23.
+ 82.362: karlshamn.se INFO Done testing address 195.42.198.23.
+ 82.362: karlshamn.se INFO Done testing host relay.tdc.se.
+ 82.362: karlshamn.se INFO Delivery over IPv4 to hostmaster@karlshamn.se ok.
+ 82.363: karlshamn.se INFO Delivery over IPv6 to hostmaster@karlshamn.se could not be done.
+ 82.363: karlshamn.se INFO Done testing email address hostmaster@karlshamn.se.
+ 82.363: karlshamn.se INFO Successful attempt to deliver email for SOA RNAME of karlshamn.se (hostmaster.karlshamn.se) using hostmaster@karlshamn.se.
+ 82.363: karlshamn.se INFO SOA TTL for karlshamn.se OK (3600) - recommended >= 3600.
+ 82.363: karlshamn.se INFO SOA refresh for karlshamn.se OK (14400) - recommended >= 14400.
+ 82.363: karlshamn.se INFO SOA retry for karlshamn.se OK (3600) - recommended >= 3600.
+ 82.363: karlshamn.se INFO SOA expire for karlshamn.se OK (604800) - recommended >= 604800.
+ 82.363: karlshamn.se INFO SOA minimum for karlshamn.se OK (3600) - recommended between 300 and 86400.
+ 82.363: karlshamn.se INFO Done testing SOA parameters for karlshamn.se.
+ 82.363: karlshamn.se INFO Begin testing connectivity for karlshamn.se.
+ 83.041: karlshamn.se INFO Name server 213.50.29.195 announced by: 3292
+ 83.575: karlshamn.se INFO Name server 195.84.86.26 announced by: 3292
+ 84.164: karlshamn.se INFO Name server 195.84.86.137 announced by: 3292
+ 84.781: karlshamn.se INFO Name server 213.50.29.190 announced by: 3292
+ 84.781: karlshamn.se INFO Zone announced by IPv4 ASN: 3292
+ 84.781: karlshamn.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 84.781: karlshamn.se INFO Zone announced by IPv6 ASN: 
+ 84.781: karlshamn.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 84.781: karlshamn.se INFO Done testing connectivity for karlshamn.se.
+ 84.781: karlshamn.se INFO Begin testing DNSSEC for karlshamn.se.
+ 84.798: karlshamn.se INFO Did not find DS record for karlshamn.se at parent.
+ 84.888: karlshamn.se INFO Servers for karlshamn.se have consistent extra processing status.
+ 84.888: karlshamn.se INFO Did not find DNSKEY record for karlshamn.se at child.
+ 84.888: karlshamn.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 84.888: karlshamn.se INFO Done testing DNSSEC for karlshamn.se.
+ 84.888: karlshamn.se INFO Test completed for zone karlshamn.se.

@@ -1,0 +1,166 @@
+  0.000: liperi.fi INFO Begin testing zone liperi.fi with version 1.6.1.
+  0.404: liperi.fi INFO Begin testing delegation for liperi.fi.
+ 10.323: liperi.fi INFO Name servers listed at parent: ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 14.184: liperi.fi INFO Name servers listed at child: ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 14.252: liperi.fi INFO Parent glue for liperi.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+ 14.319: liperi.fi INFO Parent glue for liperi.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+ 14.363: liperi.fi INFO Parent glue for liperi.fi found: ns1-swe.global.sonera.se (80.64.9.124)
+ 14.495: liperi.fi INFO Parent glue for liperi.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+ 14.559: liperi.fi INFO Parent glue for liperi.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+ 14.734: liperi.fi INFO Checking glue for ns1-fin.global.sonera.fi (193.210.18.31).
+ 14.734: liperi.fi INFO Checking glue for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53).
+ 14.734: liperi.fi INFO Checking glue for ns1-swe.global.sonera.se (80.64.9.124).
+ 14.734: liperi.fi INFO Checking glue for ns2-fin.global.sonera.fi (195.156.148.158).
+ 14.734: liperi.fi INFO Checking glue for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53).
+ 14.734: liperi.fi INFO Parent glue for liperi.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+ 14.735: liperi.fi INFO Parent glue for liperi.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+ 14.735: liperi.fi INFO Parent glue for liperi.fi found: ns1-swe.global.sonera.se (80.64.9.124)
+ 14.735: liperi.fi INFO Parent glue for liperi.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+ 14.735: liperi.fi INFO Parent glue for liperi.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+ 15.724: liperi.fi INFO It is possible to build a referral packet for liperi.fi that works without EDNS0.
+ 16.026: liperi.fi INFO Previously used name servers for liperi.fi: 
+ 16.026: liperi.fi INFO Done testing delegation for liperi.fi.
+ 16.026: liperi.fi INFO Begin testing name server ns1-fin.global.sonera.fi.
+ 16.027: liperi.fi INFO Begin testing host ns1-fin.global.sonera.fi.
+ 16.027: liperi.fi INFO Begin testing address 193.210.18.31.
+ 24.338: liperi.fi INFO Done testing address 193.210.18.31.
+ 24.339: liperi.fi INFO Begin testing address 2001:2060:ffdd:a01:0:0:0:53.
+ 26.530: liperi.fi INFO Done testing address 2001:2060:ffdd:a01:0:0:0:53.
+ 26.530: liperi.fi INFO Done testing host ns1-fin.global.sonera.fi.
+ 26.592: liperi.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over UDP.
+ 26.698: liperi.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over TCP.
+ 26.770: liperi.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) is not recursive.
+ 27.002: liperi.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) authoritative for liperi.fi.
+ 27.050: liperi.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) closed for zone transfer of liperi.fi.
+ 27.085: liperi.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): hostname.bind = mgda1
+ 27.130: liperi.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): version.bind = TeliaSonera Finland DNS MGDA
+ 27.156: liperi.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): id.server = mgda1
+ 27.213: liperi.fi NOTICE No answer received from 193.210.18.31 when querying for version.server/CH/TXT.
+ 27.323: liperi.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) answers queries over UDP.
+ 27.472: liperi.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) answers queries over TCP.
+ 27.537: liperi.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) is not recursive.
+ 27.855: liperi.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) authoritative for liperi.fi.
+ 28.012: liperi.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) closed for zone transfer of liperi.fi.
+ 28.062: liperi.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): hostname.bind = mgda1
+ 28.106: liperi.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+ 28.148: liperi.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): id.server = mgda1
+ 28.225: liperi.fi NOTICE No answer received from 2001:2060:ffdd:a01:0:0:0:53 when querying for version.server/CH/TXT.
+ 28.226: liperi.fi INFO Done testing name server ns1-fin.global.sonera.fi.
+ 28.226: liperi.fi INFO Begin testing name server ns1-swe.global.sonera.se.
+ 28.226: liperi.fi INFO Begin testing host ns1-swe.global.sonera.se.
+ 28.227: liperi.fi INFO Begin testing address 80.64.9.124.
+ 29.255: liperi.fi INFO Done testing address 80.64.9.124.
+ 29.255: liperi.fi INFO Begin testing address 2001:6e8:400:ffff:1:0:0:53.
+ 29.862: liperi.fi INFO Done testing address 2001:6e8:400:ffff:1:0:0:53.
+ 29.862: liperi.fi INFO Done testing host ns1-swe.global.sonera.se.
+ 29.911: liperi.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over UDP.
+ 29.985: liperi.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over TCP.
+ 30.003: liperi.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) is not recursive.
+ 30.197: liperi.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) authoritative for liperi.fi.
+ 30.274: liperi.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) closed for zone transfer of liperi.fi.
+ 30.306: liperi.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): hostname.bind = mgda3
+ 30.326: liperi.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): version.bind = TeliaSonera Finland DNS MGDA
+ 30.349: liperi.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): id.server = mgda3
+ 30.377: liperi.fi NOTICE No answer received from 80.64.9.124 when querying for version.server/CH/TXT.
+ 30.427: liperi.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over UDP.
+ 30.474: liperi.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over TCP.
+ 30.524: liperi.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) is not recursive.
+ 30.754: liperi.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) authoritative for liperi.fi.
+ 30.832: liperi.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) closed for zone transfer of liperi.fi.
+ 30.877: liperi.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): hostname.bind = mgda3
+ 30.910: liperi.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+ 30.944: liperi.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): id.server = mgda3
+ 30.984: liperi.fi NOTICE No answer received from 2001:6e8:400:ffff:1:0:0:53 when querying for version.server/CH/TXT.
+ 30.984: liperi.fi INFO Done testing name server ns1-swe.global.sonera.se.
+ 30.984: liperi.fi INFO Begin testing name server ns2-fin.global.sonera.fi.
+ 30.984: liperi.fi INFO Begin testing host ns2-fin.global.sonera.fi.
+ 30.985: liperi.fi INFO Begin testing address 195.156.148.158.
+ 31.425: liperi.fi INFO Done testing address 195.156.148.158.
+ 31.425: liperi.fi INFO Begin testing address 2001:2060:ffdd:a02:0:0:0:53.
+ 31.852: liperi.fi INFO Done testing address 2001:2060:ffdd:a02:0:0:0:53.
+ 31.852: liperi.fi INFO Done testing host ns2-fin.global.sonera.fi.
+ 31.958: liperi.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over UDP.
+ 32.008: liperi.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over TCP.
+ 32.082: liperi.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) is not recursive.
+ 32.283: liperi.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) authoritative for liperi.fi.
+ 32.363: liperi.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) closed for zone transfer of liperi.fi.
+ 32.393: liperi.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): hostname.bind = mgda1
+ 32.423: liperi.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): version.bind = TeliaSonera Finland DNS MGDA
+ 32.438: liperi.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): id.server = mgda1
+ 32.473: liperi.fi NOTICE No answer received from 195.156.148.158 when querying for version.server/CH/TXT.
+ 32.535: liperi.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) answers queries over UDP.
+ 32.620: liperi.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) answers queries over TCP.
+ 36.673: liperi.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) is not recursive.
+ 36.894: liperi.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) authoritative for liperi.fi.
+ 37.109: liperi.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) closed for zone transfer of liperi.fi.
+ 37.154: liperi.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): hostname.bind = mgda1
+ 37.197: liperi.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+ 37.237: liperi.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): id.server = mgda1
+ 37.281: liperi.fi NOTICE No answer received from 2001:2060:ffdd:a02:0:0:0:53 when querying for version.server/CH/TXT.
+ 37.282: liperi.fi INFO Done testing name server ns2-fin.global.sonera.fi.
+ 37.282: liperi.fi INFO Begin testing name server ns2-usa.global.sonera.net.
+ 37.282: liperi.fi INFO Begin testing host ns2-usa.global.sonera.net.
+ 37.562: liperi.fi INFO Begin testing address 46.38.190.56.
+ 38.770: liperi.fi INFO Done testing address 46.38.190.56.
+ 38.770: liperi.fi INFO Done testing host ns2-usa.global.sonera.net.
+ 39.081: liperi.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over UDP.
+ 39.183: liperi.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over TCP.
+ 39.237: liperi.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) is not recursive.
+ 39.461: liperi.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) authoritative for liperi.fi.
+ 39.609: liperi.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) closed for zone transfer of liperi.fi.
+ 39.662: liperi.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): hostname.bind = mgda5
+ 39.714: liperi.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): version.bind = TeliaSonera Finland DNS MGDA
+ 39.766: liperi.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): id.server = mgda5
+ 39.818: liperi.fi NOTICE No answer received from 46.38.190.56 when querying for version.server/CH/TXT.
+ 39.818: liperi.fi INFO Done testing name server ns2-usa.global.sonera.net.
+ 39.818: liperi.fi INFO Begin testing zone consistency for liperi.fi.
+ 40.333: liperi.fi INFO SOA at address 2001:2060:ffdd:a01:0:0:0:53 has serial 2014012014.
+ 40.356: liperi.fi INFO SOA at address 193.210.18.31 has serial 2014012014.
+ 40.373: liperi.fi INFO SOA at address 80.64.9.124 has serial 2014012014.
+ 40.393: liperi.fi INFO SOA at address 195.156.148.158 has serial 2014012014.
+ 40.417: liperi.fi INFO SOA at address 2001:6e8:400:ffff:1:0:0:53 has serial 2014012014.
+ 40.481: liperi.fi INFO SOA at address 46.38.190.56 has serial 2014012014.
+ 40.526: liperi.fi INFO SOA at address 2001:2060:ffdd:a02:0:0:0:53 has serial 2014012014.
+ 40.526: liperi.fi INFO All SOA records have consistent serial numbers.
+ 40.526: liperi.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 40.883: liperi.fi NOTICE The listed nameservers for liperi.fi all report the same set of nameservers.
+ 40.883: liperi.fi INFO Done testing zone consistency for liperi.fi.
+ 40.884: liperi.fi INFO Begin testing SOA parameters for liperi.fi.
+ 40.902: liperi.fi INFO Found SOA record for liperi.fi.
+ 40.902: liperi.fi INFO Begin testing host namesurfer.inet.fi.
+ 41.268: liperi.fi INFO Begin testing address 131.177.73.253.
+ 45.036: liperi.fi INFO Done testing address 131.177.73.253.
+ 45.036: liperi.fi INFO Done testing host namesurfer.inet.fi.
+ 45.036: liperi.fi INFO SOA MNAME for liperi.fi valid (namesurfer.inet.fi).
+ 45.037: liperi.fi NOTICE SOA MNAME for liperi.fi (namesurfer.inet.fi) not listed as NS.
+ 49.221: liperi.fi INFO SOA MNAME for liperi.fi (namesurfer.inet.fi) is authoritative.
+ 49.222: liperi.fi INFO Begin testing email address hostmaster@sonera.com.
+ 49.337: liperi.fi INFO Mail exchangers for hostmaster@sonera.com found smtp.dave.sonera.fi,mail.cm.sonera.com.
+ 49.337: liperi.fi INFO Begin testing host smtp.dave.sonera.fi.
+ 49.687: liperi.fi INFO Begin testing address 131.177.120.25.
+ 50.243: liperi.fi INFO Done testing address 131.177.120.25.
+ 50.243: liperi.fi INFO Done testing host smtp.dave.sonera.fi.
+ 50.388: liperi.fi INFO Begin testing host mail.cm.sonera.com.
+ 50.922: liperi.fi INFO Begin testing address 193.208.151.61.
+ 51.645: liperi.fi INFO Done testing address 193.208.151.61.
+ 51.645: liperi.fi INFO Done testing host mail.cm.sonera.com.
+ 51.874: liperi.fi INFO Done testing email address hostmaster@sonera.com.
+ 51.874: liperi.fi INFO Successful attempt to deliver email for SOA RNAME of liperi.fi (hostmaster.sonera.com) using hostmaster@sonera.com.
+ 51.874: liperi.fi INFO SOA TTL for liperi.fi OK (86400) - recommended >= 3600.
+ 51.874: liperi.fi INFO SOA refresh for liperi.fi OK (28800) - recommended >= 14400.
+ 51.874: liperi.fi INFO SOA retry for liperi.fi OK (7200) - recommended >= 3600.
+ 51.874: liperi.fi INFO SOA expire for liperi.fi OK (604800) - recommended >= 604800.
+ 51.874: liperi.fi INFO SOA minimum for liperi.fi OK (3600) - recommended between 300 and 86400.
+ 51.874: liperi.fi INFO Done testing SOA parameters for liperi.fi.
+ 51.875: liperi.fi INFO Begin testing connectivity for liperi.fi.
+ 53.960: liperi.fi INFO Zone announced by more than one ASN.
+ 55.486: liperi.fi INFO Zone announced by more than one IPv6 ASN.
+ 55.486: liperi.fi INFO Done testing connectivity for liperi.fi.
+ 55.486: liperi.fi INFO Begin testing DNSSEC for liperi.fi.
+ 55.713: liperi.fi INFO Did not find DS record for liperi.fi at parent.
+ 56.093: liperi.fi INFO Servers for liperi.fi have consistent extra processing status.
+ 56.119: liperi.fi INFO Authenticated denial records not found for liperi.fi.
+ 56.135: liperi.fi INFO Did not find DNSKEY record for liperi.fi at child.
+ 56.135: liperi.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 56.135: liperi.fi INFO Done testing DNSSEC for liperi.fi.
+ 56.136: liperi.fi INFO Test completed for zone liperi.fi.

@@ -1,0 +1,2 @@
+
+rrdtool create ipv6.rrd --start -30days --step 300 DS:ipv6:GAUGE:300:0:500 RRA:LAST:0.1:1:1000

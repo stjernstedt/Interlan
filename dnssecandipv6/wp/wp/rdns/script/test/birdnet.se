@@ -1,0 +1,91 @@
+  0.000: birdnet.se INFO Begin testing zone birdnet.se with version 1.0.1.
+  0.000: birdnet.se INFO Begin testing delegation for birdnet.se.
+  0.817: birdnet.se INFO Name servers listed at parent: ns.birdnet.se,ns2.birdnet.se
+  0.914: birdnet.se INFO Name servers listed at child: ns.birdnet.se,ns2.birdnet.se
+  0.914: birdnet.se NOTICE No IPv6 name servers found.
+  0.923: birdnet.se INFO Parent glue for birdnet.se found: ns.birdnet.se (213.88.146.1)
+  0.939: birdnet.se INFO Parent glue for birdnet.se found: ns2.birdnet.se (213.88.146.2)
+  0.947: birdnet.se INFO Checking glue for ns.birdnet.se (213.88.146.1).
+  0.964: birdnet.se INFO Child glue for birdnet.se found: ns.birdnet.se (213.88.146.1)
+  0.964: birdnet.se INFO Checking glue for ns2.birdnet.se (213.88.146.2).
+  0.980: birdnet.se INFO Child glue for birdnet.se found: ns2.birdnet.se (213.88.146.2)
+  0.980: birdnet.se INFO Done testing delegation for birdnet.se.
+  0.981: birdnet.se INFO Begin testing name server ns.birdnet.se.
+  0.981: birdnet.se INFO Begin testing host ns.birdnet.se.
+  0.981: birdnet.se INFO Begin testing address 213.88.146.1.
+  4.065: birdnet.se INFO Done testing address 213.88.146.1.
+  4.066: birdnet.se INFO Done testing host ns.birdnet.se.
+ 10.067: birdnet.se INFO Name server ns.birdnet.se (213.88.146.1) is not recursive.
+ 10.085: birdnet.se INFO Name server ns.birdnet.se (213.88.146.1) authoritative for birdnet.se.
+ 10.106: birdnet.se INFO Name server ns.birdnet.se (213.88.146.1) answers queries over UDP.
+ 10.136: birdnet.se NOTICE DNS lookup error (unknown error or no error).
+ 10.136: birdnet.se ERROR Name server ns.birdnet.se (213.88.146.1) does not answer queries over TCP.
+ 10.136: birdnet.se INFO Name server ns.birdnet.se (213.88.146.1) not checked for zone transfer of birdnet.se.
+ 10.136: birdnet.se INFO Name server ns.birdnet.se (213.88.146.1) not checked for legacy name server ID.
+ 10.136: birdnet.se INFO Done testing name server ns.birdnet.se.
+ 10.136: birdnet.se INFO Begin testing name server ns2.birdnet.se.
+ 10.137: birdnet.se INFO Begin testing host ns2.birdnet.se.
+ 10.137: birdnet.se INFO Begin testing address 213.88.146.2.
+ 10.225: birdnet.se INFO Done testing address 213.88.146.2.
+ 10.225: birdnet.se INFO Done testing host ns2.birdnet.se.
+ 16.227: birdnet.se INFO Name server ns2.birdnet.se (213.88.146.2) is not recursive.
+ 16.245: birdnet.se INFO Name server ns2.birdnet.se (213.88.146.2) authoritative for birdnet.se.
+ 16.263: birdnet.se INFO Name server ns2.birdnet.se (213.88.146.2) answers queries over UDP.
+ 16.279: birdnet.se NOTICE DNS lookup error (connection failed).
+ 16.279: birdnet.se ERROR Name server ns2.birdnet.se (213.88.146.2) does not answer queries over TCP.
+ 16.279: birdnet.se INFO Name server ns2.birdnet.se (213.88.146.2) not checked for zone transfer of birdnet.se.
+ 16.279: birdnet.se INFO Name server ns2.birdnet.se (213.88.146.2) not checked for legacy name server ID.
+ 16.279: birdnet.se INFO Done testing name server ns2.birdnet.se.
+ 16.279: birdnet.se INFO Begin testing zone consistency for birdnet.se.
+ 16.300: birdnet.se INFO SOA at address 213.88.146.2 has serial 1280840488.
+ 16.317: birdnet.se INFO SOA at address 213.88.146.1 has serial 1280840488.
+ 16.318: birdnet.se INFO All SOA records have consistent serial numbers.
+ 16.318: birdnet.se INFO All SOA records are consistent among all name servers.
+ 16.318: birdnet.se INFO Done testing zone consistency for birdnet.se.
+ 16.318: birdnet.se INFO Begin testing SOA parameters for birdnet.se.
+ 16.334: birdnet.se INFO Found SOA record for birdnet.se.
+ 16.334: birdnet.se INFO Begin testing host ns.birdnet.se.
+ 16.335: birdnet.se INFO Begin testing address 213.88.146.1.
+ 16.336: birdnet.se INFO Done testing address 213.88.146.1.
+ 16.336: birdnet.se INFO Done testing host ns.birdnet.se.
+ 16.336: birdnet.se INFO SOA MNAME for birdnet.se valid (ns.birdnet.se).
+ 16.336: birdnet.se INFO SOA MNAME for birdnet.se (ns.birdnet.se) listed as NS.
+ 16.354: birdnet.se INFO SOA MNAME for birdnet.se (ns.birdnet.se) is authoritative.
+ 16.355: birdnet.se INFO Begin testing email address hostmaster@birdnet.se.
+ 16.373: birdnet.se INFO Mail exchangers for hostmaster@birdnet.se found mail.birdnet.se.
+ 16.373: birdnet.se INFO All mail servers for hostmaster@birdnet.se are in zone birdnet.se.
+ 16.374: birdnet.se INFO Begin testing host mail.birdnet.se.
+ 16.404: birdnet.se INFO Begin testing address 213.88.146.4.
+ 16.486: birdnet.se INFO Done testing address 213.88.146.4.
+ 16.486: birdnet.se INFO Done testing host mail.birdnet.se.
+ 16.486: birdnet.se INFO Begin testing mail server mail.birdnet.se (213.88.146.4) with hostmaster@birdnet.se.
+ 16.529: birdnet.se INFO SMTP banner: filip.birdnet.se ESMTP
+ 16.595: birdnet.se INFO SMTP testing of mail.birdnet.se (213.88.146.4) with hostmaster@birdnet.se succeeded without errors.
+ 16.595: birdnet.se INFO Done testing mail server mail.birdnet.se (213.88.146.4) with hostmaster@birdnet.se.
+ 16.596: birdnet.se INFO Delivery over IPv4 to hostmaster@birdnet.se ok.
+ 16.596: birdnet.se INFO Delivery over IPv6 to hostmaster@birdnet.se could not be done.
+ 16.596: birdnet.se INFO Done testing email address hostmaster@birdnet.se.
+ 16.596: birdnet.se INFO Successful attempt to deliver email for SOA RNAME of birdnet.se (hostmaster.birdnet.se) using hostmaster@birdnet.se.
+ 16.596: birdnet.se NOTICE SOA TTL for birdnet.se too small (2560) - recommended >= 3600.
+ 16.596: birdnet.se INFO SOA refresh for birdnet.se OK (16384) - recommended >= 14400.
+ 16.596: birdnet.se NOTICE SOA retry for birdnet.se too small (2048) - recommended >= 3600.
+ 16.596: birdnet.se INFO SOA expire for birdnet.se OK (1048576) - recommended >= 604800.
+ 16.596: birdnet.se INFO SOA minimum for birdnet.se OK (2560) - recommended between 300 and 86400.
+ 16.596: birdnet.se INFO Done testing SOA parameters for birdnet.se.
+ 16.597: birdnet.se INFO Begin testing connectivity for birdnet.se.
+ 17.145: birdnet.se INFO Name server 213.88.146.1 announced by: 3292
+ 17.270: birdnet.se INFO Name server 213.88.146.2 announced by: 3292
+ 17.270: birdnet.se INFO Zone announced by ASN: 3292
+ 17.270: birdnet.se NOTICE Zone announced by only one ASN (1).
+ 17.271: birdnet.se INFO Zone announced by IPv6 ASN: 
+ 17.271: birdnet.se NOTICE Zone announced by only one IPv6 ASN (0).
+ 17.271: birdnet.se INFO Done testing connectivity for birdnet.se.
+ 17.271: birdnet.se INFO Begin testing DNSSEC for birdnet.se.
+ 17.286: birdnet.se INFO Did not find DS record for birdnet.se at parent.
+ 17.315: birdnet.se NOTICE DNS lookup error (unknown error or no error).
+ 17.330: birdnet.se NOTICE DNS lookup error (connection failed).
+ 17.331: birdnet.se INFO Servers for birdnet.se have consistent extra processing status.
+ 17.331: birdnet.se INFO Did not find DNSKEY record for birdnet.se at child.
+ 17.331: birdnet.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 17.331: birdnet.se INFO Done testing DNSSEC for birdnet.se.
+ 17.331: birdnet.se INFO Test completed for zone birdnet.se.

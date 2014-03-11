@@ -1,0 +1,85 @@
+  0.000: selbu.kommune.no INFO Begin testing zone selbu.kommune.no with version 1.6.1.
+  0.375: selbu.kommune.no INFO Begin testing delegation for selbu.kommune.no.
+  7.849: selbu.kommune.no INFO Name servers listed at parent: nidaros1.driftsparken.no,pingvin1.driftsparken.no
+  8.958: selbu.kommune.no INFO Name servers listed at child: nidaros1.driftsparken.no,pingvin1.driftsparken.no
+  8.958: selbu.kommune.no NOTICE No IPv6 name servers found.
+  9.126: selbu.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.255: selbu.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.384: selbu.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.505: selbu.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.169: selbu.kommune.no INFO It is possible to build a referral packet for selbu.kommune.no that works without EDNS0.
+ 10.666: selbu.kommune.no INFO Previously used name servers for selbu.kommune.no: 
+ 10.666: selbu.kommune.no INFO Done testing delegation for selbu.kommune.no.
+ 10.666: selbu.kommune.no INFO Begin testing name server nidaros1.driftsparken.no.
+ 10.666: selbu.kommune.no INFO Begin testing host nidaros1.driftsparken.no.
+ 10.972: selbu.kommune.no INFO Begin testing address 31.185.25.214.
+ 20.314: selbu.kommune.no INFO Done testing address 31.185.25.214.
+ 20.314: selbu.kommune.no INFO Done testing host nidaros1.driftsparken.no.
+ 20.584: selbu.kommune.no INFO Name server nidaros1.driftsparken.no (31.185.25.214) answers queries over UDP.
+ 22.595: selbu.kommune.no NOTICE DNS lookup error (connection failed).
+ 22.595: selbu.kommune.no ERROR Name server nidaros1.driftsparken.no (31.185.25.214) does not answer queries over TCP.
+ 22.615: selbu.kommune.no INFO Name server nidaros1.driftsparken.no (31.185.25.214) is not recursive.
+ 24.736: selbu.kommune.no NOTICE DNS lookup error (connection failed).
+ 24.736: selbu.kommune.no INFO Name server nidaros1.driftsparken.no (31.185.25.214) authoritative for selbu.kommune.no.
+ 24.736: selbu.kommune.no INFO Name server nidaros1.driftsparken.no (31.185.25.214) not checked for zone transfer of selbu.kommune.no.
+ 24.736: selbu.kommune.no INFO Name server nidaros1.driftsparken.no (31.185.25.214) not checked for legacy name server ID.
+ 24.736: selbu.kommune.no INFO Done testing name server nidaros1.driftsparken.no.
+ 24.737: selbu.kommune.no INFO Begin testing name server pingvin1.driftsparken.no.
+ 24.737: selbu.kommune.no INFO Begin testing host pingvin1.driftsparken.no.
+ 24.915: selbu.kommune.no INFO Begin testing address 31.185.25.212.
+ 25.526: selbu.kommune.no INFO Done testing address 31.185.25.212.
+ 25.526: selbu.kommune.no INFO Done testing host pingvin1.driftsparken.no.
+ 25.691: selbu.kommune.no INFO Name server pingvin1.driftsparken.no (31.185.25.212) answers queries over UDP.
+ 27.703: selbu.kommune.no NOTICE DNS lookup error (connection failed).
+ 27.703: selbu.kommune.no ERROR Name server pingvin1.driftsparken.no (31.185.25.212) does not answer queries over TCP.
+ 27.731: selbu.kommune.no INFO Name server pingvin1.driftsparken.no (31.185.25.212) is not recursive.
+ 29.851: selbu.kommune.no NOTICE DNS lookup error (connection failed).
+ 29.851: selbu.kommune.no INFO Name server pingvin1.driftsparken.no (31.185.25.212) authoritative for selbu.kommune.no.
+ 29.851: selbu.kommune.no INFO Name server pingvin1.driftsparken.no (31.185.25.212) not checked for zone transfer of selbu.kommune.no.
+ 29.851: selbu.kommune.no INFO Name server pingvin1.driftsparken.no (31.185.25.212) not checked for legacy name server ID.
+ 29.851: selbu.kommune.no INFO Done testing name server pingvin1.driftsparken.no.
+ 29.851: selbu.kommune.no INFO Begin testing zone consistency for selbu.kommune.no.
+ 30.612: selbu.kommune.no INFO SOA at address 31.185.25.214 has serial 2013100900.
+ 30.627: selbu.kommune.no INFO SOA at address 31.185.25.212 has serial 2013100900.
+ 30.627: selbu.kommune.no INFO All SOA records have consistent serial numbers.
+ 30.627: selbu.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 30.990: selbu.kommune.no NOTICE The listed nameservers for selbu.kommune.no all report the same set of nameservers.
+ 30.990: selbu.kommune.no INFO Done testing zone consistency for selbu.kommune.no.
+ 30.990: selbu.kommune.no INFO Begin testing SOA parameters for selbu.kommune.no.
+ 31.016: selbu.kommune.no INFO Found SOA record for selbu.kommune.no.
+ 31.016: selbu.kommune.no INFO Begin testing host nidaros1.driftsparken.no.
+ 31.236: selbu.kommune.no INFO Begin testing address 31.185.25.214.
+ 31.407: selbu.kommune.no INFO Done testing address 31.185.25.214.
+ 31.407: selbu.kommune.no INFO Done testing host nidaros1.driftsparken.no.
+ 31.407: selbu.kommune.no INFO SOA MNAME for selbu.kommune.no valid (nidaros1.driftsparken.no).
+ 31.408: selbu.kommune.no INFO SOA MNAME for selbu.kommune.no (nidaros1.driftsparken.no) listed as NS.
+ 31.672: selbu.kommune.no INFO SOA MNAME for selbu.kommune.no (nidaros1.driftsparken.no) is authoritative.
+ 31.673: selbu.kommune.no INFO Begin testing email address hostmaster@teneodata.no.
+ 31.808: selbu.kommune.no INFO Mail exchangers for hostmaster@teneodata.no found spamass2.driftsparken.no.
+ 31.817: selbu.kommune.no INFO Begin testing host spamass2.driftsparken.no.
+ 32.106: selbu.kommune.no INFO Begin testing address 178.164.2.186.
+ 32.423: selbu.kommune.no INFO Done testing address 178.164.2.186.
+ 32.423: selbu.kommune.no INFO Done testing host spamass2.driftsparken.no.
+ 32.623: selbu.kommune.no INFO Done testing email address hostmaster@teneodata.no.
+ 32.623: selbu.kommune.no INFO Successful attempt to deliver email for SOA RNAME of selbu.kommune.no (hostmaster.teneodata.no) using hostmaster@teneodata.no.
+ 32.624: selbu.kommune.no INFO SOA TTL for selbu.kommune.no OK (3600) - recommended >= 3600.
+ 32.624: selbu.kommune.no INFO SOA refresh for selbu.kommune.no OK (28800) - recommended >= 14400.
+ 32.624: selbu.kommune.no INFO SOA retry for selbu.kommune.no OK (7200) - recommended >= 3600.
+ 32.624: selbu.kommune.no INFO SOA expire for selbu.kommune.no OK (604800) - recommended >= 604800.
+ 32.624: selbu.kommune.no INFO SOA minimum for selbu.kommune.no OK (86400) - recommended between 300 and 86400.
+ 32.624: selbu.kommune.no INFO Done testing SOA parameters for selbu.kommune.no.
+ 32.624: selbu.kommune.no INFO Begin testing connectivity for selbu.kommune.no.
+ 33.938: selbu.kommune.no NOTICE Zone announced by fewer than two IPv4 ASN.
+ 33.938: selbu.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 33.938: selbu.kommune.no INFO Done testing connectivity for selbu.kommune.no.
+ 33.938: selbu.kommune.no INFO Begin testing DNSSEC for selbu.kommune.no.
+ 34.093: selbu.kommune.no INFO Did not find DS record for selbu.kommune.no at parent.
+ 36.115: selbu.kommune.no NOTICE DNS lookup error (connection failed).
+ 38.127: selbu.kommune.no NOTICE DNS lookup error (connection failed).
+ 38.127: selbu.kommune.no INFO Servers for selbu.kommune.no have consistent extra processing status.
+ 42.151: selbu.kommune.no NOTICE DNS lookup error (connection failed).
+ 42.151: selbu.kommune.no INFO Authenticated denial records not found for selbu.kommune.no.
+ 42.167: selbu.kommune.no INFO Did not find DNSKEY record for selbu.kommune.no at child.
+ 42.167: selbu.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 42.167: selbu.kommune.no INFO Done testing DNSSEC for selbu.kommune.no.
+ 42.168: selbu.kommune.no INFO Test completed for zone selbu.kommune.no.

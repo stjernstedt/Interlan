@@ -1,0 +1,82 @@
+  0.000: lieksa.fi INFO Begin testing zone lieksa.fi with version 1.5.0.
+  0.503: lieksa.fi INFO Begin testing delegation for lieksa.fi.
+ 28.201: lieksa.fi INFO Name servers listed at parent: ns-fi.elisa.net,ns-se.elisa.net
+ 33.330: lieksa.fi INFO Name servers listed at child: ns-fi.elisa.net,ns-se.elisa.net
+ 33.330: lieksa.fi NOTICE No IPv6 name servers found.
+ 36.571: lieksa.fi INFO It is possible to build a referral packet for lieksa.fi that works without EDNS0.
+ 38.448: lieksa.fi INFO Previously used name servers for lieksa.fi: 
+ 38.448: lieksa.fi INFO Done testing delegation for lieksa.fi.
+ 38.448: lieksa.fi INFO Begin testing name server ns-fi.elisa.net.
+ 38.448: lieksa.fi INFO Begin testing host ns-fi.elisa.net.
+ 39.506: lieksa.fi INFO Begin testing address 193.229.0.49.
+ 50.721: lieksa.fi INFO Done testing address 193.229.0.49.
+ 50.722: lieksa.fi INFO Done testing host ns-fi.elisa.net.
+ 51.972: lieksa.fi INFO Name server ns-fi.elisa.net (193.229.0.49) answers queries over UDP.
+ 52.126: lieksa.fi INFO Name server ns-fi.elisa.net (193.229.0.49) answers queries over TCP.
+ 52.196: lieksa.fi INFO Name server ns-fi.elisa.net (193.229.0.49) is not recursive.
+ 52.466: lieksa.fi INFO Name server ns-fi.elisa.net (193.229.0.49) authoritative for lieksa.fi.
+ 52.583: lieksa.fi INFO Name server ns-fi.elisa.net (193.229.0.49) closed for zone transfer of lieksa.fi.
+ 52.644: lieksa.fi INFO Legacy name server ID for ns-fi.elisa.net (193.229.0.49): hostname.bind = ldom-dns64
+ 52.779: lieksa.fi INFO Legacy name server ID for ns-fi.elisa.net (193.229.0.49): version.bind = unknown
+ 52.902: lieksa.fi NOTICE No answer received from 193.229.0.49 when querying for version.server/CH/TXT.
+ 52.902: lieksa.fi INFO Done testing name server ns-fi.elisa.net.
+ 52.902: lieksa.fi INFO Begin testing name server ns-se.elisa.net.
+ 52.902: lieksa.fi INFO Begin testing host ns-se.elisa.net.
+ 53.482: lieksa.fi INFO Begin testing address 62.248.254.2.
+ 55.085: lieksa.fi INFO Done testing address 62.248.254.2.
+ 55.085: lieksa.fi INFO Done testing host ns-se.elisa.net.
+ 55.969: lieksa.fi INFO Name server ns-se.elisa.net (62.248.254.2) answers queries over UDP.
+ 56.082: lieksa.fi INFO Name server ns-se.elisa.net (62.248.254.2) answers queries over TCP.
+ 56.190: lieksa.fi INFO Name server ns-se.elisa.net (62.248.254.2) is not recursive.
+ 56.518: lieksa.fi INFO Name server ns-se.elisa.net (62.248.254.2) authoritative for lieksa.fi.
+ 56.708: lieksa.fi INFO Name server ns-se.elisa.net (62.248.254.2) closed for zone transfer of lieksa.fi.
+ 56.767: lieksa.fi INFO Legacy name server ID for ns-se.elisa.net (62.248.254.2): hostname.bind = phys-dns8
+ 56.844: lieksa.fi INFO Legacy name server ID for ns-se.elisa.net (62.248.254.2): version.bind = unknown
+ 57.049: lieksa.fi NOTICE No answer received from 62.248.254.2 when querying for version.server/CH/TXT.
+ 57.049: lieksa.fi INFO Done testing name server ns-se.elisa.net.
+ 57.050: lieksa.fi INFO Begin testing zone consistency for lieksa.fi.
+ 60.914: lieksa.fi INFO SOA at address 62.248.254.2 has serial 2013042400.
+ 61.024: lieksa.fi INFO SOA at address 193.229.0.49 has serial 2013042400.
+ 61.024: lieksa.fi INFO All SOA records have consistent serial numbers.
+ 61.024: lieksa.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 64.261: lieksa.fi NOTICE The listed nameservers for lieksa.fi all report the same set of nameservers.
+ 64.382: lieksa.fi INFO Done testing zone consistency for lieksa.fi.
+ 64.382: lieksa.fi INFO Begin testing SOA parameters for lieksa.fi.
+ 64.693: lieksa.fi INFO Found SOA record for lieksa.fi.
+ 64.694: lieksa.fi INFO Begin testing host ns-fi.elisa.net.
+ 66.826: lieksa.fi INFO Begin testing address 193.229.0.49.
+ 69.413: lieksa.fi INFO Done testing address 193.229.0.49.
+ 69.414: lieksa.fi INFO Done testing host ns-fi.elisa.net.
+ 69.414: lieksa.fi INFO SOA MNAME for lieksa.fi valid (ns-fi.elisa.net).
+ 69.414: lieksa.fi INFO SOA MNAME for lieksa.fi (ns-fi.elisa.net) listed as NS.
+ 71.607: lieksa.fi INFO SOA MNAME for lieksa.fi (ns-fi.elisa.net) is authoritative.
+ 71.607: lieksa.fi INFO Begin testing email address hostmaster@elisa.fi.
+ 73.370: lieksa.fi INFO Mail exchangers for hostmaster@elisa.fi found mx2.elisa.fi,mx1.elisa.fi.
+ 73.370: lieksa.fi INFO Begin testing host mx2.elisa.fi.
+ 76.482: lieksa.fi INFO Begin testing address 193.64.173.43.
+ 84.409: lieksa.fi INFO Done testing address 193.64.173.43.
+ 84.410: lieksa.fi INFO Done testing host mx2.elisa.fi.
+ 85.783: lieksa.fi INFO Begin testing host mx1.elisa.fi.
+ 88.590: lieksa.fi INFO Begin testing address 193.64.173.42.
+ 93.041: lieksa.fi INFO Done testing address 193.64.173.42.
+ 93.042: lieksa.fi INFO Done testing host mx1.elisa.fi.
+ 94.238: lieksa.fi INFO Done testing email address hostmaster@elisa.fi.
+ 94.238: lieksa.fi INFO Successful attempt to deliver email for SOA RNAME of lieksa.fi (hostmaster.elisa.fi) using hostmaster@elisa.fi.
+ 94.239: lieksa.fi INFO SOA TTL for lieksa.fi OK (3600) - recommended >= 3600.
+ 94.239: lieksa.fi NOTICE SOA refresh for lieksa.fi too small (3600) - recommended >= 14400.
+ 94.239: lieksa.fi NOTICE SOA retry for lieksa.fi too small (900) - recommended >= 3600.
+ 94.239: lieksa.fi INFO SOA expire for lieksa.fi OK (604800) - recommended >= 604800.
+ 94.239: lieksa.fi INFO SOA minimum for lieksa.fi OK (3600) - recommended between 300 and 86400.
+ 94.239: lieksa.fi INFO Done testing SOA parameters for lieksa.fi.
+ 94.239: lieksa.fi INFO Begin testing connectivity for lieksa.fi.
+ 97.951: lieksa.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 97.952: lieksa.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 97.952: lieksa.fi INFO Done testing connectivity for lieksa.fi.
+ 97.952: lieksa.fi INFO Begin testing DNSSEC for lieksa.fi.
+ 98.701: lieksa.fi INFO Did not find DS record for lieksa.fi at parent.
+ 99.175: lieksa.fi INFO Servers for lieksa.fi have consistent extra processing status.
+ 99.471: lieksa.fi INFO Authenticated denial records not found for lieksa.fi.
+ 99.690: lieksa.fi INFO Did not find DNSKEY record for lieksa.fi at child.
+ 99.690: lieksa.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 99.691: lieksa.fi INFO Done testing DNSSEC for lieksa.fi.
+ 99.691: lieksa.fi INFO Test completed for zone lieksa.fi.

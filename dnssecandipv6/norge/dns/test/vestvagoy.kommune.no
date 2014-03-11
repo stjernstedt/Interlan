@@ -1,0 +1,84 @@
+  0.000: vestvagoy.kommune.no INFO Begin testing zone vestvagoy.kommune.no with version 1.6.1.
+  0.131: vestvagoy.kommune.no INFO Begin testing delegation for vestvagoy.kommune.no.
+  7.143: vestvagoy.kommune.no INFO Name servers listed at parent: ns1.nextra.no,ns2.nextra.no
+  7.920: vestvagoy.kommune.no INFO Name servers listed at child: ns1.nextra.no,ns2.nextra.no
+  7.921: vestvagoy.kommune.no NOTICE No IPv6 name servers found.
+  8.057: vestvagoy.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  8.212: vestvagoy.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  8.343: vestvagoy.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  8.507: vestvagoy.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  8.949: vestvagoy.kommune.no INFO It is possible to build a referral packet for vestvagoy.kommune.no that works without EDNS0.
+  9.321: vestvagoy.kommune.no INFO Previously used name servers for vestvagoy.kommune.no: 
+  9.321: vestvagoy.kommune.no INFO Done testing delegation for vestvagoy.kommune.no.
+  9.322: vestvagoy.kommune.no INFO Begin testing name server ns1.nextra.no.
+  9.322: vestvagoy.kommune.no INFO Begin testing host ns1.nextra.no.
+  9.511: vestvagoy.kommune.no INFO Begin testing address 148.122.208.98.
+ 25.424: vestvagoy.kommune.no INFO Done testing address 148.122.208.98.
+ 25.424: vestvagoy.kommune.no INFO Done testing host ns1.nextra.no.
+ 25.527: vestvagoy.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) answers queries over UDP.
+ 25.554: vestvagoy.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) answers queries over TCP.
+ 25.574: vestvagoy.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) is not recursive.
+ 25.627: vestvagoy.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) authoritative for vestvagoy.kommune.no.
+ 25.666: vestvagoy.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) closed for zone transfer of vestvagoy.kommune.no.
+ 25.687: vestvagoy.kommune.no NOTICE No answer received from 148.122.208.98 when querying for hostname.bind/CH/TXT.
+ 25.700: vestvagoy.kommune.no INFO Legacy name server ID for ns1.nextra.no (148.122.208.98): version.bind = Nominum ANS 2.8.1.2
+ 25.714: vestvagoy.kommune.no INFO Legacy name server ID for ns1.nextra.no (148.122.208.98): id.server = 275236d1-c090-4e72-8b4f-6bb3656fbdc2
+ 25.745: vestvagoy.kommune.no INFO Legacy name server ID for ns1.nextra.no (148.122.208.98): version.server = Nominum ANS 2.8.1.2
+ 25.745: vestvagoy.kommune.no INFO Done testing name server ns1.nextra.no.
+ 25.745: vestvagoy.kommune.no INFO Begin testing name server ns2.nextra.no.
+ 25.745: vestvagoy.kommune.no INFO Begin testing host ns2.nextra.no.
+ 25.907: vestvagoy.kommune.no INFO Begin testing address 148.122.161.2.
+ 26.388: vestvagoy.kommune.no INFO Done testing address 148.122.161.2.
+ 26.388: vestvagoy.kommune.no INFO Done testing host ns2.nextra.no.
+ 26.493: vestvagoy.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) answers queries over UDP.
+ 26.531: vestvagoy.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) answers queries over TCP.
+ 26.545: vestvagoy.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) is not recursive.
+ 26.602: vestvagoy.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) authoritative for vestvagoy.kommune.no.
+ 26.641: vestvagoy.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) closed for zone transfer of vestvagoy.kommune.no.
+ 26.654: vestvagoy.kommune.no NOTICE No answer received from 148.122.161.2 when querying for hostname.bind/CH/TXT.
+ 26.670: vestvagoy.kommune.no INFO Legacy name server ID for ns2.nextra.no (148.122.161.2): version.bind = Nominum ANS 2.8.1.2
+ 26.687: vestvagoy.kommune.no INFO Legacy name server ID for ns2.nextra.no (148.122.161.2): id.server = b15665a4-93cf-4b41-b1b3-3effb406c70f
+ 26.702: vestvagoy.kommune.no INFO Legacy name server ID for ns2.nextra.no (148.122.161.2): version.server = Nominum ANS 2.8.1.2
+ 26.702: vestvagoy.kommune.no INFO Done testing name server ns2.nextra.no.
+ 26.702: vestvagoy.kommune.no INFO Begin testing zone consistency for vestvagoy.kommune.no.
+ 27.131: vestvagoy.kommune.no INFO SOA at address 148.122.208.98 has serial 2013091300.
+ 27.152: vestvagoy.kommune.no INFO SOA at address 148.122.161.2 has serial 2013091300.
+ 27.152: vestvagoy.kommune.no INFO All SOA records have consistent serial numbers.
+ 27.152: vestvagoy.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 27.384: vestvagoy.kommune.no NOTICE The listed nameservers for vestvagoy.kommune.no all report the same set of nameservers.
+ 27.384: vestvagoy.kommune.no INFO Done testing zone consistency for vestvagoy.kommune.no.
+ 27.384: vestvagoy.kommune.no INFO Begin testing SOA parameters for vestvagoy.kommune.no.
+ 27.398: vestvagoy.kommune.no INFO Found SOA record for vestvagoy.kommune.no.
+ 27.398: vestvagoy.kommune.no INFO Begin testing host ns1.nextra.no.
+ 27.510: vestvagoy.kommune.no INFO Begin testing address 148.122.208.98.
+ 27.583: vestvagoy.kommune.no INFO Done testing address 148.122.208.98.
+ 27.583: vestvagoy.kommune.no INFO Done testing host ns1.nextra.no.
+ 27.584: vestvagoy.kommune.no INFO SOA MNAME for vestvagoy.kommune.no valid (ns1.nextra.no).
+ 27.584: vestvagoy.kommune.no INFO SOA MNAME for vestvagoy.kommune.no (ns1.nextra.no) listed as NS.
+ 27.775: vestvagoy.kommune.no INFO SOA MNAME for vestvagoy.kommune.no (ns1.nextra.no) is authoritative.
+ 27.775: vestvagoy.kommune.no INFO Begin testing email address hostmaster@telenor.net.
+ 29.016: vestvagoy.kommune.no INFO Mail exchangers for hostmaster@telenor.net found mx.nsc.no.
+ 29.016: vestvagoy.kommune.no INFO Begin testing host mx.nsc.no.
+ 29.271: vestvagoy.kommune.no INFO Begin testing address 193.213.112.62.
+ 30.123: vestvagoy.kommune.no INFO Done testing address 193.213.112.62.
+ 30.123: vestvagoy.kommune.no INFO Done testing host mx.nsc.no.
+ 30.226: vestvagoy.kommune.no INFO Done testing email address hostmaster@telenor.net.
+ 30.226: vestvagoy.kommune.no INFO Successful attempt to deliver email for SOA RNAME of vestvagoy.kommune.no (hostmaster.telenor.net) using hostmaster@telenor.net.
+ 30.226: vestvagoy.kommune.no INFO SOA TTL for vestvagoy.kommune.no OK (3600) - recommended >= 3600.
+ 30.226: vestvagoy.kommune.no NOTICE SOA refresh for vestvagoy.kommune.no too small (3600) - recommended >= 14400.
+ 30.226: vestvagoy.kommune.no NOTICE SOA retry for vestvagoy.kommune.no too small (600) - recommended >= 3600.
+ 30.229: vestvagoy.kommune.no INFO SOA expire for vestvagoy.kommune.no OK (604800) - recommended >= 604800.
+ 30.229: vestvagoy.kommune.no INFO SOA minimum for vestvagoy.kommune.no OK (3600) - recommended between 300 and 86400.
+ 30.229: vestvagoy.kommune.no INFO Done testing SOA parameters for vestvagoy.kommune.no.
+ 30.230: vestvagoy.kommune.no INFO Begin testing connectivity for vestvagoy.kommune.no.
+ 31.265: vestvagoy.kommune.no NOTICE Zone announced by fewer than two IPv4 ASN.
+ 31.265: vestvagoy.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 31.265: vestvagoy.kommune.no INFO Done testing connectivity for vestvagoy.kommune.no.
+ 31.265: vestvagoy.kommune.no INFO Begin testing DNSSEC for vestvagoy.kommune.no.
+ 31.347: vestvagoy.kommune.no INFO Did not find DS record for vestvagoy.kommune.no at parent.
+ 31.399: vestvagoy.kommune.no INFO Servers for vestvagoy.kommune.no have consistent extra processing status.
+ 31.427: vestvagoy.kommune.no INFO Authenticated denial records not found for vestvagoy.kommune.no.
+ 31.441: vestvagoy.kommune.no INFO Did not find DNSKEY record for vestvagoy.kommune.no at child.
+ 31.441: vestvagoy.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 31.441: vestvagoy.kommune.no INFO Done testing DNSSEC for vestvagoy.kommune.no.
+ 31.442: vestvagoy.kommune.no INFO Test completed for zone vestvagoy.kommune.no.

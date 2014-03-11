@@ -1,0 +1,77 @@
+  0.000: lidingo.se INFO Begin testing zone lidingo.se with version 1.6.1.
+  1.988: lidingo.se INFO Begin testing delegation for lidingo.se.
+ 28.086: lidingo.se INFO Name servers listed at parent: dns3.telia.com,dns4.telia.com
+ 31.583: lidingo.se INFO Name servers listed at child: dns3.telia.com,dns4.telia.com
+ 31.584: lidingo.se NOTICE No IPv6 name servers found.
+ 34.704: lidingo.se INFO It is possible to build a referral packet for lidingo.se that works without EDNS0.
+ 36.250: lidingo.se INFO Previously used name servers for lidingo.se: 
+ 36.250: lidingo.se INFO Done testing delegation for lidingo.se.
+ 36.250: lidingo.se INFO Begin testing name server dns3.telia.com.
+ 36.250: lidingo.se INFO Begin testing host dns3.telia.com.
+ 36.801: lidingo.se INFO Begin testing address 81.228.11.184.
+ 49.113: lidingo.se INFO Done testing address 81.228.11.184.
+ 49.114: lidingo.se INFO Done testing host dns3.telia.com.
+ 49.751: lidingo.se INFO Name server dns3.telia.com (81.228.11.184) answers queries over UDP.
+ 49.790: lidingo.se INFO Name server dns3.telia.com (81.228.11.184) answers queries over TCP.
+ 49.896: lidingo.se INFO Name server dns3.telia.com (81.228.11.184) is not recursive.
+ 50.530: lidingo.se INFO Name server dns3.telia.com (81.228.11.184) authoritative for lidingo.se.
+ 50.568: lidingo.se INFO Name server dns3.telia.com (81.228.11.184) closed for zone transfer of lidingo.se.
+ 50.917: lidingo.se INFO Legacy name server ID for dns3.telia.com (81.228.11.184): version.bind = Served by POWERDNS 3.1 $Id: packethandler.cc 2579 2012-04-26 11:28:04Z peter $
+ 51.118: lidingo.se INFO Done testing name server dns3.telia.com.
+ 51.118: lidingo.se INFO Begin testing name server dns4.telia.com.
+ 51.126: lidingo.se INFO Begin testing host dns4.telia.com.
+ 51.542: lidingo.se INFO Begin testing address 81.228.9.98.
+ 53.700: lidingo.se INFO Done testing address 81.228.9.98.
+ 53.701: lidingo.se INFO Done testing host dns4.telia.com.
+ 56.532: lidingo.se INFO Name server dns4.telia.com (81.228.9.98) answers queries over UDP.
+ 56.616: lidingo.se INFO Name server dns4.telia.com (81.228.9.98) answers queries over TCP.
+ 56.688: lidingo.se INFO Name server dns4.telia.com (81.228.9.98) is not recursive.
+ 57.052: lidingo.se INFO Name server dns4.telia.com (81.228.9.98) authoritative for lidingo.se.
+ 57.127: lidingo.se INFO Name server dns4.telia.com (81.228.9.98) closed for zone transfer of lidingo.se.
+ 57.298: lidingo.se INFO Legacy name server ID for dns4.telia.com (81.228.9.98): version.bind = Served by POWERDNS 3.1 $Id: packethandler.cc 2579 2012-04-26 11:28:04Z peter $
+ 57.401: lidingo.se INFO Done testing name server dns4.telia.com.
+ 57.402: lidingo.se INFO Begin testing zone consistency for lidingo.se.
+ 60.892: lidingo.se INFO SOA at address 81.228.9.98 has serial 1390286267.
+ 60.933: lidingo.se INFO SOA at address 81.228.11.184 has serial 1390286267.
+ 60.933: lidingo.se INFO All SOA records have consistent serial numbers.
+ 60.934: lidingo.se INFO All other fields in the SOA record are consistent among all name servers.
+ 62.351: lidingo.se NOTICE The listed nameservers for lidingo.se all report the same set of nameservers.
+ 62.352: lidingo.se INFO Done testing zone consistency for lidingo.se.
+ 62.352: lidingo.se INFO Begin testing SOA parameters for lidingo.se.
+ 62.429: lidingo.se INFO Found SOA record for lidingo.se.
+ 62.429: lidingo.se INFO Begin testing host dns9.telia.com.
+ 63.840: lidingo.se INFO Begin testing address 81.228.11.184.
+ 64.430: lidingo.se INFO Done testing address 81.228.11.184.
+ 64.431: lidingo.se INFO Begin testing address 2001:2040:c001:104:0:0:0:5.
+ 68.368: lidingo.se INFO Done testing address 2001:2040:c001:104:0:0:0:5.
+ 68.368: lidingo.se INFO Done testing host dns9.telia.com.
+ 68.368: lidingo.se INFO SOA MNAME for lidingo.se valid (dns9.telia.com).
+ 68.368: lidingo.se NOTICE SOA MNAME for lidingo.se (dns9.telia.com) not listed as NS.
+ 68.465: lidingo.se INFO SOA MNAME for lidingo.se (dns9.telia.com) is authoritative.
+ 68.607: lidingo.se INFO SOA MNAME for lidingo.se (dns9.telia.com) is authoritative.
+ 68.608: lidingo.se INFO Begin testing email address backbone@telia.net.
+ 69.419: lidingo.se INFO Mail exchangers for backbone@telia.net found mail.telia.net.
+ 69.419: lidingo.se INFO Begin testing host mail.telia.net.
+ 70.886: lidingo.se INFO Begin testing address 194.237.170.102.
+ 73.141: lidingo.se INFO Done testing address 194.237.170.102.
+ 73.141: lidingo.se INFO Done testing host mail.telia.net.
+ 73.574: lidingo.se INFO Done testing email address backbone@telia.net.
+ 73.574: lidingo.se INFO Successful attempt to deliver email for SOA RNAME of lidingo.se (backbone.telia.net) using backbone@telia.net.
+ 73.574: lidingo.se INFO SOA TTL for lidingo.se OK (3600) - recommended >= 3600.
+ 73.574: lidingo.se INFO SOA refresh for lidingo.se OK (21600) - recommended >= 14400.
+ 73.574: lidingo.se INFO SOA retry for lidingo.se OK (7200) - recommended >= 3600.
+ 73.574: lidingo.se INFO SOA expire for lidingo.se OK (604800) - recommended >= 604800.
+ 73.574: lidingo.se INFO SOA minimum for lidingo.se OK (3600) - recommended between 300 and 86400.
+ 73.575: lidingo.se INFO Done testing SOA parameters for lidingo.se.
+ 73.575: lidingo.se INFO Begin testing connectivity for lidingo.se.
+ 75.775: lidingo.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 75.775: lidingo.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 75.775: lidingo.se INFO Done testing connectivity for lidingo.se.
+ 75.775: lidingo.se INFO Begin testing DNSSEC for lidingo.se.
+ 75.855: lidingo.se INFO Did not find DS record for lidingo.se at parent.
+ 75.981: lidingo.se INFO Servers for lidingo.se have consistent extra processing status.
+ 76.041: lidingo.se INFO Authenticated denial records not found for lidingo.se.
+ 76.132: lidingo.se INFO Did not find DNSKEY record for lidingo.se at child.
+ 76.132: lidingo.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 76.132: lidingo.se INFO Done testing DNSSEC for lidingo.se.
+ 76.132: lidingo.se INFO Test completed for zone lidingo.se.

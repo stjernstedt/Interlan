@@ -1,0 +1,104 @@
+  0.000: hallstahammar.se INFO Begin testing zone hallstahammar.se with version 1.6.1.
+  0.755: hallstahammar.se INFO Begin testing delegation for hallstahammar.se.
+ 33.460: hallstahammar.se INFO Name servers listed at parent: ns01.centralpark.se,orebro.dns.swip.net
+ 38.461: hallstahammar.se INFO Name servers listed at child: ns01.centralpark.se,ns03.centralpark.se,orebro.dns.swip.net
+ 38.462: hallstahammar.se NOTICE Additional name server listed at child: ns03.centralpark.se
+ 38.462: hallstahammar.se NOTICE Too few IPv6 name servers (1).
+ 38.553: hallstahammar.se INFO Parent glue for hallstahammar.se found: ns01.centralpark.se (217.78.26.157)
+ 39.098: hallstahammar.se INFO Checking glue for ns01.centralpark.se (217.78.26.157).
+ 39.098: hallstahammar.se INFO Parent glue for hallstahammar.se found: ns01.centralpark.se (217.78.26.157)
+ 41.272: hallstahammar.se INFO It is possible to build a referral packet for hallstahammar.se that works without EDNS0.
+ 43.920: hallstahammar.se INFO Previously used name servers for hallstahammar.se: 
+ 43.920: hallstahammar.se INFO Done testing delegation for hallstahammar.se.
+ 43.921: hallstahammar.se INFO Begin testing name server ns01.centralpark.se.
+ 43.921: hallstahammar.se INFO Begin testing host ns01.centralpark.se.
+ 47.694: hallstahammar.se INFO Begin testing address 217.78.26.157.
+ 61.431: hallstahammar.se INFO Done testing address 217.78.26.157.
+ 61.431: hallstahammar.se INFO Done testing host ns01.centralpark.se.
+ 61.878: hallstahammar.se INFO Name server ns01.centralpark.se (217.78.26.157) answers queries over UDP.
+ 61.939: hallstahammar.se INFO Name server ns01.centralpark.se (217.78.26.157) answers queries over TCP.
+ 66.193: hallstahammar.se INFO Name server ns01.centralpark.se (217.78.26.157) is not recursive.
+ 67.141: hallstahammar.se INFO Name server ns01.centralpark.se (217.78.26.157) authoritative for hallstahammar.se.
+ 67.430: hallstahammar.se INFO Name server ns01.centralpark.se (217.78.26.157) closed for zone transfer of hallstahammar.se.
+ 67.451: hallstahammar.se NOTICE No answer received from 217.78.26.157 when querying for hostname.bind/CH/TXT.
+ 77.675: hallstahammar.se INFO Done testing name server ns01.centralpark.se.
+ 77.676: hallstahammar.se INFO Begin testing name server ns03.centralpark.se.
+ 77.676: hallstahammar.se INFO Begin testing host ns03.centralpark.se.
+ 78.948: hallstahammar.se INFO Begin testing address 194.236.41.52.
+ 84.706: hallstahammar.se INFO Done testing address 194.236.41.52.
+ 84.706: hallstahammar.se INFO Done testing host ns03.centralpark.se.
+ 85.234: hallstahammar.se INFO Name server ns03.centralpark.se (194.236.41.52) answers queries over UDP.
+ 85.363: hallstahammar.se INFO Name server ns03.centralpark.se (194.236.41.52) answers queries over TCP.
+ 85.489: hallstahammar.se INFO Name server ns03.centralpark.se (194.236.41.52) is not recursive.
+ 85.652: hallstahammar.se WARNING Nameserver at 194.236.41.52 is not authoritative over UDP.
+ 85.652: hallstahammar.se ERROR Name server ns03.centralpark.se (194.236.41.52) not authoritative for hallstahammar.se.
+ 85.652: hallstahammar.se INFO Done testing name server ns03.centralpark.se.
+ 85.652: hallstahammar.se INFO Begin testing name server orebro.dns.swip.net.
+ 85.653: hallstahammar.se INFO Begin testing host orebro.dns.swip.net.
+ 85.653: hallstahammar.se INFO Begin testing address 192.71.180.45.
+105.413: hallstahammar.se INFO Done testing address 192.71.180.45.
+105.413: hallstahammar.se INFO Begin testing address 2a00:801:103:e:0:0:0:beef.
+107.974: hallstahammar.se INFO Done testing address 2a00:801:103:e:0:0:0:beef.
+107.975: hallstahammar.se INFO Done testing host orebro.dns.swip.net.
+108.001: hallstahammar.se INFO Name server orebro.dns.swip.net (192.71.180.45) answers queries over UDP.
+108.064: hallstahammar.se INFO Name server orebro.dns.swip.net (192.71.180.45) answers queries over TCP.
+108.171: hallstahammar.se INFO Name server orebro.dns.swip.net (192.71.180.45) is not recursive.
+108.322: hallstahammar.se INFO Name server orebro.dns.swip.net (192.71.180.45) authoritative for hallstahammar.se.
+108.354: hallstahammar.se INFO Name server orebro.dns.swip.net (192.71.180.45) closed for zone transfer of hallstahammar.se.
+108.369: hallstahammar.se INFO Legacy name server ID for orebro.dns.swip.net (192.71.180.45): hostname.bind = authns2
+108.396: hallstahammar.se INFO Legacy name server ID for orebro.dns.swip.net (192.71.180.45): version.bind = PONG 0.2alpha
+108.455: hallstahammar.se NOTICE No answer received from 192.71.180.45 when querying for version.server/CH/TXT.
+108.514: hallstahammar.se INFO Name server orebro.dns.swip.net (2a00:801:103:e:0:0:0:beef) answers queries over UDP.
+108.583: hallstahammar.se INFO Name server orebro.dns.swip.net (2a00:801:103:e:0:0:0:beef) answers queries over TCP.
+108.606: hallstahammar.se INFO Name server orebro.dns.swip.net (2a00:801:103:e:0:0:0:beef) is not recursive.
+108.829: hallstahammar.se INFO Name server orebro.dns.swip.net (2a00:801:103:e:0:0:0:beef) authoritative for hallstahammar.se.
+108.888: hallstahammar.se INFO Name server orebro.dns.swip.net (2a00:801:103:e:0:0:0:beef) closed for zone transfer of hallstahammar.se.
+109.008: hallstahammar.se INFO Legacy name server ID for orebro.dns.swip.net (2a00:801:103:e:0:0:0:beef): hostname.bind = authns2
+109.042: hallstahammar.se INFO Legacy name server ID for orebro.dns.swip.net (2a00:801:103:e:0:0:0:beef): version.bind = PONG 0.2alpha
+109.143: hallstahammar.se NOTICE No answer received from 2a00:801:103:e:0:0:0:beef when querying for version.server/CH/TXT.
+109.144: hallstahammar.se INFO Done testing name server orebro.dns.swip.net.
+109.144: hallstahammar.se INFO Begin testing zone consistency for hallstahammar.se.
+111.040: hallstahammar.se INFO SOA at address 2a00:801:103:e:0:0:0:beef has serial 2012052533.
+111.070: hallstahammar.se INFO SOA at address 217.78.26.157 has serial 2012052533.
+111.103: hallstahammar.se INFO SOA at address 192.71.180.45 has serial 2012052533.
+111.174: hallstahammar.se INFO All SOA records have consistent serial numbers.
+111.174: hallstahammar.se INFO All other fields in the SOA record are consistent among all name servers.
+112.111: hallstahammar.se NOTICE The listed nameservers for hallstahammar.se all report the same set of nameservers.
+112.111: hallstahammar.se INFO Done testing zone consistency for hallstahammar.se.
+112.111: hallstahammar.se INFO Begin testing SOA parameters for hallstahammar.se.
+112.196: hallstahammar.se INFO Found SOA record for hallstahammar.se.
+112.196: hallstahammar.se INFO Begin testing host ns01.centralpark.se.
+112.432: hallstahammar.se INFO Begin testing address 217.78.26.157.
+112.715: hallstahammar.se INFO Done testing address 217.78.26.157.
+112.715: hallstahammar.se INFO Done testing host ns01.centralpark.se.
+112.715: hallstahammar.se INFO SOA MNAME for hallstahammar.se valid (ns01.centralpark.se).
+112.728: hallstahammar.se INFO SOA MNAME for hallstahammar.se (ns01.centralpark.se) listed as NS.
+113.320: hallstahammar.se INFO SOA MNAME for hallstahammar.se (ns01.centralpark.se) is authoritative.
+113.321: hallstahammar.se INFO Begin testing email address hostmaster@solidpark.se.
+113.624: hallstahammar.se INFO Mail exchangers for hostmaster@solidpark.se found solidpark-se.mail.eo.outlook.com.
+113.624: hallstahammar.se INFO Begin testing host solidpark-se.mail.eo.outlook.com.
+125.420: hallstahammar.se INFO Begin testing address 213.199.154.87.
+130.588: hallstahammar.se INFO Done testing address 213.199.154.87.
+130.588: hallstahammar.se INFO Begin testing address 213.199.154.23.
+136.220: hallstahammar.se INFO Done testing address 213.199.154.23.
+136.220: hallstahammar.se INFO Done testing host solidpark-se.mail.eo.outlook.com.
+139.748: hallstahammar.se INFO Done testing email address hostmaster@solidpark.se.
+139.748: hallstahammar.se INFO Successful attempt to deliver email for SOA RNAME of hallstahammar.se (hostmaster.solidpark.se) using hostmaster@solidpark.se.
+139.748: hallstahammar.se INFO SOA TTL for hallstahammar.se OK (3600) - recommended >= 3600.
+139.748: hallstahammar.se NOTICE SOA refresh for hallstahammar.se too small (900) - recommended >= 14400.
+139.748: hallstahammar.se NOTICE SOA retry for hallstahammar.se too small (600) - recommended >= 3600.
+139.748: hallstahammar.se NOTICE SOA expire for hallstahammar.se too small (86400) - recommended >= 604800.
+139.748: hallstahammar.se INFO SOA minimum for hallstahammar.se OK (3600) - recommended between 300 and 86400.
+139.748: hallstahammar.se INFO Done testing SOA parameters for hallstahammar.se.
+139.748: hallstahammar.se INFO Begin testing connectivity for hallstahammar.se.
+142.106: hallstahammar.se INFO Zone announced by more than one ASN.
+142.865: hallstahammar.se NOTICE Zone announced by fewer than two IPv6 ASN.
+142.865: hallstahammar.se INFO Done testing connectivity for hallstahammar.se.
+142.865: hallstahammar.se INFO Begin testing DNSSEC for hallstahammar.se.
+142.909: hallstahammar.se INFO Did not find DS record for hallstahammar.se at parent.
+142.980: hallstahammar.se INFO Servers for hallstahammar.se have consistent extra processing status.
+143.023: hallstahammar.se INFO Authenticated denial records not found for hallstahammar.se.
+143.088: hallstahammar.se INFO Did not find DNSKEY record for hallstahammar.se at child.
+143.088: hallstahammar.se INFO No DNSKEY(s) found at child, other tests skipped.
+143.088: hallstahammar.se INFO Done testing DNSSEC for hallstahammar.se.
+143.088: hallstahammar.se INFO Test completed for zone hallstahammar.se.

@@ -1,0 +1,81 @@
+  0.011: alvdalen.se INFO Begin testing zone alvdalen.se with version 1.6.1.
+  2.452: alvdalen.se INFO Begin testing delegation for alvdalen.se.
+ 11.661: alvdalen.se INFO Name servers listed at parent: nic.mora.se,ns2.kringdata.net
+ 14.509: alvdalen.se INFO Name servers listed at child: nic.mora.se,ns2.kringdata.net
+ 14.510: alvdalen.se NOTICE No IPv6 name servers found.
+ 14.589: alvdalen.se INFO Parent glue for alvdalen.se found: nic.mora.se (62.101.38.226)
+ 15.141: alvdalen.se INFO Checking glue for nic.mora.se (62.101.38.226).
+ 15.141: alvdalen.se INFO Parent glue for alvdalen.se found: nic.mora.se (62.101.38.226)
+ 16.241: alvdalen.se INFO It is possible to build a referral packet for alvdalen.se that works without EDNS0.
+ 16.843: alvdalen.se INFO Previously used name servers for alvdalen.se: 
+ 16.843: alvdalen.se INFO Done testing delegation for alvdalen.se.
+ 16.844: alvdalen.se INFO Begin testing name server nic.mora.se.
+ 16.844: alvdalen.se INFO Begin testing host nic.mora.se.
+ 17.109: alvdalen.se INFO Begin testing address 62.101.38.226.
+ 34.200: alvdalen.se INFO Done testing address 62.101.38.226.
+ 34.200: alvdalen.se INFO Done testing host nic.mora.se.
+ 34.565: alvdalen.se INFO Name server nic.mora.se (62.101.38.226) answers queries over UDP.
+ 34.623: alvdalen.se INFO Name server nic.mora.se (62.101.38.226) answers queries over TCP.
+ 34.649: alvdalen.se INFO Name server nic.mora.se (62.101.38.226) is not recursive.
+ 34.812: alvdalen.se INFO Name server nic.mora.se (62.101.38.226) authoritative for alvdalen.se.
+ 34.847: alvdalen.se INFO Name server nic.mora.se (62.101.38.226) closed for zone transfer of alvdalen.se.
+ 34.871: alvdalen.se INFO Legacy name server ID for nic.mora.se (62.101.38.226): hostname.bind = MOASDNS01
+ 34.900: alvdalen.se INFO Legacy name server ID for nic.mora.se (62.101.38.226): version.bind = you must be joking
+ 34.983: alvdalen.se NOTICE No answer received from 62.101.38.226 when querying for version.server/CH/TXT.
+ 34.984: alvdalen.se INFO Done testing name server nic.mora.se.
+ 34.984: alvdalen.se INFO Begin testing name server ns2.kringdata.net.
+ 34.984: alvdalen.se INFO Begin testing host ns2.kringdata.net.
+ 35.209: alvdalen.se INFO Begin testing address 62.101.37.61.
+ 36.366: alvdalen.se INFO Done testing address 62.101.37.61.
+ 36.366: alvdalen.se INFO Done testing host ns2.kringdata.net.
+ 36.714: alvdalen.se INFO Name server ns2.kringdata.net (62.101.37.61) answers queries over UDP.
+ 36.760: alvdalen.se INFO Name server ns2.kringdata.net (62.101.37.61) answers queries over TCP.
+ 36.777: alvdalen.se INFO Name server ns2.kringdata.net (62.101.37.61) is not recursive.
+ 36.892: alvdalen.se INFO Name server ns2.kringdata.net (62.101.37.61) authoritative for alvdalen.se.
+ 37.029: alvdalen.se INFO Name server ns2.kringdata.net (62.101.37.61) closed for zone transfer of alvdalen.se.
+ 37.061: alvdalen.se INFO Legacy name server ID for ns2.kringdata.net (62.101.37.61): hostname.bind = ns2.daladatorer.net
+ 37.085: alvdalen.se INFO Legacy name server ID for ns2.kringdata.net (62.101.37.61): version.bind = none of your business
+ 37.126: alvdalen.se NOTICE No answer received from 62.101.37.61 when querying for version.server/CH/TXT.
+ 37.126: alvdalen.se INFO Done testing name server ns2.kringdata.net.
+ 37.127: alvdalen.se INFO Begin testing zone consistency for alvdalen.se.
+ 38.194: alvdalen.se INFO SOA at address 62.101.38.226 has serial 2014010902.
+ 38.209: alvdalen.se INFO SOA at address 62.101.37.61 has serial 2014010902.
+ 38.209: alvdalen.se INFO All SOA records have consistent serial numbers.
+ 38.210: alvdalen.se INFO All other fields in the SOA record are consistent among all name servers.
+ 38.601: alvdalen.se NOTICE The listed nameservers for alvdalen.se all report the same set of nameservers.
+ 38.601: alvdalen.se INFO Done testing zone consistency for alvdalen.se.
+ 38.601: alvdalen.se INFO Begin testing SOA parameters for alvdalen.se.
+ 38.617: alvdalen.se INFO Found SOA record for alvdalen.se.
+ 38.617: alvdalen.se INFO Begin testing host nic.mora.se.
+ 38.771: alvdalen.se INFO Begin testing address 62.101.38.226.
+ 38.993: alvdalen.se INFO Done testing address 62.101.38.226.
+ 38.993: alvdalen.se INFO Done testing host nic.mora.se.
+ 38.993: alvdalen.se INFO SOA MNAME for alvdalen.se valid (nic.mora.se).
+ 38.993: alvdalen.se INFO SOA MNAME for alvdalen.se (nic.mora.se) listed as NS.
+ 39.141: alvdalen.se INFO SOA MNAME for alvdalen.se (nic.mora.se) is authoritative.
+ 39.142: alvdalen.se INFO Begin testing email address hostmaster@mora.se.
+ 39.261: alvdalen.se INFO Mail exchangers for hostmaster@mora.se found mx2.daladatorer.net.
+ 39.262: alvdalen.se INFO Begin testing host mx2.daladatorer.net.
+ 39.635: alvdalen.se INFO Begin testing address 62.101.37.25.
+ 40.271: alvdalen.se INFO Done testing address 62.101.37.25.
+ 40.271: alvdalen.se INFO Done testing host mx2.daladatorer.net.
+ 40.493: alvdalen.se INFO Done testing email address hostmaster@mora.se.
+ 40.493: alvdalen.se INFO Successful attempt to deliver email for SOA RNAME of alvdalen.se (hostmaster.mora.se) using hostmaster@mora.se.
+ 40.493: alvdalen.se INFO SOA TTL for alvdalen.se OK (3600) - recommended >= 3600.
+ 40.493: alvdalen.se INFO SOA refresh for alvdalen.se OK (28800) - recommended >= 14400.
+ 40.493: alvdalen.se INFO SOA retry for alvdalen.se OK (7200) - recommended >= 3600.
+ 40.493: alvdalen.se INFO SOA expire for alvdalen.se OK (604800) - recommended >= 604800.
+ 40.493: alvdalen.se INFO SOA minimum for alvdalen.se OK (86400) - recommended between 300 and 86400.
+ 40.493: alvdalen.se INFO Done testing SOA parameters for alvdalen.se.
+ 40.493: alvdalen.se INFO Begin testing connectivity for alvdalen.se.
+ 41.643: alvdalen.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 41.643: alvdalen.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 41.644: alvdalen.se INFO Done testing connectivity for alvdalen.se.
+ 41.644: alvdalen.se INFO Begin testing DNSSEC for alvdalen.se.
+ 41.688: alvdalen.se INFO Did not find DS record for alvdalen.se at parent.
+ 41.773: alvdalen.se INFO Servers for alvdalen.se have consistent extra processing status.
+ 41.797: alvdalen.se INFO Authenticated denial records not found for alvdalen.se.
+ 41.836: alvdalen.se INFO Did not find DNSKEY record for alvdalen.se at child.
+ 41.836: alvdalen.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 41.836: alvdalen.se INFO Done testing DNSSEC for alvdalen.se.
+ 41.846: alvdalen.se INFO Test completed for zone alvdalen.se.

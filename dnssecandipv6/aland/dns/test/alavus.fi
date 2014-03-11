@@ -1,0 +1,91 @@
+  0.000: alavus.fi INFO Begin testing zone alavus.fi with version 1.5.0.
+  0.412: alavus.fi INFO Begin testing delegation for alavus.fi.
+ 11.485: alavus.fi INFO Name servers listed at parent: dns1.6net.fi,dns2.6net.fi
+ 13.865: alavus.fi INFO Name servers listed at child: dns1.6net.fi,dns2.6net.fi
+ 13.865: alavus.fi NOTICE No IPv6 name servers found.
+ 13.909: alavus.fi INFO Parent glue for alavus.fi found: dns1.6net.fi (81.209.108.14)
+ 14.049: alavus.fi INFO Parent glue for alavus.fi found: dns2.6net.fi (81.209.108.34)
+ 14.101: alavus.fi INFO Checking glue for dns1.6net.fi (81.209.108.14).
+ 14.101: alavus.fi INFO Checking glue for dns2.6net.fi (81.209.108.34).
+ 14.101: alavus.fi INFO Parent glue for alavus.fi found: dns1.6net.fi (81.209.108.14)
+ 14.102: alavus.fi INFO Parent glue for alavus.fi found: dns2.6net.fi (81.209.108.34)
+ 15.165: alavus.fi INFO It is possible to build a referral packet for alavus.fi that works without EDNS0.
+ 16.002: alavus.fi INFO Previously used name servers for alavus.fi: 
+ 16.002: alavus.fi INFO Done testing delegation for alavus.fi.
+ 16.003: alavus.fi INFO Begin testing name server dns1.6net.fi.
+ 16.003: alavus.fi INFO Begin testing host dns1.6net.fi.
+ 16.453: alavus.fi INFO Begin testing address 81.209.108.14.
+ 27.192: alavus.fi INFO Done testing address 81.209.108.14.
+ 27.192: alavus.fi INFO Done testing host dns1.6net.fi.
+ 27.852: alavus.fi INFO Name server dns1.6net.fi (81.209.108.14) answers queries over UDP.
+ 32.875: alavus.fi NOTICE DNS lookup error (connection failed).
+ 32.876: alavus.fi ERROR Name server dns1.6net.fi (81.209.108.14) does not answer queries over TCP.
+ 32.940: alavus.fi INFO Name server dns1.6net.fi (81.209.108.14) is not recursive.
+ 38.156: alavus.fi NOTICE DNS lookup error (connection failed).
+ 38.156: alavus.fi INFO Name server dns1.6net.fi (81.209.108.14) authoritative for alavus.fi.
+ 38.156: alavus.fi INFO Name server dns1.6net.fi (81.209.108.14) not checked for zone transfer of alavus.fi.
+ 38.156: alavus.fi INFO Name server dns1.6net.fi (81.209.108.14) not checked for legacy name server ID.
+ 38.156: alavus.fi INFO Done testing name server dns1.6net.fi.
+ 38.156: alavus.fi INFO Begin testing name server dns2.6net.fi.
+ 38.156: alavus.fi INFO Begin testing host dns2.6net.fi.
+ 38.644: alavus.fi INFO Begin testing address 81.209.108.34.
+ 40.366: alavus.fi INFO Done testing address 81.209.108.34.
+ 40.366: alavus.fi INFO Done testing host dns2.6net.fi.
+ 41.120: alavus.fi INFO Name server dns2.6net.fi (81.209.108.34) answers queries over UDP.
+ 46.143: alavus.fi NOTICE DNS lookup error (connection failed).
+ 46.144: alavus.fi ERROR Name server dns2.6net.fi (81.209.108.34) does not answer queries over TCP.
+ 46.265: alavus.fi INFO Name server dns2.6net.fi (81.209.108.34) is not recursive.
+ 51.569: alavus.fi NOTICE DNS lookup error (connection failed).
+ 51.569: alavus.fi INFO Name server dns2.6net.fi (81.209.108.34) authoritative for alavus.fi.
+ 51.569: alavus.fi INFO Name server dns2.6net.fi (81.209.108.34) not checked for zone transfer of alavus.fi.
+ 51.569: alavus.fi INFO Name server dns2.6net.fi (81.209.108.34) not checked for legacy name server ID.
+ 51.569: alavus.fi INFO Done testing name server dns2.6net.fi.
+ 51.569: alavus.fi INFO Begin testing zone consistency for alavus.fi.
+ 53.356: alavus.fi INFO SOA at address 81.209.108.14 has serial 2013080500.
+ 53.377: alavus.fi INFO SOA at address 81.209.108.34 has serial 2013080500.
+ 53.377: alavus.fi INFO All SOA records have consistent serial numbers.
+ 53.377: alavus.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 54.132: alavus.fi NOTICE The listed nameservers for alavus.fi all report the same set of nameservers.
+ 54.132: alavus.fi INFO Done testing zone consistency for alavus.fi.
+ 54.132: alavus.fi INFO Begin testing SOA parameters for alavus.fi.
+ 54.152: alavus.fi INFO Found SOA record for alavus.fi.
+ 54.152: alavus.fi INFO Begin testing host dns1.6net.fi.
+ 54.560: alavus.fi INFO Begin testing address 81.209.108.14.
+ 54.815: alavus.fi INFO Done testing address 81.209.108.14.
+ 54.815: alavus.fi INFO Done testing host dns1.6net.fi.
+ 54.815: alavus.fi INFO SOA MNAME for alavus.fi valid (dns1.6net.fi).
+ 54.815: alavus.fi INFO SOA MNAME for alavus.fi (dns1.6net.fi) listed as NS.
+ 55.120: alavus.fi INFO SOA MNAME for alavus.fi (dns1.6net.fi) is authoritative.
+ 55.120: alavus.fi INFO Begin testing email address hostmaster@6net.fi.
+ 55.397: alavus.fi INFO Mail exchangers for hostmaster@6net.fi found smtp1.6net.fi,smtp2.6net.fi.
+ 55.398: alavus.fi INFO Begin testing host smtp1.6net.fi.
+ 56.024: alavus.fi INFO Begin testing address 81.209.108.35.
+ 57.064: alavus.fi INFO Done testing address 81.209.108.35.
+ 57.065: alavus.fi INFO Done testing host smtp1.6net.fi.
+ 57.321: alavus.fi INFO Begin testing host smtp2.6net.fi.
+ 57.902: alavus.fi INFO Begin testing address 81.209.108.36.
+ 58.889: alavus.fi INFO Done testing address 81.209.108.36.
+ 58.889: alavus.fi INFO Done testing host smtp2.6net.fi.
+ 59.158: alavus.fi INFO Done testing email address hostmaster@6net.fi.
+ 59.158: alavus.fi INFO Successful attempt to deliver email for SOA RNAME of alavus.fi (hostmaster.6net.fi) using hostmaster@6net.fi.
+ 59.158: alavus.fi INFO SOA TTL for alavus.fi OK (86400) - recommended >= 3600.
+ 59.158: alavus.fi INFO SOA refresh for alavus.fi OK (28800) - recommended >= 14400.
+ 59.158: alavus.fi INFO SOA retry for alavus.fi OK (7200) - recommended >= 3600.
+ 59.159: alavus.fi INFO SOA expire for alavus.fi OK (604800) - recommended >= 604800.
+ 59.159: alavus.fi INFO SOA minimum for alavus.fi OK (86400) - recommended between 300 and 86400.
+ 59.159: alavus.fi INFO Done testing SOA parameters for alavus.fi.
+ 59.159: alavus.fi INFO Begin testing connectivity for alavus.fi.
+ 60.258: alavus.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 60.258: alavus.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 60.258: alavus.fi INFO Done testing connectivity for alavus.fi.
+ 60.258: alavus.fi INFO Begin testing DNSSEC for alavus.fi.
+ 60.317: alavus.fi INFO Did not find DS record for alavus.fi at parent.
+ 65.345: alavus.fi NOTICE DNS lookup error (connection failed).
+ 70.373: alavus.fi NOTICE DNS lookup error (connection failed).
+ 70.373: alavus.fi INFO Servers for alavus.fi have consistent extra processing status.
+ 80.420: alavus.fi NOTICE DNS lookup error (connection failed).
+ 80.420: alavus.fi INFO Authenticated denial records not found for alavus.fi.
+ 80.532: alavus.fi INFO Did not find DNSKEY record for alavus.fi at child.
+ 80.532: alavus.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 80.532: alavus.fi INFO Done testing DNSSEC for alavus.fi.
+ 80.532: alavus.fi INFO Test completed for zone alavus.fi.

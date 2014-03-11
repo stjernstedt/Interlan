@@ -1,0 +1,103 @@
+  0.000: smelink.se INFO Begin testing zone smelink.se with version 1.5.0.
+  0.002: smelink.se INFO Begin testing delegation for smelink.se.
+ 12.627: smelink.se INFO Name servers listed at parent: ns1.smelink.se,ns2.smelink.se
+ 15.188: smelink.se INFO Name servers listed at child: ns1.smelink.se,ns2.smelink.se
+ 15.189: smelink.se NOTICE No IPv6 name servers found.
+ 15.261: smelink.se INFO Parent glue for smelink.se found: ns1.smelink.se (91.189.40.8)
+ 15.460: smelink.se INFO Parent glue for smelink.se found: ns2.smelink.se (91.189.41.8)
+ 15.504: smelink.se INFO Checking glue for ns1.smelink.se (91.189.40.8).
+ 15.561: smelink.se INFO Child glue for smelink.se found: ns1.smelink.se (91.189.40.8)
+ 15.561: smelink.se INFO Checking glue for ns2.smelink.se (91.189.41.8).
+ 15.597: smelink.se INFO Child glue for smelink.se found: ns2.smelink.se (91.189.41.8)
+ 15.597: smelink.se INFO Parent glue for smelink.se found: ns1.smelink.se (91.189.40.8)
+ 15.598: smelink.se INFO Parent glue for smelink.se found: ns2.smelink.se (91.189.41.8)
+ 16.768: smelink.se INFO It is possible to build a referral packet for smelink.se that works without EDNS0.
+ 16.768: smelink.se INFO Done testing delegation for smelink.se.
+ 16.769: smelink.se INFO Begin testing name server ns1.smelink.se.
+ 16.769: smelink.se INFO Begin testing host ns1.smelink.se.
+ 17.205: smelink.se INFO Begin testing address 91.189.40.8.
+ 25.132: smelink.se INFO Done testing address 91.189.40.8.
+ 25.132: smelink.se INFO Done testing host ns1.smelink.se.
+ 25.563: smelink.se INFO Name server ns1.smelink.se (91.189.40.8) answers queries over UDP.
+ 25.606: smelink.se INFO Name server ns1.smelink.se (91.189.40.8) answers queries over TCP.
+ 25.660: smelink.se INFO Name server ns1.smelink.se (91.189.40.8) is not recursive.
+ 25.817: smelink.se INFO Name server ns1.smelink.se (91.189.40.8) authoritative for smelink.se.
+ 25.900: smelink.se INFO Name server ns1.smelink.se (91.189.40.8) closed for zone transfer of smelink.se.
+ 25.922: smelink.se INFO Legacy name server ID for ns1.smelink.se (91.189.40.8): hostname.bind = ns1-smelink
+ 25.991: smelink.se INFO Legacy name server ID for ns1.smelink.se (91.189.40.8): version.bind = N/A
+ 26.091: smelink.se NOTICE No answer received from 91.189.40.8 when querying for version.server/CH/TXT.
+ 26.091: smelink.se INFO Done testing name server ns1.smelink.se.
+ 26.092: smelink.se INFO Begin testing name server ns2.smelink.se.
+ 26.092: smelink.se INFO Begin testing host ns2.smelink.se.
+ 26.612: smelink.se INFO Begin testing address 91.189.41.8.
+ 27.680: smelink.se INFO Done testing address 91.189.41.8.
+ 27.680: smelink.se INFO Done testing host ns2.smelink.se.
+ 28.170: smelink.se INFO Name server ns2.smelink.se (91.189.41.8) answers queries over UDP.
+ 28.300: smelink.se INFO Name server ns2.smelink.se (91.189.41.8) answers queries over TCP.
+ 28.384: smelink.se INFO Name server ns2.smelink.se (91.189.41.8) is not recursive.
+ 28.584: smelink.se INFO Name server ns2.smelink.se (91.189.41.8) authoritative for smelink.se.
+ 28.628: smelink.se INFO Name server ns2.smelink.se (91.189.41.8) closed for zone transfer of smelink.se.
+ 28.646: smelink.se INFO Legacy name server ID for ns2.smelink.se (91.189.41.8): hostname.bind = ns2-smelink
+ 28.663: smelink.se INFO Legacy name server ID for ns2.smelink.se (91.189.41.8): version.bind = N/A
+ 28.701: smelink.se NOTICE No answer received from 91.189.41.8 when querying for version.server/CH/TXT.
+ 28.701: smelink.se INFO Done testing name server ns2.smelink.se.
+ 28.702: smelink.se INFO Begin testing zone consistency for smelink.se.
+ 30.653: smelink.se INFO SOA at address 91.189.41.8 has serial 2013012101.
+ 30.724: smelink.se INFO SOA at address 91.189.40.8 has serial 2013012101.
+ 30.725: smelink.se INFO All SOA records have consistent serial numbers.
+ 30.725: smelink.se INFO All other fields in the SOA record are consistent among all name servers.
+ 31.459: smelink.se NOTICE The listed nameservers for smelink.se all report the same set of nameservers.
+ 31.459: smelink.se INFO Done testing zone consistency for smelink.se.
+ 31.459: smelink.se INFO Begin testing SOA parameters for smelink.se.
+ 31.489: smelink.se INFO Found SOA record for smelink.se.
+ 31.489: smelink.se INFO Begin testing host ns1.smelink.se.
+ 31.895: smelink.se INFO Begin testing address 91.189.40.8.
+ 32.395: smelink.se INFO Done testing address 91.189.40.8.
+ 32.403: smelink.se INFO Done testing host ns1.smelink.se.
+ 32.404: smelink.se INFO SOA MNAME for smelink.se valid (ns1.smelink.se).
+ 32.404: smelink.se INFO SOA MNAME for smelink.se (ns1.smelink.se) listed as NS.
+ 32.854: smelink.se INFO SOA MNAME for smelink.se (ns1.smelink.se) is authoritative.
+ 32.854: smelink.se INFO Begin testing email address registry@smelink.se.
+ 33.295: smelink.se INFO Mail exchangers for registry@smelink.se found smtp-fe.ballou.se.
+ 33.307: smelink.se INFO Begin testing host smtp-fe.ballou.se.
+ 34.255: smelink.se INFO Begin testing address 91.189.40.103.
+ 35.900: smelink.se INFO Done testing address 91.189.40.103.
+ 35.900: smelink.se INFO Begin testing address 91.189.40.104.
+ 41.046: smelink.se INFO Done testing address 91.189.40.104.
+ 41.047: smelink.se INFO Begin testing address 91.189.40.105.
+ 42.370: smelink.se INFO Done testing address 91.189.40.105.
+ 42.370: smelink.se INFO Begin testing address 91.189.40.106.
+ 43.791: smelink.se INFO Done testing address 91.189.40.106.
+ 43.792: smelink.se INFO Begin testing address 91.189.40.82.
+ 45.003: smelink.se INFO Done testing address 91.189.40.82.
+ 45.004: smelink.se INFO Begin testing address 91.189.40.83.
+ 46.199: smelink.se INFO Done testing address 91.189.40.83.
+ 46.199: smelink.se INFO Begin testing address 91.189.40.84.
+ 47.454: smelink.se INFO Done testing address 91.189.40.84.
+ 47.454: smelink.se INFO Begin testing address 91.189.40.85.
+ 48.636: smelink.se INFO Done testing address 91.189.40.85.
+ 48.636: smelink.se INFO Begin testing address 91.189.40.101.
+ 50.046: smelink.se INFO Done testing address 91.189.40.101.
+ 50.046: smelink.se INFO Begin testing address 91.189.40.102.
+ 51.412: smelink.se INFO Done testing address 91.189.40.102.
+ 51.412: smelink.se INFO Done testing host smtp-fe.ballou.se.
+ 51.660: smelink.se INFO Done testing email address registry@smelink.se.
+ 51.660: smelink.se INFO Successful attempt to deliver email for SOA RNAME of smelink.se (registry.smelink.se) using registry@smelink.se.
+ 51.660: smelink.se INFO SOA TTL for smelink.se OK (3600) - recommended >= 3600.
+ 51.661: smelink.se NOTICE SOA refresh for smelink.se too small (3600) - recommended >= 14400.
+ 51.661: smelink.se NOTICE SOA retry for smelink.se too small (900) - recommended >= 3600.
+ 51.661: smelink.se INFO SOA expire for smelink.se OK (604800) - recommended >= 604800.
+ 51.661: smelink.se INFO SOA minimum for smelink.se OK (3600) - recommended between 300 and 86400.
+ 51.661: smelink.se INFO Done testing SOA parameters for smelink.se.
+ 51.661: smelink.se INFO Begin testing connectivity for smelink.se.
+ 52.979: smelink.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 52.979: smelink.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 52.979: smelink.se INFO Done testing connectivity for smelink.se.
+ 52.980: smelink.se INFO Begin testing DNSSEC for smelink.se.
+ 52.992: smelink.se INFO Did not find DS record for smelink.se at parent.
+ 53.065: smelink.se INFO Servers for smelink.se have consistent extra processing status.
+ 53.112: smelink.se INFO Authenticated denial records not found for smelink.se.
+ 53.133: smelink.se INFO Did not find DNSKEY record for smelink.se at child.
+ 53.133: smelink.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 53.133: smelink.se INFO Done testing DNSSEC for smelink.se.
+ 53.134: smelink.se INFO Test completed for zone smelink.se.

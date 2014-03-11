@@ -1,0 +1,92 @@
+  0.000: inari.fi INFO Begin testing zone inari.fi with version 1.5.0.
+  0.257: inari.fi INFO Begin testing delegation for inari.fi.
+ 14.442: inari.fi INFO Name servers listed at parent: ns1.solinum.fi,ns2.solinum.fi
+ 18.786: inari.fi INFO Name servers listed at child: ns1.solinum.fi,ns2.solinum.fi
+ 18.786: inari.fi NOTICE No IPv6 name servers found.
+ 31.420: inari.fi NOTICE DNS lookup error (query timed out).
+ 43.527: inari.fi NOTICE DNS lookup error (query timed out).
+ 55.599: inari.fi NOTICE DNS lookup error (query timed out).
+ 67.690: inari.fi NOTICE DNS lookup error (query timed out).
+ 68.959: inari.fi INFO It is possible to build a referral packet for inari.fi that works without EDNS0.
+ 70.866: inari.fi INFO Previously used name servers for inari.fi: 
+ 70.866: inari.fi INFO Done testing delegation for inari.fi.
+ 70.866: inari.fi INFO Begin testing name server ns1.solinum.fi.
+ 70.867: inari.fi INFO Begin testing host ns1.solinum.fi.
+ 71.866: inari.fi INFO Begin testing address 194.89.113.165.
+100.562: inari.fi WARNING Could not find reverse address for 194.89.113.165 (165.113.89.194.in-addr.arpa.).
+100.562: inari.fi INFO Done testing address 194.89.113.165.
+100.562: inari.fi INFO Done testing host ns1.solinum.fi.
+101.470: inari.fi INFO Name server ns1.solinum.fi (194.89.113.165) answers queries over UDP.
+106.585: inari.fi NOTICE DNS lookup error (connection failed).
+106.585: inari.fi ERROR Name server ns1.solinum.fi (194.89.113.165) does not answer queries over TCP.
+112.623: inari.fi INFO Name server ns1.solinum.fi (194.89.113.165) is not recursive.
+117.887: inari.fi NOTICE DNS lookup error (connection failed).
+117.887: inari.fi INFO Name server ns1.solinum.fi (194.89.113.165) authoritative for inari.fi.
+117.887: inari.fi INFO Name server ns1.solinum.fi (194.89.113.165) not checked for zone transfer of inari.fi.
+117.888: inari.fi INFO Name server ns1.solinum.fi (194.89.113.165) not checked for legacy name server ID.
+117.888: inari.fi INFO Done testing name server ns1.solinum.fi.
+117.888: inari.fi INFO Begin testing name server ns2.solinum.fi.
+117.888: inari.fi INFO Begin testing host ns2.solinum.fi.
+118.608: inari.fi INFO Begin testing address 194.89.113.166.
+120.100: inari.fi WARNING Could not find reverse address for 194.89.113.166 (166.113.89.194.in-addr.arpa.).
+120.100: inari.fi INFO Done testing address 194.89.113.166.
+120.100: inari.fi INFO Done testing host ns2.solinum.fi.
+121.014: inari.fi INFO Name server ns2.solinum.fi (194.89.113.166) answers queries over UDP.
+126.085: inari.fi NOTICE DNS lookup error (connection failed).
+126.085: inari.fi ERROR Name server ns2.solinum.fi (194.89.113.166) does not answer queries over TCP.
+132.126: inari.fi INFO Name server ns2.solinum.fi (194.89.113.166) is not recursive.
+137.313: inari.fi NOTICE DNS lookup error (connection failed).
+137.313: inari.fi INFO Name server ns2.solinum.fi (194.89.113.166) authoritative for inari.fi.
+137.314: inari.fi INFO Name server ns2.solinum.fi (194.89.113.166) not checked for zone transfer of inari.fi.
+137.314: inari.fi INFO Name server ns2.solinum.fi (194.89.113.166) not checked for legacy name server ID.
+137.314: inari.fi INFO Done testing name server ns2.solinum.fi.
+137.314: inari.fi INFO Begin testing zone consistency for inari.fi.
+139.834: inari.fi INFO SOA at address 194.89.113.166 has serial 259200.
+139.922: inari.fi INFO SOA at address 194.89.113.165 has serial 259200.
+139.922: inari.fi INFO All SOA records have consistent serial numbers.
+139.922: inari.fi INFO All other fields in the SOA record are consistent among all name servers.
+141.350: inari.fi NOTICE The listed nameservers for inari.fi all report the same set of nameservers.
+141.350: inari.fi INFO Done testing zone consistency for inari.fi.
+141.350: inari.fi INFO Begin testing SOA parameters for inari.fi.
+141.448: inari.fi INFO Found SOA record for inari.fi.
+141.448: inari.fi INFO Begin testing host ns1.solinum.fi.
+142.158: inari.fi INFO Begin testing address 194.89.113.165.
+142.159: inari.fi WARNING Could not find reverse address for 194.89.113.165 (165.113.89.194.in-addr.arpa.).
+142.159: inari.fi INFO Done testing address 194.89.113.165.
+142.159: inari.fi INFO Done testing host ns1.solinum.fi.
+142.159: inari.fi INFO SOA MNAME for inari.fi valid (ns1.solinum.fi).
+142.159: inari.fi INFO SOA MNAME for inari.fi (ns1.solinum.fi) listed as NS.
+142.998: inari.fi INFO SOA MNAME for inari.fi (ns1.solinum.fi) is authoritative.
+142.998: inari.fi INFO Begin testing email address hostmaster@inari.fi.
+147.457: inari.fi INFO Mail exchangers for hostmaster@inari.fi found inari-fi.mail.eo.outlook.com.
+147.477: inari.fi INFO Begin testing host inari-fi.mail.eo.outlook.com.
+165.904: inari.fi INFO Begin testing address 213.199.154.87.
+171.668: inari.fi WARNING Could not find reverse address for 213.199.154.87 (87.154.199.213.in-addr.arpa.).
+171.668: inari.fi INFO Done testing address 213.199.154.87.
+171.668: inari.fi INFO Begin testing address 213.199.154.23.
+174.491: inari.fi WARNING Could not find reverse address for 213.199.154.23 (23.154.199.213.in-addr.arpa.).
+174.491: inari.fi INFO Done testing address 213.199.154.23.
+174.492: inari.fi INFO Done testing host inari-fi.mail.eo.outlook.com.
+176.363: inari.fi INFO Done testing email address hostmaster@inari.fi.
+176.363: inari.fi INFO Successful attempt to deliver email for SOA RNAME of inari.fi (hostmaster.inari.fi) using hostmaster@inari.fi.
+176.364: inari.fi NOTICE SOA TTL for inari.fi too small (2560) - recommended >= 3600.
+176.364: inari.fi INFO SOA refresh for inari.fi OK (16384) - recommended >= 14400.
+176.364: inari.fi NOTICE SOA retry for inari.fi too small (2048) - recommended >= 3600.
+176.364: inari.fi INFO SOA expire for inari.fi OK (1048576) - recommended >= 604800.
+176.364: inari.fi INFO SOA minimum for inari.fi OK (2560) - recommended between 300 and 86400.
+176.364: inari.fi INFO Done testing SOA parameters for inari.fi.
+176.364: inari.fi INFO Begin testing connectivity for inari.fi.
+178.456: inari.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+178.456: inari.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+178.456: inari.fi INFO Done testing connectivity for inari.fi.
+178.456: inari.fi INFO Begin testing DNSSEC for inari.fi.
+178.654: inari.fi INFO Did not find DS record for inari.fi at parent.
+183.677: inari.fi NOTICE DNS lookup error (connection failed).
+188.701: inari.fi NOTICE DNS lookup error (connection failed).
+188.701: inari.fi INFO Servers for inari.fi have consistent extra processing status.
+198.754: inari.fi NOTICE DNS lookup error (connection failed).
+198.754: inari.fi INFO Authenticated denial records not found for inari.fi.
+198.820: inari.fi INFO Did not find DNSKEY record for inari.fi at child.
+198.820: inari.fi INFO No DNSKEY(s) found at child, other tests skipped.
+198.820: inari.fi INFO Done testing DNSSEC for inari.fi.
+198.821: inari.fi INFO Test completed for zone inari.fi.

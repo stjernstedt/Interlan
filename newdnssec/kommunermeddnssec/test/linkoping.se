@@ -1,0 +1,103 @@
+  0.000: linkoping.se INFO Begin testing zone linkoping.se with version 1.6.1.
+  0.763: linkoping.se INFO Begin testing delegation for linkoping.se.
+ 29.760: linkoping.se INFO Name servers listed at parent: dns1.linkoping.se,dns1.telia.com,dns2.linkoping.se
+ 33.923: linkoping.se INFO Name servers listed at child: dns1.linkoping.se,dns1.telia.com,dns2.linkoping.se
+ 33.923: linkoping.se NOTICE No IPv6 name servers found.
+ 34.011: linkoping.se INFO Parent glue for linkoping.se found: dns1.linkoping.se (148.136.157.70)
+ 34.298: linkoping.se INFO Parent glue for linkoping.se found: dns2.linkoping.se (148.136.157.71)
+ 34.364: linkoping.se INFO Checking glue for dns1.linkoping.se (148.136.157.70).
+ 34.496: linkoping.se INFO Child glue for linkoping.se found: dns1.linkoping.se (148.136.157.70)
+ 34.496: linkoping.se INFO Checking glue for dns2.linkoping.se (148.136.157.71).
+ 34.595: linkoping.se INFO Child glue for linkoping.se found: dns2.linkoping.se (148.136.157.71)
+ 34.596: linkoping.se INFO Parent glue for linkoping.se found: dns1.linkoping.se (148.136.157.70)
+ 34.596: linkoping.se INFO Parent glue for linkoping.se found: dns2.linkoping.se (148.136.157.71)
+ 36.876: linkoping.se INFO It is possible to build a referral packet for linkoping.se that works without EDNS0.
+ 38.719: linkoping.se INFO Previously used name servers for linkoping.se: 
+ 38.719: linkoping.se INFO Done testing delegation for linkoping.se.
+ 38.720: linkoping.se INFO Begin testing name server dns1.linkoping.se.
+ 38.720: linkoping.se INFO Begin testing host dns1.linkoping.se.
+ 39.062: linkoping.se INFO Begin testing address 148.136.157.70.
+ 47.705: linkoping.se INFO Done testing address 148.136.157.70.
+ 47.706: linkoping.se INFO Done testing host dns1.linkoping.se.
+ 48.187: linkoping.se INFO Name server dns1.linkoping.se (148.136.157.70) answers queries over UDP.
+ 48.274: linkoping.se INFO Name server dns1.linkoping.se (148.136.157.70) answers queries over TCP.
+ 48.399: linkoping.se INFO Name server dns1.linkoping.se (148.136.157.70) is not recursive.
+ 48.568: linkoping.se INFO Name server dns1.linkoping.se (148.136.157.70) authoritative for linkoping.se.
+ 49.133: linkoping.se INFO Name server dns1.linkoping.se (148.136.157.70) closed for zone transfer of linkoping.se.
+ 49.194: linkoping.se NOTICE No answer received from 148.136.157.70 when querying for hostname.bind/CH/TXT.
+ 66.785: linkoping.se INFO Done testing name server dns1.linkoping.se.
+ 66.785: linkoping.se INFO Begin testing name server dns1.telia.com.
+ 66.785: linkoping.se INFO Begin testing host dns1.telia.com.
+ 67.290: linkoping.se INFO Begin testing address 81.228.11.67.
+ 80.276: linkoping.se INFO Done testing address 81.228.11.67.
+ 80.276: linkoping.se INFO Done testing host dns1.telia.com.
+ 80.848: linkoping.se INFO Name server dns1.telia.com (81.228.11.67) answers queries over UDP.
+ 80.878: linkoping.se INFO Name server dns1.telia.com (81.228.11.67) answers queries over TCP.
+ 80.903: linkoping.se INFO Name server dns1.telia.com (81.228.11.67) is not recursive.
+ 80.941: linkoping.se INFO Name server dns1.telia.com (81.228.11.67) authoritative for linkoping.se.
+ 81.077: linkoping.se INFO Name server dns1.telia.com (81.228.11.67) closed for zone transfer of linkoping.se.
+ 81.091: linkoping.se INFO Legacy name server ID for dns1.telia.com (81.228.11.67): hostname.bind = infradnshosting1-sn1.fre.skanova.net
+ 81.151: linkoping.se INFO Legacy name server ID for dns1.telia.com (81.228.11.67): version.bind = 9.9.3-P2
+ 81.180: linkoping.se NOTICE No answer received from 81.228.11.67 when querying for version.server/CH/TXT.
+ 81.183: linkoping.se INFO Done testing name server dns1.telia.com.
+ 81.183: linkoping.se INFO Begin testing name server dns2.linkoping.se.
+ 81.183: linkoping.se INFO Begin testing host dns2.linkoping.se.
+ 81.419: linkoping.se INFO Begin testing address 148.136.157.71.
+ 82.057: linkoping.se INFO Done testing address 148.136.157.71.
+ 82.057: linkoping.se INFO Done testing host dns2.linkoping.se.
+ 82.362: linkoping.se INFO Name server dns2.linkoping.se (148.136.157.71) answers queries over UDP.
+ 82.406: linkoping.se INFO Name server dns2.linkoping.se (148.136.157.71) answers queries over TCP.
+ 82.448: linkoping.se INFO Name server dns2.linkoping.se (148.136.157.71) is not recursive.
+ 82.585: linkoping.se INFO Name server dns2.linkoping.se (148.136.157.71) authoritative for linkoping.se.
+ 82.826: linkoping.se INFO Name server dns2.linkoping.se (148.136.157.71) closed for zone transfer of linkoping.se.
+ 82.858: linkoping.se NOTICE No answer received from 148.136.157.71 when querying for hostname.bind/CH/TXT.
+ 95.115: linkoping.se INFO Done testing name server dns2.linkoping.se.
+ 95.116: linkoping.se INFO Begin testing zone consistency for linkoping.se.
+ 96.454: linkoping.se INFO SOA at address 148.136.157.70 has serial 2014012805.
+ 96.495: linkoping.se INFO SOA at address 148.136.157.71 has serial 2014012805.
+ 96.512: linkoping.se INFO SOA at address 81.228.11.67 has serial 2014012805.
+ 96.512: linkoping.se INFO All SOA records have consistent serial numbers.
+ 96.512: linkoping.se INFO All other fields in the SOA record are consistent among all name servers.
+ 97.202: linkoping.se NOTICE The listed nameservers for linkoping.se all report the same set of nameservers.
+ 97.202: linkoping.se INFO Done testing zone consistency for linkoping.se.
+ 97.203: linkoping.se INFO Begin testing SOA parameters for linkoping.se.
+ 97.708: linkoping.se INFO Found SOA record for linkoping.se.
+ 97.709: linkoping.se INFO Begin testing host dns1.linkoping.se.
+ 97.799: linkoping.se INFO Begin testing address 148.136.157.70.
+ 97.987: linkoping.se INFO Done testing address 148.136.157.70.
+ 97.988: linkoping.se INFO Done testing host dns1.linkoping.se.
+ 97.988: linkoping.se INFO SOA MNAME for linkoping.se valid (dns1.linkoping.se).
+ 97.988: linkoping.se INFO SOA MNAME for linkoping.se (dns1.linkoping.se) listed as NS.
+ 98.175: linkoping.se INFO SOA MNAME for linkoping.se (dns1.linkoping.se) is authoritative.
+ 98.175: linkoping.se INFO Begin testing email address registry@linkoping.se.
+ 98.753: linkoping.se INFO Mail exchangers for registry@linkoping.se found smtp1.linkoping.se,smtp2.linkoping.se.
+ 98.753: linkoping.se INFO All mail servers for registry@linkoping.se are in zone linkoping.se.
+ 98.753: linkoping.se INFO Begin testing host smtp1.linkoping.se.
+ 98.998: linkoping.se INFO Begin testing address 148.136.157.191.
+ 99.530: linkoping.se INFO Done testing address 148.136.157.191.
+ 99.531: linkoping.se INFO Done testing host smtp1.linkoping.se.
+ 99.651: linkoping.se INFO Begin testing host smtp2.linkoping.se.
+ 99.831: linkoping.se INFO Begin testing address 148.136.157.192.
+100.347: linkoping.se INFO Done testing address 148.136.157.192.
+100.347: linkoping.se INFO Done testing host smtp2.linkoping.se.
+100.528: linkoping.se INFO Done testing email address registry@linkoping.se.
+100.528: linkoping.se INFO Successful attempt to deliver email for SOA RNAME of linkoping.se (registry.linkoping.se) using registry@linkoping.se.
+100.529: linkoping.se NOTICE SOA TTL for linkoping.se too small (900) - recommended >= 3600.
+100.529: linkoping.se NOTICE SOA refresh for linkoping.se too small (900) - recommended >= 14400.
+100.529: linkoping.se NOTICE SOA refresh for linkoping.se lower than retry (900 vs 3600).
+100.529: linkoping.se INFO SOA retry for linkoping.se OK (3600) - recommended >= 3600.
+100.529: linkoping.se NOTICE SOA expire for linkoping.se too small (86400) - recommended >= 604800.
+100.529: linkoping.se INFO SOA minimum for linkoping.se OK (900) - recommended between 300 and 86400.
+100.529: linkoping.se INFO Done testing SOA parameters for linkoping.se.
+100.529: linkoping.se INFO Begin testing connectivity for linkoping.se.
+102.250: linkoping.se NOTICE Zone announced by fewer than two IPv4 ASN.
+102.251: linkoping.se NOTICE Zone announced by fewer than two IPv6 ASN.
+102.251: linkoping.se INFO Done testing connectivity for linkoping.se.
+102.251: linkoping.se INFO Begin testing DNSSEC for linkoping.se.
+102.280: linkoping.se INFO Did not find DS record for linkoping.se at parent.
+102.359: linkoping.se INFO Servers for linkoping.se have consistent extra processing status.
+103.051: linkoping.se INFO Authenticated denial records not found for linkoping.se.
+103.064: linkoping.se INFO Did not find DNSKEY record for linkoping.se at child.
+103.064: linkoping.se INFO No DNSKEY(s) found at child, other tests skipped.
+103.064: linkoping.se INFO Done testing DNSSEC for linkoping.se.
+103.064: linkoping.se INFO Test completed for zone linkoping.se.

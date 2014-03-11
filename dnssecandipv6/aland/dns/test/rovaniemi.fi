@@ -1,0 +1,183 @@
+  0.000: rovaniemi.fi INFO Begin testing zone rovaniemi.fi with version 1.5.0.
+  1.496: rovaniemi.fi INFO Begin testing delegation for rovaniemi.fi.
+ 53.472: rovaniemi.fi INFO Name servers listed at parent: ns.rovaniemi.fi,ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 85.066: rovaniemi.fi INFO Name servers listed at child: ns.rovaniemi.fi,ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 85.690: rovaniemi.fi INFO Parent glue for rovaniemi.fi found: ns.rovaniemi.fi (193.106.8.100)
+ 87.194: rovaniemi.fi INFO Parent glue for rovaniemi.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+ 88.013: rovaniemi.fi INFO Parent glue for rovaniemi.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+ 89.359: rovaniemi.fi INFO Parent glue for rovaniemi.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+ 89.926: rovaniemi.fi INFO Parent glue for rovaniemi.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+ 90.798: rovaniemi.fi INFO Checking glue for ns.rovaniemi.fi (193.106.8.100).
+ 91.512: rovaniemi.fi INFO Child glue for rovaniemi.fi found: ns.rovaniemi.fi (193.106.8.100)
+ 91.512: rovaniemi.fi INFO Checking glue for ns1-fin.global.sonera.fi (193.210.18.31).
+ 91.512: rovaniemi.fi INFO Checking glue for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53).
+ 91.512: rovaniemi.fi INFO Checking glue for ns2-fin.global.sonera.fi (195.156.148.158).
+ 91.512: rovaniemi.fi INFO Checking glue for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53).
+ 91.513: rovaniemi.fi INFO Parent glue for rovaniemi.fi found: ns.rovaniemi.fi (193.106.8.100)
+ 91.513: rovaniemi.fi INFO Parent glue for rovaniemi.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+ 91.513: rovaniemi.fi INFO Parent glue for rovaniemi.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+ 91.514: rovaniemi.fi INFO Parent glue for rovaniemi.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+ 91.514: rovaniemi.fi INFO Parent glue for rovaniemi.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+102.751: rovaniemi.fi INFO It is possible to build a referral packet for rovaniemi.fi that works without EDNS0.
+107.568: rovaniemi.fi INFO Previously used name servers for rovaniemi.fi: 
+107.568: rovaniemi.fi INFO Done testing delegation for rovaniemi.fi.
+107.569: rovaniemi.fi INFO Begin testing name server ns.rovaniemi.fi.
+107.569: rovaniemi.fi INFO Begin testing host ns.rovaniemi.fi.
+109.812: rovaniemi.fi INFO Begin testing address 193.106.8.100.
+227.332: rovaniemi.fi INFO Done testing address 193.106.8.100.
+227.332: rovaniemi.fi INFO Done testing host ns.rovaniemi.fi.
+231.893: rovaniemi.fi INFO Name server ns.rovaniemi.fi (193.106.8.100) answers queries over UDP.
+237.452: rovaniemi.fi NOTICE DNS lookup error (connection failed).
+237.452: rovaniemi.fi ERROR Name server ns.rovaniemi.fi (193.106.8.100) does not answer queries over TCP.
+243.221: rovaniemi.fi INFO Name server ns.rovaniemi.fi (193.106.8.100) is not recursive.
+249.621: rovaniemi.fi NOTICE DNS lookup error (connection failed).
+249.621: rovaniemi.fi INFO Name server ns.rovaniemi.fi (193.106.8.100) authoritative for rovaniemi.fi.
+249.622: rovaniemi.fi INFO Name server ns.rovaniemi.fi (193.106.8.100) not checked for zone transfer of rovaniemi.fi.
+249.622: rovaniemi.fi INFO Name server ns.rovaniemi.fi (193.106.8.100) not checked for legacy name server ID.
+249.622: rovaniemi.fi INFO Done testing name server ns.rovaniemi.fi.
+249.622: rovaniemi.fi INFO Begin testing name server ns1-fin.global.sonera.fi.
+249.622: rovaniemi.fi INFO Begin testing host ns1-fin.global.sonera.fi.
+249.622: rovaniemi.fi INFO Begin testing address 193.210.18.31.
+253.353: rovaniemi.fi INFO Done testing address 193.210.18.31.
+253.353: rovaniemi.fi INFO Begin testing address 2001:2060:ffdd:a01:0:0:0:53.
+272.289: rovaniemi.fi INFO Done testing address 2001:2060:ffdd:a01:0:0:0:53.
+272.289: rovaniemi.fi INFO Done testing host ns1-fin.global.sonera.fi.
+273.424: rovaniemi.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over UDP.
+273.855: rovaniemi.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over TCP.
+274.646: rovaniemi.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) is not recursive.
+277.413: rovaniemi.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) authoritative for rovaniemi.fi.
+277.752: rovaniemi.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) closed for zone transfer of rovaniemi.fi.
+278.158: rovaniemi.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): hostname.bind = mgda1
+278.516: rovaniemi.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): version.bind = TeliaSonera Finland DNS MGDA
+278.912: rovaniemi.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): id.server = mgda1
+279.272: rovaniemi.fi NOTICE No answer received from 193.210.18.31 when querying for version.server/CH/TXT.
+280.240: rovaniemi.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) answers queries over UDP.
+285.268: rovaniemi.fi NOTICE DNS lookup error (connection failed(IPv6 socket failure)).
+285.268: rovaniemi.fi ERROR Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) does not answer queries over TCP.
+285.656: rovaniemi.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) is not recursive.
+292.588: rovaniemi.fi NOTICE DNS lookup error (connection failed(IPv6 socket failure)).
+292.588: rovaniemi.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) authoritative for rovaniemi.fi.
+292.588: rovaniemi.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) not checked for zone transfer of rovaniemi.fi.
+292.588: rovaniemi.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) not checked for legacy name server ID.
+292.588: rovaniemi.fi INFO Done testing name server ns1-fin.global.sonera.fi.
+292.588: rovaniemi.fi INFO Begin testing name server ns1-swe.global.sonera.se.
+292.588: rovaniemi.fi INFO Begin testing host ns1-swe.global.sonera.se.
+292.589: rovaniemi.fi INFO Begin testing address 80.64.9.124.
+301.391: rovaniemi.fi INFO Done testing address 80.64.9.124.
+301.391: rovaniemi.fi INFO Begin testing address 2001:6e8:400:ffff:1:0:0:53.
+304.175: rovaniemi.fi INFO Done testing address 2001:6e8:400:ffff:1:0:0:53.
+304.175: rovaniemi.fi INFO Done testing host ns1-swe.global.sonera.se.
+304.806: rovaniemi.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over UDP.
+305.459: rovaniemi.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over TCP.
+306.031: rovaniemi.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) is not recursive.
+307.997: rovaniemi.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) authoritative for rovaniemi.fi.
+308.316: rovaniemi.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) closed for zone transfer of rovaniemi.fi.
+308.737: rovaniemi.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): hostname.bind = mgda3
+308.959: rovaniemi.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): version.bind = TeliaSonera Finland DNS MGDA
+309.264: rovaniemi.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): id.server = mgda3
+309.590: rovaniemi.fi NOTICE No answer received from 80.64.9.124 when querying for version.server/CH/TXT.
+310.306: rovaniemi.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over UDP.
+311.068: rovaniemi.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over TCP.
+311.409: rovaniemi.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) is not recursive.
+313.666: rovaniemi.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) authoritative for rovaniemi.fi.
+313.941: rovaniemi.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) closed for zone transfer of rovaniemi.fi.
+314.209: rovaniemi.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): hostname.bind = mgda3
+314.657: rovaniemi.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+314.862: rovaniemi.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): id.server = mgda3
+315.203: rovaniemi.fi NOTICE No answer received from 2001:6e8:400:ffff:1:0:0:53 when querying for version.server/CH/TXT.
+315.203: rovaniemi.fi INFO Done testing name server ns1-swe.global.sonera.se.
+315.203: rovaniemi.fi INFO Begin testing name server ns2-fin.global.sonera.fi.
+315.260: rovaniemi.fi INFO Begin testing host ns2-fin.global.sonera.fi.
+315.260: rovaniemi.fi INFO Begin testing address 195.156.148.158.
+317.917: rovaniemi.fi INFO Done testing address 195.156.148.158.
+317.917: rovaniemi.fi INFO Begin testing address 2001:2060:ffdd:a02:0:0:0:53.
+321.419: rovaniemi.fi INFO Done testing address 2001:2060:ffdd:a02:0:0:0:53.
+321.419: rovaniemi.fi INFO Done testing host ns2-fin.global.sonera.fi.
+322.959: rovaniemi.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over UDP.
+323.841: rovaniemi.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over TCP.
+324.109: rovaniemi.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) is not recursive.
+326.396: rovaniemi.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) authoritative for rovaniemi.fi.
+326.579: rovaniemi.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) closed for zone transfer of rovaniemi.fi.
+326.856: rovaniemi.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): hostname.bind = mgda2
+327.188: rovaniemi.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): version.bind = TeliaSonera Finland DNS MGDA
+327.484: rovaniemi.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): id.server = mgda2
+327.864: rovaniemi.fi NOTICE No answer received from 195.156.148.158 when querying for version.server/CH/TXT.
+328.557: rovaniemi.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) answers queries over UDP.
+329.330: rovaniemi.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) answers queries over TCP.
+329.790: rovaniemi.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) is not recursive.
+331.844: rovaniemi.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) authoritative for rovaniemi.fi.
+332.144: rovaniemi.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) closed for zone transfer of rovaniemi.fi.
+332.420: rovaniemi.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): hostname.bind = mgda1
+332.672: rovaniemi.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+333.000: rovaniemi.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): id.server = mgda1
+333.307: rovaniemi.fi NOTICE No answer received from 2001:2060:ffdd:a02:0:0:0:53 when querying for version.server/CH/TXT.
+333.307: rovaniemi.fi INFO Done testing name server ns2-fin.global.sonera.fi.
+333.307: rovaniemi.fi INFO Begin testing name server ns2-usa.global.sonera.net.
+333.403: rovaniemi.fi INFO Begin testing host ns2-usa.global.sonera.net.
+335.264: rovaniemi.fi INFO Begin testing address 46.38.190.56.
+343.890: rovaniemi.fi INFO Done testing address 46.38.190.56.
+343.890: rovaniemi.fi INFO Done testing host ns2-usa.global.sonera.net.
+348.738: rovaniemi.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over UDP.
+349.804: rovaniemi.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over TCP.
+350.056: rovaniemi.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) is not recursive.
+352.494: rovaniemi.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) authoritative for rovaniemi.fi.
+353.235: rovaniemi.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) closed for zone transfer of rovaniemi.fi.
+353.608: rovaniemi.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): hostname.bind = mgda5
+354.027: rovaniemi.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): version.bind = TeliaSonera Finland DNS MGDA
+354.524: rovaniemi.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): id.server = mgda5
+354.891: rovaniemi.fi NOTICE No answer received from 46.38.190.56 when querying for version.server/CH/TXT.
+354.891: rovaniemi.fi INFO Done testing name server ns2-usa.global.sonera.net.
+355.004: rovaniemi.fi INFO Begin testing zone consistency for rovaniemi.fi.
+368.206: rovaniemi.fi INFO SOA at address 2001:2060:ffdd:a01:0:0:0:53 has serial 2002111947.
+369.127: rovaniemi.fi INFO SOA at address 193.210.18.31 has serial 2002111947.
+369.963: rovaniemi.fi INFO SOA at address 80.64.9.124 has serial 2002111947.
+370.881: rovaniemi.fi INFO SOA at address 195.156.148.158 has serial 2002111947.
+371.465: rovaniemi.fi INFO SOA at address 2001:6e8:400:ffff:1:0:0:53 has serial 2002111947.
+372.029: rovaniemi.fi INFO SOA at address 193.106.8.100 has serial 2002111947.
+373.369: rovaniemi.fi INFO SOA at address 46.38.190.56 has serial 2002111947.
+374.369: rovaniemi.fi INFO SOA at address 2001:2060:ffdd:a02:0:0:0:53 has serial 2002111947.
+374.369: rovaniemi.fi INFO All SOA records have consistent serial numbers.
+374.369: rovaniemi.fi INFO All other fields in the SOA record are consistent among all name servers.
+385.514: rovaniemi.fi NOTICE The listed nameservers for rovaniemi.fi all report the same set of nameservers.
+385.514: rovaniemi.fi INFO Done testing zone consistency for rovaniemi.fi.
+385.515: rovaniemi.fi INFO Begin testing SOA parameters for rovaniemi.fi.
+386.397: rovaniemi.fi INFO Found SOA record for rovaniemi.fi.
+386.397: rovaniemi.fi INFO Begin testing host ns.rovaniemi.fi.
+388.869: rovaniemi.fi INFO Begin testing address 193.106.8.100.
+418.292: rovaniemi.fi INFO Done testing address 193.106.8.100.
+418.293: rovaniemi.fi INFO Done testing host ns.rovaniemi.fi.
+418.293: rovaniemi.fi INFO SOA MNAME for rovaniemi.fi valid (ns.rovaniemi.fi).
+418.293: rovaniemi.fi INFO SOA MNAME for rovaniemi.fi (ns.rovaniemi.fi) listed as NS.
+420.457: rovaniemi.fi INFO SOA MNAME for rovaniemi.fi (ns.rovaniemi.fi) is authoritative.
+420.457: rovaniemi.fi INFO Begin testing email address network@lapitoy.fi.
+422.908: rovaniemi.fi INFO Mail exchangers for network@lapitoy.fi found smtpgw1.lapitoy.fi,smtpgw2.lapitoy.fi.
+422.909: rovaniemi.fi INFO Begin testing host smtpgw1.lapitoy.fi.
+426.930: rovaniemi.fi INFO Begin testing address 193.106.9.27.
+433.173: rovaniemi.fi INFO Done testing address 193.106.9.27.
+433.173: rovaniemi.fi INFO Done testing host smtpgw1.lapitoy.fi.
+435.424: rovaniemi.fi INFO Begin testing host smtpgw2.lapitoy.fi.
+439.108: rovaniemi.fi INFO Begin testing address 193.106.9.28.
+446.518: rovaniemi.fi INFO Done testing address 193.106.9.28.
+446.518: rovaniemi.fi INFO Done testing host smtpgw2.lapitoy.fi.
+449.076: rovaniemi.fi INFO Done testing email address network@lapitoy.fi.
+449.077: rovaniemi.fi INFO Successful attempt to deliver email for SOA RNAME of rovaniemi.fi (network.lapitoy.fi) using network@lapitoy.fi.
+449.077: rovaniemi.fi INFO SOA TTL for rovaniemi.fi OK (3600) - recommended >= 3600.
+449.077: rovaniemi.fi NOTICE SOA refresh for rovaniemi.fi too small (300) - recommended >= 14400.
+449.077: rovaniemi.fi NOTICE SOA refresh for rovaniemi.fi lower than retry (300 vs 600).
+449.077: rovaniemi.fi NOTICE SOA retry for rovaniemi.fi too small (600) - recommended >= 3600.
+449.077: rovaniemi.fi INFO SOA expire for rovaniemi.fi OK (604800) - recommended >= 604800.
+449.077: rovaniemi.fi INFO SOA minimum for rovaniemi.fi OK (300) - recommended between 300 and 86400.
+449.077: rovaniemi.fi INFO Done testing SOA parameters for rovaniemi.fi.
+449.078: rovaniemi.fi INFO Begin testing connectivity for rovaniemi.fi.
+463.535: rovaniemi.fi INFO Zone announced by more than one ASN.
+471.382: rovaniemi.fi INFO Zone announced by more than one IPv6 ASN.
+471.382: rovaniemi.fi INFO Done testing connectivity for rovaniemi.fi.
+471.383: rovaniemi.fi INFO Begin testing DNSSEC for rovaniemi.fi.
+471.969: rovaniemi.fi INFO Did not find DS record for rovaniemi.fi at parent.
+478.012: rovaniemi.fi NOTICE DNS lookup error (connection failed).
+479.179: rovaniemi.fi INFO Servers for rovaniemi.fi have consistent extra processing status.
+479.455: rovaniemi.fi INFO Authenticated denial records not found for rovaniemi.fi.
+479.764: rovaniemi.fi INFO Did not find DNSKEY record for rovaniemi.fi at child.
+479.764: rovaniemi.fi INFO No DNSKEY(s) found at child, other tests skipped.
+479.764: rovaniemi.fi INFO Done testing DNSSEC for rovaniemi.fi.
+479.765: rovaniemi.fi INFO Test completed for zone rovaniemi.fi.

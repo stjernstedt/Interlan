@@ -1,0 +1,9 @@
+#!/bin/sh
+file=/tmp/$$
+
+cd /home/it-companies/public_html/kommits/scripts
+
+./ipv6 > $file
+cat $file > ../index.html
+rm $file
+

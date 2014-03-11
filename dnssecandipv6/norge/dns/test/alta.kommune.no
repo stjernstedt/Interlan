@@ -1,0 +1,81 @@
+  0.000: alta.kommune.no INFO Begin testing zone alta.kommune.no with version 1.6.1.
+  0.409: alta.kommune.no INFO Begin testing delegation for alta.kommune.no.
+  8.171: alta.kommune.no INFO Name servers listed at parent: ns.trollnet.no,ns1.react.no
+  9.449: alta.kommune.no INFO Name servers listed at child: ns.trollnet.no,ns1.react.no
+  9.449: alta.kommune.no NOTICE No IPv6 name servers found.
+  9.607: alta.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.763: alta.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.905: alta.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.031: alta.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.809: alta.kommune.no INFO It is possible to build a referral packet for alta.kommune.no that works without EDNS0.
+ 11.356: alta.kommune.no INFO Previously used name servers for alta.kommune.no: 
+ 11.356: alta.kommune.no INFO Done testing delegation for alta.kommune.no.
+ 11.356: alta.kommune.no INFO Begin testing name server ns.trollnet.no.
+ 11.356: alta.kommune.no INFO Begin testing host ns.trollnet.no.
+ 11.596: alta.kommune.no INFO Begin testing address 213.161.175.140.
+ 16.336: alta.kommune.no INFO Done testing address 213.161.175.140.
+ 16.336: alta.kommune.no INFO Done testing host ns.trollnet.no.
+ 16.589: alta.kommune.no INFO Name server ns.trollnet.no (213.161.175.140) answers queries over UDP.
+ 16.681: alta.kommune.no INFO Name server ns.trollnet.no (213.161.175.140) answers queries over TCP.
+ 16.731: alta.kommune.no INFO Name server ns.trollnet.no (213.161.175.140) is not recursive.
+ 16.998: alta.kommune.no INFO Name server ns.trollnet.no (213.161.175.140) authoritative for alta.kommune.no.
+ 17.316: alta.kommune.no INFO Name server ns.trollnet.no (213.161.175.140) closed for zone transfer of alta.kommune.no.
+ 17.366: alta.kommune.no NOTICE No answer received from 213.161.175.140 when querying for hostname.bind/CH/TXT.
+ 17.437: alta.kommune.no NOTICE No answer received from 213.161.175.140 when querying for version.bind/CH/TXT.
+ 17.499: alta.kommune.no NOTICE No answer received from 213.161.175.140 when querying for id.server/CH/TXT.
+ 17.540: alta.kommune.no NOTICE No answer received from 213.161.175.140 when querying for version.server/CH/TXT.
+ 17.540: alta.kommune.no INFO Done testing name server ns.trollnet.no.
+ 17.540: alta.kommune.no INFO Begin testing name server ns1.react.no.
+ 17.540: alta.kommune.no INFO Begin testing host ns1.react.no.
+ 17.735: alta.kommune.no INFO Begin testing address 77.106.184.184.
+ 18.204: alta.kommune.no INFO Done testing address 77.106.184.184.
+ 18.205: alta.kommune.no INFO Done testing host ns1.react.no.
+ 18.388: alta.kommune.no INFO Name server ns1.react.no (77.106.184.184) answers queries over UDP.
+ 18.431: alta.kommune.no INFO Name server ns1.react.no (77.106.184.184) answers queries over TCP.
+ 18.458: alta.kommune.no INFO Name server ns1.react.no (77.106.184.184) is not recursive.
+ 18.561: alta.kommune.no INFO Name server ns1.react.no (77.106.184.184) authoritative for alta.kommune.no.
+ 18.788: alta.kommune.no INFO Name server ns1.react.no (77.106.184.184) closed for zone transfer of alta.kommune.no.
+ 18.803: alta.kommune.no NOTICE No answer received from 77.106.184.184 when querying for hostname.bind/CH/TXT.
+ 18.819: alta.kommune.no NOTICE No answer received from 77.106.184.184 when querying for version.bind/CH/TXT.
+ 18.837: alta.kommune.no NOTICE No answer received from 77.106.184.184 when querying for id.server/CH/TXT.
+ 18.856: alta.kommune.no NOTICE No answer received from 77.106.184.184 when querying for version.server/CH/TXT.
+ 18.856: alta.kommune.no INFO Done testing name server ns1.react.no.
+ 18.856: alta.kommune.no INFO Begin testing zone consistency for alta.kommune.no.
+ 19.781: alta.kommune.no INFO SOA at address 77.106.184.184 has serial 2013111501.
+ 19.883: alta.kommune.no INFO SOA at address 213.161.175.140 has serial 2013111501.
+ 19.884: alta.kommune.no INFO All SOA records have consistent serial numbers.
+ 19.884: alta.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 20.497: alta.kommune.no NOTICE The listed nameservers for alta.kommune.no all report the same set of nameservers.
+ 20.497: alta.kommune.no INFO Done testing zone consistency for alta.kommune.no.
+ 20.497: alta.kommune.no INFO Begin testing SOA parameters for alta.kommune.no.
+ 20.518: alta.kommune.no INFO Found SOA record for alta.kommune.no.
+ 20.518: alta.kommune.no INFO Begin testing host ns.trollnet.no.
+ 20.714: alta.kommune.no INFO Begin testing address 213.161.175.140.
+ 20.943: alta.kommune.no INFO Done testing address 213.161.175.140.
+ 20.963: alta.kommune.no INFO Done testing host ns.trollnet.no.
+ 20.963: alta.kommune.no INFO SOA MNAME for alta.kommune.no valid (ns.trollnet.no).
+ 20.964: alta.kommune.no INFO SOA MNAME for alta.kommune.no (ns.trollnet.no) listed as NS.
+ 21.249: alta.kommune.no INFO SOA MNAME for alta.kommune.no (ns.trollnet.no) is authoritative.
+ 21.249: alta.kommune.no INFO Begin testing email address registrar2a3eltele@no.
+ 21.819: alta.kommune.no INFO All mail servers for registrar2a3eltele@no are in zone alta.kommune.no.
+ 21.819: alta.kommune.no NOTICE No mail exchanger found for domain no.
+ 21.819: alta.kommune.no INFO Done testing email address registrar2a3eltele@no.
+ 21.819: alta.kommune.no INFO Successful attempt to deliver email for SOA RNAME of alta.kommune.no (registrar2a3eltele.no) using registrar2a3eltele@no.
+ 21.819: alta.kommune.no NOTICE SOA TTL for alta.kommune.no too small (300) - recommended >= 3600.
+ 21.819: alta.kommune.no INFO SOA refresh for alta.kommune.no OK (14400) - recommended >= 14400.
+ 21.819: alta.kommune.no INFO SOA retry for alta.kommune.no OK (3600) - recommended >= 3600.
+ 21.819: alta.kommune.no INFO SOA expire for alta.kommune.no OK (604800) - recommended >= 604800.
+ 21.843: alta.kommune.no INFO SOA minimum for alta.kommune.no OK (300) - recommended between 300 and 86400.
+ 21.843: alta.kommune.no INFO Done testing SOA parameters for alta.kommune.no.
+ 21.844: alta.kommune.no INFO Begin testing connectivity for alta.kommune.no.
+ 23.181: alta.kommune.no INFO Zone announced by more than one ASN.
+ 23.181: alta.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 23.181: alta.kommune.no INFO Done testing connectivity for alta.kommune.no.
+ 23.181: alta.kommune.no INFO Begin testing DNSSEC for alta.kommune.no.
+ 23.308: alta.kommune.no INFO Did not find DS record for alta.kommune.no at parent.
+ 23.481: alta.kommune.no INFO Servers for alta.kommune.no have consistent extra processing status.
+ 23.532: alta.kommune.no INFO Authenticated denial records not found for alta.kommune.no.
+ 23.596: alta.kommune.no INFO Did not find DNSKEY record for alta.kommune.no at child.
+ 23.596: alta.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 23.596: alta.kommune.no INFO Done testing DNSSEC for alta.kommune.no.
+ 23.597: alta.kommune.no INFO Test completed for zone alta.kommune.no.

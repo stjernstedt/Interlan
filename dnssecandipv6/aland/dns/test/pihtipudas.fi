@@ -1,0 +1,97 @@
+  0.000: pihtipudas.fi INFO Begin testing zone pihtipudas.fi with version 1.5.0.
+  1.799: pihtipudas.fi INFO Begin testing delegation for pihtipudas.fi.
+ 47.410: pihtipudas.fi INFO Name servers listed at parent: ns1.kotinet.com,ns2.kotinet.com,ns3.kotinet.com
+ 61.986: pihtipudas.fi INFO Name servers listed at child: ns1.kotinet.com,ns2.kotinet.com,ns3.kotinet.com
+ 61.987: pihtipudas.fi NOTICE No IPv6 name servers found.
+ 72.687: pihtipudas.fi INFO It is possible to build a referral packet for pihtipudas.fi that works without EDNS0.
+ 77.900: pihtipudas.fi INFO Previously used name servers for pihtipudas.fi: 
+ 77.900: pihtipudas.fi INFO Done testing delegation for pihtipudas.fi.
+ 78.044: pihtipudas.fi INFO Begin testing name server ns1.kotinet.com.
+ 78.044: pihtipudas.fi INFO Begin testing host ns1.kotinet.com.
+ 79.959: pihtipudas.fi INFO Begin testing address 212.50.211.242.
+106.532: pihtipudas.fi INFO Done testing address 212.50.211.242.
+106.532: pihtipudas.fi INFO Done testing host ns1.kotinet.com.
+108.525: pihtipudas.fi INFO Name server ns1.kotinet.com (212.50.211.242) answers queries over UDP.
+108.863: pihtipudas.fi INFO Name server ns1.kotinet.com (212.50.211.242) answers queries over TCP.
+109.311: pihtipudas.fi INFO Name server ns1.kotinet.com (212.50.211.242) is not recursive.
+110.436: pihtipudas.fi INFO Name server ns1.kotinet.com (212.50.211.242) authoritative for pihtipudas.fi.
+110.722: pihtipudas.fi INFO Name server ns1.kotinet.com (212.50.211.242) closed for zone transfer of pihtipudas.fi.
+110.954: pihtipudas.fi INFO Legacy name server ID for ns1.kotinet.com (212.50.211.242): hostname.bind = ns1.kotinet.com
+111.439: pihtipudas.fi INFO Legacy name server ID for ns1.kotinet.com (212.50.211.242): version.bind = enkerro
+111.962: pihtipudas.fi NOTICE No answer received from 212.50.211.242 when querying for version.server/CH/TXT.
+111.963: pihtipudas.fi INFO Done testing name server ns1.kotinet.com.
+111.963: pihtipudas.fi INFO Begin testing name server ns2.kotinet.com.
+112.079: pihtipudas.fi INFO Begin testing host ns2.kotinet.com.
+113.764: pihtipudas.fi INFO Begin testing address 212.50.192.226.
+117.728: pihtipudas.fi INFO Done testing address 212.50.192.226.
+117.728: pihtipudas.fi INFO Done testing host ns2.kotinet.com.
+120.093: pihtipudas.fi INFO Name server ns2.kotinet.com (212.50.192.226) answers queries over UDP.
+120.473: pihtipudas.fi INFO Name server ns2.kotinet.com (212.50.192.226) answers queries over TCP.
+120.818: pihtipudas.fi INFO Name server ns2.kotinet.com (212.50.192.226) is not recursive.
+122.024: pihtipudas.fi INFO Name server ns2.kotinet.com (212.50.192.226) authoritative for pihtipudas.fi.
+122.275: pihtipudas.fi INFO Name server ns2.kotinet.com (212.50.192.226) closed for zone transfer of pihtipudas.fi.
+122.507: pihtipudas.fi INFO Legacy name server ID for ns2.kotinet.com (212.50.192.226): hostname.bind = ns2
+122.788: pihtipudas.fi INFO Legacy name server ID for ns2.kotinet.com (212.50.192.226): version.bind = enkerro
+123.231: pihtipudas.fi NOTICE No answer received from 212.50.192.226 when querying for version.server/CH/TXT.
+123.232: pihtipudas.fi INFO Done testing name server ns2.kotinet.com.
+123.232: pihtipudas.fi INFO Begin testing name server ns3.kotinet.com.
+123.232: pihtipudas.fi INFO Begin testing host ns3.kotinet.com.
+125.344: pihtipudas.fi INFO Begin testing address 82.141.108.26.
+129.460: pihtipudas.fi INFO Done testing address 82.141.108.26.
+129.460: pihtipudas.fi INFO Done testing host ns3.kotinet.com.
+131.604: pihtipudas.fi INFO Name server ns3.kotinet.com (82.141.108.26) answers queries over UDP.
+132.009: pihtipudas.fi INFO Name server ns3.kotinet.com (82.141.108.26) answers queries over TCP.
+132.427: pihtipudas.fi INFO Name server ns3.kotinet.com (82.141.108.26) is not recursive.
+133.393: pihtipudas.fi INFO Name server ns3.kotinet.com (82.141.108.26) authoritative for pihtipudas.fi.
+133.709: pihtipudas.fi INFO Name server ns3.kotinet.com (82.141.108.26) closed for zone transfer of pihtipudas.fi.
+134.002: pihtipudas.fi INFO Legacy name server ID for ns3.kotinet.com (82.141.108.26): hostname.bind = ns3.kotinet.com
+134.192: pihtipudas.fi INFO Legacy name server ID for ns3.kotinet.com (82.141.108.26): version.bind = enkerro
+134.675: pihtipudas.fi NOTICE No answer received from 82.141.108.26 when querying for version.server/CH/TXT.
+134.676: pihtipudas.fi INFO Done testing name server ns3.kotinet.com.
+134.676: pihtipudas.fi INFO Begin testing zone consistency for pihtipudas.fi.
+148.895: pihtipudas.fi INFO SOA at address 212.50.192.226 has serial 2013050715.
+149.381: pihtipudas.fi INFO SOA at address 82.141.108.26 has serial 2013050715.
+149.865: pihtipudas.fi INFO SOA at address 212.50.211.242 has serial 2013050715.
+149.865: pihtipudas.fi INFO All SOA records have consistent serial numbers.
+149.865: pihtipudas.fi INFO All other fields in the SOA record are consistent among all name servers.
+159.044: pihtipudas.fi NOTICE The listed nameservers for pihtipudas.fi all report the same set of nameservers.
+159.044: pihtipudas.fi INFO Done testing zone consistency for pihtipudas.fi.
+159.044: pihtipudas.fi INFO Begin testing SOA parameters for pihtipudas.fi.
+159.476: pihtipudas.fi INFO Found SOA record for pihtipudas.fi.
+159.477: pihtipudas.fi INFO Begin testing host ns1.kotinet.com.
+162.027: pihtipudas.fi INFO Begin testing address 212.50.211.242.
+164.260: pihtipudas.fi INFO Done testing address 212.50.211.242.
+164.260: pihtipudas.fi INFO Done testing host ns1.kotinet.com.
+164.260: pihtipudas.fi INFO SOA MNAME for pihtipudas.fi valid (ns1.kotinet.com).
+164.260: pihtipudas.fi INFO SOA MNAME for pihtipudas.fi (ns1.kotinet.com) listed as NS.
+167.330: pihtipudas.fi INFO SOA MNAME for pihtipudas.fi (ns1.kotinet.com) is authoritative.
+167.330: pihtipudas.fi INFO Begin testing email address hostmaster@ppo.fi.
+169.642: pihtipudas.fi INFO Mail exchangers for hostmaster@ppo.fi found raid1.kotinet.com,raid2.kotinet.com.
+169.643: pihtipudas.fi INFO Begin testing host raid1.kotinet.com.
+174.536: pihtipudas.fi INFO Begin testing address 212.50.215.90.
+180.148: pihtipudas.fi INFO Done testing address 212.50.215.90.
+180.148: pihtipudas.fi INFO Done testing host raid1.kotinet.com.
+183.188: pihtipudas.fi INFO Begin testing host raid2.kotinet.com.
+189.074: pihtipudas.fi INFO Begin testing address 212.50.215.91.
+194.101: pihtipudas.fi INFO Done testing address 212.50.215.91.
+194.101: pihtipudas.fi INFO Done testing host raid2.kotinet.com.
+197.009: pihtipudas.fi INFO Done testing email address hostmaster@ppo.fi.
+197.009: pihtipudas.fi INFO Successful attempt to deliver email for SOA RNAME of pihtipudas.fi (hostmaster.ppo.fi) using hostmaster@ppo.fi.
+197.163: pihtipudas.fi INFO SOA TTL for pihtipudas.fi OK (86400) - recommended >= 3600.
+197.163: pihtipudas.fi INFO SOA refresh for pihtipudas.fi OK (28800) - recommended >= 14400.
+197.163: pihtipudas.fi INFO SOA retry for pihtipudas.fi OK (7200) - recommended >= 3600.
+197.164: pihtipudas.fi INFO SOA expire for pihtipudas.fi OK (1209600) - recommended >= 604800.
+197.164: pihtipudas.fi INFO SOA minimum for pihtipudas.fi OK (86400) - recommended between 300 and 86400.
+197.164: pihtipudas.fi INFO Done testing SOA parameters for pihtipudas.fi.
+197.164: pihtipudas.fi INFO Begin testing connectivity for pihtipudas.fi.
+205.904: pihtipudas.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+205.904: pihtipudas.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+205.904: pihtipudas.fi INFO Done testing connectivity for pihtipudas.fi.
+205.904: pihtipudas.fi INFO Begin testing DNSSEC for pihtipudas.fi.
+206.531: pihtipudas.fi INFO Did not find DS record for pihtipudas.fi at parent.
+207.821: pihtipudas.fi INFO Servers for pihtipudas.fi have consistent extra processing status.
+208.107: pihtipudas.fi INFO Authenticated denial records not found for pihtipudas.fi.
+208.408: pihtipudas.fi INFO Did not find DNSKEY record for pihtipudas.fi at child.
+208.408: pihtipudas.fi INFO No DNSKEY(s) found at child, other tests skipped.
+208.408: pihtipudas.fi INFO Done testing DNSSEC for pihtipudas.fi.
+208.408: pihtipudas.fi INFO Test completed for zone pihtipudas.fi.

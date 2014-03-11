@@ -1,0 +1,153 @@
+  0.000: gavle.se INFO Begin testing zone gavle.se with version 1.6.1.
+  1.759: gavle.se INFO Begin testing delegation for gavle.se.
+ 18.132: gavle.se INFO Name servers listed at parent: ns.gavle.se,ns2.gavlenet.com
+ 21.829: gavle.se INFO Name servers listed at child: ns.gavle.se,ns2.gavlenet.com
+ 22.229: gavle.se INFO Parent glue for gavle.se found: ns.gavle.se (83.137.8.21)
+ 22.315: gavle.se INFO Parent glue for gavle.se found: ns.gavle.se (2a02:ea8:d:96:0:0:0:10)
+ 22.464: gavle.se INFO Checking glue for ns.gavle.se (83.137.8.21).
+ 22.533: gavle.se INFO Child glue for gavle.se found: ns.gavle.se (83.137.8.21)
+ 22.533: gavle.se INFO Checking glue for ns.gavle.se (2a02:ea8:d:96:0:0:0:10).
+ 22.613: gavle.se INFO Child glue for gavle.se found: ns.gavle.se (2a02:ea8:d:96:0:0:0:10)
+ 22.613: gavle.se INFO Parent glue for gavle.se found: ns.gavle.se (83.137.8.21)
+ 22.613: gavle.se INFO Parent glue for gavle.se found: ns.gavle.se (2a02:ea8:d:96:0:0:0:10)
+ 23.085: gavle.se INFO It is possible to build a referral packet for gavle.se that works without EDNS0.
+ 23.086: gavle.se INFO Previously used name servers for gavle.se: 
+ 23.086: gavle.se INFO Done testing delegation for gavle.se.
+ 23.086: gavle.se INFO Begin testing name server ns.gavle.se.
+ 23.086: gavle.se INFO Begin testing host ns.gavle.se.
+ 23.087: gavle.se INFO Begin testing address 83.137.8.21.
+ 34.473: gavle.se INFO Done testing address 83.137.8.21.
+ 34.474: gavle.se INFO Begin testing address 2a02:ea8:d:96:0:0:0:10.
+ 35.290: gavle.se INFO Done testing address 2a02:ea8:d:96:0:0:0:10.
+ 35.290: gavle.se INFO Done testing host ns.gavle.se.
+ 35.337: gavle.se INFO Name server ns.gavle.se (83.137.8.21) answers queries over UDP.
+ 39.835: gavle.se INFO Name server ns.gavle.se (83.137.8.21) answers queries over TCP.
+ 40.136: gavle.se INFO Name server ns.gavle.se (83.137.8.21) is not recursive.
+ 40.287: gavle.se INFO Name server ns.gavle.se (83.137.8.21) authoritative for gavle.se.
+ 40.358: gavle.se INFO Name server ns.gavle.se (83.137.8.21) closed for zone transfer of gavle.se.
+ 40.572: gavle.se INFO Legacy name server ID for ns.gavle.se (83.137.8.21): hostname.bind = bastion11
+ 44.658: gavle.se NOTICE No answer received from 83.137.8.21 when querying for version.server/CH/TXT.
+ 44.691: gavle.se INFO Name server ns.gavle.se (2a02:ea8:d:96:0:0:0:10) answers queries over UDP.
+ 44.766: gavle.se INFO Name server ns.gavle.se (2a02:ea8:d:96:0:0:0:10) answers queries over TCP.
+ 44.840: gavle.se INFO Name server ns.gavle.se (2a02:ea8:d:96:0:0:0:10) is not recursive.
+ 45.154: gavle.se INFO Name server ns.gavle.se (2a02:ea8:d:96:0:0:0:10) authoritative for gavle.se.
+ 45.209: gavle.se INFO Name server ns.gavle.se (2a02:ea8:d:96:0:0:0:10) closed for zone transfer of gavle.se.
+ 45.268: gavle.se INFO Legacy name server ID for ns.gavle.se (2a02:ea8:d:96:0:0:0:10): hostname.bind = bastion11
+ 45.327: gavle.se INFO Legacy name server ID for ns.gavle.se (2a02:ea8:d:96:0:0:0:10): version.bind = None of your business
+ 45.401: gavle.se NOTICE No answer received from 2a02:ea8:d:96:0:0:0:10 when querying for version.server/CH/TXT.
+ 45.401: gavle.se INFO Done testing name server ns.gavle.se.
+ 45.401: gavle.se INFO Begin testing name server ns2.gavlenet.com.
+ 45.401: gavle.se INFO Begin testing host ns2.gavlenet.com.
+ 45.402: gavle.se INFO Begin testing address 213.141.64.5.
+ 45.887: gavle.se INFO Done testing address 213.141.64.5.
+ 45.888: gavle.se INFO Begin testing address 2001:b48:0:0:0:0:0:5.
+ 58.837: gavle.se INFO Done testing address 2001:b48:0:0:0:0:0:5.
+ 58.837: gavle.se INFO Done testing host ns2.gavlenet.com.
+ 58.929: gavle.se INFO Name server ns2.gavlenet.com (213.141.64.5) answers queries over UDP.
+ 59.041: gavle.se INFO Name server ns2.gavlenet.com (213.141.64.5) answers queries over TCP.
+ 59.099: gavle.se INFO Name server ns2.gavlenet.com (213.141.64.5) is not recursive.
+ 59.360: gavle.se INFO Name server ns2.gavlenet.com (213.141.64.5) authoritative for gavle.se.
+ 59.402: gavle.se INFO Name server ns2.gavlenet.com (213.141.64.5) closed for zone transfer of gavle.se.
+ 59.500: gavle.se INFO Legacy name server ID for ns2.gavlenet.com (213.141.64.5): hostname.bind = ns2.gavlenet.com
+ 60.165: gavle.se INFO Legacy name server ID for ns2.gavlenet.com (213.141.64.5): version.bind = Unknown
+ 60.523: gavle.se NOTICE No answer received from 213.141.64.5 when querying for version.server/CH/TXT.
+ 60.563: gavle.se INFO Name server ns2.gavlenet.com (2001:b48:0:0:0:0:0:5) answers queries over UDP.
+ 60.611: gavle.se INFO Name server ns2.gavlenet.com (2001:b48:0:0:0:0:0:5) answers queries over TCP.
+ 60.694: gavle.se INFO Name server ns2.gavlenet.com (2001:b48:0:0:0:0:0:5) is not recursive.
+ 60.855: gavle.se INFO Name server ns2.gavlenet.com (2001:b48:0:0:0:0:0:5) authoritative for gavle.se.
+ 60.885: gavle.se INFO Name server ns2.gavlenet.com (2001:b48:0:0:0:0:0:5) closed for zone transfer of gavle.se.
+ 60.936: gavle.se INFO Legacy name server ID for ns2.gavlenet.com (2001:b48:0:0:0:0:0:5): hostname.bind = ns2.gavlenet.com
+ 61.087: gavle.se INFO Legacy name server ID for ns2.gavlenet.com (2001:b48:0:0:0:0:0:5): version.bind = Unknown
+ 61.147: gavle.se NOTICE No answer received from 2001:b48:0:0:0:0:0:5 when querying for version.server/CH/TXT.
+ 61.148: gavle.se INFO Done testing name server ns2.gavlenet.com.
+ 61.148: gavle.se INFO Begin testing zone consistency for gavle.se.
+ 61.306: gavle.se INFO SOA at address 83.137.8.21 has serial 2014030801.
+ 61.400: gavle.se INFO SOA at address 2001:b48:0:0:0:0:0:5 has serial 2014030801.
+ 61.660: gavle.se INFO SOA at address 213.141.64.5 has serial 2014030801.
+ 61.693: gavle.se INFO SOA at address 2a02:ea8:d:96:0:0:0:10 has serial 2014030801.
+ 61.693: gavle.se INFO All SOA records have consistent serial numbers.
+ 61.693: gavle.se INFO All other fields in the SOA record are consistent among all name servers.
+ 61.957: gavle.se NOTICE The listed nameservers for gavle.se all report the same set of nameservers.
+ 61.957: gavle.se INFO Done testing zone consistency for gavle.se.
+ 61.958: gavle.se INFO Begin testing SOA parameters for gavle.se.
+ 62.045: gavle.se INFO Found SOA record for gavle.se.
+ 62.045: gavle.se INFO Begin testing host ns.gavle.se.
+ 62.046: gavle.se INFO Begin testing address 83.137.8.21.
+ 62.047: gavle.se INFO Done testing address 83.137.8.21.
+ 62.047: gavle.se INFO Begin testing address 2a02:ea8:d:96:0:0:0:10.
+ 62.052: gavle.se INFO Done testing address 2a02:ea8:d:96:0:0:0:10.
+ 62.052: gavle.se INFO Done testing host ns.gavle.se.
+ 62.052: gavle.se INFO SOA MNAME for gavle.se valid (ns.gavle.se).
+ 62.052: gavle.se INFO SOA MNAME for gavle.se (ns.gavle.se) listed as NS.
+ 62.115: gavle.se INFO SOA MNAME for gavle.se (ns.gavle.se) is authoritative.
+ 62.183: gavle.se INFO SOA MNAME for gavle.se (ns.gavle.se) is authoritative.
+ 62.183: gavle.se INFO Begin testing email address hostmaster@gavle.se.
+ 62.981: gavle.se INFO Mail exchangers for hostmaster@gavle.se found mail1.gavle.se,mail2.gavle.se.
+ 62.981: gavle.se INFO All mail servers for hostmaster@gavle.se are in zone gavle.se.
+ 62.981: gavle.se INFO Begin testing host mail1.gavle.se.
+ 63.670: gavle.se INFO Begin testing address 83.137.8.67.
+ 65.308: gavle.se INFO Done testing address 83.137.8.67.
+ 65.308: gavle.se INFO Begin testing address 2a02:ea8:a:32:0:0:0:148.
+ 66.281: gavle.se INFO Done testing address 2a02:ea8:a:32:0:0:0:148.
+ 66.281: gavle.se INFO Done testing host mail1.gavle.se.
+ 66.281: gavle.se INFO Begin testing host mail2.gavle.se.
+ 67.652: gavle.se INFO Begin testing address 83.137.8.68.
+ 68.900: gavle.se INFO Done testing address 83.137.8.68.
+ 68.900: gavle.se INFO Begin testing address 2a02:ea8:a:32:0:0:0:152.
+ 69.881: gavle.se INFO Done testing address 2a02:ea8:a:32:0:0:0:152.
+ 69.881: gavle.se INFO Done testing host mail2.gavle.se.
+ 69.881: gavle.se INFO Done testing email address hostmaster@gavle.se.
+ 69.881: gavle.se INFO Successful attempt to deliver email for SOA RNAME of gavle.se (hostmaster.gavle.se) using hostmaster@gavle.se.
+ 69.882: gavle.se INFO SOA TTL for gavle.se OK (86400) - recommended >= 3600.
+ 69.882: gavle.se INFO SOA refresh for gavle.se OK (28800) - recommended >= 14400.
+ 69.882: gavle.se INFO SOA retry for gavle.se OK (7200) - recommended >= 3600.
+ 69.882: gavle.se INFO SOA expire for gavle.se OK (2678400) - recommended >= 604800.
+ 69.882: gavle.se INFO SOA minimum for gavle.se OK (86400) - recommended between 300 and 86400.
+ 69.882: gavle.se INFO Done testing SOA parameters for gavle.se.
+ 69.882: gavle.se INFO Begin testing connectivity for gavle.se.
+ 71.312: gavle.se INFO Zone announced by more than one ASN.
+ 72.597: gavle.se INFO Zone announced by more than one IPv6 ASN.
+ 72.597: gavle.se INFO Done testing connectivity for gavle.se.
+ 72.597: gavle.se INFO Begin testing DNSSEC for gavle.se.
+ 72.635: gavle.se INFO Found DS record for gavle.se at parent.
+ 72.653: gavle.se INFO Nameserver 83.137.8.21 does DNSSEC extra processing.
+ 72.665: gavle.se INFO Nameserver 213.141.64.5 does DNSSEC extra processing.
+ 72.671: gavle.se INFO Nameserver 2001:b48:0:0:0:0:0:5 does DNSSEC extra processing.
+ 72.685: gavle.se INFO Nameserver 2a02:ea8:d:96:0:0:0:10 does DNSSEC extra processing.
+ 72.685: gavle.se INFO Servers for gavle.se have consistent extra processing status.
+ 72.722: gavle.se INFO Authenticated denial records found for gavle.se, of type NSEC.
+ 72.740: gavle.se INFO Found DNSKEY record for gavle.se at child.
+ 72.740: gavle.se INFO Consistent security for gavle.se.
+ 72.740: gavle.se INFO Checking DNSSEC at child (gavle.se).
+ 72.740: gavle.se INFO gavle.se's key with tag 36157 uses algorithm number 5 (RSA/SHA-1).
+ 72.740: gavle.se INFO Algorithm number 5 is OK.
+ 72.741: gavle.se INFO DNSKEY gavle.se (tag 36157) is marked as a secure entry point (SEP).
+ 72.741: gavle.se INFO gavle.se's key with tag 22775 uses algorithm number 5 (RSA/SHA-1).
+ 72.741: gavle.se INFO Algorithm number 5 is OK.
+ 72.741: gavle.se INFO DNSSEC signature expires at: Mon Apr 28 17:05:01 2014
+ 72.741: gavle.se INFO Duration for RRSIG(gavle.se/IN/DNSKEY/22775) is OK (4320000 seconds).
+ 72.768: gavle.se INFO DNSSEC signature RRSIG(gavle.se/IN/DNSKEY/22775) matches records.
+ 72.768: gavle.se INFO DNSSEC signature valid: RRSIG(gavle.se/IN/DNSKEY/22775)
+ 72.768: gavle.se INFO DNSSEC signature expires at: Mon Apr 28 17:05:01 2014
+ 72.768: gavle.se INFO Duration for RRSIG(gavle.se/IN/DNSKEY/36157) is OK (4320000 seconds).
+ 72.769: gavle.se INFO DNSSEC signature RRSIG(gavle.se/IN/DNSKEY/36157) matches records.
+ 72.769: gavle.se INFO DNSSEC signature valid: RRSIG(gavle.se/IN/DNSKEY/36157)
+ 72.769: gavle.se INFO Enough valid signatures found for gavle.se.
+ 72.819: gavle.se INFO DNSSEC signature expires at: Mon Apr 28 17:05:01 2014
+ 72.842: gavle.se INFO Duration for RRSIG(gavle.se/IN/SOA/22775) is OK (4320000 seconds).
+ 72.843: gavle.se INFO DNSSEC signature RRSIG(gavle.se/IN/SOA/22775) matches records.
+ 72.843: gavle.se INFO DNSSEC signature valid: RRSIG(gavle.se/IN/SOA/22775)
+ 72.843: gavle.se INFO Enough valid signatures over SOA RRset found for gavle.se.
+ 72.843: gavle.se INFO DNSSEC child checks for gavle.se complete.
+ 72.844: gavle.se INFO Checking DNSSEC at parent of gavle.se.
+ 72.844: gavle.se INFO gavle.se's key with tag 36157 uses algorithm number 5 (RSA/SHA-1).
+ 72.844: gavle.se INFO Algorithm number 5 is OK.
+ 72.844: gavle.se INFO Parent DS(gavle.se/5/1/36157) refers to valid key at child: DNSKEY(gavle.se/5/36157)
+ 72.844: gavle.se INFO Parent DS(gavle.se) refers to secure entry point (SEP) at child: DS(gavle.se/5/1/36157)
+ 72.844: gavle.se INFO gavle.se's key with tag 36157 uses algorithm number 5 (RSA/SHA-1).
+ 72.844: gavle.se INFO Algorithm number 5 is OK.
+ 72.845: gavle.se INFO Parent DS(gavle.se/5/2/36157) refers to valid key at child: DNSKEY(gavle.se/5/36157)
+ 72.845: gavle.se INFO Parent DS(gavle.se) refers to secure entry point (SEP) at child: DS(gavle.se/5/2/36157)
+ 72.845: gavle.se INFO DNSSEC parent checks for gavle.se complete.
+ 72.845: gavle.se INFO Done testing DNSSEC for gavle.se.
+ 72.845: gavle.se INFO Test completed for zone gavle.se.

@@ -1,0 +1,93 @@
+  0.000: 1domain.at INFO Begin testing zone 1domain.at with version 1.5.0.
+  0.001: 1domain.at INFO Begin testing delegation for 1domain.at.
+ 18.104: 1domain.at INFO Name servers listed at parent: ns5.dotaustria.com,ns6.dotaustria.com,ns7.dotaustria.com
+ 21.648: 1domain.at INFO Name servers listed at child: ns5.dotaustria.com,ns6.dotaustria.com,ns7.dotaustria.com
+ 21.649: 1domain.at NOTICE No IPv6 name servers found.
+ 24.366: 1domain.at INFO It is possible to build a referral packet for 1domain.at that works without EDNS0.
+ 24.366: 1domain.at INFO Done testing delegation for 1domain.at.
+ 24.387: 1domain.at INFO Begin testing name server ns5.dotaustria.com.
+ 24.387: 1domain.at INFO Begin testing host ns5.dotaustria.com.
+ 24.899: 1domain.at INFO Begin testing address 213.174.33.216.
+ 31.971: 1domain.at INFO Done testing address 213.174.33.216.
+ 31.971: 1domain.at INFO Done testing host ns5.dotaustria.com.
+ 32.419: 1domain.at INFO Name server ns5.dotaustria.com (213.174.33.216) answers queries over UDP.
+ 32.528: 1domain.at INFO Name server ns5.dotaustria.com (213.174.33.216) answers queries over TCP.
+ 32.594: 1domain.at INFO Name server ns5.dotaustria.com (213.174.33.216) is not recursive.
+ 32.877: 1domain.at INFO Name server ns5.dotaustria.com (213.174.33.216) authoritative for 1domain.at.
+ 33.034: 1domain.at INFO Name server ns5.dotaustria.com (213.174.33.216) closed for zone transfer of 1domain.at.
+ 33.095: 1domain.at INFO Legacy name server ID for ns5.dotaustria.com (213.174.33.216): hostname.bind = droplist.at
+ 33.149: 1domain.at INFO Legacy name server ID for ns5.dotaustria.com (213.174.33.216): version.bind = 9.7.3
+ 33.270: 1domain.at NOTICE No answer received from 213.174.33.216 when querying for version.server/CH/TXT.
+ 33.270: 1domain.at INFO Done testing name server ns5.dotaustria.com.
+ 33.270: 1domain.at INFO Begin testing name server ns6.dotaustria.com.
+ 33.270: 1domain.at INFO Begin testing host ns6.dotaustria.com.
+ 33.817: 1domain.at INFO Begin testing address 213.174.51.251.
+ 34.367: 1domain.at WARNING Could not find reverse address for 213.174.51.251 (251.51.174.213.in-addr.arpa.).
+ 34.368: 1domain.at INFO Done testing address 213.174.51.251.
+ 34.368: 1domain.at INFO Done testing host ns6.dotaustria.com.
+ 34.745: 1domain.at INFO Name server ns6.dotaustria.com (213.174.51.251) answers queries over UDP.
+ 34.856: 1domain.at INFO Name server ns6.dotaustria.com (213.174.51.251) answers queries over TCP.
+ 34.911: 1domain.at INFO Name server ns6.dotaustria.com (213.174.51.251) is not recursive.
+ 35.157: 1domain.at INFO Name server ns6.dotaustria.com (213.174.51.251) authoritative for 1domain.at.
+ 35.314: 1domain.at INFO Name server ns6.dotaustria.com (213.174.51.251) closed for zone transfer of 1domain.at.
+ 35.370: 1domain.at INFO Legacy name server ID for ns6.dotaustria.com (213.174.51.251): hostname.bind = droplist.at
+ 35.429: 1domain.at INFO Legacy name server ID for ns6.dotaustria.com (213.174.51.251): version.bind = 9.7.3
+ 35.537: 1domain.at NOTICE No answer received from 213.174.51.251 when querying for version.server/CH/TXT.
+ 35.537: 1domain.at INFO Done testing name server ns6.dotaustria.com.
+ 35.537: 1domain.at INFO Begin testing name server ns7.dotaustria.com.
+ 35.538: 1domain.at INFO Begin testing host ns7.dotaustria.com.
+ 35.952: 1domain.at INFO Begin testing address 62.75.204.111.
+ 38.744: 1domain.at INFO Done testing address 62.75.204.111.
+ 38.744: 1domain.at INFO Done testing host ns7.dotaustria.com.
+ 39.163: 1domain.at INFO Name server ns7.dotaustria.com (62.75.204.111) answers queries over UDP.
+ 39.239: 1domain.at INFO Name server ns7.dotaustria.com (62.75.204.111) answers queries over TCP.
+ 39.279: 1domain.at INFO Name server ns7.dotaustria.com (62.75.204.111) is not recursive.
+ 39.446: 1domain.at INFO Name server ns7.dotaustria.com (62.75.204.111) authoritative for 1domain.at.
+ 39.556: 1domain.at INFO Name server ns7.dotaustria.com (62.75.204.111) closed for zone transfer of 1domain.at.
+ 39.596: 1domain.at INFO Legacy name server ID for ns7.dotaustria.com (62.75.204.111): hostname.bind = donau037.server4you.de
+ 39.651: 1domain.at INFO Legacy name server ID for ns7.dotaustria.com (62.75.204.111): version.bind = 9.7.0-P1
+ 39.728: 1domain.at NOTICE No answer received from 62.75.204.111 when querying for version.server/CH/TXT.
+ 39.728: 1domain.at INFO Done testing name server ns7.dotaustria.com.
+ 39.728: 1domain.at INFO Begin testing zone consistency for 1domain.at.
+ 43.156: 1domain.at INFO SOA at address 62.75.204.111 has serial 2012011902.
+ 43.211: 1domain.at INFO SOA at address 213.174.33.216 has serial 2012011902.
+ 43.266: 1domain.at INFO SOA at address 213.174.51.251 has serial 2012011902.
+ 43.266: 1domain.at INFO All SOA records have consistent serial numbers.
+ 43.267: 1domain.at INFO All other fields in the SOA record are consistent among all name servers.
+ 44.967: 1domain.at NOTICE The listed nameservers for 1domain.at all report the same set of nameservers.
+ 44.967: 1domain.at INFO Done testing zone consistency for 1domain.at.
+ 44.967: 1domain.at INFO Begin testing SOA parameters for 1domain.at.
+ 45.007: 1domain.at INFO Found SOA record for 1domain.at.
+ 45.007: 1domain.at INFO Begin testing host ns5.dotaustria.com.
+ 45.472: 1domain.at INFO Begin testing address 213.174.33.216.
+ 45.833: 1domain.at INFO Done testing address 213.174.33.216.
+ 45.833: 1domain.at INFO Done testing host ns5.dotaustria.com.
+ 45.834: 1domain.at INFO SOA MNAME for 1domain.at valid (ns5.dotaustria.com).
+ 45.834: 1domain.at INFO SOA MNAME for 1domain.at (ns5.dotaustria.com) listed as NS.
+ 46.345: 1domain.at INFO SOA MNAME for 1domain.at (ns5.dotaustria.com) is authoritative.
+ 46.345: 1domain.at INFO Begin testing email address hostmaster@dotaustria.com.
+ 46.706: 1domain.at INFO Mail exchangers for hostmaster@dotaustria.com found mail.dotaustria.com.
+ 46.707: 1domain.at INFO Begin testing host mail.dotaustria.com.
+ 47.504: 1domain.at INFO Begin testing address 85.25.82.33.
+ 48.684: 1domain.at INFO Done testing address 85.25.82.33.
+ 48.685: 1domain.at INFO Done testing host mail.dotaustria.com.
+ 48.998: 1domain.at INFO Done testing email address hostmaster@dotaustria.com.
+ 48.999: 1domain.at INFO Successful attempt to deliver email for SOA RNAME of 1domain.at (hostmaster.dotaustria.com) using hostmaster@dotaustria.com.
+ 48.999: 1domain.at INFO SOA TTL for 1domain.at OK (86400) - recommended >= 3600.
+ 48.999: 1domain.at INFO SOA refresh for 1domain.at OK (43200) - recommended >= 14400.
+ 48.999: 1domain.at INFO SOA retry for 1domain.at OK (28800) - recommended >= 3600.
+ 49.000: 1domain.at INFO SOA expire for 1domain.at OK (604800) - recommended >= 604800.
+ 49.000: 1domain.at INFO SOA minimum for 1domain.at OK (86400) - recommended between 300 and 86400.
+ 49.000: 1domain.at INFO Done testing SOA parameters for 1domain.at.
+ 49.000: 1domain.at INFO Begin testing connectivity for 1domain.at.
+ 50.938: 1domain.at INFO Zone announced by more than one ASN.
+ 50.939: 1domain.at NOTICE Zone announced by fewer than two IPv6 ASN.
+ 50.939: 1domain.at INFO Done testing connectivity for 1domain.at.
+ 50.939: 1domain.at INFO Begin testing DNSSEC for 1domain.at.
+ 50.963: 1domain.at INFO Did not find DS record for 1domain.at at parent.
+ 51.251: 1domain.at INFO Servers for 1domain.at have consistent extra processing status.
+ 51.326: 1domain.at INFO Authenticated denial records not found for 1domain.at.
+ 51.364: 1domain.at INFO Did not find DNSKEY record for 1domain.at at child.
+ 51.364: 1domain.at INFO No DNSKEY(s) found at child, other tests skipped.
+ 51.364: 1domain.at INFO Done testing DNSSEC for 1domain.at.
+ 51.366: 1domain.at INFO Test completed for zone 1domain.at.

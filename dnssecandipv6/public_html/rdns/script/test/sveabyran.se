@@ -1,0 +1,79 @@
+  0.000: sveabyran.se INFO Begin testing zone sveabyran.se with version 1.5.0.
+  0.001: sveabyran.se INFO Begin testing delegation for sveabyran.se.
+ 13.219: sveabyran.se INFO Name servers listed at parent: ns1.sveabyran.com,ns2.sveabyran.com
+ 16.688: sveabyran.se INFO Name servers listed at child: ns1.sveabyran.com,ns2.sveabyran.com
+ 16.688: sveabyran.se NOTICE No IPv6 name servers found.
+ 19.394: sveabyran.se INFO It is possible to build a referral packet for sveabyran.se that works without EDNS0.
+ 19.394: sveabyran.se INFO Done testing delegation for sveabyran.se.
+ 19.394: sveabyran.se INFO Begin testing name server ns1.sveabyran.com.
+ 19.395: sveabyran.se INFO Begin testing host ns1.sveabyran.com.
+ 20.269: sveabyran.se INFO Begin testing address 198.1.121.208.
+ 31.737: sveabyran.se INFO Done testing address 198.1.121.208.
+ 31.737: sveabyran.se INFO Done testing host ns1.sveabyran.com.
+ 32.652: sveabyran.se INFO Name server ns1.sveabyran.com (198.1.121.208) answers queries over UDP.
+ 33.023: sveabyran.se INFO Name server ns1.sveabyran.com (198.1.121.208) answers queries over TCP.
+ 33.189: sveabyran.se INFO Name server ns1.sveabyran.com (198.1.121.208) is not recursive.
+ 33.870: sveabyran.se INFO Name server ns1.sveabyran.com (198.1.121.208) authoritative for sveabyran.se.
+ 34.377: sveabyran.se INFO Name server ns1.sveabyran.com (198.1.121.208) closed for zone transfer of sveabyran.se.
+ 34.556: sveabyran.se INFO Legacy name server ID for ns1.sveabyran.com (198.1.121.208): hostname.bind = host.sveabyran.com
+ 34.724: sveabyran.se INFO Legacy name server ID for ns1.sveabyran.com (198.1.121.208): version.bind = 9.8.2rc1-RedHat-9.8.2-0.10.rc1.el6_3.6
+ 35.067: sveabyran.se NOTICE No answer received from 198.1.121.208 when querying for version.server/CH/TXT.
+ 35.067: sveabyran.se INFO Done testing name server ns1.sveabyran.com.
+ 35.067: sveabyran.se INFO Begin testing name server ns2.sveabyran.com.
+ 35.068: sveabyran.se INFO Begin testing host ns2.sveabyran.com.
+ 35.651: sveabyran.se INFO Begin testing address 198.57.171.75.
+ 47.898: sveabyran.se WARNING Reverse for 198.57.171.75 points to an unknown host name (198-57-171-75.unifiedlayer.com).
+ 47.898: sveabyran.se INFO Done testing address 198.57.171.75.
+ 47.898: sveabyran.se INFO Done testing host ns2.sveabyran.com.
+ 48.566: sveabyran.se INFO Name server ns2.sveabyran.com (198.57.171.75) answers queries over UDP.
+ 48.947: sveabyran.se INFO Name server ns2.sveabyran.com (198.57.171.75) answers queries over TCP.
+ 49.133: sveabyran.se INFO Name server ns2.sveabyran.com (198.57.171.75) is not recursive.
+ 49.846: sveabyran.se INFO Name server ns2.sveabyran.com (198.57.171.75) authoritative for sveabyran.se.
+ 50.358: sveabyran.se INFO Name server ns2.sveabyran.com (198.57.171.75) closed for zone transfer of sveabyran.se.
+ 50.534: sveabyran.se INFO Legacy name server ID for ns2.sveabyran.com (198.57.171.75): hostname.bind = host.sveabyran.com
+ 50.717: sveabyran.se INFO Legacy name server ID for ns2.sveabyran.com (198.57.171.75): version.bind = 9.8.2rc1-RedHat-9.8.2-0.10.rc1.el6_3.6
+ 51.076: sveabyran.se NOTICE No answer received from 198.57.171.75 when querying for version.server/CH/TXT.
+ 51.076: sveabyran.se INFO Done testing name server ns2.sveabyran.com.
+ 51.077: sveabyran.se INFO Begin testing zone consistency for sveabyran.se.
+ 53.473: sveabyran.se INFO SOA at address 198.1.121.208 has serial 2013020603.
+ 53.646: sveabyran.se INFO SOA at address 198.57.171.75 has serial 2013020603.
+ 53.647: sveabyran.se INFO All SOA records have consistent serial numbers.
+ 53.647: sveabyran.se INFO All other fields in the SOA record are consistent among all name servers.
+ 55.387: sveabyran.se NOTICE The listed nameservers for sveabyran.se all report the same set of nameservers.
+ 55.387: sveabyran.se INFO Done testing zone consistency for sveabyran.se.
+ 55.387: sveabyran.se INFO Begin testing SOA parameters for sveabyran.se.
+ 55.563: sveabyran.se INFO Found SOA record for sveabyran.se.
+ 55.563: sveabyran.se INFO Begin testing host ns1.sveabyran.com.
+ 55.995: sveabyran.se INFO Begin testing address 198.1.121.208.
+ 56.416: sveabyran.se INFO Done testing address 198.1.121.208.
+ 56.417: sveabyran.se INFO Done testing host ns1.sveabyran.com.
+ 56.417: sveabyran.se INFO SOA MNAME for sveabyran.se valid (ns1.sveabyran.com).
+ 56.417: sveabyran.se INFO SOA MNAME for sveabyran.se (ns1.sveabyran.com) listed as NS.
+ 57.023: sveabyran.se INFO SOA MNAME for sveabyran.se (ns1.sveabyran.com) is authoritative.
+ 57.023: sveabyran.se INFO Begin testing email address christian@sveabyran.se.
+ 57.428: sveabyran.se INFO Mail exchangers for christian@sveabyran.se found sveabyran.se.
+ 57.428: sveabyran.se INFO All mail servers for christian@sveabyran.se are in zone sveabyran.se.
+ 57.428: sveabyran.se INFO Begin testing host sveabyran.se.
+ 58.198: sveabyran.se INFO Begin testing address 198.1.121.208.
+ 58.646: sveabyran.se INFO Done testing address 198.1.121.208.
+ 58.647: sveabyran.se INFO Done testing host sveabyran.se.
+ 59.057: sveabyran.se INFO Done testing email address christian@sveabyran.se.
+ 59.058: sveabyran.se INFO Successful attempt to deliver email for SOA RNAME of sveabyran.se (christian.sveabyran.se) using christian@sveabyran.se.
+ 59.058: sveabyran.se INFO SOA TTL for sveabyran.se OK (86400) - recommended >= 3600.
+ 59.058: sveabyran.se INFO SOA refresh for sveabyran.se OK (86400) - recommended >= 14400.
+ 59.058: sveabyran.se INFO SOA retry for sveabyran.se OK (7200) - recommended >= 3600.
+ 59.058: sveabyran.se INFO SOA expire for sveabyran.se OK (3600000) - recommended >= 604800.
+ 59.059: sveabyran.se INFO SOA minimum for sveabyran.se OK (86400) - recommended between 300 and 86400.
+ 59.059: sveabyran.se INFO Done testing SOA parameters for sveabyran.se.
+ 59.059: sveabyran.se INFO Begin testing connectivity for sveabyran.se.
+ 60.374: sveabyran.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 60.374: sveabyran.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 60.375: sveabyran.se INFO Done testing connectivity for sveabyran.se.
+ 60.375: sveabyran.se INFO Begin testing DNSSEC for sveabyran.se.
+ 60.392: sveabyran.se INFO Did not find DS record for sveabyran.se at parent.
+ 61.063: sveabyran.se INFO Servers for sveabyran.se have consistent extra processing status.
+ 61.402: sveabyran.se INFO Authenticated denial records not found for sveabyran.se.
+ 61.574: sveabyran.se INFO Did not find DNSKEY record for sveabyran.se at child.
+ 61.575: sveabyran.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 61.575: sveabyran.se INFO Done testing DNSSEC for sveabyran.se.
+ 61.576: sveabyran.se INFO Test completed for zone sveabyran.se.

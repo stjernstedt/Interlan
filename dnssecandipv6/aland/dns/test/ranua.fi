@@ -1,0 +1,166 @@
+  0.000: ranua.fi INFO Begin testing zone ranua.fi with version 1.5.0.
+  1.486: ranua.fi INFO Begin testing delegation for ranua.fi.
+ 56.360: ranua.fi INFO Name servers listed at parent: ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 81.921: ranua.fi INFO Name servers listed at child: ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 82.645: ranua.fi INFO Parent glue for ranua.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+ 83.342: ranua.fi INFO Parent glue for ranua.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+ 84.660: ranua.fi INFO Parent glue for ranua.fi found: ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53)
+ 85.452: ranua.fi INFO Parent glue for ranua.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+ 85.973: ranua.fi INFO Parent glue for ranua.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+ 86.816: ranua.fi INFO Checking glue for ns1-fin.global.sonera.fi (193.210.18.31).
+ 86.816: ranua.fi INFO Checking glue for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53).
+ 86.817: ranua.fi INFO Checking glue for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53).
+ 86.817: ranua.fi INFO Checking glue for ns2-fin.global.sonera.fi (195.156.148.158).
+ 86.817: ranua.fi INFO Checking glue for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53).
+ 86.818: ranua.fi INFO Parent glue for ranua.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+ 87.387: ranua.fi INFO Parent glue for ranua.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+ 87.525: ranua.fi INFO Parent glue for ranua.fi found: ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53)
+ 87.526: ranua.fi INFO Parent glue for ranua.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+ 87.526: ranua.fi INFO Parent glue for ranua.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+ 95.450: ranua.fi INFO It is possible to build a referral packet for ranua.fi that works without EDNS0.
+ 98.183: ranua.fi INFO Previously used name servers for ranua.fi: 
+ 98.184: ranua.fi INFO Done testing delegation for ranua.fi.
+ 98.330: ranua.fi INFO Begin testing name server ns1-fin.global.sonera.fi.
+ 98.331: ranua.fi INFO Begin testing host ns1-fin.global.sonera.fi.
+ 98.331: ranua.fi INFO Begin testing address 193.210.18.31.
+128.063: ranua.fi INFO Done testing address 193.210.18.31.
+128.063: ranua.fi INFO Begin testing address 2001:2060:ffdd:a01:0:0:0:53.
+148.947: ranua.fi INFO Done testing address 2001:2060:ffdd:a01:0:0:0:53.
+148.947: ranua.fi INFO Done testing host ns1-fin.global.sonera.fi.
+149.226: ranua.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over UDP.
+150.294: ranua.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over TCP.
+151.092: ranua.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) is not recursive.
+153.354: ranua.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) authoritative for ranua.fi.
+153.617: ranua.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) closed for zone transfer of ranua.fi.
+153.955: ranua.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): hostname.bind = mgda2
+154.318: ranua.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): version.bind = TeliaSonera Finland DNS MGDA
+154.671: ranua.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): id.server = mgda2
+155.043: ranua.fi NOTICE No answer received from 193.210.18.31 when querying for version.server/CH/TXT.
+155.855: ranua.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) answers queries over UDP.
+156.882: ranua.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) answers queries over TCP.
+157.295: ranua.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) is not recursive.
+160.054: ranua.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) authoritative for ranua.fi.
+160.379: ranua.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) closed for zone transfer of ranua.fi.
+160.759: ranua.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): hostname.bind = mgda2
+161.215: ranua.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+161.635: ranua.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): id.server = mgda1
+162.043: ranua.fi NOTICE No answer received from 2001:2060:ffdd:a01:0:0:0:53 when querying for version.server/CH/TXT.
+162.043: ranua.fi INFO Done testing name server ns1-fin.global.sonera.fi.
+162.043: ranua.fi INFO Begin testing name server ns1-swe.global.sonera.se.
+162.043: ranua.fi INFO Begin testing host ns1-swe.global.sonera.se.
+162.044: ranua.fi INFO Begin testing address 80.64.9.124.
+171.510: ranua.fi INFO Done testing address 80.64.9.124.
+171.511: ranua.fi INFO Begin testing address 2001:6e8:400:ffff:1:0:0:53.
+174.778: ranua.fi INFO Done testing address 2001:6e8:400:ffff:1:0:0:53.
+174.778: ranua.fi INFO Done testing host ns1-swe.global.sonera.se.
+175.518: ranua.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over UDP.
+176.577: ranua.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over TCP.
+177.211: ranua.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) is not recursive.
+179.762: ranua.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) authoritative for ranua.fi.
+180.003: ranua.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) closed for zone transfer of ranua.fi.
+180.299: ranua.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): hostname.bind = mgda3
+180.666: ranua.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): version.bind = TeliaSonera Finland DNS MGDA
+181.051: ranua.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): id.server = mgda3
+181.475: ranua.fi NOTICE No answer received from 80.64.9.124 when querying for version.server/CH/TXT.
+181.862: ranua.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over UDP.
+183.182: ranua.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over TCP.
+183.542: ranua.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) is not recursive.
+186.168: ranua.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) authoritative for ranua.fi.
+186.665: ranua.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) closed for zone transfer of ranua.fi.
+186.919: ranua.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): hostname.bind = mgda3
+187.595: ranua.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+188.063: ranua.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): id.server = mgda3
+188.483: ranua.fi NOTICE No answer received from 2001:6e8:400:ffff:1:0:0:53 when querying for version.server/CH/TXT.
+188.483: ranua.fi INFO Done testing name server ns1-swe.global.sonera.se.
+188.483: ranua.fi INFO Begin testing name server ns2-fin.global.sonera.fi.
+188.483: ranua.fi INFO Begin testing host ns2-fin.global.sonera.fi.
+188.484: ranua.fi INFO Begin testing address 195.156.148.158.
+192.890: ranua.fi INFO Done testing address 195.156.148.158.
+192.891: ranua.fi INFO Begin testing address 2001:2060:ffdd:a02:0:0:0:53.
+196.354: ranua.fi INFO Done testing address 2001:2060:ffdd:a02:0:0:0:53.
+196.354: ranua.fi INFO Done testing host ns2-fin.global.sonera.fi.
+197.347: ranua.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over UDP.
+198.166: ranua.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over TCP.
+198.792: ranua.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) is not recursive.
+201.321: ranua.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) authoritative for ranua.fi.
+201.891: ranua.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) closed for zone transfer of ranua.fi.
+202.203: ranua.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): hostname.bind = mgda2
+202.564: ranua.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): version.bind = TeliaSonera Finland DNS MGDA
+202.851: ranua.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): id.server = mgda1
+203.305: ranua.fi NOTICE No answer received from 195.156.148.158 when querying for version.server/CH/TXT.
+204.167: ranua.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) answers queries over UDP.
+205.063: ranua.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) answers queries over TCP.
+205.454: ranua.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) is not recursive.
+208.253: ranua.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) authoritative for ranua.fi.
+208.603: ranua.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) closed for zone transfer of ranua.fi.
+208.999: ranua.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): hostname.bind = mgda1
+209.413: ranua.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+209.793: ranua.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): id.server = mgda2
+210.086: ranua.fi NOTICE No answer received from 2001:2060:ffdd:a02:0:0:0:53 when querying for version.server/CH/TXT.
+210.254: ranua.fi INFO Done testing name server ns2-fin.global.sonera.fi.
+210.255: ranua.fi INFO Begin testing name server ns2-usa.global.sonera.net.
+210.255: ranua.fi INFO Begin testing host ns2-usa.global.sonera.net.
+212.683: ranua.fi INFO Begin testing address 46.38.190.56.
+223.087: ranua.fi INFO Done testing address 46.38.190.56.
+223.088: ranua.fi INFO Done testing host ns2-usa.global.sonera.net.
+225.990: ranua.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over UDP.
+227.387: ranua.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over TCP.
+227.769: ranua.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) is not recursive.
+231.387: ranua.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) authoritative for ranua.fi.
+231.723: ranua.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) closed for zone transfer of ranua.fi.
+232.163: ranua.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): hostname.bind = mgda5
+232.499: ranua.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): version.bind = TeliaSonera Finland DNS MGDA
+233.023: ranua.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): id.server = mgda5
+233.423: ranua.fi NOTICE No answer received from 46.38.190.56 when querying for version.server/CH/TXT.
+233.423: ranua.fi INFO Done testing name server ns2-usa.global.sonera.net.
+233.423: ranua.fi INFO Begin testing zone consistency for ranua.fi.
+243.006: ranua.fi INFO SOA at address 2001:2060:ffdd:a01:0:0:0:53 has serial 2011080115.
+243.374: ranua.fi INFO SOA at address 193.210.18.31 has serial 2011080115.
+244.939: ranua.fi INFO SOA at address 80.64.9.124 has serial 2011080115.
+245.751: ranua.fi INFO SOA at address 195.156.148.158 has serial 2011080115.
+246.302: ranua.fi INFO SOA at address 2001:6e8:400:ffff:1:0:0:53 has serial 2011080115.
+247.733: ranua.fi INFO SOA at address 46.38.190.56 has serial 2011080115.
+248.670: ranua.fi INFO SOA at address 2001:2060:ffdd:a02:0:0:0:53 has serial 2011080115.
+248.781: ranua.fi INFO All SOA records have consistent serial numbers.
+248.781: ranua.fi INFO All other fields in the SOA record are consistent among all name servers.
+258.662: ranua.fi NOTICE The listed nameservers for ranua.fi all report the same set of nameservers.
+258.663: ranua.fi INFO Done testing zone consistency for ranua.fi.
+258.663: ranua.fi INFO Begin testing SOA parameters for ranua.fi.
+259.058: ranua.fi INFO Found SOA record for ranua.fi.
+259.058: ranua.fi INFO Begin testing host namesurfer.inet.fi.
+266.135: ranua.fi INFO Begin testing address 131.177.73.253.
+325.069: ranua.fi INFO Done testing address 131.177.73.253.
+325.069: ranua.fi INFO Done testing host namesurfer.inet.fi.
+325.069: ranua.fi INFO SOA MNAME for ranua.fi valid (namesurfer.inet.fi).
+325.069: ranua.fi NOTICE SOA MNAME for ranua.fi (namesurfer.inet.fi) not listed as NS.
+333.795: ranua.fi INFO SOA MNAME for ranua.fi (namesurfer.inet.fi) is authoritative.
+333.795: ranua.fi INFO Begin testing email address hostmaster@sonera.com.
+336.019: ranua.fi INFO Mail exchangers for hostmaster@sonera.com found smtp.dave.sonera.fi,mail.cm.sonera.com.
+336.417: ranua.fi INFO Begin testing host smtp.dave.sonera.fi.
+341.226: ranua.fi INFO Begin testing address 131.177.120.25.
+345.515: ranua.fi INFO Done testing address 131.177.120.25.
+345.515: ranua.fi INFO Done testing host smtp.dave.sonera.fi.
+350.133: ranua.fi INFO Begin testing host mail.cm.sonera.com.
+355.815: ranua.fi INFO Begin testing address 193.208.151.61.
+362.429: ranua.fi INFO Done testing address 193.208.151.61.
+362.430: ranua.fi INFO Done testing host mail.cm.sonera.com.
+365.053: ranua.fi INFO Done testing email address hostmaster@sonera.com.
+365.053: ranua.fi INFO Successful attempt to deliver email for SOA RNAME of ranua.fi (hostmaster.sonera.com) using hostmaster@sonera.com.
+365.053: ranua.fi INFO SOA TTL for ranua.fi OK (86400) - recommended >= 3600.
+365.053: ranua.fi INFO SOA refresh for ranua.fi OK (28800) - recommended >= 14400.
+365.053: ranua.fi INFO SOA retry for ranua.fi OK (7200) - recommended >= 3600.
+365.053: ranua.fi INFO SOA expire for ranua.fi OK (604800) - recommended >= 604800.
+365.054: ranua.fi INFO SOA minimum for ranua.fi OK (86400) - recommended between 300 and 86400.
+365.054: ranua.fi INFO Done testing SOA parameters for ranua.fi.
+365.054: ranua.fi INFO Begin testing connectivity for ranua.fi.
+379.273: ranua.fi INFO Zone announced by more than one ASN.
+388.979: ranua.fi INFO Zone announced by more than one IPv6 ASN.
+388.979: ranua.fi INFO Done testing connectivity for ranua.fi.
+388.979: ranua.fi INFO Begin testing DNSSEC for ranua.fi.
+389.540: ranua.fi INFO Did not find DS record for ranua.fi at parent.
+392.447: ranua.fi INFO Servers for ranua.fi have consistent extra processing status.
+392.843: ranua.fi INFO Authenticated denial records not found for ranua.fi.
+393.147: ranua.fi INFO Did not find DNSKEY record for ranua.fi at child.
+393.147: ranua.fi INFO No DNSKEY(s) found at child, other tests skipped.
+393.147: ranua.fi INFO Done testing DNSSEC for ranua.fi.
+393.148: ranua.fi INFO Test completed for zone ranua.fi.

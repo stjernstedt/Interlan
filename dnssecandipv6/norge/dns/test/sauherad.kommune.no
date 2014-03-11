@@ -1,0 +1,89 @@
+  0.000: sauherad.kommune.no INFO Begin testing zone sauherad.kommune.no with version 1.6.1.
+  0.430: sauherad.kommune.no INFO Begin testing delegation for sauherad.kommune.no.
+  8.293: sauherad.kommune.no INFO Name servers listed at parent: ns1.acos.no,ns2.acos.no,ns3.acos.no
+  9.485: sauherad.kommune.no INFO Name servers listed at child: ns1.acos.no,ns2.acos.no
+  9.485: sauherad.kommune.no ERROR Superfluous name server listed at parent: ns3.acos.no
+  9.486: sauherad.kommune.no NOTICE No IPv6 name servers found.
+  9.664: sauherad.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.789: sauherad.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.970: sauherad.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.121: sauherad.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.297: sauherad.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.434: sauherad.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.202: sauherad.kommune.no INFO It is possible to build a referral packet for sauherad.kommune.no that works without EDNS0.
+ 12.200: sauherad.kommune.no INFO Previously used name servers for sauherad.kommune.no: 
+ 12.200: sauherad.kommune.no INFO Done testing delegation for sauherad.kommune.no.
+ 12.201: sauherad.kommune.no INFO Begin testing name server ns1.acos.no.
+ 12.201: sauherad.kommune.no INFO Begin testing host ns1.acos.no.
+ 12.502: sauherad.kommune.no INFO Begin testing address 82.134.18.193.
+ 16.802: sauherad.kommune.no INFO Done testing address 82.134.18.193.
+ 16.806: sauherad.kommune.no INFO Done testing host ns1.acos.no.
+ 17.040: sauherad.kommune.no INFO Name server ns1.acos.no (82.134.18.193) answers queries over UDP.
+ 17.089: sauherad.kommune.no INFO Name server ns1.acos.no (82.134.18.193) answers queries over TCP.
+ 17.131: sauherad.kommune.no INFO Name server ns1.acos.no (82.134.18.193) is not recursive.
+ 17.236: sauherad.kommune.no INFO Name server ns1.acos.no (82.134.18.193) authoritative for sauherad.kommune.no.
+ 17.312: sauherad.kommune.no INFO Name server ns1.acos.no (82.134.18.193) closed for zone transfer of sauherad.kommune.no.
+ 17.341: sauherad.kommune.no INFO Legacy name server ID for ns1.acos.no (82.134.18.193): hostname.bind = sentinel
+ 17.374: sauherad.kommune.no INFO Legacy name server ID for ns1.acos.no (82.134.18.193): version.bind = 9.3.4-P1.1
+ 17.443: sauherad.kommune.no NOTICE No answer received from 82.134.18.193 when querying for version.server/CH/TXT.
+ 17.443: sauherad.kommune.no INFO Done testing name server ns1.acos.no.
+ 17.459: sauherad.kommune.no INFO Begin testing name server ns2.acos.no.
+ 17.459: sauherad.kommune.no INFO Begin testing host ns2.acos.no.
+ 17.700: sauherad.kommune.no INFO Begin testing address 85.200.17.39.
+ 18.586: sauherad.kommune.no INFO Done testing address 85.200.17.39.
+ 18.586: sauherad.kommune.no INFO Done testing host ns2.acos.no.
+ 18.843: sauherad.kommune.no INFO Name server ns2.acos.no (85.200.17.39) answers queries over UDP.
+ 18.936: sauherad.kommune.no INFO Name server ns2.acos.no (85.200.17.39) answers queries over TCP.
+ 18.983: sauherad.kommune.no INFO Name server ns2.acos.no (85.200.17.39) is not recursive.
+ 19.179: sauherad.kommune.no INFO Name server ns2.acos.no (85.200.17.39) authoritative for sauherad.kommune.no.
+ 19.486: sauherad.kommune.no INFO Name server ns2.acos.no (85.200.17.39) closed for zone transfer of sauherad.kommune.no.
+ 19.523: sauherad.kommune.no NOTICE No answer received from 85.200.17.39 when querying for hostname.bind/CH/TXT.
+ 31.799: sauherad.kommune.no INFO Done testing name server ns2.acos.no.
+ 31.799: sauherad.kommune.no INFO Begin testing name server ns3.acos.no.
+ 31.799: sauherad.kommune.no INFO Begin testing host ns3.acos.no.
+ 31.799: sauherad.kommune.no ERROR No address found for ns3.acos.no.
+ 31.800: sauherad.kommune.no INFO Done testing host ns3.acos.no.
+ 31.800: sauherad.kommune.no ERROR Host name or address error for ns3.acos.no.
+ 31.800: sauherad.kommune.no INFO Done testing name server ns3.acos.no.
+ 31.800: sauherad.kommune.no INFO Begin testing zone consistency for sauherad.kommune.no.
+ 32.442: sauherad.kommune.no INFO SOA at address 85.200.17.39 has serial 2009062502.
+ 32.480: sauherad.kommune.no INFO SOA at address 82.134.18.193 has serial 2009062502.
+ 32.480: sauherad.kommune.no INFO All SOA records have consistent serial numbers.
+ 32.480: sauherad.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 32.766: sauherad.kommune.no NOTICE The listed nameservers for sauherad.kommune.no all report the same set of nameservers.
+ 32.766: sauherad.kommune.no INFO Done testing zone consistency for sauherad.kommune.no.
+ 32.766: sauherad.kommune.no INFO Begin testing SOA parameters for sauherad.kommune.no.
+ 32.801: sauherad.kommune.no INFO Found SOA record for sauherad.kommune.no.
+ 32.801: sauherad.kommune.no INFO Begin testing host ns1.acos.no.
+ 32.951: sauherad.kommune.no INFO Begin testing address 82.134.18.193.
+ 33.136: sauherad.kommune.no INFO Done testing address 82.134.18.193.
+ 33.136: sauherad.kommune.no INFO Done testing host ns1.acos.no.
+ 33.136: sauherad.kommune.no INFO SOA MNAME for sauherad.kommune.no valid (ns1.acos.no).
+ 33.137: sauherad.kommune.no INFO SOA MNAME for sauherad.kommune.no (ns1.acos.no) listed as NS.
+ 33.364: sauherad.kommune.no INFO SOA MNAME for sauherad.kommune.no (ns1.acos.no) is authoritative.
+ 33.364: sauherad.kommune.no INFO Begin testing email address hostmaster@acos.no.
+ 33.499: sauherad.kommune.no INFO Mail exchangers for hostmaster@acos.no found tux.acos.no.
+ 33.499: sauherad.kommune.no INFO Begin testing host tux.acos.no.
+ 33.805: sauherad.kommune.no INFO Begin testing address 82.134.18.193.
+ 33.953: sauherad.kommune.no INFO Done testing address 82.134.18.193.
+ 33.954: sauherad.kommune.no INFO Done testing host tux.acos.no.
+ 34.061: sauherad.kommune.no INFO Done testing email address hostmaster@acos.no.
+ 34.061: sauherad.kommune.no INFO Successful attempt to deliver email for SOA RNAME of sauherad.kommune.no (hostmaster.acos.no) using hostmaster@acos.no.
+ 34.061: sauherad.kommune.no INFO SOA TTL for sauherad.kommune.no OK (172800) - recommended >= 3600.
+ 34.061: sauherad.kommune.no INFO SOA refresh for sauherad.kommune.no OK (86400) - recommended >= 14400.
+ 34.061: sauherad.kommune.no INFO SOA retry for sauherad.kommune.no OK (7200) - recommended >= 3600.
+ 34.061: sauherad.kommune.no INFO SOA expire for sauherad.kommune.no OK (3600000) - recommended >= 604800.
+ 34.062: sauherad.kommune.no NOTICE SOA minimum for sauherad.kommune.no too large (172800) - recommended <= 86400.
+ 34.062: sauherad.kommune.no INFO Done testing SOA parameters for sauherad.kommune.no.
+ 34.062: sauherad.kommune.no INFO Begin testing connectivity for sauherad.kommune.no.
+ 35.188: sauherad.kommune.no NOTICE Zone announced by fewer than two IPv4 ASN.
+ 35.189: sauherad.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 35.189: sauherad.kommune.no INFO Done testing connectivity for sauherad.kommune.no.
+ 35.189: sauherad.kommune.no INFO Begin testing DNSSEC for sauherad.kommune.no.
+ 35.264: sauherad.kommune.no INFO Did not find DS record for sauherad.kommune.no at parent.
+ 35.398: sauherad.kommune.no INFO Servers for sauherad.kommune.no have consistent extra processing status.
+ 35.466: sauherad.kommune.no INFO Authenticated denial records not found for sauherad.kommune.no.
+ 35.501: sauherad.kommune.no INFO Did not find DNSKEY record for sauherad.kommune.no at child.
+ 35.501: sauherad.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 35.501: sauherad.kommune.no INFO Done testing DNSSEC for sauherad.kommune.no.
+ 35.502: sauherad.kommune.no INFO Test completed for zone sauherad.kommune.no.

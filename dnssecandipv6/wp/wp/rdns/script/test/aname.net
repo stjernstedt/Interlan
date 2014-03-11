@@ -1,0 +1,111 @@
+  0.000: aname.net INFO Begin testing zone aname.net with version 1.0.1.
+  0.000: aname.net INFO Begin testing delegation for aname.net.
+  4.316: aname.net INFO Name servers listed at parent: ns.aname.net,ns2.aname.net,ns3.aname.se
+  4.480: aname.net INFO Name servers listed at child: ns.aname.net,ns2.aname.net,ns3.aname.se
+  4.480: aname.net NOTICE No IPv6 name servers found.
+  4.643: aname.net INFO Parent glue for aname.net found: ns.aname.net (195.35.82.101)
+  4.888: aname.net INFO Parent glue for aname.net found: ns2.aname.net (88.131.30.102)
+  5.117: aname.net INFO Checking glue for ns.aname.net (195.35.82.101).
+  5.138: aname.net INFO Child glue for aname.net found: ns.aname.net (195.35.82.101)
+  5.138: aname.net INFO Checking glue for ns2.aname.net (88.131.30.102).
+  5.157: aname.net INFO Child glue for aname.net found: ns2.aname.net (88.131.30.102)
+  5.158: aname.net INFO Done testing delegation for aname.net.
+  5.158: aname.net INFO Begin testing name server ns.aname.net.
+  5.158: aname.net INFO Begin testing host ns.aname.net.
+  5.158: aname.net INFO Begin testing address 195.35.82.101.
+  7.688: aname.net INFO Done testing address 195.35.82.101.
+  7.689: aname.net INFO Done testing host ns.aname.net.
+  7.715: aname.net INFO Name server ns.aname.net (195.35.82.101) is not recursive.
+  7.735: aname.net INFO Name server ns.aname.net (195.35.82.101) authoritative for aname.net.
+  7.755: aname.net INFO Name server ns.aname.net (195.35.82.101) answers queries over UDP.
+  7.810: aname.net INFO Name server ns.aname.net (195.35.82.101) answers queries over TCP.
+  7.874: aname.net INFO Name server ns.aname.net (195.35.82.101) closed for zone transfer of aname.net.
+  7.898: aname.net NOTICE No answer received from 195.35.82.101 when querying for hostname.bind/CH/TXT.
+  7.922: aname.net NOTICE No answer received from 195.35.82.101 when querying for version.bind/CH/TXT.
+  7.946: aname.net NOTICE No answer received from 195.35.82.101 when querying for id.server/CH/TXT.
+  7.965: aname.net NOTICE No answer received from 195.35.82.101 when querying for version.server/CH/TXT.
+  7.965: aname.net INFO Done testing name server ns.aname.net.
+  7.965: aname.net INFO Begin testing name server ns2.aname.net.
+  7.965: aname.net INFO Begin testing host ns2.aname.net.
+  7.965: aname.net INFO Begin testing address 88.131.30.102.
+  9.254: aname.net INFO Done testing address 88.131.30.102.
+  9.254: aname.net INFO Done testing host ns2.aname.net.
+  9.273: aname.net INFO Name server ns2.aname.net (88.131.30.102) is not recursive.
+  9.291: aname.net INFO Name server ns2.aname.net (88.131.30.102) authoritative for aname.net.
+  9.308: aname.net INFO Name server ns2.aname.net (88.131.30.102) answers queries over UDP.
+  9.355: aname.net INFO Name server ns2.aname.net (88.131.30.102) answers queries over TCP.
+  9.418: aname.net INFO Name server ns2.aname.net (88.131.30.102) closed for zone transfer of aname.net.
+  9.438: aname.net NOTICE No answer received from 88.131.30.102 when querying for hostname.bind/CH/TXT.
+  9.455: aname.net NOTICE No answer received from 88.131.30.102 when querying for version.bind/CH/TXT.
+  9.477: aname.net NOTICE No answer received from 88.131.30.102 when querying for id.server/CH/TXT.
+  9.493: aname.net NOTICE No answer received from 88.131.30.102 when querying for version.server/CH/TXT.
+  9.493: aname.net INFO Done testing name server ns2.aname.net.
+  9.494: aname.net INFO Begin testing name server ns3.aname.se.
+  9.494: aname.net INFO Begin testing host ns3.aname.se.
+  9.494: aname.net INFO Begin testing address 195.35.83.103.
+  9.519: aname.net INFO Done testing address 195.35.83.103.
+  9.519: aname.net INFO Done testing host ns3.aname.se.
+  9.539: aname.net INFO Name server ns3.aname.se (195.35.83.103) is not recursive.
+  9.560: aname.net INFO Name server ns3.aname.se (195.35.83.103) authoritative for aname.net.
+  9.580: aname.net INFO Name server ns3.aname.se (195.35.83.103) answers queries over UDP.
+  9.634: aname.net INFO Name server ns3.aname.se (195.35.83.103) answers queries over TCP.
+  9.703: aname.net INFO Name server ns3.aname.se (195.35.83.103) closed for zone transfer of aname.net.
+  9.724: aname.net NOTICE No answer received from 195.35.83.103 when querying for hostname.bind/CH/TXT.
+  9.742: aname.net NOTICE No answer received from 195.35.83.103 when querying for version.bind/CH/TXT.
+  9.760: aname.net NOTICE No answer received from 195.35.83.103 when querying for id.server/CH/TXT.
+  9.779: aname.net NOTICE No answer received from 195.35.83.103 when querying for version.server/CH/TXT.
+  9.779: aname.net INFO Done testing name server ns3.aname.se.
+  9.779: aname.net INFO Begin testing zone consistency for aname.net.
+  9.803: aname.net INFO SOA at address 195.35.83.103 has serial 2010090701.
+  9.824: aname.net INFO SOA at address 88.131.30.102 has serial 2010090701.
+  9.845: aname.net INFO SOA at address 195.35.82.101 has serial 2010090701.
+  9.845: aname.net INFO All SOA records have consistent serial numbers.
+  9.845: aname.net INFO All SOA records are consistent among all name servers.
+  9.845: aname.net INFO Done testing zone consistency for aname.net.
+  9.845: aname.net INFO Begin testing SOA parameters for aname.net.
+  9.874: aname.net INFO Found SOA record for aname.net.
+  9.874: aname.net INFO Begin testing host ns.aname.net.
+  9.875: aname.net INFO Begin testing address 195.35.82.101.
+  9.876: aname.net INFO Done testing address 195.35.82.101.
+  9.876: aname.net INFO Done testing host ns.aname.net.
+  9.876: aname.net INFO SOA MNAME for aname.net valid (ns.aname.net).
+  9.876: aname.net INFO SOA MNAME for aname.net (ns.aname.net) listed as NS.
+  9.897: aname.net INFO SOA MNAME for aname.net (ns.aname.net) is authoritative.
+  9.897: aname.net INFO Begin testing email address hostmaster@aname.net.
+  9.921: aname.net INFO Mail exchangers for hostmaster@aname.net found fsdata.se.
+  9.921: aname.net INFO Begin testing host fsdata.se.
+  9.979: aname.net INFO Begin testing address 88.131.30.50.
+ 10.003: aname.net INFO Done testing address 88.131.30.50.
+ 10.003: aname.net INFO Begin testing address 195.35.82.50.
+ 10.027: aname.net INFO Done testing address 195.35.82.50.
+ 10.027: aname.net INFO Done testing host fsdata.se.
+ 10.028: aname.net INFO Begin testing mail server fsdata.se (88.131.30.50) with hostmaster@aname.net.
+ 10.113: aname.net INFO SMTP banner: www1.aname.net ESMTP Sendmail 8.14.3/8.14.3; Tue, 7 Sep 2010 15:57:29 +0200
+ 10.190: aname.net INFO SMTP testing of fsdata.se (88.131.30.50) with hostmaster@aname.net succeeded without errors.
+ 10.190: aname.net INFO Done testing mail server fsdata.se (88.131.30.50) with hostmaster@aname.net.
+ 10.190: aname.net INFO Delivery over IPv4 to hostmaster@aname.net ok.
+ 10.190: aname.net INFO Delivery over IPv6 to hostmaster@aname.net could not be done.
+ 10.190: aname.net INFO Done testing email address hostmaster@aname.net.
+ 10.190: aname.net INFO Successful attempt to deliver email for SOA RNAME of aname.net (hostmaster.aname.net) using hostmaster@aname.net.
+ 10.191: aname.net NOTICE SOA TTL for aname.net too small (600) - recommended >= 3600.
+ 10.191: aname.net INFO SOA refresh for aname.net OK (28800) - recommended >= 14400.
+ 10.191: aname.net INFO SOA retry for aname.net OK (7200) - recommended >= 3600.
+ 10.191: aname.net INFO SOA expire for aname.net OK (604800) - recommended >= 604800.
+ 10.191: aname.net INFO SOA minimum for aname.net OK (300) - recommended between 300 and 86400.
+ 10.191: aname.net INFO Done testing SOA parameters for aname.net.
+ 10.191: aname.net INFO Begin testing connectivity for aname.net.
+ 10.601: aname.net INFO Name server 195.35.83.103 announced by: 2119
+ 10.731: aname.net INFO Name server 88.131.30.102 announced by: 3292
+ 10.861: aname.net INFO Name server 195.35.82.101 announced by: 2119
+ 10.861: aname.net INFO Zone announced by ASN: 3292,2119
+ 10.861: aname.net INFO Zone announced by more than one ASN (2).
+ 10.861: aname.net INFO Zone announced by IPv6 ASN: 
+ 10.861: aname.net NOTICE Zone announced by only one IPv6 ASN (0).
+ 10.861: aname.net INFO Done testing connectivity for aname.net.
+ 10.862: aname.net INFO Begin testing DNSSEC for aname.net.
+ 11.138: aname.net INFO Did not find DS record for aname.net at parent.
+ 11.289: aname.net INFO Servers for aname.net have consistent extra processing status.
+ 11.289: aname.net INFO Did not find DNSKEY record for aname.net at child.
+ 11.289: aname.net INFO No DNSKEY(s) found at child, other tests skipped.
+ 11.289: aname.net INFO Done testing DNSSEC for aname.net.
+ 11.289: aname.net INFO Test completed for zone aname.net.

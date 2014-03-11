@@ -1,0 +1,89 @@
+  0.000: ulvila.fi INFO Begin testing zone ulvila.fi with version 1.6.1.
+  0.421: ulvila.fi INFO Begin testing delegation for ulvila.fi.
+  8.489: ulvila.fi INFO Name servers listed at parent: ns.ulvila.fi,ns2.ulvila.fi
+ 10.613: ulvila.fi INFO Name servers listed at child: ns.ulvila.fi,ns2.ulvila.fi
+ 10.614: ulvila.fi NOTICE No IPv6 name servers found.
+ 10.911: ulvila.fi INFO Parent glue for ulvila.fi found: ns.ulvila.fi (213.139.191.10)
+ 11.033: ulvila.fi INFO Parent glue for ulvila.fi found: ns2.ulvila.fi (213.139.191.11)
+ 11.089: ulvila.fi INFO Checking glue for ns.ulvila.fi (213.139.191.10).
+ 11.144: ulvila.fi INFO Child glue for ulvila.fi found: ns.ulvila.fi (213.139.191.10)
+ 11.144: ulvila.fi INFO Checking glue for ns2.ulvila.fi (213.139.191.11).
+ 11.169: ulvila.fi INFO Child glue for ulvila.fi found: ns2.ulvila.fi (213.139.191.11)
+ 11.169: ulvila.fi INFO Parent glue for ulvila.fi found: ns.ulvila.fi (213.139.191.10)
+ 11.169: ulvila.fi INFO Parent glue for ulvila.fi found: ns2.ulvila.fi (213.139.191.11)
+ 11.873: ulvila.fi INFO It is possible to build a referral packet for ulvila.fi that works without EDNS0.
+ 12.580: ulvila.fi INFO Previously used name servers for ulvila.fi: 
+ 12.580: ulvila.fi INFO Done testing delegation for ulvila.fi.
+ 12.580: ulvila.fi INFO Begin testing name server ns.ulvila.fi.
+ 12.580: ulvila.fi INFO Begin testing host ns.ulvila.fi.
+ 12.955: ulvila.fi INFO Begin testing address 213.139.191.10.
+ 26.184: ulvila.fi INFO Done testing address 213.139.191.10.
+ 26.184: ulvila.fi INFO Done testing host ns.ulvila.fi.
+ 26.400: ulvila.fi INFO Name server ns.ulvila.fi (213.139.191.10) answers queries over UDP.
+ 28.432: ulvila.fi NOTICE DNS lookup error (connection failed).
+ 28.432: ulvila.fi ERROR Name server ns.ulvila.fi (213.139.191.10) does not answer queries over TCP.
+ 28.483: ulvila.fi INFO Name server ns.ulvila.fi (213.139.191.10) is not recursive.
+ 30.587: ulvila.fi NOTICE DNS lookup error (connection failed).
+ 30.587: ulvila.fi INFO Name server ns.ulvila.fi (213.139.191.10) authoritative for ulvila.fi.
+ 30.587: ulvila.fi INFO Name server ns.ulvila.fi (213.139.191.10) not checked for zone transfer of ulvila.fi.
+ 30.587: ulvila.fi INFO Name server ns.ulvila.fi (213.139.191.10) not checked for legacy name server ID.
+ 30.587: ulvila.fi INFO Done testing name server ns.ulvila.fi.
+ 30.587: ulvila.fi INFO Begin testing name server ns2.ulvila.fi.
+ 30.587: ulvila.fi INFO Begin testing host ns2.ulvila.fi.
+ 30.803: ulvila.fi INFO Begin testing address 213.139.191.11.
+ 31.488: ulvila.fi INFO Done testing address 213.139.191.11.
+ 31.488: ulvila.fi INFO Done testing host ns2.ulvila.fi.
+ 31.702: ulvila.fi INFO Name server ns2.ulvila.fi (213.139.191.11) answers queries over UDP.
+ 33.728: ulvila.fi NOTICE DNS lookup error (connection failed).
+ 33.728: ulvila.fi ERROR Name server ns2.ulvila.fi (213.139.191.11) does not answer queries over TCP.
+ 33.799: ulvila.fi INFO Name server ns2.ulvila.fi (213.139.191.11) is not recursive.
+ 35.852: ulvila.fi NOTICE DNS lookup error (connection failed).
+ 35.852: ulvila.fi INFO Name server ns2.ulvila.fi (213.139.191.11) authoritative for ulvila.fi.
+ 35.852: ulvila.fi INFO Name server ns2.ulvila.fi (213.139.191.11) not checked for zone transfer of ulvila.fi.
+ 35.852: ulvila.fi INFO Name server ns2.ulvila.fi (213.139.191.11) not checked for legacy name server ID.
+ 35.852: ulvila.fi INFO Done testing name server ns2.ulvila.fi.
+ 35.852: ulvila.fi INFO Begin testing zone consistency for ulvila.fi.
+ 36.726: ulvila.fi INFO SOA at address 213.139.191.11 has serial 2012031905.
+ 36.760: ulvila.fi INFO SOA at address 213.139.191.10 has serial 2012031905.
+ 36.760: ulvila.fi INFO All SOA records have consistent serial numbers.
+ 36.760: ulvila.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 37.084: ulvila.fi NOTICE The listed nameservers for ulvila.fi all report the same set of nameservers.
+ 37.084: ulvila.fi INFO Done testing zone consistency for ulvila.fi.
+ 37.084: ulvila.fi INFO Begin testing SOA parameters for ulvila.fi.
+ 37.103: ulvila.fi INFO Found SOA record for ulvila.fi.
+ 37.103: ulvila.fi INFO Begin testing host ns.ulvila.fi.
+ 37.206: ulvila.fi INFO Begin testing address 213.139.191.10.
+ 37.296: ulvila.fi INFO Done testing address 213.139.191.10.
+ 37.296: ulvila.fi INFO Done testing host ns.ulvila.fi.
+ 37.296: ulvila.fi INFO SOA MNAME for ulvila.fi valid (ns.ulvila.fi).
+ 37.296: ulvila.fi INFO SOA MNAME for ulvila.fi (ns.ulvila.fi) listed as NS.
+ 37.456: ulvila.fi INFO SOA MNAME for ulvila.fi (ns.ulvila.fi) is authoritative.
+ 37.456: ulvila.fi INFO Begin testing email address hostmaster@ulvila.fi.
+ 37.576: ulvila.fi INFO Mail exchangers for hostmaster@ulvila.fi found mail.citaron.net.
+ 37.577: ulvila.fi INFO Begin testing host mail.citaron.net.
+ 38.155: ulvila.fi INFO Begin testing address 213.139.191.46.
+ 38.906: ulvila.fi INFO Done testing address 213.139.191.46.
+ 38.906: ulvila.fi INFO Done testing host mail.citaron.net.
+ 39.153: ulvila.fi INFO Done testing email address hostmaster@ulvila.fi.
+ 39.153: ulvila.fi INFO Successful attempt to deliver email for SOA RNAME of ulvila.fi (hostmaster.ulvila.fi) using hostmaster@ulvila.fi.
+ 39.153: ulvila.fi INFO SOA TTL for ulvila.fi OK (86400) - recommended >= 3600.
+ 39.153: ulvila.fi INFO SOA refresh for ulvila.fi OK (28800) - recommended >= 14400.
+ 39.153: ulvila.fi INFO SOA retry for ulvila.fi OK (7200) - recommended >= 3600.
+ 39.153: ulvila.fi INFO SOA expire for ulvila.fi OK (604800) - recommended >= 604800.
+ 39.153: ulvila.fi INFO SOA minimum for ulvila.fi OK (86400) - recommended between 300 and 86400.
+ 39.154: ulvila.fi INFO Done testing SOA parameters for ulvila.fi.
+ 39.154: ulvila.fi INFO Begin testing connectivity for ulvila.fi.
+ 40.408: ulvila.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 40.409: ulvila.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 40.409: ulvila.fi INFO Done testing connectivity for ulvila.fi.
+ 40.409: ulvila.fi INFO Begin testing DNSSEC for ulvila.fi.
+ 40.643: ulvila.fi INFO Did not find DS record for ulvila.fi at parent.
+ 42.656: ulvila.fi NOTICE DNS lookup error (connection failed).
+ 44.668: ulvila.fi NOTICE DNS lookup error (connection failed).
+ 44.668: ulvila.fi INFO Servers for ulvila.fi have consistent extra processing status.
+ 48.693: ulvila.fi NOTICE DNS lookup error (connection failed).
+ 48.693: ulvila.fi INFO Authenticated denial records not found for ulvila.fi.
+ 48.714: ulvila.fi INFO Did not find DNSKEY record for ulvila.fi at child.
+ 48.715: ulvila.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 48.715: ulvila.fi INFO Done testing DNSSEC for ulvila.fi.
+ 48.715: ulvila.fi INFO Test completed for zone ulvila.fi.

@@ -1,0 +1,96 @@
+  0.000: lindesberg.se INFO Begin testing zone lindesberg.se with version 1.6.1.
+  0.884: lindesberg.se INFO Begin testing delegation for lindesberg.se.
+ 27.072: lindesberg.se INFO Name servers listed at parent: dns5.telia.com,ns1.lindesberg.se
+ 30.107: lindesberg.se INFO Name servers listed at child: dns5.telia.com,ns1.lindesberg.se
+ 30.139: lindesberg.se NOTICE Too few IPv6 name servers (1).
+ 30.340: lindesberg.se INFO Parent glue for lindesberg.se found: ns1.lindesberg.se (195.34.84.19)
+ 30.428: lindesberg.se INFO Checking glue for ns1.lindesberg.se (195.34.84.19).
+ 30.550: lindesberg.se INFO Child glue for lindesberg.se found: ns1.lindesberg.se (195.34.84.19)
+ 30.551: lindesberg.se INFO Parent glue for lindesberg.se found: ns1.lindesberg.se (195.34.84.19)
+ 32.166: lindesberg.se INFO It is possible to build a referral packet for lindesberg.se that works without EDNS0.
+ 32.675: lindesberg.se INFO Previously used name servers for lindesberg.se: 
+ 32.675: lindesberg.se INFO Done testing delegation for lindesberg.se.
+ 32.676: lindesberg.se INFO Begin testing name server dns5.telia.com.
+ 32.676: lindesberg.se INFO Begin testing host dns5.telia.com.
+ 32.677: lindesberg.se INFO Begin testing address 81.228.11.68.
+ 42.425: lindesberg.se INFO Done testing address 81.228.11.68.
+ 42.426: lindesberg.se INFO Begin testing address 2001:2040:c001:101:0:0:0:4.
+ 45.098: lindesberg.se INFO Done testing address 2001:2040:c001:101:0:0:0:4.
+ 45.098: lindesberg.se INFO Done testing host dns5.telia.com.
+ 45.149: lindesberg.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over UDP.
+ 45.192: lindesberg.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over TCP.
+ 45.261: lindesberg.se INFO Name server dns5.telia.com (81.228.11.68) is not recursive.
+ 45.436: lindesberg.se INFO Name server dns5.telia.com (81.228.11.68) authoritative for lindesberg.se.
+ 45.462: lindesberg.se INFO Name server dns5.telia.com (81.228.11.68) closed for zone transfer of lindesberg.se.
+ 45.559: lindesberg.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 45.659: lindesberg.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) answers queries over UDP.
+ 45.733: lindesberg.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) answers queries over TCP.
+ 45.825: lindesberg.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) is not recursive.
+ 46.100: lindesberg.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) authoritative for lindesberg.se.
+ 46.239: lindesberg.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) closed for zone transfer of lindesberg.se.
+ 46.464: lindesberg.se INFO Legacy name server ID for dns5.telia.com (2001:2040:c001:101:0:0:0:4): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 46.959: lindesberg.se INFO Done testing name server dns5.telia.com.
+ 46.959: lindesberg.se INFO Begin testing name server ns1.lindesberg.se.
+ 46.959: lindesberg.se INFO Begin testing host ns1.lindesberg.se.
+ 47.151: lindesberg.se INFO Begin testing address 195.34.84.19.
+ 52.204: lindesberg.se WARNING Reverse for 195.34.84.19 points to an unknown host name (bashfull.lindesberg.se).
+ 52.204: lindesberg.se INFO Done testing address 195.34.84.19.
+ 52.204: lindesberg.se INFO Done testing host ns1.lindesberg.se.
+ 52.739: lindesberg.se INFO Name server ns1.lindesberg.se (195.34.84.19) answers queries over UDP.
+ 54.904: lindesberg.se NOTICE DNS lookup error (connection failed).
+ 54.905: lindesberg.se ERROR Name server ns1.lindesberg.se (195.34.84.19) does not answer queries over TCP.
+ 54.937: lindesberg.se INFO Name server ns1.lindesberg.se (195.34.84.19) is not recursive.
+ 57.071: lindesberg.se NOTICE DNS lookup error (connection failed).
+ 57.072: lindesberg.se INFO Name server ns1.lindesberg.se (195.34.84.19) authoritative for lindesberg.se.
+ 57.072: lindesberg.se INFO Name server ns1.lindesberg.se (195.34.84.19) not checked for zone transfer of lindesberg.se.
+ 57.072: lindesberg.se INFO Name server ns1.lindesberg.se (195.34.84.19) not checked for legacy name server ID.
+ 57.072: lindesberg.se INFO Done testing name server ns1.lindesberg.se.
+ 57.072: lindesberg.se INFO Begin testing zone consistency for lindesberg.se.
+ 59.102: lindesberg.se INFO SOA at address 81.228.11.68 has serial 103.
+ 59.216: lindesberg.se INFO SOA at address 2001:2040:c001:101:0:0:0:4 has serial 103.
+ 59.377: lindesberg.se INFO SOA at address 195.34.84.19 has serial 103.
+ 59.378: lindesberg.se INFO All SOA records have consistent serial numbers.
+ 59.378: lindesberg.se INFO All other fields in the SOA record are consistent among all name servers.
+ 59.924: lindesberg.se NOTICE The listed nameservers for lindesberg.se all report the same set of nameservers.
+ 59.925: lindesberg.se INFO Done testing zone consistency for lindesberg.se.
+ 59.925: lindesberg.se INFO Begin testing SOA parameters for lindesberg.se.
+ 60.652: lindesberg.se INFO Found SOA record for lindesberg.se.
+ 60.652: lindesberg.se INFO Begin testing host ns1.lindesberg.se.
+ 61.008: lindesberg.se INFO Begin testing address 195.34.84.19.
+ 64.655: lindesberg.se WARNING Reverse for 195.34.84.19 points to an unknown host name (bashfull.lindesberg.se).
+ 64.655: lindesberg.se INFO Done testing address 195.34.84.19.
+ 64.655: lindesberg.se INFO Done testing host ns1.lindesberg.se.
+ 64.656: lindesberg.se INFO SOA MNAME for lindesberg.se valid (ns1.lindesberg.se).
+ 64.656: lindesberg.se INFO SOA MNAME for lindesberg.se (ns1.lindesberg.se) listed as NS.
+ 65.104: lindesberg.se INFO SOA MNAME for lindesberg.se (ns1.lindesberg.se) is authoritative.
+ 65.104: lindesberg.se INFO Begin testing email address abuse@bergslagens-kt.se.
+ 65.748: lindesberg.se INFO Mail exchangers for abuse@bergslagens-kt.se found smtp.nora.se,mail2.nora.se.
+ 65.748: lindesberg.se INFO Begin testing host smtp.nora.se.
+ 69.012: lindesberg.se ERROR Host name smtp.nora.se refers to a CNAME.
+ 69.012: lindesberg.se INFO Done testing host smtp.nora.se.
+ 69.012: lindesberg.se NOTICE Invalid host name for mail exchanger smtp.nora.se.
+ 69.012: lindesberg.se INFO Begin testing host mail2.nora.se.
+ 69.935: lindesberg.se INFO Begin testing address 195.34.84.89.
+ 72.546: lindesberg.se INFO Done testing address 195.34.84.89.
+ 72.547: lindesberg.se INFO Done testing host mail2.nora.se.
+ 73.134: lindesberg.se INFO Done testing email address abuse@bergslagens-kt.se.
+ 73.134: lindesberg.se INFO Successful attempt to deliver email for SOA RNAME of lindesberg.se (abuse.bergslagens-kt.se) using abuse@bergslagens-kt.se.
+ 73.134: lindesberg.se INFO SOA TTL for lindesberg.se OK (28800) - recommended >= 3600.
+ 73.134: lindesberg.se NOTICE SOA refresh for lindesberg.se too small (10800) - recommended >= 14400.
+ 73.135: lindesberg.se INFO SOA retry for lindesberg.se OK (3600) - recommended >= 3600.
+ 73.135: lindesberg.se INFO SOA expire for lindesberg.se OK (2419200) - recommended >= 604800.
+ 73.135: lindesberg.se INFO SOA minimum for lindesberg.se OK (900) - recommended between 300 and 86400.
+ 73.135: lindesberg.se INFO Done testing SOA parameters for lindesberg.se.
+ 73.135: lindesberg.se INFO Begin testing connectivity for lindesberg.se.
+ 75.288: lindesberg.se INFO Zone announced by more than one ASN.
+ 76.497: lindesberg.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 76.497: lindesberg.se INFO Done testing connectivity for lindesberg.se.
+ 76.497: lindesberg.se INFO Begin testing DNSSEC for lindesberg.se.
+ 76.706: lindesberg.se INFO Did not find DS record for lindesberg.se at parent.
+ 78.792: lindesberg.se NOTICE DNS lookup error (connection failed).
+ 78.884: lindesberg.se INFO Servers for lindesberg.se have consistent extra processing status.
+ 79.007: lindesberg.se INFO Authenticated denial records not found for lindesberg.se.
+ 79.054: lindesberg.se INFO Did not find DNSKEY record for lindesberg.se at child.
+ 79.054: lindesberg.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 79.054: lindesberg.se INFO Done testing DNSSEC for lindesberg.se.
+ 79.054: lindesberg.se INFO Test completed for zone lindesberg.se.

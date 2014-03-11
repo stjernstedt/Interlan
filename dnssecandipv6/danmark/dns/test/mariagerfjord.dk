@@ -1,0 +1,140 @@
+  0.000: mariagerfjord.dk INFO Begin testing zone mariagerfjord.dk with version 1.6.1.
+  0.497: mariagerfjord.dk INFO Begin testing delegation for mariagerfjord.dk.
+  5.587: mariagerfjord.dk INFO Name servers listed at parent: a.ns.netic.dk,b.ns.netic.dk,c.ns.netic.dk
+  8.290: mariagerfjord.dk INFO Name servers listed at child: a.ns.netic.dk,b.ns.netic.dk,c.ns.netic.dk
+  8.425: mariagerfjord.dk INFO Parent glue for mariagerfjord.dk found: a.ns.netic.dk (77.243.50.203)
+  8.510: mariagerfjord.dk INFO Parent glue for mariagerfjord.dk found: a.ns.netic.dk (2a03:dc80:0:f136:0:0:0:203)
+  8.572: mariagerfjord.dk INFO Parent glue for mariagerfjord.dk found: b.ns.netic.dk (77.243.50.205)
+  8.643: mariagerfjord.dk INFO Parent glue for mariagerfjord.dk found: b.ns.netic.dk (2a03:dc80:0:f136:0:0:0:205)
+  8.774: mariagerfjord.dk INFO Parent glue for mariagerfjord.dk found: c.ns.netic.dk (86.48.36.211)
+  8.831: mariagerfjord.dk INFO Checking glue for a.ns.netic.dk (77.243.50.203).
+  8.831: mariagerfjord.dk INFO Checking glue for a.ns.netic.dk (2a03:dc80:0:f136:0:0:0:203).
+  8.831: mariagerfjord.dk INFO Checking glue for b.ns.netic.dk (77.243.50.205).
+  8.832: mariagerfjord.dk INFO Checking glue for b.ns.netic.dk (2a03:dc80:0:f136:0:0:0:205).
+  8.832: mariagerfjord.dk INFO Checking glue for c.ns.netic.dk (86.48.36.211).
+  8.832: mariagerfjord.dk INFO Parent glue for mariagerfjord.dk found: a.ns.netic.dk (77.243.50.203)
+  8.832: mariagerfjord.dk INFO Parent glue for mariagerfjord.dk found: a.ns.netic.dk (2a03:dc80:0:f136:0:0:0:203)
+  8.832: mariagerfjord.dk INFO Parent glue for mariagerfjord.dk found: b.ns.netic.dk (77.243.50.205)
+  8.833: mariagerfjord.dk INFO Parent glue for mariagerfjord.dk found: b.ns.netic.dk (2a03:dc80:0:f136:0:0:0:205)
+  8.833: mariagerfjord.dk INFO Parent glue for mariagerfjord.dk found: c.ns.netic.dk (86.48.36.211)
+  9.784: mariagerfjord.dk INFO It is possible to build a referral packet for mariagerfjord.dk that works without EDNS0.
+ 10.274: mariagerfjord.dk INFO Previously used name servers for mariagerfjord.dk: 
+ 10.274: mariagerfjord.dk INFO Done testing delegation for mariagerfjord.dk.
+ 10.274: mariagerfjord.dk INFO Begin testing name server a.ns.netic.dk.
+ 10.274: mariagerfjord.dk INFO Begin testing host a.ns.netic.dk.
+ 10.275: mariagerfjord.dk INFO Begin testing address 77.243.50.203.
+ 15.477: mariagerfjord.dk INFO Done testing address 77.243.50.203.
+ 15.478: mariagerfjord.dk INFO Begin testing address 2a03:dc80:0:f136:0:0:0:203.
+ 15.767: mariagerfjord.dk INFO Done testing address 2a03:dc80:0:f136:0:0:0:203.
+ 15.767: mariagerfjord.dk INFO Done testing host a.ns.netic.dk.
+ 15.823: mariagerfjord.dk INFO Name server a.ns.netic.dk (77.243.50.203) answers queries over UDP.
+ 15.867: mariagerfjord.dk INFO Name server a.ns.netic.dk (77.243.50.203) answers queries over TCP.
+ 15.921: mariagerfjord.dk INFO Name server a.ns.netic.dk (77.243.50.203) is not recursive.
+ 16.059: mariagerfjord.dk INFO Name server a.ns.netic.dk (77.243.50.203) authoritative for mariagerfjord.dk.
+ 16.133: mariagerfjord.dk INFO Name server a.ns.netic.dk (77.243.50.203) closed for zone transfer of mariagerfjord.dk.
+ 16.200: mariagerfjord.dk INFO Legacy name server ID for a.ns.netic.dk (77.243.50.203): hostname.bind = dns01
+ 16.234: mariagerfjord.dk INFO Legacy name server ID for a.ns.netic.dk (77.243.50.203): version.bind = 9.7.3
+ 16.281: mariagerfjord.dk NOTICE No answer received from 77.243.50.203 when querying for version.server/CH/TXT.
+ 16.341: mariagerfjord.dk INFO Name server a.ns.netic.dk (2a03:dc80:0:f136:0:0:0:203) answers queries over UDP.
+ 16.445: mariagerfjord.dk INFO Name server a.ns.netic.dk (2a03:dc80:0:f136:0:0:0:203) answers queries over TCP.
+ 16.471: mariagerfjord.dk INFO Name server a.ns.netic.dk (2a03:dc80:0:f136:0:0:0:203) is not recursive.
+ 16.635: mariagerfjord.dk INFO Name server a.ns.netic.dk (2a03:dc80:0:f136:0:0:0:203) authoritative for mariagerfjord.dk.
+ 16.717: mariagerfjord.dk INFO Name server a.ns.netic.dk (2a03:dc80:0:f136:0:0:0:203) closed for zone transfer of mariagerfjord.dk.
+ 16.748: mariagerfjord.dk INFO Legacy name server ID for a.ns.netic.dk (2a03:dc80:0:f136:0:0:0:203): hostname.bind = dns01
+ 16.788: mariagerfjord.dk INFO Legacy name server ID for a.ns.netic.dk (2a03:dc80:0:f136:0:0:0:203): version.bind = 9.7.3
+ 16.861: mariagerfjord.dk NOTICE No answer received from 2a03:dc80:0:f136:0:0:0:203 when querying for version.server/CH/TXT.
+ 16.862: mariagerfjord.dk INFO Done testing name server a.ns.netic.dk.
+ 16.862: mariagerfjord.dk INFO Begin testing name server b.ns.netic.dk.
+ 16.862: mariagerfjord.dk INFO Begin testing host b.ns.netic.dk.
+ 16.862: mariagerfjord.dk INFO Begin testing address 77.243.50.205.
+ 17.245: mariagerfjord.dk INFO Done testing address 77.243.50.205.
+ 17.246: mariagerfjord.dk INFO Begin testing address 2a03:dc80:0:f136:0:0:0:205.
+ 17.720: mariagerfjord.dk INFO Done testing address 2a03:dc80:0:f136:0:0:0:205.
+ 17.720: mariagerfjord.dk INFO Done testing host b.ns.netic.dk.
+ 17.770: mariagerfjord.dk INFO Name server b.ns.netic.dk (77.243.50.205) answers queries over UDP.
+ 17.812: mariagerfjord.dk INFO Name server b.ns.netic.dk (77.243.50.205) answers queries over TCP.
+ 17.857: mariagerfjord.dk INFO Name server b.ns.netic.dk (77.243.50.205) is not recursive.
+ 17.976: mariagerfjord.dk INFO Name server b.ns.netic.dk (77.243.50.205) authoritative for mariagerfjord.dk.
+ 18.047: mariagerfjord.dk INFO Name server b.ns.netic.dk (77.243.50.205) closed for zone transfer of mariagerfjord.dk.
+ 18.086: mariagerfjord.dk INFO Legacy name server ID for b.ns.netic.dk (77.243.50.205): hostname.bind = dns02
+ 18.127: mariagerfjord.dk INFO Legacy name server ID for b.ns.netic.dk (77.243.50.205): version.bind = 9.7.3
+ 18.185: mariagerfjord.dk NOTICE No answer received from 77.243.50.205 when querying for version.server/CH/TXT.
+ 18.215: mariagerfjord.dk INFO Name server b.ns.netic.dk (2a03:dc80:0:f136:0:0:0:205) answers queries over UDP.
+ 18.283: mariagerfjord.dk INFO Name server b.ns.netic.dk (2a03:dc80:0:f136:0:0:0:205) answers queries over TCP.
+ 18.309: mariagerfjord.dk INFO Name server b.ns.netic.dk (2a03:dc80:0:f136:0:0:0:205) is not recursive.
+ 18.469: mariagerfjord.dk INFO Name server b.ns.netic.dk (2a03:dc80:0:f136:0:0:0:205) authoritative for mariagerfjord.dk.
+ 18.542: mariagerfjord.dk INFO Name server b.ns.netic.dk (2a03:dc80:0:f136:0:0:0:205) closed for zone transfer of mariagerfjord.dk.
+ 18.572: mariagerfjord.dk INFO Legacy name server ID for b.ns.netic.dk (2a03:dc80:0:f136:0:0:0:205): hostname.bind = dns02
+ 18.602: mariagerfjord.dk INFO Legacy name server ID for b.ns.netic.dk (2a03:dc80:0:f136:0:0:0:205): version.bind = 9.7.3
+ 18.656: mariagerfjord.dk NOTICE No answer received from 2a03:dc80:0:f136:0:0:0:205 when querying for version.server/CH/TXT.
+ 18.656: mariagerfjord.dk INFO Done testing name server b.ns.netic.dk.
+ 18.656: mariagerfjord.dk INFO Begin testing name server c.ns.netic.dk.
+ 18.656: mariagerfjord.dk INFO Begin testing host c.ns.netic.dk.
+ 18.910: mariagerfjord.dk INFO Begin testing address 86.48.36.211.
+ 20.041: mariagerfjord.dk INFO Done testing address 86.48.36.211.
+ 20.042: mariagerfjord.dk INFO Done testing host c.ns.netic.dk.
+ 20.235: mariagerfjord.dk INFO Name server c.ns.netic.dk (86.48.36.211) answers queries over UDP.
+ 20.269: mariagerfjord.dk INFO Name server c.ns.netic.dk (86.48.36.211) answers queries over TCP.
+ 20.285: mariagerfjord.dk INFO Name server c.ns.netic.dk (86.48.36.211) is not recursive.
+ 20.418: mariagerfjord.dk INFO Name server c.ns.netic.dk (86.48.36.211) authoritative for mariagerfjord.dk.
+ 20.460: mariagerfjord.dk INFO Name server c.ns.netic.dk (86.48.36.211) closed for zone transfer of mariagerfjord.dk.
+ 20.487: mariagerfjord.dk INFO Legacy name server ID for c.ns.netic.dk (86.48.36.211): hostname.bind = dns03.netic.dk
+ 20.504: mariagerfjord.dk INFO Legacy name server ID for c.ns.netic.dk (86.48.36.211): version.bind = 9.8.4-rpz2+rl005.12-P1
+ 20.563: mariagerfjord.dk NOTICE No answer received from 86.48.36.211 when querying for version.server/CH/TXT.
+ 20.563: mariagerfjord.dk INFO Done testing name server c.ns.netic.dk.
+ 20.564: mariagerfjord.dk INFO Begin testing zone consistency for mariagerfjord.dk.
+ 21.063: mariagerfjord.dk INFO SOA at address 77.243.50.203 has serial 207.
+ 21.100: mariagerfjord.dk INFO SOA at address 86.48.36.211 has serial 207.
+ 21.131: mariagerfjord.dk INFO SOA at address 77.243.50.205 has serial 207.
+ 21.195: mariagerfjord.dk INFO SOA at address 2a03:dc80:0:f136:0:0:0:203 has serial 207.
+ 21.274: mariagerfjord.dk INFO SOA at address 2a03:dc80:0:f136:0:0:0:205 has serial 207.
+ 21.275: mariagerfjord.dk INFO All SOA records have consistent serial numbers.
+ 21.275: mariagerfjord.dk INFO All other fields in the SOA record are consistent among all name servers.
+ 21.721: mariagerfjord.dk NOTICE The listed nameservers for mariagerfjord.dk all report the same set of nameservers.
+ 21.721: mariagerfjord.dk INFO Done testing zone consistency for mariagerfjord.dk.
+ 21.721: mariagerfjord.dk INFO Begin testing SOA parameters for mariagerfjord.dk.
+ 21.747: mariagerfjord.dk INFO Found SOA record for mariagerfjord.dk.
+ 21.747: mariagerfjord.dk INFO Begin testing host a.ns.netic.dk.
+ 21.771: mariagerfjord.dk INFO Begin testing address 77.243.50.203.
+ 21.773: mariagerfjord.dk INFO Done testing address 77.243.50.203.
+ 21.773: mariagerfjord.dk INFO Begin testing address 2a03:dc80:0:f136:0:0:0:203.
+ 21.794: mariagerfjord.dk INFO Done testing address 2a03:dc80:0:f136:0:0:0:203.
+ 21.794: mariagerfjord.dk INFO Done testing host a.ns.netic.dk.
+ 21.794: mariagerfjord.dk INFO SOA MNAME for mariagerfjord.dk valid (a.ns.netic.dk).
+ 21.794: mariagerfjord.dk INFO SOA MNAME for mariagerfjord.dk (a.ns.netic.dk) listed as NS.
+ 21.827: mariagerfjord.dk INFO SOA MNAME for mariagerfjord.dk (a.ns.netic.dk) is authoritative.
+ 21.902: mariagerfjord.dk INFO SOA MNAME for mariagerfjord.dk (a.ns.netic.dk) is authoritative.
+ 21.902: mariagerfjord.dk INFO Begin testing email address hostmaster@netic.dk.
+ 22.119: mariagerfjord.dk INFO Mail exchangers for hostmaster@netic.dk found mxfilter02.netic.dk,mxfilter01.netic.dk.
+ 22.119: mariagerfjord.dk INFO Begin testing host mxfilter02.netic.dk.
+ 22.636: mariagerfjord.dk INFO Begin testing address 77.243.50.213.
+ 23.319: mariagerfjord.dk INFO Done testing address 77.243.50.213.
+ 23.319: mariagerfjord.dk INFO Begin testing address 2a03:dc80:0:f136:0:0:0:213.
+ 23.954: mariagerfjord.dk INFO Done testing address 2a03:dc80:0:f136:0:0:0:213.
+ 23.954: mariagerfjord.dk INFO Done testing host mxfilter02.netic.dk.
+ 23.954: mariagerfjord.dk INFO Begin testing host mxfilter01.netic.dk.
+ 24.469: mariagerfjord.dk INFO Begin testing address 77.243.50.207.
+ 25.164: mariagerfjord.dk INFO Done testing address 77.243.50.207.
+ 25.164: mariagerfjord.dk INFO Begin testing address 2a03:dc80:0:f136:0:0:0:207.
+ 25.731: mariagerfjord.dk INFO Done testing address 2a03:dc80:0:f136:0:0:0:207.
+ 25.731: mariagerfjord.dk INFO Done testing host mxfilter01.netic.dk.
+ 25.731: mariagerfjord.dk INFO Done testing email address hostmaster@netic.dk.
+ 25.731: mariagerfjord.dk INFO Successful attempt to deliver email for SOA RNAME of mariagerfjord.dk (hostmaster.netic.dk) using hostmaster@netic.dk.
+ 25.731: mariagerfjord.dk INFO SOA TTL for mariagerfjord.dk OK (28800) - recommended >= 3600.
+ 25.731: mariagerfjord.dk NOTICE SOA refresh for mariagerfjord.dk too small (10800) - recommended >= 14400.
+ 25.731: mariagerfjord.dk INFO SOA retry for mariagerfjord.dk OK (3600) - recommended >= 3600.
+ 25.731: mariagerfjord.dk INFO SOA expire for mariagerfjord.dk OK (604800) - recommended >= 604800.
+ 25.731: mariagerfjord.dk INFO SOA minimum for mariagerfjord.dk OK (3600) - recommended between 300 and 86400.
+ 25.732: mariagerfjord.dk INFO Done testing SOA parameters for mariagerfjord.dk.
+ 25.732: mariagerfjord.dk INFO Begin testing connectivity for mariagerfjord.dk.
+ 27.675: mariagerfjord.dk INFO Zone announced by more than one ASN.
+ 28.760: mariagerfjord.dk NOTICE Zone announced by fewer than two IPv6 ASN.
+ 28.760: mariagerfjord.dk INFO Done testing connectivity for mariagerfjord.dk.
+ 28.760: mariagerfjord.dk INFO Begin testing DNSSEC for mariagerfjord.dk.
+ 28.827: mariagerfjord.dk INFO Did not find DS record for mariagerfjord.dk at parent.
+ 29.101: mariagerfjord.dk INFO Servers for mariagerfjord.dk have consistent extra processing status.
+ 29.150: mariagerfjord.dk INFO Authenticated denial records not found for mariagerfjord.dk.
+ 29.171: mariagerfjord.dk INFO Did not find DNSKEY record for mariagerfjord.dk at child.
+ 29.171: mariagerfjord.dk INFO No DNSKEY(s) found at child, other tests skipped.
+ 29.171: mariagerfjord.dk INFO Done testing DNSSEC for mariagerfjord.dk.
+ 29.171: mariagerfjord.dk INFO Test completed for zone mariagerfjord.dk.

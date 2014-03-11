@@ -1,0 +1,111 @@
+  0.000: multia.fi INFO Begin testing zone multia.fi with version 1.6.1.
+  0.480: multia.fi INFO Begin testing delegation for multia.fi.
+  8.517: multia.fi INFO Name servers listed at parent: dns1.solutions.fi,dns2.solutions.fi,dns3.solutions.fi
+ 11.105: multia.fi INFO Name servers listed at child: dns1.solutions.fi,dns2.solutions.fi,dns3.solutions.fi
+ 11.105: multia.fi NOTICE No IPv6 name servers found.
+ 11.203: multia.fi INFO Parent glue for multia.fi found: dns1.solutions.fi (194.197.177.1)
+ 11.425: multia.fi INFO Parent glue for multia.fi found: dns2.solutions.fi (217.112.192.2)
+ 11.682: multia.fi INFO Parent glue for multia.fi found: dns3.solutions.fi (194.142.157.1)
+ 11.754: multia.fi INFO Checking glue for dns1.solutions.fi (194.197.177.1).
+ 11.754: multia.fi INFO Checking glue for dns2.solutions.fi (217.112.192.2).
+ 11.754: multia.fi INFO Checking glue for dns3.solutions.fi (194.142.157.1).
+ 11.755: multia.fi INFO Parent glue for multia.fi found: dns1.solutions.fi (194.197.177.1)
+ 11.755: multia.fi INFO Parent glue for multia.fi found: dns2.solutions.fi (217.112.192.2)
+ 11.793: multia.fi INFO Parent glue for multia.fi found: dns3.solutions.fi (194.142.157.1)
+ 13.434: multia.fi INFO It is possible to build a referral packet for multia.fi that works without EDNS0.
+ 14.357: multia.fi INFO Previously used name servers for multia.fi: 
+ 14.358: multia.fi INFO Done testing delegation for multia.fi.
+ 14.358: multia.fi INFO Begin testing name server dns1.solutions.fi.
+ 14.358: multia.fi INFO Begin testing host dns1.solutions.fi.
+ 14.600: multia.fi INFO Begin testing address 194.197.177.1.
+ 28.726: multia.fi INFO Done testing address 194.197.177.1.
+ 28.726: multia.fi INFO Done testing host dns1.solutions.fi.
+ 28.967: multia.fi INFO Name server dns1.solutions.fi (194.197.177.1) answers queries over UDP.
+ 29.018: multia.fi INFO Name server dns1.solutions.fi (194.197.177.1) answers queries over TCP.
+ 29.064: multia.fi INFO Name server dns1.solutions.fi (194.197.177.1) is not recursive.
+ 29.235: multia.fi INFO Name server dns1.solutions.fi (194.197.177.1) authoritative for multia.fi.
+ 29.298: multia.fi INFO Name server dns1.solutions.fi (194.197.177.1) closed for zone transfer of multia.fi.
+ 29.340: multia.fi INFO Legacy name server ID for dns1.solutions.fi (194.197.177.1): hostname.bind = lyly.solutions.fi
+ 29.456: multia.fi NOTICE No answer received from 194.197.177.1 when querying for version.server/CH/TXT.
+ 29.456: multia.fi INFO Done testing name server dns1.solutions.fi.
+ 29.456: multia.fi INFO Begin testing name server dns2.solutions.fi.
+ 29.456: multia.fi INFO Begin testing host dns2.solutions.fi.
+ 29.599: multia.fi INFO Begin testing address 217.112.192.2.
+ 30.282: multia.fi INFO Done testing address 217.112.192.2.
+ 30.282: multia.fi INFO Done testing host dns2.solutions.fi.
+ 30.521: multia.fi INFO Name server dns2.solutions.fi (217.112.192.2) answers queries over UDP.
+ 30.569: multia.fi INFO Name server dns2.solutions.fi (217.112.192.2) answers queries over TCP.
+ 30.592: multia.fi INFO Name server dns2.solutions.fi (217.112.192.2) is not recursive.
+ 30.698: multia.fi INFO Name server dns2.solutions.fi (217.112.192.2) authoritative for multia.fi.
+ 30.760: multia.fi INFO Name server dns2.solutions.fi (217.112.192.2) closed for zone transfer of multia.fi.
+ 30.779: multia.fi INFO Legacy name server ID for dns2.solutions.fi (217.112.192.2): hostname.bind = lyly.solutions.fi
+ 30.852: multia.fi NOTICE No answer received from 217.112.192.2 when querying for version.server/CH/TXT.
+ 30.858: multia.fi INFO Done testing name server dns2.solutions.fi.
+ 30.858: multia.fi INFO Begin testing name server dns3.solutions.fi.
+ 30.858: multia.fi INFO Begin testing host dns3.solutions.fi.
+ 31.048: multia.fi INFO Begin testing address 194.142.157.1.
+ 31.615: multia.fi INFO Done testing address 194.142.157.1.
+ 31.616: multia.fi INFO Done testing host dns3.solutions.fi.
+ 31.804: multia.fi INFO Name server dns3.solutions.fi (194.142.157.1) answers queries over UDP.
+ 31.849: multia.fi INFO Name server dns3.solutions.fi (194.142.157.1) answers queries over TCP.
+ 31.871: multia.fi INFO Name server dns3.solutions.fi (194.142.157.1) is not recursive.
+ 31.990: multia.fi INFO Name server dns3.solutions.fi (194.142.157.1) authoritative for multia.fi.
+ 32.039: multia.fi INFO Name server dns3.solutions.fi (194.142.157.1) closed for zone transfer of multia.fi.
+ 32.069: multia.fi INFO Legacy name server ID for dns3.solutions.fi (194.142.157.1): hostname.bind = antero.solutions.fi
+ 32.154: multia.fi NOTICE No answer received from 194.142.157.1 when querying for version.server/CH/TXT.
+ 32.154: multia.fi INFO Done testing name server dns3.solutions.fi.
+ 32.154: multia.fi INFO Begin testing zone consistency for multia.fi.
+ 32.929: multia.fi INFO SOA at address 194.142.157.1 has serial 2013120401.
+ 32.961: multia.fi INFO SOA at address 217.112.192.2 has serial 2013120401.
+ 33.001: multia.fi INFO SOA at address 194.197.177.1 has serial 2013120401.
+ 33.002: multia.fi INFO All SOA records have consistent serial numbers.
+ 33.002: multia.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 33.501: multia.fi NOTICE The listed nameservers for multia.fi all report the same set of nameservers.
+ 33.501: multia.fi INFO Done testing zone consistency for multia.fi.
+ 33.502: multia.fi INFO Begin testing SOA parameters for multia.fi.
+ 33.533: multia.fi INFO Found SOA record for multia.fi.
+ 33.533: multia.fi INFO Begin testing host dns1.solutions.fi.
+ 33.632: multia.fi INFO Begin testing address 194.197.177.1.
+ 33.720: multia.fi INFO Done testing address 194.197.177.1.
+ 33.720: multia.fi INFO Done testing host dns1.solutions.fi.
+ 33.720: multia.fi INFO SOA MNAME for multia.fi valid (dns1.solutions.fi).
+ 33.720: multia.fi INFO SOA MNAME for multia.fi (dns1.solutions.fi) listed as NS.
+ 33.871: multia.fi INFO SOA MNAME for multia.fi (dns1.solutions.fi) is authoritative.
+ 33.871: multia.fi INFO Begin testing email address dnsmaster@solutions.fi.
+ 33.998: multia.fi INFO Mail exchangers for dnsmaster@solutions.fi found mx12272.pri.secmail.com,mx12272.bak.secmail.com.
+ 33.998: multia.fi INFO Begin testing host mx12272.pri.secmail.com.
+ 34.341: multia.fi INFO Begin testing address 217.112.192.18.
+ 34.867: multia.fi INFO Done testing address 217.112.192.18.
+ 34.867: multia.fi INFO Begin testing address 217.112.192.16.
+ 35.410: multia.fi INFO Done testing address 217.112.192.16.
+ 35.411: multia.fi INFO Begin testing address 217.112.192.11.
+ 36.032: multia.fi INFO Done testing address 217.112.192.11.
+ 36.035: multia.fi INFO Done testing host mx12272.pri.secmail.com.
+ 36.122: multia.fi INFO Begin testing host mx12272.bak.secmail.com.
+ 36.345: multia.fi INFO Begin testing address 194.197.177.16.
+ 37.078: multia.fi INFO Done testing address 194.197.177.16.
+ 37.079: multia.fi INFO Begin testing address 194.197.177.11.
+ 37.650: multia.fi INFO Done testing address 194.197.177.11.
+ 37.650: multia.fi INFO Begin testing address 194.197.177.18.
+ 38.123: multia.fi INFO Done testing address 194.197.177.18.
+ 38.123: multia.fi INFO Done testing host mx12272.bak.secmail.com.
+ 38.389: multia.fi INFO Done testing email address dnsmaster@solutions.fi.
+ 38.389: multia.fi INFO Successful attempt to deliver email for SOA RNAME of multia.fi (dnsmaster.solutions.fi) using dnsmaster@solutions.fi.
+ 38.389: multia.fi INFO SOA TTL for multia.fi OK (86400) - recommended >= 3600.
+ 38.390: multia.fi NOTICE SOA refresh for multia.fi too small (10800) - recommended >= 14400.
+ 38.390: multia.fi INFO SOA retry for multia.fi OK (3600) - recommended >= 3600.
+ 38.390: multia.fi INFO SOA expire for multia.fi OK (604800) - recommended >= 604800.
+ 38.390: multia.fi INFO SOA minimum for multia.fi OK (86400) - recommended between 300 and 86400.
+ 38.390: multia.fi INFO Done testing SOA parameters for multia.fi.
+ 38.390: multia.fi INFO Begin testing connectivity for multia.fi.
+ 39.926: multia.fi INFO Zone announced by more than one ASN.
+ 39.927: multia.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 39.927: multia.fi INFO Done testing connectivity for multia.fi.
+ 39.927: multia.fi INFO Begin testing DNSSEC for multia.fi.
+ 39.949: multia.fi INFO Did not find DS record for multia.fi at parent.
+ 40.073: multia.fi INFO Servers for multia.fi have consistent extra processing status.
+ 40.112: multia.fi INFO Authenticated denial records not found for multia.fi.
+ 40.133: multia.fi INFO Did not find DNSKEY record for multia.fi at child.
+ 40.133: multia.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 40.134: multia.fi INFO Done testing DNSSEC for multia.fi.
+ 40.134: multia.fi INFO Test completed for zone multia.fi.

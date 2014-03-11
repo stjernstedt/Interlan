@@ -1,0 +1,15 @@
+#!/bin/sh
+cd /home/it-companies/public_html/slump/script
+domain=0
+for i in `cat domain|sort` ; do
+	domain=`echo $domain +1|bc`
+	if [ "$domain" = "30" ] ; then
+		domain=0
+		sleep 20
+	fi
+	
+        echo "----- $i -----"
+        fpdns -t 1 -D $i | tee version/$i &
+	echo
+done
+

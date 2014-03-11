@@ -1,0 +1,97 @@
+  0.000: jonkoping.se INFO Begin testing zone jonkoping.se with version 1.2.
+  0.000: jonkoping.se INFO Begin testing delegation for jonkoping.se.
+  9.363: jonkoping.se INFO Name servers listed at parent: jkpadm.jonkoping.se,jkpedu.jonkoping.se
+ 10.546: jonkoping.se INFO Name servers listed at child: jkpadm.jonkoping.se,jkpedu.jonkoping.se
+ 10.547: jonkoping.se NOTICE No IPv6 name servers found.
+ 10.585: jonkoping.se INFO Parent glue for jonkoping.se found: jkpadm.jonkoping.se (193.183.204.3)
+ 10.633: jonkoping.se INFO Parent glue for jonkoping.se found: jkpedu.jonkoping.se (193.183.219.2)
+ 10.641: jonkoping.se INFO Checking glue for jkpadm.jonkoping.se (193.183.204.3).
+ 10.659: jonkoping.se INFO Child glue for jonkoping.se found: jkpadm.jonkoping.se (193.183.204.3)
+ 10.659: jonkoping.se INFO Checking glue for jkpedu.jonkoping.se (193.183.219.2).
+ 10.677: jonkoping.se INFO Child glue for jonkoping.se found: jkpedu.jonkoping.se (193.183.219.2)
+ 10.677: jonkoping.se INFO Parent glue for jonkoping.se found: jkpadm.jonkoping.se (193.183.204.3)
+ 10.677: jonkoping.se INFO Parent glue for jonkoping.se found: jkpedu.jonkoping.se (193.183.219.2)
+ 10.678: jonkoping.se INFO Done testing delegation for jonkoping.se.
+ 10.678: jonkoping.se INFO Begin testing name server jkpadm.jonkoping.se.
+ 10.678: jonkoping.se INFO Begin testing host jkpadm.jonkoping.se.
+ 10.679: jonkoping.se INFO Begin testing address 193.183.204.3.
+ 14.886: jonkoping.se INFO Done testing address 193.183.204.3.
+ 14.886: jonkoping.se INFO Done testing host jkpadm.jonkoping.se.
+ 14.905: jonkoping.se INFO Name server jkpadm.jonkoping.se (193.183.204.3) answers queries over UDP.
+ 14.937: jonkoping.se INFO Name server jkpadm.jonkoping.se (193.183.204.3) answers queries over TCP.
+ 14.955: jonkoping.se INFO Name server jkpadm.jonkoping.se (193.183.204.3) is not recursive.
+ 14.972: jonkoping.se INFO Name server jkpadm.jonkoping.se (193.183.204.3) authoritative for jonkoping.se.
+ 15.015: jonkoping.se INFO Name server jkpadm.jonkoping.se (193.183.204.3) closed for zone transfer of jonkoping.se.
+ 15.036: jonkoping.se INFO Legacy name server ID for jkpadm.jonkoping.se (193.183.204.3): hostname.bind = ns2
+ 15.053: jonkoping.se INFO Legacy name server ID for jkpadm.jonkoping.se (193.183.204.3): version.bind = 9.5.1-P3
+ 15.088: jonkoping.se NOTICE No answer received from 193.183.204.3 when querying for version.server/CH/TXT.
+ 15.088: jonkoping.se INFO Done testing name server jkpadm.jonkoping.se.
+ 15.088: jonkoping.se INFO Begin testing name server jkpedu.jonkoping.se.
+ 15.088: jonkoping.se INFO Begin testing host jkpedu.jonkoping.se.
+ 15.089: jonkoping.se INFO Begin testing address 193.183.219.2.
+ 15.338: jonkoping.se INFO Done testing address 193.183.219.2.
+ 15.338: jonkoping.se INFO Done testing host jkpedu.jonkoping.se.
+ 15.356: jonkoping.se INFO Name server jkpedu.jonkoping.se (193.183.219.2) answers queries over UDP.
+ 15.388: jonkoping.se INFO Name server jkpedu.jonkoping.se (193.183.219.2) answers queries over TCP.
+ 15.405: jonkoping.se INFO Name server jkpedu.jonkoping.se (193.183.219.2) is not recursive.
+ 15.422: jonkoping.se INFO Name server jkpedu.jonkoping.se (193.183.219.2) authoritative for jonkoping.se.
+ 15.465: jonkoping.se INFO Name server jkpedu.jonkoping.se (193.183.219.2) closed for zone transfer of jonkoping.se.
+ 15.482: jonkoping.se INFO Legacy name server ID for jkpedu.jonkoping.se (193.183.219.2): hostname.bind = ns1
+ 15.498: jonkoping.se INFO Legacy name server ID for jkpedu.jonkoping.se (193.183.219.2): version.bind = 9.5.1-P3
+ 15.531: jonkoping.se NOTICE No answer received from 193.183.219.2 when querying for version.server/CH/TXT.
+ 15.531: jonkoping.se INFO Done testing name server jkpedu.jonkoping.se.
+ 15.531: jonkoping.se INFO Begin testing zone consistency for jonkoping.se.
+ 15.551: jonkoping.se INFO SOA at address 193.183.204.3 has serial 2010111901.
+ 15.569: jonkoping.se INFO SOA at address 193.183.219.2 has serial 2010111901.
+ 15.569: jonkoping.se INFO All SOA records have consistent serial numbers.
+ 15.569: jonkoping.se INFO All SOA records are consistent among all name servers.
+ 15.569: jonkoping.se INFO Done testing zone consistency for jonkoping.se.
+ 15.569: jonkoping.se INFO Begin testing SOA parameters for jonkoping.se.
+ 15.587: jonkoping.se INFO Found SOA record for jonkoping.se.
+ 15.587: jonkoping.se INFO Begin testing host jkpadm.jonkoping.se.
+ 15.587: jonkoping.se INFO Begin testing address 193.183.204.3.
+ 15.589: jonkoping.se INFO Done testing address 193.183.204.3.
+ 15.589: jonkoping.se INFO Done testing host jkpadm.jonkoping.se.
+ 15.589: jonkoping.se INFO SOA MNAME for jonkoping.se valid (jkpadm.jonkoping.se).
+ 15.589: jonkoping.se INFO SOA MNAME for jonkoping.se (jkpadm.jonkoping.se) listed as NS.
+ 15.607: jonkoping.se INFO SOA MNAME for jonkoping.se (jkpadm.jonkoping.se) is authoritative.
+ 15.607: jonkoping.se INFO Begin testing email address hostmaster@edu.jonkoping.se.
+ 15.862: jonkoping.se INFO Mail exchangers for hostmaster@edu.jonkoping.se found smtp01.jonkoping.se,smtp02.jonkoping.se.
+ 15.862: jonkoping.se INFO All mail servers for hostmaster@edu.jonkoping.se are in zone jonkoping.se.
+ 15.862: jonkoping.se INFO Begin testing host smtp01.jonkoping.se.
+ 16.311: jonkoping.se INFO Begin testing address 85.188.187.42.
+ 17.859: jonkoping.se INFO Done testing address 85.188.187.42.
+ 17.859: jonkoping.se INFO Done testing host smtp01.jonkoping.se.
+ 17.859: jonkoping.se INFO Begin testing mail server smtp01.jonkoping.se (85.188.187.42) with hostmaster@edu.jonkoping.se.
+ 18.660: jonkoping.se INFO SMTP banner: smtp01.jonkoping.se ESMTP
+ 18.717: jonkoping.se INFO SMTP testing of smtp01.jonkoping.se (85.188.187.42) with hostmaster@edu.jonkoping.se succeeded without errors.
+ 18.717: jonkoping.se INFO Done testing mail server smtp01.jonkoping.se (85.188.187.42) with hostmaster@edu.jonkoping.se.
+ 18.717: jonkoping.se INFO Begin testing host smtp02.jonkoping.se.
+ 19.293: jonkoping.se INFO Begin testing address 85.188.187.44.
+ 19.843: jonkoping.se INFO Done testing address 85.188.187.44.
+ 19.843: jonkoping.se INFO Done testing host smtp02.jonkoping.se.
+ 19.844: jonkoping.se INFO Delivery over IPv4 to hostmaster@edu.jonkoping.se ok.
+ 19.844: jonkoping.se INFO Delivery over IPv6 to hostmaster@edu.jonkoping.se could not be done.
+ 19.844: jonkoping.se INFO Done testing email address hostmaster@edu.jonkoping.se.
+ 19.844: jonkoping.se INFO Successful attempt to deliver email for SOA RNAME of jonkoping.se (hostmaster.edu.jonkoping.se) using hostmaster@edu.jonkoping.se.
+ 19.844: jonkoping.se INFO SOA TTL for jonkoping.se OK (3600) - recommended >= 3600.
+ 19.844: jonkoping.se NOTICE SOA refresh for jonkoping.se too small (10800) - recommended >= 14400.
+ 19.844: jonkoping.se INFO SOA retry for jonkoping.se OK (3600) - recommended >= 3600.
+ 19.844: jonkoping.se INFO SOA expire for jonkoping.se OK (604800) - recommended >= 604800.
+ 19.844: jonkoping.se INFO SOA minimum for jonkoping.se OK (86400) - recommended between 300 and 86400.
+ 19.844: jonkoping.se INFO Done testing SOA parameters for jonkoping.se.
+ 19.844: jonkoping.se INFO Begin testing connectivity for jonkoping.se.
+ 20.365: jonkoping.se INFO Name server 193.183.204.3 announced by: 35445
+ 21.130: jonkoping.se INFO Name server 193.183.219.2 announced by: 35445
+ 21.130: jonkoping.se INFO Zone announced by IPv4 ASN: 35445
+ 21.130: jonkoping.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 21.130: jonkoping.se INFO Zone announced by IPv6 ASN: 
+ 21.130: jonkoping.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 21.130: jonkoping.se INFO Done testing connectivity for jonkoping.se.
+ 21.131: jonkoping.se INFO Begin testing DNSSEC for jonkoping.se.
+ 21.206: jonkoping.se INFO Did not find DS record for jonkoping.se at parent.
+ 21.268: jonkoping.se INFO Servers for jonkoping.se have consistent extra processing status.
+ 21.268: jonkoping.se INFO Did not find DNSKEY record for jonkoping.se at child.
+ 21.269: jonkoping.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 21.269: jonkoping.se INFO Done testing DNSSEC for jonkoping.se.
+ 21.269: jonkoping.se INFO Test completed for zone jonkoping.se.

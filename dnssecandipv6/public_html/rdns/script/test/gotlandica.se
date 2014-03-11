@@ -1,0 +1,178 @@
+  0.000: gotlandica.se INFO Begin testing zone gotlandica.se with version 1.5.0.
+  0.001: gotlandica.se INFO Begin testing delegation for gotlandica.se.
+ 13.373: gotlandica.se INFO Name servers listed at parent: dns1.intron.net,dns2.intron.net,dns3.intron.net,dns4.intron.net
+ 17.695: gotlandica.se INFO Name servers listed at child: dns1.intron.net,dns2.intron.net,dns4.intron.net
+ 17.695: gotlandica.se ERROR Superfluous name server listed at parent: dns3.intron.net
+ 19.694: gotlandica.se INFO It is possible to build a referral packet for gotlandica.se that works without EDNS0.
+ 19.694: gotlandica.se INFO Done testing delegation for gotlandica.se.
+ 19.695: gotlandica.se INFO Begin testing name server dns1.intron.net.
+ 19.695: gotlandica.se INFO Begin testing host dns1.intron.net.
+ 19.696: gotlandica.se INFO Begin testing address 82.115.144.10.
+ 32.186: gotlandica.se INFO Done testing address 82.115.144.10.
+ 32.186: gotlandica.se INFO Begin testing address 2a01:650:0:144:0:0:0:10.
+ 32.948: gotlandica.se INFO Done testing address 2a01:650:0:144:0:0:0:10.
+ 32.948: gotlandica.se INFO Done testing host dns1.intron.net.
+ 33.011: gotlandica.se INFO Name server dns1.intron.net (82.115.144.10) answers queries over UDP.
+ 33.078: gotlandica.se INFO Name server dns1.intron.net (82.115.144.10) answers queries over TCP.
+ 33.116: gotlandica.se INFO Name server dns1.intron.net (82.115.144.10) is not recursive.
+ 33.283: gotlandica.se INFO Name server dns1.intron.net (82.115.144.10) authoritative for gotlandica.se.
+ 33.336: gotlandica.se INFO Name server dns1.intron.net (82.115.144.10) closed for zone transfer of gotlandica.se.
+ 33.363: gotlandica.se INFO Legacy name server ID for dns1.intron.net (82.115.144.10): hostname.bind = dns1
+ 33.404: gotlandica.se INFO Legacy name server ID for dns1.intron.net (82.115.144.10): version.bind = 9.7.2-P2
+ 33.479: gotlandica.se NOTICE No answer received from 82.115.144.10 when querying for version.server/CH/TXT.
+ 33.534: gotlandica.se INFO Name server dns1.intron.net (2a01:650:0:144:0:0:0:10) answers queries over UDP.
+ 33.631: gotlandica.se INFO Name server dns1.intron.net (2a01:650:0:144:0:0:0:10) answers queries over TCP.
+ 33.667: gotlandica.se INFO Name server dns1.intron.net (2a01:650:0:144:0:0:0:10) is not recursive.
+ 33.907: gotlandica.se INFO Name server dns1.intron.net (2a01:650:0:144:0:0:0:10) authoritative for gotlandica.se.
+ 34.020: gotlandica.se INFO Name server dns1.intron.net (2a01:650:0:144:0:0:0:10) closed for zone transfer of gotlandica.se.
+ 34.055: gotlandica.se INFO Legacy name server ID for dns1.intron.net (2a01:650:0:144:0:0:0:10): hostname.bind = dns1
+ 34.106: gotlandica.se INFO Legacy name server ID for dns1.intron.net (2a01:650:0:144:0:0:0:10): version.bind = 9.7.2-P2
+ 34.207: gotlandica.se NOTICE No answer received from 2a01:650:0:144:0:0:0:10 when querying for version.server/CH/TXT.
+ 34.207: gotlandica.se INFO Done testing name server dns1.intron.net.
+ 34.207: gotlandica.se INFO Begin testing name server dns2.intron.net.
+ 34.207: gotlandica.se INFO Begin testing host dns2.intron.net.
+ 34.208: gotlandica.se INFO Begin testing address 82.115.131.1.
+ 34.832: gotlandica.se INFO Done testing address 82.115.131.1.
+ 34.864: gotlandica.se INFO Begin testing address 2a01:650:0:131:0:0:0:1.
+ 35.899: gotlandica.se INFO Done testing address 2a01:650:0:131:0:0:0:1.
+ 35.899: gotlandica.se INFO Done testing host dns2.intron.net.
+ 35.928: gotlandica.se INFO Name server dns2.intron.net (82.115.131.1) answers queries over UDP.
+ 35.970: gotlandica.se INFO Name server dns2.intron.net (82.115.131.1) answers queries over TCP.
+ 35.983: gotlandica.se INFO Name server dns2.intron.net (82.115.131.1) is not recursive.
+ 36.109: gotlandica.se INFO Name server dns2.intron.net (82.115.131.1) authoritative for gotlandica.se.
+ 36.189: gotlandica.se INFO Name server dns2.intron.net (82.115.131.1) closed for zone transfer of gotlandica.se.
+ 36.237: gotlandica.se INFO Legacy name server ID for dns2.intron.net (82.115.131.1): hostname.bind = dns2
+ 36.269: gotlandica.se INFO Legacy name server ID for dns2.intron.net (82.115.131.1): version.bind = 9.7.2-P2
+ 36.311: gotlandica.se NOTICE No answer received from 82.115.131.1 when querying for version.server/CH/TXT.
+ 36.353: gotlandica.se INFO Name server dns2.intron.net (2a01:650:0:131:0:0:0:1) answers queries over UDP.
+ 36.427: gotlandica.se INFO Name server dns2.intron.net (2a01:650:0:131:0:0:0:1) answers queries over TCP.
+ 36.494: gotlandica.se INFO Name server dns2.intron.net (2a01:650:0:131:0:0:0:1) is not recursive.
+ 36.724: gotlandica.se INFO Name server dns2.intron.net (2a01:650:0:131:0:0:0:1) authoritative for gotlandica.se.
+ 36.822: gotlandica.se INFO Name server dns2.intron.net (2a01:650:0:131:0:0:0:1) closed for zone transfer of gotlandica.se.
+ 36.867: gotlandica.se INFO Legacy name server ID for dns2.intron.net (2a01:650:0:131:0:0:0:1): hostname.bind = dns2
+ 36.977: gotlandica.se INFO Legacy name server ID for dns2.intron.net (2a01:650:0:131:0:0:0:1): version.bind = 9.7.2-P2
+ 37.092: gotlandica.se NOTICE No answer received from 2a01:650:0:131:0:0:0:1 when querying for version.server/CH/TXT.
+ 37.093: gotlandica.se INFO Done testing name server dns2.intron.net.
+ 37.093: gotlandica.se INFO Begin testing name server dns4.intron.net.
+ 37.093: gotlandica.se INFO Begin testing host dns4.intron.net.
+ 37.685: gotlandica.se INFO Begin testing address 193.188.248.48.
+ 39.633: gotlandica.se INFO Done testing address 193.188.248.48.
+ 39.633: gotlandica.se INFO Done testing host dns4.intron.net.
+ 40.073: gotlandica.se INFO Name server dns4.intron.net (193.188.248.48) answers queries over UDP.
+ 40.102: gotlandica.se INFO Name server dns4.intron.net (193.188.248.48) answers queries over TCP.
+ 40.113: gotlandica.se INFO Name server dns4.intron.net (193.188.248.48) is not recursive.
+ 40.184: gotlandica.se INFO Name server dns4.intron.net (193.188.248.48) authoritative for gotlandica.se.
+ 40.214: gotlandica.se INFO Name server dns4.intron.net (193.188.248.48) closed for zone transfer of gotlandica.se.
+ 40.227: gotlandica.se INFO Legacy name server ID for dns4.intron.net (193.188.248.48): hostname.bind = dns4
+ 40.265: gotlandica.se INFO Legacy name server ID for dns4.intron.net (193.188.248.48): version.bind = 9.7.2-P2
+ 40.314: gotlandica.se NOTICE No answer received from 193.188.248.48 when querying for version.server/CH/TXT.
+ 40.314: gotlandica.se INFO Done testing name server dns4.intron.net.
+ 40.315: gotlandica.se INFO Begin testing name server dns3.intron.net.
+ 40.315: gotlandica.se INFO Begin testing host dns3.intron.net.
+ 41.520: gotlandica.se INFO Begin testing address 212.181.125.199.
+ 46.332: gotlandica.se INFO Done testing address 212.181.125.199.
+ 46.332: gotlandica.se INFO Done testing host dns3.intron.net.
+ 46.643: gotlandica.se INFO Name server dns3.intron.net (212.181.125.199) answers queries over UDP.
+ 46.774: gotlandica.se INFO Name server dns3.intron.net (212.181.125.199) answers queries over TCP.
+ 46.800: gotlandica.se INFO Name server dns3.intron.net (212.181.125.199) is not recursive.
+ 46.872: gotlandica.se INFO Name server dns3.intron.net (212.181.125.199) authoritative for gotlandica.se.
+ 46.922: gotlandica.se INFO Name server dns3.intron.net (212.181.125.199) closed for zone transfer of gotlandica.se.
+ 46.939: gotlandica.se INFO Legacy name server ID for dns3.intron.net (212.181.125.199): hostname.bind = dns3
+ 46.965: gotlandica.se INFO Legacy name server ID for dns3.intron.net (212.181.125.199): version.bind = 9.7.2-P2
+ 47.073: gotlandica.se NOTICE No answer received from 212.181.125.199 when querying for version.server/CH/TXT.
+ 47.073: gotlandica.se INFO Done testing name server dns3.intron.net.
+ 47.073: gotlandica.se INFO Begin testing zone consistency for gotlandica.se.
+ 48.787: gotlandica.se INFO SOA at address 82.115.131.1 has serial 2013073102.
+ 48.825: gotlandica.se INFO SOA at address 2a01:650:0:144:0:0:0:10 has serial 2013073102.
+ 48.867: gotlandica.se INFO SOA at address 212.181.125.199 has serial 2013071901.
+ 48.901: gotlandica.se INFO SOA at address 193.188.248.48 has serial 2013073102.
+ 48.965: gotlandica.se INFO SOA at address 2a01:650:0:131:0:0:0:1 has serial 2013073102.
+ 48.995: gotlandica.se INFO SOA at address 82.115.144.10 has serial 2013073102.
+ 48.995: gotlandica.se WARNING 2 different serials found.
+ 48.995: gotlandica.se INFO All other fields in the SOA record are consistent among all name servers.
+ 49.994: gotlandica.se NOTICE The listed nameservers for gotlandica.se all report the same set of nameservers.
+ 49.994: gotlandica.se INFO Done testing zone consistency for gotlandica.se.
+ 49.995: gotlandica.se INFO Begin testing SOA parameters for gotlandica.se.
+ 50.068: gotlandica.se INFO Found SOA record for gotlandica.se.
+ 50.068: gotlandica.se INFO Begin testing host dns1.intron.net.
+ 50.069: gotlandica.se INFO Begin testing address 82.115.144.10.
+ 50.102: gotlandica.se INFO Done testing address 82.115.144.10.
+ 50.102: gotlandica.se INFO Begin testing address 2a01:650:0:144:0:0:0:10.
+ 50.120: gotlandica.se INFO Done testing address 2a01:650:0:144:0:0:0:10.
+ 50.121: gotlandica.se INFO Done testing host dns1.intron.net.
+ 50.121: gotlandica.se INFO SOA MNAME for gotlandica.se valid (dns1.intron.net).
+ 50.121: gotlandica.se INFO SOA MNAME for gotlandica.se (dns1.intron.net) listed as NS.
+ 50.167: gotlandica.se INFO SOA MNAME for gotlandica.se (dns1.intron.net) is authoritative.
+ 50.272: gotlandica.se INFO SOA MNAME for gotlandica.se (dns1.intron.net) is authoritative.
+ 50.273: gotlandica.se INFO Begin testing email address hostmaster@intron.net.
+ 50.866: gotlandica.se INFO Mail exchangers for hostmaster@intron.net found mail.intron.net.
+ 50.866: gotlandica.se INFO Begin testing host mail.intron.net.
+ 51.507: gotlandica.se INFO Begin testing address 82.115.144.35.
+ 56.963: gotlandica.se INFO Done testing address 82.115.144.35.
+ 56.963: gotlandica.se INFO Begin testing address 82.115.144.36.
+ 58.593: gotlandica.se INFO Done testing address 82.115.144.36.
+ 58.593: gotlandica.se INFO Begin testing address 82.115.144.34.
+ 59.835: gotlandica.se INFO Done testing address 82.115.144.34.
+ 59.835: gotlandica.se INFO Begin testing address 2a01:650:0:144:25:0:0:34.
+ 60.665: gotlandica.se INFO Done testing address 2a01:650:0:144:25:0:0:34.
+ 60.665: gotlandica.se INFO Begin testing address 2a01:650:0:144:25:0:0:35.
+ 61.224: gotlandica.se INFO Done testing address 2a01:650:0:144:25:0:0:35.
+ 61.224: gotlandica.se INFO Begin testing address 2a01:650:0:144:25:0:0:36.
+ 61.929: gotlandica.se INFO Done testing address 2a01:650:0:144:25:0:0:36.
+ 61.929: gotlandica.se INFO Done testing host mail.intron.net.
+ 61.929: gotlandica.se INFO Done testing email address hostmaster@intron.net.
+ 61.929: gotlandica.se INFO Successful attempt to deliver email for SOA RNAME of gotlandica.se (hostmaster.intron.net) using hostmaster@intron.net.
+ 61.929: gotlandica.se INFO SOA TTL for gotlandica.se OK (3600) - recommended >= 3600.
+ 61.929: gotlandica.se INFO SOA refresh for gotlandica.se OK (28800) - recommended >= 14400.
+ 61.929: gotlandica.se INFO SOA retry for gotlandica.se OK (7200) - recommended >= 3600.
+ 61.930: gotlandica.se INFO SOA expire for gotlandica.se OK (604800) - recommended >= 604800.
+ 61.930: gotlandica.se INFO SOA minimum for gotlandica.se OK (3600) - recommended between 300 and 86400.
+ 61.930: gotlandica.se INFO Done testing SOA parameters for gotlandica.se.
+ 61.930: gotlandica.se INFO Begin testing connectivity for gotlandica.se.
+ 64.361: gotlandica.se INFO Zone announced by more than one ASN.
+ 66.429: gotlandica.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 66.430: gotlandica.se INFO Done testing connectivity for gotlandica.se.
+ 66.430: gotlandica.se INFO Begin testing DNSSEC for gotlandica.se.
+ 66.702: gotlandica.se INFO Found DS record for gotlandica.se at parent.
+ 66.837: gotlandica.se INFO Nameserver 193.188.248.48 does DNSSEC extra processing.
+ 67.016: gotlandica.se INFO Nameserver 82.115.144.10 does DNSSEC extra processing.
+ 67.095: gotlandica.se INFO Nameserver 82.115.131.1 does DNSSEC extra processing.
+ 67.286: gotlandica.se INFO Nameserver 2a01:650:0:144:0:0:0:10 does DNSSEC extra processing.
+ 67.467: gotlandica.se INFO Nameserver 2a01:650:0:131:0:0:0:1 does DNSSEC extra processing.
+ 67.467: gotlandica.se INFO Servers for gotlandica.se have consistent extra processing status.
+ 67.602: gotlandica.se INFO Authenticated denial records found for gotlandica.se, of type NSEC.
+ 67.716: gotlandica.se INFO Found DNSKEY record for gotlandica.se at child.
+ 67.716: gotlandica.se INFO Consistent security for gotlandica.se.
+ 67.716: gotlandica.se INFO Checking DNSSEC at child (gotlandica.se).
+ 67.717: gotlandica.se INFO gotlandica.se's key with tag 9996 uses algorithm number 5 (RSA/SHA-1).
+ 67.717: gotlandica.se INFO Algorithm number 5 is OK.
+ 67.717: gotlandica.se INFO gotlandica.se's key with tag 55594 uses algorithm number 5 (RSA/SHA-1).
+ 67.717: gotlandica.se INFO Algorithm number 5 is OK.
+ 67.717: gotlandica.se INFO DNSKEY gotlandica.se (tag 55594) is marked as a secure entry point (SEP).
+ 67.717: gotlandica.se INFO DNSSEC signature expires at: Fri Aug 30 12:53:57 2013
+ 67.718: gotlandica.se INFO Duration for RRSIG(gotlandica.se/IN/DNSKEY/9996) is OK (2592000 seconds).
+ 67.719: gotlandica.se INFO DNSSEC signature RRSIG(gotlandica.se/IN/DNSKEY/9996) matches records.
+ 67.719: gotlandica.se INFO DNSSEC signature valid: RRSIG(gotlandica.se/IN/DNSKEY/9996)
+ 67.719: gotlandica.se INFO DNSSEC signature expires at: Fri Aug 30 12:53:57 2013
+ 67.720: gotlandica.se INFO Duration for RRSIG(gotlandica.se/IN/DNSKEY/55594) is OK (2592000 seconds).
+ 67.849: gotlandica.se INFO DNSSEC signature RRSIG(gotlandica.se/IN/DNSKEY/55594) matches records.
+ 67.850: gotlandica.se INFO DNSSEC signature valid: RRSIG(gotlandica.se/IN/DNSKEY/55594)
+ 67.850: gotlandica.se INFO Enough valid signatures found for gotlandica.se.
+ 68.096: gotlandica.se INFO DNSSEC signature expires at: Fri Aug 30 12:53:57 2013
+ 68.096: gotlandica.se INFO Duration for RRSIG(gotlandica.se/IN/SOA/9996) is OK (2592000 seconds).
+ 68.097: gotlandica.se INFO DNSSEC signature RRSIG(gotlandica.se/IN/SOA/9996) matches records.
+ 68.097: gotlandica.se INFO DNSSEC signature valid: RRSIG(gotlandica.se/IN/SOA/9996)
+ 68.097: gotlandica.se INFO Enough valid signatures over SOA RRset found for gotlandica.se.
+ 68.097: gotlandica.se INFO DNSSEC child checks for gotlandica.se complete.
+ 68.097: gotlandica.se INFO Checking DNSSEC at parent of gotlandica.se.
+ 68.098: gotlandica.se INFO gotlandica.se's key with tag 55594 uses algorithm number 5 (RSA/SHA-1).
+ 68.098: gotlandica.se INFO Algorithm number 5 is OK.
+ 68.148: gotlandica.se INFO Parent DS(gotlandica.se/5/2/55594) refers to valid key at child: DNSKEY(gotlandica.se/5/55594)
+ 68.148: gotlandica.se INFO Parent DS(gotlandica.se) refers to secure entry point (SEP) at child: DS(gotlandica.se/5/2/55594)
+ 68.149: gotlandica.se INFO gotlandica.se's key with tag 55594 uses algorithm number 5 (RSA/SHA-1).
+ 68.149: gotlandica.se INFO Algorithm number 5 is OK.
+ 68.149: gotlandica.se INFO Parent DS(gotlandica.se/5/1/55594) refers to valid key at child: DNSKEY(gotlandica.se/5/55594)
+ 68.149: gotlandica.se INFO Parent DS(gotlandica.se) refers to secure entry point (SEP) at child: DS(gotlandica.se/5/1/55594)
+ 68.149: gotlandica.se INFO DNSSEC parent checks for gotlandica.se complete.
+ 68.149: gotlandica.se INFO Done testing DNSSEC for gotlandica.se.
+ 68.150: gotlandica.se INFO Test completed for zone gotlandica.se.

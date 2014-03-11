@@ -1,0 +1,88 @@
+  0.000: bjurholm.se INFO Begin testing zone bjurholm.se with version 1.6.1.
+  1.454: bjurholm.se INFO Begin testing delegation for bjurholm.se.
+ 15.032: bjurholm.se INFO Name servers listed at parent: dns.umea.se,ns.bjurholm.se
+ 17.972: bjurholm.se INFO Name servers listed at child: dns.umea.se,ns.bjurholm.se
+ 17.973: bjurholm.se NOTICE No IPv6 name servers found.
+ 18.325: bjurholm.se INFO Parent glue for bjurholm.se found: ns.bjurholm.se (80.88.100.139)
+ 18.419: bjurholm.se INFO Checking glue for ns.bjurholm.se (80.88.100.139).
+ 18.743: bjurholm.se INFO Child glue for bjurholm.se found: ns.bjurholm.se (80.88.100.139)
+ 18.780: bjurholm.se INFO Parent glue for bjurholm.se found: ns.bjurholm.se (80.88.100.139)
+ 19.898: bjurholm.se INFO It is possible to build a referral packet for bjurholm.se that works without EDNS0.
+ 20.507: bjurholm.se INFO Previously used name servers for bjurholm.se: 
+ 20.507: bjurholm.se INFO Done testing delegation for bjurholm.se.
+ 20.548: bjurholm.se INFO Begin testing name server dns.umea.se.
+ 20.548: bjurholm.se INFO Begin testing host dns.umea.se.
+ 21.202: bjurholm.se INFO Begin testing address 194.165.224.165.
+ 35.160: bjurholm.se INFO Done testing address 194.165.224.165.
+ 35.160: bjurholm.se INFO Done testing host dns.umea.se.
+ 35.664: bjurholm.se ERROR DNS SERVFAIL when querying 194.165.224.165 for SOA
+ 35.664: bjurholm.se INFO Name server dns.umea.se (194.165.224.165) answers queries over UDP.
+ 35.746: bjurholm.se ERROR DNS SERVFAIL when querying 194.165.224.165 for SOA
+ 35.746: bjurholm.se INFO Name server dns.umea.se (194.165.224.165) answers queries over TCP.
+ 35.790: bjurholm.se INFO Name server dns.umea.se (194.165.224.165) is not recursive.
+ 35.851: bjurholm.se NOTICE No answer received from 194.165.224.165 when querying for bjurholm.se/SOA/IN.
+ 35.914: bjurholm.se ERROR DNS SERVFAIL when querying 194.165.224.165 for SOA
+ 35.914: bjurholm.se WARNING Nameserver at 194.165.224.165 is not authoritative over UDP.
+ 35.914: bjurholm.se ERROR Name server dns.umea.se (194.165.224.165) not authoritative for bjurholm.se.
+ 35.914: bjurholm.se INFO Done testing name server dns.umea.se.
+ 35.914: bjurholm.se INFO Begin testing name server ns.bjurholm.se.
+ 35.914: bjurholm.se INFO Begin testing host ns.bjurholm.se.
+ 35.915: bjurholm.se INFO Begin testing address 80.88.100.139.
+ 38.723: bjurholm.se INFO Done testing address 80.88.100.139.
+ 38.723: bjurholm.se INFO Done testing host ns.bjurholm.se.
+ 38.792: bjurholm.se INFO Name server ns.bjurholm.se (80.88.100.139) answers queries over UDP.
+ 40.804: bjurholm.se NOTICE DNS lookup error (connection failed).
+ 40.804: bjurholm.se ERROR Name server ns.bjurholm.se (80.88.100.139) does not answer queries over TCP.
+ 40.870: bjurholm.se INFO Name server ns.bjurholm.se (80.88.100.139) is not recursive.
+ 43.247: bjurholm.se NOTICE DNS lookup error (connection failed).
+ 43.248: bjurholm.se INFO Name server ns.bjurholm.se (80.88.100.139) authoritative for bjurholm.se.
+ 43.248: bjurholm.se INFO Name server ns.bjurholm.se (80.88.100.139) not checked for zone transfer of bjurholm.se.
+ 43.248: bjurholm.se INFO Name server ns.bjurholm.se (80.88.100.139) not checked for legacy name server ID.
+ 43.248: bjurholm.se INFO Done testing name server ns.bjurholm.se.
+ 43.248: bjurholm.se INFO Begin testing zone consistency for bjurholm.se.
+ 45.333: bjurholm.se ERROR DNS SERVFAIL when querying 194.165.224.165 for SOA
+ 45.412: bjurholm.se INFO SOA at address 80.88.100.139 has serial 2012121311.
+ 45.412: bjurholm.se INFO All SOA records have consistent serial numbers.
+ 45.412: bjurholm.se INFO All other fields in the SOA record are consistent among all name servers.
+ 45.948: bjurholm.se NOTICE No answer received from 194.165.224.165 when querying for bjurholm.se/IN/NS.
+ 46.553: bjurholm.se NOTICE The listed nameservers for bjurholm.se does not all report the same set of nameservers.
+ 46.553: bjurholm.se INFO Done testing zone consistency for bjurholm.se.
+ 46.553: bjurholm.se INFO Begin testing SOA parameters for bjurholm.se.
+ 46.888: bjurholm.se INFO Found SOA record for bjurholm.se.
+ 46.888: bjurholm.se INFO Begin testing host ns.bjurholm.se.
+ 46.889: bjurholm.se INFO Begin testing address 80.88.100.139.
+ 47.882: bjurholm.se INFO Done testing address 80.88.100.139.
+ 47.882: bjurholm.se INFO Done testing host ns.bjurholm.se.
+ 47.882: bjurholm.se INFO SOA MNAME for bjurholm.se valid (ns.bjurholm.se).
+ 47.883: bjurholm.se INFO SOA MNAME for bjurholm.se (ns.bjurholm.se) listed as NS.
+ 47.936: bjurholm.se INFO SOA MNAME for bjurholm.se (ns.bjurholm.se) is authoritative.
+ 47.936: bjurholm.se INFO Begin testing email address hostmaster@ns.bjurholm.se.
+ 48.229: bjurholm.se INFO Mail exchangers for hostmaster@ns.bjurholm.se found ns.bjurholm.se.
+ 48.229: bjurholm.se INFO All mail servers for hostmaster@ns.bjurholm.se are in zone bjurholm.se.
+ 48.229: bjurholm.se INFO Begin testing host ns.bjurholm.se.
+ 48.230: bjurholm.se INFO Begin testing address 80.88.100.139.
+ 48.858: bjurholm.se INFO Done testing address 80.88.100.139.
+ 48.858: bjurholm.se INFO Done testing host ns.bjurholm.se.
+ 48.858: bjurholm.se INFO Done testing email address hostmaster@ns.bjurholm.se.
+ 48.859: bjurholm.se INFO Successful attempt to deliver email for SOA RNAME of bjurholm.se (hostmaster.ns.bjurholm.se) using hostmaster@ns.bjurholm.se.
+ 48.859: bjurholm.se INFO SOA TTL for bjurholm.se OK (86400) - recommended >= 3600.
+ 48.859: bjurholm.se NOTICE SOA refresh for bjurholm.se too small (10800) - recommended >= 14400.
+ 48.859: bjurholm.se INFO SOA retry for bjurholm.se OK (3600) - recommended >= 3600.
+ 48.859: bjurholm.se INFO SOA expire for bjurholm.se OK (604800) - recommended >= 604800.
+ 48.859: bjurholm.se INFO SOA minimum for bjurholm.se OK (86400) - recommended between 300 and 86400.
+ 48.859: bjurholm.se INFO Done testing SOA parameters for bjurholm.se.
+ 48.859: bjurholm.se INFO Begin testing connectivity for bjurholm.se.
+ 50.596: bjurholm.se INFO Zone announced by more than one ASN.
+ 50.597: bjurholm.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 50.597: bjurholm.se INFO Done testing connectivity for bjurholm.se.
+ 50.597: bjurholm.se INFO Begin testing DNSSEC for bjurholm.se.
+ 50.741: bjurholm.se INFO Did not find DS record for bjurholm.se at parent.
+ 50.856: bjurholm.se NOTICE No answer received from 194.165.224.165 when querying for bjurholm.se/IN/DNSKEY.
+ 52.867: bjurholm.se NOTICE DNS lookup error (connection failed).
+ 52.868: bjurholm.se INFO Servers for bjurholm.se have consistent extra processing status.
+ 54.952: bjurholm.se NOTICE DNS lookup error (connection failed).
+ 54.952: bjurholm.se INFO Authenticated denial records not found for bjurholm.se.
+ 55.088: bjurholm.se INFO Did not find DNSKEY record for bjurholm.se at child.
+ 55.088: bjurholm.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 55.088: bjurholm.se INFO Done testing DNSSEC for bjurholm.se.
+ 55.089: bjurholm.se INFO Test completed for zone bjurholm.se.

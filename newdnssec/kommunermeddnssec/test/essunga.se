@@ -1,0 +1,98 @@
+  0.000: essunga.se INFO Begin testing zone essunga.se with version 1.6.1.
+  0.794: essunga.se INFO Begin testing delegation for essunga.se.
+ 17.074: essunga.se INFO Name servers listed at parent: dns1.fastbit.se,dns2.fastbit.se
+ 23.488: essunga.se INFO Name servers listed at child: dns1.fastbit.se,dns2.fastbit.se
+ 23.488: essunga.se NOTICE No IPv6 name servers found.
+ 23.581: essunga.se INFO Parent glue for essunga.se found: dns1.fastbit.se (83.223.5.2)
+ 23.822: essunga.se INFO Parent glue for essunga.se found: dns2.fastbit.se (83.223.5.3)
+ 23.877: essunga.se INFO Checking glue for dns1.fastbit.se (83.223.5.2).
+ 23.927: essunga.se INFO Checking glue for dns2.fastbit.se (83.223.5.3).
+ 23.927: essunga.se INFO Parent glue for essunga.se found: dns1.fastbit.se (83.223.5.2)
+ 23.927: essunga.se INFO Parent glue for essunga.se found: dns2.fastbit.se (83.223.5.3)
+ 31.512: essunga.se INFO It is possible to build a referral packet for essunga.se that works without EDNS0.
+ 32.514: essunga.se INFO Previously used name servers for essunga.se: 
+ 32.520: essunga.se INFO Done testing delegation for essunga.se.
+ 32.520: essunga.se INFO Begin testing name server dns1.fastbit.se.
+ 32.520: essunga.se INFO Begin testing host dns1.fastbit.se.
+ 33.827: essunga.se INFO Begin testing address 83.223.5.2.
+ 54.087: essunga.se INFO Done testing address 83.223.5.2.
+ 54.087: essunga.se INFO Done testing host dns1.fastbit.se.
+ 54.556: essunga.se INFO Name server dns1.fastbit.se (83.223.5.2) answers queries over UDP.
+ 54.601: essunga.se INFO Name server dns1.fastbit.se (83.223.5.2) answers queries over TCP.
+ 54.661: essunga.se INFO Name server dns1.fastbit.se (83.223.5.2) is not recursive.
+ 54.814: essunga.se INFO Name server dns1.fastbit.se (83.223.5.2) authoritative for essunga.se.
+ 55.071: essunga.se INFO Name server dns1.fastbit.se (83.223.5.2) closed for zone transfer of essunga.se.
+ 71.442: essunga.se INFO Done testing name server dns1.fastbit.se.
+ 71.443: essunga.se INFO Begin testing name server dns2.fastbit.se.
+ 71.443: essunga.se INFO Begin testing host dns2.fastbit.se.
+ 71.772: essunga.se INFO Begin testing address 83.223.5.3.
+ 72.843: essunga.se WARNING Could not find reverse address for 83.223.5.3 (3.5.223.83.in-addr.arpa.).
+ 72.843: essunga.se INFO Done testing address 83.223.5.3.
+ 72.843: essunga.se INFO Done testing host dns2.fastbit.se.
+ 73.207: essunga.se INFO Name server dns2.fastbit.se (83.223.5.3) answers queries over UDP.
+ 73.259: essunga.se INFO Name server dns2.fastbit.se (83.223.5.3) answers queries over TCP.
+ 73.301: essunga.se INFO Name server dns2.fastbit.se (83.223.5.3) is not recursive.
+ 73.430: essunga.se INFO Name server dns2.fastbit.se (83.223.5.3) authoritative for essunga.se.
+ 73.684: essunga.se INFO Name server dns2.fastbit.se (83.223.5.3) closed for zone transfer of essunga.se.
+ 90.202: essunga.se INFO Done testing name server dns2.fastbit.se.
+ 90.203: essunga.se INFO Begin testing zone consistency for essunga.se.
+ 91.309: essunga.se INFO SOA at address 83.223.5.2 has serial 2014021020.
+ 91.545: essunga.se INFO SOA at address 83.223.5.3 has serial 2014021020.
+ 91.545: essunga.se INFO All SOA records have consistent serial numbers.
+ 91.545: essunga.se INFO All other fields in the SOA record are consistent among all name servers.
+ 93.168: essunga.se NOTICE The listed nameservers for essunga.se all report the same set of nameservers.
+ 93.168: essunga.se INFO Done testing zone consistency for essunga.se.
+ 93.168: essunga.se INFO Begin testing SOA parameters for essunga.se.
+ 93.338: essunga.se INFO Found SOA record for essunga.se.
+ 93.338: essunga.se INFO Begin testing host dns1.fastbit.se.
+ 93.708: essunga.se INFO Begin testing address 83.223.5.2.
+ 93.955: essunga.se INFO Done testing address 83.223.5.2.
+ 93.955: essunga.se INFO Done testing host dns1.fastbit.se.
+ 93.955: essunga.se INFO SOA MNAME for essunga.se valid (dns1.fastbit.se).
+ 93.955: essunga.se INFO SOA MNAME for essunga.se (dns1.fastbit.se) listed as NS.
+ 94.147: essunga.se INFO SOA MNAME for essunga.se (dns1.fastbit.se) is authoritative.
+ 94.157: essunga.se INFO Begin testing email address postmaster@essunga.se.
+ 94.378: essunga.se INFO Mail exchangers for postmaster@essunga.se found smtp-in.sto-hy.se.stejtech.net,smtp-in.sto-ste.se.stejtech.net.
+ 94.378: essunga.se INFO Begin testing host smtp-in.sto-hy.se.stejtech.net.
+ 95.742: essunga.se INFO Begin testing address 91.236.209.10.
+102.183: essunga.se INFO Done testing address 91.236.209.10.
+102.183: essunga.se INFO Begin testing address 79.136.102.100.
+104.367: essunga.se INFO Done testing address 79.136.102.100.
+104.367: essunga.se INFO Begin testing address 91.236.208.10.
+105.519: essunga.se INFO Done testing address 91.236.208.10.
+105.519: essunga.se INFO Begin testing address 2001:67c:27e0:2210:0:0:0:1b01.
+108.208: essunga.se INFO Done testing address 2001:67c:27e0:2210:0:0:0:1b01.
+108.208: essunga.se INFO Begin testing address 2001:67c:27e0:2110:0:0:0:1b01.
+109.312: essunga.se INFO Done testing address 2001:67c:27e0:2110:0:0:0:1b01.
+109.312: essunga.se INFO Begin testing address 2001:9b0:1:703:0:0:0:1b01.
+110.618: essunga.se INFO Done testing address 2001:9b0:1:703:0:0:0:1b01.
+110.624: essunga.se INFO Done testing host smtp-in.sto-hy.se.stejtech.net.
+110.624: essunga.se INFO Begin testing host smtp-in.sto-ste.se.stejtech.net.
+111.064: essunga.se INFO Begin testing address 79.136.102.90.
+111.834: essunga.se INFO Done testing address 79.136.102.90.
+111.834: essunga.se INFO Begin testing address 83.140.31.145.
+113.075: essunga.se INFO Done testing address 83.140.31.145.
+113.076: essunga.se INFO Begin testing address 2001:9b0:1:703:0:0:0:b002.
+114.129: essunga.se INFO Done testing address 2001:9b0:1:703:0:0:0:b002.
+114.129: essunga.se INFO Done testing host smtp-in.sto-ste.se.stejtech.net.
+114.129: essunga.se INFO Done testing email address postmaster@essunga.se.
+114.130: essunga.se INFO Successful attempt to deliver email for SOA RNAME of essunga.se (postmaster.essunga.se) using postmaster@essunga.se.
+114.130: essunga.se INFO SOA TTL for essunga.se OK (28800) - recommended >= 3600.
+114.130: essunga.se NOTICE SOA refresh for essunga.se too small (7200) - recommended >= 14400.
+114.130: essunga.se INFO SOA retry for essunga.se OK (3600) - recommended >= 3600.
+114.130: essunga.se NOTICE SOA expire for essunga.se too small (28800) - recommended >= 604800.
+114.130: essunga.se NOTICE SOA expire for essunga.se lower than refresh.
+114.130: essunga.se INFO SOA minimum for essunga.se OK (28800) - recommended between 300 and 86400.
+114.130: essunga.se INFO Done testing SOA parameters for essunga.se.
+114.130: essunga.se INFO Begin testing connectivity for essunga.se.
+114.937: essunga.se NOTICE Zone announced by fewer than two IPv4 ASN.
+114.937: essunga.se NOTICE Zone announced by fewer than two IPv6 ASN.
+114.937: essunga.se INFO Done testing connectivity for essunga.se.
+114.937: essunga.se INFO Begin testing DNSSEC for essunga.se.
+115.023: essunga.se INFO Did not find DS record for essunga.se at parent.
+115.087: essunga.se INFO Servers for essunga.se have consistent extra processing status.
+115.121: essunga.se INFO Authenticated denial records not found for essunga.se.
+115.139: essunga.se INFO Did not find DNSKEY record for essunga.se at child.
+115.139: essunga.se INFO No DNSKEY(s) found at child, other tests skipped.
+115.139: essunga.se INFO Done testing DNSSEC for essunga.se.
+115.140: essunga.se INFO Test completed for zone essunga.se.

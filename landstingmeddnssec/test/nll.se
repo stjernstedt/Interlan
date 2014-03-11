@@ -1,0 +1,230 @@
+  0.000: nll.se INFO Begin testing zone nll.se with version 1.6.1.
+  0.507: nll.se INFO Begin testing delegation for nll.se.
+  9.857: nll.se INFO Name servers listed at parent: a.dns.tdc.se,b.dns.tdc.se,hestia.nll.se,nemesis.nll.se
+ 13.938: nll.se INFO Name servers listed at child: a.dns.tdc.se,b.dns.tdc.se,hestia.nll.se,nemesis.nll.se
+ 14.078: nll.se INFO Parent glue for nll.se found: a.dns.tdc.se (213.50.29.190)
+ 14.239: nll.se INFO Parent glue for nll.se found: b.dns.tdc.se (213.50.29.195)
+ 14.435: nll.se INFO Parent glue for nll.se found: hestia.nll.se (195.196.196.199)
+ 14.567: nll.se INFO Parent glue for nll.se found: hestia.nll.se (2a00:ff40:2:1043:0:0:0:199)
+ 14.622: nll.se INFO Parent glue for nll.se found: nemesis.nll.se (195.196.196.200)
+ 14.752: nll.se INFO Parent glue for nll.se found: nemesis.nll.se (2a00:ff40:2:1043:0:0:0:200)
+ 14.783: nll.se INFO Checking glue for a.dns.tdc.se (213.50.29.190).
+ 14.783: nll.se INFO Checking glue for b.dns.tdc.se (213.50.29.195).
+ 14.784: nll.se INFO Checking glue for hestia.nll.se (195.196.196.199).
+ 14.902: nll.se INFO Child glue for nll.se found: hestia.nll.se (195.196.196.199)
+ 14.958: nll.se INFO Checking glue for hestia.nll.se (2a00:ff40:2:1043:0:0:0:199).
+ 15.089: nll.se INFO Child glue for nll.se found: hestia.nll.se (2a00:ff40:2:1043:0:0:0:199)
+ 15.114: nll.se INFO Checking glue for nemesis.nll.se (195.196.196.200).
+ 15.213: nll.se INFO Child glue for nll.se found: nemesis.nll.se (195.196.196.200)
+ 15.254: nll.se INFO Checking glue for nemesis.nll.se (2a00:ff40:2:1043:0:0:0:200).
+ 15.376: nll.se INFO Child glue for nll.se found: nemesis.nll.se (2a00:ff40:2:1043:0:0:0:200)
+ 15.376: nll.se INFO Parent glue for nll.se found: a.dns.tdc.se (213.50.29.190)
+ 15.377: nll.se INFO Parent glue for nll.se found: b.dns.tdc.se (213.50.29.195)
+ 15.403: nll.se INFO Parent glue for nll.se found: hestia.nll.se (195.196.196.199)
+ 15.403: nll.se INFO Parent glue for nll.se found: hestia.nll.se (2a00:ff40:2:1043:0:0:0:199)
+ 15.403: nll.se INFO Parent glue for nll.se found: nemesis.nll.se (195.196.196.200)
+ 15.403: nll.se INFO Parent glue for nll.se found: nemesis.nll.se (2a00:ff40:2:1043:0:0:0:200)
+ 15.928: nll.se INFO It is possible to build a referral packet for nll.se that works without EDNS0.
+ 15.930: nll.se INFO Previously used name servers for nll.se: 
+ 15.950: nll.se INFO Done testing delegation for nll.se.
+ 15.953: nll.se INFO Begin testing name server a.dns.tdc.se.
+ 15.954: nll.se INFO Begin testing host a.dns.tdc.se.
+ 15.958: nll.se INFO Begin testing address 213.50.29.190.
+ 40.436: nll.se INFO Done testing address 213.50.29.190.
+ 40.504: nll.se INFO Begin testing address 2001:6f0:0:1:0:0:2:2.
+ 41.321: nll.se INFO Done testing address 2001:6f0:0:1:0:0:2:2.
+ 41.354: nll.se INFO Done testing host a.dns.tdc.se.
+ 41.423: nll.se INFO Name server a.dns.tdc.se (213.50.29.190) answers queries over UDP.
+ 41.489: nll.se INFO Name server a.dns.tdc.se (213.50.29.190) answers queries over TCP.
+ 41.533: nll.se INFO Name server a.dns.tdc.se (213.50.29.190) is not recursive.
+ 41.772: nll.se INFO Name server a.dns.tdc.se (213.50.29.190) authoritative for nll.se.
+ 41.797: nll.se INFO Name server a.dns.tdc.se (213.50.29.190) closed for zone transfer of nll.se.
+ 41.819: nll.se INFO Legacy name server ID for a.dns.tdc.se (213.50.29.190): hostname.bind = a
+ 41.833: nll.se INFO Legacy name server ID for a.dns.tdc.se (213.50.29.190): version.bind = tssk, well what can i say?
+ 41.859: nll.se NOTICE No answer received from 213.50.29.190 when querying for version.server/CH/TXT.
+ 41.873: nll.se INFO Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) answers queries over UDP.
+ 41.971: nll.se INFO Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) answers queries over TCP.
+ 42.027: nll.se INFO Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) is not recursive.
+ 42.531: nll.se INFO Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) authoritative for nll.se.
+ 42.611: nll.se INFO Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) closed for zone transfer of nll.se.
+ 42.655: nll.se INFO Legacy name server ID for a.dns.tdc.se (2001:6f0:0:1:0:0:2:2): hostname.bind = a
+ 42.712: nll.se INFO Legacy name server ID for a.dns.tdc.se (2001:6f0:0:1:0:0:2:2): version.bind = tssk, well what can i say?
+ 42.875: nll.se NOTICE No answer received from 2001:6f0:0:1:0:0:2:2 when querying for version.server/CH/TXT.
+ 42.875: nll.se INFO Done testing name server a.dns.tdc.se.
+ 42.875: nll.se INFO Begin testing name server b.dns.tdc.se.
+ 42.875: nll.se INFO Begin testing host b.dns.tdc.se.
+ 42.876: nll.se INFO Begin testing address 213.50.29.195.
+ 43.740: nll.se INFO Done testing address 213.50.29.195.
+ 43.741: nll.se INFO Begin testing address 2001:6f0:0:1:0:0:1:2.
+ 44.326: nll.se INFO Done testing address 2001:6f0:0:1:0:0:1:2.
+ 44.334: nll.se INFO Done testing host b.dns.tdc.se.
+ 44.393: nll.se INFO Name server b.dns.tdc.se (213.50.29.195) answers queries over UDP.
+ 44.503: nll.se INFO Name server b.dns.tdc.se (213.50.29.195) answers queries over TCP.
+ 44.539: nll.se INFO Name server b.dns.tdc.se (213.50.29.195) is not recursive.
+ 44.737: nll.se INFO Name server b.dns.tdc.se (213.50.29.195) authoritative for nll.se.
+ 44.807: nll.se INFO Name server b.dns.tdc.se (213.50.29.195) closed for zone transfer of nll.se.
+ 44.843: nll.se INFO Legacy name server ID for b.dns.tdc.se (213.50.29.195): hostname.bind = b
+ 44.850: nll.se INFO Legacy name server ID for b.dns.tdc.se (213.50.29.195): version.bind = tssk, well what can i say?
+ 44.885: nll.se NOTICE No answer received from 213.50.29.195 when querying for version.server/CH/TXT.
+ 44.947: nll.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) answers queries over UDP.
+ 45.006: nll.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) answers queries over TCP.
+ 45.060: nll.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) is not recursive.
+ 45.324: nll.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) authoritative for nll.se.
+ 45.382: nll.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) closed for zone transfer of nll.se.
+ 45.411: nll.se INFO Legacy name server ID for b.dns.tdc.se (2001:6f0:0:1:0:0:1:2): hostname.bind = b
+ 45.447: nll.se INFO Legacy name server ID for b.dns.tdc.se (2001:6f0:0:1:0:0:1:2): version.bind = tssk, well what can i say?
+ 45.503: nll.se NOTICE No answer received from 2001:6f0:0:1:0:0:1:2 when querying for version.server/CH/TXT.
+ 45.503: nll.se INFO Done testing name server b.dns.tdc.se.
+ 45.503: nll.se INFO Begin testing name server hestia.nll.se.
+ 45.504: nll.se INFO Begin testing host hestia.nll.se.
+ 45.504: nll.se INFO Begin testing address 195.196.196.199.
+ 47.697: nll.se INFO Done testing address 195.196.196.199.
+ 47.706: nll.se INFO Begin testing address 2a00:ff40:2:1043:0:0:0:199.
+ 48.219: nll.se INFO Done testing address 2a00:ff40:2:1043:0:0:0:199.
+ 48.219: nll.se INFO Done testing host hestia.nll.se.
+ 48.249: nll.se INFO Name server hestia.nll.se (195.196.196.199) answers queries over UDP.
+ 48.351: nll.se INFO Name server hestia.nll.se (195.196.196.199) answers queries over TCP.
+ 48.377: nll.se INFO Name server hestia.nll.se (195.196.196.199) is not recursive.
+ 48.539: nll.se INFO Name server hestia.nll.se (195.196.196.199) authoritative for nll.se.
+ 48.618: nll.se INFO Name server hestia.nll.se (195.196.196.199) closed for zone transfer of nll.se.
+ 48.644: nll.se INFO Legacy name server ID for hestia.nll.se (195.196.196.199): hostname.bind = hestia
+ 48.670: nll.se INFO Legacy name server ID for hestia.nll.se (195.196.196.199): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 48.723: nll.se NOTICE No answer received from 195.196.196.199 when querying for version.server/CH/TXT.
+ 48.769: nll.se INFO Name server hestia.nll.se (2a00:ff40:2:1043:0:0:0:199) answers queries over UDP.
+ 48.837: nll.se INFO Name server hestia.nll.se (2a00:ff40:2:1043:0:0:0:199) answers queries over TCP.
+ 48.903: nll.se INFO Name server hestia.nll.se (2a00:ff40:2:1043:0:0:0:199) is not recursive.
+ 49.089: nll.se INFO Name server hestia.nll.se (2a00:ff40:2:1043:0:0:0:199) authoritative for nll.se.
+ 49.192: nll.se INFO Name server hestia.nll.se (2a00:ff40:2:1043:0:0:0:199) closed for zone transfer of nll.se.
+ 49.223: nll.se INFO Legacy name server ID for hestia.nll.se (2a00:ff40:2:1043:0:0:0:199): hostname.bind = hestia
+ 49.257: nll.se INFO Legacy name server ID for hestia.nll.se (2a00:ff40:2:1043:0:0:0:199): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 49.318: nll.se NOTICE No answer received from 2a00:ff40:2:1043:0:0:0:199 when querying for version.server/CH/TXT.
+ 49.319: nll.se INFO Done testing name server hestia.nll.se.
+ 49.319: nll.se INFO Begin testing name server nemesis.nll.se.
+ 49.319: nll.se INFO Begin testing host nemesis.nll.se.
+ 49.319: nll.se INFO Begin testing address 195.196.196.200.
+ 49.880: nll.se INFO Done testing address 195.196.196.200.
+ 49.885: nll.se INFO Begin testing address 2a00:ff40:2:1043:0:0:0:200.
+ 50.202: nll.se INFO Done testing address 2a00:ff40:2:1043:0:0:0:200.
+ 50.207: nll.se INFO Done testing host nemesis.nll.se.
+ 50.242: nll.se INFO Name server nemesis.nll.se (195.196.196.200) answers queries over UDP.
+ 50.330: nll.se INFO Name server nemesis.nll.se (195.196.196.200) answers queries over TCP.
+ 50.365: nll.se INFO Name server nemesis.nll.se (195.196.196.200) is not recursive.
+ 50.503: nll.se INFO Name server nemesis.nll.se (195.196.196.200) authoritative for nll.se.
+ 50.593: nll.se INFO Name server nemesis.nll.se (195.196.196.200) closed for zone transfer of nll.se.
+ 50.698: nll.se NOTICE No answer received from 195.196.196.200 when querying for version.server/CH/TXT.
+ 50.750: nll.se INFO Name server nemesis.nll.se (2a00:ff40:2:1043:0:0:0:200) answers queries over UDP.
+ 50.819: nll.se INFO Name server nemesis.nll.se (2a00:ff40:2:1043:0:0:0:200) answers queries over TCP.
+ 50.899: nll.se INFO Name server nemesis.nll.se (2a00:ff40:2:1043:0:0:0:200) is not recursive.
+ 51.145: nll.se INFO Name server nemesis.nll.se (2a00:ff40:2:1043:0:0:0:200) authoritative for nll.se.
+ 51.241: nll.se INFO Name server nemesis.nll.se (2a00:ff40:2:1043:0:0:0:200) closed for zone transfer of nll.se.
+ 51.385: nll.se NOTICE No answer received from 2a00:ff40:2:1043:0:0:0:200 when querying for version.server/CH/TXT.
+ 51.386: nll.se INFO Done testing name server nemesis.nll.se.
+ 51.386: nll.se INFO Begin testing zone consistency for nll.se.
+ 51.458: nll.se INFO SOA at address 2001:6f0:0:1:0:0:1:2 has serial 2014021477.
+ 51.513: nll.se INFO SOA at address 2a00:ff40:2:1043:0:0:0:200 has serial 2014021477.
+ 51.534: nll.se INFO SOA at address 213.50.29.195 has serial 2014021477.
+ 51.627: nll.se INFO SOA at address 2001:6f0:0:1:0:0:2:2 has serial 2014021477.
+ 51.657: nll.se INFO SOA at address 195.196.196.200 has serial 2014021477.
+ 51.690: nll.se INFO SOA at address 195.196.196.199 has serial 2014021477.
+ 51.725: nll.se INFO SOA at address 2a00:ff40:2:1043:0:0:0:199 has serial 2014021477.
+ 51.745: nll.se INFO SOA at address 213.50.29.190 has serial 2014021477.
+ 51.747: nll.se INFO All SOA records have consistent serial numbers.
+ 51.747: nll.se INFO All other fields in the SOA record are consistent among all name servers.
+ 52.095: nll.se NOTICE The listed nameservers for nll.se all report the same set of nameservers.
+ 52.095: nll.se INFO Done testing zone consistency for nll.se.
+ 52.095: nll.se INFO Begin testing SOA parameters for nll.se.
+ 52.121: nll.se INFO Found SOA record for nll.se.
+ 52.134: nll.se INFO Begin testing host nemesis.nll.se.
+ 52.137: nll.se INFO Begin testing address 195.196.196.200.
+ 52.139: nll.se INFO Done testing address 195.196.196.200.
+ 52.153: nll.se INFO Begin testing address 2a00:ff40:2:1043:0:0:0:200.
+ 52.155: nll.se INFO Done testing address 2a00:ff40:2:1043:0:0:0:200.
+ 52.155: nll.se INFO Done testing host nemesis.nll.se.
+ 52.155: nll.se INFO SOA MNAME for nll.se valid (nemesis.nll.se).
+ 52.155: nll.se INFO SOA MNAME for nll.se (nemesis.nll.se) listed as NS.
+ 52.195: nll.se INFO SOA MNAME for nll.se (nemesis.nll.se) is authoritative.
+ 52.247: nll.se INFO SOA MNAME for nll.se (nemesis.nll.se) is authoritative.
+ 52.247: nll.se INFO Begin testing email address hostmaster@nll.se.
+ 52.539: nll.se INFO Mail exchangers for hostmaster@nll.se found orion.nll.se,ajax.nll.se.
+ 52.542: nll.se INFO All mail servers for hostmaster@nll.se are in zone nll.se.
+ 52.542: nll.se INFO Begin testing host orion.nll.se.
+ 52.941: nll.se INFO Begin testing address 195.196.197.6.
+ 53.712: nll.se INFO Done testing address 195.196.197.6.
+ 53.715: nll.se INFO Begin testing address 2a00:ff40:2:1046:0:0:0:6.
+ 54.263: nll.se INFO Done testing address 2a00:ff40:2:1046:0:0:0:6.
+ 54.270: nll.se INFO Done testing host orion.nll.se.
+ 54.275: nll.se INFO Begin testing host ajax.nll.se.
+ 54.658: nll.se INFO Begin testing address 195.196.197.5.
+ 55.057: nll.se INFO Done testing address 195.196.197.5.
+ 55.066: nll.se INFO Begin testing address 2a00:ff40:2:1046:0:0:0:5.
+ 55.249: nll.se INFO Done testing address 2a00:ff40:2:1046:0:0:0:5.
+ 55.259: nll.se INFO Done testing host ajax.nll.se.
+ 55.267: nll.se INFO Done testing email address hostmaster@nll.se.
+ 55.267: nll.se INFO Successful attempt to deliver email for SOA RNAME of nll.se (hostmaster.nll.se) using hostmaster@nll.se.
+ 55.267: nll.se INFO SOA TTL for nll.se OK (28800) - recommended >= 3600.
+ 55.267: nll.se NOTICE SOA refresh for nll.se too small (1800) - recommended >= 14400.
+ 55.270: nll.se NOTICE SOA retry for nll.se too small (180) - recommended >= 3600.
+ 55.272: nll.se INFO SOA expire for nll.se OK (259200) - recommended >= 259200.
+ 55.272: nll.se INFO SOA minimum for nll.se OK (900) - recommended between 300 and 86400.
+ 55.273: nll.se INFO Done testing SOA parameters for nll.se.
+ 55.273: nll.se INFO Begin testing connectivity for nll.se.
+ 57.392: nll.se INFO Zone announced by more than one ASN.
+ 59.246: nll.se INFO Zone announced by more than one IPv6 ASN.
+ 59.249: nll.se INFO Done testing connectivity for nll.se.
+ 59.253: nll.se INFO Begin testing DNSSEC for nll.se.
+ 59.296: nll.se INFO Found DS record for nll.se at parent.
+ 59.317: nll.se INFO Nameserver 213.50.29.195 does DNSSEC extra processing.
+ 59.384: nll.se INFO Nameserver 195.196.196.200 does DNSSEC extra processing.
+ 59.454: nll.se INFO Nameserver 195.196.196.199 does DNSSEC extra processing.
+ 59.485: nll.se INFO Nameserver 213.50.29.190 does DNSSEC extra processing.
+ 59.519: nll.se INFO Nameserver 2001:6f0:0:1:0:0:1:2 does DNSSEC extra processing.
+ 59.549: nll.se INFO Nameserver 2001:6f0:0:1:0:0:2:2 does DNSSEC extra processing.
+ 59.612: nll.se INFO Nameserver 2a00:ff40:2:1043:0:0:0:200 does DNSSEC extra processing.
+ 59.678: nll.se INFO Nameserver 2a00:ff40:2:1043:0:0:0:199 does DNSSEC extra processing.
+ 59.678: nll.se INFO Servers for nll.se have consistent extra processing status.
+ 59.690: nll.se INFO Authenticated denial records found for nll.se, of type NSEC3.
+ 59.708: nll.se INFO NSEC3PARAM record found for nll.se.
+ 59.713: nll.se INFO NSEC3 for nll.se is set to use 10 iterations, which is less than 100 and thus OK.
+ 59.713: nll.se INFO Found DNSKEY record for nll.se at child.
+ 59.713: nll.se INFO Consistent security for nll.se.
+ 59.718: nll.se INFO Checking DNSSEC at child (nll.se).
+ 59.718: nll.se INFO nll.se's key with tag 13023 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 59.726: nll.se INFO Algorithm number 7 is OK.
+ 59.727: nll.se INFO DNSKEY nll.se (tag 13023) is marked as a secure entry point (SEP).
+ 59.727: nll.se INFO nll.se's key with tag 13502 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 59.727: nll.se INFO Algorithm number 7 is OK.
+ 59.731: nll.se INFO DNSSEC signature expires at: Sat Mar  8 01:35:47 2014
+ 59.731: nll.se INFO Duration for RRSIG(nll.se/IN/DNSKEY/13023) is OK (345699 seconds).
+ 59.733: nll.se INFO DNSSEC signature RRSIG(nll.se/IN/DNSKEY/13023) matches records.
+ 59.738: nll.se INFO DNSSEC signature valid: RRSIG(nll.se/IN/DNSKEY/13023)
+ 59.739: nll.se INFO DNSSEC signature expires at: Sat Mar  8 01:35:47 2014
+ 59.739: nll.se INFO Duration for RRSIG(nll.se/IN/DNSKEY/13502) is OK (345699 seconds).
+ 59.741: nll.se INFO DNSSEC signature RRSIG(nll.se/IN/DNSKEY/13502) matches records.
+ 59.745: nll.se INFO DNSSEC signature valid: RRSIG(nll.se/IN/DNSKEY/13502)
+ 59.745: nll.se INFO Enough valid signatures found for nll.se.
+ 59.777: nll.se INFO DNSSEC signature expires at: Sun Mar  9 00:29:38 2014
+ 59.782: nll.se INFO Duration for RRSIG(nll.se/IN/SOA/13502) is OK (349200 seconds).
+ 59.783: nll.se INFO DNSSEC signature RRSIG(nll.se/IN/SOA/13502) matches records.
+ 59.785: nll.se INFO DNSSEC signature valid: RRSIG(nll.se/IN/SOA/13502)
+ 59.785: nll.se INFO Enough valid signatures over SOA RRset found for nll.se.
+ 59.785: nll.se INFO DNSSEC child checks for nll.se complete.
+ 59.788: nll.se INFO Checking DNSSEC at parent of nll.se.
+ 59.788: nll.se INFO nll.se's key with tag 53223 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 59.791: nll.se INFO Algorithm number 7 is OK.
+ 59.791: nll.se INFO Parent DS(nll.se/7/2/53223) refers to invalid key at child: No key
+ 59.791: nll.se NOTICE Parent DS(nll.se) does not refer to secure entry point (SEP) at child: DS(nll.se/7/2/53223)
+ 59.791: nll.se INFO nll.se's key with tag 13023 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 59.791: nll.se INFO Algorithm number 7 is OK.
+ 59.791: nll.se INFO Parent DS(nll.se/7/1/13023) refers to valid key at child: DNSKEY(nll.se/7/13023)
+ 59.792: nll.se INFO Parent DS(nll.se) refers to secure entry point (SEP) at child: DS(nll.se/7/1/13023)
+ 59.792: nll.se INFO nll.se's key with tag 13023 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 59.792: nll.se INFO Algorithm number 7 is OK.
+ 59.792: nll.se INFO Parent DS(nll.se/7/2/13023) refers to valid key at child: DNSKEY(nll.se/7/13023)
+ 59.792: nll.se INFO Parent DS(nll.se) refers to secure entry point (SEP) at child: DS(nll.se/7/2/13023)
+ 59.792: nll.se INFO nll.se's key with tag 53223 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 59.793: nll.se INFO Algorithm number 7 is OK.
+ 59.793: nll.se INFO Parent DS(nll.se/7/1/53223) refers to invalid key at child: No key
+ 59.793: nll.se NOTICE Parent DS(nll.se) does not refer to secure entry point (SEP) at child: DS(nll.se/7/1/53223)
+ 59.798: nll.se INFO DNSSEC parent checks for nll.se complete.
+ 59.799: nll.se INFO Done testing DNSSEC for nll.se.
+ 59.799: nll.se INFO Test completed for zone nll.se.

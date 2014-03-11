@@ -1,0 +1,117 @@
+  0.000: wwwgbg.se INFO Begin testing zone wwwgbg.se with version 1.0.1.
+  0.000: wwwgbg.se INFO Begin testing delegation for wwwgbg.se.
+  0.690: wwwgbg.se INFO Name servers listed at parent: kirk.wwwgbg.se,ns2.wwwgbg.se,ns3.wwwgbg.se
+  0.849: wwwgbg.se INFO Name servers listed at child: kirk.wwwgbg.se,ns2.wwwgbg.se,ns3.wwwgbg.se
+  0.849: wwwgbg.se NOTICE No IPv6 name servers found.
+  0.858: wwwgbg.se INFO Parent glue for wwwgbg.se found: kirk.wwwgbg.se (194.146.171.2)
+  0.886: wwwgbg.se INFO Parent glue for wwwgbg.se found: ns2.wwwgbg.se (194.146.171.24)
+  0.914: wwwgbg.se INFO Parent glue for wwwgbg.se found: ns3.wwwgbg.se (194.218.238.246)
+  0.933: wwwgbg.se INFO Checking glue for kirk.wwwgbg.se (194.146.171.2).
+  0.955: wwwgbg.se INFO Child glue for wwwgbg.se found: kirk.wwwgbg.se (194.146.171.2)
+  0.955: wwwgbg.se INFO Checking glue for ns2.wwwgbg.se (194.146.171.24).
+  0.975: wwwgbg.se INFO Child glue for wwwgbg.se found: ns2.wwwgbg.se (194.146.171.24)
+  0.975: wwwgbg.se INFO Checking glue for ns3.wwwgbg.se (194.218.238.246).
+  0.997: wwwgbg.se INFO Child glue for wwwgbg.se found: ns3.wwwgbg.se (194.218.238.246)
+  0.997: wwwgbg.se INFO Done testing delegation for wwwgbg.se.
+  0.998: wwwgbg.se INFO Begin testing name server kirk.wwwgbg.se.
+  0.998: wwwgbg.se INFO Begin testing host kirk.wwwgbg.se.
+  0.998: wwwgbg.se INFO Begin testing address 194.146.171.2.
+  3.658: wwwgbg.se INFO Done testing address 194.146.171.2.
+  3.660: wwwgbg.se INFO Done testing host kirk.wwwgbg.se.
+  3.698: wwwgbg.se WARNING Name server kirk.wwwgbg.se (194.146.171.2) is recursive.
+  3.721: wwwgbg.se INFO Name server kirk.wwwgbg.se (194.146.171.2) authoritative for wwwgbg.se.
+  3.743: wwwgbg.se INFO Name server kirk.wwwgbg.se (194.146.171.2) answers queries over UDP.
+  3.784: wwwgbg.se INFO Name server kirk.wwwgbg.se (194.146.171.2) answers queries over TCP.
+  3.995: wwwgbg.se INFO Name server kirk.wwwgbg.se (194.146.171.2) closed for zone transfer of wwwgbg.se.
+  4.015: wwwgbg.se NOTICE No answer received from 194.146.171.2 when querying for hostname.bind/CH/TXT.
+  4.046: wwwgbg.se INFO Legacy name server ID for kirk.wwwgbg.se (194.146.171.2): version.bind = 9.2.3
+  4.066: wwwgbg.se NOTICE No answer received from 194.146.171.2 when querying for id.server/CH/TXT.
+  4.085: wwwgbg.se NOTICE No answer received from 194.146.171.2 when querying for version.server/CH/TXT.
+  4.085: wwwgbg.se INFO Done testing name server kirk.wwwgbg.se.
+  4.085: wwwgbg.se INFO Begin testing name server ns2.wwwgbg.se.
+  4.085: wwwgbg.se INFO Begin testing host ns2.wwwgbg.se.
+  4.085: wwwgbg.se INFO Begin testing address 194.146.171.24.
+  4.107: wwwgbg.se INFO Done testing address 194.146.171.24.
+  4.107: wwwgbg.se INFO Done testing host ns2.wwwgbg.se.
+  4.316: wwwgbg.se WARNING Name server ns2.wwwgbg.se (194.146.171.24) is recursive.
+  4.338: wwwgbg.se INFO Name server ns2.wwwgbg.se (194.146.171.24) authoritative for wwwgbg.se.
+  4.359: wwwgbg.se INFO Name server ns2.wwwgbg.se (194.146.171.24) answers queries over UDP.
+  4.401: wwwgbg.se INFO Name server ns2.wwwgbg.se (194.146.171.24) answers queries over TCP.
+  4.599: wwwgbg.se INFO Name server ns2.wwwgbg.se (194.146.171.24) closed for zone transfer of wwwgbg.se.
+  4.619: wwwgbg.se NOTICE No answer received from 194.146.171.24 when querying for hostname.bind/CH/TXT.
+  4.639: wwwgbg.se INFO Legacy name server ID for ns2.wwwgbg.se (194.146.171.24): version.bind = 9.2.3
+  4.657: wwwgbg.se NOTICE No answer received from 194.146.171.24 when querying for id.server/CH/TXT.
+  4.682: wwwgbg.se NOTICE No answer received from 194.146.171.24 when querying for version.server/CH/TXT.
+  4.682: wwwgbg.se INFO Done testing name server ns2.wwwgbg.se.
+  4.682: wwwgbg.se INFO Begin testing name server ns3.wwwgbg.se.
+  4.683: wwwgbg.se INFO Begin testing host ns3.wwwgbg.se.
+  4.683: wwwgbg.se INFO Begin testing address 194.218.238.246.
+  5.244: wwwgbg.se WARNING Reverse for 194.218.238.246 points to an unknown host name (ip246.visionutv.se).
+  5.245: wwwgbg.se INFO Done testing address 194.218.238.246.
+  5.245: wwwgbg.se INFO Done testing host ns3.wwwgbg.se.
+  5.562: wwwgbg.se WARNING Name server ns3.wwwgbg.se (194.218.238.246) is recursive.
+  5.582: wwwgbg.se INFO Name server ns3.wwwgbg.se (194.218.238.246) authoritative for wwwgbg.se.
+  5.602: wwwgbg.se INFO Name server ns3.wwwgbg.se (194.218.238.246) answers queries over UDP.
+  5.620: wwwgbg.se NOTICE DNS lookup error (connection failed).
+  5.620: wwwgbg.se ERROR Name server ns3.wwwgbg.se (194.218.238.246) does not answer queries over TCP.
+  5.620: wwwgbg.se INFO Name server ns3.wwwgbg.se (194.218.238.246) not checked for zone transfer of wwwgbg.se.
+  5.620: wwwgbg.se INFO Name server ns3.wwwgbg.se (194.218.238.246) not checked for legacy name server ID.
+  5.620: wwwgbg.se INFO Done testing name server ns3.wwwgbg.se.
+  5.621: wwwgbg.se INFO Begin testing zone consistency for wwwgbg.se.
+  5.646: wwwgbg.se INFO SOA at address 194.146.171.2 has serial 2010085628.
+  5.668: wwwgbg.se INFO SOA at address 194.146.171.24 has serial 2010085628.
+  5.688: wwwgbg.se INFO SOA at address 194.218.238.246 has serial 2010085628.
+  5.688: wwwgbg.se INFO All SOA records have consistent serial numbers.
+  5.688: wwwgbg.se INFO All SOA records are consistent among all name servers.
+  5.688: wwwgbg.se INFO Done testing zone consistency for wwwgbg.se.
+  5.689: wwwgbg.se INFO Begin testing SOA parameters for wwwgbg.se.
+  5.709: wwwgbg.se INFO Found SOA record for wwwgbg.se.
+  5.709: wwwgbg.se INFO Begin testing host kirk.wwwgbg.se.
+  5.709: wwwgbg.se INFO Begin testing address 194.146.171.2.
+  5.710: wwwgbg.se INFO Done testing address 194.146.171.2.
+  5.710: wwwgbg.se INFO Done testing host kirk.wwwgbg.se.
+  5.711: wwwgbg.se INFO SOA MNAME for wwwgbg.se valid (kirk.wwwgbg.se).
+  5.711: wwwgbg.se INFO SOA MNAME for wwwgbg.se (kirk.wwwgbg.se) listed as NS.
+  5.732: wwwgbg.se INFO SOA MNAME for wwwgbg.se (kirk.wwwgbg.se) is authoritative.
+  5.732: wwwgbg.se INFO Begin testing email address hostmaster@wwwgbg.se.
+  5.756: wwwgbg.se INFO Mail exchangers for hostmaster@wwwgbg.se found sf2.wwwgbg.se,sf1.wwwgbg.se.
+  5.756: wwwgbg.se INFO All mail servers for hostmaster@wwwgbg.se are in zone wwwgbg.se.
+  5.756: wwwgbg.se INFO Begin testing host sf2.wwwgbg.se.
+  5.795: wwwgbg.se INFO Begin testing address 194.146.171.27.
+  5.817: wwwgbg.se INFO Done testing address 194.146.171.27.
+  5.817: wwwgbg.se INFO Done testing host sf2.wwwgbg.se.
+  5.817: wwwgbg.se INFO Begin testing mail server sf2.wwwgbg.se (194.146.171.27) with hostmaster@wwwgbg.se.
+  5.886: wwwgbg.se INFO SMTP banner: sf1.wwwgbg.se ESMTP Exim 4.66 Tue, 07 Sep 2010 16:45:22 +0200
+  5.952: wwwgbg.se INFO SMTP testing of sf2.wwwgbg.se (194.146.171.27) with hostmaster@wwwgbg.se succeeded without errors.
+  5.952: wwwgbg.se INFO Done testing mail server sf2.wwwgbg.se (194.146.171.27) with hostmaster@wwwgbg.se.
+  5.952: wwwgbg.se INFO Begin testing host sf1.wwwgbg.se.
+  5.992: wwwgbg.se INFO Begin testing address 194.146.171.26.
+  6.014: wwwgbg.se INFO Done testing address 194.146.171.26.
+  6.014: wwwgbg.se INFO Done testing host sf1.wwwgbg.se.
+  6.015: wwwgbg.se INFO Delivery over IPv4 to hostmaster@wwwgbg.se ok.
+  6.015: wwwgbg.se INFO Delivery over IPv6 to hostmaster@wwwgbg.se could not be done.
+  6.015: wwwgbg.se INFO Done testing email address hostmaster@wwwgbg.se.
+  6.015: wwwgbg.se INFO Successful attempt to deliver email for SOA RNAME of wwwgbg.se (hostmaster.wwwgbg.se) using hostmaster@wwwgbg.se.
+  6.015: wwwgbg.se INFO SOA TTL for wwwgbg.se OK (14400) - recommended >= 3600.
+  6.015: wwwgbg.se NOTICE SOA refresh for wwwgbg.se too small (10800) - recommended >= 14400.
+  6.015: wwwgbg.se INFO SOA retry for wwwgbg.se OK (3600) - recommended >= 3600.
+  6.015: wwwgbg.se INFO SOA expire for wwwgbg.se OK (1209600) - recommended >= 604800.
+  6.015: wwwgbg.se INFO SOA minimum for wwwgbg.se OK (14400) - recommended between 300 and 86400.
+  6.015: wwwgbg.se INFO Done testing SOA parameters for wwwgbg.se.
+  6.016: wwwgbg.se INFO Begin testing connectivity for wwwgbg.se.
+  6.234: wwwgbg.se INFO Name server 194.146.171.2 announced by: 29602
+  6.362: wwwgbg.se INFO Name server 194.146.171.24 announced by: 29602
+  6.490: wwwgbg.se INFO Name server 194.218.238.246 announced by: 3301
+  6.491: wwwgbg.se INFO Zone announced by ASN: 3301,29602
+  6.491: wwwgbg.se INFO Zone announced by more than one ASN (2).
+  6.491: wwwgbg.se INFO Zone announced by IPv6 ASN: 
+  6.491: wwwgbg.se NOTICE Zone announced by only one IPv6 ASN (0).
+  6.491: wwwgbg.se INFO Done testing connectivity for wwwgbg.se.
+  6.491: wwwgbg.se INFO Begin testing DNSSEC for wwwgbg.se.
+  6.508: wwwgbg.se INFO Did not find DS record for wwwgbg.se at parent.
+  6.605: wwwgbg.se NOTICE DNS lookup error (connection failed).
+  6.605: wwwgbg.se INFO Servers for wwwgbg.se have consistent extra processing status.
+  6.605: wwwgbg.se INFO Did not find DNSKEY record for wwwgbg.se at child.
+  6.605: wwwgbg.se INFO No DNSKEY(s) found at child, other tests skipped.
+  6.605: wwwgbg.se INFO Done testing DNSSEC for wwwgbg.se.
+  6.605: wwwgbg.se INFO Test completed for zone wwwgbg.se.

@@ -1,0 +1,86 @@
+  0.000: salo.fi INFO Begin testing zone salo.fi with version 1.6.1.
+  0.855: salo.fi INFO Begin testing delegation for salo.fi.
+ 10.834: salo.fi INFO Name servers listed at parent: ns.ssp.fi,ns2.ssp.fi
+ 12.534: salo.fi INFO Name servers listed at child: ns.ssp.fi,ns2.ssp.fi
+ 12.535: salo.fi NOTICE No IPv6 name servers found.
+ 12.648: salo.fi INFO Parent glue for salo.fi found: ns.ssp.fi (62.121.35.14)
+ 12.766: salo.fi INFO Parent glue for salo.fi found: ns2.ssp.fi (62.121.33.75)
+ 12.823: salo.fi INFO Checking glue for ns.ssp.fi (62.121.35.14).
+ 12.823: salo.fi INFO Checking glue for ns2.ssp.fi (62.121.33.75).
+ 12.823: salo.fi INFO Parent glue for salo.fi found: ns.ssp.fi (62.121.35.14)
+ 12.824: salo.fi INFO Parent glue for salo.fi found: ns2.ssp.fi (62.121.33.75)
+ 13.743: salo.fi INFO It is possible to build a referral packet for salo.fi that works without EDNS0.
+ 14.418: salo.fi INFO Previously used name servers for salo.fi: 
+ 14.418: salo.fi INFO Done testing delegation for salo.fi.
+ 14.418: salo.fi INFO Begin testing name server ns.ssp.fi.
+ 14.418: salo.fi INFO Begin testing host ns.ssp.fi.
+ 14.746: salo.fi INFO Begin testing address 62.121.35.14.
+ 19.698: salo.fi INFO Done testing address 62.121.35.14.
+ 19.698: salo.fi INFO Done testing host ns.ssp.fi.
+ 19.976: salo.fi INFO Name server ns.ssp.fi (62.121.35.14) answers queries over UDP.
+ 20.042: salo.fi INFO Name server ns.ssp.fi (62.121.35.14) answers queries over TCP.
+ 20.059: salo.fi INFO Name server ns.ssp.fi (62.121.35.14) is not recursive.
+ 20.185: salo.fi INFO Name server ns.ssp.fi (62.121.35.14) authoritative for salo.fi.
+ 20.235: salo.fi INFO Name server ns.ssp.fi (62.121.35.14) closed for zone transfer of salo.fi.
+ 20.258: salo.fi NOTICE No answer received from 62.121.35.14 when querying for hostname.bind/CH/TXT.
+ 20.289: salo.fi NOTICE No answer received from 62.121.35.14 when querying for version.bind/CH/TXT.
+ 20.307: salo.fi NOTICE No answer received from 62.121.35.14 when querying for id.server/CH/TXT.
+ 20.324: salo.fi NOTICE No answer received from 62.121.35.14 when querying for version.server/CH/TXT.
+ 20.324: salo.fi INFO Done testing name server ns.ssp.fi.
+ 20.324: salo.fi INFO Begin testing name server ns2.ssp.fi.
+ 20.324: salo.fi INFO Begin testing host ns2.ssp.fi.
+ 20.497: salo.fi INFO Begin testing address 62.121.33.75.
+ 21.006: salo.fi INFO Done testing address 62.121.33.75.
+ 21.006: salo.fi INFO Done testing host ns2.ssp.fi.
+ 21.166: salo.fi INFO Name server ns2.ssp.fi (62.121.33.75) answers queries over UDP.
+ 21.203: salo.fi INFO Name server ns2.ssp.fi (62.121.33.75) answers queries over TCP.
+ 21.220: salo.fi INFO Name server ns2.ssp.fi (62.121.33.75) is not recursive.
+ 21.333: salo.fi INFO Name server ns2.ssp.fi (62.121.33.75) authoritative for salo.fi.
+ 21.379: salo.fi INFO Name server ns2.ssp.fi (62.121.33.75) closed for zone transfer of salo.fi.
+ 21.396: salo.fi NOTICE No answer received from 62.121.33.75 when querying for hostname.bind/CH/TXT.
+ 21.421: salo.fi NOTICE No answer received from 62.121.33.75 when querying for version.bind/CH/TXT.
+ 21.453: salo.fi NOTICE No answer received from 62.121.33.75 when querying for id.server/CH/TXT.
+ 21.477: salo.fi NOTICE No answer received from 62.121.33.75 when querying for version.server/CH/TXT.
+ 21.477: salo.fi INFO Done testing name server ns2.ssp.fi.
+ 21.477: salo.fi INFO Begin testing zone consistency for salo.fi.
+ 22.036: salo.fi INFO SOA at address 62.121.33.75 has serial 2013090601.
+ 22.055: salo.fi INFO SOA at address 62.121.35.14 has serial 2013090601.
+ 22.055: salo.fi INFO All SOA records have consistent serial numbers.
+ 22.056: salo.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 22.416: salo.fi NOTICE The listed nameservers for salo.fi all report the same set of nameservers.
+ 22.416: salo.fi INFO Done testing zone consistency for salo.fi.
+ 22.416: salo.fi INFO Begin testing SOA parameters for salo.fi.
+ 22.449: salo.fi INFO Found SOA record for salo.fi.
+ 22.449: salo.fi INFO Begin testing host ns.ssp.fi.
+ 22.598: salo.fi INFO Begin testing address 62.121.35.14.
+ 22.690: salo.fi INFO Done testing address 62.121.35.14.
+ 22.690: salo.fi INFO Done testing host ns.ssp.fi.
+ 22.690: salo.fi INFO SOA MNAME for salo.fi valid (ns.ssp.fi).
+ 22.690: salo.fi INFO SOA MNAME for salo.fi (ns.ssp.fi) listed as NS.
+ 22.912: salo.fi INFO SOA MNAME for salo.fi (ns.ssp.fi) is authoritative.
+ 22.912: salo.fi INFO Begin testing email address hostmaster@ssp.net.
+ 23.047: salo.fi INFO Mail exchangers for hostmaster@ssp.net found posti.ssp.fi.
+ 23.047: salo.fi INFO Begin testing host posti.ssp.fi.
+ 23.384: salo.fi INFO Begin testing address 62.121.32.123.
+ 23.946: salo.fi INFO Done testing address 62.121.32.123.
+ 23.946: salo.fi INFO Done testing host posti.ssp.fi.
+ 24.098: salo.fi INFO Done testing email address hostmaster@ssp.net.
+ 24.098: salo.fi INFO Successful attempt to deliver email for SOA RNAME of salo.fi (hostmaster.ssp.net) using hostmaster@ssp.net.
+ 24.098: salo.fi INFO SOA TTL for salo.fi OK (3600) - recommended >= 3600.
+ 24.098: salo.fi NOTICE SOA refresh for salo.fi too small (3600) - recommended >= 14400.
+ 24.098: salo.fi NOTICE SOA retry for salo.fi too small (1800) - recommended >= 3600.
+ 24.098: salo.fi INFO SOA expire for salo.fi OK (3600000) - recommended >= 604800.
+ 24.098: salo.fi INFO SOA minimum for salo.fi OK (86400) - recommended between 300 and 86400.
+ 24.098: salo.fi INFO Done testing SOA parameters for salo.fi.
+ 24.098: salo.fi INFO Begin testing connectivity for salo.fi.
+ 25.292: salo.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 25.293: salo.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 25.293: salo.fi INFO Done testing connectivity for salo.fi.
+ 25.293: salo.fi INFO Begin testing DNSSEC for salo.fi.
+ 25.404: salo.fi INFO Did not find DS record for salo.fi at parent.
+ 25.516: salo.fi INFO Servers for salo.fi have consistent extra processing status.
+ 25.578: salo.fi INFO Authenticated denial records not found for salo.fi.
+ 25.600: salo.fi INFO Did not find DNSKEY record for salo.fi at child.
+ 25.600: salo.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 25.600: salo.fi INFO Done testing DNSSEC for salo.fi.
+ 25.601: salo.fi INFO Test completed for zone salo.fi.

@@ -1,0 +1,165 @@
+  0.000: hyvinkaa.fi INFO Begin testing zone hyvinkaa.fi with version 1.6.1.
+  0.428: hyvinkaa.fi INFO Begin testing delegation for hyvinkaa.fi.
+ 10.939: hyvinkaa.fi INFO Name servers listed at parent: ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 14.406: hyvinkaa.fi INFO Name servers listed at child: ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 14.486: hyvinkaa.fi INFO Parent glue for hyvinkaa.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+ 14.601: hyvinkaa.fi INFO Parent glue for hyvinkaa.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+ 14.747: hyvinkaa.fi INFO Parent glue for hyvinkaa.fi found: ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53)
+ 14.799: hyvinkaa.fi INFO Parent glue for hyvinkaa.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+ 14.906: hyvinkaa.fi INFO Parent glue for hyvinkaa.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+ 15.164: hyvinkaa.fi INFO Checking glue for ns1-fin.global.sonera.fi (193.210.18.31).
+ 15.164: hyvinkaa.fi INFO Checking glue for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53).
+ 15.164: hyvinkaa.fi INFO Checking glue for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53).
+ 15.164: hyvinkaa.fi INFO Checking glue for ns2-fin.global.sonera.fi (195.156.148.158).
+ 15.165: hyvinkaa.fi INFO Checking glue for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53).
+ 15.165: hyvinkaa.fi INFO Parent glue for hyvinkaa.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+ 15.177: hyvinkaa.fi INFO Parent glue for hyvinkaa.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+ 15.178: hyvinkaa.fi INFO Parent glue for hyvinkaa.fi found: ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53)
+ 15.179: hyvinkaa.fi INFO Parent glue for hyvinkaa.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+ 15.179: hyvinkaa.fi INFO Parent glue for hyvinkaa.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+ 15.992: hyvinkaa.fi INFO It is possible to build a referral packet for hyvinkaa.fi that works without EDNS0.
+ 16.290: hyvinkaa.fi INFO Previously used name servers for hyvinkaa.fi: 
+ 16.290: hyvinkaa.fi INFO Done testing delegation for hyvinkaa.fi.
+ 16.291: hyvinkaa.fi INFO Begin testing name server ns1-fin.global.sonera.fi.
+ 16.291: hyvinkaa.fi INFO Begin testing host ns1-fin.global.sonera.fi.
+ 16.292: hyvinkaa.fi INFO Begin testing address 193.210.18.31.
+ 23.378: hyvinkaa.fi INFO Done testing address 193.210.18.31.
+ 23.378: hyvinkaa.fi INFO Begin testing address 2001:2060:ffdd:a01:0:0:0:53.
+ 25.252: hyvinkaa.fi INFO Done testing address 2001:2060:ffdd:a01:0:0:0:53.
+ 25.252: hyvinkaa.fi INFO Done testing host ns1-fin.global.sonera.fi.
+ 25.429: hyvinkaa.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over UDP.
+ 25.616: hyvinkaa.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over TCP.
+ 25.666: hyvinkaa.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) is not recursive.
+ 25.834: hyvinkaa.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) authoritative for hyvinkaa.fi.
+ 25.886: hyvinkaa.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) closed for zone transfer of hyvinkaa.fi.
+ 25.902: hyvinkaa.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): hostname.bind = mgda1
+ 25.934: hyvinkaa.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): version.bind = TeliaSonera Finland DNS MGDA
+ 25.953: hyvinkaa.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): id.server = mgda1
+ 25.974: hyvinkaa.fi NOTICE No answer received from 193.210.18.31 when querying for version.server/CH/TXT.
+ 26.027: hyvinkaa.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) answers queries over UDP.
+ 26.116: hyvinkaa.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) answers queries over TCP.
+ 26.193: hyvinkaa.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) is not recursive.
+ 26.483: hyvinkaa.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) authoritative for hyvinkaa.fi.
+ 26.601: hyvinkaa.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) closed for zone transfer of hyvinkaa.fi.
+ 26.645: hyvinkaa.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): hostname.bind = mgda1
+ 26.694: hyvinkaa.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+ 26.735: hyvinkaa.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): id.server = mgda1
+ 26.806: hyvinkaa.fi NOTICE No answer received from 2001:2060:ffdd:a01:0:0:0:53 when querying for version.server/CH/TXT.
+ 26.806: hyvinkaa.fi INFO Done testing name server ns1-fin.global.sonera.fi.
+ 26.806: hyvinkaa.fi INFO Begin testing name server ns1-swe.global.sonera.se.
+ 26.806: hyvinkaa.fi INFO Begin testing host ns1-swe.global.sonera.se.
+ 26.807: hyvinkaa.fi INFO Begin testing address 80.64.9.124.
+ 27.899: hyvinkaa.fi INFO Done testing address 80.64.9.124.
+ 27.899: hyvinkaa.fi INFO Begin testing address 2001:6e8:400:ffff:1:0:0:53.
+ 28.418: hyvinkaa.fi INFO Done testing address 2001:6e8:400:ffff:1:0:0:53.
+ 28.418: hyvinkaa.fi INFO Done testing host ns1-swe.global.sonera.se.
+ 28.448: hyvinkaa.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over UDP.
+ 28.496: hyvinkaa.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over TCP.
+ 28.518: hyvinkaa.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) is not recursive.
+ 28.696: hyvinkaa.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) authoritative for hyvinkaa.fi.
+ 28.737: hyvinkaa.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) closed for zone transfer of hyvinkaa.fi.
+ 28.782: hyvinkaa.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): hostname.bind = mgda3
+ 28.798: hyvinkaa.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): version.bind = TeliaSonera Finland DNS MGDA
+ 28.818: hyvinkaa.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): id.server = mgda3
+ 28.849: hyvinkaa.fi NOTICE No answer received from 80.64.9.124 when querying for version.server/CH/TXT.
+ 28.894: hyvinkaa.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over UDP.
+ 28.936: hyvinkaa.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over TCP.
+ 28.969: hyvinkaa.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) is not recursive.
+ 29.112: hyvinkaa.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) authoritative for hyvinkaa.fi.
+ 29.179: hyvinkaa.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) closed for zone transfer of hyvinkaa.fi.
+ 29.198: hyvinkaa.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): hostname.bind = mgda3
+ 29.216: hyvinkaa.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+ 29.254: hyvinkaa.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): id.server = mgda3
+ 29.276: hyvinkaa.fi NOTICE No answer received from 2001:6e8:400:ffff:1:0:0:53 when querying for version.server/CH/TXT.
+ 29.276: hyvinkaa.fi INFO Done testing name server ns1-swe.global.sonera.se.
+ 29.276: hyvinkaa.fi INFO Begin testing name server ns2-fin.global.sonera.fi.
+ 29.276: hyvinkaa.fi INFO Begin testing host ns2-fin.global.sonera.fi.
+ 29.277: hyvinkaa.fi INFO Begin testing address 195.156.148.158.
+ 29.821: hyvinkaa.fi INFO Done testing address 195.156.148.158.
+ 29.822: hyvinkaa.fi INFO Begin testing address 2001:2060:ffdd:a02:0:0:0:53.
+ 30.344: hyvinkaa.fi INFO Done testing address 2001:2060:ffdd:a02:0:0:0:53.
+ 30.344: hyvinkaa.fi INFO Done testing host ns2-fin.global.sonera.fi.
+ 30.724: hyvinkaa.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over UDP.
+ 30.796: hyvinkaa.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over TCP.
+ 30.820: hyvinkaa.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) is not recursive.
+ 30.968: hyvinkaa.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) authoritative for hyvinkaa.fi.
+ 31.036: hyvinkaa.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) closed for zone transfer of hyvinkaa.fi.
+ 31.062: hyvinkaa.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): hostname.bind = mgda1
+ 31.081: hyvinkaa.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): version.bind = TeliaSonera Finland DNS MGDA
+ 31.099: hyvinkaa.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): id.server = mgda1
+ 31.115: hyvinkaa.fi NOTICE No answer received from 195.156.148.158 when querying for version.server/CH/TXT.
+ 31.167: hyvinkaa.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) answers queries over UDP.
+ 31.270: hyvinkaa.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) answers queries over TCP.
+ 31.314: hyvinkaa.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) is not recursive.
+ 31.552: hyvinkaa.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) authoritative for hyvinkaa.fi.
+ 31.681: hyvinkaa.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) closed for zone transfer of hyvinkaa.fi.
+ 31.733: hyvinkaa.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): hostname.bind = mgda1
+ 31.776: hyvinkaa.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+ 31.822: hyvinkaa.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): id.server = mgda1
+ 31.890: hyvinkaa.fi NOTICE No answer received from 2001:2060:ffdd:a02:0:0:0:53 when querying for version.server/CH/TXT.
+ 31.890: hyvinkaa.fi INFO Done testing name server ns2-fin.global.sonera.fi.
+ 31.890: hyvinkaa.fi INFO Begin testing name server ns2-usa.global.sonera.net.
+ 31.890: hyvinkaa.fi INFO Begin testing host ns2-usa.global.sonera.net.
+ 32.182: hyvinkaa.fi INFO Begin testing address 46.38.190.56.
+ 33.649: hyvinkaa.fi INFO Done testing address 46.38.190.56.
+ 33.649: hyvinkaa.fi INFO Done testing host ns2-usa.global.sonera.net.
+ 33.920: hyvinkaa.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over UDP.
+ 34.042: hyvinkaa.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over TCP.
+ 34.097: hyvinkaa.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) is not recursive.
+ 34.382: hyvinkaa.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) authoritative for hyvinkaa.fi.
+ 34.531: hyvinkaa.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) closed for zone transfer of hyvinkaa.fi.
+ 34.586: hyvinkaa.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): hostname.bind = mgda5
+ 34.637: hyvinkaa.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): version.bind = TeliaSonera Finland DNS MGDA
+ 34.689: hyvinkaa.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): id.server = mgda5
+ 34.755: hyvinkaa.fi NOTICE No answer received from 46.38.190.56 when querying for version.server/CH/TXT.
+ 34.756: hyvinkaa.fi INFO Done testing name server ns2-usa.global.sonera.net.
+ 34.756: hyvinkaa.fi INFO Begin testing zone consistency for hyvinkaa.fi.
+ 35.225: hyvinkaa.fi INFO SOA at address 2001:2060:ffdd:a01:0:0:0:53 has serial 2014012813.
+ 35.261: hyvinkaa.fi INFO SOA at address 193.210.18.31 has serial 2014012813.
+ 35.296: hyvinkaa.fi INFO SOA at address 80.64.9.124 has serial 2014012813.
+ 35.329: hyvinkaa.fi INFO SOA at address 195.156.148.158 has serial 2014012813.
+ 35.357: hyvinkaa.fi INFO SOA at address 2001:6e8:400:ffff:1:0:0:53 has serial 2014012813.
+ 35.417: hyvinkaa.fi INFO SOA at address 46.38.190.56 has serial 2014012813.
+ 39.440: hyvinkaa.fi INFO All SOA records have consistent serial numbers.
+ 39.440: hyvinkaa.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 39.861: hyvinkaa.fi NOTICE The listed nameservers for hyvinkaa.fi all report the same set of nameservers.
+ 39.861: hyvinkaa.fi INFO Done testing zone consistency for hyvinkaa.fi.
+ 39.861: hyvinkaa.fi INFO Begin testing SOA parameters for hyvinkaa.fi.
+ 39.895: hyvinkaa.fi INFO Found SOA record for hyvinkaa.fi.
+ 39.895: hyvinkaa.fi INFO Begin testing host namesurfer.inet.fi.
+ 40.147: hyvinkaa.fi INFO Begin testing address 131.177.73.253.
+ 44.048: hyvinkaa.fi INFO Done testing address 131.177.73.253.
+ 44.048: hyvinkaa.fi INFO Done testing host namesurfer.inet.fi.
+ 44.048: hyvinkaa.fi INFO SOA MNAME for hyvinkaa.fi valid (namesurfer.inet.fi).
+ 44.049: hyvinkaa.fi NOTICE SOA MNAME for hyvinkaa.fi (namesurfer.inet.fi) not listed as NS.
+ 48.208: hyvinkaa.fi INFO SOA MNAME for hyvinkaa.fi (namesurfer.inet.fi) is authoritative.
+ 48.208: hyvinkaa.fi INFO Begin testing email address hostmaster@sonera.com.
+ 48.337: hyvinkaa.fi INFO Mail exchangers for hostmaster@sonera.com found smtp.dave.sonera.fi,mail.cm.sonera.com.
+ 48.337: hyvinkaa.fi INFO Begin testing host smtp.dave.sonera.fi.
+ 48.616: hyvinkaa.fi INFO Begin testing address 131.177.120.25.
+ 49.172: hyvinkaa.fi INFO Done testing address 131.177.120.25.
+ 49.172: hyvinkaa.fi INFO Done testing host smtp.dave.sonera.fi.
+ 49.297: hyvinkaa.fi INFO Begin testing host mail.cm.sonera.com.
+ 49.789: hyvinkaa.fi INFO Begin testing address 193.208.151.61.
+ 50.693: hyvinkaa.fi INFO Done testing address 193.208.151.61.
+ 50.695: hyvinkaa.fi INFO Done testing host mail.cm.sonera.com.
+ 50.807: hyvinkaa.fi INFO Done testing email address hostmaster@sonera.com.
+ 50.807: hyvinkaa.fi INFO Successful attempt to deliver email for SOA RNAME of hyvinkaa.fi (hostmaster.sonera.com) using hostmaster@sonera.com.
+ 50.807: hyvinkaa.fi INFO SOA TTL for hyvinkaa.fi OK (86400) - recommended >= 3600.
+ 50.807: hyvinkaa.fi INFO SOA refresh for hyvinkaa.fi OK (28800) - recommended >= 14400.
+ 50.807: hyvinkaa.fi INFO SOA retry for hyvinkaa.fi OK (7200) - recommended >= 3600.
+ 50.807: hyvinkaa.fi INFO SOA expire for hyvinkaa.fi OK (604800) - recommended >= 604800.
+ 50.807: hyvinkaa.fi INFO SOA minimum for hyvinkaa.fi OK (3600) - recommended between 300 and 86400.
+ 50.808: hyvinkaa.fi INFO Done testing SOA parameters for hyvinkaa.fi.
+ 50.808: hyvinkaa.fi INFO Begin testing connectivity for hyvinkaa.fi.
+ 52.503: hyvinkaa.fi INFO Zone announced by more than one ASN.
+ 54.025: hyvinkaa.fi INFO Zone announced by more than one IPv6 ASN.
+ 54.025: hyvinkaa.fi INFO Done testing connectivity for hyvinkaa.fi.
+ 54.025: hyvinkaa.fi INFO Begin testing DNSSEC for hyvinkaa.fi.
+ 54.100: hyvinkaa.fi INFO Did not find DS record for hyvinkaa.fi at parent.
+ 54.465: hyvinkaa.fi INFO Servers for hyvinkaa.fi have consistent extra processing status.
+ 54.494: hyvinkaa.fi INFO Authenticated denial records not found for hyvinkaa.fi.
+ 54.509: hyvinkaa.fi INFO Did not find DNSKEY record for hyvinkaa.fi at child.
+ 54.509: hyvinkaa.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 54.509: hyvinkaa.fi INFO Done testing DNSSEC for hyvinkaa.fi.
+ 54.510: hyvinkaa.fi INFO Test completed for zone hyvinkaa.fi.

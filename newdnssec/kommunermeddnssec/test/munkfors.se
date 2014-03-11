@@ -1,0 +1,58 @@
+  0.000: munkfors.se INFO Begin testing zone munkfors.se with version 1.6.1.
+  1.463: munkfors.se INFO Begin testing delegation for munkfors.se.
+ 24.039: munkfors.se INFO Name servers listed at parent: a.dns.songnetworks.se,b.dns.songnetworks.se,c.dns.songnetworks.se
+ 31.963: munkfors.se INFO Name servers listed at child: a.dns.songnetworks.se,b.dns.songnetworks.se,c.dns.songnetworks.se
+ 31.964: munkfors.se NOTICE No IPv6 name servers found.
+ 32.013: munkfors.se INFO Parent glue for munkfors.se found: a.dns.songnetworks.se (213.50.29.190)
+ 32.163: munkfors.se INFO Parent glue for munkfors.se found: b.dns.songnetworks.se (213.50.29.195)
+ 32.395: munkfors.se INFO Parent glue for munkfors.se found: c.dns.songnetworks.se (195.10.143.3)
+ 32.473: munkfors.se INFO Checking glue for a.dns.songnetworks.se (213.50.29.190).
+ 32.473: munkfors.se INFO Checking glue for b.dns.songnetworks.se (213.50.29.195).
+ 32.473: munkfors.se INFO Checking glue for c.dns.songnetworks.se (195.10.143.3).
+ 32.514: munkfors.se INFO Parent glue for munkfors.se found: a.dns.songnetworks.se (213.50.29.190)
+ 32.514: munkfors.se INFO Parent glue for munkfors.se found: b.dns.songnetworks.se (213.50.29.195)
+ 32.514: munkfors.se INFO Parent glue for munkfors.se found: c.dns.songnetworks.se (195.10.143.3)
+ 38.156: munkfors.se INFO It is possible to build a referral packet for munkfors.se that works without EDNS0.
+ 42.954: munkfors.se INFO Previously used name servers for munkfors.se: 
+ 42.954: munkfors.se INFO Done testing delegation for munkfors.se.
+ 42.954: munkfors.se INFO Begin testing name server a.dns.songnetworks.se.
+ 42.954: munkfors.se INFO Begin testing host a.dns.songnetworks.se.
+ 43.185: munkfors.se INFO Begin testing address 213.50.29.190.
+ 87.649: munkfors.se INFO Done testing address 213.50.29.190.
+ 87.649: munkfors.se INFO Done testing host a.dns.songnetworks.se.
+ 91.868: munkfors.se ERROR Name server a.dns.songnetworks.se (213.50.29.190) does not answer queries over UDP.
+ 91.869: munkfors.se ERROR Name server a.dns.songnetworks.se (213.50.29.190) does not answer queries over TCP.
+ 91.869: munkfors.se INFO Done testing name server a.dns.songnetworks.se.
+ 91.869: munkfors.se INFO Begin testing name server b.dns.songnetworks.se.
+ 91.869: munkfors.se INFO Begin testing host b.dns.songnetworks.se.
+ 91.966: munkfors.se INFO Begin testing address 213.50.29.195.
+100.858: munkfors.se INFO Done testing address 213.50.29.195.
+100.858: munkfors.se INFO Done testing host b.dns.songnetworks.se.
+101.166: munkfors.se INFO Name server b.dns.songnetworks.se (213.50.29.195) answers queries over UDP.
+101.181: munkfors.se INFO Name server b.dns.songnetworks.se (213.50.29.195) answers queries over TCP.
+101.194: munkfors.se INFO Name server b.dns.songnetworks.se (213.50.29.195) is not recursive.
+101.367: munkfors.se INFO Name server b.dns.songnetworks.se (213.50.29.195) authoritative for munkfors.se.
+101.384: munkfors.se INFO Name server b.dns.songnetworks.se (213.50.29.195) closed for zone transfer of munkfors.se.
+101.394: munkfors.se INFO Legacy name server ID for b.dns.songnetworks.se (213.50.29.195): hostname.bind = b
+101.402: munkfors.se INFO Legacy name server ID for b.dns.songnetworks.se (213.50.29.195): version.bind = tssk, well what can i say?
+101.445: munkfors.se NOTICE No answer received from 213.50.29.195 when querying for version.server/CH/TXT.
+101.445: munkfors.se INFO Done testing name server b.dns.songnetworks.se.
+101.449: munkfors.se INFO Begin testing name server c.dns.songnetworks.se.
+101.449: munkfors.se INFO Begin testing host c.dns.songnetworks.se.
+105.554: munkfors.se INFO Begin testing address 195.10.143.3.
+106.423: munkfors.se INFO Done testing address 195.10.143.3.
+106.423: munkfors.se INFO Done testing host c.dns.songnetworks.se.
+110.721: munkfors.se INFO Name server c.dns.songnetworks.se (195.10.143.3) answers queries over UDP.
+110.895: munkfors.se INFO Name server c.dns.songnetworks.se (195.10.143.3) answers queries over TCP.
+110.927: munkfors.se INFO Name server c.dns.songnetworks.se (195.10.143.3) is not recursive.
+111.519: munkfors.se INFO Name server c.dns.songnetworks.se (195.10.143.3) authoritative for munkfors.se.
+111.678: munkfors.se INFO Name server c.dns.songnetworks.se (195.10.143.3) closed for zone transfer of munkfors.se.
+111.691: munkfors.se INFO Legacy name server ID for c.dns.songnetworks.se (195.10.143.3): hostname.bind = c.dns.tdc.se
+112.070: munkfors.se INFO Legacy name server ID for c.dns.songnetworks.se (195.10.143.3): version.bind = tssk, well what can i say?
+112.315: munkfors.se NOTICE No answer received from 195.10.143.3 when querying for version.server/CH/TXT.
+112.316: munkfors.se INFO Done testing name server c.dns.songnetworks.se.
+112.316: munkfors.se INFO Begin testing zone consistency for munkfors.se.
+125.265: munkfors.se INFO SOA at address 195.10.143.3 has serial 2013011001.
+125.282: munkfors.se INFO SOA at address 213.50.29.195 has serial 2013011001.
+125.283: munkfors.se INFO All SOA records have consistent serial numbers.
+125.283: munkfors.se INFO All other fields in the SOA record are consistent among all name servers.

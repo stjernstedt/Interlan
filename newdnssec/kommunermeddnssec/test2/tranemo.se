@@ -1,0 +1,92 @@
+  0.000: tranemo.se INFO Begin testing zone tranemo.se with version 1.2.
+  0.000: tranemo.se INFO Begin testing delegation for tranemo.se.
+  9.214: tranemo.se INFO Name servers listed at parent: ns1.tranemo.se,ns2.tranemo.se
+ 10.441: tranemo.se INFO Name servers listed at child: ns1.tranemo.se,ns2.tranemo.se
+ 10.441: tranemo.se ERROR Too few IPv4 name servers (1).
+ 10.441: tranemo.se NOTICE No IPv6 name servers found.
+ 10.451: tranemo.se INFO Parent glue for tranemo.se found: ns1.tranemo.se (91.213.179.254)
+ 10.509: tranemo.se INFO Parent glue for tranemo.se found: ns2.tranemo.se (91.213.179.254)
+ 10.527: tranemo.se INFO Checking glue for ns1.tranemo.se (91.213.179.254).
+ 10.545: tranemo.se INFO Child glue for tranemo.se found: ns1.tranemo.se (91.213.179.254)
+ 10.545: tranemo.se INFO Checking glue for ns2.tranemo.se (91.213.179.254).
+ 10.563: tranemo.se INFO Child glue for tranemo.se found: ns2.tranemo.se (91.213.179.254)
+ 10.564: tranemo.se INFO Parent glue for tranemo.se found: ns1.tranemo.se (91.213.179.254)
+ 10.564: tranemo.se INFO Parent glue for tranemo.se found: ns2.tranemo.se (91.213.179.254)
+ 10.565: tranemo.se INFO Done testing delegation for tranemo.se.
+ 10.565: tranemo.se INFO Begin testing name server ns1.tranemo.se.
+ 10.565: tranemo.se INFO Begin testing host ns1.tranemo.se.
+ 10.565: tranemo.se INFO Begin testing address 91.213.179.254.
+ 32.389: tranemo.se INFO Done testing address 91.213.179.254.
+ 32.390: tranemo.se INFO Done testing host ns1.tranemo.se.
+ 32.409: tranemo.se INFO Name server ns1.tranemo.se (91.213.179.254) answers queries over UDP.
+ 32.442: tranemo.se INFO Name server ns1.tranemo.se (91.213.179.254) answers queries over TCP.
+ 32.460: tranemo.se INFO Name server ns1.tranemo.se (91.213.179.254) is not recursive.
+ 32.479: tranemo.se INFO Name server ns1.tranemo.se (91.213.179.254) authoritative for tranemo.se.
+ 32.523: tranemo.se INFO Name server ns1.tranemo.se (91.213.179.254) closed for zone transfer of tranemo.se.
+ 32.541: tranemo.se NOTICE No answer received from 91.213.179.254 when querying for hostname.bind/CH/TXT.
+ 38.558: tranemo.se NOTICE No answer received from 91.213.179.254 when querying for id.server/CH/TXT.
+ 38.576: tranemo.se NOTICE No answer received from 91.213.179.254 when querying for version.server/CH/TXT.
+ 38.576: tranemo.se INFO Done testing name server ns1.tranemo.se.
+ 38.576: tranemo.se INFO Begin testing name server ns2.tranemo.se.
+ 38.576: tranemo.se INFO Begin testing host ns2.tranemo.se.
+ 38.576: tranemo.se INFO Begin testing address 91.213.179.254.
+ 38.578: tranemo.se INFO Done testing address 91.213.179.254.
+ 38.578: tranemo.se INFO Done testing host ns2.tranemo.se.
+ 38.597: tranemo.se INFO Name server ns2.tranemo.se (91.213.179.254) answers queries over UDP.
+ 38.629: tranemo.se INFO Name server ns2.tranemo.se (91.213.179.254) answers queries over TCP.
+ 38.647: tranemo.se INFO Name server ns2.tranemo.se (91.213.179.254) is not recursive.
+ 38.665: tranemo.se INFO Name server ns2.tranemo.se (91.213.179.254) authoritative for tranemo.se.
+ 38.713: tranemo.se INFO Name server ns2.tranemo.se (91.213.179.254) closed for zone transfer of tranemo.se.
+ 38.730: tranemo.se NOTICE No answer received from 91.213.179.254 when querying for hostname.bind/CH/TXT.
+ 38.749: tranemo.se NOTICE No answer received from 91.213.179.254 when querying for id.server/CH/TXT.
+ 38.767: tranemo.se NOTICE No answer received from 91.213.179.254 when querying for version.server/CH/TXT.
+ 38.767: tranemo.se INFO Done testing name server ns2.tranemo.se.
+ 38.767: tranemo.se INFO Begin testing zone consistency for tranemo.se.
+ 38.789: tranemo.se INFO SOA at address 91.213.179.254 has serial 2010061600.
+ 38.789: tranemo.se INFO All SOA records have consistent serial numbers.
+ 38.789: tranemo.se INFO All SOA records are consistent among all name servers.
+ 38.789: tranemo.se INFO Done testing zone consistency for tranemo.se.
+ 38.790: tranemo.se INFO Begin testing SOA parameters for tranemo.se.
+ 38.809: tranemo.se INFO Found SOA record for tranemo.se.
+ 38.809: tranemo.se INFO Begin testing host ns1.tranemo.se.
+ 38.810: tranemo.se INFO Begin testing address 91.213.179.254.
+ 38.811: tranemo.se INFO Done testing address 91.213.179.254.
+ 38.811: tranemo.se INFO Done testing host ns1.tranemo.se.
+ 38.811: tranemo.se INFO SOA MNAME for tranemo.se valid (ns1.tranemo.se).
+ 38.811: tranemo.se INFO SOA MNAME for tranemo.se (ns1.tranemo.se) listed as NS.
+ 38.830: tranemo.se INFO SOA MNAME for tranemo.se (ns1.tranemo.se) is authoritative.
+ 38.830: tranemo.se INFO Begin testing email address support@tranemo.se.
+ 39.067: tranemo.se INFO Mail exchangers for support@tranemo.se found mx.tranemo.se.
+ 39.067: tranemo.se INFO All mail servers for support@tranemo.se are in zone tranemo.se.
+ 39.067: tranemo.se INFO Begin testing host mx.tranemo.se.
+ 39.591: tranemo.se INFO Begin testing address 91.213.179.250.
+ 40.141: tranemo.se INFO Done testing address 91.213.179.250.
+ 40.141: tranemo.se INFO Done testing host mx.tranemo.se.
+ 40.142: tranemo.se INFO Begin testing mail server mx.tranemo.se (91.213.179.250) with support@tranemo.se.
+ 40.196: tranemo.se INFO SMTP banner: mx.tranemo.se ESMTP
+ 40.767: tranemo.se INFO SMTP testing of mx.tranemo.se (91.213.179.250) with support@tranemo.se succeeded without errors.
+ 40.767: tranemo.se INFO Done testing mail server mx.tranemo.se (91.213.179.250) with support@tranemo.se.
+ 40.767: tranemo.se INFO Delivery over IPv4 to support@tranemo.se ok.
+ 40.767: tranemo.se INFO Delivery over IPv6 to support@tranemo.se could not be done.
+ 40.768: tranemo.se INFO Done testing email address support@tranemo.se.
+ 40.768: tranemo.se INFO Successful attempt to deliver email for SOA RNAME of tranemo.se (support.tranemo.se) using support@tranemo.se.
+ 40.768: tranemo.se INFO SOA TTL for tranemo.se OK (38400) - recommended >= 3600.
+ 40.768: tranemo.se NOTICE SOA refresh for tranemo.se too small (10800) - recommended >= 14400.
+ 40.768: tranemo.se INFO SOA retry for tranemo.se OK (3600) - recommended >= 3600.
+ 40.768: tranemo.se INFO SOA expire for tranemo.se OK (604800) - recommended >= 604800.
+ 40.768: tranemo.se INFO SOA minimum for tranemo.se OK (38400) - recommended between 300 and 86400.
+ 40.768: tranemo.se INFO Done testing SOA parameters for tranemo.se.
+ 40.769: tranemo.se INFO Begin testing connectivity for tranemo.se.
+ 41.281: tranemo.se INFO Name server 91.213.179.254 announced by: 44746
+ 41.281: tranemo.se INFO Zone announced by IPv4 ASN: 44746
+ 41.282: tranemo.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 41.282: tranemo.se INFO Zone announced by IPv6 ASN: 
+ 41.282: tranemo.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 41.282: tranemo.se INFO Done testing connectivity for tranemo.se.
+ 41.282: tranemo.se INFO Begin testing DNSSEC for tranemo.se.
+ 41.316: tranemo.se INFO Did not find DS record for tranemo.se at parent.
+ 41.357: tranemo.se INFO Servers for tranemo.se have consistent extra processing status.
+ 41.357: tranemo.se INFO Did not find DNSKEY record for tranemo.se at child.
+ 41.357: tranemo.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 41.357: tranemo.se INFO Done testing DNSSEC for tranemo.se.
+ 41.357: tranemo.se INFO Test completed for zone tranemo.se.

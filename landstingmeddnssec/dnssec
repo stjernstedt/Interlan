@@ -1,0 +1,7 @@
+#!/bin/sh
+
+cd /home/landstingmeddnssec
+./dnssec2 |tee resultat.txt
+php file.php < resultat.txt >public_html/index2.html
+cp public_html/index2.html public_html/index.html
+./rrd

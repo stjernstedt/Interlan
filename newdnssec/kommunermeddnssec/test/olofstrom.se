@@ -1,0 +1,133 @@
+  0.000: olofstrom.se INFO Begin testing zone olofstrom.se with version 1.6.1.
+  0.978: olofstrom.se INFO Begin testing delegation for olofstrom.se.
+ 14.206: olofstrom.se INFO Name servers listed at parent: a.dns.songnetworks.se,b.dns.songnetworks.se,ns.olofstrom.se
+ 34.541: olofstrom.se INFO Name servers listed at child: a.dns.songnetworks.se,b.dns.songnetworks.se,ns.olofstrom.se
+ 34.580: olofstrom.se NOTICE No IPv6 name servers found.
+ 34.664: olofstrom.se INFO Parent glue for olofstrom.se found: a.dns.songnetworks.se (213.50.29.190)
+ 34.845: olofstrom.se INFO Parent glue for olofstrom.se found: b.dns.songnetworks.se (213.50.29.195)
+ 34.961: olofstrom.se INFO Parent glue for olofstrom.se found: ns.olofstrom.se (79.171.251.10)
+ 35.045: olofstrom.se INFO Checking glue for a.dns.songnetworks.se (213.50.29.190).
+ 35.045: olofstrom.se INFO Checking glue for b.dns.songnetworks.se (213.50.29.195).
+ 35.045: olofstrom.se INFO Checking glue for ns.olofstrom.se (79.171.251.10).
+ 39.083: olofstrom.se INFO Child glue for olofstrom.se found: ns.olofstrom.se (79.171.251.10)
+ 39.140: olofstrom.se INFO Parent glue for olofstrom.se found: a.dns.songnetworks.se (213.50.29.190)
+ 39.140: olofstrom.se INFO Parent glue for olofstrom.se found: b.dns.songnetworks.se (213.50.29.195)
+ 39.140: olofstrom.se INFO Parent glue for olofstrom.se found: ns.olofstrom.se (79.171.251.10)
+ 60.640: olofstrom.se INFO It is possible to build a referral packet for olofstrom.se that works without EDNS0.
+ 62.096: olofstrom.se INFO Previously used name servers for olofstrom.se: 
+ 62.096: olofstrom.se INFO Done testing delegation for olofstrom.se.
+ 62.097: olofstrom.se INFO Begin testing name server a.dns.songnetworks.se.
+ 62.097: olofstrom.se INFO Begin testing host a.dns.songnetworks.se.
+ 62.584: olofstrom.se INFO Begin testing address 213.50.29.190.
+ 89.003: olofstrom.se INFO Done testing address 213.50.29.190.
+ 89.003: olofstrom.se INFO Done testing host a.dns.songnetworks.se.
+ 89.181: olofstrom.se INFO Name server a.dns.songnetworks.se (213.50.29.190) answers queries over UDP.
+ 89.198: olofstrom.se INFO Name server a.dns.songnetworks.se (213.50.29.190) answers queries over TCP.
+ 89.212: olofstrom.se INFO Name server a.dns.songnetworks.se (213.50.29.190) is not recursive.
+ 89.265: olofstrom.se INFO Name server a.dns.songnetworks.se (213.50.29.190) authoritative for olofstrom.se.
+ 89.285: olofstrom.se INFO Name server a.dns.songnetworks.se (213.50.29.190) closed for zone transfer of olofstrom.se.
+ 89.296: olofstrom.se INFO Legacy name server ID for a.dns.songnetworks.se (213.50.29.190): hostname.bind = a
+ 89.303: olofstrom.se INFO Legacy name server ID for a.dns.songnetworks.se (213.50.29.190): version.bind = tssk, well what can i say?
+ 89.316: olofstrom.se NOTICE No answer received from 213.50.29.190 when querying for version.server/CH/TXT.
+ 89.316: olofstrom.se INFO Done testing name server a.dns.songnetworks.se.
+ 89.316: olofstrom.se INFO Begin testing name server b.dns.songnetworks.se.
+ 89.317: olofstrom.se INFO Begin testing host b.dns.songnetworks.se.
+ 89.396: olofstrom.se INFO Begin testing address 213.50.29.195.
+ 89.999: olofstrom.se INFO Done testing address 213.50.29.195.
+ 89.999: olofstrom.se INFO Done testing host b.dns.songnetworks.se.
+ 90.102: olofstrom.se INFO Name server b.dns.songnetworks.se (213.50.29.195) answers queries over UDP.
+ 90.118: olofstrom.se INFO Name server b.dns.songnetworks.se (213.50.29.195) answers queries over TCP.
+ 90.126: olofstrom.se INFO Name server b.dns.songnetworks.se (213.50.29.195) is not recursive.
+ 90.170: olofstrom.se INFO Name server b.dns.songnetworks.se (213.50.29.195) authoritative for olofstrom.se.
+ 90.192: olofstrom.se INFO Name server b.dns.songnetworks.se (213.50.29.195) closed for zone transfer of olofstrom.se.
+ 90.223: olofstrom.se INFO Legacy name server ID for b.dns.songnetworks.se (213.50.29.195): hostname.bind = b
+ 90.231: olofstrom.se INFO Legacy name server ID for b.dns.songnetworks.se (213.50.29.195): version.bind = tssk, well what can i say?
+ 90.248: olofstrom.se NOTICE No answer received from 213.50.29.195 when querying for version.server/CH/TXT.
+ 90.248: olofstrom.se INFO Done testing name server b.dns.songnetworks.se.
+ 90.248: olofstrom.se INFO Begin testing name server ns.olofstrom.se.
+ 90.248: olofstrom.se INFO Begin testing host ns.olofstrom.se.
+ 94.365: olofstrom.se INFO Begin testing address 79.171.251.10.
+ 94.881: olofstrom.se INFO Done testing address 79.171.251.10.
+ 94.882: olofstrom.se INFO Done testing host ns.olofstrom.se.
+102.994: olofstrom.se ERROR Name server ns.olofstrom.se (79.171.251.10) does not answer queries over UDP.
+102.995: olofstrom.se ERROR Name server ns.olofstrom.se (79.171.251.10) does not answer queries over TCP.
+102.995: olofstrom.se INFO Done testing name server ns.olofstrom.se.
+102.995: olofstrom.se INFO Begin testing zone consistency for olofstrom.se.
+107.539: olofstrom.se INFO SOA at address 213.50.29.195 has serial 2014030501.
+111.562: olofstrom.se INFO All SOA records have consistent serial numbers.
+111.562: olofstrom.se INFO All other fields in the SOA record are consistent among all name servers.
+115.863: olofstrom.se NOTICE The listed nameservers for olofstrom.se all report the same set of nameservers.
+115.863: olofstrom.se INFO Done testing zone consistency for olofstrom.se.
+115.864: olofstrom.se INFO Begin testing SOA parameters for olofstrom.se.
+119.896: olofstrom.se INFO Found SOA record for olofstrom.se.
+119.896: olofstrom.se INFO Begin testing host ns.olofstrom.se.
+123.983: olofstrom.se INFO Begin testing address 79.171.251.10.
+124.055: olofstrom.se INFO Done testing address 79.171.251.10.
+124.055: olofstrom.se INFO Done testing host ns.olofstrom.se.
+124.055: olofstrom.se INFO SOA MNAME for olofstrom.se valid (ns.olofstrom.se).
+124.055: olofstrom.se INFO SOA MNAME for olofstrom.se (ns.olofstrom.se) listed as NS.
+128.150: olofstrom.se INFO SOA MNAME for olofstrom.se (ns.olofstrom.se) is authoritative.
+128.150: olofstrom.se INFO Begin testing email address hostmaster@olofstrom.se.
+132.245: olofstrom.se INFO Mail exchangers for hostmaster@olofstrom.se found mail.olofstrom.se,relay.wineasy.se.
+132.245: olofstrom.se INFO Begin testing host mail.olofstrom.se.
+140.445: olofstrom.se INFO Begin testing address 79.171.251.10.
+140.517: olofstrom.se INFO Done testing address 79.171.251.10.
+140.517: olofstrom.se INFO Done testing host mail.olofstrom.se.
+144.635: olofstrom.se INFO Begin testing host relay.wineasy.se.
+144.793: olofstrom.se INFO Begin testing address 195.42.198.23.
+145.975: olofstrom.se INFO Done testing address 195.42.198.23.
+145.975: olofstrom.se INFO Done testing host relay.wineasy.se.
+146.042: olofstrom.se INFO Done testing email address hostmaster@olofstrom.se.
+146.042: olofstrom.se INFO Successful attempt to deliver email for SOA RNAME of olofstrom.se (hostmaster.olofstrom.se) using hostmaster@olofstrom.se.
+146.042: olofstrom.se NOTICE SOA TTL for olofstrom.se too small (1800) - recommended >= 3600.
+146.042: olofstrom.se INFO SOA refresh for olofstrom.se OK (14400) - recommended >= 14400.
+146.042: olofstrom.se INFO SOA retry for olofstrom.se OK (3600) - recommended >= 3600.
+146.042: olofstrom.se INFO SOA expire for olofstrom.se OK (604800) - recommended >= 604800.
+146.042: olofstrom.se INFO SOA minimum for olofstrom.se OK (1800) - recommended between 300 and 86400.
+146.042: olofstrom.se INFO Done testing SOA parameters for olofstrom.se.
+146.043: olofstrom.se INFO Begin testing connectivity for olofstrom.se.
+147.301: olofstrom.se NOTICE Zone announced by fewer than two IPv4 ASN.
+147.302: olofstrom.se NOTICE Zone announced by fewer than two IPv6 ASN.
+147.302: olofstrom.se INFO Done testing connectivity for olofstrom.se.
+147.302: olofstrom.se INFO Begin testing DNSSEC for olofstrom.se.
+147.319: olofstrom.se INFO Found DS record for olofstrom.se at parent.
+149.331: olofstrom.se NOTICE DNS lookup error (connection failed).
+149.345: olofstrom.se INFO Nameserver 213.50.29.195 does DNSSEC extra processing.
+149.358: olofstrom.se INFO Nameserver 213.50.29.190 does DNSSEC extra processing.
+149.358: olofstrom.se INFO Servers for olofstrom.se have consistent extra processing status.
+151.383: olofstrom.se INFO Authenticated denial records found for olofstrom.se, of type NSEC.
+155.418: olofstrom.se INFO Found DNSKEY record for olofstrom.se at child.
+155.418: olofstrom.se INFO Consistent security for olofstrom.se.
+155.418: olofstrom.se INFO Checking DNSSEC at child (olofstrom.se).
+155.418: olofstrom.se INFO olofstrom.se's key with tag 6499 uses algorithm number 5 (RSA/SHA-1).
+155.418: olofstrom.se INFO Algorithm number 5 is OK.
+155.418: olofstrom.se INFO DNSKEY olofstrom.se (tag 6499) is marked as a secure entry point (SEP).
+155.419: olofstrom.se INFO olofstrom.se's key with tag 49005 uses algorithm number 5 (RSA/SHA-1).
+155.419: olofstrom.se INFO Algorithm number 5 is OK.
+155.419: olofstrom.se INFO DNSSEC signature expires at: Fri Apr  4 06:59:31 2014
+155.419: olofstrom.se INFO Duration for RRSIG(olofstrom.se/IN/DNSKEY/6499) is OK (2592000 seconds).
+155.421: olofstrom.se INFO DNSSEC signature RRSIG(olofstrom.se/IN/DNSKEY/6499) matches records.
+155.421: olofstrom.se INFO DNSSEC signature valid: RRSIG(olofstrom.se/IN/DNSKEY/6499)
+155.421: olofstrom.se INFO DNSSEC signature expires at: Fri Apr  4 06:59:31 2014
+155.421: olofstrom.se INFO Duration for RRSIG(olofstrom.se/IN/DNSKEY/49005) is OK (2592000 seconds).
+155.422: olofstrom.se INFO DNSSEC signature RRSIG(olofstrom.se/IN/DNSKEY/49005) matches records.
+155.422: olofstrom.se INFO DNSSEC signature valid: RRSIG(olofstrom.se/IN/DNSKEY/49005)
+155.422: olofstrom.se INFO Enough valid signatures found for olofstrom.se.
+157.448: olofstrom.se INFO DNSSEC signature expires at: Fri Apr  4 07:00:02 2014
+157.448: olofstrom.se INFO Duration for RRSIG(olofstrom.se/IN/SOA/49005) is OK (2592000 seconds).
+157.449: olofstrom.se INFO DNSSEC signature RRSIG(olofstrom.se/IN/SOA/49005) matches records.
+157.449: olofstrom.se INFO DNSSEC signature valid: RRSIG(olofstrom.se/IN/SOA/49005)
+157.449: olofstrom.se INFO Enough valid signatures over SOA RRset found for olofstrom.se.
+157.449: olofstrom.se INFO DNSSEC child checks for olofstrom.se complete.
+157.450: olofstrom.se INFO Checking DNSSEC at parent of olofstrom.se.
+157.450: olofstrom.se INFO olofstrom.se's key with tag 6499 uses algorithm number 5 (RSA/SHA-1).
+157.450: olofstrom.se INFO Algorithm number 5 is OK.
+157.451: olofstrom.se INFO Parent DS(olofstrom.se/5/1/6499) refers to valid key at child: DNSKEY(olofstrom.se/5/6499)
+157.451: olofstrom.se INFO Parent DS(olofstrom.se) refers to secure entry point (SEP) at child: DS(olofstrom.se/5/1/6499)
+157.451: olofstrom.se INFO olofstrom.se's key with tag 6499 uses algorithm number 5 (RSA/SHA-1).
+157.451: olofstrom.se INFO Algorithm number 5 is OK.
+157.451: olofstrom.se INFO Parent DS(olofstrom.se/5/2/6499) refers to valid key at child: DNSKEY(olofstrom.se/5/6499)
+157.451: olofstrom.se INFO Parent DS(olofstrom.se) refers to secure entry point (SEP) at child: DS(olofstrom.se/5/2/6499)
+157.452: olofstrom.se INFO DNSSEC parent checks for olofstrom.se complete.
+157.452: olofstrom.se INFO Done testing DNSSEC for olofstrom.se.
+157.452: olofstrom.se INFO Test completed for zone olofstrom.se.

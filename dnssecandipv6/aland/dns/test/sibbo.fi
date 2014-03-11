@@ -1,0 +1,94 @@
+  0.000: sibbo.fi INFO Begin testing zone sibbo.fi with version 1.5.0.
+  1.981: sibbo.fi INFO Begin testing delegation for sibbo.fi.
+ 48.502: sibbo.fi INFO Name servers listed at parent: ns1.sipoo.fi,ns2.sipoo.fi
+ 66.098: sibbo.fi INFO Name servers listed at child: ns1.sipoo.fi,ns2.sipoo.fi
+ 66.098: sibbo.fi NOTICE No IPv6 name servers found.
+ 66.571: sibbo.fi INFO Parent glue for sibbo.fi found: ns1.sipoo.fi (212.213.107.10)
+ 67.546: sibbo.fi INFO Parent glue for sibbo.fi found: ns2.sipoo.fi (212.213.107.207)
+ 67.997: sibbo.fi INFO Checking glue for ns1.sipoo.fi (212.213.107.10).
+ 67.997: sibbo.fi INFO Checking glue for ns2.sipoo.fi (212.213.107.207).
+ 68.258: sibbo.fi INFO Parent glue for sibbo.fi found: ns1.sipoo.fi (212.213.107.10)
+ 68.258: sibbo.fi INFO Parent glue for sibbo.fi found: ns2.sipoo.fi (212.213.107.207)
+ 75.563: sibbo.fi INFO It is possible to build a referral packet for sibbo.fi that works without EDNS0.
+ 81.020: sibbo.fi INFO Previously used name servers for sibbo.fi: 
+ 81.020: sibbo.fi INFO Done testing delegation for sibbo.fi.
+ 81.152: sibbo.fi INFO Begin testing name server ns1.sipoo.fi.
+ 81.528: sibbo.fi INFO Begin testing host ns1.sipoo.fi.
+ 84.011: sibbo.fi INFO Begin testing address 212.213.107.10.
+168.418: sibbo.fi INFO Done testing address 212.213.107.10.
+168.418: sibbo.fi INFO Done testing host ns1.sipoo.fi.
+171.882: sibbo.fi INFO Name server ns1.sipoo.fi (212.213.107.10) answers queries over UDP.
+172.290: sibbo.fi INFO Name server ns1.sipoo.fi (212.213.107.10) answers queries over TCP.
+172.787: sibbo.fi INFO Name server ns1.sipoo.fi (212.213.107.10) is not recursive.
+174.146: sibbo.fi INFO Name server ns1.sipoo.fi (212.213.107.10) authoritative for sibbo.fi.
+174.553: sibbo.fi INFO Name server ns1.sipoo.fi (212.213.107.10) closed for zone transfer of sibbo.fi.
+174.890: sibbo.fi NOTICE No answer received from 212.213.107.10 when querying for hostname.bind/CH/TXT.
+175.377: sibbo.fi NOTICE No answer received from 212.213.107.10 when querying for version.bind/CH/TXT.
+175.682: sibbo.fi NOTICE No answer received from 212.213.107.10 when querying for id.server/CH/TXT.
+176.046: sibbo.fi NOTICE No answer received from 212.213.107.10 when querying for version.server/CH/TXT.
+176.133: sibbo.fi INFO Done testing name server ns1.sipoo.fi.
+176.133: sibbo.fi INFO Begin testing name server ns2.sipoo.fi.
+176.134: sibbo.fi INFO Begin testing host ns2.sipoo.fi.
+178.758: sibbo.fi INFO Begin testing address 212.213.107.207.
+192.921: sibbo.fi INFO Done testing address 212.213.107.207.
+192.921: sibbo.fi INFO Done testing host ns2.sipoo.fi.
+195.729: sibbo.fi INFO Name server ns2.sipoo.fi (212.213.107.207) answers queries over UDP.
+196.216: sibbo.fi INFO Name server ns2.sipoo.fi (212.213.107.207) answers queries over TCP.
+196.518: sibbo.fi INFO Name server ns2.sipoo.fi (212.213.107.207) is not recursive.
+197.440: sibbo.fi INFO Name server ns2.sipoo.fi (212.213.107.207) authoritative for sibbo.fi.
+197.885: sibbo.fi INFO Name server ns2.sipoo.fi (212.213.107.207) closed for zone transfer of sibbo.fi.
+198.100: sibbo.fi NOTICE No answer received from 212.213.107.207 when querying for hostname.bind/CH/TXT.
+198.490: sibbo.fi NOTICE No answer received from 212.213.107.207 when querying for version.bind/CH/TXT.
+198.746: sibbo.fi NOTICE No answer received from 212.213.107.207 when querying for id.server/CH/TXT.
+199.022: sibbo.fi NOTICE No answer received from 212.213.107.207 when querying for version.server/CH/TXT.
+199.022: sibbo.fi INFO Done testing name server ns2.sipoo.fi.
+199.022: sibbo.fi INFO Begin testing zone consistency for sibbo.fi.
+211.986: sibbo.fi INFO SOA at address 212.213.107.10 has serial 2013062701.
+212.314: sibbo.fi INFO SOA at address 212.213.107.207 has serial 2013062701.
+212.314: sibbo.fi INFO All SOA records have consistent serial numbers.
+212.314: sibbo.fi INFO All other fields in the SOA record are consistent among all name servers.
+217.990: sibbo.fi NOTICE The listed nameservers for sibbo.fi all report the same set of nameservers.
+217.990: sibbo.fi INFO Done testing zone consistency for sibbo.fi.
+217.990: sibbo.fi INFO Begin testing SOA parameters for sibbo.fi.
+218.465: sibbo.fi INFO Found SOA record for sibbo.fi.
+218.465: sibbo.fi INFO Begin testing host ns1.sipoo.fi.
+220.778: sibbo.fi INFO Begin testing address 212.213.107.10.
+222.994: sibbo.fi INFO Done testing address 212.213.107.10.
+222.994: sibbo.fi INFO Done testing host ns1.sipoo.fi.
+222.994: sibbo.fi INFO SOA MNAME for sibbo.fi valid (ns1.sipoo.fi).
+222.994: sibbo.fi INFO SOA MNAME for sibbo.fi (ns1.sipoo.fi) listed as NS.
+225.729: sibbo.fi INFO SOA MNAME for sibbo.fi (ns1.sipoo.fi) is authoritative.
+225.729: sibbo.fi INFO Begin testing email address hostmaster@sipoo.fi.
+227.763: sibbo.fi INFO Mail exchangers for hostmaster@sipoo.fi found smtp1.sipoo.fi,smtp2.sipoo.fi,ns2.sipoo.fi.
+227.764: sibbo.fi INFO Begin testing host smtp1.sipoo.fi.
+231.848: sibbo.fi INFO Begin testing address 212.213.107.20.
+236.482: sibbo.fi INFO Done testing address 212.213.107.20.
+236.482: sibbo.fi INFO Done testing host smtp1.sipoo.fi.
+238.412: sibbo.fi INFO Begin testing host smtp2.sipoo.fi.
+243.438: sibbo.fi INFO Begin testing address 212.213.107.21.
+250.338: sibbo.fi INFO Done testing address 212.213.107.21.
+250.338: sibbo.fi INFO Done testing host smtp2.sipoo.fi.
+253.174: sibbo.fi INFO Begin testing host ns2.sipoo.fi.
+255.898: sibbo.fi INFO Begin testing address 212.213.107.207.
+258.646: sibbo.fi INFO Done testing address 212.213.107.207.
+258.646: sibbo.fi INFO Done testing host ns2.sipoo.fi.
+261.394: sibbo.fi INFO Done testing email address hostmaster@sipoo.fi.
+261.394: sibbo.fi INFO Successful attempt to deliver email for SOA RNAME of sibbo.fi (hostmaster.sipoo.fi) using hostmaster@sipoo.fi.
+261.394: sibbo.fi INFO SOA TTL for sibbo.fi OK (43200) - recommended >= 3600.
+261.394: sibbo.fi NOTICE SOA refresh for sibbo.fi too small (7200) - recommended >= 14400.
+261.394: sibbo.fi INFO SOA retry for sibbo.fi OK (3600) - recommended >= 3600.
+261.395: sibbo.fi INFO SOA expire for sibbo.fi OK (2419200) - recommended >= 604800.
+261.395: sibbo.fi INFO SOA minimum for sibbo.fi OK (86400) - recommended between 300 and 86400.
+261.395: sibbo.fi INFO Done testing SOA parameters for sibbo.fi.
+261.395: sibbo.fi INFO Begin testing connectivity for sibbo.fi.
+268.083: sibbo.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+268.565: sibbo.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+268.565: sibbo.fi INFO Done testing connectivity for sibbo.fi.
+268.565: sibbo.fi INFO Begin testing DNSSEC for sibbo.fi.
+269.294: sibbo.fi INFO Did not find DS record for sibbo.fi at parent.
+270.371: sibbo.fi INFO Servers for sibbo.fi have consistent extra processing status.
+270.821: sibbo.fi INFO Authenticated denial records not found for sibbo.fi.
+271.194: sibbo.fi INFO Did not find DNSKEY record for sibbo.fi at child.
+271.194: sibbo.fi INFO No DNSKEY(s) found at child, other tests skipped.
+271.194: sibbo.fi INFO Done testing DNSSEC for sibbo.fi.
+271.195: sibbo.fi INFO Test completed for zone sibbo.fi.

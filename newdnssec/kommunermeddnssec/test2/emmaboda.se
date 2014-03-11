@@ -1,0 +1,84 @@
+  0.000: emmaboda.se INFO Begin testing zone emmaboda.se with version 1.2.
+  0.000: emmaboda.se INFO Begin testing delegation for emmaboda.se.
+  9.922: emmaboda.se INFO Name servers listed at parent: dns3.telia.com,dns4.telia.com
+ 11.388: emmaboda.se INFO Name servers listed at child: dns3.telia.com,dns4.telia.com
+ 11.389: emmaboda.se NOTICE No IPv6 name servers found.
+ 11.556: emmaboda.se INFO Done testing delegation for emmaboda.se.
+ 11.556: emmaboda.se INFO Begin testing name server dns3.telia.com.
+ 11.556: emmaboda.se INFO Begin testing host dns3.telia.com.
+ 11.557: emmaboda.se INFO Begin testing address 81.228.11.184.
+ 25.909: emmaboda.se INFO Done testing address 81.228.11.184.
+ 25.909: emmaboda.se INFO Done testing host dns3.telia.com.
+ 25.918: emmaboda.se INFO Name server dns3.telia.com (81.228.11.184) answers queries over UDP.
+ 25.931: emmaboda.se INFO Name server dns3.telia.com (81.228.11.184) answers queries over TCP.
+ 25.938: emmaboda.se INFO Name server dns3.telia.com (81.228.11.184) is not recursive.
+ 25.945: emmaboda.se INFO Name server dns3.telia.com (81.228.11.184) authoritative for emmaboda.se.
+ 25.959: emmaboda.se INFO Name server dns3.telia.com (81.228.11.184) closed for zone transfer of emmaboda.se.
+ 25.969: emmaboda.se INFO Legacy name server ID for dns3.telia.com (81.228.11.184): hostname.bind = dnshosting2-sn1.fre.skanova.net
+ 25.976: emmaboda.se INFO Legacy name server ID for dns3.telia.com (81.228.11.184): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 25.995: emmaboda.se NOTICE No answer received from 81.228.11.184 when querying for version.server/CH/TXT.
+ 25.996: emmaboda.se INFO Done testing name server dns3.telia.com.
+ 25.996: emmaboda.se INFO Begin testing name server dns4.telia.com.
+ 25.996: emmaboda.se INFO Begin testing host dns4.telia.com.
+ 25.996: emmaboda.se INFO Begin testing address 81.228.9.98.
+ 26.949: emmaboda.se INFO Done testing address 81.228.9.98.
+ 26.949: emmaboda.se INFO Done testing host dns4.telia.com.
+ 26.963: emmaboda.se INFO Name server dns4.telia.com (81.228.9.98) answers queries over UDP.
+ 26.986: emmaboda.se INFO Name server dns4.telia.com (81.228.9.98) answers queries over TCP.
+ 27.000: emmaboda.se INFO Name server dns4.telia.com (81.228.9.98) is not recursive.
+ 27.013: emmaboda.se INFO Name server dns4.telia.com (81.228.9.98) authoritative for emmaboda.se.
+ 27.047: emmaboda.se INFO Name server dns4.telia.com (81.228.9.98) closed for zone transfer of emmaboda.se.
+ 27.060: emmaboda.se INFO Legacy name server ID for dns4.telia.com (81.228.9.98): hostname.bind = dnshosting1-sn3.vrr.skanova.net
+ 27.074: emmaboda.se INFO Legacy name server ID for dns4.telia.com (81.228.9.98): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 27.099: emmaboda.se NOTICE No answer received from 81.228.9.98 when querying for version.server/CH/TXT.
+ 27.099: emmaboda.se INFO Done testing name server dns4.telia.com.
+ 27.099: emmaboda.se INFO Begin testing zone consistency for emmaboda.se.
+ 27.116: emmaboda.se INFO SOA at address 81.228.9.98 has serial 2010110300.
+ 27.123: emmaboda.se INFO SOA at address 81.228.11.184 has serial 2010110300.
+ 27.123: emmaboda.se INFO All SOA records have consistent serial numbers.
+ 27.123: emmaboda.se INFO All SOA records are consistent among all name servers.
+ 27.123: emmaboda.se INFO Done testing zone consistency for emmaboda.se.
+ 27.123: emmaboda.se INFO Begin testing SOA parameters for emmaboda.se.
+ 27.136: emmaboda.se INFO Found SOA record for emmaboda.se.
+ 27.136: emmaboda.se INFO Begin testing host dns3.telia.com.
+ 27.137: emmaboda.se INFO Begin testing address 81.228.11.184.
+ 27.139: emmaboda.se INFO Done testing address 81.228.11.184.
+ 27.139: emmaboda.se INFO Done testing host dns3.telia.com.
+ 27.139: emmaboda.se INFO SOA MNAME for emmaboda.se valid (dns3.telia.com).
+ 27.140: emmaboda.se INFO SOA MNAME for emmaboda.se (dns3.telia.com) listed as NS.
+ 27.147: emmaboda.se INFO SOA MNAME for emmaboda.se (dns3.telia.com) is authoritative.
+ 27.147: emmaboda.se INFO Begin testing email address dns@telia.net.
+ 27.635: emmaboda.se INFO Mail exchangers for dns@telia.net found mail.telia.net.
+ 27.636: emmaboda.se INFO Begin testing host mail.telia.net.
+ 28.813: emmaboda.se INFO Begin testing address 194.237.170.102.
+ 30.387: emmaboda.se INFO Done testing address 194.237.170.102.
+ 30.387: emmaboda.se INFO Done testing host mail.telia.net.
+ 30.388: emmaboda.se INFO Begin testing mail server mail.telia.net (194.237.170.102) with dns@telia.net.
+ 30.420: emmaboda.se INFO SMTP banner: avserver.telia.net ESMTP Postfix
+ 30.454: emmaboda.se INFO SMTP testing of mail.telia.net (194.237.170.102) with dns@telia.net succeeded without errors.
+ 30.455: emmaboda.se INFO Done testing mail server mail.telia.net (194.237.170.102) with dns@telia.net.
+ 30.455: emmaboda.se INFO Delivery over IPv4 to dns@telia.net ok.
+ 30.455: emmaboda.se INFO Delivery over IPv6 to dns@telia.net could not be done.
+ 30.455: emmaboda.se INFO Done testing email address dns@telia.net.
+ 30.455: emmaboda.se INFO Successful attempt to deliver email for SOA RNAME of emmaboda.se (dns.telia.net) using dns@telia.net.
+ 30.455: emmaboda.se INFO SOA TTL for emmaboda.se OK (86400) - recommended >= 3600.
+ 30.455: emmaboda.se NOTICE SOA refresh for emmaboda.se too small (10800) - recommended >= 14400.
+ 30.455: emmaboda.se INFO SOA retry for emmaboda.se OK (3600) - recommended >= 3600.
+ 30.456: emmaboda.se INFO SOA expire for emmaboda.se OK (604800) - recommended >= 604800.
+ 30.456: emmaboda.se INFO SOA minimum for emmaboda.se OK (86400) - recommended between 300 and 86400.
+ 30.456: emmaboda.se INFO Done testing SOA parameters for emmaboda.se.
+ 30.456: emmaboda.se INFO Begin testing connectivity for emmaboda.se.
+ 30.993: emmaboda.se INFO Name server 81.228.9.98 announced by: 3301
+ 31.523: emmaboda.se INFO Name server 81.228.11.184 announced by: 3301
+ 31.523: emmaboda.se INFO Zone announced by IPv4 ASN: 3301
+ 31.523: emmaboda.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 31.523: emmaboda.se INFO Zone announced by IPv6 ASN: 
+ 31.523: emmaboda.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 31.523: emmaboda.se INFO Done testing connectivity for emmaboda.se.
+ 31.523: emmaboda.se INFO Begin testing DNSSEC for emmaboda.se.
+ 31.599: emmaboda.se INFO Did not find DS record for emmaboda.se at parent.
+ 31.636: emmaboda.se INFO Servers for emmaboda.se have consistent extra processing status.
+ 31.636: emmaboda.se INFO Did not find DNSKEY record for emmaboda.se at child.
+ 31.636: emmaboda.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 31.636: emmaboda.se INFO Done testing DNSSEC for emmaboda.se.
+ 31.636: emmaboda.se INFO Test completed for zone emmaboda.se.

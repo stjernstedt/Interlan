@@ -1,0 +1,89 @@
+  0.000: sandefjord.kommune.no INFO Begin testing zone sandefjord.kommune.no with version 1.6.1.
+  0.342: sandefjord.kommune.no INFO Begin testing delegation for sandefjord.kommune.no.
+  9.792: sandefjord.kommune.no INFO Name servers listed at parent: bibsyst.bibsyst.no,mail.sandefjord.kommune.no
+ 11.177: sandefjord.kommune.no INFO Name servers listed at child: bibsyst.bibsyst.no,mail.sandefjord.kommune.no
+ 11.213: sandefjord.kommune.no NOTICE No IPv6 name servers found.
+ 11.354: sandefjord.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.477: sandefjord.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.538: sandefjord.kommune.no INFO Parent glue for sandefjord.kommune.no found: mail.sandefjord.kommune.no (84.234.179.98)
+ 11.576: sandefjord.kommune.no INFO Checking glue for mail.sandefjord.kommune.no (84.234.179.98).
+ 11.654: sandefjord.kommune.no INFO Child glue for sandefjord.kommune.no found: mail.sandefjord.kommune.no (84.234.179.98)
+ 11.655: sandefjord.kommune.no INFO Parent glue for sandefjord.kommune.no found: mail.sandefjord.kommune.no (84.234.179.98)
+ 12.376: sandefjord.kommune.no INFO It is possible to build a referral packet for sandefjord.kommune.no that works without EDNS0.
+ 12.666: sandefjord.kommune.no INFO Previously used name servers for sandefjord.kommune.no: 
+ 12.666: sandefjord.kommune.no INFO Done testing delegation for sandefjord.kommune.no.
+ 12.667: sandefjord.kommune.no INFO Begin testing name server bibsyst.bibsyst.no.
+ 12.667: sandefjord.kommune.no INFO Begin testing host bibsyst.bibsyst.no.
+ 12.986: sandefjord.kommune.no INFO Begin testing address 193.90.32.70.
+ 16.558: sandefjord.kommune.no INFO Done testing address 193.90.32.70.
+ 16.558: sandefjord.kommune.no INFO Done testing host bibsyst.bibsyst.no.
+ 16.686: sandefjord.kommune.no NOTICE No answer received from 193.90.32.70 when querying for sandefjord.kommune.no/IN/SOA.
+ 16.686: sandefjord.kommune.no INFO Name server bibsyst.bibsyst.no (193.90.32.70) answers queries over UDP.
+ 16.718: sandefjord.kommune.no NOTICE No answer received from 193.90.32.70 when querying for sandefjord.kommune.no/IN/SOA.
+ 16.718: sandefjord.kommune.no INFO Name server bibsyst.bibsyst.no (193.90.32.70) answers queries over TCP.
+ 16.734: sandefjord.kommune.no INFO Name server bibsyst.bibsyst.no (193.90.32.70) is not recursive.
+ 16.751: sandefjord.kommune.no NOTICE No answer received from 193.90.32.70 when querying for sandefjord.kommune.no/SOA/IN.
+ 16.768: sandefjord.kommune.no NOTICE No answer received from 193.90.32.70 when querying for sandefjord.kommune.no/IN/SOA.
+ 16.768: sandefjord.kommune.no WARNING Nameserver at 193.90.32.70 is not authoritative over UDP.
+ 16.768: sandefjord.kommune.no ERROR Name server bibsyst.bibsyst.no (193.90.32.70) not authoritative for sandefjord.kommune.no.
+ 16.768: sandefjord.kommune.no INFO Done testing name server bibsyst.bibsyst.no.
+ 16.768: sandefjord.kommune.no INFO Begin testing name server mail.sandefjord.kommune.no.
+ 16.768: sandefjord.kommune.no INFO Begin testing host mail.sandefjord.kommune.no.
+ 16.769: sandefjord.kommune.no INFO Begin testing address 84.234.179.98.
+ 17.690: sandefjord.kommune.no INFO Done testing address 84.234.179.98.
+ 17.690: sandefjord.kommune.no INFO Done testing host mail.sandefjord.kommune.no.
+ 17.723: sandefjord.kommune.no INFO Name server mail.sandefjord.kommune.no (84.234.179.98) answers queries over UDP.
+ 17.794: sandefjord.kommune.no INFO Name server mail.sandefjord.kommune.no (84.234.179.98) answers queries over TCP.
+ 17.814: sandefjord.kommune.no INFO Name server mail.sandefjord.kommune.no (84.234.179.98) is not recursive.
+ 17.932: sandefjord.kommune.no INFO Name server mail.sandefjord.kommune.no (84.234.179.98) authoritative for sandefjord.kommune.no.
+ 18.004: sandefjord.kommune.no INFO Name server mail.sandefjord.kommune.no (84.234.179.98) closed for zone transfer of sandefjord.kommune.no.
+ 18.047: sandefjord.kommune.no INFO Legacy name server ID for mail.sandefjord.kommune.no (84.234.179.98): hostname.bind = mail.sandefjord.kommune.no
+ 18.085: sandefjord.kommune.no INFO Legacy name server ID for mail.sandefjord.kommune.no (84.234.179.98): version.bind = Best ever!
+ 18.130: sandefjord.kommune.no NOTICE No answer received from 84.234.179.98 when querying for version.server/CH/TXT.
+ 18.130: sandefjord.kommune.no INFO Done testing name server mail.sandefjord.kommune.no.
+ 18.130: sandefjord.kommune.no INFO Begin testing zone consistency for sandefjord.kommune.no.
+ 18.434: sandefjord.kommune.no NOTICE No answer received from 193.90.32.70 when querying for sandefjord.kommune.no/IN/SOA.
+ 18.450: sandefjord.kommune.no INFO SOA at address 84.234.179.98 has serial 2008081949.
+ 18.450: sandefjord.kommune.no INFO All SOA records have consistent serial numbers.
+ 18.450: sandefjord.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 18.658: sandefjord.kommune.no NOTICE No answer received from 193.90.32.70 when querying for sandefjord.kommune.no/IN/NS.
+ 18.682: sandefjord.kommune.no NOTICE The listed nameservers for sandefjord.kommune.no does not all report the same set of nameservers.
+ 18.683: sandefjord.kommune.no INFO Done testing zone consistency for sandefjord.kommune.no.
+ 18.683: sandefjord.kommune.no INFO Begin testing SOA parameters for sandefjord.kommune.no.
+ 18.718: sandefjord.kommune.no INFO Found SOA record for sandefjord.kommune.no.
+ 18.718: sandefjord.kommune.no INFO Begin testing host mail.sandefjord.kommune.no.
+ 18.719: sandefjord.kommune.no INFO Begin testing address 84.234.179.98.
+ 18.720: sandefjord.kommune.no INFO Done testing address 84.234.179.98.
+ 18.720: sandefjord.kommune.no INFO Done testing host mail.sandefjord.kommune.no.
+ 18.720: sandefjord.kommune.no INFO SOA MNAME for sandefjord.kommune.no valid (mail.sandefjord.kommune.no).
+ 18.720: sandefjord.kommune.no INFO SOA MNAME for sandefjord.kommune.no (mail.sandefjord.kommune.no) listed as NS.
+ 18.750: sandefjord.kommune.no INFO SOA MNAME for sandefjord.kommune.no (mail.sandefjord.kommune.no) is authoritative.
+ 18.750: sandefjord.kommune.no INFO Begin testing email address postmaster@sandefjord.kommune.no.
+ 18.987: sandefjord.kommune.no INFO Mail exchangers for postmaster@sandefjord.kommune.no found mail.sandefjord.kommune.no.
+ 18.987: sandefjord.kommune.no INFO All mail servers for postmaster@sandefjord.kommune.no are in zone sandefjord.kommune.no.
+ 18.987: sandefjord.kommune.no INFO Begin testing host mail.sandefjord.kommune.no.
+ 18.988: sandefjord.kommune.no INFO Begin testing address 84.234.179.98.
+ 19.007: sandefjord.kommune.no INFO Done testing address 84.234.179.98.
+ 19.007: sandefjord.kommune.no INFO Done testing host mail.sandefjord.kommune.no.
+ 19.008: sandefjord.kommune.no INFO Done testing email address postmaster@sandefjord.kommune.no.
+ 19.008: sandefjord.kommune.no INFO Successful attempt to deliver email for SOA RNAME of sandefjord.kommune.no (postmaster.sandefjord.kommune.no) using postmaster@sandefjord.kommune.no.
+ 19.008: sandefjord.kommune.no NOTICE SOA TTL for sandefjord.kommune.no too small (600) - recommended >= 3600.
+ 19.008: sandefjord.kommune.no NOTICE SOA refresh for sandefjord.kommune.no too small (3600) - recommended >= 14400.
+ 19.008: sandefjord.kommune.no NOTICE SOA refresh for sandefjord.kommune.no lower than retry (3600 vs 3600).
+ 19.008: sandefjord.kommune.no INFO SOA retry for sandefjord.kommune.no OK (3600) - recommended >= 3600.
+ 19.008: sandefjord.kommune.no INFO SOA expire for sandefjord.kommune.no OK (2419200) - recommended >= 604800.
+ 19.008: sandefjord.kommune.no NOTICE SOA minimum for sandefjord.kommune.no too large (604800) - recommended <= 86400.
+ 19.009: sandefjord.kommune.no INFO Done testing SOA parameters for sandefjord.kommune.no.
+ 19.009: sandefjord.kommune.no INFO Begin testing connectivity for sandefjord.kommune.no.
+ 20.043: sandefjord.kommune.no INFO Zone announced by more than one ASN.
+ 20.043: sandefjord.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 20.044: sandefjord.kommune.no INFO Done testing connectivity for sandefjord.kommune.no.
+ 20.044: sandefjord.kommune.no INFO Begin testing DNSSEC for sandefjord.kommune.no.
+ 20.174: sandefjord.kommune.no INFO Did not find DS record for sandefjord.kommune.no at parent.
+ 20.203: sandefjord.kommune.no NOTICE No answer received from 193.90.32.70 when querying for sandefjord.kommune.no/IN/DNSKEY.
+ 20.234: sandefjord.kommune.no INFO Servers for sandefjord.kommune.no have consistent extra processing status.
+ 20.311: sandefjord.kommune.no INFO Authenticated denial records not found for sandefjord.kommune.no.
+ 20.346: sandefjord.kommune.no INFO Did not find DNSKEY record for sandefjord.kommune.no at child.
+ 20.346: sandefjord.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 20.346: sandefjord.kommune.no INFO Done testing DNSSEC for sandefjord.kommune.no.
+ 20.347: sandefjord.kommune.no INFO Test completed for zone sandefjord.kommune.no.

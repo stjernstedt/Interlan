@@ -1,0 +1,93 @@
+  0.000: sodertalje.se INFO Begin testing zone sodertalje.se with version 1.2.
+  0.000: sodertalje.se INFO Begin testing delegation for sodertalje.se.
+  5.780: sodertalje.se INFO Name servers listed at parent: dns1.telia.com,nic.sodertalje.se
+  7.009: sodertalje.se INFO Name servers listed at child: dns1.telia.com,nic.sodertalje.se
+  7.009: sodertalje.se NOTICE No IPv6 name servers found.
+  7.042: sodertalje.se INFO Parent glue for sodertalje.se found: nic.sodertalje.se (193.181.22.20)
+  7.080: sodertalje.se INFO Checking glue for nic.sodertalje.se (193.181.22.20).
+  7.087: sodertalje.se INFO Child glue for sodertalje.se found: nic.sodertalje.se (193.181.22.20)
+  7.088: sodertalje.se INFO Parent glue for sodertalje.se found: nic.sodertalje.se (193.181.22.20)
+  7.088: sodertalje.se INFO Done testing delegation for sodertalje.se.
+  7.089: sodertalje.se INFO Begin testing name server dns1.telia.com.
+  7.089: sodertalje.se INFO Begin testing host dns1.telia.com.
+  7.089: sodertalje.se INFO Begin testing address 81.228.11.67.
+ 11.580: sodertalje.se INFO Done testing address 81.228.11.67.
+ 11.580: sodertalje.se INFO Done testing host dns1.telia.com.
+ 11.588: sodertalje.se INFO Name server dns1.telia.com (81.228.11.67) answers queries over UDP.
+ 11.600: sodertalje.se INFO Name server dns1.telia.com (81.228.11.67) answers queries over TCP.
+ 11.609: sodertalje.se INFO Name server dns1.telia.com (81.228.11.67) is not recursive.
+ 11.616: sodertalje.se INFO Name server dns1.telia.com (81.228.11.67) authoritative for sodertalje.se.
+ 11.632: sodertalje.se INFO Name server dns1.telia.com (81.228.11.67) closed for zone transfer of sodertalje.se.
+ 11.641: sodertalje.se INFO Legacy name server ID for dns1.telia.com (81.228.11.67): hostname.bind = dnshosting3-sn1.fre.skanova.net
+ 11.648: sodertalje.se INFO Legacy name server ID for dns1.telia.com (81.228.11.67): version.bind = 9.3.2-P1
+ 11.661: sodertalje.se NOTICE No answer received from 81.228.11.67 when querying for version.server/CH/TXT.
+ 11.661: sodertalje.se INFO Done testing name server dns1.telia.com.
+ 11.661: sodertalje.se INFO Begin testing name server nic.sodertalje.se.
+ 11.662: sodertalje.se INFO Begin testing host nic.sodertalje.se.
+ 11.662: sodertalje.se INFO Begin testing address 193.181.22.20.
+ 12.766: sodertalje.se INFO Done testing address 193.181.22.20.
+ 12.766: sodertalje.se INFO Done testing host nic.sodertalje.se.
+ 12.775: sodertalje.se INFO Name server nic.sodertalje.se (193.181.22.20) answers queries over UDP.
+ 12.788: sodertalje.se INFO Name server nic.sodertalje.se (193.181.22.20) answers queries over TCP.
+ 12.801: sodertalje.se INFO Name server nic.sodertalje.se (193.181.22.20) is not recursive.
+ 12.809: sodertalje.se INFO Name server nic.sodertalje.se (193.181.22.20) authoritative for sodertalje.se.
+ 12.825: sodertalje.se INFO Name server nic.sodertalje.se (193.181.22.20) closed for zone transfer of sodertalje.se.
+ 12.833: sodertalje.se NOTICE No answer received from 193.181.22.20 when querying for hostname.bind/CH/TXT.
+ 12.841: sodertalje.se INFO Legacy name server ID for nic.sodertalje.se (193.181.22.20): version.bind = 9.2.4
+ 12.848: sodertalje.se NOTICE No answer received from 193.181.22.20 when querying for id.server/CH/TXT.
+ 12.855: sodertalje.se NOTICE No answer received from 193.181.22.20 when querying for version.server/CH/TXT.
+ 12.855: sodertalje.se INFO Done testing name server nic.sodertalje.se.
+ 12.856: sodertalje.se INFO Begin testing zone consistency for sodertalje.se.
+ 12.867: sodertalje.se INFO SOA at address 193.181.22.20 has serial 2010120801.
+ 12.874: sodertalje.se INFO SOA at address 81.228.11.67 has serial 2010120801.
+ 12.874: sodertalje.se INFO All SOA records have consistent serial numbers.
+ 12.875: sodertalje.se INFO All SOA records are consistent among all name servers.
+ 12.875: sodertalje.se INFO Done testing zone consistency for sodertalje.se.
+ 12.875: sodertalje.se INFO Begin testing SOA parameters for sodertalje.se.
+ 12.882: sodertalje.se INFO Found SOA record for sodertalje.se.
+ 12.882: sodertalje.se INFO Begin testing host nic.sodertalje.se.
+ 12.883: sodertalje.se INFO Begin testing address 193.181.22.20.
+ 12.884: sodertalje.se INFO Done testing address 193.181.22.20.
+ 12.884: sodertalje.se INFO Done testing host nic.sodertalje.se.
+ 12.884: sodertalje.se INFO SOA MNAME for sodertalje.se valid (nic.sodertalje.se).
+ 12.884: sodertalje.se INFO SOA MNAME for sodertalje.se (nic.sodertalje.se) listed as NS.
+ 12.893: sodertalje.se INFO SOA MNAME for sodertalje.se (nic.sodertalje.se) is authoritative.
+ 12.893: sodertalje.se INFO Begin testing email address postmaster@sodertalje.se.
+ 13.139: sodertalje.se INFO Mail exchangers for postmaster@sodertalje.se found sun2.se.csc.com,sun3.se.csc.com.
+ 13.140: sodertalje.se INFO Begin testing host sun2.se.csc.com.
+ 14.145: sodertalje.se INFO Begin testing address 146.75.247.202.
+ 18.295: sodertalje.se INFO Done testing address 146.75.247.202.
+ 18.295: sodertalje.se INFO Done testing host sun2.se.csc.com.
+ 18.296: sodertalje.se INFO Begin testing mail server sun2.se.csc.com (146.75.247.202) with postmaster@sodertalje.se.
+ 22.375: sodertalje.se INFO SMTP banner: sun2.se.csc.com ESMTP Sendmail; Mon, 13 Dec 2010 21:35:17 +0100
+ 22.460: sodertalje.se INFO SMTP testing of sun2.se.csc.com (146.75.247.202) with postmaster@sodertalje.se succeeded without errors.
+ 22.460: sodertalje.se INFO Done testing mail server sun2.se.csc.com (146.75.247.202) with postmaster@sodertalje.se.
+ 22.461: sodertalje.se INFO Begin testing host sun3.se.csc.com.
+ 23.344: sodertalje.se INFO Begin testing address 146.75.247.199.
+ 23.730: sodertalje.se INFO Done testing address 146.75.247.199.
+ 23.730: sodertalje.se INFO Done testing host sun3.se.csc.com.
+ 23.731: sodertalje.se INFO Delivery over IPv4 to postmaster@sodertalje.se ok.
+ 23.731: sodertalje.se INFO Delivery over IPv6 to postmaster@sodertalje.se could not be done.
+ 23.731: sodertalje.se INFO Done testing email address postmaster@sodertalje.se.
+ 23.731: sodertalje.se INFO Successful attempt to deliver email for SOA RNAME of sodertalje.se (postmaster.sodertalje.se) using postmaster@sodertalje.se.
+ 23.731: sodertalje.se INFO SOA TTL for sodertalje.se OK (86400) - recommended >= 3600.
+ 23.731: sodertalje.se NOTICE SOA refresh for sodertalje.se too small (3600) - recommended >= 14400.
+ 23.731: sodertalje.se NOTICE SOA retry for sodertalje.se too small (600) - recommended >= 3600.
+ 23.732: sodertalje.se NOTICE SOA expire for sodertalje.se too small (86400) - recommended >= 604800.
+ 23.732: sodertalje.se INFO SOA minimum for sodertalje.se OK (3600) - recommended between 300 and 86400.
+ 23.732: sodertalje.se INFO Done testing SOA parameters for sodertalje.se.
+ 23.732: sodertalje.se INFO Begin testing connectivity for sodertalje.se.
+ 24.323: sodertalje.se INFO Name server 81.228.11.67 announced by: 3301
+ 24.918: sodertalje.se INFO Name server 193.181.22.20 announced by: 3301
+ 24.918: sodertalje.se INFO Zone announced by IPv4 ASN: 3301
+ 24.918: sodertalje.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 24.919: sodertalje.se INFO Zone announced by IPv6 ASN: 
+ 24.919: sodertalje.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 24.919: sodertalje.se INFO Done testing connectivity for sodertalje.se.
+ 24.919: sodertalje.se INFO Begin testing DNSSEC for sodertalje.se.
+ 24.933: sodertalje.se INFO Did not find DS record for sodertalje.se at parent.
+ 24.957: sodertalje.se INFO Servers for sodertalje.se have consistent extra processing status.
+ 24.957: sodertalje.se INFO Did not find DNSKEY record for sodertalje.se at child.
+ 24.957: sodertalje.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 24.957: sodertalje.se INFO Done testing DNSSEC for sodertalje.se.
+ 24.957: sodertalje.se INFO Test completed for zone sodertalje.se.

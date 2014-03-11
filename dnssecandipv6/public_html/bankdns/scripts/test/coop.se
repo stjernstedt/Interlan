@@ -1,0 +1,186 @@
+  0.000: coop.se INFO Begin testing zone coop.se with version 1.5.0.
+  0.001: coop.se INFO Begin testing delegation for coop.se.
+  5.905: coop.se INFO Name servers listed at parent: dns01.dipcon.com,dns02.ports.se,dns03.ports.se,dns04.ports.net
+ 10.368: coop.se INFO Name servers listed at child: dns01.dipcon.com,dns02.ports.se,dns03.ports.se,dns04.ports.net
+ 10.368: coop.se NOTICE No IPv6 name servers found.
+ 10.406: coop.se INFO Parent glue for coop.se found: dns02.ports.se (202.56.13.97)
+ 10.429: coop.se INFO Parent glue for coop.se found: dns03.ports.se (84.40.9.168)
+ 10.595: coop.se INFO Checking glue for dns02.ports.se (202.56.13.97).
+ 10.595: coop.se INFO Checking glue for dns03.ports.se (84.40.9.168).
+ 10.597: coop.se INFO Parent glue for coop.se found: dns02.ports.se (202.56.13.97)
+ 10.598: coop.se INFO Parent glue for coop.se found: dns03.ports.se (84.40.9.168)
+ 15.246: coop.se INFO It is possible to build a referral packet for coop.se that works without EDNS0.
+ 15.246: coop.se INFO Done testing delegation for coop.se.
+ 15.247: coop.se INFO Begin testing name server dns01.dipcon.com.
+ 15.248: coop.se INFO Begin testing host dns01.dipcon.com.
+ 15.885: coop.se INFO Begin testing address 193.14.90.50.
+ 29.453: coop.se INFO Done testing address 193.14.90.50.
+ 29.453: coop.se INFO Done testing host dns01.dipcon.com.
+ 30.327: coop.se INFO Name server dns01.dipcon.com (193.14.90.50) answers queries over UDP.
+ 30.355: coop.se INFO Name server dns01.dipcon.com (193.14.90.50) answers queries over TCP.
+ 30.387: coop.se INFO Name server dns01.dipcon.com (193.14.90.50) is not recursive.
+ 30.452: coop.se INFO Name server dns01.dipcon.com (193.14.90.50) authoritative for coop.se.
+ 30.500: coop.se INFO Name server dns01.dipcon.com (193.14.90.50) closed for zone transfer of coop.se.
+ 30.519: coop.se INFO Legacy name server ID for dns01.dipcon.com (193.14.90.50): hostname.bind = <HIDDEN>
+ 36.563: coop.se NOTICE No answer received from 193.14.90.50 when querying for version.server/CH/TXT.
+ 36.563: coop.se INFO Done testing name server dns01.dipcon.com.
+ 36.564: coop.se INFO Begin testing name server dns02.ports.se.
+ 36.564: coop.se INFO Begin testing host dns02.ports.se.
+ 36.892: coop.se INFO Begin testing address 202.56.13.97.
+ 40.845: coop.se INFO Done testing address 202.56.13.97.
+ 40.845: coop.se INFO Done testing host dns02.ports.se.
+ 41.508: coop.se INFO Name server dns02.ports.se (202.56.13.97) answers queries over UDP.
+ 42.161: coop.se INFO Name server dns02.ports.se (202.56.13.97) answers queries over TCP.
+ 42.483: coop.se INFO Name server dns02.ports.se (202.56.13.97) is not recursive.
+ 43.789: coop.se INFO Name server dns02.ports.se (202.56.13.97) authoritative for coop.se.
+ 44.781: coop.se INFO Name server dns02.ports.se (202.56.13.97) closed for zone transfer of coop.se.
+ 45.117: coop.se INFO Legacy name server ID for dns02.ports.se (202.56.13.97): hostname.bind = <HIDDEN>
+ 45.456: coop.se INFO Legacy name server ID for dns02.ports.se (202.56.13.97): version.bind = <HIDDEN>
+ 46.096: coop.se NOTICE No answer received from 202.56.13.97 when querying for version.server/CH/TXT.
+ 46.096: coop.se INFO Done testing name server dns02.ports.se.
+ 46.096: coop.se INFO Begin testing name server dns03.ports.se.
+ 46.096: coop.se INFO Begin testing host dns03.ports.se.
+ 46.651: coop.se INFO Begin testing address 84.40.9.168.
+ 48.756: coop.se INFO Done testing address 84.40.9.168.
+ 48.756: coop.se INFO Done testing host dns03.ports.se.
+ 49.154: coop.se INFO Name server dns03.ports.se (84.40.9.168) answers queries over UDP.
+ 49.247: coop.se INFO Name server dns03.ports.se (84.40.9.168) answers queries over TCP.
+ 49.295: coop.se INFO Name server dns03.ports.se (84.40.9.168) is not recursive.
+ 49.488: coop.se INFO Name server dns03.ports.se (84.40.9.168) authoritative for coop.se.
+ 49.620: coop.se INFO Name server dns03.ports.se (84.40.9.168) closed for zone transfer of coop.se.
+ 49.670: coop.se INFO Legacy name server ID for dns03.ports.se (84.40.9.168): hostname.bind = <HIDDEN>
+ 49.718: coop.se INFO Legacy name server ID for dns03.ports.se (84.40.9.168): version.bind = <HIDDEN>
+ 49.814: coop.se NOTICE No answer received from 84.40.9.168 when querying for version.server/CH/TXT.
+ 49.815: coop.se INFO Done testing name server dns03.ports.se.
+ 49.815: coop.se INFO Begin testing name server dns04.ports.net.
+ 49.815: coop.se INFO Begin testing host dns04.ports.net.
+ 50.395: coop.se INFO Begin testing address 208.69.58.140.
+ 57.962: coop.se INFO Done testing address 208.69.58.140.
+ 57.962: coop.se INFO Done testing host dns04.ports.net.
+ 58.658: coop.se INFO Name server dns04.ports.net (208.69.58.140) answers queries over UDP.
+ 58.897: coop.se INFO Name server dns04.ports.net (208.69.58.140) answers queries over TCP.
+ 59.019: coop.se INFO Name server dns04.ports.net (208.69.58.140) is not recursive.
+ 59.514: coop.se INFO Name server dns04.ports.net (208.69.58.140) authoritative for coop.se.
+ 59.893: coop.se INFO Name server dns04.ports.net (208.69.58.140) closed for zone transfer of coop.se.
+ 60.015: coop.se INFO Legacy name server ID for dns04.ports.net (208.69.58.140): hostname.bind = <HIDDEN>
+ 60.141: coop.se INFO Legacy name server ID for dns04.ports.net (208.69.58.140): version.bind = <HIDDEN>
+ 60.390: coop.se NOTICE No answer received from 208.69.58.140 when querying for version.server/CH/TXT.
+ 60.390: coop.se INFO Done testing name server dns04.ports.net.
+ 60.391: coop.se INFO Begin testing zone consistency for coop.se.
+ 65.190: coop.se INFO SOA at address 202.56.13.97 has serial 2013062733.
+ 65.212: coop.se INFO SOA at address 193.14.90.50 has serial 2013062733.
+ 65.262: coop.se INFO SOA at address 84.40.9.168 has serial 2013062733.
+ 65.385: coop.se INFO SOA at address 208.69.58.140 has serial 2013062733.
+ 65.385: coop.se INFO All SOA records have consistent serial numbers.
+ 65.385: coop.se INFO All other fields in the SOA record are consistent among all name servers.
+ 67.686: coop.se NOTICE The listed nameservers for coop.se all report the same set of nameservers.
+ 67.686: coop.se INFO Done testing zone consistency for coop.se.
+ 67.687: coop.se INFO Begin testing SOA parameters for coop.se.
+ 68.011: coop.se INFO Found SOA record for coop.se.
+ 68.012: coop.se INFO Begin testing host dns01.dipcon.com.
+ 68.590: coop.se INFO Begin testing address 193.14.90.50.
+ 69.321: coop.se INFO Done testing address 193.14.90.50.
+ 69.321: coop.se INFO Done testing host dns01.dipcon.com.
+ 69.321: coop.se INFO SOA MNAME for coop.se valid (dns01.dipcon.com).
+ 69.322: coop.se INFO SOA MNAME for coop.se (dns01.dipcon.com) listed as NS.
+ 70.213: coop.se INFO SOA MNAME for coop.se (dns01.dipcon.com) is authoritative.
+ 70.217: coop.se INFO Begin testing email address registry@ports.net.
+ 70.778: coop.se INFO Mail exchangers for registry@ports.net found mx12a.antispameurope.com,mx12b.antispameurope.com,mx12c.antispameurope.com,mx12d.antispameurope.com.
+ 70.778: coop.se INFO Begin testing host mx12a.antispameurope.com.
+ 73.130: coop.se INFO Begin testing address 217.64.175.103.
+ 75.200: coop.se INFO Done testing address 217.64.175.103.
+ 75.200: coop.se INFO Begin testing address 217.64.175.104.
+ 76.331: coop.se INFO Done testing address 217.64.175.104.
+ 76.331: coop.se INFO Begin testing address 217.64.175.105.
+ 77.761: coop.se INFO Done testing address 217.64.175.105.
+ 77.761: coop.se INFO Begin testing address 217.64.175.106.
+ 79.568: coop.se INFO Done testing address 217.64.175.106.
+ 79.568: coop.se INFO Begin testing address 217.64.175.107.
+ 80.999: coop.se INFO Done testing address 217.64.175.107.
+ 81.007: coop.se INFO Begin testing address 217.64.175.108.
+ 82.571: coop.se INFO Done testing address 217.64.175.108.
+ 82.571: coop.se INFO Begin testing address 217.64.175.109.
+ 84.185: coop.se INFO Done testing address 217.64.175.109.
+ 84.185: coop.se INFO Begin testing address 217.64.175.110.
+ 85.439: coop.se INFO Done testing address 217.64.175.110.
+ 85.440: coop.se INFO Begin testing address 217.64.175.111.
+ 87.239: coop.se INFO Done testing address 217.64.175.111.
+ 87.239: coop.se INFO Begin testing address 217.64.175.112.
+ 88.854: coop.se INFO Done testing address 217.64.175.112.
+ 88.854: coop.se INFO Begin testing address 83.246.65.115.
+ 92.194: coop.se INFO Done testing address 83.246.65.115.
+ 92.195: coop.se INFO Begin testing address 83.246.65.117.
+ 93.437: coop.se INFO Done testing address 83.246.65.117.
+ 93.438: coop.se INFO Begin testing address 83.246.65.128.
+ 94.597: coop.se INFO Done testing address 83.246.65.128.
+ 94.597: coop.se INFO Begin testing address 83.246.65.129.
+ 96.098: coop.se INFO Done testing address 83.246.65.129.
+ 96.099: coop.se INFO Begin testing address 83.246.65.130.
+ 97.505: coop.se INFO Done testing address 83.246.65.130.
+ 97.505: coop.se INFO Begin testing address 83.246.65.31.
+ 98.531: coop.se INFO Done testing address 83.246.65.31.
+ 98.534: coop.se INFO Begin testing address 83.246.65.32.
+ 99.869: coop.se INFO Done testing address 83.246.65.32.
+ 99.869: coop.se INFO Begin testing address 217.64.175.101.
+101.162: coop.se INFO Done testing address 217.64.175.101.
+101.163: coop.se INFO Begin testing address 217.64.175.102.
+102.173: coop.se INFO Done testing address 217.64.175.102.
+102.173: coop.se INFO Done testing host mx12a.antispameurope.com.
+102.471: coop.se INFO Begin testing host mx12b.antispameurope.com.
+103.402: coop.se INFO Begin testing address 217.64.175.107.
+103.404: coop.se INFO Done testing address 217.64.175.107.
+103.404: coop.se INFO Begin testing address 217.64.175.102.
+103.406: coop.se INFO Done testing address 217.64.175.102.
+103.407: coop.se INFO Begin testing address 217.64.175.103.
+103.409: coop.se INFO Done testing address 217.64.175.103.
+103.409: coop.se INFO Begin testing address 217.64.175.104.
+103.411: coop.se INFO Done testing address 217.64.175.104.
+103.411: coop.se INFO Done testing host mx12b.antispameurope.com.
+103.854: coop.se INFO Begin testing host mx12c.antispameurope.com.
+104.569: coop.se INFO Begin testing address 83.246.65.115.
+105.010: coop.se INFO Done testing address 83.246.65.115.
+105.011: coop.se INFO Begin testing address 83.246.65.103.
+106.439: coop.se INFO Done testing address 83.246.65.103.
+106.440: coop.se INFO Begin testing address 217.64.175.101.
+106.442: coop.se INFO Done testing address 217.64.175.101.
+106.442: coop.se INFO Begin testing address 217.64.175.105.
+106.444: coop.se INFO Done testing address 217.64.175.105.
+106.444: coop.se INFO Begin testing address 83.246.65.106.
+108.116: coop.se INFO Done testing address 83.246.65.106.
+108.117: coop.se INFO Begin testing address 217.64.175.111.
+108.119: coop.se INFO Done testing address 217.64.175.111.
+108.120: coop.se INFO Begin testing address 83.246.65.109.
+109.256: coop.se INFO Done testing address 83.246.65.109.
+109.256: coop.se INFO Begin testing address 83.246.65.101.
+110.210: coop.se INFO Done testing address 83.246.65.101.
+110.210: coop.se INFO Done testing host mx12c.antispameurope.com.
+110.507: coop.se INFO Begin testing host mx12d.antispameurope.com.
+111.102: coop.se INFO Begin testing address 217.64.175.108.
+111.104: coop.se INFO Done testing address 217.64.175.108.
+111.104: coop.se INFO Begin testing address 217.64.175.110.
+111.106: coop.se INFO Done testing address 217.64.175.110.
+111.107: coop.se INFO Begin testing address 83.246.65.124.
+112.513: coop.se INFO Done testing address 83.246.65.124.
+112.514: coop.se INFO Begin testing address 217.64.175.109.
+112.516: coop.se INFO Done testing address 217.64.175.109.
+112.516: coop.se INFO Done testing host mx12d.antispameurope.com.
+112.781: coop.se INFO Done testing email address registry@ports.net.
+112.782: coop.se INFO Successful attempt to deliver email for SOA RNAME of coop.se (registry.ports.net) using registry@ports.net.
+112.782: coop.se NOTICE SOA TTL for coop.se too small (180) - recommended >= 3600.
+112.782: coop.se NOTICE SOA refresh for coop.se too small (1800) - recommended >= 14400.
+112.782: coop.se NOTICE SOA retry for coop.se too small (900) - recommended >= 3600.
+112.782: coop.se INFO SOA expire for coop.se OK (1814400) - recommended >= 604800.
+112.782: coop.se NOTICE SOA minimum for coop.se too small (180) - recommended >= 300.
+112.783: coop.se INFO Done testing SOA parameters for coop.se.
+112.783: coop.se INFO Begin testing connectivity for coop.se.
+115.281: coop.se INFO Zone announced by more than one ASN.
+115.281: coop.se NOTICE Zone announced by fewer than two IPv6 ASN.
+115.281: coop.se INFO Done testing connectivity for coop.se.
+115.282: coop.se INFO Begin testing DNSSEC for coop.se.
+115.296: coop.se INFO Did not find DS record for coop.se at parent.
+116.314: coop.se INFO Servers for coop.se have consistent extra processing status.
+116.978: coop.se INFO Authenticated denial records not found for coop.se.
+117.302: coop.se INFO Did not find DNSKEY record for coop.se at child.
+117.302: coop.se INFO No DNSKEY(s) found at child, other tests skipped.
+117.302: coop.se INFO Done testing DNSSEC for coop.se.
+117.304: coop.se INFO Test completed for zone coop.se.

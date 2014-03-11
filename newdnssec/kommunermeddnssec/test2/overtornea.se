@@ -1,0 +1,92 @@
+  0.000: overtornea.se INFO Begin testing zone overtornea.se with version 1.2.
+  0.000: overtornea.se INFO Begin testing delegation for overtornea.se.
+  5.247: overtornea.se INFO Name servers listed at parent: dns.overtornea.se,stad.overtornea.se
+  6.527: overtornea.se INFO Name servers listed at child: dns.overtornea.se,stad.overtornea.se
+  6.528: overtornea.se NOTICE No IPv6 name servers found.
+  6.537: overtornea.se INFO Parent glue for overtornea.se found: dns.overtornea.se (194.117.186.100)
+  6.605: overtornea.se INFO Parent glue for overtornea.se found: stad.overtornea.se (194.117.186.106)
+  6.614: overtornea.se INFO Checking glue for dns.overtornea.se (194.117.186.100).
+  6.636: overtornea.se INFO Child glue for overtornea.se found: dns.overtornea.se (194.117.186.100)
+  6.636: overtornea.se INFO Checking glue for stad.overtornea.se (194.117.186.106).
+  6.660: overtornea.se INFO Child glue for overtornea.se found: stad.overtornea.se (194.117.186.106)
+  6.660: overtornea.se INFO Parent glue for overtornea.se found: dns.overtornea.se (194.117.186.100)
+  6.660: overtornea.se INFO Parent glue for overtornea.se found: stad.overtornea.se (194.117.186.106)
+  6.661: overtornea.se INFO Done testing delegation for overtornea.se.
+  6.661: overtornea.se INFO Begin testing name server dns.overtornea.se.
+  6.661: overtornea.se INFO Begin testing host dns.overtornea.se.
+  6.662: overtornea.se INFO Begin testing address 194.117.186.100.
+ 11.120: overtornea.se INFO Done testing address 194.117.186.100.
+ 11.120: overtornea.se INFO Done testing host dns.overtornea.se.
+ 11.147: overtornea.se INFO Name server dns.overtornea.se (194.117.186.100) answers queries over UDP.
+ 11.189: overtornea.se INFO Name server dns.overtornea.se (194.117.186.100) answers queries over TCP.
+ 11.539: overtornea.se INFO Name server dns.overtornea.se (194.117.186.100) is not recursive.
+ 11.563: overtornea.se INFO Name server dns.overtornea.se (194.117.186.100) authoritative for overtornea.se.
+ 11.812: overtornea.se INFO Name server dns.overtornea.se (194.117.186.100) closed for zone transfer of overtornea.se.
+ 11.834: overtornea.se NOTICE No answer received from 194.117.186.100 when querying for hostname.bind/CH/TXT.
+ 29.846: overtornea.se INFO Done testing name server dns.overtornea.se.
+ 29.846: overtornea.se INFO Begin testing name server stad.overtornea.se.
+ 29.846: overtornea.se INFO Begin testing host stad.overtornea.se.
+ 29.847: overtornea.se INFO Begin testing address 194.117.186.106.
+ 30.883: overtornea.se INFO Done testing address 194.117.186.106.
+ 30.883: overtornea.se INFO Done testing host stad.overtornea.se.
+ 30.906: overtornea.se INFO Name server stad.overtornea.se (194.117.186.106) answers queries over UDP.
+ 30.947: overtornea.se INFO Name server stad.overtornea.se (194.117.186.106) answers queries over TCP.
+ 31.345: overtornea.se INFO Name server stad.overtornea.se (194.117.186.106) is not recursive.
+ 31.368: overtornea.se INFO Name server stad.overtornea.se (194.117.186.106) authoritative for overtornea.se.
+ 31.610: overtornea.se INFO Name server stad.overtornea.se (194.117.186.106) closed for zone transfer of overtornea.se.
+ 31.634: overtornea.se NOTICE No answer received from 194.117.186.106 when querying for hostname.bind/CH/TXT.
+ 49.641: overtornea.se INFO Done testing name server stad.overtornea.se.
+ 49.641: overtornea.se INFO Begin testing zone consistency for overtornea.se.
+ 49.668: overtornea.se INFO SOA at address 194.117.186.106 has serial 2002050462.
+ 49.692: overtornea.se INFO SOA at address 194.117.186.100 has serial 2002050462.
+ 49.692: overtornea.se INFO All SOA records have consistent serial numbers.
+ 49.692: overtornea.se INFO All SOA records are consistent among all name servers.
+ 49.692: overtornea.se INFO Done testing zone consistency for overtornea.se.
+ 49.693: overtornea.se INFO Begin testing SOA parameters for overtornea.se.
+ 49.717: overtornea.se INFO Found SOA record for overtornea.se.
+ 49.717: overtornea.se INFO Begin testing host dns.overtornea.se.
+ 49.718: overtornea.se INFO Begin testing address 194.117.186.100.
+ 49.719: overtornea.se INFO Done testing address 194.117.186.100.
+ 49.719: overtornea.se INFO Done testing host dns.overtornea.se.
+ 49.719: overtornea.se INFO SOA MNAME for overtornea.se valid (dns.overtornea.se).
+ 49.720: overtornea.se INFO SOA MNAME for overtornea.se (dns.overtornea.se) listed as NS.
+ 49.742: overtornea.se INFO SOA MNAME for overtornea.se (dns.overtornea.se) is authoritative.
+ 49.743: overtornea.se INFO Begin testing email address postmaster@overtornea.se.
+ 49.989: overtornea.se INFO Mail exchangers for postmaster@overtornea.se found smtp-in.sto-hy.se.stejtech.net,smtp-in.sto-ste.se.stejtech.net.
+ 49.989: overtornea.se INFO Begin testing host smtp-in.sto-hy.se.stejtech.net.
+ 50.743: overtornea.se INFO Begin testing address 83.140.31.145.
+ 53.525: overtornea.se INFO Done testing address 83.140.31.145.
+ 53.525: overtornea.se INFO Done testing host smtp-in.sto-hy.se.stejtech.net.
+ 53.525: overtornea.se INFO Begin testing mail server smtp-in.sto-hy.se.stejtech.net (83.140.31.145) with postmaster@overtornea.se.
+ 53.539: overtornea.se INFO SMTP banner: smtp3.stejtech.net ESMTP Stej PowerFilter
+ 53.631: overtornea.se INFO SMTP testing of smtp-in.sto-hy.se.stejtech.net (83.140.31.145) with postmaster@overtornea.se succeeded without errors.
+ 53.631: overtornea.se INFO Done testing mail server smtp-in.sto-hy.se.stejtech.net (83.140.31.145) with postmaster@overtornea.se.
+ 53.631: overtornea.se INFO Begin testing host smtp-in.sto-ste.se.stejtech.net.
+ 54.362: overtornea.se INFO Begin testing address 80.248.224.70.
+ 55.767: overtornea.se INFO Done testing address 80.248.224.70.
+ 55.767: overtornea.se INFO Done testing host smtp-in.sto-ste.se.stejtech.net.
+ 55.768: overtornea.se INFO Delivery over IPv4 to postmaster@overtornea.se ok.
+ 55.768: overtornea.se INFO Delivery over IPv6 to postmaster@overtornea.se could not be done.
+ 55.768: overtornea.se INFO Done testing email address postmaster@overtornea.se.
+ 55.768: overtornea.se INFO Successful attempt to deliver email for SOA RNAME of overtornea.se (postmaster.overtornea.se) using postmaster@overtornea.se.
+ 55.768: overtornea.se INFO SOA TTL for overtornea.se OK (3600) - recommended >= 3600.
+ 55.768: overtornea.se NOTICE SOA refresh for overtornea.se too small (900) - recommended >= 14400.
+ 55.768: overtornea.se NOTICE SOA retry for overtornea.se too small (600) - recommended >= 3600.
+ 55.768: overtornea.se NOTICE SOA expire for overtornea.se too small (86400) - recommended >= 604800.
+ 55.768: overtornea.se INFO SOA minimum for overtornea.se OK (3600) - recommended between 300 and 86400.
+ 55.769: overtornea.se INFO Done testing SOA parameters for overtornea.se.
+ 55.769: overtornea.se INFO Begin testing connectivity for overtornea.se.
+ 56.358: overtornea.se INFO Name server 194.117.186.100 announced by: 3301
+ 57.039: overtornea.se INFO Name server 194.117.186.106 announced by: 3301
+ 57.039: overtornea.se INFO Zone announced by IPv4 ASN: 3301
+ 57.039: overtornea.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 57.039: overtornea.se INFO Zone announced by IPv6 ASN: 
+ 57.039: overtornea.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 57.039: overtornea.se INFO Done testing connectivity for overtornea.se.
+ 57.040: overtornea.se INFO Begin testing DNSSEC for overtornea.se.
+ 57.087: overtornea.se INFO Did not find DS record for overtornea.se at parent.
+ 57.171: overtornea.se INFO Servers for overtornea.se have consistent extra processing status.
+ 57.171: overtornea.se INFO Did not find DNSKEY record for overtornea.se at child.
+ 57.171: overtornea.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 57.171: overtornea.se INFO Done testing DNSSEC for overtornea.se.
+ 57.172: overtornea.se INFO Test completed for zone overtornea.se.

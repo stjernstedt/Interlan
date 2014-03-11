@@ -1,0 +1,111 @@
+  0.000: mantsala.fi INFO Begin testing zone mantsala.fi with version 1.6.1.
+  0.406: mantsala.fi INFO Begin testing delegation for mantsala.fi.
+  8.168: mantsala.fi INFO Name servers listed at parent: dns1.solutions.fi,dns2.solutions.fi,dns3.solutions.fi
+ 10.939: mantsala.fi INFO Name servers listed at child: dns1.solutions.fi,dns2.solutions.fi,dns3.solutions.fi
+ 10.939: mantsala.fi NOTICE No IPv6 name servers found.
+ 11.053: mantsala.fi INFO Parent glue for mantsala.fi found: dns1.solutions.fi (194.197.177.1)
+ 11.311: mantsala.fi INFO Parent glue for mantsala.fi found: dns2.solutions.fi (217.112.192.2)
+ 11.459: mantsala.fi INFO Parent glue for mantsala.fi found: dns3.solutions.fi (194.142.157.1)
+ 11.519: mantsala.fi INFO Checking glue for dns1.solutions.fi (194.197.177.1).
+ 11.519: mantsala.fi INFO Checking glue for dns2.solutions.fi (217.112.192.2).
+ 11.519: mantsala.fi INFO Checking glue for dns3.solutions.fi (194.142.157.1).
+ 11.520: mantsala.fi INFO Parent glue for mantsala.fi found: dns1.solutions.fi (194.197.177.1)
+ 11.520: mantsala.fi INFO Parent glue for mantsala.fi found: dns2.solutions.fi (217.112.192.2)
+ 11.520: mantsala.fi INFO Parent glue for mantsala.fi found: dns3.solutions.fi (194.142.157.1)
+ 12.900: mantsala.fi INFO It is possible to build a referral packet for mantsala.fi that works without EDNS0.
+ 13.879: mantsala.fi INFO Previously used name servers for mantsala.fi: 
+ 13.879: mantsala.fi INFO Done testing delegation for mantsala.fi.
+ 13.879: mantsala.fi INFO Begin testing name server dns1.solutions.fi.
+ 13.879: mantsala.fi INFO Begin testing host dns1.solutions.fi.
+ 14.266: mantsala.fi INFO Begin testing address 194.197.177.1.
+ 25.382: mantsala.fi INFO Done testing address 194.197.177.1.
+ 25.382: mantsala.fi INFO Done testing host dns1.solutions.fi.
+ 25.707: mantsala.fi INFO Name server dns1.solutions.fi (194.197.177.1) answers queries over UDP.
+ 25.749: mantsala.fi INFO Name server dns1.solutions.fi (194.197.177.1) answers queries over TCP.
+ 25.811: mantsala.fi INFO Name server dns1.solutions.fi (194.197.177.1) is not recursive.
+ 26.015: mantsala.fi INFO Name server dns1.solutions.fi (194.197.177.1) authoritative for mantsala.fi.
+ 26.074: mantsala.fi INFO Name server dns1.solutions.fi (194.197.177.1) closed for zone transfer of mantsala.fi.
+ 26.133: mantsala.fi INFO Legacy name server ID for dns1.solutions.fi (194.197.177.1): hostname.bind = lyly.solutions.fi
+ 26.262: mantsala.fi NOTICE No answer received from 194.197.177.1 when querying for version.server/CH/TXT.
+ 26.262: mantsala.fi INFO Done testing name server dns1.solutions.fi.
+ 26.262: mantsala.fi INFO Begin testing name server dns2.solutions.fi.
+ 26.262: mantsala.fi INFO Begin testing host dns2.solutions.fi.
+ 26.665: mantsala.fi INFO Begin testing address 217.112.192.2.
+ 27.450: mantsala.fi INFO Done testing address 217.112.192.2.
+ 27.450: mantsala.fi INFO Done testing host dns2.solutions.fi.
+ 27.854: mantsala.fi INFO Name server dns2.solutions.fi (217.112.192.2) answers queries over UDP.
+ 27.932: mantsala.fi INFO Name server dns2.solutions.fi (217.112.192.2) answers queries over TCP.
+ 27.972: mantsala.fi INFO Name server dns2.solutions.fi (217.112.192.2) is not recursive.
+ 28.137: mantsala.fi INFO Name server dns2.solutions.fi (217.112.192.2) authoritative for mantsala.fi.
+ 28.224: mantsala.fi INFO Name server dns2.solutions.fi (217.112.192.2) closed for zone transfer of mantsala.fi.
+ 28.272: mantsala.fi INFO Legacy name server ID for dns2.solutions.fi (217.112.192.2): hostname.bind = lyly.solutions.fi
+ 28.376: mantsala.fi NOTICE No answer received from 217.112.192.2 when querying for version.server/CH/TXT.
+ 28.376: mantsala.fi INFO Done testing name server dns2.solutions.fi.
+ 28.376: mantsala.fi INFO Begin testing name server dns3.solutions.fi.
+ 28.376: mantsala.fi INFO Begin testing host dns3.solutions.fi.
+ 28.709: mantsala.fi INFO Begin testing address 194.142.157.1.
+ 29.477: mantsala.fi INFO Done testing address 194.142.157.1.
+ 29.477: mantsala.fi INFO Done testing host dns3.solutions.fi.
+ 29.795: mantsala.fi INFO Name server dns3.solutions.fi (194.142.157.1) answers queries over UDP.
+ 29.886: mantsala.fi INFO Name server dns3.solutions.fi (194.142.157.1) answers queries over TCP.
+ 29.918: mantsala.fi INFO Name server dns3.solutions.fi (194.142.157.1) is not recursive.
+ 30.047: mantsala.fi INFO Name server dns3.solutions.fi (194.142.157.1) authoritative for mantsala.fi.
+ 30.117: mantsala.fi INFO Name server dns3.solutions.fi (194.142.157.1) closed for zone transfer of mantsala.fi.
+ 30.137: mantsala.fi INFO Legacy name server ID for dns3.solutions.fi (194.142.157.1): hostname.bind = antero.solutions.fi
+ 30.240: mantsala.fi NOTICE No answer received from 194.142.157.1 when querying for version.server/CH/TXT.
+ 30.240: mantsala.fi INFO Done testing name server dns3.solutions.fi.
+ 30.240: mantsala.fi INFO Begin testing zone consistency for mantsala.fi.
+ 31.662: mantsala.fi INFO SOA at address 194.142.157.1 has serial 2014012201.
+ 31.702: mantsala.fi INFO SOA at address 217.112.192.2 has serial 2014012201.
+ 31.735: mantsala.fi INFO SOA at address 194.197.177.1 has serial 2014012201.
+ 31.735: mantsala.fi INFO All SOA records have consistent serial numbers.
+ 31.735: mantsala.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 32.651: mantsala.fi NOTICE The listed nameservers for mantsala.fi all report the same set of nameservers.
+ 32.651: mantsala.fi INFO Done testing zone consistency for mantsala.fi.
+ 32.651: mantsala.fi INFO Begin testing SOA parameters for mantsala.fi.
+ 32.672: mantsala.fi INFO Found SOA record for mantsala.fi.
+ 32.672: mantsala.fi INFO Begin testing host dns1.solutions.fi.
+ 32.954: mantsala.fi INFO Begin testing address 194.197.177.1.
+ 33.162: mantsala.fi INFO Done testing address 194.197.177.1.
+ 33.162: mantsala.fi INFO Done testing host dns1.solutions.fi.
+ 33.162: mantsala.fi INFO SOA MNAME for mantsala.fi valid (dns1.solutions.fi).
+ 33.162: mantsala.fi INFO SOA MNAME for mantsala.fi (dns1.solutions.fi) listed as NS.
+ 33.317: mantsala.fi INFO SOA MNAME for mantsala.fi (dns1.solutions.fi) is authoritative.
+ 33.317: mantsala.fi INFO Begin testing email address dnsmaster@solutions.fi.
+ 33.572: mantsala.fi INFO Mail exchangers for dnsmaster@solutions.fi found mx12272.pri.secmail.com,mx12272.bak.secmail.com.
+ 33.572: mantsala.fi INFO Begin testing host mx12272.pri.secmail.com.
+ 33.893: mantsala.fi INFO Begin testing address 217.112.192.11.
+ 34.586: mantsala.fi INFO Done testing address 217.112.192.11.
+ 34.586: mantsala.fi INFO Begin testing address 217.112.192.16.
+ 35.062: mantsala.fi INFO Done testing address 217.112.192.16.
+ 35.062: mantsala.fi INFO Begin testing address 217.112.192.18.
+ 35.591: mantsala.fi INFO Done testing address 217.112.192.18.
+ 35.598: mantsala.fi INFO Done testing host mx12272.pri.secmail.com.
+ 35.711: mantsala.fi INFO Begin testing host mx12272.bak.secmail.com.
+ 36.132: mantsala.fi INFO Begin testing address 194.197.177.11.
+ 36.824: mantsala.fi INFO Done testing address 194.197.177.11.
+ 36.824: mantsala.fi INFO Begin testing address 194.197.177.18.
+ 37.445: mantsala.fi INFO Done testing address 194.197.177.18.
+ 37.445: mantsala.fi INFO Begin testing address 194.197.177.16.
+ 38.412: mantsala.fi INFO Done testing address 194.197.177.16.
+ 38.412: mantsala.fi INFO Done testing host mx12272.bak.secmail.com.
+ 38.513: mantsala.fi INFO Done testing email address dnsmaster@solutions.fi.
+ 38.513: mantsala.fi INFO Successful attempt to deliver email for SOA RNAME of mantsala.fi (dnsmaster.solutions.fi) using dnsmaster@solutions.fi.
+ 38.514: mantsala.fi INFO SOA TTL for mantsala.fi OK (86400) - recommended >= 3600.
+ 38.514: mantsala.fi NOTICE SOA refresh for mantsala.fi too small (10800) - recommended >= 14400.
+ 38.514: mantsala.fi INFO SOA retry for mantsala.fi OK (3600) - recommended >= 3600.
+ 38.514: mantsala.fi INFO SOA expire for mantsala.fi OK (604800) - recommended >= 604800.
+ 38.514: mantsala.fi INFO SOA minimum for mantsala.fi OK (86400) - recommended between 300 and 86400.
+ 38.514: mantsala.fi INFO Done testing SOA parameters for mantsala.fi.
+ 38.514: mantsala.fi INFO Begin testing connectivity for mantsala.fi.
+ 40.028: mantsala.fi INFO Zone announced by more than one ASN.
+ 40.028: mantsala.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 40.028: mantsala.fi INFO Done testing connectivity for mantsala.fi.
+ 40.028: mantsala.fi INFO Begin testing DNSSEC for mantsala.fi.
+ 40.119: mantsala.fi INFO Did not find DS record for mantsala.fi at parent.
+ 40.240: mantsala.fi INFO Servers for mantsala.fi have consistent extra processing status.
+ 40.291: mantsala.fi INFO Authenticated denial records not found for mantsala.fi.
+ 40.314: mantsala.fi INFO Did not find DNSKEY record for mantsala.fi at child.
+ 40.314: mantsala.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 40.314: mantsala.fi INFO Done testing DNSSEC for mantsala.fi.
+ 40.315: mantsala.fi INFO Test completed for zone mantsala.fi.

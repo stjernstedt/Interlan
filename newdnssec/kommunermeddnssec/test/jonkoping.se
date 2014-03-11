@@ -1,0 +1,169 @@
+  0.000: jonkoping.se INFO Begin testing zone jonkoping.se with version 1.6.1.
+  0.624: jonkoping.se INFO Begin testing delegation for jonkoping.se.
+ 21.071: jonkoping.se INFO Name servers listed at parent: ns01.jonkoping.se,ns02.jonkoping.se
+ 34.335: jonkoping.se INFO Name servers listed at child: ns01.jonkoping.se,ns02.jonkoping.se
+ 34.603: jonkoping.se INFO Parent glue for jonkoping.se found: ns01.jonkoping.se (85.188.187.76)
+ 34.699: jonkoping.se INFO Parent glue for jonkoping.se found: ns01.jonkoping.se (2001:67c:191c:1:0:0:0:76)
+ 34.984: jonkoping.se INFO Parent glue for jonkoping.se found: ns02.jonkoping.se (85.188.187.77)
+ 35.379: jonkoping.se INFO Parent glue for jonkoping.se found: ns02.jonkoping.se (2001:67c:191c:1:0:0:0:77)
+ 35.380: jonkoping.se INFO Checking glue for ns01.jonkoping.se (85.188.187.76).
+ 36.022: jonkoping.se INFO Child glue for jonkoping.se found: ns01.jonkoping.se (85.188.187.76)
+ 36.081: jonkoping.se INFO Checking glue for ns01.jonkoping.se (2001:67c:191c:1:0:0:0:76).
+ 36.191: jonkoping.se INFO Child glue for jonkoping.se found: ns01.jonkoping.se (2001:67c:191c:1:0:0:0:76)
+ 36.191: jonkoping.se INFO Checking glue for ns02.jonkoping.se (85.188.187.77).
+ 36.362: jonkoping.se INFO Child glue for jonkoping.se found: ns02.jonkoping.se (85.188.187.77)
+ 36.362: jonkoping.se INFO Checking glue for ns02.jonkoping.se (2001:67c:191c:1:0:0:0:77).
+ 36.447: jonkoping.se INFO Child glue for jonkoping.se found: ns02.jonkoping.se (2001:67c:191c:1:0:0:0:77)
+ 36.448: jonkoping.se INFO Parent glue for jonkoping.se found: ns01.jonkoping.se (85.188.187.76)
+ 36.448: jonkoping.se INFO Parent glue for jonkoping.se found: ns01.jonkoping.se (2001:67c:191c:1:0:0:0:76)
+ 36.448: jonkoping.se INFO Parent glue for jonkoping.se found: ns02.jonkoping.se (85.188.187.77)
+ 36.605: jonkoping.se INFO Parent glue for jonkoping.se found: ns02.jonkoping.se (2001:67c:191c:1:0:0:0:77)
+ 36.609: jonkoping.se INFO It is possible to build a referral packet for jonkoping.se that works without EDNS0.
+ 36.702: jonkoping.se INFO Previously used name servers for jonkoping.se: 
+ 36.702: jonkoping.se INFO Done testing delegation for jonkoping.se.
+ 36.702: jonkoping.se INFO Begin testing name server ns01.jonkoping.se.
+ 36.703: jonkoping.se INFO Begin testing host ns01.jonkoping.se.
+ 36.703: jonkoping.se INFO Begin testing address 85.188.187.76.
+ 49.730: jonkoping.se INFO Done testing address 85.188.187.76.
+ 49.730: jonkoping.se INFO Begin testing address 2001:67c:191c:1:0:0:0:76.
+ 50.995: jonkoping.se INFO Done testing address 2001:67c:191c:1:0:0:0:76.
+ 50.995: jonkoping.se INFO Done testing host ns01.jonkoping.se.
+ 51.162: jonkoping.se INFO Name server ns01.jonkoping.se (85.188.187.76) answers queries over UDP.
+ 51.468: jonkoping.se INFO Name server ns01.jonkoping.se (85.188.187.76) answers queries over TCP.
+ 51.743: jonkoping.se INFO Name server ns01.jonkoping.se (85.188.187.76) is not recursive.
+ 52.316: jonkoping.se INFO Name server ns01.jonkoping.se (85.188.187.76) authoritative for jonkoping.se.
+ 52.475: jonkoping.se INFO Name server ns01.jonkoping.se (85.188.187.76) closed for zone transfer of jonkoping.se.
+ 52.655: jonkoping.se NOTICE No answer received from 85.188.187.76 when querying for hostname.bind/CH/TXT.
+ 65.204: jonkoping.se INFO Name server ns01.jonkoping.se (2001:67c:191c:1:0:0:0:76) answers queries over UDP.
+ 65.284: jonkoping.se INFO Name server ns01.jonkoping.se (2001:67c:191c:1:0:0:0:76) answers queries over TCP.
+ 65.338: jonkoping.se INFO Name server ns01.jonkoping.se (2001:67c:191c:1:0:0:0:76) is not recursive.
+ 65.835: jonkoping.se INFO Name server ns01.jonkoping.se (2001:67c:191c:1:0:0:0:76) authoritative for jonkoping.se.
+ 65.961: jonkoping.se INFO Name server ns01.jonkoping.se (2001:67c:191c:1:0:0:0:76) closed for zone transfer of jonkoping.se.
+ 65.994: jonkoping.se NOTICE No answer received from 2001:67c:191c:1:0:0:0:76 when querying for hostname.bind/CH/TXT.
+ 78.345: jonkoping.se INFO Done testing name server ns01.jonkoping.se.
+ 78.345: jonkoping.se INFO Begin testing name server ns02.jonkoping.se.
+ 78.346: jonkoping.se INFO Begin testing host ns02.jonkoping.se.
+ 78.346: jonkoping.se INFO Begin testing address 85.188.187.77.
+ 79.618: jonkoping.se INFO Done testing address 85.188.187.77.
+ 79.618: jonkoping.se INFO Begin testing address 2001:67c:191c:1:0:0:0:77.
+ 82.236: jonkoping.se INFO Done testing address 2001:67c:191c:1:0:0:0:77.
+ 82.236: jonkoping.se INFO Done testing host ns02.jonkoping.se.
+ 82.980: jonkoping.se INFO Name server ns02.jonkoping.se (85.188.187.77) answers queries over UDP.
+ 83.112: jonkoping.se INFO Name server ns02.jonkoping.se (85.188.187.77) answers queries over TCP.
+ 83.141: jonkoping.se INFO Name server ns02.jonkoping.se (85.188.187.77) is not recursive.
+ 84.163: jonkoping.se INFO Name server ns02.jonkoping.se (85.188.187.77) authoritative for jonkoping.se.
+ 84.656: jonkoping.se INFO Name server ns02.jonkoping.se (85.188.187.77) closed for zone transfer of jonkoping.se.
+ 84.751: jonkoping.se NOTICE No answer received from 85.188.187.77 when querying for hostname.bind/CH/TXT.
+ 97.119: jonkoping.se INFO Name server ns02.jonkoping.se (2001:67c:191c:1:0:0:0:77) answers queries over UDP.
+ 97.249: jonkoping.se INFO Name server ns02.jonkoping.se (2001:67c:191c:1:0:0:0:77) answers queries over TCP.
+ 97.313: jonkoping.se INFO Name server ns02.jonkoping.se (2001:67c:191c:1:0:0:0:77) is not recursive.
+ 98.048: jonkoping.se INFO Name server ns02.jonkoping.se (2001:67c:191c:1:0:0:0:77) authoritative for jonkoping.se.
+ 98.254: jonkoping.se INFO Name server ns02.jonkoping.se (2001:67c:191c:1:0:0:0:77) closed for zone transfer of jonkoping.se.
+ 98.276: jonkoping.se NOTICE No answer received from 2001:67c:191c:1:0:0:0:77 when querying for hostname.bind/CH/TXT.
+110.569: jonkoping.se INFO Done testing name server ns02.jonkoping.se.
+110.570: jonkoping.se INFO Begin testing zone consistency for jonkoping.se.
+110.788: jonkoping.se INFO SOA at address 2001:67c:191c:1:0:0:0:77 has serial 2013114360.
+110.840: jonkoping.se INFO SOA at address 85.188.187.76 has serial 2013114360.
+110.904: jonkoping.se INFO SOA at address 85.188.187.77 has serial 2013114360.
+110.948: jonkoping.se INFO SOA at address 2001:67c:191c:1:0:0:0:76 has serial 2013114360.
+110.949: jonkoping.se INFO All SOA records have consistent serial numbers.
+110.949: jonkoping.se INFO All other fields in the SOA record are consistent among all name servers.
+111.207: jonkoping.se NOTICE The listed nameservers for jonkoping.se all report the same set of nameservers.
+111.207: jonkoping.se INFO Done testing zone consistency for jonkoping.se.
+111.208: jonkoping.se INFO Begin testing SOA parameters for jonkoping.se.
+111.283: jonkoping.se INFO Found SOA record for jonkoping.se.
+111.283: jonkoping.se INFO Begin testing host ns01.jonkoping.se.
+111.283: jonkoping.se INFO Begin testing address 85.188.187.76.
+111.315: jonkoping.se INFO Done testing address 85.188.187.76.
+111.315: jonkoping.se INFO Begin testing address 2001:67c:191c:1:0:0:0:76.
+111.317: jonkoping.se INFO Done testing address 2001:67c:191c:1:0:0:0:76.
+111.317: jonkoping.se INFO Done testing host ns01.jonkoping.se.
+111.317: jonkoping.se INFO SOA MNAME for jonkoping.se valid (ns01.jonkoping.se).
+111.341: jonkoping.se INFO SOA MNAME for jonkoping.se (ns01.jonkoping.se) listed as NS.
+111.395: jonkoping.se INFO SOA MNAME for jonkoping.se (ns01.jonkoping.se) is authoritative.
+111.462: jonkoping.se INFO SOA MNAME for jonkoping.se (ns01.jonkoping.se) is authoritative.
+111.462: jonkoping.se INFO Begin testing email address domainadministrator@jonkoping.se.
+111.677: jonkoping.se INFO Mail exchangers for domainadministrator@jonkoping.se found smtp01.jonkoping.se,smtp02.jonkoping.se.
+111.699: jonkoping.se INFO All mail servers for domainadministrator@jonkoping.se are in zone jonkoping.se.
+111.699: jonkoping.se INFO Begin testing host smtp01.jonkoping.se.
+112.217: jonkoping.se INFO Begin testing address 85.188.187.42.
+114.071: jonkoping.se INFO Done testing address 85.188.187.42.
+114.071: jonkoping.se INFO Begin testing address 2001:67c:191c:1:0:0:0:42.
+114.549: jonkoping.se INFO Done testing address 2001:67c:191c:1:0:0:0:42.
+114.549: jonkoping.se INFO Done testing host smtp01.jonkoping.se.
+114.550: jonkoping.se INFO Begin testing host smtp02.jonkoping.se.
+115.273: jonkoping.se INFO Begin testing address 85.188.187.44.
+115.796: jonkoping.se INFO Done testing address 85.188.187.44.
+115.796: jonkoping.se INFO Begin testing address 2001:67c:191c:1:0:0:0:44.
+116.614: jonkoping.se INFO Done testing address 2001:67c:191c:1:0:0:0:44.
+116.614: jonkoping.se INFO Done testing host smtp02.jonkoping.se.
+116.614: jonkoping.se INFO Done testing email address domainadministrator@jonkoping.se.
+116.614: jonkoping.se INFO Successful attempt to deliver email for SOA RNAME of jonkoping.se (domainadministrator.jonkoping.se) using domainadministrator@jonkoping.se.
+116.614: jonkoping.se INFO SOA TTL for jonkoping.se OK (3600) - recommended >= 3600.
+116.615: jonkoping.se INFO SOA refresh for jonkoping.se OK (14400) - recommended >= 14400.
+116.615: jonkoping.se INFO SOA retry for jonkoping.se OK (3600) - recommended >= 3600.
+116.615: jonkoping.se INFO SOA expire for jonkoping.se OK (1209600) - recommended >= 604800.
+116.615: jonkoping.se INFO SOA minimum for jonkoping.se OK (3600) - recommended between 300 and 86400.
+116.615: jonkoping.se INFO Done testing SOA parameters for jonkoping.se.
+116.615: jonkoping.se INFO Begin testing connectivity for jonkoping.se.
+118.300: jonkoping.se NOTICE Zone announced by fewer than two IPv4 ASN.
+119.776: jonkoping.se NOTICE Zone announced by fewer than two IPv6 ASN.
+119.776: jonkoping.se INFO Done testing connectivity for jonkoping.se.
+119.776: jonkoping.se INFO Begin testing DNSSEC for jonkoping.se.
+119.923: jonkoping.se INFO Found DS record for jonkoping.se at parent.
+120.221: jonkoping.se INFO Nameserver 85.188.187.76 does DNSSEC extra processing.
+120.321: jonkoping.se INFO Nameserver 85.188.187.77 does DNSSEC extra processing.
+120.425: jonkoping.se INFO Nameserver 2001:67c:191c:1:0:0:0:77 does DNSSEC extra processing.
+120.644: jonkoping.se INFO Nameserver 2001:67c:191c:1:0:0:0:76 does DNSSEC extra processing.
+120.644: jonkoping.se INFO Servers for jonkoping.se have consistent extra processing status.
+120.739: jonkoping.se INFO Authenticated denial records found for jonkoping.se, of type NSEC3.
+120.862: jonkoping.se INFO NSEC3PARAM record found for jonkoping.se.
+120.862: jonkoping.se INFO NSEC3 for jonkoping.se is set to use 50 iterations, which is less than 100 and thus OK.
+120.862: jonkoping.se INFO Found DNSKEY record for jonkoping.se at child.
+120.862: jonkoping.se INFO Consistent security for jonkoping.se.
+120.862: jonkoping.se INFO Checking DNSSEC at child (jonkoping.se).
+120.863: jonkoping.se INFO jonkoping.se's key with tag 40261 uses algorithm number 8 (RSA/SHA-256).
+120.863: jonkoping.se INFO Algorithm number 8 is OK.
+120.863: jonkoping.se INFO jonkoping.se's key with tag 59797 uses algorithm number 8 (RSA/SHA-256).
+120.863: jonkoping.se INFO Algorithm number 8 is OK.
+120.863: jonkoping.se INFO DNSKEY jonkoping.se (tag 59797) is marked as a secure entry point (SEP).
+120.863: jonkoping.se INFO jonkoping.se's key with tag 61155 uses algorithm number 8 (RSA/SHA-256).
+120.863: jonkoping.se INFO Algorithm number 8 is OK.
+120.863: jonkoping.se INFO jonkoping.se's key with tag 2206 uses algorithm number 8 (RSA/SHA-256).
+120.863: jonkoping.se INFO Algorithm number 8 is OK.
+120.863: jonkoping.se INFO DNSKEY jonkoping.se (tag 2206) is marked as a secure entry point (SEP).
+120.864: jonkoping.se INFO DNSSEC signature expires at: Sun Mar 16 18:26:05 2014
+120.864: jonkoping.se INFO Duration for RRSIG(jonkoping.se/IN/DNSKEY/2206) is OK (608400 seconds).
+120.966: jonkoping.se INFO DNSSEC signature RRSIG(jonkoping.se/IN/DNSKEY/2206) matches records.
+120.967: jonkoping.se INFO DNSSEC signature valid: RRSIG(jonkoping.se/IN/DNSKEY/2206)
+120.967: jonkoping.se INFO DNSSEC signature expires at: Sun Mar 16 18:26:05 2014
+120.967: jonkoping.se INFO Duration for RRSIG(jonkoping.se/IN/DNSKEY/61155) is OK (608400 seconds).
+120.968: jonkoping.se INFO DNSSEC signature RRSIG(jonkoping.se/IN/DNSKEY/61155) matches records.
+120.968: jonkoping.se INFO DNSSEC signature valid: RRSIG(jonkoping.se/IN/DNSKEY/61155)
+120.968: jonkoping.se INFO Enough valid signatures found for jonkoping.se.
+121.064: jonkoping.se INFO DNSSEC signature expires at: Thu Mar 13 14:33:32 2014
+121.064: jonkoping.se INFO Duration for RRSIG(jonkoping.se/IN/SOA/61155) is OK (867600 seconds).
+121.095: jonkoping.se INFO DNSSEC signature RRSIG(jonkoping.se/IN/SOA/61155) matches records.
+121.096: jonkoping.se INFO DNSSEC signature valid: RRSIG(jonkoping.se/IN/SOA/61155)
+121.096: jonkoping.se INFO Enough valid signatures over SOA RRset found for jonkoping.se.
+121.096: jonkoping.se INFO DNSSEC child checks for jonkoping.se complete.
+121.096: jonkoping.se INFO Checking DNSSEC at parent of jonkoping.se.
+121.096: jonkoping.se INFO jonkoping.se's key with tag 59797 uses algorithm number 8 (RSA/SHA-256).
+121.096: jonkoping.se INFO Algorithm number 8 is OK.
+121.096: jonkoping.se INFO Parent DS(jonkoping.se/8/1/59797) refers to invalid key at child: DNSKEY(jonkoping.se/8/59797)
+121.096: jonkoping.se INFO Parent DS(jonkoping.se) refers to secure entry point (SEP) at child: DS(jonkoping.se/8/1/59797)
+121.096: jonkoping.se INFO jonkoping.se's key with tag 59797 uses algorithm number 8 (RSA/SHA-256).
+121.096: jonkoping.se INFO Algorithm number 8 is OK.
+121.097: jonkoping.se INFO Parent DS(jonkoping.se/8/2/59797) refers to invalid key at child: DNSKEY(jonkoping.se/8/59797)
+121.097: jonkoping.se INFO Parent DS(jonkoping.se) refers to secure entry point (SEP) at child: DS(jonkoping.se/8/2/59797)
+121.097: jonkoping.se INFO jonkoping.se's key with tag 2206 uses algorithm number 8 (RSA/SHA-256).
+121.097: jonkoping.se INFO Algorithm number 8 is OK.
+121.109: jonkoping.se INFO Parent DS(jonkoping.se/8/1/2206) refers to valid key at child: DNSKEY(jonkoping.se/8/2206)
+121.109: jonkoping.se INFO Parent DS(jonkoping.se) refers to secure entry point (SEP) at child: DS(jonkoping.se/8/1/2206)
+121.109: jonkoping.se INFO jonkoping.se's key with tag 2206 uses algorithm number 8 (RSA/SHA-256).
+121.109: jonkoping.se INFO Algorithm number 8 is OK.
+121.109: jonkoping.se INFO Parent DS(jonkoping.se/8/2/2206) refers to valid key at child: DNSKEY(jonkoping.se/8/2206)
+121.109: jonkoping.se INFO Parent DS(jonkoping.se) refers to secure entry point (SEP) at child: DS(jonkoping.se/8/2/2206)
+121.110: jonkoping.se INFO DNSSEC parent checks for jonkoping.se complete.
+121.110: jonkoping.se INFO Done testing DNSSEC for jonkoping.se.
+121.110: jonkoping.se INFO Test completed for zone jonkoping.se.

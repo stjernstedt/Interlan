@@ -1,0 +1,159 @@
+  0.000: vildmarksdata.se INFO Begin testing zone vildmarksdata.se with version 1.5.0.
+  0.001: vildmarksdata.se INFO Begin testing delegation for vildmarksdata.se.
+ 12.611: vildmarksdata.se INFO Name servers listed at parent: ns.sorsele.net,ns.vildmarksdata.se
+ 14.821: vildmarksdata.se INFO Name servers listed at child: ns.sorsele.net,ns.vildmarksdata.se
+ 14.821: vildmarksdata.se NOTICE No IPv6 name servers found.
+ 15.129: vildmarksdata.se INFO Parent glue for vildmarksdata.se found: ns.vildmarksdata.se (80.88.126.2)
+ 15.282: vildmarksdata.se INFO Checking glue for ns.vildmarksdata.se (80.88.126.2).
+ 15.304: vildmarksdata.se INFO Child glue for vildmarksdata.se found: ns.vildmarksdata.se (80.88.126.2)
+ 15.305: vildmarksdata.se INFO Parent glue for vildmarksdata.se found: ns.vildmarksdata.se (80.88.126.2)
+ 16.597: vildmarksdata.se INFO It is possible to build a referral packet for vildmarksdata.se that works without EDNS0.
+ 16.597: vildmarksdata.se INFO Done testing delegation for vildmarksdata.se.
+ 16.598: vildmarksdata.se INFO Begin testing name server ns.sorsele.net.
+ 16.598: vildmarksdata.se INFO Begin testing host ns.sorsele.net.
+ 17.052: vildmarksdata.se INFO Begin testing address 80.88.99.17.
+ 31.746: vildmarksdata.se INFO Done testing address 80.88.99.17.
+ 31.746: vildmarksdata.se INFO Done testing host ns.sorsele.net.
+ 32.205: vildmarksdata.se INFO Name server ns.sorsele.net (80.88.99.17) answers queries over UDP.
+ 32.294: vildmarksdata.se INFO Name server ns.sorsele.net (80.88.99.17) answers queries over TCP.
+ 32.358: vildmarksdata.se INFO Name server ns.sorsele.net (80.88.99.17) is not recursive.
+ 32.518: vildmarksdata.se INFO Name server ns.sorsele.net (80.88.99.17) authoritative for vildmarksdata.se.
+ 32.603: vildmarksdata.se INFO Name server ns.sorsele.net (80.88.99.17) closed for zone transfer of vildmarksdata.se.
+ 32.618: vildmarksdata.se NOTICE No answer received from 80.88.99.17 when querying for hostname.bind/CH/TXT.
+ 50.656: vildmarksdata.se INFO Done testing name server ns.sorsele.net.
+ 50.656: vildmarksdata.se INFO Begin testing name server ns.vildmarksdata.se.
+ 50.656: vildmarksdata.se INFO Begin testing host ns.vildmarksdata.se.
+ 50.923: vildmarksdata.se INFO Begin testing address 80.88.126.2.
+ 51.945: vildmarksdata.se INFO Done testing address 80.88.126.2.
+ 51.946: vildmarksdata.se INFO Done testing host ns.vildmarksdata.se.
+ 52.227: vildmarksdata.se INFO Name server ns.vildmarksdata.se (80.88.126.2) answers queries over UDP.
+ 52.256: vildmarksdata.se INFO Name server ns.vildmarksdata.se (80.88.126.2) answers queries over TCP.
+ 52.273: vildmarksdata.se INFO Name server ns.vildmarksdata.se (80.88.126.2) is not recursive.
+ 52.365: vildmarksdata.se INFO Name server ns.vildmarksdata.se (80.88.126.2) authoritative for vildmarksdata.se.
+ 52.460: vildmarksdata.se INFO Name server ns.vildmarksdata.se (80.88.126.2) closed for zone transfer of vildmarksdata.se.
+ 52.487: vildmarksdata.se NOTICE No answer received from 80.88.126.2 when querying for hostname.bind/CH/TXT.
+ 70.542: vildmarksdata.se INFO Done testing name server ns.vildmarksdata.se.
+ 70.542: vildmarksdata.se INFO Begin testing zone consistency for vildmarksdata.se.
+ 71.986: vildmarksdata.se INFO SOA at address 80.88.99.17 has serial 2012112090.
+ 72.004: vildmarksdata.se INFO SOA at address 80.88.126.2 has serial 2012112090.
+ 72.004: vildmarksdata.se INFO All SOA records have consistent serial numbers.
+ 72.004: vildmarksdata.se INFO All other fields in the SOA record are consistent among all name servers.
+ 72.972: vildmarksdata.se NOTICE The listed nameservers for vildmarksdata.se all report the same set of nameservers.
+ 72.973: vildmarksdata.se INFO Done testing zone consistency for vildmarksdata.se.
+ 72.973: vildmarksdata.se INFO Begin testing SOA parameters for vildmarksdata.se.
+ 72.990: vildmarksdata.se INFO Found SOA record for vildmarksdata.se.
+ 72.990: vildmarksdata.se INFO Begin testing host ns.sorsele.net.
+ 73.362: vildmarksdata.se INFO Begin testing address 80.88.99.17.
+ 73.736: vildmarksdata.se INFO Done testing address 80.88.99.17.
+ 73.736: vildmarksdata.se INFO Done testing host ns.sorsele.net.
+ 73.736: vildmarksdata.se INFO SOA MNAME for vildmarksdata.se valid (ns.sorsele.net).
+ 73.736: vildmarksdata.se INFO SOA MNAME for vildmarksdata.se (ns.sorsele.net) listed as NS.
+ 74.222: vildmarksdata.se INFO SOA MNAME for vildmarksdata.se (ns.sorsele.net) is authoritative.
+ 74.223: vildmarksdata.se INFO Begin testing email address registry@vildmarksdata.se.
+ 74.488: vildmarksdata.se INFO Mail exchangers for registry@vildmarksdata.se found mail.vildmarksdata.net.
+ 74.488: vildmarksdata.se INFO Begin testing host mail.vildmarksdata.net.
+ 75.554: vildmarksdata.se INFO Begin testing address 80.88.126.9.
+ 76.955: vildmarksdata.se INFO Done testing address 80.88.126.9.
+ 76.955: vildmarksdata.se INFO Done testing host mail.vildmarksdata.net.
+ 77.461: vildmarksdata.se INFO Done testing email address registry@vildmarksdata.se.
+ 77.461: vildmarksdata.se INFO Successful attempt to deliver email for SOA RNAME of vildmarksdata.se (registry.vildmarksdata.se) using registry@vildmarksdata.se.
+ 77.461: vildmarksdata.se INFO SOA TTL for vildmarksdata.se OK (3600) - recommended >= 3600.
+ 77.461: vildmarksdata.se INFO SOA refresh for vildmarksdata.se OK (14400) - recommended >= 14400.
+ 77.461: vildmarksdata.se INFO SOA retry for vildmarksdata.se OK (3600) - recommended >= 3600.
+ 77.462: vildmarksdata.se INFO SOA expire for vildmarksdata.se OK (1209600) - recommended >= 604800.
+ 77.462: vildmarksdata.se INFO SOA minimum for vildmarksdata.se OK (3600) - recommended between 300 and 86400.
+ 77.462: vildmarksdata.se INFO Done testing SOA parameters for vildmarksdata.se.
+ 77.462: vildmarksdata.se INFO Begin testing connectivity for vildmarksdata.se.
+ 78.852: vildmarksdata.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 78.852: vildmarksdata.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 78.852: vildmarksdata.se INFO Done testing connectivity for vildmarksdata.se.
+ 78.853: vildmarksdata.se INFO Begin testing DNSSEC for vildmarksdata.se.
+ 78.916: vildmarksdata.se INFO Found DS record for vildmarksdata.se at parent.
+ 78.982: vildmarksdata.se INFO Nameserver 80.88.99.17 does DNSSEC extra processing.
+ 79.025: vildmarksdata.se INFO Nameserver 80.88.126.2 does DNSSEC extra processing.
+ 79.026: vildmarksdata.se INFO Servers for vildmarksdata.se have consistent extra processing status.
+ 79.061: vildmarksdata.se INFO Authenticated denial records found for vildmarksdata.se, of type NSEC3.
+ 79.080: vildmarksdata.se INFO NSEC3PARAM record found for vildmarksdata.se.
+ 79.081: vildmarksdata.se INFO NSEC3 for vildmarksdata.se is set to use 50 iterations, which is OK.
+ 79.081: vildmarksdata.se INFO Found DNSKEY record for vildmarksdata.se at child.
+ 79.081: vildmarksdata.se INFO Consistent security for vildmarksdata.se.
+ 79.082: vildmarksdata.se INFO Checking DNSSEC at child (vildmarksdata.se).
+ 79.082: vildmarksdata.se INFO vildmarksdata.se's key with tag 60915 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 79.082: vildmarksdata.se INFO Algorithm number 7 is OK.
+ 79.082: vildmarksdata.se INFO DNSKEY vildmarksdata.se (tag 60915) is marked as a secure entry point (SEP).
+ 79.091: vildmarksdata.se INFO vildmarksdata.se's key with tag 47645 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 79.091: vildmarksdata.se INFO Algorithm number 7 is OK.
+ 79.091: vildmarksdata.se INFO vildmarksdata.se's key with tag 41943 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 79.092: vildmarksdata.se INFO Algorithm number 7 is OK.
+ 79.092: vildmarksdata.se INFO vildmarksdata.se's key with tag 13782 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 79.092: vildmarksdata.se INFO Algorithm number 7 is OK.
+ 79.092: vildmarksdata.se INFO vildmarksdata.se's key with tag 39553 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 79.092: vildmarksdata.se INFO Algorithm number 7 is OK.
+ 79.092: vildmarksdata.se INFO DNSKEY vildmarksdata.se (tag 39553) is marked as a secure entry point (SEP).
+ 79.093: vildmarksdata.se INFO vildmarksdata.se's key with tag 53953 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 79.093: vildmarksdata.se INFO Algorithm number 7 is OK.
+ 79.093: vildmarksdata.se INFO DNSKEY vildmarksdata.se (tag 53953) is marked as a secure entry point (SEP).
+ 79.093: vildmarksdata.se INFO vildmarksdata.se's key with tag 16062 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 79.093: vildmarksdata.se INFO Algorithm number 7 is OK.
+ 79.094: vildmarksdata.se INFO vildmarksdata.se's key with tag 331 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 79.094: vildmarksdata.se INFO Algorithm number 7 is OK.
+ 79.094: vildmarksdata.se INFO DNSKEY vildmarksdata.se (tag 331) is marked as a secure entry point (SEP).
+ 79.094: vildmarksdata.se INFO vildmarksdata.se's key with tag 62667 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 79.094: vildmarksdata.se INFO Algorithm number 7 is OK.
+ 79.095: vildmarksdata.se INFO vildmarksdata.se's key with tag 13635 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 79.095: vildmarksdata.se INFO Algorithm number 7 is OK.
+ 79.095: vildmarksdata.se INFO DNSKEY vildmarksdata.se (tag 13635) is marked as a secure entry point (SEP).
+ 79.103: vildmarksdata.se INFO vildmarksdata.se's key with tag 28064 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 79.104: vildmarksdata.se INFO Algorithm number 7 is OK.
+ 79.104: vildmarksdata.se INFO vildmarksdata.se's key with tag 18000 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 79.104: vildmarksdata.se INFO Algorithm number 7 is OK.
+ 79.104: vildmarksdata.se INFO DNSKEY vildmarksdata.se (tag 18000) is marked as a secure entry point (SEP).
+ 79.105: vildmarksdata.se WARNING DNSSEC signature expired: RRSIG(vildmarksdata.se/IN/DNSKEY/62667)
+ 79.105: vildmarksdata.se WARNING DNSSEC signature expired: RRSIG(vildmarksdata.se/IN/DNSKEY/53953)
+ 79.106: vildmarksdata.se WARNING DNSSEC signature expired: RRSIG(vildmarksdata.se/IN/DNSKEY/16062)
+ 79.106: vildmarksdata.se WARNING DNSSEC signature expired: RRSIG(vildmarksdata.se/IN/DNSKEY/13782)
+ 79.107: vildmarksdata.se WARNING DNSSEC signature expired: RRSIG(vildmarksdata.se/IN/DNSKEY/13635)
+ 79.176: vildmarksdata.se WARNING DNSSEC signature expired: RRSIG(vildmarksdata.se/IN/DNSKEY/39553)
+ 79.176: vildmarksdata.se ERROR Not enough valid signatures found for vildmarksdata.se.
+ 79.233: vildmarksdata.se INFO DNSSEC signature expires at: Fri Aug  2 15:22:10 2013
+ 79.233: vildmarksdata.se INFO Duration for RRSIG(vildmarksdata.se/IN/SOA/62667) is OK (867600 seconds).
+ 79.234: vildmarksdata.se INFO DNSSEC signature RRSIG(vildmarksdata.se/IN/SOA/62667) matches records.
+ 79.235: vildmarksdata.se INFO DNSSEC signature valid: RRSIG(vildmarksdata.se/IN/SOA/62667)
+ 79.235: vildmarksdata.se INFO DNSSEC signature expires at: Fri Aug  2 15:22:10 2013
+ 79.235: vildmarksdata.se INFO Duration for RRSIG(vildmarksdata.se/IN/SOA/16062) is OK (867600 seconds).
+ 79.263: vildmarksdata.se INFO DNSSEC signature RRSIG(vildmarksdata.se/IN/SOA/16062) matches records.
+ 79.263: vildmarksdata.se INFO DNSSEC signature valid: RRSIG(vildmarksdata.se/IN/SOA/16062)
+ 79.263: vildmarksdata.se INFO DNSSEC signature expires at: Fri Aug  2 15:22:10 2013
+ 79.291: vildmarksdata.se INFO Duration for RRSIG(vildmarksdata.se/IN/SOA/13782) is OK (867600 seconds).
+ 79.292: vildmarksdata.se INFO DNSSEC signature RRSIG(vildmarksdata.se/IN/SOA/13782) matches records.
+ 79.292: vildmarksdata.se INFO DNSSEC signature valid: RRSIG(vildmarksdata.se/IN/SOA/13782)
+ 79.292: vildmarksdata.se INFO Enough valid signatures over SOA RRset found for vildmarksdata.se.
+ 79.292: vildmarksdata.se INFO DNSSEC child checks for vildmarksdata.se complete.
+ 79.293: vildmarksdata.se INFO Checking DNSSEC at parent of vildmarksdata.se.
+ 79.293: vildmarksdata.se INFO vildmarksdata.se's key with tag 53953 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 79.293: vildmarksdata.se INFO Algorithm number 7 is OK.
+ 79.293: vildmarksdata.se INFO Parent DS(vildmarksdata.se/7/1/53953) refers to valid key at child: DNSKEY(vildmarksdata.se/7/53953)
+ 79.293: vildmarksdata.se INFO Parent DS(vildmarksdata.se) refers to secure entry point (SEP) at child: DS(vildmarksdata.se/7/1/53953)
+ 79.294: vildmarksdata.se INFO vildmarksdata.se's key with tag 60915 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 79.294: vildmarksdata.se INFO Algorithm number 7 is OK.
+ 79.294: vildmarksdata.se INFO Parent DS(vildmarksdata.se/7/1/60915) refers to invalid key at child: DNSKEY(vildmarksdata.se/7/60915)
+ 79.294: vildmarksdata.se INFO Parent DS(vildmarksdata.se) refers to secure entry point (SEP) at child: DS(vildmarksdata.se/7/1/60915)
+ 79.294: vildmarksdata.se INFO vildmarksdata.se's key with tag 331 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 79.294: vildmarksdata.se INFO Algorithm number 7 is OK.
+ 79.294: vildmarksdata.se INFO Parent DS(vildmarksdata.se/7/1/331) refers to invalid key at child: DNSKEY(vildmarksdata.se/7/331)
+ 79.294: vildmarksdata.se INFO Parent DS(vildmarksdata.se) refers to secure entry point (SEP) at child: DS(vildmarksdata.se/7/1/331)
+ 79.294: vildmarksdata.se INFO vildmarksdata.se's key with tag 13635 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 79.295: vildmarksdata.se INFO Algorithm number 7 is OK.
+ 79.295: vildmarksdata.se INFO Parent DS(vildmarksdata.se/7/1/13635) refers to valid key at child: DNSKEY(vildmarksdata.se/7/13635)
+ 79.295: vildmarksdata.se INFO Parent DS(vildmarksdata.se) refers to secure entry point (SEP) at child: DS(vildmarksdata.se/7/1/13635)
+ 79.295: vildmarksdata.se INFO vildmarksdata.se's key with tag 18000 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 79.320: vildmarksdata.se INFO Algorithm number 7 is OK.
+ 79.320: vildmarksdata.se INFO Parent DS(vildmarksdata.se/7/1/18000) refers to invalid key at child: DNSKEY(vildmarksdata.se/7/18000)
+ 79.320: vildmarksdata.se INFO Parent DS(vildmarksdata.se) refers to secure entry point (SEP) at child: DS(vildmarksdata.se/7/1/18000)
+ 79.320: vildmarksdata.se INFO vildmarksdata.se's key with tag 39553 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 79.320: vildmarksdata.se INFO Algorithm number 7 is OK.
+ 79.321: vildmarksdata.se INFO Parent DS(vildmarksdata.se/7/1/39553) refers to valid key at child: DNSKEY(vildmarksdata.se/7/39553)
+ 79.321: vildmarksdata.se INFO Parent DS(vildmarksdata.se) refers to secure entry point (SEP) at child: DS(vildmarksdata.se/7/1/39553)
+ 79.321: vildmarksdata.se INFO DNSSEC parent checks for vildmarksdata.se complete.
+ 79.321: vildmarksdata.se INFO Done testing DNSSEC for vildmarksdata.se.
+ 79.322: vildmarksdata.se INFO Test completed for zone vildmarksdata.se.

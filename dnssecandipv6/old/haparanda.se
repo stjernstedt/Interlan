@@ -1,0 +1,92 @@
+  0.000: haparanda.se INFO Begin testing zone haparanda.se with version 1.0.1.
+  0.001: haparanda.se INFO Begin testing delegation for haparanda.se.
+  0.796: haparanda.se INFO Name servers listed at parent: ns.haparanda.se,yggdrasil.haparanda.se
+  0.951: haparanda.se INFO Name servers listed at child: ns.haparanda.se,yggdrasil.haparanda.se
+  0.952: haparanda.se NOTICE No IPv6 name servers found.
+  0.966: haparanda.se INFO Parent glue for haparanda.se found: ns.haparanda.se (194.117.170.34)
+  0.995: haparanda.se INFO Parent glue for haparanda.se found: yggdrasil.haparanda.se (194.117.170.10)
+  1.059: haparanda.se INFO Checking glue for ns.haparanda.se (194.117.170.34).
+  1.090: haparanda.se INFO Child glue for haparanda.se found: ns.haparanda.se (194.117.170.34)
+  1.090: haparanda.se INFO Checking glue for yggdrasil.haparanda.se (194.117.170.10).
+  1.118: haparanda.se INFO Child glue for haparanda.se found: yggdrasil.haparanda.se (194.117.170.10)
+  1.119: haparanda.se INFO Done testing delegation for haparanda.se.
+  1.120: haparanda.se INFO Begin testing name server ns.haparanda.se.
+  1.120: haparanda.se INFO Begin testing host ns.haparanda.se.
+  1.121: haparanda.se INFO Begin testing address 194.117.170.34.
+  3.158: haparanda.se INFO Done testing address 194.117.170.34.
+  3.158: haparanda.se INFO Done testing host ns.haparanda.se.
+  3.200: haparanda.se INFO Name server ns.haparanda.se (194.117.170.34) is not recursive.
+  3.229: haparanda.se INFO Name server ns.haparanda.se (194.117.170.34) authoritative for haparanda.se.
+  3.258: haparanda.se INFO Name server ns.haparanda.se (194.117.170.34) answers queries over UDP.
+  3.307: haparanda.se INFO Name server ns.haparanda.se (194.117.170.34) answers queries over TCP.
+  3.385: haparanda.se NOTICE Name server ns.haparanda.se (194.117.170.34) open for zone transfer of haparanda.se.
+  3.419: haparanda.se INFO Legacy name server ID for ns.haparanda.se (194.117.170.34): hostname.bind = ns
+  9.475: haparanda.se NOTICE No answer received from 194.117.170.34 when querying for version.server/CH/TXT.
+  9.475: haparanda.se INFO Done testing name server ns.haparanda.se.
+  9.476: haparanda.se INFO Begin testing name server yggdrasil.haparanda.se.
+  9.476: haparanda.se INFO Begin testing host yggdrasil.haparanda.se.
+  9.477: haparanda.se INFO Begin testing address 194.117.170.10.
+  9.505: haparanda.se INFO Done testing address 194.117.170.10.
+  9.505: haparanda.se INFO Done testing host yggdrasil.haparanda.se.
+  9.542: haparanda.se INFO Name server yggdrasil.haparanda.se (194.117.170.10) is not recursive.
+  9.569: haparanda.se INFO Name server yggdrasil.haparanda.se (194.117.170.10) authoritative for haparanda.se.
+  9.597: haparanda.se INFO Name server yggdrasil.haparanda.se (194.117.170.10) answers queries over UDP.
+  9.644: haparanda.se INFO Name server yggdrasil.haparanda.se (194.117.170.10) answers queries over TCP.
+  9.725: haparanda.se NOTICE Name server yggdrasil.haparanda.se (194.117.170.10) open for zone transfer of haparanda.se.
+  9.753: haparanda.se INFO Legacy name server ID for yggdrasil.haparanda.se (194.117.170.10): hostname.bind = yggdrasil
+ 15.813: haparanda.se NOTICE No answer received from 194.117.170.10 when querying for version.server/CH/TXT.
+ 15.814: haparanda.se INFO Done testing name server yggdrasil.haparanda.se.
+ 15.814: haparanda.se INFO Begin testing zone consistency for haparanda.se.
+ 15.850: haparanda.se INFO SOA at address 194.117.170.10 has serial 2010021600.
+ 15.878: haparanda.se INFO SOA at address 194.117.170.34 has serial 2010021600.
+ 15.879: haparanda.se INFO All SOA records have consistent serial numbers.
+ 15.879: haparanda.se INFO All SOA records are consistent among all name servers.
+ 15.879: haparanda.se INFO Done testing zone consistency for haparanda.se.
+ 15.879: haparanda.se INFO Begin testing SOA parameters for haparanda.se.
+ 15.907: haparanda.se INFO Found SOA record for haparanda.se.
+ 15.907: haparanda.se INFO Begin testing host ns.haparanda.se.
+ 15.908: haparanda.se INFO Begin testing address 194.117.170.34.
+ 15.912: haparanda.se INFO Done testing address 194.117.170.34.
+ 15.912: haparanda.se INFO Done testing host ns.haparanda.se.
+ 15.912: haparanda.se INFO SOA MNAME for haparanda.se valid (ns.haparanda.se).
+ 15.913: haparanda.se INFO SOA MNAME for haparanda.se (ns.haparanda.se) listed as NS.
+ 15.943: haparanda.se INFO SOA MNAME for haparanda.se (ns.haparanda.se) is authoritative.
+ 15.944: haparanda.se INFO Begin testing email address root@haparanda.se.
+ 15.972: haparanda.se INFO Mail exchangers for root@haparanda.se found yggdrasil.haparanda.se,nop.norman.no.
+ 15.973: haparanda.se INFO Begin testing host yggdrasil.haparanda.se.
+ 15.973: haparanda.se INFO Begin testing address 194.117.170.10.
+ 15.976: haparanda.se INFO Done testing address 194.117.170.10.
+ 15.976: haparanda.se INFO Done testing host yggdrasil.haparanda.se.
+ 15.977: haparanda.se INFO Begin testing mail server yggdrasil.haparanda.se (194.117.170.10) with root@haparanda.se.
+ 16.059: haparanda.se INFO SMTP banner: mail1.haparanda.se ESMTP Postfix
+ 16.141: haparanda.se INFO SMTP testing of yggdrasil.haparanda.se (194.117.170.10) with root@haparanda.se succeeded without errors.
+ 16.141: haparanda.se INFO Done testing mail server yggdrasil.haparanda.se (194.117.170.10) with root@haparanda.se.
+ 16.141: haparanda.se INFO Begin testing host nop.norman.no.
+ 17.700: haparanda.se INFO Begin testing address 81.93.162.11.
+ 18.275: haparanda.se INFO Done testing address 81.93.162.11.
+ 18.276: haparanda.se INFO Done testing host nop.norman.no.
+ 18.276: haparanda.se INFO Delivery over IPv4 to root@haparanda.se ok.
+ 18.277: haparanda.se INFO Delivery over IPv6 to root@haparanda.se could not be done.
+ 18.277: haparanda.se INFO Done testing email address root@haparanda.se.
+ 18.277: haparanda.se INFO Successful attempt to deliver email for SOA RNAME of haparanda.se (root.haparanda.se) using root@haparanda.se.
+ 18.277: haparanda.se INFO SOA TTL for haparanda.se OK (172800) - recommended >= 3600.
+ 18.277: haparanda.se NOTICE SOA refresh for haparanda.se too small (10800) - recommended >= 14400.
+ 18.277: haparanda.se INFO SOA retry for haparanda.se OK (3600) - recommended >= 3600.
+ 18.278: haparanda.se INFO SOA expire for haparanda.se OK (604800) - recommended >= 604800.
+ 18.278: haparanda.se INFO SOA minimum for haparanda.se OK (86400) - recommended between 300 and 86400.
+ 18.278: haparanda.se INFO Done testing SOA parameters for haparanda.se.
+ 18.279: haparanda.se INFO Begin testing connectivity for haparanda.se.
+ 18.634: haparanda.se INFO Name server 194.117.170.10 announced by: 3301
+ 18.794: haparanda.se INFO Name server 194.117.170.34 announced by: 3301
+ 18.794: haparanda.se INFO Zone announced by ASN: 3301
+ 18.794: haparanda.se NOTICE Zone announced by only one ASN (1).
+ 18.795: haparanda.se INFO Zone announced by IPv6 ASN: 
+ 18.795: haparanda.se NOTICE Zone announced by only one IPv6 ASN (0).
+ 18.795: haparanda.se INFO Done testing connectivity for haparanda.se.
+ 18.795: haparanda.se INFO Begin testing DNSSEC for haparanda.se.
+ 18.822: haparanda.se INFO Did not find DS record for haparanda.se at parent.
+ 18.920: haparanda.se INFO Servers for haparanda.se have consistent extra processing status.
+ 18.920: haparanda.se INFO Did not find DNSKEY record for haparanda.se at child.
+ 18.920: haparanda.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 18.920: haparanda.se INFO Done testing DNSSEC for haparanda.se.
+ 18.921: haparanda.se INFO Test completed for zone haparanda.se.

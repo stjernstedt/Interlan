@@ -1,0 +1,91 @@
+  0.000: flen.se INFO Begin testing zone flen.se with version 1.6.1.
+  0.541: flen.se INFO Begin testing delegation for flen.se.
+ 21.705: flen.se INFO Name servers listed at parent: dns5.telia.com,ns1.flen.se
+ 25.137: flen.se INFO Name servers listed at child: dns5.telia.com,ns1.flen.se
+ 25.138: flen.se NOTICE Too few IPv6 name servers (1).
+ 25.282: flen.se INFO Parent glue for flen.se found: ns1.flen.se (194.23.252.70)
+ 27.081: flen.se INFO Checking glue for ns1.flen.se (194.23.252.70).
+ 27.118: flen.se INFO Child glue for flen.se found: ns1.flen.se (194.23.252.70)
+ 27.118: flen.se INFO Parent glue for flen.se found: ns1.flen.se (194.23.252.70)
+ 29.053: flen.se INFO It is possible to build a referral packet for flen.se that works without EDNS0.
+ 29.325: flen.se INFO Previously used name servers for flen.se: 
+ 29.325: flen.se INFO Done testing delegation for flen.se.
+ 29.326: flen.se INFO Begin testing name server dns5.telia.com.
+ 29.326: flen.se INFO Begin testing host dns5.telia.com.
+ 29.326: flen.se INFO Begin testing address 81.228.11.68.
+ 44.857: flen.se INFO Done testing address 81.228.11.68.
+ 44.857: flen.se INFO Begin testing address 2001:2040:c001:101:0:0:0:4.
+ 51.656: flen.se INFO Done testing address 2001:2040:c001:101:0:0:0:4.
+ 51.656: flen.se INFO Done testing host dns5.telia.com.
+ 51.737: flen.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over UDP.
+ 51.779: flen.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over TCP.
+ 51.862: flen.se INFO Name server dns5.telia.com (81.228.11.68) is not recursive.
+ 52.221: flen.se INFO Name server dns5.telia.com (81.228.11.68) authoritative for flen.se.
+ 52.268: flen.se INFO Name server dns5.telia.com (81.228.11.68) closed for zone transfer of flen.se.
+ 52.329: flen.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 53.849: flen.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) answers queries over UDP.
+ 53.953: flen.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) answers queries over TCP.
+ 54.082: flen.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) is not recursive.
+ 54.281: flen.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) authoritative for flen.se.
+ 54.385: flen.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) closed for zone transfer of flen.se.
+ 54.461: flen.se INFO Legacy name server ID for dns5.telia.com (2001:2040:c001:101:0:0:0:4): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 54.534: flen.se INFO Done testing name server dns5.telia.com.
+ 54.535: flen.se INFO Begin testing name server ns1.flen.se.
+ 54.535: flen.se INFO Begin testing host ns1.flen.se.
+ 54.831: flen.se INFO Begin testing address 194.23.252.70.
+ 55.863: flen.se INFO Done testing address 194.23.252.70.
+ 55.863: flen.se INFO Done testing host ns1.flen.se.
+ 56.719: flen.se INFO Name server ns1.flen.se (194.23.252.70) answers queries over UDP.
+ 56.765: flen.se INFO Name server ns1.flen.se (194.23.252.70) answers queries over TCP.
+ 56.806: flen.se INFO Name server ns1.flen.se (194.23.252.70) is not recursive.
+ 56.901: flen.se INFO Name server ns1.flen.se (194.23.252.70) authoritative for flen.se.
+ 57.056: flen.se INFO Name server ns1.flen.se (194.23.252.70) closed for zone transfer of flen.se.
+ 57.083: flen.se NOTICE No answer received from 194.23.252.70 when querying for hostname.bind/CH/TXT.
+ 69.273: flen.se INFO Done testing name server ns1.flen.se.
+ 69.273: flen.se INFO Begin testing zone consistency for flen.se.
+ 69.927: flen.se INFO SOA at address 194.23.252.70 has serial 2891258929.
+ 69.987: flen.se INFO SOA at address 81.228.11.68 has serial 2891258929.
+ 70.067: flen.se INFO SOA at address 2001:2040:c001:101:0:0:0:4 has serial 2891258929.
+ 70.068: flen.se INFO All SOA records have consistent serial numbers.
+ 70.068: flen.se INFO All other fields in the SOA record are consistent among all name servers.
+ 70.518: flen.se NOTICE The listed nameservers for flen.se all report the same set of nameservers.
+ 70.518: flen.se INFO Done testing zone consistency for flen.se.
+ 70.518: flen.se INFO Begin testing SOA parameters for flen.se.
+ 70.589: flen.se INFO Found SOA record for flen.se.
+ 70.589: flen.se INFO Begin testing host ns1.flen.se.
+ 70.945: flen.se INFO Begin testing address 194.23.252.70.
+ 71.265: flen.se INFO Done testing address 194.23.252.70.
+ 71.265: flen.se INFO Done testing host ns1.flen.se.
+ 71.265: flen.se INFO SOA MNAME for flen.se valid (ns1.flen.se).
+ 71.266: flen.se INFO SOA MNAME for flen.se (ns1.flen.se) listed as NS.
+ 71.629: flen.se INFO SOA MNAME for flen.se (ns1.flen.se) is authoritative.
+ 71.630: flen.se INFO Begin testing email address admin@flen.se.
+ 71.941: flen.se INFO Mail exchangers for admin@flen.se found mailgate164.vas.invid.se,mailgate163.vas.invid.se.
+ 71.941: flen.se INFO Begin testing host mailgate164.vas.invid.se.
+ 72.621: flen.se INFO Begin testing address 84.216.4.164.
+ 73.809: flen.se INFO Done testing address 84.216.4.164.
+ 73.809: flen.se INFO Done testing host mailgate164.vas.invid.se.
+ 74.024: flen.se INFO Begin testing host mailgate163.vas.invid.se.
+ 74.508: flen.se INFO Begin testing address 84.216.4.163.
+ 75.295: flen.se INFO Done testing address 84.216.4.163.
+ 75.295: flen.se INFO Done testing host mailgate163.vas.invid.se.
+ 75.565: flen.se INFO Done testing email address admin@flen.se.
+ 75.565: flen.se INFO Successful attempt to deliver email for SOA RNAME of flen.se (admin.flen.se) using admin@flen.se.
+ 75.566: flen.se INFO SOA TTL for flen.se OK (3600) - recommended >= 3600.
+ 75.566: flen.se NOTICE SOA refresh for flen.se too small (5400) - recommended >= 14400.
+ 75.566: flen.se INFO SOA retry for flen.se OK (3600) - recommended >= 3600.
+ 75.566: flen.se INFO SOA expire for flen.se OK (604800) - recommended >= 604800.
+ 75.566: flen.se INFO SOA minimum for flen.se OK (3600) - recommended between 300 and 86400.
+ 75.566: flen.se INFO Done testing SOA parameters for flen.se.
+ 75.566: flen.se INFO Begin testing connectivity for flen.se.
+ 77.146: flen.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 78.878: flen.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 78.878: flen.se INFO Done testing connectivity for flen.se.
+ 78.888: flen.se INFO Begin testing DNSSEC for flen.se.
+ 78.930: flen.se INFO Did not find DS record for flen.se at parent.
+ 79.113: flen.se INFO Servers for flen.se have consistent extra processing status.
+ 79.143: flen.se INFO Authenticated denial records not found for flen.se.
+ 79.155: flen.se INFO Did not find DNSKEY record for flen.se at child.
+ 79.156: flen.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 79.156: flen.se INFO Done testing DNSSEC for flen.se.
+ 79.156: flen.se INFO Test completed for zone flen.se.

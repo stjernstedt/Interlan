@@ -1,0 +1,84 @@
+  0.000: sotenas.se INFO Begin testing zone sotenas.se with version 1.2.
+  0.000: sotenas.se INFO Begin testing delegation for sotenas.se.
+  6.125: sotenas.se INFO Name servers listed at parent: dns3.telia.com,dns4.telia.com
+ 11.530: sotenas.se INFO Name servers listed at child: dns3.telia.com,dns4.telia.com
+ 11.530: sotenas.se NOTICE No IPv6 name servers found.
+ 11.638: sotenas.se INFO Done testing delegation for sotenas.se.
+ 11.638: sotenas.se INFO Begin testing name server dns3.telia.com.
+ 11.638: sotenas.se INFO Begin testing host dns3.telia.com.
+ 11.639: sotenas.se INFO Begin testing address 81.228.11.184.
+ 20.081: sotenas.se INFO Done testing address 81.228.11.184.
+ 20.082: sotenas.se INFO Done testing host dns3.telia.com.
+ 20.090: sotenas.se INFO Name server dns3.telia.com (81.228.11.184) answers queries over UDP.
+ 20.102: sotenas.se INFO Name server dns3.telia.com (81.228.11.184) answers queries over TCP.
+ 20.110: sotenas.se INFO Name server dns3.telia.com (81.228.11.184) is not recursive.
+ 20.118: sotenas.se INFO Name server dns3.telia.com (81.228.11.184) authoritative for sotenas.se.
+ 20.133: sotenas.se INFO Name server dns3.telia.com (81.228.11.184) closed for zone transfer of sotenas.se.
+ 20.143: sotenas.se INFO Legacy name server ID for dns3.telia.com (81.228.11.184): hostname.bind = dnshosting2-sn1.fre.skanova.net
+ 20.150: sotenas.se INFO Legacy name server ID for dns3.telia.com (81.228.11.184): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 20.164: sotenas.se NOTICE No answer received from 81.228.11.184 when querying for version.server/CH/TXT.
+ 20.164: sotenas.se INFO Done testing name server dns3.telia.com.
+ 20.164: sotenas.se INFO Begin testing name server dns4.telia.com.
+ 20.164: sotenas.se INFO Begin testing host dns4.telia.com.
+ 20.165: sotenas.se INFO Begin testing address 81.228.9.98.
+ 20.986: sotenas.se INFO Done testing address 81.228.9.98.
+ 20.986: sotenas.se INFO Done testing host dns4.telia.com.
+ 21.000: sotenas.se INFO Name server dns4.telia.com (81.228.9.98) answers queries over UDP.
+ 21.024: sotenas.se INFO Name server dns4.telia.com (81.228.9.98) answers queries over TCP.
+ 21.037: sotenas.se INFO Name server dns4.telia.com (81.228.9.98) is not recursive.
+ 21.051: sotenas.se INFO Name server dns4.telia.com (81.228.9.98) authoritative for sotenas.se.
+ 21.084: sotenas.se INFO Name server dns4.telia.com (81.228.9.98) closed for zone transfer of sotenas.se.
+ 21.097: sotenas.se INFO Legacy name server ID for dns4.telia.com (81.228.9.98): hostname.bind = dnshosting1-sn3.vrr.skanova.net
+ 21.110: sotenas.se INFO Legacy name server ID for dns4.telia.com (81.228.9.98): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 21.140: sotenas.se NOTICE No answer received from 81.228.9.98 when querying for version.server/CH/TXT.
+ 21.140: sotenas.se INFO Done testing name server dns4.telia.com.
+ 21.140: sotenas.se INFO Begin testing zone consistency for sotenas.se.
+ 21.158: sotenas.se INFO SOA at address 81.228.9.98 has serial 1288781178.
+ 21.166: sotenas.se INFO SOA at address 81.228.11.184 has serial 1288781178.
+ 21.166: sotenas.se INFO All SOA records have consistent serial numbers.
+ 21.166: sotenas.se INFO All SOA records are consistent among all name servers.
+ 21.166: sotenas.se INFO Done testing zone consistency for sotenas.se.
+ 21.166: sotenas.se INFO Begin testing SOA parameters for sotenas.se.
+ 21.179: sotenas.se INFO Found SOA record for sotenas.se.
+ 21.180: sotenas.se INFO Begin testing host dns9.telia.com.
+ 21.760: sotenas.se INFO Begin testing address 81.228.11.184.
+ 21.761: sotenas.se INFO Done testing address 81.228.11.184.
+ 21.761: sotenas.se INFO Done testing host dns9.telia.com.
+ 21.761: sotenas.se INFO SOA MNAME for sotenas.se valid (dns9.telia.com).
+ 21.762: sotenas.se NOTICE SOA MNAME for sotenas.se (dns9.telia.com) not listed as NS.
+ 21.769: sotenas.se INFO SOA MNAME for sotenas.se (dns9.telia.com) is authoritative.
+ 21.770: sotenas.se INFO Begin testing email address registry@telia.net.
+ 22.405: sotenas.se INFO Mail exchangers for registry@telia.net found mail.telia.net.
+ 22.405: sotenas.se INFO Begin testing host mail.telia.net.
+ 23.436: sotenas.se INFO Begin testing address 194.237.170.102.
+ 24.801: sotenas.se INFO Done testing address 194.237.170.102.
+ 24.801: sotenas.se INFO Done testing host mail.telia.net.
+ 24.801: sotenas.se INFO Begin testing mail server mail.telia.net (194.237.170.102) with registry@telia.net.
+ 24.820: sotenas.se INFO SMTP banner: avserver.telia.net ESMTP Postfix
+ 25.275: sotenas.se INFO SMTP testing of mail.telia.net (194.237.170.102) with registry@telia.net succeeded without errors.
+ 25.276: sotenas.se INFO Done testing mail server mail.telia.net (194.237.170.102) with registry@telia.net.
+ 25.276: sotenas.se INFO Delivery over IPv4 to registry@telia.net ok.
+ 25.276: sotenas.se INFO Delivery over IPv6 to registry@telia.net could not be done.
+ 25.276: sotenas.se INFO Done testing email address registry@telia.net.
+ 25.276: sotenas.se INFO Successful attempt to deliver email for SOA RNAME of sotenas.se (registry.telia.net) using registry@telia.net.
+ 25.276: sotenas.se INFO SOA TTL for sotenas.se OK (3600) - recommended >= 3600.
+ 25.276: sotenas.se NOTICE SOA refresh for sotenas.se too small (1200) - recommended >= 14400.
+ 25.276: sotenas.se NOTICE SOA retry for sotenas.se too small (180) - recommended >= 3600.
+ 25.276: sotenas.se INFO SOA expire for sotenas.se OK (1209600) - recommended >= 604800.
+ 25.276: sotenas.se NOTICE SOA minimum for sotenas.se too large (1209600) - recommended <= 86400.
+ 25.276: sotenas.se INFO Done testing SOA parameters for sotenas.se.
+ 25.277: sotenas.se INFO Begin testing connectivity for sotenas.se.
+ 25.793: sotenas.se INFO Name server 81.228.9.98 announced by: 3301
+ 26.551: sotenas.se INFO Name server 81.228.11.184 announced by: 3301
+ 26.551: sotenas.se INFO Zone announced by IPv4 ASN: 3301
+ 26.551: sotenas.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 26.552: sotenas.se INFO Zone announced by IPv6 ASN: 
+ 26.552: sotenas.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 26.552: sotenas.se INFO Done testing connectivity for sotenas.se.
+ 26.552: sotenas.se INFO Begin testing DNSSEC for sotenas.se.
+ 26.566: sotenas.se INFO Did not find DS record for sotenas.se at parent.
+ 26.603: sotenas.se INFO Servers for sotenas.se have consistent extra processing status.
+ 26.604: sotenas.se INFO Did not find DNSKEY record for sotenas.se at child.
+ 26.604: sotenas.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 26.604: sotenas.se INFO Done testing DNSSEC for sotenas.se.
+ 26.604: sotenas.se INFO Test completed for zone sotenas.se.

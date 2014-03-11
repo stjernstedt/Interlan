@@ -1,0 +1,100 @@
+  0.000: askersund.se INFO Begin testing zone askersund.se with version 1.2.
+  0.000: askersund.se INFO Begin testing delegation for askersund.se.
+  5.513: askersund.se INFO Name servers listed at parent: dns1.hallsberg.se,dns5.telia.com
+ 11.815: askersund.se INFO Name servers listed at child: dns1.hallsberg.se,dns2.hallsberg.se,dns5.telia.com
+ 11.815: askersund.se NOTICE Additional name server listed at child: dns2.hallsberg.se
+ 11.815: askersund.se NOTICE No IPv6 name servers found.
+ 11.824: askersund.se INFO Parent glue for askersund.se found: dns1.hallsberg.se (193.44.212.4)
+ 11.898: askersund.se INFO Checking glue for dns1.hallsberg.se (193.44.212.4).
+ 11.899: askersund.se INFO Parent glue for askersund.se found: dns1.hallsberg.se (193.44.212.4)
+ 11.900: askersund.se INFO Done testing delegation for askersund.se.
+ 11.900: askersund.se INFO Begin testing name server dns1.hallsberg.se.
+ 11.900: askersund.se INFO Begin testing host dns1.hallsberg.se.
+ 11.901: askersund.se INFO Begin testing address 193.44.212.4.
+ 15.375: askersund.se INFO Done testing address 193.44.212.4.
+ 15.375: askersund.se INFO Done testing host dns1.hallsberg.se.
+ 15.391: askersund.se INFO Name server dns1.hallsberg.se (193.44.212.4) answers queries over UDP.
+ 15.430: askersund.se INFO Name server dns1.hallsberg.se (193.44.212.4) answers queries over TCP.
+ 15.451: askersund.se INFO Name server dns1.hallsberg.se (193.44.212.4) is not recursive.
+ 15.468: askersund.se INFO Name server dns1.hallsberg.se (193.44.212.4) authoritative for askersund.se.
+ 15.504: askersund.se NOTICE Name server dns1.hallsberg.se (193.44.212.4) open for zone transfer of askersund.se.
+ 15.517: askersund.se NOTICE No answer received from 193.44.212.4 when querying for hostname.bind/CH/TXT.
+ 15.530: askersund.se NOTICE No answer received from 193.44.212.4 when querying for version.bind/CH/TXT.
+ 15.544: askersund.se NOTICE No answer received from 193.44.212.4 when querying for id.server/CH/TXT.
+ 15.557: askersund.se NOTICE No answer received from 193.44.212.4 when querying for version.server/CH/TXT.
+ 15.558: askersund.se INFO Done testing name server dns1.hallsberg.se.
+ 15.558: askersund.se INFO Begin testing name server dns2.hallsberg.se.
+ 15.558: askersund.se INFO Begin testing host dns2.hallsberg.se.
+ 15.558: askersund.se ERROR No address found for dns2.hallsberg.se.
+ 15.558: askersund.se INFO Done testing host dns2.hallsberg.se.
+ 15.558: askersund.se ERROR Host name or address error for dns2.hallsberg.se.
+ 15.558: askersund.se INFO Done testing name server dns2.hallsberg.se.
+ 15.558: askersund.se INFO Begin testing name server dns5.telia.com.
+ 15.558: askersund.se INFO Begin testing host dns5.telia.com.
+ 15.559: askersund.se INFO Begin testing address 81.228.11.68.
+ 16.893: askersund.se INFO Done testing address 81.228.11.68.
+ 16.893: askersund.se INFO Done testing host dns5.telia.com.
+ 16.901: askersund.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over UDP.
+ 16.913: askersund.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over TCP.
+ 16.920: askersund.se INFO Name server dns5.telia.com (81.228.11.68) is not recursive.
+ 16.927: askersund.se INFO Name server dns5.telia.com (81.228.11.68) authoritative for askersund.se.
+ 16.940: askersund.se INFO Name server dns5.telia.com (81.228.11.68) closed for zone transfer of askersund.se.
+ 16.950: askersund.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): hostname.bind = dnshosting1-sn1.fre.skanova.net
+ 16.957: askersund.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 16.970: askersund.se NOTICE No answer received from 81.228.11.68 when querying for version.server/CH/TXT.
+ 16.970: askersund.se INFO Done testing name server dns5.telia.com.
+ 16.971: askersund.se INFO Begin testing zone consistency for askersund.se.
+ 16.981: askersund.se INFO SOA at address 81.228.11.68 has serial 2010101821.
+ 16.996: askersund.se INFO SOA at address 193.44.212.4 has serial 2010101821.
+ 16.996: askersund.se INFO All SOA records have consistent serial numbers.
+ 16.996: askersund.se INFO All SOA records are consistent among all name servers.
+ 16.996: askersund.se INFO Done testing zone consistency for askersund.se.
+ 16.997: askersund.se INFO Begin testing SOA parameters for askersund.se.
+ 17.004: askersund.se INFO Found SOA record for askersund.se.
+ 17.004: askersund.se INFO Begin testing host dns1.hallsberg.se.
+ 17.004: askersund.se INFO Begin testing address 193.44.212.4.
+ 17.006: askersund.se INFO Done testing address 193.44.212.4.
+ 17.007: askersund.se INFO Done testing host dns1.hallsberg.se.
+ 17.007: askersund.se INFO SOA MNAME for askersund.se valid (dns1.hallsberg.se).
+ 17.023: askersund.se INFO SOA MNAME for askersund.se (dns1.hallsberg.se) listed as NS.
+ 17.039: askersund.se INFO SOA MNAME for askersund.se (dns1.hallsberg.se) is authoritative.
+ 17.039: askersund.se INFO Begin testing email address webmaster@hallsberg.se.
+ 17.262: askersund.se INFO Mail exchangers for webmaster@hallsberg.se found mg-hbg17.hallsberg.se,mailscan.askersund.se.
+ 17.262: askersund.se INFO Begin testing host mg-hbg17.hallsberg.se.
+ 17.757: askersund.se INFO Begin testing address 193.44.212.13.
+ 18.005: askersund.se INFO Done testing address 193.44.212.13.
+ 18.005: askersund.se INFO Done testing host mg-hbg17.hallsberg.se.
+ 18.006: askersund.se INFO Begin testing mail server mg-hbg17.hallsberg.se (193.44.212.13) with webmaster@hallsberg.se.
+ 18.085: askersund.se INFO SMTP banner: mg-hbg17.hallsberg.se ESMTP Postfix
+ 18.128: askersund.se INFO SMTP testing of mg-hbg17.hallsberg.se (193.44.212.13) with webmaster@hallsberg.se succeeded without errors.
+ 18.128: askersund.se INFO Done testing mail server mg-hbg17.hallsberg.se (193.44.212.13) with webmaster@hallsberg.se.
+ 18.128: askersund.se INFO Begin testing host mailscan.askersund.se.
+ 18.587: askersund.se INFO Begin testing address 193.44.212.159.
+ 18.921: askersund.se INFO Done testing address 193.44.212.159.
+ 18.921: askersund.se INFO Done testing host mailscan.askersund.se.
+ 18.921: askersund.se INFO Delivery over IPv4 to webmaster@hallsberg.se ok.
+ 18.921: askersund.se INFO Delivery over IPv6 to webmaster@hallsberg.se could not be done.
+ 18.921: askersund.se INFO Done testing email address webmaster@hallsberg.se.
+ 18.921: askersund.se INFO Successful attempt to deliver email for SOA RNAME of askersund.se (webmaster.hallsberg.se) using webmaster@hallsberg.se.
+ 18.921: askersund.se INFO SOA TTL for askersund.se OK (86400) - recommended >= 3600.
+ 18.922: askersund.se NOTICE SOA refresh for askersund.se too small (1800) - recommended >= 14400.
+ 18.922: askersund.se NOTICE SOA refresh for askersund.se lower than retry (1800 vs 1800).
+ 18.922: askersund.se NOTICE SOA retry for askersund.se too small (1800) - recommended >= 3600.
+ 18.922: askersund.se INFO SOA expire for askersund.se OK (604800) - recommended >= 604800.
+ 18.922: askersund.se INFO SOA minimum for askersund.se OK (86400) - recommended between 300 and 86400.
+ 18.922: askersund.se INFO Done testing SOA parameters for askersund.se.
+ 18.922: askersund.se INFO Begin testing connectivity for askersund.se.
+ 19.463: askersund.se INFO Name server 81.228.11.68 announced by: 3301
+ 19.942: askersund.se INFO Name server 193.44.212.4 announced by: 3301
+ 19.942: askersund.se INFO Zone announced by IPv4 ASN: 3301
+ 19.942: askersund.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 19.943: askersund.se INFO Zone announced by IPv6 ASN: 
+ 19.943: askersund.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 19.943: askersund.se INFO Done testing connectivity for askersund.se.
+ 19.943: askersund.se INFO Begin testing DNSSEC for askersund.se.
+ 19.982: askersund.se INFO Did not find DS record for askersund.se at parent.
+ 20.017: askersund.se INFO Servers for askersund.se have consistent extra processing status.
+ 20.017: askersund.se INFO Did not find DNSKEY record for askersund.se at child.
+ 20.017: askersund.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 20.018: askersund.se INFO Done testing DNSSEC for askersund.se.
+ 20.018: askersund.se INFO Test completed for zone askersund.se.

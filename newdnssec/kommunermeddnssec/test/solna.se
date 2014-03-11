@@ -1,0 +1,106 @@
+  0.000: solna.se INFO Begin testing zone solna.se with version 1.6.1.
+  1.203: solna.se INFO Begin testing delegation for solna.se.
+ 21.391: solna.se INFO Name servers listed at parent: dns5.telia.com,ns01.solna.se
+ 24.160: solna.se INFO Name servers listed at child: dns5.telia.com,ns01.solna.se
+ 24.161: solna.se NOTICE Too few IPv6 name servers (1).
+ 24.356: solna.se INFO Parent glue for solna.se found: ns01.solna.se (194.218.19.5)
+ 24.452: solna.se INFO Checking glue for ns01.solna.se (194.218.19.5).
+ 24.532: solna.se INFO Child glue for solna.se found: ns01.solna.se (194.218.19.5)
+ 24.533: solna.se INFO Parent glue for solna.se found: ns01.solna.se (194.218.19.5)
+ 25.901: solna.se INFO It is possible to build a referral packet for solna.se that works without EDNS0.
+ 26.376: solna.se INFO Previously used name servers for solna.se: 
+ 26.376: solna.se INFO Done testing delegation for solna.se.
+ 26.376: solna.se INFO Begin testing name server dns5.telia.com.
+ 26.376: solna.se INFO Begin testing host dns5.telia.com.
+ 26.377: solna.se INFO Begin testing address 81.228.11.68.
+ 39.183: solna.se INFO Done testing address 81.228.11.68.
+ 39.204: solna.se INFO Begin testing address 2001:2040:c001:101:0:0:0:4.
+ 42.077: solna.se INFO Done testing address 2001:2040:c001:101:0:0:0:4.
+ 42.077: solna.se INFO Done testing host dns5.telia.com.
+ 42.140: solna.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over UDP.
+ 42.186: solna.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over TCP.
+ 42.265: solna.se INFO Name server dns5.telia.com (81.228.11.68) is not recursive.
+ 42.462: solna.se INFO Name server dns5.telia.com (81.228.11.68) authoritative for solna.se.
+ 42.508: solna.se INFO Name server dns5.telia.com (81.228.11.68) closed for zone transfer of solna.se.
+ 42.611: solna.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 42.856: solna.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) answers queries over UDP.
+ 42.968: solna.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) answers queries over TCP.
+ 43.018: solna.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) is not recursive.
+ 43.339: solna.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) authoritative for solna.se.
+ 43.469: solna.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) closed for zone transfer of solna.se.
+ 43.613: solna.se INFO Legacy name server ID for dns5.telia.com (2001:2040:c001:101:0:0:0:4): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 43.836: solna.se INFO Done testing name server dns5.telia.com.
+ 43.836: solna.se INFO Begin testing name server ns01.solna.se.
+ 43.837: solna.se INFO Begin testing host ns01.solna.se.
+ 44.152: solna.se INFO Begin testing address 194.218.19.5.
+ 49.984: solna.se INFO Done testing address 194.218.19.5.
+ 49.984: solna.se INFO Done testing host ns01.solna.se.
+ 50.373: solna.se INFO Name server ns01.solna.se (194.218.19.5) answers queries over UDP.
+ 50.445: solna.se INFO Name server ns01.solna.se (194.218.19.5) answers queries over TCP.
+ 50.507: solna.se INFO Name server ns01.solna.se (194.218.19.5) is not recursive.
+ 50.686: solna.se INFO Name server ns01.solna.se (194.218.19.5) authoritative for solna.se.
+ 50.937: solna.se INFO Name server ns01.solna.se (194.218.19.5) closed for zone transfer of solna.se.
+ 50.956: solna.se NOTICE No answer received from 194.218.19.5 when querying for hostname.bind/CH/TXT.
+ 63.088: solna.se INFO Done testing name server ns01.solna.se.
+ 63.088: solna.se INFO Begin testing zone consistency for solna.se.
+ 64.540: solna.se INFO SOA at address 81.228.11.68 has serial 2010113040.
+ 64.586: solna.se INFO SOA at address 194.218.19.5 has serial 2010113040.
+ 64.659: solna.se INFO SOA at address 2001:2040:c001:101:0:0:0:4 has serial 2010113040.
+ 64.659: solna.se INFO All SOA records have consistent serial numbers.
+ 64.659: solna.se INFO All other fields in the SOA record are consistent among all name servers.
+ 65.050: solna.se NOTICE The listed nameservers for solna.se all report the same set of nameservers.
+ 65.062: solna.se INFO Done testing zone consistency for solna.se.
+ 65.062: solna.se INFO Begin testing SOA parameters for solna.se.
+ 65.099: solna.se INFO Found SOA record for solna.se.
+ 65.099: solna.se INFO Begin testing host ns01.solna.se.
+ 65.304: solna.se INFO Begin testing address 194.218.19.5.
+ 65.682: solna.se INFO Done testing address 194.218.19.5.
+ 65.682: solna.se INFO Done testing host ns01.solna.se.
+ 65.682: solna.se INFO SOA MNAME for solna.se valid (ns01.solna.se).
+ 65.682: solna.se INFO SOA MNAME for solna.se (ns01.solna.se) listed as NS.
+ 65.904: solna.se INFO SOA MNAME for solna.se (ns01.solna.se) is authoritative.
+ 65.916: solna.se INFO Begin testing email address hostmaster@solna.se.
+ 66.630: solna.se INFO Mail exchangers for hostmaster@solna.se found cluster8.eu.messagelabs.com,cluster8a.eu.messagelabs.com.
+ 66.631: solna.se INFO Begin testing host cluster8.eu.messagelabs.com.
+ 67.517: solna.se INFO Begin testing address 85.158.139.51.
+ 71.419: solna.se INFO Done testing address 85.158.139.51.
+ 71.419: solna.se INFO Begin testing address 85.158.140.195.
+ 73.132: solna.se INFO Done testing address 85.158.140.195.
+ 73.132: solna.se INFO Begin testing address 85.158.140.211.
+ 74.600: solna.se INFO Done testing address 85.158.140.211.
+ 74.614: solna.se INFO Begin testing address 85.158.137.3.
+ 75.960: solna.se INFO Done testing address 85.158.137.3.
+ 75.960: solna.se INFO Begin testing address 85.158.137.19.
+ 77.562: solna.se INFO Done testing address 85.158.137.19.
+ 77.562: solna.se INFO Begin testing address 85.158.139.19.
+ 78.976: solna.se INFO Done testing address 85.158.139.19.
+ 78.976: solna.se INFO Begin testing address 85.158.139.35.
+ 80.219: solna.se INFO Done testing address 85.158.139.35.
+ 80.221: solna.se INFO Done testing host cluster8.eu.messagelabs.com.
+ 80.430: solna.se INFO Begin testing host cluster8a.eu.messagelabs.com.
+ 80.890: solna.se INFO Begin testing address 216.82.251.230.
+ 85.889: solna.se INFO Done testing address 216.82.251.230.
+ 85.889: solna.se INFO Begin testing address 85.158.139.103.
+ 87.222: solna.se INFO Done testing address 85.158.139.103.
+ 87.222: solna.se INFO Done testing host cluster8a.eu.messagelabs.com.
+ 87.716: solna.se INFO Done testing email address hostmaster@solna.se.
+ 87.716: solna.se INFO Successful attempt to deliver email for SOA RNAME of solna.se (hostmaster.solna.se) using hostmaster@solna.se.
+ 87.716: solna.se INFO SOA TTL for solna.se OK (3600) - recommended >= 3600.
+ 87.716: solna.se NOTICE SOA refresh for solna.se too small (900) - recommended >= 14400.
+ 87.717: solna.se NOTICE SOA retry for solna.se too small (600) - recommended >= 3600.
+ 87.717: solna.se NOTICE SOA expire for solna.se too small (28800) - recommended >= 604800.
+ 87.717: solna.se INFO SOA minimum for solna.se OK (3600) - recommended between 300 and 86400.
+ 87.717: solna.se INFO Done testing SOA parameters for solna.se.
+ 87.717: solna.se INFO Begin testing connectivity for solna.se.
+ 88.506: solna.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 89.019: solna.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 89.019: solna.se INFO Done testing connectivity for solna.se.
+ 89.020: solna.se INFO Begin testing DNSSEC for solna.se.
+ 89.034: solna.se INFO Did not find DS record for solna.se at parent.
+ 89.152: solna.se INFO Servers for solna.se have consistent extra processing status.
+ 89.192: solna.se INFO Authenticated denial records not found for solna.se.
+ 89.210: solna.se INFO Did not find DNSKEY record for solna.se at child.
+ 89.211: solna.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 89.211: solna.se INFO Done testing DNSSEC for solna.se.
+ 89.211: solna.se INFO Test completed for zone solna.se.
+99.999 solna.se WARNING SOA expire to low 28800 seconds,0 days 8 hours, 

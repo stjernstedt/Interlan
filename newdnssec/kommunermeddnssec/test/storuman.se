@@ -1,0 +1,102 @@
+  0.000: storuman.se INFO Begin testing zone storuman.se with version 1.6.1.
+  1.340: storuman.se INFO Begin testing delegation for storuman.se.
+ 18.889: storuman.se INFO Name servers listed at parent: dns.norrnod.se,dns.umea.se,ns.storuman.se
+ 24.202: storuman.se INFO Name servers listed at child: dns.norrnod.se,dns.umea.se,ns.storuman.se
+ 24.203: storuman.se NOTICE No IPv6 name servers found.
+ 24.293: storuman.se INFO Parent glue for storuman.se found: dns.norrnod.se (194.165.224.190)
+ 24.684: storuman.se INFO Parent glue for storuman.se found: ns.storuman.se (80.88.99.75)
+ 24.752: storuman.se INFO Checking glue for dns.norrnod.se (194.165.224.190).
+ 24.753: storuman.se INFO Checking glue for ns.storuman.se (80.88.99.75).
+ 24.844: storuman.se INFO Child glue for storuman.se found: ns.storuman.se (80.88.99.75)
+ 24.844: storuman.se INFO Parent glue for storuman.se found: dns.norrnod.se (194.165.224.190)
+ 24.845: storuman.se INFO Parent glue for storuman.se found: ns.storuman.se (80.88.99.75)
+ 30.797: storuman.se INFO It is possible to build a referral packet for storuman.se that works without EDNS0.
+ 31.587: storuman.se INFO Previously used name servers for storuman.se: 
+ 31.587: storuman.se INFO Done testing delegation for storuman.se.
+ 31.587: storuman.se INFO Begin testing name server dns.norrnod.se.
+ 31.587: storuman.se INFO Begin testing host dns.norrnod.se.
+ 31.861: storuman.se INFO Begin testing address 194.165.224.190.
+ 45.307: storuman.se INFO Done testing address 194.165.224.190.
+ 45.307: storuman.se INFO Done testing host dns.norrnod.se.
+ 45.818: storuman.se INFO Name server dns.norrnod.se (194.165.224.190) answers queries over UDP.
+ 45.869: storuman.se INFO Name server dns.norrnod.se (194.165.224.190) answers queries over TCP.
+ 45.948: storuman.se INFO Name server dns.norrnod.se (194.165.224.190) is not recursive.
+ 46.680: storuman.se INFO Name server dns.norrnod.se (194.165.224.190) authoritative for storuman.se.
+ 46.763: storuman.se INFO Name server dns.norrnod.se (194.165.224.190) closed for zone transfer of storuman.se.
+ 46.883: storuman.se INFO Legacy name server ID for dns.norrnod.se (194.165.224.190): hostname.bind = dns1mgmt.norrnod.se
+ 46.923: storuman.se INFO Legacy name server ID for dns.norrnod.se (194.165.224.190): version.bind = hakan 140124
+ 47.051: storuman.se NOTICE No answer received from 194.165.224.190 when querying for version.server/CH/TXT.
+ 47.051: storuman.se INFO Done testing name server dns.norrnod.se.
+ 47.051: storuman.se INFO Begin testing name server dns.umea.se.
+ 47.051: storuman.se INFO Begin testing host dns.umea.se.
+ 47.543: storuman.se INFO Begin testing address 194.165.224.165.
+ 48.335: storuman.se INFO Done testing address 194.165.224.165.
+ 48.335: storuman.se INFO Done testing host dns.umea.se.
+ 48.816: storuman.se INFO Name server dns.umea.se (194.165.224.165) answers queries over UDP.
+ 48.895: storuman.se INFO Name server dns.umea.se (194.165.224.165) answers queries over TCP.
+ 48.955: storuman.se INFO Name server dns.umea.se (194.165.224.165) is not recursive.
+ 49.131: storuman.se INFO Name server dns.umea.se (194.165.224.165) authoritative for storuman.se.
+ 49.207: storuman.se INFO Name server dns.umea.se (194.165.224.165) closed for zone transfer of storuman.se.
+ 49.258: storuman.se INFO Legacy name server ID for dns.umea.se (194.165.224.165): hostname.bind = dns2mgmt.norrnod.se
+ 49.309: storuman.se INFO Legacy name server ID for dns.umea.se (194.165.224.165): version.bind = hakan 140124
+ 49.403: storuman.se NOTICE No answer received from 194.165.224.165 when querying for version.server/CH/TXT.
+ 49.403: storuman.se INFO Done testing name server dns.umea.se.
+ 49.403: storuman.se INFO Begin testing name server ns.storuman.se.
+ 49.403: storuman.se INFO Begin testing host ns.storuman.se.
+ 49.791: storuman.se INFO Begin testing address 80.88.99.75.
+ 51.676: storuman.se INFO Done testing address 80.88.99.75.
+ 51.676: storuman.se INFO Done testing host ns.storuman.se.
+ 51.951: storuman.se INFO Name server ns.storuman.se (80.88.99.75) answers queries over UDP.
+ 52.009: storuman.se INFO Name server ns.storuman.se (80.88.99.75) answers queries over TCP.
+ 52.274: storuman.se WARNING Name server ns.storuman.se (80.88.99.75) is recursive.
+ 52.460: storuman.se INFO Name server ns.storuman.se (80.88.99.75) authoritative for storuman.se.
+ 52.655: storuman.se NOTICE Name server ns.storuman.se (80.88.99.75) open for zone transfer of storuman.se.
+ 52.677: storuman.se NOTICE No answer received from 80.88.99.75 when querying for hostname.bind/CH/TXT.
+ 52.717: storuman.se NOTICE No answer received from 80.88.99.75 when querying for version.bind/CH/TXT.
+ 52.756: storuman.se NOTICE No answer received from 80.88.99.75 when querying for id.server/CH/TXT.
+ 52.778: storuman.se NOTICE No answer received from 80.88.99.75 when querying for version.server/CH/TXT.
+ 52.779: storuman.se INFO Done testing name server ns.storuman.se.
+ 52.779: storuman.se INFO Begin testing zone consistency for storuman.se.
+ 54.236: storuman.se INFO SOA at address 80.88.99.75 has serial 2014011503.
+ 54.296: storuman.se INFO SOA at address 194.165.224.165 has serial 2014011503.
+ 54.332: storuman.se INFO SOA at address 194.165.224.190 has serial 2014011503.
+ 54.332: storuman.se INFO All SOA records have consistent serial numbers.
+ 54.332: storuman.se INFO All other fields in the SOA record are consistent among all name servers.
+ 55.184: storuman.se NOTICE The listed nameservers for storuman.se all report the same set of nameservers.
+ 55.184: storuman.se INFO Done testing zone consistency for storuman.se.
+ 55.184: storuman.se INFO Begin testing SOA parameters for storuman.se.
+ 55.242: storuman.se INFO Found SOA record for storuman.se.
+ 55.242: storuman.se INFO Begin testing host ns.storuman.se.
+ 55.509: storuman.se INFO Begin testing address 80.88.99.75.
+ 55.672: storuman.se INFO Done testing address 80.88.99.75.
+ 55.672: storuman.se INFO Done testing host ns.storuman.se.
+ 55.672: storuman.se INFO SOA MNAME for storuman.se valid (ns.storuman.se).
+ 55.672: storuman.se INFO SOA MNAME for storuman.se (ns.storuman.se) listed as NS.
+ 55.913: storuman.se INFO SOA MNAME for storuman.se (ns.storuman.se) is authoritative.
+ 55.914: storuman.se INFO Begin testing email address hostmaster@ns.storuman.se.
+ 56.187: storuman.se INFO Mail exchangers for hostmaster@ns.storuman.se found ns.storuman.se.
+ 56.187: storuman.se INFO All mail servers for hostmaster@ns.storuman.se are in zone storuman.se.
+ 56.187: storuman.se INFO Begin testing host ns.storuman.se.
+ 56.363: storuman.se INFO Begin testing address 80.88.99.75.
+ 56.506: storuman.se INFO Done testing address 80.88.99.75.
+ 56.506: storuman.se INFO Done testing host ns.storuman.se.
+ 56.667: storuman.se INFO Done testing email address hostmaster@ns.storuman.se.
+ 56.667: storuman.se INFO Successful attempt to deliver email for SOA RNAME of storuman.se (hostmaster.ns.storuman.se) using hostmaster@ns.storuman.se.
+ 56.667: storuman.se INFO SOA TTL for storuman.se OK (86400) - recommended >= 3600.
+ 56.667: storuman.se NOTICE SOA refresh for storuman.se too small (10800) - recommended >= 14400.
+ 56.667: storuman.se INFO SOA retry for storuman.se OK (3600) - recommended >= 3600.
+ 56.667: storuman.se INFO SOA expire for storuman.se OK (604800) - recommended >= 604800.
+ 56.668: storuman.se INFO SOA minimum for storuman.se OK (86400) - recommended between 300 and 86400.
+ 56.668: storuman.se INFO Done testing SOA parameters for storuman.se.
+ 56.668: storuman.se INFO Begin testing connectivity for storuman.se.
+ 58.218: storuman.se INFO Zone announced by more than one ASN.
+ 58.218: storuman.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 58.218: storuman.se INFO Done testing connectivity for storuman.se.
+ 58.219: storuman.se INFO Begin testing DNSSEC for storuman.se.
+ 58.271: storuman.se INFO Did not find DS record for storuman.se at parent.
+ 58.406: storuman.se INFO Servers for storuman.se have consistent extra processing status.
+ 58.451: storuman.se INFO Authenticated denial records not found for storuman.se.
+ 58.507: storuman.se INFO Did not find DNSKEY record for storuman.se at child.
+ 58.507: storuman.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 58.507: storuman.se INFO Done testing DNSSEC for storuman.se.
+ 58.507: storuman.se INFO Test completed for zone storuman.se.

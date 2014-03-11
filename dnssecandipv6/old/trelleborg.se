@@ -1,0 +1,85 @@
+  0.000: trelleborg.se INFO Begin testing zone trelleborg.se with version 1.0.1.
+  0.001: trelleborg.se INFO Begin testing delegation for trelleborg.se.
+  1.145: trelleborg.se INFO Name servers listed at parent: kista.dns.swip.net,nstrelleborg.trelleborg.se
+  1.267: trelleborg.se INFO Name servers listed at child: kista.dns.swip.net,nstrelleborg.trelleborg.se
+  1.268: trelleborg.se NOTICE No IPv6 name servers found.
+  1.360: trelleborg.se INFO Parent glue for trelleborg.se found: nstrelleborg.trelleborg.se (194.132.131.18)
+  1.375: trelleborg.se INFO Checking glue for nstrelleborg.trelleborg.se (194.132.131.18).
+  1.398: trelleborg.se INFO Child glue for trelleborg.se found: nstrelleborg.trelleborg.se (194.132.131.18)
+  1.398: trelleborg.se INFO Done testing delegation for trelleborg.se.
+  1.399: trelleborg.se INFO Begin testing name server kista.dns.swip.net.
+  1.400: trelleborg.se INFO Begin testing host kista.dns.swip.net.
+  1.401: trelleborg.se INFO Begin testing address 192.71.220.9.
+  4.038: trelleborg.se INFO Done testing address 192.71.220.9.
+  4.038: trelleborg.se INFO Done testing host kista.dns.swip.net.
+  4.078: trelleborg.se INFO Name server kista.dns.swip.net (192.71.220.9) is not recursive.
+  4.094: trelleborg.se INFO Name server kista.dns.swip.net (192.71.220.9) authoritative for trelleborg.se.
+  4.110: trelleborg.se INFO Name server kista.dns.swip.net (192.71.220.9) answers queries over UDP.
+  4.131: trelleborg.se INFO Name server kista.dns.swip.net (192.71.220.9) answers queries over TCP.
+  4.155: trelleborg.se INFO Name server kista.dns.swip.net (192.71.220.9) closed for zone transfer of trelleborg.se.
+  4.180: trelleborg.se INFO Legacy name server ID for kista.dns.swip.net (192.71.220.9): hostname.bind = nico
+ 10.213: trelleborg.se NOTICE No answer received from 192.71.220.9 when querying for version.server/CH/TXT.
+ 10.213: trelleborg.se INFO Done testing name server kista.dns.swip.net.
+ 10.213: trelleborg.se INFO Begin testing name server nstrelleborg.trelleborg.se.
+ 10.214: trelleborg.se INFO Begin testing host nstrelleborg.trelleborg.se.
+ 10.215: trelleborg.se INFO Begin testing address 194.132.131.18.
+ 10.876: trelleborg.se INFO Done testing address 194.132.131.18.
+ 10.876: trelleborg.se INFO Done testing host nstrelleborg.trelleborg.se.
+ 10.934: trelleborg.se WARNING Name server nstrelleborg.trelleborg.se (194.132.131.18) is recursive.
+ 10.961: trelleborg.se INFO Name server nstrelleborg.trelleborg.se (194.132.131.18) authoritative for trelleborg.se.
+ 10.985: trelleborg.se INFO Name server nstrelleborg.trelleborg.se (194.132.131.18) answers queries over UDP.
+ 11.029: trelleborg.se INFO Name server nstrelleborg.trelleborg.se (194.132.131.18) answers queries over TCP.
+ 11.297: trelleborg.se INFO Name server nstrelleborg.trelleborg.se (194.132.131.18) closed for zone transfer of trelleborg.se.
+ 11.318: trelleborg.se NOTICE No answer received from 194.132.131.18 when querying for hostname.bind/CH/TXT.
+ 29.339: trelleborg.se INFO Done testing name server nstrelleborg.trelleborg.se.
+ 29.340: trelleborg.se INFO Begin testing zone consistency for trelleborg.se.
+ 29.372: trelleborg.se INFO SOA at address 194.132.131.18 has serial 2008052133.
+ 29.386: trelleborg.se INFO SOA at address 192.71.220.9 has serial 2008052133.
+ 29.386: trelleborg.se INFO All SOA records have consistent serial numbers.
+ 29.386: trelleborg.se INFO All SOA records are consistent among all name servers.
+ 29.386: trelleborg.se INFO Done testing zone consistency for trelleborg.se.
+ 29.387: trelleborg.se INFO Begin testing SOA parameters for trelleborg.se.
+ 29.410: trelleborg.se INFO Found SOA record for trelleborg.se.
+ 29.411: trelleborg.se INFO Begin testing host nstrelleborg.trelleborg.se.
+ 29.411: trelleborg.se INFO Begin testing address 194.132.131.18.
+ 29.414: trelleborg.se INFO Done testing address 194.132.131.18.
+ 29.414: trelleborg.se INFO Done testing host nstrelleborg.trelleborg.se.
+ 29.415: trelleborg.se INFO SOA MNAME for trelleborg.se valid (nstrelleborg.trelleborg.se).
+ 29.415: trelleborg.se INFO SOA MNAME for trelleborg.se (nstrelleborg.trelleborg.se) listed as NS.
+ 29.438: trelleborg.se INFO SOA MNAME for trelleborg.se (nstrelleborg.trelleborg.se) is authoritative.
+ 29.439: trelleborg.se INFO Begin testing email address administrator@trelleborg.se.
+ 29.466: trelleborg.se INFO Mail exchangers for administrator@trelleborg.se found mail.trelleborg.se.
+ 29.466: trelleborg.se INFO All mail servers for administrator@trelleborg.se are in zone trelleborg.se.
+ 29.467: trelleborg.se INFO Begin testing host mail.trelleborg.se.
+ 29.509: trelleborg.se INFO Begin testing address 194.132.131.22.
+ 29.549: trelleborg.se INFO Done testing address 194.132.131.22.
+ 29.550: trelleborg.se INFO Done testing host mail.trelleborg.se.
+ 29.551: trelleborg.se INFO Begin testing mail server mail.trelleborg.se (194.132.131.22) with administrator@trelleborg.se.
+ 29.612: trelleborg.se INFO SMTP banner: trelleborg.se Microsoft ESMTP MAIL Service, Version: 6.0.3790.1830 ready at  Wed, 10 Mar 2010 11:57:43 +0100 
+ 29.676: trelleborg.se INFO SMTP testing of mail.trelleborg.se (194.132.131.22) with administrator@trelleborg.se succeeded without errors.
+ 29.676: trelleborg.se INFO Done testing mail server mail.trelleborg.se (194.132.131.22) with administrator@trelleborg.se.
+ 29.677: trelleborg.se INFO Delivery over IPv4 to administrator@trelleborg.se ok.
+ 29.677: trelleborg.se INFO Delivery over IPv6 to administrator@trelleborg.se could not be done.
+ 29.677: trelleborg.se INFO Done testing email address administrator@trelleborg.se.
+ 29.677: trelleborg.se INFO Successful attempt to deliver email for SOA RNAME of trelleborg.se (administrator.trelleborg.se) using administrator@trelleborg.se.
+ 29.677: trelleborg.se INFO SOA TTL for trelleborg.se OK (3600) - recommended >= 3600.
+ 29.678: trelleborg.se NOTICE SOA refresh for trelleborg.se too small (900) - recommended >= 14400.
+ 29.679: trelleborg.se NOTICE SOA retry for trelleborg.se too small (600) - recommended >= 3600.
+ 29.679: trelleborg.se NOTICE SOA expire for trelleborg.se too small (86400) - recommended >= 604800.
+ 29.679: trelleborg.se INFO SOA minimum for trelleborg.se OK (3600) - recommended between 300 and 86400.
+ 29.679: trelleborg.se INFO Done testing SOA parameters for trelleborg.se.
+ 29.680: trelleborg.se INFO Begin testing connectivity for trelleborg.se.
+ 29.942: trelleborg.se INFO Name server 194.132.131.18 announced by: 1257
+ 30.090: trelleborg.se INFO Name server 192.71.220.9 announced by: 1257
+ 30.091: trelleborg.se INFO Zone announced by ASN: 1257
+ 30.091: trelleborg.se NOTICE Zone announced by only one ASN (1).
+ 30.091: trelleborg.se INFO Zone announced by IPv6 ASN: 
+ 30.091: trelleborg.se NOTICE Zone announced by only one IPv6 ASN (0).
+ 30.091: trelleborg.se INFO Done testing connectivity for trelleborg.se.
+ 30.092: trelleborg.se INFO Begin testing DNSSEC for trelleborg.se.
+ 30.116: trelleborg.se INFO Did not find DS record for trelleborg.se at parent.
+ 30.175: trelleborg.se INFO Servers for trelleborg.se have consistent extra processing status.
+ 30.175: trelleborg.se INFO Did not find DNSKEY record for trelleborg.se at child.
+ 30.175: trelleborg.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 30.175: trelleborg.se INFO Done testing DNSSEC for trelleborg.se.
+ 30.175: trelleborg.se INFO Test completed for zone trelleborg.se.

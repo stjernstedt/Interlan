@@ -1,0 +1,219 @@
+  0.000: lulea.se INFO Begin testing zone lulea.se with version 1.6.1.
+  0.850: lulea.se INFO Begin testing delegation for lulea.se.
+ 21.110: lulea.se INFO Name servers listed at parent: guran.lulea.se,ns1.ipv6dns.se,ns2.ipv6dns.se,zuran.lulea.se
+ 31.717: lulea.se INFO Name servers listed at child: guran.lulea.se,ns1.ipv6dns.se,ns2.ipv6dns.se,zuran.lulea.se
+ 31.866: lulea.se INFO Parent glue for lulea.se found: guran.lulea.se (195.196.112.11)
+ 32.202: lulea.se INFO Parent glue for lulea.se found: ns1.ipv6dns.se (192.71.21.35)
+ 32.342: lulea.se INFO Parent glue for lulea.se found: ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53)
+ 32.462: lulea.se INFO Parent glue for lulea.se found: ns2.ipv6dns.se (176.58.97.7)
+ 32.462: lulea.se INFO Parent glue for lulea.se found: ns2.ipv6dns.se (109.74.7.166)
+ 32.586: lulea.se INFO Parent glue for lulea.se found: ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165)
+ 32.586: lulea.se INFO Parent glue for lulea.se found: ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001)
+ 32.682: lulea.se INFO Parent glue for lulea.se found: zuran.lulea.se (195.196.112.12)
+ 32.869: lulea.se INFO Checking glue for guran.lulea.se (195.196.112.11).
+ 32.936: lulea.se INFO Child glue for lulea.se found: guran.lulea.se (195.196.112.11)
+ 32.936: lulea.se INFO Checking glue for ns1.ipv6dns.se (192.71.21.35).
+ 32.936: lulea.se INFO Checking glue for ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53).
+ 32.936: lulea.se INFO Checking glue for ns2.ipv6dns.se (176.58.97.7).
+ 32.936: lulea.se INFO Checking glue for ns2.ipv6dns.se (109.74.7.166).
+ 32.936: lulea.se INFO Checking glue for ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165).
+ 32.936: lulea.se INFO Checking glue for ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001).
+ 32.936: lulea.se INFO Checking glue for zuran.lulea.se (195.196.112.12).
+ 33.045: lulea.se INFO Child glue for lulea.se found: zuran.lulea.se (195.196.112.12)
+ 33.045: lulea.se INFO Parent glue for lulea.se found: guran.lulea.se (195.196.112.11)
+ 33.045: lulea.se INFO Parent glue for lulea.se found: ns1.ipv6dns.se (192.71.21.35)
+ 33.046: lulea.se INFO Parent glue for lulea.se found: ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53)
+ 33.046: lulea.se INFO Parent glue for lulea.se found: ns2.ipv6dns.se (176.58.97.7)
+ 33.046: lulea.se INFO Parent glue for lulea.se found: ns2.ipv6dns.se (109.74.7.166)
+ 33.046: lulea.se INFO Parent glue for lulea.se found: ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165)
+ 33.046: lulea.se INFO Parent glue for lulea.se found: ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001)
+ 33.046: lulea.se INFO Parent glue for lulea.se found: zuran.lulea.se (195.196.112.12)
+ 35.086: lulea.se INFO It is possible to build a referral packet for lulea.se that works without EDNS0.
+ 36.672: lulea.se INFO Previously used name servers for lulea.se: 
+ 36.672: lulea.se INFO Done testing delegation for lulea.se.
+ 36.673: lulea.se INFO Begin testing name server guran.lulea.se.
+ 36.673: lulea.se INFO Begin testing host guran.lulea.se.
+ 37.122: lulea.se INFO Begin testing address 195.196.112.11.
+ 51.672: lulea.se INFO Done testing address 195.196.112.11.
+ 51.672: lulea.se INFO Done testing host guran.lulea.se.
+ 52.510: lulea.se INFO Name server guran.lulea.se (195.196.112.11) answers queries over UDP.
+ 52.821: lulea.se INFO Name server guran.lulea.se (195.196.112.11) answers queries over TCP.
+ 53.044: lulea.se INFO Name server guran.lulea.se (195.196.112.11) is not recursive.
+ 53.235: lulea.se INFO Name server guran.lulea.se (195.196.112.11) authoritative for lulea.se.
+ 53.379: lulea.se INFO Name server guran.lulea.se (195.196.112.11) closed for zone transfer of lulea.se.
+ 53.440: lulea.se INFO Legacy name server ID for guran.lulea.se (195.196.112.11): hostname.bind = guran
+ 53.512: lulea.se INFO Legacy name server ID for guran.lulea.se (195.196.112.11): version.bind = 9.9.3-P2
+ 53.658: lulea.se NOTICE No answer received from 195.196.112.11 when querying for version.server/CH/TXT.
+ 53.658: lulea.se INFO Done testing name server guran.lulea.se.
+ 53.658: lulea.se INFO Begin testing name server ns1.ipv6dns.se.
+ 53.658: lulea.se INFO Begin testing host ns1.ipv6dns.se.
+ 53.659: lulea.se INFO Begin testing address 192.71.21.35.
+ 78.434: lulea.se INFO Done testing address 192.71.21.35.
+ 78.434: lulea.se INFO Begin testing address 2001:67c:2448:10:0:0:0:53.
+ 79.038: lulea.se INFO Done testing address 2001:67c:2448:10:0:0:0:53.
+ 79.039: lulea.se INFO Done testing host ns1.ipv6dns.se.
+ 79.072: lulea.se INFO Name server ns1.ipv6dns.se (192.71.21.35) answers queries over UDP.
+ 79.111: lulea.se INFO Name server ns1.ipv6dns.se (192.71.21.35) answers queries over TCP.
+ 79.181: lulea.se INFO Name server ns1.ipv6dns.se (192.71.21.35) is not recursive.
+ 79.345: lulea.se INFO Name server ns1.ipv6dns.se (192.71.21.35) authoritative for lulea.se.
+ 79.379: lulea.se INFO Name server ns1.ipv6dns.se (192.71.21.35) closed for zone transfer of lulea.se.
+ 79.408: lulea.se INFO Legacy name server ID for ns1.ipv6dns.se (192.71.21.35): hostname.bind = ns1
+ 79.445: lulea.se INFO Legacy name server ID for ns1.ipv6dns.se (192.71.21.35): version.bind = 9.9.4rc2
+ 79.509: lulea.se NOTICE No answer received from 192.71.21.35 when querying for version.server/CH/TXT.
+ 79.550: lulea.se INFO Name server ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53) answers queries over UDP.
+ 79.620: lulea.se INFO Name server ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53) answers queries over TCP.
+ 79.673: lulea.se INFO Name server ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53) is not recursive.
+ 79.832: lulea.se INFO Name server ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53) authoritative for lulea.se.
+ 79.870: lulea.se INFO Name server ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53) closed for zone transfer of lulea.se.
+ 79.965: lulea.se INFO Legacy name server ID for ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53): hostname.bind = ns1
+ 80.072: lulea.se INFO Legacy name server ID for ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53): version.bind = 9.9.4rc2
+ 80.157: lulea.se NOTICE No answer received from 2001:67c:2448:10:0:0:0:53 when querying for version.server/CH/TXT.
+ 80.157: lulea.se INFO Done testing name server ns1.ipv6dns.se.
+ 80.158: lulea.se INFO Begin testing name server ns2.ipv6dns.se.
+ 80.158: lulea.se INFO Begin testing host ns2.ipv6dns.se.
+ 80.168: lulea.se INFO Begin testing address 109.74.7.166.
+ 82.082: lulea.se INFO Done testing address 109.74.7.166.
+ 82.082: lulea.se INFO Begin testing address 176.58.97.7.
+ 83.833: lulea.se INFO Done testing address 176.58.97.7.
+ 83.833: lulea.se INFO Begin testing address 2a01:7e00:0:0:0:0:17:f001.
+ 84.451: lulea.se INFO Done testing address 2a01:7e00:0:0:0:0:17:f001.
+ 84.452: lulea.se INFO Begin testing address 2a02:750:7:0:0:0:0:165.
+ 84.933: lulea.se INFO Done testing address 2a02:750:7:0:0:0:0:165.
+ 84.933: lulea.se INFO Done testing host ns2.ipv6dns.se.
+ 84.968: lulea.se INFO Name server ns2.ipv6dns.se (109.74.7.166) answers queries over UDP.
+ 85.002: lulea.se INFO Name server ns2.ipv6dns.se (109.74.7.166) answers queries over TCP.
+ 85.032: lulea.se INFO Name server ns2.ipv6dns.se (109.74.7.166) is not recursive.
+ 85.139: lulea.se INFO Name server ns2.ipv6dns.se (109.74.7.166) authoritative for lulea.se.
+ 85.167: lulea.se INFO Name server ns2.ipv6dns.se (109.74.7.166) closed for zone transfer of lulea.se.
+ 85.195: lulea.se INFO Legacy name server ID for ns2.ipv6dns.se (109.74.7.166): hostname.bind = ns3
+ 85.258: lulea.se INFO Legacy name server ID for ns2.ipv6dns.se (109.74.7.166): version.bind = 9.9.4-P2
+ 85.312: lulea.se NOTICE No answer received from 109.74.7.166 when querying for version.server/CH/TXT.
+ 85.382: lulea.se INFO Name server ns2.ipv6dns.se (176.58.97.7) answers queries over UDP.
+ 85.496: lulea.se INFO Name server ns2.ipv6dns.se (176.58.97.7) answers queries over TCP.
+ 85.573: lulea.se INFO Name server ns2.ipv6dns.se (176.58.97.7) is not recursive.
+ 85.819: lulea.se INFO Name server ns2.ipv6dns.se (176.58.97.7) authoritative for lulea.se.
+ 85.972: lulea.se INFO Name server ns2.ipv6dns.se (176.58.97.7) closed for zone transfer of lulea.se.
+ 86.037: lulea.se INFO Legacy name server ID for ns2.ipv6dns.se (176.58.97.7): hostname.bind = li443-7
+ 86.102: lulea.se INFO Legacy name server ID for ns2.ipv6dns.se (176.58.97.7): version.bind = 9.9.4-P2
+ 86.232: lulea.se NOTICE No answer received from 176.58.97.7 when querying for version.server/CH/TXT.
+ 86.323: lulea.se INFO Name server ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001) answers queries over UDP.
+ 86.863: lulea.se INFO Name server ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001) answers queries over TCP.
+ 87.017: lulea.se INFO Name server ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001) is not recursive.
+ 87.600: lulea.se INFO Name server ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001) authoritative for lulea.se.
+ 87.759: lulea.se INFO Name server ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001) closed for zone transfer of lulea.se.
+ 87.828: lulea.se INFO Legacy name server ID for ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001): hostname.bind = li443-7
+ 87.882: lulea.se INFO Legacy name server ID for ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001): version.bind = 9.9.4-P2
+ 88.064: lulea.se NOTICE No answer received from 2a01:7e00:0:0:0:0:17:f001 when querying for version.server/CH/TXT.
+ 88.077: lulea.se INFO Name server ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165) answers queries over UDP.
+ 88.100: lulea.se INFO Name server ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165) answers queries over TCP.
+ 88.110: lulea.se INFO Name server ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165) is not recursive.
+ 88.154: lulea.se INFO Name server ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165) authoritative for lulea.se.
+ 88.179: lulea.se INFO Name server ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165) closed for zone transfer of lulea.se.
+ 88.200: lulea.se INFO Legacy name server ID for ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165): hostname.bind = ns3
+ 88.218: lulea.se INFO Legacy name server ID for ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165): version.bind = 9.9.4-P2
+ 88.246: lulea.se NOTICE No answer received from 2a02:750:7:0:0:0:0:165 when querying for version.server/CH/TXT.
+ 88.246: lulea.se INFO Done testing name server ns2.ipv6dns.se.
+ 88.246: lulea.se INFO Begin testing name server zuran.lulea.se.
+ 88.246: lulea.se INFO Begin testing host zuran.lulea.se.
+ 88.363: lulea.se INFO Begin testing address 195.196.112.12.
+ 89.168: lulea.se INFO Done testing address 195.196.112.12.
+ 89.168: lulea.se INFO Done testing host zuran.lulea.se.
+ 89.995: lulea.se INFO Name server zuran.lulea.se (195.196.112.12) answers queries over UDP.
+ 90.045: lulea.se INFO Name server zuran.lulea.se (195.196.112.12) answers queries over TCP.
+ 90.092: lulea.se INFO Name server zuran.lulea.se (195.196.112.12) is not recursive.
+ 90.194: lulea.se INFO Name server zuran.lulea.se (195.196.112.12) authoritative for lulea.se.
+ 90.256: lulea.se INFO Name server zuran.lulea.se (195.196.112.12) closed for zone transfer of lulea.se.
+ 90.278: lulea.se INFO Legacy name server ID for zuran.lulea.se (195.196.112.12): hostname.bind = zuran
+ 90.311: lulea.se INFO Legacy name server ID for zuran.lulea.se (195.196.112.12): version.bind = 9.9.3-P2
+ 90.358: lulea.se NOTICE No answer received from 195.196.112.12 when querying for version.server/CH/TXT.
+ 90.359: lulea.se INFO Done testing name server zuran.lulea.se.
+ 90.359: lulea.se INFO Begin testing zone consistency for lulea.se.
+ 91.578: lulea.se INFO SOA at address 195.196.112.11 has serial 2014030911.
+ 91.720: lulea.se INFO SOA at address 176.58.97.7 has serial 2014030911.
+ 91.752: lulea.se INFO SOA at address 2001:67c:2448:10:0:0:0:53 has serial 2014030911.
+ 91.784: lulea.se INFO SOA at address 192.71.21.35 has serial 2014030911.
+ 91.832: lulea.se INFO SOA at address 109.74.7.166 has serial 2014030911.
+ 91.888: lulea.se INFO SOA at address 2a01:7e00:0:0:0:0:17:f001 has serial 2014030911.
+ 91.898: lulea.se INFO SOA at address 2a02:750:7:0:0:0:0:165 has serial 2014030911.
+ 91.933: lulea.se INFO SOA at address 195.196.112.12 has serial 2014030911.
+ 91.933: lulea.se INFO All SOA records have consistent serial numbers.
+ 91.933: lulea.se INFO All other fields in the SOA record are consistent among all name servers.
+ 92.775: lulea.se NOTICE The listed nameservers for lulea.se all report the same set of nameservers.
+ 92.776: lulea.se INFO Done testing zone consistency for lulea.se.
+ 92.776: lulea.se INFO Begin testing SOA parameters for lulea.se.
+ 92.801: lulea.se INFO Found SOA record for lulea.se.
+ 92.801: lulea.se INFO Begin testing host ns.lulea.se.
+ 93.288: lulea.se INFO Begin testing address 195.196.112.10.
+ 94.240: lulea.se INFO Done testing address 195.196.112.10.
+ 94.240: lulea.se INFO Done testing host ns.lulea.se.
+ 94.240: lulea.se INFO SOA MNAME for lulea.se valid (ns.lulea.se).
+ 94.240: lulea.se NOTICE SOA MNAME for lulea.se (ns.lulea.se) not listed as NS.
+ 94.476: lulea.se INFO SOA MNAME for lulea.se (ns.lulea.se) is authoritative.
+ 94.476: lulea.se INFO Begin testing email address hostmaster@lulea.se.
+ 94.597: lulea.se INFO Mail exchangers for hostmaster@lulea.se found zuran.lulea.se,guran.lulea.se.
+ 94.597: lulea.se INFO All mail servers for hostmaster@lulea.se are in zone lulea.se.
+ 94.597: lulea.se INFO Begin testing host zuran.lulea.se.
+ 94.676: lulea.se INFO Begin testing address 195.196.112.12.
+ 95.048: lulea.se INFO Done testing address 195.196.112.12.
+ 95.048: lulea.se INFO Done testing host zuran.lulea.se.
+ 95.208: lulea.se INFO Begin testing host guran.lulea.se.
+ 95.382: lulea.se INFO Begin testing address 195.196.112.11.
+ 95.723: lulea.se INFO Done testing address 195.196.112.11.
+ 95.724: lulea.se INFO Done testing host guran.lulea.se.
+ 95.848: lulea.se INFO Done testing email address hostmaster@lulea.se.
+ 95.848: lulea.se INFO Successful attempt to deliver email for SOA RNAME of lulea.se (hostmaster.lulea.se) using hostmaster@lulea.se.
+ 95.848: lulea.se INFO SOA TTL for lulea.se OK (3600) - recommended >= 3600.
+ 95.848: lulea.se INFO SOA refresh for lulea.se OK (28800) - recommended >= 14400.
+ 95.848: lulea.se INFO SOA retry for lulea.se OK (7200) - recommended >= 3600.
+ 95.849: lulea.se INFO SOA expire for lulea.se OK (604800) - recommended >= 604800.
+ 95.849: lulea.se INFO SOA minimum for lulea.se OK (3600) - recommended between 300 and 86400.
+ 95.849: lulea.se INFO Done testing SOA parameters for lulea.se.
+ 95.849: lulea.se INFO Begin testing connectivity for lulea.se.
+ 98.750: lulea.se INFO Zone announced by more than one ASN.
+100.348: lulea.se INFO Zone announced by more than one IPv6 ASN.
+100.349: lulea.se INFO Done testing connectivity for lulea.se.
+100.349: lulea.se INFO Begin testing DNSSEC for lulea.se.
+100.383: lulea.se INFO Found DS record for lulea.se at parent.
+100.434: lulea.se INFO Nameserver 195.196.112.11 does DNSSEC extra processing.
+100.536: lulea.se INFO Nameserver 176.58.97.7 does DNSSEC extra processing.
+100.549: lulea.se INFO Nameserver 109.74.7.166 does DNSSEC extra processing.
+100.554: lulea.se INFO Nameserver 192.71.21.35 does DNSSEC extra processing.
+100.608: lulea.se INFO Nameserver 195.196.112.12 does DNSSEC extra processing.
+100.724: lulea.se INFO Nameserver 2a01:7e00:0:0:0:0:17:f001 does DNSSEC extra processing.
+100.778: lulea.se INFO Nameserver 2a02:750:7:0:0:0:0:165 does DNSSEC extra processing.
+100.814: lulea.se INFO Nameserver 2001:67c:2448:10:0:0:0:53 does DNSSEC extra processing.
+100.814: lulea.se INFO Servers for lulea.se have consistent extra processing status.
+100.870: lulea.se INFO Authenticated denial records found for lulea.se, of type NSEC3.
+100.933: lulea.se INFO NSEC3PARAM record found for lulea.se.
+100.933: lulea.se INFO NSEC3 for lulea.se is set to use 5 iterations, which is less than 100 and thus OK.
+100.933: lulea.se INFO Found DNSKEY record for lulea.se at child.
+100.933: lulea.se INFO Consistent security for lulea.se.
+100.933: lulea.se INFO Checking DNSSEC at child (lulea.se).
+100.934: lulea.se INFO lulea.se's key with tag 22500 uses algorithm number 8 (RSA/SHA-256).
+100.934: lulea.se INFO Algorithm number 8 is OK.
+100.934: lulea.se INFO lulea.se's key with tag 50785 uses algorithm number 8 (RSA/SHA-256).
+100.934: lulea.se INFO Algorithm number 8 is OK.
+100.934: lulea.se INFO DNSKEY lulea.se (tag 50785) is marked as a secure entry point (SEP).
+100.935: lulea.se INFO DNSSEC signature expires at: Thu Apr 10 14:09:00 2014
+100.935: lulea.se INFO Duration for RRSIG(lulea.se/IN/DNSKEY/50785) is OK (2796773 seconds).
+100.954: lulea.se INFO DNSSEC signature RRSIG(lulea.se/IN/DNSKEY/50785) matches records.
+100.954: lulea.se INFO DNSSEC signature valid: RRSIG(lulea.se/IN/DNSKEY/50785)
+100.971: lulea.se INFO Enough valid signatures found for lulea.se.
+101.032: lulea.se INFO DNSSEC signature expires at: Thu Apr 10 12:29:57 2014
+101.033: lulea.se INFO Duration for RRSIG(lulea.se/IN/SOA/22500) is OK (2733230 seconds).
+101.033: lulea.se INFO DNSSEC signature RRSIG(lulea.se/IN/SOA/22500) matches records.
+101.034: lulea.se INFO DNSSEC signature valid: RRSIG(lulea.se/IN/SOA/22500)
+101.034: lulea.se INFO Enough valid signatures over SOA RRset found for lulea.se.
+101.034: lulea.se INFO DNSSEC child checks for lulea.se complete.
+101.034: lulea.se INFO Checking DNSSEC at parent of lulea.se.
+101.034: lulea.se INFO lulea.se's key with tag 50785 uses algorithm number 8 (RSA/SHA-256).
+101.034: lulea.se INFO Algorithm number 8 is OK.
+101.035: lulea.se INFO Parent DS(lulea.se/8/1/50785) refers to valid key at child: DNSKEY(lulea.se/8/50785)
+101.035: lulea.se INFO Parent DS(lulea.se) refers to secure entry point (SEP) at child: DS(lulea.se/8/1/50785)
+101.035: lulea.se INFO lulea.se's key with tag 50785 uses algorithm number 8 (RSA/SHA-256).
+101.035: lulea.se INFO Algorithm number 8 is OK.
+101.073: lulea.se INFO Parent DS(lulea.se/8/2/50785) refers to valid key at child: DNSKEY(lulea.se/8/50785)
+101.073: lulea.se INFO Parent DS(lulea.se) refers to secure entry point (SEP) at child: DS(lulea.se/8/2/50785)
+101.073: lulea.se INFO DNSSEC parent checks for lulea.se complete.
+101.073: lulea.se INFO Done testing DNSSEC for lulea.se.
+101.074: lulea.se INFO Test completed for zone lulea.se.

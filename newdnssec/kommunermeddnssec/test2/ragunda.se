@@ -1,0 +1,84 @@
+  0.000: ragunda.se INFO Begin testing zone ragunda.se with version 1.2.
+  0.000: ragunda.se INFO Begin testing delegation for ragunda.se.
+  6.025: ragunda.se INFO Name servers listed at parent: dns3.telia.com,dns4.telia.com
+  7.420: ragunda.se INFO Name servers listed at child: dns3.telia.com,dns4.telia.com
+  7.420: ragunda.se NOTICE No IPv6 name servers found.
+  7.528: ragunda.se INFO Done testing delegation for ragunda.se.
+  7.529: ragunda.se INFO Begin testing name server dns3.telia.com.
+  7.529: ragunda.se INFO Begin testing host dns3.telia.com.
+  7.529: ragunda.se INFO Begin testing address 81.228.11.184.
+ 16.887: ragunda.se INFO Done testing address 81.228.11.184.
+ 16.887: ragunda.se INFO Done testing host dns3.telia.com.
+ 16.896: ragunda.se INFO Name server dns3.telia.com (81.228.11.184) answers queries over UDP.
+ 16.908: ragunda.se INFO Name server dns3.telia.com (81.228.11.184) answers queries over TCP.
+ 16.915: ragunda.se INFO Name server dns3.telia.com (81.228.11.184) is not recursive.
+ 16.922: ragunda.se INFO Name server dns3.telia.com (81.228.11.184) authoritative for ragunda.se.
+ 16.936: ragunda.se INFO Name server dns3.telia.com (81.228.11.184) closed for zone transfer of ragunda.se.
+ 16.946: ragunda.se INFO Legacy name server ID for dns3.telia.com (81.228.11.184): hostname.bind = dnshosting2-sn1.fre.skanova.net
+ 16.953: ragunda.se INFO Legacy name server ID for dns3.telia.com (81.228.11.184): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 16.966: ragunda.se NOTICE No answer received from 81.228.11.184 when querying for version.server/CH/TXT.
+ 16.966: ragunda.se INFO Done testing name server dns3.telia.com.
+ 16.967: ragunda.se INFO Begin testing name server dns4.telia.com.
+ 16.967: ragunda.se INFO Begin testing host dns4.telia.com.
+ 16.967: ragunda.se INFO Begin testing address 81.228.9.98.
+ 17.867: ragunda.se INFO Done testing address 81.228.9.98.
+ 17.867: ragunda.se INFO Done testing host dns4.telia.com.
+ 17.881: ragunda.se INFO Name server dns4.telia.com (81.228.9.98) answers queries over UDP.
+ 17.906: ragunda.se INFO Name server dns4.telia.com (81.228.9.98) answers queries over TCP.
+ 17.919: ragunda.se INFO Name server dns4.telia.com (81.228.9.98) is not recursive.
+ 17.933: ragunda.se INFO Name server dns4.telia.com (81.228.9.98) authoritative for ragunda.se.
+ 17.967: ragunda.se INFO Name server dns4.telia.com (81.228.9.98) closed for zone transfer of ragunda.se.
+ 17.980: ragunda.se INFO Legacy name server ID for dns4.telia.com (81.228.9.98): hostname.bind = dnshosting1-sn3.vrr.skanova.net
+ 17.993: ragunda.se INFO Legacy name server ID for dns4.telia.com (81.228.9.98): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 18.019: ragunda.se NOTICE No answer received from 81.228.9.98 when querying for version.server/CH/TXT.
+ 18.019: ragunda.se INFO Done testing name server dns4.telia.com.
+ 18.019: ragunda.se INFO Begin testing zone consistency for ragunda.se.
+ 18.036: ragunda.se INFO SOA at address 81.228.9.98 has serial 1282281857.
+ 18.043: ragunda.se INFO SOA at address 81.228.11.184 has serial 1282281857.
+ 18.043: ragunda.se INFO All SOA records have consistent serial numbers.
+ 18.043: ragunda.se INFO All SOA records are consistent among all name servers.
+ 18.043: ragunda.se INFO Done testing zone consistency for ragunda.se.
+ 18.043: ragunda.se INFO Begin testing SOA parameters for ragunda.se.
+ 18.057: ragunda.se INFO Found SOA record for ragunda.se.
+ 18.057: ragunda.se INFO Begin testing host dns9.telia.com.
+ 18.814: ragunda.se INFO Begin testing address 81.228.11.184.
+ 18.815: ragunda.se INFO Done testing address 81.228.11.184.
+ 18.816: ragunda.se INFO Done testing host dns9.telia.com.
+ 18.816: ragunda.se INFO SOA MNAME for ragunda.se valid (dns9.telia.com).
+ 18.816: ragunda.se NOTICE SOA MNAME for ragunda.se (dns9.telia.com) not listed as NS.
+ 18.824: ragunda.se INFO SOA MNAME for ragunda.se (dns9.telia.com) is authoritative.
+ 18.824: ragunda.se INFO Begin testing email address registry@telia.net.
+ 19.371: ragunda.se INFO Mail exchangers for registry@telia.net found mail.telia.net.
+ 19.371: ragunda.se INFO Begin testing host mail.telia.net.
+ 20.386: ragunda.se INFO Begin testing address 194.237.170.102.
+ 21.437: ragunda.se INFO Done testing address 194.237.170.102.
+ 21.437: ragunda.se INFO Done testing host mail.telia.net.
+ 21.437: ragunda.se INFO Begin testing mail server mail.telia.net (194.237.170.102) with registry@telia.net.
+ 21.455: ragunda.se INFO SMTP banner: avserver.telia.net ESMTP Postfix
+ 21.488: ragunda.se INFO SMTP testing of mail.telia.net (194.237.170.102) with registry@telia.net succeeded without errors.
+ 21.488: ragunda.se INFO Done testing mail server mail.telia.net (194.237.170.102) with registry@telia.net.
+ 21.488: ragunda.se INFO Delivery over IPv4 to registry@telia.net ok.
+ 21.489: ragunda.se INFO Delivery over IPv6 to registry@telia.net could not be done.
+ 21.489: ragunda.se INFO Done testing email address registry@telia.net.
+ 21.489: ragunda.se INFO Successful attempt to deliver email for SOA RNAME of ragunda.se (registry.telia.net) using registry@telia.net.
+ 21.489: ragunda.se INFO SOA TTL for ragunda.se OK (3600) - recommended >= 3600.
+ 21.489: ragunda.se NOTICE SOA refresh for ragunda.se too small (1200) - recommended >= 14400.
+ 21.489: ragunda.se NOTICE SOA retry for ragunda.se too small (180) - recommended >= 3600.
+ 21.489: ragunda.se INFO SOA expire for ragunda.se OK (1209600) - recommended >= 604800.
+ 21.489: ragunda.se NOTICE SOA minimum for ragunda.se too large (1209600) - recommended <= 86400.
+ 21.489: ragunda.se INFO Done testing SOA parameters for ragunda.se.
+ 21.490: ragunda.se INFO Begin testing connectivity for ragunda.se.
+ 24.849: ragunda.se INFO Name server 81.228.9.98 announced by: 3301
+ 25.520: ragunda.se INFO Name server 81.228.11.184 announced by: 3301
+ 25.520: ragunda.se INFO Zone announced by IPv4 ASN: 3301
+ 25.520: ragunda.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 25.521: ragunda.se INFO Zone announced by IPv6 ASN: 
+ 25.521: ragunda.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 25.521: ragunda.se INFO Done testing connectivity for ragunda.se.
+ 25.521: ragunda.se INFO Begin testing DNSSEC for ragunda.se.
+ 25.597: ragunda.se INFO Did not find DS record for ragunda.se at parent.
+ 25.633: ragunda.se INFO Servers for ragunda.se have consistent extra processing status.
+ 25.633: ragunda.se INFO Did not find DNSKEY record for ragunda.se at child.
+ 25.633: ragunda.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 25.633: ragunda.se INFO Done testing DNSSEC for ragunda.se.
+ 25.633: ragunda.se INFO Test completed for zone ragunda.se.

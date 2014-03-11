@@ -1,0 +1,87 @@
+  0.000: enkoping.se INFO Begin testing zone enkoping.se with version 1.2.
+  0.001: enkoping.se INFO Begin testing delegation for enkoping.se.
+ 11.690: enkoping.se INFO Name servers listed at parent: dns1.enkoping.se,enkkomdns.lidnet.net
+ 42.902: enkoping.se INFO Name servers listed at child: dns1.enkoping.se,enkkomdns.lidnet.net
+ 42.902: enkoping.se NOTICE No IPv6 name servers found.
+ 42.944: enkoping.se INFO Parent glue for enkoping.se found: dns1.enkoping.se (83.243.30.194)
+ 43.061: enkoping.se INFO Checking glue for dns1.enkoping.se (83.243.30.194).
+ 49.070: enkoping.se INFO Child glue for enkoping.se found: dns1.enkoping.se (83.243.30.194)
+ 49.070: enkoping.se INFO Parent glue for enkoping.se found: dns1.enkoping.se (83.243.30.194)
+ 49.071: enkoping.se INFO Done testing delegation for enkoping.se.
+ 49.071: enkoping.se INFO Begin testing name server dns1.enkoping.se.
+ 49.071: enkoping.se INFO Begin testing host dns1.enkoping.se.
+ 49.072: enkoping.se INFO Begin testing address 83.243.30.194.
+ 78.292: enkoping.se INFO Done testing address 83.243.30.194.
+ 78.292: enkoping.se INFO Done testing host dns1.enkoping.se.
+ 78.302: enkoping.se INFO Name server dns1.enkoping.se (83.243.30.194) answers queries over UDP.
+ 78.318: enkoping.se INFO Name server dns1.enkoping.se (83.243.30.194) answers queries over TCP.
+ 78.327: enkoping.se INFO Name server dns1.enkoping.se (83.243.30.194) is not recursive.
+ 78.338: enkoping.se INFO Name server dns1.enkoping.se (83.243.30.194) authoritative for enkoping.se.
+ 78.356: enkoping.se INFO Name server dns1.enkoping.se (83.243.30.194) closed for zone transfer of enkoping.se.
+ 78.367: enkoping.se INFO Legacy name server ID for dns1.enkoping.se (83.243.30.194): hostname.bind = dns1.enkoping.se
+ 78.377: enkoping.se INFO Legacy name server ID for dns1.enkoping.se (83.243.30.194): version.bind = [****************]
+ 78.394: enkoping.se NOTICE No answer received from 83.243.30.194 when querying for version.server/CH/TXT.
+ 78.395: enkoping.se INFO Done testing name server dns1.enkoping.se.
+ 78.395: enkoping.se INFO Begin testing name server enkkomdns.lidnet.net.
+ 78.395: enkoping.se INFO Begin testing host enkkomdns.lidnet.net.
+ 78.395: enkoping.se INFO Begin testing address 212.112.39.131.
+ 78.645: enkoping.se INFO Done testing address 212.112.39.131.
+ 78.645: enkoping.se INFO Done testing host enkkomdns.lidnet.net.
+ 84.645: enkoping.se ERROR Name server enkkomdns.lidnet.net (212.112.39.131) does not answer queries over UDP.
+ 84.647: enkoping.se ERROR Name server enkkomdns.lidnet.net (212.112.39.131) does not answer queries over TCP.
+ 84.647: enkoping.se INFO Done testing name server enkkomdns.lidnet.net.
+ 84.647: enkoping.se INFO Begin testing zone consistency for enkoping.se.
+ 84.660: enkoping.se INFO SOA at address 83.243.30.194 has serial 2010120301.
+ 84.660: enkoping.se INFO All SOA records have consistent serial numbers.
+ 84.660: enkoping.se INFO All SOA records are consistent among all name servers.
+ 84.661: enkoping.se INFO Done testing zone consistency for enkoping.se.
+ 84.661: enkoping.se INFO Begin testing SOA parameters for enkoping.se.
+ 90.670: enkoping.se INFO Found SOA record for enkoping.se.
+ 90.671: enkoping.se INFO Begin testing host dns1.enkoping.se.
+ 90.671: enkoping.se INFO Begin testing address 83.243.30.194.
+ 90.672: enkoping.se INFO Done testing address 83.243.30.194.
+ 90.673: enkoping.se INFO Done testing host dns1.enkoping.se.
+ 90.673: enkoping.se INFO SOA MNAME for enkoping.se valid (dns1.enkoping.se).
+ 90.673: enkoping.se INFO SOA MNAME for enkoping.se (dns1.enkoping.se) listed as NS.
+ 90.682: enkoping.se INFO SOA MNAME for enkoping.se (dns1.enkoping.se) is authoritative.
+ 90.682: enkoping.se INFO Begin testing email address root@enkoping.se.
+ 96.896: enkoping.se INFO Mail exchangers for root@enkoping.se found inkorg1.enkoping.se,inkorg2.enkoping.se.
+ 96.896: enkoping.se INFO All mail servers for root@enkoping.se are in zone enkoping.se.
+ 96.897: enkoping.se INFO Begin testing host inkorg1.enkoping.se.
+103.353: enkoping.se INFO Begin testing address 83.243.30.210.
+103.890: enkoping.se INFO Done testing address 83.243.30.210.
+103.890: enkoping.se INFO Done testing host inkorg1.enkoping.se.
+103.891: enkoping.se INFO Begin testing mail server inkorg1.enkoping.se (83.243.30.210) with root@enkoping.se.
+104.210: enkoping.se INFO SMTP banner: inkorg1.enkoping.se ESMTP Welcome to Enkopings kommun
+104.235: enkoping.se INFO SMTP testing of inkorg1.enkoping.se (83.243.30.210) with root@enkoping.se succeeded without errors.
+104.235: enkoping.se INFO Done testing mail server inkorg1.enkoping.se (83.243.30.210) with root@enkoping.se.
+104.236: enkoping.se INFO Begin testing host inkorg2.enkoping.se.
+104.676: enkoping.se INFO Begin testing address 212.112.56.2.
+104.923: enkoping.se INFO Done testing address 212.112.56.2.
+104.923: enkoping.se INFO Done testing host inkorg2.enkoping.se.
+104.924: enkoping.se INFO Delivery over IPv4 to root@enkoping.se ok.
+104.924: enkoping.se INFO Delivery over IPv6 to root@enkoping.se could not be done.
+104.924: enkoping.se INFO Done testing email address root@enkoping.se.
+104.924: enkoping.se INFO Successful attempt to deliver email for SOA RNAME of enkoping.se (root.enkoping.se) using root@enkoping.se.
+104.924: enkoping.se INFO SOA TTL for enkoping.se OK (3600) - recommended >= 3600.
+104.924: enkoping.se INFO SOA refresh for enkoping.se OK (14400) - recommended >= 14400.
+104.924: enkoping.se INFO SOA retry for enkoping.se OK (3600) - recommended >= 3600.
+104.924: enkoping.se INFO SOA expire for enkoping.se OK (604800) - recommended >= 604800.
+104.924: enkoping.se INFO SOA minimum for enkoping.se OK (86400) - recommended between 300 and 86400.
+104.924: enkoping.se INFO Done testing SOA parameters for enkoping.se.
+104.924: enkoping.se INFO Begin testing connectivity for enkoping.se.
+105.601: enkoping.se INFO Name server 212.112.39.131 announced by: 13189
+106.120: enkoping.se INFO Name server 83.243.30.194 announced by: 13189
+106.120: enkoping.se INFO Zone announced by IPv4 ASN: 13189
+106.120: enkoping.se NOTICE Zone announced by less than two IPv4 ASN (1).
+106.120: enkoping.se INFO Zone announced by IPv6 ASN: 
+106.120: enkoping.se NOTICE Zone announced by less than two IPv6 ASN (0).
+106.120: enkoping.se INFO Done testing connectivity for enkoping.se.
+106.120: enkoping.se INFO Begin testing DNSSEC for enkoping.se.
+106.136: enkoping.se INFO Did not find DS record for enkoping.se at parent.
+111.137: enkoping.se NOTICE DNS lookup error (connection failed).
+111.152: enkoping.se INFO Servers for enkoping.se have consistent extra processing status.
+111.152: enkoping.se INFO Did not find DNSKEY record for enkoping.se at child.
+111.152: enkoping.se INFO No DNSKEY(s) found at child, other tests skipped.
+111.152: enkoping.se INFO Done testing DNSSEC for enkoping.se.
+111.152: enkoping.se INFO Test completed for zone enkoping.se.

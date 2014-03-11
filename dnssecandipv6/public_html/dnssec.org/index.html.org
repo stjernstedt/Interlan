@@ -1,0 +1,195 @@
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<html>
+	<head>
+		<style>
+			body{
+				font-family: Arial, tahoma, verdana, arial;
+			}
+			.mainContainer{
+				background: url('bg.gif');
+				font-size: 12px;
+			}
+
+			.dom{
+				/*background-color: #FF00FF; */
+			}
+			.okdom{
+				background-color: #A0FFA0;
+			}
+			.errorDom{
+				background-color: #FF0000;
+			}
+			.warningDom{
+				background-color: #FFA500;
+			}
+			.dom, .okdom, .warningDom, .errorDom{
+				/*border: 1px solid black;*/
+				padding: 2px;
+				width: 145px;
+				margin: 1px;
+				overflow: hidden;
+				float: left;
+				height: 20px;
+			}
+
+			h1, h2, h3, h4, h5, h6{
+				border-bottom: 1px solid #b0b0b0;
+			}
+			.contact{
+				text-style: uppercase;
+			}
+			.subContainer{
+				margin-botton: 42px;
+			}
+
+			a{
+				color: #0000FF;
+				text-decoration: none;
+			}
+			a:hover{
+				color: #0000FF;
+				text-decoration: underline;
+			}
+
+		</style>
+		<title>DNSSECandIPv6.se</title>
+		<script type="text/javascript">
+			function showHover(e, txt){
+				if( e == null ) e = window.event;
+				if(e.pageX == null ) e.pageX = e.clientX;
+				if(e.pageY == null ) e.pageY = e.clientY + document.body.scrollTop;
+				//alert(e.pageX);
+
+				var o = document.getElementById("hoverDiv");
+				o.innerHTML = txt;
+				o.style.left = (e.pageX+20) + "px";
+				o.style.top = (e.pageY+12) + "px";
+				o.style.visibility = "visible";
+			}
+			function hideHover(){
+				var o = document.getElementById("hoverDiv");
+				o.style.visibility = "hidden";
+			}
+		</script>
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-10643709-2");
+		pageTracker._trackPageview();
+		} catch(err) {}</script>
+	</head>
+	<body>
+		<div class="mainContainer" style="padding:20px;border:1px solid #e0e0e0;position:absolute;left:50%;width:800px;margin-left:-400px;margin-top:50px">
+			<h1>DNSSECandIPv6.se</h1>
+			<div class="subContainer">
+
+<br><i>A <a href=http://dnscheck.iis.se>DNSCheck</a> against 54 domains gave a result of 44 recursive DNS and DNSCheck also found 185 ERROR and 775 WARNINGS
+				<br><i>For further information contact: tobbe (a] <a href=http://www.interlan.se>interlan</a> punkt se</i><br>
+<script type="text/javascript" language="javascript">
+function showBigger(o, bShow){
+   if(bShow){
+        document.getElementById("dBigger").style.backgroundImage="url('"+o.src+"')";
+        document.getElementById("dBigger").style.display = 'block';
+   }
+   else{
+        document.getElementById("dBigger").style.display = 'none';
+   }
+}
+</script>
+<table border="0" cellpadding="2" cellspacing="0">
+        <tr>
+                <td><img src="/dnssec.png" width="200" onmouseover="showBigger(this, true)" onmouseout="showBigger(this, false)"/></td>
+        </tr>
+</table>
+<div id="dBigger" style="width:462px;height:149px;position:relative;left:-10px;top:-10px">&nbsp;</div>
+
+
+			</div>
+
+			<h2>Domains</h2>
+			<div>
+
+				<table cellspacing="3" cellpadding="2" style="margin-bottom:7px;border:1px solid black;font: 11px verdana">
+					<tr><td style="background-color:#A0FFA0;width:145px;height:20px"><img src="tick.png"/>&nbsp;domain</td><td>Signed with DNSSEC and without remarks</td></tr>
+					<tr><td style="background-color:#FFFFFF;height:20px">domain</td><td>Without remarks in DNSCheck but not signed</td></tr>
+					<tr><td style="background-color:#FFA500;height:20px"><img src="tick.png"/>&nbsp;domain</td><td>Signed with DNSSEC but with warning</td></tr>
+					<tr><td style="background-color:#FFA500;height:20px">domain</td><td>Warning in DNSCheck</td></tr>
+					<tr><td style="background-color:#FF0000;height:20px">domain</td><td>Error in DNSCheck</td></tr>
+<tr><td style="background-color:#FF0000;height:20px"><img src="tick.png"/>&nbsp;domain</td><td>Signed with DNSSEC but with error</td></tr>
+				</table>
+
+			</div>
+			<div class="subContainer">
+				<i>Updated Thu Aug 22 18:02:58 CEST 2013
+</i><br/>
+				10
+ av 54
+ .se domains signed<br/>
+
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre> 43.940: 2thepoint.se ERROR Zone announced by fewer than two IPv4 ASN.\n 20.064: 2thepoint.se WARNING No IPv6 name servers found.\n 43.940: 2thepoint.se WARNING Zone announced by fewer than two IPv6 ASN.\n 44.097: 2thepoint.se WARNING Broken chain of trust for 2thepoint.se - DNSKEY found at child, but no DS was found at parent.\n</pre>');"2thepoint.se onmouseover="showHover(event, 'registry [at] loopia.se<br/>Error (1)<br/>Warning (3)<br/>ns1.loopia.se<br/>ns2.loopia.se<br/>')" onmouseout="hideHover()" title=""><img src="tick.png" style="width:16px;height:16px;border:0px"/>&nbsp;2thepoint.se</a></div>
+<div class="okdom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"abundo.se onmouseover="showHover(event, 'admin-dns [at] frobbit.se<br/>ns1.frobbit.se<br/>ns2.frobbit.se<br/>ns.cafax.se<br/>')" onmouseout="hideHover()" title=""><img src="tick.png" style="width:16px;height:16px;border:0px"/>&nbsp;abundo.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre> 42.255: acreo.se ERROR Zone announced by fewer than two IPv4 ASN.\n 43.592: acreo.se WARNING Zone announced by fewer than two IPv6 ASN.\n</pre>');"acreo.se onmouseover="showHover(event, 'registry [at] qbranch.se<br/>Error (1)<br/>Warning (1)<br/>grace.qbranch.se<br/>maud.qbranch.se<br/>')" onmouseout="hideHover()" title="">acreo.se</a></div>
+<div class="warningDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre> 17.130: atea.se WARNING Too few IPv6 name servers (1).\n100.626: atea.se WARNING Zone announced by fewer than two IPv6 ASN.\n</pre>');"atea.se onmouseover="showHover(event, 'hostmaster [at] atea.se<br/>Warning (2)<br/>ns1.atea.se<br/>dns5.telia.com<br/>')" onmouseout="hideHover()" title="">atea.se</a></div>
+<div class="warningDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre> 96.011: binero.se WARNING Zone announced by fewer than two IPv6 ASN.\n 97.033: binero.se WARNING Broken chain of trust for binero.se - DNSKEY found at child, but no DS was found at parent.\n</pre>');"binero.se onmouseover="showHover(event, 'registry [at] binero.se<br/>Warning (2)<br/>ns4.binero.se<br/>ns3.binero.se<br/>ns7.binero.se<br/>ns5.binero.se<br/>ns6.binero.se<br/>')" onmouseout="hideHover()" title=""><img src="tick.png" style="width:16px;height:16px;border:0px"/>&nbsp;binero.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre> 59.760: blixtvik.se ERROR Zone announced by fewer than two IPv4 ASN.\n 20.173: blixtvik.se WARNING No IPv6 name servers found.\n 59.760: blixtvik.se WARNING Zone announced by fewer than two IPv6 ASN.\n</pre>');"blixtvik.se onmouseover="showHover(event, 'dns [at] alltele.se<br/>Error (1)<br/>Warning (2)<br/>ns.blixtvik.net<br/>ns2.blixtvik.net<br/>')" onmouseout="hideHover()" title="">blixtvik.se</a></div>
+<div class="warningDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre> 29.993: bredband2.se WARNING Could not find reverse address for 2a00:1598:c:0:0:0:0:4 (4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.c.0.0.0.8.9.5.1.0.0.a.2.ip6.arpa.).\n 33.929: bredband2.se WARNING Could not find reverse address for 2a00:1598:bb2:1:0:0:0:2 (2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0.2.b.b.0.8.9.5.1.0.0.a.2.ip6.arpa.).\n 43.498: bredband2.se WARNING Could not find reverse address for 2a00:1598:c:0:0:0:0:4 (4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.c.0.0.0.8.9.5.1.0.0.a.2.ip6.arpa.).\n 49.680: bredband2.se WARNING Zone announced by fewer than two IPv6 ASN.\n</pre>');"bredband2.se onmouseover="showHover(event, 'postmaster [at] port53.se<br/>Warning (4)<br/>ns2.port53.se<br/>ns1.port53.se<br/>ns3.port53.se<br/>')" onmouseout="hideHover()" title="">bredband2.se</a></div>
+<div class="warningDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre> 19.996: bredbandsbolaget.se WARNING No IPv6 name servers found.\n 50.542: bredbandsbolaget.se WARNING Zone announced by fewer than two IPv6 ASN.\n</pre>');"bredbandsbolaget.se onmouseover="showHover(event, 'registry [at] telenor.se<br/>Warning (2)<br/>b.ns.bredbandsbolaget.se<br/>c.ns.bredbandsbolaget.se<br/>a.ns.bredbandsbolaget.se<br/>')" onmouseout="hideHover()" title="">bredbandsbolaget.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre> 48.546: certezza.se ERROR Zone announced by fewer than two IPv4 ASN.\n 51.149: certezza.se WARNING Zone announced by fewer than two IPv6 ASN.\n</pre>');"certezza.se onmouseover="showHover(event, 'support [at] certezza.se<br/>Error (1)<br/>Warning (1)<br/>c.ns.ip-only.net<br/>a.ns.ip-only.net<br/>ns1.certezza.net<br/>b.ns.ip-only.net<br/>')" onmouseout="hideHover()" title=""><img src="tick.png" style="width:16px;height:16px;border:0px"/>&nbsp;certezza.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre> 47.768: cert.se ERROR Zone announced by fewer than two IPv4 ASN.\n 49.376: cert.se WARNING Zone announced by fewer than two IPv6 ASN.\n</pre>');"cert.se onmouseover="showHover(event, 'sitic [at] sitic.se<br/>Error (1)<br/>Warning (1)<br/>sdns02.cert.se<br/>sdns01.cert.se<br/>')" onmouseout="hideHover()" title=""><img src="tick.png" style="width:16px;height:16px;border:0px"/>&nbsp;cert.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre> 91.955: cisco.se ERROR Name server ns5.markmonitor.com (209.200.164.45) not authoritative for cisco.se.\n 27.882: cisco.se WARNING No IPv6 name servers found.\n 91.955: cisco.se WARNING Nameserver at 209.200.164.45 is not authoritative over UDP.\n156.181: cisco.se WARNING Zone announced by fewer than two IPv6 ASN.\n</pre>');"cisco.se onmouseover="showHover(event, 'jguandique [at] cisco.com<br/>Error (1)<br/>Warning (2)<br/>ns4.markmonitor.com<br/>ns7.markmonitor.com<br/>ns1.markmonitor.com<br/>ns6.markmonitor.com<br/>ns2.markmonitor.com<br/>ns3.markmonitor.com<br/>ns5.markmonitor.com<br/>')" onmouseout="hideHover()" title="">cisco.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre> 41.487: citynetwork.se ERROR Zone announced by fewer than two IPv4 ASN.\n 32.915: citynetwork.se WARNING Could not find reverse address for 2a00:16d8:0:4:0:0:0:2 (2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.4.0.0.0.0.0.0.0.8.d.6.1.0.0.a.2.ip6.arpa.).\n 35.130: citynetwork.se WARNING Could not find reverse address for 2a00:16d8:0:4:0:0:0:3 (3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.4.0.0.0.0.0.0.0.8.d.6.1.0.0.a.2.ip6.arpa.).\n 37.203: citynetwork.se WARNING Could not find reverse address for 2a00:16d8:0:4:0:0:0:2 (2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.4.0.0.0.0.0.0.0.8.d.6.1.0.0.a.2.ip6.arpa.).\n 42.951: citynetwork.se WARNING Zone announced by fewer than two IPv6 ASN.\n</pre>');"citynetwork.se onmouseover="showHover(event, 'info [at] citynetwork.se<br/>Error (1)<br/>Warning (4)<br/>ns2.citynetwork.se<br/>ns1.citynetwork.se<br/>')" onmouseout="hideHover()" title="">citynetwork.se</a></div>
+<div class="warningDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre> 17.052: comhem.se WARNING Too few IPv6 name servers (1).\n 57.792: comhem.se WARNING Zone announced by fewer than two IPv6 ASN.\n</pre>');"comhem.se onmouseover="showHover(event, 'hostmaster [at] comhem.com<br/>Warning (2)<br/>ns1.comhem.se<br/>ns2.comhem.se<br/>oden.frobbit.se<br/>')" onmouseout="hideHover()" title="">comhem.se</a></div>
+<div class="warningDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre> 20.830: datanet.se WARNING No IPv6 name servers found.\n 49.690: datanet.se WARNING Zone announced by fewer than two IPv6 ASN.\n</pre>');"datanet.se onmouseover="showHover(event, 'administrator [at] ballou.se<br/>Warning (2)<br/>ns2.ballou.se<br/>ns1.ballou.se<br/>ns3.ballou.se<br/>')" onmouseout="hideHover()" title="">datanet.se</a></div>
+<div class="warningDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre> 21.179: ericsson.se WARNING Too few IPv6 name servers (1).\n 84.808: ericsson.se WARNING Zone announced by fewer than two IPv6 ASN.\n</pre>');"ericsson.se onmouseover="showHover(event, 'wire [at] ericsson.se<br/>Warning (2)<br/>ns2.ericsson.se<br/>e3dns.ericy.com<br/>ns1.ericsson.se<br/>')" onmouseout="hideHover()" title="">ericsson.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre> 37.241: fra.se ERROR Zone announced by fewer than two IPv4 ASN.\n 16.573: fra.se WARNING Too few IPv6 name servers (1).\n 37.933: fra.se WARNING Zone announced by fewer than two IPv6 ASN.\n</pre>');"fra.se onmouseover="showHover(event, 'hostmaster [at] fra.se<br/>Error (1)<br/>Warning (2)<br/>ns-01.fra.se<br/>dns5.telia.com<br/>')" onmouseout="hideHover()" title="">fra.se</a></div>
+<div class="okdom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"frobbit.se onmouseover="showHover(event, 'info [at] frobbit.se<br/>ns.cafax.se<br/>ns1.frobbit.se<br/>oden.frobbit.se<br/>ns2.frobbit.se<br/>')" onmouseout="hideHover()" title=""><img src="tick.png" style="width:16px;height:16px;border:0px"/>&nbsp;frobbit.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre> 50.407: fujitsu.se ERROR Zone announced by fewer than two IPv4 ASN.\n 16.973: fujitsu.se WARNING No IPv6 name servers found.\n 50.408: fujitsu.se WARNING Zone announced by fewer than two IPv6 ASN.\n</pre>');"fujitsu.se onmouseover="showHover(event, 'postmaster [at] frontedge.net<br/>Error (1)<br/>Warning (2)<br/>castor.frontedge.net<br/>pollux.frontedge.net<br/>')" onmouseout="hideHover()" title="">fujitsu.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre> 52.508: glesys.se ERROR Zone announced by fewer than two IPv4 ASN.\n 54.328: glesys.se WARNING Zone announced by fewer than two IPv6 ASN.\n</pre>');"glesys.se onmouseover="showHover(event, 'registry [at] glesys.se<br/>Error (1)<br/>Warning (1)<br/>ns3.namesystem.se<br/>ns1.namesystem.se<br/>ns2.namesystem.se<br/>')" onmouseout="hideHover()" title="">glesys.se</a></div>
+<div class="warningDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre> 85.468: gotanet.se WARNING Zone announced by fewer than two IPv6 ASN.\n</pre>');"gotanet.se onmouseover="showHover(event, 'registry [at] leissner.se<br/>Warning (1)<br/>nic3.gota.net<br/>nic.fassberg.se<br/>nic.gota.net<br/>nic4.gota.net<br/>nic2.gota.net<br/>')" onmouseout="hideHover()" title=""><img src="tick.png" style="width:16px;height:16px;border:0px"/>&nbsp;gotanet.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre> 66.332: hig.se ERROR Zone announced by fewer than two IPv4 ASN.\n 56.846: hig.se WARNING Could not find reverse address for 213.199.154.23 (23.154.199.213.in-addr.arpa.).\n 59.340: hig.se WARNING Could not find reverse address for 213.199.154.87 (87.154.199.213.in-addr.arpa.).\n 60.340: hig.se WARNING SOA expire for hig.se too small (86400) - recommended >= 259200.\n 74.493: hig.se WARNING Zone announced by fewer than two IPv6 ASN.\n</pre>');"hig.se onmouseover="showHover(event, 'domainmaster [at] hig.se<br/>Error (1)<br/>Warning (3)<br/>ns1.hig.se<br/>ns2.hig.se<br/>dns.uu.se<br/>')" onmouseout="hideHover()" title="">hig.se</a></div>
+<div class="dom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"hiq.se onmouseover="showHover(event, 'registry [at] qbranch.se<br/>maud.qbranch.se<br/>grace.qbranch.se<br/>kristina.qbranch.se<br/>')" onmouseout="hideHover()" title="">hiq.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre> 24.021: hp.se ERROR Superfluous name server listed at parent: nsa.hp.com\n 24.021: hp.se ERROR Superfluous name server listed at parent: nsb.hp.com\n 24.021: hp.se ERROR Total parent/child glue mismatch.\n 24.022: hp.se WARNING No IPv6 name servers found.\n</pre>');"hp.se onmouseover="showHover(event, 'hostmaster [at] hp.com<br/>Error (3)<br/>Warning (1)<br/>ns3.hp.com<br/>ns5.hp.com<br/>ns2.hp.com<br/>ns1.hp.com<br/>ns4.hp.com<br/>ns6.hp.com<br/>')" onmouseout="hideHover()" title="">hp.se</a></div>
+<div class="dom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre> 78.285: ibm.se WARNING Could not find reverse address for 222.122.64.134 (134.64.122.222.in-addr.arpa.).\n</pre>');"ibm.se onmouseover="showHover(event, 'hostmaster [at] akamai.com<br/>eur5.akam.net<br/>usc3.akam.net<br/>ns1-99.akam.net<br/>eur2.akam.net<br/>usw2.akam.net<br/>ns1-206.akam.net<br/>asia3.akam.net<br/>usc2.akam.net<br/>')" onmouseout="hideHover()" title="">ibm.se</a></div>
+<div class="okdom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"iis.se onmouseover="showHover(event, 'hostmaster [at] iis.se<br/>i.ns.se<br/>ns3.nic.se<br/>ns.nic.se<br/>')" onmouseout="hideHover()" title=""><img src="tick.png" style="width:16px;height:16px;border:0px"/>&nbsp;iis.se</a></div>
+<div class="warningDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre> 23.771: infracore.se WARNING No IPv6 name servers found.\n</pre>');"infracore.se onmouseover="showHover(event, 'hostmaster [at] u9552870.fsdata.se<br/>Warning (1)<br/>ns.aname.net<br/>ns3.aname.se<br/>ns2.aname.net<br/>')" onmouseout="hideHover()" title="">infracore.se</a></div>
+<div class="okdom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"interlan.se onmouseover="showHover(event, 'registry [at] interlan.se<br/>ns.interlan.se<br/>ns3.interlan.se<br/>')" onmouseout="hideHover()" title=""><img src="tick.png" style="width:16px;height:16px;border:0px"/>&nbsp;interlan.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre> 35.871: iponly.se ERROR Zone announced by fewer than two IPv4 ASN.\n 37.688: iponly.se WARNING Zone announced by fewer than two IPv6 ASN.\n</pre>');"iponly.se onmouseover="showHover(event, 'registry [at] ip-only.net<br/>Error (1)<br/>Warning (1)<br/>b.ns.ip-only.net<br/>a.ns.ip-only.net<br/>c.ns.ip-only.net<br/>')" onmouseout="hideHover()" title="">iponly.se</a></div>
+<div class="dom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"isoc.se onmouseover="showHover(event, 'info [at] frobbit.se<br/>ns2.frobbit.se<br/>ns.cafax.se<br/>ns3.frobbit.se<br/>ns1.frobbit.se<br/>')" onmouseout="hideHover()" title="">isoc.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre> 19.984: iva.se ERROR Superfluous name server listed at parent: sunic.sunet.se\n 55.683: iva.se ERROR DNS SERVFAIL when querying 192.36.125.2 for SOA\n 55.692: iva.se ERROR DNS SERVFAIL when querying 192.36.125.2 for SOA\n 55.708: iva.se ERROR DNS SERVFAIL when querying 192.36.125.2 for SOA\n 55.709: iva.se ERROR Name server sunic.sunet.se (192.36.125.2) not authoritative for iva.se.\n 55.715: iva.se ERROR DNS SERVFAIL when querying 2001:6b0:7:0:0:0:0:2 for SOA\n 55.729: iva.se ERROR DNS SERVFAIL when querying 2001:6b0:7:0:0:0:0:2 for SOA\n 55.750: iva.se ERROR DNS SERVFAIL when querying 2001:6b0:7:0:0:0:0:2 for SOA\n 55.750: iva.se ERROR Name server sunic.sunet.se (2001:6b0:7:0:0:0:0:2) not authoritative for iva.se.\n 56.704: iva.se ERROR DNS SERVFAIL when querying 192.36.125.2 for SOA\n 56.710: iva.se ERROR DNS SERVFAIL when querying 2001:6b0:7:0:0:0:0:2 for SOA\n 19.984: iva.se WARNING No IPv6 name servers found.\n 55.708: iva.se WARNING Nameserver at 192.36.125.2 is not authoritative over UDP.\n 55.750: iva.se WARNING Nameserver at 2001:6b0:7:0:0:0:0:2 is not authoritative over UDP.\n 57.294: iva.se WARNING The listed nameservers for iva.se does not all report the same set of nameservers.\n</pre>');"iva.se onmouseover="showHover(event, 'dnsmaster [at] compartment.se<br/>Error (11)<br/>Warning (4)<br/>ns6.compartment.se<br/>ns3.compartment.nu<br/>')" onmouseout="hideHover()" title="">iva.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre> 65.707: kirei.se ERROR Name server ns.schlyter.se (195.47.254.10) does not answer queries over UDP.\n 65.708: kirei.se ERROR Name server ns.schlyter.se (195.47.254.10) does not answer queries over TCP.\n 71.738: kirei.se ERROR Name server ns.schlyter.se (2001:67c:394:17:0:0:0:10) does not answer queries over UDP.\n 71.739: kirei.se ERROR Name server ns.schlyter.se (2001:67c:394:17:0:0:0:10) does not answer queries over TCP.\n</pre>');"kirei.se onmouseover="showHover(event, 'hostmaster [at] kirei.se<br/>Error (4)<br/>ns.kirei.se<br/>ns.schlyter.se<br/>primary.se<br/>secondary.se<br/>')" onmouseout="hideHover()" title="">kirei.se</a></div>
+<div class="warningDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre> 21.414: knowit.se WARNING No IPv6 name servers found.\n 78.475: knowit.se WARNING Could not find reverse address for 192.71.76.5 (5.76.71.192.in-addr.arpa.).\n</pre>');"knowit.se onmouseover="showHover(event, 'hostmaster [at] knowit.se<br/>Warning (2)<br/>ns.knowit.se<br/>ns2.knowit.se<br/>ns1.knowit.se<br/>')" onmouseout="hideHover()" title="">knowit.se</a></div>
+<div class="dom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"koneo.se onmouseover="showHover(event, 'hostmaster [at] intron.net<br/>dns1.intron.net<br/>dns4.intron.net<br/>dns3.intron.net<br/>dns2.intron.net<br/>')" onmouseout="hideHover()" title="">koneo.se</a></div>
+<div class="warningDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre> 85.777: labs2.se ERROR Zone announced by fewer than two IPv4 ASN.\n 15.807: labs2.se WARNING No IPv6 name servers found.\n 32.571: labs2.se WARNING Could not find reverse address for 141.8.224.25 (25.224.8.141.in-addr.arpa.).\n 38.988: labs2.se WARNING Could not find reverse address for 141.8.224.100 (100.224.8.141.in-addr.arpa.).\n 47.430: labs2.se WARNING Could not find reverse address for 141.8.224.25 (25.224.8.141.in-addr.arpa.).\n 85.778: labs2.se WARNING Zone announced by fewer than two IPv6 ASN.\n</pre>');"labs2.se onmouseover="showHover(event, 'rmgdns111 [at] gmail.com<br/>Warning (4)<br/>ns1.rookdns.com<br/>ns2.rookdns.com<br/>')" onmouseout="hideHover()" title="">labs2.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre> 39.564: loopia.se ERROR Zone announced by fewer than two IPv4 ASN.\n 10.267: loopia.se WARNING No IPv6 name servers found.\n 39.564: loopia.se WARNING Zone announced by fewer than two IPv6 ASN.\n 39.715: loopia.se WARNING Broken chain of trust for loopia.se - DNSKEY found at child, but no DS was found at parent.\n</pre>');"loopia.se onmouseover="showHover(event, 'registry [at] loopia.se<br/>Error (1)<br/>Warning (3)<br/>ns2.loopia.se<br/>ns1.loopia.se<br/>')" onmouseout="hideHover()" title=""><img src="tick.png" style="width:16px;height:16px;border:0px"/>&nbsp;loopia.se</a></div>
+<div class="dom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"microsoft.se onmouseover="showHover(event, 'msnhst [at] microsoft.com<br/>ns4.msft.net<br/>ns1.msft.net<br/>ns3.msft.net<br/>')" onmouseout="hideHover()" title="">microsoft.se</a></div>
+<div class="dom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre> 87.167: mil.se ERROR Name server ns2.mil.se (193.241.1.1) does not answer queries over UDP.\n 87.168: mil.se ERROR Name server ns2.mil.se (193.241.1.1) does not answer queries over TCP.\n</pre>');"mil.se onmouseover="showHover(event, 'hostmaster [at] mil.se<br/>ns.defence.se<br/>dns6.telia.com<br/>ns.mil.se<br/>ns2.mil.se<br/>pitea.dns.swip.net<br/>')" onmouseout="hideHover()" title="">mil.se</a></div>
+<div class="dom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"msb.se onmouseover="showHover(event, 'hostmaster [at] excedo.se<br/>ns3.p21.dynect.net<br/>ns2.p21.dynect.net<br/>ns4.p21.dynect.net<br/>ns1.p21.dynect.net<br/>')" onmouseout="hideHover()" title="">msb.se</a></div>
+<div class="warningDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre> 13.306: netnod.se WARNING Too few IPv6 name servers (1).\n 52.476: netnod.se WARNING Zone announced by fewer than two IPv6 ASN.\n</pre>');"netnod.se onmouseover="showHover(event, 'hostmaster [at] netnod.se<br/>Warning (2)<br/>slave.sth.netnod.se<br/>slave.svl.netnod.se<br/>slave.gbg.netnod.se<br/>')" onmouseout="hideHover()" title="">netnod.se</a></div>
+<div class="dom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"qbranch.se onmouseover="showHover(event, 'registry [at] qbranch.se<br/>grace.qbranch.se<br/>maud.qbranch.se<br/>kristina.qbranch.se<br/>')" onmouseout="hideHover()" title="">qbranch.se</a></div>
+<div class="dom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"regeringen.se onmouseover="showHover(event, 'hostmaster [at] excedo.se<br/>ns4.p21.dynect.net<br/>ns3.p21.dynect.net<br/>ns1.p21.dynect.net<br/>ns2.p21.dynect.net<br/>')" onmouseout="hideHover()" title="">regeringen.se</a></div>
+<div class="dom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"resilans.se onmouseover="showHover(event, 'info [at] resilans.se<br/>ns3.resilans.se<br/>ns.cafax.se<br/>ns1.resilans.se<br/>')" onmouseout="hideHover()" title="">resilans.se</a></div>
+<div class="dom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"romab.se onmouseover="showHover(event, 'hostmaster [at] romab.com<br/>ns.sanchin.se<br/>stacheldrath.romab.com<br/>adfgvx.romab.com<br/>')" onmouseout="hideHover()" title="">romab.se</a></div>
+<div class="dom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"sics.se onmouseover="showHover(event, 'hostmaster [at] sics.se<br/>ns2.sics.se<br/>fnord.sics.se<br/>brahma.sics.se<br/>ns3.sics.se<br/>a.ns.kth.se<br/>ns1.sics.se<br/>')" onmouseout="hideHover()" title="">sics.se</a></div>
+<div class="dom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"snus.se onmouseover="showHover(event, 'registry [at] oderland.se<br/>dns1.oderland.com<br/>dns2.oderland.com<br/>')" onmouseout="hideHover()" title="">snus.se</a></div>
+<div class="dom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"swip.net onmouseover="showHover(event, 'registry [at] swip.net<br/>kalmar.dns.swip.net<br/>kista.dns.swip.net<br/>server.nordu.net<br/>sunic.sunet.se<br/>')" onmouseout="hideHover()" title="">swip.net</a></div>
+<div class="dom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"t3.se onmouseover="showHover(event, 'registry [at] t3.se<br/>ns-ume2.t3.se<br/>ns1.t3.se<br/>')" onmouseout="hideHover()" title="">t3.se</a></div>
+<div class="dom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"tdc.se onmouseover="showHover(event, 'dns [at] tdc.se<br/>a.dns.tdc.se<br/>b.dns.tdc.se<br/>c.dns.tdc.se<br/>')" onmouseout="hideHover()" title="">tdc.se</a></div>
+<div class="dom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"telenor.se onmouseover="showHover(event, 'registry [at] telenor.se<br/>dns1.telenor.se<br/>dns3.telenor.se<br/>dns2.telenor.se<br/>')" onmouseout="hideHover()" title="">telenor.se</a></div>
+<div class="dom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre> 15.681: teliasonera.se WARNING No IPv6 name servers found.\n</pre>');"teliasonera.se onmouseover="showHover(event, 'dns [at] telia.net<br/>dns2.telia.com<br/>dns1.telia.com<br/>')" onmouseout="hideHover()" title="">teliasonera.se</a></div>
+<div class="dom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"trafikverket.se onmouseover="showHover(event, 'hostmaster [at] banverket.se<br/>ns3.ictservices.se<br/>ns1.banverket.se<br/>')" onmouseout="hideHover()" title="">trafikverket.se</a></div>
+<div class="dom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"tre.se onmouseover="showHover(event, 'hostmaster [at] tre.se<br/>ns.hi3gaccess.se<br/>a.ns.ip-only.net<br/>ns2.hi3gaccess.se<br/>')" onmouseout="hideHover()" title="">tre.se</a></div>
+<div class="dom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"vinnova.se onmouseover="showHover(event, 'hostmaster [at] vinnova.se<br/>ns.vinnova.se<br/>ns2.vinnova.se<br/>sunic.sunet.se<br/>')" onmouseout="hideHover()" title="">vinnova.se</a></div>
+<div class="dom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=240,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"xpd.se onmouseover="showHover(event, 'fredrik [at] xpd.se<br/>a.dns.tdc.se<br/>b.dns.tdc.se<br/>c.dns.tdc.se<br/>')" onmouseout="hideHover()" title="">xpd.se</a></div>
+				<div style="clear:both">&nbsp;</div>
+			</div>
+			<div style="clear:both">&nbsp;</div>
+		</div>
+
+		<div id="hoverDiv" style="position:absolute;visibility:hidden;left:0px;top:0px;font:11px verdana;border:1px solid #AFAF20;padding:4px; width:220px;background-color:#FFFFE0;">&nbsp;</div>
+
+	</body>
+</html>
+

@@ -1,0 +1,90 @@
+  0.000: balestrand.kommune.no INFO Begin testing zone balestrand.kommune.no with version 1.6.1.
+  0.223: balestrand.kommune.no INFO Begin testing delegation for balestrand.kommune.no.
+  7.912: balestrand.kommune.no INFO Name servers listed at parent: ns1.sfj.no,ns2.sfj.no
+  8.891: balestrand.kommune.no INFO Name servers listed at child: ns1.sfj.no,ns2.sfj.no
+  8.892: balestrand.kommune.no NOTICE No IPv6 name servers found.
+  9.019: balestrand.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.178: balestrand.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.360: balestrand.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.498: balestrand.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.202: balestrand.kommune.no INFO It is possible to build a referral packet for balestrand.kommune.no that works without EDNS0.
+ 10.629: balestrand.kommune.no INFO Previously used name servers for balestrand.kommune.no: 
+ 10.630: balestrand.kommune.no INFO Done testing delegation for balestrand.kommune.no.
+ 10.630: balestrand.kommune.no INFO Begin testing name server ns1.sfj.no.
+ 10.654: balestrand.kommune.no INFO Begin testing host ns1.sfj.no.
+ 10.887: balestrand.kommune.no INFO Begin testing address 93.94.14.2.
+ 19.374: balestrand.kommune.no INFO Done testing address 93.94.14.2.
+ 19.374: balestrand.kommune.no INFO Done testing host ns1.sfj.no.
+ 19.566: balestrand.kommune.no INFO Name server ns1.sfj.no (93.94.14.2) answers queries over UDP.
+ 19.620: balestrand.kommune.no INFO Name server ns1.sfj.no (93.94.14.2) answers queries over TCP.
+ 19.675: balestrand.kommune.no INFO Name server ns1.sfj.no (93.94.14.2) is not recursive.
+ 19.813: balestrand.kommune.no INFO Name server ns1.sfj.no (93.94.14.2) authoritative for balestrand.kommune.no.
+ 19.891: balestrand.kommune.no INFO Name server ns1.sfj.no (93.94.14.2) closed for zone transfer of balestrand.kommune.no.
+ 19.915: balestrand.kommune.no INFO Legacy name server ID for ns1.sfj.no (93.94.14.2): hostname.bind = ns1
+ 19.942: balestrand.kommune.no INFO Legacy name server ID for ns1.sfj.no (93.94.14.2): version.bind = sffk dns server
+ 20.010: balestrand.kommune.no NOTICE No answer received from 93.94.14.2 when querying for version.server/CH/TXT.
+ 20.022: balestrand.kommune.no INFO Done testing name server ns1.sfj.no.
+ 20.022: balestrand.kommune.no INFO Begin testing name server ns2.sfj.no.
+ 20.023: balestrand.kommune.no INFO Begin testing host ns2.sfj.no.
+ 20.201: balestrand.kommune.no INFO Begin testing address 93.94.14.3.
+ 20.768: balestrand.kommune.no INFO Done testing address 93.94.14.3.
+ 20.769: balestrand.kommune.no INFO Done testing host ns2.sfj.no.
+ 21.112: balestrand.kommune.no INFO Name server ns2.sfj.no (93.94.14.3) answers queries over UDP.
+ 21.165: balestrand.kommune.no INFO Name server ns2.sfj.no (93.94.14.3) answers queries over TCP.
+ 21.203: balestrand.kommune.no INFO Name server ns2.sfj.no (93.94.14.3) is not recursive.
+ 21.322: balestrand.kommune.no INFO Name server ns2.sfj.no (93.94.14.3) authoritative for balestrand.kommune.no.
+ 21.377: balestrand.kommune.no INFO Name server ns2.sfj.no (93.94.14.3) closed for zone transfer of balestrand.kommune.no.
+ 21.419: balestrand.kommune.no INFO Legacy name server ID for ns2.sfj.no (93.94.14.3): hostname.bind = ns2
+ 21.439: balestrand.kommune.no INFO Legacy name server ID for ns2.sfj.no (93.94.14.3): version.bind = sffk dns server
+ 21.515: balestrand.kommune.no NOTICE No answer received from 93.94.14.3 when querying for version.server/CH/TXT.
+ 21.515: balestrand.kommune.no INFO Done testing name server ns2.sfj.no.
+ 21.515: balestrand.kommune.no INFO Begin testing zone consistency for balestrand.kommune.no.
+ 22.276: balestrand.kommune.no INFO SOA at address 93.94.14.2 has serial 2012120402.
+ 22.297: balestrand.kommune.no INFO SOA at address 93.94.14.3 has serial 2012120402.
+ 22.297: balestrand.kommune.no INFO All SOA records have consistent serial numbers.
+ 22.297: balestrand.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 22.651: balestrand.kommune.no NOTICE The listed nameservers for balestrand.kommune.no all report the same set of nameservers.
+ 22.651: balestrand.kommune.no INFO Done testing zone consistency for balestrand.kommune.no.
+ 22.652: balestrand.kommune.no INFO Begin testing SOA parameters for balestrand.kommune.no.
+ 22.683: balestrand.kommune.no INFO Found SOA record for balestrand.kommune.no.
+ 22.684: balestrand.kommune.no INFO Begin testing host ns1.sfj.no.
+ 22.839: balestrand.kommune.no INFO Begin testing address 93.94.14.2.
+ 22.971: balestrand.kommune.no INFO Done testing address 93.94.14.2.
+ 22.971: balestrand.kommune.no INFO Done testing host ns1.sfj.no.
+ 22.971: balestrand.kommune.no INFO SOA MNAME for balestrand.kommune.no valid (ns1.sfj.no).
+ 22.971: balestrand.kommune.no INFO SOA MNAME for balestrand.kommune.no (ns1.sfj.no) listed as NS.
+ 23.291: balestrand.kommune.no INFO SOA MNAME for balestrand.kommune.no (ns1.sfj.no) is authoritative.
+ 23.291: balestrand.kommune.no INFO Begin testing email address dnsadmin@sfj.no.
+ 23.441: balestrand.kommune.no INFO Mail exchangers for dnsadmin@sfj.no found mail.messaging.microsoft.com.
+ 23.441: balestrand.kommune.no INFO Begin testing host mail.messaging.microsoft.com.
+ 26.067: balestrand.kommune.no INFO Begin testing address 207.46.163.30.
+ 31.502: balestrand.kommune.no INFO Done testing address 207.46.163.30.
+ 31.503: balestrand.kommune.no INFO Begin testing address 216.32.180.22.
+ 34.930: balestrand.kommune.no INFO Done testing address 216.32.180.22.
+ 34.930: balestrand.kommune.no INFO Begin testing address 213.199.180.150.
+ 36.402: balestrand.kommune.no INFO Done testing address 213.199.180.150.
+ 36.402: balestrand.kommune.no INFO Begin testing address 216.32.181.178.
+ 37.392: balestrand.kommune.no INFO Done testing address 216.32.181.178.
+ 37.392: balestrand.kommune.no INFO Begin testing address 65.55.88.22.
+ 38.127: balestrand.kommune.no INFO Done testing address 65.55.88.22.
+ 38.127: balestrand.kommune.no INFO Done testing host mail.messaging.microsoft.com.
+ 39.043: balestrand.kommune.no INFO Done testing email address dnsadmin@sfj.no.
+ 39.044: balestrand.kommune.no INFO Successful attempt to deliver email for SOA RNAME of balestrand.kommune.no (dnsadmin.sfj.no) using dnsadmin@sfj.no.
+ 39.044: balestrand.kommune.no NOTICE SOA TTL for balestrand.kommune.no too small (600) - recommended >= 3600.
+ 39.044: balestrand.kommune.no NOTICE SOA refresh for balestrand.kommune.no too small (10800) - recommended >= 14400.
+ 39.044: balestrand.kommune.no INFO SOA retry for balestrand.kommune.no OK (3600) - recommended >= 3600.
+ 39.044: balestrand.kommune.no INFO SOA expire for balestrand.kommune.no OK (604800) - recommended >= 604800.
+ 39.044: balestrand.kommune.no INFO SOA minimum for balestrand.kommune.no OK (86400) - recommended between 300 and 86400.
+ 39.044: balestrand.kommune.no INFO Done testing SOA parameters for balestrand.kommune.no.
+ 39.044: balestrand.kommune.no INFO Begin testing connectivity for balestrand.kommune.no.
+ 39.964: balestrand.kommune.no NOTICE Zone announced by fewer than two IPv4 ASN.
+ 39.964: balestrand.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 39.964: balestrand.kommune.no INFO Done testing connectivity for balestrand.kommune.no.
+ 39.964: balestrand.kommune.no INFO Begin testing DNSSEC for balestrand.kommune.no.
+ 40.039: balestrand.kommune.no INFO Did not find DS record for balestrand.kommune.no at parent.
+ 40.115: balestrand.kommune.no INFO Servers for balestrand.kommune.no have consistent extra processing status.
+ 40.153: balestrand.kommune.no INFO Authenticated denial records not found for balestrand.kommune.no.
+ 40.173: balestrand.kommune.no INFO Did not find DNSKEY record for balestrand.kommune.no at child.
+ 40.173: balestrand.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 40.174: balestrand.kommune.no INFO Done testing DNSSEC for balestrand.kommune.no.
+ 40.174: balestrand.kommune.no INFO Test completed for zone balestrand.kommune.no.

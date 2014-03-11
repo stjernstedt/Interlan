@@ -1,0 +1,82 @@
+  0.000: nurmijarvi.fi INFO Begin testing zone nurmijarvi.fi with version 1.5.0.
+  0.850: nurmijarvi.fi INFO Begin testing delegation for nurmijarvi.fi.
+ 45.427: nurmijarvi.fi INFO Name servers listed at parent: ns-fi.elisa.net,ns-se.elisa.net
+ 53.234: nurmijarvi.fi INFO Name servers listed at child: ns-fi.elisa.net,ns-se.elisa.net
+ 53.234: nurmijarvi.fi NOTICE No IPv6 name servers found.
+ 57.728: nurmijarvi.fi INFO It is possible to build a referral packet for nurmijarvi.fi that works without EDNS0.
+ 60.390: nurmijarvi.fi INFO Previously used name servers for nurmijarvi.fi: 
+ 60.390: nurmijarvi.fi INFO Done testing delegation for nurmijarvi.fi.
+ 60.391: nurmijarvi.fi INFO Begin testing name server ns-fi.elisa.net.
+ 60.391: nurmijarvi.fi INFO Begin testing host ns-fi.elisa.net.
+ 62.270: nurmijarvi.fi INFO Begin testing address 193.229.0.49.
+100.574: nurmijarvi.fi INFO Done testing address 193.229.0.49.
+100.574: nurmijarvi.fi INFO Done testing host ns-fi.elisa.net.
+102.563: nurmijarvi.fi INFO Name server ns-fi.elisa.net (193.229.0.49) answers queries over UDP.
+102.860: nurmijarvi.fi INFO Name server ns-fi.elisa.net (193.229.0.49) answers queries over TCP.
+103.082: nurmijarvi.fi INFO Name server ns-fi.elisa.net (193.229.0.49) is not recursive.
+104.023: nurmijarvi.fi INFO Name server ns-fi.elisa.net (193.229.0.49) authoritative for nurmijarvi.fi.
+104.298: nurmijarvi.fi INFO Name server ns-fi.elisa.net (193.229.0.49) closed for zone transfer of nurmijarvi.fi.
+104.576: nurmijarvi.fi INFO Legacy name server ID for ns-fi.elisa.net (193.229.0.49): hostname.bind = ldom-dns64
+104.950: nurmijarvi.fi INFO Legacy name server ID for ns-fi.elisa.net (193.229.0.49): version.bind = unknown
+105.364: nurmijarvi.fi NOTICE No answer received from 193.229.0.49 when querying for version.server/CH/TXT.
+105.364: nurmijarvi.fi INFO Done testing name server ns-fi.elisa.net.
+105.364: nurmijarvi.fi INFO Begin testing name server ns-se.elisa.net.
+105.364: nurmijarvi.fi INFO Begin testing host ns-se.elisa.net.
+107.255: nurmijarvi.fi INFO Begin testing address 62.248.254.2.
+110.960: nurmijarvi.fi INFO Done testing address 62.248.254.2.
+110.960: nurmijarvi.fi INFO Done testing host ns-se.elisa.net.
+113.008: nurmijarvi.fi INFO Name server ns-se.elisa.net (62.248.254.2) answers queries over UDP.
+113.305: nurmijarvi.fi INFO Name server ns-se.elisa.net (62.248.254.2) answers queries over TCP.
+113.542: nurmijarvi.fi INFO Name server ns-se.elisa.net (62.248.254.2) is not recursive.
+114.284: nurmijarvi.fi INFO Name server ns-se.elisa.net (62.248.254.2) authoritative for nurmijarvi.fi.
+114.553: nurmijarvi.fi INFO Name server ns-se.elisa.net (62.248.254.2) closed for zone transfer of nurmijarvi.fi.
+114.854: nurmijarvi.fi INFO Legacy name server ID for ns-se.elisa.net (62.248.254.2): hostname.bind = phys-dns8
+115.039: nurmijarvi.fi INFO Legacy name server ID for ns-se.elisa.net (62.248.254.2): version.bind = unknown
+115.484: nurmijarvi.fi NOTICE No answer received from 62.248.254.2 when querying for version.server/CH/TXT.
+115.484: nurmijarvi.fi INFO Done testing name server ns-se.elisa.net.
+115.485: nurmijarvi.fi INFO Begin testing zone consistency for nurmijarvi.fi.
+123.648: nurmijarvi.fi INFO SOA at address 62.248.254.2 has serial 2013031900.
+123.902: nurmijarvi.fi INFO SOA at address 193.229.0.49 has serial 2013031900.
+123.902: nurmijarvi.fi INFO All SOA records have consistent serial numbers.
+123.902: nurmijarvi.fi INFO All other fields in the SOA record are consistent among all name servers.
+127.812: nurmijarvi.fi NOTICE The listed nameservers for nurmijarvi.fi all report the same set of nameservers.
+127.813: nurmijarvi.fi INFO Done testing zone consistency for nurmijarvi.fi.
+127.813: nurmijarvi.fi INFO Begin testing SOA parameters for nurmijarvi.fi.
+128.113: nurmijarvi.fi INFO Found SOA record for nurmijarvi.fi.
+128.113: nurmijarvi.fi INFO Begin testing host ns-fi.elisa.net.
+129.798: nurmijarvi.fi INFO Begin testing address 193.229.0.49.
+131.356: nurmijarvi.fi INFO Done testing address 193.229.0.49.
+131.356: nurmijarvi.fi INFO Done testing host ns-fi.elisa.net.
+131.356: nurmijarvi.fi INFO SOA MNAME for nurmijarvi.fi valid (ns-fi.elisa.net).
+131.357: nurmijarvi.fi INFO SOA MNAME for nurmijarvi.fi (ns-fi.elisa.net) listed as NS.
+133.666: nurmijarvi.fi INFO SOA MNAME for nurmijarvi.fi (ns-fi.elisa.net) is authoritative.
+133.666: nurmijarvi.fi INFO Begin testing email address hostmaster@elisa.fi.
+135.286: nurmijarvi.fi INFO Mail exchangers for hostmaster@elisa.fi found mx2.elisa.fi,mx1.elisa.fi.
+135.365: nurmijarvi.fi INFO Begin testing host mx2.elisa.fi.
+138.530: nurmijarvi.fi INFO Begin testing address 193.64.173.43.
+147.477: nurmijarvi.fi INFO Done testing address 193.64.173.43.
+147.478: nurmijarvi.fi INFO Done testing host mx2.elisa.fi.
+149.149: nurmijarvi.fi INFO Begin testing host mx1.elisa.fi.
+153.446: nurmijarvi.fi INFO Begin testing address 193.64.173.42.
+160.038: nurmijarvi.fi INFO Done testing address 193.64.173.42.
+160.038: nurmijarvi.fi INFO Done testing host mx1.elisa.fi.
+162.078: nurmijarvi.fi INFO Done testing email address hostmaster@elisa.fi.
+162.078: nurmijarvi.fi INFO Successful attempt to deliver email for SOA RNAME of nurmijarvi.fi (hostmaster.elisa.fi) using hostmaster@elisa.fi.
+162.078: nurmijarvi.fi INFO SOA TTL for nurmijarvi.fi OK (3600) - recommended >= 3600.
+162.078: nurmijarvi.fi NOTICE SOA refresh for nurmijarvi.fi too small (3600) - recommended >= 14400.
+162.078: nurmijarvi.fi NOTICE SOA retry for nurmijarvi.fi too small (900) - recommended >= 3600.
+162.078: nurmijarvi.fi INFO SOA expire for nurmijarvi.fi OK (604800) - recommended >= 604800.
+162.079: nurmijarvi.fi INFO SOA minimum for nurmijarvi.fi OK (3600) - recommended between 300 and 86400.
+162.079: nurmijarvi.fi INFO Done testing SOA parameters for nurmijarvi.fi.
+162.079: nurmijarvi.fi INFO Begin testing connectivity for nurmijarvi.fi.
+167.655: nurmijarvi.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+167.655: nurmijarvi.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+167.655: nurmijarvi.fi INFO Done testing connectivity for nurmijarvi.fi.
+167.656: nurmijarvi.fi INFO Begin testing DNSSEC for nurmijarvi.fi.
+168.207: nurmijarvi.fi INFO Did not find DS record for nurmijarvi.fi at parent.
+169.010: nurmijarvi.fi INFO Servers for nurmijarvi.fi have consistent extra processing status.
+169.268: nurmijarvi.fi INFO Authenticated denial records not found for nurmijarvi.fi.
+169.533: nurmijarvi.fi INFO Did not find DNSKEY record for nurmijarvi.fi at child.
+169.534: nurmijarvi.fi INFO No DNSKEY(s) found at child, other tests skipped.
+169.534: nurmijarvi.fi INFO Done testing DNSSEC for nurmijarvi.fi.
+169.534: nurmijarvi.fi INFO Test completed for zone nurmijarvi.fi.

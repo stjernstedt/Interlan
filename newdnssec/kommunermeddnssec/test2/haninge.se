@@ -1,0 +1,87 @@
+  0.000: haninge.se INFO Begin testing zone haninge.se with version 1.2.
+  0.000: haninge.se INFO Begin testing delegation for haninge.se.
+  5.564: haninge.se INFO Name servers listed at parent: ah35.haninge.se,dns1.telia.com
+  6.239: haninge.se INFO Name servers listed at child: ah35.haninge.se
+  6.239: haninge.se ERROR Superfluous name server listed at parent: dns1.telia.com
+  6.239: haninge.se ERROR Too few name servers (1).
+  6.239: haninge.se ERROR Too few IPv4 name servers (1).
+  6.239: haninge.se NOTICE No IPv6 name servers found.
+  6.305: haninge.se INFO Parent glue for haninge.se found: ah35.haninge.se (194.16.220.251)
+  6.398: haninge.se INFO Checking glue for ah35.haninge.se (194.16.220.251).
+  6.407: haninge.se INFO Child glue for haninge.se found: ah35.haninge.se (194.16.220.251)
+  6.408: haninge.se INFO Parent glue for haninge.se found: ah35.haninge.se (194.16.220.251)
+  6.408: haninge.se INFO Done testing delegation for haninge.se.
+  6.409: haninge.se INFO Begin testing name server ah35.haninge.se.
+  6.409: haninge.se INFO Begin testing host ah35.haninge.se.
+  6.409: haninge.se INFO Begin testing address 194.16.220.251.
+ 10.846: haninge.se INFO Done testing address 194.16.220.251.
+ 10.846: haninge.se INFO Done testing host ah35.haninge.se.
+ 10.855: haninge.se INFO Name server ah35.haninge.se (194.16.220.251) answers queries over UDP.
+ 10.869: haninge.se INFO Name server ah35.haninge.se (194.16.220.251) answers queries over TCP.
+ 10.877: haninge.se INFO Name server ah35.haninge.se (194.16.220.251) is not recursive.
+ 14.882: haninge.se INFO Name server ah35.haninge.se (194.16.220.251) authoritative for haninge.se.
+ 14.901: haninge.se INFO Name server ah35.haninge.se (194.16.220.251) closed for zone transfer of haninge.se.
+ 14.909: haninge.se NOTICE No answer received from 194.16.220.251 when querying for hostname.bind/CH/TXT.
+ 14.917: haninge.se NOTICE No answer received from 194.16.220.251 when querying for version.bind/CH/TXT.
+ 14.925: haninge.se NOTICE No answer received from 194.16.220.251 when querying for id.server/CH/TXT.
+ 14.933: haninge.se NOTICE No answer received from 194.16.220.251 when querying for version.server/CH/TXT.
+ 14.933: haninge.se INFO Done testing name server ah35.haninge.se.
+ 14.934: haninge.se INFO Begin testing zone consistency for haninge.se.
+ 15.612: haninge.se INFO SOA at address 194.16.220.251 has serial 2010121360.
+ 15.618: haninge.se ERROR DNS SERVFAIL when querying 81.228.11.67 for SOA
+ 15.618: haninge.se INFO All SOA records have consistent serial numbers.
+ 15.618: haninge.se INFO All SOA records are consistent among all name servers.
+ 15.618: haninge.se INFO Done testing zone consistency for haninge.se.
+ 15.619: haninge.se INFO Begin testing SOA parameters for haninge.se.
+ 15.627: haninge.se INFO Found SOA record for haninge.se.
+ 15.627: haninge.se INFO Begin testing host ah35.haninge.se.
+ 15.627: haninge.se INFO Begin testing address 194.16.220.251.
+ 15.629: haninge.se INFO Done testing address 194.16.220.251.
+ 15.629: haninge.se INFO Done testing host ah35.haninge.se.
+ 15.629: haninge.se INFO SOA MNAME for haninge.se valid (ah35.haninge.se).
+ 15.629: haninge.se INFO SOA MNAME for haninge.se (ah35.haninge.se) listed as NS.
+ 15.639: haninge.se INFO SOA MNAME for haninge.se (ah35.haninge.se) is authoritative.
+ 15.639: haninge.se INFO Begin testing email address admin@haninge.se.
+ 15.922: haninge.se INFO Mail exchangers for admin@haninge.se found mx81.emailfiltering.com,mx82.emailfiltering.com,mx83.emailfiltering.com.
+ 15.922: haninge.se INFO Begin testing host mx81.emailfiltering.com.
+ 16.787: haninge.se INFO Begin testing address 194.116.198.78.
+ 18.235: haninge.se INFO Done testing address 194.116.198.78.
+ 18.235: haninge.se INFO Done testing host mx81.emailfiltering.com.
+ 18.236: haninge.se INFO Begin testing mail server mx81.emailfiltering.com (194.116.198.78) with admin@haninge.se.
+ 18.910: haninge.se INFO SMTP banner: gse-mta-08.emailfiltering.com emfmtad 72
+ 19.001: haninge.se INFO SMTP testing of mx81.emailfiltering.com (194.116.198.78) with admin@haninge.se succeeded without errors.
+ 19.001: haninge.se INFO Done testing mail server mx81.emailfiltering.com (194.116.198.78) with admin@haninge.se.
+ 19.002: haninge.se INFO Begin testing host mx82.emailfiltering.com.
+ 20.092: haninge.se INFO Begin testing address 194.116.199.78.
+ 25.493: haninge.se INFO Done testing address 194.116.199.78.
+ 25.493: haninge.se INFO Done testing host mx82.emailfiltering.com.
+ 25.493: haninge.se INFO Begin testing host mx83.emailfiltering.com.
+ 26.454: haninge.se INFO Begin testing address 79.125.114.56.
+ 29.965: haninge.se INFO Done testing address 79.125.114.56.
+ 29.965: haninge.se INFO Done testing host mx83.emailfiltering.com.
+ 29.966: haninge.se INFO Delivery over IPv4 to admin@haninge.se ok.
+ 29.966: haninge.se INFO Delivery over IPv6 to admin@haninge.se could not be done.
+ 29.966: haninge.se INFO Done testing email address admin@haninge.se.
+ 29.966: haninge.se INFO Successful attempt to deliver email for SOA RNAME of haninge.se (admin.haninge.se) using admin@haninge.se.
+ 29.966: haninge.se INFO SOA TTL for haninge.se OK (3600) - recommended >= 3600.
+ 29.966: haninge.se NOTICE SOA refresh for haninge.se too small (3600) - recommended >= 14400.
+ 29.966: haninge.se NOTICE SOA refresh for haninge.se lower than retry (3600 vs 3600).
+ 29.966: haninge.se INFO SOA retry for haninge.se OK (3600) - recommended >= 3600.
+ 29.966: haninge.se INFO SOA expire for haninge.se OK (1814400) - recommended >= 604800.
+ 29.966: haninge.se INFO SOA minimum for haninge.se OK (3600) - recommended between 300 and 86400.
+ 29.966: haninge.se INFO Done testing SOA parameters for haninge.se.
+ 29.967: haninge.se INFO Begin testing connectivity for haninge.se.
+ 30.496: haninge.se INFO Name server 194.16.220.251 announced by: 3301
+ 30.496: haninge.se INFO Zone announced by IPv4 ASN: 3301
+ 30.496: haninge.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 30.497: haninge.se INFO Zone announced by IPv6 ASN: 
+ 30.497: haninge.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 30.497: haninge.se INFO Done testing connectivity for haninge.se.
+ 30.497: haninge.se INFO Begin testing DNSSEC for haninge.se.
+ 30.608: haninge.se INFO Did not find DS record for haninge.se at parent.
+ 30.622: haninge.se NOTICE No answer received from 194.16.220.251 when querying for haninge.se/IN/DNSKEY.
+ 30.623: haninge.se INFO Servers for haninge.se have consistent extra processing status.
+ 30.623: haninge.se INFO Did not find DNSKEY record for haninge.se at child.
+ 30.623: haninge.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 30.623: haninge.se INFO Done testing DNSSEC for haninge.se.
+ 30.623: haninge.se INFO Test completed for zone haninge.se.

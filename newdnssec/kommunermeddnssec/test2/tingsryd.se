@@ -1,0 +1,84 @@
+  0.000: tingsryd.se INFO Begin testing zone tingsryd.se with version 1.2.
+  0.000: tingsryd.se INFO Begin testing delegation for tingsryd.se.
+ 14.038: tingsryd.se INFO Name servers listed at parent: dns3.telia.com,dns4.telia.com
+ 15.671: tingsryd.se INFO Name servers listed at child: dns3.telia.com,dns4.telia.com
+ 15.671: tingsryd.se NOTICE No IPv6 name servers found.
+ 15.746: tingsryd.se INFO Done testing delegation for tingsryd.se.
+ 15.747: tingsryd.se INFO Begin testing name server dns3.telia.com.
+ 15.747: tingsryd.se INFO Begin testing host dns3.telia.com.
+ 15.747: tingsryd.se INFO Begin testing address 81.228.11.184.
+ 20.206: tingsryd.se INFO Done testing address 81.228.11.184.
+ 20.206: tingsryd.se INFO Done testing host dns3.telia.com.
+ 20.215: tingsryd.se INFO Name server dns3.telia.com (81.228.11.184) answers queries over UDP.
+ 20.227: tingsryd.se INFO Name server dns3.telia.com (81.228.11.184) answers queries over TCP.
+ 20.234: tingsryd.se INFO Name server dns3.telia.com (81.228.11.184) is not recursive.
+ 20.241: tingsryd.se INFO Name server dns3.telia.com (81.228.11.184) authoritative for tingsryd.se.
+ 20.255: tingsryd.se INFO Name server dns3.telia.com (81.228.11.184) closed for zone transfer of tingsryd.se.
+ 20.265: tingsryd.se INFO Legacy name server ID for dns3.telia.com (81.228.11.184): hostname.bind = dnshosting2-sn1.fre.skanova.net
+ 20.272: tingsryd.se INFO Legacy name server ID for dns3.telia.com (81.228.11.184): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 20.285: tingsryd.se NOTICE No answer received from 81.228.11.184 when querying for version.server/CH/TXT.
+ 20.285: tingsryd.se INFO Done testing name server dns3.telia.com.
+ 20.285: tingsryd.se INFO Begin testing name server dns4.telia.com.
+ 20.285: tingsryd.se INFO Begin testing host dns4.telia.com.
+ 20.286: tingsryd.se INFO Begin testing address 81.228.9.98.
+ 25.488: tingsryd.se INFO Done testing address 81.228.9.98.
+ 25.488: tingsryd.se INFO Done testing host dns4.telia.com.
+ 25.502: tingsryd.se INFO Name server dns4.telia.com (81.228.9.98) answers queries over UDP.
+ 25.525: tingsryd.se INFO Name server dns4.telia.com (81.228.9.98) answers queries over TCP.
+ 25.539: tingsryd.se INFO Name server dns4.telia.com (81.228.9.98) is not recursive.
+ 25.553: tingsryd.se INFO Name server dns4.telia.com (81.228.9.98) authoritative for tingsryd.se.
+ 25.585: tingsryd.se INFO Name server dns4.telia.com (81.228.9.98) closed for zone transfer of tingsryd.se.
+ 25.598: tingsryd.se INFO Legacy name server ID for dns4.telia.com (81.228.9.98): hostname.bind = dnshosting1-sn3.vrr.skanova.net
+ 25.612: tingsryd.se INFO Legacy name server ID for dns4.telia.com (81.228.9.98): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 25.638: tingsryd.se NOTICE No answer received from 81.228.9.98 when querying for version.server/CH/TXT.
+ 25.638: tingsryd.se INFO Done testing name server dns4.telia.com.
+ 25.638: tingsryd.se INFO Begin testing zone consistency for tingsryd.se.
+ 25.655: tingsryd.se INFO SOA at address 81.228.9.98 has serial 1288855188.
+ 25.662: tingsryd.se INFO SOA at address 81.228.11.184 has serial 1288855188.
+ 25.663: tingsryd.se INFO All SOA records have consistent serial numbers.
+ 25.663: tingsryd.se INFO All SOA records are consistent among all name servers.
+ 25.663: tingsryd.se INFO Done testing zone consistency for tingsryd.se.
+ 25.663: tingsryd.se INFO Begin testing SOA parameters for tingsryd.se.
+ 25.676: tingsryd.se INFO Found SOA record for tingsryd.se.
+ 25.677: tingsryd.se INFO Begin testing host dns9.telia.com.
+ 26.479: tingsryd.se INFO Begin testing address 81.228.11.184.
+ 26.481: tingsryd.se INFO Done testing address 81.228.11.184.
+ 26.481: tingsryd.se INFO Done testing host dns9.telia.com.
+ 26.481: tingsryd.se INFO SOA MNAME for tingsryd.se valid (dns9.telia.com).
+ 26.481: tingsryd.se NOTICE SOA MNAME for tingsryd.se (dns9.telia.com) not listed as NS.
+ 26.489: tingsryd.se INFO SOA MNAME for tingsryd.se (dns9.telia.com) is authoritative.
+ 26.489: tingsryd.se INFO Begin testing email address registry@telia.net.
+ 31.032: tingsryd.se INFO Mail exchangers for registry@telia.net found mail.telia.net.
+ 31.032: tingsryd.se INFO Begin testing host mail.telia.net.
+ 32.110: tingsryd.se INFO Begin testing address 194.237.170.102.
+ 33.431: tingsryd.se INFO Done testing address 194.237.170.102.
+ 33.432: tingsryd.se INFO Done testing host mail.telia.net.
+ 33.432: tingsryd.se INFO Begin testing mail server mail.telia.net (194.237.170.102) with registry@telia.net.
+ 33.450: tingsryd.se INFO SMTP banner: avserver.telia.net ESMTP Postfix
+ 33.982: tingsryd.se INFO SMTP testing of mail.telia.net (194.237.170.102) with registry@telia.net succeeded without errors.
+ 33.982: tingsryd.se INFO Done testing mail server mail.telia.net (194.237.170.102) with registry@telia.net.
+ 33.982: tingsryd.se INFO Delivery over IPv4 to registry@telia.net ok.
+ 33.982: tingsryd.se INFO Delivery over IPv6 to registry@telia.net could not be done.
+ 33.982: tingsryd.se INFO Done testing email address registry@telia.net.
+ 33.982: tingsryd.se INFO Successful attempt to deliver email for SOA RNAME of tingsryd.se (registry.telia.net) using registry@telia.net.
+ 33.983: tingsryd.se INFO SOA TTL for tingsryd.se OK (3600) - recommended >= 3600.
+ 33.983: tingsryd.se NOTICE SOA refresh for tingsryd.se too small (1200) - recommended >= 14400.
+ 33.983: tingsryd.se NOTICE SOA retry for tingsryd.se too small (180) - recommended >= 3600.
+ 33.983: tingsryd.se INFO SOA expire for tingsryd.se OK (1209600) - recommended >= 604800.
+ 33.983: tingsryd.se NOTICE SOA minimum for tingsryd.se too large (1209600) - recommended <= 86400.
+ 33.983: tingsryd.se INFO Done testing SOA parameters for tingsryd.se.
+ 33.983: tingsryd.se INFO Begin testing connectivity for tingsryd.se.
+ 38.516: tingsryd.se INFO Name server 81.228.9.98 announced by: 3301
+ 39.039: tingsryd.se INFO Name server 81.228.11.184 announced by: 3301
+ 39.039: tingsryd.se INFO Zone announced by IPv4 ASN: 3301
+ 39.039: tingsryd.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 39.039: tingsryd.se INFO Zone announced by IPv6 ASN: 
+ 39.039: tingsryd.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 39.039: tingsryd.se INFO Done testing connectivity for tingsryd.se.
+ 39.039: tingsryd.se INFO Begin testing DNSSEC for tingsryd.se.
+ 39.154: tingsryd.se INFO Did not find DS record for tingsryd.se at parent.
+ 39.190: tingsryd.se INFO Servers for tingsryd.se have consistent extra processing status.
+ 39.190: tingsryd.se INFO Did not find DNSKEY record for tingsryd.se at child.
+ 39.190: tingsryd.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 39.190: tingsryd.se INFO Done testing DNSSEC for tingsryd.se.
+ 39.190: tingsryd.se INFO Test completed for zone tingsryd.se.

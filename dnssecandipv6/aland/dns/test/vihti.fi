@@ -1,0 +1,97 @@
+  0.000: vihti.fi INFO Begin testing zone vihti.fi with version 1.5.0.
+  2.708: vihti.fi INFO Begin testing delegation for vihti.fi.
+ 53.968: vihti.fi INFO Name servers listed at parent: ns-fi.elisa.net,ns-se.elisa.net,nslohja.lohja.fi
+ 75.417: vihti.fi INFO Name servers listed at child: ns-fi.elisa.net,ns-se.elisa.net,nslohja.lohja.fi
+ 75.417: vihti.fi NOTICE No IPv6 name servers found.
+ 77.282: vihti.fi INFO Parent glue for vihti.fi found: nslohja.lohja.fi (194.241.59.201)
+ 77.749: vihti.fi INFO Checking glue for nslohja.lohja.fi (194.241.59.201).
+ 77.750: vihti.fi INFO Parent glue for vihti.fi found: nslohja.lohja.fi (194.241.59.201)
+ 87.192: vihti.fi INFO It is possible to build a referral packet for vihti.fi that works without EDNS0.
+ 92.748: vihti.fi INFO Previously used name servers for vihti.fi: 
+ 92.748: vihti.fi INFO Done testing delegation for vihti.fi.
+ 92.749: vihti.fi INFO Begin testing name server ns-fi.elisa.net.
+ 92.749: vihti.fi INFO Begin testing host ns-fi.elisa.net.
+ 94.664: vihti.fi INFO Begin testing address 193.229.0.49.
+132.412: vihti.fi INFO Done testing address 193.229.0.49.
+132.412: vihti.fi INFO Done testing host ns-fi.elisa.net.
+133.708: vihti.fi INFO Name server ns-fi.elisa.net (193.229.0.49) answers queries over UDP.
+133.896: vihti.fi INFO Name server ns-fi.elisa.net (193.229.0.49) answers queries over TCP.
+133.976: vihti.fi INFO Name server ns-fi.elisa.net (193.229.0.49) is not recursive.
+134.307: vihti.fi INFO Name server ns-fi.elisa.net (193.229.0.49) authoritative for vihti.fi.
+134.472: vihti.fi INFO Name server ns-fi.elisa.net (193.229.0.49) closed for zone transfer of vihti.fi.
+134.633: vihti.fi INFO Legacy name server ID for ns-fi.elisa.net (193.229.0.49): hostname.bind = ldom-dns64
+134.750: vihti.fi INFO Legacy name server ID for ns-fi.elisa.net (193.229.0.49): version.bind = unknown
+134.936: vihti.fi NOTICE No answer received from 193.229.0.49 when querying for version.server/CH/TXT.
+134.937: vihti.fi INFO Done testing name server ns-fi.elisa.net.
+134.937: vihti.fi INFO Begin testing name server ns-se.elisa.net.
+134.937: vihti.fi INFO Begin testing host ns-se.elisa.net.
+136.336: vihti.fi INFO Begin testing address 62.248.254.2.
+138.488: vihti.fi INFO Done testing address 62.248.254.2.
+138.488: vihti.fi INFO Done testing host ns-se.elisa.net.
+139.884: vihti.fi INFO Name server ns-se.elisa.net (62.248.254.2) answers queries over UDP.
+140.048: vihti.fi INFO Name server ns-se.elisa.net (62.248.254.2) answers queries over TCP.
+140.143: vihti.fi INFO Name server ns-se.elisa.net (62.248.254.2) is not recursive.
+140.655: vihti.fi INFO Name server ns-se.elisa.net (62.248.254.2) authoritative for vihti.fi.
+140.810: vihti.fi INFO Name server ns-se.elisa.net (62.248.254.2) closed for zone transfer of vihti.fi.
+140.874: vihti.fi INFO Legacy name server ID for ns-se.elisa.net (62.248.254.2): hostname.bind = phys-dns8
+141.028: vihti.fi INFO Legacy name server ID for ns-se.elisa.net (62.248.254.2): version.bind = unknown
+141.208: vihti.fi NOTICE No answer received from 62.248.254.2 when querying for version.server/CH/TXT.
+141.209: vihti.fi INFO Done testing name server ns-se.elisa.net.
+141.209: vihti.fi INFO Begin testing name server nslohja.lohja.fi.
+141.209: vihti.fi INFO Begin testing host nslohja.lohja.fi.
+142.101: vihti.fi INFO Begin testing address 194.241.59.201.
+143.847: vihti.fi INFO Done testing address 194.241.59.201.
+143.847: vihti.fi INFO Done testing host nslohja.lohja.fi.
+144.769: vihti.fi INFO Name server nslohja.lohja.fi (194.241.59.201) answers queries over UDP.
+145.000: vihti.fi INFO Name server nslohja.lohja.fi (194.241.59.201) answers queries over TCP.
+145.096: vihti.fi INFO Name server nslohja.lohja.fi (194.241.59.201) is not recursive.
+145.429: vihti.fi INFO Name server nslohja.lohja.fi (194.241.59.201) authoritative for vihti.fi.
+145.597: vihti.fi INFO Name server nslohja.lohja.fi (194.241.59.201) closed for zone transfer of vihti.fi.
+169.962: vihti.fi INFO Done testing name server nslohja.lohja.fi.
+169.962: vihti.fi INFO Begin testing zone consistency for vihti.fi.
+175.589: vihti.fi INFO SOA at address 194.241.59.201 has serial 2013042601.
+175.653: vihti.fi INFO SOA at address 62.248.254.2 has serial 2013042601.
+175.757: vihti.fi INFO SOA at address 193.229.0.49 has serial 2013042601.
+175.757: vihti.fi INFO All SOA records have consistent serial numbers.
+175.757: vihti.fi INFO All other fields in the SOA record are consistent among all name servers.
+178.508: vihti.fi NOTICE The listed nameservers for vihti.fi all report the same set of nameservers.
+178.508: vihti.fi INFO Done testing zone consistency for vihti.fi.
+178.509: vihti.fi INFO Begin testing SOA parameters for vihti.fi.
+178.600: vihti.fi INFO Found SOA record for vihti.fi.
+178.601: vihti.fi INFO Begin testing host nslohja.lohja.fi.
+179.244: vihti.fi INFO Begin testing address 194.241.59.201.
+179.821: vihti.fi INFO Done testing address 194.241.59.201.
+179.821: vihti.fi INFO Done testing host nslohja.lohja.fi.
+179.821: vihti.fi INFO SOA MNAME for vihti.fi valid (nslohja.lohja.fi).
+179.822: vihti.fi INFO SOA MNAME for vihti.fi (nslohja.lohja.fi) listed as NS.
+180.269: vihti.fi INFO SOA MNAME for vihti.fi (nslohja.lohja.fi) is authoritative.
+180.269: vihti.fi INFO Begin testing email address hostmaster@lohja.fi.
+180.696: vihti.fi INFO Mail exchangers for hostmaster@lohja.fi found vsgw.lohja.fi,smtp3.kolumbus.fi.
+180.696: vihti.fi INFO Begin testing host vsgw.lohja.fi.
+181.348: vihti.fi INFO Begin testing address 195.255.158.10.
+182.340: vihti.fi INFO Done testing address 195.255.158.10.
+182.340: vihti.fi INFO Done testing host vsgw.lohja.fi.
+182.638: vihti.fi INFO Begin testing host smtp3.kolumbus.fi.
+183.280: vihti.fi INFO Begin testing address 193.229.0.34.
+183.905: vihti.fi INFO Done testing address 193.229.0.34.
+183.905: vihti.fi INFO Done testing host smtp3.kolumbus.fi.
+184.171: vihti.fi INFO Done testing email address hostmaster@lohja.fi.
+184.171: vihti.fi INFO Successful attempt to deliver email for SOA RNAME of vihti.fi (hostmaster.lohja.fi) using hostmaster@lohja.fi.
+184.172: vihti.fi INFO SOA TTL for vihti.fi OK (10800) - recommended >= 3600.
+184.172: vihti.fi NOTICE SOA refresh for vihti.fi too small (3600) - recommended >= 14400.
+184.172: vihti.fi NOTICE SOA retry for vihti.fi too small (900) - recommended >= 3600.
+184.172: vihti.fi INFO SOA expire for vihti.fi OK (1209600) - recommended >= 604800.
+184.172: vihti.fi INFO SOA minimum for vihti.fi OK (43200) - recommended between 300 and 86400.
+184.172: vihti.fi INFO Done testing SOA parameters for vihti.fi.
+184.172: vihti.fi INFO Begin testing connectivity for vihti.fi.
+186.028: vihti.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+186.028: vihti.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+186.028: vihti.fi INFO Done testing connectivity for vihti.fi.
+186.028: vihti.fi INFO Begin testing DNSSEC for vihti.fi.
+186.055: vihti.fi INFO Did not find DS record for vihti.fi at parent.
+186.306: vihti.fi INFO Servers for vihti.fi have consistent extra processing status.
+186.388: vihti.fi INFO Authenticated denial records not found for vihti.fi.
+186.436: vihti.fi INFO Did not find DNSKEY record for vihti.fi at child.
+186.436: vihti.fi INFO No DNSKEY(s) found at child, other tests skipped.
+186.436: vihti.fi INFO Done testing DNSSEC for vihti.fi.
+186.437: vihti.fi INFO Test completed for zone vihti.fi.

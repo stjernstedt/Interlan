@@ -1,0 +1,133 @@
+  0.000: ockelbo.se INFO Begin testing zone ockelbo.se with version 1.2.
+  0.000: ockelbo.se INFO Begin testing delegation for ockelbo.se.
+ 11.583: ockelbo.se INFO Name servers listed at parent: ns.gavle.se,ns2.gavlenet.com
+ 16.943: ockelbo.se INFO Name servers listed at child: ns.gavle.se,ns2.gavlenet.com
+ 16.943: ockelbo.se WARNING Too few IPv6 name servers (1).
+ 16.981: ockelbo.se INFO Parent glue for ockelbo.se found: ns.gavle.se (83.137.8.21)
+ 17.052: ockelbo.se INFO Checking glue for ns.gavle.se (83.137.8.21).
+ 17.052: ockelbo.se INFO Parent glue for ockelbo.se found: ns.gavle.se (83.137.8.21)
+ 17.053: ockelbo.se INFO Done testing delegation for ockelbo.se.
+ 17.053: ockelbo.se INFO Begin testing name server ns.gavle.se.
+ 17.054: ockelbo.se INFO Begin testing host ns.gavle.se.
+ 17.054: ockelbo.se INFO Begin testing address 83.137.8.21.
+ 25.051: ockelbo.se INFO Done testing address 83.137.8.21.
+ 25.051: ockelbo.se INFO Done testing host ns.gavle.se.
+ 25.058: ockelbo.se INFO Name server ns.gavle.se (83.137.8.21) answers queries over UDP.
+ 25.067: ockelbo.se INFO Name server ns.gavle.se (83.137.8.21) answers queries over TCP.
+ 25.078: ockelbo.se INFO Name server ns.gavle.se (83.137.8.21) is not recursive.
+ 25.085: ockelbo.se INFO Name server ns.gavle.se (83.137.8.21) authoritative for ockelbo.se.
+ 25.091: ockelbo.se INFO Name server ns.gavle.se (83.137.8.21) closed for zone transfer of ockelbo.se.
+ 25.099: ockelbo.se INFO Legacy name server ID for ns.gavle.se (83.137.8.21): hostname.bind = bastion.gavle.se
+ 31.109: ockelbo.se NOTICE No answer received from 83.137.8.21 when querying for version.server/CH/TXT.
+ 31.109: ockelbo.se INFO Done testing name server ns.gavle.se.
+ 31.109: ockelbo.se INFO Begin testing name server ns2.gavlenet.com.
+ 31.110: ockelbo.se INFO Begin testing host ns2.gavlenet.com.
+ 31.110: ockelbo.se INFO Begin testing address 213.141.64.3.
+ 36.104: ockelbo.se INFO Done testing address 213.141.64.3.
+ 36.104: ockelbo.se INFO Begin testing address 2001:b48:0:0:0:0:0:3.
+ 36.875: ockelbo.se INFO Done testing address 2001:b48:0:0:0:0:0:3.
+ 36.875: ockelbo.se INFO Done testing host ns2.gavlenet.com.
+ 36.881: ockelbo.se INFO Name server ns2.gavlenet.com (213.141.64.3) answers queries over UDP.
+ 36.886: ockelbo.se INFO Name server ns2.gavlenet.com (213.141.64.3) answers queries over TCP.
+ 37.001: ockelbo.se WARNING Name server ns2.gavlenet.com (213.141.64.3) is recursive.
+ 37.006: ockelbo.se INFO Name server ns2.gavlenet.com (213.141.64.3) authoritative for ockelbo.se.
+ 37.010: ockelbo.se INFO Name server ns2.gavlenet.com (213.141.64.3) closed for zone transfer of ockelbo.se.
+ 37.014: ockelbo.se INFO Legacy name server ID for ns2.gavlenet.com (213.141.64.3): hostname.bind = pippin.gavlenet.com
+ 37.017: ockelbo.se INFO Legacy name server ID for ns2.gavlenet.com (213.141.64.3): version.bind = Unknown
+ 37.023: ockelbo.se NOTICE No answer received from 213.141.64.3 when querying for version.server/CH/TXT.
+ 37.029: ockelbo.se INFO Name server ns2.gavlenet.com (2001:b48:0:0:0:0:0:3) answers queries over UDP.
+ 37.036: ockelbo.se INFO Name server ns2.gavlenet.com (2001:b48:0:0:0:0:0:3) answers queries over TCP.
+ 38.624: ockelbo.se WARNING Name server ns2.gavlenet.com (2001:b48:0:0:0:0:0:3) is recursive.
+ 38.631: ockelbo.se INFO Name server ns2.gavlenet.com (2001:b48:0:0:0:0:0:3) authoritative for ockelbo.se.
+ 38.635: ockelbo.se INFO Name server ns2.gavlenet.com (2001:b48:0:0:0:0:0:3) closed for zone transfer of ockelbo.se.
+ 38.639: ockelbo.se INFO Legacy name server ID for ns2.gavlenet.com (2001:b48:0:0:0:0:0:3): hostname.bind = pippin.gavlenet.com
+ 38.643: ockelbo.se INFO Legacy name server ID for ns2.gavlenet.com (2001:b48:0:0:0:0:0:3): version.bind = Unknown
+ 38.650: ockelbo.se NOTICE No answer received from 2001:b48:0:0:0:0:0:3 when querying for version.server/CH/TXT.
+ 38.650: ockelbo.se INFO Done testing name server ns2.gavlenet.com.
+ 38.651: ockelbo.se INFO Begin testing zone consistency for ockelbo.se.
+ 38.660: ockelbo.se INFO SOA at address 83.137.8.21 has serial 2010121301.
+ 38.665: ockelbo.se INFO SOA at address 213.141.64.3 has serial 2010121301.
+ 38.670: ockelbo.se INFO SOA at address 2001:b48:0:0:0:0:0:3 has serial 2010121301.
+ 38.670: ockelbo.se INFO All SOA records have consistent serial numbers.
+ 38.670: ockelbo.se INFO All SOA records are consistent among all name servers.
+ 38.670: ockelbo.se INFO Done testing zone consistency for ockelbo.se.
+ 38.670: ockelbo.se INFO Begin testing SOA parameters for ockelbo.se.
+ 38.675: ockelbo.se INFO Found SOA record for ockelbo.se.
+ 38.675: ockelbo.se INFO Begin testing host ns.gavle.se.
+ 38.675: ockelbo.se INFO Begin testing address 83.137.8.21.
+ 38.677: ockelbo.se INFO Done testing address 83.137.8.21.
+ 38.677: ockelbo.se INFO Done testing host ns.gavle.se.
+ 38.677: ockelbo.se INFO SOA MNAME for ockelbo.se valid (ns.gavle.se).
+ 38.677: ockelbo.se INFO SOA MNAME for ockelbo.se (ns.gavle.se) listed as NS.
+ 38.683: ockelbo.se INFO SOA MNAME for ockelbo.se (ns.gavle.se) is authoritative.
+ 38.683: ockelbo.se INFO Begin testing email address hostmaster@gavle.se.
+ 38.899: ockelbo.se INFO Mail exchangers for hostmaster@gavle.se found mail-2.gavle.se,mail-3.gavle.se.
+ 38.900: ockelbo.se INFO Begin testing host mail-2.gavle.se.
+ 39.329: ockelbo.se INFO Begin testing address 83.137.10.253.
+ 39.573: ockelbo.se INFO Done testing address 83.137.10.253.
+ 39.573: ockelbo.se INFO Done testing host mail-2.gavle.se.
+ 39.573: ockelbo.se INFO Begin testing mail server mail-2.gavle.se (83.137.10.253) with hostmaster@gavle.se.
+ 39.586: ockelbo.se INFO SMTP banner: mail-2.gavle.se ESMTP
+ 39.888: ockelbo.se INFO SMTP testing of mail-2.gavle.se (83.137.10.253) with hostmaster@gavle.se succeeded without errors.
+ 39.888: ockelbo.se INFO Done testing mail server mail-2.gavle.se (83.137.10.253) with hostmaster@gavle.se.
+ 39.888: ockelbo.se INFO Begin testing host mail-3.gavle.se.
+ 40.336: ockelbo.se INFO Begin testing address 83.137.10.254.
+ 40.655: ockelbo.se INFO Done testing address 83.137.10.254.
+ 40.655: ockelbo.se INFO Done testing host mail-3.gavle.se.
+ 40.655: ockelbo.se INFO Delivery over IPv4 to hostmaster@gavle.se ok.
+ 40.655: ockelbo.se INFO Delivery over IPv6 to hostmaster@gavle.se could not be done.
+ 40.655: ockelbo.se INFO Done testing email address hostmaster@gavle.se.
+ 40.655: ockelbo.se INFO Successful attempt to deliver email for SOA RNAME of ockelbo.se (hostmaster.gavle.se) using hostmaster@gavle.se.
+ 40.656: ockelbo.se INFO SOA TTL for ockelbo.se OK (86400) - recommended >= 3600.
+ 40.656: ockelbo.se INFO SOA refresh for ockelbo.se OK (28800) - recommended >= 14400.
+ 40.656: ockelbo.se INFO SOA retry for ockelbo.se OK (7200) - recommended >= 3600.
+ 40.656: ockelbo.se INFO SOA expire for ockelbo.se OK (2678400) - recommended >= 604800.
+ 40.656: ockelbo.se INFO SOA minimum for ockelbo.se OK (86400) - recommended between 300 and 86400.
+ 40.656: ockelbo.se INFO Done testing SOA parameters for ockelbo.se.
+ 40.656: ockelbo.se INFO Begin testing connectivity for ockelbo.se.
+ 41.193: ockelbo.se INFO Name server 213.141.64.3 announced by: 16117
+ 41.723: ockelbo.se INFO Name server 83.137.8.21 announced by: 41848
+ 41.723: ockelbo.se INFO Zone announced by IPv4 ASN: 41848,16117
+ 41.723: ockelbo.se INFO Zone announced by more than one ASN (2).
+ 42.250: ockelbo.se INFO Name server 2001:0b48:0000:0000:0000:0000:0000:0003 announced over IPv6 by: 16117
+ 42.250: ockelbo.se INFO Zone announced by IPv6 ASN: 16117
+ 42.250: ockelbo.se NOTICE Zone announced by less than two IPv6 ASN (1).
+ 42.251: ockelbo.se INFO Done testing connectivity for ockelbo.se.
+ 42.251: ockelbo.se INFO Begin testing DNSSEC for ockelbo.se.
+ 42.369: ockelbo.se INFO Found DS record for ockelbo.se at parent.
+ 42.377: ockelbo.se INFO Nameserver 213.141.64.3 does DNSSEC extra processing.
+ 42.385: ockelbo.se INFO Nameserver 83.137.8.21 does DNSSEC extra processing.
+ 42.393: ockelbo.se INFO Nameserver 2001:b48:0:0:0:0:0:3 does DNSSEC extra processing.
+ 42.393: ockelbo.se INFO Servers for ockelbo.se have consistent extra processing status.
+ 42.393: ockelbo.se INFO Found DNSKEY record for ockelbo.se at child.
+ 42.393: ockelbo.se INFO Consistent security for ockelbo.se.
+ 42.393: ockelbo.se INFO Checking DNSSEC at child (ockelbo.se).
+ 42.393: ockelbo.se INFO ockelbo.se's key with tag 29119 uses algorithm number 5 (RSA/SHA-1).
+ 42.394: ockelbo.se INFO Algorithm number 5 is OK.
+ 42.394: ockelbo.se INFO DNSKEY ockelbo.se (tag 29119) is marked as a secure entry point (SEP).
+ 42.394: ockelbo.se INFO ockelbo.se's key with tag 41450 uses algorithm number 5 (RSA/SHA-1).
+ 42.394: ockelbo.se INFO Algorithm number 5 is OK.
+ 42.394: ockelbo.se INFO DNSSEC signature expires at: Wed Jan 12 11:00:03 2011
+ 42.397: ockelbo.se INFO DNSSEC signature RRSIG(ockelbo.se/IN/DNSKEY/29119) matches records.
+ 42.397: ockelbo.se INFO DNSSEC signature valid: RRSIG(ockelbo.se/IN/DNSKEY/29119)
+ 42.397: ockelbo.se INFO DNSSEC signature expires at: Wed Jan 12 11:00:03 2011
+ 42.398: ockelbo.se INFO DNSSEC signature RRSIG(ockelbo.se/IN/DNSKEY/41450) matches records.
+ 42.398: ockelbo.se INFO DNSSEC signature valid: RRSIG(ockelbo.se/IN/DNSKEY/41450)
+ 42.398: ockelbo.se INFO Enough valid signatures found for ockelbo.se.
+ 42.405: ockelbo.se INFO DNSSEC signature expires at: Wed Jan 12 11:00:03 2011
+ 42.406: ockelbo.se INFO DNSSEC signature RRSIG(ockelbo.se/IN/SOA/41450) matches records.
+ 42.406: ockelbo.se INFO DNSSEC signature valid: RRSIG(ockelbo.se/IN/SOA/41450)
+ 42.406: ockelbo.se INFO Enough valid signatures over SOA RRset found for ockelbo.se.
+ 42.406: ockelbo.se INFO DNSSEC child checks for ockelbo.se complete.
+ 42.406: ockelbo.se INFO Checking DNSSEC at parent of ockelbo.se.
+ 42.406: ockelbo.se INFO ockelbo.se's key with tag 29119 uses algorithm number 5 (RSA/SHA-1).
+ 42.406: ockelbo.se INFO Algorithm number 5 is OK.
+ 42.407: ockelbo.se INFO Parent DS(ockelbo.se) refers to valid key at child: DS(ockelbo.se/5/1/29119)
+ 42.407: ockelbo.se INFO Parent DS(ockelbo.se) refers to secure entry point (SEP) at child: DS(ockelbo.se/5/1/29119)
+ 42.407: ockelbo.se INFO ockelbo.se's key with tag 29119 uses algorithm number 5 (RSA/SHA-1).
+ 42.407: ockelbo.se INFO Algorithm number 5 is OK.
+ 42.407: ockelbo.se INFO Parent DS(ockelbo.se) refers to valid key at child: DS(ockelbo.se/5/2/29119)
+ 42.407: ockelbo.se INFO Parent DS(ockelbo.se) refers to secure entry point (SEP) at child: DS(ockelbo.se/5/2/29119)
+ 42.407: ockelbo.se INFO DNSSEC parent checks for ockelbo.se complete.
+ 42.408: ockelbo.se INFO Done testing DNSSEC for ockelbo.se.
+ 42.408: ockelbo.se INFO Test completed for zone ockelbo.se.

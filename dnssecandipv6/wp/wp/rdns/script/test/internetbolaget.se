@@ -1,0 +1,94 @@
+  0.000: internetbolaget.se INFO Begin testing zone internetbolaget.se with version 1.0.1.
+  0.001: internetbolaget.se INFO Begin testing delegation for internetbolaget.se.
+  1.110: internetbolaget.se INFO Name servers listed at parent: ns.ettnet.se,ns15.zoneedit.com,ns2.ettnet.se,ns3.zoneedit.com
+  1.975: internetbolaget.se INFO Name servers listed at child: ns15.zoneedit.com,ns3.zoneedit.com
+  1.975: internetbolaget.se ERROR Superfluous name server listed at parent: ns.ettnet.se
+  1.975: internetbolaget.se ERROR Superfluous name server listed at parent: ns2.ettnet.se
+  1.976: internetbolaget.se NOTICE No IPv6 name servers found.
+  1.995: internetbolaget.se INFO Parent glue for internetbolaget.se found: ns.ettnet.se (80.248.224.40)
+  2.042: internetbolaget.se INFO Parent glue for internetbolaget.se found: ns2.ettnet.se (83.168.243.236)
+  2.078: internetbolaget.se INFO Checking glue for ns.ettnet.se (80.248.224.40).
+  2.078: internetbolaget.se INFO Checking glue for ns2.ettnet.se (83.168.243.236).
+  2.078: internetbolaget.se INFO Done testing delegation for internetbolaget.se.
+  2.079: internetbolaget.se INFO Begin testing name server ns15.zoneedit.com.
+  2.079: internetbolaget.se INFO Begin testing host ns15.zoneedit.com.
+  2.079: internetbolaget.se INFO Begin testing address 216.227.210.9.
+  3.761: internetbolaget.se INFO Done testing address 216.227.210.9.
+  3.761: internetbolaget.se INFO Done testing host ns15.zoneedit.com.
+  3.954: internetbolaget.se INFO Name server ns15.zoneedit.com (216.227.210.9) is not recursive.
+  4.143: internetbolaget.se INFO Name server ns15.zoneedit.com (216.227.210.9) authoritative for internetbolaget.se.
+  4.334: internetbolaget.se INFO Name server ns15.zoneedit.com (216.227.210.9) answers queries over UDP.
+  4.706: internetbolaget.se INFO Name server ns15.zoneedit.com (216.227.210.9) answers queries over TCP.
+  5.262: internetbolaget.se NOTICE Name server ns15.zoneedit.com (216.227.210.9) open for zone transfer of internetbolaget.se.
+  5.453: internetbolaget.se INFO Legacy name server ID for ns15.zoneedit.com (216.227.210.9): hostname.bind = ns15.zoneedit.com
+  5.641: internetbolaget.se INFO Legacy name server ID for ns15.zoneedit.com (216.227.210.9): version.bind = 8.4.X
+  5.828: internetbolaget.se NOTICE No answer received from 216.227.210.9 when querying for id.server/CH/TXT.
+  6.015: internetbolaget.se NOTICE No answer received from 216.227.210.9 when querying for version.server/CH/TXT.
+  6.016: internetbolaget.se INFO Done testing name server ns15.zoneedit.com.
+  6.016: internetbolaget.se INFO Begin testing name server ns3.zoneedit.com.
+  6.016: internetbolaget.se INFO Begin testing host ns3.zoneedit.com.
+  6.016: internetbolaget.se INFO Begin testing address 76.74.236.21.
+  6.627: internetbolaget.se INFO Done testing address 76.74.236.21.
+  6.627: internetbolaget.se INFO Done testing host ns3.zoneedit.com.
+  6.858: internetbolaget.se INFO Name server ns3.zoneedit.com (76.74.236.21) is not recursive.
+  7.087: internetbolaget.se INFO Name server ns3.zoneedit.com (76.74.236.21) authoritative for internetbolaget.se.
+  7.315: internetbolaget.se INFO Name server ns3.zoneedit.com (76.74.236.21) answers queries over UDP.
+  7.836: internetbolaget.se INFO Name server ns3.zoneedit.com (76.74.236.21) answers queries over TCP.
+  8.511: internetbolaget.se NOTICE Name server ns3.zoneedit.com (76.74.236.21) open for zone transfer of internetbolaget.se.
+  8.739: internetbolaget.se INFO Legacy name server ID for ns3.zoneedit.com (76.74.236.21): hostname.bind = ns3.zoneedit.com
+  8.967: internetbolaget.se INFO Legacy name server ID for ns3.zoneedit.com (76.74.236.21): version.bind = 8.4.X
+  9.194: internetbolaget.se NOTICE No answer received from 76.74.236.21 when querying for id.server/CH/TXT.
+  9.431: internetbolaget.se NOTICE No answer received from 76.74.236.21 when querying for version.server/CH/TXT.
+  9.431: internetbolaget.se INFO Done testing name server ns3.zoneedit.com.
+  9.431: internetbolaget.se INFO Begin testing zone consistency for internetbolaget.se.
+  9.491: internetbolaget.se INFO SOA at address 83.168.243.236 has serial 1283502189.
+  9.718: internetbolaget.se INFO SOA at address 76.74.236.21 has serial 1226570151.
+  9.906: internetbolaget.se INFO SOA at address 216.227.210.9 has serial 1226570151.
+  9.920: internetbolaget.se INFO SOA at address 80.248.224.40 has serial 1283502187.
+  9.920: internetbolaget.se WARNING 3 different serials found.
+  9.920: internetbolaget.se ERROR 2 different SOA records found.
+  9.920: internetbolaget.se INFO Done testing zone consistency for internetbolaget.se.
+  9.920: internetbolaget.se INFO Begin testing SOA parameters for internetbolaget.se.
+ 10.148: internetbolaget.se INFO Found SOA record for internetbolaget.se.
+ 10.148: internetbolaget.se INFO Begin testing host ns3.zoneedit.com.
+ 10.149: internetbolaget.se INFO Begin testing address 76.74.236.21.
+ 10.150: internetbolaget.se INFO Done testing address 76.74.236.21.
+ 10.150: internetbolaget.se INFO Done testing host ns3.zoneedit.com.
+ 10.150: internetbolaget.se INFO SOA MNAME for internetbolaget.se valid (ns3.zoneedit.com).
+ 10.150: internetbolaget.se INFO SOA MNAME for internetbolaget.se (ns3.zoneedit.com) listed as NS.
+ 10.378: internetbolaget.se INFO SOA MNAME for internetbolaget.se (ns3.zoneedit.com) is authoritative.
+ 10.378: internetbolaget.se INFO Begin testing email address soacontact@zoneedit.com.
+ 10.493: internetbolaget.se INFO Mail exchangers for soacontact@zoneedit.com found mail.dotster.com.
+ 10.493: internetbolaget.se INFO Begin testing host mail.dotster.com.
+ 10.830: internetbolaget.se INFO Begin testing address 64.85.73.16.
+ 11.976: internetbolaget.se INFO Done testing address 64.85.73.16.
+ 11.976: internetbolaget.se INFO Done testing host mail.dotster.com.
+ 11.977: internetbolaget.se INFO Begin testing mail server mail.dotster.com (64.85.73.16) with soacontact@zoneedit.com.
+ 12.565: internetbolaget.se INFO SMTP banner: registerapi.com ESMTP
+ 14.372: internetbolaget.se INFO SMTP testing of mail.dotster.com (64.85.73.16) with soacontact@zoneedit.com succeeded without errors.
+ 14.372: internetbolaget.se INFO Done testing mail server mail.dotster.com (64.85.73.16) with soacontact@zoneedit.com.
+ 14.372: internetbolaget.se INFO Delivery over IPv4 to soacontact@zoneedit.com ok.
+ 14.372: internetbolaget.se INFO Delivery over IPv6 to soacontact@zoneedit.com could not be done.
+ 14.372: internetbolaget.se INFO Done testing email address soacontact@zoneedit.com.
+ 14.372: internetbolaget.se INFO Successful attempt to deliver email for SOA RNAME of internetbolaget.se (soacontact.zoneedit.com) using soacontact@zoneedit.com.
+ 14.372: internetbolaget.se INFO SOA TTL for internetbolaget.se OK (7200) - recommended >= 3600.
+ 14.372: internetbolaget.se INFO SOA refresh for internetbolaget.se OK (14400) - recommended >= 14400.
+ 14.373: internetbolaget.se INFO SOA retry for internetbolaget.se OK (7200) - recommended >= 3600.
+ 14.373: internetbolaget.se INFO SOA expire for internetbolaget.se OK (950400) - recommended >= 604800.
+ 14.373: internetbolaget.se INFO SOA minimum for internetbolaget.se OK (7200) - recommended between 300 and 86400.
+ 14.373: internetbolaget.se INFO Done testing SOA parameters for internetbolaget.se.
+ 14.373: internetbolaget.se INFO Begin testing connectivity for internetbolaget.se.
+ 14.678: internetbolaget.se INFO Name server 76.74.236.21 announced by: 13768
+ 14.807: internetbolaget.se INFO Name server 216.227.210.9 announced by: 15244
+ 14.807: internetbolaget.se INFO Zone announced by ASN: 13768,15244
+ 14.808: internetbolaget.se INFO Zone announced by more than one ASN (2).
+ 14.808: internetbolaget.se INFO Zone announced by IPv6 ASN: 
+ 14.808: internetbolaget.se NOTICE Zone announced by only one IPv6 ASN (0).
+ 14.808: internetbolaget.se INFO Done testing connectivity for internetbolaget.se.
+ 14.808: internetbolaget.se INFO Begin testing DNSSEC for internetbolaget.se.
+ 14.842: internetbolaget.se INFO Did not find DS record for internetbolaget.se at parent.
+ 15.666: internetbolaget.se INFO Servers for internetbolaget.se have consistent extra processing status.
+ 15.666: internetbolaget.se INFO Did not find DNSKEY record for internetbolaget.se at child.
+ 15.667: internetbolaget.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 15.667: internetbolaget.se INFO Done testing DNSSEC for internetbolaget.se.
+ 15.667: internetbolaget.se INFO Test completed for zone internetbolaget.se.

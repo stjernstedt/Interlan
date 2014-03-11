@@ -1,0 +1,83 @@
+  0.000: kihnio.fi INFO Begin testing zone kihnio.fi with version 1.5.0.
+  0.619: kihnio.fi INFO Begin testing delegation for kihnio.fi.
+ 14.403: kihnio.fi INFO Name servers listed at parent: ns3.netorek.fi,ns4.netorek.fi
+ 16.935: kihnio.fi INFO Name servers listed at child: ns3.netorek.fi,ns4.netorek.fi
+ 16.935: kihnio.fi NOTICE No IPv6 name servers found.
+ 16.989: kihnio.fi INFO Parent glue for kihnio.fi found: ns3.netorek.fi (62.106.63.5)
+ 17.331: kihnio.fi INFO Parent glue for kihnio.fi found: ns4.netorek.fi (62.197.168.5)
+ 17.610: kihnio.fi INFO Checking glue for ns3.netorek.fi (62.106.63.5).
+ 17.610: kihnio.fi INFO Checking glue for ns4.netorek.fi (62.197.168.5).
+ 17.610: kihnio.fi INFO Parent glue for kihnio.fi found: ns3.netorek.fi (62.106.63.5)
+ 17.611: kihnio.fi INFO Parent glue for kihnio.fi found: ns4.netorek.fi (62.197.168.5)
+ 20.606: kihnio.fi INFO It is possible to build a referral packet for kihnio.fi that works without EDNS0.
+ 22.770: kihnio.fi INFO Previously used name servers for kihnio.fi: 
+ 22.770: kihnio.fi INFO Done testing delegation for kihnio.fi.
+ 22.771: kihnio.fi INFO Begin testing name server ns3.netorek.fi.
+ 22.771: kihnio.fi INFO Begin testing host ns3.netorek.fi.
+ 23.732: kihnio.fi INFO Begin testing address 62.106.63.5.
+ 38.111: kihnio.fi INFO Done testing address 62.106.63.5.
+ 38.111: kihnio.fi INFO Done testing host ns3.netorek.fi.
+ 39.109: kihnio.fi INFO Name server ns3.netorek.fi (62.106.63.5) answers queries over UDP.
+ 39.241: kihnio.fi INFO Name server ns3.netorek.fi (62.106.63.5) answers queries over TCP.
+ 39.351: kihnio.fi INFO Name server ns3.netorek.fi (62.106.63.5) is not recursive.
+ 39.717: kihnio.fi INFO Name server ns3.netorek.fi (62.106.63.5) authoritative for kihnio.fi.
+ 39.854: kihnio.fi INFO Name server ns3.netorek.fi (62.106.63.5) closed for zone transfer of kihnio.fi.
+ 39.972: kihnio.fi INFO Legacy name server ID for ns3.netorek.fi (62.106.63.5): hostname.bind = posti.ippnet.fi
+ 40.134: kihnio.fi INFO Legacy name server ID for ns3.netorek.fi (62.106.63.5): version.bind = CCCP
+ 40.289: kihnio.fi NOTICE No answer received from 62.106.63.5 when querying for version.server/CH/TXT.
+ 40.289: kihnio.fi INFO Done testing name server ns3.netorek.fi.
+ 40.290: kihnio.fi INFO Begin testing name server ns4.netorek.fi.
+ 40.290: kihnio.fi INFO Begin testing host ns4.netorek.fi.
+ 41.324: kihnio.fi INFO Begin testing address 62.197.168.5.
+ 42.890: kihnio.fi INFO Done testing address 62.197.168.5.
+ 42.890: kihnio.fi INFO Done testing host ns4.netorek.fi.
+ 43.888: kihnio.fi INFO Name server ns4.netorek.fi (62.197.168.5) answers queries over UDP.
+ 44.035: kihnio.fi INFO Name server ns4.netorek.fi (62.197.168.5) answers queries over TCP.
+ 44.152: kihnio.fi INFO Name server ns4.netorek.fi (62.197.168.5) is not recursive.
+ 44.509: kihnio.fi INFO Name server ns4.netorek.fi (62.197.168.5) authoritative for kihnio.fi.
+ 44.648: kihnio.fi INFO Name server ns4.netorek.fi (62.197.168.5) closed for zone transfer of kihnio.fi.
+ 44.760: kihnio.fi INFO Legacy name server ID for ns4.netorek.fi (62.197.168.5): hostname.bind = ns4.netorek.fi
+ 45.098: kihnio.fi NOTICE No answer received from 62.197.168.5 when querying for version.server/CH/TXT.
+ 45.098: kihnio.fi INFO Done testing name server ns4.netorek.fi.
+ 45.099: kihnio.fi INFO Begin testing zone consistency for kihnio.fi.
+ 48.968: kihnio.fi INFO SOA at address 62.106.63.5 has serial 2012101001.
+ 49.079: kihnio.fi INFO SOA at address 62.197.168.5 has serial 2012101001.
+ 49.079: kihnio.fi INFO All SOA records have consistent serial numbers.
+ 49.149: kihnio.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 51.169: kihnio.fi NOTICE The listed nameservers for kihnio.fi all report the same set of nameservers.
+ 51.169: kihnio.fi INFO Done testing zone consistency for kihnio.fi.
+ 51.169: kihnio.fi INFO Begin testing SOA parameters for kihnio.fi.
+ 51.301: kihnio.fi INFO Found SOA record for kihnio.fi.
+ 51.301: kihnio.fi INFO Begin testing host ns4.netorek.fi.
+ 52.344: kihnio.fi INFO Begin testing address 62.197.168.5.
+ 53.231: kihnio.fi INFO Done testing address 62.197.168.5.
+ 53.231: kihnio.fi INFO Done testing host ns4.netorek.fi.
+ 53.232: kihnio.fi INFO SOA MNAME for kihnio.fi valid (ns4.netorek.fi).
+ 53.232: kihnio.fi INFO SOA MNAME for kihnio.fi (ns4.netorek.fi) listed as NS.
+ 54.146: kihnio.fi INFO SOA MNAME for kihnio.fi (ns4.netorek.fi) is authoritative.
+ 54.146: kihnio.fi INFO Begin testing email address jonni@netorek.fi.
+ 55.049: kihnio.fi INFO Mail exchangers for jonni@netorek.fi found mx2.netorek.fi.
+ 55.049: kihnio.fi INFO Begin testing host mx2.netorek.fi.
+ 56.640: kihnio.fi INFO Begin testing address 213.157.84.84.
+ 63.794: kihnio.fi INFO Done testing address 213.157.84.84.
+ 63.794: kihnio.fi INFO Done testing host mx2.netorek.fi.
+ 64.515: kihnio.fi INFO Done testing email address jonni@netorek.fi.
+ 64.516: kihnio.fi INFO Successful attempt to deliver email for SOA RNAME of kihnio.fi (jonni.netorek.fi) using jonni@netorek.fi.
+ 64.516: kihnio.fi INFO SOA TTL for kihnio.fi OK (86400) - recommended >= 3600.
+ 64.516: kihnio.fi INFO SOA refresh for kihnio.fi OK (28800) - recommended >= 14400.
+ 64.516: kihnio.fi INFO SOA retry for kihnio.fi OK (7200) - recommended >= 3600.
+ 64.516: kihnio.fi INFO SOA expire for kihnio.fi OK (604800) - recommended >= 604800.
+ 64.516: kihnio.fi INFO SOA minimum for kihnio.fi OK (86400) - recommended between 300 and 86400.
+ 64.516: kihnio.fi INFO Done testing SOA parameters for kihnio.fi.
+ 64.516: kihnio.fi INFO Begin testing connectivity for kihnio.fi.
+ 66.453: kihnio.fi INFO Zone announced by more than one ASN.
+ 66.454: kihnio.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 66.454: kihnio.fi INFO Done testing connectivity for kihnio.fi.
+ 66.454: kihnio.fi INFO Begin testing DNSSEC for kihnio.fi.
+ 66.587: kihnio.fi INFO Did not find DS record for kihnio.fi at parent.
+ 66.676: kihnio.fi INFO Servers for kihnio.fi have consistent extra processing status.
+ 66.723: kihnio.fi INFO Authenticated denial records not found for kihnio.fi.
+ 66.756: kihnio.fi INFO Did not find DNSKEY record for kihnio.fi at child.
+ 66.756: kihnio.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 66.756: kihnio.fi INFO Done testing DNSSEC for kihnio.fi.
+ 66.756: kihnio.fi INFO Test completed for zone kihnio.fi.

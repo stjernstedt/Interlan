@@ -1,0 +1,152 @@
+  0.000: sundbyberg.se INFO Begin testing zone sundbyberg.se with version 1.2.
+  0.000: sundbyberg.se INFO Begin testing delegation for sundbyberg.se.
+  9.724: sundbyberg.se INFO Name servers listed at parent: a.dns.songnetworks.se,b.dns.songnetworks.se,c.dns.songnetworks.se,dns5.telia.com,sbgdns01.sundbyberg.se
+ 16.417: sundbyberg.se INFO Name servers listed at child: a.dns.songnetworks.se,b.dns.songnetworks.se,c.dns.songnetworks.se,dns5.telia.com,sbgdns01.sundbyberg.se
+ 16.417: sundbyberg.se NOTICE No IPv6 name servers found.
+ 16.477: sundbyberg.se INFO Parent glue for sundbyberg.se found: a.dns.songnetworks.se (213.50.29.190)
+ 16.496: sundbyberg.se INFO Parent glue for sundbyberg.se found: b.dns.songnetworks.se (213.50.29.195)
+ 16.544: sundbyberg.se INFO Parent glue for sundbyberg.se found: c.dns.songnetworks.se (195.10.143.3)
+ 16.653: sundbyberg.se INFO Parent glue for sundbyberg.se found: sbgdns01.sundbyberg.se (194.68.53.248)
+ 16.692: sundbyberg.se INFO Checking glue for a.dns.songnetworks.se (213.50.29.190).
+ 16.693: sundbyberg.se INFO Checking glue for b.dns.songnetworks.se (213.50.29.195).
+ 16.693: sundbyberg.se INFO Checking glue for c.dns.songnetworks.se (195.10.143.3).
+ 16.693: sundbyberg.se INFO Checking glue for sbgdns01.sundbyberg.se (194.68.53.248).
+ 16.708: sundbyberg.se INFO Child glue for sundbyberg.se found: sbgdns01.sundbyberg.se (194.68.53.248)
+ 16.708: sundbyberg.se INFO Parent glue for sundbyberg.se found: a.dns.songnetworks.se (213.50.29.190)
+ 16.709: sundbyberg.se INFO Parent glue for sundbyberg.se found: b.dns.songnetworks.se (213.50.29.195)
+ 16.709: sundbyberg.se INFO Parent glue for sundbyberg.se found: c.dns.songnetworks.se (195.10.143.3)
+ 16.710: sundbyberg.se INFO Parent glue for sundbyberg.se found: sbgdns01.sundbyberg.se (194.68.53.248)
+ 16.710: sundbyberg.se INFO Done testing delegation for sundbyberg.se.
+ 16.710: sundbyberg.se INFO Begin testing name server a.dns.songnetworks.se.
+ 16.711: sundbyberg.se INFO Begin testing host a.dns.songnetworks.se.
+ 16.711: sundbyberg.se INFO Begin testing address 213.50.29.190.
+ 24.606: sundbyberg.se INFO Done testing address 213.50.29.190.
+ 24.606: sundbyberg.se INFO Done testing host a.dns.songnetworks.se.
+ 24.617: sundbyberg.se INFO Name server a.dns.songnetworks.se (213.50.29.190) answers queries over UDP.
+ 24.631: sundbyberg.se INFO Name server a.dns.songnetworks.se (213.50.29.190) answers queries over TCP.
+ 24.638: sundbyberg.se INFO Name server a.dns.songnetworks.se (213.50.29.190) is not recursive.
+ 24.647: sundbyberg.se INFO Name server a.dns.songnetworks.se (213.50.29.190) authoritative for sundbyberg.se.
+ 24.662: sundbyberg.se INFO Name server a.dns.songnetworks.se (213.50.29.190) closed for zone transfer of sundbyberg.se.
+ 24.672: sundbyberg.se INFO Legacy name server ID for a.dns.songnetworks.se (213.50.29.190): hostname.bind = a
+ 24.679: sundbyberg.se INFO Legacy name server ID for a.dns.songnetworks.se (213.50.29.190): version.bind = tssk, well what can i say?
+ 24.693: sundbyberg.se NOTICE No answer received from 213.50.29.190 when querying for version.server/CH/TXT.
+ 24.693: sundbyberg.se INFO Done testing name server a.dns.songnetworks.se.
+ 24.693: sundbyberg.se INFO Begin testing name server b.dns.songnetworks.se.
+ 24.693: sundbyberg.se INFO Begin testing host b.dns.songnetworks.se.
+ 24.694: sundbyberg.se INFO Begin testing address 213.50.29.195.
+ 25.679: sundbyberg.se INFO Done testing address 213.50.29.195.
+ 25.679: sundbyberg.se INFO Done testing host b.dns.songnetworks.se.
+ 25.688: sundbyberg.se INFO Name server b.dns.songnetworks.se (213.50.29.195) answers queries over UDP.
+ 25.701: sundbyberg.se INFO Name server b.dns.songnetworks.se (213.50.29.195) answers queries over TCP.
+ 25.707: sundbyberg.se INFO Name server b.dns.songnetworks.se (213.50.29.195) is not recursive.
+ 25.716: sundbyberg.se INFO Name server b.dns.songnetworks.se (213.50.29.195) authoritative for sundbyberg.se.
+ 25.930: sundbyberg.se INFO Name server b.dns.songnetworks.se (213.50.29.195) closed for zone transfer of sundbyberg.se.
+ 25.937: sundbyberg.se INFO Legacy name server ID for b.dns.songnetworks.se (213.50.29.195): hostname.bind = b
+ 25.944: sundbyberg.se INFO Legacy name server ID for b.dns.songnetworks.se (213.50.29.195): version.bind = tssk, well what can i say?
+ 25.956: sundbyberg.se NOTICE No answer received from 213.50.29.195 when querying for version.server/CH/TXT.
+ 25.956: sundbyberg.se INFO Done testing name server b.dns.songnetworks.se.
+ 25.956: sundbyberg.se INFO Begin testing name server c.dns.songnetworks.se.
+ 25.957: sundbyberg.se INFO Begin testing host c.dns.songnetworks.se.
+ 25.957: sundbyberg.se INFO Begin testing address 195.10.143.3.
+ 26.410: sundbyberg.se INFO Done testing address 195.10.143.3.
+ 26.411: sundbyberg.se INFO Done testing host c.dns.songnetworks.se.
+ 26.426: sundbyberg.se INFO Name server c.dns.songnetworks.se (195.10.143.3) answers queries over UDP.
+ 26.451: sundbyberg.se INFO Name server c.dns.songnetworks.se (195.10.143.3) answers queries over TCP.
+ 26.463: sundbyberg.se INFO Name server c.dns.songnetworks.se (195.10.143.3) is not recursive.
+ 26.478: sundbyberg.se INFO Name server c.dns.songnetworks.se (195.10.143.3) authoritative for sundbyberg.se.
+ 26.509: sundbyberg.se INFO Name server c.dns.songnetworks.se (195.10.143.3) closed for zone transfer of sundbyberg.se.
+ 26.522: sundbyberg.se INFO Legacy name server ID for c.dns.songnetworks.se (195.10.143.3): hostname.bind = c.dns.tdc.se
+ 26.535: sundbyberg.se INFO Legacy name server ID for c.dns.songnetworks.se (195.10.143.3): version.bind = tssk, well what can i say?
+ 26.559: sundbyberg.se NOTICE No answer received from 195.10.143.3 when querying for version.server/CH/TXT.
+ 26.560: sundbyberg.se INFO Done testing name server c.dns.songnetworks.se.
+ 26.560: sundbyberg.se INFO Begin testing name server dns5.telia.com.
+ 26.560: sundbyberg.se INFO Begin testing host dns5.telia.com.
+ 26.560: sundbyberg.se INFO Begin testing address 81.228.11.68.
+ 27.527: sundbyberg.se INFO Done testing address 81.228.11.68.
+ 27.527: sundbyberg.se INFO Done testing host dns5.telia.com.
+ 27.536: sundbyberg.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over UDP.
+ 27.548: sundbyberg.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over TCP.
+ 27.555: sundbyberg.se INFO Name server dns5.telia.com (81.228.11.68) is not recursive.
+ 27.562: sundbyberg.se INFO Name server dns5.telia.com (81.228.11.68) authoritative for sundbyberg.se.
+ 27.576: sundbyberg.se INFO Name server dns5.telia.com (81.228.11.68) closed for zone transfer of sundbyberg.se.
+ 27.583: sundbyberg.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): hostname.bind = dnshosting1-sn1.fre.skanova.net
+ 27.590: sundbyberg.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 27.603: sundbyberg.se NOTICE No answer received from 81.228.11.68 when querying for version.server/CH/TXT.
+ 27.603: sundbyberg.se INFO Done testing name server dns5.telia.com.
+ 27.603: sundbyberg.se INFO Begin testing name server sbgdns01.sundbyberg.se.
+ 27.604: sundbyberg.se INFO Begin testing host sbgdns01.sundbyberg.se.
+ 27.604: sundbyberg.se INFO Begin testing address 194.68.53.248.
+ 28.473: sundbyberg.se INFO Done testing address 194.68.53.248.
+ 28.473: sundbyberg.se INFO Done testing host sbgdns01.sundbyberg.se.
+ 28.482: sundbyberg.se INFO Name server sbgdns01.sundbyberg.se (194.68.53.248) answers queries over UDP.
+ 28.498: sundbyberg.se INFO Name server sbgdns01.sundbyberg.se (194.68.53.248) answers queries over TCP.
+ 28.506: sundbyberg.se INFO Name server sbgdns01.sundbyberg.se (194.68.53.248) is not recursive.
+ 28.514: sundbyberg.se INFO Name server sbgdns01.sundbyberg.se (194.68.53.248) authoritative for sundbyberg.se.
+ 28.530: sundbyberg.se NOTICE Name server sbgdns01.sundbyberg.se (194.68.53.248) open for zone transfer of sundbyberg.se.
+ 28.537: sundbyberg.se NOTICE No answer received from 194.68.53.248 when querying for hostname.bind/CH/TXT.
+ 46.539: sundbyberg.se INFO Done testing name server sbgdns01.sundbyberg.se.
+ 46.539: sundbyberg.se INFO Begin testing zone consistency for sundbyberg.se.
+ 46.562: sundbyberg.se INFO SOA at address 195.10.143.3 has serial 339.
+ 46.569: sundbyberg.se INFO SOA at address 81.228.11.68 has serial 339.
+ 46.578: sundbyberg.se INFO SOA at address 194.68.53.248 has serial 339.
+ 46.586: sundbyberg.se INFO SOA at address 213.50.29.195 has serial 339.
+ 46.595: sundbyberg.se INFO SOA at address 213.50.29.190 has serial 339.
+ 46.595: sundbyberg.se INFO All SOA records have consistent serial numbers.
+ 46.596: sundbyberg.se INFO All SOA records are consistent among all name servers.
+ 46.596: sundbyberg.se INFO Done testing zone consistency for sundbyberg.se.
+ 46.596: sundbyberg.se INFO Begin testing SOA parameters for sundbyberg.se.
+ 46.610: sundbyberg.se INFO Found SOA record for sundbyberg.se.
+ 46.610: sundbyberg.se INFO Begin testing host sbgdns01.sundbyberg.se.
+ 46.611: sundbyberg.se INFO Begin testing address 194.68.53.248.
+ 46.612: sundbyberg.se INFO Done testing address 194.68.53.248.
+ 46.612: sundbyberg.se INFO Done testing host sbgdns01.sundbyberg.se.
+ 46.613: sundbyberg.se INFO SOA MNAME for sundbyberg.se valid (sbgdns01.sundbyberg.se).
+ 46.613: sundbyberg.se INFO SOA MNAME for sundbyberg.se (sbgdns01.sundbyberg.se) listed as NS.
+ 46.621: sundbyberg.se INFO SOA MNAME for sundbyberg.se (sbgdns01.sundbyberg.se) is authoritative.
+ 46.621: sundbyberg.se INFO Begin testing email address hostmaster@sundbyberg.se.
+ 46.889: sundbyberg.se INFO Mail exchangers for hostmaster@sundbyberg.se found sbgsas01.sundbyberg.se,sbgsas02.sundbyberg.se.
+ 46.889: sundbyberg.se INFO All mail servers for hostmaster@sundbyberg.se are in zone sundbyberg.se.
+ 46.889: sundbyberg.se INFO Begin testing host sbgsas01.sundbyberg.se.
+ 47.353: sundbyberg.se INFO Begin testing address 194.68.53.241.
+ 47.591: sundbyberg.se INFO Done testing address 194.68.53.241.
+ 47.591: sundbyberg.se INFO Done testing host sbgsas01.sundbyberg.se.
+ 47.591: sundbyberg.se INFO Begin testing mail server sbgsas01.sundbyberg.se (194.68.53.241) with hostmaster@sundbyberg.se.
+ 48.045: sundbyberg.se INFO SMTP banner: sbgsas01.sundbyberg.se ESMTP
+ 48.054: sundbyberg.se WARNING Host did not accept hostmaster@sundbyberg.se as SMTP recipient.
+ 48.066: sundbyberg.se INFO Done testing mail server sbgsas01.sundbyberg.se (194.68.53.241) with hostmaster@sundbyberg.se.
+ 48.066: sundbyberg.se INFO Begin testing host sbgsas02.sundbyberg.se.
+ 48.507: sundbyberg.se INFO Begin testing address 194.68.53.242.
+ 49.052: sundbyberg.se INFO Done testing address 194.68.53.242.
+ 49.052: sundbyberg.se INFO Done testing host sbgsas02.sundbyberg.se.
+ 49.052: sundbyberg.se INFO Begin testing mail server sbgsas02.sundbyberg.se (194.68.53.242) with hostmaster@sundbyberg.se.
+ 49.241: sundbyberg.se INFO SMTP banner: sbgsas02.sundbyberg.se ESMTP
+ 49.251: sundbyberg.se WARNING Host did not accept hostmaster@sundbyberg.se as SMTP recipient.
+ 49.260: sundbyberg.se INFO Done testing mail server sbgsas02.sundbyberg.se (194.68.53.242) with hostmaster@sundbyberg.se.
+ 49.260: sundbyberg.se WARNING Delivery over IPv4 to hostmaster@sundbyberg.se could not be done.
+ 49.260: sundbyberg.se INFO Delivery over IPv6 to hostmaster@sundbyberg.se could not be done.
+ 49.260: sundbyberg.se INFO Done testing email address hostmaster@sundbyberg.se.
+ 49.261: sundbyberg.se WARNING Failed to deliver email for SOA RNAME of sundbyberg.se (hostmaster.sundbyberg.se) using hostmaster@sundbyberg.se.
+ 49.261: sundbyberg.se INFO SOA TTL for sundbyberg.se OK (86400) - recommended >= 3600.
+ 49.261: sundbyberg.se INFO SOA refresh for sundbyberg.se OK (28800) - recommended >= 14400.
+ 49.261: sundbyberg.se INFO SOA retry for sundbyberg.se OK (3600) - recommended >= 3600.
+ 49.261: sundbyberg.se INFO SOA expire for sundbyberg.se OK (604800) - recommended >= 604800.
+ 49.261: sundbyberg.se INFO SOA minimum for sundbyberg.se OK (86400) - recommended between 300 and 86400.
+ 49.261: sundbyberg.se INFO Done testing SOA parameters for sundbyberg.se.
+ 49.261: sundbyberg.se INFO Begin testing connectivity for sundbyberg.se.
+ 49.772: sundbyberg.se INFO Name server 195.10.143.3 announced by: 3292
+ 50.292: sundbyberg.se INFO Name server 194.68.53.248 announced by: 3292
+ 50.961: sundbyberg.se INFO Name server 213.50.29.195 announced by: 3292
+ 51.481: sundbyberg.se INFO Name server 81.228.11.68 announced by: 3301
+ 51.992: sundbyberg.se INFO Name server 213.50.29.190 announced by: 3292
+ 51.992: sundbyberg.se INFO Zone announced by IPv4 ASN: 3292,3301
+ 51.992: sundbyberg.se INFO Zone announced by more than one ASN (2).
+ 51.992: sundbyberg.se INFO Zone announced by IPv6 ASN: 
+ 51.992: sundbyberg.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 51.992: sundbyberg.se INFO Done testing connectivity for sundbyberg.se.
+ 51.992: sundbyberg.se INFO Begin testing DNSSEC for sundbyberg.se.
+ 52.075: sundbyberg.se INFO Did not find DS record for sundbyberg.se at parent.
+ 52.148: sundbyberg.se INFO Servers for sundbyberg.se have consistent extra processing status.
+ 52.148: sundbyberg.se INFO Did not find DNSKEY record for sundbyberg.se at child.
+ 52.148: sundbyberg.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 52.148: sundbyberg.se INFO Done testing DNSSEC for sundbyberg.se.
+ 52.148: sundbyberg.se INFO Test completed for zone sundbyberg.se.

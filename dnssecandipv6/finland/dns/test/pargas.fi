@@ -1,0 +1,85 @@
+  0.000: pargas.fi INFO Begin testing zone pargas.fi with version 1.6.1.
+  0.420: pargas.fi INFO Begin testing delegation for pargas.fi.
+  8.524: pargas.fi INFO Name servers listed at parent: dns.parnet.fi,dns2.parnet.fi
+ 10.456: pargas.fi INFO Name servers listed at child: dns.parnet.fi,dns2.parnet.fi
+ 10.456: pargas.fi NOTICE No IPv6 name servers found.
+ 10.512: pargas.fi INFO Parent glue for pargas.fi found: dns.parnet.fi (77.234.109.50)
+ 10.632: pargas.fi INFO Parent glue for pargas.fi found: dns2.parnet.fi (77.234.108.5)
+ 10.768: pargas.fi INFO Checking glue for dns.parnet.fi (77.234.109.50).
+ 10.768: pargas.fi INFO Checking glue for dns2.parnet.fi (77.234.108.5).
+ 10.768: pargas.fi INFO Parent glue for pargas.fi found: dns.parnet.fi (77.234.109.50)
+ 10.768: pargas.fi INFO Parent glue for pargas.fi found: dns2.parnet.fi (77.234.108.5)
+ 11.709: pargas.fi INFO It is possible to build a referral packet for pargas.fi that works without EDNS0.
+ 12.676: pargas.fi INFO Previously used name servers for pargas.fi: 
+ 12.677: pargas.fi INFO Done testing delegation for pargas.fi.
+ 12.677: pargas.fi INFO Begin testing name server dns.parnet.fi.
+ 12.677: pargas.fi INFO Begin testing host dns.parnet.fi.
+ 13.408: pargas.fi INFO Begin testing address 77.234.109.50.
+ 19.861: pargas.fi INFO Done testing address 77.234.109.50.
+ 19.861: pargas.fi INFO Done testing host dns.parnet.fi.
+ 20.068: pargas.fi INFO Name server dns.parnet.fi (77.234.109.50) answers queries over UDP.
+ 20.100: pargas.fi INFO Name server dns.parnet.fi (77.234.109.50) answers queries over TCP.
+ 20.117: pargas.fi INFO Name server dns.parnet.fi (77.234.109.50) is not recursive.
+ 20.187: pargas.fi INFO Name server dns.parnet.fi (77.234.109.50) authoritative for pargas.fi.
+ 20.238: pargas.fi INFO Name server dns.parnet.fi (77.234.109.50) closed for zone transfer of pargas.fi.
+ 20.259: pargas.fi INFO Legacy name server ID for dns.parnet.fi (77.234.109.50): hostname.bind = dns.parnet.fi
+ 20.296: pargas.fi INFO Legacy name server ID for dns.parnet.fi (77.234.109.50): version.bind = bttf
+ 20.336: pargas.fi NOTICE No answer received from 77.234.109.50 when querying for version.server/CH/TXT.
+ 20.336: pargas.fi INFO Done testing name server dns.parnet.fi.
+ 20.336: pargas.fi INFO Begin testing name server dns2.parnet.fi.
+ 20.336: pargas.fi INFO Begin testing host dns2.parnet.fi.
+ 20.436: pargas.fi INFO Begin testing address 77.234.108.5.
+ 21.007: pargas.fi INFO Done testing address 77.234.108.5.
+ 21.008: pargas.fi INFO Done testing host dns2.parnet.fi.
+ 21.124: pargas.fi INFO Name server dns2.parnet.fi (77.234.108.5) answers queries over UDP.
+ 21.158: pargas.fi INFO Name server dns2.parnet.fi (77.234.108.5) answers queries over TCP.
+ 21.175: pargas.fi INFO Name server dns2.parnet.fi (77.234.108.5) is not recursive.
+ 21.275: pargas.fi INFO Name server dns2.parnet.fi (77.234.108.5) authoritative for pargas.fi.
+ 21.319: pargas.fi INFO Name server dns2.parnet.fi (77.234.108.5) closed for zone transfer of pargas.fi.
+ 21.336: pargas.fi INFO Legacy name server ID for dns2.parnet.fi (77.234.108.5): hostname.bind = dns2.parnet.fi
+ 21.356: pargas.fi INFO Legacy name server ID for dns2.parnet.fi (77.234.108.5): version.bind = bttf
+ 21.391: pargas.fi NOTICE No answer received from 77.234.108.5 when querying for version.server/CH/TXT.
+ 21.392: pargas.fi INFO Done testing name server dns2.parnet.fi.
+ 21.392: pargas.fi INFO Begin testing zone consistency for pargas.fi.
+ 22.052: pargas.fi INFO SOA at address 77.234.108.5 has serial 2009011462.
+ 22.070: pargas.fi INFO SOA at address 77.234.109.50 has serial 2009011462.
+ 22.070: pargas.fi INFO All SOA records have consistent serial numbers.
+ 22.070: pargas.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 22.401: pargas.fi NOTICE The listed nameservers for pargas.fi all report the same set of nameservers.
+ 22.401: pargas.fi INFO Done testing zone consistency for pargas.fi.
+ 22.401: pargas.fi INFO Begin testing SOA parameters for pargas.fi.
+ 22.432: pargas.fi INFO Found SOA record for pargas.fi.
+ 22.432: pargas.fi INFO Begin testing host dns.parnet.fi.
+ 22.595: pargas.fi INFO Begin testing address 77.234.109.50.
+ 22.756: pargas.fi INFO Done testing address 77.234.109.50.
+ 22.756: pargas.fi INFO Done testing host dns.parnet.fi.
+ 22.756: pargas.fi INFO SOA MNAME for pargas.fi valid (dns.parnet.fi).
+ 22.756: pargas.fi INFO SOA MNAME for pargas.fi (dns.parnet.fi) listed as NS.
+ 22.912: pargas.fi INFO SOA MNAME for pargas.fi (dns.parnet.fi) is authoritative.
+ 22.933: pargas.fi INFO Begin testing email address hostmaster@parnet.fi.
+ 23.069: pargas.fi INFO Mail exchangers for hostmaster@parnet.fi found mx2.parnet.fi.
+ 23.069: pargas.fi INFO Begin testing host mx2.parnet.fi.
+ 23.516: pargas.fi INFO Begin testing address 77.234.108.74.
+ 24.105: pargas.fi INFO Done testing address 77.234.108.74.
+ 24.105: pargas.fi INFO Done testing host mx2.parnet.fi.
+ 24.293: pargas.fi INFO Done testing email address hostmaster@parnet.fi.
+ 24.293: pargas.fi INFO Successful attempt to deliver email for SOA RNAME of pargas.fi (hostmaster.parnet.fi) using hostmaster@parnet.fi.
+ 24.293: pargas.fi NOTICE SOA TTL for pargas.fi too small (1200) - recommended >= 3600.
+ 24.293: pargas.fi NOTICE SOA refresh for pargas.fi too small (3600) - recommended >= 14400.
+ 24.294: pargas.fi NOTICE SOA refresh for pargas.fi lower than retry (3600 vs 3600).
+ 24.294: pargas.fi INFO SOA retry for pargas.fi OK (3600) - recommended >= 3600.
+ 24.294: pargas.fi INFO SOA expire for pargas.fi OK (1209600) - recommended >= 604800.
+ 24.294: pargas.fi INFO SOA minimum for pargas.fi OK (1800) - recommended between 300 and 86400.
+ 24.294: pargas.fi INFO Done testing SOA parameters for pargas.fi.
+ 24.294: pargas.fi INFO Begin testing connectivity for pargas.fi.
+ 25.405: pargas.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 25.405: pargas.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 25.405: pargas.fi INFO Done testing connectivity for pargas.fi.
+ 25.405: pargas.fi INFO Begin testing DNSSEC for pargas.fi.
+ 25.473: pargas.fi INFO Did not find DS record for pargas.fi at parent.
+ 25.617: pargas.fi INFO Servers for pargas.fi have consistent extra processing status.
+ 25.654: pargas.fi INFO Authenticated denial records not found for pargas.fi.
+ 25.680: pargas.fi INFO Did not find DNSKEY record for pargas.fi at child.
+ 25.680: pargas.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 25.680: pargas.fi INFO Done testing DNSSEC for pargas.fi.
+ 25.692: pargas.fi INFO Test completed for zone pargas.fi.

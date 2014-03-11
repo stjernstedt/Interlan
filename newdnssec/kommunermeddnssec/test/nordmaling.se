@@ -1,0 +1,116 @@
+  0.000: nordmaling.se INFO Begin testing zone nordmaling.se with version 1.6.1.
+  2.072: nordmaling.se INFO Begin testing delegation for nordmaling.se.
+ 20.012: nordmaling.se INFO Name servers listed at parent: dns.nordmaling.se,dns.umea.se
+ 24.606: nordmaling.se INFO Name servers listed at child: dns.artedi.nordmaling.se,dns.nordmaling.se,dns.umea.se
+ 24.633: nordmaling.se NOTICE Additional name server listed at child: dns.artedi.nordmaling.se
+ 24.633: nordmaling.se NOTICE No IPv6 name servers found.
+ 24.686: nordmaling.se INFO Parent glue for nordmaling.se found: dns.nordmaling.se (80.88.97.75)
+ 25.137: nordmaling.se INFO Checking glue for dns.nordmaling.se (80.88.97.75).
+ 25.265: nordmaling.se INFO Child glue for nordmaling.se found: dns.nordmaling.se (80.88.97.75)
+ 25.266: nordmaling.se INFO Parent glue for nordmaling.se found: dns.nordmaling.se (80.88.97.75)
+ 25.827: nordmaling.se NOTICE DNS lookup error (SERVFAIL).
+ 25.909: nordmaling.se NOTICE DNS lookup error (SERVFAIL).
+ 26.957: nordmaling.se INFO It is possible to build a referral packet for nordmaling.se that works without EDNS0.
+ 28.839: nordmaling.se INFO Previously used name servers for nordmaling.se: 
+ 28.839: nordmaling.se INFO Done testing delegation for nordmaling.se.
+ 28.840: nordmaling.se INFO Begin testing name server dns.artedi.nordmaling.se.
+ 28.840: nordmaling.se INFO Begin testing host dns.artedi.nordmaling.se.
+ 29.225: nordmaling.se INFO Begin testing address 80.88.103.10.
+ 42.887: nordmaling.se INFO Done testing address 80.88.103.10.
+ 42.887: nordmaling.se INFO Done testing host dns.artedi.nordmaling.se.
+ 43.148: nordmaling.se INFO Name server dns.artedi.nordmaling.se (80.88.103.10) answers queries over UDP.
+ 43.220: nordmaling.se INFO Name server dns.artedi.nordmaling.se (80.88.103.10) answers queries over TCP.
+ 43.275: nordmaling.se INFO Name server dns.artedi.nordmaling.se (80.88.103.10) is not recursive.
+ 43.429: nordmaling.se INFO Name server dns.artedi.nordmaling.se (80.88.103.10) authoritative for nordmaling.se.
+ 43.499: nordmaling.se INFO Name server dns.artedi.nordmaling.se (80.88.103.10) closed for zone transfer of nordmaling.se.
+ 43.534: nordmaling.se INFO Legacy name server ID for dns.artedi.nordmaling.se (80.88.103.10): hostname.bind = dns.artedi.nordmaling.se
+ 43.579: nordmaling.se INFO Legacy name server ID for dns.artedi.nordmaling.se (80.88.103.10): version.bind = 9.8.2rc1-RedHat-9.8.2-0.17.rc1.el6_4.6
+ 43.651: nordmaling.se NOTICE No answer received from 80.88.103.10 when querying for version.server/CH/TXT.
+ 43.651: nordmaling.se INFO Done testing name server dns.artedi.nordmaling.se.
+ 43.651: nordmaling.se INFO Begin testing name server dns.nordmaling.se.
+ 43.651: nordmaling.se INFO Begin testing host dns.nordmaling.se.
+ 43.849: nordmaling.se INFO Begin testing address 80.88.97.75.
+ 45.518: nordmaling.se INFO Done testing address 80.88.97.75.
+ 45.518: nordmaling.se INFO Done testing host dns.nordmaling.se.
+ 45.791: nordmaling.se INFO Name server dns.nordmaling.se (80.88.97.75) answers queries over UDP.
+ 45.831: nordmaling.se INFO Name server dns.nordmaling.se (80.88.97.75) answers queries over TCP.
+ 45.863: nordmaling.se INFO Name server dns.nordmaling.se (80.88.97.75) is not recursive.
+ 45.983: nordmaling.se INFO Name server dns.nordmaling.se (80.88.97.75) authoritative for nordmaling.se.
+ 46.179: nordmaling.se INFO Name server dns.nordmaling.se (80.88.97.75) closed for zone transfer of nordmaling.se.
+ 46.211: nordmaling.se NOTICE No answer received from 80.88.97.75 when querying for hostname.bind/CH/TXT.
+ 58.339: nordmaling.se INFO Done testing name server dns.nordmaling.se.
+ 58.339: nordmaling.se INFO Begin testing name server dns.umea.se.
+ 58.339: nordmaling.se INFO Begin testing host dns.umea.se.
+ 58.626: nordmaling.se INFO Begin testing address 194.165.224.165.
+ 59.730: nordmaling.se INFO Done testing address 194.165.224.165.
+ 59.730: nordmaling.se INFO Done testing host dns.umea.se.
+ 60.069: nordmaling.se INFO Name server dns.umea.se (194.165.224.165) answers queries over UDP.
+ 60.132: nordmaling.se INFO Name server dns.umea.se (194.165.224.165) answers queries over TCP.
+ 60.174: nordmaling.se INFO Name server dns.umea.se (194.165.224.165) is not recursive.
+ 60.270: nordmaling.se INFO Name server dns.umea.se (194.165.224.165) authoritative for nordmaling.se.
+ 60.314: nordmaling.se INFO Name server dns.umea.se (194.165.224.165) closed for zone transfer of nordmaling.se.
+ 60.346: nordmaling.se INFO Legacy name server ID for dns.umea.se (194.165.224.165): hostname.bind = dns2mgmt.norrnod.se
+ 60.395: nordmaling.se INFO Legacy name server ID for dns.umea.se (194.165.224.165): version.bind = hakan 140124
+ 60.476: nordmaling.se NOTICE No answer received from 194.165.224.165 when querying for version.server/CH/TXT.
+ 60.476: nordmaling.se INFO Done testing name server dns.umea.se.
+ 60.476: nordmaling.se INFO Begin testing zone consistency for nordmaling.se.
+ 62.492: nordmaling.se INFO SOA at address 80.88.97.75 has serial 171.
+ 62.551: nordmaling.se INFO SOA at address 194.165.224.165 has serial 171.
+ 62.685: nordmaling.se INFO SOA at address 80.88.103.10 has serial 171.
+ 62.685: nordmaling.se INFO All SOA records have consistent serial numbers.
+ 62.685: nordmaling.se INFO All other fields in the SOA record are consistent among all name servers.
+ 64.258: nordmaling.se NOTICE The listed nameservers for nordmaling.se all report the same set of nameservers.
+ 64.258: nordmaling.se INFO Done testing zone consistency for nordmaling.se.
+ 64.258: nordmaling.se INFO Begin testing SOA parameters for nordmaling.se.
+ 64.380: nordmaling.se INFO Found SOA record for nordmaling.se.
+ 64.380: nordmaling.se INFO Begin testing host dns.nordmaling.se.
+ 64.867: nordmaling.se INFO Begin testing address 80.88.97.75.
+ 65.939: nordmaling.se INFO Done testing address 80.88.97.75.
+ 65.939: nordmaling.se INFO Done testing host dns.nordmaling.se.
+ 65.939: nordmaling.se INFO SOA MNAME for nordmaling.se valid (dns.nordmaling.se).
+ 65.940: nordmaling.se INFO SOA MNAME for nordmaling.se (dns.nordmaling.se) listed as NS.
+ 66.551: nordmaling.se INFO SOA MNAME for nordmaling.se (dns.nordmaling.se) is authoritative.
+ 66.552: nordmaling.se INFO Begin testing email address hostmaster@nordmaling.se.
+ 67.035: nordmaling.se INFO Mail exchangers for hostmaster@nordmaling.se found smtp-in.sto-hy.se.stejtech.net,smtp-in.sto-ste.se.stejtech.net.
+ 67.036: nordmaling.se INFO Begin testing host smtp-in.sto-hy.se.stejtech.net.
+ 72.116: nordmaling.se INFO Begin testing address 91.236.209.10.
+ 75.368: nordmaling.se INFO Done testing address 91.236.209.10.
+ 75.368: nordmaling.se INFO Begin testing address 79.136.102.100.
+ 77.747: nordmaling.se INFO Done testing address 79.136.102.100.
+ 77.747: nordmaling.se INFO Begin testing address 91.236.208.10.
+ 79.309: nordmaling.se INFO Done testing address 91.236.208.10.
+ 79.310: nordmaling.se INFO Begin testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 80.581: nordmaling.se INFO Done testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 80.581: nordmaling.se INFO Begin testing address 2001:67c:27e0:2110:0:0:0:1b01.
+ 81.952: nordmaling.se INFO Done testing address 2001:67c:27e0:2110:0:0:0:1b01.
+ 81.952: nordmaling.se INFO Begin testing address 2001:9b0:1:703:0:0:0:1b01.
+ 83.128: nordmaling.se INFO Done testing address 2001:9b0:1:703:0:0:0:1b01.
+ 83.128: nordmaling.se INFO Done testing host smtp-in.sto-hy.se.stejtech.net.
+ 83.129: nordmaling.se INFO Begin testing host smtp-in.sto-ste.se.stejtech.net.
+ 83.635: nordmaling.se INFO Begin testing address 79.136.102.90.
+ 84.401: nordmaling.se INFO Done testing address 79.136.102.90.
+ 84.401: nordmaling.se INFO Begin testing address 83.140.31.145.
+ 85.335: nordmaling.se INFO Done testing address 83.140.31.145.
+ 85.335: nordmaling.se INFO Begin testing address 2001:9b0:1:703:0:0:0:b002.
+ 86.900: nordmaling.se INFO Done testing address 2001:9b0:1:703:0:0:0:b002.
+ 86.900: nordmaling.se INFO Done testing host smtp-in.sto-ste.se.stejtech.net.
+ 86.900: nordmaling.se INFO Done testing email address hostmaster@nordmaling.se.
+ 86.901: nordmaling.se INFO Successful attempt to deliver email for SOA RNAME of nordmaling.se (hostmaster.nordmaling.se) using hostmaster@nordmaling.se.
+ 86.901: nordmaling.se INFO SOA TTL for nordmaling.se OK (3600) - recommended >= 3600.
+ 86.901: nordmaling.se INFO SOA refresh for nordmaling.se OK (14400) - recommended >= 14400.
+ 86.901: nordmaling.se INFO SOA retry for nordmaling.se OK (3600) - recommended >= 3600.
+ 86.901: nordmaling.se INFO SOA expire for nordmaling.se OK (604800) - recommended >= 604800.
+ 86.901: nordmaling.se INFO SOA minimum for nordmaling.se OK (86400) - recommended between 300 and 86400.
+ 86.901: nordmaling.se INFO Done testing SOA parameters for nordmaling.se.
+ 86.901: nordmaling.se INFO Begin testing connectivity for nordmaling.se.
+ 88.432: nordmaling.se INFO Zone announced by more than one ASN.
+ 88.432: nordmaling.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 88.432: nordmaling.se INFO Done testing connectivity for nordmaling.se.
+ 88.433: nordmaling.se INFO Begin testing DNSSEC for nordmaling.se.
+ 88.584: nordmaling.se INFO Did not find DS record for nordmaling.se at parent.
+ 88.734: nordmaling.se INFO Servers for nordmaling.se have consistent extra processing status.
+ 88.767: nordmaling.se INFO Authenticated denial records not found for nordmaling.se.
+ 88.787: nordmaling.se INFO Did not find DNSKEY record for nordmaling.se at child.
+ 88.787: nordmaling.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 88.787: nordmaling.se INFO Done testing DNSSEC for nordmaling.se.
+ 88.788: nordmaling.se INFO Test completed for zone nordmaling.se.

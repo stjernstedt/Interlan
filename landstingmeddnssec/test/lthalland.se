@@ -1,0 +1,92 @@
+  0.246: lthalland.se INFO Begin testing zone lthalland.se with version 1.2.1.
+  0.305: lthalland.se INFO Begin testing delegation for lthalland.se.
+ 11.710: lthalland.se INFO Name servers listed at parent: ns1.lthalland.se,ns2.lthalland.se
+ 14.053: lthalland.se INFO Name servers listed at child: ns1.lthalland.se,ns2.lthalland.se
+ 14.095: lthalland.se NOTICE No IPv6 name servers found.
+ 14.176: lthalland.se INFO Parent glue for lthalland.se found: ns1.lthalland.se (193.183.15.5)
+ 14.350: lthalland.se INFO Parent glue for lthalland.se found: ns2.lthalland.se (193.183.15.6)
+ 14.424: lthalland.se INFO Checking glue for ns1.lthalland.se (193.183.15.5).
+ 14.481: lthalland.se INFO Child glue for lthalland.se found: ns1.lthalland.se (193.183.15.5)
+ 14.481: lthalland.se INFO Checking glue for ns2.lthalland.se (193.183.15.6).
+ 14.533: lthalland.se INFO Child glue for lthalland.se found: ns2.lthalland.se (193.183.15.6)
+ 14.533: lthalland.se INFO Parent glue for lthalland.se found: ns1.lthalland.se (193.183.15.5)
+ 14.565: lthalland.se INFO Parent glue for lthalland.se found: ns2.lthalland.se (193.183.15.6)
+ 14.565: lthalland.se INFO Done testing delegation for lthalland.se.
+ 14.566: lthalland.se INFO Begin testing name server ns1.lthalland.se.
+ 14.566: lthalland.se INFO Begin testing host ns1.lthalland.se.
+ 14.615: lthalland.se INFO Begin testing address 193.183.15.5.
+ 20.718: lthalland.se INFO Done testing address 193.183.15.5.
+ 20.764: lthalland.se INFO Done testing host ns1.lthalland.se.
+ 20.828: lthalland.se INFO Name server ns1.lthalland.se (193.183.15.5) answers queries over UDP.
+ 20.956: lthalland.se INFO Name server ns1.lthalland.se (193.183.15.5) answers queries over TCP.
+ 21.003: lthalland.se INFO Name server ns1.lthalland.se (193.183.15.5) is not recursive.
+ 21.114: lthalland.se INFO Name server ns1.lthalland.se (193.183.15.5) authoritative for lthalland.se.
+ 21.385: lthalland.se INFO Name server ns1.lthalland.se (193.183.15.5) closed for zone transfer of lthalland.se.
+ 21.433: lthalland.se NOTICE No answer received from 193.183.15.5 when querying for hostname.bind/CH/TXT.
+ 39.570: lthalland.se INFO Done testing name server ns1.lthalland.se.
+ 39.570: lthalland.se INFO Begin testing name server ns2.lthalland.se.
+ 39.570: lthalland.se INFO Begin testing host ns2.lthalland.se.
+ 39.570: lthalland.se INFO Begin testing address 193.183.15.6.
+ 40.349: lthalland.se INFO Done testing address 193.183.15.6.
+ 40.349: lthalland.se INFO Done testing host ns2.lthalland.se.
+ 40.374: lthalland.se INFO Name server ns2.lthalland.se (193.183.15.6) answers queries over UDP.
+ 40.416: lthalland.se INFO Name server ns2.lthalland.se (193.183.15.6) answers queries over TCP.
+ 40.435: lthalland.se INFO Name server ns2.lthalland.se (193.183.15.6) is not recursive.
+ 40.455: lthalland.se INFO Name server ns2.lthalland.se (193.183.15.6) authoritative for lthalland.se.
+ 40.702: lthalland.se INFO Name server ns2.lthalland.se (193.183.15.6) closed for zone transfer of lthalland.se.
+ 40.721: lthalland.se NOTICE No answer received from 193.183.15.6 when querying for hostname.bind/CH/TXT.
+ 58.835: lthalland.se INFO Done testing name server ns2.lthalland.se.
+ 58.835: lthalland.se INFO Begin testing zone consistency for lthalland.se.
+ 58.881: lthalland.se INFO SOA at address 193.183.15.5 has serial 2009033066.
+ 58.912: lthalland.se INFO SOA at address 193.183.15.6 has serial 2009033066.
+ 58.912: lthalland.se INFO All SOA records have consistent serial numbers.
+ 58.912: lthalland.se INFO All SOA records are consistent among all name servers.
+ 58.912: lthalland.se INFO Done testing zone consistency for lthalland.se.
+ 58.913: lthalland.se INFO Begin testing SOA parameters for lthalland.se.
+ 58.942: lthalland.se INFO Found SOA record for lthalland.se.
+ 58.942: lthalland.se INFO Begin testing host ns1.lthalland.se.
+ 58.942: lthalland.se INFO Begin testing address 193.183.15.5.
+ 58.944: lthalland.se INFO Done testing address 193.183.15.5.
+ 58.944: lthalland.se INFO Done testing host ns1.lthalland.se.
+ 58.944: lthalland.se INFO SOA MNAME for lthalland.se valid (ns1.lthalland.se).
+ 58.944: lthalland.se INFO SOA MNAME for lthalland.se (ns1.lthalland.se) listed as NS.
+ 58.979: lthalland.se INFO SOA MNAME for lthalland.se (ns1.lthalland.se) is authoritative.
+ 58.980: lthalland.se INFO Begin testing email address postmaster@lthalland.se.
+ 59.308: lthalland.se INFO Mail exchangers for postmaster@lthalland.se found cust24386-1.in.mailcontrol.com,cust24386-2.in.mailcontrol.com.
+ 59.308: lthalland.se INFO Begin testing host cust24386-1.in.mailcontrol.com.
+ 60.504: lthalland.se INFO Begin testing address 85.115.52.190.
+ 63.531: lthalland.se INFO Done testing address 85.115.52.190.
+ 63.531: lthalland.se INFO Done testing host cust24386-1.in.mailcontrol.com.
+ 63.532: lthalland.se INFO Begin testing mail server cust24386-1.in.mailcontrol.com (85.115.52.190) with postmaster@lthalland.se.
+ 64.817: lthalland.se INFO SMTP banner: cluster-a.mailcontrol.com ESMTP MailControl
+ 65.006: lthalland.se INFO SMTP testing of cust24386-1.in.mailcontrol.com (85.115.52.190) with postmaster@lthalland.se succeeded without errors.
+ 65.006: lthalland.se INFO Done testing mail server cust24386-1.in.mailcontrol.com (85.115.52.190) with postmaster@lthalland.se.
+ 65.006: lthalland.se INFO Begin testing host cust24386-2.in.mailcontrol.com.
+ 66.491: lthalland.se INFO Begin testing address 85.115.54.190.
+ 68.397: lthalland.se INFO Done testing address 85.115.54.190.
+ 68.397: lthalland.se INFO Done testing host cust24386-2.in.mailcontrol.com.
+ 68.398: lthalland.se INFO Delivery over IPv4 to postmaster@lthalland.se ok.
+ 68.398: lthalland.se INFO Delivery over IPv6 to postmaster@lthalland.se could not be done.
+ 68.398: lthalland.se INFO Done testing email address postmaster@lthalland.se.
+ 68.398: lthalland.se INFO Successful attempt to deliver email for SOA RNAME of lthalland.se (postmaster.lthalland.se) using postmaster@lthalland.se.
+ 68.398: lthalland.se INFO SOA TTL for lthalland.se OK (3600) - recommended >= 3600.
+ 68.398: lthalland.se INFO SOA refresh for lthalland.se OK (14400) - recommended >= 14400.
+ 68.398: lthalland.se INFO SOA retry for lthalland.se OK (3600) - recommended >= 3600.
+ 68.398: lthalland.se INFO SOA expire for lthalland.se OK (604800) - recommended >= 604800.
+ 68.399: lthalland.se INFO SOA minimum for lthalland.se OK (3600) - recommended between 300 and 86400.
+ 68.399: lthalland.se INFO Done testing SOA parameters for lthalland.se.
+ 68.399: lthalland.se INFO Begin testing connectivity for lthalland.se.
+ 69.034: lthalland.se INFO Name server 193.183.15.5 announced by: 3292
+ 69.720: lthalland.se INFO Name server 193.183.15.6 announced by: 3292
+ 69.720: lthalland.se INFO Zone announced by IPv4 ASN: 3292
+ 69.720: lthalland.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 69.721: lthalland.se INFO Zone announced by IPv6 ASN: 
+ 69.721: lthalland.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 69.721: lthalland.se INFO Done testing connectivity for lthalland.se.
+ 69.721: lthalland.se INFO Begin testing DNSSEC for lthalland.se.
+ 69.742: lthalland.se INFO Did not find DS record for lthalland.se at parent.
+ 69.831: lthalland.se INFO Servers for lthalland.se have consistent extra processing status.
+ 69.832: lthalland.se INFO Did not find DNSKEY record for lthalland.se at child.
+ 69.832: lthalland.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 69.832: lthalland.se INFO Done testing DNSSEC for lthalland.se.
+ 69.832: lthalland.se INFO Test completed for zone lthalland.se.

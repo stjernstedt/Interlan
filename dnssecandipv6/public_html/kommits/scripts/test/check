@@ -1,0 +1,5 @@
+for i in `ls` ; do
+if [ "`cat $i|grep ERROR`" != "" ] ; then
+	echo $i
+fi
+done

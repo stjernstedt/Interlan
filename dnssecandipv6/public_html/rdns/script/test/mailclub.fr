@@ -1,0 +1,144 @@
+  0.000: mailclub.fr INFO Begin testing zone mailclub.fr with version 1.5.0.
+  0.001: mailclub.fr INFO Begin testing delegation for mailclub.fr.
+ 12.084: mailclub.fr INFO Name servers listed at parent: a.ns.mailclub.fr,b.ns.mailclub.eu,c.ns.mailclub.com
+ 17.511: mailclub.fr INFO Name servers listed at child: a.ns.mailclub.fr,b.ns.mailclub.eu,c.ns.mailclub.com
+ 17.556: mailclub.fr INFO Parent glue for mailclub.fr found: a.ns.mailclub.fr (195.64.164.8)
+ 17.636: mailclub.fr INFO Parent glue for mailclub.fr found: a.ns.mailclub.fr (2a03:1780:1:12:a:0:0:8)
+ 17.714: mailclub.fr INFO Parent glue for mailclub.fr found: b.ns.mailclub.eu (193.151.86.14)
+ 17.770: mailclub.fr INFO Parent glue for mailclub.fr found: b.ns.mailclub.eu (2a01:240:103:0:0:0:0:14)
+ 17.966: mailclub.fr INFO Checking glue for a.ns.mailclub.fr (195.64.164.8).
+ 18.035: mailclub.fr INFO Child glue for mailclub.fr found: a.ns.mailclub.fr (195.64.164.8)
+ 18.035: mailclub.fr INFO Checking glue for a.ns.mailclub.fr (2a03:1780:1:12:a:0:0:8).
+ 18.283: mailclub.fr INFO Child glue for mailclub.fr found: a.ns.mailclub.fr (2a03:1780:1:12:a:0:0:8)
+ 18.284: mailclub.fr INFO Checking glue for b.ns.mailclub.eu (193.151.86.14).
+ 18.284: mailclub.fr INFO Checking glue for b.ns.mailclub.eu (2a01:240:103:0:0:0:0:14).
+ 18.293: mailclub.fr INFO Parent glue for mailclub.fr found: a.ns.mailclub.fr (195.64.164.8)
+ 18.293: mailclub.fr INFO Parent glue for mailclub.fr found: a.ns.mailclub.fr (2a03:1780:1:12:a:0:0:8)
+ 18.294: mailclub.fr INFO Parent glue for mailclub.fr found: b.ns.mailclub.eu (193.151.86.14)
+ 18.294: mailclub.fr INFO Parent glue for mailclub.fr found: b.ns.mailclub.eu (2a01:240:103:0:0:0:0:14)
+ 18.943: mailclub.fr INFO It is possible to build a referral packet for mailclub.fr that works without EDNS0.
+ 18.943: mailclub.fr INFO Done testing delegation for mailclub.fr.
+ 18.944: mailclub.fr INFO Begin testing name server a.ns.mailclub.fr.
+ 18.946: mailclub.fr INFO Begin testing host a.ns.mailclub.fr.
+ 18.947: mailclub.fr INFO Begin testing address 195.64.164.8.
+ 24.537: mailclub.fr INFO Done testing address 195.64.164.8.
+ 24.538: mailclub.fr INFO Begin testing address 2a03:1780:1:12:a:0:0:8.
+ 25.067: mailclub.fr INFO Done testing address 2a03:1780:1:12:a:0:0:8.
+ 25.067: mailclub.fr INFO Done testing host a.ns.mailclub.fr.
+ 25.211: mailclub.fr INFO Name server a.ns.mailclub.fr (195.64.164.8) answers queries over UDP.
+ 25.354: mailclub.fr INFO Name server a.ns.mailclub.fr (195.64.164.8) answers queries over TCP.
+ 25.420: mailclub.fr INFO Name server a.ns.mailclub.fr (195.64.164.8) is not recursive.
+ 25.756: mailclub.fr INFO Name server a.ns.mailclub.fr (195.64.164.8) authoritative for mailclub.fr.
+ 25.928: mailclub.fr INFO Name server a.ns.mailclub.fr (195.64.164.8) closed for zone transfer of mailclub.fr.
+ 25.983: mailclub.fr INFO Legacy name server ID for a.ns.mailclub.fr (195.64.164.8): hostname.bind = a.ns
+ 26.043: mailclub.fr INFO Legacy name server ID for a.ns.mailclub.fr (195.64.164.8): version.bind = none
+ 26.245: mailclub.fr NOTICE No answer received from 195.64.164.8 when querying for version.server/CH/TXT.
+ 26.351: mailclub.fr INFO Name server a.ns.mailclub.fr (2a03:1780:1:12:a:0:0:8) answers queries over UDP.
+ 26.486: mailclub.fr INFO Name server a.ns.mailclub.fr (2a03:1780:1:12:a:0:0:8) answers queries over TCP.
+ 26.585: mailclub.fr INFO Name server a.ns.mailclub.fr (2a03:1780:1:12:a:0:0:8) is not recursive.
+ 26.907: mailclub.fr INFO Name server a.ns.mailclub.fr (2a03:1780:1:12:a:0:0:8) authoritative for mailclub.fr.
+ 27.135: mailclub.fr INFO Name server a.ns.mailclub.fr (2a03:1780:1:12:a:0:0:8) closed for zone transfer of mailclub.fr.
+ 27.220: mailclub.fr INFO Legacy name server ID for a.ns.mailclub.fr (2a03:1780:1:12:a:0:0:8): hostname.bind = a.ns
+ 27.278: mailclub.fr INFO Legacy name server ID for a.ns.mailclub.fr (2a03:1780:1:12:a:0:0:8): version.bind = none
+ 27.430: mailclub.fr NOTICE No answer received from 2a03:1780:1:12:a:0:0:8 when querying for version.server/CH/TXT.
+ 27.431: mailclub.fr INFO Done testing name server a.ns.mailclub.fr.
+ 27.431: mailclub.fr INFO Begin testing name server b.ns.mailclub.eu.
+ 27.431: mailclub.fr INFO Begin testing host b.ns.mailclub.eu.
+ 27.432: mailclub.fr INFO Begin testing address 193.151.86.14.
+ 28.211: mailclub.fr INFO Done testing address 193.151.86.14.
+ 28.211: mailclub.fr INFO Begin testing address 2a01:240:103:0:0:0:0:14.
+ 29.016: mailclub.fr INFO Done testing address 2a01:240:103:0:0:0:0:14.
+ 29.017: mailclub.fr INFO Done testing host b.ns.mailclub.eu.
+ 29.124: mailclub.fr INFO Name server b.ns.mailclub.eu (193.151.86.14) answers queries over UDP.
+ 29.244: mailclub.fr INFO Name server b.ns.mailclub.eu (193.151.86.14) answers queries over TCP.
+ 29.297: mailclub.fr INFO Name server b.ns.mailclub.eu (193.151.86.14) is not recursive.
+ 29.687: mailclub.fr INFO Name server b.ns.mailclub.eu (193.151.86.14) authoritative for mailclub.fr.
+ 29.871: mailclub.fr INFO Name server b.ns.mailclub.eu (193.151.86.14) closed for zone transfer of mailclub.fr.
+ 29.926: mailclub.fr INFO Legacy name server ID for b.ns.mailclub.eu (193.151.86.14): hostname.bind = b.ns.mailclub.eu
+ 30.022: mailclub.fr INFO Legacy name server ID for b.ns.mailclub.eu (193.151.86.14): version.bind = none
+ 30.129: mailclub.fr NOTICE No answer received from 193.151.86.14 when querying for version.server/CH/TXT.
+ 30.190: mailclub.fr INFO Name server b.ns.mailclub.eu (2a01:240:103:0:0:0:0:14) answers queries over UDP.
+ 30.340: mailclub.fr INFO Name server b.ns.mailclub.eu (2a01:240:103:0:0:0:0:14) answers queries over TCP.
+ 30.427: mailclub.fr INFO Name server b.ns.mailclub.eu (2a01:240:103:0:0:0:0:14) is not recursive.
+ 30.725: mailclub.fr INFO Name server b.ns.mailclub.eu (2a01:240:103:0:0:0:0:14) authoritative for mailclub.fr.
+ 30.889: mailclub.fr INFO Name server b.ns.mailclub.eu (2a01:240:103:0:0:0:0:14) closed for zone transfer of mailclub.fr.
+ 30.954: mailclub.fr INFO Legacy name server ID for b.ns.mailclub.eu (2a01:240:103:0:0:0:0:14): hostname.bind = b.ns.mailclub.eu
+ 31.030: mailclub.fr INFO Legacy name server ID for b.ns.mailclub.eu (2a01:240:103:0:0:0:0:14): version.bind = none
+ 31.191: mailclub.fr NOTICE No answer received from 2a01:240:103:0:0:0:0:14 when querying for version.server/CH/TXT.
+ 31.193: mailclub.fr INFO Done testing name server b.ns.mailclub.eu.
+ 31.194: mailclub.fr INFO Begin testing name server c.ns.mailclub.com.
+ 31.200: mailclub.fr INFO Begin testing host c.ns.mailclub.com.
+ 31.201: mailclub.fr INFO Begin testing address 87.255.159.64.
+ 34.075: mailclub.fr INFO Done testing address 87.255.159.64.
+ 34.076: mailclub.fr INFO Begin testing address 2001:470:1f13:aee:a:0:0:92.
+ 43.597: mailclub.fr INFO Done testing address 2001:470:1f13:aee:a:0:0:92.
+ 43.597: mailclub.fr INFO Done testing host c.ns.mailclub.com.
+ 43.650: mailclub.fr INFO Name server c.ns.mailclub.com (87.255.159.64) answers queries over UDP.
+ 43.746: mailclub.fr INFO Name server c.ns.mailclub.com (87.255.159.64) answers queries over TCP.
+ 43.795: mailclub.fr INFO Name server c.ns.mailclub.com (87.255.159.64) is not recursive.
+ 44.055: mailclub.fr INFO Name server c.ns.mailclub.com (87.255.159.64) authoritative for mailclub.fr.
+ 44.220: mailclub.fr INFO Name server c.ns.mailclub.com (87.255.159.64) closed for zone transfer of mailclub.fr.
+ 44.270: mailclub.fr INFO Legacy name server ID for c.ns.mailclub.com (87.255.159.64): hostname.bind = c.ns.mailclub.com
+ 44.318: mailclub.fr INFO Legacy name server ID for c.ns.mailclub.com (87.255.159.64): version.bind = none
+ 44.419: mailclub.fr NOTICE No answer received from 87.255.159.64 when querying for version.server/CH/TXT.
+ 44.562: mailclub.fr INFO Name server c.ns.mailclub.com (2001:470:1f13:aee:a:0:0:92) answers queries over UDP.
+ 44.843: mailclub.fr INFO Name server c.ns.mailclub.com (2001:470:1f13:aee:a:0:0:92) answers queries over TCP.
+ 44.982: mailclub.fr INFO Name server c.ns.mailclub.com (2001:470:1f13:aee:a:0:0:92) is not recursive.
+ 45.525: mailclub.fr INFO Name server c.ns.mailclub.com (2001:470:1f13:aee:a:0:0:92) authoritative for mailclub.fr.
+ 45.882: mailclub.fr INFO Name server c.ns.mailclub.com (2001:470:1f13:aee:a:0:0:92) closed for zone transfer of mailclub.fr.
+ 46.015: mailclub.fr INFO Legacy name server ID for c.ns.mailclub.com (2001:470:1f13:aee:a:0:0:92): hostname.bind = c.ns.mailclub.com
+ 46.138: mailclub.fr INFO Legacy name server ID for c.ns.mailclub.com (2001:470:1f13:aee:a:0:0:92): version.bind = none
+ 46.420: mailclub.fr NOTICE No answer received from 2001:470:1f13:aee:a:0:0:92 when querying for version.server/CH/TXT.
+ 46.421: mailclub.fr INFO Done testing name server c.ns.mailclub.com.
+ 46.421: mailclub.fr INFO Begin testing zone consistency for mailclub.fr.
+ 46.644: mailclub.fr INFO SOA at address 2001:470:1f13:aee:a:0:0:92 has serial 2013072501.
+ 46.758: mailclub.fr INFO SOA at address 87.255.159.64 has serial 2013072501.
+ 46.882: mailclub.fr INFO SOA at address 193.151.86.14 has serial 2013072501.
+ 46.969: mailclub.fr INFO SOA at address 2a03:1780:1:12:a:0:0:8 has serial 2013072501.
+ 47.049: mailclub.fr INFO SOA at address 195.64.164.8 has serial 2013072501.
+ 47.125: mailclub.fr INFO SOA at address 2a01:240:103:0:0:0:0:14 has serial 2013072501.
+ 47.125: mailclub.fr INFO All SOA records have consistent serial numbers.
+ 47.125: mailclub.fr INFO All other fields in the SOA record are consistent among all name servers.
+ 47.648: mailclub.fr NOTICE The listed nameservers for mailclub.fr all report the same set of nameservers.
+ 47.648: mailclub.fr INFO Done testing zone consistency for mailclub.fr.
+ 47.652: mailclub.fr INFO Begin testing SOA parameters for mailclub.fr.
+ 47.715: mailclub.fr INFO Found SOA record for mailclub.fr.
+ 47.716: mailclub.fr INFO Begin testing host master.ns.mailclub.fr.
+ 48.592: mailclub.fr INFO Begin testing address 195.64.164.6.
+ 49.093: mailclub.fr INFO Done testing address 195.64.164.6.
+ 49.093: mailclub.fr INFO Begin testing address 2a03:1780:1:12:a:0:0:6.
+ 49.763: mailclub.fr INFO Done testing address 2a03:1780:1:12:a:0:0:6.
+ 49.763: mailclub.fr INFO Done testing host master.ns.mailclub.fr.
+ 49.763: mailclub.fr INFO SOA MNAME for mailclub.fr valid (master.ns.mailclub.fr).
+ 49.764: mailclub.fr NOTICE SOA MNAME for mailclub.fr (master.ns.mailclub.fr) not listed as NS.
+ 55.797: mailclub.fr INFO SOA MNAME for mailclub.fr (master.ns.mailclub.fr) is authoritative.
+ 60.808: mailclub.fr INFO SOA MNAME for mailclub.fr (master.ns.mailclub.fr) is authoritative.
+ 60.809: mailclub.fr INFO Begin testing email address domaines@mailclub.fr.
+ 61.212: mailclub.fr INFO Mail exchangers for domaines@mailclub.fr found favas.mailclub.fr.
+ 61.212: mailclub.fr INFO All mail servers for domaines@mailclub.fr are in zone mailclub.fr.
+ 61.213: mailclub.fr INFO Begin testing host favas.mailclub.fr.
+ 62.323: mailclub.fr INFO Begin testing address 80.245.60.15.
+ 64.387: mailclub.fr INFO Done testing address 80.245.60.15.
+ 64.388: mailclub.fr INFO Begin testing address 80.245.60.17.
+ 66.608: mailclub.fr INFO Done testing address 80.245.60.17.
+ 66.608: mailclub.fr INFO Done testing host favas.mailclub.fr.
+ 67.236: mailclub.fr INFO Done testing email address domaines@mailclub.fr.
+ 67.236: mailclub.fr INFO Successful attempt to deliver email for SOA RNAME of mailclub.fr (domaines.mailclub.fr) using domaines@mailclub.fr.
+ 67.236: mailclub.fr INFO SOA TTL for mailclub.fr OK (33200) - recommended >= 3600.
+ 67.236: mailclub.fr INFO SOA refresh for mailclub.fr OK (43200) - recommended >= 14400.
+ 67.237: mailclub.fr INFO SOA retry for mailclub.fr OK (7200) - recommended >= 3600.
+ 67.237: mailclub.fr INFO SOA expire for mailclub.fr OK (1209600) - recommended >= 604800.
+ 67.237: mailclub.fr INFO SOA minimum for mailclub.fr OK (33200) - recommended between 300 and 86400.
+ 67.237: mailclub.fr INFO Done testing SOA parameters for mailclub.fr.
+ 67.237: mailclub.fr INFO Begin testing connectivity for mailclub.fr.
+ 70.878: mailclub.fr INFO Zone announced by more than one ASN.
+ 73.741: mailclub.fr INFO Zone announced by more than one IPv6 ASN.
+ 73.741: mailclub.fr INFO Done testing connectivity for mailclub.fr.
+ 73.741: mailclub.fr INFO Begin testing DNSSEC for mailclub.fr.
+ 73.945: mailclub.fr INFO Did not find DS record for mailclub.fr at parent.
+ 74.717: mailclub.fr INFO Servers for mailclub.fr have consistent extra processing status.
+ 74.796: mailclub.fr INFO Authenticated denial records not found for mailclub.fr.
+ 74.843: mailclub.fr INFO Did not find DNSKEY record for mailclub.fr at child.
+ 74.844: mailclub.fr INFO No DNSKEY(s) found at child, other tests skipped.
+ 74.844: mailclub.fr INFO Done testing DNSSEC for mailclub.fr.
+ 74.896: mailclub.fr INFO Test completed for zone mailclub.fr.

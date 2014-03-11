@@ -1,0 +1,78 @@
+  0.000: spbtanum.se INFO Begin testing zone spbtanum.se with version 1.5.0.
+  0.928: spbtanum.se INFO Begin testing delegation for spbtanum.se.
+  5.579: spbtanum.se INFO Name servers listed at parent: ns1.foreningssparbanken.se,ns2.foreningssparbanken.se
+  7.282: spbtanum.se INFO Name servers listed at child: ns1.foreningssparbanken.se,ns2.foreningssparbanken.se
+  7.282: spbtanum.se NOTICE No IPv6 name servers found.
+  7.298: spbtanum.se INFO Parent glue for spbtanum.se found: ns1.foreningssparbanken.se (164.10.45.24)
+  7.341: spbtanum.se INFO Parent glue for spbtanum.se found: ns2.foreningssparbanken.se (164.10.45.25)
+  7.357: spbtanum.se INFO Checking glue for ns1.foreningssparbanken.se (164.10.45.24).
+  7.357: spbtanum.se INFO Checking glue for ns2.foreningssparbanken.se (164.10.45.25).
+  7.358: spbtanum.se INFO Parent glue for spbtanum.se found: ns1.foreningssparbanken.se (164.10.45.24)
+  7.358: spbtanum.se INFO Parent glue for spbtanum.se found: ns2.foreningssparbanken.se (164.10.45.25)
+  7.921: spbtanum.se INFO It is possible to build a referral packet for spbtanum.se that works without EDNS0.
+  7.922: spbtanum.se INFO Done testing delegation for spbtanum.se.
+  7.922: spbtanum.se INFO Begin testing name server ns1.foreningssparbanken.se.
+  7.923: spbtanum.se INFO Begin testing host ns1.foreningssparbanken.se.
+  8.203: spbtanum.se INFO Begin testing address 164.10.45.24.
+ 14.490: spbtanum.se INFO Done testing address 164.10.45.24.
+ 14.491: spbtanum.se INFO Done testing host ns1.foreningssparbanken.se.
+ 14.725: spbtanum.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) answers queries over UDP.
+ 14.738: spbtanum.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) answers queries over TCP.
+ 14.746: spbtanum.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) is not recursive.
+ 14.779: spbtanum.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) authoritative for spbtanum.se.
+ 14.794: spbtanum.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) closed for zone transfer of spbtanum.se.
+ 37.826: spbtanum.se INFO Done testing name server ns1.foreningssparbanken.se.
+ 37.826: spbtanum.se INFO Begin testing name server ns2.foreningssparbanken.se.
+ 37.826: spbtanum.se INFO Begin testing host ns2.foreningssparbanken.se.
+ 38.072: spbtanum.se INFO Begin testing address 164.10.45.25.
+ 39.479: spbtanum.se INFO Done testing address 164.10.45.25.
+ 39.479: spbtanum.se INFO Done testing host ns2.foreningssparbanken.se.
+ 39.734: spbtanum.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) answers queries over UDP.
+ 39.758: spbtanum.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) answers queries over TCP.
+ 39.778: spbtanum.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) is not recursive.
+ 39.835: spbtanum.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) authoritative for spbtanum.se.
+ 39.853: spbtanum.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) closed for zone transfer of spbtanum.se.
+ 63.890: spbtanum.se INFO Done testing name server ns2.foreningssparbanken.se.
+ 63.891: spbtanum.se INFO Begin testing zone consistency for spbtanum.se.
+ 64.844: spbtanum.se INFO SOA at address 164.10.45.24 has serial 2010062301.
+ 64.853: spbtanum.se INFO SOA at address 164.10.45.25 has serial 2010062301.
+ 64.854: spbtanum.se INFO All SOA records have consistent serial numbers.
+ 64.854: spbtanum.se INFO All other fields in the SOA record are consistent among all name servers.
+ 65.397: spbtanum.se NOTICE The listed nameservers for spbtanum.se all report the same set of nameservers.
+ 65.397: spbtanum.se INFO Done testing zone consistency for spbtanum.se.
+ 65.398: spbtanum.se INFO Begin testing SOA parameters for spbtanum.se.
+ 65.411: spbtanum.se INFO Found SOA record for spbtanum.se.
+ 65.412: spbtanum.se INFO Begin testing host ns1.foreningssparbanken.se.
+ 65.674: spbtanum.se INFO Begin testing address 164.10.45.24.
+ 66.180: spbtanum.se INFO Done testing address 164.10.45.24.
+ 66.181: spbtanum.se INFO Done testing host ns1.foreningssparbanken.se.
+ 66.181: spbtanum.se INFO SOA MNAME for spbtanum.se valid (ns1.foreningssparbanken.se).
+ 66.181: spbtanum.se INFO SOA MNAME for spbtanum.se (ns1.foreningssparbanken.se) listed as NS.
+ 66.475: spbtanum.se INFO SOA MNAME for spbtanum.se (ns1.foreningssparbanken.se) is authoritative.
+ 66.475: spbtanum.se INFO Begin testing email address unixdrift@foreningssparbanken.se.
+ 67.151: spbtanum.se INFO Mail exchangers for unixdrift@foreningssparbanken.se found foreningssparbanken.se.
+ 67.152: spbtanum.se INFO Begin testing host foreningssparbanken.se.
+ 67.385: spbtanum.se INFO Begin testing address 164.10.45.63.
+ 67.791: spbtanum.se WARNING Could not find reverse address for 164.10.45.63 (63.45.10.164.in-addr.arpa.).
+ 67.791: spbtanum.se INFO Done testing address 164.10.45.63.
+ 67.791: spbtanum.se INFO Done testing host foreningssparbanken.se.
+ 68.057: spbtanum.se INFO Done testing email address unixdrift@foreningssparbanken.se.
+ 68.057: spbtanum.se INFO Successful attempt to deliver email for SOA RNAME of spbtanum.se (unixdrift.foreningssparbanken.se) using unixdrift@foreningssparbanken.se.
+ 68.058: spbtanum.se INFO SOA TTL for spbtanum.se OK (3600) - recommended >= 3600.
+ 68.059: spbtanum.se INFO SOA refresh for spbtanum.se OK (28800) - recommended >= 14400.
+ 68.059: spbtanum.se INFO SOA retry for spbtanum.se OK (7200) - recommended >= 3600.
+ 68.059: spbtanum.se INFO SOA expire for spbtanum.se OK (604800) - recommended >= 604800.
+ 68.059: spbtanum.se INFO SOA minimum for spbtanum.se OK (86400) - recommended between 300 and 86400.
+ 68.059: spbtanum.se INFO Done testing SOA parameters for spbtanum.se.
+ 68.060: spbtanum.se INFO Begin testing connectivity for spbtanum.se.
+ 69.349: spbtanum.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 69.349: spbtanum.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 69.349: spbtanum.se INFO Done testing connectivity for spbtanum.se.
+ 69.349: spbtanum.se INFO Begin testing DNSSEC for spbtanum.se.
+ 69.393: spbtanum.se INFO Did not find DS record for spbtanum.se at parent.
+ 69.430: spbtanum.se INFO Servers for spbtanum.se have consistent extra processing status.
+ 69.446: spbtanum.se INFO Authenticated denial records not found for spbtanum.se.
+ 69.461: spbtanum.se INFO Did not find DNSKEY record for spbtanum.se at child.
+ 69.462: spbtanum.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 69.462: spbtanum.se INFO Done testing DNSSEC for spbtanum.se.
+ 69.464: spbtanum.se INFO Test completed for zone spbtanum.se.

@@ -1,0 +1,90 @@
+  0.000: ronneby.se INFO Begin testing zone ronneby.se with version 1.2.
+  0.000: ronneby.se INFO Begin testing delegation for ronneby.se.
+  9.139: ronneby.se INFO Name servers listed at parent: dns1.softnetwork.se,dns2.softnetwork.se
+ 10.418: ronneby.se INFO Name servers listed at child: dns1.softnetwork.se,dns2.softnetwork.se
+ 10.418: ronneby.se NOTICE No IPv6 name servers found.
+ 10.457: ronneby.se INFO Parent glue for ronneby.se found: dns1.softnetwork.se (192.176.122.2)
+ 10.505: ronneby.se INFO Parent glue for ronneby.se found: dns2.softnetwork.se (192.176.123.133)
+ 10.526: ronneby.se INFO Checking glue for dns1.softnetwork.se (192.176.122.2).
+ 10.527: ronneby.se INFO Checking glue for dns2.softnetwork.se (192.176.123.133).
+ 10.527: ronneby.se INFO Parent glue for ronneby.se found: dns1.softnetwork.se (192.176.122.2)
+ 10.527: ronneby.se INFO Parent glue for ronneby.se found: dns2.softnetwork.se (192.176.123.133)
+ 10.528: ronneby.se INFO Done testing delegation for ronneby.se.
+ 10.528: ronneby.se INFO Begin testing name server dns1.softnetwork.se.
+ 10.528: ronneby.se INFO Begin testing host dns1.softnetwork.se.
+ 10.529: ronneby.se INFO Begin testing address 192.176.122.2.
+ 27.024: ronneby.se INFO Done testing address 192.176.122.2.
+ 27.024: ronneby.se INFO Done testing host dns1.softnetwork.se.
+ 27.053: ronneby.se INFO Name server dns1.softnetwork.se (192.176.122.2) answers queries over UDP.
+ 27.105: ronneby.se INFO Name server dns1.softnetwork.se (192.176.122.2) answers queries over TCP.
+ 27.638: ronneby.se INFO Name server dns1.softnetwork.se (192.176.122.2) is not recursive.
+ 27.665: ronneby.se INFO Name server dns1.softnetwork.se (192.176.122.2) authoritative for ronneby.se.
+ 27.960: ronneby.se INFO Name server dns1.softnetwork.se (192.176.122.2) closed for zone transfer of ronneby.se.
+ 27.987: ronneby.se NOTICE No answer received from 192.176.122.2 when querying for hostname.bind/CH/TXT.
+ 45.999: ronneby.se INFO Done testing name server dns1.softnetwork.se.
+ 45.999: ronneby.se INFO Begin testing name server dns2.softnetwork.se.
+ 45.999: ronneby.se INFO Begin testing host dns2.softnetwork.se.
+ 46.000: ronneby.se INFO Begin testing address 192.176.123.133.
+ 46.250: ronneby.se INFO Done testing address 192.176.123.133.
+ 46.250: ronneby.se INFO Done testing host dns2.softnetwork.se.
+ 46.257: ronneby.se INFO Name server dns2.softnetwork.se (192.176.123.133) answers queries over UDP.
+ 46.277: ronneby.se INFO Name server dns2.softnetwork.se (192.176.123.133) answers queries over TCP.
+ 46.587: ronneby.se INFO Name server dns2.softnetwork.se (192.176.123.133) is not recursive.
+ 46.595: ronneby.se INFO Name server dns2.softnetwork.se (192.176.123.133) authoritative for ronneby.se.
+ 46.809: ronneby.se INFO Name server dns2.softnetwork.se (192.176.123.133) closed for zone transfer of ronneby.se.
+ 46.816: ronneby.se NOTICE No answer received from 192.176.123.133 when querying for hostname.bind/CH/TXT.
+ 64.817: ronneby.se INFO Done testing name server dns2.softnetwork.se.
+ 64.818: ronneby.se INFO Begin testing zone consistency for ronneby.se.
+ 64.828: ronneby.se INFO SOA at address 192.176.123.133 has serial 2010061401.
+ 64.856: ronneby.se INFO SOA at address 192.176.122.2 has serial 2010061401.
+ 64.856: ronneby.se INFO All SOA records have consistent serial numbers.
+ 64.856: ronneby.se INFO All SOA records are consistent among all name servers.
+ 64.856: ronneby.se INFO Done testing zone consistency for ronneby.se.
+ 64.856: ronneby.se INFO Begin testing SOA parameters for ronneby.se.
+ 64.863: ronneby.se INFO Found SOA record for ronneby.se.
+ 64.864: ronneby.se INFO Begin testing host dns1.softnetwork.se.
+ 64.864: ronneby.se INFO Begin testing address 192.176.122.2.
+ 64.866: ronneby.se INFO Done testing address 192.176.122.2.
+ 64.866: ronneby.se INFO Done testing host dns1.softnetwork.se.
+ 64.866: ronneby.se INFO SOA MNAME for ronneby.se valid (dns1.softnetwork.se).
+ 64.866: ronneby.se INFO SOA MNAME for ronneby.se (dns1.softnetwork.se) listed as NS.
+ 64.894: ronneby.se INFO SOA MNAME for ronneby.se (dns1.softnetwork.se) is authoritative.
+ 64.894: ronneby.se INFO Begin testing email address hostmaster@softnetwork.se.
+ 65.120: ronneby.se INFO Mail exchangers for hostmaster@softnetwork.se found smtp6.softnetwork.se,smtp5.softnetwork.se.
+ 65.120: ronneby.se INFO Begin testing host smtp6.softnetwork.se.
+ 65.593: ronneby.se INFO Begin testing address 192.176.123.197.
+ 65.951: ronneby.se INFO Done testing address 192.176.123.197.
+ 65.951: ronneby.se INFO Done testing host smtp6.softnetwork.se.
+ 65.951: ronneby.se INFO Begin testing mail server smtp6.softnetwork.se (192.176.123.197) with hostmaster@softnetwork.se.
+ 66.005: ronneby.se INFO SMTP banner: smtp6.softnetwork.se Welcome to SpamFilterISP SMTP Server v4.2.4.834
+ 66.172: ronneby.se INFO SMTP testing of smtp6.softnetwork.se (192.176.123.197) with hostmaster@softnetwork.se succeeded without errors.
+ 66.172: ronneby.se INFO Done testing mail server smtp6.softnetwork.se (192.176.123.197) with hostmaster@softnetwork.se.
+ 66.173: ronneby.se INFO Begin testing host smtp5.softnetwork.se.
+ 66.654: ronneby.se INFO Begin testing address 192.176.123.215.
+ 67.078: ronneby.se INFO Done testing address 192.176.123.215.
+ 67.078: ronneby.se INFO Done testing host smtp5.softnetwork.se.
+ 67.078: ronneby.se INFO Delivery over IPv4 to hostmaster@softnetwork.se ok.
+ 67.078: ronneby.se INFO Delivery over IPv6 to hostmaster@softnetwork.se could not be done.
+ 67.078: ronneby.se INFO Done testing email address hostmaster@softnetwork.se.
+ 67.078: ronneby.se INFO Successful attempt to deliver email for SOA RNAME of ronneby.se (hostmaster.softnetwork.se) using hostmaster@softnetwork.se.
+ 67.078: ronneby.se INFO SOA TTL for ronneby.se OK (86400) - recommended >= 3600.
+ 67.078: ronneby.se NOTICE SOA refresh for ronneby.se too small (10800) - recommended >= 14400.
+ 67.079: ronneby.se NOTICE SOA retry for ronneby.se too small (1800) - recommended >= 3600.
+ 67.079: ronneby.se INFO SOA expire for ronneby.se OK (604800) - recommended >= 604800.
+ 67.079: ronneby.se INFO SOA minimum for ronneby.se OK (86400) - recommended between 300 and 86400.
+ 67.079: ronneby.se INFO Done testing SOA parameters for ronneby.se.
+ 67.079: ronneby.se INFO Begin testing connectivity for ronneby.se.
+ 67.668: ronneby.se INFO Name server 192.176.123.133 announced by: 39369
+ 72.340: ronneby.se INFO Name server 192.176.122.2 announced by: 1257
+ 72.340: ronneby.se INFO Zone announced by IPv4 ASN: 1257,39369
+ 72.340: ronneby.se INFO Zone announced by more than one ASN (2).
+ 72.340: ronneby.se INFO Zone announced by IPv6 ASN: 
+ 72.340: ronneby.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 72.340: ronneby.se INFO Done testing connectivity for ronneby.se.
+ 72.341: ronneby.se INFO Begin testing DNSSEC for ronneby.se.
+ 72.363: ronneby.se INFO Did not find DS record for ronneby.se at parent.
+ 72.501: ronneby.se INFO Servers for ronneby.se have consistent extra processing status.
+ 72.501: ronneby.se INFO Did not find DNSKEY record for ronneby.se at child.
+ 72.501: ronneby.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 72.501: ronneby.se INFO Done testing DNSSEC for ronneby.se.
+ 72.501: ronneby.se INFO Test completed for zone ronneby.se.

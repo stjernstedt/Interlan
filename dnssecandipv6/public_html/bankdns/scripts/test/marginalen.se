@@ -1,0 +1,98 @@
+  0.000: marginalen.se INFO Begin testing zone marginalen.se with version 1.5.0.
+  0.005: marginalen.se INFO Begin testing delegation for marginalen.se.
+  4.760: marginalen.se INFO Name servers listed at parent: dns01.marginalen.se,ns.ymex.se
+  6.544: marginalen.se INFO Name servers listed at child: dns01.marginalen.se,ns.ymex.se
+  6.544: marginalen.se NOTICE No IPv6 name servers found.
+  6.663: marginalen.se INFO Parent glue for marginalen.se found: dns01.marginalen.se (93.158.115.15)
+  6.691: marginalen.se INFO Parent glue for marginalen.se found: ns.ymex.se (217.119.160.1)
+  6.712: marginalen.se INFO Checking glue for dns01.marginalen.se (93.158.115.15).
+  6.721: marginalen.se INFO Child glue for marginalen.se found: dns01.marginalen.se (93.158.115.15)
+  6.721: marginalen.se INFO Checking glue for ns.ymex.se (217.119.160.1).
+  6.722: marginalen.se INFO Parent glue for marginalen.se found: dns01.marginalen.se (93.158.115.15)
+  6.723: marginalen.se INFO Parent glue for marginalen.se found: ns.ymex.se (217.119.160.1)
+  7.251: marginalen.se INFO It is possible to build a referral packet for marginalen.se that works without EDNS0.
+  7.252: marginalen.se INFO Done testing delegation for marginalen.se.
+  7.253: marginalen.se INFO Begin testing name server dns01.marginalen.se.
+  7.253: marginalen.se INFO Begin testing host dns01.marginalen.se.
+  7.487: marginalen.se INFO Begin testing address 93.158.115.15.
+ 24.559: marginalen.se INFO Done testing address 93.158.115.15.
+ 24.559: marginalen.se INFO Done testing host dns01.marginalen.se.
+ 24.806: marginalen.se INFO Name server dns01.marginalen.se (93.158.115.15) answers queries over UDP.
+ 24.819: marginalen.se INFO Name server dns01.marginalen.se (93.158.115.15) answers queries over TCP.
+ 24.828: marginalen.se INFO Name server dns01.marginalen.se (93.158.115.15) is not recursive.
+ 24.857: marginalen.se INFO Name server dns01.marginalen.se (93.158.115.15) authoritative for marginalen.se.
+ 24.870: marginalen.se INFO Name server dns01.marginalen.se (93.158.115.15) closed for zone transfer of marginalen.se.
+ 24.877: marginalen.se INFO Legacy name server ID for dns01.marginalen.se (93.158.115.15): hostname.bind = dns01.marginalen.se
+ 24.885: marginalen.se INFO Legacy name server ID for dns01.marginalen.se (93.158.115.15): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 24.899: marginalen.se NOTICE No answer received from 93.158.115.15 when querying for version.server/CH/TXT.
+ 24.899: marginalen.se INFO Done testing name server dns01.marginalen.se.
+ 24.899: marginalen.se INFO Begin testing name server ns.ymex.se.
+ 24.900: marginalen.se INFO Begin testing host ns.ymex.se.
+ 25.134: marginalen.se INFO Begin testing address 217.119.160.1.
+ 25.913: marginalen.se INFO Done testing address 217.119.160.1.
+ 25.913: marginalen.se INFO Done testing host ns.ymex.se.
+ 26.139: marginalen.se INFO Name server ns.ymex.se (217.119.160.1) answers queries over UDP.
+ 26.157: marginalen.se INFO Name server ns.ymex.se (217.119.160.1) answers queries over TCP.
+ 26.167: marginalen.se INFO Name server ns.ymex.se (217.119.160.1) is not recursive.
+ 26.207: marginalen.se INFO Name server ns.ymex.se (217.119.160.1) authoritative for marginalen.se.
+ 26.234: marginalen.se NOTICE Name server ns.ymex.se (217.119.160.1) open for zone transfer of marginalen.se.
+ 26.245: marginalen.se INFO Legacy name server ID for ns.ymex.se (217.119.160.1): hostname.bind = ns.ymex.se
+ 26.259: marginalen.se INFO Legacy name server ID for ns.ymex.se (217.119.160.1): version.bind = 9.4.3
+ 26.278: marginalen.se NOTICE No answer received from 217.119.160.1 when querying for version.server/CH/TXT.
+ 26.278: marginalen.se INFO Done testing name server ns.ymex.se.
+ 26.278: marginalen.se INFO Begin testing zone consistency for marginalen.se.
+ 27.223: marginalen.se INFO SOA at address 93.158.115.15 has serial 2909060392.
+ 27.236: marginalen.se INFO SOA at address 217.119.160.1 has serial 2909060392.
+ 27.236: marginalen.se INFO All SOA records have consistent serial numbers.
+ 27.237: marginalen.se INFO All other fields in the SOA record are consistent among all name servers.
+ 27.704: marginalen.se NOTICE The listed nameservers for marginalen.se all report the same set of nameservers.
+ 27.704: marginalen.se INFO Done testing zone consistency for marginalen.se.
+ 27.704: marginalen.se INFO Begin testing SOA parameters for marginalen.se.
+ 27.712: marginalen.se INFO Found SOA record for marginalen.se.
+ 27.713: marginalen.se INFO Begin testing host dns01.marginalen.se.
+ 27.941: marginalen.se INFO Begin testing address 93.158.115.15.
+ 28.176: marginalen.se INFO Done testing address 93.158.115.15.
+ 28.177: marginalen.se INFO Done testing host dns01.marginalen.se.
+ 28.177: marginalen.se INFO SOA MNAME for marginalen.se valid (dns01.marginalen.se).
+ 28.177: marginalen.se INFO SOA MNAME for marginalen.se (dns01.marginalen.se) listed as NS.
+ 28.425: marginalen.se INFO SOA MNAME for marginalen.se (dns01.marginalen.se) is authoritative.
+ 28.426: marginalen.se INFO Begin testing email address hostmaster@marginalen.se.
+ 28.660: marginalen.se INFO Mail exchangers for hostmaster@marginalen.se found smtp-in.sto-hy.se.stejtech.net,smtp-in.sto-ste.se.stejtech.net.
+ 28.661: marginalen.se INFO Begin testing host smtp-in.sto-hy.se.stejtech.net.
+ 29.305: marginalen.se INFO Begin testing address 79.136.102.100.
+ 31.255: marginalen.se INFO Done testing address 79.136.102.100.
+ 31.256: marginalen.se INFO Begin testing address 91.236.208.10.
+ 32.538: marginalen.se INFO Done testing address 91.236.208.10.
+ 32.540: marginalen.se INFO Begin testing address 2001:9b0:1:703:0:0:0:1b01.
+ 34.267: marginalen.se INFO Done testing address 2001:9b0:1:703:0:0:0:1b01.
+ 34.267: marginalen.se INFO Begin testing address 2001:67c:27e0:2110:0:0:0:1b01.
+ 35.176: marginalen.se INFO Done testing address 2001:67c:27e0:2110:0:0:0:1b01.
+ 35.177: marginalen.se INFO Done testing host smtp-in.sto-hy.se.stejtech.net.
+ 35.177: marginalen.se INFO Begin testing host smtp-in.sto-ste.se.stejtech.net.
+ 35.838: marginalen.se INFO Begin testing address 79.136.102.90.
+ 36.748: marginalen.se INFO Done testing address 79.136.102.90.
+ 36.748: marginalen.se INFO Begin testing address 83.140.31.145.
+ 37.747: marginalen.se INFO Done testing address 83.140.31.145.
+ 37.747: marginalen.se INFO Begin testing address 2001:9b0:1:703:0:0:0:b002.
+ 39.133: marginalen.se INFO Done testing address 2001:9b0:1:703:0:0:0:b002.
+ 39.133: marginalen.se INFO Done testing host smtp-in.sto-ste.se.stejtech.net.
+ 39.133: marginalen.se INFO Done testing email address hostmaster@marginalen.se.
+ 39.133: marginalen.se INFO Successful attempt to deliver email for SOA RNAME of marginalen.se (hostmaster.marginalen.se) using hostmaster@marginalen.se.
+ 39.133: marginalen.se INFO SOA TTL for marginalen.se OK (38400) - recommended >= 3600.
+ 39.133: marginalen.se NOTICE SOA refresh for marginalen.se too small (7200) - recommended >= 14400.
+ 39.134: marginalen.se INFO SOA retry for marginalen.se OK (3600) - recommended >= 3600.
+ 39.134: marginalen.se NOTICE SOA expire for marginalen.se too small (86400) - recommended >= 604800.
+ 39.134: marginalen.se INFO SOA minimum for marginalen.se OK (86400) - recommended between 300 and 86400.
+ 39.134: marginalen.se INFO Done testing SOA parameters for marginalen.se.
+ 39.142: marginalen.se INFO Begin testing connectivity for marginalen.se.
+ 40.206: marginalen.se INFO Zone announced by more than one ASN.
+ 40.206: marginalen.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 40.206: marginalen.se INFO Done testing connectivity for marginalen.se.
+ 40.207: marginalen.se INFO Begin testing DNSSEC for marginalen.se.
+ 40.224: marginalen.se INFO Did not find DS record for marginalen.se at parent.
+ 40.251: marginalen.se INFO Servers for marginalen.se have consistent extra processing status.
+ 40.260: marginalen.se INFO Authenticated denial records not found for marginalen.se.
+ 40.266: marginalen.se INFO Did not find DNSKEY record for marginalen.se at child.
+ 40.266: marginalen.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 40.266: marginalen.se INFO Done testing DNSSEC for marginalen.se.
+ 40.267: marginalen.se INFO Test completed for zone marginalen.se.

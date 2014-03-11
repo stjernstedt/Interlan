@@ -1,0 +1,143 @@
+  0.000: habokommun.se INFO Begin testing zone habokommun.se with version 1.6.1.
+  1.239: habokommun.se INFO Begin testing delegation for habokommun.se.
+ 15.396: habokommun.se INFO Name servers listed at parent: ns1.habokommun.se,ns2.habokommun.se
+ 18.320: habokommun.se INFO Name servers listed at child: ns1.habokommun.se,ns2.habokommun.se
+ 18.321: habokommun.se NOTICE No IPv6 name servers found.
+ 18.482: habokommun.se INFO Parent glue for habokommun.se found: ns1.habokommun.se (80.244.199.226)
+ 18.784: habokommun.se INFO Parent glue for habokommun.se found: ns2.habokommun.se (80.244.199.227)
+ 19.086: habokommun.se INFO Checking glue for ns1.habokommun.se (80.244.199.226).
+ 19.161: habokommun.se INFO Child glue for habokommun.se found: ns1.habokommun.se (80.244.199.226)
+ 19.161: habokommun.se INFO Checking glue for ns2.habokommun.se (80.244.199.227).
+ 19.180: habokommun.se INFO Child glue for habokommun.se found: ns2.habokommun.se (80.244.199.227)
+ 19.180: habokommun.se INFO Parent glue for habokommun.se found: ns1.habokommun.se (80.244.199.226)
+ 19.181: habokommun.se INFO Parent glue for habokommun.se found: ns2.habokommun.se (80.244.199.227)
+ 20.574: habokommun.se INFO It is possible to build a referral packet for habokommun.se that works without EDNS0.
+ 21.536: habokommun.se INFO Previously used name servers for habokommun.se: 
+ 21.536: habokommun.se INFO Done testing delegation for habokommun.se.
+ 21.536: habokommun.se INFO Begin testing name server ns1.habokommun.se.
+ 21.536: habokommun.se INFO Begin testing host ns1.habokommun.se.
+ 22.015: habokommun.se INFO Begin testing address 80.244.199.226.
+ 40.588: habokommun.se INFO Done testing address 80.244.199.226.
+ 40.588: habokommun.se INFO Done testing host ns1.habokommun.se.
+ 40.930: habokommun.se INFO Name server ns1.habokommun.se (80.244.199.226) answers queries over UDP.
+ 40.981: habokommun.se INFO Name server ns1.habokommun.se (80.244.199.226) answers queries over TCP.
+ 41.014: habokommun.se INFO Name server ns1.habokommun.se (80.244.199.226) is not recursive.
+ 41.245: habokommun.se INFO Name server ns1.habokommun.se (80.244.199.226) authoritative for habokommun.se.
+ 41.337: habokommun.se INFO Name server ns1.habokommun.se (80.244.199.226) closed for zone transfer of habokommun.se.
+ 41.377: habokommun.se NOTICE No answer received from 80.244.199.226 when querying for hostname.bind/CH/TXT.
+ 56.914: habokommun.se INFO Done testing name server ns1.habokommun.se.
+ 56.914: habokommun.se INFO Begin testing name server ns2.habokommun.se.
+ 56.914: habokommun.se INFO Begin testing host ns2.habokommun.se.
+ 57.294: habokommun.se INFO Begin testing address 80.244.199.227.
+ 59.708: habokommun.se INFO Done testing address 80.244.199.227.
+ 59.717: habokommun.se INFO Done testing host ns2.habokommun.se.
+ 60.952: habokommun.se INFO Name server ns2.habokommun.se (80.244.199.227) answers queries over UDP.
+ 62.511: habokommun.se INFO Name server ns2.habokommun.se (80.244.199.227) answers queries over TCP.
+ 62.545: habokommun.se INFO Name server ns2.habokommun.se (80.244.199.227) is not recursive.
+ 62.640: habokommun.se INFO Name server ns2.habokommun.se (80.244.199.227) authoritative for habokommun.se.
+ 62.726: habokommun.se INFO Name server ns2.habokommun.se (80.244.199.227) closed for zone transfer of habokommun.se.
+ 62.739: habokommun.se NOTICE No answer received from 80.244.199.227 when querying for hostname.bind/CH/TXT.
+ 73.071: habokommun.se INFO Done testing name server ns2.habokommun.se.
+ 73.072: habokommun.se INFO Begin testing zone consistency for habokommun.se.
+ 75.104: habokommun.se INFO SOA at address 80.244.199.226 has serial 2013060329.
+ 75.126: habokommun.se INFO SOA at address 80.244.199.227 has serial 2013060329.
+ 75.126: habokommun.se INFO All SOA records have consistent serial numbers.
+ 75.126: habokommun.se INFO All other fields in the SOA record are consistent among all name servers.
+ 75.880: habokommun.se NOTICE The listed nameservers for habokommun.se all report the same set of nameservers.
+ 75.881: habokommun.se INFO Done testing zone consistency for habokommun.se.
+ 75.881: habokommun.se INFO Begin testing SOA parameters for habokommun.se.
+ 75.946: habokommun.se INFO Found SOA record for habokommun.se.
+ 75.946: habokommun.se INFO Begin testing host ns1.habokommun.se.
+ 76.272: habokommun.se INFO Begin testing address 80.244.199.226.
+ 76.624: habokommun.se INFO Done testing address 80.244.199.226.
+ 76.624: habokommun.se INFO Done testing host ns1.habokommun.se.
+ 76.624: habokommun.se INFO SOA MNAME for habokommun.se valid (ns1.habokommun.se).
+ 76.624: habokommun.se INFO SOA MNAME for habokommun.se (ns1.habokommun.se) listed as NS.
+ 76.948: habokommun.se INFO SOA MNAME for habokommun.se (ns1.habokommun.se) is authoritative.
+ 76.949: habokommun.se INFO Begin testing email address hostmaster@habokommun.se.
+ 77.288: habokommun.se INFO Mail exchangers for hostmaster@habokommun.se found smtp-in.sto-hy.se.stejtech.net,smtp-in.sto-ste.se.stejtech.net.
+ 77.288: habokommun.se INFO Begin testing host smtp-in.sto-hy.se.stejtech.net.
+ 78.814: habokommun.se INFO Begin testing address 91.236.209.10.
+ 81.361: habokommun.se INFO Done testing address 91.236.209.10.
+ 81.361: habokommun.se INFO Begin testing address 79.136.102.100.
+ 84.670: habokommun.se INFO Done testing address 79.136.102.100.
+ 84.670: habokommun.se INFO Begin testing address 91.236.208.10.
+ 86.346: habokommun.se INFO Done testing address 91.236.208.10.
+ 86.347: habokommun.se INFO Begin testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 87.961: habokommun.se INFO Done testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 87.962: habokommun.se INFO Begin testing address 2001:67c:27e0:2110:0:0:0:1b01.
+ 89.148: habokommun.se INFO Done testing address 2001:67c:27e0:2110:0:0:0:1b01.
+ 89.148: habokommun.se INFO Begin testing address 2001:9b0:1:703:0:0:0:1b01.
+ 93.244: habokommun.se INFO Done testing address 2001:9b0:1:703:0:0:0:1b01.
+ 93.245: habokommun.se INFO Done testing host smtp-in.sto-hy.se.stejtech.net.
+ 93.245: habokommun.se INFO Begin testing host smtp-in.sto-ste.se.stejtech.net.
+ 97.442: habokommun.se INFO Begin testing address 79.136.102.90.
+ 99.975: habokommun.se INFO Done testing address 79.136.102.90.
+ 99.983: habokommun.se INFO Begin testing address 83.140.31.145.
+102.141: habokommun.se INFO Done testing address 83.140.31.145.
+102.142: habokommun.se INFO Begin testing address 2001:9b0:1:703:0:0:0:b002.
+104.676: habokommun.se INFO Done testing address 2001:9b0:1:703:0:0:0:b002.
+104.676: habokommun.se INFO Done testing host smtp-in.sto-ste.se.stejtech.net.
+104.676: habokommun.se INFO Done testing email address hostmaster@habokommun.se.
+104.678: habokommun.se INFO Successful attempt to deliver email for SOA RNAME of habokommun.se (hostmaster.habokommun.se) using hostmaster@habokommun.se.
+104.678: habokommun.se INFO SOA TTL for habokommun.se OK (3600) - recommended >= 3600.
+104.678: habokommun.se NOTICE SOA refresh for habokommun.se too small (900) - recommended >= 14400.
+104.678: habokommun.se NOTICE SOA retry for habokommun.se too small (600) - recommended >= 3600.
+104.678: habokommun.se NOTICE SOA expire for habokommun.se too small (86400) - recommended >= 604800.
+104.678: habokommun.se INFO SOA minimum for habokommun.se OK (3600) - recommended between 300 and 86400.
+104.679: habokommun.se INFO Done testing SOA parameters for habokommun.se.
+104.679: habokommun.se INFO Begin testing connectivity for habokommun.se.
+107.292: habokommun.se NOTICE Zone announced by fewer than two IPv4 ASN.
+107.292: habokommun.se NOTICE Zone announced by fewer than two IPv6 ASN.
+107.293: habokommun.se INFO Done testing connectivity for habokommun.se.
+107.293: habokommun.se INFO Begin testing DNSSEC for habokommun.se.
+107.373: habokommun.se INFO Found DS record for habokommun.se at parent.
+107.433: habokommun.se INFO Nameserver 80.244.199.226 does DNSSEC extra processing.
+107.626: habokommun.se INFO Nameserver 80.244.199.227 does DNSSEC extra processing.
+107.626: habokommun.se INFO Servers for habokommun.se have consistent extra processing status.
+107.713: habokommun.se INFO Authenticated denial records found for habokommun.se, of type NSEC3.
+107.748: habokommun.se INFO NSEC3PARAM record found for habokommun.se.
+107.748: habokommun.se INFO NSEC3 for habokommun.se is set to use 50 iterations, which is less than 100 and thus OK.
+107.748: habokommun.se INFO Found DNSKEY record for habokommun.se at child.
+107.748: habokommun.se INFO Consistent security for habokommun.se.
+107.748: habokommun.se INFO Checking DNSSEC at child (habokommun.se).
+107.748: habokommun.se INFO habokommun.se's key with tag 11279 uses algorithm number 8 (RSA/SHA-256).
+107.749: habokommun.se INFO Algorithm number 8 is OK.
+107.749: habokommun.se INFO DNSKEY habokommun.se (tag 11279) is marked as a secure entry point (SEP).
+107.749: habokommun.se INFO habokommun.se's key with tag 16801 uses algorithm number 8 (RSA/SHA-256).
+107.749: habokommun.se INFO Algorithm number 8 is OK.
+107.749: habokommun.se INFO habokommun.se's key with tag 60791 uses algorithm number 8 (RSA/SHA-256).
+107.749: habokommun.se INFO Algorithm number 8 is OK.
+107.749: habokommun.se INFO DNSKEY habokommun.se (tag 60791) is marked as a secure entry point (SEP).
+107.749: habokommun.se INFO habokommun.se's key with tag 17722 uses algorithm number 8 (RSA/SHA-256).
+107.749: habokommun.se INFO Algorithm number 8 is OK.
+107.749: habokommun.se INFO DNSKEY habokommun.se (tag 17722) is marked as a secure entry point (SEP).
+107.749: habokommun.se INFO habokommun.se's key with tag 1444 uses algorithm number 8 (RSA/SHA-256).
+107.750: habokommun.se INFO Algorithm number 8 is OK.
+107.750: habokommun.se INFO DNSSEC signature expires at: Tue Mar 11 07:16:48 2014
+107.750: habokommun.se INFO Duration for RRSIG(habokommun.se/IN/DNSKEY/60791) is OK (2595600 seconds).
+107.771: habokommun.se INFO DNSSEC signature RRSIG(habokommun.se/IN/DNSKEY/60791) matches records.
+107.772: habokommun.se INFO DNSSEC signature valid: RRSIG(habokommun.se/IN/DNSKEY/60791)
+107.772: habokommun.se INFO DNSSEC signature expires at: Tue Mar 11 07:16:48 2014
+107.772: habokommun.se INFO Duration for RRSIG(habokommun.se/IN/DNSKEY/16801) is OK (2595600 seconds).
+107.773: habokommun.se INFO DNSSEC signature RRSIG(habokommun.se/IN/DNSKEY/16801) matches records.
+107.773: habokommun.se INFO DNSSEC signature valid: RRSIG(habokommun.se/IN/DNSKEY/16801)
+107.774: habokommun.se INFO Enough valid signatures found for habokommun.se.
+107.831: habokommun.se INFO DNSSEC signature expires at: Wed Mar 19 07:17:09 2014
+107.831: habokommun.se INFO Duration for RRSIG(habokommun.se/IN/SOA/16801) is OK (2595600 seconds).
+107.832: habokommun.se INFO DNSSEC signature RRSIG(habokommun.se/IN/SOA/16801) matches records.
+107.832: habokommun.se INFO DNSSEC signature valid: RRSIG(habokommun.se/IN/SOA/16801)
+107.832: habokommun.se INFO Enough valid signatures over SOA RRset found for habokommun.se.
+107.832: habokommun.se INFO DNSSEC child checks for habokommun.se complete.
+107.832: habokommun.se INFO Checking DNSSEC at parent of habokommun.se.
+107.833: habokommun.se INFO habokommun.se's key with tag 11279 uses algorithm number 8 (RSA/SHA-256).
+107.833: habokommun.se INFO Algorithm number 8 is OK.
+107.833: habokommun.se INFO Parent DS(habokommun.se/8/1/11279) refers to invalid key at child: DNSKEY(habokommun.se/8/11279)
+107.833: habokommun.se INFO Parent DS(habokommun.se) refers to secure entry point (SEP) at child: DS(habokommun.se/8/1/11279)
+107.833: habokommun.se INFO habokommun.se's key with tag 60791 uses algorithm number 8 (RSA/SHA-256).
+107.833: habokommun.se INFO Algorithm number 8 is OK.
+107.833: habokommun.se INFO Parent DS(habokommun.se/8/1/60791) refers to valid key at child: DNSKEY(habokommun.se/8/60791)
+107.833: habokommun.se INFO Parent DS(habokommun.se) refers to secure entry point (SEP) at child: DS(habokommun.se/8/1/60791)
+107.833: habokommun.se INFO DNSSEC parent checks for habokommun.se complete.
+107.834: habokommun.se INFO Done testing DNSSEC for habokommun.se.
+107.834: habokommun.se INFO Test completed for zone habokommun.se.

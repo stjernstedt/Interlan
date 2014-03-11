@@ -1,0 +1,163 @@
+  0.000: porvoo.fi INFO Begin testing zone porvoo.fi with version 1.6.1.
+  0.409: porvoo.fi INFO Begin testing delegation for porvoo.fi.
+ 10.321: porvoo.fi INFO Name servers listed at parent: ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 13.945: porvoo.fi INFO Name servers listed at child: ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 13.997: porvoo.fi INFO Parent glue for porvoo.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+ 14.055: porvoo.fi INFO Parent glue for porvoo.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+ 14.665: porvoo.fi INFO Parent glue for porvoo.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+ 14.828: porvoo.fi INFO Parent glue for porvoo.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+ 14.960: porvoo.fi INFO Checking glue for ns1-fin.global.sonera.fi (193.210.18.31).
+ 14.960: porvoo.fi INFO Checking glue for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53).
+ 14.960: porvoo.fi INFO Checking glue for ns2-fin.global.sonera.fi (195.156.148.158).
+ 14.975: porvoo.fi INFO Checking glue for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53).
+ 14.975: porvoo.fi INFO Parent glue for porvoo.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+ 14.975: porvoo.fi INFO Parent glue for porvoo.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+ 14.976: porvoo.fi INFO Parent glue for porvoo.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+ 14.976: porvoo.fi INFO Parent glue for porvoo.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+ 15.894: porvoo.fi INFO It is possible to build a referral packet for porvoo.fi that works without EDNS0.
+ 16.365: porvoo.fi INFO Previously used name servers for porvoo.fi: 
+ 16.365: porvoo.fi INFO Done testing delegation for porvoo.fi.
+ 16.366: porvoo.fi INFO Begin testing name server ns1-fin.global.sonera.fi.
+ 16.366: porvoo.fi INFO Begin testing host ns1-fin.global.sonera.fi.
+ 16.367: porvoo.fi INFO Begin testing address 193.210.18.31.
+ 19.661: porvoo.fi INFO Done testing address 193.210.18.31.
+ 19.661: porvoo.fi INFO Begin testing address 2001:2060:ffdd:a01:0:0:0:53.
+ 21.219: porvoo.fi INFO Done testing address 2001:2060:ffdd:a01:0:0:0:53.
+ 21.219: porvoo.fi INFO Done testing host ns1-fin.global.sonera.fi.
+ 21.267: porvoo.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over UDP.
+ 21.351: porvoo.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over TCP.
+ 21.415: porvoo.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) is not recursive.
+ 21.625: porvoo.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) authoritative for porvoo.fi.
+ 21.661: porvoo.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) closed for zone transfer of porvoo.fi.
+ 21.688: porvoo.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): hostname.bind = mgda1
+ 21.710: porvoo.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): version.bind = TeliaSonera Finland DNS MGDA
+ 21.742: porvoo.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): id.server = mgda1
+ 21.770: porvoo.fi NOTICE No answer received from 193.210.18.31 when querying for version.server/CH/TXT.
+ 21.853: porvoo.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) answers queries over UDP.
+ 21.951: porvoo.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) answers queries over TCP.
+ 22.031: porvoo.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) is not recursive.
+ 22.303: porvoo.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) authoritative for porvoo.fi.
+ 22.481: porvoo.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) closed for zone transfer of porvoo.fi.
+ 22.524: porvoo.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): hostname.bind = mgda1
+ 22.572: porvoo.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+ 22.625: porvoo.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): id.server = mgda1
+ 22.668: porvoo.fi NOTICE No answer received from 2001:2060:ffdd:a01:0:0:0:53 when querying for version.server/CH/TXT.
+ 22.668: porvoo.fi INFO Done testing name server ns1-fin.global.sonera.fi.
+ 22.668: porvoo.fi INFO Begin testing name server ns1-swe.global.sonera.se.
+ 22.668: porvoo.fi INFO Begin testing host ns1-swe.global.sonera.se.
+ 22.675: porvoo.fi INFO Begin testing address 80.64.9.124.
+ 23.531: porvoo.fi INFO Done testing address 80.64.9.124.
+ 23.532: porvoo.fi INFO Begin testing address 2001:6e8:400:ffff:1:0:0:53.
+ 24.288: porvoo.fi INFO Done testing address 2001:6e8:400:ffff:1:0:0:53.
+ 24.288: porvoo.fi INFO Done testing host ns1-swe.global.sonera.se.
+ 24.343: porvoo.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over UDP.
+ 24.405: porvoo.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over TCP.
+ 24.421: porvoo.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) is not recursive.
+ 24.583: porvoo.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) authoritative for porvoo.fi.
+ 24.635: porvoo.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) closed for zone transfer of porvoo.fi.
+ 24.684: porvoo.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): hostname.bind = mgda3
+ 24.717: porvoo.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): version.bind = TeliaSonera Finland DNS MGDA
+ 24.735: porvoo.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): id.server = mgda3
+ 24.764: porvoo.fi NOTICE No answer received from 80.64.9.124 when querying for version.server/CH/TXT.
+ 24.799: porvoo.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over UDP.
+ 24.884: porvoo.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over TCP.
+ 24.955: porvoo.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) is not recursive.
+ 25.112: porvoo.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) authoritative for porvoo.fi.
+ 25.184: porvoo.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) closed for zone transfer of porvoo.fi.
+ 25.209: porvoo.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): hostname.bind = mgda3
+ 25.248: porvoo.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+ 25.275: porvoo.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): id.server = mgda3
+ 25.317: porvoo.fi NOTICE No answer received from 2001:6e8:400:ffff:1:0:0:53 when querying for version.server/CH/TXT.
+ 25.317: porvoo.fi INFO Done testing name server ns1-swe.global.sonera.se.
+ 25.317: porvoo.fi INFO Begin testing name server ns2-fin.global.sonera.fi.
+ 25.317: porvoo.fi INFO Begin testing host ns2-fin.global.sonera.fi.
+ 25.318: porvoo.fi INFO Begin testing address 195.156.148.158.
+ 25.940: porvoo.fi INFO Done testing address 195.156.148.158.
+ 25.940: porvoo.fi INFO Begin testing address 2001:2060:ffdd:a02:0:0:0:53.
+ 26.424: porvoo.fi INFO Done testing address 2001:2060:ffdd:a02:0:0:0:53.
+ 26.424: porvoo.fi INFO Done testing host ns2-fin.global.sonera.fi.
+ 26.499: porvoo.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over UDP.
+ 26.609: porvoo.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over TCP.
+ 26.653: porvoo.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) is not recursive.
+ 26.788: porvoo.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) authoritative for porvoo.fi.
+ 26.835: porvoo.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) closed for zone transfer of porvoo.fi.
+ 26.873: porvoo.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): hostname.bind = mgda1
+ 26.900: porvoo.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): version.bind = TeliaSonera Finland DNS MGDA
+ 26.917: porvoo.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): id.server = mgda1
+ 26.949: porvoo.fi NOTICE No answer received from 195.156.148.158 when querying for version.server/CH/TXT.
+ 26.992: porvoo.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) answers queries over UDP.
+ 27.116: porvoo.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) answers queries over TCP.
+ 29.183: porvoo.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) is not recursive.
+ 29.497: porvoo.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) authoritative for porvoo.fi.
+ 29.617: porvoo.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) closed for zone transfer of porvoo.fi.
+ 29.659: porvoo.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): hostname.bind = mgda1
+ 29.731: porvoo.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+ 29.787: porvoo.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): id.server = mgda1
+ 29.842: porvoo.fi NOTICE No answer received from 2001:2060:ffdd:a02:0:0:0:53 when querying for version.server/CH/TXT.
+ 29.842: porvoo.fi INFO Done testing name server ns2-fin.global.sonera.fi.
+ 29.842: porvoo.fi INFO Begin testing name server ns2-usa.global.sonera.net.
+ 29.843: porvoo.fi INFO Begin testing host ns2-usa.global.sonera.net.
+ 30.152: porvoo.fi INFO Begin testing address 46.38.190.56.
+ 31.757: porvoo.fi INFO Done testing address 46.38.190.56.
+ 31.757: porvoo.fi INFO Done testing host ns2-usa.global.sonera.net.
+ 32.053: porvoo.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over UDP.
+ 32.164: porvoo.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over TCP.
+ 32.228: porvoo.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) is not recursive.
+ 32.455: porvoo.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) authoritative for porvoo.fi.
+ 32.606: porvoo.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) closed for zone transfer of porvoo.fi.
+ 32.659: porvoo.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): hostname.bind = mgda5
+ 32.731: porvoo.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): version.bind = TeliaSonera Finland DNS MGDA
+ 32.805: porvoo.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): id.server = mgda5
+ 32.856: porvoo.fi NOTICE No answer received from 46.38.190.56 when querying for version.server/CH/TXT.
+ 32.856: porvoo.fi INFO Done testing name server ns2-usa.global.sonera.net.
+ 32.857: porvoo.fi INFO Begin testing zone consistency for porvoo.fi.
+ 33.279: porvoo.fi INFO SOA at address 2001:2060:ffdd:a01:0:0:0:53 has serial 2014012709.
+ 33.303: porvoo.fi INFO SOA at address 193.210.18.31 has serial 2014012709.
+ 33.334: porvoo.fi INFO SOA at address 80.64.9.124 has serial 2014012709.
+ 33.351: porvoo.fi INFO SOA at address 195.156.148.158 has serial 2014012709.
+ 33.398: porvoo.fi INFO SOA at address 2001:6e8:400:ffff:1:0:0:53 has serial 2014012709.
+ 33.451: porvoo.fi INFO SOA at address 46.38.190.56 has serial 2014012709.
+ 33.529: porvoo.fi INFO SOA at address 2001:2060:ffdd:a02:0:0:0:53 has serial 2014012709.
+ 33.530: porvoo.fi INFO All SOA records have consistent serial numbers.
+ 33.530: porvoo.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 34.026: porvoo.fi NOTICE The listed nameservers for porvoo.fi all report the same set of nameservers.
+ 34.027: porvoo.fi INFO Done testing zone consistency for porvoo.fi.
+ 34.027: porvoo.fi INFO Begin testing SOA parameters for porvoo.fi.
+ 34.053: porvoo.fi INFO Found SOA record for porvoo.fi.
+ 34.053: porvoo.fi INFO Begin testing host namesurfer.inet.fi.
+ 34.513: porvoo.fi INFO Begin testing address 131.177.73.253.
+ 38.329: porvoo.fi INFO Done testing address 131.177.73.253.
+ 38.329: porvoo.fi INFO Done testing host namesurfer.inet.fi.
+ 38.329: porvoo.fi INFO SOA MNAME for porvoo.fi valid (namesurfer.inet.fi).
+ 38.329: porvoo.fi NOTICE SOA MNAME for porvoo.fi (namesurfer.inet.fi) not listed as NS.
+ 42.515: porvoo.fi INFO SOA MNAME for porvoo.fi (namesurfer.inet.fi) is authoritative.
+ 42.516: porvoo.fi INFO Begin testing email address hostmaster@sonera.com.
+ 42.624: porvoo.fi INFO Mail exchangers for hostmaster@sonera.com found smtp.dave.sonera.fi,mail.cm.sonera.com.
+ 42.624: porvoo.fi INFO Begin testing host smtp.dave.sonera.fi.
+ 42.821: porvoo.fi INFO Begin testing address 131.177.120.25.
+ 43.379: porvoo.fi INFO Done testing address 131.177.120.25.
+ 43.379: porvoo.fi INFO Done testing host smtp.dave.sonera.fi.
+ 43.536: porvoo.fi INFO Begin testing host mail.cm.sonera.com.
+ 43.965: porvoo.fi INFO Begin testing address 193.208.151.61.
+ 44.379: porvoo.fi INFO Done testing address 193.208.151.61.
+ 44.379: porvoo.fi INFO Done testing host mail.cm.sonera.com.
+ 44.639: porvoo.fi INFO Done testing email address hostmaster@sonera.com.
+ 44.639: porvoo.fi INFO Successful attempt to deliver email for SOA RNAME of porvoo.fi (hostmaster.sonera.com) using hostmaster@sonera.com.
+ 44.640: porvoo.fi INFO SOA TTL for porvoo.fi OK (86400) - recommended >= 3600.
+ 44.640: porvoo.fi INFO SOA refresh for porvoo.fi OK (28800) - recommended >= 14400.
+ 44.640: porvoo.fi INFO SOA retry for porvoo.fi OK (7200) - recommended >= 3600.
+ 44.640: porvoo.fi INFO SOA expire for porvoo.fi OK (604800) - recommended >= 604800.
+ 44.640: porvoo.fi INFO SOA minimum for porvoo.fi OK (86400) - recommended between 300 and 86400.
+ 44.640: porvoo.fi INFO Done testing SOA parameters for porvoo.fi.
+ 44.640: porvoo.fi INFO Begin testing connectivity for porvoo.fi.
+ 46.532: porvoo.fi INFO Zone announced by more than one ASN.
+ 47.899: porvoo.fi INFO Zone announced by more than one IPv6 ASN.
+ 47.899: porvoo.fi INFO Done testing connectivity for porvoo.fi.
+ 47.900: porvoo.fi INFO Begin testing DNSSEC for porvoo.fi.
+ 47.926: porvoo.fi INFO Did not find DS record for porvoo.fi at parent.
+ 48.305: porvoo.fi INFO Servers for porvoo.fi have consistent extra processing status.
+ 48.333: porvoo.fi INFO Authenticated denial records not found for porvoo.fi.
+ 48.348: porvoo.fi INFO Did not find DNSKEY record for porvoo.fi at child.
+ 48.349: porvoo.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 48.349: porvoo.fi INFO Done testing DNSSEC for porvoo.fi.
+ 48.349: porvoo.fi INFO Test completed for zone porvoo.fi.

@@ -1,0 +1,15 @@
+#!/bin/sh
+number=0
+#for i in `cat ../domain| sed s/"www."/""/` ; do
+for i in `cat till` ; do
+	number=`echo $number+1|bc` 
+	if [ "$number"  -lt "11" ] ; then
+		echo $i,$number
+		dnscheck $i > test/$i &
+	fi	
+	if [ "$number" = "10" ] ; then
+               number=0
+		sleep 30
+       fi
+done
+

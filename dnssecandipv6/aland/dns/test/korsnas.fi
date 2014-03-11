@@ -1,0 +1,105 @@
+  0.000: korsnas.fi INFO Begin testing zone korsnas.fi with version 1.5.0.
+  0.567: korsnas.fi INFO Begin testing delegation for korsnas.fi.
+ 16.394: korsnas.fi INFO Name servers listed at parent: ns.bob.fi,ns2.bob.fi,ns3.bob.fi
+ 23.529: korsnas.fi INFO Name servers listed at child: ns.bob.fi,ns2.bob.fi,ns3.bob.fi
+ 23.529: korsnas.fi NOTICE No IPv6 name servers found.
+ 23.752: korsnas.fi INFO Parent glue for korsnas.fi found: ns.bob.fi (81.209.35.4)
+ 24.116: korsnas.fi INFO Parent glue for korsnas.fi found: ns2.bob.fi (81.209.35.6)
+ 24.499: korsnas.fi INFO Parent glue for korsnas.fi found: ns3.bob.fi (81.209.35.19)
+ 24.707: korsnas.fi INFO Checking glue for ns.bob.fi (81.209.35.4).
+ 24.707: korsnas.fi INFO Checking glue for ns2.bob.fi (81.209.35.6).
+ 24.707: korsnas.fi INFO Checking glue for ns3.bob.fi (81.209.35.19).
+ 24.708: korsnas.fi INFO Parent glue for korsnas.fi found: ns.bob.fi (81.209.35.4)
+ 24.708: korsnas.fi INFO Parent glue for korsnas.fi found: ns2.bob.fi (81.209.35.6)
+ 24.708: korsnas.fi INFO Parent glue for korsnas.fi found: ns3.bob.fi (81.209.35.19)
+ 28.622: korsnas.fi INFO It is possible to build a referral packet for korsnas.fi that works without EDNS0.
+ 31.544: korsnas.fi INFO Previously used name servers for korsnas.fi: 
+ 31.544: korsnas.fi INFO Done testing delegation for korsnas.fi.
+ 31.544: korsnas.fi INFO Begin testing name server ns.bob.fi.
+ 31.544: korsnas.fi INFO Begin testing host ns.bob.fi.
+ 32.373: korsnas.fi INFO Begin testing address 81.209.35.4.
+ 59.536: korsnas.fi INFO Done testing address 81.209.35.4.
+ 59.536: korsnas.fi INFO Done testing host ns.bob.fi.
+ 60.690: korsnas.fi INFO Name server ns.bob.fi (81.209.35.4) answers queries over UDP.
+ 60.840: korsnas.fi INFO Name server ns.bob.fi (81.209.35.4) answers queries over TCP.
+ 60.938: korsnas.fi INFO Name server ns.bob.fi (81.209.35.4) is not recursive.
+ 61.377: korsnas.fi INFO Name server ns.bob.fi (81.209.35.4) authoritative for korsnas.fi.
+ 61.559: korsnas.fi INFO Name server ns.bob.fi (81.209.35.4) closed for zone transfer of korsnas.fi.
+ 61.668: korsnas.fi NOTICE No answer received from 81.209.35.4 when querying for hostname.bind/CH/TXT.
+ 61.743: korsnas.fi NOTICE No answer received from 81.209.35.4 when querying for version.bind/CH/TXT.
+ 61.836: korsnas.fi NOTICE No answer received from 81.209.35.4 when querying for id.server/CH/TXT.
+ 61.931: korsnas.fi NOTICE No answer received from 81.209.35.4 when querying for version.server/CH/TXT.
+ 61.931: korsnas.fi INFO Done testing name server ns.bob.fi.
+ 61.931: korsnas.fi INFO Begin testing name server ns2.bob.fi.
+ 61.931: korsnas.fi INFO Begin testing host ns2.bob.fi.
+ 62.747: korsnas.fi INFO Begin testing address 81.209.35.6.
+ 66.766: korsnas.fi INFO Done testing address 81.209.35.6.
+ 66.766: korsnas.fi INFO Done testing host ns2.bob.fi.
+ 67.626: korsnas.fi INFO Name server ns2.bob.fi (81.209.35.6) answers queries over UDP.
+ 67.765: korsnas.fi INFO Name server ns2.bob.fi (81.209.35.6) answers queries over TCP.
+ 67.867: korsnas.fi INFO Name server ns2.bob.fi (81.209.35.6) is not recursive.
+ 68.173: korsnas.fi INFO Name server ns2.bob.fi (81.209.35.6) authoritative for korsnas.fi.
+ 68.267: korsnas.fi INFO Name server ns2.bob.fi (81.209.35.6) closed for zone transfer of korsnas.fi.
+ 68.317: korsnas.fi NOTICE No answer received from 81.209.35.6 when querying for hostname.bind/CH/TXT.
+ 68.378: korsnas.fi NOTICE No answer received from 81.209.35.6 when querying for version.bind/CH/TXT.
+ 68.417: korsnas.fi NOTICE No answer received from 81.209.35.6 when querying for id.server/CH/TXT.
+ 68.448: korsnas.fi NOTICE No answer received from 81.209.35.6 when querying for version.server/CH/TXT.
+ 68.448: korsnas.fi INFO Done testing name server ns2.bob.fi.
+ 68.448: korsnas.fi INFO Begin testing name server ns3.bob.fi.
+ 68.448: korsnas.fi INFO Begin testing host ns3.bob.fi.
+ 69.047: korsnas.fi INFO Begin testing address 81.209.35.19.
+ 71.993: korsnas.fi INFO Done testing address 81.209.35.19.
+ 71.993: korsnas.fi INFO Done testing host ns3.bob.fi.
+ 73.670: korsnas.fi INFO Name server ns3.bob.fi (81.209.35.19) answers queries over UDP.
+ 73.985: korsnas.fi INFO Name server ns3.bob.fi (81.209.35.19) answers queries over TCP.
+ 74.339: korsnas.fi INFO Name server ns3.bob.fi (81.209.35.19) is not recursive.
+ 75.058: korsnas.fi INFO Name server ns3.bob.fi (81.209.35.19) authoritative for korsnas.fi.
+ 75.338: korsnas.fi INFO Name server ns3.bob.fi (81.209.35.19) closed for zone transfer of korsnas.fi.
+ 75.515: korsnas.fi NOTICE No answer received from 81.209.35.19 when querying for hostname.bind/CH/TXT.
+ 75.647: korsnas.fi NOTICE No answer received from 81.209.35.19 when querying for version.bind/CH/TXT.
+ 75.790: korsnas.fi NOTICE No answer received from 81.209.35.19 when querying for id.server/CH/TXT.
+ 75.933: korsnas.fi NOTICE No answer received from 81.209.35.19 when querying for version.server/CH/TXT.
+ 75.933: korsnas.fi INFO Done testing name server ns3.bob.fi.
+ 75.934: korsnas.fi INFO Begin testing zone consistency for korsnas.fi.
+ 84.757: korsnas.fi INFO SOA at address 81.209.35.19 has serial 2012050104.
+ 85.053: korsnas.fi INFO SOA at address 81.209.35.6 has serial 2012050104.
+ 85.245: korsnas.fi INFO SOA at address 81.209.35.4 has serial 2012050104.
+ 85.245: korsnas.fi INFO All SOA records have consistent serial numbers.
+ 85.245: korsnas.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 89.861: korsnas.fi NOTICE The listed nameservers for korsnas.fi all report the same set of nameservers.
+ 89.861: korsnas.fi INFO Done testing zone consistency for korsnas.fi.
+ 89.861: korsnas.fi INFO Begin testing SOA parameters for korsnas.fi.
+ 90.076: korsnas.fi INFO Found SOA record for korsnas.fi.
+ 90.077: korsnas.fi INFO Begin testing host ns.bob.fi.
+ 91.363: korsnas.fi INFO Begin testing address 81.209.35.4.
+ 91.409: korsnas.fi INFO Done testing address 81.209.35.4.
+ 91.409: korsnas.fi INFO Done testing host ns.bob.fi.
+ 91.409: korsnas.fi INFO SOA MNAME for korsnas.fi valid (ns.bob.fi).
+ 91.409: korsnas.fi INFO SOA MNAME for korsnas.fi (ns.bob.fi) listed as NS.
+ 92.725: korsnas.fi INFO SOA MNAME for korsnas.fi (ns.bob.fi) is authoritative.
+ 92.725: korsnas.fi INFO Begin testing email address named@mail.bob.fi.
+ 94.141: korsnas.fi INFO Mail exchangers for named@mail.bob.fi found mxtreme2.bob.fi.
+ 94.141: korsnas.fi INFO Begin testing host mxtreme2.bob.fi.
+ 96.561: korsnas.fi INFO Begin testing address 81.209.35.121.
+ 99.164: korsnas.fi INFO Done testing address 81.209.35.121.
+ 99.164: korsnas.fi INFO Done testing host mxtreme2.bob.fi.
+100.131: korsnas.fi INFO Done testing email address named@mail.bob.fi.
+100.131: korsnas.fi INFO Successful attempt to deliver email for SOA RNAME of korsnas.fi (named.mail.bob.fi) using named@mail.bob.fi.
+100.132: korsnas.fi NOTICE SOA TTL for korsnas.fi too small (60) - recommended >= 3600.
+100.132: korsnas.fi INFO SOA refresh for korsnas.fi OK (28800) - recommended >= 14400.
+100.132: korsnas.fi INFO SOA retry for korsnas.fi OK (7200) - recommended >= 3600.
+100.132: korsnas.fi INFO SOA expire for korsnas.fi OK (2419200) - recommended >= 604800.
+100.132: korsnas.fi INFO SOA minimum for korsnas.fi OK (86400) - recommended between 300 and 86400.
+100.132: korsnas.fi INFO Done testing SOA parameters for korsnas.fi.
+100.132: korsnas.fi INFO Begin testing connectivity for korsnas.fi.
+104.925: korsnas.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+104.925: korsnas.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+104.925: korsnas.fi INFO Done testing connectivity for korsnas.fi.
+104.926: korsnas.fi INFO Begin testing DNSSEC for korsnas.fi.
+105.237: korsnas.fi INFO Did not find DS record for korsnas.fi at parent.
+105.783: korsnas.fi INFO Servers for korsnas.fi have consistent extra processing status.
+105.959: korsnas.fi INFO Authenticated denial records not found for korsnas.fi.
+106.101: korsnas.fi INFO Did not find DNSKEY record for korsnas.fi at child.
+106.101: korsnas.fi INFO No DNSKEY(s) found at child, other tests skipped.
+106.101: korsnas.fi INFO Done testing DNSSEC for korsnas.fi.
+106.101: korsnas.fi INFO Test completed for zone korsnas.fi.

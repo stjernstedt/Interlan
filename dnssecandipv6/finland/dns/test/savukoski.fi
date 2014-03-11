@@ -1,0 +1,78 @@
+  0.000: savukoski.fi INFO Begin testing zone savukoski.fi with version 1.6.1.
+  0.865: savukoski.fi INFO Begin testing delegation for savukoski.fi.
+ 12.148: savukoski.fi INFO Name servers listed at parent: ns1.webhotelli.fi,ns2.webhotelli.fi
+ 13.816: savukoski.fi INFO Name servers listed at child: ns1.webhotelli.fi,ns2.webhotelli.fi
+ 13.816: savukoski.fi NOTICE No IPv6 name servers found.
+ 15.209: savukoski.fi INFO It is possible to build a referral packet for savukoski.fi that works without EDNS0.
+ 15.897: savukoski.fi INFO Previously used name servers for savukoski.fi: 
+ 15.897: savukoski.fi INFO Done testing delegation for savukoski.fi.
+ 15.897: savukoski.fi INFO Begin testing name server ns1.webhotelli.fi.
+ 15.897: savukoski.fi INFO Begin testing host ns1.webhotelli.fi.
+ 16.224: savukoski.fi INFO Begin testing address 217.149.52.11.
+ 21.334: savukoski.fi INFO Done testing address 217.149.52.11.
+ 21.334: savukoski.fi INFO Done testing host ns1.webhotelli.fi.
+ 21.459: savukoski.fi INFO Name server ns1.webhotelli.fi (217.149.52.11) answers queries over UDP.
+ 21.505: savukoski.fi INFO Name server ns1.webhotelli.fi (217.149.52.11) answers queries over TCP.
+ 21.537: savukoski.fi INFO Name server ns1.webhotelli.fi (217.149.52.11) is not recursive.
+ 21.617: savukoski.fi INFO Name server ns1.webhotelli.fi (217.149.52.11) authoritative for savukoski.fi.
+ 21.667: savukoski.fi NOTICE Name server ns1.webhotelli.fi (217.149.52.11) open for zone transfer of savukoski.fi.
+ 21.710: savukoski.fi INFO Legacy name server ID for ns1.webhotelli.fi (217.149.52.11): hostname.bind = ns1.webhotelli.fi
+ 21.736: savukoski.fi INFO Legacy name server ID for ns1.webhotelli.fi (217.149.52.11): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 21.765: savukoski.fi NOTICE No answer received from 217.149.52.11 when querying for version.server/CH/TXT.
+ 21.765: savukoski.fi INFO Done testing name server ns1.webhotelli.fi.
+ 21.766: savukoski.fi INFO Begin testing name server ns2.webhotelli.fi.
+ 21.766: savukoski.fi INFO Begin testing host ns2.webhotelli.fi.
+ 21.904: savukoski.fi INFO Begin testing address 83.150.74.144.
+ 22.960: savukoski.fi INFO Done testing address 83.150.74.144.
+ 22.960: savukoski.fi INFO Done testing host ns2.webhotelli.fi.
+ 23.132: savukoski.fi INFO Name server ns2.webhotelli.fi (83.150.74.144) answers queries over UDP.
+ 23.163: savukoski.fi INFO Name server ns2.webhotelli.fi (83.150.74.144) answers queries over TCP.
+ 23.199: savukoski.fi INFO Name server ns2.webhotelli.fi (83.150.74.144) is not recursive.
+ 23.272: savukoski.fi INFO Name server ns2.webhotelli.fi (83.150.74.144) authoritative for savukoski.fi.
+ 23.310: savukoski.fi NOTICE Name server ns2.webhotelli.fi (83.150.74.144) open for zone transfer of savukoski.fi.
+ 23.334: savukoski.fi INFO Legacy name server ID for ns2.webhotelli.fi (83.150.74.144): hostname.bind = ns2.webhotelli.fi
+ 23.348: savukoski.fi INFO Legacy name server ID for ns2.webhotelli.fi (83.150.74.144): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 23.380: savukoski.fi NOTICE No answer received from 83.150.74.144 when querying for version.server/CH/TXT.
+ 23.380: savukoski.fi INFO Done testing name server ns2.webhotelli.fi.
+ 23.380: savukoski.fi INFO Begin testing zone consistency for savukoski.fi.
+ 23.974: savukoski.fi INFO SOA at address 83.150.74.144 has serial 2013051503.
+ 23.990: savukoski.fi INFO SOA at address 217.149.52.11 has serial 2013051503.
+ 23.991: savukoski.fi INFO All SOA records have consistent serial numbers.
+ 23.991: savukoski.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 24.522: savukoski.fi NOTICE The listed nameservers for savukoski.fi all report the same set of nameservers.
+ 24.522: savukoski.fi INFO Done testing zone consistency for savukoski.fi.
+ 24.523: savukoski.fi INFO Begin testing SOA parameters for savukoski.fi.
+ 24.548: savukoski.fi INFO Found SOA record for savukoski.fi.
+ 24.548: savukoski.fi INFO Begin testing host ns1.webhotelli.fi.
+ 24.697: savukoski.fi INFO Begin testing address 217.149.52.11.
+ 24.960: savukoski.fi INFO Done testing address 217.149.52.11.
+ 24.960: savukoski.fi INFO Done testing host ns1.webhotelli.fi.
+ 24.960: savukoski.fi INFO SOA MNAME for savukoski.fi valid (ns1.webhotelli.fi).
+ 24.960: savukoski.fi INFO SOA MNAME for savukoski.fi (ns1.webhotelli.fi) listed as NS.
+ 27.795: savukoski.fi INFO SOA MNAME for savukoski.fi (ns1.webhotelli.fi) is authoritative.
+ 27.795: savukoski.fi INFO Begin testing email address alert@futuron.org.
+ 30.203: savukoski.fi INFO Mail exchangers for alert@futuron.org found futuron.org.
+ 30.204: savukoski.fi INFO Begin testing host futuron.org.
+ 30.617: savukoski.fi INFO Begin testing address 217.149.57.113.
+ 31.664: savukoski.fi INFO Done testing address 217.149.57.113.
+ 31.664: savukoski.fi INFO Done testing host futuron.org.
+ 31.933: savukoski.fi INFO Done testing email address alert@futuron.org.
+ 31.933: savukoski.fi INFO Successful attempt to deliver email for SOA RNAME of savukoski.fi (alert.futuron.org) using alert@futuron.org.
+ 31.934: savukoski.fi INFO SOA TTL for savukoski.fi OK (86400) - recommended >= 3600.
+ 31.934: savukoski.fi INFO SOA refresh for savukoski.fi OK (86400) - recommended >= 14400.
+ 31.934: savukoski.fi INFO SOA retry for savukoski.fi OK (7200) - recommended >= 3600.
+ 31.934: savukoski.fi INFO SOA expire for savukoski.fi OK (3600000) - recommended >= 604800.
+ 31.934: savukoski.fi INFO SOA minimum for savukoski.fi OK (86400) - recommended between 300 and 86400.
+ 31.934: savukoski.fi INFO Done testing SOA parameters for savukoski.fi.
+ 31.934: savukoski.fi INFO Begin testing connectivity for savukoski.fi.
+ 33.173: savukoski.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 33.173: savukoski.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 33.173: savukoski.fi INFO Done testing connectivity for savukoski.fi.
+ 33.174: savukoski.fi INFO Begin testing DNSSEC for savukoski.fi.
+ 33.438: savukoski.fi INFO Did not find DS record for savukoski.fi at parent.
+ 33.536: savukoski.fi INFO Servers for savukoski.fi have consistent extra processing status.
+ 33.569: savukoski.fi INFO Authenticated denial records not found for savukoski.fi.
+ 33.608: savukoski.fi INFO Did not find DNSKEY record for savukoski.fi at child.
+ 33.608: savukoski.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 33.608: savukoski.fi INFO Done testing DNSSEC for savukoski.fi.
+ 33.609: savukoski.fi INFO Test completed for zone savukoski.fi.

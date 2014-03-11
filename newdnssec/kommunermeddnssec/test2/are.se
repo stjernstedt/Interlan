@@ -1,0 +1,88 @@
+  0.000: are.se INFO Begin testing zone are.se with version 1.2.
+  0.000: are.se INFO Begin testing delegation for are.se.
+  5.145: are.se INFO Name servers listed at parent: dns1.jamtport.se,dns2.jamtport.se
+  6.386: are.se INFO Name servers listed at child: dns1.jamtport.se,dns2.jamtport.se
+  6.386: are.se NOTICE No IPv6 name servers found.
+  6.425: are.se INFO Parent glue for are.se found: dns1.jamtport.se (195.43.151.43)
+  6.453: are.se INFO Parent glue for are.se found: dns2.jamtport.se (193.0.253.68)
+  6.493: are.se INFO Checking glue for dns1.jamtport.se (195.43.151.43).
+  6.493: are.se INFO Checking glue for dns2.jamtport.se (193.0.253.68).
+  6.494: are.se INFO Parent glue for are.se found: dns1.jamtport.se (195.43.151.43)
+  6.494: are.se INFO Parent glue for are.se found: dns2.jamtport.se (193.0.253.68)
+  6.495: are.se INFO Done testing delegation for are.se.
+  6.495: are.se INFO Begin testing name server dns1.jamtport.se.
+  6.495: are.se INFO Begin testing host dns1.jamtport.se.
+  6.496: are.se INFO Begin testing address 195.43.151.43.
+ 10.371: are.se INFO Done testing address 195.43.151.43.
+ 10.371: are.se INFO Done testing host dns1.jamtport.se.
+ 10.386: are.se INFO Name server dns1.jamtport.se (195.43.151.43) answers queries over UDP.
+ 10.411: are.se INFO Name server dns1.jamtport.se (195.43.151.43) answers queries over TCP.
+ 10.424: are.se INFO Name server dns1.jamtport.se (195.43.151.43) is not recursive.
+ 10.438: are.se INFO Name server dns1.jamtport.se (195.43.151.43) authoritative for are.se.
+ 10.470: are.se INFO Name server dns1.jamtport.se (195.43.151.43) closed for zone transfer of are.se.
+ 10.486: are.se INFO Legacy name server ID for dns1.jamtport.se (195.43.151.43): hostname.bind = dns1
+ 10.524: are.se NOTICE No answer received from 195.43.151.43 when querying for version.server/CH/TXT.
+ 10.524: are.se INFO Done testing name server dns1.jamtport.se.
+ 10.524: are.se INFO Begin testing name server dns2.jamtport.se.
+ 10.524: are.se INFO Begin testing host dns2.jamtport.se.
+ 10.525: are.se INFO Begin testing address 193.0.253.68.
+ 11.274: are.se INFO Done testing address 193.0.253.68.
+ 11.274: are.se INFO Done testing host dns2.jamtport.se.
+ 11.295: are.se INFO Name server dns2.jamtport.se (193.0.253.68) answers queries over UDP.
+ 11.329: are.se INFO Name server dns2.jamtport.se (193.0.253.68) answers queries over TCP.
+ 11.348: are.se INFO Name server dns2.jamtport.se (193.0.253.68) is not recursive.
+ 11.368: are.se INFO Name server dns2.jamtport.se (193.0.253.68) authoritative for are.se.
+ 11.416: are.se INFO Name server dns2.jamtport.se (193.0.253.68) closed for zone transfer of are.se.
+ 11.435: are.se INFO Legacy name server ID for dns2.jamtport.se (193.0.253.68): hostname.bind = dns2
+ 11.489: are.se NOTICE No answer received from 193.0.253.68 when querying for version.server/CH/TXT.
+ 11.489: are.se INFO Done testing name server dns2.jamtport.se.
+ 11.490: are.se INFO Begin testing zone consistency for are.se.
+ 11.513: are.se INFO SOA at address 193.0.253.68 has serial 2010112901.
+ 11.527: are.se INFO SOA at address 195.43.151.43 has serial 2010112901.
+ 11.527: are.se INFO All SOA records have consistent serial numbers.
+ 11.527: are.se INFO All SOA records are consistent among all name servers.
+ 11.527: are.se INFO Done testing zone consistency for are.se.
+ 11.527: are.se INFO Begin testing SOA parameters for are.se.
+ 11.546: are.se INFO Found SOA record for are.se.
+ 11.547: are.se INFO Begin testing host dns1.jamtport.se.
+ 11.547: are.se INFO Begin testing address 195.43.151.43.
+ 11.548: are.se INFO Done testing address 195.43.151.43.
+ 11.548: are.se INFO Done testing host dns1.jamtport.se.
+ 11.549: are.se INFO SOA MNAME for are.se valid (dns1.jamtport.se).
+ 11.549: are.se INFO SOA MNAME for are.se (dns1.jamtport.se) listed as NS.
+ 11.564: are.se INFO SOA MNAME for are.se (dns1.jamtport.se) is authoritative.
+ 11.564: are.se INFO Begin testing email address hostmaster@jamtport.se.
+ 11.797: are.se INFO Mail exchangers for hostmaster@jamtport.se found mail1.jamtport.se.
+ 11.797: are.se INFO Begin testing host mail1.jamtport.se.
+ 12.272: are.se INFO Begin testing address 195.43.151.104.
+ 12.958: are.se INFO Done testing address 195.43.151.104.
+ 12.958: are.se INFO Done testing host mail1.jamtport.se.
+ 12.959: are.se INFO Begin testing mail server mail1.jamtport.se (195.43.151.104) with hostmaster@jamtport.se.
+ 13.102: are.se INFO SMTP banner: smuggler.jamtport.se ESMTP - No spam, please!
+ 13.284: are.se INFO SMTP testing of mail1.jamtport.se (195.43.151.104) with hostmaster@jamtport.se succeeded without errors.
+ 13.284: are.se INFO Done testing mail server mail1.jamtport.se (195.43.151.104) with hostmaster@jamtport.se.
+ 13.284: are.se INFO Delivery over IPv4 to hostmaster@jamtport.se ok.
+ 13.284: are.se INFO Delivery over IPv6 to hostmaster@jamtport.se could not be done.
+ 13.285: are.se INFO Done testing email address hostmaster@jamtport.se.
+ 13.285: are.se INFO Successful attempt to deliver email for SOA RNAME of are.se (hostmaster.jamtport.se) using hostmaster@jamtport.se.
+ 13.285: are.se INFO SOA TTL for are.se OK (3600) - recommended >= 3600.
+ 13.285: are.se NOTICE SOA refresh for are.se too small (3600) - recommended >= 14400.
+ 13.285: are.se NOTICE SOA retry for are.se too small (1800) - recommended >= 3600.
+ 13.285: are.se INFO SOA expire for are.se OK (2592000) - recommended >= 604800.
+ 13.285: are.se INFO SOA minimum for are.se OK (3600) - recommended between 300 and 86400.
+ 13.285: are.se INFO Done testing SOA parameters for are.se.
+ 13.285: are.se INFO Begin testing connectivity for are.se.
+ 13.880: are.se INFO Name server 193.0.253.68 announced by: 41980
+ 14.565: are.se INFO Name server 195.43.151.43 announced by: 3301
+ 14.565: are.se INFO Zone announced by IPv4 ASN: 3301,41980
+ 14.565: are.se INFO Zone announced by more than one ASN (2).
+ 14.566: are.se INFO Zone announced by IPv6 ASN: 
+ 14.566: are.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 14.566: are.se INFO Done testing connectivity for are.se.
+ 14.566: are.se INFO Begin testing DNSSEC for are.se.
+ 14.648: are.se INFO Did not find DS record for are.se at parent.
+ 14.706: are.se INFO Servers for are.se have consistent extra processing status.
+ 14.706: are.se INFO Did not find DNSKEY record for are.se at child.
+ 14.706: are.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 14.707: are.se INFO Done testing DNSSEC for are.se.
+ 14.707: are.se INFO Test completed for zone are.se.

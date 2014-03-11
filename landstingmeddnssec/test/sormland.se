@@ -1,0 +1,124 @@
+  0.000: sormland.se INFO Begin testing zone sormland.se with version 1.6.1.
+  0.480: sormland.se INFO Begin testing delegation for sormland.se.
+  9.629: sormland.se INFO Name servers listed at parent: ns1.lst.se,ns2.lst.se
+ 12.149: sormland.se INFO Name servers listed at child: ns1.lst.se,ns2.lst.se
+ 12.293: sormland.se INFO Parent glue for sormland.se found: ns1.lst.se (62.80.203.2)
+ 12.459: sormland.se INFO Parent glue for sormland.se found: ns1.lst.se (2a02:920:f3e7:907:0:0:0:2)
+ 12.522: sormland.se INFO Parent glue for sormland.se found: ns2.lst.se (212.3.14.70)
+ 12.722: sormland.se INFO Parent glue for sormland.se found: ns2.lst.se (2a02:920:f3e7:1902:0:0:0:70)
+ 12.722: sormland.se INFO Checking glue for ns1.lst.se (62.80.203.2).
+ 12.723: sormland.se INFO Checking glue for ns1.lst.se (2a02:920:f3e7:907:0:0:0:2).
+ 12.723: sormland.se INFO Checking glue for ns2.lst.se (212.3.14.70).
+ 12.723: sormland.se INFO Checking glue for ns2.lst.se (2a02:920:f3e7:1902:0:0:0:70).
+ 12.727: sormland.se INFO Parent glue for sormland.se found: ns1.lst.se (62.80.203.2)
+ 12.765: sormland.se INFO Parent glue for sormland.se found: ns1.lst.se (2a02:920:f3e7:907:0:0:0:2)
+ 12.766: sormland.se INFO Parent glue for sormland.se found: ns2.lst.se (212.3.14.70)
+ 12.766: sormland.se INFO Parent glue for sormland.se found: ns2.lst.se (2a02:920:f3e7:1902:0:0:0:70)
+ 13.148: sormland.se INFO It is possible to build a referral packet for sormland.se that works without EDNS0.
+ 13.149: sormland.se INFO Previously used name servers for sormland.se: 
+ 13.183: sormland.se INFO Done testing delegation for sormland.se.
+ 13.184: sormland.se INFO Begin testing name server ns1.lst.se.
+ 13.184: sormland.se INFO Begin testing host ns1.lst.se.
+ 13.185: sormland.se INFO Begin testing address 62.80.203.2.
+ 26.479: sormland.se INFO Done testing address 62.80.203.2.
+ 26.479: sormland.se INFO Begin testing address 2a02:920:f3e7:907:0:0:0:2.
+ 27.819: sormland.se INFO Done testing address 2a02:920:f3e7:907:0:0:0:2.
+ 27.831: sormland.se INFO Done testing host ns1.lst.se.
+ 27.902: sormland.se INFO Name server ns1.lst.se (62.80.203.2) answers queries over UDP.
+ 27.945: sormland.se INFO Name server ns1.lst.se (62.80.203.2) answers queries over TCP.
+ 27.972: sormland.se INFO Name server ns1.lst.se (62.80.203.2) is not recursive.
+ 28.084: sormland.se INFO Name server ns1.lst.se (62.80.203.2) authoritative for sormland.se.
+ 28.227: sormland.se INFO Name server ns1.lst.se (62.80.203.2) closed for zone transfer of sormland.se.
+ 28.249: sormland.se INFO Legacy name server ID for ns1.lst.se (62.80.203.2): hostname.bind = ns1.lst.se
+ 28.270: sormland.se INFO Legacy name server ID for ns1.lst.se (62.80.203.2): version.bind = ---
+ 28.309: sormland.se NOTICE No answer received from 62.80.203.2 when querying for version.server/CH/TXT.
+ 28.357: sormland.se INFO Name server ns1.lst.se (2a02:920:f3e7:907:0:0:0:2) answers queries over UDP.
+ 28.416: sormland.se INFO Name server ns1.lst.se (2a02:920:f3e7:907:0:0:0:2) answers queries over TCP.
+ 28.456: sormland.se INFO Name server ns1.lst.se (2a02:920:f3e7:907:0:0:0:2) is not recursive.
+ 28.602: sormland.se INFO Name server ns1.lst.se (2a02:920:f3e7:907:0:0:0:2) authoritative for sormland.se.
+ 28.779: sormland.se INFO Name server ns1.lst.se (2a02:920:f3e7:907:0:0:0:2) closed for zone transfer of sormland.se.
+ 28.800: sormland.se INFO Legacy name server ID for ns1.lst.se (2a02:920:f3e7:907:0:0:0:2): hostname.bind = ns1.lst.se
+ 28.846: sormland.se INFO Legacy name server ID for ns1.lst.se (2a02:920:f3e7:907:0:0:0:2): version.bind = ---
+ 28.897: sormland.se NOTICE No answer received from 2a02:920:f3e7:907:0:0:0:2 when querying for version.server/CH/TXT.
+ 28.897: sormland.se INFO Done testing name server ns1.lst.se.
+ 28.897: sormland.se INFO Begin testing name server ns2.lst.se.
+ 28.897: sormland.se INFO Begin testing host ns2.lst.se.
+ 28.899: sormland.se INFO Begin testing address 212.3.14.70.
+ 29.501: sormland.se INFO Done testing address 212.3.14.70.
+ 29.502: sormland.se INFO Begin testing address 2a02:920:f3e7:1902:0:0:0:70.
+ 30.323: sormland.se INFO Done testing address 2a02:920:f3e7:1902:0:0:0:70.
+ 30.324: sormland.se INFO Done testing host ns2.lst.se.
+ 30.342: sormland.se INFO Name server ns2.lst.se (212.3.14.70) answers queries over UDP.
+ 30.365: sormland.se INFO Name server ns2.lst.se (212.3.14.70) answers queries over TCP.
+ 30.374: sormland.se INFO Name server ns2.lst.se (212.3.14.70) is not recursive.
+ 30.438: sormland.se INFO Name server ns2.lst.se (212.3.14.70) authoritative for sormland.se.
+ 30.561: sormland.se INFO Name server ns2.lst.se (212.3.14.70) closed for zone transfer of sormland.se.
+ 30.572: sormland.se INFO Legacy name server ID for ns2.lst.se (212.3.14.70): hostname.bind = ns2.lst.se
+ 30.581: sormland.se INFO Legacy name server ID for ns2.lst.se (212.3.14.70): version.bind = ---
+ 30.617: sormland.se NOTICE No answer received from 212.3.14.70 when querying for version.server/CH/TXT.
+ 30.638: sormland.se INFO Name server ns2.lst.se (2a02:920:f3e7:1902:0:0:0:70) answers queries over UDP.
+ 30.721: sormland.se INFO Name server ns2.lst.se (2a02:920:f3e7:1902:0:0:0:70) answers queries over TCP.
+ 30.775: sormland.se INFO Name server ns2.lst.se (2a02:920:f3e7:1902:0:0:0:70) is not recursive.
+ 30.945: sormland.se INFO Name server ns2.lst.se (2a02:920:f3e7:1902:0:0:0:70) authoritative for sormland.se.
+ 31.078: sormland.se INFO Name server ns2.lst.se (2a02:920:f3e7:1902:0:0:0:70) closed for zone transfer of sormland.se.
+ 31.103: sormland.se INFO Legacy name server ID for ns2.lst.se (2a02:920:f3e7:1902:0:0:0:70): hostname.bind = ns2.lst.se
+ 31.132: sormland.se INFO Legacy name server ID for ns2.lst.se (2a02:920:f3e7:1902:0:0:0:70): version.bind = ---
+ 31.200: sormland.se NOTICE No answer received from 2a02:920:f3e7:1902:0:0:0:70 when querying for version.server/CH/TXT.
+ 31.200: sormland.se INFO Done testing name server ns2.lst.se.
+ 31.200: sormland.se INFO Begin testing zone consistency for sormland.se.
+ 31.296: sormland.se INFO SOA at address 212.3.14.70 has serial 2012121801.
+ 31.341: sormland.se INFO SOA at address 2a02:920:f3e7:907:0:0:0:2 has serial 2012121801.
+ 31.399: sormland.se INFO SOA at address 62.80.203.2 has serial 2012121801.
+ 31.476: sormland.se INFO SOA at address 2a02:920:f3e7:1902:0:0:0:70 has serial 2012121801.
+ 31.476: sormland.se INFO All SOA records have consistent serial numbers.
+ 31.476: sormland.se INFO All other fields in the SOA record are consistent among all name servers.
+ 31.609: sormland.se NOTICE The listed nameservers for sormland.se all report the same set of nameservers.
+ 31.617: sormland.se INFO Done testing zone consistency for sormland.se.
+ 31.617: sormland.se INFO Begin testing SOA parameters for sormland.se.
+ 31.633: sormland.se INFO Found SOA record for sormland.se.
+ 31.637: sormland.se INFO Begin testing host ns1.lst.se.
+ 31.637: sormland.se INFO Begin testing address 62.80.203.2.
+ 31.638: sormland.se INFO Done testing address 62.80.203.2.
+ 31.647: sormland.se INFO Begin testing address 2a02:920:f3e7:907:0:0:0:2.
+ 31.648: sormland.se INFO Done testing address 2a02:920:f3e7:907:0:0:0:2.
+ 31.652: sormland.se INFO Done testing host ns1.lst.se.
+ 31.652: sormland.se INFO SOA MNAME for sormland.se valid (ns1.lst.se).
+ 31.653: sormland.se INFO SOA MNAME for sormland.se (ns1.lst.se) listed as NS.
+ 31.679: sormland.se INFO SOA MNAME for sormland.se (ns1.lst.se) is authoritative.
+ 31.729: sormland.se INFO SOA MNAME for sormland.se (ns1.lst.se) is authoritative.
+ 31.735: sormland.se INFO Begin testing email address hostmaster@lst.se.
+ 31.989: sormland.se INFO Mail exchangers for hostmaster@lst.se found external-mx.lst.se.
+ 31.999: sormland.se INFO Begin testing host external-mx.lst.se.
+ 32.418: sormland.se INFO Begin testing address 62.80.203.166.
+ 33.478: sormland.se INFO Done testing address 62.80.203.166.
+ 33.499: sormland.se INFO Begin testing address 192.165.20.60.
+ 47.236: sormland.se INFO Done testing address 192.165.20.60.
+ 47.237: sormland.se INFO Begin testing address 212.3.12.22.
+ 48.217: sormland.se INFO Done testing address 212.3.12.22.
+ 48.225: sormland.se INFO Begin testing address 2a02:920:f3e7:961:0:0:0:166.
+ 48.786: sormland.se INFO Done testing address 2a02:920:f3e7:961:0:0:0:166.
+ 48.786: sormland.se INFO Begin testing address 2a02:920:f3e7:2996:0:0:0:22.
+ 49.332: sormland.se INFO Done testing address 2a02:920:f3e7:2996:0:0:0:22.
+ 49.335: sormland.se INFO Begin testing address 2a02:920:f3e7:901:0:0:0:30.
+ 49.829: sormland.se INFO Done testing address 2a02:920:f3e7:901:0:0:0:30.
+ 49.837: sormland.se INFO Done testing host external-mx.lst.se.
+ 49.843: sormland.se INFO Done testing email address hostmaster@lst.se.
+ 49.843: sormland.se INFO Successful attempt to deliver email for SOA RNAME of sormland.se (hostmaster.lst.se) using hostmaster@lst.se.
+ 49.844: sormland.se INFO SOA TTL for sormland.se OK (7200) - recommended >= 3600.
+ 49.844: sormland.se INFO SOA refresh for sormland.se OK (86400) - recommended >= 14400.
+ 49.844: sormland.se INFO SOA retry for sormland.se OK (7200) - recommended >= 3600.
+ 49.844: sormland.se INFO SOA expire for sormland.se OK (1209600) - recommended >= 259200.
+ 49.844: sormland.se INFO SOA minimum for sormland.se OK (7200) - recommended between 300 and 86400.
+ 49.844: sormland.se INFO Done testing SOA parameters for sormland.se.
+ 49.844: sormland.se INFO Begin testing connectivity for sormland.se.
+ 51.184: sormland.se ERROR Zone announced by fewer than two IPv4 ASN.
+ 52.242: sormland.se WARNING Zone announced by fewer than two IPv6 ASN.
+ 52.242: sormland.se INFO Done testing connectivity for sormland.se.
+ 52.242: sormland.se INFO Begin testing DNSSEC for sormland.se.
+ 52.297: sormland.se INFO Did not find DS record for sormland.se at parent.
+ 52.430: sormland.se INFO Servers for sormland.se have consistent extra processing status.
+ 52.450: sormland.se INFO Authenticated denial records not found for sormland.se.
+ 52.462: sormland.se INFO Did not find DNSKEY record for sormland.se at child.
+ 52.471: sormland.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 52.471: sormland.se INFO Done testing DNSSEC for sormland.se.
+ 52.472: sormland.se INFO Test completed for zone sormland.se.

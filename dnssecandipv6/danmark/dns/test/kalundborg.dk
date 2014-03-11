@@ -1,0 +1,88 @@
+  0.000: kalundborg.dk INFO Begin testing zone kalundborg.dk with version 1.6.1.
+  0.508: kalundborg.dk INFO Begin testing delegation for kalundborg.dk.
+  5.725: kalundborg.dk INFO Name servers listed at parent: ns-auth03.kmd.dk,ns-auth04.kmd.dk
+  7.381: kalundborg.dk INFO Name servers listed at child: ns-auth03.kmd.dk,ns-auth04.kmd.dk
+  7.381: kalundborg.dk NOTICE No IPv6 name servers found.
+  7.488: kalundborg.dk INFO Parent glue for kalundborg.dk found: ns-auth03.kmd.dk (131.165.64.5)
+  7.600: kalundborg.dk INFO Parent glue for kalundborg.dk found: ns-auth04.kmd.dk (131.165.4.5)
+  7.638: kalundborg.dk INFO Checking glue for ns-auth03.kmd.dk (131.165.64.5).
+  7.638: kalundborg.dk INFO Checking glue for ns-auth04.kmd.dk (131.165.4.5).
+  7.638: kalundborg.dk INFO Parent glue for kalundborg.dk found: ns-auth03.kmd.dk (131.165.64.5)
+  7.639: kalundborg.dk INFO Parent glue for kalundborg.dk found: ns-auth04.kmd.dk (131.165.4.5)
+  8.613: kalundborg.dk INFO It is possible to build a referral packet for kalundborg.dk that works without EDNS0.
+  9.389: kalundborg.dk INFO Previously used name servers for kalundborg.dk: 
+  9.389: kalundborg.dk INFO Done testing delegation for kalundborg.dk.
+  9.390: kalundborg.dk INFO Begin testing name server ns-auth03.kmd.dk.
+  9.390: kalundborg.dk INFO Begin testing host ns-auth03.kmd.dk.
+  9.836: kalundborg.dk INFO Begin testing address 131.165.64.5.
+ 17.187: kalundborg.dk INFO Done testing address 131.165.64.5.
+ 17.187: kalundborg.dk INFO Done testing host ns-auth03.kmd.dk.
+ 17.482: kalundborg.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) answers queries over UDP.
+ 17.592: kalundborg.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) answers queries over TCP.
+ 17.647: kalundborg.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) is not recursive.
+ 17.869: kalundborg.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) authoritative for kalundborg.dk.
+ 18.021: kalundborg.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) closed for zone transfer of kalundborg.dk.
+ 18.104: kalundborg.dk INFO Legacy name server ID for ns-auth03.kmd.dk (131.165.64.5): hostname.bind = ns-auth03.kmd.dk
+ 18.164: kalundborg.dk INFO Legacy name server ID for ns-auth03.kmd.dk (131.165.64.5): version.bind = 1.0
+ 18.269: kalundborg.dk NOTICE No answer received from 131.165.64.5 when querying for version.server/CH/TXT.
+ 18.269: kalundborg.dk INFO Done testing name server ns-auth03.kmd.dk.
+ 18.269: kalundborg.dk INFO Begin testing name server ns-auth04.kmd.dk.
+ 18.270: kalundborg.dk INFO Begin testing host ns-auth04.kmd.dk.
+ 18.479: kalundborg.dk INFO Begin testing address 131.165.4.5.
+ 19.371: kalundborg.dk INFO Done testing address 131.165.4.5.
+ 19.371: kalundborg.dk INFO Done testing host ns-auth04.kmd.dk.
+ 19.550: kalundborg.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) answers queries over UDP.
+ 19.668: kalundborg.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) answers queries over TCP.
+ 19.721: kalundborg.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) is not recursive.
+ 19.943: kalundborg.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) authoritative for kalundborg.dk.
+ 20.115: kalundborg.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) closed for zone transfer of kalundborg.dk.
+ 20.167: kalundborg.dk INFO Legacy name server ID for ns-auth04.kmd.dk (131.165.4.5): hostname.bind = ns-auth04.kmd.dk
+ 20.221: kalundborg.dk INFO Legacy name server ID for ns-auth04.kmd.dk (131.165.4.5): version.bind = 1.0
+ 20.330: kalundborg.dk NOTICE No answer received from 131.165.4.5 when querying for version.server/CH/TXT.
+ 20.330: kalundborg.dk INFO Done testing name server ns-auth04.kmd.dk.
+ 20.330: kalundborg.dk INFO Begin testing zone consistency for kalundborg.dk.
+ 21.212: kalundborg.dk INFO SOA at address 131.165.4.5 has serial 68.
+ 21.267: kalundborg.dk INFO SOA at address 131.165.64.5 has serial 68.
+ 21.267: kalundborg.dk INFO All SOA records have consistent serial numbers.
+ 21.268: kalundborg.dk INFO All other fields in the SOA record are consistent among all name servers.
+ 21.879: kalundborg.dk NOTICE The listed nameservers for kalundborg.dk all report the same set of nameservers.
+ 21.879: kalundborg.dk INFO Done testing zone consistency for kalundborg.dk.
+ 21.880: kalundborg.dk INFO Begin testing SOA parameters for kalundborg.dk.
+ 21.953: kalundborg.dk INFO Found SOA record for kalundborg.dk.
+ 21.953: kalundborg.dk INFO Begin testing host ns-auth03.kmd.dk.
+ 22.201: kalundborg.dk INFO Begin testing address 131.165.64.5.
+ 22.499: kalundborg.dk INFO Done testing address 131.165.64.5.
+ 22.499: kalundborg.dk INFO Done testing host ns-auth03.kmd.dk.
+ 22.500: kalundborg.dk INFO SOA MNAME for kalundborg.dk valid (ns-auth03.kmd.dk).
+ 22.500: kalundborg.dk INFO SOA MNAME for kalundborg.dk (ns-auth03.kmd.dk) listed as NS.
+ 22.819: kalundborg.dk INFO SOA MNAME for kalundborg.dk (ns-auth03.kmd.dk) is authoritative.
+ 22.837: kalundborg.dk INFO Begin testing email address dnsadmin@kmd.dk.
+ 23.089: kalundborg.dk INFO Mail exchangers for dnsadmin@kmd.dk found edge1.kmd.dk,edge2.kmd.dk.
+ 23.089: kalundborg.dk INFO Begin testing host edge1.kmd.dk.
+ 23.651: kalundborg.dk INFO Begin testing address 131.165.63.88.
+ 24.351: kalundborg.dk INFO Done testing address 131.165.63.88.
+ 24.356: kalundborg.dk INFO Done testing host edge1.kmd.dk.
+ 24.700: kalundborg.dk INFO Begin testing host edge2.kmd.dk.
+ 25.189: kalundborg.dk INFO Begin testing address 131.165.63.89.
+ 25.986: kalundborg.dk INFO Done testing address 131.165.63.89.
+ 25.986: kalundborg.dk INFO Done testing host edge2.kmd.dk.
+ 26.261: kalundborg.dk INFO Done testing email address dnsadmin@kmd.dk.
+ 26.261: kalundborg.dk INFO Successful attempt to deliver email for SOA RNAME of kalundborg.dk (dnsadmin.kmd.dk) using dnsadmin@kmd.dk.
+ 26.271: kalundborg.dk INFO SOA TTL for kalundborg.dk OK (3600) - recommended >= 3600.
+ 26.271: kalundborg.dk NOTICE SOA refresh for kalundborg.dk too small (10800) - recommended >= 14400.
+ 26.271: kalundborg.dk INFO SOA retry for kalundborg.dk OK (3600) - recommended >= 3600.
+ 26.271: kalundborg.dk INFO SOA expire for kalundborg.dk OK (604800) - recommended >= 604800.
+ 26.271: kalundborg.dk INFO SOA minimum for kalundborg.dk OK (43200) - recommended between 300 and 86400.
+ 26.271: kalundborg.dk INFO Done testing SOA parameters for kalundborg.dk.
+ 26.271: kalundborg.dk INFO Begin testing connectivity for kalundborg.dk.
+ 27.696: kalundborg.dk NOTICE Zone announced by fewer than two IPv4 ASN.
+ 27.697: kalundborg.dk NOTICE Zone announced by fewer than two IPv6 ASN.
+ 27.697: kalundborg.dk INFO Done testing connectivity for kalundborg.dk.
+ 27.697: kalundborg.dk INFO Begin testing DNSSEC for kalundborg.dk.
+ 28.006: kalundborg.dk INFO Did not find DS record for kalundborg.dk at parent.
+ 28.262: kalundborg.dk INFO Servers for kalundborg.dk have consistent extra processing status.
+ 28.375: kalundborg.dk INFO Authenticated denial records not found for kalundborg.dk.
+ 28.437: kalundborg.dk INFO Did not find DNSKEY record for kalundborg.dk at child.
+ 28.437: kalundborg.dk INFO No DNSKEY(s) found at child, other tests skipped.
+ 28.437: kalundborg.dk INFO Done testing DNSSEC for kalundborg.dk.
+ 28.437: kalundborg.dk INFO Test completed for zone kalundborg.dk.

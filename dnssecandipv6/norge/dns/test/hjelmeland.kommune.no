@@ -1,0 +1,104 @@
+  0.000: hjelmeland.kommune.no INFO Begin testing zone hjelmeland.kommune.no with version 1.6.1.
+  0.607: hjelmeland.kommune.no INFO Begin testing delegation for hjelmeland.kommune.no.
+  8.826: hjelmeland.kommune.no INFO Name servers listed at parent: fornax.netpower.no,hspdns3.netpower.no.kommune.no,serpens.netpower.no
+ 10.633: hjelmeland.kommune.no INFO Name servers listed at child: fornax.netpower.no,hspdns3.netpower.no,serpens.netpower.no
+ 10.633: hjelmeland.kommune.no ERROR Superfluous name server listed at parent: hspdns3.netpower.no.kommune.no
+ 10.633: hjelmeland.kommune.no NOTICE Additional name server listed at child: hspdns3.netpower.no
+ 10.633: hjelmeland.kommune.no NOTICE No IPv6 name servers found.
+ 10.795: hjelmeland.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.949: hjelmeland.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.269: hjelmeland.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.411: hjelmeland.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 12.394: hjelmeland.kommune.no INFO It is possible to build a referral packet for hjelmeland.kommune.no that works without EDNS0.
+ 13.526: hjelmeland.kommune.no INFO Previously used name servers for hjelmeland.kommune.no: 
+ 13.526: hjelmeland.kommune.no INFO Done testing delegation for hjelmeland.kommune.no.
+ 13.527: hjelmeland.kommune.no INFO Begin testing name server fornax.netpower.no.
+ 13.527: hjelmeland.kommune.no INFO Begin testing host fornax.netpower.no.
+ 13.725: hjelmeland.kommune.no INFO Begin testing address 212.33.133.92.
+ 16.494: hjelmeland.kommune.no INFO Done testing address 212.33.133.92.
+ 16.494: hjelmeland.kommune.no INFO Done testing host fornax.netpower.no.
+ 16.625: hjelmeland.kommune.no INFO Name server fornax.netpower.no (212.33.133.92) answers queries over UDP.
+ 16.668: hjelmeland.kommune.no INFO Name server fornax.netpower.no (212.33.133.92) answers queries over TCP.
+ 16.696: hjelmeland.kommune.no INFO Name server fornax.netpower.no (212.33.133.92) is not recursive.
+ 16.808: hjelmeland.kommune.no INFO Name server fornax.netpower.no (212.33.133.92) authoritative for hjelmeland.kommune.no.
+ 16.877: hjelmeland.kommune.no INFO Name server fornax.netpower.no (212.33.133.92) closed for zone transfer of hjelmeland.kommune.no.
+ 16.904: hjelmeland.kommune.no INFO Legacy name server ID for fornax.netpower.no (212.33.133.92): hostname.bind = fornax.netpower.no
+ 16.928: hjelmeland.kommune.no INFO Legacy name server ID for fornax.netpower.no (212.33.133.92): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 16.972: hjelmeland.kommune.no NOTICE No answer received from 212.33.133.92 when querying for version.server/CH/TXT.
+ 16.972: hjelmeland.kommune.no INFO Done testing name server fornax.netpower.no.
+ 16.973: hjelmeland.kommune.no INFO Begin testing name server hspdns3.netpower.no.
+ 16.973: hjelmeland.kommune.no INFO Begin testing host hspdns3.netpower.no.
+ 17.068: hjelmeland.kommune.no INFO Begin testing address 195.0.155.130.
+ 18.598: hjelmeland.kommune.no INFO Done testing address 195.0.155.130.
+ 18.598: hjelmeland.kommune.no INFO Done testing host hspdns3.netpower.no.
+ 18.790: hjelmeland.kommune.no INFO Name server hspdns3.netpower.no (195.0.155.130) answers queries over UDP.
+ 18.842: hjelmeland.kommune.no INFO Name server hspdns3.netpower.no (195.0.155.130) answers queries over TCP.
+ 18.867: hjelmeland.kommune.no INFO Name server hspdns3.netpower.no (195.0.155.130) is not recursive.
+ 18.985: hjelmeland.kommune.no INFO Name server hspdns3.netpower.no (195.0.155.130) authoritative for hjelmeland.kommune.no.
+ 19.060: hjelmeland.kommune.no INFO Name server hspdns3.netpower.no (195.0.155.130) closed for zone transfer of hjelmeland.kommune.no.
+ 19.134: hjelmeland.kommune.no INFO Legacy name server ID for hspdns3.netpower.no (195.0.155.130): hostname.bind = hspdns3.netpower.no
+ 19.226: hjelmeland.kommune.no NOTICE No answer received from 195.0.155.130 when querying for version.server/CH/TXT.
+ 19.226: hjelmeland.kommune.no INFO Done testing name server hspdns3.netpower.no.
+ 19.226: hjelmeland.kommune.no INFO Begin testing name server serpens.netpower.no.
+ 19.227: hjelmeland.kommune.no INFO Begin testing host serpens.netpower.no.
+ 19.354: hjelmeland.kommune.no INFO Begin testing address 212.33.133.91.
+ 20.232: hjelmeland.kommune.no INFO Done testing address 212.33.133.91.
+ 20.232: hjelmeland.kommune.no INFO Done testing host serpens.netpower.no.
+ 20.382: hjelmeland.kommune.no INFO Name server serpens.netpower.no (212.33.133.91) answers queries over UDP.
+ 20.427: hjelmeland.kommune.no INFO Name server serpens.netpower.no (212.33.133.91) answers queries over TCP.
+ 20.450: hjelmeland.kommune.no INFO Name server serpens.netpower.no (212.33.133.91) is not recursive.
+ 20.558: hjelmeland.kommune.no INFO Name server serpens.netpower.no (212.33.133.91) authoritative for hjelmeland.kommune.no.
+ 20.623: hjelmeland.kommune.no INFO Name server serpens.netpower.no (212.33.133.91) closed for zone transfer of hjelmeland.kommune.no.
+ 20.667: hjelmeland.kommune.no INFO Legacy name server ID for serpens.netpower.no (212.33.133.91): hostname.bind = npdns01.netpower.no
+ 20.694: hjelmeland.kommune.no INFO Legacy name server ID for serpens.netpower.no (212.33.133.91): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 20.749: hjelmeland.kommune.no NOTICE No answer received from 212.33.133.91 when querying for version.server/CH/TXT.
+ 20.750: hjelmeland.kommune.no INFO Done testing name server serpens.netpower.no.
+ 20.750: hjelmeland.kommune.no INFO Begin testing name server hspdns3.netpower.no.kommune.no.
+ 20.750: hjelmeland.kommune.no INFO Begin testing host hspdns3.netpower.no.kommune.no.
+ 20.750: hjelmeland.kommune.no ERROR No address found for hspdns3.netpower.no.kommune.no.
+ 20.750: hjelmeland.kommune.no INFO Done testing host hspdns3.netpower.no.kommune.no.
+ 20.750: hjelmeland.kommune.no ERROR Host name or address error for hspdns3.netpower.no.kommune.no.
+ 20.750: hjelmeland.kommune.no INFO Done testing name server hspdns3.netpower.no.kommune.no.
+ 20.751: hjelmeland.kommune.no INFO Begin testing zone consistency for hjelmeland.kommune.no.
+ 21.473: hjelmeland.kommune.no INFO SOA at address 195.0.155.130 has serial 2014012701.
+ 21.504: hjelmeland.kommune.no INFO SOA at address 212.33.133.91 has serial 2014012701.
+ 21.527: hjelmeland.kommune.no INFO SOA at address 212.33.133.92 has serial 2014012701.
+ 21.527: hjelmeland.kommune.no INFO All SOA records have consistent serial numbers.
+ 21.527: hjelmeland.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 21.942: hjelmeland.kommune.no NOTICE The listed nameservers for hjelmeland.kommune.no all report the same set of nameservers.
+ 21.943: hjelmeland.kommune.no INFO Done testing zone consistency for hjelmeland.kommune.no.
+ 21.943: hjelmeland.kommune.no INFO Begin testing SOA parameters for hjelmeland.kommune.no.
+ 21.979: hjelmeland.kommune.no INFO Found SOA record for hjelmeland.kommune.no.
+ 21.979: hjelmeland.kommune.no INFO Begin testing host fornax.netpower.no.
+ 22.176: hjelmeland.kommune.no INFO Begin testing address 212.33.133.92.
+ 22.276: hjelmeland.kommune.no INFO Done testing address 212.33.133.92.
+ 22.276: hjelmeland.kommune.no INFO Done testing host fornax.netpower.no.
+ 22.276: hjelmeland.kommune.no INFO SOA MNAME for hjelmeland.kommune.no valid (fornax.netpower.no).
+ 22.276: hjelmeland.kommune.no INFO SOA MNAME for hjelmeland.kommune.no (fornax.netpower.no) listed as NS.
+ 22.421: hjelmeland.kommune.no INFO SOA MNAME for hjelmeland.kommune.no (fornax.netpower.no) is authoritative.
+ 22.421: hjelmeland.kommune.no INFO Begin testing email address hostmaster@netpower.no.
+ 22.581: hjelmeland.kommune.no INFO Mail exchangers for hostmaster@netpower.no found mailwash.npcloud.no.
+ 22.582: hjelmeland.kommune.no INFO Begin testing host mailwash.npcloud.no.
+ 22.884: hjelmeland.kommune.no INFO Begin testing address 46.255.16.45.
+ 23.818: hjelmeland.kommune.no INFO Done testing address 46.255.16.45.
+ 23.818: hjelmeland.kommune.no INFO Done testing host mailwash.npcloud.no.
+ 23.986: hjelmeland.kommune.no INFO Done testing email address hostmaster@netpower.no.
+ 23.986: hjelmeland.kommune.no INFO Successful attempt to deliver email for SOA RNAME of hjelmeland.kommune.no (hostmaster.netpower.no) using hostmaster@netpower.no.
+ 23.987: hjelmeland.kommune.no INFO SOA TTL for hjelmeland.kommune.no OK (32100) - recommended >= 3600.
+ 23.987: hjelmeland.kommune.no NOTICE SOA refresh for hjelmeland.kommune.no too small (7200) - recommended >= 14400.
+ 23.987: hjelmeland.kommune.no INFO SOA retry for hjelmeland.kommune.no OK (3600) - recommended >= 3600.
+ 23.987: hjelmeland.kommune.no INFO SOA expire for hjelmeland.kommune.no OK (1209600) - recommended >= 604800.
+ 23.987: hjelmeland.kommune.no INFO SOA minimum for hjelmeland.kommune.no OK (86400) - recommended between 300 and 86400.
+ 23.987: hjelmeland.kommune.no INFO Done testing SOA parameters for hjelmeland.kommune.no.
+ 23.999: hjelmeland.kommune.no INFO Begin testing connectivity for hjelmeland.kommune.no.
+ 25.661: hjelmeland.kommune.no INFO Zone announced by more than one ASN.
+ 25.661: hjelmeland.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 25.661: hjelmeland.kommune.no INFO Done testing connectivity for hjelmeland.kommune.no.
+ 25.661: hjelmeland.kommune.no INFO Begin testing DNSSEC for hjelmeland.kommune.no.
+ 25.752: hjelmeland.kommune.no INFO Did not find DS record for hjelmeland.kommune.no at parent.
+ 25.948: hjelmeland.kommune.no INFO Servers for hjelmeland.kommune.no have consistent extra processing status.
+ 26.012: hjelmeland.kommune.no INFO Authenticated denial records not found for hjelmeland.kommune.no.
+ 26.035: hjelmeland.kommune.no INFO Did not find DNSKEY record for hjelmeland.kommune.no at child.
+ 26.035: hjelmeland.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 26.035: hjelmeland.kommune.no INFO Done testing DNSSEC for hjelmeland.kommune.no.
+ 26.036: hjelmeland.kommune.no INFO Test completed for zone hjelmeland.kommune.no.

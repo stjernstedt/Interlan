@@ -1,0 +1,86 @@
+  0.000: mailbox.se INFO Begin testing zone mailbox.se with version 1.0.1.
+  0.000: mailbox.se INFO Begin testing delegation for mailbox.se.
+  1.088: mailbox.se INFO Name servers listed at parent: ns.grasberg.com,ns2.grasberg.com
+  1.156: mailbox.se INFO Name servers listed at child: ns.grasberg.com,ns2.grasberg.com
+  1.156: mailbox.se NOTICE No IPv6 name servers found.
+  1.359: mailbox.se INFO Done testing delegation for mailbox.se.
+  1.360: mailbox.se INFO Begin testing name server ns.grasberg.com.
+  1.360: mailbox.se INFO Begin testing host ns.grasberg.com.
+  1.360: mailbox.se INFO Begin testing address 83.233.246.20.
+  4.063: mailbox.se INFO Done testing address 83.233.246.20.
+  4.063: mailbox.se INFO Done testing host ns.grasberg.com.
+  4.111: mailbox.se WARNING Name server ns.grasberg.com (83.233.246.20) is recursive.
+  4.124: mailbox.se INFO Name server ns.grasberg.com (83.233.246.20) authoritative for mailbox.se.
+  4.137: mailbox.se INFO Name server ns.grasberg.com (83.233.246.20) answers queries over UDP.
+  4.157: mailbox.se INFO Name server ns.grasberg.com (83.233.246.20) answers queries over TCP.
+  4.187: mailbox.se NOTICE Name server ns.grasberg.com (83.233.246.20) open for zone transfer of mailbox.se.
+  4.199: mailbox.se INFO Legacy name server ID for ns.grasberg.com (83.233.246.20): hostname.bind = ns.grasberg.com
+  4.210: mailbox.se INFO Legacy name server ID for ns.grasberg.com (83.233.246.20): version.bind = 9.4.2-P2
+  4.231: mailbox.se NOTICE No answer received from 83.233.246.20 when querying for version.server/CH/TXT.
+  4.232: mailbox.se INFO Done testing name server ns.grasberg.com.
+  4.232: mailbox.se INFO Begin testing name server ns2.grasberg.com.
+  4.232: mailbox.se INFO Begin testing host ns2.grasberg.com.
+  4.232: mailbox.se INFO Begin testing address 83.233.246.21.
+  4.245: mailbox.se INFO Done testing address 83.233.246.21.
+  4.245: mailbox.se INFO Done testing host ns2.grasberg.com.
+  4.457: mailbox.se WARNING Name server ns2.grasberg.com (83.233.246.21) is recursive.
+  4.469: mailbox.se INFO Name server ns2.grasberg.com (83.233.246.21) authoritative for mailbox.se.
+  4.481: mailbox.se INFO Name server ns2.grasberg.com (83.233.246.21) answers queries over UDP.
+  4.502: mailbox.se INFO Name server ns2.grasberg.com (83.233.246.21) answers queries over TCP.
+  4.530: mailbox.se NOTICE Name server ns2.grasberg.com (83.233.246.21) open for zone transfer of mailbox.se.
+  4.543: mailbox.se INFO Legacy name server ID for ns2.grasberg.com (83.233.246.21): hostname.bind = ns2
+  4.556: mailbox.se INFO Legacy name server ID for ns2.grasberg.com (83.233.246.21): version.bind = 9.5.0-P2
+  4.588: mailbox.se NOTICE No answer received from 83.233.246.21 when querying for version.server/CH/TXT.
+  4.588: mailbox.se INFO Done testing name server ns2.grasberg.com.
+  4.589: mailbox.se INFO Begin testing zone consistency for mailbox.se.
+  4.604: mailbox.se INFO SOA at address 83.233.246.20 has serial 2010080401.
+  4.617: mailbox.se INFO SOA at address 83.233.246.21 has serial 2010080401.
+  4.617: mailbox.se INFO All SOA records have consistent serial numbers.
+  4.617: mailbox.se INFO All SOA records are consistent among all name servers.
+  4.617: mailbox.se INFO Done testing zone consistency for mailbox.se.
+  4.617: mailbox.se INFO Begin testing SOA parameters for mailbox.se.
+  4.630: mailbox.se INFO Found SOA record for mailbox.se.
+  4.630: mailbox.se INFO Begin testing host ns.grasberg.com.
+  4.630: mailbox.se INFO Begin testing address 83.233.246.20.
+  4.631: mailbox.se INFO Done testing address 83.233.246.20.
+  4.631: mailbox.se INFO Done testing host ns.grasberg.com.
+  4.632: mailbox.se INFO SOA MNAME for mailbox.se valid (ns.grasberg.com).
+  4.632: mailbox.se INFO SOA MNAME for mailbox.se (ns.grasberg.com) listed as NS.
+  4.645: mailbox.se INFO SOA MNAME for mailbox.se (ns.grasberg.com) is authoritative.
+  4.645: mailbox.se INFO Begin testing email address hostmaster@mailbox.se.
+  4.659: mailbox.se INFO Mail exchangers for hostmaster@mailbox.se found cleaner.fl-net.se.
+  4.659: mailbox.se INFO Begin testing host cleaner.fl-net.se.
+  4.698: mailbox.se INFO Begin testing address 83.233.246.201.
+  4.711: mailbox.se INFO Done testing address 83.233.246.201.
+  4.711: mailbox.se INFO Done testing host cleaner.fl-net.se.
+  4.711: mailbox.se INFO Begin testing mail server cleaner.fl-net.se (83.233.246.201) with hostmaster@mailbox.se.
+  4.739: mailbox.se INFO SMTP banner: cleaner.fl-net.se ESMTP Postfix
+  4.963: mailbox.se INFO SMTP testing of cleaner.fl-net.se (83.233.246.201) with hostmaster@mailbox.se succeeded without errors.
+  4.963: mailbox.se INFO Done testing mail server cleaner.fl-net.se (83.233.246.201) with hostmaster@mailbox.se.
+  4.964: mailbox.se INFO Delivery over IPv4 to hostmaster@mailbox.se ok.
+  4.964: mailbox.se INFO Delivery over IPv6 to hostmaster@mailbox.se could not be done.
+  4.964: mailbox.se INFO Done testing email address hostmaster@mailbox.se.
+  4.964: mailbox.se INFO Successful attempt to deliver email for SOA RNAME of mailbox.se (hostmaster.mailbox.se) using hostmaster@mailbox.se.
+  4.964: mailbox.se INFO SOA TTL for mailbox.se OK (3600) - recommended >= 3600.
+  4.964: mailbox.se NOTICE SOA refresh for mailbox.se too small (3600) - recommended >= 14400.
+  4.964: mailbox.se NOTICE SOA refresh for mailbox.se lower than retry (3600 vs 3600).
+  4.964: mailbox.se INFO SOA retry for mailbox.se OK (3600) - recommended >= 3600.
+  4.964: mailbox.se NOTICE SOA expire for mailbox.se too small (3600) - recommended >= 604800.
+  4.964: mailbox.se NOTICE SOA expire for mailbox.se lower than refresh.
+  4.964: mailbox.se INFO SOA minimum for mailbox.se OK (3600) - recommended between 300 and 86400.
+  4.964: mailbox.se INFO Done testing SOA parameters for mailbox.se.
+  4.965: mailbox.se INFO Begin testing connectivity for mailbox.se.
+  5.192: mailbox.se INFO Name server 83.233.246.21 announced by: 29518
+  5.322: mailbox.se INFO Name server 83.233.246.20 announced by: 29518
+  5.322: mailbox.se INFO Zone announced by ASN: 29518
+  5.322: mailbox.se NOTICE Zone announced by only one ASN (1).
+  5.322: mailbox.se INFO Zone announced by IPv6 ASN: 
+  5.322: mailbox.se NOTICE Zone announced by only one IPv6 ASN (0).
+  5.322: mailbox.se INFO Done testing connectivity for mailbox.se.
+  5.323: mailbox.se INFO Begin testing DNSSEC for mailbox.se.
+  5.599: mailbox.se INFO Did not find DS record for mailbox.se at parent.
+  5.642: mailbox.se INFO Servers for mailbox.se have consistent extra processing status.
+  5.642: mailbox.se INFO Did not find DNSKEY record for mailbox.se at child.
+  5.642: mailbox.se INFO No DNSKEY(s) found at child, other tests skipped.
+  5.642: mailbox.se INFO Done testing DNSSEC for mailbox.se.
+  5.642: mailbox.se INFO Test completed for zone mailbox.se.

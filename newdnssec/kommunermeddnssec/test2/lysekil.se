@@ -1,0 +1,89 @@
+  0.000: lysekil.se INFO Begin testing zone lysekil.se with version 1.2.
+  0.000: lysekil.se INFO Begin testing delegation for lysekil.se.
+  5.489: lysekil.se INFO Name servers listed at parent: dns6.telia.com,ns.lysekil.se
+  6.949: lysekil.se INFO Name servers listed at child: dns6.telia.com,ns.lysekil.se
+  6.949: lysekil.se NOTICE No IPv6 name servers found.
+  7.055: lysekil.se INFO Parent glue for lysekil.se found: ns.lysekil.se (194.16.194.1)
+  7.098: lysekil.se INFO Checking glue for ns.lysekil.se (194.16.194.1).
+  7.115: lysekil.se INFO Child glue for lysekil.se found: ns.lysekil.se (194.16.194.1)
+  7.116: lysekil.se INFO Parent glue for lysekil.se found: ns.lysekil.se (194.16.194.1)
+  7.117: lysekil.se INFO Done testing delegation for lysekil.se.
+  7.117: lysekil.se INFO Begin testing name server dns6.telia.com.
+  7.117: lysekil.se INFO Begin testing host dns6.telia.com.
+  7.117: lysekil.se INFO Begin testing address 81.228.10.68.
+ 11.690: lysekil.se INFO Done testing address 81.228.10.68.
+ 11.690: lysekil.se INFO Done testing host dns6.telia.com.
+ 11.707: lysekil.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over UDP.
+ 11.739: lysekil.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over TCP.
+ 11.755: lysekil.se INFO Name server dns6.telia.com (81.228.10.68) is not recursive.
+ 11.773: lysekil.se INFO Name server dns6.telia.com (81.228.10.68) authoritative for lysekil.se.
+ 11.817: lysekil.se INFO Name server dns6.telia.com (81.228.10.68) closed for zone transfer of lysekil.se.
+ 11.837: lysekil.se INFO Legacy name server ID for dns6.telia.com (81.228.10.68): hostname.bind = dnshosting1-sn4.m-sp.skanova.net
+ 11.853: lysekil.se INFO Legacy name server ID for dns6.telia.com (81.228.10.68): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 11.887: lysekil.se NOTICE No answer received from 81.228.10.68 when querying for version.server/CH/TXT.
+ 11.888: lysekil.se INFO Done testing name server dns6.telia.com.
+ 11.888: lysekil.se INFO Begin testing name server ns.lysekil.se.
+ 11.888: lysekil.se INFO Begin testing host ns.lysekil.se.
+ 11.888: lysekil.se INFO Begin testing address 194.16.194.1.
+ 14.024: lysekil.se INFO Done testing address 194.16.194.1.
+ 14.024: lysekil.se INFO Done testing host ns.lysekil.se.
+ 14.042: lysekil.se INFO Name server ns.lysekil.se (194.16.194.1) answers queries over UDP.
+ 14.074: lysekil.se INFO Name server ns.lysekil.se (194.16.194.1) answers queries over TCP.
+ 14.091: lysekil.se INFO Name server ns.lysekil.se (194.16.194.1) is not recursive.
+ 14.109: lysekil.se INFO Name server ns.lysekil.se (194.16.194.1) authoritative for lysekil.se.
+ 14.251: lysekil.se INFO Name server ns.lysekil.se (194.16.194.1) closed for zone transfer of lysekil.se.
+ 14.269: lysekil.se NOTICE No answer received from 194.16.194.1 when querying for hostname.bind/CH/TXT.
+ 14.285: lysekil.se NOTICE No answer received from 194.16.194.1 when querying for version.bind/CH/TXT.
+ 14.302: lysekil.se NOTICE No answer received from 194.16.194.1 when querying for id.server/CH/TXT.
+ 14.318: lysekil.se NOTICE No answer received from 194.16.194.1 when querying for version.server/CH/TXT.
+ 14.318: lysekil.se INFO Done testing name server ns.lysekil.se.
+ 14.318: lysekil.se INFO Begin testing zone consistency for lysekil.se.
+ 14.339: lysekil.se INFO SOA at address 194.16.194.1 has serial 2010120207.
+ 14.357: lysekil.se INFO SOA at address 81.228.10.68 has serial 2010120207.
+ 14.357: lysekil.se INFO All SOA records have consistent serial numbers.
+ 14.357: lysekil.se INFO All SOA records are consistent among all name servers.
+ 14.357: lysekil.se INFO Done testing zone consistency for lysekil.se.
+ 14.358: lysekil.se INFO Begin testing SOA parameters for lysekil.se.
+ 14.375: lysekil.se INFO Found SOA record for lysekil.se.
+ 14.375: lysekil.se INFO Begin testing host ns.lysekil.se.
+ 14.375: lysekil.se INFO Begin testing address 194.16.194.1.
+ 14.378: lysekil.se INFO Done testing address 194.16.194.1.
+ 14.378: lysekil.se INFO Done testing host ns.lysekil.se.
+ 14.378: lysekil.se INFO SOA MNAME for lysekil.se valid (ns.lysekil.se).
+ 14.378: lysekil.se INFO SOA MNAME for lysekil.se (ns.lysekil.se) listed as NS.
+ 14.397: lysekil.se INFO SOA MNAME for lysekil.se (ns.lysekil.se) is authoritative.
+ 14.397: lysekil.se INFO Begin testing email address hostmaster@ns.lysekil.se.
+ 14.686: lysekil.se INFO Mail exchangers for hostmaster@ns.lysekil.se found ns.lysekil.se.
+ 14.687: lysekil.se INFO All mail servers for hostmaster@ns.lysekil.se are in zone lysekil.se.
+ 14.687: lysekil.se INFO Begin testing host ns.lysekil.se.
+ 14.687: lysekil.se INFO Begin testing address 194.16.194.1.
+ 14.690: lysekil.se INFO Done testing address 194.16.194.1.
+ 14.690: lysekil.se INFO Done testing host ns.lysekil.se.
+ 14.690: lysekil.se INFO Begin testing mail server ns.lysekil.se (194.16.194.1) with hostmaster@ns.lysekil.se.
+ 15.762: lysekil.se WARNING Failed to connect to ns.lysekil.se (194.16.194.1).
+ 15.763: lysekil.se INFO Done testing mail server ns.lysekil.se (194.16.194.1) with hostmaster@ns.lysekil.se.
+ 15.763: lysekil.se WARNING Delivery over IPv4 to hostmaster@ns.lysekil.se could not be done.
+ 15.763: lysekil.se INFO Delivery over IPv6 to hostmaster@ns.lysekil.se could not be done.
+ 15.763: lysekil.se INFO Done testing email address hostmaster@ns.lysekil.se.
+ 15.763: lysekil.se WARNING Failed to deliver email for SOA RNAME of lysekil.se (hostmaster.ns.lysekil.se) using hostmaster@ns.lysekil.se.
+ 15.763: lysekil.se NOTICE SOA TTL for lysekil.se too small (600) - recommended >= 3600.
+ 15.763: lysekil.se NOTICE SOA refresh for lysekil.se too small (10800) - recommended >= 14400.
+ 15.763: lysekil.se INFO SOA retry for lysekil.se OK (3600) - recommended >= 3600.
+ 15.763: lysekil.se INFO SOA expire for lysekil.se OK (604800) - recommended >= 604800.
+ 15.764: lysekil.se INFO SOA minimum for lysekil.se OK (600) - recommended between 300 and 86400.
+ 15.764: lysekil.se INFO Done testing SOA parameters for lysekil.se.
+ 15.764: lysekil.se INFO Begin testing connectivity for lysekil.se.
+ 16.551: lysekil.se INFO Name server 194.16.194.1 announced by: 3301
+ 17.233: lysekil.se INFO Name server 81.228.10.68 announced by: 3301
+ 17.233: lysekil.se INFO Zone announced by IPv4 ASN: 3301
+ 17.234: lysekil.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 17.234: lysekil.se INFO Zone announced by IPv6 ASN: 
+ 17.234: lysekil.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 17.234: lysekil.se INFO Done testing connectivity for lysekil.se.
+ 17.234: lysekil.se INFO Begin testing DNSSEC for lysekil.se.
+ 17.249: lysekil.se INFO Did not find DS record for lysekil.se at parent.
+ 17.310: lysekil.se INFO Servers for lysekil.se have consistent extra processing status.
+ 17.310: lysekil.se INFO Did not find DNSKEY record for lysekil.se at child.
+ 17.310: lysekil.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 17.310: lysekil.se INFO Done testing DNSSEC for lysekil.se.
+ 17.310: lysekil.se INFO Test completed for zone lysekil.se.

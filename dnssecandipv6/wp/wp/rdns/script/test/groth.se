@@ -1,0 +1,84 @@
+  0.000: groth.se INFO Begin testing zone groth.se with version 1.0.1.
+  0.001: groth.se INFO Begin testing delegation for groth.se.
+  1.082: groth.se INFO Name servers listed at parent: dns3.telia.com,dns4.telia.com
+  1.221: groth.se INFO Name servers listed at child: dns3.telia.com,dns4.telia.com
+  1.221: groth.se NOTICE No IPv6 name servers found.
+  1.325: groth.se INFO Done testing delegation for groth.se.
+  1.326: groth.se INFO Begin testing name server dns3.telia.com.
+  1.326: groth.se INFO Begin testing host dns3.telia.com.
+  1.327: groth.se INFO Begin testing address 81.228.11.184.
+  5.001: groth.se INFO Done testing address 81.228.11.184.
+  5.001: groth.se INFO Done testing host dns3.telia.com.
+  5.009: groth.se INFO Name server dns3.telia.com (81.228.11.184) is not recursive.
+  5.016: groth.se INFO Name server dns3.telia.com (81.228.11.184) authoritative for groth.se.
+  5.024: groth.se INFO Name server dns3.telia.com (81.228.11.184) answers queries over UDP.
+  5.035: groth.se INFO Name server dns3.telia.com (81.228.11.184) answers queries over TCP.
+  5.050: groth.se INFO Name server dns3.telia.com (81.228.11.184) closed for zone transfer of groth.se.
+  5.060: groth.se INFO Legacy name server ID for dns3.telia.com (81.228.11.184): hostname.bind = dnshosting2-sn1.fre.skanova.net
+  5.067: groth.se INFO Legacy name server ID for dns3.telia.com (81.228.11.184): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+  5.080: groth.se NOTICE No answer received from 81.228.11.184 when querying for version.server/CH/TXT.
+  5.080: groth.se INFO Done testing name server dns3.telia.com.
+  5.081: groth.se INFO Begin testing name server dns4.telia.com.
+  5.081: groth.se INFO Begin testing host dns4.telia.com.
+  5.081: groth.se INFO Begin testing address 81.228.9.98.
+  5.152: groth.se INFO Done testing address 81.228.9.98.
+  5.152: groth.se INFO Done testing host dns4.telia.com.
+  5.167: groth.se INFO Name server dns4.telia.com (81.228.9.98) is not recursive.
+  5.181: groth.se INFO Name server dns4.telia.com (81.228.9.98) authoritative for groth.se.
+  5.194: groth.se INFO Name server dns4.telia.com (81.228.9.98) answers queries over UDP.
+  5.220: groth.se INFO Name server dns4.telia.com (81.228.9.98) answers queries over TCP.
+  5.256: groth.se INFO Name server dns4.telia.com (81.228.9.98) closed for zone transfer of groth.se.
+  5.271: groth.se INFO Legacy name server ID for dns4.telia.com (81.228.9.98): hostname.bind = dnshosting1-sn3.vrr.skanova.net
+  5.285: groth.se INFO Legacy name server ID for dns4.telia.com (81.228.9.98): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+  5.310: groth.se NOTICE No answer received from 81.228.9.98 when querying for version.server/CH/TXT.
+  5.310: groth.se INFO Done testing name server dns4.telia.com.
+  5.311: groth.se INFO Begin testing zone consistency for groth.se.
+  5.327: groth.se INFO SOA at address 81.228.9.98 has serial 1282307608.
+  5.334: groth.se INFO SOA at address 81.228.11.184 has serial 1282307608.
+  5.334: groth.se INFO All SOA records have consistent serial numbers.
+  5.334: groth.se INFO All SOA records are consistent among all name servers.
+  5.334: groth.se INFO Done testing zone consistency for groth.se.
+  5.335: groth.se INFO Begin testing SOA parameters for groth.se.
+  5.348: groth.se INFO Found SOA record for groth.se.
+  5.348: groth.se INFO Begin testing host dns9.telia.com.
+  5.406: groth.se INFO Begin testing address 81.228.11.184.
+  5.408: groth.se INFO Done testing address 81.228.11.184.
+  5.408: groth.se INFO Done testing host dns9.telia.com.
+  5.408: groth.se INFO SOA MNAME for groth.se valid (dns9.telia.com).
+  5.408: groth.se NOTICE SOA MNAME for groth.se (dns9.telia.com) not listed as NS.
+  5.416: groth.se INFO SOA MNAME for groth.se (dns9.telia.com) is authoritative.
+  5.417: groth.se INFO Begin testing email address registry@telia.net.
+  5.740: groth.se INFO Mail exchangers for registry@telia.net found mail.telia.net.
+  5.740: groth.se INFO Begin testing host mail.telia.net.
+  5.753: groth.se INFO Begin testing address 194.237.170.102.
+  6.313: groth.se INFO Done testing address 194.237.170.102.
+  6.313: groth.se INFO Done testing host mail.telia.net.
+  6.313: groth.se INFO Begin testing mail server mail.telia.net (194.237.170.102) with registry@telia.net.
+  6.379: groth.se INFO SMTP banner: avserver.telia.net ESMTP Postfix
+  6.992: groth.se INFO SMTP testing of mail.telia.net (194.237.170.102) with registry@telia.net succeeded without errors.
+  6.992: groth.se INFO Done testing mail server mail.telia.net (194.237.170.102) with registry@telia.net.
+  6.993: groth.se INFO Delivery over IPv4 to registry@telia.net ok.
+  6.993: groth.se INFO Delivery over IPv6 to registry@telia.net could not be done.
+  6.993: groth.se INFO Done testing email address registry@telia.net.
+  6.993: groth.se INFO Successful attempt to deliver email for SOA RNAME of groth.se (registry.telia.net) using registry@telia.net.
+  6.993: groth.se INFO SOA TTL for groth.se OK (3600) - recommended >= 3600.
+  6.993: groth.se NOTICE SOA refresh for groth.se too small (1200) - recommended >= 14400.
+  6.993: groth.se NOTICE SOA retry for groth.se too small (180) - recommended >= 3600.
+  6.993: groth.se INFO SOA expire for groth.se OK (1209600) - recommended >= 604800.
+  6.993: groth.se NOTICE SOA minimum for groth.se too large (1209600) - recommended <= 86400.
+  6.994: groth.se INFO Done testing SOA parameters for groth.se.
+  6.994: groth.se INFO Begin testing connectivity for groth.se.
+  7.298: groth.se INFO Name server 81.228.9.98 announced by: 3301
+  7.431: groth.se INFO Name server 81.228.11.184 announced by: 3301
+  7.431: groth.se INFO Zone announced by ASN: 3301
+  7.431: groth.se NOTICE Zone announced by only one ASN (1).
+  7.432: groth.se INFO Zone announced by IPv6 ASN: 
+  7.432: groth.se NOTICE Zone announced by only one IPv6 ASN (0).
+  7.432: groth.se INFO Done testing connectivity for groth.se.
+  7.432: groth.se INFO Begin testing DNSSEC for groth.se.
+  7.445: groth.se INFO Did not find DS record for groth.se at parent.
+  7.482: groth.se INFO Servers for groth.se have consistent extra processing status.
+  7.482: groth.se INFO Did not find DNSKEY record for groth.se at child.
+  7.482: groth.se INFO No DNSKEY(s) found at child, other tests skipped.
+  7.482: groth.se INFO Done testing DNSSEC for groth.se.
+  7.482: groth.se INFO Test completed for zone groth.se.

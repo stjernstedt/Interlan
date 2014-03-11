@@ -1,0 +1,99 @@
+  0.000: sentensia.se INFO Begin testing zone sentensia.se with version 1.2.
+  0.000: sentensia.se INFO Begin testing delegation for sentensia.se.
+  4.937: sentensia.se INFO Name servers listed at parent: ns.sentensia.se,ns2.sentensia.se
+  6.014: sentensia.se INFO Name servers listed at child: ns.sentensia.se,ns2.sentensia.se
+  6.014: sentensia.se NOTICE No IPv6 name servers found.
+  6.022: sentensia.se INFO Parent glue for sentensia.se found: ns.sentensia.se (92.33.7.66)
+  6.068: sentensia.se INFO Parent glue for sentensia.se found: ns2.sentensia.se (92.33.7.72)
+  6.076: sentensia.se INFO Checking glue for ns.sentensia.se (92.33.7.66).
+  6.086: sentensia.se INFO Child glue for sentensia.se found: ns.sentensia.se (92.33.7.66)
+  6.086: sentensia.se INFO Checking glue for ns2.sentensia.se (92.33.7.72).
+  6.095: sentensia.se INFO Child glue for sentensia.se found: ns2.sentensia.se (92.33.7.72)
+  6.096: sentensia.se INFO Parent glue for sentensia.se found: ns.sentensia.se (92.33.7.66)
+  6.097: sentensia.se INFO Parent glue for sentensia.se found: ns2.sentensia.se (92.33.7.72)
+  6.097: sentensia.se INFO Done testing delegation for sentensia.se.
+  6.098: sentensia.se INFO Begin testing name server ns.sentensia.se.
+  6.098: sentensia.se INFO Begin testing host ns.sentensia.se.
+  6.099: sentensia.se INFO Begin testing address 92.33.7.66.
+ 11.174: sentensia.se INFO Done testing address 92.33.7.66.
+ 11.174: sentensia.se INFO Done testing host ns.sentensia.se.
+ 11.185: sentensia.se INFO Name server ns.sentensia.se (92.33.7.66) answers queries over UDP.
+ 11.201: sentensia.se INFO Name server ns.sentensia.se (92.33.7.66) answers queries over TCP.
+ 12.016: sentensia.se WARNING Name server ns.sentensia.se (92.33.7.66) is recursive.
+ 12.028: sentensia.se INFO Name server ns.sentensia.se (92.33.7.66) authoritative for sentensia.se.
+ 12.048: sentensia.se NOTICE Name server ns.sentensia.se (92.33.7.66) open for zone transfer of sentensia.se.
+ 12.060: sentensia.se INFO Legacy name server ID for ns.sentensia.se (92.33.7.66): hostname.bind = ns.sentensia.se
+ 12.069: sentensia.se INFO Legacy name server ID for ns.sentensia.se (92.33.7.66): version.bind = 9.3.6-P1-RedHat-9.3.6-4.P1.el5_4.2
+ 12.085: sentensia.se NOTICE No answer received from 92.33.7.66 when querying for version.server/CH/TXT.
+ 12.086: sentensia.se INFO Done testing name server ns.sentensia.se.
+ 12.086: sentensia.se INFO Begin testing name server ns2.sentensia.se.
+ 12.086: sentensia.se INFO Begin testing host ns2.sentensia.se.
+ 12.087: sentensia.se INFO Begin testing address 92.33.7.72.
+ 12.794: sentensia.se INFO Done testing address 92.33.7.72.
+ 12.794: sentensia.se INFO Done testing host ns2.sentensia.se.
+ 12.805: sentensia.se INFO Name server ns2.sentensia.se (92.33.7.72) answers queries over UDP.
+ 12.819: sentensia.se INFO Name server ns2.sentensia.se (92.33.7.72) answers queries over TCP.
+ 12.828: sentensia.se INFO Name server ns2.sentensia.se (92.33.7.72) is not recursive.
+ 12.838: sentensia.se INFO Name server ns2.sentensia.se (92.33.7.72) authoritative for sentensia.se.
+ 12.857: sentensia.se NOTICE Name server ns2.sentensia.se (92.33.7.72) open for zone transfer of sentensia.se.
+ 12.867: sentensia.se INFO Legacy name server ID for ns2.sentensia.se (92.33.7.72): hostname.bind = cgn-s02.cgn.se
+ 12.876: sentensia.se INFO Legacy name server ID for ns2.sentensia.se (92.33.7.72): version.bind = 9.3.6-P1-RedHat-9.3.6-4.P1.el5_4.2
+ 12.892: sentensia.se NOTICE No answer received from 92.33.7.72 when querying for version.server/CH/TXT.
+ 12.892: sentensia.se INFO Done testing name server ns2.sentensia.se.
+ 12.892: sentensia.se INFO Begin testing zone consistency for sentensia.se.
+ 12.904: sentensia.se INFO SOA at address 92.33.7.66 has serial 2286170079.
+ 12.913: sentensia.se INFO SOA at address 92.33.7.72 has serial 2286170079.
+ 12.913: sentensia.se INFO All SOA records have consistent serial numbers.
+ 12.914: sentensia.se INFO All SOA records are consistent among all name servers.
+ 12.914: sentensia.se INFO Done testing zone consistency for sentensia.se.
+ 12.914: sentensia.se INFO Begin testing SOA parameters for sentensia.se.
+ 12.924: sentensia.se INFO Found SOA record for sentensia.se.
+ 12.925: sentensia.se INFO Begin testing host ns.sentensia.se.
+ 12.925: sentensia.se INFO Begin testing address 92.33.7.66.
+ 12.927: sentensia.se INFO Done testing address 92.33.7.66.
+ 12.927: sentensia.se INFO Done testing host ns.sentensia.se.
+ 12.927: sentensia.se INFO SOA MNAME for sentensia.se valid (ns.sentensia.se).
+ 12.928: sentensia.se INFO SOA MNAME for sentensia.se (ns.sentensia.se) listed as NS.
+ 12.937: sentensia.se INFO SOA MNAME for sentensia.se (ns.sentensia.se) is authoritative.
+ 12.938: sentensia.se INFO Begin testing email address sqsup@sentensia.se.
+ 13.160: sentensia.se INFO Mail exchangers for sqsup@sentensia.se found cust10836-1.in.mailcontrol.com,cust10836-2.in.mailcontrol.com.
+ 13.161: sentensia.se INFO Begin testing host cust10836-1.in.mailcontrol.com.
+ 14.202: sentensia.se INFO Begin testing address 85.115.52.190.
+ 15.626: sentensia.se INFO Done testing address 85.115.52.190.
+ 15.627: sentensia.se INFO Done testing host cust10836-1.in.mailcontrol.com.
+ 15.627: sentensia.se INFO Begin testing mail server cust10836-1.in.mailcontrol.com (85.115.52.190) with sqsup@sentensia.se.
+ 20.288: sentensia.se WARNING Failed to connect to cust10836-1.in.mailcontrol.com (85.115.52.190).
+ 20.288: sentensia.se INFO Done testing mail server cust10836-1.in.mailcontrol.com (85.115.52.190) with sqsup@sentensia.se.
+ 20.288: sentensia.se INFO Begin testing host cust10836-2.in.mailcontrol.com.
+ 21.334: sentensia.se INFO Begin testing address 85.115.60.190.
+ 22.917: sentensia.se INFO Done testing address 85.115.60.190.
+ 22.917: sentensia.se INFO Done testing host cust10836-2.in.mailcontrol.com.
+ 22.918: sentensia.se INFO Begin testing mail server cust10836-2.in.mailcontrol.com (85.115.60.190) with sqsup@sentensia.se.
+ 24.335: sentensia.se INFO SMTP banner: cluster-d.mailcontrol.com ESMTP MailControl
+ 24.860: sentensia.se INFO SMTP testing of cust10836-2.in.mailcontrol.com (85.115.60.190) with sqsup@sentensia.se succeeded without errors.
+ 24.861: sentensia.se INFO Done testing mail server cust10836-2.in.mailcontrol.com (85.115.60.190) with sqsup@sentensia.se.
+ 24.861: sentensia.se INFO Delivery over IPv4 to sqsup@sentensia.se ok.
+ 24.861: sentensia.se INFO Delivery over IPv6 to sqsup@sentensia.se could not be done.
+ 24.861: sentensia.se INFO Done testing email address sqsup@sentensia.se.
+ 24.862: sentensia.se INFO Successful attempt to deliver email for SOA RNAME of sentensia.se (sqsup.sentensia.se) using sqsup@sentensia.se.
+ 24.862: sentensia.se INFO SOA TTL for sentensia.se OK (38400) - recommended >= 3600.
+ 24.862: sentensia.se INFO SOA refresh for sentensia.se OK (14400) - recommended >= 14400.
+ 24.862: sentensia.se INFO SOA retry for sentensia.se OK (3600) - recommended >= 3600.
+ 24.863: sentensia.se INFO SOA expire for sentensia.se OK (604800) - recommended >= 604800.
+ 24.863: sentensia.se INFO SOA minimum for sentensia.se OK (38400) - recommended between 300 and 86400.
+ 24.863: sentensia.se INFO Done testing SOA parameters for sentensia.se.
+ 24.864: sentensia.se INFO Begin testing connectivity for sentensia.se.
+ 25.458: sentensia.se INFO Name server 92.33.7.66 announced by: 2119
+ 26.059: sentensia.se INFO Name server 92.33.7.72 announced by: 2119
+ 26.059: sentensia.se INFO Zone announced by IPv4 ASN: 2119
+ 26.059: sentensia.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 26.060: sentensia.se INFO Zone announced by IPv6 ASN: 
+ 26.060: sentensia.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 26.060: sentensia.se INFO Done testing connectivity for sentensia.se.
+ 26.060: sentensia.se INFO Begin testing DNSSEC for sentensia.se.
+ 26.074: sentensia.se INFO Did not find DS record for sentensia.se at parent.
+ 26.101: sentensia.se INFO Servers for sentensia.se have consistent extra processing status.
+ 26.102: sentensia.se INFO Did not find DNSKEY record for sentensia.se at child.
+ 26.102: sentensia.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 26.102: sentensia.se INFO Done testing DNSSEC for sentensia.se.
+ 26.102: sentensia.se INFO Test completed for zone sentensia.se.

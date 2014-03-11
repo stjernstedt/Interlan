@@ -1,0 +1,88 @@
+  0.000: heinola.fi INFO Begin testing zone heinola.fi with version 1.6.1.
+  0.435: heinola.fi INFO Begin testing delegation for heinola.fi.
+  8.683: heinola.fi INFO Name servers listed at parent: ns1.taajama.fi,ns4.taajama.fi
+ 10.352: heinola.fi INFO Name servers listed at child: ns1.taajama.fi,ns4.taajama.fi
+ 10.353: heinola.fi NOTICE No IPv6 name servers found.
+ 10.447: heinola.fi INFO Parent glue for heinola.fi found: ns1.taajama.fi (83.102.40.26)
+ 10.558: heinola.fi INFO Parent glue for heinola.fi found: ns4.taajama.fi (83.102.40.27)
+ 10.619: heinola.fi INFO Checking glue for ns1.taajama.fi (83.102.40.26).
+ 10.619: heinola.fi INFO Checking glue for ns4.taajama.fi (83.102.40.27).
+ 10.620: heinola.fi INFO Parent glue for heinola.fi found: ns1.taajama.fi (83.102.40.26)
+ 10.620: heinola.fi INFO Parent glue for heinola.fi found: ns4.taajama.fi (83.102.40.27)
+ 11.585: heinola.fi INFO It is possible to build a referral packet for heinola.fi that works without EDNS0.
+ 12.296: heinola.fi INFO Previously used name servers for heinola.fi: 
+ 12.297: heinola.fi INFO Done testing delegation for heinola.fi.
+ 12.297: heinola.fi INFO Begin testing name server ns1.taajama.fi.
+ 12.297: heinola.fi INFO Begin testing host ns1.taajama.fi.
+ 12.594: heinola.fi INFO Begin testing address 83.102.40.26.
+ 17.667: heinola.fi INFO Done testing address 83.102.40.26.
+ 17.667: heinola.fi INFO Done testing host ns1.taajama.fi.
+ 17.991: heinola.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over UDP.
+ 18.048: heinola.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over TCP.
+ 18.065: heinola.fi INFO Name server ns1.taajama.fi (83.102.40.26) is not recursive.
+ 18.175: heinola.fi INFO Name server ns1.taajama.fi (83.102.40.26) authoritative for heinola.fi.
+ 18.214: heinola.fi INFO Name server ns1.taajama.fi (83.102.40.26) closed for zone transfer of heinola.fi.
+ 18.233: heinola.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): hostname.bind = kotkarausku
+ 18.267: heinola.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): version.bind = Not disclosed
+ 18.302: heinola.fi NOTICE No answer received from 83.102.40.26 when querying for version.server/CH/TXT.
+ 18.302: heinola.fi INFO Done testing name server ns1.taajama.fi.
+ 18.303: heinola.fi INFO Begin testing name server ns4.taajama.fi.
+ 18.303: heinola.fi INFO Begin testing host ns4.taajama.fi.
+ 18.479: heinola.fi INFO Begin testing address 83.102.40.27.
+ 19.227: heinola.fi INFO Done testing address 83.102.40.27.
+ 19.227: heinola.fi INFO Done testing host ns4.taajama.fi.
+ 19.323: heinola.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over UDP.
+ 19.370: heinola.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over TCP.
+ 19.401: heinola.fi INFO Name server ns4.taajama.fi (83.102.40.27) is not recursive.
+ 19.531: heinola.fi INFO Name server ns4.taajama.fi (83.102.40.27) authoritative for heinola.fi.
+ 19.578: heinola.fi INFO Name server ns4.taajama.fi (83.102.40.27) closed for zone transfer of heinola.fi.
+ 19.594: heinola.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): hostname.bind = lapiorausku
+ 19.617: heinola.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): version.bind = Not disclosed
+ 19.683: heinola.fi NOTICE No answer received from 83.102.40.27 when querying for version.server/CH/TXT.
+ 19.683: heinola.fi INFO Done testing name server ns4.taajama.fi.
+ 19.683: heinola.fi INFO Begin testing zone consistency for heinola.fi.
+ 20.726: heinola.fi INFO SOA at address 83.102.40.26 has serial 2014021001.
+ 20.756: heinola.fi INFO SOA at address 83.102.40.27 has serial 2014021001.
+ 20.756: heinola.fi INFO All SOA records have consistent serial numbers.
+ 20.756: heinola.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 21.312: heinola.fi NOTICE The listed nameservers for heinola.fi all report the same set of nameservers.
+ 21.312: heinola.fi INFO Done testing zone consistency for heinola.fi.
+ 21.312: heinola.fi INFO Begin testing SOA parameters for heinola.fi.
+ 21.352: heinola.fi INFO Found SOA record for heinola.fi.
+ 21.369: heinola.fi INFO Begin testing host ns1.taajama.fi.
+ 21.610: heinola.fi INFO Begin testing address 83.102.40.26.
+ 21.920: heinola.fi INFO Done testing address 83.102.40.26.
+ 21.920: heinola.fi INFO Done testing host ns1.taajama.fi.
+ 21.920: heinola.fi INFO SOA MNAME for heinola.fi valid (ns1.taajama.fi).
+ 21.921: heinola.fi INFO SOA MNAME for heinola.fi (ns1.taajama.fi) listed as NS.
+ 22.256: heinola.fi INFO SOA MNAME for heinola.fi (ns1.taajama.fi) is authoritative.
+ 22.256: heinola.fi INFO Begin testing email address hostmaster@taajama.com.
+ 22.985: heinola.fi INFO Mail exchangers for hostmaster@taajama.com found spp.taajama.fi,mx2.taajama.com.
+ 22.985: heinola.fi INFO Begin testing host spp.taajama.fi.
+ 23.558: heinola.fi INFO Begin testing address 217.78.212.151.
+ 24.530: heinola.fi INFO Done testing address 217.78.212.151.
+ 24.530: heinola.fi INFO Done testing host spp.taajama.fi.
+ 24.731: heinola.fi INFO Begin testing host mx2.taajama.com.
+ 25.186: heinola.fi INFO Begin testing address 83.102.41.75.
+ 26.095: heinola.fi INFO Done testing address 83.102.41.75.
+ 26.095: heinola.fi INFO Done testing host mx2.taajama.com.
+ 26.343: heinola.fi INFO Done testing email address hostmaster@taajama.com.
+ 26.343: heinola.fi INFO Successful attempt to deliver email for SOA RNAME of heinola.fi (hostmaster.taajama.com) using hostmaster@taajama.com.
+ 26.343: heinola.fi INFO SOA TTL for heinola.fi OK (28800) - recommended >= 3600.
+ 26.343: heinola.fi INFO SOA refresh for heinola.fi OK (28800) - recommended >= 14400.
+ 26.343: heinola.fi INFO SOA retry for heinola.fi OK (7200) - recommended >= 3600.
+ 26.343: heinola.fi INFO SOA expire for heinola.fi OK (1814400) - recommended >= 604800.
+ 26.343: heinola.fi INFO SOA minimum for heinola.fi OK (86400) - recommended between 300 and 86400.
+ 26.343: heinola.fi INFO Done testing SOA parameters for heinola.fi.
+ 26.344: heinola.fi INFO Begin testing connectivity for heinola.fi.
+ 27.705: heinola.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 27.705: heinola.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 27.705: heinola.fi INFO Done testing connectivity for heinola.fi.
+ 27.705: heinola.fi INFO Begin testing DNSSEC for heinola.fi.
+ 27.812: heinola.fi INFO Did not find DS record for heinola.fi at parent.
+ 27.899: heinola.fi INFO Servers for heinola.fi have consistent extra processing status.
+ 27.942: heinola.fi INFO Authenticated denial records not found for heinola.fi.
+ 27.956: heinola.fi INFO Did not find DNSKEY record for heinola.fi at child.
+ 27.956: heinola.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 27.957: heinola.fi INFO Done testing DNSSEC for heinola.fi.
+ 27.957: heinola.fi INFO Test completed for zone heinola.fi.

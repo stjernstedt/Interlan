@@ -1,0 +1,11 @@
+#!/bin/sh
+
+cd /home/myndighetermeddnssec
+./dnssec2 |tee resultat.txt
+./rrd
+#php file.php < resultat.txt >public_html/index.html
+
+php file.php < resultat.txt >public_html/index2.html
+cp public_html/index2.html public_html/index.html
+
+

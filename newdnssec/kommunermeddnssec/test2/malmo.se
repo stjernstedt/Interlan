@@ -1,0 +1,101 @@
+  0.000: malmo.se INFO Begin testing zone malmo.se with version 1.2.
+  0.000: malmo.se INFO Begin testing delegation for malmo.se.
+ 13.269: malmo.se INFO Name servers listed at parent: ns1.malmo.se,ns2.malmo.se
+ 14.471: malmo.se INFO Name servers listed at child: ns1.malmo.se,ns2.malmo.se
+ 14.472: malmo.se NOTICE No IPv6 name servers found.
+ 14.480: malmo.se INFO Parent glue for malmo.se found: ns1.malmo.se (161.52.15.201)
+ 14.527: malmo.se INFO Parent glue for malmo.se found: ns2.malmo.se (161.52.15.202)
+ 14.566: malmo.se INFO Checking glue for ns1.malmo.se (161.52.15.201).
+ 14.586: malmo.se INFO Child glue for malmo.se found: ns1.malmo.se (161.52.15.201)
+ 14.586: malmo.se INFO Checking glue for ns2.malmo.se (161.52.15.202).
+ 14.605: malmo.se INFO Child glue for malmo.se found: ns2.malmo.se (161.52.15.202)
+ 14.605: malmo.se INFO Parent glue for malmo.se found: ns1.malmo.se (161.52.15.201)
+ 14.606: malmo.se INFO Parent glue for malmo.se found: ns2.malmo.se (161.52.15.202)
+ 14.606: malmo.se INFO Done testing delegation for malmo.se.
+ 14.606: malmo.se INFO Begin testing name server ns1.malmo.se.
+ 14.606: malmo.se INFO Begin testing host ns1.malmo.se.
+ 14.607: malmo.se INFO Begin testing address 161.52.15.201.
+ 25.054: malmo.se INFO Done testing address 161.52.15.201.
+ 25.054: malmo.se INFO Done testing host ns1.malmo.se.
+ 25.074: malmo.se INFO Name server ns1.malmo.se (161.52.15.201) answers queries over UDP.
+ 25.104: malmo.se INFO Name server ns1.malmo.se (161.52.15.201) answers queries over TCP.
+ 25.150: malmo.se WARNING Name server ns1.malmo.se (161.52.15.201) is recursive.
+ 25.168: malmo.se INFO Name server ns1.malmo.se (161.52.15.201) authoritative for malmo.se.
+ 25.427: malmo.se INFO Name server ns1.malmo.se (161.52.15.201) closed for zone transfer of malmo.se.
+ 25.444: malmo.se NOTICE No answer received from 161.52.15.201 when querying for hostname.bind/CH/TXT.
+ 43.446: malmo.se INFO Done testing name server ns1.malmo.se.
+ 43.446: malmo.se INFO Begin testing name server ns2.malmo.se.
+ 43.446: malmo.se INFO Begin testing host ns2.malmo.se.
+ 43.447: malmo.se INFO Begin testing address 161.52.15.202.
+ 43.723: malmo.se INFO Done testing address 161.52.15.202.
+ 43.723: malmo.se INFO Done testing host ns2.malmo.se.
+ 43.743: malmo.se INFO Name server ns2.malmo.se (161.52.15.202) answers queries over UDP.
+ 43.780: malmo.se INFO Name server ns2.malmo.se (161.52.15.202) answers queries over TCP.
+ 47.798: malmo.se WARNING Name server ns2.malmo.se (161.52.15.202) is recursive.
+ 47.817: malmo.se INFO Name server ns2.malmo.se (161.52.15.202) authoritative for malmo.se.
+ 48.076: malmo.se INFO Name server ns2.malmo.se (161.52.15.202) closed for zone transfer of malmo.se.
+ 48.094: malmo.se NOTICE No answer received from 161.52.15.202 when querying for hostname.bind/CH/TXT.
+ 66.094: malmo.se INFO Done testing name server ns2.malmo.se.
+ 66.094: malmo.se INFO Begin testing zone consistency for malmo.se.
+ 66.115: malmo.se INFO SOA at address 161.52.15.201 has serial 2010090906.
+ 66.134: malmo.se INFO SOA at address 161.52.15.202 has serial 2010090906.
+ 66.135: malmo.se INFO All SOA records have consistent serial numbers.
+ 66.135: malmo.se INFO All SOA records are consistent among all name servers.
+ 66.135: malmo.se INFO Done testing zone consistency for malmo.se.
+ 66.135: malmo.se INFO Begin testing SOA parameters for malmo.se.
+ 66.154: malmo.se INFO Found SOA record for malmo.se.
+ 66.154: malmo.se INFO Begin testing host ns1.malmo.se.
+ 66.154: malmo.se INFO Begin testing address 161.52.15.201.
+ 66.156: malmo.se INFO Done testing address 161.52.15.201.
+ 66.156: malmo.se INFO Done testing host ns1.malmo.se.
+ 66.156: malmo.se INFO SOA MNAME for malmo.se valid (ns1.malmo.se).
+ 66.156: malmo.se INFO SOA MNAME for malmo.se (ns1.malmo.se) listed as NS.
+ 66.174: malmo.se INFO SOA MNAME for malmo.se (ns1.malmo.se) is authoritative.
+ 66.174: malmo.se INFO Begin testing email address hostmaster@malmo.se.
+ 66.430: malmo.se INFO Mail exchangers for hostmaster@malmo.se found mail02.malmo.se,mail03.malmo.se,mail04.malmo.se,mail01.malmo.se.
+ 66.430: malmo.se INFO All mail servers for hostmaster@malmo.se are in zone malmo.se.
+ 66.430: malmo.se INFO Begin testing host mail02.malmo.se.
+ 66.878: malmo.se INFO Begin testing address 161.52.15.215.
+ 71.245: malmo.se INFO Done testing address 161.52.15.215.
+ 71.245: malmo.se INFO Done testing host mail02.malmo.se.
+ 71.245: malmo.se INFO Begin testing mail server mail02.malmo.se (161.52.15.215) with hostmaster@malmo.se.
+ 71.525: malmo.se INFO SMTP banner: ***********************************
+ 71.581: malmo.se INFO SMTP testing of mail02.malmo.se (161.52.15.215) with hostmaster@malmo.se succeeded without errors.
+ 71.581: malmo.se INFO Done testing mail server mail02.malmo.se (161.52.15.215) with hostmaster@malmo.se.
+ 71.582: malmo.se INFO Begin testing host mail03.malmo.se.
+ 72.059: malmo.se INFO Begin testing address 161.52.15.217.
+ 72.494: malmo.se INFO Done testing address 161.52.15.217.
+ 72.494: malmo.se INFO Done testing host mail03.malmo.se.
+ 72.495: malmo.se INFO Begin testing host mail04.malmo.se.
+ 72.980: malmo.se INFO Begin testing address 161.52.15.219.
+ 73.367: malmo.se INFO Done testing address 161.52.15.219.
+ 73.368: malmo.se INFO Done testing host mail04.malmo.se.
+ 73.368: malmo.se INFO Begin testing host mail01.malmo.se.
+ 73.828: malmo.se INFO Begin testing address 161.52.15.213.
+ 78.110: malmo.se INFO Done testing address 161.52.15.213.
+ 78.110: malmo.se INFO Done testing host mail01.malmo.se.
+ 78.111: malmo.se INFO Delivery over IPv4 to hostmaster@malmo.se ok.
+ 78.111: malmo.se INFO Delivery over IPv6 to hostmaster@malmo.se could not be done.
+ 78.111: malmo.se INFO Done testing email address hostmaster@malmo.se.
+ 78.111: malmo.se INFO Successful attempt to deliver email for SOA RNAME of malmo.se (hostmaster.malmo.se) using hostmaster@malmo.se.
+ 78.111: malmo.se INFO SOA TTL for malmo.se OK (3600) - recommended >= 3600.
+ 78.111: malmo.se INFO SOA refresh for malmo.se OK (14400) - recommended >= 14400.
+ 78.111: malmo.se INFO SOA retry for malmo.se OK (3600) - recommended >= 3600.
+ 78.111: malmo.se INFO SOA expire for malmo.se OK (1209600) - recommended >= 604800.
+ 78.112: malmo.se INFO SOA minimum for malmo.se OK (7200) - recommended between 300 and 86400.
+ 78.112: malmo.se INFO Done testing SOA parameters for malmo.se.
+ 78.112: malmo.se INFO Begin testing connectivity for malmo.se.
+ 82.881: malmo.se INFO Name server 161.52.15.202 announced by: 43922
+ 83.421: malmo.se INFO Name server 161.52.15.201 announced by: 43922
+ 83.421: malmo.se INFO Zone announced by IPv4 ASN: 43922
+ 83.421: malmo.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 83.421: malmo.se INFO Zone announced by IPv6 ASN: 
+ 83.421: malmo.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 83.422: malmo.se INFO Done testing connectivity for malmo.se.
+ 83.422: malmo.se INFO Begin testing DNSSEC for malmo.se.
+ 83.803: malmo.se INFO Did not find DS record for malmo.se at parent.
+ 83.870: malmo.se INFO Servers for malmo.se have consistent extra processing status.
+ 83.871: malmo.se INFO Did not find DNSKEY record for malmo.se at child.
+ 83.871: malmo.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 83.871: malmo.se INFO Done testing DNSSEC for malmo.se.
+ 83.871: malmo.se INFO Test completed for zone malmo.se.

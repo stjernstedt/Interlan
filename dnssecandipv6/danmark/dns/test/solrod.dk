@@ -1,0 +1,88 @@
+  0.000: solrod.dk INFO Begin testing zone solrod.dk with version 1.6.1.
+  0.422: solrod.dk INFO Begin testing delegation for solrod.dk.
+  5.463: solrod.dk INFO Name servers listed at parent: ns-auth03.kmd.dk,ns-auth04.kmd.dk
+  7.236: solrod.dk INFO Name servers listed at child: ns-auth03.kmd.dk,ns-auth04.kmd.dk
+  7.237: solrod.dk NOTICE No IPv6 name servers found.
+  7.308: solrod.dk INFO Parent glue for solrod.dk found: ns-auth03.kmd.dk (131.165.64.5)
+  7.411: solrod.dk INFO Parent glue for solrod.dk found: ns-auth04.kmd.dk (131.165.4.5)
+  7.448: solrod.dk INFO Checking glue for ns-auth03.kmd.dk (131.165.64.5).
+  7.448: solrod.dk INFO Checking glue for ns-auth04.kmd.dk (131.165.4.5).
+  7.466: solrod.dk INFO Parent glue for solrod.dk found: ns-auth03.kmd.dk (131.165.64.5)
+  7.466: solrod.dk INFO Parent glue for solrod.dk found: ns-auth04.kmd.dk (131.165.4.5)
+  8.374: solrod.dk INFO It is possible to build a referral packet for solrod.dk that works without EDNS0.
+  9.012: solrod.dk INFO Previously used name servers for solrod.dk: 
+  9.013: solrod.dk INFO Done testing delegation for solrod.dk.
+  9.013: solrod.dk INFO Begin testing name server ns-auth03.kmd.dk.
+  9.013: solrod.dk INFO Begin testing host ns-auth03.kmd.dk.
+  9.311: solrod.dk INFO Begin testing address 131.165.64.5.
+ 16.915: solrod.dk INFO Done testing address 131.165.64.5.
+ 16.920: solrod.dk INFO Done testing host ns-auth03.kmd.dk.
+ 17.184: solrod.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) answers queries over UDP.
+ 17.308: solrod.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) answers queries over TCP.
+ 17.379: solrod.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) is not recursive.
+ 17.604: solrod.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) authoritative for solrod.dk.
+ 17.755: solrod.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) closed for zone transfer of solrod.dk.
+ 17.814: solrod.dk INFO Legacy name server ID for ns-auth03.kmd.dk (131.165.64.5): hostname.bind = ns-auth03.kmd.dk
+ 17.904: solrod.dk INFO Legacy name server ID for ns-auth03.kmd.dk (131.165.64.5): version.bind = 1.0
+ 18.018: solrod.dk NOTICE No answer received from 131.165.64.5 when querying for version.server/CH/TXT.
+ 18.019: solrod.dk INFO Done testing name server ns-auth03.kmd.dk.
+ 18.019: solrod.dk INFO Begin testing name server ns-auth04.kmd.dk.
+ 18.019: solrod.dk INFO Begin testing host ns-auth04.kmd.dk.
+ 18.375: solrod.dk INFO Begin testing address 131.165.4.5.
+ 18.851: solrod.dk INFO Done testing address 131.165.4.5.
+ 18.851: solrod.dk INFO Done testing host ns-auth04.kmd.dk.
+ 19.192: solrod.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) answers queries over UDP.
+ 19.308: solrod.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) answers queries over TCP.
+ 19.376: solrod.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) is not recursive.
+ 19.682: solrod.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) authoritative for solrod.dk.
+ 19.847: solrod.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) closed for zone transfer of solrod.dk.
+ 19.906: solrod.dk INFO Legacy name server ID for ns-auth04.kmd.dk (131.165.4.5): hostname.bind = ns-auth04.kmd.dk
+ 19.971: solrod.dk INFO Legacy name server ID for ns-auth04.kmd.dk (131.165.4.5): version.bind = 1.0
+ 20.084: solrod.dk NOTICE No answer received from 131.165.4.5 when querying for version.server/CH/TXT.
+ 20.084: solrod.dk INFO Done testing name server ns-auth04.kmd.dk.
+ 20.084: solrod.dk INFO Begin testing zone consistency for solrod.dk.
+ 20.886: solrod.dk INFO SOA at address 131.165.4.5 has serial 220.
+ 20.952: solrod.dk INFO SOA at address 131.165.64.5 has serial 220.
+ 20.952: solrod.dk INFO All SOA records have consistent serial numbers.
+ 20.952: solrod.dk INFO All other fields in the SOA record are consistent among all name servers.
+ 21.514: solrod.dk NOTICE The listed nameservers for solrod.dk all report the same set of nameservers.
+ 21.514: solrod.dk INFO Done testing zone consistency for solrod.dk.
+ 21.527: solrod.dk INFO Begin testing SOA parameters for solrod.dk.
+ 21.580: solrod.dk INFO Found SOA record for solrod.dk.
+ 21.580: solrod.dk INFO Begin testing host ns-auth03.kmd.dk.
+ 21.910: solrod.dk INFO Begin testing address 131.165.64.5.
+ 22.180: solrod.dk INFO Done testing address 131.165.64.5.
+ 22.180: solrod.dk INFO Done testing host ns-auth03.kmd.dk.
+ 22.180: solrod.dk INFO SOA MNAME for solrod.dk valid (ns-auth03.kmd.dk).
+ 22.180: solrod.dk INFO SOA MNAME for solrod.dk (ns-auth03.kmd.dk) listed as NS.
+ 22.448: solrod.dk INFO SOA MNAME for solrod.dk (ns-auth03.kmd.dk) is authoritative.
+ 22.448: solrod.dk INFO Begin testing email address dnsadmin@kmd.dk.
+ 22.728: solrod.dk INFO Mail exchangers for dnsadmin@kmd.dk found edge1.kmd.dk,edge2.kmd.dk.
+ 22.729: solrod.dk INFO Begin testing host edge1.kmd.dk.
+ 23.119: solrod.dk INFO Begin testing address 131.165.63.88.
+ 23.779: solrod.dk INFO Done testing address 131.165.63.88.
+ 23.779: solrod.dk INFO Done testing host edge1.kmd.dk.
+ 24.019: solrod.dk INFO Begin testing host edge2.kmd.dk.
+ 24.418: solrod.dk INFO Begin testing address 131.165.63.89.
+ 25.060: solrod.dk INFO Done testing address 131.165.63.89.
+ 25.060: solrod.dk INFO Done testing host edge2.kmd.dk.
+ 25.282: solrod.dk INFO Done testing email address dnsadmin@kmd.dk.
+ 25.285: solrod.dk INFO Successful attempt to deliver email for SOA RNAME of solrod.dk (dnsadmin.kmd.dk) using dnsadmin@kmd.dk.
+ 25.285: solrod.dk INFO SOA TTL for solrod.dk OK (3600) - recommended >= 3600.
+ 25.285: solrod.dk NOTICE SOA refresh for solrod.dk too small (10800) - recommended >= 14400.
+ 25.285: solrod.dk INFO SOA retry for solrod.dk OK (3600) - recommended >= 3600.
+ 25.285: solrod.dk INFO SOA expire for solrod.dk OK (604800) - recommended >= 604800.
+ 25.285: solrod.dk INFO SOA minimum for solrod.dk OK (43200) - recommended between 300 and 86400.
+ 25.286: solrod.dk INFO Done testing SOA parameters for solrod.dk.
+ 25.286: solrod.dk INFO Begin testing connectivity for solrod.dk.
+ 26.307: solrod.dk NOTICE Zone announced by fewer than two IPv4 ASN.
+ 26.307: solrod.dk NOTICE Zone announced by fewer than two IPv6 ASN.
+ 26.307: solrod.dk INFO Done testing connectivity for solrod.dk.
+ 26.307: solrod.dk INFO Begin testing DNSSEC for solrod.dk.
+ 26.371: solrod.dk INFO Did not find DS record for solrod.dk at parent.
+ 26.596: solrod.dk INFO Servers for solrod.dk have consistent extra processing status.
+ 26.702: solrod.dk INFO Authenticated denial records not found for solrod.dk.
+ 26.755: solrod.dk INFO Did not find DNSKEY record for solrod.dk at child.
+ 26.755: solrod.dk INFO No DNSKEY(s) found at child, other tests skipped.
+ 26.755: solrod.dk INFO Done testing DNSSEC for solrod.dk.
+ 26.756: solrod.dk INFO Test completed for zone solrod.dk.

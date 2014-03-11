@@ -1,0 +1,142 @@
+  0.000: vantaa.fi INFO Begin testing zone vantaa.fi with version 1.5.0.
+  2.239: vantaa.fi INFO Begin testing delegation for vantaa.fi.
+ 49.982: vantaa.fi INFO Name servers listed at parent: ns1.plat.fi,ns2.plat.fi,ns3.plat.fi,ns4.plat.fi,ns5.plat.fi
+ 86.470: vantaa.fi INFO Name servers listed at child: ns1.plat.fi,ns2.plat.fi,ns3.plat.fi,ns4.plat.fi,ns5.plat.fi
+ 86.470: vantaa.fi NOTICE No IPv6 name servers found.
+ 87.046: vantaa.fi INFO Parent glue for vantaa.fi found: ns1.plat.fi (81.22.160.5)
+ 88.442: vantaa.fi INFO Parent glue for vantaa.fi found: ns2.plat.fi (81.22.160.6)
+ 89.470: vantaa.fi INFO Parent glue for vantaa.fi found: ns3.plat.fi (81.22.163.204)
+ 90.490: vantaa.fi INFO Parent glue for vantaa.fi found: ns4.plat.fi (62.236.77.10)
+ 91.566: vantaa.fi INFO Parent glue for vantaa.fi found: ns5.plat.fi (62.236.76.10)
+ 92.118: vantaa.fi INFO Checking glue for ns1.plat.fi (81.22.160.5).
+ 92.118: vantaa.fi INFO Checking glue for ns2.plat.fi (81.22.160.6).
+ 92.118: vantaa.fi INFO Checking glue for ns3.plat.fi (81.22.163.204).
+ 92.118: vantaa.fi INFO Checking glue for ns4.plat.fi (62.236.77.10).
+ 92.118: vantaa.fi INFO Checking glue for ns5.plat.fi (62.236.76.10).
+ 92.119: vantaa.fi INFO Parent glue for vantaa.fi found: ns1.plat.fi (81.22.160.5)
+ 92.551: vantaa.fi INFO Parent glue for vantaa.fi found: ns2.plat.fi (81.22.160.6)
+ 92.568: vantaa.fi INFO Parent glue for vantaa.fi found: ns3.plat.fi (81.22.163.204)
+ 92.568: vantaa.fi INFO Parent glue for vantaa.fi found: ns4.plat.fi (62.236.77.10)
+ 92.568: vantaa.fi INFO Parent glue for vantaa.fi found: ns5.plat.fi (62.236.76.10)
+108.442: vantaa.fi INFO It is possible to build a referral packet for vantaa.fi that works without EDNS0.
+120.608: vantaa.fi INFO Previously used name servers for vantaa.fi: 
+120.608: vantaa.fi INFO Done testing delegation for vantaa.fi.
+120.609: vantaa.fi INFO Begin testing name server ns1.plat.fi.
+120.609: vantaa.fi INFO Begin testing host ns1.plat.fi.
+122.752: vantaa.fi INFO Begin testing address 81.22.160.5.
+179.087: vantaa.fi INFO Done testing address 81.22.160.5.
+179.136: vantaa.fi INFO Done testing host ns1.plat.fi.
+180.983: vantaa.fi INFO Name server ns1.plat.fi (81.22.160.5) answers queries over UDP.
+181.518: vantaa.fi INFO Name server ns1.plat.fi (81.22.160.5) answers queries over TCP.
+181.808: vantaa.fi INFO Name server ns1.plat.fi (81.22.160.5) is not recursive.
+182.806: vantaa.fi INFO Name server ns1.plat.fi (81.22.160.5) authoritative for vantaa.fi.
+183.140: vantaa.fi INFO Name server ns1.plat.fi (81.22.160.5) closed for zone transfer of vantaa.fi.
+183.370: vantaa.fi INFO Legacy name server ID for ns1.plat.fi (81.22.160.5): hostname.bind = ns.wmfi.net
+183.804: vantaa.fi INFO Legacy name server ID for ns1.plat.fi (81.22.160.5): version.bind = [secured]
+184.224: vantaa.fi NOTICE No answer received from 81.22.160.5 when querying for version.server/CH/TXT.
+184.224: vantaa.fi INFO Done testing name server ns1.plat.fi.
+184.225: vantaa.fi INFO Begin testing name server ns2.plat.fi.
+184.225: vantaa.fi INFO Begin testing host ns2.plat.fi.
+186.220: vantaa.fi INFO Begin testing address 81.22.160.6.
+196.773: vantaa.fi INFO Done testing address 81.22.160.6.
+196.773: vantaa.fi INFO Done testing host ns2.plat.fi.
+198.484: vantaa.fi INFO Name server ns2.plat.fi (81.22.160.6) answers queries over UDP.
+198.734: vantaa.fi INFO Name server ns2.plat.fi (81.22.160.6) answers queries over TCP.
+199.052: vantaa.fi INFO Name server ns2.plat.fi (81.22.160.6) is not recursive.
+199.890: vantaa.fi INFO Name server ns2.plat.fi (81.22.160.6) authoritative for vantaa.fi.
+200.211: vantaa.fi INFO Name server ns2.plat.fi (81.22.160.6) closed for zone transfer of vantaa.fi.
+200.356: vantaa.fi INFO Legacy name server ID for ns2.plat.fi (81.22.160.6): hostname.bind = ns2.wmfi.net
+200.476: vantaa.fi INFO Legacy name server ID for ns2.plat.fi (81.22.160.6): version.bind = [secured]
+200.847: vantaa.fi NOTICE No answer received from 81.22.160.6 when querying for version.server/CH/TXT.
+200.847: vantaa.fi INFO Done testing name server ns2.plat.fi.
+200.847: vantaa.fi INFO Begin testing name server ns3.plat.fi.
+200.907: vantaa.fi INFO Begin testing host ns3.plat.fi.
+202.152: vantaa.fi INFO Begin testing address 81.22.163.204.
+207.010: vantaa.fi INFO Done testing address 81.22.163.204.
+207.010: vantaa.fi INFO Done testing host ns3.plat.fi.
+208.082: vantaa.fi INFO Name server ns3.plat.fi (81.22.163.204) answers queries over UDP.
+208.277: vantaa.fi INFO Name server ns3.plat.fi (81.22.163.204) answers queries over TCP.
+208.480: vantaa.fi INFO Name server ns3.plat.fi (81.22.163.204) is not recursive.
+209.222: vantaa.fi INFO Name server ns3.plat.fi (81.22.163.204) authoritative for vantaa.fi.
+209.400: vantaa.fi INFO Name server ns3.plat.fi (81.22.163.204) closed for zone transfer of vantaa.fi.
+209.470: vantaa.fi INFO Legacy name server ID for ns3.plat.fi (81.22.163.204): hostname.bind = ns3.wmfi.net
+209.700: vantaa.fi INFO Legacy name server ID for ns3.plat.fi (81.22.163.204): version.bind = [secured]
+209.928: vantaa.fi NOTICE No answer received from 81.22.163.204 when querying for version.server/CH/TXT.
+209.928: vantaa.fi INFO Done testing name server ns3.plat.fi.
+209.928: vantaa.fi INFO Begin testing name server ns4.plat.fi.
+209.928: vantaa.fi INFO Begin testing host ns4.plat.fi.
+210.962: vantaa.fi INFO Begin testing address 62.236.77.10.
+221.822: vantaa.fi INFO Done testing address 62.236.77.10.
+221.822: vantaa.fi INFO Done testing host ns4.plat.fi.
+222.913: vantaa.fi INFO Name server ns4.plat.fi (62.236.77.10) answers queries over UDP.
+223.077: vantaa.fi INFO Name server ns4.plat.fi (62.236.77.10) answers queries over TCP.
+223.212: vantaa.fi INFO Name server ns4.plat.fi (62.236.77.10) is not recursive.
+223.705: vantaa.fi INFO Name server ns4.plat.fi (62.236.77.10) authoritative for vantaa.fi.
+223.775: vantaa.fi INFO Name server ns4.plat.fi (62.236.77.10) closed for zone transfer of vantaa.fi.
+223.834: vantaa.fi INFO Legacy name server ID for ns4.plat.fi (62.236.77.10): hostname.bind = ns.novogroup.com
+223.943: vantaa.fi INFO Legacy name server ID for ns4.plat.fi (62.236.77.10): version.bind = [secured]
+224.051: vantaa.fi NOTICE No answer received from 62.236.77.10 when querying for version.server/CH/TXT.
+224.051: vantaa.fi INFO Done testing name server ns4.plat.fi.
+224.052: vantaa.fi INFO Begin testing name server ns5.plat.fi.
+224.052: vantaa.fi INFO Begin testing host ns5.plat.fi.
+225.229: vantaa.fi INFO Begin testing address 62.236.76.10.
+229.331: vantaa.fi INFO Done testing address 62.236.76.10.
+229.331: vantaa.fi INFO Done testing host ns5.plat.fi.
+230.246: vantaa.fi INFO Name server ns5.plat.fi (62.236.76.10) answers queries over UDP.
+230.480: vantaa.fi INFO Name server ns5.plat.fi (62.236.76.10) answers queries over TCP.
+230.614: vantaa.fi INFO Name server ns5.plat.fi (62.236.76.10) is not recursive.
+231.101: vantaa.fi INFO Name server ns5.plat.fi (62.236.76.10) authoritative for vantaa.fi.
+231.248: vantaa.fi INFO Name server ns5.plat.fi (62.236.76.10) closed for zone transfer of vantaa.fi.
+231.294: vantaa.fi INFO Legacy name server ID for ns5.plat.fi (62.236.76.10): hostname.bind = ns2.novogroup.com
+231.377: vantaa.fi INFO Legacy name server ID for ns5.plat.fi (62.236.76.10): version.bind = [secured]
+231.513: vantaa.fi NOTICE No answer received from 62.236.76.10 when querying for version.server/CH/TXT.
+231.563: vantaa.fi INFO Done testing name server ns5.plat.fi.
+231.564: vantaa.fi INFO Begin testing zone consistency for vantaa.fi.
+242.554: vantaa.fi INFO SOA at address 62.236.77.10 has serial 2013080747.
+242.843: vantaa.fi INFO SOA at address 81.22.160.5 has serial 2013080747.
+242.894: vantaa.fi INFO SOA at address 62.236.76.10 has serial 2013080747.
+242.974: vantaa.fi INFO SOA at address 81.22.163.204 has serial 2013080747.
+243.122: vantaa.fi INFO SOA at address 81.22.160.6 has serial 2013080747.
+243.122: vantaa.fi INFO All SOA records have consistent serial numbers.
+243.122: vantaa.fi INFO All other fields in the SOA record are consistent among all name servers.
+247.723: vantaa.fi NOTICE The listed nameservers for vantaa.fi all report the same set of nameservers.
+247.723: vantaa.fi INFO Done testing zone consistency for vantaa.fi.
+247.723: vantaa.fi INFO Begin testing SOA parameters for vantaa.fi.
+247.902: vantaa.fi INFO Found SOA record for vantaa.fi.
+247.902: vantaa.fi INFO Begin testing host ns1.plat.fi.
+248.868: vantaa.fi INFO Begin testing address 81.22.160.5.
+251.469: vantaa.fi INFO Done testing address 81.22.160.5.
+251.469: vantaa.fi INFO Done testing host ns1.plat.fi.
+251.469: vantaa.fi INFO SOA MNAME for vantaa.fi valid (ns1.plat.fi).
+251.469: vantaa.fi INFO SOA MNAME for vantaa.fi (ns1.plat.fi) listed as NS.
+252.530: vantaa.fi INFO SOA MNAME for vantaa.fi (ns1.plat.fi) is authoritative.
+252.640: vantaa.fi INFO Begin testing email address hostmaster@plat.fi.
+253.470: vantaa.fi INFO Mail exchangers for hostmaster@plat.fi found mailgws.wmfi.net.
+253.471: vantaa.fi INFO Begin testing host mailgws.wmfi.net.
+255.276: vantaa.fi INFO Begin testing address 81.22.163.205.
+258.574: vantaa.fi INFO Done testing address 81.22.163.205.
+258.574: vantaa.fi INFO Begin testing address 81.22.160.12.
+261.018: vantaa.fi INFO Done testing address 81.22.160.12.
+261.018: vantaa.fi INFO Begin testing address 81.22.160.13.
+263.428: vantaa.fi INFO Done testing address 81.22.160.13.
+263.428: vantaa.fi INFO Done testing host mailgws.wmfi.net.
+263.679: vantaa.fi INFO Done testing email address hostmaster@plat.fi.
+263.679: vantaa.fi INFO Successful attempt to deliver email for SOA RNAME of vantaa.fi (hostmaster.plat.fi) using hostmaster@plat.fi.
+263.679: vantaa.fi INFO SOA TTL for vantaa.fi OK (86400) - recommended >= 3600.
+263.680: vantaa.fi INFO SOA refresh for vantaa.fi OK (86400) - recommended >= 14400.
+263.680: vantaa.fi NOTICE SOA retry for vantaa.fi too small (900) - recommended >= 3600.
+263.680: vantaa.fi INFO SOA expire for vantaa.fi OK (604800) - recommended >= 604800.
+263.680: vantaa.fi INFO SOA minimum for vantaa.fi OK (86400) - recommended between 300 and 86400.
+263.680: vantaa.fi INFO Done testing SOA parameters for vantaa.fi.
+263.680: vantaa.fi INFO Begin testing connectivity for vantaa.fi.
+267.399: vantaa.fi INFO Zone announced by more than one ASN.
+267.399: vantaa.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+267.399: vantaa.fi INFO Done testing connectivity for vantaa.fi.
+267.399: vantaa.fi INFO Begin testing DNSSEC for vantaa.fi.
+267.430: vantaa.fi INFO Did not find DS record for vantaa.fi at parent.
+267.579: vantaa.fi INFO Servers for vantaa.fi have consistent extra processing status.
+267.607: vantaa.fi INFO Authenticated denial records not found for vantaa.fi.
+267.619: vantaa.fi INFO Did not find DNSKEY record for vantaa.fi at child.
+267.620: vantaa.fi INFO No DNSKEY(s) found at child, other tests skipped.
+267.620: vantaa.fi INFO Done testing DNSSEC for vantaa.fi.
+267.620: vantaa.fi INFO Test completed for zone vantaa.fi.

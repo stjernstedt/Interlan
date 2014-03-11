@@ -1,0 +1,88 @@
+  0.000: stevn.dk INFO Begin testing zone stevn.dk with version 1.5.0.
+  0.498: stevn.dk INFO Begin testing delegation for stevn.dk.
+ 10.258: stevn.dk INFO Name servers listed at parent: ns.domainteam.dk,ns2.domainteam.dk
+ 12.715: stevn.dk INFO Name servers listed at child: ns.domainteam.dk,ns2.domainteam.dk
+ 12.728: stevn.dk NOTICE No IPv6 name servers found.
+ 12.821: stevn.dk INFO Parent glue for stevn.dk found: ns.domainteam.dk (87.238.248.151)
+ 12.986: stevn.dk INFO Parent glue for stevn.dk found: ns2.domainteam.dk (81.7.151.103)
+ 13.069: stevn.dk INFO Checking glue for ns.domainteam.dk (87.238.248.151).
+ 13.069: stevn.dk INFO Checking glue for ns2.domainteam.dk (81.7.151.103).
+ 13.070: stevn.dk INFO Parent glue for stevn.dk found: ns.domainteam.dk (87.238.248.151)
+ 13.070: stevn.dk INFO Parent glue for stevn.dk found: ns2.domainteam.dk (81.7.151.103)
+ 14.345: stevn.dk INFO It is possible to build a referral packet for stevn.dk that works without EDNS0.
+ 15.341: stevn.dk INFO Previously used name servers for stevn.dk: 
+ 15.341: stevn.dk INFO Done testing delegation for stevn.dk.
+ 15.342: stevn.dk INFO Begin testing name server ns.domainteam.dk.
+ 15.342: stevn.dk INFO Begin testing host ns.domainteam.dk.
+ 15.689: stevn.dk INFO Begin testing address 87.238.248.151.
+ 27.657: stevn.dk INFO Done testing address 87.238.248.151.
+ 27.657: stevn.dk INFO Done testing host ns.domainteam.dk.
+ 27.964: stevn.dk INFO Name server ns.domainteam.dk (87.238.248.151) answers queries over UDP.
+ 28.020: stevn.dk INFO Name server ns.domainteam.dk (87.238.248.151) answers queries over TCP.
+ 28.052: stevn.dk INFO Name server ns.domainteam.dk (87.238.248.151) is not recursive.
+ 28.132: stevn.dk INFO Name server ns.domainteam.dk (87.238.248.151) authoritative for stevn.dk.
+ 28.293: stevn.dk INFO Name server ns.domainteam.dk (87.238.248.151) closed for zone transfer of stevn.dk.
+ 28.373: stevn.dk INFO Legacy name server ID for ns.domainteam.dk (87.238.248.151): version.bind = ... What?
+ 28.437: stevn.dk INFO Done testing name server ns.domainteam.dk.
+ 28.437: stevn.dk INFO Begin testing name server ns2.domainteam.dk.
+ 28.437: stevn.dk INFO Begin testing host ns2.domainteam.dk.
+ 28.804: stevn.dk INFO Begin testing address 81.7.151.103.
+ 29.845: stevn.dk INFO Done testing address 81.7.151.103.
+ 29.845: stevn.dk INFO Done testing host ns2.domainteam.dk.
+ 30.280: stevn.dk INFO Name server ns2.domainteam.dk (81.7.151.103) answers queries over UDP.
+ 30.324: stevn.dk INFO Name server ns2.domainteam.dk (81.7.151.103) answers queries over TCP.
+ 30.353: stevn.dk INFO Name server ns2.domainteam.dk (81.7.151.103) is not recursive.
+ 30.434: stevn.dk INFO Name server ns2.domainteam.dk (81.7.151.103) authoritative for stevn.dk.
+ 30.589: stevn.dk INFO Name server ns2.domainteam.dk (81.7.151.103) closed for zone transfer of stevn.dk.
+ 30.633: stevn.dk INFO Legacy name server ID for ns2.domainteam.dk (81.7.151.103): version.bind = ... What?
+ 30.686: stevn.dk INFO Done testing name server ns2.domainteam.dk.
+ 30.686: stevn.dk INFO Begin testing zone consistency for stevn.dk.
+ 32.020: stevn.dk INFO SOA at address 87.238.248.151 has serial 2012022202.
+ 32.048: stevn.dk INFO SOA at address 81.7.151.103 has serial 2012022202.
+ 32.048: stevn.dk INFO All SOA records have consistent serial numbers.
+ 32.048: stevn.dk INFO All other fields in the SOA record are consistent among all name servers.
+ 32.793: stevn.dk NOTICE The listed nameservers for stevn.dk all report the same set of nameservers.
+ 32.793: stevn.dk INFO Done testing zone consistency for stevn.dk.
+ 32.793: stevn.dk INFO Begin testing SOA parameters for stevn.dk.
+ 32.812: stevn.dk INFO Found SOA record for stevn.dk.
+ 32.812: stevn.dk INFO Begin testing host ns.domainteam.dk.
+ 33.125: stevn.dk INFO Begin testing address 87.238.248.151.
+ 33.537: stevn.dk INFO Done testing address 87.238.248.151.
+ 33.537: stevn.dk INFO Done testing host ns.domainteam.dk.
+ 33.537: stevn.dk INFO SOA MNAME for stevn.dk valid (ns.domainteam.dk).
+ 33.537: stevn.dk INFO SOA MNAME for stevn.dk (ns.domainteam.dk) listed as NS.
+ 33.867: stevn.dk INFO SOA MNAME for stevn.dk (ns.domainteam.dk) is authoritative.
+ 33.867: stevn.dk INFO Begin testing email address hostmaster@domainteam.dk.
+ 34.242: stevn.dk INFO Mail exchangers for hostmaster@domainteam.dk found mail.domainteam.dk,mx20.domainteam.dk,mx30.domainteam.dk.
+ 34.242: stevn.dk INFO Begin testing host mail.domainteam.dk.
+ 34.975: stevn.dk INFO Begin testing address 87.238.248.151.
+ 35.357: stevn.dk INFO Done testing address 87.238.248.151.
+ 35.357: stevn.dk INFO Done testing host mail.domainteam.dk.
+ 35.661: stevn.dk INFO Begin testing host mx20.domainteam.dk.
+ 36.152: stevn.dk INFO Begin testing address 87.238.248.202.
+ 36.815: stevn.dk INFO Done testing address 87.238.248.202.
+ 36.815: stevn.dk INFO Done testing host mx20.domainteam.dk.
+ 37.185: stevn.dk INFO Begin testing host mx30.domainteam.dk.
+ 37.961: stevn.dk INFO Begin testing address 81.7.151.103.
+ 38.259: stevn.dk INFO Done testing address 81.7.151.103.
+ 38.259: stevn.dk INFO Done testing host mx30.domainteam.dk.
+ 38.543: stevn.dk INFO Done testing email address hostmaster@domainteam.dk.
+ 38.543: stevn.dk INFO Successful attempt to deliver email for SOA RNAME of stevn.dk (hostmaster.domainteam.dk) using hostmaster@domainteam.dk.
+ 38.543: stevn.dk INFO SOA TTL for stevn.dk OK (7200) - recommended >= 3600.
+ 38.543: stevn.dk NOTICE SOA refresh for stevn.dk too small (10800) - recommended >= 14400.
+ 38.543: stevn.dk INFO SOA retry for stevn.dk OK (3600) - recommended >= 3600.
+ 38.543: stevn.dk INFO SOA expire for stevn.dk OK (604800) - recommended >= 604800.
+ 38.544: stevn.dk INFO SOA minimum for stevn.dk OK (38400) - recommended between 300 and 86400.
+ 38.544: stevn.dk INFO Done testing SOA parameters for stevn.dk.
+ 38.544: stevn.dk INFO Begin testing connectivity for stevn.dk.
+ 40.050: stevn.dk INFO Zone announced by more than one ASN.
+ 40.050: stevn.dk NOTICE Zone announced by fewer than two IPv6 ASN.
+ 40.051: stevn.dk INFO Done testing connectivity for stevn.dk.
+ 40.051: stevn.dk INFO Begin testing DNSSEC for stevn.dk.
+ 40.329: stevn.dk INFO Did not find DS record for stevn.dk at parent.
+ 40.429: stevn.dk INFO Servers for stevn.dk have consistent extra processing status.
+ 40.492: stevn.dk INFO Authenticated denial records not found for stevn.dk.
+ 40.511: stevn.dk INFO Did not find DNSKEY record for stevn.dk at child.
+ 40.511: stevn.dk INFO No DNSKEY(s) found at child, other tests skipped.
+ 40.511: stevn.dk INFO Done testing DNSSEC for stevn.dk.
+ 40.511: stevn.dk INFO Test completed for zone stevn.dk.

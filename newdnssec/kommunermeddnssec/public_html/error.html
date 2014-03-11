@@ -1,0 +1,210 @@
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<html>
+	<head>
+		<style>
+			body{
+				font-family: Arial, tahoma, verdana, arial;
+			}
+			.mainContainer{
+				background: url('bg.gif');
+				font-size: 12px;
+			}
+
+			.dom{
+				/*background-color: #FF00FF; */
+			}
+			.okdom{
+				background-color: #A0FFA0;
+			}
+			.errorDom{
+				background-color: #FF0000;
+			}
+			.warningDom{
+				background-color: #FFA500;
+			}
+			.dom, .okdom, .warningDom, .errorDom{
+				/*border: 1px solid black;*/
+				padding: 2px;
+				width: 145px;
+				margin: 1px;
+				overflow: hidden;
+				float: left;
+				height: 20px;
+			}
+
+			h1, h2, h3, h4, h5, h6{
+				border-bottom: 1px solid #b0b0b0;
+			}
+			.contact{
+				text-style: uppercase;
+			}
+			.subContainer{
+				margin-botton: 42px;
+			}
+
+			a{
+				color: #0000FF;
+				text-decoration: none;
+			}
+			a:hover{
+				color: #0000FF;
+				text-decoration: underline;
+			}
+
+		</style>
+		<title>Municipalities with DNSSEC</title>
+		<script type="text/javascript">
+			function showHover(e, txt){
+				if( e == null ) e = window.event;
+				if(e.pageX == null ) e.pageX = e.clientX;
+				if(e.pageY == null ) e.pageY = e.clientY + document.body.scrollTop;
+				//alert(e.pageX);
+
+				var o = document.getElementById("hoverDiv");
+				o.innerHTML = txt;
+				o.style.left = (e.pageX+20) + "px";
+				o.style.top = (e.pageY+12) + "px";
+				o.style.visibility = "visible";
+			}
+			function hideHover(){
+				var o = document.getElementById("hoverDiv");
+				o.style.visibility = "hidden";
+			}
+		</script>
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-10643709-2");
+		pageTracker._trackPageview();
+		} catch(err) {}</script>
+	</head>
+	<body>
+		<div class="mainContainer" style="padding:20px;border:1px solid #e0e0e0;position:absolute;left:50%;width:800px;margin-left:-400px;margin-top:50px">
+			<h1>Municipalities with DNSSEC</h1>
+			<div class="subContainer">
+				<p><b>kommunermeddnssec.se</b> is an independent website that show the municipalities domain health and if it's signed with <b><a href=http://en.wikipedia.org/wiki/DNSSEC>DNSSEC</a> </b> or not. <br>
+				<br><i>Contact: tobbe (a] <a href=http://www.interlan.se>interlan</a> punkt se</i><br>
+
+Se also  <h href=http://www.iis.se><b>.SE</b></a>'s <a href=http://fou.iis.se/dnsseckommun/> geographical distribution of DNSSEC </a> or the IPv6 distribution page <a href=http://www.kommunermedipv6.se>www.kommunermedipv6.se</a>
+
+
+<script type="text/javascript" language="javascript">
+function showBigger(o, bShow){
+   if(bShow){
+        document.getElementById("dBigger").style.backgroundImage="url('"+o.src+"')";
+        document.getElementById("dBigger").style.display = 'block';
+   }
+   else{
+        document.getElementById("dBigger").style.display = 'none';
+   }
+}
+</script>
+
+<table border="0" cellpadding="2" cellspacing="0">
+        <tr>
+
+                <td><img src="dnssec.png" width="200" onmouseover="showBigger(this, true)" onmouseout="showBigger(this, false)"/></td>
+        </tr>
+</table>
+<div id="dBigger" style="width:462px;height:149px;position:relative;left:-10px;top:-10px">&nbsp;</div>
+
+
+
+			</div>
+
+			<h2>Domäner</h2>
+			<div>
+
+				<table cellspacing="3" cellpadding="2" style="margin-bottom:7px;border:1px solid black;font: 11px verdana">
+					<tr><td style="background-color:#A0FFA0;width:145px;height:20px"><img src="tick.png"/>&nbsp;domain</td><td>Signed with DNSSEC and without remarks</td></tr>
+					<tr><td style="background-color:#FFFFFF;height:20px">domain</td><td>Without remarks in DNSCheck but not signed</td></tr>
+					<tr><td style="background-color:#FFA500;height:20px"><img src="tick.png"/>&nbsp;domain</td><td>Signed with DNSSEC but with warnings</td></tr>
+					<tr><td style="background-color:#FFA500;height:20px">domain</td><td>Warnings in DNSCheck</td></tr>
+					<tr><td style="background-color:#FF0000;height:20px">domain</td><td>Error in DNSCheck</td></tr>
+				</table>
+
+			</div>
+			<div class="subContainer">
+				<i>Updated Sat Nov  6 14:42:04 CET 2010
+</i><br/>
+				1 of 66 domains secured<br/>
+
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"alvsbyn.se onmouseover="showHover(event, 'hostmaster [at] alvsbyn.se<br/>Error (2)<br/>dns2.alvsbyn.se<br/>dns1.alvsbyn.se<br/>')" onmouseout="hideHover()" title="">alvsbyn.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"amal.se onmouseover="showHover(event, 'hostmaster [at] mellerud.se<br/>Rekursiv<br/>Error (3)<br/>Warning (1)<br/>ns1.dalsnet.se<br/>dns5.telia.com<br/>ns2.dalsnet.se<br/>')" onmouseout="hideHover()" title="">amal.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"ange.se onmouseover="showHover(event, 'drift [at] serva.net<br/>Rekursiv<br/>Error (2)<br/>Warning (5)<br/>ns1.serva.net<br/>ns2.serva.net<br/>')" onmouseout="hideHover()" title="">ange.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"arjeplog.se onmouseover="showHover(event, 'hostmaster [at] ns.arjeplog.se<br/>Error (3)<br/>Warning (5)<br/>dns6.telia.com<br/>ns.arjeplog.se<br/>')" onmouseout="hideHover()" title="">arjeplog.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"askersund.se onmouseover="showHover(event, 'webmaster [at] hallsberg.se<br/>Error (2)<br/>dns1.hallsberg.se<br/>dns5.telia.com<br/>dns2.hallsberg.se<br/>')" onmouseout="hideHover()" title="">askersund.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"bengtsfors.se onmouseover="showHover(event, 'hostmaster [at] mellerud.se<br/>Rekursiv<br/>Error (1)<br/>Warning (2)<br/>ns2.dalsnet.se<br/>ns1.dalsnet.se<br/>public.bengtsfors.se<br/>')" onmouseout="hideHover()" title="">bengtsfors.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"bollebygd.se onmouseover="showHover(event, 'postmaster [at] bollebygd.se<br/>Rekursiv<br/>Error (5)<br/>Warning (1)<br/>index.bollebygd.se<br/>')" onmouseout="hideHover()" title="">bollebygd.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"boras.se onmouseover="showHover(event, 'hostmaster [at] boras.se<br/>Error (2)<br/>pitea.dns.swip.net<br/>ns2.boras.se<br/>dns1.telia.com<br/>ns1.boras.se<br/>')" onmouseout="hideHover()" title="">boras.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"dalsed.se onmouseover="showHover(event, 'hostmaster [at] mellerud.se<br/>Rekursiv<br/>Error (2)<br/>Warning (1)<br/>ns2.dalsnet.se<br/>ns1.dalsnet.se<br/>')" onmouseout="hideHover()" title="">dalsed.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"degerfors.se onmouseover="showHover(event, 'hostmaster [at] ns.degerfors.se<br/>Error (5)<br/>Warning (3)<br/>ns.degerfors.se<br/>')" onmouseout="hideHover()" title="">degerfors.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"essunga.se onmouseover="showHover(event, 'postmaster [at] essunga.se<br/>Rekursiv<br/>Error (4)<br/>Warning (2)<br/>rq10.essunga.se<br/>ns1.essunga.se<br/>dns5.telia.com<br/>')" onmouseout="hideHover()" title="">essunga.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"filipstad.se onmouseover="showHover(event, 'it-support [at] filipstad.se<br/>Error (2)<br/>nsext.filipstad.se<br/>')" onmouseout="hideHover()" title="">filipstad.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"gellivare.se onmouseover="showHover(event, 'hostmaster [at] gellivare.se<br/>Error (2)<br/>ns2.gellivare.se<br/>ns1.gellivare.se<br/>')" onmouseout="hideHover()" title="">gellivare.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"gnesta.se onmouseover="showHover(event, 'postmaster [at] gnesta.se<br/>Error (2)<br/>Warning (2)<br/>dns2.telia.com<br/>ns.gnesta.se<br/>')" onmouseout="hideHover()" title="">gnesta.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"gullspang.se onmouseover="showHover(event, 'hostmaster [at] ns.mariestad.se<br/>Rekursiv<br/>Error (4)<br/>Warning (7)<br/>ns1.mteab.net<br/>ns.gullspang.se<br/>ns.mariestad.se<br/>')" onmouseout="hideHover()" title="">gullspang.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"hallsberg.se onmouseover="showHover(event, 'webmaster [at] hallsberg.se<br/>Error (2)<br/>kista.dns.swip.net<br/>dns1.hallsberg.se<br/>dns2.hallsberg.se<br/>dns6.telia.com<br/>')" onmouseout="hideHover()" title="">hallsberg.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"haninge.se onmouseover="showHover(event, 'admin [at] haninge.se<br/>Error (4)<br/>ah35.haninge.se<br/>')" onmouseout="hideHover()" title="">haninge.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"hedemora.se onmouseover="showHover(event, 'hostmaster [at] hedemora.se<br/>Error (2)<br/>ns.borlangestadsnat.se<br/>ns4.cepus.net<br/>ns2.borlangestadsnat.se<br/>')" onmouseout="hideHover()" title="">hedemora.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"herrljunga.se onmouseover="showHover(event, 'hostmaster [at] jra.se<br/>Rekursiv<br/>Error (2)<br/>Warning (2)<br/>dns2.jra.se<br/>ns.tranemo.se<br/>dns1.jra.se<br/>')" onmouseout="hideHover()" title="">herrljunga.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"hofors.se onmouseover="showHover(event, 'admin [at] hofors.se<br/>Error (1)<br/>ns2.hofors.se<br/>ns.hofors.se<br/>')" onmouseout="hideHover()" title="">hofors.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"hudiksvall.se onmouseover="showHover(event, 'hostmaster [at] hudiksvall.se<br/>Error (3)<br/>Warning (1)<br/>ns.hudiksvall.se<br/>bromangymnasiet.se<br/>b.dns.tdc.se<br/>a.dns.tdc.se<br/>c.dns.tdc.se<br/>ns1.hudiknet.nu<br/>')" onmouseout="hideHover()" title="">hudiksvall.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"hylte.se onmouseover="showHover(event, 'webmaster [at] hylte.se<br/>Error (3)<br/>dns2.telia.com<br/>dns.hylte.se<br/>')" onmouseout="hideHover()" title="">hylte.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"jarfalla.se onmouseover="showHover(event, 'dnsadmin.se [at] siemens.com<br/>Error (6)<br/>Warning (2)<br/>ns3.siemens.se<br/>ns2.siemens.se<br/>dns1.jarfalla.se<br/>ns4.siemens.se<br/>')" onmouseout="hideHover()" title="">jarfalla.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"karlskoga.se onmouseover="showHover(event, 'hostmaster [at] ns.karlskoga.se<br/>Error (4)<br/>Warning (3)<br/>ns.karlskoga.se<br/>ns.sub.karlskoga.se<br/>')" onmouseout="hideHover()" title="">karlskoga.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"kiruna.se onmouseover="showHover(event, 'root [at] kommun.kiruna.se<br/>Error (2)<br/>ns3.linnea.net<br/>dns2.kommun.kiruna.se<br/>ns2.linnea.net<br/>ns.linnea.net<br/>dns1.kommun.kiruna.se<br/>dns6.telia.com<br/>')" onmouseout="hideHover()" title="">kiruna.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"klippan.se onmouseover="showHover(event, 'it [at] klippan.se<br/>Error (2)<br/>dns01.klippan.se<br/>dns6.telia.com<br/>')" onmouseout="hideHover()" title="">klippan.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"knivsta.se onmouseover="showHover(event, 'hostmaster [at] knivsta.se<br/>Error (2)<br/>Warning (2)<br/>ns1.udac.se<br/>ns2.lidero.net<br/>gateway.knivsta.se<br/>')" onmouseout="hideHover()" title="">knivsta.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"kristinehamn.se onmouseover="showHover(event, 'support [at] kristinehamn.se<br/>Error (2)<br/>dns6.telia.com<br/>ns.kristinehamn.se<br/>')" onmouseout="hideHover()" title="">kristinehamn.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"kungalv.se onmouseover="showHover(event, 'hostmaster [at] kungalv.se<br/>Error (2)<br/>Warning (1)<br/>ns1.kungalv.se<br/>resolver1.kungalv.se<br/>kalmar.dns.swip.net<br/>')" onmouseout="hideHover()" title="">kungalv.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"laholm.se onmouseover="showHover(event, 'hostmaster [at] ns.laholm.se<br/>Rekursiv<br/>Error (5)<br/>Warning (1)<br/>ns1.tdc.se<br/>ns.laholm.se<br/>')" onmouseout="hideHover()" title="">laholm.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"landskrona.se onmouseover="showHover(event, 'registry [at] landskrona.net<br/>Rekursiv<br/>Error (3)<br/>Warning (2)<br/>c.dns.tdc.se<br/>ns.landskrona.net<br/>b.dns.tdc.se<br/>munken.landskrona.se<br/>a.dns.tdc.se<br/>')" onmouseout="hideHover()" title="">landskrona.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"laxa.se onmouseover="showHover(event, 'webmaster [at] hallsberg.se<br/>Error (2)<br/>dns5.telia.com<br/>dns1.hallsberg.se<br/>dns2.hallsberg.se<br/>')" onmouseout="hideHover()" title="">laxa.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"lekeberg.se onmouseover="showHover(event, 'postmaster [at] lekeberg.se<br/>Error (2)<br/>ns.lekeberg.se<br/>dns5.telia.com<br/>')" onmouseout="hideHover()" title="">lekeberg.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"lerum.se onmouseover="showHover(event, 'hostmaster [at] lerum.se<br/>Error (2)<br/>a.dns.songnetworks.se<br/>b.dns.songnetworks.se<br/>')" onmouseout="hideHover()" title="">lerum.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"lillaedet.se onmouseover="showHover(event, 'registry [at] nameisp.com<br/>Error (3)<br/>ns2.nameisp.info<br/>ns1.nameisp.info<br/>')" onmouseout="hideHover()" title="">lillaedet.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"lindesberg.se onmouseover="showHover(event, 'hostmaster [at] ns.admin.lindesberg.se<br/>Error (2)<br/>Warning (5)<br/>dns5.telia.com<br/>ns.lindesberg.se<br/>')" onmouseout="hideHover()" title="">lindesberg.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"ljusdal.se onmouseover="showHover(event, 'lago [at] ljusdal.se<br/>Rekursiv<br/>Error (2)<br/>Warning (3)<br/>ns.ljusdal.se<br/>ns2.gavlenet.com<br/>')" onmouseout="hideHover()" title="">ljusdal.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"ljusnarsberg.se onmouseover="showHover(event, 'hostmaster [at] ljusnarsberg.se<br/>Rekursiv<br/>Error (3)<br/>Warning (4)<br/>dns6.telia.com<br/>dns1.telia.se<br/>dns5.telia.com<br/>dns2.ip-only.net<br/>ns.ljusnarsberg.se<br/>dns1.ip-only.net<br/>')" onmouseout="hideHover()" title="">ljusnarsberg.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"mala.se onmouseover="showHover(event, 'hostmaster [at] mala.se<br/>Error (4)<br/>Warning (3)<br/>dns.umea.se<br/>cesar.mala.se<br/>julius.mala.se<br/>dns.norrnod.se<br/>')" onmouseout="hideHover()" title="">mala.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"malung-salen.se onmouseover="showHover(event, 'perla [at] podata.se<br/>Rekursiv<br/>Error (2)<br/>Warning (1)<br/>dns5.telia.com<br/>dns1.podata.se<br/>')" onmouseout="hideHover()" title="">malung-salen.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"mariestad.se onmouseover="showHover(event, 'hostmaster [at] ns.mariestad.se<br/>Rekursiv<br/>Error (3)<br/>Warning (6)<br/>ns.mariestad.se<br/>ns1.mteab.net<br/>')" onmouseout="hideHover()" title="">mariestad.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"mjolby.se onmouseover="showHover(event, ' [at] ostmaster<br/>Error (6)<br/>Warning (1)<br/>ns.mjolby.se<br/>')" onmouseout="hideHover()" title="">mjolby.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"nordanstig.se onmouseover="showHover(event, 'registry [at] it.nordanstig.se<br/>Rekursiv<br/>Error (1)<br/>Warning (3)<br/>ns2.gavlenet.com<br/>ns1.nordanstig.se<br/>')" onmouseout="hideHover()" title="">nordanstig.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"rattvik.se onmouseover="showHover(event, 'hostmaster [at] ns.rattvik.se<br/>Error (3)<br/>Warning (3)<br/>ns.rattvik.se<br/>csgskola.rattvik.se<br/>')" onmouseout="hideHover()" title="">rattvik.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"sala.se onmouseover="showHover(event, 'webmaster [at] sala.se<br/>Error (2)<br/>iis.sala.se<br/>sala.se<br/>')" onmouseout="hideHover()" title="">sala.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"sater.se onmouseover="showHover(event, 'registry [at] cepus.se<br/>Error (1)<br/>ns4.cepus.net<br/>ns1.cepus.net<br/>')" onmouseout="hideHover()" title="">sater.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"sigtuna.se onmouseover="showHover(event, 'helpdesk [at] sigtuna.se<br/>Error (1)<br/>dns6.telia.com<br/>ns.sigtuna.se<br/>')" onmouseout="hideHover()" title="">sigtuna.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"skinnskatteberg.se onmouseover="showHover(event, 'steve [at] skinnskatteberg.se<br/>Rekursiv<br/>Error (2)<br/>Warning (1)<br/>dns3.skinnskatteberg.se<br/>dns4.skinnskatteberg.se<br/>')" onmouseout="hideHover()" title="">skinnskatteberg.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"skovde.se onmouseover="showHover(event, 'postmaster [at] skovde.se<br/>Error (3)<br/>Warning (2)<br/>rmdns01.skovde.se<br/>ns3.euro909.com<br/>rmdns02.skovde.se<br/>')" onmouseout="hideHover()" title="">skovde.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"smedjebacken.se onmouseover="showHover(event, 'registry [at] cepus.se<br/>Error (2)<br/>ns4.cepus.net<br/>ns1.cepus.net<br/>')" onmouseout="hideHover()" title="">smedjebacken.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"stenungsund.se onmouseover="showHover(event, 'dnsadmin [at] stenungsund.se<br/>Error (7)<br/>dns1.stenungsund.se<br/>c.dns.songnetworks.se<br/>a.dns.songnetworks.se<br/>b.dns.songnetworks.se<br/>')" onmouseout="hideHover()" title="">stenungsund.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"storfors.se onmouseover="showHover(event, 'support [at] kristinehamn.se<br/>Error (2)<br/>ns.kristinehamn.se<br/>dns5.telia.com<br/>')" onmouseout="hideHover()" title="">storfors.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"svalov.se onmouseover="showHover(event, 'it [at] svalov.se<br/>Rekursiv<br/>Error (2)<br/>Warning (4)<br/>ns2.svalov.se<br/>ns3.svalov.se<br/>ns1.svalov.se<br/>dns2.cenara.com<br/>')" onmouseout="hideHover()" title="">svalov.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"toreboda.se onmouseover="showHover(event, 'hostmaster [at] ns.mariestad.se<br/>Rekursiv<br/>Error (6)<br/>Warning (6)<br/>ns1.mteab.net<br/>ns.mariestad.se<br/>')" onmouseout="hideHover()" title="">toreboda.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"torsas.se onmouseover="showHover(event, 'root [at] torsas.se<br/>Error (1)<br/>Warning (3)<br/>dns5.telia.com<br/>ns.torsas.se<br/>')" onmouseout="hideHover()" title="">torsas.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"torsby.se onmouseover="showHover(event, 'postmaster [at] torsby.se<br/>Error (3)<br/>iis.tordata.se<br/>dns6.telia.com<br/>')" onmouseout="hideHover()" title="">torsby.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"tranemo.se onmouseover="showHover(event, 'support [at] tranemo.se<br/>Error (1)<br/>ns1.tranemo.se<br/>ns2.tranemo.se<br/>')" onmouseout="hideHover()" title="">tranemo.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"trollhattan.se onmouseover="showHover(event, 'registry [at] leissner.se<br/>Error (1)<br/>dns6.telia.com<br/>falun.dns.swip.net<br/>nic2.gota.net<br/>nic.gota.net<br/>')" onmouseout="hideHover()" title=""><img src="tick.png" style="width:16px;height:16px;border:0px"/>&nbsp;trollhattan.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"tyreso.se onmouseover="showHover(event, 'systemdrift [at] tyreso.se<br/>Rekursiv<br/>Error (1)<br/>Warning (3)<br/>ns2.telenor.se<br/>re-ns1.tyreso.se<br/>sune.tyreso.se<br/>')" onmouseout="hideHover()" title="">tyreso.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"uddevalla.se onmouseover="showHover(event, 'hostmaster [at] uddevalla.se<br/>Rekursiv<br/>Error (1)<br/>Warning (7)<br/>dumle.ostrabo.uddevalla.se<br/>idefix.uddevalla.se<br/>')" onmouseout="hideHover()" title="">uddevalla.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"ulricehamn.se onmouseover="showHover(event, 'itdrift [at] ulricehamn.se<br/>Rekursiv<br/>Error (1)<br/>Warning (3)<br/>dns.ulricehamn.se<br/>cnr.ueab.se<br/>')" onmouseout="hideHover()" title="">ulricehamn.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"vannas.se onmouseover="showHover(event, 'it-support [at] vannas.se<br/>Error (2)<br/>dns.umea.se<br/>ns.vannas.se<br/>')" onmouseout="hideHover()" title="">vannas.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"vargarda.se onmouseover="showHover(event, 'root [at] ns.vargarda.se<br/>Error (2)<br/>Warning (6)<br/>malmoe.dns.swip.net<br/>ns.vargarda.se<br/>')" onmouseout="hideHover()" title="">vargarda.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"vastervik.se onmouseover="showHover(event, 'root [at] vastervik.se<br/>Rekursiv<br/>Error (2)<br/>Warning (1)<br/>dns2.telia.com<br/>blade.vastervik.se<br/>')" onmouseout="hideHover()" title="">vastervik.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"vaxholm.se onmouseover="showHover(event, ' [at] ostmaster<br/>Error (6)<br/>ns.vaxholm.se<br/>')" onmouseout="hideHover()" title="">vaxholm.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"vindeln.se onmouseover="showHover(event, '43243 [at] vindeln.se<br/>Error (2)<br/>Warning (2)<br/>ns2.vindeln.se<br/>ns1.vindeln.se<br/>')" onmouseout="hideHover()" title="">vindeln.se</a></div>
+				<div style="clear:both">&nbsp;</div>
+			</div>
+			<div style="clear:both">&nbsp;</div>
+		</div>
+
+		<div id="hoverDiv" style="position:absolute;visibility:hidden;left:0px;top:0px;font:11px verdana;border:1px solid #AFAF20;padding:4px; width:220px;background-color:#FFFFE0;">&nbsp;</div>
+
+	</body>
+</html>
+

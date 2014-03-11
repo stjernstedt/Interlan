@@ -1,0 +1,139 @@
+  0.000: hurum.kommune.no INFO Begin testing zone hurum.kommune.no with version 1.6.1.
+  0.600: hurum.kommune.no INFO Begin testing delegation for hurum.kommune.no.
+  9.313: hurum.kommune.no INFO Name servers listed at parent: dns1.as2116.net,dns2.as2116.net
+ 10.626: hurum.kommune.no INFO Name servers listed at child: dns1.eunet.no,dns2.eunet.no
+ 10.626: hurum.kommune.no ERROR Superfluous name server listed at parent: dns1.as2116.net
+ 10.626: hurum.kommune.no ERROR Superfluous name server listed at parent: dns2.as2116.net
+ 10.626: hurum.kommune.no ERROR Total parent/child glue mismatch.
+ 10.626: hurum.kommune.no NOTICE Additional name server listed at child: dns1.eunet.no
+ 10.626: hurum.kommune.no NOTICE Additional name server listed at child: dns2.eunet.no
+ 10.627: hurum.kommune.no NOTICE Too few IPv6 name servers (1).
+ 10.760: hurum.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.912: hurum.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.044: hurum.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.204: hurum.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.682: hurum.kommune.no INFO It is possible to build a referral packet for hurum.kommune.no that works without EDNS0.
+ 13.298: hurum.kommune.no INFO Previously used name servers for hurum.kommune.no: 
+ 13.298: hurum.kommune.no INFO Done testing delegation for hurum.kommune.no.
+ 13.299: hurum.kommune.no INFO Begin testing name server dns1.eunet.no.
+ 13.299: hurum.kommune.no INFO Begin testing host dns1.eunet.no.
+ 13.299: hurum.kommune.no INFO Begin testing address 193.75.75.1.
+ 24.696: hurum.kommune.no INFO Done testing address 193.75.75.1.
+ 24.696: hurum.kommune.no INFO Begin testing address 2001:8c0:2001:0:0:0:3:53.
+ 25.236: hurum.kommune.no INFO Done testing address 2001:8c0:2001:0:0:0:3:53.
+ 25.236: hurum.kommune.no INFO Done testing host dns1.eunet.no.
+ 25.290: hurum.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) answers queries over UDP.
+ 25.321: hurum.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) answers queries over TCP.
+ 25.356: hurum.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) is not recursive.
+ 25.453: hurum.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) authoritative for hurum.kommune.no.
+ 25.489: hurum.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) closed for zone transfer of hurum.kommune.no.
+ 25.505: hurum.kommune.no INFO Legacy name server ID for dns1.eunet.no (193.75.75.1): hostname.bind = alpha-a.server.as2116.net
+ 25.522: hurum.kommune.no INFO Legacy name server ID for dns1.eunet.no (193.75.75.1): version.bind = Shirely you must be joking
+ 25.550: hurum.kommune.no NOTICE No answer received from 193.75.75.1 when querying for version.server/CH/TXT.
+ 25.569: hurum.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) answers queries over UDP.
+ 25.610: hurum.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) answers queries over TCP.
+ 25.658: hurum.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) is not recursive.
+ 25.778: hurum.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) authoritative for hurum.kommune.no.
+ 25.830: hurum.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) closed for zone transfer of hurum.kommune.no.
+ 25.851: hurum.kommune.no INFO Legacy name server ID for dns1.eunet.no (2001:8c0:2001:0:0:0:3:53): hostname.bind = alpha-a.server.as2116.net
+ 25.874: hurum.kommune.no INFO Legacy name server ID for dns1.eunet.no (2001:8c0:2001:0:0:0:3:53): version.bind = Shirely you must be joking
+ 25.937: hurum.kommune.no NOTICE No answer received from 2001:8c0:2001:0:0:0:3:53 when querying for version.server/CH/TXT.
+ 25.938: hurum.kommune.no INFO Done testing name server dns1.eunet.no.
+ 25.938: hurum.kommune.no INFO Begin testing name server dns2.eunet.no.
+ 25.938: hurum.kommune.no INFO Begin testing host dns2.eunet.no.
+ 26.114: hurum.kommune.no INFO Begin testing address 148.122.208.226.
+ 31.102: hurum.kommune.no INFO Done testing address 148.122.208.226.
+ 31.102: hurum.kommune.no INFO Done testing host dns2.eunet.no.
+ 31.208: hurum.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) answers queries over UDP.
+ 31.255: hurum.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) answers queries over TCP.
+ 31.269: hurum.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) is not recursive.
+ 31.331: hurum.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) authoritative for hurum.kommune.no.
+ 31.378: hurum.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) closed for zone transfer of hurum.kommune.no.
+ 31.393: hurum.kommune.no INFO Legacy name server ID for dns2.eunet.no (148.122.208.226): hostname.bind = ny-ns2-eunet.oke.nextra.no
+ 31.416: hurum.kommune.no INFO Legacy name server ID for dns2.eunet.no (148.122.208.226): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 31.454: hurum.kommune.no NOTICE No answer received from 148.122.208.226 when querying for version.server/CH/TXT.
+ 31.454: hurum.kommune.no INFO Done testing name server dns2.eunet.no.
+ 31.454: hurum.kommune.no INFO Begin testing name server dns1.as2116.net.
+ 31.454: hurum.kommune.no INFO Begin testing host dns1.as2116.net.
+ 31.455: hurum.kommune.no INFO Begin testing address 193.75.75.1.
+ 31.471: hurum.kommune.no INFO Done testing address 193.75.75.1.
+ 31.471: hurum.kommune.no INFO Begin testing address 2001:8c0:2001:0:0:0:3:53.
+ 31.472: hurum.kommune.no INFO Done testing address 2001:8c0:2001:0:0:0:3:53.
+ 31.472: hurum.kommune.no INFO Done testing host dns1.as2116.net.
+ 31.501: hurum.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) answers queries over UDP.
+ 31.545: hurum.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) answers queries over TCP.
+ 31.568: hurum.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) is not recursive.
+ 31.672: hurum.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) authoritative for hurum.kommune.no.
+ 31.706: hurum.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) closed for zone transfer of hurum.kommune.no.
+ 31.743: hurum.kommune.no INFO Legacy name server ID for dns1.as2116.net (193.75.75.1): hostname.bind = alpha-a.server.as2116.net
+ 31.774: hurum.kommune.no INFO Legacy name server ID for dns1.as2116.net (193.75.75.1): version.bind = Shirely you must be joking
+ 31.816: hurum.kommune.no NOTICE No answer received from 193.75.75.1 when querying for version.server/CH/TXT.
+ 31.838: hurum.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) answers queries over UDP.
+ 31.871: hurum.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) answers queries over TCP.
+ 31.890: hurum.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) is not recursive.
+ 31.969: hurum.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) authoritative for hurum.kommune.no.
+ 32.024: hurum.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) closed for zone transfer of hurum.kommune.no.
+ 32.046: hurum.kommune.no INFO Legacy name server ID for dns1.as2116.net (2001:8c0:2001:0:0:0:3:53): hostname.bind = alpha-a.server.as2116.net
+ 32.066: hurum.kommune.no INFO Legacy name server ID for dns1.as2116.net (2001:8c0:2001:0:0:0:3:53): version.bind = Shirely you must be joking
+ 32.111: hurum.kommune.no NOTICE No answer received from 2001:8c0:2001:0:0:0:3:53 when querying for version.server/CH/TXT.
+ 32.111: hurum.kommune.no INFO Done testing name server dns1.as2116.net.
+ 32.111: hurum.kommune.no INFO Begin testing name server dns2.as2116.net.
+ 32.111: hurum.kommune.no INFO Begin testing host dns2.as2116.net.
+ 32.262: hurum.kommune.no INFO Begin testing address 148.122.208.226.
+ 32.769: hurum.kommune.no INFO Done testing address 148.122.208.226.
+ 32.769: hurum.kommune.no INFO Done testing host dns2.as2116.net.
+ 33.125: hurum.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) answers queries over UDP.
+ 33.164: hurum.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) answers queries over TCP.
+ 33.190: hurum.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) is not recursive.
+ 33.286: hurum.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) authoritative for hurum.kommune.no.
+ 33.326: hurum.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) closed for zone transfer of hurum.kommune.no.
+ 33.346: hurum.kommune.no INFO Legacy name server ID for dns2.as2116.net (148.122.208.226): hostname.bind = ny-ns2-eunet.oke.nextra.no
+ 33.378: hurum.kommune.no INFO Legacy name server ID for dns2.as2116.net (148.122.208.226): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 33.407: hurum.kommune.no NOTICE No answer received from 148.122.208.226 when querying for version.server/CH/TXT.
+ 33.407: hurum.kommune.no INFO Done testing name server dns2.as2116.net.
+ 33.407: hurum.kommune.no INFO Begin testing zone consistency for hurum.kommune.no.
+ 33.870: hurum.kommune.no INFO SOA at address 2001:8c0:2001:0:0:0:3:53 has serial 2013112901.
+ 33.897: hurum.kommune.no INFO SOA at address 193.75.75.1 has serial 2013112901.
+ 33.929: hurum.kommune.no INFO SOA at address 148.122.208.226 has serial 2013112901.
+ 33.929: hurum.kommune.no INFO All SOA records have consistent serial numbers.
+ 33.929: hurum.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 34.312: hurum.kommune.no NOTICE The listed nameservers for hurum.kommune.no all report the same set of nameservers.
+ 34.312: hurum.kommune.no INFO Done testing zone consistency for hurum.kommune.no.
+ 34.313: hurum.kommune.no INFO Begin testing SOA parameters for hurum.kommune.no.
+ 34.329: hurum.kommune.no INFO Found SOA record for hurum.kommune.no.
+ 34.329: hurum.kommune.no INFO Begin testing host dns1.eunet.no.
+ 34.330: hurum.kommune.no INFO Begin testing address 193.75.75.1.
+ 34.331: hurum.kommune.no INFO Done testing address 193.75.75.1.
+ 34.331: hurum.kommune.no INFO Begin testing address 2001:8c0:2001:0:0:0:3:53.
+ 34.332: hurum.kommune.no INFO Done testing address 2001:8c0:2001:0:0:0:3:53.
+ 34.332: hurum.kommune.no INFO Done testing host dns1.eunet.no.
+ 34.332: hurum.kommune.no INFO SOA MNAME for hurum.kommune.no valid (dns1.eunet.no).
+ 34.333: hurum.kommune.no INFO SOA MNAME for hurum.kommune.no (dns1.eunet.no) listed as NS.
+ 34.354: hurum.kommune.no INFO SOA MNAME for hurum.kommune.no (dns1.eunet.no) is authoritative.
+ 34.377: hurum.kommune.no INFO SOA MNAME for hurum.kommune.no (dns1.eunet.no) is authoritative.
+ 34.377: hurum.kommune.no INFO Begin testing email address hostmaster@ventelo.no.
+ 34.459: hurum.kommune.no INFO Mail exchangers for hostmaster@ventelo.no found mailvask.infostorm.no.
+ 34.459: hurum.kommune.no INFO Begin testing host mailvask.infostorm.no.
+ 37.301: hurum.kommune.no INFO Begin testing address 217.18.206.27.
+ 37.706: hurum.kommune.no INFO Done testing address 217.18.206.27.
+ 37.706: hurum.kommune.no INFO Done testing host mailvask.infostorm.no.
+ 37.810: hurum.kommune.no INFO Done testing email address hostmaster@ventelo.no.
+ 37.810: hurum.kommune.no INFO Successful attempt to deliver email for SOA RNAME of hurum.kommune.no (hostmaster.ventelo.no) using hostmaster@ventelo.no.
+ 37.810: hurum.kommune.no INFO SOA TTL for hurum.kommune.no OK (7200) - recommended >= 3600.
+ 37.810: hurum.kommune.no INFO SOA refresh for hurum.kommune.no OK (28800) - recommended >= 14400.
+ 37.810: hurum.kommune.no INFO SOA retry for hurum.kommune.no OK (3600) - recommended >= 3600.
+ 37.810: hurum.kommune.no INFO SOA expire for hurum.kommune.no OK (2592000) - recommended >= 604800.
+ 37.811: hurum.kommune.no INFO SOA minimum for hurum.kommune.no OK (600) - recommended between 300 and 86400.
+ 37.811: hurum.kommune.no INFO Done testing SOA parameters for hurum.kommune.no.
+ 37.811: hurum.kommune.no INFO Begin testing connectivity for hurum.kommune.no.
+ 39.050: hurum.kommune.no INFO Zone announced by more than one ASN.
+ 39.456: hurum.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 39.456: hurum.kommune.no INFO Done testing connectivity for hurum.kommune.no.
+ 39.456: hurum.kommune.no INFO Begin testing DNSSEC for hurum.kommune.no.
+ 39.533: hurum.kommune.no INFO Did not find DS record for hurum.kommune.no at parent.
+ 39.618: hurum.kommune.no INFO Servers for hurum.kommune.no have consistent extra processing status.
+ 39.643: hurum.kommune.no INFO Authenticated denial records not found for hurum.kommune.no.
+ 39.656: hurum.kommune.no INFO Did not find DNSKEY record for hurum.kommune.no at child.
+ 39.656: hurum.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 39.656: hurum.kommune.no INFO Done testing DNSSEC for hurum.kommune.no.
+ 39.657: hurum.kommune.no INFO Test completed for zone hurum.kommune.no.

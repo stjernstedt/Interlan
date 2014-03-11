@@ -1,0 +1,128 @@
+  0.000: ekero.se INFO Begin testing zone ekero.se with version 1.6.1.
+  0.836: ekero.se INFO Begin testing delegation for ekero.se.
+ 31.314: ekero.se INFO Name servers listed at parent: dns5.telia.com,orebro.dns.swip.net,ystad.dns.swip.net
+ 39.219: ekero.se INFO Name servers listed at child: dns5.telia.com,orebro.dns.swip.net,ystad.dns.swip.net
+ 40.708: ekero.se INFO It is possible to build a referral packet for ekero.se that works without EDNS0.
+ 40.709: ekero.se INFO Previously used name servers for ekero.se: 
+ 40.709: ekero.se INFO Done testing delegation for ekero.se.
+ 40.709: ekero.se INFO Begin testing name server dns5.telia.com.
+ 40.709: ekero.se INFO Begin testing host dns5.telia.com.
+ 40.710: ekero.se INFO Begin testing address 81.228.11.68.
+ 53.124: ekero.se INFO Done testing address 81.228.11.68.
+ 53.124: ekero.se INFO Begin testing address 2001:2040:c001:101:0:0:0:4.
+ 55.114: ekero.se INFO Done testing address 2001:2040:c001:101:0:0:0:4.
+ 55.114: ekero.se INFO Done testing host dns5.telia.com.
+ 55.177: ekero.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over UDP.
+ 55.232: ekero.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over TCP.
+ 55.309: ekero.se INFO Name server dns5.telia.com (81.228.11.68) is not recursive.
+ 55.509: ekero.se INFO Name server dns5.telia.com (81.228.11.68) authoritative for ekero.se.
+ 55.698: ekero.se INFO Name server dns5.telia.com (81.228.11.68) closed for zone transfer of ekero.se.
+ 55.811: ekero.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 55.970: ekero.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) answers queries over UDP.
+ 56.156: ekero.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) answers queries over TCP.
+ 56.211: ekero.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) is not recursive.
+ 56.384: ekero.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) authoritative for ekero.se.
+ 56.490: ekero.se INFO Name server dns5.telia.com (2001:2040:c001:101:0:0:0:4) closed for zone transfer of ekero.se.
+ 56.708: ekero.se INFO Legacy name server ID for dns5.telia.com (2001:2040:c001:101:0:0:0:4): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 56.833: ekero.se INFO Done testing name server dns5.telia.com.
+ 56.833: ekero.se INFO Begin testing name server orebro.dns.swip.net.
+ 56.833: ekero.se INFO Begin testing host orebro.dns.swip.net.
+ 56.834: ekero.se INFO Begin testing address 192.71.180.45.
+ 67.669: ekero.se INFO Done testing address 192.71.180.45.
+ 67.676: ekero.se INFO Begin testing address 2a00:801:103:e:0:0:0:beef.
+ 68.265: ekero.se INFO Done testing address 2a00:801:103:e:0:0:0:beef.
+ 68.265: ekero.se INFO Done testing host orebro.dns.swip.net.
+ 68.502: ekero.se INFO Name server orebro.dns.swip.net (192.71.180.45) answers queries over UDP.
+ 68.531: ekero.se INFO Name server orebro.dns.swip.net (192.71.180.45) answers queries over TCP.
+ 68.543: ekero.se INFO Name server orebro.dns.swip.net (192.71.180.45) is not recursive.
+ 68.634: ekero.se INFO Name server orebro.dns.swip.net (192.71.180.45) authoritative for ekero.se.
+ 68.651: ekero.se INFO Name server orebro.dns.swip.net (192.71.180.45) closed for zone transfer of ekero.se.
+ 68.672: ekero.se INFO Legacy name server ID for orebro.dns.swip.net (192.71.180.45): hostname.bind = authns2
+ 68.693: ekero.se INFO Legacy name server ID for orebro.dns.swip.net (192.71.180.45): version.bind = PONG 0.2alpha
+ 68.726: ekero.se NOTICE No answer received from 192.71.180.45 when querying for version.server/CH/TXT.
+ 68.773: ekero.se INFO Name server orebro.dns.swip.net (2a00:801:103:e:0:0:0:beef) answers queries over UDP.
+ 68.846: ekero.se INFO Name server orebro.dns.swip.net (2a00:801:103:e:0:0:0:beef) answers queries over TCP.
+ 68.891: ekero.se INFO Name server orebro.dns.swip.net (2a00:801:103:e:0:0:0:beef) is not recursive.
+ 69.112: ekero.se INFO Name server orebro.dns.swip.net (2a00:801:103:e:0:0:0:beef) authoritative for ekero.se.
+ 69.196: ekero.se INFO Name server orebro.dns.swip.net (2a00:801:103:e:0:0:0:beef) closed for zone transfer of ekero.se.
+ 69.325: ekero.se INFO Legacy name server ID for orebro.dns.swip.net (2a00:801:103:e:0:0:0:beef): hostname.bind = authns2
+ 69.359: ekero.se INFO Legacy name server ID for orebro.dns.swip.net (2a00:801:103:e:0:0:0:beef): version.bind = PONG 0.2alpha
+ 69.406: ekero.se NOTICE No answer received from 2a00:801:103:e:0:0:0:beef when querying for version.server/CH/TXT.
+ 69.406: ekero.se INFO Done testing name server orebro.dns.swip.net.
+ 69.406: ekero.se INFO Begin testing name server ystad.dns.swip.net.
+ 69.406: ekero.se INFO Begin testing host ystad.dns.swip.net.
+ 69.407: ekero.se INFO Begin testing address 192.71.220.12.
+ 69.908: ekero.se INFO Done testing address 192.71.220.12.
+ 69.908: ekero.se INFO Begin testing address 2a00:801:103:b:0:0:0:f00d.
+ 70.481: ekero.se INFO Done testing address 2a00:801:103:b:0:0:0:f00d.
+ 70.481: ekero.se INFO Done testing host ystad.dns.swip.net.
+ 70.503: ekero.se INFO Name server ystad.dns.swip.net (192.71.220.12) answers queries over UDP.
+ 70.542: ekero.se INFO Name server ystad.dns.swip.net (192.71.220.12) answers queries over TCP.
+ 70.573: ekero.se INFO Name server ystad.dns.swip.net (192.71.220.12) is not recursive.
+ 70.682: ekero.se INFO Name server ystad.dns.swip.net (192.71.220.12) authoritative for ekero.se.
+ 70.705: ekero.se INFO Name server ystad.dns.swip.net (192.71.220.12) closed for zone transfer of ekero.se.
+ 70.716: ekero.se INFO Legacy name server ID for ystad.dns.swip.net (192.71.220.12): hostname.bind = authns1
+ 70.728: ekero.se INFO Legacy name server ID for ystad.dns.swip.net (192.71.220.12): version.bind = PONG 0.2alpha
+ 70.755: ekero.se NOTICE No answer received from 192.71.220.12 when querying for version.server/CH/TXT.
+ 70.775: ekero.se INFO Name server ystad.dns.swip.net (2a00:801:103:b:0:0:0:f00d) answers queries over UDP.
+ 70.800: ekero.se INFO Name server ystad.dns.swip.net (2a00:801:103:b:0:0:0:f00d) answers queries over TCP.
+ 70.812: ekero.se INFO Name server ystad.dns.swip.net (2a00:801:103:b:0:0:0:f00d) is not recursive.
+ 70.861: ekero.se INFO Name server ystad.dns.swip.net (2a00:801:103:b:0:0:0:f00d) authoritative for ekero.se.
+ 70.898: ekero.se INFO Name server ystad.dns.swip.net (2a00:801:103:b:0:0:0:f00d) closed for zone transfer of ekero.se.
+ 70.916: ekero.se INFO Legacy name server ID for ystad.dns.swip.net (2a00:801:103:b:0:0:0:f00d): hostname.bind = authns1
+ 70.958: ekero.se INFO Legacy name server ID for ystad.dns.swip.net (2a00:801:103:b:0:0:0:f00d): version.bind = PONG 0.2alpha
+ 70.992: ekero.se NOTICE No answer received from 2a00:801:103:b:0:0:0:f00d when querying for version.server/CH/TXT.
+ 70.992: ekero.se INFO Done testing name server ystad.dns.swip.net.
+ 70.992: ekero.se INFO Begin testing zone consistency for ekero.se.
+ 71.172: ekero.se INFO SOA at address 192.71.220.12 has serial 2014022402.
+ 71.190: ekero.se INFO SOA at address 2a00:801:103:e:0:0:0:beef has serial 2014022402.
+ 71.228: ekero.se INFO SOA at address 81.228.11.68 has serial 2014022402.
+ 71.245: ekero.se INFO SOA at address 2a00:801:103:b:0:0:0:f00d has serial 2014022402.
+ 71.254: ekero.se INFO SOA at address 192.71.180.45 has serial 2014022402.
+ 71.300: ekero.se INFO SOA at address 2001:2040:c001:101:0:0:0:4 has serial 2014022402.
+ 71.301: ekero.se INFO All SOA records have consistent serial numbers.
+ 71.301: ekero.se INFO All other fields in the SOA record are consistent among all name servers.
+ 71.846: ekero.se NOTICE The listed nameservers for ekero.se all report the same set of nameservers.
+ 71.846: ekero.se INFO Done testing zone consistency for ekero.se.
+ 71.847: ekero.se INFO Begin testing SOA parameters for ekero.se.
+ 71.878: ekero.se INFO Found SOA record for ekero.se.
+ 71.878: ekero.se INFO Begin testing host orebro.dns.swip.net.
+ 71.878: ekero.se INFO Begin testing address 192.71.180.45.
+ 71.879: ekero.se INFO Done testing address 192.71.180.45.
+ 71.879: ekero.se INFO Begin testing address 2a00:801:103:e:0:0:0:beef.
+ 71.925: ekero.se INFO Done testing address 2a00:801:103:e:0:0:0:beef.
+ 71.925: ekero.se INFO Done testing host orebro.dns.swip.net.
+ 71.925: ekero.se INFO SOA MNAME for ekero.se valid (orebro.dns.swip.net).
+ 71.925: ekero.se INFO SOA MNAME for ekero.se (orebro.dns.swip.net) listed as NS.
+ 72.013: ekero.se INFO SOA MNAME for ekero.se (orebro.dns.swip.net) is authoritative.
+ 72.088: ekero.se INFO SOA MNAME for ekero.se (orebro.dns.swip.net) is authoritative.
+ 72.089: ekero.se INFO Begin testing email address hostmaster@tele2.com.
+ 72.578: ekero.se INFO Mail exchangers for hostmaster@tele2.com found gw1-in.tele2.se,gw2-in.tele2.se.
+ 72.578: ekero.se INFO Begin testing host gw1-in.tele2.se.
+ 73.200: ekero.se INFO Begin testing address 193.12.60.45.
+ 74.328: ekero.se INFO Done testing address 193.12.60.45.
+ 74.328: ekero.se INFO Done testing host gw1-in.tele2.se.
+ 74.595: ekero.se INFO Begin testing host gw2-in.tele2.se.
+ 75.238: ekero.se INFO Begin testing address 193.12.60.46.
+ 76.380: ekero.se INFO Done testing address 193.12.60.46.
+ 76.380: ekero.se INFO Done testing host gw2-in.tele2.se.
+ 76.756: ekero.se INFO Done testing email address hostmaster@tele2.com.
+ 76.756: ekero.se INFO Successful attempt to deliver email for SOA RNAME of ekero.se (hostmaster.tele2.com) using hostmaster@tele2.com.
+ 76.756: ekero.se INFO SOA TTL for ekero.se OK (3600) - recommended >= 3600.
+ 76.757: ekero.se INFO SOA refresh for ekero.se OK (28800) - recommended >= 14400.
+ 76.757: ekero.se INFO SOA retry for ekero.se OK (7200) - recommended >= 3600.
+ 76.757: ekero.se INFO SOA expire for ekero.se OK (604800) - recommended >= 604800.
+ 76.757: ekero.se INFO SOA minimum for ekero.se OK (86400) - recommended between 300 and 86400.
+ 76.757: ekero.se INFO Done testing SOA parameters for ekero.se.
+ 76.757: ekero.se INFO Begin testing connectivity for ekero.se.
+ 79.466: ekero.se INFO Zone announced by more than one ASN.
+ 81.506: ekero.se INFO Zone announced by more than one IPv6 ASN.
+ 81.506: ekero.se INFO Done testing connectivity for ekero.se.
+ 81.507: ekero.se INFO Begin testing DNSSEC for ekero.se.
+ 81.683: ekero.se INFO Did not find DS record for ekero.se at parent.
+ 82.029: ekero.se INFO Servers for ekero.se have consistent extra processing status.
+ 82.076: ekero.se INFO Authenticated denial records not found for ekero.se.
+ 82.124: ekero.se INFO Did not find DNSKEY record for ekero.se at child.
+ 82.124: ekero.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 82.124: ekero.se INFO Done testing DNSSEC for ekero.se.
+ 82.125: ekero.se INFO Test completed for zone ekero.se.

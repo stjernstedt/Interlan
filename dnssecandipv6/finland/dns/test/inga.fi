@@ -1,0 +1,78 @@
+  0.000: inga.fi INFO Begin testing zone inga.fi with version 1.6.1.
+  0.442: inga.fi INFO Begin testing delegation for inga.fi.
+ 11.520: inga.fi INFO Name servers listed at parent: ns.sydweb.fi,ns2.sydweb.fi
+ 13.090: inga.fi INFO Name servers listed at child: ns.sydweb.fi,ns2.sydweb.fi
+ 13.090: inga.fi NOTICE No IPv6 name servers found.
+ 14.172: inga.fi INFO It is possible to build a referral packet for inga.fi that works without EDNS0.
+ 14.734: inga.fi INFO Previously used name servers for inga.fi: 
+ 14.734: inga.fi INFO Done testing delegation for inga.fi.
+ 14.735: inga.fi INFO Begin testing name server ns.sydweb.fi.
+ 14.735: inga.fi INFO Begin testing host ns.sydweb.fi.
+ 15.016: inga.fi INFO Begin testing address 62.197.179.140.
+ 32.227: inga.fi INFO Done testing address 62.197.179.140.
+ 32.227: inga.fi INFO Done testing host ns.sydweb.fi.
+ 32.365: inga.fi INFO Name server ns.sydweb.fi (62.197.179.140) answers queries over UDP.
+ 32.398: inga.fi INFO Name server ns.sydweb.fi (62.197.179.140) answers queries over TCP.
+ 32.426: inga.fi INFO Name server ns.sydweb.fi (62.197.179.140) is not recursive.
+ 32.492: inga.fi INFO Name server ns.sydweb.fi (62.197.179.140) authoritative for inga.fi.
+ 32.549: inga.fi INFO Name server ns.sydweb.fi (62.197.179.140) closed for zone transfer of inga.fi.
+ 32.569: inga.fi NOTICE No answer received from 62.197.179.140 when querying for hostname.bind/CH/TXT.
+ 32.647: inga.fi NOTICE No answer received from 62.197.179.140 when querying for id.server/CH/TXT.
+ 32.666: inga.fi NOTICE No answer received from 62.197.179.140 when querying for version.server/CH/TXT.
+ 32.666: inga.fi INFO Done testing name server ns.sydweb.fi.
+ 32.666: inga.fi INFO Begin testing name server ns2.sydweb.fi.
+ 32.666: inga.fi INFO Begin testing host ns2.sydweb.fi.
+ 32.860: inga.fi INFO Begin testing address 62.197.179.141.
+ 33.598: inga.fi INFO Done testing address 62.197.179.141.
+ 33.598: inga.fi INFO Done testing host ns2.sydweb.fi.
+ 33.802: inga.fi INFO Name server ns2.sydweb.fi (62.197.179.141) answers queries over UDP.
+ 33.842: inga.fi INFO Name server ns2.sydweb.fi (62.197.179.141) answers queries over TCP.
+ 33.865: inga.fi INFO Name server ns2.sydweb.fi (62.197.179.141) is not recursive.
+ 33.942: inga.fi INFO Name server ns2.sydweb.fi (62.197.179.141) authoritative for inga.fi.
+ 33.982: inga.fi INFO Name server ns2.sydweb.fi (62.197.179.141) closed for zone transfer of inga.fi.
+ 34.027: inga.fi NOTICE No answer received from 62.197.179.141 when querying for hostname.bind/CH/TXT.
+ 34.055: inga.fi NOTICE No answer received from 62.197.179.141 when querying for id.server/CH/TXT.
+ 34.077: inga.fi NOTICE No answer received from 62.197.179.141 when querying for version.server/CH/TXT.
+ 34.078: inga.fi INFO Done testing name server ns2.sydweb.fi.
+ 34.078: inga.fi INFO Begin testing zone consistency for inga.fi.
+ 34.590: inga.fi INFO SOA at address 62.197.179.140 has serial 2014022601.
+ 34.604: inga.fi INFO SOA at address 62.197.179.141 has serial 2014022601.
+ 34.604: inga.fi INFO All SOA records have consistent serial numbers.
+ 34.604: inga.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 34.900: inga.fi NOTICE The listed nameservers for inga.fi all report the same set of nameservers.
+ 34.900: inga.fi INFO Done testing zone consistency for inga.fi.
+ 34.900: inga.fi INFO Begin testing SOA parameters for inga.fi.
+ 34.930: inga.fi INFO Found SOA record for inga.fi.
+ 34.931: inga.fi INFO Begin testing host ns.sydweb.fi.
+ 35.054: inga.fi INFO Begin testing address 62.197.179.140.
+ 35.174: inga.fi INFO Done testing address 62.197.179.140.
+ 35.174: inga.fi INFO Done testing host ns.sydweb.fi.
+ 35.174: inga.fi INFO SOA MNAME for inga.fi valid (ns.sydweb.fi).
+ 35.174: inga.fi INFO SOA MNAME for inga.fi (ns.sydweb.fi) listed as NS.
+ 35.318: inga.fi INFO SOA MNAME for inga.fi (ns.sydweb.fi) is authoritative.
+ 35.318: inga.fi INFO Begin testing email address hostmaster@sydweb.fi.
+ 35.432: inga.fi INFO Mail exchangers for hostmaster@sydweb.fi found mail.sydweb.fi.
+ 35.432: inga.fi INFO Begin testing host mail.sydweb.fi.
+ 35.690: inga.fi INFO Begin testing address 86.60.245.45.
+ 37.202: inga.fi INFO Done testing address 86.60.245.45.
+ 37.202: inga.fi INFO Done testing host mail.sydweb.fi.
+ 37.288: inga.fi INFO Done testing email address hostmaster@sydweb.fi.
+ 37.288: inga.fi INFO Successful attempt to deliver email for SOA RNAME of inga.fi (hostmaster.sydweb.fi) using hostmaster@sydweb.fi.
+ 37.288: inga.fi NOTICE SOA TTL for inga.fi too small (864) - recommended >= 3600.
+ 37.288: inga.fi INFO SOA refresh for inga.fi OK (28800) - recommended >= 14400.
+ 37.288: inga.fi INFO SOA retry for inga.fi OK (7200) - recommended >= 3600.
+ 37.289: inga.fi INFO SOA expire for inga.fi OK (864000) - recommended >= 604800.
+ 37.289: inga.fi INFO SOA minimum for inga.fi OK (86400) - recommended between 300 and 86400.
+ 37.289: inga.fi INFO Done testing SOA parameters for inga.fi.
+ 37.289: inga.fi INFO Begin testing connectivity for inga.fi.
+ 38.343: inga.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 38.344: inga.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 38.344: inga.fi INFO Done testing connectivity for inga.fi.
+ 38.344: inga.fi INFO Begin testing DNSSEC for inga.fi.
+ 38.461: inga.fi INFO Did not find DS record for inga.fi at parent.
+ 38.520: inga.fi INFO Servers for inga.fi have consistent extra processing status.
+ 38.550: inga.fi INFO Authenticated denial records not found for inga.fi.
+ 38.570: inga.fi INFO Did not find DNSKEY record for inga.fi at child.
+ 38.570: inga.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 38.570: inga.fi INFO Done testing DNSSEC for inga.fi.
+ 38.571: inga.fi INFO Test completed for zone inga.fi.

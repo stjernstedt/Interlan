@@ -1,0 +1,124 @@
+  0.000: jayway.se INFO Begin testing zone jayway.se with version 1.2.
+  0.001: jayway.se INFO Begin testing delegation for jayway.se.
+  4.941: jayway.se INFO Name servers listed at parent: ns1.loopia.se,ns2.loopia.se
+  6.977: jayway.se INFO Name servers listed at child: ns1.loopia.se,ns2.loopia.se,ns3.loopia.se,ns4.loopia.se
+  6.977: jayway.se NOTICE Additional name server listed at child: ns3.loopia.se
+  6.977: jayway.se NOTICE Additional name server listed at child: ns4.loopia.se
+  6.978: jayway.se NOTICE No IPv6 name servers found.
+  7.020: jayway.se INFO Parent glue for jayway.se found: ns1.loopia.se (93.188.0.20)
+  7.037: jayway.se INFO Parent glue for jayway.se found: ns2.loopia.se (93.188.0.21)
+  7.045: jayway.se INFO Checking glue for ns1.loopia.se (93.188.0.20).
+  7.045: jayway.se INFO Checking glue for ns2.loopia.se (93.188.0.21).
+  7.046: jayway.se INFO Parent glue for jayway.se found: ns1.loopia.se (93.188.0.20)
+  7.046: jayway.se INFO Parent glue for jayway.se found: ns2.loopia.se (93.188.0.21)
+  7.046: jayway.se INFO Done testing delegation for jayway.se.
+  7.047: jayway.se INFO Begin testing name server ns1.loopia.se.
+  7.047: jayway.se INFO Begin testing host ns1.loopia.se.
+  7.048: jayway.se INFO Begin testing address 93.188.0.20.
+ 11.550: jayway.se INFO Done testing address 93.188.0.20.
+ 11.551: jayway.se INFO Done testing host ns1.loopia.se.
+ 11.564: jayway.se INFO Name server ns1.loopia.se (93.188.0.20) answers queries over UDP.
+ 11.586: jayway.se INFO Name server ns1.loopia.se (93.188.0.20) answers queries over TCP.
+ 11.596: jayway.se INFO Name server ns1.loopia.se (93.188.0.20) is not recursive.
+ 11.608: jayway.se INFO Name server ns1.loopia.se (93.188.0.20) authoritative for jayway.se.
+ 11.825: jayway.se INFO Name server ns1.loopia.se (93.188.0.20) closed for zone transfer of jayway.se.
+ 11.839: jayway.se INFO Legacy name server ID for ns1.loopia.se (93.188.0.20): hostname.bind = ns2.vst.loopia.se
+ 11.851: jayway.se INFO Legacy name server ID for ns1.loopia.se (93.188.0.20): version.bind = 9.6.1-P3
+ 11.871: jayway.se NOTICE No answer received from 93.188.0.20 when querying for version.server/CH/TXT.
+ 11.871: jayway.se INFO Done testing name server ns1.loopia.se.
+ 11.872: jayway.se INFO Begin testing name server ns2.loopia.se.
+ 11.872: jayway.se INFO Begin testing host ns2.loopia.se.
+ 11.873: jayway.se INFO Begin testing address 93.188.0.21.
+ 12.204: jayway.se INFO Done testing address 93.188.0.21.
+ 12.205: jayway.se INFO Done testing host ns2.loopia.se.
+ 12.218: jayway.se INFO Name server ns2.loopia.se (93.188.0.21) answers queries over UDP.
+ 12.239: jayway.se INFO Name server ns2.loopia.se (93.188.0.21) answers queries over TCP.
+ 12.249: jayway.se INFO Name server ns2.loopia.se (93.188.0.21) is not recursive.
+ 12.262: jayway.se INFO Name server ns2.loopia.se (93.188.0.21) authoritative for jayway.se.
+ 12.482: jayway.se INFO Name server ns2.loopia.se (93.188.0.21) closed for zone transfer of jayway.se.
+ 12.494: jayway.se INFO Legacy name server ID for ns2.loopia.se (93.188.0.21): hostname.bind = ns2.vst.loopia.se
+ 12.505: jayway.se INFO Legacy name server ID for ns2.loopia.se (93.188.0.21): version.bind = 9.6.1-P3
+ 12.527: jayway.se NOTICE No answer received from 93.188.0.21 when querying for version.server/CH/TXT.
+ 12.527: jayway.se INFO Done testing name server ns2.loopia.se.
+ 12.527: jayway.se INFO Begin testing name server ns3.loopia.se.
+ 12.528: jayway.se INFO Begin testing host ns3.loopia.se.
+ 12.528: jayway.se INFO Begin testing address 93.188.0.21.
+ 12.530: jayway.se INFO Done testing address 93.188.0.21.
+ 12.531: jayway.se INFO Done testing host ns3.loopia.se.
+ 12.545: jayway.se INFO Name server ns3.loopia.se (93.188.0.21) answers queries over UDP.
+ 12.565: jayway.se INFO Name server ns3.loopia.se (93.188.0.21) answers queries over TCP.
+ 12.576: jayway.se INFO Name server ns3.loopia.se (93.188.0.21) is not recursive.
+ 12.589: jayway.se INFO Name server ns3.loopia.se (93.188.0.21) authoritative for jayway.se.
+ 12.811: jayway.se INFO Name server ns3.loopia.se (93.188.0.21) closed for zone transfer of jayway.se.
+ 12.823: jayway.se INFO Legacy name server ID for ns3.loopia.se (93.188.0.21): hostname.bind = ns1.vst.loopia.se
+ 12.835: jayway.se INFO Legacy name server ID for ns3.loopia.se (93.188.0.21): version.bind = 9.6.1-P3
+ 12.856: jayway.se NOTICE No answer received from 93.188.0.21 when querying for version.server/CH/TXT.
+ 12.856: jayway.se INFO Done testing name server ns3.loopia.se.
+ 12.856: jayway.se INFO Begin testing name server ns4.loopia.se.
+ 12.857: jayway.se INFO Begin testing host ns4.loopia.se.
+ 12.858: jayway.se INFO Begin testing address 93.188.0.20.
+ 12.859: jayway.se INFO Done testing address 93.188.0.20.
+ 12.860: jayway.se INFO Done testing host ns4.loopia.se.
+ 12.873: jayway.se INFO Name server ns4.loopia.se (93.188.0.20) answers queries over UDP.
+ 12.895: jayway.se INFO Name server ns4.loopia.se (93.188.0.20) answers queries over TCP.
+ 12.906: jayway.se INFO Name server ns4.loopia.se (93.188.0.20) is not recursive.
+ 12.919: jayway.se INFO Name server ns4.loopia.se (93.188.0.20) authoritative for jayway.se.
+ 13.135: jayway.se INFO Name server ns4.loopia.se (93.188.0.20) closed for zone transfer of jayway.se.
+ 13.148: jayway.se INFO Legacy name server ID for ns4.loopia.se (93.188.0.20): hostname.bind = ns1.vst.loopia.se
+ 13.161: jayway.se INFO Legacy name server ID for ns4.loopia.se (93.188.0.20): version.bind = 9.6.1-P3
+ 13.182: jayway.se NOTICE No answer received from 93.188.0.20 when querying for version.server/CH/TXT.
+ 13.182: jayway.se INFO Done testing name server ns4.loopia.se.
+ 13.183: jayway.se INFO Begin testing zone consistency for jayway.se.
+ 13.202: jayway.se INFO SOA at address 93.188.0.21 has serial 1271679794.
+ 13.215: jayway.se INFO SOA at address 93.188.0.20 has serial 1271679794.
+ 13.216: jayway.se INFO All SOA records have consistent serial numbers.
+ 13.216: jayway.se INFO All SOA records are consistent among all name servers.
+ 13.216: jayway.se INFO Done testing zone consistency for jayway.se.
+ 13.216: jayway.se INFO Begin testing SOA parameters for jayway.se.
+ 13.230: jayway.se INFO Found SOA record for jayway.se.
+ 13.231: jayway.se INFO Begin testing host ns1.loopia.se.
+ 13.231: jayway.se INFO Begin testing address 93.188.0.20.
+ 13.233: jayway.se INFO Done testing address 93.188.0.20.
+ 13.233: jayway.se INFO Done testing host ns1.loopia.se.
+ 13.234: jayway.se INFO SOA MNAME for jayway.se valid (ns1.loopia.se).
+ 13.234: jayway.se INFO SOA MNAME for jayway.se (ns1.loopia.se) listed as NS.
+ 13.248: jayway.se INFO SOA MNAME for jayway.se (ns1.loopia.se) is authoritative.
+ 13.249: jayway.se INFO Begin testing email address registry@loopia.se.
+ 13.477: jayway.se INFO Mail exchangers for registry@loopia.se found mail.loopia.se,mail2.loopia.se.
+ 13.478: jayway.se INFO Begin testing host mail.loopia.se.
+ 13.916: jayway.se INFO Begin testing address 194.9.95.5.
+ 14.550: jayway.se INFO Done testing address 194.9.95.5.
+ 14.550: jayway.se INFO Done testing host mail.loopia.se.
+ 14.551: jayway.se INFO Begin testing mail server mail.loopia.se (194.9.95.5) with registry@loopia.se.
+ 14.578: jayway.se INFO SMTP banner: s22.loopia.se ESMTP
+ 14.608: jayway.se INFO SMTP testing of mail.loopia.se (194.9.95.5) with registry@loopia.se succeeded without errors.
+ 14.608: jayway.se INFO Done testing mail server mail.loopia.se (194.9.95.5) with registry@loopia.se.
+ 14.609: jayway.se INFO Begin testing host mail2.loopia.se.
+ 15.040: jayway.se INFO Begin testing address 194.9.94.3.
+ 16.020: jayway.se INFO Done testing address 194.9.94.3.
+ 16.020: jayway.se INFO Done testing host mail2.loopia.se.
+ 16.021: jayway.se INFO Delivery over IPv4 to registry@loopia.se ok.
+ 16.021: jayway.se INFO Delivery over IPv6 to registry@loopia.se could not be done.
+ 16.021: jayway.se INFO Done testing email address registry@loopia.se.
+ 16.021: jayway.se INFO Successful attempt to deliver email for SOA RNAME of jayway.se (registry.loopia.se) using registry@loopia.se.
+ 16.022: jayway.se INFO SOA TTL for jayway.se OK (3600) - recommended >= 3600.
+ 16.022: jayway.se NOTICE SOA refresh for jayway.se too small (10800) - recommended >= 14400.
+ 16.022: jayway.se INFO SOA retry for jayway.se OK (3600) - recommended >= 3600.
+ 16.023: jayway.se INFO SOA expire for jayway.se OK (604800) - recommended >= 604800.
+ 16.023: jayway.se INFO SOA minimum for jayway.se OK (86400) - recommended between 300 and 86400.
+ 16.023: jayway.se INFO Done testing SOA parameters for jayway.se.
+ 16.023: jayway.se INFO Begin testing connectivity for jayway.se.
+ 16.619: jayway.se INFO Name server 93.188.0.21 announced by: 39570
+ 17.107: jayway.se INFO Name server 93.188.0.20 announced by: 39570
+ 17.107: jayway.se INFO Zone announced by IPv4 ASN: 39570
+ 17.108: jayway.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 17.108: jayway.se INFO Zone announced by IPv6 ASN: 
+ 17.108: jayway.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 17.108: jayway.se INFO Done testing connectivity for jayway.se.
+ 17.108: jayway.se INFO Begin testing DNSSEC for jayway.se.
+ 17.188: jayway.se INFO Did not find DS record for jayway.se at parent.
+ 17.225: jayway.se INFO Servers for jayway.se have consistent extra processing status.
+ 17.226: jayway.se INFO Did not find DNSKEY record for jayway.se at child.
+ 17.226: jayway.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 17.226: jayway.se INFO Done testing DNSSEC for jayway.se.
+ 17.226: jayway.se INFO Test completed for zone jayway.se.

@@ -1,0 +1,99 @@
+  0.000: attmarssparbank.se INFO Begin testing zone attmarssparbank.se with version 1.5.0.
+  0.001: attmarssparbank.se INFO Begin testing delegation for attmarssparbank.se.
+  6.800: attmarssparbank.se INFO Name servers listed at parent: ns1.swedbank.se,ns2.swedbank.se,ns3.swedbank.se
+  9.925: attmarssparbank.se INFO Name servers listed at child: ns1.swedbank.se,ns2.domainnetwork.se,ns2.swedbank.se,ns3.swedbank.se
+  9.930: attmarssparbank.se NOTICE Additional name server listed at child: ns2.domainnetwork.se
+  9.930: attmarssparbank.se NOTICE No IPv6 name servers found.
+ 11.932: attmarssparbank.se INFO It is possible to build a referral packet for attmarssparbank.se that works without EDNS0.
+ 11.933: attmarssparbank.se INFO Done testing delegation for attmarssparbank.se.
+ 11.934: attmarssparbank.se INFO Begin testing name server ns1.swedbank.se.
+ 11.934: attmarssparbank.se INFO Begin testing host ns1.swedbank.se.
+ 12.173: attmarssparbank.se INFO Begin testing address 164.10.45.24.
+ 18.783: attmarssparbank.se INFO Done testing address 164.10.45.24.
+ 18.784: attmarssparbank.se INFO Done testing host ns1.swedbank.se.
+ 19.046: attmarssparbank.se INFO Name server ns1.swedbank.se (164.10.45.24) answers queries over UDP.
+ 19.063: attmarssparbank.se INFO Name server ns1.swedbank.se (164.10.45.24) answers queries over TCP.
+ 19.073: attmarssparbank.se INFO Name server ns1.swedbank.se (164.10.45.24) is not recursive.
+ 19.116: attmarssparbank.se INFO Name server ns1.swedbank.se (164.10.45.24) authoritative for attmarssparbank.se.
+ 19.139: attmarssparbank.se INFO Name server ns1.swedbank.se (164.10.45.24) closed for zone transfer of attmarssparbank.se.
+ 43.184: attmarssparbank.se INFO Done testing name server ns1.swedbank.se.
+ 43.184: attmarssparbank.se INFO Begin testing name server ns2.domainnetwork.se.
+ 43.185: attmarssparbank.se INFO Begin testing host ns2.domainnetwork.se.
+ 43.586: attmarssparbank.se INFO Begin testing address 202.148.152.225.
+ 50.819: attmarssparbank.se INFO Done testing address 202.148.152.225.
+ 50.819: attmarssparbank.se INFO Done testing host ns2.domainnetwork.se.
+ 51.617: attmarssparbank.se INFO Name server ns2.domainnetwork.se (202.148.152.225) answers queries over UDP.
+ 52.654: attmarssparbank.se INFO Name server ns2.domainnetwork.se (202.148.152.225) answers queries over TCP.
+ 53.031: attmarssparbank.se INFO Name server ns2.domainnetwork.se (202.148.152.225) is not recursive.
+ 53.790: attmarssparbank.se WARNING Nameserver at 202.148.152.225 is not authoritative over UDP.
+ 53.791: attmarssparbank.se ERROR Name server ns2.domainnetwork.se (202.148.152.225) not authoritative for attmarssparbank.se.
+ 53.791: attmarssparbank.se INFO Done testing name server ns2.domainnetwork.se.
+ 53.791: attmarssparbank.se INFO Begin testing name server ns2.swedbank.se.
+ 53.791: attmarssparbank.se INFO Begin testing host ns2.swedbank.se.
+ 54.057: attmarssparbank.se INFO Begin testing address 164.10.45.25.
+ 55.381: attmarssparbank.se INFO Done testing address 164.10.45.25.
+ 55.382: attmarssparbank.se INFO Done testing host ns2.swedbank.se.
+ 55.633: attmarssparbank.se INFO Name server ns2.swedbank.se (164.10.45.25) answers queries over UDP.
+ 55.655: attmarssparbank.se INFO Name server ns2.swedbank.se (164.10.45.25) answers queries over TCP.
+ 55.668: attmarssparbank.se INFO Name server ns2.swedbank.se (164.10.45.25) is not recursive.
+ 55.713: attmarssparbank.se INFO Name server ns2.swedbank.se (164.10.45.25) authoritative for attmarssparbank.se.
+ 55.730: attmarssparbank.se INFO Name server ns2.swedbank.se (164.10.45.25) closed for zone transfer of attmarssparbank.se.
+ 79.769: attmarssparbank.se INFO Done testing name server ns2.swedbank.se.
+ 79.769: attmarssparbank.se INFO Begin testing name server ns3.swedbank.se.
+ 79.769: attmarssparbank.se INFO Begin testing host ns3.swedbank.se.
+ 80.012: attmarssparbank.se INFO Begin testing address 164.10.45.26.
+ 81.120: attmarssparbank.se INFO Done testing address 164.10.45.26.
+ 81.120: attmarssparbank.se INFO Done testing host ns3.swedbank.se.
+ 81.343: attmarssparbank.se INFO Name server ns3.swedbank.se (164.10.45.26) answers queries over UDP.
+ 81.359: attmarssparbank.se INFO Name server ns3.swedbank.se (164.10.45.26) answers queries over TCP.
+ 81.367: attmarssparbank.se INFO Name server ns3.swedbank.se (164.10.45.26) is not recursive.
+ 81.402: attmarssparbank.se INFO Name server ns3.swedbank.se (164.10.45.26) authoritative for attmarssparbank.se.
+ 81.422: attmarssparbank.se INFO Name server ns3.swedbank.se (164.10.45.26) closed for zone transfer of attmarssparbank.se.
+105.462: attmarssparbank.se INFO Done testing name server ns3.swedbank.se.
+105.463: attmarssparbank.se INFO Begin testing zone consistency for attmarssparbank.se.
+107.315: attmarssparbank.se INFO SOA at address 164.10.45.24 has serial 2013021301.
+107.328: attmarssparbank.se INFO SOA at address 164.10.45.26 has serial 2013021301.
+107.339: attmarssparbank.se INFO SOA at address 164.10.45.25 has serial 2013021301.
+107.716: attmarssparbank.se INFO All SOA records have consistent serial numbers.
+107.719: attmarssparbank.se INFO All other fields in the SOA record are consistent among all name servers.
+108.473: attmarssparbank.se NOTICE The listed nameservers for attmarssparbank.se all report the same set of nameservers.
+108.473: attmarssparbank.se INFO Done testing zone consistency for attmarssparbank.se.
+108.474: attmarssparbank.se INFO Begin testing SOA parameters for attmarssparbank.se.
+108.485: attmarssparbank.se INFO Found SOA record for attmarssparbank.se.
+108.485: attmarssparbank.se INFO Begin testing host ns1.swedbank.se.
+108.721: attmarssparbank.se INFO Begin testing address 164.10.45.24.
+109.194: attmarssparbank.se INFO Done testing address 164.10.45.24.
+109.194: attmarssparbank.se INFO Done testing host ns1.swedbank.se.
+109.194: attmarssparbank.se INFO SOA MNAME for attmarssparbank.se valid (ns1.swedbank.se).
+109.195: attmarssparbank.se INFO SOA MNAME for attmarssparbank.se (ns1.swedbank.se) listed as NS.
+109.433: attmarssparbank.se INFO SOA MNAME for attmarssparbank.se (ns1.swedbank.se) is authoritative.
+109.434: attmarssparbank.se INFO Begin testing email address domains@swedbank.se.
+109.694: attmarssparbank.se INFO Mail exchangers for domains@swedbank.se found mail1.swedbank.se,mail2.swedbank.se.
+109.695: attmarssparbank.se INFO Begin testing host mail1.swedbank.se.
+110.168: attmarssparbank.se INFO Begin testing address 164.10.46.101.
+110.953: attmarssparbank.se INFO Done testing address 164.10.46.101.
+110.953: attmarssparbank.se INFO Done testing host mail1.swedbank.se.
+111.198: attmarssparbank.se INFO Begin testing host mail2.swedbank.se.
+111.697: attmarssparbank.se INFO Begin testing address 164.10.46.102.
+112.313: attmarssparbank.se INFO Done testing address 164.10.46.102.
+112.313: attmarssparbank.se INFO Done testing host mail2.swedbank.se.
+112.537: attmarssparbank.se INFO Done testing email address domains@swedbank.se.
+112.537: attmarssparbank.se INFO Successful attempt to deliver email for SOA RNAME of attmarssparbank.se (domains.swedbank.se) using domains@swedbank.se.
+112.537: attmarssparbank.se INFO SOA TTL for attmarssparbank.se OK (3600) - recommended >= 3600.
+112.537: attmarssparbank.se INFO SOA refresh for attmarssparbank.se OK (28800) - recommended >= 14400.
+112.537: attmarssparbank.se INFO SOA retry for attmarssparbank.se OK (7200) - recommended >= 3600.
+112.537: attmarssparbank.se INFO SOA expire for attmarssparbank.se OK (604800) - recommended >= 604800.
+112.537: attmarssparbank.se INFO SOA minimum for attmarssparbank.se OK (86400) - recommended between 300 and 86400.
+112.537: attmarssparbank.se INFO Done testing SOA parameters for attmarssparbank.se.
+112.538: attmarssparbank.se INFO Begin testing connectivity for attmarssparbank.se.
+114.759: attmarssparbank.se INFO Zone announced by more than one ASN.
+114.760: attmarssparbank.se NOTICE Zone announced by fewer than two IPv6 ASN.
+114.760: attmarssparbank.se INFO Done testing connectivity for attmarssparbank.se.
+114.760: attmarssparbank.se INFO Begin testing DNSSEC for attmarssparbank.se.
+114.776: attmarssparbank.se INFO Did not find DS record for attmarssparbank.se at parent.
+115.864: attmarssparbank.se INFO Servers for attmarssparbank.se have consistent extra processing status.
+115.877: attmarssparbank.se INFO Authenticated denial records not found for attmarssparbank.se.
+115.888: attmarssparbank.se INFO Did not find DNSKEY record for attmarssparbank.se at child.
+115.888: attmarssparbank.se INFO No DNSKEY(s) found at child, other tests skipped.
+115.888: attmarssparbank.se INFO Done testing DNSSEC for attmarssparbank.se.
+115.889: attmarssparbank.se INFO Test completed for zone attmarssparbank.se.

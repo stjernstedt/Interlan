@@ -1,0 +1,89 @@
+  0.000: nordreg.se INFO Begin testing zone nordreg.se with version 1.5.0.
+  0.001: nordreg.se INFO Begin testing delegation for nordreg.se.
+ 14.430: nordreg.se INFO Name servers listed at parent: ns.aname.net,ns2.aname.net,ns3.aname.se
+ 19.769: nordreg.se INFO Name servers listed at child: ns.aname.net,ns2.aname.net,ns3.aname.se
+ 19.769: nordreg.se NOTICE No IPv6 name servers found.
+ 20.130: nordreg.se INFO Parent glue for nordreg.se found: ns3.aname.se (195.35.83.103)
+ 20.204: nordreg.se INFO Checking glue for ns3.aname.se (195.35.83.103).
+ 20.206: nordreg.se INFO Parent glue for nordreg.se found: ns3.aname.se (195.35.83.103)
+ 22.365: nordreg.se INFO It is possible to build a referral packet for nordreg.se that works without EDNS0.
+ 22.365: nordreg.se INFO Done testing delegation for nordreg.se.
+ 22.366: nordreg.se INFO Begin testing name server ns.aname.net.
+ 22.366: nordreg.se INFO Begin testing host ns.aname.net.
+ 22.793: nordreg.se INFO Begin testing address 195.35.82.101.
+ 31.455: nordreg.se INFO Done testing address 195.35.82.101.
+ 31.455: nordreg.se INFO Done testing host ns.aname.net.
+ 32.096: nordreg.se INFO Name server ns.aname.net (195.35.82.101) answers queries over UDP.
+ 32.136: nordreg.se INFO Name server ns.aname.net (195.35.82.101) answers queries over TCP.
+ 32.185: nordreg.se INFO Name server ns.aname.net (195.35.82.101) is not recursive.
+ 32.377: nordreg.se INFO Name server ns.aname.net (195.35.82.101) authoritative for nordreg.se.
+ 32.429: nordreg.se INFO Name server ns.aname.net (195.35.82.101) closed for zone transfer of nordreg.se.
+ 32.472: nordreg.se INFO Legacy name server ID for ns.aname.net (195.35.82.101): version.bind = sec0553
+ 32.560: nordreg.se INFO Done testing name server ns.aname.net.
+ 32.560: nordreg.se INFO Begin testing name server ns2.aname.net.
+ 32.560: nordreg.se INFO Begin testing host ns2.aname.net.
+ 33.029: nordreg.se INFO Begin testing address 89.221.245.42.
+ 39.184: nordreg.se INFO Done testing address 89.221.245.42.
+ 39.184: nordreg.se INFO Done testing host ns2.aname.net.
+ 39.492: nordreg.se INFO Name server ns2.aname.net (89.221.245.42) answers queries over UDP.
+ 39.532: nordreg.se INFO Name server ns2.aname.net (89.221.245.42) answers queries over TCP.
+ 39.564: nordreg.se INFO Name server ns2.aname.net (89.221.245.42) is not recursive.
+ 39.660: nordreg.se INFO Name server ns2.aname.net (89.221.245.42) authoritative for nordreg.se.
+ 39.700: nordreg.se INFO Name server ns2.aname.net (89.221.245.42) closed for zone transfer of nordreg.se.
+ 39.730: nordreg.se INFO Legacy name server ID for ns2.aname.net (89.221.245.42): version.bind = sec0553
+ 39.764: nordreg.se INFO Done testing name server ns2.aname.net.
+ 39.765: nordreg.se INFO Begin testing name server ns3.aname.se.
+ 39.765: nordreg.se INFO Begin testing host ns3.aname.se.
+ 40.142: nordreg.se INFO Begin testing address 195.35.83.103.
+ 41.075: nordreg.se INFO Done testing address 195.35.83.103.
+ 41.075: nordreg.se INFO Done testing host ns3.aname.se.
+ 41.555: nordreg.se INFO Name server ns3.aname.se (195.35.83.103) answers queries over UDP.
+ 41.617: nordreg.se INFO Name server ns3.aname.se (195.35.83.103) answers queries over TCP.
+ 41.640: nordreg.se INFO Name server ns3.aname.se (195.35.83.103) is not recursive.
+ 41.798: nordreg.se INFO Name server ns3.aname.se (195.35.83.103) authoritative for nordreg.se.
+ 41.874: nordreg.se INFO Name server ns3.aname.se (195.35.83.103) closed for zone transfer of nordreg.se.
+ 41.990: nordreg.se INFO Legacy name server ID for ns3.aname.se (195.35.83.103): version.bind = sec0553
+ 42.143: nordreg.se INFO Done testing name server ns3.aname.se.
+ 42.143: nordreg.se INFO Begin testing zone consistency for nordreg.se.
+ 44.926: nordreg.se INFO SOA at address 195.35.83.103 has serial 1342164234.
+ 44.940: nordreg.se INFO SOA at address 89.221.245.42 has serial 1342164234.
+ 44.959: nordreg.se INFO SOA at address 195.35.82.101 has serial 1342164234.
+ 44.959: nordreg.se INFO All SOA records have consistent serial numbers.
+ 44.959: nordreg.se INFO All other fields in the SOA record are consistent among all name servers.
+ 46.580: nordreg.se NOTICE The listed nameservers for nordreg.se all report the same set of nameservers.
+ 46.580: nordreg.se INFO Done testing zone consistency for nordreg.se.
+ 46.580: nordreg.se INFO Begin testing SOA parameters for nordreg.se.
+ 46.620: nordreg.se INFO Found SOA record for nordreg.se.
+ 46.620: nordreg.se INFO Begin testing host ns.aname.net.
+ 47.229: nordreg.se INFO Begin testing address 195.35.82.101.
+ 47.680: nordreg.se INFO Done testing address 195.35.82.101.
+ 47.680: nordreg.se INFO Done testing host ns.aname.net.
+ 47.680: nordreg.se INFO SOA MNAME for nordreg.se valid (ns.aname.net).
+ 47.681: nordreg.se INFO SOA MNAME for nordreg.se (ns.aname.net) listed as NS.
+ 48.113: nordreg.se INFO SOA MNAME for nordreg.se (ns.aname.net) is authoritative.
+ 48.114: nordreg.se INFO Begin testing email address hostmaster@nordreg.se.
+ 48.465: nordreg.se INFO Mail exchangers for hostmaster@nordreg.se found mail-gw01.fsdata.se.
+ 48.465: nordreg.se INFO Begin testing host mail-gw01.fsdata.se.
+ 49.033: nordreg.se INFO Begin testing address 195.35.82.79.
+ 50.191: nordreg.se INFO Done testing address 195.35.82.79.
+ 50.191: nordreg.se INFO Done testing host mail-gw01.fsdata.se.
+ 50.557: nordreg.se INFO Done testing email address hostmaster@nordreg.se.
+ 50.557: nordreg.se INFO Successful attempt to deliver email for SOA RNAME of nordreg.se (hostmaster.nordreg.se) using hostmaster@nordreg.se.
+ 50.557: nordreg.se NOTICE SOA TTL for nordreg.se too small (600) - recommended >= 3600.
+ 50.557: nordreg.se NOTICE SOA refresh for nordreg.se too small (10800) - recommended >= 14400.
+ 50.557: nordreg.se INFO SOA retry for nordreg.se OK (3600) - recommended >= 3600.
+ 50.557: nordreg.se INFO SOA expire for nordreg.se OK (604800) - recommended >= 604800.
+ 50.558: nordreg.se INFO SOA minimum for nordreg.se OK (600) - recommended between 300 and 86400.
+ 50.558: nordreg.se INFO Done testing SOA parameters for nordreg.se.
+ 50.560: nordreg.se INFO Begin testing connectivity for nordreg.se.
+ 53.328: nordreg.se INFO Zone announced by more than one ASN.
+ 53.329: nordreg.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 53.329: nordreg.se INFO Done testing connectivity for nordreg.se.
+ 53.329: nordreg.se INFO Begin testing DNSSEC for nordreg.se.
+ 53.366: nordreg.se INFO Did not find DS record for nordreg.se at parent.
+ 53.460: nordreg.se INFO Servers for nordreg.se have consistent extra processing status.
+ 53.496: nordreg.se INFO Authenticated denial records not found for nordreg.se.
+ 53.516: nordreg.se INFO Did not find DNSKEY record for nordreg.se at child.
+ 53.516: nordreg.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 53.516: nordreg.se INFO Done testing DNSSEC for nordreg.se.
+ 53.517: nordreg.se INFO Test completed for zone nordreg.se.

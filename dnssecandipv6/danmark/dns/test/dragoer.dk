@@ -1,0 +1,88 @@
+  0.000: dragoer.dk INFO Begin testing zone dragoer.dk with version 1.6.1.
+  0.397: dragoer.dk INFO Begin testing delegation for dragoer.dk.
+  5.858: dragoer.dk INFO Name servers listed at parent: ns-auth03.kmd.dk,ns-auth04.kmd.dk
+  7.573: dragoer.dk INFO Name servers listed at child: ns-auth03.kmd.dk,ns-auth04.kmd.dk
+  7.573: dragoer.dk NOTICE No IPv6 name servers found.
+  7.617: dragoer.dk INFO Parent glue for dragoer.dk found: ns-auth03.kmd.dk (131.165.64.5)
+  7.800: dragoer.dk INFO Parent glue for dragoer.dk found: ns-auth04.kmd.dk (131.165.4.5)
+  7.884: dragoer.dk INFO Checking glue for ns-auth03.kmd.dk (131.165.64.5).
+  7.884: dragoer.dk INFO Checking glue for ns-auth04.kmd.dk (131.165.4.5).
+  7.884: dragoer.dk INFO Parent glue for dragoer.dk found: ns-auth03.kmd.dk (131.165.64.5)
+  7.885: dragoer.dk INFO Parent glue for dragoer.dk found: ns-auth04.kmd.dk (131.165.4.5)
+  8.731: dragoer.dk INFO It is possible to build a referral packet for dragoer.dk that works without EDNS0.
+  9.293: dragoer.dk INFO Previously used name servers for dragoer.dk: 
+  9.293: dragoer.dk INFO Done testing delegation for dragoer.dk.
+  9.294: dragoer.dk INFO Begin testing name server ns-auth03.kmd.dk.
+  9.294: dragoer.dk INFO Begin testing host ns-auth03.kmd.dk.
+  9.636: dragoer.dk INFO Begin testing address 131.165.64.5.
+ 15.608: dragoer.dk INFO Done testing address 131.165.64.5.
+ 15.608: dragoer.dk INFO Done testing host ns-auth03.kmd.dk.
+ 15.919: dragoer.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) answers queries over UDP.
+ 16.025: dragoer.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) answers queries over TCP.
+ 16.084: dragoer.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) is not recursive.
+ 16.333: dragoer.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) authoritative for dragoer.dk.
+ 16.486: dragoer.dk INFO Name server ns-auth03.kmd.dk (131.165.64.5) closed for zone transfer of dragoer.dk.
+ 16.557: dragoer.dk INFO Legacy name server ID for ns-auth03.kmd.dk (131.165.64.5): hostname.bind = ns-auth03.kmd.dk
+ 16.610: dragoer.dk INFO Legacy name server ID for ns-auth03.kmd.dk (131.165.64.5): version.bind = 1.0
+ 16.746: dragoer.dk NOTICE No answer received from 131.165.64.5 when querying for version.server/CH/TXT.
+ 16.746: dragoer.dk INFO Done testing name server ns-auth03.kmd.dk.
+ 16.746: dragoer.dk INFO Begin testing name server ns-auth04.kmd.dk.
+ 16.746: dragoer.dk INFO Begin testing host ns-auth04.kmd.dk.
+ 16.923: dragoer.dk INFO Begin testing address 131.165.4.5.
+ 17.464: dragoer.dk INFO Done testing address 131.165.4.5.
+ 17.464: dragoer.dk INFO Done testing host ns-auth04.kmd.dk.
+ 17.773: dragoer.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) answers queries over UDP.
+ 17.882: dragoer.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) answers queries over TCP.
+ 17.936: dragoer.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) is not recursive.
+ 18.157: dragoer.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) authoritative for dragoer.dk.
+ 18.313: dragoer.dk INFO Name server ns-auth04.kmd.dk (131.165.4.5) closed for zone transfer of dragoer.dk.
+ 18.366: dragoer.dk INFO Legacy name server ID for ns-auth04.kmd.dk (131.165.4.5): hostname.bind = ns-auth04.kmd.dk
+ 18.428: dragoer.dk INFO Legacy name server ID for ns-auth04.kmd.dk (131.165.4.5): version.bind = 1.0
+ 18.531: dragoer.dk NOTICE No answer received from 131.165.4.5 when querying for version.server/CH/TXT.
+ 18.531: dragoer.dk INFO Done testing name server ns-auth04.kmd.dk.
+ 18.532: dragoer.dk INFO Begin testing zone consistency for dragoer.dk.
+ 19.297: dragoer.dk INFO SOA at address 131.165.4.5 has serial 35.
+ 19.351: dragoer.dk INFO SOA at address 131.165.64.5 has serial 35.
+ 19.351: dragoer.dk INFO All SOA records have consistent serial numbers.
+ 19.351: dragoer.dk INFO All other fields in the SOA record are consistent among all name servers.
+ 19.833: dragoer.dk NOTICE The listed nameservers for dragoer.dk all report the same set of nameservers.
+ 19.833: dragoer.dk INFO Done testing zone consistency for dragoer.dk.
+ 19.833: dragoer.dk INFO Begin testing SOA parameters for dragoer.dk.
+ 19.892: dragoer.dk INFO Found SOA record for dragoer.dk.
+ 19.893: dragoer.dk INFO Begin testing host ns-auth03.kmd.dk.
+ 20.146: dragoer.dk INFO Begin testing address 131.165.64.5.
+ 20.332: dragoer.dk INFO Done testing address 131.165.64.5.
+ 20.332: dragoer.dk INFO Done testing host ns-auth03.kmd.dk.
+ 20.332: dragoer.dk INFO SOA MNAME for dragoer.dk valid (ns-auth03.kmd.dk).
+ 20.332: dragoer.dk INFO SOA MNAME for dragoer.dk (ns-auth03.kmd.dk) listed as NS.
+ 20.705: dragoer.dk INFO SOA MNAME for dragoer.dk (ns-auth03.kmd.dk) is authoritative.
+ 20.705: dragoer.dk INFO Begin testing email address dnsadmin@kmd.dk.
+ 20.946: dragoer.dk INFO Mail exchangers for dnsadmin@kmd.dk found edge1.kmd.dk,edge2.kmd.dk.
+ 20.947: dragoer.dk INFO Begin testing host edge1.kmd.dk.
+ 21.385: dragoer.dk INFO Begin testing address 131.165.63.88.
+ 21.906: dragoer.dk INFO Done testing address 131.165.63.88.
+ 21.906: dragoer.dk INFO Done testing host edge1.kmd.dk.
+ 22.257: dragoer.dk INFO Begin testing host edge2.kmd.dk.
+ 22.671: dragoer.dk INFO Begin testing address 131.165.63.89.
+ 23.645: dragoer.dk INFO Done testing address 131.165.63.89.
+ 23.645: dragoer.dk INFO Done testing host edge2.kmd.dk.
+ 23.983: dragoer.dk INFO Done testing email address dnsadmin@kmd.dk.
+ 23.983: dragoer.dk INFO Successful attempt to deliver email for SOA RNAME of dragoer.dk (dnsadmin.kmd.dk) using dnsadmin@kmd.dk.
+ 23.985: dragoer.dk INFO SOA TTL for dragoer.dk OK (3600) - recommended >= 3600.
+ 23.985: dragoer.dk NOTICE SOA refresh for dragoer.dk too small (10800) - recommended >= 14400.
+ 23.986: dragoer.dk INFO SOA retry for dragoer.dk OK (3600) - recommended >= 3600.
+ 23.986: dragoer.dk INFO SOA expire for dragoer.dk OK (604800) - recommended >= 604800.
+ 23.986: dragoer.dk INFO SOA minimum for dragoer.dk OK (43200) - recommended between 300 and 86400.
+ 23.986: dragoer.dk INFO Done testing SOA parameters for dragoer.dk.
+ 23.986: dragoer.dk INFO Begin testing connectivity for dragoer.dk.
+ 25.023: dragoer.dk NOTICE Zone announced by fewer than two IPv4 ASN.
+ 25.039: dragoer.dk NOTICE Zone announced by fewer than two IPv6 ASN.
+ 25.040: dragoer.dk INFO Done testing connectivity for dragoer.dk.
+ 25.040: dragoer.dk INFO Begin testing DNSSEC for dragoer.dk.
+ 25.089: dragoer.dk INFO Did not find DS record for dragoer.dk at parent.
+ 25.300: dragoer.dk INFO Servers for dragoer.dk have consistent extra processing status.
+ 25.406: dragoer.dk INFO Authenticated denial records not found for dragoer.dk.
+ 25.477: dragoer.dk INFO Did not find DNSKEY record for dragoer.dk at child.
+ 25.478: dragoer.dk INFO No DNSKEY(s) found at child, other tests skipped.
+ 25.478: dragoer.dk INFO Done testing DNSSEC for dragoer.dk.
+ 25.478: dragoer.dk INFO Test completed for zone dragoer.dk.

@@ -1,0 +1,138 @@
+  0.000: karlstad.se INFO Begin testing zone karlstad.se with version 1.2.
+  0.000: karlstad.se INFO Begin testing delegation for karlstad.se.
+ 13.309: karlstad.se INFO Name servers listed at parent: a.dns.songnetworks.se,b.dns.songnetworks.se,c.dns.songnetworks.se,dns1.karlstad.se
+ 15.324: karlstad.se INFO Name servers listed at child: a.dns.songnetworks.se,b.dns.songnetworks.se,c.dns.songnetworks.se,dns1.karlstad.se
+ 15.324: karlstad.se NOTICE No IPv6 name servers found.
+ 15.343: karlstad.se INFO Parent glue for karlstad.se found: a.dns.songnetworks.se (213.50.29.190)
+ 15.380: karlstad.se INFO Parent glue for karlstad.se found: b.dns.songnetworks.se (213.50.29.195)
+ 15.429: karlstad.se INFO Parent glue for karlstad.se found: c.dns.songnetworks.se (195.10.143.3)
+ 15.491: karlstad.se INFO Parent glue for karlstad.se found: dns1.karlstad.se (193.235.28.225)
+ 15.531: karlstad.se INFO Checking glue for a.dns.songnetworks.se (213.50.29.190).
+ 15.531: karlstad.se INFO Checking glue for b.dns.songnetworks.se (213.50.29.195).
+ 15.532: karlstad.se INFO Checking glue for c.dns.songnetworks.se (195.10.143.3).
+ 15.532: karlstad.se INFO Checking glue for dns1.karlstad.se (193.235.28.225).
+ 15.546: karlstad.se INFO Child glue for karlstad.se found: dns1.karlstad.se (193.235.28.225)
+ 15.547: karlstad.se INFO Parent glue for karlstad.se found: a.dns.songnetworks.se (213.50.29.190)
+ 15.547: karlstad.se INFO Parent glue for karlstad.se found: b.dns.songnetworks.se (213.50.29.195)
+ 15.547: karlstad.se INFO Parent glue for karlstad.se found: c.dns.songnetworks.se (195.10.143.3)
+ 15.548: karlstad.se INFO Parent glue for karlstad.se found: dns1.karlstad.se (193.235.28.225)
+ 15.548: karlstad.se INFO Done testing delegation for karlstad.se.
+ 15.548: karlstad.se INFO Begin testing name server a.dns.songnetworks.se.
+ 15.549: karlstad.se INFO Begin testing host a.dns.songnetworks.se.
+ 15.549: karlstad.se INFO Begin testing address 213.50.29.190.
+ 27.899: karlstad.se INFO Done testing address 213.50.29.190.
+ 27.899: karlstad.se INFO Done testing host a.dns.songnetworks.se.
+ 27.909: karlstad.se INFO Name server a.dns.songnetworks.se (213.50.29.190) answers queries over UDP.
+ 27.922: karlstad.se INFO Name server a.dns.songnetworks.se (213.50.29.190) answers queries over TCP.
+ 27.929: karlstad.se INFO Name server a.dns.songnetworks.se (213.50.29.190) is not recursive.
+ 27.938: karlstad.se INFO Name server a.dns.songnetworks.se (213.50.29.190) authoritative for karlstad.se.
+ 27.953: karlstad.se INFO Name server a.dns.songnetworks.se (213.50.29.190) closed for zone transfer of karlstad.se.
+ 27.963: karlstad.se INFO Legacy name server ID for a.dns.songnetworks.se (213.50.29.190): hostname.bind = a
+ 27.970: karlstad.se INFO Legacy name server ID for a.dns.songnetworks.se (213.50.29.190): version.bind = tssk, well what can i say?
+ 27.983: karlstad.se NOTICE No answer received from 213.50.29.190 when querying for version.server/CH/TXT.
+ 27.984: karlstad.se INFO Done testing name server a.dns.songnetworks.se.
+ 27.984: karlstad.se INFO Begin testing name server b.dns.songnetworks.se.
+ 27.984: karlstad.se INFO Begin testing host b.dns.songnetworks.se.
+ 27.984: karlstad.se INFO Begin testing address 213.50.29.195.
+ 34.694: karlstad.se INFO Done testing address 213.50.29.195.
+ 34.694: karlstad.se INFO Done testing host b.dns.songnetworks.se.
+ 34.703: karlstad.se INFO Name server b.dns.songnetworks.se (213.50.29.195) answers queries over UDP.
+ 34.715: karlstad.se INFO Name server b.dns.songnetworks.se (213.50.29.195) answers queries over TCP.
+ 34.723: karlstad.se INFO Name server b.dns.songnetworks.se (213.50.29.195) is not recursive.
+ 34.731: karlstad.se INFO Name server b.dns.songnetworks.se (213.50.29.195) authoritative for karlstad.se.
+ 34.744: karlstad.se INFO Name server b.dns.songnetworks.se (213.50.29.195) closed for zone transfer of karlstad.se.
+ 34.752: karlstad.se INFO Legacy name server ID for b.dns.songnetworks.se (213.50.29.195): hostname.bind = b
+ 34.758: karlstad.se INFO Legacy name server ID for b.dns.songnetworks.se (213.50.29.195): version.bind = tssk, well what can i say?
+ 34.771: karlstad.se NOTICE No answer received from 213.50.29.195 when querying for version.server/CH/TXT.
+ 34.772: karlstad.se INFO Done testing name server b.dns.songnetworks.se.
+ 34.772: karlstad.se INFO Begin testing name server c.dns.songnetworks.se.
+ 34.772: karlstad.se INFO Begin testing host c.dns.songnetworks.se.
+ 34.772: karlstad.se INFO Begin testing address 195.10.143.3.
+ 35.564: karlstad.se INFO Done testing address 195.10.143.3.
+ 35.564: karlstad.se INFO Done testing host c.dns.songnetworks.se.
+ 35.579: karlstad.se INFO Name server c.dns.songnetworks.se (195.10.143.3) answers queries over UDP.
+ 35.604: karlstad.se INFO Name server c.dns.songnetworks.se (195.10.143.3) answers queries over TCP.
+ 35.617: karlstad.se INFO Name server c.dns.songnetworks.se (195.10.143.3) is not recursive.
+ 35.631: karlstad.se INFO Name server c.dns.songnetworks.se (195.10.143.3) authoritative for karlstad.se.
+ 35.663: karlstad.se INFO Name server c.dns.songnetworks.se (195.10.143.3) closed for zone transfer of karlstad.se.
+ 35.676: karlstad.se INFO Legacy name server ID for c.dns.songnetworks.se (195.10.143.3): hostname.bind = c.dns.tdc.se
+ 35.689: karlstad.se INFO Legacy name server ID for c.dns.songnetworks.se (195.10.143.3): version.bind = tssk, well what can i say?
+ 35.714: karlstad.se NOTICE No answer received from 195.10.143.3 when querying for version.server/CH/TXT.
+ 35.714: karlstad.se INFO Done testing name server c.dns.songnetworks.se.
+ 35.714: karlstad.se INFO Begin testing name server dns1.karlstad.se.
+ 35.714: karlstad.se INFO Begin testing host dns1.karlstad.se.
+ 35.715: karlstad.se INFO Begin testing address 193.235.28.225.
+ 37.471: karlstad.se INFO Done testing address 193.235.28.225.
+ 37.471: karlstad.se INFO Done testing host dns1.karlstad.se.
+ 37.486: karlstad.se INFO Name server dns1.karlstad.se (193.235.28.225) answers queries over UDP.
+ 37.510: karlstad.se INFO Name server dns1.karlstad.se (193.235.28.225) answers queries over TCP.
+ 37.719: karlstad.se WARNING Name server dns1.karlstad.se (193.235.28.225) is recursive.
+ 37.733: karlstad.se INFO Name server dns1.karlstad.se (193.235.28.225) authoritative for karlstad.se.
+ 37.762: karlstad.se INFO Name server dns1.karlstad.se (193.235.28.225) closed for zone transfer of karlstad.se.
+ 37.776: karlstad.se INFO Legacy name server ID for dns1.karlstad.se (193.235.28.225): hostname.bind = dns1
+ 37.788: karlstad.se INFO Legacy name server ID for dns1.karlstad.se (193.235.28.225): version.bind = 9.3.4
+ 37.813: karlstad.se NOTICE No answer received from 193.235.28.225 when querying for version.server/CH/TXT.
+ 37.813: karlstad.se INFO Done testing name server dns1.karlstad.se.
+ 37.813: karlstad.se INFO Begin testing zone consistency for karlstad.se.
+ 37.833: karlstad.se INFO SOA at address 195.10.143.3 has serial 2010110801.
+ 37.846: karlstad.se INFO SOA at address 193.235.28.225 has serial 2010110801.
+ 37.855: karlstad.se INFO SOA at address 213.50.29.195 has serial 2010110801.
+ 37.863: karlstad.se INFO SOA at address 213.50.29.190 has serial 2010110801.
+ 37.863: karlstad.se INFO All SOA records have consistent serial numbers.
+ 37.864: karlstad.se INFO All SOA records are consistent among all name servers.
+ 37.864: karlstad.se INFO Done testing zone consistency for karlstad.se.
+ 37.864: karlstad.se INFO Begin testing SOA parameters for karlstad.se.
+ 37.878: karlstad.se INFO Found SOA record for karlstad.se.
+ 37.878: karlstad.se INFO Begin testing host dns1.karlstad.se.
+ 37.879: karlstad.se INFO Begin testing address 193.235.28.225.
+ 37.880: karlstad.se INFO Done testing address 193.235.28.225.
+ 37.880: karlstad.se INFO Done testing host dns1.karlstad.se.
+ 37.880: karlstad.se INFO SOA MNAME for karlstad.se valid (dns1.karlstad.se).
+ 37.880: karlstad.se INFO SOA MNAME for karlstad.se (dns1.karlstad.se) listed as NS.
+ 37.894: karlstad.se INFO SOA MNAME for karlstad.se (dns1.karlstad.se) is authoritative.
+ 37.895: karlstad.se INFO Begin testing email address hostmaster@karlstad.se.
+ 38.110: karlstad.se INFO Mail exchangers for hostmaster@karlstad.se found smtp03.karlstad.se,mailgw.karlstad.se.
+ 38.110: karlstad.se INFO All mail servers for hostmaster@karlstad.se are in zone karlstad.se.
+ 38.110: karlstad.se INFO Begin testing host smtp03.karlstad.se.
+ 38.605: karlstad.se INFO Begin testing address 193.235.28.227.
+ 43.329: karlstad.se INFO Done testing address 193.235.28.227.
+ 43.330: karlstad.se INFO Done testing host smtp03.karlstad.se.
+ 43.330: karlstad.se INFO Begin testing mail server smtp03.karlstad.se (193.235.28.227) with hostmaster@karlstad.se.
+ 43.372: karlstad.se INFO SMTP banner: ***********************************************************
+ 43.573: karlstad.se WARNING Host did not accept hostmaster@karlstad.se as SMTP recipient.
+ 43.594: karlstad.se INFO Done testing mail server smtp03.karlstad.se (193.235.28.227) with hostmaster@karlstad.se.
+ 43.594: karlstad.se INFO Begin testing host mailgw.karlstad.se.
+ 43.595: karlstad.se INFO Begin testing address 193.235.28.227.
+ 43.596: karlstad.se INFO Done testing address 193.235.28.227.
+ 43.596: karlstad.se INFO Done testing host mailgw.karlstad.se.
+ 43.597: karlstad.se INFO Begin testing mail server mailgw.karlstad.se (193.235.28.227) with hostmaster@karlstad.se.
+ 43.642: karlstad.se INFO SMTP banner: ***********************************************************
+ 43.670: karlstad.se WARNING Host did not accept hostmaster@karlstad.se as SMTP recipient.
+ 43.689: karlstad.se INFO Done testing mail server mailgw.karlstad.se (193.235.28.227) with hostmaster@karlstad.se.
+ 43.689: karlstad.se WARNING Delivery over IPv4 to hostmaster@karlstad.se could not be done.
+ 43.690: karlstad.se INFO Delivery over IPv6 to hostmaster@karlstad.se could not be done.
+ 43.690: karlstad.se INFO Done testing email address hostmaster@karlstad.se.
+ 43.690: karlstad.se WARNING Failed to deliver email for SOA RNAME of karlstad.se (hostmaster.karlstad.se) using hostmaster@karlstad.se.
+ 43.690: karlstad.se INFO SOA TTL for karlstad.se OK (86400) - recommended >= 3600.
+ 43.690: karlstad.se INFO SOA refresh for karlstad.se OK (28800) - recommended >= 14400.
+ 43.690: karlstad.se INFO SOA retry for karlstad.se OK (7200) - recommended >= 3600.
+ 43.690: karlstad.se INFO SOA expire for karlstad.se OK (604800) - recommended >= 604800.
+ 43.690: karlstad.se INFO SOA minimum for karlstad.se OK (400) - recommended between 300 and 86400.
+ 43.690: karlstad.se INFO Done testing SOA parameters for karlstad.se.
+ 43.690: karlstad.se INFO Begin testing connectivity for karlstad.se.
+ 44.244: karlstad.se INFO Name server 195.10.143.3 announced by: 3292
+ 44.763: karlstad.se INFO Name server 193.235.28.225 announced by: 3292
+ 45.255: karlstad.se INFO Name server 213.50.29.195 announced by: 3292
+ 45.856: karlstad.se INFO Name server 213.50.29.190 announced by: 3292
+ 45.856: karlstad.se INFO Zone announced by IPv4 ASN: 3292
+ 45.856: karlstad.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 45.857: karlstad.se INFO Zone announced by IPv6 ASN: 
+ 45.857: karlstad.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 45.857: karlstad.se INFO Done testing connectivity for karlstad.se.
+ 45.857: karlstad.se INFO Begin testing DNSSEC for karlstad.se.
+ 45.871: karlstad.se INFO Did not find DS record for karlstad.se at parent.
+ 45.939: karlstad.se INFO Servers for karlstad.se have consistent extra processing status.
+ 45.939: karlstad.se INFO Did not find DNSKEY record for karlstad.se at child.
+ 45.939: karlstad.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 45.939: karlstad.se INFO Done testing DNSSEC for karlstad.se.
+ 45.939: karlstad.se INFO Test completed for zone karlstad.se.

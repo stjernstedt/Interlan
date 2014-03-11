@@ -1,0 +1,87 @@
+  0.000: uniweb.se INFO Begin testing zone uniweb.se with version 1.0.1.
+  0.000: uniweb.se INFO Begin testing delegation for uniweb.se.
+  0.705: uniweb.se INFO Name servers listed at parent: ns1.uniweb.se,ns2.uniweb.se
+  0.808: uniweb.se INFO Name servers listed at child: ns1.uniweb.se,ns2.uniweb.se
+  0.808: uniweb.se NOTICE No IPv6 name servers found.
+  0.816: uniweb.se INFO Parent glue for uniweb.se found: ns1.uniweb.se (91.207.158.111)
+  0.996: uniweb.se INFO Parent glue for uniweb.se found: ns2.uniweb.se (91.207.159.111)
+  1.015: uniweb.se INFO Checking glue for ns1.uniweb.se (91.207.158.111).
+  1.035: uniweb.se INFO Child glue for uniweb.se found: ns1.uniweb.se (91.207.158.111)
+  1.035: uniweb.se INFO Checking glue for ns2.uniweb.se (91.207.159.111).
+  1.051: uniweb.se INFO Child glue for uniweb.se found: ns2.uniweb.se (91.207.159.111)
+  1.051: uniweb.se INFO Done testing delegation for uniweb.se.
+  1.051: uniweb.se INFO Begin testing name server ns1.uniweb.se.
+  1.051: uniweb.se INFO Begin testing host ns1.uniweb.se.
+  1.052: uniweb.se INFO Begin testing address 91.207.158.111.
+  4.305: uniweb.se INFO Done testing address 91.207.158.111.
+  4.305: uniweb.se INFO Done testing host ns1.uniweb.se.
+  4.354: uniweb.se WARNING Name server ns1.uniweb.se (91.207.158.111) is recursive.
+  4.372: uniweb.se INFO Name server ns1.uniweb.se (91.207.158.111) authoritative for uniweb.se.
+  4.387: uniweb.se INFO Name server ns1.uniweb.se (91.207.158.111) answers queries over UDP.
+  4.429: uniweb.se INFO Name server ns1.uniweb.se (91.207.158.111) answers queries over TCP.
+  4.484: uniweb.se INFO Name server ns1.uniweb.se (91.207.158.111) closed for zone transfer of uniweb.se.
+  4.517: uniweb.se NOTICE No answer received from 91.207.158.111 when querying for version.bind/CH/TXT.
+  4.550: uniweb.se INFO Done testing name server ns1.uniweb.se.
+  4.550: uniweb.se INFO Begin testing name server ns2.uniweb.se.
+  4.551: uniweb.se INFO Begin testing host ns2.uniweb.se.
+  4.551: uniweb.se INFO Begin testing address 91.207.159.111.
+  4.576: uniweb.se INFO Done testing address 91.207.159.111.
+  4.576: uniweb.se INFO Done testing host ns2.uniweb.se.
+  4.636: uniweb.se WARNING Name server ns2.uniweb.se (91.207.159.111) is recursive.
+  4.652: uniweb.se INFO Name server ns2.uniweb.se (91.207.159.111) authoritative for uniweb.se.
+  4.667: uniweb.se INFO Name server ns2.uniweb.se (91.207.159.111) answers queries over UDP.
+  4.707: uniweb.se INFO Name server ns2.uniweb.se (91.207.159.111) answers queries over TCP.
+  4.759: uniweb.se INFO Name server ns2.uniweb.se (91.207.159.111) closed for zone transfer of uniweb.se.
+  4.790: uniweb.se NOTICE No answer received from 91.207.159.111 when querying for version.bind/CH/TXT.
+  4.820: uniweb.se INFO Done testing name server ns2.uniweb.se.
+  4.821: uniweb.se INFO Begin testing zone consistency for uniweb.se.
+  4.839: uniweb.se INFO SOA at address 91.207.159.111 has serial 2009080717.
+  4.855: uniweb.se INFO SOA at address 91.207.158.111 has serial 2009080717.
+  4.855: uniweb.se INFO All SOA records have consistent serial numbers.
+  4.856: uniweb.se INFO All SOA records are consistent among all name servers.
+  4.856: uniweb.se INFO Done testing zone consistency for uniweb.se.
+  4.856: uniweb.se INFO Begin testing SOA parameters for uniweb.se.
+  4.872: uniweb.se INFO Found SOA record for uniweb.se.
+  4.872: uniweb.se INFO Begin testing host ns.unisite.se.
+  4.921: uniweb.se INFO Begin testing address 91.207.158.111.
+  4.922: uniweb.se INFO Done testing address 91.207.158.111.
+  4.922: uniweb.se INFO Done testing host ns.unisite.se.
+  4.922: uniweb.se INFO SOA MNAME for uniweb.se valid (ns.unisite.se).
+  4.922: uniweb.se NOTICE SOA MNAME for uniweb.se (ns.unisite.se) not listed as NS.
+  4.939: uniweb.se INFO SOA MNAME for uniweb.se (ns.unisite.se) is authoritative.
+  4.939: uniweb.se INFO Begin testing email address registry@uniweb.se.
+  4.957: uniweb.se INFO Mail exchangers for registry@uniweb.se found mx02.uniweb.se.
+  4.958: uniweb.se INFO All mail servers for registry@uniweb.se are in zone uniweb.se.
+  4.958: uniweb.se INFO Begin testing host mx02.uniweb.se.
+  4.989: uniweb.se INFO Begin testing address 91.207.158.24.
+  5.005: uniweb.se INFO Done testing address 91.207.158.24.
+  5.005: uniweb.se INFO Done testing host mx02.uniweb.se.
+  5.006: uniweb.se INFO Begin testing mail server mx02.uniweb.se (91.207.158.24) with registry@uniweb.se.
+  5.270: uniweb.se INFO SMTP banner: mx02.uniweb.se ESMTP
+  5.478: uniweb.se INFO SMTP testing of mx02.uniweb.se (91.207.158.24) with registry@uniweb.se succeeded without errors.
+  5.478: uniweb.se INFO Done testing mail server mx02.uniweb.se (91.207.158.24) with registry@uniweb.se.
+  5.478: uniweb.se INFO Delivery over IPv4 to registry@uniweb.se ok.
+  5.478: uniweb.se INFO Delivery over IPv6 to registry@uniweb.se could not be done.
+  5.478: uniweb.se INFO Done testing email address registry@uniweb.se.
+  5.478: uniweb.se INFO Successful attempt to deliver email for SOA RNAME of uniweb.se (registry.uniweb.se) using registry@uniweb.se.
+  5.479: uniweb.se INFO SOA TTL for uniweb.se OK (10800) - recommended >= 3600.
+  5.479: uniweb.se NOTICE SOA refresh for uniweb.se too small (10800) - recommended >= 14400.
+  5.479: uniweb.se INFO SOA retry for uniweb.se OK (3600) - recommended >= 3600.
+  5.479: uniweb.se INFO SOA expire for uniweb.se OK (604800) - recommended >= 604800.
+  5.479: uniweb.se INFO SOA minimum for uniweb.se OK (3600) - recommended between 300 and 86400.
+  5.479: uniweb.se INFO Done testing SOA parameters for uniweb.se.
+  5.479: uniweb.se INFO Begin testing connectivity for uniweb.se.
+  6.042: uniweb.se INFO Name server 91.207.158.111 announced by: 3307
+  6.165: uniweb.se INFO Name server 91.207.159.111 announced by: 3307
+  6.165: uniweb.se INFO Zone announced by ASN: 3307
+  6.165: uniweb.se NOTICE Zone announced by only one ASN (1).
+  6.165: uniweb.se INFO Zone announced by IPv6 ASN: 
+  6.165: uniweb.se NOTICE Zone announced by only one IPv6 ASN (0).
+  6.165: uniweb.se INFO Done testing connectivity for uniweb.se.
+  6.166: uniweb.se INFO Begin testing DNSSEC for uniweb.se.
+  6.183: uniweb.se INFO Did not find DS record for uniweb.se at parent.
+  6.268: uniweb.se INFO Servers for uniweb.se have consistent extra processing status.
+  6.268: uniweb.se INFO Did not find DNSKEY record for uniweb.se at child.
+  6.268: uniweb.se INFO No DNSKEY(s) found at child, other tests skipped.
+  6.268: uniweb.se INFO Done testing DNSSEC for uniweb.se.
+  6.269: uniweb.se INFO Test completed for zone uniweb.se.

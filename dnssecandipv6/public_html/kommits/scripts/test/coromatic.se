@@ -1,0 +1,87 @@
+  0.000: coromatic.se INFO Begin testing zone coromatic.se with version 1.2.
+  0.001: coromatic.se INFO Begin testing delegation for coromatic.se.
+  5.365: coromatic.se INFO Name servers listed at parent: ns2.bzbz.nu,ns3.squad.se
+  6.481: coromatic.se INFO Name servers listed at child: ns2.bzbz.nu,ns3.squad.se
+  6.481: coromatic.se NOTICE No IPv6 name servers found.
+  6.583: coromatic.se INFO Done testing delegation for coromatic.se.
+  6.583: coromatic.se INFO Begin testing name server ns2.bzbz.nu.
+  6.583: coromatic.se INFO Begin testing host ns2.bzbz.nu.
+  6.584: coromatic.se INFO Begin testing address 213.238.197.130.
+ 15.422: coromatic.se WARNING Could not find reverse address for 213.238.197.130 (130.197.238.213.in-addr.arpa.).
+ 15.422: coromatic.se INFO Done testing address 213.238.197.130.
+ 15.423: coromatic.se INFO Done testing host ns2.bzbz.nu.
+ 15.433: coromatic.se INFO Name server ns2.bzbz.nu (213.238.197.130) answers queries over UDP.
+ 15.449: coromatic.se INFO Name server ns2.bzbz.nu (213.238.197.130) answers queries over TCP.
+ 15.895: coromatic.se INFO Name server ns2.bzbz.nu (213.238.197.130) is not recursive.
+ 15.904: coromatic.se INFO Name server ns2.bzbz.nu (213.238.197.130) authoritative for coromatic.se.
+ 16.097: coromatic.se INFO Name server ns2.bzbz.nu (213.238.197.130) closed for zone transfer of coromatic.se.
+ 16.105: coromatic.se NOTICE No answer received from 213.238.197.130 when querying for hostname.bind/CH/TXT.
+ 34.106: coromatic.se INFO Done testing name server ns2.bzbz.nu.
+ 34.106: coromatic.se INFO Begin testing name server ns3.squad.se.
+ 34.106: coromatic.se INFO Begin testing host ns3.squad.se.
+ 34.107: coromatic.se INFO Begin testing address 213.238.197.133.
+ 34.616: coromatic.se WARNING Could not find reverse address for 213.238.197.133 (133.197.238.213.in-addr.arpa.).
+ 34.617: coromatic.se INFO Done testing address 213.238.197.133.
+ 34.617: coromatic.se INFO Done testing host ns3.squad.se.
+ 34.626: coromatic.se INFO Name server ns3.squad.se (213.238.197.133) answers queries over UDP.
+ 34.640: coromatic.se INFO Name server ns3.squad.se (213.238.197.133) answers queries over TCP.
+ 34.946: coromatic.se INFO Name server ns3.squad.se (213.238.197.133) is not recursive.
+ 34.955: coromatic.se INFO Name server ns3.squad.se (213.238.197.133) authoritative for coromatic.se.
+ 35.120: coromatic.se INFO Name server ns3.squad.se (213.238.197.133) closed for zone transfer of coromatic.se.
+ 35.128: coromatic.se NOTICE No answer received from 213.238.197.133 when querying for hostname.bind/CH/TXT.
+ 53.129: coromatic.se INFO Done testing name server ns3.squad.se.
+ 53.130: coromatic.se INFO Begin testing zone consistency for coromatic.se.
+ 53.141: coromatic.se INFO SOA at address 213.238.197.130 has serial 45.
+ 53.149: coromatic.se INFO SOA at address 213.238.197.133 has serial 45.
+ 53.149: coromatic.se INFO All SOA records have consistent serial numbers.
+ 53.150: coromatic.se INFO All SOA records are consistent among all name servers.
+ 53.150: coromatic.se INFO Done testing zone consistency for coromatic.se.
+ 53.150: coromatic.se INFO Begin testing SOA parameters for coromatic.se.
+ 53.158: coromatic.se INFO Found SOA record for coromatic.se.
+ 53.158: coromatic.se INFO Begin testing host ns3.squad.se.
+ 53.159: coromatic.se INFO Begin testing address 213.238.197.133.
+ 53.160: coromatic.se WARNING Could not find reverse address for 213.238.197.133 (133.197.238.213.in-addr.arpa.).
+ 53.161: coromatic.se INFO Done testing address 213.238.197.133.
+ 53.161: coromatic.se INFO Done testing host ns3.squad.se.
+ 53.161: coromatic.se INFO SOA MNAME for coromatic.se valid (ns3.squad.se).
+ 53.161: coromatic.se INFO SOA MNAME for coromatic.se (ns3.squad.se) listed as NS.
+ 53.170: coromatic.se INFO SOA MNAME for coromatic.se (ns3.squad.se) is authoritative.
+ 53.171: coromatic.se INFO Begin testing email address hostmaster@squad.se.
+ 53.381: coromatic.se INFO Mail exchangers for hostmaster@squad.se found dkcphmx56.softcom.dk,dkcphmx58.softcom.dk.
+ 53.381: coromatic.se INFO Begin testing host dkcphmx56.softcom.dk.
+ 53.835: coromatic.se INFO Begin testing address 194.192.15.189.
+ 55.801: coromatic.se INFO Done testing address 194.192.15.189.
+ 55.802: coromatic.se INFO Done testing host dkcphmx56.softcom.dk.
+ 55.802: coromatic.se INFO Begin testing mail server dkcphmx56.softcom.dk (194.192.15.189) with hostmaster@squad.se.
+ 55.911: coromatic.se INFO SMTP banner: dkcphmx56.softcom.dk ESMTP ready;
+ 55.981: coromatic.se INFO SMTP testing of dkcphmx56.softcom.dk (194.192.15.189) with hostmaster@squad.se succeeded without errors.
+ 55.981: coromatic.se INFO Done testing mail server dkcphmx56.softcom.dk (194.192.15.189) with hostmaster@squad.se.
+ 55.981: coromatic.se INFO Begin testing host dkcphmx58.softcom.dk.
+ 56.493: coromatic.se INFO Begin testing address 213.150.52.216.
+ 57.050: coromatic.se INFO Done testing address 213.150.52.216.
+ 57.050: coromatic.se INFO Done testing host dkcphmx58.softcom.dk.
+ 57.051: coromatic.se INFO Delivery over IPv4 to hostmaster@squad.se ok.
+ 57.051: coromatic.se INFO Delivery over IPv6 to hostmaster@squad.se could not be done.
+ 57.051: coromatic.se INFO Done testing email address hostmaster@squad.se.
+ 57.052: coromatic.se INFO Successful attempt to deliver email for SOA RNAME of coromatic.se (hostmaster.squad.se) using hostmaster@squad.se.
+ 57.052: coromatic.se INFO SOA TTL for coromatic.se OK (3600) - recommended >= 3600.
+ 57.052: coromatic.se NOTICE SOA refresh for coromatic.se too small (900) - recommended >= 14400.
+ 57.053: coromatic.se NOTICE SOA retry for coromatic.se too small (600) - recommended >= 3600.
+ 57.053: coromatic.se NOTICE SOA expire for coromatic.se too small (86400) - recommended >= 604800.
+ 57.053: coromatic.se INFO SOA minimum for coromatic.se OK (3600) - recommended between 300 and 86400.
+ 57.053: coromatic.se INFO Done testing SOA parameters for coromatic.se.
+ 57.054: coromatic.se INFO Begin testing connectivity for coromatic.se.
+ 57.550: coromatic.se INFO Name server 213.238.197.130 announced by: 2119
+ 58.194: coromatic.se INFO Name server 213.238.197.133 announced by: 2119
+ 58.194: coromatic.se INFO Zone announced by IPv4 ASN: 2119
+ 58.194: coromatic.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 58.195: coromatic.se INFO Zone announced by IPv6 ASN: 
+ 58.195: coromatic.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 58.195: coromatic.se INFO Done testing connectivity for coromatic.se.
+ 58.196: coromatic.se INFO Begin testing DNSSEC for coromatic.se.
+ 58.215: coromatic.se INFO Did not find DS record for coromatic.se at parent.
+ 58.241: coromatic.se INFO Servers for coromatic.se have consistent extra processing status.
+ 58.241: coromatic.se INFO Did not find DNSKEY record for coromatic.se at child.
+ 58.241: coromatic.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 58.242: coromatic.se INFO Done testing DNSSEC for coromatic.se.
+ 58.242: coromatic.se INFO Test completed for zone coromatic.se.

@@ -1,0 +1,84 @@
+  0.000: ltkronoberg.se INFO Begin testing zone ltkronoberg.se with version 1.6.1.
+  0.477: ltkronoberg.se INFO Begin testing delegation for ltkronoberg.se.
+ 17.176: ltkronoberg.se INFO Name servers listed at parent: ns1.ltkronoberg.se,ns2.ltkronoberg.se
+ 18.808: ltkronoberg.se INFO Name servers listed at child: ns1.ltkronoberg.se,ns2.ltkronoberg.se
+ 18.814: ltkronoberg.se WARNING No IPv6 name servers found.
+ 18.848: ltkronoberg.se INFO Parent glue for ltkronoberg.se found: ns1.ltkronoberg.se (194.68.91.30)
+ 18.989: ltkronoberg.se INFO Parent glue for ltkronoberg.se found: ns2.ltkronoberg.se (194.68.91.31)
+ 19.037: ltkronoberg.se INFO Checking glue for ns1.ltkronoberg.se (194.68.91.30).
+ 19.105: ltkronoberg.se INFO Child glue for ltkronoberg.se found: ns1.ltkronoberg.se (194.68.91.30)
+ 19.105: ltkronoberg.se INFO Checking glue for ns2.ltkronoberg.se (194.68.91.31).
+ 19.148: ltkronoberg.se INFO Child glue for ltkronoberg.se found: ns2.ltkronoberg.se (194.68.91.31)
+ 19.149: ltkronoberg.se INFO Parent glue for ltkronoberg.se found: ns1.ltkronoberg.se (194.68.91.30)
+ 19.149: ltkronoberg.se INFO Parent glue for ltkronoberg.se found: ns2.ltkronoberg.se (194.68.91.31)
+ 19.766: ltkronoberg.se INFO It is possible to build a referral packet for ltkronoberg.se that works without EDNS0.
+ 20.238: ltkronoberg.se INFO Previously used name servers for ltkronoberg.se: 
+ 20.238: ltkronoberg.se INFO Done testing delegation for ltkronoberg.se.
+ 20.238: ltkronoberg.se INFO Begin testing name server ns1.ltkronoberg.se.
+ 20.238: ltkronoberg.se INFO Begin testing host ns1.ltkronoberg.se.
+ 20.485: ltkronoberg.se INFO Begin testing address 194.68.91.30.
+ 27.876: ltkronoberg.se INFO Done testing address 194.68.91.30.
+ 27.878: ltkronoberg.se INFO Done testing host ns1.ltkronoberg.se.
+ 28.081: ltkronoberg.se INFO Name server ns1.ltkronoberg.se (194.68.91.30) answers queries over UDP.
+ 28.133: ltkronoberg.se INFO Name server ns1.ltkronoberg.se (194.68.91.30) answers queries over TCP.
+ 32.142: ltkronoberg.se INFO Name server ns1.ltkronoberg.se (194.68.91.30) is not recursive.
+ 32.231: ltkronoberg.se INFO Name server ns1.ltkronoberg.se (194.68.91.30) authoritative for ltkronoberg.se.
+ 32.328: ltkronoberg.se INFO Name server ns1.ltkronoberg.se (194.68.91.30) closed for zone transfer of ltkronoberg.se.
+ 32.344: ltkronoberg.se NOTICE No answer received from 194.68.91.30 when querying for hostname.bind/CH/TXT.
+ 44.368: ltkronoberg.se INFO Done testing name server ns1.ltkronoberg.se.
+ 44.368: ltkronoberg.se INFO Begin testing name server ns2.ltkronoberg.se.
+ 44.368: ltkronoberg.se INFO Begin testing host ns2.ltkronoberg.se.
+ 44.569: ltkronoberg.se INFO Begin testing address 194.68.91.31.
+ 45.136: ltkronoberg.se WARNING Could not find reverse address for 194.68.91.31 (31.91.68.194.in-addr.arpa.).
+ 45.136: ltkronoberg.se INFO Done testing address 194.68.91.31.
+ 45.136: ltkronoberg.se INFO Done testing host ns2.ltkronoberg.se.
+ 45.392: ltkronoberg.se INFO Name server ns2.ltkronoberg.se (194.68.91.31) answers queries over UDP.
+ 45.430: ltkronoberg.se INFO Name server ns2.ltkronoberg.se (194.68.91.31) answers queries over TCP.
+ 49.438: ltkronoberg.se INFO Name server ns2.ltkronoberg.se (194.68.91.31) is not recursive.
+ 49.509: ltkronoberg.se INFO Name server ns2.ltkronoberg.se (194.68.91.31) authoritative for ltkronoberg.se.
+ 49.601: ltkronoberg.se INFO Name server ns2.ltkronoberg.se (194.68.91.31) closed for zone transfer of ltkronoberg.se.
+ 49.635: ltkronoberg.se NOTICE No answer received from 194.68.91.31 when querying for hostname.bind/CH/TXT.
+ 61.656: ltkronoberg.se INFO Done testing name server ns2.ltkronoberg.se.
+ 61.656: ltkronoberg.se INFO Begin testing zone consistency for ltkronoberg.se.
+ 62.098: ltkronoberg.se INFO SOA at address 194.68.91.30 has serial 290.
+ 62.115: ltkronoberg.se INFO SOA at address 194.68.91.31 has serial 290.
+ 62.115: ltkronoberg.se INFO All SOA records have consistent serial numbers.
+ 62.115: ltkronoberg.se INFO All other fields in the SOA record are consistent among all name servers.
+ 62.386: ltkronoberg.se NOTICE The listed nameservers for ltkronoberg.se all report the same set of nameservers.
+ 62.391: ltkronoberg.se INFO Done testing zone consistency for ltkronoberg.se.
+ 62.391: ltkronoberg.se INFO Begin testing SOA parameters for ltkronoberg.se.
+ 62.408: ltkronoberg.se INFO Found SOA record for ltkronoberg.se.
+ 62.408: ltkronoberg.se INFO Begin testing host ns1.ltkronoberg.se.
+ 62.548: ltkronoberg.se INFO Begin testing address 194.68.91.30.
+ 62.672: ltkronoberg.se INFO Done testing address 194.68.91.30.
+ 62.672: ltkronoberg.se INFO Done testing host ns1.ltkronoberg.se.
+ 62.672: ltkronoberg.se INFO SOA MNAME for ltkronoberg.se valid (ns1.ltkronoberg.se).
+ 62.672: ltkronoberg.se INFO SOA MNAME for ltkronoberg.se (ns1.ltkronoberg.se) listed as NS.
+ 62.795: ltkronoberg.se INFO SOA MNAME for ltkronoberg.se (ns1.ltkronoberg.se) is authoritative.
+ 62.795: ltkronoberg.se INFO Begin testing email address adm@ltkronoberg.se.
+ 62.908: ltkronoberg.se INFO Mail exchangers for adm@ltkronoberg.se found mail1.ltkronoberg.se.
+ 62.908: ltkronoberg.se INFO All mail servers for adm@ltkronoberg.se are in zone ltkronoberg.se.
+ 62.908: ltkronoberg.se INFO Begin testing host mail1.ltkronoberg.se.
+ 63.077: ltkronoberg.se INFO Begin testing address 194.68.88.27.
+ 63.854: ltkronoberg.se INFO Done testing address 194.68.88.27.
+ 63.854: ltkronoberg.se INFO Done testing host mail1.ltkronoberg.se.
+ 63.954: ltkronoberg.se INFO Done testing email address adm@ltkronoberg.se.
+ 63.954: ltkronoberg.se INFO Successful attempt to deliver email for SOA RNAME of ltkronoberg.se (adm.ltkronoberg.se) using adm@ltkronoberg.se.
+ 63.955: ltkronoberg.se INFO SOA TTL for ltkronoberg.se OK (3600) - recommended >= 3600.
+ 63.955: ltkronoberg.se NOTICE SOA refresh for ltkronoberg.se too small (10800) - recommended >= 14400.
+ 63.955: ltkronoberg.se INFO SOA retry for ltkronoberg.se OK (3600) - recommended >= 3600.
+ 63.955: ltkronoberg.se INFO SOA expire for ltkronoberg.se OK (2419200) - recommended >= 259200.
+ 63.955: ltkronoberg.se INFO SOA minimum for ltkronoberg.se OK (86400) - recommended between 300 and 86400.
+ 63.955: ltkronoberg.se INFO Done testing SOA parameters for ltkronoberg.se.
+ 63.955: ltkronoberg.se INFO Begin testing connectivity for ltkronoberg.se.
+ 65.047: ltkronoberg.se ERROR Zone announced by fewer than two IPv4 ASN.
+ 65.047: ltkronoberg.se WARNING Zone announced by fewer than two IPv6 ASN.
+ 65.047: ltkronoberg.se INFO Done testing connectivity for ltkronoberg.se.
+ 65.047: ltkronoberg.se INFO Begin testing DNSSEC for ltkronoberg.se.
+ 65.078: ltkronoberg.se INFO Did not find DS record for ltkronoberg.se at parent.
+ 65.147: ltkronoberg.se INFO Servers for ltkronoberg.se have consistent extra processing status.
+ 65.178: ltkronoberg.se INFO Authenticated denial records not found for ltkronoberg.se.
+ 65.199: ltkronoberg.se INFO Did not find DNSKEY record for ltkronoberg.se at child.
+ 65.199: ltkronoberg.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 65.199: ltkronoberg.se INFO Done testing DNSSEC for ltkronoberg.se.
+ 65.200: ltkronoberg.se INFO Test completed for zone ltkronoberg.se.

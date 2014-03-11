@@ -1,0 +1,98 @@
+  0.000: kemi.fi INFO Begin testing zone kemi.fi with version 1.5.0.
+  1.037: kemi.fi INFO Begin testing delegation for kemi.fi.
+ 13.733: kemi.fi INFO Name servers listed at parent: ns.kemi.fi,ns2.kemi.fi
+ 16.083: kemi.fi INFO Name servers listed at child: ns.kemi.fi,ns2.kemi.fi
+ 16.083: kemi.fi NOTICE No IPv6 name servers found.
+ 16.174: kemi.fi INFO Parent glue for kemi.fi found: ns.kemi.fi (212.50.147.10)
+ 16.315: kemi.fi INFO Parent glue for kemi.fi found: ns2.kemi.fi (212.50.147.18)
+ 16.389: kemi.fi INFO Checking glue for ns.kemi.fi (212.50.147.10).
+ 16.449: kemi.fi INFO Child glue for kemi.fi found: ns.kemi.fi (212.50.147.10)
+ 16.449: kemi.fi INFO Checking glue for ns2.kemi.fi (212.50.147.18).
+ 16.495: kemi.fi INFO Child glue for kemi.fi found: ns2.kemi.fi (212.50.147.18)
+ 16.535: kemi.fi INFO Parent glue for kemi.fi found: ns.kemi.fi (212.50.147.10)
+ 16.536: kemi.fi INFO Parent glue for kemi.fi found: ns2.kemi.fi (212.50.147.18)
+ 18.730: kemi.fi INFO It is possible to build a referral packet for kemi.fi that works without EDNS0.
+ 20.846: kemi.fi INFO Previously used name servers for kemi.fi: 
+ 20.846: kemi.fi INFO Done testing delegation for kemi.fi.
+ 20.847: kemi.fi INFO Begin testing name server ns.kemi.fi.
+ 20.847: kemi.fi INFO Begin testing host ns.kemi.fi.
+ 21.876: kemi.fi INFO Begin testing address 212.50.147.10.
+ 40.570: kemi.fi INFO Done testing address 212.50.147.10.
+ 40.570: kemi.fi INFO Done testing host ns.kemi.fi.
+ 41.592: kemi.fi INFO Name server ns.kemi.fi (212.50.147.10) answers queries over UDP.
+ 41.713: kemi.fi INFO Name server ns.kemi.fi (212.50.147.10) answers queries over TCP.
+ 47.752: kemi.fi INFO Name server ns.kemi.fi (212.50.147.10) is not recursive.
+ 48.210: kemi.fi INFO Name server ns.kemi.fi (212.50.147.10) authoritative for kemi.fi.
+ 48.411: kemi.fi NOTICE Name server ns.kemi.fi (212.50.147.10) open for zone transfer of kemi.fi.
+ 48.533: kemi.fi INFO Legacy name server ID for ns.kemi.fi (212.50.147.10): hostname.bind = dns1
+ 48.653: kemi.fi INFO Legacy name server ID for ns.kemi.fi (212.50.147.10): version.bind = 9.8.1-P1
+ 48.908: kemi.fi NOTICE No answer received from 212.50.147.10 when querying for version.server/CH/TXT.
+ 48.908: kemi.fi INFO Done testing name server ns.kemi.fi.
+ 48.908: kemi.fi INFO Begin testing name server ns2.kemi.fi.
+ 48.908: kemi.fi INFO Begin testing host ns2.kemi.fi.
+ 49.688: kemi.fi INFO Begin testing address 212.50.147.18.
+ 52.043: kemi.fi INFO Done testing address 212.50.147.18.
+ 52.043: kemi.fi INFO Done testing host ns2.kemi.fi.
+ 53.168: kemi.fi INFO Name server ns2.kemi.fi (212.50.147.18) answers queries over UDP.
+ 53.293: kemi.fi INFO Name server ns2.kemi.fi (212.50.147.18) answers queries over TCP.
+ 59.328: kemi.fi INFO Name server ns2.kemi.fi (212.50.147.18) is not recursive.
+ 59.757: kemi.fi INFO Name server ns2.kemi.fi (212.50.147.18) authoritative for kemi.fi.
+ 59.866: kemi.fi NOTICE Name server ns2.kemi.fi (212.50.147.18) open for zone transfer of kemi.fi.
+ 60.061: kemi.fi INFO Legacy name server ID for ns2.kemi.fi (212.50.147.18): hostname.bind = dns2
+ 60.163: kemi.fi INFO Legacy name server ID for ns2.kemi.fi (212.50.147.18): version.bind = 9.8.1-P1
+ 60.288: kemi.fi NOTICE No answer received from 212.50.147.18 when querying for version.server/CH/TXT.
+ 60.288: kemi.fi INFO Done testing name server ns2.kemi.fi.
+ 60.288: kemi.fi INFO Begin testing zone consistency for kemi.fi.
+ 63.203: kemi.fi INFO SOA at address 212.50.147.10 has serial 2013080101.
+ 63.332: kemi.fi INFO SOA at address 212.50.147.18 has serial 2013080101.
+ 63.332: kemi.fi INFO All SOA records have consistent serial numbers.
+ 63.332: kemi.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 64.693: kemi.fi NOTICE The listed nameservers for kemi.fi all report the same set of nameservers.
+ 64.693: kemi.fi INFO Done testing zone consistency for kemi.fi.
+ 64.693: kemi.fi INFO Begin testing SOA parameters for kemi.fi.
+ 64.746: kemi.fi INFO Found SOA record for kemi.fi.
+ 64.746: kemi.fi INFO Begin testing host ns.kemi.fi.
+ 65.372: kemi.fi INFO Begin testing address 212.50.147.10.
+ 65.373: kemi.fi INFO Done testing address 212.50.147.10.
+ 65.373: kemi.fi INFO Done testing host ns.kemi.fi.
+ 65.373: kemi.fi INFO SOA MNAME for kemi.fi valid (ns.kemi.fi).
+ 65.373: kemi.fi INFO SOA MNAME for kemi.fi (ns.kemi.fi) listed as NS.
+ 65.881: kemi.fi INFO SOA MNAME for kemi.fi (ns.kemi.fi) is authoritative.
+ 65.881: kemi.fi INFO Begin testing email address hostmaster@kemi.fi.
+ 66.402: kemi.fi INFO Mail exchangers for hostmaster@kemi.fi found kemi.sahkopostiturva.net,kemi2.sahkopostiturva.net.
+ 66.402: kemi.fi INFO Begin testing host kemi.sahkopostiturva.net.
+ 68.693: kemi.fi INFO Begin testing address 194.197.177.11.
+ 72.969: kemi.fi INFO Done testing address 194.197.177.11.
+ 72.970: kemi.fi INFO Begin testing address 194.197.177.16.
+ 76.828: kemi.fi INFO Done testing address 194.197.177.16.
+ 76.828: kemi.fi INFO Begin testing address 194.197.177.18.
+ 80.436: kemi.fi INFO Done testing address 194.197.177.18.
+ 80.436: kemi.fi INFO Done testing host kemi.sahkopostiturva.net.
+ 81.286: kemi.fi INFO Begin testing host kemi2.sahkopostiturva.net.
+ 83.068: kemi.fi INFO Begin testing address 217.112.192.18.
+ 86.164: kemi.fi INFO Done testing address 217.112.192.18.
+ 86.164: kemi.fi INFO Begin testing address 217.112.192.16.
+ 89.168: kemi.fi INFO Done testing address 217.112.192.16.
+ 89.168: kemi.fi INFO Begin testing address 217.112.192.11.
+ 91.859: kemi.fi INFO Done testing address 217.112.192.11.
+ 91.879: kemi.fi INFO Done testing host kemi2.sahkopostiturva.net.
+ 92.812: kemi.fi INFO Done testing email address hostmaster@kemi.fi.
+ 92.812: kemi.fi INFO Successful attempt to deliver email for SOA RNAME of kemi.fi (hostmaster.kemi.fi) using hostmaster@kemi.fi.
+ 92.812: kemi.fi INFO SOA TTL for kemi.fi OK (86400) - recommended >= 3600.
+ 92.812: kemi.fi INFO SOA refresh for kemi.fi OK (28800) - recommended >= 14400.
+ 92.812: kemi.fi INFO SOA retry for kemi.fi OK (7200) - recommended >= 3600.
+ 92.813: kemi.fi INFO SOA expire for kemi.fi OK (604800) - recommended >= 604800.
+ 92.813: kemi.fi INFO SOA minimum for kemi.fi OK (86400) - recommended between 300 and 86400.
+ 92.813: kemi.fi INFO Done testing SOA parameters for kemi.fi.
+ 92.813: kemi.fi INFO Begin testing connectivity for kemi.fi.
+ 95.241: kemi.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 95.241: kemi.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 95.241: kemi.fi INFO Done testing connectivity for kemi.fi.
+ 95.241: kemi.fi INFO Begin testing DNSSEC for kemi.fi.
+ 95.416: kemi.fi INFO Did not find DS record for kemi.fi at parent.
+ 95.587: kemi.fi INFO Servers for kemi.fi have consistent extra processing status.
+ 95.652: kemi.fi INFO Authenticated denial records not found for kemi.fi.
+ 95.753: kemi.fi INFO Did not find DNSKEY record for kemi.fi at child.
+ 95.754: kemi.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 95.754: kemi.fi INFO Done testing DNSSEC for kemi.fi.
+ 95.754: kemi.fi INFO Test completed for zone kemi.fi.

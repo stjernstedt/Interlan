@@ -1,0 +1,103 @@
+  0.000: telia.se INFO Begin testing zone telia.se with version 1.5.0.
+  0.001: telia.se INFO Begin testing delegation for telia.se.
+ 17.043: telia.se INFO Name servers listed at parent: dns.telia.se,dns1.telia.se,sehby01dns.telia.se
+ 19.915: telia.se INFO Name servers listed at child: dns.telia.se,dns1.telia.se,sehby01dns.telia.se
+ 19.928: telia.se NOTICE No IPv6 name servers found.
+ 19.969: telia.se INFO Parent glue for telia.se found: dns.telia.se (193.44.165.16)
+ 20.015: telia.se INFO Parent glue for telia.se found: dns1.telia.se (81.236.34.35)
+ 20.058: telia.se INFO Parent glue for telia.se found: sehby01dns.telia.se (193.44.164.165)
+ 20.088: telia.se INFO Checking glue for dns.telia.se (193.44.165.16).
+ 20.146: telia.se INFO Child glue for telia.se found: dns.telia.se (193.44.165.16)
+ 20.146: telia.se INFO Checking glue for dns1.telia.se (81.236.34.35).
+ 20.186: telia.se INFO Child glue for telia.se found: dns1.telia.se (81.236.34.35)
+ 20.186: telia.se INFO Checking glue for sehby01dns.telia.se (193.44.164.165).
+ 20.223: telia.se INFO Child glue for telia.se found: sehby01dns.telia.se (193.44.164.165)
+ 20.223: telia.se INFO Parent glue for telia.se found: dns.telia.se (193.44.165.16)
+ 20.224: telia.se INFO Parent glue for telia.se found: dns1.telia.se (81.236.34.35)
+ 20.224: telia.se INFO Parent glue for telia.se found: sehby01dns.telia.se (193.44.164.165)
+ 21.557: telia.se INFO It is possible to build a referral packet for telia.se that works without EDNS0.
+ 21.558: telia.se INFO Done testing delegation for telia.se.
+ 21.558: telia.se INFO Begin testing name server dns.telia.se.
+ 21.559: telia.se INFO Begin testing host dns.telia.se.
+ 21.948: telia.se INFO Begin testing address 193.44.165.16.
+ 31.137: telia.se INFO Done testing address 193.44.165.16.
+ 31.137: telia.se INFO Done testing host dns.telia.se.
+ 31.598: telia.se INFO Name server dns.telia.se (193.44.165.16) answers queries over UDP.
+ 31.647: telia.se INFO Name server dns.telia.se (193.44.165.16) answers queries over TCP.
+ 31.694: telia.se INFO Name server dns.telia.se (193.44.165.16) is not recursive.
+ 31.791: telia.se INFO Name server dns.telia.se (193.44.165.16) authoritative for telia.se.
+ 31.829: telia.se INFO Name server dns.telia.se (193.44.165.16) closed for zone transfer of telia.se.
+ 55.876: telia.se INFO Done testing name server dns.telia.se.
+ 55.876: telia.se INFO Begin testing name server dns1.telia.se.
+ 55.876: telia.se INFO Begin testing host dns1.telia.se.
+ 56.118: telia.se INFO Begin testing address 81.236.34.35.
+ 56.697: telia.se INFO Done testing address 81.236.34.35.
+ 56.698: telia.se INFO Done testing host dns1.telia.se.
+ 56.938: telia.se INFO Name server dns1.telia.se (81.236.34.35) answers queries over UDP.
+ 56.952: telia.se INFO Name server dns1.telia.se (81.236.34.35) answers queries over TCP.
+ 56.962: telia.se INFO Name server dns1.telia.se (81.236.34.35) is not recursive.
+ 56.997: telia.se INFO Name server dns1.telia.se (81.236.34.35) authoritative for telia.se.
+ 57.010: telia.se INFO Name server dns1.telia.se (81.236.34.35) closed for zone transfer of telia.se.
+ 57.020: telia.se NOTICE No answer received from 81.236.34.35 when querying for hostname.bind/CH/TXT.
+ 57.029: telia.se INFO Legacy name server ID for dns1.telia.se (81.236.34.35): version.bind = Get Lost Pal
+ 57.035: telia.se NOTICE No answer received from 81.236.34.35 when querying for id.server/CH/TXT.
+ 57.041: telia.se NOTICE No answer received from 81.236.34.35 when querying for version.server/CH/TXT.
+ 57.041: telia.se INFO Done testing name server dns1.telia.se.
+ 57.041: telia.se INFO Begin testing name server sehby01dns.telia.se.
+ 57.041: telia.se INFO Begin testing host sehby01dns.telia.se.
+ 57.275: telia.se INFO Begin testing address 193.44.164.165.
+ 58.110: telia.se INFO Done testing address 193.44.164.165.
+ 58.110: telia.se INFO Done testing host sehby01dns.telia.se.
+ 58.346: telia.se INFO Name server sehby01dns.telia.se (193.44.164.165) answers queries over UDP.
+ 58.359: telia.se INFO Name server sehby01dns.telia.se (193.44.164.165) answers queries over TCP.
+ 58.375: telia.se INFO Name server sehby01dns.telia.se (193.44.164.165) is not recursive.
+ 58.416: telia.se INFO Name server sehby01dns.telia.se (193.44.164.165) authoritative for telia.se.
+ 58.437: telia.se INFO Name server sehby01dns.telia.se (193.44.164.165) closed for zone transfer of telia.se.
+ 82.478: telia.se INFO Done testing name server sehby01dns.telia.se.
+ 82.478: telia.se INFO Begin testing zone consistency for telia.se.
+ 84.559: telia.se INFO SOA at address 193.44.164.165 has serial 2013072915.
+ 84.603: telia.se INFO SOA at address 193.44.165.16 has serial 2013072915.
+ 84.618: telia.se INFO SOA at address 81.236.34.35 has serial 2013072915.
+ 84.618: telia.se INFO All SOA records have consistent serial numbers.
+ 84.618: telia.se INFO All other fields in the SOA record are consistent among all name servers.
+ 85.507: telia.se NOTICE The listed nameservers for telia.se all report the same set of nameservers.
+ 85.507: telia.se INFO Done testing zone consistency for telia.se.
+ 85.508: telia.se INFO Begin testing SOA parameters for telia.se.
+ 85.529: telia.se INFO Found SOA record for telia.se.
+ 85.535: telia.se INFO Begin testing host nsmaster.telia.se.
+ 86.125: telia.se INFO Begin testing address 193.44.164.202.
+ 87.567: telia.se INFO Done testing address 193.44.164.202.
+ 87.567: telia.se INFO Done testing host nsmaster.telia.se.
+ 87.567: telia.se INFO SOA MNAME for telia.se valid (nsmaster.telia.se).
+ 87.568: telia.se NOTICE SOA MNAME for telia.se (nsmaster.telia.se) not listed as NS.
+ 93.893: telia.se INFO SOA MNAME for telia.se (nsmaster.telia.se) is authoritative.
+ 93.893: telia.se INFO Begin testing email address hostmaster@telia.se.
+ 94.397: telia.se INFO Mail exchangers for hostmaster@telia.se found mail.cm.sonera.com,mail.telia.se.
+ 94.397: telia.se INFO Begin testing host mail.cm.sonera.com.
+ 96.267: telia.se INFO Begin testing address 193.208.151.61.
+ 97.482: telia.se INFO Done testing address 193.208.151.61.
+ 97.482: telia.se INFO Done testing host mail.cm.sonera.com.
+ 98.012: telia.se INFO Begin testing host mail.telia.se.
+ 98.543: telia.se INFO Begin testing address 81.236.34.130.
+ 99.713: telia.se INFO Done testing address 81.236.34.130.
+ 99.714: telia.se INFO Done testing host mail.telia.se.
+100.013: telia.se INFO Done testing email address hostmaster@telia.se.
+100.013: telia.se INFO Successful attempt to deliver email for SOA RNAME of telia.se (hostmaster.telia.se) using hostmaster@telia.se.
+100.014: telia.se INFO SOA TTL for telia.se OK (3600) - recommended >= 3600.
+100.014: telia.se NOTICE SOA refresh for telia.se too small (900) - recommended >= 14400.
+100.014: telia.se NOTICE SOA retry for telia.se too small (450) - recommended >= 3600.
+100.014: telia.se INFO SOA expire for telia.se OK (604800) - recommended >= 604800.
+100.014: telia.se INFO SOA minimum for telia.se OK (3600) - recommended between 300 and 86400.
+100.014: telia.se INFO Done testing SOA parameters for telia.se.
+100.015: telia.se INFO Begin testing connectivity for telia.se.
+102.291: telia.se NOTICE Zone announced by fewer than two IPv4 ASN.
+102.292: telia.se NOTICE Zone announced by fewer than two IPv6 ASN.
+102.292: telia.se INFO Done testing connectivity for telia.se.
+102.292: telia.se INFO Begin testing DNSSEC for telia.se.
+102.339: telia.se INFO Did not find DS record for telia.se at parent.
+102.426: telia.se INFO Servers for telia.se have consistent extra processing status.
+102.449: telia.se INFO Authenticated denial records not found for telia.se.
+108.505: telia.se INFO Did not find DNSKEY record for telia.se at child.
+108.505: telia.se INFO No DNSKEY(s) found at child, other tests skipped.
+108.506: telia.se INFO Done testing DNSSEC for telia.se.
+108.507: telia.se INFO Test completed for zone telia.se.

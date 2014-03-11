@@ -1,0 +1,82 @@
+  0.000: tarvasjoki.fi INFO Begin testing zone tarvasjoki.fi with version 1.5.0.
+  2.716: tarvasjoki.fi INFO Begin testing delegation for tarvasjoki.fi.
+ 70.443: tarvasjoki.fi INFO Name servers listed at parent: ns1.aumanet.fi,ns2.aumanet.fi
+ 84.942: tarvasjoki.fi INFO Name servers listed at child: ns1.aumanet.fi,ns2.aumanet.fi
+ 84.943: tarvasjoki.fi NOTICE No IPv6 name servers found.
+ 85.626: tarvasjoki.fi INFO Parent glue for tarvasjoki.fi found: ns1.aumanet.fi (46.23.168.67)
+ 86.581: tarvasjoki.fi INFO Parent glue for tarvasjoki.fi found: ns2.aumanet.fi (46.23.168.76)
+ 87.118: tarvasjoki.fi INFO Checking glue for ns1.aumanet.fi (46.23.168.67).
+ 87.345: tarvasjoki.fi INFO Checking glue for ns2.aumanet.fi (46.23.168.76).
+ 87.346: tarvasjoki.fi INFO Parent glue for tarvasjoki.fi found: ns1.aumanet.fi (46.23.168.67)
+ 87.346: tarvasjoki.fi INFO Parent glue for tarvasjoki.fi found: ns2.aumanet.fi (46.23.168.76)
+ 94.308: tarvasjoki.fi INFO It is possible to build a referral packet for tarvasjoki.fi that works without EDNS0.
+ 99.834: tarvasjoki.fi INFO Previously used name servers for tarvasjoki.fi: 
+ 99.834: tarvasjoki.fi INFO Done testing delegation for tarvasjoki.fi.
+ 99.835: tarvasjoki.fi INFO Begin testing name server ns1.aumanet.fi.
+ 99.835: tarvasjoki.fi INFO Begin testing host ns1.aumanet.fi.
+102.491: tarvasjoki.fi INFO Begin testing address 46.23.168.67.
+159.654: tarvasjoki.fi INFO Done testing address 46.23.168.67.
+159.654: tarvasjoki.fi INFO Done testing host ns1.aumanet.fi.
+162.763: tarvasjoki.fi INFO Name server ns1.aumanet.fi (46.23.168.67) answers queries over UDP.
+163.311: tarvasjoki.fi INFO Name server ns1.aumanet.fi (46.23.168.67) answers queries over TCP.
+163.827: tarvasjoki.fi INFO Name server ns1.aumanet.fi (46.23.168.67) is not recursive.
+165.298: tarvasjoki.fi INFO Name server ns1.aumanet.fi (46.23.168.67) authoritative for tarvasjoki.fi.
+165.602: tarvasjoki.fi INFO Name server ns1.aumanet.fi (46.23.168.67) closed for zone transfer of tarvasjoki.fi.
+165.982: tarvasjoki.fi INFO Legacy name server ID for ns1.aumanet.fi (46.23.168.67): hostname.bind = ns1
+167.065: tarvasjoki.fi NOTICE No answer received from 46.23.168.67 when querying for version.server/CH/TXT.
+167.066: tarvasjoki.fi INFO Done testing name server ns1.aumanet.fi.
+167.066: tarvasjoki.fi INFO Begin testing name server ns2.aumanet.fi.
+167.066: tarvasjoki.fi INFO Begin testing host ns2.aumanet.fi.
+169.518: tarvasjoki.fi INFO Begin testing address 46.23.168.76.
+175.013: tarvasjoki.fi INFO Done testing address 46.23.168.76.
+175.014: tarvasjoki.fi INFO Done testing host ns2.aumanet.fi.
+178.255: tarvasjoki.fi INFO Name server ns2.aumanet.fi (46.23.168.76) answers queries over UDP.
+178.902: tarvasjoki.fi INFO Name server ns2.aumanet.fi (46.23.168.76) answers queries over TCP.
+179.302: tarvasjoki.fi INFO Name server ns2.aumanet.fi (46.23.168.76) is not recursive.
+180.564: tarvasjoki.fi INFO Name server ns2.aumanet.fi (46.23.168.76) authoritative for tarvasjoki.fi.
+181.034: tarvasjoki.fi INFO Name server ns2.aumanet.fi (46.23.168.76) closed for zone transfer of tarvasjoki.fi.
+181.459: tarvasjoki.fi INFO Legacy name server ID for ns2.aumanet.fi (46.23.168.76): hostname.bind = ns2
+182.541: tarvasjoki.fi NOTICE No answer received from 46.23.168.76 when querying for version.server/CH/TXT.
+182.542: tarvasjoki.fi INFO Done testing name server ns2.aumanet.fi.
+182.542: tarvasjoki.fi INFO Begin testing zone consistency for tarvasjoki.fi.
+192.411: tarvasjoki.fi INFO SOA at address 46.23.168.76 has serial 2012083101.
+192.852: tarvasjoki.fi INFO SOA at address 46.23.168.67 has serial 2012083101.
+192.852: tarvasjoki.fi INFO All SOA records have consistent serial numbers.
+192.852: tarvasjoki.fi INFO All other fields in the SOA record are consistent among all name servers.
+198.023: tarvasjoki.fi NOTICE The listed nameservers for tarvasjoki.fi all report the same set of nameservers.
+198.023: tarvasjoki.fi INFO Done testing zone consistency for tarvasjoki.fi.
+198.023: tarvasjoki.fi INFO Begin testing SOA parameters for tarvasjoki.fi.
+198.486: tarvasjoki.fi INFO Found SOA record for tarvasjoki.fi.
+198.486: tarvasjoki.fi INFO Begin testing host ns1.aumanet.fi.
+200.618: tarvasjoki.fi INFO Begin testing address 46.23.168.67.
+202.806: tarvasjoki.fi INFO Done testing address 46.23.168.67.
+202.806: tarvasjoki.fi INFO Done testing host ns1.aumanet.fi.
+202.806: tarvasjoki.fi INFO SOA MNAME for tarvasjoki.fi valid (ns1.aumanet.fi).
+202.806: tarvasjoki.fi INFO SOA MNAME for tarvasjoki.fi (ns1.aumanet.fi) listed as NS.
+205.005: tarvasjoki.fi INFO SOA MNAME for tarvasjoki.fi (ns1.aumanet.fi) is authoritative.
+205.005: tarvasjoki.fi INFO Begin testing email address hostmaster@aumanet.fi.
+206.971: tarvasjoki.fi INFO Mail exchangers for hostmaster@aumanet.fi found mail.aumanet.fi.
+206.971: tarvasjoki.fi INFO Begin testing host mail.aumanet.fi.
+211.758: tarvasjoki.fi INFO Begin testing address 46.23.168.69.
+216.158: tarvasjoki.fi INFO Done testing address 46.23.168.69.
+216.158: tarvasjoki.fi INFO Done testing host mail.aumanet.fi.
+217.982: tarvasjoki.fi INFO Done testing email address hostmaster@aumanet.fi.
+217.982: tarvasjoki.fi INFO Successful attempt to deliver email for SOA RNAME of tarvasjoki.fi (hostmaster.aumanet.fi) using hostmaster@aumanet.fi.
+217.982: tarvasjoki.fi INFO SOA TTL for tarvasjoki.fi OK (86400) - recommended >= 3600.
+217.982: tarvasjoki.fi INFO SOA refresh for tarvasjoki.fi OK (28800) - recommended >= 14400.
+217.982: tarvasjoki.fi INFO SOA retry for tarvasjoki.fi OK (7200) - recommended >= 3600.
+217.982: tarvasjoki.fi INFO SOA expire for tarvasjoki.fi OK (604800) - recommended >= 604800.
+217.982: tarvasjoki.fi INFO SOA minimum for tarvasjoki.fi OK (86400) - recommended between 300 and 86400.
+217.982: tarvasjoki.fi INFO Done testing SOA parameters for tarvasjoki.fi.
+217.982: tarvasjoki.fi INFO Begin testing connectivity for tarvasjoki.fi.
+223.047: tarvasjoki.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+223.047: tarvasjoki.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+223.047: tarvasjoki.fi INFO Done testing connectivity for tarvasjoki.fi.
+223.048: tarvasjoki.fi INFO Begin testing DNSSEC for tarvasjoki.fi.
+223.643: tarvasjoki.fi INFO Did not find DS record for tarvasjoki.fi at parent.
+224.272: tarvasjoki.fi INFO Servers for tarvasjoki.fi have consistent extra processing status.
+224.538: tarvasjoki.fi INFO Authenticated denial records not found for tarvasjoki.fi.
+224.742: tarvasjoki.fi INFO Did not find DNSKEY record for tarvasjoki.fi at child.
+224.819: tarvasjoki.fi INFO No DNSKEY(s) found at child, other tests skipped.
+224.819: tarvasjoki.fi INFO Done testing DNSSEC for tarvasjoki.fi.
+224.820: tarvasjoki.fi INFO Test completed for zone tarvasjoki.fi.

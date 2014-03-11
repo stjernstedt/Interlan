@@ -1,0 +1,8 @@
+#!/bin/sh
+cd /home/myndighetermeddnssec
+for i in `cat domain|sort` ; do
+        echo "----- $i -----"
+        fpdns -t 1 -D $i | tee version/$i
+	echo
+done
+

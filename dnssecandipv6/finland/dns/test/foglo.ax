@@ -1,0 +1,104 @@
+  0.000: foglo.ax INFO Begin testing zone foglo.ax with version 1.5.0.
+  0.285: foglo.ax INFO Begin testing delegation for foglo.ax.
+  3.536: foglo.ax INFO Name servers listed at parent: ns.alcom.aland.fi,ns2.alcom.aland.fi,ns3.alcom.aland.fi
+  5.885: foglo.ax INFO Name servers listed at child: ns.alcom.aland.fi,ns2.alcom.aland.fi,ns3.alcom.aland.fi
+  5.885: foglo.ax NOTICE No IPv6 name servers found.
+  5.941: foglo.ax INFO Parent glue for foglo.ax found: ns.alcom.aland.fi (194.112.0.1)
+  6.049: foglo.ax INFO Parent glue for foglo.ax found: ns2.alcom.aland.fi (194.112.0.5)
+  6.144: foglo.ax INFO Parent glue for foglo.ax found: ns3.alcom.aland.fi (82.199.186.130)
+  6.171: foglo.ax INFO Checking glue for ns.alcom.aland.fi (194.112.0.1).
+  6.171: foglo.ax INFO Checking glue for ns2.alcom.aland.fi (194.112.0.5).
+  6.172: foglo.ax INFO Checking glue for ns3.alcom.aland.fi (82.199.186.130).
+  6.172: foglo.ax INFO Parent glue for foglo.ax found: ns.alcom.aland.fi (194.112.0.1)
+  6.172: foglo.ax INFO Parent glue for foglo.ax found: ns2.alcom.aland.fi (194.112.0.5)
+  6.173: foglo.ax INFO Parent glue for foglo.ax found: ns3.alcom.aland.fi (82.199.186.130)
+  8.021: foglo.ax INFO It is possible to build a referral packet for foglo.ax that works without EDNS0.
+  9.419: foglo.ax INFO Previously used name servers for foglo.ax: 
+  9.419: foglo.ax INFO Done testing delegation for foglo.ax.
+  9.419: foglo.ax INFO Begin testing name server ns.alcom.aland.fi.
+  9.420: foglo.ax INFO Begin testing host ns.alcom.aland.fi.
+  9.691: foglo.ax INFO Begin testing address 194.112.0.1.
+ 21.679: foglo.ax WARNING Reverse for 194.112.0.1 points to an unknown host name (a.ns.ax).
+ 21.679: foglo.ax INFO Done testing address 194.112.0.1.
+ 21.679: foglo.ax INFO Done testing host ns.alcom.aland.fi.
+ 22.001: foglo.ax INFO Name server ns.alcom.aland.fi (194.112.0.1) answers queries over UDP.
+ 22.027: foglo.ax INFO Name server ns.alcom.aland.fi (194.112.0.1) answers queries over TCP.
+ 22.038: foglo.ax INFO Name server ns.alcom.aland.fi (194.112.0.1) is not recursive.
+ 22.104: foglo.ax INFO Name server ns.alcom.aland.fi (194.112.0.1) authoritative for foglo.ax.
+ 22.131: foglo.ax INFO Name server ns.alcom.aland.fi (194.112.0.1) closed for zone transfer of foglo.ax.
+ 22.161: foglo.ax INFO Legacy name server ID for ns.alcom.aland.fi (194.112.0.1): hostname.bind = aragon
+ 22.175: foglo.ax INFO Legacy name server ID for ns.alcom.aland.fi (194.112.0.1): version.bind = N/A
+ 22.203: foglo.ax NOTICE No answer received from 194.112.0.1 when querying for version.server/CH/TXT.
+ 22.203: foglo.ax INFO Done testing name server ns.alcom.aland.fi.
+ 22.203: foglo.ax INFO Begin testing name server ns2.alcom.aland.fi.
+ 22.203: foglo.ax INFO Begin testing host ns2.alcom.aland.fi.
+ 22.542: foglo.ax INFO Begin testing address 194.112.0.5.
+ 25.715: foglo.ax INFO Done testing address 194.112.0.5.
+ 25.715: foglo.ax INFO Done testing host ns2.alcom.aland.fi.
+ 25.976: foglo.ax INFO Name server ns2.alcom.aland.fi (194.112.0.5) answers queries over UDP.
+ 26.002: foglo.ax INFO Name server ns2.alcom.aland.fi (194.112.0.5) answers queries over TCP.
+ 26.009: foglo.ax INFO Name server ns2.alcom.aland.fi (194.112.0.5) is not recursive.
+ 26.064: foglo.ax INFO Name server ns2.alcom.aland.fi (194.112.0.5) authoritative for foglo.ax.
+ 26.081: foglo.ax INFO Name server ns2.alcom.aland.fi (194.112.0.5) closed for zone transfer of foglo.ax.
+ 26.089: foglo.ax INFO Legacy name server ID for ns2.alcom.aland.fi (194.112.0.5): hostname.bind = gandalf
+ 26.099: foglo.ax INFO Legacy name server ID for ns2.alcom.aland.fi (194.112.0.5): version.bind = N/A
+ 26.118: foglo.ax NOTICE No answer received from 194.112.0.5 when querying for version.server/CH/TXT.
+ 26.118: foglo.ax INFO Done testing name server ns2.alcom.aland.fi.
+ 26.118: foglo.ax INFO Begin testing name server ns3.alcom.aland.fi.
+ 26.118: foglo.ax INFO Begin testing host ns3.alcom.aland.fi.
+ 26.443: foglo.ax INFO Begin testing address 82.199.186.130.
+ 28.382: foglo.ax INFO Done testing address 82.199.186.130.
+ 28.383: foglo.ax INFO Done testing host ns3.alcom.aland.fi.
+ 28.927: foglo.ax INFO Name server ns3.alcom.aland.fi (82.199.186.130) answers queries over UDP.
+ 28.944: foglo.ax INFO Name server ns3.alcom.aland.fi (82.199.186.130) answers queries over TCP.
+ 28.950: foglo.ax INFO Name server ns3.alcom.aland.fi (82.199.186.130) is not recursive.
+ 28.984: foglo.ax INFO Name server ns3.alcom.aland.fi (82.199.186.130) authoritative for foglo.ax.
+ 28.999: foglo.ax INFO Name server ns3.alcom.aland.fi (82.199.186.130) closed for zone transfer of foglo.ax.
+ 29.007: foglo.ax INFO Legacy name server ID for ns3.alcom.aland.fi (82.199.186.130): hostname.bind = frodo
+ 29.019: foglo.ax INFO Legacy name server ID for ns3.alcom.aland.fi (82.199.186.130): version.bind = N/A
+ 29.030: foglo.ax NOTICE No answer received from 82.199.186.130 when querying for version.server/CH/TXT.
+ 29.031: foglo.ax INFO Done testing name server ns3.alcom.aland.fi.
+ 29.031: foglo.ax INFO Begin testing zone consistency for foglo.ax.
+ 30.694: foglo.ax INFO SOA at address 82.199.186.130 has serial 2011090501.
+ 30.703: foglo.ax INFO SOA at address 194.112.0.5 has serial 2011090501.
+ 30.713: foglo.ax INFO SOA at address 194.112.0.1 has serial 2011090501.
+ 30.713: foglo.ax INFO All SOA records have consistent serial numbers.
+ 30.713: foglo.ax INFO All other fields in the SOA record are consistent among all name servers.
+ 31.622: foglo.ax NOTICE The listed nameservers for foglo.ax all report the same set of nameservers.
+ 31.622: foglo.ax INFO Done testing zone consistency for foglo.ax.
+ 31.634: foglo.ax INFO Begin testing SOA parameters for foglo.ax.
+ 31.644: foglo.ax INFO Found SOA record for foglo.ax.
+ 31.644: foglo.ax INFO Begin testing host ns.alcom.aland.fi.
+ 31.955: foglo.ax INFO Begin testing address 194.112.0.1.
+ 31.957: foglo.ax WARNING Reverse for 194.112.0.1 points to an unknown host name (a.ns.ax).
+ 31.957: foglo.ax INFO Done testing address 194.112.0.1.
+ 31.957: foglo.ax INFO Done testing host ns.alcom.aland.fi.
+ 31.958: foglo.ax INFO SOA MNAME for foglo.ax valid (ns.alcom.aland.fi).
+ 31.958: foglo.ax INFO SOA MNAME for foglo.ax (ns.alcom.aland.fi) listed as NS.
+ 32.285: foglo.ax INFO SOA MNAME for foglo.ax (ns.alcom.aland.fi) is authoritative.
+ 32.285: foglo.ax INFO Begin testing email address hostmaster@alcom.aland.fi.
+ 32.537: foglo.ax INFO Mail exchangers for hostmaster@alcom.aland.fi found mail.aland.net.
+ 32.542: foglo.ax INFO Begin testing host mail.aland.net.
+ 33.656: foglo.ax INFO Begin testing address 194.112.1.114.
+ 34.208: foglo.ax INFO Done testing address 194.112.1.114.
+ 34.208: foglo.ax INFO Done testing host mail.aland.net.
+ 34.723: foglo.ax INFO Done testing email address hostmaster@alcom.aland.fi.
+ 34.723: foglo.ax INFO Successful attempt to deliver email for SOA RNAME of foglo.ax (hostmaster.alcom.aland.fi) using hostmaster@alcom.aland.fi.
+ 34.723: foglo.ax INFO SOA TTL for foglo.ax OK (86400) - recommended >= 3600.
+ 34.723: foglo.ax INFO SOA refresh for foglo.ax OK (86400) - recommended >= 14400.
+ 34.723: foglo.ax INFO SOA retry for foglo.ax OK (7200) - recommended >= 3600.
+ 34.723: foglo.ax INFO SOA expire for foglo.ax OK (2419200) - recommended >= 604800.
+ 34.723: foglo.ax NOTICE SOA minimum for foglo.ax too large (172800) - recommended <= 86400.
+ 34.723: foglo.ax INFO Done testing SOA parameters for foglo.ax.
+ 34.723: foglo.ax INFO Begin testing connectivity for foglo.ax.
+ 36.549: foglo.ax NOTICE Zone announced by fewer than two IPv4 ASN.
+ 36.549: foglo.ax NOTICE Zone announced by fewer than two IPv6 ASN.
+ 36.549: foglo.ax INFO Done testing connectivity for foglo.ax.
+ 36.550: foglo.ax INFO Begin testing DNSSEC for foglo.ax.
+ 36.569: foglo.ax INFO Did not find DS record for foglo.ax at parent.
+ 36.611: foglo.ax INFO Servers for foglo.ax have consistent extra processing status.
+ 36.623: foglo.ax INFO Authenticated denial records not found for foglo.ax.
+ 36.631: foglo.ax INFO Did not find DNSKEY record for foglo.ax at child.
+ 36.631: foglo.ax INFO No DNSKEY(s) found at child, other tests skipped.
+ 36.631: foglo.ax INFO Done testing DNSSEC for foglo.ax.
+ 36.632: foglo.ax INFO Test completed for zone foglo.ax.

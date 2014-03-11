@@ -1,0 +1,126 @@
+  0.000: lansforsakringar.se INFO Begin testing zone lansforsakringar.se with version 1.5.0.
+  0.007: lansforsakringar.se INFO Begin testing delegation for lansforsakringar.se.
+  5.275: lansforsakringar.se INFO Name servers listed at parent: dns1.telia.se,dns6.telia.com,ns.lansforsakringar.se,ns1.lansforsakringar.se
+  7.544: lansforsakringar.se INFO Name servers listed at child: dns1.telia.se,dns6.telia.com,ns.lansforsakringar.se,ns1.lansforsakringar.se
+  7.545: lansforsakringar.se NOTICE Too few IPv6 name servers (1).
+  7.554: lansforsakringar.se INFO Parent glue for lansforsakringar.se found: dns1.telia.se (81.236.34.35)
+  7.707: lansforsakringar.se INFO Parent glue for lansforsakringar.se found: ns.lansforsakringar.se (194.16.175.2)
+  7.727: lansforsakringar.se INFO Parent glue for lansforsakringar.se found: ns1.lansforsakringar.se (194.16.175.35)
+  7.736: lansforsakringar.se INFO Checking glue for dns1.telia.se (81.236.34.35).
+  7.736: lansforsakringar.se INFO Checking glue for ns.lansforsakringar.se (194.16.175.2).
+  7.748: lansforsakringar.se INFO Child glue for lansforsakringar.se found: ns.lansforsakringar.se (194.16.175.2)
+  7.748: lansforsakringar.se INFO Checking glue for ns1.lansforsakringar.se (194.16.175.35).
+  7.760: lansforsakringar.se INFO Child glue for lansforsakringar.se found: ns1.lansforsakringar.se (194.16.175.35)
+  7.760: lansforsakringar.se INFO Parent glue for lansforsakringar.se found: dns1.telia.se (81.236.34.35)
+  7.761: lansforsakringar.se INFO Parent glue for lansforsakringar.se found: ns.lansforsakringar.se (194.16.175.2)
+  7.762: lansforsakringar.se INFO Parent glue for lansforsakringar.se found: ns1.lansforsakringar.se (194.16.175.35)
+  8.771: lansforsakringar.se INFO It is possible to build a referral packet for lansforsakringar.se that works without EDNS0.
+  8.771: lansforsakringar.se INFO Done testing delegation for lansforsakringar.se.
+  8.772: lansforsakringar.se INFO Begin testing name server dns1.telia.se.
+  8.773: lansforsakringar.se INFO Begin testing host dns1.telia.se.
+  9.028: lansforsakringar.se INFO Begin testing address 81.236.34.35.
+ 14.322: lansforsakringar.se INFO Done testing address 81.236.34.35.
+ 14.323: lansforsakringar.se INFO Done testing host dns1.telia.se.
+ 14.569: lansforsakringar.se INFO Name server dns1.telia.se (81.236.34.35) answers queries over UDP.
+ 14.583: lansforsakringar.se INFO Name server dns1.telia.se (81.236.34.35) answers queries over TCP.
+ 14.593: lansforsakringar.se INFO Name server dns1.telia.se (81.236.34.35) is not recursive.
+ 14.628: lansforsakringar.se INFO Name server dns1.telia.se (81.236.34.35) authoritative for lansforsakringar.se.
+ 14.643: lansforsakringar.se INFO Name server dns1.telia.se (81.236.34.35) closed for zone transfer of lansforsakringar.se.
+ 14.651: lansforsakringar.se NOTICE No answer received from 81.236.34.35 when querying for hostname.bind/CH/TXT.
+ 14.674: lansforsakringar.se INFO Legacy name server ID for dns1.telia.se (81.236.34.35): version.bind = Get Lost Pal
+ 14.681: lansforsakringar.se NOTICE No answer received from 81.236.34.35 when querying for id.server/CH/TXT.
+ 14.689: lansforsakringar.se NOTICE No answer received from 81.236.34.35 when querying for version.server/CH/TXT.
+ 14.689: lansforsakringar.se INFO Done testing name server dns1.telia.se.
+ 14.690: lansforsakringar.se INFO Begin testing name server dns6.telia.com.
+ 14.690: lansforsakringar.se INFO Begin testing host dns6.telia.com.
+ 14.690: lansforsakringar.se INFO Begin testing address 81.228.10.68.
+ 16.131: lansforsakringar.se INFO Done testing address 81.228.10.68.
+ 16.131: lansforsakringar.se INFO Begin testing address 2001:2040:c001:401:0:0:0:4.
+ 17.515: lansforsakringar.se INFO Done testing address 2001:2040:c001:401:0:0:0:4.
+ 17.516: lansforsakringar.se INFO Done testing host dns6.telia.com.
+ 17.533: lansforsakringar.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over UDP.
+ 17.564: lansforsakringar.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over TCP.
+ 17.583: lansforsakringar.se INFO Name server dns6.telia.com (81.228.10.68) is not recursive.
+ 17.654: lansforsakringar.se INFO Name server dns6.telia.com (81.228.10.68) authoritative for lansforsakringar.se.
+ 17.702: lansforsakringar.se INFO Name server dns6.telia.com (81.228.10.68) closed for zone transfer of lansforsakringar.se.
+ 17.739: lansforsakringar.se INFO Legacy name server ID for dns6.telia.com (81.228.10.68): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 17.819: lansforsakringar.se INFO Name server dns6.telia.com (2001:2040:c001:401:0:0:0:4) answers queries over UDP.
+ 17.886: lansforsakringar.se INFO Name server dns6.telia.com (2001:2040:c001:401:0:0:0:4) answers queries over TCP.
+ 17.922: lansforsakringar.se INFO Name server dns6.telia.com (2001:2040:c001:401:0:0:0:4) is not recursive.
+ 18.061: lansforsakringar.se INFO Name server dns6.telia.com (2001:2040:c001:401:0:0:0:4) authoritative for lansforsakringar.se.
+ 18.161: lansforsakringar.se INFO Name server dns6.telia.com (2001:2040:c001:401:0:0:0:4) closed for zone transfer of lansforsakringar.se.
+ 18.233: lansforsakringar.se INFO Legacy name server ID for dns6.telia.com (2001:2040:c001:401:0:0:0:4): version.bind = Served by POWERDNS 3.2 $Id: packethandler.cc 3022 2013-01-05 13:00:10Z peter $
+ 18.304: lansforsakringar.se INFO Done testing name server dns6.telia.com.
+ 18.304: lansforsakringar.se INFO Begin testing name server ns.lansforsakringar.se.
+ 18.304: lansforsakringar.se INFO Begin testing host ns.lansforsakringar.se.
+ 18.531: lansforsakringar.se INFO Begin testing address 194.16.175.2.
+ 19.741: lansforsakringar.se INFO Done testing address 194.16.175.2.
+ 19.741: lansforsakringar.se INFO Done testing host ns.lansforsakringar.se.
+ 19.987: lansforsakringar.se INFO Name server ns.lansforsakringar.se (194.16.175.2) answers queries over UDP.
+ 20.002: lansforsakringar.se INFO Name server ns.lansforsakringar.se (194.16.175.2) answers queries over TCP.
+ 20.014: lansforsakringar.se INFO Name server ns.lansforsakringar.se (194.16.175.2) is not recursive.
+ 20.052: lansforsakringar.se INFO Name server ns.lansforsakringar.se (194.16.175.2) authoritative for lansforsakringar.se.
+ 20.067: lansforsakringar.se INFO Name server ns.lansforsakringar.se (194.16.175.2) closed for zone transfer of lansforsakringar.se.
+ 20.075: lansforsakringar.se INFO Legacy name server ID for ns.lansforsakringar.se (194.16.175.2): hostname.bind = ns.lansforsakringar.se
+ 20.083: lansforsakringar.se INFO Legacy name server ID for ns.lansforsakringar.se (194.16.175.2): version.bind = Not public
+ 20.099: lansforsakringar.se NOTICE No answer received from 194.16.175.2 when querying for version.server/CH/TXT.
+ 20.099: lansforsakringar.se INFO Done testing name server ns.lansforsakringar.se.
+ 20.099: lansforsakringar.se INFO Begin testing name server ns1.lansforsakringar.se.
+ 20.100: lansforsakringar.se INFO Begin testing host ns1.lansforsakringar.se.
+ 20.333: lansforsakringar.se INFO Begin testing address 194.16.175.35.
+ 21.138: lansforsakringar.se INFO Done testing address 194.16.175.35.
+ 21.139: lansforsakringar.se INFO Done testing host ns1.lansforsakringar.se.
+ 21.374: lansforsakringar.se INFO Name server ns1.lansforsakringar.se (194.16.175.35) answers queries over UDP.
+ 21.388: lansforsakringar.se INFO Name server ns1.lansforsakringar.se (194.16.175.35) answers queries over TCP.
+ 21.406: lansforsakringar.se INFO Name server ns1.lansforsakringar.se (194.16.175.35) is not recursive.
+ 21.450: lansforsakringar.se INFO Name server ns1.lansforsakringar.se (194.16.175.35) authoritative for lansforsakringar.se.
+ 21.466: lansforsakringar.se INFO Name server ns1.lansforsakringar.se (194.16.175.35) closed for zone transfer of lansforsakringar.se.
+ 21.474: lansforsakringar.se INFO Legacy name server ID for ns1.lansforsakringar.se (194.16.175.35): hostname.bind = ns1.lansforsakringar.se
+ 21.482: lansforsakringar.se INFO Legacy name server ID for ns1.lansforsakringar.se (194.16.175.35): version.bind = Not public
+ 21.498: lansforsakringar.se NOTICE No answer received from 194.16.175.35 when querying for version.server/CH/TXT.
+ 21.498: lansforsakringar.se INFO Done testing name server ns1.lansforsakringar.se.
+ 21.499: lansforsakringar.se INFO Begin testing zone consistency for lansforsakringar.se.
+ 23.184: lansforsakringar.se INFO SOA at address 2001:2040:c001:401:0:0:0:4 has serial 2013070400.
+ 23.195: lansforsakringar.se INFO SOA at address 194.16.175.35 has serial 2013070400.
+ 23.206: lansforsakringar.se INFO SOA at address 194.16.175.2 has serial 2013070400.
+ 23.215: lansforsakringar.se INFO SOA at address 81.236.34.35 has serial 2013070400.
+ 23.234: lansforsakringar.se INFO SOA at address 81.228.10.68 has serial 2013070400.
+ 23.234: lansforsakringar.se INFO All SOA records have consistent serial numbers.
+ 23.234: lansforsakringar.se INFO All other fields in the SOA record are consistent among all name servers.
+ 24.100: lansforsakringar.se NOTICE The listed nameservers for lansforsakringar.se all report the same set of nameservers.
+ 24.100: lansforsakringar.se INFO Done testing zone consistency for lansforsakringar.se.
+ 24.100: lansforsakringar.se INFO Begin testing SOA parameters for lansforsakringar.se.
+ 24.112: lansforsakringar.se INFO Found SOA record for lansforsakringar.se.
+ 24.113: lansforsakringar.se INFO Begin testing host ns.lansforsakringar.se.
+ 24.343: lansforsakringar.se INFO Begin testing address 194.16.175.2.
+ 24.590: lansforsakringar.se INFO Done testing address 194.16.175.2.
+ 24.590: lansforsakringar.se INFO Done testing host ns.lansforsakringar.se.
+ 24.590: lansforsakringar.se INFO SOA MNAME for lansforsakringar.se valid (ns.lansforsakringar.se).
+ 24.591: lansforsakringar.se INFO SOA MNAME for lansforsakringar.se (ns.lansforsakringar.se) listed as NS.
+ 24.882: lansforsakringar.se INFO SOA MNAME for lansforsakringar.se (ns.lansforsakringar.se) is authoritative.
+ 24.882: lansforsakringar.se INFO Begin testing email address nordic-network@hp.com.
+ 25.289: lansforsakringar.se INFO Mail exchangers for nordic-network@hp.com found smtp.hp.com.
+ 25.294: lansforsakringar.se INFO Begin testing host smtp.hp.com.
+ 30.751: lansforsakringar.se INFO Begin testing address 15.192.0.42.
+ 33.392: lansforsakringar.se INFO Done testing address 15.192.0.42.
+ 33.392: lansforsakringar.se INFO Done testing host smtp.hp.com.
+ 34.118: lansforsakringar.se INFO Done testing email address nordic-network@hp.com.
+ 34.118: lansforsakringar.se INFO Successful attempt to deliver email for SOA RNAME of lansforsakringar.se (nordic-network.hp.com) using nordic-network@hp.com.
+ 34.118: lansforsakringar.se INFO SOA TTL for lansforsakringar.se OK (3600) - recommended >= 3600.
+ 34.118: lansforsakringar.se NOTICE SOA refresh for lansforsakringar.se too small (3600) - recommended >= 14400.
+ 34.119: lansforsakringar.se NOTICE SOA retry for lansforsakringar.se too small (900) - recommended >= 3600.
+ 34.119: lansforsakringar.se INFO SOA expire for lansforsakringar.se OK (604800) - recommended >= 604800.
+ 34.119: lansforsakringar.se INFO SOA minimum for lansforsakringar.se OK (3600) - recommended between 300 and 86400.
+ 34.119: lansforsakringar.se INFO Done testing SOA parameters for lansforsakringar.se.
+ 34.119: lansforsakringar.se INFO Begin testing connectivity for lansforsakringar.se.
+ 36.969: lansforsakringar.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 37.790: lansforsakringar.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 37.790: lansforsakringar.se INFO Done testing connectivity for lansforsakringar.se.
+ 37.790: lansforsakringar.se INFO Begin testing DNSSEC for lansforsakringar.se.
+ 37.808: lansforsakringar.se INFO Did not find DS record for lansforsakringar.se at parent.
+ 37.949: lansforsakringar.se INFO Servers for lansforsakringar.se have consistent extra processing status.
+ 37.963: lansforsakringar.se INFO Authenticated denial records not found for lansforsakringar.se.
+ 37.971: lansforsakringar.se INFO Did not find DNSKEY record for lansforsakringar.se at child.
+ 37.971: lansforsakringar.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 37.972: lansforsakringar.se INFO Done testing DNSSEC for lansforsakringar.se.
+ 37.973: lansforsakringar.se INFO Test completed for zone lansforsakringar.se.

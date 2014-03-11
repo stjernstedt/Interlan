@@ -1,0 +1,108 @@
+  0.000: kristianstad.se INFO Begin testing zone kristianstad.se with version 1.2.
+  0.000: kristianstad.se INFO Begin testing delegation for kristianstad.se.
+  5.173: kristianstad.se INFO Name servers listed at parent: dns.kristianstad.se,dns2.kristianstad.se
+  6.428: kristianstad.se INFO Name servers listed at child: dns.kristianstad.se,dns2.kristianstad.se
+  6.428: kristianstad.se NOTICE No IPv6 name servers found.
+  6.467: kristianstad.se INFO Parent glue for kristianstad.se found: dns.kristianstad.se (193.17.67.250)
+  6.544: kristianstad.se INFO Parent glue for kristianstad.se found: dns2.kristianstad.se (193.17.67.249)
+  6.552: kristianstad.se INFO Checking glue for dns.kristianstad.se (193.17.67.250).
+  6.574: kristianstad.se INFO Child glue for kristianstad.se found: dns.kristianstad.se (193.17.67.250)
+  6.574: kristianstad.se INFO Checking glue for dns2.kristianstad.se (193.17.67.249).
+  6.595: kristianstad.se INFO Child glue for kristianstad.se found: dns2.kristianstad.se (193.17.67.249)
+  6.595: kristianstad.se INFO Parent glue for kristianstad.se found: dns.kristianstad.se (193.17.67.250)
+  6.596: kristianstad.se INFO Parent glue for kristianstad.se found: dns2.kristianstad.se (193.17.67.249)
+  6.596: kristianstad.se INFO Done testing delegation for kristianstad.se.
+  6.596: kristianstad.se INFO Begin testing name server dns.kristianstad.se.
+  6.596: kristianstad.se INFO Begin testing host dns.kristianstad.se.
+  6.597: kristianstad.se INFO Begin testing address 193.17.67.250.
+ 14.023: kristianstad.se INFO Done testing address 193.17.67.250.
+ 14.023: kristianstad.se INFO Done testing host dns.kristianstad.se.
+ 14.046: kristianstad.se INFO Name server dns.kristianstad.se (193.17.67.250) answers queries over UDP.
+ 14.089: kristianstad.se INFO Name server dns.kristianstad.se (193.17.67.250) answers queries over TCP.
+ 14.164: kristianstad.se WARNING Name server dns.kristianstad.se (193.17.67.250) is recursive.
+ 14.186: kristianstad.se INFO Name server dns.kristianstad.se (193.17.67.250) authoritative for kristianstad.se.
+ 14.440: kristianstad.se INFO Name server dns.kristianstad.se (193.17.67.250) closed for zone transfer of kristianstad.se.
+ 14.463: kristianstad.se NOTICE No answer received from 193.17.67.250 when querying for hostname.bind/CH/TXT.
+ 32.535: kristianstad.se INFO Done testing name server dns.kristianstad.se.
+ 32.536: kristianstad.se INFO Begin testing name server dns2.kristianstad.se.
+ 32.536: kristianstad.se INFO Begin testing host dns2.kristianstad.se.
+ 32.536: kristianstad.se INFO Begin testing address 193.17.67.249.
+ 33.045: kristianstad.se INFO Done testing address 193.17.67.249.
+ 33.045: kristianstad.se INFO Done testing host dns2.kristianstad.se.
+ 33.071: kristianstad.se INFO Name server dns2.kristianstad.se (193.17.67.249) answers queries over UDP.
+ 33.111: kristianstad.se INFO Name server dns2.kristianstad.se (193.17.67.249) answers queries over TCP.
+ 33.308: kristianstad.se WARNING Name server dns2.kristianstad.se (193.17.67.249) is recursive.
+ 33.330: kristianstad.se INFO Name server dns2.kristianstad.se (193.17.67.249) authoritative for kristianstad.se.
+ 33.592: kristianstad.se INFO Name server dns2.kristianstad.se (193.17.67.249) closed for zone transfer of kristianstad.se.
+ 33.613: kristianstad.se NOTICE No answer received from 193.17.67.249 when querying for hostname.bind/CH/TXT.
+ 50.683: kristianstad.se INFO Done testing name server dns2.kristianstad.se.
+ 50.684: kristianstad.se INFO Begin testing zone consistency for kristianstad.se.
+ 50.707: kristianstad.se INFO SOA at address 193.17.67.249 has serial 1998031692.
+ 50.728: kristianstad.se INFO SOA at address 193.17.67.250 has serial 1998031692.
+ 50.728: kristianstad.se INFO All SOA records have consistent serial numbers.
+ 50.728: kristianstad.se INFO All SOA records are consistent among all name servers.
+ 50.728: kristianstad.se INFO Done testing zone consistency for kristianstad.se.
+ 50.728: kristianstad.se INFO Begin testing SOA parameters for kristianstad.se.
+ 50.750: kristianstad.se INFO Found SOA record for kristianstad.se.
+ 50.750: kristianstad.se INFO Begin testing host dns.kristianstad.se.
+ 50.750: kristianstad.se INFO Begin testing address 193.17.67.250.
+ 50.752: kristianstad.se INFO Done testing address 193.17.67.250.
+ 50.752: kristianstad.se INFO Done testing host dns.kristianstad.se.
+ 50.752: kristianstad.se INFO SOA MNAME for kristianstad.se valid (dns.kristianstad.se).
+ 50.752: kristianstad.se INFO SOA MNAME for kristianstad.se (dns.kristianstad.se) listed as NS.
+ 50.774: kristianstad.se INFO SOA MNAME for kristianstad.se (dns.kristianstad.se) is authoritative.
+ 50.774: kristianstad.se INFO Begin testing email address dnsmaster@kristianstad.se.
+ 51.010: kristianstad.se INFO Mail exchangers for dnsmaster@kristianstad.se found fm.gw.kristianstad.se.
+ 51.010: kristianstad.se INFO All mail servers for dnsmaster@kristianstad.se are in zone kristianstad.se.
+ 51.010: kristianstad.se INFO Begin testing host fm.gw.kristianstad.se.
+ 51.457: kristianstad.se INFO Begin testing address 192.121.255.20.
+ 65.681: kristianstad.se INFO Done testing address 192.121.255.20.
+ 65.681: kristianstad.se INFO Done testing host fm.gw.kristianstad.se.
+ 65.682: kristianstad.se INFO Begin testing mail server fm.gw.kristianstad.se (192.121.255.20) with dnsmaster@kristianstad.se.
+ 65.752: kristianstad.se INFO SMTP banner: sknomailgw.hassleholm.se ESMTP Smtpd; Mon, 13 Dec 2010 20:09:52 +0100
+ 65.825: kristianstad.se INFO SMTP testing of fm.gw.kristianstad.se (192.121.255.20) with dnsmaster@kristianstad.se succeeded without errors.
+ 65.825: kristianstad.se INFO Done testing mail server fm.gw.kristianstad.se (192.121.255.20) with dnsmaster@kristianstad.se.
+ 65.825: kristianstad.se INFO Delivery over IPv4 to dnsmaster@kristianstad.se ok.
+ 65.825: kristianstad.se INFO Delivery over IPv6 to dnsmaster@kristianstad.se could not be done.
+ 65.825: kristianstad.se INFO Done testing email address dnsmaster@kristianstad.se.
+ 65.826: kristianstad.se INFO Successful attempt to deliver email for SOA RNAME of kristianstad.se (dnsmaster.kristianstad.se) using dnsmaster@kristianstad.se.
+ 65.826: kristianstad.se INFO SOA TTL for kristianstad.se OK (3600) - recommended >= 3600.
+ 65.826: kristianstad.se INFO SOA refresh for kristianstad.se OK (14400) - recommended >= 14400.
+ 65.826: kristianstad.se INFO SOA retry for kristianstad.se OK (3600) - recommended >= 3600.
+ 65.826: kristianstad.se INFO SOA expire for kristianstad.se OK (604800) - recommended >= 604800.
+ 65.826: kristianstad.se INFO SOA minimum for kristianstad.se OK (3600) - recommended between 300 and 86400.
+ 65.826: kristianstad.se INFO Done testing SOA parameters for kristianstad.se.
+ 65.826: kristianstad.se INFO Begin testing connectivity for kristianstad.se.
+ 66.424: kristianstad.se INFO Name server 193.17.67.249 announced by: 3301
+ 66.940: kristianstad.se INFO Name server 193.17.67.250 announced by: 3301
+ 66.940: kristianstad.se INFO Zone announced by IPv4 ASN: 3301
+ 66.940: kristianstad.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 66.940: kristianstad.se INFO Zone announced by IPv6 ASN: 
+ 66.940: kristianstad.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 66.941: kristianstad.se INFO Done testing connectivity for kristianstad.se.
+ 66.941: kristianstad.se INFO Begin testing DNSSEC for kristianstad.se.
+ 67.016: kristianstad.se INFO Did not find DS record for kristianstad.se at parent.
+ 67.058: kristianstad.se INFO Nameserver 193.17.67.249 does DNSSEC extra processing.
+ 67.101: kristianstad.se INFO Nameserver 193.17.67.250 does DNSSEC extra processing.
+ 67.101: kristianstad.se INFO Servers for kristianstad.se have consistent extra processing status.
+ 67.101: kristianstad.se INFO Found DNSKEY record for kristianstad.se at child.
+ 67.101: kristianstad.se NOTICE Broken chain of trust for kristianstad.se - DNSKEY found at child, but no DS was found at parent.
+ 67.101: kristianstad.se INFO Checking DNSSEC at child (kristianstad.se).
+ 67.102: kristianstad.se INFO kristianstad.se's key with tag 9073 uses algorithm number 5 (RSA/SHA-1).
+ 67.102: kristianstad.se INFO Algorithm number 5 is OK.
+ 67.102: kristianstad.se INFO DNSKEY kristianstad.se (tag 9073) is marked as a secure entry point (SEP).
+ 67.102: kristianstad.se INFO kristianstad.se's key with tag 14875 uses algorithm number 5 (RSA/SHA-1).
+ 67.102: kristianstad.se INFO Algorithm number 5 is OK.
+ 67.103: kristianstad.se INFO DNSSEC signature expires at: Wed Dec 28 13:52:47 2011
+ 67.105: kristianstad.se INFO DNSSEC signature RRSIG(kristianstad.se/IN/DNSKEY/9073) matches records.
+ 67.105: kristianstad.se INFO DNSSEC signature valid: RRSIG(kristianstad.se/IN/DNSKEY/9073)
+ 67.105: kristianstad.se INFO DNSSEC signature expires at: Sun Jan  2 13:52:47 2011
+ 67.106: kristianstad.se INFO DNSSEC signature RRSIG(kristianstad.se/IN/DNSKEY/14875) matches records.
+ 67.106: kristianstad.se INFO DNSSEC signature valid: RRSIG(kristianstad.se/IN/DNSKEY/14875)
+ 67.106: kristianstad.se INFO Enough valid signatures found for kristianstad.se.
+ 67.148: kristianstad.se INFO DNSSEC signature expires at: Sun Jan  2 13:52:47 2011
+ 67.149: kristianstad.se WARNING DNSSEC signature RRSIG(kristianstad.se/IN/SOA/14875) does not match the records it signs: key 1: keytag does not match key 2:RSA Verification failed 
+ 67.149: kristianstad.se WARNING Not enough valid signatures over SOA RRset found for kristianstad.se.
+ 67.149: kristianstad.se INFO DNSSEC child checks for kristianstad.se complete.
+ 67.150: kristianstad.se INFO Done testing DNSSEC for kristianstad.se.
+ 67.150: kristianstad.se INFO Test completed for zone kristianstad.se.

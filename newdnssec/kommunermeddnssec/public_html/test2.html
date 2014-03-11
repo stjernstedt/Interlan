@@ -1,0 +1,422 @@
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<html>
+	<head>
+		<style>
+			body{
+				font-family: Arial, tahoma, verdana, arial;
+			}
+			.mainContainer{
+				background: url('bg.gif');
+				font-size: 12px;
+			}
+
+			.dom{
+				/*background-color: #FF00FF; */
+			}
+			.okdom{
+				background-color: #A0FFA0;
+			}
+			.errorDom{
+				background-color: #FF0000;
+			}
+			.warningDom{
+				background-color: #FFA500;
+			}
+			.dom, .okdom, .warningDom, .errorDom{
+				/*border: 1px solid black;*/
+				padding: 2px;
+				width: 145px;
+				margin: 1px;
+				overflow: hidden;
+				float: left;
+				height: 20px;
+			}
+
+			h1, h2, h3, h4, h5, h6{
+				border-bottom: 1px solid #b0b0b0;
+			}
+			.contact{
+				text-style: uppercase;
+			}
+			.subContainer{
+				margin-botton: 42px;
+			}
+
+			a{
+				color: #0000FF;
+				text-decoration: none;
+			}
+			a:hover{
+				color: #0000FF;
+				text-decoration: underline;
+			}
+
+		</style>
+		<title>Kommuner med DNSSEC</title>
+		<script type="text/javascript">
+			function showHover(e, txt){
+				if( e == null ) e = window.event;
+				if(e.pageX == null ) e.pageX = e.clientX;
+				if(e.pageY == null ) e.pageY = e.clientY + document.body.scrollTop;
+				//alert(e.pageX);
+
+				var o = document.getElementById("hoverDiv");
+				o.innerHTML = txt;
+				o.style.left = (e.pageX+20) + "px";
+				o.style.top = (e.pageY+12) + "px";
+				o.style.visibility = "visible";
+			}
+			function hideHover(){
+				var o = document.getElementById("hoverDiv");
+				o.style.visibility = "hidden";
+			}
+		</script>
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-10643709-2");
+		pageTracker._trackPageview();
+		} catch(err) {}</script>
+	</head>
+	<body>
+		<div class="mainContainer" style="padding:20px;border:1px solid #e0e0e0;position:absolute;left:50%;width:800px;margin-left:-400px;margin-top:50px">
+			<h1>Kommuner med DNSSEC</h1>
+			<div class="subContainer">
+				<p><b>kommunermeddnssec.se</b> är en fristående hemsida som listar alla kommundomäners hälsa och visar om de är signerade med <b><a href=http://en.wikipedia.org/wiki/DNSSEC>DNSSEC</a> </b>eller inte.<br>
+<br><i>En <a href=http://opensource.iis.se/trac/dnscheck>DNSCheck</a> mot 300 kommundomäner 2010-01-31 19:00 gav 123 rekursiva DNS'er och DNSCheck hittade även 159 ERROR och 336 WARNINGS
+<br>5 domäner har bara en DNS<br></i>
+				<br><i>Kontakt: tobbe (a] <a href=http://www.interlan.se>interlan</a> punkt se</i><br>
+				Se även <h href=http://www.iis.se><b>.SE</b></a>'s <a href=http://fou.iis.se/dnsseckommun/>geografiska spridning av DNSSEC</a> eller systersidan <a href=http://www.kommunermedipv6.se>www.kommunermedipv6.se</a>
+
+			</div>
+
+			<h2>Domäner</h2>
+			<div>
+
+				<table cellspacing="3" cellpadding="2" style="margin-bottom:7px;border:1px solid black;font: 11px verdana">
+					<tr><td style="background-color:#A0FFA0;width:145px;height:20px"><img src="tick.png"/>&nbsp;domän</td><td>Signerad med DNSSEC och utan fel</td></tr>
+					<tr><td style="background-color:#FFA500;height:20px"><img src="tick.png"/>&nbsp;domän</td><td>Signerad med DNSSEC men med varning</td></tr>
+					<tr><td style="background-color:#FFA500;height:20px">domän</td><td>Varning i DNSCheck</td></tr>
+					<tr><td style="background-color:#FF0000;height:20px">domän</td><td>Fel i DNSCheck</td></tr>
+					<tr><td style="background-color:#FFFFFF;height:20px">domän</td><td>Utan anmärkning i DNSCheck men inte signerad</td></tr>
+				</table>
+
+			</div>
+			<div class="subContainer">
+				<i>Uppdaterad Mon Feb  1 15:09:57 CET 2010
+</i><br/>
+				13 av 300 domäner säkrade<br/>
+
+<div class="dom"><a href="http://www.ale.se" onmouseover="showHover(event, 'postmaster [at] ale.se<br/>ystad.dns.swip.net<br/>dist.ale.se<br/>')" onmouseout="hideHover()" title="">ale.se</a></div>
+<div class="warningDom"><a href="http://www.alingsas.se" onmouseover="showHover(event, 'root [at] alingsas.se<br/>Rekursiv<br/>Warning (2)<br/>nic2.gota.net<br/>nic.alingsas.se<br/>')" onmouseout="hideHover()" title="">alingsas.se</a></div>
+<div class="dom"><a href="http://www.alvesta.se" onmouseover="showHover(event, 'hostmaster [at] alvesta.se<br/>dns.alvesta.se<br/>a.dns.tdc.se<br/>b.dns.tdc.se<br/>')" onmouseout="hideHover()" title="">alvesta.se</a></div>
+<div class="dom"><a href="http://www.alvesta.se" onmouseover="showHover(event, 'hostmaster [at] alvesta.se<br/>dns.alvesta.se<br/>a.dns.tdc.se<br/>b.dns.tdc.se<br/>')" onmouseout="hideHover()" title="">alvesta.se</a></div>
+<div class="dom"><a href="http://www.aneby.se" onmouseover="showHover(event, 'itchefen [at] aneby.se<br/>ns2.ascio.com<br/>ns1.ascio.com<br/>')" onmouseout="hideHover()" title="">aneby.se</a></div>
+<div class="dom"><a href="http://www.arboga.se" onmouseover="showHover(event, 'hostmaster [at] arboga.se<br/>ns2.compose.se<br/>web1-srv.arboga.se<br/>')" onmouseout="hideHover()" title="">arboga.se</a></div>
+<div class="warningDom"><a href="http://www.arjeplog.se" onmouseover="showHover(event, 'hostmaster [at] ns.arjeplog.se<br/>Warning (2)<br/>ns.arjeplog.se<br/>dns1.telia.com<br/>')" onmouseout="hideHover()" title="">arjeplog.se</a></div>
+<div class="dom"><a href="http://www.arvidsjaur.se" onmouseover="showHover(event, 'root [at] arvidsjaur.se<br/>dns5.telia.com<br/>dns.arvidsjaur.se<br/>')" onmouseout="hideHover()" title="">arvidsjaur.se</a></div>
+<div class="dom"><a href="http://www.arvika.se" onmouseover="showHover(event, 'hostmaster [at] arvika.se<br/>dns5.telia.com<br/>ns2.arvika.se<br/>ns1.arvika.se<br/>')" onmouseout="hideHover()" title="">arvika.se</a></div>
+<div class="errorDom"><a href="http://www.askersund.se" onmouseover="showHover(event, 'support [at] hallsberg.se<br/>Rekursiv<br/>Error (1)<br/>Warning (3)<br/>dns5.telia.com<br/>dns1.hallsberg.se<br/>')" onmouseout="hideHover()" title="">askersund.se</a></div>
+<div class="dom"><a href="http://www.avesta.se" onmouseover="showHover(event, 'postmaster [at] avesta.se<br/>dns6.telia.com<br/>ns.avesta.se<br/>')" onmouseout="hideHover()" title="">avesta.se</a></div>
+<div class="errorDom"><a href="http://www.bengtsfors.se" onmouseover="showHover(event, 'hostmaster [at] mellerud.se<br/>Rekursiv<br/>Error (1)<br/>Warning (3)<br/>public.bengtsfors.se<br/>ns2.dalsnet.se<br/>ns1.dalsnet.se<br/>')" onmouseout="hideHover()" title="">bengtsfors.se</a></div>
+<div class="dom"><a href="http://www.berg.se" onmouseover="showHover(event, 'dns [at] telia.net<br/>dns4.telia.com<br/>dns3.telia.com<br/>')" onmouseout="hideHover()" title="">berg.se</a></div>
+<div class="warningDom"><a href="http://www.bjurholm.se" onmouseover="showHover(event, 'hostmaster [at] ns.bjurholm.se<br/>Rekursiv<br/>Warning (4)<br/>ns.bjurholm.se<br/>dns.umea.se<br/>')" onmouseout="hideHover()" title="">bjurholm.se</a></div>
+<div class="dom"><a href="http://www.bjuv.se" onmouseover="showHover(event, 'dns [at] telia.net<br/>dns3.telia.com<br/>dns4.telia.com<br/>')" onmouseout="hideHover()" title="">bjuv.se</a></div>
+<div class="warningDom"><a href="http://www.boden.se" onmouseover="showHover(event, 'postmaster [at] boden.se<br/>Rekursiv<br/>Warning (3)<br/>ns2.boden.se<br/>ns.boden.se<br/>ns4.norrnet.com<br/>')" onmouseout="hideHover()" title="">boden.se</a></div>
+<div class="errorDom"><a href="http://www.bollebygd.se" onmouseover="showHover(event, 'postmaster [at] bollebygd.se<br/>Rekursiv<br/>Error (3)<br/>Warning (1)<br/>dns1.telia.com<br/>index.bollebygd.se<br/>')" onmouseout="hideHover()" title="">bollebygd.se</a></div>
+<div class="okdom"><a href="http://www.bollnas.se" onmouseover="showHover(event, 'registry [at] interlan.se<br/>ns3.interlan.se<br/>ns.interlan.se<br/>')" onmouseout="hideHover()" title=""><img src="tick.png" style="width:16px;height:16px;border:0px"/>&nbsp;bollnas.se</a></div>
+<div class="dom"><a href="http://www.borgholm.se" onmouseover="showHover(event, 'shn [at] borgholm.se<br/>dns5.telia.com<br/>bhmg.borgholm.se<br/>')" onmouseout="hideHover()" title="">borgholm.se</a></div>
+<div class="warningDom"><a href="http://www.borlange.se" onmouseover="showHover(event, 'hostmaster [at] borlange.se<br/>Warning (3)<br/>ns1.borlange.se<br/>ns2.borlangestadsnat.se<br/>ns2.borlange.se<br/>mailman.borlange.se<br/>')" onmouseout="hideHover()" title="">borlange.se</a></div>
+<div class="dom"><a href="http://www.boras.se" onmouseover="showHover(event, 'hostmaster [at] boras.se<br/>pitea.dns.swip.net<br/>dns1.telia.com<br/>bill.boras.se<br/>bull.boras.se<br/>')" onmouseout="hideHover()" title="">boras.se</a></div>
+<div class="dom"><a href="http://www.botkyrka.se" onmouseover="showHover(event, 'hostmaster [at] botkyrka.se<br/>dns1.botkyrka.se<br/>ns2.telenor.se<br/>')" onmouseout="hideHover()" title="">botkyrka.se</a></div>
+<div class="dom"><a href="http://www.boxholm.se" onmouseover="showHover(event, 'noc [at] vokby.se<br/>ns1.vokby.se<br/>ns2.vokby.se<br/>')" onmouseout="hideHover()" title="">boxholm.se</a></div>
+<div class="warningDom"><a href="http://www.bromolla.se" onmouseover="showHover(event, 'root [at] bromolla.se<br/>Rekursiv<br/>Warning (4)<br/>ns.bromolla.se<br/>malmoe.dns.swip.net<br/>ns.solvesborg.se<br/>')" onmouseout="hideHover()" title="">bromolla.se</a></div>
+<div class="dom"><a href="http://www.bracke.se" onmouseover="showHover(event, 'hostmaster [at] nettica.com<br/>dns2.nettica.com<br/>dns5.nettica.com<br/>dns4.nettica.com<br/>dns1.nettica.com<br/>dns3.nettica.com<br/>')" onmouseout="hideHover()" title="">bracke.se</a></div>
+<div class="errorDom"><a href="http://www.burlov.se" onmouseover="showHover(event, 'hostmaster [at] burlov.se<br/>Error (4)<br/>malmoe.dns.swip.net<br/>kista.dns.swip.net<br/>ns.burlov.se<br/>')" onmouseout="hideHover()" title="">burlov.se</a></div>
+<div class="warningDom"><a href="http://www.bastad.se" onmouseover="showHover(event, 'hostmaster [at] ns.bastad.se<br/>Rekursiv<br/>Warning (4)<br/>ns2.bjare.net<br/>ns.bastad.se<br/>')" onmouseout="hideHover()" title="">bastad.se</a></div>
+<div class="errorDom"><a href="http://www.dalsed.se" onmouseover="showHover(event, 'hostmaster [at] mellerud.se<br/>Rekursiv<br/>Error (2)<br/>Warning (2)<br/>ns2.dalsnet.se<br/>ns1.dalsnet.se<br/>')" onmouseout="hideHover()" title="">dalsed.se</a></div>
+<div class="dom"><a href="http://www.danderyd.se" onmouseover="showHover(event, 'hostmaster [at] excedo.se<br/>ns4.p21.dynect.net<br/>ns2.p21.dynect.net<br/>ns3.p21.dynect.net<br/>ns1.p21.dynect.net<br/>')" onmouseout="hideHover()" title="">danderyd.se</a></div>
+<div class="errorDom"><a href="http://www.degerfors.se" onmouseover="showHover(event, 'hostmaster [at] ns.degerfors.se<br/>Rekursiv<br/>Error (2)<br/>Warning (4)<br/>ns02.degerfors.se<br/>ns.degerfors.se<br/>')" onmouseout="hideHover()" title="">degerfors.se</a></div>
+<div class="dom"><a href="http://www.dorotea.se" onmouseover="showHover(event, 'linda [at] dorotea.se<br/>ns2.dorotea.se<br/>dns.umea.se<br/>ns.dorotea.se<br/>')" onmouseout="hideHover()" title="">dorotea.se</a></div>
+<div class="errorDom"><a href="http://www.eda.se" onmouseover="showHover(event, 'hostmaster [at] ns.eda.se<br/>Error (3)<br/>Warning (3)<br/>nic.enator.net<br/>ns.eda.se<br/>')" onmouseout="hideHover()" title="">eda.se</a></div>
+<div class="dom"><a href="http://www.ekero.se" onmouseover="showHover(event, 'registry [at] swip.net<br/>dns5.telia.com<br/>orebro.dns.swip.net<br/>ystad.dns.swip.net<br/>')" onmouseout="hideHover()" title="">ekero.se</a></div>
+<div class="dom"><a href="http://www.eksjo.se" onmouseover="showHover(event, 'postmaster [at] eksjo.se<br/>ns.pulsen.se<br/>naphtali.eksjo.se<br/>')" onmouseout="hideHover()" title="">eksjo.se</a></div>
+<div class="dom"><a href="http://www.emmaboda.se" onmouseover="showHover(event, 'dns [at] telia.net<br/>dns4.telia.com<br/>dns3.telia.com<br/>')" onmouseout="hideHover()" title="">emmaboda.se</a></div>
+<div class="dom"><a href="http://www.enkoping.se" onmouseover="showHover(event, 'root [at] enkoping.se<br/>enkkomdns.lidnet.net<br/>dns1.enkoping.se<br/>')" onmouseout="hideHover()" title="">enkoping.se</a></div>
+<div class="warningDom"><a href="http://www.eskilstuna.se" onmouseover="showHover(event, 'root [at] eskilstuna.se<br/>Rekursiv<br/>Warning (4)<br/>ns.eskilstuna.se<br/>dns2.utfors.se<br/>')" onmouseout="hideHover()" title="">eskilstuna.se</a></div>
+<div class="warningDom"><a href="http://www.eslov.se" onmouseover="showHover(event, 'helpdesk [at] eslov.se<br/>Rekursiv<br/>Warning (1)<br/>umbrella.eslov.se<br/>malmoe.dns.swip.net<br/>kista.dns.swip.net<br/>')" onmouseout="hideHover()" title="">eslov.se</a></div>
+<div class="errorDom"><a href="http://www.essunga.se" onmouseover="showHover(event, 'postmaster [at] essunga.se<br/>Rekursiv<br/>Error (2)<br/>Warning (1)<br/>dns5.telia.com<br/>ns1.essunga.se<br/>')" onmouseout="hideHover()" title="">essunga.se</a></div>
+<div class="dom"><a href="http://www.fagersta.se" onmouseover="showHover(event, 'administrator [at] fagersta.se<br/>dns2.telia.com<br/>kista.dns.swip.net<br/>dns.fagersta.se<br/>')" onmouseout="hideHover()" title="">fagersta.se</a></div>
+<div class="warningDom"><a href="http://www.falkenberg.se" onmouseover="showHover(event, 'hostmaster [at] ecedata.se<br/>Rekursiv<br/>Warning (3)<br/>dns1.ecedata.se<br/>dns2.ecedata.se<br/>')" onmouseout="hideHover()" title="">falkenberg.se</a></div>
+<div class="dom"><a href="http://www.falkoping.se" onmouseover="showHover(event, 'hostmaster [at] falkoping.se<br/>ns1.falkoping.se<br/>dns5.telia.com<br/>')" onmouseout="hideHover()" title="">falkoping.se</a></div>
+<div class="errorDom"><a href="http://www.falun.se" onmouseover="showHover(event, 'hostmaster [at] falun.se<br/>Error (2)<br/>ns.falun.se<br/>ns-fi.sn.net<br/>a.dns.tdc.se<br/>')" onmouseout="hideHover()" title="">falun.se</a></div>
+<div class="errorDom"><a href="http://www.filipstad.se" onmouseover="showHover(event, 'root [at] waccess01.filipstad.se<br/>Rekursiv<br/>Error (3)<br/>Warning (3)<br/>fdsrv1.filipstad.se<br/>')" onmouseout="hideHover()" title="">filipstad.se</a></div>
+<div class="dom"><a href="http://www.finspong.se" onmouseover="showHover(event, 'hostmaster [at] finspong.com<br/>ns.finet.se<br/>ns.wineasy.se<br/>')" onmouseout="hideHover()" title="">finspong.se</a></div>
+<div class="dom"><a href="http://www.finspang.se" onmouseover="showHover(event, 'registry [at] ports.net<br/>edns01.ports.net<br/>edns03.ports.net<br/>')" onmouseout="hideHover()" title="">finspang.se</a></div>
+<div class="dom"><a href="http://www.flen.se" onmouseover="showHover(event, 'admin [at] flen.se<br/>ns1.flen.se<br/>dns5.telia.com<br/>')" onmouseout="hideHover()" title="">flen.se</a></div>
+<div class="dom"><a href="http://www.forshaga.se" onmouseover="showHover(event, 'dns [at] telia.net<br/>dns3.telia.com<br/>dns4.telia.com<br/>')" onmouseout="hideHover()" title="">forshaga.se</a></div>
+<div class="warningDom"><a href="http://www.fargelanda.se" onmouseover="showHover(event, 'registry [at] fargelanda.se<br/>Warning (1)<br/>burn.lindesign.se<br/>strongbow.fargelanda.se<br/>')" onmouseout="hideHover()" title="">fargelanda.se</a></div>
+<div class="dom"><a href="http://www.gagnef.se" onmouseover="showHover(event, 'registry [at] glidecom.net<br/>ns5.glidecom.net<br/>ns7.glidecom.net<br/>ns6.glidecom.net<br/>')" onmouseout="hideHover()" title="">gagnef.se</a></div>
+<div class="dom"><a href="http://www.gislaved.se" onmouseover="showHover(event, 'registry [at] biggnet.net<br/>ns1.biggnet.net<br/>ns2.biggnet.net<br/>')" onmouseout="hideHover()" title="">gislaved.se</a></div>
+<div class="dom"><a href="http://www.gnesta.se" onmouseover="showHover(event, 'postmaster [at] gnesta.se<br/>dns2.telia.com<br/>ns.gnesta.se<br/>')" onmouseout="hideHover()" title="">gnesta.se</a></div>
+<div class="dom"><a href="http://www.gnosjo.se" onmouseover="showHover(event, 'itavdelningen [at] gnosjo.se<br/>ns1.gnosjo.se<br/>ns2.biggnet.net<br/>')" onmouseout="hideHover()" title="">gnosjo.se</a></div>
+<div class="warningDom"><a href="http://www.gotland.se" onmouseover="showHover(event, 'hostmaster [at] ns.gotland.se<br/>Rekursiv<br/>Warning (7)<br/>dns6.telia.com<br/>ns.gotland.se<br/>')" onmouseout="hideHover()" title="">gotland.se</a></div>
+<div class="dom"><a href="http://www.grums.se" onmouseover="showHover(event, 'bur [at] grums.se<br/>dns2.telia.com<br/>gru-dns.grums.se<br/>')" onmouseout="hideHover()" title="">grums.se</a></div>
+<div class="warningDom"><a href="http://www.grastorp.se" onmouseover="showHover(event, 'domain [at] udac.se<br/>Rekursiv<br/>Warning (2)<br/>solix.udac.se<br/>ns1.udac.se<br/>')" onmouseout="hideHover()" title="">grastorp.se</a></div>
+<div class="errorDom"><a href="http://www.gullspang.se" onmouseover="showHover(event, 'hostmaster [at] ns.mariestad.se<br/>Rekursiv<br/>Error (4)<br/>Warning (7)<br/>ns.gullspang.se<br/>ns1.mteab.net<br/>ns.mariestad.se<br/>')" onmouseout="hideHover()" title="">gullspang.se</a></div>
+<div class="errorDom"><a href="http://www.gellivare.se" onmouseover="showHover(event, 'hostmaster [at] gellivare.se<br/>Error (2)<br/>ns2.gellivare.se<br/>ns1.gellivare.se<br/>')" onmouseout="hideHover()" title="">gellivare.se</a></div>
+<div class="errorDom"><a href="http://www.gellivare.se" onmouseover="showHover(event, 'hostmaster [at] gellivare.se<br/>Error (2)<br/>ns1.gellivare.se<br/>ns2.gellivare.se<br/>')" onmouseout="hideHover()" title="">gellivare.se</a></div>
+<div class="okdom"><a href="http://www.gavle.se" onmouseover="showHover(event, 'hostmaster [at] gavle.se<br/>ns.gavle.se<br/>ns2.gavlenet.com<br/>')" onmouseout="hideHover()" title=""><img src="tick.png" style="width:16px;height:16px;border:0px"/>&nbsp;gavle.se</a></div>
+<div class="dom"><a href="http://www.goteborg.se" onmouseover="showHover(event, 'hostmaster [at] goteborg.se<br/>ns2.goteborg.se<br/>dns2.utfors.se<br/>ns.goteborg.se<br/>')" onmouseout="hideHover()" title="">goteborg.se</a></div>
+<div class="dom"><a href="http://www.goteborg.se" onmouseover="showHover(event, 'hostmaster [at] goteborg.se<br/>ns.goteborg.se<br/>ns2.goteborg.se<br/>dns2.utfors.se<br/>')" onmouseout="hideHover()" title="">goteborg.se</a></div>
+<div class="dom"><a href="http://www.gotene.se" onmouseover="showHover(event, 'root [at] gotene.se<br/>dns1.fastbit.se<br/>dns2.fastbit.se<br/>')" onmouseout="hideHover()" title="">gotene.se</a></div>
+<div class="warningDom"><a href="http://www.habokommun.se" onmouseover="showHover(event, 'registry [at] habo.net<br/>Rekursiv<br/>Warning (1)<br/>ns.habo.net<br/>pegasus.habo.net<br/>')" onmouseout="hideHover()" title="">habokommun.se</a></div>
+<div class="warningDom"><a href="http://www.hagfors.se" onmouseover="showHover(event, 'hostmaster [at] ns.hagfors.se<br/>Rekursiv<br/>Warning (1)<br/>dns5.telia.com<br/>ns.hagfors.se<br/>')" onmouseout="hideHover()" title="">hagfors.se</a></div>
+<div class="errorDom"><a href="http://www.hallsberg.se" onmouseover="showHover(event, 'support [at] hallsberg.se<br/>Rekursiv<br/>Error (1)<br/>Warning (3)<br/>kista.dns.swip.net<br/>dns1.hallsberg.se<br/>dns2.telia.com<br/>')" onmouseout="hideHover()" title="">hallsberg.se</a></div>
+<div class="warningDom"><a href="http://www.hallstahammar.se" onmouseover="showHover(event, 'administrator [at] hallstahammar.se<br/>Warning (5)<br/>ns.vasteras.se<br/>orebro.dns.swip.net<br/>')" onmouseout="hideHover()" title="">hallstahammar.se</a></div>
+<div class="dom"><a href="http://www.halmstad.se" onmouseover="showHover(event, 'hostmaster [at] ascio.net<br/>ns3.ascio.net<br/>ns2.ascio.net<br/>ns1.ascio.net<br/>')" onmouseout="hideHover()" title="">halmstad.se</a></div>
+<div class="warningDom"><a href="http://www.hammaro.se" onmouseover="showHover(event, 'root [at] hammaro.se<br/>Warning (4)<br/>ns.hammaro.se<br/>a.dns.songnetworks.se<br/>b.dns.songnetworks.se<br/>')" onmouseout="hideHover()" title="">hammaro.se</a></div>
+<div class="errorDom"><a href="http://www.haninge.se" onmouseover="showHover(event, 'admin [at] haninge.se<br/>Error (4)<br/>ah35.haninge.se<br/>')" onmouseout="hideHover()" title="">haninge.se</a></div>
+<div class="dom"><a href="http://www.haparanda.se" onmouseover="showHover(event, 'root [at] haparanda.se<br/>ns.haparanda.se<br/>yggdrasil.haparanda.se<br/>')" onmouseout="hideHover()" title="">haparanda.se</a></div>
+<div class="warningDom"><a href="http://www.heby.se" onmouseover="showHover(event, 'domain [at] udac.se<br/>Rekursiv<br/>Warning (2)<br/>ns1.udac.se<br/>ns2.drift.systeam.se<br/>ns3.udac.net<br/>')" onmouseout="hideHover()" title="">heby.se</a></div>
+<div class="errorDom"><a href="http://www.hedemora.se" onmouseover="showHover(event, 'hostmaster [at] hedemora.se<br/>Error (1)<br/>ns2.borlangestadsnat.se<br/>ns4.cepus.net<br/>ns.borlangestadsnat.se<br/>')" onmouseout="hideHover()" title="">hedemora.se</a></div>
+<div class="errorDom"><a href="http://www.helsingborg.se" onmouseover="showHover(event, 'registry [at] oresundskraft.se<br/>Error (2)<br/>ns1.oresundskraft.se<br/>dns2.telia.com<br/>hbgstad.helsingborg.se<br/>')" onmouseout="hideHover()" title="">helsingborg.se</a></div>
+<div class="warningDom"><a href="http://www.herrljunga.se" onmouseover="showHover(event, 'hostmaster [at] jra.se<br/>Rekursiv<br/>Warning (3)<br/>dns2.jra.se<br/>ns.tranemo.se<br/>dns1.jra.se<br/>')" onmouseout="hideHover()" title="">herrljunga.se</a></div>
+<div class="dom"><a href="http://www.hjo.se" onmouseover="showHover(event, 'joheks [at] invid.se<br/>ns.invid.se<br/>ns3.invid.se<br/>')" onmouseout="hideHover()" title="">hjo.se</a></div>
+<div class="errorDom"><a href="http://www.hofors.se" onmouseover="showHover(event, 'admin [at] hofors.se<br/>Error (1)<br/>ns2.hofors.se<br/>ns.hofors.se<br/>')" onmouseout="hideHover()" title="">hofors.se</a></div>
+<div class="dom"><a href="http://www.huddinge.se" onmouseover="showHover(event, 'dns [at] telia.net<br/>dns4.telia.com<br/>dns3.telia.com<br/>')" onmouseout="hideHover()" title="">huddinge.se</a></div>
+<div class="errorDom"><a href="http://www.hudiksvall.se" onmouseover="showHover(event, 'hostmaster [at] hudiksvall.se<br/>Error (2)<br/>Warning (2)<br/>ns1.hudiknet.nu<br/>ns.hudiksvall.se<br/>')" onmouseout="hideHover()" title="">hudiksvall.se</a></div>
+<div class="dom"><a href="http://www.hultsfred.se" onmouseover="showHover(event, 'postmaster [at] hultsfred.se<br/>hkdns2.hultsfred.se<br/>hkdns1.hultsfred.se<br/>dns6.telia.com<br/>')" onmouseout="hideHover()" title="">hultsfred.se</a></div>
+<div class="errorDom"><a href="http://www.hylte.se" onmouseover="showHover(event, 'webmaster [at] hylte.se<br/>Error (5)<br/>dns.hylte.se<br/>dns2.telia.com<br/>')" onmouseout="hideHover()" title="">hylte.se</a></div>
+<div class="warningDom"><a href="http://www.habo.se" onmouseover="showHover(event, 'domain [at] udac.se<br/>Rekursiv<br/>Warning (2)<br/>ns1.udac.se<br/>solix.udac.se<br/>')" onmouseout="hideHover()" title="">habo.se</a></div>
+<div class="dom"><a href="http://www.hellefors.se" onmouseover="showHover(event, 'abuse [at] hellefors.se<br/>dns2.telia.com<br/>ns.hellefors.se<br/>')" onmouseout="hideHover()" title="">hellefors.se</a></div>
+<div class="dom"><a href="http://www.herjedalen.se" onmouseover="showHover(event, 'dns [at] telia.net<br/>dns3.telia.com<br/>dns4.telia.com<br/>')" onmouseout="hideHover()" title="">herjedalen.se</a></div>
+<div class="dom"><a href="http://www.harnosand.se" onmouseover="showHover(event, 'dns [at] telia.net<br/>dns10.telia.com<br/>dns9.telia.com<br/>')" onmouseout="hideHover()" title="">harnosand.se</a></div>
+<div class="dom"><a href="http://www.harryda.se" onmouseover="showHover(event, 'postmaster [at] harryda.se<br/>mlkhgs01.harryda.se<br/>ns.pulsen.se<br/>mlkhgs02.harryda.se<br/>')" onmouseout="hideHover()" title="">harryda.se</a></div>
+<div class="warningDom"><a href="http://www.hassleholm.se" onmouseover="showHover(event, 'hostmaster [at] ns.hassleholm.se<br/>Rekursiv<br/>Warning (4)<br/>malmoe.dns.swip.net<br/>kista.dns.swip.net<br/>ns.hassleholm.se<br/>')" onmouseout="hideHover()" title="">hassleholm.se</a></div>
+<div class="errorDom"><a href="http://www.hoganas.se" onmouseover="showHover(event, '<br/>Error (6)<br/>Warning (2)<br/>resolver1-m-fo.skanova.com<br/>internet1.hoganas.se<br/>')" onmouseout="hideHover()" title="">hoganas.se</a></div>
+<div class="dom"><a href="http://www.hogsby.se" onmouseover="showHover(event, 'hostmaster [at] hogsbynat.se<br/>ns1.hogsbynat.se<br/>ns2.hogsbynat.se<br/>')" onmouseout="hideHover()" title="">hogsby.se</a></div>
+<div class="dom"><a href="http://www.hogsby.se" onmouseover="showHover(event, 'hostmaster [at] hogsbynat.se<br/>ns1.hogsbynat.se<br/>ns2.hogsbynat.se<br/>')" onmouseout="hideHover()" title="">hogsby.se</a></div>
+<div class="errorDom"><a href="http://www.horby.se" onmouseover="showHover(event, 'marcus [at] horby.se<br/>Error (2)<br/>ns1.horby.se<br/>malmoe.dns.swip.net<br/>ns2.horby.se<br/>kista.dns.swip.net<br/>')" onmouseout="hideHover()" title="">horby.se</a></div>
+<div class="dom"><a href="http://www.hoor.se" onmouseover="showHover(event, 'dnsadmin [at] hoor.se<br/>orestes.hoor.se<br/>frixos.hoor.se<br/>')" onmouseout="hideHover()" title="">hoor.se</a></div>
+<div class="dom"><a href="http://www.jokkmokk.se" onmouseover="showHover(event, 'hostmaster [at] jokkmokk.se<br/>dns1.telia.com<br/>dns1.jokkmokk.se<br/>')" onmouseout="hideHover()" title="">jokkmokk.se</a></div>
+<div class="warningDom"><a href="http://www.jarfalla.se" onmouseover="showHover(event, 'dnsadmin.se [at] siemens.com<br/>Warning (1)<br/>dns1.jarfalla.se<br/>ns3.siemens.se<br/>ns4.siemens.se<br/>')" onmouseout="hideHover()" title="">jarfalla.se</a></div>
+<div class="warningDom"><a href="http://www.jonkoping.se" onmouseover="showHover(event, 'hostmaster [at] edu.jonkoping.se<br/>Rekursiv<br/>Warning (2)<br/>jkpadm.jonkoping.se<br/>jkpedu.jonkoping.se<br/>')" onmouseout="hideHover()" title="">jonkoping.se</a></div>
+<div class="errorDom"><a href="http://www.kalix.se" onmouseover="showHover(event, 'tommy [at] kalix.se<br/>Rekursiv<br/>Error (7)<br/>Warning (1)<br/>dns.kalix.se<br/>dns.nystaden.kalix.se<br/>dns.arctica.luth.se<br/>dns2.kalix.se<br/>')" onmouseout="hideHover()" title="">kalix.se</a></div>
+<div class="dom"><a href="http://www.kalmar.se" onmouseover="showHover(event, 'hostmaster [at] kalmar.se<br/>dns1.telia.com<br/>ns.kalmar.se<br/>')" onmouseout="hideHover()" title="">kalmar.se</a></div>
+<div class="warningDom"><a href="http://www.karlsborg.se" onmouseover="showHover(event, 'hostmaster [at] ns.karlsborg.se<br/>Rekursiv<br/>Warning (5)<br/>dns2.carlsborg.net<br/>ns.karlsborg.se<br/>')" onmouseout="hideHover()" title="">karlsborg.se</a></div>
+<div class="dom"><a href="http://www.karlshamn.se" onmouseover="showHover(event, 'hostmaster [at] ns.karlshamn.se<br/>b.dns.tdc.se<br/>a.dns.tdc.se<br/>ns.karlshamn.se<br/>')" onmouseout="hideHover()" title="">karlshamn.se</a></div>
+<div class="warningDom"><a href="http://www.karlskoga.se" onmouseover="showHover(event, 'hostmaster [at] ns.karlskoga.se<br/>Warning (3)<br/>ns.karlskoga.se<br/>ns.sub.karlskoga.se<br/>')" onmouseout="hideHover()" title="">karlskoga.se</a></div>
+<div class="dom"><a href="http://www.karlskrona.se" onmouseover="showHover(event, 'postmaster [at] karlskrona.se<br/>ns2.karlskrona.se<br/>ns1.karlskrona.se<br/>')" onmouseout="hideHover()" title="">karlskrona.se</a></div>
+<div class="warningDom"><a href="http://www.karlstad.se" onmouseover="showHover(event, 'hostmaster [at] karlstad.se<br/>Rekursiv<br/>Warning (3)<br/>c.dns.songnetworks.se<br/>b.dns.songnetworks.se<br/>dns1.karlstad.se<br/>a.dns.songnetworks.se<br/>')" onmouseout="hideHover()" title="">karlstad.se</a></div>
+<div class="warningDom"><a href="http://www.katrineholm.se" onmouseover="showHover(event, 'it-kontoret [at] katrineholm.se<br/>Rekursiv<br/>Warning (1)<br/>dns5.telia.com<br/>hugin.katrineholm.se<br/>')" onmouseout="hideHover()" title="">katrineholm.se</a></div>
+<div class="errorDom"><a href="http://www.kil.se" onmouseover="showHover(event, 'dns [at] kil.se<br/>Error (2)<br/>ns2.kil.se<br/>ns1.kil.se<br/>')" onmouseout="hideHover()" title="">kil.se</a></div>
+<div class="dom"><a href="http://www.kinda.se" onmouseover="showHover(event, 'noc [at] vokby.se<br/>ns1.vokby.se<br/>ns2.vokby.se<br/>')" onmouseout="hideHover()" title="">kinda.se</a></div>
+<div class="dom"><a href="http://www.kiruna.se" onmouseover="showHover(event, 'root [at] kommun.kiruna.se<br/>dns2.kommun.kiruna.se<br/>ns.linnea.net<br/>dns6.telia.com<br/>ns3.linnea.net<br/>dns1.kommun.kiruna.se<br/>ns2.linnea.net<br/>')" onmouseout="hideHover()" title="">kiruna.se</a></div>
+<div class="errorDom"><a href="http://www.klippan.se" onmouseover="showHover(event, 'it [at] klippan.se<br/>Error (4)<br/>dns6.telia.com<br/>dns01.klippan.se<br/>')" onmouseout="hideHover()" title="">klippan.se</a></div>
+<div class="warningDom"><a href="http://www.knivsta.se" onmouseover="showHover(event, 'hostmaster [at] knivsta.se<br/>Rekursiv<br/>Warning (2)<br/>gateway.knivsta.se<br/>ns1.udac.se<br/>ns2.lidero.net<br/>')" onmouseout="hideHover()" title="">knivsta.se</a></div>
+<div class="dom"><a href="http://www.kramfors.se" onmouseover="showHover(event, 'Postmaster [at] connection.se<br/>dns2.telia.com<br/>swe.connection.se<br/>')" onmouseout="hideHover()" title="">kramfors.se</a></div>
+<div class="dom"><a href="http://www.kristianstad.se" onmouseover="showHover(event, 'dnsmaster [at] kristianstad.se<br/>dns.kristianstad.se<br/>dns2.kristianstad.se<br/>')" onmouseout="hideHover()" title="">kristianstad.se</a></div>
+<div class="warningDom"><a href="http://www.kristinehamn.se" onmouseover="showHover(event, 'hostmaster [at] kristinehamn.se<br/>Rekursiv<br/>Warning (1)<br/>dns6.telia.com<br/>ns.kristinehamn.se<br/>')" onmouseout="hideHover()" title="">kristinehamn.se</a></div>
+<div class="warningDom"><a href="http://www.krokom.se" onmouseover="showHover(event, 'hostmaster [at] ns.krokom.se<br/>Warning (3)<br/>ns.krokom.se<br/>auth03.tyfon.net<br/>')" onmouseout="hideHover()" title="">krokom.se</a></div>
+<div class="dom"><a href="http://www.kumla.se" onmouseover="showHover(event, 'it-enheten [at] kumla.se<br/>ns.kumla.se<br/>dns2.utfors.se<br/>')" onmouseout="hideHover()" title="">kumla.se</a></div>
+<div class="dom"><a href="http://www.kungsbacka.se" onmouseover="showHover(event, 'registry [at] tripnet.se<br/>ns2.tripnet.se<br/>ns1.tripnet.se<br/>')" onmouseout="hideHover()" title="">kungsbacka.se</a></div>
+<div class="warningDom"><a href="http://www.kungsor.se" onmouseover="showHover(event, 'hostmaster [at] koping.se<br/>Warning (1)<br/>alex.koping.se<br/>ns1.koping.se<br/>')" onmouseout="hideHover()" title="">kungsor.se</a></div>
+<div class="errorDom"><a href="http://www.kungalv.se" onmouseover="showHover(event, 'hostmaster [at] kungalv.se<br/>Error (2)<br/>Warning (1)<br/>ns1.kungalv.se<br/>kalmar.dns.swip.net<br/>resolver1.kungalv.se<br/>')" onmouseout="hideHover()" title="">kungalv.se</a></div>
+<div class="warningDom"><a href="http://www.kavlinge.se" onmouseover="showHover(event, 'admin [at] kavlinge.se<br/>Rekursiv<br/>Warning (1)<br/>ns.kavlinge.se<br/>malmoe.dns.swip.net<br/>kista.dns.swip.net<br/>')" onmouseout="hideHover()" title="">kavlinge.se</a></div>
+<div class="warningDom"><a href="http://www.koping.se" onmouseover="showHover(event, 'hostmaster [at] koping.se<br/>Warning (1)<br/>ns1.koping.se<br/>alex.koping.se<br/>')" onmouseout="hideHover()" title="">koping.se</a></div>
+<div class="warningDom"><a href="http://www.laholm.se" onmouseover="showHover(event, 'hostmaster [at] ns.laholm.se<br/>Rekursiv<br/>Warning (1)<br/>ns.laholm.se<br/>dns1.telia.com<br/>')" onmouseout="hideHover()" title="">laholm.se</a></div>
+<div class="errorDom"><a href="http://www.landskrona.se" onmouseover="showHover(event, 'registry [at] landskrona.net<br/>Rekursiv<br/>Error (3)<br/>Warning (2)<br/>munken.landskrona.se<br/>ns.landskrona.net<br/>')" onmouseout="hideHover()" title="">landskrona.se</a></div>
+<div class="errorDom"><a href="http://www.laxa.se" onmouseover="showHover(event, 'support [at] hallsberg.se<br/>Rekursiv<br/>Error (1)<br/>Warning (3)<br/>dns5.telia.com<br/>dns1.hallsberg.se<br/>')" onmouseout="hideHover()" title="">laxa.se</a></div>
+<div class="errorDom"><a href="http://www.lekeberg.se" onmouseover="showHover(event, 'postmaster [at] lekeberg.se<br/>Error (2)<br/>dns5.telia.com<br/>ns.lekeberg.se<br/>')" onmouseout="hideHover()" title="">lekeberg.se</a></div>
+<div class="okdom"><a href="http://www.leksand.se" onmouseover="showHover(event, 'registry [at] leksand.se<br/>ns3.interlan.se<br/>ns.interlan.se<br/>ns.leksand.se<br/>')" onmouseout="hideHover()" title=""><img src="tick.png" style="width:16px;height:16px;border:0px"/>&nbsp;leksand.se</a></div>
+<div class="errorDom"><a href="http://www.lerum.se" onmouseover="showHover(event, 'hostmaster [at] lerum.se<br/>Error (2)<br/>a.dns.songnetworks.se<br/>b.dns.songnetworks.se<br/>')" onmouseout="hideHover()" title="">lerum.se</a></div>
+<div class="warningDom"><a href="http://www.lessebo.se" onmouseover="showHover(event, 'hostmaster [at] kommun.lessebo.se<br/>Warning (3)<br/>malmoe.dns.swip.net<br/>kista.dns.swip.net<br/>ns.lessebo.se<br/>')" onmouseout="hideHover()" title="">lessebo.se</a></div>
+<div class="dom"><a href="http://www.lidingo.se" onmouseover="showHover(event, 'dns [at] telia.net<br/>dns3.telia.com<br/>dns4.telia.com<br/>')" onmouseout="hideHover()" title="">lidingo.se</a></div>
+<div class="dom"><a href="http://www.lidkoping.se" onmouseover="showHover(event, 'gw1 [at] grundskolan.lidkoping.se<br/>dns1.fastbit.se<br/>dns2.fastbit.se<br/>')" onmouseout="hideHover()" title="">lidkoping.se</a></div>
+<div class="errorDom"><a href="http://www.lillaedet.se" onmouseover="showHover(event, 'registry [at] nameisp.com<br/>Error (3)<br/>ns2.nameisp.info<br/>ns1.nameisp.info<br/>')" onmouseout="hideHover()" title="">lillaedet.se</a></div>
+<div class="warningDom"><a href="http://www.lindesberg.se" onmouseover="showHover(event, 'hostmaster [at] ns.admin.lindesberg.se<br/>Warning (3)<br/>ns.lindesberg.se<br/>dns5.telia.com<br/>')" onmouseout="hideHover()" title="">lindesberg.se</a></div>
+<div class="errorDom"><a href="http://www.linkoping.se" onmouseover="showHover(event, 'registry [at] linkoping.se<br/>Error (1)<br/>Warning (3)<br/>dns1.telia.com<br/>dns2.linkoping.se<br/>dns1.linkoping.se<br/>')" onmouseout="hideHover()" title="">linkoping.se</a></div>
+<div class="dom"><a href="http://www.ljungby.se" onmouseover="showHover(event, 'registry [at] datahalland.se<br/>ns2.datahalland.se<br/>ns1.datahalland.se<br/>')" onmouseout="hideHover()" title="">ljungby.se</a></div>
+<div class="errorDom"><a href="http://www.ljusdal.se" onmouseover="showHover(event, 'lago [at] ljusdal.se<br/>Rekursiv<br/>Error (2)<br/>Warning (2)<br/>ns.ljusdal.se<br/>ns2.gavlenet.com<br/>')" onmouseout="hideHover()" title="">ljusdal.se</a></div>
+<div class="errorDom"><a href="http://www.ljusnarsberg.se" onmouseover="showHover(event, 'hostmaster [at] ljusnarsberg.se<br/>Rekursiv<br/>Error (6)<br/>Warning (1)<br/>dns1.telia.se<br/>ns.ljusnarsberg.se<br/>dns1.ip-only.net<br/>dns6.telia.com<br/>dns2.ip-only.net<br/>dns5.telia.com<br/>')" onmouseout="hideHover()" title="">ljusnarsberg.se</a></div>
+<div class="dom"><a href="http://www.lomma.se" onmouseover="showHover(event, 'hostmaster [at] ascio.net<br/>ns2.ascio.net<br/>ns1.ascio.net<br/>ns3.ascio.net<br/>')" onmouseout="hideHover()" title="">lomma.se</a></div>
+<div class="warningDom"><a href="http://www.ludvika.se" onmouseover="showHover(event, 'dns [at] ludvika.se<br/>Rekursiv<br/>Warning (3)<br/>ns2.ludvika.se<br/>ns.ludvika.se<br/>')" onmouseout="hideHover()" title="">ludvika.se</a></div>
+<div class="dom"><a href="http://www.lulea.se" onmouseover="showHover(event, 'hostmaster [at] lulea.se<br/>dns.arctica.luth.se<br/>guran.lulea.se<br/>zuran.lulea.se<br/>')" onmouseout="hideHover()" title="">lulea.se</a></div>
+<div class="dom"><a href="http://www.lund.se" onmouseover="showHover(event, 'hostmaster [at] lund.se<br/>nic.lund.se<br/>dns2.telia.com<br/>pitea.dns.swip.net<br/>')" onmouseout="hideHover()" title="">lund.se</a></div>
+<div class="errorDom"><a href="http://www.lycksele.se" onmouseover="showHover(event, 'hostmaster [at] ns.lycksele.se<br/>Rekursiv<br/>Error (4)<br/>Warning (4)<br/>dns.ac-net.se<br/>ns.lycksele.se<br/>')" onmouseout="hideHover()" title="">lycksele.se</a></div>
+<div class="errorDom"><a href="http://www.lysekil.se" onmouseover="showHover(event, 'hostmaster [at] ns.lysekil.se<br/>Error (3)<br/>Warning (6)<br/>ns.lysekil.se<br/>dns6.telia.com<br/>')" onmouseout="hideHover()" title="">lysekil.se</a></div>
+<div class="dom"><a href="http://www.malmo.se" onmouseover="showHover(event, 'hostmaster [at] malmo.se<br/>ns1.malmo.se<br/>ns2.malmo.se<br/>')" onmouseout="hideHover()" title="">malmo.se</a></div>
+<div class="errorDom"><a href="http://www.malung-salen.se" onmouseover="showHover(event, 'perla [at] podata.se<br/>Rekursiv<br/>Error (2)<br/>Warning (1)<br/>dns1.podata.se<br/>dns5.telia.com<br/>')" onmouseout="hideHover()" title="">malung-salen.se</a></div>
+<div class="errorDom"><a href="http://www.mala.se" onmouseover="showHover(event, 'hostmaster [at] mala.se<br/>Error (4)<br/>Warning (2)<br/>dns.umea.se<br/>cesar.mala.se<br/>dns.norrnod.se<br/>')" onmouseout="hideHover()" title="">mala.se</a></div>
+<div class="errorDom"><a href="http://www.mariestad.se" onmouseover="showHover(event, 'hostmaster [at] ns.mariestad.se<br/>Rekursiv<br/>Error (3)<br/>Warning (6)<br/>ns1.mteab.net<br/>ns.mariestad.se<br/>')" onmouseout="hideHover()" title="">mariestad.se</a></div>
+<div class="warningDom"><a href="http://www.markaryd.se" onmouseover="showHover(event, 'hostmaster [at] markaryd.se<br/>Rekursiv<br/>Warning (1)<br/>dns6.telia.com<br/>ns.markaryd.se<br/>')" onmouseout="hideHover()" title="">markaryd.se</a></div>
+<div class="dom"><a href="http://www.mark.se" onmouseover="showHover(event, 'hostmaster [at] mark.se<br/>ns.mark.se<br/>a.dns.songnetworks.se<br/>b.dns.songnetworks.se<br/>')" onmouseout="hideHover()" title="">mark.se</a></div>
+<div class="warningDom"><a href="http://www.mellerud.se" onmouseover="showHover(event, 'hostmaster [at] mellerud.se<br/>Rekursiv<br/>Warning (2)<br/>ns2.dalsnet.se<br/>ns1.dalsnet.se<br/>ns.mellerud.se<br/>dns5.telia.com<br/>')" onmouseout="hideHover()" title="">mellerud.se</a></div>
+<div class="errorDom"><a href="http://www.mjolby.se" onmouseover="showHover(event, 'hostmaster [at] ns.mjolby.se<br/>Rekursiv<br/>Error (2)<br/>Warning (4)<br/>ns.mjolby.se<br/>')" onmouseout="hideHover()" title="">mjolby.se</a></div>
+<div class="dom"><a href="http://www.mora.se" onmouseover="showHover(event, 'hostmaster [at] mora.se<br/>nic.mora.se<br/>ns2.kringdata.net<br/>')" onmouseout="hideHover()" title="">mora.se</a></div>
+<div class="warningDom"><a href="http://www.motala.se" onmouseover="showHover(event, 'registry [at] fogdata.se<br/>Rekursiv<br/>Warning (2)<br/>dns6.telia.com<br/>ns.fogdata.se<br/>ns2.fogdata.se<br/>')" onmouseout="hideHover()" title="">motala.se</a></div>
+<div class="dom"><a href="http://www.mullsjo.se" onmouseover="showHover(event, 'hostmaster [at] mullsjo.se<br/>dns1.telia.com<br/>mulledns.mullsjo.se<br/>')" onmouseout="hideHover()" title="">mullsjo.se</a></div>
+<div class="warningDom"><a href="http://www.munkedal.se" onmouseover="showHover(event, 'admin [at] munkedal.se<br/>Warning (2)<br/>dns2.munkedal.se<br/>dns1.munkedal.se<br/>')" onmouseout="hideHover()" title="">munkedal.se</a></div>
+<div class="dom"><a href="http://www.munkfors.se" onmouseover="showHover(event, 'dns [at] songnetworks.se<br/>b.dns.songnetworks.se<br/>c.dns.songnetworks.se<br/>a.dns.songnetworks.se<br/>')" onmouseout="hideHover()" title="">munkfors.se</a></div>
+<div class="warningDom"><a href="http://www.molndal.se" onmouseover="showHover(event, 'hostmaster [at] molndal.se<br/>Warning (4)<br/>dns2.molndal.se<br/>dns1.molndal.se<br/>')" onmouseout="hideHover()" title="">molndal.se</a></div>
+<div class="warningDom"><a href="http://www.monsteras.se" onmouseover="showHover(event, 'drift [at] monsteras.se<br/>Rekursiv<br/>Warning (2)<br/>ns01.monsteras.se<br/>ns02.monsteras.se<br/>')" onmouseout="hideHover()" title="">monsteras.se</a></div>
+<div class="warningDom"><a href="http://www.monsteras.se" onmouseover="showHover(event, 'drift [at] monsteras.se<br/>Rekursiv<br/>Warning (2)<br/>ns01.monsteras.se<br/>ns02.monsteras.se<br/>')" onmouseout="hideHover()" title="">monsteras.se</a></div>
+<div class="dom"><a href="http://www.morbylanga.se" onmouseover="showHover(event, 'dns [at] telia.net<br/>dns4.telia.com<br/>dns3.telia.com<br/>')" onmouseout="hideHover()" title="">morbylanga.se</a></div>
+<div class="dom"><a href="http://www.nacka.se" onmouseover="showHover(event, 'postmaster [at] nacka.se<br/>ns.nacka.se<br/>dns5.telia.com<br/>')" onmouseout="hideHover()" title="">nacka.se</a></div>
+<div class="dom"><a href="http://www.nora.se" onmouseover="showHover(event, 'hostmaster [at] compose.se<br/>ns1.compose.se<br/>ns2.compose.se<br/>')" onmouseout="hideHover()" title="">nora.se</a></div>
+<div class="dom"><a href="http://www.norberg.se" onmouseover="showHover(event, 'administrator [at] norberg.se<br/>kista.dns.swip.net<br/>dns2.telia.com<br/>gatekeeper.norberg.se<br/>')" onmouseout="hideHover()" title="">norberg.se</a></div>
+<div class="warningDom"><a href="http://www.nordanstig.se" onmouseover="showHover(event, 'registry [at] it.nordanstig.se<br/>Rekursiv<br/>Warning (2)<br/>ns2.gavlenet.com<br/>ns1.nordanstig.se<br/>')" onmouseout="hideHover()" title="">nordanstig.se</a></div>
+<div class="dom"><a href="http://www.nordmaling.se" onmouseover="showHover(event, 'hostmaster [at] nordmaling.se<br/>dns.umea.se<br/>dns.artedi.nordmaling.se<br/>dns.nordmaling.se<br/>')" onmouseout="hideHover()" title="">nordmaling.se</a></div>
+<div class="errorDom"><a href="http://www.norrkoping.se" onmouseover="showHover(event, 'postmaster [at] norrkoping.se<br/>Error (1)<br/>dns2.telia.com<br/>gatekeeper.norrkoping.se<br/>')" onmouseout="hideHover()" title="">norrkoping.se</a></div>
+<div class="errorDom"><a href="http://www.norrtalje.se" onmouseover="showHover(event, 'hostmaster [at] ns.norrtalje.se<br/>Rekursiv<br/>Error (1)<br/>Warning (5)<br/>ns.roden.se<br/>ns.norrtalje.se<br/>')" onmouseout="hideHover()" title="">norrtalje.se</a></div>
+<div class="warningDom"><a href="http://www.norsjo.se" onmouseover="showHover(event, 'hostmaster [at] norsjo.se<br/>Warning (5)<br/>ns.norsjo.se<br/>dns.umea.se<br/>')" onmouseout="hideHover()" title="">norsjo.se</a></div>
+<div class="dom"><a href="http://www.nybro.se" onmouseover="showHover(event, 'postmaster [at] nybro.se<br/>dns1.telia.com<br/>nybro.nybro.se<br/>')" onmouseout="hideHover()" title="">nybro.se</a></div>
+<div class="warningDom"><a href="http://www.nykvarn.se" onmouseover="showHover(event, 'admin [at] nykvarn.se<br/>Rekursiv<br/>Warning (1)<br/>dns2.utfors.se<br/>ns.nykvarn.se<br/>')" onmouseout="hideHover()" title="">nykvarn.se</a></div>
+<div class="dom"><a href="http://www.nykoping.se" onmouseover="showHover(event, 'hostmaster [at] nykoping.se<br/>ns.gastabud.com<br/>ns.nykoping.se<br/>')" onmouseout="hideHover()" title="">nykoping.se</a></div>
+<div class="dom"><a href="http://www.nynashamn.se" onmouseover="showHover(event, 'dns [at] utfors.se<br/>dns1.utfors.se<br/>dns2.utfors.se<br/>')" onmouseout="hideHover()" title="">nynashamn.se</a></div>
+<div class="warningDom"><a href="http://www.nassjo.se" onmouseover="showHover(event, 'dnsadmin [at] navab.net<br/>Rekursiv<br/>Warning (2)<br/>ns2.navab.net<br/>ns1.navab.net<br/>')" onmouseout="hideHover()" title="">nassjo.se</a></div>
+<div class="okdom"><a href="http://www.ockelbo.se" onmouseover="showHover(event, 'hostmaster [at] gavle.se<br/>ns.gavle.se<br/>ns2.gavlenet.com<br/>')" onmouseout="hideHover()" title=""><img src="tick.png" style="width:16px;height:16px;border:0px"/>&nbsp;ockelbo.se</a></div>
+<div class="okdom"><a href="http://www.olofstrom.se" onmouseover="showHover(event, 'hostmaster [at] olofstrom.se<br/>b.dns.songnetworks.se<br/>a.dns.songnetworks.se<br/>ns.olofstrom.se<br/>')" onmouseout="hideHover()" title=""><img src="tick.png" style="width:16px;height:16px;border:0px"/>&nbsp;olofstrom.se</a></div>
+<div class="dom"><a href="http://www.orsa.se" onmouseover="showHover(event, 'hostmaster [at] mora.se<br/>ns2.gulo.net<br/>nic.mora.se<br/>')" onmouseout="hideHover()" title="">orsa.se</a></div>
+<div class="warningDom"><a href="http://www.orust.se" onmouseover="showHover(event, 'registry [at] visionutv.se<br/>Rekursiv<br/>Warning (4)<br/>ns3.visionutv.se<br/>ns4.visionutv.se<br/>ns2.visionutv.se<br/>ns.visionutv.se<br/>')" onmouseout="hideHover()" title="">orust.se</a></div>
+<div class="dom"><a href="http://www.osby.se" onmouseover="showHover(event, 'registry [at] swip.net<br/>wexio.dns.swip.net<br/>kalmar.dns.swip.net<br/>')" onmouseout="hideHover()" title="">osby.se</a></div>
+<div class="dom"><a href="http://www.oskarshamn.se" onmouseover="showHover(event, 'hostmaster [at] oskarshamn.se<br/>ns2.oskarnet.se<br/>ns.oskarshamn.se<br/>')" onmouseout="hideHover()" title="">oskarshamn.se</a></div>
+<div class="okdom"><a href="http://www.ovanaker.se" onmouseover="showHover(event, 'hostmaster [at] ovanaker.se<br/>ns3.interlan.se<br/>ns.interlan.se<br/>')" onmouseout="hideHover()" title=""><img src="tick.png" style="width:16px;height:16px;border:0px"/>&nbsp;ovanaker.se</a></div>
+<div class="dom"><a href="http://www.oxelosund.se" onmouseover="showHover(event, 'hostmaster [at] oxelosund.se<br/>ns1.oxelosund.se<br/>ns2.oxelosund.se<br/>')" onmouseout="hideHover()" title="">oxelosund.se</a></div>
+<div class="dom"><a href="http://www.pajala.se" onmouseover="showHover(event, 'dns [at] telia.net<br/>dns3.telia.com<br/>dns4.telia.com<br/>')" onmouseout="hideHover()" title="">pajala.se</a></div>
+<div class="dom"><a href="http://www.partille.se" onmouseover="showHover(event, 'dns [at] tdcsong.se<br/>b.dns.songnetworks.se<br/>a.dns.songnetworks.se<br/>c.dns.songnetworks.se<br/>')" onmouseout="hideHover()" title="">partille.se</a></div>
+<div class="warningDom"><a href="http://www.perskom.se" onmouseover="showHover(event, 'hostmaster [at] perskom.se<br/>Rekursiv<br/>Warning (1)<br/>ns.perskom.se<br/>dns6.telia.com<br/>')" onmouseout="hideHover()" title="">perskom.se</a></div>
+<div class="warningDom"><a href="http://www.perstorp.se" onmouseover="showHover(event, 'hostmaster [at] perskom.se<br/>Rekursiv<br/>Warning (1)<br/>dns5.telia.com<br/>ns.perstorp.se<br/>')" onmouseout="hideHover()" title=""><img src="tick.png" style="width:16px;height:16px;border:0px"/>&nbsp;perstorp.se</a></div>
+<div class="warningDom"><a href="http://www.pitea.se" onmouseover="showHover(event, 'systemmail [at] it.pitea.se<br/>Warning (6)<br/>dns.pitea.se<br/>dns1.pitea.se<br/>')" onmouseout="hideHover()" title="">pitea.se</a></div>
+<div class="dom"><a href="http://www.ragunda.se" onmouseover="showHover(event, 'dns [at] telia.net<br/>dns4.telia.com<br/>dns3.telia.com<br/>')" onmouseout="hideHover()" title="">ragunda.se</a></div>
+<div class="dom"><a href="http://www.robertsfors.se" onmouseover="showHover(event, 'ako [at] robertsfors.se<br/>dns.robertsfors.se<br/>mail2.robertsfors.se<br/>dns.umea.se<br/>')" onmouseout="hideHover()" title="">robertsfors.se</a></div>
+<div class="warningDom"><a href="http://www.ronneby.se" onmouseover="showHover(event, 'hostmaster [at] softnetwork.se<br/>Warning (1)<br/>dns2.softnetwork.se<br/>dns1.softnetwork.se<br/>')" onmouseout="hideHover()" title="">ronneby.se</a></div>
+<div class="warningDom"><a href="http://www.rattvik.se" onmouseover="showHover(event, 'hostmaster [at] ns.rattvik.se<br/>Warning (3)<br/>dns5.telia.com<br/>ns.rattvik.se<br/>csgskola.rattvik.se<br/>')" onmouseout="hideHover()" title="">rattvik.se</a></div>
+<div class="errorDom"><a href="http://www.sala.se" onmouseover="showHover(event, 'webmaster [at] sala.se<br/>Error (3)<br/>Warning (2)<br/>sala.se<br/>iis.sala.se<br/>')" onmouseout="hideHover()" title="">sala.se</a></div>
+<div class="dom"><a href="http://www.salem.se" onmouseover="showHover(event, 'hostmaster [at] salem.se<br/>dns01.calypso.net<br/>dns02.calypso.net<br/>')" onmouseout="hideHover()" title="">salem.se</a></div>
+<div class="okdom"><a href="http://www.sandviken.se" onmouseover="showHover(event, 'registry [at] sandviken.se<br/>ns2.gavlenet.com<br/>ns.sandviken.se<br/>')" onmouseout="hideHover()" title=""><img src="tick.png" style="width:16px;height:16px;border:0px"/>&nbsp;sandviken.se</a></div>
+<div class="errorDom"><a href="http://www.sigtuna.se" onmouseover="showHover(event, 'helpdesk [at] sigtuna.se<br/>Error (1)<br/>ns.sigtuna.se<br/>dns6.telia.com<br/>')" onmouseout="hideHover()" title="">sigtuna.se</a></div>
+<div class="dom"><a href="http://www.simrishamn.se" onmouseover="showHover(event, 'hostmaster [at] simrishamn.se<br/>ns.simrishamn.se<br/>kista.dns.swip.net<br/>malmoe.dns.swip.net<br/>')" onmouseout="hideHover()" title="">simrishamn.se</a></div>
+<div class="dom"><a href="http://www.sjobo.se" onmouseover="showHover(event, 'it [at] sjobo.se<br/>ns1.teleservice.net<br/>ns.sjobo.se<br/>')" onmouseout="hideHover()" title="">sjobo.se</a></div>
+<div class="dom"><a href="http://www.skara.se" onmouseover="showHover(event, 'hostmaster [at] lidkoping.se<br/>dns1.fastbit.se<br/>dns2.fastbit.se<br/>')" onmouseout="hideHover()" title="">skara.se</a></div>
+<div class="dom"><a href="http://www.skelleftea.se" onmouseover="showHover(event, 'nsmaster [at] skeria.skelleftea.se<br/>ns.kommun.skelleftea.se<br/>nic.skelleftea.se<br/>dns.umea.se<br/>')" onmouseout="hideHover()" title="">skelleftea.se</a></div>
+<div class="errorDom"><a href="http://www.skinnskatteberg.se" onmouseover="showHover(event, 'steve [at] skinnskatteberg.se<br/>Rekursiv<br/>Error (2)<br/>Warning (1)<br/>dns4.skinnskatteberg.se<br/>dns3.skinnskatteberg.se<br/>')" onmouseout="hideHover()" title="">skinnskatteberg.se</a></div>
+<div class="dom"><a href="http://www.skurup.se" onmouseover="showHover(event, 'registry [at] swip.net<br/>malmoe.dns.swip.net<br/>kista.dns.swip.net<br/>')" onmouseout="hideHover()" title="">skurup.se</a></div>
+<div class="errorDom"><a href="http://www.skovde.se" onmouseover="showHover(event, 'postmaster [at] skovde.se<br/>Error (1)<br/>Warning (4)<br/>rmdns01.skovde.se<br/>ns3.euro909.com<br/>rmdns02.skovde.se<br/>')" onmouseout="hideHover()" title="">skovde.se</a></div>
+<div class="errorDom"><a href="http://www.smedjebacken.se" onmouseover="showHover(event, 'registry [at] cepus.se<br/>Error (1)<br/>ns4.cepus.net<br/>ns1.cepus.net<br/>')" onmouseout="hideHover()" title="">smedjebacken.se</a></div>
+<div class="dom"><a href="http://www.solleftea.se" onmouseover="showHover(event, 'itsupport [at] solleftea.se<br/>ns1.solleftea.se<br/>ns2.solleftea.se<br/>')" onmouseout="hideHover()" title="">solleftea.se</a></div>
+<div class="dom"><a href="http://www.sollentuna.se" onmouseover="showHover(event, 'admin [at] sollentuna.net<br/>ns-1.sollentuna.net<br/>a.dns.tdc.se<br/>ns-2.sollentuna.net<br/>c.dns.tdc.se<br/>b.dns.tdc.se<br/>')" onmouseout="hideHover()" title="">sollentuna.se</a></div>
+<div class="warningDom"><a href="http://www.solna.se" onmouseover="showHover(event, 'hostmaster [at] solna.se<br/>Warning (6)<br/>dns5.telia.com<br/>ns01.solna.se<br/>')" onmouseout="hideHover()" title="">solna.se</a></div>
+<div class="dom"><a href="http://www.sorsele.se" onmouseover="showHover(event, 'mae [at] sorsele.se<br/>dns.umea.se<br/>ns.sorsele.se<br/>')" onmouseout="hideHover()" title="">sorsele.se</a></div>
+<div class="dom"><a href="http://www.sotenas.se" onmouseover="showHover(event, 'dns [at] telia.net<br/>dns3.telia.com<br/>dns4.telia.com<br/>')" onmouseout="hideHover()" title="">sotenas.se</a></div>
+<div class="dom"><a href="http://www.staffanstorp.se" onmouseover="showHover(event, 'registry [at] perspektivbredband.se<br/>ns2.perspektivbredband.se<br/>ns.perspektivbredband.se<br/>')" onmouseout="hideHover()" title="">staffanstorp.se</a></div>
+<div class="errorDom"><a href="http://www.stenungsund.se" onmouseover="showHover(event, 'dnsadmin [at] stenungsund.se<br/>Error (3)<br/>dns1.stenungsund.se<br/>c.dns.songnetworks.se<br/>b.dns.songnetworks.se<br/>a.dns.songnetworks.se<br/>')" onmouseout="hideHover()" title="">stenungsund.se</a></div>
+<div class="dom"><a href="http://www.stockholm.se" onmouseover="showHover(event, 'hostmaster [at] stockholm.se<br/>01dns.ergogroup.se<br/>ns2.stockholm.se<br/>ns1.stockholm.se<br/>')" onmouseout="hideHover()" title="">stockholm.se</a></div>
+<div class="warningDom"><a href="http://www.storfors.se" onmouseover="showHover(event, 'hostmaster [at] kristinehamn.se<br/>Rekursiv<br/>Warning (1)<br/>dns5.telia.com<br/>ns.kristinehamn.se<br/>')" onmouseout="hideHover()" title="">storfors.se</a></div>
+<div class="warningDom"><a href="http://www.storuman.se" onmouseover="showHover(event, 'hostmaster [at] ns.storuman.se<br/>Rekursiv<br/>Warning (1)<br/>dns.norrnod.se<br/>dns.umea.se<br/>ns.storuman.se<br/>')" onmouseout="hideHover()" title="">storuman.se</a></div>
+<div class="dom"><a href="http://www.strangnas.se" onmouseover="showHover(event, 'postmaster [at] strangnas.se<br/>ns3.lidnet.net<br/>dns.strangnas.se<br/>ns2.lidnet.net<br/>')" onmouseout="hideHover()" title="">strangnas.se</a></div>
+<div class="warningDom"><a href="http://www.stromstad.se" onmouseover="showHover(event, 'hostmaster [at] ns.fw.stromstad.se<br/>Rekursiv<br/>Warning (4)<br/>ns.stromstad.se<br/>dns1.tanum.se<br/>dns5.telia.com<br/>')" onmouseout="hideHover()" title="">stromstad.se</a></div>
+<div class="dom"><a href="http://www.stromsund.se" onmouseover="showHover(event, 'dns [at] telia.net<br/>dns3.telia.com<br/>dns4.telia.com<br/>')" onmouseout="hideHover()" title="">stromsund.se</a></div>
+<div class="warningDom"><a href="http://www.sundbyberg.se" onmouseover="showHover(event, 'hostmaster [at] sundbyberg.se<br/>Warning (4)<br/>sbgdns01.sundbyberg.se<br/>c.dns.songnetworks.se<br/>b.dns.songnetworks.se<br/>a.dns.songnetworks.se<br/>dns5.telia.com<br/>')" onmouseout="hideHover()" title="">sundbyberg.se</a></div>
+<div class="warningDom"><a href="http://www.sundsvall.se" onmouseover="showHover(event, 'hostmaster [at] ns.sundsvall.se<br/>Rekursiv<br/>Warning (5)<br/>ns2.nuaccess.net<br/>ns.sundsvall.se<br/>')" onmouseout="hideHover()" title="">sundsvall.se</a></div>
+<div class="dom"><a href="http://www.sunne.se" onmouseover="showHover(event, 'administrator [at] sunne.se<br/>ns.sunne.se<br/>dns5.telia.com<br/>')" onmouseout="hideHover()" title="">sunne.se</a></div>
+<div class="dom"><a href="http://www.surahammar.se" onmouseover="showHover(event, 'dns [at] telia.net<br/>dns4.telia.com<br/>dns3.telia.com<br/>')" onmouseout="hideHover()" title="">surahammar.se</a></div>
+<div class="warningDom"><a href="http://www.svalov.se" onmouseover="showHover(event, 'it [at] svalov.se<br/>Rekursiv<br/>Warning (3)<br/>ns2.svalov.se<br/>ns3.svalov.se<br/>ns1.svalov.se<br/>dns2.cenara.com<br/>')" onmouseout="hideHover()" title="">svalov.se</a></div>
+<div class="errorDom"><a href="http://www.svedala.se" onmouseover="showHover(event, 'postmaster [at] svedala.se<br/>Error (1)<br/>Warning (2)<br/>apdns1.addpro.se<br/>apdns2.addpro.se<br/>')" onmouseout="hideHover()" title="">svedala.se</a></div>
+<div class="errorDom"><a href="http://www.svenljunga.se" onmouseover="showHover(event, 'itchef [at] svenljunga.se<br/>Error (1)<br/>Warning (2)<br/>calvin.svenljunga.se<br/>dns5.telia.com<br/>')" onmouseout="hideHover()" title="">svenljunga.se</a></div>
+<div class="warningDom"><a href="http://www.saffle.se" onmouseover="showHover(event, 'qmail [at] saffle.se<br/>Warning (2)<br/>a.dns.tdc.se<br/>b.dns.tdc.se<br/>ns.saffle.se<br/>')" onmouseout="hideHover()" title="">saffle.se</a></div>
+<div class="errorDom"><a href="http://www.sater.se" onmouseover="showHover(event, 'registry [at] cepus.se<br/>Error (1)<br/>ns4.cepus.net<br/>ns1.cepus.net<br/>')" onmouseout="hideHover()" title="">sater.se</a></div>
+<div class="warningDom"><a href="http://www.savsjo.se" onmouseover="showHover(event, 'hostmaster [at] ns.savsjo.se<br/>Warning (6)<br/>ns.savsjo.se<br/>edns05.ports.net<br/>')" onmouseout="hideHover()" title="">savsjo.se</a></div>
+<div class="okdom"><a href="http://www.soderhamn.se" onmouseover="showHover(event, 'registry [at] teknikpark.se<br/>ns1.teknikpark.se<br/>ns1.helsingenet.com<br/>')" onmouseout="hideHover()" title=""><img src="tick.png" style="width:16px;height:16px;border:0px"/>&nbsp;soderhamn.se</a></div>
+<div class="warningDom"><a href="http://www.soderkoping.se" onmouseover="showHover(event, 'hostmaster [at] ns.soderkoping.se<br/>Rekursiv<br/>Warning (1)<br/>ns.soderkoping.se<br/>dns5.telia.com<br/>')" onmouseout="hideHover()" title="">soderkoping.se</a></div>
+<div class="dom"><a href="http://www.sodertalje.se" onmouseover="showHover(event, 'postmaster [at] sodertalje.se<br/>dns1.telia.com<br/>nic.sodertalje.se<br/>')" onmouseout="hideHover()" title="">sodertalje.se</a></div>
+<div class="warningDom"><a href="http://www.solvesborg.se" onmouseover="showHover(event, 'root [at] solvesborg.se<br/>Rekursiv<br/>Warning (3)<br/>ns.solvesborg.se<br/>a.dns.songnetworks.se<br/>ns.bromolla.se<br/>b.dns.songnetworks.se<br/>')" onmouseout="hideHover()" title="">solvesborg.se</a></div>
+<div class="warningDom"><a href="http://www.tanum.se" onmouseover="showHover(event, 'hostmaster [at] tanum.se<br/>Rekursiv<br/>Warning (1)<br/>ns.stromstad.se<br/>dns5.telia.com<br/>dns1.tanum.se<br/>')" onmouseout="hideHover()" title="">tanum.se</a></div>
+<div class="warningDom"><a href="http://www.tibro.se" onmouseover="showHover(event, 'isktn [at] tibro.se<br/>Rekursiv<br/>Warning (1)<br/>dns5.telia.com<br/>dns.tibro.se<br/>')" onmouseout="hideHover()" title="">tibro.se</a></div>
+<div class="dom"><a href="http://www.tidaholm.se" onmouseover="showHover(event, 'hostmaster [at] ns.tidaholm.se<br/>dns5.telia.com<br/>ns.tidaholm.se<br/>')" onmouseout="hideHover()" title="">tidaholm.se</a></div>
+<div class="errorDom"><a href="http://www.tierp.se" onmouseover="showHover(event, 'admin [at] easydns.com<br/>Error (1)<br/>Warning (1)<br/>ns1.easydns.com<br/>ns2.easydns.com<br/>remote1.easydns.com<br/>remote2.easydns.com<br/>')" onmouseout="hideHover()" title="">tierp.se</a></div>
+<div class="warningDom"><a href="http://www.timra.se" onmouseover="showHover(event, 'root [at] timra.se<br/>Rekursiv<br/>Warning (3)<br/>ns.dataphone.se<br/>ns.timra.se<br/>')" onmouseout="hideHover()" title="">timra.se</a></div>
+<div class="dom"><a href="http://www.tingsryd.se" onmouseover="showHover(event, 'dns [at] telia.net<br/>dns4.telia.com<br/>dns3.telia.com<br/>')" onmouseout="hideHover()" title="">tingsryd.se</a></div>
+<div class="warningDom"><a href="http://www.tjorn.se" onmouseover="showHover(event, 'hostmaster [at] tjorn.se<br/>Rekursiv<br/>Warning (1)<br/>dns2.telia.com<br/>dns.tjorn.se<br/>')" onmouseout="hideHover()" title="">tjorn.se</a></div>
+<div class="dom"><a href="http://www.tomelilla.se" onmouseover="showHover(event, 'registry [at] teleservice.net<br/>ns2.teleservice.net<br/>ns1.teleservice.net<br/>')" onmouseout="hideHover()" title="">tomelilla.se</a></div>
+<div class="errorDom"><a href="http://www.torsby.se" onmouseover="showHover(event, 'postmaster [at] torsby.se<br/>Error (1)<br/>dns1.telia.com<br/>iis.tordata.se<br/>')" onmouseout="hideHover()" title="">torsby.se</a></div>
+<div class="warningDom"><a href="http://www.torsas.se" onmouseover="showHover(event, 'root [at] torsas.se<br/>Warning (1)<br/>dns5.telia.com<br/>ns.torsas.se<br/>')" onmouseout="hideHover()" title="">torsas.se</a></div>
+<div class="errorDom"><a href="http://www.tranemo.se" onmouseover="showHover(event, 'hostmaster [at] ns.tranemo.se<br/>Error (1)<br/>Warning (7)<br/>ns1.tranemo.se<br/>ns2.tranemo.se<br/>')" onmouseout="hideHover()" title="">tranemo.se</a></div>
+<div class="dom"><a href="http://www.tranas.se" onmouseover="showHover(event, 'hostmaster [at] tranas.se<br/>ns2.dkbutiken.se<br/>sanna.tranas.se<br/>')" onmouseout="hideHover()" title="">tranas.se</a></div>
+<div class="warningDom"><a href="http://www.trelleborg.se" onmouseover="showHover(event, 'administrator [at] trelleborg.se<br/>Rekursiv<br/>Warning (1)<br/>kista.dns.swip.net<br/>nstrelleborg.trelleborg.se<br/>')" onmouseout="hideHover()" title="">trelleborg.se</a></div>
+<div class="warningDom"><a href="http://www.trollhattan.se" onmouseover="showHover(event, 'registry [at] leissner.se<br/>Rekursiv<br/>Warning (2)<br/>falun.dns.swip.net<br/>nic.gota.net<br/>dns2.telia.com<br/>nic2.gota.net<br/>')" onmouseout="hideHover()" title=""><img src="tick.png" style="width:16px;height:16px;border:0px"/>&nbsp;trollhattan.se</a></div>
+<div class="dom"><a href="http://www.trosa.se" onmouseover="showHover(event, 'hostmaster [at] nettica.com<br/>dns5.nettica.com<br/>dns4.nettica.com<br/>dns2.nettica.com<br/>dns1.nettica.com<br/>dns3.nettica.com<br/>')" onmouseout="hideHover()" title="">trosa.se</a></div>
+<div class="errorDom"><a href="http://www.tyreso.se" onmouseover="showHover(event, 'systemdrift [at] tyreso.se<br/>Rekursiv<br/>Error (1)<br/>Warning (3)<br/>sune.tyreso.se<br/>ns2.telenor.se<br/>re-ns1.tyreso.se<br/>')" onmouseout="hideHover()" title="">tyreso.se</a></div>
+<div class="errorDom"><a href="http://www.tyreso.se" onmouseover="showHover(event, 'systemdrift [at] tyreso.se<br/>Rekursiv<br/>Error (1)<br/>Warning (3)<br/>re-ns1.tyreso.se<br/>sune.tyreso.se<br/>ns2.telenor.se<br/>')" onmouseout="hideHover()" title="">tyreso.se</a></div>
+<div class="dom"><a href="http://www.taby.se" onmouseover="showHover(event, 'registry [at] taby.se<br/>dns.taby.se<br/>dns5.telia.com<br/>')" onmouseout="hideHover()" title="">taby.se</a></div>
+<div class="errorDom"><a href="http://www.toreboda.se" onmouseover="showHover(event, 'hostmaster [at] ns.mariestad.se<br/>Rekursiv<br/>Error (5)<br/>Warning (6)<br/>ns.mariestad.se<br/>ns1.mteab.net<br/>')" onmouseout="hideHover()" title="">toreboda.se</a></div>
+<div class="warningDom"><a href="http://www.uddevalla.se" onmouseover="showHover(event, 'hostmaster [at] uddevalla.se<br/>Rekursiv<br/>Warning (3)<br/>idefix.uddevalla.se<br/>dumle.ostrabo.uddevalla.se<br/>')" onmouseout="hideHover()" title="">uddevalla.se</a></div>
+<div class="errorDom"><a href="http://www.ulricehamn.se" onmouseover="showHover(event, 'itdrift [at] ulricehamn.se<br/>Rekursiv<br/>Error (1)<br/>Warning (2)<br/>dns.ulricehamn.se<br/>cnr.ueab.se<br/>')" onmouseout="hideHover()" title="">ulricehamn.se</a></div>
+<div class="dom"><a href="http://www.umea.se" onmouseover="showHover(event, 'hostmaster [at] norrnod.se<br/>dns.norrnod.se<br/>dns.umea.se<br/>')" onmouseout="hideHover()" title="">umea.se</a></div>
+<div class="dom"><a href="http://www.upplandsvasby.se" onmouseover="showHover(event, 'postmaster [at] upplandsvasby.se<br/>ns.upplandsvasby.se<br/>ns2.dgcsystems.net<br/>')" onmouseout="hideHover()" title="">upplandsvasby.se</a></div>
+<div class="dom"><a href="http://www.upplands-bro.se" onmouseover="showHover(event, 'driftcenter [at] steria.nu<br/>ns.steria.nu<br/>ns2.steria.nu<br/>')" onmouseout="hideHover()" title="">upplands-bro.se</a></div>
+<div class="warningDom"><a href="http://www.uppsala.se" onmouseover="showHover(event, 'Datakommunikation [at] uppsala.se<br/>Rekursiv<br/>Warning (1)<br/>ns1.udac.se<br/>ns1.skolnet.uppsala.se<br/>datan.uppsala.se<br/>')" onmouseout="hideHover()" title="">uppsala.se</a></div>
+<div class="dom"><a href="http://www.uppvidinge.se" onmouseover="showHover(event, 'noc [at] uppcom.se<br/>ns1.uppvidinge.net<br/>ns2.uppvidinge.net<br/>')" onmouseout="hideHover()" title="">uppvidinge.se</a></div>
+<div class="dom"><a href="http://www.vadstena.se" onmouseover="showHover(event, 'registry [at] allhosting.se<br/>ns1.allhosting.se<br/>ns2.allhosting.se<br/>ns3.allhosting.se<br/>')" onmouseout="hideHover()" title="">vadstena.se</a></div>
+<div class="dom"><a href="http://www.vaggeryd.se" onmouseover="showHover(event, 'hostmaster [at] vaggeryd.se<br/>dns1.telia.com<br/>ns.vaggeryd.se<br/>')" onmouseout="hideHover()" title="">vaggeryd.se</a></div>
+<div class="warningDom"><a href="http://www.valdemarsvik.se" onmouseover="showHover(event, 'hostmaster [at] valdemarsvik.se<br/>Rekursiv<br/>Warning (2)<br/>ns.valdemarsvik.se<br/>dns6.telia.com<br/>')" onmouseout="hideHover()" title="">valdemarsvik.se</a></div>
+<div class="dom"><a href="http://www.vallentuna.se" onmouseover="showHover(event, 'postmaster [at] vallentuna.se<br/>ns.vallentuna.se<br/>dns5.telia.com<br/>')" onmouseout="hideHover()" title="">vallentuna.se</a></div>
+<div class="okdom"><a href="http://www.vansbro.se" onmouseover="showHover(event, 'systemansvarig [at] vansbro.se<br/>ns3.interlan.se<br/>ns.vansbro.se<br/>ns.interlan.se<br/>')" onmouseout="hideHover()" title=""><img src="tick.png" style="width:16px;height:16px;border:0px"/>&nbsp;vansbro.se</a></div>
+<div class="errorDom"><a href="http://www.vara.se" onmouseover="showHover(event, 'ola [at] johansson.vara.se<br/>Error (4)<br/>Warning (2)<br/>dns.vsn.vara.se<br/>dns2.telia.com<br/>pub-gw.vara.se<br/>gms.vara.se<br/>')" onmouseout="hideHover()" title="">vara.se</a></div>
+<div class="dom"><a href="http://www.varberg.se" onmouseover="showHover(event, 'registry [at] varbergenergi.se<br/>ns02.varberg.net<br/>ns01.varberg.net<br/>')" onmouseout="hideHover()" title="">varberg.se</a></div>
+<div class="dom"><a href="http://www.varberg.se" onmouseover="showHover(event, 'registry [at] varbergenergi.se<br/>ns02.varberg.net<br/>ns01.varberg.net<br/>')" onmouseout="hideHover()" title="">varberg.se</a></div>
+<div class="errorDom"><a href="http://www.vaxholm.se" onmouseover="showHover(event, ' [at] ostmaster<br/>Error (6)<br/>ns.vaxholm.se<br/>')" onmouseout="hideHover()" title="">vaxholm.se</a></div>
+<div class="warningDom"><a href="http://www.vellinge.se" onmouseover="showHover(event, 'dnsadmin [at] vellinge.se<br/>Rekursiv<br/>Warning (1)<br/>kista.dns.swip.net<br/>ns1.vellinge.se<br/>malmoe.dns.swip.net<br/>')" onmouseout="hideHover()" title="">vellinge.se</a></div>
+<div class="warningDom"><a href="http://www.vetlanda.se" onmouseover="showHover(event, 'hostmaster [at] ns.vetlanda.se<br/>Warning (3)<br/>dns2.telia.com<br/>ns.vetlanda.se<br/>')" onmouseout="hideHover()" title="">vetlanda.se</a></div>
+<div class="warningDom"><a href="http://www.vilhelmina.se" onmouseover="showHover(event, 'hostmaster [at] vilhelmina.se<br/>Warning (1)<br/>dns.umea.se<br/>ns.vilhelmina.se<br/>')" onmouseout="hideHover()" title="">vilhelmina.se</a></div>
+<div class="dom"><a href="http://www.vimmerby.se" onmouseover="showHover(event, 'dns [at] telia.net<br/>dns3.telia.com<br/>dns4.telia.com<br/>')" onmouseout="hideHover()" title="">vimmerby.se</a></div>
+<div class="errorDom"><a href="http://www.vindeln.se" onmouseover="showHover(event, '43243 [at] vindeln.se<br/>Error (1)<br/>Warning (1)<br/>ns2.vindeln.se<br/>ns1.vindeln.se<br/>')" onmouseout="hideHover()" title="">vindeln.se</a></div>
+<div class="dom"><a href="http://www.vingaker.se" onmouseover="showHover(event, 'dns [at] telia.net<br/>dns3.telia.com<br/>dns4.telia.com<br/>')" onmouseout="hideHover()" title="">vingaker.se</a></div>
+<div class="errorDom"><a href="http://www.vargarda.se" onmouseover="showHover(event, 'root [at] ns.vargarda.se<br/>Error (3)<br/>Warning (6)<br/>malmoe.dns.swip.net<br/>ns.vargarda.se<br/>')" onmouseout="hideHover()" title="">vargarda.se</a></div>
+<div class="dom"><a href="http://www.vanersborg.se" onmouseover="showHover(event, 'annrob [at] vanersborg.se<br/>ns.vanersborg.se<br/>dns1.telia.com<br/>')" onmouseout="hideHover()" title="">vanersborg.se</a></div>
+<div class="errorDom"><a href="http://www.vannas.se" onmouseover="showHover(event, 'it-support [at] vannas.se<br/>Error (2)<br/>ns.vannas.se<br/>dns.umea.se<br/>')" onmouseout="hideHover()" title="">vannas.se</a></div>
+<div class="warningDom"><a href="http://www.varmdo.se" onmouseover="showHover(event, 'sysadmin [at] varmdo.se<br/>Warning (1)<br/>njord.xsoft.se<br/>dns1.varmdo.se<br/>dns2.varmdo.se<br/>')" onmouseout="hideHover()" title="">varmdo.se</a></div>
+<div class="dom"><a href="http://www.varnamo.se" onmouseover="showHover(event, 'itinfo [at] varnamo.se<br/>dns1.telia.com<br/>ns2.varnamo.se<br/>ns.varnamo.se<br/>')" onmouseout="hideHover()" title="">varnamo.se</a></div>
+<div class="errorDom"><a href="http://www.vastervik.se" onmouseover="showHover(event, 'root [at] vastervik.se<br/>Rekursiv<br/>Error (2)<br/>Warning (1)<br/>blade.vastervik.se<br/>dns2.telia.com<br/>')" onmouseout="hideHover()" title="">vastervik.se</a></div>
+<div class="dom"><a href="http://www.vasteras.se" onmouseover="showHover(event, 'hostmaster [at] vasteras.se<br/>ns.vasteras.se<br/>orebro.dns.swip.net<br/>')" onmouseout="hideHover()" title="">vasteras.se</a></div>
+<div class="warningDom"><a href="http://www.vaxjo.se" onmouseover="showHover(event, 'hostmaster [at] kommun.vaxjo.se<br/>Rekursiv<br/>Warning (2)<br/>ns2.vaxjo.se<br/>ns.vaxjo.se<br/>')" onmouseout="hideHover()" title="">vaxjo.se</a></div>
+<div class="warningDom"><a href="http://www.vaxjo.se" onmouseover="showHover(event, 'hostmaster [at] kommun.vaxjo.se<br/>Rekursiv<br/>Warning (2)<br/>ns2.vaxjo.se<br/>ns.vaxjo.se<br/>')" onmouseout="hideHover()" title="">vaxjo.se</a></div>
+<div class="dom"><a href="http://www.ydre.se" onmouseover="showHover(event, 'noc [at] vokby.se<br/>ns2.vokby.se<br/>ns1.vokby.se<br/>')" onmouseout="hideHover()" title="">ydre.se</a></div>
+<div class="dom"><a href="http://www.ystad.se" onmouseover="showHover(event, 'hostmaster [at] ystad.se<br/>ns.ystad.se<br/>kista.dns.swip.net<br/>malmoe.dns.swip.net<br/>')" onmouseout="hideHover()" title="">ystad.se</a></div>
+<div class="errorDom"><a href="http://www.amal.se" onmouseover="showHover(event, 'hostmaster [at] mellerud.se<br/>Rekursiv<br/>Error (3)<br/>Warning (2)<br/>ns1.dalsnet.se<br/>dns5.telia.com<br/>ns2.dalsnet.se<br/>')" onmouseout="hideHover()" title="">amal.se</a></div>
+<div class="errorDom"><a href="http://www.ange.se" onmouseover="showHover(event, 'lars [at] serva.net<br/>Rekursiv<br/>Error (2)<br/>Warning (5)<br/>ns2.serva.net<br/>ns1.serva.net<br/>')" onmouseout="hideHover()" title="">ange.se</a></div>
+<div class="dom"><a href="http://www.are.se" onmouseover="showHover(event, 'hostmaster [at] jamtport.se<br/>dns2.jamtport.se<br/>dns1.jamtport.se<br/>')" onmouseout="hideHover()" title="">are.se</a></div>
+<div class="dom"><a href="http://www.arjang.se" onmouseover="showHover(event, 'webmail [at] arjang.se<br/>dns1.arjang.se<br/>ns2.itresource.se<br/>')" onmouseout="hideHover()" title="">arjang.se</a></div>
+<div class="errorDom"><a href="http://www.asele.se" onmouseover="showHover(event, 'hostmaster [at] ns.asele.se<br/>Rekursiv<br/>Error (1)<br/>Warning (3)<br/>dns.umea.se<br/>dns.asele.se<br/>')" onmouseout="hideHover()" title="">asele.se</a></div>
+<div class="warningDom"><a href="http://www.astorp.se" onmouseover="showHover(event, 'hostmaster [at] astorp.se<br/>Rekursiv<br/>Warning (1)<br/>ns.astorp.se<br/>dns6.telia.com<br/>')" onmouseout="hideHover()" title="">astorp.se</a></div>
+<div class="dom"><a href="http://www.atvidaberg.se" onmouseover="showHover(event, 'registry [at] itsam.se<br/>ns1.vokby.se<br/>ns2.vokby.se<br/>')" onmouseout="hideHover()" title="">atvidaberg.se</a></div>
+<div class="dom"><a href="http://www.almhult.se" onmouseover="showHover(event, 'registry [at] pulsen.se<br/>dns5.telia.com<br/>ns.pulsen.se<br/>')" onmouseout="hideHover()" title="">almhult.se</a></div>
+<div class="dom"><a href="http://www.alvdalen.se" onmouseover="showHover(event, 'hostmaster [at] mora.se<br/>ns2.kringdata.net<br/>nic.mora.se<br/>')" onmouseout="hideHover()" title="">alvdalen.se</a></div>
+<div class="warningDom"><a href="http://www.alvkarleby.se" onmouseover="showHover(event, 'hostmaster [at] ns.alvkarleby.se<br/>Rekursiv<br/>Warning (3)<br/>ns1.borderlight.net<br/>ns2.borderlight.net<br/>ns.alvkarleby.se<br/>')" onmouseout="hideHover()" title="">alvkarleby.se</a></div>
+<div class="errorDom"><a href="http://www.alvsbyn.se" onmouseover="showHover(event, 'hostmaster [at] alvsbyn.se<br/>Error (2)<br/>dns2.alvsbyn.se<br/>dns1.alvsbyn.se<br/>')" onmouseout="hideHover()" title="">alvsbyn.se</a></div>
+<div class="warningDom"><a href="http://www.engelholm.se" onmouseover="showHover(event, 'hostmaster [at] thalamus.net<br/>Rekursiv<br/>Warning (3)<br/>ns2.thalamus.net<br/>ns3.thalamus.net<br/>ns1.thalamus.net<br/>')" onmouseout="hideHover()" title="">engelholm.se</a></div>
+<div class="dom"><a href="http://www.ockero.se" onmouseover="showHover(event, 'dns [at] telia.net<br/>dns10.telia.com<br/>dns9.telia.com<br/>')" onmouseout="hideHover()" title="">ockero.se</a></div>
+<div class="dom"><a href="http://www.odeshog.se" onmouseover="showHover(event, 'noc [at] vokby.se<br/>ns2.vokby.se<br/>ns1.vokby.se<br/>')" onmouseout="hideHover()" title="">odeshog.se</a></div>
+<div class="dom"><a href="http://www.orebro.se" onmouseover="showHover(event, 'hostmaster [at] orebro.se<br/>ns.orebro.se<br/>dns2.utfors.se<br/>')" onmouseout="hideHover()" title="">orebro.se</a></div>
+<div class="okdom"><a href="http://www.orkelljunga.se" onmouseover="showHover(event, 'hostmaster [at] orkelljunga.se<br/>ns.orkelljunga.se<br/>dns2.telia.com<br/>')" onmouseout="hideHover()" title=""><img src="tick.png" style="width:16px;height:16px;border:0px"/>&nbsp;orkelljunga.se</a></div>
+<div class="dom"><a href="http://www.ornskoldsvik.se" onmouseover="showHover(event, 'hostmaster [at] ornskoldsvik.se<br/>ns2.ornskoldsvik.se<br/>ns.ornskoldsvik.se<br/>')" onmouseout="hideHover()" title="">ornskoldsvik.se</a></div>
+<div class="errorDom"><a href="http://www.ostersund.se" onmouseover="showHover(event, 'registry [at] tyfon.net<br/>Error (1)<br/>auth02.tyfon.net<br/>auth03.tyfon.net<br/>')" onmouseout="hideHover()" title="">ostersund.se</a></div>
+<div class="okdom"><a href="http://www.osteraker.se" onmouseover="showHover(event, 'support [at] osteraker.se<br/>ns1.teknikbyran.com<br/>ns.osteraker.se<br/>ns2.teknikbyran.com<br/>')" onmouseout="hideHover()" title=""><img src="tick.png" style="width:16px;height:16px;border:0px"/>&nbsp;osteraker.se</a></div>
+<div class="dom"><a href="http://www.osthammar.se" onmouseover="showHover(event, 'hostmaster [at] osthammar.se<br/>dmzse-dns2.osthammar.se<br/>dmzse-dns1.osthammar.se<br/>')" onmouseout="hideHover()" title="">osthammar.se</a></div>
+<div class="warningDom"><a href="http://www.ostragoinge.se" onmouseover="showHover(event, 'hostmaster [at] ns.ostragoinge.se<br/>Warning (3)<br/>ns.ostragoinge.se<br/>kista.dns.swip.net<br/>malmoe.dns.swip.net<br/>')" onmouseout="hideHover()" title="">ostragoinge.se</a></div>
+<div class="dom"><a href="http://www.overkalix.se" onmouseover="showHover(event, 'postmaster [at] overkalix.se<br/>dns.overkalix.se<br/>dns2.overkalix.se<br/>')" onmouseout="hideHover()" title="">overkalix.se</a></div>
+<div class="warningDom"><a href="http://www.overtornea.se" onmouseover="showHover(event, 'postmaster [at] overtornea.se<br/>Warning (2)<br/>dns.overtornea.se<br/>stad.overtornea.se<br/>')" onmouseout="hideHover()" title="">overtornea.se</a></div>
+				<div style="clear:both">&nbsp;</div>
+			</div>
+			<div style="clear:both">&nbsp;</div>
+		</div>
+
+		<div id="hoverDiv" style="position:absolute;visibility:hidden;left:0px;top:0px;font:11px verdana;border:1px solid #AFAF20;padding:4px; width:220px;background-color:#FFFFE0;">&nbsp;</div>
+
+	</body>
+</html>
+

@@ -1,0 +1,110 @@
+  0.000: asele.se INFO Begin testing zone asele.se with version 1.2.
+  0.000: asele.se INFO Begin testing delegation for asele.se.
+  9.160: asele.se INFO Name servers listed at parent: dns.asele.se,dns.umea.se
+ 10.745: asele.se INFO Name servers listed at child: dns.asele.se,dns.umea.se,ns2.dorotea.se
+ 10.745: asele.se NOTICE Additional name server listed at child: ns2.dorotea.se
+ 10.745: asele.se NOTICE No IPv6 name servers found.
+ 10.755: asele.se INFO Parent glue for asele.se found: dns.asele.se (80.88.117.235)
+ 10.782: asele.se INFO Parent glue for asele.se found: dns.umea.se (194.165.224.165)
+ 10.790: asele.se INFO Checking glue for dns.asele.se (80.88.117.235).
+ 10.804: asele.se INFO Child glue for asele.se found: dns.asele.se (80.88.117.235)
+ 10.804: asele.se INFO Checking glue for dns.umea.se (194.165.224.165).
+ 10.804: asele.se INFO Parent glue for asele.se found: dns.asele.se (80.88.117.235)
+ 10.805: asele.se INFO Parent glue for asele.se found: dns.umea.se (194.165.224.165)
+ 10.805: asele.se INFO Done testing delegation for asele.se.
+ 10.805: asele.se INFO Begin testing name server dns.asele.se.
+ 10.806: asele.se INFO Begin testing host dns.asele.se.
+ 10.806: asele.se INFO Begin testing address 80.88.117.235.
+ 20.412: asele.se INFO Done testing address 80.88.117.235.
+ 20.412: asele.se INFO Done testing host dns.asele.se.
+ 20.427: asele.se INFO Name server dns.asele.se (80.88.117.235) answers queries over UDP.
+ 20.453: asele.se INFO Name server dns.asele.se (80.88.117.235) answers queries over TCP.
+ 20.504: asele.se WARNING Name server dns.asele.se (80.88.117.235) is recursive.
+ 20.520: asele.se INFO Name server dns.asele.se (80.88.117.235) authoritative for asele.se.
+ 20.564: asele.se NOTICE Name server dns.asele.se (80.88.117.235) open for zone transfer of asele.se.
+ 20.578: asele.se NOTICE No answer received from 80.88.117.235 when querying for hostname.bind/CH/TXT.
+ 20.591: asele.se INFO Legacy name server ID for dns.asele.se (80.88.117.235): version.bind = 9.2.3
+ 20.605: asele.se NOTICE No answer received from 80.88.117.235 when querying for id.server/CH/TXT.
+ 20.619: asele.se NOTICE No answer received from 80.88.117.235 when querying for version.server/CH/TXT.
+ 20.619: asele.se INFO Done testing name server dns.asele.se.
+ 20.619: asele.se INFO Begin testing name server dns.umea.se.
+ 20.619: asele.se INFO Begin testing host dns.umea.se.
+ 20.619: asele.se INFO Begin testing address 194.165.224.165.
+ 20.832: asele.se INFO Done testing address 194.165.224.165.
+ 20.832: asele.se INFO Done testing host dns.umea.se.
+ 20.855: asele.se INFO Name server dns.umea.se (194.165.224.165) answers queries over UDP.
+ 20.895: asele.se INFO Name server dns.umea.se (194.165.224.165) answers queries over TCP.
+ 20.916: asele.se INFO Name server dns.umea.se (194.165.224.165) is not recursive.
+ 20.938: asele.se INFO Name server dns.umea.se (194.165.224.165) authoritative for asele.se.
+ 20.995: asele.se INFO Name server dns.umea.se (194.165.224.165) closed for zone transfer of asele.se.
+ 21.016: asele.se INFO Legacy name server ID for dns.umea.se (194.165.224.165): hostname.bind = dns2mgmt.norrnod.se
+ 21.037: asele.se INFO Legacy name server ID for dns.umea.se (194.165.224.165): version.bind = hakan 100107
+ 21.077: asele.se NOTICE No answer received from 194.165.224.165 when querying for version.server/CH/TXT.
+ 21.077: asele.se INFO Done testing name server dns.umea.se.
+ 21.078: asele.se INFO Begin testing name server ns2.dorotea.se.
+ 21.078: asele.se INFO Begin testing host ns2.dorotea.se.
+ 21.078: asele.se INFO Begin testing address 80.88.100.12.
+ 46.792: asele.se INFO Done testing address 80.88.100.12.
+ 46.792: asele.se INFO Done testing host ns2.dorotea.se.
+ 46.807: asele.se INFO Name server ns2.dorotea.se (80.88.100.12) answers queries over UDP.
+ 46.963: asele.se INFO Name server ns2.dorotea.se (80.88.100.12) answers queries over TCP.
+ 46.992: asele.se INFO Name server ns2.dorotea.se (80.88.100.12) is not recursive.
+ 47.006: asele.se INFO Name server ns2.dorotea.se (80.88.100.12) authoritative for asele.se.
+ 47.125: asele.se NOTICE Name server ns2.dorotea.se (80.88.100.12) open for zone transfer of asele.se.
+ 47.178: asele.se INFO Legacy name server ID for ns2.dorotea.se (80.88.100.12): hostname.bind = www
+ 47.192: asele.se INFO Legacy name server ID for ns2.dorotea.se (80.88.100.12): version.bind = 9.4.2
+ 47.272: asele.se NOTICE No answer received from 80.88.100.12 when querying for version.server/CH/TXT.
+ 47.272: asele.se INFO Done testing name server ns2.dorotea.se.
+ 47.273: asele.se INFO Begin testing zone consistency for asele.se.
+ 47.291: asele.se INFO SOA at address 80.88.100.12 has serial 2010051011.
+ 47.315: asele.se INFO SOA at address 194.165.224.165 has serial 2010051011.
+ 47.334: asele.se INFO SOA at address 80.88.117.235 has serial 2010051011.
+ 47.334: asele.se INFO All SOA records have consistent serial numbers.
+ 47.334: asele.se INFO All SOA records are consistent among all name servers.
+ 47.334: asele.se INFO Done testing zone consistency for asele.se.
+ 47.335: asele.se INFO Begin testing SOA parameters for asele.se.
+ 47.351: asele.se INFO Found SOA record for asele.se.
+ 47.351: asele.se INFO Begin testing host dns.asele.se.
+ 47.351: asele.se INFO Begin testing address 80.88.117.235.
+ 47.353: asele.se INFO Done testing address 80.88.117.235.
+ 47.353: asele.se INFO Done testing host dns.asele.se.
+ 47.353: asele.se INFO SOA MNAME for asele.se valid (dns.asele.se).
+ 47.353: asele.se INFO SOA MNAME for asele.se (dns.asele.se) listed as NS.
+ 47.372: asele.se INFO SOA MNAME for asele.se (dns.asele.se) is authoritative.
+ 47.372: asele.se INFO Begin testing email address hostmaster@ns.asele.se.
+ 47.598: asele.se INFO Mail exchangers for hostmaster@ns.asele.se found afrodite.asele.se.
+ 47.598: asele.se INFO All mail servers for hostmaster@ns.asele.se are in zone asele.se.
+ 47.598: asele.se INFO Begin testing host afrodite.asele.se.
+ 48.070: asele.se INFO Begin testing address 80.88.117.234.
+ 48.327: asele.se INFO Done testing address 80.88.117.234.
+ 48.327: asele.se INFO Done testing host afrodite.asele.se.
+ 48.328: asele.se INFO Begin testing mail server afrodite.asele.se (80.88.117.234) with hostmaster@ns.asele.se.
+ 49.049: asele.se INFO SMTP banner: afrodite.asele.se ESMTP Sendmail 8.13.8/8.13.8; Mon, 13 Dec 2010 22:16:52 +0100
+ 49.072: asele.se WARNING Host did not accept hostmaster@ns.asele.se as SMTP recipient.
+ 49.094: asele.se INFO Done testing mail server afrodite.asele.se (80.88.117.234) with hostmaster@ns.asele.se.
+ 49.094: asele.se WARNING Delivery over IPv4 to hostmaster@ns.asele.se could not be done.
+ 49.094: asele.se INFO Delivery over IPv6 to hostmaster@ns.asele.se could not be done.
+ 49.094: asele.se INFO Done testing email address hostmaster@ns.asele.se.
+ 49.094: asele.se WARNING Failed to deliver email for SOA RNAME of asele.se (hostmaster.ns.asele.se) using hostmaster@ns.asele.se.
+ 49.094: asele.se INFO SOA TTL for asele.se OK (38400) - recommended >= 3600.
+ 49.094: asele.se NOTICE SOA refresh for asele.se too small (10800) - recommended >= 14400.
+ 49.094: asele.se INFO SOA retry for asele.se OK (3600) - recommended >= 3600.
+ 49.094: asele.se INFO SOA expire for asele.se OK (604800) - recommended >= 604800.
+ 49.095: asele.se INFO SOA minimum for asele.se OK (38400) - recommended between 300 and 86400.
+ 49.095: asele.se INFO Done testing SOA parameters for asele.se.
+ 49.095: asele.se INFO Begin testing connectivity for asele.se.
+ 49.723: asele.se INFO Name server 80.88.100.12 announced by: 25176
+ 50.340: asele.se INFO Name server 194.165.224.165 announced by: 12501
+ 55.016: asele.se INFO Name server 80.88.117.235 announced by: 25176
+ 55.016: asele.se INFO Zone announced by IPv4 ASN: 12501,25176
+ 55.016: asele.se INFO Zone announced by more than one ASN (2).
+ 55.016: asele.se INFO Zone announced by IPv6 ASN: 
+ 55.016: asele.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 55.016: asele.se INFO Done testing connectivity for asele.se.
+ 55.016: asele.se INFO Begin testing DNSSEC for asele.se.
+ 55.118: asele.se INFO Did not find DS record for asele.se at parent.
+ 55.309: asele.se INFO Servers for asele.se have consistent extra processing status.
+ 55.309: asele.se INFO Did not find DNSKEY record for asele.se at child.
+ 55.309: asele.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 55.309: asele.se INFO Done testing DNSSEC for asele.se.
+ 55.309: asele.se INFO Test completed for zone asele.se.

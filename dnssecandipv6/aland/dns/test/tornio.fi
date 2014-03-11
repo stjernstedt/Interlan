@@ -1,0 +1,88 @@
+  0.000: tornio.fi INFO Begin testing zone tornio.fi with version 1.5.0.
+  2.203: tornio.fi INFO Begin testing delegation for tornio.fi.
+ 50.738: tornio.fi INFO Name servers listed at parent: ns1.taajama.fi,ns4.taajama.fi
+ 66.589: tornio.fi INFO Name servers listed at child: ns1.taajama.fi,ns4.taajama.fi
+ 66.589: tornio.fi NOTICE No IPv6 name servers found.
+ 67.165: tornio.fi INFO Parent glue for tornio.fi found: ns1.taajama.fi (83.102.40.26)
+ 68.149: tornio.fi INFO Parent glue for tornio.fi found: ns4.taajama.fi (83.102.40.27)
+ 68.601: tornio.fi INFO Checking glue for ns1.taajama.fi (83.102.40.26).
+ 68.601: tornio.fi INFO Checking glue for ns4.taajama.fi (83.102.40.27).
+ 68.601: tornio.fi INFO Parent glue for tornio.fi found: ns1.taajama.fi (83.102.40.26)
+ 68.602: tornio.fi INFO Parent glue for tornio.fi found: ns4.taajama.fi (83.102.40.27)
+ 75.836: tornio.fi INFO It is possible to build a referral packet for tornio.fi that works without EDNS0.
+ 81.580: tornio.fi INFO Previously used name servers for tornio.fi: 
+ 81.580: tornio.fi INFO Done testing delegation for tornio.fi.
+ 81.581: tornio.fi INFO Begin testing name server ns1.taajama.fi.
+ 81.581: tornio.fi INFO Begin testing host ns1.taajama.fi.
+ 84.277: tornio.fi INFO Begin testing address 83.102.40.26.
+130.916: tornio.fi INFO Done testing address 83.102.40.26.
+130.916: tornio.fi INFO Done testing host ns1.taajama.fi.
+132.767: tornio.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over UDP.
+132.921: tornio.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over TCP.
+133.207: tornio.fi INFO Name server ns1.taajama.fi (83.102.40.26) is not recursive.
+133.909: tornio.fi INFO Name server ns1.taajama.fi (83.102.40.26) authoritative for tornio.fi.
+134.098: tornio.fi INFO Name server ns1.taajama.fi (83.102.40.26) closed for zone transfer of tornio.fi.
+134.408: tornio.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): hostname.bind = kotkarausku
+134.657: tornio.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): version.bind = Not disclosed
+135.100: tornio.fi NOTICE No answer received from 83.102.40.26 when querying for version.server/CH/TXT.
+135.100: tornio.fi INFO Done testing name server ns1.taajama.fi.
+135.100: tornio.fi INFO Begin testing name server ns4.taajama.fi.
+135.100: tornio.fi INFO Begin testing host ns4.taajama.fi.
+137.015: tornio.fi INFO Begin testing address 83.102.40.27.
+140.802: tornio.fi INFO Done testing address 83.102.40.27.
+140.802: tornio.fi INFO Done testing host ns4.taajama.fi.
+142.582: tornio.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over UDP.
+142.857: tornio.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over TCP.
+143.145: tornio.fi INFO Name server ns4.taajama.fi (83.102.40.27) is not recursive.
+143.818: tornio.fi INFO Name server ns4.taajama.fi (83.102.40.27) authoritative for tornio.fi.
+144.043: tornio.fi INFO Name server ns4.taajama.fi (83.102.40.27) closed for zone transfer of tornio.fi.
+144.260: tornio.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): hostname.bind = perhosrausku
+144.492: tornio.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): version.bind = Not disclosed
+144.903: tornio.fi NOTICE No answer received from 83.102.40.27 when querying for version.server/CH/TXT.
+144.904: tornio.fi INFO Done testing name server ns4.taajama.fi.
+144.904: tornio.fi INFO Begin testing zone consistency for tornio.fi.
+153.264: tornio.fi INFO SOA at address 83.102.40.26 has serial 2012060403.
+153.497: tornio.fi INFO SOA at address 83.102.40.27 has serial 2012060403.
+153.497: tornio.fi INFO All SOA records have consistent serial numbers.
+153.497: tornio.fi INFO All other fields in the SOA record are consistent among all name servers.
+158.733: tornio.fi NOTICE The listed nameservers for tornio.fi all report the same set of nameservers.
+158.733: tornio.fi INFO Done testing zone consistency for tornio.fi.
+158.733: tornio.fi INFO Begin testing SOA parameters for tornio.fi.
+159.105: tornio.fi INFO Found SOA record for tornio.fi.
+159.105: tornio.fi INFO Begin testing host ns1.taajama.fi.
+161.380: tornio.fi INFO Begin testing address 83.102.40.26.
+163.492: tornio.fi INFO Done testing address 83.102.40.26.
+163.492: tornio.fi INFO Done testing host ns1.taajama.fi.
+163.492: tornio.fi INFO SOA MNAME for tornio.fi valid (ns1.taajama.fi).
+163.492: tornio.fi INFO SOA MNAME for tornio.fi (ns1.taajama.fi) listed as NS.
+165.981: tornio.fi INFO SOA MNAME for tornio.fi (ns1.taajama.fi) is authoritative.
+165.981: tornio.fi INFO Begin testing email address hostmaster@taajama.com.
+168.081: tornio.fi INFO Mail exchangers for hostmaster@taajama.com found spp.taajama.fi,mx2.taajama.com.
+168.082: tornio.fi INFO Begin testing host spp.taajama.fi.
+171.592: tornio.fi INFO Begin testing address 217.78.212.151.
+175.652: tornio.fi INFO Done testing address 217.78.212.151.
+175.652: tornio.fi INFO Done testing host spp.taajama.fi.
+177.487: tornio.fi INFO Begin testing host mx2.taajama.com.
+180.674: tornio.fi INFO Begin testing address 83.102.41.75.
+184.010: tornio.fi INFO Done testing address 83.102.41.75.
+184.010: tornio.fi INFO Done testing host mx2.taajama.com.
+185.708: tornio.fi INFO Done testing email address hostmaster@taajama.com.
+185.708: tornio.fi INFO Successful attempt to deliver email for SOA RNAME of tornio.fi (hostmaster.taajama.com) using hostmaster@taajama.com.
+185.708: tornio.fi INFO SOA TTL for tornio.fi OK (3600) - recommended >= 3600.
+185.708: tornio.fi INFO SOA refresh for tornio.fi OK (28800) - recommended >= 14400.
+185.708: tornio.fi INFO SOA retry for tornio.fi OK (7200) - recommended >= 3600.
+185.708: tornio.fi INFO SOA expire for tornio.fi OK (1814400) - recommended >= 604800.
+185.709: tornio.fi INFO SOA minimum for tornio.fi OK (86400) - recommended between 300 and 86400.
+185.709: tornio.fi INFO Done testing SOA parameters for tornio.fi.
+185.709: tornio.fi INFO Begin testing connectivity for tornio.fi.
+190.177: tornio.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+190.177: tornio.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+190.178: tornio.fi INFO Done testing connectivity for tornio.fi.
+190.178: tornio.fi INFO Begin testing DNSSEC for tornio.fi.
+191.007: tornio.fi INFO Did not find DS record for tornio.fi at parent.
+191.520: tornio.fi INFO Servers for tornio.fi have consistent extra processing status.
+191.744: tornio.fi INFO Authenticated denial records not found for tornio.fi.
+191.956: tornio.fi INFO Did not find DNSKEY record for tornio.fi at child.
+191.956: tornio.fi INFO No DNSKEY(s) found at child, other tests skipped.
+191.956: tornio.fi INFO Done testing DNSSEC for tornio.fi.
+191.957: tornio.fi INFO Test completed for zone tornio.fi.

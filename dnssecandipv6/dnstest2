@@ -1,0 +1,12 @@
+#!/bin/sh
+cd /home/it-companies
+count=0
+for i in `cat domain` ; do
+	echo $i
+	dnscheck $i | grep -v "Too few IPv6 name servers" >test/$i &
+	count=`echo $count+1|bc`
+	if [ "$count" = "10" ] ; then
+		count=0
+		sleep 45
+	fi
+done

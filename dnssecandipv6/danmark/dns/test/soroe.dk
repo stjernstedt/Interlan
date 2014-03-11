@@ -1,0 +1,80 @@
+  0.000: soroe.dk INFO Begin testing zone soroe.dk with version 1.6.1.
+  0.393: soroe.dk INFO Begin testing delegation for soroe.dk.
+  5.895: soroe.dk INFO Name servers listed at parent: ns01.tdcwebmore.dk,ns02.tdcwebmore.dk
+  7.545: soroe.dk INFO Name servers listed at child: ns01.tdcwebmore.dk,ns02.tdcwebmore.dk
+  7.545: soroe.dk NOTICE No IPv6 name servers found.
+  7.593: soroe.dk INFO Parent glue for soroe.dk found: ns01.tdcwebmore.dk (62.243.74.199)
+  7.705: soroe.dk INFO Parent glue for soroe.dk found: ns02.tdcwebmore.dk (92.43.121.7)
+  7.880: soroe.dk INFO Checking glue for ns01.tdcwebmore.dk (62.243.74.199).
+  7.881: soroe.dk INFO Checking glue for ns02.tdcwebmore.dk (92.43.121.7).
+  7.881: soroe.dk INFO Parent glue for soroe.dk found: ns01.tdcwebmore.dk (62.243.74.199)
+  7.917: soroe.dk INFO Parent glue for soroe.dk found: ns02.tdcwebmore.dk (92.43.121.7)
+  8.834: soroe.dk INFO It is possible to build a referral packet for soroe.dk that works without EDNS0.
+  9.382: soroe.dk INFO Previously used name servers for soroe.dk: 
+  9.382: soroe.dk INFO Done testing delegation for soroe.dk.
+  9.382: soroe.dk INFO Begin testing name server ns01.tdcwebmore.dk.
+  9.382: soroe.dk INFO Begin testing host ns01.tdcwebmore.dk.
+  9.601: soroe.dk INFO Begin testing address 62.243.74.199.
+ 18.034: soroe.dk INFO Done testing address 62.243.74.199.
+ 18.034: soroe.dk INFO Done testing host ns01.tdcwebmore.dk.
+ 18.323: soroe.dk INFO Name server ns01.tdcwebmore.dk (62.243.74.199) answers queries over UDP.
+ 18.378: soroe.dk INFO Name server ns01.tdcwebmore.dk (62.243.74.199) answers queries over TCP.
+ 18.407: soroe.dk INFO Name server ns01.tdcwebmore.dk (62.243.74.199) is not recursive.
+ 18.508: soroe.dk INFO Name server ns01.tdcwebmore.dk (62.243.74.199) authoritative for soroe.dk.
+ 18.570: soroe.dk INFO Name server ns01.tdcwebmore.dk (62.243.74.199) closed for zone transfer of soroe.dk.
+ 18.624: soroe.dk INFO Legacy name server ID for ns01.tdcwebmore.dk (62.243.74.199): version.bind = PowerDNS Authoritative Server 3.3 (jenkins@autotest.powerdns.com built 20130708130708 mockbuild@repo.monshouwer.eu)
+ 18.670: soroe.dk INFO Done testing name server ns01.tdcwebmore.dk.
+ 18.670: soroe.dk INFO Begin testing name server ns02.tdcwebmore.dk.
+ 18.670: soroe.dk INFO Begin testing host ns02.tdcwebmore.dk.
+ 18.807: soroe.dk INFO Begin testing address 92.43.121.7.
+ 19.418: soroe.dk INFO Done testing address 92.43.121.7.
+ 19.418: soroe.dk INFO Done testing host ns02.tdcwebmore.dk.
+ 19.826: soroe.dk INFO Name server ns02.tdcwebmore.dk (92.43.121.7) answers queries over UDP.
+ 19.862: soroe.dk INFO Name server ns02.tdcwebmore.dk (92.43.121.7) answers queries over TCP.
+ 19.888: soroe.dk INFO Name server ns02.tdcwebmore.dk (92.43.121.7) is not recursive.
+ 19.969: soroe.dk INFO Name server ns02.tdcwebmore.dk (92.43.121.7) authoritative for soroe.dk.
+ 20.025: soroe.dk INFO Name server ns02.tdcwebmore.dk (92.43.121.7) closed for zone transfer of soroe.dk.
+ 20.071: soroe.dk INFO Legacy name server ID for ns02.tdcwebmore.dk (92.43.121.7): version.bind = PowerDNS Authoritative Server 3.3 (jenkins@autotest.powerdns.com built 20130708130708 mockbuild@repo.monshouwer.eu)
+ 20.104: soroe.dk INFO Done testing name server ns02.tdcwebmore.dk.
+ 20.104: soroe.dk INFO Begin testing zone consistency for soroe.dk.
+ 20.706: soroe.dk INFO SOA at address 92.43.121.7 has serial 2014022000.
+ 20.766: soroe.dk INFO SOA at address 62.243.74.199 has serial 2014022000.
+ 20.766: soroe.dk INFO All SOA records have consistent serial numbers.
+ 20.766: soroe.dk INFO All other fields in the SOA record are consistent among all name servers.
+ 21.196: soroe.dk NOTICE The listed nameservers for soroe.dk all report the same set of nameservers.
+ 21.196: soroe.dk INFO Done testing zone consistency for soroe.dk.
+ 21.196: soroe.dk INFO Begin testing SOA parameters for soroe.dk.
+ 21.241: soroe.dk INFO Found SOA record for soroe.dk.
+ 21.241: soroe.dk INFO Begin testing host ns01.tdcwebmore.dk.
+ 21.401: soroe.dk INFO Begin testing address 62.243.74.199.
+ 21.593: soroe.dk INFO Done testing address 62.243.74.199.
+ 21.593: soroe.dk INFO Done testing host ns01.tdcwebmore.dk.
+ 21.593: soroe.dk INFO SOA MNAME for soroe.dk valid (ns01.tdcwebmore.dk).
+ 21.593: soroe.dk INFO SOA MNAME for soroe.dk (ns01.tdcwebmore.dk) listed as NS.
+ 21.768: soroe.dk INFO SOA MNAME for soroe.dk (ns01.tdcwebmore.dk) is authoritative.
+ 21.768: soroe.dk INFO Begin testing email address hostmaster@tele.dk.
+ 22.049: soroe.dk INFO Mail exchangers for hostmaster@tele.dk found mailgrinder.inet.tele.dk.
+ 22.097: soroe.dk INFO Begin testing host mailgrinder.inet.tele.dk.
+ 22.829: soroe.dk INFO Begin testing address 195.41.53.78.
+ 24.102: soroe.dk INFO Done testing address 195.41.53.78.
+ 24.102: soroe.dk INFO Done testing host mailgrinder.inet.tele.dk.
+ 24.322: soroe.dk INFO Done testing email address hostmaster@tele.dk.
+ 24.322: soroe.dk INFO Successful attempt to deliver email for SOA RNAME of soroe.dk (hostmaster.tele.dk) using hostmaster@tele.dk.
+ 24.322: soroe.dk INFO SOA TTL for soroe.dk OK (21600) - recommended >= 3600.
+ 24.322: soroe.dk INFO SOA refresh for soroe.dk OK (14400) - recommended >= 14400.
+ 24.322: soroe.dk INFO SOA retry for soroe.dk OK (7200) - recommended >= 3600.
+ 24.322: soroe.dk INFO SOA expire for soroe.dk OK (604800) - recommended >= 604800.
+ 24.323: soroe.dk INFO SOA minimum for soroe.dk OK (900) - recommended between 300 and 86400.
+ 24.323: soroe.dk INFO Done testing SOA parameters for soroe.dk.
+ 24.323: soroe.dk INFO Begin testing connectivity for soroe.dk.
+ 25.623: soroe.dk INFO Zone announced by more than one ASN.
+ 25.623: soroe.dk NOTICE Zone announced by fewer than two IPv6 ASN.
+ 25.623: soroe.dk INFO Done testing connectivity for soroe.dk.
+ 25.623: soroe.dk INFO Begin testing DNSSEC for soroe.dk.
+ 25.744: soroe.dk INFO Did not find DS record for soroe.dk at parent.
+ 25.852: soroe.dk INFO Servers for soroe.dk have consistent extra processing status.
+ 25.913: soroe.dk INFO Authenticated denial records not found for soroe.dk.
+ 25.946: soroe.dk INFO Did not find DNSKEY record for soroe.dk at child.
+ 25.946: soroe.dk INFO No DNSKEY(s) found at child, other tests skipped.
+ 25.946: soroe.dk INFO Done testing DNSSEC for soroe.dk.
+ 25.946: soroe.dk INFO Test completed for zone soroe.dk.

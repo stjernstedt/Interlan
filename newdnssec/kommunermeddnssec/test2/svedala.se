@@ -1,0 +1,100 @@
+  0.000: svedala.se INFO Begin testing zone svedala.se with version 1.2.
+  0.000: svedala.se INFO Begin testing delegation for svedala.se.
+  5.178: svedala.se INFO Name servers listed at parent: apdns1.addpro.se,apdns2.addpro.se
+  6.774: svedala.se INFO Name servers listed at child: apdns1.addpro.se,apdns2.addpro.se
+  6.775: svedala.se NOTICE No IPv6 name servers found.
+  6.793: svedala.se INFO Parent glue for svedala.se found: apdns1.addpro.se (212.247.95.33)
+  6.851: svedala.se INFO Parent glue for svedala.se found: apdns2.addpro.se (92.33.6.45)
+  6.910: svedala.se INFO Checking glue for apdns1.addpro.se (212.247.95.33).
+  6.911: svedala.se INFO Checking glue for apdns2.addpro.se (92.33.6.45).
+  6.911: svedala.se INFO Parent glue for svedala.se found: apdns1.addpro.se (212.247.95.33)
+  6.911: svedala.se INFO Parent glue for svedala.se found: apdns2.addpro.se (92.33.6.45)
+  6.912: svedala.se INFO Done testing delegation for svedala.se.
+  6.912: svedala.se INFO Begin testing name server apdns1.addpro.se.
+  6.912: svedala.se INFO Begin testing host apdns1.addpro.se.
+  6.913: svedala.se INFO Begin testing address 212.247.95.33.
+ 12.049: svedala.se INFO Done testing address 212.247.95.33.
+ 12.049: svedala.se INFO Done testing host apdns1.addpro.se.
+ 12.069: svedala.se INFO Name server apdns1.addpro.se (212.247.95.33) answers queries over UDP.
+ 12.101: svedala.se INFO Name server apdns1.addpro.se (212.247.95.33) answers queries over TCP.
+ 12.117: svedala.se INFO Name server apdns1.addpro.se (212.247.95.33) is not recursive.
+ 12.135: svedala.se INFO Name server apdns1.addpro.se (212.247.95.33) authoritative for svedala.se.
+ 12.178: svedala.se INFO Name server apdns1.addpro.se (212.247.95.33) closed for zone transfer of svedala.se.
+ 12.197: svedala.se INFO Legacy name server ID for apdns1.addpro.se (212.247.95.33): hostname.bind = apdns1.addpro.se
+ 12.247: svedala.se NOTICE No answer received from 212.247.95.33 when querying for version.server/CH/TXT.
+ 12.247: svedala.se INFO Done testing name server apdns1.addpro.se.
+ 12.247: svedala.se INFO Begin testing name server apdns2.addpro.se.
+ 12.248: svedala.se INFO Begin testing host apdns2.addpro.se.
+ 12.248: svedala.se INFO Begin testing address 92.33.6.45.
+ 14.217: svedala.se INFO Done testing address 92.33.6.45.
+ 14.217: svedala.se INFO Done testing host apdns2.addpro.se.
+ 14.237: svedala.se INFO Name server apdns2.addpro.se (92.33.6.45) answers queries over UDP.
+ 14.272: svedala.se INFO Name server apdns2.addpro.se (92.33.6.45) answers queries over TCP.
+ 14.290: svedala.se INFO Name server apdns2.addpro.se (92.33.6.45) is not recursive.
+ 14.309: svedala.se INFO Name server apdns2.addpro.se (92.33.6.45) authoritative for svedala.se.
+ 14.358: svedala.se INFO Name server apdns2.addpro.se (92.33.6.45) closed for zone transfer of svedala.se.
+ 14.376: svedala.se INFO Legacy name server ID for apdns2.addpro.se (92.33.6.45): hostname.bind = apdns2.addpro.se
+ 14.430: svedala.se NOTICE No answer received from 92.33.6.45 when querying for version.server/CH/TXT.
+ 14.430: svedala.se INFO Done testing name server apdns2.addpro.se.
+ 14.431: svedala.se INFO Begin testing zone consistency for svedala.se.
+ 14.453: svedala.se INFO SOA at address 212.247.95.33 has serial 2005033168.
+ 14.472: svedala.se INFO SOA at address 92.33.6.45 has serial 2005033168.
+ 14.472: svedala.se INFO All SOA records have consistent serial numbers.
+ 14.472: svedala.se INFO All SOA records are consistent among all name servers.
+ 14.472: svedala.se INFO Done testing zone consistency for svedala.se.
+ 14.472: svedala.se INFO Begin testing SOA parameters for svedala.se.
+ 14.491: svedala.se INFO Found SOA record for svedala.se.
+ 14.491: svedala.se INFO Begin testing host apdns1.addpro.se.
+ 14.492: svedala.se INFO Begin testing address 212.247.95.33.
+ 14.493: svedala.se INFO Done testing address 212.247.95.33.
+ 14.493: svedala.se INFO Done testing host apdns1.addpro.se.
+ 14.493: svedala.se INFO SOA MNAME for svedala.se valid (apdns1.addpro.se).
+ 14.493: svedala.se INFO SOA MNAME for svedala.se (apdns1.addpro.se) listed as NS.
+ 14.512: svedala.se INFO SOA MNAME for svedala.se (apdns1.addpro.se) is authoritative.
+ 14.513: svedala.se INFO Begin testing email address postmaster@svedala.se.
+ 14.739: svedala.se INFO Mail exchangers for postmaster@svedala.se found fortet.svedala.se,deframx20.softcom.dk,dkcphmx60.softcom.dk,dkcphmx62.softcom.dk.
+ 14.739: svedala.se INFO Begin testing host fortet.svedala.se.
+ 15.238: svedala.se INFO Begin testing address 193.47.167.8.
+ 15.447: svedala.se INFO Done testing address 193.47.167.8.
+ 15.447: svedala.se INFO Done testing host fortet.svedala.se.
+ 15.447: svedala.se INFO Begin testing mail server fortet.svedala.se (193.47.167.8) with postmaster@svedala.se.
+ 15.522: svedala.se INFO SMTP banner: fortet.svedala.se ESMTP Smtpd; Mon, 13 Dec 2010 21:29:50 +0100
+ 15.577: svedala.se INFO SMTP testing of fortet.svedala.se (193.47.167.8) with postmaster@svedala.se succeeded without errors.
+ 15.577: svedala.se INFO Done testing mail server fortet.svedala.se (193.47.167.8) with postmaster@svedala.se.
+ 15.577: svedala.se INFO Begin testing host deframx20.softcom.dk.
+ 16.147: svedala.se INFO Begin testing address 80.237.207.26.
+ 16.736: svedala.se INFO Done testing address 80.237.207.26.
+ 16.736: svedala.se INFO Done testing host deframx20.softcom.dk.
+ 16.736: svedala.se INFO Begin testing host dkcphmx60.softcom.dk.
+ 17.218: svedala.se INFO Begin testing address 194.192.15.190.
+ 23.239: svedala.se INFO Done testing address 194.192.15.190.
+ 23.239: svedala.se INFO Done testing host dkcphmx60.softcom.dk.
+ 23.240: svedala.se INFO Begin testing host dkcphmx62.softcom.dk.
+ 23.767: svedala.se INFO Begin testing address 213.150.52.217.
+ 24.222: svedala.se INFO Done testing address 213.150.52.217.
+ 24.222: svedala.se INFO Done testing host dkcphmx62.softcom.dk.
+ 24.222: svedala.se INFO Delivery over IPv4 to postmaster@svedala.se ok.
+ 24.223: svedala.se INFO Delivery over IPv6 to postmaster@svedala.se could not be done.
+ 24.223: svedala.se INFO Done testing email address postmaster@svedala.se.
+ 24.223: svedala.se INFO Successful attempt to deliver email for SOA RNAME of svedala.se (postmaster.svedala.se) using postmaster@svedala.se.
+ 24.223: svedala.se INFO SOA TTL for svedala.se OK (28800) - recommended >= 3600.
+ 24.223: svedala.se INFO SOA refresh for svedala.se OK (28800) - recommended >= 14400.
+ 24.223: svedala.se INFO SOA retry for svedala.se OK (7200) - recommended >= 3600.
+ 24.223: svedala.se INFO SOA expire for svedala.se OK (3600000) - recommended >= 604800.
+ 24.223: svedala.se NOTICE SOA minimum for svedala.se too small (60) - recommended >= 300.
+ 24.223: svedala.se INFO Done testing SOA parameters for svedala.se.
+ 24.224: svedala.se INFO Begin testing connectivity for svedala.se.
+ 24.744: svedala.se INFO Name server 212.247.95.33 announced by: 1257
+ 25.495: svedala.se INFO Name server 92.33.6.45 announced by: 2119
+ 25.496: svedala.se INFO Zone announced by IPv4 ASN: 1257,2119
+ 25.496: svedala.se INFO Zone announced by more than one ASN (2).
+ 25.496: svedala.se INFO Zone announced by IPv6 ASN: 
+ 25.496: svedala.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 25.496: svedala.se INFO Done testing connectivity for svedala.se.
+ 25.496: svedala.se INFO Begin testing DNSSEC for svedala.se.
+ 25.572: svedala.se INFO Did not find DS record for svedala.se at parent.
+ 25.639: svedala.se INFO Servers for svedala.se have consistent extra processing status.
+ 25.639: svedala.se INFO Did not find DNSKEY record for svedala.se at child.
+ 25.639: svedala.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 25.640: svedala.se INFO Done testing DNSSEC for svedala.se.
+ 25.640: svedala.se INFO Test completed for zone svedala.se.

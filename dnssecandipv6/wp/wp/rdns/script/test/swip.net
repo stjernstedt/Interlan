@@ -1,0 +1,132 @@
+  0.000: swip.net INFO Begin testing zone swip.net with version 1.0.1.
+  0.001: swip.net INFO Begin testing delegation for swip.net.
+  4.206: swip.net INFO Name servers listed at parent: kalmar.dns.swip.net,kista.dns.swip.net,server.nordu.net,sunic.sunet.se
+  4.708: swip.net INFO Name servers listed at child: kalmar.dns.swip.net,kista.dns.swip.net,server.nordu.net,sunic.sunet.se
+  4.759: swip.net INFO Parent glue for swip.net found: kalmar.dns.swip.net (192.71.180.46)
+  4.990: swip.net INFO Parent glue for swip.net found: kista.dns.swip.net (192.71.220.9)
+  5.196: swip.net INFO Parent glue for swip.net found: server.nordu.net (193.10.252.19)
+  5.645: swip.net INFO Checking glue for kalmar.dns.swip.net (192.71.180.46).
+  5.654: swip.net INFO Child glue for swip.net found: kalmar.dns.swip.net (192.71.180.46)
+  5.654: swip.net INFO Checking glue for kista.dns.swip.net (192.71.220.9).
+  5.662: swip.net INFO Child glue for swip.net found: kista.dns.swip.net (192.71.220.9)
+  5.662: swip.net INFO Checking glue for server.nordu.net (193.10.252.19).
+  5.662: swip.net INFO Done testing delegation for swip.net.
+  5.663: swip.net INFO Begin testing name server kalmar.dns.swip.net.
+  5.663: swip.net INFO Begin testing host kalmar.dns.swip.net.
+  5.663: swip.net INFO Begin testing address 192.71.180.46.
+  8.395: swip.net INFO Done testing address 192.71.180.46.
+  8.395: swip.net INFO Done testing host kalmar.dns.swip.net.
+  8.404: swip.net INFO Name server kalmar.dns.swip.net (192.71.180.46) is not recursive.
+  8.413: swip.net INFO Name server kalmar.dns.swip.net (192.71.180.46) authoritative for swip.net.
+  8.423: swip.net INFO Name server kalmar.dns.swip.net (192.71.180.46) answers queries over UDP.
+  8.441: swip.net INFO Name server kalmar.dns.swip.net (192.71.180.46) answers queries over TCP.
+  8.458: swip.net INFO Name server kalmar.dns.swip.net (192.71.180.46) closed for zone transfer of swip.net.
+  8.470: swip.net INFO Legacy name server ID for kalmar.dns.swip.net (192.71.180.46): hostname.bind = nicodemus
+  8.479: swip.net INFO Legacy name server ID for kalmar.dns.swip.net (192.71.180.46): version.bind = PONG 0.2alpha
+  8.496: swip.net NOTICE No answer received from 192.71.180.46 when querying for version.server/CH/TXT.
+  8.497: swip.net INFO Done testing name server kalmar.dns.swip.net.
+  8.497: swip.net INFO Begin testing name server kista.dns.swip.net.
+  8.497: swip.net INFO Begin testing host kista.dns.swip.net.
+  8.497: swip.net INFO Begin testing address 192.71.220.9.
+  8.549: swip.net INFO Done testing address 192.71.220.9.
+  8.549: swip.net INFO Done testing host kista.dns.swip.net.
+  8.558: swip.net INFO Name server kista.dns.swip.net (192.71.220.9) is not recursive.
+  8.568: swip.net INFO Name server kista.dns.swip.net (192.71.220.9) authoritative for swip.net.
+  8.577: swip.net INFO Name server kista.dns.swip.net (192.71.220.9) answers queries over UDP.
+  8.591: swip.net INFO Name server kista.dns.swip.net (192.71.220.9) answers queries over TCP.
+  8.607: swip.net INFO Name server kista.dns.swip.net (192.71.220.9) closed for zone transfer of swip.net.
+  8.616: swip.net INFO Legacy name server ID for kista.dns.swip.net (192.71.220.9): hostname.bind = nico
+  8.624: swip.net INFO Legacy name server ID for kista.dns.swip.net (192.71.220.9): version.bind = PONG 0.2alpha
+  8.639: swip.net NOTICE No answer received from 192.71.220.9 when querying for version.server/CH/TXT.
+  8.639: swip.net INFO Done testing name server kista.dns.swip.net.
+  8.639: swip.net INFO Begin testing name server server.nordu.net.
+  8.639: swip.net INFO Begin testing host server.nordu.net.
+  8.639: swip.net INFO Begin testing address 193.10.252.19.
+  9.409: swip.net INFO Done testing address 193.10.252.19.
+  9.410: swip.net INFO Begin testing address 2001:948:4:2:0:0:0:19.
+ 11.156: swip.net INFO Done testing address 2001:948:4:2:0:0:0:19.
+ 11.157: swip.net INFO Done testing host server.nordu.net.
+ 11.165: swip.net INFO Name server server.nordu.net (193.10.252.19) is not recursive.
+ 11.177: swip.net INFO Name server server.nordu.net (193.10.252.19) authoritative for swip.net.
+ 11.189: swip.net INFO Name server server.nordu.net (193.10.252.19) answers queries over UDP.
+ 11.204: swip.net INFO Name server server.nordu.net (193.10.252.19) answers queries over TCP.
+ 11.412: swip.net INFO Name server server.nordu.net (193.10.252.19) closed for zone transfer of swip.net.
+ 11.420: swip.net INFO Legacy name server ID for server.nordu.net (193.10.252.19): hostname.bind = server.nordu.net
+ 11.428: swip.net INFO Legacy name server ID for server.nordu.net (193.10.252.19): version.bind = 9.4.3-P3
+ 11.444: swip.net NOTICE No answer received from 193.10.252.19 when querying for version.server/CH/TXT.
+ 11.444: swip.net INFO IPv6 disabled - will not test name server at 2001:948:4:2:0:0:0:19
+ 11.444: swip.net INFO Done testing name server server.nordu.net.
+ 11.444: swip.net INFO Begin testing name server sunic.sunet.se.
+ 11.444: swip.net INFO Begin testing host sunic.sunet.se.
+ 11.444: swip.net INFO Begin testing address 192.36.125.2.
+ 11.655: swip.net INFO Done testing address 192.36.125.2.
+ 11.656: swip.net INFO Begin testing address 2001:6b0:7:0:0:0:0:2.
+ 13.233: swip.net INFO Done testing address 2001:6b0:7:0:0:0:0:2.
+ 13.233: swip.net INFO Done testing host sunic.sunet.se.
+ 13.242: swip.net INFO Name server sunic.sunet.se (192.36.125.2) is not recursive.
+ 13.254: swip.net INFO Name server sunic.sunet.se (192.36.125.2) authoritative for swip.net.
+ 13.266: swip.net INFO Name server sunic.sunet.se (192.36.125.2) answers queries over UDP.
+ 13.283: swip.net INFO Name server sunic.sunet.se (192.36.125.2) answers queries over TCP.
+ 13.299: swip.net INFO Name server sunic.sunet.se (192.36.125.2) closed for zone transfer of swip.net.
+ 13.308: swip.net INFO Legacy name server ID for sunic.sunet.se (192.36.125.2): hostname.bind = sunic.sunet.se
+ 13.317: swip.net INFO Legacy name server ID for sunic.sunet.se (192.36.125.2): version.bind = contact info@netnod.se
+ 13.333: swip.net NOTICE No answer received from 192.36.125.2 when querying for version.server/CH/TXT.
+ 13.333: swip.net INFO IPv6 disabled - will not test name server at 2001:6b0:7:0:0:0:0:2
+ 13.333: swip.net INFO Done testing name server sunic.sunet.se.
+ 13.334: swip.net INFO Begin testing zone consistency for swip.net.
+ 13.351: swip.net INFO SOA at address 192.71.180.46 has serial 2010090700.
+ 13.362: swip.net INFO SOA at address 192.36.125.2 has serial 2010090700.
+ 13.372: swip.net INFO SOA at address 192.71.220.9 has serial 2010090700.
+ 13.383: swip.net INFO SOA at address 193.10.252.19 has serial 2010090700.
+ 13.384: swip.net INFO All SOA records have consistent serial numbers.
+ 13.384: swip.net INFO All SOA records are consistent among all name servers.
+ 13.384: swip.net INFO Done testing zone consistency for swip.net.
+ 13.384: swip.net INFO Begin testing SOA parameters for swip.net.
+ 13.393: swip.net INFO Found SOA record for swip.net.
+ 13.394: swip.net INFO Begin testing host kista.dns.swip.net.
+ 13.394: swip.net INFO Begin testing address 192.71.220.9.
+ 13.395: swip.net INFO Done testing address 192.71.220.9.
+ 13.395: swip.net INFO Done testing host kista.dns.swip.net.
+ 13.395: swip.net INFO SOA MNAME for swip.net valid (kista.dns.swip.net).
+ 13.396: swip.net INFO SOA MNAME for swip.net (kista.dns.swip.net) listed as NS.
+ 13.405: swip.net INFO SOA MNAME for swip.net (kista.dns.swip.net) is authoritative.
+ 13.405: swip.net INFO Begin testing email address registry@swip.net.
+ 13.417: swip.net INFO Mail exchangers for registry@swip.net found mailgw.swip.net.
+ 13.417: swip.net INFO All mail servers for registry@swip.net are in zone swip.net.
+ 13.417: swip.net INFO Begin testing host mailgw.swip.net.
+ 13.433: swip.net INFO Begin testing address 212.247.156.1.
+ 13.739: swip.net INFO Done testing address 212.247.156.1.
+ 13.739: swip.net INFO Done testing host mailgw.swip.net.
+ 13.740: swip.net INFO Begin testing mail server mailgw.swip.net (212.247.156.1) with registry@swip.net.
+ 14.762: swip.net INFO SMTP banner: mailfe05.swip.net ESMTP 5.2.19
+ 14.782: swip.net INFO SMTP testing of mailgw.swip.net (212.247.156.1) with registry@swip.net succeeded without errors.
+ 14.782: swip.net INFO Done testing mail server mailgw.swip.net (212.247.156.1) with registry@swip.net.
+ 14.783: swip.net INFO Delivery over IPv4 to registry@swip.net ok.
+ 14.783: swip.net INFO Delivery over IPv6 to registry@swip.net could not be done.
+ 14.783: swip.net INFO Done testing email address registry@swip.net.
+ 14.783: swip.net INFO Successful attempt to deliver email for SOA RNAME of swip.net (registry.swip.net) using registry@swip.net.
+ 14.783: swip.net INFO SOA TTL for swip.net OK (86400) - recommended >= 3600.
+ 14.783: swip.net INFO SOA refresh for swip.net OK (28800) - recommended >= 14400.
+ 14.783: swip.net INFO SOA retry for swip.net OK (7200) - recommended >= 3600.
+ 14.783: swip.net INFO SOA expire for swip.net OK (604800) - recommended >= 604800.
+ 14.783: swip.net INFO SOA minimum for swip.net OK (86400) - recommended between 300 and 86400.
+ 14.783: swip.net INFO Done testing SOA parameters for swip.net.
+ 14.784: swip.net INFO Begin testing connectivity for swip.net.
+ 15.026: swip.net INFO Name server 192.71.180.46 announced by: 1257
+ 15.157: swip.net INFO Name server 192.36.125.2 announced by: 1653
+ 15.286: swip.net INFO Name server 192.71.220.9 announced by: 1257
+ 15.416: swip.net INFO Name server 193.10.252.19 announced by: 2603
+ 15.416: swip.net INFO Zone announced by ASN: 2603,1257,1653
+ 15.416: swip.net INFO Zone announced by more than one ASN (3).
+ 15.558: swip.net INFO Name server 2001:06b0:0007:0000:0000:0000:0000:0002 announced over IPv6 by: 1653
+ 15.688: swip.net INFO Name server 2001:0948:0004:0002:0000:0000:0000:0019 announced over IPv6 by: 2603
+ 15.688: swip.net INFO Zone announced by IPv6 ASN: 2603,1653
+ 15.688: swip.net INFO Zone announced by more than one IPv6 ASN (2).
+ 15.688: swip.net INFO Done testing connectivity for swip.net.
+ 15.689: swip.net INFO Begin testing DNSSEC for swip.net.
+ 15.701: swip.net INFO Did not find DS record for swip.net at parent.
+ 15.756: swip.net INFO Servers for swip.net have consistent extra processing status.
+ 15.756: swip.net INFO Did not find DNSKEY record for swip.net at child.
+ 15.756: swip.net INFO No DNSKEY(s) found at child, other tests skipped.
+ 15.756: swip.net INFO Done testing DNSSEC for swip.net.
+ 15.756: swip.net INFO Test completed for zone swip.net.

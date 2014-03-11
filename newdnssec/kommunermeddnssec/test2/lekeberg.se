@@ -1,0 +1,94 @@
+  0.000: lekeberg.se INFO Begin testing zone lekeberg.se with version 1.2.
+  0.000: lekeberg.se INFO Begin testing delegation for lekeberg.se.
+  9.599: lekeberg.se INFO Name servers listed at parent: dns5.telia.com,ns.lekeberg.se
+ 11.125: lekeberg.se INFO Name servers listed at child: dns5.telia.com,ns.lekeberg.se
+ 11.125: lekeberg.se NOTICE No IPv6 name servers found.
+ 11.182: lekeberg.se INFO Parent glue for lekeberg.se found: ns.lekeberg.se (195.34.84.254)
+ 11.200: lekeberg.se INFO Checking glue for ns.lekeberg.se (195.34.84.254).
+ 11.214: lekeberg.se INFO Child glue for lekeberg.se found: ns.lekeberg.se (195.34.84.254)
+ 11.215: lekeberg.se INFO Parent glue for lekeberg.se found: ns.lekeberg.se (195.34.84.254)
+ 11.215: lekeberg.se INFO Done testing delegation for lekeberg.se.
+ 11.216: lekeberg.se INFO Begin testing name server dns5.telia.com.
+ 11.216: lekeberg.se INFO Begin testing host dns5.telia.com.
+ 11.216: lekeberg.se INFO Begin testing address 81.228.11.68.
+ 19.972: lekeberg.se INFO Done testing address 81.228.11.68.
+ 19.972: lekeberg.se INFO Done testing host dns5.telia.com.
+ 19.980: lekeberg.se ERROR DNS SERVFAIL when querying 81.228.11.68 for SOA
+ 19.980: lekeberg.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over UDP.
+ 19.982: lekeberg.se ERROR Name server dns5.telia.com (81.228.11.68) does not answer queries over TCP.
+ 19.989: lekeberg.se INFO Name server dns5.telia.com (81.228.11.68) is not recursive.
+ 19.990: lekeberg.se INFO Name server dns5.telia.com (81.228.11.68) authoritative for lekeberg.se.
+ 19.990: lekeberg.se INFO Name server dns5.telia.com (81.228.11.68) not checked for zone transfer of lekeberg.se.
+ 19.990: lekeberg.se INFO Name server dns5.telia.com (81.228.11.68) not checked for legacy name server ID.
+ 19.990: lekeberg.se INFO Done testing name server dns5.telia.com.
+ 19.990: lekeberg.se INFO Begin testing name server ns.lekeberg.se.
+ 19.991: lekeberg.se INFO Begin testing host ns.lekeberg.se.
+ 19.991: lekeberg.se INFO Begin testing address 195.34.84.254.
+ 21.012: lekeberg.se INFO Done testing address 195.34.84.254.
+ 21.012: lekeberg.se INFO Done testing host ns.lekeberg.se.
+ 21.029: lekeberg.se INFO Name server ns.lekeberg.se (195.34.84.254) answers queries over UDP.
+ 21.058: lekeberg.se INFO Name server ns.lekeberg.se (195.34.84.254) answers queries over TCP.
+ 21.073: lekeberg.se INFO Name server ns.lekeberg.se (195.34.84.254) is not recursive.
+ 21.088: lekeberg.se INFO Name server ns.lekeberg.se (195.34.84.254) authoritative for lekeberg.se.
+ 21.268: lekeberg.se INFO Name server ns.lekeberg.se (195.34.84.254) closed for zone transfer of lekeberg.se.
+ 21.286: lekeberg.se NOTICE No answer received from 195.34.84.254 when querying for hostname.bind/CH/TXT.
+ 39.286: lekeberg.se INFO Done testing name server ns.lekeberg.se.
+ 39.286: lekeberg.se INFO Begin testing zone consistency for lekeberg.se.
+ 39.304: lekeberg.se INFO SOA at address 195.34.84.254 has serial 2004060833.
+ 39.305: lekeberg.se INFO All SOA records have consistent serial numbers.
+ 39.305: lekeberg.se INFO All SOA records are consistent among all name servers.
+ 39.305: lekeberg.se INFO Done testing zone consistency for lekeberg.se.
+ 39.305: lekeberg.se INFO Begin testing SOA parameters for lekeberg.se.
+ 39.319: lekeberg.se INFO Found SOA record for lekeberg.se.
+ 39.320: lekeberg.se INFO Begin testing host ns.lekeberg.se.
+ 39.320: lekeberg.se INFO Begin testing address 195.34.84.254.
+ 39.321: lekeberg.se INFO Done testing address 195.34.84.254.
+ 39.321: lekeberg.se INFO Done testing host ns.lekeberg.se.
+ 39.322: lekeberg.se INFO SOA MNAME for lekeberg.se valid (ns.lekeberg.se).
+ 39.322: lekeberg.se INFO SOA MNAME for lekeberg.se (ns.lekeberg.se) listed as NS.
+ 39.337: lekeberg.se INFO SOA MNAME for lekeberg.se (ns.lekeberg.se) is authoritative.
+ 39.337: lekeberg.se INFO Begin testing email address postmaster@lekeberg.se.
+ 43.563: lekeberg.se INFO Mail exchangers for postmaster@lekeberg.se found mail.lindesberg.se,mx1.lindesberg.se,mx2.lindesberg.se.
+ 43.564: lekeberg.se INFO Begin testing host mail.lindesberg.se.
+ 43.994: lekeberg.se INFO Begin testing address 195.34.84.29.
+ 45.244: lekeberg.se INFO Done testing address 195.34.84.29.
+ 45.244: lekeberg.se INFO Done testing host mail.lindesberg.se.
+ 45.244: lekeberg.se INFO Begin testing mail server mail.lindesberg.se (195.34.84.29) with postmaster@lekeberg.se.
+ 45.333: lekeberg.se INFO SMTP banner: lindesberg.se ESMTP lindesberg.se - lekeberg.se
+ 45.749: lekeberg.se INFO SMTP testing of mail.lindesberg.se (195.34.84.29) with postmaster@lekeberg.se succeeded without errors.
+ 45.749: lekeberg.se INFO Done testing mail server mail.lindesberg.se (195.34.84.29) with postmaster@lekeberg.se.
+ 45.749: lekeberg.se INFO Begin testing host mx1.lindesberg.se.
+ 45.750: lekeberg.se INFO Begin testing address 195.34.84.29.
+ 45.751: lekeberg.se INFO Done testing address 195.34.84.29.
+ 45.751: lekeberg.se INFO Done testing host mx1.lindesberg.se.
+ 45.752: lekeberg.se INFO Begin testing host mx2.lindesberg.se.
+ 50.230: lekeberg.se INFO Begin testing address 195.34.84.7.
+ 55.322: lekeberg.se INFO Done testing address 195.34.84.7.
+ 55.322: lekeberg.se INFO Done testing host mx2.lindesberg.se.
+ 55.322: lekeberg.se INFO Delivery over IPv4 to postmaster@lekeberg.se ok.
+ 55.322: lekeberg.se INFO Delivery over IPv6 to postmaster@lekeberg.se could not be done.
+ 55.323: lekeberg.se INFO Done testing email address postmaster@lekeberg.se.
+ 55.323: lekeberg.se INFO Successful attempt to deliver email for SOA RNAME of lekeberg.se (postmaster.lekeberg.se) using postmaster@lekeberg.se.
+ 55.323: lekeberg.se INFO SOA TTL for lekeberg.se OK (3600) - recommended >= 3600.
+ 55.323: lekeberg.se NOTICE SOA refresh for lekeberg.se too small (3600) - recommended >= 14400.
+ 55.323: lekeberg.se NOTICE SOA retry for lekeberg.se too small (600) - recommended >= 3600.
+ 55.323: lekeberg.se INFO SOA expire for lekeberg.se OK (604800) - recommended >= 604800.
+ 55.323: lekeberg.se INFO SOA minimum for lekeberg.se OK (3600) - recommended between 300 and 86400.
+ 55.323: lekeberg.se INFO Done testing SOA parameters for lekeberg.se.
+ 55.323: lekeberg.se INFO Begin testing connectivity for lekeberg.se.
+ 56.076: lekeberg.se INFO Name server 195.34.84.254 announced by: 42251
+ 56.624: lekeberg.se INFO Name server 81.228.11.68 announced by: 3301
+ 56.624: lekeberg.se INFO Zone announced by IPv4 ASN: 3301,42251
+ 56.624: lekeberg.se INFO Zone announced by more than one ASN (2).
+ 56.624: lekeberg.se INFO Zone announced by IPv6 ASN: 
+ 56.624: lekeberg.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 56.625: lekeberg.se INFO Done testing connectivity for lekeberg.se.
+ 56.625: lekeberg.se INFO Begin testing DNSSEC for lekeberg.se.
+ 56.735: lekeberg.se INFO Did not find DS record for lekeberg.se at parent.
+ 61.746: lekeberg.se NOTICE DNS lookup error (timeout).
+ 61.758: lekeberg.se NOTICE No answer received from 81.228.11.68 when querying for lekeberg.se/IN/DNSKEY.
+ 61.758: lekeberg.se INFO Servers for lekeberg.se have consistent extra processing status.
+ 61.758: lekeberg.se INFO Did not find DNSKEY record for lekeberg.se at child.
+ 61.758: lekeberg.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 61.758: lekeberg.se INFO Done testing DNSSEC for lekeberg.se.
+ 61.758: lekeberg.se INFO Test completed for zone lekeberg.se.

@@ -1,0 +1,112 @@
+  0.000: falun.se INFO Begin testing zone falun.se with version 1.2.
+  0.000: falun.se INFO Begin testing delegation for falun.se.
+  5.260: falun.se INFO Name servers listed at parent: a.dns.tdc.se,c.dns.songnetworks.se,ns.falun.se
+ 10.917: falun.se INFO Name servers listed at child: a.dns.tdc.se,c.dns.songnetworks.se,ns.falun.se
+ 10.917: falun.se NOTICE No IPv6 name servers found.
+ 10.991: falun.se INFO Parent glue for falun.se found: a.dns.tdc.se (213.50.29.190)
+ 11.054: falun.se INFO Parent glue for falun.se found: c.dns.songnetworks.se (195.10.143.3)
+ 11.090: falun.se INFO Parent glue for falun.se found: ns.falun.se (192.121.234.12)
+ 11.100: falun.se INFO Checking glue for a.dns.tdc.se (213.50.29.190).
+ 11.100: falun.se INFO Checking glue for c.dns.songnetworks.se (195.10.143.3).
+ 11.100: falun.se INFO Checking glue for ns.falun.se (192.121.234.12).
+ 11.114: falun.se INFO Child glue for falun.se found: ns.falun.se (192.121.234.12)
+ 11.114: falun.se INFO Parent glue for falun.se found: a.dns.tdc.se (213.50.29.190)
+ 11.115: falun.se INFO Parent glue for falun.se found: c.dns.songnetworks.se (195.10.143.3)
+ 11.115: falun.se INFO Parent glue for falun.se found: ns.falun.se (192.121.234.12)
+ 11.115: falun.se INFO Done testing delegation for falun.se.
+ 11.116: falun.se INFO Begin testing name server a.dns.tdc.se.
+ 11.116: falun.se INFO Begin testing host a.dns.tdc.se.
+ 11.116: falun.se INFO Begin testing address 213.50.29.190.
+ 14.383: falun.se INFO Done testing address 213.50.29.190.
+ 14.383: falun.se INFO Done testing host a.dns.tdc.se.
+ 14.392: falun.se INFO Name server a.dns.tdc.se (213.50.29.190) answers queries over UDP.
+ 14.408: falun.se INFO Name server a.dns.tdc.se (213.50.29.190) answers queries over TCP.
+ 14.415: falun.se INFO Name server a.dns.tdc.se (213.50.29.190) is not recursive.
+ 14.423: falun.se INFO Name server a.dns.tdc.se (213.50.29.190) authoritative for falun.se.
+ 14.437: falun.se INFO Name server a.dns.tdc.se (213.50.29.190) closed for zone transfer of falun.se.
+ 14.445: falun.se INFO Legacy name server ID for a.dns.tdc.se (213.50.29.190): hostname.bind = a
+ 14.452: falun.se INFO Legacy name server ID for a.dns.tdc.se (213.50.29.190): version.bind = tssk, well what can i say?
+ 14.464: falun.se NOTICE No answer received from 213.50.29.190 when querying for version.server/CH/TXT.
+ 14.464: falun.se INFO Done testing name server a.dns.tdc.se.
+ 14.464: falun.se INFO Begin testing name server c.dns.songnetworks.se.
+ 14.464: falun.se INFO Begin testing host c.dns.songnetworks.se.
+ 14.465: falun.se INFO Begin testing address 195.10.143.3.
+ 14.953: falun.se INFO Done testing address 195.10.143.3.
+ 14.953: falun.se INFO Done testing host c.dns.songnetworks.se.
+ 14.968: falun.se INFO Name server c.dns.songnetworks.se (195.10.143.3) answers queries over UDP.
+ 14.992: falun.se INFO Name server c.dns.songnetworks.se (195.10.143.3) answers queries over TCP.
+ 15.005: falun.se INFO Name server c.dns.songnetworks.se (195.10.143.3) is not recursive.
+ 15.019: falun.se INFO Name server c.dns.songnetworks.se (195.10.143.3) authoritative for falun.se.
+ 15.050: falun.se INFO Name server c.dns.songnetworks.se (195.10.143.3) closed for zone transfer of falun.se.
+ 15.064: falun.se INFO Legacy name server ID for c.dns.songnetworks.se (195.10.143.3): hostname.bind = c.dns.tdc.se
+ 15.076: falun.se INFO Legacy name server ID for c.dns.songnetworks.se (195.10.143.3): version.bind = tssk, well what can i say?
+ 15.101: falun.se NOTICE No answer received from 195.10.143.3 when querying for version.server/CH/TXT.
+ 15.101: falun.se INFO Done testing name server c.dns.songnetworks.se.
+ 15.102: falun.se INFO Begin testing name server ns.falun.se.
+ 15.102: falun.se INFO Begin testing host ns.falun.se.
+ 15.102: falun.se INFO Begin testing address 192.121.234.12.
+ 22.024: falun.se INFO Done testing address 192.121.234.12.
+ 22.024: falun.se INFO Done testing host ns.falun.se.
+ 22.038: falun.se INFO Name server ns.falun.se (192.121.234.12) answers queries over UDP.
+ 22.061: falun.se INFO Name server ns.falun.se (192.121.234.12) answers queries over TCP.
+ 22.074: falun.se INFO Name server ns.falun.se (192.121.234.12) is not recursive.
+ 22.087: falun.se INFO Name server ns.falun.se (192.121.234.12) authoritative for falun.se.
+ 22.117: falun.se INFO Name server ns.falun.se (192.121.234.12) closed for zone transfer of falun.se.
+ 22.130: falun.se INFO Legacy name server ID for ns.falun.se (192.121.234.12): hostname.bind = ns
+ 22.142: falun.se INFO Legacy name server ID for ns.falun.se (192.121.234.12): version.bind = get lost
+ 22.167: falun.se NOTICE No answer received from 192.121.234.12 when querying for version.server/CH/TXT.
+ 22.167: falun.se INFO Done testing name server ns.falun.se.
+ 22.167: falun.se INFO Begin testing zone consistency for falun.se.
+ 22.185: falun.se INFO SOA at address 195.10.143.3 has serial 2010121006.
+ 22.199: falun.se INFO SOA at address 192.121.234.12 has serial 2010121006.
+ 22.207: falun.se INFO SOA at address 213.50.29.190 has serial 2010121006.
+ 22.207: falun.se INFO All SOA records have consistent serial numbers.
+ 22.207: falun.se INFO All SOA records are consistent among all name servers.
+ 22.207: falun.se INFO Done testing zone consistency for falun.se.
+ 22.208: falun.se INFO Begin testing SOA parameters for falun.se.
+ 22.235: falun.se INFO Found SOA record for falun.se.
+ 22.235: falun.se INFO Begin testing host ns.falun.se.
+ 22.236: falun.se INFO Begin testing address 192.121.234.12.
+ 22.246: falun.se INFO Done testing address 192.121.234.12.
+ 22.246: falun.se INFO Done testing host ns.falun.se.
+ 22.246: falun.se INFO SOA MNAME for falun.se valid (ns.falun.se).
+ 22.246: falun.se INFO SOA MNAME for falun.se (ns.falun.se) listed as NS.
+ 22.260: falun.se INFO SOA MNAME for falun.se (ns.falun.se) is authoritative.
+ 22.260: falun.se INFO Begin testing email address hostmaster@falun.se.
+ 22.479: falun.se INFO Mail exchangers for hostmaster@falun.se found pegasus.falun.se.
+ 22.479: falun.se INFO All mail servers for hostmaster@falun.se are in zone falun.se.
+ 22.480: falun.se INFO Begin testing host pegasus.falun.se.
+ 22.952: falun.se INFO Begin testing address 192.121.234.13.
+ 23.231: falun.se INFO Done testing address 192.121.234.13.
+ 23.231: falun.se INFO Done testing host pegasus.falun.se.
+ 23.232: falun.se INFO Begin testing mail server pegasus.falun.se (192.121.234.13) with hostmaster@falun.se.
+ 23.446: falun.se INFO SMTP banner: pegasus.falun.se ESMTP SMTP
+ 23.468: falun.se WARNING Host did not accept hostmaster@falun.se as SMTP recipient.
+ 23.488: falun.se INFO Done testing mail server pegasus.falun.se (192.121.234.13) with hostmaster@falun.se.
+ 23.488: falun.se WARNING Delivery over IPv4 to hostmaster@falun.se could not be done.
+ 23.488: falun.se INFO Delivery over IPv6 to hostmaster@falun.se could not be done.
+ 23.488: falun.se INFO Done testing email address hostmaster@falun.se.
+ 23.488: falun.se WARNING Failed to deliver email for SOA RNAME of falun.se (hostmaster.falun.se) using hostmaster@falun.se.
+ 23.489: falun.se INFO SOA TTL for falun.se OK (86400) - recommended >= 3600.
+ 23.489: falun.se NOTICE SOA refresh for falun.se too small (3600) - recommended >= 14400.
+ 23.489: falun.se NOTICE SOA refresh for falun.se lower than retry (3600 vs 3600).
+ 23.489: falun.se INFO SOA retry for falun.se OK (3600) - recommended >= 3600.
+ 23.489: falun.se INFO SOA expire for falun.se OK (1209600) - recommended >= 604800.
+ 23.489: falun.se INFO SOA minimum for falun.se OK (86400) - recommended between 300 and 86400.
+ 23.489: falun.se INFO Done testing SOA parameters for falun.se.
+ 23.489: falun.se INFO Begin testing connectivity for falun.se.
+ 24.162: falun.se INFO Name server 195.10.143.3 announced by: 3292
+ 24.692: falun.se INFO Name server 192.121.234.12 announced by: 3292
+ 25.372: falun.se INFO Name server 213.50.29.190 announced by: 3292
+ 25.372: falun.se INFO Zone announced by IPv4 ASN: 3292
+ 25.372: falun.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 25.372: falun.se INFO Zone announced by IPv6 ASN: 
+ 25.373: falun.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 25.373: falun.se INFO Done testing connectivity for falun.se.
+ 25.373: falun.se INFO Begin testing DNSSEC for falun.se.
+ 25.448: falun.se INFO Did not find DS record for falun.se at parent.
+ 25.508: falun.se INFO Servers for falun.se have consistent extra processing status.
+ 25.508: falun.se INFO Did not find DNSKEY record for falun.se at child.
+ 25.508: falun.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 25.508: falun.se INFO Done testing DNSSEC for falun.se.
+ 25.508: falun.se INFO Test completed for zone falun.se.

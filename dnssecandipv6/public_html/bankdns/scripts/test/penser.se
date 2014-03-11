@@ -1,0 +1,128 @@
+  0.000: penser.se INFO Begin testing zone penser.se with version 1.5.0.
+  0.001: penser.se INFO Begin testing delegation for penser.se.
+  4.723: penser.se INFO Name servers listed at parent: dns.penser.se,dns1.telenor.se,dns2.penser.se,dns2.telenor.se
+ 12.821: penser.se INFO Name servers listed at child: dns.penser.se,dns1.telenor.se,dns2.penser.se,dns2.telenor.se
+ 12.821: penser.se NOTICE No IPv6 name servers found.
+ 12.832: penser.se INFO Parent glue for penser.se found: dns.penser.se (212.73.169.204)
+ 12.964: penser.se INFO Parent glue for penser.se found: dns1.telenor.se (213.150.135.213)
+ 12.997: penser.se INFO Parent glue for penser.se found: dns2.penser.se (212.73.169.214)
+ 13.160: penser.se INFO Parent glue for penser.se found: dns2.telenor.se (213.150.128.30)
+ 13.169: penser.se INFO Checking glue for dns.penser.se (212.73.169.204).
+ 13.183: penser.se INFO Child glue for penser.se found: dns.penser.se (212.73.169.204)
+ 13.184: penser.se INFO Checking glue for dns1.telenor.se (213.150.135.213).
+ 13.184: penser.se INFO Checking glue for dns2.penser.se (212.73.169.214).
+ 13.195: penser.se INFO Child glue for penser.se found: dns2.penser.se (212.73.169.214)
+ 13.195: penser.se INFO Checking glue for dns2.telenor.se (213.150.128.30).
+ 13.196: penser.se INFO Parent glue for penser.se found: dns.penser.se (212.73.169.204)
+ 13.196: penser.se INFO Parent glue for penser.se found: dns1.telenor.se (213.150.135.213)
+ 13.197: penser.se INFO Parent glue for penser.se found: dns2.penser.se (212.73.169.214)
+ 13.197: penser.se INFO Parent glue for penser.se found: dns2.telenor.se (213.150.128.30)
+ 14.185: penser.se INFO It is possible to build a referral packet for penser.se that works without EDNS0.
+ 14.185: penser.se INFO Done testing delegation for penser.se.
+ 14.186: penser.se INFO Begin testing name server dns.penser.se.
+ 14.187: penser.se INFO Begin testing host dns.penser.se.
+ 14.444: penser.se INFO Begin testing address 212.73.169.204.
+ 19.522: penser.se INFO Done testing address 212.73.169.204.
+ 19.522: penser.se INFO Done testing host dns.penser.se.
+ 19.758: penser.se INFO Name server dns.penser.se (212.73.169.204) answers queries over UDP.
+ 24.767: penser.se NOTICE DNS lookup error (connection failed).
+ 24.767: penser.se ERROR Name server dns.penser.se (212.73.169.204) does not answer queries over TCP.
+ 24.781: penser.se INFO Name server dns.penser.se (212.73.169.204) is not recursive.
+ 29.821: penser.se NOTICE DNS lookup error (connection failed).
+ 29.821: penser.se INFO Name server dns.penser.se (212.73.169.204) authoritative for penser.se.
+ 29.821: penser.se INFO Name server dns.penser.se (212.73.169.204) not checked for zone transfer of penser.se.
+ 29.821: penser.se INFO Name server dns.penser.se (212.73.169.204) not checked for legacy name server ID.
+ 29.822: penser.se INFO Done testing name server dns.penser.se.
+ 29.822: penser.se INFO Begin testing name server dns1.telenor.se.
+ 29.822: penser.se INFO Begin testing host dns1.telenor.se.
+ 30.057: penser.se INFO Begin testing address 213.150.135.213.
+ 32.025: penser.se INFO Done testing address 213.150.135.213.
+ 32.025: penser.se INFO Done testing host dns1.telenor.se.
+ 32.262: penser.se INFO Name server dns1.telenor.se (213.150.135.213) answers queries over UDP.
+ 32.277: penser.se INFO Name server dns1.telenor.se (213.150.135.213) answers queries over TCP.
+ 32.285: penser.se INFO Name server dns1.telenor.se (213.150.135.213) is not recursive.
+ 32.321: penser.se INFO Name server dns1.telenor.se (213.150.135.213) authoritative for penser.se.
+ 32.335: penser.se INFO Name server dns1.telenor.se (213.150.135.213) closed for zone transfer of penser.se.
+ 32.347: penser.se INFO Legacy name server ID for dns1.telenor.se (213.150.135.213): hostname.bind = ns.telenor.se
+ 32.355: penser.se INFO Legacy name server ID for dns1.telenor.se (213.150.135.213): version.bind = Telenor DNS
+ 32.369: penser.se NOTICE No answer received from 213.150.135.213 when querying for version.server/CH/TXT.
+ 32.369: penser.se INFO Done testing name server dns1.telenor.se.
+ 32.370: penser.se INFO Begin testing name server dns2.penser.se.
+ 32.370: penser.se INFO Begin testing host dns2.penser.se.
+ 38.647: penser.se INFO Begin testing address 212.73.169.214.
+ 39.412: penser.se INFO Done testing address 212.73.169.214.
+ 39.412: penser.se INFO Done testing host dns2.penser.se.
+ 45.635: penser.se ERROR Name server dns2.penser.se (212.73.169.214) does not answer queries over UDP.
+ 45.638: penser.se ERROR Name server dns2.penser.se (212.73.169.214) does not answer queries over TCP.
+ 45.638: penser.se INFO Done testing name server dns2.penser.se.
+ 45.638: penser.se INFO Begin testing name server dns2.telenor.se.
+ 45.639: penser.se INFO Begin testing host dns2.telenor.se.
+ 45.864: penser.se INFO Begin testing address 213.150.128.30.
+ 46.794: penser.se INFO Done testing address 213.150.128.30.
+ 46.795: penser.se INFO Done testing host dns2.telenor.se.
+ 47.037: penser.se INFO Name server dns2.telenor.se (213.150.128.30) answers queries over UDP.
+ 47.052: penser.se INFO Name server dns2.telenor.se (213.150.128.30) answers queries over TCP.
+ 47.062: penser.se INFO Name server dns2.telenor.se (213.150.128.30) is not recursive.
+ 47.101: penser.se INFO Name server dns2.telenor.se (213.150.128.30) authoritative for penser.se.
+ 47.117: penser.se INFO Name server dns2.telenor.se (213.150.128.30) closed for zone transfer of penser.se.
+ 47.125: penser.se INFO Legacy name server ID for dns2.telenor.se (213.150.128.30): hostname.bind = dns2.telenor.se
+ 47.137: penser.se INFO Legacy name server ID for dns2.telenor.se (213.150.128.30): version.bind = Telenor DNS
+ 47.152: penser.se NOTICE No answer received from 213.150.128.30 when querying for version.server/CH/TXT.
+ 47.152: penser.se INFO Done testing name server dns2.telenor.se.
+ 47.152: penser.se INFO Begin testing zone consistency for penser.se.
+ 55.066: penser.se INFO SOA at address 213.150.135.213 has serial 2012082301.
+ 55.076: penser.se INFO SOA at address 212.73.169.204 has serial 2012082301.
+ 55.086: penser.se INFO SOA at address 213.150.128.30 has serial 2012082301.
+ 55.086: penser.se INFO All SOA records have consistent serial numbers.
+ 55.086: penser.se INFO All other fields in the SOA record are consistent among all name servers.
+ 62.086: penser.se NOTICE The listed nameservers for penser.se all report the same set of nameservers.
+ 62.086: penser.se INFO Done testing zone consistency for penser.se.
+ 62.087: penser.se INFO Begin testing SOA parameters for penser.se.
+ 62.096: penser.se INFO Found SOA record for penser.se.
+ 62.097: penser.se INFO Begin testing host dns.penser.se.
+ 62.334: penser.se INFO Begin testing address 212.73.169.204.
+ 62.565: penser.se INFO Done testing address 212.73.169.204.
+ 62.566: penser.se INFO Done testing host dns.penser.se.
+ 62.566: penser.se INFO SOA MNAME for penser.se valid (dns.penser.se).
+ 62.566: penser.se INFO SOA MNAME for penser.se (dns.penser.se) listed as NS.
+ 62.792: penser.se INFO SOA MNAME for penser.se (dns.penser.se) is authoritative.
+ 62.793: penser.se INFO Begin testing email address epfk@penser.se.
+ 69.031: penser.se INFO Mail exchangers for epfk@penser.se found mx01.mx.secode.com,mx03.mx.secode.com.
+ 69.031: penser.se INFO Begin testing host mx01.mx.secode.com.
+ 70.106: penser.se INFO Begin testing address 62.181.198.147.
+ 72.097: penser.se INFO Done testing address 62.181.198.147.
+ 72.097: penser.se INFO Begin testing address 213.115.169.66.
+ 74.946: penser.se INFO Done testing address 213.115.169.66.
+ 74.947: penser.se INFO Begin testing address 213.115.169.68.
+ 76.327: penser.se INFO Done testing address 213.115.169.68.
+ 76.327: penser.se INFO Done testing host mx01.mx.secode.com.
+ 76.565: penser.se INFO Begin testing host mx03.mx.secode.com.
+ 76.985: penser.se INFO Begin testing address 213.115.169.66.
+ 77.218: penser.se INFO Done testing address 213.115.169.66.
+ 77.219: penser.se INFO Begin testing address 213.115.169.68.
+ 77.486: penser.se INFO Done testing address 213.115.169.68.
+ 77.486: penser.se INFO Begin testing address 62.181.198.147.
+ 78.081: penser.se INFO Done testing address 62.181.198.147.
+ 78.082: penser.se INFO Done testing host mx03.mx.secode.com.
+ 78.314: penser.se INFO Done testing email address epfk@penser.se.
+ 78.314: penser.se INFO Successful attempt to deliver email for SOA RNAME of penser.se (epfk.penser.se) using epfk@penser.se.
+ 78.314: penser.se INFO SOA TTL for penser.se OK (14400) - recommended >= 3600.
+ 78.315: penser.se INFO SOA refresh for penser.se OK (28800) - recommended >= 14400.
+ 78.315: penser.se INFO SOA retry for penser.se OK (7200) - recommended >= 3600.
+ 78.315: penser.se INFO SOA expire for penser.se OK (604800) - recommended >= 604800.
+ 78.315: penser.se INFO SOA minimum for penser.se OK (86400) - recommended between 300 and 86400.
+ 78.315: penser.se INFO Done testing SOA parameters for penser.se.
+ 78.316: penser.se INFO Begin testing connectivity for penser.se.
+ 80.610: penser.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 80.611: penser.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 80.611: penser.se INFO Done testing connectivity for penser.se.
+ 80.611: penser.se INFO Begin testing DNSSEC for penser.se.
+ 80.631: penser.se INFO Did not find DS record for penser.se at parent.
+ 85.657: penser.se NOTICE DNS lookup error (connection failed).
+ 85.665: penser.se NOTICE DNS lookup error (connection failed).
+ 85.677: penser.se INFO Servers for penser.se have consistent extra processing status.
+ 85.689: penser.se INFO Authenticated denial records not found for penser.se.
+ 85.696: penser.se INFO Did not find DNSKEY record for penser.se at child.
+ 85.697: penser.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 85.697: penser.se INFO Done testing DNSSEC for penser.se.
+ 85.698: penser.se INFO Test completed for zone penser.se.

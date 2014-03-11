@@ -1,0 +1,92 @@
+  0.000: solleftea.se INFO Begin testing zone solleftea.se with version 1.0.1.
+  0.001: solleftea.se INFO Begin testing delegation for solleftea.se.
+  0.775: solleftea.se INFO Name servers listed at parent: ns1.solleftea.se,ns2.solleftea.se
+  0.885: solleftea.se INFO Name servers listed at child: ns1.solleftea.se,ns2.solleftea.se
+  0.886: solleftea.se NOTICE No IPv6 name servers found.
+  0.902: solleftea.se INFO Parent glue for solleftea.se found: ns1.solleftea.se (194.103.3.250)
+  0.935: solleftea.se INFO Parent glue for solleftea.se found: ns2.solleftea.se (194.103.3.251)
+  0.949: solleftea.se INFO Checking glue for ns1.solleftea.se (194.103.3.250).
+  0.970: solleftea.se INFO Child glue for solleftea.se found: ns1.solleftea.se (194.103.3.250)
+  0.970: solleftea.se INFO Checking glue for ns2.solleftea.se (194.103.3.251).
+  0.991: solleftea.se INFO Child glue for solleftea.se found: ns2.solleftea.se (194.103.3.251)
+  0.991: solleftea.se INFO Done testing delegation for solleftea.se.
+  0.992: solleftea.se INFO Begin testing name server ns1.solleftea.se.
+  0.992: solleftea.se INFO Begin testing host ns1.solleftea.se.
+  0.993: solleftea.se INFO Begin testing address 194.103.3.250.
+  3.234: solleftea.se INFO Done testing address 194.103.3.250.
+  3.234: solleftea.se INFO Done testing host ns1.solleftea.se.
+  3.257: solleftea.se INFO Name server ns1.solleftea.se (194.103.3.250) is not recursive.
+  3.281: solleftea.se INFO Name server ns1.solleftea.se (194.103.3.250) authoritative for solleftea.se.
+  3.304: solleftea.se INFO Name server ns1.solleftea.se (194.103.3.250) answers queries over UDP.
+  3.343: solleftea.se INFO Name server ns1.solleftea.se (194.103.3.250) answers queries over TCP.
+  3.385: solleftea.se INFO Name server ns1.solleftea.se (194.103.3.250) closed for zone transfer of solleftea.se.
+  3.413: solleftea.se INFO Legacy name server ID for ns1.solleftea.se (194.103.3.250): hostname.bind = ns1.solleftea.se
+  3.434: solleftea.se INFO Legacy name server ID for ns1.solleftea.se (194.103.3.250): version.bind = X
+  3.469: solleftea.se NOTICE No answer received from 194.103.3.250 when querying for version.server/CH/TXT.
+  3.470: solleftea.se INFO Done testing name server ns1.solleftea.se.
+  3.470: solleftea.se INFO Begin testing name server ns2.solleftea.se.
+  3.470: solleftea.se INFO Begin testing host ns2.solleftea.se.
+  3.471: solleftea.se INFO Begin testing address 194.103.3.251.
+  3.493: solleftea.se INFO Done testing address 194.103.3.251.
+  3.493: solleftea.se INFO Done testing host ns2.solleftea.se.
+  3.512: solleftea.se INFO Name server ns2.solleftea.se (194.103.3.251) is not recursive.
+  3.535: solleftea.se INFO Name server ns2.solleftea.se (194.103.3.251) authoritative for solleftea.se.
+  3.558: solleftea.se INFO Name server ns2.solleftea.se (194.103.3.251) answers queries over UDP.
+  3.594: solleftea.se INFO Name server ns2.solleftea.se (194.103.3.251) answers queries over TCP.
+  3.636: solleftea.se INFO Name server ns2.solleftea.se (194.103.3.251) closed for zone transfer of solleftea.se.
+  3.655: solleftea.se NOTICE No answer received from 194.103.3.251 when querying for hostname.bind/CH/TXT.
+  3.674: solleftea.se NOTICE No answer received from 194.103.3.251 when querying for version.bind/CH/TXT.
+  3.694: solleftea.se NOTICE No answer received from 194.103.3.251 when querying for id.server/CH/TXT.
+  3.714: solleftea.se NOTICE No answer received from 194.103.3.251 when querying for version.server/CH/TXT.
+  3.714: solleftea.se INFO Done testing name server ns2.solleftea.se.
+  3.715: solleftea.se INFO Begin testing zone consistency for solleftea.se.
+  3.743: solleftea.se INFO SOA at address 194.103.3.251 has serial 1224595340.
+  3.766: solleftea.se INFO SOA at address 194.103.3.250 has serial 1224595340.
+  3.766: solleftea.se INFO All SOA records have consistent serial numbers.
+  3.766: solleftea.se INFO All SOA records are consistent among all name servers.
+  3.766: solleftea.se INFO Done testing zone consistency for solleftea.se.
+  3.767: solleftea.se INFO Begin testing SOA parameters for solleftea.se.
+  3.790: solleftea.se INFO Found SOA record for solleftea.se.
+  3.790: solleftea.se INFO Begin testing host ns1.solleftea.se.
+  3.791: solleftea.se INFO Begin testing address 194.103.3.250.
+  3.794: solleftea.se INFO Done testing address 194.103.3.250.
+  3.794: solleftea.se INFO Done testing host ns1.solleftea.se.
+  3.794: solleftea.se INFO SOA MNAME for solleftea.se valid (ns1.solleftea.se).
+  3.795: solleftea.se INFO SOA MNAME for solleftea.se (ns1.solleftea.se) listed as NS.
+  3.816: solleftea.se INFO SOA MNAME for solleftea.se (ns1.solleftea.se) is authoritative.
+  3.816: solleftea.se INFO Begin testing email address itsupport@solleftea.se.
+  3.842: solleftea.se INFO Mail exchangers for itsupport@solleftea.se found efilter.solleftea.se.
+  3.842: solleftea.se INFO All mail servers for itsupport@solleftea.se are in zone solleftea.se.
+  3.842: solleftea.se INFO Begin testing host efilter.solleftea.se.
+  3.878: solleftea.se INFO Begin testing address 194.103.3.95.
+  3.899: solleftea.se INFO Done testing address 194.103.3.95.
+  3.899: solleftea.se INFO Done testing host efilter.solleftea.se.
+  3.900: solleftea.se INFO Begin testing mail server efilter.solleftea.se (194.103.3.95) with itsupport@solleftea.se.
+  4.004: solleftea.se INFO SMTP banner: efilter.solleftea.se ESMTP
+  4.409: solleftea.se INFO SMTP testing of efilter.solleftea.se (194.103.3.95) with itsupport@solleftea.se succeeded without errors.
+  4.409: solleftea.se INFO Done testing mail server efilter.solleftea.se (194.103.3.95) with itsupport@solleftea.se.
+  4.409: solleftea.se INFO Delivery over IPv4 to itsupport@solleftea.se ok.
+  4.410: solleftea.se INFO Delivery over IPv6 to itsupport@solleftea.se could not be done.
+  4.410: solleftea.se INFO Done testing email address itsupport@solleftea.se.
+  4.410: solleftea.se INFO Successful attempt to deliver email for SOA RNAME of solleftea.se (itsupport.solleftea.se) using itsupport@solleftea.se.
+  4.410: solleftea.se INFO SOA TTL for solleftea.se OK (38400) - recommended >= 3600.
+  4.411: solleftea.se NOTICE SOA refresh for solleftea.se too small (10800) - recommended >= 14400.
+  4.411: solleftea.se INFO SOA retry for solleftea.se OK (3600) - recommended >= 3600.
+  4.411: solleftea.se INFO SOA expire for solleftea.se OK (604800) - recommended >= 604800.
+  4.412: solleftea.se INFO SOA minimum for solleftea.se OK (38400) - recommended between 300 and 86400.
+  4.412: solleftea.se INFO Done testing SOA parameters for solleftea.se.
+  4.413: solleftea.se INFO Begin testing connectivity for solleftea.se.
+  4.751: solleftea.se INFO Name server 194.103.3.251 announced by: 3301
+  4.885: solleftea.se INFO Name server 194.103.3.250 announced by: 3301
+  4.885: solleftea.se INFO Zone announced by ASN: 3301
+  4.885: solleftea.se NOTICE Zone announced by only one ASN (1).
+  4.885: solleftea.se INFO Zone announced by IPv6 ASN: 
+  4.886: solleftea.se NOTICE Zone announced by only one IPv6 ASN (0).
+  4.886: solleftea.se INFO Done testing connectivity for solleftea.se.
+  4.886: solleftea.se INFO Begin testing DNSSEC for solleftea.se.
+  4.933: solleftea.se INFO Did not find DS record for solleftea.se at parent.
+  4.999: solleftea.se INFO Servers for solleftea.se have consistent extra processing status.
+  4.999: solleftea.se INFO Did not find DNSKEY record for solleftea.se at child.
+  5.000: solleftea.se INFO No DNSKEY(s) found at child, other tests skipped.
+  5.000: solleftea.se INFO Done testing DNSSEC for solleftea.se.
+  5.000: solleftea.se INFO Test completed for zone solleftea.se.

@@ -1,0 +1,7 @@
+#!/bin/sh
+
+
+
+./dnssec2 |tee resultat.txt
+php file.php < resultat.txt >../public_html/sju.html
+

@@ -1,0 +1,77 @@
+  0.000: surahammar.se INFO Begin testing zone surahammar.se with version 1.6.1.
+  3.984: surahammar.se INFO Begin testing delegation for surahammar.se.
+ 19.111: surahammar.se INFO Name servers listed at parent: dns3.telia.com,dns4.telia.com
+ 22.994: surahammar.se INFO Name servers listed at child: dns3.telia.com,dns4.telia.com
+ 22.994: surahammar.se NOTICE No IPv6 name servers found.
+ 24.721: surahammar.se INFO It is possible to build a referral packet for surahammar.se that works without EDNS0.
+ 26.160: surahammar.se INFO Previously used name servers for surahammar.se: 
+ 26.160: surahammar.se INFO Done testing delegation for surahammar.se.
+ 26.161: surahammar.se INFO Begin testing name server dns3.telia.com.
+ 26.161: surahammar.se INFO Begin testing host dns3.telia.com.
+ 27.075: surahammar.se INFO Begin testing address 81.228.11.184.
+ 41.118: surahammar.se INFO Done testing address 81.228.11.184.
+ 41.118: surahammar.se INFO Done testing host dns3.telia.com.
+ 41.800: surahammar.se INFO Name server dns3.telia.com (81.228.11.184) answers queries over UDP.
+ 41.865: surahammar.se INFO Name server dns3.telia.com (81.228.11.184) answers queries over TCP.
+ 41.943: surahammar.se INFO Name server dns3.telia.com (81.228.11.184) is not recursive.
+ 42.149: surahammar.se INFO Name server dns3.telia.com (81.228.11.184) authoritative for surahammar.se.
+ 42.200: surahammar.se INFO Name server dns3.telia.com (81.228.11.184) closed for zone transfer of surahammar.se.
+ 42.348: surahammar.se INFO Legacy name server ID for dns3.telia.com (81.228.11.184): version.bind = Served by POWERDNS 3.1 $Id: packethandler.cc 2579 2012-04-26 11:28:04Z peter $
+ 42.437: surahammar.se INFO Done testing name server dns3.telia.com.
+ 42.437: surahammar.se INFO Begin testing name server dns4.telia.com.
+ 42.438: surahammar.se INFO Begin testing host dns4.telia.com.
+ 42.950: surahammar.se INFO Begin testing address 81.228.9.98.
+ 44.637: surahammar.se INFO Done testing address 81.228.9.98.
+ 44.638: surahammar.se INFO Done testing host dns4.telia.com.
+ 45.392: surahammar.se INFO Name server dns4.telia.com (81.228.9.98) answers queries over UDP.
+ 45.452: surahammar.se INFO Name server dns4.telia.com (81.228.9.98) answers queries over TCP.
+ 45.532: surahammar.se INFO Name server dns4.telia.com (81.228.9.98) is not recursive.
+ 45.740: surahammar.se INFO Name server dns4.telia.com (81.228.9.98) authoritative for surahammar.se.
+ 45.840: surahammar.se INFO Name server dns4.telia.com (81.228.9.98) closed for zone transfer of surahammar.se.
+ 45.932: surahammar.se INFO Legacy name server ID for dns4.telia.com (81.228.9.98): version.bind = Served by POWERDNS 3.1 $Id: packethandler.cc 2579 2012-04-26 11:28:04Z peter $
+ 46.039: surahammar.se INFO Done testing name server dns4.telia.com.
+ 46.051: surahammar.se INFO Begin testing zone consistency for surahammar.se.
+ 48.219: surahammar.se INFO SOA at address 81.228.9.98 has serial 1383732039.
+ 48.288: surahammar.se INFO SOA at address 81.228.11.184 has serial 1383732039.
+ 48.288: surahammar.se INFO All SOA records have consistent serial numbers.
+ 48.288: surahammar.se INFO All other fields in the SOA record are consistent among all name servers.
+ 49.368: surahammar.se NOTICE The listed nameservers for surahammar.se all report the same set of nameservers.
+ 49.368: surahammar.se INFO Done testing zone consistency for surahammar.se.
+ 49.368: surahammar.se INFO Begin testing SOA parameters for surahammar.se.
+ 49.436: surahammar.se INFO Found SOA record for surahammar.se.
+ 49.436: surahammar.se INFO Begin testing host dns9.telia.com.
+ 50.441: surahammar.se INFO Begin testing address 81.228.11.184.
+ 50.983: surahammar.se INFO Done testing address 81.228.11.184.
+ 50.984: surahammar.se INFO Begin testing address 2001:2040:c001:104:0:0:0:5.
+ 52.252: surahammar.se INFO Done testing address 2001:2040:c001:104:0:0:0:5.
+ 52.252: surahammar.se INFO Done testing host dns9.telia.com.
+ 52.252: surahammar.se INFO SOA MNAME for surahammar.se valid (dns9.telia.com).
+ 52.252: surahammar.se NOTICE SOA MNAME for surahammar.se (dns9.telia.com) not listed as NS.
+ 52.295: surahammar.se INFO SOA MNAME for surahammar.se (dns9.telia.com) is authoritative.
+ 52.341: surahammar.se INFO SOA MNAME for surahammar.se (dns9.telia.com) is authoritative.
+ 52.341: surahammar.se INFO Begin testing email address backbone@telia.net.
+ 52.986: surahammar.se INFO Mail exchangers for backbone@telia.net found mail.telia.net.
+ 52.986: surahammar.se INFO Begin testing host mail.telia.net.
+ 53.783: surahammar.se INFO Begin testing address 194.237.170.102.
+ 54.864: surahammar.se INFO Done testing address 194.237.170.102.
+ 54.864: surahammar.se INFO Done testing host mail.telia.net.
+ 55.152: surahammar.se INFO Done testing email address backbone@telia.net.
+ 55.152: surahammar.se INFO Successful attempt to deliver email for SOA RNAME of surahammar.se (backbone.telia.net) using backbone@telia.net.
+ 55.152: surahammar.se INFO SOA TTL for surahammar.se OK (3600) - recommended >= 3600.
+ 55.153: surahammar.se INFO SOA refresh for surahammar.se OK (21600) - recommended >= 14400.
+ 55.153: surahammar.se INFO SOA retry for surahammar.se OK (7200) - recommended >= 3600.
+ 55.153: surahammar.se INFO SOA expire for surahammar.se OK (604800) - recommended >= 604800.
+ 55.153: surahammar.se INFO SOA minimum for surahammar.se OK (3600) - recommended between 300 and 86400.
+ 55.153: surahammar.se INFO Done testing SOA parameters for surahammar.se.
+ 55.153: surahammar.se INFO Begin testing connectivity for surahammar.se.
+ 56.474: surahammar.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 56.474: surahammar.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 56.474: surahammar.se INFO Done testing connectivity for surahammar.se.
+ 56.474: surahammar.se INFO Begin testing DNSSEC for surahammar.se.
+ 56.510: surahammar.se INFO Did not find DS record for surahammar.se at parent.
+ 56.597: surahammar.se INFO Servers for surahammar.se have consistent extra processing status.
+ 56.639: surahammar.se INFO Authenticated denial records not found for surahammar.se.
+ 56.662: surahammar.se INFO Did not find DNSKEY record for surahammar.se at child.
+ 56.662: surahammar.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 56.662: surahammar.se INFO Done testing DNSSEC for surahammar.se.
+ 56.663: surahammar.se INFO Test completed for zone surahammar.se.

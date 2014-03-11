@@ -1,0 +1,78 @@
+  0.000: olandsbank.se INFO Begin testing zone olandsbank.se with version 1.5.0.
+  0.001: olandsbank.se INFO Begin testing delegation for olandsbank.se.
+  4.919: olandsbank.se INFO Name servers listed at parent: ns1.foreningssparbanken.se,ns2.foreningssparbanken.se
+  6.568: olandsbank.se INFO Name servers listed at child: ns1.foreningssparbanken.se,ns2.foreningssparbanken.se
+  6.568: olandsbank.se NOTICE No IPv6 name servers found.
+  6.575: olandsbank.se INFO Parent glue for olandsbank.se found: ns1.foreningssparbanken.se (164.10.45.24)
+  6.614: olandsbank.se INFO Parent glue for olandsbank.se found: ns2.foreningssparbanken.se (164.10.45.25)
+  6.621: olandsbank.se INFO Checking glue for ns1.foreningssparbanken.se (164.10.45.24).
+  6.621: olandsbank.se INFO Checking glue for ns2.foreningssparbanken.se (164.10.45.25).
+  6.622: olandsbank.se INFO Parent glue for olandsbank.se found: ns1.foreningssparbanken.se (164.10.45.24)
+  6.622: olandsbank.se INFO Parent glue for olandsbank.se found: ns2.foreningssparbanken.se (164.10.45.25)
+  7.146: olandsbank.se INFO It is possible to build a referral packet for olandsbank.se that works without EDNS0.
+  7.146: olandsbank.se INFO Done testing delegation for olandsbank.se.
+  7.147: olandsbank.se INFO Begin testing name server ns1.foreningssparbanken.se.
+  7.147: olandsbank.se INFO Begin testing host ns1.foreningssparbanken.se.
+  7.379: olandsbank.se INFO Begin testing address 164.10.45.24.
+ 13.650: olandsbank.se INFO Done testing address 164.10.45.24.
+ 13.650: olandsbank.se INFO Done testing host ns1.foreningssparbanken.se.
+ 13.892: olandsbank.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) answers queries over UDP.
+ 13.907: olandsbank.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) answers queries over TCP.
+ 13.916: olandsbank.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) is not recursive.
+ 13.955: olandsbank.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) authoritative for olandsbank.se.
+ 13.972: olandsbank.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) closed for zone transfer of olandsbank.se.
+ 38.017: olandsbank.se INFO Done testing name server ns1.foreningssparbanken.se.
+ 38.017: olandsbank.se INFO Begin testing name server ns2.foreningssparbanken.se.
+ 38.018: olandsbank.se INFO Begin testing host ns2.foreningssparbanken.se.
+ 38.246: olandsbank.se INFO Begin testing address 164.10.45.25.
+ 39.590: olandsbank.se INFO Done testing address 164.10.45.25.
+ 39.590: olandsbank.se INFO Done testing host ns2.foreningssparbanken.se.
+ 39.839: olandsbank.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) answers queries over UDP.
+ 39.854: olandsbank.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) answers queries over TCP.
+ 39.864: olandsbank.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) is not recursive.
+ 39.901: olandsbank.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) authoritative for olandsbank.se.
+ 39.919: olandsbank.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) closed for zone transfer of olandsbank.se.
+ 63.963: olandsbank.se INFO Done testing name server ns2.foreningssparbanken.se.
+ 63.963: olandsbank.se INFO Begin testing zone consistency for olandsbank.se.
+ 64.953: olandsbank.se INFO SOA at address 164.10.45.24 has serial 2010042101.
+ 64.964: olandsbank.se INFO SOA at address 164.10.45.25 has serial 2010042101.
+ 64.964: olandsbank.se INFO All SOA records have consistent serial numbers.
+ 64.964: olandsbank.se INFO All other fields in the SOA record are consistent among all name servers.
+ 65.459: olandsbank.se NOTICE The listed nameservers for olandsbank.se all report the same set of nameservers.
+ 65.459: olandsbank.se INFO Done testing zone consistency for olandsbank.se.
+ 65.460: olandsbank.se INFO Begin testing SOA parameters for olandsbank.se.
+ 65.470: olandsbank.se INFO Found SOA record for olandsbank.se.
+ 65.471: olandsbank.se INFO Begin testing host ns1.foreningssparbanken.se.
+ 65.714: olandsbank.se INFO Begin testing address 164.10.45.24.
+ 66.221: olandsbank.se INFO Done testing address 164.10.45.24.
+ 66.222: olandsbank.se INFO Done testing host ns1.foreningssparbanken.se.
+ 66.222: olandsbank.se INFO SOA MNAME for olandsbank.se valid (ns1.foreningssparbanken.se).
+ 66.222: olandsbank.se INFO SOA MNAME for olandsbank.se (ns1.foreningssparbanken.se) listed as NS.
+ 66.478: olandsbank.se INFO SOA MNAME for olandsbank.se (ns1.foreningssparbanken.se) is authoritative.
+ 66.478: olandsbank.se INFO Begin testing email address unixdrift@foreningssparbanken.se.
+ 66.990: olandsbank.se INFO Mail exchangers for unixdrift@foreningssparbanken.se found foreningssparbanken.se.
+ 66.990: olandsbank.se INFO Begin testing host foreningssparbanken.se.
+ 67.235: olandsbank.se INFO Begin testing address 164.10.45.63.
+ 67.739: olandsbank.se WARNING Could not find reverse address for 164.10.45.63 (63.45.10.164.in-addr.arpa.).
+ 67.739: olandsbank.se INFO Done testing address 164.10.45.63.
+ 67.739: olandsbank.se INFO Done testing host foreningssparbanken.se.
+ 67.984: olandsbank.se INFO Done testing email address unixdrift@foreningssparbanken.se.
+ 67.984: olandsbank.se INFO Successful attempt to deliver email for SOA RNAME of olandsbank.se (unixdrift.foreningssparbanken.se) using unixdrift@foreningssparbanken.se.
+ 67.985: olandsbank.se INFO SOA TTL for olandsbank.se OK (3600) - recommended >= 3600.
+ 67.985: olandsbank.se INFO SOA refresh for olandsbank.se OK (21600) - recommended >= 14400.
+ 67.985: olandsbank.se INFO SOA retry for olandsbank.se OK (3600) - recommended >= 3600.
+ 67.985: olandsbank.se INFO SOA expire for olandsbank.se OK (691200) - recommended >= 604800.
+ 67.985: olandsbank.se INFO SOA minimum for olandsbank.se OK (86400) - recommended between 300 and 86400.
+ 67.985: olandsbank.se INFO Done testing SOA parameters for olandsbank.se.
+ 67.986: olandsbank.se INFO Begin testing connectivity for olandsbank.se.
+ 69.037: olandsbank.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 69.037: olandsbank.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 69.037: olandsbank.se INFO Done testing connectivity for olandsbank.se.
+ 69.038: olandsbank.se INFO Begin testing DNSSEC for olandsbank.se.
+ 69.052: olandsbank.se INFO Did not find DS record for olandsbank.se at parent.
+ 69.081: olandsbank.se INFO Servers for olandsbank.se have consistent extra processing status.
+ 69.096: olandsbank.se INFO Authenticated denial records not found for olandsbank.se.
+ 69.106: olandsbank.se INFO Did not find DNSKEY record for olandsbank.se at child.
+ 69.106: olandsbank.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 69.106: olandsbank.se INFO Done testing DNSSEC for olandsbank.se.
+ 69.107: olandsbank.se INFO Test completed for zone olandsbank.se.

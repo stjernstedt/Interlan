@@ -1,0 +1,101 @@
+  0.000: quicknet.se INFO Begin testing zone quicknet.se with version 1.0.1.
+  0.001: quicknet.se INFO Begin testing delegation for quicknet.se.
+  0.701: quicknet.se INFO Name servers listed at parent: ns.quicknet.se,ns2.quicknet.se
+  0.757: quicknet.se INFO Name servers listed at child: ns.quicknet.se,ns2.quicknet.se
+  0.757: quicknet.se NOTICE No IPv6 name servers found.
+  0.896: quicknet.se INFO Parent glue for quicknet.se found: ns.quicknet.se (193.41.214.2)
+  0.953: quicknet.se INFO Parent glue for quicknet.se found: ns2.quicknet.se (193.41.214.16)
+  1.092: quicknet.se INFO Checking glue for ns.quicknet.se (193.41.214.2).
+  1.102: quicknet.se INFO Child glue for quicknet.se found: ns.quicknet.se (193.41.214.2)
+  1.102: quicknet.se INFO Checking glue for ns2.quicknet.se (193.41.214.16).
+  1.112: quicknet.se INFO Child glue for quicknet.se found: ns2.quicknet.se (193.41.214.16)
+  1.112: quicknet.se INFO Done testing delegation for quicknet.se.
+  1.112: quicknet.se INFO Begin testing name server ns.quicknet.se.
+  1.113: quicknet.se INFO Begin testing host ns.quicknet.se.
+  1.113: quicknet.se INFO Begin testing address 193.41.214.2.
+  3.675: quicknet.se INFO Done testing address 193.41.214.2.
+  3.675: quicknet.se INFO Done testing host ns.quicknet.se.
+  3.687: quicknet.se INFO Name server ns.quicknet.se (193.41.214.2) is not recursive.
+  3.698: quicknet.se INFO Name server ns.quicknet.se (193.41.214.2) authoritative for quicknet.se.
+  3.709: quicknet.se INFO Name server ns.quicknet.se (193.41.214.2) answers queries over UDP.
+  3.728: quicknet.se INFO Name server ns.quicknet.se (193.41.214.2) answers queries over TCP.
+  3.750: quicknet.se INFO Name server ns.quicknet.se (193.41.214.2) closed for zone transfer of quicknet.se.
+  3.763: quicknet.se INFO Legacy name server ID for ns.quicknet.se (193.41.214.2): hostname.bind = ns
+  3.773: quicknet.se INFO Legacy name server ID for ns.quicknet.se (193.41.214.2): version.bind = 100.100.100
+  3.794: quicknet.se NOTICE No answer received from 193.41.214.2 when querying for version.server/CH/TXT.
+  3.794: quicknet.se INFO Done testing name server ns.quicknet.se.
+  3.794: quicknet.se INFO Begin testing name server ns2.quicknet.se.
+  3.795: quicknet.se INFO Begin testing host ns2.quicknet.se.
+  3.795: quicknet.se INFO Begin testing address 193.41.214.16.
+  3.807: quicknet.se INFO Done testing address 193.41.214.16.
+  3.807: quicknet.se INFO Done testing host ns2.quicknet.se.
+  3.819: quicknet.se INFO Name server ns2.quicknet.se (193.41.214.16) is not recursive.
+  3.830: quicknet.se INFO Name server ns2.quicknet.se (193.41.214.16) authoritative for quicknet.se.
+  3.842: quicknet.se INFO Name server ns2.quicknet.se (193.41.214.16) answers queries over UDP.
+  3.860: quicknet.se INFO Name server ns2.quicknet.se (193.41.214.16) answers queries over TCP.
+  3.883: quicknet.se INFO Name server ns2.quicknet.se (193.41.214.16) closed for zone transfer of quicknet.se.
+  3.893: quicknet.se INFO Legacy name server ID for ns2.quicknet.se (193.41.214.16): hostname.bind = ns2
+  3.903: quicknet.se INFO Legacy name server ID for ns2.quicknet.se (193.41.214.16): version.bind = 100.100.100
+  3.923: quicknet.se NOTICE No answer received from 193.41.214.16 when querying for version.server/CH/TXT.
+  3.923: quicknet.se INFO Done testing name server ns2.quicknet.se.
+  3.923: quicknet.se INFO Begin testing zone consistency for quicknet.se.
+  3.938: quicknet.se INFO SOA at address 193.41.214.16 has serial 2010090601.
+  3.949: quicknet.se INFO SOA at address 193.41.214.2 has serial 2010090601.
+  3.949: quicknet.se INFO All SOA records have consistent serial numbers.
+  3.949: quicknet.se INFO All SOA records are consistent among all name servers.
+  3.949: quicknet.se INFO Done testing zone consistency for quicknet.se.
+  3.950: quicknet.se INFO Begin testing SOA parameters for quicknet.se.
+  3.960: quicknet.se INFO Found SOA record for quicknet.se.
+  3.961: quicknet.se INFO Begin testing host ns.quicknet.se.
+  3.961: quicknet.se INFO Begin testing address 193.41.214.2.
+  3.962: quicknet.se INFO Done testing address 193.41.214.2.
+  3.962: quicknet.se INFO Done testing host ns.quicknet.se.
+  3.962: quicknet.se INFO SOA MNAME for quicknet.se valid (ns.quicknet.se).
+  3.963: quicknet.se INFO SOA MNAME for quicknet.se (ns.quicknet.se) listed as NS.
+  3.974: quicknet.se INFO SOA MNAME for quicknet.se (ns.quicknet.se) is authoritative.
+  3.974: quicknet.se INFO Begin testing email address registry@quicknet.se.
+  3.989: quicknet.se INFO Mail exchangers for registry@quicknet.se found incoming.quicknet.se,incoming1.quicknet.se,incoming2.quicknet.se.
+  3.989: quicknet.se INFO All mail servers for registry@quicknet.se are in zone quicknet.se.
+  3.989: quicknet.se INFO Begin testing host incoming.quicknet.se.
+  4.010: quicknet.se INFO Begin testing address 193.41.214.55.
+  4.041: quicknet.se INFO Done testing address 193.41.214.55.
+  4.041: quicknet.se INFO Begin testing address 193.41.214.56.
+  4.072: quicknet.se INFO Done testing address 193.41.214.56.
+  4.072: quicknet.se INFO Done testing host incoming.quicknet.se.
+  4.073: quicknet.se INFO Begin testing mail server incoming.quicknet.se (193.41.214.55) with registry@quicknet.se.
+  4.132: quicknet.se INFO SMTP banner: incoming1.quicknet.se ESMTP Tue, 07 Sep 2010 16:21:32 +0200
+ 19.246: quicknet.se INFO SMTP testing of incoming.quicknet.se (193.41.214.55) with registry@quicknet.se succeeded without errors.
+ 19.246: quicknet.se INFO Done testing mail server incoming.quicknet.se (193.41.214.55) with registry@quicknet.se.
+ 19.246: quicknet.se INFO Begin testing host incoming1.quicknet.se.
+ 19.247: quicknet.se INFO Begin testing address 193.41.214.55.
+ 19.248: quicknet.se INFO Done testing address 193.41.214.55.
+ 19.248: quicknet.se INFO Done testing host incoming1.quicknet.se.
+ 19.249: quicknet.se INFO Begin testing host incoming2.quicknet.se.
+ 19.249: quicknet.se INFO Begin testing address 193.41.214.56.
+ 19.250: quicknet.se INFO Done testing address 193.41.214.56.
+ 19.250: quicknet.se INFO Done testing host incoming2.quicknet.se.
+ 19.251: quicknet.se INFO Delivery over IPv4 to registry@quicknet.se ok.
+ 19.251: quicknet.se INFO Delivery over IPv6 to registry@quicknet.se could not be done.
+ 19.251: quicknet.se INFO Done testing email address registry@quicknet.se.
+ 19.251: quicknet.se INFO Successful attempt to deliver email for SOA RNAME of quicknet.se (registry.quicknet.se) using registry@quicknet.se.
+ 19.251: quicknet.se NOTICE SOA TTL for quicknet.se too small (300) - recommended >= 3600.
+ 19.251: quicknet.se INFO SOA refresh for quicknet.se OK (36000) - recommended >= 14400.
+ 19.251: quicknet.se INFO SOA retry for quicknet.se OK (3600) - recommended >= 3600.
+ 19.251: quicknet.se INFO SOA expire for quicknet.se OK (1814400) - recommended >= 604800.
+ 19.251: quicknet.se INFO SOA minimum for quicknet.se OK (7200) - recommended between 300 and 86400.
+ 19.251: quicknet.se INFO Done testing SOA parameters for quicknet.se.
+ 19.252: quicknet.se INFO Begin testing connectivity for quicknet.se.
+ 19.680: quicknet.se INFO Name server 193.41.214.16 announced by: 1257
+ 19.810: quicknet.se INFO Name server 193.41.214.2 announced by: 1257
+ 19.810: quicknet.se INFO Zone announced by ASN: 1257
+ 19.810: quicknet.se NOTICE Zone announced by only one ASN (1).
+ 19.810: quicknet.se INFO Zone announced by IPv6 ASN: 
+ 19.810: quicknet.se NOTICE Zone announced by only one IPv6 ASN (0).
+ 19.810: quicknet.se INFO Done testing connectivity for quicknet.se.
+ 19.811: quicknet.se INFO Begin testing DNSSEC for quicknet.se.
+ 19.858: quicknet.se INFO Did not find DS record for quicknet.se at parent.
+ 19.893: quicknet.se INFO Servers for quicknet.se have consistent extra processing status.
+ 19.893: quicknet.se INFO Did not find DNSKEY record for quicknet.se at child.
+ 19.893: quicknet.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 19.893: quicknet.se INFO Done testing DNSSEC for quicknet.se.
+ 19.893: quicknet.se INFO Test completed for zone quicknet.se.

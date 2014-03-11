@@ -1,0 +1,98 @@
+  0.000: alingsas.se INFO Begin testing zone alingsas.se with version 1.6.1.
+  0.550: alingsas.se INFO Begin testing delegation for alingsas.se.
+ 17.487: alingsas.se INFO Name servers listed at parent: nic.alingsas.se,nic2.gota.net
+ 21.452: alingsas.se INFO Name servers listed at child: nic.alingsas.se,nic2.gota.net
+ 21.453: alingsas.se NOTICE Too few IPv6 name servers (1).
+ 21.545: alingsas.se INFO Parent glue for alingsas.se found: nic.alingsas.se (193.235.139.3)
+ 21.806: alingsas.se INFO Checking glue for nic.alingsas.se (193.235.139.3).
+ 21.880: alingsas.se INFO Child glue for alingsas.se found: nic.alingsas.se (193.235.139.3)
+ 21.880: alingsas.se INFO Parent glue for alingsas.se found: nic.alingsas.se (193.235.139.3)
+ 22.804: alingsas.se INFO It is possible to build a referral packet for alingsas.se that works without EDNS0.
+ 23.243: alingsas.se INFO Previously used name servers for alingsas.se: 
+ 23.243: alingsas.se INFO Done testing delegation for alingsas.se.
+ 23.244: alingsas.se INFO Begin testing name server nic.alingsas.se.
+ 23.244: alingsas.se INFO Begin testing host nic.alingsas.se.
+ 23.902: alingsas.se INFO Begin testing address 193.235.139.3.
+ 62.259: alingsas.se INFO Done testing address 193.235.139.3.
+ 62.259: alingsas.se INFO Done testing host nic.alingsas.se.
+ 62.548: alingsas.se INFO Name server nic.alingsas.se (193.235.139.3) answers queries over UDP.
+ 62.625: alingsas.se INFO Name server nic.alingsas.se (193.235.139.3) answers queries over TCP.
+ 62.704: alingsas.se INFO Name server nic.alingsas.se (193.235.139.3) is not recursive.
+ 62.924: alingsas.se INFO Name server nic.alingsas.se (193.235.139.3) authoritative for alingsas.se.
+ 63.076: alingsas.se INFO Name server nic.alingsas.se (193.235.139.3) closed for zone transfer of alingsas.se.
+ 63.142: alingsas.se INFO Legacy name server ID for nic.alingsas.se (193.235.139.3): hostname.bind = nic.alingsas.se
+ 63.187: alingsas.se INFO Legacy name server ID for nic.alingsas.se (193.235.139.3): version.bind = ---
+ 63.307: alingsas.se NOTICE No answer received from 193.235.139.3 when querying for version.server/CH/TXT.
+ 63.307: alingsas.se INFO Done testing name server nic.alingsas.se.
+ 63.307: alingsas.se INFO Begin testing name server nic2.gota.net.
+ 63.307: alingsas.se INFO Begin testing host nic2.gota.net.
+ 63.315: alingsas.se INFO Begin testing address 212.3.0.2.
+ 65.611: alingsas.se INFO Done testing address 212.3.0.2.
+ 65.611: alingsas.se INFO Begin testing address 2a02:920:4194:0:0:0:0:2.
+ 66.282: alingsas.se INFO Done testing address 2a02:920:4194:0:0:0:0:2.
+ 66.282: alingsas.se INFO Done testing host nic2.gota.net.
+ 66.344: alingsas.se INFO Name server nic2.gota.net (212.3.0.2) answers queries over UDP.
+ 66.423: alingsas.se INFO Name server nic2.gota.net (212.3.0.2) answers queries over TCP.
+ 66.455: alingsas.se INFO Name server nic2.gota.net (212.3.0.2) is not recursive.
+ 66.636: alingsas.se INFO Name server nic2.gota.net (212.3.0.2) authoritative for alingsas.se.
+ 66.713: alingsas.se INFO Name server nic2.gota.net (212.3.0.2) closed for zone transfer of alingsas.se.
+ 66.759: alingsas.se INFO Legacy name server ID for nic2.gota.net (212.3.0.2): hostname.bind = nic2
+ 66.798: alingsas.se INFO Legacy name server ID for nic2.gota.net (212.3.0.2): version.bind = ---
+ 67.150: alingsas.se NOTICE No answer received from 212.3.0.2 when querying for version.server/CH/TXT.
+ 67.220: alingsas.se INFO Name server nic2.gota.net (2a02:920:4194:0:0:0:0:2) answers queries over UDP.
+ 67.292: alingsas.se INFO Name server nic2.gota.net (2a02:920:4194:0:0:0:0:2) answers queries over TCP.
+ 67.330: alingsas.se INFO Name server nic2.gota.net (2a02:920:4194:0:0:0:0:2) is not recursive.
+ 67.465: alingsas.se INFO Name server nic2.gota.net (2a02:920:4194:0:0:0:0:2) authoritative for alingsas.se.
+ 67.580: alingsas.se INFO Name server nic2.gota.net (2a02:920:4194:0:0:0:0:2) closed for zone transfer of alingsas.se.
+ 67.655: alingsas.se INFO Legacy name server ID for nic2.gota.net (2a02:920:4194:0:0:0:0:2): hostname.bind = nic2
+ 67.710: alingsas.se INFO Legacy name server ID for nic2.gota.net (2a02:920:4194:0:0:0:0:2): version.bind = ---
+ 67.843: alingsas.se NOTICE No answer received from 2a02:920:4194:0:0:0:0:2 when querying for version.server/CH/TXT.
+ 67.843: alingsas.se INFO Done testing name server nic2.gota.net.
+ 67.843: alingsas.se INFO Begin testing zone consistency for alingsas.se.
+ 68.630: alingsas.se INFO SOA at address 2a02:920:4194:0:0:0:0:2 has serial 2014030401.
+ 68.678: alingsas.se INFO SOA at address 212.3.0.2 has serial 2014030401.
+ 68.734: alingsas.se INFO SOA at address 193.235.139.3 has serial 2014030401.
+ 68.734: alingsas.se INFO All SOA records have consistent serial numbers.
+ 68.754: alingsas.se INFO All other fields in the SOA record are consistent among all name servers.
+ 69.203: alingsas.se NOTICE The listed nameservers for alingsas.se all report the same set of nameservers.
+ 69.203: alingsas.se INFO Done testing zone consistency for alingsas.se.
+ 69.203: alingsas.se INFO Begin testing SOA parameters for alingsas.se.
+ 69.275: alingsas.se INFO Found SOA record for alingsas.se.
+ 69.275: alingsas.se INFO Begin testing host nic.alingsas.se.
+ 69.622: alingsas.se INFO Begin testing address 193.235.139.3.
+ 69.933: alingsas.se INFO Done testing address 193.235.139.3.
+ 69.933: alingsas.se INFO Done testing host nic.alingsas.se.
+ 69.933: alingsas.se INFO SOA MNAME for alingsas.se valid (nic.alingsas.se).
+ 69.934: alingsas.se INFO SOA MNAME for alingsas.se (nic.alingsas.se) listed as NS.
+ 70.208: alingsas.se INFO SOA MNAME for alingsas.se (nic.alingsas.se) is authoritative.
+ 70.208: alingsas.se INFO Begin testing email address root@alingsas.se.
+ 70.548: alingsas.se INFO Mail exchangers for root@alingsas.se found smtp2.alingsas.se,smtp1.alingsas.se.
+ 70.549: alingsas.se INFO All mail servers for root@alingsas.se are in zone alingsas.se.
+ 70.549: alingsas.se INFO Begin testing host smtp2.alingsas.se.
+ 71.037: alingsas.se INFO Begin testing address 193.235.139.7.
+ 72.047: alingsas.se INFO Done testing address 193.235.139.7.
+ 72.047: alingsas.se INFO Done testing host smtp2.alingsas.se.
+ 72.347: alingsas.se INFO Begin testing host smtp1.alingsas.se.
+ 72.722: alingsas.se INFO Begin testing address 193.235.139.6.
+ 73.403: alingsas.se INFO Done testing address 193.235.139.6.
+ 73.403: alingsas.se INFO Done testing host smtp1.alingsas.se.
+ 73.533: alingsas.se INFO Done testing email address root@alingsas.se.
+ 73.534: alingsas.se INFO Successful attempt to deliver email for SOA RNAME of alingsas.se (root.alingsas.se) using root@alingsas.se.
+ 73.534: alingsas.se INFO SOA TTL for alingsas.se OK (3600) - recommended >= 3600.
+ 73.534: alingsas.se INFO SOA refresh for alingsas.se OK (28800) - recommended >= 14400.
+ 73.534: alingsas.se INFO SOA retry for alingsas.se OK (7200) - recommended >= 3600.
+ 73.534: alingsas.se INFO SOA expire for alingsas.se OK (608400) - recommended >= 604800.
+ 73.534: alingsas.se INFO SOA minimum for alingsas.se OK (86400) - recommended between 300 and 86400.
+ 73.534: alingsas.se INFO Done testing SOA parameters for alingsas.se.
+ 73.553: alingsas.se INFO Begin testing connectivity for alingsas.se.
+ 74.838: alingsas.se INFO Zone announced by more than one ASN.
+ 75.414: alingsas.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 75.414: alingsas.se INFO Done testing connectivity for alingsas.se.
+ 75.426: alingsas.se INFO Begin testing DNSSEC for alingsas.se.
+ 76.035: alingsas.se INFO Did not find DS record for alingsas.se at parent.
+ 76.171: alingsas.se INFO Servers for alingsas.se have consistent extra processing status.
+ 76.200: alingsas.se INFO Authenticated denial records not found for alingsas.se.
+ 76.231: alingsas.se INFO Did not find DNSKEY record for alingsas.se at child.
+ 76.231: alingsas.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 76.231: alingsas.se INFO Done testing DNSSEC for alingsas.se.
+ 76.232: alingsas.se INFO Test completed for zone alingsas.se.

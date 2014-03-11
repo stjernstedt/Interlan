@@ -1,0 +1,92 @@
+  0.000: karlskrona.net INFO Begin testing zone karlskrona.net with version 1.0.1.
+  0.001: karlskrona.net INFO Begin testing delegation for karlskrona.net.
+  5.192: karlskrona.net INFO Name servers listed at parent: dns1.nsgroup.net,dns2.nsgroup.net
+  5.597: karlskrona.net INFO Name servers listed at child: dns1.nsgroup.net,dns2.nsgroup.net
+  5.598: karlskrona.net NOTICE No IPv6 name servers found.
+  5.654: karlskrona.net INFO Parent glue for karlskrona.net found: dns1.nsgroup.net (88.86.45.41)
+  5.727: karlskrona.net INFO Parent glue for karlskrona.net found: dns2.nsgroup.net (88.86.45.42)
+  5.766: karlskrona.net INFO Checking glue for dns1.nsgroup.net (88.86.45.41).
+  5.766: karlskrona.net INFO Checking glue for dns2.nsgroup.net (88.86.45.42).
+  5.766: karlskrona.net INFO Done testing delegation for karlskrona.net.
+  5.767: karlskrona.net INFO Begin testing name server dns1.nsgroup.net.
+  5.768: karlskrona.net INFO Begin testing host dns1.nsgroup.net.
+  5.769: karlskrona.net INFO Begin testing address 88.86.45.41.
+  8.864: karlskrona.net INFO Done testing address 88.86.45.41.
+  8.864: karlskrona.net INFO Done testing host dns1.nsgroup.net.
+  8.907: karlskrona.net INFO Name server dns1.nsgroup.net (88.86.45.41) is not recursive.
+  8.950: karlskrona.net INFO Name server dns1.nsgroup.net (88.86.45.41) authoritative for karlskrona.net.
+  8.994: karlskrona.net INFO Name server dns1.nsgroup.net (88.86.45.41) answers queries over UDP.
+  9.085: karlskrona.net INFO Name server dns1.nsgroup.net (88.86.45.41) answers queries over TCP.
+  9.194: karlskrona.net INFO Name server dns1.nsgroup.net (88.86.45.41) closed for zone transfer of karlskrona.net.
+  9.234: karlskrona.net NOTICE No answer received from 88.86.45.41 when querying for hostname.bind/CH/TXT.
+ 15.285: karlskrona.net NOTICE No answer received from 88.86.45.41 when querying for id.server/CH/TXT.
+ 15.326: karlskrona.net NOTICE No answer received from 88.86.45.41 when querying for version.server/CH/TXT.
+ 15.326: karlskrona.net INFO Done testing name server dns1.nsgroup.net.
+ 15.326: karlskrona.net INFO Begin testing name server dns2.nsgroup.net.
+ 15.327: karlskrona.net INFO Begin testing host dns2.nsgroup.net.
+ 15.328: karlskrona.net INFO Begin testing address 88.86.45.42.
+ 15.371: karlskrona.net INFO Done testing address 88.86.45.42.
+ 15.372: karlskrona.net INFO Done testing host dns2.nsgroup.net.
+ 15.415: karlskrona.net INFO Name server dns2.nsgroup.net (88.86.45.42) is not recursive.
+ 15.458: karlskrona.net INFO Name server dns2.nsgroup.net (88.86.45.42) authoritative for karlskrona.net.
+ 15.501: karlskrona.net INFO Name server dns2.nsgroup.net (88.86.45.42) answers queries over UDP.
+ 15.580: karlskrona.net INFO Name server dns2.nsgroup.net (88.86.45.42) answers queries over TCP.
+ 15.690: karlskrona.net INFO Name server dns2.nsgroup.net (88.86.45.42) closed for zone transfer of karlskrona.net.
+ 15.732: karlskrona.net NOTICE No answer received from 88.86.45.42 when querying for hostname.bind/CH/TXT.
+ 21.779: karlskrona.net NOTICE No answer received from 88.86.45.42 when querying for id.server/CH/TXT.
+ 21.822: karlskrona.net NOTICE No answer received from 88.86.45.42 when querying for version.server/CH/TXT.
+ 21.822: karlskrona.net INFO Done testing name server dns2.nsgroup.net.
+ 21.823: karlskrona.net INFO Begin testing zone consistency for karlskrona.net.
+ 21.873: karlskrona.net INFO SOA at address 88.86.45.42 has serial 2008122302.
+ 21.916: karlskrona.net INFO SOA at address 88.86.45.41 has serial 2008122302.
+ 21.916: karlskrona.net INFO All SOA records have consistent serial numbers.
+ 21.916: karlskrona.net INFO All SOA records are consistent among all name servers.
+ 21.916: karlskrona.net INFO Done testing zone consistency for karlskrona.net.
+ 21.916: karlskrona.net INFO Begin testing SOA parameters for karlskrona.net.
+ 21.958: karlskrona.net INFO Found SOA record for karlskrona.net.
+ 21.959: karlskrona.net INFO Begin testing host dns1.nsgroup.net.
+ 21.960: karlskrona.net INFO Begin testing address 88.86.45.41.
+ 21.962: karlskrona.net INFO Done testing address 88.86.45.41.
+ 21.963: karlskrona.net INFO Done testing host dns1.nsgroup.net.
+ 21.963: karlskrona.net INFO SOA MNAME for karlskrona.net valid (dns1.nsgroup.net).
+ 21.963: karlskrona.net INFO SOA MNAME for karlskrona.net (dns1.nsgroup.net) listed as NS.
+ 22.008: karlskrona.net INFO SOA MNAME for karlskrona.net (dns1.nsgroup.net) is authoritative.
+ 22.008: karlskrona.net INFO Begin testing email address registry@nsgroup.net.
+ 22.059: karlskrona.net INFO Mail exchangers for registry@nsgroup.net found ironport.dataphone.se,ironport1.dataphone.se.
+ 22.059: karlskrona.net INFO Begin testing host ironport.dataphone.se.
+ 22.117: karlskrona.net INFO Begin testing address 212.37.16.226.
+ 22.369: karlskrona.net INFO Done testing address 212.37.16.226.
+ 22.369: karlskrona.net INFO Done testing host ironport.dataphone.se.
+ 22.370: karlskrona.net INFO Begin testing mail server ironport.dataphone.se (212.37.16.226) with registry@nsgroup.net.
+ 22.802: karlskrona.net INFO SMTP banner: ipmxin.dataphone.se ESMTP
+ 22.833: karlskrona.net INFO SMTP testing of ironport.dataphone.se (212.37.16.226) with registry@nsgroup.net succeeded without errors.
+ 22.834: karlskrona.net INFO Done testing mail server ironport.dataphone.se (212.37.16.226) with registry@nsgroup.net.
+ 22.834: karlskrona.net INFO Begin testing host ironport1.dataphone.se.
+ 22.862: karlskrona.net INFO Begin testing address 83.145.3.70.
+ 23.055: karlskrona.net INFO Done testing address 83.145.3.70.
+ 23.056: karlskrona.net INFO Done testing host ironport1.dataphone.se.
+ 23.056: karlskrona.net INFO Delivery over IPv4 to registry@nsgroup.net ok.
+ 23.057: karlskrona.net INFO Delivery over IPv6 to registry@nsgroup.net could not be done.
+ 23.057: karlskrona.net INFO Done testing email address registry@nsgroup.net.
+ 23.057: karlskrona.net INFO Successful attempt to deliver email for SOA RNAME of karlskrona.net (registry.nsgroup.net) using registry@nsgroup.net.
+ 23.057: karlskrona.net INFO SOA TTL for karlskrona.net OK (7200) - recommended >= 3600.
+ 23.057: karlskrona.net NOTICE SOA refresh for karlskrona.net too small (10800) - recommended >= 14400.
+ 23.058: karlskrona.net INFO SOA retry for karlskrona.net OK (3600) - recommended >= 3600.
+ 23.058: karlskrona.net INFO SOA expire for karlskrona.net OK (604800) - recommended >= 604800.
+ 23.058: karlskrona.net INFO SOA minimum for karlskrona.net OK (7200) - recommended between 300 and 86400.
+ 23.058: karlskrona.net INFO Done testing SOA parameters for karlskrona.net.
+ 23.058: karlskrona.net INFO Begin testing connectivity for karlskrona.net.
+ 23.443: karlskrona.net INFO Name server 88.86.45.42 announced by: 21052
+ 23.602: karlskrona.net INFO Name server 88.86.45.41 announced by: 21052
+ 23.602: karlskrona.net INFO Zone announced by ASN: 21052
+ 23.603: karlskrona.net NOTICE Zone announced by only one ASN (1).
+ 23.603: karlskrona.net INFO Zone announced by IPv6 ASN: 
+ 23.603: karlskrona.net NOTICE Zone announced by only one IPv6 ASN (0).
+ 23.604: karlskrona.net INFO Done testing connectivity for karlskrona.net.
+ 23.604: karlskrona.net INFO Begin testing DNSSEC for karlskrona.net.
+ 23.910: karlskrona.net INFO Did not find DS record for karlskrona.net at parent.
+ 24.069: karlskrona.net INFO Servers for karlskrona.net have consistent extra processing status.
+ 24.069: karlskrona.net INFO Did not find DNSKEY record for karlskrona.net at child.
+ 24.070: karlskrona.net INFO No DNSKEY(s) found at child, other tests skipped.
+ 24.070: karlskrona.net INFO Done testing DNSSEC for karlskrona.net.
+ 24.070: karlskrona.net INFO Test completed for zone karlskrona.net.

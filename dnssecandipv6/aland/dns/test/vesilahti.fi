@@ -1,0 +1,162 @@
+  0.000: vesilahti.fi INFO Begin testing zone vesilahti.fi with version 1.5.0.
+  2.377: vesilahti.fi INFO Begin testing delegation for vesilahti.fi.
+ 59.540: vesilahti.fi INFO Name servers listed at parent: ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 80.331: vesilahti.fi INFO Name servers listed at child: ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 80.749: vesilahti.fi INFO Parent glue for vesilahti.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+ 81.695: vesilahti.fi INFO Parent glue for vesilahti.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+ 83.021: vesilahti.fi INFO Parent glue for vesilahti.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+ 83.822: vesilahti.fi INFO Parent glue for vesilahti.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+ 84.486: vesilahti.fi INFO Checking glue for ns1-fin.global.sonera.fi (193.210.18.31).
+ 84.530: vesilahti.fi INFO Checking glue for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53).
+ 84.530: vesilahti.fi INFO Checking glue for ns2-fin.global.sonera.fi (195.156.148.158).
+ 84.530: vesilahti.fi INFO Checking glue for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53).
+ 84.579: vesilahti.fi INFO Parent glue for vesilahti.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+ 84.579: vesilahti.fi INFO Parent glue for vesilahti.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+ 84.579: vesilahti.fi INFO Parent glue for vesilahti.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+ 84.580: vesilahti.fi INFO Parent glue for vesilahti.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+ 91.361: vesilahti.fi INFO It is possible to build a referral packet for vesilahti.fi that works without EDNS0.
+ 93.149: vesilahti.fi INFO Previously used name servers for vesilahti.fi: 
+ 93.149: vesilahti.fi INFO Done testing delegation for vesilahti.fi.
+ 93.149: vesilahti.fi INFO Begin testing name server ns1-fin.global.sonera.fi.
+ 93.149: vesilahti.fi INFO Begin testing host ns1-fin.global.sonera.fi.
+ 93.150: vesilahti.fi INFO Begin testing address 193.210.18.31.
+117.025: vesilahti.fi INFO Done testing address 193.210.18.31.
+117.025: vesilahti.fi INFO Begin testing address 2001:2060:ffdd:a01:0:0:0:53.
+125.730: vesilahti.fi INFO Done testing address 2001:2060:ffdd:a01:0:0:0:53.
+125.730: vesilahti.fi INFO Done testing host ns1-fin.global.sonera.fi.
+126.246: vesilahti.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over UDP.
+126.544: vesilahti.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over TCP.
+126.727: vesilahti.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) is not recursive.
+128.017: vesilahti.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) authoritative for vesilahti.fi.
+128.118: vesilahti.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) closed for zone transfer of vesilahti.fi.
+128.360: vesilahti.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): hostname.bind = mgda1
+128.567: vesilahti.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): version.bind = TeliaSonera Finland DNS MGDA
+128.656: vesilahti.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): id.server = mgda2
+128.759: vesilahti.fi NOTICE No answer received from 193.210.18.31 when querying for version.server/CH/TXT.
+129.051: vesilahti.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) answers queries over UDP.
+129.262: vesilahti.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) answers queries over TCP.
+129.510: vesilahti.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) is not recursive.
+130.266: vesilahti.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) authoritative for vesilahti.fi.
+130.601: vesilahti.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) closed for zone transfer of vesilahti.fi.
+136.963: vesilahti.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+137.175: vesilahti.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): id.server = mgda2
+137.297: vesilahti.fi NOTICE No answer received from 2001:2060:ffdd:a01:0:0:0:53 when querying for version.server/CH/TXT.
+137.297: vesilahti.fi INFO Done testing name server ns1-fin.global.sonera.fi.
+137.297: vesilahti.fi INFO Begin testing name server ns1-swe.global.sonera.se.
+137.297: vesilahti.fi INFO Begin testing host ns1-swe.global.sonera.se.
+137.298: vesilahti.fi INFO Begin testing address 80.64.9.124.
+140.701: vesilahti.fi INFO Done testing address 80.64.9.124.
+140.701: vesilahti.fi INFO Begin testing address 2001:6e8:400:ffff:1:0:0:53.
+141.855: vesilahti.fi INFO Done testing address 2001:6e8:400:ffff:1:0:0:53.
+141.855: vesilahti.fi INFO Done testing host ns1-swe.global.sonera.se.
+142.033: vesilahti.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over UDP.
+142.306: vesilahti.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over TCP.
+142.518: vesilahti.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) is not recursive.
+143.077: vesilahti.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) authoritative for vesilahti.fi.
+143.230: vesilahti.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) closed for zone transfer of vesilahti.fi.
+143.293: vesilahti.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): hostname.bind = mgda3
+143.396: vesilahti.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): version.bind = TeliaSonera Finland DNS MGDA
+143.447: vesilahti.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): id.server = mgda3
+143.555: vesilahti.fi NOTICE No answer received from 80.64.9.124 when querying for version.server/CH/TXT.
+143.706: vesilahti.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over UDP.
+143.985: vesilahti.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over TCP.
+144.132: vesilahti.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) is not recursive.
+144.749: vesilahti.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) authoritative for vesilahti.fi.
+144.923: vesilahti.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) closed for zone transfer of vesilahti.fi.
+145.011: vesilahti.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): hostname.bind = mgda3
+145.155: vesilahti.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+145.312: vesilahti.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): id.server = mgda3
+145.372: vesilahti.fi NOTICE No answer received from 2001:6e8:400:ffff:1:0:0:53 when querying for version.server/CH/TXT.
+145.395: vesilahti.fi INFO Done testing name server ns1-swe.global.sonera.se.
+145.395: vesilahti.fi INFO Begin testing name server ns2-fin.global.sonera.fi.
+145.395: vesilahti.fi INFO Begin testing host ns2-fin.global.sonera.fi.
+145.396: vesilahti.fi INFO Begin testing address 195.156.148.158.
+146.558: vesilahti.fi INFO Done testing address 195.156.148.158.
+146.558: vesilahti.fi INFO Begin testing address 2001:2060:ffdd:a02:0:0:0:53.
+147.472: vesilahti.fi INFO Done testing address 2001:2060:ffdd:a02:0:0:0:53.
+147.472: vesilahti.fi INFO Done testing host ns2-fin.global.sonera.fi.
+147.578: vesilahti.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over UDP.
+147.710: vesilahti.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over TCP.
+147.939: vesilahti.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) is not recursive.
+148.589: vesilahti.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) authoritative for vesilahti.fi.
+148.699: vesilahti.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) closed for zone transfer of vesilahti.fi.
+148.843: vesilahti.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): hostname.bind = mgda2
+148.931: vesilahti.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): version.bind = TeliaSonera Finland DNS MGDA
+149.028: vesilahti.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): id.server = mgda2
+149.116: vesilahti.fi NOTICE No answer received from 195.156.148.158 when querying for version.server/CH/TXT.
+149.286: vesilahti.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) answers queries over UDP.
+149.418: vesilahti.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) answers queries over TCP.
+149.872: vesilahti.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) is not recursive.
+150.655: vesilahti.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) authoritative for vesilahti.fi.
+150.760: vesilahti.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) closed for zone transfer of vesilahti.fi.
+150.853: vesilahti.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): hostname.bind = mgda2
+150.946: vesilahti.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+151.007: vesilahti.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): id.server = mgda1
+151.099: vesilahti.fi NOTICE No answer received from 2001:2060:ffdd:a02:0:0:0:53 when querying for version.server/CH/TXT.
+151.099: vesilahti.fi INFO Done testing name server ns2-fin.global.sonera.fi.
+151.099: vesilahti.fi INFO Begin testing name server ns2-usa.global.sonera.net.
+151.099: vesilahti.fi INFO Begin testing host ns2-usa.global.sonera.net.
+152.151: vesilahti.fi INFO Begin testing address 46.38.190.56.
+155.871: vesilahti.fi INFO Done testing address 46.38.190.56.
+155.871: vesilahti.fi INFO Done testing host ns2-usa.global.sonera.net.
+157.341: vesilahti.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over UDP.
+157.911: vesilahti.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over TCP.
+158.151: vesilahti.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) is not recursive.
+159.248: vesilahti.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) authoritative for vesilahti.fi.
+159.459: vesilahti.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) closed for zone transfer of vesilahti.fi.
+159.613: vesilahti.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): hostname.bind = mgda5
+159.850: vesilahti.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): version.bind = TeliaSonera Finland DNS MGDA
+160.029: vesilahti.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): id.server = mgda5
+160.226: vesilahti.fi NOTICE No answer received from 46.38.190.56 when querying for version.server/CH/TXT.
+160.226: vesilahti.fi INFO Done testing name server ns2-usa.global.sonera.net.
+160.226: vesilahti.fi INFO Begin testing zone consistency for vesilahti.fi.
+163.199: vesilahti.fi INFO SOA at address 2001:2060:ffdd:a01:0:0:0:53 has serial 2012092410.
+163.298: vesilahti.fi INFO SOA at address 193.210.18.31 has serial 2012092410.
+163.581: vesilahti.fi INFO SOA at address 80.64.9.124 has serial 2012092410.
+163.758: vesilahti.fi INFO SOA at address 195.156.148.158 has serial 2012092410.
+164.010: vesilahti.fi INFO SOA at address 2001:6e8:400:ffff:1:0:0:53 has serial 2012092410.
+164.281: vesilahti.fi INFO SOA at address 46.38.190.56 has serial 2012092410.
+164.466: vesilahti.fi INFO SOA at address 2001:2060:ffdd:a02:0:0:0:53 has serial 2012092410.
+164.466: vesilahti.fi INFO All SOA records have consistent serial numbers.
+164.603: vesilahti.fi INFO All other fields in the SOA record are consistent among all name servers.
+166.815: vesilahti.fi NOTICE The listed nameservers for vesilahti.fi all report the same set of nameservers.
+166.815: vesilahti.fi INFO Done testing zone consistency for vesilahti.fi.
+166.815: vesilahti.fi INFO Begin testing SOA parameters for vesilahti.fi.
+166.914: vesilahti.fi INFO Found SOA record for vesilahti.fi.
+166.914: vesilahti.fi INFO Begin testing host namesurfer.inet.fi.
+168.519: vesilahti.fi INFO Begin testing address 131.177.73.253.
+182.871: vesilahti.fi INFO Done testing address 131.177.73.253.
+182.871: vesilahti.fi INFO Done testing host namesurfer.inet.fi.
+182.871: vesilahti.fi INFO SOA MNAME for vesilahti.fi valid (namesurfer.inet.fi).
+182.871: vesilahti.fi NOTICE SOA MNAME for vesilahti.fi (namesurfer.inet.fi) not listed as NS.
+189.238: vesilahti.fi INFO SOA MNAME for vesilahti.fi (namesurfer.inet.fi) is authoritative.
+189.238: vesilahti.fi INFO Begin testing email address hostmaster@sonera.com.
+189.551: vesilahti.fi INFO Mail exchangers for hostmaster@sonera.com found smtp.dave.sonera.fi,mail.cm.sonera.com.
+189.551: vesilahti.fi INFO Begin testing host smtp.dave.sonera.fi.
+190.135: vesilahti.fi INFO Begin testing address 131.177.120.25.
+191.135: vesilahti.fi INFO Done testing address 131.177.120.25.
+191.135: vesilahti.fi INFO Done testing host smtp.dave.sonera.fi.
+191.399: vesilahti.fi INFO Begin testing host mail.cm.sonera.com.
+192.086: vesilahti.fi INFO Begin testing address 193.208.151.61.
+193.216: vesilahti.fi INFO Done testing address 193.208.151.61.
+193.216: vesilahti.fi INFO Done testing host mail.cm.sonera.com.
+193.611: vesilahti.fi INFO Done testing email address hostmaster@sonera.com.
+193.611: vesilahti.fi INFO Successful attempt to deliver email for SOA RNAME of vesilahti.fi (hostmaster.sonera.com) using hostmaster@sonera.com.
+193.612: vesilahti.fi INFO SOA TTL for vesilahti.fi OK (3600) - recommended >= 3600.
+193.612: vesilahti.fi INFO SOA refresh for vesilahti.fi OK (86400) - recommended >= 14400.
+193.612: vesilahti.fi INFO SOA retry for vesilahti.fi OK (7200) - recommended >= 3600.
+193.612: vesilahti.fi INFO SOA expire for vesilahti.fi OK (3456000) - recommended >= 604800.
+193.612: vesilahti.fi INFO SOA minimum for vesilahti.fi OK (3600) - recommended between 300 and 86400.
+193.612: vesilahti.fi INFO Done testing SOA parameters for vesilahti.fi.
+193.612: vesilahti.fi INFO Begin testing connectivity for vesilahti.fi.
+196.553: vesilahti.fi INFO Zone announced by more than one ASN.
+198.469: vesilahti.fi INFO Zone announced by more than one IPv6 ASN.
+198.469: vesilahti.fi INFO Done testing connectivity for vesilahti.fi.
+198.469: vesilahti.fi INFO Begin testing DNSSEC for vesilahti.fi.
+198.485: vesilahti.fi INFO Did not find DS record for vesilahti.fi at parent.
+198.872: vesilahti.fi INFO Servers for vesilahti.fi have consistent extra processing status.
+198.897: vesilahti.fi INFO Authenticated denial records not found for vesilahti.fi.
+198.912: vesilahti.fi INFO Did not find DNSKEY record for vesilahti.fi at child.
+198.912: vesilahti.fi INFO No DNSKEY(s) found at child, other tests skipped.
+198.912: vesilahti.fi INFO Done testing DNSSEC for vesilahti.fi.
+198.913: vesilahti.fi INFO Test completed for zone vesilahti.fi.

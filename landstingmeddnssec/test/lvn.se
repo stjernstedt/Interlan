@@ -1,0 +1,121 @@
+  0.000: lvn.se INFO Begin testing zone lvn.se with version 1.6.1.
+  0.495: lvn.se INFO Begin testing delegation for lvn.se.
+ 10.652: lvn.se INFO Name servers listed at parent: ns1.fxh42.net,ns5.fxh42.net,ns7.fxh42.net
+ 13.550: lvn.se INFO Name servers listed at child: ns1.fxh42.net,ns5.fxh42.net,ns7.fxh42.net
+ 13.570: lvn.se WARNING No IPv6 name servers found.
+ 15.557: lvn.se INFO It is possible to build a referral packet for lvn.se that works without EDNS0.
+ 16.840: lvn.se INFO Previously used name servers for lvn.se: 
+ 16.840: lvn.se INFO Done testing delegation for lvn.se.
+ 16.840: lvn.se INFO Begin testing name server ns1.fxh42.net.
+ 16.847: lvn.se INFO Begin testing host ns1.fxh42.net.
+ 17.291: lvn.se INFO Begin testing address 192.176.133.70.
+ 35.343: lvn.se INFO Done testing address 192.176.133.70.
+ 35.379: lvn.se INFO Done testing host ns1.fxh42.net.
+ 35.921: lvn.se INFO Name server ns1.fxh42.net (192.176.133.70) answers queries over UDP.
+ 36.064: lvn.se INFO Name server ns1.fxh42.net (192.176.133.70) answers queries over TCP.
+ 37.877: lvn.se INFO Name server ns1.fxh42.net (192.176.133.70) is not recursive.
+ 38.205: lvn.se INFO Name server ns1.fxh42.net (192.176.133.70) authoritative for lvn.se.
+ 38.298: lvn.se INFO Name server ns1.fxh42.net (192.176.133.70) closed for zone transfer of lvn.se.
+ 38.330: lvn.se INFO Legacy name server ID for ns1.fxh42.net (192.176.133.70): hostname.bind = ns1.fxh42.net
+ 38.420: lvn.se INFO Legacy name server ID for ns1.fxh42.net (192.176.133.70): version.bind = TE
+ 38.545: lvn.se NOTICE No answer received from 192.176.133.70 when querying for version.server/CH/TXT.
+ 38.545: lvn.se INFO Done testing name server ns1.fxh42.net.
+ 38.545: lvn.se INFO Begin testing name server ns5.fxh42.net.
+ 38.545: lvn.se INFO Begin testing host ns5.fxh42.net.
+ 39.104: lvn.se INFO Begin testing address 194.14.70.224.
+ 40.453: lvn.se INFO Done testing address 194.14.70.224.
+ 40.454: lvn.se INFO Done testing host ns5.fxh42.net.
+ 41.037: lvn.se INFO Name server ns5.fxh42.net (194.14.70.224) answers queries over UDP.
+ 41.089: lvn.se INFO Name server ns5.fxh42.net (194.14.70.224) answers queries over TCP.
+ 41.118: lvn.se INFO Name server ns5.fxh42.net (194.14.70.224) is not recursive.
+ 41.209: lvn.se INFO Name server ns5.fxh42.net (194.14.70.224) authoritative for lvn.se.
+ 41.257: lvn.se INFO Name server ns5.fxh42.net (194.14.70.224) closed for zone transfer of lvn.se.
+ 41.286: lvn.se INFO Legacy name server ID for ns5.fxh42.net (194.14.70.224): hostname.bind = ns5.fxh42.net
+ 41.328: lvn.se INFO Legacy name server ID for ns5.fxh42.net (194.14.70.224): version.bind = TE
+ 41.400: lvn.se NOTICE No answer received from 194.14.70.224 when querying for version.server/CH/TXT.
+ 41.400: lvn.se INFO Done testing name server ns5.fxh42.net.
+ 41.400: lvn.se INFO Begin testing name server ns7.fxh42.net.
+ 41.400: lvn.se INFO Begin testing host ns7.fxh42.net.
+ 41.604: lvn.se INFO Begin testing address 131.207.48.23.
+ 43.801: lvn.se INFO Done testing address 131.207.48.23.
+ 43.801: lvn.se INFO Done testing host ns7.fxh42.net.
+ 44.089: lvn.se INFO Name server ns7.fxh42.net (131.207.48.23) answers queries over UDP.
+ 44.128: lvn.se INFO Name server ns7.fxh42.net (131.207.48.23) answers queries over TCP.
+ 44.149: lvn.se INFO Name server ns7.fxh42.net (131.207.48.23) is not recursive.
+ 44.318: lvn.se INFO Name server ns7.fxh42.net (131.207.48.23) authoritative for lvn.se.
+ 44.358: lvn.se INFO Name server ns7.fxh42.net (131.207.48.23) closed for zone transfer of lvn.se.
+ 44.376: lvn.se INFO Legacy name server ID for ns7.fxh42.net (131.207.48.23): hostname.bind = ns7.fxh42.net
+ 44.400: lvn.se INFO Legacy name server ID for ns7.fxh42.net (131.207.48.23): version.bind = TE
+ 44.438: lvn.se NOTICE No answer received from 131.207.48.23 when querying for version.server/CH/TXT.
+ 44.438: lvn.se INFO Done testing name server ns7.fxh42.net.
+ 44.438: lvn.se INFO Begin testing zone consistency for lvn.se.
+ 46.368: lvn.se INFO SOA at address 194.14.70.224 has serial 2014030300.
+ 46.393: lvn.se INFO SOA at address 131.207.48.23 has serial 2014030300.
+ 46.437: lvn.se INFO SOA at address 192.176.133.70 has serial 2014030300.
+ 46.448: lvn.se INFO All SOA records have consistent serial numbers.
+ 46.464: lvn.se INFO All other fields in the SOA record are consistent among all name servers.
+ 47.630: lvn.se NOTICE The listed nameservers for lvn.se all report the same set of nameservers.
+ 47.630: lvn.se INFO Done testing zone consistency for lvn.se.
+ 47.630: lvn.se INFO Begin testing SOA parameters for lvn.se.
+ 47.646: lvn.se INFO Found SOA record for lvn.se.
+ 47.648: lvn.se INFO Begin testing host ns1.fxh42.net.
+ 47.940: lvn.se INFO Begin testing address 192.176.133.70.
+ 48.296: lvn.se INFO Done testing address 192.176.133.70.
+ 48.296: lvn.se INFO Done testing host ns1.fxh42.net.
+ 48.296: lvn.se INFO SOA MNAME for lvn.se valid (ns1.fxh42.net).
+ 48.296: lvn.se INFO SOA MNAME for lvn.se (ns1.fxh42.net) listed as NS.
+ 48.638: lvn.se INFO SOA MNAME for lvn.se (ns1.fxh42.net) is authoritative.
+ 48.638: lvn.se INFO Begin testing email address hostmaster@fxh42.net.
+ 48.893: lvn.se INFO Mail exchangers for hostmaster@fxh42.net found ns2.fxh42.net,ns1.fxh42.net.
+ 48.901: lvn.se INFO Begin testing host ns2.fxh42.net.
+ 49.436: lvn.se INFO Begin testing address 192.176.133.71.
+ 50.088: lvn.se INFO Done testing address 192.176.133.71.
+ 50.089: lvn.se INFO Done testing host ns2.fxh42.net.
+ 50.340: lvn.se INFO Begin testing host ns1.fxh42.net.
+ 50.592: lvn.se INFO Begin testing address 192.176.133.70.
+ 50.764: lvn.se INFO Done testing address 192.176.133.70.
+ 50.764: lvn.se INFO Done testing host ns1.fxh42.net.
+ 50.980: lvn.se INFO Done testing email address hostmaster@fxh42.net.
+ 50.987: lvn.se INFO Successful attempt to deliver email for SOA RNAME of lvn.se (hostmaster.fxh42.net) using hostmaster@fxh42.net.
+ 50.987: lvn.se INFO SOA TTL for lvn.se OK (3600) - recommended >= 3600.
+ 50.987: lvn.se INFO SOA refresh for lvn.se OK (14400) - recommended >= 14400.
+ 50.988: lvn.se INFO SOA retry for lvn.se OK (3600) - recommended >= 3600.
+ 50.988: lvn.se INFO SOA expire for lvn.se OK (604800) - recommended >= 259200.
+ 50.988: lvn.se INFO SOA minimum for lvn.se OK (3600) - recommended between 300 and 86400.
+ 50.988: lvn.se INFO Done testing SOA parameters for lvn.se.
+ 50.988: lvn.se INFO Begin testing connectivity for lvn.se.
+ 52.529: lvn.se INFO Zone announced by more than one ASN.
+ 52.530: lvn.se WARNING Zone announced by fewer than two IPv6 ASN.
+ 52.531: lvn.se INFO Done testing connectivity for lvn.se.
+ 52.531: lvn.se INFO Begin testing DNSSEC for lvn.se.
+ 52.591: lvn.se INFO Did not find DS record for lvn.se at parent.
+ 52.614: lvn.se INFO Nameserver 192.176.133.70 does DNSSEC extra processing.
+ 52.651: lvn.se INFO Nameserver 194.14.70.224 does DNSSEC extra processing.
+ 52.714: lvn.se INFO Nameserver 131.207.48.23 does DNSSEC extra processing.
+ 52.715: lvn.se INFO Servers for lvn.se have consistent extra processing status.
+ 52.747: lvn.se INFO Authenticated denial records found for lvn.se, of type NSEC3.
+ 52.770: lvn.se INFO NSEC3PARAM record found for lvn.se.
+ 52.771: lvn.se INFO NSEC3 for lvn.se is set to use 5 iterations, which is less than 100 and thus OK.
+ 52.771: lvn.se INFO Found DNSKEY record for lvn.se at child.
+ 52.771: lvn.se WARNING Broken chain of trust for lvn.se - DNSKEY found at child, but no DS was found at parent.
+ 52.772: lvn.se INFO Checking DNSSEC at child (lvn.se).
+ 52.772: lvn.se INFO lvn.se's key with tag 29428 uses algorithm number 8 (RSA/SHA-256).
+ 52.772: lvn.se INFO Algorithm number 8 is OK.
+ 52.772: lvn.se INFO lvn.se's key with tag 27302 uses algorithm number 8 (RSA/SHA-256).
+ 52.772: lvn.se INFO Algorithm number 8 is OK.
+ 52.772: lvn.se INFO DNSKEY lvn.se (tag 27302) is marked as a secure entry point (SEP).
+ 52.772: lvn.se INFO lvn.se's key with tag 38449 uses algorithm number 8 (RSA/SHA-256).
+ 52.772: lvn.se INFO Algorithm number 8 is OK.
+ 52.773: lvn.se INFO DNSSEC signature expires at: Mon Mar 10 17:16:02 2014
+ 52.773: lvn.se INFO Duration for RRSIG(lvn.se/IN/DNSKEY/27302) is OK (1187314 seconds).
+ 52.775: lvn.se INFO DNSSEC signature RRSIG(lvn.se/IN/DNSKEY/27302) matches records.
+ 52.783: lvn.se INFO DNSSEC signature valid: RRSIG(lvn.se/IN/DNSKEY/27302)
+ 52.783: lvn.se INFO Enough valid signatures found for lvn.se.
+ 52.806: lvn.se INFO DNSSEC signature expires at: Mon Mar 17 05:00:33 2014
+ 52.829: lvn.se INFO Duration for RRSIG(lvn.se/IN/SOA/29428) is OK (1179059 seconds).
+ 52.830: lvn.se INFO DNSSEC signature RRSIG(lvn.se/IN/SOA/29428) matches records.
+ 52.842: lvn.se INFO DNSSEC signature valid: RRSIG(lvn.se/IN/SOA/29428)
+ 52.842: lvn.se INFO Enough valid signatures over SOA RRset found for lvn.se.
+ 52.842: lvn.se INFO DNSSEC child checks for lvn.se complete.
+ 52.842: lvn.se INFO Done testing DNSSEC for lvn.se.
+ 52.844: lvn.se INFO Test completed for zone lvn.se.

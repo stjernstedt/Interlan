@@ -1,0 +1,222 @@
+  0.000: vindeln.se INFO Begin testing zone vindeln.se with version 1.6.1.
+  0.769: vindeln.se INFO Begin testing delegation for vindeln.se.
+ 15.258: vindeln.se INFO Name servers listed at parent: ns1.ipv6dns.se,ns1.vindeln.se,ns2.ipv6dns.se,ns2.vindeln.se
+ 22.732: vindeln.se INFO Name servers listed at child: ns1.ipv6dns.se,ns1.vindeln.se,ns2.ipv6dns.se,ns2.vindeln.se
+ 23.078: vindeln.se INFO Parent glue for vindeln.se found: ns1.ipv6dns.se (192.71.21.35)
+ 23.156: vindeln.se INFO Parent glue for vindeln.se found: ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53)
+ 23.249: vindeln.se INFO Parent glue for vindeln.se found: ns1.vindeln.se (81.8.142.5)
+ 23.430: vindeln.se INFO Parent glue for vindeln.se found: ns2.ipv6dns.se (109.74.7.166)
+ 23.430: vindeln.se INFO Parent glue for vindeln.se found: ns2.ipv6dns.se (176.58.97.7)
+ 23.533: vindeln.se INFO Parent glue for vindeln.se found: ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001)
+ 23.534: vindeln.se INFO Parent glue for vindeln.se found: ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165)
+ 23.638: vindeln.se INFO Parent glue for vindeln.se found: ns2.vindeln.se (81.8.143.5)
+ 23.828: vindeln.se INFO Checking glue for ns1.ipv6dns.se (192.71.21.35).
+ 23.828: vindeln.se INFO Checking glue for ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53).
+ 23.828: vindeln.se INFO Checking glue for ns1.vindeln.se (81.8.142.5).
+ 23.932: vindeln.se INFO Child glue for vindeln.se found: ns1.vindeln.se (81.8.142.5)
+ 23.932: vindeln.se INFO Checking glue for ns2.ipv6dns.se (109.74.7.166).
+ 23.932: vindeln.se INFO Checking glue for ns2.ipv6dns.se (176.58.97.7).
+ 23.932: vindeln.se INFO Checking glue for ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001).
+ 23.932: vindeln.se INFO Checking glue for ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165).
+ 23.932: vindeln.se INFO Checking glue for ns2.vindeln.se (81.8.143.5).
+ 24.058: vindeln.se INFO Child glue for vindeln.se found: ns2.vindeln.se (81.8.143.5)
+ 24.059: vindeln.se INFO Parent glue for vindeln.se found: ns1.ipv6dns.se (192.71.21.35)
+ 24.059: vindeln.se INFO Parent glue for vindeln.se found: ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53)
+ 24.092: vindeln.se INFO Parent glue for vindeln.se found: ns1.vindeln.se (81.8.142.5)
+ 24.092: vindeln.se INFO Parent glue for vindeln.se found: ns2.ipv6dns.se (109.74.7.166)
+ 24.092: vindeln.se INFO Parent glue for vindeln.se found: ns2.ipv6dns.se (176.58.97.7)
+ 24.092: vindeln.se INFO Parent glue for vindeln.se found: ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001)
+ 24.092: vindeln.se INFO Parent glue for vindeln.se found: ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165)
+ 24.092: vindeln.se INFO Parent glue for vindeln.se found: ns2.vindeln.se (81.8.143.5)
+ 26.313: vindeln.se INFO It is possible to build a referral packet for vindeln.se that works without EDNS0.
+ 27.592: vindeln.se INFO Previously used name servers for vindeln.se: 
+ 27.592: vindeln.se INFO Done testing delegation for vindeln.se.
+ 27.593: vindeln.se INFO Begin testing name server ns1.ipv6dns.se.
+ 27.593: vindeln.se INFO Begin testing host ns1.ipv6dns.se.
+ 27.593: vindeln.se INFO Begin testing address 192.71.21.35.
+ 58.698: vindeln.se INFO Done testing address 192.71.21.35.
+ 58.768: vindeln.se INFO Begin testing address 2001:67c:2448:10:0:0:0:53.
+ 59.412: vindeln.se INFO Done testing address 2001:67c:2448:10:0:0:0:53.
+ 59.413: vindeln.se INFO Done testing host ns1.ipv6dns.se.
+ 59.460: vindeln.se INFO Name server ns1.ipv6dns.se (192.71.21.35) answers queries over UDP.
+ 59.529: vindeln.se INFO Name server ns1.ipv6dns.se (192.71.21.35) answers queries over TCP.
+ 59.586: vindeln.se INFO Name server ns1.ipv6dns.se (192.71.21.35) is not recursive.
+ 59.732: vindeln.se INFO Name server ns1.ipv6dns.se (192.71.21.35) authoritative for vindeln.se.
+ 59.772: vindeln.se INFO Name server ns1.ipv6dns.se (192.71.21.35) closed for zone transfer of vindeln.se.
+ 59.840: vindeln.se INFO Legacy name server ID for ns1.ipv6dns.se (192.71.21.35): hostname.bind = ns1
+ 59.916: vindeln.se INFO Legacy name server ID for ns1.ipv6dns.se (192.71.21.35): version.bind = 9.9.4rc2
+ 60.084: vindeln.se NOTICE No answer received from 192.71.21.35 when querying for version.server/CH/TXT.
+ 60.134: vindeln.se INFO Name server ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53) answers queries over UDP.
+ 60.307: vindeln.se INFO Name server ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53) answers queries over TCP.
+ 60.516: vindeln.se INFO Name server ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53) is not recursive.
+ 61.328: vindeln.se INFO Name server ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53) authoritative for vindeln.se.
+ 61.486: vindeln.se INFO Name server ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53) closed for zone transfer of vindeln.se.
+ 61.536: vindeln.se INFO Legacy name server ID for ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53): hostname.bind = ns1
+ 61.596: vindeln.se INFO Legacy name server ID for ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53): version.bind = 9.9.4rc2
+ 61.678: vindeln.se NOTICE No answer received from 2001:67c:2448:10:0:0:0:53 when querying for version.server/CH/TXT.
+ 61.678: vindeln.se INFO Done testing name server ns1.ipv6dns.se.
+ 61.679: vindeln.se INFO Begin testing name server ns1.vindeln.se.
+ 61.679: vindeln.se INFO Begin testing host ns1.vindeln.se.
+ 62.080: vindeln.se INFO Begin testing address 81.8.142.5.
+ 63.481: vindeln.se INFO Done testing address 81.8.142.5.
+ 63.481: vindeln.se INFO Done testing host ns1.vindeln.se.
+ 63.941: vindeln.se INFO Name server ns1.vindeln.se (81.8.142.5) answers queries over UDP.
+ 64.027: vindeln.se INFO Name server ns1.vindeln.se (81.8.142.5) answers queries over TCP.
+ 64.096: vindeln.se INFO Name server ns1.vindeln.se (81.8.142.5) is not recursive.
+ 64.555: vindeln.se INFO Name server ns1.vindeln.se (81.8.142.5) authoritative for vindeln.se.
+ 64.637: vindeln.se INFO Name server ns1.vindeln.se (81.8.142.5) closed for zone transfer of vindeln.se.
+ 64.658: vindeln.se INFO Legacy name server ID for ns1.vindeln.se (81.8.142.5): hostname.bind = ns1.vindeln.se
+ 64.690: vindeln.se INFO Legacy name server ID for ns1.vindeln.se (81.8.142.5): version.bind = 9.7.3
+ 64.752: vindeln.se NOTICE No answer received from 81.8.142.5 when querying for version.server/CH/TXT.
+ 64.752: vindeln.se INFO Done testing name server ns1.vindeln.se.
+ 64.752: vindeln.se INFO Begin testing name server ns2.ipv6dns.se.
+ 64.752: vindeln.se INFO Begin testing host ns2.ipv6dns.se.
+ 64.753: vindeln.se INFO Begin testing address 109.74.7.166.
+ 66.036: vindeln.se INFO Done testing address 109.74.7.166.
+ 66.053: vindeln.se INFO Begin testing address 176.58.97.7.
+ 68.630: vindeln.se INFO Done testing address 176.58.97.7.
+ 68.631: vindeln.se INFO Begin testing address 2a01:7e00:0:0:0:0:17:f001.
+ 69.331: vindeln.se INFO Done testing address 2a01:7e00:0:0:0:0:17:f001.
+ 69.331: vindeln.se INFO Begin testing address 2a02:750:7:0:0:0:0:165.
+ 69.984: vindeln.se INFO Done testing address 2a02:750:7:0:0:0:0:165.
+ 69.984: vindeln.se INFO Done testing host ns2.ipv6dns.se.
+ 70.071: vindeln.se INFO Name server ns2.ipv6dns.se (109.74.7.166) answers queries over UDP.
+ 70.092: vindeln.se INFO Name server ns2.ipv6dns.se (109.74.7.166) answers queries over TCP.
+ 70.481: vindeln.se INFO Name server ns2.ipv6dns.se (109.74.7.166) is not recursive.
+ 70.537: vindeln.se INFO Name server ns2.ipv6dns.se (109.74.7.166) authoritative for vindeln.se.
+ 70.575: vindeln.se INFO Name server ns2.ipv6dns.se (109.74.7.166) closed for zone transfer of vindeln.se.
+ 70.591: vindeln.se INFO Legacy name server ID for ns2.ipv6dns.se (109.74.7.166): hostname.bind = ns3
+ 70.630: vindeln.se INFO Legacy name server ID for ns2.ipv6dns.se (109.74.7.166): version.bind = 9.9.4-P2
+ 70.672: vindeln.se NOTICE No answer received from 109.74.7.166 when querying for version.server/CH/TXT.
+ 70.745: vindeln.se INFO Name server ns2.ipv6dns.se (176.58.97.7) answers queries over UDP.
+ 70.863: vindeln.se INFO Name server ns2.ipv6dns.se (176.58.97.7) answers queries over TCP.
+ 70.931: vindeln.se INFO Name server ns2.ipv6dns.se (176.58.97.7) is not recursive.
+ 71.154: vindeln.se INFO Name server ns2.ipv6dns.se (176.58.97.7) authoritative for vindeln.se.
+ 71.306: vindeln.se INFO Name server ns2.ipv6dns.se (176.58.97.7) closed for zone transfer of vindeln.se.
+ 71.368: vindeln.se INFO Legacy name server ID for ns2.ipv6dns.se (176.58.97.7): hostname.bind = li443-7
+ 71.416: vindeln.se INFO Legacy name server ID for ns2.ipv6dns.se (176.58.97.7): version.bind = 9.9.4-P2
+ 71.544: vindeln.se NOTICE No answer received from 176.58.97.7 when querying for version.server/CH/TXT.
+ 71.600: vindeln.se INFO Name server ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001) answers queries over UDP.
+ 71.732: vindeln.se INFO Name server ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001) answers queries over TCP.
+ 71.819: vindeln.se INFO Name server ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001) is not recursive.
+ 72.092: vindeln.se INFO Name server ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001) authoritative for vindeln.se.
+ 72.250: vindeln.se INFO Name server ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001) closed for zone transfer of vindeln.se.
+ 72.315: vindeln.se INFO Legacy name server ID for ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001): hostname.bind = li443-7
+ 72.372: vindeln.se INFO Legacy name server ID for ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001): version.bind = 9.9.4-P2
+ 72.492: vindeln.se NOTICE No answer received from 2a01:7e00:0:0:0:0:17:f001 when querying for version.server/CH/TXT.
+ 72.535: vindeln.se INFO Name server ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165) answers queries over UDP.
+ 72.579: vindeln.se INFO Name server ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165) answers queries over TCP.
+ 72.604: vindeln.se INFO Name server ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165) is not recursive.
+ 72.709: vindeln.se INFO Name server ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165) authoritative for vindeln.se.
+ 72.738: vindeln.se INFO Name server ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165) closed for zone transfer of vindeln.se.
+ 72.755: vindeln.se INFO Legacy name server ID for ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165): hostname.bind = ns3
+ 72.765: vindeln.se INFO Legacy name server ID for ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165): version.bind = 9.9.4-P2
+ 72.785: vindeln.se NOTICE No answer received from 2a02:750:7:0:0:0:0:165 when querying for version.server/CH/TXT.
+ 72.786: vindeln.se INFO Done testing name server ns2.ipv6dns.se.
+ 72.786: vindeln.se INFO Begin testing name server ns2.vindeln.se.
+ 72.786: vindeln.se INFO Begin testing host ns2.vindeln.se.
+ 72.924: vindeln.se INFO Begin testing address 81.8.143.5.
+ 74.456: vindeln.se INFO Done testing address 81.8.143.5.
+ 74.456: vindeln.se INFO Done testing host ns2.vindeln.se.
+ 74.583: vindeln.se INFO Name server ns2.vindeln.se (81.8.143.5) answers queries over UDP.
+ 74.640: vindeln.se INFO Name server ns2.vindeln.se (81.8.143.5) answers queries over TCP.
+ 74.663: vindeln.se INFO Name server ns2.vindeln.se (81.8.143.5) is not recursive.
+ 74.749: vindeln.se INFO Name server ns2.vindeln.se (81.8.143.5) authoritative for vindeln.se.
+ 74.805: vindeln.se INFO Name server ns2.vindeln.se (81.8.143.5) closed for zone transfer of vindeln.se.
+ 74.826: vindeln.se INFO Legacy name server ID for ns2.vindeln.se (81.8.143.5): hostname.bind = ns2.vindeln.se
+ 74.850: vindeln.se INFO Legacy name server ID for ns2.vindeln.se (81.8.143.5): version.bind = 9.8.4-rpz2+rl005.12-P1
+ 74.904: vindeln.se NOTICE No answer received from 81.8.143.5 when querying for version.server/CH/TXT.
+ 74.904: vindeln.se INFO Done testing name server ns2.vindeln.se.
+ 74.904: vindeln.se INFO Begin testing zone consistency for vindeln.se.
+ 75.481: vindeln.se INFO SOA at address 176.58.97.7 has serial 2014030801.
+ 75.506: vindeln.se INFO SOA at address 81.8.143.5 has serial 2014030801.
+ 75.548: vindeln.se INFO SOA at address 81.8.142.5 has serial 2014030801.
+ 75.562: vindeln.se INFO SOA at address 2001:67c:2448:10:0:0:0:53 has serial 2014030801.
+ 75.568: vindeln.se INFO SOA at address 192.71.21.35 has serial 2014030801.
+ 75.575: vindeln.se INFO SOA at address 109.74.7.166 has serial 2014030801.
+ 75.632: vindeln.se INFO SOA at address 2a01:7e00:0:0:0:0:17:f001 has serial 2014030801.
+ 75.644: vindeln.se INFO SOA at address 2a02:750:7:0:0:0:0:165 has serial 2014030801.
+ 75.644: vindeln.se INFO All SOA records have consistent serial numbers.
+ 75.644: vindeln.se INFO All other fields in the SOA record are consistent among all name servers.
+ 76.172: vindeln.se NOTICE The listed nameservers for vindeln.se all report the same set of nameservers.
+ 76.172: vindeln.se INFO Done testing zone consistency for vindeln.se.
+ 76.172: vindeln.se INFO Begin testing SOA parameters for vindeln.se.
+ 76.219: vindeln.se INFO Found SOA record for vindeln.se.
+ 76.219: vindeln.se INFO Begin testing host ns1.vindeln.se.
+ 76.336: vindeln.se INFO Begin testing address 81.8.142.5.
+ 76.481: vindeln.se INFO Done testing address 81.8.142.5.
+ 76.481: vindeln.se INFO Done testing host ns1.vindeln.se.
+ 76.481: vindeln.se INFO SOA MNAME for vindeln.se valid (ns1.vindeln.se).
+ 76.481: vindeln.se INFO SOA MNAME for vindeln.se (ns1.vindeln.se) listed as NS.
+ 76.603: vindeln.se INFO SOA MNAME for vindeln.se (ns1.vindeln.se) is authoritative.
+ 76.603: vindeln.se INFO Begin testing email address 43243@vindeln.se.
+ 76.718: vindeln.se INFO Mail exchangers for 43243@vindeln.se found mailgw2.net.umea.se,mailgw.net.umea.se.
+ 76.719: vindeln.se INFO Begin testing host mailgw2.net.umea.se.
+ 76.982: vindeln.se INFO Begin testing address 193.254.4.60.
+ 77.583: vindeln.se INFO Done testing address 193.254.4.60.
+ 77.583: vindeln.se INFO Done testing host mailgw2.net.umea.se.
+ 77.701: vindeln.se INFO Begin testing host mailgw.net.umea.se.
+ 77.915: vindeln.se INFO Begin testing address 193.254.4.57.
+ 78.340: vindeln.se INFO Done testing address 193.254.4.57.
+ 78.340: vindeln.se INFO Done testing host mailgw.net.umea.se.
+ 78.492: vindeln.se INFO Done testing email address 43243@vindeln.se.
+ 78.492: vindeln.se INFO Successful attempt to deliver email for SOA RNAME of vindeln.se (43243.vindeln.se) using 43243@vindeln.se.
+ 78.492: vindeln.se INFO SOA TTL for vindeln.se OK (3600) - recommended >= 3600.
+ 78.492: vindeln.se INFO SOA refresh for vindeln.se OK (14400) - recommended >= 14400.
+ 78.492: vindeln.se INFO SOA retry for vindeln.se OK (7200) - recommended >= 3600.
+ 78.492: vindeln.se INFO SOA expire for vindeln.se OK (2592000) - recommended >= 604800.
+ 78.493: vindeln.se INFO SOA minimum for vindeln.se OK (3600) - recommended between 300 and 86400.
+ 78.493: vindeln.se INFO Done testing SOA parameters for vindeln.se.
+ 78.493: vindeln.se INFO Begin testing connectivity for vindeln.se.
+ 80.888: vindeln.se INFO Zone announced by more than one ASN.
+ 82.271: vindeln.se INFO Zone announced by more than one IPv6 ASN.
+ 82.291: vindeln.se INFO Done testing connectivity for vindeln.se.
+ 82.292: vindeln.se INFO Begin testing DNSSEC for vindeln.se.
+ 82.342: vindeln.se INFO Found DS record for vindeln.se at parent.
+ 82.461: vindeln.se INFO Nameserver 176.58.97.7 does DNSSEC extra processing.
+ 82.503: vindeln.se INFO Nameserver 81.8.143.5 does DNSSEC extra processing.
+ 82.549: vindeln.se INFO Nameserver 81.8.142.5 does DNSSEC extra processing.
+ 82.573: vindeln.se INFO Nameserver 109.74.7.166 does DNSSEC extra processing.
+ 82.584: vindeln.se INFO Nameserver 192.71.21.35 does DNSSEC extra processing.
+ 82.701: vindeln.se INFO Nameserver 2a01:7e00:0:0:0:0:17:f001 does DNSSEC extra processing.
+ 82.723: vindeln.se INFO Nameserver 2a02:750:7:0:0:0:0:165 does DNSSEC extra processing.
+ 82.730: vindeln.se INFO Nameserver 2001:67c:2448:10:0:0:0:53 does DNSSEC extra processing.
+ 82.730: vindeln.se INFO Servers for vindeln.se have consistent extra processing status.
+ 82.837: vindeln.se INFO Authenticated denial records found for vindeln.se, of type NSEC3.
+ 82.888: vindeln.se INFO NSEC3PARAM record found for vindeln.se.
+ 82.888: vindeln.se INFO NSEC3 for vindeln.se is set to use 5 iterations, which is less than 100 and thus OK.
+ 82.888: vindeln.se INFO Found DNSKEY record for vindeln.se at child.
+ 82.888: vindeln.se INFO Consistent security for vindeln.se.
+ 82.889: vindeln.se INFO Checking DNSSEC at child (vindeln.se).
+ 82.889: vindeln.se INFO vindeln.se's key with tag 61674 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 82.889: vindeln.se INFO Algorithm number 7 is OK.
+ 82.889: vindeln.se INFO DNSKEY vindeln.se (tag 61674) is marked as a secure entry point (SEP).
+ 82.889: vindeln.se INFO vindeln.se's key with tag 24323 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 82.889: vindeln.se INFO Algorithm number 7 is OK.
+ 82.890: vindeln.se INFO DNSSEC signature expires at: Thu Apr 17 19:00:01 2014
+ 82.890: vindeln.se INFO Duration for RRSIG(vindeln.se/IN/DNSKEY/24323) is OK (3456000 seconds).
+ 82.893: vindeln.se INFO DNSSEC signature RRSIG(vindeln.se/IN/DNSKEY/24323) matches records.
+ 82.893: vindeln.se INFO DNSSEC signature valid: RRSIG(vindeln.se/IN/DNSKEY/24323)
+ 82.893: vindeln.se INFO DNSSEC signature expires at: Thu Apr 17 19:00:01 2014
+ 82.893: vindeln.se INFO Duration for RRSIG(vindeln.se/IN/DNSKEY/61674) is OK (3456000 seconds).
+ 82.894: vindeln.se INFO DNSSEC signature RRSIG(vindeln.se/IN/DNSKEY/61674) matches records.
+ 82.894: vindeln.se INFO DNSSEC signature valid: RRSIG(vindeln.se/IN/DNSKEY/61674)
+ 82.894: vindeln.se INFO Enough valid signatures found for vindeln.se.
+ 82.994: vindeln.se INFO DNSSEC signature expires at: Thu Apr 17 19:00:01 2014
+ 82.994: vindeln.se INFO Duration for RRSIG(vindeln.se/IN/SOA/24323) is OK (3456000 seconds).
+ 82.995: vindeln.se INFO DNSSEC signature RRSIG(vindeln.se/IN/SOA/24323) matches records.
+ 82.995: vindeln.se INFO DNSSEC signature valid: RRSIG(vindeln.se/IN/SOA/24323)
+ 82.995: vindeln.se INFO Enough valid signatures over SOA RRset found for vindeln.se.
+ 82.995: vindeln.se INFO DNSSEC child checks for vindeln.se complete.
+ 82.995: vindeln.se INFO Checking DNSSEC at parent of vindeln.se.
+ 82.996: vindeln.se INFO vindeln.se's key with tag 61674 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 82.996: vindeln.se INFO Algorithm number 7 is OK.
+ 82.996: vindeln.se INFO Parent DS(vindeln.se/7/2/61674) refers to valid key at child: DNSKEY(vindeln.se/7/61674)
+ 82.996: vindeln.se INFO Parent DS(vindeln.se) refers to secure entry point (SEP) at child: DS(vindeln.se/7/2/61674)
+ 82.996: vindeln.se INFO vindeln.se's key with tag 61674 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+ 82.996: vindeln.se INFO Algorithm number 7 is OK.
+ 82.997: vindeln.se INFO Parent DS(vindeln.se/7/1/61674) refers to valid key at child: DNSKEY(vindeln.se/7/61674)
+ 82.997: vindeln.se INFO Parent DS(vindeln.se) refers to secure entry point (SEP) at child: DS(vindeln.se/7/1/61674)
+ 82.997: vindeln.se INFO DNSSEC parent checks for vindeln.se complete.
+ 82.997: vindeln.se INFO Done testing DNSSEC for vindeln.se.
+ 82.998: vindeln.se INFO Test completed for zone vindeln.se.

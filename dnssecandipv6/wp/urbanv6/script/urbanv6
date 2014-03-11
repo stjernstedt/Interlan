@@ -1,0 +1,10 @@
+#!/bin/sh
+file=/tmp/$$
+
+cd /home/it-companies/public_html/urbanv6/script
+
+./ipv6 > $file
+cat $file > ../index.html
+rm $file
+
+./rrd

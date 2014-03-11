@@ -1,0 +1,97 @@
+  0.000: arjeplog.se INFO Begin testing zone arjeplog.se with version 1.2.
+  0.000: arjeplog.se INFO Begin testing delegation for arjeplog.se.
+  9.381: arjeplog.se INFO Name servers listed at parent: dns1.telia.com,ns.arjeplog.se
+ 10.865: arjeplog.se INFO Name servers listed at child: dns6.telia.com,ns.arjeplog.se
+ 10.865: arjeplog.se ERROR Superfluous name server listed at parent: dns1.telia.com
+ 10.865: arjeplog.se ERROR Too few name servers (1).
+ 10.865: arjeplog.se NOTICE Additional name server listed at child: dns6.telia.com
+ 10.865: arjeplog.se NOTICE No IPv6 name servers found.
+ 11.020: arjeplog.se INFO Parent glue for arjeplog.se found: ns.arjeplog.se (194.103.218.22)
+ 11.062: arjeplog.se INFO Checking glue for ns.arjeplog.se (194.103.218.22).
+ 11.098: arjeplog.se INFO Child glue for arjeplog.se found: ns.arjeplog.se (194.103.218.22)
+ 11.099: arjeplog.se INFO Parent glue for arjeplog.se found: ns.arjeplog.se (194.103.218.22)
+ 11.099: arjeplog.se INFO Done testing delegation for arjeplog.se.
+ 11.100: arjeplog.se INFO Begin testing name server dns6.telia.com.
+ 11.100: arjeplog.se INFO Begin testing host dns6.telia.com.
+ 11.100: arjeplog.se INFO Begin testing address 81.228.10.68.
+ 15.300: arjeplog.se INFO Done testing address 81.228.10.68.
+ 15.300: arjeplog.se INFO Done testing host dns6.telia.com.
+ 15.319: arjeplog.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over UDP.
+ 15.357: arjeplog.se INFO Name server dns6.telia.com (81.228.10.68) answers queries over TCP.
+ 15.374: arjeplog.se INFO Name server dns6.telia.com (81.228.10.68) is not recursive.
+ 15.391: arjeplog.se INFO Name server dns6.telia.com (81.228.10.68) authoritative for arjeplog.se.
+ 15.434: arjeplog.se INFO Name server dns6.telia.com (81.228.10.68) closed for zone transfer of arjeplog.se.
+ 15.454: arjeplog.se INFO Legacy name server ID for dns6.telia.com (81.228.10.68): hostname.bind = dnshosting1-sn4.m-sp.skanova.net
+ 15.472: arjeplog.se INFO Legacy name server ID for dns6.telia.com (81.228.10.68): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 15.504: arjeplog.se NOTICE No answer received from 81.228.10.68 when querying for version.server/CH/TXT.
+ 15.505: arjeplog.se INFO Done testing name server dns6.telia.com.
+ 15.505: arjeplog.se INFO Begin testing name server ns.arjeplog.se.
+ 15.505: arjeplog.se INFO Begin testing host ns.arjeplog.se.
+ 15.505: arjeplog.se INFO Begin testing address 194.103.218.22.
+ 21.135: arjeplog.se WARNING Reverse for 194.103.218.22 points to an unknown host name (www.silvermuseet.com).
+ 21.135: arjeplog.se INFO Done testing address 194.103.218.22.
+ 21.135: arjeplog.se INFO Done testing host ns.arjeplog.se.
+ 21.163: arjeplog.se INFO Name server ns.arjeplog.se (194.103.218.22) answers queries over UDP.
+ 21.215: arjeplog.se INFO Name server ns.arjeplog.se (194.103.218.22) answers queries over TCP.
+ 21.242: arjeplog.se INFO Name server ns.arjeplog.se (194.103.218.22) is not recursive.
+ 21.272: arjeplog.se INFO Name server ns.arjeplog.se (194.103.218.22) authoritative for arjeplog.se.
+ 21.435: arjeplog.se INFO Name server ns.arjeplog.se (194.103.218.22) closed for zone transfer of arjeplog.se.
+ 21.463: arjeplog.se NOTICE No answer received from 194.103.218.22 when querying for hostname.bind/CH/TXT.
+ 21.488: arjeplog.se NOTICE No answer received from 194.103.218.22 when querying for version.bind/CH/TXT.
+ 21.514: arjeplog.se NOTICE No answer received from 194.103.218.22 when querying for id.server/CH/TXT.
+ 21.540: arjeplog.se NOTICE No answer received from 194.103.218.22 when querying for version.server/CH/TXT.
+ 21.540: arjeplog.se INFO Done testing name server ns.arjeplog.se.
+ 21.540: arjeplog.se INFO Begin testing zone consistency for arjeplog.se.
+ 22.217: arjeplog.se INFO SOA at address 194.103.218.22 has serial 2010113007.
+ 22.224: arjeplog.se ERROR DNS SERVFAIL when querying 81.228.11.67 for SOA
+ 22.242: arjeplog.se INFO SOA at address 81.228.10.68 has serial 2010113007.
+ 22.242: arjeplog.se INFO All SOA records have consistent serial numbers.
+ 22.242: arjeplog.se INFO All SOA records are consistent among all name servers.
+ 22.242: arjeplog.se INFO Done testing zone consistency for arjeplog.se.
+ 22.242: arjeplog.se INFO Begin testing SOA parameters for arjeplog.se.
+ 22.270: arjeplog.se INFO Found SOA record for arjeplog.se.
+ 22.271: arjeplog.se INFO Begin testing host ns.arjeplog.se.
+ 22.271: arjeplog.se INFO Begin testing address 194.103.218.22.
+ 22.832: arjeplog.se WARNING Reverse for 194.103.218.22 points to an unknown host name (www.silvermuseet.com).
+ 22.832: arjeplog.se INFO Done testing address 194.103.218.22.
+ 22.832: arjeplog.se INFO Done testing host ns.arjeplog.se.
+ 22.833: arjeplog.se INFO SOA MNAME for arjeplog.se valid (ns.arjeplog.se).
+ 22.833: arjeplog.se INFO SOA MNAME for arjeplog.se (ns.arjeplog.se) listed as NS.
+ 22.861: arjeplog.se INFO SOA MNAME for arjeplog.se (ns.arjeplog.se) is authoritative.
+ 22.861: arjeplog.se INFO Begin testing email address hostmaster@ns.arjeplog.se.
+ 23.121: arjeplog.se INFO Mail exchangers for hostmaster@ns.arjeplog.se found mxa.arjeplog.se.
+ 23.121: arjeplog.se INFO All mail servers for hostmaster@ns.arjeplog.se are in zone arjeplog.se.
+ 23.121: arjeplog.se INFO Begin testing host mxa.arjeplog.se.
+ 23.598: arjeplog.se INFO Begin testing address 194.103.218.23.
+ 23.949: arjeplog.se INFO Done testing address 194.103.218.23.
+ 23.949: arjeplog.se INFO Done testing host mxa.arjeplog.se.
+ 23.949: arjeplog.se INFO Begin testing mail server mxa.arjeplog.se (194.103.218.23) with hostmaster@ns.arjeplog.se.
+ 24.266: arjeplog.se INFO SMTP banner: mxa.arjeplog.se ESMTP
+ 24.687: arjeplog.se WARNING Host did not accept hostmaster@ns.arjeplog.se as SMTP recipient.
+ 24.729: arjeplog.se INFO Done testing mail server mxa.arjeplog.se (194.103.218.23) with hostmaster@ns.arjeplog.se.
+ 24.730: arjeplog.se WARNING Delivery over IPv4 to hostmaster@ns.arjeplog.se could not be done.
+ 24.730: arjeplog.se INFO Delivery over IPv6 to hostmaster@ns.arjeplog.se could not be done.
+ 24.730: arjeplog.se INFO Done testing email address hostmaster@ns.arjeplog.se.
+ 24.730: arjeplog.se WARNING Failed to deliver email for SOA RNAME of arjeplog.se (hostmaster.ns.arjeplog.se) using hostmaster@ns.arjeplog.se.
+ 24.730: arjeplog.se INFO SOA TTL for arjeplog.se OK (43200) - recommended >= 3600.
+ 24.730: arjeplog.se NOTICE SOA refresh for arjeplog.se too small (3600) - recommended >= 14400.
+ 24.730: arjeplog.se NOTICE SOA refresh for arjeplog.se lower than retry (3600 vs 3600).
+ 24.730: arjeplog.se INFO SOA retry for arjeplog.se OK (3600) - recommended >= 3600.
+ 24.730: arjeplog.se INFO SOA expire for arjeplog.se OK (604800) - recommended >= 604800.
+ 24.730: arjeplog.se INFO SOA minimum for arjeplog.se OK (43200) - recommended between 300 and 86400.
+ 24.731: arjeplog.se INFO Done testing SOA parameters for arjeplog.se.
+ 24.731: arjeplog.se INFO Begin testing connectivity for arjeplog.se.
+ 25.248: arjeplog.se INFO Name server 194.103.218.22 announced by: 3301
+ 25.857: arjeplog.se INFO Name server 81.228.10.68 announced by: 3301
+ 25.857: arjeplog.se INFO Zone announced by IPv4 ASN: 3301
+ 25.857: arjeplog.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 25.857: arjeplog.se INFO Zone announced by IPv6 ASN: 
+ 25.857: arjeplog.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 25.857: arjeplog.se INFO Done testing connectivity for arjeplog.se.
+ 25.858: arjeplog.se INFO Begin testing DNSSEC for arjeplog.se.
+ 25.934: arjeplog.se INFO Did not find DS record for arjeplog.se at parent.
+ 26.011: arjeplog.se INFO Servers for arjeplog.se have consistent extra processing status.
+ 26.011: arjeplog.se INFO Did not find DNSKEY record for arjeplog.se at child.
+ 26.011: arjeplog.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 26.011: arjeplog.se INFO Done testing DNSSEC for arjeplog.se.
+ 26.011: arjeplog.se INFO Test completed for zone arjeplog.se.

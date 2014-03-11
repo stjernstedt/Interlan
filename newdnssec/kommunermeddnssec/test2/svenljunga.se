@@ -1,0 +1,88 @@
+  0.000: svenljunga.se INFO Begin testing zone svenljunga.se with version 1.2.
+  0.000: svenljunga.se INFO Begin testing delegation for svenljunga.se.
+  5.321: svenljunga.se INFO Name servers listed at parent: dns1.svenljunga.se,dns5.telia.com
+  6.675: svenljunga.se INFO Name servers listed at child: dns1.svenljunga.se,dns5.telia.com
+  6.675: svenljunga.se NOTICE No IPv6 name servers found.
+  6.693: svenljunga.se INFO Parent glue for svenljunga.se found: dns1.svenljunga.se (194.50.106.19)
+  6.757: svenljunga.se INFO Checking glue for dns1.svenljunga.se (194.50.106.19).
+  6.777: svenljunga.se INFO Child glue for svenljunga.se found: dns1.svenljunga.se (194.50.106.19)
+  6.778: svenljunga.se INFO Parent glue for svenljunga.se found: dns1.svenljunga.se (194.50.106.19)
+  6.778: svenljunga.se INFO Done testing delegation for svenljunga.se.
+  6.779: svenljunga.se INFO Begin testing name server dns1.svenljunga.se.
+  6.779: svenljunga.se INFO Begin testing host dns1.svenljunga.se.
+  6.779: svenljunga.se INFO Begin testing address 194.50.106.19.
+ 14.996: svenljunga.se WARNING Could not find reverse address for 194.50.106.19 (19.106.50.194.in-addr.arpa.).
+ 14.996: svenljunga.se INFO Done testing address 194.50.106.19.
+ 14.996: svenljunga.se INFO Done testing host dns1.svenljunga.se.
+ 15.017: svenljunga.se INFO Name server dns1.svenljunga.se (194.50.106.19) answers queries over UDP.
+ 15.054: svenljunga.se INFO Name server dns1.svenljunga.se (194.50.106.19) answers queries over TCP.
+ 15.075: svenljunga.se INFO Name server dns1.svenljunga.se (194.50.106.19) is not recursive.
+ 15.094: svenljunga.se INFO Name server dns1.svenljunga.se (194.50.106.19) authoritative for svenljunga.se.
+ 15.343: svenljunga.se INFO Name server dns1.svenljunga.se (194.50.106.19) closed for zone transfer of svenljunga.se.
+ 15.363: svenljunga.se NOTICE No answer received from 194.50.106.19 when querying for hostname.bind/CH/TXT.
+ 33.365: svenljunga.se INFO Done testing name server dns1.svenljunga.se.
+ 33.365: svenljunga.se INFO Begin testing name server dns5.telia.com.
+ 33.365: svenljunga.se INFO Begin testing host dns5.telia.com.
+ 33.366: svenljunga.se INFO Begin testing address 81.228.11.68.
+ 34.558: svenljunga.se INFO Done testing address 81.228.11.68.
+ 34.558: svenljunga.se INFO Done testing host dns5.telia.com.
+ 34.566: svenljunga.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over UDP.
+ 34.577: svenljunga.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over TCP.
+ 34.584: svenljunga.se INFO Name server dns5.telia.com (81.228.11.68) is not recursive.
+ 34.594: svenljunga.se INFO Name server dns5.telia.com (81.228.11.68) authoritative for svenljunga.se.
+ 34.608: svenljunga.se INFO Name server dns5.telia.com (81.228.11.68) closed for zone transfer of svenljunga.se.
+ 34.617: svenljunga.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): hostname.bind = dnshosting1-sn1.fre.skanova.net
+ 34.624: svenljunga.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 34.637: svenljunga.se NOTICE No answer received from 81.228.11.68 when querying for version.server/CH/TXT.
+ 34.638: svenljunga.se INFO Done testing name server dns5.telia.com.
+ 34.638: svenljunga.se INFO Begin testing zone consistency for svenljunga.se.
+ 34.663: svenljunga.se INFO SOA at address 194.50.106.19 has serial 1999103063.
+ 34.672: svenljunga.se INFO SOA at address 81.228.11.68 has serial 1999103063.
+ 34.672: svenljunga.se INFO All SOA records have consistent serial numbers.
+ 34.672: svenljunga.se INFO All SOA records are consistent among all name servers.
+ 34.672: svenljunga.se INFO Done testing zone consistency for svenljunga.se.
+ 34.672: svenljunga.se INFO Begin testing SOA parameters for svenljunga.se.
+ 34.692: svenljunga.se INFO Found SOA record for svenljunga.se.
+ 34.692: svenljunga.se INFO Begin testing host dns1.svenljunga.se.
+ 34.693: svenljunga.se INFO Begin testing address 194.50.106.19.
+ 34.694: svenljunga.se WARNING Could not find reverse address for 194.50.106.19 (19.106.50.194.in-addr.arpa.).
+ 34.694: svenljunga.se INFO Done testing address 194.50.106.19.
+ 34.694: svenljunga.se INFO Done testing host dns1.svenljunga.se.
+ 34.694: svenljunga.se INFO SOA MNAME for svenljunga.se valid (dns1.svenljunga.se).
+ 34.694: svenljunga.se INFO SOA MNAME for svenljunga.se (dns1.svenljunga.se) listed as NS.
+ 34.714: svenljunga.se INFO SOA MNAME for svenljunga.se (dns1.svenljunga.se) is authoritative.
+ 34.715: svenljunga.se INFO Begin testing email address itchef@svenljunga.se.
+ 34.957: svenljunga.se INFO Mail exchangers for itchef@svenljunga.se found mx.tranemo.se.
+ 34.957: svenljunga.se INFO Begin testing host mx.tranemo.se.
+ 35.478: svenljunga.se INFO Begin testing address 91.213.179.250.
+ 47.522: svenljunga.se INFO Done testing address 91.213.179.250.
+ 47.522: svenljunga.se INFO Done testing host mx.tranemo.se.
+ 47.522: svenljunga.se INFO Begin testing mail server mx.tranemo.se (91.213.179.250) with itchef@svenljunga.se.
+ 47.695: svenljunga.se INFO SMTP banner: mx.tranemo.se ESMTP
+ 47.854: svenljunga.se INFO SMTP testing of mx.tranemo.se (91.213.179.250) with itchef@svenljunga.se succeeded without errors.
+ 47.854: svenljunga.se INFO Done testing mail server mx.tranemo.se (91.213.179.250) with itchef@svenljunga.se.
+ 47.854: svenljunga.se INFO Delivery over IPv4 to itchef@svenljunga.se ok.
+ 47.854: svenljunga.se INFO Delivery over IPv6 to itchef@svenljunga.se could not be done.
+ 47.854: svenljunga.se INFO Done testing email address itchef@svenljunga.se.
+ 47.854: svenljunga.se INFO Successful attempt to deliver email for SOA RNAME of svenljunga.se (itchef.svenljunga.se) using itchef@svenljunga.se.
+ 47.854: svenljunga.se INFO SOA TTL for svenljunga.se OK (3600) - recommended >= 3600.
+ 47.854: svenljunga.se INFO SOA refresh for svenljunga.se OK (14400) - recommended >= 14400.
+ 47.854: svenljunga.se INFO SOA retry for svenljunga.se OK (3600) - recommended >= 3600.
+ 47.855: svenljunga.se INFO SOA expire for svenljunga.se OK (1209600) - recommended >= 604800.
+ 47.855: svenljunga.se INFO SOA minimum for svenljunga.se OK (3600) - recommended between 300 and 86400.
+ 47.855: svenljunga.se INFO Done testing SOA parameters for svenljunga.se.
+ 47.855: svenljunga.se INFO Begin testing connectivity for svenljunga.se.
+ 48.385: svenljunga.se INFO Name server 194.50.106.19 announced by: 39643
+ 49.141: svenljunga.se INFO Name server 81.228.11.68 announced by: 3301
+ 49.141: svenljunga.se INFO Zone announced by IPv4 ASN: 3301,39643
+ 49.142: svenljunga.se INFO Zone announced by more than one ASN (2).
+ 49.142: svenljunga.se INFO Zone announced by IPv6 ASN: 
+ 49.142: svenljunga.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 49.142: svenljunga.se INFO Done testing connectivity for svenljunga.se.
+ 49.142: svenljunga.se INFO Begin testing DNSSEC for svenljunga.se.
+ 49.220: svenljunga.se INFO Did not find DS record for svenljunga.se at parent.
+ 49.268: svenljunga.se INFO Servers for svenljunga.se have consistent extra processing status.
+ 49.268: svenljunga.se INFO Did not find DNSKEY record for svenljunga.se at child.
+ 49.268: svenljunga.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 49.268: svenljunga.se INFO Done testing DNSSEC for svenljunga.se.
+ 49.269: svenljunga.se INFO Test completed for zone svenljunga.se.

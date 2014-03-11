@@ -1,0 +1,86 @@
+  0.000: euroitsolutions.se INFO Begin testing zone euroitsolutions.se with version 1.0.1.
+  0.000: euroitsolutions.se INFO Begin testing delegation for euroitsolutions.se.
+  1.027: euroitsolutions.se INFO Name servers listed at parent: dns1.eitss.net,dns2.eitss.net
+  1.134: euroitsolutions.se INFO Name servers listed at child: dns1.eitss.net,dns2.eitss.net
+  1.134: euroitsolutions.se NOTICE No IPv6 name servers found.
+  1.369: euroitsolutions.se INFO Done testing delegation for euroitsolutions.se.
+  1.369: euroitsolutions.se INFO Begin testing name server dns1.eitss.net.
+  1.369: euroitsolutions.se INFO Begin testing host dns1.eitss.net.
+  1.369: euroitsolutions.se INFO Begin testing address 80.83.90.30.
+  3.883: euroitsolutions.se INFO Done testing address 80.83.90.30.
+  3.883: euroitsolutions.se INFO Done testing host dns1.eitss.net.
+  3.906: euroitsolutions.se INFO Name server dns1.eitss.net (80.83.90.30) is not recursive.
+  3.925: euroitsolutions.se INFO Name server dns1.eitss.net (80.83.90.30) authoritative for euroitsolutions.se.
+  3.945: euroitsolutions.se INFO Name server dns1.eitss.net (80.83.90.30) answers queries over UDP.
+  3.978: euroitsolutions.se INFO Name server dns1.eitss.net (80.83.90.30) answers queries over TCP.
+  4.130: euroitsolutions.se INFO Name server dns1.eitss.net (80.83.90.30) closed for zone transfer of euroitsolutions.se.
+  4.152: euroitsolutions.se INFO Legacy name server ID for dns1.eitss.net (80.83.90.30): hostname.bind = dns1.eitss.net
+  4.169: euroitsolutions.se INFO Legacy name server ID for dns1.eitss.net (80.83.90.30): version.bind = not currently available
+  4.208: euroitsolutions.se NOTICE No answer received from 80.83.90.30 when querying for version.server/CH/TXT.
+  4.208: euroitsolutions.se INFO Done testing name server dns1.eitss.net.
+  4.208: euroitsolutions.se INFO Begin testing name server dns2.eitss.net.
+  4.208: euroitsolutions.se INFO Begin testing host dns2.eitss.net.
+  4.209: euroitsolutions.se INFO Begin testing address 80.83.90.34.
+  4.229: euroitsolutions.se INFO Done testing address 80.83.90.34.
+  4.229: euroitsolutions.se INFO Done testing host dns2.eitss.net.
+  4.256: euroitsolutions.se INFO Name server dns2.eitss.net (80.83.90.34) is not recursive.
+  4.277: euroitsolutions.se INFO Name server dns2.eitss.net (80.83.90.34) authoritative for euroitsolutions.se.
+  4.297: euroitsolutions.se INFO Name server dns2.eitss.net (80.83.90.34) answers queries over UDP.
+  4.331: euroitsolutions.se INFO Name server dns2.eitss.net (80.83.90.34) answers queries over TCP.
+  4.486: euroitsolutions.se INFO Name server dns2.eitss.net (80.83.90.34) closed for zone transfer of euroitsolutions.se.
+  4.505: euroitsolutions.se INFO Legacy name server ID for dns2.eitss.net (80.83.90.34): hostname.bind = dns2.eitss.net
+  4.524: euroitsolutions.se INFO Legacy name server ID for dns2.eitss.net (80.83.90.34): version.bind = not currently available
+  4.559: euroitsolutions.se NOTICE No answer received from 80.83.90.34 when querying for version.server/CH/TXT.
+  4.559: euroitsolutions.se INFO Done testing name server dns2.eitss.net.
+  4.559: euroitsolutions.se INFO Begin testing zone consistency for euroitsolutions.se.
+  4.584: euroitsolutions.se INFO SOA at address 80.83.90.34 has serial 2006020323.
+  4.603: euroitsolutions.se INFO SOA at address 80.83.90.30 has serial 2006020323.
+  4.603: euroitsolutions.se INFO All SOA records have consistent serial numbers.
+  4.603: euroitsolutions.se INFO All SOA records are consistent among all name servers.
+  4.604: euroitsolutions.se INFO Done testing zone consistency for euroitsolutions.se.
+  4.604: euroitsolutions.se INFO Begin testing SOA parameters for euroitsolutions.se.
+  4.623: euroitsolutions.se INFO Found SOA record for euroitsolutions.se.
+  4.623: euroitsolutions.se INFO Begin testing host dns1.eitss.net.
+  4.624: euroitsolutions.se INFO Begin testing address 80.83.90.30.
+  4.625: euroitsolutions.se INFO Done testing address 80.83.90.30.
+  4.625: euroitsolutions.se INFO Done testing host dns1.eitss.net.
+  4.625: euroitsolutions.se INFO SOA MNAME for euroitsolutions.se valid (dns1.eitss.net).
+  4.625: euroitsolutions.se INFO SOA MNAME for euroitsolutions.se (dns1.eitss.net) listed as NS.
+  4.645: euroitsolutions.se INFO SOA MNAME for euroitsolutions.se (dns1.eitss.net) is authoritative.
+  4.645: euroitsolutions.se INFO Begin testing email address registry@eitss.se.
+  4.682: euroitsolutions.se INFO Mail exchangers for registry@eitss.se found mail.eitss.se.
+  4.683: euroitsolutions.se INFO Begin testing host mail.eitss.se.
+  4.719: euroitsolutions.se INFO Begin testing address 80.83.90.49.
+  4.773: euroitsolutions.se INFO Done testing address 80.83.90.49.
+  4.773: euroitsolutions.se INFO Done testing host mail.eitss.se.
+  4.774: euroitsolutions.se INFO Begin testing mail server mail.eitss.se (80.83.90.49) with registry@eitss.se.
+  4.862: euroitsolutions.se INFO SMTP banner: hs9.eitss.net ESMTP Sendmail Secure/Rabid; Tue, 7 Sep 2010 16:06:51 +0200
+  5.241: euroitsolutions.se INFO SMTP testing of mail.eitss.se (80.83.90.49) with registry@eitss.se succeeded without errors.
+  5.241: euroitsolutions.se INFO Done testing mail server mail.eitss.se (80.83.90.49) with registry@eitss.se.
+  5.241: euroitsolutions.se INFO Delivery over IPv4 to registry@eitss.se ok.
+  5.241: euroitsolutions.se INFO Delivery over IPv6 to registry@eitss.se could not be done.
+  5.241: euroitsolutions.se INFO Done testing email address registry@eitss.se.
+  5.241: euroitsolutions.se INFO Successful attempt to deliver email for SOA RNAME of euroitsolutions.se (registry.eitss.se) using registry@eitss.se.
+  5.241: euroitsolutions.se INFO SOA TTL for euroitsolutions.se OK (3600) - recommended >= 3600.
+  5.242: euroitsolutions.se NOTICE SOA refresh for euroitsolutions.se too small (3600) - recommended >= 14400.
+  5.242: euroitsolutions.se NOTICE SOA retry for euroitsolutions.se too small (600) - recommended >= 3600.
+  5.242: euroitsolutions.se NOTICE SOA expire for euroitsolutions.se too small (86400) - recommended >= 604800.
+  5.242: euroitsolutions.se INFO SOA minimum for euroitsolutions.se OK (3600) - recommended between 300 and 86400.
+  5.242: euroitsolutions.se INFO Done testing SOA parameters for euroitsolutions.se.
+  5.242: euroitsolutions.se INFO Begin testing connectivity for euroitsolutions.se.
+  5.747: euroitsolutions.se INFO Name server 80.83.90.34 announced by: 16245,2119
+  5.748: euroitsolutions.se WARNING Name server 80.83.90.34 announced by multiple AS.
+  5.876: euroitsolutions.se INFO Name server 80.83.90.30 announced by: 16245,2119
+  5.876: euroitsolutions.se WARNING Name server 80.83.90.30 announced by multiple AS.
+  5.876: euroitsolutions.se INFO Zone announced by ASN: 16245,2119
+  5.876: euroitsolutions.se INFO Zone announced by more than one ASN (2).
+  5.877: euroitsolutions.se INFO Zone announced by IPv6 ASN: 
+  5.877: euroitsolutions.se NOTICE Zone announced by only one IPv6 ASN (0).
+  5.877: euroitsolutions.se INFO Done testing connectivity for euroitsolutions.se.
+  5.877: euroitsolutions.se INFO Begin testing DNSSEC for euroitsolutions.se.
+  5.939: euroitsolutions.se INFO Did not find DS record for euroitsolutions.se at parent.
+  6.009: euroitsolutions.se INFO Servers for euroitsolutions.se have consistent extra processing status.
+  6.009: euroitsolutions.se INFO Did not find DNSKEY record for euroitsolutions.se at child.
+  6.009: euroitsolutions.se INFO No DNSKEY(s) found at child, other tests skipped.
+  6.009: euroitsolutions.se INFO Done testing DNSSEC for euroitsolutions.se.
+  6.009: euroitsolutions.se INFO Test completed for zone euroitsolutions.se.

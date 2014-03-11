@@ -1,0 +1,93 @@
+  0.000: kyyjarvi.fi INFO Begin testing zone kyyjarvi.fi with version 1.6.1.
+  0.424: kyyjarvi.fi INFO Begin testing delegation for kyyjarvi.fi.
+  8.799: kyyjarvi.fi INFO Name servers listed at parent: ns1.kotinet.com,ns2.kotinet.com,ns3.kotinet.com
+ 11.594: kyyjarvi.fi INFO Name servers listed at child: ns1.kotinet.com,ns2.kotinet.com,ns3.kotinet.com
+ 11.595: kyyjarvi.fi NOTICE No IPv6 name servers found.
+ 13.596: kyyjarvi.fi INFO It is possible to build a referral packet for kyyjarvi.fi that works without EDNS0.
+ 14.392: kyyjarvi.fi INFO Previously used name servers for kyyjarvi.fi: 
+ 14.392: kyyjarvi.fi INFO Done testing delegation for kyyjarvi.fi.
+ 14.393: kyyjarvi.fi INFO Begin testing name server ns1.kotinet.com.
+ 14.393: kyyjarvi.fi INFO Begin testing host ns1.kotinet.com.
+ 14.742: kyyjarvi.fi INFO Begin testing address 212.50.211.242.
+ 22.776: kyyjarvi.fi INFO Done testing address 212.50.211.242.
+ 22.776: kyyjarvi.fi INFO Done testing host ns1.kotinet.com.
+ 23.060: kyyjarvi.fi INFO Name server ns1.kotinet.com (212.50.211.242) answers queries over UDP.
+ 23.110: kyyjarvi.fi INFO Name server ns1.kotinet.com (212.50.211.242) answers queries over TCP.
+ 23.172: kyyjarvi.fi INFO Name server ns1.kotinet.com (212.50.211.242) is not recursive.
+ 23.309: kyyjarvi.fi INFO Name server ns1.kotinet.com (212.50.211.242) authoritative for kyyjarvi.fi.
+ 23.372: kyyjarvi.fi INFO Name server ns1.kotinet.com (212.50.211.242) closed for zone transfer of kyyjarvi.fi.
+ 23.418: kyyjarvi.fi INFO Legacy name server ID for ns1.kotinet.com (212.50.211.242): hostname.bind = ns1.kotinet.com
+ 23.448: kyyjarvi.fi INFO Legacy name server ID for ns1.kotinet.com (212.50.211.242): version.bind = enkerro
+ 23.506: kyyjarvi.fi NOTICE No answer received from 212.50.211.242 when querying for version.server/CH/TXT.
+ 23.506: kyyjarvi.fi INFO Done testing name server ns1.kotinet.com.
+ 23.506: kyyjarvi.fi INFO Begin testing name server ns2.kotinet.com.
+ 23.507: kyyjarvi.fi INFO Begin testing host ns2.kotinet.com.
+ 23.695: kyyjarvi.fi INFO Begin testing address 212.50.192.226.
+ 24.504: kyyjarvi.fi INFO Done testing address 212.50.192.226.
+ 24.504: kyyjarvi.fi INFO Done testing host ns2.kotinet.com.
+ 24.762: kyyjarvi.fi INFO Name server ns2.kotinet.com (212.50.192.226) answers queries over UDP.
+ 24.819: kyyjarvi.fi INFO Name server ns2.kotinet.com (212.50.192.226) answers queries over TCP.
+ 24.879: kyyjarvi.fi INFO Name server ns2.kotinet.com (212.50.192.226) is not recursive.
+ 25.059: kyyjarvi.fi INFO Name server ns2.kotinet.com (212.50.192.226) authoritative for kyyjarvi.fi.
+ 25.132: kyyjarvi.fi INFO Name server ns2.kotinet.com (212.50.192.226) closed for zone transfer of kyyjarvi.fi.
+ 25.154: kyyjarvi.fi INFO Legacy name server ID for ns2.kotinet.com (212.50.192.226): hostname.bind = ns2
+ 25.219: kyyjarvi.fi INFO Legacy name server ID for ns2.kotinet.com (212.50.192.226): version.bind = enkerro
+ 25.296: kyyjarvi.fi NOTICE No answer received from 212.50.192.226 when querying for version.server/CH/TXT.
+ 25.296: kyyjarvi.fi INFO Done testing name server ns2.kotinet.com.
+ 25.296: kyyjarvi.fi INFO Begin testing name server ns3.kotinet.com.
+ 25.297: kyyjarvi.fi INFO Begin testing host ns3.kotinet.com.
+ 25.677: kyyjarvi.fi INFO Begin testing address 82.141.108.26.
+ 26.204: kyyjarvi.fi INFO Done testing address 82.141.108.26.
+ 26.204: kyyjarvi.fi INFO Done testing host ns3.kotinet.com.
+ 26.397: kyyjarvi.fi INFO Name server ns3.kotinet.com (82.141.108.26) answers queries over UDP.
+ 26.453: kyyjarvi.fi INFO Name server ns3.kotinet.com (82.141.108.26) answers queries over TCP.
+ 26.484: kyyjarvi.fi INFO Name server ns3.kotinet.com (82.141.108.26) is not recursive.
+ 26.593: kyyjarvi.fi INFO Name server ns3.kotinet.com (82.141.108.26) authoritative for kyyjarvi.fi.
+ 26.656: kyyjarvi.fi INFO Name server ns3.kotinet.com (82.141.108.26) closed for zone transfer of kyyjarvi.fi.
+ 26.679: kyyjarvi.fi INFO Legacy name server ID for ns3.kotinet.com (82.141.108.26): hostname.bind = ns3.kotinet.com
+ 26.728: kyyjarvi.fi INFO Legacy name server ID for ns3.kotinet.com (82.141.108.26): version.bind = enkerro
+ 26.798: kyyjarvi.fi NOTICE No answer received from 82.141.108.26 when querying for version.server/CH/TXT.
+ 26.798: kyyjarvi.fi INFO Done testing name server ns3.kotinet.com.
+ 26.798: kyyjarvi.fi INFO Begin testing zone consistency for kyyjarvi.fi.
+ 28.509: kyyjarvi.fi INFO SOA at address 212.50.192.226 has serial 2013050715.
+ 28.550: kyyjarvi.fi INFO SOA at address 82.141.108.26 has serial 2013050715.
+ 28.601: kyyjarvi.fi INFO SOA at address 212.50.211.242 has serial 2013050715.
+ 28.601: kyyjarvi.fi INFO All SOA records have consistent serial numbers.
+ 28.601: kyyjarvi.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 29.210: kyyjarvi.fi NOTICE The listed nameservers for kyyjarvi.fi all report the same set of nameservers.
+ 29.210: kyyjarvi.fi INFO Done testing zone consistency for kyyjarvi.fi.
+ 29.210: kyyjarvi.fi INFO Begin testing SOA parameters for kyyjarvi.fi.
+ 29.237: kyyjarvi.fi INFO Found SOA record for kyyjarvi.fi.
+ 29.237: kyyjarvi.fi INFO Begin testing host ns3.kotinet.com.
+ 29.551: kyyjarvi.fi INFO Begin testing address 82.141.108.26.
+ 29.840: kyyjarvi.fi INFO Done testing address 82.141.108.26.
+ 29.841: kyyjarvi.fi INFO Done testing host ns3.kotinet.com.
+ 29.841: kyyjarvi.fi INFO SOA MNAME for kyyjarvi.fi valid (ns3.kotinet.com).
+ 29.841: kyyjarvi.fi INFO SOA MNAME for kyyjarvi.fi (ns3.kotinet.com) listed as NS.
+ 30.118: kyyjarvi.fi INFO SOA MNAME for kyyjarvi.fi (ns3.kotinet.com) is authoritative.
+ 30.119: kyyjarvi.fi INFO Begin testing email address root@adonis.kotinet.com.
+ 30.633: kyyjarvi.fi INFO Mail exchangers for root@adonis.kotinet.com found adonis.kotinet.com.
+ 30.634: kyyjarvi.fi INFO Begin testing host adonis.kotinet.com.
+ 30.912: kyyjarvi.fi INFO Begin testing address 212.50.211.55.
+ 31.626: kyyjarvi.fi INFO Done testing address 212.50.211.55.
+ 31.627: kyyjarvi.fi INFO Done testing host adonis.kotinet.com.
+ 31.875: kyyjarvi.fi INFO Done testing email address root@adonis.kotinet.com.
+ 31.875: kyyjarvi.fi INFO Successful attempt to deliver email for SOA RNAME of kyyjarvi.fi (root.adonis.kotinet.com) using root@adonis.kotinet.com.
+ 31.875: kyyjarvi.fi INFO SOA TTL for kyyjarvi.fi OK (86400) - recommended >= 3600.
+ 31.875: kyyjarvi.fi INFO SOA refresh for kyyjarvi.fi OK (28800) - recommended >= 14400.
+ 31.875: kyyjarvi.fi INFO SOA retry for kyyjarvi.fi OK (7200) - recommended >= 3600.
+ 31.875: kyyjarvi.fi INFO SOA expire for kyyjarvi.fi OK (604800) - recommended >= 604800.
+ 31.875: kyyjarvi.fi INFO SOA minimum for kyyjarvi.fi OK (300) - recommended between 300 and 86400.
+ 31.876: kyyjarvi.fi INFO Done testing SOA parameters for kyyjarvi.fi.
+ 31.881: kyyjarvi.fi INFO Begin testing connectivity for kyyjarvi.fi.
+ 33.527: kyyjarvi.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 33.528: kyyjarvi.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 33.538: kyyjarvi.fi INFO Done testing connectivity for kyyjarvi.fi.
+ 33.539: kyyjarvi.fi INFO Begin testing DNSSEC for kyyjarvi.fi.
+ 33.572: kyyjarvi.fi INFO Did not find DS record for kyyjarvi.fi at parent.
+ 33.705: kyyjarvi.fi INFO Servers for kyyjarvi.fi have consistent extra processing status.
+ 33.752: kyyjarvi.fi INFO Authenticated denial records not found for kyyjarvi.fi.
+ 33.776: kyyjarvi.fi INFO Did not find DNSKEY record for kyyjarvi.fi at child.
+ 33.776: kyyjarvi.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 33.777: kyyjarvi.fi INFO Done testing DNSSEC for kyyjarvi.fi.
+ 33.777: kyyjarvi.fi INFO Test completed for zone kyyjarvi.fi.

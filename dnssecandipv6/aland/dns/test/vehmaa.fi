@@ -1,0 +1,88 @@
+  0.000: vehmaa.fi INFO Begin testing zone vehmaa.fi with version 1.5.0.
+  2.284: vehmaa.fi INFO Begin testing delegation for vehmaa.fi.
+ 49.427: vehmaa.fi INFO Name servers listed at parent: ns1.net.vsp.fi,ns2.net.vsp.fi
+ 63.784: vehmaa.fi INFO Name servers listed at child: ns1.net.vsp.fi,ns2.net.vsp.fi
+ 63.784: vehmaa.fi NOTICE No IPv6 name servers found.
+ 64.448: vehmaa.fi INFO Parent glue for vehmaa.fi found: ns1.net.vsp.fi (83.146.216.12)
+ 65.237: vehmaa.fi INFO Parent glue for vehmaa.fi found: ns2.net.vsp.fi (83.146.216.13)
+ 65.832: vehmaa.fi INFO Checking glue for ns1.net.vsp.fi (83.146.216.12).
+ 65.832: vehmaa.fi INFO Checking glue for ns2.net.vsp.fi (83.146.216.13).
+ 65.832: vehmaa.fi INFO Parent glue for vehmaa.fi found: ns1.net.vsp.fi (83.146.216.12)
+ 65.833: vehmaa.fi INFO Parent glue for vehmaa.fi found: ns2.net.vsp.fi (83.146.216.13)
+ 72.942: vehmaa.fi INFO It is possible to build a referral packet for vehmaa.fi that works without EDNS0.
+ 78.244: vehmaa.fi INFO Previously used name servers for vehmaa.fi: 
+ 78.244: vehmaa.fi INFO Done testing delegation for vehmaa.fi.
+ 78.245: vehmaa.fi INFO Begin testing name server ns1.net.vsp.fi.
+ 78.245: vehmaa.fi INFO Begin testing host ns1.net.vsp.fi.
+ 81.448: vehmaa.fi INFO Begin testing address 83.146.216.12.
+124.292: vehmaa.fi INFO Done testing address 83.146.216.12.
+124.292: vehmaa.fi INFO Done testing host ns1.net.vsp.fi.
+126.441: vehmaa.fi INFO Name server ns1.net.vsp.fi (83.146.216.12) answers queries over UDP.
+126.720: vehmaa.fi INFO Name server ns1.net.vsp.fi (83.146.216.12) answers queries over TCP.
+127.040: vehmaa.fi INFO Name server ns1.net.vsp.fi (83.146.216.12) is not recursive.
+127.870: vehmaa.fi INFO Name server ns1.net.vsp.fi (83.146.216.12) authoritative for vehmaa.fi.
+128.040: vehmaa.fi INFO Name server ns1.net.vsp.fi (83.146.216.12) closed for zone transfer of vehmaa.fi.
+128.399: vehmaa.fi INFO Legacy name server ID for ns1.net.vsp.fi (83.146.216.12): hostname.bind = pandora
+128.732: vehmaa.fi INFO Legacy name server ID for ns1.net.vsp.fi (83.146.216.12): version.bind = 9.3.4-P1.2
+129.184: vehmaa.fi NOTICE No answer received from 83.146.216.12 when querying for version.server/CH/TXT.
+129.184: vehmaa.fi INFO Done testing name server ns1.net.vsp.fi.
+129.184: vehmaa.fi INFO Begin testing name server ns2.net.vsp.fi.
+129.184: vehmaa.fi INFO Begin testing host ns2.net.vsp.fi.
+130.805: vehmaa.fi INFO Begin testing address 83.146.216.13.
+135.711: vehmaa.fi INFO Done testing address 83.146.216.13.
+135.711: vehmaa.fi INFO Done testing host ns2.net.vsp.fi.
+137.840: vehmaa.fi INFO Name server ns2.net.vsp.fi (83.146.216.13) answers queries over UDP.
+138.132: vehmaa.fi INFO Name server ns2.net.vsp.fi (83.146.216.13) answers queries over TCP.
+138.333: vehmaa.fi INFO Name server ns2.net.vsp.fi (83.146.216.13) is not recursive.
+139.258: vehmaa.fi INFO Name server ns2.net.vsp.fi (83.146.216.13) authoritative for vehmaa.fi.
+139.498: vehmaa.fi NOTICE Name server ns2.net.vsp.fi (83.146.216.13) open for zone transfer of vehmaa.fi.
+139.740: vehmaa.fi INFO Legacy name server ID for ns2.net.vsp.fi (83.146.216.13): hostname.bind = prometheus
+139.924: vehmaa.fi INFO Legacy name server ID for ns2.net.vsp.fi (83.146.216.13): version.bind = 9.3.4-P1.2
+140.368: vehmaa.fi NOTICE No answer received from 83.146.216.13 when querying for version.server/CH/TXT.
+140.368: vehmaa.fi INFO Done testing name server ns2.net.vsp.fi.
+140.368: vehmaa.fi INFO Begin testing zone consistency for vehmaa.fi.
+147.240: vehmaa.fi INFO SOA at address 83.146.216.13 has serial 2013012502.
+147.528: vehmaa.fi INFO SOA at address 83.146.216.12 has serial 2013012502.
+147.528: vehmaa.fi INFO All SOA records have consistent serial numbers.
+147.528: vehmaa.fi INFO All other fields in the SOA record are consistent among all name servers.
+152.486: vehmaa.fi NOTICE The listed nameservers for vehmaa.fi all report the same set of nameservers.
+152.486: vehmaa.fi INFO Done testing zone consistency for vehmaa.fi.
+152.486: vehmaa.fi INFO Begin testing SOA parameters for vehmaa.fi.
+152.925: vehmaa.fi INFO Found SOA record for vehmaa.fi.
+152.925: vehmaa.fi INFO Begin testing host ns1.net.vsp.fi.
+155.220: vehmaa.fi INFO Begin testing address 83.146.216.12.
+157.880: vehmaa.fi INFO Done testing address 83.146.216.12.
+157.880: vehmaa.fi INFO Done testing host ns1.net.vsp.fi.
+157.880: vehmaa.fi INFO SOA MNAME for vehmaa.fi valid (ns1.net.vsp.fi).
+157.881: vehmaa.fi INFO SOA MNAME for vehmaa.fi (ns1.net.vsp.fi) listed as NS.
+160.116: vehmaa.fi INFO SOA MNAME for vehmaa.fi (ns1.net.vsp.fi) is authoritative.
+160.117: vehmaa.fi INFO Begin testing email address hostmaster@vsp.fi.
+162.521: vehmaa.fi INFO Mail exchangers for hostmaster@vsp.fi found fsmsg0209.sp.f-secure.com,fsmsg0210.sp.f-secure.com.
+162.521: vehmaa.fi INFO Begin testing host fsmsg0209.sp.f-secure.com.
+167.931: vehmaa.fi INFO Begin testing address 46.228.130.159.
+189.161: vehmaa.fi INFO Done testing address 46.228.130.159.
+189.161: vehmaa.fi INFO Done testing host fsmsg0209.sp.f-secure.com.
+191.693: vehmaa.fi INFO Begin testing host fsmsg0210.sp.f-secure.com.
+195.637: vehmaa.fi INFO Begin testing address 46.228.130.160.
+199.080: vehmaa.fi INFO Done testing address 46.228.130.160.
+199.080: vehmaa.fi INFO Done testing host fsmsg0210.sp.f-secure.com.
+200.997: vehmaa.fi INFO Done testing email address hostmaster@vsp.fi.
+200.997: vehmaa.fi INFO Successful attempt to deliver email for SOA RNAME of vehmaa.fi (hostmaster.vsp.fi) using hostmaster@vsp.fi.
+200.997: vehmaa.fi INFO SOA TTL for vehmaa.fi OK (86400) - recommended >= 3600.
+200.997: vehmaa.fi NOTICE SOA refresh for vehmaa.fi too small (10800) - recommended >= 14400.
+200.997: vehmaa.fi INFO SOA retry for vehmaa.fi OK (3600) - recommended >= 3600.
+200.997: vehmaa.fi INFO SOA expire for vehmaa.fi OK (604800) - recommended >= 604800.
+200.998: vehmaa.fi INFO SOA minimum for vehmaa.fi OK (86400) - recommended between 300 and 86400.
+200.998: vehmaa.fi INFO Done testing SOA parameters for vehmaa.fi.
+200.998: vehmaa.fi INFO Begin testing connectivity for vehmaa.fi.
+204.337: vehmaa.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+204.337: vehmaa.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+204.337: vehmaa.fi INFO Done testing connectivity for vehmaa.fi.
+204.338: vehmaa.fi INFO Begin testing DNSSEC for vehmaa.fi.
+204.805: vehmaa.fi INFO Did not find DS record for vehmaa.fi at parent.
+205.384: vehmaa.fi INFO Servers for vehmaa.fi have consistent extra processing status.
+205.573: vehmaa.fi INFO Authenticated denial records not found for vehmaa.fi.
+205.663: vehmaa.fi INFO Did not find DNSKEY record for vehmaa.fi at child.
+205.663: vehmaa.fi INFO No DNSKEY(s) found at child, other tests skipped.
+205.663: vehmaa.fi INFO Done testing DNSSEC for vehmaa.fi.
+205.748: vehmaa.fi INFO Test completed for zone vehmaa.fi.

@@ -1,0 +1,90 @@
+  0.000: uppvidinge.se INFO Begin testing zone uppvidinge.se with version 1.2.
+  0.000: uppvidinge.se INFO Begin testing delegation for uppvidinge.se.
+  9.737: uppvidinge.se INFO Name servers listed at parent: ns3.uppvidinge.net,ns4.uppvidinge.net
+ 15.300: uppvidinge.se INFO Name servers listed at child: ns3.uppvidinge.net,ns4.uppvidinge.net
+ 15.300: uppvidinge.se NOTICE No IPv6 name servers found.
+ 15.443: uppvidinge.se INFO Done testing delegation for uppvidinge.se.
+ 15.443: uppvidinge.se INFO Begin testing name server ns3.uppvidinge.net.
+ 15.443: uppvidinge.se INFO Begin testing host ns3.uppvidinge.net.
+ 15.444: uppvidinge.se INFO Begin testing address 91.142.112.164.
+ 28.474: uppvidinge.se INFO Done testing address 91.142.112.164.
+ 28.474: uppvidinge.se INFO Done testing host ns3.uppvidinge.net.
+ 28.500: uppvidinge.se INFO Name server ns3.uppvidinge.net (91.142.112.164) answers queries over UDP.
+ 28.546: uppvidinge.se INFO Name server ns3.uppvidinge.net (91.142.112.164) answers queries over TCP.
+ 28.570: uppvidinge.se INFO Name server ns3.uppvidinge.net (91.142.112.164) is not recursive.
+ 28.595: uppvidinge.se INFO Name server ns3.uppvidinge.net (91.142.112.164) authoritative for uppvidinge.se.
+ 28.658: uppvidinge.se INFO Name server ns3.uppvidinge.net (91.142.112.164) closed for zone transfer of uppvidinge.se.
+ 28.684: uppvidinge.se INFO Legacy name server ID for ns3.uppvidinge.net (91.142.112.164): hostname.bind = ns3
+ 28.756: uppvidinge.se NOTICE No answer received from 91.142.112.164 when querying for version.server/CH/TXT.
+ 28.756: uppvidinge.se INFO Done testing name server ns3.uppvidinge.net.
+ 28.756: uppvidinge.se INFO Begin testing name server ns4.uppvidinge.net.
+ 28.756: uppvidinge.se INFO Begin testing host ns4.uppvidinge.net.
+ 28.756: uppvidinge.se INFO Begin testing address 91.142.112.165.
+ 29.097: uppvidinge.se INFO Done testing address 91.142.112.165.
+ 29.097: uppvidinge.se INFO Done testing host ns4.uppvidinge.net.
+ 29.122: uppvidinge.se INFO Name server ns4.uppvidinge.net (91.142.112.165) answers queries over UDP.
+ 29.167: uppvidinge.se INFO Name server ns4.uppvidinge.net (91.142.112.165) answers queries over TCP.
+ 29.190: uppvidinge.se INFO Name server ns4.uppvidinge.net (91.142.112.165) is not recursive.
+ 29.215: uppvidinge.se INFO Name server ns4.uppvidinge.net (91.142.112.165) authoritative for uppvidinge.se.
+ 29.278: uppvidinge.se INFO Name server ns4.uppvidinge.net (91.142.112.165) closed for zone transfer of uppvidinge.se.
+ 29.301: uppvidinge.se INFO Legacy name server ID for ns4.uppvidinge.net (91.142.112.165): hostname.bind = ns4
+ 29.370: uppvidinge.se NOTICE No answer received from 91.142.112.165 when querying for version.server/CH/TXT.
+ 29.370: uppvidinge.se INFO Done testing name server ns4.uppvidinge.net.
+ 29.370: uppvidinge.se INFO Begin testing zone consistency for uppvidinge.se.
+ 29.397: uppvidinge.se INFO SOA at address 91.142.112.165 has serial 2010112901.
+ 29.422: uppvidinge.se INFO SOA at address 91.142.112.164 has serial 2010112901.
+ 29.422: uppvidinge.se INFO All SOA records have consistent serial numbers.
+ 29.422: uppvidinge.se INFO All SOA records are consistent among all name servers.
+ 29.422: uppvidinge.se INFO Done testing zone consistency for uppvidinge.se.
+ 29.422: uppvidinge.se INFO Begin testing SOA parameters for uppvidinge.se.
+ 29.446: uppvidinge.se INFO Found SOA record for uppvidinge.se.
+ 29.447: uppvidinge.se INFO Begin testing host ns3.uppvidinge.net.
+ 29.447: uppvidinge.se INFO Begin testing address 91.142.112.164.
+ 29.448: uppvidinge.se INFO Done testing address 91.142.112.164.
+ 29.448: uppvidinge.se INFO Done testing host ns3.uppvidinge.net.
+ 29.448: uppvidinge.se INFO SOA MNAME for uppvidinge.se valid (ns3.uppvidinge.net).
+ 29.449: uppvidinge.se INFO SOA MNAME for uppvidinge.se (ns3.uppvidinge.net) listed as NS.
+ 29.474: uppvidinge.se INFO SOA MNAME for uppvidinge.se (ns3.uppvidinge.net) is authoritative.
+ 29.474: uppvidinge.se INFO Begin testing email address noc@uppcom.se.
+ 29.711: uppvidinge.se INFO Mail exchangers for noc@uppcom.se found deframx16.softcom.dk,dkcphmx48.softcom.dk,dkcphmx50.softcom.dk.
+ 29.712: uppvidinge.se INFO Begin testing host deframx16.softcom.dk.
+ 30.320: uppvidinge.se INFO Begin testing address 80.237.159.77.
+ 30.868: uppvidinge.se INFO Done testing address 80.237.159.77.
+ 30.868: uppvidinge.se INFO Done testing host deframx16.softcom.dk.
+ 30.868: uppvidinge.se INFO Begin testing mail server deframx16.softcom.dk (80.237.159.77) with noc@uppcom.se.
+ 34.075: uppvidinge.se INFO SMTP banner: deframx16.softcom.dk ESMTP ready;
+ 34.264: uppvidinge.se INFO SMTP testing of deframx16.softcom.dk (80.237.159.77) with noc@uppcom.se succeeded without errors.
+ 34.264: uppvidinge.se INFO Done testing mail server deframx16.softcom.dk (80.237.159.77) with noc@uppcom.se.
+ 34.264: uppvidinge.se INFO Begin testing host dkcphmx48.softcom.dk.
+ 38.897: uppvidinge.se INFO Begin testing address 194.192.15.182.
+ 40.525: uppvidinge.se INFO Done testing address 194.192.15.182.
+ 40.525: uppvidinge.se INFO Done testing host dkcphmx48.softcom.dk.
+ 40.526: uppvidinge.se INFO Begin testing host dkcphmx50.softcom.dk.
+ 40.995: uppvidinge.se INFO Begin testing address 213.150.52.214.
+ 41.854: uppvidinge.se INFO Done testing address 213.150.52.214.
+ 41.855: uppvidinge.se INFO Done testing host dkcphmx50.softcom.dk.
+ 41.855: uppvidinge.se INFO Delivery over IPv4 to noc@uppcom.se ok.
+ 41.855: uppvidinge.se INFO Delivery over IPv6 to noc@uppcom.se could not be done.
+ 41.855: uppvidinge.se INFO Done testing email address noc@uppcom.se.
+ 41.855: uppvidinge.se INFO Successful attempt to deliver email for SOA RNAME of uppvidinge.se (noc.uppcom.se) using noc@uppcom.se.
+ 41.855: uppvidinge.se INFO SOA TTL for uppvidinge.se OK (3600) - recommended >= 3600.
+ 41.855: uppvidinge.se INFO SOA refresh for uppvidinge.se OK (28800) - recommended >= 14400.
+ 41.856: uppvidinge.se INFO SOA retry for uppvidinge.se OK (14400) - recommended >= 3600.
+ 41.856: uppvidinge.se INFO SOA expire for uppvidinge.se OK (3600000) - recommended >= 604800.
+ 41.856: uppvidinge.se INFO SOA minimum for uppvidinge.se OK (3600) - recommended between 300 and 86400.
+ 41.856: uppvidinge.se INFO Done testing SOA parameters for uppvidinge.se.
+ 41.856: uppvidinge.se INFO Begin testing connectivity for uppvidinge.se.
+ 46.465: uppvidinge.se INFO Name server 91.142.112.165 announced by: 28854
+ 46.989: uppvidinge.se INFO Name server 91.142.112.164 announced by: 28854
+ 46.989: uppvidinge.se INFO Zone announced by IPv4 ASN: 28854
+ 46.989: uppvidinge.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 46.990: uppvidinge.se INFO Zone announced by IPv6 ASN: 
+ 46.990: uppvidinge.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 46.990: uppvidinge.se INFO Done testing connectivity for uppvidinge.se.
+ 46.990: uppvidinge.se INFO Begin testing DNSSEC for uppvidinge.se.
+ 47.105: uppvidinge.se INFO Did not find DS record for uppvidinge.se at parent.
+ 47.196: uppvidinge.se INFO Servers for uppvidinge.se have consistent extra processing status.
+ 47.196: uppvidinge.se INFO Did not find DNSKEY record for uppvidinge.se at child.
+ 47.196: uppvidinge.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 47.196: uppvidinge.se INFO Done testing DNSSEC for uppvidinge.se.
+ 47.196: uppvidinge.se INFO Test completed for zone uppvidinge.se.

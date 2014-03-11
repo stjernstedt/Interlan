@@ -1,0 +1,123 @@
+  0.000: hjo.se INFO Begin testing zone hjo.se with version 1.6.1.
+  1.684: hjo.se INFO Begin testing delegation for hjo.se.
+ 38.074: hjo.se INFO Name servers listed at parent: srv-ext-dns01.skovde.se,srv-ext-dns02.skovde.se
+ 41.578: hjo.se INFO Name servers listed at child: srv-ext-dns01.skovde.se,srv-ext-dns02.skovde.se
+ 41.892: hjo.se INFO Parent glue for hjo.se found: srv-ext-dns01.skovde.se (194.16.15.18)
+ 41.990: hjo.se INFO Parent glue for hjo.se found: srv-ext-dns01.skovde.se (2001:67c:15e8:d1:0:0:0:18)
+ 42.114: hjo.se INFO Parent glue for hjo.se found: srv-ext-dns02.skovde.se (194.16.15.19)
+ 42.253: hjo.se INFO Parent glue for hjo.se found: srv-ext-dns02.skovde.se (2001:67c:15e8:d1:0:0:0:19)
+ 42.253: hjo.se INFO Checking glue for srv-ext-dns01.skovde.se (194.16.15.18).
+ 42.253: hjo.se INFO Checking glue for srv-ext-dns01.skovde.se (2001:67c:15e8:d1:0:0:0:18).
+ 42.253: hjo.se INFO Checking glue for srv-ext-dns02.skovde.se (194.16.15.19).
+ 42.253: hjo.se INFO Checking glue for srv-ext-dns02.skovde.se (2001:67c:15e8:d1:0:0:0:19).
+ 42.253: hjo.se INFO Parent glue for hjo.se found: srv-ext-dns01.skovde.se (194.16.15.18)
+ 42.254: hjo.se INFO Parent glue for hjo.se found: srv-ext-dns01.skovde.se (2001:67c:15e8:d1:0:0:0:18)
+ 42.254: hjo.se INFO Parent glue for hjo.se found: srv-ext-dns02.skovde.se (194.16.15.19)
+ 42.254: hjo.se INFO Parent glue for hjo.se found: srv-ext-dns02.skovde.se (2001:67c:15e8:d1:0:0:0:19)
+ 42.534: hjo.se INFO It is possible to build a referral packet for hjo.se that works without EDNS0.
+ 42.584: hjo.se INFO Previously used name servers for hjo.se: 
+ 42.584: hjo.se INFO Done testing delegation for hjo.se.
+ 42.585: hjo.se INFO Begin testing name server srv-ext-dns01.skovde.se.
+ 42.585: hjo.se INFO Begin testing host srv-ext-dns01.skovde.se.
+ 42.585: hjo.se INFO Begin testing address 194.16.15.18.
+ 67.116: hjo.se WARNING Could not find reverse address for 194.16.15.18 (18.15.16.194.in-addr.arpa.).
+ 67.116: hjo.se INFO Done testing address 194.16.15.18.
+ 67.116: hjo.se INFO Begin testing address 2001:67c:15e8:d1:0:0:0:18.
+ 68.542: hjo.se INFO Done testing address 2001:67c:15e8:d1:0:0:0:18.
+ 68.543: hjo.se INFO Done testing host srv-ext-dns01.skovde.se.
+ 68.579: hjo.se INFO Name server srv-ext-dns01.skovde.se (194.16.15.18) answers queries over UDP.
+ 68.710: hjo.se INFO Name server srv-ext-dns01.skovde.se (194.16.15.18) answers queries over TCP.
+ 68.807: hjo.se WARNING Name server srv-ext-dns01.skovde.se (194.16.15.18) is recursive.
+ 69.336: hjo.se INFO Name server srv-ext-dns01.skovde.se (194.16.15.18) authoritative for hjo.se.
+ 69.620: hjo.se INFO Name server srv-ext-dns01.skovde.se (194.16.15.18) closed for zone transfer of hjo.se.
+ 69.812: hjo.se NOTICE No answer received from 194.16.15.18 when querying for hostname.bind/CH/TXT.
+ 83.272: hjo.se INFO Name server srv-ext-dns01.skovde.se (2001:67c:15e8:d1:0:0:0:18) answers queries over UDP.
+ 83.365: hjo.se INFO Name server srv-ext-dns01.skovde.se (2001:67c:15e8:d1:0:0:0:18) answers queries over TCP.
+ 85.430: hjo.se WARNING Name server srv-ext-dns01.skovde.se (2001:67c:15e8:d1:0:0:0:18) is recursive.
+ 88.861: hjo.se INFO Name server srv-ext-dns01.skovde.se (2001:67c:15e8:d1:0:0:0:18) authoritative for hjo.se.
+ 89.200: hjo.se INFO Name server srv-ext-dns01.skovde.se (2001:67c:15e8:d1:0:0:0:18) closed for zone transfer of hjo.se.
+ 89.244: hjo.se NOTICE No answer received from 2001:67c:15e8:d1:0:0:0:18 when querying for hostname.bind/CH/TXT.
+101.440: hjo.se INFO Done testing name server srv-ext-dns01.skovde.se.
+101.440: hjo.se INFO Begin testing name server srv-ext-dns02.skovde.se.
+101.440: hjo.se INFO Begin testing host srv-ext-dns02.skovde.se.
+101.441: hjo.se INFO Begin testing address 194.16.15.19.
+105.264: hjo.se WARNING Could not find reverse address for 194.16.15.19 (19.15.16.194.in-addr.arpa.).
+105.264: hjo.se INFO Done testing address 194.16.15.19.
+105.264: hjo.se INFO Begin testing address 2001:67c:15e8:d1:0:0:0:19.
+106.872: hjo.se INFO Done testing address 2001:67c:15e8:d1:0:0:0:19.
+106.872: hjo.se INFO Done testing host srv-ext-dns02.skovde.se.
+106.898: hjo.se INFO Name server srv-ext-dns02.skovde.se (194.16.15.19) answers queries over UDP.
+106.977: hjo.se INFO Name server srv-ext-dns02.skovde.se (194.16.15.19) answers queries over TCP.
+107.029: hjo.se WARNING Name server srv-ext-dns02.skovde.se (194.16.15.19) is recursive.
+107.432: hjo.se INFO Name server srv-ext-dns02.skovde.se (194.16.15.19) authoritative for hjo.se.
+107.696: hjo.se INFO Name server srv-ext-dns02.skovde.se (194.16.15.19) closed for zone transfer of hjo.se.
+107.886: hjo.se NOTICE No answer received from 194.16.15.19 when querying for hostname.bind/CH/TXT.
+121.458: hjo.se INFO Name server srv-ext-dns02.skovde.se (2001:67c:15e8:d1:0:0:0:19) answers queries over UDP.
+121.589: hjo.se INFO Name server srv-ext-dns02.skovde.se (2001:67c:15e8:d1:0:0:0:19) answers queries over TCP.
+121.746: hjo.se WARNING Name server srv-ext-dns02.skovde.se (2001:67c:15e8:d1:0:0:0:19) is recursive.
+122.206: hjo.se INFO Name server srv-ext-dns02.skovde.se (2001:67c:15e8:d1:0:0:0:19) authoritative for hjo.se.
+122.614: hjo.se INFO Name server srv-ext-dns02.skovde.se (2001:67c:15e8:d1:0:0:0:19) closed for zone transfer of hjo.se.
+122.996: hjo.se NOTICE No answer received from 2001:67c:15e8:d1:0:0:0:19 when querying for hostname.bind/CH/TXT.
+133.820: hjo.se INFO Done testing name server srv-ext-dns02.skovde.se.
+133.820: hjo.se INFO Begin testing zone consistency for hjo.se.
+134.045: hjo.se INFO SOA at address 2001:67c:15e8:d1:0:0:0:18 has serial 2014020512.
+134.065: hjo.se INFO SOA at address 194.16.15.19 has serial 2014020512.
+134.131: hjo.se INFO SOA at address 2001:67c:15e8:d1:0:0:0:19 has serial 2014020512.
+134.237: hjo.se INFO SOA at address 194.16.15.18 has serial 2014020512.
+134.237: hjo.se INFO All SOA records have consistent serial numbers.
+134.237: hjo.se INFO All other fields in the SOA record are consistent among all name servers.
+134.594: hjo.se NOTICE The listed nameservers for hjo.se all report the same set of nameservers.
+134.594: hjo.se INFO Done testing zone consistency for hjo.se.
+134.594: hjo.se INFO Begin testing SOA parameters for hjo.se.
+134.745: hjo.se INFO Found SOA record for hjo.se.
+134.745: hjo.se INFO Begin testing host srv-ext-dns01.skovde.se.
+134.746: hjo.se INFO Begin testing address 194.16.15.18.
+134.747: hjo.se WARNING Could not find reverse address for 194.16.15.18 (18.15.16.194.in-addr.arpa.).
+134.747: hjo.se INFO Done testing address 194.16.15.18.
+134.747: hjo.se INFO Begin testing address 2001:67c:15e8:d1:0:0:0:18.
+134.795: hjo.se INFO Done testing address 2001:67c:15e8:d1:0:0:0:18.
+135.172: hjo.se INFO Done testing host srv-ext-dns01.skovde.se.
+135.172: hjo.se INFO SOA MNAME for hjo.se valid (srv-ext-dns01.skovde.se).
+135.172: hjo.se INFO SOA MNAME for hjo.se (srv-ext-dns01.skovde.se) listed as NS.
+135.273: hjo.se INFO SOA MNAME for hjo.se (srv-ext-dns01.skovde.se) is authoritative.
+135.345: hjo.se INFO SOA MNAME for hjo.se (srv-ext-dns01.skovde.se) is authoritative.
+135.345: hjo.se INFO Begin testing email address postmaster@skovde.se.
+135.970: hjo.se INFO Mail exchangers for postmaster@skovde.se found srv-vsp01.skovde.se,srv-vsp02.skovde.se,email.skovde.se.
+135.970: hjo.se INFO Begin testing host srv-vsp01.skovde.se.
+136.888: hjo.se INFO Begin testing address 194.16.15.77.
+137.857: hjo.se INFO Done testing address 194.16.15.77.
+138.031: hjo.se INFO Begin testing address 2001:67c:15e8:d1:0:0:0:77.
+139.190: hjo.se INFO Done testing address 2001:67c:15e8:d1:0:0:0:77.
+139.190: hjo.se INFO Done testing host srv-vsp01.skovde.se.
+139.191: hjo.se INFO Begin testing host srv-vsp02.skovde.se.
+141.913: hjo.se INFO Begin testing address 194.16.15.78.
+142.896: hjo.se INFO Done testing address 194.16.15.78.
+142.896: hjo.se INFO Begin testing address 2001:67c:15e8:d1:0:0:0:78.
+143.336: hjo.se INFO Done testing address 2001:67c:15e8:d1:0:0:0:78.
+143.336: hjo.se INFO Done testing host srv-vsp02.skovde.se.
+143.338: hjo.se INFO Begin testing host email.skovde.se.
+145.196: hjo.se INFO Begin testing address 194.16.15.77.
+145.197: hjo.se INFO Done testing address 194.16.15.77.
+145.197: hjo.se INFO Begin testing address 194.16.15.78.
+145.198: hjo.se INFO Done testing address 194.16.15.78.
+145.198: hjo.se INFO Done testing host email.skovde.se.
+145.424: hjo.se INFO Done testing email address postmaster@skovde.se.
+145.424: hjo.se INFO Successful attempt to deliver email for SOA RNAME of hjo.se (postmaster.skovde.se) using postmaster@skovde.se.
+145.424: hjo.se INFO SOA TTL for hjo.se OK (3600) - recommended >= 3600.
+145.424: hjo.se NOTICE SOA refresh for hjo.se too small (1200) - recommended >= 14400.
+145.425: hjo.se NOTICE SOA retry for hjo.se too small (600) - recommended >= 3600.
+145.425: hjo.se NOTICE SOA expire for hjo.se too small (172800) - recommended >= 604800.
+145.425: hjo.se INFO SOA minimum for hjo.se OK (3600) - recommended between 300 and 86400.
+145.425: hjo.se INFO Done testing SOA parameters for hjo.se.
+145.425: hjo.se INFO Begin testing connectivity for hjo.se.
+147.125: hjo.se NOTICE Zone announced by fewer than two IPv4 ASN.
+148.520: hjo.se NOTICE Zone announced by fewer than two IPv6 ASN.
+148.521: hjo.se INFO Done testing connectivity for hjo.se.
+148.521: hjo.se INFO Begin testing DNSSEC for hjo.se.
+148.600: hjo.se INFO Did not find DS record for hjo.se at parent.
+148.885: hjo.se INFO Servers for hjo.se have consistent extra processing status.
+148.922: hjo.se INFO Authenticated denial records not found for hjo.se.
+148.949: hjo.se INFO Did not find DNSKEY record for hjo.se at child.
+148.949: hjo.se INFO No DNSKEY(s) found at child, other tests skipped.
+148.949: hjo.se INFO Done testing DNSSEC for hjo.se.
+148.949: hjo.se INFO Test completed for zone hjo.se.

@@ -1,0 +1,93 @@
+  0.000: osthammar.se INFO Begin testing zone osthammar.se with version 1.0.1.
+  0.002: osthammar.se INFO Begin testing delegation for osthammar.se.
+  0.792: osthammar.se INFO Name servers listed at parent: dmzse-dns1.osthammar.se,dmzse-dns2.osthammar.se
+  0.893: osthammar.se INFO Name servers listed at child: dmzse-dns1.osthammar.se,dmzse-dns2.osthammar.se
+  0.894: osthammar.se NOTICE No IPv6 name servers found.
+  0.920: osthammar.se INFO Parent glue for osthammar.se found: dmzse-dns1.osthammar.se (192.165.44.200)
+  0.949: osthammar.se INFO Parent glue for osthammar.se found: dmzse-dns2.osthammar.se (192.165.44.201)
+  0.965: osthammar.se INFO Checking glue for dmzse-dns1.osthammar.se (192.165.44.200).
+  0.985: osthammar.se INFO Child glue for osthammar.se found: dmzse-dns1.osthammar.se (192.165.44.200)
+  0.985: osthammar.se INFO Checking glue for dmzse-dns2.osthammar.se (192.165.44.201).
+  1.003: osthammar.se INFO Child glue for osthammar.se found: dmzse-dns2.osthammar.se (192.165.44.201)
+  1.003: osthammar.se INFO Done testing delegation for osthammar.se.
+  1.004: osthammar.se INFO Begin testing name server dmzse-dns1.osthammar.se.
+  1.005: osthammar.se INFO Begin testing host dmzse-dns1.osthammar.se.
+  1.005: osthammar.se INFO Begin testing address 192.165.44.200.
+  3.822: osthammar.se INFO Done testing address 192.165.44.200.
+  3.825: osthammar.se INFO Done testing host dmzse-dns1.osthammar.se.
+  4.028: osthammar.se INFO Name server dmzse-dns1.osthammar.se (192.165.44.200) is not recursive.
+  4.051: osthammar.se INFO Name server dmzse-dns1.osthammar.se (192.165.44.200) authoritative for osthammar.se.
+  4.070: osthammar.se INFO Name server dmzse-dns1.osthammar.se (192.165.44.200) answers queries over UDP.
+  4.099: osthammar.se INFO Name server dmzse-dns1.osthammar.se (192.165.44.200) answers queries over TCP.
+  4.307: osthammar.se INFO Name server dmzse-dns1.osthammar.se (192.165.44.200) closed for zone transfer of osthammar.se.
+  4.329: osthammar.se NOTICE No answer received from 192.165.44.200 when querying for hostname.bind/CH/TXT.
+ 22.349: osthammar.se INFO Done testing name server dmzse-dns1.osthammar.se.
+ 22.350: osthammar.se INFO Begin testing name server dmzse-dns2.osthammar.se.
+ 22.351: osthammar.se INFO Begin testing host dmzse-dns2.osthammar.se.
+ 22.352: osthammar.se INFO Begin testing address 192.165.44.201.
+ 22.400: osthammar.se INFO Done testing address 192.165.44.201.
+ 22.400: osthammar.se INFO Done testing host dmzse-dns2.osthammar.se.
+ 22.603: osthammar.se INFO Name server dmzse-dns2.osthammar.se (192.165.44.201) is not recursive.
+ 22.622: osthammar.se INFO Name server dmzse-dns2.osthammar.se (192.165.44.201) authoritative for osthammar.se.
+ 22.639: osthammar.se INFO Name server dmzse-dns2.osthammar.se (192.165.44.201) answers queries over UDP.
+ 22.667: osthammar.se INFO Name server dmzse-dns2.osthammar.se (192.165.44.201) answers queries over TCP.
+ 22.912: osthammar.se INFO Name server dmzse-dns2.osthammar.se (192.165.44.201) closed for zone transfer of osthammar.se.
+ 22.927: osthammar.se NOTICE No answer received from 192.165.44.201 when querying for hostname.bind/CH/TXT.
+ 40.950: osthammar.se INFO Done testing name server dmzse-dns2.osthammar.se.
+ 40.951: osthammar.se INFO Begin testing zone consistency for osthammar.se.
+ 40.978: osthammar.se INFO SOA at address 192.165.44.200 has serial 70.
+ 40.995: osthammar.se INFO SOA at address 192.165.44.201 has serial 70.
+ 40.995: osthammar.se INFO All SOA records have consistent serial numbers.
+ 40.995: osthammar.se INFO All SOA records are consistent among all name servers.
+ 40.996: osthammar.se INFO Done testing zone consistency for osthammar.se.
+ 40.996: osthammar.se INFO Begin testing SOA parameters for osthammar.se.
+ 41.013: osthammar.se INFO Found SOA record for osthammar.se.
+ 41.014: osthammar.se INFO Begin testing host dmzse-dns1.osthammar.se.
+ 41.015: osthammar.se INFO Begin testing address 192.165.44.200.
+ 41.019: osthammar.se INFO Done testing address 192.165.44.200.
+ 41.019: osthammar.se INFO Done testing host dmzse-dns1.osthammar.se.
+ 41.019: osthammar.se INFO SOA MNAME for osthammar.se valid (dmzse-dns1.osthammar.se).
+ 41.020: osthammar.se INFO SOA MNAME for osthammar.se (dmzse-dns1.osthammar.se) listed as NS.
+ 41.038: osthammar.se INFO SOA MNAME for osthammar.se (dmzse-dns1.osthammar.se) is authoritative.
+ 41.038: osthammar.se INFO Begin testing email address hostmaster@osthammar.se.
+ 41.060: osthammar.se INFO Mail exchangers for hostmaster@osthammar.se found mx.messagewash.net.
+ 41.061: osthammar.se INFO Begin testing host mx.messagewash.net.
+ 47.785: osthammar.se INFO Begin testing address 81.216.10.74.
+ 48.691: osthammar.se INFO Done testing address 81.216.10.74.
+ 48.692: osthammar.se INFO Begin testing address 81.216.10.199.
+ 48.865: osthammar.se INFO Done testing address 81.216.10.199.
+ 48.866: osthammar.se INFO Begin testing address 81.216.10.200.
+ 49.042: osthammar.se INFO Done testing address 81.216.10.200.
+ 49.043: osthammar.se INFO Done testing host mx.messagewash.net.
+ 49.045: osthammar.se INFO Begin testing mail server mx.messagewash.net (81.216.10.74) with hostmaster@osthammar.se.
+ 49.057: osthammar.se WARNING Failed to connect to mx.messagewash.net (81.216.10.74).
+ 49.058: osthammar.se INFO Done testing mail server mx.messagewash.net (81.216.10.74) with hostmaster@osthammar.se.
+ 49.058: osthammar.se INFO Begin testing mail server mx.messagewash.net (81.216.10.199) with hostmaster@osthammar.se.
+ 54.132: osthammar.se INFO SMTP banner: mx5.mailworks.se ESMTP Mailworks
+ 54.234: osthammar.se INFO SMTP testing of mx.messagewash.net (81.216.10.199) with hostmaster@osthammar.se succeeded without errors.
+ 54.235: osthammar.se INFO Done testing mail server mx.messagewash.net (81.216.10.199) with hostmaster@osthammar.se.
+ 54.235: osthammar.se INFO Delivery over IPv4 to hostmaster@osthammar.se ok.
+ 54.235: osthammar.se INFO Delivery over IPv6 to hostmaster@osthammar.se could not be done.
+ 54.235: osthammar.se INFO Done testing email address hostmaster@osthammar.se.
+ 54.235: osthammar.se INFO Successful attempt to deliver email for SOA RNAME of osthammar.se (hostmaster.osthammar.se) using hostmaster@osthammar.se.
+ 54.236: osthammar.se INFO SOA TTL for osthammar.se OK (3600) - recommended >= 3600.
+ 54.236: osthammar.se INFO SOA refresh for osthammar.se OK (14400) - recommended >= 14400.
+ 54.236: osthammar.se INFO SOA retry for osthammar.se OK (3600) - recommended >= 3600.
+ 54.236: osthammar.se INFO SOA expire for osthammar.se OK (604800) - recommended >= 604800.
+ 54.236: osthammar.se INFO SOA minimum for osthammar.se OK (3600) - recommended between 300 and 86400.
+ 54.237: osthammar.se INFO Done testing SOA parameters for osthammar.se.
+ 54.237: osthammar.se INFO Begin testing connectivity for osthammar.se.
+ 54.654: osthammar.se INFO Name server 192.165.44.200 announced by: 3292
+ 54.815: osthammar.se INFO Name server 192.165.44.201 announced by: 3292
+ 54.815: osthammar.se INFO Zone announced by ASN: 3292
+ 54.815: osthammar.se NOTICE Zone announced by only one ASN (1).
+ 54.816: osthammar.se INFO Zone announced by IPv6 ASN: 
+ 54.816: osthammar.se NOTICE Zone announced by only one IPv6 ASN (0).
+ 54.816: osthammar.se INFO Done testing connectivity for osthammar.se.
+ 54.817: osthammar.se INFO Begin testing DNSSEC for osthammar.se.
+ 54.905: osthammar.se INFO Did not find DS record for osthammar.se at parent.
+ 54.963: osthammar.se INFO Servers for osthammar.se have consistent extra processing status.
+ 54.963: osthammar.se INFO Did not find DNSKEY record for osthammar.se at child.
+ 54.964: osthammar.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 54.964: osthammar.se INFO Done testing DNSSEC for osthammar.se.
+ 54.964: osthammar.se INFO Test completed for zone osthammar.se.

@@ -1,0 +1,105 @@
+  0.000: ystad.se INFO Begin testing zone ystad.se with version 1.0.1.
+  0.001: ystad.se INFO Begin testing delegation for ystad.se.
+  0.937: ystad.se INFO Name servers listed at parent: kista.dns.swip.net,malmoe.dns.swip.net,ns.ystad.se
+  1.038: ystad.se INFO Name servers listed at child: kista.dns.swip.net,malmoe.dns.swip.net,ns.ystad.se
+  1.038: ystad.se NOTICE No IPv6 name servers found.
+  1.139: ystad.se INFO Parent glue for ystad.se found: ns.ystad.se (193.17.72.46)
+  1.161: ystad.se INFO Checking glue for ns.ystad.se (193.17.72.46).
+  1.175: ystad.se INFO Child glue for ystad.se found: ns.ystad.se (193.17.72.46)
+  1.175: ystad.se INFO Done testing delegation for ystad.se.
+  1.176: ystad.se INFO Begin testing name server kista.dns.swip.net.
+  1.176: ystad.se INFO Begin testing host kista.dns.swip.net.
+  1.177: ystad.se INFO Begin testing address 192.71.220.9.
+  7.312: ystad.se INFO Done testing address 192.71.220.9.
+  7.312: ystad.se INFO Done testing host kista.dns.swip.net.
+  7.325: ystad.se INFO Name server kista.dns.swip.net (192.71.220.9) is not recursive.
+  7.340: ystad.se INFO Name server kista.dns.swip.net (192.71.220.9) authoritative for ystad.se.
+  7.356: ystad.se INFO Name server kista.dns.swip.net (192.71.220.9) answers queries over UDP.
+  7.378: ystad.se INFO Name server kista.dns.swip.net (192.71.220.9) answers queries over TCP.
+  7.397: ystad.se INFO Name server kista.dns.swip.net (192.71.220.9) closed for zone transfer of ystad.se.
+  7.416: ystad.se INFO Legacy name server ID for kista.dns.swip.net (192.71.220.9): hostname.bind = nico
+  7.428: ystad.se INFO Legacy name server ID for kista.dns.swip.net (192.71.220.9): version.bind = PONG 0.2alpha
+  7.450: ystad.se NOTICE No answer received from 192.71.220.9 when querying for version.server/CH/TXT.
+  7.451: ystad.se INFO Done testing name server kista.dns.swip.net.
+  7.451: ystad.se INFO Begin testing name server malmoe.dns.swip.net.
+  7.451: ystad.se INFO Begin testing host malmoe.dns.swip.net.
+  7.452: ystad.se INFO Begin testing address 192.71.180.44.
+  7.512: ystad.se INFO Done testing address 192.71.180.44.
+  7.512: ystad.se INFO Done testing host malmoe.dns.swip.net.
+  7.525: ystad.se INFO Name server malmoe.dns.swip.net (192.71.180.44) is not recursive.
+  7.540: ystad.se INFO Name server malmoe.dns.swip.net (192.71.180.44) authoritative for ystad.se.
+  7.555: ystad.se INFO Name server malmoe.dns.swip.net (192.71.180.44) answers queries over UDP.
+  7.576: ystad.se INFO Name server malmoe.dns.swip.net (192.71.180.44) answers queries over TCP.
+  7.596: ystad.se INFO Name server malmoe.dns.swip.net (192.71.180.44) closed for zone transfer of ystad.se.
+  7.610: ystad.se INFO Legacy name server ID for malmoe.dns.swip.net (192.71.180.44): hostname.bind = nicodemus
+  7.622: ystad.se INFO Legacy name server ID for malmoe.dns.swip.net (192.71.180.44): version.bind = PONG 0.2alpha
+  7.645: ystad.se NOTICE No answer received from 192.71.180.44 when querying for version.server/CH/TXT.
+  7.646: ystad.se INFO Done testing name server malmoe.dns.swip.net.
+  7.646: ystad.se INFO Begin testing name server ns.ystad.se.
+  7.646: ystad.se INFO Begin testing host ns.ystad.se.
+  7.647: ystad.se INFO Begin testing address 193.17.72.46.
+  8.212: ystad.se INFO Done testing address 193.17.72.46.
+  8.212: ystad.se INFO Done testing host ns.ystad.se.
+  8.242: ystad.se INFO Name server ns.ystad.se (193.17.72.46) is not recursive.
+  8.276: ystad.se INFO Name server ns.ystad.se (193.17.72.46) authoritative for ystad.se.
+  8.310: ystad.se INFO Name server ns.ystad.se (193.17.72.46) answers queries over UDP.
+  8.379: ystad.se INFO Name server ns.ystad.se (193.17.72.46) answers queries over TCP.
+  8.629: ystad.se INFO Name server ns.ystad.se (193.17.72.46) closed for zone transfer of ystad.se.
+  8.651: ystad.se NOTICE No answer received from 193.17.72.46 when querying for hostname.bind/CH/TXT.
+  8.673: ystad.se NOTICE No answer received from 193.17.72.46 when querying for version.bind/CH/TXT.
+  8.699: ystad.se NOTICE No answer received from 193.17.72.46 when querying for id.server/CH/TXT.
+  8.733: ystad.se NOTICE No answer received from 193.17.72.46 when querying for version.server/CH/TXT.
+  8.734: ystad.se INFO Done testing name server ns.ystad.se.
+  8.734: ystad.se INFO Begin testing zone consistency for ystad.se.
+  8.758: ystad.se INFO SOA at address 192.71.220.9 has serial 2006022801.
+  8.774: ystad.se INFO SOA at address 192.71.180.44 has serial 2006022801.
+  8.800: ystad.se INFO SOA at address 193.17.72.46 has serial 2006022801.
+  8.801: ystad.se INFO All SOA records have consistent serial numbers.
+  8.801: ystad.se INFO All SOA records are consistent among all name servers.
+  8.801: ystad.se INFO Done testing zone consistency for ystad.se.
+  8.801: ystad.se INFO Begin testing SOA parameters for ystad.se.
+  8.816: ystad.se INFO Found SOA record for ystad.se.
+  8.816: ystad.se INFO Begin testing host ns.ystad.se.
+  8.817: ystad.se INFO Begin testing address 193.17.72.46.
+  8.819: ystad.se INFO Done testing address 193.17.72.46.
+  8.820: ystad.se INFO Done testing host ns.ystad.se.
+  8.820: ystad.se INFO SOA MNAME for ystad.se valid (ns.ystad.se).
+  8.820: ystad.se INFO SOA MNAME for ystad.se (ns.ystad.se) listed as NS.
+  8.844: ystad.se INFO SOA MNAME for ystad.se (ns.ystad.se) is authoritative.
+  8.845: ystad.se INFO Begin testing email address hostmaster@ystad.se.
+  8.863: ystad.se INFO Mail exchangers for hostmaster@ystad.se found mail.ystad.se.
+  8.863: ystad.se INFO All mail servers for hostmaster@ystad.se are in zone ystad.se.
+  8.863: ystad.se INFO Begin testing host mail.ystad.se.
+  8.886: ystad.se INFO Begin testing address 193.17.72.10.
+  8.901: ystad.se INFO Done testing address 193.17.72.10.
+  8.902: ystad.se INFO Done testing host mail.ystad.se.
+  8.903: ystad.se INFO Begin testing mail server mail.ystad.se (193.17.72.10) with hostmaster@ystad.se.
+  8.969: ystad.se INFO SMTP banner: scmadm.ystad.se SMTP Service ready
+ 20.769: ystad.se INFO SMTP testing of mail.ystad.se (193.17.72.10) with hostmaster@ystad.se succeeded without errors.
+ 20.770: ystad.se INFO Done testing mail server mail.ystad.se (193.17.72.10) with hostmaster@ystad.se.
+ 20.770: ystad.se INFO Delivery over IPv4 to hostmaster@ystad.se ok.
+ 20.770: ystad.se INFO Delivery over IPv6 to hostmaster@ystad.se could not be done.
+ 20.770: ystad.se INFO Done testing email address hostmaster@ystad.se.
+ 20.770: ystad.se INFO Successful attempt to deliver email for SOA RNAME of ystad.se (hostmaster.ystad.se) using hostmaster@ystad.se.
+ 20.771: ystad.se INFO SOA TTL for ystad.se OK (86400) - recommended >= 3600.
+ 20.771: ystad.se NOTICE SOA refresh for ystad.se too small (10800) - recommended >= 14400.
+ 20.771: ystad.se INFO SOA retry for ystad.se OK (3600) - recommended >= 3600.
+ 20.771: ystad.se INFO SOA expire for ystad.se OK (604800) - recommended >= 604800.
+ 20.771: ystad.se INFO SOA minimum for ystad.se OK (86400) - recommended between 300 and 86400.
+ 20.772: ystad.se INFO Done testing SOA parameters for ystad.se.
+ 20.772: ystad.se INFO Begin testing connectivity for ystad.se.
+ 21.099: ystad.se INFO Name server 192.71.180.44 announced by: 1257
+ 21.236: ystad.se INFO Name server 192.71.220.9 announced by: 1257
+ 21.376: ystad.se INFO Name server 193.17.72.46 announced by: 1257
+ 21.376: ystad.se INFO Zone announced by ASN: 1257
+ 21.377: ystad.se NOTICE Zone announced by only one ASN (1).
+ 21.377: ystad.se INFO Zone announced by IPv6 ASN: 
+ 21.377: ystad.se NOTICE Zone announced by only one IPv6 ASN (0).
+ 21.377: ystad.se INFO Done testing connectivity for ystad.se.
+ 21.378: ystad.se INFO Begin testing DNSSEC for ystad.se.
+ 21.398: ystad.se INFO Did not find DS record for ystad.se at parent.
+ 21.507: ystad.se INFO Servers for ystad.se have consistent extra processing status.
+ 21.507: ystad.se INFO Did not find DNSKEY record for ystad.se at child.
+ 21.507: ystad.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 21.507: ystad.se INFO Done testing DNSSEC for ystad.se.
+ 21.508: ystad.se INFO Test completed for zone ystad.se.

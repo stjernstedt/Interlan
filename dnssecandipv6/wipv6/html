@@ -1,0 +1,50 @@
+#!/bin/sh
+ping -c 1 8.8.8.8
+if [ "$?" != "0" ] ; then
+	exit
+fi
+
+
+
+cp resultat resultat.old
+
+sh ipv6 | tee resultat
+
+diff resultat  resultat.old
+if [ "$?" = "1" ] ; then
+        echo nya domäner!
+        diff -y resultat resultat.old | grep "|" | mail -s worldipv6day tobbe@interlan.se
+fi
+
+cat /dev/null > $1
+for i in `cat resultat` ; do
+	res=`echo $i | cut -d , -f 1`
+	domain=`echo $i | cut -d , -f 2`
+        if [ "$res" = "yes" ] ; then
+                echo "<img width="16" height=14 src=/thumbsup.gif><span style="color:green"> $domain</span>" >> $1
+        fi
+        if [ "$res" = "no" ] ; then
+                echo "<img width="16" height=14 src=/nothumb.gif><span style="color:red"> $domain</span>" >> $1
+        fi
+	res=`cat ../public_html/worldipv6day/endedtest.html|grep $domain`
+	if [ "$res"  ] ; then
+		echo "<img width=22 height=20 src=/chicken.gif>" >>$1
+	fi
+	if [ ! "$res"  ] ; then
+		no=`cat resultat| grep $domain| cut -d , -f 1|grep no`
+		if  [ "$no" ] ; then
+			echo $domain
+			echo "<img width=22 height=20 src=/donkey.gif>"  >> $1
+		fi
+	fi
+
+	echo "<br>" >>$1
+done
+echo "Updated `date`<br>">../public_html/worldipv6day/wipv6.html
+echo "`cat resultat| cut -d , -f 1 | grep yes|wc -l` of `wc -l domain` sites is still IPv6 enabled<br><br>" >> ../public_html/worldipv6day/wipv6.html
+#cat pic.html >> ../public_html/worldipv6day/wipv6.html
+
+
+cat $1 >>../public_html/worldipv6day/wipv6.html
+
+./rrd

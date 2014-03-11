@@ -1,0 +1,90 @@
+  0.000: katrineholm.se INFO Begin testing zone katrineholm.se with version 1.2.
+  0.000: katrineholm.se INFO Begin testing delegation for katrineholm.se.
+  5.543: katrineholm.se INFO Name servers listed at parent: dns5.telia.com,hugin.katrineholm.se
+ 10.931: katrineholm.se INFO Name servers listed at child: dns5.telia.com,hugin.katrineholm.se
+ 10.931: katrineholm.se NOTICE No IPv6 name servers found.
+ 11.046: katrineholm.se INFO Parent glue for katrineholm.se found: hugin.katrineholm.se (194.236.41.130)
+ 11.088: katrineholm.se INFO Checking glue for hugin.katrineholm.se (194.236.41.130).
+ 11.099: katrineholm.se INFO Child glue for katrineholm.se found: hugin.katrineholm.se (194.236.41.130)
+ 11.099: katrineholm.se INFO Parent glue for katrineholm.se found: hugin.katrineholm.se (194.236.41.130)
+ 11.100: katrineholm.se INFO Done testing delegation for katrineholm.se.
+ 11.100: katrineholm.se INFO Begin testing name server dns5.telia.com.
+ 11.100: katrineholm.se INFO Begin testing host dns5.telia.com.
+ 11.101: katrineholm.se INFO Begin testing address 81.228.11.68.
+ 25.526: katrineholm.se INFO Done testing address 81.228.11.68.
+ 25.526: katrineholm.se INFO Done testing host dns5.telia.com.
+ 25.534: katrineholm.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over UDP.
+ 25.545: katrineholm.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over TCP.
+ 25.553: katrineholm.se INFO Name server dns5.telia.com (81.228.11.68) is not recursive.
+ 25.560: katrineholm.se INFO Name server dns5.telia.com (81.228.11.68) authoritative for katrineholm.se.
+ 25.574: katrineholm.se INFO Name server dns5.telia.com (81.228.11.68) closed for zone transfer of katrineholm.se.
+ 25.583: katrineholm.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): hostname.bind = dnshosting1-sn1.fre.skanova.net
+ 25.590: katrineholm.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 25.603: katrineholm.se NOTICE No answer received from 81.228.11.68 when querying for version.server/CH/TXT.
+ 25.603: katrineholm.se INFO Done testing name server dns5.telia.com.
+ 25.603: katrineholm.se INFO Begin testing name server hugin.katrineholm.se.
+ 25.604: katrineholm.se INFO Begin testing host hugin.katrineholm.se.
+ 25.604: katrineholm.se INFO Begin testing address 194.236.41.130.
+ 31.821: katrineholm.se WARNING Reverse for 194.236.41.130 points to an unknown host name (194-236-41-130.customer.telia.com).
+ 31.821: katrineholm.se INFO Done testing address 194.236.41.130.
+ 31.821: katrineholm.se INFO Done testing host hugin.katrineholm.se.
+ 31.833: katrineholm.se INFO Name server hugin.katrineholm.se (194.236.41.130) answers queries over UDP.
+ 31.849: katrineholm.se INFO Name server hugin.katrineholm.se (194.236.41.130) answers queries over TCP.
+ 31.885: katrineholm.se WARNING Name server hugin.katrineholm.se (194.236.41.130) is recursive.
+ 31.895: katrineholm.se INFO Name server hugin.katrineholm.se (194.236.41.130) authoritative for katrineholm.se.
+ 32.105: katrineholm.se NOTICE Name server hugin.katrineholm.se (194.236.41.130) open for zone transfer of katrineholm.se.
+ 32.116: katrineholm.se NOTICE No answer received from 194.236.41.130 when querying for hostname.bind/CH/TXT.
+ 50.116: katrineholm.se INFO Done testing name server hugin.katrineholm.se.
+ 50.116: katrineholm.se INFO Begin testing zone consistency for katrineholm.se.
+ 50.127: katrineholm.se INFO SOA at address 81.228.11.68 has serial 2007031379.
+ 50.138: katrineholm.se INFO SOA at address 194.236.41.130 has serial 2007031379.
+ 50.138: katrineholm.se INFO All SOA records have consistent serial numbers.
+ 50.138: katrineholm.se INFO All SOA records are consistent among all name servers.
+ 50.138: katrineholm.se INFO Done testing zone consistency for katrineholm.se.
+ 50.138: katrineholm.se INFO Begin testing SOA parameters for katrineholm.se.
+ 50.148: katrineholm.se INFO Found SOA record for katrineholm.se.
+ 50.149: katrineholm.se INFO Begin testing host hugin.katrineholm.se.
+ 50.149: katrineholm.se INFO Begin testing address 194.236.41.130.
+ 50.150: katrineholm.se WARNING Reverse for 194.236.41.130 points to an unknown host name (194-236-41-130.customer.telia.com).
+ 50.150: katrineholm.se INFO Done testing address 194.236.41.130.
+ 50.151: katrineholm.se INFO Done testing host hugin.katrineholm.se.
+ 50.151: katrineholm.se INFO SOA MNAME for katrineholm.se valid (hugin.katrineholm.se).
+ 50.151: katrineholm.se INFO SOA MNAME for katrineholm.se (hugin.katrineholm.se) listed as NS.
+ 50.161: katrineholm.se INFO SOA MNAME for katrineholm.se (hugin.katrineholm.se) is authoritative.
+ 50.161: katrineholm.se INFO Begin testing email address it-kontoret@katrineholm.se.
+ 50.374: katrineholm.se INFO Mail exchangers for it-kontoret@katrineholm.se found mailgw1.katrineholm.se.
+ 50.374: katrineholm.se INFO All mail servers for it-kontoret@katrineholm.se are in zone katrineholm.se.
+ 50.374: katrineholm.se INFO Begin testing host mailgw1.katrineholm.se.
+ 50.891: katrineholm.se INFO Begin testing address 194.236.41.137.
+ 52.207: katrineholm.se WARNING Reverse for 194.236.41.137 points to an unknown host name (194-236-41-137.customer.telia.com).
+ 52.207: katrineholm.se INFO Done testing address 194.236.41.137.
+ 52.207: katrineholm.se INFO Done testing host mailgw1.katrineholm.se.
+ 52.208: katrineholm.se INFO Begin testing mail server mailgw1.katrineholm.se (194.236.41.137) with it-kontoret@katrineholm.se.
+ 52.232: katrineholm.se INFO SMTP banner: NOA.ADM.Katrineholm.local Microsoft ESMTP MAIL Service ready at Mon, 13 Dec 2010 20:03:00 +0100
+ 57.600: katrineholm.se INFO SMTP testing of mailgw1.katrineholm.se (194.236.41.137) with it-kontoret@katrineholm.se succeeded without errors.
+ 57.600: katrineholm.se INFO Done testing mail server mailgw1.katrineholm.se (194.236.41.137) with it-kontoret@katrineholm.se.
+ 57.601: katrineholm.se INFO Delivery over IPv4 to it-kontoret@katrineholm.se ok.
+ 57.601: katrineholm.se INFO Delivery over IPv6 to it-kontoret@katrineholm.se could not be done.
+ 57.601: katrineholm.se INFO Done testing email address it-kontoret@katrineholm.se.
+ 57.601: katrineholm.se INFO Successful attempt to deliver email for SOA RNAME of katrineholm.se (it-kontoret.katrineholm.se) using it-kontoret@katrineholm.se.
+ 57.601: katrineholm.se NOTICE SOA TTL for katrineholm.se too small (1800) - recommended >= 3600.
+ 57.601: katrineholm.se NOTICE SOA refresh for katrineholm.se too small (7200) - recommended >= 14400.
+ 57.601: katrineholm.se INFO SOA retry for katrineholm.se OK (3600) - recommended >= 3600.
+ 57.601: katrineholm.se INFO SOA expire for katrineholm.se OK (691200) - recommended >= 604800.
+ 57.601: katrineholm.se INFO SOA minimum for katrineholm.se OK (1800) - recommended between 300 and 86400.
+ 57.601: katrineholm.se INFO Done testing SOA parameters for katrineholm.se.
+ 57.601: katrineholm.se INFO Begin testing connectivity for katrineholm.se.
+ 58.189: katrineholm.se INFO Name server 194.236.41.130 announced by: 3301
+ 62.783: katrineholm.se INFO Name server 81.228.11.68 announced by: 3301
+ 62.783: katrineholm.se INFO Zone announced by IPv4 ASN: 3301
+ 62.783: katrineholm.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 62.783: katrineholm.se INFO Zone announced by IPv6 ASN: 
+ 62.783: katrineholm.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 62.783: katrineholm.se INFO Done testing connectivity for katrineholm.se.
+ 62.783: katrineholm.se INFO Begin testing DNSSEC for katrineholm.se.
+ 62.862: katrineholm.se INFO Did not find DS record for katrineholm.se at parent.
+ 62.890: katrineholm.se INFO Servers for katrineholm.se have consistent extra processing status.
+ 62.891: katrineholm.se INFO Did not find DNSKEY record for katrineholm.se at child.
+ 62.891: katrineholm.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 62.891: katrineholm.se INFO Done testing DNSSEC for katrineholm.se.
+ 62.891: katrineholm.se INFO Test completed for zone katrineholm.se.

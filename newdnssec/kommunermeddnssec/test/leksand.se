@@ -1,0 +1,216 @@
+  0.000: leksand.se INFO Begin testing zone leksand.se with version 1.6.1.
+  2.299: leksand.se INFO Begin testing delegation for leksand.se.
+ 20.151: leksand.se INFO Name servers listed at parent: ns.leksand.se,ns1.ipv6dns.se,ns2.ipv6dns.se
+ 27.165: leksand.se INFO Name servers listed at child: ns.leksand.se,ns1.ipv6dns.se,ns2.ipv6dns.se
+ 27.201: leksand.se INFO Parent glue for leksand.se found: ns.leksand.se (193.45.196.2)
+ 27.351: leksand.se INFO Parent glue for leksand.se found: ns1.ipv6dns.se (192.71.21.35)
+ 27.451: leksand.se INFO Parent glue for leksand.se found: ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53)
+ 27.642: leksand.se INFO Parent glue for leksand.se found: ns2.ipv6dns.se (176.58.97.7)
+ 27.642: leksand.se INFO Parent glue for leksand.se found: ns2.ipv6dns.se (109.74.7.166)
+ 27.781: leksand.se INFO Parent glue for leksand.se found: ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001)
+ 27.781: leksand.se INFO Parent glue for leksand.se found: ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165)
+ 27.781: leksand.se INFO Checking glue for ns.leksand.se (193.45.196.2).
+ 27.840: leksand.se INFO Child glue for leksand.se found: ns.leksand.se (193.45.196.2)
+ 27.840: leksand.se INFO Checking glue for ns1.ipv6dns.se (192.71.21.35).
+ 27.841: leksand.se INFO Checking glue for ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53).
+ 27.841: leksand.se INFO Checking glue for ns2.ipv6dns.se (176.58.97.7).
+ 27.841: leksand.se INFO Checking glue for ns2.ipv6dns.se (109.74.7.166).
+ 27.841: leksand.se INFO Checking glue for ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001).
+ 27.841: leksand.se INFO Checking glue for ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165).
+ 27.842: leksand.se INFO Parent glue for leksand.se found: ns.leksand.se (193.45.196.2)
+ 27.842: leksand.se INFO Parent glue for leksand.se found: ns1.ipv6dns.se (192.71.21.35)
+ 27.842: leksand.se INFO Parent glue for leksand.se found: ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53)
+ 27.904: leksand.se INFO Parent glue for leksand.se found: ns2.ipv6dns.se (176.58.97.7)
+ 27.904: leksand.se INFO Parent glue for leksand.se found: ns2.ipv6dns.se (109.74.7.166)
+ 27.904: leksand.se INFO Parent glue for leksand.se found: ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001)
+ 27.904: leksand.se INFO Parent glue for leksand.se found: ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165)
+ 28.869: leksand.se INFO It is possible to build a referral packet for leksand.se that works without EDNS0.
+ 29.419: leksand.se INFO Previously used name servers for leksand.se: 
+ 29.419: leksand.se INFO Done testing delegation for leksand.se.
+ 29.440: leksand.se INFO Begin testing name server ns.leksand.se.
+ 29.440: leksand.se INFO Begin testing host ns.leksand.se.
+ 31.376: leksand.se INFO Begin testing address 193.45.196.2.
+ 58.991: leksand.se INFO Done testing address 193.45.196.2.
+ 58.999: leksand.se INFO Done testing host ns.leksand.se.
+ 59.408: leksand.se INFO Name server ns.leksand.se (193.45.196.2) answers queries over UDP.
+ 59.491: leksand.se INFO Name server ns.leksand.se (193.45.196.2) answers queries over TCP.
+ 59.543: leksand.se INFO Name server ns.leksand.se (193.45.196.2) is not recursive.
+ 59.758: leksand.se INFO Name server ns.leksand.se (193.45.196.2) authoritative for leksand.se.
+ 59.804: leksand.se INFO Name server ns.leksand.se (193.45.196.2) closed for zone transfer of leksand.se.
+ 59.862: leksand.se INFO Legacy name server ID for ns.leksand.se (193.45.196.2): hostname.bind = ns.leksand.se
+ 59.875: leksand.se INFO Legacy name server ID for ns.leksand.se (193.45.196.2): version.bind = 9.9.3-P2
+ 59.943: leksand.se NOTICE No answer received from 193.45.196.2 when querying for version.server/CH/TXT.
+ 59.944: leksand.se INFO Done testing name server ns.leksand.se.
+ 59.944: leksand.se INFO Begin testing name server ns1.ipv6dns.se.
+ 59.944: leksand.se INFO Begin testing host ns1.ipv6dns.se.
+ 59.945: leksand.se INFO Begin testing address 192.71.21.35.
+ 75.024: leksand.se INFO Done testing address 192.71.21.35.
+ 75.024: leksand.se INFO Begin testing address 2001:67c:2448:10:0:0:0:53.
+ 75.592: leksand.se INFO Done testing address 2001:67c:2448:10:0:0:0:53.
+ 75.593: leksand.se INFO Done testing host ns1.ipv6dns.se.
+ 75.612: leksand.se INFO Name server ns1.ipv6dns.se (192.71.21.35) answers queries over UDP.
+ 75.643: leksand.se INFO Name server ns1.ipv6dns.se (192.71.21.35) answers queries over TCP.
+ 75.674: leksand.se INFO Name server ns1.ipv6dns.se (192.71.21.35) is not recursive.
+ 75.764: leksand.se INFO Name server ns1.ipv6dns.se (192.71.21.35) authoritative for leksand.se.
+ 75.788: leksand.se INFO Name server ns1.ipv6dns.se (192.71.21.35) closed for zone transfer of leksand.se.
+ 75.824: leksand.se INFO Legacy name server ID for ns1.ipv6dns.se (192.71.21.35): hostname.bind = ns1
+ 75.836: leksand.se INFO Legacy name server ID for ns1.ipv6dns.se (192.71.21.35): version.bind = 9.9.4rc2
+ 75.888: leksand.se NOTICE No answer received from 192.71.21.35 when querying for version.server/CH/TXT.
+ 75.911: leksand.se INFO Name server ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53) answers queries over UDP.
+ 76.091: leksand.se INFO Name server ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53) answers queries over TCP.
+ 76.136: leksand.se INFO Name server ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53) is not recursive.
+ 76.331: leksand.se INFO Name server ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53) authoritative for leksand.se.
+ 76.370: leksand.se INFO Name server ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53) closed for zone transfer of leksand.se.
+ 76.395: leksand.se INFO Legacy name server ID for ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53): hostname.bind = ns1
+ 76.528: leksand.se INFO Legacy name server ID for ns1.ipv6dns.se (2001:67c:2448:10:0:0:0:53): version.bind = 9.9.4rc2
+ 76.623: leksand.se NOTICE No answer received from 2001:67c:2448:10:0:0:0:53 when querying for version.server/CH/TXT.
+ 76.623: leksand.se INFO Done testing name server ns1.ipv6dns.se.
+ 76.623: leksand.se INFO Begin testing name server ns2.ipv6dns.se.
+ 76.623: leksand.se INFO Begin testing host ns2.ipv6dns.se.
+ 76.633: leksand.se INFO Begin testing address 109.74.7.166.
+ 78.304: leksand.se INFO Done testing address 109.74.7.166.
+ 78.304: leksand.se INFO Begin testing address 176.58.97.7.
+ 80.446: leksand.se INFO Done testing address 176.58.97.7.
+ 80.446: leksand.se INFO Begin testing address 2a01:7e00:0:0:0:0:17:f001.
+ 80.965: leksand.se INFO Done testing address 2a01:7e00:0:0:0:0:17:f001.
+ 80.965: leksand.se INFO Begin testing address 2a02:750:7:0:0:0:0:165.
+ 81.344: leksand.se INFO Done testing address 2a02:750:7:0:0:0:0:165.
+ 81.345: leksand.se INFO Done testing host ns2.ipv6dns.se.
+ 81.364: leksand.se INFO Name server ns2.ipv6dns.se (109.74.7.166) answers queries over UDP.
+ 81.376: leksand.se INFO Name server ns2.ipv6dns.se (109.74.7.166) answers queries over TCP.
+ 81.404: leksand.se INFO Name server ns2.ipv6dns.se (109.74.7.166) is not recursive.
+ 81.485: leksand.se INFO Name server ns2.ipv6dns.se (109.74.7.166) authoritative for leksand.se.
+ 81.518: leksand.se INFO Name server ns2.ipv6dns.se (109.74.7.166) closed for zone transfer of leksand.se.
+ 81.542: leksand.se INFO Legacy name server ID for ns2.ipv6dns.se (109.74.7.166): hostname.bind = ns3
+ 81.588: leksand.se INFO Legacy name server ID for ns2.ipv6dns.se (109.74.7.166): version.bind = 9.9.4-P2
+ 81.632: leksand.se NOTICE No answer received from 109.74.7.166 when querying for version.server/CH/TXT.
+ 81.679: leksand.se INFO Name server ns2.ipv6dns.se (176.58.97.7) answers queries over UDP.
+ 81.780: leksand.se INFO Name server ns2.ipv6dns.se (176.58.97.7) answers queries over TCP.
+ 81.828: leksand.se INFO Name server ns2.ipv6dns.se (176.58.97.7) is not recursive.
+ 82.048: leksand.se INFO Name server ns2.ipv6dns.se (176.58.97.7) authoritative for leksand.se.
+ 82.184: leksand.se INFO Name server ns2.ipv6dns.se (176.58.97.7) closed for zone transfer of leksand.se.
+ 82.238: leksand.se INFO Legacy name server ID for ns2.ipv6dns.se (176.58.97.7): hostname.bind = li443-7
+ 82.302: leksand.se INFO Legacy name server ID for ns2.ipv6dns.se (176.58.97.7): version.bind = 9.9.4-P2
+ 82.431: leksand.se NOTICE No answer received from 176.58.97.7 when querying for version.server/CH/TXT.
+ 82.497: leksand.se INFO Name server ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001) answers queries over UDP.
+ 82.609: leksand.se INFO Name server ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001) answers queries over TCP.
+ 82.704: leksand.se INFO Name server ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001) is not recursive.
+ 82.936: leksand.se INFO Name server ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001) authoritative for leksand.se.
+ 83.104: leksand.se INFO Name server ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001) closed for zone transfer of leksand.se.
+ 83.252: leksand.se INFO Legacy name server ID for ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001): hostname.bind = li443-7
+ 83.311: leksand.se INFO Legacy name server ID for ns2.ipv6dns.se (2a01:7e00:0:0:0:0:17:f001): version.bind = 9.9.4-P2
+ 83.427: leksand.se NOTICE No answer received from 2a01:7e00:0:0:0:0:17:f001 when querying for version.server/CH/TXT.
+ 83.456: leksand.se INFO Name server ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165) answers queries over UDP.
+ 83.494: leksand.se INFO Name server ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165) answers queries over TCP.
+ 83.526: leksand.se INFO Name server ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165) is not recursive.
+ 83.636: leksand.se INFO Name server ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165) authoritative for leksand.se.
+ 83.675: leksand.se INFO Name server ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165) closed for zone transfer of leksand.se.
+ 83.733: leksand.se INFO Legacy name server ID for ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165): hostname.bind = ns3
+ 83.808: leksand.se INFO Legacy name server ID for ns2.ipv6dns.se (2a02:750:7:0:0:0:0:165): version.bind = 9.9.4-P2
+ 83.907: leksand.se NOTICE No answer received from 2a02:750:7:0:0:0:0:165 when querying for version.server/CH/TXT.
+ 83.907: leksand.se INFO Done testing name server ns2.ipv6dns.se.
+ 83.907: leksand.se INFO Begin testing zone consistency for leksand.se.
+ 84.643: leksand.se INFO SOA at address 109.74.7.166 has serial 2014030801.
+ 84.674: leksand.se INFO SOA at address 192.71.21.35 has serial 2014030801.
+ 84.714: leksand.se INFO SOA at address 193.45.196.2 has serial 2014030801.
+ 84.793: leksand.se INFO SOA at address 2a01:7e00:0:0:0:0:17:f001 has serial 2014030801.
+ 84.840: leksand.se INFO SOA at address 176.58.97.7 has serial 2014030801.
+ 84.880: leksand.se INFO SOA at address 2a02:750:7:0:0:0:0:165 has serial 2014030801.
+ 84.912: leksand.se INFO SOA at address 2001:67c:2448:10:0:0:0:53 has serial 2014030801.
+ 84.912: leksand.se INFO All SOA records have consistent serial numbers.
+ 84.912: leksand.se INFO All other fields in the SOA record are consistent among all name servers.
+ 85.507: leksand.se NOTICE The listed nameservers for leksand.se all report the same set of nameservers.
+ 85.507: leksand.se INFO Done testing zone consistency for leksand.se.
+ 85.507: leksand.se INFO Begin testing SOA parameters for leksand.se.
+ 85.563: leksand.se INFO Found SOA record for leksand.se.
+ 85.563: leksand.se INFO Begin testing host ns.leksand.se.
+ 85.833: leksand.se INFO Begin testing address 193.45.196.2.
+ 86.089: leksand.se INFO Done testing address 193.45.196.2.
+ 86.090: leksand.se INFO Done testing host ns.leksand.se.
+ 86.090: leksand.se INFO SOA MNAME for leksand.se valid (ns.leksand.se).
+ 86.090: leksand.se INFO SOA MNAME for leksand.se (ns.leksand.se) listed as NS.
+ 86.997: leksand.se INFO SOA MNAME for leksand.se (ns.leksand.se) is authoritative.
+ 86.998: leksand.se INFO Begin testing email address registry@leksand.se.
+ 87.445: leksand.se INFO Mail exchangers for registry@leksand.se found smtp-in.sto-hy.se.stejtech.net,smtp-in.sto-ste.se.stejtech.net.
+ 87.445: leksand.se INFO Begin testing host smtp-in.sto-hy.se.stejtech.net.
+ 88.539: leksand.se INFO Begin testing address 91.236.209.10.
+ 91.318: leksand.se INFO Done testing address 91.236.209.10.
+ 91.318: leksand.se INFO Begin testing address 79.136.102.100.
+ 96.071: leksand.se INFO Done testing address 79.136.102.100.
+ 96.071: leksand.se INFO Begin testing address 91.236.208.10.
+ 97.491: leksand.se INFO Done testing address 91.236.208.10.
+ 97.496: leksand.se INFO Begin testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 99.155: leksand.se INFO Done testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 99.155: leksand.se INFO Begin testing address 2001:67c:27e0:2110:0:0:0:1b01.
+100.887: leksand.se INFO Done testing address 2001:67c:27e0:2110:0:0:0:1b01.
+100.887: leksand.se INFO Begin testing address 2001:9b0:1:703:0:0:0:1b01.
+104.094: leksand.se INFO Done testing address 2001:9b0:1:703:0:0:0:1b01.
+104.094: leksand.se INFO Done testing host smtp-in.sto-hy.se.stejtech.net.
+104.094: leksand.se INFO Begin testing host smtp-in.sto-ste.se.stejtech.net.
+105.606: leksand.se INFO Begin testing address 79.136.102.90.
+107.246: leksand.se INFO Done testing address 79.136.102.90.
+107.247: leksand.se INFO Begin testing address 83.140.31.145.
+110.492: leksand.se INFO Done testing address 83.140.31.145.
+110.492: leksand.se INFO Begin testing address 2001:9b0:1:703:0:0:0:b002.
+113.374: leksand.se INFO Done testing address 2001:9b0:1:703:0:0:0:b002.
+113.375: leksand.se INFO Done testing host smtp-in.sto-ste.se.stejtech.net.
+113.375: leksand.se INFO Done testing email address registry@leksand.se.
+113.400: leksand.se INFO Successful attempt to deliver email for SOA RNAME of leksand.se (registry.leksand.se) using registry@leksand.se.
+113.472: leksand.se INFO SOA TTL for leksand.se OK (3600) - recommended >= 3600.
+113.472: leksand.se NOTICE SOA refresh for leksand.se too small (10800) - recommended >= 14400.
+113.472: leksand.se INFO SOA retry for leksand.se OK (3600) - recommended >= 3600.
+113.472: leksand.se INFO SOA expire for leksand.se OK (2592000) - recommended >= 604800.
+113.472: leksand.se INFO SOA minimum for leksand.se OK (3600) - recommended between 300 and 86400.
+113.472: leksand.se INFO Done testing SOA parameters for leksand.se.
+113.472: leksand.se INFO Begin testing connectivity for leksand.se.
+116.446: leksand.se INFO Zone announced by more than one ASN.
+118.542: leksand.se INFO Zone announced by more than one IPv6 ASN.
+118.542: leksand.se INFO Done testing connectivity for leksand.se.
+118.542: leksand.se INFO Begin testing DNSSEC for leksand.se.
+118.633: leksand.se INFO Found DS record for leksand.se at parent.
+118.729: leksand.se INFO Nameserver 176.58.97.7 does DNSSEC extra processing.
+118.789: leksand.se INFO Nameserver 109.74.7.166 does DNSSEC extra processing.
+118.803: leksand.se INFO Nameserver 192.71.21.35 does DNSSEC extra processing.
+118.849: leksand.se INFO Nameserver 193.45.196.2 does DNSSEC extra processing.
+118.994: leksand.se INFO Nameserver 2a01:7e00:0:0:0:0:17:f001 does DNSSEC extra processing.
+119.022: leksand.se INFO Nameserver 2a02:750:7:0:0:0:0:165 does DNSSEC extra processing.
+119.034: leksand.se INFO Nameserver 2001:67c:2448:10:0:0:0:53 does DNSSEC extra processing.
+119.034: leksand.se INFO Servers for leksand.se have consistent extra processing status.
+119.134: leksand.se INFO Authenticated denial records found for leksand.se, of type NSEC3.
+119.187: leksand.se INFO NSEC3PARAM record found for leksand.se.
+119.187: leksand.se INFO NSEC3 for leksand.se is set to use 5 iterations, which is less than 100 and thus OK.
+119.187: leksand.se INFO Found DNSKEY record for leksand.se at child.
+119.187: leksand.se INFO Consistent security for leksand.se.
+119.187: leksand.se INFO Checking DNSSEC at child (leksand.se).
+119.187: leksand.se INFO leksand.se's key with tag 20340 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+119.187: leksand.se INFO Algorithm number 7 is OK.
+119.187: leksand.se INFO DNSKEY leksand.se (tag 20340) is marked as a secure entry point (SEP).
+119.188: leksand.se INFO leksand.se's key with tag 30020 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+119.188: leksand.se INFO Algorithm number 7 is OK.
+119.188: leksand.se INFO DNSSEC signature expires at: Mon Apr  7 21:00:01 2014
+119.188: leksand.se INFO Duration for RRSIG(leksand.se/IN/DNSKEY/20340) is OK (2592000 seconds).
+119.190: leksand.se INFO DNSSEC signature RRSIG(leksand.se/IN/DNSKEY/20340) matches records.
+119.190: leksand.se INFO DNSSEC signature valid: RRSIG(leksand.se/IN/DNSKEY/20340)
+119.190: leksand.se INFO DNSSEC signature expires at: Mon Apr  7 21:00:01 2014
+119.190: leksand.se INFO Duration for RRSIG(leksand.se/IN/DNSKEY/30020) is OK (2592000 seconds).
+119.191: leksand.se INFO DNSSEC signature RRSIG(leksand.se/IN/DNSKEY/30020) matches records.
+119.191: leksand.se INFO DNSSEC signature valid: RRSIG(leksand.se/IN/DNSKEY/30020)
+119.191: leksand.se INFO Enough valid signatures found for leksand.se.
+119.298: leksand.se INFO DNSSEC signature expires at: Mon Apr  7 21:00:01 2014
+119.299: leksand.se INFO Duration for RRSIG(leksand.se/IN/SOA/30020) is OK (2592000 seconds).
+119.299: leksand.se INFO DNSSEC signature RRSIG(leksand.se/IN/SOA/30020) matches records.
+119.299: leksand.se INFO DNSSEC signature valid: RRSIG(leksand.se/IN/SOA/30020)
+119.299: leksand.se INFO Enough valid signatures over SOA RRset found for leksand.se.
+119.299: leksand.se INFO DNSSEC child checks for leksand.se complete.
+119.300: leksand.se INFO Checking DNSSEC at parent of leksand.se.
+119.300: leksand.se INFO leksand.se's key with tag 20340 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+119.300: leksand.se INFO Algorithm number 7 is OK.
+119.300: leksand.se INFO Parent DS(leksand.se/7/1/20340) refers to valid key at child: DNSKEY(leksand.se/7/20340)
+119.300: leksand.se INFO Parent DS(leksand.se) refers to secure entry point (SEP) at child: DS(leksand.se/7/1/20340)
+119.300: leksand.se INFO leksand.se's key with tag 20340 uses algorithm number 7 (RSA-NSEC3-SHA1 ).
+119.300: leksand.se INFO Algorithm number 7 is OK.
+119.301: leksand.se INFO Parent DS(leksand.se/7/2/20340) refers to valid key at child: DNSKEY(leksand.se/7/20340)
+119.301: leksand.se INFO Parent DS(leksand.se) refers to secure entry point (SEP) at child: DS(leksand.se/7/2/20340)
+119.301: leksand.se INFO DNSSEC parent checks for leksand.se complete.
+119.301: leksand.se INFO Done testing DNSSEC for leksand.se.
+119.301: leksand.se INFO Test completed for zone leksand.se.

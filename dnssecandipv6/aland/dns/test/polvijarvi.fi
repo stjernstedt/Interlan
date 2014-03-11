@@ -1,0 +1,92 @@
+  0.000: polvijarvi.fi INFO Begin testing zone polvijarvi.fi with version 1.5.0.
+  1.781: polvijarvi.fi INFO Begin testing delegation for polvijarvi.fi.
+ 45.850: polvijarvi.fi INFO Name servers listed at parent: ns.opaasi.fi,ns2.opaasi.fi
+ 55.781: polvijarvi.fi INFO Name servers listed at child: ns.opaasi.fi,ns2.opaasi.fi
+ 55.782: polvijarvi.fi NOTICE No IPv6 name servers found.
+ 56.257: polvijarvi.fi INFO Parent glue for polvijarvi.fi found: ns.opaasi.fi (62.240.64.140)
+ 57.079: polvijarvi.fi INFO Parent glue for polvijarvi.fi found: ns2.opaasi.fi (62.240.64.170)
+ 57.269: polvijarvi.fi INFO Checking glue for ns.opaasi.fi (62.240.64.140).
+ 57.269: polvijarvi.fi INFO Checking glue for ns2.opaasi.fi (62.240.64.170).
+ 57.269: polvijarvi.fi INFO Parent glue for polvijarvi.fi found: ns.opaasi.fi (62.240.64.140)
+ 57.270: polvijarvi.fi INFO Parent glue for polvijarvi.fi found: ns2.opaasi.fi (62.240.64.170)
+ 63.318: polvijarvi.fi INFO It is possible to build a referral packet for polvijarvi.fi that works without EDNS0.
+ 68.122: polvijarvi.fi INFO Previously used name servers for polvijarvi.fi: 
+ 68.122: polvijarvi.fi INFO Done testing delegation for polvijarvi.fi.
+ 68.122: polvijarvi.fi INFO Begin testing name server ns.opaasi.fi.
+ 68.122: polvijarvi.fi INFO Begin testing host ns.opaasi.fi.
+ 70.044: polvijarvi.fi INFO Begin testing address 62.240.64.140.
+102.052: polvijarvi.fi INFO Done testing address 62.240.64.140.
+102.052: polvijarvi.fi INFO Done testing host ns.opaasi.fi.
+104.157: polvijarvi.fi INFO Name server ns.opaasi.fi (62.240.64.140) answers queries over UDP.
+109.187: polvijarvi.fi NOTICE DNS lookup error (connection failed).
+109.187: polvijarvi.fi ERROR Name server ns.opaasi.fi (62.240.64.140) does not answer queries over TCP.
+109.439: polvijarvi.fi INFO Name server ns.opaasi.fi (62.240.64.140) is not recursive.
+115.191: polvijarvi.fi NOTICE DNS lookup error (connection failed).
+115.192: polvijarvi.fi INFO Name server ns.opaasi.fi (62.240.64.140) authoritative for polvijarvi.fi.
+115.192: polvijarvi.fi INFO Name server ns.opaasi.fi (62.240.64.140) not checked for zone transfer of polvijarvi.fi.
+115.192: polvijarvi.fi INFO Name server ns.opaasi.fi (62.240.64.140) not checked for legacy name server ID.
+115.192: polvijarvi.fi INFO Done testing name server ns.opaasi.fi.
+115.192: polvijarvi.fi INFO Begin testing name server ns2.opaasi.fi.
+115.192: polvijarvi.fi INFO Begin testing host ns2.opaasi.fi.
+117.115: polvijarvi.fi INFO Begin testing address 62.240.64.170.
+120.914: polvijarvi.fi INFO Done testing address 62.240.64.170.
+120.915: polvijarvi.fi INFO Done testing host ns2.opaasi.fi.
+123.410: polvijarvi.fi INFO Name server ns2.opaasi.fi (62.240.64.170) answers queries over UDP.
+128.539: polvijarvi.fi NOTICE DNS lookup error (connection failed).
+128.540: polvijarvi.fi ERROR Name server ns2.opaasi.fi (62.240.64.170) does not answer queries over TCP.
+128.736: polvijarvi.fi INFO Name server ns2.opaasi.fi (62.240.64.170) is not recursive.
+134.359: polvijarvi.fi NOTICE DNS lookup error (connection failed).
+134.360: polvijarvi.fi INFO Name server ns2.opaasi.fi (62.240.64.170) authoritative for polvijarvi.fi.
+134.360: polvijarvi.fi INFO Name server ns2.opaasi.fi (62.240.64.170) not checked for zone transfer of polvijarvi.fi.
+134.360: polvijarvi.fi INFO Name server ns2.opaasi.fi (62.240.64.170) not checked for legacy name server ID.
+134.360: polvijarvi.fi INFO Done testing name server ns2.opaasi.fi.
+134.360: polvijarvi.fi INFO Begin testing zone consistency for polvijarvi.fi.
+142.066: polvijarvi.fi INFO SOA at address 62.240.64.140 has serial 2008110305.
+142.706: polvijarvi.fi INFO SOA at address 62.240.64.170 has serial 2008110305.
+142.707: polvijarvi.fi INFO All SOA records have consistent serial numbers.
+142.707: polvijarvi.fi INFO All other fields in the SOA record are consistent among all name servers.
+149.551: polvijarvi.fi NOTICE The listed nameservers for polvijarvi.fi all report the same set of nameservers.
+149.551: polvijarvi.fi INFO Done testing zone consistency for polvijarvi.fi.
+149.551: polvijarvi.fi INFO Begin testing SOA parameters for polvijarvi.fi.
+149.977: polvijarvi.fi INFO Found SOA record for polvijarvi.fi.
+149.977: polvijarvi.fi INFO Begin testing host ns.opaasi.fi.
+152.490: polvijarvi.fi INFO Begin testing address 62.240.64.140.
+155.084: polvijarvi.fi INFO Done testing address 62.240.64.140.
+155.084: polvijarvi.fi INFO Done testing host ns.opaasi.fi.
+155.084: polvijarvi.fi INFO SOA MNAME for polvijarvi.fi valid (ns.opaasi.fi).
+155.084: polvijarvi.fi INFO SOA MNAME for polvijarvi.fi (ns.opaasi.fi) listed as NS.
+157.988: polvijarvi.fi INFO SOA MNAME for polvijarvi.fi (ns.opaasi.fi) is authoritative.
+157.988: polvijarvi.fi INFO Begin testing email address administrator@opaasi.fi.
+160.281: polvijarvi.fi INFO Mail exchangers for administrator@opaasi.fi found raid1.kotinet.com,raid2.kotinet.com.
+160.281: polvijarvi.fi INFO Begin testing host raid1.kotinet.com.
+164.988: polvijarvi.fi INFO Begin testing address 212.50.215.90.
+170.000: polvijarvi.fi INFO Done testing address 212.50.215.90.
+170.000: polvijarvi.fi INFO Done testing host raid1.kotinet.com.
+172.238: polvijarvi.fi INFO Begin testing host raid2.kotinet.com.
+177.580: polvijarvi.fi INFO Begin testing address 212.50.215.91.
+183.623: polvijarvi.fi INFO Done testing address 212.50.215.91.
+183.624: polvijarvi.fi INFO Done testing host raid2.kotinet.com.
+186.123: polvijarvi.fi INFO Done testing email address administrator@opaasi.fi.
+186.123: polvijarvi.fi INFO Successful attempt to deliver email for SOA RNAME of polvijarvi.fi (administrator.opaasi.fi) using administrator@opaasi.fi.
+186.123: polvijarvi.fi INFO SOA TTL for polvijarvi.fi OK (3600) - recommended >= 3600.
+186.123: polvijarvi.fi NOTICE SOA refresh for polvijarvi.fi too small (7200) - recommended >= 14400.
+186.123: polvijarvi.fi NOTICE SOA refresh for polvijarvi.fi lower than retry (7200 vs 28800).
+186.223: polvijarvi.fi INFO SOA retry for polvijarvi.fi OK (28800) - recommended >= 3600.
+186.223: polvijarvi.fi INFO SOA expire for polvijarvi.fi OK (2419200) - recommended >= 604800.
+186.224: polvijarvi.fi INFO SOA minimum for polvijarvi.fi OK (86400) - recommended between 300 and 86400.
+186.224: polvijarvi.fi INFO Done testing SOA parameters for polvijarvi.fi.
+186.224: polvijarvi.fi INFO Begin testing connectivity for polvijarvi.fi.
+193.317: polvijarvi.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+193.317: polvijarvi.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+193.317: polvijarvi.fi INFO Done testing connectivity for polvijarvi.fi.
+193.317: polvijarvi.fi INFO Begin testing DNSSEC for polvijarvi.fi.
+194.021: polvijarvi.fi INFO Did not find DS record for polvijarvi.fi at parent.
+199.047: polvijarvi.fi NOTICE DNS lookup error (connection failed).
+204.074: polvijarvi.fi NOTICE DNS lookup error (connection failed).
+204.074: polvijarvi.fi INFO Servers for polvijarvi.fi have consistent extra processing status.
+214.375: polvijarvi.fi NOTICE DNS lookup error (connection failed).
+214.376: polvijarvi.fi INFO Authenticated denial records not found for polvijarvi.fi.
+214.600: polvijarvi.fi INFO Did not find DNSKEY record for polvijarvi.fi at child.
+214.600: polvijarvi.fi INFO No DNSKEY(s) found at child, other tests skipped.
+214.600: polvijarvi.fi INFO Done testing DNSSEC for polvijarvi.fi.
+214.601: polvijarvi.fi INFO Test completed for zone polvijarvi.fi.

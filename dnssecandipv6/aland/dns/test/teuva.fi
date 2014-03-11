@@ -1,0 +1,100 @@
+  0.000: teuva.fi INFO Begin testing zone teuva.fi with version 1.5.0.
+  2.685: teuva.fi INFO Begin testing delegation for teuva.fi.
+ 70.180: teuva.fi INFO Name servers listed at parent: ns1.neviso.fi,ns2.neviso.fi,ns3.neviso.fi
+ 90.394: teuva.fi INFO Name servers listed at child: ns1.neviso.fi,ns2.neviso.fi,ns3.neviso.fi
+ 90.394: teuva.fi NOTICE No IPv6 name servers found.
+ 91.080: teuva.fi INFO Parent glue for teuva.fi found: ns1.neviso.fi (81.209.43.194)
+ 92.208: teuva.fi INFO Parent glue for teuva.fi found: ns2.neviso.fi (81.209.43.195)
+ 93.257: teuva.fi INFO Parent glue for teuva.fi found: ns3.neviso.fi (46.105.16.214)
+ 94.040: teuva.fi INFO Checking glue for ns1.neviso.fi (81.209.43.194).
+ 94.040: teuva.fi INFO Checking glue for ns2.neviso.fi (81.209.43.195).
+ 94.040: teuva.fi INFO Checking glue for ns3.neviso.fi (46.105.16.214).
+ 94.041: teuva.fi INFO Parent glue for teuva.fi found: ns1.neviso.fi (81.209.43.194)
+ 94.041: teuva.fi INFO Parent glue for teuva.fi found: ns2.neviso.fi (81.209.43.195)
+ 94.041: teuva.fi INFO Parent glue for teuva.fi found: ns3.neviso.fi (46.105.16.214)
+104.353: teuva.fi INFO It is possible to build a referral packet for teuva.fi that works without EDNS0.
+111.463: teuva.fi INFO Previously used name servers for teuva.fi: 
+111.463: teuva.fi INFO Done testing delegation for teuva.fi.
+111.635: teuva.fi INFO Begin testing name server ns1.neviso.fi.
+111.635: teuva.fi INFO Begin testing host ns1.neviso.fi.
+113.775: teuva.fi INFO Begin testing address 81.209.43.194.
+148.545: teuva.fi INFO Done testing address 81.209.43.194.
+148.545: teuva.fi INFO Done testing host ns1.neviso.fi.
+152.759: teuva.fi INFO Name server ns1.neviso.fi (81.209.43.194) answers queries over UDP.
+153.123: teuva.fi INFO Name server ns1.neviso.fi (81.209.43.194) answers queries over TCP.
+153.531: teuva.fi INFO Name server ns1.neviso.fi (81.209.43.194) is not recursive.
+154.768: teuva.fi INFO Name server ns1.neviso.fi (81.209.43.194) authoritative for teuva.fi.
+155.111: teuva.fi INFO Name server ns1.neviso.fi (81.209.43.194) closed for zone transfer of teuva.fi.
+155.811: teuva.fi NOTICE No answer received from 81.209.43.194 when querying for version.bind/CH/TXT.
+156.669: teuva.fi INFO Done testing name server ns1.neviso.fi.
+156.669: teuva.fi INFO Begin testing name server ns2.neviso.fi.
+156.670: teuva.fi INFO Begin testing host ns2.neviso.fi.
+159.631: teuva.fi INFO Begin testing address 81.209.43.195.
+165.078: teuva.fi INFO Done testing address 81.209.43.195.
+165.078: teuva.fi INFO Done testing host ns2.neviso.fi.
+168.186: teuva.fi INFO Name server ns2.neviso.fi (81.209.43.195) answers queries over UDP.
+168.639: teuva.fi INFO Name server ns2.neviso.fi (81.209.43.195) answers queries over TCP.
+168.991: teuva.fi INFO Name server ns2.neviso.fi (81.209.43.195) is not recursive.
+169.999: teuva.fi INFO Name server ns2.neviso.fi (81.209.43.195) authoritative for teuva.fi.
+170.307: teuva.fi INFO Name server ns2.neviso.fi (81.209.43.195) closed for zone transfer of teuva.fi.
+170.907: teuva.fi NOTICE No answer received from 81.209.43.195 when querying for version.bind/CH/TXT.
+171.535: teuva.fi INFO Done testing name server ns2.neviso.fi.
+171.535: teuva.fi INFO Begin testing name server ns3.neviso.fi.
+171.535: teuva.fi INFO Begin testing host ns3.neviso.fi.
+174.266: teuva.fi INFO Begin testing address 46.105.16.214.
+206.215: teuva.fi INFO Done testing address 46.105.16.214.
+206.215: teuva.fi INFO Done testing host ns3.neviso.fi.
+208.981: teuva.fi INFO Name server ns3.neviso.fi (46.105.16.214) answers queries over UDP.
+209.291: teuva.fi INFO Name server ns3.neviso.fi (46.105.16.214) answers queries over TCP.
+209.575: teuva.fi INFO Name server ns3.neviso.fi (46.105.16.214) is not recursive.
+210.626: teuva.fi INFO Name server ns3.neviso.fi (46.105.16.214) authoritative for teuva.fi.
+210.947: teuva.fi INFO Name server ns3.neviso.fi (46.105.16.214) closed for zone transfer of teuva.fi.
+211.503: teuva.fi NOTICE No answer received from 46.105.16.214 when querying for version.bind/CH/TXT.
+211.987: teuva.fi INFO Done testing name server ns3.neviso.fi.
+211.987: teuva.fi INFO Begin testing zone consistency for teuva.fi.
+224.755: teuva.fi INFO SOA at address 81.209.43.195 has serial 2011102400.
+224.964: teuva.fi INFO SOA at address 81.209.43.194 has serial 2011102400.
+225.327: teuva.fi INFO SOA at address 46.105.16.214 has serial 2011102400.
+225.327: teuva.fi INFO All SOA records have consistent serial numbers.
+225.328: teuva.fi INFO All other fields in the SOA record are consistent among all name servers.
+231.170: teuva.fi NOTICE The listed nameservers for teuva.fi all report the same set of nameservers.
+231.170: teuva.fi INFO Done testing zone consistency for teuva.fi.
+231.170: teuva.fi INFO Begin testing SOA parameters for teuva.fi.
+231.564: teuva.fi INFO Found SOA record for teuva.fi.
+231.564: teuva.fi INFO Begin testing host ns1.neviso.fi.
+233.377: teuva.fi INFO Begin testing address 81.209.43.194.
+235.343: teuva.fi INFO Done testing address 81.209.43.194.
+235.343: teuva.fi INFO Done testing host ns1.neviso.fi.
+235.343: teuva.fi INFO SOA MNAME for teuva.fi valid (ns1.neviso.fi).
+235.344: teuva.fi INFO SOA MNAME for teuva.fi (ns1.neviso.fi) listed as NS.
+237.327: teuva.fi INFO SOA MNAME for teuva.fi (ns1.neviso.fi) is authoritative.
+237.328: teuva.fi INFO Begin testing email address hostmaster@neviso.fi.
+238.897: teuva.fi INFO Mail exchangers for hostmaster@neviso.fi found rps2.neviso.fi,rps1.neviso.fi.
+238.898: teuva.fi INFO Begin testing host rps2.neviso.fi.
+242.048: teuva.fi INFO Begin testing address 81.209.43.220.
+246.483: teuva.fi INFO Done testing address 81.209.43.220.
+246.483: teuva.fi INFO Done testing host rps2.neviso.fi.
+248.715: teuva.fi INFO Begin testing host rps1.neviso.fi.
+253.563: teuva.fi INFO Begin testing address 81.209.43.197.
+258.103: teuva.fi INFO Done testing address 81.209.43.197.
+258.103: teuva.fi INFO Done testing host rps1.neviso.fi.
+260.080: teuva.fi INFO Done testing email address hostmaster@neviso.fi.
+260.080: teuva.fi INFO Successful attempt to deliver email for SOA RNAME of teuva.fi (hostmaster.neviso.fi) using hostmaster@neviso.fi.
+260.080: teuva.fi INFO SOA TTL for teuva.fi OK (10800) - recommended >= 3600.
+260.080: teuva.fi NOTICE SOA refresh for teuva.fi too small (10800) - recommended >= 14400.
+260.080: teuva.fi INFO SOA retry for teuva.fi OK (3600) - recommended >= 3600.
+260.080: teuva.fi INFO SOA expire for teuva.fi OK (604800) - recommended >= 604800.
+260.080: teuva.fi INFO SOA minimum for teuva.fi OK (3600) - recommended between 300 and 86400.
+260.080: teuva.fi INFO Done testing SOA parameters for teuva.fi.
+260.080: teuva.fi INFO Begin testing connectivity for teuva.fi.
+267.614: teuva.fi INFO Zone announced by more than one ASN.
+267.614: teuva.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+267.614: teuva.fi INFO Done testing connectivity for teuva.fi.
+267.614: teuva.fi INFO Begin testing DNSSEC for teuva.fi.
+268.253: teuva.fi INFO Did not find DS record for teuva.fi at parent.
+269.151: teuva.fi INFO Servers for teuva.fi have consistent extra processing status.
+269.395: teuva.fi INFO Authenticated denial records not found for teuva.fi.
+269.643: teuva.fi INFO Did not find DNSKEY record for teuva.fi at child.
+269.643: teuva.fi INFO No DNSKEY(s) found at child, other tests skipped.
+269.643: teuva.fi INFO Done testing DNSSEC for teuva.fi.
+269.644: teuva.fi INFO Test completed for zone teuva.fi.

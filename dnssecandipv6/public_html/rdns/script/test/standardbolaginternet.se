@@ -1,0 +1,83 @@
+  0.000: standardbolaginternet.se INFO Begin testing zone standardbolaginternet.se with version 1.5.0.
+  0.001: standardbolaginternet.se INFO Begin testing delegation for standardbolaginternet.se.
+ 12.397: standardbolaginternet.se INFO Name servers listed at parent: ns1.standardbolag.se,ns2.netit.se
+ 15.259: standardbolaginternet.se INFO Name servers listed at child: ns1.standardbolag.se,ns2.netit.se
+ 15.260: standardbolaginternet.se NOTICE No IPv6 name servers found.
+ 15.295: standardbolaginternet.se INFO Parent glue for standardbolaginternet.se found: ns1.standardbolag.se (85.89.79.194)
+ 15.466: standardbolaginternet.se INFO Parent glue for standardbolaginternet.se found: ns2.netit.se (85.89.68.30)
+ 15.473: standardbolaginternet.se INFO Checking glue for ns1.standardbolag.se (85.89.79.194).
+ 15.473: standardbolaginternet.se INFO Checking glue for ns2.netit.se (85.89.68.30).
+ 15.474: standardbolaginternet.se INFO Parent glue for standardbolaginternet.se found: ns1.standardbolag.se (85.89.79.194)
+ 15.474: standardbolaginternet.se INFO Parent glue for standardbolaginternet.se found: ns2.netit.se (85.89.68.30)
+ 16.946: standardbolaginternet.se INFO It is possible to build a referral packet for standardbolaginternet.se that works without EDNS0.
+ 16.946: standardbolaginternet.se INFO Done testing delegation for standardbolaginternet.se.
+ 16.946: standardbolaginternet.se INFO Begin testing name server ns1.standardbolag.se.
+ 16.946: standardbolaginternet.se INFO Begin testing host ns1.standardbolag.se.
+ 17.432: standardbolaginternet.se INFO Begin testing address 85.89.79.194.
+ 25.624: standardbolaginternet.se INFO Done testing address 85.89.79.194.
+ 25.624: standardbolaginternet.se INFO Done testing host ns1.standardbolag.se.
+ 25.941: standardbolaginternet.se INFO Name server ns1.standardbolag.se (85.89.79.194) answers queries over UDP.
+ 25.980: standardbolaginternet.se INFO Name server ns1.standardbolag.se (85.89.79.194) answers queries over TCP.
+ 26.178: standardbolaginternet.se INFO Name server ns1.standardbolag.se (85.89.79.194) is not recursive.
+ 26.383: standardbolaginternet.se INFO Name server ns1.standardbolag.se (85.89.79.194) authoritative for standardbolaginternet.se.
+ 26.445: standardbolaginternet.se INFO Name server ns1.standardbolag.se (85.89.79.194) closed for zone transfer of standardbolaginternet.se.
+ 26.534: standardbolaginternet.se INFO Legacy name server ID for ns1.standardbolag.se (85.89.79.194): hostname.bind = ns1
+ 26.552: standardbolaginternet.se INFO Legacy name server ID for ns1.standardbolag.se (85.89.79.194): version.bind = none
+ 26.611: standardbolaginternet.se NOTICE No answer received from 85.89.79.194 when querying for version.server/CH/TXT.
+ 26.612: standardbolaginternet.se INFO Done testing name server ns1.standardbolag.se.
+ 26.612: standardbolaginternet.se INFO Begin testing name server ns2.netit.se.
+ 26.615: standardbolaginternet.se INFO Begin testing host ns2.netit.se.
+ 27.076: standardbolaginternet.se INFO Begin testing address 85.89.68.30.
+ 28.352: standardbolaginternet.se INFO Done testing address 85.89.68.30.
+ 28.352: standardbolaginternet.se INFO Done testing host ns2.netit.se.
+ 28.832: standardbolaginternet.se INFO Name server ns2.netit.se (85.89.68.30) answers queries over UDP.
+ 28.857: standardbolaginternet.se INFO Name server ns2.netit.se (85.89.68.30) answers queries over TCP.
+ 28.868: standardbolaginternet.se INFO Name server ns2.netit.se (85.89.68.30) is not recursive.
+ 28.942: standardbolaginternet.se INFO Name server ns2.netit.se (85.89.68.30) authoritative for standardbolaginternet.se.
+ 29.027: standardbolaginternet.se INFO Name server ns2.netit.se (85.89.68.30) closed for zone transfer of standardbolaginternet.se.
+ 29.084: standardbolaginternet.se INFO Legacy name server ID for ns2.netit.se (85.89.68.30): hostname.bind = ns2
+ 29.138: standardbolaginternet.se INFO Legacy name server ID for ns2.netit.se (85.89.68.30): version.bind = you pick
+ 29.232: standardbolaginternet.se NOTICE No answer received from 85.89.68.30 when querying for version.server/CH/TXT.
+ 29.232: standardbolaginternet.se INFO Done testing name server ns2.netit.se.
+ 29.232: standardbolaginternet.se INFO Begin testing zone consistency for standardbolaginternet.se.
+ 31.004: standardbolaginternet.se INFO SOA at address 85.89.68.30 has serial 2013052200.
+ 31.072: standardbolaginternet.se INFO SOA at address 85.89.79.194 has serial 2013052200.
+ 31.073: standardbolaginternet.se INFO All SOA records have consistent serial numbers.
+ 31.073: standardbolaginternet.se INFO All other fields in the SOA record are consistent among all name servers.
+ 31.756: standardbolaginternet.se NOTICE The listed nameservers for standardbolaginternet.se all report the same set of nameservers.
+ 31.756: standardbolaginternet.se INFO Done testing zone consistency for standardbolaginternet.se.
+ 31.756: standardbolaginternet.se INFO Begin testing SOA parameters for standardbolaginternet.se.
+ 31.768: standardbolaginternet.se INFO Found SOA record for standardbolaginternet.se.
+ 31.768: standardbolaginternet.se INFO Begin testing host ns1.standardbolag.se.
+ 32.300: standardbolaginternet.se INFO Begin testing address 85.89.79.194.
+ 32.708: standardbolaginternet.se INFO Done testing address 85.89.79.194.
+ 32.708: standardbolaginternet.se INFO Done testing host ns1.standardbolag.se.
+ 32.708: standardbolaginternet.se INFO SOA MNAME for standardbolaginternet.se valid (ns1.standardbolag.se).
+ 32.708: standardbolaginternet.se INFO SOA MNAME for standardbolaginternet.se (ns1.standardbolag.se) listed as NS.
+ 33.129: standardbolaginternet.se INFO SOA MNAME for standardbolaginternet.se (ns1.standardbolag.se) is authoritative.
+ 33.129: standardbolaginternet.se INFO Begin testing email address admin@standardbolag.com.
+ 33.608: standardbolaginternet.se INFO Mail exchangers for admin@standardbolag.com found mailhost.standardbolag.com.
+ 33.609: standardbolaginternet.se INFO Begin testing host mailhost.standardbolag.com.
+ 34.499: standardbolaginternet.se INFO Begin testing address 85.89.79.198.
+ 35.456: standardbolaginternet.se INFO Done testing address 85.89.79.198.
+ 35.456: standardbolaginternet.se INFO Done testing host mailhost.standardbolag.com.
+ 35.799: standardbolaginternet.se INFO Done testing email address admin@standardbolag.com.
+ 35.799: standardbolaginternet.se INFO Successful attempt to deliver email for SOA RNAME of standardbolaginternet.se (admin.standardbolag.com) using admin@standardbolag.com.
+ 35.799: standardbolaginternet.se INFO SOA TTL for standardbolaginternet.se OK (3600) - recommended >= 3600.
+ 35.799: standardbolaginternet.se NOTICE SOA refresh for standardbolaginternet.se too small (3600) - recommended >= 14400.
+ 35.799: standardbolaginternet.se NOTICE SOA retry for standardbolaginternet.se too small (600) - recommended >= 3600.
+ 35.799: standardbolaginternet.se INFO SOA expire for standardbolaginternet.se OK (1209600) - recommended >= 604800.
+ 35.799: standardbolaginternet.se INFO SOA minimum for standardbolaginternet.se OK (3600) - recommended between 300 and 86400.
+ 35.800: standardbolaginternet.se INFO Done testing SOA parameters for standardbolaginternet.se.
+ 35.800: standardbolaginternet.se INFO Begin testing connectivity for standardbolaginternet.se.
+ 37.137: standardbolaginternet.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 37.137: standardbolaginternet.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 37.137: standardbolaginternet.se INFO Done testing connectivity for standardbolaginternet.se.
+ 37.137: standardbolaginternet.se INFO Begin testing DNSSEC for standardbolaginternet.se.
+ 37.153: standardbolaginternet.se INFO Did not find DS record for standardbolaginternet.se at parent.
+ 37.197: standardbolaginternet.se INFO Servers for standardbolaginternet.se have consistent extra processing status.
+ 37.219: standardbolaginternet.se INFO Authenticated denial records not found for standardbolaginternet.se.
+ 37.237: standardbolaginternet.se INFO Did not find DNSKEY record for standardbolaginternet.se at child.
+ 37.237: standardbolaginternet.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 37.237: standardbolaginternet.se INFO Done testing DNSSEC for standardbolaginternet.se.
+ 37.238: standardbolaginternet.se INFO Test completed for zone standardbolaginternet.se.

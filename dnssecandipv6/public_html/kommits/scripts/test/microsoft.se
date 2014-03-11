@@ -1,0 +1,100 @@
+  0.000: microsoft.se INFO Begin testing zone microsoft.se with version 1.2.
+  0.000: microsoft.se INFO Begin testing delegation for microsoft.se.
+  5.908: microsoft.se INFO Name servers listed at parent: ns1.msft.net,ns3.msft.net,ns4.msft.net
+ 10.120: microsoft.se INFO Name servers listed at child: ns1.msft.net,ns3.msft.net,ns4.msft.net
+ 10.121: microsoft.se NOTICE No IPv6 name servers found.
+ 10.179: microsoft.se INFO Done testing delegation for microsoft.se.
+ 10.179: microsoft.se INFO Begin testing name server ns1.msft.net.
+ 10.179: microsoft.se INFO Begin testing host ns1.msft.net.
+ 10.180: microsoft.se INFO Begin testing address 65.55.37.62.
+ 14.339: microsoft.se INFO Done testing address 65.55.37.62.
+ 14.339: microsoft.se INFO Done testing host ns1.msft.net.
+ 14.518: microsoft.se INFO Name server ns1.msft.net (65.55.37.62) answers queries over UDP.
+ 19.521: microsoft.se NOTICE DNS lookup error (connection failed).
+ 19.522: microsoft.se ERROR Name server ns1.msft.net (65.55.37.62) does not answer queries over TCP.
+ 19.699: microsoft.se INFO Name server ns1.msft.net (65.55.37.62) is not recursive.
+ 19.876: microsoft.se INFO Name server ns1.msft.net (65.55.37.62) authoritative for microsoft.se.
+ 19.877: microsoft.se INFO Name server ns1.msft.net (65.55.37.62) not checked for zone transfer of microsoft.se.
+ 19.877: microsoft.se INFO Name server ns1.msft.net (65.55.37.62) not checked for legacy name server ID.
+ 19.877: microsoft.se INFO Done testing name server ns1.msft.net.
+ 19.877: microsoft.se INFO Begin testing name server ns3.msft.net.
+ 19.878: microsoft.se INFO Begin testing host ns3.msft.net.
+ 19.878: microsoft.se INFO Begin testing address 213.199.161.77.
+ 25.571: microsoft.se INFO Done testing address 213.199.161.77.
+ 25.572: microsoft.se INFO Done testing host ns3.msft.net.
+ 25.630: microsoft.se INFO Name server ns3.msft.net (213.199.161.77) answers queries over UDP.
+ 30.633: microsoft.se NOTICE DNS lookup error (connection failed).
+ 30.633: microsoft.se ERROR Name server ns3.msft.net (213.199.161.77) does not answer queries over TCP.
+ 30.688: microsoft.se INFO Name server ns3.msft.net (213.199.161.77) is not recursive.
+ 30.769: microsoft.se INFO Name server ns3.msft.net (213.199.161.77) authoritative for microsoft.se.
+ 30.769: microsoft.se INFO Name server ns3.msft.net (213.199.161.77) not checked for zone transfer of microsoft.se.
+ 30.769: microsoft.se INFO Name server ns3.msft.net (213.199.161.77) not checked for legacy name server ID.
+ 30.769: microsoft.se INFO Done testing name server ns3.msft.net.
+ 30.770: microsoft.se INFO Begin testing name server ns4.msft.net.
+ 30.770: microsoft.se INFO Begin testing host ns4.msft.net.
+ 30.771: microsoft.se INFO Begin testing address 207.46.75.254.
+ 31.300: microsoft.se INFO Done testing address 207.46.75.254.
+ 31.300: microsoft.se INFO Done testing host ns4.msft.net.
+ 31.598: microsoft.se INFO Name server ns4.msft.net (207.46.75.254) answers queries over UDP.
+ 36.597: microsoft.se NOTICE DNS lookup error (connection failed).
+ 36.598: microsoft.se ERROR Name server ns4.msft.net (207.46.75.254) does not answer queries over TCP.
+ 36.896: microsoft.se INFO Name server ns4.msft.net (207.46.75.254) is not recursive.
+ 37.194: microsoft.se INFO Name server ns4.msft.net (207.46.75.254) authoritative for microsoft.se.
+ 37.194: microsoft.se INFO Name server ns4.msft.net (207.46.75.254) not checked for zone transfer of microsoft.se.
+ 37.194: microsoft.se INFO Name server ns4.msft.net (207.46.75.254) not checked for legacy name server ID.
+ 37.195: microsoft.se INFO Done testing name server ns4.msft.net.
+ 37.195: microsoft.se INFO Begin testing zone consistency for microsoft.se.
+ 37.497: microsoft.se INFO SOA at address 207.46.75.254 has serial 2008090801.
+ 37.674: microsoft.se INFO SOA at address 65.55.37.62 has serial 2008090801.
+ 37.731: microsoft.se INFO SOA at address 213.199.161.77 has serial 2008090801.
+ 37.731: microsoft.se INFO All SOA records have consistent serial numbers.
+ 37.731: microsoft.se INFO All SOA records are consistent among all name servers.
+ 37.731: microsoft.se INFO Done testing zone consistency for microsoft.se.
+ 37.732: microsoft.se INFO Begin testing SOA parameters for microsoft.se.
+ 37.909: microsoft.se INFO Found SOA record for microsoft.se.
+ 37.909: microsoft.se INFO Begin testing host ns1.msft.net.
+ 37.910: microsoft.se INFO Begin testing address 65.55.37.62.
+ 37.912: microsoft.se INFO Done testing address 65.55.37.62.
+ 37.912: microsoft.se INFO Done testing host ns1.msft.net.
+ 37.912: microsoft.se INFO SOA MNAME for microsoft.se valid (ns1.msft.net).
+ 37.913: microsoft.se INFO SOA MNAME for microsoft.se (ns1.msft.net) listed as NS.
+ 38.091: microsoft.se INFO SOA MNAME for microsoft.se (ns1.msft.net) is authoritative.
+ 38.091: microsoft.se INFO Begin testing email address msnhst@microsoft.com.
+ 38.878: microsoft.se INFO Mail exchangers for msnhst@microsoft.com found mail.messaging.microsoft.com.
+ 38.878: microsoft.se INFO Begin testing host mail.messaging.microsoft.com.
+ 44.772: microsoft.se INFO Begin testing address 213.199.180.150.
+ 46.530: microsoft.se INFO Done testing address 213.199.180.150.
+ 46.530: microsoft.se INFO Done testing host mail.messaging.microsoft.com.
+ 46.531: microsoft.se INFO Begin testing mail server mail.messaging.microsoft.com (213.199.180.150) with msnhst@microsoft.com.
+ 46.667: microsoft.se INFO SMTP banner: AM1EHSMHS003.bigfish.com Microsoft ESMTP MAIL Service ready at Tue, 9 Nov 2010 08:44:37 +0000
+ 46.804: microsoft.se INFO SMTP testing of mail.messaging.microsoft.com (213.199.180.150) with msnhst@microsoft.com succeeded without errors.
+ 46.804: microsoft.se INFO Done testing mail server mail.messaging.microsoft.com (213.199.180.150) with msnhst@microsoft.com.
+ 46.805: microsoft.se INFO Delivery over IPv4 to msnhst@microsoft.com ok.
+ 46.805: microsoft.se INFO Delivery over IPv6 to msnhst@microsoft.com could not be done.
+ 46.805: microsoft.se INFO Done testing email address msnhst@microsoft.com.
+ 46.805: microsoft.se INFO Successful attempt to deliver email for SOA RNAME of microsoft.se (msnhst.microsoft.com) using msnhst@microsoft.com.
+ 46.806: microsoft.se INFO SOA TTL for microsoft.se OK (86400) - recommended >= 3600.
+ 46.806: microsoft.se INFO SOA refresh for microsoft.se OK (21600) - recommended >= 14400.
+ 46.806: microsoft.se INFO SOA retry for microsoft.se OK (3600) - recommended >= 3600.
+ 46.806: microsoft.se INFO SOA expire for microsoft.se OK (604800) - recommended >= 604800.
+ 46.807: microsoft.se INFO SOA minimum for microsoft.se OK (3600) - recommended between 300 and 86400.
+ 46.807: microsoft.se INFO Done testing SOA parameters for microsoft.se.
+ 46.807: microsoft.se INFO Begin testing connectivity for microsoft.se.
+ 47.554: microsoft.se INFO Name server 65.55.37.62 announced by: 8075
+ 48.187: microsoft.se INFO Name server 213.199.161.77 announced by: 8075
+ 48.679: microsoft.se INFO Name server 207.46.75.254 announced by: 8069
+ 48.679: microsoft.se INFO Zone announced by IPv4 ASN: 8069,8075
+ 48.680: microsoft.se INFO Zone announced by more than one ASN (2).
+ 48.680: microsoft.se INFO Zone announced by IPv6 ASN: 
+ 48.680: microsoft.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 48.680: microsoft.se INFO Done testing connectivity for microsoft.se.
+ 48.680: microsoft.se INFO Begin testing DNSSEC for microsoft.se.
+ 48.697: microsoft.se INFO Did not find DS record for microsoft.se at parent.
+ 53.697: microsoft.se NOTICE DNS lookup error (connection failed).
+ 58.697: microsoft.se NOTICE DNS lookup error (connection failed).
+ 63.697: microsoft.se NOTICE DNS lookup error (connection failed).
+ 63.697: microsoft.se INFO Servers for microsoft.se have consistent extra processing status.
+ 63.697: microsoft.se INFO Did not find DNSKEY record for microsoft.se at child.
+ 63.697: microsoft.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 63.697: microsoft.se INFO Done testing DNSSEC for microsoft.se.
+ 63.697: microsoft.se INFO Test completed for zone microsoft.se.

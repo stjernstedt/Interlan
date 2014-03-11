@@ -1,0 +1,82 @@
+  0.000: nurmes.fi INFO Begin testing zone nurmes.fi with version 1.5.0.
+  0.961: nurmes.fi INFO Begin testing delegation for nurmes.fi.
+ 46.420: nurmes.fi INFO Name servers listed at parent: ns-fi.elisa.net,ns-se.elisa.net
+ 53.980: nurmes.fi INFO Name servers listed at child: ns-fi.elisa.net,ns-se.elisa.net
+ 53.980: nurmes.fi NOTICE No IPv6 name servers found.
+ 57.808: nurmes.fi INFO It is possible to build a referral packet for nurmes.fi that works without EDNS0.
+ 60.509: nurmes.fi INFO Previously used name servers for nurmes.fi: 
+ 60.510: nurmes.fi INFO Done testing delegation for nurmes.fi.
+ 60.510: nurmes.fi INFO Begin testing name server ns-fi.elisa.net.
+ 60.510: nurmes.fi INFO Begin testing host ns-fi.elisa.net.
+ 62.608: nurmes.fi INFO Begin testing address 193.229.0.49.
+ 86.529: nurmes.fi INFO Done testing address 193.229.0.49.
+ 86.530: nurmes.fi INFO Done testing host ns-fi.elisa.net.
+ 88.844: nurmes.fi INFO Name server ns-fi.elisa.net (193.229.0.49) answers queries over UDP.
+ 89.254: nurmes.fi INFO Name server ns-fi.elisa.net (193.229.0.49) answers queries over TCP.
+ 89.503: nurmes.fi INFO Name server ns-fi.elisa.net (193.229.0.49) is not recursive.
+ 90.343: nurmes.fi INFO Name server ns-fi.elisa.net (193.229.0.49) authoritative for nurmes.fi.
+ 90.567: nurmes.fi INFO Name server ns-fi.elisa.net (193.229.0.49) closed for zone transfer of nurmes.fi.
+ 90.860: nurmes.fi INFO Legacy name server ID for ns-fi.elisa.net (193.229.0.49): hostname.bind = ldom-dns64
+ 91.172: nurmes.fi INFO Legacy name server ID for ns-fi.elisa.net (193.229.0.49): version.bind = unknown
+ 91.705: nurmes.fi NOTICE No answer received from 193.229.0.49 when querying for version.server/CH/TXT.
+ 91.705: nurmes.fi INFO Done testing name server ns-fi.elisa.net.
+ 91.705: nurmes.fi INFO Begin testing name server ns-se.elisa.net.
+ 91.705: nurmes.fi INFO Begin testing host ns-se.elisa.net.
+ 93.776: nurmes.fi INFO Begin testing address 62.248.254.2.
+ 98.138: nurmes.fi INFO Done testing address 62.248.254.2.
+ 98.138: nurmes.fi INFO Done testing host ns-se.elisa.net.
+100.817: nurmes.fi INFO Name server ns-se.elisa.net (62.248.254.2) answers queries over UDP.
+101.070: nurmes.fi INFO Name server ns-se.elisa.net (62.248.254.2) answers queries over TCP.
+101.332: nurmes.fi INFO Name server ns-se.elisa.net (62.248.254.2) is not recursive.
+102.080: nurmes.fi INFO Name server ns-se.elisa.net (62.248.254.2) authoritative for nurmes.fi.
+102.345: nurmes.fi INFO Name server ns-se.elisa.net (62.248.254.2) closed for zone transfer of nurmes.fi.
+102.544: nurmes.fi INFO Legacy name server ID for ns-se.elisa.net (62.248.254.2): hostname.bind = phys-dns8
+102.740: nurmes.fi INFO Legacy name server ID for ns-se.elisa.net (62.248.254.2): version.bind = unknown
+103.256: nurmes.fi NOTICE No answer received from 62.248.254.2 when querying for version.server/CH/TXT.
+103.256: nurmes.fi INFO Done testing name server ns-se.elisa.net.
+103.256: nurmes.fi INFO Begin testing zone consistency for nurmes.fi.
+111.042: nurmes.fi INFO SOA at address 62.248.254.2 has serial 2013071001.
+111.319: nurmes.fi INFO SOA at address 193.229.0.49 has serial 2013071001.
+111.363: nurmes.fi INFO All SOA records have consistent serial numbers.
+111.363: nurmes.fi INFO All other fields in the SOA record are consistent among all name servers.
+115.244: nurmes.fi NOTICE The listed nameservers for nurmes.fi all report the same set of nameservers.
+115.244: nurmes.fi INFO Done testing zone consistency for nurmes.fi.
+115.245: nurmes.fi INFO Begin testing SOA parameters for nurmes.fi.
+115.508: nurmes.fi INFO Found SOA record for nurmes.fi.
+115.508: nurmes.fi INFO Begin testing host ns-fi.elisa.net.
+116.916: nurmes.fi INFO Begin testing address 193.229.0.49.
+118.680: nurmes.fi INFO Done testing address 193.229.0.49.
+118.680: nurmes.fi INFO Done testing host ns-fi.elisa.net.
+118.680: nurmes.fi INFO SOA MNAME for nurmes.fi valid (ns-fi.elisa.net).
+118.681: nurmes.fi INFO SOA MNAME for nurmes.fi (ns-fi.elisa.net) listed as NS.
+121.032: nurmes.fi INFO SOA MNAME for nurmes.fi (ns-fi.elisa.net) is authoritative.
+121.032: nurmes.fi INFO Begin testing email address hostmaster@elisa.fi.
+123.452: nurmes.fi INFO Mail exchangers for hostmaster@elisa.fi found mx1.elisa.fi,mx2.elisa.fi.
+123.453: nurmes.fi INFO Begin testing host mx1.elisa.fi.
+127.116: nurmes.fi INFO Begin testing address 193.64.173.42.
+136.956: nurmes.fi INFO Done testing address 193.64.173.42.
+136.956: nurmes.fi INFO Done testing host mx1.elisa.fi.
+138.529: nurmes.fi INFO Begin testing host mx2.elisa.fi.
+141.596: nurmes.fi INFO Begin testing address 193.64.173.43.
+146.933: nurmes.fi INFO Done testing address 193.64.173.43.
+146.933: nurmes.fi INFO Done testing host mx2.elisa.fi.
+148.658: nurmes.fi INFO Done testing email address hostmaster@elisa.fi.
+148.658: nurmes.fi INFO Successful attempt to deliver email for SOA RNAME of nurmes.fi (hostmaster.elisa.fi) using hostmaster@elisa.fi.
+148.658: nurmes.fi INFO SOA TTL for nurmes.fi OK (3600) - recommended >= 3600.
+148.658: nurmes.fi NOTICE SOA refresh for nurmes.fi too small (3600) - recommended >= 14400.
+148.658: nurmes.fi NOTICE SOA retry for nurmes.fi too small (900) - recommended >= 3600.
+148.659: nurmes.fi INFO SOA expire for nurmes.fi OK (604800) - recommended >= 604800.
+148.659: nurmes.fi INFO SOA minimum for nurmes.fi OK (3600) - recommended between 300 and 86400.
+148.659: nurmes.fi INFO Done testing SOA parameters for nurmes.fi.
+148.659: nurmes.fi INFO Begin testing connectivity for nurmes.fi.
+154.578: nurmes.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+154.578: nurmes.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+154.578: nurmes.fi INFO Done testing connectivity for nurmes.fi.
+154.578: nurmes.fi INFO Begin testing DNSSEC for nurmes.fi.
+155.376: nurmes.fi INFO Did not find DS record for nurmes.fi at parent.
+156.072: nurmes.fi INFO Servers for nurmes.fi have consistent extra processing status.
+156.378: nurmes.fi INFO Authenticated denial records not found for nurmes.fi.
+156.620: nurmes.fi INFO Did not find DNSKEY record for nurmes.fi at child.
+156.620: nurmes.fi INFO No DNSKEY(s) found at child, other tests skipped.
+156.620: nurmes.fi INFO Done testing DNSSEC for nurmes.fi.
+156.621: nurmes.fi INFO Test completed for zone nurmes.fi.

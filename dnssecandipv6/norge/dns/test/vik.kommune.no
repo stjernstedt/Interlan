@@ -1,0 +1,90 @@
+  0.000: vik.kommune.no INFO Begin testing zone vik.kommune.no with version 1.6.1.
+  0.080: vik.kommune.no INFO Begin testing delegation for vik.kommune.no.
+  7.510: vik.kommune.no INFO Name servers listed at parent: ns1.sfj.no,ns2.sfj.no
+  8.465: vik.kommune.no INFO Name servers listed at child: ns1.sfj.no,ns2.sfj.no
+  8.465: vik.kommune.no NOTICE No IPv6 name servers found.
+  8.600: vik.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  8.738: vik.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  8.874: vik.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.024: vik.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.580: vik.kommune.no INFO It is possible to build a referral packet for vik.kommune.no that works without EDNS0.
+ 10.071: vik.kommune.no INFO Previously used name servers for vik.kommune.no: 
+ 10.104: vik.kommune.no INFO Done testing delegation for vik.kommune.no.
+ 10.105: vik.kommune.no INFO Begin testing name server ns1.sfj.no.
+ 10.105: vik.kommune.no INFO Begin testing host ns1.sfj.no.
+ 10.430: vik.kommune.no INFO Begin testing address 93.94.14.2.
+ 22.990: vik.kommune.no INFO Done testing address 93.94.14.2.
+ 22.990: vik.kommune.no INFO Done testing host ns1.sfj.no.
+ 23.128: vik.kommune.no INFO Name server ns1.sfj.no (93.94.14.2) answers queries over UDP.
+ 23.166: vik.kommune.no INFO Name server ns1.sfj.no (93.94.14.2) answers queries over TCP.
+ 23.187: vik.kommune.no INFO Name server ns1.sfj.no (93.94.14.2) is not recursive.
+ 23.297: vik.kommune.no INFO Name server ns1.sfj.no (93.94.14.2) authoritative for vik.kommune.no.
+ 23.351: vik.kommune.no INFO Name server ns1.sfj.no (93.94.14.2) closed for zone transfer of vik.kommune.no.
+ 23.376: vik.kommune.no INFO Legacy name server ID for ns1.sfj.no (93.94.14.2): hostname.bind = ns1
+ 23.408: vik.kommune.no INFO Legacy name server ID for ns1.sfj.no (93.94.14.2): version.bind = sffk dns server
+ 23.468: vik.kommune.no NOTICE No answer received from 93.94.14.2 when querying for version.server/CH/TXT.
+ 23.468: vik.kommune.no INFO Done testing name server ns1.sfj.no.
+ 23.468: vik.kommune.no INFO Begin testing name server ns2.sfj.no.
+ 23.468: vik.kommune.no INFO Begin testing host ns2.sfj.no.
+ 23.595: vik.kommune.no INFO Begin testing address 93.94.14.3.
+ 24.187: vik.kommune.no INFO Done testing address 93.94.14.3.
+ 24.187: vik.kommune.no INFO Done testing host ns2.sfj.no.
+ 24.364: vik.kommune.no INFO Name server ns2.sfj.no (93.94.14.3) answers queries over UDP.
+ 24.414: vik.kommune.no INFO Name server ns2.sfj.no (93.94.14.3) answers queries over TCP.
+ 24.443: vik.kommune.no INFO Name server ns2.sfj.no (93.94.14.3) is not recursive.
+ 24.543: vik.kommune.no INFO Name server ns2.sfj.no (93.94.14.3) authoritative for vik.kommune.no.
+ 24.611: vik.kommune.no INFO Name server ns2.sfj.no (93.94.14.3) closed for zone transfer of vik.kommune.no.
+ 24.632: vik.kommune.no INFO Legacy name server ID for ns2.sfj.no (93.94.14.3): hostname.bind = ns2
+ 24.662: vik.kommune.no INFO Legacy name server ID for ns2.sfj.no (93.94.14.3): version.bind = sffk dns server
+ 24.711: vik.kommune.no NOTICE No answer received from 93.94.14.3 when querying for version.server/CH/TXT.
+ 24.712: vik.kommune.no INFO Done testing name server ns2.sfj.no.
+ 24.712: vik.kommune.no INFO Begin testing zone consistency for vik.kommune.no.
+ 25.193: vik.kommune.no INFO SOA at address 93.94.14.2 has serial 2014020702.
+ 25.217: vik.kommune.no INFO SOA at address 93.94.14.3 has serial 2014020702.
+ 25.217: vik.kommune.no INFO All SOA records have consistent serial numbers.
+ 25.217: vik.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 25.501: vik.kommune.no NOTICE The listed nameservers for vik.kommune.no all report the same set of nameservers.
+ 25.501: vik.kommune.no INFO Done testing zone consistency for vik.kommune.no.
+ 25.501: vik.kommune.no INFO Begin testing SOA parameters for vik.kommune.no.
+ 25.527: vik.kommune.no INFO Found SOA record for vik.kommune.no.
+ 25.528: vik.kommune.no INFO Begin testing host ns1.sfj.no.
+ 25.631: vik.kommune.no INFO Begin testing address 93.94.14.2.
+ 25.740: vik.kommune.no INFO Done testing address 93.94.14.2.
+ 25.740: vik.kommune.no INFO Done testing host ns1.sfj.no.
+ 25.740: vik.kommune.no INFO SOA MNAME for vik.kommune.no valid (ns1.sfj.no).
+ 25.740: vik.kommune.no INFO SOA MNAME for vik.kommune.no (ns1.sfj.no) listed as NS.
+ 25.896: vik.kommune.no INFO SOA MNAME for vik.kommune.no (ns1.sfj.no) is authoritative.
+ 25.897: vik.kommune.no INFO Begin testing email address dnsadmin@sfj.no.
+ 26.065: vik.kommune.no INFO Mail exchangers for dnsadmin@sfj.no found mail.messaging.microsoft.com.
+ 26.065: vik.kommune.no INFO Begin testing host mail.messaging.microsoft.com.
+ 28.367: vik.kommune.no INFO Begin testing address 216.32.181.178.
+ 34.757: vik.kommune.no INFO Done testing address 216.32.181.178.
+ 34.757: vik.kommune.no INFO Begin testing address 207.46.163.30.
+ 35.482: vik.kommune.no INFO Done testing address 207.46.163.30.
+ 35.482: vik.kommune.no INFO Begin testing address 216.32.180.22.
+ 36.205: vik.kommune.no INFO Done testing address 216.32.180.22.
+ 36.205: vik.kommune.no INFO Begin testing address 65.55.88.22.
+ 37.213: vik.kommune.no INFO Done testing address 65.55.88.22.
+ 37.213: vik.kommune.no INFO Begin testing address 213.199.180.150.
+ 38.416: vik.kommune.no INFO Done testing address 213.199.180.150.
+ 38.416: vik.kommune.no INFO Done testing host mail.messaging.microsoft.com.
+ 39.455: vik.kommune.no INFO Done testing email address dnsadmin@sfj.no.
+ 39.456: vik.kommune.no INFO Successful attempt to deliver email for SOA RNAME of vik.kommune.no (dnsadmin.sfj.no) using dnsadmin@sfj.no.
+ 39.456: vik.kommune.no NOTICE SOA TTL for vik.kommune.no too small (600) - recommended >= 3600.
+ 39.456: vik.kommune.no NOTICE SOA refresh for vik.kommune.no too small (10800) - recommended >= 14400.
+ 39.456: vik.kommune.no INFO SOA retry for vik.kommune.no OK (3600) - recommended >= 3600.
+ 39.456: vik.kommune.no INFO SOA expire for vik.kommune.no OK (604800) - recommended >= 604800.
+ 39.456: vik.kommune.no INFO SOA minimum for vik.kommune.no OK (86400) - recommended between 300 and 86400.
+ 39.456: vik.kommune.no INFO Done testing SOA parameters for vik.kommune.no.
+ 39.456: vik.kommune.no INFO Begin testing connectivity for vik.kommune.no.
+ 40.245: vik.kommune.no NOTICE Zone announced by fewer than two IPv4 ASN.
+ 40.245: vik.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 40.245: vik.kommune.no INFO Done testing connectivity for vik.kommune.no.
+ 40.245: vik.kommune.no INFO Begin testing DNSSEC for vik.kommune.no.
+ 40.321: vik.kommune.no INFO Did not find DS record for vik.kommune.no at parent.
+ 40.407: vik.kommune.no INFO Servers for vik.kommune.no have consistent extra processing status.
+ 40.445: vik.kommune.no INFO Authenticated denial records not found for vik.kommune.no.
+ 40.466: vik.kommune.no INFO Did not find DNSKEY record for vik.kommune.no at child.
+ 40.466: vik.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 40.466: vik.kommune.no INFO Done testing DNSSEC for vik.kommune.no.
+ 40.467: vik.kommune.no INFO Test completed for zone vik.kommune.no.

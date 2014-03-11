@@ -1,0 +1,84 @@
+  0.000: orskog.kommune.no INFO Begin testing zone orskog.kommune.no with version 1.6.1.
+  0.401: orskog.kommune.no INFO Begin testing delegation for orskog.kommune.no.
+  8.250: orskog.kommune.no INFO Name servers listed at parent: ns1.nextra.no,ns2.nextra.no
+  9.396: orskog.kommune.no INFO Name servers listed at child: ns1.nextra.no,ns2.nextra.no
+  9.396: orskog.kommune.no NOTICE No IPv6 name servers found.
+  9.609: orskog.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.752: orskog.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.895: orskog.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.059: orskog.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.786: orskog.kommune.no INFO It is possible to build a referral packet for orskog.kommune.no that works without EDNS0.
+ 11.256: orskog.kommune.no INFO Previously used name servers for orskog.kommune.no: 
+ 11.256: orskog.kommune.no INFO Done testing delegation for orskog.kommune.no.
+ 11.257: orskog.kommune.no INFO Begin testing name server ns1.nextra.no.
+ 11.257: orskog.kommune.no INFO Begin testing host ns1.nextra.no.
+ 11.469: orskog.kommune.no INFO Begin testing address 148.122.208.98.
+ 20.055: orskog.kommune.no INFO Done testing address 148.122.208.98.
+ 20.056: orskog.kommune.no INFO Done testing host ns1.nextra.no.
+ 20.192: orskog.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) answers queries over UDP.
+ 20.220: orskog.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) answers queries over TCP.
+ 20.250: orskog.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) is not recursive.
+ 20.316: orskog.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) authoritative for orskog.kommune.no.
+ 20.354: orskog.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) closed for zone transfer of orskog.kommune.no.
+ 20.378: orskog.kommune.no NOTICE No answer received from 148.122.208.98 when querying for hostname.bind/CH/TXT.
+ 20.408: orskog.kommune.no INFO Legacy name server ID for ns1.nextra.no (148.122.208.98): version.bind = Nominum ANS 2.8.1.2
+ 20.421: orskog.kommune.no INFO Legacy name server ID for ns1.nextra.no (148.122.208.98): id.server = 275236d1-c090-4e72-8b4f-6bb3656fbdc2
+ 20.438: orskog.kommune.no INFO Legacy name server ID for ns1.nextra.no (148.122.208.98): version.server = Nominum ANS 2.8.1.2
+ 20.438: orskog.kommune.no INFO Done testing name server ns1.nextra.no.
+ 20.438: orskog.kommune.no INFO Begin testing name server ns2.nextra.no.
+ 20.438: orskog.kommune.no INFO Begin testing host ns2.nextra.no.
+ 20.591: orskog.kommune.no INFO Begin testing address 148.122.161.2.
+ 20.971: orskog.kommune.no INFO Done testing address 148.122.161.2.
+ 20.971: orskog.kommune.no INFO Done testing host ns2.nextra.no.
+ 21.154: orskog.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) answers queries over UDP.
+ 21.192: orskog.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) answers queries over TCP.
+ 21.232: orskog.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) is not recursive.
+ 21.319: orskog.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) authoritative for orskog.kommune.no.
+ 21.368: orskog.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) closed for zone transfer of orskog.kommune.no.
+ 21.402: orskog.kommune.no NOTICE No answer received from 148.122.161.2 when querying for hostname.bind/CH/TXT.
+ 21.448: orskog.kommune.no INFO Legacy name server ID for ns2.nextra.no (148.122.161.2): version.bind = Nominum ANS 2.8.1.2
+ 21.467: orskog.kommune.no INFO Legacy name server ID for ns2.nextra.no (148.122.161.2): id.server = b15665a4-93cf-4b41-b1b3-3effb406c70f
+ 21.508: orskog.kommune.no INFO Legacy name server ID for ns2.nextra.no (148.122.161.2): version.server = Nominum ANS 2.8.1.2
+ 21.508: orskog.kommune.no INFO Done testing name server ns2.nextra.no.
+ 21.509: orskog.kommune.no INFO Begin testing zone consistency for orskog.kommune.no.
+ 22.177: orskog.kommune.no INFO SOA at address 148.122.208.98 has serial 2014022500.
+ 22.190: orskog.kommune.no INFO SOA at address 148.122.161.2 has serial 2014022500.
+ 22.190: orskog.kommune.no INFO All SOA records have consistent serial numbers.
+ 22.190: orskog.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 22.663: orskog.kommune.no NOTICE The listed nameservers for orskog.kommune.no all report the same set of nameservers.
+ 22.663: orskog.kommune.no INFO Done testing zone consistency for orskog.kommune.no.
+ 22.663: orskog.kommune.no INFO Begin testing SOA parameters for orskog.kommune.no.
+ 22.682: orskog.kommune.no INFO Found SOA record for orskog.kommune.no.
+ 22.682: orskog.kommune.no INFO Begin testing host ns1.nextra.no.
+ 22.900: orskog.kommune.no INFO Begin testing address 148.122.208.98.
+ 23.089: orskog.kommune.no INFO Done testing address 148.122.208.98.
+ 23.089: orskog.kommune.no INFO Done testing host ns1.nextra.no.
+ 23.089: orskog.kommune.no INFO SOA MNAME for orskog.kommune.no valid (ns1.nextra.no).
+ 23.089: orskog.kommune.no INFO SOA MNAME for orskog.kommune.no (ns1.nextra.no) listed as NS.
+ 23.324: orskog.kommune.no INFO SOA MNAME for orskog.kommune.no (ns1.nextra.no) is authoritative.
+ 23.324: orskog.kommune.no INFO Begin testing email address hostmaster@telenor.net.
+ 33.821: orskog.kommune.no INFO Mail exchangers for hostmaster@telenor.net found mx.nsc.no.
+ 33.821: orskog.kommune.no INFO Begin testing host mx.nsc.no.
+ 34.043: orskog.kommune.no INFO Begin testing address 193.213.112.62.
+ 35.148: orskog.kommune.no INFO Done testing address 193.213.112.62.
+ 35.148: orskog.kommune.no INFO Done testing host mx.nsc.no.
+ 35.258: orskog.kommune.no INFO Done testing email address hostmaster@telenor.net.
+ 35.258: orskog.kommune.no INFO Successful attempt to deliver email for SOA RNAME of orskog.kommune.no (hostmaster.telenor.net) using hostmaster@telenor.net.
+ 35.258: orskog.kommune.no INFO SOA TTL for orskog.kommune.no OK (3600) - recommended >= 3600.
+ 35.258: orskog.kommune.no NOTICE SOA refresh for orskog.kommune.no too small (3600) - recommended >= 14400.
+ 35.258: orskog.kommune.no NOTICE SOA retry for orskog.kommune.no too small (600) - recommended >= 3600.
+ 35.258: orskog.kommune.no INFO SOA expire for orskog.kommune.no OK (604800) - recommended >= 604800.
+ 35.258: orskog.kommune.no INFO SOA minimum for orskog.kommune.no OK (3600) - recommended between 300 and 86400.
+ 35.258: orskog.kommune.no INFO Done testing SOA parameters for orskog.kommune.no.
+ 35.259: orskog.kommune.no INFO Begin testing connectivity for orskog.kommune.no.
+ 36.351: orskog.kommune.no NOTICE Zone announced by fewer than two IPv4 ASN.
+ 36.351: orskog.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 36.352: orskog.kommune.no INFO Done testing connectivity for orskog.kommune.no.
+ 36.352: orskog.kommune.no INFO Begin testing DNSSEC for orskog.kommune.no.
+ 36.428: orskog.kommune.no INFO Did not find DS record for orskog.kommune.no at parent.
+ 36.479: orskog.kommune.no INFO Servers for orskog.kommune.no have consistent extra processing status.
+ 36.504: orskog.kommune.no INFO Authenticated denial records not found for orskog.kommune.no.
+ 36.520: orskog.kommune.no INFO Did not find DNSKEY record for orskog.kommune.no at child.
+ 36.520: orskog.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 36.520: orskog.kommune.no INFO Done testing DNSSEC for orskog.kommune.no.
+ 36.521: orskog.kommune.no INFO Test completed for zone orskog.kommune.no.

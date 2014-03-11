@@ -1,0 +1,80 @@
+  0.000: laesoe.dk INFO Begin testing zone laesoe.dk with version 1.6.1.
+  0.387: laesoe.dk INFO Begin testing delegation for laesoe.dk.
+  5.927: laesoe.dk INFO Name servers listed at parent: ns01.tdcwebmore.dk,ns02.tdcwebmore.dk
+  7.730: laesoe.dk INFO Name servers listed at child: ns01.tdcwebmore.dk,ns02.tdcwebmore.dk
+  7.730: laesoe.dk NOTICE No IPv6 name servers found.
+  7.804: laesoe.dk INFO Parent glue for laesoe.dk found: ns01.tdcwebmore.dk (62.243.74.199)
+  7.928: laesoe.dk INFO Parent glue for laesoe.dk found: ns02.tdcwebmore.dk (92.43.121.7)
+  7.967: laesoe.dk INFO Checking glue for ns01.tdcwebmore.dk (62.243.74.199).
+  7.967: laesoe.dk INFO Checking glue for ns02.tdcwebmore.dk (92.43.121.7).
+  8.004: laesoe.dk INFO Parent glue for laesoe.dk found: ns01.tdcwebmore.dk (62.243.74.199)
+  8.004: laesoe.dk INFO Parent glue for laesoe.dk found: ns02.tdcwebmore.dk (92.43.121.7)
+  8.845: laesoe.dk INFO It is possible to build a referral packet for laesoe.dk that works without EDNS0.
+  9.588: laesoe.dk INFO Previously used name servers for laesoe.dk: 
+  9.588: laesoe.dk INFO Done testing delegation for laesoe.dk.
+  9.588: laesoe.dk INFO Begin testing name server ns01.tdcwebmore.dk.
+  9.588: laesoe.dk INFO Begin testing host ns01.tdcwebmore.dk.
+  9.882: laesoe.dk INFO Begin testing address 62.243.74.199.
+ 28.432: laesoe.dk INFO Done testing address 62.243.74.199.
+ 28.432: laesoe.dk INFO Done testing host ns01.tdcwebmore.dk.
+ 28.639: laesoe.dk INFO Name server ns01.tdcwebmore.dk (62.243.74.199) answers queries over UDP.
+ 28.697: laesoe.dk INFO Name server ns01.tdcwebmore.dk (62.243.74.199) answers queries over TCP.
+ 28.743: laesoe.dk INFO Name server ns01.tdcwebmore.dk (62.243.74.199) is not recursive.
+ 28.856: laesoe.dk INFO Name server ns01.tdcwebmore.dk (62.243.74.199) authoritative for laesoe.dk.
+ 28.919: laesoe.dk INFO Name server ns01.tdcwebmore.dk (62.243.74.199) closed for zone transfer of laesoe.dk.
+ 28.988: laesoe.dk INFO Legacy name server ID for ns01.tdcwebmore.dk (62.243.74.199): version.bind = PowerDNS Authoritative Server 3.3 (jenkins@autotest.powerdns.com built 20130708130708 mockbuild@repo.monshouwer.eu)
+ 29.038: laesoe.dk INFO Done testing name server ns01.tdcwebmore.dk.
+ 29.038: laesoe.dk INFO Begin testing name server ns02.tdcwebmore.dk.
+ 29.043: laesoe.dk INFO Begin testing host ns02.tdcwebmore.dk.
+ 29.160: laesoe.dk INFO Begin testing address 92.43.121.7.
+ 29.645: laesoe.dk INFO Done testing address 92.43.121.7.
+ 29.646: laesoe.dk INFO Done testing host ns02.tdcwebmore.dk.
+ 29.774: laesoe.dk INFO Name server ns02.tdcwebmore.dk (92.43.121.7) answers queries over UDP.
+ 29.804: laesoe.dk INFO Name server ns02.tdcwebmore.dk (92.43.121.7) answers queries over TCP.
+ 29.819: laesoe.dk INFO Name server ns02.tdcwebmore.dk (92.43.121.7) is not recursive.
+ 29.900: laesoe.dk INFO Name server ns02.tdcwebmore.dk (92.43.121.7) authoritative for laesoe.dk.
+ 29.947: laesoe.dk INFO Name server ns02.tdcwebmore.dk (92.43.121.7) closed for zone transfer of laesoe.dk.
+ 30.000: laesoe.dk INFO Legacy name server ID for ns02.tdcwebmore.dk (92.43.121.7): version.bind = PowerDNS Authoritative Server 3.3 (jenkins@autotest.powerdns.com built 20130708130708 mockbuild@repo.monshouwer.eu)
+ 30.039: laesoe.dk INFO Done testing name server ns02.tdcwebmore.dk.
+ 30.040: laesoe.dk INFO Begin testing zone consistency for laesoe.dk.
+ 30.432: laesoe.dk INFO SOA at address 92.43.121.7 has serial 2013101700.
+ 30.454: laesoe.dk INFO SOA at address 62.243.74.199 has serial 2013101700.
+ 30.454: laesoe.dk INFO All SOA records have consistent serial numbers.
+ 30.454: laesoe.dk INFO All other fields in the SOA record are consistent among all name servers.
+ 30.822: laesoe.dk NOTICE The listed nameservers for laesoe.dk all report the same set of nameservers.
+ 30.822: laesoe.dk INFO Done testing zone consistency for laesoe.dk.
+ 30.822: laesoe.dk INFO Begin testing SOA parameters for laesoe.dk.
+ 30.851: laesoe.dk INFO Found SOA record for laesoe.dk.
+ 30.852: laesoe.dk INFO Begin testing host ns01.tdcwebmore.dk.
+ 31.104: laesoe.dk INFO Begin testing address 62.243.74.199.
+ 31.211: laesoe.dk INFO Done testing address 62.243.74.199.
+ 31.211: laesoe.dk INFO Done testing host ns01.tdcwebmore.dk.
+ 31.214: laesoe.dk INFO SOA MNAME for laesoe.dk valid (ns01.tdcwebmore.dk).
+ 31.214: laesoe.dk INFO SOA MNAME for laesoe.dk (ns01.tdcwebmore.dk) listed as NS.
+ 31.350: laesoe.dk INFO SOA MNAME for laesoe.dk (ns01.tdcwebmore.dk) is authoritative.
+ 31.350: laesoe.dk INFO Begin testing email address hostmaster@tele.dk.
+ 31.502: laesoe.dk INFO Mail exchangers for hostmaster@tele.dk found mailgrinder.inet.tele.dk.
+ 31.503: laesoe.dk INFO Begin testing host mailgrinder.inet.tele.dk.
+ 31.896: laesoe.dk INFO Begin testing address 195.41.53.78.
+ 32.527: laesoe.dk INFO Done testing address 195.41.53.78.
+ 32.527: laesoe.dk INFO Done testing host mailgrinder.inet.tele.dk.
+ 32.647: laesoe.dk INFO Done testing email address hostmaster@tele.dk.
+ 32.647: laesoe.dk INFO Successful attempt to deliver email for SOA RNAME of laesoe.dk (hostmaster.tele.dk) using hostmaster@tele.dk.
+ 32.647: laesoe.dk INFO SOA TTL for laesoe.dk OK (21600) - recommended >= 3600.
+ 32.647: laesoe.dk INFO SOA refresh for laesoe.dk OK (14400) - recommended >= 14400.
+ 32.647: laesoe.dk INFO SOA retry for laesoe.dk OK (7200) - recommended >= 3600.
+ 32.647: laesoe.dk INFO SOA expire for laesoe.dk OK (604800) - recommended >= 604800.
+ 32.647: laesoe.dk INFO SOA minimum for laesoe.dk OK (900) - recommended between 300 and 86400.
+ 32.648: laesoe.dk INFO Done testing SOA parameters for laesoe.dk.
+ 32.648: laesoe.dk INFO Begin testing connectivity for laesoe.dk.
+ 33.537: laesoe.dk INFO Zone announced by more than one ASN.
+ 33.537: laesoe.dk NOTICE Zone announced by fewer than two IPv6 ASN.
+ 33.537: laesoe.dk INFO Done testing connectivity for laesoe.dk.
+ 33.537: laesoe.dk INFO Begin testing DNSSEC for laesoe.dk.
+ 33.605: laesoe.dk INFO Did not find DS record for laesoe.dk at parent.
+ 33.696: laesoe.dk INFO Servers for laesoe.dk have consistent extra processing status.
+ 33.736: laesoe.dk INFO Authenticated denial records not found for laesoe.dk.
+ 33.752: laesoe.dk INFO Did not find DNSKEY record for laesoe.dk at child.
+ 33.752: laesoe.dk INFO No DNSKEY(s) found at child, other tests skipped.
+ 33.752: laesoe.dk INFO Done testing DNSSEC for laesoe.dk.
+ 33.753: laesoe.dk INFO Test completed for zone laesoe.dk.

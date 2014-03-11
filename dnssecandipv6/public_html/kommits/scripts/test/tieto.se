@@ -1,0 +1,113 @@
+  0.000: tieto.se INFO Begin testing zone tieto.se with version 1.2.
+  0.001: tieto.se INFO Begin testing delegation for tieto.se.
+  5.215: tieto.se INFO Name servers listed at parent: ns5.tieto.com,ns6.tieto.com,ns7.tieto.com
+  7.723: tieto.se INFO Name servers listed at child: ns5.tieto.com,ns6.tieto.com,ns7.tieto.com
+  7.723: tieto.se NOTICE No IPv6 name servers found.
+  7.874: tieto.se INFO Done testing delegation for tieto.se.
+  7.875: tieto.se INFO Begin testing name server ns5.tieto.com.
+  7.875: tieto.se INFO Begin testing host ns5.tieto.com.
+  7.875: tieto.se INFO Begin testing address 193.15.240.50.
+ 12.829: tieto.se INFO Done testing address 193.15.240.50.
+ 12.829: tieto.se INFO Done testing host ns5.tieto.com.
+ 12.841: tieto.se INFO Name server ns5.tieto.com (193.15.240.50) answers queries over UDP.
+ 12.859: tieto.se INFO Name server ns5.tieto.com (193.15.240.50) answers queries over TCP.
+ 12.869: tieto.se INFO Name server ns5.tieto.com (193.15.240.50) is not recursive.
+ 12.879: tieto.se INFO Name server ns5.tieto.com (193.15.240.50) authoritative for tieto.se.
+ 12.899: tieto.se INFO Name server ns5.tieto.com (193.15.240.50) closed for zone transfer of tieto.se.
+ 12.912: tieto.se INFO Legacy name server ID for ns5.tieto.com (193.15.240.50): hostname.bind = ns5
+ 12.920: tieto.se INFO Legacy name server ID for ns5.tieto.com (193.15.240.50): version.bind = whatever
+ 12.936: tieto.se NOTICE No answer received from 193.15.240.50 when querying for version.server/CH/TXT.
+ 12.937: tieto.se INFO Done testing name server ns5.tieto.com.
+ 12.937: tieto.se INFO Begin testing name server ns6.tieto.com.
+ 12.937: tieto.se INFO Begin testing host ns6.tieto.com.
+ 12.938: tieto.se INFO Begin testing address 131.207.83.68.
+ 16.421: tieto.se INFO Done testing address 131.207.83.68.
+ 16.421: tieto.se INFO Done testing host ns6.tieto.com.
+ 16.464: tieto.se INFO Name server ns6.tieto.com (131.207.83.68) answers queries over UDP.
+ 16.547: tieto.se INFO Name server ns6.tieto.com (131.207.83.68) answers queries over TCP.
+ 16.596: tieto.se INFO Name server ns6.tieto.com (131.207.83.68) is not recursive.
+ 16.638: tieto.se INFO Name server ns6.tieto.com (131.207.83.68) authoritative for tieto.se.
+ 16.775: tieto.se INFO Name server ns6.tieto.com (131.207.83.68) closed for zone transfer of tieto.se.
+ 16.820: tieto.se NOTICE No answer received from 131.207.83.68 when querying for hostname.bind/CH/TXT.
+ 16.864: tieto.se INFO Legacy name server ID for ns6.tieto.com (131.207.83.68): version.bind = whatever
+ 16.906: tieto.se NOTICE No answer received from 131.207.83.68 when querying for id.server/CH/TXT.
+ 16.949: tieto.se NOTICE No answer received from 131.207.83.68 when querying for version.server/CH/TXT.
+ 16.949: tieto.se INFO Done testing name server ns6.tieto.com.
+ 16.950: tieto.se INFO Begin testing name server ns7.tieto.com.
+ 16.950: tieto.se INFO Begin testing host ns7.tieto.com.
+ 16.950: tieto.se INFO Begin testing address 192.49.203.68.
+ 17.296: tieto.se INFO Done testing address 192.49.203.68.
+ 17.296: tieto.se INFO Done testing host ns7.tieto.com.
+ 17.345: tieto.se INFO Name server ns7.tieto.com (192.49.203.68) answers queries over UDP.
+ 17.431: tieto.se INFO Name server ns7.tieto.com (192.49.203.68) answers queries over TCP.
+ 17.475: tieto.se INFO Name server ns7.tieto.com (192.49.203.68) is not recursive.
+ 17.521: tieto.se INFO Name server ns7.tieto.com (192.49.203.68) authoritative for tieto.se.
+ 17.638: tieto.se INFO Name server ns7.tieto.com (192.49.203.68) closed for zone transfer of tieto.se.
+ 17.680: tieto.se INFO Legacy name server ID for ns7.tieto.com (192.49.203.68): hostname.bind = ns7
+ 17.720: tieto.se INFO Legacy name server ID for ns7.tieto.com (192.49.203.68): version.bind = whatever
+ 17.804: tieto.se NOTICE No answer received from 192.49.203.68 when querying for version.server/CH/TXT.
+ 17.805: tieto.se INFO Done testing name server ns7.tieto.com.
+ 17.805: tieto.se INFO Begin testing zone consistency for tieto.se.
+ 17.858: tieto.se INFO SOA at address 192.49.203.68 has serial 2010092203.
+ 17.868: tieto.se INFO SOA at address 193.15.240.50 has serial 2010092203.
+ 17.911: tieto.se INFO SOA at address 131.207.83.68 has serial 2010092203.
+ 17.911: tieto.se INFO All SOA records have consistent serial numbers.
+ 17.912: tieto.se INFO All SOA records are consistent among all name servers.
+ 17.912: tieto.se INFO Done testing zone consistency for tieto.se.
+ 17.912: tieto.se INFO Begin testing SOA parameters for tieto.se.
+ 17.922: tieto.se INFO Found SOA record for tieto.se.
+ 17.922: tieto.se INFO Begin testing host ns5.tieto.com.
+ 17.923: tieto.se INFO Begin testing address 193.15.240.50.
+ 17.925: tieto.se INFO Done testing address 193.15.240.50.
+ 17.925: tieto.se INFO Done testing host ns5.tieto.com.
+ 17.925: tieto.se INFO SOA MNAME for tieto.se valid (ns5.tieto.com).
+ 17.925: tieto.se INFO SOA MNAME for tieto.se (ns5.tieto.com) listed as NS.
+ 17.936: tieto.se INFO SOA MNAME for tieto.se (ns5.tieto.com) is authoritative.
+ 17.936: tieto.se INFO Begin testing email address hostmaster@tietoenator.com.
+ 18.208: tieto.se INFO Mail exchangers for hostmaster@tietoenator.com found ebb05.tieto.com,ebb06.tieto.com,ebb07.tieto.com,ebb08.tieto.com.
+ 18.209: tieto.se INFO Begin testing host ebb05.tieto.com.
+ 18.748: tieto.se INFO Begin testing address 131.207.168.36.
+ 19.087: tieto.se INFO Done testing address 131.207.168.36.
+ 19.088: tieto.se INFO Done testing host ebb05.tieto.com.
+ 19.088: tieto.se INFO Begin testing mail server ebb05.tieto.com (131.207.168.36) with hostmaster@tietoenator.com.
+ 19.389: tieto.se INFO SMTP banner: ebb05.tieto.com ESMTP SMTP Mailer
+ 19.467: tieto.se INFO SMTP testing of ebb05.tieto.com (131.207.168.36) with hostmaster@tietoenator.com succeeded without errors.
+ 19.467: tieto.se INFO Done testing mail server ebb05.tieto.com (131.207.168.36) with hostmaster@tietoenator.com.
+ 19.468: tieto.se INFO Begin testing host ebb06.tieto.com.
+ 20.010: tieto.se INFO Begin testing address 131.207.168.38.
+ 20.416: tieto.se INFO Done testing address 131.207.168.38.
+ 20.416: tieto.se INFO Done testing host ebb06.tieto.com.
+ 20.417: tieto.se INFO Begin testing host ebb07.tieto.com.
+ 21.293: tieto.se INFO Begin testing address 212.247.188.171.
+ 21.760: tieto.se INFO Done testing address 212.247.188.171.
+ 21.761: tieto.se INFO Done testing host ebb07.tieto.com.
+ 21.761: tieto.se INFO Begin testing host ebb08.tieto.com.
+ 22.322: tieto.se INFO Begin testing address 212.247.188.173.
+ 22.592: tieto.se INFO Done testing address 212.247.188.173.
+ 22.592: tieto.se INFO Done testing host ebb08.tieto.com.
+ 22.592: tieto.se INFO Delivery over IPv4 to hostmaster@tietoenator.com ok.
+ 22.593: tieto.se INFO Delivery over IPv6 to hostmaster@tietoenator.com could not be done.
+ 22.593: tieto.se INFO Done testing email address hostmaster@tietoenator.com.
+ 22.593: tieto.se INFO Successful attempt to deliver email for SOA RNAME of tieto.se (hostmaster.tietoenator.com) using hostmaster@tietoenator.com.
+ 22.594: tieto.se INFO SOA TTL for tieto.se OK (28800) - recommended >= 3600.
+ 22.594: tieto.se INFO SOA refresh for tieto.se OK (28800) - recommended >= 14400.
+ 22.594: tieto.se INFO SOA retry for tieto.se OK (7200) - recommended >= 3600.
+ 22.595: tieto.se INFO SOA expire for tieto.se OK (1209600) - recommended >= 604800.
+ 22.595: tieto.se INFO SOA minimum for tieto.se OK (14400) - recommended between 300 and 86400.
+ 22.595: tieto.se INFO Done testing SOA parameters for tieto.se.
+ 22.595: tieto.se INFO Begin testing connectivity for tieto.se.
+ 23.083: tieto.se INFO Name server 193.15.240.50 announced by: 1257
+ 23.727: tieto.se INFO Name server 131.207.83.68 announced by: 375
+ 24.309: tieto.se INFO Name server 192.49.203.68 announced by: 375
+ 24.310: tieto.se INFO Zone announced by IPv4 ASN: 375,1257
+ 24.310: tieto.se INFO Zone announced by more than one ASN (2).
+ 24.311: tieto.se INFO Zone announced by IPv6 ASN: 
+ 24.311: tieto.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 24.311: tieto.se INFO Done testing connectivity for tieto.se.
+ 24.311: tieto.se INFO Begin testing DNSSEC for tieto.se.
+ 24.329: tieto.se INFO Did not find DS record for tieto.se at parent.
+ 24.530: tieto.se INFO Servers for tieto.se have consistent extra processing status.
+ 24.531: tieto.se INFO Did not find DNSKEY record for tieto.se at child.
+ 24.531: tieto.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 24.531: tieto.se INFO Done testing DNSSEC for tieto.se.
+ 24.531: tieto.se INFO Test completed for zone tieto.se.

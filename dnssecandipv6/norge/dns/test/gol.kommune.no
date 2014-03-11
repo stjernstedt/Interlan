@@ -1,0 +1,139 @@
+  0.000: gol.kommune.no INFO Begin testing zone gol.kommune.no with version 1.6.1.
+  0.434: gol.kommune.no INFO Begin testing delegation for gol.kommune.no.
+  8.928: gol.kommune.no INFO Name servers listed at parent: dns1.as2116.net,dns2.as2116.net
+ 10.272: gol.kommune.no INFO Name servers listed at child: dns1.eunet.no,dns2.eunet.no
+ 10.272: gol.kommune.no ERROR Superfluous name server listed at parent: dns1.as2116.net
+ 10.272: gol.kommune.no ERROR Superfluous name server listed at parent: dns2.as2116.net
+ 10.272: gol.kommune.no ERROR Total parent/child glue mismatch.
+ 10.272: gol.kommune.no NOTICE Additional name server listed at child: dns1.eunet.no
+ 10.272: gol.kommune.no NOTICE Additional name server listed at child: dns2.eunet.no
+ 10.272: gol.kommune.no NOTICE Too few IPv6 name servers (1).
+ 10.452: gol.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.616: gol.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.772: gol.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.910: gol.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.275: gol.kommune.no INFO It is possible to build a referral packet for gol.kommune.no that works without EDNS0.
+ 12.487: gol.kommune.no INFO Previously used name servers for gol.kommune.no: 
+ 12.487: gol.kommune.no INFO Done testing delegation for gol.kommune.no.
+ 12.487: gol.kommune.no INFO Begin testing name server dns1.eunet.no.
+ 12.487: gol.kommune.no INFO Begin testing host dns1.eunet.no.
+ 12.488: gol.kommune.no INFO Begin testing address 193.75.75.1.
+ 16.143: gol.kommune.no INFO Done testing address 193.75.75.1.
+ 16.143: gol.kommune.no INFO Begin testing address 2001:8c0:2001:0:0:0:3:53.
+ 16.700: gol.kommune.no INFO Done testing address 2001:8c0:2001:0:0:0:3:53.
+ 16.700: gol.kommune.no INFO Done testing host dns1.eunet.no.
+ 16.759: gol.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) answers queries over UDP.
+ 16.787: gol.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) answers queries over TCP.
+ 16.800: gol.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) is not recursive.
+ 16.862: gol.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) authoritative for gol.kommune.no.
+ 16.901: gol.kommune.no INFO Name server dns1.eunet.no (193.75.75.1) closed for zone transfer of gol.kommune.no.
+ 16.934: gol.kommune.no INFO Legacy name server ID for dns1.eunet.no (193.75.75.1): hostname.bind = alpha-a.server.as2116.net
+ 16.966: gol.kommune.no INFO Legacy name server ID for dns1.eunet.no (193.75.75.1): version.bind = Shirely you must be joking
+ 16.992: gol.kommune.no NOTICE No answer received from 193.75.75.1 when querying for version.server/CH/TXT.
+ 17.013: gol.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) answers queries over UDP.
+ 17.045: gol.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) answers queries over TCP.
+ 17.074: gol.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) is not recursive.
+ 17.163: gol.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) authoritative for gol.kommune.no.
+ 17.218: gol.kommune.no INFO Name server dns1.eunet.no (2001:8c0:2001:0:0:0:3:53) closed for zone transfer of gol.kommune.no.
+ 17.235: gol.kommune.no INFO Legacy name server ID for dns1.eunet.no (2001:8c0:2001:0:0:0:3:53): hostname.bind = alpha-a.server.as2116.net
+ 17.252: gol.kommune.no INFO Legacy name server ID for dns1.eunet.no (2001:8c0:2001:0:0:0:3:53): version.bind = Shirely you must be joking
+ 17.312: gol.kommune.no NOTICE No answer received from 2001:8c0:2001:0:0:0:3:53 when querying for version.server/CH/TXT.
+ 17.313: gol.kommune.no INFO Done testing name server dns1.eunet.no.
+ 17.313: gol.kommune.no INFO Begin testing name server dns2.eunet.no.
+ 17.313: gol.kommune.no INFO Begin testing host dns2.eunet.no.
+ 17.454: gol.kommune.no INFO Begin testing address 148.122.208.226.
+ 22.839: gol.kommune.no INFO Done testing address 148.122.208.226.
+ 22.839: gol.kommune.no INFO Done testing host dns2.eunet.no.
+ 22.985: gol.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) answers queries over UDP.
+ 23.032: gol.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) answers queries over TCP.
+ 23.065: gol.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) is not recursive.
+ 23.260: gol.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) authoritative for gol.kommune.no.
+ 23.329: gol.kommune.no INFO Name server dns2.eunet.no (148.122.208.226) closed for zone transfer of gol.kommune.no.
+ 23.370: gol.kommune.no INFO Legacy name server ID for dns2.eunet.no (148.122.208.226): hostname.bind = ny-ns2-eunet.oke.nextra.no
+ 23.407: gol.kommune.no INFO Legacy name server ID for dns2.eunet.no (148.122.208.226): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 23.498: gol.kommune.no NOTICE No answer received from 148.122.208.226 when querying for version.server/CH/TXT.
+ 23.499: gol.kommune.no INFO Done testing name server dns2.eunet.no.
+ 23.499: gol.kommune.no INFO Begin testing name server dns1.as2116.net.
+ 23.499: gol.kommune.no INFO Begin testing host dns1.as2116.net.
+ 23.500: gol.kommune.no INFO Begin testing address 193.75.75.1.
+ 23.501: gol.kommune.no INFO Done testing address 193.75.75.1.
+ 23.501: gol.kommune.no INFO Begin testing address 2001:8c0:2001:0:0:0:3:53.
+ 23.515: gol.kommune.no INFO Done testing address 2001:8c0:2001:0:0:0:3:53.
+ 23.515: gol.kommune.no INFO Done testing host dns1.as2116.net.
+ 23.529: gol.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) answers queries over UDP.
+ 23.563: gol.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) answers queries over TCP.
+ 23.577: gol.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) is not recursive.
+ 23.657: gol.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) authoritative for gol.kommune.no.
+ 23.710: gol.kommune.no INFO Name server dns1.as2116.net (193.75.75.1) closed for zone transfer of gol.kommune.no.
+ 23.727: gol.kommune.no INFO Legacy name server ID for dns1.as2116.net (193.75.75.1): hostname.bind = alpha-a.server.as2116.net
+ 23.743: gol.kommune.no INFO Legacy name server ID for dns1.as2116.net (193.75.75.1): version.bind = Shirely you must be joking
+ 23.817: gol.kommune.no NOTICE No answer received from 193.75.75.1 when querying for version.server/CH/TXT.
+ 23.842: gol.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) answers queries over UDP.
+ 23.907: gol.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) answers queries over TCP.
+ 23.942: gol.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) is not recursive.
+ 24.019: gol.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) authoritative for gol.kommune.no.
+ 24.069: gol.kommune.no INFO Name server dns1.as2116.net (2001:8c0:2001:0:0:0:3:53) closed for zone transfer of gol.kommune.no.
+ 24.098: gol.kommune.no INFO Legacy name server ID for dns1.as2116.net (2001:8c0:2001:0:0:0:3:53): hostname.bind = alpha-a.server.as2116.net
+ 24.148: gol.kommune.no INFO Legacy name server ID for dns1.as2116.net (2001:8c0:2001:0:0:0:3:53): version.bind = Shirely you must be joking
+ 24.226: gol.kommune.no NOTICE No answer received from 2001:8c0:2001:0:0:0:3:53 when querying for version.server/CH/TXT.
+ 24.226: gol.kommune.no INFO Done testing name server dns1.as2116.net.
+ 24.226: gol.kommune.no INFO Begin testing name server dns2.as2116.net.
+ 24.227: gol.kommune.no INFO Begin testing host dns2.as2116.net.
+ 24.428: gol.kommune.no INFO Begin testing address 148.122.208.226.
+ 24.958: gol.kommune.no INFO Done testing address 148.122.208.226.
+ 24.959: gol.kommune.no INFO Done testing host dns2.as2116.net.
+ 25.346: gol.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) answers queries over UDP.
+ 25.387: gol.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) answers queries over TCP.
+ 25.403: gol.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) is not recursive.
+ 25.496: gol.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) authoritative for gol.kommune.no.
+ 25.529: gol.kommune.no INFO Name server dns2.as2116.net (148.122.208.226) closed for zone transfer of gol.kommune.no.
+ 25.554: gol.kommune.no INFO Legacy name server ID for dns2.as2116.net (148.122.208.226): hostname.bind = ny-ns2-eunet.oke.nextra.no
+ 25.586: gol.kommune.no INFO Legacy name server ID for dns2.as2116.net (148.122.208.226): version.bind = 9.3.6-P1-RedHat-9.3.6-20.P1.el5_8.6
+ 25.626: gol.kommune.no NOTICE No answer received from 148.122.208.226 when querying for version.server/CH/TXT.
+ 25.627: gol.kommune.no INFO Done testing name server dns2.as2116.net.
+ 25.627: gol.kommune.no INFO Begin testing zone consistency for gol.kommune.no.
+ 26.063: gol.kommune.no INFO SOA at address 2001:8c0:2001:0:0:0:3:53 has serial 2014021101.
+ 26.106: gol.kommune.no INFO SOA at address 193.75.75.1 has serial 2014021101.
+ 26.148: gol.kommune.no INFO SOA at address 148.122.208.226 has serial 2014021101.
+ 26.148: gol.kommune.no INFO All SOA records have consistent serial numbers.
+ 26.149: gol.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 26.475: gol.kommune.no NOTICE The listed nameservers for gol.kommune.no all report the same set of nameservers.
+ 26.475: gol.kommune.no INFO Done testing zone consistency for gol.kommune.no.
+ 26.475: gol.kommune.no INFO Begin testing SOA parameters for gol.kommune.no.
+ 26.506: gol.kommune.no INFO Found SOA record for gol.kommune.no.
+ 26.507: gol.kommune.no INFO Begin testing host dns1.eunet.no.
+ 26.507: gol.kommune.no INFO Begin testing address 193.75.75.1.
+ 26.508: gol.kommune.no INFO Done testing address 193.75.75.1.
+ 26.508: gol.kommune.no INFO Begin testing address 2001:8c0:2001:0:0:0:3:53.
+ 26.509: gol.kommune.no INFO Done testing address 2001:8c0:2001:0:0:0:3:53.
+ 26.510: gol.kommune.no INFO Done testing host dns1.eunet.no.
+ 26.510: gol.kommune.no INFO SOA MNAME for gol.kommune.no valid (dns1.eunet.no).
+ 26.562: gol.kommune.no INFO SOA MNAME for gol.kommune.no (dns1.eunet.no) listed as NS.
+ 26.583: gol.kommune.no INFO SOA MNAME for gol.kommune.no (dns1.eunet.no) is authoritative.
+ 26.600: gol.kommune.no INFO SOA MNAME for gol.kommune.no (dns1.eunet.no) is authoritative.
+ 26.603: gol.kommune.no INFO Begin testing email address hostmaster@ventelo.no.
+ 26.759: gol.kommune.no INFO Mail exchangers for hostmaster@ventelo.no found mailvask.infostorm.no.
+ 26.759: gol.kommune.no INFO Begin testing host mailvask.infostorm.no.
+ 29.840: gol.kommune.no INFO Begin testing address 217.18.206.27.
+ 30.497: gol.kommune.no INFO Done testing address 217.18.206.27.
+ 30.497: gol.kommune.no INFO Done testing host mailvask.infostorm.no.
+ 30.649: gol.kommune.no INFO Done testing email address hostmaster@ventelo.no.
+ 30.649: gol.kommune.no INFO Successful attempt to deliver email for SOA RNAME of gol.kommune.no (hostmaster.ventelo.no) using hostmaster@ventelo.no.
+ 30.649: gol.kommune.no INFO SOA TTL for gol.kommune.no OK (7200) - recommended >= 3600.
+ 30.649: gol.kommune.no INFO SOA refresh for gol.kommune.no OK (28800) - recommended >= 14400.
+ 30.649: gol.kommune.no INFO SOA retry for gol.kommune.no OK (3600) - recommended >= 3600.
+ 30.650: gol.kommune.no INFO SOA expire for gol.kommune.no OK (2592000) - recommended >= 604800.
+ 30.650: gol.kommune.no INFO SOA minimum for gol.kommune.no OK (600) - recommended between 300 and 86400.
+ 30.657: gol.kommune.no INFO Done testing SOA parameters for gol.kommune.no.
+ 30.657: gol.kommune.no INFO Begin testing connectivity for gol.kommune.no.
+ 31.548: gol.kommune.no INFO Zone announced by more than one ASN.
+ 32.092: gol.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 32.092: gol.kommune.no INFO Done testing connectivity for gol.kommune.no.
+ 32.093: gol.kommune.no INFO Begin testing DNSSEC for gol.kommune.no.
+ 32.170: gol.kommune.no INFO Did not find DS record for gol.kommune.no at parent.
+ 32.253: gol.kommune.no INFO Servers for gol.kommune.no have consistent extra processing status.
+ 32.281: gol.kommune.no INFO Authenticated denial records not found for gol.kommune.no.
+ 32.296: gol.kommune.no INFO Did not find DNSKEY record for gol.kommune.no at child.
+ 32.297: gol.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 32.297: gol.kommune.no INFO Done testing DNSSEC for gol.kommune.no.
+ 32.297: gol.kommune.no INFO Test completed for zone gol.kommune.no.

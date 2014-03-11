@@ -1,0 +1,98 @@
+  0.000: okq8.se INFO Begin testing zone okq8.se with version 1.5.0.
+  0.001: okq8.se INFO Begin testing delegation for okq8.se.
+ 23.648: okq8.se INFO Name servers listed at parent: dns02.securesolution.net,ns1.okq8.se,ns2.okq8.se
+ 49.594: okq8.se INFO Name servers listed at child: dns02.securesolution.net,ns1.okq8.se,ns2.okq8.se
+ 49.594: okq8.se NOTICE No IPv6 name servers found.
+ 49.652: okq8.se INFO Parent glue for okq8.se found: ns1.okq8.se (192.16.144.16)
+ 49.679: okq8.se INFO Parent glue for okq8.se found: ns2.okq8.se (192.16.144.116)
+ 49.695: okq8.se INFO Checking glue for ns1.okq8.se (192.16.144.16).
+ 49.703: okq8.se INFO Child glue for okq8.se found: ns1.okq8.se (192.16.144.16)
+ 49.703: okq8.se INFO Checking glue for ns2.okq8.se (192.16.144.116).
+ 49.711: okq8.se INFO Child glue for okq8.se found: ns2.okq8.se (192.16.144.116)
+ 49.713: okq8.se INFO Parent glue for okq8.se found: ns1.okq8.se (192.16.144.16)
+ 49.713: okq8.se INFO Parent glue for okq8.se found: ns2.okq8.se (192.16.144.116)
+ 68.751: okq8.se INFO It is possible to build a referral packet for okq8.se that works without EDNS0.
+ 68.751: okq8.se INFO Done testing delegation for okq8.se.
+ 68.752: okq8.se INFO Begin testing name server dns02.securesolution.net.
+ 68.752: okq8.se INFO Begin testing host dns02.securesolution.net.
+ 75.032: okq8.se INFO Begin testing address 195.178.168.190.
+ 93.239: okq8.se INFO Done testing address 195.178.168.190.
+ 93.240: okq8.se INFO Done testing host dns02.securesolution.net.
+ 99.829: okq8.se INFO Name server dns02.securesolution.net (195.178.168.190) answers queries over UDP.
+ 99.842: okq8.se INFO Name server dns02.securesolution.net (195.178.168.190) answers queries over TCP.
+ 99.852: okq8.se INFO Name server dns02.securesolution.net (195.178.168.190) is not recursive.
+ 99.881: okq8.se INFO Name server dns02.securesolution.net (195.178.168.190) authoritative for okq8.se.
+ 99.897: okq8.se INFO Name server dns02.securesolution.net (195.178.168.190) closed for zone transfer of okq8.se.
+ 99.928: okq8.se NOTICE No answer received from 195.178.168.190 when querying for version.server/CH/TXT.
+ 99.928: okq8.se INFO Done testing name server dns02.securesolution.net.
+ 99.929: okq8.se INFO Begin testing name server ns1.okq8.se.
+ 99.929: okq8.se INFO Begin testing host ns1.okq8.se.
+106.163: okq8.se INFO Begin testing address 192.16.144.16.
+111.905: okq8.se INFO Done testing address 192.16.144.16.
+111.905: okq8.se INFO Done testing host ns1.okq8.se.
+112.141: okq8.se INFO Name server ns1.okq8.se (192.16.144.16) answers queries over UDP.
+112.155: okq8.se INFO Name server ns1.okq8.se (192.16.144.16) answers queries over TCP.
+112.171: okq8.se INFO Name server ns1.okq8.se (192.16.144.16) is not recursive.
+112.211: okq8.se INFO Name server ns1.okq8.se (192.16.144.16) authoritative for okq8.se.
+112.232: okq8.se INFO Name server ns1.okq8.se (192.16.144.16) closed for zone transfer of okq8.se.
+112.245: okq8.se INFO Legacy name server ID for ns1.okq8.se (192.16.144.16): hostname.bind = ns1.okq8.se
+112.254: okq8.se INFO Legacy name server ID for ns1.okq8.se (192.16.144.16): version.bind = not a really nice version, indeed
+112.269: okq8.se NOTICE No answer received from 192.16.144.16 when querying for version.server/CH/TXT.
+112.269: okq8.se INFO Done testing name server ns1.okq8.se.
+112.270: okq8.se INFO Begin testing name server ns2.okq8.se.
+112.270: okq8.se INFO Begin testing host ns2.okq8.se.
+112.535: okq8.se INFO Begin testing address 192.16.144.116.
+119.265: okq8.se INFO Done testing address 192.16.144.116.
+119.266: okq8.se INFO Done testing host ns2.okq8.se.
+119.500: okq8.se INFO Name server ns2.okq8.se (192.16.144.116) answers queries over UDP.
+119.515: okq8.se INFO Name server ns2.okq8.se (192.16.144.116) answers queries over TCP.
+119.525: okq8.se INFO Name server ns2.okq8.se (192.16.144.116) is not recursive.
+119.566: okq8.se INFO Name server ns2.okq8.se (192.16.144.116) authoritative for okq8.se.
+119.581: okq8.se INFO Name server ns2.okq8.se (192.16.144.116) closed for zone transfer of okq8.se.
+119.589: okq8.se INFO Legacy name server ID for ns2.okq8.se (192.16.144.116): hostname.bind = ns2.okq8.se
+119.598: okq8.se INFO Legacy name server ID for ns2.okq8.se (192.16.144.116): version.bind = a really nice version, indeed
+119.613: okq8.se NOTICE No answer received from 192.16.144.116 when querying for version.server/CH/TXT.
+119.613: okq8.se INFO Done testing name server ns2.okq8.se.
+119.614: okq8.se INFO Begin testing zone consistency for okq8.se.
+149.611: okq8.se INFO SOA at address 192.16.144.116 has serial 2013061801.
+149.619: okq8.se INFO SOA at address 192.16.144.16 has serial 2013061801.
+149.625: okq8.se INFO SOA at address 195.178.168.190 has serial 2013061801.
+149.625: okq8.se INFO All SOA records have consistent serial numbers.
+149.625: okq8.se INFO All other fields in the SOA record are consistent among all name servers.
+156.577: okq8.se NOTICE The listed nameservers for okq8.se all report the same set of nameservers.
+156.577: okq8.se INFO Done testing zone consistency for okq8.se.
+156.577: okq8.se INFO Begin testing SOA parameters for okq8.se.
+156.583: okq8.se INFO Found SOA record for okq8.se.
+156.584: okq8.se INFO Begin testing host ns1.okq8.se.
+162.805: okq8.se INFO Begin testing address 192.16.144.16.
+163.031: okq8.se INFO Done testing address 192.16.144.16.
+163.031: okq8.se INFO Done testing host ns1.okq8.se.
+163.032: okq8.se INFO SOA MNAME for okq8.se valid (ns1.okq8.se).
+163.032: okq8.se INFO SOA MNAME for okq8.se (ns1.okq8.se) listed as NS.
+169.283: okq8.se INFO SOA MNAME for okq8.se (ns1.okq8.se) is authoritative.
+169.284: okq8.se INFO Begin testing email address sensdl@hp.com.
+169.690: okq8.se INFO Mail exchangers for sensdl@hp.com found smtp.hp.com.
+169.690: okq8.se INFO Begin testing host smtp.hp.com.
+171.124: okq8.se INFO Begin testing address 15.192.0.41.
+173.888: okq8.se INFO Done testing address 15.192.0.41.
+173.888: okq8.se INFO Done testing host smtp.hp.com.
+174.621: okq8.se INFO Done testing email address sensdl@hp.com.
+174.624: okq8.se INFO Successful attempt to deliver email for SOA RNAME of okq8.se (sensdl.hp.com) using sensdl@hp.com.
+174.625: okq8.se INFO SOA TTL for okq8.se OK (3600) - recommended >= 3600.
+174.625: okq8.se NOTICE SOA refresh for okq8.se too small (10800) - recommended >= 14400.
+174.625: okq8.se INFO SOA retry for okq8.se OK (3600) - recommended >= 3600.
+174.625: okq8.se INFO SOA expire for okq8.se OK (604800) - recommended >= 604800.
+174.626: okq8.se NOTICE SOA minimum for okq8.se too large (259200) - recommended <= 86400.
+174.626: okq8.se INFO Done testing SOA parameters for okq8.se.
+174.626: okq8.se INFO Begin testing connectivity for okq8.se.
+176.610: okq8.se INFO Zone announced by more than one ASN.
+176.610: okq8.se NOTICE Zone announced by fewer than two IPv6 ASN.
+176.611: okq8.se INFO Done testing connectivity for okq8.se.
+176.611: okq8.se INFO Begin testing DNSSEC for okq8.se.
+176.627: okq8.se INFO Did not find DS record for okq8.se at parent.
+176.666: okq8.se INFO Servers for okq8.se have consistent extra processing status.
+176.680: okq8.se INFO Authenticated denial records not found for okq8.se.
+176.688: okq8.se INFO Did not find DNSKEY record for okq8.se at child.
+176.689: okq8.se INFO No DNSKEY(s) found at child, other tests skipped.
+176.689: okq8.se INFO Done testing DNSSEC for okq8.se.
+176.690: okq8.se INFO Test completed for zone okq8.se.

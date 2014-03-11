@@ -1,0 +1,88 @@
+  0.000: karkola.fi INFO Begin testing zone karkola.fi with version 1.6.1.
+  0.415: karkola.fi INFO Begin testing delegation for karkola.fi.
+  9.037: karkola.fi INFO Name servers listed at parent: ns1.taajama.fi,ns4.taajama.fi
+ 10.716: karkola.fi INFO Name servers listed at child: ns1.taajama.fi,ns4.taajama.fi
+ 10.717: karkola.fi NOTICE No IPv6 name servers found.
+ 10.772: karkola.fi INFO Parent glue for karkola.fi found: ns1.taajama.fi (83.102.40.26)
+ 10.938: karkola.fi INFO Parent glue for karkola.fi found: ns4.taajama.fi (83.102.40.27)
+ 10.993: karkola.fi INFO Checking glue for ns1.taajama.fi (83.102.40.26).
+ 10.993: karkola.fi INFO Checking glue for ns4.taajama.fi (83.102.40.27).
+ 10.993: karkola.fi INFO Parent glue for karkola.fi found: ns1.taajama.fi (83.102.40.26)
+ 10.993: karkola.fi INFO Parent glue for karkola.fi found: ns4.taajama.fi (83.102.40.27)
+ 11.905: karkola.fi INFO It is possible to build a referral packet for karkola.fi that works without EDNS0.
+ 12.492: karkola.fi INFO Previously used name servers for karkola.fi: 
+ 12.492: karkola.fi INFO Done testing delegation for karkola.fi.
+ 12.493: karkola.fi INFO Begin testing name server ns1.taajama.fi.
+ 12.493: karkola.fi INFO Begin testing host ns1.taajama.fi.
+ 12.786: karkola.fi INFO Begin testing address 83.102.40.26.
+ 17.292: karkola.fi INFO Done testing address 83.102.40.26.
+ 17.292: karkola.fi INFO Done testing host ns1.taajama.fi.
+ 17.555: karkola.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over UDP.
+ 17.593: karkola.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over TCP.
+ 17.624: karkola.fi INFO Name server ns1.taajama.fi (83.102.40.26) is not recursive.
+ 17.713: karkola.fi INFO Name server ns1.taajama.fi (83.102.40.26) authoritative for karkola.fi.
+ 17.757: karkola.fi INFO Name server ns1.taajama.fi (83.102.40.26) closed for zone transfer of karkola.fi.
+ 17.786: karkola.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): hostname.bind = saharausku
+ 17.833: karkola.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): version.bind = Not disclosed
+ 17.868: karkola.fi NOTICE No answer received from 83.102.40.26 when querying for version.server/CH/TXT.
+ 17.869: karkola.fi INFO Done testing name server ns1.taajama.fi.
+ 17.869: karkola.fi INFO Begin testing name server ns4.taajama.fi.
+ 17.869: karkola.fi INFO Begin testing host ns4.taajama.fi.
+ 18.080: karkola.fi INFO Begin testing address 83.102.40.27.
+ 18.646: karkola.fi INFO Done testing address 83.102.40.27.
+ 18.646: karkola.fi INFO Done testing host ns4.taajama.fi.
+ 18.803: karkola.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over UDP.
+ 18.849: karkola.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over TCP.
+ 18.877: karkola.fi INFO Name server ns4.taajama.fi (83.102.40.27) is not recursive.
+ 18.977: karkola.fi INFO Name server ns4.taajama.fi (83.102.40.27) authoritative for karkola.fi.
+ 19.016: karkola.fi INFO Name server ns4.taajama.fi (83.102.40.27) closed for zone transfer of karkola.fi.
+ 19.032: karkola.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): hostname.bind = perhosrausku
+ 19.047: karkola.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): version.bind = Not disclosed
+ 19.088: karkola.fi NOTICE No answer received from 83.102.40.27 when querying for version.server/CH/TXT.
+ 19.088: karkola.fi INFO Done testing name server ns4.taajama.fi.
+ 19.088: karkola.fi INFO Begin testing zone consistency for karkola.fi.
+ 19.801: karkola.fi INFO SOA at address 83.102.40.26 has serial 2011110401.
+ 19.821: karkola.fi INFO SOA at address 83.102.40.27 has serial 2011110401.
+ 19.821: karkola.fi INFO All SOA records have consistent serial numbers.
+ 19.821: karkola.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 20.129: karkola.fi NOTICE The listed nameservers for karkola.fi all report the same set of nameservers.
+ 20.129: karkola.fi INFO Done testing zone consistency for karkola.fi.
+ 20.129: karkola.fi INFO Begin testing SOA parameters for karkola.fi.
+ 20.155: karkola.fi INFO Found SOA record for karkola.fi.
+ 20.155: karkola.fi INFO Begin testing host ns1.taajama.fi.
+ 20.345: karkola.fi INFO Begin testing address 83.102.40.26.
+ 20.596: karkola.fi INFO Done testing address 83.102.40.26.
+ 20.596: karkola.fi INFO Done testing host ns1.taajama.fi.
+ 20.596: karkola.fi INFO SOA MNAME for karkola.fi valid (ns1.taajama.fi).
+ 20.597: karkola.fi INFO SOA MNAME for karkola.fi (ns1.taajama.fi) listed as NS.
+ 20.922: karkola.fi INFO SOA MNAME for karkola.fi (ns1.taajama.fi) is authoritative.
+ 20.922: karkola.fi INFO Begin testing email address hostmaster@taajama.com.
+ 21.273: karkola.fi INFO Mail exchangers for hostmaster@taajama.com found spp.taajama.fi,mx2.taajama.com.
+ 21.273: karkola.fi INFO Begin testing host spp.taajama.fi.
+ 21.612: karkola.fi INFO Begin testing address 217.78.212.151.
+ 22.255: karkola.fi INFO Done testing address 217.78.212.151.
+ 22.255: karkola.fi INFO Done testing host spp.taajama.fi.
+ 22.432: karkola.fi INFO Begin testing host mx2.taajama.com.
+ 22.956: karkola.fi INFO Begin testing address 83.102.41.75.
+ 24.328: karkola.fi INFO Done testing address 83.102.41.75.
+ 24.328: karkola.fi INFO Done testing host mx2.taajama.com.
+ 24.555: karkola.fi INFO Done testing email address hostmaster@taajama.com.
+ 24.555: karkola.fi INFO Successful attempt to deliver email for SOA RNAME of karkola.fi (hostmaster.taajama.com) using hostmaster@taajama.com.
+ 24.555: karkola.fi INFO SOA TTL for karkola.fi OK (3600) - recommended >= 3600.
+ 24.556: karkola.fi INFO SOA refresh for karkola.fi OK (28800) - recommended >= 14400.
+ 24.556: karkola.fi INFO SOA retry for karkola.fi OK (7200) - recommended >= 3600.
+ 24.556: karkola.fi INFO SOA expire for karkola.fi OK (1814400) - recommended >= 604800.
+ 24.556: karkola.fi INFO SOA minimum for karkola.fi OK (86400) - recommended between 300 and 86400.
+ 24.556: karkola.fi INFO Done testing SOA parameters for karkola.fi.
+ 24.556: karkola.fi INFO Begin testing connectivity for karkola.fi.
+ 25.583: karkola.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 25.591: karkola.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 25.592: karkola.fi INFO Done testing connectivity for karkola.fi.
+ 25.592: karkola.fi INFO Begin testing DNSSEC for karkola.fi.
+ 25.625: karkola.fi INFO Did not find DS record for karkola.fi at parent.
+ 25.699: karkola.fi INFO Servers for karkola.fi have consistent extra processing status.
+ 25.737: karkola.fi INFO Authenticated denial records not found for karkola.fi.
+ 25.784: karkola.fi INFO Did not find DNSKEY record for karkola.fi at child.
+ 25.784: karkola.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 25.784: karkola.fi INFO Done testing DNSSEC for karkola.fi.
+ 25.785: karkola.fi INFO Test completed for zone karkola.fi.

@@ -1,0 +1,118 @@
+  0.000: loviisa.fi INFO Begin testing zone loviisa.fi with version 1.5.0.
+  0.358: loviisa.fi INFO Begin testing delegation for loviisa.fi.
+ 29.896: loviisa.fi INFO Name servers listed at parent: ns1.verkkotunnukset.fi,ns2.verkkotunnukset.fi
+ 34.824: loviisa.fi INFO Name servers listed at child: ns1.verkkotunnukset.fi,ns2.verkkotunnukset.fi
+ 34.825: loviisa.fi NOTICE No IPv6 name servers found.
+ 38.074: loviisa.fi INFO It is possible to build a referral packet for loviisa.fi that works without EDNS0.
+ 39.816: loviisa.fi INFO Previously used name servers for loviisa.fi: 
+ 39.816: loviisa.fi INFO Done testing delegation for loviisa.fi.
+ 39.817: loviisa.fi INFO Begin testing name server ns1.verkkotunnukset.fi.
+ 39.817: loviisa.fi INFO Begin testing host ns1.verkkotunnukset.fi.
+ 40.493: loviisa.fi INFO Begin testing address 194.79.17.124.
+ 54.884: loviisa.fi INFO Done testing address 194.79.17.124.
+ 54.884: loviisa.fi INFO Done testing host ns1.verkkotunnukset.fi.
+ 55.689: loviisa.fi INFO Name server ns1.verkkotunnukset.fi (194.79.17.124) answers queries over UDP.
+ 55.811: loviisa.fi INFO Name server ns1.verkkotunnukset.fi (194.79.17.124) answers queries over TCP.
+ 56.101: loviisa.fi INFO Name server ns1.verkkotunnukset.fi (194.79.17.124) is not recursive.
+ 56.447: loviisa.fi INFO Name server ns1.verkkotunnukset.fi (194.79.17.124) authoritative for loviisa.fi.
+ 56.571: loviisa.fi INFO Name server ns1.verkkotunnukset.fi (194.79.17.124) closed for zone transfer of loviisa.fi.
+ 56.697: loviisa.fi INFO Legacy name server ID for ns1.verkkotunnukset.fi (194.79.17.124): hostname.bind = ns1.verkkotunnukset.fi
+ 56.776: loviisa.fi INFO Legacy name server ID for ns1.verkkotunnukset.fi (194.79.17.124): version.bind = 9.3.4-P1.1
+ 56.868: loviisa.fi NOTICE No answer received from 194.79.17.124 when querying for version.server/CH/TXT.
+ 56.868: loviisa.fi INFO Done testing name server ns1.verkkotunnukset.fi.
+ 56.868: loviisa.fi INFO Begin testing name server ns2.verkkotunnukset.fi.
+ 56.868: loviisa.fi INFO Begin testing host ns2.verkkotunnukset.fi.
+ 57.603: loviisa.fi INFO Begin testing address 194.79.19.45.
+ 59.843: loviisa.fi INFO Done testing address 194.79.19.45.
+ 59.844: loviisa.fi INFO Done testing host ns2.verkkotunnukset.fi.
+ 60.965: loviisa.fi INFO Name server ns2.verkkotunnukset.fi (194.79.19.45) answers queries over UDP.
+ 61.156: loviisa.fi INFO Name server ns2.verkkotunnukset.fi (194.79.19.45) answers queries over TCP.
+ 61.610: loviisa.fi INFO Name server ns2.verkkotunnukset.fi (194.79.19.45) is not recursive.
+ 62.107: loviisa.fi INFO Name server ns2.verkkotunnukset.fi (194.79.19.45) authoritative for loviisa.fi.
+ 62.297: loviisa.fi INFO Name server ns2.verkkotunnukset.fi (194.79.19.45) closed for zone transfer of loviisa.fi.
+ 62.398: loviisa.fi INFO Legacy name server ID for ns2.verkkotunnukset.fi (194.79.19.45): hostname.bind = ns2.verkkotunnukset.fi
+ 62.546: loviisa.fi INFO Legacy name server ID for ns2.verkkotunnukset.fi (194.79.19.45): version.bind = 9.3.4-P1.1
+ 62.924: loviisa.fi NOTICE No answer received from 194.79.19.45 when querying for version.server/CH/TXT.
+ 62.924: loviisa.fi INFO Done testing name server ns2.verkkotunnukset.fi.
+ 62.924: loviisa.fi INFO Begin testing zone consistency for loviisa.fi.
+ 72.001: loviisa.fi INFO SOA at address 194.79.19.45 has serial 2013041901.
+ 72.400: loviisa.fi INFO SOA at address 194.79.17.124 has serial 2013041901.
+ 72.400: loviisa.fi INFO All SOA records have consistent serial numbers.
+ 72.400: loviisa.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 76.280: loviisa.fi NOTICE The listed nameservers for loviisa.fi all report the same set of nameservers.
+ 76.280: loviisa.fi INFO Done testing zone consistency for loviisa.fi.
+ 76.281: loviisa.fi INFO Begin testing SOA parameters for loviisa.fi.
+ 76.505: loviisa.fi INFO Found SOA record for loviisa.fi.
+ 76.505: loviisa.fi INFO Begin testing host ns1.verkkotunnukset.fi.
+ 77.996: loviisa.fi INFO Begin testing address 194.79.17.124.
+ 79.748: loviisa.fi INFO Done testing address 194.79.17.124.
+ 79.748: loviisa.fi INFO Done testing host ns1.verkkotunnukset.fi.
+ 79.748: loviisa.fi INFO SOA MNAME for loviisa.fi valid (ns1.verkkotunnukset.fi).
+ 79.748: loviisa.fi INFO SOA MNAME for loviisa.fi (ns1.verkkotunnukset.fi) listed as NS.
+ 81.607: loviisa.fi INFO SOA MNAME for loviisa.fi (ns1.verkkotunnukset.fi) is authoritative.
+ 81.607: loviisa.fi INFO Begin testing email address hostmaster@loviisa.fi.
+ 83.285: loviisa.fi INFO Mail exchangers for hostmaster@loviisa.fi found msafe2.d-fence.fi,msafe3.d-fence.fi,msafe4.d-fence.fi,msafe5.d-fence.fi,msafe1.d-fence.fi.
+ 83.285: loviisa.fi INFO Begin testing host msafe2.d-fence.fi.
+ 87.004: loviisa.fi INFO Begin testing address 81.17.201.54.
+ 95.626: loviisa.fi INFO Done testing address 81.17.201.54.
+ 95.626: loviisa.fi INFO Begin testing address 188.117.33.72.
+109.133: loviisa.fi INFO Done testing address 188.117.33.72.
+109.133: loviisa.fi INFO Begin testing address 81.17.201.43.
+114.384: loviisa.fi INFO Done testing address 81.17.201.43.
+114.384: loviisa.fi INFO Begin testing address 81.17.201.44.
+118.142: loviisa.fi INFO Done testing address 81.17.201.44.
+118.142: loviisa.fi INFO Done testing host msafe2.d-fence.fi.
+119.876: loviisa.fi INFO Begin testing host msafe3.d-fence.fi.
+122.925: loviisa.fi INFO Begin testing address 81.17.201.55.
+129.446: loviisa.fi INFO Done testing address 81.17.201.55.
+129.715: loviisa.fi INFO Begin testing address 188.117.33.73.
+136.695: loviisa.fi INFO Done testing address 188.117.33.73.
+136.695: loviisa.fi INFO Begin testing address 81.17.201.46.
+143.318: loviisa.fi INFO Done testing address 81.17.201.46.
+143.318: loviisa.fi INFO Done testing host msafe3.d-fence.fi.
+145.528: loviisa.fi INFO Begin testing host msafe4.d-fence.fi.
+149.608: loviisa.fi INFO Begin testing address 81.17.201.54.
+149.609: loviisa.fi INFO Done testing address 81.17.201.54.
+149.609: loviisa.fi INFO Begin testing address 188.117.33.72.
+149.611: loviisa.fi INFO Done testing address 188.117.33.72.
+149.611: loviisa.fi INFO Begin testing address 81.17.201.43.
+149.956: loviisa.fi INFO Done testing address 81.17.201.43.
+149.956: loviisa.fi INFO Begin testing address 81.17.201.44.
+150.011: loviisa.fi INFO Done testing address 81.17.201.44.
+150.198: loviisa.fi INFO Done testing host msafe4.d-fence.fi.
+152.221: loviisa.fi INFO Begin testing host msafe5.d-fence.fi.
+156.585: loviisa.fi INFO Begin testing address 81.17.201.55.
+156.586: loviisa.fi INFO Done testing address 81.17.201.55.
+156.587: loviisa.fi INFO Begin testing address 188.117.33.73.
+156.872: loviisa.fi INFO Done testing address 188.117.33.73.
+156.872: loviisa.fi INFO Begin testing address 81.17.201.46.
+156.874: loviisa.fi INFO Done testing address 81.17.201.46.
+156.874: loviisa.fi INFO Done testing host msafe5.d-fence.fi.
+159.330: loviisa.fi INFO Begin testing host msafe1.d-fence.fi.
+162.927: loviisa.fi INFO Begin testing address 81.17.201.55.
+162.977: loviisa.fi INFO Done testing address 81.17.201.55.
+162.977: loviisa.fi INFO Begin testing address 188.117.33.73.
+163.167: loviisa.fi INFO Done testing address 188.117.33.73.
+163.168: loviisa.fi INFO Begin testing address 81.17.201.46.
+163.169: loviisa.fi INFO Done testing address 81.17.201.46.
+163.169: loviisa.fi INFO Done testing host msafe1.d-fence.fi.
+164.844: loviisa.fi INFO Done testing email address hostmaster@loviisa.fi.
+164.844: loviisa.fi INFO Successful attempt to deliver email for SOA RNAME of loviisa.fi (hostmaster.loviisa.fi) using hostmaster@loviisa.fi.
+164.844: loviisa.fi INFO SOA TTL for loviisa.fi OK (3600) - recommended >= 3600.
+164.844: loviisa.fi INFO SOA refresh for loviisa.fi OK (28800) - recommended >= 14400.
+164.844: loviisa.fi INFO SOA retry for loviisa.fi OK (7200) - recommended >= 3600.
+164.845: loviisa.fi INFO SOA expire for loviisa.fi OK (864000) - recommended >= 604800.
+164.845: loviisa.fi INFO SOA minimum for loviisa.fi OK (600) - recommended between 300 and 86400.
+164.845: loviisa.fi INFO Done testing SOA parameters for loviisa.fi.
+164.845: loviisa.fi INFO Begin testing connectivity for loviisa.fi.
+168.634: loviisa.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+168.634: loviisa.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+168.634: loviisa.fi INFO Done testing connectivity for loviisa.fi.
+168.634: loviisa.fi INFO Begin testing DNSSEC for loviisa.fi.
+169.137: loviisa.fi INFO Did not find DS record for loviisa.fi at parent.
+169.590: loviisa.fi INFO Servers for loviisa.fi have consistent extra processing status.
+169.808: loviisa.fi INFO Authenticated denial records not found for loviisa.fi.
+169.968: loviisa.fi INFO Did not find DNSKEY record for loviisa.fi at child.
+169.968: loviisa.fi INFO No DNSKEY(s) found at child, other tests skipped.
+169.968: loviisa.fi INFO Done testing DNSSEC for loviisa.fi.
+169.969: loviisa.fi INFO Test completed for zone loviisa.fi.

@@ -1,0 +1,78 @@
+  0.000: hogsbysparbank.se INFO Begin testing zone hogsbysparbank.se with version 1.5.0.
+  0.001: hogsbysparbank.se INFO Begin testing delegation for hogsbysparbank.se.
+  4.743: hogsbysparbank.se INFO Name servers listed at parent: ns1.foreningssparbanken.se,ns2.foreningssparbanken.se
+  6.402: hogsbysparbank.se INFO Name servers listed at child: ns1.foreningssparbanken.se,ns2.foreningssparbanken.se
+  6.403: hogsbysparbank.se NOTICE No IPv6 name servers found.
+  6.426: hogsbysparbank.se INFO Parent glue for hogsbysparbank.se found: ns1.foreningssparbanken.se (164.10.45.24)
+  6.449: hogsbysparbank.se INFO Parent glue for hogsbysparbank.se found: ns2.foreningssparbanken.se (164.10.45.25)
+  6.462: hogsbysparbank.se INFO Checking glue for ns1.foreningssparbanken.se (164.10.45.24).
+  6.463: hogsbysparbank.se INFO Checking glue for ns2.foreningssparbanken.se (164.10.45.25).
+  6.468: hogsbysparbank.se INFO Parent glue for hogsbysparbank.se found: ns1.foreningssparbanken.se (164.10.45.24)
+  6.468: hogsbysparbank.se INFO Parent glue for hogsbysparbank.se found: ns2.foreningssparbanken.se (164.10.45.25)
+  7.050: hogsbysparbank.se INFO It is possible to build a referral packet for hogsbysparbank.se that works without EDNS0.
+  7.050: hogsbysparbank.se INFO Done testing delegation for hogsbysparbank.se.
+  7.051: hogsbysparbank.se INFO Begin testing name server ns1.foreningssparbanken.se.
+  7.051: hogsbysparbank.se INFO Begin testing host ns1.foreningssparbanken.se.
+  7.293: hogsbysparbank.se INFO Begin testing address 164.10.45.24.
+ 13.098: hogsbysparbank.se INFO Done testing address 164.10.45.24.
+ 13.099: hogsbysparbank.se INFO Done testing host ns1.foreningssparbanken.se.
+ 13.349: hogsbysparbank.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) answers queries over UDP.
+ 13.366: hogsbysparbank.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) answers queries over TCP.
+ 13.376: hogsbysparbank.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) is not recursive.
+ 13.416: hogsbysparbank.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) authoritative for hogsbysparbank.se.
+ 13.432: hogsbysparbank.se INFO Name server ns1.foreningssparbanken.se (164.10.45.24) closed for zone transfer of hogsbysparbank.se.
+ 37.470: hogsbysparbank.se INFO Done testing name server ns1.foreningssparbanken.se.
+ 37.470: hogsbysparbank.se INFO Begin testing name server ns2.foreningssparbanken.se.
+ 37.470: hogsbysparbank.se INFO Begin testing host ns2.foreningssparbanken.se.
+ 37.733: hogsbysparbank.se INFO Begin testing address 164.10.45.25.
+ 39.008: hogsbysparbank.se INFO Done testing address 164.10.45.25.
+ 39.008: hogsbysparbank.se INFO Done testing host ns2.foreningssparbanken.se.
+ 39.248: hogsbysparbank.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) answers queries over UDP.
+ 39.263: hogsbysparbank.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) answers queries over TCP.
+ 39.272: hogsbysparbank.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) is not recursive.
+ 39.311: hogsbysparbank.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) authoritative for hogsbysparbank.se.
+ 39.329: hogsbysparbank.se INFO Name server ns2.foreningssparbanken.se (164.10.45.25) closed for zone transfer of hogsbysparbank.se.
+ 63.372: hogsbysparbank.se INFO Done testing name server ns2.foreningssparbanken.se.
+ 63.373: hogsbysparbank.se INFO Begin testing zone consistency for hogsbysparbank.se.
+ 64.323: hogsbysparbank.se INFO SOA at address 164.10.45.24 has serial 2013021401.
+ 64.333: hogsbysparbank.se INFO SOA at address 164.10.45.25 has serial 2013021401.
+ 64.334: hogsbysparbank.se INFO All SOA records have consistent serial numbers.
+ 64.334: hogsbysparbank.se INFO All other fields in the SOA record are consistent among all name servers.
+ 64.810: hogsbysparbank.se NOTICE The listed nameservers for hogsbysparbank.se all report the same set of nameservers.
+ 64.811: hogsbysparbank.se INFO Done testing zone consistency for hogsbysparbank.se.
+ 64.811: hogsbysparbank.se INFO Begin testing SOA parameters for hogsbysparbank.se.
+ 64.821: hogsbysparbank.se INFO Found SOA record for hogsbysparbank.se.
+ 64.821: hogsbysparbank.se INFO Begin testing host ns1.foreningssparbanken.se.
+ 65.061: hogsbysparbank.se INFO Begin testing address 164.10.45.24.
+ 65.526: hogsbysparbank.se INFO Done testing address 164.10.45.24.
+ 65.526: hogsbysparbank.se INFO Done testing host ns1.foreningssparbanken.se.
+ 65.526: hogsbysparbank.se INFO SOA MNAME for hogsbysparbank.se valid (ns1.foreningssparbanken.se).
+ 65.527: hogsbysparbank.se INFO SOA MNAME for hogsbysparbank.se (ns1.foreningssparbanken.se) listed as NS.
+ 65.776: hogsbysparbank.se INFO SOA MNAME for hogsbysparbank.se (ns1.foreningssparbanken.se) is authoritative.
+ 65.776: hogsbysparbank.se INFO Begin testing email address unixdrift@foreningssparbanken.se.
+ 66.235: hogsbysparbank.se INFO Mail exchangers for unixdrift@foreningssparbanken.se found foreningssparbanken.se.
+ 66.236: hogsbysparbank.se INFO Begin testing host foreningssparbanken.se.
+ 66.473: hogsbysparbank.se INFO Begin testing address 164.10.45.63.
+ 67.078: hogsbysparbank.se WARNING Could not find reverse address for 164.10.45.63 (63.45.10.164.in-addr.arpa.).
+ 67.078: hogsbysparbank.se INFO Done testing address 164.10.45.63.
+ 67.078: hogsbysparbank.se INFO Done testing host foreningssparbanken.se.
+ 67.316: hogsbysparbank.se INFO Done testing email address unixdrift@foreningssparbanken.se.
+ 67.316: hogsbysparbank.se INFO Successful attempt to deliver email for SOA RNAME of hogsbysparbank.se (unixdrift.foreningssparbanken.se) using unixdrift@foreningssparbanken.se.
+ 67.316: hogsbysparbank.se INFO SOA TTL for hogsbysparbank.se OK (3600) - recommended >= 3600.
+ 67.316: hogsbysparbank.se NOTICE SOA refresh for hogsbysparbank.se too small (10800) - recommended >= 14400.
+ 67.316: hogsbysparbank.se INFO SOA retry for hogsbysparbank.se OK (3600) - recommended >= 3600.
+ 67.317: hogsbysparbank.se INFO SOA expire for hogsbysparbank.se OK (604800) - recommended >= 604800.
+ 67.317: hogsbysparbank.se INFO SOA minimum for hogsbysparbank.se OK (86400) - recommended between 300 and 86400.
+ 67.317: hogsbysparbank.se INFO Done testing SOA parameters for hogsbysparbank.se.
+ 67.317: hogsbysparbank.se INFO Begin testing connectivity for hogsbysparbank.se.
+ 68.741: hogsbysparbank.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 68.742: hogsbysparbank.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 68.742: hogsbysparbank.se INFO Done testing connectivity for hogsbysparbank.se.
+ 68.742: hogsbysparbank.se INFO Begin testing DNSSEC for hogsbysparbank.se.
+ 68.765: hogsbysparbank.se INFO Did not find DS record for hogsbysparbank.se at parent.
+ 68.794: hogsbysparbank.se INFO Servers for hogsbysparbank.se have consistent extra processing status.
+ 68.808: hogsbysparbank.se INFO Authenticated denial records not found for hogsbysparbank.se.
+ 68.816: hogsbysparbank.se INFO Did not find DNSKEY record for hogsbysparbank.se at child.
+ 68.817: hogsbysparbank.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 68.817: hogsbysparbank.se INFO Done testing DNSSEC for hogsbysparbank.se.
+ 68.817: hogsbysparbank.se INFO Test completed for zone hogsbysparbank.se.

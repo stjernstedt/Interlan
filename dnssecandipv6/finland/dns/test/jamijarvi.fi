@@ -1,0 +1,88 @@
+  0.000: jamijarvi.fi INFO Begin testing zone jamijarvi.fi with version 1.6.1.
+  0.416: jamijarvi.fi INFO Begin testing delegation for jamijarvi.fi.
+  8.694: jamijarvi.fi INFO Name servers listed at parent: ns1.taajama.fi,ns4.taajama.fi
+ 10.265: jamijarvi.fi INFO Name servers listed at child: ns1.taajama.fi,ns4.taajama.fi
+ 10.265: jamijarvi.fi NOTICE No IPv6 name servers found.
+ 10.342: jamijarvi.fi INFO Parent glue for jamijarvi.fi found: ns1.taajama.fi (83.102.40.26)
+ 10.512: jamijarvi.fi INFO Parent glue for jamijarvi.fi found: ns4.taajama.fi (83.102.40.27)
+ 10.609: jamijarvi.fi INFO Checking glue for ns1.taajama.fi (83.102.40.26).
+ 10.609: jamijarvi.fi INFO Checking glue for ns4.taajama.fi (83.102.40.27).
+ 10.609: jamijarvi.fi INFO Parent glue for jamijarvi.fi found: ns1.taajama.fi (83.102.40.26)
+ 10.610: jamijarvi.fi INFO Parent glue for jamijarvi.fi found: ns4.taajama.fi (83.102.40.27)
+ 11.493: jamijarvi.fi INFO It is possible to build a referral packet for jamijarvi.fi that works without EDNS0.
+ 12.063: jamijarvi.fi INFO Previously used name servers for jamijarvi.fi: 
+ 12.063: jamijarvi.fi INFO Done testing delegation for jamijarvi.fi.
+ 12.063: jamijarvi.fi INFO Begin testing name server ns1.taajama.fi.
+ 12.063: jamijarvi.fi INFO Begin testing host ns1.taajama.fi.
+ 12.421: jamijarvi.fi INFO Begin testing address 83.102.40.26.
+ 17.480: jamijarvi.fi INFO Done testing address 83.102.40.26.
+ 17.480: jamijarvi.fi INFO Done testing host ns1.taajama.fi.
+ 17.715: jamijarvi.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over UDP.
+ 17.755: jamijarvi.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over TCP.
+ 17.784: jamijarvi.fi INFO Name server ns1.taajama.fi (83.102.40.26) is not recursive.
+ 17.877: jamijarvi.fi INFO Name server ns1.taajama.fi (83.102.40.26) authoritative for jamijarvi.fi.
+ 17.915: jamijarvi.fi INFO Name server ns1.taajama.fi (83.102.40.26) closed for zone transfer of jamijarvi.fi.
+ 17.948: jamijarvi.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): hostname.bind = saharausku
+ 17.977: jamijarvi.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): version.bind = Not disclosed
+ 18.029: jamijarvi.fi NOTICE No answer received from 83.102.40.26 when querying for version.server/CH/TXT.
+ 18.030: jamijarvi.fi INFO Done testing name server ns1.taajama.fi.
+ 18.030: jamijarvi.fi INFO Begin testing name server ns4.taajama.fi.
+ 18.030: jamijarvi.fi INFO Begin testing host ns4.taajama.fi.
+ 18.136: jamijarvi.fi INFO Begin testing address 83.102.40.27.
+ 18.445: jamijarvi.fi INFO Done testing address 83.102.40.27.
+ 18.445: jamijarvi.fi INFO Done testing host ns4.taajama.fi.
+ 18.577: jamijarvi.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over UDP.
+ 18.607: jamijarvi.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over TCP.
+ 18.621: jamijarvi.fi INFO Name server ns4.taajama.fi (83.102.40.27) is not recursive.
+ 18.683: jamijarvi.fi INFO Name server ns4.taajama.fi (83.102.40.27) authoritative for jamijarvi.fi.
+ 18.721: jamijarvi.fi INFO Name server ns4.taajama.fi (83.102.40.27) closed for zone transfer of jamijarvi.fi.
+ 18.742: jamijarvi.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): hostname.bind = perhosrausku
+ 18.757: jamijarvi.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): version.bind = Not disclosed
+ 18.788: jamijarvi.fi NOTICE No answer received from 83.102.40.27 when querying for version.server/CH/TXT.
+ 18.788: jamijarvi.fi INFO Done testing name server ns4.taajama.fi.
+ 18.788: jamijarvi.fi INFO Begin testing zone consistency for jamijarvi.fi.
+ 19.497: jamijarvi.fi INFO SOA at address 83.102.40.26 has serial 2014020302.
+ 19.513: jamijarvi.fi INFO SOA at address 83.102.40.27 has serial 2014020302.
+ 19.513: jamijarvi.fi INFO All SOA records have consistent serial numbers.
+ 19.513: jamijarvi.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 19.797: jamijarvi.fi NOTICE The listed nameservers for jamijarvi.fi all report the same set of nameservers.
+ 19.797: jamijarvi.fi INFO Done testing zone consistency for jamijarvi.fi.
+ 19.797: jamijarvi.fi INFO Begin testing SOA parameters for jamijarvi.fi.
+ 19.834: jamijarvi.fi INFO Found SOA record for jamijarvi.fi.
+ 19.834: jamijarvi.fi INFO Begin testing host ns1.taajama.fi.
+ 20.022: jamijarvi.fi INFO Begin testing address 83.102.40.26.
+ 20.099: jamijarvi.fi INFO Done testing address 83.102.40.26.
+ 20.099: jamijarvi.fi INFO Done testing host ns1.taajama.fi.
+ 20.099: jamijarvi.fi INFO SOA MNAME for jamijarvi.fi valid (ns1.taajama.fi).
+ 20.099: jamijarvi.fi INFO SOA MNAME for jamijarvi.fi (ns1.taajama.fi) listed as NS.
+ 20.235: jamijarvi.fi INFO SOA MNAME for jamijarvi.fi (ns1.taajama.fi) is authoritative.
+ 20.235: jamijarvi.fi INFO Begin testing email address hostmaster@taajama.com.
+ 20.386: jamijarvi.fi INFO Mail exchangers for hostmaster@taajama.com found spp.taajama.fi,mx2.taajama.com.
+ 20.386: jamijarvi.fi INFO Begin testing host spp.taajama.fi.
+ 20.620: jamijarvi.fi INFO Begin testing address 217.78.212.151.
+ 21.353: jamijarvi.fi INFO Done testing address 217.78.212.151.
+ 21.354: jamijarvi.fi INFO Done testing host spp.taajama.fi.
+ 21.486: jamijarvi.fi INFO Begin testing host mx2.taajama.com.
+ 21.776: jamijarvi.fi INFO Begin testing address 83.102.41.75.
+ 22.446: jamijarvi.fi INFO Done testing address 83.102.41.75.
+ 22.446: jamijarvi.fi INFO Done testing host mx2.taajama.com.
+ 22.866: jamijarvi.fi INFO Done testing email address hostmaster@taajama.com.
+ 22.866: jamijarvi.fi INFO Successful attempt to deliver email for SOA RNAME of jamijarvi.fi (hostmaster.taajama.com) using hostmaster@taajama.com.
+ 22.866: jamijarvi.fi NOTICE SOA TTL for jamijarvi.fi too small (900) - recommended >= 3600.
+ 22.866: jamijarvi.fi INFO SOA refresh for jamijarvi.fi OK (28800) - recommended >= 14400.
+ 22.866: jamijarvi.fi INFO SOA retry for jamijarvi.fi OK (7200) - recommended >= 3600.
+ 22.866: jamijarvi.fi INFO SOA expire for jamijarvi.fi OK (1814400) - recommended >= 604800.
+ 22.867: jamijarvi.fi INFO SOA minimum for jamijarvi.fi OK (86400) - recommended between 300 and 86400.
+ 22.867: jamijarvi.fi INFO Done testing SOA parameters for jamijarvi.fi.
+ 22.867: jamijarvi.fi INFO Begin testing connectivity for jamijarvi.fi.
+ 24.397: jamijarvi.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 24.398: jamijarvi.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 24.398: jamijarvi.fi INFO Done testing connectivity for jamijarvi.fi.
+ 24.398: jamijarvi.fi INFO Begin testing DNSSEC for jamijarvi.fi.
+ 24.451: jamijarvi.fi INFO Did not find DS record for jamijarvi.fi at parent.
+ 24.549: jamijarvi.fi INFO Servers for jamijarvi.fi have consistent extra processing status.
+ 24.575: jamijarvi.fi INFO Authenticated denial records not found for jamijarvi.fi.
+ 24.617: jamijarvi.fi INFO Did not find DNSKEY record for jamijarvi.fi at child.
+ 24.617: jamijarvi.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 24.617: jamijarvi.fi INFO Done testing DNSSEC for jamijarvi.fi.
+ 24.619: jamijarvi.fi INFO Test completed for zone jamijarvi.fi.

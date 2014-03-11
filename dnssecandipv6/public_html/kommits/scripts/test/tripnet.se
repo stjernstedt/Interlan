@@ -1,0 +1,97 @@
+  0.000: tripnet.se INFO Begin testing zone tripnet.se with version 1.2.
+  0.001: tripnet.se INFO Begin testing delegation for tripnet.se.
+  4.980: tripnet.se INFO Name servers listed at parent: ns1.tripnet.se,ns2.tripnet.se
+  6.137: tripnet.se INFO Name servers listed at child: ns1.tripnet.se,ns2.tripnet.se
+  6.137: tripnet.se NOTICE No IPv6 name servers found.
+  6.156: tripnet.se INFO Parent glue for tripnet.se found: ns1.tripnet.se (217.28.202.2)
+  6.204: tripnet.se INFO Parent glue for tripnet.se found: ns2.tripnet.se (217.28.204.2)
+  6.223: tripnet.se INFO Checking glue for ns1.tripnet.se (217.28.202.2).
+  6.246: tripnet.se INFO Child glue for tripnet.se found: ns1.tripnet.se (217.28.202.2)
+  6.247: tripnet.se INFO Checking glue for ns2.tripnet.se (217.28.204.2).
+  6.269: tripnet.se INFO Child glue for tripnet.se found: ns2.tripnet.se (217.28.204.2)
+  6.270: tripnet.se INFO Parent glue for tripnet.se found: ns1.tripnet.se (217.28.202.2)
+  6.271: tripnet.se INFO Parent glue for tripnet.se found: ns2.tripnet.se (217.28.204.2)
+  6.271: tripnet.se INFO Done testing delegation for tripnet.se.
+  6.272: tripnet.se INFO Begin testing name server ns1.tripnet.se.
+  6.272: tripnet.se INFO Begin testing host ns1.tripnet.se.
+  6.272: tripnet.se INFO Begin testing address 217.28.202.2.
+ 10.825: tripnet.se INFO Done testing address 217.28.202.2.
+ 10.826: tripnet.se INFO Done testing host ns1.tripnet.se.
+ 10.855: tripnet.se INFO Name server ns1.tripnet.se (217.28.202.2) answers queries over UDP.
+ 10.900: tripnet.se INFO Name server ns1.tripnet.se (217.28.202.2) answers queries over TCP.
+ 10.923: tripnet.se INFO Name server ns1.tripnet.se (217.28.202.2) is not recursive.
+ 10.946: tripnet.se INFO Name server ns1.tripnet.se (217.28.202.2) authoritative for tripnet.se.
+ 11.003: tripnet.se INFO Name server ns1.tripnet.se (217.28.202.2) closed for zone transfer of tripnet.se.
+ 11.030: tripnet.se INFO Legacy name server ID for ns1.tripnet.se (217.28.202.2): hostname.bind = ns1
+ 11.052: tripnet.se INFO Legacy name server ID for ns1.tripnet.se (217.28.202.2): version.bind = 9.3.4-P1.2
+ 11.095: tripnet.se NOTICE No answer received from 217.28.202.2 when querying for version.server/CH/TXT.
+ 11.095: tripnet.se INFO Done testing name server ns1.tripnet.se.
+ 11.096: tripnet.se INFO Begin testing name server ns2.tripnet.se.
+ 11.096: tripnet.se INFO Begin testing host ns2.tripnet.se.
+ 11.096: tripnet.se INFO Begin testing address 217.28.204.2.
+ 11.432: tripnet.se INFO Done testing address 217.28.204.2.
+ 11.432: tripnet.se INFO Done testing host ns2.tripnet.se.
+ 11.456: tripnet.se INFO Name server ns2.tripnet.se (217.28.204.2) answers queries over UDP.
+ 11.498: tripnet.se INFO Name server ns2.tripnet.se (217.28.204.2) answers queries over TCP.
+ 11.522: tripnet.se INFO Name server ns2.tripnet.se (217.28.204.2) is not recursive.
+ 11.546: tripnet.se INFO Name server ns2.tripnet.se (217.28.204.2) authoritative for tripnet.se.
+ 11.606: tripnet.se INFO Name server ns2.tripnet.se (217.28.204.2) closed for zone transfer of tripnet.se.
+ 11.630: tripnet.se INFO Legacy name server ID for ns2.tripnet.se (217.28.204.2): hostname.bind = ns2
+ 11.656: tripnet.se INFO Legacy name server ID for ns2.tripnet.se (217.28.204.2): version.bind = 9.3.4-P1.2
+ 11.698: tripnet.se NOTICE No answer received from 217.28.204.2 when querying for version.server/CH/TXT.
+ 11.699: tripnet.se INFO Done testing name server ns2.tripnet.se.
+ 11.699: tripnet.se INFO Begin testing zone consistency for tripnet.se.
+ 11.733: tripnet.se INFO SOA at address 217.28.202.2 has serial 2010110801.
+ 11.756: tripnet.se INFO SOA at address 217.28.204.2 has serial 2010110801.
+ 11.757: tripnet.se INFO All SOA records have consistent serial numbers.
+ 11.757: tripnet.se INFO All SOA records are consistent among all name servers.
+ 11.757: tripnet.se INFO Done testing zone consistency for tripnet.se.
+ 11.758: tripnet.se INFO Begin testing SOA parameters for tripnet.se.
+ 11.781: tripnet.se INFO Found SOA record for tripnet.se.
+ 11.782: tripnet.se INFO Begin testing host ns1.tripnet.se.
+ 11.782: tripnet.se INFO Begin testing address 217.28.202.2.
+ 11.784: tripnet.se INFO Done testing address 217.28.202.2.
+ 11.785: tripnet.se INFO Done testing host ns1.tripnet.se.
+ 11.785: tripnet.se INFO SOA MNAME for tripnet.se valid (ns1.tripnet.se).
+ 11.785: tripnet.se INFO SOA MNAME for tripnet.se (ns1.tripnet.se) listed as NS.
+ 11.810: tripnet.se INFO SOA MNAME for tripnet.se (ns1.tripnet.se) is authoritative.
+ 11.810: tripnet.se INFO Begin testing email address registry@tripnet.se.
+ 12.041: tripnet.se INFO Mail exchangers for registry@tripnet.se found mx1.tripnet.se,mx2.tripnet.se.
+ 12.041: tripnet.se INFO All mail servers for registry@tripnet.se are in zone tripnet.se.
+ 12.042: tripnet.se INFO Begin testing host mx1.tripnet.se.
+ 12.494: tripnet.se INFO Begin testing address 217.28.202.24.
+ 13.048: tripnet.se INFO Done testing address 217.28.202.24.
+ 13.048: tripnet.se INFO Done testing host mx1.tripnet.se.
+ 13.048: tripnet.se INFO Begin testing mail server mx1.tripnet.se (217.28.202.24) with registry@tripnet.se.
+ 13.133: tripnet.se INFO SMTP banner: mx1.tripnet.se ESMTP Exim 4.69 Tue, 09 Nov 2010 09:58:09 +0100
+ 13.222: tripnet.se INFO SMTP testing of mx1.tripnet.se (217.28.202.24) with registry@tripnet.se succeeded without errors.
+ 13.222: tripnet.se INFO Done testing mail server mx1.tripnet.se (217.28.202.24) with registry@tripnet.se.
+ 13.223: tripnet.se INFO Begin testing host mx2.tripnet.se.
+ 13.665: tripnet.se INFO Begin testing address 217.28.204.24.
+ 14.215: tripnet.se INFO Done testing address 217.28.204.24.
+ 14.215: tripnet.se INFO Done testing host mx2.tripnet.se.
+ 14.216: tripnet.se INFO Delivery over IPv4 to registry@tripnet.se ok.
+ 14.216: tripnet.se INFO Delivery over IPv6 to registry@tripnet.se could not be done.
+ 14.216: tripnet.se INFO Done testing email address registry@tripnet.se.
+ 14.216: tripnet.se INFO Successful attempt to deliver email for SOA RNAME of tripnet.se (registry.tripnet.se) using registry@tripnet.se.
+ 14.216: tripnet.se NOTICE SOA TTL for tripnet.se too small (300) - recommended >= 3600.
+ 14.216: tripnet.se INFO SOA refresh for tripnet.se OK (28800) - recommended >= 14400.
+ 14.216: tripnet.se INFO SOA retry for tripnet.se OK (7200) - recommended >= 3600.
+ 14.216: tripnet.se INFO SOA expire for tripnet.se OK (604800) - recommended >= 604800.
+ 14.216: tripnet.se INFO SOA minimum for tripnet.se OK (86400) - recommended between 300 and 86400.
+ 14.216: tripnet.se INFO Done testing SOA parameters for tripnet.se.
+ 14.217: tripnet.se INFO Begin testing connectivity for tripnet.se.
+ 14.726: tripnet.se INFO Name server 217.28.202.2 announced by: 34385
+ 15.299: tripnet.se INFO Name server 217.28.204.2 announced by: 34385
+ 15.299: tripnet.se INFO Zone announced by IPv4 ASN: 34385
+ 15.299: tripnet.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 15.300: tripnet.se INFO Zone announced by IPv6 ASN: 
+ 15.300: tripnet.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 15.300: tripnet.se INFO Done testing connectivity for tripnet.se.
+ 15.300: tripnet.se INFO Begin testing DNSSEC for tripnet.se.
+ 15.347: tripnet.se INFO Did not find DS record for tripnet.se at parent.
+ 15.429: tripnet.se INFO Servers for tripnet.se have consistent extra processing status.
+ 15.430: tripnet.se INFO Did not find DNSKEY record for tripnet.se at child.
+ 15.430: tripnet.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 15.430: tripnet.se INFO Done testing DNSSEC for tripnet.se.
+ 15.430: tripnet.se INFO Test completed for zone tripnet.se.

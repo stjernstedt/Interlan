@@ -1,0 +1,112 @@
+  0.000: kemi.fi INFO Begin testing zone kemi.fi with version 1.6.1.
+  0.439: kemi.fi INFO Begin testing delegation for kemi.fi.
+  8.571: kemi.fi INFO Name servers listed at parent: ns.kemi.fi,ns2.kemi.fi
+ 10.372: kemi.fi INFO Name servers listed at child: ns.kemi.fi,ns2.kemi.fi
+ 10.372: kemi.fi NOTICE No IPv6 name servers found.
+ 10.432: kemi.fi INFO Parent glue for kemi.fi found: ns.kemi.fi (185.25.200.5)
+ 10.522: kemi.fi INFO Parent glue for kemi.fi found: ns2.kemi.fi (185.25.201.6)
+ 10.603: kemi.fi INFO Checking glue for ns.kemi.fi (185.25.200.5).
+ 10.637: kemi.fi INFO Child glue for kemi.fi found: ns.kemi.fi (185.25.200.5)
+ 10.637: kemi.fi INFO Checking glue for ns2.kemi.fi (185.25.201.6).
+ 10.719: kemi.fi INFO Child glue for kemi.fi found: ns2.kemi.fi (185.25.201.6)
+ 10.720: kemi.fi INFO Parent glue for kemi.fi found: ns.kemi.fi (185.25.200.5)
+ 10.720: kemi.fi INFO Parent glue for kemi.fi found: ns2.kemi.fi (185.25.201.6)
+ 11.631: kemi.fi INFO It is possible to build a referral packet for kemi.fi that works without EDNS0.
+ 12.218: kemi.fi INFO Previously used name servers for kemi.fi: 
+ 12.218: kemi.fi INFO Done testing delegation for kemi.fi.
+ 12.219: kemi.fi INFO Begin testing name server ns.kemi.fi.
+ 12.219: kemi.fi INFO Begin testing host ns.kemi.fi.
+ 12.560: kemi.fi INFO Begin testing address 185.25.200.5.
+ 20.946: kemi.fi INFO Done testing address 185.25.200.5.
+ 20.946: kemi.fi INFO Done testing host ns.kemi.fi.
+ 21.263: kemi.fi INFO Name server ns.kemi.fi (185.25.200.5) answers queries over UDP.
+ 21.332: kemi.fi INFO Name server ns.kemi.fi (185.25.200.5) answers queries over TCP.
+ 21.428: kemi.fi WARNING Name server ns.kemi.fi (185.25.200.5) is recursive.
+ 21.583: kemi.fi INFO Name server ns.kemi.fi (185.25.200.5) authoritative for kemi.fi.
+ 21.683: kemi.fi NOTICE Name server ns.kemi.fi (185.25.200.5) open for zone transfer of kemi.fi.
+ 21.716: kemi.fi INFO Legacy name server ID for ns.kemi.fi (185.25.200.5): hostname.bind = dns1
+ 21.744: kemi.fi INFO Legacy name server ID for ns.kemi.fi (185.25.200.5): version.bind = 9.8.1-P1
+ 21.794: kemi.fi NOTICE No answer received from 185.25.200.5 when querying for version.server/CH/TXT.
+ 21.795: kemi.fi INFO Done testing name server ns.kemi.fi.
+ 21.795: kemi.fi INFO Begin testing name server ns2.kemi.fi.
+ 21.795: kemi.fi INFO Begin testing host ns2.kemi.fi.
+ 22.018: kemi.fi INFO Begin testing address 185.25.201.6.
+ 22.832: kemi.fi INFO Done testing address 185.25.201.6.
+ 22.832: kemi.fi INFO Done testing host ns2.kemi.fi.
+ 23.103: kemi.fi INFO Name server ns2.kemi.fi (185.25.201.6) answers queries over UDP.
+ 23.175: kemi.fi INFO Name server ns2.kemi.fi (185.25.201.6) answers queries over TCP.
+ 23.319: kemi.fi WARNING Name server ns2.kemi.fi (185.25.201.6) is recursive.
+ 23.449: kemi.fi INFO Name server ns2.kemi.fi (185.25.201.6) authoritative for kemi.fi.
+ 23.614: kemi.fi NOTICE Name server ns2.kemi.fi (185.25.201.6) open for zone transfer of kemi.fi.
+ 23.642: kemi.fi INFO Legacy name server ID for ns2.kemi.fi (185.25.201.6): hostname.bind = dns2
+ 23.692: kemi.fi INFO Legacy name server ID for ns2.kemi.fi (185.25.201.6): version.bind = 9.8.1-P1
+ 23.746: kemi.fi NOTICE No answer received from 185.25.201.6 when querying for version.server/CH/TXT.
+ 23.746: kemi.fi INFO Done testing name server ns2.kemi.fi.
+ 23.747: kemi.fi INFO Begin testing zone consistency for kemi.fi.
+ 24.796: kemi.fi INFO SOA at address 185.25.201.6 has serial 2014022801.
+ 24.857: kemi.fi INFO SOA at address 185.25.200.5 has serial 2014022801.
+ 24.857: kemi.fi INFO All SOA records have consistent serial numbers.
+ 24.857: kemi.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 25.252: kemi.fi NOTICE The listed nameservers for kemi.fi all report the same set of nameservers.
+ 25.252: kemi.fi INFO Done testing zone consistency for kemi.fi.
+ 25.253: kemi.fi INFO Begin testing SOA parameters for kemi.fi.
+ 25.279: kemi.fi INFO Found SOA record for kemi.fi.
+ 25.279: kemi.fi INFO Begin testing host ns.kemi.fi.
+ 25.452: kemi.fi INFO Begin testing address 185.25.200.5.
+ 25.718: kemi.fi INFO Done testing address 185.25.200.5.
+ 25.718: kemi.fi INFO Done testing host ns.kemi.fi.
+ 25.718: kemi.fi INFO SOA MNAME for kemi.fi valid (ns.kemi.fi).
+ 25.718: kemi.fi INFO SOA MNAME for kemi.fi (ns.kemi.fi) listed as NS.
+ 26.008: kemi.fi INFO SOA MNAME for kemi.fi (ns.kemi.fi) is authoritative.
+ 26.008: kemi.fi INFO Begin testing email address hostmaster@kemi.fi.
+ 26.258: kemi.fi INFO Mail exchangers for hostmaster@kemi.fi found aspmx.l.google.com,alt1.aspmx.l.google.com,alt2.aspmx.l.google.com,aspmx2.googlemail.com,aspmx3.googlemail.com.
+ 26.258: kemi.fi INFO Begin testing host aspmx.l.google.com.
+ 26.924: kemi.fi INFO Begin testing address 74.125.143.27.
+ 31.432: kemi.fi INFO Done testing address 74.125.143.27.
+ 31.433: kemi.fi INFO Begin testing address 2a00:1450:4010:c03:0:0:0:1b.
+ 36.421: kemi.fi INFO Done testing address 2a00:1450:4010:c03:0:0:0:1b.
+ 36.421: kemi.fi INFO Done testing host aspmx.l.google.com.
+ 36.421: kemi.fi INFO Begin testing host alt1.aspmx.l.google.com.
+ 37.243: kemi.fi INFO Begin testing address 173.194.64.27.
+ 38.236: kemi.fi INFO Done testing address 173.194.64.27.
+ 38.236: kemi.fi INFO Begin testing address 2607:f8b0:4003:c02:0:0:0:1b.
+ 41.122: kemi.fi INFO Done testing address 2607:f8b0:4003:c02:0:0:0:1b.
+ 41.122: kemi.fi INFO Done testing host alt1.aspmx.l.google.com.
+ 41.123: kemi.fi INFO Begin testing host alt2.aspmx.l.google.com.
+ 41.710: kemi.fi INFO Begin testing address 74.125.193.26.
+ 42.668: kemi.fi INFO Done testing address 74.125.193.26.
+ 42.668: kemi.fi INFO Begin testing address 2607:f8b0:4001:c05:0:0:0:1a.
+ 43.928: kemi.fi INFO Done testing address 2607:f8b0:4001:c05:0:0:0:1a.
+ 43.931: kemi.fi INFO Done testing host alt2.aspmx.l.google.com.
+ 43.932: kemi.fi INFO Begin testing host aspmx2.googlemail.com.
+ 44.664: kemi.fi INFO Begin testing address 173.194.64.27.
+ 44.865: kemi.fi INFO Done testing address 173.194.64.27.
+ 44.865: kemi.fi INFO Begin testing address 2607:f8b0:4003:c02:0:0:0:1a.
+ 45.768: kemi.fi INFO Done testing address 2607:f8b0:4003:c02:0:0:0:1a.
+ 45.768: kemi.fi INFO Done testing host aspmx2.googlemail.com.
+ 45.769: kemi.fi INFO Begin testing host aspmx3.googlemail.com.
+ 46.279: kemi.fi INFO Begin testing address 74.125.193.26.
+ 46.632: kemi.fi INFO Done testing address 74.125.193.26.
+ 46.632: kemi.fi INFO Begin testing address 2607:f8b0:4001:c05:0:0:0:1a.
+ 46.884: kemi.fi INFO Done testing address 2607:f8b0:4001:c05:0:0:0:1a.
+ 46.884: kemi.fi INFO Done testing host aspmx3.googlemail.com.
+ 46.884: kemi.fi INFO Done testing email address hostmaster@kemi.fi.
+ 46.884: kemi.fi INFO Successful attempt to deliver email for SOA RNAME of kemi.fi (hostmaster.kemi.fi) using hostmaster@kemi.fi.
+ 46.884: kemi.fi INFO SOA TTL for kemi.fi OK (86400) - recommended >= 3600.
+ 46.885: kemi.fi INFO SOA refresh for kemi.fi OK (28800) - recommended >= 14400.
+ 46.885: kemi.fi INFO SOA retry for kemi.fi OK (7200) - recommended >= 3600.
+ 46.885: kemi.fi INFO SOA expire for kemi.fi OK (604800) - recommended >= 604800.
+ 46.885: kemi.fi INFO SOA minimum for kemi.fi OK (86400) - recommended between 300 and 86400.
+ 46.885: kemi.fi INFO Done testing SOA parameters for kemi.fi.
+ 46.885: kemi.fi INFO Begin testing connectivity for kemi.fi.
+ 47.771: kemi.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 47.771: kemi.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 47.771: kemi.fi INFO Done testing connectivity for kemi.fi.
+ 47.773: kemi.fi INFO Begin testing DNSSEC for kemi.fi.
+ 47.809: kemi.fi INFO Did not find DS record for kemi.fi at parent.
+ 47.911: kemi.fi INFO Servers for kemi.fi have consistent extra processing status.
+ 47.961: kemi.fi INFO Authenticated denial records not found for kemi.fi.
+ 47.987: kemi.fi INFO Did not find DNSKEY record for kemi.fi at child.
+ 47.988: kemi.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 47.988: kemi.fi INFO Done testing DNSSEC for kemi.fi.
+ 47.988: kemi.fi INFO Test completed for zone kemi.fi.

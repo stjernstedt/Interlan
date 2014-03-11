@@ -1,0 +1,97 @@
+  0.000: kvam.kommune.no INFO Begin testing zone kvam.kommune.no with version 1.6.1.
+  0.036: kvam.kommune.no INFO Begin testing delegation for kvam.kommune.no.
+  6.999: kvam.kommune.no INFO Name servers listed at parent: dfvoss1.dform.no,dfvoss3.dform.no
+  8.748: kvam.kommune.no INFO Name servers listed at child: dfvoss1.dform.no,dfvoss3.dform.no,mail.kvamnet.no
+  8.752: kvam.kommune.no NOTICE Additional name server listed at child: mail.kvamnet.no
+  8.752: kvam.kommune.no NOTICE No IPv6 name servers found.
+  8.919: kvam.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.045: kvam.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.169: kvam.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.309: kvam.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.786: kvam.kommune.no INFO It is possible to build a referral packet for kvam.kommune.no that works without EDNS0.
+ 10.008: kvam.kommune.no INFO Previously used name servers for kvam.kommune.no: 
+ 10.008: kvam.kommune.no INFO Done testing delegation for kvam.kommune.no.
+ 10.008: kvam.kommune.no INFO Begin testing name server dfvoss1.dform.no.
+ 10.009: kvam.kommune.no INFO Begin testing host dfvoss1.dform.no.
+ 10.264: kvam.kommune.no INFO Begin testing address 62.97.196.147.
+ 23.231: kvam.kommune.no INFO Done testing address 62.97.196.147.
+ 23.232: kvam.kommune.no INFO Done testing host dfvoss1.dform.no.
+ 23.452: kvam.kommune.no INFO Name server dfvoss1.dform.no (62.97.196.147) answers queries over UDP.
+ 23.516: kvam.kommune.no INFO Name server dfvoss1.dform.no (62.97.196.147) answers queries over TCP.
+ 23.647: kvam.kommune.no INFO Name server dfvoss1.dform.no (62.97.196.147) is not recursive.
+ 23.772: kvam.kommune.no INFO Name server dfvoss1.dform.no (62.97.196.147) authoritative for kvam.kommune.no.
+ 24.152: kvam.kommune.no NOTICE Name server dfvoss1.dform.no (62.97.196.147) open for zone transfer of kvam.kommune.no.
+ 24.178: kvam.kommune.no NOTICE No answer received from 62.97.196.147 when querying for hostname.bind/CH/TXT.
+ 36.253: kvam.kommune.no INFO Done testing name server dfvoss1.dform.no.
+ 36.254: kvam.kommune.no INFO Begin testing name server dfvoss3.dform.no.
+ 36.254: kvam.kommune.no INFO Begin testing host dfvoss3.dform.no.
+ 36.254: kvam.kommune.no INFO Begin testing address 62.97.196.149.
+ 36.999: kvam.kommune.no INFO Done testing address 62.97.196.149.
+ 37.007: kvam.kommune.no INFO Done testing host dfvoss3.dform.no.
+ 37.036: kvam.kommune.no INFO Name server dfvoss3.dform.no (62.97.196.149) answers queries over UDP.
+ 37.091: kvam.kommune.no INFO Name server dfvoss3.dform.no (62.97.196.149) answers queries over TCP.
+ 37.162: kvam.kommune.no INFO Name server dfvoss3.dform.no (62.97.196.149) is not recursive.
+ 37.283: kvam.kommune.no INFO Name server dfvoss3.dform.no (62.97.196.149) authoritative for kvam.kommune.no.
+ 37.546: kvam.kommune.no INFO Name server dfvoss3.dform.no (62.97.196.149) closed for zone transfer of kvam.kommune.no.
+ 37.579: kvam.kommune.no NOTICE No answer received from 62.97.196.149 when querying for hostname.bind/CH/TXT.
+ 49.646: kvam.kommune.no INFO Done testing name server dfvoss3.dform.no.
+ 49.646: kvam.kommune.no INFO Begin testing name server mail.kvamnet.no.
+ 49.647: kvam.kommune.no INFO Begin testing host mail.kvamnet.no.
+ 49.647: kvam.kommune.no INFO Begin testing address 213.239.120.10.
+ 51.729: kvam.kommune.no INFO Done testing address 213.239.120.10.
+ 51.729: kvam.kommune.no INFO Done testing host mail.kvamnet.no.
+ 51.752: kvam.kommune.no NOTICE No answer received from 213.239.120.10 when querying for kvam.kommune.no/IN/SOA.
+ 51.752: kvam.kommune.no INFO Name server mail.kvamnet.no (213.239.120.10) answers queries over UDP.
+ 53.764: kvam.kommune.no NOTICE DNS lookup error (connection failed).
+ 53.764: kvam.kommune.no ERROR Name server mail.kvamnet.no (213.239.120.10) does not answer queries over TCP.
+ 53.795: kvam.kommune.no INFO Name server mail.kvamnet.no (213.239.120.10) is not recursive.
+ 53.819: kvam.kommune.no NOTICE No answer received from 213.239.120.10 when querying for kvam.kommune.no/SOA/IN.
+ 53.843: kvam.kommune.no NOTICE No answer received from 213.239.120.10 when querying for kvam.kommune.no/IN/SOA.
+ 53.844: kvam.kommune.no WARNING Nameserver at 213.239.120.10 is not authoritative over UDP.
+ 53.844: kvam.kommune.no ERROR Name server mail.kvamnet.no (213.239.120.10) not authoritative for kvam.kommune.no.
+ 53.844: kvam.kommune.no INFO Done testing name server mail.kvamnet.no.
+ 53.844: kvam.kommune.no INFO Begin testing zone consistency for kvam.kommune.no.
+ 53.881: kvam.kommune.no INFO SOA at address 62.97.196.147 has serial 54.
+ 53.907: kvam.kommune.no NOTICE No answer received from 213.239.120.10 when querying for kvam.kommune.no/IN/SOA.
+ 53.935: kvam.kommune.no INFO SOA at address 62.97.196.149 has serial 54.
+ 53.935: kvam.kommune.no INFO All SOA records have consistent serial numbers.
+ 53.935: kvam.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 53.993: kvam.kommune.no NOTICE The listed nameservers for kvam.kommune.no all report the same set of nameservers.
+ 53.993: kvam.kommune.no INFO Done testing zone consistency for kvam.kommune.no.
+ 53.993: kvam.kommune.no INFO Begin testing SOA parameters for kvam.kommune.no.
+ 54.028: kvam.kommune.no INFO Found SOA record for kvam.kommune.no.
+ 54.028: kvam.kommune.no INFO Begin testing host dfvoss1.dform.no.
+ 54.029: kvam.kommune.no INFO Begin testing address 62.97.196.147.
+ 54.130: kvam.kommune.no INFO Done testing address 62.97.196.147.
+ 54.130: kvam.kommune.no INFO Done testing host dfvoss1.dform.no.
+ 54.130: kvam.kommune.no INFO SOA MNAME for kvam.kommune.no valid (dfvoss1.dform.no).
+ 54.130: kvam.kommune.no INFO SOA MNAME for kvam.kommune.no (dfvoss1.dform.no) listed as NS.
+ 54.157: kvam.kommune.no INFO SOA MNAME for kvam.kommune.no (dfvoss1.dform.no) is authoritative.
+ 54.158: kvam.kommune.no INFO Begin testing email address webmaster@dform.no.
+ 54.352: kvam.kommune.no INFO Mail exchangers for webmaster@dform.no found filter.dform.no.
+ 54.352: kvam.kommune.no INFO Begin testing host filter.dform.no.
+ 54.592: kvam.kommune.no INFO Begin testing address 213.239.120.12.
+ 55.380: kvam.kommune.no INFO Done testing address 213.239.120.12.
+ 55.380: kvam.kommune.no INFO Done testing host filter.dform.no.
+ 55.381: kvam.kommune.no INFO Done testing email address webmaster@dform.no.
+ 55.381: kvam.kommune.no INFO Successful attempt to deliver email for SOA RNAME of kvam.kommune.no (webmaster.dform.no) using webmaster@dform.no.
+ 55.381: kvam.kommune.no INFO SOA TTL for kvam.kommune.no OK (3600) - recommended >= 3600.
+ 55.381: kvam.kommune.no INFO SOA refresh for kvam.kommune.no OK (14400) - recommended >= 14400.
+ 55.381: kvam.kommune.no NOTICE SOA retry for kvam.kommune.no too small (1800) - recommended >= 3600.
+ 55.381: kvam.kommune.no INFO SOA expire for kvam.kommune.no OK (604800) - recommended >= 604800.
+ 55.381: kvam.kommune.no INFO SOA minimum for kvam.kommune.no OK (3600) - recommended between 300 and 86400.
+ 55.381: kvam.kommune.no INFO Done testing SOA parameters for kvam.kommune.no.
+ 55.382: kvam.kommune.no INFO Begin testing connectivity for kvam.kommune.no.
+ 56.852: kvam.kommune.no INFO Zone announced by more than one ASN.
+ 56.852: kvam.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 56.852: kvam.kommune.no INFO Done testing connectivity for kvam.kommune.no.
+ 56.852: kvam.kommune.no INFO Begin testing DNSSEC for kvam.kommune.no.
+ 56.930: kvam.kommune.no INFO Did not find DS record for kvam.kommune.no at parent.
+ 56.993: kvam.kommune.no ERROR EDNS not supported by 62.97.196.147.
+ 59.006: kvam.kommune.no NOTICE DNS lookup error (connection failed).
+ 59.058: kvam.kommune.no INFO Servers for kvam.kommune.no have consistent extra processing status.
+ 63.159: kvam.kommune.no INFO Authenticated denial records not found for kvam.kommune.no.
+ 63.186: kvam.kommune.no INFO Did not find DNSKEY record for kvam.kommune.no at child.
+ 63.186: kvam.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 63.186: kvam.kommune.no INFO Done testing DNSSEC for kvam.kommune.no.
+ 63.186: kvam.kommune.no INFO Test completed for zone kvam.kommune.no.

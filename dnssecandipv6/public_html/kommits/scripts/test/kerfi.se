@@ -1,0 +1,173 @@
+  0.000: kerfi.se INFO Begin testing zone kerfi.se with version 1.2.
+  0.001: kerfi.se INFO Begin testing delegation for kerfi.se.
+  6.162: kerfi.se INFO Name servers listed at parent: edns01.ports.net,edns03.ports.net,edns05.ports.net
+  8.111: kerfi.se INFO Name servers listed at child: edns01.ports.net,edns03.ports.net,edns05.ports.net
+  8.111: kerfi.se NOTICE No IPv6 name servers found.
+  8.224: kerfi.se INFO Done testing delegation for kerfi.se.
+  8.224: kerfi.se INFO Begin testing name server edns01.ports.net.
+  8.225: kerfi.se INFO Begin testing host edns01.ports.net.
+  8.225: kerfi.se INFO Begin testing address 193.12.211.140.
+ 11.601: kerfi.se INFO Done testing address 193.12.211.140.
+ 11.601: kerfi.se INFO Done testing host edns01.ports.net.
+ 11.617: kerfi.se INFO Name server edns01.ports.net (193.12.211.140) answers queries over UDP.
+ 11.643: kerfi.se INFO Name server edns01.ports.net (193.12.211.140) answers queries over TCP.
+ 11.657: kerfi.se INFO Name server edns01.ports.net (193.12.211.140) is not recursive.
+ 11.672: kerfi.se INFO Name server edns01.ports.net (193.12.211.140) authoritative for kerfi.se.
+ 11.707: kerfi.se INFO Name server edns01.ports.net (193.12.211.140) closed for zone transfer of kerfi.se.
+ 11.727: kerfi.se INFO Legacy name server ID for edns01.ports.net (193.12.211.140): hostname.bind = edns01
+ 17.756: kerfi.se NOTICE No answer received from 193.12.211.140 when querying for version.server/CH/TXT.
+ 17.756: kerfi.se INFO Done testing name server edns01.ports.net.
+ 17.756: kerfi.se INFO Begin testing name server edns03.ports.net.
+ 17.756: kerfi.se INFO Begin testing host edns03.ports.net.
+ 17.757: kerfi.se INFO Begin testing address 217.28.206.27.
+ 18.193: kerfi.se INFO Done testing address 217.28.206.27.
+ 18.193: kerfi.se INFO Done testing host edns03.ports.net.
+ 18.215: kerfi.se INFO Name server edns03.ports.net (217.28.206.27) answers queries over UDP.
+ 18.256: kerfi.se INFO Name server edns03.ports.net (217.28.206.27) answers queries over TCP.
+ 18.277: kerfi.se INFO Name server edns03.ports.net (217.28.206.27) is not recursive.
+ 18.300: kerfi.se INFO Name server edns03.ports.net (217.28.206.27) authoritative for kerfi.se.
+ 18.361: kerfi.se INFO Name server edns03.ports.net (217.28.206.27) closed for zone transfer of kerfi.se.
+ 18.382: kerfi.se INFO Legacy name server ID for edns03.ports.net (217.28.206.27): hostname.bind = edns03
+ 18.404: kerfi.se INFO Legacy name server ID for edns03.ports.net (217.28.206.27): version.bind = DNS!
+ 18.446: kerfi.se NOTICE No answer received from 217.28.206.27 when querying for version.server/CH/TXT.
+ 18.446: kerfi.se INFO Done testing name server edns03.ports.net.
+ 18.446: kerfi.se INFO Begin testing name server edns05.ports.net.
+ 18.447: kerfi.se INFO Begin testing host edns05.ports.net.
+ 18.447: kerfi.se INFO Begin testing address 217.28.206.67.
+ 19.001: kerfi.se INFO Done testing address 217.28.206.67.
+ 19.001: kerfi.se INFO Done testing host edns05.ports.net.
+ 19.023: kerfi.se INFO Name server edns05.ports.net (217.28.206.67) answers queries over UDP.
+ 19.063: kerfi.se INFO Name server edns05.ports.net (217.28.206.67) answers queries over TCP.
+ 19.084: kerfi.se INFO Name server edns05.ports.net (217.28.206.67) is not recursive.
+ 19.106: kerfi.se INFO Name server edns05.ports.net (217.28.206.67) authoritative for kerfi.se.
+ 19.161: kerfi.se INFO Name server edns05.ports.net (217.28.206.67) closed for zone transfer of kerfi.se.
+ 19.183: kerfi.se NOTICE No answer received from 217.28.206.67 when querying for hostname.bind/CH/TXT.
+ 19.204: kerfi.se INFO Legacy name server ID for edns05.ports.net (217.28.206.67): version.bind = 9.2.4
+ 19.225: kerfi.se NOTICE No answer received from 217.28.206.67 when querying for id.server/CH/TXT.
+ 19.246: kerfi.se NOTICE No answer received from 217.28.206.67 when querying for version.server/CH/TXT.
+ 19.247: kerfi.se INFO Done testing name server edns05.ports.net.
+ 19.247: kerfi.se INFO Begin testing zone consistency for kerfi.se.
+ 19.273: kerfi.se INFO SOA at address 217.28.206.27 has serial 2010091001.
+ 19.295: kerfi.se INFO SOA at address 217.28.206.67 has serial 2010091001.
+ 19.310: kerfi.se INFO SOA at address 193.12.211.140 has serial 2010091001.
+ 19.310: kerfi.se INFO All SOA records have consistent serial numbers.
+ 19.310: kerfi.se INFO All SOA records are consistent among all name servers.
+ 19.310: kerfi.se INFO Done testing zone consistency for kerfi.se.
+ 19.311: kerfi.se INFO Begin testing SOA parameters for kerfi.se.
+ 19.325: kerfi.se INFO Found SOA record for kerfi.se.
+ 19.326: kerfi.se INFO Begin testing host edns01.ports.net.
+ 19.326: kerfi.se INFO Begin testing address 193.12.211.140.
+ 19.328: kerfi.se INFO Done testing address 193.12.211.140.
+ 19.328: kerfi.se INFO Done testing host edns01.ports.net.
+ 19.329: kerfi.se INFO SOA MNAME for kerfi.se valid (edns01.ports.net).
+ 19.329: kerfi.se INFO SOA MNAME for kerfi.se (edns01.ports.net) listed as NS.
+ 19.344: kerfi.se INFO SOA MNAME for kerfi.se (edns01.ports.net) is authoritative.
+ 19.344: kerfi.se INFO Begin testing email address registry@ports.net.
+ 19.577: kerfi.se INFO Mail exchangers for registry@ports.net found mx12a.antispameurope.com,mx12b.antispameurope.com,mx12c.antispameurope.com,mx12d.antispameurope.com.
+ 19.578: kerfi.se INFO Begin testing host mx12a.antispameurope.com.
+ 21.026: kerfi.se INFO Begin testing address 83.246.65.105.
+ 23.046: kerfi.se INFO Done testing address 83.246.65.105.
+ 23.047: kerfi.se INFO Begin testing address 83.246.65.106.
+ 23.783: kerfi.se INFO Done testing address 83.246.65.106.
+ 23.783: kerfi.se INFO Begin testing address 83.246.65.107.
+ 25.136: kerfi.se INFO Done testing address 83.246.65.107.
+ 25.136: kerfi.se INFO Begin testing address 83.246.65.108.
+ 30.106: kerfi.se INFO Done testing address 83.246.65.108.
+ 30.107: kerfi.se INFO Begin testing address 83.246.65.109.
+ 30.962: kerfi.se INFO Done testing address 83.246.65.109.
+ 30.963: kerfi.se INFO Begin testing address 83.246.65.110.
+ 32.121: kerfi.se INFO Done testing address 83.246.65.110.
+ 32.121: kerfi.se INFO Begin testing address 83.246.65.111.
+ 33.054: kerfi.se INFO Done testing address 83.246.65.111.
+ 33.055: kerfi.se INFO Begin testing address 83.246.65.112.
+ 33.833: kerfi.se INFO Done testing address 83.246.65.112.
+ 33.833: kerfi.se INFO Begin testing address 83.246.65.113.
+ 34.661: kerfi.se INFO Done testing address 83.246.65.113.
+ 34.661: kerfi.se INFO Begin testing address 83.246.65.114.
+ 35.955: kerfi.se INFO Done testing address 83.246.65.114.
+ 35.955: kerfi.se INFO Begin testing address 83.246.65.101.
+ 36.722: kerfi.se INFO Done testing address 83.246.65.101.
+ 36.722: kerfi.se INFO Begin testing address 83.246.65.102.
+ 37.977: kerfi.se INFO Done testing address 83.246.65.102.
+ 37.977: kerfi.se INFO Begin testing address 83.246.65.103.
+ 39.135: kerfi.se INFO Done testing address 83.246.65.103.
+ 39.136: kerfi.se INFO Begin testing address 83.246.65.104.
+ 40.063: kerfi.se INFO Done testing address 83.246.65.104.
+ 40.063: kerfi.se INFO Done testing host mx12a.antispameurope.com.
+ 40.064: kerfi.se INFO Begin testing mail server mx12a.antispameurope.com (83.246.65.105) with registry@ports.net.
+ 60.064: kerfi.se WARNING Failed to connect to mx12a.antispameurope.com (83.246.65.105).
+ 60.064: kerfi.se INFO Done testing mail server mx12a.antispameurope.com (83.246.65.105) with registry@ports.net.
+ 60.064: kerfi.se INFO Begin testing mail server mx12a.antispameurope.com (83.246.65.106) with registry@ports.net.
+ 60.181: kerfi.se INFO SMTP banner: mx-gate06-haj2.antispameurope.com antispameurope Mailsecurity
+ 60.338: kerfi.se INFO SMTP testing of mx12a.antispameurope.com (83.246.65.106) with registry@ports.net succeeded without errors.
+ 60.338: kerfi.se INFO Done testing mail server mx12a.antispameurope.com (83.246.65.106) with registry@ports.net.
+ 60.338: kerfi.se INFO Begin testing host mx12b.antispameurope.com.
+ 60.987: kerfi.se INFO Begin testing address 217.64.175.101.
+ 61.942: kerfi.se INFO Done testing address 217.64.175.101.
+ 61.943: kerfi.se INFO Begin testing address 217.64.175.102.
+ 63.202: kerfi.se INFO Done testing address 217.64.175.102.
+ 63.203: kerfi.se INFO Begin testing address 217.64.175.103.
+ 64.230: kerfi.se INFO Done testing address 217.64.175.103.
+ 64.231: kerfi.se INFO Begin testing address 217.64.175.107.
+ 65.324: kerfi.se INFO Done testing address 217.64.175.107.
+ 65.324: kerfi.se INFO Done testing host mx12b.antispameurope.com.
+ 65.325: kerfi.se INFO Begin testing host mx12c.antispameurope.com.
+ 65.817: kerfi.se INFO Begin testing address 83.246.65.103.
+ 65.818: kerfi.se INFO Done testing address 83.246.65.103.
+ 65.819: kerfi.se INFO Begin testing address 83.246.65.104.
+ 65.820: kerfi.se INFO Done testing address 83.246.65.104.
+ 65.820: kerfi.se INFO Begin testing address 83.246.65.105.
+ 65.822: kerfi.se INFO Done testing address 83.246.65.105.
+ 65.822: kerfi.se INFO Begin testing address 83.246.65.106.
+ 65.823: kerfi.se INFO Done testing address 83.246.65.106.
+ 65.824: kerfi.se INFO Begin testing address 83.246.65.107.
+ 65.825: kerfi.se INFO Done testing address 83.246.65.107.
+ 65.825: kerfi.se INFO Begin testing address 83.246.65.108.
+ 65.827: kerfi.se INFO Done testing address 83.246.65.108.
+ 65.827: kerfi.se INFO Begin testing address 83.246.65.109.
+ 65.828: kerfi.se INFO Done testing address 83.246.65.109.
+ 65.828: kerfi.se INFO Begin testing address 83.246.65.110.
+ 65.830: kerfi.se INFO Done testing address 83.246.65.110.
+ 65.830: kerfi.se INFO Begin testing address 83.246.65.111.
+ 65.831: kerfi.se INFO Done testing address 83.246.65.111.
+ 65.831: kerfi.se INFO Begin testing address 83.246.65.112.
+ 65.833: kerfi.se INFO Done testing address 83.246.65.112.
+ 65.833: kerfi.se INFO Begin testing address 83.246.65.113.
+ 65.834: kerfi.se INFO Done testing address 83.246.65.113.
+ 65.835: kerfi.se INFO Begin testing address 83.246.65.114.
+ 65.836: kerfi.se INFO Done testing address 83.246.65.114.
+ 65.836: kerfi.se INFO Begin testing address 83.246.65.102.
+ 65.838: kerfi.se INFO Done testing address 83.246.65.102.
+ 65.838: kerfi.se INFO Done testing host mx12c.antispameurope.com.
+ 65.838: kerfi.se INFO Begin testing host mx12d.antispameurope.com.
+ 66.596: kerfi.se INFO Begin testing address 217.64.175.108.
+ 67.388: kerfi.se INFO Done testing address 217.64.175.108.
+ 67.389: kerfi.se INFO Begin testing address 217.64.175.110.
+ 68.197: kerfi.se INFO Done testing address 217.64.175.110.
+ 68.197: kerfi.se INFO Done testing host mx12d.antispameurope.com.
+ 68.198: kerfi.se INFO Delivery over IPv4 to registry@ports.net ok.
+ 68.198: kerfi.se INFO Delivery over IPv6 to registry@ports.net could not be done.
+ 68.198: kerfi.se INFO Done testing email address registry@ports.net.
+ 68.199: kerfi.se INFO Successful attempt to deliver email for SOA RNAME of kerfi.se (registry.ports.net) using registry@ports.net.
+ 68.199: kerfi.se NOTICE SOA TTL for kerfi.se too small (300) - recommended >= 3600.
+ 68.199: kerfi.se NOTICE SOA refresh for kerfi.se too small (1800) - recommended >= 14400.
+ 68.199: kerfi.se NOTICE SOA retry for kerfi.se too small (900) - recommended >= 3600.
+ 68.199: kerfi.se INFO SOA expire for kerfi.se OK (1814400) - recommended >= 604800.
+ 68.199: kerfi.se INFO SOA minimum for kerfi.se OK (600) - recommended between 300 and 86400.
+ 68.199: kerfi.se INFO Done testing SOA parameters for kerfi.se.
+ 68.200: kerfi.se INFO Begin testing connectivity for kerfi.se.
+ 68.850: kerfi.se INFO Name server 193.12.211.140 announced by: 1257
+ 69.598: kerfi.se INFO Name server 217.28.206.27 announced by: 34385
+ 70.213: kerfi.se INFO Name server 217.28.206.67 announced by: 34385
+ 70.213: kerfi.se INFO Zone announced by IPv4 ASN: 1257,34385
+ 70.214: kerfi.se INFO Zone announced by more than one ASN (2).
+ 70.214: kerfi.se INFO Zone announced by IPv6 ASN: 
+ 70.214: kerfi.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 70.214: kerfi.se INFO Done testing connectivity for kerfi.se.
+ 70.214: kerfi.se INFO Begin testing DNSSEC for kerfi.se.
+ 70.252: kerfi.se INFO Did not find DS record for kerfi.se at parent.
+ 70.356: kerfi.se INFO Servers for kerfi.se have consistent extra processing status.
+ 70.357: kerfi.se INFO Did not find DNSKEY record for kerfi.se at child.
+ 70.357: kerfi.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 70.357: kerfi.se INFO Done testing DNSSEC for kerfi.se.
+ 70.357: kerfi.se INFO Test completed for zone kerfi.se.

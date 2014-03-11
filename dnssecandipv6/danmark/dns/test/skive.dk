@@ -1,0 +1,87 @@
+  0.000: skive.dk INFO Begin testing zone skive.dk with version 1.6.1.
+  0.415: skive.dk INFO Begin testing delegation for skive.dk.
+ 14.094: skive.dk INFO Name servers listed at parent: ns1.webhotel.net,ns2.webhotel.net,ns3.webhotel.net
+ 47.738: skive.dk INFO Name servers listed at child: ns1.webhotel.net,ns2.webhotel.net,ns3.webhotel.net
+ 47.738: skive.dk NOTICE No IPv6 name servers found.
+ 84.940: skive.dk INFO It is possible to build a referral packet for skive.dk that works without EDNS0.
+ 98.579: skive.dk INFO Previously used name servers for skive.dk: 
+ 98.579: skive.dk INFO Done testing delegation for skive.dk.
+ 98.579: skive.dk INFO Begin testing name server ns1.webhotel.net.
+ 98.589: skive.dk INFO Begin testing host ns1.webhotel.net.
+102.930: skive.dk INFO Begin testing address 217.145.49.1.
+119.560: skive.dk INFO Done testing address 217.145.49.1.
+119.561: skive.dk INFO Done testing host ns1.webhotel.net.
+123.815: skive.dk INFO Name server ns1.webhotel.net (217.145.49.1) answers queries over UDP.
+123.848: skive.dk INFO Name server ns1.webhotel.net (217.145.49.1) answers queries over TCP.
+123.875: skive.dk INFO Name server ns1.webhotel.net (217.145.49.1) is not recursive.
+123.948: skive.dk INFO Name server ns1.webhotel.net (217.145.49.1) authoritative for skive.dk.
+123.994: skive.dk INFO Name server ns1.webhotel.net (217.145.49.1) closed for zone transfer of skive.dk.
+124.014: skive.dk INFO Legacy name server ID for ns1.webhotel.net (217.145.49.1): hostname.bind = ns1.webhotel.net
+124.035: skive.dk INFO Legacy name server ID for ns1.webhotel.net (217.145.49.1): version.bind = You are kidding, right?
+124.067: skive.dk NOTICE No answer received from 217.145.49.1 when querying for version.server/CH/TXT.
+124.067: skive.dk INFO Done testing name server ns1.webhotel.net.
+124.067: skive.dk INFO Begin testing name server ns2.webhotel.net.
+124.067: skive.dk INFO Begin testing host ns2.webhotel.net.
+128.291: skive.dk INFO Begin testing address 217.145.48.2.
+136.758: skive.dk INFO Done testing address 217.145.48.2.
+136.758: skive.dk INFO Done testing host ns2.webhotel.net.
+141.025: skive.dk INFO Name server ns2.webhotel.net (217.145.48.2) answers queries over UDP.
+141.060: skive.dk INFO Name server ns2.webhotel.net (217.145.48.2) answers queries over TCP.
+141.079: skive.dk INFO Name server ns2.webhotel.net (217.145.48.2) is not recursive.
+141.153: skive.dk INFO Name server ns2.webhotel.net (217.145.48.2) authoritative for skive.dk.
+141.200: skive.dk INFO Name server ns2.webhotel.net (217.145.48.2) closed for zone transfer of skive.dk.
+141.217: skive.dk INFO Legacy name server ID for ns2.webhotel.net (217.145.48.2): hostname.bind = ns2.webhotel.net
+141.235: skive.dk INFO Legacy name server ID for ns2.webhotel.net (217.145.48.2): version.bind = You are kidding, right?
+141.269: skive.dk NOTICE No answer received from 217.145.48.2 when querying for version.server/CH/TXT.
+141.269: skive.dk INFO Done testing name server ns2.webhotel.net.
+141.270: skive.dk INFO Begin testing name server ns3.webhotel.net.
+141.270: skive.dk INFO Begin testing host ns3.webhotel.net.
+145.528: skive.dk INFO Begin testing address 87.238.249.33.
+150.401: skive.dk INFO Done testing address 87.238.249.33.
+150.401: skive.dk INFO Done testing host ns3.webhotel.net.
+158.562: skive.dk ERROR Name server ns3.webhotel.net (87.238.249.33) does not answer queries over UDP.
+158.563: skive.dk ERROR Name server ns3.webhotel.net (87.238.249.33) does not answer queries over TCP.
+158.564: skive.dk INFO Done testing name server ns3.webhotel.net.
+158.564: skive.dk INFO Begin testing zone consistency for skive.dk.
+183.824: skive.dk INFO SOA at address 217.145.48.2 has serial 1387181871.
+183.886: skive.dk INFO SOA at address 217.145.49.1 has serial 1387181871.
+183.886: skive.dk INFO All SOA records have consistent serial numbers.
+183.886: skive.dk INFO All other fields in the SOA record are consistent among all name servers.
+200.689: skive.dk NOTICE The listed nameservers for skive.dk all report the same set of nameservers.
+200.689: skive.dk INFO Done testing zone consistency for skive.dk.
+200.689: skive.dk INFO Begin testing SOA parameters for skive.dk.
+204.727: skive.dk INFO Found SOA record for skive.dk.
+204.728: skive.dk INFO Begin testing host ns1.webhotel.net.
+209.036: skive.dk INFO Begin testing address 217.145.49.1.
+213.261: skive.dk INFO Done testing address 217.145.49.1.
+213.261: skive.dk INFO Done testing host ns1.webhotel.net.
+213.261: skive.dk INFO SOA MNAME for skive.dk valid (ns1.webhotel.net).
+213.261: skive.dk INFO SOA MNAME for skive.dk (ns1.webhotel.net) listed as NS.
+217.495: skive.dk INFO SOA MNAME for skive.dk (ns1.webhotel.net) is authoritative.
+217.495: skive.dk INFO Begin testing email address admin@webhotel.net.
+221.604: skive.dk INFO Mail exchangers for admin@webhotel.net found mail.webhotel.net.
+221.604: skive.dk INFO Begin testing host mail.webhotel.net.
+230.015: skive.dk INFO Begin testing address 217.145.49.10.
+234.575: skive.dk INFO Done testing address 217.145.49.10.
+234.576: skive.dk INFO Done testing host mail.webhotel.net.
+238.795: skive.dk INFO Done testing email address admin@webhotel.net.
+238.795: skive.dk INFO Successful attempt to deliver email for SOA RNAME of skive.dk (admin.webhotel.net) using admin@webhotel.net.
+238.795: skive.dk INFO SOA TTL for skive.dk OK (86400) - recommended >= 3600.
+238.795: skive.dk NOTICE SOA refresh for skive.dk too small (10800) - recommended >= 14400.
+238.795: skive.dk INFO SOA retry for skive.dk OK (3600) - recommended >= 3600.
+238.795: skive.dk INFO SOA expire for skive.dk OK (604800) - recommended >= 604800.
+238.795: skive.dk INFO SOA minimum for skive.dk OK (86400) - recommended between 300 and 86400.
+238.795: skive.dk INFO Done testing SOA parameters for skive.dk.
+238.796: skive.dk INFO Begin testing connectivity for skive.dk.
+240.231: skive.dk INFO Zone announced by more than one ASN.
+240.231: skive.dk NOTICE Zone announced by fewer than two IPv6 ASN.
+240.231: skive.dk INFO Done testing connectivity for skive.dk.
+240.231: skive.dk INFO Begin testing DNSSEC for skive.dk.
+240.314: skive.dk INFO Did not find DS record for skive.dk at parent.
+242.327: skive.dk NOTICE DNS lookup error (connection failed).
+242.389: skive.dk INFO Servers for skive.dk have consistent extra processing status.
+244.433: skive.dk INFO Authenticated denial records not found for skive.dk.
+248.474: skive.dk INFO Did not find DNSKEY record for skive.dk at child.
+248.475: skive.dk INFO No DNSKEY(s) found at child, other tests skipped.
+248.475: skive.dk INFO Done testing DNSSEC for skive.dk.
+248.475: skive.dk INFO Test completed for zone skive.dk.

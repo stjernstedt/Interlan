@@ -1,0 +1,107 @@
+  0.000: seljord.kommune.no INFO Begin testing zone seljord.kommune.no with version 1.6.1.
+  0.487: seljord.kommune.no INFO Begin testing delegation for seljord.kommune.no.
+  8.598: seljord.kommune.no INFO Name servers listed at parent: ns.datacenter.no,ns1.datacenter.no
+  9.796: seljord.kommune.no INFO Name servers listed at child: ns.datacenter.no,ns2.datacenter.no
+  9.796: seljord.kommune.no ERROR Superfluous name server listed at parent: ns1.datacenter.no
+  9.796: seljord.kommune.no ERROR Too few name servers (1).
+  9.796: seljord.kommune.no NOTICE Additional name server listed at child: ns2.datacenter.no
+  9.796: seljord.kommune.no NOTICE No IPv6 name servers found.
+  9.931: seljord.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.092: seljord.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.216: seljord.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.339: seljord.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.098: seljord.kommune.no INFO It is possible to build a referral packet for seljord.kommune.no that works without EDNS0.
+ 11.787: seljord.kommune.no INFO Previously used name servers for seljord.kommune.no: 
+ 11.788: seljord.kommune.no INFO Done testing delegation for seljord.kommune.no.
+ 11.788: seljord.kommune.no INFO Begin testing name server ns.datacenter.no.
+ 11.788: seljord.kommune.no INFO Begin testing host ns.datacenter.no.
+ 12.016: seljord.kommune.no INFO Begin testing address 81.27.32.80.
+ 22.372: seljord.kommune.no INFO Done testing address 81.27.32.80.
+ 22.372: seljord.kommune.no INFO Begin testing address 81.27.32.80.
+ 22.864: seljord.kommune.no INFO Done testing address 81.27.32.80.
+ 22.864: seljord.kommune.no INFO Done testing host ns.datacenter.no.
+ 23.554: seljord.kommune.no INFO Name server ns.datacenter.no (81.27.32.80) answers queries over UDP.
+ 23.727: seljord.kommune.no INFO Name server ns.datacenter.no (81.27.32.80) answers queries over TCP.
+ 27.824: seljord.kommune.no INFO Name server ns.datacenter.no (81.27.32.80) is not recursive.
+ 27.991: seljord.kommune.no INFO Name server ns.datacenter.no (81.27.32.80) authoritative for seljord.kommune.no.
+ 28.091: seljord.kommune.no INFO Name server ns.datacenter.no (81.27.32.80) closed for zone transfer of seljord.kommune.no.
+ 28.116: seljord.kommune.no NOTICE DNS lookup error (FORMERR).
+ 28.147: seljord.kommune.no NOTICE DNS lookup error (FORMERR).
+ 28.186: seljord.kommune.no NOTICE DNS lookup error (FORMERR).
+ 28.226: seljord.kommune.no NOTICE DNS lookup error (FORMERR).
+ 28.285: seljord.kommune.no INFO Name server ns.datacenter.no (81.27.32.80) answers queries over UDP.
+ 28.354: seljord.kommune.no INFO Name server ns.datacenter.no (81.27.32.80) answers queries over TCP.
+ 32.406: seljord.kommune.no INFO Name server ns.datacenter.no (81.27.32.80) is not recursive.
+ 32.609: seljord.kommune.no INFO Name server ns.datacenter.no (81.27.32.80) authoritative for seljord.kommune.no.
+ 32.677: seljord.kommune.no INFO Name server ns.datacenter.no (81.27.32.80) closed for zone transfer of seljord.kommune.no.
+ 32.746: seljord.kommune.no NOTICE DNS lookup error (FORMERR).
+ 32.795: seljord.kommune.no NOTICE DNS lookup error (FORMERR).
+ 32.821: seljord.kommune.no NOTICE DNS lookup error (FORMERR).
+ 32.845: seljord.kommune.no NOTICE DNS lookup error (FORMERR).
+ 32.845: seljord.kommune.no INFO Done testing name server ns.datacenter.no.
+ 32.845: seljord.kommune.no INFO Begin testing name server ns2.datacenter.no.
+ 32.846: seljord.kommune.no INFO Begin testing host ns2.datacenter.no.
+ 32.980: seljord.kommune.no INFO Begin testing address 212.62.224.190.
+ 33.802: seljord.kommune.no INFO Done testing address 212.62.224.190.
+ 33.802: seljord.kommune.no INFO Done testing host ns2.datacenter.no.
+ 33.953: seljord.kommune.no INFO Name server ns2.datacenter.no (212.62.224.190) answers queries over UDP.
+ 33.981: seljord.kommune.no INFO Name server ns2.datacenter.no (212.62.224.190) answers queries over TCP.
+ 38.020: seljord.kommune.no INFO Name server ns2.datacenter.no (212.62.224.190) is not recursive.
+ 38.090: seljord.kommune.no INFO Name server ns2.datacenter.no (212.62.224.190) authoritative for seljord.kommune.no.
+ 38.128: seljord.kommune.no INFO Name server ns2.datacenter.no (212.62.224.190) closed for zone transfer of seljord.kommune.no.
+ 38.144: seljord.kommune.no NOTICE DNS lookup error (FORMERR).
+ 38.159: seljord.kommune.no NOTICE DNS lookup error (FORMERR).
+ 38.180: seljord.kommune.no NOTICE DNS lookup error (FORMERR).
+ 38.195: seljord.kommune.no NOTICE DNS lookup error (FORMERR).
+ 38.195: seljord.kommune.no INFO Done testing name server ns2.datacenter.no.
+ 38.195: seljord.kommune.no INFO Begin testing name server ns1.datacenter.no.
+ 38.196: seljord.kommune.no INFO Begin testing host ns1.datacenter.no.
+ 38.196: seljord.kommune.no ERROR No address found for ns1.datacenter.no.
+ 38.196: seljord.kommune.no INFO Done testing host ns1.datacenter.no.
+ 38.196: seljord.kommune.no ERROR Host name or address error for ns1.datacenter.no.
+ 38.196: seljord.kommune.no INFO Done testing name server ns1.datacenter.no.
+ 38.197: seljord.kommune.no INFO Begin testing zone consistency for seljord.kommune.no.
+ 38.513: seljord.kommune.no INFO SOA at address 81.27.32.80 has serial 1393881535.
+ 38.529: seljord.kommune.no INFO SOA at address 212.62.224.190 has serial 1393881535.
+ 38.531: seljord.kommune.no INFO All SOA records have consistent serial numbers.
+ 38.532: seljord.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 38.703: seljord.kommune.no NOTICE The listed nameservers for seljord.kommune.no all report the same set of nameservers.
+ 38.703: seljord.kommune.no INFO Done testing zone consistency for seljord.kommune.no.
+ 38.703: seljord.kommune.no INFO Begin testing SOA parameters for seljord.kommune.no.
+ 38.729: seljord.kommune.no INFO Found SOA record for seljord.kommune.no.
+ 38.729: seljord.kommune.no INFO Begin testing host ns.datacenter.no.
+ 38.825: seljord.kommune.no INFO Begin testing address 81.27.32.80.
+ 38.921: seljord.kommune.no INFO Done testing address 81.27.32.80.
+ 38.921: seljord.kommune.no INFO Begin testing address 81.27.32.80.
+ 39.035: seljord.kommune.no INFO Done testing address 81.27.32.80.
+ 39.035: seljord.kommune.no INFO Done testing host ns.datacenter.no.
+ 39.035: seljord.kommune.no INFO SOA MNAME for seljord.kommune.no valid (ns.datacenter.no).
+ 39.037: seljord.kommune.no INFO SOA MNAME for seljord.kommune.no (ns.datacenter.no) listed as NS.
+ 39.145: seljord.kommune.no INFO SOA MNAME for seljord.kommune.no (ns.datacenter.no) is authoritative.
+ 39.172: seljord.kommune.no INFO SOA MNAME for seljord.kommune.no (ns.datacenter.no) is authoritative.
+ 39.172: seljord.kommune.no INFO Begin testing email address hostmaster@seljord.kommune.no.
+ 39.302: seljord.kommune.no INFO Mail exchangers for hostmaster@seljord.kommune.no found spam03.aspit.no.
+ 39.303: seljord.kommune.no INFO Begin testing host spam03.aspit.no.
+ 39.748: seljord.kommune.no INFO Begin testing address 94.139.91.188.
+ 41.025: seljord.kommune.no INFO Done testing address 94.139.91.188.
+ 41.028: seljord.kommune.no INFO Done testing host spam03.aspit.no.
+ 41.129: seljord.kommune.no INFO Done testing email address hostmaster@seljord.kommune.no.
+ 41.129: seljord.kommune.no INFO Successful attempt to deliver email for SOA RNAME of seljord.kommune.no (hostmaster.seljord.kommune.no) using hostmaster@seljord.kommune.no.
+ 41.130: seljord.kommune.no NOTICE SOA TTL for seljord.kommune.no too small (2560) - recommended >= 3600.
+ 41.130: seljord.kommune.no INFO SOA refresh for seljord.kommune.no OK (16384) - recommended >= 14400.
+ 41.130: seljord.kommune.no NOTICE SOA retry for seljord.kommune.no too small (2048) - recommended >= 3600.
+ 41.130: seljord.kommune.no INFO SOA expire for seljord.kommune.no OK (1048576) - recommended >= 604800.
+ 41.130: seljord.kommune.no INFO SOA minimum for seljord.kommune.no OK (2560) - recommended between 300 and 86400.
+ 41.130: seljord.kommune.no INFO Done testing SOA parameters for seljord.kommune.no.
+ 41.131: seljord.kommune.no INFO Begin testing connectivity for seljord.kommune.no.
+ 42.118: seljord.kommune.no INFO Zone announced by more than one ASN.
+ 42.118: seljord.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 42.118: seljord.kommune.no INFO Done testing connectivity for seljord.kommune.no.
+ 42.118: seljord.kommune.no INFO Begin testing DNSSEC for seljord.kommune.no.
+ 42.208: seljord.kommune.no INFO Did not find DS record for seljord.kommune.no at parent.
+ 42.288: seljord.kommune.no INFO Servers for seljord.kommune.no have consistent extra processing status.
+ 42.336: seljord.kommune.no INFO Authenticated denial records not found for seljord.kommune.no.
+ 42.362: seljord.kommune.no INFO Did not find DNSKEY record for seljord.kommune.no at child.
+ 42.362: seljord.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 42.362: seljord.kommune.no INFO Done testing DNSSEC for seljord.kommune.no.
+ 42.363: seljord.kommune.no INFO Test completed for zone seljord.kommune.no.

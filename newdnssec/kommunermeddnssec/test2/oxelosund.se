@@ -1,0 +1,94 @@
+  0.000: oxelosund.se INFO Begin testing zone oxelosund.se with version 1.2.
+  0.000: oxelosund.se INFO Begin testing delegation for oxelosund.se.
+  5.234: oxelosund.se INFO Name servers listed at parent: ns1.oxelosund.se,ns2.oxelosund.se
+  6.336: oxelosund.se INFO Name servers listed at child: ns1.oxelosund.se,ns2.oxelosund.se
+  6.336: oxelosund.se NOTICE No IPv6 name servers found.
+  6.376: oxelosund.se INFO Parent glue for oxelosund.se found: ns1.oxelosund.se (193.138.71.10)
+  6.424: oxelosund.se INFO Parent glue for oxelosund.se found: ns2.oxelosund.se (193.138.71.30)
+  6.443: oxelosund.se INFO Checking glue for ns1.oxelosund.se (193.138.71.10).
+  6.454: oxelosund.se INFO Child glue for oxelosund.se found: ns1.oxelosund.se (193.138.71.10)
+  6.454: oxelosund.se INFO Checking glue for ns2.oxelosund.se (193.138.71.30).
+  6.464: oxelosund.se INFO Child glue for oxelosund.se found: ns2.oxelosund.se (193.138.71.30)
+  6.465: oxelosund.se INFO Parent glue for oxelosund.se found: ns1.oxelosund.se (193.138.71.10)
+  6.465: oxelosund.se INFO Parent glue for oxelosund.se found: ns2.oxelosund.se (193.138.71.30)
+  6.466: oxelosund.se INFO Done testing delegation for oxelosund.se.
+  6.466: oxelosund.se INFO Begin testing name server ns1.oxelosund.se.
+  6.466: oxelosund.se INFO Begin testing host ns1.oxelosund.se.
+  6.467: oxelosund.se INFO Begin testing address 193.138.71.10.
+  9.798: oxelosund.se INFO Done testing address 193.138.71.10.
+  9.798: oxelosund.se INFO Done testing host ns1.oxelosund.se.
+  9.809: oxelosund.se INFO Name server ns1.oxelosund.se (193.138.71.10) answers queries over UDP.
+  9.826: oxelosund.se INFO Name server ns1.oxelosund.se (193.138.71.10) answers queries over TCP.
+  9.836: oxelosund.se INFO Name server ns1.oxelosund.se (193.138.71.10) is not recursive.
+  9.847: oxelosund.se INFO Name server ns1.oxelosund.se (193.138.71.10) authoritative for oxelosund.se.
+  9.871: oxelosund.se INFO Name server ns1.oxelosund.se (193.138.71.10) closed for zone transfer of oxelosund.se.
+  9.884: oxelosund.se INFO Legacy name server ID for ns1.oxelosund.se (193.138.71.10): hostname.bind = ns1.oxelosund.se
+  9.894: oxelosund.se INFO Legacy name server ID for ns1.oxelosund.se (193.138.71.10): version.bind = gurumeditation 2.1-lh2
+  9.914: oxelosund.se NOTICE No answer received from 193.138.71.10 when querying for version.server/CH/TXT.
+  9.914: oxelosund.se INFO Done testing name server ns1.oxelosund.se.
+  9.914: oxelosund.se INFO Begin testing name server ns2.oxelosund.se.
+  9.914: oxelosund.se INFO Begin testing host ns2.oxelosund.se.
+  9.915: oxelosund.se INFO Begin testing address 193.138.71.30.
+ 10.929: oxelosund.se INFO Done testing address 193.138.71.30.
+ 10.929: oxelosund.se INFO Done testing host ns2.oxelosund.se.
+ 10.940: oxelosund.se INFO Name server ns2.oxelosund.se (193.138.71.30) answers queries over UDP.
+ 10.958: oxelosund.se INFO Name server ns2.oxelosund.se (193.138.71.30) answers queries over TCP.
+ 10.970: oxelosund.se INFO Name server ns2.oxelosund.se (193.138.71.30) is not recursive.
+ 10.981: oxelosund.se INFO Name server ns2.oxelosund.se (193.138.71.30) authoritative for oxelosund.se.
+ 11.005: oxelosund.se INFO Name server ns2.oxelosund.se (193.138.71.30) closed for zone transfer of oxelosund.se.
+ 11.014: oxelosund.se NOTICE No answer received from 193.138.71.30 when querying for hostname.bind/CH/TXT.
+ 11.024: oxelosund.se INFO Legacy name server ID for ns2.oxelosund.se (193.138.71.30): version.bind = gurumeditation 2.1-lh2
+ 11.033: oxelosund.se NOTICE No answer received from 193.138.71.30 when querying for id.server/CH/TXT.
+ 11.043: oxelosund.se NOTICE No answer received from 193.138.71.30 when querying for version.server/CH/TXT.
+ 11.043: oxelosund.se INFO Done testing name server ns2.oxelosund.se.
+ 11.043: oxelosund.se INFO Begin testing zone consistency for oxelosund.se.
+ 11.056: oxelosund.se INFO SOA at address 193.138.71.30 has serial 2010110601.
+ 11.066: oxelosund.se INFO SOA at address 193.138.71.10 has serial 2010110601.
+ 11.066: oxelosund.se INFO All SOA records have consistent serial numbers.
+ 11.066: oxelosund.se INFO All SOA records are consistent among all name servers.
+ 11.066: oxelosund.se INFO Done testing zone consistency for oxelosund.se.
+ 11.066: oxelosund.se INFO Begin testing SOA parameters for oxelosund.se.
+ 11.077: oxelosund.se INFO Found SOA record for oxelosund.se.
+ 11.077: oxelosund.se INFO Begin testing host ns1.oxelosund.se.
+ 11.077: oxelosund.se INFO Begin testing address 193.138.71.10.
+ 11.078: oxelosund.se INFO Done testing address 193.138.71.10.
+ 11.078: oxelosund.se INFO Done testing host ns1.oxelosund.se.
+ 11.078: oxelosund.se INFO SOA MNAME for oxelosund.se valid (ns1.oxelosund.se).
+ 11.078: oxelosund.se INFO SOA MNAME for oxelosund.se (ns1.oxelosund.se) listed as NS.
+ 11.089: oxelosund.se INFO SOA MNAME for oxelosund.se (ns1.oxelosund.se) is authoritative.
+ 11.090: oxelosund.se INFO Begin testing email address hostmaster@oxelosund.se.
+ 19.356: oxelosund.se INFO Mail exchangers for hostmaster@oxelosund.se found x200.oxelosund.se.
+ 19.356: oxelosund.se INFO All mail servers for hostmaster@oxelosund.se are in zone oxelosund.se.
+ 19.356: oxelosund.se INFO Begin testing host x200.oxelosund.se.
+ 19.787: oxelosund.se INFO Begin testing address 193.138.71.39.
+ 20.022: oxelosund.se INFO Done testing address 193.138.71.39.
+ 20.022: oxelosund.se INFO Done testing host x200.oxelosund.se.
+ 20.023: oxelosund.se INFO Begin testing mail server x200.oxelosund.se (193.138.71.39) with hostmaster@oxelosund.se.
+ 20.109: oxelosund.se INFO SMTP banner: x200.oxelosund.se ESMTP Mon, 13 Dec 2010 20:59:15 +0100
+ 20.140: oxelosund.se INFO SMTP testing of x200.oxelosund.se (193.138.71.39) with hostmaster@oxelosund.se succeeded without errors.
+ 20.140: oxelosund.se INFO Done testing mail server x200.oxelosund.se (193.138.71.39) with hostmaster@oxelosund.se.
+ 20.141: oxelosund.se INFO Delivery over IPv4 to hostmaster@oxelosund.se ok.
+ 20.141: oxelosund.se INFO Delivery over IPv6 to hostmaster@oxelosund.se could not be done.
+ 20.141: oxelosund.se INFO Done testing email address hostmaster@oxelosund.se.
+ 20.141: oxelosund.se INFO Successful attempt to deliver email for SOA RNAME of oxelosund.se (hostmaster.oxelosund.se) using hostmaster@oxelosund.se.
+ 20.141: oxelosund.se INFO SOA TTL for oxelosund.se OK (38400) - recommended >= 3600.
+ 20.141: oxelosund.se NOTICE SOA refresh for oxelosund.se too small (10000) - recommended >= 14400.
+ 20.141: oxelosund.se INFO SOA retry for oxelosund.se OK (7200) - recommended >= 3600.
+ 20.141: oxelosund.se INFO SOA expire for oxelosund.se OK (604800) - recommended >= 604800.
+ 20.141: oxelosund.se INFO SOA minimum for oxelosund.se OK (38400) - recommended between 300 and 86400.
+ 20.141: oxelosund.se INFO Done testing SOA parameters for oxelosund.se.
+ 20.141: oxelosund.se INFO Begin testing connectivity for oxelosund.se.
+ 20.796: oxelosund.se INFO Name server 193.138.71.30 announced by: 8434
+ 21.417: oxelosund.se INFO Name server 193.138.71.10 announced by: 8434
+ 21.417: oxelosund.se INFO Zone announced by IPv4 ASN: 8434
+ 21.417: oxelosund.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 21.418: oxelosund.se INFO Zone announced by IPv6 ASN: 
+ 21.418: oxelosund.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 21.418: oxelosund.se INFO Done testing connectivity for oxelosund.se.
+ 21.418: oxelosund.se INFO Begin testing DNSSEC for oxelosund.se.
+ 21.499: oxelosund.se INFO Did not find DS record for oxelosund.se at parent.
+ 21.532: oxelosund.se INFO Servers for oxelosund.se have consistent extra processing status.
+ 21.532: oxelosund.se INFO Did not find DNSKEY record for oxelosund.se at child.
+ 21.532: oxelosund.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 21.533: oxelosund.se INFO Done testing DNSSEC for oxelosund.se.
+ 21.533: oxelosund.se INFO Test completed for zone oxelosund.se.

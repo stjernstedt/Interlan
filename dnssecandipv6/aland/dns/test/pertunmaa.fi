@@ -1,0 +1,80 @@
+  0.000: pertunmaa.fi INFO Begin testing zone pertunmaa.fi with version 1.5.0.
+  1.820: pertunmaa.fi INFO Begin testing delegation for pertunmaa.fi.
+ 52.287: pertunmaa.fi INFO Name servers listed at parent: ns1.akusolvers.fi,ns2.akusolvers.fi
+ 63.525: pertunmaa.fi INFO Name servers listed at child: ns1.akusolvers.fi,ns2.akusolvers.fi
+ 63.525: pertunmaa.fi NOTICE No IPv6 name servers found.
+ 65.476: pertunmaa.fi NOTICE DNS lookup error (SERVFAIL).
+ 65.968: pertunmaa.fi NOTICE DNS lookup error (SERVFAIL).
+ 66.544: pertunmaa.fi NOTICE DNS lookup error (SERVFAIL).
+ 67.049: pertunmaa.fi NOTICE DNS lookup error (SERVFAIL).
+ 70.998: pertunmaa.fi INFO It is possible to build a referral packet for pertunmaa.fi that works without EDNS0.
+ 74.386: pertunmaa.fi INFO Previously used name servers for pertunmaa.fi: 
+ 74.386: pertunmaa.fi INFO Done testing delegation for pertunmaa.fi.
+ 74.386: pertunmaa.fi INFO Begin testing name server ns1.akusolvers.fi.
+ 74.386: pertunmaa.fi INFO Begin testing host ns1.akusolvers.fi.
+ 76.098: pertunmaa.fi INFO Begin testing address 178.16.177.52.
+122.716: pertunmaa.fi INFO Done testing address 178.16.177.52.
+122.716: pertunmaa.fi INFO Done testing host ns1.akusolvers.fi.
+125.100: pertunmaa.fi INFO Name server ns1.akusolvers.fi (178.16.177.52) answers queries over UDP.
+125.336: pertunmaa.fi INFO Name server ns1.akusolvers.fi (178.16.177.52) answers queries over TCP.
+125.629: pertunmaa.fi INFO Name server ns1.akusolvers.fi (178.16.177.52) is not recursive.
+126.475: pertunmaa.fi INFO Name server ns1.akusolvers.fi (178.16.177.52) authoritative for pertunmaa.fi.
+126.705: pertunmaa.fi INFO Name server ns1.akusolvers.fi (178.16.177.52) closed for zone transfer of pertunmaa.fi.
+127.132: pertunmaa.fi INFO Legacy name server ID for ns1.akusolvers.fi (178.16.177.52): version.bind = Served by PowerDNS - http://www.powerdns.com
+127.674: pertunmaa.fi INFO Done testing name server ns1.akusolvers.fi.
+127.674: pertunmaa.fi INFO Begin testing name server ns2.akusolvers.fi.
+127.675: pertunmaa.fi INFO Begin testing host ns2.akusolvers.fi.
+129.400: pertunmaa.fi INFO Begin testing address 212.146.47.80.
+147.752: pertunmaa.fi INFO Done testing address 212.146.47.80.
+147.752: pertunmaa.fi INFO Done testing host ns2.akusolvers.fi.
+150.632: pertunmaa.fi INFO Name server ns2.akusolvers.fi (212.146.47.80) answers queries over UDP.
+151.007: pertunmaa.fi INFO Name server ns2.akusolvers.fi (212.146.47.80) answers queries over TCP.
+151.571: pertunmaa.fi INFO Name server ns2.akusolvers.fi (212.146.47.80) is not recursive.
+152.736: pertunmaa.fi INFO Name server ns2.akusolvers.fi (212.146.47.80) authoritative for pertunmaa.fi.
+153.071: pertunmaa.fi INFO Name server ns2.akusolvers.fi (212.146.47.80) closed for zone transfer of pertunmaa.fi.
+153.712: pertunmaa.fi INFO Legacy name server ID for ns2.akusolvers.fi (212.146.47.80): version.bind = Served by PowerDNS - http://www.powerdns.com
+154.363: pertunmaa.fi INFO Done testing name server ns2.akusolvers.fi.
+154.363: pertunmaa.fi INFO Begin testing zone consistency for pertunmaa.fi.
+163.868: pertunmaa.fi INFO SOA at address 212.146.47.80 has serial 2013040815.
+164.236: pertunmaa.fi INFO SOA at address 178.16.177.52 has serial 2013040815.
+164.236: pertunmaa.fi INFO All SOA records have consistent serial numbers.
+164.237: pertunmaa.fi INFO All other fields in the SOA record are consistent among all name servers.
+169.092: pertunmaa.fi NOTICE The listed nameservers for pertunmaa.fi all report the same set of nameservers.
+169.092: pertunmaa.fi INFO Done testing zone consistency for pertunmaa.fi.
+169.092: pertunmaa.fi INFO Begin testing SOA parameters for pertunmaa.fi.
+169.500: pertunmaa.fi INFO Found SOA record for pertunmaa.fi.
+169.501: pertunmaa.fi INFO Begin testing host ns1.akusolvers.fi.
+171.654: pertunmaa.fi INFO Begin testing address 178.16.177.52.
+173.940: pertunmaa.fi INFO Done testing address 178.16.177.52.
+173.940: pertunmaa.fi INFO Done testing host ns1.akusolvers.fi.
+173.940: pertunmaa.fi INFO SOA MNAME for pertunmaa.fi valid (ns1.akusolvers.fi).
+173.941: pertunmaa.fi INFO SOA MNAME for pertunmaa.fi (ns1.akusolvers.fi) listed as NS.
+176.804: pertunmaa.fi INFO SOA MNAME for pertunmaa.fi (ns1.akusolvers.fi) is authoritative.
+176.804: pertunmaa.fi INFO Begin testing email address hostmaster@akusolvers.fi.
+179.274: pertunmaa.fi INFO Mail exchangers for hostmaster@akusolvers.fi found mail.zd.fi.
+179.479: pertunmaa.fi INFO Begin testing host mail.zd.fi.
+184.352: pertunmaa.fi INFO Begin testing address 91.197.208.4.
+190.976: pertunmaa.fi INFO Done testing address 91.197.208.4.
+190.976: pertunmaa.fi INFO Done testing host mail.zd.fi.
+193.356: pertunmaa.fi INFO Done testing email address hostmaster@akusolvers.fi.
+193.356: pertunmaa.fi INFO Successful attempt to deliver email for SOA RNAME of pertunmaa.fi (hostmaster.akusolvers.fi) using hostmaster@akusolvers.fi.
+193.356: pertunmaa.fi INFO SOA TTL for pertunmaa.fi OK (86400) - recommended >= 3600.
+193.356: pertunmaa.fi NOTICE SOA refresh for pertunmaa.fi too small (10800) - recommended >= 14400.
+193.356: pertunmaa.fi INFO SOA retry for pertunmaa.fi OK (3600) - recommended >= 3600.
+193.356: pertunmaa.fi INFO SOA expire for pertunmaa.fi OK (604800) - recommended >= 604800.
+193.356: pertunmaa.fi INFO SOA minimum for pertunmaa.fi OK (3600) - recommended between 300 and 86400.
+193.356: pertunmaa.fi INFO Done testing SOA parameters for pertunmaa.fi.
+193.357: pertunmaa.fi INFO Begin testing connectivity for pertunmaa.fi.
+200.070: pertunmaa.fi INFO Zone announced by more than one ASN.
+200.070: pertunmaa.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+200.070: pertunmaa.fi INFO Done testing connectivity for pertunmaa.fi.
+200.070: pertunmaa.fi INFO Begin testing DNSSEC for pertunmaa.fi.
+200.766: pertunmaa.fi INFO Did not find DS record for pertunmaa.fi at parent.
+201.259: pertunmaa.fi NOTICE DNS lookup error (unknown error or no error).
+201.528: pertunmaa.fi NOTICE DNS lookup error (unknown error or no error).
+201.528: pertunmaa.fi INFO Servers for pertunmaa.fi have consistent extra processing status.
+201.823: pertunmaa.fi INFO Authenticated denial records not found for pertunmaa.fi.
+202.072: pertunmaa.fi INFO Did not find DNSKEY record for pertunmaa.fi at child.
+202.072: pertunmaa.fi INFO No DNSKEY(s) found at child, other tests skipped.
+202.072: pertunmaa.fi INFO Done testing DNSSEC for pertunmaa.fi.
+202.073: pertunmaa.fi INFO Test completed for zone pertunmaa.fi.

@@ -1,0 +1,227 @@
+  0.000: sseo.se INFO Begin testing zone sseo.se with version 1.5.0.
+  0.001: sseo.se INFO Begin testing delegation for sseo.se.
+ 13.234: sseo.se INFO Name servers listed at parent: ns3.binero.se,ns4.binero.se
+ 19.575: sseo.se INFO Name servers listed at child: ns3.binero.se,ns4.binero.se,ns5.binero.se,ns6.binero.se,ns7.binero.se
+ 19.575: sseo.se NOTICE Additional name server listed at child: ns5.binero.se
+ 19.575: sseo.se NOTICE Additional name server listed at child: ns6.binero.se
+ 19.575: sseo.se NOTICE Additional name server listed at child: ns7.binero.se
+ 19.666: sseo.se INFO Parent glue for sseo.se found: ns3.binero.se (156.154.64.58)
+ 19.745: sseo.se INFO Parent glue for sseo.se found: ns3.binero.se (2001:502:4612:0:0:0:0:13)
+ 19.810: sseo.se INFO Parent glue for sseo.se found: ns4.binero.se (156.154.67.58)
+ 19.938: sseo.se INFO Parent glue for sseo.se found: ns4.binero.se (2001:502:4612:0:0:0:0:14)
+ 19.938: sseo.se INFO Checking glue for ns3.binero.se (156.154.64.58).
+ 19.938: sseo.se INFO Checking glue for ns3.binero.se (2001:502:4612:0:0:0:0:13).
+ 19.939: sseo.se INFO Checking glue for ns4.binero.se (156.154.67.58).
+ 19.939: sseo.se INFO Checking glue for ns4.binero.se (2001:502:4612:0:0:0:0:14).
+ 19.939: sseo.se INFO Parent glue for sseo.se found: ns3.binero.se (156.154.64.58)
+ 19.940: sseo.se INFO Parent glue for sseo.se found: ns3.binero.se (2001:502:4612:0:0:0:0:13)
+ 19.940: sseo.se INFO Parent glue for sseo.se found: ns4.binero.se (156.154.67.58)
+ 19.940: sseo.se INFO Parent glue for sseo.se found: ns4.binero.se (2001:502:4612:0:0:0:0:14)
+ 21.014: sseo.se INFO It is possible to build a referral packet for sseo.se that works without EDNS0.
+ 21.022: sseo.se INFO Done testing delegation for sseo.se.
+ 21.022: sseo.se INFO Begin testing name server ns3.binero.se.
+ 21.022: sseo.se INFO Begin testing host ns3.binero.se.
+ 21.023: sseo.se INFO Begin testing address 156.154.64.58.
+ 34.244: sseo.se INFO Done testing address 156.154.64.58.
+ 34.244: sseo.se INFO Begin testing address 2001:502:4612:0:0:0:0:13.
+ 43.280: sseo.se INFO Done testing address 2001:502:4612:0:0:0:0:13.
+ 43.280: sseo.se INFO Done testing host ns3.binero.se.
+ 43.333: sseo.se INFO Name server ns3.binero.se (156.154.64.58) answers queries over UDP.
+ 43.403: sseo.se INFO Name server ns3.binero.se (156.154.64.58) answers queries over TCP.
+ 43.440: sseo.se INFO Name server ns3.binero.se (156.154.64.58) is not recursive.
+ 43.594: sseo.se INFO Name server ns3.binero.se (156.154.64.58) authoritative for sseo.se.
+ 43.695: sseo.se INFO Name server ns3.binero.se (156.154.64.58) closed for zone transfer of sseo.se.
+ 43.731: sseo.se NOTICE No answer received from 156.154.64.58 when querying for hostname.bind/CH/TXT.
+ 43.769: sseo.se INFO Legacy name server ID for ns3.binero.se (156.154.64.58): version.bind = UltraDNS Resolver
+ 43.806: sseo.se NOTICE No answer received from 156.154.64.58 when querying for id.server/CH/TXT.
+ 43.841: sseo.se NOTICE No answer received from 156.154.64.58 when querying for version.server/CH/TXT.
+ 43.874: sseo.se INFO Name server ns3.binero.se (2001:502:4612:0:0:0:0:13) answers queries over UDP.
+ 43.951: sseo.se INFO Name server ns3.binero.se (2001:502:4612:0:0:0:0:13) answers queries over TCP.
+ 43.993: sseo.se INFO Name server ns3.binero.se (2001:502:4612:0:0:0:0:13) is not recursive.
+ 44.148: sseo.se INFO Name server ns3.binero.se (2001:502:4612:0:0:0:0:13) authoritative for sseo.se.
+ 44.252: sseo.se INFO Name server ns3.binero.se (2001:502:4612:0:0:0:0:13) closed for zone transfer of sseo.se.
+ 44.288: sseo.se NOTICE No answer received from 2001:502:4612:0:0:0:0:13 when querying for hostname.bind/CH/TXT.
+ 44.331: sseo.se INFO Legacy name server ID for ns3.binero.se (2001:502:4612:0:0:0:0:13): version.bind = UltraDNS Resolver
+ 44.372: sseo.se NOTICE No answer received from 2001:502:4612:0:0:0:0:13 when querying for id.server/CH/TXT.
+ 44.411: sseo.se NOTICE No answer received from 2001:502:4612:0:0:0:0:13 when querying for version.server/CH/TXT.
+ 44.411: sseo.se INFO Done testing name server ns3.binero.se.
+ 44.411: sseo.se INFO Begin testing name server ns4.binero.se.
+ 44.412: sseo.se INFO Begin testing host ns4.binero.se.
+ 44.412: sseo.se INFO Begin testing address 156.154.67.58.
+ 44.979: sseo.se INFO Done testing address 156.154.67.58.
+ 44.979: sseo.se INFO Begin testing address 2001:502:4612:0:0:0:0:14.
+ 45.780: sseo.se INFO Done testing address 2001:502:4612:0:0:0:0:14.
+ 45.780: sseo.se INFO Done testing host ns4.binero.se.
+ 45.825: sseo.se INFO Name server ns4.binero.se (156.154.67.58) answers queries over UDP.
+ 45.892: sseo.se INFO Name server ns4.binero.se (156.154.67.58) answers queries over TCP.
+ 45.930: sseo.se INFO Name server ns4.binero.se (156.154.67.58) is not recursive.
+ 46.118: sseo.se INFO Name server ns4.binero.se (156.154.67.58) authoritative for sseo.se.
+ 46.225: sseo.se INFO Name server ns4.binero.se (156.154.67.58) closed for zone transfer of sseo.se.
+ 46.272: sseo.se NOTICE No answer received from 156.154.67.58 when querying for hostname.bind/CH/TXT.
+ 46.323: sseo.se INFO Legacy name server ID for ns4.binero.se (156.154.67.58): version.bind = UltraDNS Resolver
+ 46.369: sseo.se NOTICE No answer received from 156.154.67.58 when querying for id.server/CH/TXT.
+ 46.412: sseo.se NOTICE No answer received from 156.154.67.58 when querying for version.server/CH/TXT.
+ 46.456: sseo.se INFO Name server ns4.binero.se (2001:502:4612:0:0:0:0:14) answers queries over UDP.
+ 46.549: sseo.se INFO Name server ns4.binero.se (2001:502:4612:0:0:0:0:14) answers queries over TCP.
+ 46.587: sseo.se INFO Name server ns4.binero.se (2001:502:4612:0:0:0:0:14) is not recursive.
+ 46.759: sseo.se INFO Name server ns4.binero.se (2001:502:4612:0:0:0:0:14) authoritative for sseo.se.
+ 46.859: sseo.se INFO Name server ns4.binero.se (2001:502:4612:0:0:0:0:14) closed for zone transfer of sseo.se.
+ 46.916: sseo.se NOTICE No answer received from 2001:502:4612:0:0:0:0:14 when querying for hostname.bind/CH/TXT.
+ 46.953: sseo.se INFO Legacy name server ID for ns4.binero.se (2001:502:4612:0:0:0:0:14): version.bind = UltraDNS Resolver
+ 46.988: sseo.se NOTICE No answer received from 2001:502:4612:0:0:0:0:14 when querying for id.server/CH/TXT.
+ 47.019: sseo.se NOTICE No answer received from 2001:502:4612:0:0:0:0:14 when querying for version.server/CH/TXT.
+ 47.019: sseo.se INFO Done testing name server ns4.binero.se.
+ 47.020: sseo.se INFO Begin testing name server ns5.binero.se.
+ 47.020: sseo.se INFO Begin testing host ns5.binero.se.
+ 47.020: sseo.se INFO Begin testing address 156.154.64.59.
+ 47.744: sseo.se INFO Done testing address 156.154.64.59.
+ 47.745: sseo.se INFO Begin testing address 2001:502:f3ff:0:0:0:0:13.
+ 48.378: sseo.se INFO Done testing address 2001:502:f3ff:0:0:0:0:13.
+ 48.378: sseo.se INFO Done testing host ns5.binero.se.
+ 48.433: sseo.se INFO Name server ns5.binero.se (156.154.64.59) answers queries over UDP.
+ 48.503: sseo.se INFO Name server ns5.binero.se (156.154.64.59) answers queries over TCP.
+ 48.549: sseo.se INFO Name server ns5.binero.se (156.154.64.59) is not recursive.
+ 48.723: sseo.se INFO Name server ns5.binero.se (156.154.64.59) authoritative for sseo.se.
+ 48.826: sseo.se INFO Name server ns5.binero.se (156.154.64.59) closed for zone transfer of sseo.se.
+ 48.862: sseo.se NOTICE No answer received from 156.154.64.59 when querying for hostname.bind/CH/TXT.
+ 48.903: sseo.se INFO Legacy name server ID for ns5.binero.se (156.154.64.59): version.bind = UltraDNS Resolver
+ 48.939: sseo.se NOTICE No answer received from 156.154.64.59 when querying for id.server/CH/TXT.
+ 48.979: sseo.se NOTICE No answer received from 156.154.64.59 when querying for version.server/CH/TXT.
+ 49.033: sseo.se INFO Name server ns5.binero.se (2001:502:f3ff:0:0:0:0:13) answers queries over UDP.
+ 49.111: sseo.se INFO Name server ns5.binero.se (2001:502:f3ff:0:0:0:0:13) answers queries over TCP.
+ 49.164: sseo.se INFO Name server ns5.binero.se (2001:502:f3ff:0:0:0:0:13) is not recursive.
+ 49.380: sseo.se INFO Name server ns5.binero.se (2001:502:f3ff:0:0:0:0:13) authoritative for sseo.se.
+ 49.504: sseo.se INFO Name server ns5.binero.se (2001:502:f3ff:0:0:0:0:13) closed for zone transfer of sseo.se.
+ 49.548: sseo.se NOTICE No answer received from 2001:502:f3ff:0:0:0:0:13 when querying for hostname.bind/CH/TXT.
+ 49.595: sseo.se INFO Legacy name server ID for ns5.binero.se (2001:502:f3ff:0:0:0:0:13): version.bind = UltraDNS Resolver
+ 49.652: sseo.se NOTICE No answer received from 2001:502:f3ff:0:0:0:0:13 when querying for id.server/CH/TXT.
+ 49.698: sseo.se NOTICE No answer received from 2001:502:f3ff:0:0:0:0:13 when querying for version.server/CH/TXT.
+ 49.699: sseo.se INFO Done testing name server ns5.binero.se.
+ 49.699: sseo.se INFO Begin testing name server ns6.binero.se.
+ 49.699: sseo.se INFO Begin testing host ns6.binero.se.
+ 49.699: sseo.se INFO Begin testing address 156.154.67.59.
+ 50.235: sseo.se INFO Done testing address 156.154.67.59.
+ 50.236: sseo.se INFO Begin testing address 2001:502:f3ff:0:0:0:0:14.
+ 50.989: sseo.se INFO Done testing address 2001:502:f3ff:0:0:0:0:14.
+ 50.989: sseo.se INFO Done testing host ns6.binero.se.
+ 51.027: sseo.se INFO Name server ns6.binero.se (156.154.67.59) answers queries over UDP.
+ 51.093: sseo.se INFO Name server ns6.binero.se (156.154.67.59) answers queries over TCP.
+ 51.136: sseo.se INFO Name server ns6.binero.se (156.154.67.59) is not recursive.
+ 51.305: sseo.se INFO Name server ns6.binero.se (156.154.67.59) authoritative for sseo.se.
+ 51.412: sseo.se INFO Name server ns6.binero.se (156.154.67.59) closed for zone transfer of sseo.se.
+ 51.449: sseo.se NOTICE No answer received from 156.154.67.59 when querying for hostname.bind/CH/TXT.
+ 51.487: sseo.se INFO Legacy name server ID for ns6.binero.se (156.154.67.59): version.bind = UltraDNS Resolver
+ 51.521: sseo.se NOTICE No answer received from 156.154.67.59 when querying for id.server/CH/TXT.
+ 51.554: sseo.se NOTICE No answer received from 156.154.67.59 when querying for version.server/CH/TXT.
+ 51.593: sseo.se INFO Name server ns6.binero.se (2001:502:f3ff:0:0:0:0:14) answers queries over UDP.
+ 51.665: sseo.se INFO Name server ns6.binero.se (2001:502:f3ff:0:0:0:0:14) answers queries over TCP.
+ 51.707: sseo.se INFO Name server ns6.binero.se (2001:502:f3ff:0:0:0:0:14) is not recursive.
+ 51.879: sseo.se INFO Name server ns6.binero.se (2001:502:f3ff:0:0:0:0:14) authoritative for sseo.se.
+ 51.999: sseo.se INFO Name server ns6.binero.se (2001:502:f3ff:0:0:0:0:14) closed for zone transfer of sseo.se.
+ 52.045: sseo.se NOTICE No answer received from 2001:502:f3ff:0:0:0:0:14 when querying for hostname.bind/CH/TXT.
+ 52.086: sseo.se INFO Legacy name server ID for ns6.binero.se (2001:502:f3ff:0:0:0:0:14): version.bind = UltraDNS Resolver
+ 52.133: sseo.se NOTICE No answer received from 2001:502:f3ff:0:0:0:0:14 when querying for id.server/CH/TXT.
+ 52.478: sseo.se NOTICE No answer received from 2001:502:f3ff:0:0:0:0:14 when querying for version.server/CH/TXT.
+ 52.478: sseo.se INFO Done testing name server ns6.binero.se.
+ 52.479: sseo.se INFO Begin testing name server ns7.binero.se.
+ 52.479: sseo.se INFO Begin testing host ns7.binero.se.
+ 52.826: sseo.se INFO Begin testing address 195.74.38.250.
+ 54.763: sseo.se INFO Done testing address 195.74.38.250.
+ 54.763: sseo.se INFO Done testing host ns7.binero.se.
+ 55.136: sseo.se INFO Name server ns7.binero.se (195.74.38.250) answers queries over UDP.
+ 55.146: sseo.se INFO Name server ns7.binero.se (195.74.38.250) answers queries over TCP.
+ 55.153: sseo.se INFO Name server ns7.binero.se (195.74.38.250) is not recursive.
+ 55.180: sseo.se INFO Name server ns7.binero.se (195.74.38.250) authoritative for sseo.se.
+ 55.308: sseo.se INFO Name server ns7.binero.se (195.74.38.250) closed for zone transfer of sseo.se.
+ 55.340: sseo.se INFO Legacy name server ID for ns7.binero.se (195.74.38.250): version.bind = Binero DNS
+ 55.362: sseo.se INFO Done testing name server ns7.binero.se.
+ 55.363: sseo.se INFO Begin testing zone consistency for sseo.se.
+ 55.792: sseo.se INFO SOA at address 156.154.67.58 has serial 1374710400.
+ 55.834: sseo.se INFO SOA at address 156.154.64.58 has serial 1374710400.
+ 55.843: sseo.se INFO SOA at address 195.74.38.250 has serial 1374710400.
+ 55.878: sseo.se INFO SOA at address 2001:502:4612:0:0:0:0:14 has serial 1374710400.
+ 55.918: sseo.se INFO SOA at address 2001:502:f3ff:0:0:0:0:13 has serial 1374710400.
+ 55.952: sseo.se INFO SOA at address 156.154.67.59 has serial 1374710400.
+ 55.993: sseo.se INFO SOA at address 2001:502:f3ff:0:0:0:0:14 has serial 1374710400.
+ 56.032: sseo.se INFO SOA at address 2001:502:4612:0:0:0:0:13 has serial 1374710400.
+ 56.068: sseo.se INFO SOA at address 156.154.64.59 has serial 1374710400.
+ 56.068: sseo.se INFO All SOA records have consistent serial numbers.
+ 56.068: sseo.se INFO All other fields in the SOA record are consistent among all name servers.
+ 56.230: sseo.se NOTICE The listed nameservers for sseo.se all report the same set of nameservers.
+ 56.230: sseo.se INFO Done testing zone consistency for sseo.se.
+ 56.230: sseo.se INFO Begin testing SOA parameters for sseo.se.
+ 56.265: sseo.se INFO Found SOA record for sseo.se.
+ 56.265: sseo.se INFO Begin testing host ns3.binero.se.
+ 56.265: sseo.se INFO Begin testing address 156.154.64.58.
+ 56.267: sseo.se INFO Done testing address 156.154.64.58.
+ 56.268: sseo.se INFO Begin testing address 2001:502:4612:0:0:0:0:13.
+ 56.270: sseo.se INFO Done testing address 2001:502:4612:0:0:0:0:13.
+ 56.270: sseo.se INFO Done testing host ns3.binero.se.
+ 56.270: sseo.se INFO SOA MNAME for sseo.se valid (ns3.binero.se).
+ 56.271: sseo.se INFO SOA MNAME for sseo.se (ns3.binero.se) listed as NS.
+ 56.316: sseo.se INFO SOA MNAME for sseo.se (ns3.binero.se) is authoritative.
+ 56.354: sseo.se INFO SOA MNAME for sseo.se (ns3.binero.se) is authoritative.
+ 56.354: sseo.se INFO Begin testing email address registry@binero.se.
+ 56.742: sseo.se INFO Mail exchangers for registry@binero.se found vsp.binero.net,backupmx.binero.net,backupmx2.binero.net.
+ 56.742: sseo.se INFO Begin testing host vsp.binero.net.
+ 58.839: sseo.se INFO Begin testing address 193.17.218.149.
+ 60.255: sseo.se INFO Done testing address 193.17.218.149.
+ 60.255: sseo.se INFO Done testing host vsp.binero.net.
+ 60.900: sseo.se INFO Begin testing host backupmx.binero.net.
+ 62.215: sseo.se INFO Begin testing address 195.74.36.56.
+ 63.602: sseo.se INFO Done testing address 195.74.36.56.
+ 63.603: sseo.se INFO Done testing host backupmx.binero.net.
+ 64.276: sseo.se INFO Begin testing host backupmx2.binero.net.
+ 65.610: sseo.se INFO Begin testing address 195.74.36.57.
+ 67.318: sseo.se INFO Done testing address 195.74.36.57.
+ 67.318: sseo.se INFO Done testing host backupmx2.binero.net.
+ 67.873: sseo.se INFO Done testing email address registry@binero.se.
+ 67.873: sseo.se INFO Successful attempt to deliver email for SOA RNAME of sseo.se (registry.binero.se) using registry@binero.se.
+ 67.873: sseo.se INFO SOA TTL for sseo.se OK (7200) - recommended >= 3600.
+ 67.873: sseo.se INFO SOA refresh for sseo.se OK (43200) - recommended >= 14400.
+ 67.873: sseo.se INFO SOA retry for sseo.se OK (3600) - recommended >= 3600.
+ 67.873: sseo.se INFO SOA expire for sseo.se OK (604800) - recommended >= 604800.
+ 67.873: sseo.se INFO SOA minimum for sseo.se OK (3600) - recommended between 300 and 86400.
+ 67.873: sseo.se INFO Done testing SOA parameters for sseo.se.
+ 67.874: sseo.se INFO Begin testing connectivity for sseo.se.
+ 73.233: sseo.se INFO Zone announced by more than one ASN.
+ 76.727: sseo.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 76.727: sseo.se INFO Done testing connectivity for sseo.se.
+ 76.727: sseo.se INFO Begin testing DNSSEC for sseo.se.
+ 76.836: sseo.se INFO Did not find DS record for sseo.se at parent.
+ 76.939: sseo.se INFO Nameserver 156.154.67.58 does DNSSEC extra processing.
+ 77.036: sseo.se INFO Nameserver 156.154.64.58 does DNSSEC extra processing.
+ 77.092: sseo.se INFO Nameserver 195.74.38.250 does DNSSEC extra processing.
+ 77.262: sseo.se INFO Nameserver 156.154.67.59 does DNSSEC extra processing.
+ 77.337: sseo.se INFO Nameserver 156.154.64.59 does DNSSEC extra processing.
+ 77.446: sseo.se INFO Nameserver 2001:502:f3ff:0:0:0:0:13 does DNSSEC extra processing.
+ 77.578: sseo.se INFO Nameserver 2001:502:f3ff:0:0:0:0:14 does DNSSEC extra processing.
+ 77.648: sseo.se INFO Nameserver 2001:502:4612:0:0:0:0:13 does DNSSEC extra processing.
+ 77.773: sseo.se INFO Nameserver 2001:502:4612:0:0:0:0:14 does DNSSEC extra processing.
+ 77.773: sseo.se INFO Servers for sseo.se have consistent extra processing status.
+ 77.894: sseo.se INFO Authenticated denial records found for sseo.se, of type NSEC3.
+ 77.956: sseo.se INFO NSEC3PARAM record found for sseo.se.
+ 77.956: sseo.se INFO NSEC3 for sseo.se is set to use 1 iterations, which is OK.
+ 77.956: sseo.se INFO Found DNSKEY record for sseo.se at child.
+ 77.956: sseo.se WARNING Broken chain of trust for sseo.se - DNSKEY found at child, but no DS was found at parent.
+ 77.957: sseo.se INFO Checking DNSSEC at child (sseo.se).
+ 77.957: sseo.se INFO sseo.se's key with tag 41182 uses algorithm number 8 (RSA/SHA-256).
+ 77.957: sseo.se INFO Algorithm number 8 is OK.
+ 77.957: sseo.se INFO DNSKEY sseo.se (tag 41182) is marked as a secure entry point (SEP).
+ 77.957: sseo.se INFO sseo.se's key with tag 23775 uses algorithm number 8 (RSA/SHA-256).
+ 77.957: sseo.se INFO Algorithm number 8 is OK.
+ 77.958: sseo.se INFO sseo.se's key with tag 34296 uses algorithm number 8 (RSA/SHA-256).
+ 77.958: sseo.se INFO Algorithm number 8 is OK.
+ 78.025: sseo.se INFO DNSSEC signature expires at: Thu Aug  8 00:00:00 2013
+ 78.025: sseo.se INFO Duration for RRSIG(sseo.se/IN/DNSKEY/41182) is OK (1209600 seconds).
+ 78.071: sseo.se INFO DNSSEC signature RRSIG(sseo.se/IN/DNSKEY/41182) matches records.
+ 78.071: sseo.se INFO DNSSEC signature valid: RRSIG(sseo.se/IN/DNSKEY/41182)
+ 78.071: sseo.se INFO Enough valid signatures found for sseo.se.
+ 78.173: sseo.se INFO DNSSEC signature expires at: Thu Aug  8 00:00:00 2013
+ 78.174: sseo.se INFO Duration for RRSIG(sseo.se/IN/SOA/34296) is OK (1209600 seconds).
+ 78.200: sseo.se INFO DNSSEC signature RRSIG(sseo.se/IN/SOA/34296) matches records.
+ 78.200: sseo.se INFO DNSSEC signature valid: RRSIG(sseo.se/IN/SOA/34296)
+ 78.200: sseo.se INFO Enough valid signatures over SOA RRset found for sseo.se.
+ 78.200: sseo.se INFO DNSSEC child checks for sseo.se complete.
+ 78.200: sseo.se INFO Done testing DNSSEC for sseo.se.
+ 78.201: sseo.se INFO Test completed for zone sseo.se.

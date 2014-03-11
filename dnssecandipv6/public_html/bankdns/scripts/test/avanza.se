@@ -1,0 +1,93 @@
+  0.000: avanza.se INFO Begin testing zone avanza.se with version 1.5.0.
+  0.001: avanza.se INFO Begin testing delegation for avanza.se.
+  4.767: avanza.se INFO Name servers listed at parent: dns01.avanza.se,dns02.avanza.se
+  5.995: avanza.se INFO Name servers listed at child: dns01.avanza.se,dns02.avanza.se
+  5.996: avanza.se NOTICE No IPv6 name servers found.
+  6.005: avanza.se INFO Parent glue for avanza.se found: dns01.avanza.se (217.15.245.61)
+  6.035: avanza.se INFO Parent glue for avanza.se found: dns02.avanza.se (217.15.245.62)
+  6.044: avanza.se INFO Checking glue for dns01.avanza.se (217.15.245.61).
+  6.054: avanza.se INFO Child glue for avanza.se found: dns01.avanza.se (217.15.245.61)
+  6.054: avanza.se INFO Checking glue for dns02.avanza.se (217.15.245.62).
+  6.065: avanza.se INFO Child glue for avanza.se found: dns02.avanza.se (217.15.245.62)
+  6.066: avanza.se INFO Parent glue for avanza.se found: dns01.avanza.se (217.15.245.61)
+  6.067: avanza.se INFO Parent glue for avanza.se found: dns02.avanza.se (217.15.245.62)
+  6.561: avanza.se INFO It is possible to build a referral packet for avanza.se that works without EDNS0.
+  6.562: avanza.se INFO Done testing delegation for avanza.se.
+  6.563: avanza.se INFO Begin testing name server dns01.avanza.se.
+  6.563: avanza.se INFO Begin testing host dns01.avanza.se.
+  6.824: avanza.se INFO Begin testing address 217.15.245.61.
+ 10.740: avanza.se INFO Done testing address 217.15.245.61.
+ 10.741: avanza.se INFO Done testing host dns01.avanza.se.
+ 11.011: avanza.se INFO Name server dns01.avanza.se (217.15.245.61) answers queries over UDP.
+ 16.019: avanza.se NOTICE DNS lookup error (connection failed).
+ 16.019: avanza.se ERROR Name server dns01.avanza.se (217.15.245.61) does not answer queries over TCP.
+ 16.041: avanza.se INFO Name server dns01.avanza.se (217.15.245.61) is not recursive.
+ 21.071: avanza.se NOTICE DNS lookup error (connection failed).
+ 21.071: avanza.se INFO Name server dns01.avanza.se (217.15.245.61) authoritative for avanza.se.
+ 21.071: avanza.se INFO Name server dns01.avanza.se (217.15.245.61) not checked for zone transfer of avanza.se.
+ 21.071: avanza.se INFO Name server dns01.avanza.se (217.15.245.61) not checked for legacy name server ID.
+ 21.072: avanza.se INFO Done testing name server dns01.avanza.se.
+ 21.072: avanza.se INFO Begin testing name server dns02.avanza.se.
+ 21.072: avanza.se INFO Begin testing host dns02.avanza.se.
+ 21.309: avanza.se INFO Begin testing address 217.15.245.62.
+ 22.223: avanza.se INFO Done testing address 217.15.245.62.
+ 22.223: avanza.se INFO Done testing host dns02.avanza.se.
+ 22.457: avanza.se INFO Name server dns02.avanza.se (217.15.245.62) answers queries over UDP.
+ 27.466: avanza.se NOTICE DNS lookup error (connection failed).
+ 27.466: avanza.se ERROR Name server dns02.avanza.se (217.15.245.62) does not answer queries over TCP.
+ 27.487: avanza.se INFO Name server dns02.avanza.se (217.15.245.62) is not recursive.
+ 32.520: avanza.se NOTICE DNS lookup error (connection failed).
+ 32.520: avanza.se INFO Name server dns02.avanza.se (217.15.245.62) authoritative for avanza.se.
+ 32.521: avanza.se INFO Name server dns02.avanza.se (217.15.245.62) not checked for zone transfer of avanza.se.
+ 32.521: avanza.se INFO Name server dns02.avanza.se (217.15.245.62) not checked for legacy name server ID.
+ 32.521: avanza.se INFO Done testing name server dns02.avanza.se.
+ 32.521: avanza.se INFO Begin testing zone consistency for avanza.se.
+ 33.445: avanza.se INFO SOA at address 217.15.245.62 has serial 2013062501.
+ 33.455: avanza.se INFO SOA at address 217.15.245.61 has serial 2013062501.
+ 33.455: avanza.se INFO All SOA records have consistent serial numbers.
+ 33.456: avanza.se INFO All other fields in the SOA record are consistent among all name servers.
+ 33.938: avanza.se NOTICE The listed nameservers for avanza.se all report the same set of nameservers.
+ 33.938: avanza.se INFO Done testing zone consistency for avanza.se.
+ 33.939: avanza.se INFO Begin testing SOA parameters for avanza.se.
+ 33.949: avanza.se INFO Found SOA record for avanza.se.
+ 33.949: avanza.se INFO Begin testing host dns01.avanza.se.
+ 34.187: avanza.se INFO Begin testing address 217.15.245.61.
+ 34.416: avanza.se INFO Done testing address 217.15.245.61.
+ 34.416: avanza.se INFO Done testing host dns01.avanza.se.
+ 34.416: avanza.se INFO SOA MNAME for avanza.se valid (dns01.avanza.se).
+ 34.417: avanza.se INFO SOA MNAME for avanza.se (dns01.avanza.se) listed as NS.
+ 34.650: avanza.se INFO SOA MNAME for avanza.se (dns01.avanza.se) is authoritative.
+ 34.650: avanza.se INFO Begin testing email address hostmaster@avanza.se.
+ 34.879: avanza.se INFO Mail exchangers for hostmaster@avanza.se found mgw01.avanza.se,mgw02.avanza.se.
+ 34.880: avanza.se INFO All mail servers for hostmaster@avanza.se are in zone avanza.se.
+ 34.880: avanza.se INFO Begin testing host mgw01.avanza.se.
+ 35.333: avanza.se INFO Begin testing address 217.15.244.216.
+ 36.120: avanza.se INFO Done testing address 217.15.244.216.
+ 36.121: avanza.se INFO Done testing host mgw01.avanza.se.
+ 36.357: avanza.se INFO Begin testing host mgw02.avanza.se.
+ 36.814: avanza.se INFO Begin testing address 217.15.244.217.
+ 37.616: avanza.se INFO Done testing address 217.15.244.217.
+ 37.616: avanza.se INFO Done testing host mgw02.avanza.se.
+ 37.843: avanza.se INFO Done testing email address hostmaster@avanza.se.
+ 37.844: avanza.se INFO Successful attempt to deliver email for SOA RNAME of avanza.se (hostmaster.avanza.se) using hostmaster@avanza.se.
+ 37.844: avanza.se INFO SOA TTL for avanza.se OK (21600) - recommended >= 3600.
+ 37.844: avanza.se NOTICE SOA refresh for avanza.se too small (1800) - recommended >= 14400.
+ 37.844: avanza.se NOTICE SOA retry for avanza.se too small (900) - recommended >= 3600.
+ 37.844: avanza.se INFO SOA expire for avanza.se OK (604800) - recommended >= 604800.
+ 37.844: avanza.se INFO SOA minimum for avanza.se OK (3600) - recommended between 300 and 86400.
+ 37.845: avanza.se INFO Done testing SOA parameters for avanza.se.
+ 37.845: avanza.se INFO Begin testing connectivity for avanza.se.
+ 38.900: avanza.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 38.901: avanza.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 38.901: avanza.se INFO Done testing connectivity for avanza.se.
+ 38.901: avanza.se INFO Begin testing DNSSEC for avanza.se.
+ 38.984: avanza.se INFO Did not find DS record for avanza.se at parent.
+ 43.993: avanza.se NOTICE DNS lookup error (connection failed).
+ 49.002: avanza.se NOTICE DNS lookup error (connection failed).
+ 49.002: avanza.se INFO Servers for avanza.se have consistent extra processing status.
+ 59.019: avanza.se NOTICE DNS lookup error (connection failed).
+ 59.019: avanza.se INFO Authenticated denial records not found for avanza.se.
+ 59.031: avanza.se INFO Did not find DNSKEY record for avanza.se at child.
+ 59.031: avanza.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 59.032: avanza.se INFO Done testing DNSSEC for avanza.se.
+ 59.032: avanza.se INFO Test completed for zone avanza.se.

@@ -1,0 +1,121 @@
+  0.000: toivakka.fi INFO Begin testing zone toivakka.fi with version 1.5.0.
+  2.190: toivakka.fi INFO Begin testing delegation for toivakka.fi.
+ 57.285: toivakka.fi INFO Name servers listed at parent: ns4.sci.fi,ns5.sci.fi,ns6.sci.fi
+ 78.003: toivakka.fi INFO Name servers listed at child: ns4.sci.fi,ns5.sci.fi,ns6.sci.fi
+ 78.003: toivakka.fi NOTICE No IPv6 name servers found.
+ 80.017: toivakka.fi INFO Parent glue for toivakka.fi found: ns5.sci.fi (213.192.189.2)
+ 81.277: toivakka.fi INFO Parent glue for toivakka.fi found: ns6.sci.fi (195.74.0.59)
+ 81.900: toivakka.fi INFO Checking glue for ns5.sci.fi (213.192.189.2).
+ 81.900: toivakka.fi INFO Checking glue for ns6.sci.fi (195.74.0.59).
+ 81.900: toivakka.fi INFO Parent glue for toivakka.fi found: ns5.sci.fi (213.192.189.2)
+ 81.901: toivakka.fi INFO Parent glue for toivakka.fi found: ns6.sci.fi (195.74.0.59)
+ 93.082: toivakka.fi INFO It is possible to build a referral packet for toivakka.fi that works without EDNS0.
+100.691: toivakka.fi INFO Previously used name servers for toivakka.fi: 
+100.691: toivakka.fi INFO Done testing delegation for toivakka.fi.
+100.787: toivakka.fi INFO Begin testing name server ns4.sci.fi.
+100.787: toivakka.fi INFO Begin testing host ns4.sci.fi.
+102.896: toivakka.fi INFO Begin testing address 195.74.0.50.
+131.120: toivakka.fi INFO Done testing address 195.74.0.50.
+131.120: toivakka.fi INFO Done testing host ns4.sci.fi.
+132.724: toivakka.fi INFO Name server ns4.sci.fi (195.74.0.50) answers queries over UDP.
+133.027: toivakka.fi INFO Name server ns4.sci.fi (195.74.0.50) answers queries over TCP.
+133.319: toivakka.fi INFO Name server ns4.sci.fi (195.74.0.50) is not recursive.
+134.009: toivakka.fi INFO Name server ns4.sci.fi (195.74.0.50) authoritative for toivakka.fi.
+134.254: toivakka.fi INFO Name server ns4.sci.fi (195.74.0.50) closed for zone transfer of toivakka.fi.
+134.572: toivakka.fi INFO Legacy name server ID for ns4.sci.fi (195.74.0.50): hostname.bind = r2d2.saunalahti.fi
+134.820: toivakka.fi INFO Legacy name server ID for ns4.sci.fi (195.74.0.50): version.bind = WE ARE THE BORG. RESISTANCE IS FUTILE.
+135.244: toivakka.fi NOTICE No answer received from 195.74.0.50 when querying for version.server/CH/TXT.
+135.244: toivakka.fi INFO Done testing name server ns4.sci.fi.
+135.244: toivakka.fi INFO Begin testing name server ns5.sci.fi.
+135.244: toivakka.fi INFO Begin testing host ns5.sci.fi.
+137.167: toivakka.fi INFO Begin testing address 213.192.189.2.
+141.064: toivakka.fi INFO Done testing address 213.192.189.2.
+141.065: toivakka.fi INFO Done testing host ns5.sci.fi.
+142.805: toivakka.fi INFO Name server ns5.sci.fi (213.192.189.2) answers queries over UDP.
+143.127: toivakka.fi INFO Name server ns5.sci.fi (213.192.189.2) answers queries over TCP.
+143.404: toivakka.fi INFO Name server ns5.sci.fi (213.192.189.2) is not recursive.
+144.313: toivakka.fi INFO Name server ns5.sci.fi (213.192.189.2) authoritative for toivakka.fi.
+144.585: toivakka.fi INFO Name server ns5.sci.fi (213.192.189.2) closed for zone transfer of toivakka.fi.
+144.764: toivakka.fi INFO Legacy name server ID for ns5.sci.fi (213.192.189.2): hostname.bind = ns5-temp.saunalahti.fi
+145.056: toivakka.fi INFO Legacy name server ID for ns5.sci.fi (213.192.189.2): version.bind = WE ARE THE BORG. RESISTANCE IS FUTILE.
+145.370: toivakka.fi NOTICE No answer received from 213.192.189.2 when querying for version.server/CH/TXT.
+145.371: toivakka.fi INFO Done testing name server ns5.sci.fi.
+145.371: toivakka.fi INFO Begin testing name server ns6.sci.fi.
+145.371: toivakka.fi INFO Begin testing host ns6.sci.fi.
+147.204: toivakka.fi INFO Begin testing address 195.74.0.59.
+152.186: toivakka.fi INFO Done testing address 195.74.0.59.
+152.186: toivakka.fi INFO Done testing host ns6.sci.fi.
+155.113: toivakka.fi INFO Name server ns6.sci.fi (195.74.0.59) answers queries over UDP.
+155.439: toivakka.fi INFO Name server ns6.sci.fi (195.74.0.59) answers queries over TCP.
+155.917: toivakka.fi INFO Name server ns6.sci.fi (195.74.0.59) is not recursive.
+157.243: toivakka.fi INFO Name server ns6.sci.fi (195.74.0.59) authoritative for toivakka.fi.
+157.581: toivakka.fi INFO Name server ns6.sci.fi (195.74.0.59) closed for zone transfer of toivakka.fi.
+157.786: toivakka.fi INFO Legacy name server ID for ns6.sci.fi (195.74.0.59): hostname.bind = jabba.saunalahti.fi
+158.048: toivakka.fi INFO Legacy name server ID for ns6.sci.fi (195.74.0.59): version.bind = WE ARE THE BORG. RESISTANCE IS FUTILE.
+158.617: toivakka.fi NOTICE No answer received from 195.74.0.59 when querying for version.server/CH/TXT.
+158.617: toivakka.fi INFO Done testing name server ns6.sci.fi.
+158.618: toivakka.fi INFO Begin testing zone consistency for toivakka.fi.
+172.176: toivakka.fi INFO SOA at address 195.74.0.50 has serial 1375854954.
+172.282: toivakka.fi INFO SOA at address 195.74.0.59 has serial 1375854954.
+172.646: toivakka.fi INFO SOA at address 213.192.189.2 has serial 1375854954.
+172.646: toivakka.fi INFO All SOA records have consistent serial numbers.
+172.646: toivakka.fi INFO All other fields in the SOA record are consistent among all name servers.
+179.629: toivakka.fi NOTICE The listed nameservers for toivakka.fi all report the same set of nameservers.
+179.629: toivakka.fi INFO Done testing zone consistency for toivakka.fi.
+179.629: toivakka.fi INFO Begin testing SOA parameters for toivakka.fi.
+180.011: toivakka.fi INFO Found SOA record for toivakka.fi.
+180.011: toivakka.fi INFO Begin testing host ns4.sci.fi.
+181.627: toivakka.fi INFO Begin testing address 195.74.0.50.
+183.488: toivakka.fi INFO Done testing address 195.74.0.50.
+183.488: toivakka.fi INFO Done testing host ns4.sci.fi.
+183.488: toivakka.fi INFO SOA MNAME for toivakka.fi valid (ns4.sci.fi).
+183.488: toivakka.fi INFO SOA MNAME for toivakka.fi (ns4.sci.fi) listed as NS.
+185.672: toivakka.fi INFO SOA MNAME for toivakka.fi (ns4.sci.fi) is authoritative.
+185.673: toivakka.fi INFO Begin testing email address hostmaster@sci.fi.
+187.852: toivakka.fi INFO Mail exchangers for hostmaster@sci.fi found fe-pa.mail.saunalahti.fi,fe-stp.mail.saunalahti.fi,mq01.mail.saunalahti.fi.
+187.853: toivakka.fi INFO Begin testing host fe-pa.mail.saunalahti.fi.
+191.659: toivakka.fi INFO Begin testing address 62.142.117.203.
+196.484: toivakka.fi INFO Done testing address 62.142.117.203.
+196.531: toivakka.fi INFO Begin testing address 62.142.117.204.
+201.125: toivakka.fi INFO Done testing address 62.142.117.204.
+201.126: toivakka.fi INFO Begin testing address 62.142.117.205.
+205.096: toivakka.fi INFO Done testing address 62.142.117.205.
+205.096: toivakka.fi INFO Begin testing address 62.142.117.206.
+208.375: toivakka.fi INFO Done testing address 62.142.117.206.
+208.417: toivakka.fi INFO Done testing host fe-pa.mail.saunalahti.fi.
+209.412: toivakka.fi INFO Begin testing host fe-stp.mail.saunalahti.fi.
+211.468: toivakka.fi INFO Begin testing address 62.142.5.26.
+215.229: toivakka.fi INFO Done testing address 62.142.5.26.
+215.229: toivakka.fi INFO Begin testing address 62.142.5.27.
+218.392: toivakka.fi INFO Done testing address 62.142.5.27.
+218.392: toivakka.fi INFO Begin testing address 62.142.5.28.
+221.075: toivakka.fi INFO Done testing address 62.142.5.28.
+221.075: toivakka.fi INFO Begin testing address 62.142.5.93.
+224.052: toivakka.fi INFO Done testing address 62.142.5.93.
+224.052: toivakka.fi INFO Begin testing address 62.142.5.25.
+227.306: toivakka.fi INFO Done testing address 62.142.5.25.
+227.306: toivakka.fi INFO Done testing host fe-stp.mail.saunalahti.fi.
+227.986: toivakka.fi INFO Begin testing host mq01.mail.saunalahti.fi.
+230.004: toivakka.fi INFO Begin testing address 195.197.172.98.
+232.386: toivakka.fi INFO Done testing address 195.197.172.98.
+232.387: toivakka.fi INFO Done testing host mq01.mail.saunalahti.fi.
+233.732: toivakka.fi INFO Done testing email address hostmaster@sci.fi.
+233.732: toivakka.fi INFO Successful attempt to deliver email for SOA RNAME of toivakka.fi (hostmaster.sci.fi) using hostmaster@sci.fi.
+233.732: toivakka.fi INFO SOA TTL for toivakka.fi OK (14400) - recommended >= 3600.
+233.732: toivakka.fi INFO SOA refresh for toivakka.fi OK (28800) - recommended >= 14400.
+233.732: toivakka.fi INFO SOA retry for toivakka.fi OK (3600) - recommended >= 3600.
+233.732: toivakka.fi INFO SOA expire for toivakka.fi OK (604800) - recommended >= 604800.
+233.733: toivakka.fi INFO SOA minimum for toivakka.fi OK (3600) - recommended between 300 and 86400.
+233.733: toivakka.fi INFO Done testing SOA parameters for toivakka.fi.
+233.733: toivakka.fi INFO Begin testing connectivity for toivakka.fi.
+239.013: toivakka.fi INFO Zone announced by more than one ASN.
+239.013: toivakka.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+239.013: toivakka.fi INFO Done testing connectivity for toivakka.fi.
+239.013: toivakka.fi INFO Begin testing DNSSEC for toivakka.fi.
+239.365: toivakka.fi INFO Did not find DS record for toivakka.fi at parent.
+239.840: toivakka.fi INFO Servers for toivakka.fi have consistent extra processing status.
+240.020: toivakka.fi INFO Authenticated denial records not found for toivakka.fi.
+240.121: toivakka.fi INFO Did not find DNSKEY record for toivakka.fi at child.
+240.121: toivakka.fi INFO No DNSKEY(s) found at child, other tests skipped.
+240.121: toivakka.fi INFO Done testing DNSSEC for toivakka.fi.
+240.128: toivakka.fi INFO Test completed for zone toivakka.fi.

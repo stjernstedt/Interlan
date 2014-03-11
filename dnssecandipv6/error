@@ -1,0 +1,7 @@
+#!/bin/sh
+if [ "$1" = gavle.se ] ; then exit ; fi
+if [ "$1" = ockelbo.se ] ; then exit ; fi
+if [ "$1" = sandviken.se ] ; then exit ; fi
+
+cat test/$1 | grep -vi ns2.gavlenet.com | grep ERROR
+cat test/$1 | grep -vi ns2.gavlenet.com |grep WARNING

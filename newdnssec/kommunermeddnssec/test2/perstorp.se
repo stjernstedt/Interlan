@@ -1,0 +1,118 @@
+  0.000: perstorp.se INFO Begin testing zone perstorp.se with version 1.2.
+  0.000: perstorp.se INFO Begin testing delegation for perstorp.se.
+  5.449: perstorp.se INFO Name servers listed at parent: dns5.telia.com,ns.perstorp.se
+  6.969: perstorp.se INFO Name servers listed at child: dns5.telia.com,ns.perstorp.se
+  6.969: perstorp.se NOTICE No IPv6 name servers found.
+  7.071: perstorp.se INFO Parent glue for perstorp.se found: ns.perstorp.se (194.23.101.2)
+  7.088: perstorp.se INFO Checking glue for ns.perstorp.se (194.23.101.2).
+  7.106: perstorp.se INFO Child glue for perstorp.se found: ns.perstorp.se (194.23.101.2)
+  7.107: perstorp.se INFO Parent glue for perstorp.se found: ns.perstorp.se (194.23.101.2)
+  7.107: perstorp.se INFO Done testing delegation for perstorp.se.
+  7.108: perstorp.se INFO Begin testing name server dns5.telia.com.
+  7.108: perstorp.se INFO Begin testing host dns5.telia.com.
+  7.108: perstorp.se INFO Begin testing address 81.228.11.68.
+ 11.323: perstorp.se INFO Done testing address 81.228.11.68.
+ 11.323: perstorp.se INFO Done testing host dns5.telia.com.
+ 11.332: perstorp.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over UDP.
+ 11.344: perstorp.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over TCP.
+ 11.352: perstorp.se INFO Name server dns5.telia.com (81.228.11.68) is not recursive.
+ 11.359: perstorp.se INFO Name server dns5.telia.com (81.228.11.68) authoritative for perstorp.se.
+ 11.373: perstorp.se INFO Name server dns5.telia.com (81.228.11.68) closed for zone transfer of perstorp.se.
+ 11.382: perstorp.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): hostname.bind = dnshosting1-sn1.fre.skanova.net
+ 11.389: perstorp.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 11.404: perstorp.se NOTICE No answer received from 81.228.11.68 when querying for version.server/CH/TXT.
+ 11.404: perstorp.se INFO Done testing name server dns5.telia.com.
+ 11.404: perstorp.se INFO Begin testing name server ns.perstorp.se.
+ 11.404: perstorp.se INFO Begin testing host ns.perstorp.se.
+ 11.404: perstorp.se INFO Begin testing address 194.23.101.2.
+ 12.712: perstorp.se INFO Done testing address 194.23.101.2.
+ 12.712: perstorp.se INFO Done testing host ns.perstorp.se.
+ 12.732: perstorp.se INFO Name server ns.perstorp.se (194.23.101.2) answers queries over UDP.
+ 12.764: perstorp.se INFO Name server ns.perstorp.se (194.23.101.2) answers queries over TCP.
+ 12.955: perstorp.se WARNING Name server ns.perstorp.se (194.23.101.2) is recursive.
+ 12.974: perstorp.se INFO Name server ns.perstorp.se (194.23.101.2) authoritative for perstorp.se.
+ 13.029: perstorp.se NOTICE Name server ns.perstorp.se (194.23.101.2) open for zone transfer of perstorp.se.
+ 13.047: perstorp.se INFO Legacy name server ID for ns.perstorp.se (194.23.101.2): hostname.bind = vm-ns
+ 13.064: perstorp.se INFO Legacy name server ID for ns.perstorp.se (194.23.101.2): version.bind = N/A
+ 13.097: perstorp.se NOTICE No answer received from 194.23.101.2 when querying for version.server/CH/TXT.
+ 13.097: perstorp.se INFO Done testing name server ns.perstorp.se.
+ 13.098: perstorp.se INFO Begin testing zone consistency for perstorp.se.
+ 13.118: perstorp.se INFO SOA at address 194.23.101.2 has serial 2010121201.
+ 13.126: perstorp.se INFO SOA at address 81.228.11.68 has serial 2010121201.
+ 13.126: perstorp.se INFO All SOA records have consistent serial numbers.
+ 13.126: perstorp.se INFO All SOA records are consistent among all name servers.
+ 13.126: perstorp.se INFO Done testing zone consistency for perstorp.se.
+ 13.127: perstorp.se INFO Begin testing SOA parameters for perstorp.se.
+ 13.145: perstorp.se INFO Found SOA record for perstorp.se.
+ 13.145: perstorp.se INFO Begin testing host ns.perstorp.se.
+ 13.145: perstorp.se INFO Begin testing address 194.23.101.2.
+ 13.147: perstorp.se INFO Done testing address 194.23.101.2.
+ 13.147: perstorp.se INFO Done testing host ns.perstorp.se.
+ 13.147: perstorp.se INFO SOA MNAME for perstorp.se valid (ns.perstorp.se).
+ 13.147: perstorp.se INFO SOA MNAME for perstorp.se (ns.perstorp.se) listed as NS.
+ 13.166: perstorp.se INFO SOA MNAME for perstorp.se (ns.perstorp.se) is authoritative.
+ 13.166: perstorp.se INFO Begin testing email address hostmaster@perskom.se.
+ 13.415: perstorp.se INFO Mail exchangers for hostmaster@perskom.se found mailgate1.perskom.se.
+ 13.415: perstorp.se INFO Begin testing host mailgate1.perskom.se.
+ 13.981: perstorp.se INFO Begin testing address 62.20.64.158.
+ 14.440: perstorp.se INFO Done testing address 62.20.64.158.
+ 14.440: perstorp.se INFO Done testing host mailgate1.perskom.se.
+ 14.441: perstorp.se INFO Begin testing mail server mailgate1.perskom.se (62.20.64.158) with hostmaster@perskom.se.
+ 14.502: perstorp.se INFO SMTP banner: mailgate1.perskom.se ESMTP
+ 15.066: perstorp.se INFO SMTP testing of mailgate1.perskom.se (62.20.64.158) with hostmaster@perskom.se succeeded without errors.
+ 15.066: perstorp.se INFO Done testing mail server mailgate1.perskom.se (62.20.64.158) with hostmaster@perskom.se.
+ 15.066: perstorp.se INFO Delivery over IPv4 to hostmaster@perskom.se ok.
+ 15.067: perstorp.se INFO Delivery over IPv6 to hostmaster@perskom.se could not be done.
+ 15.067: perstorp.se INFO Done testing email address hostmaster@perskom.se.
+ 15.067: perstorp.se INFO Successful attempt to deliver email for SOA RNAME of perstorp.se (hostmaster.perskom.se) using hostmaster@perskom.se.
+ 15.067: perstorp.se INFO SOA TTL for perstorp.se OK (38400) - recommended >= 3600.
+ 15.067: perstorp.se NOTICE SOA refresh for perstorp.se too small (10800) - recommended >= 14400.
+ 15.067: perstorp.se INFO SOA retry for perstorp.se OK (3600) - recommended >= 3600.
+ 15.067: perstorp.se INFO SOA expire for perstorp.se OK (604800) - recommended >= 604800.
+ 15.067: perstorp.se INFO SOA minimum for perstorp.se OK (38400) - recommended between 300 and 86400.
+ 15.067: perstorp.se INFO Done testing SOA parameters for perstorp.se.
+ 15.067: perstorp.se INFO Begin testing connectivity for perstorp.se.
+ 15.682: perstorp.se INFO Name server 194.23.101.2 announced by: 3301
+ 16.428: perstorp.se INFO Name server 81.228.11.68 announced by: 3301
+ 16.428: perstorp.se INFO Zone announced by IPv4 ASN: 3301
+ 16.428: perstorp.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 16.429: perstorp.se INFO Zone announced by IPv6 ASN: 
+ 16.429: perstorp.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 16.429: perstorp.se INFO Done testing connectivity for perstorp.se.
+ 16.429: perstorp.se INFO Begin testing DNSSEC for perstorp.se.
+ 16.519: perstorp.se INFO Found DS record for perstorp.se at parent.
+ 16.552: perstorp.se INFO Nameserver 194.23.101.2 does DNSSEC extra processing.
+ 16.566: perstorp.se INFO Nameserver 81.228.11.68 does DNSSEC extra processing.
+ 16.566: perstorp.se INFO Servers for perstorp.se have consistent extra processing status.
+ 16.566: perstorp.se INFO Found DNSKEY record for perstorp.se at child.
+ 16.567: perstorp.se INFO Consistent security for perstorp.se.
+ 16.567: perstorp.se INFO Checking DNSSEC at child (perstorp.se).
+ 16.567: perstorp.se INFO perstorp.se's key with tag 2945 uses algorithm number 5 (RSA/SHA-1).
+ 16.567: perstorp.se INFO Algorithm number 5 is OK.
+ 16.567: perstorp.se INFO perstorp.se's key with tag 58944 uses algorithm number 5 (RSA/SHA-1).
+ 16.567: perstorp.se INFO Algorithm number 5 is OK.
+ 16.568: perstorp.se INFO DNSKEY perstorp.se (tag 58944) is marked as a secure entry point (SEP).
+ 16.568: perstorp.se INFO DNSSEC signature expires at: Sat Dec 18 00:00:01 2010
+ 16.570: perstorp.se INFO DNSSEC signature RRSIG(perstorp.se/IN/DNSKEY/2945) matches records.
+ 16.570: perstorp.se INFO DNSSEC signature valid: RRSIG(perstorp.se/IN/DNSKEY/2945)
+ 16.570: perstorp.se INFO DNSSEC signature expires at: Sat Dec 18 00:00:01 2010
+ 16.571: perstorp.se INFO DNSSEC signature RRSIG(perstorp.se/IN/DNSKEY/58944) matches records.
+ 16.571: perstorp.se INFO DNSSEC signature valid: RRSIG(perstorp.se/IN/DNSKEY/58944)
+ 16.571: perstorp.se INFO Enough valid signatures found for perstorp.se.
+ 16.605: perstorp.se INFO DNSSEC signature expires at: Sat Dec 18 00:00:01 2010
+ 16.606: perstorp.se INFO DNSSEC signature RRSIG(perstorp.se/IN/SOA/2945) matches records.
+ 16.606: perstorp.se INFO DNSSEC signature valid: RRSIG(perstorp.se/IN/SOA/2945)
+ 16.606: perstorp.se INFO Enough valid signatures over SOA RRset found for perstorp.se.
+ 16.606: perstorp.se INFO DNSSEC child checks for perstorp.se complete.
+ 16.607: perstorp.se INFO Checking DNSSEC at parent of perstorp.se.
+ 16.607: perstorp.se INFO perstorp.se's key with tag 58944 uses algorithm number 5 (RSA/SHA-1).
+ 16.607: perstorp.se INFO Algorithm number 5 is OK.
+ 16.607: perstorp.se INFO Parent DS(perstorp.se) refers to valid key at child: DS(perstorp.se/5/1/58944)
+ 16.607: perstorp.se INFO Parent DS(perstorp.se) refers to secure entry point (SEP) at child: DS(perstorp.se/5/1/58944)
+ 16.608: perstorp.se INFO perstorp.se's key with tag 58944 uses algorithm number 5 (RSA/SHA-1).
+ 16.608: perstorp.se INFO Algorithm number 5 is OK.
+ 16.608: perstorp.se INFO Parent DS(perstorp.se) refers to valid key at child: DS(perstorp.se/5/2/58944)
+ 16.608: perstorp.se INFO Parent DS(perstorp.se) refers to secure entry point (SEP) at child: DS(perstorp.se/5/2/58944)
+ 16.608: perstorp.se INFO DNSSEC parent checks for perstorp.se complete.
+ 16.608: perstorp.se INFO Done testing DNSSEC for perstorp.se.
+ 16.608: perstorp.se INFO Test completed for zone perstorp.se.

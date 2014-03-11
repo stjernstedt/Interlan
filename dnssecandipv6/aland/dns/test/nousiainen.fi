@@ -1,0 +1,88 @@
+  0.000: nousiainen.fi INFO Begin testing zone nousiainen.fi with version 1.5.0.
+  0.933: nousiainen.fi INFO Begin testing delegation for nousiainen.fi.
+ 40.906: nousiainen.fi INFO Name servers listed at parent: ns1.taajama.fi,ns4.taajama.fi
+ 49.734: nousiainen.fi INFO Name servers listed at child: ns1.taajama.fi,ns4.taajama.fi
+ 49.734: nousiainen.fi NOTICE No IPv6 name servers found.
+ 50.118: nousiainen.fi INFO Parent glue for nousiainen.fi found: ns1.taajama.fi (83.102.40.26)
+ 50.686: nousiainen.fi INFO Parent glue for nousiainen.fi found: ns4.taajama.fi (83.102.40.27)
+ 50.962: nousiainen.fi INFO Checking glue for ns1.taajama.fi (83.102.40.26).
+ 50.962: nousiainen.fi INFO Checking glue for ns4.taajama.fi (83.102.40.27).
+ 50.963: nousiainen.fi INFO Parent glue for nousiainen.fi found: ns1.taajama.fi (83.102.40.26)
+ 50.963: nousiainen.fi INFO Parent glue for nousiainen.fi found: ns4.taajama.fi (83.102.40.27)
+ 54.715: nousiainen.fi INFO It is possible to build a referral packet for nousiainen.fi that works without EDNS0.
+ 57.309: nousiainen.fi INFO Previously used name servers for nousiainen.fi: 
+ 57.310: nousiainen.fi INFO Done testing delegation for nousiainen.fi.
+ 57.310: nousiainen.fi INFO Begin testing name server ns1.taajama.fi.
+ 57.310: nousiainen.fi INFO Begin testing host ns1.taajama.fi.
+ 58.432: nousiainen.fi INFO Begin testing address 83.102.40.26.
+ 82.017: nousiainen.fi INFO Done testing address 83.102.40.26.
+ 82.040: nousiainen.fi INFO Done testing host ns1.taajama.fi.
+ 83.386: nousiainen.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over UDP.
+ 83.628: nousiainen.fi INFO Name server ns1.taajama.fi (83.102.40.26) answers queries over TCP.
+ 83.966: nousiainen.fi INFO Name server ns1.taajama.fi (83.102.40.26) is not recursive.
+ 84.994: nousiainen.fi INFO Name server ns1.taajama.fi (83.102.40.26) authoritative for nousiainen.fi.
+ 85.213: nousiainen.fi INFO Name server ns1.taajama.fi (83.102.40.26) closed for zone transfer of nousiainen.fi.
+ 85.473: nousiainen.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): hostname.bind = kotkarausku
+ 85.745: nousiainen.fi INFO Legacy name server ID for ns1.taajama.fi (83.102.40.26): version.bind = Not disclosed
+ 86.156: nousiainen.fi NOTICE No answer received from 83.102.40.26 when querying for version.server/CH/TXT.
+ 86.156: nousiainen.fi INFO Done testing name server ns1.taajama.fi.
+ 86.157: nousiainen.fi INFO Begin testing name server ns4.taajama.fi.
+ 86.341: nousiainen.fi INFO Begin testing host ns4.taajama.fi.
+ 88.397: nousiainen.fi INFO Begin testing address 83.102.40.27.
+ 92.709: nousiainen.fi INFO Done testing address 83.102.40.27.
+ 92.710: nousiainen.fi INFO Done testing host ns4.taajama.fi.
+ 94.739: nousiainen.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over UDP.
+ 95.060: nousiainen.fi INFO Name server ns4.taajama.fi (83.102.40.27) answers queries over TCP.
+ 95.433: nousiainen.fi INFO Name server ns4.taajama.fi (83.102.40.27) is not recursive.
+ 96.382: nousiainen.fi INFO Name server ns4.taajama.fi (83.102.40.27) authoritative for nousiainen.fi.
+ 96.687: nousiainen.fi INFO Name server ns4.taajama.fi (83.102.40.27) closed for zone transfer of nousiainen.fi.
+ 96.947: nousiainen.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): hostname.bind = lapiorausku
+ 97.250: nousiainen.fi INFO Legacy name server ID for ns4.taajama.fi (83.102.40.27): version.bind = Not disclosed
+ 97.773: nousiainen.fi NOTICE No answer received from 83.102.40.27 when querying for version.server/CH/TXT.
+ 97.773: nousiainen.fi INFO Done testing name server ns4.taajama.fi.
+ 97.774: nousiainen.fi INFO Begin testing zone consistency for nousiainen.fi.
+106.246: nousiainen.fi INFO SOA at address 83.102.40.26 has serial 2013021501.
+106.562: nousiainen.fi INFO SOA at address 83.102.40.27 has serial 2013021501.
+106.562: nousiainen.fi INFO All SOA records have consistent serial numbers.
+106.562: nousiainen.fi INFO All other fields in the SOA record are consistent among all name servers.
+110.770: nousiainen.fi NOTICE The listed nameservers for nousiainen.fi all report the same set of nameservers.
+110.770: nousiainen.fi INFO Done testing zone consistency for nousiainen.fi.
+110.771: nousiainen.fi INFO Begin testing SOA parameters for nousiainen.fi.
+111.131: nousiainen.fi INFO Found SOA record for nousiainen.fi.
+111.132: nousiainen.fi INFO Begin testing host ns1.taajama.fi.
+113.069: nousiainen.fi INFO Begin testing address 83.102.40.26.
+114.786: nousiainen.fi INFO Done testing address 83.102.40.26.
+114.786: nousiainen.fi INFO Done testing host ns1.taajama.fi.
+114.786: nousiainen.fi INFO SOA MNAME for nousiainen.fi valid (ns1.taajama.fi).
+114.786: nousiainen.fi INFO SOA MNAME for nousiainen.fi (ns1.taajama.fi) listed as NS.
+116.826: nousiainen.fi INFO SOA MNAME for nousiainen.fi (ns1.taajama.fi) is authoritative.
+116.826: nousiainen.fi INFO Begin testing email address hostmaster@taajama.com.
+118.391: nousiainen.fi INFO Mail exchangers for hostmaster@taajama.com found spp.taajama.fi,mx2.taajama.com.
+118.391: nousiainen.fi INFO Begin testing host spp.taajama.fi.
+123.525: nousiainen.fi INFO Begin testing address 217.78.212.151.
+127.835: nousiainen.fi INFO Done testing address 217.78.212.151.
+127.835: nousiainen.fi INFO Done testing host spp.taajama.fi.
+129.517: nousiainen.fi INFO Begin testing host mx2.taajama.com.
+133.065: nousiainen.fi INFO Begin testing address 83.102.41.75.
+136.505: nousiainen.fi INFO Done testing address 83.102.41.75.
+136.506: nousiainen.fi INFO Done testing host mx2.taajama.com.
+138.079: nousiainen.fi INFO Done testing email address hostmaster@taajama.com.
+138.079: nousiainen.fi INFO Successful attempt to deliver email for SOA RNAME of nousiainen.fi (hostmaster.taajama.com) using hostmaster@taajama.com.
+138.080: nousiainen.fi INFO SOA TTL for nousiainen.fi OK (28800) - recommended >= 3600.
+138.080: nousiainen.fi INFO SOA refresh for nousiainen.fi OK (28800) - recommended >= 14400.
+138.080: nousiainen.fi INFO SOA retry for nousiainen.fi OK (7200) - recommended >= 3600.
+138.080: nousiainen.fi INFO SOA expire for nousiainen.fi OK (1814400) - recommended >= 604800.
+138.080: nousiainen.fi INFO SOA minimum for nousiainen.fi OK (86400) - recommended between 300 and 86400.
+138.080: nousiainen.fi INFO Done testing SOA parameters for nousiainen.fi.
+138.080: nousiainen.fi INFO Begin testing connectivity for nousiainen.fi.
+142.767: nousiainen.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+142.767: nousiainen.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+142.767: nousiainen.fi INFO Done testing connectivity for nousiainen.fi.
+142.767: nousiainen.fi INFO Begin testing DNSSEC for nousiainen.fi.
+143.286: nousiainen.fi INFO Did not find DS record for nousiainen.fi at parent.
+143.890: nousiainen.fi INFO Servers for nousiainen.fi have consistent extra processing status.
+144.141: nousiainen.fi INFO Authenticated denial records not found for nousiainen.fi.
+144.393: nousiainen.fi INFO Did not find DNSKEY record for nousiainen.fi at child.
+144.393: nousiainen.fi INFO No DNSKEY(s) found at child, other tests skipped.
+144.394: nousiainen.fi INFO Done testing DNSSEC for nousiainen.fi.
+144.394: nousiainen.fi INFO Test completed for zone nousiainen.fi.

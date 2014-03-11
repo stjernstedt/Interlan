@@ -1,0 +1,109 @@
+  0.000: alvesta.se INFO Begin testing zone alvesta.se with version 1.2.
+  0.000: alvesta.se INFO Begin testing delegation for alvesta.se.
+  9.191: alvesta.se INFO Name servers listed at parent: a.dns.tdc.se,b.dns.tdc.se,dns.alvesta.se
+ 10.778: alvesta.se INFO Name servers listed at child: a.dns.tdc.se,b.dns.tdc.se,dns.alvesta.se
+ 10.778: alvesta.se NOTICE No IPv6 name servers found.
+ 10.818: alvesta.se INFO Parent glue for alvesta.se found: a.dns.tdc.se (213.50.29.190)
+ 10.901: alvesta.se INFO Parent glue for alvesta.se found: b.dns.tdc.se (213.50.29.195)
+ 10.929: alvesta.se INFO Parent glue for alvesta.se found: dns.alvesta.se (195.84.173.12)
+ 10.969: alvesta.se INFO Checking glue for a.dns.tdc.se (213.50.29.190).
+ 10.969: alvesta.se INFO Checking glue for b.dns.tdc.se (213.50.29.195).
+ 10.969: alvesta.se INFO Checking glue for dns.alvesta.se (195.84.173.12).
+ 10.986: alvesta.se INFO Child glue for alvesta.se found: dns.alvesta.se (195.84.173.12)
+ 10.987: alvesta.se INFO Parent glue for alvesta.se found: a.dns.tdc.se (213.50.29.190)
+ 10.987: alvesta.se INFO Parent glue for alvesta.se found: b.dns.tdc.se (213.50.29.195)
+ 10.988: alvesta.se INFO Parent glue for alvesta.se found: dns.alvesta.se (195.84.173.12)
+ 10.988: alvesta.se INFO Done testing delegation for alvesta.se.
+ 10.989: alvesta.se INFO Begin testing name server a.dns.tdc.se.
+ 10.989: alvesta.se INFO Begin testing host a.dns.tdc.se.
+ 10.989: alvesta.se INFO Begin testing address 213.50.29.190.
+ 14.713: alvesta.se INFO Done testing address 213.50.29.190.
+ 14.713: alvesta.se INFO Done testing host a.dns.tdc.se.
+ 14.723: alvesta.se INFO Name server a.dns.tdc.se (213.50.29.190) answers queries over UDP.
+ 14.736: alvesta.se INFO Name server a.dns.tdc.se (213.50.29.190) answers queries over TCP.
+ 14.744: alvesta.se INFO Name server a.dns.tdc.se (213.50.29.190) is not recursive.
+ 14.752: alvesta.se INFO Name server a.dns.tdc.se (213.50.29.190) authoritative for alvesta.se.
+ 14.772: alvesta.se INFO Name server a.dns.tdc.se (213.50.29.190) closed for zone transfer of alvesta.se.
+ 14.783: alvesta.se INFO Legacy name server ID for a.dns.tdc.se (213.50.29.190): hostname.bind = a
+ 14.790: alvesta.se INFO Legacy name server ID for a.dns.tdc.se (213.50.29.190): version.bind = tssk, well what can i say?
+ 14.803: alvesta.se NOTICE No answer received from 213.50.29.190 when querying for version.server/CH/TXT.
+ 14.804: alvesta.se INFO Done testing name server a.dns.tdc.se.
+ 14.804: alvesta.se INFO Begin testing name server b.dns.tdc.se.
+ 14.804: alvesta.se INFO Begin testing host b.dns.tdc.se.
+ 14.804: alvesta.se INFO Begin testing address 213.50.29.195.
+ 15.008: alvesta.se INFO Done testing address 213.50.29.195.
+ 15.008: alvesta.se INFO Done testing host b.dns.tdc.se.
+ 15.017: alvesta.se INFO Name server b.dns.tdc.se (213.50.29.195) answers queries over UDP.
+ 15.030: alvesta.se INFO Name server b.dns.tdc.se (213.50.29.195) answers queries over TCP.
+ 15.037: alvesta.se INFO Name server b.dns.tdc.se (213.50.29.195) is not recursive.
+ 15.046: alvesta.se INFO Name server b.dns.tdc.se (213.50.29.195) authoritative for alvesta.se.
+ 15.059: alvesta.se INFO Name server b.dns.tdc.se (213.50.29.195) closed for zone transfer of alvesta.se.
+ 15.067: alvesta.se INFO Legacy name server ID for b.dns.tdc.se (213.50.29.195): hostname.bind = b
+ 15.075: alvesta.se INFO Legacy name server ID for b.dns.tdc.se (213.50.29.195): version.bind = tssk, well what can i say?
+ 15.087: alvesta.se NOTICE No answer received from 213.50.29.195 when querying for version.server/CH/TXT.
+ 15.088: alvesta.se INFO Done testing name server b.dns.tdc.se.
+ 15.088: alvesta.se INFO Begin testing name server dns.alvesta.se.
+ 15.088: alvesta.se INFO Begin testing host dns.alvesta.se.
+ 15.088: alvesta.se INFO Begin testing address 195.84.173.12.
+ 16.916: alvesta.se INFO Done testing address 195.84.173.12.
+ 16.916: alvesta.se INFO Done testing host dns.alvesta.se.
+ 16.934: alvesta.se INFO Name server dns.alvesta.se (195.84.173.12) answers queries over UDP.
+ 16.968: alvesta.se INFO Name server dns.alvesta.se (195.84.173.12) answers queries over TCP.
+ 17.222: alvesta.se INFO Name server dns.alvesta.se (195.84.173.12) is not recursive.
+ 17.241: alvesta.se INFO Name server dns.alvesta.se (195.84.173.12) authoritative for alvesta.se.
+ 17.476: alvesta.se INFO Name server dns.alvesta.se (195.84.173.12) closed for zone transfer of alvesta.se.
+ 17.495: alvesta.se NOTICE No answer received from 195.84.173.12 when querying for hostname.bind/CH/TXT.
+ 35.497: alvesta.se INFO Done testing name server dns.alvesta.se.
+ 35.498: alvesta.se INFO Begin testing zone consistency for alvesta.se.
+ 35.521: alvesta.se INFO SOA at address 195.84.173.12 has serial 2010011114.
+ 35.530: alvesta.se INFO SOA at address 213.50.29.195 has serial 2010011114.
+ 35.538: alvesta.se INFO SOA at address 213.50.29.190 has serial 2010011114.
+ 35.539: alvesta.se INFO All SOA records have consistent serial numbers.
+ 35.539: alvesta.se INFO All SOA records are consistent among all name servers.
+ 35.539: alvesta.se INFO Done testing zone consistency for alvesta.se.
+ 35.539: alvesta.se INFO Begin testing SOA parameters for alvesta.se.
+ 35.548: alvesta.se INFO Found SOA record for alvesta.se.
+ 35.548: alvesta.se INFO Begin testing host dns.alvesta.se.
+ 35.549: alvesta.se INFO Begin testing address 195.84.173.12.
+ 35.550: alvesta.se INFO Done testing address 195.84.173.12.
+ 35.550: alvesta.se INFO Done testing host dns.alvesta.se.
+ 35.550: alvesta.se INFO SOA MNAME for alvesta.se valid (dns.alvesta.se).
+ 35.550: alvesta.se INFO SOA MNAME for alvesta.se (dns.alvesta.se) listed as NS.
+ 35.592: alvesta.se INFO SOA MNAME for alvesta.se (dns.alvesta.se) is authoritative.
+ 35.592: alvesta.se INFO Begin testing email address hostmaster@alvesta.se.
+ 35.816: alvesta.se INFO Mail exchangers for hostmaster@alvesta.se found mail2.alvesta.se.
+ 35.816: alvesta.se INFO All mail servers for hostmaster@alvesta.se are in zone alvesta.se.
+ 35.816: alvesta.se INFO Begin testing host mail2.alvesta.se.
+ 36.290: alvesta.se INFO Begin testing address 195.84.173.5.
+ 36.612: alvesta.se INFO Done testing address 195.84.173.5.
+ 36.612: alvesta.se INFO Done testing host mail2.alvesta.se.
+ 36.612: alvesta.se INFO Begin testing mail server mail2.alvesta.se (195.84.173.5) with hostmaster@alvesta.se.
+ 36.696: alvesta.se INFO SMTP banner: mail2.alvesta.se ESMTP Halon Mail Gateway (H/OS)
+ 36.832: alvesta.se WARNING Host did not accept hostmaster@alvesta.se as SMTP recipient.
+ 36.863: alvesta.se INFO Done testing mail server mail2.alvesta.se (195.84.173.5) with hostmaster@alvesta.se.
+ 36.863: alvesta.se WARNING Delivery over IPv4 to hostmaster@alvesta.se could not be done.
+ 36.863: alvesta.se INFO Delivery over IPv6 to hostmaster@alvesta.se could not be done.
+ 36.863: alvesta.se INFO Done testing email address hostmaster@alvesta.se.
+ 36.863: alvesta.se WARNING Failed to deliver email for SOA RNAME of alvesta.se (hostmaster.alvesta.se) using hostmaster@alvesta.se.
+ 36.863: alvesta.se INFO SOA TTL for alvesta.se OK (3600) - recommended >= 3600.
+ 36.863: alvesta.se INFO SOA refresh for alvesta.se OK (14400) - recommended >= 14400.
+ 36.863: alvesta.se INFO SOA retry for alvesta.se OK (3600) - recommended >= 3600.
+ 36.863: alvesta.se INFO SOA expire for alvesta.se OK (604800) - recommended >= 604800.
+ 36.863: alvesta.se INFO SOA minimum for alvesta.se OK (3600) - recommended between 300 and 86400.
+ 36.864: alvesta.se INFO Done testing SOA parameters for alvesta.se.
+ 36.864: alvesta.se INFO Begin testing connectivity for alvesta.se.
+ 37.626: alvesta.se INFO Name server 213.50.29.195 announced by: 3292
+ 38.384: alvesta.se INFO Name server 195.84.173.12 announced by: 3292
+ 39.148: alvesta.se INFO Name server 213.50.29.190 announced by: 3292
+ 39.148: alvesta.se INFO Zone announced by IPv4 ASN: 3292
+ 39.148: alvesta.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 39.149: alvesta.se INFO Zone announced by IPv6 ASN: 
+ 39.149: alvesta.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 39.149: alvesta.se INFO Done testing connectivity for alvesta.se.
+ 39.149: alvesta.se INFO Begin testing DNSSEC for alvesta.se.
+ 39.172: alvesta.se INFO Did not find DS record for alvesta.se at parent.
+ 39.236: alvesta.se INFO Servers for alvesta.se have consistent extra processing status.
+ 39.237: alvesta.se INFO Did not find DNSKEY record for alvesta.se at child.
+ 39.237: alvesta.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 39.237: alvesta.se INFO Done testing DNSSEC for alvesta.se.
+ 39.237: alvesta.se INFO Test completed for zone alvesta.se.

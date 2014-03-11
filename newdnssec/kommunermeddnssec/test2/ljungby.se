@@ -1,0 +1,97 @@
+  0.000: ljungby.se INFO Begin testing zone ljungby.se with version 1.2.
+  0.000: ljungby.se INFO Begin testing delegation for ljungby.se.
+  5.179: ljungby.se INFO Name servers listed at parent: ns1.datahalland.se,ns2.datahalland.se
+ 10.631: ljungby.se INFO Name servers listed at child: ns1.datahalland.se,ns2.datahalland.se
+ 10.632: ljungby.se NOTICE No IPv6 name servers found.
+ 10.640: ljungby.se INFO Parent glue for ljungby.se found: ns1.datahalland.se (195.67.65.131)
+ 10.696: ljungby.se INFO Parent glue for ljungby.se found: ns2.datahalland.se (193.188.248.81)
+ 10.705: ljungby.se INFO Checking glue for ns1.datahalland.se (195.67.65.131).
+ 10.705: ljungby.se INFO Checking glue for ns2.datahalland.se (193.188.248.81).
+ 10.706: ljungby.se INFO Parent glue for ljungby.se found: ns1.datahalland.se (195.67.65.131)
+ 10.706: ljungby.se INFO Parent glue for ljungby.se found: ns2.datahalland.se (193.188.248.81)
+ 10.707: ljungby.se INFO Done testing delegation for ljungby.se.
+ 10.707: ljungby.se INFO Begin testing name server ns1.datahalland.se.
+ 10.707: ljungby.se INFO Begin testing host ns1.datahalland.se.
+ 10.707: ljungby.se INFO Begin testing address 195.67.65.131.
+ 17.881: ljungby.se INFO Done testing address 195.67.65.131.
+ 17.881: ljungby.se INFO Done testing host ns1.datahalland.se.
+ 17.903: ljungby.se INFO Name server ns1.datahalland.se (195.67.65.131) answers queries over UDP.
+ 17.941: ljungby.se INFO Name server ns1.datahalland.se (195.67.65.131) answers queries over TCP.
+ 17.963: ljungby.se INFO Name server ns1.datahalland.se (195.67.65.131) is not recursive.
+ 17.984: ljungby.se INFO Name server ns1.datahalland.se (195.67.65.131) authoritative for ljungby.se.
+ 18.037: ljungby.se INFO Name server ns1.datahalland.se (195.67.65.131) closed for zone transfer of ljungby.se.
+ 18.056: ljungby.se NOTICE No answer received from 195.67.65.131 when querying for hostname.bind/CH/TXT.
+ 18.079: ljungby.se INFO Legacy name server ID for ns1.datahalland.se (195.67.65.131): version.bind = 9.2.4
+ 18.100: ljungby.se NOTICE No answer received from 195.67.65.131 when querying for id.server/CH/TXT.
+ 18.120: ljungby.se NOTICE No answer received from 195.67.65.131 when querying for version.server/CH/TXT.
+ 18.120: ljungby.se INFO Done testing name server ns1.datahalland.se.
+ 18.120: ljungby.se INFO Begin testing name server ns2.datahalland.se.
+ 18.120: ljungby.se INFO Begin testing host ns2.datahalland.se.
+ 18.121: ljungby.se INFO Begin testing address 193.188.248.81.
+ 18.880: ljungby.se INFO Done testing address 193.188.248.81.
+ 18.880: ljungby.se INFO Done testing host ns2.datahalland.se.
+ 18.894: ljungby.se INFO Name server ns2.datahalland.se (193.188.248.81) answers queries over UDP.
+ 18.917: ljungby.se INFO Name server ns2.datahalland.se (193.188.248.81) answers queries over TCP.
+ 18.931: ljungby.se INFO Name server ns2.datahalland.se (193.188.248.81) is not recursive.
+ 18.946: ljungby.se INFO Name server ns2.datahalland.se (193.188.248.81) authoritative for ljungby.se.
+ 18.976: ljungby.se INFO Name server ns2.datahalland.se (193.188.248.81) closed for zone transfer of ljungby.se.
+ 18.988: ljungby.se NOTICE No answer received from 193.188.248.81 when querying for hostname.bind/CH/TXT.
+ 19.002: ljungby.se INFO Legacy name server ID for ns2.datahalland.se (193.188.248.81): version.bind = 9.2.4
+ 19.014: ljungby.se NOTICE No answer received from 193.188.248.81 when querying for id.server/CH/TXT.
+ 19.026: ljungby.se NOTICE No answer received from 193.188.248.81 when querying for version.server/CH/TXT.
+ 19.026: ljungby.se INFO Done testing name server ns2.datahalland.se.
+ 19.026: ljungby.se INFO Begin testing zone consistency for ljungby.se.
+ 19.045: ljungby.se INFO SOA at address 193.188.248.81 has serial 2007071124.
+ 19.068: ljungby.se INFO SOA at address 195.67.65.131 has serial 2007071124.
+ 19.068: ljungby.se INFO All SOA records have consistent serial numbers.
+ 19.068: ljungby.se INFO All SOA records are consistent among all name servers.
+ 19.068: ljungby.se INFO Done testing zone consistency for ljungby.se.
+ 19.068: ljungby.se INFO Begin testing SOA parameters for ljungby.se.
+ 19.090: ljungby.se INFO Found SOA record for ljungby.se.
+ 19.090: ljungby.se INFO Begin testing host ns1.datahalland.se.
+ 19.090: ljungby.se INFO Begin testing address 195.67.65.131.
+ 19.092: ljungby.se INFO Done testing address 195.67.65.131.
+ 19.092: ljungby.se INFO Done testing host ns1.datahalland.se.
+ 19.092: ljungby.se INFO SOA MNAME for ljungby.se valid (ns1.datahalland.se).
+ 19.092: ljungby.se INFO SOA MNAME for ljungby.se (ns1.datahalland.se) listed as NS.
+ 19.114: ljungby.se INFO SOA MNAME for ljungby.se (ns1.datahalland.se) is authoritative.
+ 19.114: ljungby.se INFO Begin testing email address registry@datahalland.se.
+ 19.365: ljungby.se INFO Mail exchangers for registry@datahalland.se found relay1.hostnet.se,relay2.hostnet.se.
+ 19.365: ljungby.se INFO Begin testing host relay1.hostnet.se.
+ 19.874: ljungby.se INFO Begin testing address 195.67.65.137.
+ 20.662: ljungby.se INFO Done testing address 195.67.65.137.
+ 20.662: ljungby.se INFO Done testing host relay1.hostnet.se.
+ 20.663: ljungby.se INFO Begin testing mail server relay1.hostnet.se (195.67.65.137) with registry@datahalland.se.
+ 20.798: ljungby.se INFO SMTP banner: relay1.hostnet.se ESMTP Postfix
+ 40.814: ljungby.se NOTICE The mail server timed out in SMTP dialog.
+ 43.023: ljungby.se INFO SMTP testing of relay1.hostnet.se (195.67.65.137) with registry@datahalland.se succeeded without errors.
+ 43.023: ljungby.se INFO Done testing mail server relay1.hostnet.se (195.67.65.137) with registry@datahalland.se.
+ 43.024: ljungby.se INFO Begin testing host relay2.hostnet.se.
+ 43.466: ljungby.se INFO Begin testing address 195.67.65.138.
+ 44.225: ljungby.se INFO Done testing address 195.67.65.138.
+ 44.226: ljungby.se INFO Done testing host relay2.hostnet.se.
+ 44.226: ljungby.se INFO Delivery over IPv4 to registry@datahalland.se ok.
+ 44.226: ljungby.se INFO Delivery over IPv6 to registry@datahalland.se could not be done.
+ 44.226: ljungby.se INFO Done testing email address registry@datahalland.se.
+ 44.226: ljungby.se INFO Successful attempt to deliver email for SOA RNAME of ljungby.se (registry.datahalland.se) using registry@datahalland.se.
+ 44.226: ljungby.se INFO SOA TTL for ljungby.se OK (86400) - recommended >= 3600.
+ 44.226: ljungby.se INFO SOA refresh for ljungby.se OK (21600) - recommended >= 14400.
+ 44.226: ljungby.se INFO SOA retry for ljungby.se OK (3600) - recommended >= 3600.
+ 44.227: ljungby.se INFO SOA expire for ljungby.se OK (604800) - recommended >= 604800.
+ 44.227: ljungby.se INFO SOA minimum for ljungby.se OK (86400) - recommended between 300 and 86400.
+ 44.227: ljungby.se INFO Done testing SOA parameters for ljungby.se.
+ 44.227: ljungby.se INFO Begin testing connectivity for ljungby.se.
+ 44.782: ljungby.se INFO Name server 195.67.65.131 announced by: 3301
+ 45.344: ljungby.se INFO Name server 193.188.248.81 announced by: 3301
+ 45.344: ljungby.se INFO Zone announced by IPv4 ASN: 3301
+ 45.344: ljungby.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 45.344: ljungby.se INFO Zone announced by IPv6 ASN: 
+ 45.345: ljungby.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 45.345: ljungby.se INFO Done testing connectivity for ljungby.se.
+ 45.345: ljungby.se INFO Begin testing DNSSEC for ljungby.se.
+ 45.428: ljungby.se INFO Did not find DS record for ljungby.se at parent.
+ 45.490: ljungby.se INFO Servers for ljungby.se have consistent extra processing status.
+ 45.490: ljungby.se INFO Did not find DNSKEY record for ljungby.se at child.
+ 45.490: ljungby.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 45.490: ljungby.se INFO Done testing DNSSEC for ljungby.se.
+ 45.490: ljungby.se INFO Test completed for zone ljungby.se.

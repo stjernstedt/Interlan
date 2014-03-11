@@ -1,0 +1,159 @@
+  0.000: nora.se INFO Begin testing zone nora.se with version 1.6.1.
+  1.388: nora.se INFO Begin testing delegation for nora.se.
+ 16.769: nora.se INFO Name servers listed at parent: dns01.portsit.se,dns02.portsit.se
+ 19.362: nora.se INFO Name servers listed at child: dns01.portsit.se,dns02.portsit.se
+ 19.362: nora.se NOTICE No IPv6 name servers found.
+ 19.452: nora.se INFO Parent glue for nora.se found: dns01.portsit.se (193.14.90.55)
+ 19.626: nora.se INFO Parent glue for nora.se found: dns02.portsit.se (84.40.9.219)
+ 19.733: nora.se INFO Checking glue for dns01.portsit.se (193.14.90.55).
+ 19.733: nora.se INFO Checking glue for dns02.portsit.se (84.40.9.219).
+ 19.734: nora.se INFO Parent glue for nora.se found: dns01.portsit.se (193.14.90.55)
+ 19.734: nora.se INFO Parent glue for nora.se found: dns02.portsit.se (84.40.9.219)
+ 20.953: nora.se INFO It is possible to build a referral packet for nora.se that works without EDNS0.
+ 22.148: nora.se INFO Previously used name servers for nora.se: 
+ 22.148: nora.se INFO Done testing delegation for nora.se.
+ 22.149: nora.se INFO Begin testing name server dns01.portsit.se.
+ 22.149: nora.se INFO Begin testing host dns01.portsit.se.
+ 22.868: nora.se INFO Begin testing address 193.14.90.55.
+ 36.592: nora.se INFO Done testing address 193.14.90.55.
+ 36.592: nora.se INFO Done testing host dns01.portsit.se.
+ 37.018: nora.se INFO Name server dns01.portsit.se (193.14.90.55) answers queries over UDP.
+ 37.102: nora.se INFO Name server dns01.portsit.se (193.14.90.55) answers queries over TCP.
+ 37.165: nora.se INFO Name server dns01.portsit.se (193.14.90.55) is not recursive.
+ 37.320: nora.se INFO Name server dns01.portsit.se (193.14.90.55) authoritative for nora.se.
+ 37.392: nora.se INFO Name server dns01.portsit.se (193.14.90.55) closed for zone transfer of nora.se.
+ 37.451: nora.se INFO Legacy name server ID for dns01.portsit.se (193.14.90.55): hostname.bind = <HIDDEN>
+ 41.787: nora.se NOTICE No answer received from 193.14.90.55 when querying for version.server/CH/TXT.
+ 41.791: nora.se INFO Done testing name server dns01.portsit.se.
+ 41.791: nora.se INFO Begin testing name server dns02.portsit.se.
+ 41.791: nora.se INFO Begin testing host dns02.portsit.se.
+ 42.064: nora.se INFO Begin testing address 84.40.9.219.
+ 43.628: nora.se INFO Done testing address 84.40.9.219.
+ 43.628: nora.se INFO Done testing host dns02.portsit.se.
+ 43.952: nora.se INFO Name server dns02.portsit.se (84.40.9.219) answers queries over UDP.
+ 44.022: nora.se INFO Name server dns02.portsit.se (84.40.9.219) answers queries over TCP.
+ 44.085: nora.se INFO Name server dns02.portsit.se (84.40.9.219) is not recursive.
+ 44.240: nora.se INFO Name server dns02.portsit.se (84.40.9.219) authoritative for nora.se.
+ 44.352: nora.se INFO Name server dns02.portsit.se (84.40.9.219) closed for zone transfer of nora.se.
+ 44.396: nora.se INFO Legacy name server ID for dns02.portsit.se (84.40.9.219): hostname.bind = <HIDDEN>
+ 44.433: nora.se INFO Legacy name server ID for dns02.portsit.se (84.40.9.219): version.bind = <HIDDEN>
+ 44.520: nora.se NOTICE No answer received from 84.40.9.219 when querying for version.server/CH/TXT.
+ 44.520: nora.se INFO Done testing name server dns02.portsit.se.
+ 44.520: nora.se INFO Begin testing zone consistency for nora.se.
+ 45.633: nora.se INFO SOA at address 193.14.90.55 has serial 2014020412.
+ 45.669: nora.se INFO SOA at address 84.40.9.219 has serial 2014020412.
+ 45.669: nora.se INFO All SOA records have consistent serial numbers.
+ 45.669: nora.se INFO All other fields in the SOA record are consistent among all name servers.
+ 46.227: nora.se NOTICE The listed nameservers for nora.se all report the same set of nameservers.
+ 46.228: nora.se INFO Done testing zone consistency for nora.se.
+ 46.228: nora.se INFO Begin testing SOA parameters for nora.se.
+ 46.261: nora.se INFO Found SOA record for nora.se.
+ 46.262: nora.se INFO Begin testing host dns01.portsit.se.
+ 46.619: nora.se INFO Begin testing address 193.14.90.55.
+ 46.864: nora.se INFO Done testing address 193.14.90.55.
+ 46.864: nora.se INFO Done testing host dns01.portsit.se.
+ 46.864: nora.se INFO SOA MNAME for nora.se valid (dns01.portsit.se).
+ 46.864: nora.se INFO SOA MNAME for nora.se (dns01.portsit.se) listed as NS.
+ 47.212: nora.se INFO SOA MNAME for nora.se (dns01.portsit.se) is authoritative.
+ 47.212: nora.se INFO Begin testing email address registry@portsit.se.
+ 47.461: nora.se INFO Mail exchangers for registry@portsit.se found asmx01.portsit.se,asmx02.portsit.se.
+ 47.461: nora.se INFO Begin testing host asmx01.portsit.se.
+ 48.087: nora.se INFO Begin testing address 193.14.90.114.
+ 49.043: nora.se INFO Done testing address 193.14.90.114.
+ 49.047: nora.se INFO Done testing host asmx01.portsit.se.
+ 49.277: nora.se INFO Begin testing host asmx02.portsit.se.
+ 49.913: nora.se INFO Begin testing address 193.14.90.115.
+ 51.847: nora.se INFO Done testing address 193.14.90.115.
+ 51.847: nora.se INFO Done testing host asmx02.portsit.se.
+ 52.123: nora.se INFO Done testing email address registry@portsit.se.
+ 52.123: nora.se INFO Successful attempt to deliver email for SOA RNAME of nora.se (registry.portsit.se) using registry@portsit.se.
+ 52.123: nora.se INFO SOA TTL for nora.se OK (3600) - recommended >= 3600.
+ 52.124: nora.se NOTICE SOA refresh for nora.se too small (3600) - recommended >= 14400.
+ 52.124: nora.se NOTICE SOA retry for nora.se too small (600) - recommended >= 3600.
+ 52.124: nora.se NOTICE SOA expire for nora.se too small (86400) - recommended >= 604800.
+ 52.124: nora.se INFO SOA minimum for nora.se OK (3600) - recommended between 300 and 86400.
+ 52.124: nora.se INFO Done testing SOA parameters for nora.se.
+ 52.124: nora.se INFO Begin testing connectivity for nora.se.
+ 53.548: nora.se INFO Zone announced by more than one ASN.
+ 53.548: nora.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 53.548: nora.se INFO Done testing connectivity for nora.se.
+ 53.548: nora.se INFO Begin testing DNSSEC for nora.se.
+ 53.635: nora.se INFO Found DS record for nora.se at parent.
+ 53.713: nora.se INFO Nameserver 193.14.90.55 does DNSSEC extra processing.
+ 53.861: nora.se INFO Nameserver 84.40.9.219 does DNSSEC extra processing.
+ 53.861: nora.se INFO Servers for nora.se have consistent extra processing status.
+ 53.922: nora.se INFO Authenticated denial records found for nora.se, of type NSEC.
+ 53.985: nora.se INFO Found DNSKEY record for nora.se at child.
+ 53.985: nora.se INFO Consistent security for nora.se.
+ 53.985: nora.se INFO Checking DNSSEC at child (nora.se).
+ 53.986: nora.se INFO nora.se's key with tag 10114 uses algorithm number 5 (RSA/SHA-1).
+ 53.986: nora.se INFO Algorithm number 5 is OK.
+ 53.986: nora.se INFO DNSKEY nora.se (tag 10114) is marked as a secure entry point (SEP).
+ 53.986: nora.se INFO nora.se's key with tag 56457 uses algorithm number 5 (RSA/SHA-1).
+ 53.986: nora.se INFO Algorithm number 5 is OK.
+ 53.986: nora.se INFO nora.se's key with tag 56680 uses algorithm number 5 (RSA/SHA-1).
+ 53.986: nora.se INFO Algorithm number 5 is OK.
+ 53.987: nora.se INFO nora.se's key with tag 31750 uses algorithm number 5 (RSA/SHA-1).
+ 53.987: nora.se INFO Algorithm number 5 is OK.
+ 53.987: nora.se INFO nora.se's key with tag 29773 uses algorithm number 5 (RSA/SHA-1).
+ 53.987: nora.se INFO Algorithm number 5 is OK.
+ 53.987: nora.se INFO DNSKEY nora.se (tag 29773) is marked as a secure entry point (SEP).
+ 54.035: nora.se INFO nora.se's key with tag 40973 uses algorithm number 5 (RSA/SHA-1).
+ 54.035: nora.se INFO Algorithm number 5 is OK.
+ 54.036: nora.se INFO DNSKEY nora.se (tag 40973) is marked as a secure entry point (SEP).
+ 54.036: nora.se INFO DNSSEC signature expires at: Wed Mar 26 15:05:34 2014
+ 54.036: nora.se INFO Duration for RRSIG(nora.se/IN/DNSKEY/56457) is OK (2343552 seconds).
+ 54.079: nora.se INFO DNSSEC signature RRSIG(nora.se/IN/DNSKEY/56457) matches records.
+ 54.079: nora.se INFO DNSSEC signature valid: RRSIG(nora.se/IN/DNSKEY/56457)
+ 54.079: nora.se INFO DNSSEC signature expires at: Wed Apr 30 16:05:42 2014
+ 54.080: nora.se INFO Duration for RRSIG(nora.se/IN/DNSKEY/56680) is OK (5371160 seconds).
+ 54.096: nora.se INFO DNSSEC signature RRSIG(nora.se/IN/DNSKEY/56680) matches records.
+ 54.097: nora.se INFO DNSSEC signature valid: RRSIG(nora.se/IN/DNSKEY/56680)
+ 54.097: nora.se INFO DNSSEC signature expires at: Tue May 27 14:06:20 2014
+ 54.097: nora.se INFO Duration for RRSIG(nora.se/IN/DNSKEY/31750) is OK (7696798 seconds).
+ 54.098: nora.se INFO DNSSEC signature RRSIG(nora.se/IN/DNSKEY/31750) matches records.
+ 54.099: nora.se INFO DNSSEC signature valid: RRSIG(nora.se/IN/DNSKEY/31750)
+ 54.099: nora.se INFO DNSSEC signature expires at: Wed Nov 30 13:14:49 2016
+ 54.099: nora.se WARNING Duration for RRSIG(nora.se/IN/DNSKEY/29773) is too long (87008907 seconds).
+ 54.168: nora.se INFO DNSSEC signature RRSIG(nora.se/IN/DNSKEY/29773) matches records.
+ 54.168: nora.se INFO DNSSEC signature valid: RRSIG(nora.se/IN/DNSKEY/29773)
+ 54.169: nora.se INFO DNSSEC signature expires at: Thu Jan 12 15:12:45 2017
+ 54.169: nora.se WARNING Duration for RRSIG(nora.se/IN/DNSKEY/10114) is too long (90731183 seconds).
+ 54.196: nora.se INFO DNSSEC signature RRSIG(nora.se/IN/DNSKEY/10114) matches records.
+ 54.196: nora.se INFO DNSSEC signature valid: RRSIG(nora.se/IN/DNSKEY/10114)
+ 54.196: nora.se INFO DNSSEC signature expires at: Thu Jan 12 16:25:59 2017
+ 54.197: nora.se WARNING Duration for RRSIG(nora.se/IN/DNSKEY/40973) is too long (90735577 seconds).
+ 54.198: nora.se INFO DNSSEC signature RRSIG(nora.se/IN/DNSKEY/40973) matches records.
+ 54.198: nora.se INFO DNSSEC signature valid: RRSIG(nora.se/IN/DNSKEY/40973)
+ 54.198: nora.se INFO Enough valid signatures found for nora.se.
+ 54.330: nora.se INFO DNSSEC signature expires at: Wed Mar 26 15:05:34 2014
+ 54.331: nora.se INFO Duration for RRSIG(nora.se/IN/SOA/56457) is OK (2343552 seconds).
+ 54.355: nora.se INFO DNSSEC signature RRSIG(nora.se/IN/SOA/56457) matches records.
+ 54.355: nora.se INFO DNSSEC signature valid: RRSIG(nora.se/IN/SOA/56457)
+ 54.355: nora.se INFO DNSSEC signature expires at: Wed Apr 30 16:05:42 2014
+ 54.355: nora.se INFO Duration for RRSIG(nora.se/IN/SOA/56680) is OK (5371160 seconds).
+ 54.356: nora.se INFO DNSSEC signature RRSIG(nora.se/IN/SOA/56680) matches records.
+ 54.356: nora.se INFO DNSSEC signature valid: RRSIG(nora.se/IN/SOA/56680)
+ 54.356: nora.se INFO DNSSEC signature expires at: Tue May 27 14:06:20 2014
+ 54.356: nora.se INFO Duration for RRSIG(nora.se/IN/SOA/31750) is OK (7696798 seconds).
+ 54.357: nora.se INFO DNSSEC signature RRSIG(nora.se/IN/SOA/31750) matches records.
+ 54.357: nora.se INFO DNSSEC signature valid: RRSIG(nora.se/IN/SOA/31750)
+ 54.357: nora.se INFO Enough valid signatures over SOA RRset found for nora.se.
+ 54.357: nora.se INFO DNSSEC child checks for nora.se complete.
+ 54.357: nora.se INFO Checking DNSSEC at parent of nora.se.
+ 54.358: nora.se INFO nora.se's key with tag 40973 uses algorithm number 5 (RSA/SHA-1).
+ 54.358: nora.se INFO Algorithm number 5 is OK.
+ 54.358: nora.se INFO Parent DS(nora.se/5/1/40973) refers to valid key at child: DNSKEY(nora.se/5/40973)
+ 54.358: nora.se INFO Parent DS(nora.se) refers to secure entry point (SEP) at child: DS(nora.se/5/1/40973)
+ 54.358: nora.se INFO nora.se's key with tag 10114 uses algorithm number 5 (RSA/SHA-1).
+ 54.358: nora.se INFO Algorithm number 5 is OK.
+ 54.439: nora.se INFO Parent DS(nora.se/5/1/10114) refers to valid key at child: DNSKEY(nora.se/5/10114)
+ 54.439: nora.se INFO Parent DS(nora.se) refers to secure entry point (SEP) at child: DS(nora.se/5/1/10114)
+ 54.439: nora.se INFO nora.se's key with tag 29773 uses algorithm number 5 (RSA/SHA-1).
+ 54.439: nora.se INFO Algorithm number 5 is OK.
+ 54.440: nora.se INFO Parent DS(nora.se/5/1/29773) refers to valid key at child: DNSKEY(nora.se/5/29773)
+ 54.440: nora.se INFO Parent DS(nora.se) refers to secure entry point (SEP) at child: DS(nora.se/5/1/29773)
+ 54.440: nora.se INFO DNSSEC parent checks for nora.se complete.
+ 54.440: nora.se INFO Done testing DNSSEC for nora.se.
+ 54.440: nora.se INFO Test completed for zone nora.se.
+99.999 nora.se WARNING SOA expire to low 86400 seconds,1 days 0 hours, 

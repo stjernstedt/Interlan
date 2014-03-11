@@ -1,0 +1,96 @@
+  0.000: kinda.se INFO Begin testing zone kinda.se with version 1.2.
+  0.000: kinda.se INFO Begin testing delegation for kinda.se.
+  9.146: kinda.se INFO Name servers listed at parent: ns1.vokby.se,ns2.vokby.se
+ 10.322: kinda.se INFO Name servers listed at child: ns1.vokby.se,ns2.vokby.se
+ 10.322: kinda.se NOTICE No IPv6 name servers found.
+ 10.360: kinda.se INFO Parent glue for kinda.se found: ns1.vokby.se (88.206.128.2)
+ 10.407: kinda.se INFO Parent glue for kinda.se found: ns2.vokby.se (88.206.129.2)
+ 10.424: kinda.se INFO Checking glue for ns1.vokby.se (88.206.128.2).
+ 10.425: kinda.se INFO Checking glue for ns2.vokby.se (88.206.129.2).
+ 10.425: kinda.se INFO Parent glue for kinda.se found: ns1.vokby.se (88.206.128.2)
+ 10.425: kinda.se INFO Parent glue for kinda.se found: ns2.vokby.se (88.206.129.2)
+ 10.426: kinda.se INFO Done testing delegation for kinda.se.
+ 10.426: kinda.se INFO Begin testing name server ns1.vokby.se.
+ 10.426: kinda.se INFO Begin testing host ns1.vokby.se.
+ 10.426: kinda.se INFO Begin testing address 88.206.128.2.
+ 14.811: kinda.se INFO Done testing address 88.206.128.2.
+ 14.811: kinda.se INFO Done testing host ns1.vokby.se.
+ 14.824: kinda.se INFO Name server ns1.vokby.se (88.206.128.2) answers queries over UDP.
+ 14.844: kinda.se INFO Name server ns1.vokby.se (88.206.128.2) answers queries over TCP.
+ 14.855: kinda.se INFO Name server ns1.vokby.se (88.206.128.2) is not recursive.
+ 14.867: kinda.se INFO Name server ns1.vokby.se (88.206.128.2) authoritative for kinda.se.
+ 14.895: kinda.se INFO Name server ns1.vokby.se (88.206.128.2) closed for zone transfer of kinda.se.
+ 14.906: kinda.se NOTICE No answer received from 88.206.128.2 when querying for hostname.bind/CH/TXT.
+ 14.918: kinda.se NOTICE No answer received from 88.206.128.2 when querying for version.bind/CH/TXT.
+ 14.930: kinda.se NOTICE No answer received from 88.206.128.2 when querying for id.server/CH/TXT.
+ 14.943: kinda.se NOTICE No answer received from 88.206.128.2 when querying for version.server/CH/TXT.
+ 14.943: kinda.se INFO Done testing name server ns1.vokby.se.
+ 14.944: kinda.se INFO Begin testing name server ns2.vokby.se.
+ 14.944: kinda.se INFO Begin testing host ns2.vokby.se.
+ 14.944: kinda.se INFO Begin testing address 88.206.129.2.
+ 15.487: kinda.se INFO Done testing address 88.206.129.2.
+ 15.487: kinda.se INFO Done testing host ns2.vokby.se.
+ 15.498: kinda.se INFO Name server ns2.vokby.se (88.206.129.2) answers queries over UDP.
+ 15.518: kinda.se INFO Name server ns2.vokby.se (88.206.129.2) answers queries over TCP.
+ 15.528: kinda.se INFO Name server ns2.vokby.se (88.206.129.2) is not recursive.
+ 15.540: kinda.se INFO Name server ns2.vokby.se (88.206.129.2) authoritative for kinda.se.
+ 15.565: kinda.se INFO Name server ns2.vokby.se (88.206.129.2) closed for zone transfer of kinda.se.
+ 15.575: kinda.se NOTICE No answer received from 88.206.129.2 when querying for hostname.bind/CH/TXT.
+ 15.586: kinda.se NOTICE No answer received from 88.206.129.2 when querying for version.bind/CH/TXT.
+ 15.596: kinda.se NOTICE No answer received from 88.206.129.2 when querying for id.server/CH/TXT.
+ 15.606: kinda.se NOTICE No answer received from 88.206.129.2 when querying for version.server/CH/TXT.
+ 15.607: kinda.se INFO Done testing name server ns2.vokby.se.
+ 15.607: kinda.se INFO Begin testing zone consistency for kinda.se.
+ 15.622: kinda.se INFO SOA at address 88.206.128.2 has serial 2010060402.
+ 15.632: kinda.se INFO SOA at address 88.206.129.2 has serial 2010060402.
+ 15.632: kinda.se INFO All SOA records have consistent serial numbers.
+ 15.632: kinda.se INFO All SOA records are consistent among all name servers.
+ 15.633: kinda.se INFO Done testing zone consistency for kinda.se.
+ 15.633: kinda.se INFO Begin testing SOA parameters for kinda.se.
+ 15.644: kinda.se INFO Found SOA record for kinda.se.
+ 15.644: kinda.se INFO Begin testing host ns1.vokby.se.
+ 15.644: kinda.se INFO Begin testing address 88.206.128.2.
+ 15.646: kinda.se INFO Done testing address 88.206.128.2.
+ 15.646: kinda.se INFO Done testing host ns1.vokby.se.
+ 15.646: kinda.se INFO SOA MNAME for kinda.se valid (ns1.vokby.se).
+ 15.646: kinda.se INFO SOA MNAME for kinda.se (ns1.vokby.se) listed as NS.
+ 15.657: kinda.se INFO SOA MNAME for kinda.se (ns1.vokby.se) is authoritative.
+ 15.658: kinda.se INFO Begin testing email address noc@vokby.se.
+ 15.931: kinda.se INFO Mail exchangers for noc@vokby.se found mgwin02.itsam.se,mgwin01.itsam.se.
+ 15.931: kinda.se INFO Begin testing host mgwin02.itsam.se.
+ 20.391: kinda.se INFO Begin testing address 88.206.128.180.
+ 20.718: kinda.se INFO Done testing address 88.206.128.180.
+ 20.718: kinda.se INFO Done testing host mgwin02.itsam.se.
+ 20.719: kinda.se INFO Begin testing mail server mgwin02.itsam.se (88.206.128.180) with noc@vokby.se.
+ 20.788: kinda.se INFO SMTP banner: mgwin02.itsam.se NO UCE ESMTP
+ 20.873: kinda.se INFO SMTP testing of mgwin02.itsam.se (88.206.128.180) with noc@vokby.se succeeded without errors.
+ 20.874: kinda.se INFO Done testing mail server mgwin02.itsam.se (88.206.128.180) with noc@vokby.se.
+ 20.874: kinda.se INFO Begin testing host mgwin01.itsam.se.
+ 21.360: kinda.se INFO Begin testing address 88.206.128.179.
+ 21.681: kinda.se INFO Done testing address 88.206.128.179.
+ 21.681: kinda.se INFO Done testing host mgwin01.itsam.se.
+ 21.681: kinda.se INFO Delivery over IPv4 to noc@vokby.se ok.
+ 21.681: kinda.se INFO Delivery over IPv6 to noc@vokby.se could not be done.
+ 21.681: kinda.se INFO Done testing email address noc@vokby.se.
+ 21.681: kinda.se INFO Successful attempt to deliver email for SOA RNAME of kinda.se (noc.vokby.se) using noc@vokby.se.
+ 21.681: kinda.se INFO SOA TTL for kinda.se OK (3600) - recommended >= 3600.
+ 21.682: kinda.se NOTICE SOA refresh for kinda.se too small (10800) - recommended >= 14400.
+ 21.682: kinda.se INFO SOA retry for kinda.se OK (3600) - recommended >= 3600.
+ 21.682: kinda.se INFO SOA expire for kinda.se OK (604800) - recommended >= 604800.
+ 21.682: kinda.se INFO SOA minimum for kinda.se OK (3600) - recommended between 300 and 86400.
+ 21.682: kinda.se INFO Done testing SOA parameters for kinda.se.
+ 21.682: kinda.se INFO Begin testing connectivity for kinda.se.
+ 22.167: kinda.se INFO Name server 88.206.129.2 announced by: 28854
+ 22.660: kinda.se INFO Name server 88.206.128.2 announced by: 28854
+ 22.660: kinda.se INFO Zone announced by IPv4 ASN: 28854
+ 22.660: kinda.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 22.660: kinda.se INFO Zone announced by IPv6 ASN: 
+ 22.660: kinda.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 22.660: kinda.se INFO Done testing connectivity for kinda.se.
+ 22.660: kinda.se INFO Begin testing DNSSEC for kinda.se.
+ 22.771: kinda.se INFO Did not find DS record for kinda.se at parent.
+ 22.810: kinda.se INFO Servers for kinda.se have consistent extra processing status.
+ 22.810: kinda.se INFO Did not find DNSKEY record for kinda.se at child.
+ 22.811: kinda.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 22.811: kinda.se INFO Done testing DNSSEC for kinda.se.
+ 22.811: kinda.se INFO Test completed for zone kinda.se.

@@ -1,0 +1,88 @@
+  0.000: natdesign.m.se INFO Begin testing zone natdesign.m.se with version 1.0.1.
+  0.000: natdesign.m.se INFO Begin testing delegation for natdesign.m.se.
+  0.944: natdesign.m.se INFO Name servers listed at parent: ns2.elit.net,ns2.natdesign.m.se
+  1.016: natdesign.m.se INFO Name servers listed at child: ns2.elit.net,ns2.natdesign.m.se
+  1.016: natdesign.m.se NOTICE No IPv6 name servers found.
+  1.170: natdesign.m.se INFO Parent glue for natdesign.m.se found: ns2.natdesign.m.se (87.96.215.128)
+  1.178: natdesign.m.se INFO Checking glue for ns2.natdesign.m.se (87.96.215.128).
+  1.197: natdesign.m.se INFO Child glue for natdesign.m.se found: ns2.natdesign.m.se (87.96.215.128)
+  1.197: natdesign.m.se INFO Done testing delegation for natdesign.m.se.
+  1.197: natdesign.m.se INFO Begin testing name server ns2.elit.net.
+  1.197: natdesign.m.se INFO Begin testing host ns2.elit.net.
+  1.198: natdesign.m.se INFO Begin testing address 178.21.73.17.
+  4.485: natdesign.m.se INFO Done testing address 178.21.73.17.
+  4.485: natdesign.m.se INFO Done testing host ns2.elit.net.
+  4.494: natdesign.m.se INFO Name server ns2.elit.net (178.21.73.17) is not recursive.
+  4.504: natdesign.m.se INFO Name server ns2.elit.net (178.21.73.17) authoritative for natdesign.m.se.
+  4.512: natdesign.m.se INFO Name server ns2.elit.net (178.21.73.17) answers queries over UDP.
+  4.525: natdesign.m.se INFO Name server ns2.elit.net (178.21.73.17) answers queries over TCP.
+  4.540: natdesign.m.se INFO Name server ns2.elit.net (178.21.73.17) closed for zone transfer of natdesign.m.se.
+  4.550: natdesign.m.se INFO Legacy name server ID for ns2.elit.net (178.21.73.17): hostname.bind = Hur
+  4.557: natdesign.m.se INFO Legacy name server ID for ns2.elit.net (178.21.73.17): version.bind = 9.4.2-P2
+  4.571: natdesign.m.se NOTICE No answer received from 178.21.73.17 when querying for version.server/CH/TXT.
+  4.571: natdesign.m.se INFO Done testing name server ns2.elit.net.
+  4.571: natdesign.m.se INFO Begin testing name server ns2.natdesign.m.se.
+  4.571: natdesign.m.se INFO Begin testing host ns2.natdesign.m.se.
+  4.572: natdesign.m.se INFO Begin testing address 87.96.215.128.
+  5.281: natdesign.m.se INFO Done testing address 87.96.215.128.
+  5.281: natdesign.m.se INFO Done testing host ns2.natdesign.m.se.
+  5.298: natdesign.m.se INFO Name server ns2.natdesign.m.se (87.96.215.128) is not recursive.
+  5.316: natdesign.m.se INFO Name server ns2.natdesign.m.se (87.96.215.128) authoritative for natdesign.m.se.
+  5.334: natdesign.m.se INFO Name server ns2.natdesign.m.se (87.96.215.128) answers queries over UDP.
+  5.367: natdesign.m.se INFO Name server ns2.natdesign.m.se (87.96.215.128) answers queries over TCP.
+  5.422: natdesign.m.se NOTICE Name server ns2.natdesign.m.se (87.96.215.128) open for zone transfer of natdesign.m.se.
+  5.441: natdesign.m.se INFO Legacy name server ID for ns2.natdesign.m.se (87.96.215.128): hostname.bind = sandra
+  5.459: natdesign.m.se INFO Legacy name server ID for ns2.natdesign.m.se (87.96.215.128): version.bind = 9.4.2-P1
+  5.495: natdesign.m.se NOTICE No answer received from 87.96.215.128 when querying for version.server/CH/TXT.
+  5.495: natdesign.m.se INFO Done testing name server ns2.natdesign.m.se.
+  5.495: natdesign.m.se INFO Begin testing zone consistency for natdesign.m.se.
+  5.517: natdesign.m.se INFO SOA at address 87.96.215.128 has serial 2009040501.
+  5.526: natdesign.m.se INFO SOA at address 178.21.73.17 has serial 2009040501.
+  5.526: natdesign.m.se INFO All SOA records have consistent serial numbers.
+  5.526: natdesign.m.se INFO All SOA records are consistent among all name servers.
+  5.526: natdesign.m.se INFO Done testing zone consistency for natdesign.m.se.
+  5.526: natdesign.m.se INFO Begin testing SOA parameters for natdesign.m.se.
+  5.545: natdesign.m.se INFO Found SOA record for natdesign.m.se.
+  5.545: natdesign.m.se INFO Begin testing host sandra.natdesign.m.se.
+  5.546: natdesign.m.se INFO Begin testing address 87.96.215.128.
+  5.547: natdesign.m.se INFO Done testing address 87.96.215.128.
+  5.547: natdesign.m.se INFO Done testing host sandra.natdesign.m.se.
+  5.547: natdesign.m.se INFO SOA MNAME for natdesign.m.se valid (sandra.natdesign.m.se).
+  5.547: natdesign.m.se NOTICE SOA MNAME for natdesign.m.se (sandra.natdesign.m.se) not listed as NS.
+  5.567: natdesign.m.se INFO SOA MNAME for natdesign.m.se (sandra.natdesign.m.se) is authoritative.
+  5.567: natdesign.m.se INFO Begin testing email address hostmaster@natdesign.m.se.
+  5.577: natdesign.m.se INFO Mail exchangers for hostmaster@natdesign.m.se found sandra.natdesign.m.se.
+  5.577: natdesign.m.se INFO All mail servers for hostmaster@natdesign.m.se are in zone natdesign.m.se.
+  5.577: natdesign.m.se INFO Begin testing host sandra.natdesign.m.se.
+  5.577: natdesign.m.se INFO Begin testing address 87.96.215.128.
+  5.579: natdesign.m.se INFO Done testing address 87.96.215.128.
+  5.579: natdesign.m.se INFO Done testing host sandra.natdesign.m.se.
+  5.579: natdesign.m.se INFO Begin testing mail server sandra.natdesign.m.se (87.96.215.128) with hostmaster@natdesign.m.se.
+  5.658: natdesign.m.se INFO SMTP banner: sandra.natdesign.m.se ESMTP Sendmail 8.14.2/8.14.2; Tue, 7 Sep 2010 16:17:06 +0200
+  6.324: natdesign.m.se INFO SMTP testing of sandra.natdesign.m.se (87.96.215.128) with hostmaster@natdesign.m.se succeeded without errors.
+  6.325: natdesign.m.se INFO Done testing mail server sandra.natdesign.m.se (87.96.215.128) with hostmaster@natdesign.m.se.
+  6.325: natdesign.m.se INFO Delivery over IPv4 to hostmaster@natdesign.m.se ok.
+  6.325: natdesign.m.se INFO Delivery over IPv6 to hostmaster@natdesign.m.se could not be done.
+  6.325: natdesign.m.se INFO Done testing email address hostmaster@natdesign.m.se.
+  6.325: natdesign.m.se INFO Successful attempt to deliver email for SOA RNAME of natdesign.m.se (hostmaster.natdesign.m.se) using hostmaster@natdesign.m.se.
+  6.325: natdesign.m.se INFO SOA TTL for natdesign.m.se OK (3600) - recommended >= 3600.
+  6.325: natdesign.m.se INFO SOA refresh for natdesign.m.se OK (28800) - recommended >= 14400.
+  6.325: natdesign.m.se INFO SOA retry for natdesign.m.se OK (7200) - recommended >= 3600.
+  6.325: natdesign.m.se INFO SOA expire for natdesign.m.se OK (604800) - recommended >= 604800.
+  6.325: natdesign.m.se INFO SOA minimum for natdesign.m.se OK (3600) - recommended between 300 and 86400.
+  6.325: natdesign.m.se INFO Done testing SOA parameters for natdesign.m.se.
+  6.326: natdesign.m.se INFO Begin testing connectivity for natdesign.m.se.
+  6.780: natdesign.m.se INFO Name server 87.96.215.128 announced by: 12552
+  7.090: natdesign.m.se INFO Name server 178.21.73.17 announced by: 41175
+  7.090: natdesign.m.se INFO Zone announced by ASN: 41175,12552
+  7.090: natdesign.m.se INFO Zone announced by more than one ASN (2).
+  7.091: natdesign.m.se INFO Zone announced by IPv6 ASN: 
+  7.091: natdesign.m.se NOTICE Zone announced by only one IPv6 ASN (0).
+  7.091: natdesign.m.se INFO Done testing connectivity for natdesign.m.se.
+  7.091: natdesign.m.se INFO Begin testing DNSSEC for natdesign.m.se.
+  7.104: natdesign.m.se INFO Did not find DS record for natdesign.m.se at parent.
+  7.148: natdesign.m.se INFO Servers for natdesign.m.se have consistent extra processing status.
+  7.149: natdesign.m.se INFO Did not find DNSKEY record for natdesign.m.se at child.
+  7.149: natdesign.m.se INFO No DNSKEY(s) found at child, other tests skipped.
+  7.149: natdesign.m.se INFO Done testing DNSSEC for natdesign.m.se.
+  7.149: natdesign.m.se INFO Test completed for zone natdesign.m.se.

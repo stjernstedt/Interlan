@@ -1,0 +1,99 @@
+  0.000: gotene.se INFO Begin testing zone gotene.se with version 1.6.1.
+  0.633: gotene.se INFO Begin testing delegation for gotene.se.
+ 15.141: gotene.se INFO Name servers listed at parent: dns1.fastbit.se,dns2.fastbit.se
+ 19.381: gotene.se INFO Name servers listed at child: dns1.fastbit.se,dns2.fastbit.se
+ 19.381: gotene.se NOTICE No IPv6 name servers found.
+ 19.557: gotene.se INFO Parent glue for gotene.se found: dns1.fastbit.se (83.223.5.2)
+ 19.673: gotene.se INFO Parent glue for gotene.se found: dns2.fastbit.se (83.223.5.3)
+ 19.820: gotene.se INFO Checking glue for dns1.fastbit.se (83.223.5.2).
+ 19.820: gotene.se INFO Checking glue for dns2.fastbit.se (83.223.5.3).
+ 19.824: gotene.se INFO Parent glue for gotene.se found: dns1.fastbit.se (83.223.5.2)
+ 19.824: gotene.se INFO Parent glue for gotene.se found: dns2.fastbit.se (83.223.5.3)
+ 22.717: gotene.se INFO It is possible to build a referral packet for gotene.se that works without EDNS0.
+ 23.628: gotene.se INFO Previously used name servers for gotene.se: 
+ 23.628: gotene.se INFO Done testing delegation for gotene.se.
+ 23.684: gotene.se INFO Begin testing name server dns1.fastbit.se.
+ 23.684: gotene.se INFO Begin testing host dns1.fastbit.se.
+ 24.086: gotene.se INFO Begin testing address 83.223.5.2.
+ 44.399: gotene.se INFO Done testing address 83.223.5.2.
+ 44.400: gotene.se INFO Done testing host dns1.fastbit.se.
+ 44.780: gotene.se INFO Name server dns1.fastbit.se (83.223.5.2) answers queries over UDP.
+ 44.835: gotene.se INFO Name server dns1.fastbit.se (83.223.5.2) answers queries over TCP.
+ 45.072: gotene.se INFO Name server dns1.fastbit.se (83.223.5.2) is not recursive.
+ 45.200: gotene.se INFO Name server dns1.fastbit.se (83.223.5.2) authoritative for gotene.se.
+ 45.421: gotene.se INFO Name server dns1.fastbit.se (83.223.5.2) closed for zone transfer of gotene.se.
+ 45.454: gotene.se NOTICE No answer received from 83.223.5.2 when querying for hostname.bind/CH/TXT.
+ 58.212: gotene.se INFO Done testing name server dns1.fastbit.se.
+ 58.212: gotene.se INFO Begin testing name server dns2.fastbit.se.
+ 58.212: gotene.se INFO Begin testing host dns2.fastbit.se.
+ 58.600: gotene.se INFO Begin testing address 83.223.5.3.
+ 59.744: gotene.se WARNING Could not find reverse address for 83.223.5.3 (3.5.223.83.in-addr.arpa.).
+ 59.744: gotene.se INFO Done testing address 83.223.5.3.
+ 59.744: gotene.se INFO Done testing host dns2.fastbit.se.
+ 60.267: gotene.se INFO Name server dns2.fastbit.se (83.223.5.3) answers queries over UDP.
+ 60.336: gotene.se INFO Name server dns2.fastbit.se (83.223.5.3) answers queries over TCP.
+ 60.379: gotene.se INFO Name server dns2.fastbit.se (83.223.5.3) is not recursive.
+ 60.466: gotene.se INFO Name server dns2.fastbit.se (83.223.5.3) authoritative for gotene.se.
+ 60.743: gotene.se INFO Name server dns2.fastbit.se (83.223.5.3) closed for zone transfer of gotene.se.
+ 60.783: gotene.se NOTICE No answer received from 83.223.5.3 when querying for hostname.bind/CH/TXT.
+ 72.980: gotene.se INFO Done testing name server dns2.fastbit.se.
+ 72.980: gotene.se INFO Begin testing zone consistency for gotene.se.
+ 74.339: gotene.se INFO SOA at address 83.223.5.2 has serial 2014021016.
+ 74.368: gotene.se INFO SOA at address 83.223.5.3 has serial 2014021016.
+ 74.368: gotene.se INFO All SOA records have consistent serial numbers.
+ 74.368: gotene.se INFO All other fields in the SOA record are consistent among all name servers.
+ 74.901: gotene.se NOTICE The listed nameservers for gotene.se all report the same set of nameservers.
+ 74.901: gotene.se INFO Done testing zone consistency for gotene.se.
+ 74.901: gotene.se INFO Begin testing SOA parameters for gotene.se.
+ 74.954: gotene.se INFO Found SOA record for gotene.se.
+ 74.954: gotene.se INFO Begin testing host dns1.fastbit.se.
+ 76.171: gotene.se INFO Begin testing address 83.223.5.2.
+ 76.432: gotene.se INFO Done testing address 83.223.5.2.
+ 76.432: gotene.se INFO Done testing host dns1.fastbit.se.
+ 76.432: gotene.se INFO SOA MNAME for gotene.se valid (dns1.fastbit.se).
+ 76.432: gotene.se INFO SOA MNAME for gotene.se (dns1.fastbit.se) listed as NS.
+ 76.776: gotene.se INFO SOA MNAME for gotene.se (dns1.fastbit.se) is authoritative.
+ 76.777: gotene.se INFO Begin testing email address root@gotene.se.
+ 77.188: gotene.se INFO Mail exchangers for root@gotene.se found smtp-in.sto-hy.se.stejtech.net,smtp-in.sto-ste.se.stejtech.net.
+ 77.189: gotene.se INFO Begin testing host smtp-in.sto-hy.se.stejtech.net.
+ 78.453: gotene.se INFO Begin testing address 91.236.209.10.
+ 81.326: gotene.se INFO Done testing address 91.236.209.10.
+ 81.332: gotene.se INFO Begin testing address 79.136.102.100.
+ 83.448: gotene.se INFO Done testing address 79.136.102.100.
+ 83.448: gotene.se INFO Begin testing address 91.236.208.10.
+ 85.822: gotene.se INFO Done testing address 91.236.208.10.
+ 85.822: gotene.se INFO Begin testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 87.516: gotene.se INFO Done testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 87.516: gotene.se INFO Begin testing address 2001:67c:27e0:2110:0:0:0:1b01.
+ 89.056: gotene.se INFO Done testing address 2001:67c:27e0:2110:0:0:0:1b01.
+ 89.056: gotene.se INFO Begin testing address 2001:9b0:1:703:0:0:0:1b01.
+ 90.809: gotene.se INFO Done testing address 2001:9b0:1:703:0:0:0:1b01.
+ 90.809: gotene.se INFO Done testing host smtp-in.sto-hy.se.stejtech.net.
+ 90.809: gotene.se INFO Begin testing host smtp-in.sto-ste.se.stejtech.net.
+ 95.134: gotene.se INFO Begin testing address 79.136.102.90.
+ 97.695: gotene.se INFO Done testing address 79.136.102.90.
+ 97.699: gotene.se INFO Begin testing address 83.140.31.145.
+100.688: gotene.se INFO Done testing address 83.140.31.145.
+100.688: gotene.se INFO Begin testing address 2001:9b0:1:703:0:0:0:b002.
+102.512: gotene.se INFO Done testing address 2001:9b0:1:703:0:0:0:b002.
+102.512: gotene.se INFO Done testing host smtp-in.sto-ste.se.stejtech.net.
+102.512: gotene.se INFO Done testing email address root@gotene.se.
+102.512: gotene.se INFO Successful attempt to deliver email for SOA RNAME of gotene.se (root.gotene.se) using root@gotene.se.
+102.512: gotene.se INFO SOA TTL for gotene.se OK (86400) - recommended >= 3600.
+102.512: gotene.se INFO SOA refresh for gotene.se OK (28800) - recommended >= 14400.
+102.512: gotene.se INFO SOA retry for gotene.se OK (7200) - recommended >= 3600.
+102.512: gotene.se INFO SOA expire for gotene.se OK (604800) - recommended >= 604800.
+102.512: gotene.se INFO SOA minimum for gotene.se OK (86400) - recommended between 300 and 86400.
+102.512: gotene.se INFO Done testing SOA parameters for gotene.se.
+102.513: gotene.se INFO Begin testing connectivity for gotene.se.
+103.969: gotene.se NOTICE Zone announced by fewer than two IPv4 ASN.
+103.969: gotene.se NOTICE Zone announced by fewer than two IPv6 ASN.
+103.969: gotene.se INFO Done testing connectivity for gotene.se.
+103.969: gotene.se INFO Begin testing DNSSEC for gotene.se.
+104.082: gotene.se INFO Did not find DS record for gotene.se at parent.
+104.282: gotene.se INFO Servers for gotene.se have consistent extra processing status.
+104.351: gotene.se INFO Authenticated denial records not found for gotene.se.
+104.480: gotene.se INFO Did not find DNSKEY record for gotene.se at child.
+104.481: gotene.se INFO No DNSKEY(s) found at child, other tests skipped.
+104.481: gotene.se INFO Done testing DNSSEC for gotene.se.
+104.481: gotene.se INFO Test completed for zone gotene.se.

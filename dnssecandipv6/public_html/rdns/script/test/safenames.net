@@ -1,0 +1,227 @@
+  0.000: safenames.net INFO Begin testing zone safenames.net with version 1.5.0.
+  0.001: safenames.net INFO Begin testing delegation for safenames.net.
+ 38.238: safenames.net INFO Name servers listed at parent: pdns1.safenames.net,pdns2.safenames.net,pdns3.safenames.org,pdns4.safenames.org,pdns5.safenames.info,pdns6.safenames.co.uk
+ 44.058: safenames.net INFO Name servers listed at child: pdns1.safenames.net,pdns2.safenames.net,pdns3.safenames.org,pdns4.safenames.org,pdns5.safenames.info,pdns6.safenames.co.uk
+ 44.256: safenames.net INFO Parent glue for safenames.net found: pdns1.safenames.net (156.154.64.229)
+ 44.363: safenames.net INFO Parent glue for safenames.net found: pdns1.safenames.net (2001:502:f3ff:0:0:0:0:109)
+ 44.405: safenames.net INFO Parent glue for safenames.net found: pdns2.safenames.net (156.154.65.229)
+ 44.421: safenames.net INFO Parent glue for safenames.net found: pdns2.safenames.net (2610:a1:1014:0:0:0:0:109)
+ 45.839: safenames.net INFO Checking glue for pdns1.safenames.net (156.154.64.229).
+ 45.878: safenames.net INFO Child glue for safenames.net found: pdns1.safenames.net (156.154.64.229)
+ 45.878: safenames.net INFO Checking glue for pdns1.safenames.net (2001:502:f3ff:0:0:0:0:109).
+ 45.917: safenames.net INFO Child glue for safenames.net found: pdns1.safenames.net (2001:502:f3ff:0:0:0:0:109)
+ 45.917: safenames.net INFO Checking glue for pdns2.safenames.net (156.154.65.229).
+ 45.982: safenames.net INFO Child glue for safenames.net found: pdns2.safenames.net (156.154.65.229)
+ 45.982: safenames.net INFO Checking glue for pdns2.safenames.net (2610:a1:1014:0:0:0:0:109).
+ 46.024: safenames.net INFO Child glue for safenames.net found: pdns2.safenames.net (2610:a1:1014:0:0:0:0:109)
+ 46.024: safenames.net INFO Parent glue for safenames.net found: pdns1.safenames.net (156.154.64.229)
+ 46.024: safenames.net INFO Parent glue for safenames.net found: pdns1.safenames.net (2001:502:f3ff:0:0:0:0:109)
+ 46.025: safenames.net INFO Parent glue for safenames.net found: pdns2.safenames.net (156.154.65.229)
+ 46.025: safenames.net INFO Parent glue for safenames.net found: pdns2.safenames.net (2610:a1:1014:0:0:0:0:109)
+ 46.889: safenames.net INFO It is possible to build a referral packet for safenames.net that works without EDNS0.
+ 46.889: safenames.net INFO Done testing delegation for safenames.net.
+ 46.890: safenames.net INFO Begin testing name server pdns1.safenames.net.
+ 46.890: safenames.net INFO Begin testing host pdns1.safenames.net.
+ 46.891: safenames.net INFO Begin testing address 156.154.64.229.
+ 57.233: safenames.net INFO Done testing address 156.154.64.229.
+ 57.233: safenames.net INFO Begin testing address 2001:502:f3ff:0:0:0:0:109.
+ 64.548: safenames.net INFO Done testing address 2001:502:f3ff:0:0:0:0:109.
+ 64.549: safenames.net INFO Done testing host pdns1.safenames.net.
+ 64.679: safenames.net INFO Name server pdns1.safenames.net (156.154.64.229) answers queries over UDP.
+ 64.782: safenames.net INFO Name server pdns1.safenames.net (156.154.64.229) answers queries over TCP.
+ 64.847: safenames.net INFO Name server pdns1.safenames.net (156.154.64.229) is not recursive.
+ 65.150: safenames.net INFO Name server pdns1.safenames.net (156.154.64.229) authoritative for safenames.net.
+ 65.967: safenames.net INFO Name server pdns1.safenames.net (156.154.64.229) closed for zone transfer of safenames.net.
+ 66.002: safenames.net NOTICE No answer received from 156.154.64.229 when querying for hostname.bind/CH/TXT.
+ 66.098: safenames.net INFO Legacy name server ID for pdns1.safenames.net (156.154.64.229): version.bind = UltraDNS Resolver
+ 66.205: safenames.net NOTICE No answer received from 156.154.64.229 when querying for id.server/CH/TXT.
+ 66.299: safenames.net NOTICE No answer received from 156.154.64.229 when querying for version.server/CH/TXT.
+ 66.380: safenames.net INFO Name server pdns1.safenames.net (2001:502:f3ff:0:0:0:0:109) answers queries over UDP.
+ 66.512: safenames.net INFO Name server pdns1.safenames.net (2001:502:f3ff:0:0:0:0:109) answers queries over TCP.
+ 66.627: safenames.net INFO Name server pdns1.safenames.net (2001:502:f3ff:0:0:0:0:109) is not recursive.
+ 66.944: safenames.net INFO Name server pdns1.safenames.net (2001:502:f3ff:0:0:0:0:109) authoritative for safenames.net.
+ 67.067: safenames.net INFO Name server pdns1.safenames.net (2001:502:f3ff:0:0:0:0:109) closed for zone transfer of safenames.net.
+ 67.106: safenames.net NOTICE No answer received from 2001:502:f3ff:0:0:0:0:109 when querying for hostname.bind/CH/TXT.
+ 67.175: safenames.net INFO Legacy name server ID for pdns1.safenames.net (2001:502:f3ff:0:0:0:0:109): version.bind = UltraDNS Resolver
+ 67.267: safenames.net NOTICE No answer received from 2001:502:f3ff:0:0:0:0:109 when querying for id.server/CH/TXT.
+ 67.355: safenames.net NOTICE No answer received from 2001:502:f3ff:0:0:0:0:109 when querying for version.server/CH/TXT.
+ 67.355: safenames.net INFO Done testing name server pdns1.safenames.net.
+ 67.356: safenames.net INFO Begin testing name server pdns2.safenames.net.
+ 67.356: safenames.net INFO Begin testing host pdns2.safenames.net.
+ 67.356: safenames.net INFO Begin testing address 156.154.65.229.
+ 68.369: safenames.net INFO Done testing address 156.154.65.229.
+ 68.374: safenames.net INFO Begin testing address 2610:a1:1014:0:0:0:0:109.
+ 70.461: safenames.net INFO Done testing address 2610:a1:1014:0:0:0:0:109.
+ 70.461: safenames.net INFO Done testing host pdns2.safenames.net.
+ 70.540: safenames.net INFO Name server pdns2.safenames.net (156.154.65.229) answers queries over UDP.
+ 70.646: safenames.net INFO Name server pdns2.safenames.net (156.154.65.229) answers queries over TCP.
+ 70.707: safenames.net INFO Name server pdns2.safenames.net (156.154.65.229) is not recursive.
+ 70.989: safenames.net INFO Name server pdns2.safenames.net (156.154.65.229) authoritative for safenames.net.
+ 71.089: safenames.net INFO Name server pdns2.safenames.net (156.154.65.229) closed for zone transfer of safenames.net.
+ 71.128: safenames.net NOTICE No answer received from 156.154.65.229 when querying for hostname.bind/CH/TXT.
+ 71.168: safenames.net INFO Legacy name server ID for pdns2.safenames.net (156.154.65.229): version.bind = UltraDNS Resolver
+ 71.273: safenames.net NOTICE No answer received from 156.154.65.229 when querying for id.server/CH/TXT.
+ 71.361: safenames.net NOTICE No answer received from 156.154.65.229 when querying for version.server/CH/TXT.
+ 71.442: safenames.net INFO Name server pdns2.safenames.net (2610:a1:1014:0:0:0:0:109) answers queries over UDP.
+ 71.572: safenames.net INFO Name server pdns2.safenames.net (2610:a1:1014:0:0:0:0:109) answers queries over TCP.
+ 71.672: safenames.net INFO Name server pdns2.safenames.net (2610:a1:1014:0:0:0:0:109) is not recursive.
+ 72.055: safenames.net INFO Name server pdns2.safenames.net (2610:a1:1014:0:0:0:0:109) authoritative for safenames.net.
+ 72.242: safenames.net INFO Name server pdns2.safenames.net (2610:a1:1014:0:0:0:0:109) closed for zone transfer of safenames.net.
+ 72.291: safenames.net NOTICE No answer received from 2610:a1:1014:0:0:0:0:109 when querying for hostname.bind/CH/TXT.
+ 72.452: safenames.net INFO Legacy name server ID for pdns2.safenames.net (2610:a1:1014:0:0:0:0:109): version.bind = UltraDNS Resolver
+ 72.575: safenames.net NOTICE No answer received from 2610:a1:1014:0:0:0:0:109 when querying for id.server/CH/TXT.
+ 72.659: safenames.net NOTICE No answer received from 2610:a1:1014:0:0:0:0:109 when querying for version.server/CH/TXT.
+ 72.659: safenames.net INFO Done testing name server pdns2.safenames.net.
+ 72.660: safenames.net INFO Begin testing name server pdns3.safenames.org.
+ 72.660: safenames.net INFO Begin testing host pdns3.safenames.org.
+ 72.660: safenames.net INFO Begin testing address 156.154.66.229.
+ 75.687: safenames.net WARNING Reverse for 156.154.66.229 points to an unknown host name (pdns3.safenames.net).
+ 75.688: safenames.net INFO Done testing address 156.154.66.229.
+ 75.688: safenames.net INFO Begin testing address 2610:a1:1015:0:0:0:0:109.
+ 82.511: safenames.net INFO Done testing address 2610:a1:1015:0:0:0:0:109.
+ 82.512: safenames.net INFO Done testing host pdns3.safenames.org.
+ 82.559: safenames.net INFO Name server pdns3.safenames.org (156.154.66.229) answers queries over UDP.
+ 82.654: safenames.net INFO Name server pdns3.safenames.org (156.154.66.229) answers queries over TCP.
+ 82.706: safenames.net INFO Name server pdns3.safenames.org (156.154.66.229) is not recursive.
+ 82.846: safenames.net INFO Name server pdns3.safenames.org (156.154.66.229) authoritative for safenames.net.
+ 82.951: safenames.net INFO Name server pdns3.safenames.org (156.154.66.229) closed for zone transfer of safenames.net.
+ 82.985: safenames.net NOTICE No answer received from 156.154.66.229 when querying for hostname.bind/CH/TXT.
+ 83.070: safenames.net INFO Legacy name server ID for pdns3.safenames.org (156.154.66.229): version.bind = UltraDNS Resolver
+ 83.171: safenames.net NOTICE No answer received from 156.154.66.229 when querying for id.server/CH/TXT.
+ 83.247: safenames.net NOTICE No answer received from 156.154.66.229 when querying for version.server/CH/TXT.
+ 83.363: safenames.net INFO Name server pdns3.safenames.org (2610:a1:1015:0:0:0:0:109) answers queries over UDP.
+ 83.424: safenames.net INFO Name server pdns3.safenames.org (2610:a1:1015:0:0:0:0:109) answers queries over TCP.
+ 83.463: safenames.net INFO Name server pdns3.safenames.org (2610:a1:1015:0:0:0:0:109) is not recursive.
+ 83.667: safenames.net INFO Name server pdns3.safenames.org (2610:a1:1015:0:0:0:0:109) authoritative for safenames.net.
+ 83.780: safenames.net INFO Name server pdns3.safenames.org (2610:a1:1015:0:0:0:0:109) closed for zone transfer of safenames.net.
+ 83.815: safenames.net NOTICE No answer received from 2610:a1:1015:0:0:0:0:109 when querying for hostname.bind/CH/TXT.
+ 83.883: safenames.net INFO Legacy name server ID for pdns3.safenames.org (2610:a1:1015:0:0:0:0:109): version.bind = UltraDNS Resolver
+ 83.936: safenames.net NOTICE No answer received from 2610:a1:1015:0:0:0:0:109 when querying for id.server/CH/TXT.
+ 83.971: safenames.net NOTICE No answer received from 2610:a1:1015:0:0:0:0:109 when querying for version.server/CH/TXT.
+ 83.971: safenames.net INFO Done testing name server pdns3.safenames.org.
+ 83.971: safenames.net INFO Begin testing name server pdns4.safenames.org.
+ 83.972: safenames.net INFO Begin testing host pdns4.safenames.org.
+ 83.972: safenames.net INFO Begin testing address 156.154.67.229.
+ 84.947: safenames.net INFO Done testing address 156.154.67.229.
+ 84.948: safenames.net INFO Begin testing address 2001:502:4612:0:0:0:0:109.
+ 85.818: safenames.net INFO Done testing address 2001:502:4612:0:0:0:0:109.
+ 85.818: safenames.net INFO Done testing host pdns4.safenames.org.
+ 85.914: safenames.net INFO Name server pdns4.safenames.org (156.154.67.229) answers queries over UDP.
+ 85.994: safenames.net INFO Name server pdns4.safenames.org (156.154.67.229) answers queries over TCP.
+ 86.028: safenames.net INFO Name server pdns4.safenames.org (156.154.67.229) is not recursive.
+ 86.223: safenames.net INFO Name server pdns4.safenames.org (156.154.67.229) authoritative for safenames.net.
+ 86.328: safenames.net INFO Name server pdns4.safenames.org (156.154.67.229) closed for zone transfer of safenames.net.
+ 86.367: safenames.net NOTICE No answer received from 156.154.67.229 when querying for hostname.bind/CH/TXT.
+ 86.401: safenames.net INFO Legacy name server ID for pdns4.safenames.org (156.154.67.229): version.bind = UltraDNS Resolver
+ 86.437: safenames.net NOTICE No answer received from 156.154.67.229 when querying for id.server/CH/TXT.
+ 86.486: safenames.net NOTICE No answer received from 156.154.67.229 when querying for version.server/CH/TXT.
+ 86.522: safenames.net INFO Name server pdns4.safenames.org (2001:502:4612:0:0:0:0:109) answers queries over UDP.
+ 86.604: safenames.net INFO Name server pdns4.safenames.org (2001:502:4612:0:0:0:0:109) answers queries over TCP.
+ 86.642: safenames.net INFO Name server pdns4.safenames.org (2001:502:4612:0:0:0:0:109) is not recursive.
+ 87.045: safenames.net INFO Name server pdns4.safenames.org (2001:502:4612:0:0:0:0:109) authoritative for safenames.net.
+ 87.215: safenames.net INFO Name server pdns4.safenames.org (2001:502:4612:0:0:0:0:109) closed for zone transfer of safenames.net.
+ 87.250: safenames.net NOTICE No answer received from 2001:502:4612:0:0:0:0:109 when querying for hostname.bind/CH/TXT.
+ 87.286: safenames.net INFO Legacy name server ID for pdns4.safenames.org (2001:502:4612:0:0:0:0:109): version.bind = UltraDNS Resolver
+ 87.325: safenames.net NOTICE No answer received from 2001:502:4612:0:0:0:0:109 when querying for id.server/CH/TXT.
+ 87.383: safenames.net NOTICE No answer received from 2001:502:4612:0:0:0:0:109 when querying for version.server/CH/TXT.
+ 87.383: safenames.net INFO Done testing name server pdns4.safenames.org.
+ 87.384: safenames.net INFO Begin testing name server pdns5.safenames.info.
+ 87.384: safenames.net INFO Begin testing host pdns5.safenames.info.
+ 87.384: safenames.net INFO Begin testing address 156.154.68.229.
+ 88.196: safenames.net INFO Done testing address 156.154.68.229.
+ 88.196: safenames.net INFO Begin testing address 2610:a1:1016:0:0:0:0:109.
+ 89.181: safenames.net INFO Done testing address 2610:a1:1016:0:0:0:0:109.
+ 89.181: safenames.net INFO Done testing host pdns5.safenames.info.
+ 89.246: safenames.net INFO Name server pdns5.safenames.info (156.154.68.229) answers queries over UDP.
+ 89.318: safenames.net INFO Name server pdns5.safenames.info (156.154.68.229) answers queries over TCP.
+ 89.359: safenames.net INFO Name server pdns5.safenames.info (156.154.68.229) is not recursive.
+ 89.605: safenames.net INFO Name server pdns5.safenames.info (156.154.68.229) authoritative for safenames.net.
+ 89.707: safenames.net INFO Name server pdns5.safenames.info (156.154.68.229) closed for zone transfer of safenames.net.
+ 89.747: safenames.net NOTICE No answer received from 156.154.68.229 when querying for hostname.bind/CH/TXT.
+ 89.784: safenames.net INFO Legacy name server ID for pdns5.safenames.info (156.154.68.229): version.bind = UltraDNS Resolver
+ 89.818: safenames.net NOTICE No answer received from 156.154.68.229 when querying for id.server/CH/TXT.
+ 89.861: safenames.net NOTICE No answer received from 156.154.68.229 when querying for version.server/CH/TXT.
+ 89.923: safenames.net INFO Name server pdns5.safenames.info (2610:a1:1016:0:0:0:0:109) answers queries over UDP.
+ 89.998: safenames.net INFO Name server pdns5.safenames.info (2610:a1:1016:0:0:0:0:109) answers queries over TCP.
+ 90.045: safenames.net INFO Name server pdns5.safenames.info (2610:a1:1016:0:0:0:0:109) is not recursive.
+ 90.238: safenames.net INFO Name server pdns5.safenames.info (2610:a1:1016:0:0:0:0:109) authoritative for safenames.net.
+ 90.348: safenames.net INFO Name server pdns5.safenames.info (2610:a1:1016:0:0:0:0:109) closed for zone transfer of safenames.net.
+ 90.398: safenames.net NOTICE No answer received from 2610:a1:1016:0:0:0:0:109 when querying for hostname.bind/CH/TXT.
+ 90.462: safenames.net INFO Legacy name server ID for pdns5.safenames.info (2610:a1:1016:0:0:0:0:109): version.bind = UltraDNS Resolver
+ 90.572: safenames.net NOTICE No answer received from 2610:a1:1016:0:0:0:0:109 when querying for id.server/CH/TXT.
+ 90.610: safenames.net NOTICE No answer received from 2610:a1:1016:0:0:0:0:109 when querying for version.server/CH/TXT.
+ 90.610: safenames.net INFO Done testing name server pdns5.safenames.info.
+ 90.610: safenames.net INFO Begin testing name server pdns6.safenames.co.uk.
+ 90.611: safenames.net INFO Begin testing host pdns6.safenames.co.uk.
+ 91.019: safenames.net INFO Begin testing address 156.154.69.229.
+ 91.875: safenames.net INFO Done testing address 156.154.69.229.
+ 91.875: safenames.net INFO Done testing host pdns6.safenames.co.uk.
+ 92.392: safenames.net INFO Name server pdns6.safenames.co.uk (156.154.69.229) answers queries over UDP.
+ 92.468: safenames.net INFO Name server pdns6.safenames.co.uk (156.154.69.229) answers queries over TCP.
+ 92.509: safenames.net INFO Name server pdns6.safenames.co.uk (156.154.69.229) is not recursive.
+ 92.685: safenames.net INFO Name server pdns6.safenames.co.uk (156.154.69.229) authoritative for safenames.net.
+ 92.800: safenames.net INFO Name server pdns6.safenames.co.uk (156.154.69.229) closed for zone transfer of safenames.net.
+ 92.856: safenames.net NOTICE No answer received from 156.154.69.229 when querying for hostname.bind/CH/TXT.
+ 92.911: safenames.net INFO Legacy name server ID for pdns6.safenames.co.uk (156.154.69.229): version.bind = UltraDNS Resolver
+ 92.947: safenames.net NOTICE No answer received from 156.154.69.229 when querying for id.server/CH/TXT.
+ 92.982: safenames.net NOTICE No answer received from 156.154.69.229 when querying for version.server/CH/TXT.
+ 92.982: safenames.net INFO Done testing name server pdns6.safenames.co.uk.
+ 92.982: safenames.net INFO Begin testing zone consistency for safenames.net.
+ 94.047: safenames.net INFO SOA at address 2610:a1:1014:0:0:0:0:109 has serial 2012112005.
+ 94.084: safenames.net INFO SOA at address 156.154.65.229 has serial 2012112005.
+ 94.120: safenames.net INFO SOA at address 2610:a1:1015:0:0:0:0:109 has serial 2012112005.
+ 94.181: safenames.net INFO SOA at address 2610:a1:1016:0:0:0:0:109 has serial 2012112005.
+ 94.248: safenames.net INFO SOA at address 156.154.66.229 has serial 2012112005.
+ 94.333: safenames.net INFO SOA at address 156.154.67.229 has serial 2012112005.
+ 94.418: safenames.net INFO SOA at address 156.154.69.229 has serial 2012112005.
+ 94.455: safenames.net INFO SOA at address 156.154.68.229 has serial 2012112005.
+ 94.492: safenames.net INFO SOA at address 2001:502:f3ff:0:0:0:0:109 has serial 2012112005.
+ 94.556: safenames.net INFO SOA at address 2001:502:4612:0:0:0:0:109 has serial 2012112005.
+ 94.593: safenames.net INFO SOA at address 156.154.64.229 has serial 2012112005.
+ 94.593: safenames.net INFO All SOA records have consistent serial numbers.
+ 94.593: safenames.net INFO All other fields in the SOA record are consistent among all name servers.
+ 95.612: safenames.net NOTICE The listed nameservers for safenames.net all report the same set of nameservers.
+ 95.612: safenames.net INFO Done testing zone consistency for safenames.net.
+ 95.612: safenames.net INFO Begin testing SOA parameters for safenames.net.
+ 95.651: safenames.net INFO Found SOA record for safenames.net.
+ 95.655: safenames.net INFO Begin testing host pdns1.safenames.net.
+ 95.655: safenames.net INFO Begin testing address 156.154.64.229.
+ 95.657: safenames.net INFO Done testing address 156.154.64.229.
+ 95.657: safenames.net INFO Begin testing address 2001:502:f3ff:0:0:0:0:109.
+ 95.658: safenames.net INFO Done testing address 2001:502:f3ff:0:0:0:0:109.
+ 95.658: safenames.net INFO Done testing host pdns1.safenames.net.
+ 95.658: safenames.net INFO SOA MNAME for safenames.net valid (pdns1.safenames.net).
+ 95.658: safenames.net INFO SOA MNAME for safenames.net (pdns1.safenames.net) listed as NS.
+ 95.722: safenames.net INFO SOA MNAME for safenames.net (pdns1.safenames.net) is authoritative.
+ 95.760: safenames.net INFO SOA MNAME for safenames.net (pdns1.safenames.net) is authoritative.
+ 95.760: safenames.net INFO Begin testing email address hostmaster@safenames.net.
+ 96.213: safenames.net INFO Mail exchangers for hostmaster@safenames.net found mail01.safenames.net,mail02.safenames.net.
+ 96.213: safenames.net INFO All mail servers for hostmaster@safenames.net are in zone safenames.net.
+ 96.226: safenames.net INFO Begin testing host mail01.safenames.net.
+ 96.918: safenames.net INFO Begin testing address 217.19.254.140.
+103.025: safenames.net INFO Done testing address 217.19.254.140.
+103.025: safenames.net INFO Done testing host mail01.safenames.net.
+103.516: safenames.net INFO Begin testing host mail02.safenames.net.
+104.818: safenames.net INFO Begin testing address 109.234.198.9.
+107.107: safenames.net INFO Done testing address 109.234.198.9.
+107.107: safenames.net INFO Done testing host mail02.safenames.net.
+107.737: safenames.net INFO Done testing email address hostmaster@safenames.net.
+107.737: safenames.net INFO Successful attempt to deliver email for SOA RNAME of safenames.net (hostmaster.safenames.net) using hostmaster@safenames.net.
+107.737: safenames.net INFO SOA TTL for safenames.net OK (43200) - recommended >= 3600.
+107.737: safenames.net INFO SOA refresh for safenames.net OK (28800) - recommended >= 14400.
+107.737: safenames.net NOTICE SOA retry for safenames.net too small (1800) - recommended >= 3600.
+107.737: safenames.net INFO SOA expire for safenames.net OK (2592000) - recommended >= 604800.
+107.737: safenames.net INFO SOA minimum for safenames.net OK (86400) - recommended between 300 and 86400.
+107.737: safenames.net INFO Done testing SOA parameters for safenames.net.
+107.738: safenames.net INFO Begin testing connectivity for safenames.net.
+111.772: safenames.net NOTICE Zone announced by fewer than two IPv4 ASN.
+115.945: safenames.net NOTICE Zone announced by fewer than two IPv6 ASN.
+115.946: safenames.net INFO Done testing connectivity for safenames.net.
+115.975: safenames.net INFO Begin testing DNSSEC for safenames.net.
+116.387: safenames.net INFO Did not find DS record for safenames.net at parent.
+117.173: safenames.net INFO Servers for safenames.net have consistent extra processing status.
+117.242: safenames.net INFO Authenticated denial records not found for safenames.net.
+117.279: safenames.net INFO Did not find DNSKEY record for safenames.net at child.
+117.279: safenames.net INFO No DNSKEY(s) found at child, other tests skipped.
+117.279: safenames.net INFO Done testing DNSSEC for safenames.net.
+117.280: safenames.net INFO Test completed for zone safenames.net.

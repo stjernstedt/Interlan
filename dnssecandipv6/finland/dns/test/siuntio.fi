@@ -1,0 +1,95 @@
+  0.000: siuntio.fi INFO Begin testing zone siuntio.fi with version 1.6.1.
+  0.876: siuntio.fi INFO Begin testing delegation for siuntio.fi.
+ 11.282: siuntio.fi INFO Name servers listed at parent: ns-fi.elisa.net,ns-se.elisa.net,ns.siuntio.fi
+ 14.131: siuntio.fi INFO Name servers listed at child: ns-fi.elisa.net,ns-se.elisa.net,ns.siuntio.fi
+ 14.131: siuntio.fi NOTICE No IPv6 name servers found.
+ 14.715: siuntio.fi INFO Parent glue for siuntio.fi found: ns.siuntio.fi (193.229.146.6)
+ 14.787: siuntio.fi INFO Checking glue for ns.siuntio.fi (193.229.146.6).
+ 14.843: siuntio.fi INFO Child glue for siuntio.fi found: ns.siuntio.fi (193.229.146.6)
+ 14.844: siuntio.fi INFO Parent glue for siuntio.fi found: ns.siuntio.fi (193.229.146.6)
+ 16.042: siuntio.fi INFO It is possible to build a referral packet for siuntio.fi that works without EDNS0.
+ 17.234: siuntio.fi INFO Previously used name servers for siuntio.fi: 
+ 17.234: siuntio.fi INFO Done testing delegation for siuntio.fi.
+ 17.243: siuntio.fi INFO Begin testing name server ns-fi.elisa.net.
+ 17.243: siuntio.fi INFO Begin testing host ns-fi.elisa.net.
+ 17.555: siuntio.fi INFO Begin testing address 193.229.0.49.
+ 25.807: siuntio.fi INFO Done testing address 193.229.0.49.
+ 25.807: siuntio.fi INFO Done testing host ns-fi.elisa.net.
+ 26.001: siuntio.fi INFO Name server ns-fi.elisa.net (193.229.0.49) answers queries over UDP.
+ 26.042: siuntio.fi INFO Name server ns-fi.elisa.net (193.229.0.49) answers queries over TCP.
+ 26.067: siuntio.fi INFO Name server ns-fi.elisa.net (193.229.0.49) is not recursive.
+ 26.122: siuntio.fi INFO Name server ns-fi.elisa.net (193.229.0.49) authoritative for siuntio.fi.
+ 26.184: siuntio.fi INFO Name server ns-fi.elisa.net (193.229.0.49) closed for zone transfer of siuntio.fi.
+ 26.225: siuntio.fi INFO Legacy name server ID for ns-fi.elisa.net (193.229.0.49): hostname.bind = ldom-dns64
+ 26.258: siuntio.fi INFO Legacy name server ID for ns-fi.elisa.net (193.229.0.49): version.bind = unknown
+ 26.315: siuntio.fi NOTICE No answer received from 193.229.0.49 when querying for version.server/CH/TXT.
+ 26.315: siuntio.fi INFO Done testing name server ns-fi.elisa.net.
+ 26.315: siuntio.fi INFO Begin testing name server ns-se.elisa.net.
+ 26.315: siuntio.fi INFO Begin testing host ns-se.elisa.net.
+ 26.567: siuntio.fi INFO Begin testing address 62.248.254.2.
+ 27.393: siuntio.fi INFO Done testing address 62.248.254.2.
+ 27.394: siuntio.fi INFO Done testing host ns-se.elisa.net.
+ 27.877: siuntio.fi INFO Name server ns-se.elisa.net (62.248.254.2) answers queries over UDP.
+ 27.929: siuntio.fi INFO Name server ns-se.elisa.net (62.248.254.2) answers queries over TCP.
+ 27.967: siuntio.fi INFO Name server ns-se.elisa.net (62.248.254.2) is not recursive.
+ 28.042: siuntio.fi INFO Name server ns-se.elisa.net (62.248.254.2) authoritative for siuntio.fi.
+ 28.107: siuntio.fi INFO Name server ns-se.elisa.net (62.248.254.2) closed for zone transfer of siuntio.fi.
+ 28.139: siuntio.fi INFO Legacy name server ID for ns-se.elisa.net (62.248.254.2): hostname.bind = phys-dns8
+ 28.161: siuntio.fi INFO Legacy name server ID for ns-se.elisa.net (62.248.254.2): version.bind = unknown
+ 28.209: siuntio.fi NOTICE No answer received from 62.248.254.2 when querying for version.server/CH/TXT.
+ 28.209: siuntio.fi INFO Done testing name server ns-se.elisa.net.
+ 28.209: siuntio.fi INFO Begin testing name server ns.siuntio.fi.
+ 28.209: siuntio.fi INFO Begin testing host ns.siuntio.fi.
+ 28.343: siuntio.fi INFO Begin testing address 193.229.146.6.
+ 29.034: siuntio.fi INFO Done testing address 193.229.146.6.
+ 29.034: siuntio.fi INFO Done testing host ns.siuntio.fi.
+ 29.270: siuntio.fi INFO Name server ns.siuntio.fi (193.229.146.6) answers queries over UDP.
+ 29.323: siuntio.fi INFO Name server ns.siuntio.fi (193.229.146.6) answers queries over TCP.
+ 29.363: siuntio.fi INFO Name server ns.siuntio.fi (193.229.146.6) is not recursive.
+ 29.441: siuntio.fi INFO Name server ns.siuntio.fi (193.229.146.6) authoritative for siuntio.fi.
+ 29.497: siuntio.fi INFO Name server ns.siuntio.fi (193.229.146.6) closed for zone transfer of siuntio.fi.
+ 29.529: siuntio.fi INFO Legacy name server ID for ns.siuntio.fi (193.229.146.6): hostname.bind = www
+ 29.577: siuntio.fi INFO Legacy name server ID for ns.siuntio.fi (193.229.146.6): version.bind = 9.4.2-P2
+ 29.647: siuntio.fi NOTICE No answer received from 193.229.146.6 when querying for version.server/CH/TXT.
+ 29.647: siuntio.fi INFO Done testing name server ns.siuntio.fi.
+ 29.647: siuntio.fi INFO Begin testing zone consistency for siuntio.fi.
+ 31.319: siuntio.fi INFO SOA at address 62.248.254.2 has serial 2013081901.
+ 31.366: siuntio.fi INFO SOA at address 193.229.146.6 has serial 2013081901.
+ 31.407: siuntio.fi INFO SOA at address 193.229.0.49 has serial 2013081901.
+ 31.407: siuntio.fi INFO All SOA records have consistent serial numbers.
+ 31.407: siuntio.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 32.215: siuntio.fi NOTICE The listed nameservers for siuntio.fi all report the same set of nameservers.
+ 32.215: siuntio.fi INFO Done testing zone consistency for siuntio.fi.
+ 32.215: siuntio.fi INFO Begin testing SOA parameters for siuntio.fi.
+ 32.267: siuntio.fi INFO Found SOA record for siuntio.fi.
+ 32.267: siuntio.fi INFO Begin testing host ns.siuntio.fi.
+ 32.426: siuntio.fi INFO Begin testing address 193.229.146.6.
+ 32.575: siuntio.fi INFO Done testing address 193.229.146.6.
+ 32.575: siuntio.fi INFO Done testing host ns.siuntio.fi.
+ 32.575: siuntio.fi INFO SOA MNAME for siuntio.fi valid (ns.siuntio.fi).
+ 32.575: siuntio.fi INFO SOA MNAME for siuntio.fi (ns.siuntio.fi) listed as NS.
+ 32.709: siuntio.fi INFO SOA MNAME for siuntio.fi (ns.siuntio.fi) is authoritative.
+ 32.709: siuntio.fi INFO Begin testing email address martti@kainulainen.siuntio.fi.
+ 33.579: siuntio.fi INFO All mail servers for martti@kainulainen.siuntio.fi are in zone siuntio.fi.
+ 33.579: siuntio.fi NOTICE No mail exchanger found for domain kainulainen.siuntio.fi.
+ 33.579: siuntio.fi INFO Done testing email address martti@kainulainen.siuntio.fi.
+ 33.579: siuntio.fi INFO Successful attempt to deliver email for SOA RNAME of siuntio.fi (martti.kainulainen.siuntio.fi) using martti@kainulainen.siuntio.fi.
+ 33.580: siuntio.fi INFO SOA TTL for siuntio.fi OK (86400) - recommended >= 3600.
+ 33.580: siuntio.fi INFO SOA refresh for siuntio.fi OK (86400) - recommended >= 14400.
+ 33.580: siuntio.fi INFO SOA retry for siuntio.fi OK (3600) - recommended >= 3600.
+ 33.580: siuntio.fi NOTICE SOA expire for siuntio.fi too small (129600) - recommended >= 604800.
+ 33.580: siuntio.fi NOTICE SOA expire for siuntio.fi lower than refresh.
+ 33.580: siuntio.fi INFO SOA minimum for siuntio.fi OK (86400) - recommended between 300 and 86400.
+ 33.580: siuntio.fi INFO Done testing SOA parameters for siuntio.fi.
+ 33.580: siuntio.fi INFO Begin testing connectivity for siuntio.fi.
+ 35.320: siuntio.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 35.320: siuntio.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 35.320: siuntio.fi INFO Done testing connectivity for siuntio.fi.
+ 35.320: siuntio.fi INFO Begin testing DNSSEC for siuntio.fi.
+ 36.356: siuntio.fi INFO Did not find DS record for siuntio.fi at parent.
+ 36.850: siuntio.fi INFO Servers for siuntio.fi have consistent extra processing status.
+ 36.899: siuntio.fi INFO Authenticated denial records not found for siuntio.fi.
+ 36.931: siuntio.fi INFO Did not find DNSKEY record for siuntio.fi at child.
+ 36.931: siuntio.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 36.931: siuntio.fi INFO Done testing DNSSEC for siuntio.fi.
+ 36.931: siuntio.fi INFO Test completed for zone siuntio.fi.

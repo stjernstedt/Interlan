@@ -1,0 +1,80 @@
+  0.000: horby.se INFO Begin testing zone horby.se with version 1.6.1.
+  0.580: horby.se INFO Begin testing delegation for horby.se.
+ 32.952: horby.se INFO Name servers listed at parent: nssec1.skno.se,nssec2.skno.se
+ 35.988: horby.se INFO Name servers listed at child: nssec1.skno.se,nssec2.skno.se
+ 35.988: horby.se NOTICE No IPv6 name servers found.
+ 36.071: horby.se INFO Parent glue for horby.se found: nssec1.skno.se (192.121.255.64)
+ 36.496: horby.se INFO Parent glue for horby.se found: nssec2.skno.se (192.121.255.65)
+ 36.586: horby.se INFO Checking glue for nssec1.skno.se (192.121.255.64).
+ 36.586: horby.se INFO Checking glue for nssec2.skno.se (192.121.255.65).
+ 36.587: horby.se INFO Parent glue for horby.se found: nssec1.skno.se (192.121.255.64)
+ 36.587: horby.se INFO Parent glue for horby.se found: nssec2.skno.se (192.121.255.65)
+ 40.258: horby.se INFO It is possible to build a referral packet for horby.se that works without EDNS0.
+ 41.964: horby.se INFO Previously used name servers for horby.se: 
+ 41.964: horby.se INFO Done testing delegation for horby.se.
+ 41.965: horby.se INFO Begin testing name server nssec1.skno.se.
+ 41.965: horby.se INFO Begin testing host nssec1.skno.se.
+ 42.991: horby.se INFO Begin testing address 192.121.255.64.
+ 83.476: horby.se INFO Done testing address 192.121.255.64.
+ 83.476: horby.se INFO Done testing host nssec1.skno.se.
+ 83.905: horby.se INFO Name server nssec1.skno.se (192.121.255.64) answers queries over UDP.
+ 83.960: horby.se INFO Name server nssec1.skno.se (192.121.255.64) answers queries over TCP.
+ 84.012: horby.se INFO Name server nssec1.skno.se (192.121.255.64) is not recursive.
+ 84.182: horby.se INFO Name server nssec1.skno.se (192.121.255.64) authoritative for horby.se.
+ 84.260: horby.se INFO Name server nssec1.skno.se (192.121.255.64) closed for zone transfer of horby.se.
+ 84.704: horby.se NOTICE No answer received from 192.121.255.64 when querying for version.server/CH/TXT.
+ 84.704: horby.se INFO Done testing name server nssec1.skno.se.
+ 84.704: horby.se INFO Begin testing name server nssec2.skno.se.
+ 84.704: horby.se INFO Begin testing host nssec2.skno.se.
+ 85.048: horby.se INFO Begin testing address 192.121.255.65.
+ 86.210: horby.se INFO Done testing address 192.121.255.65.
+ 86.210: horby.se INFO Done testing host nssec2.skno.se.
+ 86.696: horby.se INFO Name server nssec2.skno.se (192.121.255.65) answers queries over UDP.
+ 86.774: horby.se INFO Name server nssec2.skno.se (192.121.255.65) answers queries over TCP.
+ 87.214: horby.se INFO Name server nssec2.skno.se (192.121.255.65) is not recursive.
+ 87.495: horby.se INFO Name server nssec2.skno.se (192.121.255.65) authoritative for horby.se.
+ 87.593: horby.se INFO Name server nssec2.skno.se (192.121.255.65) closed for zone transfer of horby.se.
+ 87.851: horby.se NOTICE No answer received from 192.121.255.65 when querying for version.server/CH/TXT.
+ 87.851: horby.se INFO Done testing name server nssec2.skno.se.
+ 87.903: horby.se INFO Begin testing zone consistency for horby.se.
+ 90.008: horby.se INFO SOA at address 192.121.255.64 has serial 14.
+ 90.116: horby.se INFO SOA at address 192.121.255.65 has serial 14.
+ 90.116: horby.se INFO All SOA records have consistent serial numbers.
+ 90.116: horby.se INFO All other fields in the SOA record are consistent among all name servers.
+ 92.172: horby.se NOTICE The listed nameservers for horby.se all report the same set of nameservers.
+ 92.172: horby.se INFO Done testing zone consistency for horby.se.
+ 92.173: horby.se INFO Begin testing SOA parameters for horby.se.
+ 92.226: horby.se INFO Found SOA record for horby.se.
+ 92.226: horby.se INFO Begin testing host nssec1.skno.se.
+ 92.708: horby.se INFO Begin testing address 192.121.255.64.
+ 93.184: horby.se INFO Done testing address 192.121.255.64.
+ 93.184: horby.se INFO Done testing host nssec1.skno.se.
+ 93.184: horby.se INFO SOA MNAME for horby.se valid (nssec1.skno.se).
+ 93.184: horby.se INFO SOA MNAME for horby.se (nssec1.skno.se) listed as NS.
+ 93.460: horby.se INFO SOA MNAME for horby.se (nssec1.skno.se) is authoritative.
+ 93.461: horby.se INFO Begin testing email address dns@unikom.se.
+ 93.920: horby.se INFO Mail exchangers for dns@unikom.se found sknomailgw.hassleholm.se.
+ 93.921: horby.se INFO Begin testing host sknomailgw.hassleholm.se.
+ 94.561: horby.se INFO Begin testing address 192.121.255.20.
+ 95.844: horby.se INFO Done testing address 192.121.255.20.
+ 95.844: horby.se INFO Done testing host sknomailgw.hassleholm.se.
+ 96.343: horby.se INFO Done testing email address dns@unikom.se.
+ 96.343: horby.se INFO Successful attempt to deliver email for SOA RNAME of horby.se (dns.unikom.se) using dns@unikom.se.
+ 96.343: horby.se INFO SOA TTL for horby.se OK (28800) - recommended >= 3600.
+ 96.343: horby.se NOTICE SOA refresh for horby.se too small (10800) - recommended >= 14400.
+ 96.343: horby.se INFO SOA retry for horby.se OK (3600) - recommended >= 3600.
+ 96.343: horby.se INFO SOA expire for horby.se OK (2419200) - recommended >= 604800.
+ 96.343: horby.se INFO SOA minimum for horby.se OK (900) - recommended between 300 and 86400.
+ 96.388: horby.se INFO Done testing SOA parameters for horby.se.
+ 96.388: horby.se INFO Begin testing connectivity for horby.se.
+ 98.361: horby.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 98.361: horby.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 98.361: horby.se INFO Done testing connectivity for horby.se.
+ 98.361: horby.se INFO Begin testing DNSSEC for horby.se.
+ 98.479: horby.se INFO Did not find DS record for horby.se at parent.
+ 98.608: horby.se INFO Servers for horby.se have consistent extra processing status.
+ 98.664: horby.se INFO Authenticated denial records not found for horby.se.
+ 98.744: horby.se INFO Did not find DNSKEY record for horby.se at child.
+ 98.744: horby.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 98.745: horby.se INFO Done testing DNSSEC for horby.se.
+ 98.745: horby.se INFO Test completed for zone horby.se.

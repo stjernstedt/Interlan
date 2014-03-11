@@ -1,0 +1,82 @@
+  0.000: sauvo.fi INFO Begin testing zone sauvo.fi with version 1.5.0.
+  1.824: sauvo.fi INFO Begin testing delegation for sauvo.fi.
+ 63.388: sauvo.fi INFO Name servers listed at parent: ns-fi.elisa.net,ns-se.elisa.net
+ 76.576: sauvo.fi INFO Name servers listed at child: ns-fi.elisa.net,ns-se.elisa.net
+ 76.576: sauvo.fi NOTICE No IPv6 name servers found.
+ 86.010: sauvo.fi INFO It is possible to build a referral packet for sauvo.fi that works without EDNS0.
+ 91.329: sauvo.fi INFO Previously used name servers for sauvo.fi: 
+ 91.329: sauvo.fi INFO Done testing delegation for sauvo.fi.
+ 91.330: sauvo.fi INFO Begin testing name server ns-fi.elisa.net.
+ 91.330: sauvo.fi INFO Begin testing host ns-fi.elisa.net.
+ 94.232: sauvo.fi INFO Begin testing address 193.229.0.49.
+134.631: sauvo.fi INFO Done testing address 193.229.0.49.
+134.632: sauvo.fi INFO Done testing host ns-fi.elisa.net.
+138.358: sauvo.fi INFO Name server ns-fi.elisa.net (193.229.0.49) answers queries over UDP.
+138.851: sauvo.fi INFO Name server ns-fi.elisa.net (193.229.0.49) answers queries over TCP.
+139.376: sauvo.fi INFO Name server ns-fi.elisa.net (193.229.0.49) is not recursive.
+140.654: sauvo.fi INFO Name server ns-fi.elisa.net (193.229.0.49) authoritative for sauvo.fi.
+141.099: sauvo.fi INFO Name server ns-fi.elisa.net (193.229.0.49) closed for zone transfer of sauvo.fi.
+141.496: sauvo.fi INFO Legacy name server ID for ns-fi.elisa.net (193.229.0.49): hostname.bind = ldom-dns64
+141.867: sauvo.fi INFO Legacy name server ID for ns-fi.elisa.net (193.229.0.49): version.bind = unknown
+142.672: sauvo.fi NOTICE No answer received from 193.229.0.49 when querying for version.server/CH/TXT.
+142.672: sauvo.fi INFO Done testing name server ns-fi.elisa.net.
+142.672: sauvo.fi INFO Begin testing name server ns-se.elisa.net.
+142.672: sauvo.fi INFO Begin testing host ns-se.elisa.net.
+145.468: sauvo.fi INFO Begin testing address 62.248.254.2.
+151.488: sauvo.fi INFO Done testing address 62.248.254.2.
+151.488: sauvo.fi INFO Done testing host ns-se.elisa.net.
+154.890: sauvo.fi INFO Name server ns-se.elisa.net (62.248.254.2) answers queries over UDP.
+155.479: sauvo.fi INFO Name server ns-se.elisa.net (62.248.254.2) answers queries over TCP.
+155.846: sauvo.fi INFO Name server ns-se.elisa.net (62.248.254.2) is not recursive.
+157.217: sauvo.fi INFO Name server ns-se.elisa.net (62.248.254.2) authoritative for sauvo.fi.
+157.572: sauvo.fi INFO Name server ns-se.elisa.net (62.248.254.2) closed for zone transfer of sauvo.fi.
+157.966: sauvo.fi INFO Legacy name server ID for ns-se.elisa.net (62.248.254.2): hostname.bind = phys-dns8
+158.376: sauvo.fi INFO Legacy name server ID for ns-se.elisa.net (62.248.254.2): version.bind = unknown
+159.232: sauvo.fi NOTICE No answer received from 62.248.254.2 when querying for version.server/CH/TXT.
+159.232: sauvo.fi INFO Done testing name server ns-se.elisa.net.
+159.232: sauvo.fi INFO Begin testing zone consistency for sauvo.fi.
+171.187: sauvo.fi INFO SOA at address 62.248.254.2 has serial 2012113001.
+171.600: sauvo.fi INFO SOA at address 193.229.0.49 has serial 2012113001.
+171.600: sauvo.fi INFO All SOA records have consistent serial numbers.
+171.600: sauvo.fi INFO All other fields in the SOA record are consistent among all name servers.
+177.936: sauvo.fi NOTICE The listed nameservers for sauvo.fi all report the same set of nameservers.
+177.936: sauvo.fi INFO Done testing zone consistency for sauvo.fi.
+177.936: sauvo.fi INFO Begin testing SOA parameters for sauvo.fi.
+178.344: sauvo.fi INFO Found SOA record for sauvo.fi.
+178.344: sauvo.fi INFO Begin testing host ns-fi.elisa.net.
+181.025: sauvo.fi INFO Begin testing address 193.229.0.49.
+183.876: sauvo.fi INFO Done testing address 193.229.0.49.
+183.876: sauvo.fi INFO Done testing host ns-fi.elisa.net.
+183.876: sauvo.fi INFO SOA MNAME for sauvo.fi valid (ns-fi.elisa.net).
+183.877: sauvo.fi INFO SOA MNAME for sauvo.fi (ns-fi.elisa.net) listed as NS.
+186.868: sauvo.fi INFO SOA MNAME for sauvo.fi (ns-fi.elisa.net) is authoritative.
+186.868: sauvo.fi INFO Begin testing email address hostmaster@elisa.fi.
+189.645: sauvo.fi INFO Mail exchangers for hostmaster@elisa.fi found mx1.elisa.fi,mx2.elisa.fi.
+189.645: sauvo.fi INFO Begin testing host mx1.elisa.fi.
+194.377: sauvo.fi INFO Begin testing address 193.64.173.42.
+205.860: sauvo.fi INFO Done testing address 193.64.173.42.
+205.860: sauvo.fi INFO Done testing host mx1.elisa.fi.
+208.038: sauvo.fi INFO Begin testing host mx2.elisa.fi.
+211.812: sauvo.fi INFO Begin testing address 193.64.173.43.
+219.413: sauvo.fi INFO Done testing address 193.64.173.43.
+219.413: sauvo.fi INFO Done testing host mx2.elisa.fi.
+221.466: sauvo.fi INFO Done testing email address hostmaster@elisa.fi.
+221.466: sauvo.fi INFO Successful attempt to deliver email for SOA RNAME of sauvo.fi (hostmaster.elisa.fi) using hostmaster@elisa.fi.
+221.466: sauvo.fi INFO SOA TTL for sauvo.fi OK (3600) - recommended >= 3600.
+221.466: sauvo.fi NOTICE SOA refresh for sauvo.fi too small (3600) - recommended >= 14400.
+221.466: sauvo.fi NOTICE SOA retry for sauvo.fi too small (900) - recommended >= 3600.
+221.466: sauvo.fi INFO SOA expire for sauvo.fi OK (604800) - recommended >= 604800.
+221.466: sauvo.fi INFO SOA minimum for sauvo.fi OK (3600) - recommended between 300 and 86400.
+221.466: sauvo.fi INFO Done testing SOA parameters for sauvo.fi.
+221.467: sauvo.fi INFO Begin testing connectivity for sauvo.fi.
+227.460: sauvo.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+227.460: sauvo.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+227.460: sauvo.fi INFO Done testing connectivity for sauvo.fi.
+227.461: sauvo.fi INFO Begin testing DNSSEC for sauvo.fi.
+228.112: sauvo.fi INFO Did not find DS record for sauvo.fi at parent.
+228.676: sauvo.fi INFO Servers for sauvo.fi have consistent extra processing status.
+228.976: sauvo.fi INFO Authenticated denial records not found for sauvo.fi.
+229.267: sauvo.fi INFO Did not find DNSKEY record for sauvo.fi at child.
+229.327: sauvo.fi INFO No DNSKEY(s) found at child, other tests skipped.
+229.327: sauvo.fi INFO Done testing DNSSEC for sauvo.fi.
+229.328: sauvo.fi INFO Test completed for zone sauvo.fi.

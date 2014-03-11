@@ -1,0 +1,87 @@
+  0.000: nordanstig.se INFO Begin testing zone nordanstig.se with version 1.0.1.
+  0.001: nordanstig.se INFO Begin testing delegation for nordanstig.se.
+  0.960: nordanstig.se INFO Name servers listed at parent: ns1.nordanstig.se,ns2.gavlenet.com
+  1.008: nordanstig.se INFO Name servers listed at child: ns1.nordanstig.se,ns2.gavlenet.com
+  1.009: nordanstig.se NOTICE No IPv6 name servers found.
+  1.023: nordanstig.se INFO Parent glue for nordanstig.se found: ns1.nordanstig.se (195.22.88.12)
+  1.092: nordanstig.se INFO Checking glue for ns1.nordanstig.se (195.22.88.12).
+  1.103: nordanstig.se INFO Child glue for nordanstig.se found: ns1.nordanstig.se (195.22.88.12)
+  1.103: nordanstig.se INFO Done testing delegation for nordanstig.se.
+  1.104: nordanstig.se INFO Begin testing name server ns1.nordanstig.se.
+  1.104: nordanstig.se INFO Begin testing host ns1.nordanstig.se.
+  1.105: nordanstig.se INFO Begin testing address 195.22.88.12.
+  3.822: nordanstig.se INFO Done testing address 195.22.88.12.
+  3.823: nordanstig.se INFO Done testing host ns1.nordanstig.se.
+  4.061: nordanstig.se WARNING Name server ns1.nordanstig.se (195.22.88.12) is recursive.
+  4.081: nordanstig.se INFO Name server ns1.nordanstig.se (195.22.88.12) authoritative for nordanstig.se.
+  4.100: nordanstig.se INFO Name server ns1.nordanstig.se (195.22.88.12) answers queries over UDP.
+  4.129: nordanstig.se INFO Name server ns1.nordanstig.se (195.22.88.12) answers queries over TCP.
+  4.161: nordanstig.se INFO Name server ns1.nordanstig.se (195.22.88.12) closed for zone transfer of nordanstig.se.
+  4.177: nordanstig.se NOTICE No answer received from 195.22.88.12 when querying for hostname.bind/CH/TXT.
+ 10.204: nordanstig.se NOTICE No answer received from 195.22.88.12 when querying for id.server/CH/TXT.
+ 10.219: nordanstig.se NOTICE No answer received from 195.22.88.12 when querying for version.server/CH/TXT.
+ 10.220: nordanstig.se INFO Done testing name server ns1.nordanstig.se.
+ 10.220: nordanstig.se INFO Begin testing name server ns2.gavlenet.com.
+ 10.220: nordanstig.se INFO Begin testing host ns2.gavlenet.com.
+ 10.222: nordanstig.se INFO Begin testing address 213.141.64.3.
+ 10.478: nordanstig.se INFO Done testing address 213.141.64.3.
+ 10.478: nordanstig.se INFO Done testing host ns2.gavlenet.com.
+ 10.556: nordanstig.se WARNING Name server ns2.gavlenet.com (213.141.64.3) is recursive.
+ 10.567: nordanstig.se INFO Name server ns2.gavlenet.com (213.141.64.3) authoritative for nordanstig.se.
+ 10.585: nordanstig.se INFO Name server ns2.gavlenet.com (213.141.64.3) answers queries over UDP.
+ 10.600: nordanstig.se INFO Name server ns2.gavlenet.com (213.141.64.3) answers queries over TCP.
+ 10.610: nordanstig.se INFO Name server ns2.gavlenet.com (213.141.64.3) closed for zone transfer of nordanstig.se.
+ 10.625: nordanstig.se INFO Legacy name server ID for ns2.gavlenet.com (213.141.64.3): hostname.bind = pippin.gavlenet.com
+ 16.647: nordanstig.se NOTICE No answer received from 213.141.64.3 when querying for version.server/CH/TXT.
+ 16.648: nordanstig.se INFO Done testing name server ns2.gavlenet.com.
+ 16.648: nordanstig.se INFO Begin testing zone consistency for nordanstig.se.
+ 16.665: nordanstig.se INFO SOA at address 213.141.64.3 has serial 200910111.
+ 16.684: nordanstig.se INFO SOA at address 195.22.88.12 has serial 200910111.
+ 16.685: nordanstig.se INFO All SOA records have consistent serial numbers.
+ 16.685: nordanstig.se INFO All SOA records are consistent among all name servers.
+ 16.685: nordanstig.se INFO Done testing zone consistency for nordanstig.se.
+ 16.685: nordanstig.se INFO Begin testing SOA parameters for nordanstig.se.
+ 16.695: nordanstig.se INFO Found SOA record for nordanstig.se.
+ 16.696: nordanstig.se INFO Begin testing host ns1.nordanstig.se.
+ 16.696: nordanstig.se INFO Begin testing address 195.22.88.12.
+ 16.699: nordanstig.se INFO Done testing address 195.22.88.12.
+ 16.699: nordanstig.se INFO Done testing host ns1.nordanstig.se.
+ 16.699: nordanstig.se INFO SOA MNAME for nordanstig.se valid (ns1.nordanstig.se).
+ 16.700: nordanstig.se INFO SOA MNAME for nordanstig.se (ns1.nordanstig.se) listed as NS.
+ 16.718: nordanstig.se INFO SOA MNAME for nordanstig.se (ns1.nordanstig.se) is authoritative.
+ 16.719: nordanstig.se INFO Begin testing email address registry@it.nordanstig.se.
+ 16.732: nordanstig.se INFO Mail exchangers for registry@it.nordanstig.se found mail.it.nordanstig.se.
+ 16.733: nordanstig.se INFO All mail servers for registry@it.nordanstig.se are in zone nordanstig.se.
+ 16.733: nordanstig.se INFO Begin testing host mail.it.nordanstig.se.
+ 16.749: nordanstig.se INFO Begin testing address 81.94.64.48.
+ 17.429: nordanstig.se INFO Done testing address 81.94.64.48.
+ 17.429: nordanstig.se INFO Done testing host mail.it.nordanstig.se.
+ 17.430: nordanstig.se INFO Begin testing mail server mail.it.nordanstig.se (81.94.64.48) with registry@it.nordanstig.se.
+ 17.500: nordanstig.se INFO SMTP banner: mail.hutb.se FirstClass ESMTP Mail Server v9.1 ready
+ 17.618: nordanstig.se INFO SMTP testing of mail.it.nordanstig.se (81.94.64.48) with registry@it.nordanstig.se succeeded without errors.
+ 17.618: nordanstig.se INFO Done testing mail server mail.it.nordanstig.se (81.94.64.48) with registry@it.nordanstig.se.
+ 17.619: nordanstig.se INFO Delivery over IPv4 to registry@it.nordanstig.se ok.
+ 17.619: nordanstig.se INFO Delivery over IPv6 to registry@it.nordanstig.se could not be done.
+ 17.619: nordanstig.se INFO Done testing email address registry@it.nordanstig.se.
+ 17.619: nordanstig.se INFO Successful attempt to deliver email for SOA RNAME of nordanstig.se (registry.it.nordanstig.se) using registry@it.nordanstig.se.
+ 17.619: nordanstig.se NOTICE SOA TTL for nordanstig.se too small (900) - recommended >= 3600.
+ 17.619: nordanstig.se INFO SOA refresh for nordanstig.se OK (28800) - recommended >= 14400.
+ 17.620: nordanstig.se INFO SOA retry for nordanstig.se OK (3600) - recommended >= 3600.
+ 17.620: nordanstig.se INFO SOA expire for nordanstig.se OK (1209600) - recommended >= 604800.
+ 17.620: nordanstig.se INFO SOA minimum for nordanstig.se OK (86400) - recommended between 300 and 86400.
+ 17.620: nordanstig.se INFO Done testing SOA parameters for nordanstig.se.
+ 17.620: nordanstig.se INFO Begin testing connectivity for nordanstig.se.
+ 18.015: nordanstig.se INFO Name server 213.141.64.3 announced by: 16117
+ 18.166: nordanstig.se INFO Name server 195.22.88.12 announced by: 3292
+ 18.167: nordanstig.se INFO Zone announced by ASN: 3292,16117
+ 18.167: nordanstig.se INFO Zone announced by more than one ASN (2).
+ 18.167: nordanstig.se INFO Zone announced by IPv6 ASN: 
+ 18.167: nordanstig.se NOTICE Zone announced by only one IPv6 ASN (0).
+ 18.168: nordanstig.se INFO Done testing connectivity for nordanstig.se.
+ 18.168: nordanstig.se INFO Begin testing DNSSEC for nordanstig.se.
+ 18.194: nordanstig.se INFO Did not find DS record for nordanstig.se at parent.
+ 18.234: nordanstig.se INFO Servers for nordanstig.se have consistent extra processing status.
+ 18.234: nordanstig.se INFO Did not find DNSKEY record for nordanstig.se at child.
+ 18.235: nordanstig.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 18.235: nordanstig.se INFO Done testing DNSSEC for nordanstig.se.
+ 18.235: nordanstig.se INFO Test completed for zone nordanstig.se.

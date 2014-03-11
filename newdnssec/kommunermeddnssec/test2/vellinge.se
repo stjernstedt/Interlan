@@ -1,0 +1,103 @@
+  0.000: vellinge.se INFO Begin testing zone vellinge.se with version 1.2.
+  0.000: vellinge.se INFO Begin testing delegation for vellinge.se.
+  6.096: vellinge.se INFO Name servers listed at parent: kista.dns.swip.net,malmoe.dns.swip.net,ns1.vellinge.se
+  7.978: vellinge.se INFO Name servers listed at child: kista.dns.swip.net,malmoe.dns.swip.net,ns1.vellinge.se
+  7.978: vellinge.se NOTICE No IPv6 name servers found.
+  8.194: vellinge.se INFO Parent glue for vellinge.se found: ns1.vellinge.se (193.242.103.211)
+  8.202: vellinge.se INFO Checking glue for ns1.vellinge.se (193.242.103.211).
+  8.220: vellinge.se INFO Child glue for vellinge.se found: ns1.vellinge.se (193.242.103.211)
+  8.221: vellinge.se INFO Parent glue for vellinge.se found: ns1.vellinge.se (193.242.103.211)
+  8.222: vellinge.se INFO Done testing delegation for vellinge.se.
+  8.222: vellinge.se INFO Begin testing name server kista.dns.swip.net.
+  8.222: vellinge.se INFO Begin testing host kista.dns.swip.net.
+  8.223: vellinge.se INFO Begin testing address 192.71.220.9.
+ 18.972: vellinge.se INFO Done testing address 192.71.220.9.
+ 18.972: vellinge.se INFO Done testing host kista.dns.swip.net.
+ 18.981: vellinge.se INFO Name server kista.dns.swip.net (192.71.220.9) answers queries over UDP.
+ 18.994: vellinge.se INFO Name server kista.dns.swip.net (192.71.220.9) answers queries over TCP.
+ 19.002: vellinge.se INFO Name server kista.dns.swip.net (192.71.220.9) is not recursive.
+ 19.011: vellinge.se INFO Name server kista.dns.swip.net (192.71.220.9) authoritative for vellinge.se.
+ 19.026: vellinge.se INFO Name server kista.dns.swip.net (192.71.220.9) closed for zone transfer of vellinge.se.
+ 19.038: vellinge.se INFO Legacy name server ID for kista.dns.swip.net (192.71.220.9): hostname.bind = nico
+ 19.045: vellinge.se INFO Legacy name server ID for kista.dns.swip.net (192.71.220.9): version.bind = PONG 0.2alpha
+ 19.059: vellinge.se NOTICE No answer received from 192.71.220.9 when querying for version.server/CH/TXT.
+ 19.059: vellinge.se INFO Done testing name server kista.dns.swip.net.
+ 19.059: vellinge.se INFO Begin testing name server malmoe.dns.swip.net.
+ 19.059: vellinge.se INFO Begin testing host malmoe.dns.swip.net.
+ 19.060: vellinge.se INFO Begin testing address 192.71.180.44.
+ 19.403: vellinge.se INFO Done testing address 192.71.180.44.
+ 19.403: vellinge.se INFO Done testing host malmoe.dns.swip.net.
+ 19.412: vellinge.se INFO Name server malmoe.dns.swip.net (192.71.180.44) answers queries over UDP.
+ 19.426: vellinge.se INFO Name server malmoe.dns.swip.net (192.71.180.44) answers queries over TCP.
+ 19.433: vellinge.se INFO Name server malmoe.dns.swip.net (192.71.180.44) is not recursive.
+ 19.442: vellinge.se INFO Name server malmoe.dns.swip.net (192.71.180.44) authoritative for vellinge.se.
+ 19.457: vellinge.se INFO Name server malmoe.dns.swip.net (192.71.180.44) closed for zone transfer of vellinge.se.
+ 19.464: vellinge.se INFO Legacy name server ID for malmoe.dns.swip.net (192.71.180.44): hostname.bind = nicodemus
+ 19.472: vellinge.se INFO Legacy name server ID for malmoe.dns.swip.net (192.71.180.44): version.bind = PONG 0.2alpha
+ 19.486: vellinge.se NOTICE No answer received from 192.71.180.44 when querying for version.server/CH/TXT.
+ 19.486: vellinge.se INFO Done testing name server malmoe.dns.swip.net.
+ 19.486: vellinge.se INFO Begin testing name server ns1.vellinge.se.
+ 19.486: vellinge.se INFO Begin testing host ns1.vellinge.se.
+ 19.486: vellinge.se INFO Begin testing address 193.242.103.211.
+ 20.756: vellinge.se INFO Done testing address 193.242.103.211.
+ 20.756: vellinge.se INFO Done testing host ns1.vellinge.se.
+ 24.772: vellinge.se INFO Name server ns1.vellinge.se (193.242.103.211) answers queries over UDP.
+ 24.804: vellinge.se INFO Name server ns1.vellinge.se (193.242.103.211) answers queries over TCP.
+ 25.064: vellinge.se WARNING Name server ns1.vellinge.se (193.242.103.211) is recursive.
+ 25.083: vellinge.se INFO Name server ns1.vellinge.se (193.242.103.211) authoritative for vellinge.se.
+ 25.328: vellinge.se INFO Name server ns1.vellinge.se (193.242.103.211) closed for zone transfer of vellinge.se.
+ 25.352: vellinge.se NOTICE No answer received from 193.242.103.211 when querying for hostname.bind/CH/TXT.
+ 43.404: vellinge.se INFO Done testing name server ns1.vellinge.se.
+ 43.405: vellinge.se INFO Begin testing zone consistency for vellinge.se.
+ 43.427: vellinge.se INFO SOA at address 193.242.103.211 has serial 287.
+ 43.436: vellinge.se INFO SOA at address 192.71.220.9 has serial 287.
+ 43.445: vellinge.se INFO SOA at address 192.71.180.44 has serial 287.
+ 43.445: vellinge.se INFO All SOA records have consistent serial numbers.
+ 43.445: vellinge.se INFO All SOA records are consistent among all name servers.
+ 43.445: vellinge.se INFO Done testing zone consistency for vellinge.se.
+ 43.445: vellinge.se INFO Begin testing SOA parameters for vellinge.se.
+ 43.464: vellinge.se INFO Found SOA record for vellinge.se.
+ 43.464: vellinge.se INFO Begin testing host ns1.vellinge.se.
+ 43.464: vellinge.se INFO Begin testing address 193.242.103.211.
+ 43.466: vellinge.se INFO Done testing address 193.242.103.211.
+ 43.466: vellinge.se INFO Done testing host ns1.vellinge.se.
+ 43.466: vellinge.se INFO SOA MNAME for vellinge.se valid (ns1.vellinge.se).
+ 43.466: vellinge.se INFO SOA MNAME for vellinge.se (ns1.vellinge.se) listed as NS.
+ 43.486: vellinge.se INFO SOA MNAME for vellinge.se (ns1.vellinge.se) is authoritative.
+ 43.486: vellinge.se INFO Begin testing email address dnsadmin@vellinge.se.
+ 47.705: vellinge.se INFO Mail exchangers for dnsadmin@vellinge.se found spamgate.vellinge.se.
+ 47.705: vellinge.se INFO All mail servers for dnsadmin@vellinge.se are in zone vellinge.se.
+ 47.705: vellinge.se INFO Begin testing host spamgate.vellinge.se.
+ 48.133: vellinge.se INFO Begin testing address 193.242.103.169.
+ 48.371: vellinge.se INFO Done testing address 193.242.103.169.
+ 48.371: vellinge.se INFO Done testing host spamgate.vellinge.se.
+ 48.372: vellinge.se INFO Begin testing mail server spamgate.vellinge.se (193.242.103.169) with dnsadmin@vellinge.se.
+ 51.723: vellinge.se INFO SMTP banner: spamgate.vellinge.se ESMTP spamgate
+ 51.785: vellinge.se INFO SMTP testing of spamgate.vellinge.se (193.242.103.169) with dnsadmin@vellinge.se succeeded without errors.
+ 51.785: vellinge.se INFO Done testing mail server spamgate.vellinge.se (193.242.103.169) with dnsadmin@vellinge.se.
+ 51.785: vellinge.se INFO Delivery over IPv4 to dnsadmin@vellinge.se ok.
+ 51.785: vellinge.se INFO Delivery over IPv6 to dnsadmin@vellinge.se could not be done.
+ 51.785: vellinge.se INFO Done testing email address dnsadmin@vellinge.se.
+ 51.785: vellinge.se INFO Successful attempt to deliver email for SOA RNAME of vellinge.se (dnsadmin.vellinge.se) using dnsadmin@vellinge.se.
+ 51.785: vellinge.se INFO SOA TTL for vellinge.se OK (3600) - recommended >= 3600.
+ 51.785: vellinge.se NOTICE SOA refresh for vellinge.se too small (3600) - recommended >= 14400.
+ 51.785: vellinge.se NOTICE SOA retry for vellinge.se too small (600) - recommended >= 3600.
+ 51.785: vellinge.se NOTICE SOA expire for vellinge.se too small (86400) - recommended >= 604800.
+ 51.786: vellinge.se INFO SOA minimum for vellinge.se OK (3600) - recommended between 300 and 86400.
+ 51.786: vellinge.se INFO Done testing SOA parameters for vellinge.se.
+ 51.786: vellinge.se INFO Begin testing connectivity for vellinge.se.
+ 56.323: vellinge.se INFO Name server 193.242.103.211 announced by: 1257
+ 56.958: vellinge.se INFO Name server 192.71.180.44 announced by: 1257
+ 57.635: vellinge.se INFO Name server 192.71.220.9 announced by: 1257
+ 57.635: vellinge.se INFO Zone announced by IPv4 ASN: 1257
+ 57.635: vellinge.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 57.636: vellinge.se INFO Zone announced by IPv6 ASN: 
+ 57.636: vellinge.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 57.636: vellinge.se INFO Done testing connectivity for vellinge.se.
+ 57.636: vellinge.se INFO Begin testing DNSSEC for vellinge.se.
+ 57.684: vellinge.se INFO Did not find DS record for vellinge.se at parent.
+ 57.742: vellinge.se INFO Servers for vellinge.se have consistent extra processing status.
+ 57.742: vellinge.se INFO Did not find DNSKEY record for vellinge.se at child.
+ 57.742: vellinge.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 57.742: vellinge.se INFO Done testing DNSSEC for vellinge.se.
+ 57.742: vellinge.se INFO Test completed for zone vellinge.se.

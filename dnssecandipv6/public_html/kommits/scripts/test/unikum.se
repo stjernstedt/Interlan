@@ -1,0 +1,88 @@
+  0.000: unikum.se INFO Begin testing zone unikum.se with version 1.2.
+  0.001: unikum.se INFO Begin testing delegation for unikum.se.
+  5.425: unikum.se INFO Name servers listed at parent: ns1.unikum.se,ns2.dgcsystems.net
+  6.941: unikum.se INFO Name servers listed at child: ns1.unikum.se,ns2.dgcsystems.net
+  6.942: unikum.se NOTICE No IPv6 name servers found.
+  6.950: unikum.se INFO Parent glue for unikum.se found: ns1.unikum.se (62.181.235.37)
+  6.992: unikum.se INFO Checking glue for ns1.unikum.se (62.181.235.37).
+  7.017: unikum.se INFO Child glue for unikum.se found: ns1.unikum.se (62.181.235.37)
+  7.018: unikum.se INFO Parent glue for unikum.se found: ns1.unikum.se (62.181.235.37)
+  7.019: unikum.se INFO Done testing delegation for unikum.se.
+  7.019: unikum.se INFO Begin testing name server ns1.unikum.se.
+  7.020: unikum.se INFO Begin testing host ns1.unikum.se.
+  7.020: unikum.se INFO Begin testing address 62.181.235.37.
+ 10.836: unikum.se INFO Done testing address 62.181.235.37.
+ 10.836: unikum.se INFO Done testing host ns1.unikum.se.
+ 10.856: unikum.se INFO Name server ns1.unikum.se (62.181.235.37) answers queries over UDP.
+ 15.856: unikum.se NOTICE DNS lookup error (connection failed).
+ 15.856: unikum.se ERROR Name server ns1.unikum.se (62.181.235.37) does not answer queries over TCP.
+ 16.187: unikum.se INFO Name server ns1.unikum.se (62.181.235.37) is not recursive.
+ 16.205: unikum.se INFO Name server ns1.unikum.se (62.181.235.37) authoritative for unikum.se.
+ 16.206: unikum.se INFO Name server ns1.unikum.se (62.181.235.37) not checked for zone transfer of unikum.se.
+ 16.206: unikum.se INFO Name server ns1.unikum.se (62.181.235.37) not checked for legacy name server ID.
+ 16.206: unikum.se INFO Done testing name server ns1.unikum.se.
+ 16.206: unikum.se INFO Begin testing name server ns2.dgcsystems.net.
+ 16.206: unikum.se INFO Begin testing host ns2.dgcsystems.net.
+ 16.207: unikum.se INFO Begin testing address 217.13.225.120.
+ 16.699: unikum.se INFO Done testing address 217.13.225.120.
+ 16.700: unikum.se INFO Done testing host ns2.dgcsystems.net.
+ 16.707: unikum.se ERROR DNS SERVFAIL when querying 217.13.225.120 for SOA
+ 16.707: unikum.se INFO Name server ns2.dgcsystems.net (217.13.225.120) answers queries over UDP.
+ 16.709: unikum.se ERROR Name server ns2.dgcsystems.net (217.13.225.120) does not answer queries over TCP.
+ 16.717: unikum.se INFO Name server ns2.dgcsystems.net (217.13.225.120) is not recursive.
+ 16.718: unikum.se INFO Name server ns2.dgcsystems.net (217.13.225.120) authoritative for unikum.se.
+ 16.719: unikum.se INFO Name server ns2.dgcsystems.net (217.13.225.120) not checked for zone transfer of unikum.se.
+ 16.719: unikum.se INFO Name server ns2.dgcsystems.net (217.13.225.120) not checked for legacy name server ID.
+ 16.719: unikum.se INFO Done testing name server ns2.dgcsystems.net.
+ 16.719: unikum.se INFO Begin testing zone consistency for unikum.se.
+ 16.744: unikum.se INFO SOA at address 62.181.235.37 has serial 2006052659.
+ 16.744: unikum.se INFO All SOA records have consistent serial numbers.
+ 16.744: unikum.se INFO All SOA records are consistent among all name servers.
+ 16.744: unikum.se INFO Done testing zone consistency for unikum.se.
+ 16.745: unikum.se INFO Begin testing SOA parameters for unikum.se.
+ 16.772: unikum.se INFO Found SOA record for unikum.se.
+ 16.772: unikum.se INFO Begin testing host ns1.unikum.se.
+ 16.773: unikum.se INFO Begin testing address 62.181.235.37.
+ 16.774: unikum.se INFO Done testing address 62.181.235.37.
+ 16.775: unikum.se INFO Done testing host ns1.unikum.se.
+ 16.775: unikum.se INFO SOA MNAME for unikum.se valid (ns1.unikum.se).
+ 16.775: unikum.se INFO SOA MNAME for unikum.se (ns1.unikum.se) listed as NS.
+ 16.795: unikum.se INFO SOA MNAME for unikum.se (ns1.unikum.se) is authoritative.
+ 16.795: unikum.se INFO Begin testing email address hostmaster@unikum.se.
+ 17.022: unikum.se INFO Mail exchangers for hostmaster@unikum.se found mail.unikum.se.
+ 17.023: unikum.se INFO All mail servers for hostmaster@unikum.se are in zone unikum.se.
+ 17.023: unikum.se INFO Begin testing host mail.unikum.se.
+ 17.466: unikum.se INFO Begin testing address 62.181.235.39.
+ 18.253: unikum.se INFO Done testing address 62.181.235.39.
+ 18.253: unikum.se INFO Done testing host mail.unikum.se.
+ 18.254: unikum.se INFO Begin testing mail server mail.unikum.se (62.181.235.39) with hostmaster@unikum.se.
+ 18.303: unikum.se INFO SMTP banner: mail.dmz.local F-Secure Anti-Virus for Internet Mail ready
+ 18.374: unikum.se INFO SMTP testing of mail.unikum.se (62.181.235.39) with hostmaster@unikum.se succeeded without errors.
+ 18.375: unikum.se INFO Done testing mail server mail.unikum.se (62.181.235.39) with hostmaster@unikum.se.
+ 18.375: unikum.se INFO Delivery over IPv4 to hostmaster@unikum.se ok.
+ 18.375: unikum.se INFO Delivery over IPv6 to hostmaster@unikum.se could not be done.
+ 18.375: unikum.se INFO Done testing email address hostmaster@unikum.se.
+ 18.375: unikum.se INFO Successful attempt to deliver email for SOA RNAME of unikum.se (hostmaster.unikum.se) using hostmaster@unikum.se.
+ 18.375: unikum.se INFO SOA TTL for unikum.se OK (3600) - recommended >= 3600.
+ 18.375: unikum.se NOTICE SOA refresh for unikum.se too small (900) - recommended >= 14400.
+ 18.375: unikum.se NOTICE SOA retry for unikum.se too small (600) - recommended >= 3600.
+ 18.375: unikum.se NOTICE SOA expire for unikum.se too small (86400) - recommended >= 604800.
+ 18.375: unikum.se INFO SOA minimum for unikum.se OK (3600) - recommended between 300 and 86400.
+ 18.375: unikum.se INFO Done testing SOA parameters for unikum.se.
+ 18.376: unikum.se INFO Begin testing connectivity for unikum.se.
+ 19.024: unikum.se INFO Name server 217.13.225.120 announced by: 21195
+ 19.637: unikum.se INFO Name server 62.181.235.37 announced by: 21195
+ 19.637: unikum.se INFO Zone announced by IPv4 ASN: 21195
+ 19.637: unikum.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 19.638: unikum.se INFO Zone announced by IPv6 ASN: 
+ 19.638: unikum.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 19.638: unikum.se INFO Done testing connectivity for unikum.se.
+ 19.638: unikum.se INFO Begin testing DNSSEC for unikum.se.
+ 19.717: unikum.se INFO Did not find DS record for unikum.se at parent.
+ 19.728: unikum.se NOTICE No answer received from 217.13.225.120 when querying for unikum.se/IN/DNSKEY.
+ 24.728: unikum.se NOTICE DNS lookup error (connection failed).
+ 24.728: unikum.se INFO Servers for unikum.se have consistent extra processing status.
+ 24.728: unikum.se INFO Did not find DNSKEY record for unikum.se at child.
+ 24.729: unikum.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 24.729: unikum.se INFO Done testing DNSSEC for unikum.se.
+ 24.729: unikum.se INFO Test completed for zone unikum.se.

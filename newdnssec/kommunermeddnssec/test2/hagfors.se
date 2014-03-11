@@ -1,0 +1,89 @@
+  0.000: hagfors.se INFO Begin testing zone hagfors.se with version 1.2.
+  0.000: hagfors.se INFO Begin testing delegation for hagfors.se.
+  5.410: hagfors.se INFO Name servers listed at parent: dns5.telia.com,ns.hagfors.se
+  6.629: hagfors.se INFO Name servers listed at child: dns5.telia.com,ns.hagfors.se
+  6.629: hagfors.se NOTICE No IPv6 name servers found.
+  6.745: hagfors.se INFO Parent glue for hagfors.se found: ns.hagfors.se (194.23.40.172)
+  6.753: hagfors.se INFO Checking glue for ns.hagfors.se (194.23.40.172).
+  6.760: hagfors.se INFO Child glue for hagfors.se found: ns.hagfors.se (194.23.40.172)
+  6.761: hagfors.se INFO Parent glue for hagfors.se found: ns.hagfors.se (194.23.40.172)
+  6.761: hagfors.se INFO Done testing delegation for hagfors.se.
+  6.761: hagfors.se INFO Begin testing name server dns5.telia.com.
+  6.762: hagfors.se INFO Begin testing host dns5.telia.com.
+  6.762: hagfors.se INFO Begin testing address 81.228.11.68.
+ 11.503: hagfors.se INFO Done testing address 81.228.11.68.
+ 11.503: hagfors.se INFO Done testing host dns5.telia.com.
+ 11.513: hagfors.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over UDP.
+ 11.525: hagfors.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over TCP.
+ 11.532: hagfors.se INFO Name server dns5.telia.com (81.228.11.68) is not recursive.
+ 11.539: hagfors.se INFO Name server dns5.telia.com (81.228.11.68) authoritative for hagfors.se.
+ 11.553: hagfors.se INFO Name server dns5.telia.com (81.228.11.68) closed for zone transfer of hagfors.se.
+ 11.562: hagfors.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): hostname.bind = dnshosting1-sn1.fre.skanova.net
+ 11.569: hagfors.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 11.583: hagfors.se NOTICE No answer received from 81.228.11.68 when querying for version.server/CH/TXT.
+ 11.584: hagfors.se INFO Done testing name server dns5.telia.com.
+ 11.584: hagfors.se INFO Begin testing name server ns.hagfors.se.
+ 11.584: hagfors.se INFO Begin testing host ns.hagfors.se.
+ 11.584: hagfors.se INFO Begin testing address 194.23.40.172.
+ 12.780: hagfors.se INFO Done testing address 194.23.40.172.
+ 12.780: hagfors.se INFO Done testing host ns.hagfors.se.
+ 12.798: hagfors.se INFO Name server ns.hagfors.se (194.23.40.172) answers queries over UDP.
+ 12.829: hagfors.se INFO Name server ns.hagfors.se (194.23.40.172) answers queries over TCP.
+ 12.888: hagfors.se WARNING Name server ns.hagfors.se (194.23.40.172) is recursive.
+ 12.905: hagfors.se INFO Name server ns.hagfors.se (194.23.40.172) authoritative for hagfors.se.
+ 13.049: hagfors.se NOTICE Name server ns.hagfors.se (194.23.40.172) open for zone transfer of hagfors.se.
+ 13.065: hagfors.se NOTICE No answer received from 194.23.40.172 when querying for hostname.bind/CH/TXT.
+ 13.081: hagfors.se NOTICE No answer received from 194.23.40.172 when querying for version.bind/CH/TXT.
+ 13.096: hagfors.se NOTICE No answer received from 194.23.40.172 when querying for id.server/CH/TXT.
+ 13.113: hagfors.se NOTICE No answer received from 194.23.40.172 when querying for version.server/CH/TXT.
+ 13.113: hagfors.se INFO Done testing name server ns.hagfors.se.
+ 13.113: hagfors.se INFO Begin testing zone consistency for hagfors.se.
+ 13.124: hagfors.se INFO SOA at address 81.228.11.68 has serial 2010120103.
+ 13.141: hagfors.se INFO SOA at address 194.23.40.172 has serial 2010120103.
+ 13.141: hagfors.se INFO All SOA records have consistent serial numbers.
+ 13.141: hagfors.se INFO All SOA records are consistent among all name servers.
+ 13.141: hagfors.se INFO Done testing zone consistency for hagfors.se.
+ 13.141: hagfors.se INFO Begin testing SOA parameters for hagfors.se.
+ 13.149: hagfors.se INFO Found SOA record for hagfors.se.
+ 13.149: hagfors.se INFO Begin testing host ns.hagfors.se.
+ 13.150: hagfors.se INFO Begin testing address 194.23.40.172.
+ 13.151: hagfors.se INFO Done testing address 194.23.40.172.
+ 13.152: hagfors.se INFO Done testing host ns.hagfors.se.
+ 13.152: hagfors.se INFO SOA MNAME for hagfors.se valid (ns.hagfors.se).
+ 13.152: hagfors.se INFO SOA MNAME for hagfors.se (ns.hagfors.se) listed as NS.
+ 13.170: hagfors.se INFO SOA MNAME for hagfors.se (ns.hagfors.se) is authoritative.
+ 13.170: hagfors.se INFO Begin testing email address hostmaster@ns.hagfors.se.
+ 13.445: hagfors.se INFO Mail exchangers for hostmaster@ns.hagfors.se found ns.hagfors.se.
+ 13.445: hagfors.se INFO All mail servers for hostmaster@ns.hagfors.se are in zone hagfors.se.
+ 13.445: hagfors.se INFO Begin testing host ns.hagfors.se.
+ 13.446: hagfors.se INFO Begin testing address 194.23.40.172.
+ 13.447: hagfors.se INFO Done testing address 194.23.40.172.
+ 13.447: hagfors.se INFO Done testing host ns.hagfors.se.
+ 13.448: hagfors.se INFO Begin testing mail server ns.hagfors.se (194.23.40.172) with hostmaster@ns.hagfors.se.
+ 33.459: hagfors.se WARNING Failed to connect to ns.hagfors.se (194.23.40.172).
+ 33.460: hagfors.se INFO Done testing mail server ns.hagfors.se (194.23.40.172) with hostmaster@ns.hagfors.se.
+ 33.460: hagfors.se WARNING Delivery over IPv4 to hostmaster@ns.hagfors.se could not be done.
+ 33.460: hagfors.se INFO Delivery over IPv6 to hostmaster@ns.hagfors.se could not be done.
+ 33.460: hagfors.se INFO Done testing email address hostmaster@ns.hagfors.se.
+ 33.460: hagfors.se WARNING Failed to deliver email for SOA RNAME of hagfors.se (hostmaster.ns.hagfors.se) using hostmaster@ns.hagfors.se.
+ 33.460: hagfors.se INFO SOA TTL for hagfors.se OK (86400) - recommended >= 3600.
+ 33.460: hagfors.se NOTICE SOA refresh for hagfors.se too small (10800) - recommended >= 14400.
+ 33.460: hagfors.se INFO SOA retry for hagfors.se OK (3600) - recommended >= 3600.
+ 33.460: hagfors.se INFO SOA expire for hagfors.se OK (604800) - recommended >= 604800.
+ 33.460: hagfors.se INFO SOA minimum for hagfors.se OK (86400) - recommended between 300 and 86400.
+ 33.461: hagfors.se INFO Done testing SOA parameters for hagfors.se.
+ 33.461: hagfors.se INFO Begin testing connectivity for hagfors.se.
+ 34.141: hagfors.se INFO Name server 81.228.11.68 announced by: 3301
+ 34.742: hagfors.se INFO Name server 194.23.40.172 announced by: 3301
+ 34.742: hagfors.se INFO Zone announced by IPv4 ASN: 3301
+ 34.742: hagfors.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 34.742: hagfors.se INFO Zone announced by IPv6 ASN: 
+ 34.742: hagfors.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 34.742: hagfors.se INFO Done testing connectivity for hagfors.se.
+ 34.743: hagfors.se INFO Begin testing DNSSEC for hagfors.se.
+ 34.763: hagfors.se INFO Did not find DS record for hagfors.se at parent.
+ 34.804: hagfors.se INFO Servers for hagfors.se have consistent extra processing status.
+ 34.805: hagfors.se INFO Did not find DNSKEY record for hagfors.se at child.
+ 34.805: hagfors.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 34.805: hagfors.se INFO Done testing DNSSEC for hagfors.se.
+ 34.805: hagfors.se INFO Test completed for zone hagfors.se.

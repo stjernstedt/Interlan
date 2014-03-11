@@ -1,0 +1,135 @@
+  0.000: simrishamn.se INFO Begin testing zone simrishamn.se with version 1.6.1.
+  1.423: simrishamn.se INFO Begin testing delegation for simrishamn.se.
+ 22.103: simrishamn.se INFO Name servers listed at parent: kista.dns.swip.net,malmoe.dns.swip.net,ns.simrishamn.se
+ 32.739: simrishamn.se INFO Name servers listed at child: kista.dns.swip.net,malmoe.dns.swip.net,ns.simrishamn.se
+ 33.023: simrishamn.se INFO Parent glue for simrishamn.se found: ns.simrishamn.se (193.178.35.130)
+ 33.085: simrishamn.se INFO Checking glue for ns.simrishamn.se (193.178.35.130).
+ 33.129: simrishamn.se INFO Child glue for simrishamn.se found: ns.simrishamn.se (193.178.35.130)
+ 33.148: simrishamn.se INFO Parent glue for simrishamn.se found: ns.simrishamn.se (193.178.35.130)
+ 35.897: simrishamn.se INFO It is possible to build a referral packet for simrishamn.se that works without EDNS0.
+ 36.423: simrishamn.se INFO Previously used name servers for simrishamn.se: 
+ 36.423: simrishamn.se INFO Done testing delegation for simrishamn.se.
+ 36.423: simrishamn.se INFO Begin testing name server kista.dns.swip.net.
+ 36.423: simrishamn.se INFO Begin testing host kista.dns.swip.net.
+ 36.424: simrishamn.se INFO Begin testing address 192.71.220.9.
+ 53.486: simrishamn.se INFO Done testing address 192.71.220.9.
+ 53.526: simrishamn.se INFO Begin testing address 2a00:801:103:a:0:0:0:f00d.
+ 55.056: simrishamn.se INFO Done testing address 2a00:801:103:a:0:0:0:f00d.
+ 55.056: simrishamn.se INFO Done testing host kista.dns.swip.net.
+ 55.130: simrishamn.se INFO Name server kista.dns.swip.net (192.71.220.9) answers queries over UDP.
+ 55.196: simrishamn.se INFO Name server kista.dns.swip.net (192.71.220.9) answers queries over TCP.
+ 55.258: simrishamn.se INFO Name server kista.dns.swip.net (192.71.220.9) is not recursive.
+ 55.409: simrishamn.se INFO Name server kista.dns.swip.net (192.71.220.9) authoritative for simrishamn.se.
+ 55.466: simrishamn.se INFO Name server kista.dns.swip.net (192.71.220.9) closed for zone transfer of simrishamn.se.
+ 55.491: simrishamn.se INFO Legacy name server ID for kista.dns.swip.net (192.71.220.9): hostname.bind = authns1
+ 55.523: simrishamn.se INFO Legacy name server ID for kista.dns.swip.net (192.71.220.9): version.bind = PONG 0.2alpha
+ 55.582: simrishamn.se NOTICE No answer received from 192.71.220.9 when querying for version.server/CH/TXT.
+ 55.628: simrishamn.se INFO Name server kista.dns.swip.net (2a00:801:103:a:0:0:0:f00d) answers queries over UDP.
+ 55.688: simrishamn.se INFO Name server kista.dns.swip.net (2a00:801:103:a:0:0:0:f00d) answers queries over TCP.
+ 55.721: simrishamn.se INFO Name server kista.dns.swip.net (2a00:801:103:a:0:0:0:f00d) is not recursive.
+ 55.851: simrishamn.se INFO Name server kista.dns.swip.net (2a00:801:103:a:0:0:0:f00d) authoritative for simrishamn.se.
+ 55.893: simrishamn.se INFO Name server kista.dns.swip.net (2a00:801:103:a:0:0:0:f00d) closed for zone transfer of simrishamn.se.
+ 55.916: simrishamn.se INFO Legacy name server ID for kista.dns.swip.net (2a00:801:103:a:0:0:0:f00d): hostname.bind = authns1
+ 55.971: simrishamn.se INFO Legacy name server ID for kista.dns.swip.net (2a00:801:103:a:0:0:0:f00d): version.bind = PONG 0.2alpha
+ 56.034: simrishamn.se NOTICE No answer received from 2a00:801:103:a:0:0:0:f00d when querying for version.server/CH/TXT.
+ 56.035: simrishamn.se INFO Done testing name server kista.dns.swip.net.
+ 56.035: simrishamn.se INFO Begin testing name server malmoe.dns.swip.net.
+ 56.035: simrishamn.se INFO Begin testing host malmoe.dns.swip.net.
+ 56.035: simrishamn.se INFO Begin testing address 192.71.180.44.
+ 56.517: simrishamn.se INFO Done testing address 192.71.180.44.
+ 56.517: simrishamn.se INFO Begin testing address 2a00:801:103:d:0:0:0:beef.
+ 57.016: simrishamn.se INFO Done testing address 2a00:801:103:d:0:0:0:beef.
+ 57.016: simrishamn.se INFO Done testing host malmoe.dns.swip.net.
+ 57.042: simrishamn.se INFO Name server malmoe.dns.swip.net (192.71.180.44) answers queries over UDP.
+ 57.077: simrishamn.se INFO Name server malmoe.dns.swip.net (192.71.180.44) answers queries over TCP.
+ 57.100: simrishamn.se INFO Name server malmoe.dns.swip.net (192.71.180.44) is not recursive.
+ 57.160: simrishamn.se INFO Name server malmoe.dns.swip.net (192.71.180.44) authoritative for simrishamn.se.
+ 57.174: simrishamn.se INFO Name server malmoe.dns.swip.net (192.71.180.44) closed for zone transfer of simrishamn.se.
+ 57.194: simrishamn.se INFO Legacy name server ID for malmoe.dns.swip.net (192.71.180.44): hostname.bind = authns2
+ 57.220: simrishamn.se INFO Legacy name server ID for malmoe.dns.swip.net (192.71.180.44): version.bind = PONG 0.2alpha
+ 57.241: simrishamn.se NOTICE No answer received from 192.71.180.44 when querying for version.server/CH/TXT.
+ 57.280: simrishamn.se INFO Name server malmoe.dns.swip.net (2a00:801:103:d:0:0:0:beef) answers queries over UDP.
+ 57.341: simrishamn.se INFO Name server malmoe.dns.swip.net (2a00:801:103:d:0:0:0:beef) answers queries over TCP.
+ 57.355: simrishamn.se INFO Name server malmoe.dns.swip.net (2a00:801:103:d:0:0:0:beef) is not recursive.
+ 57.465: simrishamn.se INFO Name server malmoe.dns.swip.net (2a00:801:103:d:0:0:0:beef) authoritative for simrishamn.se.
+ 57.493: simrishamn.se INFO Name server malmoe.dns.swip.net (2a00:801:103:d:0:0:0:beef) closed for zone transfer of simrishamn.se.
+ 57.511: simrishamn.se INFO Legacy name server ID for malmoe.dns.swip.net (2a00:801:103:d:0:0:0:beef): hostname.bind = authns2
+ 57.523: simrishamn.se INFO Legacy name server ID for malmoe.dns.swip.net (2a00:801:103:d:0:0:0:beef): version.bind = PONG 0.2alpha
+ 57.547: simrishamn.se NOTICE No answer received from 2a00:801:103:d:0:0:0:beef when querying for version.server/CH/TXT.
+ 57.548: simrishamn.se INFO Done testing name server malmoe.dns.swip.net.
+ 57.548: simrishamn.se INFO Begin testing name server ns.simrishamn.se.
+ 57.548: simrishamn.se INFO Begin testing host ns.simrishamn.se.
+ 57.720: simrishamn.se INFO Begin testing address 193.178.35.130.
+ 58.370: simrishamn.se INFO Done testing address 193.178.35.130.
+ 58.370: simrishamn.se INFO Done testing host ns.simrishamn.se.
+ 58.563: simrishamn.se INFO Name server ns.simrishamn.se (193.178.35.130) answers queries over UDP.
+ 58.619: simrishamn.se INFO Name server ns.simrishamn.se (193.178.35.130) answers queries over TCP.
+ 58.662: simrishamn.se INFO Name server ns.simrishamn.se (193.178.35.130) is not recursive.
+ 58.738: simrishamn.se INFO Name server ns.simrishamn.se (193.178.35.130) authoritative for simrishamn.se.
+ 58.896: simrishamn.se INFO Name server ns.simrishamn.se (193.178.35.130) closed for zone transfer of simrishamn.se.
+ 58.913: simrishamn.se NOTICE No answer received from 193.178.35.130 when querying for hostname.bind/CH/TXT.
+ 70.994: simrishamn.se INFO Done testing name server ns.simrishamn.se.
+ 70.994: simrishamn.se INFO Begin testing zone consistency for simrishamn.se.
+ 71.395: simrishamn.se INFO SOA at address 193.178.35.130 has serial 2008081965.
+ 71.443: simrishamn.se INFO SOA at address 192.71.220.9 has serial 2008081965.
+ 71.485: simrishamn.se INFO SOA at address 192.71.180.44 has serial 2008081965.
+ 71.541: simrishamn.se INFO SOA at address 2a00:801:103:d:0:0:0:beef has serial 2008081965.
+ 71.604: simrishamn.se INFO SOA at address 2a00:801:103:a:0:0:0:f00d has serial 2008081965.
+ 71.604: simrishamn.se INFO All SOA records have consistent serial numbers.
+ 71.604: simrishamn.se INFO All other fields in the SOA record are consistent among all name servers.
+ 71.913: simrishamn.se NOTICE The listed nameservers for simrishamn.se all report the same set of nameservers.
+ 71.914: simrishamn.se INFO Done testing zone consistency for simrishamn.se.
+ 71.914: simrishamn.se INFO Begin testing SOA parameters for simrishamn.se.
+ 71.945: simrishamn.se INFO Found SOA record for simrishamn.se.
+ 71.945: simrishamn.se INFO Begin testing host ns.simrishamn.se.
+ 72.081: simrishamn.se INFO Begin testing address 193.178.35.130.
+ 72.209: simrishamn.se INFO Done testing address 193.178.35.130.
+ 72.210: simrishamn.se INFO Done testing host ns.simrishamn.se.
+ 72.210: simrishamn.se INFO SOA MNAME for simrishamn.se valid (ns.simrishamn.se).
+ 72.210: simrishamn.se INFO SOA MNAME for simrishamn.se (ns.simrishamn.se) listed as NS.
+ 72.511: simrishamn.se INFO SOA MNAME for simrishamn.se (ns.simrishamn.se) is authoritative.
+ 72.511: simrishamn.se INFO Begin testing email address hostmaster@simrishamn.se.
+ 72.612: simrishamn.se INFO Mail exchangers for hostmaster@simrishamn.se found smtp-in.sto-hy.se.stejtech.net,smtp-in.sto-ste.se.stejtech.net.
+ 72.612: simrishamn.se INFO Begin testing host smtp-in.sto-hy.se.stejtech.net.
+ 73.262: simrishamn.se INFO Begin testing address 91.236.209.10.
+ 75.045: simrishamn.se INFO Done testing address 91.236.209.10.
+ 75.045: simrishamn.se INFO Begin testing address 79.136.102.100.
+ 76.499: simrishamn.se INFO Done testing address 79.136.102.100.
+ 76.499: simrishamn.se INFO Begin testing address 91.236.208.10.
+ 77.499: simrishamn.se INFO Done testing address 91.236.208.10.
+ 77.499: simrishamn.se INFO Begin testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 78.858: simrishamn.se INFO Done testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 78.862: simrishamn.se INFO Begin testing address 2001:67c:27e0:2110:0:0:0:1b01.
+ 79.677: simrishamn.se INFO Done testing address 2001:67c:27e0:2110:0:0:0:1b01.
+ 79.678: simrishamn.se INFO Begin testing address 2001:9b0:1:703:0:0:0:1b01.
+ 81.132: simrishamn.se INFO Done testing address 2001:9b0:1:703:0:0:0:1b01.
+ 81.132: simrishamn.se INFO Done testing host smtp-in.sto-hy.se.stejtech.net.
+ 81.132: simrishamn.se INFO Begin testing host smtp-in.sto-ste.se.stejtech.net.
+ 81.526: simrishamn.se INFO Begin testing address 79.136.102.90.
+ 82.659: simrishamn.se INFO Done testing address 79.136.102.90.
+ 82.659: simrishamn.se INFO Begin testing address 83.140.31.145.
+ 83.557: simrishamn.se INFO Done testing address 83.140.31.145.
+ 83.557: simrishamn.se INFO Begin testing address 2001:9b0:1:703:0:0:0:b002.
+ 84.146: simrishamn.se INFO Done testing address 2001:9b0:1:703:0:0:0:b002.
+ 84.146: simrishamn.se INFO Done testing host smtp-in.sto-ste.se.stejtech.net.
+ 84.146: simrishamn.se INFO Done testing email address hostmaster@simrishamn.se.
+ 84.146: simrishamn.se INFO Successful attempt to deliver email for SOA RNAME of simrishamn.se (hostmaster.simrishamn.se) using hostmaster@simrishamn.se.
+ 84.146: simrishamn.se INFO SOA TTL for simrishamn.se OK (3600) - recommended >= 3600.
+ 84.147: simrishamn.se NOTICE SOA refresh for simrishamn.se too small (900) - recommended >= 14400.
+ 84.147: simrishamn.se NOTICE SOA retry for simrishamn.se too small (600) - recommended >= 3600.
+ 84.147: simrishamn.se NOTICE SOA expire for simrishamn.se too small (7200) - recommended >= 604800.
+ 84.147: simrishamn.se INFO SOA minimum for simrishamn.se OK (3600) - recommended between 300 and 86400.
+ 84.147: simrishamn.se INFO Done testing SOA parameters for simrishamn.se.
+ 84.147: simrishamn.se INFO Begin testing connectivity for simrishamn.se.
+ 85.801: simrishamn.se INFO Zone announced by more than one ASN.
+ 86.603: simrishamn.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 86.604: simrishamn.se INFO Done testing connectivity for simrishamn.se.
+ 86.604: simrishamn.se INFO Begin testing DNSSEC for simrishamn.se.
+ 86.641: simrishamn.se INFO Did not find DS record for simrishamn.se at parent.
+ 86.736: simrishamn.se INFO Servers for simrishamn.se have consistent extra processing status.
+ 86.775: simrishamn.se INFO Authenticated denial records not found for simrishamn.se.
+ 86.791: simrishamn.se INFO Did not find DNSKEY record for simrishamn.se at child.
+ 86.791: simrishamn.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 86.791: simrishamn.se INFO Done testing DNSSEC for simrishamn.se.
+ 86.792: simrishamn.se INFO Test completed for zone simrishamn.se.
+99.999 simrishamn.se WARNING SOA expire to low 7200 seconds,0 days 2 hours, 

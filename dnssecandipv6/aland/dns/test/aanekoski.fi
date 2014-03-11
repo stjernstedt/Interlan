@@ -1,0 +1,89 @@
+  0.000: aanekoski.fi INFO Begin testing zone aanekoski.fi with version 1.5.0.
+  0.483: aanekoski.fi INFO Begin testing delegation for aanekoski.fi.
+ 11.093: aanekoski.fi INFO Name servers listed at parent: ns.aanekoski.fi,ns1.aanekoski.fi
+ 13.789: aanekoski.fi INFO Name servers listed at child: ns.aanekoski.fi,ns1.aanekoski.fi
+ 13.789: aanekoski.fi NOTICE No IPv6 name servers found.
+ 13.864: aanekoski.fi INFO Parent glue for aanekoski.fi found: ns.aanekoski.fi (194.252.174.19)
+ 14.009: aanekoski.fi INFO Parent glue for aanekoski.fi found: ns1.aanekoski.fi (194.252.174.20)
+ 14.057: aanekoski.fi INFO Checking glue for ns.aanekoski.fi (194.252.174.19).
+ 14.086: aanekoski.fi INFO Child glue for aanekoski.fi found: ns.aanekoski.fi (194.252.174.19)
+ 14.086: aanekoski.fi INFO Checking glue for ns1.aanekoski.fi (194.252.174.20).
+ 14.185: aanekoski.fi INFO Child glue for aanekoski.fi found: ns1.aanekoski.fi (194.252.174.20)
+ 14.186: aanekoski.fi INFO Parent glue for aanekoski.fi found: ns.aanekoski.fi (194.252.174.19)
+ 14.186: aanekoski.fi INFO Parent glue for aanekoski.fi found: ns1.aanekoski.fi (194.252.174.20)
+ 15.255: aanekoski.fi INFO It is possible to build a referral packet for aanekoski.fi that works without EDNS0.
+ 16.192: aanekoski.fi INFO Previously used name servers for aanekoski.fi: 
+ 16.192: aanekoski.fi INFO Done testing delegation for aanekoski.fi.
+ 16.193: aanekoski.fi INFO Begin testing name server ns.aanekoski.fi.
+ 16.193: aanekoski.fi INFO Begin testing host ns.aanekoski.fi.
+ 16.640: aanekoski.fi INFO Begin testing address 194.252.174.19.
+ 31.950: aanekoski.fi INFO Done testing address 194.252.174.19.
+ 31.950: aanekoski.fi INFO Done testing host ns.aanekoski.fi.
+ 32.658: aanekoski.fi INFO Name server ns.aanekoski.fi (194.252.174.19) answers queries over UDP.
+ 32.777: aanekoski.fi INFO Name server ns.aanekoski.fi (194.252.174.19) answers queries over TCP.
+ 32.900: aanekoski.fi INFO Name server ns.aanekoski.fi (194.252.174.19) is not recursive.
+ 33.167: aanekoski.fi INFO Name server ns.aanekoski.fi (194.252.174.19) authoritative for aanekoski.fi.
+ 33.298: aanekoski.fi INFO Name server ns.aanekoski.fi (194.252.174.19) closed for zone transfer of aanekoski.fi.
+ 33.356: aanekoski.fi INFO Legacy name server ID for ns.aanekoski.fi (194.252.174.19): hostname.bind = ns.aanekoski.fi
+ 33.396: aanekoski.fi INFO Legacy name server ID for ns.aanekoski.fi (194.252.174.19): version.bind = piruako versio sinulle kuuluu
+ 33.518: aanekoski.fi NOTICE No answer received from 194.252.174.19 when querying for version.server/CH/TXT.
+ 33.518: aanekoski.fi INFO Done testing name server ns.aanekoski.fi.
+ 33.518: aanekoski.fi INFO Begin testing name server ns1.aanekoski.fi.
+ 33.518: aanekoski.fi INFO Begin testing host ns1.aanekoski.fi.
+ 33.871: aanekoski.fi INFO Begin testing address 194.252.174.20.
+ 35.397: aanekoski.fi INFO Done testing address 194.252.174.20.
+ 35.397: aanekoski.fi INFO Done testing host ns1.aanekoski.fi.
+ 35.943: aanekoski.fi INFO Name server ns1.aanekoski.fi (194.252.174.20) answers queries over UDP.
+ 36.033: aanekoski.fi INFO Name server ns1.aanekoski.fi (194.252.174.20) answers queries over TCP.
+ 36.061: aanekoski.fi INFO Name server ns1.aanekoski.fi (194.252.174.20) is not recursive.
+ 36.288: aanekoski.fi INFO Name server ns1.aanekoski.fi (194.252.174.20) authoritative for aanekoski.fi.
+ 36.359: aanekoski.fi INFO Name server ns1.aanekoski.fi (194.252.174.20) closed for zone transfer of aanekoski.fi.
+ 36.418: aanekoski.fi NOTICE No answer received from 194.252.174.20 when querying for hostname.bind/CH/TXT.
+ 36.480: aanekoski.fi INFO Legacy name server ID for ns1.aanekoski.fi (194.252.174.20): version.bind = piruako versio sinulle kuuluu
+ 36.519: aanekoski.fi NOTICE No answer received from 194.252.174.20 when querying for id.server/CH/TXT.
+ 36.596: aanekoski.fi NOTICE No answer received from 194.252.174.20 when querying for version.server/CH/TXT.
+ 36.596: aanekoski.fi INFO Done testing name server ns1.aanekoski.fi.
+ 36.596: aanekoski.fi INFO Begin testing zone consistency for aanekoski.fi.
+ 38.844: aanekoski.fi INFO SOA at address 194.252.174.20 has serial 2013051410.
+ 38.909: aanekoski.fi INFO SOA at address 194.252.174.19 has serial 2013051410.
+ 38.909: aanekoski.fi INFO All SOA records have consistent serial numbers.
+ 38.909: aanekoski.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 40.538: aanekoski.fi NOTICE The listed nameservers for aanekoski.fi all report the same set of nameservers.
+ 40.538: aanekoski.fi INFO Done testing zone consistency for aanekoski.fi.
+ 40.538: aanekoski.fi INFO Begin testing SOA parameters for aanekoski.fi.
+ 40.666: aanekoski.fi INFO Found SOA record for aanekoski.fi.
+ 40.667: aanekoski.fi INFO Begin testing host ns.aanekoski.fi.
+ 41.389: aanekoski.fi INFO Begin testing address 194.252.174.19.
+ 42.056: aanekoski.fi INFO Done testing address 194.252.174.19.
+ 42.056: aanekoski.fi INFO Done testing host ns.aanekoski.fi.
+ 42.056: aanekoski.fi INFO SOA MNAME for aanekoski.fi valid (ns.aanekoski.fi).
+ 42.056: aanekoski.fi INFO SOA MNAME for aanekoski.fi (ns.aanekoski.fi) listed as NS.
+ 42.697: aanekoski.fi INFO SOA MNAME for aanekoski.fi (ns.aanekoski.fi) is authoritative.
+ 42.698: aanekoski.fi INFO Begin testing email address hostmaster@ns.aanekoski.fi.
+ 43.264: aanekoski.fi INFO Mail exchangers for hostmaster@ns.aanekoski.fi found ns.aanekoski.fi.
+ 43.264: aanekoski.fi INFO All mail servers for hostmaster@ns.aanekoski.fi are in zone aanekoski.fi.
+ 43.264: aanekoski.fi INFO Begin testing host ns.aanekoski.fi.
+ 43.696: aanekoski.fi INFO Begin testing address 194.252.174.19.
+ 44.732: aanekoski.fi INFO Done testing address 194.252.174.19.
+ 44.732: aanekoski.fi INFO Done testing host ns.aanekoski.fi.
+ 45.558: aanekoski.fi INFO Done testing email address hostmaster@ns.aanekoski.fi.
+ 45.558: aanekoski.fi INFO Successful attempt to deliver email for SOA RNAME of aanekoski.fi (hostmaster.ns.aanekoski.fi) using hostmaster@ns.aanekoski.fi.
+ 45.558: aanekoski.fi INFO SOA TTL for aanekoski.fi OK (86400) - recommended >= 3600.
+ 45.558: aanekoski.fi NOTICE SOA refresh for aanekoski.fi too small (3600) - recommended >= 14400.
+ 45.558: aanekoski.fi NOTICE SOA refresh for aanekoski.fi lower than retry (3600 vs 7200).
+ 45.559: aanekoski.fi INFO SOA retry for aanekoski.fi OK (7200) - recommended >= 3600.
+ 45.559: aanekoski.fi INFO SOA expire for aanekoski.fi OK (604800) - recommended >= 604800.
+ 45.559: aanekoski.fi INFO SOA minimum for aanekoski.fi OK (86400) - recommended between 300 and 86400.
+ 45.559: aanekoski.fi INFO Done testing SOA parameters for aanekoski.fi.
+ 45.559: aanekoski.fi INFO Begin testing connectivity for aanekoski.fi.
+ 48.001: aanekoski.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 48.002: aanekoski.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 48.002: aanekoski.fi INFO Done testing connectivity for aanekoski.fi.
+ 48.002: aanekoski.fi INFO Begin testing DNSSEC for aanekoski.fi.
+ 48.247: aanekoski.fi INFO Did not find DS record for aanekoski.fi at parent.
+ 48.392: aanekoski.fi INFO Servers for aanekoski.fi have consistent extra processing status.
+ 48.450: aanekoski.fi INFO Authenticated denial records not found for aanekoski.fi.
+ 48.490: aanekoski.fi INFO Did not find DNSKEY record for aanekoski.fi at child.
+ 48.490: aanekoski.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 48.490: aanekoski.fi INFO Done testing DNSSEC for aanekoski.fi.
+ 48.491: aanekoski.fi INFO Test completed for zone aanekoski.fi.

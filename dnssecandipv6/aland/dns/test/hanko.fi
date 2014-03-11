@@ -1,0 +1,109 @@
+  0.000: hanko.fi INFO Begin testing zone hanko.fi with version 1.5.0.
+  0.532: hanko.fi INFO Begin testing delegation for hanko.fi.
+ 14.961: hanko.fi INFO Name servers listed at parent: ns2.surfnet.fi,ns3.surfnet.fi
+ 18.903: hanko.fi INFO Name servers listed at child: ns2.surfnet.fi,ns3.surfnet.fi
+ 18.903: hanko.fi NOTICE No IPv6 name servers found.
+ 18.982: hanko.fi INFO Parent glue for hanko.fi found: ns2.surfnet.fi (194.137.58.3)
+ 19.308: hanko.fi INFO Checking glue for ns2.surfnet.fi (194.137.58.3).
+ 19.308: hanko.fi INFO Parent glue for hanko.fi found: ns2.surfnet.fi (194.137.58.3)
+ 21.194: hanko.fi INFO It is possible to build a referral packet for hanko.fi that works without EDNS0.
+ 22.611: hanko.fi INFO Previously used name servers for hanko.fi: 
+ 22.750: hanko.fi INFO Done testing delegation for hanko.fi.
+ 22.750: hanko.fi INFO Begin testing name server ns2.surfnet.fi.
+ 22.750: hanko.fi INFO Begin testing host ns2.surfnet.fi.
+ 23.644: hanko.fi INFO Begin testing address 194.137.58.3.
+ 43.299: hanko.fi INFO Done testing address 194.137.58.3.
+ 43.299: hanko.fi INFO Done testing host ns2.surfnet.fi.
+ 44.101: hanko.fi INFO Name server ns2.surfnet.fi (194.137.58.3) answers queries over UDP.
+ 44.233: hanko.fi INFO Name server ns2.surfnet.fi (194.137.58.3) answers queries over TCP.
+ 44.352: hanko.fi WARNING Name server ns2.surfnet.fi (194.137.58.3) is recursive.
+ 44.756: hanko.fi INFO Name server ns2.surfnet.fi (194.137.58.3) authoritative for hanko.fi.
+ 44.849: hanko.fi NOTICE Name server ns2.surfnet.fi (194.137.58.3) open for zone transfer of hanko.fi.
+ 44.956: hanko.fi INFO Legacy name server ID for ns2.surfnet.fi (194.137.58.3): hostname.bind = calamari
+ 45.006: hanko.fi INFO Legacy name server ID for ns2.surfnet.fi (194.137.58.3): version.bind = 9.8.1
+ 45.216: hanko.fi NOTICE No answer received from 194.137.58.3 when querying for version.server/CH/TXT.
+ 45.216: hanko.fi INFO Done testing name server ns2.surfnet.fi.
+ 45.216: hanko.fi INFO Begin testing name server ns3.surfnet.fi.
+ 45.216: hanko.fi INFO Begin testing host ns3.surfnet.fi.
+ 45.983: hanko.fi INFO Begin testing address 194.137.58.80.
+ 48.849: hanko.fi INFO Done testing address 194.137.58.80.
+ 48.849: hanko.fi INFO Done testing host ns3.surfnet.fi.
+ 49.613: hanko.fi INFO Name server ns3.surfnet.fi (194.137.58.80) answers queries over UDP.
+ 49.697: hanko.fi INFO Name server ns3.surfnet.fi (194.137.58.80) answers queries over TCP.
+ 49.925: hanko.fi INFO Name server ns3.surfnet.fi (194.137.58.80) is not recursive.
+ 50.255: hanko.fi INFO Name server ns3.surfnet.fi (194.137.58.80) authoritative for hanko.fi.
+ 50.314: hanko.fi INFO Name server ns3.surfnet.fi (194.137.58.80) closed for zone transfer of hanko.fi.
+ 50.360: hanko.fi INFO Legacy name server ID for ns3.surfnet.fi (194.137.58.80): hostname.bind = breakwater
+ 50.445: hanko.fi INFO Legacy name server ID for ns3.surfnet.fi (194.137.58.80): version.bind = 9.3.4
+ 50.660: hanko.fi NOTICE No answer received from 194.137.58.80 when querying for version.server/CH/TXT.
+ 50.660: hanko.fi INFO Done testing name server ns3.surfnet.fi.
+ 50.660: hanko.fi INFO Begin testing zone consistency for hanko.fi.
+ 53.529: hanko.fi INFO SOA at address 194.137.58.3 has serial 2012100501.
+ 53.700: hanko.fi INFO SOA at address 194.137.58.80 has serial 2012100501.
+ 53.700: hanko.fi INFO All SOA records have consistent serial numbers.
+ 53.700: hanko.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 55.261: hanko.fi WARNING The listed nameservers for hanko.fi does not all report the same set of nameservers.
+ 55.261: hanko.fi INFO Done testing zone consistency for hanko.fi.
+ 55.261: hanko.fi INFO Begin testing SOA parameters for hanko.fi.
+ 55.298: hanko.fi INFO Found SOA record for hanko.fi.
+ 55.299: hanko.fi INFO Begin testing host ns3.surfnet.fi.
+ 55.976: hanko.fi INFO Begin testing address 194.137.58.80.
+ 56.739: hanko.fi INFO Done testing address 194.137.58.80.
+ 56.739: hanko.fi INFO Done testing host ns3.surfnet.fi.
+ 56.739: hanko.fi INFO SOA MNAME for hanko.fi valid (ns3.surfnet.fi).
+ 56.739: hanko.fi INFO SOA MNAME for hanko.fi (ns3.surfnet.fi) listed as NS.
+ 57.571: hanko.fi INFO SOA MNAME for hanko.fi (ns3.surfnet.fi) is authoritative.
+ 57.571: hanko.fi INFO Begin testing email address pertti.kiiski@hanko.fi.
+ 58.152: hanko.fi INFO Mail exchangers for pertti.kiiski@hanko.fi found hanko.sahkopostiturva.net,hango.sahkopostiturva.net,hango2.sahkopostiturva.net,hanko2.sahkopostiturva.net.
+ 58.152: hanko.fi INFO Begin testing host hanko.sahkopostiturva.net.
+ 60.264: hanko.fi INFO Begin testing address 194.197.177.18.
+ 64.144: hanko.fi INFO Done testing address 194.197.177.18.
+ 64.144: hanko.fi INFO Begin testing address 194.197.177.16.
+ 65.619: hanko.fi INFO Done testing address 194.197.177.16.
+ 65.626: hanko.fi INFO Begin testing address 194.197.177.11.
+ 67.161: hanko.fi INFO Done testing address 194.197.177.11.
+ 67.161: hanko.fi INFO Done testing host hanko.sahkopostiturva.net.
+ 67.513: hanko.fi INFO Begin testing host hango.sahkopostiturva.net.
+ 68.164: hanko.fi INFO Begin testing address 194.197.177.11.
+ 68.532: hanko.fi INFO Done testing address 194.197.177.11.
+ 68.532: hanko.fi INFO Begin testing address 194.197.177.18.
+ 68.856: hanko.fi INFO Done testing address 194.197.177.18.
+ 68.856: hanko.fi INFO Begin testing address 194.197.177.16.
+ 69.195: hanko.fi INFO Done testing address 194.197.177.16.
+ 69.196: hanko.fi INFO Done testing host hango.sahkopostiturva.net.
+ 69.680: hanko.fi INFO Begin testing host hango2.sahkopostiturva.net.
+ 70.463: hanko.fi INFO Begin testing address 217.112.192.11.
+ 71.307: hanko.fi INFO Done testing address 217.112.192.11.
+ 71.309: hanko.fi INFO Begin testing address 217.112.192.18.
+ 72.677: hanko.fi INFO Done testing address 217.112.192.18.
+ 72.677: hanko.fi INFO Begin testing address 217.112.192.16.
+ 74.076: hanko.fi INFO Done testing address 217.112.192.16.
+ 74.076: hanko.fi INFO Done testing host hango2.sahkopostiturva.net.
+ 74.828: hanko.fi INFO Begin testing host hanko2.sahkopostiturva.net.
+ 75.572: hanko.fi INFO Begin testing address 217.112.192.16.
+ 75.817: hanko.fi INFO Done testing address 217.112.192.16.
+ 75.818: hanko.fi INFO Begin testing address 217.112.192.18.
+ 76.730: hanko.fi INFO Done testing address 217.112.192.18.
+ 76.730: hanko.fi INFO Begin testing address 217.112.192.11.
+ 77.840: hanko.fi INFO Done testing address 217.112.192.11.
+ 77.840: hanko.fi INFO Done testing host hanko2.sahkopostiturva.net.
+ 78.808: hanko.fi INFO Done testing email address pertti.kiiski@hanko.fi.
+ 78.808: hanko.fi INFO Successful attempt to deliver email for SOA RNAME of hanko.fi (pertti\.kiiski.hanko.fi) using pertti.kiiski@hanko.fi.
+ 78.808: hanko.fi INFO SOA TTL for hanko.fi OK (86400) - recommended >= 3600.
+ 78.808: hanko.fi NOTICE SOA refresh for hanko.fi too small (10800) - recommended >= 14400.
+ 78.809: hanko.fi INFO SOA retry for hanko.fi OK (3600) - recommended >= 3600.
+ 78.809: hanko.fi INFO SOA expire for hanko.fi OK (604800) - recommended >= 604800.
+ 78.809: hanko.fi INFO SOA minimum for hanko.fi OK (10800) - recommended between 300 and 86400.
+ 78.809: hanko.fi INFO Done testing SOA parameters for hanko.fi.
+ 78.809: hanko.fi INFO Begin testing connectivity for hanko.fi.
+ 81.409: hanko.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+ 81.410: hanko.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+ 81.410: hanko.fi INFO Done testing connectivity for hanko.fi.
+ 81.410: hanko.fi INFO Begin testing DNSSEC for hanko.fi.
+ 81.751: hanko.fi INFO Did not find DS record for hanko.fi at parent.
+ 82.000: hanko.fi INFO Servers for hanko.fi have consistent extra processing status.
+ 82.131: hanko.fi INFO Authenticated denial records not found for hanko.fi.
+ 82.292: hanko.fi INFO Did not find DNSKEY record for hanko.fi at child.
+ 82.292: hanko.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 82.293: hanko.fi INFO Done testing DNSSEC for hanko.fi.
+ 82.293: hanko.fi INFO Test completed for zone hanko.fi.

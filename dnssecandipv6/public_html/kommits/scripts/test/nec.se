@@ -1,0 +1,130 @@
+  0.000: nec.se INFO Begin testing zone nec.se with version 1.2.
+  0.000: nec.se INFO Begin testing delegation for nec.se.
+  5.377: nec.se INFO Name servers listed at parent: ns1.neceur.com,ns2.neceur.com
+  8.893: nec.se INFO Name servers listed at child: ns1.nec.com,ns1.neceur.com,ns2.nec.com,ns2.neceur.com
+  8.893: nec.se NOTICE Additional name server listed at child: ns1.nec.com
+  8.893: nec.se NOTICE Additional name server listed at child: ns2.nec.com
+  8.894: nec.se NOTICE No IPv6 name servers found.
+  8.958: nec.se INFO Done testing delegation for nec.se.
+  8.958: nec.se INFO Begin testing name server ns1.nec.com.
+  8.958: nec.se INFO Begin testing host ns1.nec.com.
+  8.959: nec.se INFO Begin testing address 143.101.0.20.
+ 14.781: nec.se INFO Done testing address 143.101.0.20.
+ 14.781: nec.se INFO Done testing host ns1.nec.com.
+ 14.927: nec.se INFO Name server ns1.nec.com (143.101.0.20) answers queries over UDP.
+ 15.213: nec.se INFO Name server ns1.nec.com (143.101.0.20) answers queries over TCP.
+ 15.357: nec.se INFO Name server ns1.nec.com (143.101.0.20) is not recursive.
+ 15.500: nec.se INFO Name server ns1.nec.com (143.101.0.20) authoritative for nec.se.
+ 15.916: nec.se INFO Name server ns1.nec.com (143.101.0.20) closed for zone transfer of nec.se.
+ 16.061: nec.se INFO Legacy name server ID for ns1.nec.com (143.101.0.20): hostname.bind = ursa
+ 16.202: nec.se INFO Legacy name server ID for ns1.nec.com (143.101.0.20): version.bind = No version info available (refused).
+ 16.484: nec.se NOTICE No answer received from 143.101.0.20 when querying for version.server/CH/TXT.
+ 16.484: nec.se INFO Done testing name server ns1.nec.com.
+ 16.484: nec.se INFO Begin testing name server ns1.neceur.com.
+ 16.485: nec.se INFO Begin testing host ns1.neceur.com.
+ 16.485: nec.se INFO Begin testing address 195.47.207.1.
+ 19.890: nec.se INFO Done testing address 195.47.207.1.
+ 19.890: nec.se INFO Done testing host ns1.neceur.com.
+ 19.938: nec.se INFO Name server ns1.neceur.com (195.47.207.1) answers queries over UDP.
+ 20.023: nec.se INFO Name server ns1.neceur.com (195.47.207.1) answers queries over TCP.
+ 20.073: nec.se INFO Name server ns1.neceur.com (195.47.207.1) is not recursive.
+ 20.121: nec.se INFO Name server ns1.neceur.com (195.47.207.1) authoritative for nec.se.
+ 20.243: nec.se INFO Name server ns1.neceur.com (195.47.207.1) closed for zone transfer of nec.se.
+ 20.287: nec.se INFO Legacy name server ID for ns1.neceur.com (195.47.207.1): hostname.bind = ns1
+ 20.330: nec.se INFO Legacy name server ID for ns1.neceur.com (195.47.207.1): version.bind = 9.3.4-P1.1
+ 20.419: nec.se NOTICE No answer received from 195.47.207.1 when querying for version.server/CH/TXT.
+ 20.419: nec.se INFO Done testing name server ns1.neceur.com.
+ 20.419: nec.se INFO Begin testing name server ns2.nec.com.
+ 20.420: nec.se INFO Begin testing host ns2.nec.com.
+ 20.420: nec.se INFO Begin testing address 143.101.112.2.
+ 20.781: nec.se INFO Done testing address 143.101.112.2.
+ 20.781: nec.se INFO Done testing host ns2.nec.com.
+ 20.927: nec.se INFO Name server ns2.nec.com (143.101.112.2) answers queries over UDP.
+ 21.208: nec.se INFO Name server ns2.nec.com (143.101.112.2) answers queries over TCP.
+ 21.353: nec.se INFO Name server ns2.nec.com (143.101.112.2) is not recursive.
+ 21.500: nec.se INFO Name server ns2.nec.com (143.101.112.2) authoritative for nec.se.
+ 21.914: nec.se INFO Name server ns2.nec.com (143.101.112.2) closed for zone transfer of nec.se.
+ 22.059: nec.se INFO Legacy name server ID for ns2.nec.com (143.101.112.2): hostname.bind = antlia
+ 22.201: nec.se INFO Legacy name server ID for ns2.nec.com (143.101.112.2): version.bind = No version info available (refused).
+ 22.484: nec.se NOTICE No answer received from 143.101.112.2 when querying for version.server/CH/TXT.
+ 22.485: nec.se INFO Done testing name server ns2.nec.com.
+ 22.485: nec.se INFO Begin testing name server ns2.neceur.com.
+ 22.485: nec.se INFO Begin testing host ns2.neceur.com.
+ 22.486: nec.se INFO Begin testing address 195.47.207.2.
+ 23.056: nec.se INFO Done testing address 195.47.207.2.
+ 23.057: nec.se INFO Done testing host ns2.neceur.com.
+ 23.102: nec.se INFO Name server ns2.neceur.com (195.47.207.2) answers queries over UDP.
+ 23.188: nec.se INFO Name server ns2.neceur.com (195.47.207.2) answers queries over TCP.
+ 23.237: nec.se INFO Name server ns2.neceur.com (195.47.207.2) is not recursive.
+ 23.282: nec.se INFO Name server ns2.neceur.com (195.47.207.2) authoritative for nec.se.
+ 23.403: nec.se INFO Name server ns2.neceur.com (195.47.207.2) closed for zone transfer of nec.se.
+ 23.447: nec.se INFO Legacy name server ID for ns2.neceur.com (195.47.207.2): hostname.bind = ns2
+ 23.490: nec.se INFO Legacy name server ID for ns2.neceur.com (195.47.207.2): version.bind = Unauthorized query. Your Ip Address has been logged.
+ 23.577: nec.se NOTICE No answer received from 195.47.207.2 when querying for version.server/CH/TXT.
+ 23.578: nec.se INFO Done testing name server ns2.neceur.com.
+ 23.578: nec.se INFO Begin testing zone consistency for nec.se.
+ 23.728: nec.se INFO SOA at address 143.101.112.2 has serial 2006120500.
+ 23.774: nec.se INFO SOA at address 195.47.207.1 has serial 2006120500.
+ 23.917: nec.se INFO SOA at address 143.101.0.20 has serial 2006120500.
+ 23.962: nec.se INFO SOA at address 195.47.207.2 has serial 2006120500.
+ 23.962: nec.se INFO All SOA records have consistent serial numbers.
+ 23.962: nec.se INFO All SOA records are consistent among all name servers.
+ 23.963: nec.se INFO Done testing zone consistency for nec.se.
+ 23.963: nec.se INFO Begin testing SOA parameters for nec.se.
+ 24.108: nec.se INFO Found SOA record for nec.se.
+ 24.108: nec.se INFO Begin testing host ns1.neceur.com.
+ 24.109: nec.se INFO Begin testing address 195.47.207.1.
+ 24.111: nec.se INFO Done testing address 195.47.207.1.
+ 24.111: nec.se INFO Done testing host ns1.neceur.com.
+ 24.111: nec.se INFO SOA MNAME for nec.se valid (ns1.neceur.com).
+ 24.111: nec.se INFO SOA MNAME for nec.se (ns1.neceur.com) listed as NS.
+ 24.157: nec.se INFO SOA MNAME for nec.se (ns1.neceur.com) is authoritative.
+ 24.157: nec.se INFO Begin testing email address dnsmaster@uk.neceur.com.
+ 24.557: nec.se INFO Mail exchangers for dnsmaster@uk.neceur.com found cluster-j.mailcontrol.com,cluster-a.mailcontrol.com,cluster-e.mailcontrol.com.
+ 24.558: nec.se INFO Begin testing host cluster-j.mailcontrol.com.
+ 25.635: nec.se INFO Begin testing address 85.115.54.190.
+ 26.969: nec.se INFO Done testing address 85.115.54.190.
+ 26.970: nec.se INFO Done testing host cluster-j.mailcontrol.com.
+ 26.971: nec.se INFO Begin testing mail server cluster-j.mailcontrol.com (85.115.54.190) with dnsmaster@uk.neceur.com.
+ 27.649: nec.se WARNING Failed to connect to cluster-j.mailcontrol.com (85.115.54.190).
+ 27.649: nec.se INFO Done testing mail server cluster-j.mailcontrol.com (85.115.54.190) with dnsmaster@uk.neceur.com.
+ 27.650: nec.se INFO Begin testing host cluster-a.mailcontrol.com.
+ 28.539: nec.se INFO Begin testing address 85.115.52.190.
+ 28.822: nec.se INFO Done testing address 85.115.52.190.
+ 28.823: nec.se INFO Done testing host cluster-a.mailcontrol.com.
+ 28.823: nec.se INFO Begin testing mail server cluster-a.mailcontrol.com (85.115.52.190) with dnsmaster@uk.neceur.com.
+ 41.109: nec.se INFO SMTP banner: cluster-a.mailcontrol.com ESMTP MailControl
+ 41.270: nec.se INFO SMTP testing of cluster-a.mailcontrol.com (85.115.52.190) with dnsmaster@uk.neceur.com succeeded without errors.
+ 41.270: nec.se INFO Done testing mail server cluster-a.mailcontrol.com (85.115.52.190) with dnsmaster@uk.neceur.com.
+ 41.271: nec.se INFO Begin testing host cluster-e.mailcontrol.com.
+ 42.316: nec.se INFO Begin testing address 85.115.58.190.
+ 42.684: nec.se INFO Done testing address 85.115.58.190.
+ 42.684: nec.se INFO Done testing host cluster-e.mailcontrol.com.
+ 42.685: nec.se INFO Delivery over IPv4 to dnsmaster@uk.neceur.com ok.
+ 42.685: nec.se INFO Delivery over IPv6 to dnsmaster@uk.neceur.com could not be done.
+ 42.685: nec.se INFO Done testing email address dnsmaster@uk.neceur.com.
+ 42.686: nec.se INFO Successful attempt to deliver email for SOA RNAME of nec.se (dnsmaster.uk.neceur.com) using dnsmaster@uk.neceur.com.
+ 42.686: nec.se INFO SOA TTL for nec.se OK (86400) - recommended >= 3600.
+ 42.687: nec.se NOTICE SOA refresh for nec.se too small (1800) - recommended >= 14400.
+ 42.687: nec.se NOTICE SOA refresh for nec.se lower than retry (1800 vs 1800).
+ 42.687: nec.se NOTICE SOA retry for nec.se too small (1800) - recommended >= 3600.
+ 42.687: nec.se INFO SOA expire for nec.se OK (604800) - recommended >= 604800.
+ 42.687: nec.se INFO SOA minimum for nec.se OK (3600) - recommended between 300 and 86400.
+ 42.687: nec.se INFO Done testing SOA parameters for nec.se.
+ 42.688: nec.se INFO Begin testing connectivity for nec.se.
+ 43.291: nec.se INFO Name server 143.101.112.2 announced by: 13636
+ 43.774: nec.se INFO Name server 195.47.207.1 announced by: 31398
+ 44.379: nec.se INFO Name server 143.101.0.20 announced by: 13636
+ 44.904: nec.se INFO Name server 195.47.207.2 announced by: 31398
+ 44.905: nec.se INFO Zone announced by IPv4 ASN: 13636,31398
+ 44.905: nec.se INFO Zone announced by more than one ASN (2).
+ 44.905: nec.se INFO Zone announced by IPv6 ASN: 
+ 44.905: nec.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 44.905: nec.se INFO Done testing connectivity for nec.se.
+ 44.906: nec.se INFO Begin testing DNSSEC for nec.se.
+ 44.953: nec.se INFO Did not find DS record for nec.se at parent.
+ 45.683: nec.se INFO Servers for nec.se have consistent extra processing status.
+ 45.684: nec.se INFO Did not find DNSKEY record for nec.se at child.
+ 45.684: nec.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 45.684: nec.se INFO Done testing DNSSEC for nec.se.
+ 45.684: nec.se INFO Test completed for zone nec.se.

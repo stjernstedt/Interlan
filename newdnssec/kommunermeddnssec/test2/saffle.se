@@ -1,0 +1,119 @@
+  0.000: saffle.se INFO Begin testing zone saffle.se with version 1.2.
+  0.000: saffle.se INFO Begin testing delegation for saffle.se.
+  9.081: saffle.se INFO Name servers listed at parent: a.dns.tdc.se,b.dns.tdc.se,ns.saffle.se
+ 18.664: saffle.se INFO Name servers listed at child: a.dns.tdc.se,b.dns.tdc.se,ns.saffle.se
+ 18.664: saffle.se NOTICE No IPv6 name servers found.
+ 18.683: saffle.se INFO Parent glue for saffle.se found: a.dns.tdc.se (213.50.29.190)
+ 18.701: saffle.se INFO Parent glue for saffle.se found: b.dns.tdc.se (213.50.29.195)
+ 18.748: saffle.se INFO Parent glue for saffle.se found: ns.saffle.se (195.84.66.2)
+ 18.757: saffle.se INFO Checking glue for a.dns.tdc.se (213.50.29.190).
+ 18.757: saffle.se INFO Checking glue for b.dns.tdc.se (213.50.29.195).
+ 18.758: saffle.se INFO Checking glue for ns.saffle.se (195.84.66.2).
+ 18.766: saffle.se INFO Child glue for saffle.se found: ns.saffle.se (195.84.66.2)
+ 18.767: saffle.se INFO Parent glue for saffle.se found: a.dns.tdc.se (213.50.29.190)
+ 18.767: saffle.se INFO Parent glue for saffle.se found: b.dns.tdc.se (213.50.29.195)
+ 18.767: saffle.se INFO Parent glue for saffle.se found: ns.saffle.se (195.84.66.2)
+ 18.768: saffle.se INFO Done testing delegation for saffle.se.
+ 18.768: saffle.se INFO Begin testing name server a.dns.tdc.se.
+ 18.768: saffle.se INFO Begin testing host a.dns.tdc.se.
+ 18.769: saffle.se INFO Begin testing address 213.50.29.190.
+ 30.673: saffle.se INFO Done testing address 213.50.29.190.
+ 30.674: saffle.se INFO Done testing host a.dns.tdc.se.
+ 30.683: saffle.se INFO Name server a.dns.tdc.se (213.50.29.190) answers queries over UDP.
+ 30.696: saffle.se INFO Name server a.dns.tdc.se (213.50.29.190) answers queries over TCP.
+ 30.703: saffle.se INFO Name server a.dns.tdc.se (213.50.29.190) is not recursive.
+ 30.712: saffle.se INFO Name server a.dns.tdc.se (213.50.29.190) authoritative for saffle.se.
+ 30.728: saffle.se INFO Name server a.dns.tdc.se (213.50.29.190) closed for zone transfer of saffle.se.
+ 30.737: saffle.se INFO Legacy name server ID for a.dns.tdc.se (213.50.29.190): hostname.bind = a
+ 30.745: saffle.se INFO Legacy name server ID for a.dns.tdc.se (213.50.29.190): version.bind = tssk, well what can i say?
+ 30.759: saffle.se NOTICE No answer received from 213.50.29.190 when querying for version.server/CH/TXT.
+ 30.759: saffle.se INFO Done testing name server a.dns.tdc.se.
+ 30.760: saffle.se INFO Begin testing name server b.dns.tdc.se.
+ 30.760: saffle.se INFO Begin testing host b.dns.tdc.se.
+ 30.760: saffle.se INFO Begin testing address 213.50.29.195.
+ 31.086: saffle.se INFO Done testing address 213.50.29.195.
+ 31.086: saffle.se INFO Done testing host b.dns.tdc.se.
+ 31.095: saffle.se INFO Name server b.dns.tdc.se (213.50.29.195) answers queries over UDP.
+ 31.107: saffle.se INFO Name server b.dns.tdc.se (213.50.29.195) answers queries over TCP.
+ 31.114: saffle.se INFO Name server b.dns.tdc.se (213.50.29.195) is not recursive.
+ 31.122: saffle.se INFO Name server b.dns.tdc.se (213.50.29.195) authoritative for saffle.se.
+ 31.135: saffle.se INFO Name server b.dns.tdc.se (213.50.29.195) closed for zone transfer of saffle.se.
+ 31.142: saffle.se INFO Legacy name server ID for b.dns.tdc.se (213.50.29.195): hostname.bind = b
+ 31.148: saffle.se INFO Legacy name server ID for b.dns.tdc.se (213.50.29.195): version.bind = tssk, well what can i say?
+ 31.161: saffle.se NOTICE No answer received from 213.50.29.195 when querying for version.server/CH/TXT.
+ 31.161: saffle.se INFO Done testing name server b.dns.tdc.se.
+ 31.161: saffle.se INFO Begin testing name server ns.saffle.se.
+ 31.161: saffle.se INFO Begin testing host ns.saffle.se.
+ 31.161: saffle.se INFO Begin testing address 195.84.66.2.
+ 31.827: saffle.se WARNING Reverse for 195.84.66.2 points to an unknown host name (surf2.saffle.se).
+ 31.827: saffle.se INFO Done testing address 195.84.66.2.
+ 31.827: saffle.se INFO Done testing host ns.saffle.se.
+ 31.846: saffle.se INFO Name server ns.saffle.se (195.84.66.2) answers queries over UDP.
+ 31.878: saffle.se INFO Name server ns.saffle.se (195.84.66.2) answers queries over TCP.
+ 32.253: saffle.se INFO Name server ns.saffle.se (195.84.66.2) is not recursive.
+ 32.270: saffle.se INFO Name server ns.saffle.se (195.84.66.2) authoritative for saffle.se.
+ 32.515: saffle.se INFO Name server ns.saffle.se (195.84.66.2) closed for zone transfer of saffle.se.
+ 32.532: saffle.se NOTICE No answer received from 195.84.66.2 when querying for hostname.bind/CH/TXT.
+ 50.533: saffle.se INFO Done testing name server ns.saffle.se.
+ 50.533: saffle.se INFO Begin testing zone consistency for saffle.se.
+ 50.546: saffle.se INFO SOA at address 213.50.29.195 has serial 141.
+ 50.563: saffle.se INFO SOA at address 195.84.66.2 has serial 141.
+ 50.572: saffle.se INFO SOA at address 213.50.29.190 has serial 141.
+ 50.572: saffle.se INFO All SOA records have consistent serial numbers.
+ 50.572: saffle.se INFO All SOA records are consistent among all name servers.
+ 50.572: saffle.se INFO Done testing zone consistency for saffle.se.
+ 50.572: saffle.se INFO Begin testing SOA parameters for saffle.se.
+ 50.580: saffle.se INFO Found SOA record for saffle.se.
+ 50.580: saffle.se INFO Begin testing host ns.saffle.se.
+ 50.580: saffle.se INFO Begin testing address 195.84.66.2.
+ 50.582: saffle.se WARNING Reverse for 195.84.66.2 points to an unknown host name (surf2.saffle.se).
+ 50.582: saffle.se INFO Done testing address 195.84.66.2.
+ 50.582: saffle.se INFO Done testing host ns.saffle.se.
+ 50.582: saffle.se INFO SOA MNAME for saffle.se valid (ns.saffle.se).
+ 50.582: saffle.se INFO SOA MNAME for saffle.se (ns.saffle.se) listed as NS.
+ 50.600: saffle.se INFO SOA MNAME for saffle.se (ns.saffle.se) is authoritative.
+ 50.600: saffle.se INFO Begin testing email address qmail@saffle.se.
+ 50.822: saffle.se INFO Mail exchangers for qmail@saffle.se found smtp-in.sto-hy.se.stejtech.net,smtp-in.sto-ste.se.stejtech.net,a.dns.tdc.se.
+ 50.822: saffle.se INFO Begin testing host smtp-in.sto-hy.se.stejtech.net.
+ 51.380: saffle.se INFO Begin testing address 83.140.31.145.
+ 53.772: saffle.se INFO Done testing address 83.140.31.145.
+ 53.772: saffle.se INFO Done testing host smtp-in.sto-hy.se.stejtech.net.
+ 53.772: saffle.se INFO Begin testing mail server smtp-in.sto-hy.se.stejtech.net (83.140.31.145) with qmail@saffle.se.
+ 53.797: saffle.se INFO SMTP banner: smtp2.stejtech.net ESMTP Stej PowerFilter
+ 54.064: saffle.se INFO SMTP testing of smtp-in.sto-hy.se.stejtech.net (83.140.31.145) with qmail@saffle.se succeeded without errors.
+ 54.064: saffle.se INFO Done testing mail server smtp-in.sto-hy.se.stejtech.net (83.140.31.145) with qmail@saffle.se.
+ 54.065: saffle.se INFO Begin testing host smtp-in.sto-ste.se.stejtech.net.
+ 54.729: saffle.se INFO Begin testing address 80.248.224.70.
+ 56.138: saffle.se INFO Done testing address 80.248.224.70.
+ 56.138: saffle.se INFO Done testing host smtp-in.sto-ste.se.stejtech.net.
+ 56.139: saffle.se INFO Begin testing host a.dns.tdc.se.
+ 56.139: saffle.se INFO Begin testing address 213.50.29.190.
+ 56.141: saffle.se INFO Done testing address 213.50.29.190.
+ 56.141: saffle.se INFO Done testing host a.dns.tdc.se.
+ 56.141: saffle.se INFO Delivery over IPv4 to qmail@saffle.se ok.
+ 56.141: saffle.se INFO Delivery over IPv6 to qmail@saffle.se could not be done.
+ 56.141: saffle.se INFO Done testing email address qmail@saffle.se.
+ 56.141: saffle.se INFO Successful attempt to deliver email for SOA RNAME of saffle.se (qmail.saffle.se) using qmail@saffle.se.
+ 56.141: saffle.se INFO SOA TTL for saffle.se OK (3600) - recommended >= 3600.
+ 56.141: saffle.se INFO SOA refresh for saffle.se OK (14400) - recommended >= 14400.
+ 56.142: saffle.se INFO SOA retry for saffle.se OK (3600) - recommended >= 3600.
+ 56.142: saffle.se INFO SOA expire for saffle.se OK (604800) - recommended >= 604800.
+ 56.142: saffle.se INFO SOA minimum for saffle.se OK (3600) - recommended between 300 and 86400.
+ 56.142: saffle.se INFO Done testing SOA parameters for saffle.se.
+ 56.142: saffle.se INFO Begin testing connectivity for saffle.se.
+ 56.818: saffle.se INFO Name server 213.50.29.195 announced by: 3292
+ 57.443: saffle.se INFO Name server 195.84.66.2 announced by: 3292
+ 57.963: saffle.se INFO Name server 213.50.29.190 announced by: 3292
+ 57.963: saffle.se INFO Zone announced by IPv4 ASN: 3292
+ 57.963: saffle.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 57.963: saffle.se INFO Zone announced by IPv6 ASN: 
+ 57.963: saffle.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 57.963: saffle.se INFO Done testing connectivity for saffle.se.
+ 57.964: saffle.se INFO Begin testing DNSSEC for saffle.se.
+ 58.078: saffle.se INFO Did not find DS record for saffle.se at parent.
+ 63.105: saffle.se NOTICE DNS lookup error (timeout).
+ 63.119: saffle.se INFO Servers for saffle.se have consistent extra processing status.
+ 63.119: saffle.se INFO Did not find DNSKEY record for saffle.se at child.
+ 63.119: saffle.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 63.119: saffle.se INFO Done testing DNSSEC for saffle.se.
+ 63.119: saffle.se INFO Test completed for zone saffle.se.

@@ -1,0 +1,93 @@
+  0.000: saarijarvi.fi INFO Begin testing zone saarijarvi.fi with version 1.5.0.
+  1.901: saarijarvi.fi INFO Begin testing delegation for saarijarvi.fi.
+ 61.060: saarijarvi.fi INFO Name servers listed at parent: ns1.kotinet.com,ns2.kotinet.com,ns3.kotinet.com
+ 80.476: saarijarvi.fi INFO Name servers listed at child: ns1.kotinet.com,ns2.kotinet.com,ns3.kotinet.com
+ 80.476: saarijarvi.fi NOTICE No IPv6 name servers found.
+ 95.177: saarijarvi.fi INFO It is possible to build a referral packet for saarijarvi.fi that works without EDNS0.
+103.515: saarijarvi.fi INFO Previously used name servers for saarijarvi.fi: 
+103.516: saarijarvi.fi INFO Done testing delegation for saarijarvi.fi.
+103.516: saarijarvi.fi INFO Begin testing name server ns1.kotinet.com.
+103.516: saarijarvi.fi INFO Begin testing host ns1.kotinet.com.
+106.317: saarijarvi.fi INFO Begin testing address 212.50.211.242.
+170.032: saarijarvi.fi INFO Done testing address 212.50.211.242.
+170.032: saarijarvi.fi INFO Done testing host ns1.kotinet.com.
+173.698: saarijarvi.fi INFO Name server ns1.kotinet.com (212.50.211.242) answers queries over UDP.
+174.154: saarijarvi.fi INFO Name server ns1.kotinet.com (212.50.211.242) answers queries over TCP.
+174.823: saarijarvi.fi INFO Name server ns1.kotinet.com (212.50.211.242) is not recursive.
+176.220: saarijarvi.fi INFO Name server ns1.kotinet.com (212.50.211.242) authoritative for saarijarvi.fi.
+176.725: saarijarvi.fi INFO Name server ns1.kotinet.com (212.50.211.242) closed for zone transfer of saarijarvi.fi.
+177.539: saarijarvi.fi INFO Legacy name server ID for ns1.kotinet.com (212.50.211.242): hostname.bind = ns1.kotinet.com
+177.799: saarijarvi.fi INFO Legacy name server ID for ns1.kotinet.com (212.50.211.242): version.bind = enkerro
+178.543: saarijarvi.fi NOTICE No answer received from 212.50.211.242 when querying for version.server/CH/TXT.
+178.543: saarijarvi.fi INFO Done testing name server ns1.kotinet.com.
+178.543: saarijarvi.fi INFO Begin testing name server ns2.kotinet.com.
+178.543: saarijarvi.fi INFO Begin testing host ns2.kotinet.com.
+181.337: saarijarvi.fi INFO Begin testing address 212.50.192.226.
+187.045: saarijarvi.fi INFO Done testing address 212.50.192.226.
+187.045: saarijarvi.fi INFO Done testing host ns2.kotinet.com.
+190.260: saarijarvi.fi INFO Name server ns2.kotinet.com (212.50.192.226) answers queries over UDP.
+191.011: saarijarvi.fi INFO Name server ns2.kotinet.com (212.50.192.226) answers queries over TCP.
+191.383: saarijarvi.fi INFO Name server ns2.kotinet.com (212.50.192.226) is not recursive.
+192.806: saarijarvi.fi INFO Name server ns2.kotinet.com (212.50.192.226) authoritative for saarijarvi.fi.
+193.332: saarijarvi.fi INFO Name server ns2.kotinet.com (212.50.192.226) closed for zone transfer of saarijarvi.fi.
+193.703: saarijarvi.fi INFO Legacy name server ID for ns2.kotinet.com (212.50.192.226): hostname.bind = ns2
+193.988: saarijarvi.fi INFO Legacy name server ID for ns2.kotinet.com (212.50.192.226): version.bind = enkerro
+194.663: saarijarvi.fi NOTICE No answer received from 212.50.192.226 when querying for version.server/CH/TXT.
+194.663: saarijarvi.fi INFO Done testing name server ns2.kotinet.com.
+194.663: saarijarvi.fi INFO Begin testing name server ns3.kotinet.com.
+194.663: saarijarvi.fi INFO Begin testing host ns3.kotinet.com.
+197.279: saarijarvi.fi INFO Begin testing address 82.141.108.26.
+201.927: saarijarvi.fi INFO Done testing address 82.141.108.26.
+201.927: saarijarvi.fi INFO Done testing host ns3.kotinet.com.
+204.300: saarijarvi.fi INFO Name server ns3.kotinet.com (82.141.108.26) answers queries over UDP.
+204.824: saarijarvi.fi INFO Name server ns3.kotinet.com (82.141.108.26) answers queries over TCP.
+205.166: saarijarvi.fi INFO Name server ns3.kotinet.com (82.141.108.26) is not recursive.
+206.488: saarijarvi.fi INFO Name server ns3.kotinet.com (82.141.108.26) authoritative for saarijarvi.fi.
+206.821: saarijarvi.fi INFO Name server ns3.kotinet.com (82.141.108.26) closed for zone transfer of saarijarvi.fi.
+207.107: saarijarvi.fi INFO Legacy name server ID for ns3.kotinet.com (82.141.108.26): hostname.bind = ns3.kotinet.com
+207.463: saarijarvi.fi INFO Legacy name server ID for ns3.kotinet.com (82.141.108.26): version.bind = enkerro
+208.059: saarijarvi.fi NOTICE No answer received from 82.141.108.26 when querying for version.server/CH/TXT.
+208.059: saarijarvi.fi INFO Done testing name server ns3.kotinet.com.
+208.059: saarijarvi.fi INFO Begin testing zone consistency for saarijarvi.fi.
+222.982: saarijarvi.fi INFO SOA at address 212.50.192.226 has serial 2013050715.
+223.667: saarijarvi.fi INFO SOA at address 82.141.108.26 has serial 2013050715.
+223.868: saarijarvi.fi INFO SOA at address 212.50.211.242 has serial 2013050715.
+223.868: saarijarvi.fi INFO All SOA records have consistent serial numbers.
+223.868: saarijarvi.fi INFO All other fields in the SOA record are consistent among all name servers.
+231.464: saarijarvi.fi NOTICE The listed nameservers for saarijarvi.fi all report the same set of nameservers.
+231.685: saarijarvi.fi INFO Done testing zone consistency for saarijarvi.fi.
+231.685: saarijarvi.fi INFO Begin testing SOA parameters for saarijarvi.fi.
+231.908: saarijarvi.fi INFO Found SOA record for saarijarvi.fi.
+231.908: saarijarvi.fi INFO Begin testing host ns1.kotinet.com.
+234.057: saarijarvi.fi INFO Begin testing address 212.50.211.242.
+236.083: saarijarvi.fi INFO Done testing address 212.50.211.242.
+236.083: saarijarvi.fi INFO Done testing host ns1.kotinet.com.
+236.083: saarijarvi.fi INFO SOA MNAME for saarijarvi.fi valid (ns1.kotinet.com).
+236.083: saarijarvi.fi INFO SOA MNAME for saarijarvi.fi (ns1.kotinet.com) listed as NS.
+238.244: saarijarvi.fi INFO SOA MNAME for saarijarvi.fi (ns1.kotinet.com) is authoritative.
+238.244: saarijarvi.fi INFO Begin testing email address hostmaster@mail.kotinet.com.
+244.172: saarijarvi.fi INFO Mail exchangers for hostmaster@mail.kotinet.com found mail.kotinet.com.
+244.172: saarijarvi.fi INFO Begin testing host mail.kotinet.com.
+246.863: saarijarvi.fi INFO Begin testing address 212.50.215.81.
+255.963: saarijarvi.fi INFO Done testing address 212.50.215.81.
+255.963: saarijarvi.fi INFO Done testing host mail.kotinet.com.
+258.587: saarijarvi.fi INFO Done testing email address hostmaster@mail.kotinet.com.
+258.587: saarijarvi.fi INFO Successful attempt to deliver email for SOA RNAME of saarijarvi.fi (hostmaster.mail.kotinet.com) using hostmaster@mail.kotinet.com.
+258.587: saarijarvi.fi INFO SOA TTL for saarijarvi.fi OK (86400) - recommended >= 3600.
+258.587: saarijarvi.fi INFO SOA refresh for saarijarvi.fi OK (28800) - recommended >= 14400.
+258.588: saarijarvi.fi INFO SOA retry for saarijarvi.fi OK (7200) - recommended >= 3600.
+258.588: saarijarvi.fi INFO SOA expire for saarijarvi.fi OK (604800) - recommended >= 604800.
+258.588: saarijarvi.fi INFO SOA minimum for saarijarvi.fi OK (86400) - recommended between 300 and 86400.
+258.588: saarijarvi.fi INFO Done testing SOA parameters for saarijarvi.fi.
+258.588: saarijarvi.fi INFO Begin testing connectivity for saarijarvi.fi.
+269.525: saarijarvi.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+269.525: saarijarvi.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+269.525: saarijarvi.fi INFO Done testing connectivity for saarijarvi.fi.
+269.525: saarijarvi.fi INFO Begin testing DNSSEC for saarijarvi.fi.
+270.420: saarijarvi.fi INFO Did not find DS record for saarijarvi.fi at parent.
+271.746: saarijarvi.fi INFO Servers for saarijarvi.fi have consistent extra processing status.
+272.151: saarijarvi.fi INFO Authenticated denial records not found for saarijarvi.fi.
+272.457: saarijarvi.fi INFO Did not find DNSKEY record for saarijarvi.fi at child.
+272.457: saarijarvi.fi INFO No DNSKEY(s) found at child, other tests skipped.
+272.457: saarijarvi.fi INFO Done testing DNSSEC for saarijarvi.fi.
+272.458: saarijarvi.fi INFO Test completed for zone saarijarvi.fi.

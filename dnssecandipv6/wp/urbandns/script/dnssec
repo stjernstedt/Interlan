@@ -1,0 +1,12 @@
+#!/bin/sh
+
+
+cd /home/dnssecandipv6/public_html/urbandns/script
+
+./dnssec2 |tee resultat.txt
+
+php file.php < resultat.txt >../index2.html
+cp ../index2.html ../index.html
+
+./rrd
+

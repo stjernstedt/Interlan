@@ -1,0 +1,105 @@
+  0.000: atellus.se INFO Begin testing zone atellus.se with version 1.0.1.
+  0.001: atellus.se INFO Begin testing delegation for atellus.se.
+  0.823: atellus.se INFO Name servers listed at parent: ns1.atellus.se,ns1.xlent.se,ns2.atellus.se
+  1.481: atellus.se INFO Name servers listed at child: ns1.atellus.se,ns1.xlent.se,ns2.atellus.se
+  1.481: atellus.se NOTICE No IPv6 name servers found.
+  1.489: atellus.se INFO Parent glue for atellus.se found: ns1.atellus.se (195.66.54.148)
+  1.514: atellus.se INFO Parent glue for atellus.se found: ns1.xlent.se (195.66.54.175)
+  1.532: atellus.se INFO Parent glue for atellus.se found: ns2.atellus.se (195.66.54.146)
+  1.540: atellus.se INFO Checking glue for ns1.atellus.se (195.66.54.148).
+  1.555: atellus.se INFO Child glue for atellus.se found: ns1.atellus.se (195.66.54.148)
+  1.555: atellus.se INFO Checking glue for ns1.xlent.se (195.66.54.175).
+  1.555: atellus.se INFO Checking glue for ns2.atellus.se (195.66.54.146).
+  1.570: atellus.se INFO Child glue for atellus.se found: ns2.atellus.se (195.66.54.146)
+  1.570: atellus.se INFO Done testing delegation for atellus.se.
+  1.570: atellus.se INFO Begin testing name server ns1.atellus.se.
+  1.570: atellus.se INFO Begin testing host ns1.atellus.se.
+  1.571: atellus.se INFO Begin testing address 195.66.54.148.
+  3.813: atellus.se INFO Done testing address 195.66.54.148.
+  3.813: atellus.se INFO Done testing host ns1.atellus.se.
+  3.831: atellus.se INFO Name server ns1.atellus.se (195.66.54.148) is not recursive.
+  3.848: atellus.se INFO Name server ns1.atellus.se (195.66.54.148) authoritative for atellus.se.
+  3.866: atellus.se INFO Name server ns1.atellus.se (195.66.54.148) answers queries over UDP.
+  3.906: atellus.se INFO Name server ns1.atellus.se (195.66.54.148) answers queries over TCP.
+  4.156: atellus.se INFO Name server ns1.atellus.se (195.66.54.148) closed for zone transfer of atellus.se.
+  4.174: atellus.se NOTICE No answer received from 195.66.54.148 when querying for hostname.bind/CH/TXT.
+ 22.177: atellus.se INFO Done testing name server ns1.atellus.se.
+ 22.177: atellus.se INFO Begin testing name server ns1.xlent.se.
+ 22.177: atellus.se INFO Begin testing host ns1.xlent.se.
+ 22.178: atellus.se INFO Begin testing address 195.66.54.175.
+ 22.193: atellus.se INFO Done testing address 195.66.54.175.
+ 22.193: atellus.se INFO Done testing host ns1.xlent.se.
+ 22.401: atellus.se INFO Name server ns1.xlent.se (195.66.54.175) is not recursive.
+ 22.417: atellus.se INFO Name server ns1.xlent.se (195.66.54.175) authoritative for atellus.se.
+ 22.433: atellus.se INFO Name server ns1.xlent.se (195.66.54.175) answers queries over UDP.
+ 22.460: atellus.se INFO Name server ns1.xlent.se (195.66.54.175) answers queries over TCP.
+ 22.658: atellus.se INFO Name server ns1.xlent.se (195.66.54.175) closed for zone transfer of atellus.se.
+ 22.673: atellus.se NOTICE No answer received from 195.66.54.175 when querying for hostname.bind/CH/TXT.
+ 40.673: atellus.se INFO Done testing name server ns1.xlent.se.
+ 40.673: atellus.se INFO Begin testing name server ns2.atellus.se.
+ 40.673: atellus.se INFO Begin testing host ns2.atellus.se.
+ 40.674: atellus.se INFO Begin testing address 195.66.54.146.
+ 40.720: atellus.se INFO Done testing address 195.66.54.146.
+ 40.720: atellus.se INFO Done testing host ns2.atellus.se.
+ 40.937: atellus.se WARNING Name server ns2.atellus.se (195.66.54.146) is recursive.
+ 40.954: atellus.se INFO Name server ns2.atellus.se (195.66.54.146) authoritative for atellus.se.
+ 40.971: atellus.se INFO Name server ns2.atellus.se (195.66.54.146) answers queries over UDP.
+ 41.000: atellus.se INFO Name server ns2.atellus.se (195.66.54.146) answers queries over TCP.
+ 41.043: atellus.se NOTICE Name server ns2.atellus.se (195.66.54.146) open for zone transfer of atellus.se.
+ 41.058: atellus.se INFO Legacy name server ID for ns2.atellus.se (195.66.54.146): hostname.bind = pop.atellus.se
+ 41.072: atellus.se INFO Legacy name server ID for ns2.atellus.se (195.66.54.146): version.bind = 9.3.2-P2.1
+ 41.101: atellus.se NOTICE No answer received from 195.66.54.146 when querying for version.server/CH/TXT.
+ 41.101: atellus.se INFO Done testing name server ns2.atellus.se.
+ 41.102: atellus.se INFO Begin testing zone consistency for atellus.se.
+ 41.121: atellus.se INFO SOA at address 195.66.54.175 has serial 2006120186.
+ 41.136: atellus.se INFO SOA at address 195.66.54.146 has serial 2006120186.
+ 41.153: atellus.se INFO SOA at address 195.66.54.148 has serial 2006120186.
+ 41.153: atellus.se INFO All SOA records have consistent serial numbers.
+ 41.153: atellus.se INFO All SOA records are consistent among all name servers.
+ 41.153: atellus.se INFO Done testing zone consistency for atellus.se.
+ 41.153: atellus.se INFO Begin testing SOA parameters for atellus.se.
+ 41.167: atellus.se INFO Found SOA record for atellus.se.
+ 41.168: atellus.se INFO Begin testing host ns1.atellus.se.
+ 41.168: atellus.se INFO Begin testing address 195.66.54.148.
+ 41.169: atellus.se INFO Done testing address 195.66.54.148.
+ 41.169: atellus.se INFO Done testing host ns1.atellus.se.
+ 41.169: atellus.se INFO SOA MNAME for atellus.se valid (ns1.atellus.se).
+ 41.169: atellus.se INFO SOA MNAME for atellus.se (ns1.atellus.se) listed as NS.
+ 41.186: atellus.se INFO SOA MNAME for atellus.se (ns1.atellus.se) is authoritative.
+ 41.186: atellus.se INFO Begin testing email address hostmaster@atellus.se.
+ 41.201: atellus.se INFO Mail exchangers for hostmaster@atellus.se found mail.atellus.se.
+ 41.201: atellus.se INFO All mail servers for hostmaster@atellus.se are in zone atellus.se.
+ 41.201: atellus.se INFO Begin testing host mail.atellus.se.
+ 41.230: atellus.se INFO Begin testing address 195.66.54.146.
+ 41.231: atellus.se INFO Done testing address 195.66.54.146.
+ 41.231: atellus.se INFO Done testing host mail.atellus.se.
+ 41.231: atellus.se INFO Begin testing mail server mail.atellus.se (195.66.54.146) with hostmaster@atellus.se.
+ 41.283: atellus.se INFO SMTP banner: pop.atellus.se ESMTP Postfix (Ubuntu)
+ 51.680: atellus.se INFO SMTP testing of mail.atellus.se (195.66.54.146) with hostmaster@atellus.se succeeded without errors.
+ 51.680: atellus.se INFO Done testing mail server mail.atellus.se (195.66.54.146) with hostmaster@atellus.se.
+ 51.680: atellus.se INFO Delivery over IPv4 to hostmaster@atellus.se ok.
+ 51.681: atellus.se INFO Delivery over IPv6 to hostmaster@atellus.se could not be done.
+ 51.681: atellus.se INFO Done testing email address hostmaster@atellus.se.
+ 51.681: atellus.se INFO Successful attempt to deliver email for SOA RNAME of atellus.se (hostmaster.atellus.se) using hostmaster@atellus.se.
+ 51.681: atellus.se INFO SOA TTL for atellus.se OK (86400) - recommended >= 3600.
+ 51.681: atellus.se NOTICE SOA refresh for atellus.se too small (7200) - recommended >= 14400.
+ 51.681: atellus.se INFO SOA retry for atellus.se OK (3600) - recommended >= 3600.
+ 51.681: atellus.se INFO SOA expire for atellus.se OK (777600) - recommended >= 604800.
+ 51.681: atellus.se INFO SOA minimum for atellus.se OK (3600) - recommended between 300 and 86400.
+ 51.681: atellus.se INFO Done testing SOA parameters for atellus.se.
+ 51.681: atellus.se INFO Begin testing connectivity for atellus.se.
+ 52.351: atellus.se INFO Name server 195.66.54.175 announced by: 8434
+ 52.481: atellus.se INFO Name server 195.66.54.146 announced by: 8434
+ 52.616: atellus.se INFO Name server 195.66.54.148 announced by: 8434
+ 52.616: atellus.se INFO Zone announced by ASN: 8434
+ 52.616: atellus.se NOTICE Zone announced by only one ASN (1).
+ 52.617: atellus.se INFO Zone announced by IPv6 ASN: 
+ 52.617: atellus.se NOTICE Zone announced by only one IPv6 ASN (0).
+ 52.617: atellus.se INFO Done testing connectivity for atellus.se.
+ 52.617: atellus.se INFO Begin testing DNSSEC for atellus.se.
+ 52.695: atellus.se INFO Did not find DS record for atellus.se at parent.
+ 52.776: atellus.se INFO Servers for atellus.se have consistent extra processing status.
+ 52.776: atellus.se INFO Did not find DNSKEY record for atellus.se at child.
+ 52.777: atellus.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 52.777: atellus.se INFO Done testing DNSSEC for atellus.se.
+ 52.777: atellus.se INFO Test completed for zone atellus.se.

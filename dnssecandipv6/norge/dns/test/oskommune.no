@@ -1,0 +1,90 @@
+  0.000: oskommune.no INFO Begin testing zone oskommune.no with version 1.6.1.
+  0.396: oskommune.no INFO Begin testing delegation for oskommune.no.
+  4.409: oskommune.no INFO Name servers listed at parent: ns.fastname.no,ns2.fastname.no
+  5.666: oskommune.no INFO Name servers listed at child: ns.fastname.no,ns2.fastname.no
+  5.666: oskommune.no NOTICE No IPv6 name servers found.
+  5.725: oskommune.no INFO Parent glue for oskommune.no found: ns.fastname.no (85.19.150.98)
+  5.802: oskommune.no INFO Parent glue for oskommune.no found: ns2.fastname.no (85.252.49.116)
+  5.839: oskommune.no INFO Checking glue for ns.fastname.no (85.19.150.98).
+  5.871: oskommune.no INFO Checking glue for ns2.fastname.no (85.252.49.116).
+  5.872: oskommune.no INFO Parent glue for oskommune.no found: ns.fastname.no (85.19.150.98)
+  5.873: oskommune.no INFO Parent glue for oskommune.no found: ns2.fastname.no (85.252.49.116)
+  6.257: oskommune.no INFO It is possible to build a referral packet for oskommune.no that works without EDNS0.
+  6.557: oskommune.no INFO Previously used name servers for oskommune.no: 
+  6.558: oskommune.no INFO Done testing delegation for oskommune.no.
+  6.558: oskommune.no INFO Begin testing name server ns.fastname.no.
+  6.558: oskommune.no INFO Begin testing host ns.fastname.no.
+  6.720: oskommune.no INFO Begin testing address 85.19.150.98.
+ 20.978: oskommune.no INFO Done testing address 85.19.150.98.
+ 20.978: oskommune.no INFO Done testing host ns.fastname.no.
+ 21.204: oskommune.no INFO Name server ns.fastname.no (85.19.150.98) answers queries over UDP.
+ 21.230: oskommune.no INFO Name server ns.fastname.no (85.19.150.98) answers queries over TCP.
+ 21.273: oskommune.no INFO Name server ns.fastname.no (85.19.150.98) is not recursive.
+ 21.400: oskommune.no INFO Name server ns.fastname.no (85.19.150.98) authoritative for oskommune.no.
+ 21.440: oskommune.no INFO Name server ns.fastname.no (85.19.150.98) closed for zone transfer of oskommune.no.
+ 21.506: oskommune.no INFO Legacy name server ID for ns.fastname.no (85.19.150.98): version.bind = Served by PowerDNS - http://www.powerdns.com
+ 21.574: oskommune.no INFO Done testing name server ns.fastname.no.
+ 21.574: oskommune.no INFO Begin testing name server ns2.fastname.no.
+ 21.575: oskommune.no INFO Begin testing host ns2.fastname.no.
+ 21.778: oskommune.no INFO Begin testing address 85.252.49.116.
+ 23.824: oskommune.no INFO Done testing address 85.252.49.116.
+ 23.824: oskommune.no INFO Done testing host ns2.fastname.no.
+ 24.085: oskommune.no INFO Name server ns2.fastname.no (85.252.49.116) answers queries over UDP.
+ 24.112: oskommune.no INFO Name server ns2.fastname.no (85.252.49.116) answers queries over TCP.
+ 24.127: oskommune.no INFO Name server ns2.fastname.no (85.252.49.116) is not recursive.
+ 24.221: oskommune.no INFO Name server ns2.fastname.no (85.252.49.116) authoritative for oskommune.no.
+ 24.264: oskommune.no INFO Name server ns2.fastname.no (85.252.49.116) closed for zone transfer of oskommune.no.
+ 24.309: oskommune.no INFO Legacy name server ID for ns2.fastname.no (85.252.49.116): version.bind = Served by PowerDNS - http://www.powerdns.com
+ 24.377: oskommune.no INFO Done testing name server ns2.fastname.no.
+ 24.378: oskommune.no INFO Begin testing zone consistency for oskommune.no.
+ 25.094: oskommune.no INFO SOA at address 85.19.150.98 has serial 2014010801.
+ 25.108: oskommune.no INFO SOA at address 85.252.49.116 has serial 2014010801.
+ 25.108: oskommune.no INFO All SOA records have consistent serial numbers.
+ 25.108: oskommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 25.383: oskommune.no NOTICE The listed nameservers for oskommune.no all report the same set of nameservers.
+ 25.383: oskommune.no INFO Done testing zone consistency for oskommune.no.
+ 25.383: oskommune.no INFO Begin testing SOA parameters for oskommune.no.
+ 25.400: oskommune.no INFO Found SOA record for oskommune.no.
+ 25.400: oskommune.no INFO Begin testing host ns.fastname.no.
+ 25.561: oskommune.no INFO Begin testing address 85.19.150.98.
+ 25.688: oskommune.no INFO Done testing address 85.19.150.98.
+ 25.688: oskommune.no INFO Done testing host ns.fastname.no.
+ 25.688: oskommune.no INFO SOA MNAME for oskommune.no valid (ns.fastname.no).
+ 25.688: oskommune.no INFO SOA MNAME for oskommune.no (ns.fastname.no) listed as NS.
+ 25.871: oskommune.no INFO SOA MNAME for oskommune.no (ns.fastname.no) is authoritative.
+ 25.871: oskommune.no INFO Begin testing email address hostmaster@fastname.no.
+ 26.052: oskommune.no INFO Mail exchangers for hostmaster@fastname.no found mailscan02.fastname.no,mailscan01.fastname.no,mailscan03.fastname.no.
+ 26.052: oskommune.no INFO Begin testing host mailscan02.fastname.no.
+ 26.381: oskommune.no INFO Begin testing address 85.19.150.230.
+ 27.603: oskommune.no INFO Done testing address 85.19.150.230.
+ 27.603: oskommune.no INFO Begin testing address 85.19.150.244.
+ 28.191: oskommune.no INFO Done testing address 85.19.150.244.
+ 28.191: oskommune.no INFO Done testing host mailscan02.fastname.no.
+ 28.436: oskommune.no INFO Begin testing host mailscan01.fastname.no.
+ 28.712: oskommune.no INFO Begin testing address 85.19.150.228.
+ 29.299: oskommune.no INFO Done testing address 85.19.150.228.
+ 29.299: oskommune.no INFO Done testing host mailscan01.fastname.no.
+ 29.398: oskommune.no INFO Begin testing host mailscan03.fastname.no.
+ 29.686: oskommune.no INFO Begin testing address 85.19.150.232.
+ 30.547: oskommune.no INFO Done testing address 85.19.150.232.
+ 30.547: oskommune.no INFO Done testing host mailscan03.fastname.no.
+ 34.698: oskommune.no INFO Done testing email address hostmaster@fastname.no.
+ 34.698: oskommune.no INFO Successful attempt to deliver email for SOA RNAME of oskommune.no (hostmaster.fastname.no) using hostmaster@fastname.no.
+ 34.699: oskommune.no INFO SOA TTL for oskommune.no OK (10800) - recommended >= 3600.
+ 34.699: oskommune.no NOTICE SOA refresh for oskommune.no too small (10800) - recommended >= 14400.
+ 34.699: oskommune.no INFO SOA retry for oskommune.no OK (3600) - recommended >= 3600.
+ 34.699: oskommune.no INFO SOA expire for oskommune.no OK (604800) - recommended >= 604800.
+ 34.699: oskommune.no INFO SOA minimum for oskommune.no OK (3600) - recommended between 300 and 86400.
+ 34.699: oskommune.no INFO Done testing SOA parameters for oskommune.no.
+ 34.699: oskommune.no INFO Begin testing connectivity for oskommune.no.
+ 35.624: oskommune.no INFO Zone announced by more than one ASN.
+ 35.624: oskommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 35.624: oskommune.no INFO Done testing connectivity for oskommune.no.
+ 35.624: oskommune.no INFO Begin testing DNSSEC for oskommune.no.
+ 35.673: oskommune.no INFO Did not find DS record for oskommune.no at parent.
+ 35.727: oskommune.no INFO Servers for oskommune.no have consistent extra processing status.
+ 35.756: oskommune.no INFO Authenticated denial records not found for oskommune.no.
+ 35.772: oskommune.no INFO Did not find DNSKEY record for oskommune.no at child.
+ 35.772: oskommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 35.772: oskommune.no INFO Done testing DNSSEC for oskommune.no.
+ 35.773: oskommune.no INFO Test completed for zone oskommune.no.

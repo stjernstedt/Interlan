@@ -1,0 +1,79 @@
+  0.000: nord-fron.kommune.no INFO Begin testing zone nord-fron.kommune.no with version 1.6.1.
+  0.422: nord-fron.kommune.no INFO Begin testing delegation for nord-fron.kommune.no.
+  7.891: nord-fron.kommune.no INFO Name servers listed at parent: ns1.acos.no,ns2.acos.no
+  9.197: nord-fron.kommune.no INFO Name servers listed at child: ns1.acos.no,ns2.acos.no
+  9.197: nord-fron.kommune.no NOTICE No IPv6 name servers found.
+  9.353: nord-fron.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.499: nord-fron.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.639: nord-fron.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.833: nord-fron.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.508: nord-fron.kommune.no INFO It is possible to build a referral packet for nord-fron.kommune.no that works without EDNS0.
+ 11.059: nord-fron.kommune.no INFO Previously used name servers for nord-fron.kommune.no: 
+ 11.059: nord-fron.kommune.no INFO Done testing delegation for nord-fron.kommune.no.
+ 11.059: nord-fron.kommune.no INFO Begin testing name server ns1.acos.no.
+ 11.060: nord-fron.kommune.no INFO Begin testing host ns1.acos.no.
+ 11.219: nord-fron.kommune.no INFO Begin testing address 82.134.18.193.
+ 19.959: nord-fron.kommune.no INFO Done testing address 82.134.18.193.
+ 19.959: nord-fron.kommune.no INFO Done testing host ns1.acos.no.
+ 20.164: nord-fron.kommune.no INFO Name server ns1.acos.no (82.134.18.193) answers queries over UDP.
+ 20.278: nord-fron.kommune.no INFO Name server ns1.acos.no (82.134.18.193) answers queries over TCP.
+ 20.305: nord-fron.kommune.no INFO Name server ns1.acos.no (82.134.18.193) is not recursive.
+ 20.484: nord-fron.kommune.no INFO Name server ns1.acos.no (82.134.18.193) authoritative for nord-fron.kommune.no.
+ 20.566: nord-fron.kommune.no INFO Name server ns1.acos.no (82.134.18.193) closed for zone transfer of nord-fron.kommune.no.
+ 20.605: nord-fron.kommune.no INFO Legacy name server ID for ns1.acos.no (82.134.18.193): hostname.bind = sentinel
+ 20.675: nord-fron.kommune.no INFO Legacy name server ID for ns1.acos.no (82.134.18.193): version.bind = 9.3.4-P1.1
+ 20.742: nord-fron.kommune.no NOTICE No answer received from 82.134.18.193 when querying for version.server/CH/TXT.
+ 20.742: nord-fron.kommune.no INFO Done testing name server ns1.acos.no.
+ 20.743: nord-fron.kommune.no INFO Begin testing name server ns2.acos.no.
+ 20.743: nord-fron.kommune.no INFO Begin testing host ns2.acos.no.
+ 20.895: nord-fron.kommune.no INFO Begin testing address 85.200.17.39.
+ 21.932: nord-fron.kommune.no INFO Done testing address 85.200.17.39.
+ 21.937: nord-fron.kommune.no INFO Done testing host ns2.acos.no.
+ 22.087: nord-fron.kommune.no INFO Name server ns2.acos.no (85.200.17.39) answers queries over UDP.
+ 22.155: nord-fron.kommune.no INFO Name server ns2.acos.no (85.200.17.39) answers queries over TCP.
+ 22.194: nord-fron.kommune.no INFO Name server ns2.acos.no (85.200.17.39) is not recursive.
+ 22.361: nord-fron.kommune.no INFO Name server ns2.acos.no (85.200.17.39) authoritative for nord-fron.kommune.no.
+ 22.669: nord-fron.kommune.no INFO Name server ns2.acos.no (85.200.17.39) closed for zone transfer of nord-fron.kommune.no.
+ 38.821: nord-fron.kommune.no INFO Done testing name server ns2.acos.no.
+ 38.821: nord-fron.kommune.no INFO Begin testing zone consistency for nord-fron.kommune.no.
+ 39.267: nord-fron.kommune.no INFO SOA at address 85.200.17.39 has serial 2010061807.
+ 39.293: nord-fron.kommune.no INFO SOA at address 82.134.18.193 has serial 2010061807.
+ 39.293: nord-fron.kommune.no INFO All SOA records have consistent serial numbers.
+ 39.293: nord-fron.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 39.582: nord-fron.kommune.no NOTICE The listed nameservers for nord-fron.kommune.no all report the same set of nameservers.
+ 39.582: nord-fron.kommune.no INFO Done testing zone consistency for nord-fron.kommune.no.
+ 39.588: nord-fron.kommune.no INFO Begin testing SOA parameters for nord-fron.kommune.no.
+ 39.622: nord-fron.kommune.no INFO Found SOA record for nord-fron.kommune.no.
+ 39.625: nord-fron.kommune.no INFO Begin testing host ns1.acos.no.
+ 39.727: nord-fron.kommune.no INFO Begin testing address 82.134.18.193.
+ 39.923: nord-fron.kommune.no INFO Done testing address 82.134.18.193.
+ 39.923: nord-fron.kommune.no INFO Done testing host ns1.acos.no.
+ 39.923: nord-fron.kommune.no INFO SOA MNAME for nord-fron.kommune.no valid (ns1.acos.no).
+ 39.924: nord-fron.kommune.no INFO SOA MNAME for nord-fron.kommune.no (ns1.acos.no) listed as NS.
+ 40.047: nord-fron.kommune.no INFO SOA MNAME for nord-fron.kommune.no (ns1.acos.no) is authoritative.
+ 40.047: nord-fron.kommune.no INFO Begin testing email address hostmaster@acos.no.
+ 40.148: nord-fron.kommune.no INFO Mail exchangers for hostmaster@acos.no found tux.acos.no.
+ 40.148: nord-fron.kommune.no INFO Begin testing host tux.acos.no.
+ 40.507: nord-fron.kommune.no INFO Begin testing address 82.134.18.193.
+ 40.600: nord-fron.kommune.no INFO Done testing address 82.134.18.193.
+ 40.600: nord-fron.kommune.no INFO Done testing host tux.acos.no.
+ 40.712: nord-fron.kommune.no INFO Done testing email address hostmaster@acos.no.
+ 40.712: nord-fron.kommune.no INFO Successful attempt to deliver email for SOA RNAME of nord-fron.kommune.no (hostmaster.acos.no) using hostmaster@acos.no.
+ 40.713: nord-fron.kommune.no INFO SOA TTL for nord-fron.kommune.no OK (172800) - recommended >= 3600.
+ 40.713: nord-fron.kommune.no INFO SOA refresh for nord-fron.kommune.no OK (86400) - recommended >= 14400.
+ 40.713: nord-fron.kommune.no INFO SOA retry for nord-fron.kommune.no OK (7200) - recommended >= 3600.
+ 40.713: nord-fron.kommune.no INFO SOA expire for nord-fron.kommune.no OK (3600000) - recommended >= 604800.
+ 40.713: nord-fron.kommune.no NOTICE SOA minimum for nord-fron.kommune.no too large (172800) - recommended <= 86400.
+ 40.713: nord-fron.kommune.no INFO Done testing SOA parameters for nord-fron.kommune.no.
+ 40.713: nord-fron.kommune.no INFO Begin testing connectivity for nord-fron.kommune.no.
+ 41.594: nord-fron.kommune.no NOTICE Zone announced by fewer than two IPv4 ASN.
+ 41.594: nord-fron.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 41.594: nord-fron.kommune.no INFO Done testing connectivity for nord-fron.kommune.no.
+ 41.594: nord-fron.kommune.no INFO Begin testing DNSSEC for nord-fron.kommune.no.
+ 41.671: nord-fron.kommune.no INFO Did not find DS record for nord-fron.kommune.no at parent.
+ 41.787: nord-fron.kommune.no INFO Servers for nord-fron.kommune.no have consistent extra processing status.
+ 41.855: nord-fron.kommune.no INFO Authenticated denial records not found for nord-fron.kommune.no.
+ 41.889: nord-fron.kommune.no INFO Did not find DNSKEY record for nord-fron.kommune.no at child.
+ 41.889: nord-fron.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 41.890: nord-fron.kommune.no INFO Done testing DNSSEC for nord-fron.kommune.no.
+ 41.890: nord-fron.kommune.no INFO Test completed for zone nord-fron.kommune.no.

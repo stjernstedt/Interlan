@@ -1,0 +1,81 @@
+  0.000: halsa.kommune.no INFO Begin testing zone halsa.kommune.no with version 1.6.1.
+  0.487: halsa.kommune.no INFO Begin testing delegation for halsa.kommune.no.
+  8.626: halsa.kommune.no INFO Name servers listed at parent: ns1.sucom.no,ns2.sucom.no
+  9.938: halsa.kommune.no INFO Name servers listed at child: ns1.sucom.no,ns2.sucom.no
+  9.938: halsa.kommune.no NOTICE No IPv6 name servers found.
+ 10.096: halsa.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.255: halsa.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.385: halsa.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.512: halsa.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.316: halsa.kommune.no INFO It is possible to build a referral packet for halsa.kommune.no that works without EDNS0.
+ 11.893: halsa.kommune.no INFO Previously used name servers for halsa.kommune.no: 
+ 11.894: halsa.kommune.no INFO Done testing delegation for halsa.kommune.no.
+ 11.894: halsa.kommune.no INFO Begin testing name server ns1.sucom.no.
+ 11.894: halsa.kommune.no INFO Begin testing host ns1.sucom.no.
+ 12.141: halsa.kommune.no INFO Begin testing address 88.84.62.181.
+ 24.002: halsa.kommune.no WARNING Could not find reverse address for 88.84.62.181 (181.62.84.88.in-addr.arpa.).
+ 24.002: halsa.kommune.no INFO Done testing address 88.84.62.181.
+ 24.002: halsa.kommune.no INFO Done testing host ns1.sucom.no.
+ 24.213: halsa.kommune.no INFO Name server ns1.sucom.no (88.84.62.181) answers queries over UDP.
+ 24.285: halsa.kommune.no INFO Name server ns1.sucom.no (88.84.62.181) answers queries over TCP.
+ 24.326: halsa.kommune.no INFO Name server ns1.sucom.no (88.84.62.181) is not recursive.
+ 24.454: halsa.kommune.no INFO Name server ns1.sucom.no (88.84.62.181) authoritative for halsa.kommune.no.
+ 24.690: halsa.kommune.no NOTICE Name server ns1.sucom.no (88.84.62.181) open for zone transfer of halsa.kommune.no.
+ 24.715: halsa.kommune.no NOTICE No answer received from 88.84.62.181 when querying for hostname.bind/CH/TXT.
+ 36.785: halsa.kommune.no INFO Done testing name server ns1.sucom.no.
+ 36.786: halsa.kommune.no INFO Begin testing name server ns2.sucom.no.
+ 36.786: halsa.kommune.no INFO Begin testing host ns2.sucom.no.
+ 37.122: halsa.kommune.no INFO Begin testing address 88.84.62.236.
+ 38.093: halsa.kommune.no INFO Done testing address 88.84.62.236.
+ 38.093: halsa.kommune.no INFO Done testing host ns2.sucom.no.
+ 38.414: halsa.kommune.no INFO Name server ns2.sucom.no (88.84.62.236) answers queries over UDP.
+ 38.464: halsa.kommune.no INFO Name server ns2.sucom.no (88.84.62.236) answers queries over TCP.
+ 38.537: halsa.kommune.no INFO Name server ns2.sucom.no (88.84.62.236) is not recursive.
+ 38.848: halsa.kommune.no INFO Name server ns2.sucom.no (88.84.62.236) authoritative for halsa.kommune.no.
+ 39.175: halsa.kommune.no INFO Name server ns2.sucom.no (88.84.62.236) closed for zone transfer of halsa.kommune.no.
+ 39.200: halsa.kommune.no NOTICE No answer received from 88.84.62.236 when querying for hostname.bind/CH/TXT.
+ 51.385: halsa.kommune.no INFO Done testing name server ns2.sucom.no.
+ 51.386: halsa.kommune.no INFO Begin testing zone consistency for halsa.kommune.no.
+ 51.932: halsa.kommune.no INFO SOA at address 88.84.62.236 has serial 2014013100.
+ 51.957: halsa.kommune.no INFO SOA at address 88.84.62.181 has serial 2014013104.
+ 51.957: halsa.kommune.no WARNING 2 different serials found.
+ 51.958: halsa.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 52.251: halsa.kommune.no NOTICE The listed nameservers for halsa.kommune.no all report the same set of nameservers.
+ 52.251: halsa.kommune.no INFO Done testing zone consistency for halsa.kommune.no.
+ 52.251: halsa.kommune.no INFO Begin testing SOA parameters for halsa.kommune.no.
+ 52.281: halsa.kommune.no INFO Found SOA record for halsa.kommune.no.
+ 52.288: halsa.kommune.no INFO Begin testing host ns1.sucom.no.
+ 52.418: halsa.kommune.no INFO Begin testing address 88.84.62.181.
+ 52.419: halsa.kommune.no WARNING Could not find reverse address for 88.84.62.181 (181.62.84.88.in-addr.arpa.).
+ 52.419: halsa.kommune.no INFO Done testing address 88.84.62.181.
+ 52.419: halsa.kommune.no INFO Done testing host ns1.sucom.no.
+ 52.419: halsa.kommune.no INFO SOA MNAME for halsa.kommune.no valid (ns1.sucom.no).
+ 52.419: halsa.kommune.no INFO SOA MNAME for halsa.kommune.no (ns1.sucom.no) listed as NS.
+ 52.554: halsa.kommune.no INFO SOA MNAME for halsa.kommune.no (ns1.sucom.no) is authoritative.
+ 52.554: halsa.kommune.no INFO Begin testing email address hostmaster@sucom.no.
+ 52.769: halsa.kommune.no INFO Mail exchangers for hostmaster@sucom.no found sds-mc1.itpm.no.
+ 52.769: halsa.kommune.no INFO Begin testing host sds-mc1.itpm.no.
+ 53.522: halsa.kommune.no INFO Begin testing address 88.84.62.200.
+ 54.027: halsa.kommune.no INFO Done testing address 88.84.62.200.
+ 54.027: halsa.kommune.no INFO Done testing host sds-mc1.itpm.no.
+ 54.160: halsa.kommune.no INFO Done testing email address hostmaster@sucom.no.
+ 54.160: halsa.kommune.no INFO Successful attempt to deliver email for SOA RNAME of halsa.kommune.no (hostmaster.sucom.no) using hostmaster@sucom.no.
+ 54.160: halsa.kommune.no INFO SOA TTL for halsa.kommune.no OK (3600) - recommended >= 3600.
+ 54.160: halsa.kommune.no NOTICE SOA refresh for halsa.kommune.no too small (900) - recommended >= 14400.
+ 54.160: halsa.kommune.no NOTICE SOA retry for halsa.kommune.no too small (600) - recommended >= 3600.
+ 54.165: halsa.kommune.no NOTICE SOA expire for halsa.kommune.no too small (86400) - recommended >= 604800.
+ 54.165: halsa.kommune.no INFO SOA minimum for halsa.kommune.no OK (3600) - recommended between 300 and 86400.
+ 54.165: halsa.kommune.no INFO Done testing SOA parameters for halsa.kommune.no.
+ 54.166: halsa.kommune.no INFO Begin testing connectivity for halsa.kommune.no.
+ 55.179: halsa.kommune.no NOTICE Zone announced by fewer than two IPv4 ASN.
+ 55.180: halsa.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 55.187: halsa.kommune.no INFO Done testing connectivity for halsa.kommune.no.
+ 55.187: halsa.kommune.no INFO Begin testing DNSSEC for halsa.kommune.no.
+ 55.264: halsa.kommune.no INFO Did not find DS record for halsa.kommune.no at parent.
+ 55.366: halsa.kommune.no ERROR EDNS not supported by 88.84.62.181.
+ 55.366: halsa.kommune.no INFO Servers for halsa.kommune.no have consistent extra processing status.
+ 55.421: halsa.kommune.no INFO Authenticated denial records not found for halsa.kommune.no.
+ 55.446: halsa.kommune.no INFO Did not find DNSKEY record for halsa.kommune.no at child.
+ 55.446: halsa.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 55.446: halsa.kommune.no INFO Done testing DNSSEC for halsa.kommune.no.
+ 55.447: halsa.kommune.no INFO Test completed for zone halsa.kommune.no.

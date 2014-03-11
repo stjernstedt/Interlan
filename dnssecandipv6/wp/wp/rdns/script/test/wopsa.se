@@ -1,0 +1,90 @@
+  0.000: wopsa.se INFO Begin testing zone wopsa.se with version 1.0.1.
+  0.001: wopsa.se INFO Begin testing delegation for wopsa.se.
+  1.231: wopsa.se INFO Name servers listed at parent: ns1.wopsa20.com,ns1.wopsa30.com
+  1.625: wopsa.se INFO Name servers listed at child: ns1-wopsa.cygrids.net,ns2-wopsa.cygrids.net
+  1.625: wopsa.se ERROR Superfluous name server listed at parent: ns1.wopsa20.com
+  1.625: wopsa.se ERROR Superfluous name server listed at parent: ns1.wopsa30.com
+  1.625: wopsa.se ERROR Total parent/child glue mismatch.
+  1.625: wopsa.se NOTICE Additional name server listed at child: ns1-wopsa.cygrids.net
+  1.625: wopsa.se NOTICE Additional name server listed at child: ns2-wopsa.cygrids.net
+  1.625: wopsa.se NOTICE No IPv6 name servers found.
+  1.785: wopsa.se INFO Done testing delegation for wopsa.se.
+  1.786: wopsa.se INFO Begin testing name server ns1-wopsa.cygrids.net.
+  1.786: wopsa.se INFO Begin testing host ns1-wopsa.cygrids.net.
+  1.786: wopsa.se INFO Begin testing address 85.118.206.121.
+  5.474: wopsa.se INFO Done testing address 85.118.206.121.
+  5.475: wopsa.se INFO Done testing host ns1-wopsa.cygrids.net.
+  5.498: wopsa.se INFO Name server ns1-wopsa.cygrids.net (85.118.206.121) is not recursive.
+  5.515: wopsa.se INFO Name server ns1-wopsa.cygrids.net (85.118.206.121) authoritative for wopsa.se.
+  5.534: wopsa.se INFO Name server ns1-wopsa.cygrids.net (85.118.206.121) answers queries over UDP.
+  5.568: wopsa.se INFO Name server ns1-wopsa.cygrids.net (85.118.206.121) answers queries over TCP.
+  5.616: wopsa.se INFO Name server ns1-wopsa.cygrids.net (85.118.206.121) closed for zone transfer of wopsa.se.
+  5.637: wopsa.se INFO Legacy name server ID for ns1-wopsa.cygrids.net (85.118.206.121): hostname.bind = ns1-wopsa.cygrids.net
+  5.659: wopsa.se INFO Legacy name server ID for ns1-wopsa.cygrids.net (85.118.206.121): version.bind = 9.3.6-P1-RedHat-9.3.6-4.P1.el5_4.2
+  5.701: wopsa.se NOTICE No answer received from 85.118.206.121 when querying for version.server/CH/TXT.
+  5.701: wopsa.se INFO Done testing name server ns1-wopsa.cygrids.net.
+  5.701: wopsa.se INFO Begin testing name server ns2-wopsa.cygrids.net.
+  5.701: wopsa.se INFO Begin testing host ns2-wopsa.cygrids.net.
+  5.702: wopsa.se INFO Begin testing address 85.118.206.122.
+  5.729: wopsa.se INFO Done testing address 85.118.206.122.
+  5.729: wopsa.se INFO Done testing host ns2-wopsa.cygrids.net.
+  5.749: wopsa.se INFO Name server ns2-wopsa.cygrids.net (85.118.206.122) is not recursive.
+  5.768: wopsa.se INFO Name server ns2-wopsa.cygrids.net (85.118.206.122) authoritative for wopsa.se.
+  5.786: wopsa.se INFO Name server ns2-wopsa.cygrids.net (85.118.206.122) answers queries over UDP.
+  5.821: wopsa.se INFO Name server ns2-wopsa.cygrids.net (85.118.206.122) answers queries over TCP.
+  5.878: wopsa.se INFO Name server ns2-wopsa.cygrids.net (85.118.206.122) closed for zone transfer of wopsa.se.
+  5.926: wopsa.se INFO Legacy name server ID for ns2-wopsa.cygrids.net (85.118.206.122): hostname.bind = ns2-wopsa.cygrids.net
+  5.944: wopsa.se INFO Legacy name server ID for ns2-wopsa.cygrids.net (85.118.206.122): version.bind = 9.3.6-P1-RedHat-9.3.6-4.P1.el5_4.2
+  6.006: wopsa.se NOTICE No answer received from 85.118.206.122 when querying for version.server/CH/TXT.
+  6.006: wopsa.se INFO Done testing name server ns2-wopsa.cygrids.net.
+  6.006: wopsa.se INFO Begin testing zone consistency for wopsa.se.
+  6.110: wopsa.se INFO SOA at address 85.118.206.121 has serial 2009092519.
+  6.128: wopsa.se INFO SOA at address 85.118.206.122 has serial 2009092519.
+  6.128: wopsa.se INFO All SOA records have consistent serial numbers.
+  6.128: wopsa.se INFO All SOA records are consistent among all name servers.
+  6.128: wopsa.se INFO Done testing zone consistency for wopsa.se.
+  6.128: wopsa.se INFO Begin testing SOA parameters for wopsa.se.
+  6.146: wopsa.se INFO Found SOA record for wopsa.se.
+  6.147: wopsa.se INFO Begin testing host ns1-wopsa.cygrids.net.
+  6.147: wopsa.se INFO Begin testing address 85.118.206.121.
+  6.148: wopsa.se INFO Done testing address 85.118.206.121.
+  6.148: wopsa.se INFO Done testing host ns1-wopsa.cygrids.net.
+  6.148: wopsa.se INFO SOA MNAME for wopsa.se valid (ns1-wopsa.cygrids.net).
+  6.149: wopsa.se INFO SOA MNAME for wopsa.se (ns1-wopsa.cygrids.net) listed as NS.
+  6.167: wopsa.se INFO SOA MNAME for wopsa.se (ns1-wopsa.cygrids.net) is authoritative.
+  6.167: wopsa.se INFO Begin testing email address cpanel@wopsa.se.
+  6.186: wopsa.se INFO Mail exchangers for cpanel@wopsa.se found wopsa.se.
+  6.186: wopsa.se INFO All mail servers for cpanel@wopsa.se are in zone wopsa.se.
+  6.187: wopsa.se INFO Begin testing host wopsa.se.
+  6.219: wopsa.se INFO Begin testing address 85.118.206.125.
+  6.312: wopsa.se INFO Done testing address 85.118.206.125.
+  6.312: wopsa.se INFO Done testing host wopsa.se.
+  6.312: wopsa.se INFO Begin testing mail server wopsa.se (85.118.206.125) with cpanel@wopsa.se.
+  6.368: wopsa.se INFO SMTP banner: ********************************************************************************
+  6.612: wopsa.se WARNING Host did not accept cpanel@wopsa.se as SMTP recipient.
+  6.642: wopsa.se INFO Done testing mail server wopsa.se (85.118.206.125) with cpanel@wopsa.se.
+  6.642: wopsa.se WARNING Delivery over IPv4 to cpanel@wopsa.se could not be done.
+  6.642: wopsa.se INFO Delivery over IPv6 to cpanel@wopsa.se could not be done.
+  6.642: wopsa.se INFO Done testing email address cpanel@wopsa.se.
+  6.642: wopsa.se WARNING Failed to deliver email for SOA RNAME of wopsa.se (cpanel.wopsa.se) using cpanel@wopsa.se.
+  6.642: wopsa.se INFO SOA TTL for wopsa.se OK (86400) - recommended >= 3600.
+  6.642: wopsa.se INFO SOA refresh for wopsa.se OK (86400) - recommended >= 14400.
+  6.643: wopsa.se NOTICE SOA retry for wopsa.se too small (900) - recommended >= 3600.
+  6.643: wopsa.se INFO SOA expire for wopsa.se OK (3600000) - recommended >= 604800.
+  6.643: wopsa.se INFO SOA minimum for wopsa.se OK (86400) - recommended between 300 and 86400.
+  6.643: wopsa.se INFO Done testing SOA parameters for wopsa.se.
+  6.643: wopsa.se INFO Begin testing connectivity for wopsa.se.
+  6.991: wopsa.se INFO Name server 85.118.206.121 announced by: 34941
+  7.121: wopsa.se INFO Name server 85.118.206.122 announced by: 34941
+  7.121: wopsa.se INFO Zone announced by ASN: 34941
+  7.121: wopsa.se NOTICE Zone announced by only one ASN (1).
+  7.121: wopsa.se INFO Zone announced by IPv6 ASN: 
+  7.122: wopsa.se NOTICE Zone announced by only one IPv6 ASN (0).
+  7.122: wopsa.se INFO Done testing connectivity for wopsa.se.
+  7.122: wopsa.se INFO Begin testing DNSSEC for wopsa.se.
+  7.154: wopsa.se INFO Did not find DS record for wopsa.se at parent.
+  7.356: wopsa.se INFO Servers for wopsa.se have consistent extra processing status.
+  7.356: wopsa.se INFO Did not find DNSKEY record for wopsa.se at child.
+  7.356: wopsa.se INFO No DNSKEY(s) found at child, other tests skipped.
+  7.356: wopsa.se INFO Done testing DNSSEC for wopsa.se.
+  7.357: wopsa.se INFO Test completed for zone wopsa.se.

@@ -1,0 +1,135 @@
+  0.000: vargarda.se INFO Begin testing zone vargarda.se with version 1.6.1.
+  1.064: vargarda.se INFO Begin testing delegation for vargarda.se.
+ 19.393: vargarda.se INFO Name servers listed at parent: malmoe.dns.swip.net,ns.vargarda.se
+ 23.105: vargarda.se INFO Name servers listed at child: malmoe.dns.swip.net,ns.vargarda.se
+ 23.105: vargarda.se NOTICE Too few IPv6 name servers (1).
+ 23.376: vargarda.se INFO Parent glue for vargarda.se found: ns.vargarda.se (212.247.53.189)
+ 23.452: vargarda.se INFO Checking glue for ns.vargarda.se (212.247.53.189).
+ 23.672: vargarda.se INFO Child glue for vargarda.se found: ns.vargarda.se (212.247.53.189)
+ 23.673: vargarda.se INFO Parent glue for vargarda.se found: ns.vargarda.se (212.247.53.189)
+ 24.610: vargarda.se INFO It is possible to build a referral packet for vargarda.se that works without EDNS0.
+ 25.031: vargarda.se INFO Previously used name servers for vargarda.se: 
+ 25.031: vargarda.se INFO Done testing delegation for vargarda.se.
+ 25.061: vargarda.se INFO Begin testing name server malmoe.dns.swip.net.
+ 25.061: vargarda.se INFO Begin testing host malmoe.dns.swip.net.
+ 25.063: vargarda.se INFO Begin testing address 192.71.180.44.
+ 49.910: vargarda.se INFO Done testing address 192.71.180.44.
+ 49.910: vargarda.se INFO Begin testing address 2a00:801:103:d:0:0:0:beef.
+ 51.843: vargarda.se INFO Done testing address 2a00:801:103:d:0:0:0:beef.
+ 51.843: vargarda.se INFO Done testing host malmoe.dns.swip.net.
+ 51.917: vargarda.se INFO Name server malmoe.dns.swip.net (192.71.180.44) answers queries over UDP.
+ 52.020: vargarda.se INFO Name server malmoe.dns.swip.net (192.71.180.44) answers queries over TCP.
+ 52.084: vargarda.se INFO Name server malmoe.dns.swip.net (192.71.180.44) is not recursive.
+ 52.291: vargarda.se INFO Name server malmoe.dns.swip.net (192.71.180.44) authoritative for vargarda.se.
+ 52.375: vargarda.se INFO Name server malmoe.dns.swip.net (192.71.180.44) closed for zone transfer of vargarda.se.
+ 52.437: vargarda.se INFO Legacy name server ID for malmoe.dns.swip.net (192.71.180.44): hostname.bind = authns2
+ 52.496: vargarda.se INFO Legacy name server ID for malmoe.dns.swip.net (192.71.180.44): version.bind = PONG 0.2alpha
+ 52.566: vargarda.se NOTICE No answer received from 192.71.180.44 when querying for version.server/CH/TXT.
+ 52.659: vargarda.se INFO Name server malmoe.dns.swip.net (2a00:801:103:d:0:0:0:beef) answers queries over UDP.
+ 52.748: vargarda.se INFO Name server malmoe.dns.swip.net (2a00:801:103:d:0:0:0:beef) answers queries over TCP.
+ 52.812: vargarda.se INFO Name server malmoe.dns.swip.net (2a00:801:103:d:0:0:0:beef) is not recursive.
+ 53.078: vargarda.se INFO Name server malmoe.dns.swip.net (2a00:801:103:d:0:0:0:beef) authoritative for vargarda.se.
+ 53.133: vargarda.se INFO Name server malmoe.dns.swip.net (2a00:801:103:d:0:0:0:beef) closed for zone transfer of vargarda.se.
+ 53.168: vargarda.se INFO Legacy name server ID for malmoe.dns.swip.net (2a00:801:103:d:0:0:0:beef): hostname.bind = authns2
+ 53.219: vargarda.se INFO Legacy name server ID for malmoe.dns.swip.net (2a00:801:103:d:0:0:0:beef): version.bind = PONG 0.2alpha
+ 53.312: vargarda.se NOTICE No answer received from 2a00:801:103:d:0:0:0:beef when querying for version.server/CH/TXT.
+ 53.312: vargarda.se INFO Done testing name server malmoe.dns.swip.net.
+ 53.312: vargarda.se INFO Begin testing name server ns.vargarda.se.
+ 53.312: vargarda.se INFO Begin testing host ns.vargarda.se.
+ 53.630: vargarda.se INFO Begin testing address 212.247.53.189.
+ 55.184: vargarda.se INFO Done testing address 212.247.53.189.
+ 55.184: vargarda.se INFO Done testing host ns.vargarda.se.
+ 55.565: vargarda.se INFO Name server ns.vargarda.se (212.247.53.189) answers queries over UDP.
+ 55.624: vargarda.se INFO Name server ns.vargarda.se (212.247.53.189) answers queries over TCP.
+ 55.671: vargarda.se INFO Name server ns.vargarda.se (212.247.53.189) is not recursive.
+ 55.851: vargarda.se INFO Name server ns.vargarda.se (212.247.53.189) authoritative for vargarda.se.
+ 55.893: vargarda.se INFO Name server ns.vargarda.se (212.247.53.189) closed for zone transfer of vargarda.se.
+ 55.992: vargarda.se INFO Legacy name server ID for ns.vargarda.se (212.247.53.189): hostname.bind = NS1
+ 56.024: vargarda.se INFO Legacy name server ID for ns.vargarda.se (212.247.53.189): version.bind = 9.8.1-P1
+ 56.128: vargarda.se NOTICE No answer received from 212.247.53.189 when querying for version.server/CH/TXT.
+ 56.128: vargarda.se INFO Done testing name server ns.vargarda.se.
+ 56.128: vargarda.se INFO Begin testing zone consistency for vargarda.se.
+ 56.856: vargarda.se INFO SOA at address 192.71.180.44 has serial 2014030601.
+ 56.934: vargarda.se INFO SOA at address 212.247.53.189 has serial 2014030601.
+ 56.995: vargarda.se INFO SOA at address 2a00:801:103:d:0:0:0:beef has serial 2014030601.
+ 56.995: vargarda.se INFO All SOA records have consistent serial numbers.
+ 56.995: vargarda.se INFO All other fields in the SOA record are consistent among all name servers.
+ 58.210: vargarda.se NOTICE The listed nameservers for vargarda.se all report the same set of nameservers.
+ 58.210: vargarda.se INFO Done testing zone consistency for vargarda.se.
+ 58.211: vargarda.se INFO Begin testing SOA parameters for vargarda.se.
+ 58.262: vargarda.se INFO Found SOA record for vargarda.se.
+ 58.262: vargarda.se INFO Begin testing host ns.vargarda.se.
+ 58.900: vargarda.se INFO Begin testing address 212.247.53.189.
+ 59.209: vargarda.se INFO Done testing address 212.247.53.189.
+ 59.209: vargarda.se INFO Done testing host ns.vargarda.se.
+ 59.209: vargarda.se INFO SOA MNAME for vargarda.se valid (ns.vargarda.se).
+ 59.210: vargarda.se INFO SOA MNAME for vargarda.se (ns.vargarda.se) listed as NS.
+ 60.192: vargarda.se INFO SOA MNAME for vargarda.se (ns.vargarda.se) is authoritative.
+ 60.192: vargarda.se INFO Begin testing email address root@vargarda.se.
+ 60.670: vargarda.se INFO Mail exchangers for root@vargarda.se found mxtreme.vargarda.se,mxtreme1.vargarda.se.
+ 60.670: vargarda.se INFO All mail servers for root@vargarda.se are in zone vargarda.se.
+ 60.670: vargarda.se INFO Begin testing host mxtreme.vargarda.se.
+ 61.360: vargarda.se INFO Begin testing address 212.247.53.177.
+ 63.088: vargarda.se INFO Done testing address 212.247.53.177.
+ 63.088: vargarda.se INFO Done testing host mxtreme.vargarda.se.
+ 63.306: vargarda.se INFO Begin testing host mxtreme1.vargarda.se.
+ 64.468: vargarda.se INFO Begin testing address 212.247.53.181.
+ 65.207: vargarda.se WARNING Could not find reverse address for 212.247.53.181 (181.53.247.212.in-addr.arpa.).
+ 65.207: vargarda.se INFO Done testing address 212.247.53.181.
+ 65.207: vargarda.se INFO Done testing host mxtreme1.vargarda.se.
+ 65.639: vargarda.se INFO Done testing email address root@vargarda.se.
+ 65.639: vargarda.se INFO Successful attempt to deliver email for SOA RNAME of vargarda.se (root.vargarda.se) using root@vargarda.se.
+ 65.644: vargarda.se INFO SOA TTL for vargarda.se OK (3600) - recommended >= 3600.
+ 65.644: vargarda.se NOTICE SOA refresh for vargarda.se too small (10800) - recommended >= 14400.
+ 65.644: vargarda.se INFO SOA retry for vargarda.se OK (3600) - recommended >= 3600.
+ 65.644: vargarda.se INFO SOA expire for vargarda.se OK (4320000) - recommended >= 604800.
+ 65.644: vargarda.se INFO SOA minimum for vargarda.se OK (3600) - recommended between 300 and 86400.
+ 65.644: vargarda.se INFO Done testing SOA parameters for vargarda.se.
+ 65.644: vargarda.se INFO Begin testing connectivity for vargarda.se.
+ 66.850: vargarda.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 67.965: vargarda.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 67.965: vargarda.se INFO Done testing connectivity for vargarda.se.
+ 67.965: vargarda.se INFO Begin testing DNSSEC for vargarda.se.
+ 68.102: vargarda.se INFO Found DS record for vargarda.se at parent.
+ 68.136: vargarda.se INFO Nameserver 192.71.180.44 does DNSSEC extra processing.
+ 68.177: vargarda.se INFO Nameserver 212.247.53.189 does DNSSEC extra processing.
+ 68.241: vargarda.se INFO Nameserver 2a00:801:103:d:0:0:0:beef does DNSSEC extra processing.
+ 68.241: vargarda.se INFO Servers for vargarda.se have consistent extra processing status.
+ 68.281: vargarda.se INFO Authenticated denial records found for vargarda.se, of type NSEC3.
+ 68.312: vargarda.se INFO NSEC3PARAM record found for vargarda.se.
+ 68.312: vargarda.se INFO NSEC3 for vargarda.se is set to use 5 iterations, which is less than 100 and thus OK.
+ 68.312: vargarda.se INFO Found DNSKEY record for vargarda.se at child.
+ 68.312: vargarda.se INFO Consistent security for vargarda.se.
+ 68.312: vargarda.se INFO Checking DNSSEC at child (vargarda.se).
+ 68.313: vargarda.se INFO vargarda.se's key with tag 53708 uses algorithm number 8 (RSA/SHA-256).
+ 68.313: vargarda.se INFO Algorithm number 8 is OK.
+ 68.333: vargarda.se INFO vargarda.se's key with tag 43806 uses algorithm number 8 (RSA/SHA-256).
+ 68.333: vargarda.se INFO Algorithm number 8 is OK.
+ 68.333: vargarda.se INFO DNSKEY vargarda.se (tag 43806) is marked as a secure entry point (SEP).
+ 68.334: vargarda.se INFO DNSSEC signature expires at: Wed May  7 09:22:01 2014
+ 68.334: vargarda.se INFO Duration for RRSIG(vargarda.se/IN/DNSKEY/43806) is OK (5184000 seconds).
+ 68.372: vargarda.se INFO DNSSEC signature RRSIG(vargarda.se/IN/DNSKEY/43806) matches records.
+ 68.372: vargarda.se INFO DNSSEC signature valid: RRSIG(vargarda.se/IN/DNSKEY/43806)
+ 68.373: vargarda.se INFO DNSSEC signature expires at: Wed May  7 09:22:01 2014
+ 68.373: vargarda.se INFO Duration for RRSIG(vargarda.se/IN/DNSKEY/53708) is OK (5184000 seconds).
+ 68.374: vargarda.se INFO DNSSEC signature RRSIG(vargarda.se/IN/DNSKEY/53708) matches records.
+ 68.374: vargarda.se INFO DNSSEC signature valid: RRSIG(vargarda.se/IN/DNSKEY/53708)
+ 68.374: vargarda.se INFO Enough valid signatures found for vargarda.se.
+ 68.459: vargarda.se INFO DNSSEC signature expires at: Wed May  7 09:22:01 2014
+ 68.459: vargarda.se INFO Duration for RRSIG(vargarda.se/IN/SOA/53708) is OK (5184000 seconds).
+ 68.482: vargarda.se INFO DNSSEC signature RRSIG(vargarda.se/IN/SOA/53708) matches records.
+ 68.482: vargarda.se INFO DNSSEC signature valid: RRSIG(vargarda.se/IN/SOA/53708)
+ 68.482: vargarda.se INFO Enough valid signatures over SOA RRset found for vargarda.se.
+ 68.482: vargarda.se INFO DNSSEC child checks for vargarda.se complete.
+ 68.482: vargarda.se INFO Checking DNSSEC at parent of vargarda.se.
+ 68.482: vargarda.se INFO vargarda.se's key with tag 43806 uses algorithm number 8 (RSA/SHA-256).
+ 68.482: vargarda.se INFO Algorithm number 8 is OK.
+ 68.483: vargarda.se INFO Parent DS(vargarda.se/8/1/43806) refers to valid key at child: DNSKEY(vargarda.se/8/43806)
+ 68.483: vargarda.se INFO Parent DS(vargarda.se) refers to secure entry point (SEP) at child: DS(vargarda.se/8/1/43806)
+ 68.483: vargarda.se INFO vargarda.se's key with tag 43806 uses algorithm number 8 (RSA/SHA-256).
+ 68.483: vargarda.se INFO Algorithm number 8 is OK.
+ 68.512: vargarda.se INFO Parent DS(vargarda.se/8/2/43806) refers to valid key at child: DNSKEY(vargarda.se/8/43806)
+ 68.512: vargarda.se INFO Parent DS(vargarda.se) refers to secure entry point (SEP) at child: DS(vargarda.se/8/2/43806)
+ 68.512: vargarda.se INFO DNSSEC parent checks for vargarda.se complete.
+ 68.512: vargarda.se INFO Done testing DNSSEC for vargarda.se.
+ 68.512: vargarda.se INFO Test completed for zone vargarda.se.

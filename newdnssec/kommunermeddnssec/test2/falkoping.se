@@ -1,0 +1,93 @@
+  0.000: falkoping.se INFO Begin testing zone falkoping.se with version 1.2.
+  0.000: falkoping.se INFO Begin testing delegation for falkoping.se.
+  5.658: falkoping.se INFO Name servers listed at parent: dns5.telia.com,ns1.falkoping.se
+  7.024: falkoping.se INFO Name servers listed at child: dns5.telia.com,ns1.falkoping.se
+  7.025: falkoping.se NOTICE No IPv6 name servers found.
+  7.122: falkoping.se INFO Parent glue for falkoping.se found: ns1.falkoping.se (194.17.6.14)
+  7.160: falkoping.se INFO Checking glue for ns1.falkoping.se (194.17.6.14).
+  7.168: falkoping.se INFO Child glue for falkoping.se found: ns1.falkoping.se (194.17.6.14)
+  7.168: falkoping.se INFO Parent glue for falkoping.se found: ns1.falkoping.se (194.17.6.14)
+  7.169: falkoping.se INFO Done testing delegation for falkoping.se.
+  7.169: falkoping.se INFO Begin testing name server dns5.telia.com.
+  7.169: falkoping.se INFO Begin testing host dns5.telia.com.
+  7.170: falkoping.se INFO Begin testing address 81.228.11.68.
+ 11.145: falkoping.se INFO Done testing address 81.228.11.68.
+ 11.145: falkoping.se INFO Done testing host dns5.telia.com.
+ 11.154: falkoping.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over UDP.
+ 11.166: falkoping.se INFO Name server dns5.telia.com (81.228.11.68) answers queries over TCP.
+ 11.174: falkoping.se INFO Name server dns5.telia.com (81.228.11.68) is not recursive.
+ 11.183: falkoping.se INFO Name server dns5.telia.com (81.228.11.68) authoritative for falkoping.se.
+ 11.198: falkoping.se INFO Name server dns5.telia.com (81.228.11.68) closed for zone transfer of falkoping.se.
+ 11.210: falkoping.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): hostname.bind = dnshosting1-sn1.fre.skanova.net
+ 11.218: falkoping.se INFO Legacy name server ID for dns5.telia.com (81.228.11.68): version.bind = 9.6.2-P1-RedHat-9.6.2-3.P1
+ 11.233: falkoping.se NOTICE No answer received from 81.228.11.68 when querying for version.server/CH/TXT.
+ 11.233: falkoping.se INFO Done testing name server dns5.telia.com.
+ 11.233: falkoping.se INFO Begin testing name server ns1.falkoping.se.
+ 11.234: falkoping.se INFO Begin testing host ns1.falkoping.se.
+ 11.234: falkoping.se INFO Begin testing address 194.17.6.14.
+ 11.767: falkoping.se INFO Done testing address 194.17.6.14.
+ 11.767: falkoping.se INFO Done testing host ns1.falkoping.se.
+ 11.784: falkoping.se INFO Name server ns1.falkoping.se (194.17.6.14) answers queries over UDP.
+ 11.814: falkoping.se INFO Name server ns1.falkoping.se (194.17.6.14) answers queries over TCP.
+ 11.834: falkoping.se INFO Name server ns1.falkoping.se (194.17.6.14) is not recursive.
+ 11.851: falkoping.se INFO Name server ns1.falkoping.se (194.17.6.14) authoritative for falkoping.se.
+ 11.900: falkoping.se NOTICE Name server ns1.falkoping.se (194.17.6.14) open for zone transfer of falkoping.se.
+ 11.916: falkoping.se NOTICE No answer received from 194.17.6.14 when querying for hostname.bind/CH/TXT.
+ 11.932: falkoping.se INFO Legacy name server ID for ns1.falkoping.se (194.17.6.14): version.bind = 9.2.3
+ 11.947: falkoping.se NOTICE No answer received from 194.17.6.14 when querying for id.server/CH/TXT.
+ 11.963: falkoping.se NOTICE No answer received from 194.17.6.14 when querying for version.server/CH/TXT.
+ 11.963: falkoping.se INFO Done testing name server ns1.falkoping.se.
+ 11.963: falkoping.se INFO Begin testing zone consistency for falkoping.se.
+ 11.976: falkoping.se INFO SOA at address 81.228.11.68 has serial 2010111200.
+ 11.992: falkoping.se INFO SOA at address 194.17.6.14 has serial 2010111200.
+ 11.993: falkoping.se INFO All SOA records have consistent serial numbers.
+ 11.993: falkoping.se INFO All SOA records are consistent among all name servers.
+ 11.993: falkoping.se INFO Done testing zone consistency for falkoping.se.
+ 11.993: falkoping.se INFO Begin testing SOA parameters for falkoping.se.
+ 12.004: falkoping.se INFO Found SOA record for falkoping.se.
+ 12.004: falkoping.se INFO Begin testing host ns1.falkoping.se.
+ 12.004: falkoping.se INFO Begin testing address 194.17.6.14.
+ 12.006: falkoping.se INFO Done testing address 194.17.6.14.
+ 12.006: falkoping.se INFO Done testing host ns1.falkoping.se.
+ 12.006: falkoping.se INFO SOA MNAME for falkoping.se valid (ns1.falkoping.se).
+ 12.006: falkoping.se INFO SOA MNAME for falkoping.se (ns1.falkoping.se) listed as NS.
+ 12.023: falkoping.se INFO SOA MNAME for falkoping.se (ns1.falkoping.se) is authoritative.
+ 12.023: falkoping.se INFO Begin testing email address hostmaster@falkoping.se.
+ 12.256: falkoping.se INFO Mail exchangers for hostmaster@falkoping.se found smtp-in.sto-hy.se.stejtech.net,smtp-in.sto-ste.se.stejtech.net.
+ 12.256: falkoping.se INFO Begin testing host smtp-in.sto-hy.se.stejtech.net.
+ 12.801: falkoping.se INFO Begin testing address 83.140.31.145.
+ 14.454: falkoping.se INFO Done testing address 83.140.31.145.
+ 14.454: falkoping.se INFO Done testing host smtp-in.sto-hy.se.stejtech.net.
+ 14.455: falkoping.se INFO Begin testing mail server smtp-in.sto-hy.se.stejtech.net (83.140.31.145) with hostmaster@falkoping.se.
+ 14.473: falkoping.se INFO SMTP banner: smtp1.stejtech.net ESMTP Stej PowerFilter
+ 14.738: falkoping.se INFO SMTP testing of smtp-in.sto-hy.se.stejtech.net (83.140.31.145) with hostmaster@falkoping.se succeeded without errors.
+ 14.738: falkoping.se INFO Done testing mail server smtp-in.sto-hy.se.stejtech.net (83.140.31.145) with hostmaster@falkoping.se.
+ 14.738: falkoping.se INFO Begin testing host smtp-in.sto-ste.se.stejtech.net.
+ 15.244: falkoping.se INFO Begin testing address 80.248.224.70.
+ 16.231: falkoping.se INFO Done testing address 80.248.224.70.
+ 16.231: falkoping.se INFO Done testing host smtp-in.sto-ste.se.stejtech.net.
+ 16.232: falkoping.se INFO Delivery over IPv4 to hostmaster@falkoping.se ok.
+ 16.232: falkoping.se INFO Delivery over IPv6 to hostmaster@falkoping.se could not be done.
+ 16.232: falkoping.se INFO Done testing email address hostmaster@falkoping.se.
+ 16.232: falkoping.se INFO Successful attempt to deliver email for SOA RNAME of falkoping.se (hostmaster.falkoping.se) using hostmaster@falkoping.se.
+ 16.232: falkoping.se INFO SOA TTL for falkoping.se OK (7600) - recommended >= 3600.
+ 16.232: falkoping.se NOTICE SOA refresh for falkoping.se too small (10800) - recommended >= 14400.
+ 16.232: falkoping.se INFO SOA retry for falkoping.se OK (3600) - recommended >= 3600.
+ 16.232: falkoping.se INFO SOA expire for falkoping.se OK (604800) - recommended >= 604800.
+ 16.232: falkoping.se INFO SOA minimum for falkoping.se OK (86400) - recommended between 300 and 86400.
+ 16.233: falkoping.se INFO Done testing SOA parameters for falkoping.se.
+ 16.233: falkoping.se INFO Begin testing connectivity for falkoping.se.
+ 16.905: falkoping.se INFO Name server 81.228.11.68 announced by: 3301
+ 17.391: falkoping.se INFO Name server 194.17.6.14 announced by: 3301
+ 17.391: falkoping.se INFO Zone announced by IPv4 ASN: 3301
+ 17.391: falkoping.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 17.392: falkoping.se INFO Zone announced by IPv6 ASN: 
+ 17.392: falkoping.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 17.392: falkoping.se INFO Done testing connectivity for falkoping.se.
+ 17.392: falkoping.se INFO Begin testing DNSSEC for falkoping.se.
+ 17.411: falkoping.se INFO Did not find DS record for falkoping.se at parent.
+ 17.461: falkoping.se INFO Servers for falkoping.se have consistent extra processing status.
+ 17.461: falkoping.se INFO Did not find DNSKEY record for falkoping.se at child.
+ 17.461: falkoping.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 17.461: falkoping.se INFO Done testing DNSSEC for falkoping.se.
+ 17.461: falkoping.se INFO Test completed for zone falkoping.se.

@@ -1,0 +1,74 @@
+  0.000: oygarden.kommune.no INFO Begin testing zone oygarden.kommune.no with version 1.6.1.
+  0.407: oygarden.kommune.no INFO Begin testing delegation for oygarden.kommune.no.
+  8.698: oygarden.kommune.no INFO Name servers listed at parent: ns.itbase.com,ns.itbase.no
+ 10.020: oygarden.kommune.no INFO Name servers listed at child: ns.itbase.com,ns.itbase.no
+ 10.021: oygarden.kommune.no NOTICE No IPv6 name servers found.
+ 10.231: oygarden.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.364: oygarden.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.491: oygarden.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.630: oygarden.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 11.325: oygarden.kommune.no INFO It is possible to build a referral packet for oygarden.kommune.no that works without EDNS0.
+ 11.810: oygarden.kommune.no INFO Previously used name servers for oygarden.kommune.no: 
+ 11.810: oygarden.kommune.no INFO Done testing delegation for oygarden.kommune.no.
+ 11.833: oygarden.kommune.no INFO Begin testing name server ns.itbase.com.
+ 11.833: oygarden.kommune.no INFO Begin testing host ns.itbase.com.
+ 12.128: oygarden.kommune.no INFO Begin testing address 89.20.252.165.
+ 22.312: oygarden.kommune.no INFO Done testing address 89.20.252.165.
+ 22.312: oygarden.kommune.no INFO Done testing host ns.itbase.com.
+ 22.687: oygarden.kommune.no INFO Name server ns.itbase.com (89.20.252.165) answers queries over UDP.
+ 22.752: oygarden.kommune.no INFO Name server ns.itbase.com (89.20.252.165) answers queries over TCP.
+ 22.789: oygarden.kommune.no INFO Name server ns.itbase.com (89.20.252.165) is not recursive.
+ 22.925: oygarden.kommune.no INFO Name server ns.itbase.com (89.20.252.165) authoritative for oygarden.kommune.no.
+ 23.203: oygarden.kommune.no INFO Name server ns.itbase.com (89.20.252.165) closed for zone transfer of oygarden.kommune.no.
+ 23.227: oygarden.kommune.no NOTICE No answer received from 89.20.252.165 when querying for hostname.bind/CH/TXT.
+ 33.362: oygarden.kommune.no INFO Done testing name server ns.itbase.com.
+ 33.362: oygarden.kommune.no INFO Begin testing name server ns.itbase.no.
+ 33.362: oygarden.kommune.no INFO Begin testing host ns.itbase.no.
+ 33.458: oygarden.kommune.no INFO Begin testing address 82.134.31.100.
+ 34.629: oygarden.kommune.no INFO Done testing address 82.134.31.100.
+ 34.629: oygarden.kommune.no INFO Done testing host ns.itbase.no.
+ 34.746: oygarden.kommune.no INFO Name server ns.itbase.no (82.134.31.100) answers queries over UDP.
+ 34.796: oygarden.kommune.no INFO Name server ns.itbase.no (82.134.31.100) answers queries over TCP.
+ 34.960: oygarden.kommune.no WARNING Name server ns.itbase.no (82.134.31.100) is recursive.
+ 35.067: oygarden.kommune.no INFO Name server ns.itbase.no (82.134.31.100) authoritative for oygarden.kommune.no.
+ 35.348: oygarden.kommune.no INFO Name server ns.itbase.no (82.134.31.100) closed for zone transfer of oygarden.kommune.no.
+ 35.375: oygarden.kommune.no NOTICE No answer received from 82.134.31.100 when querying for hostname.bind/CH/TXT.
+ 47.488: oygarden.kommune.no INFO Done testing name server ns.itbase.no.
+ 47.488: oygarden.kommune.no INFO Begin testing zone consistency for oygarden.kommune.no.
+ 48.184: oygarden.kommune.no INFO SOA at address 82.134.31.100 has serial 79.
+ 48.208: oygarden.kommune.no INFO SOA at address 89.20.252.165 has serial 79.
+ 48.208: oygarden.kommune.no INFO All SOA records have consistent serial numbers.
+ 48.209: oygarden.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 48.561: oygarden.kommune.no NOTICE The listed nameservers for oygarden.kommune.no all report the same set of nameservers.
+ 48.561: oygarden.kommune.no INFO Done testing zone consistency for oygarden.kommune.no.
+ 48.561: oygarden.kommune.no INFO Begin testing SOA parameters for oygarden.kommune.no.
+ 48.586: oygarden.kommune.no INFO Found SOA record for oygarden.kommune.no.
+ 48.586: oygarden.kommune.no INFO Begin testing host ns.itbase.no.
+ 48.707: oygarden.kommune.no INFO Begin testing address 82.134.31.100.
+ 48.794: oygarden.kommune.no INFO Done testing address 82.134.31.100.
+ 48.794: oygarden.kommune.no INFO Done testing host ns.itbase.no.
+ 48.794: oygarden.kommune.no INFO SOA MNAME for oygarden.kommune.no valid (ns.itbase.no).
+ 48.795: oygarden.kommune.no INFO SOA MNAME for oygarden.kommune.no (ns.itbase.no) listed as NS.
+ 48.906: oygarden.kommune.no INFO SOA MNAME for oygarden.kommune.no (ns.itbase.no) is authoritative.
+ 48.907: oygarden.kommune.no INFO Begin testing email address hostmaster\@itbase@no.
+ 48.908: oygarden.kommune.no NOTICE hostmaster\@itbase@no is not a valid email address.
+ 48.908: oygarden.kommune.no INFO Done testing email address hostmaster\@itbase@no.
+ 48.908: oygarden.kommune.no INFO Successful attempt to deliver email for SOA RNAME of oygarden.kommune.no (hostmaster\@itbase.no) using hostmaster\@itbase@no.
+ 48.908: oygarden.kommune.no INFO SOA TTL for oygarden.kommune.no OK (3600) - recommended >= 3600.
+ 48.909: oygarden.kommune.no NOTICE SOA refresh for oygarden.kommune.no too small (900) - recommended >= 14400.
+ 48.909: oygarden.kommune.no NOTICE SOA retry for oygarden.kommune.no too small (600) - recommended >= 3600.
+ 48.909: oygarden.kommune.no NOTICE SOA expire for oygarden.kommune.no too small (86400) - recommended >= 604800.
+ 48.909: oygarden.kommune.no INFO SOA minimum for oygarden.kommune.no OK (3600) - recommended between 300 and 86400.
+ 48.909: oygarden.kommune.no INFO Done testing SOA parameters for oygarden.kommune.no.
+ 48.909: oygarden.kommune.no INFO Begin testing connectivity for oygarden.kommune.no.
+ 49.996: oygarden.kommune.no INFO Zone announced by more than one ASN.
+ 49.996: oygarden.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 49.996: oygarden.kommune.no INFO Done testing connectivity for oygarden.kommune.no.
+ 49.996: oygarden.kommune.no INFO Begin testing DNSSEC for oygarden.kommune.no.
+ 50.070: oygarden.kommune.no INFO Did not find DS record for oygarden.kommune.no at parent.
+ 50.163: oygarden.kommune.no INFO Servers for oygarden.kommune.no have consistent extra processing status.
+ 50.209: oygarden.kommune.no INFO Authenticated denial records not found for oygarden.kommune.no.
+ 50.234: oygarden.kommune.no INFO Did not find DNSKEY record for oygarden.kommune.no at child.
+ 50.234: oygarden.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 50.234: oygarden.kommune.no INFO Done testing DNSSEC for oygarden.kommune.no.
+ 50.235: oygarden.kommune.no INFO Test completed for zone oygarden.kommune.no.

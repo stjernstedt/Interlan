@@ -1,0 +1,182 @@
+  0.000: imatra.fi INFO Begin testing zone imatra.fi with version 1.6.1.
+  0.446: imatra.fi INFO Begin testing delegation for imatra.fi.
+ 10.115: imatra.fi INFO Name servers listed at parent: ns.lappeenranta.fi,ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 14.424: imatra.fi INFO Name servers listed at child: ns.lappeenranta.fi,ns1-fin.global.sonera.fi,ns1-swe.global.sonera.se,ns2-fin.global.sonera.fi,ns2-usa.global.sonera.net
+ 14.649: imatra.fi INFO Parent glue for imatra.fi found: ns.lappeenranta.fi (194.89.228.5)
+ 14.916: imatra.fi INFO Parent glue for imatra.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+ 15.002: imatra.fi INFO Parent glue for imatra.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+ 15.232: imatra.fi INFO Parent glue for imatra.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+ 15.289: imatra.fi INFO Parent glue for imatra.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+ 15.503: imatra.fi INFO Checking glue for ns.lappeenranta.fi (194.89.228.5).
+ 15.506: imatra.fi INFO Checking glue for ns1-fin.global.sonera.fi (193.210.18.31).
+ 15.506: imatra.fi INFO Checking glue for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53).
+ 15.506: imatra.fi INFO Checking glue for ns2-fin.global.sonera.fi (195.156.148.158).
+ 15.506: imatra.fi INFO Checking glue for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53).
+ 15.507: imatra.fi INFO Parent glue for imatra.fi found: ns.lappeenranta.fi (194.89.228.5)
+ 15.507: imatra.fi INFO Parent glue for imatra.fi found: ns1-fin.global.sonera.fi (193.210.18.31)
+ 15.507: imatra.fi INFO Parent glue for imatra.fi found: ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53)
+ 15.507: imatra.fi INFO Parent glue for imatra.fi found: ns2-fin.global.sonera.fi (195.156.148.158)
+ 15.527: imatra.fi INFO Parent glue for imatra.fi found: ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53)
+ 16.616: imatra.fi INFO It is possible to build a referral packet for imatra.fi that works without EDNS0.
+ 17.036: imatra.fi INFO Previously used name servers for imatra.fi: 
+ 17.037: imatra.fi INFO Done testing delegation for imatra.fi.
+ 17.037: imatra.fi INFO Begin testing name server ns.lappeenranta.fi.
+ 17.037: imatra.fi INFO Begin testing host ns.lappeenranta.fi.
+ 17.224: imatra.fi INFO Begin testing address 194.89.228.5.
+ 29.097: imatra.fi INFO Done testing address 194.89.228.5.
+ 29.097: imatra.fi INFO Done testing host ns.lappeenranta.fi.
+ 29.334: imatra.fi INFO Name server ns.lappeenranta.fi (194.89.228.5) answers queries over UDP.
+ 29.404: imatra.fi INFO Name server ns.lappeenranta.fi (194.89.228.5) answers queries over TCP.
+ 29.448: imatra.fi INFO Name server ns.lappeenranta.fi (194.89.228.5) is not recursive.
+ 29.567: imatra.fi INFO Name server ns.lappeenranta.fi (194.89.228.5) authoritative for imatra.fi.
+ 29.645: imatra.fi INFO Name server ns.lappeenranta.fi (194.89.228.5) closed for zone transfer of imatra.fi.
+ 29.668: imatra.fi INFO Legacy name server ID for ns.lappeenranta.fi (194.89.228.5): hostname.bind = ns.lappeenranta.fi
+ 29.713: imatra.fi INFO Legacy name server ID for ns.lappeenranta.fi (194.89.228.5): version.bind = Not available
+ 29.766: imatra.fi NOTICE No answer received from 194.89.228.5 when querying for version.server/CH/TXT.
+ 29.766: imatra.fi INFO Done testing name server ns.lappeenranta.fi.
+ 29.766: imatra.fi INFO Begin testing name server ns1-fin.global.sonera.fi.
+ 29.766: imatra.fi INFO Begin testing host ns1-fin.global.sonera.fi.
+ 29.767: imatra.fi INFO Begin testing address 193.210.18.31.
+ 30.434: imatra.fi INFO Done testing address 193.210.18.31.
+ 30.434: imatra.fi INFO Begin testing address 2001:2060:ffdd:a01:0:0:0:53.
+ 31.939: imatra.fi INFO Done testing address 2001:2060:ffdd:a01:0:0:0:53.
+ 31.940: imatra.fi INFO Done testing host ns1-fin.global.sonera.fi.
+ 32.009: imatra.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over UDP.
+ 32.055: imatra.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) answers queries over TCP.
+ 32.101: imatra.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) is not recursive.
+ 32.293: imatra.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) authoritative for imatra.fi.
+ 32.331: imatra.fi INFO Name server ns1-fin.global.sonera.fi (193.210.18.31) closed for zone transfer of imatra.fi.
+ 32.351: imatra.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): hostname.bind = mgda1
+ 32.367: imatra.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): version.bind = TeliaSonera Finland DNS MGDA
+ 32.397: imatra.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (193.210.18.31): id.server = mgda1
+ 32.412: imatra.fi NOTICE No answer received from 193.210.18.31 when querying for version.server/CH/TXT.
+ 32.460: imatra.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) answers queries over UDP.
+ 32.572: imatra.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) answers queries over TCP.
+ 32.627: imatra.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) is not recursive.
+ 32.937: imatra.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) authoritative for imatra.fi.
+ 33.058: imatra.fi INFO Name server ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53) closed for zone transfer of imatra.fi.
+ 33.101: imatra.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): hostname.bind = mgda1
+ 33.145: imatra.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+ 33.186: imatra.fi INFO Legacy name server ID for ns1-fin.global.sonera.fi (2001:2060:ffdd:a01:0:0:0:53): id.server = mgda1
+ 33.229: imatra.fi NOTICE No answer received from 2001:2060:ffdd:a01:0:0:0:53 when querying for version.server/CH/TXT.
+ 33.229: imatra.fi INFO Done testing name server ns1-fin.global.sonera.fi.
+ 33.229: imatra.fi INFO Begin testing name server ns1-swe.global.sonera.se.
+ 33.229: imatra.fi INFO Begin testing host ns1-swe.global.sonera.se.
+ 33.230: imatra.fi INFO Begin testing address 80.64.9.124.
+ 34.305: imatra.fi INFO Done testing address 80.64.9.124.
+ 34.305: imatra.fi INFO Begin testing address 2001:6e8:400:ffff:1:0:0:53.
+ 34.803: imatra.fi INFO Done testing address 2001:6e8:400:ffff:1:0:0:53.
+ 34.803: imatra.fi INFO Done testing host ns1-swe.global.sonera.se.
+ 34.827: imatra.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over UDP.
+ 34.879: imatra.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) answers queries over TCP.
+ 34.901: imatra.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) is not recursive.
+ 35.004: imatra.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) authoritative for imatra.fi.
+ 35.045: imatra.fi INFO Name server ns1-swe.global.sonera.se (80.64.9.124) closed for zone transfer of imatra.fi.
+ 35.059: imatra.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): hostname.bind = mgda3
+ 35.072: imatra.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): version.bind = TeliaSonera Finland DNS MGDA
+ 35.093: imatra.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (80.64.9.124): id.server = mgda3
+ 35.107: imatra.fi NOTICE No answer received from 80.64.9.124 when querying for version.server/CH/TXT.
+ 35.135: imatra.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over UDP.
+ 35.184: imatra.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) answers queries over TCP.
+ 35.208: imatra.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) is not recursive.
+ 35.330: imatra.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) authoritative for imatra.fi.
+ 35.377: imatra.fi INFO Name server ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53) closed for zone transfer of imatra.fi.
+ 35.395: imatra.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): hostname.bind = mgda3
+ 35.414: imatra.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+ 35.440: imatra.fi INFO Legacy name server ID for ns1-swe.global.sonera.se (2001:6e8:400:ffff:1:0:0:53): id.server = mgda3
+ 35.461: imatra.fi NOTICE No answer received from 2001:6e8:400:ffff:1:0:0:53 when querying for version.server/CH/TXT.
+ 35.461: imatra.fi INFO Done testing name server ns1-swe.global.sonera.se.
+ 35.461: imatra.fi INFO Begin testing name server ns2-fin.global.sonera.fi.
+ 35.461: imatra.fi INFO Begin testing host ns2-fin.global.sonera.fi.
+ 35.462: imatra.fi INFO Begin testing address 195.156.148.158.
+ 36.477: imatra.fi INFO Done testing address 195.156.148.158.
+ 36.478: imatra.fi INFO Begin testing address 2001:2060:ffdd:a02:0:0:0:53.
+ 36.888: imatra.fi INFO Done testing address 2001:2060:ffdd:a02:0:0:0:53.
+ 36.888: imatra.fi INFO Done testing host ns2-fin.global.sonera.fi.
+ 36.908: imatra.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over UDP.
+ 36.951: imatra.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) answers queries over TCP.
+ 36.985: imatra.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) is not recursive.
+ 37.084: imatra.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) authoritative for imatra.fi.
+ 37.133: imatra.fi INFO Name server ns2-fin.global.sonera.fi (195.156.148.158) closed for zone transfer of imatra.fi.
+ 37.151: imatra.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): hostname.bind = mgda1
+ 37.169: imatra.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): version.bind = TeliaSonera Finland DNS MGDA
+ 37.185: imatra.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (195.156.148.158): id.server = mgda1
+ 37.201: imatra.fi NOTICE No answer received from 195.156.148.158 when querying for version.server/CH/TXT.
+ 37.273: imatra.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) answers queries over UDP.
+ 37.361: imatra.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) answers queries over TCP.
+ 37.403: imatra.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) is not recursive.
+ 37.611: imatra.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) authoritative for imatra.fi.
+ 37.729: imatra.fi INFO Name server ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53) closed for zone transfer of imatra.fi.
+ 37.781: imatra.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): hostname.bind = mgda1
+ 37.821: imatra.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): version.bind = TeliaSonera Finland DNS MGDA
+ 37.864: imatra.fi INFO Legacy name server ID for ns2-fin.global.sonera.fi (2001:2060:ffdd:a02:0:0:0:53): id.server = mgda1
+ 37.909: imatra.fi NOTICE No answer received from 2001:2060:ffdd:a02:0:0:0:53 when querying for version.server/CH/TXT.
+ 37.909: imatra.fi INFO Done testing name server ns2-fin.global.sonera.fi.
+ 37.909: imatra.fi INFO Begin testing name server ns2-usa.global.sonera.net.
+ 37.909: imatra.fi INFO Begin testing host ns2-usa.global.sonera.net.
+ 38.039: imatra.fi INFO Begin testing address 46.38.190.56.
+ 39.433: imatra.fi INFO Done testing address 46.38.190.56.
+ 39.433: imatra.fi INFO Done testing host ns2-usa.global.sonera.net.
+ 39.623: imatra.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over UDP.
+ 39.755: imatra.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) answers queries over TCP.
+ 39.817: imatra.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) is not recursive.
+ 40.044: imatra.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) authoritative for imatra.fi.
+ 40.197: imatra.fi INFO Name server ns2-usa.global.sonera.net (46.38.190.56) closed for zone transfer of imatra.fi.
+ 40.249: imatra.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): hostname.bind = mgda5
+ 40.301: imatra.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): version.bind = TeliaSonera Finland DNS MGDA
+ 40.353: imatra.fi INFO Legacy name server ID for ns2-usa.global.sonera.net (46.38.190.56): id.server = mgda5
+ 40.408: imatra.fi NOTICE No answer received from 46.38.190.56 when querying for version.server/CH/TXT.
+ 40.408: imatra.fi INFO Done testing name server ns2-usa.global.sonera.net.
+ 40.408: imatra.fi INFO Begin testing zone consistency for imatra.fi.
+ 40.942: imatra.fi INFO SOA at address 2001:2060:ffdd:a01:0:0:0:53 has serial 2014022714.
+ 40.972: imatra.fi INFO SOA at address 193.210.18.31 has serial 2014022714.
+ 40.996: imatra.fi INFO SOA at address 80.64.9.124 has serial 2014022714.
+ 41.020: imatra.fi INFO SOA at address 195.156.148.158 has serial 2014022714.
+ 41.043: imatra.fi INFO SOA at address 2001:6e8:400:ffff:1:0:0:53 has serial 2014022714.
+ 41.067: imatra.fi INFO SOA at address 194.89.228.5 has serial 2014022714.
+ 41.122: imatra.fi INFO SOA at address 46.38.190.56 has serial 2014022714.
+ 41.169: imatra.fi INFO SOA at address 2001:2060:ffdd:a02:0:0:0:53 has serial 2014022714.
+ 41.169: imatra.fi INFO All SOA records have consistent serial numbers.
+ 41.169: imatra.fi INFO All other fields in the SOA record are consistent among all name servers.
+ 41.709: imatra.fi NOTICE The listed nameservers for imatra.fi all report the same set of nameservers.
+ 41.709: imatra.fi INFO Done testing zone consistency for imatra.fi.
+ 41.709: imatra.fi INFO Begin testing SOA parameters for imatra.fi.
+ 41.748: imatra.fi INFO Found SOA record for imatra.fi.
+ 41.748: imatra.fi INFO Begin testing host ns.lappeenranta.fi.
+ 41.861: imatra.fi INFO Begin testing address 194.89.228.5.
+ 41.997: imatra.fi INFO Done testing address 194.89.228.5.
+ 41.997: imatra.fi INFO Done testing host ns.lappeenranta.fi.
+ 41.997: imatra.fi INFO SOA MNAME for imatra.fi valid (ns.lappeenranta.fi).
+ 41.997: imatra.fi INFO SOA MNAME for imatra.fi (ns.lappeenranta.fi) listed as NS.
+ 42.173: imatra.fi INFO SOA MNAME for imatra.fi (ns.lappeenranta.fi) is authoritative.
+ 42.173: imatra.fi INFO Begin testing email address hostmaster@lappeenranta.fi.
+ 42.314: imatra.fi INFO Mail exchangers for hostmaster@lappeenranta.fi found posti.ekarjala.com,smtpin.tele.fi.
+ 42.315: imatra.fi INFO Begin testing host posti.ekarjala.com.
+ 42.979: imatra.fi INFO Begin testing address 194.251.35.208.
+ 44.001: imatra.fi INFO Done testing address 194.251.35.208.
+ 44.001: imatra.fi INFO Done testing host posti.ekarjala.com.
+ 44.371: imatra.fi INFO Begin testing host smtpin.tele.fi.
+ 44.598: imatra.fi INFO Begin testing address 193.210.151.43.
+ 45.153: imatra.fi INFO Done testing address 193.210.151.43.
+ 45.153: imatra.fi INFO Done testing host smtpin.tele.fi.
+ 45.288: imatra.fi INFO Done testing email address hostmaster@lappeenranta.fi.
+ 45.289: imatra.fi INFO Successful attempt to deliver email for SOA RNAME of imatra.fi (hostmaster.lappeenranta.fi) using hostmaster@lappeenranta.fi.
+ 45.289: imatra.fi INFO SOA TTL for imatra.fi OK (86400) - recommended >= 3600.
+ 45.289: imatra.fi NOTICE SOA refresh for imatra.fi too small (3600) - recommended >= 14400.
+ 45.289: imatra.fi NOTICE SOA refresh for imatra.fi lower than retry (3600 vs 3600).
+ 45.289: imatra.fi INFO SOA retry for imatra.fi OK (3600) - recommended >= 3600.
+ 45.289: imatra.fi INFO SOA expire for imatra.fi OK (3456000) - recommended >= 604800.
+ 45.289: imatra.fi INFO SOA minimum for imatra.fi OK (86400) - recommended between 300 and 86400.
+ 45.289: imatra.fi INFO Done testing SOA parameters for imatra.fi.
+ 45.290: imatra.fi INFO Begin testing connectivity for imatra.fi.
+ 47.613: imatra.fi INFO Zone announced by more than one ASN.
+ 48.913: imatra.fi INFO Zone announced by more than one IPv6 ASN.
+ 48.913: imatra.fi INFO Done testing connectivity for imatra.fi.
+ 48.913: imatra.fi INFO Begin testing DNSSEC for imatra.fi.
+ 48.946: imatra.fi INFO Did not find DS record for imatra.fi at parent.
+ 49.373: imatra.fi INFO Servers for imatra.fi have consistent extra processing status.
+ 49.401: imatra.fi INFO Authenticated denial records not found for imatra.fi.
+ 49.417: imatra.fi INFO Did not find DNSKEY record for imatra.fi at child.
+ 49.417: imatra.fi INFO No DNSKEY(s) found at child, other tests skipped.
+ 49.417: imatra.fi INFO Done testing DNSSEC for imatra.fi.
+ 49.418: imatra.fi INFO Test completed for zone imatra.fi.

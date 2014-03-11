@@ -1,0 +1,127 @@
+  0.000: jarfalla.se INFO Begin testing zone jarfalla.se with version 1.2.
+  0.000: jarfalla.se INFO Begin testing delegation for jarfalla.se.
+  5.824: jarfalla.se INFO Name servers listed at parent: dns1.jarfalla.se,ns3.siemens.se,ns4.siemens.se
+ 25.897: jarfalla.se INFO Name servers listed at child: dns1.jarfalla.se,ns2.siemens.se,ns3.siemens.se,ns4.siemens.se
+ 25.898: jarfalla.se NOTICE Additional name server listed at child: ns2.siemens.se
+ 25.898: jarfalla.se NOTICE No IPv6 name servers found.
+ 25.907: jarfalla.se INFO Parent glue for jarfalla.se found: dns1.jarfalla.se (62.20.90.27)
+ 26.032: jarfalla.se INFO Checking glue for dns1.jarfalla.se (62.20.90.27).
+ 32.041: jarfalla.se INFO Child glue for jarfalla.se found: dns1.jarfalla.se (62.20.90.27)
+ 32.042: jarfalla.se INFO Parent glue for jarfalla.se found: dns1.jarfalla.se (62.20.90.27)
+ 32.043: jarfalla.se INFO Done testing delegation for jarfalla.se.
+ 32.043: jarfalla.se INFO Begin testing name server dns1.jarfalla.se.
+ 32.043: jarfalla.se INFO Begin testing host dns1.jarfalla.se.
+ 32.044: jarfalla.se INFO Begin testing address 62.20.90.27.
+ 47.520: jarfalla.se INFO Done testing address 62.20.90.27.
+ 47.520: jarfalla.se INFO Done testing host dns1.jarfalla.se.
+ 47.529: jarfalla.se INFO Name server dns1.jarfalla.se (62.20.90.27) answers queries over UDP.
+ 47.544: jarfalla.se INFO Name server dns1.jarfalla.se (62.20.90.27) answers queries over TCP.
+ 47.552: jarfalla.se INFO Name server dns1.jarfalla.se (62.20.90.27) is not recursive.
+ 47.560: jarfalla.se INFO Name server dns1.jarfalla.se (62.20.90.27) authoritative for jarfalla.se.
+ 47.581: jarfalla.se NOTICE Name server dns1.jarfalla.se (62.20.90.27) open for zone transfer of jarfalla.se.
+ 47.590: jarfalla.se INFO Legacy name server ID for dns1.jarfalla.se (62.20.90.27): hostname.bind = lx01
+ 47.598: jarfalla.se INFO Legacy name server ID for dns1.jarfalla.se (62.20.90.27): version.bind = not currently available
+ 47.611: jarfalla.se NOTICE No answer received from 62.20.90.27 when querying for version.server/CH/TXT.
+ 47.612: jarfalla.se INFO Done testing name server dns1.jarfalla.se.
+ 47.612: jarfalla.se INFO Begin testing name server ns2.siemens.se.
+ 47.612: jarfalla.se INFO Begin testing host ns2.siemens.se.
+ 47.612: jarfalla.se INFO Begin testing address 194.132.253.20.
+ 48.401: jarfalla.se INFO Done testing address 194.132.253.20.
+ 48.401: jarfalla.se INFO Done testing host ns2.siemens.se.
+ 48.410: jarfalla.se INFO Name server ns2.siemens.se (194.132.253.20) answers queries over UDP.
+ 48.426: jarfalla.se INFO Name server ns2.siemens.se (194.132.253.20) answers queries over TCP.
+ 48.433: jarfalla.se INFO Name server ns2.siemens.se (194.132.253.20) is not recursive.
+ 48.443: jarfalla.se INFO Name server ns2.siemens.se (194.132.253.20) authoritative for jarfalla.se.
+ 48.459: jarfalla.se INFO Name server ns2.siemens.se (194.132.253.20) closed for zone transfer of jarfalla.se.
+ 48.467: jarfalla.se INFO Legacy name server ID for ns2.siemens.se (194.132.253.20): hostname.bind = fe2-dns1
+ 48.475: jarfalla.se INFO Legacy name server ID for ns2.siemens.se (194.132.253.20): version.bind = 9.5.0-P2
+ 48.489: jarfalla.se NOTICE No answer received from 194.132.253.20 when querying for version.server/CH/TXT.
+ 48.489: jarfalla.se INFO Done testing name server ns2.siemens.se.
+ 48.489: jarfalla.se INFO Begin testing name server ns3.siemens.se.
+ 48.490: jarfalla.se INFO Begin testing host ns3.siemens.se.
+ 48.490: jarfalla.se INFO Begin testing address 212.209.37.137.
+ 61.572: jarfalla.se WARNING Could not find reverse address for 212.209.37.137 (137.37.209.212.in-addr.arpa.).
+ 61.572: jarfalla.se INFO Done testing address 212.209.37.137.
+ 61.572: jarfalla.se INFO Done testing host ns3.siemens.se.
+ 67.572: jarfalla.se ERROR Name server ns3.siemens.se (212.209.37.137) does not answer queries over UDP.
+ 67.573: jarfalla.se ERROR Name server ns3.siemens.se (212.209.37.137) does not answer queries over TCP.
+ 67.573: jarfalla.se INFO Done testing name server ns3.siemens.se.
+ 67.573: jarfalla.se INFO Begin testing name server ns4.siemens.se.
+ 67.573: jarfalla.se INFO Begin testing host ns4.siemens.se.
+ 67.574: jarfalla.se INFO Begin testing address 192.121.153.137.
+ 83.436: jarfalla.se WARNING Could not find reverse address for 192.121.153.137 (137.153.121.192.in-addr.arpa.).
+ 83.436: jarfalla.se INFO Done testing address 192.121.153.137.
+ 83.436: jarfalla.se INFO Done testing host ns4.siemens.se.
+ 89.436: jarfalla.se ERROR Name server ns4.siemens.se (192.121.153.137) does not answer queries over UDP.
+ 89.437: jarfalla.se ERROR Name server ns4.siemens.se (192.121.153.137) does not answer queries over TCP.
+ 89.438: jarfalla.se INFO Done testing name server ns4.siemens.se.
+ 89.438: jarfalla.se INFO Begin testing zone consistency for jarfalla.se.
+ 89.451: jarfalla.se INFO SOA at address 62.20.90.27 has serial 2010051001.
+ 89.460: jarfalla.se INFO SOA at address 194.132.253.20 has serial 2010051001.
+ 89.462: jarfalla.se INFO All SOA records have consistent serial numbers.
+ 89.462: jarfalla.se INFO All SOA records are consistent among all name servers.
+ 89.462: jarfalla.se INFO Done testing zone consistency for jarfalla.se.
+ 89.462: jarfalla.se INFO Begin testing SOA parameters for jarfalla.se.
+ 95.473: jarfalla.se INFO Found SOA record for jarfalla.se.
+ 95.473: jarfalla.se INFO Begin testing host dns1.jarfalla.se.
+ 95.474: jarfalla.se INFO Begin testing address 62.20.90.27.
+ 95.475: jarfalla.se INFO Done testing address 62.20.90.27.
+ 95.475: jarfalla.se INFO Done testing host dns1.jarfalla.se.
+ 95.475: jarfalla.se INFO SOA MNAME for jarfalla.se valid (dns1.jarfalla.se).
+ 95.476: jarfalla.se INFO SOA MNAME for jarfalla.se (dns1.jarfalla.se) listed as NS.
+ 95.484: jarfalla.se INFO SOA MNAME for jarfalla.se (dns1.jarfalla.se) is authoritative.
+ 95.484: jarfalla.se INFO Begin testing email address dnsadmin.se@siemens.com.
+101.316: jarfalla.se INFO Mail exchangers for dnsadmin.se@siemens.com found hylas.siemens.com,zetes.siemens.com,meleagros.siemens.com,hephaistos.siemens.com,balduin.siemens.com.
+101.316: jarfalla.se INFO Begin testing host hylas.siemens.com.
+102.334: jarfalla.se INFO Begin testing address 217.194.35.76.
+103.716: jarfalla.se INFO Done testing address 217.194.35.76.
+103.716: jarfalla.se INFO Done testing host hylas.siemens.com.
+103.717: jarfalla.se INFO Begin testing mail server hylas.siemens.com (217.194.35.76) with dnsadmin.se@siemens.com.
+104.148: jarfalla.se INFO SMTP banner: hylas.siemens.com ESMTP generic mail handler (LowL)
+104.280: jarfalla.se INFO SMTP testing of hylas.siemens.com (217.194.35.76) with dnsadmin.se@siemens.com succeeded without errors.
+104.280: jarfalla.se INFO Done testing mail server hylas.siemens.com (217.194.35.76) with dnsadmin.se@siemens.com.
+104.280: jarfalla.se INFO Begin testing host zetes.siemens.com.
+106.073: jarfalla.se ERROR Host name zetes.siemens.com refers to a CNAME.
+106.073: jarfalla.se INFO Done testing host zetes.siemens.com.
+106.073: jarfalla.se ERROR Invalid host name for mail exchanger zetes.siemens.com.
+106.073: jarfalla.se INFO Begin testing host meleagros.siemens.com.
+106.963: jarfalla.se INFO Begin testing address 217.194.35.77.
+107.225: jarfalla.se INFO Done testing address 217.194.35.77.
+107.225: jarfalla.se INFO Done testing host meleagros.siemens.com.
+107.226: jarfalla.se INFO Begin testing host hephaistos.siemens.com.
+108.057: jarfalla.se INFO Begin testing address 217.194.34.77.
+108.586: jarfalla.se INFO Done testing address 217.194.34.77.
+108.587: jarfalla.se INFO Done testing host hephaistos.siemens.com.
+108.587: jarfalla.se INFO Begin testing host balduin.siemens.com.
+113.362: jarfalla.se INFO Begin testing address 194.138.37.42.
+114.246: jarfalla.se INFO Done testing address 194.138.37.42.
+114.246: jarfalla.se INFO Done testing host balduin.siemens.com.
+114.247: jarfalla.se INFO Delivery over IPv4 to dnsadmin.se@siemens.com ok.
+114.247: jarfalla.se INFO Delivery over IPv6 to dnsadmin.se@siemens.com could not be done.
+114.247: jarfalla.se INFO Done testing email address dnsadmin.se@siemens.com.
+114.247: jarfalla.se INFO Successful attempt to deliver email for SOA RNAME of jarfalla.se (dnsadmin\.se.siemens.com) using dnsadmin.se@siemens.com.
+114.247: jarfalla.se INFO SOA TTL for jarfalla.se OK (38400) - recommended >= 3600.
+114.247: jarfalla.se NOTICE SOA refresh for jarfalla.se too small (7200) - recommended >= 14400.
+114.247: jarfalla.se INFO SOA retry for jarfalla.se OK (3600) - recommended >= 3600.
+114.248: jarfalla.se INFO SOA expire for jarfalla.se OK (604800) - recommended >= 604800.
+114.248: jarfalla.se INFO SOA minimum for jarfalla.se OK (38400) - recommended between 300 and 86400.
+114.248: jarfalla.se INFO Done testing SOA parameters for jarfalla.se.
+114.248: jarfalla.se INFO Begin testing connectivity for jarfalla.se.
+114.777: jarfalla.se INFO Name server 192.121.153.137 announced by: 48171
+115.458: jarfalla.se INFO Name server 194.132.253.20 announced by: 48171
+115.982: jarfalla.se INFO Name server 212.209.37.137 announced by: 702
+116.507: jarfalla.se INFO Name server 62.20.90.27 announced by: 3301
+116.507: jarfalla.se INFO Zone announced by IPv4 ASN: 702,3301,48171
+116.507: jarfalla.se INFO Zone announced by more than one ASN (3).
+116.507: jarfalla.se INFO Zone announced by IPv6 ASN: 
+116.507: jarfalla.se NOTICE Zone announced by less than two IPv6 ASN (0).
+116.507: jarfalla.se INFO Done testing connectivity for jarfalla.se.
+116.508: jarfalla.se INFO Begin testing DNSSEC for jarfalla.se.
+116.583: jarfalla.se INFO Did not find DS record for jarfalla.se at parent.
+121.584: jarfalla.se NOTICE DNS lookup error (connection failed).
+126.596: jarfalla.se NOTICE DNS lookup error (connection failed).
+126.609: jarfalla.se INFO Servers for jarfalla.se have consistent extra processing status.
+126.609: jarfalla.se INFO Did not find DNSKEY record for jarfalla.se at child.
+126.609: jarfalla.se INFO No DNSKEY(s) found at child, other tests skipped.
+126.609: jarfalla.se INFO Done testing DNSSEC for jarfalla.se.
+126.609: jarfalla.se INFO Test completed for zone jarfalla.se.

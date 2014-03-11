@@ -1,0 +1,84 @@
+  0.000: elverum.kommune.no INFO Begin testing zone elverum.kommune.no with version 1.6.1.
+  0.914: elverum.kommune.no INFO Begin testing delegation for elverum.kommune.no.
+ 11.053: elverum.kommune.no INFO Name servers listed at parent: ns1.nextra.no,ns2.nextra.no
+ 12.281: elverum.kommune.no INFO Name servers listed at child: ns1.nextra.no,ns2.nextra.no
+ 12.281: elverum.kommune.no NOTICE No IPv6 name servers found.
+ 12.452: elverum.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 12.600: elverum.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 12.755: elverum.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 12.895: elverum.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 13.549: elverum.kommune.no INFO It is possible to build a referral packet for elverum.kommune.no that works without EDNS0.
+ 13.947: elverum.kommune.no INFO Previously used name servers for elverum.kommune.no: 
+ 13.947: elverum.kommune.no INFO Done testing delegation for elverum.kommune.no.
+ 13.947: elverum.kommune.no INFO Begin testing name server ns1.nextra.no.
+ 13.947: elverum.kommune.no INFO Begin testing host ns1.nextra.no.
+ 14.128: elverum.kommune.no INFO Begin testing address 148.122.208.98.
+ 25.980: elverum.kommune.no INFO Done testing address 148.122.208.98.
+ 25.980: elverum.kommune.no INFO Done testing host ns1.nextra.no.
+ 26.259: elverum.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) answers queries over UDP.
+ 26.288: elverum.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) answers queries over TCP.
+ 26.311: elverum.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) is not recursive.
+ 26.376: elverum.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) authoritative for elverum.kommune.no.
+ 26.413: elverum.kommune.no INFO Name server ns1.nextra.no (148.122.208.98) closed for zone transfer of elverum.kommune.no.
+ 26.429: elverum.kommune.no NOTICE No answer received from 148.122.208.98 when querying for hostname.bind/CH/TXT.
+ 26.444: elverum.kommune.no INFO Legacy name server ID for ns1.nextra.no (148.122.208.98): version.bind = Nominum ANS 2.8.1.2
+ 26.457: elverum.kommune.no INFO Legacy name server ID for ns1.nextra.no (148.122.208.98): id.server = 275236d1-c090-4e72-8b4f-6bb3656fbdc2
+ 26.470: elverum.kommune.no INFO Legacy name server ID for ns1.nextra.no (148.122.208.98): version.server = Nominum ANS 2.8.1.2
+ 26.470: elverum.kommune.no INFO Done testing name server ns1.nextra.no.
+ 26.470: elverum.kommune.no INFO Begin testing name server ns2.nextra.no.
+ 26.470: elverum.kommune.no INFO Begin testing host ns2.nextra.no.
+ 26.576: elverum.kommune.no INFO Begin testing address 148.122.161.2.
+ 27.280: elverum.kommune.no INFO Done testing address 148.122.161.2.
+ 27.280: elverum.kommune.no INFO Done testing host ns2.nextra.no.
+ 27.459: elverum.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) answers queries over UDP.
+ 27.485: elverum.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) answers queries over TCP.
+ 27.498: elverum.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) is not recursive.
+ 27.581: elverum.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) authoritative for elverum.kommune.no.
+ 27.621: elverum.kommune.no INFO Name server ns2.nextra.no (148.122.161.2) closed for zone transfer of elverum.kommune.no.
+ 27.643: elverum.kommune.no NOTICE No answer received from 148.122.161.2 when querying for hostname.bind/CH/TXT.
+ 27.657: elverum.kommune.no INFO Legacy name server ID for ns2.nextra.no (148.122.161.2): version.bind = Nominum ANS 2.8.1.2
+ 27.685: elverum.kommune.no INFO Legacy name server ID for ns2.nextra.no (148.122.161.2): id.server = b15665a4-93cf-4b41-b1b3-3effb406c70f
+ 27.705: elverum.kommune.no INFO Legacy name server ID for ns2.nextra.no (148.122.161.2): version.server = Nominum ANS 2.8.1.2
+ 27.705: elverum.kommune.no INFO Done testing name server ns2.nextra.no.
+ 27.706: elverum.kommune.no INFO Begin testing zone consistency for elverum.kommune.no.
+ 28.225: elverum.kommune.no INFO SOA at address 148.122.208.98 has serial 2011090600.
+ 28.261: elverum.kommune.no INFO SOA at address 148.122.161.2 has serial 2011090600.
+ 28.262: elverum.kommune.no INFO All SOA records have consistent serial numbers.
+ 28.262: elverum.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 28.581: elverum.kommune.no NOTICE The listed nameservers for elverum.kommune.no all report the same set of nameservers.
+ 28.581: elverum.kommune.no INFO Done testing zone consistency for elverum.kommune.no.
+ 28.582: elverum.kommune.no INFO Begin testing SOA parameters for elverum.kommune.no.
+ 28.604: elverum.kommune.no INFO Found SOA record for elverum.kommune.no.
+ 28.604: elverum.kommune.no INFO Begin testing host ns1.nextra.no.
+ 28.709: elverum.kommune.no INFO Begin testing address 148.122.208.98.
+ 28.904: elverum.kommune.no INFO Done testing address 148.122.208.98.
+ 28.904: elverum.kommune.no INFO Done testing host ns1.nextra.no.
+ 28.904: elverum.kommune.no INFO SOA MNAME for elverum.kommune.no valid (ns1.nextra.no).
+ 28.905: elverum.kommune.no INFO SOA MNAME for elverum.kommune.no (ns1.nextra.no) listed as NS.
+ 29.054: elverum.kommune.no INFO SOA MNAME for elverum.kommune.no (ns1.nextra.no) is authoritative.
+ 29.054: elverum.kommune.no INFO Begin testing email address hostmaster@telenor.net.
+ 30.472: elverum.kommune.no INFO Mail exchangers for hostmaster@telenor.net found mx.nsc.no.
+ 30.472: elverum.kommune.no INFO Begin testing host mx.nsc.no.
+ 30.905: elverum.kommune.no INFO Begin testing address 193.213.112.62.
+ 31.887: elverum.kommune.no INFO Done testing address 193.213.112.62.
+ 31.887: elverum.kommune.no INFO Done testing host mx.nsc.no.
+ 32.099: elverum.kommune.no INFO Done testing email address hostmaster@telenor.net.
+ 32.099: elverum.kommune.no INFO Successful attempt to deliver email for SOA RNAME of elverum.kommune.no (hostmaster.telenor.net) using hostmaster@telenor.net.
+ 32.099: elverum.kommune.no INFO SOA TTL for elverum.kommune.no OK (3600) - recommended >= 3600.
+ 32.099: elverum.kommune.no NOTICE SOA refresh for elverum.kommune.no too small (3600) - recommended >= 14400.
+ 32.099: elverum.kommune.no NOTICE SOA retry for elverum.kommune.no too small (600) - recommended >= 3600.
+ 32.099: elverum.kommune.no INFO SOA expire for elverum.kommune.no OK (604800) - recommended >= 604800.
+ 32.099: elverum.kommune.no INFO SOA minimum for elverum.kommune.no OK (3600) - recommended between 300 and 86400.
+ 32.099: elverum.kommune.no INFO Done testing SOA parameters for elverum.kommune.no.
+ 32.099: elverum.kommune.no INFO Begin testing connectivity for elverum.kommune.no.
+ 33.300: elverum.kommune.no NOTICE Zone announced by fewer than two IPv4 ASN.
+ 33.323: elverum.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 33.323: elverum.kommune.no INFO Done testing connectivity for elverum.kommune.no.
+ 33.323: elverum.kommune.no INFO Begin testing DNSSEC for elverum.kommune.no.
+ 33.437: elverum.kommune.no INFO Did not find DS record for elverum.kommune.no at parent.
+ 33.512: elverum.kommune.no INFO Servers for elverum.kommune.no have consistent extra processing status.
+ 33.553: elverum.kommune.no INFO Authenticated denial records not found for elverum.kommune.no.
+ 33.568: elverum.kommune.no INFO Did not find DNSKEY record for elverum.kommune.no at child.
+ 33.568: elverum.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 33.568: elverum.kommune.no INFO Done testing DNSSEC for elverum.kommune.no.
+ 33.581: elverum.kommune.no INFO Test completed for zone elverum.kommune.no.

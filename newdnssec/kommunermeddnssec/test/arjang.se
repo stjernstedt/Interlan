@@ -1,0 +1,131 @@
+  0.000: arjang.se INFO Begin testing zone arjang.se with version 1.6.1.
+  0.601: arjang.se INFO Begin testing delegation for arjang.se.
+  9.386: arjang.se INFO Name servers listed at parent: dns1.arjang.se
+ 10.412: arjang.se INFO Name servers listed at child: dns1.arjang.se
+ 10.413: arjang.se ERROR Too few name servers (1).
+ 10.413: arjang.se ERROR Too few IPv4 name servers (1).
+ 10.413: arjang.se NOTICE No IPv6 name servers found.
+ 10.473: arjang.se INFO Parent glue for arjang.se found: dns1.arjang.se (88.131.54.9)
+ 10.552: arjang.se INFO Checking glue for dns1.arjang.se (88.131.54.9).
+ 10.600: arjang.se INFO Child glue for arjang.se found: dns1.arjang.se (88.131.54.9)
+ 10.601: arjang.se INFO Parent glue for arjang.se found: dns1.arjang.se (88.131.54.9)
+ 10.966: arjang.se INFO It is possible to build a referral packet for arjang.se that works without EDNS0.
+ 11.303: arjang.se INFO Previously used name servers for arjang.se: 
+ 11.304: arjang.se INFO Done testing delegation for arjang.se.
+ 11.324: arjang.se INFO Begin testing name server dns1.arjang.se.
+ 11.324: arjang.se INFO Begin testing host dns1.arjang.se.
+ 11.631: arjang.se INFO Begin testing address 88.131.54.9.
+ 32.324: arjang.se INFO Done testing address 88.131.54.9.
+ 32.324: arjang.se INFO Done testing host dns1.arjang.se.
+ 32.543: arjang.se INFO Name server dns1.arjang.se (88.131.54.9) answers queries over UDP.
+ 32.603: arjang.se INFO Name server dns1.arjang.se (88.131.54.9) answers queries over TCP.
+ 32.640: arjang.se INFO Name server dns1.arjang.se (88.131.54.9) is not recursive.
+ 32.825: arjang.se INFO Name server dns1.arjang.se (88.131.54.9) authoritative for arjang.se.
+ 32.902: arjang.se INFO Name server dns1.arjang.se (88.131.54.9) closed for zone transfer of arjang.se.
+ 33.065: arjang.se NOTICE No answer received from 88.131.54.9 when querying for version.server/CH/TXT.
+ 33.065: arjang.se INFO Done testing name server dns1.arjang.se.
+ 33.065: arjang.se INFO Begin testing zone consistency for arjang.se.
+ 33.573: arjang.se INFO SOA at address 88.131.54.9 has serial 2014000033.
+ 33.573: arjang.se INFO All SOA records have consistent serial numbers.
+ 33.573: arjang.se INFO All other fields in the SOA record are consistent among all name servers.
+ 33.901: arjang.se NOTICE The listed nameservers for arjang.se all report the same set of nameservers.
+ 33.901: arjang.se INFO Done testing zone consistency for arjang.se.
+ 33.901: arjang.se INFO Begin testing SOA parameters for arjang.se.
+ 33.945: arjang.se INFO Found SOA record for arjang.se.
+ 33.945: arjang.se INFO Begin testing host dns1.arjang.se.
+ 34.161: arjang.se INFO Begin testing address 88.131.54.9.
+ 34.162: arjang.se INFO Done testing address 88.131.54.9.
+ 34.162: arjang.se INFO Done testing host dns1.arjang.se.
+ 34.162: arjang.se INFO SOA MNAME for arjang.se valid (dns1.arjang.se).
+ 34.162: arjang.se INFO SOA MNAME for arjang.se (dns1.arjang.se) listed as NS.
+ 34.447: arjang.se INFO SOA MNAME for arjang.se (dns1.arjang.se) is authoritative.
+ 34.447: arjang.se INFO Begin testing email address it@arjang.se.
+ 34.686: arjang.se INFO Mail exchangers for it@arjang.se found mx02.mep.pandasecurity.com,mx01.mep.pandasecurity.com.
+ 34.686: arjang.se INFO Begin testing host mx02.mep.pandasecurity.com.
+ 43.037: arjang.se INFO Begin testing address 92.54.22.132.
+ 44.722: arjang.se INFO Done testing address 92.54.22.132.
+ 44.722: arjang.se INFO Begin testing address 92.54.22.133.
+ 45.854: arjang.se INFO Done testing address 92.54.22.133.
+ 45.855: arjang.se INFO Begin testing address 92.54.22.75.
+ 46.681: arjang.se INFO Done testing address 92.54.22.75.
+ 46.681: arjang.se INFO Begin testing address 92.54.22.136.
+ 47.888: arjang.se INFO Done testing address 92.54.22.136.
+ 47.889: arjang.se INFO Begin testing address 92.54.22.73.
+ 49.133: arjang.se INFO Done testing address 92.54.22.73.
+ 49.133: arjang.se INFO Begin testing address 92.54.22.74.
+ 50.751: arjang.se INFO Done testing address 92.54.22.74.
+ 50.751: arjang.se INFO Begin testing address 92.54.22.134.
+ 51.807: arjang.se INFO Done testing address 92.54.22.134.
+ 51.807: arjang.se INFO Begin testing address 92.54.22.76.
+ 53.005: arjang.se INFO Done testing address 92.54.22.76.
+ 53.005: arjang.se INFO Done testing host mx02.mep.pandasecurity.com.
+ 53.521: arjang.se INFO Begin testing host mx01.mep.pandasecurity.com.
+ 54.348: arjang.se INFO Begin testing address 92.54.22.75.
+ 54.350: arjang.se INFO Done testing address 92.54.22.75.
+ 54.350: arjang.se INFO Begin testing address 92.54.22.136.
+ 54.351: arjang.se INFO Done testing address 92.54.22.136.
+ 54.351: arjang.se INFO Begin testing address 92.54.22.73.
+ 54.353: arjang.se INFO Done testing address 92.54.22.73.
+ 54.353: arjang.se INFO Begin testing address 92.54.22.74.
+ 54.354: arjang.se INFO Done testing address 92.54.22.74.
+ 54.354: arjang.se INFO Begin testing address 92.54.22.134.
+ 54.355: arjang.se INFO Done testing address 92.54.22.134.
+ 54.355: arjang.se INFO Begin testing address 92.54.22.76.
+ 54.357: arjang.se INFO Done testing address 92.54.22.76.
+ 54.358: arjang.se INFO Begin testing address 92.54.22.132.
+ 54.359: arjang.se INFO Done testing address 92.54.22.132.
+ 54.359: arjang.se INFO Begin testing address 92.54.22.133.
+ 54.360: arjang.se INFO Done testing address 92.54.22.133.
+ 54.361: arjang.se INFO Done testing host mx01.mep.pandasecurity.com.
+ 54.575: arjang.se INFO Done testing email address it@arjang.se.
+ 54.575: arjang.se INFO Successful attempt to deliver email for SOA RNAME of arjang.se (it.arjang.se) using it@arjang.se.
+ 54.576: arjang.se INFO SOA TTL for arjang.se OK (28800) - recommended >= 3600.
+ 54.576: arjang.se NOTICE SOA refresh for arjang.se too small (10800) - recommended >= 14400.
+ 54.576: arjang.se NOTICE SOA retry for arjang.se too small (1080) - recommended >= 3600.
+ 54.576: arjang.se INFO SOA expire for arjang.se OK (2419200) - recommended >= 604800.
+ 54.576: arjang.se INFO SOA minimum for arjang.se OK (900) - recommended between 300 and 86400.
+ 54.576: arjang.se INFO Done testing SOA parameters for arjang.se.
+ 54.576: arjang.se INFO Begin testing connectivity for arjang.se.
+ 55.063: arjang.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 55.063: arjang.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 55.063: arjang.se INFO Done testing connectivity for arjang.se.
+ 55.063: arjang.se INFO Begin testing DNSSEC for arjang.se.
+ 55.143: arjang.se INFO Found DS record for arjang.se at parent.
+ 55.202: arjang.se INFO Nameserver 88.131.54.9 does DNSSEC extra processing.
+ 55.202: arjang.se INFO Servers for arjang.se have consistent extra processing status.
+ 55.258: arjang.se INFO Authenticated denial records found for arjang.se, of type NSEC.
+ 55.287: arjang.se INFO Found DNSKEY record for arjang.se at child.
+ 55.287: arjang.se INFO Consistent security for arjang.se.
+ 55.288: arjang.se INFO Checking DNSSEC at child (arjang.se).
+ 55.288: arjang.se INFO arjang.se's key with tag 8437 uses algorithm number 8 (RSA/SHA-256).
+ 55.288: arjang.se INFO Algorithm number 8 is OK.
+ 55.288: arjang.se INFO DNSKEY arjang.se (tag 8437) is marked as a secure entry point (SEP).
+ 55.288: arjang.se INFO arjang.se's key with tag 36678 uses algorithm number 8 (RSA/SHA-256).
+ 55.288: arjang.se INFO Algorithm number 8 is OK.
+ 55.289: arjang.se INFO DNSSEC signature expires at: Wed Mar 12 11:46:36 2014
+ 55.289: arjang.se INFO Duration for RRSIG(arjang.se/IN/DNSKEY/8437) is OK (345603 seconds).
+ 55.292: arjang.se INFO DNSSEC signature RRSIG(arjang.se/IN/DNSKEY/8437) matches records.
+ 55.292: arjang.se INFO DNSSEC signature valid: RRSIG(arjang.se/IN/DNSKEY/8437)
+ 55.293: arjang.se INFO DNSSEC signature expires at: Wed Mar 12 11:46:36 2014
+ 55.293: arjang.se INFO Duration for RRSIG(arjang.se/IN/DNSKEY/36678) is OK (345603 seconds).
+ 55.293: arjang.se INFO DNSSEC signature RRSIG(arjang.se/IN/DNSKEY/36678) matches records.
+ 55.293: arjang.se INFO DNSSEC signature valid: RRSIG(arjang.se/IN/DNSKEY/36678)
+ 55.293: arjang.se INFO Enough valid signatures found for arjang.se.
+ 55.349: arjang.se INFO DNSSEC signature expires at: Wed Mar 12 13:00:57 2014
+ 55.349: arjang.se INFO Duration for RRSIG(arjang.se/IN/SOA/36678) is OK (349200 seconds).
+ 55.350: arjang.se INFO DNSSEC signature RRSIG(arjang.se/IN/SOA/36678) matches records.
+ 55.350: arjang.se INFO DNSSEC signature valid: RRSIG(arjang.se/IN/SOA/36678)
+ 55.350: arjang.se INFO Enough valid signatures over SOA RRset found for arjang.se.
+ 55.350: arjang.se INFO DNSSEC child checks for arjang.se complete.
+ 55.350: arjang.se INFO Checking DNSSEC at parent of arjang.se.
+ 55.351: arjang.se INFO arjang.se's key with tag 8437 uses algorithm number 8 (RSA/SHA-256).
+ 55.351: arjang.se INFO Algorithm number 8 is OK.
+ 55.351: arjang.se INFO Parent DS(arjang.se/8/1/8437) refers to valid key at child: DNSKEY(arjang.se/8/8437)
+ 55.351: arjang.se INFO Parent DS(arjang.se) refers to secure entry point (SEP) at child: DS(arjang.se/8/1/8437)
+ 55.351: arjang.se INFO arjang.se's key with tag 8437 uses algorithm number 8 (RSA/SHA-256).
+ 55.351: arjang.se INFO Algorithm number 8 is OK.
+ 55.351: arjang.se INFO Parent DS(arjang.se/8/2/8437) refers to valid key at child: DNSKEY(arjang.se/8/8437)
+ 55.352: arjang.se INFO Parent DS(arjang.se) refers to secure entry point (SEP) at child: DS(arjang.se/8/2/8437)
+ 55.352: arjang.se INFO DNSSEC parent checks for arjang.se complete.
+ 55.352: arjang.se INFO Done testing DNSSEC for arjang.se.
+ 55.352: arjang.se INFO Test completed for zone arjang.se.

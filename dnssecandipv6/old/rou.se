@@ -1,0 +1,83 @@
+  0.000: rou.se INFO Begin testing zone rou.se with version 1.0.1.
+  0.001: rou.se INFO Begin testing delegation for rou.se.
+  0.810: rou.se INFO Name servers listed at parent: dns1.datarad.se,dns2.datarad.se
+  0.896: rou.se INFO Name servers listed at child: dns1.datarad.se,dns2.datarad.se
+  0.897: rou.se NOTICE No IPv6 name servers found.
+  0.942: rou.se INFO Parent glue for rou.se found: dns2.datarad.se (77.91.216.164)
+  0.955: rou.se INFO Checking glue for dns2.datarad.se (77.91.216.164).
+  0.955: rou.se INFO Done testing delegation for rou.se.
+  0.956: rou.se INFO Begin testing name server dns1.datarad.se.
+  0.956: rou.se INFO Begin testing host dns1.datarad.se.
+  0.957: rou.se INFO Begin testing address 77.91.216.162.
+  3.388: rou.se INFO Done testing address 77.91.216.162.
+  3.388: rou.se INFO Done testing host dns1.datarad.se.
+  3.796: rou.se INFO Name server dns1.datarad.se (77.91.216.162) is not recursive.
+  3.812: rou.se INFO Name server dns1.datarad.se (77.91.216.162) authoritative for rou.se.
+  3.827: rou.se INFO Name server dns1.datarad.se (77.91.216.162) answers queries over UDP.
+  3.849: rou.se INFO Name server dns1.datarad.se (77.91.216.162) answers queries over TCP.
+  4.032: rou.se INFO Name server dns1.datarad.se (77.91.216.162) closed for zone transfer of rou.se.
+  4.046: rou.se NOTICE No answer received from 77.91.216.162 when querying for hostname.bind/CH/TXT.
+ 22.059: rou.se INFO Done testing name server dns1.datarad.se.
+ 22.059: rou.se INFO Begin testing name server dns2.datarad.se.
+ 22.059: rou.se INFO Begin testing host dns2.datarad.se.
+ 22.060: rou.se INFO Begin testing address 77.91.216.164.
+ 22.267: rou.se INFO Done testing address 77.91.216.164.
+ 22.267: rou.se INFO Done testing host dns2.datarad.se.
+ 22.489: rou.se INFO Name server dns2.datarad.se (77.91.216.164) is not recursive.
+ 22.505: rou.se INFO Name server dns2.datarad.se (77.91.216.164) authoritative for rou.se.
+ 22.522: rou.se INFO Name server dns2.datarad.se (77.91.216.164) answers queries over UDP.
+ 22.546: rou.se INFO Name server dns2.datarad.se (77.91.216.164) answers queries over TCP.
+ 22.694: rou.se INFO Name server dns2.datarad.se (77.91.216.164) closed for zone transfer of rou.se.
+ 22.709: rou.se NOTICE No answer received from 77.91.216.164 when querying for hostname.bind/CH/TXT.
+ 40.722: rou.se INFO Done testing name server dns2.datarad.se.
+ 40.723: rou.se INFO Begin testing zone consistency for rou.se.
+ 40.745: rou.se INFO SOA at address 77.91.216.164 has serial 2008050917.
+ 40.760: rou.se INFO SOA at address 77.91.216.162 has serial 2008050917.
+ 40.760: rou.se INFO All SOA records have consistent serial numbers.
+ 40.760: rou.se INFO All SOA records are consistent among all name servers.
+ 40.760: rou.se INFO Done testing zone consistency for rou.se.
+ 40.761: rou.se INFO Begin testing SOA parameters for rou.se.
+ 40.776: rou.se INFO Found SOA record for rou.se.
+ 40.776: rou.se INFO Begin testing host dns1.datarad.se.
+ 40.777: rou.se INFO Begin testing address 77.91.216.162.
+ 40.780: rou.se INFO Done testing address 77.91.216.162.
+ 40.780: rou.se INFO Done testing host dns1.datarad.se.
+ 40.780: rou.se INFO SOA MNAME for rou.se valid (dns1.datarad.se).
+ 40.781: rou.se INFO SOA MNAME for rou.se (dns1.datarad.se) listed as NS.
+ 40.797: rou.se INFO SOA MNAME for rou.se (dns1.datarad.se) is authoritative.
+ 40.798: rou.se INFO Begin testing email address hostmaster@datarad.se.
+ 40.816: rou.se INFO Mail exchangers for hostmaster@datarad.se found mail.datarad.net.
+ 40.817: rou.se INFO Begin testing host mail.datarad.net.
+ 40.818: rou.se INFO Begin testing address 77.91.216.164.
+ 40.820: rou.se INFO Done testing address 77.91.216.164.
+ 40.820: rou.se INFO Done testing host mail.datarad.net.
+ 40.821: rou.se INFO Begin testing mail server mail.datarad.net (77.91.216.164) with hostmaster@datarad.se.
+ 46.228: rou.se INFO SMTP banner: mail.datarad.net ESMTP ready
+ 46.262: rou.se INFO SMTP testing of mail.datarad.net (77.91.216.164) with hostmaster@datarad.se succeeded without errors.
+ 46.262: rou.se INFO Done testing mail server mail.datarad.net (77.91.216.164) with hostmaster@datarad.se.
+ 46.262: rou.se INFO Delivery over IPv4 to hostmaster@datarad.se ok.
+ 46.263: rou.se INFO Delivery over IPv6 to hostmaster@datarad.se could not be done.
+ 46.263: rou.se INFO Done testing email address hostmaster@datarad.se.
+ 46.263: rou.se INFO Successful attempt to deliver email for SOA RNAME of rou.se (hostmaster.datarad.se) using hostmaster@datarad.se.
+ 46.263: rou.se INFO SOA TTL for rou.se OK (3600) - recommended >= 3600.
+ 46.263: rou.se NOTICE SOA refresh for rou.se too small (1260) - recommended >= 14400.
+ 46.263: rou.se NOTICE SOA refresh for rou.se lower than retry (1260 vs 1260).
+ 46.264: rou.se NOTICE SOA retry for rou.se too small (1260) - recommended >= 3600.
+ 46.264: rou.se INFO SOA expire for rou.se OK (1814400) - recommended >= 604800.
+ 46.264: rou.se INFO SOA minimum for rou.se OK (3600) - recommended between 300 and 86400.
+ 46.264: rou.se INFO Done testing SOA parameters for rou.se.
+ 46.264: rou.se INFO Begin testing connectivity for rou.se.
+ 46.665: rou.se INFO Name server 77.91.216.162 announced by: 43012
+ 46.800: rou.se INFO Name server 77.91.216.164 announced by: 43012
+ 46.800: rou.se INFO Zone announced by ASN: 43012
+ 46.800: rou.se NOTICE Zone announced by only one ASN (1).
+ 46.800: rou.se INFO Zone announced by IPv6 ASN: 
+ 46.801: rou.se NOTICE Zone announced by only one IPv6 ASN (0).
+ 46.801: rou.se INFO Done testing connectivity for rou.se.
+ 46.801: rou.se INFO Begin testing DNSSEC for rou.se.
+ 46.822: rou.se INFO Did not find DS record for rou.se at parent.
+ 46.869: rou.se INFO Servers for rou.se have consistent extra processing status.
+ 46.869: rou.se INFO Did not find DNSKEY record for rou.se at child.
+ 46.869: rou.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 46.869: rou.se INFO Done testing DNSSEC for rou.se.
+ 46.869: rou.se INFO Test completed for zone rou.se.

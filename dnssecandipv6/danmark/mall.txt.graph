@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<style>
+			body{
+				font-family: Arial, tahoma, verdana, arial;
+			}
+			.mainContainer{
+				background: url('bg.gif');
+				font-size: 12px;
+			}
+			.dom{
+				width: 110px;
+				margin-right: 3px;
+				overflow: hidden;
+				float: left;
+			}
+			h1, h2, h3, h4, h5, h6{
+				border-bottom: 1px solid #b0b0b0;
+			}
+			.contact{
+				text-style: uppercase;
+			}
+			.subContainer{
+				margin-botton: 12px;
+			}
+		</style>
+		<title>IPv6</title>
+	</head>
+
+	<body>
+		<div class="mainContainer" style="padding:20px;border:1px solid #e0e0e0;position:absolute;left:50%;width:800px; height:500px;margin-left:-400px;margin-top:50px">
+			<h1>Municipalities with IPv6</h1>
+
+				<div class="subContainer">
+					<p><b>kommunermedipv6.se</b> is an independent website that tries to find out municipalities who have enabled some service with <b><a href=http://en.wikipedia.org/wiki/IPv6>IPv6</a></b>.<br>
+					This page will automatically update one or more times per day.<br>
+					Scary graph over swedish municipalities IPv6 deployment<br>
+					<img src=ipv6.png><br>
+					<br><i>Kontakt: tobbe (a] <a href=http://www.interlan.se>interlan</a> punkt se</i><br>
+					See also <a href=http://www.kommunermeddnssec.se>www.kommunermeddnssec.se</a>
+
+				</div>

@@ -1,0 +1,216 @@
+  0.000: jll.se INFO Begin testing zone jll.se with version 1.6.1.
+  0.506: jll.se INFO Begin testing delegation for jll.se.
+  9.798: jll.se INFO Name servers listed at parent: a.dns.tdc.se,b.dns.tdc.se,c.dns.tdc.se,ns.jll.se,spam.jll.se
+ 14.452: jll.se INFO Name servers listed at child: a.dns.tdc.se,b.dns.tdc.se,c.dns.tdc.se,ns.jll.se,spam.jll.se
+ 14.542: jll.se INFO Parent glue for jll.se found: a.dns.tdc.se (213.50.29.190)
+ 14.740: jll.se INFO Parent glue for jll.se found: b.dns.tdc.se (213.50.29.195)
+ 14.858: jll.se INFO Parent glue for jll.se found: c.dns.tdc.se (130.242.124.20)
+ 15.026: jll.se INFO Parent glue for jll.se found: ns.jll.se (194.14.51.2)
+ 15.241: jll.se INFO Parent glue for jll.se found: spam.jll.se (194.14.51.10)
+ 15.346: jll.se INFO Checking glue for a.dns.tdc.se (213.50.29.190).
+ 15.375: jll.se INFO Checking glue for b.dns.tdc.se (213.50.29.195).
+ 15.376: jll.se INFO Checking glue for c.dns.tdc.se (130.242.124.20).
+ 15.376: jll.se INFO Checking glue for ns.jll.se (194.14.51.2).
+ 15.453: jll.se INFO Child glue for jll.se found: ns.jll.se (194.14.51.2)
+ 15.453: jll.se INFO Checking glue for spam.jll.se (194.14.51.10).
+ 15.503: jll.se INFO Child glue for jll.se found: spam.jll.se (194.14.51.10)
+ 15.540: jll.se INFO Parent glue for jll.se found: a.dns.tdc.se (213.50.29.190)
+ 15.540: jll.se INFO Parent glue for jll.se found: b.dns.tdc.se (213.50.29.195)
+ 15.544: jll.se INFO Parent glue for jll.se found: c.dns.tdc.se (130.242.124.20)
+ 15.552: jll.se INFO Parent glue for jll.se found: ns.jll.se (194.14.51.2)
+ 15.576: jll.se INFO Parent glue for jll.se found: spam.jll.se (194.14.51.10)
+ 17.389: jll.se INFO It is possible to build a referral packet for jll.se that works without EDNS0.
+ 18.159: jll.se INFO Previously used name servers for jll.se: 
+ 18.159: jll.se INFO Done testing delegation for jll.se.
+ 18.159: jll.se INFO Begin testing name server a.dns.tdc.se.
+ 18.159: jll.se INFO Begin testing host a.dns.tdc.se.
+ 18.160: jll.se INFO Begin testing address 213.50.29.190.
+ 27.618: jll.se INFO Done testing address 213.50.29.190.
+ 27.619: jll.se INFO Begin testing address 2001:6f0:0:1:0:0:2:2.
+ 32.176: jll.se INFO Done testing address 2001:6f0:0:1:0:0:2:2.
+ 32.177: jll.se INFO Done testing host a.dns.tdc.se.
+ 32.210: jll.se INFO Name server a.dns.tdc.se (213.50.29.190) answers queries over UDP.
+ 32.264: jll.se INFO Name server a.dns.tdc.se (213.50.29.190) answers queries over TCP.
+ 32.302: jll.se INFO Name server a.dns.tdc.se (213.50.29.190) is not recursive.
+ 32.435: jll.se INFO Name server a.dns.tdc.se (213.50.29.190) authoritative for jll.se.
+ 32.451: jll.se INFO Name server a.dns.tdc.se (213.50.29.190) closed for zone transfer of jll.se.
+ 32.466: jll.se INFO Legacy name server ID for a.dns.tdc.se (213.50.29.190): hostname.bind = a
+ 32.500: jll.se INFO Legacy name server ID for a.dns.tdc.se (213.50.29.190): version.bind = tssk, well what can i say?
+ 32.538: jll.se NOTICE No answer received from 213.50.29.190 when querying for version.server/CH/TXT.
+ 32.571: jll.se INFO Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) answers queries over UDP.
+ 32.623: jll.se INFO Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) answers queries over TCP.
+ 32.648: jll.se INFO Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) is not recursive.
+ 32.829: jll.se INFO Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) authoritative for jll.se.
+ 32.880: jll.se INFO Name server a.dns.tdc.se (2001:6f0:0:1:0:0:2:2) closed for zone transfer of jll.se.
+ 32.892: jll.se INFO Legacy name server ID for a.dns.tdc.se (2001:6f0:0:1:0:0:2:2): hostname.bind = a
+ 32.925: jll.se INFO Legacy name server ID for a.dns.tdc.se (2001:6f0:0:1:0:0:2:2): version.bind = tssk, well what can i say?
+ 32.975: jll.se NOTICE No answer received from 2001:6f0:0:1:0:0:2:2 when querying for version.server/CH/TXT.
+ 32.983: jll.se INFO Done testing name server a.dns.tdc.se.
+ 32.983: jll.se INFO Begin testing name server b.dns.tdc.se.
+ 32.984: jll.se INFO Begin testing host b.dns.tdc.se.
+ 32.984: jll.se INFO Begin testing address 213.50.29.195.
+ 33.476: jll.se INFO Done testing address 213.50.29.195.
+ 33.476: jll.se INFO Begin testing address 2001:6f0:0:1:0:0:1:2.
+ 37.887: jll.se INFO Done testing address 2001:6f0:0:1:0:0:1:2.
+ 37.937: jll.se INFO Done testing host b.dns.tdc.se.
+ 38.078: jll.se INFO Name server b.dns.tdc.se (213.50.29.195) answers queries over UDP.
+ 38.259: jll.se INFO Name server b.dns.tdc.se (213.50.29.195) answers queries over TCP.
+ 38.407: jll.se INFO Name server b.dns.tdc.se (213.50.29.195) is not recursive.
+ 38.940: jll.se INFO Name server b.dns.tdc.se (213.50.29.195) authoritative for jll.se.
+ 39.040: jll.se INFO Name server b.dns.tdc.se (213.50.29.195) closed for zone transfer of jll.se.
+ 39.073: jll.se INFO Legacy name server ID for b.dns.tdc.se (213.50.29.195): hostname.bind = b
+ 39.150: jll.se INFO Legacy name server ID for b.dns.tdc.se (213.50.29.195): version.bind = tssk, well what can i say?
+ 39.320: jll.se NOTICE No answer received from 213.50.29.195 when querying for version.server/CH/TXT.
+ 39.383: jll.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) answers queries over UDP.
+ 39.587: jll.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) answers queries over TCP.
+ 39.808: jll.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) is not recursive.
+ 40.498: jll.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) authoritative for jll.se.
+ 40.584: jll.se INFO Name server b.dns.tdc.se (2001:6f0:0:1:0:0:1:2) closed for zone transfer of jll.se.
+ 40.672: jll.se INFO Legacy name server ID for b.dns.tdc.se (2001:6f0:0:1:0:0:1:2): hostname.bind = b
+ 40.764: jll.se INFO Legacy name server ID for b.dns.tdc.se (2001:6f0:0:1:0:0:1:2): version.bind = tssk, well what can i say?
+ 40.957: jll.se NOTICE No answer received from 2001:6f0:0:1:0:0:1:2 when querying for version.server/CH/TXT.
+ 40.958: jll.se INFO Done testing name server b.dns.tdc.se.
+ 40.958: jll.se INFO Begin testing name server c.dns.tdc.se.
+ 40.958: jll.se INFO Begin testing host c.dns.tdc.se.
+ 40.959: jll.se INFO Begin testing address 130.242.124.20.
+ 49.722: jll.se INFO Done testing address 130.242.124.20.
+ 49.722: jll.se INFO Begin testing address 2001:6b0:7:124:0:0:0:20.
+ 50.674: jll.se INFO Done testing address 2001:6b0:7:124:0:0:0:20.
+ 50.682: jll.se INFO Done testing host c.dns.tdc.se.
+ 50.719: jll.se INFO Name server c.dns.tdc.se (130.242.124.20) answers queries over UDP.
+ 50.771: jll.se INFO Name server c.dns.tdc.se (130.242.124.20) answers queries over TCP.
+ 50.804: jll.se INFO Name server c.dns.tdc.se (130.242.124.20) is not recursive.
+ 50.998: jll.se INFO Name server c.dns.tdc.se (130.242.124.20) authoritative for jll.se.
+ 51.044: jll.se INFO Name server c.dns.tdc.se (130.242.124.20) closed for zone transfer of jll.se.
+ 51.055: jll.se INFO Legacy name server ID for c.dns.tdc.se (130.242.124.20): hostname.bind = c
+ 51.101: jll.se INFO Legacy name server ID for c.dns.tdc.se (130.242.124.20): version.bind = tssk, well what can i say?
+ 51.120: jll.se NOTICE No answer received from 130.242.124.20 when querying for version.server/CH/TXT.
+ 51.183: jll.se INFO Name server c.dns.tdc.se (2001:6b0:7:124:0:0:0:20) answers queries over UDP.
+ 51.219: jll.se INFO Name server c.dns.tdc.se (2001:6b0:7:124:0:0:0:20) answers queries over TCP.
+ 51.253: jll.se INFO Name server c.dns.tdc.se (2001:6b0:7:124:0:0:0:20) is not recursive.
+ 51.424: jll.se INFO Name server c.dns.tdc.se (2001:6b0:7:124:0:0:0:20) authoritative for jll.se.
+ 51.467: jll.se INFO Name server c.dns.tdc.se (2001:6b0:7:124:0:0:0:20) closed for zone transfer of jll.se.
+ 51.480: jll.se INFO Legacy name server ID for c.dns.tdc.se (2001:6b0:7:124:0:0:0:20): hostname.bind = c
+ 51.494: jll.se INFO Legacy name server ID for c.dns.tdc.se (2001:6b0:7:124:0:0:0:20): version.bind = tssk, well what can i say?
+ 51.535: jll.se NOTICE No answer received from 2001:6b0:7:124:0:0:0:20 when querying for version.server/CH/TXT.
+ 51.538: jll.se INFO Done testing name server c.dns.tdc.se.
+ 51.538: jll.se INFO Begin testing name server ns.jll.se.
+ 51.538: jll.se INFO Begin testing host ns.jll.se.
+ 51.702: jll.se INFO Begin testing address 194.14.51.2.
+ 53.588: jll.se INFO Done testing address 194.14.51.2.
+ 53.591: jll.se INFO Done testing host ns.jll.se.
+ 53.710: jll.se INFO Name server ns.jll.se (194.14.51.2) answers queries over UDP.
+ 53.762: jll.se INFO Name server ns.jll.se (194.14.51.2) answers queries over TCP.
+ 53.781: jll.se INFO Name server ns.jll.se (194.14.51.2) is not recursive.
+ 53.869: jll.se INFO Name server ns.jll.se (194.14.51.2) authoritative for jll.se.
+ 53.914: jll.se INFO Name server ns.jll.se (194.14.51.2) closed for zone transfer of jll.se.
+ 53.933: jll.se INFO Legacy name server ID for ns.jll.se (194.14.51.2): hostname.bind = ns
+ 53.951: jll.se INFO Legacy name server ID for ns.jll.se (194.14.51.2): version.bind = [Secured for JLL]
+ 53.991: jll.se NOTICE No answer received from 194.14.51.2 when querying for version.server/CH/TXT.
+ 53.992: jll.se INFO Done testing name server ns.jll.se.
+ 53.992: jll.se INFO Begin testing name server spam.jll.se.
+ 54.003: jll.se INFO Begin testing host spam.jll.se.
+ 54.138: jll.se INFO Begin testing address 194.14.51.10.
+ 54.646: jll.se INFO Done testing address 194.14.51.10.
+ 54.660: jll.se INFO Done testing host spam.jll.se.
+ 54.859: jll.se INFO Name server spam.jll.se (194.14.51.10) answers queries over UDP.
+ 54.892: jll.se INFO Name server spam.jll.se (194.14.51.10) answers queries over TCP.
+ 54.913: jll.se INFO Name server spam.jll.se (194.14.51.10) is not recursive.
+ 54.984: jll.se INFO Name server spam.jll.se (194.14.51.10) authoritative for jll.se.
+ 55.036: jll.se INFO Name server spam.jll.se (194.14.51.10) closed for zone transfer of jll.se.
+ 55.057: jll.se INFO Legacy name server ID for spam.jll.se (194.14.51.10): hostname.bind = spam
+ 55.077: jll.se INFO Legacy name server ID for spam.jll.se (194.14.51.10): version.bind = [Secured for JLL]
+ 55.121: jll.se NOTICE No answer received from 194.14.51.10 when querying for version.server/CH/TXT.
+ 55.121: jll.se INFO Done testing name server spam.jll.se.
+ 55.121: jll.se INFO Begin testing zone consistency for jll.se.
+ 55.651: jll.se INFO SOA at address 194.14.51.10 has serial 2014030500.
+ 55.665: jll.se INFO SOA at address 2001:6f0:0:1:0:0:1:2 has serial 2014030500.
+ 55.691: jll.se INFO SOA at address 130.242.124.20 has serial 2014030500.
+ 55.713: jll.se INFO SOA at address 213.50.29.195 has serial 2014030500.
+ 55.728: jll.se INFO SOA at address 2001:6b0:7:124:0:0:0:20 has serial 2014030500.
+ 55.749: jll.se INFO SOA at address 2001:6f0:0:1:0:0:2:2 has serial 2014030500.
+ 55.778: jll.se INFO SOA at address 194.14.51.2 has serial 2014030500.
+ 55.796: jll.se INFO SOA at address 213.50.29.190 has serial 2014030500.
+ 55.796: jll.se INFO All SOA records have consistent serial numbers.
+ 55.796: jll.se INFO All other fields in the SOA record are consistent among all name servers.
+ 56.278: jll.se NOTICE The listed nameservers for jll.se all report the same set of nameservers.
+ 56.281: jll.se INFO Done testing zone consistency for jll.se.
+ 56.281: jll.se INFO Begin testing SOA parameters for jll.se.
+ 56.302: jll.se INFO Found SOA record for jll.se.
+ 56.302: jll.se INFO Begin testing host ns.jll.se.
+ 56.497: jll.se INFO Begin testing address 194.14.51.2.
+ 56.665: jll.se INFO Done testing address 194.14.51.2.
+ 56.677: jll.se INFO Done testing host ns.jll.se.
+ 56.677: jll.se INFO SOA MNAME for jll.se valid (ns.jll.se).
+ 56.677: jll.se INFO SOA MNAME for jll.se (ns.jll.se) listed as NS.
+ 56.828: jll.se INFO SOA MNAME for jll.se (ns.jll.se) is authoritative.
+ 56.828: jll.se INFO Begin testing email address hostmaster@jll.se.
+ 56.950: jll.se INFO Mail exchangers for hostmaster@jll.se found spam1.jll.se,spam2.jll.se.
+ 56.950: jll.se INFO All mail servers for hostmaster@jll.se are in zone jll.se.
+ 56.950: jll.se INFO Begin testing host spam1.jll.se.
+ 57.227: jll.se INFO Begin testing address 194.14.51.8.
+ 57.892: jll.se INFO Done testing address 194.14.51.8.
+ 57.899: jll.se INFO Done testing host spam1.jll.se.
+ 58.022: jll.se INFO Begin testing host spam2.jll.se.
+ 58.291: jll.se INFO Begin testing address 194.14.51.9.
+ 58.800: jll.se INFO Done testing address 194.14.51.9.
+ 58.800: jll.se INFO Done testing host spam2.jll.se.
+ 58.900: jll.se INFO Done testing email address hostmaster@jll.se.
+ 58.900: jll.se INFO Successful attempt to deliver email for SOA RNAME of jll.se (hostmaster.jll.se) using hostmaster@jll.se.
+ 58.900: jll.se INFO SOA TTL for jll.se OK (3600) - recommended >= 3600.
+ 58.901: jll.se NOTICE SOA refresh for jll.se too small (10800) - recommended >= 14400.
+ 58.901: jll.se INFO SOA retry for jll.se OK (3600) - recommended >= 3600.
+ 58.901: jll.se INFO SOA expire for jll.se OK (604800) - recommended >= 259200.
+ 58.901: jll.se INFO SOA minimum for jll.se OK (3600) - recommended between 300 and 86400.
+ 58.901: jll.se INFO Done testing SOA parameters for jll.se.
+ 58.901: jll.se INFO Begin testing connectivity for jll.se.
+ 61.740: jll.se INFO Zone announced by more than one ASN.
+ 63.294: jll.se INFO Zone announced by more than one IPv6 ASN.
+ 63.295: jll.se INFO Done testing connectivity for jll.se.
+ 63.295: jll.se INFO Begin testing DNSSEC for jll.se.
+ 63.332: jll.se INFO Found DS record for jll.se at parent.
+ 63.372: jll.se INFO Nameserver 194.14.51.10 does DNSSEC extra processing.
+ 63.392: jll.se INFO Nameserver 130.242.124.20 does DNSSEC extra processing.
+ 63.408: jll.se INFO Nameserver 213.50.29.195 does DNSSEC extra processing.
+ 63.444: jll.se INFO Nameserver 194.14.51.2 does DNSSEC extra processing.
+ 63.460: jll.se INFO Nameserver 213.50.29.190 does DNSSEC extra processing.
+ 63.498: jll.se INFO Nameserver 2001:6b0:7:124:0:0:0:20 does DNSSEC extra processing.
+ 63.534: jll.se INFO Nameserver 2001:6f0:0:1:0:0:1:2 does DNSSEC extra processing.
+ 63.565: jll.se INFO Nameserver 2001:6f0:0:1:0:0:2:2 does DNSSEC extra processing.
+ 63.565: jll.se INFO Servers for jll.se have consistent extra processing status.
+ 63.616: jll.se INFO Authenticated denial records found for jll.se, of type NSEC3.
+ 63.642: jll.se INFO NSEC3PARAM record found for jll.se.
+ 63.655: jll.se INFO NSEC3 for jll.se is set to use 5 iterations, which is less than 100 and thus OK.
+ 63.656: jll.se INFO Found DNSKEY record for jll.se at child.
+ 63.656: jll.se INFO Consistent security for jll.se.
+ 63.656: jll.se INFO Checking DNSSEC at child (jll.se).
+ 63.656: jll.se INFO jll.se's key with tag 10954 uses algorithm number 8 (RSA/SHA-256).
+ 63.656: jll.se INFO Algorithm number 8 is OK.
+ 63.656: jll.se INFO jll.se's key with tag 2463 uses algorithm number 8 (RSA/SHA-256).
+ 63.657: jll.se INFO Algorithm number 8 is OK.
+ 63.657: jll.se INFO jll.se's key with tag 38446 uses algorithm number 8 (RSA/SHA-256).
+ 63.659: jll.se INFO Algorithm number 8 is OK.
+ 63.659: jll.se INFO DNSKEY jll.se (tag 38446) is marked as a secure entry point (SEP).
+ 63.660: jll.se INFO DNSSEC signature expires at: Mon Mar 10 17:20:57 2014
+ 63.660: jll.se INFO Duration for RRSIG(jll.se/IN/DNSKEY/38446) is OK (637406 seconds).
+ 63.663: jll.se INFO DNSSEC signature RRSIG(jll.se/IN/DNSKEY/38446) matches records.
+ 63.671: jll.se INFO DNSSEC signature valid: RRSIG(jll.se/IN/DNSKEY/38446)
+ 63.671: jll.se INFO Enough valid signatures found for jll.se.
+ 63.707: jll.se INFO DNSSEC signature expires at: Wed Mar 12 09:46:08 2014
+ 63.709: jll.se INFO Duration for RRSIG(jll.se/IN/SOA/10954) is OK (646117 seconds).
+ 63.713: jll.se INFO DNSSEC signature RRSIG(jll.se/IN/SOA/10954) matches records.
+ 63.713: jll.se INFO DNSSEC signature valid: RRSIG(jll.se/IN/SOA/10954)
+ 63.713: jll.se INFO Enough valid signatures over SOA RRset found for jll.se.
+ 63.713: jll.se INFO DNSSEC child checks for jll.se complete.
+ 63.713: jll.se INFO Checking DNSSEC at parent of jll.se.
+ 63.713: jll.se INFO jll.se's key with tag 38446 uses algorithm number 8 (RSA/SHA-256).
+ 63.715: jll.se INFO Algorithm number 8 is OK.
+ 63.716: jll.se INFO Parent DS(jll.se/8/1/38446) refers to valid key at child: DNSKEY(jll.se/8/38446)
+ 63.717: jll.se INFO Parent DS(jll.se) refers to secure entry point (SEP) at child: DS(jll.se/8/1/38446)
+ 63.717: jll.se INFO jll.se's key with tag 38446 uses algorithm number 8 (RSA/SHA-256).
+ 63.719: jll.se INFO Algorithm number 8 is OK.
+ 63.720: jll.se INFO Parent DS(jll.se/8/2/38446) refers to valid key at child: DNSKEY(jll.se/8/38446)
+ 63.720: jll.se INFO Parent DS(jll.se) refers to secure entry point (SEP) at child: DS(jll.se/8/2/38446)
+ 63.720: jll.se INFO DNSSEC parent checks for jll.se complete.
+ 63.720: jll.se INFO Done testing DNSSEC for jll.se.
+ 63.721: jll.se INFO Test completed for zone jll.se.

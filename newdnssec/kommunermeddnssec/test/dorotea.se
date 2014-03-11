@@ -1,0 +1,119 @@
+  0.000: dorotea.se INFO Begin testing zone dorotea.se with version 1.6.1.
+  0.534: dorotea.se INFO Begin testing delegation for dorotea.se.
+ 16.779: dorotea.se INFO Name servers listed at parent: dns.umea.se,ns.dorotea.se,ns2.dorotea.se
+ 21.041: dorotea.se INFO Name servers listed at child: dns.umea.se,ns.dorotea.se,ns2.dorotea.se
+ 21.041: dorotea.se NOTICE No IPv6 name servers found.
+ 21.477: dorotea.se INFO Parent glue for dorotea.se found: ns.dorotea.se (80.88.100.13)
+ 21.646: dorotea.se INFO Parent glue for dorotea.se found: ns2.dorotea.se (80.88.100.12)
+ 21.727: dorotea.se INFO Checking glue for ns.dorotea.se (80.88.100.13).
+ 21.786: dorotea.se INFO Child glue for dorotea.se found: ns.dorotea.se (80.88.100.13)
+ 21.787: dorotea.se INFO Checking glue for ns2.dorotea.se (80.88.100.12).
+ 21.913: dorotea.se INFO Child glue for dorotea.se found: ns2.dorotea.se (80.88.100.12)
+ 21.913: dorotea.se INFO Parent glue for dorotea.se found: ns.dorotea.se (80.88.100.13)
+ 21.913: dorotea.se INFO Parent glue for dorotea.se found: ns2.dorotea.se (80.88.100.12)
+ 24.008: dorotea.se INFO It is possible to build a referral packet for dorotea.se that works without EDNS0.
+ 26.445: dorotea.se INFO Previously used name servers for dorotea.se: 
+ 26.445: dorotea.se INFO Done testing delegation for dorotea.se.
+ 26.446: dorotea.se INFO Begin testing name server dns.umea.se.
+ 26.446: dorotea.se INFO Begin testing host dns.umea.se.
+ 27.108: dorotea.se INFO Begin testing address 194.165.224.165.
+ 45.439: dorotea.se INFO Done testing address 194.165.224.165.
+ 45.440: dorotea.se INFO Done testing host dns.umea.se.
+ 46.371: dorotea.se INFO Name server dns.umea.se (194.165.224.165) answers queries over UDP.
+ 46.443: dorotea.se INFO Name server dns.umea.se (194.165.224.165) answers queries over TCP.
+ 46.499: dorotea.se INFO Name server dns.umea.se (194.165.224.165) is not recursive.
+ 46.700: dorotea.se INFO Name server dns.umea.se (194.165.224.165) authoritative for dorotea.se.
+ 46.803: dorotea.se INFO Name server dns.umea.se (194.165.224.165) closed for zone transfer of dorotea.se.
+ 46.974: dorotea.se INFO Legacy name server ID for dns.umea.se (194.165.224.165): hostname.bind = dns2mgmt.norrnod.se
+ 47.088: dorotea.se INFO Legacy name server ID for dns.umea.se (194.165.224.165): version.bind = hakan 140124
+ 47.176: dorotea.se NOTICE No answer received from 194.165.224.165 when querying for version.server/CH/TXT.
+ 47.176: dorotea.se INFO Done testing name server dns.umea.se.
+ 47.176: dorotea.se INFO Begin testing name server ns.dorotea.se.
+ 47.176: dorotea.se INFO Begin testing host ns.dorotea.se.
+ 47.531: dorotea.se INFO Begin testing address 80.88.100.13.
+ 50.551: dorotea.se INFO Done testing address 80.88.100.13.
+ 50.552: dorotea.se INFO Done testing host ns.dorotea.se.
+ 51.037: dorotea.se INFO Name server ns.dorotea.se (80.88.100.13) answers queries over UDP.
+ 51.118: dorotea.se INFO Name server ns.dorotea.se (80.88.100.13) answers queries over TCP.
+ 51.197: dorotea.se INFO Name server ns.dorotea.se (80.88.100.13) is not recursive.
+ 52.017: dorotea.se INFO Name server ns.dorotea.se (80.88.100.13) authoritative for dorotea.se.
+ 52.117: dorotea.se INFO Name server ns.dorotea.se (80.88.100.13) closed for zone transfer of dorotea.se.
+ 52.143: dorotea.se INFO Legacy name server ID for ns.dorotea.se (80.88.100.13): hostname.bind = ns
+ 52.233: dorotea.se INFO Legacy name server ID for ns.dorotea.se (80.88.100.13): version.bind = 9.5.1-P2
+ 52.375: dorotea.se NOTICE No answer received from 80.88.100.13 when querying for version.server/CH/TXT.
+ 52.376: dorotea.se INFO Done testing name server ns.dorotea.se.
+ 52.376: dorotea.se INFO Begin testing name server ns2.dorotea.se.
+ 52.376: dorotea.se INFO Begin testing host ns2.dorotea.se.
+ 52.675: dorotea.se INFO Begin testing address 80.88.100.12.
+ 54.998: dorotea.se INFO Done testing address 80.88.100.12.
+ 54.999: dorotea.se INFO Done testing host ns2.dorotea.se.
+ 55.288: dorotea.se INFO Name server ns2.dorotea.se (80.88.100.12) answers queries over UDP.
+ 55.367: dorotea.se INFO Name server ns2.dorotea.se (80.88.100.12) answers queries over TCP.
+ 55.414: dorotea.se INFO Name server ns2.dorotea.se (80.88.100.12) is not recursive.
+ 55.733: dorotea.se INFO Name server ns2.dorotea.se (80.88.100.12) authoritative for dorotea.se.
+ 56.987: dorotea.se NOTICE Name server ns2.dorotea.se (80.88.100.12) open for zone transfer of dorotea.se.
+ 57.115: dorotea.se INFO Legacy name server ID for ns2.dorotea.se (80.88.100.12): hostname.bind = www
+ 57.160: dorotea.se INFO Legacy name server ID for ns2.dorotea.se (80.88.100.12): version.bind = 9.4.2
+ 57.268: dorotea.se NOTICE No answer received from 80.88.100.12 when querying for version.server/CH/TXT.
+ 57.268: dorotea.se INFO Done testing name server ns2.dorotea.se.
+ 57.269: dorotea.se INFO Begin testing zone consistency for dorotea.se.
+ 62.685: dorotea.se INFO SOA at address 80.88.100.12 has serial 2012011901.
+ 62.732: dorotea.se INFO SOA at address 80.88.100.13 has serial 2012011901.
+ 62.820: dorotea.se INFO SOA at address 194.165.224.165 has serial 2012011901.
+ 62.820: dorotea.se INFO All SOA records have consistent serial numbers.
+ 62.820: dorotea.se INFO All other fields in the SOA record are consistent among all name servers.
+ 64.000: dorotea.se NOTICE The listed nameservers for dorotea.se all report the same set of nameservers.
+ 64.000: dorotea.se INFO Done testing zone consistency for dorotea.se.
+ 64.001: dorotea.se INFO Begin testing SOA parameters for dorotea.se.
+ 64.057: dorotea.se INFO Found SOA record for dorotea.se.
+ 64.058: dorotea.se INFO Begin testing host ns.dorotea.se.
+ 64.510: dorotea.se INFO Begin testing address 80.88.100.13.
+ 64.946: dorotea.se INFO Done testing address 80.88.100.13.
+ 64.946: dorotea.se INFO Done testing host ns.dorotea.se.
+ 64.946: dorotea.se INFO SOA MNAME for dorotea.se valid (ns.dorotea.se).
+ 64.946: dorotea.se INFO SOA MNAME for dorotea.se (ns.dorotea.se) listed as NS.
+ 65.329: dorotea.se INFO SOA MNAME for dorotea.se (ns.dorotea.se) is authoritative.
+ 65.329: dorotea.se INFO Begin testing email address linda@dorotea.se.
+ 65.689: dorotea.se INFO Mail exchangers for linda@dorotea.se found smtp-in.sto-hy.se.stejtech.net,smtp-in.sto-ste.se.stejtech.net.
+ 65.689: dorotea.se INFO Begin testing host smtp-in.sto-hy.se.stejtech.net.
+ 66.772: dorotea.se INFO Begin testing address 91.236.209.10.
+ 69.698: dorotea.se INFO Done testing address 91.236.209.10.
+ 69.698: dorotea.se INFO Begin testing address 79.136.102.100.
+ 72.493: dorotea.se INFO Done testing address 79.136.102.100.
+ 72.493: dorotea.se INFO Begin testing address 91.236.208.10.
+ 73.721: dorotea.se INFO Done testing address 91.236.208.10.
+ 73.721: dorotea.se INFO Begin testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 74.635: dorotea.se INFO Done testing address 2001:67c:27e0:2210:0:0:0:1b01.
+ 74.635: dorotea.se INFO Begin testing address 2001:67c:27e0:2110:0:0:0:1b01.
+ 76.430: dorotea.se INFO Done testing address 2001:67c:27e0:2110:0:0:0:1b01.
+ 76.430: dorotea.se INFO Begin testing address 2001:9b0:1:703:0:0:0:1b01.
+ 78.257: dorotea.se INFO Done testing address 2001:9b0:1:703:0:0:0:1b01.
+ 78.257: dorotea.se INFO Done testing host smtp-in.sto-hy.se.stejtech.net.
+ 78.258: dorotea.se INFO Begin testing host smtp-in.sto-ste.se.stejtech.net.
+ 78.868: dorotea.se INFO Begin testing address 79.136.102.90.
+ 80.402: dorotea.se INFO Done testing address 79.136.102.90.
+ 80.402: dorotea.se INFO Begin testing address 83.140.31.145.
+ 81.681: dorotea.se INFO Done testing address 83.140.31.145.
+ 81.681: dorotea.se INFO Begin testing address 2001:9b0:1:703:0:0:0:b002.
+ 83.566: dorotea.se INFO Done testing address 2001:9b0:1:703:0:0:0:b002.
+ 83.566: dorotea.se INFO Done testing host smtp-in.sto-ste.se.stejtech.net.
+ 83.566: dorotea.se INFO Done testing email address linda@dorotea.se.
+ 83.571: dorotea.se INFO Successful attempt to deliver email for SOA RNAME of dorotea.se (linda.dorotea.se) using linda@dorotea.se.
+ 83.571: dorotea.se INFO SOA TTL for dorotea.se OK (3600) - recommended >= 3600.
+ 83.572: dorotea.se INFO SOA refresh for dorotea.se OK (28800) - recommended >= 14400.
+ 83.572: dorotea.se INFO SOA retry for dorotea.se OK (3600) - recommended >= 3600.
+ 83.572: dorotea.se INFO SOA expire for dorotea.se OK (604800) - recommended >= 604800.
+ 83.572: dorotea.se INFO SOA minimum for dorotea.se OK (86400) - recommended between 300 and 86400.
+ 83.572: dorotea.se INFO Done testing SOA parameters for dorotea.se.
+ 83.572: dorotea.se INFO Begin testing connectivity for dorotea.se.
+ 86.226: dorotea.se INFO Zone announced by more than one ASN.
+ 86.226: dorotea.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 86.226: dorotea.se INFO Done testing connectivity for dorotea.se.
+ 86.226: dorotea.se INFO Begin testing DNSSEC for dorotea.se.
+ 86.246: dorotea.se INFO Did not find DS record for dorotea.se at parent.
+ 88.475: dorotea.se INFO Servers for dorotea.se have consistent extra processing status.
+ 88.520: dorotea.se INFO Authenticated denial records not found for dorotea.se.
+ 88.623: dorotea.se INFO Did not find DNSKEY record for dorotea.se at child.
+ 88.629: dorotea.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 88.630: dorotea.se INFO Done testing DNSSEC for dorotea.se.
+ 88.630: dorotea.se INFO Test completed for zone dorotea.se.

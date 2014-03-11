@@ -1,0 +1,79 @@
+  0.000: sparbanken1826.se INFO Begin testing zone sparbanken1826.se with version 1.5.0.
+  0.002: sparbanken1826.se INFO Begin testing delegation for sparbanken1826.se.
+  6.965: sparbanken1826.se INFO Name servers listed at parent: ns1.ascio.com,ns2.ascio.com
+  9.185: sparbanken1826.se INFO Name servers listed at child: ns1.ascio.com,ns2.ascio.com
+  9.186: sparbanken1826.se NOTICE No IPv6 name servers found.
+  9.401: sparbanken1826.se NOTICE DNS lookup error (SERVFAIL).
+  9.471: sparbanken1826.se NOTICE DNS lookup error (SERVFAIL).
+ 10.339: sparbanken1826.se INFO It is possible to build a referral packet for sparbanken1826.se that works without EDNS0.
+ 10.339: sparbanken1826.se INFO Done testing delegation for sparbanken1826.se.
+ 10.341: sparbanken1826.se INFO Begin testing name server ns1.ascio.com.
+ 10.341: sparbanken1826.se INFO Begin testing host ns1.ascio.com.
+ 10.730: sparbanken1826.se INFO Begin testing address 91.194.150.220.
+ 28.181: sparbanken1826.se INFO Done testing address 91.194.150.220.
+ 28.181: sparbanken1826.se INFO Done testing host ns1.ascio.com.
+ 28.866: sparbanken1826.se INFO Name server ns1.ascio.com (91.194.150.220) answers queries over UDP.
+ 28.930: sparbanken1826.se INFO Name server ns1.ascio.com (91.194.150.220) answers queries over TCP.
+ 28.970: sparbanken1826.se INFO Name server ns1.ascio.com (91.194.150.220) is not recursive.
+ 29.105: sparbanken1826.se INFO Name server ns1.ascio.com (91.194.150.220) authoritative for sparbanken1826.se.
+ 29.196: sparbanken1826.se INFO Name server ns1.ascio.com (91.194.150.220) closed for zone transfer of sparbanken1826.se.
+ 29.268: sparbanken1826.se INFO Legacy name server ID for ns1.ascio.com (91.194.150.220): version.bind = Served by POWERDNS 2.9.7 $Id: packethandler.cc,v 1.12 2003/03/17 13:44:53 ahu Exp $
+ 29.335: sparbanken1826.se INFO Done testing name server ns1.ascio.com.
+ 29.335: sparbanken1826.se INFO Begin testing name server ns2.ascio.com.
+ 29.335: sparbanken1826.se INFO Begin testing host ns2.ascio.com.
+ 29.980: sparbanken1826.se INFO Begin testing address 80.237.206.33.
+ 31.814: sparbanken1826.se INFO Done testing address 80.237.206.33.
+ 31.814: sparbanken1826.se INFO Done testing host ns2.ascio.com.
+ 32.534: sparbanken1826.se INFO Name server ns2.ascio.com (80.237.206.33) answers queries over UDP.
+ 32.609: sparbanken1826.se INFO Name server ns2.ascio.com (80.237.206.33) answers queries over TCP.
+ 32.651: sparbanken1826.se INFO Name server ns2.ascio.com (80.237.206.33) is not recursive.
+ 32.812: sparbanken1826.se INFO Name server ns2.ascio.com (80.237.206.33) authoritative for sparbanken1826.se.
+ 32.920: sparbanken1826.se INFO Name server ns2.ascio.com (80.237.206.33) closed for zone transfer of sparbanken1826.se.
+ 33.001: sparbanken1826.se NOTICE No answer received from 80.237.206.33 when querying for version.bind/CH/TXT.
+ 33.083: sparbanken1826.se INFO Done testing name server ns2.ascio.com.
+ 33.084: sparbanken1826.se INFO Begin testing zone consistency for sparbanken1826.se.
+ 35.093: sparbanken1826.se INFO SOA at address 80.237.206.33 has serial 1362380533.
+ 35.127: sparbanken1826.se INFO SOA at address 91.194.150.220 has serial 1362380533.
+ 35.127: sparbanken1826.se INFO All SOA records have consistent serial numbers.
+ 35.128: sparbanken1826.se INFO All other fields in the SOA record are consistent among all name servers.
+ 35.970: sparbanken1826.se NOTICE The listed nameservers for sparbanken1826.se all report the same set of nameservers.
+ 35.970: sparbanken1826.se INFO Done testing zone consistency for sparbanken1826.se.
+ 35.970: sparbanken1826.se INFO Begin testing SOA parameters for sparbanken1826.se.
+ 36.013: sparbanken1826.se INFO Found SOA record for sparbanken1826.se.
+ 36.014: sparbanken1826.se INFO Begin testing host ns1.ascio.com.
+ 36.405: sparbanken1826.se INFO Begin testing address 91.194.150.220.
+ 36.947: sparbanken1826.se INFO Done testing address 91.194.150.220.
+ 36.948: sparbanken1826.se INFO Done testing host ns1.ascio.com.
+ 36.948: sparbanken1826.se INFO SOA MNAME for sparbanken1826.se valid (ns1.ascio.com).
+ 36.948: sparbanken1826.se INFO SOA MNAME for sparbanken1826.se (ns1.ascio.com) listed as NS.
+ 37.517: sparbanken1826.se INFO SOA MNAME for sparbanken1826.se (ns1.ascio.com) is authoritative.
+ 37.517: sparbanken1826.se INFO Begin testing email address hostmaster@cedel.se.
+ 40.515: sparbanken1826.se INFO Mail exchangers for hostmaster@cedel.se found relay2.netnames.net,relay1.netnames.net.
+ 40.516: sparbanken1826.se INFO Begin testing host relay2.netnames.net.
+ 41.081: sparbanken1826.se INFO Begin testing address 212.53.64.44.
+ 42.194: sparbanken1826.se INFO Done testing address 212.53.64.44.
+ 42.194: sparbanken1826.se INFO Done testing host relay2.netnames.net.
+ 42.574: sparbanken1826.se INFO Begin testing host relay1.netnames.net.
+ 43.536: sparbanken1826.se INFO Begin testing address 62.128.158.226.
+ 44.347: sparbanken1826.se INFO Done testing address 62.128.158.226.
+ 44.348: sparbanken1826.se INFO Done testing host relay1.netnames.net.
+ 44.657: sparbanken1826.se INFO Done testing email address hostmaster@cedel.se.
+ 44.657: sparbanken1826.se INFO Successful attempt to deliver email for SOA RNAME of sparbanken1826.se (hostmaster.cedel.se) using hostmaster@cedel.se.
+ 44.657: sparbanken1826.se INFO SOA TTL for sparbanken1826.se OK (86400) - recommended >= 3600.
+ 44.658: sparbanken1826.se NOTICE SOA refresh for sparbanken1826.se too small (10800) - recommended >= 14400.
+ 44.658: sparbanken1826.se INFO SOA retry for sparbanken1826.se OK (3600) - recommended >= 3600.
+ 44.658: sparbanken1826.se INFO SOA expire for sparbanken1826.se OK (604800) - recommended >= 604800.
+ 44.658: sparbanken1826.se INFO SOA minimum for sparbanken1826.se OK (40001) - recommended between 300 and 86400.
+ 44.658: sparbanken1826.se INFO Done testing SOA parameters for sparbanken1826.se.
+ 44.660: sparbanken1826.se INFO Begin testing connectivity for sparbanken1826.se.
+ 45.691: sparbanken1826.se INFO Zone announced by more than one ASN.
+ 45.691: sparbanken1826.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 45.691: sparbanken1826.se INFO Done testing connectivity for sparbanken1826.se.
+ 45.692: sparbanken1826.se INFO Begin testing DNSSEC for sparbanken1826.se.
+ 45.926: sparbanken1826.se INFO Did not find DS record for sparbanken1826.se at parent.
+ 46.142: sparbanken1826.se INFO Servers for sparbanken1826.se have consistent extra processing status.
+ 46.220: sparbanken1826.se INFO Authenticated denial records not found for sparbanken1826.se.
+ 46.267: sparbanken1826.se INFO Did not find DNSKEY record for sparbanken1826.se at child.
+ 46.268: sparbanken1826.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 46.268: sparbanken1826.se INFO Done testing DNSSEC for sparbanken1826.se.
+ 46.269: sparbanken1826.se INFO Test completed for zone sparbanken1826.se.

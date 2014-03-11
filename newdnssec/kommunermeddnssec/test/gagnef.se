@@ -1,0 +1,86 @@
+  0.000: gagnef.se INFO Begin testing zone gagnef.se with version 1.6.1.
+  0.507: gagnef.se INFO Begin testing delegation for gagnef.se.
+ 19.439: gagnef.se INFO Name servers listed at parent: ns5.glidecom.net,ns6.glidecom.net,ns7.glidecom.net
+ 23.579: gagnef.se INFO Name servers listed at child: ns5.glidecom.net,ns6.glidecom.net,ns7.glidecom.net
+ 23.579: gagnef.se NOTICE No IPv6 name servers found.
+ 26.129: gagnef.se INFO It is possible to build a referral packet for gagnef.se that works without EDNS0.
+ 30.022: gagnef.se INFO Previously used name servers for gagnef.se: 
+ 30.022: gagnef.se INFO Done testing delegation for gagnef.se.
+ 30.023: gagnef.se INFO Begin testing name server ns5.glidecom.net.
+ 30.023: gagnef.se INFO Begin testing host ns5.glidecom.net.
+ 33.147: gagnef.se INFO Begin testing address 195.35.82.101.
+ 53.231: gagnef.se INFO Done testing address 195.35.82.101.
+ 53.231: gagnef.se INFO Done testing host ns5.glidecom.net.
+ 53.665: gagnef.se INFO Name server ns5.glidecom.net (195.35.82.101) answers queries over UDP.
+ 53.856: gagnef.se INFO Name server ns5.glidecom.net (195.35.82.101) answers queries over TCP.
+ 55.343: gagnef.se INFO Name server ns5.glidecom.net (195.35.82.101) is not recursive.
+ 55.685: gagnef.se INFO Name server ns5.glidecom.net (195.35.82.101) authoritative for gagnef.se.
+ 57.710: gagnef.se INFO Name server ns5.glidecom.net (195.35.82.101) closed for zone transfer of gagnef.se.
+ 63.173: gagnef.se INFO Legacy name server ID for ns5.glidecom.net (195.35.82.101): version.bind = sec0553
+ 71.350: gagnef.se INFO Done testing name server ns5.glidecom.net.
+ 71.350: gagnef.se INFO Begin testing name server ns6.glidecom.net.
+ 71.350: gagnef.se INFO Begin testing host ns6.glidecom.net.
+ 72.047: gagnef.se INFO Begin testing address 89.221.245.42.
+ 74.335: gagnef.se INFO Done testing address 89.221.245.42.
+ 74.335: gagnef.se INFO Done testing host ns6.glidecom.net.
+ 74.713: gagnef.se INFO Name server ns6.glidecom.net (89.221.245.42) answers queries over UDP.
+ 74.783: gagnef.se INFO Name server ns6.glidecom.net (89.221.245.42) answers queries over TCP.
+ 74.835: gagnef.se INFO Name server ns6.glidecom.net (89.221.245.42) is not recursive.
+ 74.981: gagnef.se INFO Name server ns6.glidecom.net (89.221.245.42) authoritative for gagnef.se.
+ 75.062: gagnef.se INFO Name server ns6.glidecom.net (89.221.245.42) closed for zone transfer of gagnef.se.
+ 75.138: gagnef.se INFO Legacy name server ID for ns6.glidecom.net (89.221.245.42): version.bind = sec0553
+ 75.201: gagnef.se INFO Done testing name server ns6.glidecom.net.
+ 75.201: gagnef.se INFO Begin testing name server ns7.glidecom.net.
+ 75.201: gagnef.se INFO Begin testing host ns7.glidecom.net.
+ 75.471: gagnef.se INFO Begin testing address 195.35.83.103.
+ 76.726: gagnef.se INFO Done testing address 195.35.83.103.
+ 76.727: gagnef.se INFO Done testing host ns7.glidecom.net.
+ 77.091: gagnef.se INFO Name server ns7.glidecom.net (195.35.83.103) answers queries over UDP.
+ 77.160: gagnef.se INFO Name server ns7.glidecom.net (195.35.83.103) answers queries over TCP.
+ 78.282: gagnef.se INFO Name server ns7.glidecom.net (195.35.83.103) is not recursive.
+ 78.391: gagnef.se INFO Name server ns7.glidecom.net (195.35.83.103) authoritative for gagnef.se.
+ 80.418: gagnef.se INFO Name server ns7.glidecom.net (195.35.83.103) closed for zone transfer of gagnef.se.
+ 88.508: gagnef.se INFO Done testing name server ns7.glidecom.net.
+ 88.508: gagnef.se INFO Begin testing zone consistency for gagnef.se.
+ 97.222: gagnef.se INFO SOA at address 195.35.83.103 has serial 1382354280.
+ 97.239: gagnef.se INFO SOA at address 89.221.245.42 has serial 1382354280.
+ 97.266: gagnef.se INFO SOA at address 195.35.82.101 has serial 1382354280.
+ 97.266: gagnef.se INFO All SOA records have consistent serial numbers.
+ 97.266: gagnef.se INFO All other fields in the SOA record are consistent among all name servers.
+ 99.363: gagnef.se NOTICE The listed nameservers for gagnef.se all report the same set of nameservers.
+ 99.363: gagnef.se INFO Done testing zone consistency for gagnef.se.
+ 99.363: gagnef.se INFO Begin testing SOA parameters for gagnef.se.
+ 99.474: gagnef.se INFO Found SOA record for gagnef.se.
+ 99.475: gagnef.se INFO Begin testing host ns5.glidecom.net.
+ 99.807: gagnef.se INFO Begin testing address 195.35.82.101.
+100.290: gagnef.se INFO Done testing address 195.35.82.101.
+100.290: gagnef.se INFO Done testing host ns5.glidecom.net.
+100.291: gagnef.se INFO SOA MNAME for gagnef.se valid (ns5.glidecom.net).
+100.291: gagnef.se INFO SOA MNAME for gagnef.se (ns5.glidecom.net) listed as NS.
+101.959: gagnef.se INFO SOA MNAME for gagnef.se (ns5.glidecom.net) is authoritative.
+101.959: gagnef.se INFO Begin testing email address registry@glidecom.net.
+102.695: gagnef.se INFO Mail exchangers for registry@glidecom.net found mail-gw01.fsdata.se.
+102.695: gagnef.se INFO Begin testing host mail-gw01.fsdata.se.
+103.318: gagnef.se INFO Begin testing address 195.35.82.79.
+104.738: gagnef.se INFO Done testing address 195.35.82.79.
+104.745: gagnef.se INFO Done testing host mail-gw01.fsdata.se.
+105.475: gagnef.se INFO Done testing email address registry@glidecom.net.
+105.475: gagnef.se INFO Successful attempt to deliver email for SOA RNAME of gagnef.se (registry.glidecom.net) using registry@glidecom.net.
+105.475: gagnef.se NOTICE SOA TTL for gagnef.se too small (600) - recommended >= 3600.
+105.475: gagnef.se NOTICE SOA refresh for gagnef.se too small (10800) - recommended >= 14400.
+105.475: gagnef.se INFO SOA retry for gagnef.se OK (3600) - recommended >= 3600.
+105.475: gagnef.se INFO SOA expire for gagnef.se OK (604800) - recommended >= 604800.
+105.475: gagnef.se INFO SOA minimum for gagnef.se OK (600) - recommended between 300 and 86400.
+105.475: gagnef.se INFO Done testing SOA parameters for gagnef.se.
+105.476: gagnef.se INFO Begin testing connectivity for gagnef.se.
+107.594: gagnef.se INFO Zone announced by more than one ASN.
+107.594: gagnef.se NOTICE Zone announced by fewer than two IPv6 ASN.
+107.594: gagnef.se INFO Done testing connectivity for gagnef.se.
+107.604: gagnef.se INFO Begin testing DNSSEC for gagnef.se.
+107.680: gagnef.se INFO Did not find DS record for gagnef.se at parent.
+107.806: gagnef.se INFO Servers for gagnef.se have consistent extra processing status.
+107.867: gagnef.se INFO Authenticated denial records not found for gagnef.se.
+107.886: gagnef.se INFO Did not find DNSKEY record for gagnef.se at child.
+107.897: gagnef.se INFO No DNSKEY(s) found at child, other tests skipped.
+107.897: gagnef.se INFO Done testing DNSSEC for gagnef.se.
+107.902: gagnef.se INFO Test completed for zone gagnef.se.

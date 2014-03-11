@@ -1,0 +1,82 @@
+  0.000: giske.kommune.no INFO Begin testing zone giske.kommune.no with version 1.6.1.
+  0.502: giske.kommune.no INFO Begin testing delegation for giske.kommune.no.
+  8.278: giske.kommune.no INFO Name servers listed at parent: ns.mimer.no,ns2.mimer.no
+  9.667: giske.kommune.no INFO Name servers listed at child: ns.mimer.no,ns2.mimer.no
+  9.667: giske.kommune.no NOTICE No IPv6 name servers found.
+  9.810: giske.kommune.no NOTICE DNS lookup error (SERVFAIL).
+  9.934: giske.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.064: giske.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.214: giske.kommune.no NOTICE DNS lookup error (SERVFAIL).
+ 10.872: giske.kommune.no INFO It is possible to build a referral packet for giske.kommune.no that works without EDNS0.
+ 11.302: giske.kommune.no INFO Previously used name servers for giske.kommune.no: 
+ 11.303: giske.kommune.no INFO Done testing delegation for giske.kommune.no.
+ 11.303: giske.kommune.no INFO Begin testing name server ns.mimer.no.
+ 11.303: giske.kommune.no INFO Begin testing host ns.mimer.no.
+ 11.485: giske.kommune.no INFO Begin testing address 213.184.200.1.
+ 17.558: giske.kommune.no INFO Done testing address 213.184.200.1.
+ 17.558: giske.kommune.no INFO Done testing host ns.mimer.no.
+ 17.733: giske.kommune.no INFO Name server ns.mimer.no (213.184.200.1) answers queries over UDP.
+ 17.810: giske.kommune.no INFO Name server ns.mimer.no (213.184.200.1) answers queries over TCP.
+ 17.834: giske.kommune.no INFO Name server ns.mimer.no (213.184.200.1) is not recursive.
+ 17.960: giske.kommune.no INFO Name server ns.mimer.no (213.184.200.1) authoritative for giske.kommune.no.
+ 18.026: giske.kommune.no INFO Name server ns.mimer.no (213.184.200.1) closed for zone transfer of giske.kommune.no.
+ 18.053: giske.kommune.no INFO Legacy name server ID for ns.mimer.no (213.184.200.1): hostname.bind = odin
+ 18.094: giske.kommune.no INFO Legacy name server ID for ns.mimer.no (213.184.200.1): version.bind = 9.7.3
+ 18.146: giske.kommune.no NOTICE No answer received from 213.184.200.1 when querying for version.server/CH/TXT.
+ 18.147: giske.kommune.no INFO Done testing name server ns.mimer.no.
+ 18.147: giske.kommune.no INFO Begin testing name server ns2.mimer.no.
+ 18.147: giske.kommune.no INFO Begin testing host ns2.mimer.no.
+ 18.323: giske.kommune.no INFO Begin testing address 213.184.200.2.
+ 19.131: giske.kommune.no INFO Done testing address 213.184.200.2.
+ 19.131: giske.kommune.no INFO Done testing host ns2.mimer.no.
+ 19.383: giske.kommune.no INFO Name server ns2.mimer.no (213.184.200.2) answers queries over UDP.
+ 19.429: giske.kommune.no INFO Name server ns2.mimer.no (213.184.200.2) answers queries over TCP.
+ 19.466: giske.kommune.no INFO Name server ns2.mimer.no (213.184.200.2) is not recursive.
+ 19.578: giske.kommune.no INFO Name server ns2.mimer.no (213.184.200.2) authoritative for giske.kommune.no.
+ 19.670: giske.kommune.no INFO Name server ns2.mimer.no (213.184.200.2) closed for zone transfer of giske.kommune.no.
+ 19.697: giske.kommune.no INFO Legacy name server ID for ns2.mimer.no (213.184.200.2): hostname.bind = fjordgyn
+ 19.730: giske.kommune.no INFO Legacy name server ID for ns2.mimer.no (213.184.200.2): version.bind = 9.7.3
+ 19.788: giske.kommune.no NOTICE No answer received from 213.184.200.2 when querying for version.server/CH/TXT.
+ 19.788: giske.kommune.no INFO Done testing name server ns2.mimer.no.
+ 19.788: giske.kommune.no INFO Begin testing zone consistency for giske.kommune.no.
+ 20.530: giske.kommune.no INFO SOA at address 213.184.200.1 has serial 990558.
+ 20.564: giske.kommune.no INFO SOA at address 213.184.200.2 has serial 990558.
+ 20.564: giske.kommune.no INFO All SOA records have consistent serial numbers.
+ 20.564: giske.kommune.no INFO All other fields in the SOA record are consistent among all name servers.
+ 20.911: giske.kommune.no NOTICE The listed nameservers for giske.kommune.no all report the same set of nameservers.
+ 20.911: giske.kommune.no INFO Done testing zone consistency for giske.kommune.no.
+ 20.911: giske.kommune.no INFO Begin testing SOA parameters for giske.kommune.no.
+ 20.936: giske.kommune.no INFO Found SOA record for giske.kommune.no.
+ 20.949: giske.kommune.no INFO Begin testing host ns.mimer.no.
+ 21.057: giske.kommune.no INFO Begin testing address 213.184.200.1.
+ 21.456: giske.kommune.no INFO Done testing address 213.184.200.1.
+ 21.457: giske.kommune.no INFO Done testing host ns.mimer.no.
+ 21.457: giske.kommune.no INFO SOA MNAME for giske.kommune.no valid (ns.mimer.no).
+ 21.457: giske.kommune.no INFO SOA MNAME for giske.kommune.no (ns.mimer.no) listed as NS.
+ 21.676: giske.kommune.no INFO SOA MNAME for giske.kommune.no (ns.mimer.no) is authoritative.
+ 21.677: giske.kommune.no INFO Begin testing email address hostmaster@mimer.no.
+ 21.796: giske.kommune.no INFO Mail exchangers for hostmaster@mimer.no found pop.mimer.no.
+ 21.796: giske.kommune.no INFO Begin testing host pop.mimer.no.
+ 22.265: giske.kommune.no INFO Begin testing address 213.184.202.5.
+ 22.934: giske.kommune.no INFO Done testing address 213.184.202.5.
+ 22.934: giske.kommune.no INFO Done testing host pop.mimer.no.
+ 23.145: giske.kommune.no INFO Done testing email address hostmaster@mimer.no.
+ 23.145: giske.kommune.no INFO Successful attempt to deliver email for SOA RNAME of giske.kommune.no (hostmaster.mimer.no) using hostmaster@mimer.no.
+ 23.145: giske.kommune.no INFO SOA TTL for giske.kommune.no OK (86400) - recommended >= 3600.
+ 23.145: giske.kommune.no INFO SOA refresh for giske.kommune.no OK (86400) - recommended >= 14400.
+ 23.146: giske.kommune.no INFO SOA retry for giske.kommune.no OK (3600) - recommended >= 3600.
+ 23.146: giske.kommune.no INFO SOA expire for giske.kommune.no OK (604800) - recommended >= 604800.
+ 23.146: giske.kommune.no INFO SOA minimum for giske.kommune.no OK (86400) - recommended between 300 and 86400.
+ 23.162: giske.kommune.no INFO Done testing SOA parameters for giske.kommune.no.
+ 23.162: giske.kommune.no INFO Begin testing connectivity for giske.kommune.no.
+ 24.585: giske.kommune.no NOTICE Zone announced by fewer than two IPv4 ASN.
+ 24.585: giske.kommune.no NOTICE Zone announced by fewer than two IPv6 ASN.
+ 24.585: giske.kommune.no INFO Done testing connectivity for giske.kommune.no.
+ 24.585: giske.kommune.no INFO Begin testing DNSSEC for giske.kommune.no.
+ 24.717: giske.kommune.no INFO Did not find DS record for giske.kommune.no at parent.
+ 24.828: giske.kommune.no INFO Servers for giske.kommune.no have consistent extra processing status.
+ 24.886: giske.kommune.no INFO Authenticated denial records not found for giske.kommune.no.
+ 24.910: giske.kommune.no INFO Did not find DNSKEY record for giske.kommune.no at child.
+ 24.910: giske.kommune.no INFO No DNSKEY(s) found at child, other tests skipped.
+ 24.910: giske.kommune.no INFO Done testing DNSSEC for giske.kommune.no.
+ 24.910: giske.kommune.no INFO Test completed for zone giske.kommune.no.

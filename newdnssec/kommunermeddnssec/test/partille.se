@@ -1,0 +1,102 @@
+  0.000: partille.se INFO Begin testing zone partille.se with version 1.6.1.
+  1.377: partille.se INFO Begin testing delegation for partille.se.
+ 15.417: partille.se INFO Name servers listed at parent: a.dns.songnetworks.se,b.dns.songnetworks.se,c.dns.songnetworks.se
+ 19.749: partille.se INFO Name servers listed at child: a.dns.songnetworks.se,b.dns.songnetworks.se,c.dns.songnetworks.se
+ 19.749: partille.se NOTICE No IPv6 name servers found.
+ 19.841: partille.se INFO Parent glue for partille.se found: a.dns.songnetworks.se (213.50.29.190)
+ 20.002: partille.se INFO Parent glue for partille.se found: b.dns.songnetworks.se (213.50.29.195)
+ 20.181: partille.se INFO Parent glue for partille.se found: c.dns.songnetworks.se (195.10.143.3)
+ 20.341: partille.se INFO Checking glue for a.dns.songnetworks.se (213.50.29.190).
+ 20.342: partille.se INFO Checking glue for b.dns.songnetworks.se (213.50.29.195).
+ 20.342: partille.se INFO Checking glue for c.dns.songnetworks.se (195.10.143.3).
+ 20.342: partille.se INFO Parent glue for partille.se found: a.dns.songnetworks.se (213.50.29.190)
+ 20.342: partille.se INFO Parent glue for partille.se found: b.dns.songnetworks.se (213.50.29.195)
+ 20.343: partille.se INFO Parent glue for partille.se found: c.dns.songnetworks.se (195.10.143.3)
+ 22.574: partille.se INFO It is possible to build a referral packet for partille.se that works without EDNS0.
+ 24.765: partille.se INFO Previously used name servers for partille.se: 
+ 24.766: partille.se INFO Done testing delegation for partille.se.
+ 24.766: partille.se INFO Begin testing name server a.dns.songnetworks.se.
+ 24.766: partille.se INFO Begin testing host a.dns.songnetworks.se.
+ 25.414: partille.se INFO Begin testing address 213.50.29.190.
+ 42.460: partille.se INFO Done testing address 213.50.29.190.
+ 42.460: partille.se INFO Done testing host a.dns.songnetworks.se.
+ 42.757: partille.se INFO Name server a.dns.songnetworks.se (213.50.29.190) answers queries over UDP.
+ 42.841: partille.se INFO Name server a.dns.songnetworks.se (213.50.29.190) answers queries over TCP.
+ 42.880: partille.se INFO Name server a.dns.songnetworks.se (213.50.29.190) is not recursive.
+ 42.986: partille.se INFO Name server a.dns.songnetworks.se (213.50.29.190) authoritative for partille.se.
+ 43.039: partille.se INFO Name server a.dns.songnetworks.se (213.50.29.190) closed for zone transfer of partille.se.
+ 43.056: partille.se INFO Legacy name server ID for a.dns.songnetworks.se (213.50.29.190): hostname.bind = a
+ 43.084: partille.se INFO Legacy name server ID for a.dns.songnetworks.se (213.50.29.190): version.bind = tssk, well what can i say?
+ 43.140: partille.se NOTICE No answer received from 213.50.29.190 when querying for version.server/CH/TXT.
+ 43.141: partille.se INFO Done testing name server a.dns.songnetworks.se.
+ 43.141: partille.se INFO Begin testing name server b.dns.songnetworks.se.
+ 43.141: partille.se INFO Begin testing host b.dns.songnetworks.se.
+ 43.416: partille.se INFO Begin testing address 213.50.29.195.
+ 44.359: partille.se INFO Done testing address 213.50.29.195.
+ 44.405: partille.se INFO Done testing host b.dns.songnetworks.se.
+ 44.737: partille.se INFO Name server b.dns.songnetworks.se (213.50.29.195) answers queries over UDP.
+ 44.798: partille.se INFO Name server b.dns.songnetworks.se (213.50.29.195) answers queries over TCP.
+ 44.839: partille.se INFO Name server b.dns.songnetworks.se (213.50.29.195) is not recursive.
+ 45.008: partille.se INFO Name server b.dns.songnetworks.se (213.50.29.195) authoritative for partille.se.
+ 45.040: partille.se INFO Name server b.dns.songnetworks.se (213.50.29.195) closed for zone transfer of partille.se.
+ 45.088: partille.se INFO Legacy name server ID for b.dns.songnetworks.se (213.50.29.195): hostname.bind = b
+ 45.116: partille.se INFO Legacy name server ID for b.dns.songnetworks.se (213.50.29.195): version.bind = tssk, well what can i say?
+ 45.167: partille.se NOTICE No answer received from 213.50.29.195 when querying for version.server/CH/TXT.
+ 45.168: partille.se INFO Done testing name server b.dns.songnetworks.se.
+ 45.168: partille.se INFO Begin testing name server c.dns.songnetworks.se.
+ 45.168: partille.se INFO Begin testing host c.dns.songnetworks.se.
+ 45.452: partille.se INFO Begin testing address 195.10.143.3.
+ 46.932: partille.se INFO Done testing address 195.10.143.3.
+ 46.932: partille.se INFO Done testing host c.dns.songnetworks.se.
+ 47.241: partille.se INFO Name server c.dns.songnetworks.se (195.10.143.3) answers queries over UDP.
+ 47.297: partille.se INFO Name server c.dns.songnetworks.se (195.10.143.3) answers queries over TCP.
+ 47.343: partille.se INFO Name server c.dns.songnetworks.se (195.10.143.3) is not recursive.
+ 47.491: partille.se INFO Name server c.dns.songnetworks.se (195.10.143.3) authoritative for partille.se.
+ 47.523: partille.se INFO Name server c.dns.songnetworks.se (195.10.143.3) closed for zone transfer of partille.se.
+ 47.580: partille.se INFO Legacy name server ID for c.dns.songnetworks.se (195.10.143.3): hostname.bind = c.dns.tdc.se
+ 47.636: partille.se INFO Legacy name server ID for c.dns.songnetworks.se (195.10.143.3): version.bind = tssk, well what can i say?
+ 47.752: partille.se NOTICE No answer received from 195.10.143.3 when querying for version.server/CH/TXT.
+ 47.752: partille.se INFO Done testing name server c.dns.songnetworks.se.
+ 47.752: partille.se INFO Begin testing zone consistency for partille.se.
+ 49.495: partille.se INFO SOA at address 195.10.143.3 has serial 2014030301.
+ 49.542: partille.se INFO SOA at address 213.50.29.195 has serial 2014030301.
+ 49.629: partille.se INFO SOA at address 213.50.29.190 has serial 2014030301.
+ 49.629: partille.se INFO All SOA records have consistent serial numbers.
+ 49.629: partille.se INFO All other fields in the SOA record are consistent among all name servers.
+ 51.196: partille.se NOTICE The listed nameservers for partille.se all report the same set of nameservers.
+ 51.196: partille.se INFO Done testing zone consistency for partille.se.
+ 51.196: partille.se INFO Begin testing SOA parameters for partille.se.
+ 51.225: partille.se INFO Found SOA record for partille.se.
+ 51.225: partille.se INFO Begin testing host a.dns.songnetworks.se.
+ 51.448: partille.se INFO Begin testing address 213.50.29.190.
+ 51.449: partille.se INFO Done testing address 213.50.29.190.
+ 51.449: partille.se INFO Done testing host a.dns.songnetworks.se.
+ 51.449: partille.se INFO SOA MNAME for partille.se valid (a.dns.songnetworks.se).
+ 51.449: partille.se INFO SOA MNAME for partille.se (a.dns.songnetworks.se) listed as NS.
+ 51.728: partille.se INFO SOA MNAME for partille.se (a.dns.songnetworks.se) is authoritative.
+ 51.729: partille.se INFO Begin testing email address dns@tdcsong.se.
+ 52.917: partille.se INFO Mail exchangers for dns@tdcsong.se found exmx.tdc.se.
+ 52.917: partille.se INFO Begin testing host exmx.tdc.se.
+ 53.393: partille.se INFO Begin testing address 213.50.87.85.
+ 54.584: partille.se INFO Done testing address 213.50.87.85.
+ 54.584: partille.se INFO Done testing host exmx.tdc.se.
+ 55.092: partille.se INFO Done testing email address dns@tdcsong.se.
+ 55.092: partille.se INFO Successful attempt to deliver email for SOA RNAME of partille.se (dns.tdcsong.se) using dns@tdcsong.se.
+ 55.092: partille.se INFO SOA TTL for partille.se OK (86400) - recommended >= 3600.
+ 55.092: partille.se INFO SOA refresh for partille.se OK (21600) - recommended >= 14400.
+ 55.092: partille.se INFO SOA retry for partille.se OK (3600) - recommended >= 3600.
+ 55.092: partille.se INFO SOA expire for partille.se OK (1209600) - recommended >= 604800.
+ 55.092: partille.se INFO SOA minimum for partille.se OK (86400) - recommended between 300 and 86400.
+ 55.092: partille.se INFO Done testing SOA parameters for partille.se.
+ 55.092: partille.se INFO Begin testing connectivity for partille.se.
+ 57.384: partille.se NOTICE Zone announced by fewer than two IPv4 ASN.
+ 57.385: partille.se NOTICE Zone announced by fewer than two IPv6 ASN.
+ 57.385: partille.se INFO Done testing connectivity for partille.se.
+ 57.385: partille.se INFO Begin testing DNSSEC for partille.se.
+ 57.492: partille.se INFO Did not find DS record for partille.se at parent.
+ 57.729: partille.se INFO Servers for partille.se have consistent extra processing status.
+ 58.260: partille.se INFO Authenticated denial records not found for partille.se.
+ 58.284: partille.se INFO Did not find DNSKEY record for partille.se at child.
+ 58.284: partille.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 58.284: partille.se INFO Done testing DNSSEC for partille.se.
+ 58.287: partille.se INFO Test completed for zone partille.se.

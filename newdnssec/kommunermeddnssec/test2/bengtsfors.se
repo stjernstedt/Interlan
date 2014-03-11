@@ -1,0 +1,103 @@
+  0.000: bengtsfors.se INFO Begin testing zone bengtsfors.se with version 1.2.
+  0.000: bengtsfors.se INFO Begin testing delegation for bengtsfors.se.
+  5.380: bengtsfors.se INFO Name servers listed at parent: ns1.dalsnet.se,ns2.dalsnet.se
+ 11.044: bengtsfors.se INFO Name servers listed at child: ns1.dalsnet.se,ns2.dalsnet.se,public.bengtsfors.se
+ 11.044: bengtsfors.se NOTICE Additional name server listed at child: public.bengtsfors.se
+ 11.045: bengtsfors.se NOTICE No IPv6 name servers found.
+ 11.184: bengtsfors.se INFO Done testing delegation for bengtsfors.se.
+ 11.184: bengtsfors.se INFO Begin testing name server ns1.dalsnet.se.
+ 11.184: bengtsfors.se INFO Begin testing host ns1.dalsnet.se.
+ 11.184: bengtsfors.se INFO Begin testing address 194.17.152.2.
+ 19.675: bengtsfors.se INFO Done testing address 194.17.152.2.
+ 19.675: bengtsfors.se INFO Done testing host ns1.dalsnet.se.
+ 19.693: bengtsfors.se INFO Name server ns1.dalsnet.se (194.17.152.2) answers queries over UDP.
+ 19.724: bengtsfors.se INFO Name server ns1.dalsnet.se (194.17.152.2) answers queries over TCP.
+ 19.741: bengtsfors.se INFO Name server ns1.dalsnet.se (194.17.152.2) is not recursive.
+ 19.759: bengtsfors.se INFO Name server ns1.dalsnet.se (194.17.152.2) authoritative for bengtsfors.se.
+ 19.803: bengtsfors.se INFO Name server ns1.dalsnet.se (194.17.152.2) closed for zone transfer of bengtsfors.se.
+ 19.822: bengtsfors.se INFO Legacy name server ID for ns1.dalsnet.se (194.17.152.2): hostname.bind = new.server
+ 19.839: bengtsfors.se INFO Legacy name server ID for ns1.dalsnet.se (194.17.152.2): version.bind = Contact administrator in SOA
+ 19.871: bengtsfors.se NOTICE No answer received from 194.17.152.2 when querying for version.server/CH/TXT.
+ 19.872: bengtsfors.se INFO Done testing name server ns1.dalsnet.se.
+ 19.872: bengtsfors.se INFO Begin testing name server ns2.dalsnet.se.
+ 19.872: bengtsfors.se INFO Begin testing host ns2.dalsnet.se.
+ 19.872: bengtsfors.se INFO Begin testing address 194.17.150.10.
+ 20.376: bengtsfors.se INFO Done testing address 194.17.150.10.
+ 20.377: bengtsfors.se INFO Done testing host ns2.dalsnet.se.
+ 20.397: bengtsfors.se INFO Name server ns2.dalsnet.se (194.17.150.10) answers queries over UDP.
+ 20.432: bengtsfors.se INFO Name server ns2.dalsnet.se (194.17.150.10) answers queries over TCP.
+ 20.630: bengtsfors.se WARNING Name server ns2.dalsnet.se (194.17.150.10) is recursive.
+ 20.650: bengtsfors.se INFO Name server ns2.dalsnet.se (194.17.150.10) authoritative for bengtsfors.se.
+ 20.694: bengtsfors.se INFO Name server ns2.dalsnet.se (194.17.150.10) closed for zone transfer of bengtsfors.se.
+ 20.712: bengtsfors.se INFO Legacy name server ID for ns2.dalsnet.se (194.17.150.10): hostname.bind = ns2.dalsnet.se
+ 20.730: bengtsfors.se INFO Legacy name server ID for ns2.dalsnet.se (194.17.150.10): version.bind = Contact administrator in SOA
+ 20.765: bengtsfors.se NOTICE No answer received from 194.17.150.10 when querying for version.server/CH/TXT.
+ 20.765: bengtsfors.se INFO Done testing name server ns2.dalsnet.se.
+ 20.766: bengtsfors.se INFO Begin testing name server public.bengtsfors.se.
+ 20.766: bengtsfors.se INFO Begin testing host public.bengtsfors.se.
+ 20.766: bengtsfors.se INFO Begin testing address 194.17.153.4.
+ 21.266: bengtsfors.se INFO Done testing address 194.17.153.4.
+ 21.266: bengtsfors.se INFO Done testing host public.bengtsfors.se.
+ 21.286: bengtsfors.se INFO Name server public.bengtsfors.se (194.17.153.4) answers queries over UDP.
+ 21.319: bengtsfors.se INFO Name server public.bengtsfors.se (194.17.153.4) answers queries over TCP.
+ 21.633: bengtsfors.se INFO Name server public.bengtsfors.se (194.17.153.4) is not recursive.
+ 21.652: bengtsfors.se INFO Name server public.bengtsfors.se (194.17.153.4) authoritative for bengtsfors.se.
+ 21.856: bengtsfors.se INFO Name server public.bengtsfors.se (194.17.153.4) closed for zone transfer of bengtsfors.se.
+ 21.875: bengtsfors.se NOTICE No answer received from 194.17.153.4 when querying for hostname.bind/CH/TXT.
+ 39.876: bengtsfors.se INFO Done testing name server public.bengtsfors.se.
+ 39.876: bengtsfors.se INFO Begin testing zone consistency for bengtsfors.se.
+ 39.899: bengtsfors.se INFO SOA at address 194.17.152.2 has serial 2010111900.
+ 39.918: bengtsfors.se INFO SOA at address 194.17.150.10 has serial 2010111900.
+ 39.936: bengtsfors.se INFO SOA at address 194.17.153.4 has serial 2009093013.
+ 39.936: bengtsfors.se WARNING 2 different serials found.
+ 39.936: bengtsfors.se ERROR 2 different SOA records found.
+ 39.936: bengtsfors.se INFO Done testing zone consistency for bengtsfors.se.
+ 39.936: bengtsfors.se INFO Begin testing SOA parameters for bengtsfors.se.
+ 39.953: bengtsfors.se INFO Found SOA record for bengtsfors.se.
+ 39.953: bengtsfors.se INFO Begin testing host ns1.dalsnet.se.
+ 39.953: bengtsfors.se INFO Begin testing address 194.17.152.2.
+ 39.955: bengtsfors.se INFO Done testing address 194.17.152.2.
+ 39.955: bengtsfors.se INFO Done testing host ns1.dalsnet.se.
+ 39.955: bengtsfors.se INFO SOA MNAME for bengtsfors.se valid (ns1.dalsnet.se).
+ 39.955: bengtsfors.se INFO SOA MNAME for bengtsfors.se (ns1.dalsnet.se) listed as NS.
+ 39.981: bengtsfors.se INFO SOA MNAME for bengtsfors.se (ns1.dalsnet.se) is authoritative.
+ 39.981: bengtsfors.se INFO Begin testing email address hostmaster@mellerud.se.
+ 40.191: bengtsfors.se INFO Mail exchangers for hostmaster@mellerud.se found mx.amal.se,mx.bengtsfors.se.
+ 40.192: bengtsfors.se INFO Begin testing host mx.amal.se.
+ 40.649: bengtsfors.se INFO Begin testing address 194.17.150.14.
+ 42.169: bengtsfors.se INFO Done testing address 194.17.150.14.
+ 42.169: bengtsfors.se INFO Done testing host mx.amal.se.
+ 42.170: bengtsfors.se INFO Begin testing mail server mx.amal.se (194.17.150.14) with hostmaster@mellerud.se.
+ 57.291: bengtsfors.se INFO SMTP banner: mx.amal.se ESMTP
+ 72.712: bengtsfors.se INFO SMTP testing of mx.amal.se (194.17.150.14) with hostmaster@mellerud.se succeeded without errors.
+ 72.712: bengtsfors.se INFO Done testing mail server mx.amal.se (194.17.150.14) with hostmaster@mellerud.se.
+ 72.713: bengtsfors.se INFO Begin testing host mx.bengtsfors.se.
+ 73.191: bengtsfors.se INFO Begin testing address 194.17.153.17.
+ 73.489: bengtsfors.se INFO Done testing address 194.17.153.17.
+ 73.489: bengtsfors.se INFO Done testing host mx.bengtsfors.se.
+ 73.489: bengtsfors.se INFO Delivery over IPv4 to hostmaster@mellerud.se ok.
+ 73.489: bengtsfors.se INFO Delivery over IPv6 to hostmaster@mellerud.se could not be done.
+ 73.489: bengtsfors.se INFO Done testing email address hostmaster@mellerud.se.
+ 73.489: bengtsfors.se INFO Successful attempt to deliver email for SOA RNAME of bengtsfors.se (hostmaster.mellerud.se) using hostmaster@mellerud.se.
+ 73.489: bengtsfors.se INFO SOA TTL for bengtsfors.se OK (3600) - recommended >= 3600.
+ 73.489: bengtsfors.se NOTICE SOA refresh for bengtsfors.se too small (10800) - recommended >= 14400.
+ 73.490: bengtsfors.se INFO SOA retry for bengtsfors.se OK (3600) - recommended >= 3600.
+ 73.490: bengtsfors.se INFO SOA expire for bengtsfors.se OK (604800) - recommended >= 604800.
+ 73.490: bengtsfors.se INFO SOA minimum for bengtsfors.se OK (3600) - recommended between 300 and 86400.
+ 73.490: bengtsfors.se INFO Done testing SOA parameters for bengtsfors.se.
+ 73.490: bengtsfors.se INFO Begin testing connectivity for bengtsfors.se.
+ 74.116: bengtsfors.se INFO Name server 194.17.152.2 announced by: 3301
+ 74.706: bengtsfors.se INFO Name server 194.17.150.10 announced by: 3301
+ 75.382: bengtsfors.se INFO Name server 194.17.153.4 announced by: 3301
+ 75.382: bengtsfors.se INFO Zone announced by IPv4 ASN: 3301
+ 75.382: bengtsfors.se NOTICE Zone announced by less than two IPv4 ASN (1).
+ 75.382: bengtsfors.se INFO Zone announced by IPv6 ASN: 
+ 75.382: bengtsfors.se NOTICE Zone announced by less than two IPv6 ASN (0).
+ 75.382: bengtsfors.se INFO Done testing connectivity for bengtsfors.se.
+ 75.382: bengtsfors.se INFO Begin testing DNSSEC for bengtsfors.se.
+ 75.493: bengtsfors.se INFO Did not find DS record for bengtsfors.se at parent.
+ 75.592: bengtsfors.se INFO Servers for bengtsfors.se have consistent extra processing status.
+ 75.592: bengtsfors.se INFO Did not find DNSKEY record for bengtsfors.se at child.
+ 75.592: bengtsfors.se INFO No DNSKEY(s) found at child, other tests skipped.
+ 75.592: bengtsfors.se INFO Done testing DNSSEC for bengtsfors.se.
+ 75.592: bengtsfors.se INFO Test completed for zone bengtsfors.se.

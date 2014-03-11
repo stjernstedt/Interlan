@@ -1,0 +1,76 @@
+  0.000: tammela.fi INFO Begin testing zone tammela.fi with version 1.5.0.
+  2.735: tammela.fi INFO Begin testing delegation for tammela.fi.
+ 71.863: tammela.fi INFO Name servers listed at parent: ns-pri.surffi.net,ns2.surffi.net
+ 85.768: tammela.fi INFO Name servers listed at child: ns-pri.surffi.net,ns2.surffi.net
+ 85.769: tammela.fi NOTICE No IPv6 name servers found.
+ 94.533: tammela.fi INFO It is possible to build a referral packet for tammela.fi that works without EDNS0.
+ 99.927: tammela.fi INFO Previously used name servers for tammela.fi: 
+ 99.927: tammela.fi INFO Done testing delegation for tammela.fi.
+ 99.928: tammela.fi INFO Begin testing name server ns-pri.surffi.net.
+ 99.928: tammela.fi INFO Begin testing host ns-pri.surffi.net.
+102.369: tammela.fi INFO Begin testing address 82.116.225.5.
+142.483: tammela.fi INFO Done testing address 82.116.225.5.
+142.484: tammela.fi INFO Done testing host ns-pri.surffi.net.
+144.686: tammela.fi INFO Name server ns-pri.surffi.net (82.116.225.5) answers queries over UDP.
+145.139: tammela.fi INFO Name server ns-pri.surffi.net (82.116.225.5) answers queries over TCP.
+145.393: tammela.fi INFO Name server ns-pri.surffi.net (82.116.225.5) is not recursive.
+146.348: tammela.fi INFO Name server ns-pri.surffi.net (82.116.225.5) authoritative for tammela.fi.
+146.633: tammela.fi INFO Name server ns-pri.surffi.net (82.116.225.5) closed for zone transfer of tammela.fi.
+146.929: tammela.fi INFO Legacy name server ID for ns-pri.surffi.net (82.116.225.5): hostname.bind = vesta.surffi.net
+148.587: tammela.fi NOTICE No answer received from 82.116.225.5 when querying for version.server/CH/TXT.
+148.587: tammela.fi INFO Done testing name server ns-pri.surffi.net.
+148.588: tammela.fi INFO Begin testing name server ns2.surffi.net.
+148.588: tammela.fi INFO Begin testing host ns2.surffi.net.
+152.083: tammela.fi INFO Begin testing address 82.116.225.226.
+157.988: tammela.fi INFO Done testing address 82.116.225.226.
+157.988: tammela.fi INFO Done testing host ns2.surffi.net.
+161.132: tammela.fi INFO Name server ns2.surffi.net (82.116.225.226) answers queries over UDP.
+161.644: tammela.fi INFO Name server ns2.surffi.net (82.116.225.226) answers queries over TCP.
+162.689: tammela.fi INFO Name server ns2.surffi.net (82.116.225.226) is not recursive.
+164.273: tammela.fi INFO Name server ns2.surffi.net (82.116.225.226) authoritative for tammela.fi.
+164.819: tammela.fi INFO Name server ns2.surffi.net (82.116.225.226) closed for zone transfer of tammela.fi.
+165.135: tammela.fi INFO Legacy name server ID for ns2.surffi.net (82.116.225.226): hostname.bind = draco
+166.223: tammela.fi NOTICE No answer received from 82.116.225.226 when querying for version.server/CH/TXT.
+166.223: tammela.fi INFO Done testing name server ns2.surffi.net.
+166.224: tammela.fi INFO Begin testing zone consistency for tammela.fi.
+176.966: tammela.fi INFO SOA at address 82.116.225.226 has serial 2013042200.
+177.460: tammela.fi INFO SOA at address 82.116.225.5 has serial 2013042200.
+177.460: tammela.fi INFO All SOA records have consistent serial numbers.
+177.460: tammela.fi INFO All other fields in the SOA record are consistent among all name servers.
+183.157: tammela.fi NOTICE The listed nameservers for tammela.fi all report the same set of nameservers.
+183.157: tammela.fi INFO Done testing zone consistency for tammela.fi.
+183.157: tammela.fi INFO Begin testing SOA parameters for tammela.fi.
+183.668: tammela.fi INFO Found SOA record for tammela.fi.
+183.668: tammela.fi INFO Begin testing host ns-pri.surffi.net.
+186.143: tammela.fi INFO Begin testing address 82.116.225.5.
+188.418: tammela.fi INFO Done testing address 82.116.225.5.
+188.418: tammela.fi INFO Done testing host ns-pri.surffi.net.
+188.418: tammela.fi INFO SOA MNAME for tammela.fi valid (ns-pri.surffi.net).
+188.418: tammela.fi INFO SOA MNAME for tammela.fi (ns-pri.surffi.net) listed as NS.
+191.147: tammela.fi INFO SOA MNAME for tammela.fi (ns-pri.surffi.net) is authoritative.
+191.148: tammela.fi INFO Begin testing email address hostmaster@ns-pri.surffi.net.
+193.591: tammela.fi INFO Mail exchangers for hostmaster@ns-pri.surffi.net found ns-pri.surffi.net.
+193.592: tammela.fi INFO Begin testing host ns-pri.surffi.net.
+195.793: tammela.fi INFO Begin testing address 82.116.225.5.
+198.085: tammela.fi INFO Done testing address 82.116.225.5.
+198.085: tammela.fi INFO Done testing host ns-pri.surffi.net.
+200.098: tammela.fi INFO Done testing email address hostmaster@ns-pri.surffi.net.
+200.099: tammela.fi INFO Successful attempt to deliver email for SOA RNAME of tammela.fi (hostmaster.ns-pri.surffi.net) using hostmaster@ns-pri.surffi.net.
+200.199: tammela.fi INFO SOA TTL for tammela.fi OK (14400) - recommended >= 3600.
+200.199: tammela.fi INFO SOA refresh for tammela.fi OK (28000) - recommended >= 14400.
+200.199: tammela.fi INFO SOA retry for tammela.fi OK (7200) - recommended >= 3600.
+200.199: tammela.fi INFO SOA expire for tammela.fi OK (604800) - recommended >= 604800.
+200.199: tammela.fi INFO SOA minimum for tammela.fi OK (86400) - recommended between 300 and 86400.
+200.199: tammela.fi INFO Done testing SOA parameters for tammela.fi.
+200.199: tammela.fi INFO Begin testing connectivity for tammela.fi.
+205.301: tammela.fi NOTICE Zone announced by fewer than two IPv4 ASN.
+205.301: tammela.fi NOTICE Zone announced by fewer than two IPv6 ASN.
+205.301: tammela.fi INFO Done testing connectivity for tammela.fi.
+205.301: tammela.fi INFO Begin testing DNSSEC for tammela.fi.
+205.983: tammela.fi INFO Did not find DS record for tammela.fi at parent.
+206.544: tammela.fi INFO Servers for tammela.fi have consistent extra processing status.
+206.803: tammela.fi INFO Authenticated denial records not found for tammela.fi.
+207.307: tammela.fi INFO Did not find DNSKEY record for tammela.fi at child.
+207.307: tammela.fi INFO No DNSKEY(s) found at child, other tests skipped.
+207.308: tammela.fi INFO Done testing DNSSEC for tammela.fi.
+207.308: tammela.fi INFO Test completed for zone tammela.fi.
