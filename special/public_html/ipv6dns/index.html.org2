@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<style>
+			body{
+				font-family: Arial, tahoma, verdana, arial;
+			}
+			.mainContainer{
+				background: url('bg.gif');
+				font-size: 12px;
+			}
+			.dom{
+				width: 110px;
+				margin-right: 3px;
+				overflow: hidden;
+				float: left;
+			}
+			h1, h2, h3, h4, h5, h6{
+				border-bottom: 1px solid #b0b0b0;
+			}
+			.contact{
+				text-style: uppercase;
+			}
+			.subContainer{
+				margin-botton: 12px;
+			}
+		</style>
+		<title>IPv6DNS.se</title>
+	</head>
+
+	<body>
+		<div class="mainContainer" style="padding:20px;border:1px solid #e0e0e0;position:absolute;left:50%;width:800px; height:500px;margin-left:-400px;margin-top:50px">
+			<h1>IPv6DNS.se</h1>
+
+				<div class="subContainer">
+				</div>
+<b>ipv6dns.se</b> is a domain which only purpose is to provide municipalities and authorities with free DNS slaves with IPv6 support<br><br>
+Send an e-mail to tobbe@interlan.se with:<br>
+<b>Subject:</b> yourdomain[s]<br>
+Body:<br>
+IP address of the master<br>
+Contact with e-mail and phone<br><br>
+<b>You must then do this:</b><br>
+Permit zone transfer from 192.71.21.35<br>
+Wait for my response that I have added your domain[s] to my slaves<br>
+Add ns.ipv6dns.se as nameserver for the domain[s]<br>
+Optionally you update the registry with the additional name server<br><br>
+Now you have at least two more name servers with both IPv6 and IPv4 support<br>
+ns.ipv6dns.se eat DNSSEC for lunch! :)<br>
+<pre>
+host ns.ipv6dns.se
+ns.ipv6dns.se has address 192.71.21.35
+ns.ipv6dns.se has address 109.74.7.166
+ns.ipv6dns.se has IPv6 address 2a02:750:7::165
+ns.ipv6dns.se has IPv6 address 2001:67c:2448:10::53
+</pre>
+
+
+<center><br><br><The service is hosted by: <a href="http://www.interlan.se"><img src="/ipv6dns/interlan.gif" /></a>

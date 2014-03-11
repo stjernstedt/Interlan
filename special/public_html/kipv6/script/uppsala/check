@@ -1,0 +1,8 @@
+#!/bin/sh
+file=/tmp/$$
+
+
+./ipv6 > $file
+cat $file > ../../sju.html
+rm $file
+

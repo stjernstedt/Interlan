@@ -1,0 +1,21 @@
+#!/bin/sh
+
+cd /home/special/public_html/kutan/script
+cat /dev/null >antal
+
+for i in `cat kommun` ; do
+        if [ "`dig +short ds $i @c.ns.se`" == "" ] ; then
+                echo $i >>antal
+        fi
+done
+
+cat mall.txt 
+echo "<i>Uppdaterad `date`</i><br>"
+rad=-1
+antal=`cat antal |wc -l`
+echo "<br>"
+for i in `cat antal  `; do
+	echo "<div class="dom"><a href=\"http://www.$i\">$i</a></div>"
+done
+echo "<div style="break:both">&nbsp;</div></div></p></div></body></html>"
+

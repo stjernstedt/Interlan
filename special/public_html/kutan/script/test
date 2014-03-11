@@ -1,0 +1,30 @@
+
+for i in `cat kommun` ; do
+	dnsv6=""
+	mxv6=""
+	wwwv6=""
+	ipv6=""
+
+	DNS=`dig +short ns $i`
+	for ns in $DNS ; do
+		if [ "`host $ns | grep 2001:`"  ] ; then
+			dnsv6=dnsv6
+		fi
+	done
+	MX=`dig +short mx $i|awk '{print $2}'`
+        for mx in $MX ; do
+                if [ "`host $mx | grep 2001:`"  ] ; then
+                        mxv6=mxv6
+                fi
+        done
+        if [ "`host www.$i | grep 2001:`"  ] ; then
+                wwwv6=wwwv6
+        fi
+       if [ "`host ipv6.$i | grep 2001:`"  ] ; then
+                ipv6=ipv6
+        fi
+
+
+	echo  $i,$mxv6,$dnsv6,$wwwv6,$ipv6
+
+done

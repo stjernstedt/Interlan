@@ -1,0 +1,23 @@
+#!/bin/sh
+date=`date +"%Y%m%d"`
+if [ ! -d dns/$date ] ; then
+	mkdir dns/$date
+fi
+antal=0
+for i in `cat county` ; do
+                
+        echo $i
+	county=`echo $i| cut -d , -f 1`
+	if [ "$county" != "" ] ; then
+		timeout 120 dnscheck --policyfile /etc/dnscheck/policy.cron.yaml $county  >dns/$date/$county &
+	fi
+       	 antal=$((antal+1))
+        if [ $antal -eq 20 ]; then
+		wait	
+               	antal=0
+               	echo $antal
+       	fi
+done
+wait
+
+./dnssec2 $date | tee dns/$date.txt

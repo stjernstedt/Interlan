@@ -1,0 +1,61 @@
+#!/bin/sh
+
+dnsfile=dns6
+mxfile=mx6
+wwwfile=www6
+cp $dnsfile ${dnsfile}.org
+cp $mxfile ${mxfile}.org
+cp $wwwfile ${wwwfile}.org
+
+for i in $dnsfile $mxfile $wwwfile ; do
+	cat /dev/null > $i
+done
+
+for i in `cat kommun` ; do
+	echo ----------------- 1>&2
+	echo checking $i 1>&2
+	echo done with $i 1>&2
+	dnscheck=0
+	mxcheck=0
+	wwwcheck=0
+
+	#DNS=`dig +short ns $i @a.ns.se`
+	DNS=`dig +norec +all ns  $i @a.ns.se|grep ^$i| awk '{ print $5}'`
+	for ns in $DNS ; do
+		if [ "`host $ns | grep -i '[2-3][0-9|a-f][0-9|a-f][0-9|a-f]:'`" ] && [ "$dnscheck" = "0" ] ; then
+			if [ "`echo $ns | grep $i`" != "" ] ; then
+			  	if [ "`dig +norec $ns @a.ns.se|grep AAAA|grep $ns`" != "" ] ; then
+					echo $i >> $dnsfile
+					dnscheck=1
+				fi
+			fi
+			if [ "`echo $ns | grep $i`" = "" ] ; then
+                                        echo $i >> $dnsfile
+                                        dnscheck=1
+                        fi
+		fi
+	done
+	MX=`dig +short mx $i @8.8.8.8|awk '{print $2}'`
+        for mx in $MX ; do
+                if [ "`host $mx | grep -i '[2-3][0-9|a-f][0-9|a-f][0-9|a-f]:'`"  ] && [ "$mxcheck" = "0" ]; then
+			echo $i >> $mxfile
+			mxcheck=1
+                fi
+        done
+        if [ "`host www.$i | grep -i '[2-3][0-9|a-f][0-9|a-f][0-9|a-f]:'`"  ] ; then
+		if [ "`host $i | grep -i '[2-3][0-9|a-f][0-9|a-f][0-9|a-f]:'`"  ] ; then
+			echo $i >> $wwwfile
+			wwwcheck=1
+		fi
+        fi
+
+
+
+done
+
+for i in $dnsfile $mxfile $wwwfile ; do
+	diff $i ${i}.org 2>&1 >/dev/null
+	if [ "$?" = "1" ] ; then
+		diff -y $i $i.org | egrep "<|>"| mail -s kommunermedipv6-$i tobbe@interlan.se
+	fi
+done

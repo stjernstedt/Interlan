@@ -1,0 +1,38 @@
+#!/bin/sh
+d=`/usr/local/bin/idn.pl $1`
+#d=$1
+#set -x
+echo "Testing: $d<br>"
+echo "WWW<br>"
+echo "<pre>"
+host www.$d
+echo
+alias=`host www.$d| grep "is an alias"`
+if [  ! "$alias"  ] ; then
+	whois `host www.$d | awk '{ print $4}'` |awk /inetnum/,/source/
+fi
+if [ "$alias" ] ; then
+	whois `host www.$d | grep "has address"|awk '{ print $4}'` |awk /inetnum/,/source/
+fi
+echo
+echo "</pre>"
+echo "Mail<br>"
+echo "<pre>"
+dig +short mx $d
+echo
+echo "</pre>"
+echo "DNS'er:<br><pre>"
+dig +short ns $d
+echo "</pre>SOA<br><pre>"
+echo
+dig +multiline soa $d | awk /"ANSWER SECTION"/,/"AUTHORITY SECTION"/|grep -v ";;"
+
+echo "</pre>"
+echo "SPF<br><pre>"
+dig +short spf $d
+echo "</pre>"
+echo "TXT<br><pre>"
+dig +short txt $d
+
+echo "</pre>.SE<br><pre>"
+whois $d| grep -v "#" | awk /state/,/registrar/|grep -v transf

@@ -1,0 +1,6 @@
+rrdtool create mx6.rrd --start -200days --step 86400 DS:mx6:GAUGE:345600:0:300 RRA:LAST:0.1:1:1000
+for m in `seq 1 4` ; do for d in `seq 1 30` ; do rrdtool update mx6.rrd 2011`printf "%02d%02d" $m $d `@0; done; done
+
+for i in `seq 1 5` ; do
+	rrdtool update mx6.rrd 201105`printf "%02d" $i`@0
+done

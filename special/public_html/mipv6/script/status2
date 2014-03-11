@@ -1,0 +1,11 @@
+#!/bin/sh
+for i in `cat www6` ; do
+	echo --- Testing www for $i
+	wget -t 1 -T 5 -6 -o /dev/null  www.$i
+	if [ $? != "0" ] ; then
+		echo www.$i is not responding
+	fi
+	if [ -f index.html ] ; then	
+		rm index.html
+	fi
+done

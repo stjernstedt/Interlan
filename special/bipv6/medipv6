@@ -1,0 +1,10 @@
+#!/bin/sh
+file=/tmp/$$
+
+cd /home/special/bipv6
+
+./ipv6 > $file
+cat $file > ../public_html/bipv6/index.html
+rm $file
+
+./rrd

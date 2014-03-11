@@ -1,0 +1,42 @@
+#!/bin/sh
+date=`date +"%Y%m%d"`
+if [ ! -d ipv6/$date ] ; then
+        mkdir ipv6/$date
+fi
+
+dnsfile=dns6
+mxfile=mx6
+wwwfile=www6
+
+for i in `cat county` ; do
+	i=`echo $i| cut -d , -f 1`
+	echo ----------------- 1>&2
+	echo checking $i 1>&2
+	echo done with $i 1>&2
+	dnscheck=0
+	mxcheck=0
+	wwwcheck=0
+    if [ "$i" != "" ] ; then
+	DNS=`dig +short ns $i`
+	for ns in $DNS ; do
+		if [ "`host $ns | grep -i '[2-3][0-9|a-f][0-9|a-f][0-9|a-f]:'`" ] && [ "$dnscheck" = "0" ] ; then
+			echo $i >> ipv6/$date/$dnsfile
+			dnscheck=1
+		fi
+	done
+	MX=`dig +short mx $i|awk '{print $2}'`
+        for mx in $MX ; do
+                if [ "`host $mx | grep -i '[2-3][0-9|a-f][0-9|a-f][0-9|a-f]:'`"  ] && [ "$mxcheck" = "0" ]; then
+			echo $i >> ipv6/$date/$mxfile
+			mxcheck=1
+                fi
+        done
+        if [ "`host www.$i | grep -i '[2-3][0-9|a-f][0-9|a-f][0-9|a-f]:'`"  ] ; then
+			echo $i >> ipv6/$date/$wwwfile
+			wwwcheck=1
+        fi
+    fi
+
+
+done
+

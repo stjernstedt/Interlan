@@ -1,0 +1,10 @@
+#!/bin/sh
+
+cd /var/www/www.kommunermeddnssec.se
+
+for i in `cat kommun` ; do
+	if [ "`dig +short ds $i @a.ns.se`"  ] ; then
+		echo $i
+	fi
+
+done

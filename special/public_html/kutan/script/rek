@@ -1,0 +1,8 @@
+for i in `cat kommun` ; do
+	ns=`dig +short ns $i`
+	for n in $ns ; do
+		if [  "`host www.ipv6.tk $n|grep 213.141.76.202`" ] ; then
+			echo $i,$n
+		fi
+	done	
+done
