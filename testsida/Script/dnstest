@@ -1,0 +1,16 @@
+#!/bin/sh
+#cd /home/newdnssec/kommunermeddnssec
+source ./functions
+
+resultdir=../test
+historydir=../history
+date=`date +"%Y%m%d"`
+mkdir "$resultdir"/$date
+cp -v "$resultdir"/* "$historydir"/$date
+antal=0
+
+case $target in
+	kommun)
+		kommun
+		;;
+esac

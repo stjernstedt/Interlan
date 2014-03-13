@@ -1,0 +1,26 @@
+#!/bin/sh
+
+#för kommuner
+function kommun {
+	for i in `cat kommun` ; do
+		echo $i
+		timeout 240 nice dnscheck  --policyfile /etc/dnscheck/policy.cron.yaml $i  >"$resultdir"/$i &
+		antal=$((antal+1))
+		if [ $antal -eq 30 ]; then
+			wait
+			echo 
+			echo $antal klara
+			echo 
+			antal=0
+		fi
+	done
+		
+	cp -v "$resultdir"/* "$historydir"/$date
+		
+	echo sover 180 sek
+	sleep 180
+	for i in `cat kommun` ; do
+		echo $i
+		echo $i | perl expire >> test/$i
+	done
+}
