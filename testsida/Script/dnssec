@@ -1,0 +1,17 @@
+#!/bin/sh
+
+cd /home/myndighetermeddnssec
+cp secured secured.org
+./dnssec2 |tee resultat.txt
+./rrd
+
+php file.php < resultat.txt >public_html/index2.html
+cp public_html/index2.html public_html/index.html
+
+cat resultat.txt | awk -F , '{ print $1","$2}'|grep yes > secured
+diff secured secured.org 
+if [ "$?" = "1" ] ; then
+	echo nya domäner!
+	diff -y secured secured.org | egrep "<|>" | mail -s myndighetermeddnssec tobbe@interlan.se
+fi
+

@@ -7,10 +7,20 @@ historydir=../history
 date=`date +"%Y%m%d"`
 mkdir "$resultdir"/$date
 cp -v "$resultdir"/* "$historydir"/$date
-antal=0
 
 case $target in
 	kommun)
-		kommun
+		resultdir=../test/kommun
+		historydir=../history/kommun
+		startdnscheck kommun
+		;;
+	myndigheter)
+		resultdir=../test/myndigheter
+		historydir=../history/myndigheter
+		startdnscheck myndigheter
+		;;
+	landsting)
+		resultdir=../test/landsting
+		landstingdnscheck
 		;;
 esac
