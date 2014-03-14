@@ -1,0 +1,131 @@
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<html>
+	<head>
+		<style>
+			body{
+				font-family: Arial, tahoma, verdana, arial;
+			}
+			.mainContainer{
+				background: url('bg.gif');
+				font-size: 12px;
+			}
+
+			.dom{
+				/*background-color: #FF00FF; */
+			}
+			.okdom{
+				background-color: #A0FFA0;
+			}
+			.errorDom{
+				background-color: #FF0000;
+			}
+			.warningDom{
+				background-color: #FFA500;
+			}
+			.dom, .okdom, .warningDom, .errorDom{
+				/*border: 1px solid black;*/
+				padding: 2px;
+				width: 145px;
+				margin: 1px;
+				overflow: hidden;
+				float: left;
+				height: 20px;
+			}
+
+			h1, h2, h3, h4, h5, h6{
+				border-bottom: 1px solid #b0b0b0;
+			}
+			.contact{
+				text-style: uppercase;
+			}
+			.subContainer{
+				margin-botton: 42px;
+			}
+
+			a{
+				color: #0000FF;
+				text-decoration: none;
+			}
+			a:hover{
+				color: #0000FF;
+				text-decoration: underline;
+			}
+
+		</style>
+		<title>Gavleborg county and DNSSEC</title>
+		<script type="text/javascript">
+			function showHover(e, txt){
+				if( e == null ) e = window.event;
+				if(e.pageX == null ) e.pageX = e.clientX;
+				if(e.pageY == null ) e.pageY = e.clientY + document.body.scrollTop;
+				//alert(e.pageX);
+
+				var o = document.getElementById("hoverDiv");
+				o.innerHTML = txt;
+				o.style.left = (e.pageX+20) + "px";
+				o.style.top = (e.pageY+12) + "px";
+				o.style.visibility = "visible";
+			}
+			function hideHover(){
+				var o = document.getElementById("hoverDiv");
+				o.style.visibility = "hidden";
+			}
+		</script>
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-10643709-2");
+		pageTracker._trackPageview();
+		} catch(err) {}</script>
+	</head>
+	<body>
+		<div class="mainContainer" style="padding:20px;border:1px solid #e0e0e0;position:absolute;left:50%;width:800px;margin-left:-400px;margin-top:50px">
+			<h1>Gavleborg county and DNSSEC</h1>
+			<div class="subContainer">
+
+
+
+
+			</div>
+
+			<h2>Domäner</h2>
+			<div>
+
+				<table cellspacing="3" cellpadding="2" style="margin-bottom:7px;border:1px solid black;font: 11px verdana">
+					<tr><td style="background-color:#A0FFA0;width:145px;height:20px"><img src="tick.png"/>&nbsp;domain</td><td>Signed with DNSSEC and without remarks</td></tr>
+					<tr><td style="background-color:#FFFFFF;height:20px">domain</td><td>Without remarks in DNSCheck but not signed</td></tr>
+					<tr><td style="background-color:#FFA500;height:20px"><img src="tick.png"/>&nbsp;domain</td><td>Signed with DNSSEC but with warnings</td></tr>
+					<tr><td style="background-color:#FFA500;height:20px">domain</td><td>Warnings in DNSCheck</td></tr>
+					<tr><td style="background-color:#FF0000;height:20px">domain</td><td>Error in DNSCheck</td></tr>
+				</table>
+
+			</div>
+			<div class="subContainer">
+				<i>Updated Tue Nov 29 14:29:59 CET 2011
+</i><br/>
+				7 of 11 domains secured<br/>
+
+<div class="warningDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre>  7.510: gavle.se WARNING Too few IPv6 name servers (1).\n 19.443: gavle.se WARNING Name server ns2.gavlenet.com (213.141.64.3) is recursive.\n</pre>');"gavle.se onmouseover="showHover(event, 'hostmaster [at] gavle.se<br/>Rekursiv<br/>Warning (2)<br/>ns2.gavlenet.com<br/>ns.gavle.se<br/>')" onmouseout="hideHover()" title=""><img src="tick.png" style="width:16px;height:16px;border:0px"/>&nbsp;gavle.se</a></div>
+<div class="dom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"hofors.se onmouseover="showHover(event, 'admin [at] hofors.se<br/>ns.hofors.se<br/>ns2.hofors.se<br/>')" onmouseout="hideHover()" title="">hofors.se</a></div>
+<div class="warningDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre> 12.996: sandviken.se WARNING Name server ns2.gavlenet.com (213.141.64.3) is recursive.\n</pre>');"sandviken.se onmouseover="showHover(event, 'registry [at] sandviken.se<br/>Rekursiv<br/>Warning (1)<br/>ns2.gavlenet.com<br/>ns.sandviken.se<br/>')" onmouseout="hideHover()" title=""><img src="tick.png" style="width:16px;height:16px;border:0px"/>&nbsp;sandviken.se</a></div>
+<div class="warningDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre>  7.148: ockelbo.se WARNING Too few IPv6 name servers (1).\n 18.700: ockelbo.se WARNING Name server ns2.gavlenet.com (213.141.64.3) is recursive.\n</pre>');"ockelbo.se onmouseover="showHover(event, 'hostmaster [at] gavle.se<br/>Rekursiv<br/>Warning (2)<br/>ns.gavle.se<br/>ns2.gavlenet.com<br/>')" onmouseout="hideHover()" title=""><img src="tick.png" style="width:16px;height:16px;border:0px"/>&nbsp;ockelbo.se</a></div>
+<div class="okdom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"soderhamn.se onmouseover="showHover(event, 'registry [at] teknikpark.se<br/>ns1.teknikpark.se<br/>ns1.helsingenet.com<br/>ns1.ipv6dns.se<br/>ns2.ipv6dns.se<br/>')" onmouseout="hideHover()" title=""><img src="tick.png" style="width:16px;height:16px;border:0px"/>&nbsp;soderhamn.se</a></div>
+<div class="okdom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"bollnas.se onmouseover="showHover(event, 'registry [at] interlan.se<br/>ns.interlan.se<br/>ns3.interlan.se<br/>')" onmouseout="hideHover()" title=""><img src="tick.png" style="width:16px;height:16px;border:0px"/>&nbsp;bollnas.se</a></div>
+<div class="okdom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"ovanaker.se onmouseover="showHover(event, 'hostmaster [at] ovanaker.se<br/>ns3.interlan.se<br/>ns.interlan.se<br/>')" onmouseout="hideHover()" title=""><img src="tick.png" style="width:16px;height:16px;border:0px"/>&nbsp;ovanaker.se</a></div>
+<div class="dom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"hudiksvall.se onmouseover="showHover(event, 'hostmaster [at] hudiksvall.se<br/>ns.hudiksvall.se<br/>c.dns.tdc.se<br/>a.dns.tdc.se<br/>b.dns.tdc.se<br/>')" onmouseout="hideHover()" title="">hudiksvall.se</a></div>
+<div class="errorDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre> 30.697: ljusdal.se ERROR No address found for dns.\n 30.697: ljusdal.se ERROR Error while checking SOA MNAME for ljusdal.se (dns).\n 31.373: ljusdal.se ERROR No mail exchanger found for domain blank.ljusdal.se.\n  7.199: ljusdal.se WARNING Too few IPv6 name servers (1).\n 30.278: ljusdal.se WARNING Name server ns2.gavlenet.com (213.141.64.3) is recursive.\n 31.374: ljusdal.se WARNING Delivery over IPv4 to rickard@blank.ljusdal.se could not be done.\n 31.374: ljusdal.se WARNING Failed to deliver email for SOA RNAME of ljusdal.se (rickard.blank.ljusdal.se) using rickard@blank.ljusdal.se.\n</pre>');"ljusdal.se onmouseover="showHover(event, 'rickard [at] blank.ljusdal.se<br/>Rekursiv<br/>Error (3)<br/>Warning (4)<br/>ns.ljusdal.se<br/>ns2.gavlenet.com<br/>')" onmouseout="hideHover()" title="">ljusdal.se</a></div>
+<div class="warningDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre>  7.213: nordanstig.se WARNING Too few IPv6 name servers (1).\n 11.977: nordanstig.se WARNING Name server ns2.gavlenet.com (213.141.64.3) is recursive.\n</pre>');"nordanstig.se onmouseover="showHover(event, 'registry [at] it.nordanstig.se<br/>Rekursiv<br/>Warning (2)<br/>ns2.gavlenet.com<br/>ns1.nordanstig.se<br/>')" onmouseout="hideHover()" title="">nordanstig.se</a></div>
+<div class="warningDom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre> 33.178: lg.se WARNING Could not find reverse address for 217.114.86.183 (183.86.114.217.in-addr.arpa.).\n</pre>');"lg.se onmouseover="showHover(event, 'hostmaster [at] lg.se<br/>Warning (1)<br/>ns-1.lg.se<br/>a.dns.tdc.se<br/>b.dns.tdc.se<br/>')" onmouseout="hideHover()" title=""><img src="tick.png" style="width:16px;height:16px;border:0px"/>&nbsp;lg.se</a></div>
+				<div style="clear:both">&nbsp;</div>
+			</div>
+			<div style="clear:both">&nbsp;</div>
+		</div>
+
+		<div id="hoverDiv" style="position:absolute;visibility:hidden;left:0px;top:0px;font:11px verdana;border:1px solid #AFAF20;padding:4px; width:220px;background-color:#FFFFE0;">&nbsp;</div>
+
+	</body>
+</html>
+

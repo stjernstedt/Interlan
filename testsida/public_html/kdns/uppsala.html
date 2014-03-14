@@ -1,0 +1,128 @@
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<html>
+	<head>
+		<style>
+			body{
+				font-family: Arial, tahoma, verdana, arial;
+			}
+			.mainContainer{
+				background: url('bg.gif');
+				font-size: 12px;
+			}
+
+			.dom{
+				/*background-color: #FF00FF; */
+			}
+			.okdom{
+				background-color: #A0FFA0;
+			}
+			.errorDom{
+				background-color: #FF0000;
+			}
+			.warningDom{
+				background-color: #FFA500;
+			}
+			.dom, .okdom, .warningDom, .errorDom{
+				/*border: 1px solid black;*/
+				padding: 2px;
+				width: 145px;
+				margin: 1px;
+				overflow: hidden;
+				float: left;
+				height: 20px;
+			}
+
+			h1, h2, h3, h4, h5, h6{
+				border-bottom: 1px solid #b0b0b0;
+			}
+			.contact{
+				text-style: uppercase;
+			}
+			.subContainer{
+				margin-botton: 42px;
+			}
+
+			a{
+				color: #0000FF;
+				text-decoration: none;
+			}
+			a:hover{
+				color: #0000FF;
+				text-decoration: underline;
+			}
+
+		</style>
+		<title>Uppsala county and DNSSEC</title>
+		<script type="text/javascript">
+			function showHover(e, txt){
+				if( e == null ) e = window.event;
+				if(e.pageX == null ) e.pageX = e.clientX;
+				if(e.pageY == null ) e.pageY = e.clientY + document.body.scrollTop;
+				//alert(e.pageX);
+
+				var o = document.getElementById("hoverDiv");
+				o.innerHTML = txt;
+				o.style.left = (e.pageX+20) + "px";
+				o.style.top = (e.pageY+12) + "px";
+				o.style.visibility = "visible";
+			}
+			function hideHover(){
+				var o = document.getElementById("hoverDiv");
+				o.style.visibility = "hidden";
+			}
+		</script>
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-10643709-2");
+		pageTracker._trackPageview();
+		} catch(err) {}</script>
+	</head>
+	<body>
+		<div class="mainContainer" style="padding:20px;border:1px solid #e0e0e0;position:absolute;left:50%;width:800px;margin-left:-400px;margin-top:50px">
+			<h1>Uppsala county and DNSSEC</h1>
+			<div class="subContainer">
+
+
+
+
+			</div>
+
+			<h2>Domäner</h2>
+			<div>
+
+				<table cellspacing="3" cellpadding="2" style="margin-bottom:7px;border:1px solid black;font: 11px verdana">
+					<tr><td style="background-color:#A0FFA0;width:145px;height:20px"><img src="tick.png"/>&nbsp;domain</td><td>Signed with DNSSEC and without remarks</td></tr>
+					<tr><td style="background-color:#FFFFFF;height:20px">domain</td><td>Without remarks in DNSCheck but not signed</td></tr>
+					<tr><td style="background-color:#FFA500;height:20px"><img src="tick.png"/>&nbsp;domain</td><td>Signed with DNSSEC but with warnings</td></tr>
+					<tr><td style="background-color:#FFA500;height:20px">domain</td><td>Warnings in DNSCheck</td></tr>
+					<tr><td style="background-color:#FF0000;height:20px">domain</td><td>Error in DNSCheck</td></tr>
+				</table>
+
+			</div>
+			<div class="subContainer">
+				<i>Updated Sat Oct 22 13:56:47 CEST 2011
+</i><br/>
+				1 of 8 domains secured<br/>
+
+<div class="dom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"alvkarleby.se onmouseover="showHover(event, 'admin [at] easydns.com<br/>ns1.easydns.com<br/>remote1.easydns.com<br/>ns2.easydns.com<br/>remote2.easydns.com<br/>')" onmouseout="hideHover()" title="">alvkarleby.se</a></div>
+<div class="dom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"tierp.se onmouseover="showHover(event, 'admin [at] easydns.com<br/>ns1.easydns.com<br/>remote2.easydns.com<br/>ns2.easydns.com<br/>remote1.easydns.com<br/>')" onmouseout="hideHover()" title="">tierp.se</a></div>
+<div class="dom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"osthammar.se onmouseover="showHover(event, 'hostmaster [at] osthammar.se<br/>dmzse-dns1.osthammar.se<br/>dmzse-dns2.osthammar.se<br/>')" onmouseout="hideHover()" title="">osthammar.se</a></div>
+<div class="dom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"heby.se onmouseover="showHover(event, 'domain [at] udac.se<br/>ns2.drift.systeam.se<br/>ns1.udac.se<br/>ns3.udac.net<br/>')" onmouseout="hideHover()" title="">heby.se</a></div>
+<div class="dom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"uppsala.se onmouseover="showHover(event, 'Datakommunikation [at] uppsala.se<br/>datan.uppsala.se<br/>ns1.udac.se<br/>ns1.skolnet.uppsala.se<br/>')" onmouseout="hideHover()" title="">uppsala.se</a></div>
+<div class="okdom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"enkoping.se onmouseover="showHover(event, 'root [at] enkoping.se<br/>enkkomdns.lidnet.net<br/>dns1.enkoping.se<br/>')" onmouseout="hideHover()" title=""><img src="tick.png" style="width:16px;height:16px;border:0px"/>&nbsp;enkoping.se</a></div>
+<div class="dom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"habo.se onmouseover="showHover(event, 'domain [at] udac.se<br/>solix.udac.se<br/>ns1.udac.se<br/>')" onmouseout="hideHover()" title="">habo.se</a></div>
+<div class="dom"><a href="javascript:void(null)" onclick="var w = window.open('','_nInfo','width=800,height=300,scrollbar=yes,toolbar=no'); w.document.write('<pre></pre>');"knivsta.se onmouseover="showHover(event, 'hostmaster [at] knivsta.se<br/>grace.qbranch.se<br/>maud.qbranch.se<br/>')" onmouseout="hideHover()" title="">knivsta.se</a></div>
+				<div style="clear:both">&nbsp;</div>
+			</div>
+			<div style="clear:both">&nbsp;</div>
+		</div>
+
+		<div id="hoverDiv" style="position:absolute;visibility:hidden;left:0px;top:0px;font:11px verdana;border:1px solid #AFAF20;padding:4px; width:220px;background-color:#FFFFE0;">&nbsp;</div>
+
+	</body>
+</html>
+
