@@ -1,57 +1,9 @@
 <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
 <html>
 	<head>
-		<style>
-			body{
-				font-family: Arial, tahoma, verdana, arial;
-			}
-			.mainContainer{
-				background: url('bg.gif');
-				font-size: 12px;
-			}
-
-			.dom{
-				/*background-color: #FF00FF; */
-			}
-			.okdom{
-				background-color: #A0FFA0;
-			}
-			.errorDom{
-				background-color: #FF0000;
-			}
-			.warningDom{
-				background-color: #FFA500;
-			}
-			.dom, .okdom, .warningDom, .errorDom{
-				/*border: 1px solid black;*/
-				padding: 2px;
-				width: 145px;
-				margin: 1px;
-				overflow: hidden;
-				float: left;
-				height: 20px;
-			}
-
-			h1, h2, h3, h4, h5, h6{
-				border-bottom: 1px solid #b0b0b0;
-			}
-			.contact{
-				text-style: uppercase;
-			}
-			.subContainer{
-				margin-botton: 42px;
-			}
-
-			a{
-				color: #0000FF;
-				text-decoration: none;
-			}
-			a:hover{
-				color: #0000FF;
-				text-decoration: underline;
-			}
-
-		</style>
+		
+		<link rel="stylesheet" href="css/kdns.css" />
+		
 		<title>Municipalities with DNSSEC</title>
 		<script type="text/javascript">
 			function showHover(e, txt){
@@ -122,7 +74,7 @@ function showBigger(o, bShow){
 			<div>
 
 				<table cellspacing="3" cellpadding="2" style="margin-bottom:7px;border:1px solid black;font: 11px verdana">
-					<tr><td style="background-color:#A0FFA0;width:145px;height:20px"><img src="tick.png"/>&nbsp;domain</td><td>Signed with DNSSEC and without remarks</td></tr>
+					<tr><td style="background-color:#00CC00;width:145px;height:20px"><img src="tick.png"/>&nbsp;domain</td><td>Signed with DNSSEC and without remarks</td></tr>
 					<tr><td style="background-color:#FFFFFF;height:20px">domain</td><td>Without remarks in DNSCheck but not signed</td></tr>
 					<tr><td style="background-color:#FFA500;height:20px"><img src="tick.png"/>&nbsp;domain</td><td>Signed with DNSSEC but with warnings</td></tr>
 					<tr><td style="background-color:#FFA500;height:20px">domain</td><td>Warnings in DNSCheck</td></tr>

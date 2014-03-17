@@ -1,0 +1,58 @@
+body{
+	font-family: Arial, tahoma, verdana, arial;
+}
+
+.mainContainer{
+	background: url('bg.gif');
+	font-size: 12px;
+}
+
+.dom{
+	/*background-color: #FF00FF; */
+}
+
+.okdom{
+	background-color: #00CC00;
+}
+
+.errorDom{
+	background-color: #FF0000;
+}
+			
+.warningDom{
+	background-color: #FFA500;
+}
+
+.dom, .okdom, .warningDom, .errorDom{
+	/*border: 1px solid black;*/
+	padding: 2px;
+	width: 145px;
+	margin: 1px;
+	overflow: hidden;
+	float: left;
+	height: 20px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	border-bottom: 1px solid #b0b0b0;
+}
+
+.contact{
+	text-style: uppercase;
+}
+
+.subContainer{
+	margin-botton: 42px;
+}
+
+a{
+	
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover{
+	color: #0000FF;
+	text-decoration: underline;
+}
