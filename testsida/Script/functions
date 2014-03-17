@@ -2,6 +2,8 @@
 
 #kör dnscheck mot definerad lista
 function startdnscheck {
+	mkdir "$resultdir"/"$1"/$date
+	cp -v "$resultdir"/"$1"/* "$historydir"/"$1"/$date
 	antal=0
 	for i in `cat $target` ; do
 		echo $i
@@ -25,9 +27,53 @@ function startdnscheck {
 	done
 }
 
+#dnscheck för landsting
 function landstingdnscheck {
 	for i in `cat landsting` ; do
 		echo $i
 		dnscheck $i | grep -v "Too few IPv6 name servers" >"$resultdir"/$i &
+	done
+}
+
+function startdnssec {
+	cp "$resultdir"/secured "$resultdir"/secured.org
+
+	getdnssecresult |tee "$resultdir"/result.txt
+	./rrd
+
+	php file.php < "$resultdir"/result.txt > "$htmldir"/index2.html
+	cp "$htmldir"/index2.html "$htmldir"/index.html
+
+	cat "$resultdir"/result.txt | awk -F , '{ print $1","$2}'|grep yes > "$resultdir"/secured
+	diff "$resultdir"/secured "$resultdir"/secured.org 
+	if [ "$?" = "1" ] ; then
+		echo nya domäner!
+		diff -y "$resultdir"/secured "$resultdir"/secured.org | egrep "<|>" | mail -s $1 tobbe@interlan.se
+	fi
+}
+
+#hämtar dnssec-resultat
+function getdnssecresult {
+	for i in `cat domain|sort` ; do
+		if [ "`cat test/$i| grep "Enough valid signatures over SOA RRset" | grep -v "Broken chain of trust" `" != "" ] ; then
+					if [ "`cat test/$i| grep "Broken chain of trust" `" = "" ] ; then
+							dnssec=yes
+					fi
+			fi
+		if [ "`cat test/$i| grep "is recursive"`" != "" ] ; then
+			rec=yes
+		fi
+		ERROR=`cat test/$i|grep ERROR| wc -l`
+		WARN=`cat test/$i|grep WARNING| wc -l`
+
+		mail=`dig +time=3 +short soa $i|awk '{ print $2}'`
+		dnser=`dig +time=3 +short ns $i`
+		echo -n $i,$dnssec,$rec,$ERROR,$WARN,$mail,
+		for dns in `echo $dnser` ; do
+			echo -n $dns,
+		done
+		echo
+		unset dnssec
+		unset rec
 	done
 }

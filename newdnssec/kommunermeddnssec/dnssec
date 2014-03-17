@@ -1,10 +1,11 @@
 #!/bin/sh
 
-
 cd /home/newdnssec/kommunermeddnssec
 cp secured secured.org
 
 ./dnssec2 |tee resultat.txt
+./rrd
+
 php file.php < resultat.txt >../public_html/dns/index2.html
 cp ../public_html/dns/index2.html ../public_html/dns/index.html
 
@@ -14,4 +15,3 @@ if [ "$?" = "1" ] ; then
 	echo nya domäner!
 	diff -y secured secured.org | egrep "<|>" | mail -s kommunermeddnssec tobbe@interlan.se
 fi
-./rrd
