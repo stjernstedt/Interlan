@@ -1,0 +1,22 @@
+#!/bin/sh
+file=/tmp/$$
+
+cd /home/special/public_html/mipv6/script
+
+date=`date +"%Y%m%d"`
+if [ ! -d history/$date ] ; then
+	mkdir history/$date
+fi
+
+
+./ipv6 > $file
+cat $file > ../index.html
+rm $file
+
+./rrd
+
+cp dns6 history/$date
+cp mx6 history/$date
+cp www6 history/$date
+
+sh status

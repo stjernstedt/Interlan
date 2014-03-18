@@ -1,0 +1,33 @@
+#!/bin/sh
+
+cd /var/www/interlan/myndighetermedipv6
+
+./checkipv6
+
+cat mall.txt 
+echo "<i>Uppdaterad `date`</i><br>"
+
+echo "<h2>Myndigheter med IPv6 i www eller ipv6-namnet</h2>"
+echo "<div class=\"subContainer\">"
+for i in `cat www6  `; do
+ 	echo "<div class="dom"><a href=\"http://www.$i\">$i</a></div>"
+done
+echo "<div style=\"break:both\">&nbsp;</div></div>"
+
+echo "<h2>Myndigheter med IPv6 i sitt MX-record</h2>"
+echo "<div class=\"subContainer\">"
+for i in `cat mx6  `; do
+ 	echo "<div class="dom"><a href=\"http://www.$i\">$i</a></div>"
+done
+echo "<div style="break:both">&nbsp;</div></div>"
+
+echo "<h2>Myndigheter med IPv6 på någon av sina DNS'er</h2>"
+echo "<div class=\"subContainer\">"
+for i in `cat dns6  `; do
+ 	echo "<div class=\"dom\"><a href=\"http://www.$i\">$i</a></div>"
+done
+echo "<div style=\"break:both\">&nbsp;</div></div>"
+
+
+echo "<div style=\"break:both\">&nbsp;</div></div></p></div></body></html>"
+
