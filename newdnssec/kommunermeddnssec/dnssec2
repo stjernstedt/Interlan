@@ -1,6 +1,5 @@
 #!/bin/sh
 
-
 for i in `cat kommun` ; do
 	if [ "`cat test/$i| grep "Enough valid signatures over SOA RRset" | grep -v "Broken chain of trust" `" != "" ] ; then
 		if [ "`cat test/$i| grep "Broken chain of trust" `" = "" ] ; then

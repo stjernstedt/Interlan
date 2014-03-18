@@ -1,26 +1,24 @@
 #!/bin/sh
-#cd /home/newdnssec/kommunermeddnssec
 source ./functions
 
-resultdir=../test
+target=$1
+resultdir=./results
 historydir=../history
 date=`date +"%Y%m%d"`
-mkdir "$resultdir"/$date
-cp -v "$resultdir"/* "$historydir"/$date
 
 case $target in
 	kommun)
-		resultdir=../test/kommun
-		historydir=../history/kommun
+		resultdir="$resultdir"/kommun
+		historydir="$historydir"/kommun
 		startdnscheck kommun
 		;;
 	myndigheter)
-		resultdir=../test/myndigheter
-		historydir=../history/myndigheter
+		resultdir="$resultdir"/myndigheter
+		historydir="$historydir"/myndigheter
 		startdnscheck myndigheter
 		;;
 	landsting)
-		resultdir=../test/landsting
+		resultdir="$resultdir"/landsting
 		landstingdnscheck
 		;;
 esac
