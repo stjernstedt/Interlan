@@ -1,13 +1,17 @@
 #!/bin/sh
 
+resultdir="$country/results/$target"
+historydir="$country/history/$target"
+date=`date +"%Y%m%d"`
+
 #kör dnscheck mot definerad lista
 function startdnscheck {
-	mkdir "$resultdir"/"$1"/$date
-	cp -v "$resultdir"/"$1"/* "$historydir"/"$1"/$date
+	mkdir $historydir/$date
+	cp -v $resultdir/* $historydir/$date
 	antal=0
-	for i in `cat $target` ; do
+	for i in `cat $country/$target` ; do
 		echo $i
-		timeout 240 nice dnscheck  --policyfile /etc/dnscheck/policy.cron.yaml $i  >"$resultdir"/$i &
+		timeout 240 nice dnscheck  --policyfile /etc/dnscheck/policy.cron.yaml $i >$resultdir/$i &
 		antal=$((antal+1))
 		if [ $antal -eq 30 ]; then
 			wait
@@ -17,54 +21,46 @@ function startdnscheck {
 			antal=0
 		fi
 	done
-	cp -v "$resultdir"/* "$historydir"/$date
-		
-	echo sover 180 sek
-	sleep 180
-	for i in `cat $target` ; do
-		echo $i
-		echo $i | perl expire >> $resultdir/$i
-	done
 }
 
 #dnscheck för landsting
 function landstingdnscheck {
-	for i in `cat landsting` ; do
+	for i in `cat $country/landsting` ; do
 		echo $i
-		dnscheck $i | grep -v "Too few IPv6 name servers" >"$resultdir"/$i &
+		dnscheck $i | grep -v "Too few IPv6 name servers" >$resultdir/$i &
 	done
 }
 
 function startdnssec {
-	cp "$resultdir"/secured "$resultdir"/secured.org
+	cp $resultdir/secured $resultdir/secured.org
 
-	getdnssecresult |tee "$resultdir"/result.txt
-	./rrd
+	getdnssecresult $1 |tee $resultdir/result.txt
+#	./rrd
 
-	php file.php < "$resultdir"/result.txt > "$htmldir"/index2.html
-	cp "$htmldir"/index2.html "$htmldir"/index.html
+	php file.php < $resultdir/result.txt > $htmldir/index2.html
+	cp $htmldir/index2.html $htmldir/index.html
 
-	cat "$resultdir"/result.txt | awk -F , '{ print $1","$2}'|grep yes > "$resultdir"/secured
-	diff "$resultdir"/secured "$resultdir"/secured.org 
+	cat $resultdir/result.txt | awk -F , '{ print $1","$2}'|grep yes > "$resultdir"/secured
+	diff $resultdir/secured $resultdir/secured.org 
 	if [ "$?" = "1" ] ; then
 		echo nya domäner!
-		diff -y "$resultdir"/secured "$resultdir"/secured.org | egrep "<|>" | mail -s $1 tobbe@interlan.se
+		diff -y $resultdir/secured $resultdir/secured.org | egrep "<|>" | mail -s $1 tobbe@interlan.se
 	fi
 }
 
 #hämtar dnssec-resultat
 function getdnssecresult {
-	for i in `cat domain|sort` ; do
-		if [ "`cat test/$i| grep "Enough valid signatures over SOA RRset" | grep -v "Broken chain of trust" `" != "" ] ; then
-					if [ "`cat test/$i| grep "Broken chain of trust" `" = "" ] ; then
+	for i in `cat $country/$target|sort` ; do
+		if [ "`cat $resultdir/$i| grep "Enough valid signatures over SOA RRset" | grep -v "Broken chain of trust" `" != "" ] ; then
+					if [ "`cat $resultdir/$i| grep "Broken chain of trust" `" = "" ] ; then
 							dnssec=yes
 					fi
 			fi
-		if [ "`cat test/$i| grep "is recursive"`" != "" ] ; then
+		if [ "`cat $resultdir/$i| grep "is recursive"`" != "" ] ; then
 			rec=yes
 		fi
-		ERROR=`cat test/$i|grep ERROR| wc -l`
-		WARN=`cat test/$i|grep WARNING| wc -l`
+		ERROR=`cat $resultdir/$i|grep ERROR| wc -l`
+		WARN=`cat $resultdir/$i|grep WARNING| wc -l`
 
 		mail=`dig +time=3 +short soa $i|awk '{ print $2}'`
 		dnser=`dig +time=3 +short ns $i`
@@ -76,4 +72,88 @@ function getdnssecresult {
 		unset dnssec
 		unset rec
 	done
+}
+
+function checkipv6results {
+	cat /dev/null >$resultdir/errwww6
+	cat /dev/null >$resultdir/errdns6
+	cat /dev/null >$resultdir/errmx6
+
+	for i in `cat $resultdir/www6` ; do
+		echo --- Testing www for $i
+		wget -t 1 -T 3 -6 -o /dev/null  www.$i
+		if [ $? != "0" ] ; then
+			echo www.$i is not responding
+			echo $i >> $resultdir/errwww6
+		fi
+		if [ -f index.html ] ; then
+			rm index.html
+		fi
+	done
+
+	for i in `cat $resultdir/dns6` ; do
+		echo --- Testing dns for $i
+		for ns in `dig +short ns $i` ; do
+					if [ "`host $ns | grep -i '[2-3][0-9|a-f][0-9|a-f][0-9|a-f]:'`" ] ; then
+				echo testing dns $ns
+				res=`dig -6 +short +time=2 ns $i @$ns 2>&1 `
+				if [ $? != "0" ] ; then
+					echo $ns is not responding 
+					if [ ! `grep $i $resultdir/errdns6` ] ; then	
+								echo $i >> $resultdir/errdns6
+						fi
+				fi
+				if [ "$res" = "" ] ; then
+					echo $ns is not  auth
+									if [ ! `grep $i $resultdir/errdns6` ] ; then       
+											echo $i >> $resultdir/errdns6
+									fi
+							fi
+					fi
+			done
+			
+	done
+
+	for i in `cat $resultdir/mx6` ; do
+		echo --- Testing mailserver for $i
+			for mx in `dig +short mx $i` ; do
+					if [ "`host $mx | grep -i '[2-3][0-9|a-f][0-9|a-f][0-9|a-f]:'`" ] ; then
+				echo testing mailserver $mx
+							echo quit|nc -6 -w 4 $mx 25 
+							if [ $? != "0" ] ; then
+					echo $mx is not responding
+					if [ ! `grep $i $resultdir/errmx6` ] ; then
+										echo $i >> $resultdir/errmx6
+					fi
+							fi
+					fi
+			done
+
+	done
+
+	cp $resultdir/errwww6 $historydir/$date
+	cp $resultdir/errdns6 $historydir/$date
+	cp $resultdir/errmx6  $historydir/$date
+	cat /dev/null >$resultdir/truewww6
+	cat /dev/null >$resultdir/truemx6
+	cat /dev/null >$resultdir/truedns6
+
+	for i in `cat $resultdir/www6` ; do
+		if [ ! "`cat $resultdir/errwww6| grep $i`" ] ; then
+			echo $i >> $resultdir/truewww6
+		fi
+	done	
+	for i in `cat $resultdir/dns6` ; do
+			if [ ! "`cat $resultdir/errdns6| grep $i`" ] ; then
+					echo $i >> $resultdir/truedns6
+			fi
+	done
+	for i in `cat $resultdir/mx6` ; do
+			if [ ! "`cat $resultdir/errmx6| grep $i`" ] ; then
+					echo $i >> $resultdir/truemx6
+			fi
+	done
+	cp $resultdir/truewww6 $historydir/$date
+	cp $resultdir/truedns6 $historydir/$date
+	cp $resultdir/truemx6  $historydir/$date
 }

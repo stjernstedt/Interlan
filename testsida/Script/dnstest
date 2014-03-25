@@ -1,24 +1,17 @@
 #!/bin/sh
-source ./functions
+country=$1
+target=$2
 
-target=$1
-resultdir=./results
-historydir=../history
-date=`date +"%Y%m%d"`
+source ./functions
 
 case $target in
 	kommun)
-		resultdir="$resultdir"/kommun
-		historydir="$historydir"/kommun
 		startdnscheck kommun
 		;;
 	myndigheter)
-		resultdir="$resultdir"/myndigheter
-		historydir="$historydir"/myndigheter
 		startdnscheck myndigheter
 		;;
 	landsting)
-		resultdir="$resultdir"/landsting
 		landstingdnscheck
 		;;
 esac

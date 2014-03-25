@@ -1,6 +1,10 @@
 <?php
-
+	
 	$datum = $argv[1];
+	$resultdir = $argv[2];
+	$historydir = $argv[3];
+	$komdomfile = "komdom-" . $argv[4] . ".csv";
+	
 
 	/*
 		***********************
@@ -8,20 +12,20 @@
 		***********************
 	*/
 	// innehaaller domaener i en lista. Varje rad innehaaller hostnamn och kontaktinfo samt om den aer rekursiv samt lista av dnser till den och antal fel och warnings
-	$resultatPath = "results/" . $datum . ".txt";	//  serversoekvaeg: /home/kommunermeddnssec/resultat
+	$resultatPath = $resultdir . "/" .$datum . ".txt";	//  serversoekvaeg: /home/kommunermeddnssec/resultat
 
 	// Haer finns output fraan dnscheck
-	$errorPath = "history/" . $datum . "/"; 			// konkatenera med host. Innehaaller ERROR och WARNINGs samt INFO.. maska ut raett..
+	$errorPath = $historydir . "/" . $datum . "/"; 			// konkatenera med host. Innehaaller ERROR och WARNINGs samt INFO.. maska ut raett..
 
 
 	// finns hostnamnet i denna fil saa har den ipv6 paa dns
-	$ipDns6Path = "kipv6/script/truedns6"; 		// 	/kipv6/script/history/[datum]/dns6 = textfil med domaener som har v6
+	$ipDns6Path = $resultdir . "/truedns6"; 		// 	/kipv6/script/history/[datum]/dns6 = textfil med domaener som har v6
 
 	// finns hostnamnet i denna fil saa har den ipv6 paa mx
-	$ipMx6Path = "kipv6/script/truemx6"; 		// 	/kipv6/script/history/[datum]/mx6 = textfil med domaener som har v6
+	$ipMx6Path = $resultdir . "/truemx6"; 		// 	/kipv6/script/history/[datum]/mx6 = textfil med domaener som har v6
 
 	// finns hostnamnet i denna fil saa har den ipv6 paa www
-	$ipWww6Path = "kipv6/script/truewww6"; 		// 	/kipv6/script/history/[datum]/www6 = textfil med domaener som har v6
+	$ipWww6Path = $resultdir . "/truewww6"; 		// 	/kipv6/script/history/[datum]/www6 = textfil med domaener som har v6
 
 	/*
 		***********
@@ -67,7 +71,7 @@
 		*****************
 	*/
 
-	function createOutput($dateOfIntrest){
+	function createOutput($dateOfIntrest, $komdomfile){
 		$nl = "\n";
 
 		// header
@@ -76,7 +80,7 @@
 		echo '		"municipality": [' . $nl;
 
 
-		$csv =  file_get_contents("komdom.csv");
+		$csv =  file_get_contents($komdomfile);
 		$rows = str_getcsv( $csv, "\n");
 		$lastRow = count($rows);
 
@@ -255,6 +259,6 @@
 	}
 
 	// START METHOD:
-	createOutput($datum);
+	createOutput($datum, $komdomfile);
 
 ?>
