@@ -1,0 +1,12 @@
+#!/bin/sh
+source ./functions
+
+resultdir=./results
+date=`date +"%Y%m%d"`
+echo $date
+
+getdnssecresult $date | tee "$resultdir"/"$date.txt"
+chown newdnssec.newdnssec  *
+
+php transform.php $date > public_html/data/$date.json
+chown newdnssec.newdnssec  public_html/data/$date.json
