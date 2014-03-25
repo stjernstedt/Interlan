@@ -2,9 +2,35 @@ body{
 	font-family: Arial, tahoma, verdana, arial;
 }
 
+#dBigger {
+	 width:462px;
+	 height:149px;
+	 position:relative;
+	 left:-10px;
+	 top:-10px;
+	 display:none;
+}
+#hoverDiv {
+	position:absolute;
+	visibility:hidden;
+	left:0px;top:0px;
+	font:11px verdana;
+	border:1px solid #AFAF20;
+	padding:4px;
+	width:220px;
+	background-color:#FFFFE0;
+}
+
 .mainContainer{
 	background: url('bg.gif');
 	font-size: 12px;
+	padding: 20px;
+	border: 1px solid #e0e0e0;
+	position:absolute;
+	left:50%;
+	width:800px;
+	margin-left:-400px;
+	margin-top:50px;
 }
 
 .dom{
