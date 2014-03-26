@@ -139,7 +139,7 @@ function loadList() {
 }
 
 function addPolygon(municipality) {
-    var knnr = municipality.knnr.length == 3 ? "0" + municipality.knnr.toString() : municipality.knnr.toString();
+    var knnr = municipality.knnr.length == 30 ? "0" + municipality.knnr.toString() : municipality.knnr.toString();
     var info = municipalitiesInfo[knnr];
 
     if (info != null) {
@@ -205,7 +205,6 @@ function addPolygon(municipality) {
             if ($("#tabs input[type='checkbox']:checked").size() == 0 && (!info.ipWww || !info.ipDns || !info.ipMail)) color = "f90";
             if ($("#tabs input[type='checkbox']:checked").size() == 0 && (!info.ipWww && !info.ipDns && !info.ipMail)) color = "f00";
         }
-
         if (!show) {
             if (polygons[info.knnr] != null)
                 polygons[info.knnr].setOptions({ fillOpacity: 0.0, strokeWeight: 0.5 });
