@@ -15,7 +15,8 @@
 	$resultatPath = $resultdir . "/" .$datum . ".txt";	//  serversoekvaeg: /home/kommunermeddnssec/resultat
 
 	// Haer finns output fraan dnscheck
-	$errorPath = $historydir . "/" . $datum . "/"; 			// konkatenera med host. Innehaaller ERROR och WARNINGs samt INFO.. maska ut raett..
+//	$errorPath = $historydir . "/" . $datum . "/"; 			// konkatenera med host. Innehaaller ERROR och WARNINGs samt INFO.. maska ut raett..
+	$errorPath = $resultdir . "/"; 			// konkatenera med host. Innehaaller ERROR och WARNINGs samt INFO.. maska ut raett..
 
 
 	// finns hostnamnet i denna fil saa har den ipv6 paa dns

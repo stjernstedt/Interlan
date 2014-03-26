@@ -1,9 +1,14 @@
-mkdir sverige
-mkdir sverige/results
-mkdir sverige/history
-mkdir sverige/results/kommun
-mkdir sverige/history/kommun
-mkdir sverige/results/myndigheter
-mkdir sverige/history/myndigheter
-mkdir sverige/results/landsting
-mkdir sverige/history/landsting
+#!/bin/bash
+countries=("sverige" "norge" "danmark" "finland")
+
+for i in "${countries[@]}"; do
+	mkdir $i
+	mkdir $i/results
+	mkdir $i/history
+	mkdir $i/results/kommun
+	mkdir $i/history/kommun
+	mkdir $i/results/myndigheter
+	mkdir $i/history/myndigheter
+	mkdir $i/results/landsting
+	mkdir $i/history/landsting
+done

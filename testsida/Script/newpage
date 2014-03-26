@@ -10,5 +10,5 @@ echo $date
 getdnssecresult $target | tee $resultdir/$date.txt
 #chown newdnssec.newdnssec  *
 
-php transform.php $date $resultdir $historydir $country > public_html/data/$date.json
+php transform.php $date $resultdir $historydir $country > public_html/data/$country/$date.json
 #chown newdnssec.newdnssec  public_html/data/$date.json
