@@ -31,6 +31,12 @@
             </ul>
             <div id="tabs-1">
 	            <p><?php echo getTranslatedItem("DOMAINS_THAT_ARE") ?> <br /><!-- outline: 2px solid #0f0; -->
+                    <div id="Checkboxholder">
+                        <input type="checkbox" value="land" id="Sv" />Sverige<br>
+                        <input type="checkbox" value="land" id="Fi" />Finland<br>
+                        <input type="checkbox" value="land" id="No" />Norge<br>
+                        <br>
+                    </div>
                 <table>
                     <tr><td><input type="checkbox" value="dns" id="signed" /></td><td><?php echo getTranslatedItem("DOMAINS_SIGNED") ?></td></tr>
                     <tr><td>&nbsp;</td></tr>
