@@ -70,10 +70,15 @@ $(function () {
         dataType: "json",
         async: false,
         success: function (d) {
-            $(d.municipalities.municipality).each(function () {
-                municipalities.push(this);
-            });
-
+			if(d.features) {
+				$(d.features).each(function () {
+					municipalities.push(this);
+				});
+			} else {
+				$(d.municipalities.municipality).each(function () {
+					municipalities.push(this);
+				});			
+			}
             var today = new Date(new Date().getTime() - (24 * 60 * 60 * 1000));
             var dd = today.getDate();
             var mm = today.getMonth() + 1;
@@ -139,7 +144,10 @@ function loadList() {
 }
 
 function addPolygon(municipality) {
-    var knnr = municipality.knnr.length == 30 ? "0" + municipality.knnr.toString() : municipality.knnr.toString();
+	if (typeof municipality.knnr === 'undefined')
+		var knnr = municipality.properties.code.toString();
+	else
+		var knnr = municipality.knnr.toString();
     var info = municipalitiesInfo[knnr];
 
     if (info != null) {
@@ -155,13 +163,38 @@ function addPolygon(municipality) {
 		catch(e){}
 
         var polyCoords = new Array();
-        $(eval(municipality.coords)).each(function () {
-            var lat_long = this.toString().split(',');
-            lat = lat_long[0];
-            lng = lat_long[1];
-            polyCoords.push(new google.maps.LatLng(lat, lng));
-        });
 
+		if(typeof municipality.geometry !== 'undefined') {
+			if(municipality.geometry.geometries) {
+				$(eval(municipality.geometry.geometries)).each(function () {
+					$(eval(this)).each(function () {
+						$(eval(this.coordinates)).each(function () {
+							$(eval(this)).each(function () {
+								lat = this[1];
+								lng = this[0];
+								polyCoords.push(new google.maps.LatLng(lat, lng));
+							});
+						});
+					});
+				});
+			} else if (municipality.geometry.coordinates) {
+				$(eval(municipality.geometry.coordinates)).each(function () {
+					$(eval(this)).each(function () {
+						lat = this[1];
+						lng = this[0];
+						polyCoords.push(new google.maps.LatLng(lat, lng));
+					});
+				});
+			}
+		} else {
+			$(eval(municipality.coords)).each(function () {
+				var lat_long = this.toString().split(',');
+				lat = lat_long[0];
+				lng = lat_long[1];
+				polyCoords.push(new google.maps.LatLng(lat, lng));
+			});
+		}
+		
         var hasErrors = (info.errors != null && $(info.errors).size() > 0);
         var hasWarnings = (info.warnings != null && $(info.warnings).size() > 0);
         var isSigned = $("#signed").is(':checked');
