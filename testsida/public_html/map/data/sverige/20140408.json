@@ -12,8 +12,8 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "dist.ale.se"},
-					{"name": "ystad.dns.swip.net"}
+					{"name": "ystad.dns.swip.net"},
+					{"name": "dist.ale.se"}
 				],
 				"errors": [
 				],
@@ -50,9 +50,9 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "dns.alvesta.se"},
 					{"name": "a.dns.tdc.se"},
-					{"name": "b.dns.tdc.se"}
+					{"name": "b.dns.tdc.se"},
+					{"name": "dns.alvesta.se"}
 				],
 				"errors": [
 				],
@@ -70,8 +70,8 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "dns01.hoglandet.se"},
-					{"name": "dns02.hoglandet.se"}
+					{"name": "dns02.hoglandet.se"},
+					{"name": "dns01.hoglandet.se"}
 				],
 				"errors": [
 				],
@@ -89,8 +89,8 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "web1-srv.arboga.se"},
-					{"name": "ns2.compose.se"}
+					{"name": "ns2.compose.se"},
+					{"name": "web1-srv.arboga.se"}
 				],
 				"errors": [
 				],
@@ -108,9 +108,9 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns1.frobbit.se"},
 					{"name": "ns.cafax.se"},
-					{"name": "ns2.frobbit.se"}
+					{"name": "ns2.frobbit.se"},
+					{"name": "ns1.frobbit.se"}
 				],
 				"errors": [
 				],
@@ -128,9 +128,9 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "ns1.ipv6dns.se"},
 					{"name": "ns2.ipv6dns.se"},
-					{"name": "dns.arvidsjaur.se"}
+					{"name": "dns.arvidsjaur.se"},
+					{"name": "ns1.ipv6dns.se"}
 				],
 				"errors": [
 				],
@@ -148,9 +148,9 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "ns1.arvika.se"},
 					{"name": "dns5.telia.com"},
-					{"name": "ns2.arvika.se"}
+					{"name": "ns2.arvika.se"},
+					{"name": "ns1.arvika.se"}
 				],
 				"errors": [
 				],
@@ -170,9 +170,9 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "dns1.hallsberg.se"},
 					{"name": "dns2.hallsberg.se"},
-					{"name": "dns5.telia.com"}
+					{"name": "dns5.telia.com"},
+					{"name": "dns1.hallsberg.se"}
 				],
 				"errors": [
 					{"description": "No address found for dns2.hallsberg.se."},
@@ -230,8 +230,8 @@
 				"ipDns": false,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "dns4.telia.com"},
-					{"name": "dns3.telia.com"}
+					{"name": "dns3.telia.com"},
+					{"name": "dns4.telia.com"}
 				],
 				"errors": [
 				],
@@ -292,19 +292,16 @@
 				"isRecursive": false,
 				"ipWww": true,
 				"ipDns": true,
-				"ipMail": false,
+				"ipMail": true,
 				"dnsList": [
-					{"name": "ns4.norrnet.com"},
+					{"name": "ns2.boden.se"},
 					{"name": "ns.boden.se"},
-					{"name": "ns2.boden.se"}
+					{"name": "ns4.norrnet.com"}
 				],
 				"errors": [
 				],
 				"warnings": [
-					{"description": "Could not find reverse address for 2a00:ff40:10:ffff:0:0:0:a (a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.f.f.f.f.0.1.0.0.0.4.f.f.0.0.a.2.ip6.arpa.)."},
-					{"description": "Could not find reverse address for 2a00:ff40:10:ffff:0:0:0:13 (3.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.f.f.f.f.0.1.0.0.0.4.f.f.0.0.a.2.ip6.arpa.)."},
-					{"description": "Could not find reverse address for 2a00:ff40:10:ffff:0:0:0:a (a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.f.f.f.f.0.1.0.0.0.4.f.f.0.0.a.2.ip6.arpa.)."},
-					{"description": "Could not find reverse address for 2a00:ff40:10:ffff:0:0:0:c (c.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.f.f.f.f.0.1.0.0.0.4.f.f.0.0.a.2.ip6.arpa.)."}
+					{"description": "2 different serials found."}
 				]
 			},
 			{
@@ -319,8 +316,8 @@
 				"ipMail": true,
 				"dnsList": [
 					{"name": "ns1.harryda.se"},
-					{"name": "ns2.bollebygd.se"},
 					{"name": "ns2.harryda.se"},
+					{"name": "ns2.bollebygd.se"},
 					{"name": "ns1.bollebygd.se"}
 				],
 				"errors": [
@@ -339,8 +336,8 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "ns3.interlan.se"},
-					{"name": "ns.interlan.se"}
+					{"name": "ns.interlan.se"},
+					{"name": "ns3.interlan.se"}
 				],
 				"errors": [
 				],
@@ -356,12 +353,12 @@
 				"isRecursive": false,
 				"ipWww": true,
 				"ipDns": true,
-				"ipMail": true,
+				"ipMail": false,
 				"dnsList": [
-					{"name": "dns5.telia.com"},
-					{"name": "ns1.borgholm.se"},
+					{"name": "ns2.ipv6dns.se"},
 					{"name": "ns1.ipv6dns.se"},
-					{"name": "ns2.ipv6dns.se"}
+					{"name": "dns5.telia.com"},
+					{"name": "ns1.borgholm.se"}
 				],
 				"errors": [
 				],
@@ -379,9 +376,9 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns2.borlange.se"},
+					{"name": "ns1.borlange.se"},
 					{"name": "mailman.borlange.se"},
-					{"name": "ns1.borlange.se"}
+					{"name": "ns2.borlange.se"}
 				],
 				"errors": [
 				],
@@ -399,10 +396,10 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns2.boras.se"},
-					{"name": "ns1.boras.se"},
 					{"name": "dns6.telia.com"},
-					{"name": "pitea.dns.swip.net"}
+					{"name": "pitea.dns.swip.net"},
+					{"name": "ns2.boras.se"},
+					{"name": "ns1.boras.se"}
 				],
 				"errors": [
 				],
@@ -420,8 +417,8 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns2.telenor.se"},
-					{"name": "dns1.botkyrka.se"}
+					{"name": "dns1.botkyrka.se"},
+					{"name": "ns2.telenor.se"}
 				],
 				"errors": [
 				],
@@ -459,8 +456,8 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns.solvesborg.se"},
-					{"name": "ns.bromolla.se"}
+					{"name": "ns.bromolla.se"},
+					{"name": "ns.solvesborg.se"}
 				],
 				"errors": [
 				],
@@ -480,11 +477,11 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
+					{"name": "dns5.nettica.com"},
+					{"name": "dns1.nettica.com"},
 					{"name": "dns2.nettica.com"},
 					{"name": "dns3.nettica.com"},
-					{"name": "dns4.nettica.com"},
-					{"name": "dns5.nettica.com"},
-					{"name": "dns1.nettica.com"}
+					{"name": "dns4.nettica.com"}
 				],
 				"errors": [
 				],
@@ -522,9 +519,9 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
+					{"name": "ns.bastad.se"},
 					{"name": "ns3.bjare.net"},
-					{"name": "ns2.bjare.net"},
-					{"name": "ns.bastad.se"}
+					{"name": "ns2.bjare.net"}
 				],
 				"errors": [
 				],
@@ -542,9 +539,9 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
+					{"name": "dns5.telia.com"},
 					{"name": "ns2.dalsnet.se"},
-					{"name": "ns1.dalsnet.se"},
-					{"name": "dns5.telia.com"}
+					{"name": "ns1.dalsnet.se"}
 				],
 				"errors": [
 				],
@@ -555,29 +552,28 @@
 				"knnr": "0162",
 				"name": "Danderyds kommun",
 				"url": "danderyd.se",
-				"contact": "hostmaster [at] excedo.se",
+				"contact": "postmaster [at] danderyd.se",
 				"dnsSecSigned": false,
 				"isRecursive": false,
 				"ipWww": false,
-				"ipDns": true,
+				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns2.p21.dynect.net"},
-					{"name": "ns1.p21.dynect.net"},
-					{"name": "ns4.p21.dynect.net"},
-					{"name": "ns3.p21.dynect.net"}
+					{"name": "ns1.certezza.net"},
+					{"name": "xfrin1.dynect.net"},
+					{"name": "xfrin2.dynect.net"},
+					{"name": "ns.danderyd.se"}
 				],
 				"errors": [
+					{"description": "Name server xfrin2.dynect.net (204.13.249.65) does not answer queries over UDP."},
+					{"description": "Name server xfrin2.dynect.net (204.13.249.65) does not answer queries over TCP."},
+					{"description": "Name server xfrin2.dynect.net (2600:2001:0:1:0:0:0:65) does not answer queries over UDP."},
+					{"description": "Name server xfrin2.dynect.net (2600:2001:0:1:0:0:0:65) does not answer queries over TCP."},
+					{"description": "Not enough valid signatures over SOA RRset found for danderyd.se."}
 				],
 				"warnings": [
-					{"description": "Reverse for 208.81.68.3 points to an unknown host name (mxl068v3.mxlogic.net)."},
-					{"description": "Reverse for 208.81.64.3 points to an unknown host name (mxl064v3.mxlogic.net)."},
-					{"description": "Reverse for 208.81.64.2 points to an unknown host name (mxl064v2.mxlogic.net)."},
-					{"description": "Reverse for 208.81.68.2 points to an unknown host name (mxl068v2.mxlogic.net)."},
-					{"description": "Reverse for 208.81.68.2 points to an unknown host name (mxl068v2.mxlogic.net)."},
-					{"description": "Reverse for 208.81.64.2 points to an unknown host name (mxl064v2.mxlogic.net)."},
-					{"description": "Reverse for 208.81.68.3 points to an unknown host name (mxl068v3.mxlogic.net)."},
-					{"description": "Reverse for 208.81.64.3 points to an unknown host name (mxl064v3.mxlogic.net)."}
+					{"description": "3 different serials found."},
+					{"description": "Broken chain of trust for danderyd.se - DNSKEY found at child, but no DS was found at parent."}
 				]
 			},
 			{
@@ -591,10 +587,10 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
+					{"name": "b.dns.tdc.se"},
 					{"name": "c.dns.tdc.se"},
-					{"name": "a.dns.tdc.se"},
 					{"name": "ns.degerfors.se"},
-					{"name": "b.dns.tdc.se"}
+					{"name": "a.dns.tdc.se"}
 				],
 				"errors": [
 				],
@@ -612,9 +608,9 @@
 				"ipDns": false,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "dns.umea.se"},
 					{"name": "ns2.dorotea.se"},
-					{"name": "ns.dorotea.se"}
+					{"name": "ns.dorotea.se"},
+					{"name": "dns.umea.se"}
 				],
 				"errors": [
 				],
@@ -632,10 +628,10 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "c.dns.tdc.se"},
+					{"name": "dns1.eda.se"},
 					{"name": "a.dns.tdc.se"},
-					{"name": "b.dns.tdc.se"},
-					{"name": "dns1.eda.se"}
+					{"name": "c.dns.tdc.se"},
+					{"name": "b.dns.tdc.se"}
 				],
 				"errors": [
 				],
@@ -653,9 +649,9 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "ystad.dns.swip.net"},
 					{"name": "orebro.dns.swip.net"},
-					{"name": "dns5.telia.com"}
+					{"name": "dns5.telia.com"},
+					{"name": "ystad.dns.swip.net"}
 				],
 				"errors": [
 				],
@@ -673,8 +669,8 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "dns01.hoglandet.se"},
-					{"name": "dns02.hoglandet.se"}
+					{"name": "dns02.hoglandet.se"},
+					{"name": "dns01.hoglandet.se"}
 				],
 				"errors": [
 				],
@@ -692,9 +688,9 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "dns.torsas.se"},
 					{"name": "ns1.ipv6dns.se"},
-					{"name": "ns2.ipv6dns.se"}
+					{"name": "ns2.ipv6dns.se"},
+					{"name": "dns.torsas.se"}
 				],
 				"errors": [
 				],
@@ -724,20 +720,24 @@
 				"knnr": "0484",
 				"name": "Eskilstuna kommun",
 				"url": "eskilstuna.se",
-				"contact": "root [at] eskilstuna.se",
+				"contact": "admin [at] eskilstuna.se",
 				"dnsSecSigned": false,
 				"isRecursive": true,
 				"ipWww": false,
-				"ipDns": false,
+				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
+					{"name": "b.dns.tdc.se"},
+					{"name": "c.dns.tdc.se"},
 					{"name": "ns.eskilstuna.se"},
-					{"name": "dns2.utfors.se"}
+					{"name": "ns2.lidnet.net"},
+					{"name": "a.dns.tdc.se"}
 				],
 				"errors": [
 				],
 				"warnings": [
-					{"description": "Name server ns.eskilstuna.se (212.105.81.20) is recursive."}
+					{"description": "Name server ns.eskilstuna.se (194.68.82.70) is recursive."},
+					{"description": "Could not find reverse address for 2001:be8:700:ff01:0:0:0:2 (2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1.0.f.f.0.0.7.0.8.e.b.0.1.0.0.2.ip6.arpa.)."}
 				]
 			},
 			{
@@ -751,8 +751,8 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "umbrella.eslov.se"},
 					{"name": "dns5.telia.com"},
+					{"name": "umbrella.eslov.se"},
 					{"name": "dns6.telia.com"}
 				],
 				"errors": [
@@ -837,7 +837,6 @@
 				"errors": [
 				],
 				"warnings": [
-					{"description": "2 different serials found."}
 				]
 			},
 			{
@@ -895,8 +894,8 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns.wineasy.se"},
-					{"name": "ns.finet.se"}
+					{"name": "ns.finet.se"},
+					{"name": "ns.wineasy.se"}
 				],
 				"errors": [
 				],
@@ -933,9 +932,9 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "fk-dns02.forshaga.se"},
 					{"name": "fk-dns01.forshaga.se"},
-					{"name": "dns5.telia.com"}
+					{"name": "dns5.telia.com"},
+					{"name": "fk-dns02.forshaga.se"}
 				],
 				"errors": [
 				],
@@ -976,10 +975,12 @@
 				"ipMail": false,
 				"dnsList": [
 					{"name": "ns6.glidecom.net"},
-					{"name": "ns5.glidecom.net"},
-					{"name": "ns7.glidecom.net"}
+					{"name": "ns7.glidecom.net"},
+					{"name": "ns5.glidecom.net"}
 				],
 				"errors": [
+					{"description": "Name server ns7.glidecom.net (195.35.83.103) does not answer queries over UDP."},
+					{"description": "Name server ns7.glidecom.net (195.35.83.103) does not answer queries over TCP."}
 				],
 				"warnings": [
 				]
@@ -1021,9 +1022,9 @@
 				"errors": [
 				],
 				"warnings": [
-					{"description": "Duration for RRSIG(gnesta.se/IN/DNSKEY/23473) is too long (87008696 seconds)."},
-					{"description": "Duration for RRSIG(gnesta.se/IN/DNSKEY/55327) is too long (90730998 seconds)."},
-					{"description": "Duration for RRSIG(gnesta.se/IN/DNSKEY/29851) is too long (90735406 seconds)."}
+					{"description": "Duration for RRSIG(gnesta.se/IN/DNSKEY/23473) is too long (85201080 seconds)."},
+					{"description": "Duration for RRSIG(gnesta.se/IN/DNSKEY/55327) is too long (88923382 seconds)."},
+					{"description": "Duration for RRSIG(gnesta.se/IN/DNSKEY/29851) is too long (88927790 seconds)."}
 				]
 			},
 			{
@@ -1037,8 +1038,8 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns02.gnosjo.se"},
-					{"name": "ns01.gnosjo.se"}
+					{"name": "ns01.gnosjo.se"},
+					{"name": "ns02.gnosjo.se"}
 				],
 				"errors": [
 				],
@@ -1051,21 +1052,18 @@
 				"url": "gotland.se",
 				"contact": "itsupport [at] gotland.se",
 				"dnsSecSigned": true,
-				"isRecursive": true,
+				"isRecursive": false,
 				"ipWww": false,
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
+					{"name": "dns6.telia.com"},
 					{"name": "ns2.gotland.se"},
-					{"name": "ns.gotland.se"},
-					{"name": "dns6.telia.com"}
+					{"name": "ns.gotland.se"}
 				],
 				"errors": [
-					{"description": "Name server ns2.gotland.se (193.180.228.195) does not answer queries over UDP."},
-					{"description": "Name server ns2.gotland.se (193.180.228.195) does not answer queries over TCP."}
 				],
 				"warnings": [
-					{"description": "Name server ns.gotland.se (193.180.228.194) is recursive."},
 					{"description": "Could not find reverse address for 193.180.228.195 (195.228.180.193.in-addr.arpa.)."}
 				]
 			},
@@ -1080,8 +1078,8 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "dns6.telia.com"},
-					{"name": "gru-dns.grums.se"}
+					{"name": "gru-dns.grums.se"},
+					{"name": "dns6.telia.com"}
 				],
 				"errors": [
 				],
@@ -1121,9 +1119,9 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns1.mariestad.se"},
+					{"name": "ns.mariestad.se"},
 					{"name": "ns1.mteab.net"},
-					{"name": "ns.mariestad.se"}
+					{"name": "ns1.mariestad.se"}
 				],
 				"errors": [
 					{"description": "Name server ns1.mteab.net (80.254.240.18) does not answer queries over TCP."}
@@ -1136,15 +1134,16 @@
 				"knnr": "2523",
 				"name": "G&auml;llivare kommun",
 				"url": "gellivare.se",
-				"contact": "hostmaster [at] gellivare.se",
-				"dnsSecSigned": false,
+				"contact": "admin-dns [at] frobbit.se",
+				"dnsSecSigned": true,
 				"isRecursive": false,
 				"ipWww": false,
-				"ipDns": false,
+				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns1.gellivare.se"},
-					{"name": "ns2.gellivare.se"}
+					{"name": "ns1.frobbit.se"},
+					{"name": "ns2.frobbit.se"},
+					{"name": "ns.cafax.se"}
 				],
 				"errors": [
 				],
@@ -1162,8 +1161,8 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "ns.gavle.se"},
-					{"name": "ns2.gavlenet.com"}
+					{"name": "ns2.gavlenet.com"},
+					{"name": "ns.gavle.se"}
 				],
 				"errors": [
 				],
@@ -1179,10 +1178,10 @@
 				"isRecursive": false,
 				"ipWww": true,
 				"ipDns": true,
-				"ipMail": false,
+				"ipMail": true,
 				"dnsList": [
-					{"name": "ns2.goteborg.se"},
 					{"name": "dns2.utfors.se"},
+					{"name": "ns2.goteborg.se"},
 					{"name": "ns.goteborg.se"}
 				],
 				"errors": [
@@ -1201,8 +1200,8 @@
 				"ipDns": false,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "dns2.fastbit.se"},
-					{"name": "dns1.fastbit.se"}
+					{"name": "dns1.fastbit.se"},
+					{"name": "dns2.fastbit.se"}
 				],
 				"errors": [
 				],
@@ -1219,7 +1218,7 @@
 				"isRecursive": false,
 				"ipWww": false,
 				"ipDns": false,
-				"ipMail": false,
+				"ipMail": true,
 				"dnsList": [
 					{"name": "ns1.habokommun.se"},
 					{"name": "ns2.habokommun.se"}
@@ -1240,9 +1239,9 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
+					{"name": "ns1.ipv6dns.se"},
 					{"name": "ns2.ipv6dns.se"},
 					{"name": "dns5.telia.com"},
-					{"name": "ns1.ipv6dns.se"},
 					{"name": "ns.hagfors.se"}
 				],
 				"errors": [
@@ -1264,10 +1263,10 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "dns1.hallsberg.se"},
+					{"name": "kista.dns.swip.net"},
 					{"name": "dns2.hallsberg.se"},
 					{"name": "dns6.telia.com"},
-					{"name": "kista.dns.swip.net"}
+					{"name": "dns1.hallsberg.se"}
 				],
 				"errors": [
 					{"description": "No address found for dns2.hallsberg.se."},
@@ -1291,9 +1290,9 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
+					{"name": "ns01.centralpark.se"},
 					{"name": "orebro.dns.swip.net"},
-					{"name": "ns03.centralpark.se"},
-					{"name": "ns01.centralpark.se"}
+					{"name": "ns03.centralpark.se"}
 				],
 				"errors": [
 					{"description": "Name server ns03.centralpark.se (194.236.41.52) not authoritative for hallstahammar.se."}
@@ -1313,9 +1312,9 @@
 				"ipDns": false,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "ns3.ascio.net"},
+					{"name": "ns2.ascio.net"},
 					{"name": "ns1.ascio.net"},
-					{"name": "ns2.ascio.net"}
+					{"name": "ns3.ascio.net"}
 				],
 				"errors": [
 				],
@@ -1334,8 +1333,8 @@
 				"ipMail": false,
 				"dnsList": [
 					{"name": "ns.hammaro.se"},
-					{"name": "a.dns.songnetworks.se"},
-					{"name": "b.dns.songnetworks.se"}
+					{"name": "b.dns.songnetworks.se"},
+					{"name": "a.dns.songnetworks.se"}
 				],
 				"errors": [
 				],
@@ -1353,8 +1352,8 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns5.fxh42.net"},
 					{"name": "ns1.fxh42.net"},
+					{"name": "ns5.fxh42.net"},
 					{"name": "ns7.fxh42.net"}
 				],
 				"errors": [
@@ -1366,15 +1365,16 @@
 				"knnr": "2583",
 				"name": "Haparanda stad",
 				"url": "haparanda.se",
-				"contact": "hostmaster [at] haparanda.se",
+				"contact": "admin-dns [at] frobbit.se",
 				"dnsSecSigned": true,
 				"isRecursive": false,
 				"ipWww": false,
-				"ipDns": false,
+				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "ns.haparanda.se"},
-					{"name": "yggdrasil.haparanda.se"}
+					{"name": "ns.cafax.se"},
+					{"name": "ns2.frobbit.se"},
+					{"name": "ns1.frobbit.se"}
 				],
 				"errors": [
 				],
@@ -1392,9 +1392,9 @@
 				"ipDns": false,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "ns2.nx.net"},
+					{"name": "ns1.udac.se"},
 					{"name": "ns3.udac.net"},
-					{"name": "ns1.udac.se"}
+					{"name": "ns2.nx.net"}
 				],
 				"errors": [
 					{"description": "Superfluous name server listed at parent: ns2.drift.systeam.se"}
@@ -1413,8 +1413,8 @@
 				"ipDns": false,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "csddnsv01.hedemora.se"},
-					{"name": "ns1.cepus.net"}
+					{"name": "ns1.cepus.net"},
+					{"name": "csddnsv01.hedemora.se"}
 				],
 				"errors": [
 					{"description": "EDNS not supported by 195.67.100.210."}
@@ -1454,13 +1454,11 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
+					{"name": "dns1.jra.se"},
 					{"name": "dns2.jra.se"},
-					{"name": "ns1.tranemo.se"},
-					{"name": "dns1.jra.se"}
+					{"name": "ns1.tranemo.se"}
 				],
 				"errors": [
-					{"description": "Name server dns2.jra.se (81.25.152.2) does not answer queries over UDP."},
-					{"description": "Name server dns2.jra.se (81.25.152.2) does not answer queries over TCP."},
 					{"description": "DNS SERVFAIL when querying 91.213.179.50 for SOA"},
 					{"description": "DNS SERVFAIL when querying 91.213.179.50 for SOA"},
 					{"description": "DNS SERVFAIL when querying 91.213.179.50 for SOA"},
@@ -1469,6 +1467,7 @@
 				],
 				"warnings": [
 					{"description": "Name server dns1.jra.se (81.25.144.94) is recursive."},
+					{"description": "Name server dns2.jra.se (81.25.152.2) is recursive."},
 					{"description": "Nameserver at 91.213.179.50 is not authoritative over UDP."}
 				]
 			},
@@ -1509,9 +1508,9 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
+					{"name": "ns1.hofors.se"},
 					{"name": "ns1.ipv6dns.se"},
-					{"name": "ns2.ipv6dns.se"},
-					{"name": "ns1.hofors.se"}
+					{"name": "ns2.ipv6dns.se"}
 				],
 				"errors": [
 				],
@@ -1549,8 +1548,8 @@
 				"ipMail": false,
 				"dnsList": [
 					{"name": "c.dns.tdc.se"},
-					{"name": "ns.hudiksvall.se"},
 					{"name": "b.dns.tdc.se"},
+					{"name": "ns.hudiksvall.se"},
 					{"name": "a.dns.tdc.se"}
 				],
 				"errors": [
@@ -1570,10 +1569,10 @@
 				"ipMail": false,
 				"dnsList": [
 					{"name": "ns1.ipv6dns.se"},
-					{"name": "hkdns2.hultsfred.se"},
 					{"name": "ns2.ipv6dns.se"},
-					{"name": "dns6.telia.com"},
-					{"name": "hkdns1.hultsfred.se"}
+					{"name": "hkdns2.hultsfred.se"},
+					{"name": "hkdns1.hultsfred.se"},
+					{"name": "dns6.telia.com"}
 				],
 				"errors": [
 				],
@@ -1591,8 +1590,8 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "dns.hylte.se"},
-					{"name": "dns5.telia.com"}
+					{"name": "dns5.telia.com"},
+					{"name": "dns.hylte.se"}
 				],
 				"errors": [
 					{"description": "Inconsistent glue for name server dns.hylte.se."}
@@ -1611,8 +1610,8 @@
 				"ipDns": false,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "ns3.udac.net"},
 					{"name": "ns1.udac.se"},
+					{"name": "ns3.udac.net"},
 					{"name": "ns2.nx.net"}
 				],
 				"errors": [
@@ -1633,9 +1632,9 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
+					{"name": "dns2.telia.com"},
 					{"name": "dns6.telia.com"},
-					{"name": "ns.hellefors.se"},
-					{"name": "dns2.telia.com"}
+					{"name": "ns.hellefors.se"}
 				],
 				"errors": [
 				],
@@ -1672,10 +1671,10 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "ns1.resilans.se"},
 					{"name": "ns2.alltele.se"},
 					{"name": "ns2.ipv6dns.se"},
-					{"name": "ns1.ipv6dns.se"}
+					{"name": "ns1.ipv6dns.se"},
+					{"name": "ns1.resilans.se"}
 				],
 				"errors": [
 				],
@@ -1693,15 +1692,14 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "ns1.bollebygd.se"},
-					{"name": "ns2.bollebygd.se"},
 					{"name": "ns1.harryda.se"},
-					{"name": "ns2.harryda.se"}
+					{"name": "ns1.bollebygd.se"},
+					{"name": "ns2.harryda.se"},
+					{"name": "ns2.bollebygd.se"}
 				],
 				"errors": [
 				],
 				"warnings": [
-					{"description": "DNSSEC signature expired: RRSIG(harryda.se/IN/DNSKEY/40656)"}
 				]
 			},
 			{
@@ -1734,9 +1732,9 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns.cafax.se"},
 					{"name": "ns2.frobbit.se"},
-					{"name": "ns1.frobbit.se"}
+					{"name": "ns1.frobbit.se"},
+					{"name": "ns.cafax.se"}
 				],
 				"errors": [
 				],
@@ -1755,8 +1753,8 @@
 				"ipMail": false,
 				"dnsList": [
 					{"name": "nssec1.hogsby.se"},
-					{"name": "ns2.ipv6dns.se"},
-					{"name": "ns1.ipv6dns.se"}
+					{"name": "ns1.ipv6dns.se"},
+					{"name": "ns2.ipv6dns.se"}
 				],
 				"errors": [
 				],
@@ -1793,8 +1791,8 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "nssec2.skno.se"},
-					{"name": "nssec1.skno.se"}
+					{"name": "nssec1.skno.se"},
+					{"name": "nssec2.skno.se"}
 				],
 				"errors": [
 				],
@@ -1812,10 +1810,10 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "oden.frobbit.se"},
 					{"name": "ns2.frobbit.se"},
+					{"name": "ns.cafax.se"},
 					{"name": "ns1.frobbit.se"},
-					{"name": "ns.cafax.se"}
+					{"name": "oden.frobbit.se"}
 				],
 				"errors": [
 				],
@@ -1833,15 +1831,15 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "dns02.portsit.se"},
-					{"name": "dns01.portsit.se"}
+					{"name": "dns01.portsit.se"},
+					{"name": "dns02.portsit.se"}
 				],
 				"errors": [
 				],
 				"warnings": [
-					{"description": "Duration for RRSIG(jarfalla.se/IN/DNSKEY/30181) is too long (153628742 seconds)."},
-					{"description": "Duration for RRSIG(jarfalla.se/IN/DNSKEY/45573) is too long (153628832 seconds)."},
-					{"description": "Duration for RRSIG(jarfalla.se/IN/SOA/45573) is too long (153628832 seconds)."}
+					{"description": "Duration for RRSIG(jarfalla.se/IN/DNSKEY/30181) is too long (151720995 seconds)."},
+					{"description": "Duration for RRSIG(jarfalla.se/IN/DNSKEY/45573) is too long (151721085 seconds)."},
+					{"description": "Duration for RRSIG(jarfalla.se/IN/SOA/45573) is too long (151721085 seconds)."}
 				]
 			},
 			{
@@ -1855,8 +1853,8 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "ns01.jonkoping.se"},
-					{"name": "ns02.jonkoping.se"}
+					{"name": "ns02.jonkoping.se"},
+					{"name": "ns01.jonkoping.se"}
 				],
 				"errors": [
 				],
@@ -1874,9 +1872,9 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "ns2.frobbit.se"},
 					{"name": "ns.cafax.se"},
-					{"name": "ns1.frobbit.se"}
+					{"name": "ns1.frobbit.se"},
+					{"name": "ns2.frobbit.se"}
 				],
 				"errors": [
 				],
@@ -1894,9 +1892,9 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns2.kalmar.se"},
-					{"name": "ns1.ipv6dns.se"},
 					{"name": "dns6.telia.com"},
+					{"name": "ns1.ipv6dns.se"},
+					{"name": "ns2.kalmar.se"},
 					{"name": "ns2.ipv6dns.se"},
 					{"name": "ns.kalmar.se"}
 				],
@@ -1933,12 +1931,12 @@
 				"isRecursive": false,
 				"ipWww": false,
 				"ipDns": true,
-				"ipMail": false,
+				"ipMail": true,
 				"dnsList": [
-					{"name": "b.dns.tdc.se"},
-					{"name": "ns.karlshamn.se"},
 					{"name": "a.dns.tdc.se"},
-					{"name": "ns.utb.karlshamn.se"}
+					{"name": "b.dns.tdc.se"},
+					{"name": "ns.utb.karlshamn.se"},
+					{"name": "ns.karlshamn.se"}
 				],
 				"errors": [
 				],
@@ -1954,14 +1952,18 @@
 				"isRecursive": false,
 				"ipWww": false,
 				"ipDns": true,
-				"ipMail": false,
+				"ipMail": true,
 				"dnsList": [
-					{"name": "ns.karlskoga.se"},
-					{"name": "ns1.certezza.net"}
+					{"name": "ns1.certezza.net"},
+					{"name": "ns.karlskoga.se"}
 				],
 				"errors": [
 				],
 				"warnings": [
+					{"description": "Could not find reverse address for 2001:67c:2bd4:20:0:0:0:10 (0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.0.4.d.b.2.c.7.6.0.1.0.0.2.ip6.arpa.)."},
+					{"description": "Could not find reverse address for 2001:67c:2bd4:20:0:0:0:10 (0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.0.4.d.b.2.c.7.6.0.1.0.0.2.ip6.arpa.)."},
+					{"description": "Could not find reverse address for 2001:67c:2bd4:20:0:0:0:31 (1.3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.0.4.d.b.2.c.7.6.0.1.0.0.2.ip6.arpa.)."},
+					{"description": "Could not find reverse address for 2001:67c:2bd4:20:0:0:0:33 (3.3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.0.4.d.b.2.c.7.6.0.1.0.0.2.ip6.arpa.)."}
 				]
 			},
 			{
@@ -1988,23 +1990,25 @@
 				"name": "Karlstads kommun",
 				"url": "karlstad.se",
 				"contact": "hostmaster [at] karlstad.se",
-				"dnsSecSigned": true,
+				"dnsSecSigned": false,
 				"isRecursive": false,
 				"ipWww": false,
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "dns1.karlstad.se"},
-					{"name": "b.dns.tdc.se"},
-					{"name": "c.dns.tdc.se"},
-					{"name": "b.dns.songnetworks.se"},
-					{"name": "a.dns.tdc.se"},
 					{"name": "a.dns.songnetworks.se"},
-					{"name": "c.dns.songnetworks.se"}
+					{"name": "b.dns.tdc.se"},
+					{"name": "dns1.karlstad.se"},
+					{"name": "c.dns.tdc.se"},
+					{"name": "c.dns.songnetworks.se"},
+					{"name": "b.dns.songnetworks.se"},
+					{"name": "a.dns.tdc.se"}
 				],
 				"errors": [
+					{"description": "Not enough valid signatures over SOA RRset found for karlstad.se."}
 				],
 				"warnings": [
+					{"description": "DNSSEC signature RRSIG(karlstad.se/IN/SOA/49179) fails to validate the RR set: key 1:RSA Verification failed key 2: keytag does not match"}
 				]
 			},
 			{
@@ -2018,8 +2022,8 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "hugin.katrineholm.se"},
-					{"name": "dns5.telia.com"}
+					{"name": "dns5.telia.com"},
+					{"name": "hugin.katrineholm.se"}
 				],
 				"errors": [
 				],
@@ -2038,9 +2042,9 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "dns5.telia.com"},
 					{"name": "ns2.kil.se"},
-					{"name": "ns1.kil.se"}
+					{"name": "ns1.kil.se"},
+					{"name": "dns5.telia.com"}
 				],
 				"errors": [
 				],
@@ -2078,9 +2082,9 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "dns1.kommun.kiruna.se"},
+					{"name": "dns6.telia.com"},
 					{"name": "dns2.kommun.kiruna.se"},
-					{"name": "dns6.telia.com"}
+					{"name": "dns1.kommun.kiruna.se"}
 				],
 				"errors": [
 				],
@@ -2118,9 +2122,9 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "maud.qbranch.se"},
+					{"name": "kristina.qbranch.se"},
 					{"name": "grace.qbranch.se"},
-					{"name": "kristina.qbranch.se"}
+					{"name": "maud.qbranch.se"}
 				],
 				"errors": [
 				],
@@ -2138,10 +2142,10 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns1.driftkund.se"},
-					{"name": "ns2.driftkund.se"},
+					{"name": "ns3.driftkund.se"},
 					{"name": "ns4.driftkund.se"},
-					{"name": "ns3.driftkund.se"}
+					{"name": "ns2.driftkund.se"},
+					{"name": "ns1.driftkund.se"}
 				],
 				"errors": [
 				],
@@ -2185,9 +2189,9 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "dns5.telia.com"},
+					{"name": "dns6.telia.com"},
 					{"name": "ns.kristinehamn.se"},
-					{"name": "dns6.telia.com"}
+					{"name": "dns5.telia.com"}
 				],
 				"errors": [
 				],
@@ -2205,8 +2209,8 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "b.ns.ip-only.net"},
 					{"name": "ns.krokom.se"},
+					{"name": "b.ns.ip-only.net"},
 					{"name": "a.ns.ip-only.net"},
 					{"name": "c.ns.ip-only.net"}
 				],
@@ -2251,9 +2255,9 @@
 				"ipDns": false,
 				"ipMail": true,
 				"dnsList": [
+					{"name": "ns1.cust.port53.se"},
 					{"name": "ns2.cust.port53.se"},
-					{"name": "ns3.cust.port53.se"},
-					{"name": "ns1.cust.port53.se"}
+					{"name": "ns3.cust.port53.se"}
 				],
 				"errors": [
 				],
@@ -2272,8 +2276,8 @@
 				"ipDns": false,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "alex.koping.se"},
-					{"name": "ns1.koping.se"}
+					{"name": "ns1.koping.se"},
+					{"name": "alex.koping.se"}
 				],
 				"errors": [
 				],
@@ -2330,8 +2334,8 @@
 				"ipDns": false,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "ns1.koping.se"},
-					{"name": "alex.koping.se"}
+					{"name": "alex.koping.se"},
+					{"name": "ns1.koping.se"}
 				],
 				"errors": [
 				],
@@ -2349,9 +2353,9 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
+					{"name": "ns1.laholm.se"},
 					{"name": "c.dns.tdc.se"},
 					{"name": "a.dns.tdc.se"},
-					{"name": "ns1.laholm.se"},
 					{"name": "b.dns.tdc.se"}
 				],
 				"errors": [
@@ -2373,8 +2377,8 @@
 				"ipMail": true,
 				"dnsList": [
 					{"name": "a.dns.tdc.se"},
-					{"name": "c.dns.tdc.se"},
-					{"name": "b.dns.tdc.se"}
+					{"name": "b.dns.tdc.se"},
+					{"name": "c.dns.tdc.se"}
 				],
 				"errors": [
 				],
@@ -2392,9 +2396,9 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "dns1.hallsberg.se"},
+					{"name": "dns2.hallsberg.se"},
 					{"name": "dns5.telia.com"},
-					{"name": "dns2.hallsberg.se"}
+					{"name": "dns1.hallsberg.se"}
 				],
 				"errors": [
 					{"description": "No address found for dns2.hallsberg.se."},
@@ -2414,8 +2418,8 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns.lekeberg.se"},
-					{"name": "dns5.telia.com"}
+					{"name": "dns5.telia.com"},
+					{"name": "ns.lekeberg.se"}
 				],
 				"errors": [
 				],
@@ -2433,9 +2437,9 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "ns1.ipv6dns.se"},
 					{"name": "ns.leksand.se"},
-					{"name": "ns2.ipv6dns.se"}
+					{"name": "ns2.ipv6dns.se"},
+					{"name": "ns1.ipv6dns.se"}
 				],
 				"errors": [
 				],
@@ -2453,8 +2457,8 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "a.dns.songnetworks.se"},
-					{"name": "b.dns.songnetworks.se"}
+					{"name": "b.dns.songnetworks.se"},
+					{"name": "a.dns.songnetworks.se"}
 				],
 				"errors": [
 					{"description": "No address found for ns1.lerum.se."}
@@ -2475,8 +2479,8 @@
 				"ipMail": false,
 				"dnsList": [
 					{"name": "b.dns.tdc.se"},
-					{"name": "a.dns.tdc.se"},
-					{"name": "ns.lessebo.se"}
+					{"name": "ns.lessebo.se"},
+					{"name": "a.dns.tdc.se"}
 				],
 				"errors": [
 				],
@@ -2513,8 +2517,8 @@
 				"ipDns": false,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "dns1.fastbit.se"},
-					{"name": "dns2.fastbit.se"}
+					{"name": "dns2.fastbit.se"},
+					{"name": "dns1.fastbit.se"}
 				],
 				"errors": [
 				],
@@ -2533,8 +2537,8 @@
 				"ipDns": false,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "ns2.nameisp.info"},
-					{"name": "ns1.nameisp.info"}
+					{"name": "ns1.nameisp.info"},
+					{"name": "ns2.nameisp.info"}
 				],
 				"errors": [
 				],
@@ -2552,8 +2556,8 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "dns5.telia.com"},
-					{"name": "ns1.lindesberg.se"}
+					{"name": "ns1.lindesberg.se"},
+					{"name": "dns5.telia.com"}
 				],
 				"errors": [
 					{"description": "Name server ns1.lindesberg.se (195.34.84.19) does not answer queries over TCP."},
@@ -2575,9 +2579,9 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "dns2.linkoping.se"},
 					{"name": "dns1.telia.com"},
-					{"name": "dns1.linkoping.se"}
+					{"name": "dns1.linkoping.se"},
+					{"name": "dns2.linkoping.se"}
 				],
 				"errors": [
 				],
@@ -2601,9 +2605,9 @@
 				"errors": [
 				],
 				"warnings": [
-					{"description": "Duration for RRSIG(ljungby.se/IN/DNSKEY/4501) is too long (87008854 seconds)."},
-					{"description": "Duration for RRSIG(ljungby.se/IN/DNSKEY/45604) is too long (90731129 seconds)."},
-					{"description": "Duration for RRSIG(ljungby.se/IN/DNSKEY/3053) is too long (90735530 seconds)."}
+					{"description": "Duration for RRSIG(ljungby.se/IN/DNSKEY/4501) is too long (85201295 seconds)."},
+					{"description": "Duration for RRSIG(ljungby.se/IN/DNSKEY/45604) is too long (88923570 seconds)."},
+					{"description": "Duration for RRSIG(ljungby.se/IN/DNSKEY/3053) is too long (88927971 seconds)."}
 				]
 			},
 			{
@@ -2639,8 +2643,8 @@
 				"dnsList": [
 					{"name": "ns.ljusnarsberg.se"},
 					{"name": "ljus-extdns.ljusnarsberg.local"},
-					{"name": "dns5.telia.com"},
-					{"name": "dns6.telia.com"}
+					{"name": "dns6.telia.com"},
+					{"name": "dns5.telia.com"}
 				],
 				"errors": [
 					{"description": "No address found for ljus-extdns.ljusnarsberg.local."},
@@ -2662,9 +2666,9 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
+					{"name": "ns1.ascio.net"},
 					{"name": "ns2.ascio.net"},
-					{"name": "ns3.ascio.net"},
-					{"name": "ns1.ascio.net"}
+					{"name": "ns3.ascio.net"}
 				],
 				"errors": [
 				],
@@ -2701,10 +2705,10 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
+					{"name": "ns1.ipv6dns.se"},
 					{"name": "zuran.lulea.se"},
-					{"name": "ns2.ipv6dns.se"},
 					{"name": "guran.lulea.se"},
-					{"name": "ns1.ipv6dns.se"}
+					{"name": "ns2.ipv6dns.se"}
 				],
 				"errors": [
 				],
@@ -2722,10 +2726,10 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns3.p21.dynect.net"},
-					{"name": "ns2.p21.dynect.net"},
+					{"name": "ns1.p21.dynect.net"},
 					{"name": "ns4.p21.dynect.net"},
-					{"name": "ns1.p21.dynect.net"}
+					{"name": "ns3.p21.dynect.net"},
+					{"name": "ns2.p21.dynect.net"}
 				],
 				"errors": [
 				],
@@ -2743,8 +2747,8 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "dns.lycksele.se"},
 					{"name": "ns2.ipv6dns.se"},
+					{"name": "dns.lycksele.se"},
 					{"name": "ns1.ipv6dns.se"}
 				],
 				"errors": [
@@ -2763,8 +2767,8 @@
 				"ipDns": false,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "dns1.sml-it.se"},
-					{"name": "ns2.lysekil.se"}
+					{"name": "ns2.lysekil.se"},
+					{"name": "dns1.sml-it.se"}
 				],
 				"errors": [
 				],
@@ -2777,21 +2781,17 @@
 				"url": "malmo.se",
 				"contact": "hostmaster [at] malmo.se",
 				"dnsSecSigned": false,
-				"isRecursive": true,
-				"ipWww": false,
+				"isRecursive": false,
+				"ipWww": true,
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "ns1.malmo.se"},
-					{"name": "ns2.malmo.se"}
+					{"name": "ns2.malmo.se"},
+					{"name": "ns1.malmo.se"}
 				],
 				"errors": [
 				],
 				"warnings": [
-					{"description": "Name server ns1.malmo.se (161.52.15.201) is recursive."},
-					{"description": "Name server ns1.malmo.se (2001:67c:21fc:400:0:0:0:c9) is recursive."},
-					{"description": "Name server ns2.malmo.se (161.52.15.202) is recursive."},
-					{"description": "Name server ns2.malmo.se (2001:67c:21fc:400:0:0:0:ca) is recursive."}
 				]
 			},
 			{
@@ -2805,8 +2805,8 @@
 				"ipDns": false,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "ns2.ilait.se"},
-					{"name": "ns1.ilait.se"}
+					{"name": "ns1.ilait.se"},
+					{"name": "ns2.ilait.se"}
 				],
 				"errors": [
 				],
@@ -2824,8 +2824,8 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "julius.mala.se"},
-					{"name": "cesar.mala.se"}
+					{"name": "cesar.mala.se"},
+					{"name": "julius.mala.se"}
 				],
 				"errors": [
 				],
@@ -2843,9 +2843,9 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns.mariestad.se"},
 					{"name": "ns1.mariestad.se"},
-					{"name": "ns1.mteab.net"}
+					{"name": "ns1.mteab.net"},
+					{"name": "ns.mariestad.se"}
 				],
 				"errors": [
 					{"description": "Name server ns1.mteab.net (80.254.240.18) does not answer queries over TCP."}
@@ -2858,15 +2858,16 @@
 				"knnr": "0767",
 				"name": "Markaryds kommun",
 				"url": "markaryd.se",
-				"contact": "hostmaster [at] markaryd.se",
-				"dnsSecSigned": true,
+				"contact": "dns [at] tdc.se",
+				"dnsSecSigned": false,
 				"isRecursive": false,
 				"ipWww": true,
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "dns6.telia.com"},
-					{"name": "ns.markaryd.se"}
+					{"name": "c.dns.tdc.se"},
+					{"name": "a.dns.tdc.se"},
+					{"name": "b.dns.tdc.se"}
 				],
 				"errors": [
 				],
@@ -2884,9 +2885,9 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "a.dns.songnetworks.se"},
 					{"name": "b.dns.songnetworks.se"},
-					{"name": "ns.mark.se"}
+					{"name": "ns.mark.se"},
+					{"name": "a.dns.songnetworks.se"}
 				],
 				"errors": [
 				],
@@ -2905,8 +2906,8 @@
 				"ipMail": false,
 				"dnsList": [
 					{"name": "ns2.dalsnet.se"},
-					{"name": "ns1.dalsnet.se"},
-					{"name": "dns5.telia.com"}
+					{"name": "dns5.telia.com"},
+					{"name": "ns1.dalsnet.se"}
 				],
 				"errors": [
 				],
@@ -2945,8 +2946,8 @@
 				"ipMail": false,
 				"dnsList": [
 					{"name": "nic.mora.se"},
-					{"name": "ns2.daladatorer.net"},
-					{"name": "ns3.daladatorer.net"}
+					{"name": "ns3.daladatorer.net"},
+					{"name": "ns2.daladatorer.net"}
 				],
 				"errors": [
 				],
@@ -2964,9 +2965,9 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "b.dns.tdc.se"},
+					{"name": "c.dns.tdc.se"},
 					{"name": "a.dns.tdc.se"},
-					{"name": "c.dns.tdc.se"}
+					{"name": "b.dns.tdc.se"}
 				],
 				"errors": [
 				],
@@ -2984,8 +2985,8 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "dns6.telia.com"},
-					{"name": "mulledns.mullsjo.se"}
+					{"name": "mulledns.mullsjo.se"},
+					{"name": "dns6.telia.com"}
 				],
 				"errors": [
 				],
@@ -3023,8 +3024,8 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "a.dns.songnetworks.se"},
 					{"name": "b.dns.songnetworks.se"},
+					{"name": "a.dns.songnetworks.se"},
 					{"name": "c.dns.songnetworks.se"}
 				],
 				"errors": [
@@ -3043,8 +3044,9 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
+					{"name": "dns3.molndal.se"},
 					{"name": "dns4.molndal.se"},
-					{"name": "dns3.molndal.se"}
+					{"name": "dns5.molndal.se"}
 				],
 				"errors": [
 				],
@@ -3062,14 +3064,56 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns2.ipv6dns.se"},
-					{"name": "ns01.monsteras.se"},
 					{"name": "ns1.ipv6dns.se"},
-					{"name": "ns02.monsteras.se"}
+					{"name": "ns02.monsteras.se"},
+					{"name": "ns01.monsteras.se"},
+					{"name": "ns2.ipv6dns.se"}
 				],
 				"errors": [
 				],
 				"warnings": [
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/819) fails to validate the RR set: key 1: keytag does not match key 2:RSA Verification failed"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/40653) fails to validate the RR set: key 1:RSA Verification failed key 2: keytag does not match"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/819) fails to validate the RR set: key 1: keytag does not match key 2:RSA Verification failed"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/40653) fails to validate the RR set: key 1:RSA Verification failed key 2: keytag does not match"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/819) fails to validate the RR set: key 1: keytag does not match key 2:RSA Verification failed"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/40653) fails to validate the RR set: key 1:RSA Verification failed key 2: keytag does not match"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/819) fails to validate the RR set: key 1: keytag does not match key 2:RSA Verification failed"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/40653) fails to validate the RR set: key 1:RSA Verification failed key 2: keytag does not match"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/819) fails to validate the RR set: key 1: keytag does not match key 2:RSA Verification failed"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/40653) fails to validate the RR set: key 1:RSA Verification failed key 2: keytag does not match"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/819) fails to validate the RR set: key 1: keytag does not match key 2:RSA Verification failed"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/40653) fails to validate the RR set: key 1:RSA Verification failed key 2: keytag does not match"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/819) fails to validate the RR set: key 1: keytag does not match key 2:RSA Verification failed"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/40653) fails to validate the RR set: key 1:RSA Verification failed key 2: keytag does not match"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/819) fails to validate the RR set: key 1: keytag does not match key 2:RSA Verification failed"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/40653) fails to validate the RR set: key 1:RSA Verification failed key 2: keytag does not match"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/819) fails to validate the RR set: key 1: keytag does not match key 2:RSA Verification failed"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/40653) fails to validate the RR set: key 1:RSA Verification failed key 2: keytag does not match"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/819) fails to validate the RR set: key 1: keytag does not match key 2:RSA Verification failed"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/40653) fails to validate the RR set: key 1:RSA Verification failed key 2: keytag does not match"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/819) fails to validate the RR set: key 1: keytag does not match key 2:RSA Verification failed"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/40653) fails to validate the RR set: key 1:RSA Verification failed key 2: keytag does not match"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/819) fails to validate the RR set: key 1: keytag does not match key 2:RSA Verification failed"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/40653) fails to validate the RR set: key 1:RSA Verification failed key 2: keytag does not match"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/819) fails to validate the RR set: key 1: keytag does not match key 2:RSA Verification failed"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/40653) fails to validate the RR set: key 1:RSA Verification failed key 2: keytag does not match"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/819) fails to validate the RR set: key 1: keytag does not match key 2:RSA Verification failed"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/40653) fails to validate the RR set: key 1:RSA Verification failed key 2: keytag does not match"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/819) fails to validate the RR set: key 1: keytag does not match key 2:RSA Verification failed"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/40653) fails to validate the RR set: key 1:RSA Verification failed key 2: keytag does not match"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/819) fails to validate the RR set: key 1: keytag does not match key 2:RSA Verification failed"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/40653) fails to validate the RR set: key 1:RSA Verification failed key 2: keytag does not match"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/819) fails to validate the RR set: key 1: keytag does not match key 2:RSA Verification failed"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/40653) fails to validate the RR set: key 1:RSA Verification failed key 2: keytag does not match"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/819) fails to validate the RR set: key 1: keytag does not match key 2:RSA Verification failed"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/40653) fails to validate the RR set: key 1:RSA Verification failed key 2: keytag does not match"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/819) fails to validate the RR set: key 1: keytag does not match key 2:RSA Verification failed"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/40653) fails to validate the RR set: key 1:RSA Verification failed key 2: keytag does not match"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/819) fails to validate the RR set: key 1: keytag does not match key 2:RSA Verification failed"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/40653) fails to validate the RR set: key 1:RSA Verification failed key 2: keytag does not match"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/819) fails to validate the RR set: key 1: keytag does not match key 2:RSA Verification failed"},
+					{"description": "DNSSEC signature RRSIG(monsteras.se/IN/SOA/40653) fails to validate the RR set: key 1:RSA Verification failed key 2: keytag does not match"}
 				]
 			},
 			{
@@ -3103,9 +3147,9 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns1.fxh42.net"},
+					{"name": "ns6.fxh42.net"},
 					{"name": "ns5.fxh42.net"},
-					{"name": "ns6.fxh42.net"}
+					{"name": "ns1.fxh42.net"}
 				],
 				"errors": [
 				],
@@ -3123,15 +3167,15 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "dns01.portsit.se"},
-					{"name": "dns02.portsit.se"}
+					{"name": "dns02.portsit.se"},
+					{"name": "dns01.portsit.se"}
 				],
 				"errors": [
 				],
 				"warnings": [
-					{"description": "Duration for RRSIG(nora.se/IN/DNSKEY/29773) is too long (87008907 seconds)."},
-					{"description": "Duration for RRSIG(nora.se/IN/DNSKEY/10114) is too long (90731183 seconds)."},
-					{"description": "Duration for RRSIG(nora.se/IN/DNSKEY/40973) is too long (90735577 seconds)."}
+					{"description": "Duration for RRSIG(nora.se/IN/DNSKEY/29773) is too long (85201368 seconds)."},
+					{"description": "Duration for RRSIG(nora.se/IN/DNSKEY/10114) is too long (88923644 seconds)."},
+					{"description": "Duration for RRSIG(nora.se/IN/DNSKEY/40973) is too long (88928038 seconds)."}
 				]
 			},
 			{
@@ -3165,8 +3209,8 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "ns1.nordanstig.se"},
-					{"name": "ns2.gavlenet.com"}
+					{"name": "ns2.gavlenet.com"},
+					{"name": "ns1.nordanstig.se"}
 				],
 				"errors": [
 				],
@@ -3184,9 +3228,9 @@
 				"ipDns": false,
 				"ipMail": true,
 				"dnsList": [
+					{"name": "dns.nordmaling.se"},
 					{"name": "dns.artedi.nordmaling.se"},
-					{"name": "dns.umea.se"},
-					{"name": "dns.nordmaling.se"}
+					{"name": "dns.umea.se"}
 				],
 				"errors": [
 				],
@@ -3204,9 +3248,9 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns1.norrkoping.se"},
 					{"name": "dns6.telia.com"},
-					{"name": "dns5.telia.com"}
+					{"name": "dns5.telia.com"},
+					{"name": "ns1.norrkoping.se"}
 				],
 				"errors": [
 				],
@@ -3264,10 +3308,10 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "ns1.ipv6dns.se"},
-					{"name": "dns1.telia.com"},
+					{"name": "ns2.ipv6dns.se"},
 					{"name": "nybro.nybro.se"},
-					{"name": "ns2.ipv6dns.se"}
+					{"name": "dns1.telia.com"},
+					{"name": "ns1.ipv6dns.se"}
 				],
 				"errors": [
 				],
@@ -3343,8 +3387,8 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "dns01.hoglandet.se"},
-					{"name": "dns02.hoglandet.se"}
+					{"name": "dns02.hoglandet.se"},
+					{"name": "dns01.hoglandet.se"}
 				],
 				"errors": [
 				],
@@ -3362,8 +3406,8 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "ns.gavle.se"},
-					{"name": "ns2.gavlenet.com"}
+					{"name": "ns2.gavlenet.com"},
+					{"name": "ns.gavle.se"}
 				],
 				"errors": [
 				],
@@ -3405,10 +3449,19 @@
 					{"name": "ns2.gulo.net"}
 				],
 				"errors": [
-					{"description": "Host name ns2.gulo.net refers to a CNAME."},
-					{"description": "Host name or address error for ns2.gulo.net."}
+					{"description": "Name server ns2.gulo.net (173.212.56.249) does not answer queries over UDP."},
+					{"description": "Name server ns2.gulo.net (173.212.56.249) does not answer queries over TCP."},
+					{"description": "Name server ns2.gulo.net (199.59.243.105) does not answer queries over UDP."},
+					{"description": "Name server ns2.gulo.net (199.59.243.105) does not answer queries over TCP."},
+					{"description": "Name server ns2.gulo.net (62.116.181.25) does not answer queries over UDP."},
+					{"description": "Name server ns2.gulo.net (62.116.181.25) does not answer queries over TCP."},
+					{"description": "Name server ns2.gulo.net (141.8.225.46) does not answer queries over UDP."},
+					{"description": "Name server ns2.gulo.net (141.8.225.46) does not answer queries over TCP."}
 				],
 				"warnings": [
+					{"description": "Could not find reverse address for 173.212.56.249 (249.56.212.173.in-addr.arpa.)."},
+					{"description": "Could not find reverse address for 199.59.243.105 (105.243.59.199.in-addr.arpa.)."},
+					{"description": "Could not find reverse address for 141.8.225.46 (46.225.8.141.in-addr.arpa.)."}
 				]
 			},
 			{
@@ -3422,10 +3475,10 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "dns12.se.telia.net"},
-					{"name": "dns11.se.telia.net"},
 					{"name": "dns9.telia.com"},
-					{"name": "dns10.telia.com"}
+					{"name": "dns10.telia.com"},
+					{"name": "dns11.se.telia.net"},
+					{"name": "dns12.se.telia.net"}
 				],
 				"errors": [
 					{"description": "Superfluous name server listed at parent: dns11.telia.com"},
@@ -3449,8 +3502,8 @@
 				"ipDns": false,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "ns2.skno.se"},
-					{"name": "ns1.skno.se"}
+					{"name": "ns1.skno.se"},
+					{"name": "ns2.skno.se"}
 				],
 				"errors": [
 				],
@@ -3469,8 +3522,8 @@
 				"ipMail": true,
 				"dnsList": [
 					{"name": "ns1.ipv6dns.se"},
-					{"name": "ns2.ipv6dns.se"},
-					{"name": "ns.oskarshamn.se"}
+					{"name": "ns.oskarshamn.se"},
+					{"name": "ns2.ipv6dns.se"}
 				],
 				"errors": [
 				],
@@ -3546,9 +3599,9 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
+					{"name": "a.dns.songnetworks.se"},
 					{"name": "b.dns.songnetworks.se"},
-					{"name": "c.dns.songnetworks.se"},
-					{"name": "a.dns.songnetworks.se"}
+					{"name": "c.dns.songnetworks.se"}
 				],
 				"errors": [
 				],
@@ -3566,10 +3619,10 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
+					{"name": "ns1.frobbit.se"},
 					{"name": "ns2.frobbit.se"},
-					{"name": "ns.cafax.se"},
 					{"name": "ns3.frobbit.se"},
-					{"name": "ns1.frobbit.se"}
+					{"name": "ns.cafax.se"}
 				],
 				"errors": [
 				],
@@ -3609,8 +3662,8 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "dns4.telia.com"},
-					{"name": "dns3.telia.com"}
+					{"name": "dns3.telia.com"},
+					{"name": "dns4.telia.com"}
 				],
 				"errors": [
 				],
@@ -3628,9 +3681,9 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
+					{"name": "mail2.robertsfors.se"},
 					{"name": "dns.robertsfors.se"},
-					{"name": "dns.umea.se"},
-					{"name": "mail2.robertsfors.se"}
+					{"name": "dns.umea.se"}
 				],
 				"errors": [
 				],
@@ -3671,8 +3724,8 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "dns5.telia.com"},
-					{"name": "ns.rattvik.se"}
+					{"name": "ns.rattvik.se"},
+					{"name": "dns5.telia.com"}
 				],
 				"errors": [
 					{"description": "No address found for csgskola.rattvik.se."}
@@ -3706,26 +3759,23 @@
 				"name": "Salems kommun",
 				"url": "salem.se",
 				"contact": "registry [at] webkom.se",
-				"dnsSecSigned": false,
+				"dnsSecSigned": true,
 				"isRecursive": true,
 				"ipWww": false,
 				"ipDns": false,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "ns2.webkom.se"},
-					{"name": "ns.webkom.se"}
+					{"name": "ns.webkom.se"},
+					{"name": "ns2.webkom.se"}
 				],
 				"errors": [
-					{"description": "Not enough valid signatures over SOA RRset found for salem.se."}
 				],
 				"warnings": [
 					{"description": "Name server ns.webkom.se (193.221.119.86) is recursive."},
 					{"description": "Name server ns2.webkom.se (193.221.119.83) is recursive."},
 					{"description": "Could not find reverse address for 2a00:6b00:0:2:20c:29ff:fe2f:3482 (2.8.4.3.f.2.e.f.f.f.9.2.c.0.2.0.2.0.0.0.0.0.0.0.0.0.b.6.0.0.a.2.ip6.arpa.)."},
 					{"description": "Could not find reverse address for 2a00:6b00:0:2:20c:29ff:fe56:311f (f.1.1.3.6.5.e.f.f.f.9.2.c.0.2.0.2.0.0.0.0.0.0.0.0.0.b.6.0.0.a.2.ip6.arpa.)."},
-					{"description": "NSEC3 for salem.se is set to use 100 iterations, which is higher than the limit of 100."},
-					{"description": "Broken chain of trust for salem.se - DNSKEY found at child, but no DS was found at parent."},
-					{"description": "DNSSEC signature RRSIG(salem.se/IN/SOA/22529) fails to validate the RR set: key 1:RSA Verification failed key 2: keytag does not match"}
+					{"description": "NSEC3 for salem.se is set to use 100 iterations, which is higher than the limit of 100."}
 				]
 			},
 			{
@@ -3739,8 +3789,8 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "ns2.gavlenet.com"},
-					{"name": "ns.sandviken.se"}
+					{"name": "ns.sandviken.se"},
+					{"name": "ns2.gavlenet.com"}
 				],
 				"errors": [
 				],
@@ -3758,9 +3808,9 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "ns.sigtuna.se"},
+					{"name": "ns2.sigtuna.se"},
 					{"name": "dns6.telia.com"},
-					{"name": "ns2.sigtuna.se"}
+					{"name": "ns.sigtuna.se"}
 				],
 				"errors": [
 				],
@@ -3778,8 +3828,8 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "malmoe.dns.swip.net"},
 					{"name": "ns.simrishamn.se"},
+					{"name": "malmoe.dns.swip.net"},
 					{"name": "kista.dns.swip.net"}
 				],
 				"errors": [
@@ -3840,8 +3890,8 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "nic.skelleftea.se"},
-					{"name": "dns.umea.se"}
+					{"name": "dns.umea.se"},
+					{"name": "nic.skelleftea.se"}
 				],
 				"errors": [
 				],
@@ -3859,8 +3909,8 @@
 				"ipDns": false,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "dns4.skinnskatteberg.se"},
-					{"name": "dns3.skinnskatteberg.se"}
+					{"name": "dns3.skinnskatteberg.se"},
+					{"name": "dns4.skinnskatteberg.se"}
 				],
 				"errors": [
 					{"description": "Name server dns4.skinnskatteberg.se (193.45.214.141) does not answer queries over UDP."},
@@ -3898,12 +3948,12 @@
 				"contact": "postmaster [at] skovde.se",
 				"dnsSecSigned": false,
 				"isRecursive": true,
-				"ipWww": true,
+				"ipWww": false,
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "srv-ext-dns02.skovde.se"},
-					{"name": "srv-ext-dns01.skovde.se"}
+					{"name": "srv-ext-dns01.skovde.se"},
+					{"name": "srv-ext-dns02.skovde.se"}
 				],
 				"errors": [
 				],
@@ -3932,7 +3982,8 @@
 					{"name": "ns4.cepus.net"}
 				],
 				"errors": [
-					{"description": "EDNS not supported by 195.67.100.210."}
+					{"description": "EDNS not supported by 195.67.100.210."},
+					{"description": "EDNS not supported by 195.67.130.9."}
 				],
 				"warnings": [
 					{"description": "Could not find reverse address for 195.67.130.9 (9.130.67.195.in-addr.arpa.)."}
@@ -3969,8 +4020,8 @@
 				"ipMail": false,
 				"dnsList": [
 					{"name": "ns5.fxh42.net"},
-					{"name": "ns1.fxh42.net"},
-					{"name": "ns2.fxh42.net"}
+					{"name": "ns2.fxh42.net"},
+					{"name": "ns1.fxh42.net"}
 				],
 				"errors": [
 				],
@@ -4007,8 +4058,8 @@
 				"ipDns": false,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "dns.umea.se"},
-					{"name": "ns.sorsele.se"}
+					{"name": "ns.sorsele.se"},
+					{"name": "dns.umea.se"}
 				],
 				"errors": [
 				],
@@ -4046,10 +4097,10 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns.kavlinge.se"},
 					{"name": "ns2.perspektivbredband.se"},
 					{"name": "ns.perspektivbredband.se"},
-					{"name": "ns2.staffanstorp.se"}
+					{"name": "ns2.staffanstorp.se"},
+					{"name": "ns.kavlinge.se"}
 				],
 				"errors": [
 				],
@@ -4086,8 +4137,10 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
+					{"name": "ns2.stockholm.se"},
 					{"name": "ns1.stockholm.se"},
-					{"name": "ns2.stockholm.se"}
+					{"name": "ns01.stockholm.se"},
+					{"name": "ns02.stockholm.se"}
 				],
 				"errors": [
 				],
@@ -4105,9 +4158,9 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "dns6.telia.com"},
+					{"name": "ns.kristinehamn.se"},
 					{"name": "dns5.telia.com"},
-					{"name": "ns.kristinehamn.se"}
+					{"name": "dns6.telia.com"}
 				],
 				"errors": [
 				],
@@ -4125,8 +4178,8 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns.storuman.se"},
 					{"name": "dns.umea.se"},
+					{"name": "ns.storuman.se"},
 					{"name": "dns.norrnod.se"}
 				],
 				"errors": [
@@ -4204,9 +4257,9 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns1.dgcsystems.net"},
 					{"name": "ns2.dgcsystems.net"},
-					{"name": "sbgdns01.sundbyberg.se"}
+					{"name": "sbgdns01.sundbyberg.se"},
+					{"name": "ns1.dgcsystems.net"}
 				],
 				"errors": [
 				],
@@ -4243,8 +4296,8 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "dns5.telia.com"},
-					{"name": "ns.sunne.se"}
+					{"name": "ns.sunne.se"},
+					{"name": "dns5.telia.com"}
 				],
 				"errors": [
 				],
@@ -4262,8 +4315,8 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "dns4.telia.com"},
-					{"name": "dns3.telia.com"}
+					{"name": "dns3.telia.com"},
+					{"name": "dns4.telia.com"}
 				],
 				"errors": [
 				],
@@ -4300,10 +4353,10 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "ns1.p21.dynect.net"},
+					{"name": "ns4.p21.dynect.net"},
 					{"name": "ns3.p21.dynect.net"},
-					{"name": "ns2.p21.dynect.net"},
-					{"name": "ns4.p21.dynect.net"}
+					{"name": "ns1.p21.dynect.net"},
+					{"name": "ns2.p21.dynect.net"}
 				],
 				"errors": [
 				],
@@ -4342,9 +4395,9 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
+					{"name": "b.dns.tdc.se"},
 					{"name": "a.dns.tdc.se"},
-					{"name": "ns.saffle.se"},
-					{"name": "b.dns.tdc.se"}
+					{"name": "ns.saffle.se"}
 				],
 				"errors": [
 				],
@@ -4366,7 +4419,8 @@
 					{"name": "ns4.cepus.net"}
 				],
 				"errors": [
-					{"description": "EDNS not supported by 195.67.100.210."}
+					{"description": "EDNS not supported by 195.67.100.210."},
+					{"description": "EDNS not supported by 195.67.130.9."}
 				],
 				"warnings": [
 					{"description": "Could not find reverse address for 195.67.130.9 (9.130.67.195.in-addr.arpa.)."}
@@ -4402,14 +4456,15 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
+					{"name": "f4.nstld.com"},
 					{"name": "ns4.ascio.net"},
 					{"name": "a4.nstld.com"},
-					{"name": "ns1.ascio.net"},
-					{"name": "f4.nstld.com"}
+					{"name": "ns1.ascio.net"}
 				],
 				"errors": [
 				],
 				"warnings": [
+					{"description": "2 different serials found."}
 				]
 			},
 			{
@@ -4443,9 +4498,9 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns6.fxh42.net"},
+					{"name": "ns5.fxh42.net"},
 					{"name": "ns1.fxh42.net"},
-					{"name": "ns5.fxh42.net"}
+					{"name": "ns6.fxh42.net"}
 				],
 				"errors": [
 				],
@@ -4486,10 +4541,10 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "sdsrvextdns1.stromstad.se"},
+					{"name": "dns5.telia.com"},
 					{"name": "nic2.gota.net"},
 					{"name": "dns2.tanum.se"},
-					{"name": "dns5.telia.com"}
+					{"name": "sdsrvextdns1.stromstad.se"}
 				],
 				"errors": [
 				],
@@ -4507,8 +4562,8 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "dns.tibro.se"},
-					{"name": "dns5.telia.com"}
+					{"name": "dns5.telia.com"},
+					{"name": "dns.tibro.se"}
 				],
 				"errors": [
 				],
@@ -4526,8 +4581,8 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "dns5.telia.com"},
-					{"name": "ns.tidaholm.se"}
+					{"name": "ns.tidaholm.se"},
+					{"name": "dns5.telia.com"}
 				],
 				"errors": [
 				],
@@ -4545,8 +4600,8 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns2.loopia.se"},
-					{"name": "ns1.loopia.se"}
+					{"name": "ns1.loopia.se"},
+					{"name": "ns2.loopia.se"}
 				],
 				"errors": [
 				],
@@ -4566,8 +4621,6 @@
 				"ipMail": false,
 				"dnsList": [
 					{"name": "01dns.mgmtnet.se"},
-					{"name": "01dns.ergogroup.se"},
-					{"name": "02dns.ergogroup.se"},
 					{"name": "02dns.mgmtnet.se"}
 				],
 				"errors": [
@@ -4605,10 +4658,10 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
+					{"name": "dns6.telia.com"},
 					{"name": "ns1.ipv6dns.se"},
-					{"name": "dns.tjorn.se"},
 					{"name": "dns5.telia.com"},
-					{"name": "dns6.telia.com"}
+					{"name": "dns.tjorn.se"}
 				],
 				"errors": [
 				],
@@ -4645,8 +4698,8 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "ephemera.nmugroup.se"},
 					{"name": "origo.nmugroup.com"},
+					{"name": "ephemera.nmugroup.se"},
 					{"name": "unit.nmugroup.com"}
 				],
 				"errors": [
@@ -4665,8 +4718,8 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "dns5.telia.com"},
-					{"name": "dns.torsas.se"}
+					{"name": "dns.torsas.se"},
+					{"name": "dns5.telia.com"}
 				],
 				"errors": [
 				],
@@ -4709,6 +4762,9 @@
 				"errors": [
 				],
 				"warnings": [
+					{"description": "Could not find reverse address for 193.180.229.75 (75.229.180.193.in-addr.arpa.)."},
+					{"description": "Could not find reverse address for 193.180.229.75 (75.229.180.193.in-addr.arpa.)."},
+					{"description": "Could not find reverse address for 193.180.229.66 (66.229.180.193.in-addr.arpa.)."}
 				]
 			},
 			{
@@ -4722,8 +4778,8 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "kista.dns.swip.net"},
-					{"name": "nstrelleborg.trelleborg.se"}
+					{"name": "nstrelleborg.trelleborg.se"},
+					{"name": "kista.dns.swip.net"}
 				],
 				"errors": [
 				],
@@ -4742,9 +4798,9 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "dns6.telia.com"},
 					{"name": "falun.dns.swip.net"},
 					{"name": "nic.gota.net"},
+					{"name": "dns6.telia.com"},
 					{"name": "nic2.gota.net"}
 				],
 				"errors": [
@@ -4804,8 +4860,8 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "dns5.telia.com"},
-					{"name": "dns.taby.se"}
+					{"name": "dns.taby.se"},
+					{"name": "dns5.telia.com"}
 				],
 				"errors": [
 				],
@@ -4823,9 +4879,9 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns1.mariestad.se"},
 					{"name": "ns.mariestad.se"},
-					{"name": "ns1.mteab.net"}
+					{"name": "ns1.mteab.net"},
+					{"name": "ns1.mariestad.se"}
 				],
 				"errors": [
 					{"description": "Name server ns1.mteab.net (80.254.240.18) does not answer queries over TCP."}
@@ -4868,8 +4924,8 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns01.samkom.se"},
-					{"name": "ns02.samkom.se"}
+					{"name": "ns02.samkom.se"},
+					{"name": "ns01.samkom.se"}
 				],
 				"errors": [
 				],
@@ -4906,9 +4962,9 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "ns.upplandsvasby.se"},
-					{"name": "c.dns.tdc.se"},
 					{"name": "b.dns.tdc.se"},
+					{"name": "c.dns.tdc.se"},
+					{"name": "ns.upplandsvasby.se"},
 					{"name": "a.dns.tdc.se"}
 				],
 				"errors": [
@@ -4948,8 +5004,8 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns1.udac.se"},
-					{"name": "ns1.uppsala.se"}
+					{"name": "ns1.uppsala.se"},
+					{"name": "ns1.udac.se"}
 				],
 				"errors": [
 				],
@@ -4968,12 +5024,12 @@
 				"ipMail": true,
 				"dnsList": [
 					{"name": "ns5.gratisdns.dk"},
-					{"name": "ns3.gratisdns.dk"},
-					{"name": "ns2.gratisdns.dk"},
 					{"name": "ns4.gratisdns.dk"},
-					{"name": "ns1.gratisdns.dk"},
+					{"name": "ns2.gratisdns.dk"},
+					{"name": "ns3.gratisdns.dk"},
 					{"name": "ns1.uppvidinge.se"},
-					{"name": "ns2.uppvidinge.se"}
+					{"name": "ns2.uppvidinge.se"},
+					{"name": "ns1.gratisdns.dk"}
 				],
 				"errors": [
 				],
@@ -5011,9 +5067,9 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
+					{"name": "ns.vaggeryd.se"},
 					{"name": "dns6.telia.com"},
-					{"name": "dns5.telia.com"},
-					{"name": "ns.vaggeryd.se"}
+					{"name": "dns5.telia.com"}
 				],
 				"errors": [
 				],
@@ -5031,8 +5087,8 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns.valdemarsvik.se"},
-					{"name": "dns6.telia.com"}
+					{"name": "dns6.telia.com"},
+					{"name": "ns.valdemarsvik.se"}
 				],
 				"errors": [
 				],
@@ -5071,8 +5127,8 @@
 				"ipMail": true,
 				"dnsList": [
 					{"name": "ns.vansbro.se"},
-					{"name": "ns3.interlan.se"},
-					{"name": "ns.interlan.se"}
+					{"name": "ns1.ipv6dns.se"},
+					{"name": "ns2.ipv6dns.se"}
 				],
 				"errors": [
 				],
@@ -5109,9 +5165,9 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
+					{"name": "ns05.varbergenergi.se"},
 					{"name": "ns01.varberg.net"},
-					{"name": "ns02.varberg.net"},
-					{"name": "ns05.varbergenergi.se"}
+					{"name": "ns02.varberg.net"}
 				],
 				"errors": [
 				],
@@ -5130,8 +5186,8 @@
 				"ipMail": false,
 				"dnsList": [
 					{"name": "ns1.teknikbyran.com"},
-					{"name": "ns1.certezza.net"},
-					{"name": "ns.vaxholm.se"}
+					{"name": "ns.vaxholm.se"},
+					{"name": "ns1.certezza.net"}
 				],
 				"errors": [
 				],
@@ -5149,9 +5205,9 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "kista.dns.swip.net"},
+					{"name": "ns1.vellinge.se"},
 					{"name": "malmoe.dns.swip.net"},
-					{"name": "ns1.vellinge.se"}
+					{"name": "kista.dns.swip.net"}
 				],
 				"errors": [
 				],
@@ -5170,8 +5226,8 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "dns01.hoglandet.se"},
-					{"name": "dns02.hoglandet.se"}
+					{"name": "dns02.hoglandet.se"},
+					{"name": "dns01.hoglandet.se"}
 				],
 				"errors": [
 				],
@@ -5189,9 +5245,9 @@
 				"ipDns": false,
 				"ipMail": true,
 				"dnsList": [
+					{"name": "dns.umea.se"},
 					{"name": "ns1.vilhelmina.se"},
 					{"name": "ns2.storuman.se"},
-					{"name": "dns.umea.se"},
 					{"name": "ns2.dorotea.se"}
 				],
 				"errors": [
@@ -5238,9 +5294,9 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns1.vindeln.se"},
 					{"name": "ns1.ipv6dns.se"},
 					{"name": "ns2.vindeln.se"},
+					{"name": "ns1.vindeln.se"},
 					{"name": "ns2.ipv6dns.se"}
 				],
 				"errors": [
@@ -5298,9 +5354,9 @@
 				"ipDns": false,
 				"ipMail": true,
 				"dnsList": [
+					{"name": "ns.vanersborg.se"},
 					{"name": "dns1.telia.com"},
-					{"name": "dns6.telia.com"},
-					{"name": "ns.vanersborg.se"}
+					{"name": "dns6.telia.com"}
 				],
 				"errors": [
 				],
@@ -5339,8 +5395,8 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "ns1.varmdo.se"},
-					{"name": "ns1.certezza.net"}
+					{"name": "ns1.certezza.net"},
+					{"name": "ns1.varmdo.se"}
 				],
 				"errors": [
 				],
@@ -5353,16 +5409,16 @@
 				"name": "V&auml;rnamo kommun",
 				"url": "varnamo.se",
 				"contact": "itinfo [at] varnamo.se",
-				"dnsSecSigned": true,
+				"dnsSecSigned": false,
 				"isRecursive": false,
 				"ipWww": false,
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "dns5.telia.com"},
-					{"name": "ns3.varnamo.se"},
 					{"name": "dns6.telia.com"},
-					{"name": "ns4.varnamo.se"}
+					{"name": "dns5.telia.com"},
+					{"name": "ns4.varnamo.se"},
+					{"name": "ns3.varnamo.se"}
 				],
 				"errors": [
 					{"description": "Superfluous name server listed at parent: dns1.telia.com"},
@@ -5370,13 +5426,15 @@
 					{"description": "DNS SERVFAIL when querying 81.228.11.67 for SOA"},
 					{"description": "DNS SERVFAIL when querying 81.228.11.67 for SOA"},
 					{"description": "Name server dns1.telia.com (81.228.11.67) not authoritative for varnamo.se."},
-					{"description": "DNS SERVFAIL when querying 81.228.11.67 for SOA"}
+					{"description": "DNS SERVFAIL when querying 81.228.11.67 for SOA"},
+					{"description": "Not enough valid signatures over SOA RRset found for varnamo.se."}
 				],
 				"warnings": [
 					{"description": "Could not find reverse address for 194.236.221.83 (83.221.236.194.in-addr.arpa.)."},
 					{"description": "Could not find reverse address for 194.236.221.86 (86.221.236.194.in-addr.arpa.)."},
 					{"description": "Nameserver at 81.228.11.67 is not authoritative over UDP."},
-					{"description": "Could not find reverse address for 194.236.221.83 (83.221.236.194.in-addr.arpa.)."}
+					{"description": "Could not find reverse address for 194.236.221.83 (83.221.236.194.in-addr.arpa.)."},
+					{"description": "DNSSEC signature RRSIG(varnamo.se/IN/SOA/61114) fails to validate the RR set: key 1: keytag does not match key 2: keytag does not match key 3: keytag does not match key 4:RSA Verification failed"}
 				]
 			},
 			{
@@ -5388,14 +5446,14 @@
 				"isRecursive": false,
 				"ipWww": true,
 				"ipDns": true,
-				"ipMail": true,
+				"ipMail": false,
 				"dnsList": [
-					{"name": "ns2.frobbit.se"},
-					{"name": "ns1.frobbit.se"},
 					{"name": "ns.cafax.se"},
-					{"name": "dns6.telia.com"},
+					{"name": "ns1.frobbit.se"},
 					{"name": "dns5.telia.com"},
-					{"name": "ns1.vastervik.se"}
+					{"name": "ns2.frobbit.se"},
+					{"name": "ns1.vastervik.se"},
+					{"name": "dns6.telia.com"}
 				],
 				"errors": [
 				],
@@ -5439,7 +5497,12 @@
 				],
 				"warnings": [
 					{"description": "DNSSEC signature expired: RRSIG(vaxjo.se/IN/DNSKEY/31083)"},
+					{"description": "DNSSEC signature expired: RRSIG(vaxjo.se/IN/DNSKEY/51625)"},
 					{"description": "DNSSEC signature expired: RRSIG(vaxjo.se/IN/DNSKEY/31083)"},
+					{"description": "DNSSEC signature expired: RRSIG(vaxjo.se/IN/DNSKEY/51625)"},
+					{"description": "DNSSEC signature expired: RRSIG(vaxjo.se/IN/DNSKEY/31083)"},
+					{"description": "DNSSEC signature expired: RRSIG(vaxjo.se/IN/DNSKEY/31083)"},
+					{"description": "DNSSEC signature expired: RRSIG(vaxjo.se/IN/DNSKEY/51625)"},
 					{"description": "DNSSEC signature expired: RRSIG(vaxjo.se/IN/DNSKEY/31083)"},
 					{"description": "DNSSEC signature expired: RRSIG(vaxjo.se/IN/DNSKEY/31083)"}
 				]
@@ -5475,8 +5538,8 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns1.ystad.se"},
-					{"name": "dns5.telia.com"}
+					{"name": "dns5.telia.com"},
+					{"name": "ns1.ystad.se"}
 				],
 				"errors": [
 				],
@@ -5494,8 +5557,8 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns2.dalsnet.se"},
 					{"name": "ns1.dalsnet.se"},
+					{"name": "ns2.dalsnet.se"},
 					{"name": "dns5.telia.com"}
 				],
 				"errors": [
@@ -5514,8 +5577,8 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "ns2.alltele.se"},
-					{"name": "ns1.alltele.se"}
+					{"name": "ns1.alltele.se"},
+					{"name": "ns2.alltele.se"}
 				],
 				"errors": [
 				],
@@ -5533,8 +5596,8 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "dns2.jamtport.se"},
-					{"name": "dns1.jamtport.se"}
+					{"name": "dns1.jamtport.se"},
+					{"name": "dns2.jamtport.se"}
 				],
 				"errors": [
 				],
@@ -5545,19 +5608,20 @@
 				"knnr": "1765",
 				"name": "&Aring;rj&auml;ngs kommun",
 				"url": "arjang.se",
-				"contact": "webmail [at] arjang.se",
-				"dnsSecSigned": false,
+				"contact": "it [at] arjang.se",
+				"dnsSecSigned": true,
 				"isRecursive": false,
 				"ipWww": false,
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns2.itresource.se"},
-					{"name": "dns1.arjang.se"}
+					{"name": "dns1.arjang.se"},
+					{"name": "ns.saffle.se"}
 				],
 				"errors": [
 				],
 				"warnings": [
+					{"description": "2 different serials found."}
 				]
 			},
 			{
@@ -5571,8 +5635,8 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "dns.asele.se"},
 					{"name": "dns.umea.se"},
+					{"name": "dns.asele.se"},
 					{"name": "ns2.dorotea.se"}
 				],
 				"errors": [
@@ -5586,7 +5650,7 @@
 				"url": "astorp.se",
 				"contact": "it [at] astorp.se",
 				"dnsSecSigned": false,
-				"isRecursive": true,
+				"isRecursive": false,
 				"ipWww": false,
 				"ipDns": false,
 				"ipMail": true,
@@ -5594,6 +5658,9 @@
 					{"name": "ns.astorp.se"}
 				],
 				"errors": [
+					{"description": "Too few name servers (1)."},
+					{"description": "Too few IPv4 name servers (1)."},
+					{"description": "Name server ns.astorp.se (195.67.84.162) does not answer queries over TCP."}
 				],
 				"warnings": [
 				]
@@ -5615,6 +5682,7 @@
 				"errors": [
 				],
 				"warnings": [
+					{"description": "Could not find reverse address for 2a00:f280:1:2002:0:0:0:4 (4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.0.2.1.0.0.0.0.8.2.f.0.0.a.2.ip6.arpa.)."}
 				]
 			},
 			{
@@ -5624,12 +5692,12 @@
 				"contact": "dns [at] tdc.se",
 				"dnsSecSigned": true,
 				"isRecursive": false,
-				"ipWww": true,
+				"ipWww": false,
 				"ipDns": true,
-				"ipMail": true,
+				"ipMail": false,
 				"dnsList": [
-					{"name": "a.dns.tdc.se"},
 					{"name": "c.dns.tdc.se"},
+					{"name": "a.dns.tdc.se"},
 					{"name": "b.dns.tdc.se"}
 				],
 				"errors": [
@@ -5648,8 +5716,8 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "nic.mora.se"},
-					{"name": "ns2.kringdata.net"}
+					{"name": "ns2.kringdata.net"},
+					{"name": "nic.mora.se"}
 				],
 				"errors": [
 				],
@@ -5673,6 +5741,7 @@
 				"errors": [
 				],
 				"warnings": [
+					{"description": "Broken chain of trust for alvkarleby.se - DNSKEY found at child, but no DS was found at parent."}
 				]
 			},
 			{
@@ -5686,9 +5755,9 @@
 				"ipDns": true,
 				"ipMail": false,
 				"dnsList": [
+					{"name": "ns.cafax.se"},
 					{"name": "ns2.frobbit.se"},
-					{"name": "ns1.frobbit.se"},
-					{"name": "ns.cafax.se"}
+					{"name": "ns1.frobbit.se"}
 				],
 				"errors": [
 				],
@@ -5706,9 +5775,9 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
+					{"name": "ns1.thalamus.net"},
 					{"name": "ns2.thalamus.net"},
-					{"name": "ns3.thalamus.net"},
-					{"name": "ns1.thalamus.net"}
+					{"name": "ns3.thalamus.net"}
 				],
 				"errors": [
 				],
@@ -5726,8 +5795,8 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "dns9.telia.com"},
-					{"name": "dns10.telia.com"}
+					{"name": "dns10.telia.com"},
+					{"name": "dns9.telia.com"}
 				],
 				"errors": [
 				],
@@ -5751,6 +5820,7 @@
 				"errors": [
 				],
 				"warnings": [
+					{"description": "Could not find reverse address for 2a00:f280:1:2002:0:0:0:4 (4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.0.2.1.0.0.0.0.8.2.f.0.0.a.2.ip6.arpa.)."}
 				]
 			},
 			{
@@ -5770,6 +5840,9 @@
 				"errors": [
 				],
 				"warnings": [
+					{"description": "Could not find reverse address for 194.103.205.14 (14.205.103.194.in-addr.arpa.)."},
+					{"description": "Name server ns.orebro.se (194.103.205.14) is recursive."},
+					{"description": "Could not find reverse address for 194.103.205.14 (14.205.103.194.in-addr.arpa.)."}
 				]
 			},
 			{
@@ -5822,8 +5895,8 @@
 				"ipMail": false,
 				"dnsList": [
 					{"name": "b.ns.ip-only.net"},
-					{"name": "c.ns.ip-only.net"},
-					{"name": "a.ns.ip-only.net"}
+					{"name": "a.ns.ip-only.net"},
+					{"name": "c.ns.ip-only.net"}
 				],
 				"errors": [
 				],
@@ -5841,8 +5914,8 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "ns2.teknikbyran.com"},
-					{"name": "ns1.teknikbyran.com"}
+					{"name": "ns1.teknikbyran.com"},
+					{"name": "ns2.teknikbyran.com"}
 				],
 				"errors": [
 				],
@@ -5879,8 +5952,8 @@
 				"ipDns": false,
 				"ipMail": false,
 				"dnsList": [
-					{"name": "nssec1.skno.se"},
-					{"name": "nssec2.skno.se"}
+					{"name": "nssec2.skno.se"},
+					{"name": "nssec1.skno.se"}
 				],
 				"errors": [
 				],
@@ -5898,10 +5971,12 @@
 				"ipDns": true,
 				"ipMail": true,
 				"dnsList": [
-					{"name": "dns.overkalix.se"},
-					{"name": "dns2.overkalix.se"}
+					{"name": "dns2.overkalix.se"},
+					{"name": "dns.overkalix.se"}
 				],
 				"errors": [
+					{"description": "Inconsistent glue for name server dns.overkalix.se."},
+					{"description": "Inconsistent glue for name server dns2.overkalix.se."}
 				],
 				"warnings": [
 				]

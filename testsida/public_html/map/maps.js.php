@@ -1,17 +1,55 @@
 <?php
 	require_once "lang.php";
 ?>
+var countryDir = "data/sverige/";
 var map;
 var municipalitiesTagMap = {};
 var municipalitiesInfo = {};
 var polygons = {};
 var infoWindow;
-var coordfilename = "liten.json";
+var coordfilename = "liten.json.sverige";
 var opacityOfPolygon = 0.8;
 
 var lastSelectedDate = "";
 
+//TODO sätta egna polygonarrayer för alla länder
+
 var municipalities = new Array();
+
+function test(country) {
+	countryDir = "data/"+country+"/";
+	clearMap();
+	coordfilename = "liten.json."+country;
+	reloadMap();
+}
+
+function reloadMap() {
+   $.ajax({
+        type: "GET",
+        url: coordfilename + "?_=" + new Date().getTime(),
+        dataType: "json",
+        async: false,
+        success: function (d) {
+			if(d.features) {
+				$(d.features).each(function () {
+					municipalities.push(this);
+				});
+			} else {
+				$(d.municipalities.municipality).each(function () {
+					municipalities.push(this);
+				});			
+			}
+            var today = new Date(new Date().getTime() - (24 * 60 * 60 * 1000));
+            var dd = today.getDate();
+            var mm = today.getMonth() + 1;
+
+            var yyyy = today.getFullYear();
+            if (dd < 10) { dd = '0' + dd } if (mm < 10) { mm = '0' + mm } today = yyyy + mm + dd;
+			lastSelectedDate = today;
+            loadInfo(countryDir + today + ".json?_=" + new Date().getTime());
+        }
+    });
+}
 
 function cbChanged(){
 	if(!bAllIsChecked){
@@ -34,7 +72,7 @@ $(function () {
         onSelect: function (dateText, inst) {
             $("#loader").show();
             lastSelectedDate = dateText;
-            loadInfo("data/" + dateText + ".json?date=" + dateText + "&_=" + new Date().getTime());
+            loadInfo(countryDir + dateText + ".json?date=" + dateText + "&_=" + new Date().getTime());
         },
         monthNames: [<?php echo getTranslatedItem("MONTH_NAMES_LONG") ?>],
         monthNamesShort : [<?php echo getTranslatedItem("MONTH_NAMES_SHORT") ?>],
@@ -86,7 +124,7 @@ $(function () {
             var yyyy = today.getFullYear();
             if (dd < 10) { dd = '0' + dd } if (mm < 10) { mm = '0' + mm } today = yyyy + mm + dd;
 			lastSelectedDate = today;
-            loadInfo("data/" + today + ".json?_=" + new Date().getTime());
+            loadInfo(countryDir + today + ".json?_=" + new Date().getTime());
         }
     });
 });
@@ -238,6 +276,7 @@ function addPolygon(municipality) {
             if ($("#tabs input[type='checkbox']:checked").size() == 0 && (!info.ipWww || !info.ipDns || !info.ipMail)) color = "f90";
             if ($("#tabs input[type='checkbox']:checked").size() == 0 && (!info.ipWww && !info.ipDns && !info.ipMail)) color = "f00";
         }
+		console.info(polygons[info.knnr]);
         if (!show) {
             if (polygons[info.knnr] != null)
                 polygons[info.knnr].setOptions({ fillOpacity: 0.0, strokeWeight: 0.5 });
@@ -289,7 +328,6 @@ function addPolygon(municipality) {
 
 
 
-
     infowindow = new google.maps.InfoWindow();
 }
 
@@ -315,3 +353,12 @@ function generateListFromArray(title, arr) {
     }
     return "";
 }
+
+function clearMap() {
+	$.each(polygons, function() {
+		this.setMap(null);
+	});
+}
+
+$.when(clearMap()).done(function() {
+});
