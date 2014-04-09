@@ -32,10 +32,11 @@
             <div id="tabs-1">
 	            <p><?php echo getTranslatedItem("DOMAINS_THAT_ARE") ?> <br /><!-- outline: 2px solid #0f0; -->
                     <div id="Checkboxholder">
-                        <input type="radio" onclick=test("sverige") name="land" id="Sv" />Sverige<br>
-                        <input type="radio" onclick=test("finland") name="land" id="Fi" />Finland<br>
-                        <input type="radio" onclick=test("norge") name="land" id="No" />Norge<br>
-                        <br>
+                        <input type="checkbox" onclick="test()" value=0 id="sverige" name="country[]" />Sverige<br>
+                        <input type="checkbox" onclick="test()" value=1 id="finland" name="country[]" />Finland<br>
+                        <input type="checkbox" onclick="test()" value=2 id="norge" name="country[]" />Norge<br>
+                        <button type="button" onclick="clearMap('null')">Clear</button>
+						<br>
                     </div>
                 <table>
                     <tr><td><input type="checkbox" value="dns" id="signed" /></td><td><?php echo getTranslatedItem("DOMAINS_SIGNED") ?></td></tr>
