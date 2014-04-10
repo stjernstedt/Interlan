@@ -41,9 +41,9 @@
                 <table>
                     <tr><td><input type="checkbox" value="dns" id="signed" /></td><td><?php echo getTranslatedItem("DOMAINS_SIGNED") ?></td></tr>
                     <tr><td>&nbsp;</td></tr>
-                    <tr><td style="background-color: #0f0;"><input type="checkbox" value="dns" id="noerror" /></td><td><?php echo getTranslatedItem("DOMAINS_WITHOUT_ERROR") ?></td></tr>
-                    <tr><td style="background-color: #f90;"><input type="checkbox" value="dns" id="warnings" /></td><td><?php echo getTranslatedItem("DOMAINS_WITH_WARNING") ?></td></tr>
-                    <tr><td style="background-color: #f00;"><input type="checkbox" value="dns" id="errors" /></td><td><?php echo getTranslatedItem("DOMAINS_WITH_ERROR") ?></td></tr>
+                    <tr><td style="background-color: #0f0;"><input type="checkbox" onclick="test()" value="dns" id="noerror" /></td><td><?php echo getTranslatedItem("DOMAINS_WITHOUT_ERROR") ?></td></tr>
+                    <tr><td style="background-color: #f90;"><input type="checkbox" onclick="test()" value="dns" id="warnings" /></td><td><?php echo getTranslatedItem("DOMAINS_WITH_WARNING") ?></td></tr>
+                    <tr><td style="background-color: #f00;"><input type="checkbox" onclick="test()" value="dns" id="errors" /></td><td><?php echo getTranslatedItem("DOMAINS_WITH_ERROR") ?></td></tr>
                 </table>
                 </p>
                 <p>

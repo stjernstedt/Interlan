@@ -66,18 +66,19 @@ function loadMap(code) {
     });
 }
 
-function cbChanged(){
-	if(!bAllIsChecked){
-		$("#loader").show();
-		$("#tabs input[value!='" + $(this).val() + "']").removeAttr("checked");
-		loadList();
-//		test();
-    }
-    bAllIsChecked = false;
-}
-var bAllIsChecked = false;
+// function cbChanged(){
+	// if(!bAllIsChecked){
+		// $("#loader").show();
+		// $("#tabs input[value!='" + $(this).val() + "']").removeAttr("checked");
+		// loadList();
+    // }
+    // bAllIsChecked = false;
+// }
+// var bAllIsChecked = false;
 
 $(function () {
+	document.getElementById("sverige").checked = "checked";
+	console.log(document.getElementById("sverige").checked);
     $("#tabs").tabs({ show: function () { loadList(); $("#tabs input").prop("checked", false); } });
     $("#datepicker").datepicker({
         maxDate: '-1d',
@@ -98,11 +99,10 @@ $(function () {
 	$("input[value='allIp']").change(function () {
         bAllIsChecked = true;
         $("input[value='ip']").attr("checked", $(this).attr("checked"));
-//		loadList();
-		test();
+		loadList();
     });
 
-	$("input[type='checkbox']").change(cbChanged);
+	// $("input[type='checkbox']").change(cbChanged);
 
     var mapOptions = {
         center: new google.maps.LatLng(63.027722, 15.58136),
@@ -232,74 +232,70 @@ function addPolygon(municipality, code) {
         var show = true;
         var color = "fff";
 
-        if ($("#tabs").tabs().tabs('option', 'selected') == 0) {
+		if ($("#tabs").tabs().tabs('option', 'selected') == 0) {
 			show = !$("#signed").is(':checked') && !$("#noerror").is(':checked') && !$("#warnings").is(':checked') && !$("#errors").is(':checked');
-			var noneSelected = $("#tabs input[type='checkbox']:checked").size()- $("#tabs input#signed[type='checkbox']:checked").size() == 0;
-/*			var noneSelected = true;
-			var checks = new Array("#noerror", "#warnings", "#errors");
- 			$.each(checks, function() {
-				if(this.checked) {
-					console.log("checked");
-					noneSelected = false;
-				}
-			});
- */            if (($("#noerror").is(':checked') || noneSelected) && !hasErrors && !hasWarnings) {
-                show = true;
-                if (info.dnsSecSigned)
-                    color = "0f0";
-                else
-                    color = "eaea6a"; // unsigned but without error
+			var noneSelected = $("#tabs input[value='dns']:checked").size()- $("#tabs input#signed[type='checkbox']:checked").size() == 0;
 
-                if (isSigned && !info.dnsSecSigned) show = false;
-            }
-            if (($("#warnings").is(':checked') || noneSelected) && hasWarnings) {
-                show = true;
-                color = "f90"
-                if (isSigned && !info.dnsSecSigned) show = false;
-            }
+			if (($("#noerror").is(':checked') || noneSelected) && !hasErrors && !hasWarnings) {
+				show = true;
+				if (info.dnsSecSigned)
+					color = "0f0";
+				else
+					color = "eaea6a"; // unsigned but without error
 
-            if (($("#errors").is(':checked') || noneSelected) && hasErrors) {
-                show = true;
-                color = "f00"
+				if (isSigned && !info.dnsSecSigned) show = false;
+			}
+			if (($("#warnings").is(':checked') || noneSelected) && hasWarnings) {
+				show = true;
+				color = "f90"
+				if (isSigned && !info.dnsSecSigned) show = false;
+			}
 
-                if (isSigned && !info.dnsSecSigned) show = false;
-            }
-        }
+			if (($("#errors").is(':checked') || noneSelected) && hasErrors) {
+				show = true;
+				color = "f00"
 
-        if ($("#tabs").tabs().tabs('option', 'selected') == 1) {
-            show = true;
-            if ($("#www").is(':checked') && !info.ipWww) { show = false; }
-            if ($("#dns").is(':checked') && !info.ipDns) { show = false; }
-            if ($("#mail").is(':checked') && !info.ipMail) { show = false; }
-            color = "0f0";
-            if ($("#tabs input[type='checkbox']:checked").size() == 0 && (!info.ipWww || !info.ipDns || !info.ipMail)) color = "f90";
-            if ($("#tabs input[type='checkbox']:checked").size() == 0 && (!info.ipWww && !info.ipDns && !info.ipMail)) color = "f00";
-        }
-        if (!show) {
-            if (polygons[info.knnr] != null)
-                polygons[info.knnr].setOptions({ fillOpacity: 0.0, strokeWeight: 0.5 });
-        }
-        else {
-            if (polygons[info.knnr] == null) {
-                polygons[info.knnr] = new google.maps.Polygon({
-                    paths: polyCoords,
-                    strokeColor: "#000",
-                    strokeOpacity: 0.8,
-                    strokeWeight: color == "fff" ? 0.5 : 0.5,
-                    fillColor: "#" + color,
-                    fillOpacity: color == "fff" ? 0 : opacityOfPolygon,
+				if (isSigned && !info.dnsSecSigned) show = false;
+			}
+		}
+
+		if ($("#tabs").tabs().tabs('option', 'selected') == 1) {
+			show = true;
+			if ($("#www").is(':checked') && !info.ipWww) { show = false; }
+			if ($("#dns").is(':checked') && !info.ipDns) { show = false; }
+			if ($("#mail").is(':checked') && !info.ipMail) { show = false; }
+			color = "0f0";
+			if ($("#tabs input[type='checkbox']:checked").size() == 0 && (!info.ipWww || !info.ipDns || !info.ipMail)) color = "f90";
+			if ($("#tabs input[type='checkbox']:checked").size() == 0 && (!info.ipWww && !info.ipDns && !info.ipMail)) color = "f00";
+		}
+		
+		if (!show) {
+		if (polygons[info.knnr] != null)
+			polygons[info.knnr].setOptions({ fillOpacity: 0.0, strokeWeight: 0.5 });
+		}
+		else {
+			if (polygons[info.knnr] == null) {
+				polygons[info.knnr] = new google.maps.Polygon({
+					paths: polyCoords,
+					strokeColor: "#000",
+					strokeOpacity: 0.8,
+					strokeWeight: color == "fff" ? 0.5 : 0.5,
+					fillColor: "#" + color,
+					fillOpacity: color == "fff" ? 0 : opacityOfPolygon,
 					countryCode: code
-                });
-                polygons[info.knnr].setMap(map);
+				});
+				polygons[info.knnr].setMap(map);
 
-            }
-            else {
-				if (polygons[info.knnr].countryCode == code)
+			}
+			else {
+				if (polygons[info.knnr].countryCode == code) {
+	                polygons[info.knnr].setOptions({ strokeWeight: color == "fff" ? 0.5 : 0.5, fillOpacity: color == "fff" ? 0 : opacityOfPolygon, fillColor: "#" + color });
 					polygons[info.knnr].setMap(map);
-//                polygons[info.knnr].setOptions({ strokeWeight: color == "fff" ? 0.5 : 0.5, fillOpacity: color == "fff" ? 0 : opacityOfPolygon, fillColor: "#" + color });
-            }
-        }
+				}
+			}
+		}
 
+		
         google.maps.event.addListener(polygons[info.knnr], "click", function (event) {
             var vertices = this.getPath();
             var contentString = "<h3>" + (info == null ? knnr : info.name) + "</h3>";
@@ -368,3 +364,7 @@ function clearMap(code) {
 
 $.when(clearMap()).done(function() {
 });
+
+function colorPolygons() {
+		
+}
