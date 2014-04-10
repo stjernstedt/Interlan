@@ -6,24 +6,39 @@ var map;
 var municipalitiesTagMap = {};
 var municipalitiesInfo = {};
 var polygons = {};
+var countries = {};
 var infoWindow;
 var coordfilename = "liten.json.sverige";
 var opacityOfPolygon = 0.8;
 
 var lastSelectedDate = "";
 
-//TODO sätta egna polygonarrayer för alla länder
-
 var municipalities = new Array();
 
-function test(country) {
-	countryDir = "data/"+country+"/";
-	clearMap();
-	coordfilename = "liten.json."+country;
-	reloadMap();
-}
+function test() {
+	municipalities = new Array();
+	countries = {};
+	var boxes = document.getElementsByName('country[]');
+	$.each(boxes, function(index, box) {
+		if (this.checked == true) {
+			$.each(this.value, function() {
+				countries[this] = new Object({
+					country: box.id,
+					code: box.value
+				});
+			});
+		}
+	});
+ 	clearMap(countries);
 
-function reloadMap() {
+	$.each(countries, function() {
+		countryDir = "data/"+this.country+"/";
+		coordfilename = "liten.json."+this.country;
+		loadMap(this.code);
+	});
+ }
+
+function loadMap(code) {
    $.ajax({
         type: "GET",
         url: coordfilename + "?_=" + new Date().getTime(),
@@ -46,7 +61,7 @@ function reloadMap() {
             var yyyy = today.getFullYear();
             if (dd < 10) { dd = '0' + dd } if (mm < 10) { mm = '0' + mm } today = yyyy + mm + dd;
 			lastSelectedDate = today;
-            loadInfo(countryDir + today + ".json?_=" + new Date().getTime());
+            loadInfo(countryDir + today + ".json?_=" + new Date().getTime(), code);
         }
     });
 }
@@ -56,6 +71,7 @@ function cbChanged(){
 		$("#loader").show();
 		$("#tabs input[value!='" + $(this).val() + "']").removeAttr("checked");
 		loadList();
+//		test();
     }
     bAllIsChecked = false;
 }
@@ -82,10 +98,11 @@ $(function () {
 	$("input[value='allIp']").change(function () {
         bAllIsChecked = true;
         $("input[value='ip']").attr("checked", $(this).attr("checked"));
-        loadList();
+//		loadList();
+		test();
     });
 
-    $("input[type='checkbox']").change(cbChanged);
+	$("input[type='checkbox']").change(cbChanged);
 
     var mapOptions = {
         center: new google.maps.LatLng(63.027722, 15.58136),
@@ -98,38 +115,14 @@ $(function () {
         mapTypeControl: false
     };
 
-    map = new google.maps.Map(document.getElementById("map_canvas"),
+	map = new google.maps.Map(document.getElementById("map_canvas"),
             mapOptions);
 
 
-    $.ajax({
-        type: "GET",
-        url: coordfilename + "?_=" + new Date().getTime(),
-        dataType: "json",
-        async: false,
-        success: function (d) {
-			if(d.features) {
-				$(d.features).each(function () {
-					municipalities.push(this);
-				});
-			} else {
-				$(d.municipalities.municipality).each(function () {
-					municipalities.push(this);
-				});			
-			}
-            var today = new Date(new Date().getTime() - (24 * 60 * 60 * 1000));
-            var dd = today.getDate();
-            var mm = today.getMonth() + 1;
-
-            var yyyy = today.getFullYear();
-            if (dd < 10) { dd = '0' + dd } if (mm < 10) { mm = '0' + mm } today = yyyy + mm + dd;
-			lastSelectedDate = today;
-            loadInfo(countryDir + today + ".json?_=" + new Date().getTime());
-        }
-    });
+	loadMap(0);
 });
 
-function loadInfo(url) {
+function loadInfo(url, code) {
     $.ajax({
         type: "GET",
         url: url,
@@ -141,7 +134,7 @@ function loadInfo(url) {
                 municipalitiesInfo[this.knnr] = this;
             });
 
-            loadList();
+            loadList(code);
         }, error: function (xhr, status, error) {
             $("#loader").hide();
         }
@@ -155,7 +148,7 @@ var cntWithWarning = 0;
 var cntWithError = 0;
 var cntRecursive = 0;
 
-function loadList() {
+function loadList(code) {
     setTimeout(function () {
 
 		cntTotalDomains = 0;
@@ -165,9 +158,9 @@ function loadList() {
 		cntWithError = 0;
 		cntRecursive = 0;
 
-        $(municipalities).each(function () {
-            addPolygon(this);
-        });
+		$(municipalities).each(function () {
+			addPolygon(this, code);
+		});
 
         var dnsCheckInfoString = "<?php echo getTranslatedItem("DNSCHECK_RESULT")?>";
         dnsCheckInfoString = dnsCheckInfoString.replace(/\{0\}/, cntTotalDomains.toString());
@@ -181,7 +174,7 @@ function loadList() {
     }, 1);
 }
 
-function addPolygon(municipality) {
+function addPolygon(municipality, code) {
 	if (typeof municipality.knnr === 'undefined')
 		var knnr = municipality.properties.code.toString();
 	else
@@ -240,11 +233,17 @@ function addPolygon(municipality) {
         var color = "fff";
 
         if ($("#tabs").tabs().tabs('option', 'selected') == 0) {
-            show = !$("#signed").is(':checked') && !$("#noerror").is(':checked') && !$("#warnings").is(':checked') && !$("#errors").is(':checked');
-
-            var noneSelected = $("#tabs input[type='checkbox']:checked").size() - $("#tabs input#signed[type='checkbox']:checked").size() == 0;
-
-            if (($("#noerror").is(':checked') || noneSelected) && !hasErrors && !hasWarnings) {
+			show = !$("#signed").is(':checked') && !$("#noerror").is(':checked') && !$("#warnings").is(':checked') && !$("#errors").is(':checked');
+			var noneSelected = $("#tabs input[type='checkbox']:checked").size()- $("#tabs input#signed[type='checkbox']:checked").size() == 0;
+/*			var noneSelected = true;
+			var checks = new Array("#noerror", "#warnings", "#errors");
+ 			$.each(checks, function() {
+				if(this.checked) {
+					console.log("checked");
+					noneSelected = false;
+				}
+			});
+ */            if (($("#noerror").is(':checked') || noneSelected) && !hasErrors && !hasWarnings) {
                 show = true;
                 if (info.dnsSecSigned)
                     color = "0f0";
@@ -276,7 +275,6 @@ function addPolygon(municipality) {
             if ($("#tabs input[type='checkbox']:checked").size() == 0 && (!info.ipWww || !info.ipDns || !info.ipMail)) color = "f90";
             if ($("#tabs input[type='checkbox']:checked").size() == 0 && (!info.ipWww && !info.ipDns && !info.ipMail)) color = "f00";
         }
-		console.info(polygons[info.knnr]);
         if (!show) {
             if (polygons[info.knnr] != null)
                 polygons[info.knnr].setOptions({ fillOpacity: 0.0, strokeWeight: 0.5 });
@@ -289,13 +287,16 @@ function addPolygon(municipality) {
                     strokeOpacity: 0.8,
                     strokeWeight: color == "fff" ? 0.5 : 0.5,
                     fillColor: "#" + color,
-                    fillOpacity: color == "fff" ? 0 : opacityOfPolygon
+                    fillOpacity: color == "fff" ? 0 : opacityOfPolygon,
+					countryCode: code
                 });
                 polygons[info.knnr].setMap(map);
 
             }
             else {
-                polygons[info.knnr].setOptions({ strokeWeight: color == "fff" ? 0.5 : 0.5, fillOpacity: color == "fff" ? 0 : opacityOfPolygon, fillColor: "#" + color });
+				if (polygons[info.knnr].countryCode == code)
+					polygons[info.knnr].setMap(map);
+//                polygons[info.knnr].setOptions({ strokeWeight: color == "fff" ? 0.5 : 0.5, fillOpacity: color == "fff" ? 0 : opacityOfPolygon, fillColor: "#" + color });
             }
         }
 
@@ -323,7 +324,6 @@ function addPolygon(municipality) {
 
             infowindow.open(map);
         });
-
     }
 
 
@@ -354,9 +354,15 @@ function generateListFromArray(title, arr) {
     return "";
 }
 
-function clearMap() {
-	$.each(polygons, function() {
-		this.setMap(null);
+function clearMap(code) {
+	$.each(polygons, function(index, poly) {
+		if(code == "null")
+			this.setMap(null);
+		$.each(code, function() {
+			if(this.countryCode != code) {
+				poly.setMap(null);
+			}
+		});
 	});
 }
 
