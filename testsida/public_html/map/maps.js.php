@@ -29,6 +29,8 @@ function test() {
 			});
 		}
 	});
+	if(jQuery.isEmptyObject(countries))
+		clearMap("null");
  	clearMap(countries);
 
 	$.each(countries, function() {
@@ -37,6 +39,84 @@ function test() {
 		loadMap(this.code);
 	});
  }
+
+
+// function cbChanged(){
+	// if(!bAllIsChecked){
+		// $("#loader").show();
+		// $("#tabs input[value!='" + $(this).val() + "']").removeAttr("checked");
+		// loadList();
+    // }
+    // bAllIsChecked = false;
+// }
+// var bAllIsChecked = false;
+
+function checkBox() {
+	var boxes = document.getElementsByName('country[]');
+	var boxes2 = document.getElementsByName('country2[]');
+	$.each(boxes, function(index) {
+		if(boxes[index].checked == true || boxes2[index].checked == true) {
+			boxes[index].checked = true;
+			boxes2[index].checked = true;
+		}
+	});
+	test();
+}
+
+$(function () {
+	$("#tabs input").prop("checked", false);
+	$("#tabs input[id='sverige']").prop("checked", true);
+	$("#tabs").tabs({
+		show: function () {
+			checkBox();
+		},
+		select: function(event, ui) {
+			$("#tabs input[class='country']").each( function() {
+				console.log(this.checked);
+			});
+		}
+	});
+    $("#datepicker").datepicker({
+        maxDate: '-1d',
+        defaultDate: -1,
+        autoSize: true,
+        firstDay: 1,
+        dateFormat: 'yymmdd',
+        onSelect: function (dateText, inst) {
+            $("#loader").show();
+            lastSelectedDate = dateText;
+            loadInfo(countryDir + dateText + ".json?date=" + dateText + "&_=" + new Date().getTime());
+        },
+        monthNames: [<?php echo getTranslatedItem("MONTH_NAMES_LONG") ?>],
+        monthNamesShort : [<?php echo getTranslatedItem("MONTH_NAMES_SHORT") ?>],
+        dayNamesMin: [<?php echo getTranslatedItem("DAY_NAMES_SHORT") ?>]
+    });
+
+	// $("input[value='allIp']").change(function () {
+        // bAllIsChecked = true;
+        // $("input[value='ip']").attr("checked", $(this).attr("checked"));
+		// loadList();
+    // });
+
+	// $("input[type='checkbox']").change(cbChanged);
+
+    var mapOptions = {
+        center: new google.maps.LatLng(63.027722, 15.58136),
+        zoom: 5,
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        rotateControl: false,
+        overviewMapControl: false,
+        streetViewControl: false,
+        panControl: false,
+        mapTypeControl: false
+    };
+
+	map = new google.maps.Map(document.getElementById("map_canvas"),
+            mapOptions);
+
+
+	// loadMap(0);
+});
 
 function loadMap(code) {
    $.ajax({
@@ -65,62 +145,6 @@ function loadMap(code) {
         }
     });
 }
-
-// function cbChanged(){
-	// if(!bAllIsChecked){
-		// $("#loader").show();
-		// $("#tabs input[value!='" + $(this).val() + "']").removeAttr("checked");
-		// loadList();
-    // }
-    // bAllIsChecked = false;
-// }
-// var bAllIsChecked = false;
-
-$(function () {
-	document.getElementById("sverige").checked = "checked";
-	console.log(document.getElementById("sverige").checked);
-    $("#tabs").tabs({ show: function () { loadList(); $("#tabs input").prop("checked", false); } });
-    $("#datepicker").datepicker({
-        maxDate: '-1d',
-        defaultDate: -1,
-        autoSize: true,
-        firstDay: 1,
-        dateFormat: 'yymmdd',
-        onSelect: function (dateText, inst) {
-            $("#loader").show();
-            lastSelectedDate = dateText;
-            loadInfo(countryDir + dateText + ".json?date=" + dateText + "&_=" + new Date().getTime());
-        },
-        monthNames: [<?php echo getTranslatedItem("MONTH_NAMES_LONG") ?>],
-        monthNamesShort : [<?php echo getTranslatedItem("MONTH_NAMES_SHORT") ?>],
-        dayNamesMin: [<?php echo getTranslatedItem("DAY_NAMES_SHORT") ?>]
-    });
-
-	$("input[value='allIp']").change(function () {
-        bAllIsChecked = true;
-        $("input[value='ip']").attr("checked", $(this).attr("checked"));
-		loadList();
-    });
-
-	// $("input[type='checkbox']").change(cbChanged);
-
-    var mapOptions = {
-        center: new google.maps.LatLng(63.027722, 15.58136),
-        zoom: 5,
-        mapTypeId: google.maps.MapTypeId.ROADMAP,
-        rotateControl: false,
-        overviewMapControl: false,
-        streetViewControl: false,
-        panControl: false,
-        mapTypeControl: false
-    };
-
-	map = new google.maps.Map(document.getElementById("map_canvas"),
-            mapOptions);
-
-
-	loadMap(0);
-});
 
 function loadInfo(url, code) {
     $.ajax({
@@ -360,11 +384,4 @@ function clearMap(code) {
 			}
 		});
 	});
-}
-
-$.when(clearMap()).done(function() {
-});
-
-function colorPolygons() {
-		
 }

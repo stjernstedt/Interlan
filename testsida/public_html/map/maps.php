@@ -31,13 +31,15 @@
             </ul>
             <div id="tabs-1">
 	            <p><?php echo getTranslatedItem("DOMAINS_THAT_ARE") ?> <br /><!-- outline: 2px solid #0f0; -->
-                    <div id="Checkboxholder">
-                        <input type="checkbox" onclick="test()" value=0 id="sverige" name="country[]" />Sverige<br>
-                        <input type="checkbox" onclick="test()" value=1 id="finland" name="country[]" />Finland<br>
-                        <input type="checkbox" onclick="test()" value=2 id="norge" name="country[]" />Norge<br>
-                        <button type="button" onclick="clearMap('null')">Clear</button>
-						<br>
-                    </div>
+
+ 				<div id="Checkboxholder">
+					<input type="checkbox" class="country" onclick="test()" value=0 id="sverige" name="country[]" />Sverige<br>
+					<input type="checkbox" class="country" onclick="test()" value=1 id="finland" name="country[]" />Finland<br>
+					<input type="checkbox" class="country" onclick="test()" value=2 id="norge" name="country[]" />Norge<br>
+					<button type="button" onclick="clearMap('null')">Clear</button>
+					<br>
+				</div>
+
                 <table>
                     <tr><td><input type="checkbox" value="dns" id="signed" /></td><td><?php echo getTranslatedItem("DOMAINS_SIGNED") ?></td></tr>
                     <tr><td>&nbsp;</td></tr>
@@ -52,7 +54,15 @@
             </div>
             <div id="tabs-2">
 	            <p>
-                    <input type="checkbox" value="ip" id="www" /> <?php echo getTranslatedItem("IPV6_WEB") ?><br />
+					<div id="Checkboxholder2">
+						<input type="checkbox" onclick="checkBox()" value=0 name="country2[]" />Sverige<br>
+						<input type="checkbox" onclick="checkBox()" value=1 name="country2[]" />Finland<br>
+						<input type="checkbox" onclick="checkBox()" value=2 name="country2[]" />Norge<br>
+						<button type="button" onclick="clearMap('null')">Clear</button>
+						<br>
+					</div>
+
+                    <input type="checkbox" value="ip" id="www" onclick="test()" /> <?php echo getTranslatedItem("IPV6_WEB") ?><br />
                     <input type="checkbox" value="ip" id="dns"/> <?php echo getTranslatedItem("IPV6_DNS") ?><br />
                     <input type="checkbox" value="ip" id="mail" /> <?php echo getTranslatedItem("IPV6_MX") ?><br /><br />
                     <input type="checkbox" value="allIp" id="allIp" /> <?php echo getTranslatedItem("IPV6_ALL") ?><br />
