@@ -38,7 +38,10 @@ function test() {
 		coordfilename = "liten.json."+this.country;
 		loadMap(this.code);
 	});
- }
+}
+ 
+ $.when(test()).done(function () {
+ });
 
 
 // function cbChanged(){
@@ -51,29 +54,15 @@ function test() {
 // }
 // var bAllIsChecked = false;
 
-function checkBox() {
-	var boxes = document.getElementsByName('country[]');
-	var boxes2 = document.getElementsByName('country2[]');
-	$.each(boxes, function(index) {
-		if(boxes[index].checked == true || boxes2[index].checked == true) {
-			boxes[index].checked = true;
-			boxes2[index].checked = true;
-		}
-	});
-	test();
-}
 
 $(function () {
 	$("#tabs input").prop("checked", false);
 	$("#tabs input[id='sverige']").prop("checked", true);
 	$("#tabs").tabs({
 		show: function () {
-			checkBox();
 		},
 		select: function(event, ui) {
-			$("#tabs input[class='country']").each( function() {
-				console.log(this.checked);
-			});
+			checkBox();
 		}
 	});
     $("#datepicker").datepicker({
@@ -92,11 +81,17 @@ $(function () {
         dayNamesMin: [<?php echo getTranslatedItem("DAY_NAMES_SHORT") ?>]
     });
 
-	// $("input[value='allIp']").change(function () {
+	$("input[id='allIp']").change(function () {
         // bAllIsChecked = true;
-        // $("input[value='ip']").attr("checked", $(this).attr("checked"));
+		console.log($("input[id='allIp']").hasAttr("checked"));
+		if ($("input[id='allIp']").hasAttr("checked"))
+			$("input[value='ip']").removeAttr("checked");
+		else
+			$("input[value='ip']").attr("checked", $(this).attr("checked"));
+		
 		// loadList();
-    // });
+		test();
+    });
 
 	// $("input[type='checkbox']").change(cbChanged);
 
@@ -116,6 +111,7 @@ $(function () {
 
 
 	// loadMap(0);
+	test();
 });
 
 function loadMap(code) {
@@ -156,8 +152,10 @@ function loadInfo(url, code) {
         success: function (data) {
             $(data.municipalities.municipality).each(function () {
                 municipalitiesInfo[this.knnr] = this;
-            });
 
+            });
+		if(code == 1)
+			console.log("har laddat data för kod "+code);
             loadList(code);
         }, error: function (xhr, status, error) {
             $("#loader").hide();
@@ -181,8 +179,12 @@ function loadList(code) {
 		cntWithWarning = 0;
 		cntWithError = 0;
 		cntRecursive = 0;
-
+		
+		if(code == 1)
+			console.log("loadList koden är "+code);
 		$(municipalities).each(function () {
+			if(this.knnr.toString() == "area005")
+				console.log("laddat area005");
 			addPolygon(this, code);
 		});
 
@@ -289,8 +291,8 @@ function addPolygon(municipality, code) {
 			if ($("#dns").is(':checked') && !info.ipDns) { show = false; }
 			if ($("#mail").is(':checked') && !info.ipMail) { show = false; }
 			color = "0f0";
-			if ($("#tabs input[type='checkbox']:checked").size() == 0 && (!info.ipWww || !info.ipDns || !info.ipMail)) color = "f90";
-			if ($("#tabs input[type='checkbox']:checked").size() == 0 && (!info.ipWww && !info.ipDns && !info.ipMail)) color = "f00";
+			if ($("#tabs input[class='filters']:checked").size() == 0 && (!info.ipWww || !info.ipDns || !info.ipMail)) color = "f90";
+			if ($("#tabs input[class='filters']:checked").size() == 0 && (!info.ipWww && !info.ipDns && !info.ipMail)) color = "f00";
 		}
 		
 		if (!show) {
@@ -298,6 +300,8 @@ function addPolygon(municipality, code) {
 			polygons[info.knnr].setOptions({ fillOpacity: 0.0, strokeWeight: 0.5 });
 		}
 		else {
+				if(knnr == "area005")
+					console.log("koden är "+code);
 			if (polygons[info.knnr] == null) {
 				polygons[info.knnr] = new google.maps.Polygon({
 					paths: polyCoords,
@@ -309,41 +313,49 @@ function addPolygon(municipality, code) {
 					countryCode: code
 				});
 				polygons[info.knnr].setMap(map);
+				
+				if(knnr == "area005")
+					console.log("area005 var null och fick kod: "+polygons[info.knnr].countryCode);
+				
 
 			}
 			else {
+				if(knnr == "area005")
+					console.log("area005s kod: "+polygons[info.knnr].countryCode);
+
 				if (polygons[info.knnr].countryCode == code) {
 	                polygons[info.knnr].setOptions({ strokeWeight: color == "fff" ? 0.5 : 0.5, fillOpacity: color == "fff" ? 0 : opacityOfPolygon, fillColor: "#" + color });
 					polygons[info.knnr].setMap(map);
+					if(knnr == "area005")
+						console.log("satt map");
 				}
 			}
 		}
 
-		
-        google.maps.event.addListener(polygons[info.knnr], "click", function (event) {
-            var vertices = this.getPath();
-            var contentString = "<h3>" + (info == null ? knnr : info.name) + "</h3>";
+        // google.maps.event.addListener(polygons[info.knnr], "click", function (event) {
+            // var vertices = this.getPath();
+            // var contentString = "<h3>" + (info == null ? knnr : info.name) + "</h3>";
 
-            var dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_1")?>";
-            if (info.dnsSecSigned) dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_2")?>";
-            if (info.dnsSecSigned && hasWarnings) dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_3")?>";
-            if (!info.dnsSecSigned && (hasWarnings || hasErrors)) dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_4")?>";
-            if (hasErrors) dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_5")?>";
+            // var dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_1")?>";
+            // if (info.dnsSecSigned) dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_2")?>";
+            // if (info.dnsSecSigned && hasWarnings) dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_3")?>";
+            // if (!info.dnsSecSigned && (hasWarnings || hasErrors)) dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_4")?>";
+            // if (hasErrors) dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_5")?>";
 
-            contentString += "<b>DNSSEC</b>: " + dnsString + "<br />";
-            contentString += "<b><?php echo getTranslatedItem("SITE_CONTACT")?></b>: " + info.contact + "<br />";
-            if (info.isRecursive) contentString += "<?php echo getTranslatedItem("DNS_RECURSIVE")?><br />";
-            contentString += generateListFromArray("<?php echo getTranslatedItem("DNSSEC_WARNINGS")?>", info.warnings);
-            contentString += generateListFromArray("<?php echo getTranslatedItem("DNSSEC_ERRORS")?>", info.errors);
-            contentString += generateListFromArray("<?php echo getTranslatedItem("DNSSEC_DNSLIST")?>", info.dnsList);
-            if (info.url != null) {
-                contentString += "<br /><?php echo getTranslatedItem("VISIT")?>: <small><a href=\"http://" + info.url + "\" target=\"_blank\">" + info.url + "</a></small><br />";
-            }
-            infowindow.setContent(contentString);
-            infowindow.setPosition(event.latLng);
+            // contentString += "<b>DNSSEC</b>: " + dnsString + "<br />";
+            // contentString += "<b><?php echo getTranslatedItem("SITE_CONTACT")?></b>: " + info.contact + "<br />";
+            // if (info.isRecursive) contentString += "<?php echo getTranslatedItem("DNS_RECURSIVE")?><br />";
+            // contentString += generateListFromArray("<?php echo getTranslatedItem("DNSSEC_WARNINGS")?>", info.warnings);
+            // contentString += generateListFromArray("<?php echo getTranslatedItem("DNSSEC_ERRORS")?>", info.errors);
+            // contentString += generateListFromArray("<?php echo getTranslatedItem("DNSSEC_DNSLIST")?>", info.dnsList);
+            // if (info.url != null) {
+                // contentString += "<br /><?php echo getTranslatedItem("VISIT")?>: <small><a href=\"http://" + info.url + "\" target=\"_blank\">" + info.url + "</a></small><br />";
+            // }
+            // infowindow.setContent(contentString);
+            // infowindow.setPosition(event.latLng);
 
-            infowindow.open(map);
-        });
+            // infowindow.open(map);
+        // });
     }
 
 
@@ -384,4 +396,16 @@ function clearMap(code) {
 			}
 		});
 	});
+}
+
+function checkBox() {
+	var boxes = document.getElementsByName('country[]');
+	var boxes2 = document.getElementsByName('country2[]');
+	$.each(boxes, function(index) {
+		if(boxes[index].checked == true || boxes2[index].checked == true) {
+			boxes[index].checked = true;
+			boxes2[index].checked = true;
+		}
+	});
+	test();
 }

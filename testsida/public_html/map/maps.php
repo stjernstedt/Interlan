@@ -62,10 +62,10 @@
 						<br>
 					</div>
 
-                    <input type="checkbox" value="ip" id="www" onclick="test()" /> <?php echo getTranslatedItem("IPV6_WEB") ?><br />
-                    <input type="checkbox" value="ip" id="dns"/> <?php echo getTranslatedItem("IPV6_DNS") ?><br />
-                    <input type="checkbox" value="ip" id="mail" /> <?php echo getTranslatedItem("IPV6_MX") ?><br /><br />
-                    <input type="checkbox" value="allIp" id="allIp" /> <?php echo getTranslatedItem("IPV6_ALL") ?><br />
+                    <input type="checkbox" class="filters" value="ip" id="www" onclick="test()" /> <?php echo getTranslatedItem("IPV6_WEB") ?><br />
+                    <input type="checkbox" class="filters" value="ip" id="dns" onclick="test()"/> <?php echo getTranslatedItem("IPV6_DNS") ?><br />
+                    <input type="checkbox" class="filters" value="ip" id="mail" onclick="test()" /> <?php echo getTranslatedItem("IPV6_MX") ?><br /><br />
+                    <input type="checkbox" class="filters" value="allIp" id="allIp" onclick="test()" /> <?php echo getTranslatedItem("IPV6_ALL") ?><br />
                 </p>
                 <p>
 					<?php echo getTranslatedItem("IPV6_OLDSITE")?>
