@@ -1,9 +1,11 @@
 <?php
 	require_once "lang.php";
 ?>
+
 var countryDir = "data/sverige/";
 var map;
 var municipalitiesTagMap = {};
+var municipalitiesInfoByCountry = new Array();
 var municipalitiesInfo = {};
 var polygons = {};
 var countries = {};
@@ -13,11 +15,21 @@ var opacityOfPolygon = 0.8;
 
 var lastSelectedDate = "";
 
+var	municipalitiesByCountry = {};
 var municipalities = new Array();
 
 function test() {
-	municipalities = new Array();
+
+	var today = new Date(new Date().getTime() - (24 * 60 * 60 * 1000));
+	var dd = today.getDate();
+	var mm = today.getMonth() + 1;
+
+	var yyyy = today.getFullYear();
+	if (dd < 10) { dd = '0' + dd } if (mm < 10) { mm = '0' + mm } today = yyyy + mm + dd;
+	lastSelectedDate = today;
+
 	countries = {};
+	municipalitiesByCountry = {};
 	var boxes = document.getElementsByName('country[]');
 	$.each(boxes, function(index, box) {
 		if (this.checked == true) {
@@ -33,11 +45,18 @@ function test() {
 		clearMap("null");
  	clearMap(countries);
 
-	$.each(countries, function() {
+var test =	$.each(countries, function() {
 		countryDir = "data/"+this.country+"/";
 		coordfilename = "liten.json."+this.country;
 		loadMap(this.code);
+		loadInfo(countryDir + today + ".json", this.code);
 	});
+	$.when(test).done(function () {
+		$.each(countries, function() {
+			loadList(this.code);
+		});
+	});
+
 }
  
  $.when(test()).done(function () {
@@ -83,7 +102,6 @@ $(function () {
 
 	$("input[id='allIp']").change(function () {
         // bAllIsChecked = true;
-		console.log($("input[id='allIp']").hasAttr("checked"));
 		if ($("input[id='allIp']").hasAttr("checked"))
 			$("input[value='ip']").removeAttr("checked");
 		else
@@ -115,11 +133,13 @@ $(function () {
 });
 
 function loadMap(code) {
+	municipalities = new Array();
+
    $.ajax({
+        async: false,
         type: "GET",
         url: coordfilename + "?_=" + new Date().getTime(),
         dataType: "json",
-        async: false,
         success: function (d) {
 			if(d.features) {
 				$(d.features).each(function () {
@@ -130,20 +150,18 @@ function loadMap(code) {
 					municipalities.push(this);
 				});			
 			}
-            var today = new Date(new Date().getTime() - (24 * 60 * 60 * 1000));
-            var dd = today.getDate();
-            var mm = today.getMonth() + 1;
-
-            var yyyy = today.getFullYear();
-            if (dd < 10) { dd = '0' + dd } if (mm < 10) { mm = '0' + mm } today = yyyy + mm + dd;
-			lastSelectedDate = today;
-            loadInfo(countryDir + today + ".json?_=" + new Date().getTime(), code);
-        }
+        },
+		complete: function() {
+			municipalitiesByCountry[code] = municipalities;
+		}
     });
 }
 
 function loadInfo(url, code) {
+	municipalitiesInfo = {};
+
     $.ajax({
+		async: false,
         type: "GET",
         url: url,
         dataType: "json",
@@ -154,12 +172,13 @@ function loadInfo(url, code) {
                 municipalitiesInfo[this.knnr] = this;
 
             });
-		if(code == 1)
-			console.log("har laddat data för kod "+code);
-            loadList(code);
         }, error: function (xhr, status, error) {
             $("#loader").hide();
-        }
+        },
+		complete: function() {
+			municipalitiesInfoByCountry[code] = municipalitiesInfo;
+		}
+
     });
 }
 
@@ -180,12 +199,10 @@ function loadList(code) {
 		cntWithError = 0;
 		cntRecursive = 0;
 		
-		if(code == 1)
-			console.log("loadList koden är "+code);
-		$(municipalities).each(function () {
-			if(this.knnr.toString() == "area005")
-				console.log("laddat area005");
-			addPolygon(this, code);
+		$.each(municipalitiesByCountry, function () {
+			$(this).each(function () {
+				addPolygon(this, code);
+			});
 		});
 
         var dnsCheckInfoString = "<?php echo getTranslatedItem("DNSCHECK_RESULT")?>";
@@ -201,11 +218,13 @@ function loadList(code) {
 }
 
 function addPolygon(municipality, code) {
-	if (typeof municipality.knnr === 'undefined')
+	if (typeof municipality.knnr === 'undefined') {
 		var knnr = municipality.properties.code.toString();
+	}
 	else
 		var knnr = municipality.knnr.toString();
-    var info = municipalitiesInfo[knnr];
+    var info = municipalitiesInfoByCountry[code][knnr];
+
 
     if (info != null) {
 
@@ -300,8 +319,6 @@ function addPolygon(municipality, code) {
 			polygons[info.knnr].setOptions({ fillOpacity: 0.0, strokeWeight: 0.5 });
 		}
 		else {
-				if(knnr == "area005")
-					console.log("koden är "+code);
 			if (polygons[info.knnr] == null) {
 				polygons[info.knnr] = new google.maps.Polygon({
 					paths: polyCoords,
@@ -313,21 +330,11 @@ function addPolygon(municipality, code) {
 					countryCode: code
 				});
 				polygons[info.knnr].setMap(map);
-				
-				if(knnr == "area005")
-					console.log("area005 var null och fick kod: "+polygons[info.knnr].countryCode);
-				
-
 			}
 			else {
-				if(knnr == "area005")
-					console.log("area005s kod: "+polygons[info.knnr].countryCode);
-
 				if (polygons[info.knnr].countryCode == code) {
 	                polygons[info.knnr].setOptions({ strokeWeight: color == "fff" ? 0.5 : 0.5, fillOpacity: color == "fff" ? 0 : opacityOfPolygon, fillColor: "#" + color });
 					polygons[info.knnr].setMap(map);
-					if(knnr == "area005")
-						console.log("satt map");
 				}
 			}
 		}
