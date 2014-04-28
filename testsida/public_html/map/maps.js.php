@@ -163,7 +163,8 @@ function loadInfo(url, code) {
     $.ajax({
 		async: false,
         type: "GET",
-        url: url,
+        // url: url,
+        url: "createJson.php",
         dataType: "json",
         cache: false,
         contentType: "application/json",
