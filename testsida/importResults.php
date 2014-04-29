@@ -1,6 +1,7 @@
 <?php
-	$conn = mysql_connect("localhost", "root");
-	mysql_select_db("interlan");
+	$conn = mysql_connect("localhost", "root", "1q2w3e4r") or die("cannot connect");
+	mysql_select_db("test");
+	mysql_query("SET NAMES utf8");
 	
 	function formatEmail($email){
 		if($email == "") return "";
@@ -24,46 +25,41 @@
 		return $str;
 	}
 	
-	// $files = scandir("D:/Development/Interlan/resultat");
-	$file = file("D:/Development/Interlan/resultat/20140305.txt");
-	
-	foreach ($file as $line) {
-		$data = str_getcsv($line, ",");
+	$scandir = "/usr/local/var/kommun/resultat";
+	$files = scandir($scandir);
+	$files = array_diff($files, array('.', '..'));
 
-		$dns = array();
-		$domain = $data[0];
-		($data[1] == "yes") ? $dnssec = true : $dnssec = false;
-		($data[2] == "yes") ? $rec = true : $rec = false;
-		$errors = $data[3];
-		$warnings = $data[4];
-		$mail = formatEmail(removeEndingDot($data[5]));
-	
-		for ($i = 6;$i < count($data); $i++) {
-				if( trim($data[$i]) != "" ){
-					array_push( $dns, removeEndingDot($data[$i]));
-				}
-		}
-		$dnsarr = serialize($dns);
+	foreach ($files as $loadedFile) {
+		$year = substr($loadedFile, 0, 4);
+		$month = substr($loadedFile, 4, 2);
+		$day = substr($loadedFile, 6, 2);
+		$strDate = $day . "-" . $month . "-" . $year;
+		$date = date("Y-m-d", strtotime($strDate));
+
+		$file = file($scandir . "/" . $loadedFile);
+		foreach ($file as $line) {
+			$data = str_getcsv($line, ",");
+
+			$dns = array();
+			$domain = $data[0];
+			($data[1] == "yes") ? $dnssec = true : $dnssec = false;
+			($data[2] == "yes") ? $rec = true : $rec = false;
+			$errors = $data[3];
+			$warnings = $data[4];
+			$mail = formatEmail(removeEndingDot($data[5]));
 		
-		$query = "INSERT INTO status (sDomain, sDnssec, sRecursive, sErrors, sWarnings, sMail, sDns) VALUES ('$domain', '$dnssec', '$rec', '$errors', '$warnings', '$mail', '$dnsarr')";
-		mysql_query($query) or die(mysql_error());
+			for ($i = 6;$i < count($data); $i++) {
+					if( trim($data[$i]) != "" ){
+						array_push( $dns, removeEndingDot($data[$i]));
+					}
+			}
+			$dnsarr = serialize($dns);
+			
+			$query = "INSERT INTO status (sDomain, sDnssec, sRecursive, sErrors, sWarnings, sMail, sDns, sInsDate) VALUES ('$domain', '$dnssec', '$rec', '$errors', '$warnings', '$mail', '$dnsarr', '$date')";
+			mysql_query($query) or die(mysql_error());
 
+		}
 	}
-	// foreach ($files as $loadedFile) {
-		// $file = file($files . "/" . $loadedFile);
-		// foreach ($file as $line) {
-			// $data = str_getcsv($line, ",");
-
-			// $domain = $data[0];
-			// if ($data[1] != null) $dnssec = $data[1];
-			// if ($data[2] != null) $rec = $data[2];
-			// if ($data[3] != null) $errors = $data[3];
-			// if ($data[4] != null) $warnings = $data[4];
-			// if ($data[5] != null) $mail = $data[5];
-			// if ($data[1] != null) $dnssec = $data[1];
-
-		// }
-	// }
 	
 	mysql_close($conn);
 ?>

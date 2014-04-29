@@ -1,7 +1,16 @@
 #!/bin/sh
+basedir=/usr/local/var
 
-resultdir="$country/results/$target"
-historydir="$country/history/$target"
+resultdir="$basedir/$country/results/$target"
+historydir="$basedir/$country/history/$target"
+if [ ! -d "$basedir/$country/results/$target" ] ; then
+	mkdir -p "$basedir/$country/results/$target"
+fi
+
+if [ ! -d "$basedir/$country/history/$target" ] ; then
+	mkdir -p "$basedir/$country/history/$target"
+fi
+
 date=`date +"%Y%m%d"`
 
 #kör dnscheck mot definerad lista

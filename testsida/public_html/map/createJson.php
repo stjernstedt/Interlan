@@ -2,12 +2,14 @@
 	header('Content-Type: application/json');
 	$conn = mysql_connect("localhost", "root");
 	mysql_select_db("interlan");
-	mysql_query("SET NAMES 'UTF8'");
-	mysql_set_charset("UTF8");
+	mysql_query("SET NAMES utf8");
 	
 	$jsonData = array();
 
-	$query = "SELECT sDomain, sDnssec, sRecursive, sMail, sDns FROM status";
+	// $query = "SELECT sDomain, sDnssec, sRecursive, sMail, sDns FROM status";
+	$query = "SELECT sDomain, sDnssec, sRecursive, sMail, sDns FROM status " .
+	"INNER JOIN municipalities ON sDomain = mDomain " .
+	"INNER JOIN ipv6 ON sDomain = iDomain";
 	$statusResult = mysql_query($query) or die(mysql_error());
 
 	$date = "2014-01-01";
@@ -28,11 +30,11 @@
 	}
 	
 	while($line = mysql_fetch_array($statusResult, MYSQL_ASSOC)) {
-		$query = "SELECT mId, mCode, mName FROM municipalities WHERE mDomain LIKE '$line[sDomain]'";
-		$result = mysql_fetch_array(mysql_query($query));
+		// $query = "SELECT mId, mCode, mName FROM municipalities WHERE mDomain LIKE '$line[sDomain]'";
+		// $result = mysql_fetch_array(mysql_query($query));
 		
-		$query = "SELECT iTruedns6, iTruemx6, iTruewww6 FROM ipv6 WHERE iDomain LIKE '$line[sDomain]' AND iInsDate LIKE '$date%'";
-		$ipv6Result = mysql_fetch_array(mysql_query($query));
+		// $query = "SELECT iTruedns6, iTruemx6, iTruewww6 FROM ipv6 WHERE iDomain LIKE '$line[sDomain]' AND iInsDate LIKE '$date%'";
+		// $ipv6Result = mysql_fetch_array(mysql_query($query));
 		
 		$warn = array();
 		if(isset($warnings[$result['mId']])) {
@@ -58,15 +60,15 @@
 		}
 
 		$data = array(
-		"knnr" => $result['mCode'],
-		"name" => $result['mName'],
+		"knnr" => $line['mCode'],
+		"name" => $line['mName'],
 		"url" => $line['sDomain'],
 		"contact" => $line['sMail'],
 		"dnsSecSigned" => $line['sDnssec'],
 		"isRecursive" => $line['sRecursive'],
-		"ipWww" => $ipv6Result['iTruewww6'],
-		"ipDns" => $ipv6Result['iTruedns6'],
-		"ipMail" => $ipv6Result['iTruemx6'],
+		"ipWww" => $line['iTruewww6'],
+		"ipDns" => $line['iTruedns6'],
+		"ipMail" => $line['iTruemx6'],
 		"dnsList" => $dns,
 		"errors" => $err,
 		"warnings" => $warn,
