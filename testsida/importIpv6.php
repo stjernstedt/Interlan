@@ -3,47 +3,8 @@
 	mysql_select_db("test") or die("cannot select database");
 	mysql_query("SET NAMES utf8");
 
-	// $files = scandir("d:/development/interlan/testsida/20140101");
-	// $files = array_diff($files, array('.', '..'));
-
-	// $year = substr($loadedDir, 0, 4);
-	// $month = substr($loadedDir, 4, 2);
-	// $day = substr($loadedDir, 6, 2);
-	// $strDate = $day . "-" . $month . "-" . $year;
-	// $date = date("Y-m-d", strtotime($strDate));
-	// $date = "2014-01-01";
-
-	// $dns6 = 0;
-	// $errdns6 = 0;
-	// $truedns6 = 0;
-	// $mx6 = 0;
-	// $errmx6 = 0;
-	// $truemx6 = 0;
-	// $www6 = 0;
-	// $errwww6 = 0;
-	// $truewww6 = 0;
-	
-	// foreach ($files as $loadedFile) {
-	
-		
-		// $file = file("d:/development/interlan/testsida/20140101/" . $loadedFile);
-		// ${$loadedFile} = 1;
-		// foreach ($file as $line) {
-			// $domain = trim($line);
-			// $query = "SELECT iId FROM ipv6 WHERE iDomain LIKE '$domain'";
-			// $result = mysql_query($query);
-			// $val = ${$loadedFile};
-			// if(mysql_fetch_array($result) == null) {
-				// $query = "INSERT INTO ipv6 (iDomain, i$loadedFile, iInsDate) VALUES ('$domain', '$val', '$date')";
-				// mysql_query($query) or die(mysql_error());
-			// } else {
-				// $query = "UPDATE ipv6 SET i$loadedFile=$val WHERE iDomain LIKE '$domain'";
-				// mysql_query($query) or die(mysql_error());
-			// }
-		// }
-	// }
-
 	$scandir = "/usr/local/var/kommun/ipv6/";
+	// $scandir = "C:/Users/Matte/Desktop/temp/interlan/special/public_html/kipv6/script/history/";
 
 	$dirs = scandir($scandir);
 	$dirs = array_diff($dirs, array('.', '..'));
@@ -58,43 +19,51 @@
 		$strDate = $day . "-" . $month . "-" . $year;
 		$date = date("Y-m-d", strtotime($strDate));
 
-		$dns6 = 0;
-		$errdns6 = 0;
-		$truedns6 = 0;
-		$mx6 = 0;
-		$errmx6 = 0;
-		$truemx6 = 0;
-		$www6 = 0;
-		$errwww6 = 0;
-		$truewww6 = 0;
-
-		$domains = array(array());
+		$dns6 = array();
+		$errdns6 = array();
+		$truedns6 = array();
+		$mx6 = array();
+		$errmx6 = array();
+		$truemx6 = array();
+		$www6 = array();
+		$errwww6 = array();
+		$truewww6 = array();
+		
+		$columns = array("dns6","errdns6","truedns6","mx6","errmx6","truemx6","www6","errwww6","truewww6");
+		$lol = array("test", "test2");
+		
 		foreach ($files as $loadedFile) {
 			$file = file($scandir . $loadedDir . "/" . $loadedFile);
-			${$loadedFile} = 1;
 			
+			$domain = array();
 			foreach ($file as $line) {
 				$domain = trim($line);
-				// $query = "SELECT iId FROM ipv6 WHERE iDomain LIKE '$domain' AND iInsDate LIKE '$date%'";
-				// $result = mysql_query($query);
-				$val = ${$loadedFile};
-				$domainData
-				$domains[domain] = $val;
-				// if(mysql_fetch_array($result) == null) {
-					// $query = "INSERT INTO ipv6 (iDomain, i$loadedFile, iInsDate) VALUES ('$domain', '$val', '$date')";
-					// mysql_query($query) or die(mysql_error());
-				// } else {
-					// $query = "UPDATE ipv6 SET i$loadedFile=$val WHERE iDomain LIKE '$domain'";
-					// mysql_query($query) or die(mysql_error());
-				// }
+				${$loadedFile}[$domain] = 1;
+			}
+		}
+
+		$domains = array();
+		foreach ($columns as $column) {
+			foreach (${$column} as $dom => $val) {
+				$varName = str_replace(".", "_", $dom);
+				if (!isset(${$varName})) {
+					${$varName} = array($column => $val);
+				} else {
+					${$varName}[$column] = $val;
+				}
+			$domains[$varName] = ${$varName};
 			}
 		}
 		
-		foreach ($domains as $dom) {
-			print_r($dom);
+		foreach ($domains as $dom => $val) {
+			$domName = str_replace("_", ".", $dom);
+			foreach ($columns as $column) {
+				if(isset($val[$column])) ${"val" . $column} = 1; else ${"val" . $column} = 0;
+			}
+			$query = "INSERT INTO ipv6 (iDomain, iDns6, iErrdns6, iTruedns6, iMx6, iErrmx6, iTruemx6, iWww6, iErrwww6, iTruewww6, iInsDate) VALUES ('$domName', '$valdns6', '$valerrdns6', '$valtruedns6', '$valmx6', '$valerrmx6', '$valtruemx6', '$valwww6', '$valerrwww6', '$valtruewww6', '$date')";
+			mysql_query($query) or die(mysql_error());
+			${$dom} = null;
 		}
-		
-		
 	}
 	
 	mysql_close($conn);
