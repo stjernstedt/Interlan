@@ -23,8 +23,8 @@ function test() {
 	var today = new Date(new Date().getTime() - (24 * 60 * 60 * 1000));
 	var dd = today.getDate();
 	var mm = today.getMonth() + 1;
-
 	var yyyy = today.getFullYear();
+	
 	if (dd < 10) { dd = '0' + dd } if (mm < 10) { mm = '0' + mm } today = yyyy + mm + dd;
 	lastSelectedDate = today;
 
@@ -45,23 +45,22 @@ function test() {
 		clearMap("null");
  	clearMap(countries);
 
-var test =	$.each(countries, function() {
+	loadData(yyyy+"-"+mm+"-"+dd);
+}
+
+function loadData(date) {
+	var test =	$.each(countries, function() {
 		countryDir = "data/"+this.country+"/";
 		coordfilename = "liten.json."+this.country;
 		loadMap(this.code);
-		loadInfo(countryDir + today + ".json", this.code);
+		loadInfo(date, this.code);
 	});
 	$.when(test).done(function () {
 		$.each(countries, function() {
 			loadList(this.code);
 		});
 	});
-
 }
- 
- $.when(test()).done(function () {
- });
-
 
 // function cbChanged(){
 	// if(!bAllIsChecked){
@@ -89,15 +88,17 @@ $(function () {
         defaultDate: -1,
         autoSize: true,
         firstDay: 1,
-        dateFormat: 'yymmdd',
+        dateFormat: 'yy-mm-dd',
         onSelect: function (dateText, inst) {
             $("#loader").show();
             lastSelectedDate = dateText;
-            loadInfo(countryDir + dateText + ".json?date=" + dateText + "&_=" + new Date().getTime());
-        },
+            // loadInfo(countryDir + dateText + ".json?date=" + dateText + "&_=" + new Date().getTime());
+			// loadInfo(dateText);
+			loadData(dateText);
+		},
         monthNames: [<?php echo getTranslatedItem("MONTH_NAMES_LONG") ?>],
         monthNamesShort : [<?php echo getTranslatedItem("MONTH_NAMES_SHORT") ?>],
-        dayNamesMin: [<?php echo getTranslatedItem("DAY_NAMES_SHORT") ?>]
+        dayNamesMin: [<?php echo getTranslatedItem("DAY_NAMES_SHORT") ?>],
     });
 
 	$("input[id='allIp']").change(function () {
@@ -157,21 +158,20 @@ function loadMap(code) {
     });
 }
 
-function loadInfo(url, code) {
+function loadInfo(date, code) {
 	municipalitiesInfo = {};
 
     $.ajax({
 		async: false,
         type: "GET",
         // url: url,
-        url: "createJson.php",
+        url: "createJson.php?date=" + date,
         dataType: "json",
         cache: false,
         contentType: "application/json",
         success: function (data) {
             $(data.municipalities.municipality).each(function () {
                 municipalitiesInfo[this.knnr] = this;
-
             });
         }, error: function (xhr, status, error) {
             $("#loader").hide();
@@ -225,7 +225,6 @@ function addPolygon(municipality, code) {
 	else
 		var knnr = municipality.knnr.toString();
     var info = municipalitiesInfoByCountry[code][knnr];
-
 
     if (info != null) {
 

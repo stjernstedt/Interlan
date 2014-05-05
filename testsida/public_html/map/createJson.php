@@ -6,13 +6,16 @@
 	
 	$jsonData = array();
 
-	// $query = "SELECT sDomain, sDnssec, sRecursive, sMail, sDns FROM status";
-	$query = "SELECT sDomain, sDnssec, sRecursive, sMail, sDns FROM status " .
-	"INNER JOIN municipalities ON sDomain = mDomain " .
-	"INNER JOIN ipv6 ON sDomain = iDomain";
+	// $date = "2014-01-01";
+	$date = $_GET['date'];
+
+	$query = "SELECT sDomain, sDnssec, sRecursive, sMail, sDns, iTruedns6, iTruemx6, iTruewww6, mId, mCode, mName FROM status " .
+	"LEFT JOIN municipalities ON sDomain = mDomain " .
+	"LEFT JOIN ipv6 ON sDomain = iDomain AND iInsDate LIKE '$date%' " .
+	"WHERE sInsDate LIKE '2014-01-01%'";
+	
 	$statusResult = mysql_query($query) or die(mysql_error());
 
-	$date = "2014-01-01";
 	$query = "SELECT lData, lMunicipalityId FROM logs WHERE lType LIKE 'WARNING' AND lInsDate LIKE '$date%'";
 	$warningsResult = mysql_query($query) or die(mysql_error());
 	$warnings = array();
@@ -30,23 +33,17 @@
 	}
 	
 	while($line = mysql_fetch_array($statusResult, MYSQL_ASSOC)) {
-		// $query = "SELECT mId, mCode, mName FROM municipalities WHERE mDomain LIKE '$line[sDomain]'";
-		// $result = mysql_fetch_array(mysql_query($query));
-		
-		// $query = "SELECT iTruedns6, iTruemx6, iTruewww6 FROM ipv6 WHERE iDomain LIKE '$line[sDomain]' AND iInsDate LIKE '$date%'";
-		// $ipv6Result = mysql_fetch_array(mysql_query($query));
-		
 		$warn = array();
-		if(isset($warnings[$result['mId']])) {
-			foreach ($warnings[$result['mId']] as $post) {
+		if(isset($warnings[$line['mId']])) {
+			foreach ($warnings[$line['mId']] as $post) {
 				$tmp = array("description" => $post);
 				array_push($warn, $tmp);
 			}
 		}
 
 		$err = array();
-		if(isset($errors[$result['mId']])) {
-			foreach ($errors[$result['mId']] as $post) {
+		if(isset($errors[$line['mId']])) {
+			foreach ($errors[$line['mId']] as $post) {
 				$tmp = array("description" => $post);
 				array_push($err, $tmp);
 			}
@@ -73,13 +70,11 @@
 		"errors" => $err,
 		"warnings" => $warn,
 		);
+		
 		array_push($jsonData, $data);
 	}
 
 	$json = json_encode(array('municipalities' => array('municipality' => $jsonData)), JSON_PRETTY_PRINT);
-	// echo '<pre>';
-	// print_r($json);
-	// echo '</pre>';
 	
 	echo $json;
 	

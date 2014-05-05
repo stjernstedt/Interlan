@@ -1,7 +1,10 @@
 <?php
-	$conn = mysql_connect("localhost", "root", "1q2w3e4r") or die("cannot connect");
-	mysql_select_db("test");
+	// $conn = mysql_connect("localhost", "root", "1q2w3e4r") or die("cannot connect");
+	// mysql_select_db("test");
+	$conn = mysql_connect("localhost", "root") or die("cannot connect");
+	mysql_select_db("interlan");
 	mysql_query("SET NAMES utf8");
+	ini_set('max_execution_time', 300);
 	
 	function formatEmail($email){
 		if($email == "") return "";
@@ -25,7 +28,8 @@
 		return $str;
 	}
 	
-	$scandir = "/usr/local/var/kommun/resultat";
+	// $scandir = "/usr/local/var/kommun/resultat";
+	$scandir = "D:/Development/Interlan/testsida/resultat";
 	$files = scandir($scandir);
 	$files = array_diff($files, array('.', '..'));
 
