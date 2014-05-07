@@ -165,7 +165,7 @@ function loadInfo(date, code) {
 		async: false,
         type: "GET",
         // url: url,
-        url: "createJson.php?date=" + date,
+        url: "createJson.php?date=" + date + "&code=" + code,
         dataType: "json",
         cache: false,
         contentType: "application/json",
@@ -339,30 +339,30 @@ function addPolygon(municipality, code) {
 			}
 		}
 
-        // google.maps.event.addListener(polygons[info.knnr], "click", function (event) {
-            // var vertices = this.getPath();
-            // var contentString = "<h3>" + (info == null ? knnr : info.name) + "</h3>";
+        google.maps.event.addListener(polygons[info.knnr], "click", function (event) {
+            var vertices = this.getPath();
+            var contentString = "<h3>" + (info == null ? knnr : info.name) + "</h3>";
 
-            // var dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_1")?>";
-            // if (info.dnsSecSigned) dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_2")?>";
-            // if (info.dnsSecSigned && hasWarnings) dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_3")?>";
-            // if (!info.dnsSecSigned && (hasWarnings || hasErrors)) dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_4")?>";
-            // if (hasErrors) dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_5")?>";
+            var dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_1")?>";
+            if (info.dnsSecSigned) dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_2")?>";
+            if (info.dnsSecSigned && hasWarnings) dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_3")?>";
+            if (!info.dnsSecSigned && (hasWarnings || hasErrors)) dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_4")?>";
+            if (hasErrors) dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_5")?>";
 
-            // contentString += "<b>DNSSEC</b>: " + dnsString + "<br />";
-            // contentString += "<b><?php echo getTranslatedItem("SITE_CONTACT")?></b>: " + info.contact + "<br />";
-            // if (info.isRecursive) contentString += "<?php echo getTranslatedItem("DNS_RECURSIVE")?><br />";
-            // contentString += generateListFromArray("<?php echo getTranslatedItem("DNSSEC_WARNINGS")?>", info.warnings);
-            // contentString += generateListFromArray("<?php echo getTranslatedItem("DNSSEC_ERRORS")?>", info.errors);
-            // contentString += generateListFromArray("<?php echo getTranslatedItem("DNSSEC_DNSLIST")?>", info.dnsList);
-            // if (info.url != null) {
-                // contentString += "<br /><?php echo getTranslatedItem("VISIT")?>: <small><a href=\"http://" + info.url + "\" target=\"_blank\">" + info.url + "</a></small><br />";
-            // }
-            // infowindow.setContent(contentString);
-            // infowindow.setPosition(event.latLng);
+            contentString += "<b>DNSSEC</b>: " + dnsString + "<br />";
+            contentString += "<b><?php echo getTranslatedItem("SITE_CONTACT")?></b>: " + info.contact + "<br />";
+            if (info.isRecursive) contentString += "<?php echo getTranslatedItem("DNS_RECURSIVE")?><br />";
+            contentString += generateListFromArray("<?php echo getTranslatedItem("DNSSEC_WARNINGS")?>", info.warnings);
+            contentString += generateListFromArray("<?php echo getTranslatedItem("DNSSEC_ERRORS")?>", info.errors);
+            contentString += generateListFromArray("<?php echo getTranslatedItem("DNSSEC_DNSLIST")?>", info.dnsList);
+            if (info.url != null) {
+                contentString += "<br /><?php echo getTranslatedItem("VISIT")?>: <small><a href=\"http://" + info.url + "\" target=\"_blank\">" + info.url + "</a></small><br />";
+            }
+            infowindow.setContent(contentString);
+            infowindow.setPosition(event.latLng);
 
-            // infowindow.open(map);
-        // });
+            infowindow.open(map);
+        });
     }
 
 

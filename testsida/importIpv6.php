@@ -1,11 +1,14 @@
 <?php
-	$conn = mysql_connect("localhost", "root", "1q2w3e4r") or die("cannot connect");
-	mysql_select_db("test") or die("cannot select database");
+	// $conn = mysql_connect("localhost", "root", "1q2w3e4r") or die("cannot connect");
+	// mysql_select_db("test") or die("cannot select database");
+	$conn = mysql_connect("localhost", "root") or die("cannot connect");
+	mysql_select_db("interlan") or die("cannot select database");
 	mysql_query("SET NAMES utf8");
 
-	$scandir = "/usr/local/var/kommun/ipv6/";
+	// $scandir = "/usr/local/var/kommun/ipv6/";
 	// $scandir = "C:/Users/Matte/Desktop/temp/interlan/special/public_html/kipv6/script/history/";
-
+	$scandir = "d:/development/interlan/testsida/result/ipv6/";
+	
 	$dirs = scandir($scandir);
 	$dirs = array_diff($dirs, array('.', '..'));
 

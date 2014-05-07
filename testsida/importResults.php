@@ -29,7 +29,7 @@
 	}
 	
 	// $scandir = "/usr/local/var/kommun/resultat";
-	$scandir = "D:/Development/Interlan/testsida/resultat";
+	$scandir = "D:/Development/Interlan/testsida/result/dnssec";
 	$files = scandir($scandir);
 	$files = array_diff($files, array('.', '..'));
 

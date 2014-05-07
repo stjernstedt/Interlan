@@ -1,12 +1,16 @@
 <?php
-	$conn = mysql_connect("localhost", "root", "1q2w3e4r") or die("cannot connect");
-	mysql_select_db("test") or die("cannot select database");
+	// $conn = mysql_connect("localhost", "root", "1q2w3e4r") or die("cannot connect");
+	// mysql_select_db("test") or die("cannot select database");
+	$conn = mysql_connect("localhost", "root") or die("cannot connect");
+	mysql_select_db("interlan") or die("cannot select database");
 	mysql_query("SET NAMES utf8");
+	ini_set('max_execution_time', 300);
 
-	$regex1 = "/[.a-z]+\s[A-Z]+/";
+
+	$regex1 = "/[.a-z-]+\s[A-Z-]+/";
 	//$scandir = "history/";
-
-	$scandir = "/usr/local/var/kommun/dns/";
+	$scandir = "d:/development/interlan/testsida/result/dnscheck/";
+	// $scandir = "/usr/local/var/kommun/dns/";
 
 	$dirs = scandir($scandir);
 	$dirs = array_diff($dirs, array('.', '..'));

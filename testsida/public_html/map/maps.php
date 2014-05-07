@@ -33,9 +33,9 @@
 	            <p><?php echo getTranslatedItem("DOMAINS_THAT_ARE") ?> <br /><!-- outline: 2px solid #0f0; -->
 
  				<div id="Checkboxholder">
-					<input type="checkbox" class="country" onclick="test()" value=0 id="sverige" name="country[]" />Sverige<br>
-					<input type="checkbox" class="country" onclick="test()" value=1 id="finland" name="country[]" />Finland<br>
+					<input type="checkbox" class="country" onclick="test()" value=1 id="sverige" name="country[]" />Sverige<br>
 					<input type="checkbox" class="country" onclick="test()" value=2 id="norge" name="country[]" />Norge<br>
+					<input type="checkbox" class="country" onclick="test()" value=3 id="finland" name="country[]" />Finland<br>
 					<button type="button" onclick="clearMap('null')">Clear</button>
 					<br>
 				</div>

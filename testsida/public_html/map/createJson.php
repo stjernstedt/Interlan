@@ -8,11 +8,12 @@
 
 	// $date = "2014-01-01";
 	$date = $_GET['date'];
+	$code = trim($_GET['code']);
 
 	$query = "SELECT sDomain, sDnssec, sRecursive, sMail, sDns, iTruedns6, iTruemx6, iTruewww6, mId, mCode, mName FROM status " .
-	"LEFT JOIN municipalities ON sDomain = mDomain " .
+	"INNER JOIN municipalities ON sDomain = mDomain AND mCountryId = '$code' " .
 	"LEFT JOIN ipv6 ON sDomain = iDomain AND iInsDate LIKE '$date%' " .
-	"WHERE sInsDate LIKE '2014-01-01%'";
+	"WHERE sInsDate LIKE '$date%'";
 	
 	$statusResult = mysql_query($query) or die(mysql_error());
 
