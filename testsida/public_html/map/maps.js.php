@@ -2,12 +2,11 @@
 	require_once "lang.php";
 ?>
 
-var countryDir = "data/sverige/";
 var map;
 var municipalitiesTagMap = {};
 var municipalitiesInfoByCountry = new Array();
 var municipalitiesInfo = {};
-var polygons = {};
+var countryPolygons = {};
 var countries = {};
 var infoWindow;
 var coordfilename = "liten.json.sverige";
@@ -18,7 +17,7 @@ var lastSelectedDate = "";
 var	municipalitiesByCountry = {};
 var municipalities = new Array();
 
-function test() {
+function test(dateText) {
 
 	var today = new Date(new Date().getTime() - (24 * 60 * 60 * 1000));
 	var dd = today.getDate();
@@ -45,12 +44,12 @@ function test() {
 		clearMap("null");
  	clearMap(countries);
 
-	loadData(yyyy+"-"+mm+"-"+dd);
+	if (typeof dateText == 'undefined') {loadData(yyyy+"-"+mm+"-"+dd);}
+	else {loadData(dateText);}
 }
 
 function loadData(date) {
 	var test =	$.each(countries, function() {
-		countryDir = "data/"+this.country+"/";
 		coordfilename = "liten.json."+this.country;
 		loadMap(this.code);
 		loadInfo(date, this.code);
@@ -92,9 +91,8 @@ $(function () {
         onSelect: function (dateText, inst) {
             $("#loader").show();
             lastSelectedDate = dateText;
-            // loadInfo(countryDir + dateText + ".json?date=" + dateText + "&_=" + new Date().getTime());
-			// loadInfo(dateText);
-			loadData(dateText);
+			// loadData(dateText);
+			test(dateText);
 		},
         monthNames: [<?php echo getTranslatedItem("MONTH_NAMES_LONG") ?>],
         monthNamesShort : [<?php echo getTranslatedItem("MONTH_NAMES_SHORT") ?>],
@@ -164,7 +162,6 @@ function loadInfo(date, code) {
     $.ajax({
 		async: false,
         type: "GET",
-        // url: url,
         url: "createJson.php?date=" + date + "&code=" + code,
         dataType: "json",
         cache: false,
@@ -200,12 +197,13 @@ function loadList(code) {
 		cntWithError = 0;
 		cntRecursive = 0;
 		
-		$.each(municipalitiesByCountry, function () {
+		countryPolygons[code] = {}
+		$.each(municipalitiesByCountry[code], function () {
 			$(this).each(function () {
 				addPolygon(this, code);
 			});
 		});
-
+		
         var dnsCheckInfoString = "<?php echo getTranslatedItem("DNSCHECK_RESULT")?>";
         dnsCheckInfoString = dnsCheckInfoString.replace(/\{0\}/, cntTotalDomains.toString());
         dnsCheckInfoString = dnsCheckInfoString.replace(/\{1\}/, lastSelectedDate);
@@ -224,7 +222,10 @@ function addPolygon(municipality, code) {
 	}
 	else
 		var knnr = municipality.knnr.toString();
-    var info = municipalitiesInfoByCountry[code][knnr];
+	
+	var info = municipalitiesInfoByCountry[code][knnr];
+	
+	var polyCoords = new Array();
 
     if (info != null) {
 
@@ -237,8 +238,6 @@ function addPolygon(municipality, code) {
 			if( info.isRecursive ) cntRecursive++;
 		}
 		catch(e){}
-
-        var polyCoords = new Array();
 
 		if(typeof municipality.geometry !== 'undefined') {
 			if(municipality.geometry.geometries) {
@@ -315,12 +314,11 @@ function addPolygon(municipality, code) {
 		}
 		
 		if (!show) {
-		if (polygons[info.knnr] != null)
-			polygons[info.knnr].setOptions({ fillOpacity: 0.0, strokeWeight: 0.5 });
-		}
-		else {
-			if (polygons[info.knnr] == null) {
-				polygons[info.knnr] = new google.maps.Polygon({
+			if (countryPolygons[code][info.knnr] != null)
+				countryPolygons[code][info.knnr].setOptions({ fillOpacity: 0.0, strokeWeight: 0.5 });
+		} else {
+			if (countryPolygons[code][info.knnr] == null) {
+				countryPolygons[code][info.knnr] = new google.maps.Polygon({
 					paths: polyCoords,
 					strokeColor: "#000",
 					strokeOpacity: 0.8,
@@ -329,17 +327,14 @@ function addPolygon(municipality, code) {
 					fillOpacity: color == "fff" ? 0 : opacityOfPolygon,
 					countryCode: code
 				});
-				polygons[info.knnr].setMap(map);
-			}
-			else {
-				if (polygons[info.knnr].countryCode == code) {
-	                polygons[info.knnr].setOptions({ strokeWeight: color == "fff" ? 0.5 : 0.5, fillOpacity: color == "fff" ? 0 : opacityOfPolygon, fillColor: "#" + color });
-					polygons[info.knnr].setMap(map);
-				}
+				countryPolygons[code][info.knnr].setMap(map);
+			} else if (countryPolygons[code][info.knnr].countryCode == code) {
+				countryPolygons[code][info.knnr].setOptions({ strokeWeight: color == "fff" ? 0.5 : 0.5, fillOpacity: color == "fff" ? 0 : opacityOfPolygon, fillColor: "#" + color });
+				countryPolygons[code][info.knnr].setMap(map);
 			}
 		}
 
-        google.maps.event.addListener(polygons[info.knnr], "click", function (event) {
+        google.maps.event.addListener(countryPolygons[code][info.knnr], "click", function (event) {
             var vertices = this.getPath();
             var contentString = "<h3>" + (info == null ? knnr : info.name) + "</h3>";
 
@@ -394,13 +389,15 @@ function generateListFromArray(title, arr) {
 }
 
 function clearMap(code) {
-	$.each(polygons, function(index, poly) {
-		if(code == "null")
-			this.setMap(null);
-		$.each(code, function() {
-			if(this.countryCode != code) {
-				poly.setMap(null);
-			}
+	$.each(countryPolygons, function() {
+		$.each(this, function(index, poly) {
+			if(code == "null")
+				this.setMap(null);
+			$.each(code, function() {
+				if(this.countryCode != code) {
+					poly.setMap(null);
+				}
+			});
 		});
 	});
 }
