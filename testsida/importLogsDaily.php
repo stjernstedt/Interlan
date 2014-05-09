@@ -5,27 +5,19 @@
 	$conn->query("SET NAMES utf8");
 	ini_set('max_execution_time', 0);
 
-
 	$regex1 = "/[.a-z-]+\s[A-Z-]+/";
-	//$scandir = "history/";
-	$scandir = "c:/development/interlan/testsida/result/norge/dnscheck/";
-	// $scandir = "/usr/local/var/kommun/dns/";
-
-	$dirs = scandir($scandir);
-	$dirs = array_diff($dirs, array('.', '..'));
+	// $scandir = "c:/development/interlan/testsida/result/norge/dnscheck/";
+	$scandir = "/usr/local/var/";
+	$dirs = ["sverige", "norge", "finland", "danmark"];
 
 	foreach ($dirs as $loadedDir) {
-		$files = scandir($scandir . $loadedDir . "/");
+		$files = scandir($scandir . $loadedDir . "/kommun/result/dnscheck/");
 		$files = array_diff($files, array('.', '..'));
 
-		$year = substr($loadedDir, 0, 4);
-		$month = substr($loadedDir, 4, 2);
-		$day = substr($loadedDir, 6, 2);
-		$strDate = $day . "-" . $month . "-" . $year;
-		$date = date("Y-m-d", strtotime($strDate));
+		$date = date("Y-m-d");
 
 		foreach ($files as $loadedFile) {
-			$file = file($scandir . $loadedDir . "/" . $loadedFile);
+			$file = file($scandir . $loadedDir . "/kommun/result/dnscheck/" . $loadedFile);
 
 			foreach ($file as $line) {
 				if(preg_match($regex1, $line, $matches)) {

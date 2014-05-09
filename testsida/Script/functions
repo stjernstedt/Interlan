@@ -21,7 +21,7 @@ fi
 
 date=`date +"%Y%m%d"`
 
-#kör dnscheck mot definerad lista
+#kÃ¶r dnscheck mot definerad lista
 function startdnscheck {
 	if [ ! -d "$historydir/dnscheck/$date" ] ; then
 		mkdir -p "$historydir/dnscheck/$date"
@@ -51,8 +51,6 @@ function startdnscheck {
 
 
 function startdnssec {
-	cp $resultdir/dnssec/secured $resultdir/dnssec/secured.org
-
 	if [ ! -d "$historydir/dnssec/$date" ] ; then
 		mkdir -p "$historydir/dnssec/$date"
 	fi
@@ -65,11 +63,9 @@ function startdnssec {
 
 	php file.php < $resultdir/dnssec/result.txt > $htmldir/index2.html
 	cp $htmldir/index2.html $htmldir/index.html
-
-	cat $resultdir/dnssec/result.txt | awk -F , '{ print $1","$2}'|grep yes > "$resultdir"/dnssec/secured
 }
 
-#hämtar dnssec-resultat
+#hÃ¤mtar dnssec-resultat
 function getdnssecresult {
 	for i in `cat $domainfile` ; do
 		if [ "`cat $resultdir/dnscheck/$i| grep "Enough valid signatures over SOA RRset" | grep -v "Broken chain of trust" `" != "" ] ; then
