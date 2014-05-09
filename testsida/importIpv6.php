@@ -1,13 +1,13 @@
 <?php
 	// $conn = mysql_connect("localhost", "root", "1q2w3e4r") or die("cannot connect");
 	// mysql_select_db("test") or die("cannot select database");
-	$conn = mysql_connect("localhost", "root") or die("cannot connect");
-	mysql_select_db("interlan") or die("cannot select database");
-	mysql_query("SET NAMES utf8");
+	$conn = new mysqli("localhost", "root", "", "interlan") or die("cannot connect");
+	$conn->query("SET NAMES utf8");
+	ini_set('max_execution_time', 0);
 
 	// $scandir = "/usr/local/var/kommun/ipv6/";
 	// $scandir = "C:/Users/Matte/Desktop/temp/interlan/special/public_html/kipv6/script/history/";
-	$scandir = "d:/development/interlan/testsida/result/ipv6/";
+	$scandir = "c:/development/interlan/testsida/result/norge/ipv6/";
 	
 	$dirs = scandir($scandir);
 	$dirs = array_diff($dirs, array('.', '..'));
@@ -64,10 +64,10 @@
 				if(isset($val[$column])) ${"val" . $column} = 1; else ${"val" . $column} = 0;
 			}
 			$query = "INSERT INTO ipv6 (iDomain, iDns6, iErrdns6, iTruedns6, iMx6, iErrmx6, iTruemx6, iWww6, iErrwww6, iTruewww6, iInsDate) VALUES ('$domName', '$valdns6', '$valerrdns6', '$valtruedns6', '$valmx6', '$valerrmx6', '$valtruemx6', '$valwww6', '$valerrwww6', '$valtruewww6', '$date')";
-			mysql_query($query) or die(mysql_error());
+			$conn->query($query) or die(mysqli_error($conn));
 			${$dom} = null;
 		}
 	}
 	
-	mysql_close($conn);
+	$conn->close();
 ?>

@@ -1,10 +1,9 @@
 <?php
 	// $conn = mysql_connect("localhost", "root", "1q2w3e4r") or die("cannot connect");
 	// mysql_select_db("test");
-	$conn = mysql_connect("localhost", "root") or die("cannot connect");
-	mysql_select_db("interlan");
-	mysql_query("SET NAMES utf8");
-	ini_set('max_execution_time', 300);
+	$conn = new mysqli("localhost", "root", "", "interlan") or die("cannot connect");
+	$conn->query("SET NAMES utf8");
+	ini_set('max_execution_time', 0);
 	
 	function formatEmail($email){
 		if($email == "") return "";
@@ -29,7 +28,7 @@
 	}
 	
 	// $scandir = "/usr/local/var/kommun/resultat";
-	$scandir = "D:/Development/Interlan/testsida/result/dnssec";
+	$scandir = "c:/Development/Interlan/testsida/result/norge/dnssec";
 	$files = scandir($scandir);
 	$files = array_diff($files, array('.', '..'));
 
@@ -60,10 +59,10 @@
 			$dnsarr = serialize($dns);
 			
 			$query = "INSERT INTO status (sDomain, sDnssec, sRecursive, sErrors, sWarnings, sMail, sDns, sInsDate) VALUES ('$domain', '$dnssec', '$rec', '$errors', '$warnings', '$mail', '$dnsarr', '$date')";
-			mysql_query($query) or die(mysql_error());
+			$conn->query($query) or die(mysqli_error($conn));
 
 		}
 	}
 	
-	mysql_close($conn);
+	$conn->close();
 ?>

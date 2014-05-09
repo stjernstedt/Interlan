@@ -4,12 +4,12 @@
 	$conn = mysql_connect("localhost", "root") or die("cannot connect");
 	mysql_select_db("interlan") or die("cannot select database");
 	mysql_query("SET NAMES utf8");
-	ini_set('max_execution_time', 300);
+	ini_set('max_execution_time', 0);
 
 
 	$regex1 = "/[.a-z-]+\s[A-Z-]+/";
 	//$scandir = "history/";
-	$scandir = "d:/development/interlan/testsida/result/dnscheck/";
+	$scandir = "c:/development/interlan/testsida/result/norge/dnscheck/";
 	// $scandir = "/usr/local/var/kommun/dns/";
 
 	$dirs = scandir($scandir);
@@ -36,15 +36,16 @@
 					$type = trim($str1[1]);
 					$data = mysql_real_escape_string(trim($str2[1]));
 
-					$query = "SELECT mId FROM municipalities WHERE `mDomain` LIKE '$domain'";
-					$results = mysql_query($query) or die(mysql_error());
-					$row = mysql_fetch_array($results);
-					$municipId = $row[0];
+					// $query = "SELECT mId FROM municipalities WHERE `mDomain` LIKE '$domain'";
+					// $results = mysql_query($query) or die(mysql_error());
+					// $row = mysql_fetch_array($results);
+					// $municipId = $row[0];
+
+					// $query = "INSERT INTO logs (lMunicipalityId, lType, lData, lInsDate) VALUES ('$municipId', '$type', '$data', '$date')";
+					$query = "INSERT INTO logs (lMunicipalityId, lType, lData, lInsDate) " .
+					"SELECT mId, '$type', '$data', '$date' FROM municipalities WHERE mDomain = '$domain'";
+					mysql_query($query) or die(mysql_error());
 				}
-
-
-				$query = "INSERT INTO logs (lMunicipalityId, lType, lData, lInsDate) VALUES ('$municipId', '$type', '$data', '$date')";
-				mysql_query($query) or die(mysql_error());
 			}
 		}
 	}

@@ -1,12 +1,13 @@
 <?php
 	header('Content-Type: application/json');
-	$conn = mysql_connect("localhost", "root");
-	mysql_select_db("interlan");
-	mysql_query("SET NAMES utf8");
+	$conn = new mysqli("localhost", "root", "", "interlan");
+	
+	$conn->query("SET NAMES utf8");
 	
 	$jsonData = array();
 
-	// $date = "2014-01-01";
+	// $date = "2014-05-08";
+	// $code = 2;
 	$date = $_GET['date'];
 	$code = trim($_GET['code']);
 
@@ -15,25 +16,25 @@
 	"LEFT JOIN ipv6 ON sDomain = iDomain AND iInsDate LIKE '$date%' " .
 	"WHERE sInsDate LIKE '$date%'";
 	
-	$statusResult = mysql_query($query) or die(mysql_error());
+	$statusResult = $conn->query($query) or die(mysqli_error($conn));
 
 	$query = "SELECT lData, lMunicipalityId FROM logs WHERE lType LIKE 'WARNING' AND lInsDate LIKE '$date%'";
-	$warningsResult = mysql_query($query) or die(mysql_error());
+	$warningsResult = $conn->query($query) or die(mysqli_error($conn));
 	$warnings = array();
-	while($line = mysql_fetch_array($warningsResult, MYSQL_NUM)) {
+	while($line = mysqli_fetch_array($warningsResult, MYSQL_NUM)) {
 		if (!isset($warnings[$line[1]])) $warnings[$line[1]] = array();
 		array_push($warnings[$line[1]], $line[0]);
 	}
 	
 	$query = "SELECT lData, lMunicipalityId FROM logs WHERE lType LIKE 'ERROR' AND lInsDate LIKE '$date%'";
-	$errorsResult = mysql_query($query) or die(mysql_error());
+	$errorsResult = $conn->query($query) or die(mysqli_error($conn));
 	$errors = array();
-	while($line = mysql_fetch_array($errorsResult, MYSQL_NUM)) {
+	while($line = mysqli_fetch_array($errorsResult, MYSQLI_NUM)) {
 		if (!isset($errors[$line[1]])) $errors[$line[1]] = array();
 		array_push($errors[$line[1]], $line[0]);
 	}
 	
-	while($line = mysql_fetch_array($statusResult, MYSQL_ASSOC)) {
+	while($line = mysqli_fetch_array($statusResult, MYSQLI_ASSOC)) {
 		$warn = array();
 		if(isset($warnings[$line['mId']])) {
 			foreach ($warnings[$line['mId']] as $post) {
@@ -79,5 +80,5 @@
 	
 	echo $json;
 	
-	mysql_close($conn);
+	$conn->close();
 ?>
