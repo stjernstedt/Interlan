@@ -6,8 +6,8 @@
 	
 	$jsonData = array();
 
-	// $date = "2014-05-08";
-	// $code = 2;
+	// $date = "2014-01-01";
+	// $code = 1;
 	$date = $_GET['date'];
 	$code = trim($_GET['code']);
 

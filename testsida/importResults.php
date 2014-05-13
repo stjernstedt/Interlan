@@ -28,7 +28,7 @@
 	}
 	
 	// $scandir = "/usr/local/var/kommun/resultat";
-	$scandir = "c:/Development/Interlan/testsida/result/norge/dnssec";
+	$scandir = "d:/Development/Interlan/testsida/history/sverige/dnssec";
 	$files = scandir($scandir);
 	$files = array_diff($files, array('.', '..'));
 

@@ -61,6 +61,10 @@ function startdnssec {
 
 	getdnssecresult $1 |tee $resultdir/dnssec/result.txt
 
+	if [ ! -d "$htmldir" ] ; then
+		mkdir -p "$htmldir"
+	fi
+
 	php file.php < $resultdir/dnssec/result.txt > $htmldir/index2.html
 	cp $htmldir/index2.html $htmldir/index.html
 }

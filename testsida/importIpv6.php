@@ -7,7 +7,7 @@
 
 	// $scandir = "/usr/local/var/kommun/ipv6/";
 	// $scandir = "C:/Users/Matte/Desktop/temp/interlan/special/public_html/kipv6/script/history/";
-	$scandir = "c:/development/interlan/testsida/result/norge/ipv6/";
+	$scandir = "d:/development/interlan/testsida/history/sverige/ipv6/";
 	
 	$dirs = scandir($scandir);
 	$dirs = array_diff($dirs, array('.', '..'));
@@ -33,7 +33,6 @@
 		$truewww6 = array();
 		
 		$columns = array("dns6","errdns6","truedns6","mx6","errmx6","truemx6","www6","errwww6","truewww6");
-		$lol = array("test", "test2");
 		
 		foreach ($files as $loadedFile) {
 			$file = file($scandir . $loadedDir . "/" . $loadedFile);

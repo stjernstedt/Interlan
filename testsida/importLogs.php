@@ -8,7 +8,7 @@
 
 	$regex1 = "/[.a-z-]+\s[A-Z-]+/";
 	//$scandir = "history/";
-	$scandir = "c:/development/interlan/testsida/result/norge/dnscheck/";
+	$scandir = "d:/development/interlan/testsida/history/sverige/dnscheck/";
 	// $scandir = "/usr/local/var/kommun/dns/";
 
 	$dirs = scandir($scandir);
@@ -33,7 +33,7 @@
 					$str2 = preg_split($regex1, $line, 2);
 					$domain = trim($str1[0]);
 					$type = trim($str1[1]);
-					$data = mysqli_real_escape_string(trim($str2[1]));
+					$data = mysqli_real_escape_string($conn, trim($str2[1]));
 
 					$query = "INSERT INTO logs (lMunicipalityId, lType, lData, lInsDate) " .
 					"SELECT mId, '$type', '$data', '$date' FROM municipalities WHERE mDomain = '$domain'";

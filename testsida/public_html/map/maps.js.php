@@ -17,16 +17,8 @@ var lastSelectedDate = "";
 var	municipalitiesByCountry = {};
 var municipalities = new Array();
 
+
 function test(dateText) {
-
-	var today = new Date(new Date().getTime() - (24 * 60 * 60 * 1000));
-	var dd = today.getDate();
-	var mm = today.getMonth() + 1;
-	var yyyy = today.getFullYear();
-	
-	if (dd < 10) { dd = '0' + dd } if (mm < 10) { mm = '0' + mm } today = yyyy + mm + dd;
-	lastSelectedDate = today;
-
 	countries = {};
 	municipalitiesByCountry = {};
 	var boxes = document.getElementsByName('country[]');
@@ -44,7 +36,8 @@ function test(dateText) {
 		clearMap("null");
  	clearMap(countries);
 
-	if (typeof dateText == 'undefined') {loadData(yyyy+"-"+mm+"-"+dd);}
+	// if (typeof dateText == 'undefined') {loadData(yyyy+"-"+mm+"-"+dd);}
+	if (typeof dateText == 'undefined') {loadData(lastSelectedDate);}
 	else {loadData(dateText);}
 }
 
@@ -61,30 +54,19 @@ function loadData(date) {
 	});
 }
 
-// function cbChanged(){
-	// if(!bAllIsChecked){
-		// $("#loader").show();
-		// $("#tabs input[value!='" + $(this).val() + "']").removeAttr("checked");
-		// loadList();
-    // }
-    // bAllIsChecked = false;
-// }
-// var bAllIsChecked = false;
-
-
 $(function () {
 	$("#tabs input").prop("checked", false);
-	$("#tabs input[id='sverige']").prop("checked", true);
+	$("#tabs input[value='1']").prop("checked", true);
 	$("#tabs").tabs({
 		show: function () {
 		},
 		select: function(event, ui) {
-			checkBox();
+			test(lastSelectedDate);
 		}
 	});
     $("#datepicker").datepicker({
-        maxDate: '-1d',
-        defaultDate: -1,
+        maxDate: '-0d',
+        defaultDate: -0,
         autoSize: true,
         firstDay: 1,
         dateFormat: 'yy-mm-dd',
@@ -106,6 +88,14 @@ $(function () {
 		else
 			$("input[value='ip']").attr("checked", $(this).attr("checked"));
 		
+		var today = new Date(new Date().getTime() - (24 * 60 * 60 * 1000));
+		var dd = today.getDate();
+		var mm = today.getMonth() + 1;
+		var yyyy = today.getFullYear();
+	
+		if (dd < 10) { dd = '0' + dd } if (mm < 10) { mm = '0' + mm } today = yyyy + mm + dd;
+		lastSelectedDate = today;
+
 		// loadList();
 		test();
     });
@@ -197,7 +187,7 @@ function loadList(code) {
 		cntWithError = 0;
 		cntRecursive = 0;
 		
-		countryPolygons[code] = {}
+		if(typeof countryPolygons[code] === 'undefined') countryPolygons[code] = {};
 		$.each(municipalitiesByCountry[code], function () {
 			$(this).each(function () {
 				addPolygon(this, code);
@@ -217,11 +207,15 @@ function loadList(code) {
 }
 
 function addPolygon(municipality, code) {
-	if (typeof municipality.knnr === 'undefined') {
-		var knnr = municipality.properties.code.toString();
-	}
-	else
+	if (typeof municipality.knnr !== 'undefined')
 		var knnr = municipality.knnr.toString();
+	else if (typeof municipality.properties !== 'undefined') {
+		if(municipality.properties.code)
+			var knnr = municipality.properties.code.toString();
+		else if (municipality.properties.KOMKODE) {
+			var knnr = municipality.properties.KOMKODE.toString();
+		}
+	}
 	
 	var info = municipalitiesInfoByCountry[code][knnr];
 	
@@ -282,7 +276,7 @@ function addPolygon(municipality, code) {
 
 			if (($("#noerror").is(':checked') || noneSelected) && !hasErrors && !hasWarnings) {
 				show = true;
-				if (info.dnsSecSigned)
+				if (info.dnsSecSigned == 1)
 					color = "0f0";
 				else
 					color = "eaea6a"; // unsigned but without error
@@ -305,12 +299,12 @@ function addPolygon(municipality, code) {
 
 		if ($("#tabs").tabs().tabs('option', 'selected') == 1) {
 			show = true;
-			if ($("#www").is(':checked') && !info.ipWww) { show = false; }
-			if ($("#dns").is(':checked') && !info.ipDns) { show = false; }
-			if ($("#mail").is(':checked') && !info.ipMail) { show = false; }
+			if ($("#www").is(':checked') && info.ipWww != 1) { show = false; }
+			if ($("#dns").is(':checked') && info.ipDns != 1) { show = false; }
+			if ($("#mail").is(':checked') && info.ipMail != 1) { show = false; }
 			color = "0f0";
-			if ($("#tabs input[class='filters']:checked").size() == 0 && (!info.ipWww || !info.ipDns || !info.ipMail)) color = "f90";
-			if ($("#tabs input[class='filters']:checked").size() == 0 && (!info.ipWww && !info.ipDns && !info.ipMail)) color = "f00";
+			if ($("#tabs input[class='filters']:checked").size() == 0 && (info.ipWww != 1 || info.ipDns != 1 || info.ipMail != 1)) color = "f90";
+			if ($("#tabs input[class='filters']:checked").size() == 0 && ( info.ipWww != 1 && info.ipDns != 1 && info.ipMail != 1)) color = "f00";
 		}
 		
 		if (!show) {
@@ -339,6 +333,9 @@ function addPolygon(municipality, code) {
             var contentString = "<h3>" + (info == null ? knnr : info.name) + "</h3>";
 
             var dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_1")?>";
+            if (info.dnsSecSigned == 1) dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_2")?>";
+            if (info.dnsSecSigned == 1 && hasWarnings) dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_3")?>";
+            if (info.dnsSecSigned != 1 && (hasWarnings || hasErrors)) dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_4")?>";
             if (info.dnsSecSigned) dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_2")?>";
             if (info.dnsSecSigned && hasWarnings) dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_3")?>";
             if (!info.dnsSecSigned && (hasWarnings || hasErrors)) dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_4")?>";
@@ -402,14 +399,16 @@ function clearMap(code) {
 	});
 }
 
-function checkBox() {
+function checkBox(box) {
 	var boxes = document.getElementsByName('country[]');
 	var boxes2 = document.getElementsByName('country2[]');
-	$.each(boxes, function(index) {
-		if(boxes[index].checked == true || boxes2[index].checked == true) {
-			boxes[index].checked = true;
-			boxes2[index].checked = true;
-		}
-	});
+
+	if(!box.checked) {
+		boxes[box.value-1].checked = false;
+		boxes2[box.value-1].checked = false;
+	} else {
+		boxes[box.value-1].checked = true;
+		boxes2[box.value-1].checked = true;
+	}
 	test();
 }
