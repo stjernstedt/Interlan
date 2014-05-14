@@ -7,20 +7,33 @@ var municipalitiesTagMap = {};
 var municipalitiesInfoByCountry = new Array();
 var municipalitiesInfo = {};
 var countryPolygons = {};
-var countries = {};
+var country = null;
 var infoWindow;
 var coordfilename = "liten.json.sverige";
 var opacityOfPolygon = 0.8;
 
-var lastSelectedDate = "";
+var today = new Date(new Date().getTime());
+var dd = today.getDate();
+var mm = today.getMonth() + 1;
+var yyyy = today.getFullYear();
+if (dd < 10) { dd = '0' + dd } if (mm < 10) { mm = '0' + mm } today = yyyy + "-" + mm + "-" + dd;
+var lastSelectedDate = today;
 
 var	municipalitiesByCountry = {};
 var municipalities = new Array();
 
 
-function test(dateText) {
-	countries = {};
-	municipalitiesByCountry = {};
+function loadData(date) {
+	if (typeof date == 'undefined') date = lastSelectedDate;
+	coordfilename = "liten.json."+country.country;
+	if(municipalitiesByCountry[country.code] == null)
+		loadMap(country.code);
+	loadInfo(date, country.code);
+	loadList(country.code);
+}
+
+function reloadAll() {
+	var countries = {};
 	var boxes = document.getElementsByName('country[]');
 	$.each(boxes, function(index, box) {
 		if (this.checked == true) {
@@ -32,36 +45,31 @@ function test(dateText) {
 			});
 		}
 	});
-	if(jQuery.isEmptyObject(countries))
-		clearMap("null");
- 	clearMap(countries);
-
-	// if (typeof dateText == 'undefined') {loadData(yyyy+"-"+mm+"-"+dd);}
-	if (typeof dateText == 'undefined') {loadData(lastSelectedDate);}
-	else {loadData(dateText);}
-}
-
-function loadData(date) {
-	var test =	$.each(countries, function() {
-		coordfilename = "liten.json."+this.country;
-		loadMap(this.code);
-		loadInfo(date, this.code);
-	});
-	$.when(test).done(function () {
-		$.each(countries, function() {
-			loadList(this.code);
+	$.each(countries, function() {
+		country = new Object({
+			country: this.country,
+			code: this.code
 		});
+		loadData(lastSelectedDate);
 	});
 }
 
 $(function () {
+	if(preSelect == "") preSelect = "sverige";
 	$("#tabs input").prop("checked", false);
-	$("#tabs input[value='1']").prop("checked", true);
+	$("."+preSelect).prop("checked", true);
+	
+	country = new Object({
+		country: $("#"+preSelect).attr('id'),
+		code: $("#"+preSelect).attr('value')
+	});
+	// $("#tabs input[value=country.code]").prop("checked", true);
+	// $("#tabs input[value='1']").prop("checked", true);
 	$("#tabs").tabs({
 		show: function () {
 		},
 		select: function(event, ui) {
-			test(lastSelectedDate);
+			reloadAll();
 		}
 	});
     $("#datepicker").datepicker({
@@ -73,8 +81,7 @@ $(function () {
         onSelect: function (dateText, inst) {
             $("#loader").show();
             lastSelectedDate = dateText;
-			// loadData(dateText);
-			test(dateText);
+			loadData(dateText);
 		},
         monthNames: [<?php echo getTranslatedItem("MONTH_NAMES_LONG") ?>],
         monthNamesShort : [<?php echo getTranslatedItem("MONTH_NAMES_SHORT") ?>],
@@ -82,25 +89,14 @@ $(function () {
     });
 
 	$("input[id='allIp']").change(function () {
-        // bAllIsChecked = true;
 		if ($("input[id='allIp']").hasAttr("checked"))
 			$("input[value='ip']").removeAttr("checked");
 		else
 			$("input[value='ip']").attr("checked", $(this).attr("checked"));
 		
-		var today = new Date(new Date().getTime() - (24 * 60 * 60 * 1000));
-		var dd = today.getDate();
-		var mm = today.getMonth() + 1;
-		var yyyy = today.getFullYear();
-	
-		if (dd < 10) { dd = '0' + dd } if (mm < 10) { mm = '0' + mm } today = yyyy + mm + dd;
-		lastSelectedDate = today;
-
-		// loadList();
-		test();
+		loadData();
     });
 
-	// $("input[type='checkbox']").change(cbChanged);
 
     var mapOptions = {
         center: new google.maps.LatLng(63.027722, 15.58136),
@@ -117,8 +113,7 @@ $(function () {
             mapOptions);
 
 
-	// loadMap(0);
-	test();
+	loadData();
 });
 
 function loadMap(code) {
@@ -281,19 +276,19 @@ function addPolygon(municipality, code) {
 				else
 					color = "eaea6a"; // unsigned but without error
 
-				if (isSigned && !info.dnsSecSigned) show = false;
+				if (isSigned && info.dnsSecSigned != 1) show = false;
 			}
 			if (($("#warnings").is(':checked') || noneSelected) && hasWarnings) {
 				show = true;
 				color = "f90"
-				if (isSigned && !info.dnsSecSigned) show = false;
+				if (isSigned && info.dnsSecSigned != 1) show = false;
 			}
 
 			if (($("#errors").is(':checked') || noneSelected) && hasErrors) {
 				show = true;
 				color = "f00"
 
-				if (isSigned && !info.dnsSecSigned) show = false;
+				if (isSigned && info.dnsSecSigned != 1) show = false;
 			}
 		}
 
@@ -386,16 +381,8 @@ function generateListFromArray(title, arr) {
 }
 
 function clearMap(code) {
-	$.each(countryPolygons, function() {
-		$.each(this, function(index, poly) {
-			if(code == "null")
-				this.setMap(null);
-			$.each(code, function() {
-				if(this.countryCode != code) {
-					poly.setMap(null);
-				}
-			});
-		});
+	$.each(countryPolygons[code], function() {
+		this.setMap(null);
 	});
 }
 
@@ -410,5 +397,15 @@ function checkBox(box) {
 		boxes[box.value-1].checked = true;
 		boxes2[box.value-1].checked = true;
 	}
-	test();
+	
+	if(box.checked) {
+		country = new Object({
+			country: boxes[box.value-1].id,
+			code: box.value
+		});
+	} else {
+		clearMap(box.value);
+		return;
+	}
+	loadData();
 }
