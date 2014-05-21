@@ -28,7 +28,7 @@ try {
 } catch(err) {}
 
 $(function() {
-	var html = $('#domains').innerHTML;
+	$('#domains').load('loadData.php');
     $("#datepicker").datepicker({
         maxDate: '-0d',
         defaultDate: -0,
@@ -36,10 +36,7 @@ $(function() {
         firstDay: 1,
         dateFormat: 'yy-mm-dd',
         onSelect: function (dateText, inst) {
-			$.post("index.php", function() {
-				date: dateText
-			});
-			$('#domains').html(html);
+			$('#domains').load('loadData.php?date='+dateText);
 		},
         monthNames: [<?php echo getTranslatedItem("MONTH_NAMES_LONG") ?>],
         monthNamesShort : [<?php echo getTranslatedItem("MONTH_NAMES_SHORT") ?>],
