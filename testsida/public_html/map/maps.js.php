@@ -182,7 +182,8 @@ function loadList(code) {
 		cntWithError = 0;
 		cntRecursive = 0;
 		
-		if(typeof countryPolygons[code] === 'undefined') countryPolygons[code] = {};
+		// if(typeof countryPolygons[code] === 'undefined') countryPolygons[code] = {};
+		countryPolygons[code] = {};
 		$.each(municipalitiesByCountry[code], function () {
 			$(this).each(function () {
 				addPolygon(this, code);
@@ -205,14 +206,19 @@ function addPolygon(municipality, code) {
 	if (typeof municipality.knnr !== 'undefined')
 		var knnr = municipality.knnr.toString();
 	else if (typeof municipality.properties !== 'undefined') {
-		if(municipality.properties.code)
+		if(typeof municipality.properties.code !== 'undefined') {
 			var knnr = municipality.properties.code.toString();
-		else if (municipality.properties.KOMKODE) {
+		}
+		else if (typeof municipality.properties.KOMKODE !== 'undefined') {
 			var knnr = municipality.properties.KOMKODE.toString();
 		}
+		else if (typeof municipality.properties.KOMM !== 'undefined') {
+			var knnr = municipality.properties.KOMM.toString();
+		}
 	}
-	
+
 	var info = municipalitiesInfoByCountry[code][knnr];
+	// if(info.knnr == "0730") console.log("randers");
 	
 	var polyCoords = new Array();
 
@@ -229,7 +235,7 @@ function addPolygon(municipality, code) {
 		catch(e){}
 
 		if(typeof municipality.geometry !== 'undefined') {
-			if(municipality.geometry.geometries) {
+			if(typeof municipality.geometry.geometries !== 'undefined') {
 				$(eval(municipality.geometry.geometries)).each(function () {
 					$(eval(this)).each(function () {
 						$(eval(this.coordinates)).each(function () {
@@ -241,13 +247,23 @@ function addPolygon(municipality, code) {
 						});
 					});
 				});
-			} else if (municipality.geometry.coordinates) {
+			} else if (typeof municipality.geometry.coordinates !== 'undefined') {
 				$(eval(municipality.geometry.coordinates)).each(function () {
-					$(eval(this)).each(function () {
-						lat = this[1];
-						lng = this[0];
-						polyCoords.push(new google.maps.LatLng(lat, lng));
-					});
+					if(municipality.geometry.type == 'MultiPolygon') {
+						$(eval(this)).each(function () {
+							$(eval(this)).each(function () {
+								lat = this[1];
+								lng = this[0];
+								polyCoords.push(new google.maps.LatLng(lat, lng));
+							});
+						});
+					} else {
+						$(eval(this)).each(function () {
+							lat = this[1];
+							lng = this[0];
+							polyCoords.push(new google.maps.LatLng(lat, lng));
+						});
+					}
 				});
 			}
 		} else {
@@ -317,10 +333,22 @@ function addPolygon(municipality, code) {
 					countryCode: code
 				});
 				countryPolygons[code][info.knnr].setMap(map);
-			} else if (countryPolygons[code][info.knnr].countryCode == code) {
-				countryPolygons[code][info.knnr].setOptions({ strokeWeight: color == "fff" ? 0.5 : 0.5, fillOpacity: color == "fff" ? 0 : opacityOfPolygon, fillColor: "#" + color });
+			} else {
+				countryPolygons[code][info.knnr] = new google.maps.Polygon({
+					paths: polyCoords,
+					strokeColor: "#000",
+					strokeOpacity: 0.8,
+					strokeWeight: color == "fff" ? 0.5 : 0.5,
+					fillColor: "#" + color,
+					fillOpacity: color == "fff" ? 0 : opacityOfPolygon,
+					countryCode: code
+				});
 				countryPolygons[code][info.knnr].setMap(map);
 			}
+			// else if (countryPolygons[code][info.knnr].countryCode == code) {
+				// countryPolygons[code][info.knnr].setOptions({ strokeWeight: color == "fff" ? 0.5 : 0.5, fillOpacity: color == "fff" ? 0 : opacityOfPolygon, fillColor: "#" + color });
+				// countryPolygons[code][info.knnr].setMap(map);
+			// }
 		}
 
         google.maps.event.addListener(countryPolygons[code][info.knnr], "click", function (event) {

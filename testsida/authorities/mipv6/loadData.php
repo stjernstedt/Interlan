@@ -19,36 +19,54 @@
 	$www = "";
 	$mx = "";
 	$dns = "";
+	$allOk = "";
 	
 	$wwwCount = 0;
 	$mxCount = 0;
 	$dnsCount = 0;
+	$okCount = 0;
 
 	while($line = mysqli_fetch_array($ipResults, MYSQLI_ASSOC)) {
+		$count = 0;
 		if($line['aiDns6'] == 1) {
 			$dnsCount++;
-			if($line['aiErrdns6'] == 0)
-				$dns = $dns . '<div class="dom"><a href="http://www.'. $line['aiDomain'] .'">'. $line['aiDomain'] .'</a></div>';
+			if($line['aiErrdns6'] == 0) {
+					$dns = $dns . '<div class="dom"><a href="http://www.'. $line['aiDomain'] .'">'. $line['aiDomain'] .'</a></div>';
+					$count++;
+				}
 			else
-				$dns = $dns . '<div class="err">'. $line['aiDomain'] .'</div>';
+				$dns = $dns . '<div class="errDom">'. $line['aiDomain'] .'</div>';
 		}
 		if($line['aiMx6'] == 1) {
 			$mxCount++;
-			if($line['aiErrmx6'] == 0)
-				$mx = $mx . '<div class="dom"><a href="http://www.'. $line['aiDomain'] .'">'. $line['aiDomain'] .'</a></div>';
+			if($line['aiErrmx6'] == 0) {
+					$mx = $mx . '<div class="dom"><a href="http://www.'. $line['aiDomain'] .'">'. $line['aiDomain'] .'</a></div>';
+					$count++;
+				}
 			else
-				$mx = $mx . '<div class="err">'. $line['aiDomain'] .'</div>';
+				$mx = $mx . '<div class="errDom">'. $line['aiDomain'] .'</div>';
 		}
 		if($line['aiWww6'] == 1) {
 			$wwwCount++;
-			if($line['aiErrwww6'] == 0)
-				$www = $www . '<div class="dom"><a href="http://www.'. $line['aiDomain'] .'">'. $line['aiDomain'] .'</a></div>';
+			if($line['aiErrwww6'] == 0) {
+					$www = $www . '<div class="dom"><a href="http://www.'. $line['aiDomain'] .'">'. $line['aiDomain'] .'</a></div>';
+					$count++;
+				}
 			else
-				$www = $www . '<div class="err">'. $line['aiDomain'] .'</div>';
+				$www = $www . '<div class="errDom">'. $line['aiDomain'] .'</div>';
+		}
+		if($count == 3) {
+			$allOk = $allOk . '<div class="okDom"><a href="http://www.'. $line['aiDomain'] .'">'. $line['aiDomain'] .'</a></div>';
+			$okCount++;
 		}
 	}
 
-	$data = '<h2>Authorities with AAAA in its www and domain name</h2>'.
+	$data = '<h2>Authorities with working AAAA in web, dns and mail</h2>'.
+	'<div class="subContainer">'.
+	'	<b>'. $okCount .' of '. $authCount .' domains<br></b>'.
+	'	'. $allOk .
+	'</div>'.	
+	'<h2>Authorities with AAAA in its www and domain name</h2>'.
 	'<div class="subContainer">'.
 	'	<b>'. $wwwCount .' of '. $authCount .' domains<br></b>'.
 	'	'. $www .

@@ -2,8 +2,13 @@ body{
 	font-family: Arial, tahoma, verdana, arial;
 }
 
+#infobox {
+	position: relative;
+	width: 50%;
+	float: left;
+}
+
 #datepicker {
-	display: inline;
 	position: relative;
 	float: right;
 }
@@ -25,13 +30,31 @@ body{
 	width:800px;
 	height:50px;
 }
-.dom{
-	width: 185px;
-	margin-right: 3px;
+
+.dom, .okDom, .warningDom, .errDom{
+	/*border: 1px solid black;*/
+	position: inherit;
+	padding: 2px;
+	width: 180px;
+	margin: 1px;
 	overflow: hidden;
 	float: left;
-
+	height: 20px;
+	z-index: 101;
 }
+
+.dom{
+	background-color: #A0FFA0;
+}
+
+.okDom{
+	background-color: #30FF30;
+}
+
+.errDom{
+	background-color: #FF4040;
+}
+
 
 #dBigger{
 	width:462px;
@@ -66,4 +89,15 @@ h1, h2, h3, h4, h5, h6{
 	margin-botton: 12px;
 	width: 760px;
 
+}
+
+a{
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover{
+	color: #0000FF;
+	text-decoration: underline;
 }
