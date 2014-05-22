@@ -1,50 +1,19 @@
 #!/bin/sh
 
-# Kommuner
-# Skapar textfiler / kommun
-/home/newdnssec/kommunermeddnssec/dnstest
-# Skapar gamla sidan för dnssec
-/home/newdnssec/kommunermeddnssec/dnssec
-# Skapar gamla sidan för Ipv6
-/home/special/public_html/kipv6/script/kommunermedipv6
-# ANvänder resultaten i testerna ovan för att skapa kartsidan
-/home/newdnssec/newpage
+/usr/local/bin/test sverige kommun dns
+/usr/local/bin/test danmark kommun dns
+/usr/local/bin/test norge kommun dns
+/usr/local/bin/test finland kommun dns
 
-#myndigheter
-/home/myndighetermeddnssec/dnstest
-/home/myndighetermeddnssec/antal
-/home/myndighetermeddnssec/dnsversion
-/home/myndighetermeddnssec/dnssec
-/home/special/public_html/mipv6/script/myndighetermedipv6
+/usr/local/bin/test sverige kommun ipv6
+/usr/local/bin/test danmark kommun ipv6
+/usr/local/bin/test norge kommun ipv6
+/usr/local/bin/test finland kommun ipv6
 
-#Texas
-/home/txv6tf/check
+/usr/local/bin/test sverige myndigheter ipv6
+/usr/local/bin/test sverige myndigheter dns
 
-#Landsting
-/home/landstingmeddnssec/dnstest
-/home/landstingmeddnssec/dnssec
-/home/dnssecandipv6/public_html/cipv6/scripts/cipv6
-
-#Banker
-/home/dnssecandipv6/public_html/bankdns/scripts/dnstest
-/home/dnssecandipv6/public_html/bankdns/scripts/dnssec
-/home/dnssecandipv6/public_html/bankv6/scripts/bipv6
-#något med bankernas grafer
-/home/dnssecandipv6/go6/go6
-
-#Börsbolag
-/home/special/bipv6/medipv6
-
-#registry
-/home/dnssecandipv6/public_html/rdns/script/cron
-/home/dnssecandipv6/public_html/ripv6/script/ripv6
-
-#Tldwithdnssecandipv6
-/home/tldwithdnssecandipv6/cronjob
-
-#Norden!
-/home/dnssecandipv6/norge/cronjob 
-/home/dnssecandipv6/danmark/cronjob 
-/home/dnssecandipv6/finland/cronjob 
-/home/dnssecandipv6/aland/cronjob
+php /usr/local/bin/importLogsDaily.php
+php /usr/local/bin/importIpv6Daily.php
+php /usr/local/bin/importDnssecDaily.php
 
