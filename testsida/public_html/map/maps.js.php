@@ -22,7 +22,6 @@ var lastSelectedDate = today;
 var	municipalitiesByCountry = {};
 var municipalities = new Array();
 
-
 function loadData(date) {
 	if (typeof date == 'undefined') date = lastSelectedDate;
 	coordfilename = "liten.json."+country.country;
@@ -32,17 +31,17 @@ function loadData(date) {
 	loadList(country.code);
 }
 
-function reloadAll() {
+function reloadAll(date) {
+	if (typeof date == 'undefined') date = lastSelectedDate;
 	var countries = {};
 	var boxes = document.getElementsByName('country[]');
 	$.each(boxes, function(index, box) {
 		if (this.checked == true) {
-			$.each(this.value, function() {
-				countries[this] = new Object({
+				clearMap(box.value);
+				countries[box.value] = new Object({
 					country: box.id,
 					code: box.value
 				});
-			});
 		}
 	});
 	$.each(countries, function() {
@@ -50,7 +49,7 @@ function reloadAll() {
 			country: this.country,
 			code: this.code
 		});
-		loadData(lastSelectedDate);
+		loadData(date);
 	});
 }
 
@@ -81,7 +80,7 @@ $(function () {
         onSelect: function (dateText, inst) {
             $("#loader").show();
             lastSelectedDate = dateText;
-			loadData(dateText);
+			reloadAll(dateText);
 		},
         monthNames: [<?php echo getTranslatedItem("MONTH_NAMES_LONG") ?>],
         monthNamesShort : [<?php echo getTranslatedItem("MONTH_NAMES_SHORT") ?>],
@@ -182,14 +181,13 @@ function loadList(code) {
 		cntWithError = 0;
 		cntRecursive = 0;
 		
-		// if(typeof countryPolygons[code] === 'undefined') countryPolygons[code] = {};
 		countryPolygons[code] = {};
 		$.each(municipalitiesByCountry[code], function () {
 			$(this).each(function () {
 				addPolygon(this, code);
 			});
 		});
-		
+
         var dnsCheckInfoString = "<?php echo getTranslatedItem("DNSCHECK_RESULT")?>";
         dnsCheckInfoString = dnsCheckInfoString.replace(/\{0\}/, cntTotalDomains.toString());
         dnsCheckInfoString = dnsCheckInfoString.replace(/\{1\}/, lastSelectedDate);
@@ -218,7 +216,6 @@ function addPolygon(municipality, code) {
 	}
 
 	var info = municipalitiesInfoByCountry[code][knnr];
-	// if(info.knnr == "0730") console.log("randers");
 	
 	var polyCoords = new Array();
 
@@ -317,41 +314,47 @@ function addPolygon(municipality, code) {
 			if ($("#tabs input[class='filters']:checked").size() == 0 && (info.ipWww != 1 || info.ipDns != 1 || info.ipMail != 1)) color = "f90";
 			if ($("#tabs input[class='filters']:checked").size() == 0 && ( info.ipWww != 1 && info.ipDns != 1 && info.ipMail != 1)) color = "f00";
 		}
+	
+		function createPolygon() {
+			countryPolygons[code][info.knnr] = new Array(new google.maps.Polygon({
+				paths: polyCoords,
+				strokeColor: "#000",
+				strokeOpacity: 0.8,
+				strokeWeight: color == "fff" ? 0.5 : 0.5,
+				fillColor: "#" + color,
+				fillOpacity: color == "fff" ? 0 : opacityOfPolygon,
+				countryCode: code
+			}));
+			countryPolygons[code][info.knnr].slice(-1).pop().setMap(map);
+		}
 		
-		if (!show) {
-			if (countryPolygons[code][info.knnr] != null)
-				countryPolygons[code][info.knnr].setOptions({ fillOpacity: 0.0, strokeWeight: 0.5 });
+		function pushPolygon() {
+			countryPolygons[code][info.knnr].push(new google.maps.Polygon({
+				paths: polyCoords,
+				strokeColor: "#000",
+				strokeOpacity: 0.8,
+				strokeWeight: color == "fff" ? 0.5 : 0.5,
+				fillColor: "#" + color,
+				fillOpacity: color == "fff" ? 0 : opacityOfPolygon,
+				countryCode: code
+			}));
+			countryPolygons[code][info.knnr].slice(-1).pop().setMap(map);
+		}
+		if (countryPolygons[code][info.knnr] == null) {
+			createPolygon();
 		} else {
-			if (countryPolygons[code][info.knnr] == null) {
-				countryPolygons[code][info.knnr] = new google.maps.Polygon({
-					paths: polyCoords,
-					strokeColor: "#000",
-					strokeOpacity: 0.8,
-					strokeWeight: color == "fff" ? 0.5 : 0.5,
-					fillColor: "#" + color,
-					fillOpacity: color == "fff" ? 0 : opacityOfPolygon,
-					countryCode: code
-				});
-				countryPolygons[code][info.knnr].setMap(map);
-			} else {
-				countryPolygons[code][info.knnr] = new google.maps.Polygon({
-					paths: polyCoords,
-					strokeColor: "#000",
-					strokeOpacity: 0.8,
-					strokeWeight: color == "fff" ? 0.5 : 0.5,
-					fillColor: "#" + color,
-					fillOpacity: color == "fff" ? 0 : opacityOfPolygon,
-					countryCode: code
-				});
-				countryPolygons[code][info.knnr].setMap(map);
-			}
-			// else if (countryPolygons[code][info.knnr].countryCode == code) {
-				// countryPolygons[code][info.knnr].setOptions({ strokeWeight: color == "fff" ? 0.5 : 0.5, fillOpacity: color == "fff" ? 0 : opacityOfPolygon, fillColor: "#" + color });
-				// countryPolygons[code][info.knnr].setMap(map);
-			// }
+			pushPolygon();
 		}
 
-        google.maps.event.addListener(countryPolygons[code][info.knnr], "click", function (event) {
+		if (!show) {
+			if (typeof countryPolygons[code][info.knnr] !== 'undefined') {
+				$.each(countryPolygons[code][info.knnr], function() {
+					this.setOptions({ fillOpacity: 0.0, strokeWeight: 0.5 });
+				});
+			}
+		}
+		
+        google.maps.event.addListener(countryPolygons[code][info.knnr].slice(-1).pop(), "click", function (event) {
             var vertices = this.getPath();
             var contentString = "<h3>" + (info == null ? knnr : info.name) + "</h3>";
 
@@ -410,7 +413,9 @@ function generateListFromArray(title, arr) {
 
 function clearMap(code) {
 	$.each(countryPolygons[code], function() {
-		this.setMap(null);
+		$.each(this, function() {
+			this.setMap(null);
+		});
 	});
 }
 
