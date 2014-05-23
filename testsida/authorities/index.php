@@ -15,7 +15,7 @@
 				<p><b>myndighetermeddnssec.se</b> is an independent website that show the authorities domains health and if it's signed with <b><a href=http://en.wikipedia.org/wiki/DNSSEC>DNSSEC</a> </b>or not.<br>
 <?php //stats(); ?>
 				<br><i>Contact: tobbe (a] <a href=http://www.interlan.se>interlan</a> punkt se</i><br>
-<script type="text/javascript" language="javascript">
+<!-- <script type="text/javascript" language="javascript">
 function showBigger(o, bShow){
    if(bShow){
         document.getElementById("dBigger").style.backgroundImage="url('"+o.src+"')";
@@ -32,7 +32,7 @@ function showBigger(o, bShow){
         </tr>
 </table>
 <div id="dBigger">&nbsp;</div>
-
+-->
 
 
 			</div>
