@@ -354,6 +354,7 @@ function addPolygon(municipality, code) {
 			}
 		}
 		
+		console.log(info.knnr + " " +info.isRecursive);
         google.maps.event.addListener(countryPolygons[code][info.knnr].slice(-1).pop(), "click", function (event) {
             var vertices = this.getPath();
             var contentString = "<h3>" + (info == null ? knnr : info.name) + "</h3>";
@@ -362,14 +363,14 @@ function addPolygon(municipality, code) {
             if (info.dnsSecSigned == 1) dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_2")?>";
             if (info.dnsSecSigned == 1 && hasWarnings) dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_3")?>";
             if (info.dnsSecSigned != 1 && (hasWarnings || hasErrors)) dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_4")?>";
-            if (info.dnsSecSigned) dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_2")?>";
-            if (info.dnsSecSigned && hasWarnings) dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_3")?>";
-            if (!info.dnsSecSigned && (hasWarnings || hasErrors)) dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_4")?>";
+            if (info.dnsSecSigned == 1) dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_2")?>";
+            if (info.dnsSecSigned == 1 && hasWarnings) dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_3")?>";
+            if (info.dnsSecSigned != 1&& (hasWarnings || hasErrors)) dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_4")?>";
             if (hasErrors) dnsString = "<?php echo getTranslatedItem("DNSSEC_MESSAGE_5")?>";
 
             contentString += "<b>DNSSEC</b>: " + dnsString + "<br />";
             contentString += "<b><?php echo getTranslatedItem("SITE_CONTACT")?></b>: " + info.contact + "<br />";
-            if (info.isRecursive) contentString += "<?php echo getTranslatedItem("DNS_RECURSIVE")?><br />";
+            if (info.isRecursive == 1) contentString += "<?php echo getTranslatedItem("DNS_RECURSIVE")?><br />";
             contentString += generateListFromArray("<?php echo getTranslatedItem("DNSSEC_WARNINGS")?>", info.warnings);
             contentString += generateListFromArray("<?php echo getTranslatedItem("DNSSEC_ERRORS")?>", info.errors);
             contentString += generateListFromArray("<?php echo getTranslatedItem("DNSSEC_DNSLIST")?>", info.dnsList);
