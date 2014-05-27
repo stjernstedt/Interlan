@@ -443,3 +443,16 @@ function checkBox(box) {
 	}
 	loadData();
 }
+
+function selectAllIpv6() {
+	if(document.getElementById('allIp').checked == true) {
+		document.getElementById('www').checked = true;
+		document.getElementById('dns').checked = true;
+		document.getElementById('mail').checked = true;
+	} else {
+		document.getElementById('www').checked = false;
+		document.getElementById('dns').checked = false;
+		document.getElementById('mail').checked = false;
+	}
+	reloadAll();
+}
