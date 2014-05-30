@@ -28,7 +28,7 @@
 
 		"IPV6_ALL" => array("IPv6 p&aring; WWW, DNS och Mail", "IPv6 on WWW, DNS and Mail"),
 
-		"MAPDATA_RIGHTS" => array("Polygondata avseende<br/>kommungr&auml;nser &copy; <a href=\"http://www.lantmateriet.se/\" target=\"_blank\">Lantm&auml;teriet</a>", "Polygon data for muncapality<br/>borders &copy; <a href=\"http://www.lantmateriet.se/\" target=\"_blank\">Lantm&auml;teriet</a>"),
+		"MAPDATA_RIGHTS" => array("Polygondata avseende<br/>kommungr&auml;nser &copy; <a href=\"http://www.lantmateriet.se/\" target=\"_blank\">Lantm&auml;teriet</a>", "Polygon data for municipality<br/>borders &copy; <a href=\"http://www.lantmateriet.se/\" target=\"_blank\">Lantm&auml;teriet</a>"),
 
 		"SITE_CONTACT" => array("Kontakt","Contact"),
 

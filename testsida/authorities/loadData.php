@@ -1,7 +1,8 @@
 <?php
-
-	$today = date("Y-m-d");
-	// $today = "2014-05-20";
+	require_once "lang.php";
+	
+	// $today = date("Y-m-d");
+	$today = "2014-05-20";
 	isset($_GET['date']) ? $date = $_GET['date'] : $date = $today;
 
 	$okDomCount = 0;
@@ -90,11 +91,11 @@
 		}
 	}
 	
-	$data = $okDomCount . " of " . ($okDomCount + $notOkDomCount) . " domains secured<br/>\n\n".
+	$data = $okDomCount . getTranslatedItem("OF") . ($okDomCount + $notOkDomCount) . getTranslatedItem("DOMAINS_SECURED") ."<br/>\n\n".
 			"<div id='securedDomains'>".
-			"<h3>Secured</h3>" . $GLOBALS['secureDomains'] . "</div>".
+			"<h3>". getTranslatedItem("SECURED") ."</h3>" . $GLOBALS['secureDomains'] . "</div>".
 			"<div id='unsecuredDomains'>".
-			"<h3 id='test'>Unsecured</h3>" . $GLOBALS['unsecureDomains'] . "</div>";
+			"<h3 id='test'>". getTranslatedItem("UNSECURED") ."</h3>" . $GLOBALS['unsecureDomains'] . "</div>";
 
 	echo $data;
 ?>

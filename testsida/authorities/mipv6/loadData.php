@@ -1,4 +1,6 @@
 <?php
+	require_once "lang.php";
+
 	// $conn = new mysqli("localhost", "root", "1q2w3e4r", "test") or die("cannot connect");
 	$conn = new mysqli("localhost", "root", "", "interlan") or die("cannot connect");
 	$conn->query("SET NAMES utf8");
@@ -61,24 +63,24 @@
 		}
 	}
 
-	$data = '<h2>Authorities with working AAAA in web, dns and mail</h2>'.
+	$data = '<h2>'. getTranslatedItem("WORKING_AAAA") .'</h2>'.
 	'<div class="subContainer">'.
-	'	<b>'. $okCount .' of '. $authCount .' domains<br></b>'.
+	'	<b>'. $okCount . getTranslatedItem("OF") . $authCount . getTranslatedItem("DOMAINS") .'<br></b>'.
 	'	'. $allOk .
 	'</div>'.	
-	'<h2>Authorities with AAAA in its www and domain name</h2>'.
+	'<h2>'. getTranslatedItem("AUTHORITIES_WITH_WWW") .'</h2>'.
 	'<div class="subContainer">'.
-	'	<b>'. $wwwCount .' of '. $authCount .' domains<br></b>'.
+	'	<b>'. $wwwCount .' of '. $authCount .getTranslatedItem("DOMAINS") .'<br></b>'.
 	'	'. $www .
 	'</div>'.
-	'<h2>Authorities with AAAA in its MX record</h2>'.
+	'<h2>'. getTranslatedItem("AUTHORITIES_WITH_MX") .'</h2>'.
 	'<div class="subContainer">'.
-	'	<b>'. $mxCount .' of '. $authCount .' domains<br></b>'.
+	'	<b>'. $mxCount .' of '. $authCount .getTranslatedItem("DOMAINS") .'<br></b>'.
 	'	'. $mx .
 	'</div>'.
-	'<h2>Authorities with AAAA on some of their DNS servers</h2>'.
+	'<h2>'. getTranslatedItem("AUTHORITIES_WITH_DNS") .'</h2>'.
 	'<div class="subContainer">'.
-	'	<b>'. $dnsCount .' of '. $authCount .' domains<br></b>'.
+	'	<b>'. $dnsCount .' of '. $authCount .getTranslatedItem("DOMAINS") .'<br></b>'.
 	'	'. $dns .
 	'</div>';
 
