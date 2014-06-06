@@ -20,8 +20,8 @@
 	<script type="text/javascript" src="maps.js.php"></script>
   </head>
   <body>
-    <div id="loader" style="display: none;position: absolute;top: 0px;left: 0px;width: 50%;height:100%;background-color: #fff;z-index: 2;opacity:0.1;filter:alpha(opacity=10);">
-        <img src="ajax-loader (1).gif" alt="Loading" style="position: absolute;left: 50%;top:50%;" />
+    <div id="loader" style="display: none;position: absolute;top: 50%;left: 50%;width: 32px;height: 32px;background-color: #fff;z-index: 2;opacity:0.6;filter:alpha(opacity=10);">
+        <img src="ajax-loader.gif" alt="Loading" style="position: absolute;left: 0%;top:0%;" />
     </div>
     <div id="map_canvas" style="width:70%; height:100%"></div>
     <!--<div id="mapoverlay" style="position:absolute;left:34px;top:8px;width:600px; height:32px; border:1px solid #a0a0a0; padding:2px; background-color:#ffffff">&nbsp;</div>-->
@@ -77,7 +77,7 @@
             <div style="margin-top:10px;">
 				<?php echo getTranslatedItem("CREDITS") ?>
 				<br/><br/>
-				<a href="source.zip"><?php echo getTranslatedItem("SOURCE_LINK") ?></a>
+				<a href="https://github.com/stjernstedt/Interlan"><?php echo getTranslatedItem("SOURCE_LINK") ?></a>
             </div>
     </div>
   </body>

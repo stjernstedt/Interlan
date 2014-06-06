@@ -61,16 +61,7 @@ function startdnssec {
 
 	getdnssecresult $1 |tee $resultdir/dnssec/result.txt
 
-	if [ ! -d "$htmldir" ] ; then
-		mkdir -p "$htmldir"
-	fi
-
-	if [ $target == 'kommun' ] ; then
-		php municip_file.php $country < $resultdir/dnssec/result.txt > $htmldir/index2.html
-	else if [ $target == 'myndigheter' ] ; then
-		php authority_file.php $country < $resultdir/dnssec/result.txt > $htmldir/index2.html
-	fi
-	
+	php file.php < $resultdir/dnssec/result.txt > $htmldir/index2.html
 	cp $htmldir/index2.html $htmldir/index.html
 }
 

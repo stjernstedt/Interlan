@@ -23,6 +23,7 @@ var	municipalitiesByCountry = {};
 var municipalities = new Array();
 
 function loadData(date) {
+	$("#loader").show();
 	if (typeof date == 'undefined') date = lastSelectedDate;
 	coordfilename = "liten.json."+country.country;
 	if(municipalitiesByCountry[country.code] == null)

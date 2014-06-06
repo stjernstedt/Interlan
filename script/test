@@ -20,7 +20,6 @@ case $3 in
 		htmldir=/home/dnssecandipv6/public_html/$country/$target
 		startdnscheck
 		startdnssec
-		getdnssecresult
 		;;
 	ipv6)
 		checkipv6 
