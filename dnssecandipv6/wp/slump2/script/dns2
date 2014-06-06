@@ -1,9 +1,0 @@
-for i in `cat operator` ; do
-	dns=`echo $i|cut -d "." -f 2`.`echo $i| cut -d "." -f 3` 
-	echo $dns
-	if [ ! "`cat operator2|grep $dns`" ] ; then
-		echo $dns >> operator2
-			echo $dns
-	fi
-
-done

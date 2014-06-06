@@ -1,6 +1,0 @@
-rrdtool create dnssec.rrd --start -200days --step 86400 DS:dnssec:GAUGE:345600:0:300 RRA:LAST:0.1:1:1000
-for m in `seq 1 8` ; do for d in `seq 1 30` ; do rrdtool update dnssec.rrd 2010`printf "%02d%02d" $m $d `@1; done; done
-
-for i in `seq 1 7` ; do
-	rrdtool update dnssec.rrd 201009`printf "%02d" $i`@1
-done

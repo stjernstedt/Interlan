@@ -1,9 +1,0 @@
-#!/bin/sh
-file=/tmp/$$
-
-/home/it-companies/public_html/slump2/ipv6/script
-
-./ipv6 > $file
-cat $file > ../index.html
-rm $file
-

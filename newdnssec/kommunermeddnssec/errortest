@@ -1,6 +1,0 @@
-for i in `ls test` ; do
-	if [ "`cat test/$i | grep ERROR `" != "" ] ; then
-	
-		echo $i,`cat test/$i|grep ERROR|wc -l`
-	fi
-done

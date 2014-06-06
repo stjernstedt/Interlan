@@ -1,5 +1,0 @@
-for i in `ls test` ; do
-	if [ "`dig +short ns $i`" = "" ] ; then
-		echo $i
-	fi
-done

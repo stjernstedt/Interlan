@@ -1,5 +1,0 @@
-for i in `cat domain` ; do
-	if [ "`dig +short -ta $i`" ] ; then
-		echo $i
-	fi
-done

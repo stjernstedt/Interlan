@@ -1,7 +1,0 @@
-#!/bin/sh
-cd /home/it-companies/public_html/rdns/script
-
-for i in `cat domain|sort` ; do
-	echo $i
-	dnscheck $i >test/$i 
-done

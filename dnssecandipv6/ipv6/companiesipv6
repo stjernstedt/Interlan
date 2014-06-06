@@ -1,9 +1,0 @@
-#!/bin/sh
-file=/tmp/$$
-
-./ipv6 > $file
-cat $file > ../public_html/ipv6/index.html
-rm $file
-
-./rrd
-

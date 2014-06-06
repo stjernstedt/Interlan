@@ -1,7 +1,0 @@
-loopia=0	
-for i in `cat domain|sort` ; do
-	if [ "`dig +short ns $i|grep loopia`" ] ; then
-		loopia=`echo $loopia+1|bc`
-		echo $i,$loopia
-	fi
-done

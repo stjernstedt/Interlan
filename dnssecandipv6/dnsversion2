@@ -1,7 +1,0 @@
-#!/bin/sh
-for i in `cat stadsnat|sort` ; do
-        echo "----- $i -----"
-        fpdns -t 1 -D $i | tee version/$i
-	echo
-done
-

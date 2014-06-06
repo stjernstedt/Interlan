@@ -1,5 +1,0 @@
-res=
-        if [ "`cat ../public_html/worldipv6day/endedtest.html|grep $1`"  ] ; then
-                echo "<img width=28 height=26 src=/chicken.gif>" >>$1
-        fi
-

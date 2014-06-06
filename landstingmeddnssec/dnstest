@@ -1,6 +1,0 @@
-#!/bin/sh
-cd /home/landstingmeddnssec
-for i in `cat landsting` ; do
-	echo $i
-	dnscheck $i | grep -v "Too few IPv6 name servers" >test/$i &
-done

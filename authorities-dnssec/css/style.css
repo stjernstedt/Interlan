@@ -1,0 +1,110 @@
+body{
+	font-family: Arial, tahoma, verdana, arial;
+}
+
+#datepicker {
+	display: inline;
+	position: relative;
+	float: right;
+}
+
+#legend {
+	display: inline;
+	position: relative;
+	float: left;
+}
+
+#dBigger {
+	 width:462px;
+	 height:149px;
+	 position:relative;
+	 left:-10px;
+	 top:-10px;
+	 display:none;
+}
+#hoverDiv {
+	position:absolute;
+	visibility:hidden;
+	left:0px;top:0px;
+	font:11px verdana;
+	border:1px solid #AFAF20;
+	padding:4px;
+	width:220px;
+	background-color:#FFFFE0;
+	z-index: 102;
+}
+
+#securedDomains {
+}
+
+#unsecuredDomains {
+	display: inline-block;
+	width: 100%;
+	margin-top: 10px;
+}
+
+
+.mainContainer{
+	background-repeat: repeat-y;
+	font-size: 12px;
+	padding: 20px;
+	border: 1px solid #e0e0e0;
+	position:absolute;
+	left:50%;
+	width:880px;
+	margin-left:-440px;
+	margin-top:50px;
+}
+
+.subContainer{
+	clear: both;
+	position: relative;
+	/* margin-bottom: 42px;*/
+}
+
+.dom{
+	/*background-color: #FF00FF; */
+}
+
+.okdom{
+	background-color: #A0FFA0;
+}
+
+.errorDom{
+	background-color: #FF4040;
+}
+
+.warningDom{
+	background-color: #FFBC40;
+}
+
+.dom, .okdom, .warningDom, .errorDom{
+	/*border: 1px solid black;*/
+	position: inherit;
+	padding: 2px;
+	width: 210px;
+	margin: 1px;
+	overflow: hidden;
+	float: left;
+	height: 20px;
+	z-index: 101;
+}
+
+h1, h2, h3, h4, h5, h6{
+	border-bottom: 1px solid #b0b0b0;
+}
+
+.contact{
+	text-style: uppercase;
+}
+
+a{
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover{
+	color: #0000FF;
+	text-decoration: underline;
+}

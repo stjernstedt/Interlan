@@ -1,6 +1,0 @@
-#!/bin/sh
-cd /home/it-companies/public_html/urbandns/script
-for i in `cat domain|sort` ; do
-	echo $i
-	dnscheck $i | grep -v "Too few IPv6 name servers" >test/$i 
-done

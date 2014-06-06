@@ -1,9 +1,0 @@
-for i in `cat mx6` ; do
-	if [ "`grep $i www6`" ] ; then
-		if [ "`grep $i dns6`" ] ; then
-			if [ "`dig +short ds $i`" ] ; then
-				echo $i
-			fi	
-		fi
-	fi
-done	

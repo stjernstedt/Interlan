@@ -1,8 +1,0 @@
-for i in `cat kommun` ; do
-	dns=`dig +short ns $i`
-	echo -n $i,
-	for j in `echo $dns` ; do
-		echo -n $j,
-	done
-	echo
-done

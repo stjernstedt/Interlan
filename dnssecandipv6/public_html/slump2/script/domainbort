@@ -1,7 +1,0 @@
-for i in  ` cat bort2.txt` ; do
-	echo $i
-	cat domain|grep -v $i >/tmp/$$
-	mv /tmp/$$ domain
-	rm test/$i
-	rm version/$i
-done

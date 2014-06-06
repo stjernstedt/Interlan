@@ -1,5 +1,0 @@
-for i in `cat domain` ; do
-if [ ! -f test/$i ] ; then
-	echo $i
-fi
-done

@@ -1,5 +1,0 @@
-for i in `cat kommun` ; do
-	if [ "`dig +short mx $i|grep stej`" ] ; then
-		echo $i
-	fi
-done

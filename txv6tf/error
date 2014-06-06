@@ -1,4 +1,0 @@
-#!/bin/sh
-date=`date +"%Y%m%d"`
-cat dns/$date/$1 | grep -vi ns2.gavlenet.com | grep ERROR
-cat dns/$date/$1 | grep -vi ns2.gavlenet.com |grep WARNING

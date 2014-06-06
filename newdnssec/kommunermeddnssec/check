@@ -1,7 +1,0 @@
-#!/bin/sh
-for i in `ls test` ; do
-	if [ ! "`cat kommun|grep $i`" ] ; then
-		echo $i
-		rm test/$i
-	fi
-done

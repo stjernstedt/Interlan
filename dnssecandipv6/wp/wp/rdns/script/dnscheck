@@ -1,7 +1,0 @@
-echo -n "<br><i>A <a href=http://dnscheck.iis.se>DNSCheck</a> againist `cat domain|wc -l` domains \
-`date "+%Y-%m-%d"` gave a result of "
-echo `cat test/* | grep "is recursive"|wc -l` recursice DNS\'s and DNSCheck also found \
-`cat test/* | grep ERROR|wc -l` ERROR and \
-`cat test/* | grep WARN|wc -l` WARNINGS
-echo "<br>`cat antal.txt` domains has just one DNS, "
-echo "`cat version/* | grep "BIND 8"|wc -l` DNS's is running BIND version 8.* and `cat version/*|grep 2000|wc -l` is  Windows 2000<br>"

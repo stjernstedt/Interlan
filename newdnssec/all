@@ -1,5 +1,0 @@
-#for i in `ls data/history/` ; do
-for i in `seq 10 27`; do
-	echo $i
-	time php transform.php 201208$i > public_html/data/$i.json
-done

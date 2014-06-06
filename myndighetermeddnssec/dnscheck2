@@ -1,6 +1,0 @@
-echo -n "<br><i>En <a href=http://dnscheck.iis.se>DNSCheck</a> mot `cat domain|wc -l` myndighetsdomäner \
-`ls -al test/av.se |awk '{print $6" "$7}'` gav "
-echo `cat test/* | grep "is recursive"|wc -l` rekursiva DNS\'er och DNSCheck hittade även \
-`cat test/* | grep ERROR|wc -l` ERROR och \
-`cat test/* | grep WARN|wc -l` WARNINGS
-echo "<br>`cat antal.txt` domäner har bara en DNS<br></i>"

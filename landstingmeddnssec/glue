@@ -1,5 +1,0 @@
-for i in `cat landsting|sort ` ; do
-	if [ "`dig +short ns $i|grep $i`" ] ; then
-		echo $i
-	fi
-done
