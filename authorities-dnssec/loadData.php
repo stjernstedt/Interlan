@@ -11,7 +11,6 @@
 	
 	loadData($date);
 	function loadData($date) {
-		// $conn = new mysqli("localhost", "root", "1q2w3e4r", "test") or die("cannot connect");
 		$conn = new mysqli("localhost", "root", "", "interlan") or die("cannot connect");
 		$conn->query("SET NAMES utf8");
 
