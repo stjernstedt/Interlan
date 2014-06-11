@@ -1,6 +1,4 @@
 <?php
-	// $conn = mysql_connect("localhost", "root", "1q2w3e4r") or die("cannot connect");
-	// mysql_select_db("test");
 	$conn = new mysqli("localhost", "root", "", "interlan") or die("cannot connect");
 	$conn->query("SET NAMES utf8");
 	ini_set('max_execution_time', 0);
