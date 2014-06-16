@@ -34,7 +34,7 @@ function loadData(date) {
 
 function reloadAll(date) {
 	if (typeof date == 'undefined') date = lastSelectedDate;
-	var countries = {};
+	countries = {};
 	var boxes = document.getElementsByName('country[]');
 	$.each(boxes, function(index, box) {
 		if (this.checked == true) {
@@ -183,6 +183,7 @@ function loadList(code) {
 		cntWithError = 0;
 		cntRecursive = 0;
 		
+		
 		countryPolygons[code] = {};
 		$.each(municipalitiesByCountry[code], function () {
 			$(this).each(function () {
@@ -197,12 +198,35 @@ function loadList(code) {
         dnsCheckInfoString = dnsCheckInfoString.replace(/\{3\}/, cntWithError.toString());
         dnsCheckInfoString = dnsCheckInfoString.replace(/\{4\}/, cntWithWarning.toString());
         dnsCheckInfoString = dnsCheckInfoString.replace(/\{5\}/, cntOnlyOneDns.toString());
-
+		
         setTimeout(function () { $("#loader").hide(); }, 1);
+		statistics();
     }, 1);
 }
 
+function statistics() {
+	var totalDomains = 0;
+	var secureDomains = 0;
+	var stats = "<?php echo getTranslatedItem("STATISTICS")?>";
+
+	var boxes = document.getElementsByName('country[]');
+	
+	$.each(boxes, function(index, box) {
+		if (this.checked == true) {
+			$.each(countryPolygons[this.value], function() {
+				totalDomains++;
+				if(this[0].secure) secureDomains++;
+			});
+		}
+	});
+
+	stats = stats.replace(/\{0\}/, secureDomains);
+	stats = stats.replace(/\{1\}/, totalDomains);
+	$('#statistics').text(stats);
+}
+
 function addPolygon(municipality, code) {
+	var secure = true;
 	if (typeof municipality.knnr !== 'undefined')
 		var knnr = municipality.knnr.toString();
 	if (typeof municipality.properties !== 'undefined') {
@@ -225,11 +249,11 @@ function addPolygon(municipality, code) {
 
 		cntTotalDomains++;
 		try{
-			if( info.dnsList.length == 1) cntOnlyOneDns++;
-			if( info.dnsSecSigned ) cntSignedDomains++;
-			if( info.warnings.length > 0) cntWithWarning++;
-			if( info.errors.length > 0) cntWithError++;
-			if( info.isRecursive ) cntRecursive++;
+			if( info.dnsList.length == 1) {cntOnlyOneDns++;secure = false}
+			if( info.dnsSecSigned == 1) cntSignedDomains++; else secure = false;
+			if( info.warnings.length > 0) {cntWithWarning++;secure = false}
+			if( info.errors.length > 0) {cntWithError++;secure = false}
+			if( info.isRecursive == 1) {cntRecursive++;secure = false}
 		}
 		catch(e){}
 
@@ -327,7 +351,8 @@ function addPolygon(municipality, code) {
 				strokeWeight: color == "fff" ? 0.5 : 0.5,
 				fillColor: "#" + color,
 				fillOpacity: color == "fff" ? 0 : opacityOfPolygon,
-				countryCode: code
+				countryCode: code,
+				secure: secure
 			}));
 			countryPolygons[code][info.knnr].slice(-1).pop().setMap(map);
 		}
@@ -340,7 +365,8 @@ function addPolygon(municipality, code) {
 				strokeWeight: color == "fff" ? 0.5 : 0.5,
 				fillColor: "#" + color,
 				fillOpacity: color == "fff" ? 0 : opacityOfPolygon,
-				countryCode: code
+				countryCode: code,
+				secure: secure
 			}));
 			countryPolygons[code][info.knnr].slice(-1).pop().setMap(map);
 		}
@@ -421,6 +447,7 @@ function clearMap(code) {
 			this.setMap(null);
 		});
 	});
+	statistics();
 }
 
 function checkBox(box) {

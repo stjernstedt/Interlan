@@ -36,7 +36,9 @@
 
 		"CREDITS" => array("Sidan är skapad av <a href='http://www.interlan.se'>Interlan</a> och expanderad av Mattias Stjernstedt.","This site was created by <a href='http://www.interlan.se'>Interlan</a> and expanded by Mattias Stjernstedt."),
 
-		"SOURCE_LINK" => array("K&auml;llkod", "Source")
+		"SOURCE_LINK" => array("K&auml;llkod", "Source"),
+		
+		"STATISTICS" => array("{0} av {1} kommuner säkrade.", "{0} of {1} municipalities secured.")
 
 	);
 

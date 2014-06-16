@@ -70,6 +70,9 @@
                     <input type="checkbox" class="filters" value="allIp" id="allIp" onclick="selectAllIpv6()" /> <?php echo getTranslatedItem("IPV6_ALL") ?><br />
                 </p>
             </div>
+			<div id="statistics">
+			
+			</div>
 
 
         </div><br />
