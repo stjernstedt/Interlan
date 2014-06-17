@@ -207,8 +207,14 @@ function loadList(code) {
 function statistics() {
 	var totalDomains = 0;
 	var secureDomains = 0;
-	var stats = "<?php echo getTranslatedItem("STATISTICS")?>";
+	var ipv6Domains = 0;
 
+	$("#tabs").tabs().tabs('option', 'selected') == 0 ? tab = 0 : tab = 1;
+	if(tab == 0)
+		var stats = "<?php echo getTranslatedItem("STATISTICS")?>";
+	else
+		var stats = "<?php echo getTranslatedItem("STATISTICS_IPV6")?>";
+		
 	var boxes = document.getElementsByName('country[]');
 	
 	$.each(boxes, function(index, box) {
@@ -216,17 +222,25 @@ function statistics() {
 			$.each(countryPolygons[this.value], function() {
 				totalDomains++;
 				if(this[0].secure) secureDomains++;
+				if(this[0].ipv6) ipv6Domains++;
+				if(this[0].ipv6) console.log("ipv6");
 			});
 		}
 	});
 
-	stats = stats.replace(/\{0\}/, secureDomains);
+	if(tab == 0)
+		stats = stats.replace(/\{0\}/, secureDomains);
+	else
+		stats = stats.replace(/\{0\}/, ipv6Domains);
+	
 	stats = stats.replace(/\{1\}/, totalDomains);
 	$('#statistics').text(stats);
 }
 
 function addPolygon(municipality, code) {
 	var secure = true;
+	var ipv6 = false;
+	
 	if (typeof municipality.knnr !== 'undefined')
 		var knnr = municipality.knnr.toString();
 	if (typeof municipality.properties !== 'undefined') {
@@ -341,6 +355,7 @@ function addPolygon(municipality, code) {
 			color = "0f0";
 			if ($("#tabs input[class='filters']:checked").size() == 0 && (info.ipWww != 1 || info.ipDns != 1 || info.ipMail != 1)) color = "f90";
 			if ($("#tabs input[class='filters']:checked").size() == 0 && ( info.ipWww != 1 && info.ipDns != 1 && info.ipMail != 1)) color = "f00";
+			if (color == "0f0") ipv6 = true;
 		}
 	
 		function createPolygon() {
@@ -352,7 +367,8 @@ function addPolygon(municipality, code) {
 				fillColor: "#" + color,
 				fillOpacity: color == "fff" ? 0 : opacityOfPolygon,
 				countryCode: code,
-				secure: secure
+				secure: secure,
+				ipv6: ipv6
 			}));
 			countryPolygons[code][info.knnr].slice(-1).pop().setMap(map);
 		}
@@ -366,7 +382,8 @@ function addPolygon(municipality, code) {
 				fillColor: "#" + color,
 				fillOpacity: color == "fff" ? 0 : opacityOfPolygon,
 				countryCode: code,
-				secure: secure
+				secure: secure,
+				ipv6: ipv6
 			}));
 			countryPolygons[code][info.knnr].slice(-1).pop().setMap(map);
 		}

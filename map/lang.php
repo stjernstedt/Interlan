@@ -38,7 +38,8 @@
 
 		"SOURCE_LINK" => array("K&auml;llkod", "Source"),
 		
-		"STATISTICS" => array("{0} av {1} kommuner säkrade.", "{0} of {1} municipalities secured.")
+		"STATISTICS" => array("{0} av {1} kommuner säkrade.", "{0} of {1} municipalities secured."),
+		"STATISTICS_IPV6" => array("{0} av {1} kommuner har IPv6 på www, mail och dns.", "{0} of {1} municipalities have IPv6 on www, mail and dns.")
 
 	);
 
