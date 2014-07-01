@@ -18,7 +18,7 @@
 	
 	$statusResult = $conn->query($query) or die(mysqli_error($conn));
 
-	$query = "SELECT lData, lMunicipalityId FROM logs WHERE lType LIKE 'WARNING' AND lInsDate LIKE '$date%'";
+	$query = "SELECT lData, lMunicipalityId FROM logs WHERE lInsDate LIKE '$date%' AND lType LIKE 'WARNING'";
 	$warningsResult = $conn->query($query) or die(mysqli_error($conn));
 	$warnings = array();
 	while($line = mysqli_fetch_array($warningsResult, MYSQL_NUM)) {
@@ -26,7 +26,7 @@
 		array_push($warnings[$line[1]], $line[0]);
 	}
 	
-	$query = "SELECT lData, lMunicipalityId FROM logs WHERE lType LIKE 'ERROR' AND lInsDate LIKE '$date%'";
+	$query = "SELECT lData, lMunicipalityId FROM logs WHERE lInsDate LIKE '$date%' AND lType LIKE 'ERROR'";
 	$errorsResult = $conn->query($query) or die(mysqli_error($conn));
 	$errors = array();
 	while($line = mysqli_fetch_array($errorsResult, MYSQLI_NUM)) {
