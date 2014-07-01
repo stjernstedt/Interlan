@@ -63,8 +63,7 @@ $(function () {
 		country: $("#"+preSelect).attr('id'),
 		code: $("#"+preSelect).attr('value')
 	});
-	// $("#tabs input[value=country.code]").prop("checked", true);
-	// $("#tabs input[value='1']").prop("checked", true);
+
 	$("#tabs").tabs({
 		show: function () {
 		},
@@ -87,16 +86,6 @@ $(function () {
         monthNamesShort : [<?php echo getTranslatedItem("MONTH_NAMES_SHORT") ?>],
         dayNamesMin: [<?php echo getTranslatedItem("DAY_NAMES_SHORT") ?>],
     });
-
-	$("input[id='allIp']").change(function () {
-		if ($("input[id='allIp']").hasAttr("checked"))
-			$("input[value='ip']").removeAttr("checked");
-		else
-			$("input[value='ip']").attr("checked", $(this).attr("checked"));
-		
-		loadData();
-    });
-
 
     var mapOptions = {
         center: new google.maps.LatLng(63.027722, 15.58136),
@@ -223,7 +212,6 @@ function statistics() {
 				totalDomains++;
 				if(this[0].secure) secureDomains++;
 				if(this[0].ipv6) ipv6Domains++;
-				if(this[0].ipv6) console.log("ipv6");
 			});
 		}
 	});
@@ -239,7 +227,7 @@ function statistics() {
 
 function addPolygon(municipality, code) {
 	var secure = true;
-	var ipv6 = false;
+	var ipv6 = true;
 	
 	if (typeof municipality.knnr !== 'undefined')
 		var knnr = municipality.knnr.toString();
@@ -353,9 +341,8 @@ function addPolygon(municipality, code) {
 			if ($("#dns").is(':checked') && info.ipDns != 1) { show = false; }
 			if ($("#mail").is(':checked') && info.ipMail != 1) { show = false; }
 			color = "0f0";
-			if ($("#tabs input[class='filters']:checked").size() == 0 && (info.ipWww != 1 || info.ipDns != 1 || info.ipMail != 1)) color = "f90";
-			if ($("#tabs input[class='filters']:checked").size() == 0 && ( info.ipWww != 1 && info.ipDns != 1 && info.ipMail != 1)) color = "f00";
-			if (color == "0f0") ipv6 = true;
+			if (info.ipWww != 1 || info.ipDns != 1 || info.ipMail != 1) {color = "f90"; ipv6 = false;}
+			if (info.ipWww != 1 && info.ipDns != 1 && info.ipMail != 1) {color = "f00"; ipv6 = false;}
 		}
 	
 		function createPolygon() {
