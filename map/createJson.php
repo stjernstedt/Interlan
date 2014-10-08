@@ -11,14 +11,18 @@
 	$date = $_GET['date'];
 	$code = trim($_GET['code']);
 
+	$date = $conn->real_escape_string($date);
+	
+	// gets data from all domains from a specific country and date
 	$query = "SELECT sDomain, sDnssec, sRecursive, sMail, sDns, iTruedns6, iTruemx6, iTruewww6, mId, mCode, mName FROM status " .
 	"INNER JOIN municipalities ON sDomain = mDomain AND mCountryId = '$code' " .
-	"LEFT JOIN ipv6 ON sDomain = iDomain AND iInsDate LIKE '$date%' " .
-	"WHERE sInsDate LIKE '$date%'";
+	"LEFT JOIN ipv6 ON sDomain = iDomain AND iInsDate = '$date' " .
+	"WHERE sInsDate = '$date'";
 	
 	$statusResult = $conn->query($query) or die(mysqli_error($conn));
 
-	$query = "SELECT lData, lMunicipalityId FROM logs WHERE lInsDate LIKE '$date%' AND lType LIKE 'WARNING'";
+	// gets all warnings from a specific date
+	$query = "SELECT lData, lMunicipalityId FROM logs WHERE lInsDate = '$date' AND lType LIKE 'WARNING'";
 	$warningsResult = $conn->query($query) or die(mysqli_error($conn));
 	$warnings = array();
 	while($line = mysqli_fetch_array($warningsResult, MYSQL_NUM)) {
@@ -26,7 +30,8 @@
 		array_push($warnings[$line[1]], $line[0]);
 	}
 	
-	$query = "SELECT lData, lMunicipalityId FROM logs WHERE lInsDate LIKE '$date%' AND lType LIKE 'ERROR'";
+	// gets all errors from a specific date
+	$query = "SELECT lData, lMunicipalityId FROM logs WHERE lInsDate = '$date' AND lType LIKE 'ERROR'";
 	$errorsResult = $conn->query($query) or die(mysqli_error($conn));
 	$errors = array();
 	while($line = mysqli_fetch_array($errorsResult, MYSQLI_NUM)) {
@@ -34,6 +39,7 @@
 		array_push($errors[$line[1]], $line[0]);
 	}
 	
+	// formats data into proper format
 	while($line = mysqli_fetch_array($statusResult, MYSQLI_ASSOC)) {
 		$warn = array();
 		if(isset($warnings[$line['mId']])) {

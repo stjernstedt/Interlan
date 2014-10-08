@@ -10,6 +10,8 @@
 
 	
 	loadData($date);
+	
+	// gets data for authorities
 	function loadData($date) {
 		$conn = new mysqli("localhost", "root", "", "interlan") or die("cannot connect");
 		$conn->query("SET NAMES utf8");
@@ -17,13 +19,15 @@
 		$GLOBALS['secureDomains'] = "";
 		$GLOBALS['unsecureDomains'] = "";
 		
+		$date = $conn->real_escape_string($date);
+		
 		$query = "SELECT asDomain, asDnssec, asRecursive, asErrors, asWarnings, asMail, asDns ".
-		"FROM authStatus WHERE asInsDate LIKE '$date%'";
+		"FROM authStatus WHERE asInsDate = '$date'";
 		$statusResult = $conn->query($query);
 		
 		$query = "SELECT alType, alData, aDomain FROM authLogs ".
 		"INNER JOIN authorities ON aId = alAuthorityId ".
-		"WHERE alInsDate LIKE '$date%'";
+		"WHERE alInsDate = '$date'";
 		$logsResult = $conn->query($query);
 		
 		$errors = array();
@@ -65,6 +69,7 @@
 		$conn->close();
 	}
 	
+	// provides html for a single domain based on status
 	function outputSingleDomain($host, $isSecure, $email, $nsList, $errLevel, $warnLevel, $isRecursive, $errOutput){
 
 		global $okDomCount;

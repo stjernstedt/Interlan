@@ -8,8 +8,10 @@
 	// $today = "2014-05-20";
 	isset($_GET['date']) ? $date = $_GET['date'] : $date = $today;
 
+	$date = $conn->real_escape_string($date);
+
 	$query = "SELECT aiDomain, aiDns6, aiErrdns6, aiMx6, aiErrmx6, aiWww6, aiErrwww6 FROM authIpv6 ".
-	"WHERE aiInsDate LIKE '$date%'";
+	"WHERE aiInsDate = '$date'";
 	$ipResults = $conn->query($query);
 	
 	$query = "SELECT COUNT(aId) FROM authorities";
@@ -27,6 +29,7 @@
 	$dnsCount = 0;
 	$okCount = 0;
 
+	// makes html page from fetched data
 	while($line = mysqli_fetch_array($ipResults, MYSQLI_ASSOC)) {
 		$count = 0;
 		if($line['aiDns6'] == 1) {

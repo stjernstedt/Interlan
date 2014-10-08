@@ -22,6 +22,7 @@ var lastSelectedDate = today;
 var	municipalitiesByCountry = {};
 var municipalities = new Array();
 
+// loads map data
 function loadData(date) {
 	$("#loader").show();
 	if (typeof date == 'undefined') date = lastSelectedDate;
@@ -32,6 +33,7 @@ function loadData(date) {
 	loadList(country.code);
 }
 
+// refreshes map view
 function reloadAll(date) {
 	if (typeof date == 'undefined') date = lastSelectedDate;
 	countries = {};
@@ -54,6 +56,7 @@ function reloadAll(date) {
 	});
 }
 
+// initializes map and datepicker
 $(function () {
 	if(preSelect == "") preSelect = "sverige";
 	$("#tabs input").prop("checked", false);
@@ -105,6 +108,7 @@ $(function () {
 	loadData();
 });
 
+// loads municipalities map data
 function loadMap(code) {
 	municipalities = new Array();
 
@@ -131,6 +135,7 @@ function loadMap(code) {
     });
 }
 
+// loads municipalities status data
 function loadInfo(date, code) {
 	municipalitiesInfo = {};
 
@@ -162,6 +167,7 @@ var cntWithWarning = 0;
 var cntWithError = 0;
 var cntRecursive = 0;
 
+// adds polygon for each municipality loaded
 function loadList(code) {
     setTimeout(function () {
 
@@ -193,6 +199,7 @@ function loadList(code) {
     }, 1);
 }
 
+// prints statistics of secured municipalities
 function statistics() {
 	var totalDomains = 0;
 	var secureDomains = 0;
@@ -225,6 +232,7 @@ function statistics() {
 	$('#statistics').text(stats);
 }
 
+// function that actually adds the polygons to the map
 function addPolygon(municipality, code) {
 	var secure = true;
 	var ipv6 = true;
@@ -259,6 +267,9 @@ function addPolygon(municipality, code) {
 		}
 		catch(e){}
 
+		// depending on the structure of the data in the municipalities' coordinates files different
+		// methods for extracting the data is used
+		
 		if(typeof municipality.geometry !== 'undefined') {
 			if(typeof municipality.geometry.geometries !== 'undefined') {
 				$(eval(municipality.geometry.geometries)).each(function () {
@@ -308,6 +319,7 @@ function addPolygon(municipality, code) {
         var show = true;
         var color = "fff";
 
+		// the polygons are colored and shown depending on which filters are selected
 		if ($("#tabs").tabs().tabs('option', 'selected') == 0) {
 			show = !$("#signed").is(':checked') && !$("#noerror").is(':checked') && !$("#warnings").is(':checked') && !$("#errors").is(':checked');
 			var noneSelected = $("#tabs input[value='dns']:checked").size()- $("#tabs input#signed[type='checkbox']:checked").size() == 0;
@@ -345,6 +357,7 @@ function addPolygon(municipality, code) {
 			if (info.ipWww != 1 && info.ipDns != 1 && info.ipMail != 1) {color = "f00"; ipv6 = false;}
 		}
 	
+		// adds a municipality's polygons to an array because some municipalities have areas not connected by land
 		function createPolygon() {
 			countryPolygons[code][info.knnr] = new Array(new google.maps.Polygon({
 				paths: polyCoords,
@@ -388,6 +401,7 @@ function addPolygon(municipality, code) {
 			}
 		}
 		
+		// click listener on the map to show info of municipalities
         google.maps.event.addListener(countryPolygons[code][info.knnr].slice(-1).pop(), "click", function (event) {
             var vertices = this.getPath();
             var contentString = "<h3>" + (info == null ? knnr : info.name) + "</h3>";
@@ -445,6 +459,7 @@ function generateListFromArray(title, arr) {
     return "";
 }
 
+// clears the map of polygons
 function clearMap(code) {
 	$.each(countryPolygons[code], function() {
 		$.each(this, function() {
@@ -454,6 +469,7 @@ function clearMap(code) {
 	statistics();
 }
 
+// makes sure the same checkboxes are selected between tabs
 function checkBox(box) {
 	var boxes = document.getElementsByName('country[]');
 	var boxes2 = document.getElementsByName('country2[]');
@@ -478,6 +494,7 @@ function checkBox(box) {
 	loadData();
 }
 
+// select all ipv6 filters
 function selectAllIpv6() {
 	if(document.getElementById('allIp').checked == true) {
 		document.getElementById('www').checked = true;
