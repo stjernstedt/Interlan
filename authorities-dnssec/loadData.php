@@ -1,8 +1,8 @@
 <?php
 	require_once "lang.php";
 	
-	// $today = date("Y-m-d");
-	$today = "2014-05-20";
+	$today = date("Y-m-d");
+	// $today = "2014-05-20";
 	isset($_GET['date']) ? $date = $_GET['date'] : $date = $today;
 
 	$okDomCount = 0;

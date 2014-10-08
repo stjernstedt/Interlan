@@ -12,6 +12,7 @@
 	$code = trim($_GET['code']);
 
 	$date = $conn->real_escape_string($date);
+	$code = $conn->real_escape_string($code);
 	
 	// gets data from all domains from a specific country and date
 	$query = "SELECT sDomain, sDnssec, sRecursive, sMail, sDns, iTruedns6, iTruemx6, iTruewww6, mId, mCode, mName FROM status " .
